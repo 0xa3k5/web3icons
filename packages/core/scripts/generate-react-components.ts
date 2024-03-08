@@ -1,7 +1,11 @@
 import fs from "fs";
 import path from "path";
 import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from "../src/constants";
-import { generateReactComponent, generateTypesFile } from "../src/ops";
+import {
+  generateBaseIconComponent,
+  generateReactComponent,
+  generateTypesFile,
+} from "../src/ops";
 
 if (!fs.existsSync(SVG_OUTPUT_DIR)) {
   fs.mkdirSync(SVG_OUTPUT_DIR);
@@ -13,6 +17,9 @@ if (!fs.existsSync(JSX_OUTPUT_DIR)) {
 
 // generate types file
 generateTypesFile();
+
+// generate BaseIcon component
+generateBaseIconComponent();
 
 const svgFiles = fs.readdirSync(SVG_OUTPUT_DIR);
 
