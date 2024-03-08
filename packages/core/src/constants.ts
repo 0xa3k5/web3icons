@@ -5,3 +5,7 @@ export const SVG_OUTPUT_DIR = path.join(
   __dirname,
   "../../../packages/react/icons"
 );
+export const JSX_OUTPUT_DIR = path.join(
+  __dirname,
+  "../../../packages/react/src"
+);
