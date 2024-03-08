@@ -1,7 +1,8 @@
 import { optimize } from "svgo";
-import { readFileSync, writeFileSync } from "fs";
+import fs from "fs";
 import path from "path";
 import * as cheerio from "cheerio";
+import { JSX_OUTPUT_DIR } from "./constants";
 
 export const optimizeSvg = (svg: string) => {
   return optimize(svg, {
@@ -70,22 +71,27 @@ export const transformSvg = (optimizedSvg: string) => {
   return $("svg").attr("props", "...").attr("ref", "forwardedRef").toString();
 };
 
+export const generateTypesFile = () => {
+  const fileContent = `export interface IconComponentProps {
+    size?: number | string;
+    color?: string;
+    className?: string;
+  }`;
+  fs.writeFileSync(path.join(JSX_OUTPUT_DIR, "types.ts"), fileContent);
+};
+
 type IconComponentOptions = {
   name: string;
-  outputDir: string;
   optimizedSvg: string;
 };
 
 export const generateReactComponent = async ({
   optimizedSvg,
-  outputDir,
   name,
 }: IconComponentOptions) => {
   const jsxSvg = readyForJSX(optimizedSvg);
-  // const compName = normalizeComponentName(path.basename(svgFilePath, ".svg"));
 
   const componentContent = `
-import React from 'react';
 import { forwardRef } from 'react';
 import { IconComponentProps } from "./types";
   
@@ -99,5 +105,5 @@ export default Icon${name};
 `;
 
   console.log(`Generated ${name} component`);
-  writeFileSync(path.join(outputDir, `${name}.tsx`), componentContent);
+  fs.writeFileSync(path.join(JSX_OUTPUT_DIR, `${name}.tsx`), componentContent);
 };

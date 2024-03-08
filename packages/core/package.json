@@ -1,10 +1,16 @@
 {
   "name": "@token-icons/core",
-  "module": "index.ts",
   "private": true,
   "version": "0.0.0",
   "license": "MIT",
   "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && bun generate-react-components",
+    "optimize-svgs": "bun run ./scripts/optimize-svgs.ts",
+    "generate-react-components": "bun run ./scripts/generate-react-components.ts"
+  },
   "devDependencies": {
     "bun-types": "latest",
     "cheerio": "^1.0.0-rc.12",

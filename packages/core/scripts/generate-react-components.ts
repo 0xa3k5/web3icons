@@ -1,7 +1,11 @@
 import fs from "fs";
 import path from "path";
-import { generateReactComponent } from "@token-icons/core";
-import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from "../constants";
+import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from "../src/constants";
+import { generateReactComponent } from "../src/ops";
+
+if (!fs.existsSync(SVG_OUTPUT_DIR)) {
+  fs.mkdirSync(SVG_OUTPUT_DIR);
+}
 
 if (!fs.existsSync(JSX_OUTPUT_DIR)) {
   fs.mkdirSync(JSX_OUTPUT_DIR);
@@ -11,9 +15,8 @@ const svgFiles = fs.readdirSync(SVG_OUTPUT_DIR);
 
 if (svgFiles.length === 0) {
   console.info("No optimized SVGs found, optimizing SVGs...");
-  const optimizeSvgScriptPath = path.join(__dirname, "./optimize-svgs.ts");
-  const optimizeSvgScript = `bun run ${optimizeSvgScriptPath}`;
-  require("child_process").execSync(optimizeSvgScript);
+  require("child_process").execSync("bun run optimize-svgs");
+  require("child_process").execSync("bun run generate-react-components");
 }
 
 // generate react components
@@ -23,7 +26,6 @@ svgFiles.forEach((svg) => {
     generateReactComponent({
       name: path.basename(svg, ".svg"),
       optimizedSvg: fs.readFileSync(svgFilePath, "utf-8"),
-      outputDir: JSX_OUTPUT_DIR,
     });
   }
 });

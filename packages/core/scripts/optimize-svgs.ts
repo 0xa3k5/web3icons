@@ -1,5 +1,5 @@
-import { optimizeSvg } from "@token-icons/core";
-import { SVG_OUTPUT_DIR, SVG_SOURCE_DIR } from "../constants";
+import { SVG_OUTPUT_DIR, SVG_SOURCE_DIR } from "../src/constants";
+import { optimizeSvg } from "../src/ops";
 import path from "path";
 import fs from "fs";
 
