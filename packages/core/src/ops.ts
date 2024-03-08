@@ -20,16 +20,22 @@ export const optimizeSvg = (svg: string) => {
 };
 
 export const normalizeComponentName = (filename: string): string => {
-  // Replace hyphens and spaces with underscores, make all letters lowercase
-  let name = filename.replace(/[- ]+/g, "_").toLowerCase();
+  // handle 0x prefix
+  const has0xPrefix = filename.startsWith("0x");
+  let nameWithoutPrefix = has0xPrefix ? filename.slice(2) : filename;
 
-  // Convert to PascalCase
-  return name
+  // replace hyphens and spaces with underscores, make all letters lowercase
+  let name = nameWithoutPrefix.replace(/[- ]+/g, "_").toLowerCase();
+
+  // convert to PascalCase
+  let pascalCaseName = name
     .replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) =>
       index === 0 ? word.toUpperCase() : word.toLowerCase()
     )
     .replace(/\s+/g, "")
     .replace(/_/g, "");
+
+  return has0xPrefix ? `0x${pascalCaseName}` : pascalCaseName;
 };
 
 const readyForJSX = (svgRaw: string): string => {
