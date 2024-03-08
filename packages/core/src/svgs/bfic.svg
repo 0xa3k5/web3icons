@@ -1,16 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_31_6982)">
-<path d="M0 0H24V24H0V0Z" fill="url(#paint0_linear_31_6982)"/>
-<path d="M10.7142 5.99979H7.28564V16.7141H9.4285V8.14265H14.1428C14.4042 8.14265 14.5714 8.33979 14.5714 8.57122V9.85693C14.5714 10.1269 14.4042 10.2855 14.1428 10.2855H11.5714V12.4284H14.1428C14.4042 12.4284 14.5714 12.6641 14.5714 12.8569V14.1426C14.5714 14.3569 14.3271 14.5712 14.1428 14.5712H11.5714V20.1426H13.7142V16.7141H15.1414C16.4699 16.7141 16.7142 15.8398 16.7142 15.2569V12.4284C16.723 12.2066 16.6668 11.9871 16.5526 11.7967C16.4385 11.6064 16.2712 11.4536 16.0714 11.3569C16.5171 11.1255 16.7142 10.4569 16.7142 10.0712V8.19836C16.7142 6.56979 15.7585 5.99979 15.1414 5.99979H12.8571V3.85693H10.7142V5.99979Z" fill="#F8E000"/>
-<path d="M9.4285 18H7.28564V20.1429H9.4285V18Z" fill="#F8E000"/>
-</g>
-<defs>
-<linearGradient id="paint0_linear_31_6982" x1="4.46571" y1="4.16143" x2="29.2071" y2="32.58" gradientUnits="userSpaceOnUse">
-<stop stop-color="#1A1E21"/>
-<stop offset="1" stop-color="#06060A"/>
-</linearGradient>
-<clipPath id="clip0_31_6982">
-<rect width="24" height="24" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><path fill="url(#b)" d="M0 0h24v24H0z"/><path fill="#F8E000" d="M10.714 6H7.286v10.714h2.143V8.143h4.714c.261 0 .428.197.428.428v1.286c0 .27-.167.429-.428.429H11.57v2.142h2.572c.261 0 .428.236.428.429v1.286c0 .214-.244.428-.428.428H11.57v5.572h2.143v-3.429h1.427c1.329 0 1.573-.874 1.573-1.457v-2.829a1.14 1.14 0 0 0-.643-1.071c.446-.231.643-.9.643-1.286V8.198C16.714 6.57 15.76 6 15.141 6h-2.284V3.857h-2.143z"/><path fill="#F8E000" d="M9.429 18H7.286v2.143h2.143z"/></g><defs><linearGradient id="b" x1="4.466" x2="29.207" y1="4.161" y2="32.58" gradientUnits="userSpaceOnUse"><stop stop-color="#1A1E21"/><stop offset="1" stop-color="#06060A"/></linearGradient><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>

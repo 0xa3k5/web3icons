@@ -1,17 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_31_8397)">
-<path d="M0 0H24V24H0V0Z" fill="url(#paint0_linear_31_8397)"/>
-<path d="M5.14282 6V13.2857H7.28568V6H5.14282ZM16.7143 10.7143V18H18.8571V10.7143H16.7143ZM12 6V10.98L14.1428 13.1871V8.14286L12 6ZM9.85711 10.9029V15.8571L12 18V13.2043L9.85711 10.9029Z" fill="white"/>
-<path d="M12 6H14.2843L18.8571 10.7143H16.7143L12 6ZM5.14282 13.2857H7.28568L12 18H9.71568L5.14282 13.2857Z" fill="#D8D8D8"/>
-<path d="M14.1428 8.1427V13.1613L7.28564 6.08984V13.2856L9.85707 15.857V11.027L16.7142 17.9998V10.7141L14.1428 8.1427Z" fill="#3CC68A"/>
-</g>
-<defs>
-<linearGradient id="paint0_linear_31_8397" x1="4.46571" y1="4.16143" x2="29.2071" y2="32.58" gradientUnits="userSpaceOnUse">
-<stop stop-color="#1A1E21"/>
-<stop offset="1" stop-color="#06060A"/>
-</linearGradient>
-<clipPath id="clip0_31_8397">
-<rect width="24" height="24" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><g clip-path="url(#a)"><path fill="url(#b)" d="M0 0h24v24H0z"/><path fill="#fff" d="M5.143 6v7.286h2.143V6zm11.571 4.714V18h2.143v-7.286zM12 6v4.98l2.143 2.207V8.143zm-2.143 4.903v4.954L12 18v-4.796z"/><path fill="#D8D8D8" d="M12 6h2.284l4.573 4.714h-2.143zm-6.857 7.286h2.143L12 18H9.716z"/><path fill="#3CC68A" d="M14.143 8.143v5.018L7.286 6.09v7.196l2.571 2.571v-4.83L16.714 18v-7.286z"/></g><defs><linearGradient id="b" x1="4.466" x2="29.207" y1="4.161" y2="32.58" gradientUnits="userSpaceOnUse"><stop stop-color="#1A1E21"/><stop offset="1" stop-color="#06060A"/></linearGradient><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>
