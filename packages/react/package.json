@@ -1,0 +1,15 @@
+{
+  "name": "@token-icons/react",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@svgr/core": "^8.1.0",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}

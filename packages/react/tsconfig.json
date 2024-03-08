@@ -1,0 +1,3 @@
+{
+  "extends": "@token-icons/typescript-config/react-library.json",
+}
