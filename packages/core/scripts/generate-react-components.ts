@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from "../src/constants";
-import { generateReactComponent } from "../src/ops";
+import { generateReactComponent, generateTypesFile } from "../src/ops";
 
 if (!fs.existsSync(SVG_OUTPUT_DIR)) {
   fs.mkdirSync(SVG_OUTPUT_DIR);
@@ -10,6 +10,9 @@ if (!fs.existsSync(SVG_OUTPUT_DIR)) {
 if (!fs.existsSync(JSX_OUTPUT_DIR)) {
   fs.mkdirSync(JSX_OUTPUT_DIR);
 }
+
+// generate types file
+generateTypesFile();
 
 const svgFiles = fs.readdirSync(SVG_OUTPUT_DIR);
 
@@ -24,7 +27,7 @@ svgFiles.forEach((svg) => {
   if (path.extname(svg) === ".svg") {
     const svgFilePath = path.join(SVG_OUTPUT_DIR, svg);
     generateReactComponent({
-      name: path.basename(svg, ".svg"),
+      baseName: path.basename(svg, ".svg"),
       optimizedSvg: fs.readFileSync(svgFilePath, "utf-8"),
     });
   }

@@ -81,15 +81,16 @@ export const generateTypesFile = () => {
 };
 
 type IconComponentOptions = {
-  name: string;
+  baseName: string;
   optimizedSvg: string;
 };
 
 export const generateReactComponent = async ({
   optimizedSvg,
-  name,
+  baseName,
 }: IconComponentOptions) => {
   const jsxSvg = readyForJSX(optimizedSvg);
+  const name = normalizeComponentName(baseName);
 
   const componentContent = `
 import { forwardRef } from 'react';
