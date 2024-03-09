@@ -122,3 +122,4 @@ export { default as IconAmb } from "./Amb";
 export { default as IconBake } from "./Bake";
 export { default as IconAlex } from "./Alex";
 export { default as IconAqtis } from "./Aqtis";
+export * from './types';

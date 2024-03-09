@@ -60,6 +60,7 @@ const indexFileContent = Object.entries(svgFiles)[0]![1] // only iterate one key
     );
     return `export { default as Icon${componentName} } from "./${componentName}";`;
   })
+  .concat("export * from './types';")
   .join("\n");
 
 // make index file
