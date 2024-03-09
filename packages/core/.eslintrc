@@ -1,0 +1,3 @@
+{
+    "extends": ["@token-icons/eslint-config/library.js"],
+}
