@@ -9,7 +9,7 @@ import {
   componentTypesScaffold,
 } from "./scaffolds";
 
-export const optimizeSvg = (svg: string) => {
+export const optimizeSvg = (svg: string, name: string) => {
   return optimize(svg, {
     plugins: [
       {
@@ -20,6 +20,7 @@ export const optimizeSvg = (svg: string) => {
           },
         },
       },
+      { name: "prefixIds", params: { prefix: name } },
     ],
   }).data;
 };
@@ -69,7 +70,19 @@ const injectCurrentColor = (svgRaw: string) => {
   return $.xml();
 };
 
-const readyForJSX = (svgRaw: string): string => {
+const styleStringToObject = (styleString: string) => {
+  const styleObject: Record<string, string> = {};
+  styleString.split(";").forEach((style) => {
+    let [key, value] = style.split(":");
+    if (key && value) {
+      key = toCamelCase(key.trim());
+      styleObject[key] = value.trim();
+    }
+  });
+  return styleObject;
+};
+
+const readyForJSX = (svgRaw: string) => {
   const $ = cheerio.load(svgRaw, { xmlMode: true });
 
   $("*").each((_, el) => {
@@ -77,29 +90,22 @@ const readyForJSX = (svgRaw: string): string => {
 
     const element = $(el);
     Object.entries(el.attribs).forEach(([attrKey, attrValue]) => {
-      if (attrKey && attrKey.includes("-")) {
-        element.attr(toCamelCase(attrKey), attrValue).removeAttr(attrKey);
-      }
-      if (attrKey === "class") {
+      const newKey = attrKey.includes("-") ? toCamelCase(attrKey) : attrKey;
+
+      if (newKey === "class") {
         element.attr("className", attrValue).removeAttr(attrKey);
+      } else if (newKey === "style") {
+        const styleObject = styleStringToObject(attrValue);
+        element.attr("style", JSON.stringify(styleObject)).removeAttr("style");
+      } else {
+        element.attr(newKey, attrValue);
+        if (newKey !== attrKey) {
+          element.removeAttr(attrKey);
+        }
       }
     });
   });
-
   return $("svg").html() || "";
-};
-
-export const transformSvg = (optimizedSvg: string) => {
-  const $ = cheerio.load(optimizedSvg, { xmlMode: true });
-  $("*").each((_, el) => {
-    if (el.type !== "tag") return;
-    Object.keys(el.attribs).forEach((attrKey) => {
-      if (attrKey === "class") {
-        $(el).attr("className", el.attribs[attrKey]).removeAttr(attrKey);
-      }
-    });
-  });
-  return $("svg").attr("props", "...").attr("ref", "forwardedRef").toString();
 };
 
 export const generateTypesFile = () => {

@@ -52,7 +52,7 @@ Object.entries(svgFiles).forEach(([key, value]) => {
 });
 
 // todo: iterate all keys
-const indexFileContent = Object.entries(svgFiles)[0][1] // only iterate one key
+const indexFileContent = Object.entries(svgFiles)[0]![1] // only iterate one key
   .filter((svg) => path.extname(svg) === ".svg")
   .map((svg) => {
     const componentName = normalizeComponentName(

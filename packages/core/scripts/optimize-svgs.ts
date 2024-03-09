@@ -22,9 +22,13 @@ const rawSVGs = {
 
 Object.entries(rawSVGs).forEach(([key, value]) => {
   value.forEach((rawSVG) => {
+    const baseName = path.basename(rawSVG, ".svg");
     const svgFilePath = path.join(SVG_SOURCE_DIR, key, rawSVG);
-    const optimizedSVG = optimizeSvg(fs.readFileSync(svgFilePath, "utf-8"));
-    console.log("→ optimized:", path.basename(svgFilePath, ".svg"));
+    const optimizedSVG = optimizeSvg(
+      fs.readFileSync(svgFilePath, "utf-8"),
+      baseName
+    );
     fs.writeFileSync(path.join(SVG_OUTPUT_DIR, key, rawSVG), optimizedSVG);
+    console.log("→ optimized:", baseName);
   });
 });
