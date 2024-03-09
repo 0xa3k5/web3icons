@@ -7,13 +7,24 @@ if (!fs.existsSync(SVG_OUTPUT_DIR)) {
   fs.mkdirSync(SVG_OUTPUT_DIR);
 }
 
-const rawSVGs = fs.readdirSync(SVG_SOURCE_DIR);
+if (!fs.existsSync(path.join(SVG_OUTPUT_DIR, "branded"))) {
+  fs.mkdirSync(path.join(SVG_OUTPUT_DIR, "branded"));
+}
 
-rawSVGs.forEach((rawSVG) => {
-  const svgFilePath = path.join(SVG_SOURCE_DIR, rawSVG);
-  const optimizedSVG = optimizeSvg(fs.readFileSync(svgFilePath, "utf-8"));
-  console.log("↳ optimized:", path.basename(svgFilePath, ".svg"));
-  fs.writeFileSync(path.join(SVG_OUTPUT_DIR, rawSVG), optimizedSVG);
+if (!fs.existsSync(path.join(SVG_OUTPUT_DIR, "mono"))) {
+  fs.mkdirSync(path.join(SVG_OUTPUT_DIR, "mono"));
+}
+
+const rawSVGs = {
+  branded: fs.readdirSync(path.join(SVG_SOURCE_DIR, "branded")),
+  mono: fs.readdirSync(path.join(SVG_SOURCE_DIR, "mono")),
+};
+
+Object.entries(rawSVGs).forEach(([key, value]) => {
+  value.forEach((rawSVG) => {
+    const svgFilePath = path.join(SVG_SOURCE_DIR, key, rawSVG);
+    const optimizedSVG = optimizeSvg(fs.readFileSync(svgFilePath, "utf-8"));
+    console.log("→ optimized:", path.basename(svgFilePath, ".svg"));
+    fs.writeFileSync(path.join(SVG_OUTPUT_DIR, key, rawSVG), optimizedSVG);
+  });
 });
-
-console.log(fs.readdirSync(SVG_OUTPUT_DIR).length, "SVGs optimized");

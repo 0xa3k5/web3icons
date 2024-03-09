@@ -3,6 +3,11 @@ import fs from "fs";
 import path from "path";
 import * as cheerio from "cheerio";
 import { JSX_OUTPUT_DIR } from "./constants";
+import {
+  componentBaseScaffold,
+  componentScaffold,
+  componentTypesScaffold,
+} from "./scaffolds";
 
 export const optimizeSvg = (svg: string) => {
   return optimize(svg, {
@@ -48,6 +53,22 @@ const toPasCalCase = (str: string) => {
     .replace(/_/g, "");
 };
 
+const injectCurrentColor = (svgRaw: string) => {
+  const $ = cheerio.load(svgRaw, { xmlMode: true });
+  $("*").each((_, el) => {
+    if (el.type !== "tag") return;
+    Object.keys(el.attribs).forEach((attrKey) => {
+      if (["fill", "stroke"].includes(attrKey)) {
+        const val = $(el).attr(attrKey);
+        if (val !== "none") {
+          $(el).attr(attrKey, "currentColor");
+        }
+      }
+    });
+  });
+  return $.xml();
+};
+
 const readyForJSX = (svgRaw: string): string => {
   const $ = cheerio.load(svgRaw, { xmlMode: true });
 
@@ -82,72 +103,43 @@ export const transformSvg = (optimizedSvg: string) => {
 };
 
 export const generateTypesFile = () => {
-  const fileContent = `export interface IconComponentProps {
-    size?: number | string;
-    color?: string;
-    className?: string;
-  }`;
-  fs.writeFileSync(path.join(JSX_OUTPUT_DIR, "types.ts"), fileContent);
-};
-
-export const generateBaseIconComponent = () => {
-  const fileContent = `
-import React, { SVGProps } from 'react';
-
-export interface BaseIconProps extends SVGProps<SVGSVGElement> {
-  size?: string | number;
-}
-
-const BaseIcon: React.FC<BaseIconProps> = ({ size = 24, children, ...props }) => {
-  const svgSize = typeof size === 'number' ? \`\${size}px\` : size;
-  return (
-    <svg
-      width={svgSize}
-      height={svgSize}
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
-      {children}
-    </svg>
+  fs.writeFileSync(
+    path.join(JSX_OUTPUT_DIR, "types.ts"),
+    componentTypesScaffold
   );
 };
 
-export default BaseIcon;`;
-
-  console.log(`Generated BaseIcon component`);
-  fs.writeFileSync(path.join(JSX_OUTPUT_DIR, "BaseIcon.tsx"), fileContent);
+export const generateBaseIconComponent = () => {
+  console.log(`❖ generated BaseIcon component`);
+  fs.writeFileSync(
+    path.join(JSX_OUTPUT_DIR, "BaseIcon.tsx"),
+    componentBaseScaffold
+  );
 };
 
-type IconComponentOptions = {
-  baseName: string;
-  optimizedSvg: string;
-};
-
-export const generateReactComponent = async ({
-  optimizedSvg,
-  baseName,
-}: IconComponentOptions) => {
-  const jsxSvgContent = readyForJSX(optimizedSvg);
+export const generateReactComponent = async (baseName: string) => {
   const name = normalizeComponentName(baseName);
+  const brandedSVG = fs.readFileSync(
+    path.join(__dirname, "./svgs/branded", `${baseName}.svg`),
+    "utf-8"
+  );
+  const monoSVG = fs.readFileSync(
+    path.join(__dirname, "./svgs/mono", `${baseName}.svg`),
+    "utf-8"
+  );
 
-  const componentContent = `
-import { forwardRef } from 'react';
-import { IconComponentProps } from "./types";
-import BaseIcon from './BaseIcon';
+  const brandedJSX = readyForJSX(brandedSVG);
+  const monoJSX = readyForJSX(injectCurrentColor(monoSVG));
 
-const Icon${name} = forwardRef<SVGSVGElement, IconComponentProps>((props, forwardedRef) => (
-  <BaseIcon {...props} ref={forwardedRef}>
-    ${jsxSvgContent}
-  </BaseIcon>
-));
+  const iconComponentContent = componentScaffold
+    .replace(/{{componentName}}/g, `Icon${name}`) //prefix with "Icon"
+    .replace(/{{brandedJSX}}/g, brandedJSX)
+    .replace(/{{monoJSX}}/g, monoJSX)
+    .replace(/{{displayName}}/g, name);
 
-Icon${name}.displayName = '${name}';
-
-export default Icon${name};
-`;
-
-  console.log(`Generated ${name} component`);
-  fs.writeFileSync(path.join(JSX_OUTPUT_DIR, `${name}.tsx`), componentContent);
+  console.log(`❖ generated ${name} component`);
+  fs.writeFileSync(
+    path.join(JSX_OUTPUT_DIR, `${name}.tsx`),
+    iconComponentContent
+  );
 };
