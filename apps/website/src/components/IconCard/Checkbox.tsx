@@ -21,8 +21,8 @@ export default function Checkbox({
       />
       <span
         className={cx(
-          "border-white/20 relative mr-2 inline-block h-6 w-6 rounded border",
-          checked ? "bg-[#FF3D00]" : "bg-mirage/20",
+          "relative mr-2 inline-block h-6 w-6 rounded border border-gray-lightest",
+          checked ? "bg-primary" : "bg-gray-light",
         )}
       >
         {checked && (
@@ -36,7 +36,7 @@ export default function Checkbox({
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path d="M5 13l4 4L19 7"></path>
+              <path d="M5 13l4 4L19 7" />
             </svg>
           </span>
         )}

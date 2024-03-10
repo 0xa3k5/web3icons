@@ -1,6 +1,7 @@
 import cx from "classnames";
 import { IconComponentProps } from "@token-icons/react";
 import DownloadButton from "./DownloadButton";
+import CopyButton from "./CopyButton";
 
 interface Props {
   className?: string;
@@ -22,18 +23,23 @@ export default function ActionBar({
   return (
     <div
       className={cx(
-        "bg-gray-dark fixed bottom-4 z-10 mx-auto flex justify-between rounded-lg border border-gray-lightest px-4 py-4",
+        "fixed bottom-4 z-10 mx-auto flex justify-between divide-x divide-gray-lightest rounded-full border border-gray-lightest bg-gray-light text-sm",
         className,
       )}
     >
+      <CopyButton
+        variant={variant}
+        selectedIcons={selectedIcons}
+        className="rounded-l-full"
+      />
+      <DownloadButton variant={variant} selectedIcons={selectedIcons} />
       <button
         type="button"
         onClick={handleClearAll}
-        className="flex rounded-full px-4 py-2 font-mono text-sm text-white"
+        className="flex gap-2 rounded-r-full p-4 text-white text-opacity-60 duration-150 hover:bg-gray-lightest hover:text-opacity-100"
       >
         clear all
       </button>
-      <DownloadButton selectedIcons={selectedIcons} variant={variant} />
     </div>
   );
 }

@@ -51,10 +51,10 @@ export default function Home() {
     filteredIcons.length > 0 ? filteredIcons : Object.entries(Icons);
 
   return (
-    <main className="flex h-screen flex-col items-center gap-16">
+    <main className="flex font-mono h-screen flex-col items-center gap-16">
       <div className="container flex flex-col gap-16 py-16">
         <div className="flex w-full items-center justify-between">
-          <h1 className="font-mono text-4xl">token icons</h1>
+          <h1 className="text-4xl">token icons</h1>
         </div>
         <ControlBar
           variant={variant}

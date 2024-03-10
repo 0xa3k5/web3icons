@@ -54,7 +54,7 @@ export default function IconCard({
   return (
     <label
       className={cx(
-        "border-gray-lightest relative flex cursor-pointer flex-col items-center justify-center gap-4 border p-12 duration-150",
+        "relative flex flex-col items-center justify-center gap-4 border border-gray-lightest p-12 duration-150",
         className,
         isSelected ? "bg-gray-light" : hover && "bg-gray",
       )}
@@ -69,7 +69,7 @@ export default function IconCard({
       />
       <span
         className={cx(
-          "font-mono text-white",
+          "text-white",
           isSelected ? "text-opacity-100" : "text-opacity-60",
         )}
       >
@@ -77,10 +77,10 @@ export default function IconCard({
       </span>
       <input
         type="checkbox"
-        className="sr-only"
+        id={`checkbox-${iconName}`}
         checked={isSelected}
         onChange={handleCheckboxChange}
-        id={`checkbox-${iconName}`}
+        className="sr-only"
       />
       {(isSelected || hover) && (
         <span className="absolute left-2 top-2">

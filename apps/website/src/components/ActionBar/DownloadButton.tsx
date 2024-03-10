@@ -31,7 +31,7 @@ export default function DownloadButton({
       : selectedIcons.length === 1
         ? `${selectedIcons[0]}.svg`
         : "token-icons.zip";
-    link.download = filename ? filename.replace(/['"]/g, "") : ""; // Remove quotes from filename if present
+    link.download = filename ? filename.replace(/['"]/g, "") : "";
     document.body.appendChild(link);
     link.click();
     link.remove();
@@ -43,11 +43,11 @@ export default function DownloadButton({
       onClick={handleDownload}
       className={cx(
         className,
-        "flex gap-2 px-4 py-2 font-mono text-sm text-white duration-150 hover:bg-mirage",
+        "flex gap-2 p-4 text-white text-opacity-60 duration-150 hover:bg-gray-lightest hover:text-opacity-100",
       )}
     >
-      <span>download</span>
-      <span>({selectedIcons.length.toString()})</span>
+      download
+      <span className="text-primary">({selectedIcons.length.toString()})</span>
     </button>
   );
 }
