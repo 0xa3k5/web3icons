@@ -125,20 +125,46 @@ export const generateBaseIconComponent = () => {
 
 export const generateReactComponent = async (baseName: string) => {
   const name = normalizeComponentName(baseName);
-  const brandedSVG = fs.readFileSync(
-    path.join(__dirname, "./svgs/branded", `${baseName}.svg`),
-    "utf-8"
+  let brandedSVG = "";
+  let monoSVG = "";
+  const hasBrandedVariant = fs.existsSync(
+    path.join(__dirname, "./svgs/branded", `${baseName}.svg`)
   );
-  const monoSVG = fs.readFileSync(
-    path.join(__dirname, "./svgs/mono", `${baseName}.svg`),
-    "utf-8"
+  const hasMonoVariant = fs.existsSync(
+    path.join(__dirname, "./svgs/mono", `${baseName}.svg`)
   );
+  const hasBothVariants = hasBrandedVariant && hasMonoVariant;
+
+  if (hasBrandedVariant) {
+    brandedSVG = fs.readFileSync(
+      path.join(__dirname, "./svgs/branded", `${baseName}.svg`),
+      "utf-8"
+    );
+  }
+
+  if (hasMonoVariant) {
+    monoSVG = fs.readFileSync(
+      path.join(__dirname, "./svgs/mono", `${baseName}.svg`),
+      "utf-8"
+    );
+  }
 
   const brandedJSX = readyForJSX(brandedSVG);
   const monoJSX = readyForJSX(injectCurrentColor(monoSVG));
+  const scaffold = hasBothVariants
+    ? componentScaffold.multiVariants
+    : componentScaffold.singleVariant;
+  const variantJSX = hasMonoVariant ? monoJSX : brandedJSX;
 
-  const iconComponentContent = componentScaffold
-    .replace(/{{componentName}}/g, `Icon${name}`) //prefix with "Icon"
+  if (hasMonoVariant && !hasBrandedVariant) {
+    console.log(
+      `❖ no branded variant found for ${baseName}, using mono variant`
+    );
+  }
+
+  const iconComponentContent = scaffold
+    .replace(/{{componentName}}/g, `Icon${name}`)
+    .replace(/{{variantJSX}}/g, variantJSX)
     .replace(/{{brandedJSX}}/g, brandedJSX)
     .replace(/{{monoJSX}}/g, monoJSX)
     .replace(/{{displayName}}/g, name);

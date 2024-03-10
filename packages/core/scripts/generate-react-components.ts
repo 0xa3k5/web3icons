@@ -28,7 +28,8 @@ if (
 ) {
   console.info("No optimized SVGs found, optimizing SVGs...");
   require("child_process").execSync("bun run optimize-svgs");
-  require("child_process").execSync("bun run generate-react-components");
+  require("child_process").execSync("bun run enrich-metadata");
+  require("child_process").execSync("bun run generate-react:components");
 }
 
 const svgFiles = {
@@ -39,7 +40,8 @@ const svgFiles = {
 if (Object.entries(svgFiles).length === 0) {
   console.info("No optimized SVGs found, optimizing SVGs...");
   require("child_process").execSync("bun run optimize-svgs");
-  require("child_process").execSync("bun run generate-react-components");
+  require("child_process").execSync("bun run enrich-metadata");
+  require("child_process").execSync("bun run generate-react:components");
 }
 
 // generate react components
@@ -51,17 +53,5 @@ Object.entries(svgFiles).forEach(([key, value]) => {
   });
 });
 
-// todo: iterate all keys
-const indexFileContent = Object.entries(svgFiles)[0]![1] // only iterate one key
-  .filter((svg) => path.extname(svg) === ".svg")
-  .map((svg) => {
-    const componentName = normalizeComponentName(
-      `${path.basename(svg, ".svg")}`
-    );
-    return `export { default as Icon${componentName} } from "./${componentName}";`;
-  })
-  .concat("export * from './types';")
-  .join("\n");
-
-// make index file
-fs.writeFileSync(path.join(JSX_OUTPUT_DIR, "index.ts"), indexFileContent);
+// generate index file
+require("child_process").execSync("bun run generate-react:index");

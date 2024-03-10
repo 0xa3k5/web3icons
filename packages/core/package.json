@@ -7,9 +7,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc && bun generate-react-components",
+    "build": "tsc && bun run optimize-svgs && bun run enrich-metadata && bun generate-react",
     "optimize-svgs": "bun run ./scripts/optimize-svgs.ts",
-    "generate-react-components": "bun run ./scripts/generate-react-components.ts"
+    "generate-react": "bun run generate-react:components && bun run generate-react:index",
+    "generate-react:components": "bun run ./scripts/generate-react-components.ts",
+    "generate-react:index": "bun run ./scripts/generate-react-index.ts",
+    "enrich-metadata": "bun run ./scripts/enrich-metadata.ts"
   },
   "devDependencies": {
     "bun-types": "latest",
