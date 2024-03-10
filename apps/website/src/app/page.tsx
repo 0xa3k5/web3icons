@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import * as Icons from "@token-icons/react";
+import { ControlBar, IconCard, ActionBar } from "../components";
 
 export default function Home() {
   const [variant, setVariant] =
@@ -34,6 +35,15 @@ export default function Home() {
             );
           })}
         </div>
+        {selectedIcons.length > 0 && (
+          <div className="flex w-full justify-center">
+            <ActionBar
+              selectedIcons={selectedIcons}
+              setSelectedIcons={setSelectedIcons}
+              variant={variant}
+            />
+          </div>
+        )}
       </div>
     </main>
   );
