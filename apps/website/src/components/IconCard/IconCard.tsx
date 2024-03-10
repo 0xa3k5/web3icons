@@ -1,18 +1,18 @@
-import { IconComponentProps } from "@token-icons/react";
-import cx from "classnames";
-import { useEffect, useState } from "react";
-import Checkbox from "./Checkbox";
+import { IconComponentProps } from '@token-icons/react'
+import cx from 'classnames'
+import { useEffect, useState } from 'react'
+import Checkbox from './Checkbox'
 
 interface Props {
-  className?: string;
-  iconName: string;
-  variant: IconComponentProps["variant"];
+  className?: string
+  iconName: string
+  variant: IconComponentProps['variant']
   IconComponent: React.ForwardRefExoticComponent<
     IconComponentProps & React.RefAttributes<SVGSVGElement>
-  >;
-  size: number;
-  selectedIcons: string[];
-  setSelectedIcons: React.Dispatch<React.SetStateAction<string[]>>;
+  >
+  size: number
+  selectedIcons: string[]
+  setSelectedIcons: React.Dispatch<React.SetStateAction<string[]>>
 }
 
 export default function IconCard({
@@ -24,39 +24,39 @@ export default function IconCard({
   selectedIcons,
   setSelectedIcons,
 }: Props): JSX.Element {
-  const [hover, setHover] = useState(false);
-  const isSelected = selectedIcons.includes(iconName);
+  const [hover, setHover] = useState(false)
+  const isSelected = selectedIcons.includes(iconName)
 
   const handleCheckboxChange = () => {
     setSelectedIcons((prevSelectedIcons) =>
       isSelected
         ? prevSelectedIcons.filter((icon) => icon !== iconName)
         : [...prevSelectedIcons, iconName],
-    );
-  };
+    )
+  }
 
   useEffect(() => {
     const spacedown = (e: KeyboardEvent) => {
-      if (hover && e.key === " ") {
-        e.preventDefault();
+      if (hover && e.key === ' ') {
+        e.preventDefault()
         setSelectedIcons((selectedIcons) => {
           return isSelected
             ? selectedIcons.filter((selectedIcon) => selectedIcon !== iconName)
-            : [...selectedIcons, iconName];
-        });
+            : [...selectedIcons, iconName]
+        })
       }
-    };
+    }
 
-    document.addEventListener("keydown", spacedown);
-    return () => document.removeEventListener("keydown", spacedown);
-  });
+    document.addEventListener('keydown', spacedown)
+    return () => document.removeEventListener('keydown', spacedown)
+  })
 
   return (
     <label
       className={cx(
-        "relative flex flex-col items-center justify-center gap-4 border border-gray-lightest p-12 duration-150",
+        'relative flex flex-col items-center justify-center gap-4 border border-gray-lightest p-12 duration-150',
         className,
-        isSelected ? "bg-gray-light" : hover && "bg-gray",
+        isSelected ? 'bg-gray-light' : hover && 'bg-gray',
       )}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
@@ -64,16 +64,16 @@ export default function IconCard({
       <IconComponent
         key={iconName}
         size={size}
-        className="rounded-ful"
+        className="rounded-full"
         variant={variant}
       />
       <span
         className={cx(
-          "text-white",
-          isSelected ? "text-opacity-100" : "text-opacity-60",
+          'text-white',
+          isSelected ? 'text-opacity-100' : 'text-opacity-60',
         )}
       >
-        {iconName.replace("Icon", "")}
+        {iconName.replace('Icon', '')}
       </span>
       <input
         type="checkbox"
@@ -92,5 +92,5 @@ export default function IconCard({
         </span>
       )}
     </label>
-  );
+  )
 }

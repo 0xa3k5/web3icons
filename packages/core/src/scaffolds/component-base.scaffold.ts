@@ -21,4 +21,4 @@ const BaseIcon: React.FC<BaseIconProps> = ({ size = 24, children, ...props }) =>
   );
 };
 
-export default BaseIcon;`;
+export default BaseIcon;`

@@ -1,29 +1,29 @@
-import cx from "classnames";
-import { IconComponentProps } from "@token-icons/react";
-import DownloadButton from "./DownloadButton";
-import CopyButton from "./CopyButton";
+import cx from 'classnames'
+import { IconComponentProps } from '@token-icons/react'
+import DownloadButton from './DownloadButton'
+import CopyButton from './CopyButton'
 
 interface Props {
-  className?: string;
-  selectedIcons: string[];
-  variant: IconComponentProps["variant"];
-  setSelectedIcons: React.Dispatch<React.SetStateAction<string[]>>;
+  className?: string
+  selectedIcons: string[]
+  variant: IconComponentProps['variant']
+  setSelectedIcons: React.Dispatch<React.SetStateAction<string[]>>
 }
 
 export default function ActionBar({
   className,
   selectedIcons,
   setSelectedIcons,
-  variant = "mono",
+  variant = 'mono',
 }: Props): JSX.Element {
   const handleClearAll = () => {
-    setSelectedIcons([]);
-  };
+    setSelectedIcons([])
+  }
 
   return (
     <div
       className={cx(
-        "fixed bottom-4 z-10 mx-auto flex justify-between divide-x divide-gray-lightest rounded-full border border-gray-lightest bg-gray-light text-sm",
+        'fixed bottom-4 z-10 mx-auto flex justify-between divide-x divide-gray-lightest rounded-full border border-gray-lightest bg-gray-light text-sm',
         className,
       )}
     >
@@ -41,5 +41,5 @@ export default function ActionBar({
         clear all
       </button>
     </div>
-  );
+  )
 }

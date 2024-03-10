@@ -1,11 +1,11 @@
-import cx from "classnames";
-import { Fragment, useEffect, useRef, useState } from "react";
+import cx from 'classnames'
+import { Fragment, useEffect, useRef, useState } from 'react'
 
 interface SegmentedControlProps {
-  className?: string;
-  options: string[];
-  selected: string;
-  onChange: (value: string) => void;
+  className?: string
+  options: string[]
+  selected: string
+  onChange: (value: string) => void
 }
 
 export default function SegmentedControl({
@@ -14,22 +14,22 @@ export default function SegmentedControl({
   selected,
   onChange,
 }: SegmentedControlProps): JSX.Element {
-  const [indicatorWidth, setIndicatorWidth] = useState(0);
-  const [indicatorOffset, setIndicatorOffset] = useState(0);
-  const selectedOptionRef = useRef<HTMLLabelElement | null>(null);
+  const [indicatorWidth, setIndicatorWidth] = useState(0)
+  const [indicatorOffset, setIndicatorOffset] = useState(0)
+  const selectedOptionRef = useRef<HTMLLabelElement | null>(null)
 
   useEffect(() => {
     if (selectedOptionRef.current) {
-      setIndicatorWidth(selectedOptionRef.current.offsetWidth);
-      setIndicatorOffset(selectedOptionRef.current.offsetLeft);
+      setIndicatorWidth(selectedOptionRef.current.offsetWidth)
+      setIndicatorOffset(selectedOptionRef.current.offsetLeft)
     }
-  }, [selected]);
+  }, [selected])
 
   return (
     <div
       className={cx(
         className,
-        "relative inline-flex rounded-full border border-gray-lightest bg-gray-light p-1 focus-within:outline focus-within:outline-gray-lightest",
+        'relative inline-flex rounded-full border border-gray-lightest bg-gray-light p-1 focus-within:outline focus-within:outline-gray-lightest',
       )}
     >
       {options.map((option) => (
@@ -60,5 +60,5 @@ export default function SegmentedControl({
         }}
       />
     </div>
-  );
+  )
 }

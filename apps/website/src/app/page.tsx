@@ -1,16 +1,16 @@
-"use client";
-import React, { useEffect, useState } from "react";
-import * as Icons from "@token-icons/react";
-import { ControlBar, IconCard, ActionBar } from "../components";
-import { ITokenMetadata, tokens } from "@token-icons/core";
+'use client'
+import React, { useEffect, useState } from 'react'
+import * as Icons from '@token-icons/react'
+import { ControlBar, IconCard, ActionBar } from '../components'
+import { ITokenMetadata } from '@token-icons/core'
 
 export default function Home() {
   const [variant, setVariant] =
-    useState<Icons.IconComponentProps["variant"]>("mono");
-  const [size, setSize] = useState(48);
-  const [selectedIcons, setSelectedIcons] = useState<string[]>([]);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [tokenMetadata, setTokenMetadata] = useState<ITokenMetadata[]>([]);
+    useState<Icons.IconComponentProps['variant']>('mono')
+  const [size, setSize] = useState(48)
+  const [selectedIcons, setSelectedIcons] = useState<string[]>([])
+  const [searchTerm, setSearchTerm] = useState('')
+  const [tokenMetadata, setTokenMetadata] = useState<ITokenMetadata[]>([])
   const [filteredIcons, setFilteredIcons] = useState<
     [
       string,
@@ -18,25 +18,25 @@ export default function Home() {
         Icons.IconComponentProps & React.RefAttributes<SVGSVGElement>
       >,
     ][]
-  >([]);
+  >([])
 
   useEffect(() => {
-    (async () => {
-      const response = await fetch("/api/get-token-metadata");
-      const tokens = await response.json();
-      setTokenMetadata(tokens);
-    })();
-  }, []);
+    ;(async () => {
+      const response = await fetch('/api/get-token-metadata')
+      const tokens = await response.json()
+      setTokenMetadata(tokens)
+    })()
+  }, [])
 
   useEffect(() => {
-    console.log(searchTerm);
+    console.log(searchTerm)
     const filteredMetadata = searchTerm
       ? tokenMetadata.filter(
           (token) =>
             token.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
             token.symbol.toLowerCase().includes(searchTerm.toLowerCase()),
         )
-      : tokenMetadata;
+      : tokenMetadata
 
     setFilteredIcons(
       Object.entries(Icons).filter(([iconName]) =>
@@ -44,14 +44,13 @@ export default function Home() {
           iconName.toLowerCase().includes(token.id.toLowerCase()),
         ),
       ),
-    );
-  }, [searchTerm]);
+    )
+  }, [searchTerm])
 
-  const icons =
-    filteredIcons.length > 0 ? filteredIcons : Object.entries(Icons);
+  const icons = filteredIcons.length > 0 ? filteredIcons : Object.entries(Icons)
 
   return (
-    <main className="flex font-mono h-screen flex-col items-center gap-16">
+    <main className="flex h-screen flex-col items-center gap-16 font-mono">
       <div className="container flex flex-col gap-16 py-16">
         <div className="flex w-full items-center justify-between">
           <h1 className="text-4xl">token icons</h1>
@@ -76,7 +75,7 @@ export default function Home() {
                 selectedIcons={selectedIcons}
                 setSelectedIcons={setSelectedIcons}
               />
-            );
+            )
           })}
         </div>
         {selectedIcons.length > 0 && (
@@ -90,5 +89,5 @@ export default function Home() {
         )}
       </div>
     </main>
-  );
+  )
 }

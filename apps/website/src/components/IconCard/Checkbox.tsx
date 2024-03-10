@@ -1,9 +1,9 @@
-import cx from "classnames";
+import cx from 'classnames'
 
 interface Props {
-  className?: string;
-  checked: boolean;
-  onChange: () => void;
+  className?: string
+  checked: boolean
+  onChange: () => void
 }
 
 export default function Checkbox({
@@ -12,7 +12,7 @@ export default function Checkbox({
   onChange,
 }: Props): JSX.Element {
   return (
-    <label className={cx(className, "inline-flex cursor-pointer items-center")}>
+    <label className={cx(className, 'inline-flex cursor-pointer items-center')}>
       <input
         type="checkbox"
         className="sr-only"
@@ -21,14 +21,14 @@ export default function Checkbox({
       />
       <span
         className={cx(
-          "relative mr-2 inline-block h-6 w-6 rounded border border-gray-lightest",
-          checked ? "bg-primary" : "bg-gray-light",
+          'relative mr-2 inline-block h-6 w-6 rounded border border-gray-lightest',
+          checked ? 'bg-primary' : 'bg-gray-light',
         )}
       >
         {checked && (
           <span className="absolute inset-0 flex items-center justify-center">
             <svg
-              className="h-4 w-4 text-white"
+              className="size-4 text-white"
               fill="none"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -42,5 +42,5 @@ export default function Checkbox({
         )}
       </span>
     </label>
-  );
+  )
 }

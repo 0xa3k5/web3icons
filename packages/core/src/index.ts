@@ -1,2 +1,2 @@
-export * from "./ops";
-export * from "./metadata";
+export * from './ops'
+export * from './metadata'

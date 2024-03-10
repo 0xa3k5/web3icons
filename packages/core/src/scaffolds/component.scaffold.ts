@@ -20,7 +20,7 @@ const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>(({ varia
 {{componentName}}.displayName = '{{displayName}}';
 
 export default {{componentName}};
-`;
+`
 
 const singleVariant = `
 import { forwardRef } from 'react';
@@ -36,6 +36,6 @@ const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>(({ ...pr
 {{componentName}}.displayName = '{{displayName}}';
 
 export default {{componentName}};
-`;
+`
 
-export const componentScaffold = { multiVariants, singleVariant };
+export const componentScaffold = { multiVariants, singleVariant }

@@ -1,13 +1,13 @@
-import cx from "classnames";
-import { ChangeEvent } from "react";
+import cx from 'classnames'
+import { ChangeEvent } from 'react'
 
 interface Props {
-  className?: string;
-  minValue: number;
-  maxValue: number;
-  value: number;
-  setValue: React.Dispatch<React.SetStateAction<number>>;
-  label: string;
+  className?: string
+  minValue: number
+  maxValue: number
+  value: number
+  setValue: React.Dispatch<React.SetStateAction<number>>
+  label: string
 }
 
 export default function Slider({
@@ -19,12 +19,12 @@ export default function Slider({
   setValue,
 }: Props): JSX.Element {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const newValue = parseFloat(e.target.value);
-    setValue(newValue);
-  };
+    const newValue = parseFloat(e.target.value)
+    setValue(newValue)
+  }
 
   return (
-    <div className={cx(className, "flex w-full flex-col gap-2")}>
+    <div className={cx(className, 'flex w-full flex-col gap-2')}>
       <div className="flex w-full justify-between text-sm">
         <label htmlFor={`${label}-slider`}>{label}</label>
         <input
@@ -43,8 +43,8 @@ export default function Slider({
         max={maxValue}
         value={value}
         onChange={handleChange}
-        className="[&::-webkit-slider-thumb]:bg-primary h-2 w-full appearance-none rounded-full bg-gray-lightest duration-150 active:h-4 [&::-webkit-slider-thumb]:size-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:duration-150 active:[&::-webkit-slider-thumb]:w-6"
+        className="h-2 w-full appearance-none rounded-full bg-gray-lightest duration-150 active:h-4 [&::-webkit-slider-thumb]:size-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:duration-150 active:[&::-webkit-slider-thumb]:w-6"
       />
     </div>
-  );
+  )
 }

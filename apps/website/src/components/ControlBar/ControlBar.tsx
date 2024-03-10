@@ -1,19 +1,19 @@
-import { IconComponentProps } from "@token-icons/react";
-import cx from "classnames";
-import SearchInput from "./SearchInput";
-import Slider from "./Slider";
-import SegmentedControl from "./SegmentedControl";
+import { IconComponentProps } from '@token-icons/react'
+import cx from 'classnames'
+import SearchInput from './SearchInput'
+import Slider from './Slider'
+import SegmentedControl from './SegmentedControl'
 
 interface Props {
-  className?: string;
-  variant?: IconComponentProps["variant"];
+  className?: string
+  variant?: IconComponentProps['variant']
   setVariant: React.Dispatch<
-    React.SetStateAction<"mono" | "branded" | undefined>
-  >;
-  size: number;
-  setSize: React.Dispatch<React.SetStateAction<number>>;
-  searchTerm: string;
-  setSearchTerm: React.Dispatch<React.SetStateAction<string>>;
+    React.SetStateAction<'mono' | 'branded' | undefined>
+  >
+  size: number
+  setSize: React.Dispatch<React.SetStateAction<number>>
+  searchTerm: string
+  setSearchTerm: React.Dispatch<React.SetStateAction<string>>
 }
 
 export default function ControlBar({
@@ -29,7 +29,7 @@ export default function ControlBar({
     <div className="flex justify-center">
       <div
         className={cx(
-          "sticky top-4 z-10 flex w-full flex-col justify-between rounded-lg bg-gray-darkest/40 backdrop-blur-lg md:flex-row",
+          'sticky top-4 z-10 flex w-full flex-col justify-between rounded-lg bg-gray-darkest/40 backdrop-blur-lg md:flex-row',
           className,
         )}
       >
@@ -41,9 +41,9 @@ export default function ControlBar({
         />
         <SegmentedControl
           className="w-fit"
-          options={["mono", "branded"]}
-          selected={variant === "mono" ? "mono" : "branded"}
-          onChange={(value) => setVariant(value as "mono" | "branded")}
+          options={['mono', 'branded']}
+          selected={variant === 'mono' ? 'mono' : 'branded'}
+          onChange={(value) => setVariant(value as 'mono' | 'branded')}
         />
         <Slider
           className="max-w-64"
@@ -55,5 +55,5 @@ export default function ControlBar({
         />
       </div>
     </div>
-  );
+  )
 }

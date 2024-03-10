@@ -2,7 +2,6 @@
   "name": "@token-icons/core",
   "private": true,
   "version": "0.0.0",
-  "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

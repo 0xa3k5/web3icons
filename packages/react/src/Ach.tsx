@@ -1,22 +1,37 @@
+import { forwardRef } from 'react'
+import { IconComponentProps } from './types'
+import BaseIcon from './BaseIcon'
 
-import { forwardRef } from 'react';
-import { IconComponentProps } from "./types";
-import BaseIcon from './BaseIcon';
-
-const IconAch = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono', ...props }, ref) => (
+const IconAch = forwardRef<SVGSVGElement, IconComponentProps>(
+  ({ variant = 'mono', ...props }, ref) => (
     <BaseIcon {...props} ref={ref}>
       {variant === 'mono' ? (
         <>
-          <path fill="currentColor" d="M14.143 7.637 12 3.857l-2.143 3.78v5.066a3.82 3.82 0 0 1 2.7-1.131c.562 0 1.102.128 1.586.355zm1.286 2.272v6.805h3.857zm-1.286 6.805H10.07a2.786 2.786 0 0 1 4.071-3.42zm-5.571 0H4.714L8.572 9.91z"/>
+          <path
+            fill="currentColor"
+            d="M14.143 7.637 12 3.857l-2.143 3.78v5.066a3.82 3.82 0 0 1 2.7-1.131c.562 0 1.102.128 1.586.355zm1.286 2.272v6.805h3.857zm-1.286 6.805H10.07a2.786 2.786 0 0 1 4.071-3.42zm-5.571 0H4.714L8.572 9.91z"
+          />
         </>
       ) : (
         <>
-          <g clipPath="url(#ACH__a)"><path fill="#020041" d="M0 0h24v24H0z"/><path fill="#fff" d="M14.143 7.637 12 3.857l-2.143 3.78v5.066a3.82 3.82 0 0 1 2.7-1.131c.562 0 1.102.128 1.586.355zm1.286 2.272v6.805h3.857zm-1.286 6.805H10.07a2.786 2.786 0 0 1 4.071-3.42zm-5.571 0H4.714L8.572 9.91z"/></g><defs><clipPath id="ACH__a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs>
+          <g clipPath="url(#ACH__a)">
+            <path fill="#020041" d="M0 0h24v24H0z" />
+            <path
+              fill="#fff"
+              d="M14.143 7.637 12 3.857l-2.143 3.78v5.066a3.82 3.82 0 0 1 2.7-1.131c.562 0 1.102.128 1.586.355zm1.286 2.272v6.805h3.857zm-1.286 6.805H10.07a2.786 2.786 0 0 1 4.071-3.42zm-5.571 0H4.714L8.572 9.91z"
+            />
+          </g>
+          <defs>
+            <clipPath id="ACH__a">
+              <path fill="#fff" d="M0 0h24v24H0z" />
+            </clipPath>
+          </defs>
         </>
       )}
     </BaseIcon>
-));
+  ),
+)
 
-IconAch.displayName = 'Ach';
+IconAch.displayName = 'Ach'
 
-export default IconAch;
+export default IconAch

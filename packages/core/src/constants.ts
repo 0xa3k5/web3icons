@@ -1,5 +1,5 @@
-import * as path from "path";
+import * as path from 'path'
 
-export const SVG_SOURCE_DIR = path.join(__dirname, "./raw-svgs");
-export const SVG_OUTPUT_DIR = path.join(__dirname, "./svgs");
-export const JSX_OUTPUT_DIR = path.join(__dirname, "../../react/src");
+export const SVG_SOURCE_DIR = path.join(__dirname, './raw-svgs')
+export const SVG_OUTPUT_DIR = path.join(__dirname, './svgs')
+export const JSX_OUTPUT_DIR = path.join(__dirname, '../../react/src')
