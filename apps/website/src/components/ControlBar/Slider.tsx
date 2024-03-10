@@ -25,7 +25,7 @@ export default function Slider({
 
   return (
     <div className={cx(className, "flex w-full flex-col gap-2")}>
-      <div className="flex w-full justify-between font-mono text-sm">
+      <div className="flex w-full justify-between text-sm">
         <label htmlFor={`${label}-slider`}>{label}</label>
         <input
           type="number"
@@ -33,7 +33,7 @@ export default function Slider({
           max={maxValue}
           value={value}
           onChange={handleChange}
-          className="appearance-none rounded-lg bg-transparent focus:outline-none"
+          className="rounded-lg bg-transparent [appearance:textfield] focus:outline-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
         />
       </div>
       <input
@@ -43,7 +43,7 @@ export default function Slider({
         max={maxValue}
         value={value}
         onChange={handleChange}
-        className="h-2 w-full cursor-pointer appearance-none rounded-lg bg-white/20"
+        className="[&::-webkit-slider-thumb]:bg-primary h-2 w-full appearance-none rounded-full bg-gray-lightest duration-150 active:h-4 [&::-webkit-slider-thumb]:size-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:duration-150 active:[&::-webkit-slider-thumb]:w-6"
       />
     </div>
   );

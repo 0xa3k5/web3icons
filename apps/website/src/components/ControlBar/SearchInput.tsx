@@ -1,27 +1,32 @@
+import cx from "classnames";
 import { PropsWithChildren, ReactNode } from "react";
 
 interface Props {
+  className?: string;
   placeholder: string;
   value: string;
   onInput: (event: React.ChangeEvent<HTMLInputElement>) => void;
-  icon?: ReactNode;
 }
 
 export default function SearchInput({
+  className,
   placeholder,
-  icon,
   value,
   onInput,
   children,
 }: PropsWithChildren<Props>): JSX.Element {
   return (
-    <div className="flex items-center gap-2 border-b border-transparent focus-within:border-white/20">
-      {icon && <span className="p-2">{icon}</span>}
+    <div
+      className={cx(
+        className,
+        "flex w-full items-center gap-2 rounded-full border border-transparent bg-gray-light px-4 py-2 focus-within:border-gray-lightest",
+      )}
+    >
       <input
         placeholder={placeholder}
         value={value}
         onInput={onInput}
-        className="text-text placeholder:text-text-tertiary h-8 w-full bg-transparent focus:outline-none"
+        className="text-text h-8 w-full bg-transparent placeholder:text-white/40 focus:outline-none"
       />
       {children}
     </div>
