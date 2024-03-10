@@ -3,12 +3,14 @@ import React, { useState } from "react";
 import * as Icons from "@token-icons/react";
 
 export default function Home() {
-  const [variant, setVariant] = useState<"mono" | "branded">("mono");
+  const [variant, setVariant] =
+    useState<Icons.IconComponentProps["variant"]>("mono");
+  const [selectedIcons, setSelectedIcons] = useState<string[]>([]);
 
   return (
-    <main className="flex flex-col gap-16 items-center h-screen">
-      <div className="container flex flex-col py-16 gap-16">
-        <div className="flex justify-between items-center w-full">
+    <main className="flex h-screen flex-col items-center gap-16">
+      <div className="container flex flex-col gap-16 py-16">
+        <div className="flex w-full items-center justify-between">
           <h1 className="font-mono text-4xl">token icons</h1>
           <button
             onClick={() => setVariant(variant === "mono" ? "branded" : "mono")}
@@ -20,20 +22,15 @@ export default function Home() {
         <div className=" grid grid-cols-6 w-full">
           {Object.entries(Icons).map(([iconName, IconComponent]) => {
             return (
-              <div
+              <IconCard
                 key={iconName}
-                className="flex p-12 gap-4 flex-col items-center border border-gray-700 justify-center hover:bg-white/10 duration-150"
-              >
-                <IconComponent
-                  key={iconName}
-                  size={48}
-                  className="rounded-ful"
-                  variant={variant}
-                />
-                <span className="font-mono">
-                  {iconName.replace("Icon", "")}
-                </span>
-              </div>
+                iconName={iconName}
+                IconComponent={IconComponent}
+                variant={variant}
+                size={size}
+                selectedIcons={selectedIcons}
+                setSelectedIcons={setSelectedIcons}
+              />
             );
           })}
         </div>
