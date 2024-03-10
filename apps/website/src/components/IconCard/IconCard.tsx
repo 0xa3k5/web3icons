@@ -38,7 +38,6 @@ export default function IconCard({
   useEffect(() => {
     const spacedown = (e: KeyboardEvent) => {
       if (hover && e.key === " ") {
-        console.log(iconName);
         e.preventDefault();
         setSelectedIcons((selectedIcons) => {
           return isSelected
