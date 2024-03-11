@@ -1,21 +1,15 @@
 import cx from 'classnames'
-import { IconComponentProps } from '@token-icons/react'
 import DownloadButton from './DownloadButton'
 import CopyButton from './CopyButton'
+import { useAppContext } from '../../hooks'
 
 interface Props {
   className?: string
-  selectedIcons: string[]
-  variant: IconComponentProps['variant']
-  setSelectedIcons: React.Dispatch<React.SetStateAction<string[]>>
 }
 
-export default function ActionBar({
-  className,
-  selectedIcons,
-  setSelectedIcons,
-  variant = 'mono',
-}: Props): JSX.Element {
+export default function ActionBar({ className }: Props): JSX.Element {
+  const { variant, selectedIcons, setSelectedIcons } = useAppContext()
+
   const handleClearAll = () => {
     setSelectedIcons([])
   }

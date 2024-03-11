@@ -1,29 +1,25 @@
-import { IconComponentProps } from '@token-icons/react'
 import cx from 'classnames'
 import { useEffect, useState } from 'react'
 import Checkbox from './Checkbox'
+import { useAppContext } from '../../hooks'
+import { IconComponentProps } from '@token-icons/react'
 
 interface Props {
   className?: string
   iconName: string
-  variant: IconComponentProps['variant']
   IconComponent: React.ForwardRefExoticComponent<
     IconComponentProps & React.RefAttributes<SVGSVGElement>
   >
-  size: number
-  selectedIcons: string[]
-  setSelectedIcons: React.Dispatch<React.SetStateAction<string[]>>
 }
 
 export default function IconCard({
   className,
   iconName,
   IconComponent,
-  variant,
-  size,
-  selectedIcons,
-  setSelectedIcons,
 }: Props): JSX.Element {
+  const { size, variant, selectedIcons, setSelectedIcons } =
+    useAppContext()
+
   const [hover, setHover] = useState(false)
   const isSelected = selectedIcons.includes(iconName)
 

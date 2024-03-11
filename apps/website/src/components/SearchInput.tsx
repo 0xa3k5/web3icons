@@ -19,7 +19,7 @@ export default function SearchInput({
     <div
       className={cx(
         className,
-        'flex w-full items-center gap-2 rounded-full border border-transparent bg-gray-light px-4 py-2 focus-within:border-gray-lightest',
+        'flex w-full items-center border-b border-transparent py-2 duration-150 focus-within:border-gray-lightest',
       )}
     >
       <input
