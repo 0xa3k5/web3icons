@@ -33,7 +33,10 @@ export default function Slider({
           max={maxValue}
           value={value}
           onChange={handleChange}
-          className="rounded-lg bg-transparent [appearance:textfield] focus:outline-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+          className={cx(
+            'rounded-lg bg-transparent focus:outline-none',
+            '[appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none',
+          )}
         />
       </div>
       <input
@@ -43,7 +46,11 @@ export default function Slider({
         max={maxValue}
         value={value}
         onChange={handleChange}
-        className="h-2 w-full appearance-none rounded-full bg-gray-lightest duration-150 active:h-4 [&::-webkit-slider-thumb]:size-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:duration-150 active:[&::-webkit-slider-thumb]:w-6"
+        className={cx(
+          'h-2 w-full appearance-none rounded-full bg-gray-lightest duration-150',
+          '[&::-webkit-slider-thumb]:size-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:duration-150',
+          'active:h-4 [&::-webkit-slider-thumb]:active:w-6',
+        )}
       />
     </div>
   )
