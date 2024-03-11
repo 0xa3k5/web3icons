@@ -62,6 +62,7 @@ export default function IconCard({
         size={size}
         className="rounded-full"
         variant={variant}
+        color={color}
       />
       <span
         className={cx(

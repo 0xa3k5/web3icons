@@ -3,6 +3,7 @@ import cx from 'classnames'
 import SearchInput from '../SearchInput'
 import Slider from './Slider'
 import SegmentedControl from './SegmentedControl'
+import ColorSlider from './ColorSlider'
 import { useAppContext } from '../../hooks'
 
 interface Props {
@@ -32,6 +33,12 @@ export default function ControlBar({ className }: Props): JSX.Element {
         maxValue={96}
         value={size}
         setValue={(value) => setSize(value)}
+      />
+      <ColorSlider
+        disabled={variant === 'branded'}
+        label="color"
+        color={color}
+        setColor={setColor}
       />
     </div>
   )

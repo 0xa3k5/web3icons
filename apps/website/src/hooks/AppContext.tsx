@@ -29,6 +29,8 @@ export interface AppContextType {
   selectedIcons: string[]
   setSelectedIcons: React.Dispatch<React.SetStateAction<string[]>>
   tokenMetadata: ITokenMetadata[]
+  color: string
+  setColor: Dispatch<SetStateAction<string>>
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined)
@@ -44,6 +46,7 @@ export const AppContextProvider = ({
   const [selectedIcons, setSelectedIcons] = useState<string[]>([])
   const [searchTerm, setSearchTerm] = useState('')
   const [tokenMetadata, setTokenMetadata] = useState<ITokenMetadata[]>([])
+  const [color, setColor] = useState('#FFFFFF')
   const [filteredIcons, setFilteredIcons] = useState<
     [
       string,
@@ -94,6 +97,8 @@ export const AppContextProvider = ({
         setSize,
         selectedIcons,
         setSelectedIcons,
+        color,
+        setColor,
       }}
     >
       {children}
