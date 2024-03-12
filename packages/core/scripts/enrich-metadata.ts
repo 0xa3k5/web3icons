@@ -7,16 +7,12 @@ const svgFiles = {
   branded: new Set(
     fs
       .readdirSync(path.join(SVG_OUTPUT_DIR, 'branded'))
-      .map((file) =>
-        path.basename(file, path.extname(file)).toLocaleLowerCase(),
-      ),
+      .map((file) => path.basename(file, '.svg').toLocaleLowerCase()),
   ),
   mono: new Set(
     fs
       .readdirSync(path.join(SVG_OUTPUT_DIR, 'mono'))
-      .map((file) =>
-        path.basename(file, path.extname(file)).toLocaleLowerCase(),
-      ),
+      .map((file) => path.basename(file, '.svg').toLocaleLowerCase()),
   ),
 }
 
@@ -28,15 +24,16 @@ const tokens: ITokenMetadata[] = JSON.parse(
 
 const updatedTokens = tokens.map((token) => {
   const variants: string[] = []
-  if (svgFiles.branded.has(token.id)) {
-    console.log(token.id, 'has branded')
+  const symbol = token.symbol.toLocaleLowerCase()
+
+  if (svgFiles.branded.has(symbol)) {
+    console.log(symbol, 'has branded')
     variants.push('branded')
   }
-  if (svgFiles.mono.has(token.id)) {
-    console.log(token.id, 'has mono')
+  if (svgFiles.mono.has(symbol)) {
+    console.log(symbol, 'has mono')
     variants.push('mono')
   }
-  variants.push('')
   return { ...token, variants }
 })
 

@@ -5,7 +5,6 @@ import {
   generateBaseIconComponent,
   generateReactComponent,
   generateTypesFile,
-  normalizeComponentName,
 } from '../src/ops'
 
 if (!fs.existsSync(SVG_OUTPUT_DIR)) {
