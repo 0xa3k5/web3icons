@@ -5,6 +5,7 @@ import { useAppContext } from '../hooks'
 
 export default function Home() {
   const { icons, selectedIcons, searchTerm, setSearchTerm } = useAppContext()
+
   return (
     <main className="flex h-screen flex-col items-center gap-16 font-mono">
       <div className="container flex flex-col gap-16 py-16">
@@ -12,23 +13,23 @@ export default function Home() {
           <h1 className="text-4xl">token icons</h1>
         </div>
         <div className="relative flex gap-16">
-          <ControlBar />
-          <div className="grid w-full grid-cols-5">
+          <ControlBar className="sticky left-0 top-16 z-10 mt-16" />
+          <div className="flex flex-col gap-4">
             <SearchInput
-              className="col-span-full mb-4"
               onInput={(e) => setSearchTerm(e.target.value)}
               placeholder="Search"
               value={searchTerm}
             />
-            {icons.map(([iconName, IconComponent]) => {
-              return (
+            <div className="grid w-full grid-cols-5">
+              {icons.map(([iconName, IconComponent]) => (
                 <IconCard
+                  className="h-fit"
                   key={iconName}
                   iconName={iconName}
                   IconComponent={IconComponent}
                 />
-              )
-            })}
+              ))}
+            </div>
           </div>
         </div>
         {selectedIcons.length > 0 && (

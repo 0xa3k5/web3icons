@@ -1,6 +1,4 @@
-import { IconComponentProps } from '@token-icons/react'
 import cx from 'classnames'
-import SearchInput from '../SearchInput'
 import Slider from './Slider'
 import SegmentedControl from './SegmentedControl'
 import ColorSlider from './ColorSlider'
@@ -11,18 +9,13 @@ interface Props {
 }
 
 export default function ControlBar({ className }: Props): JSX.Element {
-  const { variant, setVariant, size, setSize } =
+  const { variant, setVariant, size, setSize, color, setColor } =
     useAppContext()
 
   return (
-    <div
-      className={cx(
-        'sticky left-0 top-4 z-10 flex h-fit flex-col gap-16',
-        className,
-      )}
-    >
+    <div className={cx('flex h-fit flex-col items-center gap-12', className)}>
       <SegmentedControl
-        className="w-fit"
+        className=""
         options={['mono', 'branded']}
         selected={variant === 'mono' ? 'mono' : 'branded'}
         onChange={(value) => setVariant(value as 'mono' | 'branded')}

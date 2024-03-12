@@ -17,11 +17,26 @@ export default function IconCard({
   iconName,
   IconComponent,
 }: Props): JSX.Element {
-  const { size, variant, selectedIcons, setSelectedIcons } =
-    useAppContext()
+  const {
+    size,
+    variant,
+    selectedIcons,
+    setSelectedIcons,
+    color,
+    tokenMetadata,
+  } = useAppContext()
 
   const [hover, setHover] = useState(false)
   const isSelected = selectedIcons.includes(iconName)
+  let hasMatchingVariant = true
+
+  const token = tokenMetadata.find(
+    (t) =>
+      t.symbol.toLocaleLowerCase() ===
+      iconName.replace('Icon', '').toLocaleLowerCase(),
+  )
+
+  hasMatchingVariant = token?.variants.includes(variant) ? true : false
 
   const handleCheckboxChange = () => {
     setSelectedIcons((prevSelectedIcons) =>
@@ -60,7 +75,7 @@ export default function IconCard({
       <IconComponent
         key={iconName}
         size={size}
-        className="rounded-full"
+        className={!hasMatchingVariant ? 'opacity-10' : 'opacity-100'}
         variant={variant}
         color={color}
       />
