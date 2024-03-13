@@ -18,6 +18,5 @@ const IconLayer = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconLayer.displayName = 'Layer';
-IconLayer.variants = 'brandedmono';
 
 export default IconLayer;

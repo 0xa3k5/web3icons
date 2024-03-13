@@ -18,6 +18,5 @@ const IconBmx = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconBmx.displayName = 'Bmx';
-IconBmx.variants = 'brandedmono';
 
 export default IconBmx;

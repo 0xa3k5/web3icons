@@ -10,6 +10,5 @@ const IconDsla = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconDsla.displayName = 'Dsla';
-IconDsla.variants = 'branded';
 
 export default IconDsla;

@@ -10,6 +10,5 @@ const IconFort = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconFort.displayName = 'Fort';
-IconFort.variants = 'mono';
 
 export default IconFort;

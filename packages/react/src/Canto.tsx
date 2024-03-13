@@ -18,6 +18,5 @@ const IconCanto = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCanto.displayName = 'Canto';
-IconCanto.variants = 'brandedmono';
 
 export default IconCanto;

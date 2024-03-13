@@ -10,6 +10,5 @@ const IconHera = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconHera.displayName = 'Hera';
-IconHera.variants = 'branded';
 
 export default IconHera;

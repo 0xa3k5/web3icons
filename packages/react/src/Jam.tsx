@@ -18,6 +18,5 @@ const IconJam = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconJam.displayName = 'Jam';
-IconJam.variants = 'brandedmono';
 
 export default IconJam;

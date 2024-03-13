@@ -18,6 +18,5 @@ const IconLif3 = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconLif3.displayName = 'Lif3';
-IconLif3.variants = 'brandedmono';
 
 export default IconLif3;

@@ -18,6 +18,5 @@ const IconObot = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconObot.displayName = 'Obot';
-IconObot.variants = 'brandedmono';
 
 export default IconObot;

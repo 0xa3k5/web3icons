@@ -10,6 +10,5 @@ const IconGolden = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconGolden.displayName = 'Golden';
-IconGolden.variants = 'branded';
 
 export default IconGolden;

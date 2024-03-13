@@ -10,6 +10,5 @@ const IconCgpt = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconCgpt.displayName = 'Cgpt';
-IconCgpt.variants = 'branded';
 
 export default IconCgpt;

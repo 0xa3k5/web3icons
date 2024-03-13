@@ -18,6 +18,5 @@ const IconKleva = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconKleva.displayName = 'Kleva';
-IconKleva.variants = 'brandedmono';
 
 export default IconKleva;

@@ -10,6 +10,5 @@ const IconEla = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconEla.displayName = 'Ela';
-IconEla.variants = 'mono';
 
 export default IconEla;

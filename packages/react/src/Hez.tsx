@@ -18,6 +18,5 @@ const IconHez = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconHez.displayName = 'Hez';
-IconHez.variants = 'brandedmono';
 
 export default IconHez;

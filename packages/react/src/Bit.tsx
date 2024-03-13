@@ -18,6 +18,5 @@ const IconBit = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconBit.displayName = 'Bit';
-IconBit.variants = 'brandedmono';
 
 export default IconBit;

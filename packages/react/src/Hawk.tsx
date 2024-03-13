@@ -18,6 +18,5 @@ const IconHawk = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHawk.displayName = 'Hawk';
-IconHawk.variants = 'brandedmono';
 
 export default IconHawk;

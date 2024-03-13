@@ -18,6 +18,5 @@ const IconBifi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBifi.displayName = 'Bifi';
-IconBifi.variants = 'brandedmono';
 
 export default IconBifi;

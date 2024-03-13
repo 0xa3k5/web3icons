@@ -18,6 +18,5 @@ const IconHapi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHapi.displayName = 'Hapi';
-IconHapi.variants = 'brandedmono';
 
 export default IconHapi;

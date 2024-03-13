@@ -10,6 +10,5 @@ const IconArb = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconArb.displayName = 'Arb';
-IconArb.variants = 'mono';
 
 export default IconArb;

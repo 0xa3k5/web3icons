@@ -10,6 +10,5 @@ const IconCrvusd = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconCrvusd.displayName = 'Crvusd';
-IconCrvusd.variants = 'branded';
 
 export default IconCrvusd;

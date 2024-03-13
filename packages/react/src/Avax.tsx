@@ -18,6 +18,5 @@ const IconAvax = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAvax.displayName = 'Avax';
-IconAvax.variants = 'brandedmono';
 
 export default IconAvax;

@@ -10,6 +10,5 @@ const IconOrai = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconOrai.displayName = 'Orai';
-IconOrai.variants = 'branded';
 
 export default IconOrai;

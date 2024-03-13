@@ -18,6 +18,5 @@ const IconLazio = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconLazio.displayName = 'Lazio';
-IconLazio.variants = 'brandedmono';
 
 export default IconLazio;

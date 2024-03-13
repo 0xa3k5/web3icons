@@ -18,6 +18,5 @@ const IconAlex = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAlex.displayName = 'Alex';
-IconAlex.variants = 'brandedmono';
 
 export default IconAlex;

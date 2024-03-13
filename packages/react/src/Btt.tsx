@@ -10,6 +10,5 @@ const IconBtt = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconBtt.displayName = 'Btt';
-IconBtt.variants = 'mono';
 
 export default IconBtt;

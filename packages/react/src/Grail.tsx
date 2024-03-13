@@ -18,6 +18,5 @@ const IconGrail = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconGrail.displayName = 'Grail';
-IconGrail.variants = 'brandedmono';
 
 export default IconGrail;

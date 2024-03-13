@@ -18,6 +18,5 @@ const IconPerc = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconPerc.displayName = 'Perc';
-IconPerc.variants = 'brandedmono';
 
 export default IconPerc;

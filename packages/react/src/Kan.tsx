@@ -18,6 +18,5 @@ const IconKan = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconKan.displayName = 'Kan';
-IconKan.variants = 'brandedmono';
 
 export default IconKan;

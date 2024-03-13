@@ -18,6 +18,5 @@ const IconBand = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBand.displayName = 'Band';
-IconBand.variants = 'brandedmono';
 
 export default IconBand;

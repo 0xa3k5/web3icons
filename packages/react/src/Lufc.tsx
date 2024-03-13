@@ -18,6 +18,5 @@ const IconLufc = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconLufc.displayName = 'Lufc';
-IconLufc.variants = 'brandedmono';
 
 export default IconLufc;

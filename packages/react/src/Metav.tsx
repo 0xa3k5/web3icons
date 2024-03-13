@@ -18,6 +18,5 @@ const IconMetav = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconMetav.displayName = 'Metav';
-IconMetav.variants = 'brandedmono';
 
 export default IconMetav;

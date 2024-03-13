@@ -18,6 +18,5 @@ const IconNeer = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNeer.displayName = 'Neer';
-IconNeer.variants = 'brandedmono';
 
 export default IconNeer;

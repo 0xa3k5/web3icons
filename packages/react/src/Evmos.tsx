@@ -18,6 +18,5 @@ const IconEvmos = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconEvmos.displayName = 'Evmos';
-IconEvmos.variants = 'brandedmono';
 
 export default IconEvmos;

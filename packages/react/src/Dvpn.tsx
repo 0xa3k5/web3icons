@@ -18,6 +18,5 @@ const IconDvpn = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconDvpn.displayName = 'Dvpn';
-IconDvpn.variants = 'brandedmono';
 
 export default IconDvpn;

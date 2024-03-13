@@ -18,6 +18,5 @@ const IconChrp = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconChrp.displayName = 'Chrp';
-IconChrp.variants = 'brandedmono';
 
 export default IconChrp;

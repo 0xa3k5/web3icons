@@ -18,6 +18,5 @@ const IconMimo = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMimo.displayName = 'Mimo';
-IconMimo.variants = 'brandedmono';
 
 export default IconMimo;

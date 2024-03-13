@@ -18,6 +18,5 @@ const IconGdcc = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconGdcc.displayName = 'Gdcc';
-IconGdcc.variants = 'brandedmono';
 
 export default IconGdcc;

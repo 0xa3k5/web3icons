@@ -10,6 +10,5 @@ const IconHipp = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconHipp.displayName = 'Hipp';
-IconHipp.variants = 'branded';
 
 export default IconHipp;

@@ -10,6 +10,5 @@ const IconIdna = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconIdna.displayName = 'Idna';
-IconIdna.variants = 'mono';
 
 export default IconIdna;

@@ -10,6 +10,5 @@ const IconMetal = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconMetal.displayName = 'Metal';
-IconMetal.variants = 'branded';
 
 export default IconMetal;

@@ -10,6 +10,5 @@ const IconBtrfly = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconBtrfly.displayName = 'Btrfly';
-IconBtrfly.variants = 'mono';
 
 export default IconBtrfly;

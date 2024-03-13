@@ -10,6 +10,5 @@ const IconLgcy = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconLgcy.displayName = 'Lgcy';
-IconLgcy.variants = 'mono';
 
 export default IconLgcy;

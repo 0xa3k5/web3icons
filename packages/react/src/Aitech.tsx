@@ -18,6 +18,5 @@ const IconAitech = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconAitech.displayName = 'Aitech';
-IconAitech.variants = 'brandedmono';
 
 export default IconAitech;

@@ -18,6 +18,5 @@ const IconKar = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconKar.displayName = 'Kar';
-IconKar.variants = 'brandedmono';
 
 export default IconKar;

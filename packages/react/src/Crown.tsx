@@ -10,6 +10,5 @@ const IconCrown = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconCrown.displayName = 'Crown';
-IconCrown.variants = 'branded';
 
 export default IconCrown;

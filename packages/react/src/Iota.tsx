@@ -10,6 +10,5 @@ const IconIota = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconIota.displayName = 'Iota';
-IconIota.variants = 'mono';
 
 export default IconIota;

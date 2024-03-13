@@ -18,6 +18,5 @@ const IconHai = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconHai.displayName = 'Hai';
-IconHai.variants = 'brandedmono';
 
 export default IconHai;

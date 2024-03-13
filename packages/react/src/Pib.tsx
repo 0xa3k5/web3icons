@@ -18,6 +18,5 @@ const IconPib = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconPib.displayName = 'Pib';
-IconPib.variants = 'brandedmono';
 
 export default IconPib;

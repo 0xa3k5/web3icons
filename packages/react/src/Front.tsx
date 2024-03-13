@@ -10,6 +10,5 @@ const IconFront = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconFront.displayName = 'Front';
-IconFront.variants = 'mono';
 
 export default IconFront;

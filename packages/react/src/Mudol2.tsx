@@ -10,6 +10,5 @@ const IconMudol2 = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconMudol2.displayName = 'Mudol2';
-IconMudol2.variants = 'branded';
 
 export default IconMudol2;

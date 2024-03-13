@@ -18,6 +18,5 @@ const IconApex = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconApex.displayName = 'Apex';
-IconApex.variants = 'brandedmono';
 
 export default IconApex;

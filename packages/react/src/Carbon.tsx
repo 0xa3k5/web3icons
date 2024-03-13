@@ -18,6 +18,5 @@ const IconCarbon = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconCarbon.displayName = 'Carbon';
-IconCarbon.variants = 'brandedmono';
 
 export default IconCarbon;

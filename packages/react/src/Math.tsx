@@ -18,6 +18,5 @@ const IconMath = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMath.displayName = 'Math';
-IconMath.variants = 'brandedmono';
 
 export default IconMath;

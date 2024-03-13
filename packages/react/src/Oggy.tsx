@@ -10,6 +10,5 @@ const IconOggy = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconOggy.displayName = 'Oggy';
-IconOggy.variants = 'branded';
 
 export default IconOggy;

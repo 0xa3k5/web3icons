@@ -18,6 +18,5 @@ const IconHydra = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconHydra.displayName = 'Hydra';
-IconHydra.variants = 'brandedmono';
 
 export default IconHydra;

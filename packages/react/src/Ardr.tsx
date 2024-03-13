@@ -18,6 +18,5 @@ const IconArdr = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconArdr.displayName = 'Ardr';
-IconArdr.variants = 'brandedmono';
 
 export default IconArdr;

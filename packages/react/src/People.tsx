@@ -10,6 +10,5 @@ const IconPeople = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconPeople.displayName = 'People';
-IconPeople.variants = 'branded';
 
 export default IconPeople;

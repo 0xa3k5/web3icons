@@ -18,6 +18,5 @@ const IconHzn = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconHzn.displayName = 'Hzn';
-IconHzn.variants = 'brandedmono';
 
 export default IconHzn;

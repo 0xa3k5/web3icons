@@ -18,6 +18,5 @@ const IconKava = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconKava.displayName = 'Kava';
-IconKava.variants = 'brandedmono';
 
 export default IconKava;

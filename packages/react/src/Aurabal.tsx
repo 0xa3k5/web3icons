@@ -10,6 +10,5 @@ const IconAurabal = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props },
 ));
 
 IconAurabal.displayName = 'Aurabal';
-IconAurabal.variants = 'mono';
 
 export default IconAurabal;

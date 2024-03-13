@@ -18,6 +18,5 @@ const IconBcube = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBcube.displayName = 'Bcube';
-IconBcube.variants = 'brandedmono';
 
 export default IconBcube;

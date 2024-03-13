@@ -10,6 +10,5 @@ const IconCly = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconCly.displayName = 'Cly';
-IconCly.variants = 'branded';
 
 export default IconCly;

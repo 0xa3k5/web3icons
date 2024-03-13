@@ -10,6 +10,5 @@ const IconBmc = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconBmc.displayName = 'Bmc';
-IconBmc.variants = 'mono';
 
 export default IconBmc;

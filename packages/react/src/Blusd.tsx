@@ -10,6 +10,5 @@ const IconBlusd = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconBlusd.displayName = 'Blusd';
-IconBlusd.variants = 'branded';
 
 export default IconBlusd;

@@ -18,6 +18,5 @@ const IconIpor = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconIpor.displayName = 'Ipor';
-IconIpor.variants = 'brandedmono';
 
 export default IconIpor;

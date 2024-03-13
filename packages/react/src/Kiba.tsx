@@ -10,6 +10,5 @@ const IconKiba = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconKiba.displayName = 'Kiba';
-IconKiba.variants = 'branded';
 
 export default IconKiba;

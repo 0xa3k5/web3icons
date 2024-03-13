@@ -18,6 +18,5 @@ const IconHair = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHair.displayName = 'Hair';
-IconHair.variants = 'brandedmono';
 
 export default IconHair;

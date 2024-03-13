@@ -18,6 +18,5 @@ const IconOmni = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconOmni.displayName = 'Omni';
-IconOmni.variants = 'brandedmono';
 
 export default IconOmni;

@@ -18,6 +18,5 @@ const IconBtcp = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBtcp.displayName = 'Btcp';
-IconBtcp.variants = 'brandedmono';
 
 export default IconBtcp;

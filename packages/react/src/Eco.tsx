@@ -10,6 +10,5 @@ const IconEco = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconEco.displayName = 'Eco';
-IconEco.variants = 'mono';
 
 export default IconEco;

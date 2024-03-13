@@ -18,6 +18,5 @@ const IconGymnet = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconGymnet.displayName = 'Gymnet';
-IconGymnet.variants = 'brandedmono';
 
 export default IconGymnet;

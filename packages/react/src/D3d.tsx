@@ -18,6 +18,5 @@ const IconD3d = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconD3d.displayName = 'D3d';
-IconD3d.variants = 'brandedmono';
 
 export default IconD3d;

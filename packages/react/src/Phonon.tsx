@@ -18,6 +18,5 @@ const IconPhonon = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconPhonon.displayName = 'Phonon';
-IconPhonon.variants = 'brandedmono';
 
 export default IconPhonon;

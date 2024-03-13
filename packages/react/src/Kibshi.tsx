@@ -10,6 +10,5 @@ const IconKibshi = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconKibshi.displayName = 'Kibshi';
-IconKibshi.variants = 'branded';
 
 export default IconKibshi;

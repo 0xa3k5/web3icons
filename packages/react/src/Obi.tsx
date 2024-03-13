@@ -10,6 +10,5 @@ const IconObi = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconObi.displayName = 'Obi';
-IconObi.variants = 'branded';
 
 export default IconObi;

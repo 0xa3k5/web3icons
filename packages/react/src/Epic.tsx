@@ -18,6 +18,5 @@ const IconEpic = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconEpic.displayName = 'Epic';
-IconEpic.variants = 'brandedmono';
 
 export default IconEpic;

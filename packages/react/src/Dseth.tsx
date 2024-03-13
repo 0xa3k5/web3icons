@@ -18,6 +18,5 @@ const IconDseth = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconDseth.displayName = 'Dseth';
-IconDseth.variants = 'brandedmono';
 
 export default IconDseth;

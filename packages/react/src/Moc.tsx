@@ -10,6 +10,5 @@ const IconMoc = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconMoc.displayName = 'Moc';
-IconMoc.variants = 'branded';
 
 export default IconMoc;

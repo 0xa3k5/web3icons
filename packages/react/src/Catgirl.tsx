@@ -10,6 +10,5 @@ const IconCatgirl = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props },
 ));
 
 IconCatgirl.displayName = 'Catgirl';
-IconCatgirl.variants = 'branded';
 
 export default IconCatgirl;

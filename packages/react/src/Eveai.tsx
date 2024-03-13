@@ -18,6 +18,5 @@ const IconEveai = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconEveai.displayName = 'Eveai';
-IconEveai.variants = 'brandedmono';
 
 export default IconEveai;

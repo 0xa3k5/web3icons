@@ -18,6 +18,5 @@ const IconMaps = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMaps.displayName = 'Maps';
-IconMaps.variants = 'brandedmono';
 
 export default IconMaps;

@@ -18,6 +18,5 @@ const IconPi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono'
 ));
 
 IconPi.displayName = 'Pi';
-IconPi.variants = 'brandedmono';
 
 export default IconPi;

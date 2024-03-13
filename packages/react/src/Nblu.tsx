@@ -18,6 +18,5 @@ const IconNblu = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNblu.displayName = 'Nblu';
-IconNblu.variants = 'brandedmono';
 
 export default IconNblu;

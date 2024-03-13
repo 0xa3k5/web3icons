@@ -18,6 +18,5 @@ const IconKrom = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconKrom.displayName = 'Krom';
-IconKrom.variants = 'brandedmono';
 
 export default IconKrom;

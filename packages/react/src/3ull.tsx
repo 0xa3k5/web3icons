@@ -18,6 +18,5 @@ const Icon3ull = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 Icon3ull.displayName = '3ull';
-Icon3ull.variants = 'brandedmono';
 
 export default Icon3ull;

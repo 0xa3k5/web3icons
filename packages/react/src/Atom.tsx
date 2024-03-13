@@ -18,6 +18,5 @@ const IconAtom = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAtom.displayName = 'Atom';
-IconAtom.variants = 'brandedmono';
 
 export default IconAtom;

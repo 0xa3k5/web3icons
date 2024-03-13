@@ -10,6 +10,5 @@ const IconKarate = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconKarate.displayName = 'Karate';
-IconKarate.variants = 'mono';
 
 export default IconKarate;

@@ -10,6 +10,5 @@ const IconFxs = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconFxs.displayName = 'Fxs';
-IconFxs.variants = 'mono';
 
 export default IconFxs;

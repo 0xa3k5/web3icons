@@ -18,6 +18,5 @@ const IconMir = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconMir.displayName = 'Mir';
-IconMir.variants = 'brandedmono';
 
 export default IconMir;

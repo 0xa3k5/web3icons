@@ -10,6 +10,5 @@ const IconHusky = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconHusky.displayName = 'Husky';
-IconHusky.variants = 'branded';
 
 export default IconHusky;

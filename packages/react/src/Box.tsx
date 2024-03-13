@@ -10,6 +10,5 @@ const IconBox = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconBox.displayName = 'Box';
-IconBox.variants = 'mono';
 
 export default IconBox;

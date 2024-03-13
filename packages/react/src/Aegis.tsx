@@ -18,6 +18,5 @@ const IconAegis = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconAegis.displayName = 'Aegis';
-IconAegis.variants = 'brandedmono';
 
 export default IconAegis;

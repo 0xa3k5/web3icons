@@ -18,6 +18,5 @@ const IconIris = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconIris.displayName = 'Iris';
-IconIris.variants = 'brandedmono';
 
 export default IconIris;

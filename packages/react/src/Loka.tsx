@@ -18,6 +18,5 @@ const IconLoka = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconLoka.displayName = 'Loka';
-IconLoka.variants = 'brandedmono';
 
 export default IconLoka;

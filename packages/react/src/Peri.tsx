@@ -18,6 +18,5 @@ const IconPeri = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconPeri.displayName = 'Peri';
-IconPeri.variants = 'brandedmono';
 
 export default IconPeri;

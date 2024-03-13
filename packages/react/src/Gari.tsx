@@ -10,6 +10,5 @@ const IconGari = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconGari.displayName = 'Gari';
-IconGari.variants = 'branded';
 
 export default IconGari;

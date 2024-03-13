@@ -10,6 +10,5 @@ const IconGhub = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconGhub.displayName = 'Ghub';
-IconGhub.variants = 'branded';
 
 export default IconGhub;

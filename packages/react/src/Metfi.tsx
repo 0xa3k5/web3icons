@@ -18,6 +18,5 @@ const IconMetfi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconMetfi.displayName = 'Metfi';
-IconMetfi.variants = 'brandedmono';
 
 export default IconMetfi;

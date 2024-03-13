@@ -10,6 +10,5 @@ const IconCwar = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconCwar.displayName = 'Cwar';
-IconCwar.variants = 'branded';
 
 export default IconCwar;

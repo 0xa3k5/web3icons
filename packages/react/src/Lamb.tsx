@@ -18,6 +18,5 @@ const IconLamb = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconLamb.displayName = 'Lamb';
-IconLamb.variants = 'brandedmono';
 
 export default IconLamb;

@@ -18,6 +18,5 @@ const IconMvd = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconMvd.displayName = 'Mvd';
-IconMvd.variants = 'brandedmono';
 
 export default IconMvd;

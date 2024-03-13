@@ -18,6 +18,5 @@ const IconNett = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNett.displayName = 'Nett';
-IconNett.variants = 'brandedmono';
 
 export default IconNett;

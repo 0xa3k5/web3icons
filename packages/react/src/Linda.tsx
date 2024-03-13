@@ -10,6 +10,5 @@ const IconLinda = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconLinda.displayName = 'Linda';
-IconLinda.variants = 'branded';
 
 export default IconLinda;

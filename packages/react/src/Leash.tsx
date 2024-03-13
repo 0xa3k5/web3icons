@@ -10,6 +10,5 @@ const IconLeash = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconLeash.displayName = 'Leash';
-IconLeash.variants = 'branded';
 
 export default IconLeash;

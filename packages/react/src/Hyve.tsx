@@ -18,6 +18,5 @@ const IconHyve = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHyve.displayName = 'Hyve';
-IconHyve.variants = 'brandedmono';
 
 export default IconHyve;

@@ -18,6 +18,5 @@ const IconOoks = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconOoks.displayName = 'Ooks';
-IconOoks.variants = 'brandedmono';
 
 export default IconOoks;

@@ -10,6 +10,5 @@ const IconClxy = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconClxy.displayName = 'Clxy';
-IconClxy.variants = 'mono';
 
 export default IconClxy;

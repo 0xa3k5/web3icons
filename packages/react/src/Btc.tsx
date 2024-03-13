@@ -18,6 +18,5 @@ const IconBtc = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconBtc.displayName = 'Btc';
-IconBtc.variants = 'brandedmono';
 
 export default IconBtc;

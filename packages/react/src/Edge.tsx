@@ -18,6 +18,5 @@ const IconEdge = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconEdge.displayName = 'Edge';
-IconEdge.variants = 'brandedmono';
 
 export default IconEdge;

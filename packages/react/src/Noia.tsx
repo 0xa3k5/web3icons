@@ -18,6 +18,5 @@ const IconNoia = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNoia.displayName = 'Noia';
-IconNoia.variants = 'brandedmono';
 
 export default IconNoia;

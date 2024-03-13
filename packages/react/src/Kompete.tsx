@@ -18,6 +18,5 @@ const IconKompete = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = '
 ));
 
 IconKompete.displayName = 'Kompete';
-IconKompete.variants = 'brandedmono';
 
 export default IconKompete;

@@ -10,6 +10,5 @@ const IconFrax = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconFrax.displayName = 'Frax';
-IconFrax.variants = 'mono';
 
 export default IconFrax;

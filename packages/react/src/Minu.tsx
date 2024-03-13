@@ -10,6 +10,5 @@ const IconMinu = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconMinu.displayName = 'Minu';
-IconMinu.variants = 'branded';
 
 export default IconMinu;

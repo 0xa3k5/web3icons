@@ -18,6 +18,5 @@ const IconEcoin = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconEcoin.displayName = 'Ecoin';
-IconEcoin.variants = 'brandedmono';
 
 export default IconEcoin;

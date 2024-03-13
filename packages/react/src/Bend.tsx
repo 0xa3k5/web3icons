@@ -18,6 +18,5 @@ const IconBend = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBend.displayName = 'Bend';
-IconBend.variants = 'brandedmono';
 
 export default IconBend;

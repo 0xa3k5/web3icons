@@ -18,6 +18,5 @@ const IconOpium = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconOpium.displayName = 'Opium';
-IconOpium.variants = 'brandedmono';
 
 export default IconOpium;

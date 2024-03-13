@@ -10,6 +10,5 @@ const IconIxs = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconIxs.displayName = 'Ixs';
-IconIxs.variants = 'mono';
 
 export default IconIxs;

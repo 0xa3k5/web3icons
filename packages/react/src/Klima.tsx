@@ -18,6 +18,5 @@ const IconKlima = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconKlima.displayName = 'Klima';
-IconKlima.variants = 'brandedmono';
 
 export default IconKlima;

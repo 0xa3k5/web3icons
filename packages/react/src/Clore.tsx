@@ -18,6 +18,5 @@ const IconClore = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconClore.displayName = 'Clore';
-IconClore.variants = 'brandedmono';
 
 export default IconClore;

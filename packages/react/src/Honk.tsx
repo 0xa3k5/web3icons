@@ -10,6 +10,5 @@ const IconHonk = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconHonk.displayName = 'Honk';
-IconHonk.variants = 'branded';
 
 export default IconHonk;

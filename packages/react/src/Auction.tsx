@@ -18,6 +18,5 @@ const IconAuction = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = '
 ));
 
 IconAuction.displayName = 'Auction';
-IconAuction.variants = 'brandedmono';
 
 export default IconAuction;

@@ -18,6 +18,5 @@ const IconAlot = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAlot.displayName = 'Alot';
-IconAlot.variants = 'brandedmono';
 
 export default IconAlot;

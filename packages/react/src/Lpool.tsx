@@ -18,6 +18,5 @@ const IconLpool = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconLpool.displayName = 'Lpool';
-IconLpool.variants = 'brandedmono';
 
 export default IconLpool;

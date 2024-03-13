@@ -18,6 +18,5 @@ const IconBeam = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBeam.displayName = 'Beam';
-IconBeam.variants = 'brandedmono';
 
 export default IconBeam;

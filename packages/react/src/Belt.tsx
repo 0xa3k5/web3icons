@@ -18,6 +18,5 @@ const IconBelt = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBelt.displayName = 'Belt';
-IconBelt.variants = 'brandedmono';
 
 export default IconBelt;

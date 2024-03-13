@@ -18,6 +18,5 @@ const IconAlpaca = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconAlpaca.displayName = 'Alpaca';
-IconAlpaca.variants = 'brandedmono';
 
 export default IconAlpaca;

@@ -18,6 +18,5 @@ const IconMean = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMean.displayName = 'Mean';
-IconMean.variants = 'brandedmono';
 
 export default IconMean;

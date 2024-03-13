@@ -18,6 +18,5 @@ const IconHilo = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHilo.displayName = 'Hilo';
-IconHilo.variants = 'brandedmono';
 
 export default IconHilo;

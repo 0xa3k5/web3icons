@@ -10,6 +10,5 @@ const IconDpet = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconDpet.displayName = 'Dpet';
-IconDpet.variants = 'branded';
 
 export default IconDpet;

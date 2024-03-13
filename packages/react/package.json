@@ -1,18 +1,25 @@
 {
   "name": "@token-icons/react",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
-  "type": "module",
-  "main": "index.ts",
-  "module": "index.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./index.ts"
     }
   },
+  "scripts": {
+    "build": "tsup ./index.ts --format cjs,esm --dts",
+    "dev": "bun run build -- --watch",
+    "lint": "eslint ./src --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\""
+  },
   "devDependencies": {
     "@svgr/core": "^8.1.0",
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "tsup": "^8.0.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

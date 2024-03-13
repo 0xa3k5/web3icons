@@ -10,6 +10,5 @@ const IconDobo = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconDobo.displayName = 'Dobo';
-IconDobo.variants = 'branded';
 
 export default IconDobo;

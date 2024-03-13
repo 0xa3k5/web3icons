@@ -18,6 +18,5 @@ const IconPbx = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconPbx.displayName = 'Pbx';
-IconPbx.variants = 'brandedmono';
 
 export default IconPbx;

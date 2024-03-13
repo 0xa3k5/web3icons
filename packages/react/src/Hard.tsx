@@ -18,6 +18,5 @@ const IconHard = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHard.displayName = 'Hard';
-IconHard.variants = 'brandedmono';
 
 export default IconHard;

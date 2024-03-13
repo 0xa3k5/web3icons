@@ -10,6 +10,5 @@ const IconEos = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconEos.displayName = 'Eos';
-IconEos.variants = 'mono';
 
 export default IconEos;

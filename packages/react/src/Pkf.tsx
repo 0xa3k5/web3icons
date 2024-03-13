@@ -18,6 +18,5 @@ const IconPkf = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconPkf.displayName = 'Pkf';
-IconPkf.variants = 'brandedmono';
 
 export default IconPkf;

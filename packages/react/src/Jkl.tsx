@@ -18,6 +18,5 @@ const IconJkl = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconJkl.displayName = 'Jkl';
-IconJkl.variants = 'brandedmono';
 
 export default IconJkl;

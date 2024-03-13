@@ -18,6 +18,5 @@ const IconKyve = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconKyve.displayName = 'Kyve';
-IconKyve.variants = 'brandedmono';
 
 export default IconKyve;

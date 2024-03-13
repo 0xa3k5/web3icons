@@ -18,6 +18,5 @@ const IconJasmy = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconJasmy.displayName = 'Jasmy';
-IconJasmy.variants = 'brandedmono';
 
 export default IconJasmy;

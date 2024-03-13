@@ -18,6 +18,5 @@ const IconEuno = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconEuno.displayName = 'Euno';
-IconEuno.variants = 'brandedmono';
 
 export default IconEuno;

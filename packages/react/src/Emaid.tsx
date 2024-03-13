@@ -10,6 +10,5 @@ const IconEmaid = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconEmaid.displayName = 'Emaid';
-IconEmaid.variants = 'branded';
 
 export default IconEmaid;

@@ -18,6 +18,5 @@ const IconKex = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconKex.displayName = 'Kex';
-IconKex.variants = 'brandedmono';
 
 export default IconKex;

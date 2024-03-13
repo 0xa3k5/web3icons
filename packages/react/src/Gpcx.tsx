@@ -10,6 +10,5 @@ const IconGpcx = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconGpcx.displayName = 'Gpcx';
-IconGpcx.variants = 'branded';
 
 export default IconGpcx;

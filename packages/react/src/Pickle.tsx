@@ -10,6 +10,5 @@ const IconPickle = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconPickle.displayName = 'Pickle';
-IconPickle.variants = 'branded';
 
 export default IconPickle;

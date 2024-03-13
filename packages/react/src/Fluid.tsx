@@ -18,6 +18,5 @@ const IconFluid = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconFluid.displayName = 'Fluid';
-IconFluid.variants = 'brandedmono';
 
 export default IconFluid;

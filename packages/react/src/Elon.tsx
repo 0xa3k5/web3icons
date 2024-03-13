@@ -10,6 +10,5 @@ const IconElon = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconElon.displayName = 'Elon';
-IconElon.variants = 'branded';
 
 export default IconElon;

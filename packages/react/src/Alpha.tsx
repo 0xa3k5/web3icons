@@ -18,6 +18,5 @@ const IconAlpha = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconAlpha.displayName = 'Alpha';
-IconAlpha.variants = 'brandedmono';
 
 export default IconAlpha;

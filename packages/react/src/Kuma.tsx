@@ -10,6 +10,5 @@ const IconKuma = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconKuma.displayName = 'Kuma';
-IconKuma.variants = 'branded';
 
 export default IconKuma;

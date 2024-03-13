@@ -18,6 +18,5 @@ const IconGswift = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconGswift.displayName = 'Gswift';
-IconGswift.variants = 'brandedmono';
 
 export default IconGswift;

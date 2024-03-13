@@ -18,6 +18,5 @@ const IconKlay = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconKlay.displayName = 'Klay';
-IconKlay.variants = 'brandedmono';
 
 export default IconKlay;

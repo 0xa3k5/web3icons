@@ -18,6 +18,5 @@ const IconCard = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconCard.displayName = 'Card';
-IconCard.variants = 'brandedmono';
 
 export default IconCard;

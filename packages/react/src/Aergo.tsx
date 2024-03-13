@@ -18,6 +18,5 @@ const IconAergo = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconAergo.displayName = 'Aergo';
-IconAergo.variants = 'brandedmono';
 
 export default IconAergo;

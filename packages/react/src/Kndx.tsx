@@ -10,6 +10,5 @@ const IconKndx = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconKndx.displayName = 'Kndx';
-IconKndx.variants = 'mono';
 
 export default IconKndx;

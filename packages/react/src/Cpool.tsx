@@ -10,6 +10,5 @@ const IconCpool = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconCpool.displayName = 'Cpool';
-IconCpool.variants = 'branded';
 
 export default IconCpool;

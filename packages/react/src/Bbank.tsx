@@ -18,6 +18,5 @@ const IconBbank = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBbank.displayName = 'Bbank';
-IconBbank.variants = 'brandedmono';
 
 export default IconBbank;

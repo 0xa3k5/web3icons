@@ -10,6 +10,5 @@ const IconMoe = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconMoe.displayName = 'Moe';
-IconMoe.variants = 'branded';
 
 export default IconMoe;

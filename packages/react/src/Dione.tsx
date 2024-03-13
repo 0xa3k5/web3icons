@@ -10,6 +10,5 @@ const IconDione = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconDione.displayName = 'Dione';
-IconDione.variants = 'branded';
 
 export default IconDione;

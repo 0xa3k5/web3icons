@@ -18,6 +18,5 @@ const IconFold = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconFold.displayName = 'Fold';
-IconFold.variants = 'brandedmono';
 
 export default IconFold;

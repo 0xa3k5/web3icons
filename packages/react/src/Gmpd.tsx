@@ -18,6 +18,5 @@ const IconGmpd = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconGmpd.displayName = 'Gmpd';
-IconGmpd.variants = 'brandedmono';
 
 export default IconGmpd;

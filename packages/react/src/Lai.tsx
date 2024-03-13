@@ -10,6 +10,5 @@ const IconLai = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconLai.displayName = 'Lai';
-IconLai.variants = 'mono';
 
 export default IconLai;

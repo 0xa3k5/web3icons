@@ -10,6 +10,5 @@ const IconBiso = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconBiso.displayName = 'Biso';
-IconBiso.variants = 'mono';
 
 export default IconBiso;

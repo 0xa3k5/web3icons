@@ -10,6 +10,5 @@ const IconDimo = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconDimo.displayName = 'Dimo';
-IconDimo.variants = 'mono';
 
 export default IconDimo;

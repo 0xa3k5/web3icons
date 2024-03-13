@@ -10,6 +10,5 @@ const IconLake = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconLake.displayName = 'Lake';
-IconLake.variants = 'branded';
 
 export default IconLake;

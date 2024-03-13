@@ -10,6 +10,5 @@ const IconNeon = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconNeon.displayName = 'Neon';
-IconNeon.variants = 'branded';
 
 export default IconNeon;

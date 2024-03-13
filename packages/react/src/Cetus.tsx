@@ -18,6 +18,5 @@ const IconCetus = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCetus.displayName = 'Cetus';
-IconCetus.variants = 'brandedmono';
 
 export default IconCetus;

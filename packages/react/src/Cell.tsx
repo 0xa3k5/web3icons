@@ -18,6 +18,5 @@ const IconCell = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconCell.displayName = 'Cell';
-IconCell.variants = 'brandedmono';
 
 export default IconCell;

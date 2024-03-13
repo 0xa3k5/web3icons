@@ -18,6 +18,5 @@ const IconKoge = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconKoge.displayName = 'Koge';
-IconKoge.variants = 'brandedmono';
 
 export default IconKoge;

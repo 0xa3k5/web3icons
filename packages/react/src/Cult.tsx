@@ -10,6 +10,5 @@ const IconCult = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconCult.displayName = 'Cult';
-IconCult.variants = 'branded';
 
 export default IconCult;

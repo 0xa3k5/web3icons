@@ -10,6 +10,5 @@ const IconOvr = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconOvr.displayName = 'Ovr';
-IconOvr.variants = 'branded';
 
 export default IconOvr;

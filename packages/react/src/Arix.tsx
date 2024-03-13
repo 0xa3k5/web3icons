@@ -10,6 +10,5 @@ const IconArix = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconArix.displayName = 'Arix';
-IconArix.variants = 'branded';
 
 export default IconArix;

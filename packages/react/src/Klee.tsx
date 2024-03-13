@@ -10,6 +10,5 @@ const IconKlee = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconKlee.displayName = 'Klee';
-IconKlee.variants = 'branded';
 
 export default IconKlee;

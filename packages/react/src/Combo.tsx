@@ -18,6 +18,5 @@ const IconCombo = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCombo.displayName = 'Combo';
-IconCombo.variants = 'brandedmono';
 
 export default IconCombo;

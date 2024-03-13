@@ -10,6 +10,5 @@ const IconFarm = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconFarm.displayName = 'Farm';
-IconFarm.variants = 'branded';
 
 export default IconFarm;

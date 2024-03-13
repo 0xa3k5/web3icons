@@ -18,6 +18,5 @@ const IconFuse = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconFuse.displayName = 'Fuse';
-IconFuse.variants = 'brandedmono';
 
 export default IconFuse;

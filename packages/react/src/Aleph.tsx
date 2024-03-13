@@ -18,6 +18,5 @@ const IconAleph = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconAleph.displayName = 'Aleph';
-IconAleph.variants = 'brandedmono';
 
 export default IconAleph;

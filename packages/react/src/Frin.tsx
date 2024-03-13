@@ -10,6 +10,5 @@ const IconFrin = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconFrin.displayName = 'Frin';
-IconFrin.variants = 'mono';
 
 export default IconFrin;

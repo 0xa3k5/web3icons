@@ -18,6 +18,5 @@ const IconGfal = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconGfal.displayName = 'Gfal';
-IconGfal.variants = 'brandedmono';
 
 export default IconGfal;

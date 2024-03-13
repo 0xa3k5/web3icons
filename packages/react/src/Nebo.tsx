@@ -18,6 +18,5 @@ const IconNebo = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNebo.displayName = 'Nebo';
-IconNebo.variants = 'brandedmono';
 
 export default IconNebo;

@@ -10,6 +10,5 @@ const IconNest = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconNest.displayName = 'Nest';
-IconNest.variants = 'mono';
 
 export default IconNest;

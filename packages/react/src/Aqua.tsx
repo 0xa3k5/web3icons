@@ -10,6 +10,5 @@ const IconAqua = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconAqua.displayName = 'Aqua';
-IconAqua.variants = 'branded';
 
 export default IconAqua;

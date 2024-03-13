@@ -10,6 +10,5 @@ const IconBlast = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconBlast.displayName = 'Blast';
-IconBlast.variants = 'branded';
 
 export default IconBlast;

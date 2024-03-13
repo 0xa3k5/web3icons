@@ -18,6 +18,5 @@ const IconDash = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconDash.displayName = 'Dash';
-IconDash.variants = 'brandedmono';
 
 export default IconDash;

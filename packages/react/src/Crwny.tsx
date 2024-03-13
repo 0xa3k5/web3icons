@@ -18,6 +18,5 @@ const IconCrwny = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCrwny.displayName = 'Crwny';
-IconCrwny.variants = 'brandedmono';
 
 export default IconCrwny;

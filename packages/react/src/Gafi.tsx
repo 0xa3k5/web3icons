@@ -18,6 +18,5 @@ const IconGafi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconGafi.displayName = 'Gafi';
-IconGafi.variants = 'brandedmono';
 
 export default IconGafi;

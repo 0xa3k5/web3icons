@@ -18,6 +18,5 @@ const IconCast = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconCast.displayName = 'Cast';
-IconCast.variants = 'brandedmono';
 
 export default IconCast;

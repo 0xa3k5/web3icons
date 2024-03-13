@@ -18,6 +18,5 @@ const IconCopi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconCopi.displayName = 'Copi';
-IconCopi.variants = 'brandedmono';
 
 export default IconCopi;

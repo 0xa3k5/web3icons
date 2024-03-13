@@ -10,6 +10,5 @@ const IconLss = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconLss.displayName = 'Lss';
-IconLss.variants = 'mono';
 
 export default IconLss;

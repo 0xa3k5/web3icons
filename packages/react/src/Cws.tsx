@@ -18,6 +18,5 @@ const IconCws = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconCws.displayName = 'Cws';
-IconCws.variants = 'brandedmono';
 
 export default IconCws;

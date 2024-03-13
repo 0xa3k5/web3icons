@@ -10,6 +10,5 @@ const IconPeel = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconPeel.displayName = 'Peel';
-IconPeel.variants = 'branded';
 
 export default IconPeel;

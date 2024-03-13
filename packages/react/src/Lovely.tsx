@@ -18,6 +18,5 @@ const IconLovely = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconLovely.displayName = 'Lovely';
-IconLovely.variants = 'brandedmono';
 
 export default IconLovely;

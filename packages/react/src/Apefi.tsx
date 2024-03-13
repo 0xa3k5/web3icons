@@ -18,6 +18,5 @@ const IconApefi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconApefi.displayName = 'Apefi';
-IconApefi.variants = 'brandedmono';
 
 export default IconApefi;

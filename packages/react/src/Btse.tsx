@@ -18,6 +18,5 @@ const IconBtse = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBtse.displayName = 'Btse';
-IconBtse.variants = 'brandedmono';
 
 export default IconBtse;

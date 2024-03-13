@@ -10,6 +10,5 @@ const IconChampz = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconChampz.displayName = 'Champz';
-IconChampz.variants = 'branded';
 
 export default IconChampz;

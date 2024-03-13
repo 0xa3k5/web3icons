@@ -18,6 +18,5 @@ const IconNals = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNals.displayName = 'Nals';
-IconNals.variants = 'brandedmono';
 
 export default IconNals;

@@ -18,6 +18,5 @@ const IconKey = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconKey.displayName = 'Key';
-IconKey.variants = 'brandedmono';
 
 export default IconKey;

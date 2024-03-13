@@ -10,6 +10,5 @@ const IconFlex = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconFlex.displayName = 'Flex';
-IconFlex.variants = 'branded';
 
 export default IconFlex;

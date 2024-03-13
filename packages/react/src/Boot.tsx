@@ -10,6 +10,5 @@ const IconBoot = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconBoot.displayName = 'Boot';
-IconBoot.variants = 'branded';
 
 export default IconBoot;

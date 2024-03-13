@@ -10,6 +10,5 @@ const IconArpa = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconArpa.displayName = 'Arpa';
-IconArpa.variants = 'branded';
 
 export default IconArpa;

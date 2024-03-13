@@ -10,6 +10,5 @@ const IconLeox = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconLeox.displayName = 'Leox';
-IconLeox.variants = 'mono';
 
 export default IconLeox;

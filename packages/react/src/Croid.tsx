@@ -18,6 +18,5 @@ const IconCroid = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCroid.displayName = 'Croid';
-IconCroid.variants = 'brandedmono';
 
 export default IconCroid;

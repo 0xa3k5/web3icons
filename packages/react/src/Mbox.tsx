@@ -18,6 +18,5 @@ const IconMbox = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMbox.displayName = 'Mbox';
-IconMbox.variants = 'brandedmono';
 
 export default IconMbox;

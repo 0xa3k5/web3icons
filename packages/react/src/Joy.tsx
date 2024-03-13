@@ -18,6 +18,5 @@ const IconJoy = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconJoy.displayName = 'Joy';
-IconJoy.variants = 'brandedmono';
 
 export default IconJoy;

@@ -18,6 +18,5 @@ const IconPgx = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconPgx.displayName = 'Pgx';
-IconPgx.variants = 'brandedmono';
 
 export default IconPgx;

@@ -10,6 +10,5 @@ const IconGq = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref)
 ));
 
 IconGq.displayName = 'Gq';
-IconGq.variants = 'branded';
 
 export default IconGq;

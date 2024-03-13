@@ -18,6 +18,5 @@ const IconHxd = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconHxd.displayName = 'Hxd';
-IconHxd.variants = 'brandedmono';
 
 export default IconHxd;

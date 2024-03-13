@@ -10,6 +10,5 @@ const IconBadger = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconBadger.displayName = 'Badger';
-IconBadger.variants = 'branded';
 
 export default IconBadger;

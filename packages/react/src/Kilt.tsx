@@ -18,6 +18,5 @@ const IconKilt = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconKilt.displayName = 'Kilt';
-IconKilt.variants = 'brandedmono';
 
 export default IconKilt;

@@ -18,6 +18,5 @@ const IconAbyss = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconAbyss.displayName = 'Abyss';
-IconAbyss.variants = 'brandedmono';
 
 export default IconAbyss;

@@ -18,6 +18,5 @@ const IconKunci = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconKunci.displayName = 'Kunci';
-IconKunci.variants = 'brandedmono';
 
 export default IconKunci;

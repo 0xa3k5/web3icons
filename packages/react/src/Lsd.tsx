@@ -18,6 +18,5 @@ const IconLsd = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconLsd.displayName = 'Lsd';
-IconLsd.variants = 'brandedmono';
 
 export default IconLsd;

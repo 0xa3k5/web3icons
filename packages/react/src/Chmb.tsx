@@ -10,6 +10,5 @@ const IconChmb = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconChmb.displayName = 'Chmb';
-IconChmb.variants = 'branded';
 
 export default IconChmb;

@@ -10,6 +10,5 @@ const IconAvi = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconAvi.displayName = 'Avi';
-IconAvi.variants = 'branded';
 
 export default IconAvi;

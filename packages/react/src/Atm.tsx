@@ -10,6 +10,5 @@ const IconAtm = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconAtm.displayName = 'Atm';
-IconAtm.variants = 'branded';
 
 export default IconAtm;

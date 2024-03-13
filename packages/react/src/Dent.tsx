@@ -10,6 +10,5 @@ const IconDent = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconDent.displayName = 'Dent';
-IconDent.variants = 'mono';
 
 export default IconDent;

@@ -18,6 +18,5 @@ const IconPawth = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconPawth.displayName = 'Pawth';
-IconPawth.variants = 'brandedmono';
 
 export default IconPawth;

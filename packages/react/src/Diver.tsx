@@ -18,6 +18,5 @@ const IconDiver = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconDiver.displayName = 'Diver';
-IconDiver.variants = 'brandedmono';
 
 export default IconDiver;

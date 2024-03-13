@@ -10,6 +10,5 @@ const IconOpul = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconOpul.displayName = 'Opul';
-IconOpul.variants = 'mono';
 
 export default IconOpul;

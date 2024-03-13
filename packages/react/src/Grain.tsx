@@ -18,6 +18,5 @@ const IconGrain = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconGrain.displayName = 'Grain';
-IconGrain.variants = 'brandedmono';
 
 export default IconGrain;

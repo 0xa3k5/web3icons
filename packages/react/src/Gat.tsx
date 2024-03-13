@@ -10,6 +10,5 @@ const IconGat = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconGat.displayName = 'Gat';
-IconGat.variants = 'branded';
 
 export default IconGat;

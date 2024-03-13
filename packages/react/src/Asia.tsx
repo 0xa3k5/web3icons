@@ -18,6 +18,5 @@ const IconAsia = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAsia.displayName = 'Asia';
-IconAsia.variants = 'brandedmono';
 
 export default IconAsia;

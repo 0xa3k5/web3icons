@@ -10,6 +10,5 @@ const IconFara = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconFara.displayName = 'Fara';
-IconFara.variants = 'branded';
 
 export default IconFara;

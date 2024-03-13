@@ -18,6 +18,5 @@ const IconDog = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconDog.displayName = 'Dog';
-IconDog.variants = 'brandedmono';
 
 export default IconDog;

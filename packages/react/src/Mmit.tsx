@@ -10,6 +10,5 @@ const IconMmit = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconMmit.displayName = 'Mmit';
-IconMmit.variants = 'branded';
 
 export default IconMmit;

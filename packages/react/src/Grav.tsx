@@ -18,6 +18,5 @@ const IconGrav = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconGrav.displayName = 'Grav';
-IconGrav.variants = 'brandedmono';
 
 export default IconGrav;

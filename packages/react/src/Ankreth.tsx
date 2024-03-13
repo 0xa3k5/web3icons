@@ -10,6 +10,5 @@ const IconAnkreth = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props },
 ));
 
 IconAnkreth.displayName = 'Ankreth';
-IconAnkreth.variants = 'branded';
 
 export default IconAnkreth;

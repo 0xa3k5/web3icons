@@ -10,6 +10,5 @@ const IconBen = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconBen.displayName = 'Ben';
-IconBen.variants = 'branded';
 
 export default IconBen;

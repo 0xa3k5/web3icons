@@ -18,6 +18,5 @@ const IconInfra = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconInfra.displayName = 'Infra';
-IconInfra.variants = 'brandedmono';
 
 export default IconInfra;

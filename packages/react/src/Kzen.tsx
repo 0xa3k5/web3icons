@@ -10,6 +10,5 @@ const IconKzen = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconKzen.displayName = 'Kzen';
-IconKzen.variants = 'branded';
 
 export default IconKzen;

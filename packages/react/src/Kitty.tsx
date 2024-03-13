@@ -10,6 +10,5 @@ const IconKitty = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconKitty.displayName = 'Kitty';
-IconKitty.variants = 'branded';
 
 export default IconKitty;

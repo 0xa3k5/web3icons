@@ -10,6 +10,5 @@ const IconAdoge = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconAdoge.displayName = 'Adoge';
-IconAdoge.variants = 'branded';
 
 export default IconAdoge;

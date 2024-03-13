@@ -18,6 +18,5 @@ const IconNuls = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNuls.displayName = 'Nuls';
-IconNuls.variants = 'brandedmono';
 
 export default IconNuls;

@@ -18,6 +18,5 @@ const IconBotto = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBotto.displayName = 'Botto';
-IconBotto.variants = 'brandedmono';
 
 export default IconBotto;

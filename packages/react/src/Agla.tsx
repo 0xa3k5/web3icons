@@ -18,6 +18,5 @@ const IconAgla = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAgla.displayName = 'Agla';
-IconAgla.variants = 'brandedmono';
 
 export default IconAgla;

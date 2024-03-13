@@ -18,6 +18,5 @@ const IconBitci = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBitci.displayName = 'Bitci';
-IconBitci.variants = 'brandedmono';
 
 export default IconBitci;

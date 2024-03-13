@@ -18,6 +18,5 @@ const IconMork = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMork.displayName = 'Mork';
-IconMork.variants = 'brandedmono';
 
 export default IconMork;

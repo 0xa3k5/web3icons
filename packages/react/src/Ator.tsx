@@ -18,6 +18,5 @@ const IconAtor = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAtor.displayName = 'Ator';
-IconAtor.variants = 'brandedmono';
 
 export default IconAtor;

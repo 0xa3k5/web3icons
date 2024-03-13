@@ -18,6 +18,5 @@ const IconDtx = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconDtx.displayName = 'Dtx';
-IconDtx.variants = 'brandedmono';
 
 export default IconDtx;

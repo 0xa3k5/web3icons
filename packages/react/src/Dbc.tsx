@@ -18,6 +18,5 @@ const IconDbc = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconDbc.displayName = 'Dbc';
-IconDbc.variants = 'brandedmono';
 
 export default IconDbc;

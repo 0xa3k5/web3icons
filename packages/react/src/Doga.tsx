@@ -18,6 +18,5 @@ const IconDoga = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconDoga.displayName = 'Doga';
-IconDoga.variants = 'brandedmono';
 
 export default IconDoga;

@@ -10,6 +10,5 @@ const IconAmpl = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconAmpl.displayName = 'Ampl';
-IconAmpl.variants = 'mono';
 
 export default IconAmpl;

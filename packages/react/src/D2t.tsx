@@ -18,6 +18,5 @@ const IconD2t = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconD2t.displayName = 'D2t';
-IconD2t.variants = 'brandedmono';
 
 export default IconD2t;

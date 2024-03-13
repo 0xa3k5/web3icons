@@ -10,6 +10,5 @@ const IconMintme = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconMintme.displayName = 'Mintme';
-IconMintme.variants = 'branded';
 
 export default IconMintme;

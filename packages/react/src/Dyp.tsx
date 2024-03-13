@@ -10,6 +10,5 @@ const IconDyp = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconDyp.displayName = 'Dyp';
-IconDyp.variants = 'branded';
 
 export default IconDyp;

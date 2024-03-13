@@ -18,6 +18,5 @@ const IconMcade = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconMcade.displayName = 'Mcade';
-IconMcade.variants = 'brandedmono';
 
 export default IconMcade;

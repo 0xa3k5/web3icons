@@ -18,6 +18,5 @@ const IconDacxi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconDacxi.displayName = 'Dacxi';
-IconDacxi.variants = 'brandedmono';
 
 export default IconDacxi;

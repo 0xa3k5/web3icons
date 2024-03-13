@@ -18,6 +18,5 @@ const IconArk = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconArk.displayName = 'Ark';
-IconArk.variants = 'brandedmono';
 
 export default IconArk;

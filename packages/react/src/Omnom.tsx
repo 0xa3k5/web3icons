@@ -10,6 +10,5 @@ const IconOmnom = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconOmnom.displayName = 'Omnom';
-IconOmnom.variants = 'branded';
 
 export default IconOmnom;

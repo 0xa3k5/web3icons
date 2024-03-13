@@ -18,6 +18,5 @@ const IconInsur = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconInsur.displayName = 'Insur';
-IconInsur.variants = 'brandedmono';
 
 export default IconInsur;

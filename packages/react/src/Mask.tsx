@@ -18,6 +18,5 @@ const IconMask = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMask.displayName = 'Mask';
-IconMask.variants = 'brandedmono';
 
 export default IconMask;

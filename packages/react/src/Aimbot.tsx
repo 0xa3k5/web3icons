@@ -18,6 +18,5 @@ const IconAimbot = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconAimbot.displayName = 'Aimbot';
-IconAimbot.variants = 'brandedmono';
 
 export default IconAimbot;

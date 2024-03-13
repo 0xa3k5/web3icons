@@ -18,6 +18,5 @@ const IconNabox = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconNabox.displayName = 'Nabox';
-IconNabox.variants = 'brandedmono';
 
 export default IconNabox;

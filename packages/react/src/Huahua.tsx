@@ -10,6 +10,5 @@ const IconHuahua = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconHuahua.displayName = 'Huahua';
-IconHuahua.variants = 'branded';
 
 export default IconHuahua;

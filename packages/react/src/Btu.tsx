@@ -18,6 +18,5 @@ const IconBtu = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconBtu.displayName = 'Btu';
-IconBtu.variants = 'brandedmono';
 
 export default IconBtu;

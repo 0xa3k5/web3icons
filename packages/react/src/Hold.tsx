@@ -10,6 +10,5 @@ const IconHold = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconHold.displayName = 'Hold';
-IconHold.variants = 'branded';
 
 export default IconHold;

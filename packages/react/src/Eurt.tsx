@@ -10,6 +10,5 @@ const IconEurt = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconEurt.displayName = 'Eurt';
-IconEurt.variants = 'mono';
 
 export default IconEurt;

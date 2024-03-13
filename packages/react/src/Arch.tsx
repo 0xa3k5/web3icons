@@ -10,6 +10,5 @@ const IconArch = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconArch.displayName = 'Arch';
-IconArch.variants = 'branded';
 
 export default IconArch;

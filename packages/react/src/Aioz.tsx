@@ -10,6 +10,5 @@ const IconAioz = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconAioz.displayName = 'Aioz';
-IconAioz.variants = 'mono';
 
 export default IconAioz;

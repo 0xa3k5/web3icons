@@ -18,6 +18,5 @@ const IconHoney = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconHoney.displayName = 'Honey';
-IconHoney.variants = 'brandedmono';
 
 export default IconHoney;

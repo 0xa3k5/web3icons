@@ -18,6 +18,5 @@ const IconLit = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconLit.displayName = 'Lit';
-IconLit.variants = 'brandedmono';
 
 export default IconLit;

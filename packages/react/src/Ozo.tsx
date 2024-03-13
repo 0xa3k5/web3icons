@@ -18,6 +18,5 @@ const IconOzo = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconOzo.displayName = 'Ozo';
-IconOzo.variants = 'brandedmono';
 
 export default IconOzo;

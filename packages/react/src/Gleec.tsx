@@ -18,6 +18,5 @@ const IconGleec = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconGleec.displayName = 'Gleec';
-IconGleec.variants = 'brandedmono';
 
 export default IconGleec;

@@ -18,6 +18,5 @@ const IconCas = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconCas.displayName = 'Cas';
-IconCas.variants = 'brandedmono';
 
 export default IconCas;

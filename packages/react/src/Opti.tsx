@@ -10,6 +10,5 @@ const IconOpti = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconOpti.displayName = 'Opti';
-IconOpti.variants = 'branded';
 
 export default IconOpti;

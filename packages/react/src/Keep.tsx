@@ -18,6 +18,5 @@ const IconKeep = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconKeep.displayName = 'Keep';
-IconKeep.variants = 'brandedmono';
 
 export default IconKeep;

@@ -10,6 +10,5 @@ const IconGrs = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconGrs.displayName = 'Grs';
-IconGrs.variants = 'mono';
 
 export default IconGrs;

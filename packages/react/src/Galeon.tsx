@@ -18,6 +18,5 @@ const IconGaleon = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconGaleon.displayName = 'Galeon';
-IconGaleon.variants = 'brandedmono';
 
 export default IconGaleon;

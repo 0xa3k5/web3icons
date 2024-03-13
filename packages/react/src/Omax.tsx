@@ -18,6 +18,5 @@ const IconOmax = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconOmax.displayName = 'Omax';
-IconOmax.variants = 'brandedmono';
 
 export default IconOmax;

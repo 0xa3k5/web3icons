@@ -10,6 +10,5 @@ const IconPaw = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconPaw.displayName = 'Paw';
-IconPaw.variants = 'branded';
 
 export default IconPaw;

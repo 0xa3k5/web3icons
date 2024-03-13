@@ -10,6 +10,5 @@ const IconM87 = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconM87.displayName = 'M87';
-IconM87.variants = 'mono';
 
 export default IconM87;

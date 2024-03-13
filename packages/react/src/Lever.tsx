@@ -18,6 +18,5 @@ const IconLever = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconLever.displayName = 'Lever';
-IconLever.variants = 'brandedmono';
 
 export default IconLever;

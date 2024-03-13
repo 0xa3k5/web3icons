@@ -18,6 +18,5 @@ const IconHibs = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHibs.displayName = 'Hibs';
-IconHibs.variants = 'brandedmono';
 
 export default IconHibs;

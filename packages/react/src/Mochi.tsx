@@ -10,6 +10,5 @@ const IconMochi = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconMochi.displayName = 'Mochi';
-IconMochi.variants = 'branded';
 
 export default IconMochi;

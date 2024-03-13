@@ -18,6 +18,5 @@ const IconEland = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconEland.displayName = 'Eland';
-IconEland.variants = 'brandedmono';
 
 export default IconEland;

@@ -18,6 +18,5 @@ const IconApollo = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconApollo.displayName = 'Apollo';
-IconApollo.variants = 'brandedmono';
 
 export default IconApollo;

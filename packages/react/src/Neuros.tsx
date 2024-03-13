@@ -10,6 +10,5 @@ const IconNeuros = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconNeuros.displayName = 'Neuros';
-IconNeuros.variants = 'branded';
 
 export default IconNeuros;

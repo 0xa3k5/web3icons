@@ -18,6 +18,5 @@ const IconDjed = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconDjed.displayName = 'Djed';
-IconDjed.variants = 'brandedmono';
 
 export default IconDjed;

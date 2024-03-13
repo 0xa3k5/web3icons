@@ -10,6 +10,5 @@ const IconMix = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconMix.displayName = 'Mix';
-IconMix.variants = 'branded';
 
 export default IconMix;

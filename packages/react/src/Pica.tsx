@@ -18,6 +18,5 @@ const IconPica = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconPica.displayName = 'Pica';
-IconPica.variants = 'brandedmono';
 
 export default IconPica;

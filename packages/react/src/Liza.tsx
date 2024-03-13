@@ -10,6 +10,5 @@ const IconLiza = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconLiza.displayName = 'Liza';
-IconLiza.variants = 'branded';
 
 export default IconLiza;

@@ -10,6 +10,5 @@ const IconBanana = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconBanana.displayName = 'Banana';
-IconBanana.variants = 'branded';
 
 export default IconBanana;

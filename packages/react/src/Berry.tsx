@@ -18,6 +18,5 @@ const IconBerry = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBerry.displayName = 'Berry';
-IconBerry.variants = 'brandedmono';
 
 export default IconBerry;

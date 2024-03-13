@@ -10,6 +10,5 @@ const IconMap = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconMap.displayName = 'Map';
-IconMap.variants = 'branded';
 
 export default IconMap;

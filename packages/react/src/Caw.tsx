@@ -10,6 +10,5 @@ const IconCaw = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconCaw.displayName = 'Caw';
-IconCaw.variants = 'branded';
 
 export default IconCaw;

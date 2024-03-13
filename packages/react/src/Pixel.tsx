@@ -18,6 +18,5 @@ const IconPixel = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconPixel.displayName = 'Pixel';
-IconPixel.variants = 'brandedmono';
 
 export default IconPixel;

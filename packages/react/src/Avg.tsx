@@ -10,6 +10,5 @@ const IconAvg = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconAvg.displayName = 'Avg';
-IconAvg.variants = 'branded';
 
 export default IconAvg;

@@ -10,6 +10,5 @@ const IconCtc = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconCtc.displayName = 'Ctc';
-IconCtc.variants = 'mono';
 
 export default IconCtc;

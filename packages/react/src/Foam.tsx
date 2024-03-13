@@ -10,6 +10,5 @@ const IconFoam = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconFoam.displayName = 'Foam';
-IconFoam.variants = 'branded';
 
 export default IconFoam;

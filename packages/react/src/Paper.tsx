@@ -18,6 +18,5 @@ const IconPaper = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconPaper.displayName = 'Paper';
-IconPaper.variants = 'brandedmono';
 
 export default IconPaper;

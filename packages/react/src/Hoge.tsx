@@ -10,6 +10,5 @@ const IconHoge = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconHoge.displayName = 'Hoge';
-IconHoge.variants = 'mono';
 
 export default IconHoge;

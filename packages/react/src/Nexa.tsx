@@ -10,6 +10,5 @@ const IconNexa = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconNexa.displayName = 'Nexa';
-IconNexa.variants = 'branded';
 
 export default IconNexa;

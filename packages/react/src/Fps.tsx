@@ -18,6 +18,5 @@ const IconFps = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconFps.displayName = 'Fps';
-IconFps.variants = 'brandedmono';
 
 export default IconFps;

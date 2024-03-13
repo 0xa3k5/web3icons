@@ -10,6 +10,5 @@ const IconBscs = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconBscs.displayName = 'Bscs';
-IconBscs.variants = 'branded';
 
 export default IconBscs;

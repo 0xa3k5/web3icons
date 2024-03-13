@@ -10,6 +10,5 @@ const IconLadys = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconLadys.displayName = 'Ladys';
-IconLadys.variants = 'branded';
 
 export default IconLadys;

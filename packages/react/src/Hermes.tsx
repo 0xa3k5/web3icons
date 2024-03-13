@@ -18,6 +18,5 @@ const IconHermes = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconHermes.displayName = 'Hermes';
-IconHermes.variants = 'brandedmono';
 
 export default IconHermes;

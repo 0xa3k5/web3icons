@@ -18,6 +18,5 @@ const IconCre = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconCre.displayName = 'Cre';
-IconCre.variants = 'brandedmono';
 
 export default IconCre;

@@ -10,6 +10,5 @@ const IconBabyshib = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }
 ));
 
 IconBabyshib.displayName = 'Babyshib';
-IconBabyshib.variants = 'branded';
 
 export default IconBabyshib;

@@ -10,6 +10,5 @@ const IconKata = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconKata.displayName = 'Kata';
-IconKata.variants = 'branded';
 
 export default IconKata;

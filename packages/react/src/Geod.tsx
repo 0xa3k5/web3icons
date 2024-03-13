@@ -18,6 +18,5 @@ const IconGeod = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconGeod.displayName = 'Geod';
-IconGeod.variants = 'brandedmono';
 
 export default IconGeod;

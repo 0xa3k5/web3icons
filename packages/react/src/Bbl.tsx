@@ -10,6 +10,5 @@ const IconBbl = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconBbl.displayName = 'Bbl';
-IconBbl.variants = 'mono';
 
 export default IconBbl;

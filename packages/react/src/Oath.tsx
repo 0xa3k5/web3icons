@@ -18,6 +18,5 @@ const IconOath = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconOath.displayName = 'Oath';
-IconOath.variants = 'brandedmono';
 
 export default IconOath;

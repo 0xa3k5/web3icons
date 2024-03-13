@@ -18,6 +18,5 @@ const IconHid = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconHid.displayName = 'Hid';
-IconHid.variants = 'brandedmono';
 
 export default IconHid;

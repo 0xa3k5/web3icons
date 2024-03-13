@@ -18,6 +18,5 @@ const IconMsol = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMsol.displayName = 'Msol';
-IconMsol.variants = 'brandedmono';
 
 export default IconMsol;

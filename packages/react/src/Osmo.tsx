@@ -10,6 +10,5 @@ const IconOsmo = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconOsmo.displayName = 'Osmo';
-IconOsmo.variants = 'branded';
 
 export default IconOsmo;

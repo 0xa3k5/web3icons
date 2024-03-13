@@ -18,6 +18,5 @@ const IconLoom = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconLoom.displayName = 'Loom';
-IconLoom.variants = 'brandedmono';
 
 export default IconLoom;

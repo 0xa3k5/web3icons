@@ -18,6 +18,5 @@ const IconNewo = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNewo.displayName = 'Newo';
-IconNewo.variants = 'brandedmono';
 
 export default IconNewo;

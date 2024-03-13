@@ -18,6 +18,5 @@ const IconEfi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconEfi.displayName = 'Efi';
-IconEfi.variants = 'brandedmono';
 
 export default IconEfi;

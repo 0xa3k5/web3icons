@@ -18,6 +18,5 @@ const IconBrise = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBrise.displayName = 'Brise';
-IconBrise.variants = 'brandedmono';
 
 export default IconBrise;

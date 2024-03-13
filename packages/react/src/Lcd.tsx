@@ -10,6 +10,5 @@ const IconLcd = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconLcd.displayName = 'Lcd';
-IconLcd.variants = 'branded';
 
 export default IconLcd;

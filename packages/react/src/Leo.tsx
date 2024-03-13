@@ -18,6 +18,5 @@ const IconLeo = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconLeo.displayName = 'Leo';
-IconLeo.variants = 'brandedmono';
 
 export default IconLeo;

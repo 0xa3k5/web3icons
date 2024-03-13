@@ -18,6 +18,5 @@ const IconAudio = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconAudio.displayName = 'Audio';
-IconAudio.variants = 'brandedmono';
 
 export default IconAudio;

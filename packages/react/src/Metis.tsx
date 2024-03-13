@@ -18,6 +18,5 @@ const IconMetis = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconMetis.displayName = 'Metis';
-IconMetis.variants = 'brandedmono';
 
 export default IconMetis;

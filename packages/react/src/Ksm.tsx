@@ -10,6 +10,5 @@ const IconKsm = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconKsm.displayName = 'Ksm';
-IconKsm.variants = 'mono';
 
 export default IconKsm;

@@ -18,6 +18,5 @@ const IconCkp = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconCkp.displayName = 'Ckp';
-IconCkp.variants = 'brandedmono';
 
 export default IconCkp;

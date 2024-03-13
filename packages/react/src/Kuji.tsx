@@ -18,6 +18,5 @@ const IconKuji = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconKuji.displayName = 'Kuji';
-IconKuji.variants = 'brandedmono';
 
 export default IconKuji;

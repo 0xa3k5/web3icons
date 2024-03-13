@@ -10,6 +10,5 @@ const IconDxp = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconDxp.displayName = 'Dxp';
-IconDxp.variants = 'branded';
 
 export default IconDxp;

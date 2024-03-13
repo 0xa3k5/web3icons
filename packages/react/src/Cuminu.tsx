@@ -18,6 +18,5 @@ const IconCuminu = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconCuminu.displayName = 'Cuminu';
-IconCuminu.variants = 'brandedmono';
 
 export default IconCuminu;

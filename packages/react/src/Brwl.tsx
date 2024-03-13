@@ -10,6 +10,5 @@ const IconBrwl = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconBrwl.displayName = 'Brwl';
-IconBrwl.variants = 'branded';
 
 export default IconBrwl;

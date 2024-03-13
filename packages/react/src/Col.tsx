@@ -10,6 +10,5 @@ const IconCol = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconCol.displayName = 'Col';
-IconCol.variants = 'branded';
 
 export default IconCol;

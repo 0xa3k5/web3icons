@@ -18,6 +18,5 @@ const IconBigsb = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBigsb.displayName = 'Bigsb';
-IconBigsb.variants = 'brandedmono';
 
 export default IconBigsb;

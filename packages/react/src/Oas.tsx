@@ -18,6 +18,5 @@ const IconOas = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconOas.displayName = 'Oas';
-IconOas.variants = 'brandedmono';
 
 export default IconOas;

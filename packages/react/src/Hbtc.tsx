@@ -18,6 +18,5 @@ const IconHbtc = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHbtc.displayName = 'Hbtc';
-IconHbtc.variants = 'brandedmono';
 
 export default IconHbtc;

@@ -18,6 +18,5 @@ const IconNftbs = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconNftbs.displayName = 'Nftbs';
-IconNftbs.variants = 'brandedmono';
 
 export default IconNftbs;

@@ -18,6 +18,5 @@ const IconHandy = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconHandy.displayName = 'Handy';
-IconHandy.variants = 'brandedmono';
 
 export default IconHandy;

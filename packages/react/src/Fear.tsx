@@ -18,6 +18,5 @@ const IconFear = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconFear.displayName = 'Fear';
-IconFear.variants = 'brandedmono';
 
 export default IconFear;

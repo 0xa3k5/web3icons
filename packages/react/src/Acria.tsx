@@ -10,6 +10,5 @@ const IconAcria = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconAcria.displayName = 'Acria';
-IconAcria.variants = 'mono';
 
 export default IconAcria;

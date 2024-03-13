@@ -18,6 +18,5 @@ const IconNxt = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconNxt.displayName = 'Nxt';
-IconNxt.variants = 'brandedmono';
 
 export default IconNxt;

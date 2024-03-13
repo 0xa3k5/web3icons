@@ -18,6 +18,5 @@ const IconPlex = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconPlex.displayName = 'Plex';
-IconPlex.variants = 'brandedmono';
 
 export default IconPlex;

@@ -18,6 +18,5 @@ const IconBepro = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBepro.displayName = 'Bepro';
-IconBepro.variants = 'brandedmono';
 
 export default IconBepro;

@@ -10,6 +10,5 @@ const IconBad = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconBad.displayName = 'Bad';
-IconBad.variants = 'branded';
 
 export default IconBad;

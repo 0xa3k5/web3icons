@@ -18,6 +18,5 @@ const IconInv = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconInv.displayName = 'Inv';
-IconInv.variants = 'brandedmono';
 
 export default IconInv;

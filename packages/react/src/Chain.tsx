@@ -18,6 +18,5 @@ const IconChain = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconChain.displayName = 'Chain';
-IconChain.variants = 'brandedmono';
 
 export default IconChain;

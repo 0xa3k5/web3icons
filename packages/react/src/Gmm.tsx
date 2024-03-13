@@ -10,6 +10,5 @@ const IconGmm = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconGmm.displayName = 'Gmm';
-IconGmm.variants = 'mono';
 
 export default IconGmm;

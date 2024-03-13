@@ -10,6 +10,5 @@ const IconNada = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconNada.displayName = 'Nada';
-IconNada.variants = 'branded';
 
 export default IconNada;

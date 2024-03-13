@@ -18,6 +18,5 @@ const IconCream = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCream.displayName = 'Cream';
-IconCream.variants = 'brandedmono';
 
 export default IconCream;

@@ -18,6 +18,5 @@ const IconLime = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconLime.displayName = 'Lime';
-IconLime.variants = 'brandedmono';
 
 export default IconLime;

@@ -10,6 +10,5 @@ const IconMmo = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconMmo.displayName = 'Mmo';
-IconMmo.variants = 'branded';
 
 export default IconMmo;

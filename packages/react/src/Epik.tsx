@@ -18,6 +18,5 @@ const IconEpik = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconEpik.displayName = 'Epik';
-IconEpik.variants = 'brandedmono';
 
 export default IconEpik;

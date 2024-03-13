@@ -18,6 +18,5 @@ const IconDola = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconDola.displayName = 'Dola';
-IconDola.variants = 'brandedmono';
 
 export default IconDola;

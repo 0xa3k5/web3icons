@@ -10,6 +10,5 @@ const IconHgpt = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconHgpt.displayName = 'Hgpt';
-IconHgpt.variants = 'branded';
 
 export default IconHgpt;

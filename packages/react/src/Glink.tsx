@@ -18,6 +18,5 @@ const IconGlink = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconGlink.displayName = 'Glink';
-IconGlink.variants = 'brandedmono';
 
 export default IconGlink;

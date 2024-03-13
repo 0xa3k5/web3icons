@@ -10,6 +10,5 @@ const IconHft = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconHft.displayName = 'Hft';
-IconHft.variants = 'mono';
 
 export default IconHft;

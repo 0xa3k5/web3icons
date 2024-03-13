@@ -18,6 +18,5 @@ const IconKda = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconKda.displayName = 'Kda';
-IconKda.variants = 'brandedmono';
 
 export default IconKda;

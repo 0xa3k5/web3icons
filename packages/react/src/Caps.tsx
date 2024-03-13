@@ -10,6 +10,5 @@ const IconCaps = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconCaps.displayName = 'Caps';
-IconCaps.variants = 'mono';
 
 export default IconCaps;

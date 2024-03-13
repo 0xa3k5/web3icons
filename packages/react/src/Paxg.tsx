@@ -18,6 +18,5 @@ const IconPaxg = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconPaxg.displayName = 'Paxg';
-IconPaxg.variants = 'brandedmono';
 
 export default IconPaxg;

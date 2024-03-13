@@ -18,6 +18,5 @@ const IconArbi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconArbi.displayName = 'Arbi';
-IconArbi.variants = 'brandedmono';
 
 export default IconArbi;

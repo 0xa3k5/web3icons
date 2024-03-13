@@ -18,6 +18,5 @@ const IconAgix = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAgix.displayName = 'Agix';
-IconAgix.variants = 'brandedmono';
 
 export default IconAgix;

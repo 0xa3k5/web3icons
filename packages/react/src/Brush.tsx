@@ -10,6 +10,5 @@ const IconBrush = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconBrush.displayName = 'Brush';
-IconBrush.variants = 'branded';
 
 export default IconBrush;

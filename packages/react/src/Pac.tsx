@@ -18,6 +18,5 @@ const IconPac = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconPac.displayName = 'Pac';
-IconPac.variants = 'brandedmono';
 
 export default IconPac;

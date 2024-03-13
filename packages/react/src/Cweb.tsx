@@ -18,6 +18,5 @@ const IconCweb = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconCweb.displayName = 'Cweb';
-IconCweb.variants = 'brandedmono';
 
 export default IconCweb;

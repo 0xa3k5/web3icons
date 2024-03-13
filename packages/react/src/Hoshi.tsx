@@ -10,6 +10,5 @@ const IconHoshi = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconHoshi.displayName = 'Hoshi';
-IconHoshi.variants = 'branded';
 
 export default IconHoshi;

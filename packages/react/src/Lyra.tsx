@@ -18,6 +18,5 @@ const IconLyra = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconLyra.displayName = 'Lyra';
-IconLyra.variants = 'brandedmono';
 
 export default IconLyra;

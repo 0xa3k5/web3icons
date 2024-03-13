@@ -18,6 +18,5 @@ const IconMars4 = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconMars4.displayName = 'Mars4';
-IconMars4.variants = 'brandedmono';
 
 export default IconMars4;

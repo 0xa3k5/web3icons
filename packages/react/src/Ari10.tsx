@@ -18,6 +18,5 @@ const IconAri10 = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconAri10.displayName = 'Ari10';
-IconAri10.variants = 'brandedmono';
 
 export default IconAri10;

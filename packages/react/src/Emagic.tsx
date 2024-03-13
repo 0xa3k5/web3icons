@@ -10,6 +10,5 @@ const IconEmagic = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconEmagic.displayName = 'Emagic';
-IconEmagic.variants = 'branded';
 
 export default IconEmagic;

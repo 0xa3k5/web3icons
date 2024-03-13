@@ -18,6 +18,5 @@ const IconFwb = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconFwb.displayName = 'Fwb';
-IconFwb.variants = 'brandedmono';
 
 export default IconFwb;

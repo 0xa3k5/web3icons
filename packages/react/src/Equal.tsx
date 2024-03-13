@@ -18,6 +18,5 @@ const IconEqual = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconEqual.displayName = 'Equal';
-IconEqual.variants = 'brandedmono';
 
 export default IconEqual;

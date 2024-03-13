@@ -18,6 +18,5 @@ const IconOnion = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconOnion.displayName = 'Onion';
-IconOnion.variants = 'brandedmono';
 
 export default IconOnion;

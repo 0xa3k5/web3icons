@@ -10,6 +10,5 @@ const IconDua = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconDua.displayName = 'Dua';
-IconDua.variants = 'branded';
 
 export default IconDua;

@@ -18,6 +18,5 @@ const IconNxra = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNxra.displayName = 'Nxra';
-IconNxra.variants = 'brandedmono';
 
 export default IconNxra;

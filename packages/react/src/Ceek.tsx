@@ -10,6 +10,5 @@ const IconCeek = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconCeek.displayName = 'Ceek';
-IconCeek.variants = 'branded';
 
 export default IconCeek;

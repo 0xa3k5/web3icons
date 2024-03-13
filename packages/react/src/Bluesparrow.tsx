@@ -10,6 +10,5 @@ const IconBluesparrow = forwardRef<SVGSVGElement, IconComponentProps>(({ ...prop
 ));
 
 IconBluesparrow.displayName = 'Bluesparrow';
-IconBluesparrow.variants = 'branded';
 
 export default IconBluesparrow;

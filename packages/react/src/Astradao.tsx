@@ -10,6 +10,5 @@ const IconAstradao = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }
 ));
 
 IconAstradao.displayName = 'Astradao';
-IconAstradao.variants = 'branded';
 
 export default IconAstradao;

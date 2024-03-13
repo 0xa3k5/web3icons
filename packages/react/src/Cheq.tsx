@@ -10,6 +10,5 @@ const IconCheq = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconCheq.displayName = 'Cheq';
-IconCheq.variants = 'branded';
 
 export default IconCheq;

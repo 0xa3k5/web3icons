@@ -18,6 +18,5 @@ const IconLym = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconLym.displayName = 'Lym';
-IconLym.variants = 'brandedmono';
 
 export default IconLym;

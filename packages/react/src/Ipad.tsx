@@ -18,6 +18,5 @@ const IconIpad = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconIpad.displayName = 'Ipad';
-IconIpad.variants = 'brandedmono';
 
 export default IconIpad;

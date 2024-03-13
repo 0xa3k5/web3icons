@@ -18,6 +18,5 @@ const IconLqdr = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconLqdr.displayName = 'Lqdr';
-IconLqdr.variants = 'brandedmono';
 
 export default IconLqdr;

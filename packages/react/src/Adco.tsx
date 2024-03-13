@@ -18,6 +18,5 @@ const IconAdco = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAdco.displayName = 'Adco';
-IconAdco.variants = 'brandedmono';
 
 export default IconAdco;

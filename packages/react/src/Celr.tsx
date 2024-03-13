@@ -10,6 +10,5 @@ const IconCelr = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconCelr.displayName = 'Celr';
-IconCelr.variants = 'mono';
 
 export default IconCelr;

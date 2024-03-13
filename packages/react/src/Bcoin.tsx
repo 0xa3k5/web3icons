@@ -10,6 +10,5 @@ const IconBcoin = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconBcoin.displayName = 'Bcoin';
-IconBcoin.variants = 'branded';
 
 export default IconBcoin;

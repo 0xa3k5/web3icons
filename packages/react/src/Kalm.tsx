@@ -18,6 +18,5 @@ const IconKalm = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconKalm.displayName = 'Kalm';
-IconKalm.variants = 'brandedmono';
 
 export default IconKalm;

@@ -18,6 +18,5 @@ const IconCummies = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = '
 ));
 
 IconCummies.displayName = 'Cummies';
-IconCummies.variants = 'brandedmono';
 
 export default IconCummies;

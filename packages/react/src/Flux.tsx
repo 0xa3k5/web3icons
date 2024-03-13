@@ -18,6 +18,5 @@ const IconFlux = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconFlux.displayName = 'Flux';
-IconFlux.variants = 'brandedmono';
 
 export default IconFlux;

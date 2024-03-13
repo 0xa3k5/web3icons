@@ -10,6 +10,5 @@ const IconDbi = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconDbi.displayName = 'Dbi';
-IconDbi.variants = 'branded';
 
 export default IconDbi;

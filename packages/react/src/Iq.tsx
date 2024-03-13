@@ -18,6 +18,5 @@ const IconIq = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono'
 ));
 
 IconIq.displayName = 'Iq';
-IconIq.variants = 'brandedmono';
 
 export default IconIq;

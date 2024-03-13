@@ -10,6 +10,5 @@ const IconMeld = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconMeld.displayName = 'Meld';
-IconMeld.variants = 'branded';
 
 export default IconMeld;

@@ -18,6 +18,5 @@ const IconHook = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHook.displayName = 'Hook';
-IconHook.variants = 'brandedmono';
 
 export default IconHook;

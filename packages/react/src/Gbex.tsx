@@ -18,6 +18,5 @@ const IconGbex = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconGbex.displayName = 'Gbex';
-IconGbex.variants = 'brandedmono';
 
 export default IconGbex;

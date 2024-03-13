@@ -10,6 +10,5 @@ const IconBabytrump = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props 
 ));
 
 IconBabytrump.displayName = 'Babytrump';
-IconBabytrump.variants = 'branded';
 
 export default IconBabytrump;

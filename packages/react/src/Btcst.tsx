@@ -10,6 +10,5 @@ const IconBtcst = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconBtcst.displayName = 'Btcst';
-IconBtcst.variants = 'mono';
 
 export default IconBtcst;

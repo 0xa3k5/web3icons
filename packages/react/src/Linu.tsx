@@ -10,6 +10,5 @@ const IconLinu = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconLinu.displayName = 'Linu';
-IconLinu.variants = 'branded';
 
 export default IconLinu;

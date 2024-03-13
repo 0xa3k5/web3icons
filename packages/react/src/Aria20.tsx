@@ -18,6 +18,5 @@ const IconAria20 = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconAria20.displayName = 'Aria20';
-IconAria20.variants = 'brandedmono';
 
 export default IconAria20;

@@ -10,6 +10,5 @@ const IconEthereum = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }
 ));
 
 IconEthereum.displayName = 'Ethereum';
-IconEthereum.variants = 'branded';
 
 export default IconEthereum;

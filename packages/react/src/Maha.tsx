@@ -18,6 +18,5 @@ const IconMaha = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMaha.displayName = 'Maha';
-IconMaha.variants = 'brandedmono';
 
 export default IconMaha;

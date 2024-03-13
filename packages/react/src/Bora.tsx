@@ -18,6 +18,5 @@ const IconBora = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBora.displayName = 'Bora';
-IconBora.variants = 'brandedmono';
 
 export default IconBora;

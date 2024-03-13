@@ -18,6 +18,5 @@ const IconGeeq = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconGeeq.displayName = 'Geeq';
-IconGeeq.variants = 'brandedmono';
 
 export default IconGeeq;

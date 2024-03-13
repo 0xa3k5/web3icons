@@ -18,6 +18,5 @@ const IconHop = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconHop.displayName = 'Hop';
-IconHop.variants = 'brandedmono';
 
 export default IconHop;

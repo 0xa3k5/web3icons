@@ -10,6 +10,5 @@ const IconKishu = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconKishu.displayName = 'Kishu';
-IconKishu.variants = 'branded';
 
 export default IconKishu;

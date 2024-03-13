@@ -18,6 +18,5 @@ const IconBfic = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBfic.displayName = 'Bfic';
-IconBfic.variants = 'brandedmono';
 
 export default IconBfic;

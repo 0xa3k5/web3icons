@@ -18,6 +18,5 @@ const IconMobile = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconMobile.displayName = 'Mobile';
-IconMobile.variants = 'brandedmono';
 
 export default IconMobile;

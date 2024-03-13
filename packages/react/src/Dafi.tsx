@@ -18,6 +18,5 @@ const IconDafi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconDafi.displayName = 'Dafi';
-IconDafi.variants = 'brandedmono';
 
 export default IconDafi;

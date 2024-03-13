@@ -18,6 +18,5 @@ const IconFida = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconFida.displayName = 'Fida';
-IconFida.variants = 'brandedmono';
 
 export default IconFida;

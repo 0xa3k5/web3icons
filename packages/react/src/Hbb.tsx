@@ -18,6 +18,5 @@ const IconHbb = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconHbb.displayName = 'Hbb';
-IconHbb.variants = 'brandedmono';
 
 export default IconHbb;

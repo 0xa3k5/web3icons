@@ -10,6 +10,5 @@ const IconBai = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconBai.displayName = 'Bai';
-IconBai.variants = 'branded';
 
 export default IconBai;

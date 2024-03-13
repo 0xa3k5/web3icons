@@ -18,6 +18,5 @@ const IconEquad = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconEquad.displayName = 'Equad';
-IconEquad.variants = 'brandedmono';
 
 export default IconEquad;

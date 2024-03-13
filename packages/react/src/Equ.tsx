@@ -10,6 +10,5 @@ const IconEqu = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconEqu.displayName = 'Equ';
-IconEqu.variants = 'branded';
 
 export default IconEqu;

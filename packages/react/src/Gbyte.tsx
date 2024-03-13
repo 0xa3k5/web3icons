@@ -10,6 +10,5 @@ const IconGbyte = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconGbyte.displayName = 'Gbyte';
-IconGbyte.variants = 'mono';
 
 export default IconGbyte;

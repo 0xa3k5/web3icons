@@ -10,6 +10,5 @@ const IconEng = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconEng.displayName = 'Eng';
-IconEng.variants = 'branded';
 
 export default IconEng;

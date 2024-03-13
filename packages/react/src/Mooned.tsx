@@ -10,6 +10,5 @@ const IconMooned = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconMooned.displayName = 'Mooned';
-IconMooned.variants = 'branded';
 
 export default IconMooned;

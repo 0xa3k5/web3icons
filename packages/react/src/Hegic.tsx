@@ -18,6 +18,5 @@ const IconHegic = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconHegic.displayName = 'Hegic';
-IconHegic.variants = 'brandedmono';
 
 export default IconHegic;

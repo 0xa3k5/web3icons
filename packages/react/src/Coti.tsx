@@ -10,6 +10,5 @@ const IconCoti = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconCoti.displayName = 'Coti';
-IconCoti.variants = 'branded';
 
 export default IconCoti;

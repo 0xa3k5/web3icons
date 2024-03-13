@@ -18,6 +18,5 @@ const IconForth = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconForth.displayName = 'Forth';
-IconForth.variants = 'brandedmono';
 
 export default IconForth;

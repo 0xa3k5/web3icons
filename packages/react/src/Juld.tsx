@@ -18,6 +18,5 @@ const IconJuld = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconJuld.displayName = 'Juld';
-IconJuld.variants = 'brandedmono';
 
 export default IconJuld;

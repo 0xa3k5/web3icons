@@ -18,6 +18,5 @@ const IconCmos = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconCmos.displayName = 'Cmos';
-IconCmos.variants = 'brandedmono';
 
 export default IconCmos;

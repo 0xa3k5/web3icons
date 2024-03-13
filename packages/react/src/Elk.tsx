@@ -18,6 +18,5 @@ const IconElk = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconElk.displayName = 'Elk';
-IconElk.variants = 'brandedmono';
 
 export default IconElk;

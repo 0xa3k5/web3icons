@@ -18,6 +18,5 @@ const IconBeets = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBeets.displayName = 'Beets';
-IconBeets.variants = 'brandedmono';
 
 export default IconBeets;

@@ -18,6 +18,5 @@ const IconAdapad = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconAdapad.displayName = 'Adapad';
-IconAdapad.variants = 'brandedmono';
 
 export default IconAdapad;

@@ -18,6 +18,5 @@ const IconBurger = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconBurger.displayName = 'Burger';
-IconBurger.variants = 'brandedmono';
 
 export default IconBurger;

@@ -18,6 +18,5 @@ const IconCru = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconCru.displayName = 'Cru';
-IconCru.variants = 'brandedmono';
 
 export default IconCru;

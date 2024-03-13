@@ -18,6 +18,5 @@ const IconKub = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconKub.displayName = 'Kub';
-IconKub.variants = 'brandedmono';
 
 export default IconKub;

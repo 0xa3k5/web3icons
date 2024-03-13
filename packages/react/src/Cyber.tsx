@@ -18,6 +18,5 @@ const IconCyber = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCyber.displayName = 'Cyber';
-IconCyber.variants = 'brandedmono';
 
 export default IconCyber;

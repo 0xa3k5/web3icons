@@ -18,6 +18,5 @@ const IconNodl = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNodl.displayName = 'Nodl';
-IconNodl.variants = 'brandedmono';
 
 export default IconNodl;

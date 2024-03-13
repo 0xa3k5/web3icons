@@ -18,6 +18,5 @@ const IconOrbs = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconOrbs.displayName = 'Orbs';
-IconOrbs.variants = 'brandedmono';
 
 export default IconOrbs;

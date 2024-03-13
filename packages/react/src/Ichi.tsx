@@ -18,6 +18,5 @@ const IconIchi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconIchi.displayName = 'Ichi';
-IconIchi.variants = 'brandedmono';
 
 export default IconIchi;

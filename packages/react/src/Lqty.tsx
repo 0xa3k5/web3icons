@@ -10,6 +10,5 @@ const IconLqty = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconLqty.displayName = 'Lqty';
-IconLqty.variants = 'branded';
 
 export default IconLqty;

@@ -18,6 +18,5 @@ const IconNear = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNear.displayName = 'Near';
-IconNear.variants = 'brandedmono';
 
 export default IconNear;

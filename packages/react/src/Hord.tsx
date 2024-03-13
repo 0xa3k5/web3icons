@@ -10,6 +10,5 @@ const IconHord = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconHord.displayName = 'Hord';
-IconHord.variants = 'mono';
 
 export default IconHord;

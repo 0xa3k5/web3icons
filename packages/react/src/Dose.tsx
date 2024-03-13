@@ -18,6 +18,5 @@ const IconDose = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconDose.displayName = 'Dose';
-IconDose.variants = 'brandedmono';
 
 export default IconDose;

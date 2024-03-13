@@ -18,6 +18,5 @@ const IconFnsa = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconFnsa.displayName = 'Fnsa';
-IconFnsa.variants = 'brandedmono';
 
 export default IconFnsa;

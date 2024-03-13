@@ -18,6 +18,5 @@ const IconDust = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconDust.displayName = 'Dust';
-IconDust.variants = 'brandedmono';
 
 export default IconDust;

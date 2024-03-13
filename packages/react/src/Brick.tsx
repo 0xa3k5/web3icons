@@ -18,6 +18,5 @@ const IconBrick = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBrick.displayName = 'Brick';
-IconBrick.variants = 'brandedmono';
 
 export default IconBrick;

@@ -18,6 +18,5 @@ const IconCnfi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconCnfi.displayName = 'Cnfi';
-IconCnfi.variants = 'brandedmono';
 
 export default IconCnfi;

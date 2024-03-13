@@ -10,6 +10,5 @@ const IconOcta = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconOcta.displayName = 'Octa';
-IconOcta.variants = 'branded';
 
 export default IconOcta;

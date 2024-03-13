@@ -18,6 +18,5 @@ const IconKasta = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconKasta.displayName = 'Kasta';
-IconKasta.variants = 'brandedmono';
 
 export default IconKasta;

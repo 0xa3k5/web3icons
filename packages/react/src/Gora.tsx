@@ -18,6 +18,5 @@ const IconGora = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconGora.displayName = 'Gora';
-IconGora.variants = 'brandedmono';
 
 export default IconGora;

@@ -18,6 +18,5 @@ const IconMuse = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMuse.displayName = 'Muse';
-IconMuse.variants = 'brandedmono';
 
 export default IconMuse;

@@ -18,6 +18,5 @@ const IconFer = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconFer.displayName = 'Fer';
-IconFer.variants = 'brandedmono';
 
 export default IconFer;

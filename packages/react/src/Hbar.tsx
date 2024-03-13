@@ -10,6 +10,5 @@ const IconHbar = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconHbar.displayName = 'Hbar';
-IconHbar.variants = 'mono';
 
 export default IconHbar;

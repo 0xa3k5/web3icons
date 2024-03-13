@@ -10,6 +10,5 @@ const IconAvinoc = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconAvinoc.displayName = 'Avinoc';
-IconAvinoc.variants = 'mono';
 
 export default IconAvinoc;

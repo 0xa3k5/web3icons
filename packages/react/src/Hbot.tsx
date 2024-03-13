@@ -18,6 +18,5 @@ const IconHbot = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHbot.displayName = 'Hbot';
-IconHbot.variants = 'brandedmono';
 
 export default IconHbot;

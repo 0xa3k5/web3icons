@@ -10,6 +10,5 @@ const IconPepes = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconPepes.displayName = 'Pepes';
-IconPepes.variants = 'branded';
 
 export default IconPepes;

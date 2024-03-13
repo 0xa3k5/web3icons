@@ -10,6 +10,5 @@ const IconCollab = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconCollab.displayName = 'Collab';
-IconCollab.variants = 'branded';
 
 export default IconCollab;

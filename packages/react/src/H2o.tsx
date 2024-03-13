@@ -18,6 +18,5 @@ const IconH2o = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconH2o.displayName = 'H2o';
-IconH2o.variants = 'brandedmono';
 
 export default IconH2o;

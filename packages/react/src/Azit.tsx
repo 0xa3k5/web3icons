@@ -18,6 +18,5 @@ const IconAzit = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAzit.displayName = 'Azit';
-IconAzit.variants = 'brandedmono';
 
 export default IconAzit;

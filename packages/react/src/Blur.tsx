@@ -18,6 +18,5 @@ const IconBlur = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBlur.displayName = 'Blur';
-IconBlur.variants = 'brandedmono';
 
 export default IconBlur;

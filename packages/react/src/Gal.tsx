@@ -10,6 +10,5 @@ const IconGal = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconGal.displayName = 'Gal';
-IconGal.variants = 'mono';
 
 export default IconGal;

@@ -18,6 +18,5 @@ const IconCarat = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCarat.displayName = 'Carat';
-IconCarat.variants = 'brandedmono';
 
 export default IconCarat;

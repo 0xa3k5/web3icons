@@ -18,6 +18,5 @@ const IconAstroc = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconAstroc.displayName = 'Astroc';
-IconAstroc.variants = 'brandedmono';
 
 export default IconAstroc;

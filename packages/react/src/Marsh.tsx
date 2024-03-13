@@ -18,6 +18,5 @@ const IconMarsh = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconMarsh.displayName = 'Marsh';
-IconMarsh.variants = 'brandedmono';
 
 export default IconMarsh;

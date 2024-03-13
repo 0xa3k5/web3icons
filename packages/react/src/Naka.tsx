@@ -10,6 +10,5 @@ const IconNaka = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconNaka.displayName = 'Naka';
-IconNaka.variants = 'branded';
 
 export default IconNaka;

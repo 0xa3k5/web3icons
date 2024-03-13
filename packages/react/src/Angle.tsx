@@ -10,6 +10,5 @@ const IconAngle = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconAngle.displayName = 'Angle';
-IconAngle.variants = 'branded';
 
 export default IconAngle;

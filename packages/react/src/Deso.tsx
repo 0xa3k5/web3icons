@@ -18,6 +18,5 @@ const IconDeso = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconDeso.displayName = 'Deso';
-IconDeso.variants = 'brandedmono';
 
 export default IconDeso;

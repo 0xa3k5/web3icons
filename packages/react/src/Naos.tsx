@@ -10,6 +10,5 @@ const IconNaos = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconNaos.displayName = 'Naos';
-IconNaos.variants = 'branded';
 
 export default IconNaos;

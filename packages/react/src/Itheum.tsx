@@ -10,6 +10,5 @@ const IconItheum = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconItheum.displayName = 'Itheum';
-IconItheum.variants = 'mono';
 
 export default IconItheum;

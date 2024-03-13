@@ -10,6 +10,5 @@ const IconDingo = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconDingo.displayName = 'Dingo';
-IconDingo.variants = 'branded';
 
 export default IconDingo;

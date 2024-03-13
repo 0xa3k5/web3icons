@@ -18,6 +18,5 @@ const IconKwai = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconKwai.displayName = 'Kwai';
-IconKwai.variants = 'brandedmono';
 
 export default IconKwai;

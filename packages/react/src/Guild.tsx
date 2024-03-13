@@ -18,6 +18,5 @@ const IconGuild = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconGuild.displayName = 'Guild';
-IconGuild.variants = 'brandedmono';
 
 export default IconGuild;

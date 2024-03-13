@@ -10,6 +10,5 @@ const IconDor = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconDor.displayName = 'Dor';
-IconDor.variants = 'branded';
 
 export default IconDor;

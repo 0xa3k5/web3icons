@@ -18,6 +18,5 @@ const IconDps = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconDps.displayName = 'Dps';
-IconDps.variants = 'brandedmono';
 
 export default IconDps;

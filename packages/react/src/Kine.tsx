@@ -18,6 +18,5 @@ const IconKine = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconKine.displayName = 'Kine';
-IconKine.variants = 'brandedmono';
 
 export default IconKine;

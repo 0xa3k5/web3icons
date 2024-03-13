@@ -18,6 +18,5 @@ const IconGzone = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconGzone.displayName = 'Gzone';
-IconGzone.variants = 'brandedmono';
 
 export default IconGzone;

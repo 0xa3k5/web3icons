@@ -10,6 +10,5 @@ const IconDexe = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconDexe.displayName = 'Dexe';
-IconDexe.variants = 'mono';
 
 export default IconDexe;

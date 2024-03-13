@@ -18,6 +18,5 @@ const IconBscpad = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconBscpad.displayName = 'Bscpad';
-IconBscpad.variants = 'brandedmono';
 
 export default IconBscpad;

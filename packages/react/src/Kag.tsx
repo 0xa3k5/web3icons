@@ -10,6 +10,5 @@ const IconKag = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconKag.displayName = 'Kag';
-IconKag.variants = 'mono';
 
 export default IconKag;

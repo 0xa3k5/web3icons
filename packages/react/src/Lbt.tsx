@@ -18,6 +18,5 @@ const IconLbt = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconLbt.displayName = 'Lbt';
-IconLbt.variants = 'brandedmono';
 
 export default IconLbt;

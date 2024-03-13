@@ -10,6 +10,5 @@ const IconCrystal = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props },
 ));
 
 IconCrystal.displayName = 'Crystal';
-IconCrystal.variants = 'branded';
 
 export default IconCrystal;

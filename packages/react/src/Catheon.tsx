@@ -18,6 +18,5 @@ const IconCatheon = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = '
 ));
 
 IconCatheon.displayName = 'Catheon';
-IconCatheon.variants = 'brandedmono';
 
 export default IconCatheon;

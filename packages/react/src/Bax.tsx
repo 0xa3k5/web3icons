@@ -18,6 +18,5 @@ const IconBax = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconBax.displayName = 'Bax';
-IconBax.variants = 'brandedmono';
 
 export default IconBax;

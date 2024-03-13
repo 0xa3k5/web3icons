@@ -10,6 +10,5 @@ const IconOkb = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconOkb.displayName = 'Okb';
-IconOkb.variants = 'mono';
 
 export default IconOkb;

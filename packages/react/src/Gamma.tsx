@@ -18,6 +18,5 @@ const IconGamma = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconGamma.displayName = 'Gamma';
-IconGamma.variants = 'brandedmono';
 
 export default IconGamma;

@@ -10,6 +10,5 @@ const IconEuroe = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconEuroe.displayName = 'Euroe';
-IconEuroe.variants = 'mono';
 
 export default IconEuroe;

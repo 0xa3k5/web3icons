@@ -18,6 +18,5 @@ const IconCph = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconCph.displayName = 'Cph';
-IconCph.variants = 'brandedmono';
 
 export default IconCph;

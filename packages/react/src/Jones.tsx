@@ -18,6 +18,5 @@ const IconJones = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconJones.displayName = 'Jones';
-IconJones.variants = 'brandedmono';
 
 export default IconJones;

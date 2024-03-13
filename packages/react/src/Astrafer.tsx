@@ -10,6 +10,5 @@ const IconAstrafer = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }
 ));
 
 IconAstrafer.displayName = 'Astrafer';
-IconAstrafer.variants = 'branded';
 
 export default IconAstrafer;

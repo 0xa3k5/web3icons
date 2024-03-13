@@ -10,6 +10,5 @@ const IconCube = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconCube.displayName = 'Cube';
-IconCube.variants = 'branded';
 
 export default IconCube;

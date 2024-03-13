@@ -18,6 +18,5 @@ const IconMps = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconMps.displayName = 'Mps';
-IconMps.variants = 'brandedmono';
 
 export default IconMps;

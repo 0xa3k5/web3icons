@@ -10,6 +10,5 @@ const IconAuto = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconAuto.displayName = 'Auto';
-IconAuto.variants = 'branded';
 
 export default IconAuto;

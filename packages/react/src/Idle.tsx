@@ -18,6 +18,5 @@ const IconIdle = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconIdle.displayName = 'Idle';
-IconIdle.variants = 'brandedmono';
 
 export default IconIdle;

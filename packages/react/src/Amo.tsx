@@ -10,6 +10,5 @@ const IconAmo = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconAmo.displayName = 'Amo';
-IconAmo.variants = 'mono';
 
 export default IconAmo;

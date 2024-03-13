@@ -18,6 +18,5 @@ const IconIbit = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconIbit.displayName = 'Ibit';
-IconIbit.variants = 'brandedmono';
 
 export default IconIbit;

@@ -18,6 +18,5 @@ const IconCope = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconCope.displayName = 'Cope';
-IconCope.variants = 'brandedmono';
 
 export default IconCope;

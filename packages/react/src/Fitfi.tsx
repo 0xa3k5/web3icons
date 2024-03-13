@@ -18,6 +18,5 @@ const IconFitfi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconFitfi.displayName = 'Fitfi';
-IconFitfi.variants = 'brandedmono';
 
 export default IconFitfi;

@@ -18,6 +18,5 @@ const IconNvir = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNvir.displayName = 'Nvir';
-IconNvir.variants = 'brandedmono';
 
 export default IconNvir;

@@ -10,6 +10,5 @@ const IconPkr = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconPkr.displayName = 'Pkr';
-IconPkr.variants = 'branded';
 
 export default IconPkr;

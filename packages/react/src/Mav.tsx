@@ -18,6 +18,5 @@ const IconMav = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconMav.displayName = 'Mav';
-IconMav.variants = 'brandedmono';
 
 export default IconMav;

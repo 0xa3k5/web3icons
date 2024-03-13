@@ -18,6 +18,5 @@ const IconBoring = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconBoring.displayName = 'Boring';
-IconBoring.variants = 'brandedmono';
 
 export default IconBoring;

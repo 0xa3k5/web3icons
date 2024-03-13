@@ -10,6 +10,5 @@ const IconEosdt = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconEosdt.displayName = 'Eosdt';
-IconEosdt.variants = 'mono';
 
 export default IconEosdt;

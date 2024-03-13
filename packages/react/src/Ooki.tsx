@@ -18,6 +18,5 @@ const IconOoki = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconOoki.displayName = 'Ooki';
-IconOoki.variants = 'brandedmono';
 
 export default IconOoki;

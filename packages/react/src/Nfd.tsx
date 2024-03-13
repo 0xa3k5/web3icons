@@ -10,6 +10,5 @@ const IconNfd = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconNfd.displayName = 'Nfd';
-IconNfd.variants = 'branded';
 
 export default IconNfd;

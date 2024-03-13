@@ -18,6 +18,5 @@ const IconHaka = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHaka.displayName = 'Haka';
-IconHaka.variants = 'brandedmono';
 
 export default IconHaka;

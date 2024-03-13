@@ -18,6 +18,5 @@ const IconBuild = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBuild.displayName = 'Build';
-IconBuild.variants = 'brandedmono';
 
 export default IconBuild;

@@ -18,6 +18,5 @@ const IconPasg = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconPasg.displayName = 'Pasg';
-IconPasg.variants = 'brandedmono';
 
 export default IconPasg;

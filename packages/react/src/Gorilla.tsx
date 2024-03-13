@@ -10,6 +10,5 @@ const IconGorilla = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props },
 ));
 
 IconGorilla.displayName = 'Gorilla';
-IconGorilla.variants = 'branded';
 
 export default IconGorilla;

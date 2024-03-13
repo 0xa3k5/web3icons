@@ -18,6 +18,5 @@ const IconKwenta = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconKwenta.displayName = 'Kwenta';
-IconKwenta.variants = 'brandedmono';
 
 export default IconKwenta;

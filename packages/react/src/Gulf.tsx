@@ -18,6 +18,5 @@ const IconGulf = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconGulf.displayName = 'Gulf';
-IconGulf.variants = 'brandedmono';
 
 export default IconGulf;

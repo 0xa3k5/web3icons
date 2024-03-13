@@ -18,6 +18,5 @@ const IconCbeth = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCbeth.displayName = 'Cbeth';
-IconCbeth.variants = 'brandedmono';
 
 export default IconCbeth;

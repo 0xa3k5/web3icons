@@ -10,6 +10,5 @@ const IconAir = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconAir.displayName = 'Air';
-IconAir.variants = 'branded';
 
 export default IconAir;

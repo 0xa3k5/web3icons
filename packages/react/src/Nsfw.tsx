@@ -18,6 +18,5 @@ const IconNsfw = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNsfw.displayName = 'Nsfw';
-IconNsfw.variants = 'brandedmono';
 
 export default IconNsfw;

@@ -10,6 +10,5 @@ const IconCoval = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconCoval.displayName = 'Coval';
-IconCoval.variants = 'branded';
 
 export default IconCoval;

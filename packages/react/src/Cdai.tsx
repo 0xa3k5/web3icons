@@ -18,6 +18,5 @@ const IconCdai = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconCdai.displayName = 'Cdai';
-IconCdai.variants = 'brandedmono';
 
 export default IconCdai;

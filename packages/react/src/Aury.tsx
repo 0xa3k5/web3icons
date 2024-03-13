@@ -10,6 +10,5 @@ const IconAury = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconAury.displayName = 'Aury';
-IconAury.variants = 'branded';
 
 export default IconAury;

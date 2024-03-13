@@ -18,6 +18,5 @@ const IconOeth = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconOeth.displayName = 'Oeth';
-IconOeth.variants = 'brandedmono';
 
 export default IconOeth;

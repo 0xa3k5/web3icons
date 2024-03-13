@@ -18,6 +18,5 @@ const IconBull = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBull.displayName = 'Bull';
-IconBull.variants = 'brandedmono';
 
 export default IconBull;

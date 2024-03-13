@@ -18,6 +18,5 @@ const IconOax = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconOax.displayName = 'Oax';
-IconOax.variants = 'brandedmono';
 
 export default IconOax;

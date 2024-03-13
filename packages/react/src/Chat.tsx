@@ -18,6 +18,5 @@ const IconChat = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconChat.displayName = 'Chat';
-IconChat.variants = 'brandedmono';
 
 export default IconChat;

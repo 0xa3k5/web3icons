@@ -10,6 +10,5 @@ const IconJewel = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconJewel.displayName = 'Jewel';
-IconJewel.variants = 'branded';
 
 export default IconJewel;

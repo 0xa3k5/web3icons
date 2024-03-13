@@ -18,6 +18,5 @@ const IconCredi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCredi.displayName = 'Credi';
-IconCredi.variants = 'brandedmono';
 
 export default IconCredi;

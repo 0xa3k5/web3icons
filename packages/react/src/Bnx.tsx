@@ -18,6 +18,5 @@ const IconBnx = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconBnx.displayName = 'Bnx';
-IconBnx.variants = 'brandedmono';
 
 export default IconBnx;

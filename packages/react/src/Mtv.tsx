@@ -18,6 +18,5 @@ const IconMtv = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconMtv.displayName = 'Mtv';
-IconMtv.variants = 'brandedmono';
 
 export default IconMtv;

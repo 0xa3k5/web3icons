@@ -10,6 +10,5 @@ const IconCone = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconCone.displayName = 'Cone';
-IconCone.variants = 'branded';
 
 export default IconCone;

@@ -18,6 +18,5 @@ const IconCirus = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCirus.displayName = 'Cirus';
-IconCirus.variants = 'brandedmono';
 
 export default IconCirus;

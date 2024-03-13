@@ -10,6 +10,5 @@ const IconGcoin = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconGcoin.displayName = 'Gcoin';
-IconGcoin.variants = 'mono';
 
 export default IconGcoin;

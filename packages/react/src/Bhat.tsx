@@ -18,6 +18,5 @@ const IconBhat = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBhat.displayName = 'Bhat';
-IconBhat.variants = 'brandedmono';
 
 export default IconBhat;

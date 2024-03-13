@@ -18,6 +18,5 @@ const IconBico = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBico.displayName = 'Bico';
-IconBico.variants = 'brandedmono';
 
 export default IconBico;

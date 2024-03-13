@@ -18,6 +18,5 @@ const IconFloor = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconFloor.displayName = 'Floor';
-IconFloor.variants = 'brandedmono';
 
 export default IconFloor;

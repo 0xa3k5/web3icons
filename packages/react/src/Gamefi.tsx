@@ -18,6 +18,5 @@ const IconGamefi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconGamefi.displayName = 'Gamefi';
-IconGamefi.variants = 'brandedmono';
 
 export default IconGamefi;

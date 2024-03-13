@@ -10,6 +10,5 @@ const IconDvi = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconDvi.displayName = 'Dvi';
-IconDvi.variants = 'mono';
 
 export default IconDvi;

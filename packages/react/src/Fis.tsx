@@ -18,6 +18,5 @@ const IconFis = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconFis.displayName = 'Fis';
-IconFis.variants = 'brandedmono';
 
 export default IconFis;

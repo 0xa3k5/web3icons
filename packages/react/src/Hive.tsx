@@ -18,6 +18,5 @@ const IconHive = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHive.displayName = 'Hive';
-IconHive.variants = 'brandedmono';
 
 export default IconHive;

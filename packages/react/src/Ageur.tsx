@@ -10,6 +10,5 @@ const IconAgeur = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconAgeur.displayName = 'Ageur';
-IconAgeur.variants = 'branded';
 
 export default IconAgeur;

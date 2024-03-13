@@ -18,6 +18,5 @@ const IconOrare = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconOrare.displayName = 'Orare';
-IconOrare.variants = 'brandedmono';
 
 export default IconOrare;

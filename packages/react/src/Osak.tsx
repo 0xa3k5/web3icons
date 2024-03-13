@@ -10,6 +10,5 @@ const IconOsak = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconOsak.displayName = 'Osak';
-IconOsak.variants = 'branded';
 
 export default IconOsak;

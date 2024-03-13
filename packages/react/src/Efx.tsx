@@ -18,6 +18,5 @@ const IconEfx = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconEfx.displayName = 'Efx';
-IconEfx.variants = 'brandedmono';
 
 export default IconEfx;

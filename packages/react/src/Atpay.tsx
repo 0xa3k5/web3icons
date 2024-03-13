@@ -18,6 +18,5 @@ const IconAtpay = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconAtpay.displayName = 'Atpay';
-IconAtpay.variants = 'brandedmono';
 
 export default IconAtpay;

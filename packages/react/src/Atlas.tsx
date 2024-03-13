@@ -18,6 +18,5 @@ const IconAtlas = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconAtlas.displayName = 'Atlas';
-IconAtlas.variants = 'brandedmono';
 
 export default IconAtlas;

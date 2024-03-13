@@ -10,6 +10,5 @@ const IconArkm = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconArkm.displayName = 'Arkm';
-IconArkm.variants = 'mono';
 
 export default IconArkm;

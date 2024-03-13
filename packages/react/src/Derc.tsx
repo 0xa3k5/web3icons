@@ -10,6 +10,5 @@ const IconDerc = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconDerc.displayName = 'Derc';
-IconDerc.variants = 'mono';
 
 export default IconDerc;

@@ -18,6 +18,5 @@ const IconDck = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconDck.displayName = 'Dck';
-IconDck.variants = 'brandedmono';
 
 export default IconDck;

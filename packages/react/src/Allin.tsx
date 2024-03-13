@@ -18,6 +18,5 @@ const IconAllin = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconAllin.displayName = 'Allin';
-IconAllin.variants = 'brandedmono';
 
 export default IconAllin;

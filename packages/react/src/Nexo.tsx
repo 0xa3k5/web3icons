@@ -10,6 +10,5 @@ const IconNexo = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconNexo.displayName = 'Nexo';
-IconNexo.variants = 'branded';
 
 export default IconNexo;

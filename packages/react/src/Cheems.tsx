@@ -10,6 +10,5 @@ const IconCheems = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconCheems.displayName = 'Cheems';
-IconCheems.variants = 'branded';
 
 export default IconCheems;

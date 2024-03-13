@@ -10,6 +10,5 @@ const IconFlame = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconFlame.displayName = 'Flame';
-IconFlame.variants = 'mono';
 
 export default IconFlame;

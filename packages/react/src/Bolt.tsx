@@ -18,6 +18,5 @@ const IconBolt = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBolt.displayName = 'Bolt';
-IconBolt.variants = 'brandedmono';
 
 export default IconBolt;

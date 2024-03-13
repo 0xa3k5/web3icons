@@ -10,6 +10,5 @@ const IconCkb = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconCkb.displayName = 'Ckb';
-IconCkb.variants = 'branded';
 
 export default IconCkb;

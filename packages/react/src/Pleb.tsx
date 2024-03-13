@@ -10,6 +10,5 @@ const IconPleb = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconPleb.displayName = 'Pleb';
-IconPleb.variants = 'branded';
 
 export default IconPleb;

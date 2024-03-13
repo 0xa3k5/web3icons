@@ -18,6 +18,5 @@ const IconDodo = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconDodo.displayName = 'Dodo';
-IconDodo.variants = 'brandedmono';
 
 export default IconDodo;

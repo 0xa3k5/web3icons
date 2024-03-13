@@ -10,6 +10,5 @@ const IconCnc = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconCnc.displayName = 'Cnc';
-IconCnc.variants = 'branded';
 
 export default IconCnc;

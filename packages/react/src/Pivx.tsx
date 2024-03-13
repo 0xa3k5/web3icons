@@ -18,6 +18,5 @@ const IconPivx = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconPivx.displayName = 'Pivx';
-IconPivx.variants = 'brandedmono';
 
 export default IconPivx;

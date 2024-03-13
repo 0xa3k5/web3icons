@@ -18,6 +18,5 @@ const IconMusic = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconMusic.displayName = 'Music';
-IconMusic.variants = 'brandedmono';
 
 export default IconMusic;

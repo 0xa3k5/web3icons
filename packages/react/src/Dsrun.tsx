@@ -18,6 +18,5 @@ const IconDsrun = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconDsrun.displayName = 'Dsrun';
-IconDsrun.variants = 'brandedmono';
 
 export default IconDsrun;

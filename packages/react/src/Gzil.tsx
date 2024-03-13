@@ -18,6 +18,5 @@ const IconGzil = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconGzil.displayName = 'Gzil';
-IconGzil.variants = 'brandedmono';
 
 export default IconGzil;

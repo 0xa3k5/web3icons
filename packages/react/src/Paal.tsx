@@ -18,6 +18,5 @@ const IconPaal = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconPaal.displayName = 'Paal';
-IconPaal.variants = 'brandedmono';
 
 export default IconPaal;

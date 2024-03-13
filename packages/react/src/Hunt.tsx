@@ -18,6 +18,5 @@ const IconHunt = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHunt.displayName = 'Hunt';
-IconHunt.variants = 'brandedmono';
 
 export default IconHunt;

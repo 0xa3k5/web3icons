@@ -18,6 +18,5 @@ const IconAiri = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAiri.displayName = 'Airi';
-IconAiri.variants = 'brandedmono';
 
 export default IconAiri;

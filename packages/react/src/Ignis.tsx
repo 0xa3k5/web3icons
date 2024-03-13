@@ -18,6 +18,5 @@ const IconIgnis = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconIgnis.displayName = 'Ignis';
-IconIgnis.variants = 'brandedmono';
 
 export default IconIgnis;

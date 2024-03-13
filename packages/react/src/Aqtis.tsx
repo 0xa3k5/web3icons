@@ -18,6 +18,5 @@ const IconAqtis = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconAqtis.displayName = 'Aqtis';
-IconAqtis.variants = 'brandedmono';
 
 export default IconAqtis;

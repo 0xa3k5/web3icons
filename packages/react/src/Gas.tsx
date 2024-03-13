@@ -18,6 +18,5 @@ const IconGas = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconGas.displayName = 'Gas';
-IconGas.variants = 'brandedmono';
 
 export default IconGas;

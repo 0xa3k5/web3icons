@@ -10,6 +10,5 @@ const IconErtha = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconErtha.displayName = 'Ertha';
-IconErtha.variants = 'mono';
 
 export default IconErtha;

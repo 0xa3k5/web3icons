@@ -18,6 +18,5 @@ const IconNpc = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconNpc.displayName = 'Npc';
-IconNpc.variants = 'brandedmono';
 
 export default IconNpc;

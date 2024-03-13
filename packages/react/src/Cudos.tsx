@@ -18,6 +18,5 @@ const IconCudos = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCudos.displayName = 'Cudos';
-IconCudos.variants = 'brandedmono';
 
 export default IconCudos;

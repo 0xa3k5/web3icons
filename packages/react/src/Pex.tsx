@@ -18,6 +18,5 @@ const IconPex = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconPex.displayName = 'Pex';
-IconPex.variants = 'brandedmono';
 
 export default IconPex;

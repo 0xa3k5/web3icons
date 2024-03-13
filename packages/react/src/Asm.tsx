@@ -18,6 +18,5 @@ const IconAsm = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconAsm.displayName = 'Asm';
-IconAsm.variants = 'brandedmono';
 
 export default IconAsm;

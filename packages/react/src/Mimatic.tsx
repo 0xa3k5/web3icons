@@ -18,6 +18,5 @@ const IconMimatic = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = '
 ));
 
 IconMimatic.displayName = 'Mimatic';
-IconMimatic.variants = 'brandedmono';
 
 export default IconMimatic;

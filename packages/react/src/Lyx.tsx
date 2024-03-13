@@ -18,6 +18,5 @@ const IconLyx = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconLyx.displayName = 'Lyx';
-IconLyx.variants = 'brandedmono';
 
 export default IconLyx;

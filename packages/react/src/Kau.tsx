@@ -18,6 +18,5 @@ const IconKau = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconKau.displayName = 'Kau';
-IconKau.variants = 'brandedmono';
 
 export default IconKau;

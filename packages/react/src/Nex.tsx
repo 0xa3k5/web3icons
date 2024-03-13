@@ -18,6 +18,5 @@ const IconNex = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconNex.displayName = 'Nex';
-IconNex.variants = 'brandedmono';
 
 export default IconNex;

@@ -18,6 +18,5 @@ const IconBump = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBump.displayName = 'Bump';
-IconBump.variants = 'brandedmono';
 
 export default IconBump;

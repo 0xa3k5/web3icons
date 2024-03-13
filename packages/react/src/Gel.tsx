@@ -18,6 +18,5 @@ const IconGel = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconGel.displayName = 'Gel';
-IconGel.variants = 'brandedmono';
 
 export default IconGel;

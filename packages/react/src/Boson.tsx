@@ -18,6 +18,5 @@ const IconBoson = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBoson.displayName = 'Boson';
-IconBoson.variants = 'brandedmono';
 
 export default IconBoson;

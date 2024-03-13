@@ -18,6 +18,5 @@ const IconAlph = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAlph.displayName = 'Alph';
-IconAlph.variants = 'brandedmono';
 
 export default IconAlph;

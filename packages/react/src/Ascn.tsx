@@ -10,6 +10,5 @@ const IconAscn = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconAscn.displayName = 'Ascn';
-IconAscn.variants = 'mono';
 
 export default IconAscn;

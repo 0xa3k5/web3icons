@@ -10,6 +10,5 @@ const IconBlank = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconBlank.displayName = 'Blank';
-IconBlank.variants = 'branded';
 
 export default IconBlank;

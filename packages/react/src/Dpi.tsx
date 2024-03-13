@@ -10,6 +10,5 @@ const IconDpi = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconDpi.displayName = 'Dpi';
-IconDpi.variants = 'branded';
 
 export default IconDpi;

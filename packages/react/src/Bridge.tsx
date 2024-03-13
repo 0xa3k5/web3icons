@@ -18,6 +18,5 @@ const IconBridge = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconBridge.displayName = 'Bridge';
-IconBridge.variants = 'brandedmono';
 
 export default IconBridge;

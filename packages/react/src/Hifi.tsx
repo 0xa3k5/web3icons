@@ -18,6 +18,5 @@ const IconHifi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconHifi.displayName = 'Hifi';
-IconHifi.variants = 'brandedmono';
 
 export default IconHifi;

@@ -18,6 +18,5 @@ const IconMyria = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconMyria.displayName = 'Myria';
-IconMyria.variants = 'brandedmono';
 
 export default IconMyria;

@@ -10,6 +10,5 @@ const IconDzoo = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconDzoo.displayName = 'Dzoo';
-IconDzoo.variants = 'branded';
 
 export default IconDzoo;

@@ -18,6 +18,5 @@ const IconCap = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconCap.displayName = 'Cap';
-IconCap.variants = 'brandedmono';
 
 export default IconCap;

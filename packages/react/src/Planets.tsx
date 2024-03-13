@@ -18,6 +18,5 @@ const IconPlanets = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = '
 ));
 
 IconPlanets.displayName = 'Planets';
-IconPlanets.variants = 'brandedmono';
 
 export default IconPlanets;

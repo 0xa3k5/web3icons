@@ -18,6 +18,5 @@ const IconKick = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconKick.displayName = 'Kick';
-IconKick.variants = 'brandedmono';
 
 export default IconKick;

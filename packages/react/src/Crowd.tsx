@@ -18,6 +18,5 @@ const IconCrowd = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconCrowd.displayName = 'Crowd';
-IconCrowd.variants = 'brandedmono';
 
 export default IconCrowd;

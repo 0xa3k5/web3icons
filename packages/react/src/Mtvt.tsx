@@ -10,6 +10,5 @@ const IconMtvt = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconMtvt.displayName = 'Mtvt';
-IconMtvt.variants = 'branded';
 
 export default IconMtvt;

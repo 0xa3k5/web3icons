@@ -18,6 +18,5 @@ const IconObsr = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconObsr.displayName = 'Obsr';
-IconObsr.variants = 'brandedmono';
 
 export default IconObsr;

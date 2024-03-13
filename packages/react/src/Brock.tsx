@@ -18,6 +18,5 @@ const IconBrock = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconBrock.displayName = 'Brock';
-IconBrock.variants = 'brandedmono';
 
 export default IconBrock;

@@ -18,6 +18,5 @@ const IconAli = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconAli.displayName = 'Ali';
-IconAli.variants = 'brandedmono';
 
 export default IconAli;

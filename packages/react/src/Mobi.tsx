@@ -18,6 +18,5 @@ const IconMobi = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMobi.displayName = 'Mobi';
-IconMobi.variants = 'brandedmono';
 
 export default IconMobi;

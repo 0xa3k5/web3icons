@@ -18,6 +18,5 @@ const IconLvl = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconLvl.displayName = 'Lvl';
-IconLvl.variants = 'brandedmono';
 
 export default IconLvl;

@@ -18,6 +18,5 @@ const IconGtc = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconGtc.displayName = 'Gtc';
-IconGtc.variants = 'brandedmono';
 
 export default IconGtc;

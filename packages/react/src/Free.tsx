@@ -10,6 +10,5 @@ const IconFree = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconFree.displayName = 'Free';
-IconFree.variants = 'branded';
 
 export default IconFree;

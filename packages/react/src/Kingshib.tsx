@@ -10,6 +10,5 @@ const IconKingshib = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }
 ));
 
 IconKingshib.displayName = 'Kingshib';
-IconKingshib.variants = 'branded';
 
 export default IconKingshib;

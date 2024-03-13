@@ -18,6 +18,5 @@ const IconEul = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconEul.displayName = 'Eul';
-IconEul.variants = 'brandedmono';
 
 export default IconEul;

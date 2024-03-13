@@ -10,6 +10,5 @@ const IconFpis = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconFpis.displayName = 'Fpis';
-IconFpis.variants = 'mono';
 
 export default IconFpis;

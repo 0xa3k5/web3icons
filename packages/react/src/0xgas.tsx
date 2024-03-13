@@ -10,6 +10,5 @@ const Icon0xgas = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 Icon0xgas.displayName = '0xgas';
-Icon0xgas.variants = 'branded';
 
 export default Icon0xgas;

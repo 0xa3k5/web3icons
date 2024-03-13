@@ -18,6 +18,5 @@ const IconNfai = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconNfai.displayName = 'Nfai';
-IconNfai.variants = 'brandedmono';
 
 export default IconNfai;

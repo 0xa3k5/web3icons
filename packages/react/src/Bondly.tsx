@@ -18,6 +18,5 @@ const IconBondly = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconBondly.displayName = 'Bondly';
-IconBondly.variants = 'brandedmono';
 
 export default IconBondly;

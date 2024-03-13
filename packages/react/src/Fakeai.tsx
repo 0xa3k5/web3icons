@@ -18,6 +18,5 @@ const IconFakeai = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconFakeai.displayName = 'Fakeai';
-IconFakeai.variants = 'brandedmono';
 
 export default IconFakeai;

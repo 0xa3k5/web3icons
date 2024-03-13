@@ -18,6 +18,5 @@ const IconPinksale = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 
 ));
 
 IconPinksale.displayName = 'Pinksale';
-IconPinksale.variants = 'brandedmono';
 
 export default IconPinksale;

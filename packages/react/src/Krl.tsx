@@ -18,6 +18,5 @@ const IconKrl = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconKrl.displayName = 'Krl';
-IconKrl.variants = 'brandedmono';
 
 export default IconKrl;

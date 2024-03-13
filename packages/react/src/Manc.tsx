@@ -18,6 +18,5 @@ const IconManc = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconManc.displayName = 'Manc';
-IconManc.variants = 'brandedmono';
 
 export default IconManc;

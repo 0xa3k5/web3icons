@@ -18,6 +18,5 @@ const IconMin = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconMin.displayName = 'Min';
-IconMin.variants = 'brandedmono';
 
 export default IconMin;

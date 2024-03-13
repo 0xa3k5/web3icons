@@ -10,6 +10,5 @@ const IconCspr = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconCspr.displayName = 'Cspr';
-IconCspr.variants = 'mono';
 
 export default IconCspr;

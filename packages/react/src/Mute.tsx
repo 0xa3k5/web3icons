@@ -18,6 +18,5 @@ const IconMute = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMute.displayName = 'Mute';
-IconMute.variants = 'brandedmono';
 
 export default IconMute;

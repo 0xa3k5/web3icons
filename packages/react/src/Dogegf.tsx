@@ -10,6 +10,5 @@ const IconDogegf = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, 
 ));
 
 IconDogegf.displayName = 'Dogegf';
-IconDogegf.variants = 'branded';
 
 export default IconDogegf;

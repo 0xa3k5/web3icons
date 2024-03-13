@@ -18,6 +18,5 @@ const IconMind = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconMind.displayName = 'Mind';
-IconMind.variants = 'brandedmono';
 
 export default IconMind;

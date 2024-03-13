@@ -10,6 +10,5 @@ const IconMeme = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconMeme.displayName = 'Meme';
-IconMeme.variants = 'branded';
 
 export default IconMeme;

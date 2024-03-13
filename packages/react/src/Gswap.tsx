@@ -18,6 +18,5 @@ const IconGswap = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconGswap.displayName = 'Gswap';
-IconGswap.variants = 'brandedmono';
 
 export default IconGswap;

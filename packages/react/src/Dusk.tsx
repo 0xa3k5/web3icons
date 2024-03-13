@@ -18,6 +18,5 @@ const IconDusk = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconDusk.displayName = 'Dusk';
-IconDusk.variants = 'brandedmono';
 
 export default IconDusk;

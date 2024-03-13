@@ -18,6 +18,5 @@ const IconAipad = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconAipad.displayName = 'Aipad';
-IconAipad.variants = 'brandedmono';
 
 export default IconAipad;

@@ -18,6 +18,5 @@ const IconNeuroni = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = '
 ));
 
 IconNeuroni.displayName = 'Neuroni';
-IconNeuroni.variants = 'brandedmono';
 
 export default IconNeuroni;

@@ -10,6 +10,5 @@ const IconAag = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref
 ));
 
 IconAag.displayName = 'Aag';
-IconAag.variants = 'mono';
 
 export default IconAag;

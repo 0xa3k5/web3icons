@@ -18,6 +18,5 @@ const IconLand = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconLand.displayName = 'Land';
-IconLand.variants = 'brandedmono';
 
 export default IconLand;

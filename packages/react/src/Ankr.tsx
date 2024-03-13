@@ -18,6 +18,5 @@ const IconAnkr = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconAnkr.displayName = 'Ankr';
-IconAnkr.variants = 'brandedmono';
 
 export default IconAnkr;

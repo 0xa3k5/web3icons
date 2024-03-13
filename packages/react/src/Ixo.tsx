@@ -18,6 +18,5 @@ const IconIxo = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconIxo.displayName = 'Ixo';
-IconIxo.variants = 'brandedmono';
 
 export default IconIxo;

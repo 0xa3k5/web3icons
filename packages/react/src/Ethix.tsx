@@ -18,6 +18,5 @@ const IconEthix = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mo
 ));
 
 IconEthix.displayName = 'Ethix';
-IconEthix.variants = 'brandedmono';
 
 export default IconEthix;

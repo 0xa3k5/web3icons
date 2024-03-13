@@ -18,6 +18,5 @@ const IconDia = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconDia.displayName = 'Dia';
-IconDia.variants = 'brandedmono';
 
 export default IconDia;

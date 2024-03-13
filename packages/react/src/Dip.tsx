@@ -18,6 +18,5 @@ const IconDip = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconDip.displayName = 'Dip';
-IconDip.variants = 'brandedmono';
 
 export default IconDip;

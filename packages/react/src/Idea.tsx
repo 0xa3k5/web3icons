@@ -18,6 +18,5 @@ const IconIdea = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconIdea.displayName = 'Idea';
-IconIdea.variants = 'brandedmono';
 
 export default IconIdea;

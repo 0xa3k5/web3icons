@@ -18,6 +18,5 @@ const IconMaticx = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconMaticx.displayName = 'Maticx';
-IconMaticx.variants = 'brandedmono';
 
 export default IconMaticx;

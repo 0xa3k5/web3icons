@@ -10,6 +10,5 @@ const IconHeart = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, r
 ));
 
 IconHeart.displayName = 'Heart';
-IconHeart.variants = 'mono';
 
 export default IconHeart;

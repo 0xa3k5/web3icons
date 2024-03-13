@@ -18,6 +18,5 @@ const IconAurora = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'm
 ));
 
 IconAurora.displayName = 'Aurora';
-IconAurora.variants = 'brandedmono';
 
 export default IconAurora;

@@ -18,6 +18,5 @@ const IconBlid = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mon
 ));
 
 IconBlid.displayName = 'Blid';
-IconBlid.variants = 'brandedmono';
 
 export default IconBlid;

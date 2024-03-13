@@ -18,6 +18,5 @@ const IconAxe = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono
 ));
 
 IconAxe.displayName = 'Axe';
-IconAxe.variants = 'brandedmono';
 
 export default IconAxe;

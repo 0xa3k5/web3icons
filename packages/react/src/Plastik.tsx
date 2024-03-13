@@ -18,6 +18,5 @@ const IconPlastik = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = '
 ));
 
 IconPlastik.displayName = 'Plastik';
-IconPlastik.variants = 'brandedmono';
 
 export default IconPlastik;

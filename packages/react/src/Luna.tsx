@@ -10,6 +10,5 @@ const IconLuna = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, re
 ));
 
 IconLuna.displayName = 'Luna';
-IconLuna.variants = 'branded';
 
 export default IconLuna;
