@@ -26,5 +26,11 @@
   },
   "dependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/token-icons/monorepo",
+    "directory": "packages/react"
+  },
 }
