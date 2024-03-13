@@ -1,6 +1,6 @@
 {
   "name": "token-icons",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -20,5 +20,8 @@
   "workspaces": [
     "packages/*",
     "apps/*"
-  ]
+  ],
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
 }

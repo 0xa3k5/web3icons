@@ -1,6 +1,7 @@
 {
   "name": "@token-icons/react",
   "version": "0.1.0",
+  "private": false,
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -9,6 +10,9 @@
     ".": {
       "import": "./index.ts"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsup ./index.ts --format cjs,esm --dts",
