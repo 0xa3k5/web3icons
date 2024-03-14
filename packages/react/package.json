@@ -8,8 +8,10 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./index.ts"
-    }
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
   },
   "publishConfig": {
     "access": "public"
@@ -23,12 +25,13 @@
   "devDependencies": {
     "@svgr/core": "^8.1.0",
     "bun-types": "latest",
-    "tsup": "^8.0.2"
-  },
-  "peerDependencies": {
+    "tsup": "^8.0.2",
     "typescript": "^5.0.0"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
