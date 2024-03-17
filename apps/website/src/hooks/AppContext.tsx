@@ -10,7 +10,7 @@ import {
   useEffect,
   useState,
 } from 'react'
-import { ITokenMetadata } from '@token-icons/core'
+import { ITokenMetadata, tokens } from '@token-icons/core'
 import * as Icons from '@token-icons/react'
 
 export interface AppContextType {
@@ -45,7 +45,6 @@ export const AppContextProvider = ({
   const [size, setSize] = useState(64)
   const [selectedIcons, setSelectedIcons] = useState<string[]>([])
   const [searchTerm, setSearchTerm] = useState('')
-  const [tokenMetadata, setTokenMetadata] = useState<ITokenMetadata[]>([])
   const [color, setColor] = useState('#FFFFFF')
   const [filteredIcons, setFilteredIcons] = useState<
     [
@@ -57,28 +56,23 @@ export const AppContextProvider = ({
   >([])
 
   useEffect(() => {
-    const getTokenMetadata = async () => {
-      const response = await fetch('/api/get-token-metadata')
-      const tokens = await response.json()
-      setTokenMetadata(tokens)
-    }
-
-    getTokenMetadata()
-  }, [])
-
-  useEffect(() => {
-    const filteredMetadata = searchTerm
-      ? tokenMetadata.filter(
-          (token) =>
-            token.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            token.symbol.toLowerCase().includes(searchTerm.toLowerCase()),
-        )
-      : tokenMetadata
+    const filteredMetadata = tokens.filter(
+      (token) =>
+        token.symbol
+          .toLocaleLowerCase()
+          .includes(searchTerm.toLocaleLowerCase()) ||
+        token.name
+          .toLocaleLowerCase()
+          .includes(searchTerm.toLocaleLowerCase()) ||
+        token.id.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase()),
+    )
 
     setFilteredIcons(
       Object.entries(Icons).filter(([iconName]) =>
         filteredMetadata.some((token) =>
-          iconName.toLowerCase().includes(token.id.toLowerCase()),
+          iconName
+            .toLocaleLowerCase()
+            .includes(token.symbol.toLocaleLowerCase()),
         ),
       ),
     )
@@ -90,7 +84,7 @@ export const AppContextProvider = ({
         icons: filteredIcons.length > 0 ? filteredIcons : Object.entries(Icons),
         searchTerm,
         setSearchTerm,
-        tokenMetadata,
+        tokenMetadata: tokens,
         variant,
         setVariant,
         size,

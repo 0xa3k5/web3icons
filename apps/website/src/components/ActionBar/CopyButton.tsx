@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
+import tokens from '@token-icons/core/dist/metadata/tokens.json'
 import cx from 'classnames'
+import Tooltip from './Tooltip'
 
 interface Props {
   className?: string
@@ -25,16 +27,52 @@ export default function CopyButton({
 
   const handleCopy = async () => {
     if (selectedIcons.length === 1) {
-      const iconName = selectedIcons[0]!.replace('Icon', '').toUpperCase()
+      const iconName = selectedIcons[0]!.replace('Icon', '').toLocaleUpperCase()
 
-      const response = await fetch(
-        `/api/get-svgs?name=${encodeURIComponent(iconName)}&variant=${encodeURIComponent(variant)}`,
-      )
-      const svgData = await response.text()
+      let hasMonoVariant = false
+      let hasBrandedVariant = false
+
+      tokens
+        .find(
+          (token) =>
+            token.symbol.toLocaleLowerCase() === iconName.toLocaleLowerCase(),
+        )
+        ?.variants?.forEach((variant) => {
+          hasMonoVariant = variant.includes('mono')
+          hasBrandedVariant = variant.includes('branded')
+        })
+
+      console.log(hasBrandedVariant, hasMonoVariant)
+
       try {
-        await navigator.clipboard.writeText(svgData)
+        if (
+          (variant === 'mono' && hasMonoVariant) ||
+          (variant === 'branded' && hasBrandedVariant)
+        ) {
+          const svgModule = await import(
+            `@token-icons/core/dist/svgs/${variant}/${iconName}.svg`
+          )
+          const response = await fetch(svgModule.default.src)
+          const svgContent = await response.text()
+          await navigator.clipboard.writeText(svgContent)
+        } else if (hasBrandedVariant) {
+          const svgModule = await import(
+            `@token-icons/core/dist/svgs/branded/${iconName}.svg`
+          )
+          const response = await fetch(svgModule.default.src)
+          const svgContent = await response.text()
+          await navigator.clipboard.writeText(svgContent)
+        } else if (hasMonoVariant) {
+          const svgModule = await import(
+            `@token-icons/core/dist/svgs/mono/${iconName}.svg`
+          )
+          const response = await fetch(svgModule.default.src)
+          const svgContent = await response.text()
+          await navigator.clipboard.writeText(svgContent)
+        }
         setTooltip({ toggle: true, text: 'copied!' })
       } catch (err) {
+        console.error(err)
         setTooltip({ toggle: true, text: 'Failed to copy' })
       }
     }
@@ -56,17 +94,7 @@ export default function CopyButton({
       >
         copy svg
       </button>
-
-      <div
-        className={cx(
-          tooltip.toggle
-            ? '-translate-y-8 opacity-100'
-            : 'translate-y-0 opacity-0',
-          'absolute bottom-8 left-1/2 z-20 -translate-x-1/2 rounded-md border border-gray-lightest bg-gray-darkest px-4 py-2 text-xs transition-all duration-150',
-        )}
-      >
-        {tooltip.text}
-      </div>
+      <Tooltip text={tooltip.text} toggle={tooltip.toggle} />
     </div>
   )
 }
