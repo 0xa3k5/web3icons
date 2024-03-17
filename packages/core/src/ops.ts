@@ -22,6 +22,8 @@ export const optimizeSvg = (svg: string, name: string) => {
       },
       { name: 'prefixIds', params: { prefix: name } },
     ],
+    multipass: true,
+    js2svg: { pretty: true },
   }).data
 }
 

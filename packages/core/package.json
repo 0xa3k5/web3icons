@@ -5,9 +5,13 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
-    "build": "tsc && bun run optimize-svgs && bun run enrich-metadata && bun generate-react",
+    "build": "tsc && bun run optimize-svgs && bun run generate-core:index && bun run enrich-metadata && bun generate-react",
     "optimize-svgs": "bun run ./scripts/optimize-svgs.ts",
+    "generate-core:index": "bun run ./scripts/generate-core-index.ts",
     "generate-react": "bun run generate-react:components && bun run generate-react:index",
     "generate-react:components": "bun run ./scripts/generate-react-components.ts",
     "generate-react:index": "bun run ./scripts/generate-react-index.ts",
@@ -20,5 +24,11 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/token-icons/monorepo",
+    "directory": "packages/core"
   }
 }
