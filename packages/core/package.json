@@ -1,13 +1,17 @@
 {
   "name": "@token-icons/core",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist/**/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc && bun run optimize-svgs && bun run generate-core:index && bun run enrich-metadata && bun generate-react",
     "optimize-svgs": "bun run ./scripts/optimize-svgs.ts",

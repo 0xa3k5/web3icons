@@ -1,0 +1,15 @@
+# Development files
+src/
+scripts/
+.turbo/
+.changeset/
+tsconfig.json
+index.ts
+.eslintrc
+.prettierrc
+.git/
+.gitignore
+node_modules/
+*.log
+*.tmp
+*.bak
