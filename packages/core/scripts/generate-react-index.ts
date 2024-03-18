@@ -8,14 +8,12 @@ const svgDirectories = {
   mono: fs.readdirSync(path.join(SVG_OUTPUT_DIR, 'mono')),
 }
 
-// Create a combined set of all unique SVG names
 const allSvgNames = new Set(
   [...svgDirectories.branded, ...svgDirectories.mono].map((svg) =>
     path.basename(svg, '.svg'),
   ),
 )
 
-// Generate export statements
 const indexFileContent = Array.from(allSvgNames)
   .map((svgName) => {
     const componentName = normalizeComponentName(svgName)
@@ -24,5 +22,4 @@ const indexFileContent = Array.from(allSvgNames)
   .join('\n')
   .concat("\nexport * from './types';")
 
-// Write the content to index.ts
 fs.writeFileSync(path.join(JSX_OUTPUT_DIR, 'index.ts'), indexFileContent)

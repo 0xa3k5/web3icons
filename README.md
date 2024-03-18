@@ -1,8 +1,9 @@
 # Token Icons
 
-Token Icons is the most comprehensive and up-to-date source for cryptocurrency token & coin logos as icon format. More than 2,500 icons are ready as optimized SVGs as well as React components. 
+Token Icons is the most comprehensive and up-to-date source for cryptocurrency token & coin logos as icon format. More than 2,500 icons are ready as optimized SVGs as well as React components.
 
 The monorepo contains
+
 - [`@token-icons/core`](https://github.com/token-icons/monorepo/tree/main/packages/core): npm package that serves optimized svgs as svg files
 - [`@token-icons/react`](https://github.com/token-icons/monorepo/tree/main/packages/react): React components for token icons
 - [`website`](https://tokenicons.io): source code for https://tokenicons.io
@@ -41,13 +42,13 @@ import React from 'react'
 import { IconBtc } from '@token-icons/react'
 
 const App = () => {
- return (
-  <div>
-   <h1>Bitcoin Logo</h1>
-   <IconBtc size={64} variant="branded" />
-  </div>
- )
-} 
+  return (
+    <div>
+      <h1>Bitcoin Logo</h1>
+      <IconBtc size={64} variant="branded" />
+    </div>
+  )
+}
 
 export default App
 ```
@@ -56,23 +57,25 @@ export default App
 
 ### Using SVGs from `@token-icons/core`
 
-For projects that don’t use React, icons are also available as `*.svg` files in the `dist/svgs` folder. Which contains folders for `branded` and `mono`  svg icons.
+For projects that don’t use React, icons are also available as `*.svg` files in the `dist/optimized-svgs` folder. Which contains folders for `branded` and `mono` svg icons.
 
 > Names of the SVGs in this package is prefixed with their relative variant. e.g. `BrandedBtc` or `MonoEth`
 
 ```js
-import { brandedBTC, monoETH } from '@token-icons/core/
+import { brandedBTC, monoETH } from '@token-icons/core'
 ```
 
 or with a dynamic import
 
 ```js
-const svgModule = await import(`@token-icons/core/dist/svgs/${variant}/${iconName}.svg`);
+const svgModule = await import(
+  `@token-icons/core/dist/optimized-svgs/${variant}/${iconName}.svg`
+)
 
-const response = await fetch(svgModule.default.src);
-const svgContent = await response.text();
+const response = await fetch(svgModule.default.src)
+const svgContent = await response.text()
 
-console.log(svgContent);
+console.log(svgContent)
 ```
 
 > not all of the icons have both `branded` & `mono` variants

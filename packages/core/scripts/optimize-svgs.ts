@@ -3,6 +3,10 @@ import { optimizeSvg } from '../src/ops'
 import path from 'path'
 import fs from 'fs'
 
+if (!fs.existsSync('./dist')) {
+  fs.mkdirSync('./dist')
+}
+
 if (!fs.existsSync(SVG_OUTPUT_DIR)) {
   fs.mkdirSync(SVG_OUTPUT_DIR)
 }

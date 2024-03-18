@@ -130,23 +130,23 @@ export const generateReactComponent = async (baseName: string) => {
   let brandedSVG = ''
   let monoSVG = ''
   const hasBrandedVariant = fs.existsSync(
-    path.join(__dirname, './svgs/branded', `${baseName}.svg`),
+    path.join(__dirname, './optimized-svgs/branded', `${baseName}.svg`),
   )
   const hasMonoVariant = fs.existsSync(
-    path.join(__dirname, './svgs/mono', `${baseName}.svg`),
+    path.join(__dirname, './optimized-svgs/mono', `${baseName}.svg`),
   )
   const hasBothVariants = hasBrandedVariant && hasMonoVariant
 
   if (hasBrandedVariant) {
     brandedSVG = fs.readFileSync(
-      path.join(__dirname, './svgs/branded', `${baseName}.svg`),
+      path.join(__dirname, './optimized-svgs/branded', `${baseName}.svg`),
       'utf-8',
     )
   }
 
   if (hasMonoVariant) {
     monoSVG = fs.readFileSync(
-      path.join(__dirname, './svgs/mono', `${baseName}.svg`),
+      path.join(__dirname, './optimized-svgs/mono', `${baseName}.svg`),
       'utf-8',
     )
   }
