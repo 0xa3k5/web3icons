@@ -2,7 +2,7 @@ import { optimize } from 'svgo'
 import fs from 'fs'
 import path from 'path'
 import * as cheerio from 'cheerio'
-import { JSX_OUTPUT_DIR } from './constants'
+import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from './constants'
 import {
   componentBaseScaffold,
   componentScaffold,
@@ -130,23 +130,23 @@ export const generateReactComponent = async (baseName: string) => {
   let brandedSVG = ''
   let monoSVG = ''
   const hasBrandedVariant = fs.existsSync(
-    path.join(__dirname, './optimized-svgs/branded', `${baseName}.svg`),
+    path.join(SVG_OUTPUT_DIR, 'branded', `${baseName}.svg`),
   )
   const hasMonoVariant = fs.existsSync(
-    path.join(__dirname, './optimized-svgs/mono', `${baseName}.svg`),
+    path.join(SVG_OUTPUT_DIR, 'mono', `${baseName}.svg`),
   )
   const hasBothVariants = hasBrandedVariant && hasMonoVariant
 
   if (hasBrandedVariant) {
     brandedSVG = fs.readFileSync(
-      path.join(__dirname, './optimized-svgs/branded', `${baseName}.svg`),
+      path.join(SVG_OUTPUT_DIR, 'branded', `${baseName}.svg`),
       'utf-8',
     )
   }
 
   if (hasMonoVariant) {
     monoSVG = fs.readFileSync(
-      path.join(__dirname, './optimized-svgs/mono', `${baseName}.svg`),
+      path.join(SVG_OUTPUT_DIR, 'mono', `${baseName}.svg`),
       'utf-8',
     )
   }

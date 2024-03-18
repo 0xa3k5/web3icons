@@ -1,8 +1,9 @@
 import fs from 'fs'
 import path from 'path'
+import { SVG_OUTPUT_DIR } from '../src/constants'
 
-const brandedSvgDir = path.join(__dirname, '..', 'src', 'svgs', 'branded')
-const monoSvgDir = path.join(__dirname, '..', 'src', 'svgs', 'mono')
+const brandedSvgDir = path.join(SVG_OUTPUT_DIR, 'branded')
+const monoSvgDir = path.join(SVG_OUTPUT_DIR, 'mono')
 
 function readSvgFilesFromDirectory(directoryPath: string): string[] {
   return fs
@@ -13,20 +14,20 @@ function readSvgFilesFromDirectory(directoryPath: string): string[] {
 const brandedSvgFiles = readSvgFilesFromDirectory(brandedSvgDir)
 const monoSvgFiles = readSvgFilesFromDirectory(monoSvgDir)
 
-let indexContent = `export * from './metadata'\n`
+let indexContent = `/* Generated */\nexport { tokens, type ITokenMetadata } from './metadata/index.js'\nexport { svgs } from './svg-module.js'\n`
 
 // branded
 brandedSvgFiles.forEach((file) => {
   const svgName = file.replace('.svg', '')
-  indexContent += `export { default as branded${svgName.charAt(0).toUpperCase() + svgName.slice(1)} } from './svgs/branded/${file}';\n`
+  indexContent += `export { default as branded${svgName.charAt(0).toUpperCase() + svgName.slice(1)} } from './optimized-svgs/branded/${file}';\n`
 })
 
 // mono
 monoSvgFiles.forEach((file) => {
   const svgName = file.replace('.svg', '')
-  indexContent += `export { default as mono${svgName.charAt(0).toUpperCase() + svgName.slice(1)} } from './svgs/mono/${file}';\n`
+  indexContent += `export { default as mono${svgName.charAt(0).toUpperCase() + svgName.slice(1)} } from './optimized-svgs/mono/${file}';\n`
 })
 
 fs.writeFileSync(path.join(__dirname, '..', 'src', 'index.ts'), indexContent)
 
-console.log('Index file generated successfully.')
+console.log('✓ generated: index file at src/index.ts')
