@@ -45,7 +45,7 @@ export default function ColorSlider({
           onChange={handleInputChange}
           pattern="#[0-9a-fA-F]{3}([0-9a-fA-F]{3})?"
           className={cx(
-            'bg-transparent text-right focus:outline-none w-full',
+            'w-full bg-transparent text-right focus:outline-none',
             '[appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none',
             'disabled:pointer-events-none disabled:opacity-20',
           )}

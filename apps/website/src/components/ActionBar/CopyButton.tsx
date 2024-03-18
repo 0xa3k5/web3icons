@@ -50,21 +50,21 @@ export default function CopyButton({
           (variant === 'branded' && hasBrandedVariant)
         ) {
           const svgModule = await import(
-            `@token-icons/core/dist/svgs/${variant}/${iconName}.svg`
+            `@token-icons/core/dist/optimized-svgs/${variant}/${iconName}.svg`
           )
           const response = await fetch(svgModule.default.src)
           const svgContent = await response.text()
           await navigator.clipboard.writeText(svgContent)
         } else if (hasBrandedVariant) {
           const svgModule = await import(
-            `@token-icons/core/dist/svgs/branded/${iconName}.svg`
+            `@token-icons/core/dist/optimized-svgs/branded/${iconName}.svg`
           )
           const response = await fetch(svgModule.default.src)
           const svgContent = await response.text()
           await navigator.clipboard.writeText(svgContent)
         } else if (hasMonoVariant) {
           const svgModule = await import(
-            `@token-icons/core/dist/svgs/mono/${iconName}.svg`
+            `@token-icons/core/dist/optimized-svgs/mono/${iconName}.svg`
           )
           const response = await fetch(svgModule.default.src)
           const svgContent = await response.text()

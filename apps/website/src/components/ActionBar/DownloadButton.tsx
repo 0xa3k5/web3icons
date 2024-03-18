@@ -26,7 +26,7 @@ export default function DownloadButton({
 
       try {
         const svgModule = await import(
-          `@token-icons/core/dist/svgs/${variant}/${name}.svg`
+          `@token-icons/core/dist/optimized-svgs/${variant}/${name}.svg`
         )
         const response = await fetch(svgModule.default.src)
         const svgContent = await response.text()
