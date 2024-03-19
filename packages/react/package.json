@@ -1,6 +1,16 @@
 {
   "name": "@token-icons/react",
-  "version": "0.1.1",
+  "description": "React components for incorporating Token Icons into React applications.",
+  "keywords": [
+    "crypto icons",
+    "crypto icons react",
+    "cryptocurrency react",
+    "react blockchain icons",
+    "icon components",
+    "crypto logos",
+    "coin icons"
+  ],
+  "version": "0.1.2",
   "private": false,
   "license": "MIT",
   "main": "./dist/index.js",
@@ -37,7 +47,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/token-icons/monorepo",
+    "url": "https://github.com/0xa3k5/token-icons",
     "directory": "packages/react"
   }
 }

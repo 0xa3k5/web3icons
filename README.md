@@ -4,8 +4,8 @@ Token Icons is the most comprehensive and up-to-date source for cryptocurrency t
 
 The monorepo contains
 
-- [`@token-icons/core`](https://github.com/token-icons/monorepo/tree/main/packages/core): npm package that serves optimized svgs as svg files
-- [`@token-icons/react`](https://github.com/token-icons/monorepo/tree/main/packages/react): React components for token icons
+- [`@token-icons/core`](https://github.com/0xa3k5/token-icons/tree/main/packages/core): npm package that serves optimized svgs as svg files
+- [`@token-icons/react`](https://github.com/0xa3k5/token-icons/tree/main/packages/react): React components for token icons
 - [`website`](https://tokenicons.io): source code for https://tokenicons.io
 
 ## Installation

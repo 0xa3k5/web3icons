@@ -1,6 +1,16 @@
 {
   "name": "@token-icons/core",
-  "version": "0.1.1",
+  "description": "Token Icons' core library serving optimized SVGs for cryptocurrency token & coin icons.",
+  "keywords": [
+    "crypto icons",
+    "cryptocurrency",
+    "ethereum logos",
+    "cryptocurrency logos",
+    "crypto logos",
+    "svg crypto icons",
+    "coin icons"
+  ],
+  "version": "0.1.2",
   "private": false,
   "license": "MIT",
   "type": "module",
@@ -9,6 +19,12 @@
   "files": [
     "dist/**/*"
   ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xa3k5/token-icons",
+    "directory": "packages/core"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -30,11 +46,5 @@
   },
   "peerDependencies": {
     "typescript": "5.3.0"
-  },
-  "sideEffects": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/token-icons/monorepo",
-    "directory": "packages/core"
   }
 }

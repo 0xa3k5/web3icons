@@ -84,7 +84,6 @@ function Plugin() {
         value={searchKey}
         onInput={(event) => setSearchKey(event.currentTarget.value)}
       />
-
       <div className="grid grid-cols-4 gap-0 -mx-4">
         {displayedIcons.map((svg) => (
           <IconCard

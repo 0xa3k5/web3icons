@@ -1,11 +1,27 @@
 {
   "name": "@token-icons/figma-plugin",
+  "description": "Figma plugin for incorporating cryptocurrency token icons into your design as svgs.",
+  "keywords": [
+    "figma-plugin",
+    "crypto icons",
+    "cryptocurrency",
+    "ethereum logos",
+    "cryptocurrency logos",
+    "crypto logos",
+    "svg crypto icons",
+    "coin icons"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xa3k5/token-icons",
+    "directory": "apps/figma-plugin"
+  },
   "dependencies": {
     "@create-figma-plugin/ui": "^3.1.0",
     "@create-figma-plugin/utilities": "^3.1.0",
     "preact": ">=10"
   },
-  "private": true,
   "devDependencies": {
     "@create-figma-plugin/build": "^3.1.0",
     "@create-figma-plugin/tsconfig": "^3.1.0",
