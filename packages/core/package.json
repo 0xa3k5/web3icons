@@ -22,7 +22,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/0xa3k5/token-icons",
+    "url": "git+https://github.com/0xa3k5/token-icons.git",
     "directory": "packages/core"
   },
   "publishConfig": {

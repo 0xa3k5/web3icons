@@ -7,13 +7,17 @@ import { useAppContext } from '../../hooks'
 interface Props {
   className?: string
 }
-
 export default function ControlBar({ className }: Props): JSX.Element {
   const { variant, setVariant, size, setSize, color, setColor } =
     useAppContext()
 
   return (
-    <div className={cx('flex h-fit flex-col items-center gap-12', className)}>
+    <div
+      className={cx(
+        'flex h-fit flex-col items-center gap-4 md:gap-12',
+        className,
+      )}
+    >
       <SegmentedControl
         className=""
         options={['mono', 'branded']}
