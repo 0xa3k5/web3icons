@@ -6,6 +6,7 @@ import {
   RefAttributes,
   SetStateAction,
   createContext,
+  useCallback,
   useContext,
   useEffect,
   useState,
@@ -31,57 +32,55 @@ export interface AppContextType {
   tokenMetadata: ITokenMetadata[]
   color: string
   setColor: Dispatch<SetStateAction<string>>
+  loadMoreIcons: () => void
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined)
 
-export const AppContextProvider = ({
-  children,
-}: {
-  children: ReactNode
-}): JSX.Element => {
+export function AppContextProvider({ children }: { children: ReactNode }) {
+  const PER_PAGE = 48
+
   const [variant, setVariant] =
     useState<Icons.IconComponentProps['variant']>('mono')
   const [size, setSize] = useState(64)
   const [selectedIcons, setSelectedIcons] = useState<string[]>([])
   const [searchTerm, setSearchTerm] = useState('')
   const [color, setColor] = useState('#FFFFFF')
-  const [filteredIcons, setFilteredIcons] = useState<
-    [
-      string,
-      React.ForwardRefExoticComponent<
-        Icons.IconComponentProps & React.RefAttributes<SVGSVGElement>
-      >,
-    ][]
-  >([])
+  const [nextBatchIndex, setNextBatchIndex] = useState(0)
+  const [shownIcons, setShownIcons] = useState<AppContextType['icons']>([])
 
-  useEffect(() => {
-    const filteredMetadata = tokens.filter(
-      (token) =>
-        token.symbol
-          .toLocaleLowerCase()
-          .includes(searchTerm.toLocaleLowerCase()) ||
-        token.name
-          .toLocaleLowerCase()
-          .includes(searchTerm.toLocaleLowerCase()) ||
-        token.id.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase()),
-    )
-
-    setFilteredIcons(
-      Object.entries(Icons).filter(([iconName]) =>
-        filteredMetadata.some((token) =>
-          iconName
-            .toLocaleLowerCase()
-            .includes(token.symbol.toLocaleLowerCase()),
-        ),
+  const filterAndSetIcons = useCallback(() => {
+    const filteredMetadata = tokens.filter((token) =>
+      [token.symbol, token.name, token.id].some((id) =>
+        id.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase()),
       ),
     )
-  }, [searchTerm])
+
+    const newFilteredIcons = Object.entries(Icons).filter(([iconName]) =>
+      filteredMetadata.some((token) =>
+        iconName.toLocaleLowerCase().includes(token.symbol.toLocaleLowerCase()),
+      ),
+    )
+
+    setShownIcons(newFilteredIcons.slice(0, nextBatchIndex + PER_PAGE))
+  }, [searchTerm, nextBatchIndex])
+
+  useEffect(() => {
+    filterAndSetIcons()
+  }, [searchTerm, filterAndSetIcons])
+
+  const loadMoreIcons = useCallback(() => {
+    setNextBatchIndex((prevIndex) => prevIndex + PER_PAGE)
+  }, [])
+
+  useEffect(() => {
+    loadMoreIcons()
+  }, [loadMoreIcons])
 
   return (
     <AppContext.Provider
       value={{
-        icons: filteredIcons.length > 0 ? filteredIcons : Object.entries(Icons),
+        icons: shownIcons,
         searchTerm,
         setSearchTerm,
         tokenMetadata: tokens,
@@ -93,6 +92,7 @@ export const AppContextProvider = ({
         setSelectedIcons,
         color,
         setColor,
+        loadMoreIcons,
       }}
     >
       {children}

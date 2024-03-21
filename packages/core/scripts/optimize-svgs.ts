@@ -24,15 +24,31 @@ const rawSVGs = {
   mono: fs.readdirSync(path.join(SVG_SOURCE_DIR, 'mono')),
 }
 
-Object.entries(rawSVGs).forEach(([key, value]) => {
-  value.forEach((rawSVG) => {
-    const baseName = path.basename(rawSVG, '.svg')
-    const svgFilePath = path.join(SVG_SOURCE_DIR, key, rawSVG)
-    const optimizedSVG = optimizeSvg(
-      fs.readFileSync(svgFilePath, 'utf-8'),
-      baseName,
-    )
-    fs.writeFileSync(path.join(SVG_OUTPUT_DIR, key, rawSVG), optimizedSVG)
-    console.log('→ optimized:', baseName)
+if (
+  rawSVGs.branded.length !==
+  fs.readdirSync(path.join(SVG_SOURCE_DIR, 'branded')).length
+) {
+  rawSVGs.branded.forEach((rawSVG) => {
+    optimizeAndOutput(rawSVG, 'branded')
   })
-})
+}
+
+if (
+  rawSVGs.mono.length !==
+  fs.readdirSync(path.join(SVG_SOURCE_DIR, 'mono')).length
+) {
+  rawSVGs.mono.forEach((rawSVG) => {
+    optimizeAndOutput(rawSVG, 'mono')
+  })
+}
+
+const optimizeAndOutput = (rawSVG: string, variant: string) => {
+  const baseName = path.basename(rawSVG, '.svg')
+  const svgFilePath = path.join(SVG_SOURCE_DIR, variant, rawSVG)
+  const optimizedSVG = optimizeSvg(
+    fs.readFileSync(svgFilePath, 'utf-8'),
+    baseName,
+  )
+  fs.writeFileSync(path.join(SVG_OUTPUT_DIR, variant, rawSVG), optimizedSVG)
+  console.log(`→ ${variant}:`, baseName)
+}

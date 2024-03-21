@@ -25,7 +25,7 @@ export default function SearchInput({
       <input
         placeholder={placeholder}
         value={value}
-        onInput={onInput}
+        onChange={onInput}
         className="h-8 w-full bg-transparent text-white placeholder:text-white/40 focus:outline-none"
       />
       {children}

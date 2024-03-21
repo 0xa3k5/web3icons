@@ -29,13 +29,13 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun run generate-core && bun run generate-react && tsc",
+    "build": "bun run generate-core && tsc",
     "generate-core": "bun run optimize-svgs && bun run enrich-metadata && bun run generate-core:svgs-module && bun run generate-core:index",
+    "generate-core:svgs-module": "bun run ./scripts/generate-svgs-module.ts",
     "optimize-svgs": "bun run ./scripts/optimize-svgs.ts",
     "enrich-metadata": "bun run ./scripts/enrich-metadata.ts",
-    "generate-core:index": "bun run ./scripts/generate-core-index.ts",
-    "generate-core:svgs-module": "bun run ./scripts/generate-svgs-module.ts",
     "generate-react": "bun run generate-react:components && bun run generate-react:index",
+    "generate-core:index": "bun run ./scripts/generate-core-index.ts",
     "generate-react:components": "bun run ./scripts/generate-react-components.ts",
     "generate-react:index": "bun run ./scripts/generate-react-index.ts"
   },

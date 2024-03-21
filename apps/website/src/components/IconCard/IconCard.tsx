@@ -65,7 +65,7 @@ export default function IconCard({
   return (
     <label
       className={cx(
-        'relative flex flex-col items-center justify-center gap-4 border border-gray-lightest p-12 duration-150',
+        'relative flex flex-col items-center justify-center gap-4 border border-gray-lightest p-8 duration-150',
         className,
         isSelected ? 'bg-gray-light' : hover && 'bg-gray',
       )}

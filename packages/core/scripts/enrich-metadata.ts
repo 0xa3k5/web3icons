@@ -27,11 +27,9 @@ const updatedTokens = tokens.map((token) => {
   const symbol = token.symbol.toLocaleLowerCase()
 
   if (svgFiles.branded.has(symbol)) {
-    console.log(symbol, 'has branded')
     variants.push('branded')
   }
   if (svgFiles.mono.has(symbol)) {
-    console.log(symbol, 'has mono')
     variants.push('mono')
   }
   return { ...token, variants }
