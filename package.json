@@ -25,6 +25,7 @@
     "@changesets/cli": "^2.27.1"
   },
   "resolutions": {
-    "typescript": "5.3.3"
+    "typescript": "5.3.3",
+    "esbuild": "^0.19.12"
   }
 }
