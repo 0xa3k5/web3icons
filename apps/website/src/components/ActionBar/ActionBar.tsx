@@ -30,7 +30,7 @@ export default function ActionBar({ className }: Props): JSX.Element {
       <button
         type="button"
         onClick={handleClearAll}
-        className="flex gap-2 rounded-r-full p-4 text-white text-opacity-60 duration-150 hover:bg-gray-lightest hover:text-opacity-100"
+        className="flex gap-2 rounded-r-full p-4 text-white text-opacity-60 duration-150 hover:bg-gray-lightest hover:text-opacity-100 "
       >
         clear all
       </button>

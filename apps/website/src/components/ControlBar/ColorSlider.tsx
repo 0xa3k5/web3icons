@@ -1,5 +1,5 @@
 import cx from 'classnames'
-import { ChangeEvent, Dispatch, SetStateAction, useState } from 'react'
+import { ChangeEvent, Dispatch, SetStateAction } from 'react'
 
 interface Props {
   className?: string

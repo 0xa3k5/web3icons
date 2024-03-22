@@ -24,24 +24,6 @@ const rawSVGs = {
   mono: fs.readdirSync(path.join(SVG_SOURCE_DIR, 'mono')),
 }
 
-if (
-  rawSVGs.branded.length !==
-  fs.readdirSync(path.join(SVG_SOURCE_DIR, 'branded')).length
-) {
-  rawSVGs.branded.forEach((rawSVG) => {
-    optimizeAndOutput(rawSVG, 'branded')
-  })
-}
-
-if (
-  rawSVGs.mono.length !==
-  fs.readdirSync(path.join(SVG_SOURCE_DIR, 'mono')).length
-) {
-  rawSVGs.mono.forEach((rawSVG) => {
-    optimizeAndOutput(rawSVG, 'mono')
-  })
-}
-
 const optimizeAndOutput = (rawSVG: string, variant: string) => {
   const baseName = path.basename(rawSVG, '.svg')
   const svgFilePath = path.join(SVG_SOURCE_DIR, variant, rawSVG)
@@ -50,5 +32,11 @@ const optimizeAndOutput = (rawSVG: string, variant: string) => {
     baseName,
   )
   fs.writeFileSync(path.join(SVG_OUTPUT_DIR, variant, rawSVG), optimizedSVG)
-  console.log(`→ ${variant}:`, baseName)
 }
+
+Object.entries(rawSVGs).forEach(([key, value]) => {
+  value.forEach((rawSVG) => {
+    optimizeAndOutput(rawSVG, key)
+  })
+  console.log(`→ ${key}:`, value.length)
+})

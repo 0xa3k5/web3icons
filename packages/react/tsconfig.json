@@ -1,3 +1,5 @@
 {
-  "extends": "@token-icons/typescript-config/react-library.json"
+  "extends": "@token-icons/typescript-config/react-library.json",
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "dist"]
 }

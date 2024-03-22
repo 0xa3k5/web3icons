@@ -1,7 +1,7 @@
 import cx from 'classnames'
 import Checkbox from './Checkbox'
 import { h } from 'preact'
-import { StateUpdater, useState } from 'preact/hooks'
+import { Dispatch, StateUpdater, useState } from 'preact/hooks'
 import { SvgIcon } from 'src/types'
 
 interface Props {
@@ -9,7 +9,7 @@ interface Props {
   iconName: string
   selectedIcons: SvgIcon[]
   svg: string
-  setSelectedIcons: StateUpdater<SvgIcon[]>
+  setSelectedIcons: Dispatch<StateUpdater<SvgIcon[]>>
 }
 
 export default function IconCard({

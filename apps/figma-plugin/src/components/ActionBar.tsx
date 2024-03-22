@@ -1,12 +1,12 @@
 import { h } from 'preact'
 import cx from 'classnames'
-import { StateUpdater } from 'preact/hooks'
+import { Dispatch, StateUpdater } from 'preact/hooks'
 import { emit } from '@create-figma-plugin/utilities'
 import { InsertSvgsHandler, SvgIcon } from '../types'
 
 interface Props {
   className?: string
-  setSelectedIcons: StateUpdater<SvgIcon[]>
+  setSelectedIcons: Dispatch<StateUpdater<SvgIcon[]>>
   selectedIcons: SvgIcon[]
 }
 
