@@ -10,7 +10,7 @@
     "crypto logos",
     "coin icons"
   ],
-  "version": "0.1.2",
+  "version": "1.0.0",¬
   "private": false,
   "license": "MIT",
   "main": "./dist/index.js",
