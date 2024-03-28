@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { SVG_SOURCE_DIR } from '../src/constants'
+import { SVG_SOURCE_DIR, METADATA_PATH } from '../constants'
 
 interface Network {
   id: string
@@ -19,7 +19,6 @@ interface Coin {
 
 const PATH_NETWORKS = path.join(__dirname, './gecko/gecko-networks.json')
 const PATH_COINS = path.join(__dirname, './gecko/gecko-coins.json')
-const PATH_METADATA = path.join(__dirname, '../src/metadata/tokens.json')
 
 const svgFiles = {
   branded: new Set<string>(),
@@ -77,7 +76,7 @@ populated.forEach((coin) => {
 })
 
 fs.writeFileSync(
-  PATH_METADATA,
+  METADATA_PATH,
   JSON.stringify(Array.from(uniqueCoins.values()), null, 2),
 )
 

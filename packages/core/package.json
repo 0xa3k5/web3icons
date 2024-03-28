@@ -11,7 +11,7 @@
     "svg crypto icons",
     "coin icons"
   ],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": false,
   "license": "MIT",
   "type": "module",
@@ -31,16 +31,16 @@
   },
   "scripts": {
     "build": "bun run generate-core && tsc && bun run generate-react && bun run lint && bun run format",
-    "lint": "eslint ./src ./scripts --ext .ts",
+    "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\"",
     "generate-core": "bun run optimize-svgs && bun run generate-metadata && bun run generate-core:svgs-module && bun run generate-core:index",
-    "generate-core:svgs-module": "bun run ./scripts/generate-svgs-module.ts",
-    "optimize-svgs": "bun run ./scripts/optimize-svgs.ts",
-    "generate-metadata": "bun run ./scripts/generate-metadata.ts",
+    "generate-core:svgs-module": "bun run ./src/scripts/generate-svgs-module.ts",
+    "optimize-svgs": "bun run ./src/scripts/optimize-svgs.ts",
+    "generate-metadata": "bun run ./src/scripts/generate-metadata.ts",
     "generate-react": "bun run generate-react:components && bun run generate-react:index",
-    "generate-core:index": "bun run ./scripts/generate-core-index.ts",
-    "generate-react:components": "bun run ./scripts/generate-react-components.ts",
-    "generate-react:index": "bun run ./scripts/generate-react-index.ts"
+    "generate-core:index": "bun run ./src/scripts/generate-core-index.ts",
+    "generate-react:components": "bun run ./src/scripts/generate-react-components.ts",
+    "generate-react:index": "bun run ./src/scripts/generate-react-index.ts"
   },
   "devDependencies": {
     "bun-types": "latest",

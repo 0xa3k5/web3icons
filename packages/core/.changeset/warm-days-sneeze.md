@@ -1,0 +1,3 @@
+---
+'@token-icons/core': patch
+---

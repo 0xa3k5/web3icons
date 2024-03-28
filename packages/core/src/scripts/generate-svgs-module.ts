@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
+import { CORE_SVG_MODULE_PATH, SVG_OUTPUT_DIR } from '../constants'
 
-const baseDir = path.join(__dirname, '..', 'dist', 'optimized-svgs')
 const variants = ['branded', 'mono']
 
 function readSvgFilesFromDir(dirPath: string) {
@@ -15,7 +15,7 @@ let fileContent = '/* Generated */\n'
 let svgsObjectContent = '\nexport const svgs: { [key: string]: string } = {\n'
 
 variants.forEach((variant) => {
-  const dirPath = path.join(baseDir, variant)
+  const dirPath = path.join(SVG_OUTPUT_DIR, variant)
   const svgFiles = readSvgFilesFromDir(dirPath)
 
   // imports
@@ -30,9 +30,6 @@ variants.forEach((variant) => {
 
 svgsObjectContent += '};\n'
 
-fs.writeFileSync(
-  path.join(__dirname, '..', 'src', 'svg-module.ts'),
-  (fileContent += svgsObjectContent),
-)
+fs.writeFileSync(CORE_SVG_MODULE_PATH, (fileContent += svgsObjectContent))
 
 console.log('✓ generated: svgs module at src/svg-module.ts')

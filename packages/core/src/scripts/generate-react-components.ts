@@ -1,11 +1,11 @@
 import fs from 'fs'
 import path from 'path'
-import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from '../src/constants'
+import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from '../constants'
 import {
   generateBaseIconComponent,
   generateReactComponent,
   generateTypesFile,
-} from '../src/ops'
+} from '../ops'
 
 if (!fs.existsSync(SVG_OUTPUT_DIR)) {
   fs.mkdirSync(SVG_OUTPUT_DIR)
@@ -44,7 +44,7 @@ if (Object.entries(svgFiles).length === 0) {
 }
 
 // generate react components
-Object.entries(svgFiles).forEach(([key, value]) => {
+Object.entries(svgFiles).forEach(([_, value]) => {
   value.forEach((svg) => {
     if (path.extname(svg) === '.svg') {
       generateReactComponent(path.basename(svg, '.svg'))

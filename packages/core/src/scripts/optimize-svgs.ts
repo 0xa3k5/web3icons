@@ -1,10 +1,10 @@
-import { SVG_OUTPUT_DIR, SVG_SOURCE_DIR } from '../src/constants'
-import { optimizeSvg } from '../src/ops'
+import { SVG_OUTPUT_DIR, SVG_SOURCE_DIR } from '../constants'
+import { optimizeSvg } from '../ops'
 import path from 'path'
 import fs from 'fs'
 
-if (!fs.existsSync('./dist')) {
-  fs.mkdirSync('./dist')
+if (!fs.existsSync(path.resolve(process.cwd(), 'dist'))) {
+  fs.mkdirSync(path.resolve(process.cwd(), 'dist'))
 }
 
 if (!fs.existsSync(SVG_OUTPUT_DIR)) {

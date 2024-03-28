@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
-import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from '../src/constants'
-import { normalizeComponentName } from '../src/ops'
+import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from '../constants'
+import { normalizeComponentName } from '../ops'
 
 const svgDirectories = {
   branded: fs.readdirSync(path.join(SVG_OUTPUT_DIR, 'branded')),

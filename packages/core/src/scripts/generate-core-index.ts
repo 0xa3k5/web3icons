@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { SVG_OUTPUT_DIR } from '../src/constants'
+import { CORE_INDEX_PATH, SVG_OUTPUT_DIR } from '../constants'
 
 const brandedSvgDir = path.join(SVG_OUTPUT_DIR, 'branded')
 const monoSvgDir = path.join(SVG_OUTPUT_DIR, 'mono')
@@ -28,6 +28,6 @@ monoSvgFiles.forEach((file) => {
   indexContent += `export { default as mono${svgName.charAt(0).toUpperCase() + svgName.slice(1)} } from './optimized-svgs/mono/${file}';\n`
 })
 
-fs.writeFileSync(path.join(__dirname, '..', 'src', 'index.ts'), indexContent)
+fs.writeFileSync(CORE_INDEX_PATH, indexContent)
 
 console.log('✓ generated: index file at src/index.ts')

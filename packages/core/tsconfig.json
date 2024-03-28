@@ -1,11 +1,11 @@
 {
   "extends": "@token-icons/typescript-config/base.json",
   "compilerOptions": {
-    "rootDirs": ["./src", "./scripts"],
+    "rootDir": "./src",
     "outDir": "./dist",
     "declarationDir": "./dist",
     "resolveJsonModule": true
   },
-  "include": ["src/**/*", "scripts/**/*"],
-  "exclude": ["node_modules", "dist", "**/*.spec.ts", "src/scaffold/**/*"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
