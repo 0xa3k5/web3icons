@@ -1,0 +1,1598 @@
+[
+  {
+    "id": "valobit",
+    "chain_identifier": null,
+    "name": "Valobit",
+    "shortname": "",
+    "native_coin_id": "valobit"
+  },
+  {
+    "id": "",
+    "chain_identifier": null,
+    "name": "Picasso",
+    "shortname": "",
+    "native_coin_id": "picasso"
+  },
+  {
+    "id": "factom",
+    "chain_identifier": null,
+    "name": "Factom",
+    "shortname": "",
+    "native_coin_id": "factom"
+  },
+  {
+    "id": "fraxtal",
+    "chain_identifier": null,
+    "name": "Fraxtal",
+    "shortname": "",
+    "native_coin_id": "fraxtal"
+  },
+  {
+    "id": "findora",
+    "chain_identifier": null,
+    "name": "Findora",
+    "shortname": "",
+    "native_coin_id": "findora"
+  },
+  {
+    "id": "bitkub-chain",
+    "chain_identifier": 96,
+    "name": "Bitkub Chain",
+    "shortname": "",
+    "native_coin_id": "bitkub-coin"
+  },
+  {
+    "id": "oasys",
+    "chain_identifier": null,
+    "name": "Oasys",
+    "shortname": "",
+    "native_coin_id": "oasys"
+  },
+  {
+    "id": "energi",
+    "chain_identifier": null,
+    "name": "Energi",
+    "shortname": "",
+    "native_coin_id": "energi"
+  },
+  {
+    "id": "velas",
+    "chain_identifier": 106,
+    "name": "Velas",
+    "shortname": "velas",
+    "native_coin_id": "velas"
+  },
+  {
+    "id": "onus",
+    "chain_identifier": null,
+    "name": "ONUS",
+    "shortname": "",
+    "native_coin_id": "onus"
+  },
+  {
+    "id": "empire",
+    "chain_identifier": 3693,
+    "name": "Empire",
+    "shortname": "",
+    "native_coin_id": "empire-capital-token"
+  },
+  {
+    "id": "areon-network",
+    "chain_identifier": null,
+    "name": "Areon Network",
+    "shortname": "",
+    "native_coin_id": "areon-network"
+  },
+  {
+    "id": "shibarium",
+    "chain_identifier": null,
+    "name": "Shibarium",
+    "shortname": "",
+    "native_coin_id": "bone-shibaswap"
+  },
+  {
+    "id": "kujira",
+    "chain_identifier": null,
+    "name": "Kujira",
+    "shortname": "",
+    "native_coin_id": "kujira"
+  },
+  {
+    "id": "vite",
+    "chain_identifier": null,
+    "name": "Vite",
+    "shortname": "",
+    "native_coin_id": "vite"
+  },
+  {
+    "id": "kusama",
+    "chain_identifier": null,
+    "name": "Kusama",
+    "shortname": "",
+    "native_coin_id": "kusama"
+  },
+  {
+    "id": "komodo",
+    "chain_identifier": null,
+    "name": "Komodo",
+    "shortname": "",
+    "native_coin_id": "komodo"
+  },
+  {
+    "id": "huobi-token",
+    "chain_identifier": 128,
+    "name": "Huobi ECO Chain Mainnet",
+    "shortname": "HECO",
+    "native_coin_id": "huobi-token"
+  },
+  {
+    "id": "ethereum-classic",
+    "chain_identifier": null,
+    "name": "Ethereum Classic",
+    "shortname": "",
+    "native_coin_id": "ethereum-classic"
+  },
+  {
+    "id": "eos",
+    "chain_identifier": null,
+    "name": "EOS",
+    "shortname": "",
+    "native_coin_id": "eos"
+  },
+  {
+    "id": "counterparty",
+    "chain_identifier": null,
+    "name": "Counterparty",
+    "shortname": "",
+    "native_coin_id": "counterparty"
+  },
+  {
+    "id": "bitshares",
+    "chain_identifier": null,
+    "name": "BitShares",
+    "shortname": "",
+    "native_coin_id": "bitshares"
+  },
+  {
+    "id": "hoo",
+    "chain_identifier": null,
+    "name": "Hoo",
+    "shortname": "Hoo",
+    "native_coin_id": "hoo-token"
+  },
+  {
+    "id": "icon",
+    "chain_identifier": null,
+    "name": "ICON",
+    "shortname": "",
+    "native_coin_id": "icon"
+  },
+  {
+    "id": "nem",
+    "chain_identifier": null,
+    "name": "NEM",
+    "shortname": "",
+    "native_coin_id": "nem"
+  },
+  {
+    "id": "nuls",
+    "chain_identifier": null,
+    "name": "Nuls",
+    "shortname": "",
+    "native_coin_id": "nuls"
+  },
+  {
+    "id": "neo",
+    "chain_identifier": null,
+    "name": "NEO",
+    "shortname": "",
+    "native_coin_id": "neo"
+  },
+  {
+    "id": "tezos",
+    "chain_identifier": null,
+    "name": "Tezos",
+    "shortname": "",
+    "native_coin_id": "tezos"
+  },
+  {
+    "id": "super-zero",
+    "chain_identifier": null,
+    "name": "Sero",
+    "shortname": "",
+    "native_coin_id": "super-zero"
+  },
+  {
+    "id": "yocoin",
+    "chain_identifier": null,
+    "name": "Yocoin",
+    "shortname": "yocoin",
+    "native_coin_id": "yocoin"
+  },
+  {
+    "id": "exosama",
+    "chain_identifier": null,
+    "name": "Exosama",
+    "shortname": "",
+    "native_coin_id": "exosama-network"
+  },
+  {
+    "id": "godwoken",
+    "chain_identifier": null,
+    "name": "Godwoken",
+    "shortname": "",
+    "native_coin_id": "nervos-network"
+  },
+  {
+    "id": "trustless-computer",
+    "chain_identifier": null,
+    "name": "Trustless Computer",
+    "shortname": "",
+    "native_coin_id": "bitcoin"
+  },
+  {
+    "id": "neutron",
+    "chain_identifier": null,
+    "name": "Neutron",
+    "shortname": "",
+    "native_coin_id": "neutron"
+  },
+  {
+    "id": "aurora",
+    "chain_identifier": 1313161554,
+    "name": "Aurora",
+    "shortname": "aurora",
+    "native_coin_id": "aurora-near"
+  },
+  {
+    "id": "cybria",
+    "chain_identifier": 6661,
+    "name": "Cybria",
+    "shortname": "",
+    "native_coin_id": "wrapped-cybria"
+  },
+  {
+    "id": "bittorrent",
+    "chain_identifier": 199,
+    "name": "BitTorrent",
+    "shortname": "",
+    "native_coin_id": "bittorrent"
+  },
+  {
+    "id": "rollux",
+    "chain_identifier": null,
+    "name": "Rollux",
+    "shortname": "",
+    "native_coin_id": "syscoin"
+  },
+  {
+    "id": "omax",
+    "chain_identifier": 311,
+    "name": "OMAX",
+    "shortname": "",
+    "native_coin_id": "omax-token"
+  },
+  {
+    "id": "xodex",
+    "chain_identifier": 2415,
+    "name": "XODEX",
+    "shortname": "",
+    "native_coin_id": "xodex"
+  },
+  {
+    "id": "polygon-pos",
+    "chain_identifier": 137,
+    "name": "Polygon POS",
+    "shortname": "MATIC",
+    "native_coin_id": "matic-network"
+  },
+  {
+    "id": "celestia",
+    "chain_identifier": null,
+    "name": "Celestia",
+    "shortname": "",
+    "native_coin_id": "celestia"
+  },
+  {
+    "id": "cardano",
+    "chain_identifier": null,
+    "name": "Cardano",
+    "shortname": "",
+    "native_coin_id": "cardano"
+  },
+  {
+    "id": "aura-network",
+    "chain_identifier": null,
+    "name": "Aura Network",
+    "shortname": "",
+    "native_coin_id": "aura-network"
+  },
+  {
+    "id": "smartbch",
+    "chain_identifier": 10000,
+    "name": "SmartBCH",
+    "shortname": "",
+    "native_coin_id": "bitcoin-cash"
+  },
+  {
+    "id": "moonriver",
+    "chain_identifier": 1285,
+    "name": "Moonriver",
+    "shortname": "moonriver",
+    "native_coin_id": "moonriver"
+  },
+  {
+    "id": "echelon",
+    "chain_identifier": null,
+    "name": "Echelon",
+    "shortname": "",
+    "native_coin_id": "echelon"
+  },
+  {
+    "id": "acala",
+    "chain_identifier": null,
+    "name": "Acala",
+    "shortname": "",
+    "native_coin_id": "acala"
+  },
+  {
+    "id": "tomochain",
+    "chain_identifier": 88,
+    "name": "TomoChain",
+    "shortname": "",
+    "native_coin_id": "tomochain"
+  },
+  {
+    "id": "defi-kingdoms-blockchain",
+    "chain_identifier": null,
+    "name": "DFK Chain",
+    "shortname": "DFK Chain",
+    "native_coin_id": "defi-kingdoms"
+  },
+  {
+    "id": "everscale",
+    "chain_identifier": null,
+    "name": "Everscale",
+    "shortname": "",
+    "native_coin_id": "everscale"
+  },
+  {
+    "id": "harmony-shard-0",
+    "chain_identifier": 1666600000,
+    "name": "Harmony Shard 0",
+    "shortname": "Harmony Shard 0",
+    "native_coin_id": "harmony"
+  },
+  {
+    "id": "terra",
+    "chain_identifier": null,
+    "name": "Terra Classic",
+    "shortname": "",
+    "native_coin_id": "terra-luna"
+  },
+  {
+    "id": "sora",
+    "chain_identifier": null,
+    "name": "Sora",
+    "shortname": "",
+    "native_coin_id": "sora"
+  },
+  {
+    "id": "terra-2",
+    "chain_identifier": null,
+    "name": "Terra",
+    "shortname": "",
+    "native_coin_id": "terra-luna-2"
+  },
+  {
+    "id": "tron",
+    "chain_identifier": null,
+    "name": "TRON",
+    "shortname": "",
+    "native_coin_id": "tron"
+  },
+  {
+    "id": "dogechain",
+    "chain_identifier": null,
+    "name": "Dogechain",
+    "shortname": "",
+    "native_coin_id": "dogechain"
+  },
+  {
+    "id": "sui",
+    "chain_identifier": null,
+    "name": "Sui",
+    "shortname": "",
+    "native_coin_id": "sui"
+  },
+  {
+    "id": "ethereumpow",
+    "chain_identifier": null,
+    "name": "EthereumPoW",
+    "shortname": "",
+    "native_coin_id": "ethereum-pow-iou"
+  },
+  {
+    "id": "migaloo",
+    "chain_identifier": null,
+    "name": "Migaloo",
+    "shortname": "",
+    "native_coin_id": "white-whale"
+  },
+  {
+    "id": "polygon-zkevm",
+    "chain_identifier": 1101,
+    "name": "Polygon zkEVM",
+    "shortname": "",
+    "native_coin_id": "ethereum"
+  },
+  {
+    "id": "telos",
+    "chain_identifier": null,
+    "name": "Telos",
+    "shortname": "",
+    "native_coin_id": "telos"
+  },
+  {
+    "id": "mantle",
+    "chain_identifier": 5000,
+    "name": "Mantle",
+    "shortname": "",
+    "native_coin_id": "mantle"
+  },
+  {
+    "id": "arbitrum-nova",
+    "chain_identifier": 42170,
+    "name": "Arbitrum Nova",
+    "shortname": "",
+    "native_coin_id": "ethereum"
+  },
+  {
+    "id": "archway",
+    "chain_identifier": null,
+    "name": "Archway",
+    "shortname": "",
+    "native_coin_id": "archway"
+  },
+  {
+    "id": "oasis",
+    "chain_identifier": 42262,
+    "name": "Oasis",
+    "shortname": "oasis",
+    "native_coin_id": "oasis-network"
+  },
+  {
+    "id": "fuse",
+    "chain_identifier": 122,
+    "name": "Fuse",
+    "shortname": "",
+    "native_coin_id": "fuse-network-token"
+  },
+  {
+    "id": "algorand",
+    "chain_identifier": null,
+    "name": "Algorand",
+    "shortname": "",
+    "native_coin_id": "algorand"
+  },
+  {
+    "id": "stacks",
+    "chain_identifier": null,
+    "name": "Stacks",
+    "shortname": "",
+    "native_coin_id": "blockstack"
+  },
+  {
+    "id": "tombchain",
+    "chain_identifier": null,
+    "name": "Tombchain",
+    "shortname": "",
+    "native_coin_id": "tomb"
+  },
+  {
+    "id": "callisto",
+    "chain_identifier": null,
+    "name": "Callisto",
+    "shortname": "",
+    "native_coin_id": "callisto"
+  },
+  {
+    "id": "function-x",
+    "chain_identifier": 530,
+    "name": "Function X",
+    "shortname": "",
+    "native_coin_id": "fx-coin"
+  },
+  {
+    "id": "redlight-chain",
+    "chain_identifier": 2611,
+    "name": "Redlight Chain",
+    "shortname": "",
+    "native_coin_id": "redlight-chain"
+  },
+  {
+    "id": "alephium",
+    "chain_identifier": null,
+    "name": "Alephium",
+    "shortname": "",
+    "native_coin_id": "alephium"
+  },
+  {
+    "id": "rootstock",
+    "chain_identifier": 30,
+    "name": "Rootstock RSK",
+    "shortname": "",
+    "native_coin_id": "rootstock"
+  },
+  {
+    "id": "meter",
+    "chain_identifier": 82,
+    "name": "Meter",
+    "shortname": "",
+    "native_coin_id": "meter"
+  },
+  {
+    "id": "okex-chain",
+    "chain_identifier": 66,
+    "name": "OKExChain",
+    "shortname": "OKEx",
+    "native_coin_id": "oec-token"
+  },
+  {
+    "id": "core",
+    "chain_identifier": null,
+    "name": "Core",
+    "shortname": "",
+    "native_coin_id": "coredaoorg"
+  },
+  {
+    "id": "internet-computer",
+    "chain_identifier": null,
+    "name": "Internet Computer",
+    "shortname": "",
+    "native_coin_id": "internet-computer"
+  },
+  {
+    "id": "mode",
+    "chain_identifier": 34443,
+    "name": "Mode",
+    "shortname": "",
+    "native_coin_id": "mode"
+  },
+  {
+    "id": "neon-evm",
+    "chain_identifier": 245022934,
+    "name": "Neon EVM",
+    "shortname": "",
+    "native_coin_id": "neon"
+  },
+  {
+    "id": "aptos",
+    "chain_identifier": null,
+    "name": "Aptos",
+    "shortname": "",
+    "native_coin_id": "aptos"
+  },
+  {
+    "id": "kardiachain",
+    "chain_identifier": null,
+    "name": "KardiaChain",
+    "shortname": "kardiachain",
+    "native_coin_id": "kardiachain"
+  },
+  {
+    "id": "cronos",
+    "chain_identifier": 25,
+    "name": "Cronos",
+    "shortname": "CRO",
+    "native_coin_id": "crypto-com-chain"
+  },
+  {
+    "id": "apex",
+    "chain_identifier": null,
+    "name": "Apex",
+    "shortname": "",
+    "native_coin_id": "omniaverse"
+  },
+  {
+    "id": "meld",
+    "chain_identifier": 333000333,
+    "name": "Meld",
+    "shortname": "",
+    "native_coin_id": "meld-2"
+  },
+  {
+    "id": "ethereum",
+    "chain_identifier": 1,
+    "name": "Ethereum",
+    "shortname": "Ethereum",
+    "native_coin_id": "ethereum"
+  },
+  {
+    "id": "rails-network",
+    "chain_identifier": null,
+    "name": "Rails Network",
+    "shortname": "",
+    "native_coin_id": "steam-exchange"
+  },
+  {
+    "id": "conflux",
+    "chain_identifier": null,
+    "name": "Conflux",
+    "shortname": "conflux",
+    "native_coin_id": "conflux-token"
+  },
+  {
+    "id": "kucoin-community-chain",
+    "chain_identifier": 321,
+    "name": "Kucoin Community Chain",
+    "shortname": "KCC",
+    "native_coin_id": "kucoin-shares"
+  },
+  {
+    "id": "stargaze",
+    "chain_identifier": null,
+    "name": "Stargaze",
+    "shortname": "",
+    "native_coin_id": "stargaze"
+  },
+  {
+    "id": "nxt",
+    "chain_identifier": null,
+    "name": "NXT",
+    "shortname": "",
+    "native_coin_id": "nxt"
+  },
+  {
+    "id": "mdex",
+    "chain_identifier": null,
+    "name": "Mdex",
+    "shortname": "",
+    "native_coin_id": "mdex"
+  },
+  {
+    "id": "klay-token",
+    "chain_identifier": null,
+    "name": "Klaytn",
+    "shortname": "",
+    "native_coin_id": "klay-token"
+  },
+  {
+    "id": "starknet",
+    "chain_identifier": null,
+    "name": "StarkNet",
+    "shortname": "",
+    "native_coin_id": "starknet"
+  },
+  {
+    "id": "humanode",
+    "chain_identifier": null,
+    "name": "Humanode",
+    "shortname": "",
+    "native_coin_id": "wrapped-ehmnd"
+  },
+  {
+    "id": "curio-chain",
+    "chain_identifier": null,
+    "name": "Curio Chain",
+    "shortname": "",
+    "native_coin_id": "curio-governance"
+  },
+  {
+    "id": "kava",
+    "chain_identifier": 2222,
+    "name": "Kava",
+    "shortname": "",
+    "native_coin_id": "kava"
+  },
+  {
+    "id": "zkfair",
+    "chain_identifier": null,
+    "name": "ZKFair",
+    "shortname": "",
+    "native_coin_id": "zkfair"
+  },
+  {
+    "id": "opbnb",
+    "chain_identifier": 204,
+    "name": "opBNB",
+    "shortname": "",
+    "native_coin_id": "binancecoin"
+  },
+  {
+    "id": "quicksilver",
+    "chain_identifier": null,
+    "name": "Quicksilver",
+    "shortname": "",
+    "native_coin_id": "quicksilver"
+  },
+  {
+    "id": "",
+    "chain_identifier": null,
+    "name": "Matrix",
+    "shortname": "",
+    "native_coin_id": "matrix-ai-network"
+  },
+  {
+    "id": "skale",
+    "chain_identifier": null,
+    "name": "Skale",
+    "shortname": "",
+    "native_coin_id": "skale"
+  },
+  {
+    "id": "ShibChain",
+    "chain_identifier": null,
+    "name": "ShibChain",
+    "shortname": "",
+    "native_coin_id": "shibchain"
+  },
+  {
+    "id": "fusion-network",
+    "chain_identifier": null,
+    "name": "Fusion Network",
+    "shortname": "fusion-network",
+    "native_coin_id": "fsn"
+  },
+  {
+    "id": "libre",
+    "chain_identifier": null,
+    "name": "Libre",
+    "shortname": "",
+    "native_coin_id": "libre"
+  },
+  {
+    "id": "gochain",
+    "chain_identifier": null,
+    "name": "GoChain",
+    "shortname": "",
+    "native_coin_id": "gochain"
+  },
+  {
+    "id": "achain",
+    "chain_identifier": null,
+    "name": "Achain",
+    "shortname": "",
+    "native_coin_id": "achain"
+  },
+  {
+    "id": "omni",
+    "chain_identifier": null,
+    "name": "Omni",
+    "shortname": "",
+    "native_coin_id": "omni"
+  },
+  {
+    "id": "enq-enecuum",
+    "chain_identifier": null,
+    "name": "Enecuum",
+    "shortname": "",
+    "native_coin_id": "enq-enecuum"
+  },
+  {
+    "id": "metaverse-etp",
+    "chain_identifier": null,
+    "name": "Metaverse ETP",
+    "shortname": "",
+    "native_coin_id": "metaverse-etp"
+  },
+  {
+    "id": "waves",
+    "chain_identifier": null,
+    "name": "Waves",
+    "shortname": "",
+    "native_coin_id": "waves"
+  },
+  {
+    "id": "ardor",
+    "chain_identifier": null,
+    "name": "Ardor",
+    "shortname": "",
+    "native_coin_id": "ardor"
+  },
+  {
+    "id": "stratis",
+    "chain_identifier": null,
+    "name": "Stratis",
+    "shortname": "",
+    "native_coin_id": "stratis"
+  },
+  {
+    "id": "openledger",
+    "chain_identifier": null,
+    "name": "OpenLedger",
+    "shortname": "",
+    "native_coin_id": "openledger"
+  },
+  {
+    "id": "qtum",
+    "chain_identifier": null,
+    "name": "Qtum",
+    "shortname": "",
+    "native_coin_id": "qtum"
+  },
+  {
+    "id": "bitcoin-cash",
+    "chain_identifier": null,
+    "name": "Simple Ledger Protocol (Bitcoin Cash)",
+    "shortname": "SLP",
+    "native_coin_id": "bitcoin-cash"
+  },
+  {
+    "id": "ontology",
+    "chain_identifier": null,
+    "name": "Ontology",
+    "shortname": "",
+    "native_coin_id": "ontology"
+  },
+  {
+    "id": "aleph-zero",
+    "chain_identifier": null,
+    "name": "Aleph Zero",
+    "shortname": "",
+    "native_coin_id": "aleph-zero"
+  },
+  {
+    "id": "linea",
+    "chain_identifier": 59144,
+    "name": "Linea",
+    "shortname": "",
+    "native_coin_id": "ethereum"
+  },
+  {
+    "id": "drc-20",
+    "chain_identifier": null,
+    "name": "DRC-20",
+    "shortname": "",
+    "native_coin_id": "dogecoin"
+  },
+  {
+    "id": "berachain",
+    "chain_identifier": null,
+    "name": "Berachain",
+    "shortname": "",
+    "native_coin_id": "berachain-bera"
+  },
+  {
+    "id": "zetachain",
+    "chain_identifier": 7000,
+    "name": "ZetaChain",
+    "shortname": "",
+    "native_coin_id": "zetachain"
+  },
+  {
+    "id": "syscoin",
+    "chain_identifier": 57,
+    "name": "Syscoin NEVM",
+    "shortname": "syscoin",
+    "native_coin_id": "syscoin"
+  },
+  {
+    "id": "bitgert",
+    "chain_identifier": null,
+    "name": "Bitgert Chain",
+    "shortname": "Bitgert Brise",
+    "native_coin_id": "bitrise-token"
+  },
+  {
+    "id": "iotex",
+    "chain_identifier": null,
+    "name": "IoTeX",
+    "shortname": "iotex",
+    "native_coin_id": "iotex"
+  },
+  {
+    "id": "casper-network",
+    "chain_identifier": null,
+    "name": "Casper Network",
+    "shortname": "",
+    "native_coin_id": "casper-network"
+  },
+  {
+    "id": "xpla",
+    "chain_identifier": null,
+    "name": "XPLA",
+    "shortname": "",
+    "native_coin_id": "xpla"
+  },
+  {
+    "id": "karura",
+    "chain_identifier": null,
+    "name": "Karura",
+    "shortname": "",
+    "native_coin_id": "karura"
+  },
+  {
+    "id": "the-open-network",
+    "chain_identifier": null,
+    "name": "TON",
+    "shortname": "TON",
+    "native_coin_id": "the-open-network"
+  },
+  {
+    "id": "sx-network",
+    "chain_identifier": null,
+    "name": "SX Network",
+    "shortname": "sxn",
+    "native_coin_id": "sx-network"
+  },
+  {
+    "id": "cube",
+    "chain_identifier": null,
+    "name": "Cube",
+    "shortname": "",
+    "native_coin_id": "cube-network"
+  },
+  {
+    "id": "elastos",
+    "chain_identifier": null,
+    "name": "Elastos Smart Contract Chain",
+    "shortname": "Elastos",
+    "native_coin_id": "elastos"
+  },
+  {
+    "id": "metis-andromeda",
+    "chain_identifier": 1088,
+    "name": "Metis Andromeda",
+    "shortname": "",
+    "native_coin_id": "metis-token"
+  },
+  {
+    "id": "vechain",
+    "chain_identifier": null,
+    "name": "VeChain",
+    "shortname": "",
+    "native_coin_id": "vechain"
+  },
+  {
+    "id": "wanchain",
+    "chain_identifier": null,
+    "name": "Wanchain",
+    "shortname": "",
+    "native_coin_id": "wanchain"
+  },
+  {
+    "id": "filecoin",
+    "chain_identifier": 314,
+    "name": "Filecoin",
+    "shortname": "",
+    "native_coin_id": "filecoin"
+  },
+  {
+    "id": "zilliqa",
+    "chain_identifier": null,
+    "name": "Zilliqa",
+    "shortname": "",
+    "native_coin_id": "zilliqa"
+  },
+  {
+    "id": "genesys-network",
+    "chain_identifier": null,
+    "name": "Genesys Network",
+    "shortname": "",
+    "native_coin_id": "genesys"
+  },
+  {
+    "id": "cosmos",
+    "chain_identifier": null,
+    "name": "Cosmos",
+    "shortname": "",
+    "native_coin_id": "cosmos"
+  },
+  {
+    "id": "hypra-network",
+    "chain_identifier": 622277,
+    "name": "Hypra Network",
+    "shortname": "",
+    "native_coin_id": "hypra"
+  },
+  {
+    "id": "thorchain",
+    "chain_identifier": null,
+    "name": "Thorchain",
+    "shortname": "",
+    "native_coin_id": "thorchain"
+  },
+  {
+    "id": "sge",
+    "chain_identifier": null,
+    "name": "SGE",
+    "shortname": "",
+    "native_coin_id": "six-sigma"
+  },
+  {
+    "id": "canto",
+    "chain_identifier": 7700,
+    "name": "Canto",
+    "shortname": "",
+    "native_coin_id": "canto"
+  },
+  {
+    "id": "binancecoin",
+    "chain_identifier": null,
+    "name": "BNB Beacon Chain",
+    "shortname": "BEP2",
+    "native_coin_id": "binancecoin"
+  },
+  {
+    "id": "stellar",
+    "chain_identifier": null,
+    "name": "Stellar",
+    "shortname": "",
+    "native_coin_id": "stellar"
+  },
+  {
+    "id": "theta",
+    "chain_identifier": 361,
+    "name": "Theta",
+    "shortname": "",
+    "native_coin_id": "theta-token"
+  },
+  {
+    "id": "x1",
+    "chain_identifier": 196,
+    "name": "X1",
+    "shortname": "",
+    "native_coin_id": "okb"
+  },
+  {
+    "id": "radix",
+    "chain_identifier": null,
+    "name": "Radix",
+    "shortname": "",
+    "native_coin_id": "radix"
+  },
+  {
+    "id": "sei-network",
+    "chain_identifier": null,
+    "name": "Sei Network",
+    "shortname": "",
+    "native_coin_id": "sei-network"
+  },
+  {
+    "id": "ronin",
+    "chain_identifier": null,
+    "name": "Ronin",
+    "shortname": "ron",
+    "native_coin_id": "ronin"
+  },
+  {
+    "id": "osmosis",
+    "chain_identifier": null,
+    "name": "Osmosis",
+    "shortname": "Osmo",
+    "native_coin_id": "osmosis"
+  },
+  {
+    "id": "milkomeda-cardano",
+    "chain_identifier": 2001,
+    "name": "Milkomeda (Cardano)",
+    "shortname": "",
+    "native_coin_id": "cardano"
+  },
+  {
+    "id": "akash",
+    "chain_identifier": null,
+    "name": "Akash",
+    "shortname": "",
+    "native_coin_id": "akash-network"
+  },
+  {
+    "id": "xai",
+    "chain_identifier": null,
+    "name": "XAI",
+    "shortname": "",
+    "native_coin_id": "xai-blockchain"
+  },
+  {
+    "id": "noble",
+    "chain_identifier": null,
+    "name": "Noble",
+    "shortname": "",
+    "native_coin_id": "cosmos"
+  },
+  {
+    "id": "near-protocol",
+    "chain_identifier": null,
+    "name": "Near Protocol",
+    "shortname": "near-protocol",
+    "native_coin_id": "near"
+  },
+  {
+    "id": "manta-pacific",
+    "chain_identifier": 169,
+    "name": "Manta Pacific",
+    "shortname": "",
+    "native_coin_id": "weth"
+  },
+  {
+    "id": "merlin-chain",
+    "chain_identifier": 4200,
+    "name": "Merlin Chain",
+    "shortname": "",
+    "native_coin_id": "wrapped-bitcoin"
+  },
+  {
+    "id": "wemix-network",
+    "chain_identifier": 1111,
+    "name": "Wemix Network",
+    "shortname": "",
+    "native_coin_id": "wemix-token"
+  },
+  {
+    "id": "immutable",
+    "chain_identifier": 13371,
+    "name": "Immutable zkEVM",
+    "shortname": "",
+    "native_coin_id": "immutable-x"
+  },
+  {
+    "id": "map-protocol",
+    "chain_identifier": 22776,
+    "name": "Map Protocol",
+    "shortname": "",
+    "native_coin_id": "marcopolo"
+  },
+  {
+    "id": "coinex-smart-chain",
+    "chain_identifier": 52,
+    "name": "CoinEx Smart Chain",
+    "shortname": "CSC",
+    "native_coin_id": "coinex-token"
+  },
+  {
+    "id": "zora-network",
+    "chain_identifier": 7777777,
+    "name": "Zora",
+    "shortname": "",
+    "native_coin_id": "weth"
+  },
+  {
+    "id": "astar-zkevm",
+    "chain_identifier": 3776,
+    "name": "Astar zkEVM",
+    "shortname": "",
+    "native_coin_id": "weth"
+  },
+  {
+    "id": "pulsechain",
+    "chain_identifier": 369,
+    "name": "Pulsechain",
+    "shortname": "",
+    "native_coin_id": "pulsechain"
+  },
+  {
+    "id": "injective",
+    "chain_identifier": null,
+    "name": "Injective",
+    "shortname": "",
+    "native_coin_id": "injective-protocol"
+  },
+  {
+    "id": "flare-network",
+    "chain_identifier": 14,
+    "name": "Flare Network",
+    "shortname": "",
+    "native_coin_id": "flare-networks"
+  },
+  {
+    "id": "chiliz",
+    "chain_identifier": null,
+    "name": "Chiliz",
+    "shortname": "",
+    "native_coin_id": "chiliz"
+  },
+  {
+    "id": "beamprivacy",
+    "chain_identifier": null,
+    "name": "BeamPrivacy",
+    "shortname": "",
+    "native_coin_id": "beam"
+  },
+  {
+    "id": "oasis-sapphire",
+    "chain_identifier": 23294,
+    "name": "Oasis Sapphire",
+    "shortname": "",
+    "native_coin_id": "oasis-network"
+  },
+  {
+    "id": "lukso",
+    "chain_identifier": 42,
+    "name": "Lukso",
+    "shortname": "",
+    "native_coin_id": "lukso-token-2"
+  },
+  {
+    "id": "solana",
+    "chain_identifier": null,
+    "name": "Solana",
+    "shortname": "Solana",
+    "native_coin_id": "solana"
+  },
+  {
+    "id": "blast",
+    "chain_identifier": 81457,
+    "name": "Blast",
+    "shortname": "",
+    "native_coin_id": "blast"
+  },
+  {
+    "id": "xdc-network",
+    "chain_identifier": 50,
+    "name": "XDC Network",
+    "shortname": "xdc xinfin",
+    "native_coin_id": "xdce-crowd-sale"
+  },
+  {
+    "id": "moonbeam",
+    "chain_identifier": 1284,
+    "name": "Moonbeam",
+    "shortname": "",
+    "native_coin_id": "moonbeam"
+  },
+  {
+    "id": "ergo",
+    "chain_identifier": null,
+    "name": "Ergo",
+    "shortname": "",
+    "native_coin_id": "ergo"
+  },
+  {
+    "id": "astar",
+    "chain_identifier": null,
+    "name": "Astar",
+    "shortname": "",
+    "native_coin_id": "astar"
+  },
+  {
+    "id": "hoo-smart-chain",
+    "chain_identifier": 70,
+    "name": "Hoo Smart Chain",
+    "shortname": "",
+    "native_coin_id": "hoo-token"
+  },
+  {
+    "id": "shiden network",
+    "chain_identifier": 8545,
+    "name": "Shiden Network",
+    "shortname": "",
+    "native_coin_id": "shiden"
+  },
+  {
+    "id": "zksync",
+    "chain_identifier": 324,
+    "name": "zkSync",
+    "shortname": "zkSync",
+    "native_coin_id": "ethereum"
+  },
+  {
+    "id": "ordinals",
+    "chain_identifier": null,
+    "name": "Bitcoin",
+    "shortname": "Ordinals",
+    "native_coin_id": "bitcoin"
+  },
+  {
+    "id": "juno",
+    "chain_identifier": null,
+    "name": "Juno",
+    "shortname": "",
+    "native_coin_id": "juno-network"
+  },
+  {
+    "id": "polkadot",
+    "chain_identifier": null,
+    "name": "Polkadot",
+    "shortname": "",
+    "native_coin_id": "polkadot"
+  },
+  {
+    "id": "Bitcichain",
+    "chain_identifier": 1907,
+    "name": "Bitcichain",
+    "shortname": "Bitcichain",
+    "native_coin_id": "bitcicoin"
+  },
+  {
+    "id": "beam",
+    "chain_identifier": 4337,
+    "name": "Beam",
+    "shortname": "",
+    "native_coin_id": "beam"
+  },
+  {
+    "id": "bitcanna",
+    "chain_identifier": null,
+    "name": "BitCanna",
+    "shortname": "",
+    "native_coin_id": "bitcanna"
+  },
+  {
+    "id": "crescent",
+    "chain_identifier": null,
+    "name": "Crescent",
+    "shortname": "",
+    "native_coin_id": "crescent-network"
+  },
+  {
+    "id": "flow",
+    "chain_identifier": null,
+    "name": "Flow",
+    "shortname": "",
+    "native_coin_id": "flow"
+  },
+  {
+    "id": "shimmer_evm",
+    "chain_identifier": 148,
+    "name": "ShimmerEVM",
+    "shortname": "",
+    "native_coin_id": "shimmer"
+  },
+  {
+    "id": "polis-chain",
+    "chain_identifier": 333999,
+    "name": "Polis Chain",
+    "shortname": "",
+    "native_coin_id": "polis"
+  },
+  {
+    "id": "proof-of-memes",
+    "chain_identifier": null,
+    "name": "Proof of Memes",
+    "shortname": "",
+    "native_coin_id": "proof-of-memes-pomchain"
+  },
+  {
+    "id": "mixin-network",
+    "chain_identifier": null,
+    "name": "Mixin Network",
+    "shortname": "",
+    "native_coin_id": "mixin"
+  },
+  {
+    "id": "defichain",
+    "chain_identifier": null,
+    "name": "DeFiChain",
+    "shortname": "",
+    "native_coin_id": "defichain"
+  },
+  {
+    "id": "xdai",
+    "chain_identifier": 100,
+    "name": "Gnosis Chain",
+    "shortname": "",
+    "native_coin_id": "xdai"
+  },
+  {
+    "id": "hedera-hashgraph",
+    "chain_identifier": 295,
+    "name": "Hedera Hashgraph",
+    "shortname": "hashgraph",
+    "native_coin_id": "hedera-hashgraph"
+  },
+  {
+    "id": "boba",
+    "chain_identifier": 288,
+    "name": "Boba Network",
+    "shortname": "",
+    "native_coin_id": "ethereum"
+  },
+  {
+    "id": "furya",
+    "chain_identifier": null,
+    "name": "Furya",
+    "shortname": "",
+    "native_coin_id": "fanfury"
+  },
+  {
+    "id": "lightlink",
+    "chain_identifier": 1890,
+    "name": "LightLink",
+    "shortname": "",
+    "native_coin_id": "ethereum"
+  },
+  {
+    "id": "elrond",
+    "chain_identifier": null,
+    "name": "MultiversX",
+    "shortname": "elrond",
+    "native_coin_id": "elrond-erd-2"
+  },
+  {
+    "id": "celo",
+    "chain_identifier": 42220,
+    "name": "Celo",
+    "shortname": "celo",
+    "native_coin_id": "celo"
+  },
+  {
+    "id": "step-network",
+    "chain_identifier": null,
+    "name": "Step Network",
+    "shortname": "",
+    "native_coin_id": "stepex"
+  },
+  {
+    "id": "eos-evm",
+    "chain_identifier": 17777,
+    "name": "EOS EVM",
+    "shortname": "",
+    "native_coin_id": "eos"
+  },
+  {
+    "id": "ultron",
+    "chain_identifier": 1231,
+    "name": "Ultron",
+    "shortname": "",
+    "native_coin_id": "ultron"
+  },
+  {
+    "id": "tenet",
+    "chain_identifier": 1559,
+    "name": "Tenet",
+    "shortname": "",
+    "native_coin_id": "tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9"
+  },
+  {
+    "id": "comdex",
+    "chain_identifier": null,
+    "name": "COMDEX",
+    "shortname": "",
+    "native_coin_id": "comdex"
+  },
+  {
+    "id": "thundercore",
+    "chain_identifier": 108,
+    "name": "ThunderCore",
+    "shortname": "",
+    "native_coin_id": "thunder-token"
+  },
+  {
+    "id": "arbitrum-one",
+    "chain_identifier": 42161,
+    "name": "Arbitrum One",
+    "shortname": "Arbitrum",
+    "native_coin_id": "ethereum"
+  },
+  {
+    "id": "base",
+    "chain_identifier": 8453,
+    "name": "Base",
+    "shortname": "",
+    "native_coin_id": "ethereum"
+  },
+  {
+    "id": "binance-smart-chain",
+    "chain_identifier": 56,
+    "name": "BNB Smart Chain",
+    "shortname": "BSC",
+    "native_coin_id": "binancecoin"
+  },
+  {
+    "id": "songbird",
+    "chain_identifier": 19,
+    "name": "Songbird",
+    "shortname": "",
+    "native_coin_id": "songbird"
+  },
+  {
+    "id": "celer-network",
+    "chain_identifier": null,
+    "name": "Celer Network",
+    "shortname": "Celer",
+    "native_coin_id": "celer-network"
+  },
+  {
+    "id": "loopring",
+    "chain_identifier": null,
+    "name": "Loopring",
+    "shortname": "",
+    "native_coin_id": "loopring"
+  },
+  {
+    "id": "hydra",
+    "chain_identifier": null,
+    "name": "Hydra",
+    "shortname": "",
+    "native_coin_id": "hydra"
+  },
+  {
+    "id": "kadena",
+    "chain_identifier": null,
+    "name": "Kadena",
+    "shortname": "",
+    "native_coin_id": "kadena"
+  },
+  {
+    "id": "clover",
+    "chain_identifier": null,
+    "name": "Clover",
+    "shortname": "",
+    "native_coin_id": "clover-finance"
+  },
+  {
+    "id": "bifrost-kusama",
+    "chain_identifier": null,
+    "name": "Bifrost Kusama",
+    "shortname": "",
+    "native_coin_id": "bifrost-native-coin"
+  },
+  {
+    "id": "xrp",
+    "chain_identifier": null,
+    "name": "XRP Ledger",
+    "shortname": "xrp",
+    "native_coin_id": "ripple"
+  },
+  {
+    "id": "secret",
+    "chain_identifier": null,
+    "name": "Secret",
+    "shortname": "",
+    "native_coin_id": "secret"
+  },
+  {
+    "id": "ki-chain",
+    "chain_identifier": null,
+    "name": "Ki Chain",
+    "shortname": "",
+    "native_coin_id": "ki"
+  },
+  {
+    "id": "fantom",
+    "chain_identifier": 250,
+    "name": "Fantom",
+    "shortname": "",
+    "native_coin_id": "fantom"
+  },
+  {
+    "id": "avalanche",
+    "chain_identifier": 43114,
+    "name": "Avalanche",
+    "shortname": "AVAX",
+    "native_coin_id": "avalanche-2"
+  },
+  {
+    "id": "optimistic-ethereum",
+    "chain_identifier": 10,
+    "name": "Optimism",
+    "shortname": "Optimism",
+    "native_coin_id": "ethereum"
+  },
+  {
+    "id": "bitrock",
+    "chain_identifier": null,
+    "name": "Bitrock",
+    "shortname": "",
+    "native_coin_id": "bitrock"
+  },
+  {
+    "id": "scroll",
+    "chain_identifier": 534352,
+    "name": "Scroll",
+    "shortname": "",
+    "native_coin_id": "weth"
+  },
+  {
+    "id": "omniflix",
+    "chain_identifier": null,
+    "name": "Omniflix",
+    "shortname": "",
+    "native_coin_id": "omniflix-network"
+  },
+  {
+    "id": "gravity-bridge",
+    "chain_identifier": null,
+    "name": "Gravity Bridge",
+    "shortname": "",
+    "native_coin_id": "graviton"
+  },
+  {
+    "id": "evmos",
+    "chain_identifier": 9001,
+    "name": "Evmos",
+    "shortname": "evmos",
+    "native_coin_id": "evmos"
+  }
+]

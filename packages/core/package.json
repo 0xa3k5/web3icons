@@ -29,11 +29,13 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun run generate-core && tsc",
-    "generate-core": "bun run optimize-svgs && bun run enrich-metadata && bun run generate-core:svgs-module && bun run generate-core:index",
+    "build": "bun run generate-core && tsc && bun run generate-react && bun run lint && bun run format",
+    "lint": "eslint ./src ./scripts --ext .ts",
+    "format": "prettier --write \"**/*.{ts,js,md,json}\"",
+    "generate-core": "bun run optimize-svgs && bun run generate-metadata && bun run generate-core:svgs-module && bun run generate-core:index",
     "generate-core:svgs-module": "bun run ./scripts/generate-svgs-module.ts",
     "optimize-svgs": "bun run ./scripts/optimize-svgs.ts",
-    "enrich-metadata": "bun run ./scripts/enrich-metadata.ts",
+    "generate-metadata": "bun run ./scripts/generate-metadata.ts",
     "generate-react": "bun run generate-react:components && bun run generate-react:index",
     "generate-core:index": "bun run ./scripts/generate-core-index.ts",
     "generate-react:components": "bun run ./scripts/generate-react-components.ts",

@@ -159,9 +159,10 @@ export const generateReactComponent = async (baseName: string) => {
   const variantJSX = hasMonoVariant ? monoJSX : brandedJSX
 
   if (hasMonoVariant && !hasBrandedVariant) {
-    console.log(
-      `❖ no branded variant found for ${baseName}, using mono variant`,
-    )
+    console.log(`❖ mono only: ${baseName}`)
+  }
+  if (!hasMonoVariant && hasBrandedVariant) {
+    console.log(`❖ branded only: ${baseName}`)
   }
 
   const iconComponentContent = scaffold
@@ -171,7 +172,6 @@ export const generateReactComponent = async (baseName: string) => {
     .replace(/{{monoJSX}}/g, monoJSX)
     .replace(/{{displayName}}/g, name)
 
-  console.log(`❖ generated ${name} component`)
   fs.writeFileSync(
     path.join(JSX_OUTPUT_DIR, `${name}.tsx`),
     iconComponentContent,
