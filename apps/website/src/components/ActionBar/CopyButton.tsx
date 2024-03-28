@@ -27,22 +27,20 @@ export default function CopyButton({
 
   const handleCopy = async () => {
     if (selectedIcons.length === 1) {
+      // action bar only appears when selected icons is not empty
+      // so we can assume that there is at least only one icon
       const iconName = selectedIcons[0]!.replace('Icon', '').toLocaleUpperCase()
 
       let hasMonoVariant = false
       let hasBrandedVariant = false
 
-      tokens
-        .find(
-          (token) =>
-            token.symbol.toLocaleLowerCase() === iconName.toLocaleLowerCase(),
-        )
-        ?.variants?.forEach((variant) => {
-          hasMonoVariant = variant.includes('mono')
-          hasBrandedVariant = variant.includes('branded')
-        })
+      const token = tokens.find(
+        (token) =>
+          token.symbol.toLocaleLowerCase() === iconName.toLocaleLowerCase(),
+      )
 
-      console.log(hasBrandedVariant, hasMonoVariant)
+      token?.variants.includes('mono') && (hasMonoVariant = true)
+      token?.variants.includes('branded') && (hasBrandedVariant = true)
 
       try {
         if (
