@@ -337,6 +337,7 @@ import brandedCOV from './optimized-svgs/branded/COV.svg'
 import brandedODDZ from './optimized-svgs/branded/ODDZ.svg'
 import brandedDHT from './optimized-svgs/branded/DHT.svg'
 import brandedSC from './optimized-svgs/branded/SC.svg'
+import brandedJUNGLE4EOS from './optimized-svgs/branded/JUNGLE4EOS.svg'
 import brandedAVA from './optimized-svgs/branded/AVA.svg'
 import brandedSTEP from './optimized-svgs/branded/STEP.svg'
 import brandedGQ from './optimized-svgs/branded/GQ.svg'
@@ -978,6 +979,7 @@ import brandedRIF from './optimized-svgs/branded/RIF.svg'
 import brandedPRY from './optimized-svgs/branded/PRY.svg'
 import brandedSUDO from './optimized-svgs/branded/SUDO.svg'
 import brandedKILT from './optimized-svgs/branded/KILT.svg'
+import brandedGRT from './optimized-svgs/branded/GRT.svg'
 import brandedZKP from './optimized-svgs/branded/ZKP.svg'
 import brandedWAIT from './optimized-svgs/branded/WAIT.svg'
 import brandedTET from './optimized-svgs/branded/TET.svg'
@@ -1536,6 +1538,7 @@ import brandedMTH from './optimized-svgs/branded/MTH.svg'
 import brandedXMR from './optimized-svgs/branded/XMR.svg'
 import brandedDF from './optimized-svgs/branded/DF.svg'
 import brandedKISHU from './optimized-svgs/branded/KISHU.svg'
+import brandedCOSMOSHUB from './optimized-svgs/branded/COSMOSHUB.svg'
 import brandedLQTY from './optimized-svgs/branded/LQTY.svg'
 import brandedVAI from './optimized-svgs/branded/VAI.svg'
 import brandedCTG from './optimized-svgs/branded/CTG.svg'
@@ -1594,6 +1597,7 @@ import brandedTBTC from './optimized-svgs/branded/TBTC.svg'
 import brandedDOMI from './optimized-svgs/branded/DOMI.svg'
 import brandedUPP from './optimized-svgs/branded/UPP.svg'
 import brandedHUSKY from './optimized-svgs/branded/HUSKY.svg'
+import brandedTELOS from './optimized-svgs/branded/TELOS.svg'
 import brandedUQC from './optimized-svgs/branded/UQC.svg'
 import brandedSMARTCREDIT from './optimized-svgs/branded/SMARTCREDIT.svg'
 import brandedASTRAFER from './optimized-svgs/branded/ASTRAFER.svg'
@@ -2060,6 +2064,7 @@ import monoCOV from './optimized-svgs/mono/COV.svg'
 import monoODDZ from './optimized-svgs/mono/ODDZ.svg'
 import monoDHT from './optimized-svgs/mono/DHT.svg'
 import monoSC from './optimized-svgs/mono/SC.svg'
+import monoJUNGLE4EOS from './optimized-svgs/mono/JUNGLE4EOS.svg'
 import monoAVA from './optimized-svgs/mono/AVA.svg'
 import monoSTEP from './optimized-svgs/mono/STEP.svg'
 import monoARIA20 from './optimized-svgs/mono/ARIA20.svg'
@@ -2529,6 +2534,7 @@ import monoAREA from './optimized-svgs/mono/AREA.svg'
 import monoDSRUN from './optimized-svgs/mono/DSRUN.svg'
 import monoVELO from './optimized-svgs/mono/VELO.svg'
 import monoMIN from './optimized-svgs/mono/MIN.svg'
+import monoOSMO from './optimized-svgs/mono/OSMO.svg'
 import monoSTOS from './optimized-svgs/mono/STOS.svg'
 import monoHVH from './optimized-svgs/mono/HVH.svg'
 import monoCHR from './optimized-svgs/mono/CHR.svg'
@@ -2630,6 +2636,7 @@ import monoRIF from './optimized-svgs/mono/RIF.svg'
 import monoPRY from './optimized-svgs/mono/PRY.svg'
 import monoSUDO from './optimized-svgs/mono/SUDO.svg'
 import monoKILT from './optimized-svgs/mono/KILT.svg'
+import monoGRT from './optimized-svgs/mono/GRT.svg'
 import monoZKP from './optimized-svgs/mono/ZKP.svg'
 import monoXRP from './optimized-svgs/mono/XRP.svg'
 import monoWAIT from './optimized-svgs/mono/WAIT.svg'
@@ -3037,7 +3044,6 @@ import monoSTATOM from './optimized-svgs/mono/STATOM.svg'
 import monoFRAX from './optimized-svgs/mono/FRAX.svg'
 import monoAXE from './optimized-svgs/mono/AXE.svg'
 import monoMNR from './optimized-svgs/mono/MNR.svg'
-import monoAITECH from './optimized-svgs/mono/AITECH.svg'
 import monoNEURONI from './optimized-svgs/mono/NEURONI.svg'
 import monoNEST from './optimized-svgs/mono/NEST.svg'
 import monoZAP from './optimized-svgs/mono/ZAP.svg'
@@ -3142,6 +3148,7 @@ import monoFOREX from './optimized-svgs/mono/FOREX.svg'
 import monoMTH from './optimized-svgs/mono/MTH.svg'
 import monoXMR from './optimized-svgs/mono/XMR.svg'
 import monoDF from './optimized-svgs/mono/DF.svg'
+import monoCOSMOSHUB from './optimized-svgs/mono/COSMOSHUB.svg'
 import monoVAI from './optimized-svgs/mono/VAI.svg'
 import monoCTG from './optimized-svgs/mono/CTG.svg'
 import monoBCUBE from './optimized-svgs/mono/BCUBE.svg'
@@ -3189,6 +3196,7 @@ import monoTBTC from './optimized-svgs/mono/TBTC.svg'
 import monoSEILOR from './optimized-svgs/mono/SEILOR.svg'
 import monoDOMI from './optimized-svgs/mono/DOMI.svg'
 import monoUPP from './optimized-svgs/mono/UPP.svg'
+import monoTELOS from './optimized-svgs/mono/TELOS.svg'
 import monoUQC from './optimized-svgs/mono/UQC.svg'
 import monoSMARTCREDIT from './optimized-svgs/mono/SMARTCREDIT.svg'
 import monoANKR from './optimized-svgs/mono/ANKR.svg'
@@ -3684,6 +3692,7 @@ export const svgs: { [key: string]: string } = {
   brandedODDZ,
   brandedDHT,
   brandedSC,
+  brandedJUNGLE4EOS,
   brandedAVA,
   brandedSTEP,
   brandedGQ,
@@ -4325,6 +4334,7 @@ export const svgs: { [key: string]: string } = {
   brandedPRY,
   brandedSUDO,
   brandedKILT,
+  brandedGRT,
   brandedZKP,
   brandedWAIT,
   brandedTET,
@@ -4883,6 +4893,7 @@ export const svgs: { [key: string]: string } = {
   brandedXMR,
   brandedDF,
   brandedKISHU,
+  brandedCOSMOSHUB,
   brandedLQTY,
   brandedVAI,
   brandedCTG,
@@ -4941,6 +4952,7 @@ export const svgs: { [key: string]: string } = {
   brandedDOMI,
   brandedUPP,
   brandedHUSKY,
+  brandedTELOS,
   brandedUQC,
   brandedSMARTCREDIT,
   brandedASTRAFER,
@@ -5407,6 +5419,7 @@ export const svgs: { [key: string]: string } = {
   monoODDZ,
   monoDHT,
   monoSC,
+  monoJUNGLE4EOS,
   monoAVA,
   monoSTEP,
   monoARIA20,
@@ -5876,6 +5889,7 @@ export const svgs: { [key: string]: string } = {
   monoDSRUN,
   monoVELO,
   monoMIN,
+  monoOSMO,
   monoSTOS,
   monoHVH,
   monoCHR,
@@ -5977,6 +5991,7 @@ export const svgs: { [key: string]: string } = {
   monoPRY,
   monoSUDO,
   monoKILT,
+  monoGRT,
   monoZKP,
   monoXRP,
   monoWAIT,
@@ -6384,7 +6399,6 @@ export const svgs: { [key: string]: string } = {
   monoFRAX,
   monoAXE,
   monoMNR,
-  monoAITECH,
   monoNEURONI,
   monoNEST,
   monoZAP,
@@ -6489,6 +6503,7 @@ export const svgs: { [key: string]: string } = {
   monoMTH,
   monoXMR,
   monoDF,
+  monoCOSMOSHUB,
   monoVAI,
   monoCTG,
   monoBCUBE,
@@ -6536,6 +6551,7 @@ export const svgs: { [key: string]: string } = {
   monoSEILOR,
   monoDOMI,
   monoUPP,
+  monoTELOS,
   monoUQC,
   monoSMARTCREDIT,
   monoANKR,
