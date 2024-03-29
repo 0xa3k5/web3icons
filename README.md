@@ -1,3 +1,5 @@
+![Token Icons](https://raw.githubusercontent.com/0xA3K5/token-icons/main/assets/cover.png)
+
 # Token Icons
 
 Token Icons is the most comprehensive and up-to-date source for cryptocurrency token & coin logos as icon format. More than 2,500 icons are ready as optimized SVGs as well as React components.
@@ -6,7 +8,8 @@ The monorepo contains
 
 - [`@token-icons/core`](https://github.com/0xa3k5/token-icons/tree/main/packages/core): npm package that serves optimized svgs as svg files
 - [`@token-icons/react`](https://github.com/0xa3k5/token-icons/tree/main/packages/react): React components for token icons
-- [`website`](https://tokenicons.io): source code for https://tokenicons.io
+- [`apps/website`](https://github.com/0xa3k5/token-icons/tree/main/apps/website): Next.js app for https://tokenicons.io
+- [`figma-plugin`](https://www.figma.com/community/plugin/1170720285035693761/token-icons): Figma plugin for token icons
 
 ## Installation
 

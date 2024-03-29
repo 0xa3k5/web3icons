@@ -44,6 +44,11 @@
     "editorType": [
       "figma"
     ],
+    "networkAccess": {
+      "allowedDomains": [
+        "none"
+      ]
+    },
     "id": "1170720285035693761",
     "name": "Token Icons (SVG)",
     "main": "src/main.ts",
