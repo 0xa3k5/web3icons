@@ -1,6 +1,6 @@
 'use client'
-import { useEffect, useState } from 'react'
 import { ControlBar, IconCard, ActionBar } from '../components'
+import Logo from '../components/Logo'
 import SearchInput from '../components/SearchInput'
 import { useAppContext } from '../hooks'
 
@@ -18,6 +18,10 @@ const links = [
     name: 'figma plugin',
     href: 'https://figma.com/community/plugin/1170720285035693761',
   },
+  {
+    name: 'figma file',
+    href: 'https://www.figma.com/community/file/1355517329090639687/token-icons-community',
+  },
 ]
 
 export default function Home() {
@@ -25,9 +29,9 @@ export default function Home() {
     useAppContext()
 
   return (
-    <main className="container mx-auto flex h-screen flex-col gap-4 px-4 py-4 font-mono sm:px-8 sm:py-16 md:gap-16">
-      <div className="flex w-full flex-col justify-between gap-4 md:flex-row">
-        <h1 className="max-w-40 text-4xl tracking-widest">token icons</h1>
+    <main className="container mx-auto flex h-screen flex-col gap-4 p-4 font-mono sm:px-8 sm:py-16 md:gap-16">
+      <div className="flex w-full flex-col items-start justify-between gap-4 md:flex-row">
+        <Logo />
         <nav className="flex flex-wrap gap-4">
           {links.map((link) => (
             <a
@@ -35,7 +39,7 @@ export default function Home() {
               href={link.href}
               target="_blank"
               rel="noreferrer"
-              className="text-md group flex items-center gap-4 whitespace-nowrap text-white"
+              className="group flex items-center gap-4 whitespace-nowrap text-white"
             >
               <span className="text-white/40 group-hover:text-white/100">
                 {link.name}
@@ -46,6 +50,7 @@ export default function Home() {
         </nav>
       </div>
       <div className="flex max-w-2xl flex-col gap-4">
+        <h1 className="max-w-40 text-4xl tracking-widest">token icons</h1>
         <span className="text-white/40">
           Token Icons is the most comprehensive and up-to-date source for
           cryptocurrency token & coin logos as icon format. More than 2,500
