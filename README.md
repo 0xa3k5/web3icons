@@ -1,4 +1,4 @@
-![Token Icons](https://raw.githubusercontent.com/0xA3K5/token-icons/main/assets/cover.png)
+![Token Icons](https://github.com/0xa3k5/token-icons/blob/main/apps/figma-plugin/src/assets/cover.png)
 
 # Token Icons
 
