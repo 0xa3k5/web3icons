@@ -7,7 +7,7 @@
     "build:react": "turbo run build:react && bun run lint && bun run format",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\""
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error"
   },
   "devDependencies": {
     "@token-icons/eslint-config": "*",

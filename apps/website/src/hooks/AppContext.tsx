@@ -11,8 +11,9 @@ import {
   useEffect,
   useState,
 } from 'react'
-import { ITokenMetadata, tokens } from '@token-icons/core'
+import { tokens } from '@token-icons/core'
 import * as Icons from '@token-icons/react'
+import { ITokenMetadata } from '@token-icons/utils'
 
 export interface AppContextType {
   icons: [

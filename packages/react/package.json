@@ -31,7 +31,7 @@
     "build": "(cd ../utils && bun run build:react) && tsup ./index.ts --format cjs,esm --dts && bun run lint && bun run format",
     "dev": "bun run build -- --watch",
     "lint": "eslint ./src --ext .ts,.tsx",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\""
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error"
   },
   "dependencies": {
     "@token-icons/core": "workspace:*"

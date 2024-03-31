@@ -11,6 +11,13 @@ import {
 } from './scaffolds'
 import { ITokenMetadata } from './types'
 
+/**
+ * Optimize SVG and return as string.
+ *
+ * @param {string} svg - The SVG content to be optimized.
+ * @param {string} name - The name to be used as a prefix for IDs within the SVG.
+ * @returns {string} The optimized SVG data.
+ */
 export const optimizeSvg = (svg: string, name: string) => {
   return optimize(svg, {
     plugins: [
