@@ -28,16 +28,20 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsup ./index.ts --format cjs,esm --dts",
+    "build": "(cd ../utils && bun run build:react) && tsup ./index.ts --format cjs,esm --dts && bun run lint && bun run format",
     "dev": "bun run build -- --watch",
     "lint": "eslint ./src --ext .ts,.tsx",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\""
+  },
+  "dependencies": {
+    "@token-icons/core": "workspace:*"
   },
   "devDependencies": {
     "@svgr/core": "^8.1.0",
     "bun-types": "latest",
     "tsup": "^8.0.2",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "@token-icons/utils": "workspace:*"
   },
   "peerDependencies": {
     "react": "^18.2.0"

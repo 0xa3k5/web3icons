@@ -1,10 +1,12 @@
 import * as path from 'path'
 
-const coreRoot = process.cwd()
+export const utilRoot = process.cwd()
+export const coreRoot = path.resolve(utilRoot, '..', 'core')
+export const reactRoot = path.resolve(utilRoot, '..', 'react')
 
 export const SVG_SOURCE_DIR = path.resolve(coreRoot, 'src', 'raw-svgs')
 export const SVG_OUTPUT_DIR = path.resolve(coreRoot, 'dist', 'optimized-svgs')
-export const JSX_OUTPUT_DIR = path.resolve(coreRoot, '..', 'react', 'src')
+export const JSX_OUTPUT_DIR = path.resolve(reactRoot, 'src')
 export const METADATA_PATH = path.resolve(
   coreRoot,
   'src',

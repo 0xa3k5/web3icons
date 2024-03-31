@@ -1,7 +1,6 @@
 import fs from 'fs'
 import path from 'path'
 import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from '../constants'
-import { normalizeComponentName } from '../ops'
 
 const svgDirectories = {
   branded: fs.readdirSync(path.join(SVG_OUTPUT_DIR, 'branded')),
@@ -16,10 +15,12 @@ const allSvgNames = new Set(
 
 const indexFileContent = Array.from(allSvgNames)
   .map((svgName) => {
-    const componentName = normalizeComponentName(svgName)
-    return `export { default as Icon${componentName} } from "./${componentName}";`
+    const componentName = svgName.replace(/[- ]+/g, '_').toLocaleUpperCase()
+    return `export { Icon${componentName} } from "./${componentName}";`
   })
   .join('\n')
-  .concat("\nexport * from './types';")
+  .concat(
+    "\nexport * from './types';\nexport { TokenIcon } from './TokenIcon';",
+  )
 
 fs.writeFileSync(path.join(JSX_OUTPUT_DIR, 'index.ts'), indexFileContent)

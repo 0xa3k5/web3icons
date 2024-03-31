@@ -4,8 +4,9 @@ import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from '../constants'
 import {
   generateBaseIconComponent,
   generateReactComponent,
+  generateTokenIconComponent,
   generateTypesFile,
-} from '../ops'
+} from '../utils'
 
 if (!fs.existsSync(SVG_OUTPUT_DIR)) {
   fs.mkdirSync(SVG_OUTPUT_DIR)
@@ -21,14 +22,16 @@ generateTypesFile()
 // generate BaseIcon component
 generateBaseIconComponent()
 
+// generate TokenIcon component
+generateTokenIconComponent()
+
 if (
   !fs.existsSync(path.join(SVG_OUTPUT_DIR, 'mono')) ||
   !fs.existsSync(path.join(SVG_OUTPUT_DIR, 'branded'))
 ) {
-  console.info('No optimized SVGs found, optimizing SVGs...')
-  require('child_process').execSync('bun run optimize-svgs')
-  require('child_process').execSync('bun run enrich-metadata')
-  require('child_process').execSync('bun run generate-react:components')
+  console.info('No optimized SVGs found, building @token-icons/core...')
+  require('child_process').execSync('bun run build:core')
+  require('child_process').execSync('bun run build:react')
 }
 
 const svgFiles = {
@@ -37,10 +40,9 @@ const svgFiles = {
 }
 
 if (Object.entries(svgFiles).length === 0) {
-  console.info('No optimized SVGs found, optimizing SVGs...')
-  require('child_process').execSync('bun run optimize-svgs')
-  require('child_process').execSync('bun run enrich-metadata')
-  require('child_process').execSync('bun run generate-react:components')
+  console.info('No optimized SVGs found, building @token-icons/core...')
+  require('child_process').execSync('bun run build:core')
+  require('child_process').execSync('bun run build:react')
 }
 
 // generate react components
@@ -53,4 +55,4 @@ Object.entries(svgFiles).forEach(([_, value]) => {
 })
 
 // generate index file
-require('child_process').execSync('bun run generate-react:index')
+require('child_process').execSync('bun run react:index')

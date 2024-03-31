@@ -1,10 +1,10 @@
-import { SVG_OUTPUT_DIR, SVG_SOURCE_DIR } from '../constants'
-import { optimizeSvg } from '../ops'
+import { coreRoot, SVG_OUTPUT_DIR, SVG_SOURCE_DIR } from '../constants'
+import { optimizeSvg } from '../utils'
 import path from 'path'
 import fs from 'fs'
 
-if (!fs.existsSync(path.resolve(process.cwd(), 'dist'))) {
-  fs.mkdirSync(path.resolve(process.cwd(), 'dist'))
+if (!fs.existsSync(path.resolve(coreRoot, 'dist'))) {
+  fs.mkdirSync(path.resolve(coreRoot, 'dist'))
 }
 
 if (!fs.existsSync(SVG_OUTPUT_DIR)) {
@@ -38,5 +38,5 @@ Object.entries(rawSVGs).forEach(([key, value]) => {
   value.forEach((rawSVG) => {
     optimizeAndOutput(rawSVG, key)
   })
-  console.log(`→ ${key}:`, value.length)
+  console.log(`→ optimized ${key}:`, value.length)
 })

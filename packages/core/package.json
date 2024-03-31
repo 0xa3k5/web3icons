@@ -30,17 +30,13 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun run generate-core && tsc && bun run generate-react && bun run lint && bun run format",
+    "build": "(cd ../utils && bun run build:core) && tsc && bun run lint && bun run format && bun run post-build",
+    "post-build": "bun run src/post-build-fix-paths.ts",
     "lint": "eslint ./src --ext .ts",
-    "format": "prettier --write \"**/*.{ts,js,md,json}\"",
-    "generate-core": "bun run optimize-svgs && bun run generate-metadata && bun run generate-core:svgs-module && bun run generate-core:index",
-    "generate-core:svgs-module": "bun run ./src/scripts/generate-svgs-module.ts",
-    "optimize-svgs": "bun run ./src/scripts/optimize-svgs.ts",
-    "generate-metadata": "bun run ./src/scripts/generate-metadata.ts",
-    "generate-react": "bun run generate-react:components && bun run generate-react:index",
-    "generate-core:index": "bun run ./src/scripts/generate-core-index.ts",
-    "generate-react:components": "bun run ./src/scripts/generate-react-components.ts",
-    "generate-react:index": "bun run ./src/scripts/generate-react-index.ts"
+    "format": "prettier --write \"**/*.{ts,js,md,json}\""
+  },
+  "dependencies": {
+    "@token-icons/utils": "workspace:*"
   },
   "devDependencies": {
     "bun-types": "latest",

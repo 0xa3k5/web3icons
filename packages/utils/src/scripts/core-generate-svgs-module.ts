@@ -20,7 +20,7 @@ variants.forEach((variant) => {
 
   // imports
   svgFiles.forEach((svgFile) => {
-    fileContent += `import ${variant}${svgFile} from './optimized-svgs/${variant}/${svgFile}.svg';\n`
+    fileContent += `import ${variant}${svgFile} from '../dist/optimized-svgs/${variant}/${svgFile}.svg';\n` // this dist path will be fixed in postbuild-fix-paths.js
   })
 
   svgFiles.forEach((svgFile) => {
@@ -32,4 +32,4 @@ svgsObjectContent += '};\n'
 
 fs.writeFileSync(CORE_SVG_MODULE_PATH, (fileContent += svgsObjectContent))
 
-console.log('✓ generated: svgs module at src/svg-module.ts')
+console.log('✓ generated: svgs module')

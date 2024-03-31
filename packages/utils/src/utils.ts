@@ -6,6 +6,7 @@ import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from './constants'
 import {
   componentBaseScaffold,
   componentScaffold,
+  componentTokenIconScaffold,
   componentTypesScaffold,
 } from './scaffolds'
 
@@ -27,33 +28,10 @@ export const optimizeSvg = (svg: string, name: string) => {
   }).data
 }
 
-export const normalizeComponentName = (filename: string): string => {
-  // handle 0x prefix
-  const has0xPrefix = filename.startsWith('0x')
-  const nameWithoutPrefix = has0xPrefix ? filename.slice(2) : filename
-
-  // replace hyphens and spaces with underscores, make all letters lowercase
-  const name = nameWithoutPrefix.replace(/[- ]+/g, '_').toLowerCase()
-
-  // convert to PascalCase
-  const pascalCaseName = toPasCalCase(name)
-
-  return has0xPrefix ? `0x${pascalCaseName}` : pascalCaseName
-}
-
 const toCamelCase = (str: string) => {
   return str.replace(/[-_]+(.)?/g, (match, chr) =>
     chr ? chr.toUpperCase() : '',
   )
-}
-
-const toPasCalCase = (str: string) => {
-  return str
-    .replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) =>
-      index === 0 ? word.toUpperCase() : word.toLowerCase(),
-    )
-    .replace(/\s+/g, '')
-    .replace(/_/g, '')
 }
 
 const injectCurrentColor = (svgRaw: string) => {
@@ -118,15 +96,23 @@ export const generateTypesFile = () => {
 }
 
 export const generateBaseIconComponent = () => {
-  console.log(`❖ generated BaseIcon component`)
   fs.writeFileSync(
     path.join(JSX_OUTPUT_DIR, 'BaseIcon.tsx'),
     componentBaseScaffold,
   )
+  console.log(`❖ generated BaseIcon component`)
+}
+
+export const generateTokenIconComponent = () => {
+  fs.writeFileSync(
+    path.join(JSX_OUTPUT_DIR, 'TokenIcon.tsx'),
+    componentTokenIconScaffold,
+  )
+  console.log(`❖ generated TokenIcon component`)
 }
 
 export const generateReactComponent = async (baseName: string) => {
-  const name = normalizeComponentName(baseName)
+  const name = `${baseName.replace(/[- ]+/g, '_').toLocaleUpperCase()}`
   let brandedSVG = ''
   let monoSVG = ''
   const hasBrandedVariant = fs.existsSync(
