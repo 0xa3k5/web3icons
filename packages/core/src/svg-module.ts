@@ -747,6 +747,7 @@ import brandedBICO from '../dist/optimized-svgs/branded/BICO.svg'
 import brandedRBW from '../dist/optimized-svgs/branded/RBW.svg'
 import brandedBWO from '../dist/optimized-svgs/branded/BWO.svg'
 import brandedBSX from '../dist/optimized-svgs/branded/BSX.svg'
+import brandedPENDLE from '../dist/optimized-svgs/branded/PENDLE.svg'
 import brandedROUTE from '../dist/optimized-svgs/branded/ROUTE.svg'
 import brandedHDX from '../dist/optimized-svgs/branded/HDX.svg'
 import brandedEQUAD from '../dist/optimized-svgs/branded/EQUAD.svg'
@@ -1390,6 +1391,7 @@ import brandedHEZ from '../dist/optimized-svgs/branded/HEZ.svg'
 import brandedAIN from '../dist/optimized-svgs/branded/AIN.svg'
 import brandedVAI from '../dist/optimized-svgs/branded/VAI.svg'
 import brandedVTX from '../dist/optimized-svgs/branded/VTX.svg'
+import brandedUTK from '../dist/optimized-svgs/branded/UTK.svg'
 import brandedUNCX from '../dist/optimized-svgs/branded/UNCX.svg'
 import brandedMVI from '../dist/optimized-svgs/branded/MVI.svg'
 import brandedNRG from '../dist/optimized-svgs/branded/NRG.svg'
@@ -2445,6 +2447,7 @@ import monoEURS from '../dist/optimized-svgs/mono/EURS.svg'
 import monoBGB from '../dist/optimized-svgs/mono/BGB.svg'
 import monoBICO from '../dist/optimized-svgs/mono/BICO.svg'
 import monoBSX from '../dist/optimized-svgs/mono/BSX.svg'
+import monoPENDLE from '../dist/optimized-svgs/mono/PENDLE.svg'
 import monoROUTE from '../dist/optimized-svgs/mono/ROUTE.svg'
 import monoHDX from '../dist/optimized-svgs/mono/HDX.svg'
 import monoEQUAD from '../dist/optimized-svgs/mono/EQUAD.svg'
@@ -3022,6 +3025,7 @@ import monoHEZ from '../dist/optimized-svgs/mono/HEZ.svg'
 import monoAIN from '../dist/optimized-svgs/mono/AIN.svg'
 import monoVAI from '../dist/optimized-svgs/mono/VAI.svg'
 import monoVTX from '../dist/optimized-svgs/mono/VTX.svg'
+import monoUTK from '../dist/optimized-svgs/mono/UTK.svg'
 import monoUNCX from '../dist/optimized-svgs/mono/UNCX.svg'
 import monoMVI from '../dist/optimized-svgs/mono/MVI.svg'
 import monoNRG from '../dist/optimized-svgs/mono/NRG.svg'
@@ -4102,6 +4106,7 @@ export const svgs: { [key: string]: string } = {
   brandedRBW,
   brandedBWO,
   brandedBSX,
+  brandedPENDLE,
   brandedROUTE,
   brandedHDX,
   brandedEQUAD,
@@ -4745,6 +4750,7 @@ export const svgs: { [key: string]: string } = {
   brandedAIN,
   brandedVAI,
   brandedVTX,
+  brandedUTK,
   brandedUNCX,
   brandedMVI,
   brandedNRG,
@@ -5800,6 +5806,7 @@ export const svgs: { [key: string]: string } = {
   monoBGB,
   monoBICO,
   monoBSX,
+  monoPENDLE,
   monoROUTE,
   monoHDX,
   monoEQUAD,
@@ -6377,6 +6384,7 @@ export const svgs: { [key: string]: string } = {
   monoAIN,
   monoVAI,
   monoVTX,
+  monoUTK,
   monoUNCX,
   monoMVI,
   monoNRG,
