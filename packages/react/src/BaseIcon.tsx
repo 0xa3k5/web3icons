@@ -1,12 +1,15 @@
-
-import React, { SVGProps } from 'react';
+import React, { SVGProps } from 'react'
 
 export interface BaseIconProps extends SVGProps<SVGSVGElement> {
-  size?: string | number;
+  size?: string | number
 }
 
-const BaseIcon: React.FC<BaseIconProps> = ({ size = 24, children, ...props }) => {
-  const svgSize = typeof size === 'number' ? `${size}px` : size;
+const BaseIcon: React.FC<BaseIconProps> = ({
+  size = 24,
+  children,
+  ...props
+}) => {
+  const svgSize = typeof size === 'number' ? `${size}px` : size
   return (
     <svg
       width={svgSize}
@@ -18,7 +21,7 @@ const BaseIcon: React.FC<BaseIconProps> = ({ size = 24, children, ...props }) =>
     >
       {children}
     </svg>
-  );
-};
+  )
+}
 
-export default BaseIcon;
+export default BaseIcon
