@@ -14,6 +14,7 @@ import brandedUMA from '../dist/optimized-svgs/branded/UMA.svg'
 import brandedXCH from '../dist/optimized-svgs/branded/XCH.svg'
 import brandedSI from '../dist/optimized-svgs/branded/SI.svg'
 import brandedSDT from '../dist/optimized-svgs/branded/SDT.svg'
+import brandedATR from '../dist/optimized-svgs/branded/ATR.svg'
 import brandedLITH from '../dist/optimized-svgs/branded/LITH.svg'
 import brandedBABYDOGE from '../dist/optimized-svgs/branded/BABYDOGE.svg'
 import brandedMOOV from '../dist/optimized-svgs/branded/MOOV.svg'
@@ -1784,6 +1785,7 @@ import monoUMA from '../dist/optimized-svgs/mono/UMA.svg'
 import monoXCH from '../dist/optimized-svgs/mono/XCH.svg'
 import monoSI from '../dist/optimized-svgs/mono/SI.svg'
 import monoSDT from '../dist/optimized-svgs/mono/SDT.svg'
+import monoATR from '../dist/optimized-svgs/mono/ATR.svg'
 import monoVENT from '../dist/optimized-svgs/mono/VENT.svg'
 import monoLITH from '../dist/optimized-svgs/mono/LITH.svg'
 import monoMOOV from '../dist/optimized-svgs/mono/MOOV.svg'
@@ -3376,6 +3378,7 @@ export const svgs: { [key: string]: string } = {
   brandedXCH,
   brandedSI,
   brandedSDT,
+  brandedATR,
   brandedLITH,
   brandedBABYDOGE,
   brandedMOOV,
@@ -5146,6 +5149,7 @@ export const svgs: { [key: string]: string } = {
   monoXCH,
   monoSI,
   monoSDT,
+  monoATR,
   monoVENT,
   monoLITH,
   monoMOOV,
