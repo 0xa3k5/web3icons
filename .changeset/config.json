@@ -3,8 +3,8 @@
   "changelog": "@changesets/cli/changelog",
   "commit": false,
   "fixed": [],
-  "linked": [],
-  "access": "restricted",
+  "linked": [["@token-icons/core", "@token-icons/react"]],
+  "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
   "ignore": []
