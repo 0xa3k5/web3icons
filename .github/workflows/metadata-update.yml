@@ -5,10 +5,10 @@ on:
     branches: 
       - main
     paths:
-      - 'packages/core/raw-svgs/**'
+      - 'packages/core/src/raw-svgs/**'
   pull_request:
     paths:
-      - 'packages/core/raw-svgs/**'
+      - 'packages/core/src/raw-svgs/**'
 
 jobs:
   update-and-rebuild:
