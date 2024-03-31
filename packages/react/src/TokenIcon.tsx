@@ -1,30 +1,37 @@
 import React from 'react'
 import { tokens } from '@token-icons/core'
 import * as IconComponents from './'
+import { TokenIconProps } from './'
+import { forwardRef } from 'react'
 
 type IconComponentNames = keyof typeof IconComponents
 
-export const TokenIcon: React.FC<IconComponents.TokenIconProps> = ({
-  symbol,
-  address,
-  chain,
-  size,
-  className,
-  variant = 'mono',
-}) => {
-  const iconName = resolveIconName(symbol, address, chain)
+type IconComponentType = React.ForwardRefExoticComponent<
+  React.PropsWithoutRef<IconComponents.IconComponentProps> &
+    React.RefAttributes<SVGSVGElement>
+>
 
-  const IconComponent =
-    iconName in IconComponents
-      ? IconComponents[iconName as IconComponentNames]
-      : null
+export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
+  ({ symbol, address, chain, size, className, variant = 'mono' }, ref) => {
+    const iconName = resolveIconName(symbol, address, chain)
 
-  if (!IconComponent) {
-    return null
-  }
+    const IconComponent =
+      (IconComponents[iconName] as IconComponentType) || null
 
-  return <IconComponent size={size} className={className} variant={variant} />
-}
+    if (!IconComponent) {
+      return null
+    }
+
+    return (
+      <IconComponent
+        size={size}
+        className={className}
+        variant={variant}
+        ref={ref}
+      />
+    )
+  },
+)
 
 function normalizeIconName(iconName: string) {
   return iconName.replace(/[- ]+/g, '_').toLocaleUpperCase()

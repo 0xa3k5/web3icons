@@ -1,4 +1,4 @@
-![Token Icons](https://github.com/0xa3k5/token-icons/blob/main/apps/figma-plugin/src/assets/cover.png)
+![Token Icons](https://raw.githubusercontent.com/0xa3k5/token-icons/main/apps/figma-plugin/src/assets/cover.png)
 
 # Token Icons
 
@@ -9,46 +9,135 @@ The monorepo contains
 - [`@token-icons/core`](https://github.com/0xa3k5/token-icons/tree/main/packages/core): npm package that serves optimized svgs as svg files
 - [`@token-icons/react`](https://github.com/0xa3k5/token-icons/tree/main/packages/react): React components for token icons
 - [`apps/website`](https://github.com/0xa3k5/token-icons/tree/main/apps/website): Next.js app for https://tokenicons.io
-- [`figma-plugin`](https://www.figma.com/community/plugin/1170720285035693761/token-icons): Figma plugin for token icons
+- [`figma-plugin`](https://github.com/0xa3k5/token-icons/tree/main/apps/figma-plugin): Figma plugin for token icons
 
 ## Installation
 
 To use Token Icons in your project, you can install the necessary packages from npm:
 
 ```
-npm install @token-icons/core @token-icons/react
-```
 
-```
+npm i @token-icons/core @token-icons/react
+# or
 yarn add @token-icons/core @token-icons/react
-```
+# or
+#bun i @token-icons/core @token-icons/react
 
-```
-bun install @token-icons/core @token-icons/react
 ```
 
 This will install the `@token-icons/core` package, which serves optimized SVGs as SVG files, and the `@token-icons/react` package, which provides React components for token icons.
 
+> You can install either of the packages based on your project's needs.
+
 ## Usage
 
-## Using React Components from `@token-icons/react`
+### Using Individual React Components from `@token-icons/react`
 
-All the icons from the React library is prefixed with "Icon". And named with the token tickers.
+All the icons from the React library is prefixed with "Icon". And named with the token tickers as uppercase.
 
 ```
-Bitcoin: IconBtc
-Ethereum: IconEth
+Bitcoin: IconBTC
+Ethereum: IconETH
+The Graph: IconGRT
 ```
 
-```js
-import React from 'react'
+```jsx
 import { IconBtc } from '@token-icons/react'
 
 const App = () => {
   return (
     <div>
       <h1>Bitcoin Logo</h1>
-      <IconBtc size={64} variant="branded" />
+      <IconBtc size={64} variant="branded" className="my-custom-class" />
+    </div>
+  )
+}
+
+export default App
+```
+
+### Using `<TokenIcon />` from `@token-icons/react`
+
+`<TokenIcon />` is designed for dapp developers and accepts different props for use cases.
+
+#### Props
+
+- `chain?`: refers to Coin Gecko's asset platform fields for values
+- `address?`: contract address of the token/coin.
+- `symbol?`: must be uppercase e.g. "ETH", "GRT", "BTC"
+- `variant`: can be "mono" or "branded"
+
+The TokenIcon's interface is:
+
+```js
+type IconComponentType = React.ForwardRefExoticComponent<React.PropsWithoutRef<IconComponents.IconComponentProps> & React.RefAttributes<SVGSVGElement>>
+
+interface IconComponentProps {
+	variant: 'mono' | 'branded'
+	size?: number | string
+	color?: string
+	className?: string
+}
+
+type TokenIconProps = IconComponentProps & (
+	| { symbol: string; address?: never; chain?: never }
+	| { symbol?: never; address: string; chain: string }
+)
+```
+
+this means, you can use this component in two different ways:
+
+#### Using Symbols:
+
+You can pass ticker or symbol of the desired icon. refer to [metadata](https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/tokens.json) for full list of symbols.
+
+```jsx
+import { TokenIcon } from '@token-icons/react'
+
+const App = () => {
+  const symbols = ['ETH', 'GRT', 'BTC']
+  const variant = 'mono' // can be "mono" or "branded"
+  const size = 48 // can be number or string
+
+  return (
+    <div>
+      {symbols.map((s) => (
+        <TokenIcon
+          key={s}
+          symbol={s}
+          size={size}
+          variant={variant}
+          className="my-custom-class"
+        />
+      ))}
+    </div>
+  )
+}
+
+export default App
+```
+
+#### Chain Specific
+
+You can pass in **both** chain and an address to render a specific token icon. refer to [metadata](https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/tokens.json) for full list of symbols, addresses and chains.
+
+```jsx
+import { TokenIcon } from '@token-icons/react'
+
+const App = () => {
+  const variant = 'mono' // can be "mono" or "branded"
+  const size = 48 // can be number or string
+
+  return (
+    <div>
+      {/* this would render GRT token icon, found via the contract address on the given chain */}
+      <TokenIcon
+        chain="ethereum"
+        address="0xc944e90c64b2c07662a292be6244bdf05cda44a7"
+        size={size}
+        variant={variant}
+        className="my-custom-class"
+      />
     </div>
   )
 }
@@ -76,6 +165,7 @@ const svgModule = await import(
 )
 
 const response = await fetch(svgModule.default.src)
+
 const svgContent = await response.text()
 
 console.log(svgContent)

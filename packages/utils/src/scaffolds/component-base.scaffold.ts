@@ -1,9 +1,6 @@
 export const componentBaseScaffold = `
-import React, { SVGProps } from 'react';
-
-export interface BaseIconProps extends SVGProps<SVGSVGElement> {
-  size?: string | number;
-}
+import React from 'react';
+import { BaseIconProps } from './types';
 
 const BaseIcon: React.FC<BaseIconProps> = ({ size = 24, children, ...props }) => {
   const svgSize = typeof size === 'number' ? \`\${size}px\` : size;

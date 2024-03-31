@@ -1,8 +1,5 @@
-import React, { SVGProps } from 'react'
-
-export interface BaseIconProps extends SVGProps<SVGSVGElement> {
-  size?: string | number
-}
+import React from 'react'
+import { BaseIconProps } from './types'
 
 const BaseIcon: React.FC<BaseIconProps> = ({
   size = 24,
