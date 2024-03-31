@@ -1,15 +1,47 @@
-import { SVG_SOURCE_DIR } from '../constants'
 import fs from 'fs'
 import { execSync } from 'child_process'
 import * as path from 'path'
 import getCoinByID from './gecko/get-coin-by-id'
-import { appendToMetadataJson } from '../utils'
+import { ITokenMetadata } from '../types'
 
 function getNewSVGFiles(): string[] {
-  const output = execSync(
-    `git diff --name-only HEAD HEAD~1 ${SVG_SOURCE_DIR}`,
-  ).toString()
-  return output.split('\n').filter((file) => file.endsWith('.svg'))
+  try {
+    // Get a list of all .svg files that were changed between the last commit and the one before
+    const output = execSync(`git diff --name-only HEAD~1 HEAD`)
+      .toString()
+      .trim()
+
+    // Filter the output to only include .svg files
+    const svgFiles = output.split('\n').filter((file) => file.endsWith('.svg'))
+
+    console.log('New SVG files found:', svgFiles)
+
+    return svgFiles
+  } catch (error) {
+    console.error('Error fetching new SVG files:', error)
+    return []
+  }
+}
+
+const appendToMetadataJson = (coin: ITokenMetadata) => {
+  const jsonpath = path.resolve(
+    process.cwd(),
+    'packages/core/src/metadata/tokens.json',
+  )
+  let fileContent = fs.existsSync(jsonpath)
+    ? fs.readFileSync(jsonpath, 'utf-8')
+    : '[]'
+
+  // remove the "]" and the eol break
+  if (fileContent.length > 2) {
+    fileContent = fileContent.slice(0, -2)
+  }
+
+  // append the new coin data
+  const separator = fileContent.length > 2 ? ',' : ''
+  fileContent += `${separator}\n${JSON.stringify(coin, null, 2)}]`
+
+  fs.writeFileSync(jsonpath, fileContent)
 }
 
 async function main() {
@@ -17,7 +49,7 @@ async function main() {
     fs.readFileSync(path.join(__dirname, './gecko/gecko-coins.json'), 'utf8'),
   )
   const newSvgFiles = getNewSVGFiles()
-
+  console.log('New SVG files:', newSvgFiles)
   for (const file of newSvgFiles) {
     const symbol = path.basename(file, '.svg').toLowerCase()
     const foundCoin = geckoCoins.find(
@@ -26,16 +58,26 @@ async function main() {
     )
 
     if (foundCoin) {
+      const tokenIcon: ITokenMetadata = {
+        id: foundCoin.id,
+        symbol: foundCoin.symbol,
+        name: foundCoin.name,
+        variants: [''],
+        marketCapRank: 0,
+        addresses: {},
+      }
+
       if (file.includes('/branded/')) {
-        foundCoin.variants.push('branded')
+        tokenIcon.variants.push('branded')
       }
       if (file.includes('/mono/')) {
-        foundCoin.variants.push('mono')
+        tokenIcon.variants.push('mono')
       }
-      const data = await getCoinByID(foundCoin.id)
-      foundCoin.addresses = data.platforms
-      foundCoin.marketCapRank = data.market_cap_rank
-      appendToMetadataJson(foundCoin)
+      const data = await getCoinByID(tokenIcon.id)
+      tokenIcon.addresses = data.platforms
+      tokenIcon.marketCapRank = data.market_cap_rank
+      console.log('added:', tokenIcon)
+      appendToMetadataJson(tokenIcon)
     }
   }
 }
