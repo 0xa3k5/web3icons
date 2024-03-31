@@ -1390,7 +1390,6 @@ import brandedHEZ from '../dist/optimized-svgs/branded/HEZ.svg'
 import brandedAIN from '../dist/optimized-svgs/branded/AIN.svg'
 import brandedVAI from '../dist/optimized-svgs/branded/VAI.svg'
 import brandedVTX from '../dist/optimized-svgs/branded/VTX.svg'
-import brandedUTK from '../dist/optimized-svgs/branded/UTK.svg'
 import brandedUNCX from '../dist/optimized-svgs/branded/UNCX.svg'
 import brandedMVI from '../dist/optimized-svgs/branded/MVI.svg'
 import brandedNRG from '../dist/optimized-svgs/branded/NRG.svg'
@@ -3023,7 +3022,6 @@ import monoHEZ from '../dist/optimized-svgs/mono/HEZ.svg'
 import monoAIN from '../dist/optimized-svgs/mono/AIN.svg'
 import monoVAI from '../dist/optimized-svgs/mono/VAI.svg'
 import monoVTX from '../dist/optimized-svgs/mono/VTX.svg'
-import monoUTK from '../dist/optimized-svgs/mono/UTK.svg'
 import monoUNCX from '../dist/optimized-svgs/mono/UNCX.svg'
 import monoMVI from '../dist/optimized-svgs/mono/MVI.svg'
 import monoNRG from '../dist/optimized-svgs/mono/NRG.svg'
@@ -4747,7 +4745,6 @@ export const svgs: { [key: string]: string } = {
   brandedAIN,
   brandedVAI,
   brandedVTX,
-  brandedUTK,
   brandedUNCX,
   brandedMVI,
   brandedNRG,
@@ -6380,7 +6377,6 @@ export const svgs: { [key: string]: string } = {
   monoAIN,
   monoVAI,
   monoVTX,
-  monoUTK,
   monoUNCX,
   monoMVI,
   monoNRG,
