@@ -46,7 +46,11 @@ jobs:
       - name: Create changeset
         run: |
           if [ -n "$newIcons" ]; then
-            echo "{$newIcons} added." > .changeset/$(date +%s).md
+            echo "---
+            'core': minor
+            'react': minor
+            ---
+            Added icons: $newIcons" > .changeset/$(date +%s).md
           fi
 
       - name: Commit changes
@@ -66,6 +70,9 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v1
+        
       - name: Checkout repository
         uses: actions/checkout@v2
       
