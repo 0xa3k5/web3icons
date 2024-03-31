@@ -46,12 +46,16 @@ jobs:
       - name: Create changeset
         run: |
           if [ -n "$newIcons" ]; then
-            echo "---
-            'core': minor
-            'react': minor
+            echo "
+            ---
+            '@token-icons/core': minor
+            '@token-icons/react': minor
             ---
             Added icons: $newIcons" > .changeset/$(date +%s).md
           fi
+
+      - name: Bump versions
+        run: bun changeset version
 
       - name: Commit changes
         run: |
