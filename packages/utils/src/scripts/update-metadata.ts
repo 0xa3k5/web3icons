@@ -1,47 +1,48 @@
 import fs from 'fs'
 import { execSync } from 'child_process'
-import * as path from 'path'
-import getCoinByID from './gecko/get-coin-by-id'
+import path from 'path'
+import prettier from 'prettier'
 import { ITokenMetadata } from '../types'
+import getCoinByID from './gecko/get-coin-by-id'
 
 function getNewSVGFiles(): string[] {
   try {
-    // Get a list of all .svg files that were changed between the last commit and the one before
     const output = execSync(`git diff --name-only HEAD~1 HEAD`)
       .toString()
       .trim()
-
-    // Filter the output to only include .svg files
-    const svgFiles = output.split('\n').filter((file) => file.endsWith('.svg'))
-
-    console.log('New SVG files found:', svgFiles)
-
-    return svgFiles
+    return output.split('\n').filter((file) => file.endsWith('.svg'))
   } catch (error) {
     console.error('Error fetching new SVG files:', error)
     return []
   }
 }
 
-const appendToMetadataJson = (coin: ITokenMetadata) => {
+const appendToMetadataJson = async (coin: ITokenMetadata) => {
   const jsonpath = path.resolve(
     process.cwd(),
     'packages/core/src/metadata/tokens.json',
   )
-  let fileContent = fs.existsSync(jsonpath)
-    ? fs.readFileSync(jsonpath, 'utf-8')
-    : '[]'
 
-  // remove the "]" and the eol break
-  if (fileContent.length > 2) {
-    fileContent = fileContent.slice(0, -2)
+  let existingMetadata: ITokenMetadata[] = fs.existsSync(jsonpath)
+    ? JSON.parse(fs.readFileSync(jsonpath, 'utf-8'))
+    : []
+
+  const existingCoinIndex = existingMetadata.findIndex((c) => c.id === coin.id)
+
+  if (existingCoinIndex > -1) {
+    coin.variants.forEach((variant) => {
+      if (!existingMetadata[existingCoinIndex]?.variants.includes(variant)) {
+        existingMetadata[existingCoinIndex]?.variants.push(variant)
+      }
+    })
+  } else {
+    existingMetadata.push(coin)
   }
 
-  // append the new coin data
-  const separator = fileContent.length > 2 ? ',' : ''
-  fileContent += `${separator}\n${JSON.stringify(coin, null, 2)}]`
-
-  fs.writeFileSync(jsonpath, fileContent)
+  const formatted = await prettier.format(JSON.stringify(existingMetadata), {
+    parser: 'json',
+  })
+  fs.writeFileSync(jsonpath, formatted)
 }
 
 async function main() {
@@ -49,12 +50,11 @@ async function main() {
     fs.readFileSync(path.join(__dirname, './gecko/gecko-coins.json'), 'utf8'),
   )
   const newSvgFiles = getNewSVGFiles()
-  console.log('New SVG files:', newSvgFiles)
+
   for (const file of newSvgFiles) {
-    const symbol = path.basename(file, '.svg').toLowerCase()
+    const symbol = path.basename(file, '.svg').toUpperCase()
     const foundCoin = geckoCoins.find(
-      (coin: { symbol: string }) =>
-        coin.symbol.toLocaleLowerCase() === symbol.toLocaleLowerCase(),
+      (coin: any) => coin.symbol.toUpperCase() === symbol,
     )
 
     if (foundCoin) {
@@ -62,22 +62,16 @@ async function main() {
         id: foundCoin.id,
         symbol: foundCoin.symbol,
         name: foundCoin.name,
-        variants: [''],
-        marketCapRank: 0,
-        addresses: {},
+        variants: file.includes('/branded/') ? ['branded'] : ['mono'],
+        marketCapRank: 0, // This will be fetched below
+        addresses: {}, // This will be fetched below
       }
 
-      if (file.includes('/branded/')) {
-        tokenIcon.variants.push('branded')
-      }
-      if (file.includes('/mono/')) {
-        tokenIcon.variants.push('mono')
-      }
-      const data = await getCoinByID(tokenIcon.id)
+      const data = await getCoinByID(foundCoin.id)
       tokenIcon.addresses = data.platforms
       tokenIcon.marketCapRank = data.market_cap_rank
-      console.log('added:', tokenIcon)
-      appendToMetadataJson(tokenIcon)
+
+      await appendToMetadataJson(tokenIcon)
     }
   }
 }
