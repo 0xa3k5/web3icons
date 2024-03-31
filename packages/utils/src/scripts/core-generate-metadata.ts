@@ -1,8 +1,9 @@
 import fs from 'fs'
 import path from 'path'
 import { SVG_SOURCE_DIR, METADATA_PATH } from '../constants'
-import getITokenMetadataByID from './gecko/get-coin-by-id'
+import getCoinByID from './gecko/get-coin-by-id'
 import { ITokenMetadata } from '../types'
+import { appendToMetadataJson } from '../utils'
 
 const PATH_COINS = path.join(__dirname, './gecko/gecko-coins.json')
 
@@ -54,23 +55,6 @@ if (fs.existsSync(METADATA_PATH)) {
   processedIds = new Set(coinsData.map((coin) => coin.id))
 }
 
-const appendToJSONFile = (coin: ITokenMetadata) => {
-  let fileContent = fs.existsSync(METADATA_PATH)
-    ? fs.readFileSync(METADATA_PATH, 'utf-8')
-    : '[]'
-
-  // remove the "]" at the end
-  if (fileContent.length > 2) {
-    fileContent = fileContent.slice(0, -1)
-  }
-
-  // append the new coin data
-  const separator = fileContent.length > 2 ? ',' : ''
-  fileContent += `${separator}\n${JSON.stringify(coin, null, 2)}]`
-
-  fs.writeFileSync(METADATA_PATH, fileContent)
-}
-
 const coins = populateWithVariants(processedIds)
 
 for (const coin of coins) {
@@ -79,10 +63,10 @@ for (const coin of coins) {
     continue
   }
   try {
-    const data = await getITokenMetadataByID(coin.id)
+    const data = await getCoinByID(coin.id)
     coin.addresses = data.platforms
     coin.marketCapRank = data.market_cap_rank
-    appendToJSONFile(coin)
+    appendToMetadataJson(coin)
     console.log(`✓ ${coin.id}`)
   } catch (error) {
     console.error(`Error enriching metadata for coin: ${coin.id}`, error)

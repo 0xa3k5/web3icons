@@ -3,6 +3,8 @@
   "private": false,
   "scripts": {
     "build": "turbo build",
+    "build:core": "turbo run build:core && bun run lint && bun run format",
+    "build:react": "turbo run build:react && bun run lint && bun run format",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\""

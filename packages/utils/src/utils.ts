@@ -2,13 +2,14 @@ import { optimize } from 'svgo'
 import fs from 'fs'
 import path from 'path'
 import * as cheerio from 'cheerio'
-import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from './constants'
+import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR, METADATA_PATH } from './constants'
 import {
   componentBaseScaffold,
   componentScaffold,
   componentTokenIconScaffold,
   componentTypesScaffold,
 } from './scaffolds'
+import { ITokenMetadata } from './types'
 
 export const optimizeSvg = (svg: string, name: string) => {
   return optimize(svg, {
@@ -86,6 +87,23 @@ const readyForJSX = (svgRaw: string) => {
     })
   })
   return $('svg').html() || ''
+}
+
+export const appendToMetadataJson = (coin: ITokenMetadata) => {
+  let fileContent = fs.existsSync(METADATA_PATH)
+    ? fs.readFileSync(METADATA_PATH, 'utf-8')
+    : '[]'
+
+  // remove the "]" at the end
+  if (fileContent.length > 2) {
+    fileContent = fileContent.slice(0, -1)
+  }
+
+  // append the new coin data
+  const separator = fileContent.length > 2 ? ',' : ''
+  fileContent += `${separator}\n${JSON.stringify(coin, null, 2)}]`
+
+  fs.writeFileSync(METADATA_PATH, fileContent)
 }
 
 export const generateTypesFile = () => {
