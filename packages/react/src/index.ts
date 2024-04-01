@@ -1,4 +1,4 @@
 export * from './types'
-export * from './BaseIcon'
-export * from './TokenIcon'
+export { BaseIcon } from './BaseIcon'
+export { TokenIcon } from './TokenIcon'
 export * from './icons'

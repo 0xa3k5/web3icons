@@ -1,5 +1,16 @@
 # @token-icons/react
 
+## 1.4.0
+
+### Minor Changes
+
+- Added icons: UTK,UTK,
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/core@1.4.0
+
 ## 1.3.0
 
 ### Minor Changes

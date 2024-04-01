@@ -1,7 +1,7 @@
 import React from 'react'
 import { BaseIconProps } from './types'
 
-const BaseIcon: React.FC<BaseIconProps> = ({
+export const BaseIcon: React.FC<BaseIconProps> = ({
   size = 24,
   children,
   ...props
@@ -20,5 +20,3 @@ const BaseIcon: React.FC<BaseIconProps> = ({
     </svg>
   )
 }
-
-export default BaseIcon
