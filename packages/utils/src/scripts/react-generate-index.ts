@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from '../constants'
+import { JSX_OUTPUT_DIR, reactRoot, SVG_OUTPUT_DIR } from '../constants'
 
 const svgDirectories = {
   branded: fs.readdirSync(path.join(SVG_OUTPUT_DIR, 'branded')),
@@ -19,8 +19,9 @@ const indexFileContent = Array.from(allSvgNames)
     return `export { Icon${componentName} } from "./${componentName}";`
   })
   .join('\n')
-  .concat(
-    "\nexport * from './types';\nexport { TokenIcon } from './TokenIcon';",
-  )
 
 fs.writeFileSync(path.join(JSX_OUTPUT_DIR, 'index.ts'), indexFileContent)
+fs.writeFileSync(
+  path.join(reactRoot, 'src', 'index.ts'),
+  `export * from './types';\nexport { BaseIcon } from './BaseIcon';\nexport { TokenIcon } from './TokenIcon';\nexport * from './icons';`,
+)

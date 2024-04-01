@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR } from '../constants'
+import { JSX_OUTPUT_DIR, reactRoot, SVG_OUTPUT_DIR } from '../constants'
 import {
   generateBaseIconComponent,
   generateReactComponent,
@@ -10,6 +10,10 @@ import {
 
 if (!fs.existsSync(SVG_OUTPUT_DIR)) {
   fs.mkdirSync(SVG_OUTPUT_DIR)
+}
+
+if (!fs.existsSync(path.join(reactRoot, 'src'))) {
+  fs.mkdirSync(path.join(reactRoot, 'src'))
 }
 
 if (!fs.existsSync(JSX_OUTPUT_DIR)) {

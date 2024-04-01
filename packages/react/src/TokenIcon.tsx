@@ -1,14 +1,13 @@
 import React from 'react'
 import { tokens } from '@token-icons/core'
-import * as IconComponents from './'
-import { TokenIconProps } from './'
+import * as IconComponents from './icons'
+import { IconComponentProps, TokenIconProps } from './types'
 import { forwardRef } from 'react'
 
 type IconComponentNames = keyof typeof IconComponents
 
 type IconComponentType = React.ForwardRefExoticComponent<
-  React.PropsWithoutRef<IconComponents.IconComponentProps> &
-    React.RefAttributes<SVGSVGElement>
+  React.PropsWithoutRef<IconComponentProps> & React.RefAttributes<SVGSVGElement>
 >
 
 export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(

@@ -2,7 +2,7 @@ export const componentBaseScaffold = `
 import React from 'react';
 import { BaseIconProps } from './types';
 
-const BaseIcon: React.FC<BaseIconProps> = ({ size = 24, children, ...props }) => {
+export const BaseIcon: React.FC<BaseIconProps> = ({ size = 24, children, ...props }) => {
   const svgSize = typeof size === 'number' ? \`\${size}px\` : size;
   return (
     <svg
@@ -16,6 +16,4 @@ const BaseIcon: React.FC<BaseIconProps> = ({ size = 24, children, ...props }) =>
       {children}
     </svg>
   );
-};
-
-export default BaseIcon;`
+};`

@@ -2,7 +2,12 @@ import { optimize } from 'svgo'
 import fs from 'fs'
 import path from 'path'
 import * as cheerio from 'cheerio'
-import { JSX_OUTPUT_DIR, SVG_OUTPUT_DIR, METADATA_PATH } from './constants'
+import {
+  JSX_OUTPUT_DIR,
+  SVG_OUTPUT_DIR,
+  METADATA_PATH,
+  reactRoot,
+} from './constants'
 import {
   componentBaseScaffold,
   componentScaffold,
@@ -115,14 +120,14 @@ export const appendToMetadataJson = (coin: ITokenMetadata) => {
 
 export const generateTypesFile = () => {
   fs.writeFileSync(
-    path.join(JSX_OUTPUT_DIR, 'types.ts'),
+    path.join(reactRoot, 'src', 'types.ts'),
     componentTypesScaffold,
   )
 }
 
 export const generateBaseIconComponent = () => {
   fs.writeFileSync(
-    path.join(JSX_OUTPUT_DIR, 'BaseIcon.tsx'),
+    path.join(reactRoot, 'src', 'BaseIcon.tsx'),
     componentBaseScaffold,
   )
   console.log(`❖ generated BaseIcon component`)
@@ -130,13 +135,13 @@ export const generateBaseIconComponent = () => {
 
 export const generateTokenIconComponent = () => {
   fs.writeFileSync(
-    path.join(JSX_OUTPUT_DIR, 'TokenIcon.tsx'),
+    path.join(reactRoot, 'src', 'TokenIcon.tsx'),
     componentTokenIconScaffold,
   )
   console.log(`❖ generated TokenIcon component`)
 }
 
-export const generateReactComponent = async (baseName: string) => {
+export const generateReactComponent = (baseName: string) => {
   const name = `${baseName.replace(/[- ]+/g, '_').toLocaleUpperCase()}`
   let brandedSVG = ''
   let monoSVG = ''
@@ -164,27 +169,16 @@ export const generateReactComponent = async (baseName: string) => {
 
   const brandedJSX = readyForJSX(brandedSVG)
   const monoJSX = readyForJSX(injectCurrentColor(monoSVG))
-  const scaffold = hasBothVariants
+  const content = hasBothVariants
     ? componentScaffold.multiVariants
     : componentScaffold.singleVariant
-  const variantJSX = hasMonoVariant ? monoJSX : brandedJSX
 
-  if (hasMonoVariant && !hasBrandedVariant) {
-    console.log(`❖ mono only: ${baseName}`)
-  }
-  if (!hasMonoVariant && hasBrandedVariant) {
-    console.log(`❖ branded only: ${baseName}`)
-  }
-
-  const iconComponentContent = scaffold
+  const scaffold = content
     .replace(/{{componentName}}/g, `Icon${name}`)
-    .replace(/{{variantJSX}}/g, variantJSX)
+    .replace(/{{variantJSX}}/g, hasMonoVariant ? monoJSX : brandedJSX)
     .replace(/{{brandedJSX}}/g, brandedJSX)
     .replace(/{{monoJSX}}/g, monoJSX)
     .replace(/{{displayName}}/g, name)
 
-  fs.writeFileSync(
-    path.join(JSX_OUTPUT_DIR, `${name}.tsx`),
-    iconComponentContent,
-  )
+  fs.writeFileSync(path.join(JSX_OUTPUT_DIR, `${name}.tsx`), scaffold)
 }
