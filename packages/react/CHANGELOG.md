@@ -1,5 +1,11 @@
 # @token-icons/react
 
+## 1.4.2
+
+### Patch Changes
+
+- - fix scaffold issue for imports
+
 ## 1.4.1
 
 ### Patch Changes

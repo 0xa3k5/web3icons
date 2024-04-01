@@ -23,7 +23,7 @@ export const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>((
 const singleVariant = `
 import { forwardRef } from 'react';
 import { IconComponentProps } from "../types";
-import BaseIcon from '../BaseIcon';
+import { BaseIcon } from '../BaseIcon';
 
 export const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref) => (
     <BaseIcon {...props} ref={ref}>

@@ -1,6 +1,6 @@
 import { forwardRef } from 'react'
 import { IconComponentProps } from '../types'
-import BaseIcon from '../BaseIcon'
+import { BaseIcon } from '../BaseIcon'
 
 export const IconDOBO = forwardRef<SVGSVGElement, IconComponentProps>(
   ({ ...props }, ref) => (
