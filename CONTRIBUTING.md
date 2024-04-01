@@ -26,6 +26,7 @@ If you'd like to contribute directly by adding new icons or fixing issues:
 
 1. Fork the repository.
 2. Clone your fork and create a new branch: `git checkout -b branch-name`
-3. Add or update icons as necessary following the project's standards.
+3. Add or update icons to the related folders of `core/src/raw-svgs/`
 4. Push your changes and create a pull request.
 5. In the pull request, provide a detailed description of your changes and reference any related issues.
+6. Github Actions will make sure to update the metadata, create React components and update the packages as necessary.

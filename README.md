@@ -8,8 +8,9 @@ The monorepo contains
 
 - [`@token-icons/core`](https://github.com/0xa3k5/token-icons/tree/main/packages/core): npm package that serves optimized svgs as svg files
 - [`@token-icons/react`](https://github.com/0xa3k5/token-icons/tree/main/packages/react): React components for token icons
+- [`@token-icons/utils`](https://github.com/0xa3k5/token-icons/tree/main/packages/utils): Private utility and build scripts for the monorepo
 - [`apps/website`](https://github.com/0xa3k5/token-icons/tree/main/apps/website): Next.js app for https://tokenicons.io
-- [`figma-plugin`](https://github.com/0xa3k5/token-icons/tree/main/apps/figma-plugin): Figma plugin for token icons
+- [`apps/figma-plugin`](https://github.com/0xa3k5/token-icons/tree/main/apps/figma-plugin): Figma plugin for token icons
 
 ## Installation
 
@@ -25,7 +26,7 @@ yarn add @token-icons/core @token-icons/react
 
 ```
 
-This will install the `@token-icons/core` package, which serves optimized SVGs as SVG files, and the `@token-icons/react` package, which provides React components for token icons.
+This will install the `@token-icons/core` package, which serves optimized SVGs as SVG files, and the `@token-icons/react` package, which serves React components for token icons.
 
 > You can install either of the packages based on your project's needs.
 
@@ -33,7 +34,7 @@ This will install the `@token-icons/core` package, which serves optimized SVGs a
 
 ### Using Individual React Components from `@token-icons/react`
 
-All the icons from the React library is prefixed with "Icon". And named with the token tickers as uppercase.
+All the icons from the React library is prefixed with "Icon". And named with the token tickers as uppercase. This is to avoid naming conflicts that is caused by the icon names starting with numbers.
 
 ```
 Bitcoin: IconBTC
@@ -42,7 +43,7 @@ The Graph: IconGRT
 ```
 
 ```jsx
-import { IconBtc } from '@token-icons/react'
+import { IconBtc } from '@token-icons/react/icons'
 
 const App = () => {
   return (
@@ -178,3 +179,23 @@ console.log(svgContent)
 ### Website
 
 The Token Icons website ([https://tokenicons.io](https://tokenicons.io/)) provides a searchable collection of all available icons. You can browse, search, and download icons directly from the website.
+
+
+### Contributing
+
+We welcome contributions to `token-icons`! If you'd like to contribute, please refer to our [Contributing Guide](https://github.com/0xa3k5/token-icons/blob/main/CONTRIBUTING.md).
+
+#### Adding a new icon is super easy.
+
+1. Fork the repo, create a branch `git checkout -b branch-name`
+2. Add or update icons to the related folders of `core/src/raw-svgs/`
+3. Push your changes and create a pull request.
+4. Github Actions will make sure to update the metadata, create React components and update the packages as necessary. 
+
+### License
+
+[MIT](https://github.com/0xa3k5/token-icons/blob/main/LICENSE)
+
+### Give a Star ⭐️
+
+If you like this project, please give it a star ⭐️ on GitHub. This helps us to maintain the project and make it better for everyone.
