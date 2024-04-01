@@ -1,6 +1,6 @@
 import { forwardRef } from 'react'
 import { IconComponentProps } from '../types'
-import BaseIcon from '../BaseIcon'
+import { BaseIcon } from '../BaseIcon'
 
 export const IconQANX = forwardRef<SVGSVGElement, IconComponentProps>(
   ({ variant = 'mono', ...props }, ref) => (

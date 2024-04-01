@@ -1,5 +1,11 @@
 # @token-icons/react
 
+## 1.4.1
+
+### Patch Changes
+
+- fix BaseIcon import path
+
 ## 1.4.0
 
 ### Minor Changes
