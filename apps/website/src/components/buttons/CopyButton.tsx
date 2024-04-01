@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, PropsWithChildren } from 'react'
 import tokens from '@token-icons/core/dist/metadata/tokens.json'
 import cx from 'classnames'
-import Tooltip from './Tooltip'
+import Tooltip from '../ActionBar/Tooltip'
 
 interface Props {
   className?: string
@@ -13,7 +13,8 @@ export default function CopyButton({
   className,
   selectedIcons,
   variant,
-}: Props): JSX.Element {
+  children,
+}: PropsWithChildren<Props>): JSX.Element {
   const [tooltip, setTooltip] = useState({ toggle: false, text: '' })
   const isDisabled = selectedIcons.length > 1
 
@@ -86,11 +87,11 @@ export default function CopyButton({
           isDisabled
             ? 'pointer-events-none text-opacity-20'
             : 'text-opacity-60 hover:bg-gray-lightest hover:text-opacity-100',
-          'relative flex gap-2 p-4 text-white duration-150',
+          'relative flex gap-2 p-2 text-white duration-150',
         )}
         disabled={isDisabled}
       >
-        copy svg
+        {children}
       </button>
       <Tooltip text={tooltip.text} toggle={tooltip.toggle} />
     </div>

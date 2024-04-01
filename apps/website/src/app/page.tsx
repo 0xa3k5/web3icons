@@ -56,7 +56,7 @@ export default function Home() {
           cryptocurrency token & coin logos as icon format. More than 2,500
           icons are ready as optimized SVGs as well as React components.
         </span>
-        <code className="inline-flex  w-fit items-center gap-4 rounded-md border border-gray-lightest p-4 text-left text-sm text-white">
+        <code className="inline-flex w-fit items-center gap-4 rounded-md border border-gray-lightest p-4 text-sm text-white">
           <span className="flex gap-4">{INSTALL_SNIPPET}</span>
           <button
             type="button"
@@ -67,12 +67,17 @@ export default function Home() {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
               width="16"
               height="16"
-              fill="currentColor"
-              viewBox="0 0 256 256"
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
             >
-              <path d="M216,32H88a8,8,0,0,0-8,8V80H40a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H168a8,8,0,0,0,8-8V176h40a8,8,0,0,0,8-8V40A8,8,0,0,0,216,32ZM160,208H48V96H160Zm48-48H176V88a8,8,0,0,0-8-8H96V48H208Z"></path>
+              <rect height="13" rx="2" ry="2" width="13" x="9" y="9" />
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
             </svg>
           </button>
         </code>
@@ -85,13 +90,8 @@ export default function Home() {
             value={searchTerm}
           />
           <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
-            {icons.map(([iconName, IconComponent]) => (
-              <IconCard
-                className="col-span-1"
-                key={iconName}
-                iconName={iconName}
-                IconComponent={IconComponent}
-              />
+            {icons.map((icon) => (
+              <IconCard key={icon.id} icon={icon} />
             ))}
             <div className="col-span-full my-8 flex justify-center">
               <button

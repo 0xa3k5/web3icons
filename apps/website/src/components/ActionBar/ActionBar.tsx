@@ -1,7 +1,6 @@
 import cx from 'classnames'
-import DownloadButton from './DownloadButton'
-import CopyButton from './CopyButton'
 import { useAppContext } from '../../hooks'
+import { DownloadButton, CopyButton } from '../buttons'
 
 interface Props {
   className?: string
@@ -17,16 +16,27 @@ export default function ActionBar({ className }: Props): JSX.Element {
   return (
     <div
       className={cx(
-        'fixed bottom-4 z-10 mx-auto flex justify-between divide-x divide-gray-lightest rounded-full border border-gray-lightest bg-gray-light text-sm',
+        'fixed bottom-4 z-10 mx-auto flex h-14 items-center justify-between divide-x divide-gray-lightest rounded-full border border-gray-lightest bg-gray-light text-sm',
         className,
       )}
     >
       <CopyButton
         variant={variant}
         selectedIcons={selectedIcons}
-        className="rounded-l-full"
-      />
-      <DownloadButton variant={variant} selectedIcons={selectedIcons} />
+        className="rounded-l-full p-4"
+      >
+        copy svg
+      </CopyButton>
+      <DownloadButton
+        className="p-4"
+        variant={variant}
+        selectedIcons={selectedIcons}
+      >
+        download
+        <span className="text-primary">
+          ({selectedIcons.length.toString()})
+        </span>
+      </DownloadButton>
       <button
         type="button"
         onClick={handleClearAll}

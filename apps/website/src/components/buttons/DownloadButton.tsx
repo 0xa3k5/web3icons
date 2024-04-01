@@ -1,7 +1,7 @@
 import cx from 'classnames'
 import JSZip from 'jszip'
-import { useState } from 'react'
-import Tooltip from './Tooltip'
+import { PropsWithChildren, useState } from 'react'
+import Tooltip from '../ActionBar/Tooltip'
 import { tokens } from '@token-icons/core'
 
 interface Props {
@@ -23,7 +23,8 @@ export default function DownloadButton({
   className,
   selectedIcons,
   variant,
-}: Props): JSX.Element {
+  children,
+}: PropsWithChildren<Props>): JSX.Element {
   const [tooltip, setTooltip] = useState({ toggle: false, text: '' })
 
   const handleDownload = async () => {
@@ -88,13 +89,10 @@ export default function DownloadButton({
         onClick={handleDownload}
         className={cx(
           className,
-          'flex gap-2 p-4 text-white text-opacity-60 duration-150 hover:bg-gray-lightest hover:text-opacity-100',
+          'flex h-full gap-2 p-2 text-white text-opacity-60 duration-150 hover:bg-gray-lightest hover:text-opacity-100',
         )}
       >
-        download
-        <span className="text-primary">
-          ({selectedIcons.length.toString()})
-        </span>
+        {children}
       </button>
       <Tooltip text={tooltip.text} toggle={tooltip.toggle} />
     </div>

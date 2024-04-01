@@ -1,82 +1,97 @@
 'use client'
-import {
-  Dispatch,
-  ForwardRefExoticComponent,
-  ReactNode,
-  RefAttributes,
-  SetStateAction,
+import React, {
   createContext,
-  useCallback,
   useContext,
   useEffect,
   useState,
+  useCallback,
+  ReactNode,
 } from 'react'
 import { tokens } from '@token-icons/core'
-import * as Icons from '@token-icons/react'
 import { ITokenMetadata } from '@token-icons/utils'
 
 export interface AppContextType {
-  icons: [
-    string,
-    ForwardRefExoticComponent<
-      Icons.IconComponentProps & RefAttributes<SVGSVGElement>
-    >,
-  ][]
+  icons: ITokenMetadata[]
   searchTerm: string
-  setSearchTerm: Dispatch<SetStateAction<string>>
-  variant: Icons.IconComponentProps['variant']
-  setVariant: Dispatch<SetStateAction<'mono' | 'branded'>>
+  setSearchTerm: React.Dispatch<React.SetStateAction<string>>
+  variant: 'mono' | 'branded'
+  setVariant: React.Dispatch<React.SetStateAction<'mono' | 'branded'>>
   size: number
-  setSize: Dispatch<SetStateAction<number>>
+  setSize: React.Dispatch<React.SetStateAction<number>>
+  color: string
+  setColor: React.Dispatch<React.SetStateAction<string>>
   selectedIcons: string[]
   setSelectedIcons: React.Dispatch<React.SetStateAction<string[]>>
-  tokenMetadata: ITokenMetadata[]
-  color: string
-  setColor: Dispatch<SetStateAction<string>>
   loadMoreIcons: () => void
 }
 
+interface AppContextProviderProps {
+  children: ReactNode
+}
 const AppContext = createContext<AppContextType | undefined>(undefined)
 
-export function AppContextProvider({ children }: { children: ReactNode }) {
+export const AppContextProvider: React.FC<AppContextProviderProps> = ({
+  children,
+}: AppContextProviderProps) => {
   const PER_PAGE = 48
-
-  const [variant, setVariant] =
-    useState<Icons.IconComponentProps['variant']>('mono')
+  const [variant, setVariant] = useState<'mono' | 'branded'>('mono')
   const [size, setSize] = useState(64)
-  const [selectedIcons, setSelectedIcons] = useState<string[]>([])
-  const [searchTerm, setSearchTerm] = useState('')
   const [color, setColor] = useState('#FFFFFF')
+  const [searchTerm, setSearchTerm] = useState('')
+  const [selectedIcons, setSelectedIcons] = useState<string[]>([])
   const [nextBatchIndex, setNextBatchIndex] = useState(0)
-  const [shownIcons, setShownIcons] = useState<AppContextType['icons']>([])
+  const [shownIcons, setShownIcons] = useState<ITokenMetadata[]>([])
 
-  const filterAndSetIcons = useCallback(() => {
-    const filteredMetadata = tokens.filter((token) =>
-      [token.symbol, token.name, token.id].some((id) =>
-        id.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase()),
-      ),
+  tokens.sort(
+    (a, b) => (a.marketCapRank || Infinity) - (b.marketCapRank || Infinity),
+  )
+
+  const uniqueTokensMap = new Map()
+
+  // Filter out unique tokens, preferring those with higher market cap rank
+  tokens.forEach((token) => {
+    const existingToken = uniqueTokensMap.get(token.symbol)
+    if (
+      !existingToken ||
+      (token.marketCapRank &&
+        (!existingToken.marketCapRank ||
+          token.marketCapRank < existingToken.marketCapRank))
+    ) {
+      uniqueTokensMap.set(token.symbol, token)
+    }
+  })
+
+  const groupedTokens: Record<string, ITokenMetadata[]> = {}
+
+  // Group the unique tokens by their variants
+  Array.from(uniqueTokensMap.values()).forEach((token) => {
+    token.variants.forEach((variant: 'mono' | 'branded') => {
+      if (!groupedTokens[variant]) {
+        groupedTokens[variant] = []
+      }
+      groupedTokens[variant]!.push(token)
+    })
+  })
+
+  const filterAndSortIcons = useCallback(() => {
+    const filteredIcons = groupedTokens[variant]!.filter(
+      (token) =>
+        (token.variants.includes(variant) &&
+          token.symbol.toLowerCase().includes(searchTerm.toLowerCase())) ||
+        token.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        token.id.toLowerCase().includes(searchTerm.toLowerCase()),
     )
 
-    const newFilteredIcons = Object.entries(Icons).filter(([iconName]) =>
-      filteredMetadata.some((token) =>
-        iconName.toLocaleLowerCase().includes(token.symbol.toLocaleLowerCase()),
-      ),
-    )
-
-    setShownIcons(newFilteredIcons.slice(0, nextBatchIndex + PER_PAGE))
-  }, [searchTerm, nextBatchIndex])
+    return filteredIcons.slice(0, nextBatchIndex + PER_PAGE)
+  }, [searchTerm, variant, nextBatchIndex])
 
   useEffect(() => {
-    filterAndSetIcons()
-  }, [searchTerm, filterAndSetIcons])
+    setShownIcons(filterAndSortIcons())
+  }, [filterAndSortIcons])
 
   const loadMoreIcons = useCallback(() => {
     setNextBatchIndex((prevIndex) => prevIndex + PER_PAGE)
   }, [])
-
-  useEffect(() => {
-    loadMoreIcons()
-  }, [loadMoreIcons])
 
   return (
     <AppContext.Provider
@@ -84,16 +99,15 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
         icons: shownIcons,
         searchTerm,
         setSearchTerm,
-        tokenMetadata: tokens,
         variant,
         setVariant,
         size,
         setSize,
         selectedIcons,
         setSelectedIcons,
+        loadMoreIcons,
         color,
         setColor,
-        loadMoreIcons,
       }}
     >
       {children}
@@ -103,8 +117,8 @@ export function AppContextProvider({ children }: { children: ReactNode }) {
 
 export const useAppContext = () => {
   const context = useContext(AppContext)
-  if (context === undefined) {
-    throw new Error('useIconContext must be used within a AppContextProvider')
+  if (!context) {
+    throw new Error('useAppContext must be used within a AppContextProvider')
   }
   return context
 }

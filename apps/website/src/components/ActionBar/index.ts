@@ -1,2 +1,2 @@
 export { default as ActionBar } from './ActionBar'
-export { default as DownloadButton } from './DownloadButton'
+export { default as DownloadButton } from '../buttons/DownloadButton'
