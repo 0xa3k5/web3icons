@@ -23,5 +23,5 @@ const indexFileContent = Array.from(allSvgNames)
 fs.writeFileSync(path.join(JSX_OUTPUT_DIR, 'index.ts'), indexFileContent)
 fs.writeFileSync(
   path.join(reactRoot, 'src', 'index.ts'),
-  `export * from './types';\nexport { BaseIcon } from './BaseIcon';\nexport { TokenIcon } from './TokenIcon';\nexport * from './icons';`,
+  `export * from './types';\nexport { BaseIcon } from './BaseIcon';\nexport { TokenIcon } from './TokenIcon';`,
 )

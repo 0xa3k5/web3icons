@@ -1,5 +1,11 @@
 # @token-icons/react
 
+## 1.4.3
+
+### Patch Changes
+
+- patch build formatting
+
 ## 1.4.2
 
 ### Patch Changes

@@ -11,7 +11,7 @@
     "crypto logos",
     "coin icons"
   ],
-  "version": "1.4.2",
+  "version": "1.4.3",
   "private": false,
   "license": "MIT",
   "main": "./dist/index.js",
@@ -25,18 +25,13 @@
     "./icons": {
       "import": "./dist/icons/index.mjs",
       "require": "./dist/icons/index.js"
-    },
-    "./icons/*": {
-      "import": "./dist/icons/*.mjs",
-      "require": "./dist/icons/*.js"
-    },
-    "./package.json": "./package.json"
+    }
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "(cd ../utils && bun run build:react) && tsup ./src/index.ts && bun run build-icons && bun run lint && bun run format",
+    "build": "(cd ../utils && bun run build:react) && tsup ./index.ts --format cjs,esm --dts && bun run build-icons && bun run lint && bun run format",
     "build-icons": "tsup src/icons/*.ts --format cjs,esm --dts --outDir dist/icons",
     "dev": "bun run build -- --watch",
     "lint": "eslint ./src --ext .ts,.tsx",

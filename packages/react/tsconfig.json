@@ -1,6 +1,5 @@
 {
   "extends": "@token-icons/typescript-config/react-library.json",
-  "compilerOptions": { "rootDir": "./src", "outDir": "./dist" },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "./index.ts"],
   "exclude": ["node_modules", "dist"]
 }
