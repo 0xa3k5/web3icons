@@ -5,6 +5,7 @@ interface Props {
   className?: string
   placeholder: string
   value: string
+  // eslint-disable-next-line no-unused-vars
   onInput: (event: React.ChangeEvent<HTMLInputElement>) => void
 }
 

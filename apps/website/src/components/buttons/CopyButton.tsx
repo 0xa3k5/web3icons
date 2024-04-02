@@ -19,6 +19,7 @@ export default function CopyButton({
   const isDisabled = selectedIcons.length > 1
 
   useEffect(() => {
+    // eslint-disable-next-line no-undef
     let timer: NodeJS.Timeout
     if (tooltip.toggle) {
       timer = setTimeout(() => setTooltip({ toggle: false, text: '' }), 1000)

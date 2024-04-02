@@ -5,6 +5,7 @@ interface SegmentedControlProps {
   className?: string
   options: string[]
   selected: string
+  // eslint-disable-next-line no-unused-vars
   onChange: (value: string) => void
 }
 

@@ -6,6 +6,7 @@ interface Props {
   label: string
   color: string
   setColor: Dispatch<SetStateAction<string>>
+  // eslint-disable-next-line no-unused-vars
   onChange?: (color: string) => void
   disabled: boolean
 }
