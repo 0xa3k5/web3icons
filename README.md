@@ -150,7 +150,7 @@ export default App
 
 ### Using SVGs from `@token-icons/core`
 
-For projects that don’t use React, icons are also available as `*.svg` files in the `dist/optimized-svgs` folder. Which contains folders for `branded` and `mono` svg icons.
+For projects that don’t use React, icons are also available as `*.svg` files in the `dist/svgs` folder. Which contains folders for `branded` and `mono` svg icons.
 
 > Names of the SVGs in this package is prefixed with their relative variant. e.g. `BrandedBtc` or `MonoEth`
 
@@ -162,7 +162,7 @@ or with a dynamic import
 
 ```js
 const svgModule = await import(
-  `@token-icons/core/dist/optimized-svgs/${variant}/${iconName}.svg`
+  `@token-icons/core/dist/svgs/${variant}/${iconName}.svg`
 )
 
 const response = await fetch(svgModule.default.src)

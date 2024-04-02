@@ -3,10 +3,11 @@ import fs from 'fs'
 import path from 'path'
 import * as cheerio from 'cheerio'
 import {
-  JSX_OUTPUT_DIR,
-  SVG_OUTPUT_DIR,
+  JSX_TOKENS_OUT_DIR,
+  SVG_TOKENS_OUT_DIR,
   METADATA_PATH,
   reactRoot,
+  SVG_NETWORKS_OUT_DIR,
 } from './constants'
 import {
   componentBaseScaffold,
@@ -15,6 +16,17 @@ import {
   componentTypesScaffold,
 } from './scaffolds'
 import { ITokenMetadata } from './types'
+
+/**
+ * Creates a directory if it doesn't exist.
+ *
+ * @param {string} dirPath - The path to the directory to be created.
+ */
+export const ensureDirectoryExists = (dirPath: string): void => {
+  if (!fs.existsSync(dirPath)) {
+    fs.mkdirSync(dirPath)
+  }
+}
 
 /**
  * Optimize SVG and return as string.
@@ -141,44 +153,101 @@ export const generateTokenIconComponent = () => {
   console.log(`❖ generated TokenIcon component`)
 }
 
-export const generateReactComponent = (baseName: string) => {
-  const name = `${baseName.replace(/[- ]+/g, '_').toLocaleUpperCase()}`
-  let brandedSVG = ''
-  let monoSVG = ''
+/**
+ * Generate React Component from an SVG.
+ *
+ * @param {string} baseName - The base name of the SVG file.
+ * @param {string} jsxOutDir - The output directory for the JSX file.
+ */
+export const generateReactComponent = (baseName: string, jsxOutDir: string) => {
+  const prefix = jsxOutDir === JSX_TOKENS_OUT_DIR ? 'Token' : 'Network'
+  const componentName = `${prefix}${baseName.replace(/[- ]+/g, '_').toLocaleUpperCase()}`
+  const svgDirs =
+    jsxOutDir === JSX_TOKENS_OUT_DIR ? SVG_TOKENS_OUT_DIR : SVG_NETWORKS_OUT_DIR
+
   const hasBrandedVariant = fs.existsSync(
-    path.join(SVG_OUTPUT_DIR, 'branded', `${baseName}.svg`),
+    path.join(svgDirs, 'branded', `${baseName}.svg`),
   )
   const hasMonoVariant = fs.existsSync(
-    path.join(SVG_OUTPUT_DIR, 'mono', `${baseName}.svg`),
+    path.join(svgDirs, 'mono', `${baseName}.svg`),
   )
-  const hasBothVariants = hasBrandedVariant && hasMonoVariant
 
-  if (hasBrandedVariant) {
-    brandedSVG = fs.readFileSync(
-      path.join(SVG_OUTPUT_DIR, 'branded', `${baseName}.svg`),
-      'utf-8',
-    )
-  }
+  const brandedJSX = hasBrandedVariant
+    ? readyForJSX(
+        fs.readFileSync(
+          path.join(svgDirs, 'branded', `${baseName}.svg`),
+          'utf-8',
+        ),
+      )
+    : ''
+  const monoJSX = hasMonoVariant
+    ? readyForJSX(
+        injectCurrentColor(
+          fs.readFileSync(
+            path.join(svgDirs, 'mono', `${baseName}.svg`),
+            'utf-8',
+          ),
+        ),
+      )
+    : ''
 
-  if (hasMonoVariant) {
-    monoSVG = fs.readFileSync(
-      path.join(SVG_OUTPUT_DIR, 'mono', `${baseName}.svg`),
-      'utf-8',
-    )
-  }
+  const scaffoldTemplate =
+    hasBrandedVariant && hasMonoVariant
+      ? componentScaffold.multiVariants
+      : componentScaffold.singleVariant
 
-  const brandedJSX = readyForJSX(brandedSVG)
-  const monoJSX = readyForJSX(injectCurrentColor(monoSVG))
-  const content = hasBothVariants
-    ? componentScaffold.multiVariants
-    : componentScaffold.singleVariant
-
-  const scaffold = content
-    .replace(/{{componentName}}/g, `Icon${name}`)
-    .replace(/{{variantJSX}}/g, hasMonoVariant ? monoJSX : brandedJSX)
+  const componentContent = scaffoldTemplate
+    .replace(/{{componentName}}/g, componentName)
     .replace(/{{brandedJSX}}/g, brandedJSX)
     .replace(/{{monoJSX}}/g, monoJSX)
-    .replace(/{{displayName}}/g, name)
+    .replace(/{{variantJSX}}/g, hasMonoVariant ? monoJSX : brandedJSX)
+    .replace(/{{displayName}}/g, baseName)
 
-  fs.writeFileSync(path.join(JSX_OUTPUT_DIR, `${name}.tsx`), scaffold)
+  fs.writeFileSync(
+    path.join(jsxOutDir, `${componentName}.tsx`),
+    componentContent,
+  )
+  console.log(`✓ Generated React component for: ${componentName}`)
 }
+
+// export const generateReactComponent = (baseName: string) => {
+//   const name = `${baseName.replace(/[- ]+/g, '_').toLocaleUpperCase()}`
+//   let brandedSVG = ''
+//   let monoSVG = ''
+//   const hasBrandedVariant = fs.existsSync(
+//     path.join(SVG_TOKENS_OUT_DIR, 'branded', `${baseName}.svg`),
+//   )
+//   const hasMonoVariant = fs.existsSync(
+//     path.join(SVG_TOKENS_OUT_DIR, 'mono', `${baseName}.svg`),
+//   )
+//   const hasBothVariants = hasBrandedVariant && hasMonoVariant
+
+//   if (hasBrandedVariant) {
+//     brandedSVG = fs.readFileSync(
+//       path.join(SVG_TOKENS_OUT_DIR, 'branded', `${baseName}.svg`),
+//       'utf-8',
+//     )
+//   }
+
+//   if (hasMonoVariant) {
+//     monoSVG = fs.readFileSync(
+//       path.join(SVG_TOKENS_OUT_DIR, 'mono', `${baseName}.svg`),
+//       'utf-8',
+//     )
+//   }
+
+//   const brandedJSX = readyForJSX(brandedSVG)
+//   const monoJSX = readyForJSX(injectCurrentColor(monoSVG))
+//   const content = hasBothVariants
+//     ? componentScaffold.multiVariants
+//     : componentScaffold.singleVariant
+
+//   const scaffold = content
+//     .replace(/{{componentName}}/g, `Token${name}`)
+//     .replace(/{{variantJSX}}/g, hasMonoVariant ? monoJSX : brandedJSX)
+//     .replace(/{{brandedJSX}}/g, brandedJSX)
+//     .replace(/{{monoJSX}}/g, monoJSX)
+//     .replace(/{{displayName}}/g, name)
+
+//   fs.writeFileSync(path.join(JSX_TOKENS_OUT_DIR, `${name}.tsx`), scaffold)
+// }

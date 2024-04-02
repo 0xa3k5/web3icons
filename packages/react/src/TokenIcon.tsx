@@ -1,10 +1,11 @@
-import React from 'react'
-import { tokens } from '@token-icons/core'
-import * as IconComponents from './icons'
+import React, { forwardRef } from 'react'
+import { tokens, networks } from '@token-icons/core/metadata'
+import * as TokenComponents from './icons/tokens'
+import * as NetworkComponents from './icons/networks'
 import { IconComponentProps, TokenIconProps } from './types'
-import { forwardRef } from 'react'
 
-type IconComponentNames = keyof typeof IconComponents
+type TokenComponentNames = keyof typeof TokenComponents
+type NetworkComponentNames = keyof typeof NetworkComponents
 
 type IconComponentType = React.ForwardRefExoticComponent<
   React.PropsWithoutRef<IconComponentProps> & React.RefAttributes<SVGSVGElement>
@@ -18,7 +19,13 @@ export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
     const iconName = resolveIconName(symbol, address, chain)
 
     const IconComponent =
-      (IconComponents[iconName] as IconComponentType) || null
+      symbol || address
+        ? (TokenComponents[
+            iconName as TokenComponentNames
+          ] as IconComponentType)
+        : (NetworkComponents[
+            iconName as NetworkComponentNames
+          ] as IconComponentType)
 
     if (!IconComponent) {
       return null
@@ -44,32 +51,30 @@ function resolveIconName(
   symbol?: string,
   address?: string,
   chain?: string,
-): keyof typeof IconComponents {
-  let resolvedName: IconComponentNames = 'IconETH'
+): TokenComponentNames | NetworkComponentNames {
+  let resolvedName: TokenComponentNames | NetworkComponentNames = 'TokenETH'
 
   if (symbol) {
     const tokenData = tokens.find((token) => token.symbol === symbol)
     if (tokenData) {
       resolvedName =
-        `Icon${normalizeIconName(tokenData.symbol)}` as IconComponentNames
+        `Token${normalizeIconName(tokenData.symbol)}` as TokenComponentNames
     }
-  }
-
-  if (address) {
+  } else if (address) {
     const tokenData = tokens.find((token) =>
       Object.values(token.addresses).includes(address),
     )
     if (tokenData) {
       resolvedName =
-        `Icon${normalizeIconName(tokenData.symbol)}` as IconComponentNames
+        `Token${normalizeIconName(tokenData.symbol)}` as TokenComponentNames
     }
-  }
-
-  if (chain) {
-    const tokenData = tokens.find((token) => token.addresses[chain])
-    if (tokenData) {
+  } else if (chain) {
+    const networkData = networks.find((network) => network.id === chain)
+    if (networkData) {
       resolvedName =
-        `Icon${normalizeIconName(tokenData.symbol)}` as IconComponentNames
+        `Network${normalizeIconName(networkData.name)}` as NetworkComponentNames
+    } else {
+      resolvedName = 'NetworkETH' as NetworkComponentNames
     }
   }
 

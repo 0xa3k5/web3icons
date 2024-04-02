@@ -1,6728 +1,6728 @@
 /* Generated */
-import brandedBABYSHIB from '../dist/optimized-svgs/branded/BABYSHIB.svg'
-import brandedSOCKS from '../dist/optimized-svgs/branded/SOCKS.svg'
-import brandedHONK from '../dist/optimized-svgs/branded/HONK.svg'
-import brandedTHOL from '../dist/optimized-svgs/branded/THOL.svg'
-import brandedGLINK from '../dist/optimized-svgs/branded/GLINK.svg'
-import brandedSPX from '../dist/optimized-svgs/branded/SPX.svg'
-import brandedMINA from '../dist/optimized-svgs/branded/MINA.svg'
-import brandedCXO from '../dist/optimized-svgs/branded/CXO.svg'
-import brandedOCTA from '../dist/optimized-svgs/branded/OCTA.svg'
-import brandedKZEN from '../dist/optimized-svgs/branded/KZEN.svg'
-import brandedABT from '../dist/optimized-svgs/branded/ABT.svg'
-import brandedBMEX from '../dist/optimized-svgs/branded/BMEX.svg'
-import brandedRBIF from '../dist/optimized-svgs/branded/RBIF.svg'
-import brandedSAIL from '../dist/optimized-svgs/branded/SAIL.svg'
-import brandedVAB from '../dist/optimized-svgs/branded/VAB.svg'
-import brandedCNFI from '../dist/optimized-svgs/branded/CNFI.svg'
-import brandedUW3S from '../dist/optimized-svgs/branded/UW3S.svg'
-import brandedZBC from '../dist/optimized-svgs/branded/ZBC.svg'
-import brandedOXB from '../dist/optimized-svgs/branded/OXB.svg'
-import brandedSHI from '../dist/optimized-svgs/branded/SHI.svg'
-import brandedMEMEAI from '../dist/optimized-svgs/branded/MEMEAI.svg'
-import brandedVTC from '../dist/optimized-svgs/branded/VTC.svg'
-import brandedSWFTC from '../dist/optimized-svgs/branded/SWFTC.svg'
-import branded2DAI from '../dist/optimized-svgs/branded/2DAI.svg'
-import brandedD3D from '../dist/optimized-svgs/branded/D3D.svg'
-import brandedPALM from '../dist/optimized-svgs/branded/PALM.svg'
-import brandedBHAT from '../dist/optimized-svgs/branded/BHAT.svg'
-import brandedMELD from '../dist/optimized-svgs/branded/MELD.svg'
-import brandedHST from '../dist/optimized-svgs/branded/HST.svg'
-import brandedDFX from '../dist/optimized-svgs/branded/DFX.svg'
-import brandedHPO from '../dist/optimized-svgs/branded/HPO.svg'
-import brandedDEC from '../dist/optimized-svgs/branded/DEC.svg'
-import brandedOMAX from '../dist/optimized-svgs/branded/OMAX.svg'
-import brandedXVS from '../dist/optimized-svgs/branded/XVS.svg'
-import brandedTRIBE from '../dist/optimized-svgs/branded/TRIBE.svg'
-import brandedENS from '../dist/optimized-svgs/branded/ENS.svg'
-import brandedSPARTA from '../dist/optimized-svgs/branded/SPARTA.svg'
-import brandedWINR from '../dist/optimized-svgs/branded/WINR.svg'
-import brandedBKN from '../dist/optimized-svgs/branded/BKN.svg'
-import brandedCMOS from '../dist/optimized-svgs/branded/CMOS.svg'
-import brandedKAS from '../dist/optimized-svgs/branded/KAS.svg'
-import brandedMTLX from '../dist/optimized-svgs/branded/MTLX.svg'
-import brandedRCN from '../dist/optimized-svgs/branded/RCN.svg'
-import brandedSONNE from '../dist/optimized-svgs/branded/SONNE.svg'
-import brandedKLT from '../dist/optimized-svgs/branded/KLT.svg'
-import brandedITP from '../dist/optimized-svgs/branded/ITP.svg'
-import brandedMUDOL2 from '../dist/optimized-svgs/branded/MUDOL2.svg'
-import brandedNABOX from '../dist/optimized-svgs/branded/NABOX.svg'
-import brandedEPIC from '../dist/optimized-svgs/branded/EPIC.svg'
-import brandedNFD from '../dist/optimized-svgs/branded/NFD.svg'
-import brandedVSYS from '../dist/optimized-svgs/branded/VSYS.svg'
-import brandedPNK from '../dist/optimized-svgs/branded/PNK.svg'
-import brandedUSDC from '../dist/optimized-svgs/branded/USDC.svg'
-import brandedPLT from '../dist/optimized-svgs/branded/PLT.svg'
-import brandedNORD from '../dist/optimized-svgs/branded/NORD.svg'
-import brandedYFI from '../dist/optimized-svgs/branded/YFI.svg'
-import brandedUSDT from '../dist/optimized-svgs/branded/USDT.svg'
-import brandedGOB from '../dist/optimized-svgs/branded/GOB.svg'
-import brandedTHETA from '../dist/optimized-svgs/branded/THETA.svg'
-import brandedCATGIRL from '../dist/optimized-svgs/branded/CATGIRL.svg'
-import brandedLRC from '../dist/optimized-svgs/branded/LRC.svg'
-import brandedGAI from '../dist/optimized-svgs/branded/GAI.svg'
-import brandedMETFI from '../dist/optimized-svgs/branded/METFI.svg'
-import brandedPREMIA from '../dist/optimized-svgs/branded/PREMIA.svg'
-import brandedWAMPL from '../dist/optimized-svgs/branded/WAMPL.svg'
-import brandedPLEX from '../dist/optimized-svgs/branded/PLEX.svg'
-import brandedOBSR from '../dist/optimized-svgs/branded/OBSR.svg'
-import brandedILV from '../dist/optimized-svgs/branded/ILV.svg'
-import brandedRXD from '../dist/optimized-svgs/branded/RXD.svg'
-import brandedZERO from '../dist/optimized-svgs/branded/ZERO.svg'
-import brandedDIVER from '../dist/optimized-svgs/branded/DIVER.svg'
-import brandedBUMP from '../dist/optimized-svgs/branded/BUMP.svg'
-import brandedWGC from '../dist/optimized-svgs/branded/WGC.svg'
-import brandedDEGEN from '../dist/optimized-svgs/branded/DEGEN.svg'
-import brandedFUSE from '../dist/optimized-svgs/branded/FUSE.svg'
-import brandedGZIL from '../dist/optimized-svgs/branded/GZIL.svg'
-import brandedYES from '../dist/optimized-svgs/branded/YES.svg'
-import brandedPLU from '../dist/optimized-svgs/branded/PLU.svg'
-import brandedICX from '../dist/optimized-svgs/branded/ICX.svg'
-import brandedRVN from '../dist/optimized-svgs/branded/RVN.svg'
-import brandedGODS from '../dist/optimized-svgs/branded/GODS.svg'
-import brandedOPTI from '../dist/optimized-svgs/branded/OPTI.svg'
-import brandedPRTC from '../dist/optimized-svgs/branded/PRTC.svg'
-import brandedPXP from '../dist/optimized-svgs/branded/PXP.svg'
-import brandedDOGEGF from '../dist/optimized-svgs/branded/DOGEGF.svg'
-import brandedLDO from '../dist/optimized-svgs/branded/LDO.svg'
-import brandedKAR from '../dist/optimized-svgs/branded/KAR.svg'
-import brandedHEGIC from '../dist/optimized-svgs/branded/HEGIC.svg'
-import brandedSLND from '../dist/optimized-svgs/branded/SLND.svg'
-import brandedQUINT from '../dist/optimized-svgs/branded/QUINT.svg'
-import brandedWOMBAT from '../dist/optimized-svgs/branded/WOMBAT.svg'
-import brandedPTS from '../dist/optimized-svgs/branded/PTS.svg'
-import brandedXTM from '../dist/optimized-svgs/branded/XTM.svg'
-import brandedCCD from '../dist/optimized-svgs/branded/CCD.svg'
-import brandedCIRUS from '../dist/optimized-svgs/branded/CIRUS.svg'
-import brandedXTZ from '../dist/optimized-svgs/branded/XTZ.svg'
-import brandedTDROP from '../dist/optimized-svgs/branded/TDROP.svg'
-import brandedVXV from '../dist/optimized-svgs/branded/VXV.svg'
-import brandedAXL from '../dist/optimized-svgs/branded/AXL.svg'
-import brandedCNC from '../dist/optimized-svgs/branded/CNC.svg'
-import brandedOXT from '../dist/optimized-svgs/branded/OXT.svg'
-import brandedAVG from '../dist/optimized-svgs/branded/AVG.svg'
-import brandedHOSHI from '../dist/optimized-svgs/branded/HOSHI.svg'
-import brandedDIA from '../dist/optimized-svgs/branded/DIA.svg'
-import brandedWOOF from '../dist/optimized-svgs/branded/WOOF.svg'
-import brandedFOUR from '../dist/optimized-svgs/branded/FOUR.svg'
-import brandedMBX from '../dist/optimized-svgs/branded/MBX.svg'
-import brandedPI from '../dist/optimized-svgs/branded/PI.svg'
-import brandedPOLC from '../dist/optimized-svgs/branded/POLC.svg'
-import brandedBOSON from '../dist/optimized-svgs/branded/BOSON.svg'
-import brandedBBANK from '../dist/optimized-svgs/branded/BBANK.svg'
-import brandedMNDE from '../dist/optimized-svgs/branded/MNDE.svg'
-import brandedWLITI from '../dist/optimized-svgs/branded/WLITI.svg'
-import brandedACQ from '../dist/optimized-svgs/branded/ACQ.svg'
-import brandedANKRETH from '../dist/optimized-svgs/branded/ANKRETH.svg'
-import brandedCNHT from '../dist/optimized-svgs/branded/CNHT.svg'
-import brandedAURORA from '../dist/optimized-svgs/branded/AURORA.svg'
-import brandedCVR from '../dist/optimized-svgs/branded/CVR.svg'
-import brandedALI from '../dist/optimized-svgs/branded/ALI.svg'
-import brandedNEER from '../dist/optimized-svgs/branded/NEER.svg'
-import brandedCVP from '../dist/optimized-svgs/branded/CVP.svg'
-import brandedMXC from '../dist/optimized-svgs/branded/MXC.svg'
-import brandedANT from '../dist/optimized-svgs/branded/ANT.svg'
-import brandedDSM from '../dist/optimized-svgs/branded/DSM.svg'
-import brandedHEZ from '../dist/optimized-svgs/branded/HEZ.svg'
-import brandedMINU from '../dist/optimized-svgs/branded/MINU.svg'
-import brandedJEWEL from '../dist/optimized-svgs/branded/JEWEL.svg'
-import brandedANC from '../dist/optimized-svgs/branded/ANC.svg'
-import brandedPEPES from '../dist/optimized-svgs/branded/PEPES.svg'
-import brandedCTX from '../dist/optimized-svgs/branded/CTX.svg'
-import brandedBTCMT from '../dist/optimized-svgs/branded/BTCMT.svg'
-import brandedMETA from '../dist/optimized-svgs/branded/META.svg'
-import brandedWITCH from '../dist/optimized-svgs/branded/WITCH.svg'
-import brandedETHW from '../dist/optimized-svgs/branded/ETHW.svg'
-import brandedXNA from '../dist/optimized-svgs/branded/XNA.svg'
-import brandedACS from '../dist/optimized-svgs/branded/ACS.svg'
-import brandedXOR from '../dist/optimized-svgs/branded/XOR.svg'
-import brandedVCORE from '../dist/optimized-svgs/branded/VCORE.svg'
-import brandedPUSSY from '../dist/optimized-svgs/branded/PUSSY.svg'
-import brandedEVER from '../dist/optimized-svgs/branded/EVER.svg'
-import brandedSTFX from '../dist/optimized-svgs/branded/STFX.svg'
-import brandedMYST from '../dist/optimized-svgs/branded/MYST.svg'
-import brandedPOLA from '../dist/optimized-svgs/branded/POLA.svg'
-import brandedATM from '../dist/optimized-svgs/branded/ATM.svg'
-import brandedSHROOM from '../dist/optimized-svgs/branded/SHROOM.svg'
-import brandedMAV from '../dist/optimized-svgs/branded/MAV.svg'
-import brandedREVV from '../dist/optimized-svgs/branded/REVV.svg'
-import brandedXVG from '../dist/optimized-svgs/branded/XVG.svg'
-import brandedD2T from '../dist/optimized-svgs/branded/D2T.svg'
-import brandedZLK from '../dist/optimized-svgs/branded/ZLK.svg'
-import brandedODIN from '../dist/optimized-svgs/branded/ODIN.svg'
-import brandedWAGMIGAMES from '../dist/optimized-svgs/branded/WAGMIGAMES.svg'
-import brandedKAP from '../dist/optimized-svgs/branded/KAP.svg'
-import brandedRLB from '../dist/optimized-svgs/branded/RLB.svg'
-import brandedORBS from '../dist/optimized-svgs/branded/ORBS.svg'
-import brandedENG from '../dist/optimized-svgs/branded/ENG.svg'
-import brandedKMD from '../dist/optimized-svgs/branded/KMD.svg'
-import brandedSUTER from '../dist/optimized-svgs/branded/SUTER.svg'
-import brandedCRVUSD from '../dist/optimized-svgs/branded/CRVUSD.svg'
-import brandedRAE from '../dist/optimized-svgs/branded/RAE.svg'
-import brandedSWTH from '../dist/optimized-svgs/branded/SWTH.svg'
-import brandedNGC from '../dist/optimized-svgs/branded/NGC.svg'
-import brandedGLM from '../dist/optimized-svgs/branded/GLM.svg'
-import brandedETI from '../dist/optimized-svgs/branded/ETI.svg'
-import brandedPOL from '../dist/optimized-svgs/branded/POL.svg'
-import brandedWLKN from '../dist/optimized-svgs/branded/WLKN.svg'
-import brandedCONV from '../dist/optimized-svgs/branded/CONV.svg'
-import brandedBLOX from '../dist/optimized-svgs/branded/BLOX.svg'
-import brandedTROVE from '../dist/optimized-svgs/branded/TROVE.svg'
-import brandedLSD from '../dist/optimized-svgs/branded/LSD.svg'
-import brandedKUB from '../dist/optimized-svgs/branded/KUB.svg'
-import brandedINJ from '../dist/optimized-svgs/branded/INJ.svg'
-import brandedION from '../dist/optimized-svgs/branded/ION.svg'
-import brandedKOMPETE from '../dist/optimized-svgs/branded/KOMPETE.svg'
-import brandedWELT from '../dist/optimized-svgs/branded/WELT.svg'
-import brandedKASTA from '../dist/optimized-svgs/branded/KASTA.svg'
-import brandedAGLD from '../dist/optimized-svgs/branded/AGLD.svg'
-import brandedNFTX from '../dist/optimized-svgs/branded/NFTX.svg'
-import brandedMTVT from '../dist/optimized-svgs/branded/MTVT.svg'
-import brandedSAUCE from '../dist/optimized-svgs/branded/SAUCE.svg'
-import branded1INCH from '../dist/optimized-svgs/branded/1INCH.svg'
-import brandedUSDV from '../dist/optimized-svgs/branded/USDV.svg'
-import brandedDOLA from '../dist/optimized-svgs/branded/DOLA.svg'
-import brandedDOME from '../dist/optimized-svgs/branded/DOME.svg'
-import brandedPLA from '../dist/optimized-svgs/branded/PLA.svg'
-import brandedGNS from '../dist/optimized-svgs/branded/GNS.svg'
-import brandedEUL from '../dist/optimized-svgs/branded/EUL.svg'
-import brandedDMTR from '../dist/optimized-svgs/branded/DMTR.svg'
-import brandedMETIS from '../dist/optimized-svgs/branded/METIS.svg'
-import brandedAIMX from '../dist/optimized-svgs/branded/AIMX.svg'
-import brandedMOOV from '../dist/optimized-svgs/branded/MOOV.svg'
-import brandedBRN from '../dist/optimized-svgs/branded/BRN.svg'
-import brandedETH from '../dist/optimized-svgs/branded/ETH.svg'
-import brandedRAD from '../dist/optimized-svgs/branded/RAD.svg'
-import brandedSTIMA from '../dist/optimized-svgs/branded/STIMA.svg'
-import brandedKOM from '../dist/optimized-svgs/branded/KOM.svg'
-import brandedBIDZ from '../dist/optimized-svgs/branded/BIDZ.svg'
-import brandedKLV from '../dist/optimized-svgs/branded/KLV.svg'
-import brandedGOFX from '../dist/optimized-svgs/branded/GOFX.svg'
-import brandedBDT from '../dist/optimized-svgs/branded/BDT.svg'
-import brandedORAI from '../dist/optimized-svgs/branded/ORAI.svg'
-import brandedKWAI from '../dist/optimized-svgs/branded/KWAI.svg'
-import brandedRLC from '../dist/optimized-svgs/branded/RLC.svg'
-import brandedBITCI from '../dist/optimized-svgs/branded/BITCI.svg'
-import brandedPOOLX from '../dist/optimized-svgs/branded/POOLX.svg'
-import brandedPORTX from '../dist/optimized-svgs/branded/PORTX.svg'
-import brandedZMN from '../dist/optimized-svgs/branded/ZMN.svg'
-import brandedJIM from '../dist/optimized-svgs/branded/JIM.svg'
-import brandedYFII from '../dist/optimized-svgs/branded/YFII.svg'
-import brandedRETH from '../dist/optimized-svgs/branded/RETH.svg'
-import brandedTOSHI from '../dist/optimized-svgs/branded/TOSHI.svg'
-import brandedMBL from '../dist/optimized-svgs/branded/MBL.svg'
-import brandedSIX from '../dist/optimized-svgs/branded/SIX.svg'
-import brandedLOKA from '../dist/optimized-svgs/branded/LOKA.svg'
-import brandedCLH from '../dist/optimized-svgs/branded/CLH.svg'
-import brandedDIVI from '../dist/optimized-svgs/branded/DIVI.svg'
-import brandedCOS from '../dist/optimized-svgs/branded/COS.svg'
-import brandedETHEREUM from '../dist/optimized-svgs/branded/ETHEREUM.svg'
-import brandedFSN from '../dist/optimized-svgs/branded/FSN.svg'
-import brandedJST from '../dist/optimized-svgs/branded/JST.svg'
-import brandedSTPT from '../dist/optimized-svgs/branded/STPT.svg'
-import brandedPHONON from '../dist/optimized-svgs/branded/PHONON.svg'
-import brandedMVI from '../dist/optimized-svgs/branded/MVI.svg'
-import brandedPIXEL from '../dist/optimized-svgs/branded/PIXEL.svg'
-import brandedMTV from '../dist/optimized-svgs/branded/MTV.svg'
-import brandedSTRK from '../dist/optimized-svgs/branded/STRK.svg'
-import brandedDUST from '../dist/optimized-svgs/branded/DUST.svg'
-import brandedGORILLA from '../dist/optimized-svgs/branded/GORILLA.svg'
-import brandedFET from '../dist/optimized-svgs/branded/FET.svg'
-import brandedGT from '../dist/optimized-svgs/branded/GT.svg'
-import brandedMTA from '../dist/optimized-svgs/branded/MTA.svg'
-import brandedFOLD from '../dist/optimized-svgs/branded/FOLD.svg'
-import brandedPMON from '../dist/optimized-svgs/branded/PMON.svg'
-import brandedIBAT from '../dist/optimized-svgs/branded/IBAT.svg'
-import brandedONION from '../dist/optimized-svgs/branded/ONION.svg'
-import brandedXCP from '../dist/optimized-svgs/branded/XCP.svg'
-import brandedH2O from '../dist/optimized-svgs/branded/H2O.svg'
-import brandedRITE from '../dist/optimized-svgs/branded/RITE.svg'
-import brandedTVK from '../dist/optimized-svgs/branded/TVK.svg'
-import brandedVNO from '../dist/optimized-svgs/branded/VNO.svg'
-import brandedSSV from '../dist/optimized-svgs/branded/SSV.svg'
-import brandedMIMO from '../dist/optimized-svgs/branded/MIMO.svg'
-import brandedWAXP from '../dist/optimized-svgs/branded/WAXP.svg'
-import brandedSAFE from '../dist/optimized-svgs/branded/SAFE.svg'
-import brandedDPS from '../dist/optimized-svgs/branded/DPS.svg'
-import brandedTUT from '../dist/optimized-svgs/branded/TUT.svg'
-import brandedMUSIC from '../dist/optimized-svgs/branded/MUSIC.svg'
-import brandedFIS from '../dist/optimized-svgs/branded/FIS.svg'
-import brandedONI from '../dist/optimized-svgs/branded/ONI.svg'
-import brandedGG from '../dist/optimized-svgs/branded/GG.svg'
-import brandedFEG from '../dist/optimized-svgs/branded/FEG.svg'
-import brandedSTRX from '../dist/optimized-svgs/branded/STRX.svg'
-import brandedNULS from '../dist/optimized-svgs/branded/NULS.svg'
-import brandedCEUR from '../dist/optimized-svgs/branded/CEUR.svg'
-import brandedCND from '../dist/optimized-svgs/branded/CND.svg'
-import brandedSHX from '../dist/optimized-svgs/branded/SHX.svg'
-import brandedPOLS from '../dist/optimized-svgs/branded/POLS.svg'
-import brandedPOOH from '../dist/optimized-svgs/branded/POOH.svg'
-import brandedPAAL from '../dist/optimized-svgs/branded/PAAL.svg'
-import brandedATH from '../dist/optimized-svgs/branded/ATH.svg'
-import brandedCOW from '../dist/optimized-svgs/branded/COW.svg'
-import brandedEQUAL from '../dist/optimized-svgs/branded/EQUAL.svg'
-import brandedPUNDIX from '../dist/optimized-svgs/branded/PUNDIX.svg'
-import brandedSFD from '../dist/optimized-svgs/branded/SFD.svg'
-import brandedSPORE from '../dist/optimized-svgs/branded/SPORE.svg'
-import brandedATOR from '../dist/optimized-svgs/branded/ATOR.svg'
-import brandedSDL from '../dist/optimized-svgs/branded/SDL.svg'
-import brandedDFI from '../dist/optimized-svgs/branded/DFI.svg'
-import brandedCCT from '../dist/optimized-svgs/branded/CCT.svg'
-import brandedKAU from '../dist/optimized-svgs/branded/KAU.svg'
-import brandedGMPD from '../dist/optimized-svgs/branded/GMPD.svg'
-import brandedSHIDO from '../dist/optimized-svgs/branded/SHIDO.svg'
-import brandedROME from '../dist/optimized-svgs/branded/ROME.svg'
-import brandedSKEB from '../dist/optimized-svgs/branded/SKEB.svg'
-import brandedKMA from '../dist/optimized-svgs/branded/KMA.svg'
-import brandedBDP from '../dist/optimized-svgs/branded/BDP.svg'
-import brandedNRG from '../dist/optimized-svgs/branded/NRG.svg'
-import brandedRSS3 from '../dist/optimized-svgs/branded/RSS3.svg'
-import brandedIMGNAI from '../dist/optimized-svgs/branded/IMGNAI.svg'
-import brandedMONA from '../dist/optimized-svgs/branded/MONA.svg'
-import brandedPLR from '../dist/optimized-svgs/branded/PLR.svg'
-import brandedHANDY from '../dist/optimized-svgs/branded/HANDY.svg'
-import brandedEXTRA from '../dist/optimized-svgs/branded/EXTRA.svg'
-import brandedFEVR from '../dist/optimized-svgs/branded/FEVR.svg'
-import brandedNIM from '../dist/optimized-svgs/branded/NIM.svg'
-import brandedLPOOL from '../dist/optimized-svgs/branded/LPOOL.svg'
-import brandedUNDEAD from '../dist/optimized-svgs/branded/UNDEAD.svg'
-import brandedGMEE from '../dist/optimized-svgs/branded/GMEE.svg'
-import brandedBABYDOGE from '../dist/optimized-svgs/branded/BABYDOGE.svg'
-import brandedKTC from '../dist/optimized-svgs/branded/KTC.svg'
-import brandedSBTC from '../dist/optimized-svgs/branded/SBTC.svg'
-import brandedDOBO from '../dist/optimized-svgs/branded/DOBO.svg'
-import brandedLEVER from '../dist/optimized-svgs/branded/LEVER.svg'
-import brandedAGLA from '../dist/optimized-svgs/branded/AGLA.svg'
-import brandedAURY from '../dist/optimized-svgs/branded/AURY.svg'
-import brandedPAC from '../dist/optimized-svgs/branded/PAC.svg'
-import brandedPBX from '../dist/optimized-svgs/branded/PBX.svg'
-import brandedICHI from '../dist/optimized-svgs/branded/ICHI.svg'
-import brandedCUDOS from '../dist/optimized-svgs/branded/CUDOS.svg'
-import brandedNEX from '../dist/optimized-svgs/branded/NEX.svg'
-import brandedBPT from '../dist/optimized-svgs/branded/BPT.svg'
-import brandedUSDD from '../dist/optimized-svgs/branded/USDD.svg'
-import brandedNCDT from '../dist/optimized-svgs/branded/NCDT.svg'
-import brandedCONE from '../dist/optimized-svgs/branded/CONE.svg'
-import brandedWIN from '../dist/optimized-svgs/branded/WIN.svg'
-import brandedYDF from '../dist/optimized-svgs/branded/YDF.svg'
-import brandedBSX from '../dist/optimized-svgs/branded/BSX.svg'
-import brandedNEO from '../dist/optimized-svgs/branded/NEO.svg'
-import brandedHONEY from '../dist/optimized-svgs/branded/HONEY.svg'
-import brandedPRIME from '../dist/optimized-svgs/branded/PRIME.svg'
-import brandedSLAM from '../dist/optimized-svgs/branded/SLAM.svg'
-import brandedPYR from '../dist/optimized-svgs/branded/PYR.svg'
-import brandedUFT from '../dist/optimized-svgs/branded/UFT.svg'
-import brandedUMAMI from '../dist/optimized-svgs/branded/UMAMI.svg'
-import brandedBRRR from '../dist/optimized-svgs/branded/BRRR.svg'
-import brandedLIF3 from '../dist/optimized-svgs/branded/LIF3.svg'
-import brandedXCFX from '../dist/optimized-svgs/branded/XCFX.svg'
-import brandedTEER from '../dist/optimized-svgs/branded/TEER.svg'
-import brandedBLUR from '../dist/optimized-svgs/branded/BLUR.svg'
-import brandedGOLDEN from '../dist/optimized-svgs/branded/GOLDEN.svg'
-import brandedELK from '../dist/optimized-svgs/branded/ELK.svg'
-import brandedPTU from '../dist/optimized-svgs/branded/PTU.svg'
-import brandedKP3R from '../dist/optimized-svgs/branded/KP3R.svg'
-import brandedIXT from '../dist/optimized-svgs/branded/IXT.svg'
-import brandedBCOIN from '../dist/optimized-svgs/branded/BCOIN.svg'
-import brandedNADA from '../dist/optimized-svgs/branded/NADA.svg'
-import brandedKAT from '../dist/optimized-svgs/branded/KAT.svg'
-import brandedSEI from '../dist/optimized-svgs/branded/SEI.svg'
-import brandedBTSG from '../dist/optimized-svgs/branded/BTSG.svg'
-import brandedMMF from '../dist/optimized-svgs/branded/MMF.svg'
-import brandedCETUS from '../dist/optimized-svgs/branded/CETUS.svg'
-import brandedXWG from '../dist/optimized-svgs/branded/XWG.svg'
-import brandedXPRT from '../dist/optimized-svgs/branded/XPRT.svg'
-import brandedDIP from '../dist/optimized-svgs/branded/DIP.svg'
-import brandedCOV from '../dist/optimized-svgs/branded/COV.svg'
-import brandedODDZ from '../dist/optimized-svgs/branded/ODDZ.svg'
-import brandedDHT from '../dist/optimized-svgs/branded/DHT.svg'
-import brandedSC from '../dist/optimized-svgs/branded/SC.svg'
-import brandedJUNGLE4EOS from '../dist/optimized-svgs/branded/JUNGLE4EOS.svg'
-import brandedAVA from '../dist/optimized-svgs/branded/AVA.svg'
-import brandedSTEP from '../dist/optimized-svgs/branded/STEP.svg'
-import brandedGQ from '../dist/optimized-svgs/branded/GQ.svg'
-import brandedARIA20 from '../dist/optimized-svgs/branded/ARIA20.svg'
-import brandedMTD from '../dist/optimized-svgs/branded/MTD.svg'
-import brandedVRSW from '../dist/optimized-svgs/branded/VRSW.svg'
-import brandedMNGO from '../dist/optimized-svgs/branded/MNGO.svg'
-import brandedMVL from '../dist/optimized-svgs/branded/MVL.svg'
-import brandedMTS from '../dist/optimized-svgs/branded/MTS.svg'
-import brandedFOOM from '../dist/optimized-svgs/branded/FOOM.svg'
-import brandedCTK from '../dist/optimized-svgs/branded/CTK.svg'
-import brandedSPH from '../dist/optimized-svgs/branded/SPH.svg'
-import brandedHOLD from '../dist/optimized-svgs/branded/HOLD.svg'
-import brandedBCDT from '../dist/optimized-svgs/branded/BCDT.svg'
-import brandedZYN from '../dist/optimized-svgs/branded/ZYN.svg'
-import brandedCVC from '../dist/optimized-svgs/branded/CVC.svg'
-import brandedHGT from '../dist/optimized-svgs/branded/HGT.svg'
-import brandedAVAX from '../dist/optimized-svgs/branded/AVAX.svg'
-import brandedCWEB from '../dist/optimized-svgs/branded/CWEB.svg'
-import brandedBORA from '../dist/optimized-svgs/branded/BORA.svg'
-import brandedOBI from '../dist/optimized-svgs/branded/OBI.svg'
-import brandedALPHA from '../dist/optimized-svgs/branded/ALPHA.svg'
-import brandedMIND from '../dist/optimized-svgs/branded/MIND.svg'
-import brandedAEGIS from '../dist/optimized-svgs/branded/AEGIS.svg'
-import brandedHDX from '../dist/optimized-svgs/branded/HDX.svg'
-import brandedCTI from '../dist/optimized-svgs/branded/CTI.svg'
-import brandedALEPH from '../dist/optimized-svgs/branded/ALEPH.svg'
-import brandedSHOPX from '../dist/optimized-svgs/branded/SHOPX.svg'
-import brandedIRIS from '../dist/optimized-svgs/branded/IRIS.svg'
-import brandedSOFI from '../dist/optimized-svgs/branded/SOFI.svg'
-import brandedEL from '../dist/optimized-svgs/branded/EL.svg'
-import brandedOZO from '../dist/optimized-svgs/branded/OZO.svg'
-import brandedCOC from '../dist/optimized-svgs/branded/COC.svg'
-import brandedMAP from '../dist/optimized-svgs/branded/MAP.svg'
-import brandedCNG from '../dist/optimized-svgs/branded/CNG.svg'
-import brandedTON from '../dist/optimized-svgs/branded/TON.svg'
-import brandedFRM from '../dist/optimized-svgs/branded/FRM.svg'
-import brandedOMMI from '../dist/optimized-svgs/branded/OMMI.svg'
-import brandedAVT from '../dist/optimized-svgs/branded/AVT.svg'
-import brandedWALV from '../dist/optimized-svgs/branded/WALV.svg'
-import brandedBTSE from '../dist/optimized-svgs/branded/BTSE.svg'
-import brandedSFP from '../dist/optimized-svgs/branded/SFP.svg'
-import brandedMEME from '../dist/optimized-svgs/branded/MEME.svg'
-import brandedCAH from '../dist/optimized-svgs/branded/CAH.svg'
-import brandedCOTI from '../dist/optimized-svgs/branded/COTI.svg'
-import brandedLEO from '../dist/optimized-svgs/branded/LEO.svg'
-import brandedFNSA from '../dist/optimized-svgs/branded/FNSA.svg'
-import brandedCROID from '../dist/optimized-svgs/branded/CROID.svg'
-import brandedBIT from '../dist/optimized-svgs/branded/BIT.svg'
-import brandedNFAI from '../dist/optimized-svgs/branded/NFAI.svg'
-import brandedNODL from '../dist/optimized-svgs/branded/NODL.svg'
-import brandedRBX from '../dist/optimized-svgs/branded/RBX.svg'
-import brandedWNDR from '../dist/optimized-svgs/branded/WNDR.svg'
-import brandedXCHF from '../dist/optimized-svgs/branded/XCHF.svg'
-import brandedGMX from '../dist/optimized-svgs/branded/GMX.svg'
-import brandedONIT from '../dist/optimized-svgs/branded/ONIT.svg'
-import brandedPIVX from '../dist/optimized-svgs/branded/PIVX.svg'
-import brandedBIST from '../dist/optimized-svgs/branded/BIST.svg'
-import brandedEWT from '../dist/optimized-svgs/branded/EWT.svg'
-import brandedRWN from '../dist/optimized-svgs/branded/RWN.svg'
-import brandedCHEQ from '../dist/optimized-svgs/branded/CHEQ.svg'
-import brandedHUSD from '../dist/optimized-svgs/branded/HUSD.svg'
-import brandedKLAY from '../dist/optimized-svgs/branded/KLAY.svg'
-import brandedPROM from '../dist/optimized-svgs/branded/PROM.svg'
-import brandedIDLE from '../dist/optimized-svgs/branded/IDLE.svg'
-import brandedGCR from '../dist/optimized-svgs/branded/GCR.svg'
-import brandedPAW from '../dist/optimized-svgs/branded/PAW.svg'
-import brandedKEKE from '../dist/optimized-svgs/branded/KEKE.svg'
-import brandedTRONPAD from '../dist/optimized-svgs/branded/TRONPAD.svg'
-import brandedETN from '../dist/optimized-svgs/branded/ETN.svg'
-import brandedTIDAL from '../dist/optimized-svgs/branded/TIDAL.svg'
-import brandedBABYTRUMP from '../dist/optimized-svgs/branded/BABYTRUMP.svg'
-import brandedRUG from '../dist/optimized-svgs/branded/RUG.svg'
-import brandedSOLVE from '../dist/optimized-svgs/branded/SOLVE.svg'
-import brandedKUNCI from '../dist/optimized-svgs/branded/KUNCI.svg'
-import brandedVTHO from '../dist/optimized-svgs/branded/VTHO.svg'
-import brandedRBN from '../dist/optimized-svgs/branded/RBN.svg'
-import brandedRENBTC from '../dist/optimized-svgs/branded/RENBTC.svg'
-import brandedFLEX from '../dist/optimized-svgs/branded/FLEX.svg'
-import brandedNPM from '../dist/optimized-svgs/branded/NPM.svg'
-import brandedMOVR from '../dist/optimized-svgs/branded/MOVR.svg'
-import brandedIMPT from '../dist/optimized-svgs/branded/IMPT.svg'
-import brandedEML from '../dist/optimized-svgs/branded/EML.svg'
-import brandedUNIBOT from '../dist/optimized-svgs/branded/UNIBOT.svg'
-import brandedMOVE from '../dist/optimized-svgs/branded/MOVE.svg'
-import branded0X0 from '../dist/optimized-svgs/branded/0X0.svg'
-import brandedSDN from '../dist/optimized-svgs/branded/SDN.svg'
-import brandedUNFI from '../dist/optimized-svgs/branded/UNFI.svg'
-import brandedDEP from '../dist/optimized-svgs/branded/DEP.svg'
-import brandedDGX from '../dist/optimized-svgs/branded/DGX.svg'
-import brandedASIA from '../dist/optimized-svgs/branded/ASIA.svg'
-import brandedFPS from '../dist/optimized-svgs/branded/FPS.svg'
-import brandedQSR from '../dist/optimized-svgs/branded/QSR.svg'
-import brandedQUBE from '../dist/optimized-svgs/branded/QUBE.svg'
-import brandedPUMLX from '../dist/optimized-svgs/branded/PUMLX.svg'
-import brandedXYO from '../dist/optimized-svgs/branded/XYO.svg'
-import brandedBZRX from '../dist/optimized-svgs/branded/BZRX.svg'
-import brandedCLY from '../dist/optimized-svgs/branded/CLY.svg'
-import brandedBRIDGE from '../dist/optimized-svgs/branded/BRIDGE.svg'
-import brandedXIDO from '../dist/optimized-svgs/branded/XIDO.svg'
-import brandedMETF from '../dist/optimized-svgs/branded/METF.svg'
-import brandedKIBSHI from '../dist/optimized-svgs/branded/KIBSHI.svg'
-import brandedMPLX from '../dist/optimized-svgs/branded/MPLX.svg'
-import brandedBLANK from '../dist/optimized-svgs/branded/BLANK.svg'
-import brandedFER from '../dist/optimized-svgs/branded/FER.svg'
-import brandedCHAIN from '../dist/optimized-svgs/branded/CHAIN.svg'
-import brandedTAKI from '../dist/optimized-svgs/branded/TAKI.svg'
-import brandedMVX from '../dist/optimized-svgs/branded/MVX.svg'
-import brandedACT from '../dist/optimized-svgs/branded/ACT.svg'
-import brandedOLT from '../dist/optimized-svgs/branded/OLT.svg'
-import brandedSSWP from '../dist/optimized-svgs/branded/SSWP.svg'
-import brandedCREDI from '../dist/optimized-svgs/branded/CREDI.svg'
-import brandedEXRD from '../dist/optimized-svgs/branded/EXRD.svg'
-import brandedCWS from '../dist/optimized-svgs/branded/CWS.svg'
-import brandedHOOK from '../dist/optimized-svgs/branded/HOOK.svg'
-import brandedQKC from '../dist/optimized-svgs/branded/QKC.svg'
-import brandedGSWIFT from '../dist/optimized-svgs/branded/GSWIFT.svg'
-import brandedOAS from '../dist/optimized-svgs/branded/OAS.svg'
-import brandedFLM from '../dist/optimized-svgs/branded/FLM.svg'
-import brandedTRU from '../dist/optimized-svgs/branded/TRU.svg'
-import brandedXDB from '../dist/optimized-svgs/branded/XDB.svg'
-import brandedXDEFI from '../dist/optimized-svgs/branded/XDEFI.svg'
-import brandedCQT from '../dist/optimized-svgs/branded/CQT.svg'
-import brandedCRO from '../dist/optimized-svgs/branded/CRO.svg'
-import brandedMV from '../dist/optimized-svgs/branded/MV.svg'
-import brandedNRCH from '../dist/optimized-svgs/branded/NRCH.svg'
-import brandedAHT from '../dist/optimized-svgs/branded/AHT.svg'
-import brandedBUILD from '../dist/optimized-svgs/branded/BUILD.svg'
-import brandedGBEX from '../dist/optimized-svgs/branded/GBEX.svg'
-import brandedTRB from '../dist/optimized-svgs/branded/TRB.svg'
-import brandedZOOMER from '../dist/optimized-svgs/branded/ZOOMER.svg'
-import brandedSXP from '../dist/optimized-svgs/branded/SXP.svg'
-import brandedBLUESPARROW from '../dist/optimized-svgs/branded/BLUESPARROW.svg'
-import brandedXPLA from '../dist/optimized-svgs/branded/XPLA.svg'
-import brandedCARBON from '../dist/optimized-svgs/branded/CARBON.svg'
-import brandedSALT from '../dist/optimized-svgs/branded/SALT.svg'
-import brandedDOT from '../dist/optimized-svgs/branded/DOT.svg'
-import brandedNEXO from '../dist/optimized-svgs/branded/NEXO.svg'
-import brandedTT from '../dist/optimized-svgs/branded/TT.svg'
-import brandedAPE from '../dist/optimized-svgs/branded/APE.svg'
-import brandedELAND from '../dist/optimized-svgs/branded/ELAND.svg'
-import brandedASTROC from '../dist/optimized-svgs/branded/ASTROC.svg'
-import brandedSMBR from '../dist/optimized-svgs/branded/SMBR.svg'
-import brandedORB from '../dist/optimized-svgs/branded/ORB.svg'
-import brandedTGT from '../dist/optimized-svgs/branded/TGT.svg'
-import brandedZIG from '../dist/optimized-svgs/branded/ZIG.svg'
-import brandedTRCL from '../dist/optimized-svgs/branded/TRCL.svg'
-import brandedKEX from '../dist/optimized-svgs/branded/KEX.svg'
-import brandedPRQ from '../dist/optimized-svgs/branded/PRQ.svg'
-import brandedRIN from '../dist/optimized-svgs/branded/RIN.svg'
-import brandedXSGD from '../dist/optimized-svgs/branded/XSGD.svg'
-import brandedKINT from '../dist/optimized-svgs/branded/KINT.svg'
-import brandedMMPRO from '../dist/optimized-svgs/branded/MMPRO.svg'
-import brandedEFL from '../dist/optimized-svgs/branded/EFL.svg'
-import brandedSWEAT from '../dist/optimized-svgs/branded/SWEAT.svg'
-import brandedWXT from '../dist/optimized-svgs/branded/WXT.svg'
-import brandedRPL from '../dist/optimized-svgs/branded/RPL.svg'
-import brandedCROWD from '../dist/optimized-svgs/branded/CROWD.svg'
-import brandedCYBER from '../dist/optimized-svgs/branded/CYBER.svg'
-import brandedGIV from '../dist/optimized-svgs/branded/GIV.svg'
-import brandedBEAM from '../dist/optimized-svgs/branded/BEAM.svg'
-import brandedTRYB from '../dist/optimized-svgs/branded/TRYB.svg'
-import brandedAIPAD from '../dist/optimized-svgs/branded/AIPAD.svg'
-import brandedWNXM from '../dist/optimized-svgs/branded/WNXM.svg'
-import brandedNLS from '../dist/optimized-svgs/branded/NLS.svg'
-import brandedPEX from '../dist/optimized-svgs/branded/PEX.svg'
-import brandedTRVL from '../dist/optimized-svgs/branded/TRVL.svg'
-import brandedGET from '../dist/optimized-svgs/branded/GET.svg'
-import brandedFDUSD from '../dist/optimized-svgs/branded/FDUSD.svg'
-import brandedJESUS from '../dist/optimized-svgs/branded/JESUS.svg'
-import brandedQANX from '../dist/optimized-svgs/branded/QANX.svg'
-import brandedBZR from '../dist/optimized-svgs/branded/BZR.svg'
-import brandedSILK from '../dist/optimized-svgs/branded/SILK.svg'
-import brandedPKR from '../dist/optimized-svgs/branded/PKR.svg'
-import brandedSAKAI from '../dist/optimized-svgs/branded/SAKAI.svg'
-import brandedPEPE from '../dist/optimized-svgs/branded/PEPE.svg'
-import brandedKIBA from '../dist/optimized-svgs/branded/KIBA.svg'
-import brandedBAX from '../dist/optimized-svgs/branded/BAX.svg'
-import brandedTROY from '../dist/optimized-svgs/branded/TROY.svg'
-import brandedBRWL from '../dist/optimized-svgs/branded/BRWL.svg'
-import brandedBAO from '../dist/optimized-svgs/branded/BAO.svg'
-import brandedLINK from '../dist/optimized-svgs/branded/LINK.svg'
-import brandedALOT from '../dist/optimized-svgs/branded/ALOT.svg'
-import brandedUMA from '../dist/optimized-svgs/branded/UMA.svg'
-import brandedSPELL from '../dist/optimized-svgs/branded/SPELL.svg'
-import brandedMMIT from '../dist/optimized-svgs/branded/MMIT.svg'
-import brandedMORK from '../dist/optimized-svgs/branded/MORK.svg'
-import brandedKEY from '../dist/optimized-svgs/branded/KEY.svg'
-import brandedJULD from '../dist/optimized-svgs/branded/JULD.svg'
-import brandedSATS from '../dist/optimized-svgs/branded/SATS.svg'
-import brandedHTR from '../dist/optimized-svgs/branded/HTR.svg'
-import brandedORT from '../dist/optimized-svgs/branded/ORT.svg'
-import brandedGYEN from '../dist/optimized-svgs/branded/GYEN.svg'
-import brandedFARM from '../dist/optimized-svgs/branded/FARM.svg'
-import brandedDAI from '../dist/optimized-svgs/branded/DAI.svg'
-import brandedDBR from '../dist/optimized-svgs/branded/DBR.svg'
-import brandedMATICX from '../dist/optimized-svgs/branded/MATICX.svg'
-import brandedCDT from '../dist/optimized-svgs/branded/CDT.svg'
-import brandedCGO from '../dist/optimized-svgs/branded/CGO.svg'
-import brandedGLEEC from '../dist/optimized-svgs/branded/GLEEC.svg'
-import brandedUBXS from '../dist/optimized-svgs/branded/UBXS.svg'
-import brandedDEFI from '../dist/optimized-svgs/branded/DEFI.svg'
-import brandedVRA from '../dist/optimized-svgs/branded/VRA.svg'
-import brandedHZN from '../dist/optimized-svgs/branded/HZN.svg'
-import brandedFUN from '../dist/optimized-svgs/branded/FUN.svg'
-import brandedVITA from '../dist/optimized-svgs/branded/VITA.svg'
-import brandedZEE from '../dist/optimized-svgs/branded/ZEE.svg'
-import brandedADA from '../dist/optimized-svgs/branded/ADA.svg'
-import brandedCERE from '../dist/optimized-svgs/branded/CERE.svg'
-import brandedSHDW from '../dist/optimized-svgs/branded/SHDW.svg'
-import brandedFCT from '../dist/optimized-svgs/branded/FCT.svg'
-import branded1ART from '../dist/optimized-svgs/branded/1ART.svg'
-import brandedBRUSH from '../dist/optimized-svgs/branded/BRUSH.svg'
-import brandedXEP from '../dist/optimized-svgs/branded/XEP.svg'
-import brandedTRC from '../dist/optimized-svgs/branded/TRC.svg'
-import brandedEDGE from '../dist/optimized-svgs/branded/EDGE.svg'
-import brandedL2 from '../dist/optimized-svgs/branded/L2.svg'
-import brandedQOM from '../dist/optimized-svgs/branded/QOM.svg'
-import brandedMARSH from '../dist/optimized-svgs/branded/MARSH.svg'
-import brandedXDC from '../dist/optimized-svgs/branded/XDC.svg'
-import brandedCOLLAB from '../dist/optimized-svgs/branded/COLLAB.svg'
-import brandedTOMB from '../dist/optimized-svgs/branded/TOMB.svg'
-import brandedAIS from '../dist/optimized-svgs/branded/AIS.svg'
-import brandedVERSE from '../dist/optimized-svgs/branded/VERSE.svg'
-import brandedSTG from '../dist/optimized-svgs/branded/STG.svg'
-import brandedQLC from '../dist/optimized-svgs/branded/QLC.svg'
-import brandedSOLX from '../dist/optimized-svgs/branded/SOLX.svg'
-import brandedATRI from '../dist/optimized-svgs/branded/ATRI.svg'
-import brandedSPACE from '../dist/optimized-svgs/branded/SPACE.svg'
-import brandedASTO from '../dist/optimized-svgs/branded/ASTO.svg'
-import brandedOKT from '../dist/optimized-svgs/branded/OKT.svg'
-import brandedAA from '../dist/optimized-svgs/branded/AA.svg'
-import brandedVSP from '../dist/optimized-svgs/branded/VSP.svg'
-import brandedHXD from '../dist/optimized-svgs/branded/HXD.svg'
-import brandedDEGO from '../dist/optimized-svgs/branded/DEGO.svg'
-import brandedOSAK from '../dist/optimized-svgs/branded/OSAK.svg'
-import brandedSCAR from '../dist/optimized-svgs/branded/SCAR.svg'
-import brandedSETH2 from '../dist/optimized-svgs/branded/SETH2.svg'
-import brandedRIBBIT from '../dist/optimized-svgs/branded/RIBBIT.svg'
-import brandedLIME from '../dist/optimized-svgs/branded/LIME.svg'
-import brandedRJV from '../dist/optimized-svgs/branded/RJV.svg'
-import brandedUNO from '../dist/optimized-svgs/branded/UNO.svg'
-import brandedPRE from '../dist/optimized-svgs/branded/PRE.svg'
-import brandedREN from '../dist/optimized-svgs/branded/REN.svg'
-import brandedGALA from '../dist/optimized-svgs/branded/GALA.svg'
-import brandedEFX from '../dist/optimized-svgs/branded/EFX.svg'
-import brandedIST from '../dist/optimized-svgs/branded/IST.svg'
-import brandedTOKEN from '../dist/optimized-svgs/branded/TOKEN.svg'
-import brandedEDG from '../dist/optimized-svgs/branded/EDG.svg'
-import brandedGAME from '../dist/optimized-svgs/branded/GAME.svg'
-import brandedROSE from '../dist/optimized-svgs/branded/ROSE.svg'
-import brandedIDEX from '../dist/optimized-svgs/branded/IDEX.svg'
-import brandedBEAN from '../dist/optimized-svgs/branded/BEAN.svg'
-import brandedYAM from '../dist/optimized-svgs/branded/YAM.svg'
-import brandedVOLT from '../dist/optimized-svgs/branded/VOLT.svg'
-import brandedRSC from '../dist/optimized-svgs/branded/RSC.svg'
-import brandedLTC from '../dist/optimized-svgs/branded/LTC.svg'
-import brandedBXX from '../dist/optimized-svgs/branded/BXX.svg'
-import brandedTUSD from '../dist/optimized-svgs/branded/TUSD.svg'
-import brandedDOGE from '../dist/optimized-svgs/branded/DOGE.svg'
-import brandedCTSI from '../dist/optimized-svgs/branded/CTSI.svg'
-import brandedMETAL from '../dist/optimized-svgs/branded/METAL.svg'
-import brandedHERO from '../dist/optimized-svgs/branded/HERO.svg'
-import brandedWIKEN from '../dist/optimized-svgs/branded/WIKEN.svg'
-import brandedPKF from '../dist/optimized-svgs/branded/PKF.svg'
-import brandedTPAD from '../dist/optimized-svgs/branded/TPAD.svg'
-import brandedANGLE from '../dist/optimized-svgs/branded/ANGLE.svg'
-import brandedNAV from '../dist/optimized-svgs/branded/NAV.svg'
-import brandedPYTH from '../dist/optimized-svgs/branded/PYTH.svg'
-import brandedTIME from '../dist/optimized-svgs/branded/TIME.svg'
-import brandedLIBRE from '../dist/optimized-svgs/branded/LIBRE.svg'
-import brandedBTM from '../dist/optimized-svgs/branded/BTM.svg'
-import brandedKIN from '../dist/optimized-svgs/branded/KIN.svg'
-import brandedDVPN from '../dist/optimized-svgs/branded/DVPN.svg'
-import brandedLUSD from '../dist/optimized-svgs/branded/LUSD.svg'
-import brandedBCD from '../dist/optimized-svgs/branded/BCD.svg'
-import brandedREGEN from '../dist/optimized-svgs/branded/REGEN.svg'
-import brandedBAL from '../dist/optimized-svgs/branded/BAL.svg'
-import brandedHBOT from '../dist/optimized-svgs/branded/HBOT.svg'
-import brandedMATIC from '../dist/optimized-svgs/branded/MATIC.svg'
-import brandedFREN from '../dist/optimized-svgs/branded/FREN.svg'
-import brandedBMX from '../dist/optimized-svgs/branded/BMX.svg'
-import brandedNXT from '../dist/optimized-svgs/branded/NXT.svg'
-import brandedUMB from '../dist/optimized-svgs/branded/UMB.svg'
-import brandedLAT from '../dist/optimized-svgs/branded/LAT.svg'
-import brandedPIKA from '../dist/optimized-svgs/branded/PIKA.svg'
-import brandedCOPE from '../dist/optimized-svgs/branded/COPE.svg'
-import brandedSTOSMO from '../dist/optimized-svgs/branded/STOSMO.svg'
-import brandedDCB from '../dist/optimized-svgs/branded/DCB.svg'
-import brandedXPR from '../dist/optimized-svgs/branded/XPR.svg'
-import brandedJUNO from '../dist/optimized-svgs/branded/JUNO.svg'
-import brandedFUTURE from '../dist/optimized-svgs/branded/FUTURE.svg'
-import brandedPOLYX from '../dist/optimized-svgs/branded/POLYX.svg'
-import brandedBAND from '../dist/optimized-svgs/branded/BAND.svg'
-import brandedEVEAI from '../dist/optimized-svgs/branded/EVEAI.svg'
-import brandedMBOX from '../dist/optimized-svgs/branded/MBOX.svg'
-import brandedCGL from '../dist/optimized-svgs/branded/CGL.svg'
-import brandedJOY from '../dist/optimized-svgs/branded/JOY.svg'
-import brandedFYN from '../dist/optimized-svgs/branded/FYN.svg'
-import brandedSHIBDOGE from '../dist/optimized-svgs/branded/SHIBDOGE.svg'
-import brandedSOL from '../dist/optimized-svgs/branded/SOL.svg'
-import brandedAQT from '../dist/optimized-svgs/branded/AQT.svg'
-import brandedMDX from '../dist/optimized-svgs/branded/MDX.svg'
-import brandedBOLT from '../dist/optimized-svgs/branded/BOLT.svg'
-import brandedBONK from '../dist/optimized-svgs/branded/BONK.svg'
-import brandedSOUL from '../dist/optimized-svgs/branded/SOUL.svg'
-import brandedDERO from '../dist/optimized-svgs/branded/DERO.svg'
-import brandedSANI from '../dist/optimized-svgs/branded/SANI.svg'
-import brandedAXEL from '../dist/optimized-svgs/branded/AXEL.svg'
-import brandedCRPT from '../dist/optimized-svgs/branded/CRPT.svg'
-import brandedADAPAD from '../dist/optimized-svgs/branded/ADAPAD.svg'
-import branded3ULL from '../dist/optimized-svgs/branded/3ULL.svg'
-import brandedX2Y2 from '../dist/optimized-svgs/branded/X2Y2.svg'
-import brandedMC from '../dist/optimized-svgs/branded/MC.svg'
-import brandedFLX from '../dist/optimized-svgs/branded/FLX.svg'
-import brandedSUB from '../dist/optimized-svgs/branded/SUB.svg'
-import brandedAIR from '../dist/optimized-svgs/branded/AIR.svg'
-import brandedDINGO from '../dist/optimized-svgs/branded/DINGO.svg'
-import brandedEDEN from '../dist/optimized-svgs/branded/EDEN.svg'
-import brandedOX from '../dist/optimized-svgs/branded/OX.svg'
-import brandedDTX from '../dist/optimized-svgs/branded/DTX.svg'
-import brandedREEF from '../dist/optimized-svgs/branded/REEF.svg'
-import brandedNEUROS from '../dist/optimized-svgs/branded/NEUROS.svg'
-import brandedDESO from '../dist/optimized-svgs/branded/DESO.svg'
-import brandedECOX from '../dist/optimized-svgs/branded/ECOX.svg'
-import brandedVEX from '../dist/optimized-svgs/branded/VEX.svg'
-import brandedFORTH from '../dist/optimized-svgs/branded/FORTH.svg'
-import brandedSAMA from '../dist/optimized-svgs/branded/SAMA.svg'
-import brandedDXL from '../dist/optimized-svgs/branded/DXL.svg'
-import brandedHAIR from '../dist/optimized-svgs/branded/HAIR.svg'
-import brandedSPOOL from '../dist/optimized-svgs/branded/SPOOL.svg'
-import brandedMFT from '../dist/optimized-svgs/branded/MFT.svg'
-import brandedPOKT from '../dist/optimized-svgs/branded/POKT.svg'
-import brandedFORE from '../dist/optimized-svgs/branded/FORE.svg'
-import brandedRADIO from '../dist/optimized-svgs/branded/RADIO.svg'
-import brandedMGP from '../dist/optimized-svgs/branded/MGP.svg'
-import brandedAPT from '../dist/optimized-svgs/branded/APT.svg'
-import brandedMEX from '../dist/optimized-svgs/branded/MEX.svg'
-import brandedARK from '../dist/optimized-svgs/branded/ARK.svg'
-import brandedMNTL from '../dist/optimized-svgs/branded/MNTL.svg'
-import brandedTIN from '../dist/optimized-svgs/branded/TIN.svg'
-import brandedDOR from '../dist/optimized-svgs/branded/DOR.svg'
-import brandedCEEK from '../dist/optimized-svgs/branded/CEEK.svg'
-import brandedFTM from '../dist/optimized-svgs/branded/FTM.svg'
-import brandedDNXC from '../dist/optimized-svgs/branded/DNXC.svg'
-import brandedSCLP from '../dist/optimized-svgs/branded/SCLP.svg'
-import brandedSATT from '../dist/optimized-svgs/branded/SATT.svg'
-import brandedPAID from '../dist/optimized-svgs/branded/PAID.svg'
-import brandedAART from '../dist/optimized-svgs/branded/AART.svg'
-import brandedINFRA from '../dist/optimized-svgs/branded/INFRA.svg'
-import brandedKINE from '../dist/optimized-svgs/branded/KINE.svg'
-import brandedBLX from '../dist/optimized-svgs/branded/BLX.svg'
-import brandedDFYN from '../dist/optimized-svgs/branded/DFYN.svg'
-import brandedSPHERE from '../dist/optimized-svgs/branded/SPHERE.svg'
-import brandedHYVE from '../dist/optimized-svgs/branded/HYVE.svg'
-import brandedLCX from '../dist/optimized-svgs/branded/LCX.svg'
-import brandedTSUKA from '../dist/optimized-svgs/branded/TSUKA.svg'
-import brandedIDRT from '../dist/optimized-svgs/branded/IDRT.svg'
-import brandedWIGO from '../dist/optimized-svgs/branded/WIGO.svg'
-import brandedLADYS from '../dist/optimized-svgs/branded/LADYS.svg'
-import brandedQUIDD from '../dist/optimized-svgs/branded/QUIDD.svg'
-import brandedEDU from '../dist/optimized-svgs/branded/EDU.svg'
-import brandedNAOS from '../dist/optimized-svgs/branded/NAOS.svg'
-import brandedRGT from '../dist/optimized-svgs/branded/RGT.svg'
-import brandedLINDA from '../dist/optimized-svgs/branded/LINDA.svg'
-import brandedWALLET from '../dist/optimized-svgs/branded/WALLET.svg'
-import brandedLZM from '../dist/optimized-svgs/branded/LZM.svg'
-import brandedDOGA from '../dist/optimized-svgs/branded/DOGA.svg'
-import brandedAGIX from '../dist/optimized-svgs/branded/AGIX.svg'
-import brandedQTUM from '../dist/optimized-svgs/branded/QTUM.svg'
-import brandedWEMIX from '../dist/optimized-svgs/branded/WEMIX.svg'
-import brandedBEND from '../dist/optimized-svgs/branded/BEND.svg'
-import brandedRVST from '../dist/optimized-svgs/branded/RVST.svg'
-import brandedDXGM from '../dist/optimized-svgs/branded/DXGM.svg'
-import brandedCAKE from '../dist/optimized-svgs/branded/CAKE.svg'
-import brandedMTRM from '../dist/optimized-svgs/branded/MTRM.svg'
-import brandedPICKLE from '../dist/optimized-svgs/branded/PICKLE.svg'
-import brandedYOU from '../dist/optimized-svgs/branded/YOU.svg'
-import brandedDIONE from '../dist/optimized-svgs/branded/DIONE.svg'
-import brandedPKT from '../dist/optimized-svgs/branded/PKT.svg'
-import brandedERN from '../dist/optimized-svgs/branded/ERN.svg'
-import brandedEQU from '../dist/optimized-svgs/branded/EQU.svg'
-import brandedLITT from '../dist/optimized-svgs/branded/LITT.svg'
-import brandedEQB from '../dist/optimized-svgs/branded/EQB.svg'
-import brandedIGU from '../dist/optimized-svgs/branded/IGU.svg'
-import brandedBAI from '../dist/optimized-svgs/branded/BAI.svg'
-import brandedCAST from '../dist/optimized-svgs/branded/CAST.svg'
-import brandedAGRS from '../dist/optimized-svgs/branded/AGRS.svg'
-import brandedRDN from '../dist/optimized-svgs/branded/RDN.svg'
-import brandedEGO from '../dist/optimized-svgs/branded/EGO.svg'
-import brandedBICO from '../dist/optimized-svgs/branded/BICO.svg'
-import brandedDSLA from '../dist/optimized-svgs/branded/DSLA.svg'
-import brandedBUSD from '../dist/optimized-svgs/branded/BUSD.svg'
-import brandedSUIP from '../dist/optimized-svgs/branded/SUIP.svg'
-import brandedISP from '../dist/optimized-svgs/branded/ISP.svg'
-import brandedMASQ from '../dist/optimized-svgs/branded/MASQ.svg'
-import brandedXSUSHI from '../dist/optimized-svgs/branded/XSUSHI.svg'
-import brandedDORA from '../dist/optimized-svgs/branded/DORA.svg'
-import brandedDOSE from '../dist/optimized-svgs/branded/DOSE.svg'
-import brandedTRAC from '../dist/optimized-svgs/branded/TRAC.svg'
-import brandedBOB from '../dist/optimized-svgs/branded/BOB.svg'
-import brandedTEL from '../dist/optimized-svgs/branded/TEL.svg'
-import brandedSTMX from '../dist/optimized-svgs/branded/STMX.svg'
-import brandedDAO from '../dist/optimized-svgs/branded/DAO.svg'
-import brandedBFIC from '../dist/optimized-svgs/branded/BFIC.svg'
-import brandedDEXTF from '../dist/optimized-svgs/branded/DEXTF.svg'
-import brandedMKR from '../dist/optimized-svgs/branded/MKR.svg'
-import brandedDBC from '../dist/optimized-svgs/branded/DBC.svg'
-import brandedMIM from '../dist/optimized-svgs/branded/MIM.svg'
-import brandedATPAY from '../dist/optimized-svgs/branded/ATPAY.svg'
-import brandedLAND from '../dist/optimized-svgs/branded/LAND.svg'
-import brandedDEFX from '../dist/optimized-svgs/branded/DEFX.svg'
-import brandedSLR from '../dist/optimized-svgs/branded/SLR.svg'
-import brandedSDEX from '../dist/optimized-svgs/branded/SDEX.svg'
-import brandedADCO from '../dist/optimized-svgs/branded/ADCO.svg'
-import brandedZEC from '../dist/optimized-svgs/branded/ZEC.svg'
-import brandedTKP from '../dist/optimized-svgs/branded/TKP.svg'
-import brandedCUBE from '../dist/optimized-svgs/branded/CUBE.svg'
-import brandedETHIX from '../dist/optimized-svgs/branded/ETHIX.svg'
-import brandedAR from '../dist/optimized-svgs/branded/AR.svg'
-import brandedADP from '../dist/optimized-svgs/branded/ADP.svg'
-import brandedSYS from '../dist/optimized-svgs/branded/SYS.svg'
-import brandedGENI from '../dist/optimized-svgs/branded/GENI.svg'
-import brandedAE from '../dist/optimized-svgs/branded/AE.svg'
-import brandedMST from '../dist/optimized-svgs/branded/MST.svg'
-import brandedGRND from '../dist/optimized-svgs/branded/GRND.svg'
-import brandedPAWTH from '../dist/optimized-svgs/branded/PAWTH.svg'
-import brandedBSGG from '../dist/optimized-svgs/branded/BSGG.svg'
-import brandedVERSA from '../dist/optimized-svgs/branded/VERSA.svg'
-import brandedALICE from '../dist/optimized-svgs/branded/ALICE.svg'
-import brandedMYRIA from '../dist/optimized-svgs/branded/MYRIA.svg'
-import brandedSHIA from '../dist/optimized-svgs/branded/SHIA.svg'
-import brandedMF from '../dist/optimized-svgs/branded/MF.svg'
-import brandedSTARL from '../dist/optimized-svgs/branded/STARL.svg'
-import brandedVPAD from '../dist/optimized-svgs/branded/VPAD.svg'
-import branded10SET from '../dist/optimized-svgs/branded/10SET.svg'
-import brandedWAGMI from '../dist/optimized-svgs/branded/WAGMI.svg'
-import brandedDVF from '../dist/optimized-svgs/branded/DVF.svg'
-import brandedVIX from '../dist/optimized-svgs/branded/VIX.svg'
-import brandedFITFI from '../dist/optimized-svgs/branded/FITFI.svg'
-import brandedXET from '../dist/optimized-svgs/branded/XET.svg'
-import brandedKINGSHIB from '../dist/optimized-svgs/branded/KINGSHIB.svg'
-import brandedXDG from '../dist/optimized-svgs/branded/XDG.svg'
-import brandedRISE from '../dist/optimized-svgs/branded/RISE.svg'
-import brandedSOMM from '../dist/optimized-svgs/branded/SOMM.svg'
-import brandedGRAI from '../dist/optimized-svgs/branded/GRAI.svg'
-import brandedPRIMAL from '../dist/optimized-svgs/branded/PRIMAL.svg'
-import brandedXEC from '../dist/optimized-svgs/branded/XEC.svg'
-import brandedJUP from '../dist/optimized-svgs/branded/JUP.svg'
-import brandedXWIN from '../dist/optimized-svgs/branded/XWIN.svg'
-import brandedVLXPAD from '../dist/optimized-svgs/branded/VLXPAD.svg'
-import brandedKATA from '../dist/optimized-svgs/branded/KATA.svg'
-import brandedOXEN from '../dist/optimized-svgs/branded/OXEN.svg'
-import brandedTHALES from '../dist/optimized-svgs/branded/THALES.svg'
-import brandedAGI from '../dist/optimized-svgs/branded/AGI.svg'
-import brandedFWB from '../dist/optimized-svgs/branded/FWB.svg'
-import brandedSLG from '../dist/optimized-svgs/branded/SLG.svg'
-import brandedSTBU from '../dist/optimized-svgs/branded/STBU.svg'
-import brandedLOOM from '../dist/optimized-svgs/branded/LOOM.svg'
-import brandedPAPER from '../dist/optimized-svgs/branded/PAPER.svg'
-import brandedSNX from '../dist/optimized-svgs/branded/SNX.svg'
-import brandedSLP from '../dist/optimized-svgs/branded/SLP.svg'
-import brandedFTN from '../dist/optimized-svgs/branded/FTN.svg'
-import brandedVITE from '../dist/optimized-svgs/branded/VITE.svg'
-import brandedAPW from '../dist/optimized-svgs/branded/APW.svg'
-import brandedZZ from '../dist/optimized-svgs/branded/ZZ.svg'
-import brandedCFX from '../dist/optimized-svgs/branded/CFX.svg'
-import brandedIPOR from '../dist/optimized-svgs/branded/IPOR.svg'
-import brandedDCR from '../dist/optimized-svgs/branded/DCR.svg'
-import brandedABYSS from '../dist/optimized-svgs/branded/ABYSS.svg'
-import brandedBLAST from '../dist/optimized-svgs/branded/BLAST.svg'
-import brandedCOMBO from '../dist/optimized-svgs/branded/COMBO.svg'
-import brandedMIX from '../dist/optimized-svgs/branded/MIX.svg'
-import brandedAIRI from '../dist/optimized-svgs/branded/AIRI.svg'
-import brandedCHAMPZ from '../dist/optimized-svgs/branded/CHAMPZ.svg'
-import brandedPSP from '../dist/optimized-svgs/branded/PSP.svg'
-import brandedUNI from '../dist/optimized-svgs/branded/UNI.svg'
-import brandedXMON from '../dist/optimized-svgs/branded/XMON.svg'
-import brandedDASH from '../dist/optimized-svgs/branded/DASH.svg'
-import brandedEGLD from '../dist/optimized-svgs/branded/EGLD.svg'
-import brandedRFD from '../dist/optimized-svgs/branded/RFD.svg'
-import brandedPERI from '../dist/optimized-svgs/branded/PERI.svg'
-import brandedBCT from '../dist/optimized-svgs/branded/BCT.svg'
-import brandedXAVA from '../dist/optimized-svgs/branded/XAVA.svg'
-import brandedEFI from '../dist/optimized-svgs/branded/EFI.svg'
-import brandedBUY from '../dist/optimized-svgs/branded/BUY.svg'
-import brandedDAFI from '../dist/optimized-svgs/branded/DAFI.svg'
-import brandedYAK from '../dist/optimized-svgs/branded/YAK.svg'
-import brandedYCC from '../dist/optimized-svgs/branded/YCC.svg'
-import brandedWNK from '../dist/optimized-svgs/branded/WNK.svg'
-import brandedWHALE from '../dist/optimized-svgs/branded/WHALE.svg'
-import brandedNOM from '../dist/optimized-svgs/branded/NOM.svg'
-import brandedKLEE from '../dist/optimized-svgs/branded/KLEE.svg'
-import brandedARPA from '../dist/optimized-svgs/branded/ARPA.svg'
-import brandedNMR from '../dist/optimized-svgs/branded/NMR.svg'
-import brandedWAS from '../dist/optimized-svgs/branded/WAS.svg'
-import brandedFACTR from '../dist/optimized-svgs/branded/FACTR.svg'
-import brandedAUTO from '../dist/optimized-svgs/branded/AUTO.svg'
-import brandedSAITAMA from '../dist/optimized-svgs/branded/SAITAMA.svg'
-import brandedLUA from '../dist/optimized-svgs/branded/LUA.svg'
-import brandedRARI from '../dist/optimized-svgs/branded/RARI.svg'
-import brandedDODO from '../dist/optimized-svgs/branded/DODO.svg'
-import brandedSAITO from '../dist/optimized-svgs/branded/SAITO.svg'
-import brandedRDNT from '../dist/optimized-svgs/branded/RDNT.svg'
-import brandedSOLID from '../dist/optimized-svgs/branded/SOLID.svg'
-import brandedKUJI from '../dist/optimized-svgs/branded/KUJI.svg'
-import brandedLVL from '../dist/optimized-svgs/branded/LVL.svg'
-import brandedMCRT from '../dist/optimized-svgs/branded/MCRT.svg'
-import brandedLAZIO from '../dist/optimized-svgs/branded/LAZIO.svg'
-import brandedNSFW from '../dist/optimized-svgs/branded/NSFW.svg'
-import brandedNAP from '../dist/optimized-svgs/branded/NAP.svg'
-import brandedLUFC from '../dist/optimized-svgs/branded/LUFC.svg'
-import branded0XGAS from '../dist/optimized-svgs/branded/0XGAS.svg'
-import brandedWIFI from '../dist/optimized-svgs/branded/WIFI.svg'
-import brandedHGPT from '../dist/optimized-svgs/branded/HGPT.svg'
-import brandedBCB from '../dist/optimized-svgs/branded/BCB.svg'
-import brandedCARD from '../dist/optimized-svgs/branded/CARD.svg'
-import brandedMINTME from '../dist/optimized-svgs/branded/MINTME.svg'
-import brandedLON from '../dist/optimized-svgs/branded/LON.svg'
-import brandedARDR from '../dist/optimized-svgs/branded/ARDR.svg'
-import brandedCARAT from '../dist/optimized-svgs/branded/CARAT.svg'
-import brandedBLZ from '../dist/optimized-svgs/branded/BLZ.svg'
-import brandedBOA from '../dist/optimized-svgs/branded/BOA.svg'
-import brandedSTJUNO from '../dist/optimized-svgs/branded/STJUNO.svg'
-import brandedMOCHI from '../dist/optimized-svgs/branded/MOCHI.svg'
-import brandedAREA from '../dist/optimized-svgs/branded/AREA.svg'
-import brandedDSRUN from '../dist/optimized-svgs/branded/DSRUN.svg'
-import brandedVELO from '../dist/optimized-svgs/branded/VELO.svg'
-import brandedMIN from '../dist/optimized-svgs/branded/MIN.svg'
-import brandedOSMO from '../dist/optimized-svgs/branded/OSMO.svg'
-import brandedSTOS from '../dist/optimized-svgs/branded/STOS.svg'
-import brandedHVH from '../dist/optimized-svgs/branded/HVH.svg'
-import brandedCHR from '../dist/optimized-svgs/branded/CHR.svg'
-import brandedASM from '../dist/optimized-svgs/branded/ASM.svg'
-import brandedDNT from '../dist/optimized-svgs/branded/DNT.svg'
-import brandedHXRO from '../dist/optimized-svgs/branded/HXRO.svg'
-import brandedHUAHUA from '../dist/optimized-svgs/branded/HUAHUA.svg'
-import brandedDOG from '../dist/optimized-svgs/branded/DOG.svg'
-import brandedGAINS from '../dist/optimized-svgs/branded/GAINS.svg'
-import brandedADS from '../dist/optimized-svgs/branded/ADS.svg'
-import brandedMRS from '../dist/optimized-svgs/branded/MRS.svg'
-import brandedMPL from '../dist/optimized-svgs/branded/MPL.svg'
-import brandedDERI from '../dist/optimized-svgs/branded/DERI.svg'
-import brandedXKI from '../dist/optimized-svgs/branded/XKI.svg'
-import brandedSCNSOL from '../dist/optimized-svgs/branded/SCNSOL.svg'
-import brandedNPXS from '../dist/optimized-svgs/branded/NPXS.svg'
-import brandedOM from '../dist/optimized-svgs/branded/OM.svg'
-import brandedAIT from '../dist/optimized-svgs/branded/AIT.svg'
-import brandedOOKI from '../dist/optimized-svgs/branded/OOKI.svg'
-import brandedFOR from '../dist/optimized-svgs/branded/FOR.svg'
-import brandedSTSOL from '../dist/optimized-svgs/branded/STSOL.svg'
-import brandedBONDLY from '../dist/optimized-svgs/branded/BONDLY.svg'
-import brandedLA from '../dist/optimized-svgs/branded/LA.svg'
-import brandedSHIB from '../dist/optimized-svgs/branded/SHIB.svg'
-import brandedSUI from '../dist/optimized-svgs/branded/SUI.svg'
-import brandedINST from '../dist/optimized-svgs/branded/INST.svg'
-import brandedCWAR from '../dist/optimized-svgs/branded/CWAR.svg'
-import brandedAIN from '../dist/optimized-svgs/branded/AIN.svg'
-import brandedFLS from '../dist/optimized-svgs/branded/FLS.svg'
-import brandedOOKS from '../dist/optimized-svgs/branded/OOKS.svg'
-import brandedXFT from '../dist/optimized-svgs/branded/XFT.svg'
-import brandedBTCP from '../dist/optimized-svgs/branded/BTCP.svg'
-import brandedPEOPLE from '../dist/optimized-svgs/branded/PEOPLE.svg'
-import brandedSFTMX from '../dist/optimized-svgs/branded/SFTMX.svg'
-import brandedDYP from '../dist/optimized-svgs/branded/DYP.svg'
-import brandedXETA from '../dist/optimized-svgs/branded/XETA.svg'
-import brandedASTR from '../dist/optimized-svgs/branded/ASTR.svg'
-import brandedHMX from '../dist/optimized-svgs/branded/HMX.svg'
-import brandedRUNE from '../dist/optimized-svgs/branded/RUNE.svg'
-import brandedHOP from '../dist/optimized-svgs/branded/HOP.svg'
-import brandedMCADE from '../dist/optimized-svgs/branded/MCADE.svg'
-import brandedPARA from '../dist/optimized-svgs/branded/PARA.svg'
-import brandedVIDYA from '../dist/optimized-svgs/branded/VIDYA.svg'
-import brandedPOLYDOGE from '../dist/optimized-svgs/branded/POLYDOGE.svg'
-import brandedHNT from '../dist/optimized-svgs/branded/HNT.svg'
-import brandedBRICK from '../dist/optimized-svgs/branded/BRICK.svg'
-import brandedKICKS from '../dist/optimized-svgs/branded/KICKS.svg'
-import brandedAPL from '../dist/optimized-svgs/branded/APL.svg'
-import brandedSNT from '../dist/optimized-svgs/branded/SNT.svg'
-import brandedPROPS from '../dist/optimized-svgs/branded/PROPS.svg'
-import brandedLMWR from '../dist/optimized-svgs/branded/LMWR.svg'
-import brandedGPCX from '../dist/optimized-svgs/branded/GPCX.svg'
-import brandedTIA from '../dist/optimized-svgs/branded/TIA.svg'
-import brandedMNTC from '../dist/optimized-svgs/branded/MNTC.svg'
-import brandedXI from '../dist/optimized-svgs/branded/XI.svg'
-import brandedJOE from '../dist/optimized-svgs/branded/JOE.svg'
-import brandedSCS from '../dist/optimized-svgs/branded/SCS.svg'
-import brandedCGG from '../dist/optimized-svgs/branded/CGG.svg'
-import brandedHTM from '../dist/optimized-svgs/branded/HTM.svg'
-import brandedPRO from '../dist/optimized-svgs/branded/PRO.svg'
-import brandedFREE from '../dist/optimized-svgs/branded/FREE.svg'
-import brandedPLASTIK from '../dist/optimized-svgs/branded/PLASTIK.svg'
-import brandedPRX from '../dist/optimized-svgs/branded/PRX.svg'
-import brandedFUND from '../dist/optimized-svgs/branded/FUND.svg'
-import brandedLOC from '../dist/optimized-svgs/branded/LOC.svg'
-import brandedNVT from '../dist/optimized-svgs/branded/NVT.svg'
-import brandedMAPS from '../dist/optimized-svgs/branded/MAPS.svg'
-import brandedFAKEAI from '../dist/optimized-svgs/branded/FAKEAI.svg'
-import brandedBURGER from '../dist/optimized-svgs/branded/BURGER.svg'
-import brandedARIX from '../dist/optimized-svgs/branded/ARIX.svg'
-import brandedCHMB from '../dist/optimized-svgs/branded/CHMB.svg'
-import brandedGAMMA from '../dist/optimized-svgs/branded/GAMMA.svg'
-import brandedUTK from '../dist/optimized-svgs/branded/UTK.svg'
-import brandedOGGY from '../dist/optimized-svgs/branded/OGGY.svg'
-import brandedCUSDC from '../dist/optimized-svgs/branded/CUSDC.svg'
-import brandedPEEL from '../dist/optimized-svgs/branded/PEEL.svg'
-import brandedWISE from '../dist/optimized-svgs/branded/WISE.svg'
-import brandedWEFI from '../dist/optimized-svgs/branded/WEFI.svg'
-import brandedPHA from '../dist/optimized-svgs/branded/PHA.svg'
-import brandedSNAIL from '../dist/optimized-svgs/branded/SNAIL.svg'
-import brandedNAVI from '../dist/optimized-svgs/branded/NAVI.svg'
-import brandedARRR from '../dist/optimized-svgs/branded/ARRR.svg'
-import brandedBERRY from '../dist/optimized-svgs/branded/BERRY.svg'
-import brandedBZZ from '../dist/optimized-svgs/branded/BZZ.svg'
-import brandedSETH from '../dist/optimized-svgs/branded/SETH.svg'
-import brandedBELT from '../dist/optimized-svgs/branded/BELT.svg'
-import brandedFIDA from '../dist/optimized-svgs/branded/FIDA.svg'
-import brandedPGX from '../dist/optimized-svgs/branded/PGX.svg'
-import brandedRARE from '../dist/optimized-svgs/branded/RARE.svg'
-import brandedHBTC from '../dist/optimized-svgs/branded/HBTC.svg'
-import brandedXFUND from '../dist/optimized-svgs/branded/XFUND.svg'
-import brandedLIXX from '../dist/optimized-svgs/branded/LIXX.svg'
-import brandedLAUNCH from '../dist/optimized-svgs/branded/LAUNCH.svg'
-import brandedPDT from '../dist/optimized-svgs/branded/PDT.svg'
-import brandedSNEK from '../dist/optimized-svgs/branded/SNEK.svg'
-import brandedARSW from '../dist/optimized-svgs/branded/ARSW.svg'
-import brandedNCT from '../dist/optimized-svgs/branded/NCT.svg'
-import brandedAPEX from '../dist/optimized-svgs/branded/APEX.svg'
-import brandedAPFC from '../dist/optimized-svgs/branded/APFC.svg'
-import brandedIDV from '../dist/optimized-svgs/branded/IDV.svg'
-import brandedBTG from '../dist/optimized-svgs/branded/BTG.svg'
-import brandedLYX from '../dist/optimized-svgs/branded/LYX.svg'
-import brandedBETS from '../dist/optimized-svgs/branded/BETS.svg'
-import brandedBCN from '../dist/optimized-svgs/branded/BCN.svg'
-import brandedUND from '../dist/optimized-svgs/branded/UND.svg'
-import brandedLBR from '../dist/optimized-svgs/branded/LBR.svg'
-import brandedNYM from '../dist/optimized-svgs/branded/NYM.svg'
-import brandedLINU from '../dist/optimized-svgs/branded/LINU.svg'
-import brandedGRC from '../dist/optimized-svgs/branded/GRC.svg'
-import brandedRIF from '../dist/optimized-svgs/branded/RIF.svg'
-import brandedPRY from '../dist/optimized-svgs/branded/PRY.svg'
-import brandedSUDO from '../dist/optimized-svgs/branded/SUDO.svg'
-import brandedKILT from '../dist/optimized-svgs/branded/KILT.svg'
-import brandedGRT from '../dist/optimized-svgs/branded/GRT.svg'
-import brandedZKP from '../dist/optimized-svgs/branded/ZKP.svg'
-import brandedWAIT from '../dist/optimized-svgs/branded/WAIT.svg'
-import brandedTET from '../dist/optimized-svgs/branded/TET.svg'
-import brandedXPX from '../dist/optimized-svgs/branded/XPX.svg'
-import brandedVEMP from '../dist/optimized-svgs/branded/VEMP.svg'
-import brandedHAPI from '../dist/optimized-svgs/branded/HAPI.svg'
-import brandedRAZOR from '../dist/optimized-svgs/branded/RAZOR.svg'
-import brandedXRUNE from '../dist/optimized-svgs/branded/XRUNE.svg'
-import brandedSAM from '../dist/optimized-svgs/branded/SAM.svg'
-import brandedSTAT from '../dist/optimized-svgs/branded/STAT.svg'
-import brandedFTC from '../dist/optimized-svgs/branded/FTC.svg'
-import brandedVC from '../dist/optimized-svgs/branded/VC.svg'
-import brandedDMC from '../dist/optimized-svgs/branded/DMC.svg'
-import brandedAPM from '../dist/optimized-svgs/branded/APM.svg'
-import brandedDMT from '../dist/optimized-svgs/branded/DMT.svg'
-import brandedSAMO from '../dist/optimized-svgs/branded/SAMO.svg'
-import brandedZANO from '../dist/optimized-svgs/branded/ZANO.svg'
-import brandedNEON from '../dist/optimized-svgs/branded/NEON.svg'
-import brandedVIB from '../dist/optimized-svgs/branded/VIB.svg'
-import brandedDPET from '../dist/optimized-svgs/branded/DPET.svg'
-import brandedBCAT from '../dist/optimized-svgs/branded/BCAT.svg'
-import brandedBADGER from '../dist/optimized-svgs/branded/BADGER.svg'
-import brandedTOMI from '../dist/optimized-svgs/branded/TOMI.svg'
-import brandedNEAR from '../dist/optimized-svgs/branded/NEAR.svg'
-import brandedFLR from '../dist/optimized-svgs/branded/FLR.svg'
-import brandedTYRANT from '../dist/optimized-svgs/branded/TYRANT.svg'
-import brandedLM from '../dist/optimized-svgs/branded/LM.svg'
-import brandedCUMMIES from '../dist/optimized-svgs/branded/CUMMIES.svg'
-import brandedCRE from '../dist/optimized-svgs/branded/CRE.svg'
-import brandedSPANK from '../dist/optimized-svgs/branded/SPANK.svg'
-import brandedBTC2 from '../dist/optimized-svgs/branded/BTC2.svg'
-import brandedCOVAL from '../dist/optimized-svgs/branded/COVAL.svg'
-import brandedBS from '../dist/optimized-svgs/branded/BS.svg'
-import brandedSHFT from '../dist/optimized-svgs/branded/SHFT.svg'
-import brandedVET from '../dist/optimized-svgs/branded/VET.svg'
-import brandedR from '../dist/optimized-svgs/branded/R.svg'
-import brandedHAKA from '../dist/optimized-svgs/branded/HAKA.svg'
-import brandedIBIT from '../dist/optimized-svgs/branded/IBIT.svg'
-import brandedVV from '../dist/optimized-svgs/branded/VV.svg'
-import brandedCKP from '../dist/optimized-svgs/branded/CKP.svg'
-import brandedAST from '../dist/optimized-svgs/branded/AST.svg'
-import brandedJAM from '../dist/optimized-svgs/branded/JAM.svg'
-import brandedMET from '../dist/optimized-svgs/branded/MET.svg'
-import brandedAPX from '../dist/optimized-svgs/branded/APX.svg'
-import brandedZEN from '../dist/optimized-svgs/branded/ZEN.svg'
-import brandedCULT from '../dist/optimized-svgs/branded/CULT.svg'
-import brandedCEL from '../dist/optimized-svgs/branded/CEL.svg'
-import brandedSAVG from '../dist/optimized-svgs/branded/SAVG.svg'
-import brandedSCP from '../dist/optimized-svgs/branded/SCP.svg'
-import brandedVELA from '../dist/optimized-svgs/branded/VELA.svg'
-import brandedWHITE from '../dist/optimized-svgs/branded/WHITE.svg'
-import brandedXELS from '../dist/optimized-svgs/branded/XELS.svg'
-import brandedLCC from '../dist/optimized-svgs/branded/LCC.svg'
-import brandedCORE from '../dist/optimized-svgs/branded/CORE.svg'
-import brandedSRCX from '../dist/optimized-svgs/branded/SRCX.svg'
-import brandedKDA from '../dist/optimized-svgs/branded/KDA.svg'
-import brandedGRV from '../dist/optimized-svgs/branded/GRV.svg'
-import brandedFIRO from '../dist/optimized-svgs/branded/FIRO.svg'
-import brandedTRADE from '../dist/optimized-svgs/branded/TRADE.svg'
-import brandedBLT from '../dist/optimized-svgs/branded/BLT.svg'
-import brandedGSE from '../dist/optimized-svgs/branded/GSE.svg'
-import brandedNALS from '../dist/optimized-svgs/branded/NALS.svg'
-import brandedEURS from '../dist/optimized-svgs/branded/EURS.svg'
-import brandedRDT from '../dist/optimized-svgs/branded/RDT.svg'
-import brandedREP from '../dist/optimized-svgs/branded/REP.svg'
-import brandedBEPRO from '../dist/optimized-svgs/branded/BEPRO.svg'
-import brandedMCHC from '../dist/optimized-svgs/branded/MCHC.svg'
-import brandedBAD from '../dist/optimized-svgs/branded/BAD.svg'
-import brandedMSOL from '../dist/optimized-svgs/branded/MSOL.svg'
-import brandedRAKE from '../dist/optimized-svgs/branded/RAKE.svg'
-import brandedSUKU from '../dist/optimized-svgs/branded/SUKU.svg'
-import brandedMASK from '../dist/optimized-svgs/branded/MASK.svg'
-import brandedGHO from '../dist/optimized-svgs/branded/GHO.svg'
-import brandedSWETH from '../dist/optimized-svgs/branded/SWETH.svg'
-import brandedWOW from '../dist/optimized-svgs/branded/WOW.svg'
-import brandedAUCTION from '../dist/optimized-svgs/branded/AUCTION.svg'
-import brandedPHB from '../dist/optimized-svgs/branded/PHB.svg'
-import brandedGHX from '../dist/optimized-svgs/branded/GHX.svg'
-import brandedJMPT from '../dist/optimized-svgs/branded/JMPT.svg'
-import brandedCROWN from '../dist/optimized-svgs/branded/CROWN.svg'
-import brandedFLUX from '../dist/optimized-svgs/branded/FLUX.svg'
-import brandedGOVI from '../dist/optimized-svgs/branded/GOVI.svg'
-import brandedLYM from '../dist/optimized-svgs/branded/LYM.svg'
-import brandedEQX from '../dist/optimized-svgs/branded/EQX.svg'
-import brandedGHST from '../dist/optimized-svgs/branded/GHST.svg'
-import brandedTETU from '../dist/optimized-svgs/branded/TETU.svg'
-import brandedDONUT from '../dist/optimized-svgs/branded/DONUT.svg'
-import brandedMAHA from '../dist/optimized-svgs/branded/MAHA.svg'
-import brandedSUSD from '../dist/optimized-svgs/branded/SUSD.svg'
-import brandedPER from '../dist/optimized-svgs/branded/PER.svg'
-import brandedKRL from '../dist/optimized-svgs/branded/KRL.svg'
-import brandedKROM from '../dist/optimized-svgs/branded/KROM.svg'
-import brandedCHAT from '../dist/optimized-svgs/branded/CHAT.svg'
-import brandedPURSE from '../dist/optimized-svgs/branded/PURSE.svg'
-import brandedSTEEM from '../dist/optimized-svgs/branded/STEEM.svg'
-import brandedBLID from '../dist/optimized-svgs/branded/BLID.svg'
-import brandedRPG from '../dist/optimized-svgs/branded/RPG.svg'
-import brandedREUNI from '../dist/optimized-svgs/branded/REUNI.svg'
-import brandedBTS from '../dist/optimized-svgs/branded/BTS.svg'
-import brandedPIP from '../dist/optimized-svgs/branded/PIP.svg'
-import brandedARI10 from '../dist/optimized-svgs/branded/ARI10.svg'
-import brandedOBOT from '../dist/optimized-svgs/branded/OBOT.svg'
-import brandedXAUT from '../dist/optimized-svgs/branded/XAUT.svg'
-import brandedREF from '../dist/optimized-svgs/branded/REF.svg'
-import brandedISK from '../dist/optimized-svgs/branded/ISK.svg'
-import brandedNUM from '../dist/optimized-svgs/branded/NUM.svg'
-import brandedEGC from '../dist/optimized-svgs/branded/EGC.svg'
-import brandedRAIL from '../dist/optimized-svgs/branded/RAIL.svg'
-import brandedREQ from '../dist/optimized-svgs/branded/REQ.svg'
-import brandedSEND from '../dist/optimized-svgs/branded/SEND.svg'
-import brandedHUNT from '../dist/optimized-svgs/branded/HUNT.svg'
-import brandedTENET from '../dist/optimized-svgs/branded/TENET.svg'
-import brandedPERP from '../dist/optimized-svgs/branded/PERP.svg'
-import brandedLPNT from '../dist/optimized-svgs/branded/LPNT.svg'
-import brandedDSETH from '../dist/optimized-svgs/branded/DSETH.svg'
-import brandedMOONED from '../dist/optimized-svgs/branded/MOONED.svg'
-import brandedRMRK from '../dist/optimized-svgs/branded/RMRK.svg'
-import brandedXCAD from '../dist/optimized-svgs/branded/XCAD.svg'
-import brandedLINA from '../dist/optimized-svgs/branded/LINA.svg'
-import brandedEJS from '../dist/optimized-svgs/branded/EJS.svg'
-import brandedK21 from '../dist/optimized-svgs/branded/K21.svg'
-import brandedFLOW from '../dist/optimized-svgs/branded/FLOW.svg'
-import brandedSTSTARS from '../dist/optimized-svgs/branded/STSTARS.svg'
-import brandedGUSD from '../dist/optimized-svgs/branded/GUSD.svg'
-import brandedBOBA from '../dist/optimized-svgs/branded/BOBA.svg'
-import brandedZIL from '../dist/optimized-svgs/branded/ZIL.svg'
-import brandedAQUA from '../dist/optimized-svgs/branded/AQUA.svg'
-import brandedALLIN from '../dist/optimized-svgs/branded/ALLIN.svg'
-import brandedSAN from '../dist/optimized-svgs/branded/SAN.svg'
-import brandedXRD from '../dist/optimized-svgs/branded/XRD.svg'
-import brandedCHEEMS from '../dist/optimized-svgs/branded/CHEEMS.svg'
-import brandedJONES from '../dist/optimized-svgs/branded/JONES.svg'
-import brandedDCK from '../dist/optimized-svgs/branded/DCK.svg'
-import brandedNFTBS from '../dist/optimized-svgs/branded/NFTBS.svg'
-import brandedHOPR from '../dist/optimized-svgs/branded/HOPR.svg'
-import brandedCPOOL from '../dist/optimized-svgs/branded/CPOOL.svg'
-import brandedAFC from '../dist/optimized-svgs/branded/AFC.svg'
-import brandedPASG from '../dist/optimized-svgs/branded/PASG.svg'
-import brandedPART from '../dist/optimized-svgs/branded/PART.svg'
-import brandedBCMC from '../dist/optimized-svgs/branded/BCMC.svg'
-import brandedAI from '../dist/optimized-svgs/branded/AI.svg'
-import brandedXEM from '../dist/optimized-svgs/branded/XEM.svg'
-import brandedSTX from '../dist/optimized-svgs/branded/STX.svg'
-import brandedQNT from '../dist/optimized-svgs/branded/QNT.svg'
-import brandedHBB from '../dist/optimized-svgs/branded/HBB.svg'
-import brandedMARS4 from '../dist/optimized-svgs/branded/MARS4.svg'
-import brandedSTARS from '../dist/optimized-svgs/branded/STARS.svg'
-import brandedOCEAN from '../dist/optimized-svgs/branded/OCEAN.svg'
-import brandedCREAM from '../dist/optimized-svgs/branded/CREAM.svg'
-import brandedCPH from '../dist/optimized-svgs/branded/CPH.svg'
-import brandedTAMA from '../dist/optimized-svgs/branded/TAMA.svg'
-import brandedADX from '../dist/optimized-svgs/branded/ADX.svg'
-import brandedSAND from '../dist/optimized-svgs/branded/SAND.svg'
-import brandedMUTE from '../dist/optimized-svgs/branded/MUTE.svg'
-import brandedC3 from '../dist/optimized-svgs/branded/C3.svg'
-import brandedTIG from '../dist/optimized-svgs/branded/TIG.svg'
-import brandedCKB from '../dist/optimized-svgs/branded/CKB.svg'
-import brandedDRGN from '../dist/optimized-svgs/branded/DRGN.svg'
-import brandedTKX from '../dist/optimized-svgs/branded/TKX.svg'
-import brandedDMD from '../dist/optimized-svgs/branded/DMD.svg'
-import brandedCREO from '../dist/optimized-svgs/branded/CREO.svg'
-import brandedIPAD from '../dist/optimized-svgs/branded/IPAD.svg'
-import brandedTHT from '../dist/optimized-svgs/branded/THT.svg'
-import brandedTKO from '../dist/optimized-svgs/branded/TKO.svg'
-import brandedVOICE from '../dist/optimized-svgs/branded/VOICE.svg'
-import brandedSMI from '../dist/optimized-svgs/branded/SMI.svg'
-import brandedSCB from '../dist/optimized-svgs/branded/SCB.svg'
-import brandedKALM from '../dist/optimized-svgs/branded/KALM.svg'
-import brandedBOTTO from '../dist/optimized-svgs/branded/BOTTO.svg'
-import brandedMIR from '../dist/optimized-svgs/branded/MIR.svg'
-import brandedALPACA from '../dist/optimized-svgs/branded/ALPACA.svg'
-import brandedAPEFI from '../dist/optimized-svgs/branded/APEFI.svg'
-import brandedNEWO from '../dist/optimized-svgs/branded/NEWO.svg'
-import brandedNETT from '../dist/optimized-svgs/branded/NETT.svg'
-import brandedIONX from '../dist/optimized-svgs/branded/IONX.svg'
-import brandedHIPP from '../dist/optimized-svgs/branded/HIPP.svg'
-import brandedMDAO from '../dist/optimized-svgs/branded/MDAO.svg'
-import brandedROKO from '../dist/optimized-svgs/branded/ROKO.svg'
-import brandedWACME from '../dist/optimized-svgs/branded/WACME.svg'
-import brandedSLIM from '../dist/optimized-svgs/branded/SLIM.svg'
-import brandedPERC from '../dist/optimized-svgs/branded/PERC.svg'
-import brandedEGG from '../dist/optimized-svgs/branded/EGG.svg'
-import brandedKIT from '../dist/optimized-svgs/branded/KIT.svg'
-import brandedEFC from '../dist/optimized-svgs/branded/EFC.svg'
-import brandedSAFEMARS from '../dist/optimized-svgs/branded/SAFEMARS.svg'
-import brandedGAMI from '../dist/optimized-svgs/branded/GAMI.svg'
-import brandedKICK from '../dist/optimized-svgs/branded/KICK.svg'
-import brandedCMDX from '../dist/optimized-svgs/branded/CMDX.svg'
-import brandedMEDIA from '../dist/optimized-svgs/branded/MEDIA.svg'
-import brandedSQUIDGROW from '../dist/optimized-svgs/branded/SQUIDGROW.svg'
-import brandedLTO from '../dist/optimized-svgs/branded/LTO.svg'
-import brandedTOPIA from '../dist/optimized-svgs/branded/TOPIA.svg'
-import brandedBROCK from '../dist/optimized-svgs/branded/BROCK.svg'
-import brandedLTX from '../dist/optimized-svgs/branded/LTX.svg'
-import brandedWAN from '../dist/optimized-svgs/branded/WAN.svg'
-import brandedSURE from '../dist/optimized-svgs/branded/SURE.svg'
-import brandedMETAV from '../dist/optimized-svgs/branded/METAV.svg'
-import brandedNMX from '../dist/optimized-svgs/branded/NMX.svg'
-import brandedGEL from '../dist/optimized-svgs/branded/GEL.svg'
-import brandedLIZA from '../dist/optimized-svgs/branded/LIZA.svg'
-import brandedWBT from '../dist/optimized-svgs/branded/WBT.svg'
-import brandedAERO from '../dist/optimized-svgs/branded/AERO.svg'
-import brandedIDIA from '../dist/optimized-svgs/branded/IDIA.svg'
-import brandedAGEUR from '../dist/optimized-svgs/branded/AGEUR.svg'
-import brandedLYRA from '../dist/optimized-svgs/branded/LYRA.svg'
-import brandedTITAN from '../dist/optimized-svgs/branded/TITAN.svg'
-import brandedPIB from '../dist/optimized-svgs/branded/PIB.svg'
-import brandedBTA from '../dist/optimized-svgs/branded/BTA.svg'
-import brandedNCR from '../dist/optimized-svgs/branded/NCR.svg'
-import brandedBCH from '../dist/optimized-svgs/branded/BCH.svg'
-import brandedALCX from '../dist/optimized-svgs/branded/ALCX.svg'
-import brandedRET from '../dist/optimized-svgs/branded/RET.svg'
-import brandedUSTC from '../dist/optimized-svgs/branded/USTC.svg'
-import brandedRFOX from '../dist/optimized-svgs/branded/RFOX.svg'
-import brandedEUSD from '../dist/optimized-svgs/branded/EUSD.svg'
-import brandedBLP from '../dist/optimized-svgs/branded/BLP.svg'
-import brandedPSL from '../dist/optimized-svgs/branded/PSL.svg'
-import brandedCOPI from '../dist/optimized-svgs/branded/COPI.svg'
-import brandedLBT from '../dist/optimized-svgs/branded/LBT.svg'
-import brandedBNX from '../dist/optimized-svgs/branded/BNX.svg'
-import brandedBIGSB from '../dist/optimized-svgs/branded/BIGSB.svg'
-import brandedXY from '../dist/optimized-svgs/branded/XY.svg'
-import brandedCHO from '../dist/optimized-svgs/branded/CHO.svg'
-import brandedTKN from '../dist/optimized-svgs/branded/TKN.svg'
-import brandedLQDR from '../dist/optimized-svgs/branded/LQDR.svg'
-import brandedBOOT from '../dist/optimized-svgs/branded/BOOT.svg'
-import brandedVR from '../dist/optimized-svgs/branded/VR.svg'
-import brandedNEXA from '../dist/optimized-svgs/branded/NEXA.svg'
-import brandedPROPC from '../dist/optimized-svgs/branded/PROPC.svg'
-import brandedMDT from '../dist/optimized-svgs/branded/MDT.svg'
-import brandedARC from '../dist/optimized-svgs/branded/ARC.svg'
-import brandedDREP from '../dist/optimized-svgs/branded/DREP.svg'
-import brandedSTORJ from '../dist/optimized-svgs/branded/STORJ.svg'
-import brandedVGX from '../dist/optimized-svgs/branded/VGX.svg'
-import brandedGEOD from '../dist/optimized-svgs/branded/GEOD.svg'
-import brandedSUN from '../dist/optimized-svgs/branded/SUN.svg'
-import brandedOP from '../dist/optimized-svgs/branded/OP.svg'
-import brandedCRV from '../dist/optimized-svgs/branded/CRV.svg'
-import brandedNEBO from '../dist/optimized-svgs/branded/NEBO.svg'
-import brandedVIS from '../dist/optimized-svgs/branded/VIS.svg'
-import brandedPENDLE from '../dist/optimized-svgs/branded/PENDLE.svg'
-import brandedSOON from '../dist/optimized-svgs/branded/SOON.svg'
-import brandedMX from '../dist/optimized-svgs/branded/MX.svg'
-import brandedDUA from '../dist/optimized-svgs/branded/DUA.svg'
-import brandedHAI from '../dist/optimized-svgs/branded/HAI.svg'
-import brandedVINU from '../dist/optimized-svgs/branded/VINU.svg'
-import brandedPORK from '../dist/optimized-svgs/branded/PORK.svg'
-import brandedO3 from '../dist/optimized-svgs/branded/O3.svg'
-import brandedAKT from '../dist/optimized-svgs/branded/AKT.svg'
-import brandedDEFIT from '../dist/optimized-svgs/branded/DEFIT.svg'
-import brandedMM from '../dist/optimized-svgs/branded/MM.svg'
-import brandedT from '../dist/optimized-svgs/branded/T.svg'
-import brandedIRON from '../dist/optimized-svgs/branded/IRON.svg'
-import brandedGAMEFI from '../dist/optimized-svgs/branded/GAMEFI.svg'
-import brandedIGNIS from '../dist/optimized-svgs/branded/IGNIS.svg'
-import brandedVEE from '../dist/optimized-svgs/branded/VEE.svg'
-import brandedMPS from '../dist/optimized-svgs/branded/MPS.svg'
-import brandedVEUR from '../dist/optimized-svgs/branded/VEUR.svg'
-import brandedGSWAP from '../dist/optimized-svgs/branded/GSWAP.svg'
-import brandedCHZ from '../dist/optimized-svgs/branded/CHZ.svg'
-import brandedDLC from '../dist/optimized-svgs/branded/DLC.svg'
-import brandedAZIT from '../dist/optimized-svgs/branded/AZIT.svg'
-import brandedMEED from '../dist/optimized-svgs/branded/MEED.svg'
-import brandedRGEN from '../dist/optimized-svgs/branded/RGEN.svg'
-import brandedARV from '../dist/optimized-svgs/branded/ARV.svg'
-import brandedDAD from '../dist/optimized-svgs/branded/DAD.svg'
-import brandedXRT from '../dist/optimized-svgs/branded/XRT.svg'
-import brandedORN from '../dist/optimized-svgs/branded/ORN.svg'
-import brandedXSP from '../dist/optimized-svgs/branded/XSP.svg'
-import brandedSAI from '../dist/optimized-svgs/branded/SAI.svg'
-import brandedREV3L from '../dist/optimized-svgs/branded/REV3L.svg'
-import brandedRIDE from '../dist/optimized-svgs/branded/RIDE.svg'
-import brandedOPIUM from '../dist/optimized-svgs/branded/OPIUM.svg'
-import brandedGRG from '../dist/optimized-svgs/branded/GRG.svg'
-import brandedLCR from '../dist/optimized-svgs/branded/LCR.svg'
-import brandedNXM from '../dist/optimized-svgs/branded/NXM.svg'
-import brandedUOS from '../dist/optimized-svgs/branded/UOS.svg'
-import brandedCDAI from '../dist/optimized-svgs/branded/CDAI.svg'
-import brandedGALEON from '../dist/optimized-svgs/branded/GALEON.svg'
-import brandedBANANA from '../dist/optimized-svgs/branded/BANANA.svg'
-import brandedREV from '../dist/optimized-svgs/branded/REV.svg'
-import brandedSOURCE from '../dist/optimized-svgs/branded/SOURCE.svg'
-import brandedUBT from '../dist/optimized-svgs/branded/UBT.svg'
-import brandedBTC from '../dist/optimized-svgs/branded/BTC.svg'
-import brandedNBT from '../dist/optimized-svgs/branded/NBT.svg'
-import brandedLITH from '../dist/optimized-svgs/branded/LITH.svg'
-import brandedBWO from '../dist/optimized-svgs/branded/BWO.svg'
-import brandedUWU from '../dist/optimized-svgs/branded/UWU.svg'
-import brandedEMAID from '../dist/optimized-svgs/branded/EMAID.svg'
-import brandedUCJL from '../dist/optimized-svgs/branded/UCJL.svg'
-import brandedHERA from '../dist/optimized-svgs/branded/HERA.svg'
-import brandedHIFI from '../dist/optimized-svgs/branded/HIFI.svg'
-import brandedECOIN from '../dist/optimized-svgs/branded/ECOIN.svg'
-import brandedNOS from '../dist/optimized-svgs/branded/NOS.svg'
-import brandedSNFT from '../dist/optimized-svgs/branded/SNFT.svg'
-import brandedWAM from '../dist/optimized-svgs/branded/WAM.svg'
-import brandedGGP from '../dist/optimized-svgs/branded/GGP.svg'
-import brandedMTRG from '../dist/optimized-svgs/branded/MTRG.svg'
-import brandedGFT from '../dist/optimized-svgs/branded/GFT.svg'
-import brandedGGG from '../dist/optimized-svgs/branded/GGG.svg'
-import brandedIDEA from '../dist/optimized-svgs/branded/IDEA.svg'
-import brandedZPAY from '../dist/optimized-svgs/branded/ZPAY.svg'
-import brandedWNT from '../dist/optimized-svgs/branded/WNT.svg'
-import brandedBTU from '../dist/optimized-svgs/branded/BTU.svg'
-import brandedBSCPAD from '../dist/optimized-svgs/branded/BSCPAD.svg'
-import brandedGUILD from '../dist/optimized-svgs/branded/GUILD.svg'
-import brandedNWC from '../dist/optimized-svgs/branded/NWC.svg'
-import brandedNTX from '../dist/optimized-svgs/branded/NTX.svg'
-import brandedBAT from '../dist/optimized-svgs/branded/BAT.svg'
-import brandedLOOKS from '../dist/optimized-svgs/branded/LOOKS.svg'
-import brandedBETA from '../dist/optimized-svgs/branded/BETA.svg'
-import brandedBORING from '../dist/optimized-svgs/branded/BORING.svg'
-import brandedEVMOS from '../dist/optimized-svgs/branded/EVMOS.svg'
-import brandedPINKSALE from '../dist/optimized-svgs/branded/PINKSALE.svg'
-import brandedRDD from '../dist/optimized-svgs/branded/RDD.svg'
-import brandedXAUR from '../dist/optimized-svgs/branded/XAUR.svg'
-import brandedPROTEO from '../dist/optimized-svgs/branded/PROTEO.svg'
-import brandedTABOO from '../dist/optimized-svgs/branded/TABOO.svg'
-import brandedLCD from '../dist/optimized-svgs/branded/LCD.svg'
-import brandedPPT from '../dist/optimized-svgs/branded/PPT.svg'
-import brandedSUSHI from '../dist/optimized-svgs/branded/SUSHI.svg'
-import brandedLING from '../dist/optimized-svgs/branded/LING.svg'
-import brandedORDI from '../dist/optimized-svgs/branded/ORDI.svg'
-import brandedLCS from '../dist/optimized-svgs/branded/LCS.svg'
-import brandedPPC from '../dist/optimized-svgs/branded/PPC.svg'
-import brandedASTRADAO from '../dist/optimized-svgs/branded/ASTRADAO.svg'
-import brandedHERMES from '../dist/optimized-svgs/branded/HERMES.svg'
-import brandedBLD from '../dist/optimized-svgs/branded/BLD.svg'
-import brandedZKB from '../dist/optimized-svgs/branded/ZKB.svg'
-import brandedDBI from '../dist/optimized-svgs/branded/DBI.svg'
-import brandedCGPT from '../dist/optimized-svgs/branded/CGPT.svg'
-import brandedFARA from '../dist/optimized-svgs/branded/FARA.svg'
-import brandedCGT from '../dist/optimized-svgs/branded/CGT.svg'
-import brandedHARD from '../dist/optimized-svgs/branded/HARD.svg'
-import brandedCFG from '../dist/optimized-svgs/branded/CFG.svg'
-import brandedIETH from '../dist/optimized-svgs/branded/IETH.svg'
-import brandedSBD from '../dist/optimized-svgs/branded/SBD.svg'
-import brandedLAMB from '../dist/optimized-svgs/branded/LAMB.svg'
-import brandedUNCX from '../dist/optimized-svgs/branded/UNCX.svg'
-import brandedMED from '../dist/optimized-svgs/branded/MED.svg'
-import brandedADOGE from '../dist/optimized-svgs/branded/ADOGE.svg'
-import brandedBOND from '../dist/optimized-svgs/branded/BOND.svg'
-import brandedASD from '../dist/optimized-svgs/branded/ASD.svg'
-import brandedRBLS from '../dist/optimized-svgs/branded/RBLS.svg'
-import brandedDXP from '../dist/optimized-svgs/branded/DXP.svg'
-import brandedKAVA from '../dist/optimized-svgs/branded/KAVA.svg'
-import brandedTXAU from '../dist/optimized-svgs/branded/TXAU.svg'
-import brandedU from '../dist/optimized-svgs/branded/U.svg'
-import brandedSQUAD from '../dist/optimized-svgs/branded/SQUAD.svg'
-import brandedHOT from '../dist/optimized-svgs/branded/HOT.svg'
-import brandedSHIK from '../dist/optimized-svgs/branded/SHIK.svg'
-import brandedCRU from '../dist/optimized-svgs/branded/CRU.svg'
-import brandedDIKO from '../dist/optimized-svgs/branded/DIKO.svg'
-import brandedML from '../dist/optimized-svgs/branded/ML.svg'
-import brandedVEXT from '../dist/optimized-svgs/branded/VEXT.svg'
-import brandedOS from '../dist/optimized-svgs/branded/OS.svg'
-import brandedTREEB from '../dist/optimized-svgs/branded/TREEB.svg'
-import brandedKMON from '../dist/optimized-svgs/branded/KMON.svg'
-import brandedGRAV from '../dist/optimized-svgs/branded/GRAV.svg'
-import brandedCLORE from '../dist/optimized-svgs/branded/CLORE.svg'
-import brandedRISITA from '../dist/optimized-svgs/branded/RISITA.svg'
-import brandedTRX from '../dist/optimized-svgs/branded/TRX.svg'
-import brandedOGN from '../dist/optimized-svgs/branded/OGN.svg'
-import brandedCTR from '../dist/optimized-svgs/branded/CTR.svg'
-import brandedPDEX from '../dist/optimized-svgs/branded/PDEX.svg'
-import brandedTHOR from '../dist/optimized-svgs/branded/THOR.svg'
-import brandedHID from '../dist/optimized-svgs/branded/HID.svg'
-import brandedMUSD from '../dist/optimized-svgs/branded/MUSD.svg'
-import brandedBRISE from '../dist/optimized-svgs/branded/BRISE.svg'
-import brandedSOPH from '../dist/optimized-svgs/branded/SOPH.svg'
-import brandedSWASH from '../dist/optimized-svgs/branded/SWASH.svg'
-import brandedSIS from '../dist/optimized-svgs/branded/SIS.svg'
-import brandedOMNI from '../dist/optimized-svgs/branded/OMNI.svg'
-import brandedQRL from '../dist/optimized-svgs/branded/QRL.svg'
-import brandedDKA from '../dist/optimized-svgs/branded/DKA.svg'
-import brandedAUDIO from '../dist/optimized-svgs/branded/AUDIO.svg'
-import brandedPOLK from '../dist/optimized-svgs/branded/POLK.svg'
-import brandedFRA from '../dist/optimized-svgs/branded/FRA.svg'
-import brandedSDT from '../dist/optimized-svgs/branded/SDT.svg'
-import brandedCAS from '../dist/optimized-svgs/branded/CAS.svg'
-import brandedAXS from '../dist/optimized-svgs/branded/AXS.svg'
-import brandedLODE from '../dist/optimized-svgs/branded/LODE.svg'
-import brandedMND from '../dist/optimized-svgs/branded/MND.svg'
-import brandedYOSHI from '../dist/optimized-svgs/branded/YOSHI.svg'
-import brandedDGB from '../dist/optimized-svgs/branded/DGB.svg'
-import brandedCRWNY from '../dist/optimized-svgs/branded/CRWNY.svg'
-import brandedLAKE from '../dist/optimized-svgs/branded/LAKE.svg'
-import brandedFCON from '../dist/optimized-svgs/branded/FCON.svg'
-import brandedRNDR from '../dist/optimized-svgs/branded/RNDR.svg'
-import brandedPLANETS from '../dist/optimized-svgs/branded/PLANETS.svg'
-import brandedPOPCAT from '../dist/optimized-svgs/branded/POPCAT.svg'
-import brandedLET from '../dist/optimized-svgs/branded/LET.svg'
-import brandedFLOOR from '../dist/optimized-svgs/branded/FLOOR.svg'
-import brandedPSTAKE from '../dist/optimized-svgs/branded/PSTAKE.svg'
-import brandedBEL from '../dist/optimized-svgs/branded/BEL.svg'
-import brandedPZP from '../dist/optimized-svgs/branded/PZP.svg'
-import brandedNVIR from '../dist/optimized-svgs/branded/NVIR.svg'
-import brandedNFTART from '../dist/optimized-svgs/branded/NFTART.svg'
-import brandedSOULS from '../dist/optimized-svgs/branded/SOULS.svg'
-import brandedGNO from '../dist/optimized-svgs/branded/GNO.svg'
-import brandedBSV from '../dist/optimized-svgs/branded/BSV.svg'
-import brandedGORA from '../dist/optimized-svgs/branded/GORA.svg'
-import brandedCOMP from '../dist/optimized-svgs/branded/COMP.svg'
-import brandedLUCA from '../dist/optimized-svgs/branded/LUCA.svg'
-import brandedGDCC from '../dist/optimized-svgs/branded/GDCC.svg'
-import brandedETC from '../dist/optimized-svgs/branded/ETC.svg'
-import brandedICP from '../dist/optimized-svgs/branded/ICP.svg'
-import brandedPNB from '../dist/optimized-svgs/branded/PNB.svg'
-import brandedSYNC from '../dist/optimized-svgs/branded/SYNC.svg'
-import brandedRVF from '../dist/optimized-svgs/branded/RVF.svg'
-import brandedMANA from '../dist/optimized-svgs/branded/MANA.svg'
-import brandedEMAGIC from '../dist/optimized-svgs/branded/EMAGIC.svg'
-import brandedWRLD from '../dist/optimized-svgs/branded/WRLD.svg'
-import brandedWAVES from '../dist/optimized-svgs/branded/WAVES.svg'
-import brandedGYMNET from '../dist/optimized-svgs/branded/GYMNET.svg'
-import brandedAURA from '../dist/optimized-svgs/branded/AURA.svg'
-import brandedMOBILE from '../dist/optimized-svgs/branded/MOBILE.svg'
-import brandedLPT from '../dist/optimized-svgs/branded/LPT.svg'
-import brandedINV from '../dist/optimized-svgs/branded/INV.svg'
-import brandedPAL from '../dist/optimized-svgs/branded/PAL.svg'
-import brandedPIZA from '../dist/optimized-svgs/branded/PIZA.svg'
-import brandedMCONTENT from '../dist/optimized-svgs/branded/MCONTENT.svg'
-import brandedTRAVA from '../dist/optimized-svgs/branded/TRAVA.svg'
-import brandedGNY from '../dist/optimized-svgs/branded/GNY.svg'
-import brandedKYVE from '../dist/optimized-svgs/branded/KYVE.svg'
-import brandedPNT from '../dist/optimized-svgs/branded/PNT.svg'
-import brandedBSW from '../dist/optimized-svgs/branded/BSW.svg'
-import brandedPOP from '../dist/optimized-svgs/branded/POP.svg'
-import brandedGHUB from '../dist/optimized-svgs/branded/GHUB.svg'
-import brandedGLQ from '../dist/optimized-svgs/branded/GLQ.svg'
-import brandedNXRA from '../dist/optimized-svgs/branded/NXRA.svg'
-import brandedRAY from '../dist/optimized-svgs/branded/RAY.svg'
-import brandedGXC from '../dist/optimized-svgs/branded/GXC.svg'
-import brandedNAKA from '../dist/optimized-svgs/branded/NAKA.svg'
-import brandedEPIK from '../dist/optimized-svgs/branded/EPIK.svg'
-import brandedALGB from '../dist/optimized-svgs/branded/ALGB.svg'
-import brandedKNC from '../dist/optimized-svgs/branded/KNC.svg'
-import brandedPUSH from '../dist/optimized-svgs/branded/PUSH.svg'
-import brandedBLXM from '../dist/optimized-svgs/branded/BLXM.svg'
-import brandedKCS from '../dist/optimized-svgs/branded/KCS.svg'
-import brandedSTATOM from '../dist/optimized-svgs/branded/STATOM.svg'
-import brandedAXE from '../dist/optimized-svgs/branded/AXE.svg'
-import brandedMNR from '../dist/optimized-svgs/branded/MNR.svg'
-import brandedAITECH from '../dist/optimized-svgs/branded/AITECH.svg'
-import brandedNEURONI from '../dist/optimized-svgs/branded/NEURONI.svg'
-import brandedZAP from '../dist/optimized-svgs/branded/ZAP.svg'
-import brandedCATHEON from '../dist/optimized-svgs/branded/CATHEON.svg'
-import brandedBREED from '../dist/optimized-svgs/branded/BREED.svg'
-import brandedSHA from '../dist/optimized-svgs/branded/SHA.svg'
-import brandedQRDO from '../dist/optimized-svgs/branded/QRDO.svg'
-import brandedKLIMA from '../dist/optimized-svgs/branded/KLIMA.svg'
-import brandedWBETH from '../dist/optimized-svgs/branded/WBETH.svg'
-import brandedZCX from '../dist/optimized-svgs/branded/ZCX.svg'
-import brandedMCB from '../dist/optimized-svgs/branded/MCB.svg'
-import brandedFLUID from '../dist/optimized-svgs/branded/FLUID.svg'
-import brandedGULF from '../dist/optimized-svgs/branded/GULF.svg'
-import brandedACX from '../dist/optimized-svgs/branded/ACX.svg'
-import brandedFCTR from '../dist/optimized-svgs/branded/FCTR.svg'
-import brandedFEI from '../dist/optimized-svgs/branded/FEI.svg'
-import brandedONG from '../dist/optimized-svgs/branded/ONG.svg'
-import brandedMUSE from '../dist/optimized-svgs/branded/MUSE.svg'
-import brandedGRAIN from '../dist/optimized-svgs/branded/GRAIN.svg'
-import brandedATLAS from '../dist/optimized-svgs/branded/ATLAS.svg'
-import brandedSRX from '../dist/optimized-svgs/branded/SRX.svg'
-import brandedTULIP from '../dist/optimized-svgs/branded/TULIP.svg'
-import brandedXCM from '../dist/optimized-svgs/branded/XCM.svg'
-import brandedINTR from '../dist/optimized-svgs/branded/INTR.svg'
-import brandedALU from '../dist/optimized-svgs/branded/ALU.svg'
-import brandedTTK from '../dist/optimized-svgs/branded/TTK.svg'
-import brandedSRM from '../dist/optimized-svgs/branded/SRM.svg'
-import brandedVLX from '../dist/optimized-svgs/branded/VLX.svg'
-import brandedSPE from '../dist/optimized-svgs/branded/SPE.svg'
-import brandedONE from '../dist/optimized-svgs/branded/ONE.svg'
-import brandedGRIN from '../dist/optimized-svgs/branded/GRIN.svg'
-import brandedGRAIL from '../dist/optimized-svgs/branded/GRAIL.svg'
-import brandedOMI from '../dist/optimized-svgs/branded/OMI.svg'
-import brandedASSA from '../dist/optimized-svgs/branded/ASSA.svg'
-import brandedDYDX from '../dist/optimized-svgs/branded/DYDX.svg'
-import brandedSRLTY from '../dist/optimized-svgs/branded/SRLTY.svg'
-import brandedDUSK from '../dist/optimized-svgs/branded/DUSK.svg'
-import brandedFX from '../dist/optimized-svgs/branded/FX.svg'
-import brandedPSWAP from '../dist/optimized-svgs/branded/PSWAP.svg'
-import brandedTLM from '../dist/optimized-svgs/branded/TLM.svg'
-import brandedMBD from '../dist/optimized-svgs/branded/MBD.svg'
-import brandedSN from '../dist/optimized-svgs/branded/SN.svg'
-import brandedCOL from '../dist/optimized-svgs/branded/COL.svg'
-import brandedAVL from '../dist/optimized-svgs/branded/AVL.svg'
-import brandedOMNOM from '../dist/optimized-svgs/branded/OMNOM.svg'
-import brandedATD from '../dist/optimized-svgs/branded/ATD.svg'
-import brandedMOC from '../dist/optimized-svgs/branded/MOC.svg'
-import brandedCAP from '../dist/optimized-svgs/branded/CAP.svg'
-import brandedAERGO from '../dist/optimized-svgs/branded/AERGO.svg'
-import brandedOTK from '../dist/optimized-svgs/branded/OTK.svg'
-import brandedLEASH from '../dist/optimized-svgs/branded/LEASH.svg'
-import brandedTFUEL from '../dist/optimized-svgs/branded/TFUEL.svg'
-import brandedTREE from '../dist/optimized-svgs/branded/TREE.svg'
-import brandedTIPS from '../dist/optimized-svgs/branded/TIPS.svg'
-import brandedKAN from '../dist/optimized-svgs/branded/KAN.svg'
-import brandedELF from '../dist/optimized-svgs/branded/ELF.svg'
-import brandedRBW from '../dist/optimized-svgs/branded/RBW.svg'
-import brandedBFT from '../dist/optimized-svgs/branded/BFT.svg'
-import brandedNPC from '../dist/optimized-svgs/branded/NPC.svg'
-import brandedGSTS from '../dist/optimized-svgs/branded/GSTS.svg'
-import brandedPICA from '../dist/optimized-svgs/branded/PICA.svg'
-import brandedLIT from '../dist/optimized-svgs/branded/LIT.svg'
-import brandedSKEY from '../dist/optimized-svgs/branded/SKEY.svg'
-import brandedGXA from '../dist/optimized-svgs/branded/GXA.svg'
-import brandedINSUR from '../dist/optimized-svgs/branded/INSUR.svg'
-import brandedPLI from '../dist/optimized-svgs/branded/PLI.svg'
-import brandedRTM from '../dist/optimized-svgs/branded/RTM.svg'
-import brandedYGG from '../dist/optimized-svgs/branded/YGG.svg'
-import brandedTONIC from '../dist/optimized-svgs/branded/TONIC.svg'
-import brandedHILO from '../dist/optimized-svgs/branded/HILO.svg'
-import brandedLUNR from '../dist/optimized-svgs/branded/LUNR.svg'
-import brandedLYXE from '../dist/optimized-svgs/branded/LYXE.svg'
-import brandedGAT from '../dist/optimized-svgs/branded/GAT.svg'
-import brandedMOBY from '../dist/optimized-svgs/branded/MOBY.svg'
-import brandedPAY from '../dist/optimized-svgs/branded/PAY.svg'
-import brandedPROB from '../dist/optimized-svgs/branded/PROB.svg'
-import brandedJASMY from '../dist/optimized-svgs/branded/JASMY.svg'
-import brandedTIFI from '../dist/optimized-svgs/branded/TIFI.svg'
-import brandedIMO from '../dist/optimized-svgs/branded/IMO.svg'
-import brandedINT from '../dist/optimized-svgs/branded/INT.svg'
-import brandedHIBS from '../dist/optimized-svgs/branded/HIBS.svg'
-import brandedXDATA from '../dist/optimized-svgs/branded/XDATA.svg'
-import brandedHELLO from '../dist/optimized-svgs/branded/HELLO.svg'
-import brandedMANC from '../dist/optimized-svgs/branded/MANC.svg'
-import brandedKUMA from '../dist/optimized-svgs/branded/KUMA.svg'
-import brandedELON from '../dist/optimized-svgs/branded/ELON.svg'
-import brandedMIMATIC from '../dist/optimized-svgs/branded/MIMATIC.svg'
-import brandedBRG from '../dist/optimized-svgs/branded/BRG.svg'
-import brandedALPH from '../dist/optimized-svgs/branded/ALPH.svg'
-import brandedROUTE from '../dist/optimized-svgs/branded/ROUTE.svg'
-import brandedBST from '../dist/optimized-svgs/branded/BST.svg'
-import brandedICE from '../dist/optimized-svgs/branded/ICE.svg'
-import brandedB2M from '../dist/optimized-svgs/branded/B2M.svg'
-import brandedBEN from '../dist/optimized-svgs/branded/BEN.svg'
-import brandedDATA from '../dist/optimized-svgs/branded/DATA.svg'
-import brandedRAMP from '../dist/optimized-svgs/branded/RAMP.svg'
-import brandedRAM from '../dist/optimized-svgs/branded/RAM.svg'
-import brandedGTC from '../dist/optimized-svgs/branded/GTC.svg'
-import brandedIXO from '../dist/optimized-svgs/branded/IXO.svg'
-import brandedGAFI from '../dist/optimized-svgs/branded/GAFI.svg'
-import brandedARBI from '../dist/optimized-svgs/branded/ARBI.svg'
-import brandedAPOLLO from '../dist/optimized-svgs/branded/APOLLO.svg'
-import brandedXTP from '../dist/optimized-svgs/branded/XTP.svg'
-import brandedMLN from '../dist/optimized-svgs/branded/MLN.svg'
-import brandedAAVE from '../dist/optimized-svgs/branded/AAVE.svg'
-import brandedOATH from '../dist/optimized-svgs/branded/OATH.svg'
-import brandedJKL from '../dist/optimized-svgs/branded/JKL.svg'
-import brandedSFI from '../dist/optimized-svgs/branded/SFI.svg'
-import brandedREALM from '../dist/optimized-svgs/branded/REALM.svg'
-import brandedKWENTA from '../dist/optimized-svgs/branded/KWENTA.svg'
-import brandedATR from '../dist/optimized-svgs/branded/ATR.svg'
-import brandedCLV from '../dist/optimized-svgs/branded/CLV.svg'
-import brandedFOREX from '../dist/optimized-svgs/branded/FOREX.svg'
-import brandedMTH from '../dist/optimized-svgs/branded/MTH.svg'
-import brandedXMR from '../dist/optimized-svgs/branded/XMR.svg'
-import brandedDF from '../dist/optimized-svgs/branded/DF.svg'
-import brandedKISHU from '../dist/optimized-svgs/branded/KISHU.svg'
-import brandedCOSMOSHUB from '../dist/optimized-svgs/branded/COSMOSHUB.svg'
-import brandedLQTY from '../dist/optimized-svgs/branded/LQTY.svg'
-import brandedVAI from '../dist/optimized-svgs/branded/VAI.svg'
-import brandedCTG from '../dist/optimized-svgs/branded/CTG.svg'
-import brandedBCUBE from '../dist/optimized-svgs/branded/BCUBE.svg'
-import brandedDPI from '../dist/optimized-svgs/branded/DPI.svg'
-import brandedAMP from '../dist/optimized-svgs/branded/AMP.svg'
-import brandedLOVELY from '../dist/optimized-svgs/branded/LOVELY.svg'
-import brandedPAXG from '../dist/optimized-svgs/branded/PAXG.svg'
-import brandedBSCS from '../dist/optimized-svgs/branded/BSCS.svg'
-import brandedOAX from '../dist/optimized-svgs/branded/OAX.svg'
-import brandedMTL from '../dist/optimized-svgs/branded/MTL.svg'
-import brandedACH from '../dist/optimized-svgs/branded/ACH.svg'
-import brandedMVD from '../dist/optimized-svgs/branded/MVD.svg'
-import brandedPYUSD from '../dist/optimized-svgs/branded/PYUSD.svg'
-import brandedATA from '../dist/optimized-svgs/branded/ATA.svg'
-import brandedC98 from '../dist/optimized-svgs/branded/C98.svg'
-import brandedPOLYPAD from '../dist/optimized-svgs/branded/POLYPAD.svg'
-import brandedAVI from '../dist/optimized-svgs/branded/AVI.svg'
-import brandedVVS from '../dist/optimized-svgs/branded/VVS.svg'
-import brandedUBSN from '../dist/optimized-svgs/branded/UBSN.svg'
-import brandedKLEVA from '../dist/optimized-svgs/branded/KLEVA.svg'
-import brandedCBY from '../dist/optimized-svgs/branded/CBY.svg'
-import brandedMMY from '../dist/optimized-svgs/branded/MMY.svg'
-import brandedMNB from '../dist/optimized-svgs/branded/MNB.svg'
-import brandedSFM from '../dist/optimized-svgs/branded/SFM.svg'
-import brandedDEL from '../dist/optimized-svgs/branded/DEL.svg'
-import brandedKITTY from '../dist/optimized-svgs/branded/KITTY.svg'
-import brandedTAO from '../dist/optimized-svgs/branded/TAO.svg'
-import brandedPPAY from '../dist/optimized-svgs/branded/PPAY.svg'
-import brandedRLY from '../dist/optimized-svgs/branded/RLY.svg'
-import brandedFEAR from '../dist/optimized-svgs/branded/FEAR.svg'
-import brandedSEED from '../dist/optimized-svgs/branded/SEED.svg'
-import brandedEMP from '../dist/optimized-svgs/branded/EMP.svg'
-import brandedDZOO from '../dist/optimized-svgs/branded/DZOO.svg'
-import brandedNOIA from '../dist/optimized-svgs/branded/NOIA.svg'
-import brandedAIMBOT from '../dist/optimized-svgs/branded/AIMBOT.svg'
-import brandedQASH from '../dist/optimized-svgs/branded/QASH.svg'
-import brandedBGB from '../dist/optimized-svgs/branded/BGB.svg'
-import brandedORARE from '../dist/optimized-svgs/branded/ORARE.svg'
-import brandedCSIX from '../dist/optimized-svgs/branded/CSIX.svg'
-import brandedRAI from '../dist/optimized-svgs/branded/RAI.svg'
-import brandedCRYSTAL from '../dist/optimized-svgs/branded/CRYSTAL.svg'
-import brandedGOZ from '../dist/optimized-svgs/branded/GOZ.svg'
-import brandedETE from '../dist/optimized-svgs/branded/ETE.svg'
-import brandedBPRO from '../dist/optimized-svgs/branded/BPRO.svg'
-import brandedNFTB from '../dist/optimized-svgs/branded/NFTB.svg'
-import brandedOETH from '../dist/optimized-svgs/branded/OETH.svg'
-import brandedXPNET from '../dist/optimized-svgs/branded/XPNET.svg'
-import brandedSTRAX from '../dist/optimized-svgs/branded/STRAX.svg'
-import brandedGARI from '../dist/optimized-svgs/branded/GARI.svg'
-import brandedBLUSD from '../dist/optimized-svgs/branded/BLUSD.svg'
-import brandedSIPHER from '../dist/optimized-svgs/branded/SIPHER.svg'
-import brandedLUNA from '../dist/optimized-svgs/branded/LUNA.svg'
-import brandedBULL from '../dist/optimized-svgs/branded/BULL.svg'
-import brandedTBTC from '../dist/optimized-svgs/branded/TBTC.svg'
-import brandedDOMI from '../dist/optimized-svgs/branded/DOMI.svg'
-import brandedUPP from '../dist/optimized-svgs/branded/UPP.svg'
-import brandedHUSKY from '../dist/optimized-svgs/branded/HUSKY.svg'
-import brandedTELOS from '../dist/optimized-svgs/branded/TELOS.svg'
-import brandedUQC from '../dist/optimized-svgs/branded/UQC.svg'
-import brandedSMARTCREDIT from '../dist/optimized-svgs/branded/SMARTCREDIT.svg'
-import brandedASTRAFER from '../dist/optimized-svgs/branded/ASTRAFER.svg'
-import brandedANKR from '../dist/optimized-svgs/branded/ANKR.svg'
-import brandedBIFI from '../dist/optimized-svgs/branded/BIFI.svg'
-import brandedQUICK from '../dist/optimized-svgs/branded/QUICK.svg'
-import brandedMATH from '../dist/optimized-svgs/branded/MATH.svg'
-import brandedBDX from '../dist/optimized-svgs/branded/BDX.svg'
-import brandedRBD from '../dist/optimized-svgs/branded/RBD.svg'
-import brandedELU from '../dist/optimized-svgs/branded/ELU.svg'
-import brandedHIVE from '../dist/optimized-svgs/branded/HIVE.svg'
-import brandedGHNY from '../dist/optimized-svgs/branded/GHNY.svg'
-import brandedARCH from '../dist/optimized-svgs/branded/ARCH.svg'
-import brandedWSI from '../dist/optimized-svgs/branded/WSI.svg'
-import brandedENJ from '../dist/optimized-svgs/branded/ENJ.svg'
-import brandedVOXEL from '../dist/optimized-svgs/branded/VOXEL.svg'
-import brandedPINU from '../dist/optimized-svgs/branded/PINU.svg'
-import brandedATOM from '../dist/optimized-svgs/branded/ATOM.svg'
-import brandedCAT from '../dist/optimized-svgs/branded/CAT.svg'
-import brandedMOG from '../dist/optimized-svgs/branded/MOG.svg'
-import brandedEQUAD from '../dist/optimized-svgs/branded/EQUAD.svg'
-import brandedCELO from '../dist/optimized-svgs/branded/CELO.svg'
-import brandedSTRONG from '../dist/optimized-svgs/branded/STRONG.svg'
-import brandedURUS from '../dist/optimized-svgs/branded/URUS.svg'
-import brandedCBX from '../dist/optimized-svgs/branded/CBX.svg'
-import brandedMLK from '../dist/optimized-svgs/branded/MLK.svg'
-import brandedTARA from '../dist/optimized-svgs/branded/TARA.svg'
-import brandedMMO from '../dist/optimized-svgs/branded/MMO.svg'
-import brandedMNT from '../dist/optimized-svgs/branded/MNT.svg'
-import brandedZNN from '../dist/optimized-svgs/branded/ZNN.svg'
-import brandedPOND from '../dist/optimized-svgs/branded/POND.svg'
-import brandedMNST from '../dist/optimized-svgs/branded/MNST.svg'
-import brandedRING from '../dist/optimized-svgs/branded/RING.svg'
-import brandedCLS from '../dist/optimized-svgs/branded/CLS.svg'
-import brandedTOR from '../dist/optimized-svgs/branded/TOR.svg'
-import brandedPORTAL from '../dist/optimized-svgs/branded/PORTAL.svg'
-import brandedVEGA from '../dist/optimized-svgs/branded/VEGA.svg'
-import brandedAZERO from '../dist/optimized-svgs/branded/AZERO.svg'
-import brandedTORN from '../dist/optimized-svgs/branded/TORN.svg'
-import brandedHYDRA from '../dist/optimized-svgs/branded/HYDRA.svg'
-import brandedOOE from '../dist/optimized-svgs/branded/OOE.svg'
-import brandedCRTS from '../dist/optimized-svgs/branded/CRTS.svg'
-import brandedETHM from '../dist/optimized-svgs/branded/ETHM.svg'
-import brandedGO from '../dist/optimized-svgs/branded/GO.svg'
-import brandedVALOR from '../dist/optimized-svgs/branded/VALOR.svg'
-import brandedSTRP from '../dist/optimized-svgs/branded/STRP.svg'
-import brandedSTELLA from '../dist/optimized-svgs/branded/STELLA.svg'
-import brandedRAVEN from '../dist/optimized-svgs/branded/RAVEN.svg'
-import brandedDC from '../dist/optimized-svgs/branded/DC.svg'
-import brandedDPAY from '../dist/optimized-svgs/branded/DPAY.svg'
-import brandedFIL from '../dist/optimized-svgs/branded/FIL.svg'
-import brandedTWT from '../dist/optimized-svgs/branded/TWT.svg'
-import brandedAMB from '../dist/optimized-svgs/branded/AMB.svg'
-import brandedID from '../dist/optimized-svgs/branded/ID.svg'
-import brandedSPA from '../dist/optimized-svgs/branded/SPA.svg'
-import brandedDEXT from '../dist/optimized-svgs/branded/DEXT.svg'
-import brandedSSX from '../dist/optimized-svgs/branded/SSX.svg'
-import brandedSIGNA from '../dist/optimized-svgs/branded/SIGNA.svg'
-import brandedIQ from '../dist/optimized-svgs/branded/IQ.svg'
-import brandedDWEB from '../dist/optimized-svgs/branded/DWEB.svg'
-import brandedGEEQ from '../dist/optimized-svgs/branded/GEEQ.svg'
-import brandedSRK from '../dist/optimized-svgs/branded/SRK.svg'
-import brandedCUSD from '../dist/optimized-svgs/branded/CUSD.svg'
-import brandedONT from '../dist/optimized-svgs/branded/ONT.svg'
-import brandedVCF from '../dist/optimized-svgs/branded/VCF.svg'
-import brandedBLOCK from '../dist/optimized-svgs/branded/BLOCK.svg'
-import brandedETHX from '../dist/optimized-svgs/branded/ETHX.svg'
-import brandedEARN from '../dist/optimized-svgs/branded/EARN.svg'
-import brandedMWC from '../dist/optimized-svgs/branded/MWC.svg'
-import brandedFOAM from '../dist/optimized-svgs/branded/FOAM.svg'
-import brandedLAYER from '../dist/optimized-svgs/branded/LAYER.svg'
-import brandedMAN from '../dist/optimized-svgs/branded/MAN.svg'
-import brandedSDAO from '../dist/optimized-svgs/branded/SDAO.svg'
-import brandedZAT from '../dist/optimized-svgs/branded/ZAT.svg'
-import brandedVTX from '../dist/optimized-svgs/branded/VTX.svg'
-import brandedOXY from '../dist/optimized-svgs/branded/OXY.svg'
-import brandedSPIRIT from '../dist/optimized-svgs/branded/SPIRIT.svg'
-import brandedTNT from '../dist/optimized-svgs/branded/TNT.svg'
-import brandedKOIN from '../dist/optimized-svgs/branded/KOIN.svg'
-import brandedTOP from '../dist/optimized-svgs/branded/TOP.svg'
-import brandedPOLY from '../dist/optimized-svgs/branded/POLY.svg'
-import brandedKOGE from '../dist/optimized-svgs/branded/KOGE.svg'
-import brandedOVR from '../dist/optimized-svgs/branded/OVR.svg'
-import brandedMOE from '../dist/optimized-svgs/branded/MOE.svg'
-import brandedDACXI from '../dist/optimized-svgs/branded/DACXI.svg'
-import brandedBAKE from '../dist/optimized-svgs/branded/BAKE.svg'
-import brandedWRX from '../dist/optimized-svgs/branded/WRX.svg'
-import brandedTLOS from '../dist/optimized-svgs/branded/TLOS.svg'
-import brandedCANTO from '../dist/optimized-svgs/branded/CANTO.svg'
-import brandedGZONE from '../dist/optimized-svgs/branded/GZONE.svg'
-import brandedPWR from '../dist/optimized-svgs/branded/PWR.svg'
-import brandedGFAL from '../dist/optimized-svgs/branded/GFAL.svg'
-import brandedDJED from '../dist/optimized-svgs/branded/DJED.svg'
-import brandedBFR from '../dist/optimized-svgs/branded/BFR.svg'
-import brandedNGL from '../dist/optimized-svgs/branded/NGL.svg'
-import brandedCTXC from '../dist/optimized-svgs/branded/CTXC.svg'
-import brandedPNG from '../dist/optimized-svgs/branded/PNG.svg'
-import brandedRVC from '../dist/optimized-svgs/branded/RVC.svg'
-import brandedNSBT from '../dist/optimized-svgs/branded/NSBT.svg'
-import brandedUSDX from '../dist/optimized-svgs/branded/USDX.svg'
-import brandedPNP from '../dist/optimized-svgs/branded/PNP.svg'
-import brandedLSK from '../dist/optimized-svgs/branded/LSK.svg'
-import brandedNHT from '../dist/optimized-svgs/branded/NHT.svg'
-import brandedWELL from '../dist/optimized-svgs/branded/WELL.svg'
-import brandedLUNC from '../dist/optimized-svgs/branded/LUNC.svg'
-import brandedEUNO from '../dist/optimized-svgs/branded/EUNO.svg'
-import brandedOUSD from '../dist/optimized-svgs/branded/OUSD.svg'
-import brandedPROS from '../dist/optimized-svgs/branded/PROS.svg'
-import brandedMOBI from '../dist/optimized-svgs/branded/MOBI.svg'
-import brandedCCV2 from '../dist/optimized-svgs/branded/CCV2.svg'
-import brandedPAI from '../dist/optimized-svgs/branded/PAI.svg'
-import brandedPBR from '../dist/optimized-svgs/branded/PBR.svg'
-import brandedGAS from '../dist/optimized-svgs/branded/GAS.svg'
-import brandedBEETS from '../dist/optimized-svgs/branded/BEETS.svg'
-import brandedPLEB from '../dist/optimized-svgs/branded/PLEB.svg'
-import brandedCUMINU from '../dist/optimized-svgs/branded/CUMINU.svg'
-import brandedINS from '../dist/optimized-svgs/branded/INS.svg'
-import brandedEXD from '../dist/optimized-svgs/branded/EXD.svg'
-import brandedNKN from '../dist/optimized-svgs/branded/NKN.svg'
-import brandedUSH from '../dist/optimized-svgs/branded/USH.svg'
-import brandedTRAXX from '../dist/optimized-svgs/branded/TRAXX.svg'
-import brandedTOWER from '../dist/optimized-svgs/branded/TOWER.svg'
-import brandedSYLO from '../dist/optimized-svgs/branded/SYLO.svg'
-import brandedY2K from '../dist/optimized-svgs/branded/Y2K.svg'
-import brandedPLN from '../dist/optimized-svgs/branded/PLN.svg'
-import brandedETP from '../dist/optimized-svgs/branded/ETP.svg'
-import brandedMOON from '../dist/optimized-svgs/branded/MOON.svg'
-import brandedGLC from '../dist/optimized-svgs/branded/GLC.svg'
-import brandedPLY from '../dist/optimized-svgs/branded/PLY.svg'
-import brandedSWAP from '../dist/optimized-svgs/branded/SWAP.svg'
-import brandedKEEP from '../dist/optimized-svgs/branded/KEEP.svg'
-import brandedSFUND from '../dist/optimized-svgs/branded/SFUND.svg'
-import brandedNGM from '../dist/optimized-svgs/branded/NGM.svg'
-import brandedSWISE from '../dist/optimized-svgs/branded/SWISE.svg'
-import brandedUFI from '../dist/optimized-svgs/branded/UFI.svg'
-import brandedALEX from '../dist/optimized-svgs/branded/ALEX.svg'
-import brandedRDPX from '../dist/optimized-svgs/branded/RDPX.svg'
-import brandedCBETH from '../dist/optimized-svgs/branded/CBETH.svg'
-import brandedCHRP from '../dist/optimized-svgs/branded/CHRP.svg'
-import brandedWOJAK from '../dist/optimized-svgs/branded/WOJAK.svg'
-import brandedKAI from '../dist/optimized-svgs/branded/KAI.svg'
-import brandedCELL from '../dist/optimized-svgs/branded/CELL.svg'
-import brandedHAWK from '../dist/optimized-svgs/branded/HAWK.svg'
-import brandedMOD from '../dist/optimized-svgs/branded/MOD.svg'
-import brandedCAW from '../dist/optimized-svgs/branded/CAW.svg'
-import brandedREVO from '../dist/optimized-svgs/branded/REVO.svg'
-import brandedTRIAS from '../dist/optimized-svgs/branded/TRIAS.svg'
-import brandedMNW from '../dist/optimized-svgs/branded/MNW.svg'
-import brandedMAX from '../dist/optimized-svgs/branded/MAX.svg'
-import brandedSI from '../dist/optimized-svgs/branded/SI.svg'
-import brandedPOLX from '../dist/optimized-svgs/branded/POLX.svg'
-import brandedHMND from '../dist/optimized-svgs/branded/HMND.svg'
-import brandedMEAN from '../dist/optimized-svgs/branded/MEAN.svg'
-import brandedUNIX from '../dist/optimized-svgs/branded/UNIX.svg'
-import brandedSTRD from '../dist/optimized-svgs/branded/STRD.svg'
-import brandedNBLU from '../dist/optimized-svgs/branded/NBLU.svg'
-import brandedDGNX from '../dist/optimized-svgs/branded/DGNX.svg'
-import brandedES from '../dist/optimized-svgs/branded/ES.svg'
-import brandedVIDT from '../dist/optimized-svgs/branded/VIDT.svg'
-import brandedXNO from '../dist/optimized-svgs/branded/XNO.svg'
-import brandedHT from '../dist/optimized-svgs/branded/HT.svg'
-import brandedFIO from '../dist/optimized-svgs/branded/FIO.svg'
-import brandedOCE from '../dist/optimized-svgs/branded/OCE.svg'
-import brandedMZR from '../dist/optimized-svgs/branded/MZR.svg'
-import brandedPOWR from '../dist/optimized-svgs/branded/POWR.svg'
-import brandedGLMR from '../dist/optimized-svgs/branded/GLMR.svg'
-import brandedDPX from '../dist/optimized-svgs/branded/DPX.svg'
-import brandedAQTIS from '../dist/optimized-svgs/branded/AQTIS.svg'
-import brandedXCH from '../dist/optimized-svgs/branded/XCH.svg'
-import brandedMXM from '../dist/optimized-svgs/branded/MXM.svg'
-import monoSOCKS from '../dist/optimized-svgs/mono/SOCKS.svg'
-import monoTHOL from '../dist/optimized-svgs/mono/THOL.svg'
-import monoGLINK from '../dist/optimized-svgs/mono/GLINK.svg'
-import monoSPX from '../dist/optimized-svgs/mono/SPX.svg'
-import monoMINA from '../dist/optimized-svgs/mono/MINA.svg'
-import monoCXO from '../dist/optimized-svgs/mono/CXO.svg'
-import monoABT from '../dist/optimized-svgs/mono/ABT.svg'
-import monoBMEX from '../dist/optimized-svgs/mono/BMEX.svg'
-import monoRBIF from '../dist/optimized-svgs/mono/RBIF.svg'
-import monoSAIL from '../dist/optimized-svgs/mono/SAIL.svg'
-import monoVAB from '../dist/optimized-svgs/mono/VAB.svg'
-import monoCNFI from '../dist/optimized-svgs/mono/CNFI.svg'
-import monoUW3S from '../dist/optimized-svgs/mono/UW3S.svg'
-import monoZBC from '../dist/optimized-svgs/mono/ZBC.svg'
-import monoOXB from '../dist/optimized-svgs/mono/OXB.svg'
-import monoSHI from '../dist/optimized-svgs/mono/SHI.svg'
-import monoVTC from '../dist/optimized-svgs/mono/VTC.svg'
-import monoSWFTC from '../dist/optimized-svgs/mono/SWFTC.svg'
-import mono2DAI from '../dist/optimized-svgs/mono/2DAI.svg'
-import monoD3D from '../dist/optimized-svgs/mono/D3D.svg'
-import monoPALM from '../dist/optimized-svgs/mono/PALM.svg'
-import monoBHAT from '../dist/optimized-svgs/mono/BHAT.svg'
-import monoHST from '../dist/optimized-svgs/mono/HST.svg'
-import monoDFX from '../dist/optimized-svgs/mono/DFX.svg'
-import monoHPO from '../dist/optimized-svgs/mono/HPO.svg'
-import monoOMAX from '../dist/optimized-svgs/mono/OMAX.svg'
-import monoXVS from '../dist/optimized-svgs/mono/XVS.svg'
-import monoTRIBE from '../dist/optimized-svgs/mono/TRIBE.svg'
-import monoENS from '../dist/optimized-svgs/mono/ENS.svg'
-import monoSPARTA from '../dist/optimized-svgs/mono/SPARTA.svg'
-import monoWINR from '../dist/optimized-svgs/mono/WINR.svg'
-import monoIXS from '../dist/optimized-svgs/mono/IXS.svg'
-import monoROOK from '../dist/optimized-svgs/mono/ROOK.svg'
-import monoCMOS from '../dist/optimized-svgs/mono/CMOS.svg'
-import monoKAS from '../dist/optimized-svgs/mono/KAS.svg'
-import monoMTLX from '../dist/optimized-svgs/mono/MTLX.svg'
-import monoRCN from '../dist/optimized-svgs/mono/RCN.svg'
-import monoSONNE from '../dist/optimized-svgs/mono/SONNE.svg'
-import monoKLT from '../dist/optimized-svgs/mono/KLT.svg'
-import monoITP from '../dist/optimized-svgs/mono/ITP.svg'
-import monoNABOX from '../dist/optimized-svgs/mono/NABOX.svg'
-import monoEPIC from '../dist/optimized-svgs/mono/EPIC.svg'
-import monoOPUL from '../dist/optimized-svgs/mono/OPUL.svg'
-import monoVSYS from '../dist/optimized-svgs/mono/VSYS.svg'
-import monoPNK from '../dist/optimized-svgs/mono/PNK.svg'
-import monoUSDC from '../dist/optimized-svgs/mono/USDC.svg'
-import monoPLT from '../dist/optimized-svgs/mono/PLT.svg'
-import monoNORD from '../dist/optimized-svgs/mono/NORD.svg'
-import monoYFI from '../dist/optimized-svgs/mono/YFI.svg'
-import monoGHOST from '../dist/optimized-svgs/mono/GHOST.svg'
-import monoUSDT from '../dist/optimized-svgs/mono/USDT.svg'
-import monoTHETA from '../dist/optimized-svgs/mono/THETA.svg'
-import monoLRC from '../dist/optimized-svgs/mono/LRC.svg'
-import monoGAI from '../dist/optimized-svgs/mono/GAI.svg'
-import monoMETFI from '../dist/optimized-svgs/mono/METFI.svg'
-import monoPREMIA from '../dist/optimized-svgs/mono/PREMIA.svg'
-import monoWAMPL from '../dist/optimized-svgs/mono/WAMPL.svg'
-import monoPLEX from '../dist/optimized-svgs/mono/PLEX.svg'
-import monoOBSR from '../dist/optimized-svgs/mono/OBSR.svg'
-import monoILV from '../dist/optimized-svgs/mono/ILV.svg'
-import monoRXD from '../dist/optimized-svgs/mono/RXD.svg'
-import monoZERO from '../dist/optimized-svgs/mono/ZERO.svg'
-import monoDIVER from '../dist/optimized-svgs/mono/DIVER.svg'
-import monoBUMP from '../dist/optimized-svgs/mono/BUMP.svg'
-import monoWGC from '../dist/optimized-svgs/mono/WGC.svg'
-import monoFUSE from '../dist/optimized-svgs/mono/FUSE.svg'
-import monoGZIL from '../dist/optimized-svgs/mono/GZIL.svg'
-import monoYES from '../dist/optimized-svgs/mono/YES.svg'
-import monoPLU from '../dist/optimized-svgs/mono/PLU.svg'
-import monoICX from '../dist/optimized-svgs/mono/ICX.svg'
-import monoRVN from '../dist/optimized-svgs/mono/RVN.svg'
-import monoPRTC from '../dist/optimized-svgs/mono/PRTC.svg'
-import monoPXP from '../dist/optimized-svgs/mono/PXP.svg'
-import monoLDO from '../dist/optimized-svgs/mono/LDO.svg'
-import monoKAR from '../dist/optimized-svgs/mono/KAR.svg'
-import monoHEGIC from '../dist/optimized-svgs/mono/HEGIC.svg'
-import monoSLND from '../dist/optimized-svgs/mono/SLND.svg'
-import monoQUINT from '../dist/optimized-svgs/mono/QUINT.svg'
-import monoWOMBAT from '../dist/optimized-svgs/mono/WOMBAT.svg'
-import monoPTS from '../dist/optimized-svgs/mono/PTS.svg'
-import monoCCD from '../dist/optimized-svgs/mono/CCD.svg'
-import monoCIRUS from '../dist/optimized-svgs/mono/CIRUS.svg'
-import monoXTZ from '../dist/optimized-svgs/mono/XTZ.svg'
-import monoTDROP from '../dist/optimized-svgs/mono/TDROP.svg'
-import monoVXV from '../dist/optimized-svgs/mono/VXV.svg'
-import monoAXL from '../dist/optimized-svgs/mono/AXL.svg'
-import monoOXT from '../dist/optimized-svgs/mono/OXT.svg'
-import monoDIA from '../dist/optimized-svgs/mono/DIA.svg'
-import monoWOOF from '../dist/optimized-svgs/mono/WOOF.svg'
-import monoFOUR from '../dist/optimized-svgs/mono/FOUR.svg'
-import monoMBX from '../dist/optimized-svgs/mono/MBX.svg'
-import monoPI from '../dist/optimized-svgs/mono/PI.svg'
-import monoBOSON from '../dist/optimized-svgs/mono/BOSON.svg'
-import monoBBANK from '../dist/optimized-svgs/mono/BBANK.svg'
-import monoMNDE from '../dist/optimized-svgs/mono/MNDE.svg'
-import monoWLITI from '../dist/optimized-svgs/mono/WLITI.svg'
-import monoACQ from '../dist/optimized-svgs/mono/ACQ.svg'
-import monoHFT from '../dist/optimized-svgs/mono/HFT.svg'
-import monoCNHT from '../dist/optimized-svgs/mono/CNHT.svg'
-import monoAURORA from '../dist/optimized-svgs/mono/AURORA.svg'
-import monoCVR from '../dist/optimized-svgs/mono/CVR.svg'
-import monoALI from '../dist/optimized-svgs/mono/ALI.svg'
-import monoNEER from '../dist/optimized-svgs/mono/NEER.svg'
-import monoCVP from '../dist/optimized-svgs/mono/CVP.svg'
-import monoMXC from '../dist/optimized-svgs/mono/MXC.svg'
-import monoAMO from '../dist/optimized-svgs/mono/AMO.svg'
-import monoANT from '../dist/optimized-svgs/mono/ANT.svg'
-import monoDSM from '../dist/optimized-svgs/mono/DSM.svg'
-import monoHEZ from '../dist/optimized-svgs/mono/HEZ.svg'
-import monoANC from '../dist/optimized-svgs/mono/ANC.svg'
-import monoCTX from '../dist/optimized-svgs/mono/CTX.svg'
-import monoBTCMT from '../dist/optimized-svgs/mono/BTCMT.svg'
-import monoMETA from '../dist/optimized-svgs/mono/META.svg'
-import monoWITCH from '../dist/optimized-svgs/mono/WITCH.svg'
-import monoXNA from '../dist/optimized-svgs/mono/XNA.svg'
-import monoXOR from '../dist/optimized-svgs/mono/XOR.svg'
-import monoVCORE from '../dist/optimized-svgs/mono/VCORE.svg'
-import monoEVER from '../dist/optimized-svgs/mono/EVER.svg'
-import monoSTFX from '../dist/optimized-svgs/mono/STFX.svg'
-import monoMYST from '../dist/optimized-svgs/mono/MYST.svg'
-import monoPOLA from '../dist/optimized-svgs/mono/POLA.svg'
-import monoSHROOM from '../dist/optimized-svgs/mono/SHROOM.svg'
-import monoMAV from '../dist/optimized-svgs/mono/MAV.svg'
-import monoREVV from '../dist/optimized-svgs/mono/REVV.svg'
-import monoXVG from '../dist/optimized-svgs/mono/XVG.svg'
-import monoDENT from '../dist/optimized-svgs/mono/DENT.svg'
-import monoD2T from '../dist/optimized-svgs/mono/D2T.svg'
-import monoEOSDT from '../dist/optimized-svgs/mono/EOSDT.svg'
-import monoZLK from '../dist/optimized-svgs/mono/ZLK.svg'
-import monoODIN from '../dist/optimized-svgs/mono/ODIN.svg'
-import monoWAGMIGAMES from '../dist/optimized-svgs/mono/WAGMIGAMES.svg'
-import monoKAG from '../dist/optimized-svgs/mono/KAG.svg'
-import monoKAP from '../dist/optimized-svgs/mono/KAP.svg'
-import monoRLB from '../dist/optimized-svgs/mono/RLB.svg'
-import monoORBS from '../dist/optimized-svgs/mono/ORBS.svg'
-import monoKMD from '../dist/optimized-svgs/mono/KMD.svg'
-import monoSUTER from '../dist/optimized-svgs/mono/SUTER.svg'
-import monoRAE from '../dist/optimized-svgs/mono/RAE.svg'
-import monoSWTH from '../dist/optimized-svgs/mono/SWTH.svg'
-import monoNGC from '../dist/optimized-svgs/mono/NGC.svg'
-import monoGLM from '../dist/optimized-svgs/mono/GLM.svg'
-import monoETI from '../dist/optimized-svgs/mono/ETI.svg'
-import monoPOL from '../dist/optimized-svgs/mono/POL.svg'
-import monoWLKN from '../dist/optimized-svgs/mono/WLKN.svg'
-import monoCONV from '../dist/optimized-svgs/mono/CONV.svg'
-import monoBLOX from '../dist/optimized-svgs/mono/BLOX.svg'
-import monoTROVE from '../dist/optimized-svgs/mono/TROVE.svg'
-import monoLSD from '../dist/optimized-svgs/mono/LSD.svg'
-import monoKUB from '../dist/optimized-svgs/mono/KUB.svg'
-import monoLSS from '../dist/optimized-svgs/mono/LSS.svg'
-import monoINJ from '../dist/optimized-svgs/mono/INJ.svg'
-import monoION from '../dist/optimized-svgs/mono/ION.svg'
-import monoKOMPETE from '../dist/optimized-svgs/mono/KOMPETE.svg'
-import monoWELT from '../dist/optimized-svgs/mono/WELT.svg'
-import monoKASTA from '../dist/optimized-svgs/mono/KASTA.svg'
-import monoAGLD from '../dist/optimized-svgs/mono/AGLD.svg'
-import monoNFTX from '../dist/optimized-svgs/mono/NFTX.svg'
-import monoVSTA from '../dist/optimized-svgs/mono/VSTA.svg'
-import mono1INCH from '../dist/optimized-svgs/mono/1INCH.svg'
-import monoUSDV from '../dist/optimized-svgs/mono/USDV.svg'
-import monoDOLA from '../dist/optimized-svgs/mono/DOLA.svg'
-import monoDOME from '../dist/optimized-svgs/mono/DOME.svg'
-import monoPLA from '../dist/optimized-svgs/mono/PLA.svg'
-import monoGNS from '../dist/optimized-svgs/mono/GNS.svg'
-import monoEUL from '../dist/optimized-svgs/mono/EUL.svg'
-import monoDMTR from '../dist/optimized-svgs/mono/DMTR.svg'
-import monoMETIS from '../dist/optimized-svgs/mono/METIS.svg'
-import monoAIMX from '../dist/optimized-svgs/mono/AIMX.svg'
-import monoMOOV from '../dist/optimized-svgs/mono/MOOV.svg'
-import monoBRN from '../dist/optimized-svgs/mono/BRN.svg'
-import monoETH from '../dist/optimized-svgs/mono/ETH.svg'
-import monoRAD from '../dist/optimized-svgs/mono/RAD.svg'
-import monoKOM from '../dist/optimized-svgs/mono/KOM.svg'
-import monoBIDZ from '../dist/optimized-svgs/mono/BIDZ.svg'
-import monoKLV from '../dist/optimized-svgs/mono/KLV.svg'
-import monoGOFX from '../dist/optimized-svgs/mono/GOFX.svg'
-import monoBDT from '../dist/optimized-svgs/mono/BDT.svg'
-import monoWING from '../dist/optimized-svgs/mono/WING.svg'
-import monoKWAI from '../dist/optimized-svgs/mono/KWAI.svg'
-import monoRLC from '../dist/optimized-svgs/mono/RLC.svg'
-import monoBITCI from '../dist/optimized-svgs/mono/BITCI.svg'
-import monoPOOLX from '../dist/optimized-svgs/mono/POOLX.svg'
-import monoPORTX from '../dist/optimized-svgs/mono/PORTX.svg'
-import monoYFII from '../dist/optimized-svgs/mono/YFII.svg'
-import monoTOSHI from '../dist/optimized-svgs/mono/TOSHI.svg'
-import monoMBL from '../dist/optimized-svgs/mono/MBL.svg'
-import monoSIX from '../dist/optimized-svgs/mono/SIX.svg'
-import monoLOKA from '../dist/optimized-svgs/mono/LOKA.svg'
-import monoCLH from '../dist/optimized-svgs/mono/CLH.svg'
-import monoDIVI from '../dist/optimized-svgs/mono/DIVI.svg'
-import monoCOS from '../dist/optimized-svgs/mono/COS.svg'
-import monoFSN from '../dist/optimized-svgs/mono/FSN.svg'
-import monoJST from '../dist/optimized-svgs/mono/JST.svg'
-import monoSTPT from '../dist/optimized-svgs/mono/STPT.svg'
-import monoPHONON from '../dist/optimized-svgs/mono/PHONON.svg'
-import monoMVI from '../dist/optimized-svgs/mono/MVI.svg'
-import monoPIXEL from '../dist/optimized-svgs/mono/PIXEL.svg'
-import monoMTV from '../dist/optimized-svgs/mono/MTV.svg'
-import monoSTRK from '../dist/optimized-svgs/mono/STRK.svg'
-import monoDUST from '../dist/optimized-svgs/mono/DUST.svg'
-import monoFET from '../dist/optimized-svgs/mono/FET.svg'
-import monoGT from '../dist/optimized-svgs/mono/GT.svg'
-import monoMTA from '../dist/optimized-svgs/mono/MTA.svg'
-import monoFOLD from '../dist/optimized-svgs/mono/FOLD.svg'
-import monoIBAT from '../dist/optimized-svgs/mono/IBAT.svg'
-import monoONION from '../dist/optimized-svgs/mono/ONION.svg'
-import monoXCP from '../dist/optimized-svgs/mono/XCP.svg'
-import monoH2O from '../dist/optimized-svgs/mono/H2O.svg'
-import monoRITE from '../dist/optimized-svgs/mono/RITE.svg'
-import monoTVK from '../dist/optimized-svgs/mono/TVK.svg'
-import monoVNO from '../dist/optimized-svgs/mono/VNO.svg'
-import monoSSV from '../dist/optimized-svgs/mono/SSV.svg'
-import monoMIMO from '../dist/optimized-svgs/mono/MIMO.svg'
-import monoWAXP from '../dist/optimized-svgs/mono/WAXP.svg'
-import monoDPS from '../dist/optimized-svgs/mono/DPS.svg'
-import monoTUT from '../dist/optimized-svgs/mono/TUT.svg'
-import monoMUSIC from '../dist/optimized-svgs/mono/MUSIC.svg'
-import monoFIS from '../dist/optimized-svgs/mono/FIS.svg'
-import monoEUROE from '../dist/optimized-svgs/mono/EUROE.svg'
-import monoONI from '../dist/optimized-svgs/mono/ONI.svg'
-import monoSTRX from '../dist/optimized-svgs/mono/STRX.svg'
-import monoNULS from '../dist/optimized-svgs/mono/NULS.svg'
-import monoCEUR from '../dist/optimized-svgs/mono/CEUR.svg'
-import monoABR from '../dist/optimized-svgs/mono/ABR.svg'
-import monoCND from '../dist/optimized-svgs/mono/CND.svg'
-import monoSHX from '../dist/optimized-svgs/mono/SHX.svg'
-import monoPOLS from '../dist/optimized-svgs/mono/POLS.svg'
-import monoPAAL from '../dist/optimized-svgs/mono/PAAL.svg'
-import monoATH from '../dist/optimized-svgs/mono/ATH.svg'
-import monoCOW from '../dist/optimized-svgs/mono/COW.svg'
-import monoEQUAL from '../dist/optimized-svgs/mono/EQUAL.svg'
-import monoPUNDIX from '../dist/optimized-svgs/mono/PUNDIX.svg'
-import monoSPORE from '../dist/optimized-svgs/mono/SPORE.svg'
-import monoATOR from '../dist/optimized-svgs/mono/ATOR.svg'
-import monoSDL from '../dist/optimized-svgs/mono/SDL.svg'
-import monoDFI from '../dist/optimized-svgs/mono/DFI.svg'
-import monoKAU from '../dist/optimized-svgs/mono/KAU.svg'
-import monoGMPD from '../dist/optimized-svgs/mono/GMPD.svg'
-import monoSHIDO from '../dist/optimized-svgs/mono/SHIDO.svg'
-import monoROME from '../dist/optimized-svgs/mono/ROME.svg'
-import monoSKEB from '../dist/optimized-svgs/mono/SKEB.svg'
-import monoKMA from '../dist/optimized-svgs/mono/KMA.svg'
-import monoBDP from '../dist/optimized-svgs/mono/BDP.svg'
-import monoNRG from '../dist/optimized-svgs/mono/NRG.svg'
-import monoRSS3 from '../dist/optimized-svgs/mono/RSS3.svg'
-import monoMONA from '../dist/optimized-svgs/mono/MONA.svg'
-import monoPLR from '../dist/optimized-svgs/mono/PLR.svg'
-import monoHANDY from '../dist/optimized-svgs/mono/HANDY.svg'
-import monoEXTRA from '../dist/optimized-svgs/mono/EXTRA.svg'
-import monoFEVR from '../dist/optimized-svgs/mono/FEVR.svg'
-import monoLPOOL from '../dist/optimized-svgs/mono/LPOOL.svg'
-import monoUNDEAD from '../dist/optimized-svgs/mono/UNDEAD.svg'
-import monoGMEE from '../dist/optimized-svgs/mono/GMEE.svg'
-import monoKTC from '../dist/optimized-svgs/mono/KTC.svg'
-import monoCSPR from '../dist/optimized-svgs/mono/CSPR.svg'
-import monoSBTC from '../dist/optimized-svgs/mono/SBTC.svg'
-import monoLEVER from '../dist/optimized-svgs/mono/LEVER.svg'
-import monoAGLA from '../dist/optimized-svgs/mono/AGLA.svg'
-import monoPAC from '../dist/optimized-svgs/mono/PAC.svg'
-import monoPBX from '../dist/optimized-svgs/mono/PBX.svg'
-import monoICHI from '../dist/optimized-svgs/mono/ICHI.svg'
-import monoCUDOS from '../dist/optimized-svgs/mono/CUDOS.svg'
-import monoNEX from '../dist/optimized-svgs/mono/NEX.svg'
-import monoBPT from '../dist/optimized-svgs/mono/BPT.svg'
-import monoGMM from '../dist/optimized-svgs/mono/GMM.svg'
-import monoUSDD from '../dist/optimized-svgs/mono/USDD.svg'
-import monoNCDT from '../dist/optimized-svgs/mono/NCDT.svg'
-import monoWIN from '../dist/optimized-svgs/mono/WIN.svg'
-import monoYDF from '../dist/optimized-svgs/mono/YDF.svg'
-import monoBSX from '../dist/optimized-svgs/mono/BSX.svg'
-import monoNEO from '../dist/optimized-svgs/mono/NEO.svg'
-import monoHONEY from '../dist/optimized-svgs/mono/HONEY.svg'
-import monoPRIME from '../dist/optimized-svgs/mono/PRIME.svg'
-import monoSLAM from '../dist/optimized-svgs/mono/SLAM.svg'
-import monoPYR from '../dist/optimized-svgs/mono/PYR.svg'
-import monoUFT from '../dist/optimized-svgs/mono/UFT.svg'
-import monoUMAMI from '../dist/optimized-svgs/mono/UMAMI.svg'
-import monoLIF3 from '../dist/optimized-svgs/mono/LIF3.svg'
-import monoXCFX from '../dist/optimized-svgs/mono/XCFX.svg'
-import monoTEER from '../dist/optimized-svgs/mono/TEER.svg'
-import monoBLUR from '../dist/optimized-svgs/mono/BLUR.svg'
-import monoELK from '../dist/optimized-svgs/mono/ELK.svg'
-import monoPTU from '../dist/optimized-svgs/mono/PTU.svg'
-import monoKP3R from '../dist/optimized-svgs/mono/KP3R.svg'
-import monoIXT from '../dist/optimized-svgs/mono/IXT.svg'
-import monoKAT from '../dist/optimized-svgs/mono/KAT.svg'
-import monoSEI from '../dist/optimized-svgs/mono/SEI.svg'
-import monoBTSG from '../dist/optimized-svgs/mono/BTSG.svg'
-import monoCETUS from '../dist/optimized-svgs/mono/CETUS.svg'
-import monoXWG from '../dist/optimized-svgs/mono/XWG.svg'
-import monoXPRT from '../dist/optimized-svgs/mono/XPRT.svg'
-import monoDIP from '../dist/optimized-svgs/mono/DIP.svg'
-import monoCOV from '../dist/optimized-svgs/mono/COV.svg'
-import monoODDZ from '../dist/optimized-svgs/mono/ODDZ.svg'
-import monoDHT from '../dist/optimized-svgs/mono/DHT.svg'
-import monoSC from '../dist/optimized-svgs/mono/SC.svg'
-import monoJUNGLE4EOS from '../dist/optimized-svgs/mono/JUNGLE4EOS.svg'
-import monoAVA from '../dist/optimized-svgs/mono/AVA.svg'
-import monoSTEP from '../dist/optimized-svgs/mono/STEP.svg'
-import monoARIA20 from '../dist/optimized-svgs/mono/ARIA20.svg'
-import monoMTD from '../dist/optimized-svgs/mono/MTD.svg'
-import monoVRSW from '../dist/optimized-svgs/mono/VRSW.svg'
-import monoMNGO from '../dist/optimized-svgs/mono/MNGO.svg'
-import monoMVL from '../dist/optimized-svgs/mono/MVL.svg'
-import monoSCRT from '../dist/optimized-svgs/mono/SCRT.svg'
-import monoMTS from '../dist/optimized-svgs/mono/MTS.svg'
-import monoXLM from '../dist/optimized-svgs/mono/XLM.svg'
-import monoCTK from '../dist/optimized-svgs/mono/CTK.svg'
-import monoSPH from '../dist/optimized-svgs/mono/SPH.svg'
-import monoBCDT from '../dist/optimized-svgs/mono/BCDT.svg'
-import monoZYN from '../dist/optimized-svgs/mono/ZYN.svg'
-import monoCVC from '../dist/optimized-svgs/mono/CVC.svg'
-import monoHGT from '../dist/optimized-svgs/mono/HGT.svg'
-import monoAVAX from '../dist/optimized-svgs/mono/AVAX.svg'
-import monoCWEB from '../dist/optimized-svgs/mono/CWEB.svg'
-import monoBORA from '../dist/optimized-svgs/mono/BORA.svg'
-import monoALPHA from '../dist/optimized-svgs/mono/ALPHA.svg'
-import monoMIND from '../dist/optimized-svgs/mono/MIND.svg'
-import monoAEGIS from '../dist/optimized-svgs/mono/AEGIS.svg'
-import monoHDX from '../dist/optimized-svgs/mono/HDX.svg'
-import monoCTI from '../dist/optimized-svgs/mono/CTI.svg'
-import monoALEPH from '../dist/optimized-svgs/mono/ALEPH.svg'
-import monoSHOPX from '../dist/optimized-svgs/mono/SHOPX.svg'
-import monoIRIS from '../dist/optimized-svgs/mono/IRIS.svg'
-import monoSOFI from '../dist/optimized-svgs/mono/SOFI.svg'
-import monoEL from '../dist/optimized-svgs/mono/EL.svg'
-import monoOZO from '../dist/optimized-svgs/mono/OZO.svg'
-import monoCNG from '../dist/optimized-svgs/mono/CNG.svg'
-import monoTON from '../dist/optimized-svgs/mono/TON.svg'
-import monoFRM from '../dist/optimized-svgs/mono/FRM.svg'
-import monoOMMI from '../dist/optimized-svgs/mono/OMMI.svg'
-import monoAVT from '../dist/optimized-svgs/mono/AVT.svg'
-import monoAVINOC from '../dist/optimized-svgs/mono/AVINOC.svg'
-import monoBTSE from '../dist/optimized-svgs/mono/BTSE.svg'
-import monoSFP from '../dist/optimized-svgs/mono/SFP.svg'
-import monoCAH from '../dist/optimized-svgs/mono/CAH.svg'
-import monoLEO from '../dist/optimized-svgs/mono/LEO.svg'
-import monoFNSA from '../dist/optimized-svgs/mono/FNSA.svg'
-import monoCROID from '../dist/optimized-svgs/mono/CROID.svg'
-import monoBIT from '../dist/optimized-svgs/mono/BIT.svg'
-import monoNFAI from '../dist/optimized-svgs/mono/NFAI.svg'
-import monoALGO from '../dist/optimized-svgs/mono/ALGO.svg'
-import monoNODL from '../dist/optimized-svgs/mono/NODL.svg'
-import monoWNDR from '../dist/optimized-svgs/mono/WNDR.svg'
-import monoXCHF from '../dist/optimized-svgs/mono/XCHF.svg'
-import monoGMX from '../dist/optimized-svgs/mono/GMX.svg'
-import monoGOG from '../dist/optimized-svgs/mono/GOG.svg'
-import monoONIT from '../dist/optimized-svgs/mono/ONIT.svg'
-import monoPIVX from '../dist/optimized-svgs/mono/PIVX.svg'
-import monoBIST from '../dist/optimized-svgs/mono/BIST.svg'
-import monoEWT from '../dist/optimized-svgs/mono/EWT.svg'
-import monoRWN from '../dist/optimized-svgs/mono/RWN.svg'
-import monoHUSD from '../dist/optimized-svgs/mono/HUSD.svg'
-import monoKLAY from '../dist/optimized-svgs/mono/KLAY.svg'
-import monoPROM from '../dist/optimized-svgs/mono/PROM.svg'
-import monoGAL from '../dist/optimized-svgs/mono/GAL.svg'
-import monoIDLE from '../dist/optimized-svgs/mono/IDLE.svg'
-import monoGCR from '../dist/optimized-svgs/mono/GCR.svg'
-import monoTRONPAD from '../dist/optimized-svgs/mono/TRONPAD.svg'
-import monoETN from '../dist/optimized-svgs/mono/ETN.svg'
-import monoTIDAL from '../dist/optimized-svgs/mono/TIDAL.svg'
-import monoSOLVE from '../dist/optimized-svgs/mono/SOLVE.svg'
-import monoKUNCI from '../dist/optimized-svgs/mono/KUNCI.svg'
-import monoVTHO from '../dist/optimized-svgs/mono/VTHO.svg'
-import monoRBN from '../dist/optimized-svgs/mono/RBN.svg'
-import monoRENBTC from '../dist/optimized-svgs/mono/RENBTC.svg'
-import monoNPM from '../dist/optimized-svgs/mono/NPM.svg'
-import monoEOS from '../dist/optimized-svgs/mono/EOS.svg'
-import monoMOVR from '../dist/optimized-svgs/mono/MOVR.svg'
-import monoEML from '../dist/optimized-svgs/mono/EML.svg'
-import monoUNIBOT from '../dist/optimized-svgs/mono/UNIBOT.svg'
-import monoMOVE from '../dist/optimized-svgs/mono/MOVE.svg'
-import mono0X0 from '../dist/optimized-svgs/mono/0X0.svg'
-import monoSDN from '../dist/optimized-svgs/mono/SDN.svg'
-import monoUNFI from '../dist/optimized-svgs/mono/UNFI.svg'
-import monoCELR from '../dist/optimized-svgs/mono/CELR.svg'
-import monoDEP from '../dist/optimized-svgs/mono/DEP.svg'
-import monoDGX from '../dist/optimized-svgs/mono/DGX.svg'
-import monoASIA from '../dist/optimized-svgs/mono/ASIA.svg'
-import monoFPS from '../dist/optimized-svgs/mono/FPS.svg'
-import monoQSR from '../dist/optimized-svgs/mono/QSR.svg'
-import monoQUBE from '../dist/optimized-svgs/mono/QUBE.svg'
-import monoPUMLX from '../dist/optimized-svgs/mono/PUMLX.svg'
-import monoXYO from '../dist/optimized-svgs/mono/XYO.svg'
-import monoBZRX from '../dist/optimized-svgs/mono/BZRX.svg'
-import monoBRIDGE from '../dist/optimized-svgs/mono/BRIDGE.svg'
-import monoXIDO from '../dist/optimized-svgs/mono/XIDO.svg'
-import monoMETF from '../dist/optimized-svgs/mono/METF.svg'
-import monoMPLX from '../dist/optimized-svgs/mono/MPLX.svg'
-import monoFER from '../dist/optimized-svgs/mono/FER.svg'
-import monoCHAIN from '../dist/optimized-svgs/mono/CHAIN.svg'
-import monoTAKI from '../dist/optimized-svgs/mono/TAKI.svg'
-import monoOMG from '../dist/optimized-svgs/mono/OMG.svg'
-import monoACT from '../dist/optimized-svgs/mono/ACT.svg'
-import monoOLT from '../dist/optimized-svgs/mono/OLT.svg'
-import monoSSWP from '../dist/optimized-svgs/mono/SSWP.svg'
-import monoCREDI from '../dist/optimized-svgs/mono/CREDI.svg'
-import monoEXRD from '../dist/optimized-svgs/mono/EXRD.svg'
-import monoCWS from '../dist/optimized-svgs/mono/CWS.svg'
-import monoHOOK from '../dist/optimized-svgs/mono/HOOK.svg'
-import monoQKC from '../dist/optimized-svgs/mono/QKC.svg'
-import monoGSWIFT from '../dist/optimized-svgs/mono/GSWIFT.svg'
-import monoOAS from '../dist/optimized-svgs/mono/OAS.svg'
-import monoTRU from '../dist/optimized-svgs/mono/TRU.svg'
-import monoXDB from '../dist/optimized-svgs/mono/XDB.svg'
-import monoXDEFI from '../dist/optimized-svgs/mono/XDEFI.svg'
-import monoCQT from '../dist/optimized-svgs/mono/CQT.svg'
-import monoCRO from '../dist/optimized-svgs/mono/CRO.svg'
-import monoNRCH from '../dist/optimized-svgs/mono/NRCH.svg'
-import monoAHT from '../dist/optimized-svgs/mono/AHT.svg'
-import monoBUILD from '../dist/optimized-svgs/mono/BUILD.svg'
-import monoGBEX from '../dist/optimized-svgs/mono/GBEX.svg'
-import monoTRB from '../dist/optimized-svgs/mono/TRB.svg'
-import monoZOOMER from '../dist/optimized-svgs/mono/ZOOMER.svg'
-import monoSXP from '../dist/optimized-svgs/mono/SXP.svg'
-import monoXPLA from '../dist/optimized-svgs/mono/XPLA.svg'
-import monoCLXY from '../dist/optimized-svgs/mono/CLXY.svg'
-import monoCARBON from '../dist/optimized-svgs/mono/CARBON.svg'
-import monoXHV from '../dist/optimized-svgs/mono/XHV.svg'
-import monoHON from '../dist/optimized-svgs/mono/HON.svg'
-import monoSALT from '../dist/optimized-svgs/mono/SALT.svg'
-import monoFORT from '../dist/optimized-svgs/mono/FORT.svg'
-import monoDOT from '../dist/optimized-svgs/mono/DOT.svg'
-import monoTT from '../dist/optimized-svgs/mono/TT.svg'
-import monoAPE from '../dist/optimized-svgs/mono/APE.svg'
-import monoELAND from '../dist/optimized-svgs/mono/ELAND.svg'
-import monoASTROC from '../dist/optimized-svgs/mono/ASTROC.svg'
-import monoSMBR from '../dist/optimized-svgs/mono/SMBR.svg'
-import monoVENT from '../dist/optimized-svgs/mono/VENT.svg'
-import monoTGT from '../dist/optimized-svgs/mono/TGT.svg'
-import monoZIG from '../dist/optimized-svgs/mono/ZIG.svg'
-import monoTRCL from '../dist/optimized-svgs/mono/TRCL.svg'
-import monoKEX from '../dist/optimized-svgs/mono/KEX.svg'
-import monoPRQ from '../dist/optimized-svgs/mono/PRQ.svg'
-import monoRIN from '../dist/optimized-svgs/mono/RIN.svg'
-import monoXSGD from '../dist/optimized-svgs/mono/XSGD.svg'
-import monoKINT from '../dist/optimized-svgs/mono/KINT.svg'
-import monoMMPRO from '../dist/optimized-svgs/mono/MMPRO.svg'
-import monoWBTC from '../dist/optimized-svgs/mono/WBTC.svg'
-import monoEFL from '../dist/optimized-svgs/mono/EFL.svg'
-import monoSWEAT from '../dist/optimized-svgs/mono/SWEAT.svg'
-import monoWXT from '../dist/optimized-svgs/mono/WXT.svg'
-import monoRPL from '../dist/optimized-svgs/mono/RPL.svg'
-import monoCROWD from '../dist/optimized-svgs/mono/CROWD.svg'
-import monoCYBER from '../dist/optimized-svgs/mono/CYBER.svg'
-import monoGIV from '../dist/optimized-svgs/mono/GIV.svg'
-import monoBEAM from '../dist/optimized-svgs/mono/BEAM.svg'
-import monoTRYB from '../dist/optimized-svgs/mono/TRYB.svg'
-import monoAIPAD from '../dist/optimized-svgs/mono/AIPAD.svg'
-import monoWNXM from '../dist/optimized-svgs/mono/WNXM.svg'
-import monoNLS from '../dist/optimized-svgs/mono/NLS.svg'
-import monoPEX from '../dist/optimized-svgs/mono/PEX.svg'
-import monoSHRAP from '../dist/optimized-svgs/mono/SHRAP.svg'
-import monoTRVL from '../dist/optimized-svgs/mono/TRVL.svg'
-import monoGET from '../dist/optimized-svgs/mono/GET.svg'
-import monoFDUSD from '../dist/optimized-svgs/mono/FDUSD.svg'
-import monoQANX from '../dist/optimized-svgs/mono/QANX.svg'
-import monoBZR from '../dist/optimized-svgs/mono/BZR.svg'
-import monoSILK from '../dist/optimized-svgs/mono/SILK.svg'
-import monoSAKAI from '../dist/optimized-svgs/mono/SAKAI.svg'
-import monoBAX from '../dist/optimized-svgs/mono/BAX.svg'
-import monoFRIN from '../dist/optimized-svgs/mono/FRIN.svg'
-import monoTROY from '../dist/optimized-svgs/mono/TROY.svg'
-import monoBAO from '../dist/optimized-svgs/mono/BAO.svg'
-import monoLINK from '../dist/optimized-svgs/mono/LINK.svg'
-import monoALOT from '../dist/optimized-svgs/mono/ALOT.svg'
-import monoUMA from '../dist/optimized-svgs/mono/UMA.svg'
-import monoMORK from '../dist/optimized-svgs/mono/MORK.svg'
-import monoKEY from '../dist/optimized-svgs/mono/KEY.svg'
-import monoJULD from '../dist/optimized-svgs/mono/JULD.svg'
-import monoHTR from '../dist/optimized-svgs/mono/HTR.svg'
-import monoORT from '../dist/optimized-svgs/mono/ORT.svg'
-import monoGYEN from '../dist/optimized-svgs/mono/GYEN.svg'
-import monoDAI from '../dist/optimized-svgs/mono/DAI.svg'
-import monoDBR from '../dist/optimized-svgs/mono/DBR.svg'
-import monoMATICX from '../dist/optimized-svgs/mono/MATICX.svg'
-import monoCDT from '../dist/optimized-svgs/mono/CDT.svg'
-import monoCGO from '../dist/optimized-svgs/mono/CGO.svg'
-import monoGLEEC from '../dist/optimized-svgs/mono/GLEEC.svg'
-import monoUBXS from '../dist/optimized-svgs/mono/UBXS.svg'
-import monoDEFI from '../dist/optimized-svgs/mono/DEFI.svg'
-import monoVRA from '../dist/optimized-svgs/mono/VRA.svg'
-import monoHZN from '../dist/optimized-svgs/mono/HZN.svg'
-import monoFUN from '../dist/optimized-svgs/mono/FUN.svg'
-import monoVITA from '../dist/optimized-svgs/mono/VITA.svg'
-import monoZEE from '../dist/optimized-svgs/mono/ZEE.svg'
-import monoADA from '../dist/optimized-svgs/mono/ADA.svg'
-import monoCERE from '../dist/optimized-svgs/mono/CERE.svg'
-import monoFCT from '../dist/optimized-svgs/mono/FCT.svg'
-import mono1ART from '../dist/optimized-svgs/mono/1ART.svg'
-import monoXEP from '../dist/optimized-svgs/mono/XEP.svg'
-import monoTRC from '../dist/optimized-svgs/mono/TRC.svg'
-import monoEDGE from '../dist/optimized-svgs/mono/EDGE.svg'
-import monoL2 from '../dist/optimized-svgs/mono/L2.svg'
-import monoWCFG from '../dist/optimized-svgs/mono/WCFG.svg'
-import monoMARSH from '../dist/optimized-svgs/mono/MARSH.svg'
-import monoXDC from '../dist/optimized-svgs/mono/XDC.svg'
-import monoSOLO from '../dist/optimized-svgs/mono/SOLO.svg'
-import monoVERSE from '../dist/optimized-svgs/mono/VERSE.svg'
-import monoSTG from '../dist/optimized-svgs/mono/STG.svg'
-import monoQLC from '../dist/optimized-svgs/mono/QLC.svg'
-import monoSOLX from '../dist/optimized-svgs/mono/SOLX.svg'
-import monoATRI from '../dist/optimized-svgs/mono/ATRI.svg'
-import monoSPACE from '../dist/optimized-svgs/mono/SPACE.svg'
-import monoROOBEE from '../dist/optimized-svgs/mono/ROOBEE.svg'
-import monoSENATE from '../dist/optimized-svgs/mono/SENATE.svg'
-import monoOKT from '../dist/optimized-svgs/mono/OKT.svg'
-import monoAA from '../dist/optimized-svgs/mono/AA.svg'
-import monoTHEO from '../dist/optimized-svgs/mono/THEO.svg'
-import monoVSP from '../dist/optimized-svgs/mono/VSP.svg'
-import monoHXD from '../dist/optimized-svgs/mono/HXD.svg'
-import monoDEGO from '../dist/optimized-svgs/mono/DEGO.svg'
-import monoSETH2 from '../dist/optimized-svgs/mono/SETH2.svg'
-import monoLIME from '../dist/optimized-svgs/mono/LIME.svg'
-import monoRJV from '../dist/optimized-svgs/mono/RJV.svg'
-import monoUNO from '../dist/optimized-svgs/mono/UNO.svg'
-import monoPRE from '../dist/optimized-svgs/mono/PRE.svg'
-import monoARKM from '../dist/optimized-svgs/mono/ARKM.svg'
-import monoREN from '../dist/optimized-svgs/mono/REN.svg'
-import monoGALA from '../dist/optimized-svgs/mono/GALA.svg'
-import monoEFX from '../dist/optimized-svgs/mono/EFX.svg'
-import monoIST from '../dist/optimized-svgs/mono/IST.svg'
-import monoTOKEN from '../dist/optimized-svgs/mono/TOKEN.svg'
-import monoEDG from '../dist/optimized-svgs/mono/EDG.svg'
-import monoGAME from '../dist/optimized-svgs/mono/GAME.svg'
-import monoROSE from '../dist/optimized-svgs/mono/ROSE.svg'
-import monoIDEX from '../dist/optimized-svgs/mono/IDEX.svg'
-import monoBEAN from '../dist/optimized-svgs/mono/BEAN.svg'
-import monoYAM from '../dist/optimized-svgs/mono/YAM.svg'
-import monoRSC from '../dist/optimized-svgs/mono/RSC.svg'
-import monoLTC from '../dist/optimized-svgs/mono/LTC.svg'
-import monoBXX from '../dist/optimized-svgs/mono/BXX.svg'
-import monoTUSD from '../dist/optimized-svgs/mono/TUSD.svg'
-import monoCTSI from '../dist/optimized-svgs/mono/CTSI.svg'
-import monoHERO from '../dist/optimized-svgs/mono/HERO.svg'
-import monoWIKEN from '../dist/optimized-svgs/mono/WIKEN.svg'
-import monoPKF from '../dist/optimized-svgs/mono/PKF.svg'
-import monoTPAD from '../dist/optimized-svgs/mono/TPAD.svg'
-import monoNAV from '../dist/optimized-svgs/mono/NAV.svg'
-import monoPYTH from '../dist/optimized-svgs/mono/PYTH.svg'
-import monoTIME from '../dist/optimized-svgs/mono/TIME.svg'
-import monoSIDUS from '../dist/optimized-svgs/mono/SIDUS.svg'
-import monoLIBRE from '../dist/optimized-svgs/mono/LIBRE.svg'
-import monoBTM from '../dist/optimized-svgs/mono/BTM.svg'
-import monoKIN from '../dist/optimized-svgs/mono/KIN.svg'
-import monoDVPN from '../dist/optimized-svgs/mono/DVPN.svg'
-import monoLUSD from '../dist/optimized-svgs/mono/LUSD.svg'
-import monoBCD from '../dist/optimized-svgs/mono/BCD.svg'
-import monoREGEN from '../dist/optimized-svgs/mono/REGEN.svg'
-import monoBAL from '../dist/optimized-svgs/mono/BAL.svg'
-import monoHBOT from '../dist/optimized-svgs/mono/HBOT.svg'
-import monoMATIC from '../dist/optimized-svgs/mono/MATIC.svg'
-import monoBMX from '../dist/optimized-svgs/mono/BMX.svg'
-import monoNXT from '../dist/optimized-svgs/mono/NXT.svg'
-import monoUMB from '../dist/optimized-svgs/mono/UMB.svg'
-import monoWWY from '../dist/optimized-svgs/mono/WWY.svg'
-import monoLAT from '../dist/optimized-svgs/mono/LAT.svg'
-import monoPIKA from '../dist/optimized-svgs/mono/PIKA.svg'
-import monoBNT from '../dist/optimized-svgs/mono/BNT.svg'
-import monoCOPE from '../dist/optimized-svgs/mono/COPE.svg'
-import monoSTOSMO from '../dist/optimized-svgs/mono/STOSMO.svg'
-import monoDCB from '../dist/optimized-svgs/mono/DCB.svg'
-import monoXPR from '../dist/optimized-svgs/mono/XPR.svg'
-import monoJUNO from '../dist/optimized-svgs/mono/JUNO.svg'
-import monoFUTURE from '../dist/optimized-svgs/mono/FUTURE.svg'
-import monoPOLYX from '../dist/optimized-svgs/mono/POLYX.svg'
-import monoBAND from '../dist/optimized-svgs/mono/BAND.svg'
-import monoEVEAI from '../dist/optimized-svgs/mono/EVEAI.svg'
-import monoMBOX from '../dist/optimized-svgs/mono/MBOX.svg'
-import monoJOY from '../dist/optimized-svgs/mono/JOY.svg'
-import monoFYN from '../dist/optimized-svgs/mono/FYN.svg'
-import monoSOL from '../dist/optimized-svgs/mono/SOL.svg'
-import monoAQT from '../dist/optimized-svgs/mono/AQT.svg'
-import monoMDX from '../dist/optimized-svgs/mono/MDX.svg'
-import monoBOLT from '../dist/optimized-svgs/mono/BOLT.svg'
-import monoHORD from '../dist/optimized-svgs/mono/HORD.svg'
-import monoSOUL from '../dist/optimized-svgs/mono/SOUL.svg'
-import monoDERO from '../dist/optimized-svgs/mono/DERO.svg'
-import monoAXEL from '../dist/optimized-svgs/mono/AXEL.svg'
-import monoHOGE from '../dist/optimized-svgs/mono/HOGE.svg'
-import monoOKB from '../dist/optimized-svgs/mono/OKB.svg'
-import monoCRPT from '../dist/optimized-svgs/mono/CRPT.svg'
-import monoADAPAD from '../dist/optimized-svgs/mono/ADAPAD.svg'
-import mono3ULL from '../dist/optimized-svgs/mono/3ULL.svg'
-import monoX2Y2 from '../dist/optimized-svgs/mono/X2Y2.svg'
-import monoZRX from '../dist/optimized-svgs/mono/ZRX.svg'
-import monoMC from '../dist/optimized-svgs/mono/MC.svg'
-import monoFLX from '../dist/optimized-svgs/mono/FLX.svg'
-import monoSUB from '../dist/optimized-svgs/mono/SUB.svg'
-import monoEDEN from '../dist/optimized-svgs/mono/EDEN.svg'
-import monoOX from '../dist/optimized-svgs/mono/OX.svg'
-import monoDTX from '../dist/optimized-svgs/mono/DTX.svg'
-import monoREEF from '../dist/optimized-svgs/mono/REEF.svg'
-import monoDESO from '../dist/optimized-svgs/mono/DESO.svg'
-import monoECOX from '../dist/optimized-svgs/mono/ECOX.svg'
-import monoVEX from '../dist/optimized-svgs/mono/VEX.svg'
-import monoFORTH from '../dist/optimized-svgs/mono/FORTH.svg'
-import monoSAMA from '../dist/optimized-svgs/mono/SAMA.svg'
-import monoDXL from '../dist/optimized-svgs/mono/DXL.svg'
-import monoHAIR from '../dist/optimized-svgs/mono/HAIR.svg'
-import monoSPOOL from '../dist/optimized-svgs/mono/SPOOL.svg'
-import monoMFT from '../dist/optimized-svgs/mono/MFT.svg'
-import monoPOKT from '../dist/optimized-svgs/mono/POKT.svg'
-import monoFORE from '../dist/optimized-svgs/mono/FORE.svg'
-import monoRADIO from '../dist/optimized-svgs/mono/RADIO.svg'
-import monoAPT from '../dist/optimized-svgs/mono/APT.svg'
-import monoMEX from '../dist/optimized-svgs/mono/MEX.svg'
-import monoARK from '../dist/optimized-svgs/mono/ARK.svg'
-import monoMNTL from '../dist/optimized-svgs/mono/MNTL.svg'
-import monoFTM from '../dist/optimized-svgs/mono/FTM.svg'
-import monoSCLP from '../dist/optimized-svgs/mono/SCLP.svg'
-import monoSATT from '../dist/optimized-svgs/mono/SATT.svg'
-import monoPAID from '../dist/optimized-svgs/mono/PAID.svg'
-import monoAART from '../dist/optimized-svgs/mono/AART.svg'
-import monoBTCST from '../dist/optimized-svgs/mono/BTCST.svg'
-import monoINFRA from '../dist/optimized-svgs/mono/INFRA.svg'
-import monoKINE from '../dist/optimized-svgs/mono/KINE.svg'
-import monoBLX from '../dist/optimized-svgs/mono/BLX.svg'
-import monoDFYN from '../dist/optimized-svgs/mono/DFYN.svg'
-import monoSPHERE from '../dist/optimized-svgs/mono/SPHERE.svg'
-import monoHYVE from '../dist/optimized-svgs/mono/HYVE.svg'
-import monoLCX from '../dist/optimized-svgs/mono/LCX.svg'
-import monoIDRT from '../dist/optimized-svgs/mono/IDRT.svg'
-import monoWIGO from '../dist/optimized-svgs/mono/WIGO.svg'
-import monoQUIDD from '../dist/optimized-svgs/mono/QUIDD.svg'
-import monoEDU from '../dist/optimized-svgs/mono/EDU.svg'
-import monoRGT from '../dist/optimized-svgs/mono/RGT.svg'
-import monoWALLET from '../dist/optimized-svgs/mono/WALLET.svg'
-import monoLZM from '../dist/optimized-svgs/mono/LZM.svg'
-import monoDOGA from '../dist/optimized-svgs/mono/DOGA.svg'
-import monoAGIX from '../dist/optimized-svgs/mono/AGIX.svg'
-import monoQTUM from '../dist/optimized-svgs/mono/QTUM.svg'
-import monoWEMIX from '../dist/optimized-svgs/mono/WEMIX.svg'
-import monoBEND from '../dist/optimized-svgs/mono/BEND.svg'
-import monoRVST from '../dist/optimized-svgs/mono/RVST.svg'
-import monoDXGM from '../dist/optimized-svgs/mono/DXGM.svg'
-import monoCAKE from '../dist/optimized-svgs/mono/CAKE.svg'
-import monoYOU from '../dist/optimized-svgs/mono/YOU.svg'
-import monoPKT from '../dist/optimized-svgs/mono/PKT.svg'
-import monoWOM from '../dist/optimized-svgs/mono/WOM.svg'
-import monoERN from '../dist/optimized-svgs/mono/ERN.svg'
-import monoLITT from '../dist/optimized-svgs/mono/LITT.svg'
-import monoEQB from '../dist/optimized-svgs/mono/EQB.svg'
-import monoIGU from '../dist/optimized-svgs/mono/IGU.svg'
-import monoCAST from '../dist/optimized-svgs/mono/CAST.svg'
-import monoAGRS from '../dist/optimized-svgs/mono/AGRS.svg'
-import monoRDN from '../dist/optimized-svgs/mono/RDN.svg'
-import monoEGO from '../dist/optimized-svgs/mono/EGO.svg'
-import monoBICO from '../dist/optimized-svgs/mono/BICO.svg'
-import monoBUSD from '../dist/optimized-svgs/mono/BUSD.svg'
-import monoSUIP from '../dist/optimized-svgs/mono/SUIP.svg'
-import monoISP from '../dist/optimized-svgs/mono/ISP.svg'
-import monoMASQ from '../dist/optimized-svgs/mono/MASQ.svg'
-import monoXSUSHI from '../dist/optimized-svgs/mono/XSUSHI.svg'
-import monoDOSE from '../dist/optimized-svgs/mono/DOSE.svg'
-import monoTRAC from '../dist/optimized-svgs/mono/TRAC.svg'
-import monoBOB from '../dist/optimized-svgs/mono/BOB.svg'
-import monoTEL from '../dist/optimized-svgs/mono/TEL.svg'
-import monoSTMX from '../dist/optimized-svgs/mono/STMX.svg'
-import monoDAO from '../dist/optimized-svgs/mono/DAO.svg'
-import monoBFIC from '../dist/optimized-svgs/mono/BFIC.svg'
-import monoDEXTF from '../dist/optimized-svgs/mono/DEXTF.svg'
-import monoMKR from '../dist/optimized-svgs/mono/MKR.svg'
-import monoDBC from '../dist/optimized-svgs/mono/DBC.svg'
-import monoATPAY from '../dist/optimized-svgs/mono/ATPAY.svg'
-import monoLAND from '../dist/optimized-svgs/mono/LAND.svg'
-import monoDEFX from '../dist/optimized-svgs/mono/DEFX.svg'
-import monoSLR from '../dist/optimized-svgs/mono/SLR.svg'
-import monoSDEX from '../dist/optimized-svgs/mono/SDEX.svg'
-import monoADCO from '../dist/optimized-svgs/mono/ADCO.svg'
-import monoZEC from '../dist/optimized-svgs/mono/ZEC.svg'
-import monoTKP from '../dist/optimized-svgs/mono/TKP.svg'
-import monoETHIX from '../dist/optimized-svgs/mono/ETHIX.svg'
-import monoAR from '../dist/optimized-svgs/mono/AR.svg'
-import monoADP from '../dist/optimized-svgs/mono/ADP.svg'
-import monoSYS from '../dist/optimized-svgs/mono/SYS.svg'
-import monoGENI from '../dist/optimized-svgs/mono/GENI.svg'
-import monoAE from '../dist/optimized-svgs/mono/AE.svg'
-import monoMST from '../dist/optimized-svgs/mono/MST.svg'
-import monoPAWTH from '../dist/optimized-svgs/mono/PAWTH.svg'
-import monoBSGG from '../dist/optimized-svgs/mono/BSGG.svg'
-import monoMYRIA from '../dist/optimized-svgs/mono/MYRIA.svg'
-import monoMF from '../dist/optimized-svgs/mono/MF.svg'
-import monoVPAD from '../dist/optimized-svgs/mono/VPAD.svg'
-import mono10SET from '../dist/optimized-svgs/mono/10SET.svg'
-import monoWAGMI from '../dist/optimized-svgs/mono/WAGMI.svg'
-import monoDVF from '../dist/optimized-svgs/mono/DVF.svg'
-import monoVIX from '../dist/optimized-svgs/mono/VIX.svg'
-import monoFITFI from '../dist/optimized-svgs/mono/FITFI.svg'
-import monoXET from '../dist/optimized-svgs/mono/XET.svg'
-import monoXDG from '../dist/optimized-svgs/mono/XDG.svg'
-import monoRISE from '../dist/optimized-svgs/mono/RISE.svg'
-import monoSOMM from '../dist/optimized-svgs/mono/SOMM.svg'
-import monoGRAI from '../dist/optimized-svgs/mono/GRAI.svg'
-import monoPRIMAL from '../dist/optimized-svgs/mono/PRIMAL.svg'
-import monoXEC from '../dist/optimized-svgs/mono/XEC.svg'
-import monoJUP from '../dist/optimized-svgs/mono/JUP.svg'
-import monoVLXPAD from '../dist/optimized-svgs/mono/VLXPAD.svg'
-import monoOXEN from '../dist/optimized-svgs/mono/OXEN.svg'
-import monoTHALES from '../dist/optimized-svgs/mono/THALES.svg'
-import monoAGI from '../dist/optimized-svgs/mono/AGI.svg'
-import monoFWB from '../dist/optimized-svgs/mono/FWB.svg'
-import monoSLG from '../dist/optimized-svgs/mono/SLG.svg'
-import monoSTBU from '../dist/optimized-svgs/mono/STBU.svg'
-import monoLOOM from '../dist/optimized-svgs/mono/LOOM.svg'
-import monoPAPER from '../dist/optimized-svgs/mono/PAPER.svg'
-import monoSNX from '../dist/optimized-svgs/mono/SNX.svg'
-import monoFTN from '../dist/optimized-svgs/mono/FTN.svg'
-import monoVITE from '../dist/optimized-svgs/mono/VITE.svg'
-import monoAPW from '../dist/optimized-svgs/mono/APW.svg'
-import monoSMT from '../dist/optimized-svgs/mono/SMT.svg'
-import monoZZ from '../dist/optimized-svgs/mono/ZZ.svg'
-import monoCFX from '../dist/optimized-svgs/mono/CFX.svg'
-import monoIPOR from '../dist/optimized-svgs/mono/IPOR.svg'
-import monoDCR from '../dist/optimized-svgs/mono/DCR.svg'
-import monoABYSS from '../dist/optimized-svgs/mono/ABYSS.svg'
-import monoCOMBO from '../dist/optimized-svgs/mono/COMBO.svg'
-import monoAIRI from '../dist/optimized-svgs/mono/AIRI.svg'
-import monoPSP from '../dist/optimized-svgs/mono/PSP.svg'
-import monoUNI from '../dist/optimized-svgs/mono/UNI.svg'
-import monoDASH from '../dist/optimized-svgs/mono/DASH.svg'
-import monoEGLD from '../dist/optimized-svgs/mono/EGLD.svg'
-import monoPERI from '../dist/optimized-svgs/mono/PERI.svg'
-import monoBCT from '../dist/optimized-svgs/mono/BCT.svg'
-import monoXAVA from '../dist/optimized-svgs/mono/XAVA.svg'
-import monoEFI from '../dist/optimized-svgs/mono/EFI.svg'
-import monoBUY from '../dist/optimized-svgs/mono/BUY.svg'
-import monoDAFI from '../dist/optimized-svgs/mono/DAFI.svg'
-import monoYAK from '../dist/optimized-svgs/mono/YAK.svg'
-import monoYCC from '../dist/optimized-svgs/mono/YCC.svg'
-import monoWNK from '../dist/optimized-svgs/mono/WNK.svg'
-import monoRSR from '../dist/optimized-svgs/mono/RSR.svg'
-import monoWHALE from '../dist/optimized-svgs/mono/WHALE.svg'
-import monoSILO from '../dist/optimized-svgs/mono/SILO.svg'
-import monoWOO from '../dist/optimized-svgs/mono/WOO.svg'
-import monoNOM from '../dist/optimized-svgs/mono/NOM.svg'
-import monoNMR from '../dist/optimized-svgs/mono/NMR.svg'
-import monoWAS from '../dist/optimized-svgs/mono/WAS.svg'
-import monoFACTR from '../dist/optimized-svgs/mono/FACTR.svg'
-import monoSAITAMA from '../dist/optimized-svgs/mono/SAITAMA.svg'
-import monoLUA from '../dist/optimized-svgs/mono/LUA.svg'
-import monoSFRXETH from '../dist/optimized-svgs/mono/SFRXETH.svg'
-import monoRARI from '../dist/optimized-svgs/mono/RARI.svg'
-import monoDODO from '../dist/optimized-svgs/mono/DODO.svg'
-import monoSAITO from '../dist/optimized-svgs/mono/SAITO.svg'
-import monoRDNT from '../dist/optimized-svgs/mono/RDNT.svg'
-import monoSOLID from '../dist/optimized-svgs/mono/SOLID.svg'
-import monoKUJI from '../dist/optimized-svgs/mono/KUJI.svg'
-import monoLVL from '../dist/optimized-svgs/mono/LVL.svg'
-import monoMCRT from '../dist/optimized-svgs/mono/MCRT.svg'
-import monoLAZIO from '../dist/optimized-svgs/mono/LAZIO.svg'
-import monoNSFW from '../dist/optimized-svgs/mono/NSFW.svg'
-import monoNAP from '../dist/optimized-svgs/mono/NAP.svg'
-import monoLUFC from '../dist/optimized-svgs/mono/LUFC.svg'
-import monoWIFI from '../dist/optimized-svgs/mono/WIFI.svg'
-import monoBCB from '../dist/optimized-svgs/mono/BCB.svg'
-import monoCARD from '../dist/optimized-svgs/mono/CARD.svg'
-import monoLON from '../dist/optimized-svgs/mono/LON.svg'
-import monoARDR from '../dist/optimized-svgs/mono/ARDR.svg'
-import monoCARAT from '../dist/optimized-svgs/mono/CARAT.svg'
-import monoBLZ from '../dist/optimized-svgs/mono/BLZ.svg'
-import monoBOA from '../dist/optimized-svgs/mono/BOA.svg'
-import monoSTJUNO from '../dist/optimized-svgs/mono/STJUNO.svg'
-import monoAREA from '../dist/optimized-svgs/mono/AREA.svg'
-import monoDSRUN from '../dist/optimized-svgs/mono/DSRUN.svg'
-import monoVELO from '../dist/optimized-svgs/mono/VELO.svg'
-import monoMIN from '../dist/optimized-svgs/mono/MIN.svg'
-import monoOSMO from '../dist/optimized-svgs/mono/OSMO.svg'
-import monoSTOS from '../dist/optimized-svgs/mono/STOS.svg'
-import monoHVH from '../dist/optimized-svgs/mono/HVH.svg'
-import monoCHR from '../dist/optimized-svgs/mono/CHR.svg'
-import monoASM from '../dist/optimized-svgs/mono/ASM.svg'
-import monoHXRO from '../dist/optimized-svgs/mono/HXRO.svg'
-import monoDOG from '../dist/optimized-svgs/mono/DOG.svg'
-import monoGAINS from '../dist/optimized-svgs/mono/GAINS.svg'
-import monoADS from '../dist/optimized-svgs/mono/ADS.svg'
-import monoMRS from '../dist/optimized-svgs/mono/MRS.svg'
-import monoMPL from '../dist/optimized-svgs/mono/MPL.svg'
-import monoDERI from '../dist/optimized-svgs/mono/DERI.svg'
-import monoLORDS from '../dist/optimized-svgs/mono/LORDS.svg'
-import monoXKI from '../dist/optimized-svgs/mono/XKI.svg'
-import monoSCNSOL from '../dist/optimized-svgs/mono/SCNSOL.svg'
-import monoNPXS from '../dist/optimized-svgs/mono/NPXS.svg'
-import monoOM from '../dist/optimized-svgs/mono/OM.svg'
-import monoAIT from '../dist/optimized-svgs/mono/AIT.svg'
-import monoOOKI from '../dist/optimized-svgs/mono/OOKI.svg'
-import monoFOR from '../dist/optimized-svgs/mono/FOR.svg'
-import monoBONDLY from '../dist/optimized-svgs/mono/BONDLY.svg'
-import monoLA from '../dist/optimized-svgs/mono/LA.svg'
-import monoSUI from '../dist/optimized-svgs/mono/SUI.svg'
-import monoINST from '../dist/optimized-svgs/mono/INST.svg'
-import monoAIN from '../dist/optimized-svgs/mono/AIN.svg'
-import monoFLS from '../dist/optimized-svgs/mono/FLS.svg'
-import monoOOKS from '../dist/optimized-svgs/mono/OOKS.svg'
-import monoXFT from '../dist/optimized-svgs/mono/XFT.svg'
-import monoBTCP from '../dist/optimized-svgs/mono/BTCP.svg'
-import monoSFTMX from '../dist/optimized-svgs/mono/SFTMX.svg'
-import monoXETA from '../dist/optimized-svgs/mono/XETA.svg'
-import monoHMX from '../dist/optimized-svgs/mono/HMX.svg'
-import monoRUNE from '../dist/optimized-svgs/mono/RUNE.svg'
-import monoHOP from '../dist/optimized-svgs/mono/HOP.svg'
-import monoMCADE from '../dist/optimized-svgs/mono/MCADE.svg'
-import monoPARA from '../dist/optimized-svgs/mono/PARA.svg'
-import monoVIDYA from '../dist/optimized-svgs/mono/VIDYA.svg'
-import monoHNT from '../dist/optimized-svgs/mono/HNT.svg'
-import monoBRICK from '../dist/optimized-svgs/mono/BRICK.svg'
-import monoKICKS from '../dist/optimized-svgs/mono/KICKS.svg'
-import monoAPL from '../dist/optimized-svgs/mono/APL.svg'
-import monoSNT from '../dist/optimized-svgs/mono/SNT.svg'
-import monoPROPS from '../dist/optimized-svgs/mono/PROPS.svg'
-import monoLMWR from '../dist/optimized-svgs/mono/LMWR.svg'
-import monoTHE from '../dist/optimized-svgs/mono/THE.svg'
-import monoSNC from '../dist/optimized-svgs/mono/SNC.svg'
-import monoAMKT from '../dist/optimized-svgs/mono/AMKT.svg'
-import monoTIA from '../dist/optimized-svgs/mono/TIA.svg'
-import monoMNTC from '../dist/optimized-svgs/mono/MNTC.svg'
-import monoXI from '../dist/optimized-svgs/mono/XI.svg'
-import monoCGG from '../dist/optimized-svgs/mono/CGG.svg'
-import monoHTM from '../dist/optimized-svgs/mono/HTM.svg'
-import monoPRO from '../dist/optimized-svgs/mono/PRO.svg'
-import monoPLASTIK from '../dist/optimized-svgs/mono/PLASTIK.svg'
-import monoPRX from '../dist/optimized-svgs/mono/PRX.svg'
-import monoFUND from '../dist/optimized-svgs/mono/FUND.svg'
-import monoAURABAL from '../dist/optimized-svgs/mono/AURABAL.svg'
-import monoLOC from '../dist/optimized-svgs/mono/LOC.svg'
-import monoNVT from '../dist/optimized-svgs/mono/NVT.svg'
-import monoMAPS from '../dist/optimized-svgs/mono/MAPS.svg'
-import monoKNDX from '../dist/optimized-svgs/mono/KNDX.svg'
-import monoFAKEAI from '../dist/optimized-svgs/mono/FAKEAI.svg'
-import monoBURGER from '../dist/optimized-svgs/mono/BURGER.svg'
-import monoGAMMA from '../dist/optimized-svgs/mono/GAMMA.svg'
-import monoUTK from '../dist/optimized-svgs/mono/UTK.svg'
-import monoCUSDC from '../dist/optimized-svgs/mono/CUSDC.svg'
-import monoWISE from '../dist/optimized-svgs/mono/WISE.svg'
-import monoWEFI from '../dist/optimized-svgs/mono/WEFI.svg'
-import monoPHA from '../dist/optimized-svgs/mono/PHA.svg'
-import monoNAVI from '../dist/optimized-svgs/mono/NAVI.svg'
-import monoARRR from '../dist/optimized-svgs/mono/ARRR.svg'
-import monoBERRY from '../dist/optimized-svgs/mono/BERRY.svg'
-import monoBZZ from '../dist/optimized-svgs/mono/BZZ.svg'
-import monoSETH from '../dist/optimized-svgs/mono/SETH.svg'
-import monoBELT from '../dist/optimized-svgs/mono/BELT.svg'
-import monoFPIS from '../dist/optimized-svgs/mono/FPIS.svg'
-import monoFIDA from '../dist/optimized-svgs/mono/FIDA.svg'
-import monoPGX from '../dist/optimized-svgs/mono/PGX.svg'
-import monoRARE from '../dist/optimized-svgs/mono/RARE.svg'
-import monoHBTC from '../dist/optimized-svgs/mono/HBTC.svg'
-import monoXFUND from '../dist/optimized-svgs/mono/XFUND.svg'
-import monoLIXX from '../dist/optimized-svgs/mono/LIXX.svg'
-import monoLAUNCH from '../dist/optimized-svgs/mono/LAUNCH.svg'
-import monoPDT from '../dist/optimized-svgs/mono/PDT.svg'
-import monoARSW from '../dist/optimized-svgs/mono/ARSW.svg'
-import monoNCT from '../dist/optimized-svgs/mono/NCT.svg'
-import monoAPEX from '../dist/optimized-svgs/mono/APEX.svg'
-import monoAPFC from '../dist/optimized-svgs/mono/APFC.svg'
-import monoIDV from '../dist/optimized-svgs/mono/IDV.svg'
-import monoBTG from '../dist/optimized-svgs/mono/BTG.svg'
-import monoLYX from '../dist/optimized-svgs/mono/LYX.svg'
-import monoBETS from '../dist/optimized-svgs/mono/BETS.svg'
-import monoQTCON from '../dist/optimized-svgs/mono/QTCON.svg'
-import monoBCN from '../dist/optimized-svgs/mono/BCN.svg'
-import monoUND from '../dist/optimized-svgs/mono/UND.svg'
-import monoLAI from '../dist/optimized-svgs/mono/LAI.svg'
-import monoLBR from '../dist/optimized-svgs/mono/LBR.svg'
-import monoNYM from '../dist/optimized-svgs/mono/NYM.svg'
-import monoGRC from '../dist/optimized-svgs/mono/GRC.svg'
-import monoRIF from '../dist/optimized-svgs/mono/RIF.svg'
-import monoPRY from '../dist/optimized-svgs/mono/PRY.svg'
-import monoSUDO from '../dist/optimized-svgs/mono/SUDO.svg'
-import monoKILT from '../dist/optimized-svgs/mono/KILT.svg'
-import monoGRT from '../dist/optimized-svgs/mono/GRT.svg'
-import monoZKP from '../dist/optimized-svgs/mono/ZKP.svg'
-import monoXRP from '../dist/optimized-svgs/mono/XRP.svg'
-import monoWAIT from '../dist/optimized-svgs/mono/WAIT.svg'
-import monoTET from '../dist/optimized-svgs/mono/TET.svg'
-import monoXPX from '../dist/optimized-svgs/mono/XPX.svg'
-import monoVEMP from '../dist/optimized-svgs/mono/VEMP.svg'
-import monoHAPI from '../dist/optimized-svgs/mono/HAPI.svg'
-import monoRAZOR from '../dist/optimized-svgs/mono/RAZOR.svg'
-import monoXRUNE from '../dist/optimized-svgs/mono/XRUNE.svg'
-import monoSTAT from '../dist/optimized-svgs/mono/STAT.svg'
-import monoFRONT from '../dist/optimized-svgs/mono/FRONT.svg'
-import monoFTC from '../dist/optimized-svgs/mono/FTC.svg'
-import monoVC from '../dist/optimized-svgs/mono/VC.svg'
-import monoDMC from '../dist/optimized-svgs/mono/DMC.svg'
-import monoAPM from '../dist/optimized-svgs/mono/APM.svg'
-import monoDMT from '../dist/optimized-svgs/mono/DMT.svg'
-import monoZANO from '../dist/optimized-svgs/mono/ZANO.svg'
-import monoVIB from '../dist/optimized-svgs/mono/VIB.svg'
-import monoTOMI from '../dist/optimized-svgs/mono/TOMI.svg'
-import monoNEAR from '../dist/optimized-svgs/mono/NEAR.svg'
-import monoBTRFLY from '../dist/optimized-svgs/mono/BTRFLY.svg'
-import monoFLR from '../dist/optimized-svgs/mono/FLR.svg'
-import monoDVI from '../dist/optimized-svgs/mono/DVI.svg'
-import monoLM from '../dist/optimized-svgs/mono/LM.svg'
-import monoCUMMIES from '../dist/optimized-svgs/mono/CUMMIES.svg'
-import monoCRE from '../dist/optimized-svgs/mono/CRE.svg'
-import monoSPANK from '../dist/optimized-svgs/mono/SPANK.svg'
-import monoBTC2 from '../dist/optimized-svgs/mono/BTC2.svg'
-import monoBS from '../dist/optimized-svgs/mono/BS.svg'
-import monoSHFT from '../dist/optimized-svgs/mono/SHFT.svg'
-import monoVET from '../dist/optimized-svgs/mono/VET.svg'
-import monoR from '../dist/optimized-svgs/mono/R.svg'
-import monoHAKA from '../dist/optimized-svgs/mono/HAKA.svg'
-import monoIBIT from '../dist/optimized-svgs/mono/IBIT.svg'
-import monoVV from '../dist/optimized-svgs/mono/VV.svg'
-import monoCKP from '../dist/optimized-svgs/mono/CKP.svg'
-import monoAST from '../dist/optimized-svgs/mono/AST.svg'
-import monoJAM from '../dist/optimized-svgs/mono/JAM.svg'
-import monoMET from '../dist/optimized-svgs/mono/MET.svg'
-import monoAPX from '../dist/optimized-svgs/mono/APX.svg'
-import monoZEN from '../dist/optimized-svgs/mono/ZEN.svg'
-import monoCEL from '../dist/optimized-svgs/mono/CEL.svg'
-import monoSAVG from '../dist/optimized-svgs/mono/SAVG.svg'
-import monoSCP from '../dist/optimized-svgs/mono/SCP.svg'
-import monoVELA from '../dist/optimized-svgs/mono/VELA.svg'
-import monoWHITE from '../dist/optimized-svgs/mono/WHITE.svg'
-import monoXELS from '../dist/optimized-svgs/mono/XELS.svg'
-import monoSRCX from '../dist/optimized-svgs/mono/SRCX.svg'
-import monoKDA from '../dist/optimized-svgs/mono/KDA.svg'
-import monoFIRO from '../dist/optimized-svgs/mono/FIRO.svg'
-import monoTRADE from '../dist/optimized-svgs/mono/TRADE.svg'
-import monoPRISM from '../dist/optimized-svgs/mono/PRISM.svg'
-import monoBLT from '../dist/optimized-svgs/mono/BLT.svg'
-import monoGSE from '../dist/optimized-svgs/mono/GSE.svg'
-import monoBOX from '../dist/optimized-svgs/mono/BOX.svg'
-import monoNALS from '../dist/optimized-svgs/mono/NALS.svg'
-import monoEURS from '../dist/optimized-svgs/mono/EURS.svg'
-import monoRDT from '../dist/optimized-svgs/mono/RDT.svg'
-import monoREP from '../dist/optimized-svgs/mono/REP.svg'
-import monoBEPRO from '../dist/optimized-svgs/mono/BEPRO.svg'
-import monoMCHC from '../dist/optimized-svgs/mono/MCHC.svg'
-import monoMSOL from '../dist/optimized-svgs/mono/MSOL.svg'
-import monoRAKE from '../dist/optimized-svgs/mono/RAKE.svg'
-import monoSUKU from '../dist/optimized-svgs/mono/SUKU.svg'
-import monoMASK from '../dist/optimized-svgs/mono/MASK.svg'
-import monoGHO from '../dist/optimized-svgs/mono/GHO.svg'
-import monoSWETH from '../dist/optimized-svgs/mono/SWETH.svg'
-import monoAUCTION from '../dist/optimized-svgs/mono/AUCTION.svg'
-import monoPHB from '../dist/optimized-svgs/mono/PHB.svg'
-import monoERTHA from '../dist/optimized-svgs/mono/ERTHA.svg'
-import monoGHX from '../dist/optimized-svgs/mono/GHX.svg'
-import monoJMPT from '../dist/optimized-svgs/mono/JMPT.svg'
-import monoFLUX from '../dist/optimized-svgs/mono/FLUX.svg'
-import monoGOVI from '../dist/optimized-svgs/mono/GOVI.svg'
-import monoLYM from '../dist/optimized-svgs/mono/LYM.svg'
-import monoEQX from '../dist/optimized-svgs/mono/EQX.svg'
-import monoTETU from '../dist/optimized-svgs/mono/TETU.svg'
-import monoMAHA from '../dist/optimized-svgs/mono/MAHA.svg'
-import monoSUSD from '../dist/optimized-svgs/mono/SUSD.svg'
-import monoKRL from '../dist/optimized-svgs/mono/KRL.svg'
-import monoKROM from '../dist/optimized-svgs/mono/KROM.svg'
-import monoCHAT from '../dist/optimized-svgs/mono/CHAT.svg'
-import monoPURSE from '../dist/optimized-svgs/mono/PURSE.svg'
-import monoSTEEM from '../dist/optimized-svgs/mono/STEEM.svg'
-import monoBLID from '../dist/optimized-svgs/mono/BLID.svg'
-import monoRPG from '../dist/optimized-svgs/mono/RPG.svg'
-import monoREUNI from '../dist/optimized-svgs/mono/REUNI.svg'
-import monoBTS from '../dist/optimized-svgs/mono/BTS.svg'
-import monoPIP from '../dist/optimized-svgs/mono/PIP.svg'
-import monoARI10 from '../dist/optimized-svgs/mono/ARI10.svg'
-import monoOBOT from '../dist/optimized-svgs/mono/OBOT.svg'
-import monoREF from '../dist/optimized-svgs/mono/REF.svg'
-import monoISK from '../dist/optimized-svgs/mono/ISK.svg'
-import monoNUM from '../dist/optimized-svgs/mono/NUM.svg'
-import monoEGC from '../dist/optimized-svgs/mono/EGC.svg'
-import monoRAIL from '../dist/optimized-svgs/mono/RAIL.svg'
-import monoREQ from '../dist/optimized-svgs/mono/REQ.svg'
-import monoSEND from '../dist/optimized-svgs/mono/SEND.svg'
-import monoHUNT from '../dist/optimized-svgs/mono/HUNT.svg'
-import monoTENET from '../dist/optimized-svgs/mono/TENET.svg'
-import monoPERP from '../dist/optimized-svgs/mono/PERP.svg'
-import monoLPNT from '../dist/optimized-svgs/mono/LPNT.svg'
-import monoDSETH from '../dist/optimized-svgs/mono/DSETH.svg'
-import monoRMRK from '../dist/optimized-svgs/mono/RMRK.svg'
-import monoXCAD from '../dist/optimized-svgs/mono/XCAD.svg'
-import monoLINA from '../dist/optimized-svgs/mono/LINA.svg'
-import monoEJS from '../dist/optimized-svgs/mono/EJS.svg'
-import monoK21 from '../dist/optimized-svgs/mono/K21.svg'
-import monoFLOW from '../dist/optimized-svgs/mono/FLOW.svg'
-import monoSTSTARS from '../dist/optimized-svgs/mono/STSTARS.svg'
-import monoGUSD from '../dist/optimized-svgs/mono/GUSD.svg'
-import monoBOBA from '../dist/optimized-svgs/mono/BOBA.svg'
-import monoZIL from '../dist/optimized-svgs/mono/ZIL.svg'
-import monoALLIN from '../dist/optimized-svgs/mono/ALLIN.svg'
-import monoSAN from '../dist/optimized-svgs/mono/SAN.svg'
-import monoXRD from '../dist/optimized-svgs/mono/XRD.svg'
-import monoJONES from '../dist/optimized-svgs/mono/JONES.svg'
-import monoDCK from '../dist/optimized-svgs/mono/DCK.svg'
-import monoNFTBS from '../dist/optimized-svgs/mono/NFTBS.svg'
-import monoHOPR from '../dist/optimized-svgs/mono/HOPR.svg'
-import monoASCN from '../dist/optimized-svgs/mono/ASCN.svg'
-import monoPASG from '../dist/optimized-svgs/mono/PASG.svg'
-import monoPART from '../dist/optimized-svgs/mono/PART.svg'
-import monoBCMC from '../dist/optimized-svgs/mono/BCMC.svg'
-import monoAI from '../dist/optimized-svgs/mono/AI.svg'
-import monoXEM from '../dist/optimized-svgs/mono/XEM.svg'
-import monoSTX from '../dist/optimized-svgs/mono/STX.svg'
-import monoVIA from '../dist/optimized-svgs/mono/VIA.svg'
-import monoQNT from '../dist/optimized-svgs/mono/QNT.svg'
-import monoHBB from '../dist/optimized-svgs/mono/HBB.svg'
-import monoMARS4 from '../dist/optimized-svgs/mono/MARS4.svg'
-import monoSTARS from '../dist/optimized-svgs/mono/STARS.svg'
-import monoOCEAN from '../dist/optimized-svgs/mono/OCEAN.svg'
-import monoCREAM from '../dist/optimized-svgs/mono/CREAM.svg'
-import monoCPH from '../dist/optimized-svgs/mono/CPH.svg'
-import monoADX from '../dist/optimized-svgs/mono/ADX.svg'
-import monoSAND from '../dist/optimized-svgs/mono/SAND.svg'
-import monoKARATE from '../dist/optimized-svgs/mono/KARATE.svg'
-import monoMUTE from '../dist/optimized-svgs/mono/MUTE.svg'
-import monoTIG from '../dist/optimized-svgs/mono/TIG.svg'
-import monoARB from '../dist/optimized-svgs/mono/ARB.svg'
-import monoTKX from '../dist/optimized-svgs/mono/TKX.svg'
-import monoDMD from '../dist/optimized-svgs/mono/DMD.svg'
-import monoCREO from '../dist/optimized-svgs/mono/CREO.svg'
-import monoSOV from '../dist/optimized-svgs/mono/SOV.svg'
-import monoIPAD from '../dist/optimized-svgs/mono/IPAD.svg'
-import monoTKO from '../dist/optimized-svgs/mono/TKO.svg'
-import monoVOICE from '../dist/optimized-svgs/mono/VOICE.svg'
-import monoSCB from '../dist/optimized-svgs/mono/SCB.svg'
-import monoKALM from '../dist/optimized-svgs/mono/KALM.svg'
-import monoBOTTO from '../dist/optimized-svgs/mono/BOTTO.svg'
-import monoMIR from '../dist/optimized-svgs/mono/MIR.svg'
-import monoDAG from '../dist/optimized-svgs/mono/DAG.svg'
-import monoALPACA from '../dist/optimized-svgs/mono/ALPACA.svg'
-import monoAPEFI from '../dist/optimized-svgs/mono/APEFI.svg'
-import monoNEWO from '../dist/optimized-svgs/mono/NEWO.svg'
-import monoNETT from '../dist/optimized-svgs/mono/NETT.svg'
-import monoIONX from '../dist/optimized-svgs/mono/IONX.svg'
-import monoMDAO from '../dist/optimized-svgs/mono/MDAO.svg'
-import monoWACME from '../dist/optimized-svgs/mono/WACME.svg'
-import monoHBAR from '../dist/optimized-svgs/mono/HBAR.svg'
-import monoGRS from '../dist/optimized-svgs/mono/GRS.svg'
-import monoPERC from '../dist/optimized-svgs/mono/PERC.svg'
-import monoEGG from '../dist/optimized-svgs/mono/EGG.svg'
-import monoKIT from '../dist/optimized-svgs/mono/KIT.svg'
-import monoEFC from '../dist/optimized-svgs/mono/EFC.svg'
-import monoGAMI from '../dist/optimized-svgs/mono/GAMI.svg'
-import monoKICK from '../dist/optimized-svgs/mono/KICK.svg'
-import monoCMDX from '../dist/optimized-svgs/mono/CMDX.svg'
-import monoMEDIA from '../dist/optimized-svgs/mono/MEDIA.svg'
-import monoIOTA from '../dist/optimized-svgs/mono/IOTA.svg'
-import monoLTO from '../dist/optimized-svgs/mono/LTO.svg'
-import monoTOPIA from '../dist/optimized-svgs/mono/TOPIA.svg'
-import monoXCUR from '../dist/optimized-svgs/mono/XCUR.svg'
-import monoKSM from '../dist/optimized-svgs/mono/KSM.svg'
-import monoBROCK from '../dist/optimized-svgs/mono/BROCK.svg'
-import monoLTX from '../dist/optimized-svgs/mono/LTX.svg'
-import monoWAN from '../dist/optimized-svgs/mono/WAN.svg'
-import monoMETAV from '../dist/optimized-svgs/mono/METAV.svg'
-import monoNMX from '../dist/optimized-svgs/mono/NMX.svg'
-import monoGEL from '../dist/optimized-svgs/mono/GEL.svg'
-import monoWBT from '../dist/optimized-svgs/mono/WBT.svg'
-import monoAERO from '../dist/optimized-svgs/mono/AERO.svg'
-import monoIDIA from '../dist/optimized-svgs/mono/IDIA.svg'
-import monoLYRA from '../dist/optimized-svgs/mono/LYRA.svg'
-import monoTITAN from '../dist/optimized-svgs/mono/TITAN.svg'
-import monoPIB from '../dist/optimized-svgs/mono/PIB.svg'
-import monoERG from '../dist/optimized-svgs/mono/ERG.svg'
-import monoBTA from '../dist/optimized-svgs/mono/BTA.svg'
-import monoNCR from '../dist/optimized-svgs/mono/NCR.svg'
-import monoBCH from '../dist/optimized-svgs/mono/BCH.svg'
-import monoALCX from '../dist/optimized-svgs/mono/ALCX.svg'
-import monoBBL from '../dist/optimized-svgs/mono/BBL.svg'
-import monoRFOX from '../dist/optimized-svgs/mono/RFOX.svg'
-import monoEUSD from '../dist/optimized-svgs/mono/EUSD.svg'
-import monoBLP from '../dist/optimized-svgs/mono/BLP.svg'
-import monoPSL from '../dist/optimized-svgs/mono/PSL.svg'
-import monoCOPI from '../dist/optimized-svgs/mono/COPI.svg'
-import monoLBT from '../dist/optimized-svgs/mono/LBT.svg'
-import monoBNX from '../dist/optimized-svgs/mono/BNX.svg'
-import monoBMC from '../dist/optimized-svgs/mono/BMC.svg'
-import monoBIGSB from '../dist/optimized-svgs/mono/BIGSB.svg'
-import monoXY from '../dist/optimized-svgs/mono/XY.svg'
-import monoCHO from '../dist/optimized-svgs/mono/CHO.svg'
-import monoTKN from '../dist/optimized-svgs/mono/TKN.svg'
-import monoSNS from '../dist/optimized-svgs/mono/SNS.svg'
-import monoLQDR from '../dist/optimized-svgs/mono/LQDR.svg'
-import monoVR from '../dist/optimized-svgs/mono/VR.svg'
-import monoPROPC from '../dist/optimized-svgs/mono/PROPC.svg'
-import monoMDT from '../dist/optimized-svgs/mono/MDT.svg'
-import monoARC from '../dist/optimized-svgs/mono/ARC.svg'
-import monoDERC from '../dist/optimized-svgs/mono/DERC.svg'
-import monoSTORJ from '../dist/optimized-svgs/mono/STORJ.svg'
-import monoVGX from '../dist/optimized-svgs/mono/VGX.svg'
-import monoGEOD from '../dist/optimized-svgs/mono/GEOD.svg'
-import monoOP from '../dist/optimized-svgs/mono/OP.svg'
-import monoNEBO from '../dist/optimized-svgs/mono/NEBO.svg'
-import monoPENDLE from '../dist/optimized-svgs/mono/PENDLE.svg'
-import monoSOON from '../dist/optimized-svgs/mono/SOON.svg'
-import monoMX from '../dist/optimized-svgs/mono/MX.svg'
-import monoAMPL from '../dist/optimized-svgs/mono/AMPL.svg'
-import monoHAI from '../dist/optimized-svgs/mono/HAI.svg'
-import monoO3 from '../dist/optimized-svgs/mono/O3.svg'
-import monoAKT from '../dist/optimized-svgs/mono/AKT.svg'
-import monoDEFIT from '../dist/optimized-svgs/mono/DEFIT.svg'
-import monoMM from '../dist/optimized-svgs/mono/MM.svg'
-import monoT from '../dist/optimized-svgs/mono/T.svg'
-import monoIRON from '../dist/optimized-svgs/mono/IRON.svg'
-import monoGAMEFI from '../dist/optimized-svgs/mono/GAMEFI.svg'
-import monoIGNIS from '../dist/optimized-svgs/mono/IGNIS.svg'
-import monoVEE from '../dist/optimized-svgs/mono/VEE.svg'
-import monoMPS from '../dist/optimized-svgs/mono/MPS.svg'
-import monoVEUR from '../dist/optimized-svgs/mono/VEUR.svg'
-import monoGSWAP from '../dist/optimized-svgs/mono/GSWAP.svg'
-import monoCHZ from '../dist/optimized-svgs/mono/CHZ.svg'
-import monoDLC from '../dist/optimized-svgs/mono/DLC.svg'
-import monoAZIT from '../dist/optimized-svgs/mono/AZIT.svg'
-import monoMEED from '../dist/optimized-svgs/mono/MEED.svg'
-import monoRGEN from '../dist/optimized-svgs/mono/RGEN.svg'
-import monoARV from '../dist/optimized-svgs/mono/ARV.svg'
-import monoDAD from '../dist/optimized-svgs/mono/DAD.svg'
-import monoXRT from '../dist/optimized-svgs/mono/XRT.svg'
-import monoXSP from '../dist/optimized-svgs/mono/XSP.svg'
-import monoSAI from '../dist/optimized-svgs/mono/SAI.svg'
-import monoREV3L from '../dist/optimized-svgs/mono/REV3L.svg'
-import monoRIDE from '../dist/optimized-svgs/mono/RIDE.svg'
-import monoFXS from '../dist/optimized-svgs/mono/FXS.svg'
-import monoOPIUM from '../dist/optimized-svgs/mono/OPIUM.svg'
-import monoLGCY from '../dist/optimized-svgs/mono/LGCY.svg'
-import monoLCR from '../dist/optimized-svgs/mono/LCR.svg'
-import monoNXM from '../dist/optimized-svgs/mono/NXM.svg'
-import monoUOS from '../dist/optimized-svgs/mono/UOS.svg'
-import monoCDAI from '../dist/optimized-svgs/mono/CDAI.svg'
-import monoGALEON from '../dist/optimized-svgs/mono/GALEON.svg'
-import monoREV from '../dist/optimized-svgs/mono/REV.svg'
-import monoSOURCE from '../dist/optimized-svgs/mono/SOURCE.svg'
-import monoUBT from '../dist/optimized-svgs/mono/UBT.svg'
-import monoCAPS from '../dist/optimized-svgs/mono/CAPS.svg'
-import monoBTC from '../dist/optimized-svgs/mono/BTC.svg'
-import monoNBT from '../dist/optimized-svgs/mono/NBT.svg'
-import monoLITH from '../dist/optimized-svgs/mono/LITH.svg'
-import monoBTT from '../dist/optimized-svgs/mono/BTT.svg'
-import monoLEOX from '../dist/optimized-svgs/mono/LEOX.svg'
-import monoHIFI from '../dist/optimized-svgs/mono/HIFI.svg'
-import monoECOIN from '../dist/optimized-svgs/mono/ECOIN.svg'
-import monoNOS from '../dist/optimized-svgs/mono/NOS.svg'
-import monoSNFT from '../dist/optimized-svgs/mono/SNFT.svg'
-import monoGGP from '../dist/optimized-svgs/mono/GGP.svg'
-import monoMTRG from '../dist/optimized-svgs/mono/MTRG.svg'
-import monoGGG from '../dist/optimized-svgs/mono/GGG.svg'
-import monoIDEA from '../dist/optimized-svgs/mono/IDEA.svg'
-import monoZPAY from '../dist/optimized-svgs/mono/ZPAY.svg'
-import monoBTU from '../dist/optimized-svgs/mono/BTU.svg'
-import monoBSCPAD from '../dist/optimized-svgs/mono/BSCPAD.svg'
-import monoACRIA from '../dist/optimized-svgs/mono/ACRIA.svg'
-import monoGUILD from '../dist/optimized-svgs/mono/GUILD.svg'
-import monoNWC from '../dist/optimized-svgs/mono/NWC.svg'
-import monoNTX from '../dist/optimized-svgs/mono/NTX.svg'
-import monoBAT from '../dist/optimized-svgs/mono/BAT.svg'
-import monoLOOKS from '../dist/optimized-svgs/mono/LOOKS.svg'
-import monoEURT from '../dist/optimized-svgs/mono/EURT.svg'
-import monoBETA from '../dist/optimized-svgs/mono/BETA.svg'
-import monoBORING from '../dist/optimized-svgs/mono/BORING.svg'
-import monoEVMOS from '../dist/optimized-svgs/mono/EVMOS.svg'
-import monoPINKSALE from '../dist/optimized-svgs/mono/PINKSALE.svg'
-import monoRDD from '../dist/optimized-svgs/mono/RDD.svg'
-import monoXAUR from '../dist/optimized-svgs/mono/XAUR.svg'
-import monoPROTEO from '../dist/optimized-svgs/mono/PROTEO.svg'
-import monoTABOO from '../dist/optimized-svgs/mono/TABOO.svg'
-import monoPPT from '../dist/optimized-svgs/mono/PPT.svg'
-import monoSUSHI from '../dist/optimized-svgs/mono/SUSHI.svg'
-import monoLING from '../dist/optimized-svgs/mono/LING.svg'
-import monoORDI from '../dist/optimized-svgs/mono/ORDI.svg'
-import monoLCS from '../dist/optimized-svgs/mono/LCS.svg'
-import monoPPC from '../dist/optimized-svgs/mono/PPC.svg'
-import monoHERMES from '../dist/optimized-svgs/mono/HERMES.svg'
-import monoBLD from '../dist/optimized-svgs/mono/BLD.svg'
-import monoZKB from '../dist/optimized-svgs/mono/ZKB.svg'
-import monoCGT from '../dist/optimized-svgs/mono/CGT.svg'
-import monoHARD from '../dist/optimized-svgs/mono/HARD.svg'
-import monoCFG from '../dist/optimized-svgs/mono/CFG.svg'
-import monoIETH from '../dist/optimized-svgs/mono/IETH.svg'
-import monoSBD from '../dist/optimized-svgs/mono/SBD.svg'
-import monoLAMB from '../dist/optimized-svgs/mono/LAMB.svg'
-import monoUNCX from '../dist/optimized-svgs/mono/UNCX.svg'
-import monoQUARTZ from '../dist/optimized-svgs/mono/QUARTZ.svg'
-import monoMED from '../dist/optimized-svgs/mono/MED.svg'
-import monoBOND from '../dist/optimized-svgs/mono/BOND.svg'
-import monoGBYTE from '../dist/optimized-svgs/mono/GBYTE.svg'
-import monoASD from '../dist/optimized-svgs/mono/ASD.svg'
-import monoKAVA from '../dist/optimized-svgs/mono/KAVA.svg'
-import monoTXAU from '../dist/optimized-svgs/mono/TXAU.svg'
-import monoU from '../dist/optimized-svgs/mono/U.svg'
-import monoHOT from '../dist/optimized-svgs/mono/HOT.svg'
-import monoCRU from '../dist/optimized-svgs/mono/CRU.svg'
-import monoDIKO from '../dist/optimized-svgs/mono/DIKO.svg'
-import monoML from '../dist/optimized-svgs/mono/ML.svg'
-import monoVEXT from '../dist/optimized-svgs/mono/VEXT.svg'
-import monoOS from '../dist/optimized-svgs/mono/OS.svg'
-import monoTREEB from '../dist/optimized-svgs/mono/TREEB.svg'
-import monoKMON from '../dist/optimized-svgs/mono/KMON.svg'
-import monoGRAV from '../dist/optimized-svgs/mono/GRAV.svg'
-import monoCLORE from '../dist/optimized-svgs/mono/CLORE.svg'
-import monoTRX from '../dist/optimized-svgs/mono/TRX.svg'
-import monoOGN from '../dist/optimized-svgs/mono/OGN.svg'
-import monoCTR from '../dist/optimized-svgs/mono/CTR.svg'
-import monoPDEX from '../dist/optimized-svgs/mono/PDEX.svg'
-import monoWHALES from '../dist/optimized-svgs/mono/WHALES.svg'
-import monoTHOR from '../dist/optimized-svgs/mono/THOR.svg'
-import monoZTG from '../dist/optimized-svgs/mono/ZTG.svg'
-import monoHID from '../dist/optimized-svgs/mono/HID.svg'
-import monoMUSD from '../dist/optimized-svgs/mono/MUSD.svg'
-import monoWOZX from '../dist/optimized-svgs/mono/WOZX.svg'
-import monoSKL from '../dist/optimized-svgs/mono/SKL.svg'
-import monoBRISE from '../dist/optimized-svgs/mono/BRISE.svg'
-import monoSOPH from '../dist/optimized-svgs/mono/SOPH.svg'
-import monoQUAD from '../dist/optimized-svgs/mono/QUAD.svg'
-import monoQR from '../dist/optimized-svgs/mono/QR.svg'
-import monoSWASH from '../dist/optimized-svgs/mono/SWASH.svg'
-import monoSIS from '../dist/optimized-svgs/mono/SIS.svg'
-import monoOMNI from '../dist/optimized-svgs/mono/OMNI.svg'
-import monoQRL from '../dist/optimized-svgs/mono/QRL.svg'
-import monoDKA from '../dist/optimized-svgs/mono/DKA.svg'
-import monoAUDIO from '../dist/optimized-svgs/mono/AUDIO.svg'
-import monoZCN from '../dist/optimized-svgs/mono/ZCN.svg'
-import monoFRA from '../dist/optimized-svgs/mono/FRA.svg'
-import monoSDT from '../dist/optimized-svgs/mono/SDT.svg'
-import monoCAS from '../dist/optimized-svgs/mono/CAS.svg'
-import monoAXS from '../dist/optimized-svgs/mono/AXS.svg'
-import monoLODE from '../dist/optimized-svgs/mono/LODE.svg'
-import monoMND from '../dist/optimized-svgs/mono/MND.svg'
-import monoYOSHI from '../dist/optimized-svgs/mono/YOSHI.svg'
-import monoDGB from '../dist/optimized-svgs/mono/DGB.svg'
-import monoCRWNY from '../dist/optimized-svgs/mono/CRWNY.svg'
-import monoFCON from '../dist/optimized-svgs/mono/FCON.svg'
-import monoRNDR from '../dist/optimized-svgs/mono/RNDR.svg'
-import monoPLANETS from '../dist/optimized-svgs/mono/PLANETS.svg'
-import monoLET from '../dist/optimized-svgs/mono/LET.svg'
-import monoFLOOR from '../dist/optimized-svgs/mono/FLOOR.svg'
-import monoPSTAKE from '../dist/optimized-svgs/mono/PSTAKE.svg'
-import monoBEL from '../dist/optimized-svgs/mono/BEL.svg'
-import monoPZP from '../dist/optimized-svgs/mono/PZP.svg'
-import monoNVIR from '../dist/optimized-svgs/mono/NVIR.svg'
-import monoTAROT from '../dist/optimized-svgs/mono/TAROT.svg'
-import monoNFTART from '../dist/optimized-svgs/mono/NFTART.svg'
-import monoBISO from '../dist/optimized-svgs/mono/BISO.svg'
-import monoGNO from '../dist/optimized-svgs/mono/GNO.svg'
-import monoBSV from '../dist/optimized-svgs/mono/BSV.svg'
-import monoGORA from '../dist/optimized-svgs/mono/GORA.svg'
-import monoCOMP from '../dist/optimized-svgs/mono/COMP.svg'
-import monoLUCA from '../dist/optimized-svgs/mono/LUCA.svg'
-import monoGDCC from '../dist/optimized-svgs/mono/GDCC.svg'
-import monoETC from '../dist/optimized-svgs/mono/ETC.svg'
-import monoICP from '../dist/optimized-svgs/mono/ICP.svg'
-import monoPNB from '../dist/optimized-svgs/mono/PNB.svg'
-import monoSYNC from '../dist/optimized-svgs/mono/SYNC.svg'
-import monoMANA from '../dist/optimized-svgs/mono/MANA.svg'
-import monoIDNA from '../dist/optimized-svgs/mono/IDNA.svg'
-import monoWRLD from '../dist/optimized-svgs/mono/WRLD.svg'
-import monoHUSH from '../dist/optimized-svgs/mono/HUSH.svg'
-import monoWAVES from '../dist/optimized-svgs/mono/WAVES.svg'
-import monoGYMNET from '../dist/optimized-svgs/mono/GYMNET.svg'
-import monoAURA from '../dist/optimized-svgs/mono/AURA.svg'
-import monoMOBILE from '../dist/optimized-svgs/mono/MOBILE.svg'
-import monoLPT from '../dist/optimized-svgs/mono/LPT.svg'
-import monoINV from '../dist/optimized-svgs/mono/INV.svg'
-import monoPAL from '../dist/optimized-svgs/mono/PAL.svg'
-import monoMCONTENT from '../dist/optimized-svgs/mono/MCONTENT.svg'
-import monoTRAVA from '../dist/optimized-svgs/mono/TRAVA.svg'
-import monoGNY from '../dist/optimized-svgs/mono/GNY.svg'
-import monoKYVE from '../dist/optimized-svgs/mono/KYVE.svg'
-import monoPNT from '../dist/optimized-svgs/mono/PNT.svg'
-import monoBSW from '../dist/optimized-svgs/mono/BSW.svg'
-import monoAIOZ from '../dist/optimized-svgs/mono/AIOZ.svg'
-import monoPOP from '../dist/optimized-svgs/mono/POP.svg'
-import monoGLQ from '../dist/optimized-svgs/mono/GLQ.svg'
-import monoNXRA from '../dist/optimized-svgs/mono/NXRA.svg'
-import monoRAY from '../dist/optimized-svgs/mono/RAY.svg'
-import monoGXC from '../dist/optimized-svgs/mono/GXC.svg'
-import monoEPIK from '../dist/optimized-svgs/mono/EPIK.svg'
-import monoALGB from '../dist/optimized-svgs/mono/ALGB.svg'
-import monoKNC from '../dist/optimized-svgs/mono/KNC.svg'
-import monoPUSH from '../dist/optimized-svgs/mono/PUSH.svg'
-import monoBLXM from '../dist/optimized-svgs/mono/BLXM.svg'
-import monoKCS from '../dist/optimized-svgs/mono/KCS.svg'
-import monoSTATOM from '../dist/optimized-svgs/mono/STATOM.svg'
-import monoFRAX from '../dist/optimized-svgs/mono/FRAX.svg'
-import monoAXE from '../dist/optimized-svgs/mono/AXE.svg'
-import monoMNR from '../dist/optimized-svgs/mono/MNR.svg'
-import monoNEURONI from '../dist/optimized-svgs/mono/NEURONI.svg'
-import monoNEST from '../dist/optimized-svgs/mono/NEST.svg'
-import monoZAP from '../dist/optimized-svgs/mono/ZAP.svg'
-import monoCATHEON from '../dist/optimized-svgs/mono/CATHEON.svg'
-import monoBREED from '../dist/optimized-svgs/mono/BREED.svg'
-import monoQRDO from '../dist/optimized-svgs/mono/QRDO.svg'
-import monoKLIMA from '../dist/optimized-svgs/mono/KLIMA.svg'
-import monoWBETH from '../dist/optimized-svgs/mono/WBETH.svg'
-import monoZCX from '../dist/optimized-svgs/mono/ZCX.svg'
-import monoMCB from '../dist/optimized-svgs/mono/MCB.svg'
-import monoFLUID from '../dist/optimized-svgs/mono/FLUID.svg'
-import monoGULF from '../dist/optimized-svgs/mono/GULF.svg'
-import monoACX from '../dist/optimized-svgs/mono/ACX.svg'
-import monoAAG from '../dist/optimized-svgs/mono/AAG.svg'
-import monoFCTR from '../dist/optimized-svgs/mono/FCTR.svg'
-import monoFEI from '../dist/optimized-svgs/mono/FEI.svg'
-import monoONG from '../dist/optimized-svgs/mono/ONG.svg'
-import monoMUSE from '../dist/optimized-svgs/mono/MUSE.svg'
-import monoGRAIN from '../dist/optimized-svgs/mono/GRAIN.svg'
-import monoATLAS from '../dist/optimized-svgs/mono/ATLAS.svg'
-import monoSRX from '../dist/optimized-svgs/mono/SRX.svg'
-import monoTULIP from '../dist/optimized-svgs/mono/TULIP.svg'
-import monoXCM from '../dist/optimized-svgs/mono/XCM.svg'
-import monoINTR from '../dist/optimized-svgs/mono/INTR.svg'
-import monoDEXE from '../dist/optimized-svgs/mono/DEXE.svg'
-import monoALU from '../dist/optimized-svgs/mono/ALU.svg'
-import monoTTK from '../dist/optimized-svgs/mono/TTK.svg'
-import monoSRM from '../dist/optimized-svgs/mono/SRM.svg'
-import monoVLX from '../dist/optimized-svgs/mono/VLX.svg'
-import monoONE from '../dist/optimized-svgs/mono/ONE.svg'
-import monoGRIN from '../dist/optimized-svgs/mono/GRIN.svg'
-import monoGRAIL from '../dist/optimized-svgs/mono/GRAIL.svg'
-import monoOMI from '../dist/optimized-svgs/mono/OMI.svg'
-import monoASSA from '../dist/optimized-svgs/mono/ASSA.svg'
-import monoDYDX from '../dist/optimized-svgs/mono/DYDX.svg'
-import monoSRLTY from '../dist/optimized-svgs/mono/SRLTY.svg'
-import monoDUSK from '../dist/optimized-svgs/mono/DUSK.svg'
-import monoFX from '../dist/optimized-svgs/mono/FX.svg'
-import monoPSWAP from '../dist/optimized-svgs/mono/PSWAP.svg'
-import monoTLM from '../dist/optimized-svgs/mono/TLM.svg'
-import monoMBD from '../dist/optimized-svgs/mono/MBD.svg'
-import monoSN from '../dist/optimized-svgs/mono/SN.svg'
-import monoGCOIN from '../dist/optimized-svgs/mono/GCOIN.svg'
-import monoCAP from '../dist/optimized-svgs/mono/CAP.svg'
-import monoAERGO from '../dist/optimized-svgs/mono/AERGO.svg'
-import monoOTK from '../dist/optimized-svgs/mono/OTK.svg'
-import monoTFUEL from '../dist/optimized-svgs/mono/TFUEL.svg'
-import monoTIPS from '../dist/optimized-svgs/mono/TIPS.svg'
-import monoKAN from '../dist/optimized-svgs/mono/KAN.svg'
-import monoELF from '../dist/optimized-svgs/mono/ELF.svg'
-import monoBFT from '../dist/optimized-svgs/mono/BFT.svg'
-import monoNPC from '../dist/optimized-svgs/mono/NPC.svg'
-import monoPICA from '../dist/optimized-svgs/mono/PICA.svg'
-import monoLIT from '../dist/optimized-svgs/mono/LIT.svg'
-import monoSKEY from '../dist/optimized-svgs/mono/SKEY.svg'
-import monoGXA from '../dist/optimized-svgs/mono/GXA.svg'
-import monoIOST from '../dist/optimized-svgs/mono/IOST.svg'
-import monoINSUR from '../dist/optimized-svgs/mono/INSUR.svg'
-import monoPLI from '../dist/optimized-svgs/mono/PLI.svg'
-import monoRTM from '../dist/optimized-svgs/mono/RTM.svg'
-import monoTONIC from '../dist/optimized-svgs/mono/TONIC.svg'
-import monoHILO from '../dist/optimized-svgs/mono/HILO.svg'
-import monoLUNR from '../dist/optimized-svgs/mono/LUNR.svg'
-import monoLYXE from '../dist/optimized-svgs/mono/LYXE.svg'
-import monoMOBY from '../dist/optimized-svgs/mono/MOBY.svg'
-import monoPAY from '../dist/optimized-svgs/mono/PAY.svg'
-import monoPROB from '../dist/optimized-svgs/mono/PROB.svg'
-import monoJASMY from '../dist/optimized-svgs/mono/JASMY.svg'
-import monoTIFI from '../dist/optimized-svgs/mono/TIFI.svg'
-import monoIMO from '../dist/optimized-svgs/mono/IMO.svg'
-import monoINT from '../dist/optimized-svgs/mono/INT.svg'
-import monoHIBS from '../dist/optimized-svgs/mono/HIBS.svg'
-import monoXDATA from '../dist/optimized-svgs/mono/XDATA.svg'
-import monoHELLO from '../dist/optimized-svgs/mono/HELLO.svg'
-import monoMANC from '../dist/optimized-svgs/mono/MANC.svg'
-import monoMIMATIC from '../dist/optimized-svgs/mono/MIMATIC.svg'
-import monoBRG from '../dist/optimized-svgs/mono/BRG.svg'
-import monoALPH from '../dist/optimized-svgs/mono/ALPH.svg'
-import monoROUTE from '../dist/optimized-svgs/mono/ROUTE.svg'
-import monoBST from '../dist/optimized-svgs/mono/BST.svg'
-import monoICE from '../dist/optimized-svgs/mono/ICE.svg'
-import monoB2M from '../dist/optimized-svgs/mono/B2M.svg'
-import monoDATA from '../dist/optimized-svgs/mono/DATA.svg'
-import monoRAMP from '../dist/optimized-svgs/mono/RAMP.svg'
-import monoRAM from '../dist/optimized-svgs/mono/RAM.svg'
-import monoGTC from '../dist/optimized-svgs/mono/GTC.svg'
-import monoIXO from '../dist/optimized-svgs/mono/IXO.svg'
-import monoGAFI from '../dist/optimized-svgs/mono/GAFI.svg'
-import monoARBI from '../dist/optimized-svgs/mono/ARBI.svg'
-import monoAPOLLO from '../dist/optimized-svgs/mono/APOLLO.svg'
-import monoXTP from '../dist/optimized-svgs/mono/XTP.svg'
-import monoMLN from '../dist/optimized-svgs/mono/MLN.svg'
-import monoAAVE from '../dist/optimized-svgs/mono/AAVE.svg'
-import monoOATH from '../dist/optimized-svgs/mono/OATH.svg'
-import monoJKL from '../dist/optimized-svgs/mono/JKL.svg'
-import monoM87 from '../dist/optimized-svgs/mono/M87.svg'
-import monoSFI from '../dist/optimized-svgs/mono/SFI.svg'
-import monoREALM from '../dist/optimized-svgs/mono/REALM.svg'
-import monoKWENTA from '../dist/optimized-svgs/mono/KWENTA.svg'
-import monoATR from '../dist/optimized-svgs/mono/ATR.svg'
-import monoCLV from '../dist/optimized-svgs/mono/CLV.svg'
-import monoFOREX from '../dist/optimized-svgs/mono/FOREX.svg'
-import monoMTH from '../dist/optimized-svgs/mono/MTH.svg'
-import monoXMR from '../dist/optimized-svgs/mono/XMR.svg'
-import monoDF from '../dist/optimized-svgs/mono/DF.svg'
-import monoCOSMOSHUB from '../dist/optimized-svgs/mono/COSMOSHUB.svg'
-import monoVAI from '../dist/optimized-svgs/mono/VAI.svg'
-import monoCTG from '../dist/optimized-svgs/mono/CTG.svg'
-import monoBCUBE from '../dist/optimized-svgs/mono/BCUBE.svg'
-import monoAMP from '../dist/optimized-svgs/mono/AMP.svg'
-import monoLOVELY from '../dist/optimized-svgs/mono/LOVELY.svg'
-import monoCTC from '../dist/optimized-svgs/mono/CTC.svg'
-import monoPAXG from '../dist/optimized-svgs/mono/PAXG.svg'
-import monoOAX from '../dist/optimized-svgs/mono/OAX.svg'
-import monoMTL from '../dist/optimized-svgs/mono/MTL.svg'
-import monoACH from '../dist/optimized-svgs/mono/ACH.svg'
-import monoMVD from '../dist/optimized-svgs/mono/MVD.svg'
-import monoABL from '../dist/optimized-svgs/mono/ABL.svg'
-import monoPYUSD from '../dist/optimized-svgs/mono/PYUSD.svg'
-import monoC98 from '../dist/optimized-svgs/mono/C98.svg'
-import monoPOLYPAD from '../dist/optimized-svgs/mono/POLYPAD.svg'
-import monoVVS from '../dist/optimized-svgs/mono/VVS.svg'
-import monoUBSN from '../dist/optimized-svgs/mono/UBSN.svg'
-import monoKLEVA from '../dist/optimized-svgs/mono/KLEVA.svg'
-import monoCBY from '../dist/optimized-svgs/mono/CBY.svg'
-import monoMMY from '../dist/optimized-svgs/mono/MMY.svg'
-import monoMNB from '../dist/optimized-svgs/mono/MNB.svg'
-import monoSFM from '../dist/optimized-svgs/mono/SFM.svg'
-import monoDEL from '../dist/optimized-svgs/mono/DEL.svg'
-import monoTAO from '../dist/optimized-svgs/mono/TAO.svg'
-import monoZKID from '../dist/optimized-svgs/mono/ZKID.svg'
-import monoPPAY from '../dist/optimized-svgs/mono/PPAY.svg'
-import monoRLY from '../dist/optimized-svgs/mono/RLY.svg'
-import monoFEAR from '../dist/optimized-svgs/mono/FEAR.svg'
-import monoEMP from '../dist/optimized-svgs/mono/EMP.svg'
-import monoNOIA from '../dist/optimized-svgs/mono/NOIA.svg'
-import monoAIMBOT from '../dist/optimized-svgs/mono/AIMBOT.svg'
-import monoQASH from '../dist/optimized-svgs/mono/QASH.svg'
-import monoBGB from '../dist/optimized-svgs/mono/BGB.svg'
-import monoORARE from '../dist/optimized-svgs/mono/ORARE.svg'
-import monoITHEUM from '../dist/optimized-svgs/mono/ITHEUM.svg'
-import monoCSIX from '../dist/optimized-svgs/mono/CSIX.svg'
-import monoETE from '../dist/optimized-svgs/mono/ETE.svg'
-import monoBPRO from '../dist/optimized-svgs/mono/BPRO.svg'
-import monoNFTB from '../dist/optimized-svgs/mono/NFTB.svg'
-import monoOETH from '../dist/optimized-svgs/mono/OETH.svg'
-import monoXPNET from '../dist/optimized-svgs/mono/XPNET.svg'
-import monoSTRAX from '../dist/optimized-svgs/mono/STRAX.svg'
-import monoBULL from '../dist/optimized-svgs/mono/BULL.svg'
-import monoTBTC from '../dist/optimized-svgs/mono/TBTC.svg'
-import monoSEILOR from '../dist/optimized-svgs/mono/SEILOR.svg'
-import monoDOMI from '../dist/optimized-svgs/mono/DOMI.svg'
-import monoUPP from '../dist/optimized-svgs/mono/UPP.svg'
-import monoTELOS from '../dist/optimized-svgs/mono/TELOS.svg'
-import monoUQC from '../dist/optimized-svgs/mono/UQC.svg'
-import monoSMARTCREDIT from '../dist/optimized-svgs/mono/SMARTCREDIT.svg'
-import monoANKR from '../dist/optimized-svgs/mono/ANKR.svg'
-import monoBIFI from '../dist/optimized-svgs/mono/BIFI.svg'
-import monoSLCL from '../dist/optimized-svgs/mono/SLCL.svg'
-import monoMATH from '../dist/optimized-svgs/mono/MATH.svg'
-import monoBDX from '../dist/optimized-svgs/mono/BDX.svg'
-import monoFLAME from '../dist/optimized-svgs/mono/FLAME.svg'
-import monoRBD from '../dist/optimized-svgs/mono/RBD.svg'
-import monoHIVE from '../dist/optimized-svgs/mono/HIVE.svg'
-import monoGHNY from '../dist/optimized-svgs/mono/GHNY.svg'
-import monoWSI from '../dist/optimized-svgs/mono/WSI.svg'
-import monoENJ from '../dist/optimized-svgs/mono/ENJ.svg'
-import monoVOXEL from '../dist/optimized-svgs/mono/VOXEL.svg'
-import monoATOM from '../dist/optimized-svgs/mono/ATOM.svg'
-import monoEQUAD from '../dist/optimized-svgs/mono/EQUAD.svg'
-import monoCELO from '../dist/optimized-svgs/mono/CELO.svg'
-import monoSTRONG from '../dist/optimized-svgs/mono/STRONG.svg'
-import monoURUS from '../dist/optimized-svgs/mono/URUS.svg'
-import monoCBX from '../dist/optimized-svgs/mono/CBX.svg'
-import monoMLK from '../dist/optimized-svgs/mono/MLK.svg'
-import monoTARA from '../dist/optimized-svgs/mono/TARA.svg'
-import monoMNT from '../dist/optimized-svgs/mono/MNT.svg'
-import monoZNN from '../dist/optimized-svgs/mono/ZNN.svg'
-import monoPOND from '../dist/optimized-svgs/mono/POND.svg'
-import monoMNST from '../dist/optimized-svgs/mono/MNST.svg'
-import monoRING from '../dist/optimized-svgs/mono/RING.svg'
-import monoCLS from '../dist/optimized-svgs/mono/CLS.svg'
-import monoTOR from '../dist/optimized-svgs/mono/TOR.svg'
-import monoPORTAL from '../dist/optimized-svgs/mono/PORTAL.svg'
-import monoVEGA from '../dist/optimized-svgs/mono/VEGA.svg'
-import monoAZERO from '../dist/optimized-svgs/mono/AZERO.svg'
-import monoTORN from '../dist/optimized-svgs/mono/TORN.svg'
-import monoHYDRA from '../dist/optimized-svgs/mono/HYDRA.svg'
-import monoOOE from '../dist/optimized-svgs/mono/OOE.svg'
-import monoCRTS from '../dist/optimized-svgs/mono/CRTS.svg'
-import monoETHM from '../dist/optimized-svgs/mono/ETHM.svg'
-import monoQMALL from '../dist/optimized-svgs/mono/QMALL.svg'
-import monoGO from '../dist/optimized-svgs/mono/GO.svg'
-import monoVALOR from '../dist/optimized-svgs/mono/VALOR.svg'
-import monoSTRP from '../dist/optimized-svgs/mono/STRP.svg'
-import monoRAVEN from '../dist/optimized-svgs/mono/RAVEN.svg'
-import monoDC from '../dist/optimized-svgs/mono/DC.svg'
-import monoDPAY from '../dist/optimized-svgs/mono/DPAY.svg'
-import monoFIL from '../dist/optimized-svgs/mono/FIL.svg'
-import monoTWT from '../dist/optimized-svgs/mono/TWT.svg'
-import monoDIMO from '../dist/optimized-svgs/mono/DIMO.svg'
-import monoAMB from '../dist/optimized-svgs/mono/AMB.svg'
-import monoID from '../dist/optimized-svgs/mono/ID.svg'
-import monoSPA from '../dist/optimized-svgs/mono/SPA.svg'
-import monoDEXT from '../dist/optimized-svgs/mono/DEXT.svg'
-import monoSPC from '../dist/optimized-svgs/mono/SPC.svg'
-import monoSSX from '../dist/optimized-svgs/mono/SSX.svg'
-import monoSIGNA from '../dist/optimized-svgs/mono/SIGNA.svg'
-import monoIQ from '../dist/optimized-svgs/mono/IQ.svg'
-import monoDWEB from '../dist/optimized-svgs/mono/DWEB.svg'
-import monoGEEQ from '../dist/optimized-svgs/mono/GEEQ.svg'
-import monoSRK from '../dist/optimized-svgs/mono/SRK.svg'
-import monoCUSD from '../dist/optimized-svgs/mono/CUSD.svg'
-import monoONT from '../dist/optimized-svgs/mono/ONT.svg'
-import monoBLOCK from '../dist/optimized-svgs/mono/BLOCK.svg'
-import monoETHX from '../dist/optimized-svgs/mono/ETHX.svg'
-import monoEARN from '../dist/optimized-svgs/mono/EARN.svg'
-import monoMWC from '../dist/optimized-svgs/mono/MWC.svg'
-import monoLAYER from '../dist/optimized-svgs/mono/LAYER.svg'
-import monoMAN from '../dist/optimized-svgs/mono/MAN.svg'
-import monoZAT from '../dist/optimized-svgs/mono/ZAT.svg'
-import monoVTX from '../dist/optimized-svgs/mono/VTX.svg'
-import monoOXY from '../dist/optimized-svgs/mono/OXY.svg'
-import monoSPIRIT from '../dist/optimized-svgs/mono/SPIRIT.svg'
-import monoTNT from '../dist/optimized-svgs/mono/TNT.svg'
-import monoKOIN from '../dist/optimized-svgs/mono/KOIN.svg'
-import monoTOP from '../dist/optimized-svgs/mono/TOP.svg'
-import monoPOLY from '../dist/optimized-svgs/mono/POLY.svg'
-import monoKOGE from '../dist/optimized-svgs/mono/KOGE.svg'
-import monoDACXI from '../dist/optimized-svgs/mono/DACXI.svg'
-import monoBAKE from '../dist/optimized-svgs/mono/BAKE.svg'
-import monoWRX from '../dist/optimized-svgs/mono/WRX.svg'
-import monoTLOS from '../dist/optimized-svgs/mono/TLOS.svg'
-import monoCANTO from '../dist/optimized-svgs/mono/CANTO.svg'
-import monoGZONE from '../dist/optimized-svgs/mono/GZONE.svg'
-import monoPWR from '../dist/optimized-svgs/mono/PWR.svg'
-import monoGFAL from '../dist/optimized-svgs/mono/GFAL.svg'
-import monoDJED from '../dist/optimized-svgs/mono/DJED.svg'
-import monoBFR from '../dist/optimized-svgs/mono/BFR.svg'
-import monoECO from '../dist/optimized-svgs/mono/ECO.svg'
-import monoCTXC from '../dist/optimized-svgs/mono/CTXC.svg'
-import monoPNG from '../dist/optimized-svgs/mono/PNG.svg'
-import monoRVC from '../dist/optimized-svgs/mono/RVC.svg'
-import monoNSBT from '../dist/optimized-svgs/mono/NSBT.svg'
-import monoUSDX from '../dist/optimized-svgs/mono/USDX.svg'
-import monoLSK from '../dist/optimized-svgs/mono/LSK.svg'
-import monoNHT from '../dist/optimized-svgs/mono/NHT.svg'
-import monoWELL from '../dist/optimized-svgs/mono/WELL.svg'
-import monoLUNC from '../dist/optimized-svgs/mono/LUNC.svg'
-import monoEUNO from '../dist/optimized-svgs/mono/EUNO.svg'
-import monoOUSD from '../dist/optimized-svgs/mono/OUSD.svg'
-import monoMOBI from '../dist/optimized-svgs/mono/MOBI.svg'
-import monoCCV2 from '../dist/optimized-svgs/mono/CCV2.svg'
-import monoPAI from '../dist/optimized-svgs/mono/PAI.svg'
-import monoPBR from '../dist/optimized-svgs/mono/PBR.svg'
-import monoGAS from '../dist/optimized-svgs/mono/GAS.svg'
-import monoBEETS from '../dist/optimized-svgs/mono/BEETS.svg'
-import monoSERO from '../dist/optimized-svgs/mono/SERO.svg'
-import monoCUMINU from '../dist/optimized-svgs/mono/CUMINU.svg'
-import monoINS from '../dist/optimized-svgs/mono/INS.svg'
-import monoEXD from '../dist/optimized-svgs/mono/EXD.svg'
-import monoNKN from '../dist/optimized-svgs/mono/NKN.svg'
-import monoUSH from '../dist/optimized-svgs/mono/USH.svg'
-import monoTRAXX from '../dist/optimized-svgs/mono/TRAXX.svg'
-import monoTOWER from '../dist/optimized-svgs/mono/TOWER.svg'
-import monoSYLO from '../dist/optimized-svgs/mono/SYLO.svg'
-import monoPLN from '../dist/optimized-svgs/mono/PLN.svg'
-import monoETP from '../dist/optimized-svgs/mono/ETP.svg'
-import monoGLC from '../dist/optimized-svgs/mono/GLC.svg'
-import monoSWAP from '../dist/optimized-svgs/mono/SWAP.svg'
-import monoKEEP from '../dist/optimized-svgs/mono/KEEP.svg'
-import monoSFUND from '../dist/optimized-svgs/mono/SFUND.svg'
-import monoNGM from '../dist/optimized-svgs/mono/NGM.svg'
-import monoSWISE from '../dist/optimized-svgs/mono/SWISE.svg'
-import monoUFI from '../dist/optimized-svgs/mono/UFI.svg'
-import monoALEX from '../dist/optimized-svgs/mono/ALEX.svg'
-import monoRDPX from '../dist/optimized-svgs/mono/RDPX.svg'
-import monoCBETH from '../dist/optimized-svgs/mono/CBETH.svg'
-import monoCHRP from '../dist/optimized-svgs/mono/CHRP.svg'
-import monoELA from '../dist/optimized-svgs/mono/ELA.svg'
-import monoKAI from '../dist/optimized-svgs/mono/KAI.svg'
-import monoCELL from '../dist/optimized-svgs/mono/CELL.svg'
-import monoHAWK from '../dist/optimized-svgs/mono/HAWK.svg'
-import monoMOD from '../dist/optimized-svgs/mono/MOD.svg'
-import monoTRIAS from '../dist/optimized-svgs/mono/TRIAS.svg'
-import monoMNW from '../dist/optimized-svgs/mono/MNW.svg'
-import monoMAX from '../dist/optimized-svgs/mono/MAX.svg'
-import monoSI from '../dist/optimized-svgs/mono/SI.svg'
-import monoPOLX from '../dist/optimized-svgs/mono/POLX.svg'
-import monoHMND from '../dist/optimized-svgs/mono/HMND.svg'
-import monoMEAN from '../dist/optimized-svgs/mono/MEAN.svg'
-import monoUNIX from '../dist/optimized-svgs/mono/UNIX.svg'
-import monoSTRD from '../dist/optimized-svgs/mono/STRD.svg'
-import monoNBLU from '../dist/optimized-svgs/mono/NBLU.svg'
-import monoDGNX from '../dist/optimized-svgs/mono/DGNX.svg'
-import monoES from '../dist/optimized-svgs/mono/ES.svg'
-import monoVIDT from '../dist/optimized-svgs/mono/VIDT.svg'
-import monoXNO from '../dist/optimized-svgs/mono/XNO.svg'
-import monoHT from '../dist/optimized-svgs/mono/HT.svg'
-import monoFIO from '../dist/optimized-svgs/mono/FIO.svg'
-import monoOCE from '../dist/optimized-svgs/mono/OCE.svg'
-import monoHEART from '../dist/optimized-svgs/mono/HEART.svg'
-import monoMZR from '../dist/optimized-svgs/mono/MZR.svg'
-import monoPOWR from '../dist/optimized-svgs/mono/POWR.svg'
-import monoGLMR from '../dist/optimized-svgs/mono/GLMR.svg'
-import monoDPX from '../dist/optimized-svgs/mono/DPX.svg'
-import monoAQTIS from '../dist/optimized-svgs/mono/AQTIS.svg'
-import monoXCH from '../dist/optimized-svgs/mono/XCH.svg'
-import monoMXM from '../dist/optimized-svgs/mono/MXM.svg'
+import tokensbrandedBABYSHIB from './tokens/branded/BABYSHIB.svg'
+import tokensbrandedSOCKS from './tokens/branded/SOCKS.svg'
+import tokensbrandedHONK from './tokens/branded/HONK.svg'
+import tokensbrandedTHOL from './tokens/branded/THOL.svg'
+import tokensbrandedGLINK from './tokens/branded/GLINK.svg'
+import tokensbrandedSPX from './tokens/branded/SPX.svg'
+import tokensbrandedMINA from './tokens/branded/MINA.svg'
+import tokensbrandedCXO from './tokens/branded/CXO.svg'
+import tokensbrandedOCTA from './tokens/branded/OCTA.svg'
+import tokensbrandedKZEN from './tokens/branded/KZEN.svg'
+import tokensbrandedABT from './tokens/branded/ABT.svg'
+import tokensbrandedBMEX from './tokens/branded/BMEX.svg'
+import tokensbrandedRBIF from './tokens/branded/RBIF.svg'
+import tokensbrandedSAIL from './tokens/branded/SAIL.svg'
+import tokensbrandedVAB from './tokens/branded/VAB.svg'
+import tokensbrandedCNFI from './tokens/branded/CNFI.svg'
+import tokensbrandedUW3S from './tokens/branded/UW3S.svg'
+import tokensbrandedZBC from './tokens/branded/ZBC.svg'
+import tokensbrandedOXB from './tokens/branded/OXB.svg'
+import tokensbrandedSHI from './tokens/branded/SHI.svg'
+import tokensbrandedMEMEAI from './tokens/branded/MEMEAI.svg'
+import tokensbrandedVTC from './tokens/branded/VTC.svg'
+import tokensbrandedSWFTC from './tokens/branded/SWFTC.svg'
+import tokensbranded2DAI from './tokens/branded/2DAI.svg'
+import tokensbrandedD3D from './tokens/branded/D3D.svg'
+import tokensbrandedPALM from './tokens/branded/PALM.svg'
+import tokensbrandedBHAT from './tokens/branded/BHAT.svg'
+import tokensbrandedMELD from './tokens/branded/MELD.svg'
+import tokensbrandedHST from './tokens/branded/HST.svg'
+import tokensbrandedDFX from './tokens/branded/DFX.svg'
+import tokensbrandedHPO from './tokens/branded/HPO.svg'
+import tokensbrandedDEC from './tokens/branded/DEC.svg'
+import tokensbrandedOMAX from './tokens/branded/OMAX.svg'
+import tokensbrandedXVS from './tokens/branded/XVS.svg'
+import tokensbrandedTRIBE from './tokens/branded/TRIBE.svg'
+import tokensbrandedENS from './tokens/branded/ENS.svg'
+import tokensbrandedSPARTA from './tokens/branded/SPARTA.svg'
+import tokensbrandedWINR from './tokens/branded/WINR.svg'
+import tokensbrandedBKN from './tokens/branded/BKN.svg'
+import tokensbrandedCMOS from './tokens/branded/CMOS.svg'
+import tokensbrandedKAS from './tokens/branded/KAS.svg'
+import tokensbrandedMTLX from './tokens/branded/MTLX.svg'
+import tokensbrandedRCN from './tokens/branded/RCN.svg'
+import tokensbrandedSONNE from './tokens/branded/SONNE.svg'
+import tokensbrandedKLT from './tokens/branded/KLT.svg'
+import tokensbrandedITP from './tokens/branded/ITP.svg'
+import tokensbrandedMUDOL2 from './tokens/branded/MUDOL2.svg'
+import tokensbrandedNABOX from './tokens/branded/NABOX.svg'
+import tokensbrandedEPIC from './tokens/branded/EPIC.svg'
+import tokensbrandedNFD from './tokens/branded/NFD.svg'
+import tokensbrandedVSYS from './tokens/branded/VSYS.svg'
+import tokensbrandedPNK from './tokens/branded/PNK.svg'
+import tokensbrandedUSDC from './tokens/branded/USDC.svg'
+import tokensbrandedPLT from './tokens/branded/PLT.svg'
+import tokensbrandedNORD from './tokens/branded/NORD.svg'
+import tokensbrandedYFI from './tokens/branded/YFI.svg'
+import tokensbrandedUSDT from './tokens/branded/USDT.svg'
+import tokensbrandedGOB from './tokens/branded/GOB.svg'
+import tokensbrandedTHETA from './tokens/branded/THETA.svg'
+import tokensbrandedCATGIRL from './tokens/branded/CATGIRL.svg'
+import tokensbrandedLRC from './tokens/branded/LRC.svg'
+import tokensbrandedGAI from './tokens/branded/GAI.svg'
+import tokensbrandedMETFI from './tokens/branded/METFI.svg'
+import tokensbrandedPREMIA from './tokens/branded/PREMIA.svg'
+import tokensbrandedWAMPL from './tokens/branded/WAMPL.svg'
+import tokensbrandedPLEX from './tokens/branded/PLEX.svg'
+import tokensbrandedOBSR from './tokens/branded/OBSR.svg'
+import tokensbrandedILV from './tokens/branded/ILV.svg'
+import tokensbrandedRXD from './tokens/branded/RXD.svg'
+import tokensbrandedZERO from './tokens/branded/ZERO.svg'
+import tokensbrandedDIVER from './tokens/branded/DIVER.svg'
+import tokensbrandedBUMP from './tokens/branded/BUMP.svg'
+import tokensbrandedWGC from './tokens/branded/WGC.svg'
+import tokensbrandedDEGEN from './tokens/branded/DEGEN.svg'
+import tokensbrandedFUSE from './tokens/branded/FUSE.svg'
+import tokensbrandedGZIL from './tokens/branded/GZIL.svg'
+import tokensbrandedYES from './tokens/branded/YES.svg'
+import tokensbrandedPLU from './tokens/branded/PLU.svg'
+import tokensbrandedICX from './tokens/branded/ICX.svg'
+import tokensbrandedRVN from './tokens/branded/RVN.svg'
+import tokensbrandedGODS from './tokens/branded/GODS.svg'
+import tokensbrandedOPTI from './tokens/branded/OPTI.svg'
+import tokensbrandedPRTC from './tokens/branded/PRTC.svg'
+import tokensbrandedPXP from './tokens/branded/PXP.svg'
+import tokensbrandedDOGEGF from './tokens/branded/DOGEGF.svg'
+import tokensbrandedLDO from './tokens/branded/LDO.svg'
+import tokensbrandedKAR from './tokens/branded/KAR.svg'
+import tokensbrandedHEGIC from './tokens/branded/HEGIC.svg'
+import tokensbrandedSLND from './tokens/branded/SLND.svg'
+import tokensbrandedQUINT from './tokens/branded/QUINT.svg'
+import tokensbrandedWOMBAT from './tokens/branded/WOMBAT.svg'
+import tokensbrandedPTS from './tokens/branded/PTS.svg'
+import tokensbrandedXTM from './tokens/branded/XTM.svg'
+import tokensbrandedCCD from './tokens/branded/CCD.svg'
+import tokensbrandedCIRUS from './tokens/branded/CIRUS.svg'
+import tokensbrandedXTZ from './tokens/branded/XTZ.svg'
+import tokensbrandedTDROP from './tokens/branded/TDROP.svg'
+import tokensbrandedVXV from './tokens/branded/VXV.svg'
+import tokensbrandedAXL from './tokens/branded/AXL.svg'
+import tokensbrandedCNC from './tokens/branded/CNC.svg'
+import tokensbrandedOXT from './tokens/branded/OXT.svg'
+import tokensbrandedAVG from './tokens/branded/AVG.svg'
+import tokensbrandedHOSHI from './tokens/branded/HOSHI.svg'
+import tokensbrandedDIA from './tokens/branded/DIA.svg'
+import tokensbrandedWOOF from './tokens/branded/WOOF.svg'
+import tokensbrandedFOUR from './tokens/branded/FOUR.svg'
+import tokensbrandedMBX from './tokens/branded/MBX.svg'
+import tokensbrandedPI from './tokens/branded/PI.svg'
+import tokensbrandedPOLC from './tokens/branded/POLC.svg'
+import tokensbrandedBOSON from './tokens/branded/BOSON.svg'
+import tokensbrandedBBANK from './tokens/branded/BBANK.svg'
+import tokensbrandedMNDE from './tokens/branded/MNDE.svg'
+import tokensbrandedWLITI from './tokens/branded/WLITI.svg'
+import tokensbrandedACQ from './tokens/branded/ACQ.svg'
+import tokensbrandedANKRETH from './tokens/branded/ANKRETH.svg'
+import tokensbrandedCNHT from './tokens/branded/CNHT.svg'
+import tokensbrandedAURORA from './tokens/branded/AURORA.svg'
+import tokensbrandedCVR from './tokens/branded/CVR.svg'
+import tokensbrandedALI from './tokens/branded/ALI.svg'
+import tokensbrandedNEER from './tokens/branded/NEER.svg'
+import tokensbrandedCVP from './tokens/branded/CVP.svg'
+import tokensbrandedMXC from './tokens/branded/MXC.svg'
+import tokensbrandedANT from './tokens/branded/ANT.svg'
+import tokensbrandedDSM from './tokens/branded/DSM.svg'
+import tokensbrandedHEZ from './tokens/branded/HEZ.svg'
+import tokensbrandedMINU from './tokens/branded/MINU.svg'
+import tokensbrandedJEWEL from './tokens/branded/JEWEL.svg'
+import tokensbrandedANC from './tokens/branded/ANC.svg'
+import tokensbrandedPEPES from './tokens/branded/PEPES.svg'
+import tokensbrandedCTX from './tokens/branded/CTX.svg'
+import tokensbrandedBTCMT from './tokens/branded/BTCMT.svg'
+import tokensbrandedMETA from './tokens/branded/META.svg'
+import tokensbrandedWITCH from './tokens/branded/WITCH.svg'
+import tokensbrandedETHW from './tokens/branded/ETHW.svg'
+import tokensbrandedXNA from './tokens/branded/XNA.svg'
+import tokensbrandedACS from './tokens/branded/ACS.svg'
+import tokensbrandedXOR from './tokens/branded/XOR.svg'
+import tokensbrandedVCORE from './tokens/branded/VCORE.svg'
+import tokensbrandedPUSSY from './tokens/branded/PUSSY.svg'
+import tokensbrandedEVER from './tokens/branded/EVER.svg'
+import tokensbrandedSTFX from './tokens/branded/STFX.svg'
+import tokensbrandedMYST from './tokens/branded/MYST.svg'
+import tokensbrandedPOLA from './tokens/branded/POLA.svg'
+import tokensbrandedATM from './tokens/branded/ATM.svg'
+import tokensbrandedSHROOM from './tokens/branded/SHROOM.svg'
+import tokensbrandedMAV from './tokens/branded/MAV.svg'
+import tokensbrandedREVV from './tokens/branded/REVV.svg'
+import tokensbrandedXVG from './tokens/branded/XVG.svg'
+import tokensbrandedD2T from './tokens/branded/D2T.svg'
+import tokensbrandedZLK from './tokens/branded/ZLK.svg'
+import tokensbrandedODIN from './tokens/branded/ODIN.svg'
+import tokensbrandedWAGMIGAMES from './tokens/branded/WAGMIGAMES.svg'
+import tokensbrandedKAP from './tokens/branded/KAP.svg'
+import tokensbrandedRLB from './tokens/branded/RLB.svg'
+import tokensbrandedORBS from './tokens/branded/ORBS.svg'
+import tokensbrandedENG from './tokens/branded/ENG.svg'
+import tokensbrandedKMD from './tokens/branded/KMD.svg'
+import tokensbrandedSUTER from './tokens/branded/SUTER.svg'
+import tokensbrandedCRVUSD from './tokens/branded/CRVUSD.svg'
+import tokensbrandedRAE from './tokens/branded/RAE.svg'
+import tokensbrandedSWTH from './tokens/branded/SWTH.svg'
+import tokensbrandedNGC from './tokens/branded/NGC.svg'
+import tokensbrandedGLM from './tokens/branded/GLM.svg'
+import tokensbrandedETI from './tokens/branded/ETI.svg'
+import tokensbrandedPOL from './tokens/branded/POL.svg'
+import tokensbrandedWLKN from './tokens/branded/WLKN.svg'
+import tokensbrandedCONV from './tokens/branded/CONV.svg'
+import tokensbrandedBLOX from './tokens/branded/BLOX.svg'
+import tokensbrandedTROVE from './tokens/branded/TROVE.svg'
+import tokensbrandedLSD from './tokens/branded/LSD.svg'
+import tokensbrandedKUB from './tokens/branded/KUB.svg'
+import tokensbrandedINJ from './tokens/branded/INJ.svg'
+import tokensbrandedION from './tokens/branded/ION.svg'
+import tokensbrandedKOMPETE from './tokens/branded/KOMPETE.svg'
+import tokensbrandedWELT from './tokens/branded/WELT.svg'
+import tokensbrandedKASTA from './tokens/branded/KASTA.svg'
+import tokensbrandedAGLD from './tokens/branded/AGLD.svg'
+import tokensbrandedNFTX from './tokens/branded/NFTX.svg'
+import tokensbrandedMTVT from './tokens/branded/MTVT.svg'
+import tokensbrandedSAUCE from './tokens/branded/SAUCE.svg'
+import tokensbranded1INCH from './tokens/branded/1INCH.svg'
+import tokensbrandedUSDV from './tokens/branded/USDV.svg'
+import tokensbrandedDOLA from './tokens/branded/DOLA.svg'
+import tokensbrandedDOME from './tokens/branded/DOME.svg'
+import tokensbrandedPLA from './tokens/branded/PLA.svg'
+import tokensbrandedGNS from './tokens/branded/GNS.svg'
+import tokensbrandedEUL from './tokens/branded/EUL.svg'
+import tokensbrandedDMTR from './tokens/branded/DMTR.svg'
+import tokensbrandedMETIS from './tokens/branded/METIS.svg'
+import tokensbrandedAIMX from './tokens/branded/AIMX.svg'
+import tokensbrandedMOOV from './tokens/branded/MOOV.svg'
+import tokensbrandedBRN from './tokens/branded/BRN.svg'
+import tokensbrandedETH from './tokens/branded/ETH.svg'
+import tokensbrandedRAD from './tokens/branded/RAD.svg'
+import tokensbrandedSTIMA from './tokens/branded/STIMA.svg'
+import tokensbrandedKOM from './tokens/branded/KOM.svg'
+import tokensbrandedBIDZ from './tokens/branded/BIDZ.svg'
+import tokensbrandedKLV from './tokens/branded/KLV.svg'
+import tokensbrandedGOFX from './tokens/branded/GOFX.svg'
+import tokensbrandedBDT from './tokens/branded/BDT.svg'
+import tokensbrandedORAI from './tokens/branded/ORAI.svg'
+import tokensbrandedKWAI from './tokens/branded/KWAI.svg'
+import tokensbrandedRLC from './tokens/branded/RLC.svg'
+import tokensbrandedBITCI from './tokens/branded/BITCI.svg'
+import tokensbrandedPOOLX from './tokens/branded/POOLX.svg'
+import tokensbrandedPORTX from './tokens/branded/PORTX.svg'
+import tokensbrandedZMN from './tokens/branded/ZMN.svg'
+import tokensbrandedJIM from './tokens/branded/JIM.svg'
+import tokensbrandedYFII from './tokens/branded/YFII.svg'
+import tokensbrandedRETH from './tokens/branded/RETH.svg'
+import tokensbrandedTOSHI from './tokens/branded/TOSHI.svg'
+import tokensbrandedMBL from './tokens/branded/MBL.svg'
+import tokensbrandedSIX from './tokens/branded/SIX.svg'
+import tokensbrandedLOKA from './tokens/branded/LOKA.svg'
+import tokensbrandedCLH from './tokens/branded/CLH.svg'
+import tokensbrandedDIVI from './tokens/branded/DIVI.svg'
+import tokensbrandedCOS from './tokens/branded/COS.svg'
+import tokensbrandedETHEREUM from './tokens/branded/ETHEREUM.svg'
+import tokensbrandedFSN from './tokens/branded/FSN.svg'
+import tokensbrandedJST from './tokens/branded/JST.svg'
+import tokensbrandedSTPT from './tokens/branded/STPT.svg'
+import tokensbrandedPHONON from './tokens/branded/PHONON.svg'
+import tokensbrandedMVI from './tokens/branded/MVI.svg'
+import tokensbrandedPIXEL from './tokens/branded/PIXEL.svg'
+import tokensbrandedMTV from './tokens/branded/MTV.svg'
+import tokensbrandedSTRK from './tokens/branded/STRK.svg'
+import tokensbrandedDUST from './tokens/branded/DUST.svg'
+import tokensbrandedGORILLA from './tokens/branded/GORILLA.svg'
+import tokensbrandedFET from './tokens/branded/FET.svg'
+import tokensbrandedGT from './tokens/branded/GT.svg'
+import tokensbrandedMTA from './tokens/branded/MTA.svg'
+import tokensbrandedFOLD from './tokens/branded/FOLD.svg'
+import tokensbrandedPMON from './tokens/branded/PMON.svg'
+import tokensbrandedIBAT from './tokens/branded/IBAT.svg'
+import tokensbrandedONION from './tokens/branded/ONION.svg'
+import tokensbrandedXCP from './tokens/branded/XCP.svg'
+import tokensbrandedH2O from './tokens/branded/H2O.svg'
+import tokensbrandedRITE from './tokens/branded/RITE.svg'
+import tokensbrandedTVK from './tokens/branded/TVK.svg'
+import tokensbrandedVNO from './tokens/branded/VNO.svg'
+import tokensbrandedSSV from './tokens/branded/SSV.svg'
+import tokensbrandedMIMO from './tokens/branded/MIMO.svg'
+import tokensbrandedWAXP from './tokens/branded/WAXP.svg'
+import tokensbrandedSAFE from './tokens/branded/SAFE.svg'
+import tokensbrandedDPS from './tokens/branded/DPS.svg'
+import tokensbrandedTUT from './tokens/branded/TUT.svg'
+import tokensbrandedMUSIC from './tokens/branded/MUSIC.svg'
+import tokensbrandedFIS from './tokens/branded/FIS.svg'
+import tokensbrandedONI from './tokens/branded/ONI.svg'
+import tokensbrandedGG from './tokens/branded/GG.svg'
+import tokensbrandedFEG from './tokens/branded/FEG.svg'
+import tokensbrandedSTRX from './tokens/branded/STRX.svg'
+import tokensbrandedNULS from './tokens/branded/NULS.svg'
+import tokensbrandedCEUR from './tokens/branded/CEUR.svg'
+import tokensbrandedCND from './tokens/branded/CND.svg'
+import tokensbrandedSHX from './tokens/branded/SHX.svg'
+import tokensbrandedPOLS from './tokens/branded/POLS.svg'
+import tokensbrandedPOOH from './tokens/branded/POOH.svg'
+import tokensbrandedPAAL from './tokens/branded/PAAL.svg'
+import tokensbrandedATH from './tokens/branded/ATH.svg'
+import tokensbrandedCOW from './tokens/branded/COW.svg'
+import tokensbrandedEQUAL from './tokens/branded/EQUAL.svg'
+import tokensbrandedPUNDIX from './tokens/branded/PUNDIX.svg'
+import tokensbrandedSFD from './tokens/branded/SFD.svg'
+import tokensbrandedSPORE from './tokens/branded/SPORE.svg'
+import tokensbrandedATOR from './tokens/branded/ATOR.svg'
+import tokensbrandedSDL from './tokens/branded/SDL.svg'
+import tokensbrandedDFI from './tokens/branded/DFI.svg'
+import tokensbrandedCCT from './tokens/branded/CCT.svg'
+import tokensbrandedKAU from './tokens/branded/KAU.svg'
+import tokensbrandedGMPD from './tokens/branded/GMPD.svg'
+import tokensbrandedSHIDO from './tokens/branded/SHIDO.svg'
+import tokensbrandedROME from './tokens/branded/ROME.svg'
+import tokensbrandedSKEB from './tokens/branded/SKEB.svg'
+import tokensbrandedKMA from './tokens/branded/KMA.svg'
+import tokensbrandedBDP from './tokens/branded/BDP.svg'
+import tokensbrandedNRG from './tokens/branded/NRG.svg'
+import tokensbrandedRSS3 from './tokens/branded/RSS3.svg'
+import tokensbrandedIMGNAI from './tokens/branded/IMGNAI.svg'
+import tokensbrandedMONA from './tokens/branded/MONA.svg'
+import tokensbrandedPLR from './tokens/branded/PLR.svg'
+import tokensbrandedHANDY from './tokens/branded/HANDY.svg'
+import tokensbrandedEXTRA from './tokens/branded/EXTRA.svg'
+import tokensbrandedFEVR from './tokens/branded/FEVR.svg'
+import tokensbrandedNIM from './tokens/branded/NIM.svg'
+import tokensbrandedLPOOL from './tokens/branded/LPOOL.svg'
+import tokensbrandedUNDEAD from './tokens/branded/UNDEAD.svg'
+import tokensbrandedGMEE from './tokens/branded/GMEE.svg'
+import tokensbrandedBABYDOGE from './tokens/branded/BABYDOGE.svg'
+import tokensbrandedKTC from './tokens/branded/KTC.svg'
+import tokensbrandedSBTC from './tokens/branded/SBTC.svg'
+import tokensbrandedDOBO from './tokens/branded/DOBO.svg'
+import tokensbrandedLEVER from './tokens/branded/LEVER.svg'
+import tokensbrandedAGLA from './tokens/branded/AGLA.svg'
+import tokensbrandedAURY from './tokens/branded/AURY.svg'
+import tokensbrandedPAC from './tokens/branded/PAC.svg'
+import tokensbrandedPBX from './tokens/branded/PBX.svg'
+import tokensbrandedICHI from './tokens/branded/ICHI.svg'
+import tokensbrandedCUDOS from './tokens/branded/CUDOS.svg'
+import tokensbrandedNEX from './tokens/branded/NEX.svg'
+import tokensbrandedBPT from './tokens/branded/BPT.svg'
+import tokensbrandedUSDD from './tokens/branded/USDD.svg'
+import tokensbrandedNCDT from './tokens/branded/NCDT.svg'
+import tokensbrandedCONE from './tokens/branded/CONE.svg'
+import tokensbrandedWIN from './tokens/branded/WIN.svg'
+import tokensbrandedYDF from './tokens/branded/YDF.svg'
+import tokensbrandedBSX from './tokens/branded/BSX.svg'
+import tokensbrandedNEO from './tokens/branded/NEO.svg'
+import tokensbrandedHONEY from './tokens/branded/HONEY.svg'
+import tokensbrandedPRIME from './tokens/branded/PRIME.svg'
+import tokensbrandedSLAM from './tokens/branded/SLAM.svg'
+import tokensbrandedPYR from './tokens/branded/PYR.svg'
+import tokensbrandedUFT from './tokens/branded/UFT.svg'
+import tokensbrandedUMAMI from './tokens/branded/UMAMI.svg'
+import tokensbrandedBRRR from './tokens/branded/BRRR.svg'
+import tokensbrandedLIF3 from './tokens/branded/LIF3.svg'
+import tokensbrandedXCFX from './tokens/branded/XCFX.svg'
+import tokensbrandedTEER from './tokens/branded/TEER.svg'
+import tokensbrandedBLUR from './tokens/branded/BLUR.svg'
+import tokensbrandedGOLDEN from './tokens/branded/GOLDEN.svg'
+import tokensbrandedELK from './tokens/branded/ELK.svg'
+import tokensbrandedPTU from './tokens/branded/PTU.svg'
+import tokensbrandedKP3R from './tokens/branded/KP3R.svg'
+import tokensbrandedIXT from './tokens/branded/IXT.svg'
+import tokensbrandedBCOIN from './tokens/branded/BCOIN.svg'
+import tokensbrandedNADA from './tokens/branded/NADA.svg'
+import tokensbrandedKAT from './tokens/branded/KAT.svg'
+import tokensbrandedSEI from './tokens/branded/SEI.svg'
+import tokensbrandedBTSG from './tokens/branded/BTSG.svg'
+import tokensbrandedMMF from './tokens/branded/MMF.svg'
+import tokensbrandedCETUS from './tokens/branded/CETUS.svg'
+import tokensbrandedXWG from './tokens/branded/XWG.svg'
+import tokensbrandedXPRT from './tokens/branded/XPRT.svg'
+import tokensbrandedDIP from './tokens/branded/DIP.svg'
+import tokensbrandedCOV from './tokens/branded/COV.svg'
+import tokensbrandedODDZ from './tokens/branded/ODDZ.svg'
+import tokensbrandedDHT from './tokens/branded/DHT.svg'
+import tokensbrandedSC from './tokens/branded/SC.svg'
+import tokensbrandedJUNGLE4EOS from './tokens/branded/JUNGLE4EOS.svg'
+import tokensbrandedAVA from './tokens/branded/AVA.svg'
+import tokensbrandedSTEP from './tokens/branded/STEP.svg'
+import tokensbrandedGQ from './tokens/branded/GQ.svg'
+import tokensbrandedARIA20 from './tokens/branded/ARIA20.svg'
+import tokensbrandedMTD from './tokens/branded/MTD.svg'
+import tokensbrandedVRSW from './tokens/branded/VRSW.svg'
+import tokensbrandedMNGO from './tokens/branded/MNGO.svg'
+import tokensbrandedMVL from './tokens/branded/MVL.svg'
+import tokensbrandedMTS from './tokens/branded/MTS.svg'
+import tokensbrandedFOOM from './tokens/branded/FOOM.svg'
+import tokensbrandedCTK from './tokens/branded/CTK.svg'
+import tokensbrandedSPH from './tokens/branded/SPH.svg'
+import tokensbrandedHOLD from './tokens/branded/HOLD.svg'
+import tokensbrandedBCDT from './tokens/branded/BCDT.svg'
+import tokensbrandedZYN from './tokens/branded/ZYN.svg'
+import tokensbrandedCVC from './tokens/branded/CVC.svg'
+import tokensbrandedHGT from './tokens/branded/HGT.svg'
+import tokensbrandedAVAX from './tokens/branded/AVAX.svg'
+import tokensbrandedCWEB from './tokens/branded/CWEB.svg'
+import tokensbrandedBORA from './tokens/branded/BORA.svg'
+import tokensbrandedOBI from './tokens/branded/OBI.svg'
+import tokensbrandedALPHA from './tokens/branded/ALPHA.svg'
+import tokensbrandedMIND from './tokens/branded/MIND.svg'
+import tokensbrandedAEGIS from './tokens/branded/AEGIS.svg'
+import tokensbrandedHDX from './tokens/branded/HDX.svg'
+import tokensbrandedCTI from './tokens/branded/CTI.svg'
+import tokensbrandedALEPH from './tokens/branded/ALEPH.svg'
+import tokensbrandedSHOPX from './tokens/branded/SHOPX.svg'
+import tokensbrandedIRIS from './tokens/branded/IRIS.svg'
+import tokensbrandedSOFI from './tokens/branded/SOFI.svg'
+import tokensbrandedEL from './tokens/branded/EL.svg'
+import tokensbrandedOZO from './tokens/branded/OZO.svg'
+import tokensbrandedCOC from './tokens/branded/COC.svg'
+import tokensbrandedMAP from './tokens/branded/MAP.svg'
+import tokensbrandedCNG from './tokens/branded/CNG.svg'
+import tokensbrandedTON from './tokens/branded/TON.svg'
+import tokensbrandedFRM from './tokens/branded/FRM.svg'
+import tokensbrandedOMMI from './tokens/branded/OMMI.svg'
+import tokensbrandedAVT from './tokens/branded/AVT.svg'
+import tokensbrandedWALV from './tokens/branded/WALV.svg'
+import tokensbrandedBTSE from './tokens/branded/BTSE.svg'
+import tokensbrandedSFP from './tokens/branded/SFP.svg'
+import tokensbrandedMEME from './tokens/branded/MEME.svg'
+import tokensbrandedCAH from './tokens/branded/CAH.svg'
+import tokensbrandedCOTI from './tokens/branded/COTI.svg'
+import tokensbrandedLEO from './tokens/branded/LEO.svg'
+import tokensbrandedFNSA from './tokens/branded/FNSA.svg'
+import tokensbrandedCROID from './tokens/branded/CROID.svg'
+import tokensbrandedBIT from './tokens/branded/BIT.svg'
+import tokensbrandedNFAI from './tokens/branded/NFAI.svg'
+import tokensbrandedNODL from './tokens/branded/NODL.svg'
+import tokensbrandedRBX from './tokens/branded/RBX.svg'
+import tokensbrandedWNDR from './tokens/branded/WNDR.svg'
+import tokensbrandedXCHF from './tokens/branded/XCHF.svg'
+import tokensbrandedGMX from './tokens/branded/GMX.svg'
+import tokensbrandedONIT from './tokens/branded/ONIT.svg'
+import tokensbrandedPIVX from './tokens/branded/PIVX.svg'
+import tokensbrandedBIST from './tokens/branded/BIST.svg'
+import tokensbrandedEWT from './tokens/branded/EWT.svg'
+import tokensbrandedRWN from './tokens/branded/RWN.svg'
+import tokensbrandedCHEQ from './tokens/branded/CHEQ.svg'
+import tokensbrandedHUSD from './tokens/branded/HUSD.svg'
+import tokensbrandedKLAY from './tokens/branded/KLAY.svg'
+import tokensbrandedPROM from './tokens/branded/PROM.svg'
+import tokensbrandedIDLE from './tokens/branded/IDLE.svg'
+import tokensbrandedGCR from './tokens/branded/GCR.svg'
+import tokensbrandedPAW from './tokens/branded/PAW.svg'
+import tokensbrandedKEKE from './tokens/branded/KEKE.svg'
+import tokensbrandedTRONPAD from './tokens/branded/TRONPAD.svg'
+import tokensbrandedETN from './tokens/branded/ETN.svg'
+import tokensbrandedTIDAL from './tokens/branded/TIDAL.svg'
+import tokensbrandedBABYTRUMP from './tokens/branded/BABYTRUMP.svg'
+import tokensbrandedRUG from './tokens/branded/RUG.svg'
+import tokensbrandedSOLVE from './tokens/branded/SOLVE.svg'
+import tokensbrandedKUNCI from './tokens/branded/KUNCI.svg'
+import tokensbrandedVTHO from './tokens/branded/VTHO.svg'
+import tokensbrandedRBN from './tokens/branded/RBN.svg'
+import tokensbrandedRENBTC from './tokens/branded/RENBTC.svg'
+import tokensbrandedFLEX from './tokens/branded/FLEX.svg'
+import tokensbrandedNPM from './tokens/branded/NPM.svg'
+import tokensbrandedMOVR from './tokens/branded/MOVR.svg'
+import tokensbrandedIMPT from './tokens/branded/IMPT.svg'
+import tokensbrandedEML from './tokens/branded/EML.svg'
+import tokensbrandedUNIBOT from './tokens/branded/UNIBOT.svg'
+import tokensbrandedMOVE from './tokens/branded/MOVE.svg'
+import tokensbranded0X0 from './tokens/branded/0X0.svg'
+import tokensbrandedSDN from './tokens/branded/SDN.svg'
+import tokensbrandedUNFI from './tokens/branded/UNFI.svg'
+import tokensbrandedDEP from './tokens/branded/DEP.svg'
+import tokensbrandedDGX from './tokens/branded/DGX.svg'
+import tokensbrandedASIA from './tokens/branded/ASIA.svg'
+import tokensbrandedFPS from './tokens/branded/FPS.svg'
+import tokensbrandedQSR from './tokens/branded/QSR.svg'
+import tokensbrandedQUBE from './tokens/branded/QUBE.svg'
+import tokensbrandedPUMLX from './tokens/branded/PUMLX.svg'
+import tokensbrandedXYO from './tokens/branded/XYO.svg'
+import tokensbrandedBZRX from './tokens/branded/BZRX.svg'
+import tokensbrandedCLY from './tokens/branded/CLY.svg'
+import tokensbrandedBRIDGE from './tokens/branded/BRIDGE.svg'
+import tokensbrandedXIDO from './tokens/branded/XIDO.svg'
+import tokensbrandedMETF from './tokens/branded/METF.svg'
+import tokensbrandedKIBSHI from './tokens/branded/KIBSHI.svg'
+import tokensbrandedMPLX from './tokens/branded/MPLX.svg'
+import tokensbrandedBLANK from './tokens/branded/BLANK.svg'
+import tokensbrandedFER from './tokens/branded/FER.svg'
+import tokensbrandedCHAIN from './tokens/branded/CHAIN.svg'
+import tokensbrandedTAKI from './tokens/branded/TAKI.svg'
+import tokensbrandedMVX from './tokens/branded/MVX.svg'
+import tokensbrandedACT from './tokens/branded/ACT.svg'
+import tokensbrandedOLT from './tokens/branded/OLT.svg'
+import tokensbrandedSSWP from './tokens/branded/SSWP.svg'
+import tokensbrandedCREDI from './tokens/branded/CREDI.svg'
+import tokensbrandedEXRD from './tokens/branded/EXRD.svg'
+import tokensbrandedCWS from './tokens/branded/CWS.svg'
+import tokensbrandedHOOK from './tokens/branded/HOOK.svg'
+import tokensbrandedQKC from './tokens/branded/QKC.svg'
+import tokensbrandedGSWIFT from './tokens/branded/GSWIFT.svg'
+import tokensbrandedOAS from './tokens/branded/OAS.svg'
+import tokensbrandedFLM from './tokens/branded/FLM.svg'
+import tokensbrandedTRU from './tokens/branded/TRU.svg'
+import tokensbrandedXDB from './tokens/branded/XDB.svg'
+import tokensbrandedXDEFI from './tokens/branded/XDEFI.svg'
+import tokensbrandedCQT from './tokens/branded/CQT.svg'
+import tokensbrandedCRO from './tokens/branded/CRO.svg'
+import tokensbrandedMV from './tokens/branded/MV.svg'
+import tokensbrandedNRCH from './tokens/branded/NRCH.svg'
+import tokensbrandedAHT from './tokens/branded/AHT.svg'
+import tokensbrandedBUILD from './tokens/branded/BUILD.svg'
+import tokensbrandedGBEX from './tokens/branded/GBEX.svg'
+import tokensbrandedTRB from './tokens/branded/TRB.svg'
+import tokensbrandedZOOMER from './tokens/branded/ZOOMER.svg'
+import tokensbrandedSXP from './tokens/branded/SXP.svg'
+import tokensbrandedBLUESPARROW from './tokens/branded/BLUESPARROW.svg'
+import tokensbrandedXPLA from './tokens/branded/XPLA.svg'
+import tokensbrandedCARBON from './tokens/branded/CARBON.svg'
+import tokensbrandedSALT from './tokens/branded/SALT.svg'
+import tokensbrandedDOT from './tokens/branded/DOT.svg'
+import tokensbrandedNEXO from './tokens/branded/NEXO.svg'
+import tokensbrandedTT from './tokens/branded/TT.svg'
+import tokensbrandedAPE from './tokens/branded/APE.svg'
+import tokensbrandedELAND from './tokens/branded/ELAND.svg'
+import tokensbrandedASTROC from './tokens/branded/ASTROC.svg'
+import tokensbrandedSMBR from './tokens/branded/SMBR.svg'
+import tokensbrandedORB from './tokens/branded/ORB.svg'
+import tokensbrandedTGT from './tokens/branded/TGT.svg'
+import tokensbrandedZIG from './tokens/branded/ZIG.svg'
+import tokensbrandedTRCL from './tokens/branded/TRCL.svg'
+import tokensbrandedKEX from './tokens/branded/KEX.svg'
+import tokensbrandedPRQ from './tokens/branded/PRQ.svg'
+import tokensbrandedRIN from './tokens/branded/RIN.svg'
+import tokensbrandedXSGD from './tokens/branded/XSGD.svg'
+import tokensbrandedKINT from './tokens/branded/KINT.svg'
+import tokensbrandedMMPRO from './tokens/branded/MMPRO.svg'
+import tokensbrandedEFL from './tokens/branded/EFL.svg'
+import tokensbrandedSWEAT from './tokens/branded/SWEAT.svg'
+import tokensbrandedWXT from './tokens/branded/WXT.svg'
+import tokensbrandedRPL from './tokens/branded/RPL.svg'
+import tokensbrandedCROWD from './tokens/branded/CROWD.svg'
+import tokensbrandedCYBER from './tokens/branded/CYBER.svg'
+import tokensbrandedGIV from './tokens/branded/GIV.svg'
+import tokensbrandedBEAM from './tokens/branded/BEAM.svg'
+import tokensbrandedTRYB from './tokens/branded/TRYB.svg'
+import tokensbrandedAIPAD from './tokens/branded/AIPAD.svg'
+import tokensbrandedWNXM from './tokens/branded/WNXM.svg'
+import tokensbrandedNLS from './tokens/branded/NLS.svg'
+import tokensbrandedPEX from './tokens/branded/PEX.svg'
+import tokensbrandedTRVL from './tokens/branded/TRVL.svg'
+import tokensbrandedGET from './tokens/branded/GET.svg'
+import tokensbrandedFDUSD from './tokens/branded/FDUSD.svg'
+import tokensbrandedJESUS from './tokens/branded/JESUS.svg'
+import tokensbrandedQANX from './tokens/branded/QANX.svg'
+import tokensbrandedBZR from './tokens/branded/BZR.svg'
+import tokensbrandedSILK from './tokens/branded/SILK.svg'
+import tokensbrandedPKR from './tokens/branded/PKR.svg'
+import tokensbrandedSAKAI from './tokens/branded/SAKAI.svg'
+import tokensbrandedPEPE from './tokens/branded/PEPE.svg'
+import tokensbrandedKIBA from './tokens/branded/KIBA.svg'
+import tokensbrandedBAX from './tokens/branded/BAX.svg'
+import tokensbrandedTROY from './tokens/branded/TROY.svg'
+import tokensbrandedBRWL from './tokens/branded/BRWL.svg'
+import tokensbrandedBAO from './tokens/branded/BAO.svg'
+import tokensbrandedLINK from './tokens/branded/LINK.svg'
+import tokensbrandedALOT from './tokens/branded/ALOT.svg'
+import tokensbrandedUMA from './tokens/branded/UMA.svg'
+import tokensbrandedSPELL from './tokens/branded/SPELL.svg'
+import tokensbrandedMMIT from './tokens/branded/MMIT.svg'
+import tokensbrandedMORK from './tokens/branded/MORK.svg'
+import tokensbrandedKEY from './tokens/branded/KEY.svg'
+import tokensbrandedJULD from './tokens/branded/JULD.svg'
+import tokensbrandedSATS from './tokens/branded/SATS.svg'
+import tokensbrandedHTR from './tokens/branded/HTR.svg'
+import tokensbrandedORT from './tokens/branded/ORT.svg'
+import tokensbrandedGYEN from './tokens/branded/GYEN.svg'
+import tokensbrandedFARM from './tokens/branded/FARM.svg'
+import tokensbrandedDAI from './tokens/branded/DAI.svg'
+import tokensbrandedDBR from './tokens/branded/DBR.svg'
+import tokensbrandedMATICX from './tokens/branded/MATICX.svg'
+import tokensbrandedCDT from './tokens/branded/CDT.svg'
+import tokensbrandedCGO from './tokens/branded/CGO.svg'
+import tokensbrandedGLEEC from './tokens/branded/GLEEC.svg'
+import tokensbrandedUBXS from './tokens/branded/UBXS.svg'
+import tokensbrandedDEFI from './tokens/branded/DEFI.svg'
+import tokensbrandedVRA from './tokens/branded/VRA.svg'
+import tokensbrandedHZN from './tokens/branded/HZN.svg'
+import tokensbrandedFUN from './tokens/branded/FUN.svg'
+import tokensbrandedVITA from './tokens/branded/VITA.svg'
+import tokensbrandedZEE from './tokens/branded/ZEE.svg'
+import tokensbrandedADA from './tokens/branded/ADA.svg'
+import tokensbrandedCERE from './tokens/branded/CERE.svg'
+import tokensbrandedSHDW from './tokens/branded/SHDW.svg'
+import tokensbrandedFCT from './tokens/branded/FCT.svg'
+import tokensbranded1ART from './tokens/branded/1ART.svg'
+import tokensbrandedBRUSH from './tokens/branded/BRUSH.svg'
+import tokensbrandedXEP from './tokens/branded/XEP.svg'
+import tokensbrandedTRC from './tokens/branded/TRC.svg'
+import tokensbrandedEDGE from './tokens/branded/EDGE.svg'
+import tokensbrandedL2 from './tokens/branded/L2.svg'
+import tokensbrandedQOM from './tokens/branded/QOM.svg'
+import tokensbrandedMARSH from './tokens/branded/MARSH.svg'
+import tokensbrandedXDC from './tokens/branded/XDC.svg'
+import tokensbrandedCOLLAB from './tokens/branded/COLLAB.svg'
+import tokensbrandedTOMB from './tokens/branded/TOMB.svg'
+import tokensbrandedAIS from './tokens/branded/AIS.svg'
+import tokensbrandedVERSE from './tokens/branded/VERSE.svg'
+import tokensbrandedSTG from './tokens/branded/STG.svg'
+import tokensbrandedQLC from './tokens/branded/QLC.svg'
+import tokensbrandedSOLX from './tokens/branded/SOLX.svg'
+import tokensbrandedATRI from './tokens/branded/ATRI.svg'
+import tokensbrandedSPACE from './tokens/branded/SPACE.svg'
+import tokensbrandedASTO from './tokens/branded/ASTO.svg'
+import tokensbrandedOKT from './tokens/branded/OKT.svg'
+import tokensbrandedAA from './tokens/branded/AA.svg'
+import tokensbrandedVSP from './tokens/branded/VSP.svg'
+import tokensbrandedHXD from './tokens/branded/HXD.svg'
+import tokensbrandedDEGO from './tokens/branded/DEGO.svg'
+import tokensbrandedOSAK from './tokens/branded/OSAK.svg'
+import tokensbrandedSCAR from './tokens/branded/SCAR.svg'
+import tokensbrandedSETH2 from './tokens/branded/SETH2.svg'
+import tokensbrandedRIBBIT from './tokens/branded/RIBBIT.svg'
+import tokensbrandedLIME from './tokens/branded/LIME.svg'
+import tokensbrandedRJV from './tokens/branded/RJV.svg'
+import tokensbrandedUNO from './tokens/branded/UNO.svg'
+import tokensbrandedPRE from './tokens/branded/PRE.svg'
+import tokensbrandedREN from './tokens/branded/REN.svg'
+import tokensbrandedGALA from './tokens/branded/GALA.svg'
+import tokensbrandedEFX from './tokens/branded/EFX.svg'
+import tokensbrandedIST from './tokens/branded/IST.svg'
+import tokensbrandedTOKEN from './tokens/branded/TOKEN.svg'
+import tokensbrandedEDG from './tokens/branded/EDG.svg'
+import tokensbrandedGAME from './tokens/branded/GAME.svg'
+import tokensbrandedROSE from './tokens/branded/ROSE.svg'
+import tokensbrandedIDEX from './tokens/branded/IDEX.svg'
+import tokensbrandedBEAN from './tokens/branded/BEAN.svg'
+import tokensbrandedYAM from './tokens/branded/YAM.svg'
+import tokensbrandedVOLT from './tokens/branded/VOLT.svg'
+import tokensbrandedRSC from './tokens/branded/RSC.svg'
+import tokensbrandedLTC from './tokens/branded/LTC.svg'
+import tokensbrandedBXX from './tokens/branded/BXX.svg'
+import tokensbrandedTUSD from './tokens/branded/TUSD.svg'
+import tokensbrandedDOGE from './tokens/branded/DOGE.svg'
+import tokensbrandedCTSI from './tokens/branded/CTSI.svg'
+import tokensbrandedMETAL from './tokens/branded/METAL.svg'
+import tokensbrandedHERO from './tokens/branded/HERO.svg'
+import tokensbrandedWIKEN from './tokens/branded/WIKEN.svg'
+import tokensbrandedPKF from './tokens/branded/PKF.svg'
+import tokensbrandedTPAD from './tokens/branded/TPAD.svg'
+import tokensbrandedANGLE from './tokens/branded/ANGLE.svg'
+import tokensbrandedNAV from './tokens/branded/NAV.svg'
+import tokensbrandedPYTH from './tokens/branded/PYTH.svg'
+import tokensbrandedTIME from './tokens/branded/TIME.svg'
+import tokensbrandedLIBRE from './tokens/branded/LIBRE.svg'
+import tokensbrandedBTM from './tokens/branded/BTM.svg'
+import tokensbrandedKIN from './tokens/branded/KIN.svg'
+import tokensbrandedDVPN from './tokens/branded/DVPN.svg'
+import tokensbrandedLUSD from './tokens/branded/LUSD.svg'
+import tokensbrandedBCD from './tokens/branded/BCD.svg'
+import tokensbrandedREGEN from './tokens/branded/REGEN.svg'
+import tokensbrandedBAL from './tokens/branded/BAL.svg'
+import tokensbrandedHBOT from './tokens/branded/HBOT.svg'
+import tokensbrandedMATIC from './tokens/branded/MATIC.svg'
+import tokensbrandedFREN from './tokens/branded/FREN.svg'
+import tokensbrandedBMX from './tokens/branded/BMX.svg'
+import tokensbrandedNXT from './tokens/branded/NXT.svg'
+import tokensbrandedUMB from './tokens/branded/UMB.svg'
+import tokensbrandedLAT from './tokens/branded/LAT.svg'
+import tokensbrandedPIKA from './tokens/branded/PIKA.svg'
+import tokensbrandedCOPE from './tokens/branded/COPE.svg'
+import tokensbrandedSTOSMO from './tokens/branded/STOSMO.svg'
+import tokensbrandedDCB from './tokens/branded/DCB.svg'
+import tokensbrandedXPR from './tokens/branded/XPR.svg'
+import tokensbrandedJUNO from './tokens/branded/JUNO.svg'
+import tokensbrandedFUTURE from './tokens/branded/FUTURE.svg'
+import tokensbrandedPOLYX from './tokens/branded/POLYX.svg'
+import tokensbrandedBAND from './tokens/branded/BAND.svg'
+import tokensbrandedEVEAI from './tokens/branded/EVEAI.svg'
+import tokensbrandedMBOX from './tokens/branded/MBOX.svg'
+import tokensbrandedCGL from './tokens/branded/CGL.svg'
+import tokensbrandedJOY from './tokens/branded/JOY.svg'
+import tokensbrandedFYN from './tokens/branded/FYN.svg'
+import tokensbrandedSHIBDOGE from './tokens/branded/SHIBDOGE.svg'
+import tokensbrandedSOL from './tokens/branded/SOL.svg'
+import tokensbrandedAQT from './tokens/branded/AQT.svg'
+import tokensbrandedMDX from './tokens/branded/MDX.svg'
+import tokensbrandedBOLT from './tokens/branded/BOLT.svg'
+import tokensbrandedBONK from './tokens/branded/BONK.svg'
+import tokensbrandedSOUL from './tokens/branded/SOUL.svg'
+import tokensbrandedDERO from './tokens/branded/DERO.svg'
+import tokensbrandedSANI from './tokens/branded/SANI.svg'
+import tokensbrandedAXEL from './tokens/branded/AXEL.svg'
+import tokensbrandedCRPT from './tokens/branded/CRPT.svg'
+import tokensbrandedADAPAD from './tokens/branded/ADAPAD.svg'
+import tokensbranded3ULL from './tokens/branded/3ULL.svg'
+import tokensbrandedX2Y2 from './tokens/branded/X2Y2.svg'
+import tokensbrandedMC from './tokens/branded/MC.svg'
+import tokensbrandedFLX from './tokens/branded/FLX.svg'
+import tokensbrandedSUB from './tokens/branded/SUB.svg'
+import tokensbrandedAIR from './tokens/branded/AIR.svg'
+import tokensbrandedDINGO from './tokens/branded/DINGO.svg'
+import tokensbrandedEDEN from './tokens/branded/EDEN.svg'
+import tokensbrandedOX from './tokens/branded/OX.svg'
+import tokensbrandedDTX from './tokens/branded/DTX.svg'
+import tokensbrandedREEF from './tokens/branded/REEF.svg'
+import tokensbrandedNEUROS from './tokens/branded/NEUROS.svg'
+import tokensbrandedDESO from './tokens/branded/DESO.svg'
+import tokensbrandedECOX from './tokens/branded/ECOX.svg'
+import tokensbrandedVEX from './tokens/branded/VEX.svg'
+import tokensbrandedFORTH from './tokens/branded/FORTH.svg'
+import tokensbrandedSAMA from './tokens/branded/SAMA.svg'
+import tokensbrandedDXL from './tokens/branded/DXL.svg'
+import tokensbrandedHAIR from './tokens/branded/HAIR.svg'
+import tokensbrandedSPOOL from './tokens/branded/SPOOL.svg'
+import tokensbrandedMFT from './tokens/branded/MFT.svg'
+import tokensbrandedPOKT from './tokens/branded/POKT.svg'
+import tokensbrandedFORE from './tokens/branded/FORE.svg'
+import tokensbrandedRADIO from './tokens/branded/RADIO.svg'
+import tokensbrandedMGP from './tokens/branded/MGP.svg'
+import tokensbrandedAPT from './tokens/branded/APT.svg'
+import tokensbrandedMEX from './tokens/branded/MEX.svg'
+import tokensbrandedARK from './tokens/branded/ARK.svg'
+import tokensbrandedMNTL from './tokens/branded/MNTL.svg'
+import tokensbrandedTIN from './tokens/branded/TIN.svg'
+import tokensbrandedDOR from './tokens/branded/DOR.svg'
+import tokensbrandedCEEK from './tokens/branded/CEEK.svg'
+import tokensbrandedFTM from './tokens/branded/FTM.svg'
+import tokensbrandedDNXC from './tokens/branded/DNXC.svg'
+import tokensbrandedSCLP from './tokens/branded/SCLP.svg'
+import tokensbrandedSATT from './tokens/branded/SATT.svg'
+import tokensbrandedPAID from './tokens/branded/PAID.svg'
+import tokensbrandedAART from './tokens/branded/AART.svg'
+import tokensbrandedINFRA from './tokens/branded/INFRA.svg'
+import tokensbrandedKINE from './tokens/branded/KINE.svg'
+import tokensbrandedBLX from './tokens/branded/BLX.svg'
+import tokensbrandedDFYN from './tokens/branded/DFYN.svg'
+import tokensbrandedSPHERE from './tokens/branded/SPHERE.svg'
+import tokensbrandedHYVE from './tokens/branded/HYVE.svg'
+import tokensbrandedLCX from './tokens/branded/LCX.svg'
+import tokensbrandedTSUKA from './tokens/branded/TSUKA.svg'
+import tokensbrandedIDRT from './tokens/branded/IDRT.svg'
+import tokensbrandedWIGO from './tokens/branded/WIGO.svg'
+import tokensbrandedLADYS from './tokens/branded/LADYS.svg'
+import tokensbrandedQUIDD from './tokens/branded/QUIDD.svg'
+import tokensbrandedEDU from './tokens/branded/EDU.svg'
+import tokensbrandedNAOS from './tokens/branded/NAOS.svg'
+import tokensbrandedRGT from './tokens/branded/RGT.svg'
+import tokensbrandedLINDA from './tokens/branded/LINDA.svg'
+import tokensbrandedWALLET from './tokens/branded/WALLET.svg'
+import tokensbrandedLZM from './tokens/branded/LZM.svg'
+import tokensbrandedDOGA from './tokens/branded/DOGA.svg'
+import tokensbrandedAGIX from './tokens/branded/AGIX.svg'
+import tokensbrandedQTUM from './tokens/branded/QTUM.svg'
+import tokensbrandedWEMIX from './tokens/branded/WEMIX.svg'
+import tokensbrandedBEND from './tokens/branded/BEND.svg'
+import tokensbrandedRVST from './tokens/branded/RVST.svg'
+import tokensbrandedDXGM from './tokens/branded/DXGM.svg'
+import tokensbrandedCAKE from './tokens/branded/CAKE.svg'
+import tokensbrandedMTRM from './tokens/branded/MTRM.svg'
+import tokensbrandedPICKLE from './tokens/branded/PICKLE.svg'
+import tokensbrandedYOU from './tokens/branded/YOU.svg'
+import tokensbrandedDIONE from './tokens/branded/DIONE.svg'
+import tokensbrandedPKT from './tokens/branded/PKT.svg'
+import tokensbrandedERN from './tokens/branded/ERN.svg'
+import tokensbrandedEQU from './tokens/branded/EQU.svg'
+import tokensbrandedLITT from './tokens/branded/LITT.svg'
+import tokensbrandedEQB from './tokens/branded/EQB.svg'
+import tokensbrandedIGU from './tokens/branded/IGU.svg'
+import tokensbrandedBAI from './tokens/branded/BAI.svg'
+import tokensbrandedCAST from './tokens/branded/CAST.svg'
+import tokensbrandedAGRS from './tokens/branded/AGRS.svg'
+import tokensbrandedRDN from './tokens/branded/RDN.svg'
+import tokensbrandedEGO from './tokens/branded/EGO.svg'
+import tokensbrandedBICO from './tokens/branded/BICO.svg'
+import tokensbrandedDSLA from './tokens/branded/DSLA.svg'
+import tokensbrandedBUSD from './tokens/branded/BUSD.svg'
+import tokensbrandedSUIP from './tokens/branded/SUIP.svg'
+import tokensbrandedISP from './tokens/branded/ISP.svg'
+import tokensbrandedMASQ from './tokens/branded/MASQ.svg'
+import tokensbrandedXSUSHI from './tokens/branded/XSUSHI.svg'
+import tokensbrandedDORA from './tokens/branded/DORA.svg'
+import tokensbrandedDOSE from './tokens/branded/DOSE.svg'
+import tokensbrandedTRAC from './tokens/branded/TRAC.svg'
+import tokensbrandedBOB from './tokens/branded/BOB.svg'
+import tokensbrandedTEL from './tokens/branded/TEL.svg'
+import tokensbrandedSTMX from './tokens/branded/STMX.svg'
+import tokensbrandedDAO from './tokens/branded/DAO.svg'
+import tokensbrandedBFIC from './tokens/branded/BFIC.svg'
+import tokensbrandedDEXTF from './tokens/branded/DEXTF.svg'
+import tokensbrandedMKR from './tokens/branded/MKR.svg'
+import tokensbrandedDBC from './tokens/branded/DBC.svg'
+import tokensbrandedMIM from './tokens/branded/MIM.svg'
+import tokensbrandedATPAY from './tokens/branded/ATPAY.svg'
+import tokensbrandedLAND from './tokens/branded/LAND.svg'
+import tokensbrandedDEFX from './tokens/branded/DEFX.svg'
+import tokensbrandedSLR from './tokens/branded/SLR.svg'
+import tokensbrandedSDEX from './tokens/branded/SDEX.svg'
+import tokensbrandedADCO from './tokens/branded/ADCO.svg'
+import tokensbrandedZEC from './tokens/branded/ZEC.svg'
+import tokensbrandedTKP from './tokens/branded/TKP.svg'
+import tokensbrandedCUBE from './tokens/branded/CUBE.svg'
+import tokensbrandedETHIX from './tokens/branded/ETHIX.svg'
+import tokensbrandedAR from './tokens/branded/AR.svg'
+import tokensbrandedADP from './tokens/branded/ADP.svg'
+import tokensbrandedSYS from './tokens/branded/SYS.svg'
+import tokensbrandedGENI from './tokens/branded/GENI.svg'
+import tokensbrandedAE from './tokens/branded/AE.svg'
+import tokensbrandedMST from './tokens/branded/MST.svg'
+import tokensbrandedGRND from './tokens/branded/GRND.svg'
+import tokensbrandedPAWTH from './tokens/branded/PAWTH.svg'
+import tokensbrandedBSGG from './tokens/branded/BSGG.svg'
+import tokensbrandedVERSA from './tokens/branded/VERSA.svg'
+import tokensbrandedALICE from './tokens/branded/ALICE.svg'
+import tokensbrandedMYRIA from './tokens/branded/MYRIA.svg'
+import tokensbrandedSHIA from './tokens/branded/SHIA.svg'
+import tokensbrandedMF from './tokens/branded/MF.svg'
+import tokensbrandedSTARL from './tokens/branded/STARL.svg'
+import tokensbrandedVPAD from './tokens/branded/VPAD.svg'
+import tokensbranded10SET from './tokens/branded/10SET.svg'
+import tokensbrandedWAGMI from './tokens/branded/WAGMI.svg'
+import tokensbrandedDVF from './tokens/branded/DVF.svg'
+import tokensbrandedVIX from './tokens/branded/VIX.svg'
+import tokensbrandedFITFI from './tokens/branded/FITFI.svg'
+import tokensbrandedXET from './tokens/branded/XET.svg'
+import tokensbrandedKINGSHIB from './tokens/branded/KINGSHIB.svg'
+import tokensbrandedXDG from './tokens/branded/XDG.svg'
+import tokensbrandedRISE from './tokens/branded/RISE.svg'
+import tokensbrandedSOMM from './tokens/branded/SOMM.svg'
+import tokensbrandedGRAI from './tokens/branded/GRAI.svg'
+import tokensbrandedPRIMAL from './tokens/branded/PRIMAL.svg'
+import tokensbrandedXEC from './tokens/branded/XEC.svg'
+import tokensbrandedJUP from './tokens/branded/JUP.svg'
+import tokensbrandedXWIN from './tokens/branded/XWIN.svg'
+import tokensbrandedVLXPAD from './tokens/branded/VLXPAD.svg'
+import tokensbrandedKATA from './tokens/branded/KATA.svg'
+import tokensbrandedOXEN from './tokens/branded/OXEN.svg'
+import tokensbrandedTHALES from './tokens/branded/THALES.svg'
+import tokensbrandedAGI from './tokens/branded/AGI.svg'
+import tokensbrandedFWB from './tokens/branded/FWB.svg'
+import tokensbrandedSLG from './tokens/branded/SLG.svg'
+import tokensbrandedSTBU from './tokens/branded/STBU.svg'
+import tokensbrandedLOOM from './tokens/branded/LOOM.svg'
+import tokensbrandedPAPER from './tokens/branded/PAPER.svg'
+import tokensbrandedSNX from './tokens/branded/SNX.svg'
+import tokensbrandedSLP from './tokens/branded/SLP.svg'
+import tokensbrandedFTN from './tokens/branded/FTN.svg'
+import tokensbrandedVITE from './tokens/branded/VITE.svg'
+import tokensbrandedAPW from './tokens/branded/APW.svg'
+import tokensbrandedZZ from './tokens/branded/ZZ.svg'
+import tokensbrandedCFX from './tokens/branded/CFX.svg'
+import tokensbrandedIPOR from './tokens/branded/IPOR.svg'
+import tokensbrandedDCR from './tokens/branded/DCR.svg'
+import tokensbrandedABYSS from './tokens/branded/ABYSS.svg'
+import tokensbrandedBLAST from './tokens/branded/BLAST.svg'
+import tokensbrandedCOMBO from './tokens/branded/COMBO.svg'
+import tokensbrandedMIX from './tokens/branded/MIX.svg'
+import tokensbrandedAIRI from './tokens/branded/AIRI.svg'
+import tokensbrandedCHAMPZ from './tokens/branded/CHAMPZ.svg'
+import tokensbrandedPSP from './tokens/branded/PSP.svg'
+import tokensbrandedUNI from './tokens/branded/UNI.svg'
+import tokensbrandedXMON from './tokens/branded/XMON.svg'
+import tokensbrandedDASH from './tokens/branded/DASH.svg'
+import tokensbrandedEGLD from './tokens/branded/EGLD.svg'
+import tokensbrandedRFD from './tokens/branded/RFD.svg'
+import tokensbrandedPERI from './tokens/branded/PERI.svg'
+import tokensbrandedBCT from './tokens/branded/BCT.svg'
+import tokensbrandedXAVA from './tokens/branded/XAVA.svg'
+import tokensbrandedEFI from './tokens/branded/EFI.svg'
+import tokensbrandedBUY from './tokens/branded/BUY.svg'
+import tokensbrandedDAFI from './tokens/branded/DAFI.svg'
+import tokensbrandedYAK from './tokens/branded/YAK.svg'
+import tokensbrandedYCC from './tokens/branded/YCC.svg'
+import tokensbrandedWNK from './tokens/branded/WNK.svg'
+import tokensbrandedWHALE from './tokens/branded/WHALE.svg'
+import tokensbrandedNOM from './tokens/branded/NOM.svg'
+import tokensbrandedKLEE from './tokens/branded/KLEE.svg'
+import tokensbrandedARPA from './tokens/branded/ARPA.svg'
+import tokensbrandedNMR from './tokens/branded/NMR.svg'
+import tokensbrandedWAS from './tokens/branded/WAS.svg'
+import tokensbrandedFACTR from './tokens/branded/FACTR.svg'
+import tokensbrandedAUTO from './tokens/branded/AUTO.svg'
+import tokensbrandedSAITAMA from './tokens/branded/SAITAMA.svg'
+import tokensbrandedLUA from './tokens/branded/LUA.svg'
+import tokensbrandedRARI from './tokens/branded/RARI.svg'
+import tokensbrandedDODO from './tokens/branded/DODO.svg'
+import tokensbrandedSAITO from './tokens/branded/SAITO.svg'
+import tokensbrandedRDNT from './tokens/branded/RDNT.svg'
+import tokensbrandedSOLID from './tokens/branded/SOLID.svg'
+import tokensbrandedKUJI from './tokens/branded/KUJI.svg'
+import tokensbrandedLVL from './tokens/branded/LVL.svg'
+import tokensbrandedMCRT from './tokens/branded/MCRT.svg'
+import tokensbrandedLAZIO from './tokens/branded/LAZIO.svg'
+import tokensbrandedNSFW from './tokens/branded/NSFW.svg'
+import tokensbrandedNAP from './tokens/branded/NAP.svg'
+import tokensbrandedLUFC from './tokens/branded/LUFC.svg'
+import tokensbranded0XGAS from './tokens/branded/0XGAS.svg'
+import tokensbrandedWIFI from './tokens/branded/WIFI.svg'
+import tokensbrandedHGPT from './tokens/branded/HGPT.svg'
+import tokensbrandedBCB from './tokens/branded/BCB.svg'
+import tokensbrandedCARD from './tokens/branded/CARD.svg'
+import tokensbrandedMINTME from './tokens/branded/MINTME.svg'
+import tokensbrandedLON from './tokens/branded/LON.svg'
+import tokensbrandedARDR from './tokens/branded/ARDR.svg'
+import tokensbrandedCARAT from './tokens/branded/CARAT.svg'
+import tokensbrandedBLZ from './tokens/branded/BLZ.svg'
+import tokensbrandedBOA from './tokens/branded/BOA.svg'
+import tokensbrandedSTJUNO from './tokens/branded/STJUNO.svg'
+import tokensbrandedMOCHI from './tokens/branded/MOCHI.svg'
+import tokensbrandedAREA from './tokens/branded/AREA.svg'
+import tokensbrandedDSRUN from './tokens/branded/DSRUN.svg'
+import tokensbrandedVELO from './tokens/branded/VELO.svg'
+import tokensbrandedMIN from './tokens/branded/MIN.svg'
+import tokensbrandedOSMO from './tokens/branded/OSMO.svg'
+import tokensbrandedSTOS from './tokens/branded/STOS.svg'
+import tokensbrandedHVH from './tokens/branded/HVH.svg'
+import tokensbrandedCHR from './tokens/branded/CHR.svg'
+import tokensbrandedASM from './tokens/branded/ASM.svg'
+import tokensbrandedDNT from './tokens/branded/DNT.svg'
+import tokensbrandedHXRO from './tokens/branded/HXRO.svg'
+import tokensbrandedHUAHUA from './tokens/branded/HUAHUA.svg'
+import tokensbrandedDOG from './tokens/branded/DOG.svg'
+import tokensbrandedGAINS from './tokens/branded/GAINS.svg'
+import tokensbrandedADS from './tokens/branded/ADS.svg'
+import tokensbrandedMRS from './tokens/branded/MRS.svg'
+import tokensbrandedMPL from './tokens/branded/MPL.svg'
+import tokensbrandedDERI from './tokens/branded/DERI.svg'
+import tokensbrandedXKI from './tokens/branded/XKI.svg'
+import tokensbrandedSCNSOL from './tokens/branded/SCNSOL.svg'
+import tokensbrandedNPXS from './tokens/branded/NPXS.svg'
+import tokensbrandedOM from './tokens/branded/OM.svg'
+import tokensbrandedAIT from './tokens/branded/AIT.svg'
+import tokensbrandedOOKI from './tokens/branded/OOKI.svg'
+import tokensbrandedFOR from './tokens/branded/FOR.svg'
+import tokensbrandedSTSOL from './tokens/branded/STSOL.svg'
+import tokensbrandedBONDLY from './tokens/branded/BONDLY.svg'
+import tokensbrandedLA from './tokens/branded/LA.svg'
+import tokensbrandedSHIB from './tokens/branded/SHIB.svg'
+import tokensbrandedSUI from './tokens/branded/SUI.svg'
+import tokensbrandedINST from './tokens/branded/INST.svg'
+import tokensbrandedCWAR from './tokens/branded/CWAR.svg'
+import tokensbrandedAIN from './tokens/branded/AIN.svg'
+import tokensbrandedFLS from './tokens/branded/FLS.svg'
+import tokensbrandedOOKS from './tokens/branded/OOKS.svg'
+import tokensbrandedXFT from './tokens/branded/XFT.svg'
+import tokensbrandedBTCP from './tokens/branded/BTCP.svg'
+import tokensbrandedPEOPLE from './tokens/branded/PEOPLE.svg'
+import tokensbrandedSFTMX from './tokens/branded/SFTMX.svg'
+import tokensbrandedDYP from './tokens/branded/DYP.svg'
+import tokensbrandedXETA from './tokens/branded/XETA.svg'
+import tokensbrandedASTR from './tokens/branded/ASTR.svg'
+import tokensbrandedHMX from './tokens/branded/HMX.svg'
+import tokensbrandedRUNE from './tokens/branded/RUNE.svg'
+import tokensbrandedHOP from './tokens/branded/HOP.svg'
+import tokensbrandedMCADE from './tokens/branded/MCADE.svg'
+import tokensbrandedPARA from './tokens/branded/PARA.svg'
+import tokensbrandedVIDYA from './tokens/branded/VIDYA.svg'
+import tokensbrandedPOLYDOGE from './tokens/branded/POLYDOGE.svg'
+import tokensbrandedHNT from './tokens/branded/HNT.svg'
+import tokensbrandedBRICK from './tokens/branded/BRICK.svg'
+import tokensbrandedKICKS from './tokens/branded/KICKS.svg'
+import tokensbrandedAPL from './tokens/branded/APL.svg'
+import tokensbrandedSNT from './tokens/branded/SNT.svg'
+import tokensbrandedPROPS from './tokens/branded/PROPS.svg'
+import tokensbrandedLMWR from './tokens/branded/LMWR.svg'
+import tokensbrandedGPCX from './tokens/branded/GPCX.svg'
+import tokensbrandedTIA from './tokens/branded/TIA.svg'
+import tokensbrandedMNTC from './tokens/branded/MNTC.svg'
+import tokensbrandedXI from './tokens/branded/XI.svg'
+import tokensbrandedJOE from './tokens/branded/JOE.svg'
+import tokensbrandedSCS from './tokens/branded/SCS.svg'
+import tokensbrandedCGG from './tokens/branded/CGG.svg'
+import tokensbrandedHTM from './tokens/branded/HTM.svg'
+import tokensbrandedPRO from './tokens/branded/PRO.svg'
+import tokensbrandedFREE from './tokens/branded/FREE.svg'
+import tokensbrandedPLASTIK from './tokens/branded/PLASTIK.svg'
+import tokensbrandedPRX from './tokens/branded/PRX.svg'
+import tokensbrandedFUND from './tokens/branded/FUND.svg'
+import tokensbrandedLOC from './tokens/branded/LOC.svg'
+import tokensbrandedNVT from './tokens/branded/NVT.svg'
+import tokensbrandedMAPS from './tokens/branded/MAPS.svg'
+import tokensbrandedFAKEAI from './tokens/branded/FAKEAI.svg'
+import tokensbrandedBURGER from './tokens/branded/BURGER.svg'
+import tokensbrandedARIX from './tokens/branded/ARIX.svg'
+import tokensbrandedCHMB from './tokens/branded/CHMB.svg'
+import tokensbrandedGAMMA from './tokens/branded/GAMMA.svg'
+import tokensbrandedUTK from './tokens/branded/UTK.svg'
+import tokensbrandedOGGY from './tokens/branded/OGGY.svg'
+import tokensbrandedCUSDC from './tokens/branded/CUSDC.svg'
+import tokensbrandedPEEL from './tokens/branded/PEEL.svg'
+import tokensbrandedWISE from './tokens/branded/WISE.svg'
+import tokensbrandedWEFI from './tokens/branded/WEFI.svg'
+import tokensbrandedPHA from './tokens/branded/PHA.svg'
+import tokensbrandedSNAIL from './tokens/branded/SNAIL.svg'
+import tokensbrandedNAVI from './tokens/branded/NAVI.svg'
+import tokensbrandedARRR from './tokens/branded/ARRR.svg'
+import tokensbrandedBERRY from './tokens/branded/BERRY.svg'
+import tokensbrandedBZZ from './tokens/branded/BZZ.svg'
+import tokensbrandedSETH from './tokens/branded/SETH.svg'
+import tokensbrandedBELT from './tokens/branded/BELT.svg'
+import tokensbrandedFIDA from './tokens/branded/FIDA.svg'
+import tokensbrandedPGX from './tokens/branded/PGX.svg'
+import tokensbrandedRARE from './tokens/branded/RARE.svg'
+import tokensbrandedHBTC from './tokens/branded/HBTC.svg'
+import tokensbrandedXFUND from './tokens/branded/XFUND.svg'
+import tokensbrandedLIXX from './tokens/branded/LIXX.svg'
+import tokensbrandedLAUNCH from './tokens/branded/LAUNCH.svg'
+import tokensbrandedPDT from './tokens/branded/PDT.svg'
+import tokensbrandedSNEK from './tokens/branded/SNEK.svg'
+import tokensbrandedARSW from './tokens/branded/ARSW.svg'
+import tokensbrandedNCT from './tokens/branded/NCT.svg'
+import tokensbrandedAPEX from './tokens/branded/APEX.svg'
+import tokensbrandedAPFC from './tokens/branded/APFC.svg'
+import tokensbrandedIDV from './tokens/branded/IDV.svg'
+import tokensbrandedBTG from './tokens/branded/BTG.svg'
+import tokensbrandedLYX from './tokens/branded/LYX.svg'
+import tokensbrandedBETS from './tokens/branded/BETS.svg'
+import tokensbrandedBCN from './tokens/branded/BCN.svg'
+import tokensbrandedUND from './tokens/branded/UND.svg'
+import tokensbrandedLBR from './tokens/branded/LBR.svg'
+import tokensbrandedNYM from './tokens/branded/NYM.svg'
+import tokensbrandedLINU from './tokens/branded/LINU.svg'
+import tokensbrandedGRC from './tokens/branded/GRC.svg'
+import tokensbrandedRIF from './tokens/branded/RIF.svg'
+import tokensbrandedPRY from './tokens/branded/PRY.svg'
+import tokensbrandedSUDO from './tokens/branded/SUDO.svg'
+import tokensbrandedKILT from './tokens/branded/KILT.svg'
+import tokensbrandedGRT from './tokens/branded/GRT.svg'
+import tokensbrandedZKP from './tokens/branded/ZKP.svg'
+import tokensbrandedWAIT from './tokens/branded/WAIT.svg'
+import tokensbrandedTET from './tokens/branded/TET.svg'
+import tokensbrandedXPX from './tokens/branded/XPX.svg'
+import tokensbrandedVEMP from './tokens/branded/VEMP.svg'
+import tokensbrandedHAPI from './tokens/branded/HAPI.svg'
+import tokensbrandedRAZOR from './tokens/branded/RAZOR.svg'
+import tokensbrandedXRUNE from './tokens/branded/XRUNE.svg'
+import tokensbrandedSAM from './tokens/branded/SAM.svg'
+import tokensbrandedSTAT from './tokens/branded/STAT.svg'
+import tokensbrandedFTC from './tokens/branded/FTC.svg'
+import tokensbrandedVC from './tokens/branded/VC.svg'
+import tokensbrandedDMC from './tokens/branded/DMC.svg'
+import tokensbrandedAPM from './tokens/branded/APM.svg'
+import tokensbrandedDMT from './tokens/branded/DMT.svg'
+import tokensbrandedSAMO from './tokens/branded/SAMO.svg'
+import tokensbrandedZANO from './tokens/branded/ZANO.svg'
+import tokensbrandedNEON from './tokens/branded/NEON.svg'
+import tokensbrandedVIB from './tokens/branded/VIB.svg'
+import tokensbrandedDPET from './tokens/branded/DPET.svg'
+import tokensbrandedBCAT from './tokens/branded/BCAT.svg'
+import tokensbrandedBADGER from './tokens/branded/BADGER.svg'
+import tokensbrandedTOMI from './tokens/branded/TOMI.svg'
+import tokensbrandedNEAR from './tokens/branded/NEAR.svg'
+import tokensbrandedFLR from './tokens/branded/FLR.svg'
+import tokensbrandedTYRANT from './tokens/branded/TYRANT.svg'
+import tokensbrandedLM from './tokens/branded/LM.svg'
+import tokensbrandedCUMMIES from './tokens/branded/CUMMIES.svg'
+import tokensbrandedCRE from './tokens/branded/CRE.svg'
+import tokensbrandedSPANK from './tokens/branded/SPANK.svg'
+import tokensbrandedBTC2 from './tokens/branded/BTC2.svg'
+import tokensbrandedCOVAL from './tokens/branded/COVAL.svg'
+import tokensbrandedBS from './tokens/branded/BS.svg'
+import tokensbrandedSHFT from './tokens/branded/SHFT.svg'
+import tokensbrandedVET from './tokens/branded/VET.svg'
+import tokensbrandedR from './tokens/branded/R.svg'
+import tokensbrandedHAKA from './tokens/branded/HAKA.svg'
+import tokensbrandedIBIT from './tokens/branded/IBIT.svg'
+import tokensbrandedVV from './tokens/branded/VV.svg'
+import tokensbrandedCKP from './tokens/branded/CKP.svg'
+import tokensbrandedAST from './tokens/branded/AST.svg'
+import tokensbrandedJAM from './tokens/branded/JAM.svg'
+import tokensbrandedMET from './tokens/branded/MET.svg'
+import tokensbrandedAPX from './tokens/branded/APX.svg'
+import tokensbrandedZEN from './tokens/branded/ZEN.svg'
+import tokensbrandedCULT from './tokens/branded/CULT.svg'
+import tokensbrandedCEL from './tokens/branded/CEL.svg'
+import tokensbrandedSAVG from './tokens/branded/SAVG.svg'
+import tokensbrandedSCP from './tokens/branded/SCP.svg'
+import tokensbrandedVELA from './tokens/branded/VELA.svg'
+import tokensbrandedWHITE from './tokens/branded/WHITE.svg'
+import tokensbrandedXELS from './tokens/branded/XELS.svg'
+import tokensbrandedLCC from './tokens/branded/LCC.svg'
+import tokensbrandedCORE from './tokens/branded/CORE.svg'
+import tokensbrandedSRCX from './tokens/branded/SRCX.svg'
+import tokensbrandedKDA from './tokens/branded/KDA.svg'
+import tokensbrandedGRV from './tokens/branded/GRV.svg'
+import tokensbrandedFIRO from './tokens/branded/FIRO.svg'
+import tokensbrandedTRADE from './tokens/branded/TRADE.svg'
+import tokensbrandedBLT from './tokens/branded/BLT.svg'
+import tokensbrandedGSE from './tokens/branded/GSE.svg'
+import tokensbrandedNALS from './tokens/branded/NALS.svg'
+import tokensbrandedEURS from './tokens/branded/EURS.svg'
+import tokensbrandedRDT from './tokens/branded/RDT.svg'
+import tokensbrandedREP from './tokens/branded/REP.svg'
+import tokensbrandedBEPRO from './tokens/branded/BEPRO.svg'
+import tokensbrandedMCHC from './tokens/branded/MCHC.svg'
+import tokensbrandedBAD from './tokens/branded/BAD.svg'
+import tokensbrandedMSOL from './tokens/branded/MSOL.svg'
+import tokensbrandedRAKE from './tokens/branded/RAKE.svg'
+import tokensbrandedSUKU from './tokens/branded/SUKU.svg'
+import tokensbrandedMASK from './tokens/branded/MASK.svg'
+import tokensbrandedGHO from './tokens/branded/GHO.svg'
+import tokensbrandedSWETH from './tokens/branded/SWETH.svg'
+import tokensbrandedWOW from './tokens/branded/WOW.svg'
+import tokensbrandedAUCTION from './tokens/branded/AUCTION.svg'
+import tokensbrandedPHB from './tokens/branded/PHB.svg'
+import tokensbrandedGHX from './tokens/branded/GHX.svg'
+import tokensbrandedJMPT from './tokens/branded/JMPT.svg'
+import tokensbrandedCROWN from './tokens/branded/CROWN.svg'
+import tokensbrandedFLUX from './tokens/branded/FLUX.svg'
+import tokensbrandedGOVI from './tokens/branded/GOVI.svg'
+import tokensbrandedLYM from './tokens/branded/LYM.svg'
+import tokensbrandedEQX from './tokens/branded/EQX.svg'
+import tokensbrandedGHST from './tokens/branded/GHST.svg'
+import tokensbrandedTETU from './tokens/branded/TETU.svg'
+import tokensbrandedDONUT from './tokens/branded/DONUT.svg'
+import tokensbrandedMAHA from './tokens/branded/MAHA.svg'
+import tokensbrandedSUSD from './tokens/branded/SUSD.svg'
+import tokensbrandedPER from './tokens/branded/PER.svg'
+import tokensbrandedKRL from './tokens/branded/KRL.svg'
+import tokensbrandedKROM from './tokens/branded/KROM.svg'
+import tokensbrandedCHAT from './tokens/branded/CHAT.svg'
+import tokensbrandedPURSE from './tokens/branded/PURSE.svg'
+import tokensbrandedSTEEM from './tokens/branded/STEEM.svg'
+import tokensbrandedBLID from './tokens/branded/BLID.svg'
+import tokensbrandedRPG from './tokens/branded/RPG.svg'
+import tokensbrandedREUNI from './tokens/branded/REUNI.svg'
+import tokensbrandedBTS from './tokens/branded/BTS.svg'
+import tokensbrandedPIP from './tokens/branded/PIP.svg'
+import tokensbrandedARI10 from './tokens/branded/ARI10.svg'
+import tokensbrandedOBOT from './tokens/branded/OBOT.svg'
+import tokensbrandedXAUT from './tokens/branded/XAUT.svg'
+import tokensbrandedREF from './tokens/branded/REF.svg'
+import tokensbrandedISK from './tokens/branded/ISK.svg'
+import tokensbrandedNUM from './tokens/branded/NUM.svg'
+import tokensbrandedEGC from './tokens/branded/EGC.svg'
+import tokensbrandedRAIL from './tokens/branded/RAIL.svg'
+import tokensbrandedREQ from './tokens/branded/REQ.svg'
+import tokensbrandedSEND from './tokens/branded/SEND.svg'
+import tokensbrandedHUNT from './tokens/branded/HUNT.svg'
+import tokensbrandedTENET from './tokens/branded/TENET.svg'
+import tokensbrandedPERP from './tokens/branded/PERP.svg'
+import tokensbrandedLPNT from './tokens/branded/LPNT.svg'
+import tokensbrandedDSETH from './tokens/branded/DSETH.svg'
+import tokensbrandedMOONED from './tokens/branded/MOONED.svg'
+import tokensbrandedRMRK from './tokens/branded/RMRK.svg'
+import tokensbrandedXCAD from './tokens/branded/XCAD.svg'
+import tokensbrandedLINA from './tokens/branded/LINA.svg'
+import tokensbrandedEJS from './tokens/branded/EJS.svg'
+import tokensbrandedK21 from './tokens/branded/K21.svg'
+import tokensbrandedFLOW from './tokens/branded/FLOW.svg'
+import tokensbrandedSTSTARS from './tokens/branded/STSTARS.svg'
+import tokensbrandedGUSD from './tokens/branded/GUSD.svg'
+import tokensbrandedBOBA from './tokens/branded/BOBA.svg'
+import tokensbrandedZIL from './tokens/branded/ZIL.svg'
+import tokensbrandedAQUA from './tokens/branded/AQUA.svg'
+import tokensbrandedALLIN from './tokens/branded/ALLIN.svg'
+import tokensbrandedSAN from './tokens/branded/SAN.svg'
+import tokensbrandedXRD from './tokens/branded/XRD.svg'
+import tokensbrandedCHEEMS from './tokens/branded/CHEEMS.svg'
+import tokensbrandedJONES from './tokens/branded/JONES.svg'
+import tokensbrandedDCK from './tokens/branded/DCK.svg'
+import tokensbrandedNFTBS from './tokens/branded/NFTBS.svg'
+import tokensbrandedHOPR from './tokens/branded/HOPR.svg'
+import tokensbrandedCPOOL from './tokens/branded/CPOOL.svg'
+import tokensbrandedAFC from './tokens/branded/AFC.svg'
+import tokensbrandedPASG from './tokens/branded/PASG.svg'
+import tokensbrandedPART from './tokens/branded/PART.svg'
+import tokensbrandedBCMC from './tokens/branded/BCMC.svg'
+import tokensbrandedAI from './tokens/branded/AI.svg'
+import tokensbrandedXEM from './tokens/branded/XEM.svg'
+import tokensbrandedSTX from './tokens/branded/STX.svg'
+import tokensbrandedQNT from './tokens/branded/QNT.svg'
+import tokensbrandedHBB from './tokens/branded/HBB.svg'
+import tokensbrandedMARS4 from './tokens/branded/MARS4.svg'
+import tokensbrandedSTARS from './tokens/branded/STARS.svg'
+import tokensbrandedOCEAN from './tokens/branded/OCEAN.svg'
+import tokensbrandedCREAM from './tokens/branded/CREAM.svg'
+import tokensbrandedCPH from './tokens/branded/CPH.svg'
+import tokensbrandedTAMA from './tokens/branded/TAMA.svg'
+import tokensbrandedADX from './tokens/branded/ADX.svg'
+import tokensbrandedSAND from './tokens/branded/SAND.svg'
+import tokensbrandedMUTE from './tokens/branded/MUTE.svg'
+import tokensbrandedC3 from './tokens/branded/C3.svg'
+import tokensbrandedTIG from './tokens/branded/TIG.svg'
+import tokensbrandedCKB from './tokens/branded/CKB.svg'
+import tokensbrandedDRGN from './tokens/branded/DRGN.svg'
+import tokensbrandedTKX from './tokens/branded/TKX.svg'
+import tokensbrandedDMD from './tokens/branded/DMD.svg'
+import tokensbrandedCREO from './tokens/branded/CREO.svg'
+import tokensbrandedIPAD from './tokens/branded/IPAD.svg'
+import tokensbrandedTHT from './tokens/branded/THT.svg'
+import tokensbrandedTKO from './tokens/branded/TKO.svg'
+import tokensbrandedVOICE from './tokens/branded/VOICE.svg'
+import tokensbrandedSMI from './tokens/branded/SMI.svg'
+import tokensbrandedSCB from './tokens/branded/SCB.svg'
+import tokensbrandedKALM from './tokens/branded/KALM.svg'
+import tokensbrandedBOTTO from './tokens/branded/BOTTO.svg'
+import tokensbrandedMIR from './tokens/branded/MIR.svg'
+import tokensbrandedALPACA from './tokens/branded/ALPACA.svg'
+import tokensbrandedAPEFI from './tokens/branded/APEFI.svg'
+import tokensbrandedNEWO from './tokens/branded/NEWO.svg'
+import tokensbrandedNETT from './tokens/branded/NETT.svg'
+import tokensbrandedIONX from './tokens/branded/IONX.svg'
+import tokensbrandedHIPP from './tokens/branded/HIPP.svg'
+import tokensbrandedMDAO from './tokens/branded/MDAO.svg'
+import tokensbrandedROKO from './tokens/branded/ROKO.svg'
+import tokensbrandedWACME from './tokens/branded/WACME.svg'
+import tokensbrandedSLIM from './tokens/branded/SLIM.svg'
+import tokensbrandedPERC from './tokens/branded/PERC.svg'
+import tokensbrandedEGG from './tokens/branded/EGG.svg'
+import tokensbrandedKIT from './tokens/branded/KIT.svg'
+import tokensbrandedEFC from './tokens/branded/EFC.svg'
+import tokensbrandedSAFEMARS from './tokens/branded/SAFEMARS.svg'
+import tokensbrandedGAMI from './tokens/branded/GAMI.svg'
+import tokensbrandedKICK from './tokens/branded/KICK.svg'
+import tokensbrandedCMDX from './tokens/branded/CMDX.svg'
+import tokensbrandedMEDIA from './tokens/branded/MEDIA.svg'
+import tokensbrandedSQUIDGROW from './tokens/branded/SQUIDGROW.svg'
+import tokensbrandedLTO from './tokens/branded/LTO.svg'
+import tokensbrandedTOPIA from './tokens/branded/TOPIA.svg'
+import tokensbrandedBROCK from './tokens/branded/BROCK.svg'
+import tokensbrandedLTX from './tokens/branded/LTX.svg'
+import tokensbrandedWAN from './tokens/branded/WAN.svg'
+import tokensbrandedSURE from './tokens/branded/SURE.svg'
+import tokensbrandedMETAV from './tokens/branded/METAV.svg'
+import tokensbrandedNMX from './tokens/branded/NMX.svg'
+import tokensbrandedGEL from './tokens/branded/GEL.svg'
+import tokensbrandedLIZA from './tokens/branded/LIZA.svg'
+import tokensbrandedWBT from './tokens/branded/WBT.svg'
+import tokensbrandedAERO from './tokens/branded/AERO.svg'
+import tokensbrandedIDIA from './tokens/branded/IDIA.svg'
+import tokensbrandedAGEUR from './tokens/branded/AGEUR.svg'
+import tokensbrandedLYRA from './tokens/branded/LYRA.svg'
+import tokensbrandedTITAN from './tokens/branded/TITAN.svg'
+import tokensbrandedPIB from './tokens/branded/PIB.svg'
+import tokensbrandedBTA from './tokens/branded/BTA.svg'
+import tokensbrandedNCR from './tokens/branded/NCR.svg'
+import tokensbrandedBCH from './tokens/branded/BCH.svg'
+import tokensbrandedALCX from './tokens/branded/ALCX.svg'
+import tokensbrandedRET from './tokens/branded/RET.svg'
+import tokensbrandedUSTC from './tokens/branded/USTC.svg'
+import tokensbrandedRFOX from './tokens/branded/RFOX.svg'
+import tokensbrandedEUSD from './tokens/branded/EUSD.svg'
+import tokensbrandedBLP from './tokens/branded/BLP.svg'
+import tokensbrandedPSL from './tokens/branded/PSL.svg'
+import tokensbrandedCOPI from './tokens/branded/COPI.svg'
+import tokensbrandedLBT from './tokens/branded/LBT.svg'
+import tokensbrandedBNX from './tokens/branded/BNX.svg'
+import tokensbrandedBIGSB from './tokens/branded/BIGSB.svg'
+import tokensbrandedXY from './tokens/branded/XY.svg'
+import tokensbrandedCHO from './tokens/branded/CHO.svg'
+import tokensbrandedTKN from './tokens/branded/TKN.svg'
+import tokensbrandedLQDR from './tokens/branded/LQDR.svg'
+import tokensbrandedBOOT from './tokens/branded/BOOT.svg'
+import tokensbrandedVR from './tokens/branded/VR.svg'
+import tokensbrandedNEXA from './tokens/branded/NEXA.svg'
+import tokensbrandedPROPC from './tokens/branded/PROPC.svg'
+import tokensbrandedMDT from './tokens/branded/MDT.svg'
+import tokensbrandedARC from './tokens/branded/ARC.svg'
+import tokensbrandedDREP from './tokens/branded/DREP.svg'
+import tokensbrandedSTORJ from './tokens/branded/STORJ.svg'
+import tokensbrandedVGX from './tokens/branded/VGX.svg'
+import tokensbrandedGEOD from './tokens/branded/GEOD.svg'
+import tokensbrandedSUN from './tokens/branded/SUN.svg'
+import tokensbrandedOP from './tokens/branded/OP.svg'
+import tokensbrandedCRV from './tokens/branded/CRV.svg'
+import tokensbrandedNEBO from './tokens/branded/NEBO.svg'
+import tokensbrandedVIS from './tokens/branded/VIS.svg'
+import tokensbrandedPENDLE from './tokens/branded/PENDLE.svg'
+import tokensbrandedSOON from './tokens/branded/SOON.svg'
+import tokensbrandedMX from './tokens/branded/MX.svg'
+import tokensbrandedDUA from './tokens/branded/DUA.svg'
+import tokensbrandedHAI from './tokens/branded/HAI.svg'
+import tokensbrandedVINU from './tokens/branded/VINU.svg'
+import tokensbrandedPORK from './tokens/branded/PORK.svg'
+import tokensbrandedO3 from './tokens/branded/O3.svg'
+import tokensbrandedAKT from './tokens/branded/AKT.svg'
+import tokensbrandedDEFIT from './tokens/branded/DEFIT.svg'
+import tokensbrandedMM from './tokens/branded/MM.svg'
+import tokensbrandedT from './tokens/branded/T.svg'
+import tokensbrandedIRON from './tokens/branded/IRON.svg'
+import tokensbrandedGAMEFI from './tokens/branded/GAMEFI.svg'
+import tokensbrandedIGNIS from './tokens/branded/IGNIS.svg'
+import tokensbrandedVEE from './tokens/branded/VEE.svg'
+import tokensbrandedMPS from './tokens/branded/MPS.svg'
+import tokensbrandedVEUR from './tokens/branded/VEUR.svg'
+import tokensbrandedGSWAP from './tokens/branded/GSWAP.svg'
+import tokensbrandedCHZ from './tokens/branded/CHZ.svg'
+import tokensbrandedDLC from './tokens/branded/DLC.svg'
+import tokensbrandedAZIT from './tokens/branded/AZIT.svg'
+import tokensbrandedMEED from './tokens/branded/MEED.svg'
+import tokensbrandedRGEN from './tokens/branded/RGEN.svg'
+import tokensbrandedARV from './tokens/branded/ARV.svg'
+import tokensbrandedDAD from './tokens/branded/DAD.svg'
+import tokensbrandedXRT from './tokens/branded/XRT.svg'
+import tokensbrandedORN from './tokens/branded/ORN.svg'
+import tokensbrandedXSP from './tokens/branded/XSP.svg'
+import tokensbrandedSAI from './tokens/branded/SAI.svg'
+import tokensbrandedREV3L from './tokens/branded/REV3L.svg'
+import tokensbrandedRIDE from './tokens/branded/RIDE.svg'
+import tokensbrandedOPIUM from './tokens/branded/OPIUM.svg'
+import tokensbrandedGRG from './tokens/branded/GRG.svg'
+import tokensbrandedLCR from './tokens/branded/LCR.svg'
+import tokensbrandedNXM from './tokens/branded/NXM.svg'
+import tokensbrandedUOS from './tokens/branded/UOS.svg'
+import tokensbrandedCDAI from './tokens/branded/CDAI.svg'
+import tokensbrandedGALEON from './tokens/branded/GALEON.svg'
+import tokensbrandedBANANA from './tokens/branded/BANANA.svg'
+import tokensbrandedREV from './tokens/branded/REV.svg'
+import tokensbrandedSOURCE from './tokens/branded/SOURCE.svg'
+import tokensbrandedUBT from './tokens/branded/UBT.svg'
+import tokensbrandedBTC from './tokens/branded/BTC.svg'
+import tokensbrandedNBT from './tokens/branded/NBT.svg'
+import tokensbrandedLITH from './tokens/branded/LITH.svg'
+import tokensbrandedBWO from './tokens/branded/BWO.svg'
+import tokensbrandedUWU from './tokens/branded/UWU.svg'
+import tokensbrandedEMAID from './tokens/branded/EMAID.svg'
+import tokensbrandedUCJL from './tokens/branded/UCJL.svg'
+import tokensbrandedHERA from './tokens/branded/HERA.svg'
+import tokensbrandedHIFI from './tokens/branded/HIFI.svg'
+import tokensbrandedECOIN from './tokens/branded/ECOIN.svg'
+import tokensbrandedNOS from './tokens/branded/NOS.svg'
+import tokensbrandedSNFT from './tokens/branded/SNFT.svg'
+import tokensbrandedWAM from './tokens/branded/WAM.svg'
+import tokensbrandedGGP from './tokens/branded/GGP.svg'
+import tokensbrandedMTRG from './tokens/branded/MTRG.svg'
+import tokensbrandedGFT from './tokens/branded/GFT.svg'
+import tokensbrandedGGG from './tokens/branded/GGG.svg'
+import tokensbrandedIDEA from './tokens/branded/IDEA.svg'
+import tokensbrandedZPAY from './tokens/branded/ZPAY.svg'
+import tokensbrandedWNT from './tokens/branded/WNT.svg'
+import tokensbrandedBTU from './tokens/branded/BTU.svg'
+import tokensbrandedBSCPAD from './tokens/branded/BSCPAD.svg'
+import tokensbrandedGUILD from './tokens/branded/GUILD.svg'
+import tokensbrandedNWC from './tokens/branded/NWC.svg'
+import tokensbrandedNTX from './tokens/branded/NTX.svg'
+import tokensbrandedBAT from './tokens/branded/BAT.svg'
+import tokensbrandedLOOKS from './tokens/branded/LOOKS.svg'
+import tokensbrandedBETA from './tokens/branded/BETA.svg'
+import tokensbrandedBORING from './tokens/branded/BORING.svg'
+import tokensbrandedEVMOS from './tokens/branded/EVMOS.svg'
+import tokensbrandedPINKSALE from './tokens/branded/PINKSALE.svg'
+import tokensbrandedRDD from './tokens/branded/RDD.svg'
+import tokensbrandedXAUR from './tokens/branded/XAUR.svg'
+import tokensbrandedPROTEO from './tokens/branded/PROTEO.svg'
+import tokensbrandedTABOO from './tokens/branded/TABOO.svg'
+import tokensbrandedLCD from './tokens/branded/LCD.svg'
+import tokensbrandedPPT from './tokens/branded/PPT.svg'
+import tokensbrandedSUSHI from './tokens/branded/SUSHI.svg'
+import tokensbrandedLING from './tokens/branded/LING.svg'
+import tokensbrandedORDI from './tokens/branded/ORDI.svg'
+import tokensbrandedLCS from './tokens/branded/LCS.svg'
+import tokensbrandedPPC from './tokens/branded/PPC.svg'
+import tokensbrandedASTRADAO from './tokens/branded/ASTRADAO.svg'
+import tokensbrandedHERMES from './tokens/branded/HERMES.svg'
+import tokensbrandedBLD from './tokens/branded/BLD.svg'
+import tokensbrandedZKB from './tokens/branded/ZKB.svg'
+import tokensbrandedDBI from './tokens/branded/DBI.svg'
+import tokensbrandedCGPT from './tokens/branded/CGPT.svg'
+import tokensbrandedFARA from './tokens/branded/FARA.svg'
+import tokensbrandedCGT from './tokens/branded/CGT.svg'
+import tokensbrandedHARD from './tokens/branded/HARD.svg'
+import tokensbrandedCFG from './tokens/branded/CFG.svg'
+import tokensbrandedIETH from './tokens/branded/IETH.svg'
+import tokensbrandedSBD from './tokens/branded/SBD.svg'
+import tokensbrandedLAMB from './tokens/branded/LAMB.svg'
+import tokensbrandedUNCX from './tokens/branded/UNCX.svg'
+import tokensbrandedMED from './tokens/branded/MED.svg'
+import tokensbrandedADOGE from './tokens/branded/ADOGE.svg'
+import tokensbrandedBOND from './tokens/branded/BOND.svg'
+import tokensbrandedASD from './tokens/branded/ASD.svg'
+import tokensbrandedRBLS from './tokens/branded/RBLS.svg'
+import tokensbrandedDXP from './tokens/branded/DXP.svg'
+import tokensbrandedKAVA from './tokens/branded/KAVA.svg'
+import tokensbrandedTXAU from './tokens/branded/TXAU.svg'
+import tokensbrandedU from './tokens/branded/U.svg'
+import tokensbrandedSQUAD from './tokens/branded/SQUAD.svg'
+import tokensbrandedHOT from './tokens/branded/HOT.svg'
+import tokensbrandedSHIK from './tokens/branded/SHIK.svg'
+import tokensbrandedCRU from './tokens/branded/CRU.svg'
+import tokensbrandedDIKO from './tokens/branded/DIKO.svg'
+import tokensbrandedML from './tokens/branded/ML.svg'
+import tokensbrandedVEXT from './tokens/branded/VEXT.svg'
+import tokensbrandedOS from './tokens/branded/OS.svg'
+import tokensbrandedTREEB from './tokens/branded/TREEB.svg'
+import tokensbrandedKMON from './tokens/branded/KMON.svg'
+import tokensbrandedGRAV from './tokens/branded/GRAV.svg'
+import tokensbrandedCLORE from './tokens/branded/CLORE.svg'
+import tokensbrandedRISITA from './tokens/branded/RISITA.svg'
+import tokensbrandedTRX from './tokens/branded/TRX.svg'
+import tokensbrandedOGN from './tokens/branded/OGN.svg'
+import tokensbrandedCTR from './tokens/branded/CTR.svg'
+import tokensbrandedPDEX from './tokens/branded/PDEX.svg'
+import tokensbrandedTHOR from './tokens/branded/THOR.svg'
+import tokensbrandedHID from './tokens/branded/HID.svg'
+import tokensbrandedMUSD from './tokens/branded/MUSD.svg'
+import tokensbrandedBRISE from './tokens/branded/BRISE.svg'
+import tokensbrandedSOPH from './tokens/branded/SOPH.svg'
+import tokensbrandedSWASH from './tokens/branded/SWASH.svg'
+import tokensbrandedSIS from './tokens/branded/SIS.svg'
+import tokensbrandedOMNI from './tokens/branded/OMNI.svg'
+import tokensbrandedQRL from './tokens/branded/QRL.svg'
+import tokensbrandedDKA from './tokens/branded/DKA.svg'
+import tokensbrandedAUDIO from './tokens/branded/AUDIO.svg'
+import tokensbrandedPOLK from './tokens/branded/POLK.svg'
+import tokensbrandedFRA from './tokens/branded/FRA.svg'
+import tokensbrandedSDT from './tokens/branded/SDT.svg'
+import tokensbrandedCAS from './tokens/branded/CAS.svg'
+import tokensbrandedAXS from './tokens/branded/AXS.svg'
+import tokensbrandedLODE from './tokens/branded/LODE.svg'
+import tokensbrandedMND from './tokens/branded/MND.svg'
+import tokensbrandedYOSHI from './tokens/branded/YOSHI.svg'
+import tokensbrandedDGB from './tokens/branded/DGB.svg'
+import tokensbrandedCRWNY from './tokens/branded/CRWNY.svg'
+import tokensbrandedLAKE from './tokens/branded/LAKE.svg'
+import tokensbrandedFCON from './tokens/branded/FCON.svg'
+import tokensbrandedRNDR from './tokens/branded/RNDR.svg'
+import tokensbrandedPLANETS from './tokens/branded/PLANETS.svg'
+import tokensbrandedPOPCAT from './tokens/branded/POPCAT.svg'
+import tokensbrandedLET from './tokens/branded/LET.svg'
+import tokensbrandedFLOOR from './tokens/branded/FLOOR.svg'
+import tokensbrandedPSTAKE from './tokens/branded/PSTAKE.svg'
+import tokensbrandedBEL from './tokens/branded/BEL.svg'
+import tokensbrandedPZP from './tokens/branded/PZP.svg'
+import tokensbrandedNVIR from './tokens/branded/NVIR.svg'
+import tokensbrandedNFTART from './tokens/branded/NFTART.svg'
+import tokensbrandedSOULS from './tokens/branded/SOULS.svg'
+import tokensbrandedGNO from './tokens/branded/GNO.svg'
+import tokensbrandedBSV from './tokens/branded/BSV.svg'
+import tokensbrandedGORA from './tokens/branded/GORA.svg'
+import tokensbrandedCOMP from './tokens/branded/COMP.svg'
+import tokensbrandedLUCA from './tokens/branded/LUCA.svg'
+import tokensbrandedGDCC from './tokens/branded/GDCC.svg'
+import tokensbrandedETC from './tokens/branded/ETC.svg'
+import tokensbrandedICP from './tokens/branded/ICP.svg'
+import tokensbrandedPNB from './tokens/branded/PNB.svg'
+import tokensbrandedSYNC from './tokens/branded/SYNC.svg'
+import tokensbrandedRVF from './tokens/branded/RVF.svg'
+import tokensbrandedMANA from './tokens/branded/MANA.svg'
+import tokensbrandedEMAGIC from './tokens/branded/EMAGIC.svg'
+import tokensbrandedWRLD from './tokens/branded/WRLD.svg'
+import tokensbrandedWAVES from './tokens/branded/WAVES.svg'
+import tokensbrandedGYMNET from './tokens/branded/GYMNET.svg'
+import tokensbrandedAURA from './tokens/branded/AURA.svg'
+import tokensbrandedMOBILE from './tokens/branded/MOBILE.svg'
+import tokensbrandedLPT from './tokens/branded/LPT.svg'
+import tokensbrandedINV from './tokens/branded/INV.svg'
+import tokensbrandedPAL from './tokens/branded/PAL.svg'
+import tokensbrandedPIZA from './tokens/branded/PIZA.svg'
+import tokensbrandedMCONTENT from './tokens/branded/MCONTENT.svg'
+import tokensbrandedTRAVA from './tokens/branded/TRAVA.svg'
+import tokensbrandedGNY from './tokens/branded/GNY.svg'
+import tokensbrandedKYVE from './tokens/branded/KYVE.svg'
+import tokensbrandedPNT from './tokens/branded/PNT.svg'
+import tokensbrandedBSW from './tokens/branded/BSW.svg'
+import tokensbrandedPOP from './tokens/branded/POP.svg'
+import tokensbrandedGHUB from './tokens/branded/GHUB.svg'
+import tokensbrandedGLQ from './tokens/branded/GLQ.svg'
+import tokensbrandedNXRA from './tokens/branded/NXRA.svg'
+import tokensbrandedRAY from './tokens/branded/RAY.svg'
+import tokensbrandedGXC from './tokens/branded/GXC.svg'
+import tokensbrandedNAKA from './tokens/branded/NAKA.svg'
+import tokensbrandedEPIK from './tokens/branded/EPIK.svg'
+import tokensbrandedALGB from './tokens/branded/ALGB.svg'
+import tokensbrandedKNC from './tokens/branded/KNC.svg'
+import tokensbrandedPUSH from './tokens/branded/PUSH.svg'
+import tokensbrandedBLXM from './tokens/branded/BLXM.svg'
+import tokensbrandedKCS from './tokens/branded/KCS.svg'
+import tokensbrandedSTATOM from './tokens/branded/STATOM.svg'
+import tokensbrandedAXE from './tokens/branded/AXE.svg'
+import tokensbrandedMNR from './tokens/branded/MNR.svg'
+import tokensbrandedAITECH from './tokens/branded/AITECH.svg'
+import tokensbrandedNEURONI from './tokens/branded/NEURONI.svg'
+import tokensbrandedZAP from './tokens/branded/ZAP.svg'
+import tokensbrandedCATHEON from './tokens/branded/CATHEON.svg'
+import tokensbrandedBREED from './tokens/branded/BREED.svg'
+import tokensbrandedSHA from './tokens/branded/SHA.svg'
+import tokensbrandedQRDO from './tokens/branded/QRDO.svg'
+import tokensbrandedKLIMA from './tokens/branded/KLIMA.svg'
+import tokensbrandedWBETH from './tokens/branded/WBETH.svg'
+import tokensbrandedZCX from './tokens/branded/ZCX.svg'
+import tokensbrandedMCB from './tokens/branded/MCB.svg'
+import tokensbrandedFLUID from './tokens/branded/FLUID.svg'
+import tokensbrandedGULF from './tokens/branded/GULF.svg'
+import tokensbrandedACX from './tokens/branded/ACX.svg'
+import tokensbrandedFCTR from './tokens/branded/FCTR.svg'
+import tokensbrandedFEI from './tokens/branded/FEI.svg'
+import tokensbrandedONG from './tokens/branded/ONG.svg'
+import tokensbrandedMUSE from './tokens/branded/MUSE.svg'
+import tokensbrandedGRAIN from './tokens/branded/GRAIN.svg'
+import tokensbrandedATLAS from './tokens/branded/ATLAS.svg'
+import tokensbrandedSRX from './tokens/branded/SRX.svg'
+import tokensbrandedTULIP from './tokens/branded/TULIP.svg'
+import tokensbrandedXCM from './tokens/branded/XCM.svg'
+import tokensbrandedINTR from './tokens/branded/INTR.svg'
+import tokensbrandedALU from './tokens/branded/ALU.svg'
+import tokensbrandedTTK from './tokens/branded/TTK.svg'
+import tokensbrandedSRM from './tokens/branded/SRM.svg'
+import tokensbrandedVLX from './tokens/branded/VLX.svg'
+import tokensbrandedSPE from './tokens/branded/SPE.svg'
+import tokensbrandedONE from './tokens/branded/ONE.svg'
+import tokensbrandedGRIN from './tokens/branded/GRIN.svg'
+import tokensbrandedGRAIL from './tokens/branded/GRAIL.svg'
+import tokensbrandedOMI from './tokens/branded/OMI.svg'
+import tokensbrandedASSA from './tokens/branded/ASSA.svg'
+import tokensbrandedDYDX from './tokens/branded/DYDX.svg'
+import tokensbrandedSRLTY from './tokens/branded/SRLTY.svg'
+import tokensbrandedDUSK from './tokens/branded/DUSK.svg'
+import tokensbrandedFX from './tokens/branded/FX.svg'
+import tokensbrandedPSWAP from './tokens/branded/PSWAP.svg'
+import tokensbrandedTLM from './tokens/branded/TLM.svg'
+import tokensbrandedMBD from './tokens/branded/MBD.svg'
+import tokensbrandedSN from './tokens/branded/SN.svg'
+import tokensbrandedCOL from './tokens/branded/COL.svg'
+import tokensbrandedAVL from './tokens/branded/AVL.svg'
+import tokensbrandedOMNOM from './tokens/branded/OMNOM.svg'
+import tokensbrandedATD from './tokens/branded/ATD.svg'
+import tokensbrandedMOC from './tokens/branded/MOC.svg'
+import tokensbrandedCAP from './tokens/branded/CAP.svg'
+import tokensbrandedAERGO from './tokens/branded/AERGO.svg'
+import tokensbrandedOTK from './tokens/branded/OTK.svg'
+import tokensbrandedLEASH from './tokens/branded/LEASH.svg'
+import tokensbrandedTFUEL from './tokens/branded/TFUEL.svg'
+import tokensbrandedTREE from './tokens/branded/TREE.svg'
+import tokensbrandedTIPS from './tokens/branded/TIPS.svg'
+import tokensbrandedKAN from './tokens/branded/KAN.svg'
+import tokensbrandedELF from './tokens/branded/ELF.svg'
+import tokensbrandedRBW from './tokens/branded/RBW.svg'
+import tokensbrandedBFT from './tokens/branded/BFT.svg'
+import tokensbrandedNPC from './tokens/branded/NPC.svg'
+import tokensbrandedGSTS from './tokens/branded/GSTS.svg'
+import tokensbrandedPICA from './tokens/branded/PICA.svg'
+import tokensbrandedLIT from './tokens/branded/LIT.svg'
+import tokensbrandedSKEY from './tokens/branded/SKEY.svg'
+import tokensbrandedGXA from './tokens/branded/GXA.svg'
+import tokensbrandedINSUR from './tokens/branded/INSUR.svg'
+import tokensbrandedPLI from './tokens/branded/PLI.svg'
+import tokensbrandedRTM from './tokens/branded/RTM.svg'
+import tokensbrandedYGG from './tokens/branded/YGG.svg'
+import tokensbrandedTONIC from './tokens/branded/TONIC.svg'
+import tokensbrandedHILO from './tokens/branded/HILO.svg'
+import tokensbrandedLUNR from './tokens/branded/LUNR.svg'
+import tokensbrandedLYXE from './tokens/branded/LYXE.svg'
+import tokensbrandedGAT from './tokens/branded/GAT.svg'
+import tokensbrandedMOBY from './tokens/branded/MOBY.svg'
+import tokensbrandedPAY from './tokens/branded/PAY.svg'
+import tokensbrandedPROB from './tokens/branded/PROB.svg'
+import tokensbrandedJASMY from './tokens/branded/JASMY.svg'
+import tokensbrandedTIFI from './tokens/branded/TIFI.svg'
+import tokensbrandedIMO from './tokens/branded/IMO.svg'
+import tokensbrandedINT from './tokens/branded/INT.svg'
+import tokensbrandedHIBS from './tokens/branded/HIBS.svg'
+import tokensbrandedXDATA from './tokens/branded/XDATA.svg'
+import tokensbrandedHELLO from './tokens/branded/HELLO.svg'
+import tokensbrandedMANC from './tokens/branded/MANC.svg'
+import tokensbrandedKUMA from './tokens/branded/KUMA.svg'
+import tokensbrandedELON from './tokens/branded/ELON.svg'
+import tokensbrandedMIMATIC from './tokens/branded/MIMATIC.svg'
+import tokensbrandedBRG from './tokens/branded/BRG.svg'
+import tokensbrandedALPH from './tokens/branded/ALPH.svg'
+import tokensbrandedROUTE from './tokens/branded/ROUTE.svg'
+import tokensbrandedBST from './tokens/branded/BST.svg'
+import tokensbrandedICE from './tokens/branded/ICE.svg'
+import tokensbrandedB2M from './tokens/branded/B2M.svg'
+import tokensbrandedBEN from './tokens/branded/BEN.svg'
+import tokensbrandedDATA from './tokens/branded/DATA.svg'
+import tokensbrandedRAMP from './tokens/branded/RAMP.svg'
+import tokensbrandedRAM from './tokens/branded/RAM.svg'
+import tokensbrandedGTC from './tokens/branded/GTC.svg'
+import tokensbrandedIXO from './tokens/branded/IXO.svg'
+import tokensbrandedGAFI from './tokens/branded/GAFI.svg'
+import tokensbrandedARBI from './tokens/branded/ARBI.svg'
+import tokensbrandedAPOLLO from './tokens/branded/APOLLO.svg'
+import tokensbrandedXTP from './tokens/branded/XTP.svg'
+import tokensbrandedMLN from './tokens/branded/MLN.svg'
+import tokensbrandedAAVE from './tokens/branded/AAVE.svg'
+import tokensbrandedOATH from './tokens/branded/OATH.svg'
+import tokensbrandedJKL from './tokens/branded/JKL.svg'
+import tokensbrandedSFI from './tokens/branded/SFI.svg'
+import tokensbrandedREALM from './tokens/branded/REALM.svg'
+import tokensbrandedKWENTA from './tokens/branded/KWENTA.svg'
+import tokensbrandedATR from './tokens/branded/ATR.svg'
+import tokensbrandedCLV from './tokens/branded/CLV.svg'
+import tokensbrandedFOREX from './tokens/branded/FOREX.svg'
+import tokensbrandedMTH from './tokens/branded/MTH.svg'
+import tokensbrandedXMR from './tokens/branded/XMR.svg'
+import tokensbrandedDF from './tokens/branded/DF.svg'
+import tokensbrandedKISHU from './tokens/branded/KISHU.svg'
+import tokensbrandedCOSMOSHUB from './tokens/branded/COSMOSHUB.svg'
+import tokensbrandedLQTY from './tokens/branded/LQTY.svg'
+import tokensbrandedVAI from './tokens/branded/VAI.svg'
+import tokensbrandedCTG from './tokens/branded/CTG.svg'
+import tokensbrandedBCUBE from './tokens/branded/BCUBE.svg'
+import tokensbrandedDPI from './tokens/branded/DPI.svg'
+import tokensbrandedAMP from './tokens/branded/AMP.svg'
+import tokensbrandedLOVELY from './tokens/branded/LOVELY.svg'
+import tokensbrandedPAXG from './tokens/branded/PAXG.svg'
+import tokensbrandedBSCS from './tokens/branded/BSCS.svg'
+import tokensbrandedOAX from './tokens/branded/OAX.svg'
+import tokensbrandedMTL from './tokens/branded/MTL.svg'
+import tokensbrandedACH from './tokens/branded/ACH.svg'
+import tokensbrandedMVD from './tokens/branded/MVD.svg'
+import tokensbrandedPYUSD from './tokens/branded/PYUSD.svg'
+import tokensbrandedATA from './tokens/branded/ATA.svg'
+import tokensbrandedC98 from './tokens/branded/C98.svg'
+import tokensbrandedPOLYPAD from './tokens/branded/POLYPAD.svg'
+import tokensbrandedAVI from './tokens/branded/AVI.svg'
+import tokensbrandedVVS from './tokens/branded/VVS.svg'
+import tokensbrandedUBSN from './tokens/branded/UBSN.svg'
+import tokensbrandedKLEVA from './tokens/branded/KLEVA.svg'
+import tokensbrandedCBY from './tokens/branded/CBY.svg'
+import tokensbrandedMMY from './tokens/branded/MMY.svg'
+import tokensbrandedMNB from './tokens/branded/MNB.svg'
+import tokensbrandedSFM from './tokens/branded/SFM.svg'
+import tokensbrandedDEL from './tokens/branded/DEL.svg'
+import tokensbrandedKITTY from './tokens/branded/KITTY.svg'
+import tokensbrandedTAO from './tokens/branded/TAO.svg'
+import tokensbrandedPPAY from './tokens/branded/PPAY.svg'
+import tokensbrandedRLY from './tokens/branded/RLY.svg'
+import tokensbrandedFEAR from './tokens/branded/FEAR.svg'
+import tokensbrandedSEED from './tokens/branded/SEED.svg'
+import tokensbrandedEMP from './tokens/branded/EMP.svg'
+import tokensbrandedDZOO from './tokens/branded/DZOO.svg'
+import tokensbrandedNOIA from './tokens/branded/NOIA.svg'
+import tokensbrandedAIMBOT from './tokens/branded/AIMBOT.svg'
+import tokensbrandedQASH from './tokens/branded/QASH.svg'
+import tokensbrandedBGB from './tokens/branded/BGB.svg'
+import tokensbrandedORARE from './tokens/branded/ORARE.svg'
+import tokensbrandedCSIX from './tokens/branded/CSIX.svg'
+import tokensbrandedRAI from './tokens/branded/RAI.svg'
+import tokensbrandedCRYSTAL from './tokens/branded/CRYSTAL.svg'
+import tokensbrandedGOZ from './tokens/branded/GOZ.svg'
+import tokensbrandedETE from './tokens/branded/ETE.svg'
+import tokensbrandedBPRO from './tokens/branded/BPRO.svg'
+import tokensbrandedNFTB from './tokens/branded/NFTB.svg'
+import tokensbrandedOETH from './tokens/branded/OETH.svg'
+import tokensbrandedXPNET from './tokens/branded/XPNET.svg'
+import tokensbrandedSTRAX from './tokens/branded/STRAX.svg'
+import tokensbrandedGARI from './tokens/branded/GARI.svg'
+import tokensbrandedBLUSD from './tokens/branded/BLUSD.svg'
+import tokensbrandedSIPHER from './tokens/branded/SIPHER.svg'
+import tokensbrandedLUNA from './tokens/branded/LUNA.svg'
+import tokensbrandedBULL from './tokens/branded/BULL.svg'
+import tokensbrandedTBTC from './tokens/branded/TBTC.svg'
+import tokensbrandedDOMI from './tokens/branded/DOMI.svg'
+import tokensbrandedUPP from './tokens/branded/UPP.svg'
+import tokensbrandedHUSKY from './tokens/branded/HUSKY.svg'
+import tokensbrandedTELOS from './tokens/branded/TELOS.svg'
+import tokensbrandedUQC from './tokens/branded/UQC.svg'
+import tokensbrandedSMARTCREDIT from './tokens/branded/SMARTCREDIT.svg'
+import tokensbrandedASTRAFER from './tokens/branded/ASTRAFER.svg'
+import tokensbrandedANKR from './tokens/branded/ANKR.svg'
+import tokensbrandedBIFI from './tokens/branded/BIFI.svg'
+import tokensbrandedQUICK from './tokens/branded/QUICK.svg'
+import tokensbrandedMATH from './tokens/branded/MATH.svg'
+import tokensbrandedBDX from './tokens/branded/BDX.svg'
+import tokensbrandedRBD from './tokens/branded/RBD.svg'
+import tokensbrandedELU from './tokens/branded/ELU.svg'
+import tokensbrandedHIVE from './tokens/branded/HIVE.svg'
+import tokensbrandedGHNY from './tokens/branded/GHNY.svg'
+import tokensbrandedARCH from './tokens/branded/ARCH.svg'
+import tokensbrandedWSI from './tokens/branded/WSI.svg'
+import tokensbrandedENJ from './tokens/branded/ENJ.svg'
+import tokensbrandedVOXEL from './tokens/branded/VOXEL.svg'
+import tokensbrandedPINU from './tokens/branded/PINU.svg'
+import tokensbrandedATOM from './tokens/branded/ATOM.svg'
+import tokensbrandedCAT from './tokens/branded/CAT.svg'
+import tokensbrandedMOG from './tokens/branded/MOG.svg'
+import tokensbrandedEQUAD from './tokens/branded/EQUAD.svg'
+import tokensbrandedCELO from './tokens/branded/CELO.svg'
+import tokensbrandedSTRONG from './tokens/branded/STRONG.svg'
+import tokensbrandedURUS from './tokens/branded/URUS.svg'
+import tokensbrandedCBX from './tokens/branded/CBX.svg'
+import tokensbrandedMLK from './tokens/branded/MLK.svg'
+import tokensbrandedTARA from './tokens/branded/TARA.svg'
+import tokensbrandedMMO from './tokens/branded/MMO.svg'
+import tokensbrandedMNT from './tokens/branded/MNT.svg'
+import tokensbrandedZNN from './tokens/branded/ZNN.svg'
+import tokensbrandedPOND from './tokens/branded/POND.svg'
+import tokensbrandedMNST from './tokens/branded/MNST.svg'
+import tokensbrandedRING from './tokens/branded/RING.svg'
+import tokensbrandedCLS from './tokens/branded/CLS.svg'
+import tokensbrandedTOR from './tokens/branded/TOR.svg'
+import tokensbrandedPORTAL from './tokens/branded/PORTAL.svg'
+import tokensbrandedVEGA from './tokens/branded/VEGA.svg'
+import tokensbrandedAZERO from './tokens/branded/AZERO.svg'
+import tokensbrandedTORN from './tokens/branded/TORN.svg'
+import tokensbrandedHYDRA from './tokens/branded/HYDRA.svg'
+import tokensbrandedOOE from './tokens/branded/OOE.svg'
+import tokensbrandedCRTS from './tokens/branded/CRTS.svg'
+import tokensbrandedETHM from './tokens/branded/ETHM.svg'
+import tokensbrandedGO from './tokens/branded/GO.svg'
+import tokensbrandedVALOR from './tokens/branded/VALOR.svg'
+import tokensbrandedSTRP from './tokens/branded/STRP.svg'
+import tokensbrandedSTELLA from './tokens/branded/STELLA.svg'
+import tokensbrandedRAVEN from './tokens/branded/RAVEN.svg'
+import tokensbrandedDC from './tokens/branded/DC.svg'
+import tokensbrandedDPAY from './tokens/branded/DPAY.svg'
+import tokensbrandedFIL from './tokens/branded/FIL.svg'
+import tokensbrandedTWT from './tokens/branded/TWT.svg'
+import tokensbrandedAMB from './tokens/branded/AMB.svg'
+import tokensbrandedID from './tokens/branded/ID.svg'
+import tokensbrandedSPA from './tokens/branded/SPA.svg'
+import tokensbrandedDEXT from './tokens/branded/DEXT.svg'
+import tokensbrandedSSX from './tokens/branded/SSX.svg'
+import tokensbrandedSIGNA from './tokens/branded/SIGNA.svg'
+import tokensbrandedIQ from './tokens/branded/IQ.svg'
+import tokensbrandedDWEB from './tokens/branded/DWEB.svg'
+import tokensbrandedGEEQ from './tokens/branded/GEEQ.svg'
+import tokensbrandedSRK from './tokens/branded/SRK.svg'
+import tokensbrandedCUSD from './tokens/branded/CUSD.svg'
+import tokensbrandedONT from './tokens/branded/ONT.svg'
+import tokensbrandedVCF from './tokens/branded/VCF.svg'
+import tokensbrandedBLOCK from './tokens/branded/BLOCK.svg'
+import tokensbrandedETHX from './tokens/branded/ETHX.svg'
+import tokensbrandedEARN from './tokens/branded/EARN.svg'
+import tokensbrandedMWC from './tokens/branded/MWC.svg'
+import tokensbrandedFOAM from './tokens/branded/FOAM.svg'
+import tokensbrandedLAYER from './tokens/branded/LAYER.svg'
+import tokensbrandedMAN from './tokens/branded/MAN.svg'
+import tokensbrandedSDAO from './tokens/branded/SDAO.svg'
+import tokensbrandedZAT from './tokens/branded/ZAT.svg'
+import tokensbrandedVTX from './tokens/branded/VTX.svg'
+import tokensbrandedOXY from './tokens/branded/OXY.svg'
+import tokensbrandedSPIRIT from './tokens/branded/SPIRIT.svg'
+import tokensbrandedTNT from './tokens/branded/TNT.svg'
+import tokensbrandedKOIN from './tokens/branded/KOIN.svg'
+import tokensbrandedTOP from './tokens/branded/TOP.svg'
+import tokensbrandedPOLY from './tokens/branded/POLY.svg'
+import tokensbrandedKOGE from './tokens/branded/KOGE.svg'
+import tokensbrandedOVR from './tokens/branded/OVR.svg'
+import tokensbrandedMOE from './tokens/branded/MOE.svg'
+import tokensbrandedDACXI from './tokens/branded/DACXI.svg'
+import tokensbrandedBAKE from './tokens/branded/BAKE.svg'
+import tokensbrandedWRX from './tokens/branded/WRX.svg'
+import tokensbrandedTLOS from './tokens/branded/TLOS.svg'
+import tokensbrandedCANTO from './tokens/branded/CANTO.svg'
+import tokensbrandedGZONE from './tokens/branded/GZONE.svg'
+import tokensbrandedPWR from './tokens/branded/PWR.svg'
+import tokensbrandedGFAL from './tokens/branded/GFAL.svg'
+import tokensbrandedDJED from './tokens/branded/DJED.svg'
+import tokensbrandedBFR from './tokens/branded/BFR.svg'
+import tokensbrandedNGL from './tokens/branded/NGL.svg'
+import tokensbrandedCTXC from './tokens/branded/CTXC.svg'
+import tokensbrandedPNG from './tokens/branded/PNG.svg'
+import tokensbrandedRVC from './tokens/branded/RVC.svg'
+import tokensbrandedNSBT from './tokens/branded/NSBT.svg'
+import tokensbrandedUSDX from './tokens/branded/USDX.svg'
+import tokensbrandedPNP from './tokens/branded/PNP.svg'
+import tokensbrandedLSK from './tokens/branded/LSK.svg'
+import tokensbrandedNHT from './tokens/branded/NHT.svg'
+import tokensbrandedWELL from './tokens/branded/WELL.svg'
+import tokensbrandedLUNC from './tokens/branded/LUNC.svg'
+import tokensbrandedEUNO from './tokens/branded/EUNO.svg'
+import tokensbrandedOUSD from './tokens/branded/OUSD.svg'
+import tokensbrandedPROS from './tokens/branded/PROS.svg'
+import tokensbrandedMOBI from './tokens/branded/MOBI.svg'
+import tokensbrandedCCV2 from './tokens/branded/CCV2.svg'
+import tokensbrandedPAI from './tokens/branded/PAI.svg'
+import tokensbrandedPBR from './tokens/branded/PBR.svg'
+import tokensbrandedGAS from './tokens/branded/GAS.svg'
+import tokensbrandedBEETS from './tokens/branded/BEETS.svg'
+import tokensbrandedPLEB from './tokens/branded/PLEB.svg'
+import tokensbrandedCUMINU from './tokens/branded/CUMINU.svg'
+import tokensbrandedINS from './tokens/branded/INS.svg'
+import tokensbrandedEXD from './tokens/branded/EXD.svg'
+import tokensbrandedNKN from './tokens/branded/NKN.svg'
+import tokensbrandedUSH from './tokens/branded/USH.svg'
+import tokensbrandedTRAXX from './tokens/branded/TRAXX.svg'
+import tokensbrandedTOWER from './tokens/branded/TOWER.svg'
+import tokensbrandedSYLO from './tokens/branded/SYLO.svg'
+import tokensbrandedY2K from './tokens/branded/Y2K.svg'
+import tokensbrandedPLN from './tokens/branded/PLN.svg'
+import tokensbrandedETP from './tokens/branded/ETP.svg'
+import tokensbrandedMOON from './tokens/branded/MOON.svg'
+import tokensbrandedGLC from './tokens/branded/GLC.svg'
+import tokensbrandedPLY from './tokens/branded/PLY.svg'
+import tokensbrandedSWAP from './tokens/branded/SWAP.svg'
+import tokensbrandedKEEP from './tokens/branded/KEEP.svg'
+import tokensbrandedSFUND from './tokens/branded/SFUND.svg'
+import tokensbrandedNGM from './tokens/branded/NGM.svg'
+import tokensbrandedSWISE from './tokens/branded/SWISE.svg'
+import tokensbrandedUFI from './tokens/branded/UFI.svg'
+import tokensbrandedALEX from './tokens/branded/ALEX.svg'
+import tokensbrandedRDPX from './tokens/branded/RDPX.svg'
+import tokensbrandedCBETH from './tokens/branded/CBETH.svg'
+import tokensbrandedCHRP from './tokens/branded/CHRP.svg'
+import tokensbrandedWOJAK from './tokens/branded/WOJAK.svg'
+import tokensbrandedKAI from './tokens/branded/KAI.svg'
+import tokensbrandedCELL from './tokens/branded/CELL.svg'
+import tokensbrandedHAWK from './tokens/branded/HAWK.svg'
+import tokensbrandedMOD from './tokens/branded/MOD.svg'
+import tokensbrandedCAW from './tokens/branded/CAW.svg'
+import tokensbrandedREVO from './tokens/branded/REVO.svg'
+import tokensbrandedTRIAS from './tokens/branded/TRIAS.svg'
+import tokensbrandedMNW from './tokens/branded/MNW.svg'
+import tokensbrandedMAX from './tokens/branded/MAX.svg'
+import tokensbrandedSI from './tokens/branded/SI.svg'
+import tokensbrandedPOLX from './tokens/branded/POLX.svg'
+import tokensbrandedHMND from './tokens/branded/HMND.svg'
+import tokensbrandedMEAN from './tokens/branded/MEAN.svg'
+import tokensbrandedUNIX from './tokens/branded/UNIX.svg'
+import tokensbrandedSTRD from './tokens/branded/STRD.svg'
+import tokensbrandedNBLU from './tokens/branded/NBLU.svg'
+import tokensbrandedDGNX from './tokens/branded/DGNX.svg'
+import tokensbrandedES from './tokens/branded/ES.svg'
+import tokensbrandedVIDT from './tokens/branded/VIDT.svg'
+import tokensbrandedXNO from './tokens/branded/XNO.svg'
+import tokensbrandedHT from './tokens/branded/HT.svg'
+import tokensbrandedFIO from './tokens/branded/FIO.svg'
+import tokensbrandedOCE from './tokens/branded/OCE.svg'
+import tokensbrandedMZR from './tokens/branded/MZR.svg'
+import tokensbrandedPOWR from './tokens/branded/POWR.svg'
+import tokensbrandedGLMR from './tokens/branded/GLMR.svg'
+import tokensbrandedDPX from './tokens/branded/DPX.svg'
+import tokensbrandedAQTIS from './tokens/branded/AQTIS.svg'
+import tokensbrandedXCH from './tokens/branded/XCH.svg'
+import tokensbrandedMXM from './tokens/branded/MXM.svg'
+import tokensmonoSOCKS from './tokens/mono/SOCKS.svg'
+import tokensmonoTHOL from './tokens/mono/THOL.svg'
+import tokensmonoGLINK from './tokens/mono/GLINK.svg'
+import tokensmonoSPX from './tokens/mono/SPX.svg'
+import tokensmonoMINA from './tokens/mono/MINA.svg'
+import tokensmonoCXO from './tokens/mono/CXO.svg'
+import tokensmonoABT from './tokens/mono/ABT.svg'
+import tokensmonoBMEX from './tokens/mono/BMEX.svg'
+import tokensmonoRBIF from './tokens/mono/RBIF.svg'
+import tokensmonoSAIL from './tokens/mono/SAIL.svg'
+import tokensmonoVAB from './tokens/mono/VAB.svg'
+import tokensmonoCNFI from './tokens/mono/CNFI.svg'
+import tokensmonoUW3S from './tokens/mono/UW3S.svg'
+import tokensmonoZBC from './tokens/mono/ZBC.svg'
+import tokensmonoOXB from './tokens/mono/OXB.svg'
+import tokensmonoSHI from './tokens/mono/SHI.svg'
+import tokensmonoVTC from './tokens/mono/VTC.svg'
+import tokensmonoSWFTC from './tokens/mono/SWFTC.svg'
+import tokensmono2DAI from './tokens/mono/2DAI.svg'
+import tokensmonoD3D from './tokens/mono/D3D.svg'
+import tokensmonoPALM from './tokens/mono/PALM.svg'
+import tokensmonoBHAT from './tokens/mono/BHAT.svg'
+import tokensmonoHST from './tokens/mono/HST.svg'
+import tokensmonoDFX from './tokens/mono/DFX.svg'
+import tokensmonoHPO from './tokens/mono/HPO.svg'
+import tokensmonoOMAX from './tokens/mono/OMAX.svg'
+import tokensmonoXVS from './tokens/mono/XVS.svg'
+import tokensmonoTRIBE from './tokens/mono/TRIBE.svg'
+import tokensmonoENS from './tokens/mono/ENS.svg'
+import tokensmonoSPARTA from './tokens/mono/SPARTA.svg'
+import tokensmonoWINR from './tokens/mono/WINR.svg'
+import tokensmonoIXS from './tokens/mono/IXS.svg'
+import tokensmonoROOK from './tokens/mono/ROOK.svg'
+import tokensmonoCMOS from './tokens/mono/CMOS.svg'
+import tokensmonoKAS from './tokens/mono/KAS.svg'
+import tokensmonoMTLX from './tokens/mono/MTLX.svg'
+import tokensmonoRCN from './tokens/mono/RCN.svg'
+import tokensmonoSONNE from './tokens/mono/SONNE.svg'
+import tokensmonoKLT from './tokens/mono/KLT.svg'
+import tokensmonoITP from './tokens/mono/ITP.svg'
+import tokensmonoNABOX from './tokens/mono/NABOX.svg'
+import tokensmonoEPIC from './tokens/mono/EPIC.svg'
+import tokensmonoOPUL from './tokens/mono/OPUL.svg'
+import tokensmonoVSYS from './tokens/mono/VSYS.svg'
+import tokensmonoPNK from './tokens/mono/PNK.svg'
+import tokensmonoUSDC from './tokens/mono/USDC.svg'
+import tokensmonoPLT from './tokens/mono/PLT.svg'
+import tokensmonoNORD from './tokens/mono/NORD.svg'
+import tokensmonoYFI from './tokens/mono/YFI.svg'
+import tokensmonoGHOST from './tokens/mono/GHOST.svg'
+import tokensmonoUSDT from './tokens/mono/USDT.svg'
+import tokensmonoTHETA from './tokens/mono/THETA.svg'
+import tokensmonoLRC from './tokens/mono/LRC.svg'
+import tokensmonoGAI from './tokens/mono/GAI.svg'
+import tokensmonoMETFI from './tokens/mono/METFI.svg'
+import tokensmonoPREMIA from './tokens/mono/PREMIA.svg'
+import tokensmonoWAMPL from './tokens/mono/WAMPL.svg'
+import tokensmonoPLEX from './tokens/mono/PLEX.svg'
+import tokensmonoOBSR from './tokens/mono/OBSR.svg'
+import tokensmonoILV from './tokens/mono/ILV.svg'
+import tokensmonoRXD from './tokens/mono/RXD.svg'
+import tokensmonoZERO from './tokens/mono/ZERO.svg'
+import tokensmonoDIVER from './tokens/mono/DIVER.svg'
+import tokensmonoBUMP from './tokens/mono/BUMP.svg'
+import tokensmonoWGC from './tokens/mono/WGC.svg'
+import tokensmonoFUSE from './tokens/mono/FUSE.svg'
+import tokensmonoGZIL from './tokens/mono/GZIL.svg'
+import tokensmonoYES from './tokens/mono/YES.svg'
+import tokensmonoPLU from './tokens/mono/PLU.svg'
+import tokensmonoICX from './tokens/mono/ICX.svg'
+import tokensmonoRVN from './tokens/mono/RVN.svg'
+import tokensmonoPRTC from './tokens/mono/PRTC.svg'
+import tokensmonoPXP from './tokens/mono/PXP.svg'
+import tokensmonoLDO from './tokens/mono/LDO.svg'
+import tokensmonoKAR from './tokens/mono/KAR.svg'
+import tokensmonoHEGIC from './tokens/mono/HEGIC.svg'
+import tokensmonoSLND from './tokens/mono/SLND.svg'
+import tokensmonoQUINT from './tokens/mono/QUINT.svg'
+import tokensmonoWOMBAT from './tokens/mono/WOMBAT.svg'
+import tokensmonoPTS from './tokens/mono/PTS.svg'
+import tokensmonoCCD from './tokens/mono/CCD.svg'
+import tokensmonoCIRUS from './tokens/mono/CIRUS.svg'
+import tokensmonoXTZ from './tokens/mono/XTZ.svg'
+import tokensmonoTDROP from './tokens/mono/TDROP.svg'
+import tokensmonoVXV from './tokens/mono/VXV.svg'
+import tokensmonoAXL from './tokens/mono/AXL.svg'
+import tokensmonoOXT from './tokens/mono/OXT.svg'
+import tokensmonoDIA from './tokens/mono/DIA.svg'
+import tokensmonoWOOF from './tokens/mono/WOOF.svg'
+import tokensmonoFOUR from './tokens/mono/FOUR.svg'
+import tokensmonoMBX from './tokens/mono/MBX.svg'
+import tokensmonoPI from './tokens/mono/PI.svg'
+import tokensmonoBOSON from './tokens/mono/BOSON.svg'
+import tokensmonoBBANK from './tokens/mono/BBANK.svg'
+import tokensmonoMNDE from './tokens/mono/MNDE.svg'
+import tokensmonoWLITI from './tokens/mono/WLITI.svg'
+import tokensmonoACQ from './tokens/mono/ACQ.svg'
+import tokensmonoHFT from './tokens/mono/HFT.svg'
+import tokensmonoCNHT from './tokens/mono/CNHT.svg'
+import tokensmonoAURORA from './tokens/mono/AURORA.svg'
+import tokensmonoCVR from './tokens/mono/CVR.svg'
+import tokensmonoALI from './tokens/mono/ALI.svg'
+import tokensmonoNEER from './tokens/mono/NEER.svg'
+import tokensmonoCVP from './tokens/mono/CVP.svg'
+import tokensmonoMXC from './tokens/mono/MXC.svg'
+import tokensmonoAMO from './tokens/mono/AMO.svg'
+import tokensmonoANT from './tokens/mono/ANT.svg'
+import tokensmonoDSM from './tokens/mono/DSM.svg'
+import tokensmonoHEZ from './tokens/mono/HEZ.svg'
+import tokensmonoANC from './tokens/mono/ANC.svg'
+import tokensmonoCTX from './tokens/mono/CTX.svg'
+import tokensmonoBTCMT from './tokens/mono/BTCMT.svg'
+import tokensmonoMETA from './tokens/mono/META.svg'
+import tokensmonoWITCH from './tokens/mono/WITCH.svg'
+import tokensmonoXNA from './tokens/mono/XNA.svg'
+import tokensmonoXOR from './tokens/mono/XOR.svg'
+import tokensmonoVCORE from './tokens/mono/VCORE.svg'
+import tokensmonoEVER from './tokens/mono/EVER.svg'
+import tokensmonoSTFX from './tokens/mono/STFX.svg'
+import tokensmonoMYST from './tokens/mono/MYST.svg'
+import tokensmonoPOLA from './tokens/mono/POLA.svg'
+import tokensmonoSHROOM from './tokens/mono/SHROOM.svg'
+import tokensmonoMAV from './tokens/mono/MAV.svg'
+import tokensmonoREVV from './tokens/mono/REVV.svg'
+import tokensmonoXVG from './tokens/mono/XVG.svg'
+import tokensmonoDENT from './tokens/mono/DENT.svg'
+import tokensmonoD2T from './tokens/mono/D2T.svg'
+import tokensmonoEOSDT from './tokens/mono/EOSDT.svg'
+import tokensmonoZLK from './tokens/mono/ZLK.svg'
+import tokensmonoODIN from './tokens/mono/ODIN.svg'
+import tokensmonoWAGMIGAMES from './tokens/mono/WAGMIGAMES.svg'
+import tokensmonoKAG from './tokens/mono/KAG.svg'
+import tokensmonoKAP from './tokens/mono/KAP.svg'
+import tokensmonoRLB from './tokens/mono/RLB.svg'
+import tokensmonoORBS from './tokens/mono/ORBS.svg'
+import tokensmonoKMD from './tokens/mono/KMD.svg'
+import tokensmonoSUTER from './tokens/mono/SUTER.svg'
+import tokensmonoRAE from './tokens/mono/RAE.svg'
+import tokensmonoSWTH from './tokens/mono/SWTH.svg'
+import tokensmonoNGC from './tokens/mono/NGC.svg'
+import tokensmonoGLM from './tokens/mono/GLM.svg'
+import tokensmonoETI from './tokens/mono/ETI.svg'
+import tokensmonoPOL from './tokens/mono/POL.svg'
+import tokensmonoWLKN from './tokens/mono/WLKN.svg'
+import tokensmonoCONV from './tokens/mono/CONV.svg'
+import tokensmonoBLOX from './tokens/mono/BLOX.svg'
+import tokensmonoTROVE from './tokens/mono/TROVE.svg'
+import tokensmonoLSD from './tokens/mono/LSD.svg'
+import tokensmonoKUB from './tokens/mono/KUB.svg'
+import tokensmonoLSS from './tokens/mono/LSS.svg'
+import tokensmonoINJ from './tokens/mono/INJ.svg'
+import tokensmonoION from './tokens/mono/ION.svg'
+import tokensmonoKOMPETE from './tokens/mono/KOMPETE.svg'
+import tokensmonoWELT from './tokens/mono/WELT.svg'
+import tokensmonoKASTA from './tokens/mono/KASTA.svg'
+import tokensmonoAGLD from './tokens/mono/AGLD.svg'
+import tokensmonoNFTX from './tokens/mono/NFTX.svg'
+import tokensmonoVSTA from './tokens/mono/VSTA.svg'
+import tokensmono1INCH from './tokens/mono/1INCH.svg'
+import tokensmonoUSDV from './tokens/mono/USDV.svg'
+import tokensmonoDOLA from './tokens/mono/DOLA.svg'
+import tokensmonoDOME from './tokens/mono/DOME.svg'
+import tokensmonoPLA from './tokens/mono/PLA.svg'
+import tokensmonoGNS from './tokens/mono/GNS.svg'
+import tokensmonoEUL from './tokens/mono/EUL.svg'
+import tokensmonoDMTR from './tokens/mono/DMTR.svg'
+import tokensmonoMETIS from './tokens/mono/METIS.svg'
+import tokensmonoAIMX from './tokens/mono/AIMX.svg'
+import tokensmonoMOOV from './tokens/mono/MOOV.svg'
+import tokensmonoBRN from './tokens/mono/BRN.svg'
+import tokensmonoETH from './tokens/mono/ETH.svg'
+import tokensmonoRAD from './tokens/mono/RAD.svg'
+import tokensmonoKOM from './tokens/mono/KOM.svg'
+import tokensmonoBIDZ from './tokens/mono/BIDZ.svg'
+import tokensmonoKLV from './tokens/mono/KLV.svg'
+import tokensmonoGOFX from './tokens/mono/GOFX.svg'
+import tokensmonoBDT from './tokens/mono/BDT.svg'
+import tokensmonoWING from './tokens/mono/WING.svg'
+import tokensmonoKWAI from './tokens/mono/KWAI.svg'
+import tokensmonoRLC from './tokens/mono/RLC.svg'
+import tokensmonoBITCI from './tokens/mono/BITCI.svg'
+import tokensmonoPOOLX from './tokens/mono/POOLX.svg'
+import tokensmonoPORTX from './tokens/mono/PORTX.svg'
+import tokensmonoYFII from './tokens/mono/YFII.svg'
+import tokensmonoTOSHI from './tokens/mono/TOSHI.svg'
+import tokensmonoMBL from './tokens/mono/MBL.svg'
+import tokensmonoSIX from './tokens/mono/SIX.svg'
+import tokensmonoLOKA from './tokens/mono/LOKA.svg'
+import tokensmonoCLH from './tokens/mono/CLH.svg'
+import tokensmonoDIVI from './tokens/mono/DIVI.svg'
+import tokensmonoCOS from './tokens/mono/COS.svg'
+import tokensmonoFSN from './tokens/mono/FSN.svg'
+import tokensmonoJST from './tokens/mono/JST.svg'
+import tokensmonoSTPT from './tokens/mono/STPT.svg'
+import tokensmonoPHONON from './tokens/mono/PHONON.svg'
+import tokensmonoMVI from './tokens/mono/MVI.svg'
+import tokensmonoPIXEL from './tokens/mono/PIXEL.svg'
+import tokensmonoMTV from './tokens/mono/MTV.svg'
+import tokensmonoSTRK from './tokens/mono/STRK.svg'
+import tokensmonoDUST from './tokens/mono/DUST.svg'
+import tokensmonoFET from './tokens/mono/FET.svg'
+import tokensmonoGT from './tokens/mono/GT.svg'
+import tokensmonoMTA from './tokens/mono/MTA.svg'
+import tokensmonoFOLD from './tokens/mono/FOLD.svg'
+import tokensmonoIBAT from './tokens/mono/IBAT.svg'
+import tokensmonoONION from './tokens/mono/ONION.svg'
+import tokensmonoXCP from './tokens/mono/XCP.svg'
+import tokensmonoH2O from './tokens/mono/H2O.svg'
+import tokensmonoRITE from './tokens/mono/RITE.svg'
+import tokensmonoTVK from './tokens/mono/TVK.svg'
+import tokensmonoVNO from './tokens/mono/VNO.svg'
+import tokensmonoSSV from './tokens/mono/SSV.svg'
+import tokensmonoMIMO from './tokens/mono/MIMO.svg'
+import tokensmonoWAXP from './tokens/mono/WAXP.svg'
+import tokensmonoDPS from './tokens/mono/DPS.svg'
+import tokensmonoTUT from './tokens/mono/TUT.svg'
+import tokensmonoMUSIC from './tokens/mono/MUSIC.svg'
+import tokensmonoFIS from './tokens/mono/FIS.svg'
+import tokensmonoEUROE from './tokens/mono/EUROE.svg'
+import tokensmonoONI from './tokens/mono/ONI.svg'
+import tokensmonoSTRX from './tokens/mono/STRX.svg'
+import tokensmonoNULS from './tokens/mono/NULS.svg'
+import tokensmonoCEUR from './tokens/mono/CEUR.svg'
+import tokensmonoABR from './tokens/mono/ABR.svg'
+import tokensmonoCND from './tokens/mono/CND.svg'
+import tokensmonoSHX from './tokens/mono/SHX.svg'
+import tokensmonoPOLS from './tokens/mono/POLS.svg'
+import tokensmonoPAAL from './tokens/mono/PAAL.svg'
+import tokensmonoATH from './tokens/mono/ATH.svg'
+import tokensmonoCOW from './tokens/mono/COW.svg'
+import tokensmonoEQUAL from './tokens/mono/EQUAL.svg'
+import tokensmonoPUNDIX from './tokens/mono/PUNDIX.svg'
+import tokensmonoSPORE from './tokens/mono/SPORE.svg'
+import tokensmonoATOR from './tokens/mono/ATOR.svg'
+import tokensmonoSDL from './tokens/mono/SDL.svg'
+import tokensmonoDFI from './tokens/mono/DFI.svg'
+import tokensmonoKAU from './tokens/mono/KAU.svg'
+import tokensmonoGMPD from './tokens/mono/GMPD.svg'
+import tokensmonoSHIDO from './tokens/mono/SHIDO.svg'
+import tokensmonoROME from './tokens/mono/ROME.svg'
+import tokensmonoSKEB from './tokens/mono/SKEB.svg'
+import tokensmonoKMA from './tokens/mono/KMA.svg'
+import tokensmonoBDP from './tokens/mono/BDP.svg'
+import tokensmonoNRG from './tokens/mono/NRG.svg'
+import tokensmonoRSS3 from './tokens/mono/RSS3.svg'
+import tokensmonoMONA from './tokens/mono/MONA.svg'
+import tokensmonoPLR from './tokens/mono/PLR.svg'
+import tokensmonoHANDY from './tokens/mono/HANDY.svg'
+import tokensmonoEXTRA from './tokens/mono/EXTRA.svg'
+import tokensmonoFEVR from './tokens/mono/FEVR.svg'
+import tokensmonoLPOOL from './tokens/mono/LPOOL.svg'
+import tokensmonoUNDEAD from './tokens/mono/UNDEAD.svg'
+import tokensmonoGMEE from './tokens/mono/GMEE.svg'
+import tokensmonoKTC from './tokens/mono/KTC.svg'
+import tokensmonoCSPR from './tokens/mono/CSPR.svg'
+import tokensmonoSBTC from './tokens/mono/SBTC.svg'
+import tokensmonoLEVER from './tokens/mono/LEVER.svg'
+import tokensmonoAGLA from './tokens/mono/AGLA.svg'
+import tokensmonoPAC from './tokens/mono/PAC.svg'
+import tokensmonoPBX from './tokens/mono/PBX.svg'
+import tokensmonoICHI from './tokens/mono/ICHI.svg'
+import tokensmonoCUDOS from './tokens/mono/CUDOS.svg'
+import tokensmonoNEX from './tokens/mono/NEX.svg'
+import tokensmonoBPT from './tokens/mono/BPT.svg'
+import tokensmonoGMM from './tokens/mono/GMM.svg'
+import tokensmonoUSDD from './tokens/mono/USDD.svg'
+import tokensmonoNCDT from './tokens/mono/NCDT.svg'
+import tokensmonoWIN from './tokens/mono/WIN.svg'
+import tokensmonoYDF from './tokens/mono/YDF.svg'
+import tokensmonoBSX from './tokens/mono/BSX.svg'
+import tokensmonoNEO from './tokens/mono/NEO.svg'
+import tokensmonoHONEY from './tokens/mono/HONEY.svg'
+import tokensmonoPRIME from './tokens/mono/PRIME.svg'
+import tokensmonoSLAM from './tokens/mono/SLAM.svg'
+import tokensmonoPYR from './tokens/mono/PYR.svg'
+import tokensmonoUFT from './tokens/mono/UFT.svg'
+import tokensmonoUMAMI from './tokens/mono/UMAMI.svg'
+import tokensmonoLIF3 from './tokens/mono/LIF3.svg'
+import tokensmonoXCFX from './tokens/mono/XCFX.svg'
+import tokensmonoTEER from './tokens/mono/TEER.svg'
+import tokensmonoBLUR from './tokens/mono/BLUR.svg'
+import tokensmonoELK from './tokens/mono/ELK.svg'
+import tokensmonoPTU from './tokens/mono/PTU.svg'
+import tokensmonoKP3R from './tokens/mono/KP3R.svg'
+import tokensmonoIXT from './tokens/mono/IXT.svg'
+import tokensmonoKAT from './tokens/mono/KAT.svg'
+import tokensmonoSEI from './tokens/mono/SEI.svg'
+import tokensmonoBTSG from './tokens/mono/BTSG.svg'
+import tokensmonoCETUS from './tokens/mono/CETUS.svg'
+import tokensmonoXWG from './tokens/mono/XWG.svg'
+import tokensmonoXPRT from './tokens/mono/XPRT.svg'
+import tokensmonoDIP from './tokens/mono/DIP.svg'
+import tokensmonoCOV from './tokens/mono/COV.svg'
+import tokensmonoODDZ from './tokens/mono/ODDZ.svg'
+import tokensmonoDHT from './tokens/mono/DHT.svg'
+import tokensmonoSC from './tokens/mono/SC.svg'
+import tokensmonoJUNGLE4EOS from './tokens/mono/JUNGLE4EOS.svg'
+import tokensmonoAVA from './tokens/mono/AVA.svg'
+import tokensmonoSTEP from './tokens/mono/STEP.svg'
+import tokensmonoARIA20 from './tokens/mono/ARIA20.svg'
+import tokensmonoMTD from './tokens/mono/MTD.svg'
+import tokensmonoVRSW from './tokens/mono/VRSW.svg'
+import tokensmonoMNGO from './tokens/mono/MNGO.svg'
+import tokensmonoMVL from './tokens/mono/MVL.svg'
+import tokensmonoSCRT from './tokens/mono/SCRT.svg'
+import tokensmonoMTS from './tokens/mono/MTS.svg'
+import tokensmonoXLM from './tokens/mono/XLM.svg'
+import tokensmonoCTK from './tokens/mono/CTK.svg'
+import tokensmonoSPH from './tokens/mono/SPH.svg'
+import tokensmonoBCDT from './tokens/mono/BCDT.svg'
+import tokensmonoZYN from './tokens/mono/ZYN.svg'
+import tokensmonoCVC from './tokens/mono/CVC.svg'
+import tokensmonoHGT from './tokens/mono/HGT.svg'
+import tokensmonoAVAX from './tokens/mono/AVAX.svg'
+import tokensmonoCWEB from './tokens/mono/CWEB.svg'
+import tokensmonoBORA from './tokens/mono/BORA.svg'
+import tokensmonoALPHA from './tokens/mono/ALPHA.svg'
+import tokensmonoMIND from './tokens/mono/MIND.svg'
+import tokensmonoAEGIS from './tokens/mono/AEGIS.svg'
+import tokensmonoHDX from './tokens/mono/HDX.svg'
+import tokensmonoCTI from './tokens/mono/CTI.svg'
+import tokensmonoALEPH from './tokens/mono/ALEPH.svg'
+import tokensmonoSHOPX from './tokens/mono/SHOPX.svg'
+import tokensmonoIRIS from './tokens/mono/IRIS.svg'
+import tokensmonoSOFI from './tokens/mono/SOFI.svg'
+import tokensmonoEL from './tokens/mono/EL.svg'
+import tokensmonoOZO from './tokens/mono/OZO.svg'
+import tokensmonoCNG from './tokens/mono/CNG.svg'
+import tokensmonoTON from './tokens/mono/TON.svg'
+import tokensmonoFRM from './tokens/mono/FRM.svg'
+import tokensmonoOMMI from './tokens/mono/OMMI.svg'
+import tokensmonoAVT from './tokens/mono/AVT.svg'
+import tokensmonoAVINOC from './tokens/mono/AVINOC.svg'
+import tokensmonoBTSE from './tokens/mono/BTSE.svg'
+import tokensmonoSFP from './tokens/mono/SFP.svg'
+import tokensmonoCAH from './tokens/mono/CAH.svg'
+import tokensmonoLEO from './tokens/mono/LEO.svg'
+import tokensmonoFNSA from './tokens/mono/FNSA.svg'
+import tokensmonoCROID from './tokens/mono/CROID.svg'
+import tokensmonoBIT from './tokens/mono/BIT.svg'
+import tokensmonoNFAI from './tokens/mono/NFAI.svg'
+import tokensmonoALGO from './tokens/mono/ALGO.svg'
+import tokensmonoNODL from './tokens/mono/NODL.svg'
+import tokensmonoWNDR from './tokens/mono/WNDR.svg'
+import tokensmonoXCHF from './tokens/mono/XCHF.svg'
+import tokensmonoGMX from './tokens/mono/GMX.svg'
+import tokensmonoGOG from './tokens/mono/GOG.svg'
+import tokensmonoONIT from './tokens/mono/ONIT.svg'
+import tokensmonoPIVX from './tokens/mono/PIVX.svg'
+import tokensmonoBIST from './tokens/mono/BIST.svg'
+import tokensmonoEWT from './tokens/mono/EWT.svg'
+import tokensmonoRWN from './tokens/mono/RWN.svg'
+import tokensmonoHUSD from './tokens/mono/HUSD.svg'
+import tokensmonoKLAY from './tokens/mono/KLAY.svg'
+import tokensmonoPROM from './tokens/mono/PROM.svg'
+import tokensmonoGAL from './tokens/mono/GAL.svg'
+import tokensmonoIDLE from './tokens/mono/IDLE.svg'
+import tokensmonoGCR from './tokens/mono/GCR.svg'
+import tokensmonoTRONPAD from './tokens/mono/TRONPAD.svg'
+import tokensmonoETN from './tokens/mono/ETN.svg'
+import tokensmonoTIDAL from './tokens/mono/TIDAL.svg'
+import tokensmonoSOLVE from './tokens/mono/SOLVE.svg'
+import tokensmonoKUNCI from './tokens/mono/KUNCI.svg'
+import tokensmonoVTHO from './tokens/mono/VTHO.svg'
+import tokensmonoRBN from './tokens/mono/RBN.svg'
+import tokensmonoRENBTC from './tokens/mono/RENBTC.svg'
+import tokensmonoNPM from './tokens/mono/NPM.svg'
+import tokensmonoEOS from './tokens/mono/EOS.svg'
+import tokensmonoMOVR from './tokens/mono/MOVR.svg'
+import tokensmonoEML from './tokens/mono/EML.svg'
+import tokensmonoUNIBOT from './tokens/mono/UNIBOT.svg'
+import tokensmonoMOVE from './tokens/mono/MOVE.svg'
+import tokensmono0X0 from './tokens/mono/0X0.svg'
+import tokensmonoSDN from './tokens/mono/SDN.svg'
+import tokensmonoUNFI from './tokens/mono/UNFI.svg'
+import tokensmonoCELR from './tokens/mono/CELR.svg'
+import tokensmonoDEP from './tokens/mono/DEP.svg'
+import tokensmonoDGX from './tokens/mono/DGX.svg'
+import tokensmonoASIA from './tokens/mono/ASIA.svg'
+import tokensmonoFPS from './tokens/mono/FPS.svg'
+import tokensmonoQSR from './tokens/mono/QSR.svg'
+import tokensmonoQUBE from './tokens/mono/QUBE.svg'
+import tokensmonoPUMLX from './tokens/mono/PUMLX.svg'
+import tokensmonoXYO from './tokens/mono/XYO.svg'
+import tokensmonoBZRX from './tokens/mono/BZRX.svg'
+import tokensmonoBRIDGE from './tokens/mono/BRIDGE.svg'
+import tokensmonoXIDO from './tokens/mono/XIDO.svg'
+import tokensmonoMETF from './tokens/mono/METF.svg'
+import tokensmonoMPLX from './tokens/mono/MPLX.svg'
+import tokensmonoFER from './tokens/mono/FER.svg'
+import tokensmonoCHAIN from './tokens/mono/CHAIN.svg'
+import tokensmonoTAKI from './tokens/mono/TAKI.svg'
+import tokensmonoOMG from './tokens/mono/OMG.svg'
+import tokensmonoACT from './tokens/mono/ACT.svg'
+import tokensmonoOLT from './tokens/mono/OLT.svg'
+import tokensmonoSSWP from './tokens/mono/SSWP.svg'
+import tokensmonoCREDI from './tokens/mono/CREDI.svg'
+import tokensmonoEXRD from './tokens/mono/EXRD.svg'
+import tokensmonoCWS from './tokens/mono/CWS.svg'
+import tokensmonoHOOK from './tokens/mono/HOOK.svg'
+import tokensmonoQKC from './tokens/mono/QKC.svg'
+import tokensmonoGSWIFT from './tokens/mono/GSWIFT.svg'
+import tokensmonoOAS from './tokens/mono/OAS.svg'
+import tokensmonoTRU from './tokens/mono/TRU.svg'
+import tokensmonoXDB from './tokens/mono/XDB.svg'
+import tokensmonoXDEFI from './tokens/mono/XDEFI.svg'
+import tokensmonoCQT from './tokens/mono/CQT.svg'
+import tokensmonoCRO from './tokens/mono/CRO.svg'
+import tokensmonoNRCH from './tokens/mono/NRCH.svg'
+import tokensmonoAHT from './tokens/mono/AHT.svg'
+import tokensmonoBUILD from './tokens/mono/BUILD.svg'
+import tokensmonoGBEX from './tokens/mono/GBEX.svg'
+import tokensmonoTRB from './tokens/mono/TRB.svg'
+import tokensmonoZOOMER from './tokens/mono/ZOOMER.svg'
+import tokensmonoSXP from './tokens/mono/SXP.svg'
+import tokensmonoXPLA from './tokens/mono/XPLA.svg'
+import tokensmonoCLXY from './tokens/mono/CLXY.svg'
+import tokensmonoCARBON from './tokens/mono/CARBON.svg'
+import tokensmonoXHV from './tokens/mono/XHV.svg'
+import tokensmonoHON from './tokens/mono/HON.svg'
+import tokensmonoSALT from './tokens/mono/SALT.svg'
+import tokensmonoFORT from './tokens/mono/FORT.svg'
+import tokensmonoDOT from './tokens/mono/DOT.svg'
+import tokensmonoTT from './tokens/mono/TT.svg'
+import tokensmonoAPE from './tokens/mono/APE.svg'
+import tokensmonoELAND from './tokens/mono/ELAND.svg'
+import tokensmonoASTROC from './tokens/mono/ASTROC.svg'
+import tokensmonoSMBR from './tokens/mono/SMBR.svg'
+import tokensmonoVENT from './tokens/mono/VENT.svg'
+import tokensmonoTGT from './tokens/mono/TGT.svg'
+import tokensmonoZIG from './tokens/mono/ZIG.svg'
+import tokensmonoTRCL from './tokens/mono/TRCL.svg'
+import tokensmonoKEX from './tokens/mono/KEX.svg'
+import tokensmonoPRQ from './tokens/mono/PRQ.svg'
+import tokensmonoRIN from './tokens/mono/RIN.svg'
+import tokensmonoXSGD from './tokens/mono/XSGD.svg'
+import tokensmonoKINT from './tokens/mono/KINT.svg'
+import tokensmonoMMPRO from './tokens/mono/MMPRO.svg'
+import tokensmonoWBTC from './tokens/mono/WBTC.svg'
+import tokensmonoEFL from './tokens/mono/EFL.svg'
+import tokensmonoSWEAT from './tokens/mono/SWEAT.svg'
+import tokensmonoWXT from './tokens/mono/WXT.svg'
+import tokensmonoRPL from './tokens/mono/RPL.svg'
+import tokensmonoCROWD from './tokens/mono/CROWD.svg'
+import tokensmonoCYBER from './tokens/mono/CYBER.svg'
+import tokensmonoGIV from './tokens/mono/GIV.svg'
+import tokensmonoBEAM from './tokens/mono/BEAM.svg'
+import tokensmonoTRYB from './tokens/mono/TRYB.svg'
+import tokensmonoAIPAD from './tokens/mono/AIPAD.svg'
+import tokensmonoWNXM from './tokens/mono/WNXM.svg'
+import tokensmonoNLS from './tokens/mono/NLS.svg'
+import tokensmonoPEX from './tokens/mono/PEX.svg'
+import tokensmonoSHRAP from './tokens/mono/SHRAP.svg'
+import tokensmonoTRVL from './tokens/mono/TRVL.svg'
+import tokensmonoGET from './tokens/mono/GET.svg'
+import tokensmonoFDUSD from './tokens/mono/FDUSD.svg'
+import tokensmonoQANX from './tokens/mono/QANX.svg'
+import tokensmonoBZR from './tokens/mono/BZR.svg'
+import tokensmonoSILK from './tokens/mono/SILK.svg'
+import tokensmonoSAKAI from './tokens/mono/SAKAI.svg'
+import tokensmonoBAX from './tokens/mono/BAX.svg'
+import tokensmonoFRIN from './tokens/mono/FRIN.svg'
+import tokensmonoTROY from './tokens/mono/TROY.svg'
+import tokensmonoBAO from './tokens/mono/BAO.svg'
+import tokensmonoLINK from './tokens/mono/LINK.svg'
+import tokensmonoALOT from './tokens/mono/ALOT.svg'
+import tokensmonoUMA from './tokens/mono/UMA.svg'
+import tokensmonoMORK from './tokens/mono/MORK.svg'
+import tokensmonoKEY from './tokens/mono/KEY.svg'
+import tokensmonoJULD from './tokens/mono/JULD.svg'
+import tokensmonoHTR from './tokens/mono/HTR.svg'
+import tokensmonoORT from './tokens/mono/ORT.svg'
+import tokensmonoGYEN from './tokens/mono/GYEN.svg'
+import tokensmonoDAI from './tokens/mono/DAI.svg'
+import tokensmonoDBR from './tokens/mono/DBR.svg'
+import tokensmonoMATICX from './tokens/mono/MATICX.svg'
+import tokensmonoCDT from './tokens/mono/CDT.svg'
+import tokensmonoCGO from './tokens/mono/CGO.svg'
+import tokensmonoGLEEC from './tokens/mono/GLEEC.svg'
+import tokensmonoUBXS from './tokens/mono/UBXS.svg'
+import tokensmonoDEFI from './tokens/mono/DEFI.svg'
+import tokensmonoVRA from './tokens/mono/VRA.svg'
+import tokensmonoHZN from './tokens/mono/HZN.svg'
+import tokensmonoFUN from './tokens/mono/FUN.svg'
+import tokensmonoVITA from './tokens/mono/VITA.svg'
+import tokensmonoZEE from './tokens/mono/ZEE.svg'
+import tokensmonoADA from './tokens/mono/ADA.svg'
+import tokensmonoCERE from './tokens/mono/CERE.svg'
+import tokensmonoFCT from './tokens/mono/FCT.svg'
+import tokensmono1ART from './tokens/mono/1ART.svg'
+import tokensmonoXEP from './tokens/mono/XEP.svg'
+import tokensmonoTRC from './tokens/mono/TRC.svg'
+import tokensmonoEDGE from './tokens/mono/EDGE.svg'
+import tokensmonoL2 from './tokens/mono/L2.svg'
+import tokensmonoWCFG from './tokens/mono/WCFG.svg'
+import tokensmonoMARSH from './tokens/mono/MARSH.svg'
+import tokensmonoXDC from './tokens/mono/XDC.svg'
+import tokensmonoSOLO from './tokens/mono/SOLO.svg'
+import tokensmonoVERSE from './tokens/mono/VERSE.svg'
+import tokensmonoSTG from './tokens/mono/STG.svg'
+import tokensmonoQLC from './tokens/mono/QLC.svg'
+import tokensmonoSOLX from './tokens/mono/SOLX.svg'
+import tokensmonoATRI from './tokens/mono/ATRI.svg'
+import tokensmonoSPACE from './tokens/mono/SPACE.svg'
+import tokensmonoROOBEE from './tokens/mono/ROOBEE.svg'
+import tokensmonoSENATE from './tokens/mono/SENATE.svg'
+import tokensmonoOKT from './tokens/mono/OKT.svg'
+import tokensmonoAA from './tokens/mono/AA.svg'
+import tokensmonoTHEO from './tokens/mono/THEO.svg'
+import tokensmonoVSP from './tokens/mono/VSP.svg'
+import tokensmonoHXD from './tokens/mono/HXD.svg'
+import tokensmonoDEGO from './tokens/mono/DEGO.svg'
+import tokensmonoSETH2 from './tokens/mono/SETH2.svg'
+import tokensmonoLIME from './tokens/mono/LIME.svg'
+import tokensmonoRJV from './tokens/mono/RJV.svg'
+import tokensmonoUNO from './tokens/mono/UNO.svg'
+import tokensmonoPRE from './tokens/mono/PRE.svg'
+import tokensmonoARKM from './tokens/mono/ARKM.svg'
+import tokensmonoREN from './tokens/mono/REN.svg'
+import tokensmonoGALA from './tokens/mono/GALA.svg'
+import tokensmonoEFX from './tokens/mono/EFX.svg'
+import tokensmonoIST from './tokens/mono/IST.svg'
+import tokensmonoTOKEN from './tokens/mono/TOKEN.svg'
+import tokensmonoEDG from './tokens/mono/EDG.svg'
+import tokensmonoGAME from './tokens/mono/GAME.svg'
+import tokensmonoROSE from './tokens/mono/ROSE.svg'
+import tokensmonoIDEX from './tokens/mono/IDEX.svg'
+import tokensmonoBEAN from './tokens/mono/BEAN.svg'
+import tokensmonoYAM from './tokens/mono/YAM.svg'
+import tokensmonoRSC from './tokens/mono/RSC.svg'
+import tokensmonoLTC from './tokens/mono/LTC.svg'
+import tokensmonoBXX from './tokens/mono/BXX.svg'
+import tokensmonoTUSD from './tokens/mono/TUSD.svg'
+import tokensmonoCTSI from './tokens/mono/CTSI.svg'
+import tokensmonoHERO from './tokens/mono/HERO.svg'
+import tokensmonoWIKEN from './tokens/mono/WIKEN.svg'
+import tokensmonoPKF from './tokens/mono/PKF.svg'
+import tokensmonoTPAD from './tokens/mono/TPAD.svg'
+import tokensmonoNAV from './tokens/mono/NAV.svg'
+import tokensmonoPYTH from './tokens/mono/PYTH.svg'
+import tokensmonoTIME from './tokens/mono/TIME.svg'
+import tokensmonoSIDUS from './tokens/mono/SIDUS.svg'
+import tokensmonoLIBRE from './tokens/mono/LIBRE.svg'
+import tokensmonoBTM from './tokens/mono/BTM.svg'
+import tokensmonoKIN from './tokens/mono/KIN.svg'
+import tokensmonoDVPN from './tokens/mono/DVPN.svg'
+import tokensmonoLUSD from './tokens/mono/LUSD.svg'
+import tokensmonoBCD from './tokens/mono/BCD.svg'
+import tokensmonoREGEN from './tokens/mono/REGEN.svg'
+import tokensmonoBAL from './tokens/mono/BAL.svg'
+import tokensmonoHBOT from './tokens/mono/HBOT.svg'
+import tokensmonoMATIC from './tokens/mono/MATIC.svg'
+import tokensmonoBMX from './tokens/mono/BMX.svg'
+import tokensmonoNXT from './tokens/mono/NXT.svg'
+import tokensmonoUMB from './tokens/mono/UMB.svg'
+import tokensmonoWWY from './tokens/mono/WWY.svg'
+import tokensmonoLAT from './tokens/mono/LAT.svg'
+import tokensmonoPIKA from './tokens/mono/PIKA.svg'
+import tokensmonoBNT from './tokens/mono/BNT.svg'
+import tokensmonoCOPE from './tokens/mono/COPE.svg'
+import tokensmonoSTOSMO from './tokens/mono/STOSMO.svg'
+import tokensmonoDCB from './tokens/mono/DCB.svg'
+import tokensmonoXPR from './tokens/mono/XPR.svg'
+import tokensmonoJUNO from './tokens/mono/JUNO.svg'
+import tokensmonoFUTURE from './tokens/mono/FUTURE.svg'
+import tokensmonoPOLYX from './tokens/mono/POLYX.svg'
+import tokensmonoBAND from './tokens/mono/BAND.svg'
+import tokensmonoEVEAI from './tokens/mono/EVEAI.svg'
+import tokensmonoMBOX from './tokens/mono/MBOX.svg'
+import tokensmonoJOY from './tokens/mono/JOY.svg'
+import tokensmonoFYN from './tokens/mono/FYN.svg'
+import tokensmonoSOL from './tokens/mono/SOL.svg'
+import tokensmonoAQT from './tokens/mono/AQT.svg'
+import tokensmonoMDX from './tokens/mono/MDX.svg'
+import tokensmonoBOLT from './tokens/mono/BOLT.svg'
+import tokensmonoHORD from './tokens/mono/HORD.svg'
+import tokensmonoSOUL from './tokens/mono/SOUL.svg'
+import tokensmonoDERO from './tokens/mono/DERO.svg'
+import tokensmonoAXEL from './tokens/mono/AXEL.svg'
+import tokensmonoHOGE from './tokens/mono/HOGE.svg'
+import tokensmonoOKB from './tokens/mono/OKB.svg'
+import tokensmonoCRPT from './tokens/mono/CRPT.svg'
+import tokensmonoADAPAD from './tokens/mono/ADAPAD.svg'
+import tokensmono3ULL from './tokens/mono/3ULL.svg'
+import tokensmonoX2Y2 from './tokens/mono/X2Y2.svg'
+import tokensmonoZRX from './tokens/mono/ZRX.svg'
+import tokensmonoMC from './tokens/mono/MC.svg'
+import tokensmonoFLX from './tokens/mono/FLX.svg'
+import tokensmonoSUB from './tokens/mono/SUB.svg'
+import tokensmonoEDEN from './tokens/mono/EDEN.svg'
+import tokensmonoOX from './tokens/mono/OX.svg'
+import tokensmonoDTX from './tokens/mono/DTX.svg'
+import tokensmonoREEF from './tokens/mono/REEF.svg'
+import tokensmonoDESO from './tokens/mono/DESO.svg'
+import tokensmonoECOX from './tokens/mono/ECOX.svg'
+import tokensmonoVEX from './tokens/mono/VEX.svg'
+import tokensmonoFORTH from './tokens/mono/FORTH.svg'
+import tokensmonoSAMA from './tokens/mono/SAMA.svg'
+import tokensmonoDXL from './tokens/mono/DXL.svg'
+import tokensmonoHAIR from './tokens/mono/HAIR.svg'
+import tokensmonoSPOOL from './tokens/mono/SPOOL.svg'
+import tokensmonoMFT from './tokens/mono/MFT.svg'
+import tokensmonoPOKT from './tokens/mono/POKT.svg'
+import tokensmonoFORE from './tokens/mono/FORE.svg'
+import tokensmonoRADIO from './tokens/mono/RADIO.svg'
+import tokensmonoAPT from './tokens/mono/APT.svg'
+import tokensmonoMEX from './tokens/mono/MEX.svg'
+import tokensmonoARK from './tokens/mono/ARK.svg'
+import tokensmonoMNTL from './tokens/mono/MNTL.svg'
+import tokensmonoFTM from './tokens/mono/FTM.svg'
+import tokensmonoSCLP from './tokens/mono/SCLP.svg'
+import tokensmonoSATT from './tokens/mono/SATT.svg'
+import tokensmonoPAID from './tokens/mono/PAID.svg'
+import tokensmonoAART from './tokens/mono/AART.svg'
+import tokensmonoBTCST from './tokens/mono/BTCST.svg'
+import tokensmonoINFRA from './tokens/mono/INFRA.svg'
+import tokensmonoKINE from './tokens/mono/KINE.svg'
+import tokensmonoBLX from './tokens/mono/BLX.svg'
+import tokensmonoDFYN from './tokens/mono/DFYN.svg'
+import tokensmonoSPHERE from './tokens/mono/SPHERE.svg'
+import tokensmonoHYVE from './tokens/mono/HYVE.svg'
+import tokensmonoLCX from './tokens/mono/LCX.svg'
+import tokensmonoIDRT from './tokens/mono/IDRT.svg'
+import tokensmonoWIGO from './tokens/mono/WIGO.svg'
+import tokensmonoQUIDD from './tokens/mono/QUIDD.svg'
+import tokensmonoEDU from './tokens/mono/EDU.svg'
+import tokensmonoRGT from './tokens/mono/RGT.svg'
+import tokensmonoWALLET from './tokens/mono/WALLET.svg'
+import tokensmonoLZM from './tokens/mono/LZM.svg'
+import tokensmonoDOGA from './tokens/mono/DOGA.svg'
+import tokensmonoAGIX from './tokens/mono/AGIX.svg'
+import tokensmonoQTUM from './tokens/mono/QTUM.svg'
+import tokensmonoWEMIX from './tokens/mono/WEMIX.svg'
+import tokensmonoBEND from './tokens/mono/BEND.svg'
+import tokensmonoRVST from './tokens/mono/RVST.svg'
+import tokensmonoDXGM from './tokens/mono/DXGM.svg'
+import tokensmonoCAKE from './tokens/mono/CAKE.svg'
+import tokensmonoYOU from './tokens/mono/YOU.svg'
+import tokensmonoPKT from './tokens/mono/PKT.svg'
+import tokensmonoWOM from './tokens/mono/WOM.svg'
+import tokensmonoERN from './tokens/mono/ERN.svg'
+import tokensmonoLITT from './tokens/mono/LITT.svg'
+import tokensmonoEQB from './tokens/mono/EQB.svg'
+import tokensmonoIGU from './tokens/mono/IGU.svg'
+import tokensmonoCAST from './tokens/mono/CAST.svg'
+import tokensmonoAGRS from './tokens/mono/AGRS.svg'
+import tokensmonoRDN from './tokens/mono/RDN.svg'
+import tokensmonoEGO from './tokens/mono/EGO.svg'
+import tokensmonoBICO from './tokens/mono/BICO.svg'
+import tokensmonoBUSD from './tokens/mono/BUSD.svg'
+import tokensmonoSUIP from './tokens/mono/SUIP.svg'
+import tokensmonoISP from './tokens/mono/ISP.svg'
+import tokensmonoMASQ from './tokens/mono/MASQ.svg'
+import tokensmonoXSUSHI from './tokens/mono/XSUSHI.svg'
+import tokensmonoDOSE from './tokens/mono/DOSE.svg'
+import tokensmonoTRAC from './tokens/mono/TRAC.svg'
+import tokensmonoBOB from './tokens/mono/BOB.svg'
+import tokensmonoTEL from './tokens/mono/TEL.svg'
+import tokensmonoSTMX from './tokens/mono/STMX.svg'
+import tokensmonoDAO from './tokens/mono/DAO.svg'
+import tokensmonoBFIC from './tokens/mono/BFIC.svg'
+import tokensmonoDEXTF from './tokens/mono/DEXTF.svg'
+import tokensmonoMKR from './tokens/mono/MKR.svg'
+import tokensmonoDBC from './tokens/mono/DBC.svg'
+import tokensmonoATPAY from './tokens/mono/ATPAY.svg'
+import tokensmonoLAND from './tokens/mono/LAND.svg'
+import tokensmonoDEFX from './tokens/mono/DEFX.svg'
+import tokensmonoSLR from './tokens/mono/SLR.svg'
+import tokensmonoSDEX from './tokens/mono/SDEX.svg'
+import tokensmonoADCO from './tokens/mono/ADCO.svg'
+import tokensmonoZEC from './tokens/mono/ZEC.svg'
+import tokensmonoTKP from './tokens/mono/TKP.svg'
+import tokensmonoETHIX from './tokens/mono/ETHIX.svg'
+import tokensmonoAR from './tokens/mono/AR.svg'
+import tokensmonoADP from './tokens/mono/ADP.svg'
+import tokensmonoSYS from './tokens/mono/SYS.svg'
+import tokensmonoGENI from './tokens/mono/GENI.svg'
+import tokensmonoAE from './tokens/mono/AE.svg'
+import tokensmonoMST from './tokens/mono/MST.svg'
+import tokensmonoPAWTH from './tokens/mono/PAWTH.svg'
+import tokensmonoBSGG from './tokens/mono/BSGG.svg'
+import tokensmonoMYRIA from './tokens/mono/MYRIA.svg'
+import tokensmonoMF from './tokens/mono/MF.svg'
+import tokensmonoVPAD from './tokens/mono/VPAD.svg'
+import tokensmono10SET from './tokens/mono/10SET.svg'
+import tokensmonoWAGMI from './tokens/mono/WAGMI.svg'
+import tokensmonoDVF from './tokens/mono/DVF.svg'
+import tokensmonoVIX from './tokens/mono/VIX.svg'
+import tokensmonoFITFI from './tokens/mono/FITFI.svg'
+import tokensmonoXET from './tokens/mono/XET.svg'
+import tokensmonoXDG from './tokens/mono/XDG.svg'
+import tokensmonoRISE from './tokens/mono/RISE.svg'
+import tokensmonoSOMM from './tokens/mono/SOMM.svg'
+import tokensmonoGRAI from './tokens/mono/GRAI.svg'
+import tokensmonoPRIMAL from './tokens/mono/PRIMAL.svg'
+import tokensmonoXEC from './tokens/mono/XEC.svg'
+import tokensmonoJUP from './tokens/mono/JUP.svg'
+import tokensmonoVLXPAD from './tokens/mono/VLXPAD.svg'
+import tokensmonoOXEN from './tokens/mono/OXEN.svg'
+import tokensmonoTHALES from './tokens/mono/THALES.svg'
+import tokensmonoAGI from './tokens/mono/AGI.svg'
+import tokensmonoFWB from './tokens/mono/FWB.svg'
+import tokensmonoSLG from './tokens/mono/SLG.svg'
+import tokensmonoSTBU from './tokens/mono/STBU.svg'
+import tokensmonoLOOM from './tokens/mono/LOOM.svg'
+import tokensmonoPAPER from './tokens/mono/PAPER.svg'
+import tokensmonoSNX from './tokens/mono/SNX.svg'
+import tokensmonoFTN from './tokens/mono/FTN.svg'
+import tokensmonoVITE from './tokens/mono/VITE.svg'
+import tokensmonoAPW from './tokens/mono/APW.svg'
+import tokensmonoSMT from './tokens/mono/SMT.svg'
+import tokensmonoZZ from './tokens/mono/ZZ.svg'
+import tokensmonoCFX from './tokens/mono/CFX.svg'
+import tokensmonoIPOR from './tokens/mono/IPOR.svg'
+import tokensmonoDCR from './tokens/mono/DCR.svg'
+import tokensmonoABYSS from './tokens/mono/ABYSS.svg'
+import tokensmonoCOMBO from './tokens/mono/COMBO.svg'
+import tokensmonoAIRI from './tokens/mono/AIRI.svg'
+import tokensmonoPSP from './tokens/mono/PSP.svg'
+import tokensmonoUNI from './tokens/mono/UNI.svg'
+import tokensmonoDASH from './tokens/mono/DASH.svg'
+import tokensmonoEGLD from './tokens/mono/EGLD.svg'
+import tokensmonoPERI from './tokens/mono/PERI.svg'
+import tokensmonoBCT from './tokens/mono/BCT.svg'
+import tokensmonoXAVA from './tokens/mono/XAVA.svg'
+import tokensmonoEFI from './tokens/mono/EFI.svg'
+import tokensmonoBUY from './tokens/mono/BUY.svg'
+import tokensmonoDAFI from './tokens/mono/DAFI.svg'
+import tokensmonoYAK from './tokens/mono/YAK.svg'
+import tokensmonoYCC from './tokens/mono/YCC.svg'
+import tokensmonoWNK from './tokens/mono/WNK.svg'
+import tokensmonoRSR from './tokens/mono/RSR.svg'
+import tokensmonoWHALE from './tokens/mono/WHALE.svg'
+import tokensmonoSILO from './tokens/mono/SILO.svg'
+import tokensmonoWOO from './tokens/mono/WOO.svg'
+import tokensmonoNOM from './tokens/mono/NOM.svg'
+import tokensmonoNMR from './tokens/mono/NMR.svg'
+import tokensmonoWAS from './tokens/mono/WAS.svg'
+import tokensmonoFACTR from './tokens/mono/FACTR.svg'
+import tokensmonoSAITAMA from './tokens/mono/SAITAMA.svg'
+import tokensmonoLUA from './tokens/mono/LUA.svg'
+import tokensmonoSFRXETH from './tokens/mono/SFRXETH.svg'
+import tokensmonoRARI from './tokens/mono/RARI.svg'
+import tokensmonoDODO from './tokens/mono/DODO.svg'
+import tokensmonoSAITO from './tokens/mono/SAITO.svg'
+import tokensmonoRDNT from './tokens/mono/RDNT.svg'
+import tokensmonoSOLID from './tokens/mono/SOLID.svg'
+import tokensmonoKUJI from './tokens/mono/KUJI.svg'
+import tokensmonoLVL from './tokens/mono/LVL.svg'
+import tokensmonoMCRT from './tokens/mono/MCRT.svg'
+import tokensmonoLAZIO from './tokens/mono/LAZIO.svg'
+import tokensmonoNSFW from './tokens/mono/NSFW.svg'
+import tokensmonoNAP from './tokens/mono/NAP.svg'
+import tokensmonoLUFC from './tokens/mono/LUFC.svg'
+import tokensmonoWIFI from './tokens/mono/WIFI.svg'
+import tokensmonoBCB from './tokens/mono/BCB.svg'
+import tokensmonoCARD from './tokens/mono/CARD.svg'
+import tokensmonoLON from './tokens/mono/LON.svg'
+import tokensmonoARDR from './tokens/mono/ARDR.svg'
+import tokensmonoCARAT from './tokens/mono/CARAT.svg'
+import tokensmonoBLZ from './tokens/mono/BLZ.svg'
+import tokensmonoBOA from './tokens/mono/BOA.svg'
+import tokensmonoSTJUNO from './tokens/mono/STJUNO.svg'
+import tokensmonoAREA from './tokens/mono/AREA.svg'
+import tokensmonoDSRUN from './tokens/mono/DSRUN.svg'
+import tokensmonoVELO from './tokens/mono/VELO.svg'
+import tokensmonoMIN from './tokens/mono/MIN.svg'
+import tokensmonoOSMO from './tokens/mono/OSMO.svg'
+import tokensmonoSTOS from './tokens/mono/STOS.svg'
+import tokensmonoHVH from './tokens/mono/HVH.svg'
+import tokensmonoCHR from './tokens/mono/CHR.svg'
+import tokensmonoASM from './tokens/mono/ASM.svg'
+import tokensmonoHXRO from './tokens/mono/HXRO.svg'
+import tokensmonoDOG from './tokens/mono/DOG.svg'
+import tokensmonoGAINS from './tokens/mono/GAINS.svg'
+import tokensmonoADS from './tokens/mono/ADS.svg'
+import tokensmonoMRS from './tokens/mono/MRS.svg'
+import tokensmonoMPL from './tokens/mono/MPL.svg'
+import tokensmonoDERI from './tokens/mono/DERI.svg'
+import tokensmonoLORDS from './tokens/mono/LORDS.svg'
+import tokensmonoXKI from './tokens/mono/XKI.svg'
+import tokensmonoSCNSOL from './tokens/mono/SCNSOL.svg'
+import tokensmonoNPXS from './tokens/mono/NPXS.svg'
+import tokensmonoOM from './tokens/mono/OM.svg'
+import tokensmonoAIT from './tokens/mono/AIT.svg'
+import tokensmonoOOKI from './tokens/mono/OOKI.svg'
+import tokensmonoFOR from './tokens/mono/FOR.svg'
+import tokensmonoBONDLY from './tokens/mono/BONDLY.svg'
+import tokensmonoLA from './tokens/mono/LA.svg'
+import tokensmonoSUI from './tokens/mono/SUI.svg'
+import tokensmonoINST from './tokens/mono/INST.svg'
+import tokensmonoAIN from './tokens/mono/AIN.svg'
+import tokensmonoFLS from './tokens/mono/FLS.svg'
+import tokensmonoOOKS from './tokens/mono/OOKS.svg'
+import tokensmonoXFT from './tokens/mono/XFT.svg'
+import tokensmonoBTCP from './tokens/mono/BTCP.svg'
+import tokensmonoSFTMX from './tokens/mono/SFTMX.svg'
+import tokensmonoXETA from './tokens/mono/XETA.svg'
+import tokensmonoHMX from './tokens/mono/HMX.svg'
+import tokensmonoRUNE from './tokens/mono/RUNE.svg'
+import tokensmonoHOP from './tokens/mono/HOP.svg'
+import tokensmonoMCADE from './tokens/mono/MCADE.svg'
+import tokensmonoPARA from './tokens/mono/PARA.svg'
+import tokensmonoVIDYA from './tokens/mono/VIDYA.svg'
+import tokensmonoHNT from './tokens/mono/HNT.svg'
+import tokensmonoBRICK from './tokens/mono/BRICK.svg'
+import tokensmonoKICKS from './tokens/mono/KICKS.svg'
+import tokensmonoAPL from './tokens/mono/APL.svg'
+import tokensmonoSNT from './tokens/mono/SNT.svg'
+import tokensmonoPROPS from './tokens/mono/PROPS.svg'
+import tokensmonoLMWR from './tokens/mono/LMWR.svg'
+import tokensmonoTHE from './tokens/mono/THE.svg'
+import tokensmonoSNC from './tokens/mono/SNC.svg'
+import tokensmonoAMKT from './tokens/mono/AMKT.svg'
+import tokensmonoTIA from './tokens/mono/TIA.svg'
+import tokensmonoMNTC from './tokens/mono/MNTC.svg'
+import tokensmonoXI from './tokens/mono/XI.svg'
+import tokensmonoCGG from './tokens/mono/CGG.svg'
+import tokensmonoHTM from './tokens/mono/HTM.svg'
+import tokensmonoPRO from './tokens/mono/PRO.svg'
+import tokensmonoPLASTIK from './tokens/mono/PLASTIK.svg'
+import tokensmonoPRX from './tokens/mono/PRX.svg'
+import tokensmonoFUND from './tokens/mono/FUND.svg'
+import tokensmonoAURABAL from './tokens/mono/AURABAL.svg'
+import tokensmonoLOC from './tokens/mono/LOC.svg'
+import tokensmonoNVT from './tokens/mono/NVT.svg'
+import tokensmonoMAPS from './tokens/mono/MAPS.svg'
+import tokensmonoKNDX from './tokens/mono/KNDX.svg'
+import tokensmonoFAKEAI from './tokens/mono/FAKEAI.svg'
+import tokensmonoBURGER from './tokens/mono/BURGER.svg'
+import tokensmonoGAMMA from './tokens/mono/GAMMA.svg'
+import tokensmonoUTK from './tokens/mono/UTK.svg'
+import tokensmonoCUSDC from './tokens/mono/CUSDC.svg'
+import tokensmonoWISE from './tokens/mono/WISE.svg'
+import tokensmonoWEFI from './tokens/mono/WEFI.svg'
+import tokensmonoPHA from './tokens/mono/PHA.svg'
+import tokensmonoNAVI from './tokens/mono/NAVI.svg'
+import tokensmonoARRR from './tokens/mono/ARRR.svg'
+import tokensmonoBERRY from './tokens/mono/BERRY.svg'
+import tokensmonoBZZ from './tokens/mono/BZZ.svg'
+import tokensmonoSETH from './tokens/mono/SETH.svg'
+import tokensmonoBELT from './tokens/mono/BELT.svg'
+import tokensmonoFPIS from './tokens/mono/FPIS.svg'
+import tokensmonoFIDA from './tokens/mono/FIDA.svg'
+import tokensmonoPGX from './tokens/mono/PGX.svg'
+import tokensmonoRARE from './tokens/mono/RARE.svg'
+import tokensmonoHBTC from './tokens/mono/HBTC.svg'
+import tokensmonoXFUND from './tokens/mono/XFUND.svg'
+import tokensmonoLIXX from './tokens/mono/LIXX.svg'
+import tokensmonoLAUNCH from './tokens/mono/LAUNCH.svg'
+import tokensmonoPDT from './tokens/mono/PDT.svg'
+import tokensmonoARSW from './tokens/mono/ARSW.svg'
+import tokensmonoNCT from './tokens/mono/NCT.svg'
+import tokensmonoAPEX from './tokens/mono/APEX.svg'
+import tokensmonoAPFC from './tokens/mono/APFC.svg'
+import tokensmonoIDV from './tokens/mono/IDV.svg'
+import tokensmonoBTG from './tokens/mono/BTG.svg'
+import tokensmonoLYX from './tokens/mono/LYX.svg'
+import tokensmonoBETS from './tokens/mono/BETS.svg'
+import tokensmonoQTCON from './tokens/mono/QTCON.svg'
+import tokensmonoBCN from './tokens/mono/BCN.svg'
+import tokensmonoUND from './tokens/mono/UND.svg'
+import tokensmonoLAI from './tokens/mono/LAI.svg'
+import tokensmonoLBR from './tokens/mono/LBR.svg'
+import tokensmonoNYM from './tokens/mono/NYM.svg'
+import tokensmonoGRC from './tokens/mono/GRC.svg'
+import tokensmonoRIF from './tokens/mono/RIF.svg'
+import tokensmonoPRY from './tokens/mono/PRY.svg'
+import tokensmonoSUDO from './tokens/mono/SUDO.svg'
+import tokensmonoKILT from './tokens/mono/KILT.svg'
+import tokensmonoGRT from './tokens/mono/GRT.svg'
+import tokensmonoZKP from './tokens/mono/ZKP.svg'
+import tokensmonoXRP from './tokens/mono/XRP.svg'
+import tokensmonoWAIT from './tokens/mono/WAIT.svg'
+import tokensmonoTET from './tokens/mono/TET.svg'
+import tokensmonoXPX from './tokens/mono/XPX.svg'
+import tokensmonoVEMP from './tokens/mono/VEMP.svg'
+import tokensmonoHAPI from './tokens/mono/HAPI.svg'
+import tokensmonoRAZOR from './tokens/mono/RAZOR.svg'
+import tokensmonoXRUNE from './tokens/mono/XRUNE.svg'
+import tokensmonoSTAT from './tokens/mono/STAT.svg'
+import tokensmonoFRONT from './tokens/mono/FRONT.svg'
+import tokensmonoFTC from './tokens/mono/FTC.svg'
+import tokensmonoVC from './tokens/mono/VC.svg'
+import tokensmonoDMC from './tokens/mono/DMC.svg'
+import tokensmonoAPM from './tokens/mono/APM.svg'
+import tokensmonoDMT from './tokens/mono/DMT.svg'
+import tokensmonoZANO from './tokens/mono/ZANO.svg'
+import tokensmonoVIB from './tokens/mono/VIB.svg'
+import tokensmonoTOMI from './tokens/mono/TOMI.svg'
+import tokensmonoNEAR from './tokens/mono/NEAR.svg'
+import tokensmonoBTRFLY from './tokens/mono/BTRFLY.svg'
+import tokensmonoFLR from './tokens/mono/FLR.svg'
+import tokensmonoDVI from './tokens/mono/DVI.svg'
+import tokensmonoLM from './tokens/mono/LM.svg'
+import tokensmonoCUMMIES from './tokens/mono/CUMMIES.svg'
+import tokensmonoCRE from './tokens/mono/CRE.svg'
+import tokensmonoSPANK from './tokens/mono/SPANK.svg'
+import tokensmonoBTC2 from './tokens/mono/BTC2.svg'
+import tokensmonoBS from './tokens/mono/BS.svg'
+import tokensmonoSHFT from './tokens/mono/SHFT.svg'
+import tokensmonoVET from './tokens/mono/VET.svg'
+import tokensmonoR from './tokens/mono/R.svg'
+import tokensmonoHAKA from './tokens/mono/HAKA.svg'
+import tokensmonoIBIT from './tokens/mono/IBIT.svg'
+import tokensmonoVV from './tokens/mono/VV.svg'
+import tokensmonoCKP from './tokens/mono/CKP.svg'
+import tokensmonoAST from './tokens/mono/AST.svg'
+import tokensmonoJAM from './tokens/mono/JAM.svg'
+import tokensmonoMET from './tokens/mono/MET.svg'
+import tokensmonoAPX from './tokens/mono/APX.svg'
+import tokensmonoZEN from './tokens/mono/ZEN.svg'
+import tokensmonoCEL from './tokens/mono/CEL.svg'
+import tokensmonoSAVG from './tokens/mono/SAVG.svg'
+import tokensmonoSCP from './tokens/mono/SCP.svg'
+import tokensmonoVELA from './tokens/mono/VELA.svg'
+import tokensmonoWHITE from './tokens/mono/WHITE.svg'
+import tokensmonoXELS from './tokens/mono/XELS.svg'
+import tokensmonoSRCX from './tokens/mono/SRCX.svg'
+import tokensmonoKDA from './tokens/mono/KDA.svg'
+import tokensmonoFIRO from './tokens/mono/FIRO.svg'
+import tokensmonoTRADE from './tokens/mono/TRADE.svg'
+import tokensmonoPRISM from './tokens/mono/PRISM.svg'
+import tokensmonoBLT from './tokens/mono/BLT.svg'
+import tokensmonoGSE from './tokens/mono/GSE.svg'
+import tokensmonoBOX from './tokens/mono/BOX.svg'
+import tokensmonoNALS from './tokens/mono/NALS.svg'
+import tokensmonoEURS from './tokens/mono/EURS.svg'
+import tokensmonoRDT from './tokens/mono/RDT.svg'
+import tokensmonoREP from './tokens/mono/REP.svg'
+import tokensmonoBEPRO from './tokens/mono/BEPRO.svg'
+import tokensmonoMCHC from './tokens/mono/MCHC.svg'
+import tokensmonoMSOL from './tokens/mono/MSOL.svg'
+import tokensmonoRAKE from './tokens/mono/RAKE.svg'
+import tokensmonoSUKU from './tokens/mono/SUKU.svg'
+import tokensmonoMASK from './tokens/mono/MASK.svg'
+import tokensmonoGHO from './tokens/mono/GHO.svg'
+import tokensmonoSWETH from './tokens/mono/SWETH.svg'
+import tokensmonoAUCTION from './tokens/mono/AUCTION.svg'
+import tokensmonoPHB from './tokens/mono/PHB.svg'
+import tokensmonoERTHA from './tokens/mono/ERTHA.svg'
+import tokensmonoGHX from './tokens/mono/GHX.svg'
+import tokensmonoJMPT from './tokens/mono/JMPT.svg'
+import tokensmonoFLUX from './tokens/mono/FLUX.svg'
+import tokensmonoGOVI from './tokens/mono/GOVI.svg'
+import tokensmonoLYM from './tokens/mono/LYM.svg'
+import tokensmonoEQX from './tokens/mono/EQX.svg'
+import tokensmonoTETU from './tokens/mono/TETU.svg'
+import tokensmonoMAHA from './tokens/mono/MAHA.svg'
+import tokensmonoSUSD from './tokens/mono/SUSD.svg'
+import tokensmonoKRL from './tokens/mono/KRL.svg'
+import tokensmonoKROM from './tokens/mono/KROM.svg'
+import tokensmonoCHAT from './tokens/mono/CHAT.svg'
+import tokensmonoPURSE from './tokens/mono/PURSE.svg'
+import tokensmonoSTEEM from './tokens/mono/STEEM.svg'
+import tokensmonoBLID from './tokens/mono/BLID.svg'
+import tokensmonoRPG from './tokens/mono/RPG.svg'
+import tokensmonoREUNI from './tokens/mono/REUNI.svg'
+import tokensmonoBTS from './tokens/mono/BTS.svg'
+import tokensmonoPIP from './tokens/mono/PIP.svg'
+import tokensmonoARI10 from './tokens/mono/ARI10.svg'
+import tokensmonoOBOT from './tokens/mono/OBOT.svg'
+import tokensmonoREF from './tokens/mono/REF.svg'
+import tokensmonoISK from './tokens/mono/ISK.svg'
+import tokensmonoNUM from './tokens/mono/NUM.svg'
+import tokensmonoEGC from './tokens/mono/EGC.svg'
+import tokensmonoRAIL from './tokens/mono/RAIL.svg'
+import tokensmonoREQ from './tokens/mono/REQ.svg'
+import tokensmonoSEND from './tokens/mono/SEND.svg'
+import tokensmonoHUNT from './tokens/mono/HUNT.svg'
+import tokensmonoTENET from './tokens/mono/TENET.svg'
+import tokensmonoPERP from './tokens/mono/PERP.svg'
+import tokensmonoLPNT from './tokens/mono/LPNT.svg'
+import tokensmonoDSETH from './tokens/mono/DSETH.svg'
+import tokensmonoRMRK from './tokens/mono/RMRK.svg'
+import tokensmonoXCAD from './tokens/mono/XCAD.svg'
+import tokensmonoLINA from './tokens/mono/LINA.svg'
+import tokensmonoEJS from './tokens/mono/EJS.svg'
+import tokensmonoK21 from './tokens/mono/K21.svg'
+import tokensmonoFLOW from './tokens/mono/FLOW.svg'
+import tokensmonoSTSTARS from './tokens/mono/STSTARS.svg'
+import tokensmonoGUSD from './tokens/mono/GUSD.svg'
+import tokensmonoBOBA from './tokens/mono/BOBA.svg'
+import tokensmonoZIL from './tokens/mono/ZIL.svg'
+import tokensmonoALLIN from './tokens/mono/ALLIN.svg'
+import tokensmonoSAN from './tokens/mono/SAN.svg'
+import tokensmonoXRD from './tokens/mono/XRD.svg'
+import tokensmonoJONES from './tokens/mono/JONES.svg'
+import tokensmonoDCK from './tokens/mono/DCK.svg'
+import tokensmonoNFTBS from './tokens/mono/NFTBS.svg'
+import tokensmonoHOPR from './tokens/mono/HOPR.svg'
+import tokensmonoASCN from './tokens/mono/ASCN.svg'
+import tokensmonoPASG from './tokens/mono/PASG.svg'
+import tokensmonoPART from './tokens/mono/PART.svg'
+import tokensmonoBCMC from './tokens/mono/BCMC.svg'
+import tokensmonoAI from './tokens/mono/AI.svg'
+import tokensmonoXEM from './tokens/mono/XEM.svg'
+import tokensmonoSTX from './tokens/mono/STX.svg'
+import tokensmonoVIA from './tokens/mono/VIA.svg'
+import tokensmonoQNT from './tokens/mono/QNT.svg'
+import tokensmonoHBB from './tokens/mono/HBB.svg'
+import tokensmonoMARS4 from './tokens/mono/MARS4.svg'
+import tokensmonoSTARS from './tokens/mono/STARS.svg'
+import tokensmonoOCEAN from './tokens/mono/OCEAN.svg'
+import tokensmonoCREAM from './tokens/mono/CREAM.svg'
+import tokensmonoCPH from './tokens/mono/CPH.svg'
+import tokensmonoADX from './tokens/mono/ADX.svg'
+import tokensmonoSAND from './tokens/mono/SAND.svg'
+import tokensmonoKARATE from './tokens/mono/KARATE.svg'
+import tokensmonoMUTE from './tokens/mono/MUTE.svg'
+import tokensmonoTIG from './tokens/mono/TIG.svg'
+import tokensmonoARB from './tokens/mono/ARB.svg'
+import tokensmonoTKX from './tokens/mono/TKX.svg'
+import tokensmonoDMD from './tokens/mono/DMD.svg'
+import tokensmonoCREO from './tokens/mono/CREO.svg'
+import tokensmonoSOV from './tokens/mono/SOV.svg'
+import tokensmonoIPAD from './tokens/mono/IPAD.svg'
+import tokensmonoTKO from './tokens/mono/TKO.svg'
+import tokensmonoVOICE from './tokens/mono/VOICE.svg'
+import tokensmonoSCB from './tokens/mono/SCB.svg'
+import tokensmonoKALM from './tokens/mono/KALM.svg'
+import tokensmonoBOTTO from './tokens/mono/BOTTO.svg'
+import tokensmonoMIR from './tokens/mono/MIR.svg'
+import tokensmonoDAG from './tokens/mono/DAG.svg'
+import tokensmonoALPACA from './tokens/mono/ALPACA.svg'
+import tokensmonoAPEFI from './tokens/mono/APEFI.svg'
+import tokensmonoNEWO from './tokens/mono/NEWO.svg'
+import tokensmonoNETT from './tokens/mono/NETT.svg'
+import tokensmonoIONX from './tokens/mono/IONX.svg'
+import tokensmonoMDAO from './tokens/mono/MDAO.svg'
+import tokensmonoWACME from './tokens/mono/WACME.svg'
+import tokensmonoHBAR from './tokens/mono/HBAR.svg'
+import tokensmonoGRS from './tokens/mono/GRS.svg'
+import tokensmonoPERC from './tokens/mono/PERC.svg'
+import tokensmonoEGG from './tokens/mono/EGG.svg'
+import tokensmonoKIT from './tokens/mono/KIT.svg'
+import tokensmonoEFC from './tokens/mono/EFC.svg'
+import tokensmonoGAMI from './tokens/mono/GAMI.svg'
+import tokensmonoKICK from './tokens/mono/KICK.svg'
+import tokensmonoCMDX from './tokens/mono/CMDX.svg'
+import tokensmonoMEDIA from './tokens/mono/MEDIA.svg'
+import tokensmonoIOTA from './tokens/mono/IOTA.svg'
+import tokensmonoLTO from './tokens/mono/LTO.svg'
+import tokensmonoTOPIA from './tokens/mono/TOPIA.svg'
+import tokensmonoXCUR from './tokens/mono/XCUR.svg'
+import tokensmonoKSM from './tokens/mono/KSM.svg'
+import tokensmonoBROCK from './tokens/mono/BROCK.svg'
+import tokensmonoLTX from './tokens/mono/LTX.svg'
+import tokensmonoWAN from './tokens/mono/WAN.svg'
+import tokensmonoMETAV from './tokens/mono/METAV.svg'
+import tokensmonoNMX from './tokens/mono/NMX.svg'
+import tokensmonoGEL from './tokens/mono/GEL.svg'
+import tokensmonoWBT from './tokens/mono/WBT.svg'
+import tokensmonoAERO from './tokens/mono/AERO.svg'
+import tokensmonoIDIA from './tokens/mono/IDIA.svg'
+import tokensmonoLYRA from './tokens/mono/LYRA.svg'
+import tokensmonoTITAN from './tokens/mono/TITAN.svg'
+import tokensmonoPIB from './tokens/mono/PIB.svg'
+import tokensmonoERG from './tokens/mono/ERG.svg'
+import tokensmonoBTA from './tokens/mono/BTA.svg'
+import tokensmonoNCR from './tokens/mono/NCR.svg'
+import tokensmonoBCH from './tokens/mono/BCH.svg'
+import tokensmonoALCX from './tokens/mono/ALCX.svg'
+import tokensmonoBBL from './tokens/mono/BBL.svg'
+import tokensmonoRFOX from './tokens/mono/RFOX.svg'
+import tokensmonoEUSD from './tokens/mono/EUSD.svg'
+import tokensmonoBLP from './tokens/mono/BLP.svg'
+import tokensmonoPSL from './tokens/mono/PSL.svg'
+import tokensmonoCOPI from './tokens/mono/COPI.svg'
+import tokensmonoLBT from './tokens/mono/LBT.svg'
+import tokensmonoBNX from './tokens/mono/BNX.svg'
+import tokensmonoBMC from './tokens/mono/BMC.svg'
+import tokensmonoBIGSB from './tokens/mono/BIGSB.svg'
+import tokensmonoXY from './tokens/mono/XY.svg'
+import tokensmonoCHO from './tokens/mono/CHO.svg'
+import tokensmonoTKN from './tokens/mono/TKN.svg'
+import tokensmonoSNS from './tokens/mono/SNS.svg'
+import tokensmonoLQDR from './tokens/mono/LQDR.svg'
+import tokensmonoVR from './tokens/mono/VR.svg'
+import tokensmonoPROPC from './tokens/mono/PROPC.svg'
+import tokensmonoMDT from './tokens/mono/MDT.svg'
+import tokensmonoARC from './tokens/mono/ARC.svg'
+import tokensmonoDERC from './tokens/mono/DERC.svg'
+import tokensmonoSTORJ from './tokens/mono/STORJ.svg'
+import tokensmonoVGX from './tokens/mono/VGX.svg'
+import tokensmonoGEOD from './tokens/mono/GEOD.svg'
+import tokensmonoOP from './tokens/mono/OP.svg'
+import tokensmonoNEBO from './tokens/mono/NEBO.svg'
+import tokensmonoPENDLE from './tokens/mono/PENDLE.svg'
+import tokensmonoSOON from './tokens/mono/SOON.svg'
+import tokensmonoMX from './tokens/mono/MX.svg'
+import tokensmonoAMPL from './tokens/mono/AMPL.svg'
+import tokensmonoHAI from './tokens/mono/HAI.svg'
+import tokensmonoO3 from './tokens/mono/O3.svg'
+import tokensmonoAKT from './tokens/mono/AKT.svg'
+import tokensmonoDEFIT from './tokens/mono/DEFIT.svg'
+import tokensmonoMM from './tokens/mono/MM.svg'
+import tokensmonoT from './tokens/mono/T.svg'
+import tokensmonoIRON from './tokens/mono/IRON.svg'
+import tokensmonoGAMEFI from './tokens/mono/GAMEFI.svg'
+import tokensmonoIGNIS from './tokens/mono/IGNIS.svg'
+import tokensmonoVEE from './tokens/mono/VEE.svg'
+import tokensmonoMPS from './tokens/mono/MPS.svg'
+import tokensmonoVEUR from './tokens/mono/VEUR.svg'
+import tokensmonoGSWAP from './tokens/mono/GSWAP.svg'
+import tokensmonoCHZ from './tokens/mono/CHZ.svg'
+import tokensmonoDLC from './tokens/mono/DLC.svg'
+import tokensmonoAZIT from './tokens/mono/AZIT.svg'
+import tokensmonoMEED from './tokens/mono/MEED.svg'
+import tokensmonoRGEN from './tokens/mono/RGEN.svg'
+import tokensmonoARV from './tokens/mono/ARV.svg'
+import tokensmonoDAD from './tokens/mono/DAD.svg'
+import tokensmonoXRT from './tokens/mono/XRT.svg'
+import tokensmonoXSP from './tokens/mono/XSP.svg'
+import tokensmonoSAI from './tokens/mono/SAI.svg'
+import tokensmonoREV3L from './tokens/mono/REV3L.svg'
+import tokensmonoRIDE from './tokens/mono/RIDE.svg'
+import tokensmonoFXS from './tokens/mono/FXS.svg'
+import tokensmonoOPIUM from './tokens/mono/OPIUM.svg'
+import tokensmonoLGCY from './tokens/mono/LGCY.svg'
+import tokensmonoLCR from './tokens/mono/LCR.svg'
+import tokensmonoNXM from './tokens/mono/NXM.svg'
+import tokensmonoUOS from './tokens/mono/UOS.svg'
+import tokensmonoCDAI from './tokens/mono/CDAI.svg'
+import tokensmonoGALEON from './tokens/mono/GALEON.svg'
+import tokensmonoREV from './tokens/mono/REV.svg'
+import tokensmonoSOURCE from './tokens/mono/SOURCE.svg'
+import tokensmonoUBT from './tokens/mono/UBT.svg'
+import tokensmonoCAPS from './tokens/mono/CAPS.svg'
+import tokensmonoBTC from './tokens/mono/BTC.svg'
+import tokensmonoNBT from './tokens/mono/NBT.svg'
+import tokensmonoLITH from './tokens/mono/LITH.svg'
+import tokensmonoBTT from './tokens/mono/BTT.svg'
+import tokensmonoLEOX from './tokens/mono/LEOX.svg'
+import tokensmonoHIFI from './tokens/mono/HIFI.svg'
+import tokensmonoECOIN from './tokens/mono/ECOIN.svg'
+import tokensmonoNOS from './tokens/mono/NOS.svg'
+import tokensmonoSNFT from './tokens/mono/SNFT.svg'
+import tokensmonoGGP from './tokens/mono/GGP.svg'
+import tokensmonoMTRG from './tokens/mono/MTRG.svg'
+import tokensmonoGGG from './tokens/mono/GGG.svg'
+import tokensmonoIDEA from './tokens/mono/IDEA.svg'
+import tokensmonoZPAY from './tokens/mono/ZPAY.svg'
+import tokensmonoBTU from './tokens/mono/BTU.svg'
+import tokensmonoBSCPAD from './tokens/mono/BSCPAD.svg'
+import tokensmonoACRIA from './tokens/mono/ACRIA.svg'
+import tokensmonoGUILD from './tokens/mono/GUILD.svg'
+import tokensmonoNWC from './tokens/mono/NWC.svg'
+import tokensmonoNTX from './tokens/mono/NTX.svg'
+import tokensmonoBAT from './tokens/mono/BAT.svg'
+import tokensmonoLOOKS from './tokens/mono/LOOKS.svg'
+import tokensmonoEURT from './tokens/mono/EURT.svg'
+import tokensmonoBETA from './tokens/mono/BETA.svg'
+import tokensmonoBORING from './tokens/mono/BORING.svg'
+import tokensmonoEVMOS from './tokens/mono/EVMOS.svg'
+import tokensmonoPINKSALE from './tokens/mono/PINKSALE.svg'
+import tokensmonoRDD from './tokens/mono/RDD.svg'
+import tokensmonoXAUR from './tokens/mono/XAUR.svg'
+import tokensmonoPROTEO from './tokens/mono/PROTEO.svg'
+import tokensmonoTABOO from './tokens/mono/TABOO.svg'
+import tokensmonoPPT from './tokens/mono/PPT.svg'
+import tokensmonoSUSHI from './tokens/mono/SUSHI.svg'
+import tokensmonoLING from './tokens/mono/LING.svg'
+import tokensmonoORDI from './tokens/mono/ORDI.svg'
+import tokensmonoLCS from './tokens/mono/LCS.svg'
+import tokensmonoPPC from './tokens/mono/PPC.svg'
+import tokensmonoHERMES from './tokens/mono/HERMES.svg'
+import tokensmonoBLD from './tokens/mono/BLD.svg'
+import tokensmonoZKB from './tokens/mono/ZKB.svg'
+import tokensmonoCGT from './tokens/mono/CGT.svg'
+import tokensmonoHARD from './tokens/mono/HARD.svg'
+import tokensmonoCFG from './tokens/mono/CFG.svg'
+import tokensmonoIETH from './tokens/mono/IETH.svg'
+import tokensmonoSBD from './tokens/mono/SBD.svg'
+import tokensmonoLAMB from './tokens/mono/LAMB.svg'
+import tokensmonoUNCX from './tokens/mono/UNCX.svg'
+import tokensmonoQUARTZ from './tokens/mono/QUARTZ.svg'
+import tokensmonoMED from './tokens/mono/MED.svg'
+import tokensmonoBOND from './tokens/mono/BOND.svg'
+import tokensmonoGBYTE from './tokens/mono/GBYTE.svg'
+import tokensmonoASD from './tokens/mono/ASD.svg'
+import tokensmonoKAVA from './tokens/mono/KAVA.svg'
+import tokensmonoTXAU from './tokens/mono/TXAU.svg'
+import tokensmonoU from './tokens/mono/U.svg'
+import tokensmonoHOT from './tokens/mono/HOT.svg'
+import tokensmonoCRU from './tokens/mono/CRU.svg'
+import tokensmonoDIKO from './tokens/mono/DIKO.svg'
+import tokensmonoML from './tokens/mono/ML.svg'
+import tokensmonoVEXT from './tokens/mono/VEXT.svg'
+import tokensmonoOS from './tokens/mono/OS.svg'
+import tokensmonoTREEB from './tokens/mono/TREEB.svg'
+import tokensmonoKMON from './tokens/mono/KMON.svg'
+import tokensmonoGRAV from './tokens/mono/GRAV.svg'
+import tokensmonoCLORE from './tokens/mono/CLORE.svg'
+import tokensmonoTRX from './tokens/mono/TRX.svg'
+import tokensmonoOGN from './tokens/mono/OGN.svg'
+import tokensmonoCTR from './tokens/mono/CTR.svg'
+import tokensmonoPDEX from './tokens/mono/PDEX.svg'
+import tokensmonoWHALES from './tokens/mono/WHALES.svg'
+import tokensmonoTHOR from './tokens/mono/THOR.svg'
+import tokensmonoZTG from './tokens/mono/ZTG.svg'
+import tokensmonoHID from './tokens/mono/HID.svg'
+import tokensmonoMUSD from './tokens/mono/MUSD.svg'
+import tokensmonoWOZX from './tokens/mono/WOZX.svg'
+import tokensmonoSKL from './tokens/mono/SKL.svg'
+import tokensmonoBRISE from './tokens/mono/BRISE.svg'
+import tokensmonoSOPH from './tokens/mono/SOPH.svg'
+import tokensmonoQUAD from './tokens/mono/QUAD.svg'
+import tokensmonoQR from './tokens/mono/QR.svg'
+import tokensmonoSWASH from './tokens/mono/SWASH.svg'
+import tokensmonoSIS from './tokens/mono/SIS.svg'
+import tokensmonoOMNI from './tokens/mono/OMNI.svg'
+import tokensmonoQRL from './tokens/mono/QRL.svg'
+import tokensmonoDKA from './tokens/mono/DKA.svg'
+import tokensmonoAUDIO from './tokens/mono/AUDIO.svg'
+import tokensmonoZCN from './tokens/mono/ZCN.svg'
+import tokensmonoFRA from './tokens/mono/FRA.svg'
+import tokensmonoSDT from './tokens/mono/SDT.svg'
+import tokensmonoCAS from './tokens/mono/CAS.svg'
+import tokensmonoAXS from './tokens/mono/AXS.svg'
+import tokensmonoLODE from './tokens/mono/LODE.svg'
+import tokensmonoMND from './tokens/mono/MND.svg'
+import tokensmonoYOSHI from './tokens/mono/YOSHI.svg'
+import tokensmonoDGB from './tokens/mono/DGB.svg'
+import tokensmonoCRWNY from './tokens/mono/CRWNY.svg'
+import tokensmonoFCON from './tokens/mono/FCON.svg'
+import tokensmonoRNDR from './tokens/mono/RNDR.svg'
+import tokensmonoPLANETS from './tokens/mono/PLANETS.svg'
+import tokensmonoLET from './tokens/mono/LET.svg'
+import tokensmonoFLOOR from './tokens/mono/FLOOR.svg'
+import tokensmonoPSTAKE from './tokens/mono/PSTAKE.svg'
+import tokensmonoBEL from './tokens/mono/BEL.svg'
+import tokensmonoPZP from './tokens/mono/PZP.svg'
+import tokensmonoNVIR from './tokens/mono/NVIR.svg'
+import tokensmonoTAROT from './tokens/mono/TAROT.svg'
+import tokensmonoNFTART from './tokens/mono/NFTART.svg'
+import tokensmonoBISO from './tokens/mono/BISO.svg'
+import tokensmonoGNO from './tokens/mono/GNO.svg'
+import tokensmonoBSV from './tokens/mono/BSV.svg'
+import tokensmonoGORA from './tokens/mono/GORA.svg'
+import tokensmonoCOMP from './tokens/mono/COMP.svg'
+import tokensmonoLUCA from './tokens/mono/LUCA.svg'
+import tokensmonoGDCC from './tokens/mono/GDCC.svg'
+import tokensmonoETC from './tokens/mono/ETC.svg'
+import tokensmonoICP from './tokens/mono/ICP.svg'
+import tokensmonoPNB from './tokens/mono/PNB.svg'
+import tokensmonoSYNC from './tokens/mono/SYNC.svg'
+import tokensmonoMANA from './tokens/mono/MANA.svg'
+import tokensmonoIDNA from './tokens/mono/IDNA.svg'
+import tokensmonoWRLD from './tokens/mono/WRLD.svg'
+import tokensmonoHUSH from './tokens/mono/HUSH.svg'
+import tokensmonoWAVES from './tokens/mono/WAVES.svg'
+import tokensmonoGYMNET from './tokens/mono/GYMNET.svg'
+import tokensmonoAURA from './tokens/mono/AURA.svg'
+import tokensmonoMOBILE from './tokens/mono/MOBILE.svg'
+import tokensmonoLPT from './tokens/mono/LPT.svg'
+import tokensmonoINV from './tokens/mono/INV.svg'
+import tokensmonoPAL from './tokens/mono/PAL.svg'
+import tokensmonoMCONTENT from './tokens/mono/MCONTENT.svg'
+import tokensmonoTRAVA from './tokens/mono/TRAVA.svg'
+import tokensmonoGNY from './tokens/mono/GNY.svg'
+import tokensmonoKYVE from './tokens/mono/KYVE.svg'
+import tokensmonoPNT from './tokens/mono/PNT.svg'
+import tokensmonoBSW from './tokens/mono/BSW.svg'
+import tokensmonoAIOZ from './tokens/mono/AIOZ.svg'
+import tokensmonoPOP from './tokens/mono/POP.svg'
+import tokensmonoGLQ from './tokens/mono/GLQ.svg'
+import tokensmonoNXRA from './tokens/mono/NXRA.svg'
+import tokensmonoRAY from './tokens/mono/RAY.svg'
+import tokensmonoGXC from './tokens/mono/GXC.svg'
+import tokensmonoEPIK from './tokens/mono/EPIK.svg'
+import tokensmonoALGB from './tokens/mono/ALGB.svg'
+import tokensmonoKNC from './tokens/mono/KNC.svg'
+import tokensmonoPUSH from './tokens/mono/PUSH.svg'
+import tokensmonoBLXM from './tokens/mono/BLXM.svg'
+import tokensmonoKCS from './tokens/mono/KCS.svg'
+import tokensmonoSTATOM from './tokens/mono/STATOM.svg'
+import tokensmonoFRAX from './tokens/mono/FRAX.svg'
+import tokensmonoAXE from './tokens/mono/AXE.svg'
+import tokensmonoMNR from './tokens/mono/MNR.svg'
+import tokensmonoNEURONI from './tokens/mono/NEURONI.svg'
+import tokensmonoNEST from './tokens/mono/NEST.svg'
+import tokensmonoZAP from './tokens/mono/ZAP.svg'
+import tokensmonoCATHEON from './tokens/mono/CATHEON.svg'
+import tokensmonoBREED from './tokens/mono/BREED.svg'
+import tokensmonoQRDO from './tokens/mono/QRDO.svg'
+import tokensmonoKLIMA from './tokens/mono/KLIMA.svg'
+import tokensmonoWBETH from './tokens/mono/WBETH.svg'
+import tokensmonoZCX from './tokens/mono/ZCX.svg'
+import tokensmonoMCB from './tokens/mono/MCB.svg'
+import tokensmonoFLUID from './tokens/mono/FLUID.svg'
+import tokensmonoGULF from './tokens/mono/GULF.svg'
+import tokensmonoACX from './tokens/mono/ACX.svg'
+import tokensmonoAAG from './tokens/mono/AAG.svg'
+import tokensmonoFCTR from './tokens/mono/FCTR.svg'
+import tokensmonoFEI from './tokens/mono/FEI.svg'
+import tokensmonoONG from './tokens/mono/ONG.svg'
+import tokensmonoMUSE from './tokens/mono/MUSE.svg'
+import tokensmonoGRAIN from './tokens/mono/GRAIN.svg'
+import tokensmonoATLAS from './tokens/mono/ATLAS.svg'
+import tokensmonoSRX from './tokens/mono/SRX.svg'
+import tokensmonoTULIP from './tokens/mono/TULIP.svg'
+import tokensmonoXCM from './tokens/mono/XCM.svg'
+import tokensmonoINTR from './tokens/mono/INTR.svg'
+import tokensmonoDEXE from './tokens/mono/DEXE.svg'
+import tokensmonoALU from './tokens/mono/ALU.svg'
+import tokensmonoTTK from './tokens/mono/TTK.svg'
+import tokensmonoSRM from './tokens/mono/SRM.svg'
+import tokensmonoVLX from './tokens/mono/VLX.svg'
+import tokensmonoONE from './tokens/mono/ONE.svg'
+import tokensmonoGRIN from './tokens/mono/GRIN.svg'
+import tokensmonoGRAIL from './tokens/mono/GRAIL.svg'
+import tokensmonoOMI from './tokens/mono/OMI.svg'
+import tokensmonoASSA from './tokens/mono/ASSA.svg'
+import tokensmonoDYDX from './tokens/mono/DYDX.svg'
+import tokensmonoSRLTY from './tokens/mono/SRLTY.svg'
+import tokensmonoDUSK from './tokens/mono/DUSK.svg'
+import tokensmonoFX from './tokens/mono/FX.svg'
+import tokensmonoPSWAP from './tokens/mono/PSWAP.svg'
+import tokensmonoTLM from './tokens/mono/TLM.svg'
+import tokensmonoMBD from './tokens/mono/MBD.svg'
+import tokensmonoSN from './tokens/mono/SN.svg'
+import tokensmonoGCOIN from './tokens/mono/GCOIN.svg'
+import tokensmonoCAP from './tokens/mono/CAP.svg'
+import tokensmonoAERGO from './tokens/mono/AERGO.svg'
+import tokensmonoOTK from './tokens/mono/OTK.svg'
+import tokensmonoTFUEL from './tokens/mono/TFUEL.svg'
+import tokensmonoTIPS from './tokens/mono/TIPS.svg'
+import tokensmonoKAN from './tokens/mono/KAN.svg'
+import tokensmonoELF from './tokens/mono/ELF.svg'
+import tokensmonoBFT from './tokens/mono/BFT.svg'
+import tokensmonoNPC from './tokens/mono/NPC.svg'
+import tokensmonoPICA from './tokens/mono/PICA.svg'
+import tokensmonoLIT from './tokens/mono/LIT.svg'
+import tokensmonoSKEY from './tokens/mono/SKEY.svg'
+import tokensmonoGXA from './tokens/mono/GXA.svg'
+import tokensmonoIOST from './tokens/mono/IOST.svg'
+import tokensmonoINSUR from './tokens/mono/INSUR.svg'
+import tokensmonoPLI from './tokens/mono/PLI.svg'
+import tokensmonoRTM from './tokens/mono/RTM.svg'
+import tokensmonoTONIC from './tokens/mono/TONIC.svg'
+import tokensmonoHILO from './tokens/mono/HILO.svg'
+import tokensmonoLUNR from './tokens/mono/LUNR.svg'
+import tokensmonoLYXE from './tokens/mono/LYXE.svg'
+import tokensmonoMOBY from './tokens/mono/MOBY.svg'
+import tokensmonoPAY from './tokens/mono/PAY.svg'
+import tokensmonoPROB from './tokens/mono/PROB.svg'
+import tokensmonoJASMY from './tokens/mono/JASMY.svg'
+import tokensmonoTIFI from './tokens/mono/TIFI.svg'
+import tokensmonoIMO from './tokens/mono/IMO.svg'
+import tokensmonoINT from './tokens/mono/INT.svg'
+import tokensmonoHIBS from './tokens/mono/HIBS.svg'
+import tokensmonoXDATA from './tokens/mono/XDATA.svg'
+import tokensmonoHELLO from './tokens/mono/HELLO.svg'
+import tokensmonoMANC from './tokens/mono/MANC.svg'
+import tokensmonoMIMATIC from './tokens/mono/MIMATIC.svg'
+import tokensmonoBRG from './tokens/mono/BRG.svg'
+import tokensmonoALPH from './tokens/mono/ALPH.svg'
+import tokensmonoROUTE from './tokens/mono/ROUTE.svg'
+import tokensmonoBST from './tokens/mono/BST.svg'
+import tokensmonoICE from './tokens/mono/ICE.svg'
+import tokensmonoB2M from './tokens/mono/B2M.svg'
+import tokensmonoDATA from './tokens/mono/DATA.svg'
+import tokensmonoRAMP from './tokens/mono/RAMP.svg'
+import tokensmonoRAM from './tokens/mono/RAM.svg'
+import tokensmonoGTC from './tokens/mono/GTC.svg'
+import tokensmonoIXO from './tokens/mono/IXO.svg'
+import tokensmonoGAFI from './tokens/mono/GAFI.svg'
+import tokensmonoARBI from './tokens/mono/ARBI.svg'
+import tokensmonoAPOLLO from './tokens/mono/APOLLO.svg'
+import tokensmonoXTP from './tokens/mono/XTP.svg'
+import tokensmonoMLN from './tokens/mono/MLN.svg'
+import tokensmonoAAVE from './tokens/mono/AAVE.svg'
+import tokensmonoOATH from './tokens/mono/OATH.svg'
+import tokensmonoJKL from './tokens/mono/JKL.svg'
+import tokensmonoM87 from './tokens/mono/M87.svg'
+import tokensmonoSFI from './tokens/mono/SFI.svg'
+import tokensmonoREALM from './tokens/mono/REALM.svg'
+import tokensmonoKWENTA from './tokens/mono/KWENTA.svg'
+import tokensmonoATR from './tokens/mono/ATR.svg'
+import tokensmonoCLV from './tokens/mono/CLV.svg'
+import tokensmonoFOREX from './tokens/mono/FOREX.svg'
+import tokensmonoMTH from './tokens/mono/MTH.svg'
+import tokensmonoXMR from './tokens/mono/XMR.svg'
+import tokensmonoDF from './tokens/mono/DF.svg'
+import tokensmonoCOSMOSHUB from './tokens/mono/COSMOSHUB.svg'
+import tokensmonoVAI from './tokens/mono/VAI.svg'
+import tokensmonoCTG from './tokens/mono/CTG.svg'
+import tokensmonoBCUBE from './tokens/mono/BCUBE.svg'
+import tokensmonoAMP from './tokens/mono/AMP.svg'
+import tokensmonoLOVELY from './tokens/mono/LOVELY.svg'
+import tokensmonoCTC from './tokens/mono/CTC.svg'
+import tokensmonoPAXG from './tokens/mono/PAXG.svg'
+import tokensmonoOAX from './tokens/mono/OAX.svg'
+import tokensmonoMTL from './tokens/mono/MTL.svg'
+import tokensmonoACH from './tokens/mono/ACH.svg'
+import tokensmonoMVD from './tokens/mono/MVD.svg'
+import tokensmonoABL from './tokens/mono/ABL.svg'
+import tokensmonoPYUSD from './tokens/mono/PYUSD.svg'
+import tokensmonoC98 from './tokens/mono/C98.svg'
+import tokensmonoPOLYPAD from './tokens/mono/POLYPAD.svg'
+import tokensmonoVVS from './tokens/mono/VVS.svg'
+import tokensmonoUBSN from './tokens/mono/UBSN.svg'
+import tokensmonoKLEVA from './tokens/mono/KLEVA.svg'
+import tokensmonoCBY from './tokens/mono/CBY.svg'
+import tokensmonoMMY from './tokens/mono/MMY.svg'
+import tokensmonoMNB from './tokens/mono/MNB.svg'
+import tokensmonoSFM from './tokens/mono/SFM.svg'
+import tokensmonoDEL from './tokens/mono/DEL.svg'
+import tokensmonoTAO from './tokens/mono/TAO.svg'
+import tokensmonoZKID from './tokens/mono/ZKID.svg'
+import tokensmonoPPAY from './tokens/mono/PPAY.svg'
+import tokensmonoRLY from './tokens/mono/RLY.svg'
+import tokensmonoFEAR from './tokens/mono/FEAR.svg'
+import tokensmonoEMP from './tokens/mono/EMP.svg'
+import tokensmonoNOIA from './tokens/mono/NOIA.svg'
+import tokensmonoAIMBOT from './tokens/mono/AIMBOT.svg'
+import tokensmonoQASH from './tokens/mono/QASH.svg'
+import tokensmonoBGB from './tokens/mono/BGB.svg'
+import tokensmonoORARE from './tokens/mono/ORARE.svg'
+import tokensmonoITHEUM from './tokens/mono/ITHEUM.svg'
+import tokensmonoCSIX from './tokens/mono/CSIX.svg'
+import tokensmonoETE from './tokens/mono/ETE.svg'
+import tokensmonoBPRO from './tokens/mono/BPRO.svg'
+import tokensmonoNFTB from './tokens/mono/NFTB.svg'
+import tokensmonoOETH from './tokens/mono/OETH.svg'
+import tokensmonoXPNET from './tokens/mono/XPNET.svg'
+import tokensmonoSTRAX from './tokens/mono/STRAX.svg'
+import tokensmonoBULL from './tokens/mono/BULL.svg'
+import tokensmonoTBTC from './tokens/mono/TBTC.svg'
+import tokensmonoSEILOR from './tokens/mono/SEILOR.svg'
+import tokensmonoDOMI from './tokens/mono/DOMI.svg'
+import tokensmonoUPP from './tokens/mono/UPP.svg'
+import tokensmonoTELOS from './tokens/mono/TELOS.svg'
+import tokensmonoUQC from './tokens/mono/UQC.svg'
+import tokensmonoSMARTCREDIT from './tokens/mono/SMARTCREDIT.svg'
+import tokensmonoANKR from './tokens/mono/ANKR.svg'
+import tokensmonoBIFI from './tokens/mono/BIFI.svg'
+import tokensmonoSLCL from './tokens/mono/SLCL.svg'
+import tokensmonoMATH from './tokens/mono/MATH.svg'
+import tokensmonoBDX from './tokens/mono/BDX.svg'
+import tokensmonoFLAME from './tokens/mono/FLAME.svg'
+import tokensmonoRBD from './tokens/mono/RBD.svg'
+import tokensmonoHIVE from './tokens/mono/HIVE.svg'
+import tokensmonoGHNY from './tokens/mono/GHNY.svg'
+import tokensmonoWSI from './tokens/mono/WSI.svg'
+import tokensmonoENJ from './tokens/mono/ENJ.svg'
+import tokensmonoVOXEL from './tokens/mono/VOXEL.svg'
+import tokensmonoATOM from './tokens/mono/ATOM.svg'
+import tokensmonoEQUAD from './tokens/mono/EQUAD.svg'
+import tokensmonoCELO from './tokens/mono/CELO.svg'
+import tokensmonoSTRONG from './tokens/mono/STRONG.svg'
+import tokensmonoURUS from './tokens/mono/URUS.svg'
+import tokensmonoCBX from './tokens/mono/CBX.svg'
+import tokensmonoMLK from './tokens/mono/MLK.svg'
+import tokensmonoTARA from './tokens/mono/TARA.svg'
+import tokensmonoMNT from './tokens/mono/MNT.svg'
+import tokensmonoZNN from './tokens/mono/ZNN.svg'
+import tokensmonoPOND from './tokens/mono/POND.svg'
+import tokensmonoMNST from './tokens/mono/MNST.svg'
+import tokensmonoRING from './tokens/mono/RING.svg'
+import tokensmonoCLS from './tokens/mono/CLS.svg'
+import tokensmonoTOR from './tokens/mono/TOR.svg'
+import tokensmonoPORTAL from './tokens/mono/PORTAL.svg'
+import tokensmonoVEGA from './tokens/mono/VEGA.svg'
+import tokensmonoAZERO from './tokens/mono/AZERO.svg'
+import tokensmonoTORN from './tokens/mono/TORN.svg'
+import tokensmonoHYDRA from './tokens/mono/HYDRA.svg'
+import tokensmonoOOE from './tokens/mono/OOE.svg'
+import tokensmonoCRTS from './tokens/mono/CRTS.svg'
+import tokensmonoETHM from './tokens/mono/ETHM.svg'
+import tokensmonoQMALL from './tokens/mono/QMALL.svg'
+import tokensmonoGO from './tokens/mono/GO.svg'
+import tokensmonoVALOR from './tokens/mono/VALOR.svg'
+import tokensmonoSTRP from './tokens/mono/STRP.svg'
+import tokensmonoRAVEN from './tokens/mono/RAVEN.svg'
+import tokensmonoDC from './tokens/mono/DC.svg'
+import tokensmonoDPAY from './tokens/mono/DPAY.svg'
+import tokensmonoFIL from './tokens/mono/FIL.svg'
+import tokensmonoTWT from './tokens/mono/TWT.svg'
+import tokensmonoDIMO from './tokens/mono/DIMO.svg'
+import tokensmonoAMB from './tokens/mono/AMB.svg'
+import tokensmonoID from './tokens/mono/ID.svg'
+import tokensmonoSPA from './tokens/mono/SPA.svg'
+import tokensmonoDEXT from './tokens/mono/DEXT.svg'
+import tokensmonoSPC from './tokens/mono/SPC.svg'
+import tokensmonoSSX from './tokens/mono/SSX.svg'
+import tokensmonoSIGNA from './tokens/mono/SIGNA.svg'
+import tokensmonoIQ from './tokens/mono/IQ.svg'
+import tokensmonoDWEB from './tokens/mono/DWEB.svg'
+import tokensmonoGEEQ from './tokens/mono/GEEQ.svg'
+import tokensmonoSRK from './tokens/mono/SRK.svg'
+import tokensmonoCUSD from './tokens/mono/CUSD.svg'
+import tokensmonoONT from './tokens/mono/ONT.svg'
+import tokensmonoBLOCK from './tokens/mono/BLOCK.svg'
+import tokensmonoETHX from './tokens/mono/ETHX.svg'
+import tokensmonoEARN from './tokens/mono/EARN.svg'
+import tokensmonoMWC from './tokens/mono/MWC.svg'
+import tokensmonoLAYER from './tokens/mono/LAYER.svg'
+import tokensmonoMAN from './tokens/mono/MAN.svg'
+import tokensmonoZAT from './tokens/mono/ZAT.svg'
+import tokensmonoVTX from './tokens/mono/VTX.svg'
+import tokensmonoOXY from './tokens/mono/OXY.svg'
+import tokensmonoSPIRIT from './tokens/mono/SPIRIT.svg'
+import tokensmonoTNT from './tokens/mono/TNT.svg'
+import tokensmonoKOIN from './tokens/mono/KOIN.svg'
+import tokensmonoTOP from './tokens/mono/TOP.svg'
+import tokensmonoPOLY from './tokens/mono/POLY.svg'
+import tokensmonoKOGE from './tokens/mono/KOGE.svg'
+import tokensmonoDACXI from './tokens/mono/DACXI.svg'
+import tokensmonoBAKE from './tokens/mono/BAKE.svg'
+import tokensmonoWRX from './tokens/mono/WRX.svg'
+import tokensmonoTLOS from './tokens/mono/TLOS.svg'
+import tokensmonoCANTO from './tokens/mono/CANTO.svg'
+import tokensmonoGZONE from './tokens/mono/GZONE.svg'
+import tokensmonoPWR from './tokens/mono/PWR.svg'
+import tokensmonoGFAL from './tokens/mono/GFAL.svg'
+import tokensmonoDJED from './tokens/mono/DJED.svg'
+import tokensmonoBFR from './tokens/mono/BFR.svg'
+import tokensmonoECO from './tokens/mono/ECO.svg'
+import tokensmonoCTXC from './tokens/mono/CTXC.svg'
+import tokensmonoPNG from './tokens/mono/PNG.svg'
+import tokensmonoRVC from './tokens/mono/RVC.svg'
+import tokensmonoNSBT from './tokens/mono/NSBT.svg'
+import tokensmonoUSDX from './tokens/mono/USDX.svg'
+import tokensmonoLSK from './tokens/mono/LSK.svg'
+import tokensmonoNHT from './tokens/mono/NHT.svg'
+import tokensmonoWELL from './tokens/mono/WELL.svg'
+import tokensmonoLUNC from './tokens/mono/LUNC.svg'
+import tokensmonoEUNO from './tokens/mono/EUNO.svg'
+import tokensmonoOUSD from './tokens/mono/OUSD.svg'
+import tokensmonoMOBI from './tokens/mono/MOBI.svg'
+import tokensmonoCCV2 from './tokens/mono/CCV2.svg'
+import tokensmonoPAI from './tokens/mono/PAI.svg'
+import tokensmonoPBR from './tokens/mono/PBR.svg'
+import tokensmonoGAS from './tokens/mono/GAS.svg'
+import tokensmonoBEETS from './tokens/mono/BEETS.svg'
+import tokensmonoSERO from './tokens/mono/SERO.svg'
+import tokensmonoCUMINU from './tokens/mono/CUMINU.svg'
+import tokensmonoINS from './tokens/mono/INS.svg'
+import tokensmonoEXD from './tokens/mono/EXD.svg'
+import tokensmonoNKN from './tokens/mono/NKN.svg'
+import tokensmonoUSH from './tokens/mono/USH.svg'
+import tokensmonoTRAXX from './tokens/mono/TRAXX.svg'
+import tokensmonoTOWER from './tokens/mono/TOWER.svg'
+import tokensmonoSYLO from './tokens/mono/SYLO.svg'
+import tokensmonoPLN from './tokens/mono/PLN.svg'
+import tokensmonoETP from './tokens/mono/ETP.svg'
+import tokensmonoGLC from './tokens/mono/GLC.svg'
+import tokensmonoSWAP from './tokens/mono/SWAP.svg'
+import tokensmonoKEEP from './tokens/mono/KEEP.svg'
+import tokensmonoSFUND from './tokens/mono/SFUND.svg'
+import tokensmonoNGM from './tokens/mono/NGM.svg'
+import tokensmonoSWISE from './tokens/mono/SWISE.svg'
+import tokensmonoUFI from './tokens/mono/UFI.svg'
+import tokensmonoALEX from './tokens/mono/ALEX.svg'
+import tokensmonoRDPX from './tokens/mono/RDPX.svg'
+import tokensmonoCBETH from './tokens/mono/CBETH.svg'
+import tokensmonoCHRP from './tokens/mono/CHRP.svg'
+import tokensmonoELA from './tokens/mono/ELA.svg'
+import tokensmonoKAI from './tokens/mono/KAI.svg'
+import tokensmonoCELL from './tokens/mono/CELL.svg'
+import tokensmonoHAWK from './tokens/mono/HAWK.svg'
+import tokensmonoMOD from './tokens/mono/MOD.svg'
+import tokensmonoTRIAS from './tokens/mono/TRIAS.svg'
+import tokensmonoMNW from './tokens/mono/MNW.svg'
+import tokensmonoMAX from './tokens/mono/MAX.svg'
+import tokensmonoSI from './tokens/mono/SI.svg'
+import tokensmonoPOLX from './tokens/mono/POLX.svg'
+import tokensmonoHMND from './tokens/mono/HMND.svg'
+import tokensmonoMEAN from './tokens/mono/MEAN.svg'
+import tokensmonoUNIX from './tokens/mono/UNIX.svg'
+import tokensmonoSTRD from './tokens/mono/STRD.svg'
+import tokensmonoNBLU from './tokens/mono/NBLU.svg'
+import tokensmonoDGNX from './tokens/mono/DGNX.svg'
+import tokensmonoES from './tokens/mono/ES.svg'
+import tokensmonoVIDT from './tokens/mono/VIDT.svg'
+import tokensmonoXNO from './tokens/mono/XNO.svg'
+import tokensmonoHT from './tokens/mono/HT.svg'
+import tokensmonoFIO from './tokens/mono/FIO.svg'
+import tokensmonoOCE from './tokens/mono/OCE.svg'
+import tokensmonoHEART from './tokens/mono/HEART.svg'
+import tokensmonoMZR from './tokens/mono/MZR.svg'
+import tokensmonoPOWR from './tokens/mono/POWR.svg'
+import tokensmonoGLMR from './tokens/mono/GLMR.svg'
+import tokensmonoDPX from './tokens/mono/DPX.svg'
+import tokensmonoAQTIS from './tokens/mono/AQTIS.svg'
+import tokensmonoXCH from './tokens/mono/XCH.svg'
+import tokensmonoMXM from './tokens/mono/MXM.svg'
 
 export const svgs: { [key: string]: string } = {
-  brandedBABYSHIB,
-  brandedSOCKS,
-  brandedHONK,
-  brandedTHOL,
-  brandedGLINK,
-  brandedSPX,
-  brandedMINA,
-  brandedCXO,
-  brandedOCTA,
-  brandedKZEN,
-  brandedABT,
-  brandedBMEX,
-  brandedRBIF,
-  brandedSAIL,
-  brandedVAB,
-  brandedCNFI,
-  brandedUW3S,
-  brandedZBC,
-  brandedOXB,
-  brandedSHI,
-  brandedMEMEAI,
-  brandedVTC,
-  brandedSWFTC,
-  branded2DAI,
-  brandedD3D,
-  brandedPALM,
-  brandedBHAT,
-  brandedMELD,
-  brandedHST,
-  brandedDFX,
-  brandedHPO,
-  brandedDEC,
-  brandedOMAX,
-  brandedXVS,
-  brandedTRIBE,
-  brandedENS,
-  brandedSPARTA,
-  brandedWINR,
-  brandedBKN,
-  brandedCMOS,
-  brandedKAS,
-  brandedMTLX,
-  brandedRCN,
-  brandedSONNE,
-  brandedKLT,
-  brandedITP,
-  brandedMUDOL2,
-  brandedNABOX,
-  brandedEPIC,
-  brandedNFD,
-  brandedVSYS,
-  brandedPNK,
-  brandedUSDC,
-  brandedPLT,
-  brandedNORD,
-  brandedYFI,
-  brandedUSDT,
-  brandedGOB,
-  brandedTHETA,
-  brandedCATGIRL,
-  brandedLRC,
-  brandedGAI,
-  brandedMETFI,
-  brandedPREMIA,
-  brandedWAMPL,
-  brandedPLEX,
-  brandedOBSR,
-  brandedILV,
-  brandedRXD,
-  brandedZERO,
-  brandedDIVER,
-  brandedBUMP,
-  brandedWGC,
-  brandedDEGEN,
-  brandedFUSE,
-  brandedGZIL,
-  brandedYES,
-  brandedPLU,
-  brandedICX,
-  brandedRVN,
-  brandedGODS,
-  brandedOPTI,
-  brandedPRTC,
-  brandedPXP,
-  brandedDOGEGF,
-  brandedLDO,
-  brandedKAR,
-  brandedHEGIC,
-  brandedSLND,
-  brandedQUINT,
-  brandedWOMBAT,
-  brandedPTS,
-  brandedXTM,
-  brandedCCD,
-  brandedCIRUS,
-  brandedXTZ,
-  brandedTDROP,
-  brandedVXV,
-  brandedAXL,
-  brandedCNC,
-  brandedOXT,
-  brandedAVG,
-  brandedHOSHI,
-  brandedDIA,
-  brandedWOOF,
-  brandedFOUR,
-  brandedMBX,
-  brandedPI,
-  brandedPOLC,
-  brandedBOSON,
-  brandedBBANK,
-  brandedMNDE,
-  brandedWLITI,
-  brandedACQ,
-  brandedANKRETH,
-  brandedCNHT,
-  brandedAURORA,
-  brandedCVR,
-  brandedALI,
-  brandedNEER,
-  brandedCVP,
-  brandedMXC,
-  brandedANT,
-  brandedDSM,
-  brandedHEZ,
-  brandedMINU,
-  brandedJEWEL,
-  brandedANC,
-  brandedPEPES,
-  brandedCTX,
-  brandedBTCMT,
-  brandedMETA,
-  brandedWITCH,
-  brandedETHW,
-  brandedXNA,
-  brandedACS,
-  brandedXOR,
-  brandedVCORE,
-  brandedPUSSY,
-  brandedEVER,
-  brandedSTFX,
-  brandedMYST,
-  brandedPOLA,
-  brandedATM,
-  brandedSHROOM,
-  brandedMAV,
-  brandedREVV,
-  brandedXVG,
-  brandedD2T,
-  brandedZLK,
-  brandedODIN,
-  brandedWAGMIGAMES,
-  brandedKAP,
-  brandedRLB,
-  brandedORBS,
-  brandedENG,
-  brandedKMD,
-  brandedSUTER,
-  brandedCRVUSD,
-  brandedRAE,
-  brandedSWTH,
-  brandedNGC,
-  brandedGLM,
-  brandedETI,
-  brandedPOL,
-  brandedWLKN,
-  brandedCONV,
-  brandedBLOX,
-  brandedTROVE,
-  brandedLSD,
-  brandedKUB,
-  brandedINJ,
-  brandedION,
-  brandedKOMPETE,
-  brandedWELT,
-  brandedKASTA,
-  brandedAGLD,
-  brandedNFTX,
-  brandedMTVT,
-  brandedSAUCE,
-  branded1INCH,
-  brandedUSDV,
-  brandedDOLA,
-  brandedDOME,
-  brandedPLA,
-  brandedGNS,
-  brandedEUL,
-  brandedDMTR,
-  brandedMETIS,
-  brandedAIMX,
-  brandedMOOV,
-  brandedBRN,
-  brandedETH,
-  brandedRAD,
-  brandedSTIMA,
-  brandedKOM,
-  brandedBIDZ,
-  brandedKLV,
-  brandedGOFX,
-  brandedBDT,
-  brandedORAI,
-  brandedKWAI,
-  brandedRLC,
-  brandedBITCI,
-  brandedPOOLX,
-  brandedPORTX,
-  brandedZMN,
-  brandedJIM,
-  brandedYFII,
-  brandedRETH,
-  brandedTOSHI,
-  brandedMBL,
-  brandedSIX,
-  brandedLOKA,
-  brandedCLH,
-  brandedDIVI,
-  brandedCOS,
-  brandedETHEREUM,
-  brandedFSN,
-  brandedJST,
-  brandedSTPT,
-  brandedPHONON,
-  brandedMVI,
-  brandedPIXEL,
-  brandedMTV,
-  brandedSTRK,
-  brandedDUST,
-  brandedGORILLA,
-  brandedFET,
-  brandedGT,
-  brandedMTA,
-  brandedFOLD,
-  brandedPMON,
-  brandedIBAT,
-  brandedONION,
-  brandedXCP,
-  brandedH2O,
-  brandedRITE,
-  brandedTVK,
-  brandedVNO,
-  brandedSSV,
-  brandedMIMO,
-  brandedWAXP,
-  brandedSAFE,
-  brandedDPS,
-  brandedTUT,
-  brandedMUSIC,
-  brandedFIS,
-  brandedONI,
-  brandedGG,
-  brandedFEG,
-  brandedSTRX,
-  brandedNULS,
-  brandedCEUR,
-  brandedCND,
-  brandedSHX,
-  brandedPOLS,
-  brandedPOOH,
-  brandedPAAL,
-  brandedATH,
-  brandedCOW,
-  brandedEQUAL,
-  brandedPUNDIX,
-  brandedSFD,
-  brandedSPORE,
-  brandedATOR,
-  brandedSDL,
-  brandedDFI,
-  brandedCCT,
-  brandedKAU,
-  brandedGMPD,
-  brandedSHIDO,
-  brandedROME,
-  brandedSKEB,
-  brandedKMA,
-  brandedBDP,
-  brandedNRG,
-  brandedRSS3,
-  brandedIMGNAI,
-  brandedMONA,
-  brandedPLR,
-  brandedHANDY,
-  brandedEXTRA,
-  brandedFEVR,
-  brandedNIM,
-  brandedLPOOL,
-  brandedUNDEAD,
-  brandedGMEE,
-  brandedBABYDOGE,
-  brandedKTC,
-  brandedSBTC,
-  brandedDOBO,
-  brandedLEVER,
-  brandedAGLA,
-  brandedAURY,
-  brandedPAC,
-  brandedPBX,
-  brandedICHI,
-  brandedCUDOS,
-  brandedNEX,
-  brandedBPT,
-  brandedUSDD,
-  brandedNCDT,
-  brandedCONE,
-  brandedWIN,
-  brandedYDF,
-  brandedBSX,
-  brandedNEO,
-  brandedHONEY,
-  brandedPRIME,
-  brandedSLAM,
-  brandedPYR,
-  brandedUFT,
-  brandedUMAMI,
-  brandedBRRR,
-  brandedLIF3,
-  brandedXCFX,
-  brandedTEER,
-  brandedBLUR,
-  brandedGOLDEN,
-  brandedELK,
-  brandedPTU,
-  brandedKP3R,
-  brandedIXT,
-  brandedBCOIN,
-  brandedNADA,
-  brandedKAT,
-  brandedSEI,
-  brandedBTSG,
-  brandedMMF,
-  brandedCETUS,
-  brandedXWG,
-  brandedXPRT,
-  brandedDIP,
-  brandedCOV,
-  brandedODDZ,
-  brandedDHT,
-  brandedSC,
-  brandedJUNGLE4EOS,
-  brandedAVA,
-  brandedSTEP,
-  brandedGQ,
-  brandedARIA20,
-  brandedMTD,
-  brandedVRSW,
-  brandedMNGO,
-  brandedMVL,
-  brandedMTS,
-  brandedFOOM,
-  brandedCTK,
-  brandedSPH,
-  brandedHOLD,
-  brandedBCDT,
-  brandedZYN,
-  brandedCVC,
-  brandedHGT,
-  brandedAVAX,
-  brandedCWEB,
-  brandedBORA,
-  brandedOBI,
-  brandedALPHA,
-  brandedMIND,
-  brandedAEGIS,
-  brandedHDX,
-  brandedCTI,
-  brandedALEPH,
-  brandedSHOPX,
-  brandedIRIS,
-  brandedSOFI,
-  brandedEL,
-  brandedOZO,
-  brandedCOC,
-  brandedMAP,
-  brandedCNG,
-  brandedTON,
-  brandedFRM,
-  brandedOMMI,
-  brandedAVT,
-  brandedWALV,
-  brandedBTSE,
-  brandedSFP,
-  brandedMEME,
-  brandedCAH,
-  brandedCOTI,
-  brandedLEO,
-  brandedFNSA,
-  brandedCROID,
-  brandedBIT,
-  brandedNFAI,
-  brandedNODL,
-  brandedRBX,
-  brandedWNDR,
-  brandedXCHF,
-  brandedGMX,
-  brandedONIT,
-  brandedPIVX,
-  brandedBIST,
-  brandedEWT,
-  brandedRWN,
-  brandedCHEQ,
-  brandedHUSD,
-  brandedKLAY,
-  brandedPROM,
-  brandedIDLE,
-  brandedGCR,
-  brandedPAW,
-  brandedKEKE,
-  brandedTRONPAD,
-  brandedETN,
-  brandedTIDAL,
-  brandedBABYTRUMP,
-  brandedRUG,
-  brandedSOLVE,
-  brandedKUNCI,
-  brandedVTHO,
-  brandedRBN,
-  brandedRENBTC,
-  brandedFLEX,
-  brandedNPM,
-  brandedMOVR,
-  brandedIMPT,
-  brandedEML,
-  brandedUNIBOT,
-  brandedMOVE,
-  branded0X0,
-  brandedSDN,
-  brandedUNFI,
-  brandedDEP,
-  brandedDGX,
-  brandedASIA,
-  brandedFPS,
-  brandedQSR,
-  brandedQUBE,
-  brandedPUMLX,
-  brandedXYO,
-  brandedBZRX,
-  brandedCLY,
-  brandedBRIDGE,
-  brandedXIDO,
-  brandedMETF,
-  brandedKIBSHI,
-  brandedMPLX,
-  brandedBLANK,
-  brandedFER,
-  brandedCHAIN,
-  brandedTAKI,
-  brandedMVX,
-  brandedACT,
-  brandedOLT,
-  brandedSSWP,
-  brandedCREDI,
-  brandedEXRD,
-  brandedCWS,
-  brandedHOOK,
-  brandedQKC,
-  brandedGSWIFT,
-  brandedOAS,
-  brandedFLM,
-  brandedTRU,
-  brandedXDB,
-  brandedXDEFI,
-  brandedCQT,
-  brandedCRO,
-  brandedMV,
-  brandedNRCH,
-  brandedAHT,
-  brandedBUILD,
-  brandedGBEX,
-  brandedTRB,
-  brandedZOOMER,
-  brandedSXP,
-  brandedBLUESPARROW,
-  brandedXPLA,
-  brandedCARBON,
-  brandedSALT,
-  brandedDOT,
-  brandedNEXO,
-  brandedTT,
-  brandedAPE,
-  brandedELAND,
-  brandedASTROC,
-  brandedSMBR,
-  brandedORB,
-  brandedTGT,
-  brandedZIG,
-  brandedTRCL,
-  brandedKEX,
-  brandedPRQ,
-  brandedRIN,
-  brandedXSGD,
-  brandedKINT,
-  brandedMMPRO,
-  brandedEFL,
-  brandedSWEAT,
-  brandedWXT,
-  brandedRPL,
-  brandedCROWD,
-  brandedCYBER,
-  brandedGIV,
-  brandedBEAM,
-  brandedTRYB,
-  brandedAIPAD,
-  brandedWNXM,
-  brandedNLS,
-  brandedPEX,
-  brandedTRVL,
-  brandedGET,
-  brandedFDUSD,
-  brandedJESUS,
-  brandedQANX,
-  brandedBZR,
-  brandedSILK,
-  brandedPKR,
-  brandedSAKAI,
-  brandedPEPE,
-  brandedKIBA,
-  brandedBAX,
-  brandedTROY,
-  brandedBRWL,
-  brandedBAO,
-  brandedLINK,
-  brandedALOT,
-  brandedUMA,
-  brandedSPELL,
-  brandedMMIT,
-  brandedMORK,
-  brandedKEY,
-  brandedJULD,
-  brandedSATS,
-  brandedHTR,
-  brandedORT,
-  brandedGYEN,
-  brandedFARM,
-  brandedDAI,
-  brandedDBR,
-  brandedMATICX,
-  brandedCDT,
-  brandedCGO,
-  brandedGLEEC,
-  brandedUBXS,
-  brandedDEFI,
-  brandedVRA,
-  brandedHZN,
-  brandedFUN,
-  brandedVITA,
-  brandedZEE,
-  brandedADA,
-  brandedCERE,
-  brandedSHDW,
-  brandedFCT,
-  branded1ART,
-  brandedBRUSH,
-  brandedXEP,
-  brandedTRC,
-  brandedEDGE,
-  brandedL2,
-  brandedQOM,
-  brandedMARSH,
-  brandedXDC,
-  brandedCOLLAB,
-  brandedTOMB,
-  brandedAIS,
-  brandedVERSE,
-  brandedSTG,
-  brandedQLC,
-  brandedSOLX,
-  brandedATRI,
-  brandedSPACE,
-  brandedASTO,
-  brandedOKT,
-  brandedAA,
-  brandedVSP,
-  brandedHXD,
-  brandedDEGO,
-  brandedOSAK,
-  brandedSCAR,
-  brandedSETH2,
-  brandedRIBBIT,
-  brandedLIME,
-  brandedRJV,
-  brandedUNO,
-  brandedPRE,
-  brandedREN,
-  brandedGALA,
-  brandedEFX,
-  brandedIST,
-  brandedTOKEN,
-  brandedEDG,
-  brandedGAME,
-  brandedROSE,
-  brandedIDEX,
-  brandedBEAN,
-  brandedYAM,
-  brandedVOLT,
-  brandedRSC,
-  brandedLTC,
-  brandedBXX,
-  brandedTUSD,
-  brandedDOGE,
-  brandedCTSI,
-  brandedMETAL,
-  brandedHERO,
-  brandedWIKEN,
-  brandedPKF,
-  brandedTPAD,
-  brandedANGLE,
-  brandedNAV,
-  brandedPYTH,
-  brandedTIME,
-  brandedLIBRE,
-  brandedBTM,
-  brandedKIN,
-  brandedDVPN,
-  brandedLUSD,
-  brandedBCD,
-  brandedREGEN,
-  brandedBAL,
-  brandedHBOT,
-  brandedMATIC,
-  brandedFREN,
-  brandedBMX,
-  brandedNXT,
-  brandedUMB,
-  brandedLAT,
-  brandedPIKA,
-  brandedCOPE,
-  brandedSTOSMO,
-  brandedDCB,
-  brandedXPR,
-  brandedJUNO,
-  brandedFUTURE,
-  brandedPOLYX,
-  brandedBAND,
-  brandedEVEAI,
-  brandedMBOX,
-  brandedCGL,
-  brandedJOY,
-  brandedFYN,
-  brandedSHIBDOGE,
-  brandedSOL,
-  brandedAQT,
-  brandedMDX,
-  brandedBOLT,
-  brandedBONK,
-  brandedSOUL,
-  brandedDERO,
-  brandedSANI,
-  brandedAXEL,
-  brandedCRPT,
-  brandedADAPAD,
-  branded3ULL,
-  brandedX2Y2,
-  brandedMC,
-  brandedFLX,
-  brandedSUB,
-  brandedAIR,
-  brandedDINGO,
-  brandedEDEN,
-  brandedOX,
-  brandedDTX,
-  brandedREEF,
-  brandedNEUROS,
-  brandedDESO,
-  brandedECOX,
-  brandedVEX,
-  brandedFORTH,
-  brandedSAMA,
-  brandedDXL,
-  brandedHAIR,
-  brandedSPOOL,
-  brandedMFT,
-  brandedPOKT,
-  brandedFORE,
-  brandedRADIO,
-  brandedMGP,
-  brandedAPT,
-  brandedMEX,
-  brandedARK,
-  brandedMNTL,
-  brandedTIN,
-  brandedDOR,
-  brandedCEEK,
-  brandedFTM,
-  brandedDNXC,
-  brandedSCLP,
-  brandedSATT,
-  brandedPAID,
-  brandedAART,
-  brandedINFRA,
-  brandedKINE,
-  brandedBLX,
-  brandedDFYN,
-  brandedSPHERE,
-  brandedHYVE,
-  brandedLCX,
-  brandedTSUKA,
-  brandedIDRT,
-  brandedWIGO,
-  brandedLADYS,
-  brandedQUIDD,
-  brandedEDU,
-  brandedNAOS,
-  brandedRGT,
-  brandedLINDA,
-  brandedWALLET,
-  brandedLZM,
-  brandedDOGA,
-  brandedAGIX,
-  brandedQTUM,
-  brandedWEMIX,
-  brandedBEND,
-  brandedRVST,
-  brandedDXGM,
-  brandedCAKE,
-  brandedMTRM,
-  brandedPICKLE,
-  brandedYOU,
-  brandedDIONE,
-  brandedPKT,
-  brandedERN,
-  brandedEQU,
-  brandedLITT,
-  brandedEQB,
-  brandedIGU,
-  brandedBAI,
-  brandedCAST,
-  brandedAGRS,
-  brandedRDN,
-  brandedEGO,
-  brandedBICO,
-  brandedDSLA,
-  brandedBUSD,
-  brandedSUIP,
-  brandedISP,
-  brandedMASQ,
-  brandedXSUSHI,
-  brandedDORA,
-  brandedDOSE,
-  brandedTRAC,
-  brandedBOB,
-  brandedTEL,
-  brandedSTMX,
-  brandedDAO,
-  brandedBFIC,
-  brandedDEXTF,
-  brandedMKR,
-  brandedDBC,
-  brandedMIM,
-  brandedATPAY,
-  brandedLAND,
-  brandedDEFX,
-  brandedSLR,
-  brandedSDEX,
-  brandedADCO,
-  brandedZEC,
-  brandedTKP,
-  brandedCUBE,
-  brandedETHIX,
-  brandedAR,
-  brandedADP,
-  brandedSYS,
-  brandedGENI,
-  brandedAE,
-  brandedMST,
-  brandedGRND,
-  brandedPAWTH,
-  brandedBSGG,
-  brandedVERSA,
-  brandedALICE,
-  brandedMYRIA,
-  brandedSHIA,
-  brandedMF,
-  brandedSTARL,
-  brandedVPAD,
-  branded10SET,
-  brandedWAGMI,
-  brandedDVF,
-  brandedVIX,
-  brandedFITFI,
-  brandedXET,
-  brandedKINGSHIB,
-  brandedXDG,
-  brandedRISE,
-  brandedSOMM,
-  brandedGRAI,
-  brandedPRIMAL,
-  brandedXEC,
-  brandedJUP,
-  brandedXWIN,
-  brandedVLXPAD,
-  brandedKATA,
-  brandedOXEN,
-  brandedTHALES,
-  brandedAGI,
-  brandedFWB,
-  brandedSLG,
-  brandedSTBU,
-  brandedLOOM,
-  brandedPAPER,
-  brandedSNX,
-  brandedSLP,
-  brandedFTN,
-  brandedVITE,
-  brandedAPW,
-  brandedZZ,
-  brandedCFX,
-  brandedIPOR,
-  brandedDCR,
-  brandedABYSS,
-  brandedBLAST,
-  brandedCOMBO,
-  brandedMIX,
-  brandedAIRI,
-  brandedCHAMPZ,
-  brandedPSP,
-  brandedUNI,
-  brandedXMON,
-  brandedDASH,
-  brandedEGLD,
-  brandedRFD,
-  brandedPERI,
-  brandedBCT,
-  brandedXAVA,
-  brandedEFI,
-  brandedBUY,
-  brandedDAFI,
-  brandedYAK,
-  brandedYCC,
-  brandedWNK,
-  brandedWHALE,
-  brandedNOM,
-  brandedKLEE,
-  brandedARPA,
-  brandedNMR,
-  brandedWAS,
-  brandedFACTR,
-  brandedAUTO,
-  brandedSAITAMA,
-  brandedLUA,
-  brandedRARI,
-  brandedDODO,
-  brandedSAITO,
-  brandedRDNT,
-  brandedSOLID,
-  brandedKUJI,
-  brandedLVL,
-  brandedMCRT,
-  brandedLAZIO,
-  brandedNSFW,
-  brandedNAP,
-  brandedLUFC,
-  branded0XGAS,
-  brandedWIFI,
-  brandedHGPT,
-  brandedBCB,
-  brandedCARD,
-  brandedMINTME,
-  brandedLON,
-  brandedARDR,
-  brandedCARAT,
-  brandedBLZ,
-  brandedBOA,
-  brandedSTJUNO,
-  brandedMOCHI,
-  brandedAREA,
-  brandedDSRUN,
-  brandedVELO,
-  brandedMIN,
-  brandedOSMO,
-  brandedSTOS,
-  brandedHVH,
-  brandedCHR,
-  brandedASM,
-  brandedDNT,
-  brandedHXRO,
-  brandedHUAHUA,
-  brandedDOG,
-  brandedGAINS,
-  brandedADS,
-  brandedMRS,
-  brandedMPL,
-  brandedDERI,
-  brandedXKI,
-  brandedSCNSOL,
-  brandedNPXS,
-  brandedOM,
-  brandedAIT,
-  brandedOOKI,
-  brandedFOR,
-  brandedSTSOL,
-  brandedBONDLY,
-  brandedLA,
-  brandedSHIB,
-  brandedSUI,
-  brandedINST,
-  brandedCWAR,
-  brandedAIN,
-  brandedFLS,
-  brandedOOKS,
-  brandedXFT,
-  brandedBTCP,
-  brandedPEOPLE,
-  brandedSFTMX,
-  brandedDYP,
-  brandedXETA,
-  brandedASTR,
-  brandedHMX,
-  brandedRUNE,
-  brandedHOP,
-  brandedMCADE,
-  brandedPARA,
-  brandedVIDYA,
-  brandedPOLYDOGE,
-  brandedHNT,
-  brandedBRICK,
-  brandedKICKS,
-  brandedAPL,
-  brandedSNT,
-  brandedPROPS,
-  brandedLMWR,
-  brandedGPCX,
-  brandedTIA,
-  brandedMNTC,
-  brandedXI,
-  brandedJOE,
-  brandedSCS,
-  brandedCGG,
-  brandedHTM,
-  brandedPRO,
-  brandedFREE,
-  brandedPLASTIK,
-  brandedPRX,
-  brandedFUND,
-  brandedLOC,
-  brandedNVT,
-  brandedMAPS,
-  brandedFAKEAI,
-  brandedBURGER,
-  brandedARIX,
-  brandedCHMB,
-  brandedGAMMA,
-  brandedUTK,
-  brandedOGGY,
-  brandedCUSDC,
-  brandedPEEL,
-  brandedWISE,
-  brandedWEFI,
-  brandedPHA,
-  brandedSNAIL,
-  brandedNAVI,
-  brandedARRR,
-  brandedBERRY,
-  brandedBZZ,
-  brandedSETH,
-  brandedBELT,
-  brandedFIDA,
-  brandedPGX,
-  brandedRARE,
-  brandedHBTC,
-  brandedXFUND,
-  brandedLIXX,
-  brandedLAUNCH,
-  brandedPDT,
-  brandedSNEK,
-  brandedARSW,
-  brandedNCT,
-  brandedAPEX,
-  brandedAPFC,
-  brandedIDV,
-  brandedBTG,
-  brandedLYX,
-  brandedBETS,
-  brandedBCN,
-  brandedUND,
-  brandedLBR,
-  brandedNYM,
-  brandedLINU,
-  brandedGRC,
-  brandedRIF,
-  brandedPRY,
-  brandedSUDO,
-  brandedKILT,
-  brandedGRT,
-  brandedZKP,
-  brandedWAIT,
-  brandedTET,
-  brandedXPX,
-  brandedVEMP,
-  brandedHAPI,
-  brandedRAZOR,
-  brandedXRUNE,
-  brandedSAM,
-  brandedSTAT,
-  brandedFTC,
-  brandedVC,
-  brandedDMC,
-  brandedAPM,
-  brandedDMT,
-  brandedSAMO,
-  brandedZANO,
-  brandedNEON,
-  brandedVIB,
-  brandedDPET,
-  brandedBCAT,
-  brandedBADGER,
-  brandedTOMI,
-  brandedNEAR,
-  brandedFLR,
-  brandedTYRANT,
-  brandedLM,
-  brandedCUMMIES,
-  brandedCRE,
-  brandedSPANK,
-  brandedBTC2,
-  brandedCOVAL,
-  brandedBS,
-  brandedSHFT,
-  brandedVET,
-  brandedR,
-  brandedHAKA,
-  brandedIBIT,
-  brandedVV,
-  brandedCKP,
-  brandedAST,
-  brandedJAM,
-  brandedMET,
-  brandedAPX,
-  brandedZEN,
-  brandedCULT,
-  brandedCEL,
-  brandedSAVG,
-  brandedSCP,
-  brandedVELA,
-  brandedWHITE,
-  brandedXELS,
-  brandedLCC,
-  brandedCORE,
-  brandedSRCX,
-  brandedKDA,
-  brandedGRV,
-  brandedFIRO,
-  brandedTRADE,
-  brandedBLT,
-  brandedGSE,
-  brandedNALS,
-  brandedEURS,
-  brandedRDT,
-  brandedREP,
-  brandedBEPRO,
-  brandedMCHC,
-  brandedBAD,
-  brandedMSOL,
-  brandedRAKE,
-  brandedSUKU,
-  brandedMASK,
-  brandedGHO,
-  brandedSWETH,
-  brandedWOW,
-  brandedAUCTION,
-  brandedPHB,
-  brandedGHX,
-  brandedJMPT,
-  brandedCROWN,
-  brandedFLUX,
-  brandedGOVI,
-  brandedLYM,
-  brandedEQX,
-  brandedGHST,
-  brandedTETU,
-  brandedDONUT,
-  brandedMAHA,
-  brandedSUSD,
-  brandedPER,
-  brandedKRL,
-  brandedKROM,
-  brandedCHAT,
-  brandedPURSE,
-  brandedSTEEM,
-  brandedBLID,
-  brandedRPG,
-  brandedREUNI,
-  brandedBTS,
-  brandedPIP,
-  brandedARI10,
-  brandedOBOT,
-  brandedXAUT,
-  brandedREF,
-  brandedISK,
-  brandedNUM,
-  brandedEGC,
-  brandedRAIL,
-  brandedREQ,
-  brandedSEND,
-  brandedHUNT,
-  brandedTENET,
-  brandedPERP,
-  brandedLPNT,
-  brandedDSETH,
-  brandedMOONED,
-  brandedRMRK,
-  brandedXCAD,
-  brandedLINA,
-  brandedEJS,
-  brandedK21,
-  brandedFLOW,
-  brandedSTSTARS,
-  brandedGUSD,
-  brandedBOBA,
-  brandedZIL,
-  brandedAQUA,
-  brandedALLIN,
-  brandedSAN,
-  brandedXRD,
-  brandedCHEEMS,
-  brandedJONES,
-  brandedDCK,
-  brandedNFTBS,
-  brandedHOPR,
-  brandedCPOOL,
-  brandedAFC,
-  brandedPASG,
-  brandedPART,
-  brandedBCMC,
-  brandedAI,
-  brandedXEM,
-  brandedSTX,
-  brandedQNT,
-  brandedHBB,
-  brandedMARS4,
-  brandedSTARS,
-  brandedOCEAN,
-  brandedCREAM,
-  brandedCPH,
-  brandedTAMA,
-  brandedADX,
-  brandedSAND,
-  brandedMUTE,
-  brandedC3,
-  brandedTIG,
-  brandedCKB,
-  brandedDRGN,
-  brandedTKX,
-  brandedDMD,
-  brandedCREO,
-  brandedIPAD,
-  brandedTHT,
-  brandedTKO,
-  brandedVOICE,
-  brandedSMI,
-  brandedSCB,
-  brandedKALM,
-  brandedBOTTO,
-  brandedMIR,
-  brandedALPACA,
-  brandedAPEFI,
-  brandedNEWO,
-  brandedNETT,
-  brandedIONX,
-  brandedHIPP,
-  brandedMDAO,
-  brandedROKO,
-  brandedWACME,
-  brandedSLIM,
-  brandedPERC,
-  brandedEGG,
-  brandedKIT,
-  brandedEFC,
-  brandedSAFEMARS,
-  brandedGAMI,
-  brandedKICK,
-  brandedCMDX,
-  brandedMEDIA,
-  brandedSQUIDGROW,
-  brandedLTO,
-  brandedTOPIA,
-  brandedBROCK,
-  brandedLTX,
-  brandedWAN,
-  brandedSURE,
-  brandedMETAV,
-  brandedNMX,
-  brandedGEL,
-  brandedLIZA,
-  brandedWBT,
-  brandedAERO,
-  brandedIDIA,
-  brandedAGEUR,
-  brandedLYRA,
-  brandedTITAN,
-  brandedPIB,
-  brandedBTA,
-  brandedNCR,
-  brandedBCH,
-  brandedALCX,
-  brandedRET,
-  brandedUSTC,
-  brandedRFOX,
-  brandedEUSD,
-  brandedBLP,
-  brandedPSL,
-  brandedCOPI,
-  brandedLBT,
-  brandedBNX,
-  brandedBIGSB,
-  brandedXY,
-  brandedCHO,
-  brandedTKN,
-  brandedLQDR,
-  brandedBOOT,
-  brandedVR,
-  brandedNEXA,
-  brandedPROPC,
-  brandedMDT,
-  brandedARC,
-  brandedDREP,
-  brandedSTORJ,
-  brandedVGX,
-  brandedGEOD,
-  brandedSUN,
-  brandedOP,
-  brandedCRV,
-  brandedNEBO,
-  brandedVIS,
-  brandedPENDLE,
-  brandedSOON,
-  brandedMX,
-  brandedDUA,
-  brandedHAI,
-  brandedVINU,
-  brandedPORK,
-  brandedO3,
-  brandedAKT,
-  brandedDEFIT,
-  brandedMM,
-  brandedT,
-  brandedIRON,
-  brandedGAMEFI,
-  brandedIGNIS,
-  brandedVEE,
-  brandedMPS,
-  brandedVEUR,
-  brandedGSWAP,
-  brandedCHZ,
-  brandedDLC,
-  brandedAZIT,
-  brandedMEED,
-  brandedRGEN,
-  brandedARV,
-  brandedDAD,
-  brandedXRT,
-  brandedORN,
-  brandedXSP,
-  brandedSAI,
-  brandedREV3L,
-  brandedRIDE,
-  brandedOPIUM,
-  brandedGRG,
-  brandedLCR,
-  brandedNXM,
-  brandedUOS,
-  brandedCDAI,
-  brandedGALEON,
-  brandedBANANA,
-  brandedREV,
-  brandedSOURCE,
-  brandedUBT,
-  brandedBTC,
-  brandedNBT,
-  brandedLITH,
-  brandedBWO,
-  brandedUWU,
-  brandedEMAID,
-  brandedUCJL,
-  brandedHERA,
-  brandedHIFI,
-  brandedECOIN,
-  brandedNOS,
-  brandedSNFT,
-  brandedWAM,
-  brandedGGP,
-  brandedMTRG,
-  brandedGFT,
-  brandedGGG,
-  brandedIDEA,
-  brandedZPAY,
-  brandedWNT,
-  brandedBTU,
-  brandedBSCPAD,
-  brandedGUILD,
-  brandedNWC,
-  brandedNTX,
-  brandedBAT,
-  brandedLOOKS,
-  brandedBETA,
-  brandedBORING,
-  brandedEVMOS,
-  brandedPINKSALE,
-  brandedRDD,
-  brandedXAUR,
-  brandedPROTEO,
-  brandedTABOO,
-  brandedLCD,
-  brandedPPT,
-  brandedSUSHI,
-  brandedLING,
-  brandedORDI,
-  brandedLCS,
-  brandedPPC,
-  brandedASTRADAO,
-  brandedHERMES,
-  brandedBLD,
-  brandedZKB,
-  brandedDBI,
-  brandedCGPT,
-  brandedFARA,
-  brandedCGT,
-  brandedHARD,
-  brandedCFG,
-  brandedIETH,
-  brandedSBD,
-  brandedLAMB,
-  brandedUNCX,
-  brandedMED,
-  brandedADOGE,
-  brandedBOND,
-  brandedASD,
-  brandedRBLS,
-  brandedDXP,
-  brandedKAVA,
-  brandedTXAU,
-  brandedU,
-  brandedSQUAD,
-  brandedHOT,
-  brandedSHIK,
-  brandedCRU,
-  brandedDIKO,
-  brandedML,
-  brandedVEXT,
-  brandedOS,
-  brandedTREEB,
-  brandedKMON,
-  brandedGRAV,
-  brandedCLORE,
-  brandedRISITA,
-  brandedTRX,
-  brandedOGN,
-  brandedCTR,
-  brandedPDEX,
-  brandedTHOR,
-  brandedHID,
-  brandedMUSD,
-  brandedBRISE,
-  brandedSOPH,
-  brandedSWASH,
-  brandedSIS,
-  brandedOMNI,
-  brandedQRL,
-  brandedDKA,
-  brandedAUDIO,
-  brandedPOLK,
-  brandedFRA,
-  brandedSDT,
-  brandedCAS,
-  brandedAXS,
-  brandedLODE,
-  brandedMND,
-  brandedYOSHI,
-  brandedDGB,
-  brandedCRWNY,
-  brandedLAKE,
-  brandedFCON,
-  brandedRNDR,
-  brandedPLANETS,
-  brandedPOPCAT,
-  brandedLET,
-  brandedFLOOR,
-  brandedPSTAKE,
-  brandedBEL,
-  brandedPZP,
-  brandedNVIR,
-  brandedNFTART,
-  brandedSOULS,
-  brandedGNO,
-  brandedBSV,
-  brandedGORA,
-  brandedCOMP,
-  brandedLUCA,
-  brandedGDCC,
-  brandedETC,
-  brandedICP,
-  brandedPNB,
-  brandedSYNC,
-  brandedRVF,
-  brandedMANA,
-  brandedEMAGIC,
-  brandedWRLD,
-  brandedWAVES,
-  brandedGYMNET,
-  brandedAURA,
-  brandedMOBILE,
-  brandedLPT,
-  brandedINV,
-  brandedPAL,
-  brandedPIZA,
-  brandedMCONTENT,
-  brandedTRAVA,
-  brandedGNY,
-  brandedKYVE,
-  brandedPNT,
-  brandedBSW,
-  brandedPOP,
-  brandedGHUB,
-  brandedGLQ,
-  brandedNXRA,
-  brandedRAY,
-  brandedGXC,
-  brandedNAKA,
-  brandedEPIK,
-  brandedALGB,
-  brandedKNC,
-  brandedPUSH,
-  brandedBLXM,
-  brandedKCS,
-  brandedSTATOM,
-  brandedAXE,
-  brandedMNR,
-  brandedAITECH,
-  brandedNEURONI,
-  brandedZAP,
-  brandedCATHEON,
-  brandedBREED,
-  brandedSHA,
-  brandedQRDO,
-  brandedKLIMA,
-  brandedWBETH,
-  brandedZCX,
-  brandedMCB,
-  brandedFLUID,
-  brandedGULF,
-  brandedACX,
-  brandedFCTR,
-  brandedFEI,
-  brandedONG,
-  brandedMUSE,
-  brandedGRAIN,
-  brandedATLAS,
-  brandedSRX,
-  brandedTULIP,
-  brandedXCM,
-  brandedINTR,
-  brandedALU,
-  brandedTTK,
-  brandedSRM,
-  brandedVLX,
-  brandedSPE,
-  brandedONE,
-  brandedGRIN,
-  brandedGRAIL,
-  brandedOMI,
-  brandedASSA,
-  brandedDYDX,
-  brandedSRLTY,
-  brandedDUSK,
-  brandedFX,
-  brandedPSWAP,
-  brandedTLM,
-  brandedMBD,
-  brandedSN,
-  brandedCOL,
-  brandedAVL,
-  brandedOMNOM,
-  brandedATD,
-  brandedMOC,
-  brandedCAP,
-  brandedAERGO,
-  brandedOTK,
-  brandedLEASH,
-  brandedTFUEL,
-  brandedTREE,
-  brandedTIPS,
-  brandedKAN,
-  brandedELF,
-  brandedRBW,
-  brandedBFT,
-  brandedNPC,
-  brandedGSTS,
-  brandedPICA,
-  brandedLIT,
-  brandedSKEY,
-  brandedGXA,
-  brandedINSUR,
-  brandedPLI,
-  brandedRTM,
-  brandedYGG,
-  brandedTONIC,
-  brandedHILO,
-  brandedLUNR,
-  brandedLYXE,
-  brandedGAT,
-  brandedMOBY,
-  brandedPAY,
-  brandedPROB,
-  brandedJASMY,
-  brandedTIFI,
-  brandedIMO,
-  brandedINT,
-  brandedHIBS,
-  brandedXDATA,
-  brandedHELLO,
-  brandedMANC,
-  brandedKUMA,
-  brandedELON,
-  brandedMIMATIC,
-  brandedBRG,
-  brandedALPH,
-  brandedROUTE,
-  brandedBST,
-  brandedICE,
-  brandedB2M,
-  brandedBEN,
-  brandedDATA,
-  brandedRAMP,
-  brandedRAM,
-  brandedGTC,
-  brandedIXO,
-  brandedGAFI,
-  brandedARBI,
-  brandedAPOLLO,
-  brandedXTP,
-  brandedMLN,
-  brandedAAVE,
-  brandedOATH,
-  brandedJKL,
-  brandedSFI,
-  brandedREALM,
-  brandedKWENTA,
-  brandedATR,
-  brandedCLV,
-  brandedFOREX,
-  brandedMTH,
-  brandedXMR,
-  brandedDF,
-  brandedKISHU,
-  brandedCOSMOSHUB,
-  brandedLQTY,
-  brandedVAI,
-  brandedCTG,
-  brandedBCUBE,
-  brandedDPI,
-  brandedAMP,
-  brandedLOVELY,
-  brandedPAXG,
-  brandedBSCS,
-  brandedOAX,
-  brandedMTL,
-  brandedACH,
-  brandedMVD,
-  brandedPYUSD,
-  brandedATA,
-  brandedC98,
-  brandedPOLYPAD,
-  brandedAVI,
-  brandedVVS,
-  brandedUBSN,
-  brandedKLEVA,
-  brandedCBY,
-  brandedMMY,
-  brandedMNB,
-  brandedSFM,
-  brandedDEL,
-  brandedKITTY,
-  brandedTAO,
-  brandedPPAY,
-  brandedRLY,
-  brandedFEAR,
-  brandedSEED,
-  brandedEMP,
-  brandedDZOO,
-  brandedNOIA,
-  brandedAIMBOT,
-  brandedQASH,
-  brandedBGB,
-  brandedORARE,
-  brandedCSIX,
-  brandedRAI,
-  brandedCRYSTAL,
-  brandedGOZ,
-  brandedETE,
-  brandedBPRO,
-  brandedNFTB,
-  brandedOETH,
-  brandedXPNET,
-  brandedSTRAX,
-  brandedGARI,
-  brandedBLUSD,
-  brandedSIPHER,
-  brandedLUNA,
-  brandedBULL,
-  brandedTBTC,
-  brandedDOMI,
-  brandedUPP,
-  brandedHUSKY,
-  brandedTELOS,
-  brandedUQC,
-  brandedSMARTCREDIT,
-  brandedASTRAFER,
-  brandedANKR,
-  brandedBIFI,
-  brandedQUICK,
-  brandedMATH,
-  brandedBDX,
-  brandedRBD,
-  brandedELU,
-  brandedHIVE,
-  brandedGHNY,
-  brandedARCH,
-  brandedWSI,
-  brandedENJ,
-  brandedVOXEL,
-  brandedPINU,
-  brandedATOM,
-  brandedCAT,
-  brandedMOG,
-  brandedEQUAD,
-  brandedCELO,
-  brandedSTRONG,
-  brandedURUS,
-  brandedCBX,
-  brandedMLK,
-  brandedTARA,
-  brandedMMO,
-  brandedMNT,
-  brandedZNN,
-  brandedPOND,
-  brandedMNST,
-  brandedRING,
-  brandedCLS,
-  brandedTOR,
-  brandedPORTAL,
-  brandedVEGA,
-  brandedAZERO,
-  brandedTORN,
-  brandedHYDRA,
-  brandedOOE,
-  brandedCRTS,
-  brandedETHM,
-  brandedGO,
-  brandedVALOR,
-  brandedSTRP,
-  brandedSTELLA,
-  brandedRAVEN,
-  brandedDC,
-  brandedDPAY,
-  brandedFIL,
-  brandedTWT,
-  brandedAMB,
-  brandedID,
-  brandedSPA,
-  brandedDEXT,
-  brandedSSX,
-  brandedSIGNA,
-  brandedIQ,
-  brandedDWEB,
-  brandedGEEQ,
-  brandedSRK,
-  brandedCUSD,
-  brandedONT,
-  brandedVCF,
-  brandedBLOCK,
-  brandedETHX,
-  brandedEARN,
-  brandedMWC,
-  brandedFOAM,
-  brandedLAYER,
-  brandedMAN,
-  brandedSDAO,
-  brandedZAT,
-  brandedVTX,
-  brandedOXY,
-  brandedSPIRIT,
-  brandedTNT,
-  brandedKOIN,
-  brandedTOP,
-  brandedPOLY,
-  brandedKOGE,
-  brandedOVR,
-  brandedMOE,
-  brandedDACXI,
-  brandedBAKE,
-  brandedWRX,
-  brandedTLOS,
-  brandedCANTO,
-  brandedGZONE,
-  brandedPWR,
-  brandedGFAL,
-  brandedDJED,
-  brandedBFR,
-  brandedNGL,
-  brandedCTXC,
-  brandedPNG,
-  brandedRVC,
-  brandedNSBT,
-  brandedUSDX,
-  brandedPNP,
-  brandedLSK,
-  brandedNHT,
-  brandedWELL,
-  brandedLUNC,
-  brandedEUNO,
-  brandedOUSD,
-  brandedPROS,
-  brandedMOBI,
-  brandedCCV2,
-  brandedPAI,
-  brandedPBR,
-  brandedGAS,
-  brandedBEETS,
-  brandedPLEB,
-  brandedCUMINU,
-  brandedINS,
-  brandedEXD,
-  brandedNKN,
-  brandedUSH,
-  brandedTRAXX,
-  brandedTOWER,
-  brandedSYLO,
-  brandedY2K,
-  brandedPLN,
-  brandedETP,
-  brandedMOON,
-  brandedGLC,
-  brandedPLY,
-  brandedSWAP,
-  brandedKEEP,
-  brandedSFUND,
-  brandedNGM,
-  brandedSWISE,
-  brandedUFI,
-  brandedALEX,
-  brandedRDPX,
-  brandedCBETH,
-  brandedCHRP,
-  brandedWOJAK,
-  brandedKAI,
-  brandedCELL,
-  brandedHAWK,
-  brandedMOD,
-  brandedCAW,
-  brandedREVO,
-  brandedTRIAS,
-  brandedMNW,
-  brandedMAX,
-  brandedSI,
-  brandedPOLX,
-  brandedHMND,
-  brandedMEAN,
-  brandedUNIX,
-  brandedSTRD,
-  brandedNBLU,
-  brandedDGNX,
-  brandedES,
-  brandedVIDT,
-  brandedXNO,
-  brandedHT,
-  brandedFIO,
-  brandedOCE,
-  brandedMZR,
-  brandedPOWR,
-  brandedGLMR,
-  brandedDPX,
-  brandedAQTIS,
-  brandedXCH,
-  brandedMXM,
-  monoSOCKS,
-  monoTHOL,
-  monoGLINK,
-  monoSPX,
-  monoMINA,
-  monoCXO,
-  monoABT,
-  monoBMEX,
-  monoRBIF,
-  monoSAIL,
-  monoVAB,
-  monoCNFI,
-  monoUW3S,
-  monoZBC,
-  monoOXB,
-  monoSHI,
-  monoVTC,
-  monoSWFTC,
-  mono2DAI,
-  monoD3D,
-  monoPALM,
-  monoBHAT,
-  monoHST,
-  monoDFX,
-  monoHPO,
-  monoOMAX,
-  monoXVS,
-  monoTRIBE,
-  monoENS,
-  monoSPARTA,
-  monoWINR,
-  monoIXS,
-  monoROOK,
-  monoCMOS,
-  monoKAS,
-  monoMTLX,
-  monoRCN,
-  monoSONNE,
-  monoKLT,
-  monoITP,
-  monoNABOX,
-  monoEPIC,
-  monoOPUL,
-  monoVSYS,
-  monoPNK,
-  monoUSDC,
-  monoPLT,
-  monoNORD,
-  monoYFI,
-  monoGHOST,
-  monoUSDT,
-  monoTHETA,
-  monoLRC,
-  monoGAI,
-  monoMETFI,
-  monoPREMIA,
-  monoWAMPL,
-  monoPLEX,
-  monoOBSR,
-  monoILV,
-  monoRXD,
-  monoZERO,
-  monoDIVER,
-  monoBUMP,
-  monoWGC,
-  monoFUSE,
-  monoGZIL,
-  monoYES,
-  monoPLU,
-  monoICX,
-  monoRVN,
-  monoPRTC,
-  monoPXP,
-  monoLDO,
-  monoKAR,
-  monoHEGIC,
-  monoSLND,
-  monoQUINT,
-  monoWOMBAT,
-  monoPTS,
-  monoCCD,
-  monoCIRUS,
-  monoXTZ,
-  monoTDROP,
-  monoVXV,
-  monoAXL,
-  monoOXT,
-  monoDIA,
-  monoWOOF,
-  monoFOUR,
-  monoMBX,
-  monoPI,
-  monoBOSON,
-  monoBBANK,
-  monoMNDE,
-  monoWLITI,
-  monoACQ,
-  monoHFT,
-  monoCNHT,
-  monoAURORA,
-  monoCVR,
-  monoALI,
-  monoNEER,
-  monoCVP,
-  monoMXC,
-  monoAMO,
-  monoANT,
-  monoDSM,
-  monoHEZ,
-  monoANC,
-  monoCTX,
-  monoBTCMT,
-  monoMETA,
-  monoWITCH,
-  monoXNA,
-  monoXOR,
-  monoVCORE,
-  monoEVER,
-  monoSTFX,
-  monoMYST,
-  monoPOLA,
-  monoSHROOM,
-  monoMAV,
-  monoREVV,
-  monoXVG,
-  monoDENT,
-  monoD2T,
-  monoEOSDT,
-  monoZLK,
-  monoODIN,
-  monoWAGMIGAMES,
-  monoKAG,
-  monoKAP,
-  monoRLB,
-  monoORBS,
-  monoKMD,
-  monoSUTER,
-  monoRAE,
-  monoSWTH,
-  monoNGC,
-  monoGLM,
-  monoETI,
-  monoPOL,
-  monoWLKN,
-  monoCONV,
-  monoBLOX,
-  monoTROVE,
-  monoLSD,
-  monoKUB,
-  monoLSS,
-  monoINJ,
-  monoION,
-  monoKOMPETE,
-  monoWELT,
-  monoKASTA,
-  monoAGLD,
-  monoNFTX,
-  monoVSTA,
-  mono1INCH,
-  monoUSDV,
-  monoDOLA,
-  monoDOME,
-  monoPLA,
-  monoGNS,
-  monoEUL,
-  monoDMTR,
-  monoMETIS,
-  monoAIMX,
-  monoMOOV,
-  monoBRN,
-  monoETH,
-  monoRAD,
-  monoKOM,
-  monoBIDZ,
-  monoKLV,
-  monoGOFX,
-  monoBDT,
-  monoWING,
-  monoKWAI,
-  monoRLC,
-  monoBITCI,
-  monoPOOLX,
-  monoPORTX,
-  monoYFII,
-  monoTOSHI,
-  monoMBL,
-  monoSIX,
-  monoLOKA,
-  monoCLH,
-  monoDIVI,
-  monoCOS,
-  monoFSN,
-  monoJST,
-  monoSTPT,
-  monoPHONON,
-  monoMVI,
-  monoPIXEL,
-  monoMTV,
-  monoSTRK,
-  monoDUST,
-  monoFET,
-  monoGT,
-  monoMTA,
-  monoFOLD,
-  monoIBAT,
-  monoONION,
-  monoXCP,
-  monoH2O,
-  monoRITE,
-  monoTVK,
-  monoVNO,
-  monoSSV,
-  monoMIMO,
-  monoWAXP,
-  monoDPS,
-  monoTUT,
-  monoMUSIC,
-  monoFIS,
-  monoEUROE,
-  monoONI,
-  monoSTRX,
-  monoNULS,
-  monoCEUR,
-  monoABR,
-  monoCND,
-  monoSHX,
-  monoPOLS,
-  monoPAAL,
-  monoATH,
-  monoCOW,
-  monoEQUAL,
-  monoPUNDIX,
-  monoSPORE,
-  monoATOR,
-  monoSDL,
-  monoDFI,
-  monoKAU,
-  monoGMPD,
-  monoSHIDO,
-  monoROME,
-  monoSKEB,
-  monoKMA,
-  monoBDP,
-  monoNRG,
-  monoRSS3,
-  monoMONA,
-  monoPLR,
-  monoHANDY,
-  monoEXTRA,
-  monoFEVR,
-  monoLPOOL,
-  monoUNDEAD,
-  monoGMEE,
-  monoKTC,
-  monoCSPR,
-  monoSBTC,
-  monoLEVER,
-  monoAGLA,
-  monoPAC,
-  monoPBX,
-  monoICHI,
-  monoCUDOS,
-  monoNEX,
-  monoBPT,
-  monoGMM,
-  monoUSDD,
-  monoNCDT,
-  monoWIN,
-  monoYDF,
-  monoBSX,
-  monoNEO,
-  monoHONEY,
-  monoPRIME,
-  monoSLAM,
-  monoPYR,
-  monoUFT,
-  monoUMAMI,
-  monoLIF3,
-  monoXCFX,
-  monoTEER,
-  monoBLUR,
-  monoELK,
-  monoPTU,
-  monoKP3R,
-  monoIXT,
-  monoKAT,
-  monoSEI,
-  monoBTSG,
-  monoCETUS,
-  monoXWG,
-  monoXPRT,
-  monoDIP,
-  monoCOV,
-  monoODDZ,
-  monoDHT,
-  monoSC,
-  monoJUNGLE4EOS,
-  monoAVA,
-  monoSTEP,
-  monoARIA20,
-  monoMTD,
-  monoVRSW,
-  monoMNGO,
-  monoMVL,
-  monoSCRT,
-  monoMTS,
-  monoXLM,
-  monoCTK,
-  monoSPH,
-  monoBCDT,
-  monoZYN,
-  monoCVC,
-  monoHGT,
-  monoAVAX,
-  monoCWEB,
-  monoBORA,
-  monoALPHA,
-  monoMIND,
-  monoAEGIS,
-  monoHDX,
-  monoCTI,
-  monoALEPH,
-  monoSHOPX,
-  monoIRIS,
-  monoSOFI,
-  monoEL,
-  monoOZO,
-  monoCNG,
-  monoTON,
-  monoFRM,
-  monoOMMI,
-  monoAVT,
-  monoAVINOC,
-  monoBTSE,
-  monoSFP,
-  monoCAH,
-  monoLEO,
-  monoFNSA,
-  monoCROID,
-  monoBIT,
-  monoNFAI,
-  monoALGO,
-  monoNODL,
-  monoWNDR,
-  monoXCHF,
-  monoGMX,
-  monoGOG,
-  monoONIT,
-  monoPIVX,
-  monoBIST,
-  monoEWT,
-  monoRWN,
-  monoHUSD,
-  monoKLAY,
-  monoPROM,
-  monoGAL,
-  monoIDLE,
-  monoGCR,
-  monoTRONPAD,
-  monoETN,
-  monoTIDAL,
-  monoSOLVE,
-  monoKUNCI,
-  monoVTHO,
-  monoRBN,
-  monoRENBTC,
-  monoNPM,
-  monoEOS,
-  monoMOVR,
-  monoEML,
-  monoUNIBOT,
-  monoMOVE,
-  mono0X0,
-  monoSDN,
-  monoUNFI,
-  monoCELR,
-  monoDEP,
-  monoDGX,
-  monoASIA,
-  monoFPS,
-  monoQSR,
-  monoQUBE,
-  monoPUMLX,
-  monoXYO,
-  monoBZRX,
-  monoBRIDGE,
-  monoXIDO,
-  monoMETF,
-  monoMPLX,
-  monoFER,
-  monoCHAIN,
-  monoTAKI,
-  monoOMG,
-  monoACT,
-  monoOLT,
-  monoSSWP,
-  monoCREDI,
-  monoEXRD,
-  monoCWS,
-  monoHOOK,
-  monoQKC,
-  monoGSWIFT,
-  monoOAS,
-  monoTRU,
-  monoXDB,
-  monoXDEFI,
-  monoCQT,
-  monoCRO,
-  monoNRCH,
-  monoAHT,
-  monoBUILD,
-  monoGBEX,
-  monoTRB,
-  monoZOOMER,
-  monoSXP,
-  monoXPLA,
-  monoCLXY,
-  monoCARBON,
-  monoXHV,
-  monoHON,
-  monoSALT,
-  monoFORT,
-  monoDOT,
-  monoTT,
-  monoAPE,
-  monoELAND,
-  monoASTROC,
-  monoSMBR,
-  monoVENT,
-  monoTGT,
-  monoZIG,
-  monoTRCL,
-  monoKEX,
-  monoPRQ,
-  monoRIN,
-  monoXSGD,
-  monoKINT,
-  monoMMPRO,
-  monoWBTC,
-  monoEFL,
-  monoSWEAT,
-  monoWXT,
-  monoRPL,
-  monoCROWD,
-  monoCYBER,
-  monoGIV,
-  monoBEAM,
-  monoTRYB,
-  monoAIPAD,
-  monoWNXM,
-  monoNLS,
-  monoPEX,
-  monoSHRAP,
-  monoTRVL,
-  monoGET,
-  monoFDUSD,
-  monoQANX,
-  monoBZR,
-  monoSILK,
-  monoSAKAI,
-  monoBAX,
-  monoFRIN,
-  monoTROY,
-  monoBAO,
-  monoLINK,
-  monoALOT,
-  monoUMA,
-  monoMORK,
-  monoKEY,
-  monoJULD,
-  monoHTR,
-  monoORT,
-  monoGYEN,
-  monoDAI,
-  monoDBR,
-  monoMATICX,
-  monoCDT,
-  monoCGO,
-  monoGLEEC,
-  monoUBXS,
-  monoDEFI,
-  monoVRA,
-  monoHZN,
-  monoFUN,
-  monoVITA,
-  monoZEE,
-  monoADA,
-  monoCERE,
-  monoFCT,
-  mono1ART,
-  monoXEP,
-  monoTRC,
-  monoEDGE,
-  monoL2,
-  monoWCFG,
-  monoMARSH,
-  monoXDC,
-  monoSOLO,
-  monoVERSE,
-  monoSTG,
-  monoQLC,
-  monoSOLX,
-  monoATRI,
-  monoSPACE,
-  monoROOBEE,
-  monoSENATE,
-  monoOKT,
-  monoAA,
-  monoTHEO,
-  monoVSP,
-  monoHXD,
-  monoDEGO,
-  monoSETH2,
-  monoLIME,
-  monoRJV,
-  monoUNO,
-  monoPRE,
-  monoARKM,
-  monoREN,
-  monoGALA,
-  monoEFX,
-  monoIST,
-  monoTOKEN,
-  monoEDG,
-  monoGAME,
-  monoROSE,
-  monoIDEX,
-  monoBEAN,
-  monoYAM,
-  monoRSC,
-  monoLTC,
-  monoBXX,
-  monoTUSD,
-  monoCTSI,
-  monoHERO,
-  monoWIKEN,
-  monoPKF,
-  monoTPAD,
-  monoNAV,
-  monoPYTH,
-  monoTIME,
-  monoSIDUS,
-  monoLIBRE,
-  monoBTM,
-  monoKIN,
-  monoDVPN,
-  monoLUSD,
-  monoBCD,
-  monoREGEN,
-  monoBAL,
-  monoHBOT,
-  monoMATIC,
-  monoBMX,
-  monoNXT,
-  monoUMB,
-  monoWWY,
-  monoLAT,
-  monoPIKA,
-  monoBNT,
-  monoCOPE,
-  monoSTOSMO,
-  monoDCB,
-  monoXPR,
-  monoJUNO,
-  monoFUTURE,
-  monoPOLYX,
-  monoBAND,
-  monoEVEAI,
-  monoMBOX,
-  monoJOY,
-  monoFYN,
-  monoSOL,
-  monoAQT,
-  monoMDX,
-  monoBOLT,
-  monoHORD,
-  monoSOUL,
-  monoDERO,
-  monoAXEL,
-  monoHOGE,
-  monoOKB,
-  monoCRPT,
-  monoADAPAD,
-  mono3ULL,
-  monoX2Y2,
-  monoZRX,
-  monoMC,
-  monoFLX,
-  monoSUB,
-  monoEDEN,
-  monoOX,
-  monoDTX,
-  monoREEF,
-  monoDESO,
-  monoECOX,
-  monoVEX,
-  monoFORTH,
-  monoSAMA,
-  monoDXL,
-  monoHAIR,
-  monoSPOOL,
-  monoMFT,
-  monoPOKT,
-  monoFORE,
-  monoRADIO,
-  monoAPT,
-  monoMEX,
-  monoARK,
-  monoMNTL,
-  monoFTM,
-  monoSCLP,
-  monoSATT,
-  monoPAID,
-  monoAART,
-  monoBTCST,
-  monoINFRA,
-  monoKINE,
-  monoBLX,
-  monoDFYN,
-  monoSPHERE,
-  monoHYVE,
-  monoLCX,
-  monoIDRT,
-  monoWIGO,
-  monoQUIDD,
-  monoEDU,
-  monoRGT,
-  monoWALLET,
-  monoLZM,
-  monoDOGA,
-  monoAGIX,
-  monoQTUM,
-  monoWEMIX,
-  monoBEND,
-  monoRVST,
-  monoDXGM,
-  monoCAKE,
-  monoYOU,
-  monoPKT,
-  monoWOM,
-  monoERN,
-  monoLITT,
-  monoEQB,
-  monoIGU,
-  monoCAST,
-  monoAGRS,
-  monoRDN,
-  monoEGO,
-  monoBICO,
-  monoBUSD,
-  monoSUIP,
-  monoISP,
-  monoMASQ,
-  monoXSUSHI,
-  monoDOSE,
-  monoTRAC,
-  monoBOB,
-  monoTEL,
-  monoSTMX,
-  monoDAO,
-  monoBFIC,
-  monoDEXTF,
-  monoMKR,
-  monoDBC,
-  monoATPAY,
-  monoLAND,
-  monoDEFX,
-  monoSLR,
-  monoSDEX,
-  monoADCO,
-  monoZEC,
-  monoTKP,
-  monoETHIX,
-  monoAR,
-  monoADP,
-  monoSYS,
-  monoGENI,
-  monoAE,
-  monoMST,
-  monoPAWTH,
-  monoBSGG,
-  monoMYRIA,
-  monoMF,
-  monoVPAD,
-  mono10SET,
-  monoWAGMI,
-  monoDVF,
-  monoVIX,
-  monoFITFI,
-  monoXET,
-  monoXDG,
-  monoRISE,
-  monoSOMM,
-  monoGRAI,
-  monoPRIMAL,
-  monoXEC,
-  monoJUP,
-  monoVLXPAD,
-  monoOXEN,
-  monoTHALES,
-  monoAGI,
-  monoFWB,
-  monoSLG,
-  monoSTBU,
-  monoLOOM,
-  monoPAPER,
-  monoSNX,
-  monoFTN,
-  monoVITE,
-  monoAPW,
-  monoSMT,
-  monoZZ,
-  monoCFX,
-  monoIPOR,
-  monoDCR,
-  monoABYSS,
-  monoCOMBO,
-  monoAIRI,
-  monoPSP,
-  monoUNI,
-  monoDASH,
-  monoEGLD,
-  monoPERI,
-  monoBCT,
-  monoXAVA,
-  monoEFI,
-  monoBUY,
-  monoDAFI,
-  monoYAK,
-  monoYCC,
-  monoWNK,
-  monoRSR,
-  monoWHALE,
-  monoSILO,
-  monoWOO,
-  monoNOM,
-  monoNMR,
-  monoWAS,
-  monoFACTR,
-  monoSAITAMA,
-  monoLUA,
-  monoSFRXETH,
-  monoRARI,
-  monoDODO,
-  monoSAITO,
-  monoRDNT,
-  monoSOLID,
-  monoKUJI,
-  monoLVL,
-  monoMCRT,
-  monoLAZIO,
-  monoNSFW,
-  monoNAP,
-  monoLUFC,
-  monoWIFI,
-  monoBCB,
-  monoCARD,
-  monoLON,
-  monoARDR,
-  monoCARAT,
-  monoBLZ,
-  monoBOA,
-  monoSTJUNO,
-  monoAREA,
-  monoDSRUN,
-  monoVELO,
-  monoMIN,
-  monoOSMO,
-  monoSTOS,
-  monoHVH,
-  monoCHR,
-  monoASM,
-  monoHXRO,
-  monoDOG,
-  monoGAINS,
-  monoADS,
-  monoMRS,
-  monoMPL,
-  monoDERI,
-  monoLORDS,
-  monoXKI,
-  monoSCNSOL,
-  monoNPXS,
-  monoOM,
-  monoAIT,
-  monoOOKI,
-  monoFOR,
-  monoBONDLY,
-  monoLA,
-  monoSUI,
-  monoINST,
-  monoAIN,
-  monoFLS,
-  monoOOKS,
-  monoXFT,
-  monoBTCP,
-  monoSFTMX,
-  monoXETA,
-  monoHMX,
-  monoRUNE,
-  monoHOP,
-  monoMCADE,
-  monoPARA,
-  monoVIDYA,
-  monoHNT,
-  monoBRICK,
-  monoKICKS,
-  monoAPL,
-  monoSNT,
-  monoPROPS,
-  monoLMWR,
-  monoTHE,
-  monoSNC,
-  monoAMKT,
-  monoTIA,
-  monoMNTC,
-  monoXI,
-  monoCGG,
-  monoHTM,
-  monoPRO,
-  monoPLASTIK,
-  monoPRX,
-  monoFUND,
-  monoAURABAL,
-  monoLOC,
-  monoNVT,
-  monoMAPS,
-  monoKNDX,
-  monoFAKEAI,
-  monoBURGER,
-  monoGAMMA,
-  monoUTK,
-  monoCUSDC,
-  monoWISE,
-  monoWEFI,
-  monoPHA,
-  monoNAVI,
-  monoARRR,
-  monoBERRY,
-  monoBZZ,
-  monoSETH,
-  monoBELT,
-  monoFPIS,
-  monoFIDA,
-  monoPGX,
-  monoRARE,
-  monoHBTC,
-  monoXFUND,
-  monoLIXX,
-  monoLAUNCH,
-  monoPDT,
-  monoARSW,
-  monoNCT,
-  monoAPEX,
-  monoAPFC,
-  monoIDV,
-  monoBTG,
-  monoLYX,
-  monoBETS,
-  monoQTCON,
-  monoBCN,
-  monoUND,
-  monoLAI,
-  monoLBR,
-  monoNYM,
-  monoGRC,
-  monoRIF,
-  monoPRY,
-  monoSUDO,
-  monoKILT,
-  monoGRT,
-  monoZKP,
-  monoXRP,
-  monoWAIT,
-  monoTET,
-  monoXPX,
-  monoVEMP,
-  monoHAPI,
-  monoRAZOR,
-  monoXRUNE,
-  monoSTAT,
-  monoFRONT,
-  monoFTC,
-  monoVC,
-  monoDMC,
-  monoAPM,
-  monoDMT,
-  monoZANO,
-  monoVIB,
-  monoTOMI,
-  monoNEAR,
-  monoBTRFLY,
-  monoFLR,
-  monoDVI,
-  monoLM,
-  monoCUMMIES,
-  monoCRE,
-  monoSPANK,
-  monoBTC2,
-  monoBS,
-  monoSHFT,
-  monoVET,
-  monoR,
-  monoHAKA,
-  monoIBIT,
-  monoVV,
-  monoCKP,
-  monoAST,
-  monoJAM,
-  monoMET,
-  monoAPX,
-  monoZEN,
-  monoCEL,
-  monoSAVG,
-  monoSCP,
-  monoVELA,
-  monoWHITE,
-  monoXELS,
-  monoSRCX,
-  monoKDA,
-  monoFIRO,
-  monoTRADE,
-  monoPRISM,
-  monoBLT,
-  monoGSE,
-  monoBOX,
-  monoNALS,
-  monoEURS,
-  monoRDT,
-  monoREP,
-  monoBEPRO,
-  monoMCHC,
-  monoMSOL,
-  monoRAKE,
-  monoSUKU,
-  monoMASK,
-  monoGHO,
-  monoSWETH,
-  monoAUCTION,
-  monoPHB,
-  monoERTHA,
-  monoGHX,
-  monoJMPT,
-  monoFLUX,
-  monoGOVI,
-  monoLYM,
-  monoEQX,
-  monoTETU,
-  monoMAHA,
-  monoSUSD,
-  monoKRL,
-  monoKROM,
-  monoCHAT,
-  monoPURSE,
-  monoSTEEM,
-  monoBLID,
-  monoRPG,
-  monoREUNI,
-  monoBTS,
-  monoPIP,
-  monoARI10,
-  monoOBOT,
-  monoREF,
-  monoISK,
-  monoNUM,
-  monoEGC,
-  monoRAIL,
-  monoREQ,
-  monoSEND,
-  monoHUNT,
-  monoTENET,
-  monoPERP,
-  monoLPNT,
-  monoDSETH,
-  monoRMRK,
-  monoXCAD,
-  monoLINA,
-  monoEJS,
-  monoK21,
-  monoFLOW,
-  monoSTSTARS,
-  monoGUSD,
-  monoBOBA,
-  monoZIL,
-  monoALLIN,
-  monoSAN,
-  monoXRD,
-  monoJONES,
-  monoDCK,
-  monoNFTBS,
-  monoHOPR,
-  monoASCN,
-  monoPASG,
-  monoPART,
-  monoBCMC,
-  monoAI,
-  monoXEM,
-  monoSTX,
-  monoVIA,
-  monoQNT,
-  monoHBB,
-  monoMARS4,
-  monoSTARS,
-  monoOCEAN,
-  monoCREAM,
-  monoCPH,
-  monoADX,
-  monoSAND,
-  monoKARATE,
-  monoMUTE,
-  monoTIG,
-  monoARB,
-  monoTKX,
-  monoDMD,
-  monoCREO,
-  monoSOV,
-  monoIPAD,
-  monoTKO,
-  monoVOICE,
-  monoSCB,
-  monoKALM,
-  monoBOTTO,
-  monoMIR,
-  monoDAG,
-  monoALPACA,
-  monoAPEFI,
-  monoNEWO,
-  monoNETT,
-  monoIONX,
-  monoMDAO,
-  monoWACME,
-  monoHBAR,
-  monoGRS,
-  monoPERC,
-  monoEGG,
-  monoKIT,
-  monoEFC,
-  monoGAMI,
-  monoKICK,
-  monoCMDX,
-  monoMEDIA,
-  monoIOTA,
-  monoLTO,
-  monoTOPIA,
-  monoXCUR,
-  monoKSM,
-  monoBROCK,
-  monoLTX,
-  monoWAN,
-  monoMETAV,
-  monoNMX,
-  monoGEL,
-  monoWBT,
-  monoAERO,
-  monoIDIA,
-  monoLYRA,
-  monoTITAN,
-  monoPIB,
-  monoERG,
-  monoBTA,
-  monoNCR,
-  monoBCH,
-  monoALCX,
-  monoBBL,
-  monoRFOX,
-  monoEUSD,
-  monoBLP,
-  monoPSL,
-  monoCOPI,
-  monoLBT,
-  monoBNX,
-  monoBMC,
-  monoBIGSB,
-  monoXY,
-  monoCHO,
-  monoTKN,
-  monoSNS,
-  monoLQDR,
-  monoVR,
-  monoPROPC,
-  monoMDT,
-  monoARC,
-  monoDERC,
-  monoSTORJ,
-  monoVGX,
-  monoGEOD,
-  monoOP,
-  monoNEBO,
-  monoPENDLE,
-  monoSOON,
-  monoMX,
-  monoAMPL,
-  monoHAI,
-  monoO3,
-  monoAKT,
-  monoDEFIT,
-  monoMM,
-  monoT,
-  monoIRON,
-  monoGAMEFI,
-  monoIGNIS,
-  monoVEE,
-  monoMPS,
-  monoVEUR,
-  monoGSWAP,
-  monoCHZ,
-  monoDLC,
-  monoAZIT,
-  monoMEED,
-  monoRGEN,
-  monoARV,
-  monoDAD,
-  monoXRT,
-  monoXSP,
-  monoSAI,
-  monoREV3L,
-  monoRIDE,
-  monoFXS,
-  monoOPIUM,
-  monoLGCY,
-  monoLCR,
-  monoNXM,
-  monoUOS,
-  monoCDAI,
-  monoGALEON,
-  monoREV,
-  monoSOURCE,
-  monoUBT,
-  monoCAPS,
-  monoBTC,
-  monoNBT,
-  monoLITH,
-  monoBTT,
-  monoLEOX,
-  monoHIFI,
-  monoECOIN,
-  monoNOS,
-  monoSNFT,
-  monoGGP,
-  monoMTRG,
-  monoGGG,
-  monoIDEA,
-  monoZPAY,
-  monoBTU,
-  monoBSCPAD,
-  monoACRIA,
-  monoGUILD,
-  monoNWC,
-  monoNTX,
-  monoBAT,
-  monoLOOKS,
-  monoEURT,
-  monoBETA,
-  monoBORING,
-  monoEVMOS,
-  monoPINKSALE,
-  monoRDD,
-  monoXAUR,
-  monoPROTEO,
-  monoTABOO,
-  monoPPT,
-  monoSUSHI,
-  monoLING,
-  monoORDI,
-  monoLCS,
-  monoPPC,
-  monoHERMES,
-  monoBLD,
-  monoZKB,
-  monoCGT,
-  monoHARD,
-  monoCFG,
-  monoIETH,
-  monoSBD,
-  monoLAMB,
-  monoUNCX,
-  monoQUARTZ,
-  monoMED,
-  monoBOND,
-  monoGBYTE,
-  monoASD,
-  monoKAVA,
-  monoTXAU,
-  monoU,
-  monoHOT,
-  monoCRU,
-  monoDIKO,
-  monoML,
-  monoVEXT,
-  monoOS,
-  monoTREEB,
-  monoKMON,
-  monoGRAV,
-  monoCLORE,
-  monoTRX,
-  monoOGN,
-  monoCTR,
-  monoPDEX,
-  monoWHALES,
-  monoTHOR,
-  monoZTG,
-  monoHID,
-  monoMUSD,
-  monoWOZX,
-  monoSKL,
-  monoBRISE,
-  monoSOPH,
-  monoQUAD,
-  monoQR,
-  monoSWASH,
-  monoSIS,
-  monoOMNI,
-  monoQRL,
-  monoDKA,
-  monoAUDIO,
-  monoZCN,
-  monoFRA,
-  monoSDT,
-  monoCAS,
-  monoAXS,
-  monoLODE,
-  monoMND,
-  monoYOSHI,
-  monoDGB,
-  monoCRWNY,
-  monoFCON,
-  monoRNDR,
-  monoPLANETS,
-  monoLET,
-  monoFLOOR,
-  monoPSTAKE,
-  monoBEL,
-  monoPZP,
-  monoNVIR,
-  monoTAROT,
-  monoNFTART,
-  monoBISO,
-  monoGNO,
-  monoBSV,
-  monoGORA,
-  monoCOMP,
-  monoLUCA,
-  monoGDCC,
-  monoETC,
-  monoICP,
-  monoPNB,
-  monoSYNC,
-  monoMANA,
-  monoIDNA,
-  monoWRLD,
-  monoHUSH,
-  monoWAVES,
-  monoGYMNET,
-  monoAURA,
-  monoMOBILE,
-  monoLPT,
-  monoINV,
-  monoPAL,
-  monoMCONTENT,
-  monoTRAVA,
-  monoGNY,
-  monoKYVE,
-  monoPNT,
-  monoBSW,
-  monoAIOZ,
-  monoPOP,
-  monoGLQ,
-  monoNXRA,
-  monoRAY,
-  monoGXC,
-  monoEPIK,
-  monoALGB,
-  monoKNC,
-  monoPUSH,
-  monoBLXM,
-  monoKCS,
-  monoSTATOM,
-  monoFRAX,
-  monoAXE,
-  monoMNR,
-  monoNEURONI,
-  monoNEST,
-  monoZAP,
-  monoCATHEON,
-  monoBREED,
-  monoQRDO,
-  monoKLIMA,
-  monoWBETH,
-  monoZCX,
-  monoMCB,
-  monoFLUID,
-  monoGULF,
-  monoACX,
-  monoAAG,
-  monoFCTR,
-  monoFEI,
-  monoONG,
-  monoMUSE,
-  monoGRAIN,
-  monoATLAS,
-  monoSRX,
-  monoTULIP,
-  monoXCM,
-  monoINTR,
-  monoDEXE,
-  monoALU,
-  monoTTK,
-  monoSRM,
-  monoVLX,
-  monoONE,
-  monoGRIN,
-  monoGRAIL,
-  monoOMI,
-  monoASSA,
-  monoDYDX,
-  monoSRLTY,
-  monoDUSK,
-  monoFX,
-  monoPSWAP,
-  monoTLM,
-  monoMBD,
-  monoSN,
-  monoGCOIN,
-  monoCAP,
-  monoAERGO,
-  monoOTK,
-  monoTFUEL,
-  monoTIPS,
-  monoKAN,
-  monoELF,
-  monoBFT,
-  monoNPC,
-  monoPICA,
-  monoLIT,
-  monoSKEY,
-  monoGXA,
-  monoIOST,
-  monoINSUR,
-  monoPLI,
-  monoRTM,
-  monoTONIC,
-  monoHILO,
-  monoLUNR,
-  monoLYXE,
-  monoMOBY,
-  monoPAY,
-  monoPROB,
-  monoJASMY,
-  monoTIFI,
-  monoIMO,
-  monoINT,
-  monoHIBS,
-  monoXDATA,
-  monoHELLO,
-  monoMANC,
-  monoMIMATIC,
-  monoBRG,
-  monoALPH,
-  monoROUTE,
-  monoBST,
-  monoICE,
-  monoB2M,
-  monoDATA,
-  monoRAMP,
-  monoRAM,
-  monoGTC,
-  monoIXO,
-  monoGAFI,
-  monoARBI,
-  monoAPOLLO,
-  monoXTP,
-  monoMLN,
-  monoAAVE,
-  monoOATH,
-  monoJKL,
-  monoM87,
-  monoSFI,
-  monoREALM,
-  monoKWENTA,
-  monoATR,
-  monoCLV,
-  monoFOREX,
-  monoMTH,
-  monoXMR,
-  monoDF,
-  monoCOSMOSHUB,
-  monoVAI,
-  monoCTG,
-  monoBCUBE,
-  monoAMP,
-  monoLOVELY,
-  monoCTC,
-  monoPAXG,
-  monoOAX,
-  monoMTL,
-  monoACH,
-  monoMVD,
-  monoABL,
-  monoPYUSD,
-  monoC98,
-  monoPOLYPAD,
-  monoVVS,
-  monoUBSN,
-  monoKLEVA,
-  monoCBY,
-  monoMMY,
-  monoMNB,
-  monoSFM,
-  monoDEL,
-  monoTAO,
-  monoZKID,
-  monoPPAY,
-  monoRLY,
-  monoFEAR,
-  monoEMP,
-  monoNOIA,
-  monoAIMBOT,
-  monoQASH,
-  monoBGB,
-  monoORARE,
-  monoITHEUM,
-  monoCSIX,
-  monoETE,
-  monoBPRO,
-  monoNFTB,
-  monoOETH,
-  monoXPNET,
-  monoSTRAX,
-  monoBULL,
-  monoTBTC,
-  monoSEILOR,
-  monoDOMI,
-  monoUPP,
-  monoTELOS,
-  monoUQC,
-  monoSMARTCREDIT,
-  monoANKR,
-  monoBIFI,
-  monoSLCL,
-  monoMATH,
-  monoBDX,
-  monoFLAME,
-  monoRBD,
-  monoHIVE,
-  monoGHNY,
-  monoWSI,
-  monoENJ,
-  monoVOXEL,
-  monoATOM,
-  monoEQUAD,
-  monoCELO,
-  monoSTRONG,
-  monoURUS,
-  monoCBX,
-  monoMLK,
-  monoTARA,
-  monoMNT,
-  monoZNN,
-  monoPOND,
-  monoMNST,
-  monoRING,
-  monoCLS,
-  monoTOR,
-  monoPORTAL,
-  monoVEGA,
-  monoAZERO,
-  monoTORN,
-  monoHYDRA,
-  monoOOE,
-  monoCRTS,
-  monoETHM,
-  monoQMALL,
-  monoGO,
-  monoVALOR,
-  monoSTRP,
-  monoRAVEN,
-  monoDC,
-  monoDPAY,
-  monoFIL,
-  monoTWT,
-  monoDIMO,
-  monoAMB,
-  monoID,
-  monoSPA,
-  monoDEXT,
-  monoSPC,
-  monoSSX,
-  monoSIGNA,
-  monoIQ,
-  monoDWEB,
-  monoGEEQ,
-  monoSRK,
-  monoCUSD,
-  monoONT,
-  monoBLOCK,
-  monoETHX,
-  monoEARN,
-  monoMWC,
-  monoLAYER,
-  monoMAN,
-  monoZAT,
-  monoVTX,
-  monoOXY,
-  monoSPIRIT,
-  monoTNT,
-  monoKOIN,
-  monoTOP,
-  monoPOLY,
-  monoKOGE,
-  monoDACXI,
-  monoBAKE,
-  monoWRX,
-  monoTLOS,
-  monoCANTO,
-  monoGZONE,
-  monoPWR,
-  monoGFAL,
-  monoDJED,
-  monoBFR,
-  monoECO,
-  monoCTXC,
-  monoPNG,
-  monoRVC,
-  monoNSBT,
-  monoUSDX,
-  monoLSK,
-  monoNHT,
-  monoWELL,
-  monoLUNC,
-  monoEUNO,
-  monoOUSD,
-  monoMOBI,
-  monoCCV2,
-  monoPAI,
-  monoPBR,
-  monoGAS,
-  monoBEETS,
-  monoSERO,
-  monoCUMINU,
-  monoINS,
-  monoEXD,
-  monoNKN,
-  monoUSH,
-  monoTRAXX,
-  monoTOWER,
-  monoSYLO,
-  monoPLN,
-  monoETP,
-  monoGLC,
-  monoSWAP,
-  monoKEEP,
-  monoSFUND,
-  monoNGM,
-  monoSWISE,
-  monoUFI,
-  monoALEX,
-  monoRDPX,
-  monoCBETH,
-  monoCHRP,
-  monoELA,
-  monoKAI,
-  monoCELL,
-  monoHAWK,
-  monoMOD,
-  monoTRIAS,
-  monoMNW,
-  monoMAX,
-  monoSI,
-  monoPOLX,
-  monoHMND,
-  monoMEAN,
-  monoUNIX,
-  monoSTRD,
-  monoNBLU,
-  monoDGNX,
-  monoES,
-  monoVIDT,
-  monoXNO,
-  monoHT,
-  monoFIO,
-  monoOCE,
-  monoHEART,
-  monoMZR,
-  monoPOWR,
-  monoGLMR,
-  monoDPX,
-  monoAQTIS,
-  monoXCH,
-  monoMXM,
+  tokensbrandedBABYSHIB,
+  tokensbrandedSOCKS,
+  tokensbrandedHONK,
+  tokensbrandedTHOL,
+  tokensbrandedGLINK,
+  tokensbrandedSPX,
+  tokensbrandedMINA,
+  tokensbrandedCXO,
+  tokensbrandedOCTA,
+  tokensbrandedKZEN,
+  tokensbrandedABT,
+  tokensbrandedBMEX,
+  tokensbrandedRBIF,
+  tokensbrandedSAIL,
+  tokensbrandedVAB,
+  tokensbrandedCNFI,
+  tokensbrandedUW3S,
+  tokensbrandedZBC,
+  tokensbrandedOXB,
+  tokensbrandedSHI,
+  tokensbrandedMEMEAI,
+  tokensbrandedVTC,
+  tokensbrandedSWFTC,
+  tokensbranded2DAI,
+  tokensbrandedD3D,
+  tokensbrandedPALM,
+  tokensbrandedBHAT,
+  tokensbrandedMELD,
+  tokensbrandedHST,
+  tokensbrandedDFX,
+  tokensbrandedHPO,
+  tokensbrandedDEC,
+  tokensbrandedOMAX,
+  tokensbrandedXVS,
+  tokensbrandedTRIBE,
+  tokensbrandedENS,
+  tokensbrandedSPARTA,
+  tokensbrandedWINR,
+  tokensbrandedBKN,
+  tokensbrandedCMOS,
+  tokensbrandedKAS,
+  tokensbrandedMTLX,
+  tokensbrandedRCN,
+  tokensbrandedSONNE,
+  tokensbrandedKLT,
+  tokensbrandedITP,
+  tokensbrandedMUDOL2,
+  tokensbrandedNABOX,
+  tokensbrandedEPIC,
+  tokensbrandedNFD,
+  tokensbrandedVSYS,
+  tokensbrandedPNK,
+  tokensbrandedUSDC,
+  tokensbrandedPLT,
+  tokensbrandedNORD,
+  tokensbrandedYFI,
+  tokensbrandedUSDT,
+  tokensbrandedGOB,
+  tokensbrandedTHETA,
+  tokensbrandedCATGIRL,
+  tokensbrandedLRC,
+  tokensbrandedGAI,
+  tokensbrandedMETFI,
+  tokensbrandedPREMIA,
+  tokensbrandedWAMPL,
+  tokensbrandedPLEX,
+  tokensbrandedOBSR,
+  tokensbrandedILV,
+  tokensbrandedRXD,
+  tokensbrandedZERO,
+  tokensbrandedDIVER,
+  tokensbrandedBUMP,
+  tokensbrandedWGC,
+  tokensbrandedDEGEN,
+  tokensbrandedFUSE,
+  tokensbrandedGZIL,
+  tokensbrandedYES,
+  tokensbrandedPLU,
+  tokensbrandedICX,
+  tokensbrandedRVN,
+  tokensbrandedGODS,
+  tokensbrandedOPTI,
+  tokensbrandedPRTC,
+  tokensbrandedPXP,
+  tokensbrandedDOGEGF,
+  tokensbrandedLDO,
+  tokensbrandedKAR,
+  tokensbrandedHEGIC,
+  tokensbrandedSLND,
+  tokensbrandedQUINT,
+  tokensbrandedWOMBAT,
+  tokensbrandedPTS,
+  tokensbrandedXTM,
+  tokensbrandedCCD,
+  tokensbrandedCIRUS,
+  tokensbrandedXTZ,
+  tokensbrandedTDROP,
+  tokensbrandedVXV,
+  tokensbrandedAXL,
+  tokensbrandedCNC,
+  tokensbrandedOXT,
+  tokensbrandedAVG,
+  tokensbrandedHOSHI,
+  tokensbrandedDIA,
+  tokensbrandedWOOF,
+  tokensbrandedFOUR,
+  tokensbrandedMBX,
+  tokensbrandedPI,
+  tokensbrandedPOLC,
+  tokensbrandedBOSON,
+  tokensbrandedBBANK,
+  tokensbrandedMNDE,
+  tokensbrandedWLITI,
+  tokensbrandedACQ,
+  tokensbrandedANKRETH,
+  tokensbrandedCNHT,
+  tokensbrandedAURORA,
+  tokensbrandedCVR,
+  tokensbrandedALI,
+  tokensbrandedNEER,
+  tokensbrandedCVP,
+  tokensbrandedMXC,
+  tokensbrandedANT,
+  tokensbrandedDSM,
+  tokensbrandedHEZ,
+  tokensbrandedMINU,
+  tokensbrandedJEWEL,
+  tokensbrandedANC,
+  tokensbrandedPEPES,
+  tokensbrandedCTX,
+  tokensbrandedBTCMT,
+  tokensbrandedMETA,
+  tokensbrandedWITCH,
+  tokensbrandedETHW,
+  tokensbrandedXNA,
+  tokensbrandedACS,
+  tokensbrandedXOR,
+  tokensbrandedVCORE,
+  tokensbrandedPUSSY,
+  tokensbrandedEVER,
+  tokensbrandedSTFX,
+  tokensbrandedMYST,
+  tokensbrandedPOLA,
+  tokensbrandedATM,
+  tokensbrandedSHROOM,
+  tokensbrandedMAV,
+  tokensbrandedREVV,
+  tokensbrandedXVG,
+  tokensbrandedD2T,
+  tokensbrandedZLK,
+  tokensbrandedODIN,
+  tokensbrandedWAGMIGAMES,
+  tokensbrandedKAP,
+  tokensbrandedRLB,
+  tokensbrandedORBS,
+  tokensbrandedENG,
+  tokensbrandedKMD,
+  tokensbrandedSUTER,
+  tokensbrandedCRVUSD,
+  tokensbrandedRAE,
+  tokensbrandedSWTH,
+  tokensbrandedNGC,
+  tokensbrandedGLM,
+  tokensbrandedETI,
+  tokensbrandedPOL,
+  tokensbrandedWLKN,
+  tokensbrandedCONV,
+  tokensbrandedBLOX,
+  tokensbrandedTROVE,
+  tokensbrandedLSD,
+  tokensbrandedKUB,
+  tokensbrandedINJ,
+  tokensbrandedION,
+  tokensbrandedKOMPETE,
+  tokensbrandedWELT,
+  tokensbrandedKASTA,
+  tokensbrandedAGLD,
+  tokensbrandedNFTX,
+  tokensbrandedMTVT,
+  tokensbrandedSAUCE,
+  tokensbranded1INCH,
+  tokensbrandedUSDV,
+  tokensbrandedDOLA,
+  tokensbrandedDOME,
+  tokensbrandedPLA,
+  tokensbrandedGNS,
+  tokensbrandedEUL,
+  tokensbrandedDMTR,
+  tokensbrandedMETIS,
+  tokensbrandedAIMX,
+  tokensbrandedMOOV,
+  tokensbrandedBRN,
+  tokensbrandedETH,
+  tokensbrandedRAD,
+  tokensbrandedSTIMA,
+  tokensbrandedKOM,
+  tokensbrandedBIDZ,
+  tokensbrandedKLV,
+  tokensbrandedGOFX,
+  tokensbrandedBDT,
+  tokensbrandedORAI,
+  tokensbrandedKWAI,
+  tokensbrandedRLC,
+  tokensbrandedBITCI,
+  tokensbrandedPOOLX,
+  tokensbrandedPORTX,
+  tokensbrandedZMN,
+  tokensbrandedJIM,
+  tokensbrandedYFII,
+  tokensbrandedRETH,
+  tokensbrandedTOSHI,
+  tokensbrandedMBL,
+  tokensbrandedSIX,
+  tokensbrandedLOKA,
+  tokensbrandedCLH,
+  tokensbrandedDIVI,
+  tokensbrandedCOS,
+  tokensbrandedETHEREUM,
+  tokensbrandedFSN,
+  tokensbrandedJST,
+  tokensbrandedSTPT,
+  tokensbrandedPHONON,
+  tokensbrandedMVI,
+  tokensbrandedPIXEL,
+  tokensbrandedMTV,
+  tokensbrandedSTRK,
+  tokensbrandedDUST,
+  tokensbrandedGORILLA,
+  tokensbrandedFET,
+  tokensbrandedGT,
+  tokensbrandedMTA,
+  tokensbrandedFOLD,
+  tokensbrandedPMON,
+  tokensbrandedIBAT,
+  tokensbrandedONION,
+  tokensbrandedXCP,
+  tokensbrandedH2O,
+  tokensbrandedRITE,
+  tokensbrandedTVK,
+  tokensbrandedVNO,
+  tokensbrandedSSV,
+  tokensbrandedMIMO,
+  tokensbrandedWAXP,
+  tokensbrandedSAFE,
+  tokensbrandedDPS,
+  tokensbrandedTUT,
+  tokensbrandedMUSIC,
+  tokensbrandedFIS,
+  tokensbrandedONI,
+  tokensbrandedGG,
+  tokensbrandedFEG,
+  tokensbrandedSTRX,
+  tokensbrandedNULS,
+  tokensbrandedCEUR,
+  tokensbrandedCND,
+  tokensbrandedSHX,
+  tokensbrandedPOLS,
+  tokensbrandedPOOH,
+  tokensbrandedPAAL,
+  tokensbrandedATH,
+  tokensbrandedCOW,
+  tokensbrandedEQUAL,
+  tokensbrandedPUNDIX,
+  tokensbrandedSFD,
+  tokensbrandedSPORE,
+  tokensbrandedATOR,
+  tokensbrandedSDL,
+  tokensbrandedDFI,
+  tokensbrandedCCT,
+  tokensbrandedKAU,
+  tokensbrandedGMPD,
+  tokensbrandedSHIDO,
+  tokensbrandedROME,
+  tokensbrandedSKEB,
+  tokensbrandedKMA,
+  tokensbrandedBDP,
+  tokensbrandedNRG,
+  tokensbrandedRSS3,
+  tokensbrandedIMGNAI,
+  tokensbrandedMONA,
+  tokensbrandedPLR,
+  tokensbrandedHANDY,
+  tokensbrandedEXTRA,
+  tokensbrandedFEVR,
+  tokensbrandedNIM,
+  tokensbrandedLPOOL,
+  tokensbrandedUNDEAD,
+  tokensbrandedGMEE,
+  tokensbrandedBABYDOGE,
+  tokensbrandedKTC,
+  tokensbrandedSBTC,
+  tokensbrandedDOBO,
+  tokensbrandedLEVER,
+  tokensbrandedAGLA,
+  tokensbrandedAURY,
+  tokensbrandedPAC,
+  tokensbrandedPBX,
+  tokensbrandedICHI,
+  tokensbrandedCUDOS,
+  tokensbrandedNEX,
+  tokensbrandedBPT,
+  tokensbrandedUSDD,
+  tokensbrandedNCDT,
+  tokensbrandedCONE,
+  tokensbrandedWIN,
+  tokensbrandedYDF,
+  tokensbrandedBSX,
+  tokensbrandedNEO,
+  tokensbrandedHONEY,
+  tokensbrandedPRIME,
+  tokensbrandedSLAM,
+  tokensbrandedPYR,
+  tokensbrandedUFT,
+  tokensbrandedUMAMI,
+  tokensbrandedBRRR,
+  tokensbrandedLIF3,
+  tokensbrandedXCFX,
+  tokensbrandedTEER,
+  tokensbrandedBLUR,
+  tokensbrandedGOLDEN,
+  tokensbrandedELK,
+  tokensbrandedPTU,
+  tokensbrandedKP3R,
+  tokensbrandedIXT,
+  tokensbrandedBCOIN,
+  tokensbrandedNADA,
+  tokensbrandedKAT,
+  tokensbrandedSEI,
+  tokensbrandedBTSG,
+  tokensbrandedMMF,
+  tokensbrandedCETUS,
+  tokensbrandedXWG,
+  tokensbrandedXPRT,
+  tokensbrandedDIP,
+  tokensbrandedCOV,
+  tokensbrandedODDZ,
+  tokensbrandedDHT,
+  tokensbrandedSC,
+  tokensbrandedJUNGLE4EOS,
+  tokensbrandedAVA,
+  tokensbrandedSTEP,
+  tokensbrandedGQ,
+  tokensbrandedARIA20,
+  tokensbrandedMTD,
+  tokensbrandedVRSW,
+  tokensbrandedMNGO,
+  tokensbrandedMVL,
+  tokensbrandedMTS,
+  tokensbrandedFOOM,
+  tokensbrandedCTK,
+  tokensbrandedSPH,
+  tokensbrandedHOLD,
+  tokensbrandedBCDT,
+  tokensbrandedZYN,
+  tokensbrandedCVC,
+  tokensbrandedHGT,
+  tokensbrandedAVAX,
+  tokensbrandedCWEB,
+  tokensbrandedBORA,
+  tokensbrandedOBI,
+  tokensbrandedALPHA,
+  tokensbrandedMIND,
+  tokensbrandedAEGIS,
+  tokensbrandedHDX,
+  tokensbrandedCTI,
+  tokensbrandedALEPH,
+  tokensbrandedSHOPX,
+  tokensbrandedIRIS,
+  tokensbrandedSOFI,
+  tokensbrandedEL,
+  tokensbrandedOZO,
+  tokensbrandedCOC,
+  tokensbrandedMAP,
+  tokensbrandedCNG,
+  tokensbrandedTON,
+  tokensbrandedFRM,
+  tokensbrandedOMMI,
+  tokensbrandedAVT,
+  tokensbrandedWALV,
+  tokensbrandedBTSE,
+  tokensbrandedSFP,
+  tokensbrandedMEME,
+  tokensbrandedCAH,
+  tokensbrandedCOTI,
+  tokensbrandedLEO,
+  tokensbrandedFNSA,
+  tokensbrandedCROID,
+  tokensbrandedBIT,
+  tokensbrandedNFAI,
+  tokensbrandedNODL,
+  tokensbrandedRBX,
+  tokensbrandedWNDR,
+  tokensbrandedXCHF,
+  tokensbrandedGMX,
+  tokensbrandedONIT,
+  tokensbrandedPIVX,
+  tokensbrandedBIST,
+  tokensbrandedEWT,
+  tokensbrandedRWN,
+  tokensbrandedCHEQ,
+  tokensbrandedHUSD,
+  tokensbrandedKLAY,
+  tokensbrandedPROM,
+  tokensbrandedIDLE,
+  tokensbrandedGCR,
+  tokensbrandedPAW,
+  tokensbrandedKEKE,
+  tokensbrandedTRONPAD,
+  tokensbrandedETN,
+  tokensbrandedTIDAL,
+  tokensbrandedBABYTRUMP,
+  tokensbrandedRUG,
+  tokensbrandedSOLVE,
+  tokensbrandedKUNCI,
+  tokensbrandedVTHO,
+  tokensbrandedRBN,
+  tokensbrandedRENBTC,
+  tokensbrandedFLEX,
+  tokensbrandedNPM,
+  tokensbrandedMOVR,
+  tokensbrandedIMPT,
+  tokensbrandedEML,
+  tokensbrandedUNIBOT,
+  tokensbrandedMOVE,
+  tokensbranded0X0,
+  tokensbrandedSDN,
+  tokensbrandedUNFI,
+  tokensbrandedDEP,
+  tokensbrandedDGX,
+  tokensbrandedASIA,
+  tokensbrandedFPS,
+  tokensbrandedQSR,
+  tokensbrandedQUBE,
+  tokensbrandedPUMLX,
+  tokensbrandedXYO,
+  tokensbrandedBZRX,
+  tokensbrandedCLY,
+  tokensbrandedBRIDGE,
+  tokensbrandedXIDO,
+  tokensbrandedMETF,
+  tokensbrandedKIBSHI,
+  tokensbrandedMPLX,
+  tokensbrandedBLANK,
+  tokensbrandedFER,
+  tokensbrandedCHAIN,
+  tokensbrandedTAKI,
+  tokensbrandedMVX,
+  tokensbrandedACT,
+  tokensbrandedOLT,
+  tokensbrandedSSWP,
+  tokensbrandedCREDI,
+  tokensbrandedEXRD,
+  tokensbrandedCWS,
+  tokensbrandedHOOK,
+  tokensbrandedQKC,
+  tokensbrandedGSWIFT,
+  tokensbrandedOAS,
+  tokensbrandedFLM,
+  tokensbrandedTRU,
+  tokensbrandedXDB,
+  tokensbrandedXDEFI,
+  tokensbrandedCQT,
+  tokensbrandedCRO,
+  tokensbrandedMV,
+  tokensbrandedNRCH,
+  tokensbrandedAHT,
+  tokensbrandedBUILD,
+  tokensbrandedGBEX,
+  tokensbrandedTRB,
+  tokensbrandedZOOMER,
+  tokensbrandedSXP,
+  tokensbrandedBLUESPARROW,
+  tokensbrandedXPLA,
+  tokensbrandedCARBON,
+  tokensbrandedSALT,
+  tokensbrandedDOT,
+  tokensbrandedNEXO,
+  tokensbrandedTT,
+  tokensbrandedAPE,
+  tokensbrandedELAND,
+  tokensbrandedASTROC,
+  tokensbrandedSMBR,
+  tokensbrandedORB,
+  tokensbrandedTGT,
+  tokensbrandedZIG,
+  tokensbrandedTRCL,
+  tokensbrandedKEX,
+  tokensbrandedPRQ,
+  tokensbrandedRIN,
+  tokensbrandedXSGD,
+  tokensbrandedKINT,
+  tokensbrandedMMPRO,
+  tokensbrandedEFL,
+  tokensbrandedSWEAT,
+  tokensbrandedWXT,
+  tokensbrandedRPL,
+  tokensbrandedCROWD,
+  tokensbrandedCYBER,
+  tokensbrandedGIV,
+  tokensbrandedBEAM,
+  tokensbrandedTRYB,
+  tokensbrandedAIPAD,
+  tokensbrandedWNXM,
+  tokensbrandedNLS,
+  tokensbrandedPEX,
+  tokensbrandedTRVL,
+  tokensbrandedGET,
+  tokensbrandedFDUSD,
+  tokensbrandedJESUS,
+  tokensbrandedQANX,
+  tokensbrandedBZR,
+  tokensbrandedSILK,
+  tokensbrandedPKR,
+  tokensbrandedSAKAI,
+  tokensbrandedPEPE,
+  tokensbrandedKIBA,
+  tokensbrandedBAX,
+  tokensbrandedTROY,
+  tokensbrandedBRWL,
+  tokensbrandedBAO,
+  tokensbrandedLINK,
+  tokensbrandedALOT,
+  tokensbrandedUMA,
+  tokensbrandedSPELL,
+  tokensbrandedMMIT,
+  tokensbrandedMORK,
+  tokensbrandedKEY,
+  tokensbrandedJULD,
+  tokensbrandedSATS,
+  tokensbrandedHTR,
+  tokensbrandedORT,
+  tokensbrandedGYEN,
+  tokensbrandedFARM,
+  tokensbrandedDAI,
+  tokensbrandedDBR,
+  tokensbrandedMATICX,
+  tokensbrandedCDT,
+  tokensbrandedCGO,
+  tokensbrandedGLEEC,
+  tokensbrandedUBXS,
+  tokensbrandedDEFI,
+  tokensbrandedVRA,
+  tokensbrandedHZN,
+  tokensbrandedFUN,
+  tokensbrandedVITA,
+  tokensbrandedZEE,
+  tokensbrandedADA,
+  tokensbrandedCERE,
+  tokensbrandedSHDW,
+  tokensbrandedFCT,
+  tokensbranded1ART,
+  tokensbrandedBRUSH,
+  tokensbrandedXEP,
+  tokensbrandedTRC,
+  tokensbrandedEDGE,
+  tokensbrandedL2,
+  tokensbrandedQOM,
+  tokensbrandedMARSH,
+  tokensbrandedXDC,
+  tokensbrandedCOLLAB,
+  tokensbrandedTOMB,
+  tokensbrandedAIS,
+  tokensbrandedVERSE,
+  tokensbrandedSTG,
+  tokensbrandedQLC,
+  tokensbrandedSOLX,
+  tokensbrandedATRI,
+  tokensbrandedSPACE,
+  tokensbrandedASTO,
+  tokensbrandedOKT,
+  tokensbrandedAA,
+  tokensbrandedVSP,
+  tokensbrandedHXD,
+  tokensbrandedDEGO,
+  tokensbrandedOSAK,
+  tokensbrandedSCAR,
+  tokensbrandedSETH2,
+  tokensbrandedRIBBIT,
+  tokensbrandedLIME,
+  tokensbrandedRJV,
+  tokensbrandedUNO,
+  tokensbrandedPRE,
+  tokensbrandedREN,
+  tokensbrandedGALA,
+  tokensbrandedEFX,
+  tokensbrandedIST,
+  tokensbrandedTOKEN,
+  tokensbrandedEDG,
+  tokensbrandedGAME,
+  tokensbrandedROSE,
+  tokensbrandedIDEX,
+  tokensbrandedBEAN,
+  tokensbrandedYAM,
+  tokensbrandedVOLT,
+  tokensbrandedRSC,
+  tokensbrandedLTC,
+  tokensbrandedBXX,
+  tokensbrandedTUSD,
+  tokensbrandedDOGE,
+  tokensbrandedCTSI,
+  tokensbrandedMETAL,
+  tokensbrandedHERO,
+  tokensbrandedWIKEN,
+  tokensbrandedPKF,
+  tokensbrandedTPAD,
+  tokensbrandedANGLE,
+  tokensbrandedNAV,
+  tokensbrandedPYTH,
+  tokensbrandedTIME,
+  tokensbrandedLIBRE,
+  tokensbrandedBTM,
+  tokensbrandedKIN,
+  tokensbrandedDVPN,
+  tokensbrandedLUSD,
+  tokensbrandedBCD,
+  tokensbrandedREGEN,
+  tokensbrandedBAL,
+  tokensbrandedHBOT,
+  tokensbrandedMATIC,
+  tokensbrandedFREN,
+  tokensbrandedBMX,
+  tokensbrandedNXT,
+  tokensbrandedUMB,
+  tokensbrandedLAT,
+  tokensbrandedPIKA,
+  tokensbrandedCOPE,
+  tokensbrandedSTOSMO,
+  tokensbrandedDCB,
+  tokensbrandedXPR,
+  tokensbrandedJUNO,
+  tokensbrandedFUTURE,
+  tokensbrandedPOLYX,
+  tokensbrandedBAND,
+  tokensbrandedEVEAI,
+  tokensbrandedMBOX,
+  tokensbrandedCGL,
+  tokensbrandedJOY,
+  tokensbrandedFYN,
+  tokensbrandedSHIBDOGE,
+  tokensbrandedSOL,
+  tokensbrandedAQT,
+  tokensbrandedMDX,
+  tokensbrandedBOLT,
+  tokensbrandedBONK,
+  tokensbrandedSOUL,
+  tokensbrandedDERO,
+  tokensbrandedSANI,
+  tokensbrandedAXEL,
+  tokensbrandedCRPT,
+  tokensbrandedADAPAD,
+  tokensbranded3ULL,
+  tokensbrandedX2Y2,
+  tokensbrandedMC,
+  tokensbrandedFLX,
+  tokensbrandedSUB,
+  tokensbrandedAIR,
+  tokensbrandedDINGO,
+  tokensbrandedEDEN,
+  tokensbrandedOX,
+  tokensbrandedDTX,
+  tokensbrandedREEF,
+  tokensbrandedNEUROS,
+  tokensbrandedDESO,
+  tokensbrandedECOX,
+  tokensbrandedVEX,
+  tokensbrandedFORTH,
+  tokensbrandedSAMA,
+  tokensbrandedDXL,
+  tokensbrandedHAIR,
+  tokensbrandedSPOOL,
+  tokensbrandedMFT,
+  tokensbrandedPOKT,
+  tokensbrandedFORE,
+  tokensbrandedRADIO,
+  tokensbrandedMGP,
+  tokensbrandedAPT,
+  tokensbrandedMEX,
+  tokensbrandedARK,
+  tokensbrandedMNTL,
+  tokensbrandedTIN,
+  tokensbrandedDOR,
+  tokensbrandedCEEK,
+  tokensbrandedFTM,
+  tokensbrandedDNXC,
+  tokensbrandedSCLP,
+  tokensbrandedSATT,
+  tokensbrandedPAID,
+  tokensbrandedAART,
+  tokensbrandedINFRA,
+  tokensbrandedKINE,
+  tokensbrandedBLX,
+  tokensbrandedDFYN,
+  tokensbrandedSPHERE,
+  tokensbrandedHYVE,
+  tokensbrandedLCX,
+  tokensbrandedTSUKA,
+  tokensbrandedIDRT,
+  tokensbrandedWIGO,
+  tokensbrandedLADYS,
+  tokensbrandedQUIDD,
+  tokensbrandedEDU,
+  tokensbrandedNAOS,
+  tokensbrandedRGT,
+  tokensbrandedLINDA,
+  tokensbrandedWALLET,
+  tokensbrandedLZM,
+  tokensbrandedDOGA,
+  tokensbrandedAGIX,
+  tokensbrandedQTUM,
+  tokensbrandedWEMIX,
+  tokensbrandedBEND,
+  tokensbrandedRVST,
+  tokensbrandedDXGM,
+  tokensbrandedCAKE,
+  tokensbrandedMTRM,
+  tokensbrandedPICKLE,
+  tokensbrandedYOU,
+  tokensbrandedDIONE,
+  tokensbrandedPKT,
+  tokensbrandedERN,
+  tokensbrandedEQU,
+  tokensbrandedLITT,
+  tokensbrandedEQB,
+  tokensbrandedIGU,
+  tokensbrandedBAI,
+  tokensbrandedCAST,
+  tokensbrandedAGRS,
+  tokensbrandedRDN,
+  tokensbrandedEGO,
+  tokensbrandedBICO,
+  tokensbrandedDSLA,
+  tokensbrandedBUSD,
+  tokensbrandedSUIP,
+  tokensbrandedISP,
+  tokensbrandedMASQ,
+  tokensbrandedXSUSHI,
+  tokensbrandedDORA,
+  tokensbrandedDOSE,
+  tokensbrandedTRAC,
+  tokensbrandedBOB,
+  tokensbrandedTEL,
+  tokensbrandedSTMX,
+  tokensbrandedDAO,
+  tokensbrandedBFIC,
+  tokensbrandedDEXTF,
+  tokensbrandedMKR,
+  tokensbrandedDBC,
+  tokensbrandedMIM,
+  tokensbrandedATPAY,
+  tokensbrandedLAND,
+  tokensbrandedDEFX,
+  tokensbrandedSLR,
+  tokensbrandedSDEX,
+  tokensbrandedADCO,
+  tokensbrandedZEC,
+  tokensbrandedTKP,
+  tokensbrandedCUBE,
+  tokensbrandedETHIX,
+  tokensbrandedAR,
+  tokensbrandedADP,
+  tokensbrandedSYS,
+  tokensbrandedGENI,
+  tokensbrandedAE,
+  tokensbrandedMST,
+  tokensbrandedGRND,
+  tokensbrandedPAWTH,
+  tokensbrandedBSGG,
+  tokensbrandedVERSA,
+  tokensbrandedALICE,
+  tokensbrandedMYRIA,
+  tokensbrandedSHIA,
+  tokensbrandedMF,
+  tokensbrandedSTARL,
+  tokensbrandedVPAD,
+  tokensbranded10SET,
+  tokensbrandedWAGMI,
+  tokensbrandedDVF,
+  tokensbrandedVIX,
+  tokensbrandedFITFI,
+  tokensbrandedXET,
+  tokensbrandedKINGSHIB,
+  tokensbrandedXDG,
+  tokensbrandedRISE,
+  tokensbrandedSOMM,
+  tokensbrandedGRAI,
+  tokensbrandedPRIMAL,
+  tokensbrandedXEC,
+  tokensbrandedJUP,
+  tokensbrandedXWIN,
+  tokensbrandedVLXPAD,
+  tokensbrandedKATA,
+  tokensbrandedOXEN,
+  tokensbrandedTHALES,
+  tokensbrandedAGI,
+  tokensbrandedFWB,
+  tokensbrandedSLG,
+  tokensbrandedSTBU,
+  tokensbrandedLOOM,
+  tokensbrandedPAPER,
+  tokensbrandedSNX,
+  tokensbrandedSLP,
+  tokensbrandedFTN,
+  tokensbrandedVITE,
+  tokensbrandedAPW,
+  tokensbrandedZZ,
+  tokensbrandedCFX,
+  tokensbrandedIPOR,
+  tokensbrandedDCR,
+  tokensbrandedABYSS,
+  tokensbrandedBLAST,
+  tokensbrandedCOMBO,
+  tokensbrandedMIX,
+  tokensbrandedAIRI,
+  tokensbrandedCHAMPZ,
+  tokensbrandedPSP,
+  tokensbrandedUNI,
+  tokensbrandedXMON,
+  tokensbrandedDASH,
+  tokensbrandedEGLD,
+  tokensbrandedRFD,
+  tokensbrandedPERI,
+  tokensbrandedBCT,
+  tokensbrandedXAVA,
+  tokensbrandedEFI,
+  tokensbrandedBUY,
+  tokensbrandedDAFI,
+  tokensbrandedYAK,
+  tokensbrandedYCC,
+  tokensbrandedWNK,
+  tokensbrandedWHALE,
+  tokensbrandedNOM,
+  tokensbrandedKLEE,
+  tokensbrandedARPA,
+  tokensbrandedNMR,
+  tokensbrandedWAS,
+  tokensbrandedFACTR,
+  tokensbrandedAUTO,
+  tokensbrandedSAITAMA,
+  tokensbrandedLUA,
+  tokensbrandedRARI,
+  tokensbrandedDODO,
+  tokensbrandedSAITO,
+  tokensbrandedRDNT,
+  tokensbrandedSOLID,
+  tokensbrandedKUJI,
+  tokensbrandedLVL,
+  tokensbrandedMCRT,
+  tokensbrandedLAZIO,
+  tokensbrandedNSFW,
+  tokensbrandedNAP,
+  tokensbrandedLUFC,
+  tokensbranded0XGAS,
+  tokensbrandedWIFI,
+  tokensbrandedHGPT,
+  tokensbrandedBCB,
+  tokensbrandedCARD,
+  tokensbrandedMINTME,
+  tokensbrandedLON,
+  tokensbrandedARDR,
+  tokensbrandedCARAT,
+  tokensbrandedBLZ,
+  tokensbrandedBOA,
+  tokensbrandedSTJUNO,
+  tokensbrandedMOCHI,
+  tokensbrandedAREA,
+  tokensbrandedDSRUN,
+  tokensbrandedVELO,
+  tokensbrandedMIN,
+  tokensbrandedOSMO,
+  tokensbrandedSTOS,
+  tokensbrandedHVH,
+  tokensbrandedCHR,
+  tokensbrandedASM,
+  tokensbrandedDNT,
+  tokensbrandedHXRO,
+  tokensbrandedHUAHUA,
+  tokensbrandedDOG,
+  tokensbrandedGAINS,
+  tokensbrandedADS,
+  tokensbrandedMRS,
+  tokensbrandedMPL,
+  tokensbrandedDERI,
+  tokensbrandedXKI,
+  tokensbrandedSCNSOL,
+  tokensbrandedNPXS,
+  tokensbrandedOM,
+  tokensbrandedAIT,
+  tokensbrandedOOKI,
+  tokensbrandedFOR,
+  tokensbrandedSTSOL,
+  tokensbrandedBONDLY,
+  tokensbrandedLA,
+  tokensbrandedSHIB,
+  tokensbrandedSUI,
+  tokensbrandedINST,
+  tokensbrandedCWAR,
+  tokensbrandedAIN,
+  tokensbrandedFLS,
+  tokensbrandedOOKS,
+  tokensbrandedXFT,
+  tokensbrandedBTCP,
+  tokensbrandedPEOPLE,
+  tokensbrandedSFTMX,
+  tokensbrandedDYP,
+  tokensbrandedXETA,
+  tokensbrandedASTR,
+  tokensbrandedHMX,
+  tokensbrandedRUNE,
+  tokensbrandedHOP,
+  tokensbrandedMCADE,
+  tokensbrandedPARA,
+  tokensbrandedVIDYA,
+  tokensbrandedPOLYDOGE,
+  tokensbrandedHNT,
+  tokensbrandedBRICK,
+  tokensbrandedKICKS,
+  tokensbrandedAPL,
+  tokensbrandedSNT,
+  tokensbrandedPROPS,
+  tokensbrandedLMWR,
+  tokensbrandedGPCX,
+  tokensbrandedTIA,
+  tokensbrandedMNTC,
+  tokensbrandedXI,
+  tokensbrandedJOE,
+  tokensbrandedSCS,
+  tokensbrandedCGG,
+  tokensbrandedHTM,
+  tokensbrandedPRO,
+  tokensbrandedFREE,
+  tokensbrandedPLASTIK,
+  tokensbrandedPRX,
+  tokensbrandedFUND,
+  tokensbrandedLOC,
+  tokensbrandedNVT,
+  tokensbrandedMAPS,
+  tokensbrandedFAKEAI,
+  tokensbrandedBURGER,
+  tokensbrandedARIX,
+  tokensbrandedCHMB,
+  tokensbrandedGAMMA,
+  tokensbrandedUTK,
+  tokensbrandedOGGY,
+  tokensbrandedCUSDC,
+  tokensbrandedPEEL,
+  tokensbrandedWISE,
+  tokensbrandedWEFI,
+  tokensbrandedPHA,
+  tokensbrandedSNAIL,
+  tokensbrandedNAVI,
+  tokensbrandedARRR,
+  tokensbrandedBERRY,
+  tokensbrandedBZZ,
+  tokensbrandedSETH,
+  tokensbrandedBELT,
+  tokensbrandedFIDA,
+  tokensbrandedPGX,
+  tokensbrandedRARE,
+  tokensbrandedHBTC,
+  tokensbrandedXFUND,
+  tokensbrandedLIXX,
+  tokensbrandedLAUNCH,
+  tokensbrandedPDT,
+  tokensbrandedSNEK,
+  tokensbrandedARSW,
+  tokensbrandedNCT,
+  tokensbrandedAPEX,
+  tokensbrandedAPFC,
+  tokensbrandedIDV,
+  tokensbrandedBTG,
+  tokensbrandedLYX,
+  tokensbrandedBETS,
+  tokensbrandedBCN,
+  tokensbrandedUND,
+  tokensbrandedLBR,
+  tokensbrandedNYM,
+  tokensbrandedLINU,
+  tokensbrandedGRC,
+  tokensbrandedRIF,
+  tokensbrandedPRY,
+  tokensbrandedSUDO,
+  tokensbrandedKILT,
+  tokensbrandedGRT,
+  tokensbrandedZKP,
+  tokensbrandedWAIT,
+  tokensbrandedTET,
+  tokensbrandedXPX,
+  tokensbrandedVEMP,
+  tokensbrandedHAPI,
+  tokensbrandedRAZOR,
+  tokensbrandedXRUNE,
+  tokensbrandedSAM,
+  tokensbrandedSTAT,
+  tokensbrandedFTC,
+  tokensbrandedVC,
+  tokensbrandedDMC,
+  tokensbrandedAPM,
+  tokensbrandedDMT,
+  tokensbrandedSAMO,
+  tokensbrandedZANO,
+  tokensbrandedNEON,
+  tokensbrandedVIB,
+  tokensbrandedDPET,
+  tokensbrandedBCAT,
+  tokensbrandedBADGER,
+  tokensbrandedTOMI,
+  tokensbrandedNEAR,
+  tokensbrandedFLR,
+  tokensbrandedTYRANT,
+  tokensbrandedLM,
+  tokensbrandedCUMMIES,
+  tokensbrandedCRE,
+  tokensbrandedSPANK,
+  tokensbrandedBTC2,
+  tokensbrandedCOVAL,
+  tokensbrandedBS,
+  tokensbrandedSHFT,
+  tokensbrandedVET,
+  tokensbrandedR,
+  tokensbrandedHAKA,
+  tokensbrandedIBIT,
+  tokensbrandedVV,
+  tokensbrandedCKP,
+  tokensbrandedAST,
+  tokensbrandedJAM,
+  tokensbrandedMET,
+  tokensbrandedAPX,
+  tokensbrandedZEN,
+  tokensbrandedCULT,
+  tokensbrandedCEL,
+  tokensbrandedSAVG,
+  tokensbrandedSCP,
+  tokensbrandedVELA,
+  tokensbrandedWHITE,
+  tokensbrandedXELS,
+  tokensbrandedLCC,
+  tokensbrandedCORE,
+  tokensbrandedSRCX,
+  tokensbrandedKDA,
+  tokensbrandedGRV,
+  tokensbrandedFIRO,
+  tokensbrandedTRADE,
+  tokensbrandedBLT,
+  tokensbrandedGSE,
+  tokensbrandedNALS,
+  tokensbrandedEURS,
+  tokensbrandedRDT,
+  tokensbrandedREP,
+  tokensbrandedBEPRO,
+  tokensbrandedMCHC,
+  tokensbrandedBAD,
+  tokensbrandedMSOL,
+  tokensbrandedRAKE,
+  tokensbrandedSUKU,
+  tokensbrandedMASK,
+  tokensbrandedGHO,
+  tokensbrandedSWETH,
+  tokensbrandedWOW,
+  tokensbrandedAUCTION,
+  tokensbrandedPHB,
+  tokensbrandedGHX,
+  tokensbrandedJMPT,
+  tokensbrandedCROWN,
+  tokensbrandedFLUX,
+  tokensbrandedGOVI,
+  tokensbrandedLYM,
+  tokensbrandedEQX,
+  tokensbrandedGHST,
+  tokensbrandedTETU,
+  tokensbrandedDONUT,
+  tokensbrandedMAHA,
+  tokensbrandedSUSD,
+  tokensbrandedPER,
+  tokensbrandedKRL,
+  tokensbrandedKROM,
+  tokensbrandedCHAT,
+  tokensbrandedPURSE,
+  tokensbrandedSTEEM,
+  tokensbrandedBLID,
+  tokensbrandedRPG,
+  tokensbrandedREUNI,
+  tokensbrandedBTS,
+  tokensbrandedPIP,
+  tokensbrandedARI10,
+  tokensbrandedOBOT,
+  tokensbrandedXAUT,
+  tokensbrandedREF,
+  tokensbrandedISK,
+  tokensbrandedNUM,
+  tokensbrandedEGC,
+  tokensbrandedRAIL,
+  tokensbrandedREQ,
+  tokensbrandedSEND,
+  tokensbrandedHUNT,
+  tokensbrandedTENET,
+  tokensbrandedPERP,
+  tokensbrandedLPNT,
+  tokensbrandedDSETH,
+  tokensbrandedMOONED,
+  tokensbrandedRMRK,
+  tokensbrandedXCAD,
+  tokensbrandedLINA,
+  tokensbrandedEJS,
+  tokensbrandedK21,
+  tokensbrandedFLOW,
+  tokensbrandedSTSTARS,
+  tokensbrandedGUSD,
+  tokensbrandedBOBA,
+  tokensbrandedZIL,
+  tokensbrandedAQUA,
+  tokensbrandedALLIN,
+  tokensbrandedSAN,
+  tokensbrandedXRD,
+  tokensbrandedCHEEMS,
+  tokensbrandedJONES,
+  tokensbrandedDCK,
+  tokensbrandedNFTBS,
+  tokensbrandedHOPR,
+  tokensbrandedCPOOL,
+  tokensbrandedAFC,
+  tokensbrandedPASG,
+  tokensbrandedPART,
+  tokensbrandedBCMC,
+  tokensbrandedAI,
+  tokensbrandedXEM,
+  tokensbrandedSTX,
+  tokensbrandedQNT,
+  tokensbrandedHBB,
+  tokensbrandedMARS4,
+  tokensbrandedSTARS,
+  tokensbrandedOCEAN,
+  tokensbrandedCREAM,
+  tokensbrandedCPH,
+  tokensbrandedTAMA,
+  tokensbrandedADX,
+  tokensbrandedSAND,
+  tokensbrandedMUTE,
+  tokensbrandedC3,
+  tokensbrandedTIG,
+  tokensbrandedCKB,
+  tokensbrandedDRGN,
+  tokensbrandedTKX,
+  tokensbrandedDMD,
+  tokensbrandedCREO,
+  tokensbrandedIPAD,
+  tokensbrandedTHT,
+  tokensbrandedTKO,
+  tokensbrandedVOICE,
+  tokensbrandedSMI,
+  tokensbrandedSCB,
+  tokensbrandedKALM,
+  tokensbrandedBOTTO,
+  tokensbrandedMIR,
+  tokensbrandedALPACA,
+  tokensbrandedAPEFI,
+  tokensbrandedNEWO,
+  tokensbrandedNETT,
+  tokensbrandedIONX,
+  tokensbrandedHIPP,
+  tokensbrandedMDAO,
+  tokensbrandedROKO,
+  tokensbrandedWACME,
+  tokensbrandedSLIM,
+  tokensbrandedPERC,
+  tokensbrandedEGG,
+  tokensbrandedKIT,
+  tokensbrandedEFC,
+  tokensbrandedSAFEMARS,
+  tokensbrandedGAMI,
+  tokensbrandedKICK,
+  tokensbrandedCMDX,
+  tokensbrandedMEDIA,
+  tokensbrandedSQUIDGROW,
+  tokensbrandedLTO,
+  tokensbrandedTOPIA,
+  tokensbrandedBROCK,
+  tokensbrandedLTX,
+  tokensbrandedWAN,
+  tokensbrandedSURE,
+  tokensbrandedMETAV,
+  tokensbrandedNMX,
+  tokensbrandedGEL,
+  tokensbrandedLIZA,
+  tokensbrandedWBT,
+  tokensbrandedAERO,
+  tokensbrandedIDIA,
+  tokensbrandedAGEUR,
+  tokensbrandedLYRA,
+  tokensbrandedTITAN,
+  tokensbrandedPIB,
+  tokensbrandedBTA,
+  tokensbrandedNCR,
+  tokensbrandedBCH,
+  tokensbrandedALCX,
+  tokensbrandedRET,
+  tokensbrandedUSTC,
+  tokensbrandedRFOX,
+  tokensbrandedEUSD,
+  tokensbrandedBLP,
+  tokensbrandedPSL,
+  tokensbrandedCOPI,
+  tokensbrandedLBT,
+  tokensbrandedBNX,
+  tokensbrandedBIGSB,
+  tokensbrandedXY,
+  tokensbrandedCHO,
+  tokensbrandedTKN,
+  tokensbrandedLQDR,
+  tokensbrandedBOOT,
+  tokensbrandedVR,
+  tokensbrandedNEXA,
+  tokensbrandedPROPC,
+  tokensbrandedMDT,
+  tokensbrandedARC,
+  tokensbrandedDREP,
+  tokensbrandedSTORJ,
+  tokensbrandedVGX,
+  tokensbrandedGEOD,
+  tokensbrandedSUN,
+  tokensbrandedOP,
+  tokensbrandedCRV,
+  tokensbrandedNEBO,
+  tokensbrandedVIS,
+  tokensbrandedPENDLE,
+  tokensbrandedSOON,
+  tokensbrandedMX,
+  tokensbrandedDUA,
+  tokensbrandedHAI,
+  tokensbrandedVINU,
+  tokensbrandedPORK,
+  tokensbrandedO3,
+  tokensbrandedAKT,
+  tokensbrandedDEFIT,
+  tokensbrandedMM,
+  tokensbrandedT,
+  tokensbrandedIRON,
+  tokensbrandedGAMEFI,
+  tokensbrandedIGNIS,
+  tokensbrandedVEE,
+  tokensbrandedMPS,
+  tokensbrandedVEUR,
+  tokensbrandedGSWAP,
+  tokensbrandedCHZ,
+  tokensbrandedDLC,
+  tokensbrandedAZIT,
+  tokensbrandedMEED,
+  tokensbrandedRGEN,
+  tokensbrandedARV,
+  tokensbrandedDAD,
+  tokensbrandedXRT,
+  tokensbrandedORN,
+  tokensbrandedXSP,
+  tokensbrandedSAI,
+  tokensbrandedREV3L,
+  tokensbrandedRIDE,
+  tokensbrandedOPIUM,
+  tokensbrandedGRG,
+  tokensbrandedLCR,
+  tokensbrandedNXM,
+  tokensbrandedUOS,
+  tokensbrandedCDAI,
+  tokensbrandedGALEON,
+  tokensbrandedBANANA,
+  tokensbrandedREV,
+  tokensbrandedSOURCE,
+  tokensbrandedUBT,
+  tokensbrandedBTC,
+  tokensbrandedNBT,
+  tokensbrandedLITH,
+  tokensbrandedBWO,
+  tokensbrandedUWU,
+  tokensbrandedEMAID,
+  tokensbrandedUCJL,
+  tokensbrandedHERA,
+  tokensbrandedHIFI,
+  tokensbrandedECOIN,
+  tokensbrandedNOS,
+  tokensbrandedSNFT,
+  tokensbrandedWAM,
+  tokensbrandedGGP,
+  tokensbrandedMTRG,
+  tokensbrandedGFT,
+  tokensbrandedGGG,
+  tokensbrandedIDEA,
+  tokensbrandedZPAY,
+  tokensbrandedWNT,
+  tokensbrandedBTU,
+  tokensbrandedBSCPAD,
+  tokensbrandedGUILD,
+  tokensbrandedNWC,
+  tokensbrandedNTX,
+  tokensbrandedBAT,
+  tokensbrandedLOOKS,
+  tokensbrandedBETA,
+  tokensbrandedBORING,
+  tokensbrandedEVMOS,
+  tokensbrandedPINKSALE,
+  tokensbrandedRDD,
+  tokensbrandedXAUR,
+  tokensbrandedPROTEO,
+  tokensbrandedTABOO,
+  tokensbrandedLCD,
+  tokensbrandedPPT,
+  tokensbrandedSUSHI,
+  tokensbrandedLING,
+  tokensbrandedORDI,
+  tokensbrandedLCS,
+  tokensbrandedPPC,
+  tokensbrandedASTRADAO,
+  tokensbrandedHERMES,
+  tokensbrandedBLD,
+  tokensbrandedZKB,
+  tokensbrandedDBI,
+  tokensbrandedCGPT,
+  tokensbrandedFARA,
+  tokensbrandedCGT,
+  tokensbrandedHARD,
+  tokensbrandedCFG,
+  tokensbrandedIETH,
+  tokensbrandedSBD,
+  tokensbrandedLAMB,
+  tokensbrandedUNCX,
+  tokensbrandedMED,
+  tokensbrandedADOGE,
+  tokensbrandedBOND,
+  tokensbrandedASD,
+  tokensbrandedRBLS,
+  tokensbrandedDXP,
+  tokensbrandedKAVA,
+  tokensbrandedTXAU,
+  tokensbrandedU,
+  tokensbrandedSQUAD,
+  tokensbrandedHOT,
+  tokensbrandedSHIK,
+  tokensbrandedCRU,
+  tokensbrandedDIKO,
+  tokensbrandedML,
+  tokensbrandedVEXT,
+  tokensbrandedOS,
+  tokensbrandedTREEB,
+  tokensbrandedKMON,
+  tokensbrandedGRAV,
+  tokensbrandedCLORE,
+  tokensbrandedRISITA,
+  tokensbrandedTRX,
+  tokensbrandedOGN,
+  tokensbrandedCTR,
+  tokensbrandedPDEX,
+  tokensbrandedTHOR,
+  tokensbrandedHID,
+  tokensbrandedMUSD,
+  tokensbrandedBRISE,
+  tokensbrandedSOPH,
+  tokensbrandedSWASH,
+  tokensbrandedSIS,
+  tokensbrandedOMNI,
+  tokensbrandedQRL,
+  tokensbrandedDKA,
+  tokensbrandedAUDIO,
+  tokensbrandedPOLK,
+  tokensbrandedFRA,
+  tokensbrandedSDT,
+  tokensbrandedCAS,
+  tokensbrandedAXS,
+  tokensbrandedLODE,
+  tokensbrandedMND,
+  tokensbrandedYOSHI,
+  tokensbrandedDGB,
+  tokensbrandedCRWNY,
+  tokensbrandedLAKE,
+  tokensbrandedFCON,
+  tokensbrandedRNDR,
+  tokensbrandedPLANETS,
+  tokensbrandedPOPCAT,
+  tokensbrandedLET,
+  tokensbrandedFLOOR,
+  tokensbrandedPSTAKE,
+  tokensbrandedBEL,
+  tokensbrandedPZP,
+  tokensbrandedNVIR,
+  tokensbrandedNFTART,
+  tokensbrandedSOULS,
+  tokensbrandedGNO,
+  tokensbrandedBSV,
+  tokensbrandedGORA,
+  tokensbrandedCOMP,
+  tokensbrandedLUCA,
+  tokensbrandedGDCC,
+  tokensbrandedETC,
+  tokensbrandedICP,
+  tokensbrandedPNB,
+  tokensbrandedSYNC,
+  tokensbrandedRVF,
+  tokensbrandedMANA,
+  tokensbrandedEMAGIC,
+  tokensbrandedWRLD,
+  tokensbrandedWAVES,
+  tokensbrandedGYMNET,
+  tokensbrandedAURA,
+  tokensbrandedMOBILE,
+  tokensbrandedLPT,
+  tokensbrandedINV,
+  tokensbrandedPAL,
+  tokensbrandedPIZA,
+  tokensbrandedMCONTENT,
+  tokensbrandedTRAVA,
+  tokensbrandedGNY,
+  tokensbrandedKYVE,
+  tokensbrandedPNT,
+  tokensbrandedBSW,
+  tokensbrandedPOP,
+  tokensbrandedGHUB,
+  tokensbrandedGLQ,
+  tokensbrandedNXRA,
+  tokensbrandedRAY,
+  tokensbrandedGXC,
+  tokensbrandedNAKA,
+  tokensbrandedEPIK,
+  tokensbrandedALGB,
+  tokensbrandedKNC,
+  tokensbrandedPUSH,
+  tokensbrandedBLXM,
+  tokensbrandedKCS,
+  tokensbrandedSTATOM,
+  tokensbrandedAXE,
+  tokensbrandedMNR,
+  tokensbrandedAITECH,
+  tokensbrandedNEURONI,
+  tokensbrandedZAP,
+  tokensbrandedCATHEON,
+  tokensbrandedBREED,
+  tokensbrandedSHA,
+  tokensbrandedQRDO,
+  tokensbrandedKLIMA,
+  tokensbrandedWBETH,
+  tokensbrandedZCX,
+  tokensbrandedMCB,
+  tokensbrandedFLUID,
+  tokensbrandedGULF,
+  tokensbrandedACX,
+  tokensbrandedFCTR,
+  tokensbrandedFEI,
+  tokensbrandedONG,
+  tokensbrandedMUSE,
+  tokensbrandedGRAIN,
+  tokensbrandedATLAS,
+  tokensbrandedSRX,
+  tokensbrandedTULIP,
+  tokensbrandedXCM,
+  tokensbrandedINTR,
+  tokensbrandedALU,
+  tokensbrandedTTK,
+  tokensbrandedSRM,
+  tokensbrandedVLX,
+  tokensbrandedSPE,
+  tokensbrandedONE,
+  tokensbrandedGRIN,
+  tokensbrandedGRAIL,
+  tokensbrandedOMI,
+  tokensbrandedASSA,
+  tokensbrandedDYDX,
+  tokensbrandedSRLTY,
+  tokensbrandedDUSK,
+  tokensbrandedFX,
+  tokensbrandedPSWAP,
+  tokensbrandedTLM,
+  tokensbrandedMBD,
+  tokensbrandedSN,
+  tokensbrandedCOL,
+  tokensbrandedAVL,
+  tokensbrandedOMNOM,
+  tokensbrandedATD,
+  tokensbrandedMOC,
+  tokensbrandedCAP,
+  tokensbrandedAERGO,
+  tokensbrandedOTK,
+  tokensbrandedLEASH,
+  tokensbrandedTFUEL,
+  tokensbrandedTREE,
+  tokensbrandedTIPS,
+  tokensbrandedKAN,
+  tokensbrandedELF,
+  tokensbrandedRBW,
+  tokensbrandedBFT,
+  tokensbrandedNPC,
+  tokensbrandedGSTS,
+  tokensbrandedPICA,
+  tokensbrandedLIT,
+  tokensbrandedSKEY,
+  tokensbrandedGXA,
+  tokensbrandedINSUR,
+  tokensbrandedPLI,
+  tokensbrandedRTM,
+  tokensbrandedYGG,
+  tokensbrandedTONIC,
+  tokensbrandedHILO,
+  tokensbrandedLUNR,
+  tokensbrandedLYXE,
+  tokensbrandedGAT,
+  tokensbrandedMOBY,
+  tokensbrandedPAY,
+  tokensbrandedPROB,
+  tokensbrandedJASMY,
+  tokensbrandedTIFI,
+  tokensbrandedIMO,
+  tokensbrandedINT,
+  tokensbrandedHIBS,
+  tokensbrandedXDATA,
+  tokensbrandedHELLO,
+  tokensbrandedMANC,
+  tokensbrandedKUMA,
+  tokensbrandedELON,
+  tokensbrandedMIMATIC,
+  tokensbrandedBRG,
+  tokensbrandedALPH,
+  tokensbrandedROUTE,
+  tokensbrandedBST,
+  tokensbrandedICE,
+  tokensbrandedB2M,
+  tokensbrandedBEN,
+  tokensbrandedDATA,
+  tokensbrandedRAMP,
+  tokensbrandedRAM,
+  tokensbrandedGTC,
+  tokensbrandedIXO,
+  tokensbrandedGAFI,
+  tokensbrandedARBI,
+  tokensbrandedAPOLLO,
+  tokensbrandedXTP,
+  tokensbrandedMLN,
+  tokensbrandedAAVE,
+  tokensbrandedOATH,
+  tokensbrandedJKL,
+  tokensbrandedSFI,
+  tokensbrandedREALM,
+  tokensbrandedKWENTA,
+  tokensbrandedATR,
+  tokensbrandedCLV,
+  tokensbrandedFOREX,
+  tokensbrandedMTH,
+  tokensbrandedXMR,
+  tokensbrandedDF,
+  tokensbrandedKISHU,
+  tokensbrandedCOSMOSHUB,
+  tokensbrandedLQTY,
+  tokensbrandedVAI,
+  tokensbrandedCTG,
+  tokensbrandedBCUBE,
+  tokensbrandedDPI,
+  tokensbrandedAMP,
+  tokensbrandedLOVELY,
+  tokensbrandedPAXG,
+  tokensbrandedBSCS,
+  tokensbrandedOAX,
+  tokensbrandedMTL,
+  tokensbrandedACH,
+  tokensbrandedMVD,
+  tokensbrandedPYUSD,
+  tokensbrandedATA,
+  tokensbrandedC98,
+  tokensbrandedPOLYPAD,
+  tokensbrandedAVI,
+  tokensbrandedVVS,
+  tokensbrandedUBSN,
+  tokensbrandedKLEVA,
+  tokensbrandedCBY,
+  tokensbrandedMMY,
+  tokensbrandedMNB,
+  tokensbrandedSFM,
+  tokensbrandedDEL,
+  tokensbrandedKITTY,
+  tokensbrandedTAO,
+  tokensbrandedPPAY,
+  tokensbrandedRLY,
+  tokensbrandedFEAR,
+  tokensbrandedSEED,
+  tokensbrandedEMP,
+  tokensbrandedDZOO,
+  tokensbrandedNOIA,
+  tokensbrandedAIMBOT,
+  tokensbrandedQASH,
+  tokensbrandedBGB,
+  tokensbrandedORARE,
+  tokensbrandedCSIX,
+  tokensbrandedRAI,
+  tokensbrandedCRYSTAL,
+  tokensbrandedGOZ,
+  tokensbrandedETE,
+  tokensbrandedBPRO,
+  tokensbrandedNFTB,
+  tokensbrandedOETH,
+  tokensbrandedXPNET,
+  tokensbrandedSTRAX,
+  tokensbrandedGARI,
+  tokensbrandedBLUSD,
+  tokensbrandedSIPHER,
+  tokensbrandedLUNA,
+  tokensbrandedBULL,
+  tokensbrandedTBTC,
+  tokensbrandedDOMI,
+  tokensbrandedUPP,
+  tokensbrandedHUSKY,
+  tokensbrandedTELOS,
+  tokensbrandedUQC,
+  tokensbrandedSMARTCREDIT,
+  tokensbrandedASTRAFER,
+  tokensbrandedANKR,
+  tokensbrandedBIFI,
+  tokensbrandedQUICK,
+  tokensbrandedMATH,
+  tokensbrandedBDX,
+  tokensbrandedRBD,
+  tokensbrandedELU,
+  tokensbrandedHIVE,
+  tokensbrandedGHNY,
+  tokensbrandedARCH,
+  tokensbrandedWSI,
+  tokensbrandedENJ,
+  tokensbrandedVOXEL,
+  tokensbrandedPINU,
+  tokensbrandedATOM,
+  tokensbrandedCAT,
+  tokensbrandedMOG,
+  tokensbrandedEQUAD,
+  tokensbrandedCELO,
+  tokensbrandedSTRONG,
+  tokensbrandedURUS,
+  tokensbrandedCBX,
+  tokensbrandedMLK,
+  tokensbrandedTARA,
+  tokensbrandedMMO,
+  tokensbrandedMNT,
+  tokensbrandedZNN,
+  tokensbrandedPOND,
+  tokensbrandedMNST,
+  tokensbrandedRING,
+  tokensbrandedCLS,
+  tokensbrandedTOR,
+  tokensbrandedPORTAL,
+  tokensbrandedVEGA,
+  tokensbrandedAZERO,
+  tokensbrandedTORN,
+  tokensbrandedHYDRA,
+  tokensbrandedOOE,
+  tokensbrandedCRTS,
+  tokensbrandedETHM,
+  tokensbrandedGO,
+  tokensbrandedVALOR,
+  tokensbrandedSTRP,
+  tokensbrandedSTELLA,
+  tokensbrandedRAVEN,
+  tokensbrandedDC,
+  tokensbrandedDPAY,
+  tokensbrandedFIL,
+  tokensbrandedTWT,
+  tokensbrandedAMB,
+  tokensbrandedID,
+  tokensbrandedSPA,
+  tokensbrandedDEXT,
+  tokensbrandedSSX,
+  tokensbrandedSIGNA,
+  tokensbrandedIQ,
+  tokensbrandedDWEB,
+  tokensbrandedGEEQ,
+  tokensbrandedSRK,
+  tokensbrandedCUSD,
+  tokensbrandedONT,
+  tokensbrandedVCF,
+  tokensbrandedBLOCK,
+  tokensbrandedETHX,
+  tokensbrandedEARN,
+  tokensbrandedMWC,
+  tokensbrandedFOAM,
+  tokensbrandedLAYER,
+  tokensbrandedMAN,
+  tokensbrandedSDAO,
+  tokensbrandedZAT,
+  tokensbrandedVTX,
+  tokensbrandedOXY,
+  tokensbrandedSPIRIT,
+  tokensbrandedTNT,
+  tokensbrandedKOIN,
+  tokensbrandedTOP,
+  tokensbrandedPOLY,
+  tokensbrandedKOGE,
+  tokensbrandedOVR,
+  tokensbrandedMOE,
+  tokensbrandedDACXI,
+  tokensbrandedBAKE,
+  tokensbrandedWRX,
+  tokensbrandedTLOS,
+  tokensbrandedCANTO,
+  tokensbrandedGZONE,
+  tokensbrandedPWR,
+  tokensbrandedGFAL,
+  tokensbrandedDJED,
+  tokensbrandedBFR,
+  tokensbrandedNGL,
+  tokensbrandedCTXC,
+  tokensbrandedPNG,
+  tokensbrandedRVC,
+  tokensbrandedNSBT,
+  tokensbrandedUSDX,
+  tokensbrandedPNP,
+  tokensbrandedLSK,
+  tokensbrandedNHT,
+  tokensbrandedWELL,
+  tokensbrandedLUNC,
+  tokensbrandedEUNO,
+  tokensbrandedOUSD,
+  tokensbrandedPROS,
+  tokensbrandedMOBI,
+  tokensbrandedCCV2,
+  tokensbrandedPAI,
+  tokensbrandedPBR,
+  tokensbrandedGAS,
+  tokensbrandedBEETS,
+  tokensbrandedPLEB,
+  tokensbrandedCUMINU,
+  tokensbrandedINS,
+  tokensbrandedEXD,
+  tokensbrandedNKN,
+  tokensbrandedUSH,
+  tokensbrandedTRAXX,
+  tokensbrandedTOWER,
+  tokensbrandedSYLO,
+  tokensbrandedY2K,
+  tokensbrandedPLN,
+  tokensbrandedETP,
+  tokensbrandedMOON,
+  tokensbrandedGLC,
+  tokensbrandedPLY,
+  tokensbrandedSWAP,
+  tokensbrandedKEEP,
+  tokensbrandedSFUND,
+  tokensbrandedNGM,
+  tokensbrandedSWISE,
+  tokensbrandedUFI,
+  tokensbrandedALEX,
+  tokensbrandedRDPX,
+  tokensbrandedCBETH,
+  tokensbrandedCHRP,
+  tokensbrandedWOJAK,
+  tokensbrandedKAI,
+  tokensbrandedCELL,
+  tokensbrandedHAWK,
+  tokensbrandedMOD,
+  tokensbrandedCAW,
+  tokensbrandedREVO,
+  tokensbrandedTRIAS,
+  tokensbrandedMNW,
+  tokensbrandedMAX,
+  tokensbrandedSI,
+  tokensbrandedPOLX,
+  tokensbrandedHMND,
+  tokensbrandedMEAN,
+  tokensbrandedUNIX,
+  tokensbrandedSTRD,
+  tokensbrandedNBLU,
+  tokensbrandedDGNX,
+  tokensbrandedES,
+  tokensbrandedVIDT,
+  tokensbrandedXNO,
+  tokensbrandedHT,
+  tokensbrandedFIO,
+  tokensbrandedOCE,
+  tokensbrandedMZR,
+  tokensbrandedPOWR,
+  tokensbrandedGLMR,
+  tokensbrandedDPX,
+  tokensbrandedAQTIS,
+  tokensbrandedXCH,
+  tokensbrandedMXM,
+  tokensmonoSOCKS,
+  tokensmonoTHOL,
+  tokensmonoGLINK,
+  tokensmonoSPX,
+  tokensmonoMINA,
+  tokensmonoCXO,
+  tokensmonoABT,
+  tokensmonoBMEX,
+  tokensmonoRBIF,
+  tokensmonoSAIL,
+  tokensmonoVAB,
+  tokensmonoCNFI,
+  tokensmonoUW3S,
+  tokensmonoZBC,
+  tokensmonoOXB,
+  tokensmonoSHI,
+  tokensmonoVTC,
+  tokensmonoSWFTC,
+  tokensmono2DAI,
+  tokensmonoD3D,
+  tokensmonoPALM,
+  tokensmonoBHAT,
+  tokensmonoHST,
+  tokensmonoDFX,
+  tokensmonoHPO,
+  tokensmonoOMAX,
+  tokensmonoXVS,
+  tokensmonoTRIBE,
+  tokensmonoENS,
+  tokensmonoSPARTA,
+  tokensmonoWINR,
+  tokensmonoIXS,
+  tokensmonoROOK,
+  tokensmonoCMOS,
+  tokensmonoKAS,
+  tokensmonoMTLX,
+  tokensmonoRCN,
+  tokensmonoSONNE,
+  tokensmonoKLT,
+  tokensmonoITP,
+  tokensmonoNABOX,
+  tokensmonoEPIC,
+  tokensmonoOPUL,
+  tokensmonoVSYS,
+  tokensmonoPNK,
+  tokensmonoUSDC,
+  tokensmonoPLT,
+  tokensmonoNORD,
+  tokensmonoYFI,
+  tokensmonoGHOST,
+  tokensmonoUSDT,
+  tokensmonoTHETA,
+  tokensmonoLRC,
+  tokensmonoGAI,
+  tokensmonoMETFI,
+  tokensmonoPREMIA,
+  tokensmonoWAMPL,
+  tokensmonoPLEX,
+  tokensmonoOBSR,
+  tokensmonoILV,
+  tokensmonoRXD,
+  tokensmonoZERO,
+  tokensmonoDIVER,
+  tokensmonoBUMP,
+  tokensmonoWGC,
+  tokensmonoFUSE,
+  tokensmonoGZIL,
+  tokensmonoYES,
+  tokensmonoPLU,
+  tokensmonoICX,
+  tokensmonoRVN,
+  tokensmonoPRTC,
+  tokensmonoPXP,
+  tokensmonoLDO,
+  tokensmonoKAR,
+  tokensmonoHEGIC,
+  tokensmonoSLND,
+  tokensmonoQUINT,
+  tokensmonoWOMBAT,
+  tokensmonoPTS,
+  tokensmonoCCD,
+  tokensmonoCIRUS,
+  tokensmonoXTZ,
+  tokensmonoTDROP,
+  tokensmonoVXV,
+  tokensmonoAXL,
+  tokensmonoOXT,
+  tokensmonoDIA,
+  tokensmonoWOOF,
+  tokensmonoFOUR,
+  tokensmonoMBX,
+  tokensmonoPI,
+  tokensmonoBOSON,
+  tokensmonoBBANK,
+  tokensmonoMNDE,
+  tokensmonoWLITI,
+  tokensmonoACQ,
+  tokensmonoHFT,
+  tokensmonoCNHT,
+  tokensmonoAURORA,
+  tokensmonoCVR,
+  tokensmonoALI,
+  tokensmonoNEER,
+  tokensmonoCVP,
+  tokensmonoMXC,
+  tokensmonoAMO,
+  tokensmonoANT,
+  tokensmonoDSM,
+  tokensmonoHEZ,
+  tokensmonoANC,
+  tokensmonoCTX,
+  tokensmonoBTCMT,
+  tokensmonoMETA,
+  tokensmonoWITCH,
+  tokensmonoXNA,
+  tokensmonoXOR,
+  tokensmonoVCORE,
+  tokensmonoEVER,
+  tokensmonoSTFX,
+  tokensmonoMYST,
+  tokensmonoPOLA,
+  tokensmonoSHROOM,
+  tokensmonoMAV,
+  tokensmonoREVV,
+  tokensmonoXVG,
+  tokensmonoDENT,
+  tokensmonoD2T,
+  tokensmonoEOSDT,
+  tokensmonoZLK,
+  tokensmonoODIN,
+  tokensmonoWAGMIGAMES,
+  tokensmonoKAG,
+  tokensmonoKAP,
+  tokensmonoRLB,
+  tokensmonoORBS,
+  tokensmonoKMD,
+  tokensmonoSUTER,
+  tokensmonoRAE,
+  tokensmonoSWTH,
+  tokensmonoNGC,
+  tokensmonoGLM,
+  tokensmonoETI,
+  tokensmonoPOL,
+  tokensmonoWLKN,
+  tokensmonoCONV,
+  tokensmonoBLOX,
+  tokensmonoTROVE,
+  tokensmonoLSD,
+  tokensmonoKUB,
+  tokensmonoLSS,
+  tokensmonoINJ,
+  tokensmonoION,
+  tokensmonoKOMPETE,
+  tokensmonoWELT,
+  tokensmonoKASTA,
+  tokensmonoAGLD,
+  tokensmonoNFTX,
+  tokensmonoVSTA,
+  tokensmono1INCH,
+  tokensmonoUSDV,
+  tokensmonoDOLA,
+  tokensmonoDOME,
+  tokensmonoPLA,
+  tokensmonoGNS,
+  tokensmonoEUL,
+  tokensmonoDMTR,
+  tokensmonoMETIS,
+  tokensmonoAIMX,
+  tokensmonoMOOV,
+  tokensmonoBRN,
+  tokensmonoETH,
+  tokensmonoRAD,
+  tokensmonoKOM,
+  tokensmonoBIDZ,
+  tokensmonoKLV,
+  tokensmonoGOFX,
+  tokensmonoBDT,
+  tokensmonoWING,
+  tokensmonoKWAI,
+  tokensmonoRLC,
+  tokensmonoBITCI,
+  tokensmonoPOOLX,
+  tokensmonoPORTX,
+  tokensmonoYFII,
+  tokensmonoTOSHI,
+  tokensmonoMBL,
+  tokensmonoSIX,
+  tokensmonoLOKA,
+  tokensmonoCLH,
+  tokensmonoDIVI,
+  tokensmonoCOS,
+  tokensmonoFSN,
+  tokensmonoJST,
+  tokensmonoSTPT,
+  tokensmonoPHONON,
+  tokensmonoMVI,
+  tokensmonoPIXEL,
+  tokensmonoMTV,
+  tokensmonoSTRK,
+  tokensmonoDUST,
+  tokensmonoFET,
+  tokensmonoGT,
+  tokensmonoMTA,
+  tokensmonoFOLD,
+  tokensmonoIBAT,
+  tokensmonoONION,
+  tokensmonoXCP,
+  tokensmonoH2O,
+  tokensmonoRITE,
+  tokensmonoTVK,
+  tokensmonoVNO,
+  tokensmonoSSV,
+  tokensmonoMIMO,
+  tokensmonoWAXP,
+  tokensmonoDPS,
+  tokensmonoTUT,
+  tokensmonoMUSIC,
+  tokensmonoFIS,
+  tokensmonoEUROE,
+  tokensmonoONI,
+  tokensmonoSTRX,
+  tokensmonoNULS,
+  tokensmonoCEUR,
+  tokensmonoABR,
+  tokensmonoCND,
+  tokensmonoSHX,
+  tokensmonoPOLS,
+  tokensmonoPAAL,
+  tokensmonoATH,
+  tokensmonoCOW,
+  tokensmonoEQUAL,
+  tokensmonoPUNDIX,
+  tokensmonoSPORE,
+  tokensmonoATOR,
+  tokensmonoSDL,
+  tokensmonoDFI,
+  tokensmonoKAU,
+  tokensmonoGMPD,
+  tokensmonoSHIDO,
+  tokensmonoROME,
+  tokensmonoSKEB,
+  tokensmonoKMA,
+  tokensmonoBDP,
+  tokensmonoNRG,
+  tokensmonoRSS3,
+  tokensmonoMONA,
+  tokensmonoPLR,
+  tokensmonoHANDY,
+  tokensmonoEXTRA,
+  tokensmonoFEVR,
+  tokensmonoLPOOL,
+  tokensmonoUNDEAD,
+  tokensmonoGMEE,
+  tokensmonoKTC,
+  tokensmonoCSPR,
+  tokensmonoSBTC,
+  tokensmonoLEVER,
+  tokensmonoAGLA,
+  tokensmonoPAC,
+  tokensmonoPBX,
+  tokensmonoICHI,
+  tokensmonoCUDOS,
+  tokensmonoNEX,
+  tokensmonoBPT,
+  tokensmonoGMM,
+  tokensmonoUSDD,
+  tokensmonoNCDT,
+  tokensmonoWIN,
+  tokensmonoYDF,
+  tokensmonoBSX,
+  tokensmonoNEO,
+  tokensmonoHONEY,
+  tokensmonoPRIME,
+  tokensmonoSLAM,
+  tokensmonoPYR,
+  tokensmonoUFT,
+  tokensmonoUMAMI,
+  tokensmonoLIF3,
+  tokensmonoXCFX,
+  tokensmonoTEER,
+  tokensmonoBLUR,
+  tokensmonoELK,
+  tokensmonoPTU,
+  tokensmonoKP3R,
+  tokensmonoIXT,
+  tokensmonoKAT,
+  tokensmonoSEI,
+  tokensmonoBTSG,
+  tokensmonoCETUS,
+  tokensmonoXWG,
+  tokensmonoXPRT,
+  tokensmonoDIP,
+  tokensmonoCOV,
+  tokensmonoODDZ,
+  tokensmonoDHT,
+  tokensmonoSC,
+  tokensmonoJUNGLE4EOS,
+  tokensmonoAVA,
+  tokensmonoSTEP,
+  tokensmonoARIA20,
+  tokensmonoMTD,
+  tokensmonoVRSW,
+  tokensmonoMNGO,
+  tokensmonoMVL,
+  tokensmonoSCRT,
+  tokensmonoMTS,
+  tokensmonoXLM,
+  tokensmonoCTK,
+  tokensmonoSPH,
+  tokensmonoBCDT,
+  tokensmonoZYN,
+  tokensmonoCVC,
+  tokensmonoHGT,
+  tokensmonoAVAX,
+  tokensmonoCWEB,
+  tokensmonoBORA,
+  tokensmonoALPHA,
+  tokensmonoMIND,
+  tokensmonoAEGIS,
+  tokensmonoHDX,
+  tokensmonoCTI,
+  tokensmonoALEPH,
+  tokensmonoSHOPX,
+  tokensmonoIRIS,
+  tokensmonoSOFI,
+  tokensmonoEL,
+  tokensmonoOZO,
+  tokensmonoCNG,
+  tokensmonoTON,
+  tokensmonoFRM,
+  tokensmonoOMMI,
+  tokensmonoAVT,
+  tokensmonoAVINOC,
+  tokensmonoBTSE,
+  tokensmonoSFP,
+  tokensmonoCAH,
+  tokensmonoLEO,
+  tokensmonoFNSA,
+  tokensmonoCROID,
+  tokensmonoBIT,
+  tokensmonoNFAI,
+  tokensmonoALGO,
+  tokensmonoNODL,
+  tokensmonoWNDR,
+  tokensmonoXCHF,
+  tokensmonoGMX,
+  tokensmonoGOG,
+  tokensmonoONIT,
+  tokensmonoPIVX,
+  tokensmonoBIST,
+  tokensmonoEWT,
+  tokensmonoRWN,
+  tokensmonoHUSD,
+  tokensmonoKLAY,
+  tokensmonoPROM,
+  tokensmonoGAL,
+  tokensmonoIDLE,
+  tokensmonoGCR,
+  tokensmonoTRONPAD,
+  tokensmonoETN,
+  tokensmonoTIDAL,
+  tokensmonoSOLVE,
+  tokensmonoKUNCI,
+  tokensmonoVTHO,
+  tokensmonoRBN,
+  tokensmonoRENBTC,
+  tokensmonoNPM,
+  tokensmonoEOS,
+  tokensmonoMOVR,
+  tokensmonoEML,
+  tokensmonoUNIBOT,
+  tokensmonoMOVE,
+  tokensmono0X0,
+  tokensmonoSDN,
+  tokensmonoUNFI,
+  tokensmonoCELR,
+  tokensmonoDEP,
+  tokensmonoDGX,
+  tokensmonoASIA,
+  tokensmonoFPS,
+  tokensmonoQSR,
+  tokensmonoQUBE,
+  tokensmonoPUMLX,
+  tokensmonoXYO,
+  tokensmonoBZRX,
+  tokensmonoBRIDGE,
+  tokensmonoXIDO,
+  tokensmonoMETF,
+  tokensmonoMPLX,
+  tokensmonoFER,
+  tokensmonoCHAIN,
+  tokensmonoTAKI,
+  tokensmonoOMG,
+  tokensmonoACT,
+  tokensmonoOLT,
+  tokensmonoSSWP,
+  tokensmonoCREDI,
+  tokensmonoEXRD,
+  tokensmonoCWS,
+  tokensmonoHOOK,
+  tokensmonoQKC,
+  tokensmonoGSWIFT,
+  tokensmonoOAS,
+  tokensmonoTRU,
+  tokensmonoXDB,
+  tokensmonoXDEFI,
+  tokensmonoCQT,
+  tokensmonoCRO,
+  tokensmonoNRCH,
+  tokensmonoAHT,
+  tokensmonoBUILD,
+  tokensmonoGBEX,
+  tokensmonoTRB,
+  tokensmonoZOOMER,
+  tokensmonoSXP,
+  tokensmonoXPLA,
+  tokensmonoCLXY,
+  tokensmonoCARBON,
+  tokensmonoXHV,
+  tokensmonoHON,
+  tokensmonoSALT,
+  tokensmonoFORT,
+  tokensmonoDOT,
+  tokensmonoTT,
+  tokensmonoAPE,
+  tokensmonoELAND,
+  tokensmonoASTROC,
+  tokensmonoSMBR,
+  tokensmonoVENT,
+  tokensmonoTGT,
+  tokensmonoZIG,
+  tokensmonoTRCL,
+  tokensmonoKEX,
+  tokensmonoPRQ,
+  tokensmonoRIN,
+  tokensmonoXSGD,
+  tokensmonoKINT,
+  tokensmonoMMPRO,
+  tokensmonoWBTC,
+  tokensmonoEFL,
+  tokensmonoSWEAT,
+  tokensmonoWXT,
+  tokensmonoRPL,
+  tokensmonoCROWD,
+  tokensmonoCYBER,
+  tokensmonoGIV,
+  tokensmonoBEAM,
+  tokensmonoTRYB,
+  tokensmonoAIPAD,
+  tokensmonoWNXM,
+  tokensmonoNLS,
+  tokensmonoPEX,
+  tokensmonoSHRAP,
+  tokensmonoTRVL,
+  tokensmonoGET,
+  tokensmonoFDUSD,
+  tokensmonoQANX,
+  tokensmonoBZR,
+  tokensmonoSILK,
+  tokensmonoSAKAI,
+  tokensmonoBAX,
+  tokensmonoFRIN,
+  tokensmonoTROY,
+  tokensmonoBAO,
+  tokensmonoLINK,
+  tokensmonoALOT,
+  tokensmonoUMA,
+  tokensmonoMORK,
+  tokensmonoKEY,
+  tokensmonoJULD,
+  tokensmonoHTR,
+  tokensmonoORT,
+  tokensmonoGYEN,
+  tokensmonoDAI,
+  tokensmonoDBR,
+  tokensmonoMATICX,
+  tokensmonoCDT,
+  tokensmonoCGO,
+  tokensmonoGLEEC,
+  tokensmonoUBXS,
+  tokensmonoDEFI,
+  tokensmonoVRA,
+  tokensmonoHZN,
+  tokensmonoFUN,
+  tokensmonoVITA,
+  tokensmonoZEE,
+  tokensmonoADA,
+  tokensmonoCERE,
+  tokensmonoFCT,
+  tokensmono1ART,
+  tokensmonoXEP,
+  tokensmonoTRC,
+  tokensmonoEDGE,
+  tokensmonoL2,
+  tokensmonoWCFG,
+  tokensmonoMARSH,
+  tokensmonoXDC,
+  tokensmonoSOLO,
+  tokensmonoVERSE,
+  tokensmonoSTG,
+  tokensmonoQLC,
+  tokensmonoSOLX,
+  tokensmonoATRI,
+  tokensmonoSPACE,
+  tokensmonoROOBEE,
+  tokensmonoSENATE,
+  tokensmonoOKT,
+  tokensmonoAA,
+  tokensmonoTHEO,
+  tokensmonoVSP,
+  tokensmonoHXD,
+  tokensmonoDEGO,
+  tokensmonoSETH2,
+  tokensmonoLIME,
+  tokensmonoRJV,
+  tokensmonoUNO,
+  tokensmonoPRE,
+  tokensmonoARKM,
+  tokensmonoREN,
+  tokensmonoGALA,
+  tokensmonoEFX,
+  tokensmonoIST,
+  tokensmonoTOKEN,
+  tokensmonoEDG,
+  tokensmonoGAME,
+  tokensmonoROSE,
+  tokensmonoIDEX,
+  tokensmonoBEAN,
+  tokensmonoYAM,
+  tokensmonoRSC,
+  tokensmonoLTC,
+  tokensmonoBXX,
+  tokensmonoTUSD,
+  tokensmonoCTSI,
+  tokensmonoHERO,
+  tokensmonoWIKEN,
+  tokensmonoPKF,
+  tokensmonoTPAD,
+  tokensmonoNAV,
+  tokensmonoPYTH,
+  tokensmonoTIME,
+  tokensmonoSIDUS,
+  tokensmonoLIBRE,
+  tokensmonoBTM,
+  tokensmonoKIN,
+  tokensmonoDVPN,
+  tokensmonoLUSD,
+  tokensmonoBCD,
+  tokensmonoREGEN,
+  tokensmonoBAL,
+  tokensmonoHBOT,
+  tokensmonoMATIC,
+  tokensmonoBMX,
+  tokensmonoNXT,
+  tokensmonoUMB,
+  tokensmonoWWY,
+  tokensmonoLAT,
+  tokensmonoPIKA,
+  tokensmonoBNT,
+  tokensmonoCOPE,
+  tokensmonoSTOSMO,
+  tokensmonoDCB,
+  tokensmonoXPR,
+  tokensmonoJUNO,
+  tokensmonoFUTURE,
+  tokensmonoPOLYX,
+  tokensmonoBAND,
+  tokensmonoEVEAI,
+  tokensmonoMBOX,
+  tokensmonoJOY,
+  tokensmonoFYN,
+  tokensmonoSOL,
+  tokensmonoAQT,
+  tokensmonoMDX,
+  tokensmonoBOLT,
+  tokensmonoHORD,
+  tokensmonoSOUL,
+  tokensmonoDERO,
+  tokensmonoAXEL,
+  tokensmonoHOGE,
+  tokensmonoOKB,
+  tokensmonoCRPT,
+  tokensmonoADAPAD,
+  tokensmono3ULL,
+  tokensmonoX2Y2,
+  tokensmonoZRX,
+  tokensmonoMC,
+  tokensmonoFLX,
+  tokensmonoSUB,
+  tokensmonoEDEN,
+  tokensmonoOX,
+  tokensmonoDTX,
+  tokensmonoREEF,
+  tokensmonoDESO,
+  tokensmonoECOX,
+  tokensmonoVEX,
+  tokensmonoFORTH,
+  tokensmonoSAMA,
+  tokensmonoDXL,
+  tokensmonoHAIR,
+  tokensmonoSPOOL,
+  tokensmonoMFT,
+  tokensmonoPOKT,
+  tokensmonoFORE,
+  tokensmonoRADIO,
+  tokensmonoAPT,
+  tokensmonoMEX,
+  tokensmonoARK,
+  tokensmonoMNTL,
+  tokensmonoFTM,
+  tokensmonoSCLP,
+  tokensmonoSATT,
+  tokensmonoPAID,
+  tokensmonoAART,
+  tokensmonoBTCST,
+  tokensmonoINFRA,
+  tokensmonoKINE,
+  tokensmonoBLX,
+  tokensmonoDFYN,
+  tokensmonoSPHERE,
+  tokensmonoHYVE,
+  tokensmonoLCX,
+  tokensmonoIDRT,
+  tokensmonoWIGO,
+  tokensmonoQUIDD,
+  tokensmonoEDU,
+  tokensmonoRGT,
+  tokensmonoWALLET,
+  tokensmonoLZM,
+  tokensmonoDOGA,
+  tokensmonoAGIX,
+  tokensmonoQTUM,
+  tokensmonoWEMIX,
+  tokensmonoBEND,
+  tokensmonoRVST,
+  tokensmonoDXGM,
+  tokensmonoCAKE,
+  tokensmonoYOU,
+  tokensmonoPKT,
+  tokensmonoWOM,
+  tokensmonoERN,
+  tokensmonoLITT,
+  tokensmonoEQB,
+  tokensmonoIGU,
+  tokensmonoCAST,
+  tokensmonoAGRS,
+  tokensmonoRDN,
+  tokensmonoEGO,
+  tokensmonoBICO,
+  tokensmonoBUSD,
+  tokensmonoSUIP,
+  tokensmonoISP,
+  tokensmonoMASQ,
+  tokensmonoXSUSHI,
+  tokensmonoDOSE,
+  tokensmonoTRAC,
+  tokensmonoBOB,
+  tokensmonoTEL,
+  tokensmonoSTMX,
+  tokensmonoDAO,
+  tokensmonoBFIC,
+  tokensmonoDEXTF,
+  tokensmonoMKR,
+  tokensmonoDBC,
+  tokensmonoATPAY,
+  tokensmonoLAND,
+  tokensmonoDEFX,
+  tokensmonoSLR,
+  tokensmonoSDEX,
+  tokensmonoADCO,
+  tokensmonoZEC,
+  tokensmonoTKP,
+  tokensmonoETHIX,
+  tokensmonoAR,
+  tokensmonoADP,
+  tokensmonoSYS,
+  tokensmonoGENI,
+  tokensmonoAE,
+  tokensmonoMST,
+  tokensmonoPAWTH,
+  tokensmonoBSGG,
+  tokensmonoMYRIA,
+  tokensmonoMF,
+  tokensmonoVPAD,
+  tokensmono10SET,
+  tokensmonoWAGMI,
+  tokensmonoDVF,
+  tokensmonoVIX,
+  tokensmonoFITFI,
+  tokensmonoXET,
+  tokensmonoXDG,
+  tokensmonoRISE,
+  tokensmonoSOMM,
+  tokensmonoGRAI,
+  tokensmonoPRIMAL,
+  tokensmonoXEC,
+  tokensmonoJUP,
+  tokensmonoVLXPAD,
+  tokensmonoOXEN,
+  tokensmonoTHALES,
+  tokensmonoAGI,
+  tokensmonoFWB,
+  tokensmonoSLG,
+  tokensmonoSTBU,
+  tokensmonoLOOM,
+  tokensmonoPAPER,
+  tokensmonoSNX,
+  tokensmonoFTN,
+  tokensmonoVITE,
+  tokensmonoAPW,
+  tokensmonoSMT,
+  tokensmonoZZ,
+  tokensmonoCFX,
+  tokensmonoIPOR,
+  tokensmonoDCR,
+  tokensmonoABYSS,
+  tokensmonoCOMBO,
+  tokensmonoAIRI,
+  tokensmonoPSP,
+  tokensmonoUNI,
+  tokensmonoDASH,
+  tokensmonoEGLD,
+  tokensmonoPERI,
+  tokensmonoBCT,
+  tokensmonoXAVA,
+  tokensmonoEFI,
+  tokensmonoBUY,
+  tokensmonoDAFI,
+  tokensmonoYAK,
+  tokensmonoYCC,
+  tokensmonoWNK,
+  tokensmonoRSR,
+  tokensmonoWHALE,
+  tokensmonoSILO,
+  tokensmonoWOO,
+  tokensmonoNOM,
+  tokensmonoNMR,
+  tokensmonoWAS,
+  tokensmonoFACTR,
+  tokensmonoSAITAMA,
+  tokensmonoLUA,
+  tokensmonoSFRXETH,
+  tokensmonoRARI,
+  tokensmonoDODO,
+  tokensmonoSAITO,
+  tokensmonoRDNT,
+  tokensmonoSOLID,
+  tokensmonoKUJI,
+  tokensmonoLVL,
+  tokensmonoMCRT,
+  tokensmonoLAZIO,
+  tokensmonoNSFW,
+  tokensmonoNAP,
+  tokensmonoLUFC,
+  tokensmonoWIFI,
+  tokensmonoBCB,
+  tokensmonoCARD,
+  tokensmonoLON,
+  tokensmonoARDR,
+  tokensmonoCARAT,
+  tokensmonoBLZ,
+  tokensmonoBOA,
+  tokensmonoSTJUNO,
+  tokensmonoAREA,
+  tokensmonoDSRUN,
+  tokensmonoVELO,
+  tokensmonoMIN,
+  tokensmonoOSMO,
+  tokensmonoSTOS,
+  tokensmonoHVH,
+  tokensmonoCHR,
+  tokensmonoASM,
+  tokensmonoHXRO,
+  tokensmonoDOG,
+  tokensmonoGAINS,
+  tokensmonoADS,
+  tokensmonoMRS,
+  tokensmonoMPL,
+  tokensmonoDERI,
+  tokensmonoLORDS,
+  tokensmonoXKI,
+  tokensmonoSCNSOL,
+  tokensmonoNPXS,
+  tokensmonoOM,
+  tokensmonoAIT,
+  tokensmonoOOKI,
+  tokensmonoFOR,
+  tokensmonoBONDLY,
+  tokensmonoLA,
+  tokensmonoSUI,
+  tokensmonoINST,
+  tokensmonoAIN,
+  tokensmonoFLS,
+  tokensmonoOOKS,
+  tokensmonoXFT,
+  tokensmonoBTCP,
+  tokensmonoSFTMX,
+  tokensmonoXETA,
+  tokensmonoHMX,
+  tokensmonoRUNE,
+  tokensmonoHOP,
+  tokensmonoMCADE,
+  tokensmonoPARA,
+  tokensmonoVIDYA,
+  tokensmonoHNT,
+  tokensmonoBRICK,
+  tokensmonoKICKS,
+  tokensmonoAPL,
+  tokensmonoSNT,
+  tokensmonoPROPS,
+  tokensmonoLMWR,
+  tokensmonoTHE,
+  tokensmonoSNC,
+  tokensmonoAMKT,
+  tokensmonoTIA,
+  tokensmonoMNTC,
+  tokensmonoXI,
+  tokensmonoCGG,
+  tokensmonoHTM,
+  tokensmonoPRO,
+  tokensmonoPLASTIK,
+  tokensmonoPRX,
+  tokensmonoFUND,
+  tokensmonoAURABAL,
+  tokensmonoLOC,
+  tokensmonoNVT,
+  tokensmonoMAPS,
+  tokensmonoKNDX,
+  tokensmonoFAKEAI,
+  tokensmonoBURGER,
+  tokensmonoGAMMA,
+  tokensmonoUTK,
+  tokensmonoCUSDC,
+  tokensmonoWISE,
+  tokensmonoWEFI,
+  tokensmonoPHA,
+  tokensmonoNAVI,
+  tokensmonoARRR,
+  tokensmonoBERRY,
+  tokensmonoBZZ,
+  tokensmonoSETH,
+  tokensmonoBELT,
+  tokensmonoFPIS,
+  tokensmonoFIDA,
+  tokensmonoPGX,
+  tokensmonoRARE,
+  tokensmonoHBTC,
+  tokensmonoXFUND,
+  tokensmonoLIXX,
+  tokensmonoLAUNCH,
+  tokensmonoPDT,
+  tokensmonoARSW,
+  tokensmonoNCT,
+  tokensmonoAPEX,
+  tokensmonoAPFC,
+  tokensmonoIDV,
+  tokensmonoBTG,
+  tokensmonoLYX,
+  tokensmonoBETS,
+  tokensmonoQTCON,
+  tokensmonoBCN,
+  tokensmonoUND,
+  tokensmonoLAI,
+  tokensmonoLBR,
+  tokensmonoNYM,
+  tokensmonoGRC,
+  tokensmonoRIF,
+  tokensmonoPRY,
+  tokensmonoSUDO,
+  tokensmonoKILT,
+  tokensmonoGRT,
+  tokensmonoZKP,
+  tokensmonoXRP,
+  tokensmonoWAIT,
+  tokensmonoTET,
+  tokensmonoXPX,
+  tokensmonoVEMP,
+  tokensmonoHAPI,
+  tokensmonoRAZOR,
+  tokensmonoXRUNE,
+  tokensmonoSTAT,
+  tokensmonoFRONT,
+  tokensmonoFTC,
+  tokensmonoVC,
+  tokensmonoDMC,
+  tokensmonoAPM,
+  tokensmonoDMT,
+  tokensmonoZANO,
+  tokensmonoVIB,
+  tokensmonoTOMI,
+  tokensmonoNEAR,
+  tokensmonoBTRFLY,
+  tokensmonoFLR,
+  tokensmonoDVI,
+  tokensmonoLM,
+  tokensmonoCUMMIES,
+  tokensmonoCRE,
+  tokensmonoSPANK,
+  tokensmonoBTC2,
+  tokensmonoBS,
+  tokensmonoSHFT,
+  tokensmonoVET,
+  tokensmonoR,
+  tokensmonoHAKA,
+  tokensmonoIBIT,
+  tokensmonoVV,
+  tokensmonoCKP,
+  tokensmonoAST,
+  tokensmonoJAM,
+  tokensmonoMET,
+  tokensmonoAPX,
+  tokensmonoZEN,
+  tokensmonoCEL,
+  tokensmonoSAVG,
+  tokensmonoSCP,
+  tokensmonoVELA,
+  tokensmonoWHITE,
+  tokensmonoXELS,
+  tokensmonoSRCX,
+  tokensmonoKDA,
+  tokensmonoFIRO,
+  tokensmonoTRADE,
+  tokensmonoPRISM,
+  tokensmonoBLT,
+  tokensmonoGSE,
+  tokensmonoBOX,
+  tokensmonoNALS,
+  tokensmonoEURS,
+  tokensmonoRDT,
+  tokensmonoREP,
+  tokensmonoBEPRO,
+  tokensmonoMCHC,
+  tokensmonoMSOL,
+  tokensmonoRAKE,
+  tokensmonoSUKU,
+  tokensmonoMASK,
+  tokensmonoGHO,
+  tokensmonoSWETH,
+  tokensmonoAUCTION,
+  tokensmonoPHB,
+  tokensmonoERTHA,
+  tokensmonoGHX,
+  tokensmonoJMPT,
+  tokensmonoFLUX,
+  tokensmonoGOVI,
+  tokensmonoLYM,
+  tokensmonoEQX,
+  tokensmonoTETU,
+  tokensmonoMAHA,
+  tokensmonoSUSD,
+  tokensmonoKRL,
+  tokensmonoKROM,
+  tokensmonoCHAT,
+  tokensmonoPURSE,
+  tokensmonoSTEEM,
+  tokensmonoBLID,
+  tokensmonoRPG,
+  tokensmonoREUNI,
+  tokensmonoBTS,
+  tokensmonoPIP,
+  tokensmonoARI10,
+  tokensmonoOBOT,
+  tokensmonoREF,
+  tokensmonoISK,
+  tokensmonoNUM,
+  tokensmonoEGC,
+  tokensmonoRAIL,
+  tokensmonoREQ,
+  tokensmonoSEND,
+  tokensmonoHUNT,
+  tokensmonoTENET,
+  tokensmonoPERP,
+  tokensmonoLPNT,
+  tokensmonoDSETH,
+  tokensmonoRMRK,
+  tokensmonoXCAD,
+  tokensmonoLINA,
+  tokensmonoEJS,
+  tokensmonoK21,
+  tokensmonoFLOW,
+  tokensmonoSTSTARS,
+  tokensmonoGUSD,
+  tokensmonoBOBA,
+  tokensmonoZIL,
+  tokensmonoALLIN,
+  tokensmonoSAN,
+  tokensmonoXRD,
+  tokensmonoJONES,
+  tokensmonoDCK,
+  tokensmonoNFTBS,
+  tokensmonoHOPR,
+  tokensmonoASCN,
+  tokensmonoPASG,
+  tokensmonoPART,
+  tokensmonoBCMC,
+  tokensmonoAI,
+  tokensmonoXEM,
+  tokensmonoSTX,
+  tokensmonoVIA,
+  tokensmonoQNT,
+  tokensmonoHBB,
+  tokensmonoMARS4,
+  tokensmonoSTARS,
+  tokensmonoOCEAN,
+  tokensmonoCREAM,
+  tokensmonoCPH,
+  tokensmonoADX,
+  tokensmonoSAND,
+  tokensmonoKARATE,
+  tokensmonoMUTE,
+  tokensmonoTIG,
+  tokensmonoARB,
+  tokensmonoTKX,
+  tokensmonoDMD,
+  tokensmonoCREO,
+  tokensmonoSOV,
+  tokensmonoIPAD,
+  tokensmonoTKO,
+  tokensmonoVOICE,
+  tokensmonoSCB,
+  tokensmonoKALM,
+  tokensmonoBOTTO,
+  tokensmonoMIR,
+  tokensmonoDAG,
+  tokensmonoALPACA,
+  tokensmonoAPEFI,
+  tokensmonoNEWO,
+  tokensmonoNETT,
+  tokensmonoIONX,
+  tokensmonoMDAO,
+  tokensmonoWACME,
+  tokensmonoHBAR,
+  tokensmonoGRS,
+  tokensmonoPERC,
+  tokensmonoEGG,
+  tokensmonoKIT,
+  tokensmonoEFC,
+  tokensmonoGAMI,
+  tokensmonoKICK,
+  tokensmonoCMDX,
+  tokensmonoMEDIA,
+  tokensmonoIOTA,
+  tokensmonoLTO,
+  tokensmonoTOPIA,
+  tokensmonoXCUR,
+  tokensmonoKSM,
+  tokensmonoBROCK,
+  tokensmonoLTX,
+  tokensmonoWAN,
+  tokensmonoMETAV,
+  tokensmonoNMX,
+  tokensmonoGEL,
+  tokensmonoWBT,
+  tokensmonoAERO,
+  tokensmonoIDIA,
+  tokensmonoLYRA,
+  tokensmonoTITAN,
+  tokensmonoPIB,
+  tokensmonoERG,
+  tokensmonoBTA,
+  tokensmonoNCR,
+  tokensmonoBCH,
+  tokensmonoALCX,
+  tokensmonoBBL,
+  tokensmonoRFOX,
+  tokensmonoEUSD,
+  tokensmonoBLP,
+  tokensmonoPSL,
+  tokensmonoCOPI,
+  tokensmonoLBT,
+  tokensmonoBNX,
+  tokensmonoBMC,
+  tokensmonoBIGSB,
+  tokensmonoXY,
+  tokensmonoCHO,
+  tokensmonoTKN,
+  tokensmonoSNS,
+  tokensmonoLQDR,
+  tokensmonoVR,
+  tokensmonoPROPC,
+  tokensmonoMDT,
+  tokensmonoARC,
+  tokensmonoDERC,
+  tokensmonoSTORJ,
+  tokensmonoVGX,
+  tokensmonoGEOD,
+  tokensmonoOP,
+  tokensmonoNEBO,
+  tokensmonoPENDLE,
+  tokensmonoSOON,
+  tokensmonoMX,
+  tokensmonoAMPL,
+  tokensmonoHAI,
+  tokensmonoO3,
+  tokensmonoAKT,
+  tokensmonoDEFIT,
+  tokensmonoMM,
+  tokensmonoT,
+  tokensmonoIRON,
+  tokensmonoGAMEFI,
+  tokensmonoIGNIS,
+  tokensmonoVEE,
+  tokensmonoMPS,
+  tokensmonoVEUR,
+  tokensmonoGSWAP,
+  tokensmonoCHZ,
+  tokensmonoDLC,
+  tokensmonoAZIT,
+  tokensmonoMEED,
+  tokensmonoRGEN,
+  tokensmonoARV,
+  tokensmonoDAD,
+  tokensmonoXRT,
+  tokensmonoXSP,
+  tokensmonoSAI,
+  tokensmonoREV3L,
+  tokensmonoRIDE,
+  tokensmonoFXS,
+  tokensmonoOPIUM,
+  tokensmonoLGCY,
+  tokensmonoLCR,
+  tokensmonoNXM,
+  tokensmonoUOS,
+  tokensmonoCDAI,
+  tokensmonoGALEON,
+  tokensmonoREV,
+  tokensmonoSOURCE,
+  tokensmonoUBT,
+  tokensmonoCAPS,
+  tokensmonoBTC,
+  tokensmonoNBT,
+  tokensmonoLITH,
+  tokensmonoBTT,
+  tokensmonoLEOX,
+  tokensmonoHIFI,
+  tokensmonoECOIN,
+  tokensmonoNOS,
+  tokensmonoSNFT,
+  tokensmonoGGP,
+  tokensmonoMTRG,
+  tokensmonoGGG,
+  tokensmonoIDEA,
+  tokensmonoZPAY,
+  tokensmonoBTU,
+  tokensmonoBSCPAD,
+  tokensmonoACRIA,
+  tokensmonoGUILD,
+  tokensmonoNWC,
+  tokensmonoNTX,
+  tokensmonoBAT,
+  tokensmonoLOOKS,
+  tokensmonoEURT,
+  tokensmonoBETA,
+  tokensmonoBORING,
+  tokensmonoEVMOS,
+  tokensmonoPINKSALE,
+  tokensmonoRDD,
+  tokensmonoXAUR,
+  tokensmonoPROTEO,
+  tokensmonoTABOO,
+  tokensmonoPPT,
+  tokensmonoSUSHI,
+  tokensmonoLING,
+  tokensmonoORDI,
+  tokensmonoLCS,
+  tokensmonoPPC,
+  tokensmonoHERMES,
+  tokensmonoBLD,
+  tokensmonoZKB,
+  tokensmonoCGT,
+  tokensmonoHARD,
+  tokensmonoCFG,
+  tokensmonoIETH,
+  tokensmonoSBD,
+  tokensmonoLAMB,
+  tokensmonoUNCX,
+  tokensmonoQUARTZ,
+  tokensmonoMED,
+  tokensmonoBOND,
+  tokensmonoGBYTE,
+  tokensmonoASD,
+  tokensmonoKAVA,
+  tokensmonoTXAU,
+  tokensmonoU,
+  tokensmonoHOT,
+  tokensmonoCRU,
+  tokensmonoDIKO,
+  tokensmonoML,
+  tokensmonoVEXT,
+  tokensmonoOS,
+  tokensmonoTREEB,
+  tokensmonoKMON,
+  tokensmonoGRAV,
+  tokensmonoCLORE,
+  tokensmonoTRX,
+  tokensmonoOGN,
+  tokensmonoCTR,
+  tokensmonoPDEX,
+  tokensmonoWHALES,
+  tokensmonoTHOR,
+  tokensmonoZTG,
+  tokensmonoHID,
+  tokensmonoMUSD,
+  tokensmonoWOZX,
+  tokensmonoSKL,
+  tokensmonoBRISE,
+  tokensmonoSOPH,
+  tokensmonoQUAD,
+  tokensmonoQR,
+  tokensmonoSWASH,
+  tokensmonoSIS,
+  tokensmonoOMNI,
+  tokensmonoQRL,
+  tokensmonoDKA,
+  tokensmonoAUDIO,
+  tokensmonoZCN,
+  tokensmonoFRA,
+  tokensmonoSDT,
+  tokensmonoCAS,
+  tokensmonoAXS,
+  tokensmonoLODE,
+  tokensmonoMND,
+  tokensmonoYOSHI,
+  tokensmonoDGB,
+  tokensmonoCRWNY,
+  tokensmonoFCON,
+  tokensmonoRNDR,
+  tokensmonoPLANETS,
+  tokensmonoLET,
+  tokensmonoFLOOR,
+  tokensmonoPSTAKE,
+  tokensmonoBEL,
+  tokensmonoPZP,
+  tokensmonoNVIR,
+  tokensmonoTAROT,
+  tokensmonoNFTART,
+  tokensmonoBISO,
+  tokensmonoGNO,
+  tokensmonoBSV,
+  tokensmonoGORA,
+  tokensmonoCOMP,
+  tokensmonoLUCA,
+  tokensmonoGDCC,
+  tokensmonoETC,
+  tokensmonoICP,
+  tokensmonoPNB,
+  tokensmonoSYNC,
+  tokensmonoMANA,
+  tokensmonoIDNA,
+  tokensmonoWRLD,
+  tokensmonoHUSH,
+  tokensmonoWAVES,
+  tokensmonoGYMNET,
+  tokensmonoAURA,
+  tokensmonoMOBILE,
+  tokensmonoLPT,
+  tokensmonoINV,
+  tokensmonoPAL,
+  tokensmonoMCONTENT,
+  tokensmonoTRAVA,
+  tokensmonoGNY,
+  tokensmonoKYVE,
+  tokensmonoPNT,
+  tokensmonoBSW,
+  tokensmonoAIOZ,
+  tokensmonoPOP,
+  tokensmonoGLQ,
+  tokensmonoNXRA,
+  tokensmonoRAY,
+  tokensmonoGXC,
+  tokensmonoEPIK,
+  tokensmonoALGB,
+  tokensmonoKNC,
+  tokensmonoPUSH,
+  tokensmonoBLXM,
+  tokensmonoKCS,
+  tokensmonoSTATOM,
+  tokensmonoFRAX,
+  tokensmonoAXE,
+  tokensmonoMNR,
+  tokensmonoNEURONI,
+  tokensmonoNEST,
+  tokensmonoZAP,
+  tokensmonoCATHEON,
+  tokensmonoBREED,
+  tokensmonoQRDO,
+  tokensmonoKLIMA,
+  tokensmonoWBETH,
+  tokensmonoZCX,
+  tokensmonoMCB,
+  tokensmonoFLUID,
+  tokensmonoGULF,
+  tokensmonoACX,
+  tokensmonoAAG,
+  tokensmonoFCTR,
+  tokensmonoFEI,
+  tokensmonoONG,
+  tokensmonoMUSE,
+  tokensmonoGRAIN,
+  tokensmonoATLAS,
+  tokensmonoSRX,
+  tokensmonoTULIP,
+  tokensmonoXCM,
+  tokensmonoINTR,
+  tokensmonoDEXE,
+  tokensmonoALU,
+  tokensmonoTTK,
+  tokensmonoSRM,
+  tokensmonoVLX,
+  tokensmonoONE,
+  tokensmonoGRIN,
+  tokensmonoGRAIL,
+  tokensmonoOMI,
+  tokensmonoASSA,
+  tokensmonoDYDX,
+  tokensmonoSRLTY,
+  tokensmonoDUSK,
+  tokensmonoFX,
+  tokensmonoPSWAP,
+  tokensmonoTLM,
+  tokensmonoMBD,
+  tokensmonoSN,
+  tokensmonoGCOIN,
+  tokensmonoCAP,
+  tokensmonoAERGO,
+  tokensmonoOTK,
+  tokensmonoTFUEL,
+  tokensmonoTIPS,
+  tokensmonoKAN,
+  tokensmonoELF,
+  tokensmonoBFT,
+  tokensmonoNPC,
+  tokensmonoPICA,
+  tokensmonoLIT,
+  tokensmonoSKEY,
+  tokensmonoGXA,
+  tokensmonoIOST,
+  tokensmonoINSUR,
+  tokensmonoPLI,
+  tokensmonoRTM,
+  tokensmonoTONIC,
+  tokensmonoHILO,
+  tokensmonoLUNR,
+  tokensmonoLYXE,
+  tokensmonoMOBY,
+  tokensmonoPAY,
+  tokensmonoPROB,
+  tokensmonoJASMY,
+  tokensmonoTIFI,
+  tokensmonoIMO,
+  tokensmonoINT,
+  tokensmonoHIBS,
+  tokensmonoXDATA,
+  tokensmonoHELLO,
+  tokensmonoMANC,
+  tokensmonoMIMATIC,
+  tokensmonoBRG,
+  tokensmonoALPH,
+  tokensmonoROUTE,
+  tokensmonoBST,
+  tokensmonoICE,
+  tokensmonoB2M,
+  tokensmonoDATA,
+  tokensmonoRAMP,
+  tokensmonoRAM,
+  tokensmonoGTC,
+  tokensmonoIXO,
+  tokensmonoGAFI,
+  tokensmonoARBI,
+  tokensmonoAPOLLO,
+  tokensmonoXTP,
+  tokensmonoMLN,
+  tokensmonoAAVE,
+  tokensmonoOATH,
+  tokensmonoJKL,
+  tokensmonoM87,
+  tokensmonoSFI,
+  tokensmonoREALM,
+  tokensmonoKWENTA,
+  tokensmonoATR,
+  tokensmonoCLV,
+  tokensmonoFOREX,
+  tokensmonoMTH,
+  tokensmonoXMR,
+  tokensmonoDF,
+  tokensmonoCOSMOSHUB,
+  tokensmonoVAI,
+  tokensmonoCTG,
+  tokensmonoBCUBE,
+  tokensmonoAMP,
+  tokensmonoLOVELY,
+  tokensmonoCTC,
+  tokensmonoPAXG,
+  tokensmonoOAX,
+  tokensmonoMTL,
+  tokensmonoACH,
+  tokensmonoMVD,
+  tokensmonoABL,
+  tokensmonoPYUSD,
+  tokensmonoC98,
+  tokensmonoPOLYPAD,
+  tokensmonoVVS,
+  tokensmonoUBSN,
+  tokensmonoKLEVA,
+  tokensmonoCBY,
+  tokensmonoMMY,
+  tokensmonoMNB,
+  tokensmonoSFM,
+  tokensmonoDEL,
+  tokensmonoTAO,
+  tokensmonoZKID,
+  tokensmonoPPAY,
+  tokensmonoRLY,
+  tokensmonoFEAR,
+  tokensmonoEMP,
+  tokensmonoNOIA,
+  tokensmonoAIMBOT,
+  tokensmonoQASH,
+  tokensmonoBGB,
+  tokensmonoORARE,
+  tokensmonoITHEUM,
+  tokensmonoCSIX,
+  tokensmonoETE,
+  tokensmonoBPRO,
+  tokensmonoNFTB,
+  tokensmonoOETH,
+  tokensmonoXPNET,
+  tokensmonoSTRAX,
+  tokensmonoBULL,
+  tokensmonoTBTC,
+  tokensmonoSEILOR,
+  tokensmonoDOMI,
+  tokensmonoUPP,
+  tokensmonoTELOS,
+  tokensmonoUQC,
+  tokensmonoSMARTCREDIT,
+  tokensmonoANKR,
+  tokensmonoBIFI,
+  tokensmonoSLCL,
+  tokensmonoMATH,
+  tokensmonoBDX,
+  tokensmonoFLAME,
+  tokensmonoRBD,
+  tokensmonoHIVE,
+  tokensmonoGHNY,
+  tokensmonoWSI,
+  tokensmonoENJ,
+  tokensmonoVOXEL,
+  tokensmonoATOM,
+  tokensmonoEQUAD,
+  tokensmonoCELO,
+  tokensmonoSTRONG,
+  tokensmonoURUS,
+  tokensmonoCBX,
+  tokensmonoMLK,
+  tokensmonoTARA,
+  tokensmonoMNT,
+  tokensmonoZNN,
+  tokensmonoPOND,
+  tokensmonoMNST,
+  tokensmonoRING,
+  tokensmonoCLS,
+  tokensmonoTOR,
+  tokensmonoPORTAL,
+  tokensmonoVEGA,
+  tokensmonoAZERO,
+  tokensmonoTORN,
+  tokensmonoHYDRA,
+  tokensmonoOOE,
+  tokensmonoCRTS,
+  tokensmonoETHM,
+  tokensmonoQMALL,
+  tokensmonoGO,
+  tokensmonoVALOR,
+  tokensmonoSTRP,
+  tokensmonoRAVEN,
+  tokensmonoDC,
+  tokensmonoDPAY,
+  tokensmonoFIL,
+  tokensmonoTWT,
+  tokensmonoDIMO,
+  tokensmonoAMB,
+  tokensmonoID,
+  tokensmonoSPA,
+  tokensmonoDEXT,
+  tokensmonoSPC,
+  tokensmonoSSX,
+  tokensmonoSIGNA,
+  tokensmonoIQ,
+  tokensmonoDWEB,
+  tokensmonoGEEQ,
+  tokensmonoSRK,
+  tokensmonoCUSD,
+  tokensmonoONT,
+  tokensmonoBLOCK,
+  tokensmonoETHX,
+  tokensmonoEARN,
+  tokensmonoMWC,
+  tokensmonoLAYER,
+  tokensmonoMAN,
+  tokensmonoZAT,
+  tokensmonoVTX,
+  tokensmonoOXY,
+  tokensmonoSPIRIT,
+  tokensmonoTNT,
+  tokensmonoKOIN,
+  tokensmonoTOP,
+  tokensmonoPOLY,
+  tokensmonoKOGE,
+  tokensmonoDACXI,
+  tokensmonoBAKE,
+  tokensmonoWRX,
+  tokensmonoTLOS,
+  tokensmonoCANTO,
+  tokensmonoGZONE,
+  tokensmonoPWR,
+  tokensmonoGFAL,
+  tokensmonoDJED,
+  tokensmonoBFR,
+  tokensmonoECO,
+  tokensmonoCTXC,
+  tokensmonoPNG,
+  tokensmonoRVC,
+  tokensmonoNSBT,
+  tokensmonoUSDX,
+  tokensmonoLSK,
+  tokensmonoNHT,
+  tokensmonoWELL,
+  tokensmonoLUNC,
+  tokensmonoEUNO,
+  tokensmonoOUSD,
+  tokensmonoMOBI,
+  tokensmonoCCV2,
+  tokensmonoPAI,
+  tokensmonoPBR,
+  tokensmonoGAS,
+  tokensmonoBEETS,
+  tokensmonoSERO,
+  tokensmonoCUMINU,
+  tokensmonoINS,
+  tokensmonoEXD,
+  tokensmonoNKN,
+  tokensmonoUSH,
+  tokensmonoTRAXX,
+  tokensmonoTOWER,
+  tokensmonoSYLO,
+  tokensmonoPLN,
+  tokensmonoETP,
+  tokensmonoGLC,
+  tokensmonoSWAP,
+  tokensmonoKEEP,
+  tokensmonoSFUND,
+  tokensmonoNGM,
+  tokensmonoSWISE,
+  tokensmonoUFI,
+  tokensmonoALEX,
+  tokensmonoRDPX,
+  tokensmonoCBETH,
+  tokensmonoCHRP,
+  tokensmonoELA,
+  tokensmonoKAI,
+  tokensmonoCELL,
+  tokensmonoHAWK,
+  tokensmonoMOD,
+  tokensmonoTRIAS,
+  tokensmonoMNW,
+  tokensmonoMAX,
+  tokensmonoSI,
+  tokensmonoPOLX,
+  tokensmonoHMND,
+  tokensmonoMEAN,
+  tokensmonoUNIX,
+  tokensmonoSTRD,
+  tokensmonoNBLU,
+  tokensmonoDGNX,
+  tokensmonoES,
+  tokensmonoVIDT,
+  tokensmonoXNO,
+  tokensmonoHT,
+  tokensmonoFIO,
+  tokensmonoOCE,
+  tokensmonoHEART,
+  tokensmonoMZR,
+  tokensmonoPOWR,
+  tokensmonoGLMR,
+  tokensmonoDPX,
+  tokensmonoAQTIS,
+  tokensmonoXCH,
+  tokensmonoMXM,
 }

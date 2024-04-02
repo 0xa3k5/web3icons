@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { SVG_SOURCE_DIR, METADATA_PATH } from '../constants'
+import { SVG_TOKENS_SRC_DIR, METADATA_PATH } from '../constants'
 import getCoinByID from './gecko/get-coin-by-id'
 import { ITokenMetadata } from '../types'
 import { appendToMetadataJson } from '../utils'
@@ -15,7 +15,7 @@ const svgFiles = {
 Object.keys(svgFiles).forEach((type) => {
   svgFiles[type as keyof typeof svgFiles] = new Set(
     fs
-      .readdirSync(path.join(SVG_SOURCE_DIR, type))
+      .readdirSync(path.join(SVG_TOKENS_SRC_DIR, type))
       .map((file) => path.basename(file, '.svg').toLowerCase()),
   )
 })

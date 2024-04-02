@@ -8,3 +8,9 @@ export interface ITokenMetadata {
     [key: string]: string
   }
 }
+
+export interface INetworkMetadata {
+  id: string
+  name: string
+  variants: string[]
+}

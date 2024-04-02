@@ -20,6 +20,12 @@
   "files": [
     "dist/**/*"
   ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./metadata": "./dist/metadata/index.js",
+    "./svgs/tokens/*": "./dist/svgs/tokens/*",
+    "./svgs/networks/*": "./dist/svgs/networks/*"
+  },
   "sideEffects": false,
   "repository": {
     "type": "git",
