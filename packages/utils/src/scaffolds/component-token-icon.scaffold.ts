@@ -11,7 +11,7 @@ type IconComponentType = React.ForwardRefExoticComponent<
 >
 
 export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
-  ({ symbol, address, chain, size, className, variant = 'mono' }, ref) => {
+  ({ symbol, address, chain, size, className, variant = 'mono', color }, ref) => {
     const iconName = resolveIconName(symbol, address, chain)
 
     const IconComponent =
@@ -24,6 +24,7 @@ export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
     return (
       <IconComponent
         size={size}
+        color={color}
         className={className}
         variant={variant}
         ref={ref}

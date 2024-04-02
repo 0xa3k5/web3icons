@@ -1,5 +1,11 @@
 # @token-icons/react
 
+## 1.5.0
+
+### Minor Changes
+
+- fix TokenIcon component missing "color" prop
+
 ## 1.4.3
 
 ### Patch Changes
