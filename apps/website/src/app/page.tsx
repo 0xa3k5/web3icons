@@ -48,7 +48,7 @@ export default function Home() {
         <meta property="og:description" content="" />
         <meta
           property="og:image"
-          content="https://tokenicons.io/og-image.jng"
+          content="https://tokenicons.io/og-image.jpg"
         />
         <meta property="og:url" content="https://tokenicons.io" />
         <meta property="og:type" content="website" />
