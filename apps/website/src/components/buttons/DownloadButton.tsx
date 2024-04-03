@@ -3,7 +3,6 @@ import JSZip from 'jszip'
 import Tooltip from '../ActionBar/Tooltip'
 import { tokens } from '@token-icons/core/metadata'
 import { fetchSvgContent } from '../../utils'
-import { ITokenMetadata } from '@token-icons/utils'
 import cx from 'classnames'
 
 interface DownloadButtonProps {
