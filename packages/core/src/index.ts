@@ -1,4 +1,5 @@
 /* Generated */
+export { svgs } from './svg-module'
 export { default as tokensbrandedBABYSHIB } from '../dist/svgs/tokens/branded/BABYSHIB.svg'
 export { default as tokensbrandedSOCKS } from '../dist/svgs/tokens/branded/SOCKS.svg'
 export { default as tokensbrandedHONK } from '../dist/svgs/tokens/branded/HONK.svg'

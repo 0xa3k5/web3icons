@@ -1,7 +1,8 @@
 import { render } from '@create-figma-plugin/ui'
 import { h } from 'preact'
 import '!./css/output.css'
-import { svgs, tokens } from '@token-icons/core'
+import { tokens } from '@token-icons/core/metadata'
+import { svgs } from '@token-icons/core'
 import { useEffect, useState } from 'preact/hooks'
 import {
   IconCard,
