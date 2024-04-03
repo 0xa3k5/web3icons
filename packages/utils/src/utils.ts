@@ -53,10 +53,26 @@ export const optimizeSvg = (svg: string, name: string) => {
   }).data
 }
 
-const toCamelCase = (str: string) => {
+export const toCamelCase = (str: string) => {
   return str.replace(/[-_]+(.)?/g, (match, chr) =>
     chr ? chr.toUpperCase() : '',
   )
+}
+/**
+ *
+ * @param str: kebab-case
+ * @returns kebab-case to camelCase
+ */
+export const kebabToCamel = (str: string) => {
+  return str
+    .split('-')
+    .map((part, index) => {
+      if (index === 0) {
+        return part
+      }
+      return part.charAt(0).toUpperCase() + part.slice(1)
+    })
+    .join('')
 }
 
 const injectCurrentColor = (svgRaw: string) => {
@@ -161,7 +177,11 @@ export const generateTokenIconComponent = () => {
  */
 export const generateReactComponent = (baseName: string, jsxOutDir: string) => {
   const prefix = jsxOutDir === JSX_TOKENS_OUT_DIR ? 'Token' : 'Network'
-  const componentName = `${prefix}${baseName.replace(/[- ]+/g, '_').toLocaleUpperCase()}`
+  console.log(baseName)
+  const componentName =
+    jsxOutDir === JSX_TOKENS_OUT_DIR
+      ? `${prefix}${baseName.replace(/[- ]+/g, '_').toLocaleUpperCase()}`
+      : kebabToCamel(`${prefix}-${baseName}`)
   const svgDirs =
     jsxOutDir === JSX_TOKENS_OUT_DIR ? SVG_TOKENS_OUT_DIR : SVG_NETWORKS_OUT_DIR
 
@@ -209,45 +229,3 @@ export const generateReactComponent = (baseName: string, jsxOutDir: string) => {
   )
   console.log(`✓ Generated React component for: ${componentName}`)
 }
-
-// export const generateReactComponent = (baseName: string) => {
-//   const name = `${baseName.replace(/[- ]+/g, '_').toLocaleUpperCase()}`
-//   let brandedSVG = ''
-//   let monoSVG = ''
-//   const hasBrandedVariant = fs.existsSync(
-//     path.join(SVG_TOKENS_OUT_DIR, 'branded', `${baseName}.svg`),
-//   )
-//   const hasMonoVariant = fs.existsSync(
-//     path.join(SVG_TOKENS_OUT_DIR, 'mono', `${baseName}.svg`),
-//   )
-//   const hasBothVariants = hasBrandedVariant && hasMonoVariant
-
-//   if (hasBrandedVariant) {
-//     brandedSVG = fs.readFileSync(
-//       path.join(SVG_TOKENS_OUT_DIR, 'branded', `${baseName}.svg`),
-//       'utf-8',
-//     )
-//   }
-
-//   if (hasMonoVariant) {
-//     monoSVG = fs.readFileSync(
-//       path.join(SVG_TOKENS_OUT_DIR, 'mono', `${baseName}.svg`),
-//       'utf-8',
-//     )
-//   }
-
-//   const brandedJSX = readyForJSX(brandedSVG)
-//   const monoJSX = readyForJSX(injectCurrentColor(monoSVG))
-//   const content = hasBothVariants
-//     ? componentScaffold.multiVariants
-//     : componentScaffold.singleVariant
-
-//   const scaffold = content
-//     .replace(/{{componentName}}/g, `Token${name}`)
-//     .replace(/{{variantJSX}}/g, hasMonoVariant ? monoJSX : brandedJSX)
-//     .replace(/{{brandedJSX}}/g, brandedJSX)
-//     .replace(/{{monoJSX}}/g, monoJSX)
-//     .replace(/{{displayName}}/g, name)
-
-//   fs.writeFileSync(path.join(JSX_TOKENS_OUT_DIR, `${name}.tsx`), scaffold)
-// }

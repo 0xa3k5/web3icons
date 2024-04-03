@@ -13,6 +13,6 @@ export interface INetworkMetadata {
   id: string
   name: string
   shortname: string
-  nativeCoinId: string;
+  nativeCoinId: string
   variants: string[]
 }

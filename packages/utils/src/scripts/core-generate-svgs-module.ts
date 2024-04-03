@@ -5,8 +5,7 @@ import {
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
 } from '../constants'
-
-const variants = ['branded', 'mono']
+import { kebabToCamel } from '../utils'
 
 const readSvgFilesFromDir = (dirPath: string) => {
   return fs
@@ -16,28 +15,32 @@ const readSvgFilesFromDir = (dirPath: string) => {
 }
 
 let fileContent = '/* Generated */\n'
-let svgsObjectContent = '\nexport const svgs: { [key: string]: string } = {\n'
+let svgsObjectContent = '\nexport const svgs = {\n  tokens: {\n'
+let networksObjectContent = '  },\n  networks: {\n'
 
 const processDirectory = (dirPath: string, type: 'tokens' | 'networks') => {
-  variants.forEach((variant) => {
+  ;['branded', 'mono'].forEach((variant) => {
     const svgFiles = readSvgFilesFromDir(path.join(dirPath, variant))
 
-    // imports
     svgFiles.forEach((svgFile) => {
-      fileContent += `import ${type}${variant}${svgFile} from './svgs/${type}/${variant}/${svgFile}.svg';\n`
-    })
+      const variableName = kebabToCamel(`${variant}-${svgFile}`)
+      const variableType = type === 'networks' ? 'N' : 'T'
+      fileContent += `import ${variableType}${variableName} from './svgs/${type}/${variant}/${svgFile}.svg';\n`
 
-    svgFiles.forEach((svgFile) => {
-      svgsObjectContent += `   ${type}${variant}${svgFile},\n`
+      const objectContent = `    ${variableName}: ${variableType}${variableName},\n`
+      if (type === 'tokens') {
+        svgsObjectContent += objectContent
+      } else {
+        networksObjectContent += objectContent
+      }
     })
   })
 }
 
-// Process tokens and networks
 processDirectory(SVG_TOKENS_OUT_DIR, 'tokens')
 processDirectory(SVG_NETWORKS_OUT_DIR, 'networks')
 
-svgsObjectContent += '};\n'
+svgsObjectContent += networksObjectContent + '  }\n};\n'
 fs.writeFileSync(CORE_SVG_MODULE_PATH, fileContent + svgsObjectContent)
 
 console.log('✓ Generated: svgs module')

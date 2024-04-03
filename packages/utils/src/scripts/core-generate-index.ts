@@ -5,6 +5,7 @@ import {
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
 } from '../constants'
+import { kebabToCamel } from '../utils'
 
 const readSvgFilesFromDirectory = (directoryPath: string): string[] => {
   return fs
@@ -20,7 +21,7 @@ const createExports = (
   return svgFiles
     .map((file) => {
       const svgName = file.replace('.svg', '')
-      return `export { default as ${type}${variant}${svgName.charAt(0).toUpperCase() + svgName.slice(1)} } from '../dist/svgs/${type}/${variant}/${file}';\n`
+      return `export { default as ${kebabToCamel(`${type}-${variant}-${svgName}`)} } from '../dist/svgs/${type}/${variant}/${file}';\n`
     })
     .join('')
 }
