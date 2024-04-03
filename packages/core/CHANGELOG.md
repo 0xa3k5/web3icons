@@ -1,5 +1,11 @@
 # @token-icons/core
 
+## 1.6.0
+
+### Minor Changes
+
+- support network icons
+
 ## 1.4.0
 
 ### Minor Changes
