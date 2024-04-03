@@ -180,7 +180,6 @@ console.log(svgContent)
 
 The Token Icons website ([https://tokenicons.io](https://tokenicons.io/)) provides a searchable collection of all available icons. You can browse, search, and download icons directly from the website.
 
-
 ### Contributing
 
 We welcome contributions to `token-icons`! If you'd like to contribute, please refer to our [Contributing Guide](https://github.com/0xa3k5/token-icons/blob/main/CONTRIBUTING.md).
@@ -190,7 +189,7 @@ We welcome contributions to `token-icons`! If you'd like to contribute, please r
 1. Fork the repo, create a branch `git checkout -b branch-name`
 2. Add or update icons to the related folders of `core/src/raw-svgs/`
 3. Push your changes and create a pull request.
-4. Github Actions will make sure to update the metadata, create React components and update the packages as necessary. 
+4. Github Actions will make sure to update the metadata, create React components and update the packages as necessary.
 
 ### License
 

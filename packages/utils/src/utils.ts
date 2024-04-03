@@ -177,7 +177,6 @@ export const generateTokenIconComponent = () => {
  */
 export const generateReactComponent = (baseName: string, jsxOutDir: string) => {
   const prefix = jsxOutDir === JSX_TOKENS_OUT_DIR ? 'Token' : 'Network'
-  console.log(baseName)
   const componentName =
     jsxOutDir === JSX_TOKENS_OUT_DIR
       ? `${prefix}${baseName.replace(/[- ]+/g, '_').toLocaleUpperCase()}`
