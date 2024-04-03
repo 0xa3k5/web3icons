@@ -7,7 +7,9 @@ Thank you for choosing to contribute to `token-icons`! We appreciate your contri
 #### Icon Size
 The SVG files must be put inside of a 24x24px frame and should not fill it's bounding box. Refer to our Figma Community file for the current icons and make sure that you follow the same format.
 
-!(Icon Size Guide)[https://github.com/0xa3k5/token-icons/blob/main/docs/icon-size-guide.png]
+![Icon Size Guide](https://raw.githubusercontent.com/0xa3k5/token-icons/blob/main/docs/icon-size-guide.png)
+
+You can find this icon grid as svg on (`/docs/icon-grid.svg`)[https://github.com/0xa3k5/token-icons/blob/main/docs/icon-grid.svg]
 
 #### Folder Structure
 
