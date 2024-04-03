@@ -29,15 +29,15 @@ bun add @token-icons/core
 For individual icons:
 
 ```js
-import { brandedETH, monoETH, brandedBTC, monoBTC } from '@token-icons/core'
+import { tokensBrandedBTC, networksMonoEthereum } from '@token-icons/core'
 ```
 
 for complete set of icons:
 
 > this is not recommended, it could greatly affect your project's bundle size and it's performance.
 
-```js
-import { svgs } from '@token-icons/core'
+```jsx
+import { svgs } from '@token-icons/core';
 ```
 
 ### Using SVGs
@@ -45,13 +45,13 @@ import { svgs } from '@token-icons/core'
 Here’s how you can integrate the SVGs into your project:
 
 ```js
-import { brandedETH } from '@token-icons/core'
+import { tokensBrandedETH } from '@token-icons/core'
 
 function EthIcon() {
   // Using an img tag
-  return <img src={brandedETH} alt="Ethereum Icon" />
+  return <img src={tokensBrandedETH} alt="Ethereum Icon" />
   // Or, inserting SVG directly
-  return <div dangerouslySetInnerHTML={{ __html: brandedETH }} />
+  return <div dangerouslySetInnerHTML={{ __html: tokensBrandedETH }} />
 }
 ```
 
@@ -64,27 +64,7 @@ The `@token-icons/core` package also provides comprehensive metadata for each cr
 If you need the json file, you can import it directly:
 
 ```js
-import tokens from '@token-icons/core/dist/metadata/tokens.json'
-```
-
-If you need the tokens object and the ITokenMetadata interface:
-
-```js
-import { tokens, ITokenMetadata } from '@token-icons/core'
-
-// interface ITokenMetadata {
-//   id: string;
-//   symbol: string; // The ticker symbol of the token (e.g., BTC for Bitcoin)
-//   name: string;     // The full name of the token (e.g., Bitcoin)
-//   variants: string[]; // An array of available variants for the icon (e.g., ['branded', 'mono'])
-// }
-
-tokens.forEach((token) => {
-  console.log(token.id)
-  console.log(token.symbol)
-  console.log(token.name)
-  console.log(token.variants)
-})
+import { tokens, networks } from '@token-icons/core/metadata'
 ```
 
 ---

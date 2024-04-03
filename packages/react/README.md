@@ -23,32 +23,128 @@ yarn add @token-icons/react
 # or
 bun add @token-icons/react
 ```
-
 ## Usage
 
-Import the icon component and use it in your React code:
+### Using Individual React Components from `@token-icons/react`
 
-```js
-import { IconBtc, IconEth } from '@token-icons/react'
+All the icons from the React library is prefixed with "Token" or "Network".
+Token Icons: Prefixed uppercase symbol with "Token" e.g. TokenETH, TokenBTC, TokenGRT
+Network Icons: Prefixed CamelCase network name with "Network" e.g. NetworkBinanceSmartChain, NetworkEthereum, NetworkAvalanche.
 
-function MyApp() {
+```jsx
+import { TokenBTC, TokenETH, TokenGRT, NetworkBinanceSmartChain, NetworkEthereum, NetworkAvalanche } from '@token-icons/react'
+
+const App = () => {
+  return (
+    <>
+      <div className="my-class-name">
+        <h1>Token Icons</h1>
+        <TokenBTC size={64} variant="branded" className="my-custom-class" />
+        <TokenETH size={64} variant="branded" className="my-custom-class" />
+        <TokenGRT size={64} variant="branded" className="my-custom-class" />
+      </div>
+      <div className="my-class-name">
+        <h1>Network Icons</h1>
+        <NetworkEthereum size={64} variant="branded" className="my-custom-class" />
+        <NetworkAvalanche size={64} variant="branded" className="my-custom-class" />
+        <NetworkBinanceSmartChain size={64} variant="branded" className="my-custom-class" />
+      </div>
+    </>
+  )
+}
+
+export default App
+```
+
+### Using `<TokenIcon />` from `@token-icons/react`
+
+`<TokenIcon />` is designed to accept different props to allow for ease of use.
+
+#### Props
+
+- `symbol?`: the ticker symbol of the token. e.g. "ETH", "BTC", "GRT"
+- `address?`: the contract address of the token.
+- `chain?`: the blockchain network of the token.
+- `variant?` = "mono": can be "mono" or "branded" to choose the icon style.
+- `size?`: size of the icon (number or string).
+- `color?`: color of the icon (CSS color value).
+- `className?`: additional CSS class for custom styling.
+
+> You need to pass either symbol or address *and* chain.
+
+
+`<TokenIcon />` accepts a union of types for `symbol`, `address`, and `chain`. This allows for flexibility in using the component.
+
+#### Using Symbols:
+
+You can pass ticker or symbol of the desired icon. refer to [metadata](https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/tokens.json) for full list of symbols.
+
+```jsx
+import { TokenIcon } from '@token-icons/react'
+
+const App = () => {
+  const symbols = ['ETH', 'GRT', 'BTC']
+  const variant = 'mono' // can be "mono" or "branded"
+  const size = 48 // can be number or string
+
   return (
     <div>
-      <IconBtc variant="branded" size={32} />
-      <IconEth variant="mono" size="2em" color="#333" />
+      {symbols.map((s) => (
+        <TokenIcon
+          key={s}
+          symbol={s}
+          size={size}
+          variant={variant}
+          className="my-custom-class"
+        />
+      ))}
     </div>
   )
 }
+
+export default App
 ```
 
-### Icon Component Props
+#### Chain Specific
 
-The icons accept the following props allowing for customizable rendering:
+You can pass in **both** chain and an address to render a specific token icon. refer to [metadata](https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/tokens.json) for full list of symbols, addresses and chains.
 
-- variant: (Optional) Defines the variant of the icon (can be 'branded' or 'mono'). Defaults to 'mono'.
-- size: (Optional) Defines the size of the icon (can be a number for pixel size or a string for any valid CSS size).
-- color: (Optional) Applies a color to icons with the 'mono' variant (accepts any valid CSS color value). Defaults to '#fff'.
-- className: (Optional) Apply custom CSS classes for additional styling.
+```jsx
+import { TokenIcon } from '@token-icons/react'
+
+<TokenIcon
+  chain="ethereum"
+  address="0xc944e90c64b2c07662a292be6244bdf05cda44a7"
+  size={32}
+  variant={"branded"}
+  className="my-custom-class"
+/>
+```
+
+
+### Using `<NetworkIcon />` from `@token-icons/react`
+
+`<NetworkIcon />` is designed to render blockchain network icons.
+
+#### Props
+
+- `network`: The blockchain network's identifier. References the Coin Gecko's asset platform fields. Check the (networks.json)[https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/networks.json] file for a list of available networks.
+- `variant?` = "mono": can be "mono" or "branded" to choose the icon style.
+- `size?`: size of the icon (number or string).
+- `color?`: color of the icon (CSS color value).
+- `className?`: additional CSS class for custom styling.
+
+
+```jsx
+import { NetworkIcon } from '@token-icons/react'
+
+<NetworkIcon
+  network="ethereum"
+  size={32}
+  variant={"branded"}
+  className="my-custom-class"
+/>
+```
 
 ---
 
