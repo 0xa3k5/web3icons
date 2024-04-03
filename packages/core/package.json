@@ -20,7 +20,8 @@
   "files": [
     "dist/**/*",
     "./dist/svgs/tokens/*",
-    "./dist/svgs/networks/*"
+    "./dist/svgs/networks/*",
+    "./dist/metadata/index.js"
   ],
   "exports": {
     ".": "./dist/index.js",

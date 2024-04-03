@@ -2,9 +2,15 @@
 
 # Token Icons
 
-Token Icons is the most comprehensive and up-to-date source for cryptocurrency token & coin logos as icon format. More than 2,500 icons are ready as optimized SVGs as well as React components.
+Token Icons is the most comprehensive and up-to-date source for cryptocurrency & network logos as icon format. More than 2,500 icons are ready as optimized SVGs as well as React components.
 
-The monorepo contains
+## What's New
+Network Icons: Token Icons now include network icons alongside our vast array of token icons.
+Enhanced Naming Conventions: Our icons follow a standardized naming convention for effortless identification and use:
+- Tokens: Prefixed with Token, followed by the uppercase symbol (e.g., TokenETH, TokenBTC). 
+- Networks: Prefixed with Network, followed by the CamelCase name (e.g., NetworkBinanceSmartChain, NetworkEthereum).
+
+### Monorepo structure
 
 - [`@token-icons/core`](https://github.com/0xa3k5/token-icons/tree/main/packages/core): npm package that serves optimized svgs as svg files
 - [`@token-icons/react`](https://github.com/0xa3k5/token-icons/tree/main/packages/react): React components for token icons
@@ -37,19 +43,19 @@ This will install the `@token-icons/core` package, which serves optimized SVGs a
 All the icons from the React library is prefixed with "Icon". And named with the token tickers as uppercase. This is to avoid naming conflicts that is caused by the icon names starting with numbers.
 
 ```
-Bitcoin: IconBTC
-Ethereum: IconETH
-The Graph: IconGRT
+Bitcoin: TokenBTC
+Ethereum: TokenETH
+The Graph: TokenGRT
 ```
 
 ```jsx
-import { IconBtc } from '@token-icons/react/icons'
+import { TokenBtc } from '@token-icons/react/icons'
 
 const App = () => {
   return (
     <div>
       <h1>Bitcoin Logo</h1>
-      <IconBtc size={64} variant="branded" className="my-custom-class" />
+      <TokenBtc size={64} variant="branded" className="my-custom-class" />
     </div>
   )
 }

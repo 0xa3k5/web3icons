@@ -11,6 +11,12 @@ export interface IconComponentProps {
 
 export type TokenIconProps = IconComponentProps &
   (
-    | { symbol: string; address?: never; chain?: never }
-    | { symbol?: never; address: string; chain: string }
+    | { symbol: string; address?: never; network?: never }
+    | { symbol?: never; address: string; network: string }
   )
+
+export type NetworkIconProps = IconComponentProps & {
+  symbol?: never
+  address?: never
+  network: string
+}

@@ -6,16 +6,11 @@ import {
   JSX_TOKENS_OUT_DIR,
   SVG_TOKENS_OUT_DIR,
   METADATA_PATH,
-  reactRoot,
   SVG_NETWORKS_OUT_DIR,
 } from './constants'
-import {
-  componentBaseScaffold,
-  componentScaffold,
-  componentTokenIconScaffold,
-  componentTypesScaffold,
-} from './scaffolds'
+import { componentScaffold } from './scaffolds'
 import { ITokenMetadata } from './types'
+import prettier from 'prettier'
 
 /**
  * Creates a directory if it doesn't exist.
@@ -146,36 +141,16 @@ export const appendToMetadataJson = (coin: ITokenMetadata) => {
   fs.writeFileSync(METADATA_PATH, fileContent)
 }
 
-export const generateTypesFile = () => {
-  fs.writeFileSync(
-    path.join(reactRoot, 'src', 'types.ts'),
-    componentTypesScaffold,
-  )
-}
-
-export const generateBaseIconComponent = () => {
-  fs.writeFileSync(
-    path.join(reactRoot, 'src', 'BaseIcon.tsx'),
-    componentBaseScaffold,
-  )
-  console.log(`❖ generated BaseIcon component`)
-}
-
-export const generateTokenIconComponent = () => {
-  fs.writeFileSync(
-    path.join(reactRoot, 'src', 'TokenIcon.tsx'),
-    componentTokenIconScaffold,
-  )
-  console.log(`❖ generated TokenIcon component`)
-}
-
 /**
  * Generate React Component from an SVG.
  *
  * @param {string} baseName - The base name of the SVG file.
  * @param {string} jsxOutDir - The output directory for the JSX file.
  */
-export const generateReactComponent = (baseName: string, jsxOutDir: string) => {
+export const generateReactComponent = async (
+  baseName: string,
+  jsxOutDir: string,
+) => {
   const prefix = jsxOutDir === JSX_TOKENS_OUT_DIR ? 'Token' : 'Network'
   const componentName =
     jsxOutDir === JSX_TOKENS_OUT_DIR
@@ -222,9 +197,13 @@ export const generateReactComponent = (baseName: string, jsxOutDir: string) => {
     .replace(/{{variantJSX}}/g, hasMonoVariant ? monoJSX : brandedJSX)
     .replace(/{{displayName}}/g, baseName)
 
-  fs.writeFileSync(
-    path.join(jsxOutDir, `${componentName}.tsx`),
-    componentContent,
-  )
+  const formatted = await prettier.format(componentContent, {
+    parser: 'typescript',
+    semi: false,
+    singleQuote: true,
+    jsxSingleQuote: true,
+  })
+
+  fs.writeFileSync(path.join(jsxOutDir, `${componentName}.tsx`), formatted)
   console.log(`✓ Generated React component for: ${componentName}`)
 }

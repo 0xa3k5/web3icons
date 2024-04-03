@@ -8,13 +8,7 @@ import {
   SVG_NETWORKS_OUT_DIR,
   reactRoot,
 } from '../constants'
-import {
-  generateBaseIconComponent,
-  generateTokenIconComponent,
-  generateTypesFile,
-  generateReactComponent,
-  ensureDirectoryExists,
-} from '../utils'
+import { generateReactComponent, ensureDirectoryExists } from '../utils'
 
 ensureDirectoryExists(path.join(reactRoot, 'src'))
 ensureDirectoryExists(path.join(reactRoot, 'src', 'icons'))
@@ -22,11 +16,6 @@ ensureDirectoryExists(SVG_TOKENS_OUT_DIR)
 ensureDirectoryExists(SVG_NETWORKS_OUT_DIR)
 ensureDirectoryExists(JSX_TOKENS_OUT_DIR)
 ensureDirectoryExists(JSX_NETWORKS_OUT_DIR)
-
-// Generate types file and base components
-generateTypesFile()
-generateBaseIconComponent()
-generateTokenIconComponent()
 
 // Function to process SVGs and generate React components
 const processSVGs = (svgOutDir: string, jsxOutDir: string): void => {

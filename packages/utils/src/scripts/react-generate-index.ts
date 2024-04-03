@@ -35,14 +35,3 @@ fs.writeFileSync(
   iconsIndexContent,
 )
 console.log('✓ Generated: icons index file')
-
-// Update the main src/index.ts
-const mainIndexContent =
-  `/* Generated */\n` +
-  `export * from './types';\n` +
-  `export { BaseIcon } from './BaseIcon';\n` +
-  `export { TokenIcon } from './TokenIcon';\n` +
-  `export * from './icons';\n`
-
-fs.writeFileSync(path.join(reactRoot, 'src', 'index.ts'), mainIndexContent)
-console.log('✓ Generated: Main React index file')

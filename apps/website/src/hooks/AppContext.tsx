@@ -9,7 +9,6 @@ import React, {
 } from 'react'
 import { tokens } from '@token-icons/core/metadata'
 import { ITokenMetadata } from '@token-icons/utils'
-
 export interface AppContextType {
   icons: ITokenMetadata[]
   searchTerm: string
