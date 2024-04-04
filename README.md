@@ -141,7 +141,7 @@ import { TokenIcon } from '@token-icons/react'
 
 #### Props
 
-- `network`: The blockchain network's identifier. References the Coin Gecko's asset platform fields. Check the (networks.json)[https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/networks.json] file for a list of available networks.
+- `network`: The blockchain network's identifier. References the Coin Gecko's asset platform fields. Check the [networks.json](https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/networks.json) file for a list of available networks.
 - `variant?` = "mono": can be "mono" or "branded" to choose the icon style.
 - `size?`: size of the icon (number or string).
 - `color?`: color of the icon (CSS color value).
