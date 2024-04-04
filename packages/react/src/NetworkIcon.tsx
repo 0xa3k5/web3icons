@@ -1,5 +1,4 @@
 import { forwardRef } from 'react'
-import { networks } from '@token-icons/core/metadata'
 import * as NetworkComponents from './icons/networks'
 import { NetworkIconProps } from './types'
 

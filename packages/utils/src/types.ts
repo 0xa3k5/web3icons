@@ -3,10 +3,8 @@ export interface ITokenMetadata {
   symbol: string
   name: string
   variants: string[]
-  marketCapRank: number
-  addresses: {
-    [key: string]: string
-  }
+  marketCapRank: number | null
+  addresses: { [key: string]: string | undefined }
 }
 
 export interface INetworkMetadata {

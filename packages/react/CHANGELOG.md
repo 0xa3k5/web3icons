@@ -1,5 +1,13 @@
 # @token-icons/react
 
+## 1.8.1
+
+### Patch Changes
+
+- fix ITokenMetadata types
+- Updated dependencies
+  - @token-icons/core@1.8.1
+
 ## 1.8.0
 
 ### Minor Changes

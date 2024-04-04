@@ -205,5 +205,4 @@ export const generateReactComponent = async (
   })
 
   fs.writeFileSync(path.join(jsxOutDir, `${componentName}.tsx`), formatted)
-  console.log(`✓ Generated React component for: ${componentName}`)
 }
