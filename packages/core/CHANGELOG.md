@@ -1,5 +1,11 @@
 # @token-icons/core
 
+## 1.7.0
+
+### Minor Changes
+
+- Added icons: BASE,BNB,COSMOS,BASE,BNB,COSMOS,
+
 ## 1.6.0
 
 ### Minor Changes

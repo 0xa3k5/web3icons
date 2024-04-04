@@ -37,7 +37,7 @@ for complete set of icons:
 > this is not recommended, it could greatly affect your project's bundle size and it's performance.
 
 ```jsx
-import { svgs } from '@token-icons/core';
+import { svgs } from '@token-icons/core'
 ```
 
 ### Using SVGs

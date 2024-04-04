@@ -23,6 +23,7 @@ yarn add @token-icons/react
 # or
 bun add @token-icons/react
 ```
+
 ## Usage
 
 ### Using Individual React Components from `@token-icons/react`
@@ -32,7 +33,14 @@ Token Icons: Prefixed uppercase symbol with "Token" e.g. TokenETH, TokenBTC, Tok
 Network Icons: Prefixed CamelCase network name with "Network" e.g. NetworkBinanceSmartChain, NetworkEthereum, NetworkAvalanche.
 
 ```jsx
-import { TokenBTC, TokenETH, TokenGRT, NetworkBinanceSmartChain, NetworkEthereum, NetworkAvalanche } from '@token-icons/react'
+import {
+  TokenBTC,
+  TokenETH,
+  TokenGRT,
+  NetworkBinanceSmartChain,
+  NetworkEthereum,
+  NetworkAvalanche,
+} from '@token-icons/react'
 
 const App = () => {
   return (
@@ -45,9 +53,21 @@ const App = () => {
       </div>
       <div className="my-class-name">
         <h1>Network Icons</h1>
-        <NetworkEthereum size={64} variant="branded" className="my-custom-class" />
-        <NetworkAvalanche size={64} variant="branded" className="my-custom-class" />
-        <NetworkBinanceSmartChain size={64} variant="branded" className="my-custom-class" />
+        <NetworkEthereum
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
+        <NetworkAvalanche
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
+        <NetworkBinanceSmartChain
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
       </div>
     </>
   )
@@ -70,8 +90,7 @@ export default App
 - `color?`: color of the icon (CSS color value).
 - `className?`: additional CSS class for custom styling.
 
-> You need to pass either symbol or address *and* chain.
-
+> You need to pass either symbol or address _and_ chain.
 
 `<TokenIcon />` accepts a union of types for `symbol`, `address`, and `chain`. This allows for flexibility in using the component.
 
@@ -111,16 +130,14 @@ You can pass in **both** chain and an address to render a specific token icon. r
 
 ```jsx
 import { TokenIcon } from '@token-icons/react'
-
-<TokenIcon
+;<TokenIcon
   chain="ethereum"
   address="0xc944e90c64b2c07662a292be6244bdf05cda44a7"
   size={32}
-  variant={"branded"}
+  variant={'branded'}
   className="my-custom-class"
 />
 ```
-
 
 ### Using `<NetworkIcon />` from `@token-icons/react`
 
@@ -134,14 +151,12 @@ import { TokenIcon } from '@token-icons/react'
 - `color?`: color of the icon (CSS color value).
 - `className?`: additional CSS class for custom styling.
 
-
 ```jsx
 import { NetworkIcon } from '@token-icons/react'
-
-<NetworkIcon
+;<NetworkIcon
   network="ethereum"
   size={32}
-  variant={"branded"}
+  variant={'branded'}
   className="my-custom-class"
 />
 ```
