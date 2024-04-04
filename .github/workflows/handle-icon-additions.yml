@@ -33,8 +33,10 @@ jobs:
       - name: Update Metadata
         id: update_metadata
         run: |
-          newIcons=$(git diff --name-only HEAD~1 HEAD | grep 'packages/core/src/raw-svgs/' | xargs basename -a | sed 's/.svg//' | tr '\n' ', ' | sed 's/, $//')
-          echo "newIcons=$newIcons" >> $GITHUB_ENV
+          newTokenIcons=$(git diff --name-only HEAD~1 HEAD | grep 'packages/core/src/raw-svgs/tokens/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
+          newNetworkIcons=$(git diff --name-only HEAD~1 HEAD | grep 'packages/core/src/raw-svgs/networks/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
+          echo "newTokenIcons=$newTokenIcons" >> $GITHUB_ENV
+          echo "newNetworkIcons=$newNetworkIcons" >> $GITHUB_ENV
           bun run ./packages/utils/src/scripts/update-metadata.ts
 
       - name: Rebuild Core Package
@@ -45,14 +47,14 @@ jobs:
 
       - name: Create changeset
         run: |
-          if [ -n "$newIcons" ]; then
-            echo "
-            ---
-            '@token-icons/core': minor
-            '@token-icons/react': minor
-            ---
-            Added icons: $newIcons" > .changeset/$(date +%s).md
+          changesetContent="---\n'@token-icons/core': minor\n'@token-icons/react': minor\n---\n"
+          if [ -n "$newTokenIcons" ]; then
+            changesetContent+="new token icons: $newTokenIcons\n"
           fi
+          if [ -n "$newNetworkIcons" ]; then
+            changesetContent+="new network icons: $newNetworkIcons\n"
+          fi
+          echo "$changesetContent" > .changeset/$(date +%s).md
 
       - name: Bump versions
         run: bun changeset version
@@ -62,11 +64,14 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add packages/core packages/react .changeset/
-          if [ -n "$newIcons" ]; then
-            git commit -m "core: add ${{ env.newIcons }}" || echo "No changes to commit"
-          else
-            echo "No new icons to commit"
+          commitMessage="core: add new icons - "
+          if [ -n "$newTokenIcons" ]; then
+            commitMessage+="tokens: $newTokenIcons"
           fi
+          if [ -n "$newNetworkIcons" ]; then
+            commitMessage+=", networks: $newNetworkIcons"
+          fi
+          git commit -m "$commitMessage" || echo "No changes to commit"
           git push
 
   publish:
