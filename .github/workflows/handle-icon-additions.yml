@@ -47,14 +47,20 @@ jobs:
 
       - name: Create changeset
         run: |
-          changesetContent="---\n'@token-icons/core': minor\n'@token-icons/react': minor\n---\n"
-          if [ -n "$newTokenIcons" ]; then
-            changesetContent+="new token icons: $newTokenIcons\n"
+          newTokens=$(echo $newIcons | tr ',' '\n' | grep -v 'networks-' | tr '\n' ',' | sed 's/,$//')
+          newNetworks=$(echo $newIcons | tr ',' '\n' | grep 'networks-' | sed 's/networks-//g' | tr '\n' ',' | sed 's/,$//')
+          
+          if [ -n "$newTokens" ] || [ -n "$newNetworks" ]; then
+            changesetContent="
+            ---
+            "@token-icons/core": minor
+            "@token-icons/react": minor
+            ---"
+            [ -n "$newTokens" ] && changesetContent+="New Token icons: $newTokens\n"
+            [ -n "$newNetworks" ] && changesetContent+="New Network icons: $newNetworks\n"
+            
+            echo "$changesetContent" > .changeset/$(date +%s).md
           fi
-          if [ -n "$newNetworkIcons" ]; then
-            changesetContent+="new network icons: $newNetworkIcons\n"
-          fi
-          echo "$changesetContent" > .changeset/$(date +%s).md
 
       - name: Bump versions
         run: bun changeset version

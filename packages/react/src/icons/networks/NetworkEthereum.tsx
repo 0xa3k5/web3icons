@@ -44,7 +44,7 @@ export const NetworkEthereum = forwardRef<SVGSVGElement, IconComponentProps>(
           />
           <path
             fill="#202699"
-            d="m12 16.196-5.357-3.043L12 20.57l5.357-7.418zm-4.757-2.508 4.671 2.658v3.814zm4.842 2.658v3.814l4.672-6.472z"
+            d="m12 16.196-5.357-3.043L12 20.571l5.357-7.419zm-4.757-2.508 4.671 2.658v3.814zm4.842 2.658v3.814l4.672-6.472z"
             fillRule="evenodd"
             clipRule="evenodd"
           />

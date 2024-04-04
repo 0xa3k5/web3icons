@@ -30,9 +30,9 @@ export const NetworkSolana = forwardRef<SVGSVGElement, IconComponentProps>(
             <linearGradient
               id="solana__a"
               x1="5.143"
-              x2="19.186"
-              y1="15.29"
-              y2="14.733"
+              x2="19.207"
+              y1="44.793"
+              y2="44.664"
               gradientUnits="userSpaceOnUse"
             >
               <stop stopColor="#599DB0" />
@@ -41,9 +41,9 @@ export const NetworkSolana = forwardRef<SVGSVGElement, IconComponentProps>(
             <linearGradient
               id="solana__b"
               x1="5.143"
-              x2="19.103"
-              y1="15.788"
-              y2="15.325"
+              x2="19.117"
+              y1="9.84"
+              y2="9.733"
               gradientUnits="userSpaceOnUse"
             >
               <stop stopColor="#C44FE2" />
