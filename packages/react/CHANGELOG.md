@@ -1,5 +1,16 @@
 # @token-icons/react
 
+## 1.8.0
+
+### Minor Changes
+
+- b337e2e: new network icons: aurora,base,beam,blast,boba,chiliz,cosmos,cosmos-hub,cronos,ethereum,fantom,filecoin,gnosis,hedera,injective,juno,kava,kujira,linea,loopring,manta-pacific,matic,metis,multiversx,near,neon-evm,osmosis,zpolkadot,polygon,polygon-zkevm,ronin,scroll,sei,solana,starknet,sui-1,wemix,zeta,zilliqa,zksync
+
+### Patch Changes
+
+- Updated dependencies [b337e2e]
+  - @token-icons/core@1.8.0
+
 ## 1.7.0
 
 ### Minor Changes
