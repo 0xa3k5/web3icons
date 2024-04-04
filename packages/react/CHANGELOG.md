@@ -1,5 +1,16 @@
 # @token-icons/react
 
+## 1.6.0
+
+### Minor Changes
+
+- support network icons
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/core@1.6.0
+
 ## 1.5.0
 
 ### Minor Changes

@@ -7,9 +7,8 @@ import React, {
   useCallback,
   ReactNode,
 } from 'react'
-import { tokens } from '@token-icons/core'
+import { tokens } from '@token-icons/core/metadata'
 import { ITokenMetadata } from '@token-icons/utils'
-
 export interface AppContextType {
   icons: ITokenMetadata[]
   searchTerm: string

@@ -11,15 +11,24 @@
     "svg crypto icons",
     "coin icons"
   ],
-  "version": "1.4.0",
+  "version": "1.6.0",
   "private": false,
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "./dist/svgs/tokens/*",
+    "./dist/svgs/networks/*",
+    "./dist/metadata/index.js"
   ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./metadata": "./dist/metadata/index.js",
+    "./svgs/tokens/*": "./dist/svgs/tokens/*",
+    "./svgs/networks/*": "./dist/svgs/networks/*"
+  },
   "sideEffects": false,
   "repository": {
     "type": "git",

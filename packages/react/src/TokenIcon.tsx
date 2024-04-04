@@ -1,26 +1,17 @@
-import React from 'react'
-import { tokens } from '@token-icons/core'
-import * as IconComponents from './icons'
-import { IconComponentProps, TokenIconProps } from './types'
 import { forwardRef } from 'react'
+import { tokens } from '@token-icons/core/metadata'
+import * as TokenComponents from './icons/tokens'
+import { TokenIconProps } from './types'
 
-type IconComponentNames = keyof typeof IconComponents
-
-type IconComponentType = React.ForwardRefExoticComponent<
-  React.PropsWithoutRef<IconComponentProps> & React.RefAttributes<SVGSVGElement>
->
+type TokenComponentNames = keyof typeof TokenComponents
 
 export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
-  (
-    { symbol, address, chain, size, className, variant = 'mono', color },
-    ref,
-  ) => {
-    const iconName = resolveIconName(symbol, address, chain)
-
-    const IconComponent =
-      (IconComponents[iconName] as IconComponentType) || null
+  ({ symbol, size, className, variant = 'mono', color, address }, ref) => {
+    const iconName = resolveIconName(symbol, address) as TokenComponentNames
+    const IconComponent = TokenComponents[iconName] || null
 
     if (!IconComponent) {
+      console.warn(`Icon not found: ${iconName}`)
       return null
     }
 
@@ -36,40 +27,29 @@ export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
   },
 )
 
-function normalizeIconName(iconName: string) {
+function normalizeTokenName(iconName: string) {
   return iconName.replace(/[- ]+/g, '_').toLocaleUpperCase()
 }
 
 function resolveIconName(
   symbol?: string,
   address?: string,
-  chain?: string,
-): keyof typeof IconComponents {
-  let resolvedName: IconComponentNames = 'IconETH'
+): TokenComponentNames {
+  let resolvedName: TokenComponentNames = 'TokenETH'
 
   if (symbol) {
     const tokenData = tokens.find((token) => token.symbol === symbol)
     if (tokenData) {
       resolvedName =
-        `Icon${normalizeIconName(tokenData.symbol)}` as IconComponentNames
+        `Token${normalizeTokenName(tokenData.symbol)}` as TokenComponentNames
     }
-  }
-
-  if (address) {
+  } else if (address) {
     const tokenData = tokens.find((token) =>
-      Object.values(token.addresses).includes(address),
+      Object.values(token.addresses).includes(address.toLocaleLowerCase()),
     )
     if (tokenData) {
       resolvedName =
-        `Icon${normalizeIconName(tokenData.symbol)}` as IconComponentNames
-    }
-  }
-
-  if (chain) {
-    const tokenData = tokens.find((token) => token.addresses[chain])
-    if (tokenData) {
-      resolvedName =
-        `Icon${normalizeIconName(tokenData.symbol)}` as IconComponentNames
+        `Token${normalizeTokenName(tokenData.symbol)}` as TokenComponentNames
     }
   }
 

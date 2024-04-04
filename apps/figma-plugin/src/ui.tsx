@@ -1,7 +1,8 @@
 import { render } from '@create-figma-plugin/ui'
 import { h } from 'preact'
 import '!./css/output.css'
-import { svgs, tokens } from '@token-icons/core'
+import { tokens } from '@token-icons/core/metadata'
+import { svgs } from '@token-icons/core'
 import { useEffect, useState } from 'preact/hooks'
 import {
   IconCard,
@@ -21,20 +22,36 @@ function Plugin() {
   const [displayedIcons, setDisplayedIcons] = useState<SvgIcon[]>([])
   const [nextBatchIndex, setNextBatchIndex] = useState<number>(0)
 
-  let brandedSvgs: SvgIcon[] = []
-  let monoSvgs: SvgIcon[] = []
+  const tokenIcons: { [key: string]: SvgIcon[] } = {
+    branded: [],
+    mono: [],
+  }
+  const networkIcons: { [key: string]: SvgIcon[] } = {
+    branded: [],
+    mono: [],
+  }
 
-  Object.entries(svgs).forEach(([name, svg]) => {
+  Object.entries(svgs.tokens).forEach(([name, svg]) => {
     if (name.startsWith('branded')) {
-      brandedSvgs.push({ name: name.replace('branded', ''), svg })
-    } else {
-      monoSvgs.push({ name: name.replace('mono', ''), svg })
+      tokenIcons.branded!.push({ name: name.replace('branded', ''), svg })
+    } else if (name.startsWith('mono')) {
+      tokenIcons.mono!.push({ name: name.replace('mono', ''), svg })
+    }
+  })
+
+  Object.entries(svgs.networks).forEach(([name, svg]) => {
+    if (name.startsWith('branded')) {
+      networkIcons.branded!.push({ name: name.replace('branded', ''), svg })
+    } else if (name.startsWith('mono')) {
+      networkIcons.mono!.push({ name: name.replace('mono', ''), svg })
     }
   })
 
   const filterIcons = (searchKey: string): SvgIcon[] => {
     if (!searchKey.trim()) {
-      return variant === 'branded' ? brandedSvgs : monoSvgs
+      return variant === 'branded'
+        ? (tokenIcons.branded as SvgIcon[])
+        : (tokenIcons.mono as SvgIcon[])
     }
 
     const searchLower = searchKey.toLowerCase()
@@ -46,7 +63,12 @@ function Plugin() {
       )
     })
 
-    const filteredSvgs = variant === 'branded' ? brandedSvgs : monoSvgs
+    // todo implement network filtering
+    const filteredSvgs =
+      variant === 'branded'
+        ? (tokenIcons.branded as SvgIcon[])
+        : (tokenIcons.mono as SvgIcon[])
+
     return filteredSvgs.filter((svg) => {
       return filteredTokens.some(
         (token) => token.symbol === svg.name.toLocaleLowerCase(),

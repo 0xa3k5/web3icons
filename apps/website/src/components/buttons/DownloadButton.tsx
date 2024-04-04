@@ -1,86 +1,94 @@
-import cx from 'classnames'
+import React, { useState, useEffect, PropsWithChildren } from 'react'
 import JSZip from 'jszip'
-import { PropsWithChildren, useState } from 'react'
 import Tooltip from '../ActionBar/Tooltip'
-import { tokens } from '@token-icons/core'
+import { tokens } from '@token-icons/core/metadata'
+import { fetchSvgContent } from '../../utils'
+import cx from 'classnames'
 
-interface Props {
+interface DownloadButtonProps {
   className?: string
   selectedIcons: string[]
-  variant: string
+  variant: 'mono' | 'branded'
 }
 
-const triggerDownload = (url: string, filename: string) => {
-  const element = document.createElement('a')
-  element.href = url
-  element.download = filename
-  document.body.appendChild(element)
-  element.click()
-  document.body.removeChild(element)
-}
-
-export default function DownloadButton({
+const DownloadButton: React.FC<PropsWithChildren<DownloadButtonProps>> = ({
   className,
   selectedIcons,
   variant,
   children,
-}: PropsWithChildren<Props>): JSX.Element {
-  const [tooltip, setTooltip] = useState({ toggle: false, text: '' })
+}) => {
+  const [tooltip, setTooltip] = useState<{ toggle: boolean; text: string }>({
+    toggle: false,
+    text: '',
+  })
+
+  const triggerDownload = (blob: Blob, filename: string): void => {
+    const url = URL.createObjectURL(blob)
+    const element = document.createElement('a')
+    element.href = url
+    element.download = filename
+    document.body.appendChild(element)
+    element.click()
+    document.body.removeChild(element)
+    URL.revokeObjectURL(url)
+  }
 
   const handleDownload = async () => {
     if (selectedIcons.length === 0) return
 
-    const zip = new JSZip()
-
-    for (const iconName of selectedIcons) {
-      const name = iconName.replace('Icon', '').toLocaleUpperCase()
-
-      const token = tokens.find(
-        (t) => t.symbol.toLocaleLowerCase() === name.toLocaleLowerCase(),
-      )
-
-      if (!token) continue
-
-      let svgModule
-
-      const hasVariant = token.variants.includes(variant)
-
-      svgModule = await import(
-        `@token-icons/core/dist/optimized-svgs/${hasVariant ? variant : token.variants[0]}/${name}.svg`
-      )
-
-      const response = await fetch(svgModule.default.src)
-      const svgContent = await response.text()
-      const fileName = hasVariant ? `${name}-${variant}.svg` : `${name}.svg`
-
-      if (selectedIcons.length > 1) {
-        zip.file(fileName, svgContent)
-      }
-
-      if (selectedIcons.length === 1) {
-        try {
-          const blob = new Blob([svgContent], { type: 'image/svg+xml' })
-          const url = URL.createObjectURL(blob)
-          triggerDownload(url, fileName)
-          break
-        } catch (err) {
-          console.error(`Error downloading ${name}:`, err)
-          setTooltip({ toggle: true, text: "couldn't download" })
-        }
-      }
-    }
-
-    if (selectedIcons.length > 1) {
+    if (selectedIcons.length === 1) {
+      // Handle single SVG download
       try {
-        const blob = await zip.generateAsync({ type: 'blob' })
-        const url = URL.createObjectURL(blob)
-        triggerDownload(url, 'token-icons.zip')
+        const iconName = selectedIcons[0]!.replace('Icon', '').toUpperCase()
+        const token = tokens.find(
+          (t) => t.symbol.toLowerCase() === iconName.toLowerCase(),
+        )
+
+        if (token) {
+          const svgContent = await fetchSvgContent(iconName, variant, 'tokens')
+          const blob = new Blob([svgContent], { type: 'image/svg+xml' })
+          triggerDownload(blob, `${iconName}-${variant}.svg`)
+          setTooltip({ toggle: true, text: 'copied!' })
+        }
       } catch (err) {
-        console.log(err)
+        console.error(err)
+        setTooltip({ toggle: true, text: 'Failed to download' })
+      }
+    } else {
+      // Handle multiple SVGs download as ZIP
+      const zip = new JSZip()
+
+      try {
+        for (const iconName of selectedIcons) {
+          const name = iconName.replace('Icon', '').toUpperCase()
+          const token = tokens.find(
+            (t) => t.symbol.toLowerCase() === name.toLowerCase(),
+          )
+
+          if (token) {
+            const svgContent = await fetchSvgContent(name, variant, 'tokens')
+            zip.file(`${name}-${variant}.svg`, svgContent)
+          }
+        }
+
+        const blob = await zip.generateAsync({ type: 'blob' })
+        triggerDownload(blob, 'token-icons.zip')
+        setTooltip({ toggle: true, text: 'downloaded!' })
+      } catch (err) {
+        console.error('Download error:', err)
         setTooltip({ toggle: true, text: "couldn't download" })
       }
     }
   }
+
+  useEffect(() => {
+    // eslint-disable-next-line no-undef
+    let timer: NodeJS.Timeout
+    if (tooltip.toggle) {
+      timer = setTimeout(() => setTooltip({ toggle: false, text: '' }), 1000)
+    }
+    return () => clearTimeout(timer)
+  }, [tooltip])
 
   return (
     <div className="relative inline-flex">
@@ -94,7 +102,11 @@ export default function DownloadButton({
       >
         {children}
       </button>
-      <Tooltip text={tooltip.text} toggle={tooltip.toggle} />
+      {tooltip.toggle && (
+        <Tooltip text={tooltip.text} toggle={tooltip.toggle} />
+      )}
     </div>
   )
 }
+
+export default DownloadButton

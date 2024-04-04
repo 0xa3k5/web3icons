@@ -1,33 +1,54 @@
 import fs from 'fs'
 import path from 'path'
-import { CORE_INDEX_PATH, SVG_OUTPUT_DIR } from '../constants'
+import {
+  CORE_INDEX_PATH,
+  SVG_TOKENS_OUT_DIR,
+  SVG_NETWORKS_OUT_DIR,
+} from '../constants'
+import { kebabToCamel } from '../utils'
 
-const brandedSvgDir = path.join(SVG_OUTPUT_DIR, 'branded')
-const monoSvgDir = path.join(SVG_OUTPUT_DIR, 'mono')
-
-function readSvgFilesFromDirectory(directoryPath: string): string[] {
+const readSvgFilesFromDirectory = (directoryPath: string): string[] => {
   return fs
     .readdirSync(directoryPath)
     .filter((file) => path.extname(file).toLowerCase() === '.svg')
 }
 
-const brandedSvgFiles = readSvgFilesFromDirectory(brandedSvgDir)
-const monoSvgFiles = readSvgFilesFromDirectory(monoSvgDir)
+const createExports = (
+  svgFiles: string[],
+  type: 'tokens' | 'networks',
+  variant: 'branded' | 'mono',
+): string => {
+  return svgFiles
+    .map((file) => {
+      const svgName = file.replace('.svg', '')
+      return `export { default as ${kebabToCamel(`${type}-${variant}-${svgName}`)} } from '../dist/svgs/${type}/${variant}/${file}';\n`
+    })
+    .join('')
+}
 
-let indexContent = `/* Generated */\nexport { tokens } from './metadata/index.js'\nexport { svgs } from './svg-module.js'\n`
+let indexContent = '/* Generated */\nexport { svgs } from "./svg-module";\n'
 
-// branded
-brandedSvgFiles.forEach((file) => {
-  const svgName = file.replace('.svg', '')
-  indexContent += `export { default as branded${svgName.charAt(0).toUpperCase() + svgName.slice(1)} } from '../dist/optimized-svgs/branded/${file}';\n` // this dist path will be fixed in postbuild-fix-paths.js
-})
-
-// mono
-monoSvgFiles.forEach((file) => {
-  const svgName = file.replace('.svg', '')
-  indexContent += `export { default as mono${svgName.charAt(0).toUpperCase() + svgName.slice(1)} } from '../dist/optimized-svgs/mono/${file}';\n` // this dist path will be fixed in postbuild-fix-paths.js
-})
+// Process branded and mono for both tokens and networks
+indexContent += createExports(
+  readSvgFilesFromDirectory(path.join(SVG_TOKENS_OUT_DIR, 'branded')),
+  'tokens',
+  'branded',
+)
+indexContent += createExports(
+  readSvgFilesFromDirectory(path.join(SVG_TOKENS_OUT_DIR, 'mono')),
+  'tokens',
+  'mono',
+)
+indexContent += createExports(
+  readSvgFilesFromDirectory(path.join(SVG_NETWORKS_OUT_DIR, 'branded')),
+  'networks',
+  'branded',
+)
+indexContent += createExports(
+  readSvgFilesFromDirectory(path.join(SVG_NETWORKS_OUT_DIR, 'mono')),
+  'networks',
+  'mono',
+)
 
 fs.writeFileSync(CORE_INDEX_PATH, indexContent)
-
-console.log('✓ generated: index file at src/index.ts')
+console.log('✓ Generated: index file at src/index.ts')

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ethereum",
+    "name": "Ethereum",
+    "shortname": "Ethereum",
+    "variants": ["mono", "branded"],
+    "nativeCoinId": "ethereum"
+  },
+  {
+    "id": "aptos",
+    "name": "Aptos",
+    "shortname": "",
+    "variants": ["mono", "branded"],
+    "nativeCoinId": "aptos"
+  },
+  {
+    "id": "binance-smart-chain",
+    "name": "BNB Smart Chain",
+    "shortname": "BSC",
+    "variants": ["mono", "branded"],
+    "nativeCoinId": "binancecoin"
+  },
+  {
+    "id": "tron",
+    "name": "TRON",
+    "shortname": "",
+    "variants": ["mono", "branded"],
+    "nativeCoinId": "tron"
+  },
+  {
+    "id": "avalanche",
+    "name": "Avalanche",
+    "shortname": "AVAX",
+    "variants": ["mono", "branded"],
+    "nativeCoinId": "avalanche-2"
+  },
+  {
+    "id": "cardano",
+    "name": "Cardano",
+    "shortname": "",
+    "variants": ["mono", "branded"],
+    "nativeCoinId": "cardano"
+  },
+  {
+    "id": "sui",
+    "name": "Sui",
+    "shortname": "",
+    "variants": ["mono", "branded"],
+    "nativeCoinId": "sui"
+  },
+  {
+    "id": "optimistic-ethereum",
+    "name": "Optimism",
+    "shortname": "Optimism",
+    "variants": ["mono", "branded"],
+    "nativeCoinId": "ethereum"
+  },
+  {
+    "id": "solana",
+    "name": "Solana",
+    "shortname": "Solana",
+    "variants": ["mono", "branded"],
+    "nativeCoinId": "solana"
+  },
+  {
+    "id": "arbitrum-one",
+    "name": "Arbitrum One",
+    "shortname": "Arbitrum",
+    "variants": ["mono", "branded"],
+    "nativeCoinId": "ethereum"
+  }
+]

@@ -16,13 +16,13 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
     useAppContext()
 
   const [hover, setHover] = useState(false)
-  const isSelected = selectedIcons.includes(icon.name)
+  const isSelected = selectedIcons.includes(icon.symbol)
 
   const handleCheckboxChange = () => {
     setSelectedIcons((prevSelectedIcons) =>
       isSelected
         ? prevSelectedIcons.filter((icon) => icon !== icon)
-        : [...prevSelectedIcons, icon.name],
+        : [...prevSelectedIcons, icon.symbol],
     )
   }
 
@@ -32,8 +32,10 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
         e.preventDefault()
         setSelectedIcons((selectedIcons) => {
           return isSelected
-            ? selectedIcons.filter((selectedIcon) => selectedIcon !== icon.name)
-            : [...selectedIcons, icon.name]
+            ? selectedIcons.filter(
+                (selectedIcon) => selectedIcon !== icon.symbol,
+              )
+            : [...selectedIcons, icon.symbol]
         })
       }
     }
@@ -85,7 +87,7 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
           <CopyButton
             className="w-full rounded-sm p-[4px]"
             variant={variant}
-            selectedIcons={[icon.name]}
+            selectedIcons={[icon.symbol]}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +107,7 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
           <DownloadButton
             className="w-full rounded-sm p-[4px]"
             variant={variant}
-            selectedIcons={[icon.name]}
+            selectedIcons={[icon.symbol]}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

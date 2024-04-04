@@ -1,12 +1,13 @@
 import { useState, useEffect, PropsWithChildren } from 'react'
-import tokens from '@token-icons/core/dist/metadata/tokens.json'
+import { tokens } from '@token-icons/core/metadata'
 import cx from 'classnames'
 import Tooltip from '../ActionBar/Tooltip'
+import { fetchSvgContent } from '../../utils'
 
 interface Props {
   className?: string
   selectedIcons: string[]
-  variant: string
+  variant: 'mono' | 'branded'
 }
 
 export default function CopyButton({
@@ -32,45 +33,18 @@ export default function CopyButton({
       // action bar only appears when selected icons is not empty
       // so we can assume that there is at least only one icon
       const iconName = selectedIcons[0]!.replace('Icon', '').toLocaleUpperCase()
-
-      let hasMonoVariant = false
-      let hasBrandedVariant = false
-
       const token = tokens.find(
         (token) =>
           token.symbol.toLocaleLowerCase() === iconName.toLocaleLowerCase(),
       )
 
-      token?.variants.includes('mono') && (hasMonoVariant = true)
-      token?.variants.includes('branded') && (hasBrandedVariant = true)
-
       try {
-        if (
-          (variant === 'mono' && hasMonoVariant) ||
-          (variant === 'branded' && hasBrandedVariant)
-        ) {
-          const svgModule = await import(
-            `@token-icons/core/dist/optimized-svgs/${variant}/${iconName}.svg`
-          )
-          const response = await fetch(svgModule.default.src)
-          const svgContent = await response.text()
+        if (token) {
+          const symbol = token.symbol.toLocaleUpperCase()
+          const svgContent = await fetchSvgContent(symbol, variant, 'tokens')
           await navigator.clipboard.writeText(svgContent)
-        } else if (hasBrandedVariant) {
-          const svgModule = await import(
-            `@token-icons/core/dist/optimized-svgs/branded/${iconName}.svg`
-          )
-          const response = await fetch(svgModule.default.src)
-          const svgContent = await response.text()
-          await navigator.clipboard.writeText(svgContent)
-        } else if (hasMonoVariant) {
-          const svgModule = await import(
-            `@token-icons/core/dist/optimized-svgs/mono/${iconName}.svg`
-          )
-          const response = await fetch(svgModule.default.src)
-          const svgContent = await response.text()
-          await navigator.clipboard.writeText(svgContent)
+          setTooltip({ toggle: true, text: 'copied!' })
         }
-        setTooltip({ toggle: true, text: 'copied!' })
       } catch (err) {
         console.error(err)
         setTooltip({ toggle: true, text: 'Failed to copy' })

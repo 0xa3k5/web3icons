@@ -6,6 +6,6 @@
     "declarationDir": "./dist",
     "resolveJsonModule": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "src/metadata/**/*"],
   "exclude": ["node_modules", "dist"]
 }
