@@ -1,10 +1,14 @@
 node_modules
+build
+dist
 .env
 .env.local
 .turbo
 .vercel
 .next/
 out/
-build
-dist
 .DS_Store
+*.d.ts
+apps/figma-plugin/manifest.json
+packages/react/src/icons/**/*.ts
+packages/react/src/icons/**/*.tsx

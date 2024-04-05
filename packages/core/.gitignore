@@ -1,7 +1,0 @@
-node_modules/
-*.tsbuildinfo
-.eslintcache
-.env
-.env.local
-dist
-.DS_Store
