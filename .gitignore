@@ -12,3 +12,5 @@ out/
 apps/figma-plugin/manifest.json
 packages/react/src/icons/**/*.ts
 packages/react/src/icons/**/*.tsx
+packages/core/src/index.ts
+packages/core/src/svg-module.ts

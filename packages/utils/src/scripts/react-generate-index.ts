@@ -12,7 +12,7 @@ const generateIndexFile = (
 ) => {
   const svgFiles = fs
     .readdirSync(directory)
-    .filter((file) => file !== 'index.ts')
+    .filter((file) => path.extname(file).toLocaleLowerCase() === '.tsx')
   const exports = svgFiles
     .map((svgFile) => {
       const baseName = path.basename(svgFile, '.tsx')
