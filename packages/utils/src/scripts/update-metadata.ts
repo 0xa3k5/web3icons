@@ -105,12 +105,10 @@ const processSVGFile = async (
         marketCapRank: 0, // Will be fetched below
         addresses: {}, // Will be fetched below
       }
-      console.log('hey')
-      console.log(file)
       const data = await getCoinByID(foundCoin.id)
       tokenIcon.addresses = data.platforms
       tokenIcon.marketCapRank = data.market_cap_rank
-      console.log('tokenIcon', tokenIcon)
+      console.log('appending', tokenIcon)
 
       await appendToTokensJson(tokenIcon)
     }
@@ -130,7 +128,7 @@ const processSVGFile = async (
         variants: file.includes('/branded/') ? ['branded'] : ['mono'],
         nativeCoinId: foundNetwork.native_coin_id,
       }
-      console.log('networkIcon', networkIcon)
+      console.log('appending', networkIcon)
 
       await appendToNetworksJson(networkIcon)
     }
@@ -150,30 +148,3 @@ const main = async (): Promise<void> => {
 }
 
 main().catch(console.error)
-
-// use this on development
-// function getNewSVGFiles(): { file: string; type: string }[] {
-//   try {
-//     console.log('Running getNewSVGFiles...')
-
-//     // Add other modified or untracked SVG files throughout the repo
-//     const gitOutput =
-//       execSync(`git diff --name-only HEAD`).toString().trim() +
-//       '\n' +
-//       execSync(`git ls-files --others --exclude-standard -- '*.svg'`)
-//         .toString()
-//         .trim()
-
-//     const newFiles = gitOutput
-//       .split('\n')
-//       .filter((file) => file.endsWith('.svg'))
-//       .map((file) => ({
-//         file,
-//         type: file.includes('/tokens/') ? 'token' : 'network',
-//       }))
-//     return newFiles
-//   } catch (error) {
-//     console.error('Error fetching new SVG files:', error)
-//     return []
-//   }
-// }

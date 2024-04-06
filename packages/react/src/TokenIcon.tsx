@@ -7,8 +7,8 @@ type TokenComponentNames = keyof typeof TokenComponents
 
 export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
   ({ symbol, size, className, variant = 'mono', color, address }, ref) => {
-    const iconName = resolveIconName(symbol, address) as TokenComponentNames
-    const IconComponent = TokenComponents[iconName] || null
+    const iconName = resolveIconName(symbol, address)
+    const IconComponent = iconName ? TokenComponents[iconName] : null
 
     if (!IconComponent) {
       console.warn(`Icon not found: ${iconName}`)
@@ -34,24 +34,20 @@ function normalizeTokenName(iconName: string) {
 function resolveIconName(
   symbol?: string,
   address?: string,
-): TokenComponentNames {
-  let resolvedName: TokenComponentNames = 'TokenETH'
-
+): TokenComponentNames | null {
   if (symbol) {
     const tokenData = tokens.find((token) => token.symbol === symbol)
     if (tokenData) {
-      resolvedName =
-        `Token${normalizeTokenName(tokenData.symbol)}` as TokenComponentNames
+      return `Token${normalizeTokenName(tokenData.symbol)}` as TokenComponentNames
     }
   } else if (address) {
     const tokenData = tokens.find((token) =>
       Object.values(token.addresses).includes(address.toLocaleLowerCase()),
     )
     if (tokenData) {
-      resolvedName =
-        `Token${normalizeTokenName(tokenData.symbol)}` as TokenComponentNames
+      return `Token${normalizeTokenName(tokenData.symbol)}` as TokenComponentNames
     }
   }
 
-  return resolvedName
+  return null
 }

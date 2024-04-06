@@ -9,6 +9,7 @@ dist
 out/
 .DS_Store
 *.d.ts
+!packages/core/src/svg.d.ts
 apps/figma-plugin/manifest.json
 packages/react/src/icons/**/*.ts
 packages/react/src/icons/**/*.tsx
