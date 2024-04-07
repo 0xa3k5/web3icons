@@ -1,10 +1,10 @@
 import fs from 'fs'
 import prettier from 'prettier'
 import { ITokenMetadata } from './types'
-import { METADATA_PATH } from './constants'
+import { TOKENS_METADATA_PATH } from './constants'
 
 const geckoCoins: ITokenMetadata[] = JSON.parse(
-  fs.readFileSync(METADATA_PATH, 'utf-8'),
+  fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'),
 )
 
 /**
@@ -43,22 +43,16 @@ export const removeDuplicates = async () => {
   // clean the addresses
   const uniqueCoins = Object.values(processedCoins).map((item) => {
     const cleanedAddresses = Object.entries(item.addresses || {})
-      .filter(([key, value]) => value)
+      // eslint-disable-next-line no-unused-vars
+      .filter(([_, value]) => value)
       .reduce((acc, [key, value]) => ({ ...acc, [key]: value }), {})
 
     return { ...item, addresses: cleanedAddresses }
   })
 
-  // .map((item) => {
-  //   const cleanedAddresses = Object.fromEntries(
-  //     Object.entries(item.addresses || {}).filter(([key, _]) => key !== ''),
-  //   )
-  //   return { ...item, addresses: cleanedAddresses }
-  // })
-
   // Write the modified data back to the file
   fs.writeFileSync(
-    METADATA_PATH,
+    TOKENS_METADATA_PATH,
     await prettier.format(JSON.stringify(uniqueCoins), {
       parser: 'json',
     }),

@@ -5,7 +5,7 @@ import * as cheerio from 'cheerio'
 import {
   JSX_TOKENS_OUT_DIR,
   SVG_TOKENS_OUT_DIR,
-  METADATA_PATH,
+  TOKENS_METADATA_PATH,
   SVG_NETWORKS_OUT_DIR,
 } from './constants'
 import { componentScaffold } from './scaffolds'
@@ -125,8 +125,8 @@ const readyForJSX = (svgRaw: string) => {
 }
 
 export const appendToMetadataJson = (coin: ITokenMetadata) => {
-  let fileContent = fs.existsSync(METADATA_PATH)
-    ? fs.readFileSync(METADATA_PATH, 'utf-8')
+  let fileContent = fs.existsSync(TOKENS_METADATA_PATH)
+    ? fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8')
     : '[]'
 
   // remove the "]" at the end
@@ -138,7 +138,7 @@ export const appendToMetadataJson = (coin: ITokenMetadata) => {
   const separator = fileContent.length > 2 ? ',' : ''
   fileContent += `${separator}\n${JSON.stringify(coin, null, 2)}]`
 
-  fs.writeFileSync(METADATA_PATH, fileContent)
+  fs.writeFileSync(TOKENS_METADATA_PATH, fileContent)
 }
 
 /**

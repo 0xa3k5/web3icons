@@ -1,5 +1,11 @@
 # @token-icons/core
 
+## 1.9.0
+
+### Minor Changes
+
+- add new networks
+
 ## 1.8.1
 
 ### Patch Changes

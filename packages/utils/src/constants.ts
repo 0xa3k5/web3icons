@@ -42,11 +42,17 @@ export const JSX_NETWORKS_OUT_DIR = path.resolve(
   'networks',
 )
 
-export const METADATA_PATH = path.resolve(
+export const TOKENS_METADATA_PATH = path.resolve(
   coreRoot,
   'src',
   'metadata',
   'tokens.json',
+)
+export const NETWORKS_METADATA_PATH = path.resolve(
+  coreRoot,
+  'src',
+  'metadata',
+  'networks.json',
 )
 export const CORE_INDEX_PATH = path.resolve(coreRoot, 'src', 'index.ts')
 export const CORE_SVG_MODULE_PATH = path.resolve(

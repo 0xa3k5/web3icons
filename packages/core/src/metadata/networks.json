@@ -1,72 +1,268 @@
 [
   {
-    "id": "ethereum",
-    "name": "Ethereum",
-    "shortname": "Ethereum",
-    "variants": ["mono", "branded"],
-    "nativeCoinId": "ethereum"
-  },
-  {
-    "id": "aptos",
-    "name": "Aptos",
+    "id": "kujira",
+    "name": "Kujira",
     "shortname": "",
-    "variants": ["mono", "branded"],
-    "nativeCoinId": "aptos"
+    "nativeCoinId": "kujira",
+    "variants": ["branded", "mono"]
   },
   {
-    "id": "binance-smart-chain",
-    "name": "BNB Smart Chain",
-    "shortname": "BSC",
-    "variants": ["mono", "branded"],
-    "nativeCoinId": "binancecoin"
-  },
-  {
-    "id": "tron",
-    "name": "TRON",
-    "shortname": "",
-    "variants": ["mono", "branded"],
-    "nativeCoinId": "tron"
-  },
-  {
-    "id": "avalanche",
-    "name": "Avalanche",
-    "shortname": "AVAX",
-    "variants": ["mono", "branded"],
-    "nativeCoinId": "avalanche-2"
+    "id": "aurora",
+    "name": "Aurora",
+    "shortname": "aurora",
+    "nativeCoinId": "aurora-near",
+    "variants": ["branded", "mono"]
   },
   {
     "id": "cardano",
     "name": "Cardano",
     "shortname": "",
-    "variants": ["mono", "branded"],
-    "nativeCoinId": "cardano"
+    "nativeCoinId": "cardano",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "tron",
+    "name": "TRON",
+    "shortname": "",
+    "nativeCoinId": "tron",
+    "variants": ["branded", "mono"]
   },
   {
     "id": "sui",
     "name": "Sui",
     "shortname": "",
-    "variants": ["mono", "branded"],
-    "nativeCoinId": "sui"
+    "nativeCoinId": "sui",
+    "variants": ["branded", "mono"]
   },
   {
-    "id": "optimistic-ethereum",
-    "name": "Optimism",
-    "shortname": "Optimism",
-    "variants": ["mono", "branded"],
-    "nativeCoinId": "ethereum"
+    "id": "polygon-zkevm",
+    "name": "Polygon zkEVM",
+    "shortname": "",
+    "nativeCoinId": "ethereum",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "telos",
+    "name": "Telos",
+    "shortname": "",
+    "nativeCoinId": "telos",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "neon-evm",
+    "name": "Neon EVM",
+    "shortname": "",
+    "nativeCoinId": "neon",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "aptos",
+    "name": "Aptos",
+    "shortname": "",
+    "nativeCoinId": "aptos",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "cronos",
+    "name": "Cronos",
+    "shortname": "CRO",
+    "nativeCoinId": "crypto-com-chain",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "ethereum",
+    "name": "Ethereum",
+    "shortname": "Ethereum",
+    "nativeCoinId": "ethereum",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "starknet",
+    "name": "StarkNet",
+    "shortname": "",
+    "nativeCoinId": "starknet",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "kava",
+    "name": "Kava",
+    "shortname": "",
+    "nativeCoinId": "kava",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "linea",
+    "name": "Linea",
+    "shortname": "",
+    "nativeCoinId": "ethereum",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "filecoin",
+    "name": "Filecoin",
+    "shortname": "",
+    "nativeCoinId": "filecoin",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "zilliqa",
+    "name": "Zilliqa",
+    "shortname": "",
+    "nativeCoinId": "zilliqa",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "cosmos",
+    "name": "Cosmos",
+    "shortname": "",
+    "nativeCoinId": "cosmos",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "ronin",
+    "name": "Ronin",
+    "shortname": "ron",
+    "nativeCoinId": "ronin",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "osmosis",
+    "name": "Osmosis",
+    "shortname": "Osmo",
+    "nativeCoinId": "osmosis",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "manta-pacific",
+    "name": "Manta Pacific",
+    "shortname": "",
+    "nativeCoinId": "weth",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "injective",
+    "name": "Injective",
+    "shortname": "",
+    "nativeCoinId": "injective-protocol",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "chiliz",
+    "name": "Chiliz",
+    "shortname": "",
+    "nativeCoinId": "chiliz",
+    "variants": ["branded", "mono"]
   },
   {
     "id": "solana",
     "name": "Solana",
     "shortname": "Solana",
-    "variants": ["mono", "branded"],
-    "nativeCoinId": "solana"
+    "nativeCoinId": "solana",
+    "variants": ["branded", "mono"]
   },
   {
-    "id": "arbitrum-one",
-    "name": "Arbitrum One",
-    "shortname": "Arbitrum",
-    "variants": ["mono", "branded"],
-    "nativeCoinId": "ethereum"
+    "id": "blast",
+    "name": "Blast",
+    "shortname": "",
+    "nativeCoinId": "blast",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "moonbeam",
+    "name": "Moonbeam",
+    "shortname": "",
+    "nativeCoinId": "moonbeam",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "astar",
+    "name": "Astar",
+    "shortname": "",
+    "nativeCoinId": "astar",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "zksync",
+    "name": "zkSync",
+    "shortname": "zkSync",
+    "nativeCoinId": "ethereum",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "juno",
+    "name": "Juno",
+    "shortname": "",
+    "nativeCoinId": "juno-network",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "polkadot",
+    "name": "Polkadot",
+    "shortname": "",
+    "nativeCoinId": "polkadot",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "beam",
+    "name": "Beam",
+    "shortname": "",
+    "nativeCoinId": "beam",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "boba",
+    "name": "Boba Network",
+    "shortname": "",
+    "nativeCoinId": "ethereum",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "celo",
+    "name": "Celo",
+    "shortname": "celo",
+    "nativeCoinId": "celo",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "base",
+    "name": "Base",
+    "shortname": "",
+    "nativeCoinId": "ethereum",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "binance-smart-chain",
+    "name": "BNB Smart Chain",
+    "shortname": "BSC",
+    "nativeCoinId": "binancecoin",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "loopring",
+    "name": "Loopring",
+    "shortname": "",
+    "nativeCoinId": "loopring",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "fantom",
+    "name": "Fantom",
+    "shortname": "",
+    "nativeCoinId": "fantom",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "avalanche",
+    "name": "Avalanche",
+    "shortname": "AVAX",
+    "nativeCoinId": "avalanche-2",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "scroll",
+    "name": "Scroll",
+    "shortname": "",
+    "nativeCoinId": "weth",
+    "variants": ["branded", "mono"]
   }
 ]

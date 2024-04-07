@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { SVG_TOKENS_SRC_DIR, METADATA_PATH } from '../constants'
+import { SVG_TOKENS_SRC_DIR, TOKENS_METADATA_PATH } from '../constants'
 import getCoinByID from './gecko/get-coin-by-id'
 import { ITokenMetadata } from '../types'
 import { appendToMetadataJson } from '../utils'
@@ -49,8 +49,8 @@ const populateWithVariants = (processedIds = new Set()): ITokenMetadata[] => {
 }
 
 let processedIds = new Set()
-if (fs.existsSync(METADATA_PATH)) {
-  const savedData = fs.readFileSync(METADATA_PATH, 'utf-8')
+if (fs.existsSync(TOKENS_METADATA_PATH)) {
+  const savedData = fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8')
   const coinsData: ITokenMetadata[] = JSON.parse(savedData)
   processedIds = new Set(coinsData.map((coin) => coin.id))
 }
@@ -76,6 +76,6 @@ for (const coin of coins) {
   await new Promise((resolve) => setTimeout(resolve, 5000))
 }
 
-fs.writeFileSync(METADATA_PATH, JSON.stringify(coins, null, 2))
+fs.writeFileSync(TOKENS_METADATA_PATH, JSON.stringify(coins, null, 2))
 
 console.log('✅ metadata.json')

@@ -1,5 +1,16 @@
 # @token-icons/react
 
+## 1.9.0
+
+### Minor Changes
+
+- add new networks
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/core@1.9.0
+
 ## 1.8.1
 
 ### Patch Changes
