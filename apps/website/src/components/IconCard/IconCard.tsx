@@ -2,27 +2,32 @@ import cx from 'classnames'
 import { useEffect, useState } from 'react'
 import Checkbox from './Checkbox'
 import { useAppContext } from '../../hooks'
-import { TokenIcon } from '@token-icons/react'
+import { NetworkIcon, TokenIcon } from '@token-icons/react'
 import { CopyButton, DownloadButton } from '../buttons'
-import { ITokenMetadata } from '@token-icons/utils'
+import { INetworkMetadata, ITokenMetadata } from '@token-icons/utils'
 
 interface Props {
   className?: string
-  icon: ITokenMetadata
+  icon: ITokenMetadata | INetworkMetadata
 }
 
 export default function IconCard({ className, icon }: Props): JSX.Element {
-  const { size, variant, selectedIcons, setSelectedIcons, color } =
+  const { size, variant, selectedIcons, setSelectedIcons, color, type } =
     useAppContext()
 
   const [hover, setHover] = useState(false)
-  const isSelected = selectedIcons.includes(icon.symbol)
+  const symbolOrId =
+    type === 'tokens'
+      ? (icon as ITokenMetadata).symbol
+      : (icon as INetworkMetadata).id
+
+  const isSelected = selectedIcons.includes(symbolOrId)
 
   const handleCheckboxChange = () => {
     setSelectedIcons((prevSelectedIcons) =>
       isSelected
         ? prevSelectedIcons.filter((icon) => icon !== icon)
-        : [...prevSelectedIcons, icon.symbol],
+        : [...prevSelectedIcons, symbolOrId],
     )
   }
 
@@ -33,9 +38,9 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
         setSelectedIcons((selectedIcons) => {
           return isSelected
             ? selectedIcons.filter(
-                (selectedIcon) => selectedIcon !== icon.symbol,
+                (selectedIcon) => selectedIcon !== symbolOrId,
               )
-            : [...selectedIcons, icon.symbol]
+            : [...selectedIcons, symbolOrId]
         })
       }
     }
@@ -55,20 +60,36 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      <TokenIcon
-        variant={variant}
-        key={icon.symbol}
-        size={size}
-        color={color}
-        symbol={icon.symbol}
-      />
+      {type === 'tokens' && (
+        <TokenIcon
+          variant={variant}
+          key={symbolOrId}
+          size={size}
+          color={color}
+          symbol={symbolOrId}
+        />
+      )}
+      {type === 'networks' && (
+        <NetworkIcon
+          variant={variant}
+          key={symbolOrId}
+          size={size}
+          color={color}
+          network={symbolOrId}
+        />
+      )}
       <span
         className={cx(
-          'text-white',
+          'text-center text-white',
           isSelected ? 'text-opacity-100' : 'text-opacity-60',
         )}
       >
-        {icon.symbol}
+        {type === 'tokens' && (
+          <span className="text-xs">{(icon as ITokenMetadata).symbol}</span>
+        )}
+        {type === 'networks' && (
+          <span className="text-xs">{(icon as INetworkMetadata).name}</span>
+        )}
       </span>
       <input
         type="checkbox"
@@ -87,7 +108,7 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
           <CopyButton
             className="w-full rounded-sm p-[4px]"
             variant={variant}
-            selectedIcons={[icon.symbol]}
+            selectedIcons={[symbolOrId]}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +128,7 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
           <DownloadButton
             className="w-full rounded-sm p-[4px]"
             variant={variant}
-            selectedIcons={[icon.symbol]}
+            selectedIcons={[symbolOrId]}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

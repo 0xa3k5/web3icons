@@ -1,5 +1,7 @@
 'use client'
+import { NetworkOptimism } from '@token-icons/react/icons'
 import { ControlBar, IconCard, ActionBar } from '../components'
+import SegmentedControl from '../components/ControlBar/SegmentedControl'
 import Logo from '../components/Logo'
 import SearchInput from '../components/SearchInput'
 import { useAppContext } from '../hooks'
@@ -25,8 +27,15 @@ const links = [
 ]
 
 export default function Home() {
-  const { icons, selectedIcons, searchTerm, setSearchTerm, loadMoreIcons } =
-    useAppContext()
+  const {
+    tokenIcons: icons,
+    selectedIcons,
+    searchTerm,
+    setSearchTerm,
+    loadMoreIcons,
+    type,
+    setType,
+  } = useAppContext()
 
   return (
     <main className="container mx-auto flex h-screen flex-col gap-4 p-4 font-mono sm:px-8 sm:py-16 md:gap-16">
@@ -84,11 +93,18 @@ export default function Home() {
       </div>
       <div className="relative flex w-full flex-col-reverse gap-8 md:flex-row md:gap-12">
         <div className="flex w-full flex-col gap-4">
-          <SearchInput
-            onInput={(e) => setSearchTerm(e.target.value)}
-            placeholder="Search"
-            value={searchTerm}
-          />
+          <div className="flex items-center gap-8">
+            <SearchInput
+              onInput={(e) => setSearchTerm(e.target.value)}
+              placeholder="Search"
+              value={searchTerm}
+            />
+            <SegmentedControl
+              options={['tokens', 'networks']}
+              selected={type}
+              onChange={(value) => setType(value as 'tokens' | 'networks')}
+            />
+          </div>
           <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
             {icons.map((icon) => (
               <IconCard key={icon.id} icon={icon} />

@@ -7,10 +7,12 @@ import React, {
   useCallback,
   ReactNode,
 } from 'react'
-import { tokens } from '@token-icons/core/metadata'
-import { ITokenMetadata } from '@token-icons/utils'
+import { networks, tokens } from '@token-icons/core/metadata'
+import { INetworkMetadata, ITokenMetadata } from '@token-icons/utils'
 export interface AppContextType {
-  icons: ITokenMetadata[]
+  type: 'tokens' | 'networks'
+  setType: React.Dispatch<React.SetStateAction<'tokens' | 'networks'>>
+  tokenIcons: ITokenMetadata[] | INetworkMetadata[]
   searchTerm: string
   setSearchTerm: React.Dispatch<React.SetStateAction<string>>
   variant: 'mono' | 'branded'
@@ -33,38 +35,26 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
   children,
 }: AppContextProviderProps) => {
   const PER_PAGE = 48
+  const [type, setType] = useState<'tokens' | 'networks'>('tokens')
   const [variant, setVariant] = useState<'mono' | 'branded'>('mono')
   const [size, setSize] = useState(64)
   const [color, setColor] = useState('#FFFFFF')
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedIcons, setSelectedIcons] = useState<string[]>([])
   const [nextBatchIndex, setNextBatchIndex] = useState(0)
-  const [shownIcons, setShownIcons] = useState<ITokenMetadata[]>([])
+  const [shownIcons, setShownIcons] = useState<
+    ITokenMetadata[] | INetworkMetadata[]
+  >([])
 
   tokens.sort(
     (a, b) => (a.marketCapRank || Infinity) - (b.marketCapRank || Infinity),
   )
 
-  const uniqueTokensMap = new Map()
-
-  // Filter out unique tokens, preferring those with higher market cap rank
-  tokens.forEach((token) => {
-    const existingToken = uniqueTokensMap.get(token.symbol)
-    if (
-      !existingToken ||
-      (token.marketCapRank &&
-        (!existingToken.marketCapRank ||
-          token.marketCapRank < existingToken.marketCapRank))
-    ) {
-      uniqueTokensMap.set(token.symbol, token)
-    }
-  })
-
+  // group by variants
   const groupedTokens: Record<string, ITokenMetadata[]> = {}
 
-  // Group the unique tokens by their variants
-  Array.from(uniqueTokensMap.values()).forEach((token) => {
-    token.variants.forEach((variant: 'mono' | 'branded') => {
+  tokens.forEach((token) => {
+    token.variants.forEach((variant) => {
       if (!groupedTokens[variant]) {
         groupedTokens[variant] = []
       }
@@ -72,8 +62,25 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
     })
   })
 
+  const groupedNetworks: Record<string, INetworkMetadata[]> = {}
+
+  networks.forEach((network) => {
+    network.variants.forEach((variant) => {
+      if (!groupedNetworks[variant]) {
+        groupedNetworks[variant] = []
+      }
+      groupedNetworks[variant]!.push(network)
+    })
+  })
+
   const filterAndSortIcons = useCallback(() => {
-    const filteredIcons = groupedTokens[variant]!.filter(
+    const filteredNetworkIcons = groupedNetworks[variant]!.filter(
+      (network) =>
+        network.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        network.id.toLowerCase().includes(searchTerm.toLowerCase()),
+    )
+
+    const filteredTokens = groupedTokens[variant]!.filter(
       (token) =>
         (token.variants.includes(variant) &&
           token.symbol.toLowerCase().includes(searchTerm.toLowerCase())) ||
@@ -81,8 +88,10 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
         token.id.toLowerCase().includes(searchTerm.toLowerCase()),
     )
 
-    return filteredIcons.slice(0, nextBatchIndex + PER_PAGE)
-  }, [searchTerm, variant, nextBatchIndex])
+    return type === 'tokens'
+      ? filteredTokens.slice(0, nextBatchIndex + PER_PAGE)
+      : filteredNetworkIcons.slice(0, nextBatchIndex + PER_PAGE)
+  }, [searchTerm, variant, nextBatchIndex, type])
 
   useEffect(() => {
     setShownIcons(filterAndSortIcons())
@@ -95,7 +104,9 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
   return (
     <AppContext.Provider
       value={{
-        icons: shownIcons,
+        type,
+        setType,
+        tokenIcons: shownIcons,
         searchTerm,
         setSearchTerm,
         variant,
