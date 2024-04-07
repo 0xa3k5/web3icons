@@ -4,7 +4,7 @@ import Checkbox from './Checkbox'
 import { useAppContext } from '../../hooks'
 import { NetworkIcon, TokenIcon } from '@token-icons/react'
 import { CopyButton, DownloadButton } from '../buttons'
-import { INetworkMetadata, ITokenMetadata } from '@token-icons/utils'
+import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
 
 interface Props {
   className?: string

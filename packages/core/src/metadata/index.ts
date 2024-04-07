@@ -1,5 +1,4 @@
-import { ITokenMetadata, INetworkMetadata } from '@token-icons/utils'
-
+import { ITokenMetadata, INetworkMetadata } from '../types'
 import tokenData from './tokens.json'
 import networkData from './networks.json'
 

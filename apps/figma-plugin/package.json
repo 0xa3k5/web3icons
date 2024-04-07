@@ -27,7 +27,6 @@
     "@create-figma-plugin/tsconfig": "^3.1.0",
     "@figma/plugin-typings": "1.82.0",
     "@token-icons/core": "workspace:*",
-    "@token-icons/utils": "workspace:*",
     "classnames": "^2.5.1",
     "concurrently": ">=8",
     "tailwindcss": ">=3",

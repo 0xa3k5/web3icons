@@ -8,7 +8,7 @@ import React, {
   ReactNode,
 } from 'react'
 import { networks, tokens } from '@token-icons/core/metadata'
-import { INetworkMetadata, ITokenMetadata } from '@token-icons/utils'
+import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
 export interface AppContextType {
   type: 'tokens' | 'networks'
   setType: React.Dispatch<React.SetStateAction<'tokens' | 'networks'>>

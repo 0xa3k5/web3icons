@@ -1,5 +1,48 @@
 # @token-icons/react
 
+## 2.0.4
+
+### Patch Changes
+
+- fix TokenIcon icon matching
+- Updated dependencies
+  - @token-icons/core@2.0.4
+
+## 2.0.3
+
+### Patch Changes
+
+-
+- Updated dependencies
+  - @token-icons/core@2.0.3
+
+## 2.0.2
+
+### Patch Changes
+
+-
+- Updated dependencies
+  - @token-icons/core@2.0.2
+
+## 2.0.1
+
+### Patch Changes
+
+-
+- Updated dependencies
+  - @token-icons/core@2.0.1
+
+## 2.0.0
+
+### Major Changes
+
+- fix move types to core from utils
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/core@2.0.0
+
 ## 1.9.0
 
 ### Minor Changes

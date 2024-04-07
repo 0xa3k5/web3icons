@@ -11,7 +11,7 @@
     "svg crypto icons",
     "coin icons"
   ],
-  "version": "1.9.0",
+  "version": "2.0.4",
   "private": false,
   "license": "MIT",
   "type": "module",
@@ -43,9 +43,6 @@
     "post-build": "bun run src/post-build-fix-paths.ts",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error"
-  },
-  "dependencies": {
-    "@token-icons/utils": "workspace:*"
   },
   "devDependencies": {
     "bun-types": "latest",

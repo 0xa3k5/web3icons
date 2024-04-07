@@ -1,5 +1,35 @@
 # @token-icons/core
 
+## 2.0.4
+
+### Patch Changes
+
+- fix TokenIcon icon matching
+
+## 2.0.3
+
+### Patch Changes
+
+-
+
+## 2.0.2
+
+### Patch Changes
+
+-
+
+## 2.0.1
+
+### Patch Changes
+
+-
+
+## 2.0.0
+
+### Major Changes
+
+- fix move types to core from utils
+
 ## 1.9.0
 
 ### Minor Changes

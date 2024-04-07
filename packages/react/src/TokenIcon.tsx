@@ -36,7 +36,10 @@ function resolveIconName(
   address?: string,
 ): TokenComponentNames | null {
   if (symbol) {
-    const tokenData = tokens.find((token) => token.symbol === symbol)
+    const tokenData = tokens.find(
+      (token) =>
+        token.symbol.toLocaleLowerCase() === symbol.toLocaleLowerCase(),
+    )
     if (tokenData) {
       return `Token${normalizeTokenName(tokenData.symbol)}` as TokenComponentNames
     }

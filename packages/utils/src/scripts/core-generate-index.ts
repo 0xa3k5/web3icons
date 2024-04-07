@@ -26,7 +26,8 @@ const createExports = (
     .join('')
 }
 
-let indexContent = '/* Generated */\nexport { svgs } from "./svg-module";\n'
+let indexContent =
+  '/* Generated */\nexport { svgs } from "./svg-module";\nexport * from "./types";\n'
 
 // Process branded and mono for both tokens and networks
 indexContent += createExports(
