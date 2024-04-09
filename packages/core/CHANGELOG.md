@@ -1,5 +1,11 @@
 # @token-icons/core
 
+## 2.1.0
+
+### Minor Changes
+
+- add EOS network
+
 ## 2.0.4
 
 ### Patch Changes
