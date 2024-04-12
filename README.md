@@ -5,9 +5,11 @@
 Token Icons is the most comprehensive and up-to-date source for cryptocurrency & network logos as icon format. More than 2,500 icons are ready as optimized SVGs as well as React components.
 
 ## What's New
+
 Network Icons: Use `<NetworkIcons chain={"chain-name"} />` to access Network Icons.
 Enhanced Naming Conventions: Our icons follow a standardized naming convention for effortless identification and use:
-- Tokens: Prefixed with Token, followed by the uppercase symbol (e.g., TokenETH, TokenBTC). 
+
+- Tokens: Prefixed with Token, followed by the uppercase symbol (e.g., TokenETH, TokenBTC).
 - Networks: Prefixed with Network, followed by the CamelCase name (e.g., NetworkBinanceSmartChain, NetworkEthereum).
 
 ### Monorepo structure
@@ -45,7 +47,14 @@ Token Icons: Prefixed uppercase symbol with "Token" e.g. TokenETH, TokenBTC, Tok
 Network Icons: Prefixed CamelCase network name with "Network" e.g. NetworkBinanceSmartChain, NetworkEthereum, NetworkAvalanche.
 
 ```jsx
-import { TokenBTC, TokenETH, TokenGRT, NetworkBinanceSmartChain, NetworkEthereum, NetworkAvalanche } from '@token-icons/react'
+import {
+  TokenBTC,
+  TokenETH,
+  TokenGRT,
+  NetworkBinanceSmartChain,
+  NetworkEthereum,
+  NetworkAvalanche,
+} from '@token-icons/react'
 
 const App = () => {
   return (
@@ -58,9 +67,21 @@ const App = () => {
       </div>
       <div className="my-class-name">
         <h1>Network Icons</h1>
-        <NetworkEthereum size={64} variant="branded" className="my-custom-class" />
-        <NetworkAvalanche size={64} variant="branded" className="my-custom-class" />
-        <NetworkBinanceSmartChain size={64} variant="branded" className="my-custom-class" />
+        <NetworkEthereum
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
+        <NetworkAvalanche
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
+        <NetworkBinanceSmartChain
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
       </div>
     </>
   )
@@ -83,8 +104,7 @@ export default App
 - `color?`: color of the icon (CSS color value).
 - `className?`: additional CSS class for custom styling.
 
-> You need to pass either symbol or address *and* chain.
-
+> You need to pass either symbol or address _and_ chain.
 
 `<TokenIcon />` accepts a union of types for `symbol`, `address`, and `chain`. This allows for flexibility in using the component.
 
@@ -124,16 +144,14 @@ You can pass in **both** chain and an address to render a specific token icon. r
 
 ```jsx
 import { TokenIcon } from '@token-icons/react'
-
-<TokenIcon
+;<TokenIcon
   chain="ethereum"
   address="0xc944e90c64b2c07662a292be6244bdf05cda44a7"
   size={32}
-  variant={"branded"}
+  variant={'branded'}
   className="my-custom-class"
 />
 ```
-
 
 ### Using `<NetworkIcon />` from `@token-icons/react`
 
@@ -147,14 +165,12 @@ import { TokenIcon } from '@token-icons/react'
 - `color?`: color of the icon (CSS color value).
 - `className?`: additional CSS class for custom styling.
 
-
 ```jsx
 import { NetworkIcon } from '@token-icons/react'
-
-<NetworkIcon
+;<NetworkIcon
   network="ethereum"
   size={32}
-  variant={"branded"}
+  variant={'branded'}
   className="my-custom-class"
 />
 ```
@@ -165,11 +181,13 @@ import { NetworkIcon } from '@token-icons/react'
 
 For projects that don’t use React, icons are also available as `*.svg` files in the `dist/svgs` folder. Which contains folders for types (`tokens` or `networks`) and variants (`branded` and `mono`) svg icons.
 
-Example file paths: 
+Example file paths:
+
 - `svgs/tokens/branded/BTC.svg`
 - `svgs/networks/mono/ethereum.svg`
 
 If you need to directly import the SVGs, here is the naming convention that you can use:
+
 - `{type} {variant} {symbol}` (It has to be camelCase)
 - `tokensBrandedBTC` (Token icons are prefixed with "Token" and the symbol is in uppercase)
 - `networksMonoEthereum` (Network icons are prefixed with "Network" and the network name is in PamelCase)
@@ -181,18 +199,21 @@ import { tokensBrandedBTC, networksMonoEthereum } from '@token-icons/core'
 or you can use the `svgs` object which contains objects for each type.
 
 ```jsx
-import { svgs } from '@token-icons/core';
+import { svgs } from '@token-icons/core'
 
 const IconDisplay = () => {
   return (
     <div>
       <img src={svgs.tokens.brandedETH} alt="Ethereum Branded Token Icon" />
-      <img src={svgs.networks.brandedEthereum} alt="Ethereum Branded Network Icon" />
+      <img
+        src={svgs.networks.brandedEthereum}
+        alt="Ethereum Branded Network Icon"
+      />
     </div>
-  );
-};
-
+  )
+}
 ```
+
 or with a dynamic import
 
 ```js

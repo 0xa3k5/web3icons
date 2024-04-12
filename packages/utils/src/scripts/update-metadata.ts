@@ -138,7 +138,7 @@ const processSVGFile = async (
 const files = process.argv.slice(2)
 
 const main = (filePaths: string[]) => {
-  filePaths.forEach(filePath => {
+  filePaths.forEach((filePath) => {
     const type = filePath.includes('/tokens/') ? 'token' : 'network'
     processSVGFile(filePath, type)
   })
@@ -147,8 +147,7 @@ const main = (filePaths: string[]) => {
 try {
   main(files)
   console.log('metadata updated.')
-}
-catch (error) {
+} catch (error) {
   console.error('metadata update failed:', error)
   process.exit(1)
 }

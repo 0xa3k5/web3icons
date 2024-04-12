@@ -5,6 +5,7 @@ Thank you for choosing to contribute to `token-icons`! We appreciate your contri
 ## Must Know
 
 #### Icon Size
+
 The SVG files must be put inside of a 24x24px frame and should not fill it's bounding box. Refer to our Figma Community file for the current icons and make sure that you follow the same format.
 
 ![Icon Size Guide](https://github.com/0xa3k5/token-icons/blob/main/docs/icon-size-guide.png?raw=true)
@@ -60,7 +61,8 @@ packages/react
 
 When contributing to the @token-icons/core package, please follow the naming convention for the SVG files.
 
-For token icons, the svg file should be named with the uppercase symbol of the token. 
+For token icons, the svg file should be named with the uppercase symbol of the token.
+
 ```
 BTC.svg
 ETH.svg
