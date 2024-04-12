@@ -39,11 +39,11 @@ jobs:
 
       - name: Validate New SVG Files
         if: env.SVG_FILES
-        run: bun run ./packages/utils/scripts/validate-svgs.ts ${{ env.SVG_FILES }}
+        run: bun run ./packages/utils/src/scripts/validate-svgs.ts ${{ env.SVG_FILES }}
 
       - name: Update Metadata
         if: env.SVG_FILES
-        run: bun run ./packages/utils/scripts/update-metadata.ts ${{ env.SVG_FILES }}
+        run: bun run ./packages/utils/src/scripts/update-metadata.ts ${{ env.SVG_FILES }}
 
       - name: Build Packages
         run: |
