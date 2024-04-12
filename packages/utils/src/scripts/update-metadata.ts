@@ -1,8 +1,12 @@
-import fs from 'fs'
-import path from 'path'
-import prettier from 'prettier'
-import { INetworkMetadata, ITokenMetadata } from '../types'
-import getCoinByID from './gecko/get-coin-by-id'
+import fs from 'fs';
+import path from 'path';
+import prettier from 'prettier';
+import { INetworkMetadata, ITokenMetadata } from '../types';
+import getCoinByID from './gecko/get-coin-by-id';
+
+const normalizeName = (name: string): string => {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+};
 
 const appendToNetworksJson = async (
   network: INetworkMetadata,
@@ -10,144 +14,131 @@ const appendToNetworksJson = async (
   const jsonPath = path.resolve(
     process.cwd(),
     'packages/core/src/metadata/networks.json',
-  )
+  );
 
-  let existingMetadata: INetworkMetadata[] = []
+  let existingMetadata: INetworkMetadata[] = [];
   if (fs.existsSync(jsonPath)) {
-    const fileContent = fs.readFileSync(jsonPath, 'utf-8')
-    existingMetadata = JSON.parse(fileContent) as INetworkMetadata[]
+    const fileContent = fs.readFileSync(jsonPath, 'utf-8');
+    existingMetadata = JSON.parse(fileContent) as INetworkMetadata[];
   }
 
   const existingNetworkIndex = existingMetadata.findIndex(
     (n) => n.id === network.id,
-  )
+  );
 
   if (existingNetworkIndex > -1) {
-    const currentNetwork = existingMetadata[existingNetworkIndex]
+    const currentNetwork = existingMetadata[existingNetworkIndex];
     if (currentNetwork && currentNetwork.variants) {
       network.variants.forEach((variant) => {
         if (!currentNetwork.variants.includes(variant)) {
-          currentNetwork.variants.push(variant)
+          currentNetwork.variants.push(variant);
         }
-      })
+      });
     }
   } else {
-    existingMetadata.push(network)
+    existingMetadata.push(network);
   }
 
   const formatted = await prettier.format(JSON.stringify(existingMetadata), {
     parser: 'json',
-  })
-  fs.writeFileSync(jsonPath, formatted)
-}
+  });
+  fs.writeFileSync(jsonPath, formatted);
+};
 
 const appendToTokensJson = async (coin: ITokenMetadata): Promise<void> => {
   const jsonPath = path.resolve(
     process.cwd(),
     'packages/core/src/metadata/tokens.json',
-  )
-  let existingMetadata: ITokenMetadata[] = []
+  );
+  let existingMetadata: ITokenMetadata[] = [];
   if (fs.existsSync(jsonPath)) {
-    const fileContent = fs.readFileSync(jsonPath, 'utf-8')
-    existingMetadata = JSON.parse(fileContent) as ITokenMetadata[]
+    const fileContent = fs.readFileSync(jsonPath, 'utf-8');
+    existingMetadata = JSON.parse(fileContent) as ITokenMetadata[];
   }
 
-  const existingCoinIndex = existingMetadata.findIndex((c) => c.id === coin.id)
+  const existingCoinIndex = existingMetadata.findIndex((c) => c.id === coin.id);
 
   if (existingCoinIndex > -1) {
-    const currentCoin = existingMetadata[existingCoinIndex]
+    const currentCoin = existingMetadata[existingCoinIndex];
     if (currentCoin && currentCoin.variants) {
       coin.variants.forEach((variant) => {
         if (!currentCoin.variants.includes(variant)) {
-          currentCoin.variants.push(variant)
+          currentCoin.variants.push(variant);
         }
-      })
+      });
     }
   } else {
-    existingMetadata.push(coin)
+    existingMetadata.push(coin);
   }
 
-  fs.writeFileSync(
-    jsonPath,
-    await prettier.format(JSON.stringify(existingMetadata), { parser: 'json' }),
-  )
-}
+  const formattedContent = await prettier.format(JSON.stringify(existingMetadata), { parser: 'json' });
+  fs.writeFileSync(jsonPath, formattedContent);
+};
 
 const processSVGFile = async (
   file: string,
   type: 'token' | 'network',
 ): Promise<void> => {
-  const fileName =
-    type === 'token'
-      ? path.basename(file, '.svg').toUpperCase()
-      : path.basename(file, '.svg')
-  console.log(fileName)
+  const fileName = path.basename(file, '.svg');
+  const normalizedFileName = normalizeName(fileName);
+
   const geckoCoins = JSON.parse(
     fs.readFileSync(path.join(__dirname, './gecko/gecko-coins.json'), 'utf8'),
-  )
+  );
   const geckoNetworks = JSON.parse(
-    fs.readFileSync(
-      path.join(__dirname, './gecko/gecko-networks.json'),
-      'utf8',
-    ),
-  )
+    fs.readFileSync(path.join(__dirname, './gecko/gecko-networks.json'), 'utf8'),
+  );
 
   if (type === 'token') {
     const foundCoin = geckoCoins.find(
-      (coin: any) => coin.symbol.toUpperCase() === fileName,
-    )
+      (coin: any) => normalizeName(coin.symbol) === normalizedFileName,
+    );
     if (foundCoin) {
-      const tokenIcon: ITokenMetadata = {
+      const tokenMetadata: ITokenMetadata = {
         id: foundCoin.id,
         symbol: foundCoin.symbol,
         name: foundCoin.name,
         variants: file.includes('/branded/') ? ['branded'] : ['mono'],
         marketCapRank: 0, // Will be fetched below
         addresses: {}, // Will be fetched below
-      }
-      const data = await getCoinByID(foundCoin.id)
-      tokenIcon.addresses = data.platforms
-      tokenIcon.marketCapRank = data.market_cap_rank
-      console.log('appending', tokenIcon)
-
-      await appendToTokensJson(tokenIcon)
+      };
+      const data = await getCoinByID(foundCoin.id);
+      tokenMetadata.addresses = data.platforms;
+      tokenMetadata.marketCapRank = data.market_cap_rank;
+      await appendToTokensJson(tokenMetadata);
     }
   } else if (type === 'network') {
     const foundNetwork = geckoNetworks.find(
-      (network: any) =>
-        network.id.toUpperCase() === fileName ||
-        network.shortname.toUpperCase() === fileName ||
-        network.name.toUpperCase() === fileName,
-    )
-
+      (network: any) => normalizeName(network.id) === normalizedFileName ||
+        normalizeName(network.shortname) === normalizedFileName ||
+        normalizeName(network.name) === normalizedFileName
+    );
     if (foundNetwork) {
-      const networkIcon: INetworkMetadata = {
+      const networkMetadata: INetworkMetadata = {
         id: foundNetwork.id,
         name: foundNetwork.name,
         shortname: foundNetwork.shortname,
         variants: file.includes('/branded/') ? ['branded'] : ['mono'],
         nativeCoinId: foundNetwork.native_coin_id,
-      }
-      console.log('appending', networkIcon)
-
-      await appendToNetworksJson(networkIcon)
+      };
+      await appendToNetworksJson(networkMetadata);
     }
   }
-}
+};
 
-const files = process.argv.slice(2)
+const files = process.argv.slice(2);
 
-const main = (filePaths: string[]) => {
-  filePaths.forEach((filePath) => {
-    const type = filePath.includes('/tokens/') ? 'token' : 'network'
-    processSVGFile(filePath, type)
-  })
-}
+const main = async (filePaths: string[]) => {
+  for (const filePath of filePaths) {
+    const type = filePath.includes('/tokens/') ? 'token' : 'network';
+    await processSVGFile(filePath, type);
+  }
+};
 
 try {
-  main(files)
-  console.log('metadata updated.')
+  main(files);
+  console.log('Metadata updated successfully.');
 } catch (error) {
-  console.error('metadata update failed:', error)
-  process.exit(1)
+  console.error('Failed to update metadata:', error);
+  process.exit(1);
 }
