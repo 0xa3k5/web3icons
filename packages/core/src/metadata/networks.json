@@ -276,7 +276,7 @@
     "id": "stellar",
     "name": "Stellar",
     "shortname": "",
-    "variants": ["mono"],
+    "variants": ["mono", "branded"],
     "nativeCoinId": "stellar"
   },
   {
