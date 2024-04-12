@@ -135,16 +135,20 @@ const processSVGFile = async (
   }
 }
 
-const main = async (): Promise<void> => {
-  const newSVGFiles: { file: string; type: 'token' | 'network' }[] =
-    process.argv.slice(2).map((file) => ({
-      file,
-      type: file.includes('/tokens/') ? 'token' : 'network',
-    }))
+const files = process.argv.slice(2)
 
-  for (const { file, type } of newSVGFiles) {
-    await processSVGFile(file, type)
-  }
+const main = (filePaths: string[]) => {
+  filePaths.forEach(filePath => {
+    const type = filePath.includes('/tokens/') ? 'token' : 'network'
+    processSVGFile(filePath, type)
+  })
 }
 
-main().catch(console.error)
+try {
+  main(files)
+  console.log('metadata updated.')
+}
+catch (error) {
+  console.error('metadata update failed:', error)
+  process.exit(1)
+}

@@ -4,10 +4,10 @@ export const utilRoot = process.cwd()
 export const coreRoot = path.resolve(utilRoot, '..', 'core')
 export const reactRoot = path.resolve(utilRoot, '..', 'react')
 
+export const SVG_BASE_DIR = path.resolve(coreRoot, 'src', 'raw-svgs')
+
 export const SVG_TOKENS_SRC_DIR = path.resolve(
-  coreRoot,
-  'src',
-  'raw-svgs',
+  SVG_BASE_DIR,
   'tokens',
 )
 export const SVG_TOKENS_OUT_DIR = path.resolve(

@@ -1,0 +1,84 @@
+name: icon-add
+
+on:
+  push:
+    branches:
+      - test-actions
+    paths:
+      - 'packages/core/src/raw-svgs/**'
+  pull_request:
+    branches:
+      - test-actions
+    paths:
+      - 'packages/core/src/raw-svgs/**'
+
+jobs:
+  update-and-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 10
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Identify New SVG Files
+        id: files
+        run: |
+          echo "SVG_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | grep 'packages/core/src/raw-svgs/' | paste -sd "," -)" >> $GITHUB_ENV
+
+      - name: Validate New SVG Files
+        if: env.SVG_FILES
+        run: bun run ./packages/utils/scripts/validate-svgs.ts ${{ env.SVG_FILES }}
+
+      - name: Update Metadata
+        if: env.SVG_FILES
+        run: bun run ./packages/utils/scripts/update-metadata.ts ${{ env.SVG_FILES }}
+
+      - name: Build Packages
+        run: |
+          bun run build:core
+          bun run build:react
+
+      - name: Commit Changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Update SVG metadata and rebuild packages" -m "Updated SVGs: ${{ env.SVG_FILES }}"
+          git push origin ${GITHUB_HEAD_REF:-${GITHUB_REF}}
+
+  publish:
+    needs: update-and-rebuild
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Publish to npm
+        run: bun changeset publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
