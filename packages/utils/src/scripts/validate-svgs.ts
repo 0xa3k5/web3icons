@@ -33,25 +33,21 @@ const validateSvg = (filePath: string, isToken: boolean): void => {
   }
 }
 
-// validate SVGs based on provided file paths
-const main = (filePaths: string[]) => {
-  filePaths.forEach((filePath) => {
-    const isToken = filePath.includes('/tokens/')
-    validateSvg(filePath, isToken)
+const main = () => {
+  const files = process.argv.slice(2)
+
+  if (files === undefined || files.length === 0) {
+    console.log('No SVG files provided')
+    return
+  }
+  files[0]?.split(',').forEach(async (f) => {
+    const type = f.includes('/tokens/') ? 'token' : 'network'
+    validateSvg(f, type === 'token')
   })
 }
 
-// extract file paths from command-line arguments
-const files = process.argv.slice(2)
-
-if (files.length === 0) {
-  console.error('No SVG files provided.')
-  process.exit(1)
-}
-
 try {
-  main(files)
-  console.log(`SVG validation passed for ${files.map((f) => f).join('\n ')}`)
+  main()
 } catch (error) {
   console.error('SVG validation failed:', error)
   process.exit(1)

@@ -144,9 +144,7 @@ const processSVGFile = async (
   }
 }
 
-
 const main = async () => {
-  
   const files = process.argv.slice(2)
 
   if (files === undefined || files.length === 0) {
