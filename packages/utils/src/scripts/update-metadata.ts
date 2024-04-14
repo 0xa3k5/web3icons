@@ -127,7 +127,7 @@ const processSVGFile = async (
         normalizeName(network.name) === normalizedFileName,
     )
     if (foundNetwork) {
-      console.log(`Found match for ${foundNetwork.symbol}`) 
+      console.log(`Found match for ${foundNetwork.symbol}`)
       const networkMetadata: INetworkMetadata = {
         id: foundNetwork.id,
         name: foundNetwork.name,
@@ -151,7 +151,10 @@ const main = async (filePaths: string[]) => {
 
 try {
   main(files)
-  console.log('Metadata updated successfully for', files.map((f) => f).join('\n '))
+  console.log(
+    'Metadata updated successfully for',
+    files.map((f) => f).join('\n '),
+  )
 } catch (error) {
   console.error('Failed to update metadata:', error)
   process.exit(1)
