@@ -144,21 +144,24 @@ const processSVGFile = async (
   }
 }
 
-const files = process.argv.slice(2)
 
-const main = async (filePaths: string[]) => {
-  for (const filePath of filePaths) {
-    const type = filePath.includes('/tokens/') ? 'token' : 'network'
-    await processSVGFile(filePath, type)
+const main = async () => {
+  
+  const files = process.argv.slice(2)
+
+  if (files === undefined || files.length === 0) {
+    console.log('No SVG files provided')
+    return
   }
+
+  files[0]?.split(',').forEach(async (filePath) => {
+    const type = filePath.includes('/tokens/') ? 'token' : 'network'
+    processSVGFile(filePath, type)
+  })
 }
 
 try {
-  main(files)
-  console.log(
-    'Metadata updated successfully for',
-    files.map((f) => f).join('\n '),
-  )
+  main()
 } catch (error) {
   console.error('Failed to update metadata:', error)
   process.exit(1)
