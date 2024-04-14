@@ -52,10 +52,28 @@ jobs:
 
       - name: Commit Changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "Update SVG metadata and rebuild packages" -m "Updated SVGs: ${{ env.SVG_FILES }}"
+          commitMessage=""
+          description=""
+
+          if [ -n "$newTokenIcons" ] && [ -n "$newNetworkIcons" ]; then
+            commitMessage="core: add new token icons & network icons"
+            description+="token icons: $newTokenIcons\nnetwork icons: $newNetworkIcons"
+          elif [ -n "$newTokenIcons" ]; then
+            commitMessage="core: add new token icons"
+            description+="token icons: $newTokenIcons"
+          elif [ -n "$newNetworkIcons" ]; then
+            commitMessage="core: add new network icons"
+            description+="network icons: $newNetworkIcons"
+          fi
+
+          if [ -n "$description" ]; then
+            git commit -m "$commitMessage" -m "$description" || echo "No changes to commit"
+          else
+            echo "No new icons to commit"
+          fi
           git push origin ${GITHUB_HEAD_REF:-${GITHUB_REF}}
 
   publish:
