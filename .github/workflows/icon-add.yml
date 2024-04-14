@@ -43,7 +43,12 @@ jobs:
 
       - name: Update Metadata
         if: env.SVG_FILES
-        run: bun run ./packages/utils/src/scripts/update-metadata.ts ${{ env.SVG_FILES }}
+        run: |
+          newTokenIcons=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }}| grep 'packages/core/src/raw-svgs/tokens/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
+          newNetworkIcons=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }}| grep 'packages/core/src/raw-svgs/networks/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
+          echo "newTokenIcons=$newTokenIcons" >> $GITHUB_ENV
+          echo "newNetworkIcons=$newNetworkIcons" >> $GITHUB_ENV
+          bun run ./packages/utils/src/scripts/update-metadata.ts ${{ env.SVG_FILES }}
 
       - name: Build Packages
         run: |
