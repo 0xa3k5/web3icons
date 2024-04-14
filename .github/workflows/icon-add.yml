@@ -37,6 +37,9 @@ jobs:
         run: |
           SVG_FILES=$(git diff --name-only HEAD^ HEAD | grep 'packages/core/src/raw-svgs/' | tr '\n' ',')
           echo "SVG_FILES=${SVG_FILES%,}" >> $GITHUB_ENV
+          echo "New SVG Files: $SVG_FILES"
+          echo "New Token Icons: $newTokenIcons"
+          echo "New Network Icons: $newNetworkIcons"
       
 
       - name: Validate New SVG Files
@@ -51,12 +54,6 @@ jobs:
           echo "newTokenIcons=$newTokenIcons" >> $GITHUB_ENV
           echo "newNetworkIcons=$newNetworkIcons" >> $GITHUB_ENV
           bun run ./packages/utils/src/scripts/update-metadata.ts ${{ env.SVG_FILES }}
-
-      - name: Echo SVG Files and Metadata Variables
-        run: |
-          echo "New SVG Files: $SVG_FILES"
-          echo "New Token Icons: $newTokenIcons"
-          echo "New Network Icons: $newNetworkIcons"
 
       - name: Build Packages
         run: |

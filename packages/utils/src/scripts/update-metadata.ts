@@ -118,6 +118,8 @@ const processSVGFile = async (
       tokenMetadata.addresses = data.platforms
       tokenMetadata.marketCapRank = data.market_cap_rank
       await appendToTokensJson(tokenMetadata)
+    } else {
+      console.log(`Could not find a token match for ${normalizedFileName}`)
     }
   } else if (type === 'network') {
     const foundNetwork = geckoNetworks.find(
@@ -136,6 +138,8 @@ const processSVGFile = async (
         nativeCoinId: foundNetwork.native_coin_id,
       }
       await appendToNetworksJson(networkMetadata)
+    } else {
+      console.log(`Could not find a network match for ${normalizedFileName}`)
     }
   }
 }
