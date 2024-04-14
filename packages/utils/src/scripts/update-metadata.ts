@@ -45,6 +45,7 @@ const appendToNetworksJson = async (
   const formatted = await prettier.format(JSON.stringify(existingMetadata), {
     parser: 'json',
   })
+  console.log(`appended ${network.id} to networks.json`)
   fs.writeFileSync(jsonPath, formatted)
 }
 
@@ -78,6 +79,7 @@ const appendToTokensJson = async (coin: ITokenMetadata): Promise<void> => {
     JSON.stringify(existingMetadata),
     { parser: 'json' },
   )
+  console.log(`appended ${coin.symbol} to tokens.json`)
   fs.writeFileSync(jsonPath, formattedContent)
 }
 
@@ -103,13 +105,14 @@ const processSVGFile = async (
       (coin: any) => normalizeName(coin.symbol) === normalizedFileName,
     )
     if (foundCoin) {
+      console.log(`Found match for ${foundCoin.symbol}`)
       const tokenMetadata: ITokenMetadata = {
         id: foundCoin.id,
         symbol: foundCoin.symbol,
         name: foundCoin.name,
         variants: file.includes('/branded/') ? ['branded'] : ['mono'],
-        marketCapRank: 0, // Will be fetched below
-        addresses: {}, // Will be fetched below
+        marketCapRank: 0, // will be fetched below
+        addresses: {}, // will be fetched below
       }
       const data = await getCoinByID(foundCoin.id)
       tokenMetadata.addresses = data.platforms
@@ -124,6 +127,7 @@ const processSVGFile = async (
         normalizeName(network.name) === normalizedFileName,
     )
     if (foundNetwork) {
+      console.log(`Found match for ${foundNetwork.symbol}`) 
       const networkMetadata: INetworkMetadata = {
         id: foundNetwork.id,
         name: foundNetwork.name,
@@ -147,7 +151,7 @@ const main = async (filePaths: string[]) => {
 
 try {
   main(files)
-  console.log('Metadata updated successfully.')
+  console.log('Metadata updated successfully for', files.map((f) => f).join('\n '))
 } catch (error) {
   console.error('Failed to update metadata:', error)
   process.exit(1)

@@ -51,7 +51,7 @@ if (files.length === 0) {
 
 try {
   main(files)
-  console.log('SVG validation passed.')
+  console.log(`SVG validation passed for ${files.map((f) => f).join('\n ')}`)
 } catch (error) {
   console.error('SVG validation failed:', error)
   process.exit(1)
