@@ -271,5 +271,26 @@
     "shortname": "",
     "nativeCoinId": "weth",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "stellar",
+    "name": "Stellar",
+    "shortname": "",
+    "variants": ["mono", "branded"],
+    "nativeCoinId": "stellar"
+  },
+  {
+    "id": "xrp",
+    "name": "XRP Ledger",
+    "shortname": "xrp",
+    "variants": ["mono"],
+    "nativeCoinId": "ripple"
+  },
+  {
+    "id": "algorand",
+    "name": "Algorand",
+    "shortname": "",
+    "variants": ["mono"],
+    "nativeCoinId": "algorand"
   }
 ]

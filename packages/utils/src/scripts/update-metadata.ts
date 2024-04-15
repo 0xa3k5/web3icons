@@ -4,6 +4,13 @@ import prettier from 'prettier'
 import { INetworkMetadata, ITokenMetadata } from '../types'
 import getCoinByID from './gecko/get-coin-by-id'
 
+const normalizeName = (name: string): string => {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '')
+}
+
 const appendToNetworksJson = async (
   network: INetworkMetadata,
 ): Promise<void> => {
@@ -38,6 +45,7 @@ const appendToNetworksJson = async (
   const formatted = await prettier.format(JSON.stringify(existingMetadata), {
     parser: 'json',
   })
+  console.log(`appended ${network.id} to networks.json`)
   fs.writeFileSync(jsonPath, formatted)
 }
 
@@ -67,21 +75,21 @@ const appendToTokensJson = async (coin: ITokenMetadata): Promise<void> => {
     existingMetadata.push(coin)
   }
 
-  fs.writeFileSync(
-    jsonPath,
-    await prettier.format(JSON.stringify(existingMetadata), { parser: 'json' }),
+  const formattedContent = await prettier.format(
+    JSON.stringify(existingMetadata),
+    { parser: 'json' },
   )
+  console.log(`appended ${coin.symbol} to tokens.json`)
+  fs.writeFileSync(jsonPath, formattedContent)
 }
 
 const processSVGFile = async (
   file: string,
   type: 'token' | 'network',
 ): Promise<void> => {
-  const fileName =
-    type === 'token'
-      ? path.basename(file, '.svg').toUpperCase()
-      : path.basename(file, '.svg')
-  console.log(fileName)
+  const fileName = path.basename(file, '.svg')
+  const normalizedFileName = normalizeName(fileName)
+
   const geckoCoins = JSON.parse(
     fs.readFileSync(path.join(__dirname, './gecko/gecko-coins.json'), 'utf8'),
   )
@@ -94,61 +102,65 @@ const processSVGFile = async (
 
   if (type === 'token') {
     const foundCoin = geckoCoins.find(
-      (coin: any) => coin.symbol.toUpperCase() === fileName,
+      (coin: any) => normalizeName(coin.symbol) === normalizedFileName,
     )
     if (foundCoin) {
-      const tokenIcon: ITokenMetadata = {
+      console.log(`Found match for ${foundCoin.symbol}`)
+      const tokenMetadata: ITokenMetadata = {
         id: foundCoin.id,
         symbol: foundCoin.symbol,
         name: foundCoin.name,
         variants: file.includes('/branded/') ? ['branded'] : ['mono'],
-        marketCapRank: 0, // Will be fetched below
-        addresses: {}, // Will be fetched below
+        marketCapRank: 0, // will be fetched below
+        addresses: {}, // will be fetched below
       }
       const data = await getCoinByID(foundCoin.id)
-      tokenIcon.addresses = data.platforms
-      tokenIcon.marketCapRank = data.market_cap_rank
-      console.log('appending', tokenIcon)
-
-      await appendToTokensJson(tokenIcon)
+      tokenMetadata.addresses = data.platforms
+      tokenMetadata.marketCapRank = data.market_cap_rank
+      await appendToTokensJson(tokenMetadata)
+    } else {
+      console.log(`Could not find a token match for ${normalizedFileName}`)
     }
   } else if (type === 'network') {
     const foundNetwork = geckoNetworks.find(
       (network: any) =>
-        network.id.toUpperCase() === fileName ||
-        network.shortname.toUpperCase() === fileName ||
-        network.name.toUpperCase() === fileName,
+        normalizeName(network.id) === normalizedFileName ||
+        normalizeName(network.shortname) === normalizedFileName ||
+        normalizeName(network.name) === normalizedFileName,
     )
-
     if (foundNetwork) {
-      const networkIcon: INetworkMetadata = {
+      console.log(`Found match for ${foundNetwork.symbol}`)
+      const networkMetadata: INetworkMetadata = {
         id: foundNetwork.id,
         name: foundNetwork.name,
         shortname: foundNetwork.shortname,
         variants: file.includes('/branded/') ? ['branded'] : ['mono'],
         nativeCoinId: foundNetwork.native_coin_id,
       }
-      console.log('appending', networkIcon)
-
-      await appendToNetworksJson(networkIcon)
+      await appendToNetworksJson(networkMetadata)
+    } else {
+      console.log(`Could not find a network match for ${normalizedFileName}`)
     }
   }
 }
 
-const files = process.argv.slice(2)
+const main = async () => {
+  const files = process.argv.slice(2)
 
-const main = (filePaths: string[]) => {
-  filePaths.forEach(filePath => {
+  if (files === undefined || files.length === 0) {
+    console.log('No SVG files provided')
+    return
+  }
+
+  files[0]?.split(',').map(async (filePath) => {
     const type = filePath.includes('/tokens/') ? 'token' : 'network'
-    processSVGFile(filePath, type)
+    await processSVGFile(filePath, type)
   })
 }
 
 try {
-  main(files)
-  console.log('metadata updated.')
-}
-catch (error) {
-  console.error('metadata update failed:', error)
+  await main()
+} catch (error) {
+  console.error('Failed to update metadata:', error)
   process.exit(1)
 }

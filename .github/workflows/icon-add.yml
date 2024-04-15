@@ -35,15 +35,25 @@ jobs:
       - name: Identify New SVG Files
         id: files
         run: |
-          echo "SVG_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | grep 'packages/core/src/raw-svgs/' | paste -sd "," -)" >> $GITHUB_ENV
+          SVG_FILES=$(git diff --name-only HEAD^ HEAD | grep 'packages/core/src/raw-svgs/' | tr '\n' ',')
+          echo "SVG_FILES=${SVG_FILES%,}" >> $GITHUB_ENV
+          echo "New SVG Files: $SVG_FILES"
+          echo "New Token Icons: $newTokenIcons"
+          echo "New Network Icons: $newNetworkIcons"
+      
 
       - name: Validate New SVG Files
         if: env.SVG_FILES
-        run: bun run ./packages/utils/scripts/validate-svgs.ts ${{ env.SVG_FILES }}
+        run: bun run ./packages/utils/src/scripts/validate-svgs.ts ${{ env.SVG_FILES }}
 
       - name: Update Metadata
         if: env.SVG_FILES
-        run: bun run ./packages/utils/scripts/update-metadata.ts ${{ env.SVG_FILES }}
+        run: |
+          newTokenIcons=$(git diff --name-only HEAD^ HEAD | grep 'packages/core/src/raw-svgs/tokens/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
+          newNetworkIcons=$(git diff --name-only HEAD^ HEAD | grep 'packages/core/src/raw-svgs/networks/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
+          echo "newTokenIcons=$newTokenIcons" >> $GITHUB_ENV
+          echo "newNetworkIcons=$newNetworkIcons" >> $GITHUB_ENV
+          bun run ./packages/utils/src/scripts/update-metadata.ts ${{ env.SVG_FILES }}
 
       - name: Build Packages
         run: |
@@ -52,10 +62,28 @@ jobs:
 
       - name: Commit Changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "Update SVG metadata and rebuild packages" -m "Updated SVGs: ${{ env.SVG_FILES }}"
+          commitMessage=""
+          description=""
+
+          if [ -n "$newTokenIcons" ] && [ -n "$newNetworkIcons" ]; then
+            commitMessage="core: add new token icons & network icons"
+            description+="token icons: $newTokenIcons\nnetwork icons: $newNetworkIcons"
+          elif [ -n "$newTokenIcons" ]; then
+            commitMessage="core: add new token icons"
+            description+="token icons: $newTokenIcons"
+          elif [ -n "$newNetworkIcons" ]; then
+            commitMessage="core: add new network icons"
+            description+="network icons: $newNetworkIcons"
+          fi
+
+          if [ -n "$description" ]; then
+            git commit -m "$commitMessage" -m "$description" || echo "No changes to commit"
+          else
+            echo "No new icons to commit"
+          fi
           git push origin ${GITHUB_HEAD_REF:-${GITHUB_REF}}
 
   publish:

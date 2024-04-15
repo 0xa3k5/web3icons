@@ -6,10 +6,7 @@ export const reactRoot = path.resolve(utilRoot, '..', 'react')
 
 export const SVG_BASE_DIR = path.resolve(coreRoot, 'src', 'raw-svgs')
 
-export const SVG_TOKENS_SRC_DIR = path.resolve(
-  SVG_BASE_DIR,
-  'tokens',
-)
+export const SVG_TOKENS_SRC_DIR = path.resolve(SVG_BASE_DIR, 'tokens')
 export const SVG_TOKENS_OUT_DIR = path.resolve(
   coreRoot,
   'dist',
