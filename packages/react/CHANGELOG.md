@@ -1,5 +1,11 @@
 # @token-icons/react
 
+## 2.2.2
+
+### Patch Changes
+
+- remove console logs for when the icon is not found
+
 ## 2.2.1
 
 ### Patch Changes

@@ -11,7 +11,6 @@ export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
     const IconComponent = iconName ? TokenComponents[iconName] : null
 
     if (!IconComponent) {
-      console.warn(`Icon not found: ${iconName}`)
       return null
     }
 

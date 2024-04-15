@@ -18,7 +18,7 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "bun@1.0.15",
+  "packageManager": "bun@1.0.33",
   "workspaces": [
     "packages/*",
     "apps/*"

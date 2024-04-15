@@ -40,7 +40,6 @@ export const NetworkIcon = forwardRef<SVGSVGElement, NetworkIconProps>(
       null
 
     if (!IconComponent) {
-      console.warn(`Icon not found: ${network}`)
       return null
     }
 
