@@ -8,9 +8,9 @@ export interface ITokenMetadata {
 }
 
 export interface INetworkMetadata {
-  id: string
+  id?: string
   name: string
-  shortname: string
-  nativeCoinId: string
+  shortname?: string
+  nativeCoinId?: string
   variants: string[]
 }
