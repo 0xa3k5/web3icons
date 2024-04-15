@@ -1,7 +1,12 @@
 import fs from 'fs'
 import path from 'path'
 import prettier from 'prettier'
-import { INetworkMetadata, ITokenMetadata } from '../types'
+import {
+  GeckoCoins,
+  GeckoNetworks,
+  INetworkMetadata,
+  ITokenMetadata,
+} from '../types'
 import getCoinByID from './gecko/get-coin-by-id'
 
 const normalizeName = (name: string): string => {
@@ -32,9 +37,9 @@ const appendToNetworksJson = async (
   if (existingNetworkIndex > -1) {
     const currentNetwork = existingMetadata[existingNetworkIndex]
     if (currentNetwork && currentNetwork.variants) {
-      network.variants.forEach((variant) => {
-        if (!currentNetwork.variants.includes(variant)) {
-          currentNetwork.variants.push(variant)
+      network.variants?.forEach((variant) => {
+        if (!currentNetwork.variants?.includes(variant)) {
+          currentNetwork.variants?.push(variant)
         }
       })
     }
@@ -88,12 +93,14 @@ const processSVGFile = async (
   type: 'token' | 'network',
 ): Promise<void> => {
   const fileName = path.basename(file, '.svg')
+  console.log('fileName', fileName)
   const normalizedFileName = normalizeName(fileName)
+  console.log('normalizedFileName', normalizedFileName)
 
-  const geckoCoins = JSON.parse(
+  const geckoCoins: GeckoCoins[] = JSON.parse(
     fs.readFileSync(path.join(__dirname, './gecko/gecko-coins.json'), 'utf8'),
   )
-  const geckoNetworks = JSON.parse(
+  const geckoNetworks: GeckoNetworks[] = JSON.parse(
     fs.readFileSync(
       path.join(__dirname, './gecko/gecko-networks.json'),
       'utf8',
@@ -102,7 +109,7 @@ const processSVGFile = async (
 
   if (type === 'token') {
     const foundCoin = geckoCoins.find(
-      (coin: any) => normalizeName(coin.symbol) === normalizedFileName,
+      (coin: GeckoCoins) => normalizeName(coin.symbol) === normalizedFileName,
     )
     if (foundCoin) {
       console.log(`Found match for ${foundCoin.symbol}`)
@@ -123,13 +130,14 @@ const processSVGFile = async (
     }
   } else if (type === 'network') {
     const foundNetwork = geckoNetworks.find(
-      (network: any) =>
-        normalizeName(network.id) === normalizedFileName ||
-        normalizeName(network.shortname) === normalizedFileName ||
+      (network: GeckoNetworks) =>
+        (network.id && normalizeName(network.id)) === normalizedFileName ||
+        (network.shortname && normalizeName(network.shortname)) ===
+          normalizedFileName ||
         normalizeName(network.name) === normalizedFileName,
     )
     if (foundNetwork) {
-      console.log(`Found match for ${foundNetwork.symbol}`)
+      console.log(`Found match for ${foundNetwork.name}`)
       const networkMetadata: INetworkMetadata = {
         id: foundNetwork.id,
         name: foundNetwork.name,
@@ -149,7 +157,25 @@ const main = async () => {
 
   if (files === undefined || files.length === 0) {
     console.log('No SVG files provided')
-    return
+
+    const newIcons = require('child_process')
+      .execSync(
+        "git ls-files --others --modified --deleted --exclude-standard -- '*.svg' | grep 'packages/core/src/raw-svgs/' | tr '\n' ','",
+      )
+      .toString()
+      .trim()
+    console.log(newIcons)
+
+    if (newIcons === undefined) {
+      console.log('No new icons found')
+      return
+    }
+    newIcons.split(',').map(async (filePath: string) => {
+      console.log('filePath', filePath)
+      const type = filePath.includes('/tokens/') ? 'token' : 'network'
+      console.log('type', type)
+      await processSVGFile(filePath, type)
+    })
   }
 
   files[0]?.split(',').map(async (filePath) => {

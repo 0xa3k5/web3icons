@@ -2,25 +2,37 @@
 // https://www.coingecko.com/en/api/docs/v3#/coins/get_coins_list
 
 import fs from 'fs'
-import * as path from 'path'
+import path from 'path'
+
+const cleanObject = (obj: any) => {
+  Object.keys(obj).forEach((key) => {
+    if (obj[key] === '' || obj[key] === null) {
+      // Checking for empty strings and null values
+      delete obj[key]
+    }
+  })
+  return obj
+}
 
 fetch('https://api.coingecko.com/api/v3/asset_platforms')
   .then((res) => res.json())
-  .catch((err) => {
-    console.log('Error fetching asset platforms from CoinGecko:', err)
-  })
-  .then((res) => {
-    // networks must have a chain_identifier
-    // const networks = res.filter((network) => network.chain_identifier !== null)
-
-    // write the networks to a JSON file
-    fs.writeFileSync(
-      path.join(__dirname, './gecko-networks.json'),
-      JSON.stringify(res, null, 2),
+  .then((assetPlatforms) => {
+    const cleanedData = assetPlatforms.map((platform: any) =>
+      cleanObject(platform),
     )
 
-    console.log('✅ gecko-networks.json')
+    // Write the cleaned networks to a JSON file
+    fs.writeFileSync(
+      path.join(__dirname, './gecko-networks.json'),
+      JSON.stringify(cleanedData, null, 2),
+      'utf8',
+    )
+
+    console.log('✅ gecko-networks.json has been updated.')
   })
   .catch((err) => {
-    console.log('Error writing filtered networks to JSON file:', err)
+    console.error(
+      'Error fetching or processing asset platforms from CoinGecko:',
+      err,
+    )
   })

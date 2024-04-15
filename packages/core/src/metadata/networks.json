@@ -2,14 +2,12 @@
   {
     "id": "kujira",
     "name": "Kujira",
-    "shortname": "",
     "nativeCoinId": "kujira",
     "variants": ["branded", "mono"]
   },
   {
     "id": "eos",
     "name": "EOS",
-    "shortname": "",
     "nativeCoinId": "eos",
     "variants": ["branded", "mono"]
   },
@@ -23,51 +21,26 @@
   {
     "id": "cardano",
     "name": "Cardano",
-    "shortname": "",
     "nativeCoinId": "cardano",
     "variants": ["branded", "mono"]
   },
   {
     "id": "tron",
     "name": "TRON",
-    "shortname": "",
     "nativeCoinId": "tron",
-    "variants": ["branded", "mono"]
-  },
-  {
-    "id": "sui",
-    "name": "Sui",
-    "shortname": "",
-    "nativeCoinId": "sui",
-    "variants": ["branded", "mono"]
-  },
-  {
-    "id": "polygon-zkevm",
-    "name": "Polygon zkEVM",
-    "shortname": "",
-    "nativeCoinId": "ethereum",
     "variants": ["branded", "mono"]
   },
   {
     "id": "telos",
     "name": "Telos",
-    "shortname": "",
     "nativeCoinId": "telos",
     "variants": ["branded", "mono"]
   },
   {
-    "id": "neon-evm",
-    "name": "Neon EVM",
-    "shortname": "",
-    "nativeCoinId": "neon",
-    "variants": ["branded", "mono"]
-  },
-  {
-    "id": "aptos",
-    "name": "Aptos",
-    "shortname": "",
-    "nativeCoinId": "aptos",
-    "variants": ["branded", "mono"]
+    "id": "algorand",
+    "name": "Algorand",
+    "nativeCoinId": "algorand",
+    "variants": ["mono"]
   },
   {
     "id": "cronos",
@@ -86,43 +59,43 @@
   {
     "id": "starknet",
     "name": "StarkNet",
-    "shortname": "",
     "nativeCoinId": "starknet",
     "variants": ["branded", "mono"]
   },
   {
     "id": "kava",
     "name": "Kava",
-    "shortname": "",
     "nativeCoinId": "kava",
     "variants": ["branded", "mono"]
   },
   {
     "id": "linea",
     "name": "Linea",
-    "shortname": "",
     "nativeCoinId": "ethereum",
     "variants": ["branded", "mono"]
   },
   {
     "id": "filecoin",
     "name": "Filecoin",
-    "shortname": "",
     "nativeCoinId": "filecoin",
     "variants": ["branded", "mono"]
   },
   {
     "id": "zilliqa",
     "name": "Zilliqa",
-    "shortname": "",
     "nativeCoinId": "zilliqa",
     "variants": ["branded", "mono"]
   },
   {
     "id": "cosmos",
     "name": "Cosmos",
-    "shortname": "",
     "nativeCoinId": "cosmos",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "stellar",
+    "name": "Stellar",
+    "nativeCoinId": "stellar",
     "variants": ["branded", "mono"]
   },
   {
@@ -140,24 +113,9 @@
     "variants": ["branded", "mono"]
   },
   {
-    "id": "manta-pacific",
-    "name": "Manta Pacific",
-    "shortname": "",
-    "nativeCoinId": "weth",
-    "variants": ["branded", "mono"]
-  },
-  {
     "id": "injective",
     "name": "Injective",
-    "shortname": "",
     "nativeCoinId": "injective-protocol",
-    "variants": ["branded", "mono"]
-  },
-  {
-    "id": "chiliz",
-    "name": "Chiliz",
-    "shortname": "",
-    "nativeCoinId": "chiliz",
     "variants": ["branded", "mono"]
   },
   {
@@ -170,21 +128,18 @@
   {
     "id": "blast",
     "name": "Blast",
-    "shortname": "",
     "nativeCoinId": "blast",
     "variants": ["branded", "mono"]
   },
   {
     "id": "moonbeam",
     "name": "Moonbeam",
-    "shortname": "",
     "nativeCoinId": "moonbeam",
     "variants": ["branded", "mono"]
   },
   {
     "id": "astar",
     "name": "Astar",
-    "shortname": "",
     "nativeCoinId": "astar",
     "variants": ["branded", "mono"]
   },
@@ -198,29 +153,26 @@
   {
     "id": "juno",
     "name": "Juno",
-    "shortname": "",
     "nativeCoinId": "juno-network",
     "variants": ["branded", "mono"]
   },
   {
     "id": "polkadot",
     "name": "Polkadot",
-    "shortname": "",
     "nativeCoinId": "polkadot",
     "variants": ["branded", "mono"]
   },
   {
     "id": "beam",
     "name": "Beam",
-    "shortname": "",
     "nativeCoinId": "beam",
     "variants": ["branded", "mono"]
   },
   {
-    "id": "boba",
-    "name": "Boba Network",
-    "shortname": "",
-    "nativeCoinId": "ethereum",
+    "id": "elrond",
+    "name": "MultiversX",
+    "shortname": "elrond",
+    "nativeCoinId": "elrond-erd-2",
     "variants": ["branded", "mono"]
   },
   {
@@ -233,28 +185,18 @@
   {
     "id": "base",
     "name": "Base",
-    "shortname": "",
     "nativeCoinId": "ethereum",
-    "variants": ["branded", "mono"]
-  },
-  {
-    "id": "binance-smart-chain",
-    "name": "BNB Smart Chain",
-    "shortname": "BSC",
-    "nativeCoinId": "binancecoin",
     "variants": ["branded", "mono"]
   },
   {
     "id": "loopring",
     "name": "Loopring",
-    "shortname": "",
     "nativeCoinId": "loopring",
     "variants": ["branded", "mono"]
   },
   {
     "id": "fantom",
     "name": "Fantom",
-    "shortname": "",
     "nativeCoinId": "fantom",
     "variants": ["branded", "mono"]
   },
@@ -266,31 +208,34 @@
     "variants": ["branded", "mono"]
   },
   {
+    "id": "optimistic-ethereum",
+    "name": "Optimism",
+    "shortname": "Optimism",
+    "nativeCoinId": "ethereum",
+    "variants": ["branded", "mono"]
+  },
+  {
     "id": "scroll",
     "name": "Scroll",
-    "shortname": "",
     "nativeCoinId": "weth",
     "variants": ["branded", "mono"]
   },
   {
-    "id": "stellar",
-    "name": "Stellar",
-    "shortname": "",
-    "variants": ["mono", "branded"],
-    "nativeCoinId": "stellar"
+    "id": "aptos",
+    "name": "Aptos",
+    "nativeCoinId": "aptos",
+    "variants": ["branded", "mono"]
   },
   {
-    "id": "xrp",
-    "name": "XRP Ledger",
-    "shortname": "xrp",
-    "variants": ["mono"],
-    "nativeCoinId": "ripple"
+    "id": "sui",
+    "name": "Sui",
+    "nativeCoinId": "sui",
+    "variants": ["branded", "mono"]
   },
   {
-    "id": "algorand",
-    "name": "Algorand",
-    "shortname": "",
-    "variants": ["mono"],
-    "nativeCoinId": "algorand"
+    "id": "chiliz",
+    "name": "Chiliz",
+    "nativeCoinId": "chiliz",
+    "variants": ["branded", "mono"]
   }
 ]

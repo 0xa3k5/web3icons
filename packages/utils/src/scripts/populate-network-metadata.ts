@@ -1,16 +1,8 @@
 import fs from 'fs'
 import path from 'path'
-import { INetworkMetadata } from '../types'
+import { GeckoNetworks, INetworkMetadata } from '../types'
 import { SVG_NETWORKS_SRC_DIR, NETWORKS_METADATA_PATH } from '../constants'
 import prettier from 'prettier'
-
-type GeckoNetworks = {
-  id: string
-  chain_identifier: string | null
-  name: string
-  shortname: string | null
-  native_coin_id: string
-}
 
 const SVG_NETWORKS_DIRS = {
   branded: path.join(SVG_NETWORKS_SRC_DIR, 'branded'),
@@ -37,19 +29,20 @@ const geckoNetworks: GeckoNetworks[] = JSON.parse(
 const enrichedNetworks: INetworkMetadata[] = geckoNetworks
   .map((network) => {
     const variants = []
-    const lowerCaseId = network.id.toLowerCase()
 
-    if (svgFiles.branded.has(lowerCaseId)) {
+    const loweCaseName = network.name.toLowerCase()
+
+    if (svgFiles.branded.has(loweCaseName)) {
       variants.push('branded')
     }
-    if (svgFiles.mono.has(lowerCaseId)) {
+    if (svgFiles.mono.has(loweCaseName)) {
       variants.push('mono')
     }
 
     return {
       id: network.id,
       name: network.name,
-      shortname: network.shortname || '',
+      shortname: network.shortname,
       nativeCoinId: network.native_coin_id,
       variants,
     }
