@@ -1,13 +1,14 @@
 import React, { useState, useEffect, PropsWithChildren } from 'react'
 import JSZip from 'jszip'
 import Tooltip from '../ActionBar/Tooltip'
-import { tokens } from '@token-icons/core/metadata'
+import { networks, tokens } from '@token-icons/core/metadata'
 import { fetchSvgContent } from '../../utils'
 import cx from 'classnames'
 
 interface DownloadButtonProps {
   className?: string
   selectedIcons: string[]
+  type: 'tokens' | 'networks'
   variant: 'mono' | 'branded'
 }
 
@@ -15,6 +16,7 @@ const DownloadButton: React.FC<PropsWithChildren<DownloadButtonProps>> = ({
   className,
   selectedIcons,
   variant,
+  type,
   children,
 }) => {
   const [tooltip, setTooltip] = useState<{ toggle: boolean; text: string }>({
@@ -38,18 +40,31 @@ const DownloadButton: React.FC<PropsWithChildren<DownloadButtonProps>> = ({
 
     if (selectedIcons.length === 1) {
       // Handle single SVG download
-      try {
-        const iconName = selectedIcons[0]!.replace('Icon', '').toUpperCase()
-        const token = tokens.find(
-          (t) => t.symbol.toLowerCase() === iconName.toLowerCase(),
-        )
 
-        if (token) {
-          const svgContent = await fetchSvgContent(iconName, variant, 'tokens')
-          const blob = new Blob([svgContent], { type: 'image/svg+xml' })
-          triggerDownload(blob, `${iconName}-${variant}.svg`)
-          setTooltip({ toggle: true, text: 'copied!' })
-        }
+      const iconName =
+        type === 'tokens'
+          ? selectedIcons[0]!.replace('Token', '').toLocaleUpperCase()
+          : selectedIcons[0]!.replace('Network', '').toLocaleLowerCase()
+
+      const token = tokens.find(
+        (token) => token.symbol.toLocaleLowerCase() === iconName,
+      )
+
+      const network = networks.find(
+        (network) =>
+          network.id?.toLocaleLowerCase() === iconName ||
+          network.name.toLocaleLowerCase() === iconName,
+      )
+
+      try {
+        const name =
+          type === 'tokens'
+            ? token?.symbol.toLocaleLowerCase()
+            : network?.name.toLocaleLowerCase()
+
+        if (!name) return
+        const svgContent = await fetchSvgContent(name, variant, type)
+        await navigator.clipboard.writeText(svgContent)
       } catch (err) {
         console.error(err)
         setTooltip({ toggle: true, text: 'Failed to download' })

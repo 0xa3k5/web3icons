@@ -77,7 +77,7 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
     const filteredNetworkIcons = groupedNetworks[variant]!.filter(
       (network) =>
         network.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        network.id.toLowerCase().includes(searchTerm.toLowerCase()),
+        network.id?.toLowerCase().includes(searchTerm.toLowerCase()),
     )
 
     const filteredTokens = groupedTokens[variant]!.filter(

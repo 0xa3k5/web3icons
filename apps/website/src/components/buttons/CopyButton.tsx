@@ -1,5 +1,5 @@
 import { useState, useEffect, PropsWithChildren } from 'react'
-import { tokens } from '@token-icons/core/metadata'
+import { networks, tokens } from '@token-icons/core/metadata'
 import cx from 'classnames'
 import Tooltip from '../ActionBar/Tooltip'
 import { fetchSvgContent } from '../../utils'
@@ -8,12 +8,14 @@ interface Props {
   className?: string
   selectedIcons: string[]
   variant: 'mono' | 'branded'
+  type: 'tokens' | 'networks'
 }
 
 export default function CopyButton({
   className,
   selectedIcons,
   variant,
+  type,
   children,
 }: PropsWithChildren<Props>): JSX.Element {
   const [tooltip, setTooltip] = useState({ toggle: false, text: '' })
@@ -32,19 +34,31 @@ export default function CopyButton({
     if (selectedIcons.length === 1) {
       // action bar only appears when selected icons is not empty
       // so we can assume that there is at least only one icon
-      const iconName = selectedIcons[0]!.replace('Icon', '').toLocaleUpperCase()
+      const iconName =
+        type === 'tokens'
+          ? selectedIcons[0]!.replace('Token', '').toLocaleUpperCase()
+          : selectedIcons[0]!.replace('Network', '').toLocaleLowerCase()
+
       const token = tokens.find(
-        (token) =>
-          token.symbol.toLocaleLowerCase() === iconName.toLocaleLowerCase(),
+        (token) => token.symbol.toLocaleLowerCase() === iconName,
+      )
+
+      const network = networks.find(
+        (network) =>
+          network.id?.toLocaleLowerCase() === iconName ||
+          network.name.toLocaleLowerCase() === iconName,
       )
 
       try {
-        if (token) {
-          const symbol = token.symbol.toLocaleUpperCase()
-          const svgContent = await fetchSvgContent(symbol, variant, 'tokens')
-          await navigator.clipboard.writeText(svgContent)
-          setTooltip({ toggle: true, text: 'copied!' })
-        }
+        const name =
+          type === 'tokens'
+            ? token?.symbol.toLocaleLowerCase()
+            : network?.name.toLocaleLowerCase()
+
+        if (!name) return
+        const svgContent = await fetchSvgContent(name, variant, type)
+        await navigator.clipboard.writeText(svgContent)
+        setTooltip({ toggle: true, text: 'copied!' })
       } catch (err) {
         console.error(err)
         setTooltip({ toggle: true, text: 'Failed to copy' })

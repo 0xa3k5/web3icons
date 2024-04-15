@@ -7,7 +7,7 @@ interface Props {
 }
 
 export default function ActionBar({ className }: Props): JSX.Element {
-  const { variant, selectedIcons, setSelectedIcons } = useAppContext()
+  const { variant, selectedIcons, setSelectedIcons, type } = useAppContext()
 
   const handleClearAll = () => {
     setSelectedIcons([])
@@ -22,12 +22,14 @@ export default function ActionBar({ className }: Props): JSX.Element {
     >
       <CopyButton
         variant={variant}
+        type={type}
         selectedIcons={selectedIcons}
         className="rounded-l-full p-4"
       >
         copy svg
       </CopyButton>
       <DownloadButton
+        type={type}
         className="p-4"
         variant={variant}
         selectedIcons={selectedIcons}

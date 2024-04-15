@@ -33,10 +33,10 @@
     "typescript": ">=4"
   },
   "scripts": {
-    "build": "npm run build:css && npm run build:js",
+    "build": "bun run build:css && bun run build:js",
     "build:css": "tailwindcss --input ./src/css/input.css --output ./src/css/output.css",
     "build:js": "build-figma-plugin --typecheck --minify",
-    "watch": "npm run build:css && concurrently npm:watch:css npm:watch:js",
+    "watch": "bun run build:css && concurrently bun run watch:css bun run watch:js",
     "watch:css": "tailwindcss --input ./src/css/input.css --output ./src/css/output.css --watch",
     "watch:js": "build-figma-plugin --typecheck --watch"
   },

@@ -19,7 +19,7 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
   const symbolOrId =
     type === 'tokens'
       ? (icon as ITokenMetadata).symbol
-      : (icon as INetworkMetadata).id
+      : (icon as INetworkMetadata).id ?? (icon as INetworkMetadata).name
 
   const isSelected = selectedIcons.includes(symbolOrId)
 
@@ -108,6 +108,7 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
           <CopyButton
             className="w-full rounded-sm p-[4px]"
             variant={variant}
+            type={type}
             selectedIcons={[symbolOrId]}
           >
             <svg
@@ -126,6 +127,7 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
             </svg>
           </CopyButton>
           <DownloadButton
+            type={type}
             className="w-full rounded-sm p-[4px]"
             variant={variant}
             selectedIcons={[symbolOrId]}
