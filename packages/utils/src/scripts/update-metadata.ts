@@ -4,7 +4,8 @@ import prettier from 'prettier'
 import { INetworkMetadata, ITokenMetadata } from '../types'
 import getCoinByID from './gecko/get-coin-by-id'
 
-const normalizeName = (name: string): string => {
+const normalizeName =
+(name: string): string => {
   return name
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
@@ -152,14 +153,14 @@ const main = async () => {
     return
   }
 
-  files[0]?.split(',').forEach(async (filePath) => {
+  files[0]?.split(',').map(async (filePath) => {
     const type = filePath.includes('/tokens/') ? 'token' : 'network'
-    processSVGFile(filePath, type)
+    await processSVGFile(filePath, type)
   })
 }
 
 try {
-  main()
+  await main()
 } catch (error) {
   console.error('Failed to update metadata:', error)
   process.exit(1)

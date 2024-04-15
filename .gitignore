@@ -6,6 +6,8 @@ dist
 .turbo
 .vercel
 .next/
+.fleet
+.vscode
 out/
 .DS_Store
 *.d.ts
