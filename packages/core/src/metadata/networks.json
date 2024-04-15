@@ -285,5 +285,12 @@
     "shortname": "xrp",
     "variants": ["mono"],
     "nativeCoinId": "ripple"
+  },
+  {
+    "id": "algorand",
+    "name": "Algorand",
+    "shortname": "",
+    "variants": ["mono"],
+    "nativeCoinId": "algorand"
   }
 ]

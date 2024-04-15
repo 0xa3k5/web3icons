@@ -4,8 +4,7 @@ import prettier from 'prettier'
 import { INetworkMetadata, ITokenMetadata } from '../types'
 import getCoinByID from './gecko/get-coin-by-id'
 
-const normalizeName =
-(name: string): string => {
+const normalizeName = (name: string): string => {
   return name
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
