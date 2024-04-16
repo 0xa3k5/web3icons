@@ -1,9 +1,9 @@
 'use client'
-import { NetworkOptimism } from '@token-icons/react/icons'
 import { ControlBar, IconCard, ActionBar } from '../components'
 import SegmentedControl from '../components/ControlBar/SegmentedControl'
 import Logo from '../components/Logo'
 import SearchInput from '../components/SearchInput'
+import Tabs from '../components/Tabs'
 import { useAppContext } from '../hooks'
 
 const INSTALL_SNIPPET = `npm i @token-icons/core @token-icons/react`
@@ -92,19 +92,8 @@ export default function Home() {
         </code>
       </div>
       <div className="relative flex w-full flex-col-reverse gap-8 md:flex-row md:gap-12">
-        <div className="flex w-full flex-col gap-4">
-          <div className="flex items-center gap-8">
-            <SearchInput
-              onInput={(e) => setSearchTerm(e.target.value)}
-              placeholder="Search"
-              value={searchTerm}
-            />
-            <SegmentedControl
-              options={['tokens', 'networks']}
-              selected={type}
-              onChange={(value) => setType(value as 'tokens' | 'networks')}
-            />
-          </div>
+        <div className="flex w-full flex-col gap-8">
+          <ControlBar />
           <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
             {icons.map((icon) => (
               <IconCard key={icon.id} icon={icon} />
@@ -120,7 +109,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <ControlBar className="left-0 top-16 z-10 mt-16 md:sticky" />
       </div>
       {selectedIcons.length > 0 && (
         <div className="flex w-full justify-center">

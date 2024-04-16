@@ -34,7 +34,7 @@ const AppContext = createContext<AppContextType | undefined>(undefined)
 export const AppContextProvider: React.FC<AppContextProviderProps> = ({
   children,
 }: AppContextProviderProps) => {
-  const PER_PAGE = 48
+  const PER_PAGE = 96
   const [type, setType] = useState<'tokens' | 'networks'>('tokens')
   const [variant, setVariant] = useState<'mono' | 'branded'>('mono')
   const [size, setSize] = useState(64)

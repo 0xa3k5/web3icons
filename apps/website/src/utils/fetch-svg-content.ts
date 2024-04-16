@@ -1,18 +1,20 @@
+import { networks, tokens } from '@token-icons/core/metadata'
+
 /**
  *
- * @param name pass ticker for tokens as uppercase and kebab-case name for networks
+ * @param icon pass icon to fetch
  * @param variant mono or branded
  * @param type tokens or networks
  * @returns svg content
  */
 export async function fetchSvgContent(
-  name: string,
+  icon: string,
   variant: 'mono' | 'branded',
   type: 'tokens' | 'networks',
 ): Promise<string> {
+  const name = getName(icon, type)
   try {
     let svgModule
-    console.log('fetchSvgContent', name, variant, type)
     if (type === 'tokens') {
       if (variant === 'mono') {
         svgModule = await import(
@@ -45,4 +47,28 @@ export async function fetchSvgContent(
     console.error(`Error fetching SVG ${name}:`, err)
     throw err
   }
+}
+
+const getName = (icon: string, type: 'tokens' | 'networks') => {
+  const iconName =
+    type === 'tokens'
+      ? icon.replace('Token', '').toLocaleUpperCase()
+      : icon.replace('Network', '').toLocaleLowerCase()
+
+  const token = tokens.find(
+    (t) => t.symbol.toLocaleLowerCase() === iconName.toLocaleLowerCase(),
+  )
+
+  const network = networks.find(
+    (n) =>
+      n.id?.toLocaleLowerCase() === iconName.toLocaleLowerCase() ||
+      n.name.toLocaleLowerCase() === iconName.toLocaleLowerCase(),
+  )
+
+  const name =
+    type === 'tokens'
+      ? token?.symbol.toLocaleUpperCase()
+      : network?.name.toLocaleLowerCase()
+
+  return name ?? null
 }

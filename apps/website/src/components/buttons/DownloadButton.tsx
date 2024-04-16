@@ -1,7 +1,6 @@
 import React, { useState, useEffect, PropsWithChildren } from 'react'
 import JSZip from 'jszip'
 import Tooltip from '../ActionBar/Tooltip'
-import { networks, tokens } from '@token-icons/core/metadata'
 import { fetchSvgContent } from '../../utils'
 import cx from 'classnames'
 
@@ -41,30 +40,15 @@ const DownloadButton: React.FC<PropsWithChildren<DownloadButtonProps>> = ({
     if (selectedIcons.length === 1) {
       // Handle single SVG download
 
-      const iconName =
-        type === 'tokens'
-          ? selectedIcons[0]!.replace('Token', '').toLocaleUpperCase()
-          : selectedIcons[0]!.replace('Network', '').toLocaleLowerCase()
-
-      const token = tokens.find(
-        (token) => token.symbol.toLocaleLowerCase() === iconName,
-      )
-
-      const network = networks.find(
-        (network) =>
-          network.id?.toLocaleLowerCase() === iconName ||
-          network.name.toLocaleLowerCase() === iconName,
-      )
-
       try {
-        const name =
-          type === 'tokens'
-            ? token?.symbol.toLocaleLowerCase()
-            : network?.name.toLocaleLowerCase()
-
-        if (!name) return
-        const svgContent = await fetchSvgContent(name, variant, type)
-        await navigator.clipboard.writeText(svgContent)
+        const svgContent = await fetchSvgContent(
+          selectedIcons[0]!,
+          variant,
+          type,
+        )
+        const blob = new Blob([svgContent], { type: 'image/svg+xml' })
+        triggerDownload(blob, `${name}-${variant}.svg`)
+        setTooltip({ toggle: true, text: 'downloaded!' })
       } catch (err) {
         console.error(err)
         setTooltip({ toggle: true, text: 'Failed to download' })
@@ -74,16 +58,9 @@ const DownloadButton: React.FC<PropsWithChildren<DownloadButtonProps>> = ({
       const zip = new JSZip()
 
       try {
-        for (const iconName of selectedIcons) {
-          const name = iconName.replace('Icon', '').toUpperCase()
-          const token = tokens.find(
-            (t) => t.symbol.toLowerCase() === name.toLowerCase(),
-          )
-
-          if (token) {
-            const svgContent = await fetchSvgContent(name, variant, 'tokens')
-            zip.file(`${name}-${variant}.svg`, svgContent)
-          }
+        for (const i of selectedIcons) {
+          const svgContent = await fetchSvgContent(i, variant, type)
+          zip.file(`${i}-${variant}.svg`, svgContent)
         }
 
         const blob = await zip.generateAsync({ type: 'blob' })

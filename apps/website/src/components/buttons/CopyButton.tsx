@@ -1,5 +1,4 @@
 import { useState, useEffect, PropsWithChildren } from 'react'
-import { networks, tokens } from '@token-icons/core/metadata'
 import cx from 'classnames'
 import Tooltip from '../ActionBar/Tooltip'
 import { fetchSvgContent } from '../../utils'
@@ -32,31 +31,12 @@ export default function CopyButton({
 
   const handleCopy = async () => {
     if (selectedIcons.length === 1) {
-      // action bar only appears when selected icons is not empty
-      // so we can assume that there is at least only one icon
-      const iconName =
-        type === 'tokens'
-          ? selectedIcons[0]!.replace('Token', '').toLocaleUpperCase()
-          : selectedIcons[0]!.replace('Network', '').toLocaleLowerCase()
-
-      const token = tokens.find(
-        (token) => token.symbol.toLocaleLowerCase() === iconName,
-      )
-
-      const network = networks.find(
-        (network) =>
-          network.id?.toLocaleLowerCase() === iconName ||
-          network.name.toLocaleLowerCase() === iconName,
-      )
-
       try {
-        const name =
-          type === 'tokens'
-            ? token?.symbol.toLocaleLowerCase()
-            : network?.name.toLocaleLowerCase()
-
-        if (!name) return
-        const svgContent = await fetchSvgContent(name, variant, type)
+        const svgContent = await fetchSvgContent(
+          selectedIcons[0]!,
+          variant,
+          type,
+        )
         await navigator.clipboard.writeText(svgContent)
         setTooltip({ toggle: true, text: 'copied!' })
       } catch (err) {
