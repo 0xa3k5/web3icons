@@ -1,9 +1,6 @@
 'use client'
 import { ControlBar, IconCard, ActionBar } from '../components'
-import SegmentedControl from '../components/ControlBar/SegmentedControl'
 import Logo from '../components/Logo'
-import SearchInput from '../components/SearchInput'
-import Tabs from '../components/Tabs'
 import { useAppContext } from '../hooks'
 
 const INSTALL_SNIPPET = `npm i @token-icons/core @token-icons/react`
@@ -27,15 +24,7 @@ const links = [
 ]
 
 export default function Home() {
-  const {
-    tokenIcons: icons,
-    selectedIcons,
-    searchTerm,
-    setSearchTerm,
-    loadMoreIcons,
-    type,
-    setType,
-  } = useAppContext()
+  const { tokenIcons: icons, selectedIcons, loadMoreIcons } = useAppContext()
 
   return (
     <main className="container mx-auto flex h-screen flex-col gap-4 p-4 font-mono sm:px-8 sm:py-16 md:gap-16">
