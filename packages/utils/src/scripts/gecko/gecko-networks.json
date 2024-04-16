@@ -1409,5 +1409,16 @@
     "id": "galachain",
     "name": "GalaChain",
     "native_coin_id": "gala"
+  },
+  {
+    "id": "x-layer",
+    "chain_identifier": 196,
+    "name": "X Layer",
+    "native_coin_id": "okb"
+  },
+  {
+    "name": "etherlink",
+    "id": "etherlink",
+    "shortname": "etherlink"
   }
 ]

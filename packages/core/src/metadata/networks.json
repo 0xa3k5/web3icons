@@ -237,5 +237,11 @@
     "name": "Chiliz",
     "nativeCoinId": "chiliz",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "x-layer",
+    "name": "X Layer",
+    "variants": ["branded", "mono"],
+    "nativeCoinId": "okb"
   }
 ]

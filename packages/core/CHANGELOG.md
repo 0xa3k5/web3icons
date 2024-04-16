@@ -1,5 +1,17 @@
 # @token-icons/core
 
+## 2.3.1
+
+### Patch Changes
+
+-
+
+## 2.3.0
+
+### Minor Changes
+
+- new network icons: x-layer, etherlink
+
 ## 2.2.1
 
 ### Patch Changes
