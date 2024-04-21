@@ -19,6 +19,13 @@
     "variants": ["branded", "mono"]
   },
   {
+    "id": "polygon-pos",
+    "name": "Polygon POS",
+    "shortname": "MATIC",
+    "nativeCoinId": "matic-network",
+    "variants": ["branded", "mono"]
+  },
+  {
     "id": "cardano",
     "name": "Cardano",
     "nativeCoinId": "cardano",
@@ -28,6 +35,12 @@
     "id": "tron",
     "name": "TRON",
     "nativeCoinId": "tron",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "polygon-zkevm",
+    "name": "Polygon zkEVM",
+    "nativeCoinId": "ethereum",
     "variants": ["branded", "mono"]
   },
   {
@@ -41,6 +54,12 @@
     "name": "Algorand",
     "nativeCoinId": "algorand",
     "variants": ["mono"]
+  },
+  {
+    "id": "neon-evm",
+    "name": "Neon EVM",
+    "nativeCoinId": "neon",
+    "variants": ["branded", "mono"]
   },
   {
     "id": "cronos",
@@ -113,6 +132,18 @@
     "variants": ["branded", "mono"]
   },
   {
+    "id": "manta-pacific",
+    "name": "Manta Pacific",
+    "nativeCoinId": "weth",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "immutable",
+    "name": "Immutable zkEVM",
+    "nativeCoinId": "immutable-x",
+    "variants": ["branded", "mono"]
+  },
+  {
     "id": "injective",
     "name": "Injective",
     "nativeCoinId": "injective-protocol",
@@ -169,6 +200,12 @@
     "variants": ["branded", "mono"]
   },
   {
+    "id": "boba",
+    "name": "Boba Network",
+    "nativeCoinId": "ethereum",
+    "variants": ["branded", "mono"]
+  },
+  {
     "id": "elrond",
     "name": "MultiversX",
     "shortname": "elrond",
@@ -183,9 +220,23 @@
     "variants": ["branded", "mono"]
   },
   {
+    "id": "arbitrum-one",
+    "name": "Arbitrum One",
+    "shortname": "Arbitrum",
+    "nativeCoinId": "ethereum",
+    "variants": ["branded", "mono"]
+  },
+  {
     "id": "base",
     "name": "Base",
     "nativeCoinId": "ethereum",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "binance-smart-chain",
+    "name": "BNB Smart Chain",
+    "shortname": "BSC",
+    "nativeCoinId": "binancecoin",
     "variants": ["branded", "mono"]
   },
   {
@@ -193,6 +244,13 @@
     "name": "Loopring",
     "nativeCoinId": "loopring",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "xrp",
+    "name": "XRP Ledger",
+    "shortname": "xrp",
+    "nativeCoinId": "ripple",
+    "variants": ["mono"]
   },
   {
     "id": "fantom",
@@ -241,7 +299,13 @@
   {
     "id": "x-layer",
     "name": "X Layer",
-    "variants": ["branded", "mono"],
-    "nativeCoinId": "okb"
+    "nativeCoinId": "okb",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "etherlink",
+    "name": "etherlink",
+    "shortname": "etherlink",
+    "variants": ["branded", "mono"]
   }
 ]

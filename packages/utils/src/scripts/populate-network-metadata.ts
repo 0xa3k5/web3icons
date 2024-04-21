@@ -17,25 +17,40 @@ const svgFiles = {
 
 Object.entries(SVG_NETWORKS_DIRS).forEach(([variant, dirPath]) => {
   fs.readdirSync(dirPath).forEach((file) => {
-    svgFiles[variant as keyof typeof svgFiles].add(
-      path.basename(file, '.svg').toLowerCase(),
-    )
+    const normalizedFileName = normalizeForMatch(path.basename(file, '.svg'))
+    svgFiles[variant as keyof typeof svgFiles].add(normalizedFileName)
   })
 })
 
 const geckoNetworks: GeckoNetworks[] = JSON.parse(
   fs.readFileSync(GECKO_NETWORKS_PATH, 'utf8'),
 )
+
+function normalizeForMatch(input: string) {
+  return input
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/gi, '')
+    .toLowerCase()
+}
+
 const enrichedNetworks: INetworkMetadata[] = geckoNetworks
   .map((network) => {
     const variants = []
 
-    const loweCaseName = network.name.toLowerCase()
+    const normalizedNames = [
+      normalizeForMatch(network.name),
+      network.id ? normalizeForMatch(network.id) : '',
+      network.shortname ? normalizeForMatch(network.shortname) : '',
+    ]
 
-    if (svgFiles.branded.has(loweCaseName)) {
+    const validNormalizedNames = normalizedNames.filter(
+      (name) => name.length > 0,
+    )
+
+    if (validNormalizedNames.some((name) => svgFiles.branded.has(name))) {
       variants.push('branded')
     }
-    if (svgFiles.mono.has(loweCaseName)) {
+    if (validNormalizedNames.some((name) => svgFiles.mono.has(name))) {
       variants.push('mono')
     }
 
