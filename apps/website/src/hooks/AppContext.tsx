@@ -5,6 +5,7 @@ import React, {
   useState,
   useCallback,
   ReactNode,
+  useEffect,
 } from 'react'
 import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
 import { filterAndSortIcons } from '../utils'
@@ -52,6 +53,16 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
     )
     setNextBatchIndex((prevIndex) => prevIndex + PER_PAGE)
   }, [])
+
+  useEffect(() => {
+    loadMoreIcons()
+  }, [])
+
+  useEffect(() => {
+    setShownIcons(
+      filterAndSortIcons(variant, searchTerm, type, nextBatchIndex, PER_PAGE),
+    )
+  }, [searchTerm, variant, type])
 
   return (
     <AppContext.Provider

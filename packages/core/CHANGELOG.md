@@ -1,5 +1,11 @@
 # @token-icons/core
 
+## 2.5.0
+
+### Minor Changes
+
+- imrpove matching for NetworkIcon
+
 ## 2.4.0
 
 ### Minor Changes

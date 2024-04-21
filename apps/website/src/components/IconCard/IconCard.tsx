@@ -51,6 +51,7 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
 
   return (
     <label
+      id={symbolOrId}
       className={cx(
         'relative flex flex-col items-center justify-center gap-4 border border-gray-lightest  p-8 duration-150',
         '[&:has(:focus-visible)]:focus-within:border-primary',
@@ -94,6 +95,7 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
       <input
         type="checkbox"
         id={`checkbox-${icon.id}`}
+        name={icon.id}
         checked={isSelected}
         onChange={handleCheckboxChange}
         className="sr-only"

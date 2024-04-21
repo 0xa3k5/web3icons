@@ -20,7 +20,7 @@
   },
   {
     "id": "polygon-pos",
-    "name": "Polygon POS",
+    "name": "Polygon",
     "shortname": "MATIC",
     "nativeCoinId": "matic-network",
     "variants": ["branded", "mono"]

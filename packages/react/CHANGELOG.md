@@ -1,5 +1,16 @@
 # @token-icons/react
 
+## 2.5.0
+
+### Minor Changes
+
+- imrpove matching for NetworkIcon
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/core@2.5.0
+
 ## 2.4.0
 
 ### Patch Changes

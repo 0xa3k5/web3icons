@@ -215,7 +215,7 @@
   {
     "id": "polygon-pos",
     "chain_identifier": 137,
-    "name": "Polygon POS",
+    "name": "Polygon",
     "shortname": "MATIC",
     "native_coin_id": "matic-network"
   },

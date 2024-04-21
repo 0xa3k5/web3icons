@@ -59,22 +59,6 @@ export const filterIcons = (
       }))
       .filter((icon) => icon.svg !== undefined) as SvgIcon[]
   } else {
-    console.log(
-      networks
-        .filter((network: INetworkMetadata) => {
-          return (
-            network.name.toLowerCase().includes(searchLower) ||
-            network.id?.toLowerCase().includes(searchLower)
-          )
-        })
-        .map((network) => ({
-          name: network.name.toLowerCase(),
-          svg: networkIcons[variant]?.find(
-            (icon) => icon.name.toLowerCase() === network.name.toLowerCase(),
-          )?.svg,
-        }))
-        .filter((icon) => icon.svg !== undefined) as SvgIcon[],
-    )
     // Filtering for networks specifically
     return networks
       .filter((network: INetworkMetadata) => {
