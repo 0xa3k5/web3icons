@@ -13,7 +13,7 @@
   "scripts": {
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error",
-    "build": "tsup ./src/index.ts --format cjs,esm --dts && bun run lint && bun run format",
+    "build": "tsup --config tsup.config.js && bun run lint && bun run format",
     "build:core": "bun run core:optimize-svgs && bun run core:svgs-module && bun run core:index",
     "build:react": "bun run react:components && bun run react:index",
     "core:optimize-svgs": "bun run ./src/scripts/core-optimize-svgs.ts",

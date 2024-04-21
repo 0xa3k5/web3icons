@@ -6,6 +6,6 @@
     "declarationDir": "./dist",
     "resolveJsonModule": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "./tsup.config.js"],
   "exclude": ["node_modules", "dist"]
 }
