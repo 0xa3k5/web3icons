@@ -1,5 +1,11 @@
 # @token-icons/core
 
+## 2.3.2
+
+### Patch Changes
+
+- lower typescript version
+
 ## 2.3.1
 
 ### Patch Changes
