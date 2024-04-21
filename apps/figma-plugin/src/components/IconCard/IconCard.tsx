@@ -3,6 +3,7 @@ import Checkbox from './Checkbox'
 import { h } from 'preact'
 import { Dispatch, StateUpdater, useState } from 'preact/hooks'
 import { SvgIcon } from 'src/types'
+import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
 
 interface Props {
   className?: string
@@ -33,7 +34,7 @@ export default function IconCard({
   return (
     <label
       className={cx(
-        'relative flex flex-col items-center justify-center aspect-square gap-1 border border-gray-lightest p-4 duration-150',
+        'relative flex aspect-square flex-col items-center justify-center gap-1 border border-gray-lightest p-4 duration-150',
         className,
         isSelected ? 'bg-gray-light' : hover && 'bg-gray',
       )}
@@ -43,7 +44,7 @@ export default function IconCard({
       <img className="size-8" src={svg} />
       <span
         className={cx(
-          'text-white text-sm',
+          'text-sm text-white',
           isSelected ? 'text-opacity-100' : 'text-opacity-60',
         )}
       >

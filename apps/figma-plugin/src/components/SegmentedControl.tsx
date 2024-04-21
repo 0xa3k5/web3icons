@@ -1,11 +1,12 @@
 import { Fragment, h } from 'preact'
 import cx from 'classnames'
-import { useEffect, useRef, useState } from 'preact/hooks'
+import { useRef } from 'preact/hooks'
 
 interface SegmentedControlProps {
   className?: string
   options: string[]
   selected: string
+  // eslint-disable-next-line no-unused-vars
   onChange: (value: string) => void
 }
 
@@ -21,7 +22,8 @@ export default function SegmentedControl({
     <div
       className={cx(
         className,
-        'relative text-white inline-flex rounded-full w-fit border border-gray-lightest bg-gray-light p-1 focus-within:outline focus-within:outline-gray-lightest',
+        'relative inline-flex w-fit rounded-full text-white border border-gray-lightest bg-gray-light p-1',
+        '[&:has(:focus-visible)]:focus-within:outline  [&:has(:focus-visible)]:focus-within:outline-gray-lightest',
       )}
     >
       {options.map((option, index) => (

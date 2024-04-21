@@ -1,8 +1,6 @@
 import { render } from '@create-figma-plugin/ui'
 import { h } from 'preact'
 import '!./css/output.css'
-import { tokens } from '@token-icons/core/metadata'
-import { svgs, ITokenMetadata } from '@token-icons/core'
 import { useEffect, useState } from 'preact/hooks'
 import {
   IconCard,
@@ -11,82 +9,24 @@ import {
   ActionBar,
 } from './components'
 import { SvgIcon } from './types'
-
+import Tabs from './components/Tabs'
+import { filterIcons } from './utils'
 const PER_PAGE = 50
 
 function Plugin() {
   const [searchKey, setSearchKey] = useState('')
   const [variant, setVariant] = useState<'mono' | 'branded'>('mono')
+  const [type, setType] = useState<'tokens' | 'networks'>('tokens')
   const [selectedIcons, setSelectedIcons] = useState<SvgIcon[]>([])
   const [displayedIcons, setDisplayedIcons] = useState<SvgIcon[]>([])
   const [nextBatchIndex, setNextBatchIndex] = useState<number>(0)
-
-  const tokenIcons: { [key: string]: SvgIcon[] } = {
-    branded: [],
-    mono: [],
-  }
-  const networkIcons: { [key: string]: SvgIcon[] } = {
-    branded: [],
-    mono: [],
-  }
-
-  Object.entries(svgs.tokens).forEach(([name, svg]) => {
-    if (name.startsWith('branded')) {
-      tokenIcons.branded!.push({ name: name.replace('branded', ''), svg })
-    } else if (name.startsWith('mono')) {
-      tokenIcons.mono!.push({ name: name.replace('mono', ''), svg })
-    }
-  })
-
-  Object.entries(svgs.networks).forEach(([name, svg]) => {
-    if (name.startsWith('branded')) {
-      networkIcons.branded!.push({ name: name.replace('branded', ''), svg })
-    } else if (name.startsWith('mono')) {
-      networkIcons.mono!.push({ name: name.replace('mono', ''), svg })
-    }
-  })
-
-  const filterIcons = (searchKey: string): SvgIcon[] => {
-    if (!searchKey.trim()) {
-      return variant === 'branded'
-        ? (tokenIcons.branded as SvgIcon[])
-        : (tokenIcons.mono as SvgIcon[])
-    }
-
-    const searchLower = searchKey.toLowerCase()
-    const filteredTokens = tokens.filter((token: ITokenMetadata) => {
-      return (
-        token.name.toLowerCase().includes(searchLower) ||
-        token.id.toLowerCase().includes(searchLower) ||
-        token.symbol.toLowerCase().includes(searchLower)
-      )
-    })
-
-    // todo implement network filtering
-    const filteredSvgs =
-      variant === 'branded'
-        ? (tokenIcons.branded as SvgIcon[])
-        : (tokenIcons.mono as SvgIcon[])
-
-    return filteredSvgs.filter((svg) => {
-      return filteredTokens.some(
-        (token) => token.symbol === svg.name.toLocaleLowerCase(),
-      )
-    })
-  }
-
-  useEffect(() => {
-    loadMoreIcons()
-  }, [])
-
-  useEffect(() => {
-    const filteredIcons = filterIcons(searchKey)
-    setDisplayedIcons(filteredIcons.slice(0, PER_PAGE))
-    setNextBatchIndex(PER_PAGE)
-  }, [searchKey, variant])
+  const [totalFilteredIcons, setTotalFilteredIcons] = useState(0)
 
   const loadMoreIcons = () => {
-    const newIcons = filterIcons(searchKey).slice(
+    const allFilteredIcons = filterIcons(searchKey, type, variant)
+    if (!allFilteredIcons) return
+
+    const newIcons = allFilteredIcons.slice(
       nextBatchIndex,
       nextBatchIndex + PER_PAGE,
     )
@@ -94,19 +34,45 @@ function Plugin() {
     setNextBatchIndex((prevIndex) => prevIndex + PER_PAGE)
   }
 
+  const loadInitialIcons = () => {
+    const initialIcons = filterIcons(searchKey, type, variant)
+    if (!initialIcons) return
+
+    setDisplayedIcons(initialIcons.slice(0, PER_PAGE))
+    setTotalFilteredIcons(initialIcons.length)
+    setNextBatchIndex(PER_PAGE)
+  }
+
+  useEffect(() => {
+    const filteredIcons = filterIcons(searchKey, type, variant)
+    setDisplayedIcons(filteredIcons.slice(0, PER_PAGE))
+    setTotalFilteredIcons(filteredIcons.length)
+    setNextBatchIndex(PER_PAGE)
+  }, [searchKey, variant, type])
+
+  useEffect(() => {
+    loadInitialIcons()
+  }, [])
+
   return (
-    <main className="flex flex-col gap-4 w-full p-4 bg-gray-darkest">
-      <SegmentedControl
-        onChange={(value) => setVariant(value as 'mono' | 'branded')}
-        options={['branded', 'mono']}
-        selected={variant}
+    <main className="flex w-full flex-col gap-4 bg-gray-darkest p-4">
+      <Tabs
+        activeTab={type}
+        onChange={(value) => setType(value as 'tokens' | 'networks')}
       />
-      <SearchInput
-        placeholder="Search"
-        value={searchKey}
-        onInput={(event) => setSearchKey(event.currentTarget.value)}
-      />
-      <div className="grid grid-cols-4 gap-0 -mx-4">
+      <div className="flex gap-4">
+        <SearchInput
+          placeholder="Search"
+          value={searchKey}
+          onInput={(event) => setSearchKey(event.currentTarget.value)}
+        />
+        <SegmentedControl
+          onChange={(value) => setVariant(value as 'mono' | 'branded')}
+          options={['branded', 'mono']}
+          selected={variant}
+        />
+      </div>
+      <div className="-mx-4 grid grid-cols-4 gap-0">
         {displayedIcons.map((svg) => (
           <IconCard
             key={svg.name}
@@ -123,13 +89,15 @@ function Plugin() {
         ))}
       </div>
 
-      <button
-        type="button"
-        className="w-full py-2 hover:bg-gray-dark duration-150 text-white"
-        onClick={loadMoreIcons}
-      >
-        load more
-      </button>
+      {displayedIcons.length < totalFilteredIcons && (
+        <button
+          type="button"
+          className="w-full py-2 text-white duration-150 hover:bg-gray-dark"
+          onClick={loadMoreIcons}
+        >
+          Load more
+        </button>
+      )}
 
       {selectedIcons.length > 0 && (
         <ActionBar

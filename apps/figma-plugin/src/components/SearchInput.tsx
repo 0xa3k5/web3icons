@@ -3,6 +3,7 @@ import { PropsWithChildren, ReactNode, ChangeEvent } from 'preact/compat'
 interface Props {
   placeholder: string
   value: string
+  // eslint-disable-next-line no-unused-vars
   onInput: (event: ChangeEvent<HTMLInputElement>) => void
   icon?: ReactNode
 }
@@ -15,13 +16,13 @@ export default function TextInput({
   children,
 }: PropsWithChildren<Props>): h.JSX.Element {
   return (
-    <div className="border focus-within:border-primary border-gray-lightest relative flex items-center gap-2 bg-transparent px-2">
+    <div className="relative flex w-full items-center gap-2 rounded-full border border-gray-lightest bg-gray-light px-4 focus-within:border-primary">
       {icon && <span className="p-2">{icon}</span>}
       <input
         placeholder={placeholder}
         value={value}
         onInput={onInput}
-        className="text-white placeholder:text-white/40 focus:outline-none h-8 w-full bg-transparent"
+        className="h-8 w-full bg-transparent text-white placeholder:text-white/40 focus:outline-none"
       />
       {children}
     </div>

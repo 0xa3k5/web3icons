@@ -33,7 +33,6 @@ function createAndArrangeIcons(svgs: SvgIcon[]) {
 
   figma.currentPage.selection = nodes
   figma.viewport.scrollAndZoomIntoView(nodes)
-  figma.closePlugin()
 }
 
 export default function () {
@@ -43,8 +42,8 @@ export default function () {
 
   showUI({
     themeColors: false,
-    width: 320,
-    height: 480,
+    width: 420,
+    height: 640,
   })
 
   on<ResizeWindowHandler>(
