@@ -1,5 +1,11 @@
 # @token-icons/core
 
+## 2.4.0
+
+### Minor Changes
+
+- add network icons
+
 ## 2.3.2
 
 ### Patch Changes

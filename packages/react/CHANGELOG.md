@@ -1,5 +1,12 @@
 # @token-icons/react
 
+## 2.4.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/core@2.4.0
+
 ## 2.3.2
 
 ### Patch Changes
