@@ -3,12 +3,12 @@ name: icon-add
 on:
   push:
     branches:
-      - test-actions
+      - main
     paths:
       - 'packages/core/src/raw-svgs/**'
   pull_request:
     branches:
-      - test-actions
+      - main
     paths:
       - 'packages/core/src/raw-svgs/**'
 
@@ -55,11 +55,25 @@ jobs:
           echo "newNetworkIcons=$newNetworkIcons" >> $GITHUB_ENV
           bun run ./packages/utils/src/scripts/update-metadata.ts ${{ env.SVG_FILES }}
 
+      - name: Create Changeset
+        run: |
+          if [ -n "$newTokenIcons" ] || [ -n "$newNetworkIcons" ]; then
+          changesetContent="---
+          \"@token-icons/core\": minor
+          \"@token-icons/react\": minor
+          ---
+          "
+          [ -n "$newTokenIcons" ] && changesetContent+="New Token icons: $newTokenIcons\n"
+          [ -n "$newNetworkIcons" ] && changesetContent+="New Network icons: $newNetworkIcons\n"
+          echo "$changesetContent" > .changeset/$(date +%s).md
+          fi
+          bun changeset version
+
       - name: Build Packages
         run: |
           bun run build:core
           bun run build:react
-
+        
       - name: Commit Changes
         run: |
           git config --global user.name 'github-actions[bot]'
