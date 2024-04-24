@@ -1,5 +1,13 @@
 # @token-icons/react
 
+## 2.6.1
+
+### Patch Changes
+
+- patch
+- Updated dependencies
+  - @token-icons/core@2.6.1
+
 ## 2.6.0
 
 ### Minor Changes

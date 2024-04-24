@@ -1,5 +1,11 @@
 # @token-icons/core
 
+## 2.6.1
+
+### Patch Changes
+
+- patch
+
 ## 2.6.0
 
 ### Minor Changes
