@@ -71,8 +71,7 @@ jobs:
 
       - name: Build Packages
         run: |
-          bun run build:core
-          bun run build:react
+          bun run build --filter=@token-icons/core --filter=@token-icons/react
         
       - name: Commit Changes
         run: |

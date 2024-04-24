@@ -27,7 +27,7 @@ export default function ActionBar({
     <div
       className={cx(
         className,
-        'fixed bottom-0 w-full z-10 -mx-4 flex justify-between divide-x divide-gray-lightest border-t border-gray-lightest bg-gray-light text-sm',
+        'fixed bottom-0 z-10 -mx-4 flex w-full justify-between divide-x divide-gray-lightest border-t border-gray-lightest bg-gray-light text-sm',
       )}
     >
       <ActionBarButton text="clear all" onClick={handleClearAll} />
@@ -50,7 +50,7 @@ const ActionBarButton = ({
     <button
       type="button"
       onClick={onClick}
-      className="flex gap-2 w-full p-4 text-xs text-white text-opacity-60 duration-150 hover:bg-gray-lightest hover:text-opacity-100 items-center justify-center"
+      className="flex w-full items-center justify-center gap-2 p-4 text-xs text-white text-opacity-60 duration-150 hover:bg-gray-lightest hover:text-opacity-100"
     >
       {text}
     </button>

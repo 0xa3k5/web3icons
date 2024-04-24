@@ -56,6 +56,12 @@
     "variants": ["mono"]
   },
   {
+    "id": "mode",
+    "name": "Mode",
+    "nativeCoinId": "mode",
+    "variants": ["branded", "mono"]
+  },
+  {
     "id": "neon-evm",
     "name": "Neon EVM",
     "nativeCoinId": "neon",

@@ -20,10 +20,10 @@ ensureDirectoryExists(path.join(SVG_TOKENS_OUT_DIR, 'branded'))
 ensureDirectoryExists(path.join(SVG_NETWORKS_OUT_DIR, 'mono'))
 ensureDirectoryExists(path.join(SVG_NETWORKS_OUT_DIR, 'branded'))
 
-type ITokenMetadata = 'branded' | 'mono'
+type TVariant = 'branded' | 'mono'
 
 // Function to read SVGs from a directory
-const readSVGsFromDir = (dir: string): Record<ITokenMetadata, string[]> => ({
+const readSVGsFromDir = (dir: string): Record<TVariant, string[]> => ({
   branded: fs.readdirSync(path.join(dir, 'branded')),
   mono: fs.readdirSync(path.join(dir, 'mono')),
 })
@@ -32,7 +32,7 @@ const readSVGsFromDir = (dir: string): Record<ITokenMetadata, string[]> => ({
 const processSVGs = (
   sourceDir: string,
   outDir: string,
-  variant: ITokenMetadata,
+  variant: TVariant,
   rawSVGs: string[],
 ): void => {
   rawSVGs.forEach((rawSVG) => {
@@ -48,7 +48,7 @@ const optimizeAndOutput = (
   rawSVG: string,
   sourceDir: string,
   outDir: string,
-  variant: ITokenMetadata,
+  variant: TVariant,
 ): void => {
   const baseName = path.basename(rawSVG, '.svg')
   const svgFilePath = path.join(sourceDir, variant, rawSVG)
@@ -65,7 +65,7 @@ Object.entries(tokenSVGs).forEach(([variant, svgList]) => {
   processSVGs(
     SVG_TOKENS_SRC_DIR,
     SVG_TOKENS_OUT_DIR,
-    variant as ITokenMetadata,
+    variant as TVariant,
     svgList,
   )
 })
@@ -76,7 +76,7 @@ Object.entries(networkSVGs).forEach(([variant, svgList]) => {
   processSVGs(
     SVG_NETWORKS_SRC_DIR,
     SVG_NETWORKS_OUT_DIR,
-    variant as ITokenMetadata,
+    variant as TVariant,
     svgList,
   )
 })

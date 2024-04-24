@@ -46,7 +46,7 @@ export default function Tabs({
           <label
             htmlFor={`tab-${tab}`}
             className={cx(
-              'z-[1] flex items-center justify-center text-white rounded-full px-4 py-2 text-xs duration-150',
+              'z-[1] flex items-center justify-center rounded-full px-4 py-2 text-xs text-white duration-150',
               activeTab === tab ? 'opacity-100' : 'opacity-40',
             )}
             ref={activeTab === tab ? activeTabRef : null}

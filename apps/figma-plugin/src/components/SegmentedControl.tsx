@@ -22,7 +22,7 @@ export default function SegmentedControl({
     <div
       className={cx(
         className,
-        'relative inline-flex w-fit rounded-full text-white border border-gray-lightest bg-gray-light p-1',
+        'relative inline-flex w-fit rounded-full border border-gray-lightest bg-gray-light p-1 text-white',
         '[&:has(:focus-visible)]:focus-within:outline  [&:has(:focus-visible)]:focus-within:outline-gray-lightest',
       )}
     >
