@@ -1,5 +1,11 @@
 # @token-icons/core
 
+## 2.6.0
+
+### Minor Changes
+
+- New Network icons: bitcoin,\n
+
 ## 2.5.0
 
 ### Minor Changes

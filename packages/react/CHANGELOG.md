@@ -1,5 +1,16 @@
 # @token-icons/react
 
+## 2.6.0
+
+### Minor Changes
+
+- New Network icons: bitcoin,\n
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/core@2.6.0
+
 ## 2.5.0
 
 ### Minor Changes
