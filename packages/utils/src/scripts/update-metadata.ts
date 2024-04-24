@@ -6,7 +6,6 @@ import {
   INetworkMetadata,
   ITokenMetadata,
 } from '../types'
-import { NETWORKS_METADATA_PATH, TOKENS_METADATA_PATH } from '../constants'
 import geckoNetworks from './gecko/gecko-networks.json'
 import geckoCoins from './gecko/gecko-coins.json'
 import getCoinByID from './gecko/get-coin-by-id'
@@ -42,10 +41,11 @@ const appendToJson = async (
   data: ITokenMetadata | INetworkMetadata,
   type: 'tokens' | 'networks',
 ) => {
-  const tokensJson = JSON.parse(fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'))
-  const networksJson = JSON.parse(
-    fs.readFileSync(NETWORKS_METADATA_PATH, 'utf-8'),
-  )
+  const TOKENS_PATH = 'packages/core/src/metadata/tokens.json'
+  const NETWORKS_PATH = 'packages/core/src/metadata/networks.json'
+
+  const tokensJson = JSON.parse(fs.readFileSync(TOKENS_PATH, 'utf-8'))
+  const networksJson = JSON.parse(fs.readFileSync(NETWORKS_PATH, 'utf-8'))
 
   let file: (ITokenMetadata | INetworkMetadata)[] =
     type === 'tokens' ? tokensJson : networksJson
@@ -65,10 +65,7 @@ const appendToJson = async (
     parser: 'json',
   })
 
-  fs.writeFileSync(
-    type === 'tokens' ? TOKENS_METADATA_PATH : NETWORKS_METADATA_PATH,
-    formatted,
-  )
+  fs.writeFileSync(type === 'tokens' ? TOKENS_PATH : NETWORKS_PATH, formatted)
 }
 
 const updateMetadata = async (filePath: string) => {
