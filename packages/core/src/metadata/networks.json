@@ -188,6 +188,13 @@
     "variants": ["branded", "mono"]
   },
   {
+    "id": "ordinals",
+    "name": "Bitcoin",
+    "shortname": "Ordinals",
+    "nativeCoinId": "bitcoin",
+    "variants": ["branded", "mono"]
+  },
+  {
     "id": "juno",
     "name": "Juno",
     "nativeCoinId": "juno-network",
@@ -312,13 +319,6 @@
     "id": "etherlink",
     "name": "etherlink",
     "shortname": "etherlink",
-    "variants": ["branded", "mono"]
-  },
-  {
-    "id": "ordinals",
-    "name": "Bitcoin",
-    "shortname": "Ordinals",
-    "native_coin_id": "bitcoin",
     "variants": ["branded", "mono"]
   }
 ]
