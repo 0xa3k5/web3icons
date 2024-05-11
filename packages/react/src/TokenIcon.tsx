@@ -1,55 +1,66 @@
-import { forwardRef } from 'react'
+import { forwardRef, Suspense, lazy } from 'react'
 import { tokens } from '@token-icons/core/metadata'
-import * as TokenComponents from './icons/tokens'
 import { TokenIconProps } from './types'
+import TokenIconLogo from './Logo'
+import { TOKEN_ICON_IMPORT_MAP } from './icon-import-map'
 
-type TokenComponentNames = keyof typeof TokenComponents
+// Normalizes token names to match import paths
+const normalizeTokenName = (iconName: string) => {
+  return iconName.replace(/[- ]+/g, '_').toUpperCase()
+}
 
 export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
-  ({ symbol, size, className, variant = 'mono', color, address }, ref) => {
-    const iconName = resolveIconName(symbol, address)
-    const IconComponent = iconName ? TokenComponents[iconName] : null
+  (
+    { symbol, size, className, variant = 'mono', color, address, network },
+    ref,
+  ) => {
+    let tokenData
 
-    if (!IconComponent) {
-      return null
+    if (symbol) {
+      tokenData = tokens.find(
+        (token) => token.symbol.toLowerCase() === symbol.toLowerCase(),
+      )
+    } else if (address && network) {
+      tokenData = tokens.find(
+        (token) =>
+          token.addresses[network]?.toLowerCase() === address.toLowerCase(),
+      )
     }
 
-    return (
-      <IconComponent
-        size={size}
-        color={color}
-        className={className}
-        variant={variant}
-        ref={ref}
-      />
-    )
+    if (tokenData) {
+      const iconName = `Token${normalizeTokenName(tokenData.symbol)}`
+      const importFunction = TOKEN_ICON_IMPORT_MAP[iconName]
+
+      if (!importFunction) {
+        return (
+          <TokenIconLogo variant="branded" size={size} className={className} />
+        )
+      }
+
+      const IconComponent = lazy(importFunction)
+
+      return (
+        <Suspense
+          fallback={
+            <TokenIconLogo
+              variant="branded"
+              size={size}
+              className={className}
+            />
+          }
+        >
+          <IconComponent
+            symbol={symbol!}
+            size={size}
+            color={color}
+            className={className}
+            variant={variant}
+            ref={ref}
+          />
+        </Suspense>
+      )
+    }
   },
 )
 
-function normalizeTokenName(iconName: string) {
-  return iconName.replace(/[- ]+/g, '_').toLocaleUpperCase()
-}
-
-function resolveIconName(
-  symbol?: string,
-  address?: string,
-): TokenComponentNames | null {
-  if (symbol) {
-    const tokenData = tokens.find(
-      (token) =>
-        token.symbol.toLocaleLowerCase() === symbol.toLocaleLowerCase(),
-    )
-    if (tokenData) {
-      return `Token${normalizeTokenName(tokenData.symbol)}` as TokenComponentNames
-    }
-  } else if (address) {
-    const tokenData = tokens.find((token) =>
-      Object.values(token.addresses).includes(address.toLocaleLowerCase()),
-    )
-    if (tokenData) {
-      return `Token${normalizeTokenName(tokenData.symbol)}` as TokenComponentNames
-    }
-  }
-
-  return null
-}
+TokenIcon.displayName = 'TokenIcon'

@@ -1,73 +1,67 @@
-import { forwardRef } from 'react'
-import { networks } from '@token-icons/core/metadata'
-import * as NetworkComponents from './icons/networks'
+import { forwardRef, Suspense, lazy, ReactElement } from 'react'
 import { NetworkIconProps } from './types'
-
-type NetworkComponentNames = keyof typeof NetworkComponents
+import TokenIconLogo from './Logo'
+import { NETWORK_ICON_IMPORT_MAP } from './icon-import-map'
 
 // Converts a string to PascalCase
 const toPascalCase = (str: string): string => {
   const words = str.match(/[a-z]+/gi) || []
   return words
-    .map((word) => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase())
+    .map(
+      (word) => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase(),
+    )
     .join('')
 }
 
-export const NetworkIcon = forwardRef<SVGSVGElement, NetworkIconProps>(
-  ({ network, size, className, variant = 'mono', color }, ref) => {
-    // Try to find the network data object using the network prop
-    const networkData = networks.find(
-      (n) =>
-        n.id === network ||
-        n.name.toLowerCase() === network.toLowerCase() ||
-        (n.shortname && n.shortname.toLowerCase() === network.toLowerCase()),
-    )
+const LazyIconLoader = ({
+  network,
+  size,
+  className,
+  variant,
+  color,
+  ref,
+}: NetworkIconProps): ReactElement => {
+  const iconName = `Network${toPascalCase(network)}`
+  const importFunction = NETWORK_ICON_IMPORT_MAP[iconName]
 
-    // Initialize the icon component to null
-    let IconComponent = null
+  if (!importFunction) {
+    // Return a fallback if the import function does not exist
+    return <TokenIconLogo variant="branded" size={size} className={className} />
+  }
 
-    // Try to resolve the component name first using name, then id, then shortname
-    if (networkData) {
-      const compName = toPascalCase(networkData.name)
-      const compId = networkData.id ? toPascalCase(networkData.id) : null
-      const compShortname = networkData.shortname
-        ? toPascalCase(networkData.shortname)
-        : null
+  const IconComponent = lazy(importFunction)
 
-      // Check if component exists using name
-      IconComponent =
-        NetworkComponents[`Network${compName}` as NetworkComponentNames]
-
-      // If not found by name, check by id
-      if (!IconComponent) {
-        IconComponent =
-          NetworkComponents[`Network${compId}` as NetworkComponentNames]
+  return (
+    <Suspense
+      fallback={
+        <TokenIconLogo variant="branded" size={size} className={className} />
       }
-
-      // If not found by id, check by shortname
-      if (!IconComponent && compShortname) {
-        IconComponent =
-          NetworkComponents[`Network${compShortname}` as NetworkComponentNames]
-      }
-    }
-
-    // If no component is found, log an error and return null
-    if (!IconComponent) {
-      console.error(`No component found for network: ${network}`)
-      return null
-    }
-
-    // Render the resolved icon component
-    return (
+    >
       <IconComponent
+        ref={ref}
+        network={network}
         size={size}
         color={color}
         className={className}
         variant={variant}
+      />
+    </Suspense>
+  )
+}
+
+export const NetworkIcon = forwardRef<SVGSVGElement, NetworkIconProps>(
+  ({ network, size, className, variant = 'mono', color }, ref) => {
+    return (
+      <LazyIconLoader
+        network={network}
+        size={size}
+        className={className}
+        variant={variant}
+        color={color}
         ref={ref}
       />
     )
   },
 )
 
-export default NetworkIcon
+NetworkIcon.displayName = 'NetworkIcon'
