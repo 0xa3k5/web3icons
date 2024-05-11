@@ -3,7 +3,7 @@ import { forwardRef } from 'react';
 import { IconComponentProps } from "../../types";
 import { BaseIcon } from '../../BaseIcon';
 
-export const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono', ...props }, ref) => (
+const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono', ...props }, ref) => (
     <BaseIcon {...props} ref={ref}>
       {variant === 'mono' ? (
         <>
@@ -18,6 +18,8 @@ export const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>((
 ));
 
 {{componentName}}.displayName = '{{displayName}}';
+
+export default {{componentName}};
 `
 
 const singleVariant = `
@@ -25,13 +27,15 @@ import { forwardRef } from 'react';
 import { IconComponentProps } from "../../types";
 import { BaseIcon } from '../../BaseIcon';
 
-export const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref) => (
+const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref) => (
     <BaseIcon {...props} ref={ref}>
         {{variantJSX}}
     </BaseIcon>
 ));
 
 {{componentName}}.displayName = '{{displayName}}';
+
+export default {{componentName}};
 `
 
 export const componentScaffold = { multiVariants, singleVariant }
