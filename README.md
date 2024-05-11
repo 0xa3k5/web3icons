@@ -6,7 +6,10 @@ Token Icons is the most comprehensive and up-to-date source for cryptocurrency &
 
 ## What's New
 
-Network Icons: Use `<NetworkIcons chain={"chain-name"} />` to access Network Icons.
+v2.7.0: 
+- Dynamic imports for React components 🎉
+
+Network Icons: Use `<NetworkIcon network={"network-name"} />` to access Network Icons.
 Enhanced Naming Conventions: Our icons follow a standardized naming convention for effortless identification and use:
 
 - Tokens: Prefixed with Token, followed by the uppercase symbol (e.g., TokenETH, TokenBTC).
