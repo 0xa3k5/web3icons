@@ -28,3 +28,7 @@ export interface GeckoCoins {
   name: string
   symbol: string
 }
+
+export interface IconMap {
+  [key: string]: string
+}
