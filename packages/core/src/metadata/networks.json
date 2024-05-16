@@ -140,11 +140,25 @@
     "variants": ["branded", "mono"]
   },
   {
+    "id": "xai",
+    "name": "XAI",
+    "shortname": "",
+    "nativeCoinId": "xai-blockchain",
+    "variants": ["branded", "mono"]
+  },
+  {
     "id": "manta-pacific",
     "name": "Manta Pacific",
     "shortname": "",
     "nativeCoinId": "weth",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "zora-network",
+    "name": "Zora",
+    "shortname": "",
+    "nativeCoinId": "weth",
+    "variants": ["branded"]
   },
   {
     "id": "injective",
@@ -224,6 +238,13 @@
     "variants": ["branded", "mono"]
   },
   {
+    "id": "elrond",
+    "name": "MultiversX",
+    "shortname": "elrond",
+    "nativeCoinId": "elrond-erd-2",
+    "variants": ["branded", "mono"]
+  },
+  {
     "id": "celo",
     "name": "Celo",
     "shortname": "celo",
@@ -263,6 +284,13 @@
     "name": "Avalanche",
     "shortname": "AVAX",
     "nativeCoinId": "avalanche-2",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "optimistic-ethereum",
+    "name": "Optimism",
+    "shortname": "Optimism",
+    "nativeCoinId": "ethereum",
     "variants": ["branded", "mono"]
   },
   {

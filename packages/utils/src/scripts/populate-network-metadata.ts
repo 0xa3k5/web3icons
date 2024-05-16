@@ -38,11 +38,16 @@ const enrichedNetworks: INetworkMetadata[] = geckoNetworks
   .map((network) => {
     const variants = []
     const lowerCaseId = network.id.toLowerCase()
+    const lowerCaseName = network.name.toLowerCase()
 
-    if (svgFiles.branded.has(lowerCaseId)) {
+    if (
+      svgFiles.branded.has(lowerCaseId) ||
+      svgFiles.branded.has(lowerCaseName)
+    ) {
       variants.push('branded')
     }
-    if (svgFiles.mono.has(lowerCaseId)) {
+
+    if (svgFiles.mono.has(lowerCaseId) || svgFiles.mono.has(lowerCaseName)) {
       variants.push('mono')
     }
 

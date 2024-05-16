@@ -79,8 +79,8 @@ const processSVGFile = async (
 ): Promise<void> => {
   const fileName =
     type === 'token'
-      ? path.basename(file, '.svg').toUpperCase()
-      : path.basename(file, '.svg')
+      ? path.basename(file, '.svg').toUpperCase() // tokens
+      : path.basename(file, '.svg').toLowerCase() // networks
   console.log(fileName)
   const geckoCoins = JSON.parse(
     fs.readFileSync(path.join(__dirname, './gecko/gecko-coins.json'), 'utf8'),
@@ -115,9 +115,9 @@ const processSVGFile = async (
   } else if (type === 'network') {
     const foundNetwork = geckoNetworks.find(
       (network: any) =>
-        network.id.toUpperCase() === fileName ||
-        network.shortname.toUpperCase() === fileName ||
-        network.name.toUpperCase() === fileName,
+        network.id.toLowerCase() === fileName ||
+        network.shortname.toLowerCase() === fileName ||
+        network.name.toLowerCase() === fileName,
     )
 
     if (foundNetwork) {
