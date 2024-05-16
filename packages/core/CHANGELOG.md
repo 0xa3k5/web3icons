@@ -1,5 +1,11 @@
 # @token-icons/core
 
+## 2.7.0
+
+### Minor Changes
+
+- add network icons: Zora, XAI
+
 ## 2.6.1
 
 ### Patch Changes
