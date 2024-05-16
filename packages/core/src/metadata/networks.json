@@ -138,6 +138,13 @@
     "variants": ["branded", "mono"]
   },
   {
+    "id": "xai",
+    "name": "XAI",
+    "shortname": "",
+    "nativeCoinId": "xai-blockchain",
+    "variants": ["branded", "mono"]
+  },
+  {
     "id": "manta-pacific",
     "name": "Manta Pacific",
     "nativeCoinId": "weth",
@@ -148,6 +155,13 @@
     "name": "Immutable zkEVM",
     "nativeCoinId": "immutable-x",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "zora-network",
+    "name": "Zora",
+    "shortname": "",
+    "nativeCoinId": "weth",
+    "variants": ["branded"]
   },
   {
     "id": "injective",
