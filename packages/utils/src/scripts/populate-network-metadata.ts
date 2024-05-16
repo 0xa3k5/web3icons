@@ -37,7 +37,7 @@ const geckoNetworks: GeckoNetworks[] = JSON.parse(
 const enrichedNetworks: INetworkMetadata[] = geckoNetworks
   .map((network) => {
     const variants = []
-    const lowerCaseId = network.id.toLowerCase()
+    const lowerCaseId = network.id?.toLowerCase() || ''
     const lowerCaseName = network.name.toLowerCase()
 
     if (
