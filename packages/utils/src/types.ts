@@ -23,7 +23,6 @@ export interface GeckoNetworks {
   native_coin_id: string
 }
 
-
 export interface GeckoCoins {
   id: string
   name: string

@@ -4,7 +4,6 @@ import { GeckoNetworks, INetworkMetadata } from '../types'
 import { SVG_NETWORKS_SRC_DIR, NETWORKS_METADATA_PATH } from '../constants'
 import prettier from 'prettier'
 
-
 const SVG_NETWORKS_DIRS = {
   branded: path.join(SVG_NETWORKS_SRC_DIR, 'branded'),
   mono: path.join(SVG_NETWORKS_SRC_DIR, 'mono'),

@@ -1,5 +1,20 @@
 [
   {
+    "id": "sensegenesis",
+    "symbol": "sense",
+    "name": "Sense"
+  },
+  {
+    "id": "amzcoinvault",
+    "symbol": "amz",
+    "name": "AMZCoin"
+  },
+  {
+    "id": "danchortoken",
+    "symbol": "usn",
+    "name": "USN"
+  },
+  {
     "id": "01coin",
     "symbol": "zoc",
     "name": "01coin"
