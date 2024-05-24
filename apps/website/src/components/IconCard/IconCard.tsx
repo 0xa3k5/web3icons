@@ -1,5 +1,5 @@
 import cx from 'classnames'
-import { useEffect, useState } from 'react'
+import { PropsWithChildren, ReactNode, useEffect, useState } from 'react'
 import Checkbox from './Checkbox'
 import { useAppContext } from '../../hooks'
 import { NetworkIcon, TokenIcon } from '@token-icons/react'
@@ -9,11 +9,16 @@ import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
 interface Props {
   className?: string
   icon: ITokenMetadata | INetworkMetadata
+  label: string
 }
 
-export default function IconCard({ className, icon }: Props): JSX.Element {
-  const { size, variant, selectedIcons, setSelectedIcons, color, type } =
-    useAppContext()
+export default function IconCard({
+  className,
+  icon,
+  children,
+  label,
+}: PropsWithChildren<Props>): JSX.Element {
+  const { variant, selectedIcons, setSelectedIcons, type } = useAppContext()
 
   const [hover, setHover] = useState(false)
   const symbolOrId =
@@ -61,36 +66,14 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      {type === 'tokens' && (
-        <TokenIcon
-          variant={variant}
-          key={symbolOrId}
-          size={size}
-          color={color}
-          symbol={symbolOrId}
-        />
-      )}
-      {type === 'networks' && (
-        <NetworkIcon
-          variant={variant}
-          key={symbolOrId}
-          size={size}
-          color={color}
-          network={symbolOrId}
-        />
-      )}
+      {children}
       <span
         className={cx(
           'text-center text-white',
           isSelected ? 'text-opacity-100' : 'text-opacity-60',
         )}
       >
-        {type === 'tokens' && (
-          <span className="text-xs">{(icon as ITokenMetadata).symbol}</span>
-        )}
-        {type === 'networks' && (
-          <span className="text-xs">{(icon as INetworkMetadata).name}</span>
-        )}
+        <span className="text-xs">{label}</span>
       </span>
       <input
         type="checkbox"

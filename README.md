@@ -6,7 +6,8 @@ Token Icons is the most comprehensive and up-to-date source for cryptocurrency &
 
 ## What's New
 
-v2.7.0: 
+v2.7.0:
+
 - Dynamic imports for React components 🎉
 
 Network Icons: Use `<NetworkIcon network={"network-name"} />` to access Network Icons.
