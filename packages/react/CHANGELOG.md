@@ -1,5 +1,24 @@
 # @token-icons/react
 
+## 2.7.1
+
+### Patch Changes
+
+- new tokens: SENSE, AMZ, USN
+- Updated dependencies
+  - @token-icons/core@2.7.1
+
+## 2.7.0
+
+### Minor Changes
+
+- add network icons: Zora, XAI
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/core@2.7.0
+
 ## 2.6.1
 
 ### Patch Changes
