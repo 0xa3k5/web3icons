@@ -16,11 +16,11 @@ export interface INetworkMetadata {
 }
 
 export interface GeckoNetworks {
-  id?: string
-  chain_identifier?: string
+  id: string
+  chain_identifier: string | null
   name: string
-  shortname?: string
-  native_coin_id?: string
+  shortname: string | null
+  native_coin_id: string
 }
 
 export interface GeckoCoins {

@@ -1,7 +1,12 @@
 [
   {
-    "name": "etherlink",
     "id": "etherlink",
+    "name": "etherlink",
     "shortname": "etherlink"
+  },
+  {
+    "id": "picasso",
+    "name": "Picasso",
+    "native_coin_id": "picasso"
   }
 ]
