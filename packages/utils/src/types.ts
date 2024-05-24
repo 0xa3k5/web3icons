@@ -15,7 +15,8 @@ export interface INetworkMetadata {
   variants: string[]
 }
 
-export interface GeckoNetworks {
+// gecko-networks.json & custom-networks.json
+export interface INetworkRaw {
   id: string
   chain_identifier?: string
   name: string
@@ -23,7 +24,8 @@ export interface GeckoNetworks {
   native_coin_id: string
 }
 
-export interface GeckoCoins {
+// gecko-coins.json & custom-tokens.json
+export interface ITokenRaw {
   id: string
   name: string
   symbol: string

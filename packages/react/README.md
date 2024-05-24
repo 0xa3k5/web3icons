@@ -24,10 +24,6 @@ yarn add @token-icons/react
 bun add @token-icons/react
 ```
 
-## Supported Tokens & Networks
-
-Find the data table of supported tokens and networks [here](https://github.com/0xa3k5/token-icons/blob/main/docs/icons.md).
-
 ## Usage
 
 ### Using Individual React Components from `@token-icons/react`

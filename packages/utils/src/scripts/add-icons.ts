@@ -2,13 +2,15 @@ import { execSync } from 'child_process'
 import fs from 'fs'
 import * as path from 'path'
 import {
-  GeckoCoins,
-  GeckoNetworks,
+  ITokenRaw,
+  INetworkRaw,
   INetworkMetadata,
   ITokenMetadata,
 } from '../types'
 import geckoNetworks from './gecko/gecko-networks.json'
 import geckoCoins from './gecko/gecko-coins.json'
+import customTokens from './gecko/custom-tokens.json'
+import customNetworks from './gecko/custom-networks.json'
 import prettier from 'prettier'
 import getCoinByID from './gecko/get-coin-by-id'
 
@@ -27,19 +29,33 @@ const getModifiedIcons = () => {
     .trim()
 }
 
-const findNetworkByName = (name: string): GeckoNetworks | undefined => {
-  return (geckoNetworks as GeckoNetworks[]).find(
-    (network: GeckoNetworks) =>
-      network.id === name ||
-      network.shortname === name ||
-      network.name === name,
+// TODO: both findNetworkByName and findTokenByName are flawed
+// they find the first network or token with the file name
+const findNetworkByName = (name: string): INetworkRaw | undefined => {
+  const geckoNetwork = (geckoNetworks as INetworkRaw[]).find(
+    (network) => network.id === name ||
+    network.shortname === name ||
+    network.name === name,
   )
+
+  const customNetwork = (customNetworks as INetworkRaw[]).find(
+    (network) => network.id === name ||
+    network.shortname === name ||
+    network.name === name,
+  )
+
+  return geckoNetwork || customNetwork
 }
 
-const findTokenByName = (name: string): GeckoCoins | undefined => {
-  return (geckoCoins as GeckoCoins[]).find(
-    (token: GeckoCoins) => token.id === name || token.symbol === name,
+const findTokenByName = (name: string): ITokenRaw | undefined => {
+  const geckoCoin = (geckoCoins as ITokenRaw[]).find(
+    (token) => token.id === name || token.name === name || token.symbol === name,
   )
+  const customCoin = (customTokens as ITokenRaw[]).find(
+    (token) => token.id === name || token.symbol === name || token.name === name,
+  )
+
+  return geckoCoin || customCoin
 }
 
 const appendToJson = async (
@@ -80,7 +96,7 @@ const appendToJson = async (
 const validateSvg = (filePath: string): boolean => {
   const svgContent = fs.readFileSync(filePath, 'utf8')
   const type = filePath.includes('/tokens/') ? 'token' : 'network'
-  const fileName = path.basename(filePath)
+  const fileName = path.basename(filePath, '.svg')
 
   // check size
   const hasCorrectDimensions =
@@ -114,12 +130,12 @@ const updateMetadata = async (filePath: string): Promise<void> => {
   const variant = filePath.includes('/mono/') ? 'mono' : 'branded'
 
   if (type === 'network') {
-    const geckoNetwork = findNetworkByName(fileName)
+    const network = findNetworkByName(fileName)
 
-    if (geckoNetwork) {
+    if (network) {
       await appendToJson(
         {
-          ...geckoNetwork,
+          ...network,
           variants: [variant],
         },
         'networks',
@@ -134,21 +150,25 @@ const updateMetadata = async (filePath: string): Promise<void> => {
 
   if (type === 'token') {
     // find token metadata based on file name
-    const geckoCoin = findTokenByName(fileName)
+    const token = findTokenByName(fileName)
 
-    if (geckoCoin) {
+    if (token) {
       const tokenMetadata: ITokenMetadata = {
-        id: geckoCoin.id,
-        symbol: geckoCoin.symbol,
-        name: geckoCoin.name,
+        id: token.id,
+        symbol: token.symbol,
+        name: token.name,
         variants: [variant],
         marketCapRank: 0, // will be fetched below
         addresses: {}, // will be fetched below
       }
 
-      const data = await getCoinByID(geckoCoin.id)
-      tokenMetadata.addresses = data.platforms
-      tokenMetadata.marketCapRank = data.market_cap_rank
+      console.log({token})
+
+      const data = await getCoinByID(token.id)
+      console.log({data})
+
+      tokenMetadata.addresses = data?.platforms || {}
+      tokenMetadata.marketCapRank = data?.market_cap_rank || null
 
       appendToJson(tokenMetadata, 'tokens')
     } else {

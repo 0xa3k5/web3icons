@@ -43,6 +43,10 @@ This will install the `@token-icons/core` package, which serves optimized SVGs a
 
 > You can install either of the packages based on your project's needs.
 
+## Supported Tokens & Networks
+
+Find the data table of supported tokens and networks [here](https://github.com/0xa3k5/token-icons/blob/main/docs/icons.md).
+
 ## Usage
 
 ### Using Individual React Components from `@token-icons/react`
