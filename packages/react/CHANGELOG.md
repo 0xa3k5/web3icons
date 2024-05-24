@@ -1,5 +1,13 @@
 # @token-icons/react
 
+## 2.7.1
+
+### Patch Changes
+
+- new tokens: SENSE, AMZ, USN
+- Updated dependencies
+  - @token-icons/core@2.7.1
+
 ## 2.7.0
 
 ### Minor Changes
