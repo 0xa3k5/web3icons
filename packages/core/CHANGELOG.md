@@ -1,5 +1,11 @@
 # @token-icons/core
 
+## 2.8.1
+
+### Patch Changes
+
+- fix AMZ variants
+
 ## 2.8.0
 
 ### Minor Changes
