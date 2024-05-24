@@ -24,6 +24,10 @@ yarn add @token-icons/react
 bun add @token-icons/react
 ```
 
+## Supported Tokens & Networks
+
+Find the data table of supported tokens and networks [here](https://github.com/0xa3k5/token-icons/blob/main/docs/icons.md).
+
 ## Usage
 
 ### Using Individual React Components from `@token-icons/react`
@@ -84,15 +88,15 @@ export default App
 
 - `symbol?`: the ticker symbol of the token. e.g. "ETH", "BTC", "GRT"
 - `address?`: the contract address of the token.
-- `chain?`: the blockchain network of the token.
+- `network?`: the blockchain network of the token.
 - `variant?` = "mono": can be "mono" or "branded" to choose the icon style.
 - `size?`: size of the icon (number or string).
 - `color?`: color of the icon (CSS color value).
 - `className?`: additional CSS class for custom styling.
 
-> You need to pass either symbol or address _and_ chain.
+> You need to pass either symbol or address _and_ network.
 
-`<TokenIcon />` accepts a union of types for `symbol`, `address`, and `chain`. This allows for flexibility in using the component.
+`<TokenIcon />` accepts a union of types for `symbol`, `address`, and `network`. This allows for flexibility in using the component.
 
 #### Using Symbols:
 
@@ -126,12 +130,12 @@ export default App
 
 #### Chain Specific
 
-You can pass in **both** chain and an address to render a specific token icon. refer to [metadata](https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/tokens.json) for full list of symbols, addresses and chains.
+You can pass in **both** network and an address to render a specific token icon. refer to [metadata](https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/tokens.json) for full list of symbols, addresses and networks.
 
 ```jsx
 import { TokenIcon } from '@token-icons/react'
 ;<TokenIcon
-  chain="ethereum"
+  network="ethereum"
   address="0xc944e90c64b2c07662a292be6244bdf05cda44a7"
   size={32}
   variant={'branded'}

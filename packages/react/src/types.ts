@@ -1,8 +1,10 @@
 import { SVGProps } from 'react'
+
 export interface BaseIconProps extends SVGProps<SVGSVGElement> {
   size?: string | number
 }
-export interface IconComponentProps {
+
+export interface IconComponentProps extends SVGProps<SVGSVGElement> {
   variant: 'mono' | 'branded'
   size?: number | string
   color?: string

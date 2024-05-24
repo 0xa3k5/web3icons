@@ -70,6 +70,18 @@ export const kebabToCamel = (str: string) => {
     .join('')
 }
 
+export const toKebabCase = (str: string) => {
+  return str
+    .split(' ')
+    .map((part, index) => {
+      if (index === 0) {
+        return part
+      }
+      return part.charAt(0).toLowerCase() + part.slice(1)
+    })
+    .join('-')
+}
+
 const injectCurrentColor = (svgRaw: string) => {
   const $ = cheerio.load(svgRaw, { xmlMode: true })
   $('*').each((_, el) => {

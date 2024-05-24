@@ -13,7 +13,7 @@ import { filterAndSortIcons } from '../utils'
 export interface AppContextType {
   type: 'tokens' | 'networks'
   setType: React.Dispatch<React.SetStateAction<'tokens' | 'networks'>>
-  tokenIcons: ITokenMetadata[] | INetworkMetadata[]
+  icons: ITokenMetadata[] | INetworkMetadata[]
   searchTerm: string
   setSearchTerm: React.Dispatch<React.SetStateAction<string>>
   variant: 'mono' | 'branded'
@@ -69,7 +69,7 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
       value={{
         type,
         setType,
-        tokenIcons: shownIcons,
+        icons: shownIcons,
         searchTerm,
         setSearchTerm,
         variant,

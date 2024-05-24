@@ -16,7 +16,7 @@ const generateIndexFile = (
   const exports = svgFiles
     .map((svgFile) => {
       const baseName = path.basename(svgFile, '.tsx')
-      return `export { ${baseName} } from './${baseName}';\n`
+      return `export { default as ${baseName} } from './${baseName}';\n`
     })
     .join('')
 
