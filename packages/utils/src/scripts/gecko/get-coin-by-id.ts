@@ -10,19 +10,13 @@ const getCoinByID = async (id: string): Promise<any> => {
         await new Promise((resolve) => setTimeout(resolve, 20000)) // Increase the wait time
         return getCoinByID(id) // Retry the API call
       }
-      if (response.status === 404) {
-        return undefined
-      }
       throw new Error(`Failed to fetch data for coin: ${id}`)
     }
 
     const data = await response.json()
 
-    if (!data) {
-      return undefined
-    }
-
-    if (data?.status?.error_code === 429) {
+    // Check if data is undefined or does not contain the expected structure
+    if (!data || data?.status?.error_code === 429) {
       console.log(`Rate limited. Waiting before retrying for coin: ${id}`)
       await new Promise((resolve) => setTimeout(resolve, 5000)) // Wait 5 seconds
       return getCoinByID(id) // Retry the API call

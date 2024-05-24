@@ -14,21 +14,9 @@
     "native_coin_id": "factom"
   },
   {
-    "id": "neo",
-    "name": "NEO",
-    "native_coin_id": "neo"
-  },
-  {
     "id": "fraxtal",
-    "chain_identifier": 252,
     "name": "Fraxtal",
     "native_coin_id": "fraxtal"
-  },
-  {
-    "id": "oasys",
-    "chain_identifier": 248,
-    "name": "Oasys",
-    "native_coin_id": "oasys"
   },
   {
     "id": "findora",
@@ -40,6 +28,16 @@
     "chain_identifier": 96,
     "name": "Bitkub Chain",
     "native_coin_id": "bitkub-coin"
+  },
+  {
+    "id": "oasys",
+    "name": "Oasys",
+    "native_coin_id": "oasys"
+  },
+  {
+    "id": "energi",
+    "name": "Energi",
+    "native_coin_id": "energi"
   },
   {
     "id": "velas",
@@ -90,6 +88,23 @@
     "native_coin_id": "komodo"
   },
   {
+    "id": "huobi-token",
+    "chain_identifier": 128,
+    "name": "Huobi ECO Chain Mainnet",
+    "shortname": "HECO",
+    "native_coin_id": "huobi-token"
+  },
+  {
+    "id": "ethereum-classic",
+    "name": "Ethereum Classic",
+    "native_coin_id": "ethereum-classic"
+  },
+  {
+    "id": "eos",
+    "name": "EOS",
+    "native_coin_id": "eos"
+  },
+  {
     "id": "counterparty",
     "name": "Counterparty",
     "native_coin_id": "counterparty"
@@ -121,6 +136,11 @@
     "native_coin_id": "nuls"
   },
   {
+    "id": "neo",
+    "name": "NEO",
+    "native_coin_id": "neo"
+  },
+  {
     "id": "tezos",
     "name": "Tezos",
     "native_coin_id": "tezos"
@@ -137,19 +157,9 @@
     "native_coin_id": "yocoin"
   },
   {
-    "id": "internet-computer",
-    "name": "Internet Computer",
-    "native_coin_id": "internet-computer"
-  },
-  {
     "id": "exosama",
     "name": "Exosama",
     "native_coin_id": "exosama-network"
-  },
-  {
-    "id": "sora",
-    "name": "Sora",
-    "native_coin_id": "sora"
   },
   {
     "id": "godwoken",
@@ -167,17 +177,23 @@
     "native_coin_id": "neutron"
   },
   {
-    "id": "defi-kingdoms-blockchain",
-    "chain_identifier": 53935,
-    "name": "DFK Chain",
-    "shortname": "DFK Chain",
-    "native_coin_id": "defi-kingdoms"
+    "id": "aurora",
+    "chain_identifier": 1313161554,
+    "name": "Aurora",
+    "shortname": "aurora",
+    "native_coin_id": "aurora-near"
   },
   {
     "id": "cybria",
     "chain_identifier": 6661,
     "name": "Cybria",
     "native_coin_id": "wrapped-cybria"
+  },
+  {
+    "id": "bittorrent",
+    "chain_identifier": 199,
+    "name": "BitTorrent",
+    "native_coin_id": "bittorrent"
   },
   {
     "id": "rollux",
@@ -199,7 +215,7 @@
   {
     "id": "polygon-pos",
     "chain_identifier": 137,
-    "name": "Polygon POS",
+    "name": "Polygon",
     "shortname": "MATIC",
     "native_coin_id": "matic-network"
   },
@@ -219,6 +235,19 @@
     "native_coin_id": "aura-network"
   },
   {
+    "id": "smartbch",
+    "chain_identifier": 10000,
+    "name": "SmartBCH",
+    "native_coin_id": "bitcoin-cash"
+  },
+  {
+    "id": "moonriver",
+    "chain_identifier": 1285,
+    "name": "Moonriver",
+    "shortname": "moonriver",
+    "native_coin_id": "moonriver"
+  },
+  {
     "id": "echelon",
     "name": "Echelon",
     "native_coin_id": "echelon"
@@ -227,6 +256,18 @@
     "id": "acala",
     "name": "Acala",
     "native_coin_id": "acala"
+  },
+  {
+    "id": "tomochain",
+    "chain_identifier": 88,
+    "name": "TomoChain",
+    "native_coin_id": "tomochain"
+  },
+  {
+    "id": "defi-kingdoms-blockchain",
+    "name": "DFK Chain",
+    "shortname": "DFK Chain",
+    "native_coin_id": "defi-kingdoms"
   },
   {
     "id": "everscale",
@@ -241,10 +282,19 @@
     "native_coin_id": "harmony"
   },
   {
-    "id": "skale",
-    "chain_identifier": 2046399126,
-    "name": "Skale",
-    "native_coin_id": "skale"
+    "id": "terra",
+    "name": "Terra Classic",
+    "native_coin_id": "terra-luna"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "native_coin_id": "sora"
+  },
+  {
+    "id": "terra-2",
+    "name": "Terra",
+    "native_coin_id": "terra-luna-2"
   },
   {
     "id": "tron",
@@ -252,10 +302,9 @@
     "native_coin_id": "tron"
   },
   {
-    "id": "telos",
-    "chain_identifier": 40,
-    "name": "Telos",
-    "native_coin_id": "telos"
+    "id": "dogechain",
+    "name": "Dogechain",
+    "native_coin_id": "dogechain"
   },
   {
     "id": "saga",
@@ -263,17 +312,25 @@
     "native_coin_id": "saga-2"
   },
   {
-    "id": "rootstock",
-    "chain_identifier": 30,
-    "name": "Rootstock RSK",
-    "native_coin_id": "rootstock"
+    "id": "ethereumpow",
+    "name": "EthereumPoW",
+    "native_coin_id": "ethereum-pow-iou"
   },
   {
-    "id": "oasis",
-    "chain_identifier": 42262,
-    "name": "Oasis Emerald",
-    "shortname": "oasis",
-    "native_coin_id": "oasis-network"
+    "id": "migaloo",
+    "name": "Migaloo",
+    "native_coin_id": "white-whale"
+  },
+  {
+    "id": "polygon-zkevm",
+    "chain_identifier": 1101,
+    "name": "Polygon zkEVM",
+    "native_coin_id": "ethereum"
+  },
+  {
+    "id": "telos",
+    "name": "Telos",
+    "native_coin_id": "telos"
   },
   {
     "id": "mantle",
@@ -288,15 +345,27 @@
     "native_coin_id": "ethereum"
   },
   {
+    "id": "archway",
+    "name": "Archway",
+    "native_coin_id": "archway"
+  },
+  {
+    "id": "oasis",
+    "chain_identifier": 42262,
+    "name": "Oasis",
+    "shortname": "oasis",
+    "native_coin_id": "oasis-network"
+  },
+  {
+    "id": "fuse",
+    "chain_identifier": 122,
+    "name": "Fuse",
+    "native_coin_id": "fuse-network-token"
+  },
+  {
     "id": "algorand",
     "name": "Algorand",
     "native_coin_id": "algorand"
-  },
-  {
-    "id": "dogechain",
-    "chain_identifier": 2000,
-    "name": "Dogechain",
-    "native_coin_id": "dogechain"
   },
   {
     "id": "tombchain",
@@ -331,16 +400,26 @@
     "native_coin_id": "assetmantle"
   },
   {
-    "id": "kardiachain",
-    "chain_identifier": 24,
-    "name": "KardiaChain",
-    "shortname": "kardiachain",
-    "native_coin_id": "kardiachain"
+    "id": "rootstock",
+    "chain_identifier": 30,
+    "name": "Rootstock RSK",
+    "native_coin_id": "rootstock"
   },
   {
-    "id": "venom",
-    "name": "Venom",
-    "native_coin_id": "venom"
+    "id": "meter",
+    "chain_identifier": 82,
+    "name": "Meter",
+    "native_coin_id": "meter"
+  },
+  {
+    "id": "core",
+    "name": "Core",
+    "native_coin_id": "coredaoorg"
+  },
+  {
+    "id": "internet-computer",
+    "name": "Internet Computer",
+    "native_coin_id": "internet-computer"
   },
   {
     "id": "mode",
@@ -361,11 +440,10 @@
     "native_coin_id": "degen-base"
   },
   {
-    "id": "kucoin-community-chain",
-    "chain_identifier": 321,
-    "name": "Kucoin Community Chain",
-    "shortname": "KCC",
-    "native_coin_id": "kucoin-shares"
+    "id": "kardiachain",
+    "name": "KardiaChain",
+    "shortname": "kardiachain",
+    "native_coin_id": "kardiachain"
   },
   {
     "id": "cronos",
@@ -398,6 +476,19 @@
     "native_coin_id": "steam-exchange"
   },
   {
+    "id": "conflux",
+    "name": "Conflux",
+    "shortname": "conflux",
+    "native_coin_id": "conflux-token"
+  },
+  {
+    "id": "kucoin-community-chain",
+    "chain_identifier": 321,
+    "name": "Kucoin Community Chain",
+    "shortname": "KCC",
+    "native_coin_id": "kucoin-shares"
+  },
+  {
     "id": "stargaze",
     "name": "Stargaze",
     "native_coin_id": "stargaze"
@@ -413,10 +504,9 @@
     "native_coin_id": "mdex"
   },
   {
-    "id": "bahamut",
-    "chain_identifier": 5165,
-    "name": "Bahamut",
-    "native_coin_id": "fasttoken"
+    "id": "klay-token",
+    "name": "Klaytn",
+    "native_coin_id": "klay-token"
   },
   {
     "id": "starknet",
@@ -460,6 +550,11 @@
     "native_coin_id": "matrix-ai-network"
   },
   {
+    "id": "skale",
+    "name": "Skale",
+    "native_coin_id": "skale"
+  },
+  {
     "id": "ShibChain",
     "name": "ShibChain",
     "native_coin_id": "shibchain"
@@ -499,6 +594,11 @@
     "id": "metaverse-etp",
     "name": "Metaverse ETP",
     "native_coin_id": "metaverse-etp"
+  },
+  {
+    "id": "waves",
+    "name": "Waves",
+    "native_coin_id": "waves"
   },
   {
     "id": "ardor",
@@ -559,17 +659,17 @@
     "native_coin_id": "zetachain"
   },
   {
-    "id": "shiden network",
-    "chain_identifier": 336,
-    "name": "Shiden Network",
-    "native_coin_id": "shiden"
-  },
-  {
     "id": "syscoin",
     "chain_identifier": 57,
     "name": "Syscoin NEVM",
     "shortname": "syscoin",
     "native_coin_id": "syscoin"
+  },
+  {
+    "id": "iotex",
+    "name": "IoTeX",
+    "shortname": "iotex",
+    "native_coin_id": "iotex"
   },
   {
     "id": "casper-network",
@@ -609,9 +709,10 @@
     "native_coin_id": "cube-network"
   },
   {
-    "id": "bifrost-network",
-    "name": "Bifrost Network",
-    "native_coin_id": "bifrost"
+    "id": "elastos",
+    "name": "Elastos Smart Contract Chain",
+    "shortname": "Elastos",
+    "native_coin_id": "elastos"
   },
   {
     "id": "metis-andromeda",
@@ -620,15 +721,20 @@
     "native_coin_id": "metis-token"
   },
   {
+    "id": "vechain",
+    "name": "VeChain",
+    "native_coin_id": "vechain"
+  },
+  {
+    "id": "wanchain",
+    "name": "Wanchain",
+    "native_coin_id": "wanchain"
+  },
+  {
     "id": "filecoin",
     "chain_identifier": 314,
     "name": "Filecoin",
     "native_coin_id": "filecoin"
-  },
-  {
-    "id": "cellframe",
-    "name": "Cellframe",
-    "native_coin_id": "cellframe"
   },
   {
     "id": "zilliqa",
@@ -691,10 +797,9 @@
     "native_coin_id": "okb"
   },
   {
-    "id": "vechain",
-    "chain_identifier": 100009,
-    "name": "VeChain",
-    "native_coin_id": "vechain"
+    "id": "radix",
+    "name": "Radix",
+    "native_coin_id": "radix"
   },
   {
     "id": "sei-network",
@@ -712,6 +817,12 @@
     "name": "Osmosis",
     "shortname": "Osmo",
     "native_coin_id": "osmosis"
+  },
+  {
+    "id": "milkomeda-cardano",
+    "chain_identifier": 2001,
+    "name": "Milkomeda (Cardano)",
+    "native_coin_id": "cardano"
   },
   {
     "id": "akash",
@@ -778,21 +889,27 @@
     "native_coin_id": "weth"
   },
   {
+    "id": "astar-zkevm",
+    "chain_identifier": 3776,
+    "name": "Astar zkEVM",
+    "native_coin_id": "weth"
+  },
+  {
     "id": "pulsechain",
     "chain_identifier": 369,
     "name": "Pulsechain",
     "native_coin_id": "pulsechain"
   },
   {
-    "id": "meter",
-    "chain_identifier": 82,
-    "name": "Meter",
-    "native_coin_id": "meter"
-  },
-  {
     "id": "injective",
     "name": "Injective",
     "native_coin_id": "injective-protocol"
+  },
+  {
+    "id": "flare-network",
+    "chain_identifier": 14,
+    "name": "Flare Network",
+    "native_coin_id": "flare-networks"
   },
   {
     "id": "orenium",
@@ -805,10 +922,16 @@
     "native_coin_id": "beam"
   },
   {
-    "id": "saita-chain",
-    "chain_identifier": 1209,
-    "name": "Saita Chain",
-    "native_coin_id": "saitachain-coin-2"
+    "id": "oasis-sapphire",
+    "chain_identifier": 23294,
+    "name": "Oasis Sapphire",
+    "native_coin_id": "oasis-network"
+  },
+  {
+    "id": "lukso",
+    "chain_identifier": 42,
+    "name": "Lukso",
+    "native_coin_id": "lukso-token-2"
   },
   {
     "id": "solana",
@@ -820,7 +943,14 @@
     "id": "blast",
     "chain_identifier": 81457,
     "name": "Blast",
-    "native_coin_id": "blast-old"
+    "native_coin_id": "blast"
+  },
+  {
+    "id": "xdc-network",
+    "chain_identifier": 50,
+    "name": "XDC Network",
+    "shortname": "xdc xinfin",
+    "native_coin_id": "xdce-crowd-sale"
   },
   {
     "id": "moonbeam",
@@ -834,15 +964,21 @@
     "native_coin_id": "ergo"
   },
   {
-    "id": "turan-network",
-    "name": "TTcoin Smart Chain",
-    "native_coin_id": "turan-network"
+    "id": "astar",
+    "name": "Astar",
+    "native_coin_id": "astar"
   },
   {
     "id": "hoo-smart-chain",
     "chain_identifier": 70,
     "name": "Hoo Smart Chain",
     "native_coin_id": "hoo-token"
+  },
+  {
+    "id": "shiden network",
+    "chain_identifier": 8545,
+    "name": "Shiden Network",
+    "native_coin_id": "shiden"
   },
   {
     "id": "zksync",
@@ -852,21 +988,10 @@
     "native_coin_id": "ethereum"
   },
   {
-    "id": "eos",
-    "name": "EOS",
-    "native_coin_id": "eos"
-  },
-  {
     "id": "ordinals",
     "name": "Bitcoin",
     "shortname": "Ordinals",
     "native_coin_id": "bitcoin"
-  },
-  {
-    "id": "oasis-sapphire",
-    "chain_identifier": 23294,
-    "name": "Oasis Sapphire",
-    "native_coin_id": "oasis-network"
   },
   {
     "id": "juno",
@@ -874,10 +999,9 @@
     "native_coin_id": "juno-network"
   },
   {
-    "id": "elrond",
-    "name": "MultiversX",
-    "shortname": "elrond",
-    "native_coin_id": "elrond-erd-2"
+    "id": "polkadot",
+    "name": "Polkadot",
+    "native_coin_id": "polkadot"
   },
   {
     "id": "Bitcichain",
@@ -903,21 +1027,26 @@
     "native_coin_id": "crescent-network"
   },
   {
-    "id": "aelf",
-    "name": "AELF",
-    "native_coin_id": "aelf"
+    "id": "flow",
+    "name": "Flow",
+    "native_coin_id": "flow"
   },
   {
-    "id": "core",
-    "chain_identifier": 1116,
-    "name": "Core",
-    "native_coin_id": "coredaoorg"
+    "id": "shimmer_evm",
+    "chain_identifier": 148,
+    "name": "ShimmerEVM",
+    "native_coin_id": "shimmer"
   },
   {
     "id": "polis-chain",
     "chain_identifier": 333999,
     "name": "Polis Chain",
     "native_coin_id": "polis"
+  },
+  {
+    "id": "proof-of-memes",
+    "name": "Proof of Memes",
+    "native_coin_id": "proof-of-memes-pomchain"
   },
   {
     "id": "mixin-network",
@@ -943,6 +1072,12 @@
     "native_coin_id": "hedera-hashgraph"
   },
   {
+    "id": "boba",
+    "chain_identifier": 288,
+    "name": "Boba Network",
+    "native_coin_id": "ethereum"
+  },
+  {
     "id": "furya",
     "name": "Furya",
     "native_coin_id": "fanfury"
@@ -954,10 +1089,22 @@
     "native_coin_id": "ethereum"
   },
   {
-    "id": "boba",
-    "chain_identifier": 288,
-    "name": "Boba Network",
-    "native_coin_id": "ethereum"
+    "id": "elrond",
+    "name": "MultiversX",
+    "shortname": "elrond",
+    "native_coin_id": "elrond-erd-2"
+  },
+  {
+    "id": "celo",
+    "chain_identifier": 42220,
+    "name": "Celo",
+    "shortname": "celo",
+    "native_coin_id": "celo"
+  },
+  {
+    "id": "step-network",
+    "name": "Step Network",
+    "native_coin_id": "stepex"
   },
   {
     "id": "eos-evm",
@@ -1008,6 +1155,12 @@
     "native_coin_id": "binancecoin"
   },
   {
+    "id": "songbird",
+    "chain_identifier": 19,
+    "name": "Songbird",
+    "native_coin_id": "songbird"
+  },
+  {
     "id": "celer-network",
     "name": "Celer Network",
     "shortname": "Celer",
@@ -1019,10 +1172,9 @@
     "native_coin_id": "loopring"
   },
   {
-    "id": "flare-network",
-    "chain_identifier": 14,
-    "name": "Flare Network",
-    "native_coin_id": "flare-networks"
+    "id": "hydra",
+    "name": "Hydra",
+    "native_coin_id": "hydra"
   },
   {
     "id": "clover",
@@ -1035,20 +1187,20 @@
     "native_coin_id": "bifrost-native-coin"
   },
   {
-    "id": "waves",
-    "name": "Waves",
-    "native_coin_id": "waves"
+    "id": "xrp",
+    "name": "XRP Ledger",
+    "shortname": "xrp",
+    "native_coin_id": "ripple"
+  },
+  {
+    "id": "secret",
+    "name": "Secret",
+    "native_coin_id": "secret"
   },
   {
     "id": "ki-chain",
     "name": "Ki Chain",
     "native_coin_id": "ki"
-  },
-  {
-    "id": "songbird",
-    "chain_identifier": 19,
-    "name": "Songbird",
-    "native_coin_id": "songbird"
   },
   {
     "id": "fantom",
@@ -1071,6 +1223,11 @@
     "native_coin_id": "ethereum"
   },
   {
+    "id": "bitrock",
+    "name": "Bitrock",
+    "native_coin_id": "bitrock"
+  },
+  {
     "id": "scroll",
     "chain_identifier": 534352,
     "name": "Scroll",
@@ -1087,10 +1244,11 @@
     "native_coin_id": "graviton"
   },
   {
-    "id": "shimmer_evm",
-    "chain_identifier": 148,
-    "name": "ShimmerEVM",
-    "native_coin_id": "shimmer"
+    "id": "evmos",
+    "chain_identifier": 9001,
+    "name": "Evmos",
+    "shortname": "evmos",
+    "native_coin_id": "evmos"
   },
   {
     "id": "aptos",
@@ -1213,21 +1371,27 @@
     "native_coin_id": "cacao"
   },
   {
+    "id": "kadena",
+    "name": "Kadena",
+    "native_coin_id": "kadena"
+  },
+  {
     "id": "chiliz",
     "name": "Chiliz",
     "native_coin_id": "chiliz"
   },
   {
-    "id": "galachain",
-    "name": "GalaChain",
-    "native_coin_id": "gala"
+    "id": "okex-chain",
+    "chain_identifier": 66,
+    "name": "OKT Chain",
+    "shortname": "OKEx",
+    "native_coin_id": "oec-token"
   },
   {
-    "id": "conflux",
-    "chain_identifier": 1030,
-    "name": "Conflux",
-    "shortname": "conflux",
-    "native_coin_id": "conflux-token"
+    "id": "thundercore",
+    "chain_identifier": 108,
+    "name": "ThunderCore",
+    "native_coin_id": "thunder-token"
   },
   {
     "id": "bitgert",
@@ -1242,19 +1406,9 @@
     "native_coin_id": "blockstack"
   },
   {
-    "id": "bsquared-network",
-    "name": "BSquared Network",
-    "native_coin_id": "bitcoin"
-  },
-  {
-    "id": "flow",
-    "name": "Flow",
-    "native_coin_id": "flow"
-  },
-  {
-    "id": "hyperliquid",
-    "name": "Hyperliquid",
-    "native_coin_id": "usd-coin"
+    "id": "galachain",
+    "name": "GalaChain",
+    "native_coin_id": "gala"
   },
   {
     "id": "x-layer",
@@ -1263,289 +1417,8 @@
     "native_coin_id": "okb"
   },
   {
-    "id": "kadena",
-    "name": "Kadena",
-    "native_coin_id": "kadena"
-  },
-  {
-    "id": "massa",
-    "name": "Massa",
-    "native_coin_id": "massa"
-  },
-  {
-    "id": "bitlayer",
-    "chain_identifier": 200901,
-    "name": "Bitlayer",
-    "native_coin_id": "bitcoin"
-  },
-  {
-    "id": "lukso",
-    "chain_identifier": 42,
-    "name": "Lukso",
-    "native_coin_id": "lukso-token-2"
-  },
-  {
-    "id": "bevm",
-    "chain_identifier": 11501,
-    "name": "BEVM",
-    "native_coin_id": "bitcoin"
-  },
-  {
-    "id": "tdvv-sidechain",
-    "name": "tDVV SideChain",
-    "native_coin_id": "aelf"
-  },
-  {
-    "id": "octaspace",
-    "chain_identifier": 800001,
-    "name": "OctaSpace",
-    "native_coin_id": "octaspace"
-  },
-  {
-    "id": "radix",
-    "name": "Radix",
-    "native_coin_id": "radix"
-  },
-  {
-    "id": "polkadot",
-    "name": "Polkadot",
-    "native_coin_id": "polkadot"
-  },
-  {
-    "id": "klay-token",
-    "chain_identifier": 8217,
-    "name": "Klaytn",
-    "native_coin_id": "klay-token"
-  },
-  {
-    "id": "oraichain",
-    "name": "Oraichain",
-    "native_coin_id": "oraichain-token"
-  },
-  {
-    "id": "zklink-nova",
-    "chain_identifier": 810180,
-    "name": "zkLink Nova [Deprecated]",
-    "native_coin_id": "zklink"
-  },
-  {
-    "id": "moonriver",
-    "chain_identifier": 1285,
-    "name": "Moonriver",
-    "shortname": "moonriver",
-    "native_coin_id": "moonriver"
-  },
-  {
-    "id": "wax",
-    "name": "WAX",
-    "native_coin_id": "wax"
-  },
-  {
-    "id": "zklink-nova",
-    "chain_identifier": 810180,
-    "name": " zkLink Nova",
-    "native_coin_id": "zklink"
-  },
-  {
-    "id": "aurora",
-    "chain_identifier": 1313161554,
-    "name": "Aurora",
-    "shortname": "aurora",
-    "native_coin_id": "aurora-near"
-  },
-  {
-    "id": "celo",
-    "chain_identifier": 42220,
-    "name": "Celo",
-    "shortname": "celo",
-    "native_coin_id": "celo"
-  },
-  {
-    "id": "archway",
-    "name": "Archway",
-    "native_coin_id": "archway"
-  },
-  {
-    "id": "xrp",
-    "name": "XRP Ledger",
-    "shortname": "xrp",
-    "native_coin_id": "ripple"
-  },
-  {
-    "id": "energi",
-    "chain_identifier": 39797,
-    "name": "Energi",
-    "native_coin_id": "energi"
-  },
-  {
-    "id": "polygon-zkevm",
-    "chain_identifier": 1101,
-    "name": "Polygon zkEVM",
-    "native_coin_id": "ethereum"
-  },
-  {
-    "id": "evmos",
-    "chain_identifier": 9001,
-    "name": "Evmos",
-    "shortname": "evmos",
-    "native_coin_id": "evmos"
-  },
-  {
-    "id": "huobi-token",
-    "chain_identifier": 128,
-    "name": "Huobi ECO Chain Mainnet",
-    "shortname": "HECO",
-    "native_coin_id": "huobi-token"
-  },
-  {
-    "id": "terra",
-    "name": "Terra Classic",
-    "native_coin_id": "terra-luna"
-  },
-  {
-    "id": "secret",
-    "name": "Secret",
-    "native_coin_id": "secret"
-  },
-  {
-    "id": "iotex",
-    "chain_identifier": 4689,
-    "name": "IoTeX",
-    "shortname": "iotex",
-    "native_coin_id": "iotex"
-  },
-  {
-    "id": "milkomeda-cardano",
-    "chain_identifier": 2001,
-    "name": "Milkomeda (Cardano)",
-    "native_coin_id": "cardano"
-  },
-  {
-    "id": "astar",
-    "chain_identifier": 592,
-    "name": "Astar",
-    "native_coin_id": "astar"
-  },
-  {
-    "id": "fuse",
-    "chain_identifier": 122,
-    "name": "Fuse",
-    "native_coin_id": "fuse-network-token"
-  },
-  {
-    "id": "okex-chain",
-    "chain_identifier": 66,
-    "name": "OKT Chain",
-    "shortname": "OKEx",
-    "native_coin_id": "oec-token"
-  },
-  {
-    "id": "tomochain",
-    "chain_identifier": 88,
-    "name": "Viction",
-    "native_coin_id": "tomochain"
-  },
-  {
-    "id": "xdc-network",
-    "chain_identifier": 50,
-    "name": "XDC Network",
-    "shortname": "xdc xinfin",
-    "native_coin_id": "xdce-crowd-sale"
-  },
-  {
-    "id": "terra-2",
-    "name": "Terra",
-    "native_coin_id": "terra-luna-2"
-  },
-  {
-    "id": "bob-network",
-    "name": "Bob Network",
-    "native_coin_id": "weth"
-  },
-  {
-    "id": "wanchain",
-    "chain_identifier": 888,
-    "name": "Wanchain",
-    "native_coin_id": "wanchain"
-  },
-  {
-    "id": "ethereum-classic",
-    "chain_identifier": 61,
-    "name": "Ethereum Classic",
-    "native_coin_id": "ethereum-classic"
-  },
-  {
-    "id": "ethereumpow",
-    "name": "EthereumPoW",
-    "native_coin_id": "ethereum-pow-iou"
-  },
-  {
-    "id": "bittorrent",
-    "chain_identifier": 199,
-    "name": "BitTorrent",
-    "native_coin_id": "bittorrent"
-  },
-  {
-    "id": "elastos",
-    "chain_identifier": 20,
-    "name": "Elastos Smart Contract Chain",
-    "shortname": "Elastos",
-    "native_coin_id": "elastos"
-  },
-  {
-    "id": "smartbch",
-    "chain_identifier": 10000,
-    "name": "SmartBCH",
-    "native_coin_id": "bitcoin-cash"
-  },
-  {
-    "id": "step-network",
-    "chain_identifier": 1234,
-    "name": "Step Network",
-    "native_coin_id": "stepex"
-  },
-  {
-    "id": "migaloo",
-    "name": "Migaloo",
-    "native_coin_id": "white-whale"
-  },
-  {
-    "id": "bitrock",
-    "chain_identifier": 7171,
-    "name": "Bitrock",
-    "native_coin_id": "bitrock"
-  },
-  {
-    "id": "thundercore",
-    "chain_identifier": 108,
-    "name": "ThunderCore",
-    "native_coin_id": "thunder-token"
-  },
-  {
-    "id": "proof-of-memes",
-    "chain_identifier": 18159,
-    "name": "Proof of Memes",
-    "native_coin_id": "proof-of-memes-pomchain"
-  },
-  {
-    "id": "hydra",
-    "name": "Hydra",
-    "native_coin_id": "hydra"
-  },
-  {
-    "id": "astar-zkevm",
-    "chain_identifier": 3776,
-    "name": "Astar zkEVM",
-    "native_coin_id": "weth"
-  },
-  {
-    "id": "etherlink",
     "name": "etherlink",
+    "id": "etherlink",
     "shortname": "etherlink"
-  },
-  {
-    "id": "picasso",
-    "name": "Picasso",
-    "native_coin_id": "picasso"
   }
 ]
