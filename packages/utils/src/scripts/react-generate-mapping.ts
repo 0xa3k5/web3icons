@@ -1,27 +1,25 @@
-import fs from 'fs';
-import path from 'path';
-import { reactRoot } from '../constants';
+import fs from 'fs'
+import path from 'path'
+import { reactRoot } from '../constants'
 
-
-const networkIcons = fs.readdirSync(path.join(reactRoot, 'src/icons/networks'));
-const tokenIcons = fs.readdirSync(path.join(reactRoot, 'src/icons/tokens'));
+const networkIcons = fs.readdirSync(path.join(reactRoot, 'src/icons/networks'))
+const tokenIcons = fs.readdirSync(path.join(reactRoot, 'src/icons/tokens'))
 
 const networkPaths = networkIcons
-  .filter(file => file.endsWith('.tsx'))
-  .map(file => {
-    const iconName = path.basename(file, '.tsx');
-    return `  ${iconName}: () => import('./icons/networks/${iconName}'),\n`;
+  .filter((file) => file.endsWith('.tsx'))
+  .map((file) => {
+    const iconName = path.basename(file, '.tsx')
+    return `  ${iconName}: () => import('./icons/networks/${iconName}'),\n`
   })
-  .join('');
-
+  .join('')
 
 const tokenPaths = tokenIcons
-  .filter(file => file.endsWith('.tsx'))
-  .map(file => {
-    const iconName = path.basename(file, '.tsx');
-    return `  ${iconName}: () => import('./icons/tokens/${iconName}'),\n`;
+  .filter((file) => file.endsWith('.tsx'))
+  .map((file) => {
+    const iconName = path.basename(file, '.tsx')
+    return `  ${iconName}: () => import('./icons/tokens/${iconName}'),\n`
   })
-  .join('');
+  .join('')
 
 const content = `/* Generated */\n// This file maps dynamically importable icon components.
 
@@ -36,12 +34,8 @@ interface IconImportMap {
 export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {\n${networkPaths}};\n
 
 export const TOKEN_ICON_IMPORT_MAP: IconImportMap  = {\n${tokenPaths}};\n
-`;
+`
 
-// Write the TypeScript file
-const outputPath = path.join(reactRoot, 'src/icon-import-map.ts');
-fs.writeFileSync(outputPath, content);
-console.log('✅ import paths has been generated at:', outputPath);
-
-
-
+const outputPath = path.join(reactRoot, 'src/icon-import-map.ts')
+fs.writeFileSync(outputPath, content)
+console.log('✅ import paths has been generated at:', outputPath)

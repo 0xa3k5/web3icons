@@ -1,9 +1,9 @@
-import { forwardRef, Suspense, lazy, ReactElement } from 'react'
+import { forwardRef, ReactElement, useState } from 'react'
 import { NetworkIconProps } from './types'
-import TokenIconLogo from './Logo'
 import { NETWORK_ICON_IMPORT_MAP } from './icon-import-map'
+import { networks } from '@token-icons/core/metadata'
+import { INetworkMetadata } from '@token-icons/core'
 
-// Converts a string to PascalCase
 const toPascalCase = (str: string): string => {
   const words = str.match(/[a-z]+/gi) || []
   return words
@@ -13,46 +13,61 @@ const toPascalCase = (str: string): string => {
     .join('')
 }
 
-const LazyIconLoader = ({
-  network,
-  size,
-  className,
-  variant,
-  color,
-  ref,
-}: NetworkIconProps): ReactElement => {
-  const iconName = `Network${toPascalCase(network)}`
-  const importFunction = NETWORK_ICON_IMPORT_MAP[iconName]
+const findNetwork = (network: string): INetworkMetadata | undefined => {
+  const networkObj = networks.find(
+    (net) => net.id.toLowerCase() === network.toLowerCase() || net.name.toLowerCase() === network.toLowerCase()
+  );
+  return networkObj || undefined;
+};
 
-  if (!importFunction) {
-    // Return a fallback if the import function does not exist
-    return <TokenIconLogo variant="branded" size={size} className={className} />
-  }
+const DynamicIconLoader = forwardRef<SVGSVGElement, NetworkIconProps>(
+  (
+    { network, size, className, variant, color }: NetworkIconProps,
+    ref,
+  ): ReactElement | null => {
+    const [IconComponent, setIconComponent] = useState<ReactElement | null>(
+      null,
+    );
 
-  const IconComponent = lazy(importFunction)
-
-  return (
-    <Suspense
-      fallback={
-        <TokenIconLogo variant="branded" size={size} className={className} />
+    const loadIcon = async () => {
+      const matchedNetwork = findNetwork(network);
+      if (!matchedNetwork) {
+        console.error(`Network not found: ${network}`);
+        return;
       }
-    >
-      <IconComponent
-        ref={ref}
-        network={network}
-        size={size}
-        color={color}
-        className={className}
-        variant={variant}
-      />
-    </Suspense>
-  )
-}
+
+      const iconName = `Network${toPascalCase(matchedNetwork.id)}`;
+      const importFunction = NETWORK_ICON_IMPORT_MAP[iconName];
+
+      if (importFunction) {
+        try {
+          const { default: ImportedIcon } = await importFunction();
+          setIconComponent(
+            <ImportedIcon
+              ref={ref}
+              network={network}
+              size={size}
+              color={color}
+              className={className}
+              variant={variant}
+            />,
+          );
+        } catch (error) {
+          console.error(`Error loading icon: ${iconName}`, error);
+        }
+      }
+    };
+
+    loadIcon();
+
+    return IconComponent;
+  },
+);
 
 export const NetworkIcon = forwardRef<SVGSVGElement, NetworkIconProps>(
   ({ network, size, className, variant = 'mono', color }, ref) => {
     return (
-      <LazyIconLoader
+      <DynamicIconLoader
         network={network}
         size={size}
         className={className}
@@ -60,8 +75,8 @@ export const NetworkIcon = forwardRef<SVGSVGElement, NetworkIconProps>(
         color={color}
         ref={ref}
       />
-    )
+    );
   },
-)
+);
 
-NetworkIcon.displayName = 'NetworkIcon'
+NetworkIcon.displayName = 'NetworkIcon';

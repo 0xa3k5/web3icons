@@ -1,63 +1,103 @@
-import { forwardRef, Suspense, lazy } from 'react'
+import { forwardRef, ReactElement, useState } from 'react'
 import { tokens } from '@token-icons/core/metadata'
 import { TokenIconProps } from './types'
-import TokenIconLogo from './Logo'
 import { TOKEN_ICON_IMPORT_MAP } from './icon-import-map'
+import { ITokenMetadata } from '@token-icons/core'
 
-// Normalizes token names to match import paths
-const normalizeTokenName = (iconName: string) => {
-  return iconName.replace(/[- ]+/g, '_').toUpperCase()
+const findToken = (
+  symbol?: string,
+  address?: string,
+  network?: string,
+): ITokenMetadata | undefined => {
+  if (symbol) {
+    return tokens.find(
+      (token) => token.symbol.toLowerCase() === symbol.toLowerCase(),
+    )
+  } else if (address && network) {
+    return tokens.find(
+      (token) =>
+        token.addresses[network]?.toLowerCase() === address.toLowerCase(),
+    )
+  }
+  return undefined
 }
+
+const DynamicIconLoader = forwardRef<SVGSVGElement, TokenIconProps>(
+  (
+    {
+      symbol,
+      size,
+      className,
+      variant,
+      color,
+      address,
+      network,
+    }: TokenIconProps,
+    ref,
+  ): ReactElement | null => {
+    const [IconComponent, setIconComponent] = useState<ReactElement | null>(
+      null,
+    )
+
+    const loadIcon = async () => {
+      const tokenData = findToken(symbol, address, network)
+
+      if (!tokenData) {
+        setIconComponent(null)
+        return
+      }
+
+      const iconName = `Token${tokenData.symbol.toUpperCase()}`
+      const importFunction = TOKEN_ICON_IMPORT_MAP[iconName]
+
+      if (importFunction) {
+        try {
+          const { default: ImportedIcon } = await importFunction()
+          setIconComponent(
+            <ImportedIcon
+              ref={ref}
+              symbol={tokenData.symbol}
+              size={size}
+              color={color}
+              className={className}
+              variant={variant}
+            />,
+          )
+        } catch (error) {
+          console.error(`Error loading icon: ${iconName}`, error)
+          setIconComponent(null)
+        }
+      } else {
+        setIconComponent(null)
+      }
+    }
+
+    loadIcon()
+
+    return IconComponent
+  },
+)
 
 export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
   (
     { symbol, size, className, variant = 'mono', color, address, network },
     ref,
   ) => {
-    let tokenData
-
-    if (symbol) {
-      tokenData = tokens.find(
-        (token) => token.symbol.toLowerCase() === symbol.toLowerCase(),
-      )
-    } else if (address && network) {
-      tokenData = tokens.find(
-        (token) =>
-          token.addresses[network]?.toLowerCase() === address.toLowerCase(),
-      )
+    const props = {
+      color,
+      size,
+      variant,
+      className,
+      ref,
     }
 
-    if (tokenData) {
-      const iconName = `Token${normalizeTokenName(tokenData.symbol)}`
-      const importFunction = TOKEN_ICON_IMPORT_MAP[iconName]
+    if (symbol) {
+      return <DynamicIconLoader symbol={symbol} {...props} />
+    }
 
-      if (!importFunction) {
-        return (
-          <TokenIconLogo variant="branded" size={size} className={className} />
-        )
-      }
-
-      const IconComponent = lazy(importFunction)
-
+    if (address && network) {
       return (
-        <Suspense
-          fallback={
-            <TokenIconLogo
-              variant="branded"
-              size={size}
-              className={className}
-            />
-          }
-        >
-          <IconComponent
-            symbol={symbol!}
-            size={size}
-            color={color}
-            className={className}
-            variant={variant}
-            ref={ref}
-          />
-        </Suspense>
+        <DynamicIconLoader address={address} network={network} {...props} />
       )
     }
   },
