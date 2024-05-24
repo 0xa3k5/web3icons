@@ -9,6 +9,7 @@ Token Icons is the most comprehensive and up-to-date source for cryptocurrency &
 v2.7.0:
 
 - Dynamic imports for React components 🎉
+- The `NetworkIcon` and `TokenIcon` are both now tree-shakeable 🎉
 
 Network Icons: Use `<NetworkIcon network={"network-name"} />` to access Network Icons.
 Enhanced Naming Conventions: Our icons follow a standardized naming convention for effortless identification and use:

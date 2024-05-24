@@ -17,9 +17,9 @@ export interface INetworkMetadata {
 
 export interface GeckoNetworks {
   id: string
-  chain_identifier: string | null
+  chain_identifier?: string
   name: string
-  shortname: string | null
+  shortname?: string
   native_coin_id: string
 }
 
