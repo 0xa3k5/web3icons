@@ -1,5 +1,11 @@
 # @token-icons/core
 
+## 2.8.2
+
+### Patch Changes
+
+- fix: include name or id matching for NetworkIcon
+
 ## 2.8.1
 
 ### Patch Changes

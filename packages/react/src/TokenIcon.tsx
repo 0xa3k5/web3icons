@@ -1,4 +1,4 @@
-import { forwardRef, ReactElement, useState } from 'react'
+import { forwardRef, ReactElement, useEffect, useState } from 'react'
 import { tokens } from '@token-icons/core/metadata'
 import { TokenIconProps } from './types'
 import { TOKEN_ICON_IMPORT_MAP } from './icon-import-map'
@@ -39,40 +39,41 @@ const DynamicIconLoader = forwardRef<SVGSVGElement, TokenIconProps>(
       null,
     )
 
-    const loadIcon = async () => {
-      const tokenData = findToken(symbol, address, network)
+    useEffect(() => {
+      const loadIcon = async () => {
+        const tokenData = findToken(symbol, address, network)
 
-      if (!tokenData) {
-        setIconComponent(null)
-        return
-      }
+        if (!tokenData) {
+          setIconComponent(null)
+          return
+        }
 
-      const iconName = `Token${tokenData.symbol.toUpperCase()}`
-      const importFunction = TOKEN_ICON_IMPORT_MAP[iconName]
+        const iconName = `Token${tokenData.symbol.toUpperCase()}`
+        const importFunction = TOKEN_ICON_IMPORT_MAP[iconName]
 
-      if (importFunction) {
-        try {
-          const { default: ImportedIcon } = await importFunction()
-          setIconComponent(
-            <ImportedIcon
-              ref={ref}
-              symbol={tokenData.symbol}
-              size={size}
-              color={color}
-              className={className}
-              variant={variant}
-            />,
-          )
-        } catch (error) {
-          console.error(`Error loading icon: ${iconName}`, error)
+        if (importFunction) {
+          try {
+            const { default: ImportedIcon } = await importFunction()
+            setIconComponent(
+              <ImportedIcon
+                ref={ref}
+                symbol={tokenData.symbol}
+                size={size}
+                color={color}
+                className={className}
+                variant={variant}
+              />,
+            )
+          } catch (error) {
+            console.error(`Error loading icon: ${iconName}`, error)
+            setIconComponent(null)
+          }
+        } else {
           setIconComponent(null)
         }
-      } else {
-        setIconComponent(null)
       }
-    }
-
-    loadIcon()
+      loadIcon()
+    }, [symbol, address, network, ref, size, className, variant, color])
 
     return IconComponent
   },

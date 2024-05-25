@@ -1,4 +1,4 @@
-import { forwardRef, ReactElement, useState } from 'react'
+import { forwardRef, ReactElement, useState, useEffect } from 'react'
 import { NetworkIconProps } from './types'
 import { NETWORK_ICON_IMPORT_MAP } from './icon-import-map'
 import { networks } from '@token-icons/core/metadata'
@@ -13,13 +13,25 @@ const toPascalCase = (str: string): string => {
     .join('')
 }
 
+const toKebabCase = (str: string): string => {
+  return str
+    .split(' ')
+    .map((part, index) => {
+      if (index === 0) {
+        return part
+      }
+      return part.charAt(0).toLowerCase() + part.slice(1)
+    })
+    .join('')
+}
+
 const findNetwork = (network: string): INetworkMetadata | undefined => {
   const networkObj = networks.find(
     (net) =>
-      net.id.toLowerCase() === network.toLowerCase() ||
+      net.id.toLowerCase() === toKebabCase(network) ||
       net.name.toLowerCase() === network.toLowerCase(),
   )
-  return networkObj || undefined
+  return networkObj
 }
 
 const DynamicIconLoader = forwardRef<SVGSVGElement, NetworkIconProps>(
@@ -31,36 +43,40 @@ const DynamicIconLoader = forwardRef<SVGSVGElement, NetworkIconProps>(
       null,
     )
 
-    const loadIcon = async () => {
-      const matchedNetwork = findNetwork(network)
-      if (!matchedNetwork) {
-        console.error(`Network not found: ${network}`)
-        return
-      }
+    useEffect(() => {
+      const loadIcon = async () => {
+        const matchedNetwork = findNetwork(network)
+        if (!matchedNetwork) {
+          console.error(`Network not found: ${network}`)
+          return
+        }
 
-      const iconName = `Network${toPascalCase(matchedNetwork.id)}`
-      const importFunction = NETWORK_ICON_IMPORT_MAP[iconName]
+        const iconName = `Network${toPascalCase(matchedNetwork.name)}`
+        const importFunction =
+          NETWORK_ICON_IMPORT_MAP[iconName] ??
+          NETWORK_ICON_IMPORT_MAP[`Network${toPascalCase(matchedNetwork.id)}`]
 
-      if (importFunction) {
-        try {
-          const { default: ImportedIcon } = await importFunction()
-          setIconComponent(
-            <ImportedIcon
-              ref={ref}
-              network={network}
-              size={size}
-              color={color}
-              className={className}
-              variant={variant}
-            />,
-          )
-        } catch (error) {
-          console.error(`Error loading icon: ${iconName}`, error)
+        if (importFunction) {
+          try {
+            const { default: ImportedIcon } = await importFunction()
+            setIconComponent(
+              <ImportedIcon
+                ref={ref}
+                network={network}
+                size={size}
+                color={color}
+                className={className}
+                variant={variant}
+              />,
+            )
+          } catch (error) {
+            console.error(`Error loading icon: ${iconName}`, error)
+          }
         }
       }
-    }
 
-    loadIcon()
+      loadIcon()
+    }, [network, ref, size, className, variant, color])
 
     return IconComponent
   },

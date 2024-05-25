@@ -1,5 +1,13 @@
 # @token-icons/react
 
+## 2.8.2
+
+### Patch Changes
+
+- fix: include name or id matching for NetworkIcon
+- Updated dependencies
+  - @token-icons/core@2.8.2
+
 ## 2.8.1
 
 ### Patch Changes
