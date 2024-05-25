@@ -2,7 +2,6 @@
 import { ControlBar, IconCard, ActionBar } from '../components'
 import Logo from '../components/Logo'
 import { useAppContext } from '../hooks'
-import { NetworkIcon, TokenIcon } from '@token-icons/react'
 import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
 
 const INSTALL_SNIPPET = `npm i @token-icons/core @token-icons/react`
@@ -26,8 +25,7 @@ const links = [
 ]
 
 export default function Home() {
-  const { icons, selectedIcons, loadMoreIcons, variant, size, color, type } =
-    useAppContext()
+  const { icons, selectedIcons, loadMoreIcons, type } = useAppContext()
 
   return (
     <main className="container mx-auto flex h-screen flex-col gap-4 p-4 font-mono sm:px-8 sm:py-16 md:gap-16">
@@ -87,29 +85,19 @@ export default function Home() {
         <div className="flex w-full flex-col gap-8">
           <ControlBar />
           <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
-            {icons.map((icon) => (
-              <IconCard
-                key={icon.name}
-                icon={icon}
-                label={type === 'networks' ? icon.id! : icon.name}
-              >
-                {type === 'networks' && (
-                  <NetworkIcon
-                    network={
-                      (icon as INetworkMetadata).id ??
-                      (icon as INetworkMetadata).name
-                    }
-                    {...{ variant, color, size }}
-                  />
-                )}
-                {type === 'tokens' && (
-                  <TokenIcon
-                    symbol={(icon as ITokenMetadata).symbol}
-                    {...{ variant, color, size }}
-                  />
-                )}
-              </IconCard>
-            ))}
+            {icons.map((icon) => {
+              return (
+                <IconCard
+                  key={icon.name}
+                  metadata={icon}
+                  label={
+                    type === 'networks'
+                      ? (icon as INetworkMetadata).name
+                      : (icon as ITokenMetadata)?.symbol?.toUpperCase() ?? ''
+                  }
+                />
+              )
+            })}
             <div className="col-span-full my-8 flex justify-center">
               <button
                 type="button"

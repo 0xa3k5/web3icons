@@ -1,5 +1,5 @@
 import cx from 'classnames'
-import { PropsWithChildren, ReactNode, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Checkbox from './Checkbox'
 import { useAppContext } from '../../hooks'
 import { NetworkIcon, TokenIcon } from '@token-icons/react'
@@ -8,23 +8,23 @@ import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
 
 interface Props {
   className?: string
-  icon: ITokenMetadata | INetworkMetadata
+  metadata: ITokenMetadata | INetworkMetadata
   label: string
 }
 
 export default function IconCard({
   className,
-  icon,
-  children,
+  metadata,
   label,
-}: PropsWithChildren<Props>): JSX.Element {
-  const { variant, selectedIcons, setSelectedIcons, type } = useAppContext()
+}: Props): JSX.Element {
+  const { variant, selectedIcons, setSelectedIcons, type, color, size } =
+    useAppContext()
 
   const [hover, setHover] = useState(false)
   const symbolOrId =
     type === 'tokens'
-      ? (icon as ITokenMetadata).symbol
-      : (icon as INetworkMetadata).id ?? (icon as INetworkMetadata).name
+      ? (metadata as ITokenMetadata).symbol
+      : (metadata as INetworkMetadata).id ?? (metadata as INetworkMetadata).name
 
   const isSelected = selectedIcons.includes(symbolOrId)
 
@@ -33,6 +33,24 @@ export default function IconCard({
       isSelected
         ? prevSelectedIcons.filter((icon) => icon !== icon)
         : [...prevSelectedIcons, symbolOrId],
+    )
+  }
+
+  const handleRender = () => {
+    if (type === 'tokens') {
+      return (
+        <TokenIcon
+          symbol={(metadata as ITokenMetadata).symbol}
+          {...{ variant, color, size }}
+        />
+      )
+    }
+
+    return (
+      <NetworkIcon
+        network={(metadata as INetworkMetadata).name}
+        {...{ variant, color, size }}
+      />
     )
   }
 
@@ -66,7 +84,7 @@ export default function IconCard({
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      {children}
+      {handleRender()}
       <span
         className={cx(
           'text-center text-white',
@@ -77,8 +95,8 @@ export default function IconCard({
       </span>
       <input
         type="checkbox"
-        id={`checkbox-${icon.id}`}
-        name={icon.id}
+        id={`checkbox-${metadata.id}`}
+        name={metadata.id}
         checked={isSelected}
         onChange={handleCheckboxChange}
         className="sr-only"

@@ -33,15 +33,17 @@ const getModifiedIcons = () => {
 // they find the first network or token with the file name
 const findNetworkByName = (name: string): INetworkRaw | undefined => {
   const geckoNetwork = (geckoNetworks as INetworkRaw[]).find(
-    (network) => network.id === name ||
-    network.shortname === name ||
-    network.name === name,
+    (network) =>
+      network.id === name ||
+      network.shortname === name ||
+      network.name === name,
   )
 
   const customNetwork = (customNetworks as INetworkRaw[]).find(
-    (network) => network.id === name ||
-    network.shortname === name ||
-    network.name === name,
+    (network) =>
+      network.id === name ||
+      network.shortname === name ||
+      network.name === name,
   )
 
   return geckoNetwork || customNetwork
@@ -49,10 +51,12 @@ const findNetworkByName = (name: string): INetworkRaw | undefined => {
 
 const findTokenByName = (name: string): ITokenRaw | undefined => {
   const geckoCoin = (geckoCoins as ITokenRaw[]).find(
-    (token) => token.id === name || token.name === name || token.symbol === name,
+    (token) =>
+      token.id === name || token.name === name || token.symbol === name,
   )
   const customCoin = (customTokens as ITokenRaw[]).find(
-    (token) => token.id === name || token.symbol === name || token.name === name,
+    (token) =>
+      token.id === name || token.symbol === name || token.name === name,
   )
 
   return geckoCoin || customCoin
@@ -162,10 +166,10 @@ const updateMetadata = async (filePath: string): Promise<void> => {
         addresses: {}, // will be fetched below
       }
 
-      console.log({token})
+      console.log({ token })
 
       const data = await getCoinByID(token.id)
-      console.log({data})
+      console.log({ data })
 
       tokenMetadata.addresses = data?.platforms || {}
       tokenMetadata.marketCapRank = data?.market_cap_rank || null

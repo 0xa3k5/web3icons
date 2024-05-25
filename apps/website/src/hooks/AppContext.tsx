@@ -3,7 +3,6 @@ import React, {
   createContext,
   useContext,
   useState,
-  useCallback,
   ReactNode,
   useEffect,
 } from 'react'
@@ -47,12 +46,18 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
     ITokenMetadata[] | INetworkMetadata[]
   >([])
 
-  const loadMoreIcons = useCallback(() => {
+  const loadMoreIcons = () => {
     setShownIcons(
-      filterAndSortIcons(variant, searchTerm, type, nextBatchIndex, PER_PAGE),
+      filterAndSortIcons({
+        variant,
+        searchTerm,
+        type,
+        nextBatchIndex,
+        perPage: PER_PAGE,
+      }) ?? [],
     )
     setNextBatchIndex((prevIndex) => prevIndex + PER_PAGE)
-  }, [])
+  }
 
   useEffect(() => {
     loadMoreIcons()
@@ -60,7 +65,13 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
 
   useEffect(() => {
     setShownIcons(
-      filterAndSortIcons(variant, searchTerm, type, nextBatchIndex, PER_PAGE),
+      filterAndSortIcons({
+        variant,
+        searchTerm,
+        type,
+        nextBatchIndex,
+        perPage: PER_PAGE,
+      }) ?? [],
     )
   }, [searchTerm, variant, type])
 
