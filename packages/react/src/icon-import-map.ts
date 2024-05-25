@@ -50,8 +50,7 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkMultiversx: () => import('./icons/networks/NetworkMultiversx'),
   NetworkScroll: () => import('./icons/networks/NetworkScroll'),
   NetworkPolygon: () => import('./icons/networks/NetworkPolygon'),
-  NetworkBinanceSmartChain: () =>
-    import('./icons/networks/NetworkBinanceSmartChain'),
+  NetworkBinanceSmartChain: () => import('./icons/networks/NetworkBinanceSmartChain'),
   NetworkFilecoin: () => import('./icons/networks/NetworkFilecoin'),
   NetworkPolygonZkevm: () => import('./icons/networks/NetworkPolygonZkevm'),
   NetworkLitecoin: () => import('./icons/networks/NetworkLitecoin'),
@@ -76,9 +75,10 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkMoonrive: () => import('./icons/networks/NetworkMoonrive'),
   NetworkTron: () => import('./icons/networks/NetworkTron'),
   NetworkBeam: () => import('./icons/networks/NetworkBeam'),
-}
+};
 
-export const TOKEN_ICON_IMPORT_MAP: IconImportMap = {
+
+export const TOKEN_ICON_IMPORT_MAP: IconImportMap  = {
   TokenVXV: () => import('./icons/tokens/TokenVXV'),
   TokenAXL: () => import('./icons/tokens/TokenAXL'),
   TokenXTZ: () => import('./icons/tokens/TokenXTZ'),
@@ -1987,4 +1987,5 @@ export const TOKEN_ICON_IMPORT_MAP: IconImportMap = {
   TokenPASG: () => import('./icons/tokens/TokenPASG'),
   TokenMOE: () => import('./icons/tokens/TokenMOE'),
   TokenOVR: () => import('./icons/tokens/TokenOVR'),
-}
+};
+

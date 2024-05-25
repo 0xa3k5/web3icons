@@ -1,7 +1,17 @@
 import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
 import { networks, tokens } from '@token-icons/core/metadata'
 
-// group by variants
+const groupedNetworks: Record<string, INetworkMetadata[]> = {}
+
+networks.forEach((network) => {
+  network.variants.forEach((variant) => {
+    if (!groupedNetworks[variant]) {
+      groupedNetworks[variant] = []
+    }
+    groupedNetworks[variant].push(network)
+  })
+})
+
 const groupedTokens: Record<string, ITokenMetadata[]> = {}
 
 tokens.sort(
@@ -13,35 +23,31 @@ tokens.forEach((token) => {
     if (!groupedTokens[variant]) {
       groupedTokens[variant] = []
     }
-    groupedTokens[variant]!.push(token)
+    groupedTokens[variant].push(token)
   })
 })
 
-const groupedNetworks: Record<string, INetworkMetadata[]> = {}
-
-networks.forEach((network) => {
-  network.variants.forEach((variant) => {
-    if (!groupedNetworks[variant]) {
-      groupedNetworks[variant] = []
-    }
-    groupedNetworks[variant]!.push(network)
-  })
-})
-
-export const filterAndSortIcons = (
-  variant: 'mono' | 'branded',
-  searchTerm: string,
-  type: 'tokens' | 'networks',
-  nextBatchIndex?: number,
-  perPage?: number,
-) => {
-  const filteredNetworkIcons = groupedNetworks[variant]!.filter(
+// group by variants
+export const filterAndSortIcons = ({
+  variant,
+  searchTerm,
+  type,
+  nextBatchIndex,
+  perPage,
+}: {
+  variant: 'mono' | 'branded'
+  searchTerm: string
+  type: 'tokens' | 'networks'
+  nextBatchIndex: number
+  perPage: number
+}) => {
+  const filteredNetworkIcons = groupedNetworks[variant]?.filter(
     (network) =>
       network.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       network.id?.toLowerCase().includes(searchTerm.toLowerCase()),
   )
 
-  const filteredTokens = groupedTokens[variant]!.filter(
+  const filteredTokens = groupedTokens[variant]?.filter(
     (token) =>
       (token.variants.includes(variant) &&
         token.symbol.toLowerCase().includes(searchTerm.toLowerCase())) ||
@@ -49,11 +55,11 @@ export const filterAndSortIcons = (
       token.id.toLowerCase().includes(searchTerm.toLowerCase()),
   )
 
-  if (nextBatchIndex && perPage) {
-    return type === 'tokens'
-      ? filteredTokens.slice(0, nextBatchIndex + perPage)
-      : filteredNetworkIcons.slice(0, nextBatchIndex + perPage)
+  if (type === 'tokens' && filteredTokens) {
+    return filteredTokens.slice(0, nextBatchIndex + perPage)
   }
 
-  return type === 'tokens' ? filteredTokens : filteredNetworkIcons
+  if (type === 'networks' && filteredNetworkIcons) {
+    return filteredNetworkIcons.slice(0, nextBatchIndex + perPage)
+  }
 }

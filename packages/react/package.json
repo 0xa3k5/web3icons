@@ -31,7 +31,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "(cd ../utils && bun run build:react) && tsup ./index.ts --format cjs,esm --dts && bun run build-icons && bun run lint && bun run format",
+    "build": "(cd ../utils && bun run build:react) && tsup ./index.ts --format cjs,esm --dts",
     "build-icons": "tsup 'src/icons/**/*.ts' --format cjs,esm --dts --outDir dist/icons",
     "dev": "bun run build -- --watch",
     "lint": "eslint ./src --ext .ts,.tsx",
