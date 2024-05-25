@@ -3,13 +3,11 @@ import React, {
   createContext,
   useContext,
   useState,
-  useCallback,
   ReactNode,
   useEffect,
 } from 'react'
 import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
 import { filterAndSortIcons } from '../utils'
-import { networks, tokens } from '@token-icons/core/metadata'
 
 export interface AppContextType {
   type: 'tokens' | 'networks'

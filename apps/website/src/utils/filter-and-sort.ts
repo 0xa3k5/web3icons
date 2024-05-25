@@ -8,7 +8,7 @@ networks.forEach((network) => {
     if (!groupedNetworks[variant]) {
       groupedNetworks[variant] = []
     }
-    groupedNetworks[variant].push(network)
+    groupedNetworks[variant]?.push(network)
   })
 })
 
@@ -23,7 +23,7 @@ tokens.forEach((token) => {
     if (!groupedTokens[variant]) {
       groupedTokens[variant] = []
     }
-    groupedTokens[variant].push(token)
+    groupedTokens[variant]?.push(token)
   })
 })
 
