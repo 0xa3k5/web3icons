@@ -17,11 +17,11 @@ import getCoinByID from './gecko/get-coin-by-id'
 const isUppercase = (filename: string): boolean =>
   filename === filename.toUpperCase()
 
-const isKebabCase = (filename: string): boolean =>
-  /^[a-z0-9]+(-[a-z0-9]+)*\.svg$/.test(filename)
+const isKebabCase = (filename: string): boolean => {
+  return /^([a-z0-9]+(-[a-z0-9]+)*)/.test(filename)
+}
 
 const getModifiedIcons = () => {
-  // modified or new added icons
   return execSync(
     "git ls-files --others -m --exclude-standard -- '*.svg' | tr '\n' ','",
   )
@@ -29,21 +29,19 @@ const getModifiedIcons = () => {
     .trim()
 }
 
-// TODO: both findNetworkByName and findTokenByName are flawed
-// they find the first network or token with the file name
 const findNetworkByName = (name: string): INetworkRaw | undefined => {
   const geckoNetwork = (geckoNetworks as INetworkRaw[]).find(
     (network) =>
-      network.id === name ||
-      network.shortname === name ||
-      network.name === name,
+      network.id?.toLowerCase() === name ||
+      network.shortname?.toLowerCase() === name ||
+      network.name?.toLowerCase() === name,
   )
 
   const customNetwork = (customNetworks as INetworkRaw[]).find(
     (network) =>
-      network.id === name ||
-      network.shortname === name ||
-      network.name === name,
+      network.id?.toLowerCase() === name ||
+      network.shortname?.toLowerCase() === name ||
+      network.name?.toLowerCase() === name,
   )
 
   return geckoNetwork || customNetwork
@@ -62,10 +60,11 @@ const findTokenByName = (name: string): ITokenRaw | undefined => {
   return geckoCoin || customCoin
 }
 
-const appendToJson = async (
+const appendToJson = (
   data: ITokenMetadata | INetworkMetadata,
   type: 'tokens' | 'networks',
 ) => {
+  console.log('appending to json:', data)
   const TOKENS_PATH = 'packages/core/src/metadata/tokens.json'
   const NETWORKS_PATH = 'packages/core/src/metadata/networks.json'
 
@@ -75,34 +74,33 @@ const appendToJson = async (
   let file: (ITokenMetadata | INetworkMetadata)[] =
     type === 'tokens' ? tokensJson : networksJson
 
-  const found =
+  const existingMetadata =
     type === 'tokens'
       ? file.find((t) => t.id?.toLowerCase() === data.id?.toLowerCase())
       : file.find((n) => n.name?.toLowerCase() === data.name?.toLowerCase())
 
-  if (!found) {
+  if (!existingMetadata) {
     file.push(data)
   } else {
-    found.variants = Array.from(new Set([...found.variants, ...data.variants]))
+    existingMetadata.variants = Array.from(
+      new Set([...existingMetadata.variants, ...data.variants]),
+    )
     console.log(
       `✅ ${data.name}: updated ${type === 'tokens' ? 'tokens' : 'networks'}`,
     )
   }
 
-  const formatted = await prettier.format(JSON.stringify(file), {
-    parser: 'json',
-  })
-
-  fs.writeFileSync(type === 'tokens' ? TOKENS_PATH : NETWORKS_PATH, formatted)
+  fs.writeFileSync(
+    type === 'tokens' ? TOKENS_PATH : NETWORKS_PATH,
+    JSON.stringify(file, null, 2),
+  )
 }
 
-// simple validation of SVGs
 const validateSvg = (filePath: string): boolean => {
   const svgContent = fs.readFileSync(filePath, 'utf8')
   const type = filePath.includes('/tokens/') ? 'token' : 'network'
   const fileName = path.basename(filePath, '.svg')
 
-  // check size
   const hasCorrectDimensions =
     svgContent.includes('width="24"') && svgContent.includes('height="24"')
   if (!hasCorrectDimensions) {
@@ -110,7 +108,6 @@ const validateSvg = (filePath: string): boolean => {
     return false
   }
 
-  // check filename based on type
   if (type === 'token' && !isUppercase(fileName)) {
     console.error(
       `❌ ${fileName}: Invalid file name for token. Expected uppercase.`,
@@ -126,34 +123,44 @@ const validateSvg = (filePath: string): boolean => {
   return true
 }
 
-// updateMetadata
-const updateMetadata = async (filePath: string): Promise<void> => {
+const updateMetadata = async (
+  filePath: string,
+): Promise<ITokenMetadata | INetworkMetadata | undefined> => {
   const type = filePath.includes('/tokens/') ? 'token' : 'network'
   const fileName = path.basename(filePath, '.svg')
+  const newVariants = new Set<string>()
 
-  const variant = filePath.includes('/mono/') ? 'mono' : 'branded'
+  if (filePath.includes('/mono/')) {
+    newVariants.add('mono')
+  }
+  if (filePath.includes('/branded/')) {
+    newVariants.add('branded')
+  }
 
   if (type === 'network') {
     const network = findNetworkByName(fileName)
 
     if (network) {
-      await appendToJson(
-        {
-          ...network,
-          variants: [variant],
-        },
-        'networks',
+      const existingMetadata = (customNetworks as INetworkMetadata[]).find(
+        (n) => n.name?.toLowerCase() === network.name?.toLowerCase(),
       )
+
+      const combinedVariants = existingMetadata
+        ? Array.from(
+            new Set([...(existingMetadata.variants ?? []), ...newVariants]),
+          )
+        : Array.from(new Set(newVariants))
+
+      appendToJson({ ...network, variants: combinedVariants }, 'networks')
     } else {
       console.error(
         `❌ ${fileName}: No network metadata, consider manually adding to "packages/utils/scripts/gecko/custom-networks.json"`,
       )
-      process.exit(1)
+      return
     }
   }
 
   if (type === 'token') {
-    // find token metadata based on file name
     const token = findTokenByName(fileName)
 
     if (token) {
@@ -161,29 +168,45 @@ const updateMetadata = async (filePath: string): Promise<void> => {
         id: token.id,
         symbol: token.symbol,
         name: token.name,
-        variants: [variant],
+        variants: Array.from(newVariants),
         marketCapRank: 0, // will be fetched below
         addresses: {}, // will be fetched below
       }
 
-      console.log({ token })
-
       const data = await getCoinByID(token.id)
-      console.log({ data })
 
       tokenMetadata.addresses = data?.platforms || {}
       tokenMetadata.marketCapRank = data?.market_cap_rank || null
 
-      appendToJson(tokenMetadata, 'tokens')
+      const existingMetadata = (customTokens as ITokenMetadata[]).find(
+        (t) => t.id?.toLowerCase() === token.id?.toLowerCase(),
+      )
+
+      tokenMetadata.variants = existingMetadata
+        ? Array.from(
+            new Set([...(existingMetadata.variants ?? []), ...newVariants]),
+          )
+        : Array.from(new Set(newVariants))
+
+      appendToJson(
+        {
+          addresses: data?.platforms || {},
+          id: token.id,
+          marketCapRank: data?.market_cap_rank || null,
+          name: token.name,
+          symbol: token.symbol,
+          variants: tokenMetadata.variants,
+        },
+        'tokens',
+      )
     } else {
       console.error(
         `❌ ${fileName}: No matching token metadata, consider manually adding to "packages/utils/scripts/gecko/custom-tokens.json"`,
       )
-      process.exit(1)
+      return
     }
   }
 }
-
 const main = async () => {
   const modifiedIcons = getModifiedIcons()
   const passedFiles = process.argv.slice(2)
@@ -200,12 +223,40 @@ const main = async () => {
     .concat(passedFiles.join(','))
     .split(',')
     .filter(Boolean)
-  console.log('modified icons:', iconPaths)
 
-  iconPaths.forEach(async (iconPath) => {
-    if (validateSvg(iconPath)) {
-      await updateMetadata(iconPath)
-    }
+  const groupedPaths = iconPaths.reduce(
+    (acc: { [key: string]: string[] }, filePath) => {
+      const fileName = path.basename(filePath, '.svg')
+      if (!acc[fileName]) {
+        acc[fileName] = []
+      }
+      acc[fileName].push(filePath)
+      return acc
+    },
+    {},
+  )
+  console.log('grouped icons:', groupedPaths)
+
+  await Promise.all(
+    Object.values(groupedPaths).map(async (filePaths) => {
+      const validPaths = filePaths.filter(validateSvg)
+      for (const filePath of validPaths) {
+        await updateMetadata(filePath)
+      }
+    }),
+  )
+  const TOKENS_PATH = 'packages/core/src/metadata/tokens.json'
+  const NETWORKS_PATH = 'packages/core/src/metadata/networks.json'
+
+  const tokensJson = fs.readFileSync(TOKENS_PATH, 'utf-8')
+  const networksJson = fs.readFileSync(NETWORKS_PATH, 'utf-8')
+
+  prettier.format(tokensJson, { parser: 'json' }).then((formatted) => {
+    fs.writeFileSync(TOKENS_PATH, formatted)
+  })
+
+  prettier.format(networksJson, { parser: 'json' }).then((formatted) => {
+    fs.writeFileSync(NETWORKS_PATH, formatted)
   })
 }
 
