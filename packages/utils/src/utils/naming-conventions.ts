@@ -46,6 +46,20 @@ export const kebabToCamel = (str: string) => {
 /**
  *
  * @param str
+ * @returns to PascalCase
+ */
+export const toPascalCase = (str: string): string => {
+  const words = str.match(/[a-z]+/gi) || []
+  return words
+    .map(
+      (word) => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase(),
+    )
+    .join('')
+}
+
+/**
+ *
+ * @param str
  * @returns boolean
  */
 export const isUppercase = (filename: string): boolean =>
