@@ -318,5 +318,13 @@
     "name": "etherlink",
     "shortname": "etherlink",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "arbitrum-one",
+    "chain_identifier": 42161,
+    "name": "Arbitrum One",
+    "shortname": "Arbitrum",
+    "native_coin_id": "ethereum",
+    "variants": ["mono", "branded"]
   }
 ]
