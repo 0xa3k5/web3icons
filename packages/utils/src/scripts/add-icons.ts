@@ -1,6 +1,6 @@
 import { execSync } from 'child_process'
 import fs from 'fs'
-import * as path from 'path'
+import path from 'path'
 import {
   ITokenRaw,
   INetworkRaw,
@@ -12,39 +12,41 @@ import geckoCoins from './gecko/gecko-coins.json'
 import customTokens from './gecko/custom-tokens.json'
 import customNetworks from './gecko/custom-networks.json'
 import getCoinByID from './gecko/get-coin-by-id'
+import {
+  isUppercase,
+  isKebabCase,
+  findTokenByFileName,
+  findNetworkByFileName,
+} from '../utils'
 
 const validateSvg = (filePath: string): boolean => {
   const svgContent = fs.readFileSync(filePath, 'utf8')
   const type = filePath.includes('/tokens/') ? 'token' : 'network'
   const fileName = path.basename(filePath, '.svg')
+  const variant = filePath.includes('/mono/') ? 'mono' : 'branded'
 
   const hasCorrectDimensions =
     svgContent.includes('width="24"') && svgContent.includes('height="24"')
   if (!hasCorrectDimensions) {
-    console.error(`❌ ${fileName}: Invalid dimensions. Expected 24x24.`)
+    console.error(
+      `❌ ${fileName}/${variant}: Invalid dimensions. Expected 24x24. go`,
+    )
     return false
   }
 
   if (type === 'token' && !isUppercase(fileName)) {
     console.error(
-      `❌ ${fileName}: Invalid file name for token. Expected uppercase.`,
+      `❌ ${fileName}/${variant}: Invalid file name for token. Expected uppercase.`,
     )
     return false
   }
   if (type === 'network' && !isKebabCase(fileName)) {
     console.error(
-      `❌ ${fileName}: Invalid file name for network. Expected kebab-case.`,
+      `❌ ${fileName}/${variant}: Invalid file name for network. Expected kebab-case.`,
     )
     return false
   }
   return true
-}
-
-const isUppercase = (filename: string): boolean =>
-  filename === filename.toUpperCase()
-
-const isKebabCase = (filename: string): boolean => {
-  return /^([a-z0-9]+(-[a-z0-9]+)*)/.test(filename)
 }
 
 const getModifiedIcons = () => {
@@ -76,8 +78,8 @@ const findExistingMetadata = (
 
   const existingMetadata =
     type === 'tokens'
-      ? tokensJson.find((t) => t.id?.toLowerCase() === id.toLowerCase())
-      : networksJson.find((n) => n.id?.toLowerCase() === id.toLowerCase())
+      ? findTokenByFileName(id, tokensJson)
+      : findNetworkByFileName(id, networksJson)
 
   return existingMetadata
 }
@@ -93,33 +95,14 @@ const findRawData = (
   type: 'tokens' | 'networks',
 ): INetworkRaw | ITokenRaw | undefined => {
   if (type === 'tokens') {
-    const geckoCoin = (geckoCoins as ITokenRaw[]).find(
-      (token) =>
-        token.id.toLowerCase() === name.toLowerCase() ||
-        token.name.toLowerCase() === name.toLowerCase() ||
-        token.symbol.toLowerCase() === name.toLowerCase(),
-    )
-    const customCoin = (customTokens as ITokenRaw[]).find(
-      (token) =>
-        token.id.toLowerCase() === name.toLowerCase() ||
-        token.symbol.toLowerCase() === name.toLowerCase() ||
-        token.name.toLowerCase() === name.toLowerCase(),
-    )
+    const geckoCoin = findTokenByFileName(name, geckoCoins)
+    const customCoin = findTokenByFileName(name, customTokens)
+
     return geckoCoin ?? customCoin
   } else if (type === 'networks') {
-    const geckoNetwork = (geckoNetworks as INetworkRaw[]).find(
-      (network) =>
-        network.id?.toLowerCase() === name ||
-        network.shortname?.toLowerCase() === name ||
-        network.name?.toLowerCase() === name,
-    )
+    const geckoNetwork = findNetworkByFileName(name, geckoNetworks)
+    const customNetwork = findNetworkByFileName(name, customNetworks)
 
-    const customNetwork = (customNetworks as INetworkRaw[]).find(
-      (network) =>
-        network.id?.toLowerCase() === name ||
-        network.shortname?.toLowerCase() === name ||
-        network.name?.toLowerCase() === name,
-    )
     return geckoNetwork ?? customNetwork
   }
 }
@@ -169,7 +152,7 @@ const createMetadataObj = async (
 
     if (rawData) {
       const existingNetworksMetadata = findExistingMetadata(
-        rawData.id,
+        fileName,
         'networks',
       )
 

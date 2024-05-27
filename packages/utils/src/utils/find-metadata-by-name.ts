@@ -1,9 +1,9 @@
-import { toKebabCase } from "./naming-conventions";
+import { toKebabCase } from './naming-conventions'
 
 /**
- * @param fileName 
+ * @param fileName
  * @param data
- * @returns 
+ * @returns
  */
 export const findNetworkByFileName = <
   T extends { id: string; name: string; shortname?: string },
@@ -20,9 +20,9 @@ export const findNetworkByFileName = <
 }
 
 /**
- * @param fileName 
- * @param data 
- * @returns 
+ * @param fileName
+ * @param data
+ * @returns
  */
 export const findTokenByFileName = <
   T extends { id: string; name: string; symbol: string },
