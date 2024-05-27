@@ -1,7 +1,8 @@
 {
   "name": "@token-icons/utils",
   "homepage": "https://tokenicons.io",
-  "private": true,
+  "version": "0.0.1",
+  "private": false,
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
@@ -9,7 +10,19 @@
   "files": [
     "dist/**/*"
   ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./types": "./dist/types.d.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xa3k5/token-icons.git",
+    "directory": "packages/utils"
+  },
   "scripts": {
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error",
