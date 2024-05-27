@@ -48,7 +48,7 @@ export default function IconCard({
 
     return (
       <NetworkIcon
-        network={(metadata as INetworkMetadata).name}
+        network={(metadata as INetworkMetadata).id}
         {...{ variant, color, size }}
       />
     )
