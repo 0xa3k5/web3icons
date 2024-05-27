@@ -1,5 +1,13 @@
 # @token-icons/core
 
+## 2.9.0
+
+### Minor Changes
+
+- new network icons:
+  `cosmos-hub`, `metis-andromeda`, `moonriver`, `sei-network`, `cosmos-hub`, `litecoin`, `wemix`, `near-protocol`, `hedera`, `rari`, `bitcoin`,`zetachain` `xrp(mono)`
+- fix icon sizes: `aptos`, `arbitrum`, `avalanche`, `base`, `binance-smart-chain`, `cardano`, `cosmos-hub`, `ethereum`, `optimism`, `solana`, `tron`
+
 ## 2.8.2
 
 ### Patch Changes
