@@ -20,6 +20,7 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkAstar: () => import('./icons/networks/NetworkAstar'),
   NetworkOptimism: () => import('./icons/networks/NetworkOptimism'),
   NetworkLoopring: () => import('./icons/networks/NetworkLoopring'),
+  NetworkHederaHashgraph: () => import('./icons/networks/NetworkHederaHashgraph'),
   NetworkBoba: () => import('./icons/networks/NetworkBoba'),
   NetworkXLayer: () => import('./icons/networks/NetworkXLayer'),
   NetworkBlast: () => import('./icons/networks/NetworkBlast'),
