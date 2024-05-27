@@ -1,7 +1,7 @@
 import fs from 'fs'
 import prettier from 'prettier'
-import { ITokenMetadata } from './types'
-import { TOKENS_METADATA_PATH } from './constants'
+import { ITokenMetadata } from '../types'
+import { TOKENS_METADATA_PATH } from '../constants'
 
 const geckoCoins: ITokenMetadata[] = JSON.parse(
   fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'),
