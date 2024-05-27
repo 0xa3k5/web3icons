@@ -53,6 +53,20 @@
 | chiliz | Chiliz | ✅ | ✅ |
 | x-layer | X Layer | ✅ | ✅ |
 | etherlink | etherlink | ✅ | ✅ |
+| arbitrum-one | Arbitrum One | ✅ | ✅ |
+| xrp | XRP Ledger | ❌ | ✅ |
+| cosmos-hub | Cosmos Hub | ✅ | ✅ |
+| metis-andromeda | Metis Andromeda | ✅ | ✅ |
+| moonriver | Moonriver | ✅ | ✅ |
+| sei-network | Sei Network | ✅ | ✅ |
+| litecoin | Litecoin | ✅ | ✅ |
+| wemix | Wemix | ✅ | ✅ |
+| gnosis | Gnosis Chain | ✅ | ✅ |
+| near-protocol | Near Protocol | ✅ | ✅ |
+| hedera-hashgraph | Hedera Hashgraph | ✅ | ✅ |
+| rari | Rari | ✅ | ✅ |
+| bitcoin | Bitcoin | ✅ | ✅ |
+| zetachain | Zeta Chain | ✅ | ✅ |
 
 
 # Tokens
@@ -1948,5 +1962,5 @@
 | Base | base | ✅ | ✅ |
 | BNB | bnb | ✅ | ✅ |
 | Sense | sense | ✅ | ✅ |
-| AMZCoin | amz | ❌ | ❌ |
+| AMZCoin | amz | ✅ | ✅ |
 | USN | usn | ✅ | ✅ |

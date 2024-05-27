@@ -4,6 +4,10 @@
 
 Token Icons is the most comprehensive and up-to-date source for cryptocurrency & network logos as icon format. More than 2,500 icons are ready as optimized SVGs as well as React components.
 
+## Supported Tokens & Networks
+
+Find the data table of supported tokens and networks [here](https://github.com/0xa3k5/token-icons/blob/main/docs/icons.md).
+
 ## What's New
 
 v2.8.0:
@@ -42,10 +46,6 @@ yarn add @token-icons/core @token-icons/react
 This will install the `@token-icons/core` package, which serves optimized SVGs as SVG files, and the `@token-icons/react` package, which serves React components for token icons.
 
 > You can install either of the packages based on your project's needs.
-
-## Supported Tokens & Networks
-
-Find the data table of supported tokens and networks [here](https://github.com/0xa3k5/token-icons/blob/main/docs/icons.md).
 
 ## Usage
 
