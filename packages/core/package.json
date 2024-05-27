@@ -39,7 +39,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "(cd ../utils && bun run build:core) && tsc && bun run lint && bun run format && bun run post-build",
+    "build": "(cd ../utils && bun run pre-build:core) && tsc && bun run lint && bun run format && bun run post-build",
     "post-build": "bun run src/post-build-fix-paths.ts",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error"
