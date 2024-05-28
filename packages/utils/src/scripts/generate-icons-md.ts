@@ -1,12 +1,10 @@
 import * as fs from 'fs'
 import * as path from 'path'
-import { coreRoot } from '../constants'
+import { ROOT_PROJECT } from '../constants'
 import networks from '../../../core/src/metadata/networks.json'
 import tokens from '../../../core/src/metadata/tokens.json'
 
-const outputFilePath = path.join(coreRoot, '../../docs/icons.md')
-
-// Read and parse the networks.json file
+const outputFilePath = path.join(ROOT_PROJECT, 'docs/icons.md')
 
 // Generate the Markdown table content
 const generateNetworksTable = (): string => {
@@ -39,7 +37,6 @@ const generateTokensTable = (): string => {
 
 const iconsMd = generateNetworksTable() + `\n\n` + generateTokensTable()
 
-// Write the content to the Markdown file
 fs.writeFileSync(outputFilePath, iconsMd)
 
 console.log('✅ generated icons.md')

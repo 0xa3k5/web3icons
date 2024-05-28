@@ -6,12 +6,12 @@ import {
   JSX_NETWORKS_OUT_DIR,
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
-  reactRoot,
+  ROOT_REACT,
 } from '../constants'
 import { generateReactComponent, ensureDirectoryExists } from '../utils'
 
-ensureDirectoryExists(path.join(reactRoot, 'src'))
-ensureDirectoryExists(path.join(reactRoot, 'src', 'icons'))
+ensureDirectoryExists(path.join(ROOT_REACT, 'src'))
+ensureDirectoryExists(path.join(ROOT_REACT, 'src', 'icons'))
 ensureDirectoryExists(SVG_TOKENS_OUT_DIR)
 ensureDirectoryExists(SVG_NETWORKS_OUT_DIR)
 ensureDirectoryExists(JSX_TOKENS_OUT_DIR)

@@ -1,13 +1,20 @@
 # @token-icons/react
 
+## 2.9.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/utils@0.0.3
+  - @token-icons/core@2.9.1
+
 ## 2.9.0
 
 ### Minor Changes
 
 - new network icons:
-`cosmos-hub`, `metis-andromeda`, `moonriver`, `sei-network`, `cosmos-hub`, `litecoin`, `wemix`, `near-protocol`, `hedera`, `rari`, `bitcoin`,`zetachain` `xrp(mono)`
+  `cosmos-hub`, `metis-andromeda`, `moonriver`, `sei-network`, `cosmos-hub`, `litecoin`, `wemix`, `near-protocol`, `hedera`, `rari`, `bitcoin`,`zetachain` `xrp(mono)`
 - fix icon sizes: `aptos`, `arbitrum`, `avalanche`, `base`, `binance-smart-chain`, `cardano`, `cosmos-hub`, `ethereum`, `optimism`, `solana`, `tron`
-
 
 ### Patch Changes
 

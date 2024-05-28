@@ -3,18 +3,14 @@ import path from 'path'
 import prettier from 'prettier'
 import { INetworkMetadata, ITokenMetadata } from '../types'
 import getCoinByID from './gecko/get-coin-by-id'
+import { NETWORKS_METADATA_PATH, TOKENS_METADATA_PATH } from '../constants'
 
 const appendToNetworksJson = async (
   network: INetworkMetadata,
 ): Promise<void> => {
-  const jsonPath = path.resolve(
-    process.cwd(),
-    'packages/core/src/metadata/networks.json',
-  )
-
   let existingMetadata: INetworkMetadata[] = []
-  if (fs.existsSync(jsonPath)) {
-    const fileContent = fs.readFileSync(jsonPath, 'utf-8')
+  if (fs.existsSync(NETWORKS_METADATA_PATH)) {
+    const fileContent = fs.readFileSync(NETWORKS_METADATA_PATH, 'utf-8')
     existingMetadata = JSON.parse(fileContent) as INetworkMetadata[]
   }
 
@@ -38,17 +34,13 @@ const appendToNetworksJson = async (
   const formatted = await prettier.format(JSON.stringify(existingMetadata), {
     parser: 'json',
   })
-  fs.writeFileSync(jsonPath, formatted)
+  fs.writeFileSync(NETWORKS_METADATA_PATH, formatted)
 }
 
 const appendToTokensJson = async (coin: ITokenMetadata): Promise<void> => {
-  const jsonPath = path.resolve(
-    process.cwd(),
-    'packages/core/src/metadata/tokens.json',
-  )
   let existingMetadata: ITokenMetadata[] = []
-  if (fs.existsSync(jsonPath)) {
-    const fileContent = fs.readFileSync(jsonPath, 'utf-8')
+  if (fs.existsSync(TOKENS_METADATA_PATH)) {
+    const fileContent = fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8')
     existingMetadata = JSON.parse(fileContent) as ITokenMetadata[]
   }
 
@@ -68,7 +60,7 @@ const appendToTokensJson = async (coin: ITokenMetadata): Promise<void> => {
   }
 
   fs.writeFileSync(
-    jsonPath,
+    TOKENS_METADATA_PATH,
     await prettier.format(JSON.stringify(existingMetadata), { parser: 'json' }),
   )
 }

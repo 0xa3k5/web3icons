@@ -1,9 +1,9 @@
 import fs from 'fs'
 import path from 'path'
-import { reactRoot } from '../constants'
+import { ROOT_REACT } from '../constants'
 
-const networkIcons = fs.readdirSync(path.join(reactRoot, 'src/icons/networks'))
-const tokenIcons = fs.readdirSync(path.join(reactRoot, 'src/icons/tokens'))
+const networkIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/networks'))
+const tokenIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/tokens'))
 
 const networkPaths = networkIcons
   .filter((file) => file.endsWith('.tsx'))
@@ -36,6 +36,6 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {\n${networkPaths}};\n
 export const TOKEN_ICON_IMPORT_MAP: IconImportMap  = {\n${tokenPaths}};\n
 `
 
-const outputPath = path.join(reactRoot, 'src/icon-import-map.ts')
+const outputPath = path.join(ROOT_REACT, 'src/icon-import-map.ts')
 fs.writeFileSync(outputPath, content)
 console.log('✅ import paths has been generated at:', outputPath)

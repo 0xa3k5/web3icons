@@ -3,7 +3,7 @@ import path from 'path'
 import {
   JSX_TOKENS_OUT_DIR,
   JSX_NETWORKS_OUT_DIR,
-  reactRoot,
+  ROOT_REACT,
 } from '../constants'
 
 const generateIndexFile = (
@@ -31,7 +31,7 @@ generateIndexFile(JSX_NETWORKS_OUT_DIR, 'networks')
 // Generate icons/index.ts in src
 const iconsIndexContent = `export * from './tokens';\nexport * from './networks';\n`
 fs.writeFileSync(
-  path.join(reactRoot, 'src', 'icons', 'index.ts'),
+  path.join(ROOT_REACT, 'src', 'icons', 'index.ts'),
   iconsIndexContent,
 )
 console.log('✓ Generated: icons index file')

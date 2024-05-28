@@ -13,6 +13,11 @@ import customTokens from './gecko/custom-tokens.json'
 import customNetworks from './gecko/custom-networks.json'
 import getCoinByID from './gecko/get-coin-by-id'
 import {
+  NETWORKS_METADATA_PATH,
+  SVG_SRC_DIR,
+  TOKENS_METADATA_PATH,
+} from '../constants'
+import {
   isUppercase,
   isKebabCase,
   findTokenByFileName,
@@ -67,13 +72,11 @@ const findExistingMetadata = (
   id: string,
   type: 'tokens' | 'networks',
 ): ITokenMetadata | INetworkMetadata | undefined => {
-  const TOKENS_PATH = 'packages/core/src/metadata/tokens.json'
-  const NETWORKS_PATH = 'packages/core/src/metadata/networks.json'
   const tokensJson: ITokenMetadata[] = JSON.parse(
-    fs.readFileSync(TOKENS_PATH, 'utf-8'),
+    fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'),
   )
   const networksJson: INetworkMetadata[] = JSON.parse(
-    fs.readFileSync(NETWORKS_PATH, 'utf-8'),
+    fs.readFileSync(NETWORKS_METADATA_PATH, 'utf-8'),
   )
 
   const existingMetadata =
@@ -215,8 +218,6 @@ const createMetadataObj = async (
 const main = async () => {
   const modifiedIcons = getModifiedIcons()
   const passedFiles = process.argv.slice(2)
-  const SVG_NETWORKS_SRC_DIR = 'packages/core/src/raw-svgs/networks'
-  const SVG_TOKENS_SRC_DIR = 'packages/core/src/raw-svgs/tokens'
 
   if (
     (modifiedIcons === '' || !modifiedIcons.includes('/raw-svgs/')) &&
@@ -226,8 +227,13 @@ const main = async () => {
     process.exit(1)
   }
 
+  // we assume the passed file paths are partial paths
+  // so we need to append the SVG_SRC_DIR to them
+  // example of an expected passed file path: tokens/bitcoin or networks/ethereum
+  // when appended: packages/core/src/raw-svgs/tokens/bitcoin or packages/core/src/raw-svgs/networks/ethereum
+
   const iconPaths = modifiedIcons
-    .concat(passedFiles.join(','))
+    .concat(passedFiles.map((f) => `${SVG_SRC_DIR}/${f}`).join(',')) // append the SVG_SRC_DIR
     .split(',')
     .filter(Boolean)
 
@@ -261,12 +267,9 @@ const main = async () => {
     }),
   )
 
-  const TOKENS_PATH = 'packages/core/src/metadata/tokens.json'
-  const NETWORKS_PATH = 'packages/core/src/metadata/networks.json'
-
   if (addedNetworks.length > 0) {
     const networksJson: INetworkMetadata[] = JSON.parse(
-      fs.readFileSync(NETWORKS_PATH, 'utf-8'),
+      fs.readFileSync(NETWORKS_METADATA_PATH, 'utf-8'),
     )
 
     const JSONFILE = JSON.stringify(
@@ -280,12 +283,12 @@ const main = async () => {
       ),
     )
 
-    fs.writeFileSync(NETWORKS_PATH, JSONFILE)
+    fs.writeFileSync(NETWORKS_METADATA_PATH, JSONFILE)
   }
 
   if (addedTokens.length > 0) {
     const tokensJson: ITokenMetadata[] = JSON.parse(
-      fs.readFileSync(TOKENS_PATH, 'utf-8'),
+      fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'),
     )
 
     const JSONFILE = JSON.stringify(
@@ -299,7 +302,7 @@ const main = async () => {
       ),
     )
 
-    fs.writeFileSync(TOKENS_PATH, JSONFILE)
+    fs.writeFileSync(TOKENS_METADATA_PATH, JSONFILE)
   }
 }
 

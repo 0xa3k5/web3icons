@@ -1,5 +1,12 @@
 # @token-icons/core
 
+## 2.9.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/utils@0.0.3
+
 ## 2.9.0
 
 ### Minor Changes

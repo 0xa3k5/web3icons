@@ -2,7 +2,7 @@
 import * as path from 'path'
 import fs from 'fs'
 import {
-  coreRoot,
+  ROOT_CORE,
   SVG_TOKENS_SRC_DIR,
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_SRC_DIR,
@@ -11,8 +11,8 @@ import {
 import { ensureDirectoryExists, optimizeSvg } from '../utils'
 
 // Ensure necessary directories exist
-ensureDirectoryExists(path.resolve(coreRoot, 'dist'))
-ensureDirectoryExists(path.resolve(coreRoot, 'dist', 'svgs'))
+ensureDirectoryExists(path.resolve(ROOT_CORE, 'dist'))
+ensureDirectoryExists(path.resolve(ROOT_CORE, 'dist', 'svgs'))
 ensureDirectoryExists(SVG_TOKENS_OUT_DIR)
 ensureDirectoryExists(SVG_NETWORKS_OUT_DIR)
 ensureDirectoryExists(path.join(SVG_TOKENS_OUT_DIR, 'mono'))
