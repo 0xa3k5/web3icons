@@ -4,9 +4,18 @@
 
 Token Icons is the most comprehensive and up-to-date source for cryptocurrency & network logos as icon format. More than 2,500 icons are ready as optimized SVGs as well as React components.
 
+## Supported Tokens & Networks
+
+Find the data table of supported tokens and networks [here](https://github.com/0xa3k5/token-icons/blob/main/docs/icons.md).
+
 ## What's New
 
-Network Icons: Use `<NetworkIcons chain={"chain-name"} />` to access Network Icons.
+v2.8.0:
+
+- Dynamic imports for React components 🎉
+- The `NetworkIcon` and `TokenIcon` are both now tree-shakeable 🎉
+
+Network Icons: Use `<NetworkIcon network={"network-name"} />` to access Network Icons.
 Enhanced Naming Conventions: Our icons follow a standardized naming convention for effortless identification and use:
 
 - Tokens: Prefixed with Token, followed by the uppercase symbol (e.g., TokenETH, TokenBTC).

@@ -8,18 +8,23 @@ import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
 
 interface Props {
   className?: string
-  icon: ITokenMetadata | INetworkMetadata
+  metadata: ITokenMetadata | INetworkMetadata
+  label: string
 }
 
-export default function IconCard({ className, icon }: Props): JSX.Element {
-  const { size, variant, selectedIcons, setSelectedIcons, color, type } =
+export default function IconCard({
+  className,
+  metadata,
+  label,
+}: Props): JSX.Element {
+  const { variant, selectedIcons, setSelectedIcons, type, color, size } =
     useAppContext()
 
   const [hover, setHover] = useState(false)
   const symbolOrId =
     type === 'tokens'
-      ? (icon as ITokenMetadata).symbol
-      : (icon as INetworkMetadata).id ?? (icon as INetworkMetadata).name
+      ? (metadata as ITokenMetadata).symbol
+      : (metadata as INetworkMetadata).id ?? (metadata as INetworkMetadata).name
 
   const isSelected = selectedIcons.includes(symbolOrId)
 
@@ -28,6 +33,24 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
       isSelected
         ? prevSelectedIcons.filter((icon) => icon !== icon)
         : [...prevSelectedIcons, symbolOrId],
+    )
+  }
+
+  const handleRender = () => {
+    if (type === 'tokens') {
+      return (
+        <TokenIcon
+          symbol={(metadata as ITokenMetadata).symbol}
+          {...{ variant, color, size }}
+        />
+      )
+    }
+
+    return (
+      <NetworkIcon
+        network={(metadata as INetworkMetadata).id}
+        {...{ variant, color, size }}
+      />
     )
   }
 
@@ -61,41 +84,19 @@ export default function IconCard({ className, icon }: Props): JSX.Element {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      {type === 'tokens' && (
-        <TokenIcon
-          variant={variant}
-          key={symbolOrId}
-          size={size}
-          color={color}
-          symbol={symbolOrId}
-        />
-      )}
-      {type === 'networks' && (
-        <NetworkIcon
-          variant={variant}
-          key={symbolOrId}
-          size={size}
-          color={color}
-          network={symbolOrId}
-        />
-      )}
+      {handleRender()}
       <span
         className={cx(
           'text-center text-white',
           isSelected ? 'text-opacity-100' : 'text-opacity-60',
         )}
       >
-        {type === 'tokens' && (
-          <span className="text-xs">{(icon as ITokenMetadata).symbol}</span>
-        )}
-        {type === 'networks' && (
-          <span className="text-xs">{(icon as INetworkMetadata).name}</span>
-        )}
+        <span className="text-xs">{label}</span>
       </span>
       <input
         type="checkbox"
-        id={`checkbox-${icon.id}`}
-        name={icon.id}
+        id={`checkbox-${metadata.id}`}
+        name={metadata.id}
         checked={isSelected}
         onChange={handleCheckboxChange}
         className="sr-only"

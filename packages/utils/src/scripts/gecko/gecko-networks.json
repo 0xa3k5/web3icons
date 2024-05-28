@@ -5,10 +5,6 @@
     "native_coin_id": "valobit"
   },
   {
-    "name": "Picasso",
-    "native_coin_id": "picasso"
-  },
-  {
     "id": "factom",
     "name": "Factom",
     "native_coin_id": "factom"
@@ -29,6 +25,11 @@
     "chain_identifier": 248,
     "name": "Oasys",
     "native_coin_id": "oasys"
+  },
+  {
+    "id": "picasso",
+    "name": "Picasso",
+    "native_coin_id": "picasso"
   },
   {
     "id": "findora",
@@ -288,6 +289,12 @@
     "native_coin_id": "ethereum"
   },
   {
+    "id": "omnia",
+    "chain_identifier": 2342,
+    "name": "Omnia",
+    "native_coin_id": "omniaverse"
+  },
+  {
     "id": "algorand",
     "name": "Algorand",
     "native_coin_id": "algorand"
@@ -456,6 +463,7 @@
     "native_coin_id": "quicksilver"
   },
   {
+    "id": "matrix",
     "name": "Matrix",
     "native_coin_id": "matrix-ai-network"
   },
@@ -714,6 +722,12 @@
     "native_coin_id": "osmosis"
   },
   {
+    "id": "ancient8",
+    "chain_identifier": 888888888,
+    "name": "Ancient8",
+    "native_coin_id": "weth"
+  },
+  {
     "id": "akash",
     "name": "Akash",
     "native_coin_id": "akash-network"
@@ -793,6 +807,12 @@
     "id": "injective",
     "name": "Injective",
     "native_coin_id": "injective-protocol"
+  },
+  {
+    "id": "sanko",
+    "chain_identifier": 1996,
+    "name": "Sanko",
+    "native_coin_id": "dream-machine-token"
   },
   {
     "id": "orenium",
@@ -914,6 +934,12 @@
     "native_coin_id": "coredaoorg"
   },
   {
+    "id": "bouncebit",
+    "chain_identifier": 6001,
+    "name": "BounceBit",
+    "native_coin_id": "bouncebit"
+  },
+  {
     "id": "polis-chain",
     "chain_identifier": 333999,
     "name": "Polis Chain",
@@ -958,6 +984,12 @@
     "chain_identifier": 288,
     "name": "Boba Network",
     "native_coin_id": "ethereum"
+  },
+  {
+    "id": "re-al",
+    "chain_identifier": 111188,
+    "name": "Re.al",
+    "native_coin_id": "weth"
   },
   {
     "id": "eos-evm",
@@ -1230,6 +1262,12 @@
     "native_coin_id": "conflux-token"
   },
   {
+    "id": "zedxion",
+    "chain_identifier": 83872,
+    "name": "Zedxion",
+    "native_coin_id": "zedxion-2"
+  },
+  {
     "id": "bitgert",
     "chain_identifier": 32520,
     "name": "Bitgert Chain",
@@ -1321,12 +1359,6 @@
     "id": "oraichain",
     "name": "Oraichain",
     "native_coin_id": "oraichain-token"
-  },
-  {
-    "id": "zklink-nova",
-    "chain_identifier": 810180,
-    "name": "zkLink Nova [Deprecated]",
-    "native_coin_id": "zklink"
   },
   {
     "id": "moonriver",
@@ -1537,15 +1569,5 @@
     "chain_identifier": 3776,
     "name": "Astar zkEVM",
     "native_coin_id": "weth"
-  },
-  {
-    "id": "etherlink",
-    "name": "etherlink",
-    "shortname": "etherlink"
-  },
-  {
-    "id": "picasso",
-    "name": "Picasso",
-    "native_coin_id": "picasso"
   }
 ]

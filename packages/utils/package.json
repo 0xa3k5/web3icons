@@ -1,7 +1,8 @@
 {
   "name": "@token-icons/utils",
   "homepage": "https://tokenicons.io",
-  "private": true,
+  "version": "0.0.2",
+  "private": false,
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
@@ -9,19 +10,32 @@
   "files": [
     "dist/**/*"
   ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./types": "./dist/types.d.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xa3k5/token-icons.git",
+    "directory": "packages/utils"
+  },
   "scripts": {
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error",
     "build": "tsup --config tsup.config.js && bun run lint && bun run format",
-    "build:core": "bun run core:optimize-svgs && bun run core:svgs-module && bun run core:index",
-    "build:react": "bun run react:components && bun run react:index",
+    "pre-build:core": "bun run core:optimize-svgs && bun run core:svgs-module && bun run core:index",
+    "pre-build:react": "bun run react:components && bun run react:index && bun run react:generate-mapping",
+    "core:generate-metadata": "bun run ./src/scripts/core-generate-metadata.ts",
     "core:optimize-svgs": "bun run ./src/scripts/core-optimize-svgs.ts",
     "core:svgs-module": "bun run ./src/scripts/core-generate-svgs-module.ts",
     "core:index": "bun run ./src/scripts/core-generate-index.ts",
     "react:components": "bun run ./src/scripts/react-generate-components.ts",
     "react:index": "bun run ./src/scripts/react-generate-index.ts",
-    "core:generate-metadata": "bun run ./src/scripts/core-generate-metadata.ts"
+    "react:generate-mapping": "bun run ./src/scripts/react-generate-mapping.ts"
   },
   "devDependencies": {
     "bun-types": "latest",

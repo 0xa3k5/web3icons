@@ -1,73 +1,100 @@
-import { forwardRef } from 'react'
-import { networks } from '@token-icons/core/metadata'
-import * as NetworkComponents from './icons/networks'
+import { forwardRef, ReactElement, useState, useEffect } from 'react'
 import { NetworkIconProps } from './types'
+import { NETWORK_ICON_IMPORT_MAP } from './icon-import-map'
+import { networks } from '@token-icons/core/metadata'
+import { INetworkMetadata } from '@token-icons/core'
 
-type NetworkComponentNames = keyof typeof NetworkComponents
-
-// Converts a string to PascalCase
 const toPascalCase = (str: string): string => {
   const words = str.match(/[a-z]+/gi) || []
   return words
-    .map((word) => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase())
+    .map(
+      (word) => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase(),
+    )
     .join('')
 }
 
-export const NetworkIcon = forwardRef<SVGSVGElement, NetworkIconProps>(
-  ({ network, size, className, variant = 'mono', color }, ref) => {
-    // Try to find the network data object using the network prop
-    const networkData = networks.find(
-      (n) =>
-        n.id === network ||
-        n.name.toLowerCase() === network.toLowerCase() ||
-        (n.shortname && n.shortname.toLowerCase() === network.toLowerCase()),
+const toKebabCase = (str: string): string => {
+  return str
+    .split(' ')
+    .map((part, index) => {
+      if (index === 0) {
+        return part
+      }
+      return part.charAt(0).toLowerCase() + part.slice(1)
+    })
+    .join('')
+}
+
+const findNetwork = (network: string): INetworkMetadata | undefined => {
+  const networkObj = networks.find(
+    (net) =>
+      net.id.toLowerCase() === toKebabCase(network) ||
+      net.name.toLowerCase() === network.toLowerCase(),
+  )
+  return networkObj
+}
+
+const DynamicIconLoader = forwardRef<SVGSVGElement, NetworkIconProps>(
+  (
+    { network, size, className, variant, color }: NetworkIconProps,
+    ref,
+  ): ReactElement | null => {
+    const [IconComponent, setIconComponent] = useState<ReactElement | null>(
+      null,
     )
 
-    // Initialize the icon component to null
-    let IconComponent = null
+    useEffect(() => {
+      const loadIcon = async () => {
+        const matchedNetwork = findNetwork(network)
+        if (!matchedNetwork) {
+          console.error(`Network not found: ${network}`)
+          return
+        }
 
-    // Try to resolve the component name first using name, then id, then shortname
-    if (networkData) {
-      const compName = toPascalCase(networkData.name)
-      const compId = networkData.id ? toPascalCase(networkData.id) : null
-      const compShortname = networkData.shortname
-        ? toPascalCase(networkData.shortname)
-        : null
+        const iconName = `Network${toPascalCase(matchedNetwork.name)}`
+        const importFunction =
+          NETWORK_ICON_IMPORT_MAP[iconName] ??
+          NETWORK_ICON_IMPORT_MAP[`Network${toPascalCase(matchedNetwork.id)}`]
 
-      // Check if component exists using name
-      IconComponent =
-        NetworkComponents[`Network${compName}` as NetworkComponentNames]
-
-      // If not found by name, check by id
-      if (!IconComponent) {
-        IconComponent =
-          NetworkComponents[`Network${compId}` as NetworkComponentNames]
+        if (importFunction) {
+          try {
+            const { default: ImportedIcon } = await importFunction()
+            setIconComponent(
+              <ImportedIcon
+                ref={ref}
+                network={network}
+                size={size}
+                color={color}
+                className={className}
+                variant={variant}
+              />,
+            )
+          } catch (error) {
+            console.error(`Error loading icon: ${iconName}`, error)
+          }
+        }
       }
 
-      // If not found by id, check by shortname
-      if (!IconComponent && compShortname) {
-        IconComponent =
-          NetworkComponents[`Network${compShortname}` as NetworkComponentNames]
-      }
-    }
+      loadIcon()
+    }, [network, ref, size, className, variant, color])
 
-    // If no component is found, log an error and return null
-    if (!IconComponent) {
-      console.error(`No component found for network: ${network}`)
-      return null
-    }
+    return IconComponent
+  },
+)
 
-    // Render the resolved icon component
+export const NetworkIcon = forwardRef<SVGSVGElement, NetworkIconProps>(
+  ({ network, size, className, variant = 'mono', color }, ref) => {
     return (
-      <IconComponent
+      <DynamicIconLoader
+        network={network}
         size={size}
-        color={color}
         className={className}
         variant={variant}
+        color={color}
         ref={ref}
       />
     )
   },
 )
 
-export default NetworkIcon
+NetworkIcon.displayName = 'NetworkIcon'

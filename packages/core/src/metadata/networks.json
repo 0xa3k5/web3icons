@@ -157,8 +157,9 @@
   },
   {
     "id": "zora-network",
+    "chain_identifier": 7777777,
     "name": "Zora",
-    "nativeCoinId": "weth",
+    "native_coin_id": "weth",
     "variants": ["branded"]
   },
   {
@@ -203,7 +204,7 @@
     "id": "ordinals",
     "name": "Bitcoin",
     "shortname": "Ordinals",
-    "nativeCoinId": "bitcoin",
+    "native_coin_id": "bitcoin",
     "variants": ["branded", "mono"]
   },
   {
@@ -234,7 +235,7 @@
     "id": "elrond",
     "name": "MultiversX",
     "shortname": "elrond",
-    "nativeCoinId": "elrond-erd-2",
+    "native_coin_id": "elrond-erd-2",
     "variants": ["branded", "mono"]
   },
   {
@@ -278,9 +279,10 @@
   },
   {
     "id": "optimistic-ethereum",
+    "chain_identifier": 10,
     "name": "Optimism",
     "shortname": "Optimism",
-    "nativeCoinId": "ethereum",
+    "native_coin_id": "ethereum",
     "variants": ["branded", "mono"]
   },
   {
@@ -317,6 +319,101 @@
     "id": "etherlink",
     "name": "etherlink",
     "shortname": "etherlink",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "arbitrum-one",
+    "chain_identifier": 42161,
+    "name": "Arbitrum One",
+    "shortname": "Arbitrum",
+    "native_coin_id": "ethereum",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "xrp",
+    "name": "XRP Ledger",
+    "shortname": "xrp",
+    "native_coin_id": "ripple",
+    "variants": ["mono"]
+  },
+  {
+    "id": "cosmos-hub",
+    "name": "Cosmos Hub",
+    "native_coin_id": "cosmos",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "metis-andromeda",
+    "chain_identifier": 1088,
+    "name": "Metis Andromeda",
+    "native_coin_id": "metis-token",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "moonriver",
+    "chain_identifier": 1285,
+    "name": "Moonriver",
+    "shortname": "moonriver",
+    "native_coin_id": "moonriver",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "sei-network",
+    "name": "Sei Network",
+    "native_coin_id": "sei-network",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "litecoin",
+    "name": "Litecoin",
+    "native_coin_id": "litecoin",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "wemix",
+    "name": "Wemix",
+    "native_coin_id": "wemix",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "gnosis",
+    "name": "Gnosis Chain",
+    "native_coin_id": "xDai",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "near-protocol",
+    "name": "Near Protocol",
+    "shortname": "near-protocol",
+    "native_coin_id": "near",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "hedera-hashgraph",
+    "chain_identifier": 295,
+    "name": "Hedera Hashgraph",
+    "shortname": "hedera",
+    "native_coin_id": "hedera-hashgraph",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "rari",
+    "name": "Rari",
+    "native_coin_id": "rari",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "bitcoin",
+    "name": "Bitcoin",
+    "shortname": "bitcoin",
+    "native_coin_id": "bitcoin",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "zetachain",
+    "chain_identifier": 7000,
+    "name": "Zeta Chain",
+    "native_coin_id": "zetachain",
     "variants": ["branded", "mono"]
   }
 ]

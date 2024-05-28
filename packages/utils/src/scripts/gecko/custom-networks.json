@@ -8,5 +8,50 @@
     "id": "picasso",
     "name": "Picasso",
     "native_coin_id": "picasso"
+  },
+  {
+    "id": "cosmos-hub",
+    "name": "Cosmos Hub",
+    "native_coin_id": "cosmos"
+  },
+  {
+    "id": "litecoin",
+    "name": "Litecoin",
+    "native_coin_id": "litecoin"
+  },
+  {
+    "id": "wemix",
+    "name": "Wemix",
+    "native_coin_id": "wemix"
+  },
+  {
+    "id": "gnosis",
+    "chain_identifier": 100,
+    "name": "Gnosis Chain",
+    "native_coin_id": "xDai"
+  },
+  {
+    "id": "hedera-hashgraph",
+    "chain_identifier": 295,
+    "name": "Hedera Hashgraph",
+    "shortname": "hedera",
+    "native_coin_id": "hedera-hashgraph"
+  },
+  {
+    "id": "rari",
+    "name": "Rari",
+    "native_coin_id": "rari"
+  },
+  {
+    "id": "zetachain",
+    "chain_identifier": 7000,
+    "name": "Zeta Chain",
+    "native_coin_id": "zetachain"
+  },
+  {
+    "id": "bitcoin",
+    "name": "Bitcoin",
+    "shortname": "bitcoin",
+    "native_coin_id": "bitcoin"
   }
 ]

@@ -40,23 +40,25 @@ const enrichCustomTokens = () => {
         const variants = []
         const lowerCaseId = custom.id.toLowerCase()
         const lowerCaseName = custom.name.toLowerCase()
+        const lowerCaseSymbol = custom.symbol.toLowerCase()
 
         if (
           svgFiles.branded.has(lowerCaseId) ||
-          svgFiles.branded.has(lowerCaseName)
+          svgFiles.branded.has(lowerCaseName) ||
+          svgFiles.branded.has(lowerCaseSymbol)
         ) {
           variants.push('branded')
         }
 
         if (
           svgFiles.mono.has(lowerCaseId) ||
-          svgFiles.mono.has(lowerCaseName)
+          svgFiles.mono.has(lowerCaseName) ||
+          svgFiles.mono.has(lowerCaseSymbol)
         ) {
           variants.push('mono')
         }
 
         const data = await getCoinByID(custom.id)
-
         const obj: ITokenMetadata = {
           id: custom.id,
           name: custom.name,

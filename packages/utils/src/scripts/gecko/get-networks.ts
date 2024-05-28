@@ -3,7 +3,6 @@
 
 import fs from 'fs'
 import path from 'path'
-import customNetworks from './custom-networks.json'
 
 const cleanObject = (obj: any) => {
   Object.keys(obj).forEach((key) => {
@@ -25,9 +24,7 @@ fetch('https://api.coingecko.com/api/v3/asset_platforms')
     // Write the cleaned networks to a JSON file
     fs.writeFileSync(
       path.join(__dirname, './gecko-networks.json'),
-      // customNetworks are networks that Coingecko is not supporting
-      // but they are supported by the token icons library
-      JSON.stringify([...cleanedData, ...customNetworks], null, 2),
+      JSON.stringify(cleanedData, null, 2),
       'utf8',
     )
 

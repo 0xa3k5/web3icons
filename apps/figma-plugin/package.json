@@ -20,13 +20,14 @@
   "dependencies": {
     "@create-figma-plugin/ui": "^3.1.0",
     "@create-figma-plugin/utilities": "^3.1.0",
-    "preact": ">=10"
+    "preact": ">=10",
+    "@token-icons/core": "2.9.0",
+    "@token-icons/utils": "0.0.2"
   },
   "devDependencies": {
     "@create-figma-plugin/build": "^3.1.0",
     "@create-figma-plugin/tsconfig": "^3.1.0",
     "@figma/plugin-typings": "1.82.0",
-    "@token-icons/core": "workspace:*",
     "classnames": "^2.5.1",
     "concurrently": ">=8",
     "tailwindcss": ">=3",

@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { GeckoNetworks, INetworkMetadata } from '../types'
+import { INetworkRaw, INetworkMetadata } from '../types'
 import { SVG_NETWORKS_SRC_DIR, NETWORKS_METADATA_PATH } from '../constants'
 import prettier from 'prettier'
 
@@ -23,7 +23,7 @@ Object.entries(SVG_NETWORKS_DIRS).forEach(([variant, dirPath]) => {
   })
 })
 
-const geckoNetworks: GeckoNetworks[] = JSON.parse(
+const geckoNetworks: INetworkRaw[] = JSON.parse(
   fs.readFileSync(GECKO_NETWORKS_PATH, 'utf8'),
 )
 const enrichedNetworks: INetworkMetadata[] = geckoNetworks

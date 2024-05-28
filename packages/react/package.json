@@ -11,7 +11,7 @@
     "crypto logos",
     "coin icons"
   ],
-  "version": "2.7.1",
+  "version": "2.9.0",
   "private": false,
   "license": "MIT",
   "main": "./dist/index.js",
@@ -31,14 +31,15 @@
     "access": "public"
   },
   "scripts": {
-    "build": "(cd ../utils && bun run build:react) && tsup ./index.ts --format cjs,esm --dts && bun run build-icons && bun run lint && bun run format",
+    "build": "(cd ../utils && bun run pre-build:react) && tsup ./src/index.ts --format cjs,esm --dts",
     "build-icons": "tsup 'src/icons/**/*.ts' --format cjs,esm --dts --outDir dist/icons",
     "dev": "bun run build -- --watch",
     "lint": "eslint ./src --ext .ts,.tsx",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error"
   },
   "dependencies": {
-    "@token-icons/core": "2.7.1"
+    "@token-icons/core": "2.9.0",
+    "@token-icons/utils": "0.0.2"
   },
   "devDependencies": {
     "@svgr/core": "^8.1.0",

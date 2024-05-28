@@ -1,5 +1,9 @@
 name: icon-add
 
+permissions:
+  contents: write
+  pull-requests: write
+
 on:
   push:
     branches:
@@ -40,11 +44,6 @@ jobs:
           echo "New SVG Files: $SVG_FILES"
           echo "New Token Icons: $newTokenIcons"
           echo "New Network Icons: $newNetworkIcons"
-      
-
-      - name: Validate New SVG Files
-        if: env.SVG_FILES
-        run: bun run ./packages/utils/src/scripts/validate-svgs.ts ${{ env.SVG_FILES }}
 
       - name: Update Metadata
         if: env.SVG_FILES
@@ -53,25 +52,11 @@ jobs:
           newNetworkIcons=$(git diff --name-only HEAD^ HEAD | grep 'packages/core/src/raw-svgs/networks/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
           echo "newTokenIcons=$newTokenIcons" >> $GITHUB_ENV
           echo "newNetworkIcons=$newNetworkIcons" >> $GITHUB_ENV
-          bun run ./packages/utils/src/scripts/update-metadata.ts ${{ env.SVG_FILES }}
-
-      - name: Create Changeset
-        run: |
-          if [ -n "$newTokenIcons" ] || [ -n "$newNetworkIcons" ]; then
-          changesetContent="---
-          \"@token-icons/core\": minor
-          \"@token-icons/react\": minor
-          ---
-          "
-          [ -n "$newTokenIcons" ] && changesetContent+="New Token icons: $newTokenIcons\n"
-          [ -n "$newNetworkIcons" ] && changesetContent+="New Network icons: $newNetworkIcons\n"
-          echo "$changesetContent" > .changeset/$(date +%s).md
-          fi
-          bun changeset version
+          bun run ./packages/utils/src/scripts/add-icons.ts ${{ env.SVG_FILES }}
 
       - name: Build Packages
         run: |
-          bun run build --filter=@token-icons/core --filter=@token-icons/react
+          bun run build --filter=@tknicns/core --filter=@tknicns/react
         
       - name: Commit Changes
         run: |
@@ -98,28 +83,3 @@ jobs:
             echo "No new icons to commit"
           fi
           git push origin ${GITHUB_HEAD_REF:-${GITHUB_REF}}
-
-  publish:
-    needs: update-and-rebuild
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Setup bun
-        uses: oven-sh/setup-bun@v1
-
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '20'
-          registry-url: 'https://registry.npmjs.org'
-
-      - name: Install dependencies
-        run: bun install
-
-      - name: Publish to npm
-        run: bun changeset publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
