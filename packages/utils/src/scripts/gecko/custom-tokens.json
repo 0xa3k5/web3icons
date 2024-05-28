@@ -13,5 +13,10 @@
     "id": "danchortoken",
     "symbol": "usn",
     "name": "USN"
+  },
+  {
+    "id": "chexchexchex",
+    "symbol": "chex",
+    "name": "Chintai"
   }
 ]
