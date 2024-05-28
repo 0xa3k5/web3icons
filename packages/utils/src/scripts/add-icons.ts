@@ -17,13 +17,13 @@ import {
   isKebabCase,
   findTokenByFileName,
   findNetworkByFileName,
+  getTypeAndVariant,
 } from '../utils'
 
 const validateSvg = (filePath: string): boolean => {
   const svgContent = fs.readFileSync(filePath, 'utf8')
-  const type = filePath.includes('/tokens/') ? 'token' : 'network'
   const fileName = path.basename(filePath, '.svg')
-  const variant = filePath.includes('/mono/') ? 'mono' : 'branded'
+  const { type, variant } = getTypeAndVariant(filePath)
 
   const hasCorrectDimensions =
     svgContent.includes('width="24"') && svgContent.includes('height="24"')
