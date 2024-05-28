@@ -18,5 +18,15 @@
     "id": "chexchexchex",
     "symbol": "chex",
     "name": "Chintai"
+  },
+  {
+    "id": "eoshashcoins",
+    "symbol": "hash",
+    "name": "Hash"
+  },
+  {
+    "id": "eoshashcoins",
+    "symbol": "hpoint",
+    "name": "HPoint"
   }
 ]
