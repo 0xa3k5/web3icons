@@ -2,6 +2,15 @@ import { INetworkMetadata, ITokenMetadata, svgs } from '@token-icons/core'
 import { SvgIcon } from './types'
 import { networks, tokens } from '@token-icons/core/metadata'
 
+const toPascalCase = (str: string): string => {
+  const words = str.match(/[a-z]+/gi) || []
+  return words
+    .map(
+      (word) => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase(),
+    )
+    .join('')
+}
+
 export const icons = () => {
   const tokenIcons: { [key: string]: SvgIcon[] } = {
     branded: [],
@@ -64,15 +73,21 @@ export const filterIcons = (
       .filter((network: INetworkMetadata) => {
         return (
           network.name.toLowerCase().includes(searchLower) ||
-          network.id?.toLowerCase().includes(searchLower)
+          network.id.toLowerCase().includes(searchLower) ||
+          (network.shortname &&
+            network.shortname.toLowerCase().includes(searchLower))
         )
       })
-      .map((network) => ({
-        name: network.name.toLowerCase(),
-        svg: networkIcons[variant]?.find(
-          (icon) => icon.name.toLowerCase() === network.name.toLowerCase(),
-        )?.svg,
-      }))
+      .map((network) => {
+        return {
+          name: network.name.toLowerCase(),
+          svg: networkIcons[variant]?.find(
+            (icon) =>
+              icon.name === toPascalCase(network.name) ||
+              icon.name === toPascalCase(network.id),
+          )?.svg,
+        }
+      })
       .filter((icon) => icon.svg !== undefined) as SvgIcon[]
   }
 }

@@ -34,7 +34,7 @@ export default function IconCard({
   return (
     <label
       className={cx(
-        'relative flex aspect-square flex-col items-center justify-center gap-1 border border-gray-lightest p-4 duration-150',
+        'relative flex flex-col items-center justify-center gap-1 border border-gray-lightest p-4 duration-150',
         className,
         isSelected ? 'bg-gray-light' : hover && 'bg-gray',
       )}
@@ -44,7 +44,7 @@ export default function IconCard({
       <img className="size-8" src={svg} />
       <span
         className={cx(
-          'text-sm text-white',
+          'text-center text-sm text-white',
           isSelected ? 'text-opacity-100' : 'text-opacity-60',
         )}
       >
