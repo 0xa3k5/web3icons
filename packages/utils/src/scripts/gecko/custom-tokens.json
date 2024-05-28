@@ -28,5 +28,10 @@
     "id": "eoshashcoins",
     "symbol": "hpoint",
     "name": "HPoint"
+  },
+  {
+    "id": "ram.defi",
+    "symbol": "bram",
+    "name": "bRAM"
   }
 ]
