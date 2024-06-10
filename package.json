@@ -1,6 +1,7 @@
 {
   "name": "token-icons",
   "private": false,
+  "author": "0xa3k5",
   "scripts": {
     "build": "turbo build",
     "build:core": "turbo run build:core && bun run lint && bun run format",

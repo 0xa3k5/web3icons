@@ -2,6 +2,7 @@
   "name": "@token-icons/website",
   "version": "0.1.0",
   "private": true,
+  "author": "0xa3k5",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

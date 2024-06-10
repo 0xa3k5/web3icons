@@ -3,6 +3,7 @@
   "homepage": "https://tokenicons.io",
   "version": "0.0.3",
   "private": false,
+  "author": "0xa3k5",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",

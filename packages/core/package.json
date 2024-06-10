@@ -13,6 +13,7 @@
   ],
   "version": "2.9.1",
   "private": false,
+  "author": "0xa3k5",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",

@@ -2,6 +2,7 @@
   "name": "@token-icons/eslint-config",
   "version": "0.0.0",
   "private": true,
+  "author": "0xa3k5",
   "files": [
     "library.js",
     "next.js",
