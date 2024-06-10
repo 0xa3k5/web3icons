@@ -67,6 +67,8 @@
 | rari | Rari | ✅ | ✅ |
 | bitcoin | Bitcoin | ✅ | ✅ |
 | zetachain | Zeta Chain | ✅ | ✅ |
+| fio | FIO Protocol | ✅ | ✅ |
+| stargaze | Stargaze | ✅ | ✅ |
 
 
 # Tokens
