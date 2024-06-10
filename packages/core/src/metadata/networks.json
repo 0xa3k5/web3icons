@@ -415,5 +415,18 @@
     "name": "Zeta Chain",
     "native_coin_id": "zetachain",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "fio",
+    "name": "FIO Protocol",
+    "shortname": "fio",
+    "native_coin_id": "FIO",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "stargaze",
+    "name": "Stargaze",
+    "native_coin_id": "stargaze",
+    "variants": ["branded", "mono"]
   }
 ]

@@ -628,6 +628,12 @@
     "native_coin_id": "metis-token"
   },
   {
+    "id": "re-al",
+    "chain_identifier": 111188,
+    "name": "Re.al",
+    "native_coin_id": "weth"
+  },
+  {
     "id": "filecoin",
     "chain_identifier": 314,
     "name": "Filecoin",
@@ -691,12 +697,6 @@
     "chain_identifier": 361,
     "name": "Theta",
     "native_coin_id": "theta-token"
-  },
-  {
-    "id": "x1",
-    "chain_identifier": 196,
-    "name": "X1",
-    "native_coin_id": "okb"
   },
   {
     "id": "vechain",
@@ -809,12 +809,6 @@
     "native_coin_id": "injective-protocol"
   },
   {
-    "id": "sanko",
-    "chain_identifier": 1996,
-    "name": "Sanko",
-    "native_coin_id": "dream-machine-token"
-  },
-  {
     "id": "orenium",
     "name": "Orenium",
     "native_coin_id": "orenium-protocol"
@@ -923,11 +917,6 @@
     "native_coin_id": "crescent-network"
   },
   {
-    "id": "aelf",
-    "name": "AELF",
-    "native_coin_id": "aelf"
-  },
-  {
     "id": "core",
     "chain_identifier": 1116,
     "name": "Core",
@@ -986,10 +975,10 @@
     "native_coin_id": "ethereum"
   },
   {
-    "id": "re-al",
-    "chain_identifier": 111188,
-    "name": "Re.al",
-    "native_coin_id": "weth"
+    "id": "planq-network",
+    "chain_identifier": 7070,
+    "name": "Planq Network",
+    "native_coin_id": "planq"
   },
   {
     "id": "eos-evm",
@@ -1101,6 +1090,13 @@
     "name": "Optimism",
     "shortname": "Optimism",
     "native_coin_id": "ethereum"
+  },
+  {
+    "id": "taiko",
+    "chain_identifier": 167000,
+    "name": "Taiko",
+    "shortname": "taiko",
+    "native_coin_id": "taiko"
   },
   {
     "id": "scroll",
@@ -1262,10 +1258,10 @@
     "native_coin_id": "conflux-token"
   },
   {
-    "id": "zedxion",
-    "chain_identifier": 83872,
-    "name": "Zedxion",
-    "native_coin_id": "zedxion-2"
+    "id": "endurance",
+    "chain_identifier": 648,
+    "name": "Endurance",
+    "native_coin_id": "endurance"
   },
   {
     "id": "bitgert",
@@ -1290,9 +1286,10 @@
     "native_coin_id": "flow"
   },
   {
-    "id": "hyperliquid",
-    "name": "Hyperliquid",
-    "native_coin_id": "usd-coin"
+    "id": "sei-v2",
+    "chain_identifier": 1329,
+    "name": "Sei V2",
+    "native_coin_id": "wrapped-sei"
   },
   {
     "id": "x-layer",
@@ -1569,5 +1566,63 @@
     "chain_identifier": 3776,
     "name": "Astar zkEVM",
     "native_coin_id": "weth"
+  },
+  {
+    "id": "aelf",
+    "name": "AELF",
+    "native_coin_id": "aelf"
+  },
+  {
+    "id": "uton",
+    "name": "UTON",
+    "native_coin_id": "play-to-create"
+  },
+  {
+    "id": "hyperliquid",
+    "name": "Hyperliquid",
+    "native_coin_id": "usd-coin"
+  },
+  {
+    "id": "vanar-chain",
+    "chain_identifier": 2040,
+    "name": "Vanar Chain",
+    "native_coin_id": "vanar-chain"
+  },
+  {
+    "id": "sanko",
+    "chain_identifier": 1996,
+    "name": "Sanko",
+    "native_coin_id": "dream-machine-token"
+  },
+  {
+    "id": "nahmii",
+    "chain_identifier": 4061,
+    "name": "Nahmii",
+    "shortname": "nahmii",
+    "native_coin_id": "nahmii"
+  },
+  {
+    "id": "haqq-network",
+    "name": "Haqq Network",
+    "native_coin_id": "islamic-coin"
+  },
+  {
+    "id": "boba-bnb",
+    "chain_identifier": 56288,
+    "name": "Boba BNB",
+    "native_coin_id": "boba-network"
+  },
+  {
+    "id": "vyvo-smart-chain",
+    "chain_identifier": 8889,
+    "name": "Vyvo Smart Chain",
+    "native_coin_id": "vyvo-smart-chain"
+  },
+  {
+    "id": "zedxion",
+    "chain_identifier": 83872,
+    "name": "Zedxion Smart Chain",
+    "shortname": "Zedxion",
+    "native_coin_id": "zedxion-2"
   }
 ]

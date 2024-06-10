@@ -1,5 +1,17 @@
 # @token-icons/react
 
+## 2.10.0
+
+### Minor Changes
+
+- add networks: fio, stargaze
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/core@2.10.0
+  - @token-icons/utils@0.0.4
+
 ## 2.9.1
 
 ### Patch Changes

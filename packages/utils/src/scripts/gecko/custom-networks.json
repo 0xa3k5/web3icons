@@ -53,5 +53,11 @@
     "name": "Bitcoin",
     "shortname": "bitcoin",
     "native_coin_id": "bitcoin"
+  },
+  {
+    "id": "fio",
+    "name": "FIO Protocol",
+    "shortname": "fio",
+    "native_coin_id": "FIO"
   }
 ]

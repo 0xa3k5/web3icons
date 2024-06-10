@@ -11,6 +11,7 @@ interface IconImportMap {
 
 export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkLinea: () => import('./icons/networks/NetworkLinea'),
+  NetworkFio: () => import('./icons/networks/NetworkFio'),
   NetworkMatic: () => import('./icons/networks/NetworkMatic'),
   NetworkPolkadot: () => import('./icons/networks/NetworkPolkadot'),
   NetworkKava: () => import('./icons/networks/NetworkKava'),
@@ -64,6 +65,7 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkHedera: () => import('./icons/networks/NetworkHedera'),
   NetworkXrpLedger: () => import('./icons/networks/NetworkXrpLedger'),
   NetworkImmutable: () => import('./icons/networks/NetworkImmutable'),
+  NetworkStargaze: () => import('./icons/networks/NetworkStargaze'),
   NetworkMetisAndromeda: () => import('./icons/networks/NetworkMetisAndromeda'),
   NetworkRari: () => import('./icons/networks/NetworkRari'),
   NetworkXai: () => import('./icons/networks/NetworkXai'),
