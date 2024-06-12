@@ -1,5 +1,16 @@
 # @token-icons/react
 
+## 2.11.0
+
+### Minor Changes
+
+- improve svg path dimensions
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/core@2.11.0
+
 ## 2.10.0
 
 ### Minor Changes
