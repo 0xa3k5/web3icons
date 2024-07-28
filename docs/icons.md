@@ -462,7 +462,7 @@
 | Clash of Lilliput                      | col         | ✅      | ❌   |
 | ClearDAO                               | clh         | ✅      | ✅   |
 | Clearpool                              | cpool       | ✅      | ❌   |
-| Clover Finance                         | clv         | ❌      | ✅   |
+| Clover Finance                         | clv         | ✅      | ✅   |
 | ClinTex CTi                            | cti         | ✅      | ✅   |
 | Clore.ai                               | clore       | ✅      | ✅   |
 | Honk                                   | honk        | ✅      | ❌   |
@@ -1968,3 +1968,4 @@
 | Sense                                  | sense       | ✅      | ✅   |
 | AMZCoin                                | amz         | ✅      | ✅   |
 | USN                                    | usn         | ✅      | ✅   |
+| Gravity                                | g           | ✅      | ✅   |

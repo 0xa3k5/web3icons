@@ -88,7 +88,7 @@ export default function Home() {
             {icons.map((icon) => {
               return (
                 <IconCard
-                  key={icon.name}
+                  key={icon.id}
                   metadata={icon}
                   label={
                     type === 'networks'

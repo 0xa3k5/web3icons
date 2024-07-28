@@ -127,10 +127,16 @@ const getWithUserInput = async (
   const existingMetadata = findExistingMetadata(geckoApiID, type)
 
   if (!existingMetadata) {
-    console.info(
-      `👀 ${fileName}: No matching token metadata, consider manually adding a metadata`,
-    )
-    return
+    const foundCoin = await getCoinByID(geckoApiID)
+
+    return {
+      id: geckoApiID,
+      name: foundCoin.name,
+      symbol: foundCoin.symbol,
+      variants: [fileVariant],
+      addresses: foundCoin.platforms || {},
+      marketCapRank: foundCoin.market_cap_rank || null,
+    }
   }
 
   if (!existingMetadata.variants.includes(fileVariant)) {
@@ -171,6 +177,16 @@ const createMetadataObj = async (
     if (!userChoice) {
       return getWithUserInput(fileName, fileVariant, type)
     }
+
+    if (type === 'tokens') {
+      return {
+        ...userChoice,
+        variants: [fileVariant],
+        addresses: {},
+        marketCapRank: null,
+      }
+    }
+
     return { ...userChoice, variants: [fileVariant] }
   }
 
@@ -191,9 +207,9 @@ const createMetadataObj = async (
     if (type === 'tokens') {
       const data = await getCoinByID(rawData[0].id)
 
-      ;(metadata as ITokenMetadata)['addresses'] = data?.platforms || {}
+      ;(metadata as ITokenMetadata)['addresses'] = data.platforms || {}
       ;(metadata as ITokenMetadata)['marketCapRank'] =
-        data?.market_cap_rank || null
+        data.market_cap_rank || null
     }
 
     return metadata
