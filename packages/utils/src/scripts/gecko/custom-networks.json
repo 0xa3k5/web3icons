@@ -1,29 +1,9 @@
 [
-  {
-    "id": "etherlink",
-    "name": "etherlink",
-    "shortname": "etherlink"
-  },
-  {
-    "id": "picasso",
-    "name": "Picasso",
-    "native_coin_id": "picasso"
-  },
-  {
-    "id": "cosmos-hub",
-    "name": "Cosmos Hub",
-    "native_coin_id": "cosmos"
-  },
-  {
-    "id": "litecoin",
-    "name": "Litecoin",
-    "native_coin_id": "litecoin"
-  },
-  {
-    "id": "wemix",
-    "name": "Wemix",
-    "native_coin_id": "wemix"
-  },
+  { "id": "etherlink", "name": "etherlink", "shortname": "etherlink" },
+  { "id": "picasso", "name": "Picasso", "native_coin_id": "picasso" },
+  { "id": "cosmos-hub", "name": "Cosmos Hub", "native_coin_id": "cosmos" },
+  { "id": "litecoin", "name": "Litecoin", "native_coin_id": "litecoin" },
+  { "id": "wemix", "name": "Wemix", "native_coin_id": "wemix" },
   {
     "id": "gnosis",
     "chain_identifier": 100,
@@ -37,11 +17,7 @@
     "shortname": "hedera",
     "native_coin_id": "hedera-hashgraph"
   },
-  {
-    "id": "rari",
-    "name": "Rari",
-    "native_coin_id": "rari"
-  },
+  { "id": "rari", "name": "Rari", "native_coin_id": "rari" },
   {
     "id": "zetachain",
     "chain_identifier": 7000,
@@ -59,5 +35,6 @@
     "name": "FIO Protocol",
     "shortname": "fio",
     "native_coin_id": "FIO"
-  }
+  },
+  { "id": "gravity", "name": "gravity-network" }
 ]

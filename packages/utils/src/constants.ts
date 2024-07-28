@@ -26,5 +26,13 @@ export const NETWORKS_METADATA_PATH = path.resolve(
   ROOT_CORE,
   'src/metadata/networks.json',
 )
+export const CUSTOM_TOKENS_METADATA_PATH = path.resolve(
+  ROOT_UTILS,
+  'src/scripts/gecko/custom-tokens.json',
+)
+export const CUSTOM_NETWORKS_METADATA_PATH = path.resolve(
+  ROOT_UTILS,
+  'src/scripts/gecko/custom-networks.json',
+)
 export const CORE_INDEX_PATH = path.resolve(ROOT_CORE, 'src', 'index.ts')
 export const CORE_SVG_MODULE_PATH = path.resolve(ROOT_CORE, 'src/svg-module.ts')

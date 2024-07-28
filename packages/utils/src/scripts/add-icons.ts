@@ -12,7 +12,10 @@ import geckoCoins from './gecko/gecko-coins.json'
 import customTokens from './gecko/custom-tokens.json'
 import customNetworks from './gecko/custom-networks.json'
 import getCoinByID from './gecko/get-coin-by-id'
+import prettier from 'prettier'
 import {
+  CUSTOM_NETWORKS_METADATA_PATH,
+  CUSTOM_TOKENS_METADATA_PATH,
   NETWORKS_METADATA_PATH,
   SVG_SRC_DIR,
   TOKENS_METADATA_PATH,
@@ -126,7 +129,7 @@ const getWithUserInput = async (
 
   if (!existingMetadata) {
     console.info(
-      `👀 ${fileName}: No matching token metadata, consider manually adding to "packages/utils/scripts/gecko/custom-tokens.json"`,
+      `👀 ${fileName}: No matching token metadata, consider manually adding a metadata`,
     )
     return
   }
@@ -157,6 +160,9 @@ const createMetadataObj = async (
     )
 
     const manualData = await addManualMetadata()
+
+    await updateCustomJson([manualData], type)
+
     return { ...manualData, variants: [fileVariant] }
   }
 
@@ -190,6 +196,69 @@ const createMetadataObj = async (
   }
 
   return metadata
+}
+
+const updateMetadataJson = async (
+  metadata: INetworkMetadata[] | ITokenMetadata[],
+  type: 'tokens' | 'networks',
+) => {
+  const current = JSON.parse(
+    fs.readFileSync(
+      type === 'tokens' ? TOKENS_METADATA_PATH : NETWORKS_METADATA_PATH,
+      'utf-8',
+    ),
+  )
+
+  const JSONFILE = JSON.stringify(
+    Array.from(
+      new Map(
+        [...current, ...mergeVariants(metadata)].map((item) => [
+          item['id'],
+          item,
+        ]),
+      ).values(),
+    ),
+  )
+
+  fs.writeFileSync(
+    type === 'tokens' ? TOKENS_METADATA_PATH : NETWORKS_METADATA_PATH,
+    await prettier.format(JSONFILE, { parser: 'json' }),
+  )
+
+  console.info(`✔ added ${type}: ${metadata.map((t) => t.id).join(', ')}`)
+}
+
+const updateCustomJson = async (
+  metadata: INetworkRaw[] | ITokenRaw[],
+  type: 'tokens' | 'networks',
+) => {
+  console.log('updating custom json')
+  const customJson = JSON.parse(
+    fs.readFileSync(
+      type === 'tokens'
+        ? CUSTOM_TOKENS_METADATA_PATH
+        : CUSTOM_NETWORKS_METADATA_PATH,
+      'utf-8',
+    ),
+  )
+
+  const JSONFILE = JSON.stringify(
+    Array.from(
+      new Map(
+        [...customJson, ...metadata].map((item) => [item.id, item]),
+      ).values(),
+    ),
+  )
+
+  fs.writeFileSync(
+    type === 'tokens'
+      ? CUSTOM_TOKENS_METADATA_PATH
+      : CUSTOM_NETWORKS_METADATA_PATH,
+    await prettier.format(JSONFILE, { parser: 'json' }),
+  )
+  console.info(
+    `✔ custom ${type} added: ${metadata.map((t) => t.id).join(', ')}`,
+  )
 }
 
 const main = async () => {
@@ -251,65 +320,9 @@ const main = async () => {
     }
   }
 
-  // await Promise.all(
-  //   Object.entries(groupedIcons).map(async ([fileName, { type, variants }]) => {
-  //     const metadata = await createMetadataObj(fileName, variants[0]!, type)
-  //     if (!metadata) return
-
-  //     metadata.variants = variants
-
-  //     const confirmed = await confirmTheMetadata(metadata)
-  //     if (!confirmed) return
-
-  //     if (type === 'tokens') {
-  //       addedTokens.push(metadata as ITokenMetadata)
-  //     } else {
-  //       addedNetworks.push(metadata as INetworkMetadata)
-  //     }
-  //   }),
-  // )
-
-  if (addedNetworks.length > 0) {
-    const networksJson: INetworkMetadata[] = JSON.parse(
-      fs.readFileSync(NETWORKS_METADATA_PATH, 'utf-8'),
-    )
-
-    const JSONFILE = JSON.stringify(
-      Array.from(
-        new Map(
-          [...networksJson, ...mergeVariants(addedNetworks)].map((item) => [
-            item['id'],
-            item,
-          ]),
-        ).values(),
-      ),
-    )
-
-    fs.writeFileSync(NETWORKS_METADATA_PATH, JSONFILE)
-    console.info(
-      `✔ added networks: ${addedNetworks.map((n) => n.id).join(', ')}`,
-    )
-  }
-
-  if (addedTokens.length > 0) {
-    const tokensJson: ITokenMetadata[] = JSON.parse(
-      fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'),
-    )
-
-    const JSONFILE = JSON.stringify(
-      Array.from(
-        new Map(
-          [...tokensJson, ...mergeVariants(addedTokens)].map((item) => [
-            item['id'],
-            item,
-          ]),
-        ).values(),
-      ),
-    )
-
-    fs.writeFileSync(TOKENS_METADATA_PATH, JSONFILE)
-    console.info(`✔ added tokens: ${addedTokens.map((t) => t.id).join(', ')}`)
-  }
+  if (addedNetworks.length > 0)
+    await updateMetadataJson(addedNetworks, 'networks')
+  if (addedTokens.length > 0) await updateMetadataJson(addedTokens, 'tokens')
 }
 
 await main()

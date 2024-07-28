@@ -13,7 +13,7 @@ fetch('https://api.coingecko.com/api/v3/coins/list')
       JSON.stringify(res, null, 2),
     )
 
-    console.log('✅ gecko-coins.json')
+    console.log('✅ gecko-coins.json updated')
   })
   .catch((err) => {
     console.log('Error writing coins to JSON file:', err)
