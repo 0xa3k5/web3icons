@@ -9,7 +9,7 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error",
-    "add-icons": "bun run update-gecko-coins && bun run update-gecko-networks && bun run ./packages/utils/src/scripts/add-icons.ts",
+    "add-icons": "bun run update-gecko-coins && bun run update-gecko-networks && bun run ./packages/utils/src/scripts/add-icons.ts && bun run ./packages/utils/src/scripts/generate-icons-md.ts && bun run format ",
     "update-gecko-networks": "bun run ./packages/utils/src/scripts/gecko/get-networks.ts",
     "update-gecko-coins": "bun run ./packages/utils/src/scripts/gecko/get-coins.ts"
   },

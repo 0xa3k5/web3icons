@@ -22,7 +22,8 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkOptimism: () => import('./icons/networks/NetworkOptimism'),
   NetworkIotex: () => import('./icons/networks/NetworkIotex'),
   NetworkLoopring: () => import('./icons/networks/NetworkLoopring'),
-  NetworkHederaHashgraph: () => import('./icons/networks/NetworkHederaHashgraph'),
+  NetworkHederaHashgraph: () =>
+    import('./icons/networks/NetworkHederaHashgraph'),
   NetworkBoba: () => import('./icons/networks/NetworkBoba'),
   NetworkXLayer: () => import('./icons/networks/NetworkXLayer'),
   NetworkBlast: () => import('./icons/networks/NetworkBlast'),
@@ -58,7 +59,8 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkMultiversx: () => import('./icons/networks/NetworkMultiversx'),
   NetworkScroll: () => import('./icons/networks/NetworkScroll'),
   NetworkPolygon: () => import('./icons/networks/NetworkPolygon'),
-  NetworkBinanceSmartChain: () => import('./icons/networks/NetworkBinanceSmartChain'),
+  NetworkBinanceSmartChain: () =>
+    import('./icons/networks/NetworkBinanceSmartChain'),
   NetworkFilecoin: () => import('./icons/networks/NetworkFilecoin'),
   NetworkPolygonZkevm: () => import('./icons/networks/NetworkPolygonZkevm'),
   NetworkLitecoin: () => import('./icons/networks/NetworkLitecoin'),
@@ -89,10 +91,9 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkTron: () => import('./icons/networks/NetworkTron'),
   NetworkArbitrumOne: () => import('./icons/networks/NetworkArbitrumOne'),
   NetworkBeam: () => import('./icons/networks/NetworkBeam'),
-};
+}
 
-
-export const TOKEN_ICON_IMPORT_MAP: IconImportMap  = {
+export const TOKEN_ICON_IMPORT_MAP: IconImportMap = {
   TokenVXV: () => import('./icons/tokens/TokenVXV'),
   TokenAXL: () => import('./icons/tokens/TokenAXL'),
   TokenXTZ: () => import('./icons/tokens/TokenXTZ'),
@@ -2002,5 +2003,4 @@ export const TOKEN_ICON_IMPORT_MAP: IconImportMap  = {
   TokenPASG: () => import('./icons/tokens/TokenPASG'),
   TokenMOE: () => import('./icons/tokens/TokenMOE'),
   TokenOVR: () => import('./icons/tokens/TokenOVR'),
-};
-
+}

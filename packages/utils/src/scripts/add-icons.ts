@@ -12,7 +12,6 @@ import geckoCoins from './gecko/gecko-coins.json'
 import customTokens from './gecko/custom-tokens.json'
 import customNetworks from './gecko/custom-networks.json'
 import getCoinByID from './gecko/get-coin-by-id'
-import prettier from 'prettier'
 import {
   CUSTOM_NETWORKS_METADATA_PATH,
   CUSTOM_TOKENS_METADATA_PATH,
@@ -20,7 +19,11 @@ import {
   SVG_SRC_DIR,
   TOKENS_METADATA_PATH,
 } from '../constants'
-import { findTokenByFileName, findNetworkByFileName } from '../utils'
+import {
+  findTokenByFileName,
+  findNetworkByFileName,
+  validateSvg,
+} from '../utils'
 import {
   addManualMetadata,
   confirmTheMetadata,
@@ -221,7 +224,7 @@ const updateMetadataJson = async (
 
   fs.writeFileSync(
     type === 'tokens' ? TOKENS_METADATA_PATH : NETWORKS_METADATA_PATH,
-    await prettier.format(JSONFILE, { parser: 'json' }),
+    JSONFILE,
   )
 
   console.info(`✔ added ${type}: ${metadata.map((t) => t.id).join(', ')}`)
@@ -231,7 +234,6 @@ const updateCustomJson = async (
   metadata: INetworkRaw[] | ITokenRaw[],
   type: 'tokens' | 'networks',
 ) => {
-  console.log('updating custom json')
   const customJson = JSON.parse(
     fs.readFileSync(
       type === 'tokens'
@@ -253,7 +255,7 @@ const updateCustomJson = async (
     type === 'tokens'
       ? CUSTOM_TOKENS_METADATA_PATH
       : CUSTOM_NETWORKS_METADATA_PATH,
-    await prettier.format(JSONFILE, { parser: 'json' }),
+    JSONFILE,
   )
   console.info(
     `✔ custom ${type} added: ${metadata.map((t) => t.id).join(', ')}`,
@@ -281,6 +283,7 @@ const main = async () => {
     .concat(passedFiles.map((f) => `${SVG_SRC_DIR}/${f}`).join(',')) // append the SVG_SRC_DIR
     .split(',')
     .filter(Boolean)
+    .filter((filePath) => validateSvg(filePath))
 
   const groupedIcons: {
     [key: string]: { type: 'tokens' | 'networks'; variants: string[] }
