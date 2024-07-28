@@ -1,5 +1,13 @@
 # @token-icons/core
 
+## 2.12.1
+
+### Patch Changes
+
+- fix some fields not being added to the metadata correctly
+- Updated dependencies
+  - @token-icons/utils@0.0.6
+
 ## 2.12.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @token-icons/utils
 
+## 0.0.6
+
+### Patch Changes
+
+- fix some fields not being added to the metadata correctly
+
 ## 0.0.5
 
 ### Patch Changes

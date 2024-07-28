@@ -11,7 +11,7 @@
     "crypto logos",
     "coin icons"
   ],
-  "version": "2.12.0",
+  "version": "2.12.1",
   "private": false,
   "license": "MIT",
   "main": "./dist/index.js",
@@ -38,8 +38,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error"
   },
   "dependencies": {
-    "@token-icons/core": "2.12.0",
-    "@token-icons/utils": "0.0.5",
+    "@token-icons/core": "2.12.1",
+    "@token-icons/utils": "0.0.6",
     "react": "^18.2.0"
   },
   "devDependencies": {
