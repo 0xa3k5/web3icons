@@ -428,5 +428,13 @@
     "name": "Stargaze",
     "native_coin_id": "stargaze",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "iotex",
+    "chain_identifier": 4689,
+    "name": "IoTeX",
+    "shortname": "iotex",
+    "native_coin_id": "iotex",
+    "variants": ["branded", "mono"]
   }
 ]
