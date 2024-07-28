@@ -9,7 +9,8 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error",
-    "add-icons": "bun run ./packages/utils/src/scripts/add-icons.ts"
+    "add-icons": "bun run ./packages/utils/src/scripts/add-icons.ts",
+    "update-gecko-networks": "bun run ./packages/utils/src/scripts/gecko/get-networks.ts"
   },
   "devDependencies": {
     "@token-icons/eslint-config": "*",

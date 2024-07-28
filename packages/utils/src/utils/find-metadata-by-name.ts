@@ -10,13 +10,19 @@ export const findNetworkByFileName = <
 >(
   fileName: string,
   data: T[],
-): T | undefined => {
-  return data.find(
+): T[] | undefined => {
+  const found = data.filter(
     (n) =>
       toKebabCase(n.id) === fileName ||
       toKebabCase(n.name) === fileName ||
       (n.shortname && toKebabCase(n.shortname) === fileName),
   )
+
+  if (found.length === 0) {
+    return undefined
+  }
+
+  return found.filter((n) => n !== undefined)
 }
 
 /**
@@ -29,11 +35,17 @@ export const findTokenByFileName = <
 >(
   fileName: string,
   data: T[],
-): T | undefined => {
-  return data.find(
+): T[] | undefined => {
+  const found = data.filter(
     (t) =>
       t.id.toLowerCase() === fileName.toLowerCase() ||
       t.symbol.toLowerCase() === fileName.toLowerCase() ||
       t.name.toLowerCase() === fileName.toLowerCase(),
   )
+
+  if (found.length === 0) {
+    return undefined
+  }
+
+  return found.filter((t) => t !== undefined)
 }
