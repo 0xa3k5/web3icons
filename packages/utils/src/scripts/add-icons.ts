@@ -20,11 +20,7 @@ import {
   SVG_SRC_DIR,
   TOKENS_METADATA_PATH,
 } from '../constants'
-import {
-  findTokenByFileName,
-  findNetworkByFileName,
-  validateSvg,
-} from '../utils'
+import { findTokenByFileName, findNetworkByFileName } from '../utils'
 import {
   addManualMetadata,
   confirmTheMetadata,
@@ -138,7 +134,6 @@ const getWithUserInput = async (
     existingMetadata.variants.push(fileVariant)
   }
 
-  console.log('existing metadata', existingMetadata)
   return existingMetadata
 }
 
@@ -154,48 +149,52 @@ const createMetadataObj = async (
   type: 'tokens' | 'networks',
 ): Promise<ITokenMetadata | INetworkMetadata | undefined> => {
   const rawData = findRawData(fileName, type)
+  // no metadata
   if (!rawData || rawData[0] === undefined) {
     console.info(
-      `👀 ${fileName}: No ${type.slice(0, -1)} metadata, consider manually adding to "packages/utils/scripts/gecko/custom-${type}.json"`,
+      `👀 ${fileName}: No ${type.slice(0, -1)} metadata, consider manually metadata"`,
     )
 
-    const manualData = await addManualMetadata()
+    const manualData = await addManualMetadata(type)
 
     await updateCustomJson([manualData], type)
 
     return { ...manualData, variants: [fileVariant] }
   }
 
+  // multiple metadata
   if (rawData.length > 1) {
-    const userChoice = await selectAMetadata(rawData)
+    const userChoice = await selectAMetadata(rawData, type)
     if (!userChoice) {
       return getWithUserInput(fileName, fileVariant, type)
     }
     return { ...userChoice, variants: [fileVariant] }
   }
 
-  const existingMetadata = findExistingMetadata(rawData[0].id, type)
-  if (existingMetadata) {
-    if (!existingMetadata.variants.includes(fileVariant)) {
-      existingMetadata.variants.push(fileVariant)
+  if (rawData.length === 1) {
+    const existingMetadata = findExistingMetadata(rawData[0].id, type)
+    if (existingMetadata) {
+      if (!existingMetadata.variants.includes(fileVariant)) {
+        existingMetadata.variants.push(fileVariant)
+      }
+      return existingMetadata
     }
-    return existingMetadata
+
+    const metadata: ITokenMetadata | INetworkMetadata = {
+      ...rawData[0],
+      variants: [fileVariant],
+    }
+
+    if (type === 'tokens') {
+      const data = await getCoinByID(rawData[0].id)
+
+      ;(metadata as ITokenMetadata)['addresses'] = data?.platforms || {}
+      ;(metadata as ITokenMetadata)['marketCapRank'] =
+        data?.market_cap_rank || null
+    }
+
+    return metadata
   }
-
-  const metadata: ITokenMetadata | INetworkMetadata = {
-    ...rawData[0],
-    variants: [fileVariant],
-  }
-
-  if (type === 'tokens') {
-    const data = await getCoinByID(rawData[0].id)
-
-    ;(metadata as ITokenMetadata)['addresses'] = data?.platforms || {}
-    ;(metadata as ITokenMetadata)['marketCapRank'] =
-      data?.market_cap_rank || null
-  }
-
-  return metadata
 }
 
 const updateMetadataJson = async (

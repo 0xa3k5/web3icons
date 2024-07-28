@@ -22,6 +22,7 @@ export const getUserInputSlug = async (fileName: string) => {
 
 export const selectAMetadata = async (
   rawMetadata: INetworkRaw[] | ITokenRaw[],
+  type: 'tokens' | 'networks',
 ) => {
   const choices = rawMetadata.map((raw) => ({
     name: raw.name,
@@ -41,7 +42,7 @@ export const selectAMetadata = async (
   })
 
   if (answer === null) {
-    const manualMetadata = await addManualMetadata()
+    const manualMetadata = await addManualMetadata(type)
 
     return {
       ...manualMetadata,
@@ -52,15 +53,56 @@ export const selectAMetadata = async (
   return answer
 }
 
-export const addManualMetadata = async (): Promise<INetworkRaw | ITokenRaw> => {
+export const addManualMetadata = async (
+  type: 'tokens' | 'networks',
+): Promise<INetworkRaw | ITokenRaw> => {
   const id = await input({
     message: 'id',
+    required: true,
     validate: (value) => value.match(/^[a-z0-9]+(?:-[a-z0-9]+)*$/) !== null,
   })
   const name = await input({
     message: 'name',
+    required: true,
     validate: (value) => value.length > 0,
   })
 
-  return { id, name }
+  if (type === 'tokens') {
+    const symbol = await input({
+      message: 'symbol',
+      validate: (value) => value.length > 0,
+    })
+
+    const marketCapRank = await input({
+      message: 'marketCapRank',
+      validate: (value) => value.match(/^[0-9]+$/) !== null,
+    })
+
+    return {
+      id: id.trim(),
+      name: name.trim(),
+      symbol: symbol.trim(),
+      marketCapRank: parseInt(marketCapRank) || null,
+    } as ITokenRaw
+  } else {
+    const nativeCoinId = await input({
+      message: 'nativeCoinId',
+    })
+
+    const shortName = await input({
+      message: 'shortName',
+    })
+
+    const chain_identifier = await input({
+      message: 'chain_identifier',
+    })
+
+    return {
+      id: id.trim(),
+      name: name.trim(),
+      nativeCoinId: nativeCoinId.trim() || undefined,
+      shortName: shortName.trim() || undefined,
+      chain_identifier: parseInt(chain_identifier) || undefined,
+    } as INetworkRaw
+  }
 }
