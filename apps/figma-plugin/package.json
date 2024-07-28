@@ -22,8 +22,8 @@
     "@create-figma-plugin/ui": "^3.1.0",
     "@create-figma-plugin/utilities": "^3.1.0",
     "preact": ">=10",
-    "@token-icons/core": "2.11.0",
-    "@token-icons/utils": "0.0.4"
+    "@token-icons/core": "2.12.0",
+    "@token-icons/utils": "0.0.5"
   },
   "devDependencies": {
     "@create-figma-plugin/build": "^3.1.0",

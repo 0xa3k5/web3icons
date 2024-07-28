@@ -1,5 +1,22 @@
 # @token-icons/utils
 
+## 0.0.5
+
+### Patch Changes
+
+- utils: greatly improve the add-icons flow with interactive cli.
+
+  update:
+
+  - AAVE new branding
+
+  new:
+
+  - Gravity Network (branded, mono)
+  - Iotex Network (branded, mono)
+  - Clover Network (branded, mono)
+  - G Token (branded, mono)
+
 ## 0.0.4
 
 ### Patch Changes

@@ -1,5 +1,28 @@
 # @token-icons/react
 
+## 2.12.0
+
+### Minor Changes
+
+- utils: greatly improve the add-icons flow with interactive cli.
+
+  update:
+
+  - AAVE new branding
+
+  new:
+
+  - Gravity Network (branded, mono)
+  - Iotex Network (branded, mono)
+  - Clover Network (branded, mono)
+  - G Token (branded, mono)
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/core@2.12.0
+  - @token-icons/utils@0.0.5
+
 ## 2.11.0
 
 ### Minor Changes
