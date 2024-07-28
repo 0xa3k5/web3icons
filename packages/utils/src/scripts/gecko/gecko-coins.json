@@ -7340,6 +7340,11 @@
     "name": "Bear"
   },
   {
+    "id": "bearcoin",
+    "symbol": "bear",
+    "name": "Bearcoin"
+  },
+  {
     "id": "beardy-dragon",
     "symbol": "beardy",
     "name": "Bearded Dragon"
@@ -72878,6 +72883,11 @@
     "id": "xrius",
     "symbol": "xrs",
     "name": "Xrius"
+  },
+  {
+    "id": "xrocket",
+    "symbol": "xrock",
+    "name": "xRocket"
   },
   {
     "id": "xrootai",

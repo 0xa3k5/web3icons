@@ -436,5 +436,16 @@
     "shortname": "iotex",
     "native_coin_id": "iotex",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "clover",
+    "name": "Clover",
+    "native_coin_id": "clover-finance",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "gravity",
+    "name": "gravity-network",
+    "variants": ["branded", "mono"]
   }
 ]
