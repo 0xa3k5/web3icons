@@ -72,6 +72,8 @@
 | iotex               | IoTeX            | ✅      | ✅   |
 | clover              | Clover           | ✅      | ✅   |
 | gravity             | gravity-network  | ✅      | ✅   |
+| lava-network        | lava-network     | ✅      | ✅   |
+| neo-x               | neo-x            | ✅      | ✅   |
 
 # Tokens
 

@@ -1,5 +1,16 @@
 # @token-icons/core
 
+## 2.13.0
+
+### Minor Changes
+
+- add new network icons: `lava-network`, `neo-x`
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/utils@0.0.7
+
 ## 2.12.1
 
 ### Patch Changes

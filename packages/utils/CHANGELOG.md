@@ -1,5 +1,11 @@
 # @token-icons/utils
 
+## 0.0.7
+
+### Patch Changes
+
+- add new network icons: `lava-network`, `neo-x`
+
 ## 0.0.6
 
 ### Patch Changes

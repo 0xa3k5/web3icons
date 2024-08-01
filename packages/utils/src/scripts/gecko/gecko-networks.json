@@ -272,6 +272,13 @@
     "native_coin_id": "xai-blockchain"
   },
   {
+    "id": "conflux",
+    "chain_identifier": 1030,
+    "name": "Conflux",
+    "shortname": "conflux",
+    "native_coin_id": "conflux-token"
+  },
+  {
     "id": "arbitrum-nova",
     "chain_identifier": 42170,
     "name": "Arbitrum Nova",
@@ -1009,6 +1016,12 @@
     "native_coin_id": "rss3"
   },
   {
+    "id": "rari",
+    "chain_identifier": 1380012617,
+    "name": "Rari",
+    "native_coin_id": "weth"
+  },
+  {
     "id": "canto",
     "chain_identifier": 7700,
     "name": "Canto",
@@ -1243,11 +1256,10 @@
     "native_coin_id": "gala"
   },
   {
-    "id": "conflux",
-    "chain_identifier": 1030,
-    "name": "Conflux",
-    "shortname": "conflux",
-    "native_coin_id": "conflux-token"
+    "id": "xt-smart-chain",
+    "chain_identifier": 520,
+    "name": "XT Smart Chain",
+    "native_coin_id": "xtcom-token"
   },
   {
     "id": "endurance",

@@ -10,8 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@token-icons/core": "2.12.1",
-    "@token-icons/react": "2.12.1",
+    "@token-icons/core": "2.13.0",
+    "@token-icons/react": "2.13.0",
     "@types/node": "20.11.25",
     "@types/react": "18.2.64",
     "@types/react-dom": "18.2.21",

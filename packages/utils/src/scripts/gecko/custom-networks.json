@@ -36,5 +36,17 @@
     "shortname": "fio",
     "native_coin_id": "FIO"
   },
-  { "id": "gravity", "name": "gravity-network" }
+  { "id": "gravity", "name": "gravity-network" },
+  {
+    "id": "lava-network",
+    "name": "lava-network",
+    "nativeCoinId": "lava-network",
+    "shortName": "lava"
+  },
+  {
+    "id": "neo-x",
+    "name": "neo-x",
+    "nativeCoinId": "neo",
+    "shortName": "neo x"
+  }
 ]

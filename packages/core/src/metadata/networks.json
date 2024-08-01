@@ -447,5 +447,19 @@
     "id": "gravity",
     "name": "gravity-network",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "lava-network",
+    "name": "lava-network",
+    "nativeCoinId": "lava-network",
+    "shortName": "lava",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "neo-x",
+    "name": "neo-x",
+    "nativeCoinId": "neo",
+    "shortName": "neo x",
+    "variants": ["branded", "mono"]
   }
 ]
