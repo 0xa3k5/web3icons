@@ -1,5 +1,11 @@
 # @token-icons/utils
 
+## 0.0.8
+
+### Patch Changes
+
+- new networks: `abstract` `acala` `apex-layer` `arbitrum-nova` `bitkub-chain`
+
 ## 0.0.7
 
 ### Patch Changes

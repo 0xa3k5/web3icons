@@ -1,5 +1,17 @@
 # @token-icons/react
 
+## 2.14.0
+
+### Minor Changes
+
+- new networks: `abstract` `acala` `apex-layer` `arbitrum-nova` `bitkub-chain`
+
+### Patch Changes
+
+- Updated dependencies
+  - @token-icons/core@2.14.0
+  - @token-icons/utils@0.0.8
+
 ## 2.13.0
 
 ### Minor Changes

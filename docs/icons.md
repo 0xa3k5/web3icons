@@ -74,6 +74,11 @@
 | gravity             | gravity-network  | ✅      | ✅   |
 | lava-network        | lava-network     | ✅      | ✅   |
 | neo-x               | neo-x            | ✅      | ✅   |
+| abstract            | abstract         | ✅      | ✅   |
+| acala               | Acala            | ✅      | ✅   |
+| apex-layer          | apex layer       | ✅      | ✅   |
+| arbitrum-nova       | Arbitrum Nova    | ✅      | ✅   |
+| bitkub-chain        | Bitkub Chain     | ✅      | ✅   |
 
 # Tokens
 

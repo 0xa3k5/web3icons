@@ -461,5 +461,38 @@
     "nativeCoinId": "neo",
     "shortName": "neo x",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "abstract",
+    "name": "abstract",
+    "nativeCoinId": "eth",
+    "shortName": "abs",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "acala",
+    "name": "Acala",
+    "native_coin_id": "acala",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "apex-layer",
+    "name": "apex layer",
+    "shortName": "apex",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "arbitrum-nova",
+    "chain_identifier": 42170,
+    "name": "Arbitrum Nova",
+    "native_coin_id": "ethereum",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "bitkub-chain",
+    "chain_identifier": 96,
+    "name": "Bitkub Chain",
+    "native_coin_id": "bitkub-coin",
+    "variants": ["branded", "mono"]
   }
 ]

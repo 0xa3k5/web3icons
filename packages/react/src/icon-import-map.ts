@@ -10,6 +10,7 @@ interface IconImportMap {
 }
 
 export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
+  NetworkBitkubChain: () => import('./icons/networks/NetworkBitkubChain'),
   NetworkLinea: () => import('./icons/networks/NetworkLinea'),
   NetworkFio: () => import('./icons/networks/NetworkFio'),
   NetworkMatic: () => import('./icons/networks/NetworkMatic'),
@@ -19,6 +20,7 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkAurora: () => import('./icons/networks/NetworkAurora'),
   NetworkZeta: () => import('./icons/networks/NetworkZeta'),
   NetworkAstar: () => import('./icons/networks/NetworkAstar'),
+  NetworkApexLayer: () => import('./icons/networks/NetworkApexLayer'),
   NetworkOptimism: () => import('./icons/networks/NetworkOptimism'),
   NetworkIotex: () => import('./icons/networks/NetworkIotex'),
   NetworkLoopring: () => import('./icons/networks/NetworkLoopring'),
@@ -55,8 +57,10 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkAptos: () => import('./icons/networks/NetworkAptos'),
   NetworkXrp: () => import('./icons/networks/NetworkXrp'),
   NetworkSui: () => import('./icons/networks/NetworkSui'),
+  NetworkAcala: () => import('./icons/networks/NetworkAcala'),
   NetworkZora: () => import('./icons/networks/NetworkZora'),
   NetworkGnosis: () => import('./icons/networks/NetworkGnosis'),
+  NetworkAbstract: () => import('./icons/networks/NetworkAbstract'),
   NetworkMultiversx: () => import('./icons/networks/NetworkMultiversx'),
   NetworkScroll: () => import('./icons/networks/NetworkScroll'),
   NetworkPolygon: () => import('./icons/networks/NetworkPolygon'),
@@ -80,6 +84,7 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkSei: () => import('./icons/networks/NetworkSei'),
   NetworkPolygonPos: () => import('./icons/networks/NetworkPolygonPos'),
   NetworkEthereum: () => import('./icons/networks/NetworkEthereum'),
+  NetworkArbitrumNova: () => import('./icons/networks/NetworkArbitrumNova'),
   NetworkRonin: () => import('./icons/networks/NetworkRonin'),
   NetworkMode: () => import('./icons/networks/NetworkMode'),
   NetworkCardano: () => import('./icons/networks/NetworkCardano'),

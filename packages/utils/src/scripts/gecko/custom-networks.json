@@ -48,5 +48,12 @@
     "name": "neo-x",
     "nativeCoinId": "neo",
     "shortName": "neo x"
-  }
+  },
+  {
+    "id": "abstract",
+    "name": "abstract",
+    "nativeCoinId": "eth",
+    "shortName": "abs"
+  },
+  { "id": "apex-layer", "name": "apex layer", "shortName": "apex" }
 ]
