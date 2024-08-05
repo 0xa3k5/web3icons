@@ -18,7 +18,7 @@
     "@web3icons/eslint-config": "*",
     "@web3icons/typescript-config": "*",
     "prettier": "^3.2.5",
-    "turbo": "latest"
+    "turbo": "v2.0.11"
   },
   "engines": {
     "node": ">=18"

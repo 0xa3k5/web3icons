@@ -11,7 +11,7 @@
     "svg crypto icons",
     "coin icons"
   ],
-  "version": "3.0.0",
+  "version": "3.0.1",
   "private": false,
   "author": "0xa3k5",
   "license": "MIT",
@@ -46,7 +46,7 @@
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error"
   },
   "dependencies": {
-    "@web3icons/utils": "0.0.9"
+    "@web3icons/utils": "0.0.10"
   },
   "devDependencies": {
     "bun-types": "latest",
