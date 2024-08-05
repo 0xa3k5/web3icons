@@ -1,5 +1,5 @@
 {
-  "extends": "@token-icons/typescript-config/next.json",
+  "extends": "@web3icons/typescript-config/next.json",
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",

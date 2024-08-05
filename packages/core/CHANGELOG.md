@@ -1,4 +1,15 @@
-# @token-icons/core
+# @web3icons/core
+
+## 3.0.0
+
+### Major Changes
+
+- rename to @web3icons
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/utils@0.0.9
 
 ## 2.14.0
 
@@ -9,7 +20,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/utils@0.0.8
+  - @web3icons/utils@0.0.8
 
 ## 2.13.0
 
@@ -20,7 +31,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/utils@0.0.7
+  - @web3icons/utils@0.0.7
 
 ## 2.12.1
 
@@ -28,7 +39,7 @@
 
 - fix some fields not being added to the metadata correctly
 - Updated dependencies
-  - @token-icons/utils@0.0.6
+  - @web3icons/utils@0.0.6
 
 ## 2.12.0
 
@@ -50,7 +61,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/utils@0.0.5
+  - @web3icons/utils@0.0.5
 
 ## 2.11.0
 
@@ -67,14 +78,14 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/utils@0.0.4
+  - @web3icons/utils@0.0.4
 
 ## 2.9.1
 
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/utils@0.0.3
+  - @web3icons/utils@0.0.3
 
 ## 2.9.0
 

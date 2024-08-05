@@ -1,4 +1,10 @@
-# @token-icons/utils
+# @web3icons/utils
+
+## 0.0.9
+
+### Patch Changes
+
+- rename to @web3icons
 
 ## 0.0.8
 

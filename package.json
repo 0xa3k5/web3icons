@@ -1,5 +1,6 @@
 {
-  "name": "token-icons",
+  "name": "web3icons",
+  "description": "monorepo for web3 icons",
   "private": false,
   "author": "0xa3k5",
   "scripts": {
@@ -14,8 +15,8 @@
     "update-gecko-coins": "bun run ./packages/utils/src/scripts/gecko/get-coins.ts"
   },
   "devDependencies": {
-    "@token-icons/eslint-config": "*",
-    "@token-icons/typescript-config": "*",
+    "@web3icons/eslint-config": "*",
+    "@web3icons/typescript-config": "*",
     "prettier": "^3.2.5",
     "turbo": "latest"
   },

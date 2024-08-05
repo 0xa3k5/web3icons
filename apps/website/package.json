@@ -1,5 +1,5 @@
 {
-  "name": "@token-icons/website",
+  "name": "@web3icons/website",
   "version": "0.1.0",
   "private": true,
   "author": "0xa3k5",
@@ -10,8 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@token-icons/core": "2.14.0",
-    "@token-icons/react": "2.14.0",
+    "@web3icons/core": "3.0.0",
+    "@web3icons/react": "3.0.0",
     "@types/node": "20.11.25",
     "@types/react": "18.2.64",
     "@types/react-dom": "18.2.21",
@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "classnames": "^2.5.1",
-    "@token-icons/eslint-config": "workspace:*"
+    "@web3icons/eslint-config": "workspace:*"
   }
 }

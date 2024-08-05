@@ -1,6 +1,6 @@
-# @token-icons/react
+# @web3icons/react
 
-The `@token-icons/react` package provides React components for each cryptocurrency icon, allowing for easy integration and customization within your React applications.
+The `@web3icons/react` package provides React components for each cryptocurrency icon, allowing for easy integration and customization within your React applications.
 
 ## Features
 
@@ -17,16 +17,16 @@ The `@token-icons/react` package provides React components for each cryptocurren
 Install the package via npm or yarn:
 
 ```bash
-npm install @token-icons/react
+npm install @web3icons/react
 # or
-yarn add @token-icons/react
+yarn add @web3icons/react
 # or
-bun add @token-icons/react
+bun add @web3icons/react
 ```
 
 ## Usage
 
-### Using Individual React Components from `@token-icons/react`
+### Using Individual React Components from `@web3icons/react`
 
 All the icons from the React library is prefixed with "Token" or "Network".
 Token Icons: Prefixed uppercase symbol with "Token" e.g. TokenETH, TokenBTC, TokenGRT
@@ -40,7 +40,7 @@ import {
   NetworkBinanceSmartChain,
   NetworkEthereum,
   NetworkAvalanche,
-} from '@token-icons/react'
+} from '@web3icons/react'
 
 const App = () => {
   return (
@@ -76,7 +76,7 @@ const App = () => {
 export default App
 ```
 
-### Using `<TokenIcon />` from `@token-icons/react`
+### Using `<TokenIcon />` from `@web3icons/react`
 
 `<TokenIcon />` is designed to accept different props to allow for ease of use.
 
@@ -99,7 +99,7 @@ export default App
 You can pass ticker or symbol of the desired icon. refer to [metadata](https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/tokens.json) for full list of symbols.
 
 ```jsx
-import { TokenIcon } from '@token-icons/react'
+import { TokenIcon } from '@web3icons/react'
 
 const App = () => {
   const symbols = ['ETH', 'GRT', 'BTC']
@@ -129,7 +129,7 @@ export default App
 You can pass in **both** network and an address to render a specific token icon. refer to [metadata](https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/tokens.json) for full list of symbols, addresses and networks.
 
 ```jsx
-import { TokenIcon } from '@token-icons/react'
+import { TokenIcon } from '@web3icons/react'
 ;<TokenIcon
   network="ethereum"
   address="0xc944e90c64b2c07662a292be6244bdf05cda44a7"
@@ -139,7 +139,7 @@ import { TokenIcon } from '@token-icons/react'
 />
 ```
 
-### Using `<NetworkIcon />` from `@token-icons/react`
+### Using `<NetworkIcon />` from `@web3icons/react`
 
 `<NetworkIcon />` is designed to render blockchain network icons.
 
@@ -152,7 +152,7 @@ import { TokenIcon } from '@token-icons/react'
 - `className?`: additional CSS class for custom styling.
 
 ```jsx
-import { NetworkIcon } from '@token-icons/react'
+import { NetworkIcon } from '@web3icons/react'
 ;<NetworkIcon
   network="ethereum"
   size={32}
@@ -165,7 +165,7 @@ import { NetworkIcon } from '@token-icons/react'
 
 ## Tree-shaking
 
-`@token-icons/react` is designed to be tree-shaken, meaning that it only includes the Icon Components that are actually used in your project. This can help reduce the size of your bundle and improve performance. Just import the icons you only need.
+`@web3icons/react` is designed to be tree-shaken, meaning that it only includes the Icon Components that are actually used in your project. This can help reduce the size of your bundle and improve performance. Just import the icons you only need.
 
 ## Feedback and Contributions
 

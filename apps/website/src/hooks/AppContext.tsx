@@ -6,7 +6,7 @@ import React, {
   ReactNode,
   useEffect,
 } from 'react'
-import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
+import { INetworkMetadata, ITokenMetadata } from '@web3icons/core'
 import { filterAndSortIcons } from '../utils'
 
 export interface AppContextType {

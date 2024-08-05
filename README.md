@@ -1,8 +1,8 @@
-![Token Icons](https://raw.githubusercontent.com/0xa3k5/token-icons/main/apps/figma-plugin/src/assets/cover.png)
+![Web3 Icons](https://raw.githubusercontent.com/0xa3k5/token-icons/main/apps/figma-plugin/src/assets/cover.png)
 
-# Token Icons
+# Web3 Icons
 
-Token Icons is the most comprehensive and up-to-date source for cryptocurrency & network logos as icon format. More than 2,500 icons are ready as optimized SVGs as well as React components.
+Web3 Icons is the most comprehensive and up-to-date source for cryptocurrency & network logos as icon format. More than 2,500 icons are ready as optimized SVGs as well as React components.
 
 ## Supported Tokens & Networks
 
@@ -23,37 +23,37 @@ Enhanced Naming Conventions: Our icons follow a standardized naming convention f
 
 ### Monorepo structure
 
-- [`@token-icons/core`](https://github.com/0xa3k5/token-icons/tree/main/packages/core): npm package that serves optimized svgs as svg files
-- [`@token-icons/react`](https://github.com/0xa3k5/token-icons/tree/main/packages/react): React components for token icons
-- [`@token-icons/utils`](https://github.com/0xa3k5/token-icons/tree/main/packages/utils): Private utility and build scripts for the monorepo
+- [`@web3icons/core`](https://github.com/0xa3k5/token-icons/tree/main/packages/core): npm package that serves optimized svgs as svg files
+- [`@web3icons/react`](https://github.com/0xa3k5/token-icons/tree/main/packages/react): React components for web3 icons
+- [`@web3icons/utils`](https://github.com/0xa3k5/token-icons/tree/main/packages/utils): Private utility and build scripts for the monorepo
 - [`apps/website`](https://github.com/0xa3k5/token-icons/tree/main/apps/website): Next.js app for https://tokenicons.io
-- [`apps/figma-plugin`](https://github.com/0xa3k5/token-icons/tree/main/apps/figma-plugin): Figma plugin for token icons
+- [`apps/figma-plugin`](https://github.com/0xa3k5/token-icons/tree/main/apps/figma-plugin): Figma plugin for web3 icons
 
 ## Installation
 
-To use Token Icons in your project, you can install the necessary packages from npm:
+To use Web3 Icons in your project, you can install the necessary packages from npm:
 
 ```
 
-npm i @token-icons/core @token-icons/react
+npm i @web3icons/core @web3icons/react
 # or
-yarn add @token-icons/core @token-icons/react
+yarn add @web3icons/core @web3icons/react
 # or
-#bun i @token-icons/core @token-icons/react
+#bun i @web3icons/core @web3icons/react
 
 ```
 
-This will install the `@token-icons/core` package, which serves optimized SVGs as SVG files, and the `@token-icons/react` package, which serves React components for token icons.
+This will install the `@web3icons/core` package, which serves optimized SVGs as SVG files, and the `@web3icons/react` package, which serves React components for web3 icons.
 
 > You can install either of the packages based on your project's needs.
 
 ## Usage
 
-### Using Individual React Components from `@token-icons/react`
+### Using Individual React Components from `@web3icons/react`
 
 All the icons from the React library is prefixed with "Token" or "Network".
 Token Icons: Prefixed uppercase symbol with "Token" e.g. TokenETH, TokenBTC, TokenGRT
-Network Icons: Prefixed CamelCase network name with "Network" e.g. NetworkBinanceSmartChain, NetworkEthereum, NetworkAvalanche.
+Network Icons: Prefixed PascalCase network name with "Network" e.g. NetworkBinanceSmartChain, NetworkEthereum, NetworkAvalanche.
 
 ```jsx
 import {
@@ -63,13 +63,13 @@ import {
   NetworkBinanceSmartChain,
   NetworkEthereum,
   NetworkAvalanche,
-} from '@token-icons/react'
+} from '@web3icons/react'
 
 const App = () => {
   return (
     <>
       <div className="my-class-name">
-        <h1>Token Icons</h1>
+        <h1>Web3 Icons</h1>
         <TokenBTC size={64} variant="branded" className="my-custom-class" />
         <TokenETH size={64} variant="branded" className="my-custom-class" />
         <TokenGRT size={64} variant="branded" className="my-custom-class" />
@@ -99,7 +99,7 @@ const App = () => {
 export default App
 ```
 
-### Using `<TokenIcon />` from `@token-icons/react`
+### Using `<TokenIcon />` from `@web3icons/react`
 
 `<TokenIcon />` is designed to accept different props to allow for ease of use.
 
@@ -122,7 +122,7 @@ export default App
 You can pass ticker or symbol of the desired icon. refer to [metadata](https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/tokens.json) for full list of symbols.
 
 ```jsx
-import { TokenIcon } from '@token-icons/react'
+import { TokenIcon } from '@web3icons/react'
 
 const App = () => {
   const symbols = ['ETH', 'GRT', 'BTC']
@@ -152,7 +152,7 @@ export default App
 You can pass in **both** chain and an address to render a specific token icon. refer to [metadata](https://github.com/0xa3k5/token-icons/blob/main/packages/core/src/metadata/tokens.json) for full list of symbols, addresses and chains.
 
 ```jsx
-import { TokenIcon } from '@token-icons/react'
+import { TokenIcon } from '@web3icons/react'
 ;<TokenIcon
   chain="ethereum"
   address="0xc944e90c64b2c07662a292be6244bdf05cda44a7"
@@ -162,7 +162,7 @@ import { TokenIcon } from '@token-icons/react'
 />
 ```
 
-### Using `<NetworkIcon />` from `@token-icons/react`
+### Using `<NetworkIcon />` from `@web3icons/react`
 
 `<NetworkIcon />` is designed to render blockchain network icons.
 
@@ -175,7 +175,7 @@ import { TokenIcon } from '@token-icons/react'
 - `className?`: additional CSS class for custom styling.
 
 ```jsx
-import { NetworkIcon } from '@token-icons/react'
+import { NetworkIcon } from '@web3icons/react'
 ;<NetworkIcon
   network="ethereum"
   size={32}
@@ -186,7 +186,7 @@ import { NetworkIcon } from '@token-icons/react'
 
 ---
 
-### Using SVGs from `@token-icons/core`
+### Using SVGs from `@web3icons/core`
 
 For projects that don’t use React, icons are also available as `*.svg` files in the `dist/svgs` folder. Which contains folders for types (`tokens` or `networks`) and variants (`branded` and `mono`) svg icons.
 
@@ -202,13 +202,13 @@ If you need to directly import the SVGs, here is the naming convention that you 
 - `networksMonoEthereum` (Network icons are prefixed with "Network" and the network name is in PamelCase)
 
 ```jsx
-import { tokensBrandedBTC, networksMonoEthereum } from '@token-icons/core'
+import { tokensBrandedBTC, networksMonoEthereum } from '@web3icons/core'
 ```
 
 or you can use the `svgs` object which contains objects for each type.
 
 ```jsx
-import { svgs } from '@token-icons/core'
+import { svgs } from '@web3icons/core'
 
 const IconDisplay = () => {
   return (
@@ -231,7 +231,7 @@ const variant = 'branded'
 const iconName = 'BTC'
 
 const svgModule = await import(
-  `@token-icons/core/svgs/${type}/${variant}/${iconName}.svg`
+  `@web3icons/core/svgs/${type}/${variant}/${iconName}.svg`
 )
 
 const response = await fetch(svgModule.default.src)
@@ -247,7 +247,7 @@ console.log(svgContent)
 
 ### Website
 
-The Token Icons website ([https://tokenicons.io](https://tokenicons.io/)) provides a searchable collection of all available icons. You can browse, search, and download icons directly from the website.
+The Web3 Icons website ([https://tokenicons.io](https://tokenicons.io/)) provides a searchable collection of all available icons. You can browse, search, and download icons directly from the website.
 
 ### Contributing
 

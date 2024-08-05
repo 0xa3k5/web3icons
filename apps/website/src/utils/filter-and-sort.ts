@@ -1,5 +1,5 @@
-import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
-import { networks, tokens } from '@token-icons/core/metadata'
+import { INetworkMetadata, ITokenMetadata } from '@web3icons/core'
+import { networks, tokens } from '@web3icons/core/metadata'
 
 const groupedNetworks: Record<string, INetworkMetadata[]> = {}
 

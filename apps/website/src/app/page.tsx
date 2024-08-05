@@ -2,9 +2,9 @@
 import { ControlBar, IconCard, ActionBar } from '../components'
 import Logo from '../components/Logo'
 import { useAppContext } from '../hooks'
-import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
+import { INetworkMetadata, ITokenMetadata } from '@web3icons/core'
 
-const INSTALL_SNIPPET = `npm i @token-icons/core @token-icons/react`
+const INSTALL_SNIPPET = `npm i @web3icons/core @web3icons/react`
 const links = [
   {
     name: 'github',
@@ -12,7 +12,7 @@ const links = [
   },
   {
     name: 'npmjs',
-    href: 'https://www.npmjs.com/package/@token-icons/react',
+    href: 'https://www.npmjs.com/package/@web3icons/react',
   },
   {
     name: 'figma plugin',

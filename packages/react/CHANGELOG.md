@@ -1,4 +1,16 @@
-# @token-icons/react
+# @web3icons/react
+
+## 3.0.0
+
+### Major Changes
+
+- rename to @web3icons
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/core@3.0.0
+  - @web3icons/utils@0.0.9
 
 ## 2.14.0
 
@@ -9,8 +21,8 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.14.0
-  - @token-icons/utils@0.0.8
+  - @web3icons/core@2.14.0
+  - @web3icons/utils@0.0.8
 
 ## 2.13.0
 
@@ -21,8 +33,8 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.13.0
-  - @token-icons/utils@0.0.7
+  - @web3icons/core@2.13.0
+  - @web3icons/utils@0.0.7
 
 ## 2.12.1
 
@@ -30,8 +42,8 @@
 
 - fix some fields not being added to the metadata correctly
 - Updated dependencies
-  - @token-icons/core@2.12.1
-  - @token-icons/utils@0.0.6
+  - @web3icons/core@2.12.1
+  - @web3icons/utils@0.0.6
 
 ## 2.12.0
 
@@ -53,8 +65,8 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.12.0
-  - @token-icons/utils@0.0.5
+  - @web3icons/core@2.12.0
+  - @web3icons/utils@0.0.5
 
 ## 2.11.0
 
@@ -65,7 +77,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.11.0
+  - @web3icons/core@2.11.0
 
 ## 2.10.0
 
@@ -76,16 +88,16 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.10.0
-  - @token-icons/utils@0.0.4
+  - @web3icons/core@2.10.0
+  - @web3icons/utils@0.0.4
 
 ## 2.9.1
 
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/utils@0.0.3
-  - @token-icons/core@2.9.1
+  - @web3icons/utils@0.0.3
+  - @web3icons/core@2.9.1
 
 ## 2.9.0
 
@@ -98,7 +110,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.9.0
+  - @web3icons/core@2.9.0
 
 ## 2.8.2
 
@@ -106,7 +118,7 @@
 
 - fix: include name or id matching for NetworkIcon
 - Updated dependencies
-  - @token-icons/core@2.8.2
+  - @web3icons/core@2.8.2
 
 ## 2.8.1
 
@@ -114,7 +126,7 @@
 
 - fix AMZ variants
 - Updated dependencies
-  - @token-icons/core@2.8.1
+  - @web3icons/core@2.8.1
 
 ## 2.8.0
 
@@ -125,7 +137,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.8.0
+  - @web3icons/core@2.8.0
 
 ## 2.7.1
 
@@ -133,7 +145,7 @@
 
 - new tokens: SENSE, AMZ, USN
 - Updated dependencies
-  - @token-icons/core@2.7.1
+  - @web3icons/core@2.7.1
 
 ## 2.7.0
 
@@ -144,7 +156,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.7.0
+  - @web3icons/core@2.7.0
 
 ## 2.6.1
 
@@ -152,7 +164,7 @@
 
 - patch
 - Updated dependencies
-  - @token-icons/core@2.6.1
+  - @web3icons/core@2.6.1
 
 ## 2.6.0
 
@@ -163,7 +175,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.6.0
+  - @web3icons/core@2.6.0
 
 ## 2.5.0
 
@@ -174,21 +186,21 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.5.0
+  - @web3icons/core@2.5.0
 
 ## 2.4.0
 
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.4.0
+  - @web3icons/core@2.4.0
 
 ## 2.3.2
 
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.3.2
+  - @web3icons/core@2.3.2
 
 ## 2.3.1
 
@@ -196,7 +208,7 @@
 
 -
 - Updated dependencies
-  - @token-icons/core@2.3.1
+  - @web3icons/core@2.3.1
 
 ## 2.3.0
 
@@ -207,7 +219,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.3.0
+  - @web3icons/core@2.3.0
 
 ## 2.2.2
 
@@ -220,7 +232,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.2.1
+  - @web3icons/core@2.2.1
 
 ## 2.2.0
 
@@ -231,14 +243,14 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.2.0
+  - @web3icons/core@2.2.0
 
 ## 2.1.0
 
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.1.0
+  - @web3icons/core@2.1.0
 
 ## 2.0.4
 
@@ -246,7 +258,7 @@
 
 - fix TokenIcon icon matching
 - Updated dependencies
-  - @token-icons/core@2.0.4
+  - @web3icons/core@2.0.4
 
 ## 2.0.3
 
@@ -254,7 +266,7 @@
 
 -
 - Updated dependencies
-  - @token-icons/core@2.0.3
+  - @web3icons/core@2.0.3
 
 ## 2.0.2
 
@@ -262,7 +274,7 @@
 
 -
 - Updated dependencies
-  - @token-icons/core@2.0.2
+  - @web3icons/core@2.0.2
 
 ## 2.0.1
 
@@ -270,7 +282,7 @@
 
 -
 - Updated dependencies
-  - @token-icons/core@2.0.1
+  - @web3icons/core@2.0.1
 
 ## 2.0.0
 
@@ -281,7 +293,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@2.0.0
+  - @web3icons/core@2.0.0
 
 ## 1.9.0
 
@@ -292,7 +304,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@1.9.0
+  - @web3icons/core@1.9.0
 
 ## 1.8.1
 
@@ -300,7 +312,7 @@
 
 - fix ITokenMetadata types
 - Updated dependencies
-  - @token-icons/core@1.8.1
+  - @web3icons/core@1.8.1
 
 ## 1.8.0
 
@@ -311,7 +323,7 @@
 ### Patch Changes
 
 - Updated dependencies [b337e2e]
-  - @token-icons/core@1.8.0
+  - @web3icons/core@1.8.0
 
 ## 1.7.0
 
@@ -322,7 +334,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@1.7.0
+  - @web3icons/core@1.7.0
 
 ## 1.6.0
 
@@ -333,7 +345,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@1.6.0
+  - @web3icons/core@1.6.0
 
 ## 1.5.0
 
@@ -368,7 +380,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@1.4.0
+  - @web3icons/core@1.4.0
 
 ## 1.3.0
 
@@ -379,7 +391,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @token-icons/core@1.3.0
+  - @web3icons/core@1.3.0
 
 ## 1.2.0
 
@@ -390,4 +402,4 @@
 ### Patch Changes
 
 - Updated dependencies [d930532]
-  - @token-icons/core@1.2.0
+  - @web3icons/core@1.2.0

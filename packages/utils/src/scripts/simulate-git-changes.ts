@@ -31,7 +31,7 @@ const simulateGitAndChangeset = () => {
 
   // Simulating changeset log
   let changesetLog =
-    '---\n"@token-icons/core": minor\n"@token-icons/react": minor\n---\n'
+    '---\n"@web3icons/core": minor\n"@web3icons/react": minor\n---\n'
   if (newTokenIcons) {
     changesetLog += `New Token icons: ${formatIconsForMessage(newTokenIcons)}\n`
   }

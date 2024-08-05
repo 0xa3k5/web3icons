@@ -3,9 +3,9 @@
   "changelog": "@changesets/cli/changelog",
   "commit": false,
   "fixed": [],
-  "linked": [["@token-icons/core", "@token-icons/react"]],
+  "linked": [["@web3icons/core", "@web3icons/react"]],
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@token-icons/website", "@token-icons/figma-plugin"]
+  "ignore": ["@web3icons/website", "@web3icons/figma-plugin"]
 }

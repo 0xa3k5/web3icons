@@ -14,7 +14,7 @@ You can find this icon grid as svg on [`/docs/icon-grid.svg`](https://github.com
 
 #### Folder Structure
 
-The @token-icons/core package contains the following folder structure:
+The @web3icons/core package contains the following folder structure:
 
 ```
 packages/core
@@ -42,7 +42,7 @@ packages/core
 │   │   │   ├── GRT.svg
 ```
 
-The @token-icons/react package contains the following folder structure:
+The @web3icons/react package contains the following folder structure:
 
 ```
 packages/react
@@ -59,7 +59,7 @@ packages/react
 
 #### Naming Convention
 
-When contributing to the @token-icons/core package, please follow the naming convention for the SVG files.
+When contributing to the @web3icons/core package, please follow the naming convention for the SVG files.
 
 For token icons, the svg file should be named with the uppercase symbol of the token.
 

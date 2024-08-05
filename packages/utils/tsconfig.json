@@ -1,5 +1,5 @@
 {
-  "extends": "@token-icons/typescript-config/base.json",
+  "extends": "@web3icons/typescript-config/base.json",
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist",

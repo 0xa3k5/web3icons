@@ -1,6 +1,6 @@
-import { INetworkMetadata, ITokenMetadata, svgs } from '@token-icons/core'
+import { INetworkMetadata, ITokenMetadata, svgs } from '@web3icons/core'
 import { SvgIcon } from './types'
-import { networks, tokens } from '@token-icons/core/metadata'
+import { networks, tokens } from '@web3icons/core/metadata'
 
 const toPascalCase = (str: string): string => {
   const words = str.match(/[a-z]+/gi) || []

@@ -1,6 +1,6 @@
-# @token-icons/core
+# @web3icons/core
 
-`@token-icons/core` is a comprehensive library offering optimized SVG files for cryptocurrency tokens. This package is ideal for projects needing high-quality, standardized svg icons for cryptocurrency tokens.
+`@web3icons/core` is a comprehensive library offering optimized SVG files for cryptocurrency tokens. This package is ideal for projects needing high-quality, standardized svg icons for cryptocurrency tokens.
 
 ## Features
 
@@ -15,11 +15,11 @@
 ## Installation
 
 ```bash
-npm install @token-icons/core
+npm install @web3icons/core
 # or
-yarn add @token-icons/core
+yarn add @web3icons/core
 # or
-bun add @token-icons/core
+bun add @web3icons/core
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ bun add @token-icons/core
 For individual icons:
 
 ```js
-import { tokensBrandedBTC, networksMonoEthereum } from '@token-icons/core'
+import { tokensBrandedBTC, networksMonoEthereum } from '@web3icons/core'
 ```
 
 for complete set of icons:
@@ -37,7 +37,7 @@ for complete set of icons:
 > this is not recommended, it could greatly affect your project's bundle size and it's performance.
 
 ```jsx
-import { svgs } from '@token-icons/core'
+import { svgs } from '@web3icons/core'
 ```
 
 ### Using SVGs
@@ -45,7 +45,7 @@ import { svgs } from '@token-icons/core'
 Here’s how you can integrate the SVGs into your project:
 
 ```js
-import { tokensBrandedETH } from '@token-icons/core'
+import { tokensBrandedETH } from '@web3icons/core'
 
 function EthIcon() {
   // Using an img tag
@@ -57,21 +57,21 @@ function EthIcon() {
 
 ## Token Metadata
 
-The `@token-icons/core` package also provides comprehensive metadata for each cryptocurrency token in a convenient JSON format, which you can import directly into your project.
+The `@web3icons/core` package also provides comprehensive metadata for each cryptocurrency token in a convenient JSON format, which you can import directly into your project.
 
 ### Importing Token Metadata
 
 If you need the json file, you can import it directly:
 
 ```js
-import { tokens, networks } from '@token-icons/core/metadata'
+import { tokens, networks } from '@web3icons/core/metadata'
 ```
 
 ---
 
 ## Tree-shaking
 
-`@token-icons/core` is designed to be tree-shaken, meaning that it only includes the SVGs that are actually used in your project. This can help reduce the size of your bundle and improve performance. Just import the icons you only need.
+`@web3icons/core` is designed to be tree-shaken, meaning that it only includes the SVGs that are actually used in your project. This can help reduce the size of your bundle and improve performance. Just import the icons you only need.
 
 ## Feedback and Contributions
 

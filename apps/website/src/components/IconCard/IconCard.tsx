@@ -2,9 +2,9 @@ import cx from 'classnames'
 import { useEffect, useState } from 'react'
 import Checkbox from './Checkbox'
 import { useAppContext } from '../../hooks'
-import { NetworkIcon, TokenIcon } from '@token-icons/react'
+import { NetworkIcon, TokenIcon } from '@web3icons/react'
 import { CopyButton, DownloadButton } from '../buttons'
-import { INetworkMetadata, ITokenMetadata } from '@token-icons/core'
+import { INetworkMetadata, ITokenMetadata } from '@web3icons/core'
 
 interface Props {
   className?: string

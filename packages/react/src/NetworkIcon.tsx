@@ -1,8 +1,8 @@
 import { forwardRef, ReactElement, useState, useEffect } from 'react'
 import { NetworkIconProps } from './types'
 import { NETWORK_ICON_IMPORT_MAP } from './icon-import-map'
-import { networks } from '@token-icons/core/metadata'
-import { INetworkMetadata } from '@token-icons/core'
+import { networks } from '@web3icons/core/metadata'
+import { INetworkMetadata } from '@web3icons/core'
 
 const toPascalCase = (str: string): string => {
   const words = str.match(/[a-z]+/gi) || []

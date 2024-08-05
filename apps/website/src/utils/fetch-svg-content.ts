@@ -1,4 +1,4 @@
-import { networks, tokens } from '@token-icons/core/metadata'
+import { networks, tokens } from '@web3icons/core/metadata'
 
 /**
  *
@@ -17,22 +17,20 @@ export async function fetchSvgContent(
     let svgModule
     if (type === 'tokens') {
       if (variant === 'mono') {
-        svgModule = await import(
-          `@token-icons/core/svgs/tokens/mono/${name}.svg`
-        )
+        svgModule = await import(`@web3icons/core/svgs/tokens/mono/${name}.svg`)
       } else if (variant === 'branded') {
         svgModule = await import(
-          `@token-icons/core/svgs/tokens/branded/${name}.svg`
+          `@web3icons/core/svgs/tokens/branded/${name}.svg`
         )
       }
     } else if (type === 'networks') {
       if (variant === 'mono') {
         svgModule = await import(
-          `@token-icons/core/svgs/networks/mono/${name}.svg`
+          `@web3icons/core/svgs/networks/mono/${name}.svg`
         )
       } else if (variant === 'branded') {
         svgModule = await import(
-          `@token-icons/core/svgs/networks/branded/${name}.svg`
+          `@web3icons/core/svgs/networks/branded/${name}.svg`
         )
       }
     }
