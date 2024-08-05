@@ -10,10 +10,9 @@ Find the data table of supported tokens and networks [here](https://github.com/0
 
 ## What's New
 
-v2.8.0:
+v3.0.1:
 
-- Dynamic imports for React components 🎉
-- The `NetworkIcon` and `TokenIcon` are both now tree-shakeable 🎉
+Token Icons has been renamed to Web3 Icons to better align with the future plans of this project. web3icons will inlcude more than tokens and networks in the near future. please update to @web3icons/react and @web3icons/core
 
 Network Icons: Use `<NetworkIcon network={"network-name"} />` to access Network Icons.
 Enhanced Naming Conventions: Our icons follow a standardized naming convention for effortless identification and use:
