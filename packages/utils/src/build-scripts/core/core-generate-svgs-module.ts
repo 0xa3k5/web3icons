@@ -4,6 +4,7 @@ import {
   CORE_SVG_MODULE_PATH,
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
+  SVG_WALLETS_OUT_DIR,
 } from '../../constants'
 import { kebabToPascalCase } from '../../utils'
 import { TType } from '../../types'
@@ -19,6 +20,7 @@ export function generateSvgModule() {
   let fileContent = '/* Generated */\n'
   let tokensObjectContent = '\nexport const svgs = {\n  tokens: {\n'
   let networksObjectContent = '  },\n  networks: {\n'
+  let walletsObjectContent = '  },\n  wallets: {\n'
 
   const processDirectory = (dirPath: string, type: TType) => {
     ;['branded', 'mono'].forEach((variant) => {
@@ -26,26 +28,33 @@ export function generateSvgModule() {
 
       svgFiles.forEach((svgFile) => {
         const variableName = kebabToPascalCase(`${variant}-${svgFile}`)
-        console.log({ variableName })
         const variableTypeAbbr = type.slice(0, 1).toUpperCase() // N (networks), T (tokens), W (wallets)
         fileContent += `import ${variableTypeAbbr}${variableName} from './svgs/${type}/${variant}/${svgFile}.svg';\n`
 
         const objectContent = `${variableName}: ${variableTypeAbbr}${variableName},\n`
-        console.log({ objectContent })
-        if (type === 'tokens') {
+        if (type === 'token') {
           tokensObjectContent += objectContent
-        } else {
+        } else if (type === 'network') {
           networksObjectContent += objectContent
+        } else if (type === 'wallet') {
+          walletsObjectContent += objectContent
         }
       })
     })
   }
 
-  processDirectory(SVG_TOKENS_OUT_DIR, 'tokens')
-  processDirectory(SVG_NETWORKS_OUT_DIR, 'networks')
+  processDirectory(SVG_TOKENS_OUT_DIR, 'token')
+  processDirectory(SVG_NETWORKS_OUT_DIR, 'network')
+  processDirectory(SVG_WALLETS_OUT_DIR, 'wallet')
 
-  tokensObjectContent += networksObjectContent + '  }\n};\n'
-  fs.writeFileSync(CORE_SVG_MODULE_PATH, fileContent + tokensObjectContent)
+  fs.writeFileSync(
+    CORE_SVG_MODULE_PATH,
+    fileContent +
+      tokensObjectContent +
+      networksObjectContent +
+      walletsObjectContent +
+      '  }\n};\n',
+  )
 
   console.log('✓ Generated: svgs module')
 }

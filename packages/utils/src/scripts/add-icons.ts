@@ -8,6 +8,7 @@ import {
   ITokenMetadata,
   TType,
   TVariant,
+  IWalletMetadata,
 } from '../types'
 import geckoNetworks from './gecko/gecko-networks.json'
 import geckoCoins from './gecko/gecko-coins.json'
@@ -60,7 +61,7 @@ const findExistingMetadata = (
   )
 
   const existingMetadata =
-    type === 'tokens'
+    type === 'token'
       ? findTokenByFileName(id, tokensJson)
       : findNetworkByFileName(id, networksJson)
 
@@ -77,12 +78,12 @@ const findRawData = (
   name: string,
   type: TType,
 ): INetworkRaw[] | ITokenRaw[] | undefined => {
-  if (type === 'tokens') {
+  if (type === 'token') {
     const geckoCoin = findTokenByFileName(name, geckoCoins)
     const customCoin = findTokenByFileName(name, customTokens)
 
     return customCoin ?? geckoCoin
-  } else if (type === 'networks') {
+  } else if (type === 'network') {
     const geckoNetwork = findNetworkByFileName(name, geckoNetworks)
     const customNetwork = findNetworkByFileName(name, customNetworks)
 
@@ -181,16 +182,18 @@ const createMetadataObj = async (
       return getWithUserInput(fileName, fileVariant, type)
     }
 
-    if (type === 'tokens') {
+    if (type === 'token') {
       return {
         ...userChoice,
         variants: [fileVariant],
         addresses: {},
         marketCapRank: null,
       }
+    } else if (type === 'network') {
+      return { ...userChoice, variants: [fileVariant] }
+    } else if (type === 'wallet') {
+      return { ...userChoice, variants: [fileVariant] }
     }
-
-    return { ...userChoice, variants: [fileVariant] }
   }
 
   if (rawData.length === 1) {
@@ -207,7 +210,7 @@ const createMetadataObj = async (
       variants: [fileVariant],
     }
 
-    if (type === 'tokens') {
+    if (type === 'token') {
       const data = await getCoinByID(rawData[0].id)
 
       ;(metadata as ITokenMetadata)['addresses'] = data.platforms || {}
@@ -225,7 +228,7 @@ const updateMetadataJson = async (
 ) => {
   const current = JSON.parse(
     fs.readFileSync(
-      type === 'tokens' ? TOKENS_METADATA_PATH : NETWORKS_METADATA_PATH,
+      type === 'token' ? TOKENS_METADATA_PATH : NETWORKS_METADATA_PATH,
       'utf-8',
     ),
   )
@@ -242,7 +245,7 @@ const updateMetadataJson = async (
   )
 
   fs.writeFileSync(
-    type === 'tokens' ? TOKENS_METADATA_PATH : NETWORKS_METADATA_PATH,
+    type === 'token' ? TOKENS_METADATA_PATH : NETWORKS_METADATA_PATH,
     JSONFILE,
   )
 
@@ -255,7 +258,7 @@ const updateCustomJson = async (
 ) => {
   const customJson = JSON.parse(
     fs.readFileSync(
-      type === 'tokens'
+      type === 'token'
         ? CUSTOM_TOKENS_METADATA_PATH
         : CUSTOM_NETWORKS_METADATA_PATH,
       'utf-8',
@@ -271,7 +274,7 @@ const updateCustomJson = async (
   )
 
   fs.writeFileSync(
-    type === 'tokens'
+    type === 'token'
       ? CUSTOM_TOKENS_METADATA_PATH
       : CUSTOM_NETWORKS_METADATA_PATH,
     JSONFILE,
@@ -323,6 +326,7 @@ const main = async () => {
 
   const addedNetworks: INetworkMetadata[] = []
   const addedTokens: ITokenMetadata[] = []
+  const addedWallets: IWalletMetadata[] = []
 
   for (const [fileName, { type, variants }] of Object.entries(groupedIcons)) {
     const metadata = await createMetadataObj(fileName, variants[0]!, type)
@@ -333,16 +337,18 @@ const main = async () => {
     const confirmed = await confirmTheMetadata(metadata)
     if (!confirmed) continue
 
-    if (type === 'tokens') {
+    if (type === 'token') {
       addedTokens.push(metadata as ITokenMetadata)
-    } else {
+    } else if (type === 'network') {
       addedNetworks.push(metadata as INetworkMetadata)
+    } else if (type === 'wallet') {
+      addedWallets.push(metadata as IWalletMetadata)
     }
   }
 
   if (addedNetworks.length > 0)
-    await updateMetadataJson(addedNetworks, 'networks')
-  if (addedTokens.length > 0) await updateMetadataJson(addedTokens, 'tokens')
+    await updateMetadataJson(addedNetworks, 'network')
+  if (addedTokens.length > 0) await updateMetadataJson(addedTokens, 'token')
 }
 
 await main()

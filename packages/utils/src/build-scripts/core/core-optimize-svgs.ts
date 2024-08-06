@@ -7,6 +7,8 @@ import {
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_SRC_DIR,
   SVG_NETWORKS_OUT_DIR,
+  SVG_WALLETS_SRC_DIR,
+  SVG_WALLETS_OUT_DIR,
 } from '../../constants'
 import { ensureDirectoryExists, optimizeSvg } from '../../utils'
 import { TVariant } from '../../types'
@@ -76,6 +78,17 @@ export function optimizeSVGs() {
     processSVGs(
       SVG_NETWORKS_SRC_DIR,
       SVG_NETWORKS_OUT_DIR,
+      variant as TVariant,
+      svgList,
+    )
+  })
+
+  // Process SVGs for wallets
+  const walletSVGs = readSVGsFromDir(SVG_WALLETS_SRC_DIR)
+  Object.entries(walletSVGs).forEach(([variant, svgList]) => {
+    processSVGs(
+      SVG_WALLETS_SRC_DIR,
+      SVG_WALLETS_OUT_DIR,
       variant as TVariant,
       svgList,
     )

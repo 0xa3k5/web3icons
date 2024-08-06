@@ -4,11 +4,15 @@ import {
   JSX_TOKENS_OUT_DIR,
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
+  SVG_WALLETS_OUT_DIR,
+  JSX_NETWORKS_OUT_DIR,
+  JSX_WALLETS_OUT_DIR,
 } from '../constants'
 import { componentScaffold } from '../scaffolds'
-import { kebabToCamel } from './naming-conventions'
+import { kebabToPascalCase } from './naming-conventions'
 import { injectCurrentColor, readyForJSX } from './svg-optimization'
 import prettier from 'prettier'
+import { TType } from '../types'
 
 /**
  * Generate React Component from an SVG.
@@ -16,29 +20,52 @@ import prettier from 'prettier'
  * @param {string} baseName - The base name of the SVG file.
  * @param {string} jsxOutDir - The output directory for the JSX file.
  */
-export const generateReactComponent = async (
-  baseName: string,
-  jsxOutDir: string,
-) => {
-  const prefix = jsxOutDir === JSX_TOKENS_OUT_DIR ? 'Token' : 'Network'
-  const componentName =
-    jsxOutDir === JSX_TOKENS_OUT_DIR
-      ? `${prefix}${baseName.replace(/[- ]+/g, '_').toLocaleUpperCase()}`
-      : kebabToCamel(`${prefix}-${baseName}`)
-  const svgDirs =
-    jsxOutDir === JSX_TOKENS_OUT_DIR ? SVG_TOKENS_OUT_DIR : SVG_NETWORKS_OUT_DIR
+export const generateReactComponent = async (baseName: string, type: TType) => {
+  let componentName: string
+  switch (type) {
+    case 'token':
+      componentName = `Token${baseName.replace(/[- ]+/g, '_').toUpperCase()}`
+      break
+    case 'network':
+      componentName = kebabToPascalCase(`${type}-${baseName}`)
+      break
+    case 'wallet':
+      componentName = kebabToPascalCase(`${type}-${baseName}`)
+      break
+    default:
+      throw new Error('Invalid type')
+  }
+
+  let svgOutDir: string
+  let jsxOutDir: string
+  switch (type) {
+    case 'token':
+      svgOutDir = SVG_TOKENS_OUT_DIR
+      jsxOutDir = JSX_TOKENS_OUT_DIR
+      break
+    case 'network':
+      svgOutDir = SVG_NETWORKS_OUT_DIR
+      jsxOutDir = JSX_NETWORKS_OUT_DIR
+      break
+    case 'wallet':
+      svgOutDir = SVG_WALLETS_OUT_DIR
+      jsxOutDir = JSX_WALLETS_OUT_DIR
+      break
+    default:
+      throw new Error('Invalid type')
+  }
 
   const hasBrandedVariant = fs.existsSync(
-    path.join(svgDirs, 'branded', `${baseName}.svg`),
+    path.join(svgOutDir, 'branded', `${baseName}.svg`),
   )
   const hasMonoVariant = fs.existsSync(
-    path.join(svgDirs, 'mono', `${baseName}.svg`),
+    path.join(svgOutDir, 'mono', `${baseName}.svg`),
   )
 
   const brandedJSX = hasBrandedVariant
     ? readyForJSX(
         fs.readFileSync(
-          path.join(svgDirs, 'branded', `${baseName}.svg`),
+          path.join(svgOutDir, 'branded', `${baseName}.svg`),
           'utf-8',
         ),
       )
@@ -47,7 +74,7 @@ export const generateReactComponent = async (
     ? readyForJSX(
         injectCurrentColor(
           fs.readFileSync(
-            path.join(svgDirs, 'mono', `${baseName}.svg`),
+            path.join(svgOutDir, 'mono', `${baseName}.svg`),
             'utf-8',
           ),
         ),

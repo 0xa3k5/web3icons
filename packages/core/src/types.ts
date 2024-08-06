@@ -1,5 +1,5 @@
 export type TVariant = 'mono' | 'branded'
-export type TType = 'networks' | 'tokens' | 'wallets'
+export type TType = 'network' | 'token' | 'wallet'
 export interface ITokenMetadata {
   id: string
   symbol: string
@@ -14,5 +14,11 @@ export interface INetworkMetadata {
   name: string
   shortname?: string
   nativeCoinId?: string
+  variants: TVariant[]
+}
+
+export interface IWalletMetadata {
+  id: string
+  name: string
   variants: TVariant[]
 }

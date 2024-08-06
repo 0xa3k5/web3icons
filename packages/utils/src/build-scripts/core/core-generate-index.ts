@@ -4,6 +4,7 @@ import {
   CORE_INDEX_PATH,
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
+  SVG_WALLETS_OUT_DIR,
 } from '../../constants'
 import { kebabToCamel } from '../../utils'
 import { TType, TVariant } from '../../types'
@@ -31,25 +32,35 @@ export function generateIndex() {
   let indexContent =
     '/* Generated */\nexport { svgs } from "./svg-module";\nexport * from "./types";\n'
 
-  // Process branded and mono for both tokens and networks
+  // Process branded and mono for both token and network
   indexContent += createExports(
     readSvgFilesFromDirectory(path.join(SVG_TOKENS_OUT_DIR, 'branded')),
-    'tokens',
+    'token',
     'branded',
   )
   indexContent += createExports(
     readSvgFilesFromDirectory(path.join(SVG_TOKENS_OUT_DIR, 'mono')),
-    'tokens',
+    'token',
     'mono',
   )
   indexContent += createExports(
     readSvgFilesFromDirectory(path.join(SVG_NETWORKS_OUT_DIR, 'branded')),
-    'networks',
+    'network',
     'branded',
   )
   indexContent += createExports(
     readSvgFilesFromDirectory(path.join(SVG_NETWORKS_OUT_DIR, 'mono')),
-    'networks',
+    'network',
+    'mono',
+  )
+  indexContent += createExports(
+    readSvgFilesFromDirectory(path.join(SVG_WALLETS_OUT_DIR, 'branded')),
+    'wallet',
+    'branded',
+  )
+  indexContent += createExports(
+    readSvgFilesFromDirectory(path.join(SVG_WALLETS_OUT_DIR, 'mono')),
+    'wallet',
     'mono',
   )
 

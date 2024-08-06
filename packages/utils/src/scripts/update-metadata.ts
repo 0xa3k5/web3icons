@@ -79,7 +79,7 @@ const processSVGFile = async (file: string, type: TType): Promise<void> => {
     ),
   )
 
-  if (type === 'tokens') {
+  if (type === 'token') {
     const foundCoin = geckoCoins.find(
       (coin: any) => coin.symbol.toUpperCase() === fileName,
     )
@@ -99,7 +99,7 @@ const processSVGFile = async (file: string, type: TType): Promise<void> => {
 
       await appendToTokensJson(tokenIcon)
     }
-  } else if (type === 'networks') {
+  } else if (type === 'network') {
     const foundNetwork = geckoNetworks.find(
       (network: any) =>
         network.id.toLowerCase() === fileName ||

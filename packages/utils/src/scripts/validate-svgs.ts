@@ -1,5 +1,7 @@
 import fs from 'fs'
 import path from 'path'
+import { getTypeAndVariant } from '../utils'
+import { TType } from '../types'
 
 const isUppercase = (filename: string): boolean =>
   filename === filename.toUpperCase()
@@ -8,7 +10,7 @@ const isKebabCase = (filename: string): boolean =>
   /^[a-z0-9]+(-[a-z0-9]+)*\.svg$/.test(filename)
 
 // validate SVG file content and name
-const validateSvg = (filePath: string, isToken: boolean): void => {
+const validateSvg = (filePath: string, type: TType): void => {
   const svgContent = fs.readFileSync(filePath, 'utf8')
 
   // check size
@@ -21,12 +23,12 @@ const validateSvg = (filePath: string, isToken: boolean): void => {
   const fileName = path.basename(filePath)
 
   // check filename based on type
-  if (isToken && !isUppercase(fileName)) {
+  if (type === 'token' && !isUppercase(fileName)) {
     throw new Error(
       `Invalid file name for token ${filePath}. Expected uppercase.`,
     )
   }
-  if (!isToken && !isKebabCase(fileName)) {
+  if ((type === 'network' || type === 'wallet') && !isKebabCase(fileName)) {
     throw new Error(
       `Invalid file name for network ${filePath}. Expected kebab-case.`,
     )
@@ -41,8 +43,9 @@ const main = () => {
     return
   }
   files[0]?.split(',').forEach(async (f) => {
-    const type = f.includes('/tokens/') ? 'token' : 'network'
-    validateSvg(f, type === 'token')
+    const { type } = getTypeAndVariant(f)
+
+    validateSvg(f, type)
   })
 }
 

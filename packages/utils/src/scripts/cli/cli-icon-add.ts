@@ -4,6 +4,7 @@ import {
   INetworkRaw,
   ITokenMetadata,
   ITokenRaw,
+  IWalletRaw,
   TType,
 } from '../../types'
 
@@ -56,54 +57,70 @@ export const selectAMetadata = async (
 
 export const addManualMetadata = async (
   type: TType,
-): Promise<INetworkRaw | ITokenRaw> => {
+): Promise<INetworkRaw | ITokenRaw | IWalletRaw> => {
   const id = await input({
     message: 'id',
     required: true,
     validate: (value) => value.match(/^[a-z0-9]+(?:-[a-z0-9]+)*$/) !== null,
   })
+
   const name = await input({
     message: 'name',
     required: true,
     validate: (value) => value.length > 0,
   })
 
-  if (type === 'tokens') {
-    const symbol = await input({
+  const getSymbol = async () => {
+    const answer = await input({
       message: 'symbol',
       validate: (value) => value.length > 0,
     })
+    return answer.trim()
+  }
 
-    const marketCapRank = await input({
+  const getMarketCapRank = async () => {
+    const answer = await input({
       message: 'marketCapRank',
       validate: (value) => value.match(/^[0-9]+$/) !== null,
     })
+    return parseInt(answer)
+  }
 
-    return {
-      id: id.trim(),
-      name: name.trim(),
-      symbol: symbol.trim(),
-      marketCapRank: parseInt(marketCapRank) || null,
-    } as ITokenRaw
-  } else {
-    const nativeCoinId = await input({
-      message: 'nativeCoinId',
-    })
-
-    const shortName = await input({
+  const getShortName = async () => {
+    const answer = await input({
       message: 'shortName',
     })
+    return answer.trim() || undefined
+  }
 
-    const chain_identifier = await input({
-      message: 'chain_identifier',
+  const getNativeCoinId = async () => {
+    const answer = await input({
+      message: 'nativeCoinId',
     })
+    return answer.trim() || undefined
+  }
 
-    return {
-      id: id.trim(),
-      name: name.trim(),
-      nativeCoinId: nativeCoinId.trim() || undefined,
-      shortName: shortName.trim() || undefined,
-      chain_identifier: parseInt(chain_identifier) || undefined,
-    } as INetworkRaw
+  switch (type) {
+    case 'token':
+      return {
+        id: id.trim(),
+        name: name.trim(),
+        symbol: await getSymbol(),
+        marketCapRank: await getMarketCapRank(),
+      } as ITokenRaw
+    case 'network':
+      return {
+        id: id.trim(),
+        name: name.trim(),
+        shortname: await getShortName(),
+        native_coin_id: await getNativeCoinId(),
+      } as INetworkRaw
+    case 'wallet':
+      return {
+        id: id.trim(),
+        name: name.trim(),
+      } as IWalletRaw
+    default:
+      throw new Error('Invalid type')
   }
 }

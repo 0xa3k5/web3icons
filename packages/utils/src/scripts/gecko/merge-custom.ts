@@ -3,7 +3,7 @@ import path from 'path'
 import customTokens from './custom-tokens.json'
 import geckoCoins from './gecko-coins.json'
 import getCoinByID from './get-coin-by-id'
-import { ITokenMetadata } from '../../types'
+import { ITokenMetadata, TVariant } from '../../types'
 import { SVG_TOKENS_SRC_DIR, TOKENS_METADATA_PATH } from '../../constants'
 import prettier from 'prettier'
 
@@ -37,7 +37,7 @@ const enrichCustomTokens = () => {
   return Promise.all(
     customTokens
       .map(async (custom) => {
-        const variants = []
+        const variants: TVariant[] = []
         const lowerCaseId = custom.id.toLowerCase()
         const lowerCaseName = custom.name.toLowerCase()
         const lowerCaseSymbol = custom.symbol.toLowerCase()

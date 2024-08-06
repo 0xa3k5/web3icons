@@ -1,5 +1,5 @@
 export type TVariant = 'mono' | 'branded'
-export type TType = 'networks' | 'tokens' | 'wallets'
+export type TType = 'network' | 'token' | 'wallet'
 
 export interface ITokenMetadata {
   id: string
@@ -18,6 +18,12 @@ export interface INetworkMetadata {
   variants: TVariant[]
 }
 
+export interface IWalletMetadata {
+  id: string
+  name: string
+  variants: TVariant[]
+}
+
 // gecko-networks.json & custom-networks.json
 export interface INetworkRaw {
   id: string
@@ -32,6 +38,12 @@ export interface ITokenRaw {
   id: string
   name: string
   symbol: string
+}
+
+// wallets.json
+export interface IWalletRaw {
+  id: string
+  name: string
 }
 
 export interface IconMap {

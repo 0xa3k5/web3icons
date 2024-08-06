@@ -8,10 +8,10 @@ import { TType, TVariant } from '../types'
 export const getTypeAndVariant = (
   filePath: string,
 ): { type: TType; variant: TVariant } => {
-  let type: TType = 'tokens'
+  let type: TType = 'token'
   let variant: TVariant = 'branded'
 
-  const possibleTypes: TType[] = ['tokens', 'networks']
+  const possibleTypes: TType[] = ['token', 'network']
   const possibleVariants: TVariant[] = ['branded', 'mono']
 
   possibleTypes.forEach((t) => {

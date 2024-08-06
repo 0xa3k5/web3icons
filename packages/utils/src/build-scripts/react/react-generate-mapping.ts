@@ -3,16 +3,16 @@ import path from 'path'
 import { ROOT_REACT } from '../../constants'
 
 export function generateMapping() {
-  const networkIcons = fs.readdirSync(
-    path.join(ROOT_REACT, 'src/icons/networks'),
-  )
+  // prettier-ignore
+  const networkIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/networks'))
   const tokenIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/tokens'))
+  const walletIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/wallets'))
 
   const networkPaths = networkIcons
     .filter((file) => file.endsWith('.tsx'))
     .map((file) => {
       const iconName = path.basename(file, '.tsx')
-      return `  ${iconName}: () => import('./icons/networks/${iconName}'),\n`
+      return `${iconName}: () => import('./icons/networks/${iconName}'),\n`
     })
     .join('')
 
@@ -20,7 +20,15 @@ export function generateMapping() {
     .filter((file) => file.endsWith('.tsx'))
     .map((file) => {
       const iconName = path.basename(file, '.tsx')
-      return `  ${iconName}: () => import('./icons/tokens/${iconName}'),\n`
+      return `${iconName}: () => import('./icons/tokens/${iconName}'),\n`
+    })
+    .join('')
+
+  const walletPaths = walletIcons
+    .filter((file) => file.endsWith('.tsx'))
+    .map((file) => {
+      const iconName = path.basename(file, '.tsx')
+      return `${iconName}: () => import('./icons/wallets/${iconName}'),\n`
     })
     .join('')
 
@@ -35,8 +43,8 @@ interface IconImportMap {
 }
 
 export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {\n${networkPaths}};\n
-
 export const TOKEN_ICON_IMPORT_MAP: IconImportMap  = {\n${tokenPaths}};\n
+export const WALLET_ICON_IMPORT_MAP: IconImportMap  = {\n${walletPaths}};\n
 `
 
   const outputPath = path.join(ROOT_REACT, 'src/icon-import-map.ts')
