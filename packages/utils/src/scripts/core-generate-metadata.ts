@@ -1,9 +1,9 @@
 import fs from 'fs'
 import path from 'path'
-import { SVG_TOKENS_SRC_DIR, TOKENS_METADATA_PATH } from '../../constants'
-import getCoinByID from '../../scripts/gecko/get-coin-by-id'
-import { ITokenMetadata, TVariant } from '../../types'
-import { appendToMetadataJson } from '../../utils'
+import { SVG_TOKENS_SRC_DIR, TOKENS_METADATA_PATH } from '../constants'
+import getCoinByID from './gecko/get-coin-by-id'
+import { ITokenMetadata, TVariant } from '../types'
+import { appendToMetadataJson } from '../utils'
 
 const PATH_COINS = path.join(__dirname, './gecko/gecko-coins.json')
 

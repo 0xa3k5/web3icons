@@ -1,4 +1,4 @@
-import { TVariant } from '../types'
+import { TType, TVariant } from '../types'
 
 /**
  * Gets the type and variant of the icon from the file path
@@ -7,16 +7,21 @@ import { TVariant } from '../types'
  */
 export const getTypeAndVariant = (
   filePath: string,
-): { type: 'token' | 'network'; variant: TVariant } => {
-  let type: 'token' | 'network' = 'token'
+): { type: TType; variant: TVariant } => {
+  let type: TType = 'tokens'
   let variant: TVariant = 'branded'
 
-  if (filePath.includes('/networks/')) {
-    type = 'network'
-  }
-  if (filePath.includes('/mono/')) {
-    variant = 'mono'
-  }
+  const possibleTypes: TType[] = ['tokens', 'networks']
+  const possibleVariants: TVariant[] = ['branded', 'mono']
+
+  possibleTypes.forEach((t) => {
+    possibleVariants.forEach((v) => {
+      if (filePath.includes(`/${t}/${v}/`)) {
+        type = t
+        variant = v
+      }
+    })
+  })
 
   return { type, variant }
 }

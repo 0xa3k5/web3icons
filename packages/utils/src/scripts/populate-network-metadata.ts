@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
-import { INetworkRaw, INetworkMetadata, TVariant } from '../../types'
-import { SVG_NETWORKS_SRC_DIR, NETWORKS_METADATA_PATH } from '../../constants'
+import { INetworkRaw, INetworkMetadata, TVariant } from '../types'
+import { SVG_NETWORKS_SRC_DIR, NETWORKS_METADATA_PATH } from '../constants'
 import prettier from 'prettier'
 
 const SVG_NETWORKS_DIRS = {

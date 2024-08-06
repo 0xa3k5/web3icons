@@ -4,6 +4,7 @@ import {
   INetworkRaw,
   ITokenMetadata,
   ITokenRaw,
+  TType,
 } from '../../types'
 
 export const confirmTheMetadata = async (
@@ -22,7 +23,7 @@ export const getUserInputSlug = async (fileName: string) => {
 
 export const selectAMetadata = async (
   rawMetadata: INetworkRaw[] | ITokenRaw[],
-  type: 'tokens' | 'networks',
+  type: TType,
 ) => {
   const choices = rawMetadata.map((raw) => ({
     name: raw.name,
@@ -54,7 +55,7 @@ export const selectAMetadata = async (
 }
 
 export const addManualMetadata = async (
-  type: 'tokens' | 'networks',
+  type: TType,
 ): Promise<INetworkRaw | ITokenRaw> => {
   const id = await input({
     message: 'id',

@@ -6,6 +6,8 @@ import {
   INetworkRaw,
   INetworkMetadata,
   ITokenMetadata,
+  TType,
+  TVariant,
 } from '../types'
 import geckoNetworks from './gecko/gecko-networks.json'
 import geckoCoins from './gecko/gecko-coins.json'
@@ -23,6 +25,7 @@ import {
   findTokenByFileName,
   findNetworkByFileName,
   validateSvg,
+  getTypeAndVariant,
 } from '../utils'
 import {
   addManualMetadata,
@@ -47,7 +50,7 @@ const getModifiedIcons = () => {
  */
 const findExistingMetadata = (
   id: string,
-  type: 'tokens' | 'networks',
+  type: TType,
 ): ITokenMetadata | INetworkMetadata | undefined => {
   const tokensJson: ITokenMetadata[] = JSON.parse(
     fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'),
@@ -72,7 +75,7 @@ const findExistingMetadata = (
  */
 const findRawData = (
   name: string,
-  type: 'tokens' | 'networks',
+  type: TType,
 ): INetworkRaw[] | ITokenRaw[] | undefined => {
   if (type === 'tokens') {
     const geckoCoin = findTokenByFileName(name, geckoCoins)
@@ -115,8 +118,8 @@ const mergeVariants = (
 
 const getWithUserInput = async (
   fileName: string,
-  fileVariant: string,
-  type: 'tokens' | 'networks',
+  fileVariant: TVariant,
+  type: TType,
 ): Promise<ITokenMetadata | INetworkMetadata | undefined> => {
   const geckoApiID = await getUserInputSlug(fileName)
 
@@ -154,8 +157,8 @@ const getWithUserInput = async (
  */
 const createMetadataObj = async (
   fileName: string,
-  fileVariant: string,
-  type: 'tokens' | 'networks',
+  fileVariant: TVariant,
+  type: TType,
 ): Promise<ITokenMetadata | INetworkMetadata | undefined> => {
   const rawData = findRawData(fileName, type)
   // no metadata
@@ -218,7 +221,7 @@ const createMetadataObj = async (
 
 const updateMetadataJson = async (
   metadata: INetworkMetadata[] | ITokenMetadata[],
-  type: 'tokens' | 'networks',
+  type: TType,
 ) => {
   const current = JSON.parse(
     fs.readFileSync(
@@ -248,7 +251,7 @@ const updateMetadataJson = async (
 
 const updateCustomJson = async (
   metadata: INetworkRaw[] | ITokenRaw[],
-  type: 'tokens' | 'networks',
+  type: TType,
 ) => {
   const customJson = JSON.parse(
     fs.readFileSync(
@@ -302,20 +305,19 @@ const main = async () => {
     .filter((filePath) => validateSvg(filePath))
 
   const groupedIcons: {
-    [key: string]: { type: 'tokens' | 'networks'; variants: string[] }
+    [key: string]: { type: TType; variants: TVariant[] }
   } = {}
 
   iconPaths.forEach((filePath) => {
     const fileName = path.basename(filePath, '.svg')
-    const fileVariant = filePath.includes('/mono/') ? 'mono' : 'branded'
-    const type = filePath.includes('/tokens/') ? 'tokens' : 'networks'
+    const { type, variant } = getTypeAndVariant(filePath)
 
     if (!groupedIcons[fileName]) {
       groupedIcons[fileName] = { type, variants: [] }
     }
 
-    if (!groupedIcons[fileName].variants.includes(fileVariant)) {
-      groupedIcons[fileName].variants.push(fileVariant)
+    if (!groupedIcons[fileName].variants.includes(variant)) {
+      groupedIcons[fileName].variants.push(variant)
     }
   })
 

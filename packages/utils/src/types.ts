@@ -1,4 +1,5 @@
 export type TVariant = 'mono' | 'branded'
+export type TType = 'networks' | 'tokens' | 'wallets'
 
 export interface ITokenMetadata {
   id: string

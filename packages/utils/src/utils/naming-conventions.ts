@@ -59,6 +59,17 @@ export const toPascalCase = (str: string): string => {
 
 /**
  *
+ * @param str kebab-case
+ * @returns PascalCase
+ */
+export const kebabToPascalCase = (str: string): string => {
+  return str.replace(/(^\w|-\w)/g, (match) =>
+    match.replace('-', '').toUpperCase(),
+  )
+}
+
+/**
+ *
  * @param str
  * @returns boolean
  */

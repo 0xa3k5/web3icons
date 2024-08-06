@@ -1,9 +1,10 @@
 import fs from 'fs'
 import path from 'path'
 import prettier from 'prettier'
-import { INetworkMetadata, ITokenMetadata } from '../types'
+import { INetworkMetadata, ITokenMetadata, TType } from '../types'
 import getCoinByID from './gecko/get-coin-by-id'
 import { NETWORKS_METADATA_PATH, TOKENS_METADATA_PATH } from '../constants'
+import { getTypeAndVariant } from '../utils'
 
 const appendToNetworksJson = async (
   network: INetworkMetadata,
@@ -65,14 +66,8 @@ const appendToTokensJson = async (coin: ITokenMetadata): Promise<void> => {
   )
 }
 
-const processSVGFile = async (
-  file: string,
-  type: 'token' | 'network',
-): Promise<void> => {
-  const fileName =
-    type === 'token'
-      ? path.basename(file, '.svg').toUpperCase() // tokens
-      : path.basename(file, '.svg').toLowerCase() // networks
+const processSVGFile = async (file: string, type: TType): Promise<void> => {
+  const fileName = path.basename(file, '.svg').toUpperCase()
   console.log(fileName)
   const geckoCoins = JSON.parse(
     fs.readFileSync(path.join(__dirname, './gecko/gecko-coins.json'), 'utf8'),
@@ -84,7 +79,7 @@ const processSVGFile = async (
     ),
   )
 
-  if (type === 'token') {
+  if (type === 'tokens') {
     const foundCoin = geckoCoins.find(
       (coin: any) => coin.symbol.toUpperCase() === fileName,
     )
@@ -104,7 +99,7 @@ const processSVGFile = async (
 
       await appendToTokensJson(tokenIcon)
     }
-  } else if (type === 'network') {
+  } else if (type === 'networks') {
     const foundNetwork = geckoNetworks.find(
       (network: any) =>
         network.id.toLowerCase() === fileName ||
@@ -128,11 +123,12 @@ const processSVGFile = async (
 }
 
 const main = async (): Promise<void> => {
-  const newSVGFiles: { file: string; type: 'token' | 'network' }[] =
-    process.argv.slice(2).map((file) => ({
-      file,
-      type: file.includes('/tokens/') ? 'token' : 'network',
-    }))
+  const newSVGFiles: { file: string; type: TType }[] = process.argv
+    .slice(2)
+    .map((file) => {
+      const { type } = getTypeAndVariant(file)
+      return { file, type }
+    })
 
   for (const { file, type } of newSVGFiles) {
     await processSVGFile(file, type)
