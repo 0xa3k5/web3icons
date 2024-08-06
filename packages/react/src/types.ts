@@ -5,7 +5,7 @@ export interface BaseIconProps extends SVGProps<SVGSVGElement> {
 }
 
 export interface IconComponentProps extends SVGProps<SVGSVGElement> {
-  variant: 'mono' | 'branded'
+  variant?: 'mono' | 'branded'
   size?: number | string
   color?: string
   className?: string
