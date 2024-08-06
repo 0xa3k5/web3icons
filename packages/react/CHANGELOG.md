@@ -1,5 +1,11 @@
 # @web3icons/react
 
+## 3.1.0
+
+### Minor Changes
+
+- `variant` prop is now optional and defaults to `mono` when icon has supports both variants.
+
 ## 3.0.1
 
 ### Patch Changes

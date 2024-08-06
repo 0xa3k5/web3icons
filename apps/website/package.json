@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@web3icons/core": "3.0.1",
-    "@web3icons/react": "3.0.1",
+    "@web3icons/react": "3.1.0",
     "@types/node": "20.11.25",
     "@types/react": "18.2.64",
     "@types/react-dom": "18.2.21",
