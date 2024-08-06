@@ -11,6 +11,7 @@ import {
 import { ensureDirectoryExists, optimizeSvg } from '../../utils'
 import { TVariant } from '../../types'
 
+export function optimizeSVGs() {
   // Ensure necessary directories exist
   ensureDirectoryExists(path.resolve(ROOT_CORE, 'dist'))
   ensureDirectoryExists(path.resolve(ROOT_CORE, 'dist', 'svgs'))
@@ -79,3 +80,4 @@ import { TVariant } from '../../types'
       svgList,
     )
   })
+}

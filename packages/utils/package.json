@@ -34,15 +34,9 @@
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error",
     "build": "tsup --config tsup.config.js && bun run lint && bun run format",
-    "pre-build:core": "bun run core:optimize-svgs && bun run core:svgs-module && bun run core:index",
-    "pre-build:react": "bun run react:components && bun run react:index && bun run react:generate-mapping",
-    "core:generate-metadata": "bun run ./src/scripts/core-generate-metadata.ts",
-    "core:optimize-svgs": "bun run ./src/scripts/core-optimize-svgs.ts",
-    "core:svgs-module": "bun run ./src/scripts/core-generate-svgs-module.ts",
-    "core:index": "bun run ./src/scripts/core-generate-index.ts",
-    "react:components": "bun run ./src/scripts/react-generate-components.ts",
-    "react:index": "bun run ./src/scripts/react-generate-index.ts",
-    "react:generate-mapping": "bun run ./src/scripts/react-generate-mapping.ts"
+    "pre-build:core": "bun run ./src/build-scripts/core/core.pre-build.ts",
+    "pre-build:react": "bun run ./src/build-scripts/react/react.pre-build.ts",
+    "core:generate-metadata": "bun run ./src/build-scripts/core/core-generate-metadata.ts"
   },
   "sideEffects": false,
   "type": "module",

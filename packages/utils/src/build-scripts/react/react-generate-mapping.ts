@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { ROOT_REACT } from '../../constants'
 
+export function generateMapping() {
   const networkIcons = fs.readdirSync(
     path.join(ROOT_REACT, 'src/icons/networks'),
   )
@@ -41,3 +42,4 @@ export const TOKEN_ICON_IMPORT_MAP: IconImportMap  = {\n${tokenPaths}};\n
   const outputPath = path.join(ROOT_REACT, 'src/icon-import-map.ts')
   fs.writeFileSync(outputPath, content)
   console.log('✅ import paths has been generated at:', outputPath)
+}

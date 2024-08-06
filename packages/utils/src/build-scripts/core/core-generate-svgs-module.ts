@@ -15,6 +15,7 @@ const readSvgFilesFromDir = (dirPath: string) => {
     .map((file) => file.replace('.svg', ''))
 }
 
+export function generateSvgModule() {
   let fileContent = '/* Generated */\n'
   let tokensObjectContent = '\nexport const svgs = {\n  tokens: {\n'
   let networksObjectContent = '  },\n  networks: {\n'
@@ -47,3 +48,4 @@ const readSvgFilesFromDir = (dirPath: string) => {
   fs.writeFileSync(CORE_SVG_MODULE_PATH, fileContent + tokensObjectContent)
 
   console.log('✓ Generated: svgs module')
+}

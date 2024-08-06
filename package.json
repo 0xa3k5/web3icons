@@ -5,12 +5,11 @@
   "author": "0xa3k5",
   "scripts": {
     "build": "turbo build",
-    "build:core": "turbo run build:core && bun run lint && bun run format",
-    "build:react": "turbo run build:react && bun run lint && bun run format",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error",
-    "add-icons": "bun run update-gecko-coins && bun run update-gecko-networks && bun run ./packages/utils/src/scripts/add-icons.ts && bun run ./packages/utils/src/scripts/generate-icons-md.ts && bun run format ",
+    "add-icons": "bun run update-gecko-coins && bun run update-gecko-networks && bun run ./packages/utils/src/scripts/add-icons.ts && bun run generate-icons-md && bun run format ",
+    "generate-icons-md": "bun run ./packages/utils/src/scripts/generate-icons-md.ts",
     "update-gecko-networks": "bun run ./packages/utils/src/scripts/gecko/get-networks.ts",
     "update-gecko-coins": "bun run ./packages/utils/src/scripts/gecko/get-coins.ts"
   },

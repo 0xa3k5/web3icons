@@ -27,6 +27,7 @@ const createExports = (
     .join('')
 }
 
+export function generateIndex() {
   let indexContent =
     '/* Generated */\nexport { svgs } from "./svg-module";\nexport * from "./types";\n'
 
@@ -54,3 +55,4 @@ const createExports = (
 
   fs.writeFileSync(CORE_INDEX_PATH, indexContent)
   console.log('✓ Generated: index file at src/index.ts')
+}

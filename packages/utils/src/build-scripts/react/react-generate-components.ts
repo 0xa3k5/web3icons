@@ -10,6 +10,7 @@ import {
 } from '../../constants'
 import { generateReactComponent, ensureDirectoryExists } from '../../utils'
 
+export function generateComponents() {
   ensureDirectoryExists(path.join(ROOT_REACT, 'src'))
   ensureDirectoryExists(path.join(ROOT_REACT, 'src', 'icons'))
   ensureDirectoryExists(SVG_TOKENS_OUT_DIR)
@@ -35,3 +36,4 @@ import { generateReactComponent, ensureDirectoryExists } from '../../utils'
   // Process SVGs for tokens and networks
   processSVGs(SVG_TOKENS_OUT_DIR, JSX_TOKENS_OUT_DIR)
   processSVGs(SVG_NETWORKS_OUT_DIR, JSX_NETWORKS_OUT_DIR)
+}

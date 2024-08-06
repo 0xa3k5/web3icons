@@ -22,6 +22,7 @@ const generateIndexFile = (directory: string, type: TType) => {
   console.log(`✓ Generated: ${type} index file`)
 }
 
+export function generateIndex() {
   // Generate index.ts for tokens and networks
   generateIndexFile(JSX_TOKENS_OUT_DIR, 'tokens')
   generateIndexFile(JSX_NETWORKS_OUT_DIR, 'networks')
@@ -33,3 +34,4 @@ const generateIndexFile = (directory: string, type: TType) => {
     iconsIndexContent,
   )
   console.log('✓ Generated: icons index file')
+}
