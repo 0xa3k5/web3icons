@@ -4,8 +4,8 @@ import {
   CORE_SVG_MODULE_PATH,
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
-} from '../constants'
-import { kebabToCamel } from '../utils'
+} from '../../constants'
+import { kebabToCamel } from '../../utils'
 
 const readSvgFilesFromDir = (dirPath: string) => {
   return fs

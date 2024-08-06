@@ -1,8 +1,9 @@
+export type TVariant = 'mono' | 'branded'
 export interface ITokenMetadata {
   id: string
   symbol: string
   name: string
-  variants: string[]
+  variants: TVariant[]
   marketCapRank: number | null
   addresses: { [key: string]: string | undefined }
 }
@@ -12,5 +13,6 @@ export interface INetworkMetadata {
   name: string
   shortname?: string
   nativeCoinId?: string
-  variants: string[]
+  variants: TVariant[]
 }
+

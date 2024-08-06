@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { ROOT_REACT } from '../constants'
+import { ROOT_REACT } from '../../constants'
 
 const networkIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/networks'))
 const tokenIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/tokens'))

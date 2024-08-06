@@ -1,8 +1,10 @@
+export type TVariant = 'mono' | 'branded'
+
 export interface ITokenMetadata {
   id: string
-  name: string
   symbol: string
-  variants: string[]
+  name: string
+  variants: TVariant[]
   marketCapRank: number | null
   addresses: { [key: string]: string | undefined }
 }
@@ -12,8 +14,7 @@ export interface INetworkMetadata {
   name: string
   shortname?: string
   nativeCoinId?: string
-  chain_identifier?: number
-  variants: string[]
+  variants: TVariant[]
 }
 
 // gecko-networks.json & custom-networks.json

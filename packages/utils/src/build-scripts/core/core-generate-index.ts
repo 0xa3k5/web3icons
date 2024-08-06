@@ -4,8 +4,9 @@ import {
   CORE_INDEX_PATH,
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
-} from '../constants'
-import { kebabToCamel } from '../utils'
+} from '../../constants'
+import { kebabToCamel } from '../../utils'
+import { TVariant } from '../../types'
 
 const readSvgFilesFromDirectory = (directoryPath: string): string[] => {
   return fs
@@ -16,7 +17,7 @@ const readSvgFilesFromDirectory = (directoryPath: string): string[] => {
 const createExports = (
   svgFiles: string[],
   type: 'tokens' | 'networks',
-  variant: 'branded' | 'mono',
+  variant: TVariant,
 ): string => {
   return svgFiles
     .map((file) => {

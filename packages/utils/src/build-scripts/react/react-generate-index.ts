@@ -4,7 +4,7 @@ import {
   JSX_TOKENS_OUT_DIR,
   JSX_NETWORKS_OUT_DIR,
   ROOT_REACT,
-} from '../constants'
+} from '../../constants'
 
 const generateIndexFile = (
   directory: string,

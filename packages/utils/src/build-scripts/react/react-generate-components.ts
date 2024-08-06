@@ -7,8 +7,8 @@ import {
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
   ROOT_REACT,
-} from '../constants'
-import { generateReactComponent, ensureDirectoryExists } from '../utils'
+} from '../../constants'
+import { generateReactComponent, ensureDirectoryExists } from '../../utils'
 
 ensureDirectoryExists(path.join(ROOT_REACT, 'src'))
 ensureDirectoryExists(path.join(ROOT_REACT, 'src', 'icons'))

@@ -1,11 +1,12 @@
 import { SVGProps } from 'react'
+import { TVariant } from '@web3icons/core'
 
 export interface BaseIconProps extends SVGProps<SVGSVGElement> {
   size?: string | number
 }
 
 export interface IconComponentProps extends SVGProps<SVGSVGElement> {
-  variant?: 'mono' | 'branded'
+  variant?: TVariant
   size?: number | string
   color?: string
   className?: string

@@ -1,3 +1,5 @@
+import { TVariant } from '../types'
+
 /**
  * Gets the type and variant of the icon from the file path
  * @param filePath The file path of the icon
@@ -5,9 +7,9 @@
  */
 export const getTypeAndVariant = (
   filePath: string,
-): { type: 'token' | 'network'; variant: 'mono' | 'branded' } => {
+): { type: 'token' | 'network'; variant: TVariant } => {
   let type: 'token' | 'network' = 'token'
-  let variant: 'mono' | 'branded' = 'branded'
+  let variant: TVariant = 'branded'
 
   if (filePath.includes('/networks/')) {
     type = 'network'

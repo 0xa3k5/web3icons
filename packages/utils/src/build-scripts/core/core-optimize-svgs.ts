@@ -7,8 +7,9 @@ import {
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_SRC_DIR,
   SVG_NETWORKS_OUT_DIR,
-} from '../constants'
-import { ensureDirectoryExists, optimizeSvg } from '../utils'
+} from '../../constants'
+import { ensureDirectoryExists, optimizeSvg } from '../../utils'
+import { TVariant } from '../../types'
 
 // Ensure necessary directories exist
 ensureDirectoryExists(path.resolve(ROOT_CORE, 'dist'))
@@ -19,8 +20,6 @@ ensureDirectoryExists(path.join(SVG_TOKENS_OUT_DIR, 'mono'))
 ensureDirectoryExists(path.join(SVG_TOKENS_OUT_DIR, 'branded'))
 ensureDirectoryExists(path.join(SVG_NETWORKS_OUT_DIR, 'mono'))
 ensureDirectoryExists(path.join(SVG_NETWORKS_OUT_DIR, 'branded'))
-
-type TVariant = 'branded' | 'mono'
 
 // Function to read SVGs from a directory
 const readSVGsFromDir = (dir: string): Record<TVariant, string[]> => ({
