@@ -21,12 +21,14 @@ import {
   NETWORKS_METADATA_PATH,
   SVG_SRC_DIR,
   TOKENS_METADATA_PATH,
+  WALLETS_METADATA_PATH,
 } from '../constants'
 import {
-  findTokenByFileName,
-  findNetworkByFileName,
+  // findTokenByFileName,
+  // findNetworkByFileName,
   validateSvg,
   getTypeAndVariant,
+  findByFileName,
 } from '../utils'
 import {
   addManualMetadata,
@@ -44,34 +46,45 @@ const getModifiedIcons = () => {
 }
 
 /**
- * Finds the metadata for a given id and type (tokens or networks)
+ * Finds the metadata for a given id and type (tokens, networks, or wallets)
  * @param id ID of the metadata to find
- * @param type Type of the metadata to find (tokens or networks)
+ * @param type Type of the metadata to find (tokens, networks, or wallets)
  * @returns Metadata for the given id and type
  */
 const findExistingMetadata = (
   id: string,
   type: TType,
-): ITokenMetadata | INetworkMetadata | undefined => {
-  const tokensJson: ITokenMetadata[] = JSON.parse(
-    fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'),
-  )
-  const networksJson: INetworkMetadata[] = JSON.parse(
-    fs.readFileSync(NETWORKS_METADATA_PATH, 'utf-8'),
-  )
+): ITokenMetadata[] | INetworkMetadata[] | IWalletMetadata[] | undefined => {
+  let jsonPath
+  switch (type) {
+    case 'token':
+      jsonPath = TOKENS_METADATA_PATH
+      break
+    case 'network':
+      jsonPath = NETWORKS_METADATA_PATH
+      break
+    case 'wallet':
+      jsonPath = WALLETS_METADATA_PATH
+      break
+    default:
+      throw new Error('Invalid type')
+  }
 
-  const existingMetadata =
-    type === 'token'
-      ? findTokenByFileName(id, tokensJson)
-      : findNetworkByFileName(id, networksJson)
+  const jsonFile = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'))
 
-  return existingMetadata?.filter((m) => m !== undefined)[0]
+  const existingMetadata = findByFileName(type, id, jsonFile)
+
+  return existingMetadata as
+    | ITokenMetadata[]
+    | INetworkMetadata[]
+    | IWalletMetadata[]
+    | undefined
 }
 
 /**
  * Finds the raw data for a given name and type (tokens or networks)
  * @param name Name of the data to find
- * @param type Type of the data to find (tokens or networks)
+ * @param type Type of the data to find (tokens, networks, or wallets)
  * @returns Raw data for the given name and type
  */
 const findRawData = (
@@ -79,27 +92,31 @@ const findRawData = (
   type: TType,
 ): INetworkRaw[] | ITokenRaw[] | undefined => {
   if (type === 'token') {
-    const geckoCoin = findTokenByFileName(name, geckoCoins)
-    const customCoin = findTokenByFileName(name, customTokens)
-
+    const geckoCoin = findByFileName(type, name, geckoCoins)
+    const customCoin = findByFileName(type, name, customTokens)
     return customCoin ?? geckoCoin
   } else if (type === 'network') {
-    const geckoNetwork = findNetworkByFileName(name, geckoNetworks)
-    const customNetwork = findNetworkByFileName(name, customNetworks)
-
+    const geckoNetwork = findByFileName(type, name, geckoNetworks)
+    const customNetwork = findByFileName(type, name, customNetworks)
     return customNetwork ?? geckoNetwork
+  } else if (type === 'wallet') {
+    // prettier-ignore
+    const walletsMetadata = JSON.parse(fs.readFileSync(WALLETS_METADATA_PATH, 'utf-8'))
+    const customWallet = findByFileName(type, name, walletsMetadata)
+    return customWallet
   }
 }
 
 /**
- * Merges the variants of the given array of networks or tokens
- * @param arr Array of networks or tokens
- * @returns Array of merged networks or tokens
+ * Merges the variants of the given array of networks, tokens, or wallets
+ * @param arr Array of networks, tokens, or wallets
+ * @returns Array of merged networks, tokens, or wallets
  */
 const mergeVariants = (
-  arr: INetworkMetadata[] | ITokenMetadata[],
-): INetworkMetadata[] | ITokenMetadata[] => {
-  const map: Map<string, INetworkMetadata | ITokenMetadata> = new Map()
+  arr: INetworkMetadata[] | ITokenMetadata[] | IWalletMetadata[],
+): INetworkMetadata[] | ITokenMetadata[] | IWalletMetadata[] => {
+  const map: Map<string, INetworkMetadata | ITokenMetadata | IWalletMetadata> =
+    new Map()
 
   arr.forEach((n) => {
     const key = `${n.id}|${n.name}`
@@ -116,21 +133,20 @@ const mergeVariants = (
 
   return Array.from(map.values())
 }
-
 const getWithUserInput = async (
   fileName: string,
   fileVariant: TVariant,
   type: TType,
-): Promise<ITokenMetadata | INetworkMetadata | undefined> => {
+): Promise<ITokenMetadata | INetworkMetadata | IWalletMetadata | undefined> => {
   const geckoApiID = await getUserInputSlug(fileName)
 
   if (geckoApiID === undefined) {
     console.log('No input provided, skipping')
     return
   }
-  const existingMetadata = findExistingMetadata(geckoApiID, type)
+  let existingMetadata = findExistingMetadata(geckoApiID, type)
 
-  if (!existingMetadata) {
+  if (!existingMetadata || existingMetadata.length === 0) {
     const foundCoin = await getCoinByID(geckoApiID)
 
     return {
@@ -140,39 +156,55 @@ const getWithUserInput = async (
       variants: [fileVariant],
       addresses: foundCoin.platforms || {},
       marketCapRank: foundCoin.market_cap_rank || null,
-    }
+    } as ITokenMetadata | IWalletMetadata | INetworkMetadata
   }
 
-  if (!existingMetadata.variants.includes(fileVariant)) {
-    existingMetadata.variants.push(fileVariant)
+  if (existingMetadata.length > 1) {
+    const selectedMetadata = (await selectAMetadata(existingMetadata, type)) as
+      | INetworkMetadata
+      | ITokenMetadata
+      | IWalletMetadata
+
+    existingMetadata = selectedMetadata ? [selectedMetadata] : []
   }
 
-  return existingMetadata
+  if (!existingMetadata[0]) {
+    return undefined
+  }
+
+  if (!existingMetadata[0].variants.includes(fileVariant)) {
+    existingMetadata[0].variants.push(fileVariant)
+  }
+
+  return existingMetadata[0]
 }
 
 /**
  * creates metadata object for a given svg file
  * if matched, appends to existing metadata object
  * if not matched, creates new metadata object
- * @returns ITokenMetadata | INetworkMetadata | undefined
+ * @returns ITokenMetadata | INetworkMetadata | IWalletMetadata | undefined
  */
 const createMetadataObj = async (
   fileName: string,
   fileVariant: TVariant,
   type: TType,
-): Promise<ITokenMetadata | INetworkMetadata | undefined> => {
+): Promise<ITokenMetadata | INetworkMetadata | IWalletMetadata | undefined> => {
   const rawData = findRawData(fileName, type)
   // no metadata
   if (!rawData || rawData[0] === undefined) {
     console.info(
-      `👀 ${fileName}: No ${type.slice(0, -1)} metadata, consider manually metadata"`,
+      `👀 ${fileName}: No ${type} metadata, consider manually adding metadata"`,
     )
 
     const manualData = await addManualMetadata(type)
 
     await updateCustomJson([manualData], type)
 
-    return { ...manualData, variants: [fileVariant] }
+    return { ...manualData, variants: [fileVariant] } as
+      | ITokenMetadata
+      | INetworkMetadata
+      | IWalletMetadata
   }
 
   // multiple metadata
@@ -182,33 +214,32 @@ const createMetadataObj = async (
       return getWithUserInput(fileName, fileVariant, type)
     }
 
-    if (type === 'token') {
-      return {
-        ...userChoice,
-        variants: [fileVariant],
-        addresses: {},
-        marketCapRank: null,
-      }
-    } else if (type === 'network') {
-      return { ...userChoice, variants: [fileVariant] }
-    } else if (type === 'wallet') {
-      return { ...userChoice, variants: [fileVariant] }
-    }
+    return {
+      ...userChoice,
+      variants: [fileVariant],
+      addresses: type === 'token' ? {} : undefined,
+      marketCapRank: type === 'token' ? null : undefined,
+    } as ITokenMetadata | INetworkMetadata | IWalletMetadata
   }
 
   if (rawData.length === 1) {
-    const existingMetadata = findExistingMetadata(rawData[0].id, type)
+    let existingMetadata = findExistingMetadata(rawData[0].id, type) as
+      | ITokenMetadata[]
+      | INetworkMetadata[]
+      | IWalletMetadata[]
+
     if (existingMetadata) {
-      if (!existingMetadata.variants.includes(fileVariant)) {
-        existingMetadata.variants.push(fileVariant)
+      if (!existingMetadata[0]) return undefined
+      if (!existingMetadata[0].variants.includes(fileVariant)) {
+        existingMetadata[0].variants.push(fileVariant)
       }
-      return existingMetadata
+      return existingMetadata[0]
     }
 
-    const metadata: ITokenMetadata | INetworkMetadata = {
+    const metadata: ITokenMetadata | INetworkMetadata | IWalletMetadata = {
       ...rawData[0],
       variants: [fileVariant],
-    }
+    } as ITokenMetadata | INetworkMetadata | IWalletMetadata
 
     if (type === 'token') {
       const data = await getCoinByID(rawData[0].id)
@@ -223,15 +254,25 @@ const createMetadataObj = async (
 }
 
 const updateMetadataJson = async (
-  metadata: INetworkMetadata[] | ITokenMetadata[],
+  metadata: INetworkMetadata[] | ITokenMetadata[] | IWalletMetadata[],
   type: TType,
 ) => {
-  const current = JSON.parse(
-    fs.readFileSync(
-      type === 'token' ? TOKENS_METADATA_PATH : NETWORKS_METADATA_PATH,
-      'utf-8',
-    ),
-  )
+  let jsonPath
+  switch (type) {
+    case 'token':
+      jsonPath = TOKENS_METADATA_PATH
+      break
+    case 'network':
+      jsonPath = NETWORKS_METADATA_PATH
+      break
+    case 'wallet':
+      jsonPath = WALLETS_METADATA_PATH
+      break
+    default:
+      throw new Error('Invalid type')
+  }
+
+  const current = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'))
 
   const JSONFILE = JSON.stringify(
     Array.from(
@@ -244,10 +285,7 @@ const updateMetadataJson = async (
     ),
   )
 
-  fs.writeFileSync(
-    type === 'token' ? TOKENS_METADATA_PATH : NETWORKS_METADATA_PATH,
-    JSONFILE,
-  )
+  fs.writeFileSync(jsonPath, JSONFILE)
 
   console.info(`✔ added ${type}: ${metadata.map((t) => t.id).join(', ')}`)
 }
@@ -349,6 +387,7 @@ const main = async () => {
   if (addedNetworks.length > 0)
     await updateMetadataJson(addedNetworks, 'network')
   if (addedTokens.length > 0) await updateMetadataJson(addedTokens, 'token')
+  if (addedWallets.length > 0) await updateMetadataJson(addedWallets, 'wallet')
 }
 
 await main()

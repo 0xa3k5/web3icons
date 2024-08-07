@@ -19,13 +19,13 @@ export const validateSvg = (filePath: string): boolean => {
 
   if (type === 'token' && !isUppercase(fileName)) {
     console.error(
-      `❌ ${fileName}/${variant}: Invalid file name for token. Expected uppercase.`,
+      `❌ ${fileName}/${variant}: Invalid file name for ${type}. Expected uppercase.`,
     )
     return false
   }
   if ((type === 'network' || type === 'wallet') && !isKebabCase(fileName)) {
     console.error(
-      `❌ ${fileName}/${variant}: Invalid file name for network. Expected kebab-case.`,
+      `❌ ${fileName}/${variant}: Invalid file name for ${type}. Expected kebab-case.`,
     )
     return false
   }

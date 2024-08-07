@@ -4,6 +4,7 @@ import {
   INetworkRaw,
   ITokenMetadata,
   ITokenRaw,
+  IWalletMetadata,
   IWalletRaw,
   TType,
 } from '../../types'
@@ -23,7 +24,13 @@ export const getUserInputSlug = async (fileName: string) => {
 }
 
 export const selectAMetadata = async (
-  rawMetadata: INetworkRaw[] | ITokenRaw[],
+  rawMetadata:
+    | INetworkRaw[]
+    | ITokenRaw[]
+    | IWalletRaw[]
+    | INetworkMetadata[]
+    | ITokenMetadata[]
+    | IWalletMetadata[],
   type: TType,
 ) => {
   const choices = rawMetadata.map((raw) => ({
@@ -44,12 +51,7 @@ export const selectAMetadata = async (
   })
 
   if (answer === null) {
-    const manualMetadata = await addManualMetadata(type)
-
-    return {
-      ...manualMetadata,
-      symbol: (rawMetadata[0] as ITokenRaw).symbol ?? undefined,
-    }
+    return await addManualMetadata(type)
   }
 
   return answer
@@ -113,7 +115,7 @@ export const addManualMetadata = async (
         id: id.trim(),
         name: name.trim(),
         shortname: await getShortName(),
-        native_coin_id: await getNativeCoinId(),
+        nativeCoinId: await getNativeCoinId(),
       } as INetworkRaw
     case 'wallet':
       return {

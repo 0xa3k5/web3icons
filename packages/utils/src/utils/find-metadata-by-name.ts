@@ -1,51 +1,55 @@
+import { TType, TVariant } from '../types'
 import { toKebabCase } from './naming-conventions'
 
 /**
+ * Unified function to find metadata by file name
+ * @param type Type of the metadata to find (tokens, networks, or wallets)
  * @param fileName
  * @param data
  * @returns
  */
-export const findNetworkByFileName = <
-  T extends { id: string; name: string; shortname?: string },
+export const findByFileName = <
+  T extends {
+    id: string
+    name: string
+    shortname?: string
+    symbol?: string
+    variants?: TVariant[]
+  },
 >(
+  type: TType,
   fileName: string,
   data: T[],
 ): T[] | undefined => {
-  const found = data.filter(
-    (n) =>
-      toKebabCase(n.id) === fileName ||
-      toKebabCase(n.name) === fileName ||
-      (n.shortname && toKebabCase(n.shortname) === fileName),
-  )
+  let caseConverter: (str: string) => string = (str) => str.toLowerCase()
 
-  if (found.length === 0) {
-    return undefined
+  let fields: (keyof T)[]
+
+  switch (type) {
+    case 'token':
+      fields = ['id', 'name', 'symbol']
+      caseConverter = (str) => str.toLowerCase()
+      break
+    case 'network':
+      fields = ['id', 'name', 'shortname']
+      caseConverter = (str) => str.toLowerCase()
+      break
+    case 'wallet':
+      fields = ['id', 'name']
+      caseConverter = toKebabCase
+      break
+    default:
+      throw new Error('Invalid type')
   }
 
-  return found.filter((n) => n !== undefined)
-}
-
-/**
- * @param fileName
- * @param data
- * @returns
- */
-export const findTokenByFileName = <
-  T extends { id: string; name: string; symbol: string },
->(
-  fileName: string,
-  data: T[],
-): T[] | undefined => {
-  const found = data.filter(
-    (t) =>
-      t.id.toLowerCase() === fileName.toLowerCase() ||
-      t.symbol.toLowerCase() === fileName.toLowerCase() ||
-      t.name.toLowerCase() === fileName.toLowerCase(),
+  const found = data.filter((item) =>
+    fields.some((field) => {
+      const value = item[field]
+      return value
+        ? caseConverter(value as string) === caseConverter(fileName)
+        : false
+    }),
   )
 
-  if (found.length === 0) {
-    return undefined
-  }
-
-  return found.filter((t) => t !== undefined)
+  return found.length > 0 ? found : undefined
 }
