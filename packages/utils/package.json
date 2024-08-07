@@ -4,7 +4,7 @@
   "author": "0xa3k5",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0xa3k5/token-icons.git",
+    "url": "git+https://github.com/0xa3k5/web3icons.git",
     "directory": "packages/utils"
   },
   "main": "dist/index.js",
