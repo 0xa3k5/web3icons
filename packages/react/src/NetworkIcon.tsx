@@ -29,7 +29,8 @@ const findNetwork = (network: string): INetworkMetadata | undefined => {
   const networkObj = networks.find(
     (net) =>
       net.id.toLowerCase() === toKebabCase(network) ||
-      net.name.toLowerCase() === network.toLowerCase(),
+      net.name.toLowerCase() === network.toLowerCase() ||
+      net.shortname?.toLowerCase() === network.toLowerCase(),
   )
   return networkObj
 }

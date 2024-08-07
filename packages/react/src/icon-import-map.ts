@@ -2002,6 +2002,7 @@ TokenOVR: () => import('./icons/tokens/TokenOVR'),
 };
 
 export const WALLET_ICON_IMPORT_MAP: IconImportMap  = {
+WalletLedger: () => import('./icons/wallets/WalletLedger'),
 WalletMetamask: () => import('./icons/wallets/WalletMetamask'),
 WalletVenly: () => import('./icons/wallets/WalletVenly'),
 WalletTokenPocket: () => import('./icons/wallets/WalletTokenPocket'),
