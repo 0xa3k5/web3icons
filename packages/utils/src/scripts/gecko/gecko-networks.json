@@ -346,10 +346,10 @@
     "native_coin_id": "venom"
   },
   {
-    "id": "mode",
-    "chain_identifier": 34443,
-    "name": "Mode",
-    "native_coin_id": "mode"
+    "id": "rari",
+    "chain_identifier": 1380012617,
+    "name": "Rari",
+    "native_coin_id": "weth"
   },
   {
     "id": "neon-evm",
@@ -976,12 +976,6 @@
     "native_coin_id": "ethereum"
   },
   {
-    "id": "boba",
-    "chain_identifier": 288,
-    "name": "Boba Network",
-    "native_coin_id": "ethereum"
-  },
-  {
     "id": "planq-network",
     "chain_identifier": 7070,
     "name": "Planq Network",
@@ -1014,12 +1008,6 @@
     "id": "rss3-vsl",
     "name": " RSS3 VSL",
     "native_coin_id": "rss3"
-  },
-  {
-    "id": "rari",
-    "chain_identifier": 1380012617,
-    "name": "Rari",
-    "native_coin_id": "weth"
   },
   {
     "id": "canto",
@@ -1126,14 +1114,15 @@
     "native_coin_id": "shimmer"
   },
   {
+    "id": "mode",
+    "chain_identifier": 34443,
+    "name": "Mode",
+    "native_coin_id": "mode"
+  },
+  {
     "id": "aptos",
     "name": "Aptos",
     "native_coin_id": "aptos"
-  },
-  {
-    "id": "sui",
-    "name": "Sui",
-    "native_coin_id": "sui"
   },
   {
     "id": "chihuahua",
@@ -1600,6 +1589,11 @@
     "native_coin_id": "vanar-chain"
   },
   {
+    "id": "sui",
+    "name": "Sui",
+    "native_coin_id": "sui"
+  },
+  {
     "id": "nahmii",
     "chain_identifier": 4061,
     "name": "Nahmii",
@@ -1686,5 +1680,17 @@
     "chain_identifier": 1996,
     "name": "Sanko",
     "native_coin_id": "dream-machine-token"
+  },
+  {
+    "id": "zircuit",
+    "chain_identifier": 48900,
+    "name": "Zircuit",
+    "native_coin_id": "weth"
+  },
+  {
+    "id": "boba",
+    "chain_identifier": 288,
+    "name": "Boba Network",
+    "native_coin_id": "ethereum"
   }
 ]

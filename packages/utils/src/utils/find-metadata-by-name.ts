@@ -21,6 +21,7 @@ export const findByFileName = <
   fileName: string,
   data: T[],
 ): T[] | undefined => {
+  // eslint-disable-next-line no-unused-vars
   let caseConverter: (str: string) => string = (str) => str.toLowerCase()
 
   let fields: (keyof T)[]
