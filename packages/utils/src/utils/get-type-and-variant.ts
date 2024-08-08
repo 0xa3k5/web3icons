@@ -14,7 +14,6 @@ export const getTypeAndVariant = (
   const possibleTypes: TType[] = ['token', 'network', 'wallet']
   const possibleVariants: TVariant[] = ['branded', 'mono']
 
-  console.log({ filePath })
   possibleTypes.forEach((t) => {
     possibleVariants.forEach((v) => {
       if (filePath.includes(`/${t}s/${v}/`)) {

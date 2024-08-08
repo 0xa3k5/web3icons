@@ -82,5 +82,15 @@
   { "id": "wallet-connect", "name": "wallet connect" },
   { "id": "zengo", "name": "zengo" },
   { "id": "zerion", "name": "zerion" },
-  { "id": "multis", "name": "multis" }
+  { "id": "multis", "name": "multis" },
+  { "id": "alpha-wallet", "name": "alpha wallet" },
+  { "id": "my-ether-wallet", "name": "MyEtherWallet" },
+  { "id": "pillar", "name": "Pillar" },
+  { "id": "ronin", "name": "ronin" },
+  { "id": "sender", "name": "sender" },
+  { "id": "sequence", "name": "sequence" },
+  { "id": "squads", "name": "squads" },
+  { "id": "trust-wallet", "name": "trust" },
+  { "id": "wallet-3", "name": "wallet3" },
+  { "id": "xdefi", "name": "xdefi" }
 ]

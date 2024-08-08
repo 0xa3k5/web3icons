@@ -37,5 +37,23 @@
   },
   { "id": "zengo", "name": "zengo", "variants": ["branded", "mono"] },
   { "id": "zerion", "name": "zerion", "variants": ["branded", "mono"] },
-  { "id": "multis", "name": "multis", "variants": ["mono"] }
+  { "id": "multis", "name": "multis", "variants": ["mono"] },
+  {
+    "id": "alpha-wallet",
+    "name": "alpha wallet",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "my-ether-wallet",
+    "name": "MyEtherWallet",
+    "variants": ["branded", "mono"]
+  },
+  { "id": "pillar", "name": "Pillar", "variants": ["branded", "mono"] },
+  { "id": "ronin", "name": "ronin", "variants": ["branded", "mono"] },
+  { "id": "sender", "name": "sender", "variants": ["branded", "mono"] },
+  { "id": "sequence", "name": "sequence", "variants": ["branded", "mono"] },
+  { "id": "squads", "name": "squads", "variants": ["branded", "mono"] },
+  { "id": "trust-wallet", "name": "trust", "variants": ["branded", "mono"] },
+  { "id": "wallet-3", "name": "wallet3", "variants": ["branded", "mono"] },
+  { "id": "xdefi", "name": "xdefi", "variants": ["branded", "mono"] }
 ]

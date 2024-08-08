@@ -6660,6 +6660,11 @@
     "name": "Bandwidth AI"
   },
   {
+    "id": "bane",
+    "symbol": "$bane",
+    "name": "bane"
+  },
+  {
     "id": "bank",
     "symbol": "bank",
     "name": "BANK AI"
@@ -10217,7 +10222,7 @@
   {
     "id": "bombcrypto-coin",
     "symbol": "bcoin",
-    "name": "Bomb Crypto (MATIC)"
+    "name": "Bomb Crypto (POL)"
   },
   {
     "id": "bomber-coin",
@@ -13493,11 +13498,6 @@
     "id": "cerra",
     "symbol": "cerra",
     "name": "Cerra"
-  },
-  {
-    "id": "certicos-2",
-    "symbol": "cert",
-    "name": "Certicos"
   },
   {
     "id": "certik",
@@ -19360,6 +19360,11 @@
     "name": "DeXter"
   },
   {
+    "id": "dexter-moon-bot",
+    "symbol": "dmb",
+    "name": "Dexter Moon Bot"
+  },
+  {
     "id": "dextf",
     "symbol": "dextf",
     "name": "Domani Protocol"
@@ -19598,11 +19603,6 @@
     "id": "digital-bank-of-africa",
     "symbol": "dba",
     "name": "Digital Bank of Africa"
-  },
-  {
-    "id": "digitalbay",
-    "symbol": "dbc",
-    "name": "DigitalBay"
   },
   {
     "id": "digitalbits",
@@ -21283,11 +21283,6 @@
     "id": "dragonmaster-totem",
     "symbol": "totem",
     "name": "DragonMaster Totem"
-  },
-  {
-    "id": "dragon-ordinals",
-    "symbol": "drag",
-    "name": "DRAGON (Ordinals)"
   },
   {
     "id": "dragon-soul-token",
@@ -25825,11 +25820,6 @@
     "name": "Flying Avocado Cat"
   },
   {
-    "id": "flypme",
-    "symbol": "fyp",
-    "name": "FlypMe"
-  },
-  {
     "id": "fncy",
     "symbol": "fncy",
     "name": "FNCY"
@@ -28965,6 +28955,11 @@
     "name": "Good Morning"
   },
   {
+    "id": "good-morning-3",
+    "symbol": "gm",
+    "name": "Good Morning!"
+  },
+  {
     "id": "good-old-fashioned-un-registered-security",
     "symbol": "gofurs",
     "name": "Good Old Fashioned Un Registered Security"
@@ -29698,6 +29693,11 @@
     "id": "grug",
     "symbol": "grug",
     "name": "GRUG"
+  },
+  {
+    "id": "grumpie",
+    "symbol": "grump",
+    "name": "Grumpie"
   },
   {
     "id": "gsenetwork",
@@ -31462,11 +31462,6 @@
   {
     "id": "homer",
     "symbol": "simpson",
-    "name": "Homer"
-  },
-  {
-    "id": "homer-2",
-    "symbol": "simpson 2.0",
     "name": "Homer"
   },
   {
@@ -34200,6 +34195,11 @@
     "name": "Jerry Inu"
   },
   {
+    "id": "jerrywifhat",
+    "symbol": "jwif",
+    "name": "Jerrywifhat"
+  },
+  {
     "id": "jester",
     "symbol": "jest",
     "name": "Jester"
@@ -36332,7 +36332,7 @@
   {
     "id": "kucoin-bridged-usdt-kucoin-community-chain",
     "symbol": "usdt",
-    "name": "Kucoin Bridged USDT (KuCoin Community Chain)"
+    "name": "KCC Bridged USDT (Kucoin Community Chain)"
   },
   {
     "id": "kucoin-shares",
@@ -37288,6 +37288,36 @@
     "id": "lever",
     "symbol": "lever",
     "name": "LeverFi"
+  },
+  {
+    "id": "leveraged-cvx",
+    "symbol": "xcvx",
+    "name": "Leveraged CVX"
+  },
+  {
+    "id": "leveraged-eeth",
+    "symbol": "xeeth",
+    "name": "Leveraged eETH"
+  },
+  {
+    "id": "leveraged-ezeth",
+    "symbol": "xezeth",
+    "name": "Leveraged ezETH"
+  },
+  {
+    "id": "leveraged-frxeth",
+    "symbol": "xfrxeth",
+    "name": "Leveraged frxETH"
+  },
+  {
+    "id": "leveraged-steth",
+    "symbol": "xsteth",
+    "name": "Leveraged stETH"
+  },
+  {
+    "id": "leverage-wbtc",
+    "symbol": "xwbtc",
+    "name": "Leverage WBTC"
   },
   {
     "id": "leverj-gluon",
@@ -39793,6 +39823,11 @@
     "id": "mantle-bridged-usdt-mantle",
     "symbol": "usdt",
     "name": "Mantle Bridged USDT (Mantle)"
+  },
+  {
+    "id": "mantle-bridged-wbtc-mantle",
+    "symbol": "wbtc",
+    "name": "Mantle Bridged WBTC (Mantle)"
   },
   {
     "id": "mantle-inu",
@@ -45710,6 +45745,11 @@
     "name": "NIAO"
   },
   {
+    "id": "nib",
+    "symbol": "nib",
+    "name": "nib"
+  },
+  {
     "id": "nibiru",
     "symbol": "nibi",
     "name": "Nibiru"
@@ -46293,11 +46333,6 @@
     "id": "nostra-uno",
     "symbol": "uno",
     "name": "UNO"
-  },
-  {
-    "id": "not",
-    "symbol": "cat",
-    "name": "not"
   },
   {
     "id": "notcoin",
@@ -51863,6 +51898,11 @@
     "id": "pooh",
     "symbol": "pooh",
     "name": "POOH"
+  },
+  {
+    "id": "pooku",
+    "symbol": "$pooku",
+    "name": "Pooku"
   },
   {
     "id": "poollotto-finance",
@@ -57552,7 +57592,7 @@
   {
     "id": "senspark-matic",
     "symbol": "sen",
-    "name": "Senspark (MATIC)"
+    "name": "Senspark (POL)"
   },
   {
     "id": "sentimentai",
@@ -59010,6 +59050,11 @@
     "name": "SKYPlay"
   },
   {
+    "id": "skyra",
+    "symbol": "sky",
+    "name": "SKYRA"
+  },
+  {
     "id": "sky-raiders",
     "symbol": "sky",
     "name": "Sky Raiders"
@@ -59178,11 +59223,6 @@
     "id": "smartmall-token",
     "symbol": "smt",
     "name": "Smartmall Token"
-  },
-  {
-    "id": "smart-marketing-token",
-    "symbol": "smt",
-    "name": "Smart Marketing"
   },
   {
     "id": "smartmesh",
@@ -65412,7 +65452,7 @@
   {
     "id": "thundercore-bridged-wbtc-thundercore",
     "symbol": "tt-wbtc",
-    "name": "ThunderCore Bridged WBTC (ThunderCore)"
+    "name": "ThunderCore Bridged TT-WBTC (ThunderCore)"
   },
   {
     "id": "thunderhead-staked-flip",
@@ -67120,6 +67160,11 @@
     "name": "Tsutsuji"
   },
   {
+    "id": "tsutsuji-doge-s-sister",
+    "symbol": "tsuji",
+    "name": "Tsutsuji Doge's Sister"
+  },
+  {
     "id": "ttcoin",
     "symbol": "tc",
     "name": "TTcoin"
@@ -67948,6 +67993,11 @@
     "id": "universal-basic-income",
     "symbol": "ubi",
     "name": "Universal Basic Income"
+  },
+  {
+    "id": "universal-btc",
+    "symbol": "unibtc",
+    "name": "Universal BTC"
   },
   {
     "id": "universal-contact",
@@ -71530,11 +71580,6 @@
     "name": "Wormhole"
   },
   {
-    "id": "wormz",
-    "symbol": "wormz",
-    "name": "WORMZ"
-  },
-  {
     "id": "wortheum",
     "symbol": "worth",
     "name": "Wortheum"
@@ -71798,6 +71843,11 @@
     "id": "wrapped-dmt",
     "symbol": "wdmt",
     "name": "Wrapped DMT"
+  },
+  {
+    "id": "wrapped-dog",
+    "symbol": "wdog",
+    "name": "Wrapped DOG"
   },
   {
     "id": "wrapped-eeth",
@@ -72702,7 +72752,7 @@
   {
     "id": "xdefi",
     "symbol": "xdefi",
-    "name": "Ctrl"
+    "name": "XDEFI"
   },
   {
     "id": "xdoge",

@@ -2,7 +2,7 @@
 
 # Web3 Icons
 
-![Tokens](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=tokens&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/core/src/metadata/tokens.json) ![Networks](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=networks&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/core/src/metadata/networks.json)  ![Wallets](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=wallets&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/core/src/metadata/wallets.json) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Freact) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Fcore?style=flat&label=%40web3icons%2Fcore)
+![Tokens](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=tokens&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/core/src/metadata/tokens.json) ![Networks](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=networks&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/core/src/metadata/networks.json) ![Wallets](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=wallets&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/core/src/metadata/wallets.json) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Freact) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Fcore?style=flat&label=%40web3icons%2Fcore)
 
 _(previously named token-icons)_
 
@@ -13,7 +13,6 @@ Web3 Icons is the most comprehensive and up-to-date source for tokens, coins, ne
 - `variant` refers to `mono` and `branded` (not every icon comes with both variants, but vast majority does.)
 
 > Find the data table of all supported icons [here](https://github.com/0xa3k5/web3icons/blob/main/docs/icons.md)
-
 
 ### What's New
 
@@ -69,8 +68,8 @@ bun i @web3icons/core @web3icons/react
 
 There are two main ways to use any icon your project needs in a React environment. You can individually import the components or you can import the dynamic component for each `type` of the icons.
 
-1. [Using Individual React Components](https://github.com/0xa3k5/web3icons?tab=readme-ov-file#using-individual-components)
-2. [Using Dynamic Components](https://github.com/0xa3k5/web3icons?tab=readme-ov-file#using-dynamic-components)
+1. [Using Individual React Components](#using-individual-components)
+2. [Using Dynamic Components](#using-dynamic-components)
    1. `<TokenIcon />`
    2. `<NetworkIcon />`
    3. `<WalletIcon />`
@@ -130,14 +129,30 @@ const App = () => {
       </div>
       <div>
         {/* Network Icons */}
-        <NetworkEthereum size={64} variant="branded" className="my-custom-class" />
-        <NetworkAvalanche size={64} variant="branded" className="my-custom-class" />
-        <NetworkBinanceSmartChain size={64} variant="branded" className="my-custom-class"/>
+        <NetworkEthereum
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
+        <NetworkAvalanche
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
+        <NetworkBinanceSmartChain
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
       </div>
       <div>
         {/* Wallet Icons */}
         <WalletLedger size={64} variant="branded" className="my-custom-class" />
-        <WalletMetamask size={64} variant="branded" className="my-custom-class" />
+        <WalletMetamask
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
         <WalletSafe size={64} variant="branded" className="my-custom-class" />
       </div>
     </>
@@ -211,7 +226,6 @@ import { NetworkIcon } from '@web3icons/react'
 
 `<WalletIcon />` tries to find a match comparing the passed `name` value with the `id` or `name` from the [`wallets.json`](https://github.com/0xa3k5/web3icons/blob/main/packages/core/src/metadata/wallets.json)
 
-
 ```jsx
 import { WalletIcon } from '@web3icons/react'
 
@@ -274,7 +288,9 @@ const IconDisplay = () => {
   return (
     <div>
       <img src={svgs.tokens.brandedETH} alt="Ethereum Branded Token Icon" />
-      <img src={svgs.networks.brandedEthereum} alt="Ethereum Branded Network Icon"
+      <img
+        src={svgs.networks.brandedEthereum}
+        alt="Ethereum Branded Network Icon"
       />
     </div>
   )

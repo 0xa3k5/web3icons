@@ -30,6 +30,7 @@ const generateWalletsTable = (): string => {
     tableContent += `| ${wallet.id} | ${wallet.name} | ${brandedCheck} | ${monoCheck} |\n`
   })
 
+  console.log('wallets', wallets.length)
   totalWallets = wallets.length
   return tableContent
 }
@@ -48,6 +49,7 @@ const generateNetworksTable = (): string => {
     tableContent += `| ${network.id} | ${network.name} | ${brandedCheck} | ${monoCheck} |\n`
   })
 
+  console.log('networks', networks.length)
   totalNetworks = networks.length
   return tableContent
 }
@@ -66,22 +68,23 @@ const generateTokensTable = (): string => {
     tableContent += `| ${token.name} | ${token.symbol} | ${brandedCheck} | ${monoCheck} |\n`
   })
 
+  console.log('tokens', tokens.length)
   totalTokens = tokens.length
   return tableContent
 }
 
-const PERMA_LINK = 'https://github.com/0xa3k5/web3icons/blob/main/docs/icons.md'
+const walletsTable = generateWalletsTable()
+const networksTable = generateNetworksTable()
+const tokensTable = generateTokensTable()
 
 const iconsMd =
   `jump to section:\n
-  - [wallets (${totalWallets})](${PERMA_LINK}#wallets)\n
-  - [networks (${totalNetworks})](${PERMA_LINK}#networks)\n
-  - [tokens (${totalTokens})](${PERMA_LINK}#tokens)\n\n` +
-  generateWalletsTable() +
-  `\n\n` +
-  generateNetworksTable() +
-  `\n\n` +
-  generateTokensTable()
+  - [wallets (${totalWallets})](#wallets)
+  - [networks (${totalNetworks})](#networks)
+  - [tokens (${totalTokens})](#tokens)\n\n` +
+  `${walletsTable}\n\n` +
+  `${networksTable}\n\n` +
+  `${tokensTable}`
 
 fs.writeFileSync(outputFilePath, iconsMd)
 console.log(
