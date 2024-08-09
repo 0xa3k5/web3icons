@@ -92,5 +92,6 @@
   { "id": "squads", "name": "squads" },
   { "id": "trust-wallet", "name": "trust" },
   { "id": "wallet-3", "name": "wallet3" },
-  { "id": "xdefi", "name": "xdefi" }
+  { "id": "xdefi", "name": "xdefi" },
+  { "id": "clave", "name": "clave" }
 ]

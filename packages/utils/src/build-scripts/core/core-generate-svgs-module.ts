@@ -18,43 +18,43 @@ const readSvgFilesFromDir = (dirPath: string) => {
 
 export function generateSvgModule() {
   let fileContent = '/* Generated */\n'
-  let tokensObjectContent = '\nexport const svgs = {\n  tokens: {\n'
-  let networksObjectContent = '  },\n  networks: {\n'
-  let walletsObjectContent = '  },\n  wallets: {\n'
+  let svgObjectContent = 'export const svgs = {\n'
+
+  const initializeObjectContent = () => {
+    return {
+      mono: '',
+      branded: '',
+    }
+  }
 
   const processDirectory = (dirPath: string, type: TType) => {
+    const typeObjectContent = initializeObjectContent()
+
     ;['branded', 'mono'].forEach((variant) => {
       const svgFiles = readSvgFilesFromDir(path.join(dirPath, variant))
 
       svgFiles.forEach((svgFile) => {
-        const variableName = kebabToPascalCase(`${variant}-${svgFile}`)
+        const variableName = kebabToPascalCase(svgFile)
         const variableTypeAbbr = type.slice(0, 1).toUpperCase() // N (networks), T (tokens), W (wallets)
-        fileContent += `import ${variableTypeAbbr}${variableName} from './svgs/${type}/${variant}/${svgFile}.svg';\n`
+        const importName = `${variableTypeAbbr}${variant.charAt(0).toUpperCase() + variant.slice(1)}${variableName}`
 
-        const objectContent = `${variableName}: ${variableTypeAbbr}${variableName},\n`
-        if (type === 'token') {
-          tokensObjectContent += objectContent
-        } else if (type === 'network') {
-          networksObjectContent += objectContent
-        } else if (type === 'wallet') {
-          walletsObjectContent += objectContent
-        }
+        fileContent += `import ${importName} from '../dist/svgs/${type}s/${variant}/${svgFile}.svg';\n`
+
+        const objectContent = `      '${svgFile}': ${importName},\n`
+        typeObjectContent[variant as 'mono' | 'branded'] += objectContent
       })
     })
+
+    return `  ${type}s: {\n    mono: {\n${typeObjectContent.mono}    },\n    branded: {\n${typeObjectContent.branded}    }\n  },\n`
   }
 
-  processDirectory(SVG_TOKENS_OUT_DIR, 'token')
-  processDirectory(SVG_NETWORKS_OUT_DIR, 'network')
-  processDirectory(SVG_WALLETS_OUT_DIR, 'wallet')
+  svgObjectContent += processDirectory(SVG_TOKENS_OUT_DIR, 'token')
+  svgObjectContent += processDirectory(SVG_NETWORKS_OUT_DIR, 'network')
+  svgObjectContent += processDirectory(SVG_WALLETS_OUT_DIR, 'wallet')
 
-  fs.writeFileSync(
-    CORE_SVG_MODULE_PATH,
-    fileContent +
-      tokensObjectContent +
-      networksObjectContent +
-      walletsObjectContent +
-      '  }\n};\n',
-  )
+  svgObjectContent += '};\n'
+
+  fs.writeFileSync(CORE_SVG_MODULE_PATH, fileContent + svgObjectContent)
 
   console.log('✓ Generated: svgs module')
 }

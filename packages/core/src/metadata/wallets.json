@@ -55,5 +55,6 @@
   { "id": "squads", "name": "squads", "variants": ["branded", "mono"] },
   { "id": "trust-wallet", "name": "trust", "variants": ["branded", "mono"] },
   { "id": "wallet-3", "name": "wallet3", "variants": ["branded", "mono"] },
-  { "id": "xdefi", "name": "xdefi", "variants": ["branded", "mono"] }
+  { "id": "xdefi", "name": "xdefi", "variants": ["branded", "mono"] },
+  { "id": "clave", "name": "clave", "variants": ["branded", "mono"] }
 ]
