@@ -28,7 +28,8 @@
     ".": "./dist/index.js",
     "./metadata": "./dist/metadata/index.js",
     "./svgs/tokens/*": "./dist/svgs/tokens/*",
-    "./svgs/networks/*": "./dist/svgs/networks/*"
+    "./svgs/networks/*": "./dist/svgs/networks/*",
+    "./svgs/wallets/*": "./dist/svgs/wallets/*"
   },
   "sideEffects": false,
   "repository": {
