@@ -23,7 +23,7 @@ const createExports = (
   return svgFiles
     .map((file) => {
       const svgName = file.replace('.svg', '')
-      return `export { default as ${kebabToCamel(`${type}-${variant}-${svgName}`)} } from '../dist/svgs/${type}/${variant}/${file}';\n`
+      return `export { default as ${kebabToCamel(`${type}-${variant}-${svgName}`)} } from '../dist/svgs/${type}s/${variant}/${file}';\n`
     })
     .join('')
 }
