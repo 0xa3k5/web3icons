@@ -3,33 +3,13 @@ import { WalletIconProps } from './types'
 import { WALLET_ICON_IMPORT_MAP } from './icon-import-map'
 import { wallets } from '@web3icons/core/metadata'
 import { IWalletMetadata } from '@web3icons/core'
-
-const toPascalCase = (str: string): string => {
-  const words = str.match(/[a-z]+/gi) || []
-  return words
-    .map(
-      (word) => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase(),
-    )
-    .join('')
-}
-
-const toKebabCase = (str: string): string => {
-  return str
-    .split(' ')
-    .map((part, index) => {
-      if (index === 0) {
-        return part
-      }
-      return part.charAt(0).toLowerCase() + part.slice(1)
-    })
-    .join('')
-}
+import { toKebabCase, toPascalCase } from './naming-conventions'
 
 const findWallet = (wallet: string): IWalletMetadata | undefined => {
   const walletObj = wallets.find(
-    (net) =>
-      net.id.toLowerCase() === toKebabCase(wallet) ||
-      net.name.toLowerCase() === wallet.toLowerCase(),
+    (w) =>
+      w.id.toLowerCase() === toKebabCase(wallet) ||
+      w.name.toLowerCase() === wallet.toLowerCase(),
   )
   return walletObj
 }
@@ -46,7 +26,6 @@ const DynamicIconLoader = forwardRef<SVGSVGElement, WalletIconProps>(
       const loadIcon = async () => {
         const matchedWallet = findWallet(name ?? id)
         if (!matchedWallet) {
-          console.error(`Network not found: ${name ?? id}`)
           return
         }
 

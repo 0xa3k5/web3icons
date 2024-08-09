@@ -3,27 +3,7 @@ import { NetworkIconProps } from './types'
 import { NETWORK_ICON_IMPORT_MAP } from './icon-import-map'
 import { networks } from '@web3icons/core/metadata'
 import { INetworkMetadata } from '@web3icons/core'
-
-const toPascalCase = (str: string): string => {
-  const words = str.match(/[a-z]+/gi) || []
-  return words
-    .map(
-      (word) => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase(),
-    )
-    .join('')
-}
-
-const toKebabCase = (str: string): string => {
-  return str
-    .split(' ')
-    .map((part, index) => {
-      if (index === 0) {
-        return part
-      }
-      return part.charAt(0).toLowerCase() + part.slice(1)
-    })
-    .join('')
-}
+import { toKebabCase, toPascalCase } from './naming-conventions'
 
 const findNetwork = (network: string): INetworkMetadata | undefined => {
   const networkObj = networks.find(
