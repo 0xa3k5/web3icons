@@ -1,5 +1,11 @@
-import { INetworkMetadata, ITokenMetadata } from '@web3icons/core'
-import { networks, tokens } from '@web3icons/core/metadata'
+import {
+  INetworkMetadata,
+  ITokenMetadata,
+  IWalletMetadata,
+  TVariant,
+  TType,
+} from '@web3icons/core'
+import { networks, tokens, wallets } from '@web3icons/core/metadata'
 
 const groupedNetworks: Record<string, INetworkMetadata[]> = {}
 
@@ -27,6 +33,17 @@ tokens.forEach((token) => {
   })
 })
 
+const groupedWallets: Record<string, IWalletMetadata[]> = {}
+
+wallets.forEach((wallet) => {
+  wallet.variants.forEach((variant) => {
+    if (!groupedWallets[variant]) {
+      groupedWallets[variant] = []
+    }
+    groupedWallets[variant]?.push(wallet)
+  })
+})
+
 // group by variants
 export const filterAndSortIcons = ({
   variant,
@@ -35,9 +52,9 @@ export const filterAndSortIcons = ({
   nextBatchIndex,
   perPage,
 }: {
-  variant: 'mono' | 'branded'
+  variant: TVariant
   searchTerm: string
-  type: 'tokens' | 'networks'
+  type: TType
   nextBatchIndex: number
   perPage: number
 }) => {
@@ -49,17 +66,26 @@ export const filterAndSortIcons = ({
 
   const filteredTokens = groupedTokens[variant]?.filter(
     (token) =>
-      (token.variants.includes(variant) &&
-        token.symbol.toLowerCase().includes(searchTerm.toLowerCase())) ||
+      token.symbol.toLowerCase().includes(searchTerm.toLowerCase()) ||
       token.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       token.id.toLowerCase().includes(searchTerm.toLowerCase()),
   )
 
-  if (type === 'tokens' && filteredTokens) {
+  const filteredWalletIcons = groupedWallets[variant]?.filter(
+    (wallet) =>
+      wallet.id.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      wallet.name.toLowerCase().includes(searchTerm.toLowerCase()),
+  )
+
+  if (type === 'token' && filteredTokens) {
     return filteredTokens.slice(0, nextBatchIndex + perPage)
   }
 
-  if (type === 'networks' && filteredNetworkIcons) {
+  if (type === 'network' && filteredNetworkIcons) {
     return filteredNetworkIcons.slice(0, nextBatchIndex + perPage)
+  }
+
+  if (type === 'wallet' && filteredWalletIcons) {
+    return filteredWalletIcons.slice(0, nextBatchIndex + perPage)
   }
 }

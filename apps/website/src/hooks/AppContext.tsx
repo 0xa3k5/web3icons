@@ -6,23 +6,30 @@ import React, {
   ReactNode,
   useEffect,
 } from 'react'
-import { INetworkMetadata, ITokenMetadata } from '@web3icons/core'
+import {
+  INetworkMetadata,
+  ITokenMetadata,
+  IWalletMetadata,
+  TType,
+  TVariant,
+} from '@web3icons/core'
 import { filterAndSortIcons } from '../utils'
 
 export interface AppContextType {
-  type: 'tokens' | 'networks'
-  setType: React.Dispatch<React.SetStateAction<'tokens' | 'networks'>>
-  icons: ITokenMetadata[] | INetworkMetadata[]
+  type: TType
+  setType: React.Dispatch<React.SetStateAction<TType>>
+  icons: ITokenMetadata[] | INetworkMetadata[] | IWalletMetadata[]
   searchTerm: string
   setSearchTerm: React.Dispatch<React.SetStateAction<string>>
-  variant: 'mono' | 'branded'
-  setVariant: React.Dispatch<React.SetStateAction<'mono' | 'branded'>>
+  variant: TVariant
+  setVariant: React.Dispatch<React.SetStateAction<TVariant>>
   size: number
   setSize: React.Dispatch<React.SetStateAction<number>>
   color: string
   setColor: React.Dispatch<React.SetStateAction<string>>
-  selectedIcons: string[]
-  setSelectedIcons: React.Dispatch<React.SetStateAction<string[]>>
+  selectedIcons: (ITokenMetadata | INetworkMetadata | IWalletMetadata)[]
+  //prettier-ignore
+  setSelectedIcons: React.Dispatch<React.SetStateAction<(ITokenMetadata | INetworkMetadata | IWalletMetadata)[]>>
   loadMoreIcons: () => void
 }
 
@@ -35,16 +42,16 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
   children,
 }: AppContextProviderProps) => {
   const PER_PAGE = 96
-  const [type, setType] = useState<'tokens' | 'networks'>('tokens')
-  const [variant, setVariant] = useState<'mono' | 'branded'>('mono')
+  const [type, setType] = useState<TType>('token')
+  const [variant, setVariant] = useState<TVariant>('mono')
   const [size, setSize] = useState(64)
   const [color, setColor] = useState('#FFFFFF')
   const [searchTerm, setSearchTerm] = useState('')
-  const [selectedIcons, setSelectedIcons] = useState<string[]>([])
   const [nextBatchIndex, setNextBatchIndex] = useState(0)
-  const [shownIcons, setShownIcons] = useState<
-    ITokenMetadata[] | INetworkMetadata[]
-  >([])
+  // prettier-ignore
+  const [shownIcons, setShownIcons] = useState<(ITokenMetadata | INetworkMetadata | IWalletMetadata)[]>([])
+  // prettier-ignore
+  const [selectedIcons, setSelectedIcons] = useState<(ITokenMetadata | INetworkMetadata | IWalletMetadata)[]>([])
 
   const loadMoreIcons = () => {
     setShownIcons(

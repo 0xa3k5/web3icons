@@ -2,7 +2,6 @@
 import { ControlBar, IconCard, ActionBar } from '../components'
 import Logo from '../components/Logo'
 import { useAppContext } from '../hooks'
-import { INetworkMetadata, ITokenMetadata } from '@web3icons/core'
 
 const INSTALL_SNIPPET = `npm i @web3icons/core @web3icons/react`
 const links = [
@@ -25,7 +24,7 @@ const links = [
 ]
 
 export default function Home() {
-  const { icons, selectedIcons, loadMoreIcons, type } = useAppContext()
+  const { icons, selectedIcons, loadMoreIcons } = useAppContext()
 
   return (
     <main className="container mx-auto flex h-screen flex-col gap-4 p-4 font-mono sm:px-8 sm:py-16 md:gap-16">
@@ -55,7 +54,7 @@ export default function Home() {
           cryptocurrency token & coin logos as icon format. More than 2,500
           icons are ready as optimized SVGs as well as React components.
         </span>
-        <code className="inline-flex w-fit items-center gap-4 rounded-md border border-gray-lightest p-4 text-sm text-white">
+        <code className="flex w-fit items-center gap-4 rounded-md border border-gray-lightest p-4 text-sm text-white">
           <span className="flex gap-4">{INSTALL_SNIPPET}</span>
           <button
             type="button"
@@ -86,17 +85,7 @@ export default function Home() {
           <ControlBar />
           <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
             {icons.map((icon) => {
-              return (
-                <IconCard
-                  key={icon.id}
-                  metadata={icon}
-                  label={
-                    type === 'networks'
-                      ? (icon as INetworkMetadata).name
-                      : (icon as ITokenMetadata)?.symbol?.toUpperCase() ?? ''
-                  }
-                />
-              )
+              return <IconCard key={icon.id} metadata={icon} />
             })}
             <div className="col-span-full my-8 flex justify-center">
               <button

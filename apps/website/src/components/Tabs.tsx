@@ -1,9 +1,10 @@
+import { TType } from '@web3icons/core'
 import cx from 'classnames'
 import { Fragment, useEffect, useRef, useState } from 'react'
 
 interface TabsProps {
   className?: string
-  activeTab: 'tokens' | 'networks'
+  activeTab: TType
   // eslint-disable-next-line no-unused-vars
   onChange: (value: string) => void
 }
@@ -31,7 +32,7 @@ export default function Tabs({
         'relative inline-flex w-full rounded-sm border-b border-gray-lightest pb-2',
       )}
     >
-      {['tokens', 'networks'].map((tab) => (
+      {['token', 'network', 'wallet'].map((tab) => (
         <Fragment key={tab}>
           <input
             type="radio"

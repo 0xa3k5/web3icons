@@ -3,17 +3,24 @@ import JSZip from 'jszip'
 import Tooltip from '../ActionBar/Tooltip'
 import { fetchSvgContent } from '../../utils'
 import cx from 'classnames'
+import {
+  INetworkMetadata,
+  ITokenMetadata,
+  IWalletMetadata,
+  TType,
+  TVariant,
+} from '@web3icons/core'
 
 interface DownloadButtonProps {
   className?: string
-  selectedIcons: string[]
-  type: 'tokens' | 'networks'
-  variant: 'mono' | 'branded'
+  icons: (INetworkMetadata | ITokenMetadata | IWalletMetadata)[]
+  type: TType
+  variant: TVariant
 }
 
 const DownloadButton: React.FC<PropsWithChildren<DownloadButtonProps>> = ({
   className,
-  selectedIcons,
+  icons,
   variant,
   type,
   children,
@@ -35,17 +42,12 @@ const DownloadButton: React.FC<PropsWithChildren<DownloadButtonProps>> = ({
   }
 
   const handleDownload = async () => {
-    if (selectedIcons.length === 0) return
+    if (icons.length === 0) return
 
-    if (selectedIcons.length === 1) {
+    if (icons.length === 1) {
       // Handle single SVG download
-
       try {
-        const svgContent = await fetchSvgContent(
-          selectedIcons[0]!,
-          variant,
-          type,
-        )
+        const svgContent = await fetchSvgContent(icons[0]!, variant, type)
         const blob = new Blob([svgContent], { type: 'image/svg+xml' })
         triggerDownload(blob, `${name}-${variant}.svg`)
         setTooltip({ toggle: true, text: 'downloaded!' })
@@ -56,13 +58,11 @@ const DownloadButton: React.FC<PropsWithChildren<DownloadButtonProps>> = ({
     } else {
       // Handle multiple SVGs download as ZIP
       const zip = new JSZip()
-
       try {
-        for (const i of selectedIcons) {
+        for (const i of icons) {
           const svgContent = await fetchSvgContent(i, variant, type)
           zip.file(`${i}-${variant}.svg`, svgContent)
         }
-
         const blob = await zip.generateAsync({ type: 'blob' })
         triggerDownload(blob, 'token-icons.zip')
         setTooltip({ toggle: true, text: 'downloaded!' })

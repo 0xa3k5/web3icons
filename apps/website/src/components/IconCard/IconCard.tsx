@@ -2,56 +2,62 @@ import cx from 'classnames'
 import { useEffect, useState } from 'react'
 import Checkbox from './Checkbox'
 import { useAppContext } from '../../hooks'
-import { NetworkIcon, TokenIcon } from '@web3icons/react'
+import { NetworkIcon, TokenIcon, WalletIcon } from '@web3icons/react'
 import { CopyButton, DownloadButton } from '../buttons'
-import { INetworkMetadata, ITokenMetadata } from '@web3icons/core'
+import {
+  INetworkMetadata,
+  ITokenMetadata,
+  IWalletMetadata,
+} from '@web3icons/core'
+// import { WalletIcon } from './WalletIcon'
 
 interface Props {
   className?: string
-  metadata: ITokenMetadata | INetworkMetadata
-  label: string
+  metadata: ITokenMetadata | INetworkMetadata | IWalletMetadata
 }
 
-export default function IconCard({
-  className,
-  metadata,
-  label,
-}: Props): JSX.Element {
-  const { variant, selectedIcons, setSelectedIcons, type, color, size } =
-    useAppContext()
-
+export default function IconCard({ className, metadata }: Props): JSX.Element {
+  // prettier-ignore
+  const { variant, selectedIcons, setSelectedIcons, type, color, size } = useAppContext()
   const [hover, setHover] = useState(false)
-  const symbolOrId =
-    type === 'tokens'
-      ? (metadata as ITokenMetadata).symbol
-      : (metadata as INetworkMetadata).id ?? (metadata as INetworkMetadata).name
+  const _label =
+    type === 'token'
+      ? (metadata as ITokenMetadata).symbol?.toUpperCase()
+      : metadata.name
 
-  const isSelected = selectedIcons.includes(symbolOrId)
+  const isSelected = selectedIcons.includes(metadata)
 
   const handleCheckboxChange = () => {
     setSelectedIcons((prevSelectedIcons) =>
       isSelected
         ? prevSelectedIcons.filter((icon) => icon !== icon)
-        : [...prevSelectedIcons, symbolOrId],
+        : [...prevSelectedIcons, metadata],
     )
   }
 
   const handleRender = () => {
-    if (type === 'tokens') {
+    if (type === 'token') {
       return (
         <TokenIcon
           symbol={(metadata as ITokenMetadata).symbol}
           {...{ variant, color, size }}
         />
       )
+    } else if (type === 'network') {
+      return (
+        <NetworkIcon
+          network={(metadata as INetworkMetadata).id}
+          {...{ variant, color, size }}
+        />
+      )
+    } else if (type === 'wallet') {
+      return (
+        <WalletIcon
+          id={(metadata as IWalletMetadata).id}
+          {...{ variant, color, size }}
+        />
+      )
     }
-
-    return (
-      <NetworkIcon
-        network={(metadata as INetworkMetadata).id}
-        {...{ variant, color, size }}
-      />
-    )
   }
 
   useEffect(() => {
@@ -60,10 +66,8 @@ export default function IconCard({
         e.preventDefault()
         setSelectedIcons((selectedIcons) => {
           return isSelected
-            ? selectedIcons.filter(
-                (selectedIcon) => selectedIcon !== symbolOrId,
-              )
-            : [...selectedIcons, symbolOrId]
+            ? selectedIcons.filter((selectedIcon) => selectedIcon !== metadata)
+            : [...selectedIcons, metadata]
         })
       }
     }
@@ -74,7 +78,7 @@ export default function IconCard({
 
   return (
     <label
-      id={symbolOrId}
+      id={metadata.id}
       className={cx(
         'relative flex flex-col items-center justify-center gap-4 border border-gray-lightest  p-8 duration-150',
         '[&:has(:focus-visible)]:focus-within:border-primary',
@@ -91,7 +95,7 @@ export default function IconCard({
           isSelected ? 'text-opacity-100' : 'text-opacity-60',
         )}
       >
-        <span className="text-xs">{label}</span>
+        <span className="text-xs">{_label}</span>
       </span>
       <input
         type="checkbox"
@@ -112,7 +116,7 @@ export default function IconCard({
             className="w-full rounded-sm p-[4px]"
             variant={variant}
             type={type}
-            selectedIcons={[symbolOrId]}
+            metadata={metadata}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -133,7 +137,7 @@ export default function IconCard({
             type={type}
             className="w-full rounded-sm p-[4px]"
             variant={variant}
-            selectedIcons={[symbolOrId]}
+            icons={[metadata]}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

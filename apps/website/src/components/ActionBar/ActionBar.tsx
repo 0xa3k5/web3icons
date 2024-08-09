@@ -23,7 +23,8 @@ export default function ActionBar({ className }: Props): JSX.Element {
       <CopyButton
         variant={variant}
         type={type}
-        selectedIcons={selectedIcons}
+        disabled={selectedIcons.length > 1}
+        metadata={selectedIcons[0]!} // ActionBar is only rendered when there is at least one icon selected
         className="rounded-l-full p-4"
       >
         copy svg
@@ -32,7 +33,7 @@ export default function ActionBar({ className }: Props): JSX.Element {
         type={type}
         className="p-4"
         variant={variant}
-        selectedIcons={selectedIcons}
+        icons={selectedIcons}
       >
         download
         <span className="text-primary">

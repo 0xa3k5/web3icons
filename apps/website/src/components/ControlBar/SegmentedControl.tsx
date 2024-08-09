@@ -3,7 +3,6 @@ import { Fragment, useEffect, useRef, useState } from 'react'
 
 interface SegmentedControlProps {
   className?: string
-  options: string[]
   selected: string
   // eslint-disable-next-line no-unused-vars
   onChange: (value: string) => void
@@ -11,7 +10,6 @@ interface SegmentedControlProps {
 
 export default function SegmentedControl({
   className,
-  options,
   selected,
   onChange,
 }: SegmentedControlProps): JSX.Element {
@@ -34,7 +32,7 @@ export default function SegmentedControl({
         '[&:has(:focus-visible)]:focus-within:outline  [&:has(:focus-visible)]:focus-within:outline-gray-lightest',
       )}
     >
-      {options.map((option) => (
+      {['mono', 'branded'].map((option) => (
         <Fragment key={option}>
           <input
             type="radio"
