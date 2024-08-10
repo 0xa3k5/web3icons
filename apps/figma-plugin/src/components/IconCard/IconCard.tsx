@@ -3,7 +3,6 @@ import Checkbox from './Checkbox'
 import { h } from 'preact'
 import { Dispatch, StateUpdater, useState } from 'preact/hooks'
 import { SvgIcon } from 'src/types'
-import { INetworkMetadata, ITokenMetadata } from '@web3icons/core'
 
 interface Props {
   className?: string

@@ -11,12 +11,13 @@ import {
 import { SvgIcon } from './types'
 import Tabs from './components/Tabs'
 import { filterIcons } from './utils'
+import { TVariant, TType } from '@web3icons/core'
 const PER_PAGE = 50
 
 function Plugin() {
   const [searchKey, setSearchKey] = useState('')
-  const [variant, setVariant] = useState<'mono' | 'branded'>('mono')
-  const [type, setType] = useState<'tokens' | 'networks'>('tokens')
+  const [variant, setVariant] = useState<TVariant>('mono')
+  const [type, setType] = useState<TType>('network')
   const [selectedIcons, setSelectedIcons] = useState<SvgIcon[]>([])
   const [displayedIcons, setDisplayedIcons] = useState<SvgIcon[]>([])
   const [nextBatchIndex, setNextBatchIndex] = useState<number>(0)
@@ -45,6 +46,7 @@ function Plugin() {
 
   useEffect(() => {
     const filteredIcons = filterIcons(searchKey, type, variant)
+    if (!filteredIcons) return
     setDisplayedIcons(filteredIcons.slice(0, PER_PAGE))
     setTotalFilteredIcons(filteredIcons.length)
     setNextBatchIndex(PER_PAGE)
@@ -56,10 +58,7 @@ function Plugin() {
 
   return (
     <main className="flex w-full flex-col gap-4 bg-gray-darkest p-4">
-      <Tabs
-        activeTab={type}
-        onChange={(value) => setType(value as 'tokens' | 'networks')}
-      />
+      <Tabs activeTab={type} onChange={(value) => setType(value as TType)} />
       <div className="flex gap-4">
         <SearchInput
           placeholder="Search"
@@ -79,11 +78,7 @@ function Plugin() {
             svg={svg.svg}
             selectedIcons={selectedIcons}
             setSelectedIcons={setSelectedIcons}
-            iconName={
-              svg.name.startsWith('branded')
-                ? svg.name.replace('branded', '').toLocaleLowerCase()
-                : svg.name.replace('mono', '').toLocaleLowerCase()
-            }
+            iconName={svg.name}
             className="col-span-1"
           />
         ))}

@@ -1,31 +1,3 @@
-// import cx from 'classnames'
-
-// interface Props {
-//   className?: string
-//   toggle: boolean
-//   text: string
-// }
-
-// export default function Tooltip({
-//   className,
-//   toggle,
-//   text,
-// }: Props): JSX.Element {
-//   return (
-//     <span
-//       className={cx(
-//         className,
-//         'absolute bottom-2 z-20 rounded-md border border-gray-lightest bg-gray-darkest px-4 py-2 text-xs transition-all duration-150',
-//         toggle
-//           ? 'inline-flex -translate-y-8 opacity-100 '
-//           : 'hidden translate-y-0 opacity-0',
-//       )}
-//     >
-//       {text}
-//     </span>
-//   )
-// }
-
 import cx from 'classnames'
 import { useState, useEffect } from 'react'
 
