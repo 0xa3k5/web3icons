@@ -1,7 +1,7 @@
 import cx from 'classnames'
-import { useAppContext } from '../../hooks'
-import { DownloadButton, CopyButton } from '../buttons'
-import { useSvgContent } from '../../hooks/useSvgContent'
+import { useAppContext } from '../hooks'
+import { DownloadButton, CopyButton } from './buttons'
+import { useSvgContent } from '../hooks/useSvgContent'
 
 interface Props {
   className?: string

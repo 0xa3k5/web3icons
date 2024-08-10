@@ -1,7 +1,7 @@
+'use client'
 import React, { useState, useEffect, PropsWithChildren } from 'react'
 import JSZip from 'jszip'
-import Tooltip from '../ActionBar/Tooltip'
-import cx from 'classnames'
+import Tooltip from '../Tooltip'
 import {
   INetworkMetadata,
   ITokenMetadata,
@@ -10,6 +10,7 @@ import {
   TVariant,
 } from '@web3icons/core'
 import { useSvgContent } from '../../hooks/useSvgContent'
+import Button from './Button'
 
 interface Props {
   className?: string
@@ -41,7 +42,7 @@ export default function DownloadButton({
     URL.revokeObjectURL(url)
   }
 
-  const { svgContent, error, loading } = useSvgContent({
+  const { svgContent } = useSvgContent({
     metadata: icons[0]!,
     variant,
     type,
@@ -54,7 +55,7 @@ export default function DownloadButton({
       // Handle single SVG download
       try {
         const blob = new Blob([svgContent], { type: 'image/svg+xml' })
-        triggerDownload(blob, `${icons[0]!.name}-${variant}.svg`)
+        triggerDownload(blob, `${icons[0]!.id}-${variant}.svg`)
         setTooltip({ toggle: true, text: 'downloaded!' })
       } catch (err) {
         console.error(err)
@@ -65,10 +66,10 @@ export default function DownloadButton({
       const zip = new JSZip()
       try {
         for (const i of icons) {
-          zip.file(`${i}-${variant}.svg`, svgContent)
+          zip.file(`${i.id}-${variant}.svg`, svgContent)
         }
         const blob = await zip.generateAsync({ type: 'blob' })
-        triggerDownload(blob, 'token-icons.zip')
+        triggerDownload(blob, 'web3-icons.zip')
         setTooltip({ toggle: true, text: 'downloaded!' })
       } catch (err) {
         console.error('Download error:', err)
@@ -87,32 +88,30 @@ export default function DownloadButton({
   }, [tooltip])
 
   return (
-    <div className="relative inline-flex">
-      <button
-        type="button"
+    <div className="relative inline-block">
+      <Button
         onClick={handleDownload}
-        className={cx(
-          className,
-          'flex h-full gap-2 p-2 text-white text-opacity-60 duration-150 hover:bg-gray-lightest hover:text-opacity-100',
-        )}
+        className={className}
+        icon={
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="16"
+            height="16"
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+          >
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" x2="12" y1="15" y2="3" />
+          </svg>
+        }
       >
         {children}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          width="16"
-          height="16"
-          fill="none"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-        >
-          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-          <polyline points="7 10 12 15 17 10" />
-          <line x1="12" x2="12" y1="15" y2="3" />
-        </svg>
-      </button>
+      </Button>
       {tooltip.toggle && (
         <Tooltip text={tooltip.text} toggle={tooltip.toggle} />
       )}

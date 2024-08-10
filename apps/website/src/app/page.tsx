@@ -66,7 +66,13 @@ export default function Home() {
           <ControlBar />
           <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
             {icons.map((icon) => {
-              return <IconCard key={icon.id} metadata={icon} />
+              return (
+                <IconCard
+                  key={icon.id}
+                  metadata={icon}
+                  className="col-span-1 border border-gray-lightest "
+                />
+              )
             })}
             <div className="col-span-full my-8 flex justify-center">
               <button

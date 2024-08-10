@@ -1,3 +1,4 @@
+'use client'
 import cx from 'classnames'
 import { Fragment, useEffect, useRef, useState } from 'react'
 

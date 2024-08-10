@@ -1,3 +1,5 @@
 export { default as IconCard } from './IconCard'
-export * from './ActionBar'
+export { default as Tooltip } from './Tooltip'
+export { default as ActionBar } from './ActionBar'
 export * from './ControlBar'
+export * from './buttons'
