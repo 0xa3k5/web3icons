@@ -1,5 +1,14 @@
 # @web3icons/utils
 
+## 0.0.11
+
+### Patch Changes
+
+- add wallet icon support
+  `metamask`, `alfa1`, `argent`, `backpack`, `coin98`, `coinbase`, `enkrypt`, `imtoken`, `kraken`, `lit`, `obvious`, `okx`, `phantom`, `portal`, `rabby`, `rainbow`, `safe`, `ledger`, `soul`, `token-pocket`, `trezor`, `unipass`, `venly`, `wallet-connect`, `zengo`, `zerion`, `multis`, `alpha-wallet` `my-ether-wallet`, `pillar`, `ronin`, `sender`, `sequence`, `squads`, `trust`, `wallet-3`, `xdefi`
+
+  "@web3icons/core": export TType and TTVariant
+
 ## 0.0.10
 
 ### Patch Changes

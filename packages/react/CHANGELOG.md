@@ -1,5 +1,19 @@
 # @web3icons/react
 
+## 3.2.0
+
+### Minor Changes
+
+- add wallet icon support (WalletIcon)
+  `metamask`, `alfa1`, `argent`, `backpack`, `coin98`, `coinbase`, `enkrypt`, `imtoken`, `kraken`, `lit`, `obvious`, `okx`, `phantom`, `portal`, `rabby`, `rainbow`, `safe`, `ledger`, `soul`, `token-pocket`, `trezor`, `unipass`, `venly`, `wallet-connect`, `zengo`, `zerion`, `multis`, `alpha-wallet` `my-ether-wallet`, `pillar`, `ronin`, `sender`, `sequence`, `squads`, `trust`, `wallet-3`, `xdefi`
+- improving icon matching
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/core@3.2.0
+  - @web3icons/utils@0.0.11
+
 ## 3.1.0
 
 ### Minor Changes

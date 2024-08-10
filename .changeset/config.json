@@ -7,5 +7,10 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@web3icons/website", "@web3icons/figma-plugin"]
+  "ignore": [
+    "@web3icons/website",
+    "@web3icons/figma-plugin",
+    "@web3icons/eslint-config",
+    "@web3icons/typescript-config"
+  ]
 }
