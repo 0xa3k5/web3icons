@@ -37,7 +37,7 @@ export default function ControlBar({ className }: Props): JSX.Element {
         </div>
         <div className="col-span-5 flex items-center justify-center px-4 lg:col-span-2">
           <SegmentedControl
-            className=""
+            options={['mono', 'branded']}
             selected={variant === 'mono' ? 'mono' : 'branded'}
             onChange={(value) => setVariant(value as 'mono' | 'branded')}
           />

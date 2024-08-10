@@ -1,6 +1,7 @@
 import cx from 'classnames'
 import { useAppContext } from '../../hooks'
 import { DownloadButton, CopyButton } from '../buttons'
+import { useSvgContent } from '../../hooks/useSvgContent'
 
 interface Props {
   className?: string
@@ -13,6 +14,12 @@ export default function ActionBar({ className }: Props): JSX.Element {
     setSelectedIcons([])
   }
 
+  const { svgContent, error, loading } = useSvgContent({
+    metadata: selectedIcons[0]!,
+    variant,
+    type,
+  })
+
   return (
     <div
       className={cx(
@@ -21,10 +28,8 @@ export default function ActionBar({ className }: Props): JSX.Element {
       )}
     >
       <CopyButton
-        variant={variant}
-        type={type}
         disabled={selectedIcons.length > 1}
-        metadata={selectedIcons[0]!} // ActionBar is only rendered when there is at least one icon selected
+        copyContent={svgContent}
         className="rounded-l-full p-4"
       >
         copy svg

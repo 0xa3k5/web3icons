@@ -1,5 +1,7 @@
 'use client'
 import { ControlBar, IconCard, ActionBar } from '../components'
+import CodeBlock from '../components/CodeBlock/CodeBlock'
+
 import Logo from '../components/Logo'
 import { useAppContext } from '../hooks'
 
@@ -54,31 +56,11 @@ export default function Home() {
           cryptocurrency token & coin logos as icon format. More than 2,500
           icons are ready as optimized SVGs as well as React components.
         </span>
-        <code className="flex w-fit items-center gap-4 rounded-md border border-gray-lightest p-4 text-sm text-white">
-          <span className="flex gap-4">{INSTALL_SNIPPET}</span>
-          <button
-            type="button"
-            onClick={async () => {
-              await navigator.clipboard.writeText(INSTALL_SNIPPET)
-            }}
-            className="relative flex rounded-md bg-white/10 p-2 duration-150 hover:bg-white/20 active:bg-white/10"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="16"
-              height="16"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-            >
-              <rect height="13" rx="2" ry="2" width="13" x="9" y="9" />
-              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
-            </svg>
-          </button>
-        </code>
+        <CodeBlock
+          title="install"
+          code="npm i @web3icons/core @web3icons/react"
+          language="bash"
+        />
       </div>
       <div className="relative flex w-full flex-col-reverse gap-8 md:flex-row md:gap-12">
         <div className="flex w-full flex-col gap-8">
