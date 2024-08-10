@@ -12,12 +12,6 @@
     "dev": {
       "cache": false,
       "persistent": true
-    },
-    "build:core": {
-      "dependsOn": ["^build:core"]
-    },
-    "build:react": {
-      "dependsOn": ["^build:react"]
     }
   }
 }

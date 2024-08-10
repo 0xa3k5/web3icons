@@ -29,7 +29,7 @@
     "vaul": "^0.9.1"
   },
   "devDependencies": {
-    "@web3icons/eslint-config": "workspace:*",
+    "@web3icons/eslint-config": "0.0.2",
     "classnames": "^2.5.1",
     "shiki": "^1.12.1"
   }
