@@ -23,6 +23,8 @@ export function optimizeSVGs() {
   ensureDirectoryExists(path.join(SVG_TOKENS_OUT_DIR, 'branded'))
   ensureDirectoryExists(path.join(SVG_NETWORKS_OUT_DIR, 'mono'))
   ensureDirectoryExists(path.join(SVG_NETWORKS_OUT_DIR, 'branded'))
+  ensureDirectoryExists(path.join(SVG_WALLETS_OUT_DIR, 'mono'))
+  ensureDirectoryExists(path.join(SVG_WALLETS_OUT_DIR, 'branded'))
 
   // Function to read SVGs from a directory
   const readSVGsFromDir = (dir: string): Record<TVariant, string[]> => ({
