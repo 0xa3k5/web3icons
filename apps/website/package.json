@@ -30,5 +30,6 @@
   "devDependencies": {
     "classnames": "^2.5.1",
     "@web3icons/eslint-config": "workspace:*"
+    "shiki": "^1.12.1"
   }
 }
