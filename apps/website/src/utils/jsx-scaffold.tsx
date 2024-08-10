@@ -56,7 +56,11 @@ const generateDynamicUsage = (
 ) => {
   if (type === 'token') {
     const tokenMetadata = metadata as ITokenMetadata
-    const addresses = Object.entries(tokenMetadata.addresses)
+    const addresses = tokenMetadata.addresses
+      ? Object.entries(tokenMetadata.addresses).filter(
+          ([, address]) => address !== undefined,
+        )
+      : []
 
     const additional =
       addresses.length > 0

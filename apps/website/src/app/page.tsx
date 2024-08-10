@@ -5,7 +5,6 @@ import CodeBlock from '../components/CodeBlock/CodeBlock'
 import Logo from '../components/Logo'
 import { useAppContext } from '../hooks'
 
-const INSTALL_SNIPPET = `npm i @web3icons/core @web3icons/react`
 const links = [
   {
     name: 'github',
@@ -58,7 +57,7 @@ export default function Home() {
         </span>
         <CodeBlock
           title="install"
-          code="npm i @web3icons/core @web3icons/react"
+          code="npm i @web3icons/react"
           language="bash"
         />
       </div>

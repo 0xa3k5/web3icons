@@ -34,14 +34,14 @@ export default function CodeBlock({
   }, [code, language])
 
   return (
-    <div className="group  w-full rounded-lg border border-gray-lightest bg-gray-dark font-mono text-sm">
-      <div className="sticky top-0 flex items-center justify-between border-b border-gray-lightest bg-gray-darker px-4 py-2">
+    <div className="group flex w-full flex-col overflow-hidden rounded-lg border border-gray-lightest bg-gray-dark font-mono text-sm">
+      <div className="sticky top-0 flex w-full items-center justify-between border-b border-gray-lightest bg-gray-darker px-4 py-2">
         <span>{title}</span>
         <span className="opacity-0 duration-150 group-hover:opacity-100">
           <CopyButton copyContent={code} />
         </span>
       </div>
-      <div className="max-h-64 overflow-scroll p-4">
+      <div className="h-full max-h-64 overflow-scroll p-4">
         {lines.map((line, index) => (
           <div key={index} className="flex">
             {lineNumbers ? (
