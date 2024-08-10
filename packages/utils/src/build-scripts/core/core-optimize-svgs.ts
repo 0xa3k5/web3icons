@@ -14,11 +14,13 @@ import { ensureDirectoryExists, optimizeSvg } from '../../utils'
 import { TVariant } from '../../types'
 
 export function optimizeSVGs() {
+  console.log('Optimizing SVGs...')
   // Ensure necessary directories exist
   ensureDirectoryExists(path.resolve(ROOT_CORE, 'dist'))
   ensureDirectoryExists(path.resolve(ROOT_CORE, 'dist', 'svgs'))
   ensureDirectoryExists(SVG_TOKENS_OUT_DIR)
   ensureDirectoryExists(SVG_NETWORKS_OUT_DIR)
+  ensureDirectoryExists(SVG_WALLETS_OUT_DIR)
   ensureDirectoryExists(path.join(SVG_TOKENS_OUT_DIR, 'mono'))
   ensureDirectoryExists(path.join(SVG_TOKENS_OUT_DIR, 'branded'))
   ensureDirectoryExists(path.join(SVG_NETWORKS_OUT_DIR, 'mono'))
