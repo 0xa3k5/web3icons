@@ -1,13 +1,17 @@
 {
   "name": "@web3icons/eslint-config",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.2",
   "author": "0xa3k5",
   "files": [
     "library.js",
     "next.js",
     "react-internal.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xa3k5/web3icons.git",
+    "directory": "packages/eslint-config"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
