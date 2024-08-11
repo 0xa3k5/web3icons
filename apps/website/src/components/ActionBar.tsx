@@ -24,7 +24,7 @@ export default function ActionBar({ className }: Props): JSX.Element {
   return (
     <div
       className={cx(
-        'fixed bottom-4 z-10 mx-auto flex h-14 items-center justify-between divide-x divide-gray-lightest rounded-full border border-gray-lightest bg-gray-light text-sm',
+        'fixed bottom-4 mx-auto flex h-14 items-center justify-between divide-x divide-gray-lightest rounded-full border border-gray-lightest bg-gray-light text-sm',
         className,
       )}
     >

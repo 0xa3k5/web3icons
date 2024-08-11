@@ -14,15 +14,14 @@ import {
   TVariant,
 } from '@web3icons/core'
 import { filterAndSortIcons } from '../utils'
+import { useSearchParams } from 'next/navigation'
 
 export interface AppContextType {
   type: TType
-  setType: React.Dispatch<React.SetStateAction<TType>>
   icons: ITokenMetadata[] | INetworkMetadata[] | IWalletMetadata[]
   searchTerm: string
   setSearchTerm: React.Dispatch<React.SetStateAction<string>>
   variant: TVariant
-  setVariant: React.Dispatch<React.SetStateAction<TVariant>>
   size: number
   setSize: React.Dispatch<React.SetStateAction<number>>
   color: string
@@ -42,6 +41,7 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
   children,
 }: AppContextProviderProps) => {
   const PER_PAGE = 96
+  const searchParams = useSearchParams()
   const [type, setType] = useState<TType>('token')
   const [variant, setVariant] = useState<TVariant>('mono')
   const [size, setSize] = useState(64)
@@ -82,16 +82,28 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
     )
   }, [searchTerm, variant, type])
 
+  useEffect(() => {
+    const _type = searchParams.get('type') as TType | null
+    if (_type && _type !== type) {
+      setType(_type)
+    }
+  }, [searchParams])
+
+  useEffect(() => {
+    const _variant = searchParams.get('variant') as TVariant | null
+    if (_variant && _variant !== variant) {
+      setVariant(_variant)
+    }
+  }, [searchParams])
+
   return (
     <AppContext.Provider
       value={{
         type,
-        setType,
         icons: shownIcons,
         searchTerm,
         setSearchTerm,
         variant,
-        setVariant,
         size,
         setSize,
         selectedIcons,

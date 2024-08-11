@@ -3,6 +3,8 @@ import { ControlBar, IconCard, ActionBar } from '../components'
 import CodeBlock from '../components/CodeBlock/CodeBlock'
 import { useAppContext } from '../hooks'
 import Logo from '../components/Logo'
+import { Suspense } from 'react'
+import Tabs from '../components/Tabs'
 
 const links = [
   {
@@ -48,11 +50,11 @@ export default function Home() {
         </nav>
       </div>
       <div className="flex max-w-2xl flex-col gap-4">
-        <h1 className="max-w-40 text-4xl tracking-widest">token icons</h1>
+        <h1 className="max-w-40 text-4xl tracking-widest">web3 icons</h1>
         <span className="text-white/40">
-          Token Icons is the most comprehensive and up-to-date source for
-          cryptocurrency token & coin logos as icon format. More than 2,500
-          icons are ready as optimized SVGs as well as React components.
+          Web3 Icons is the most comprehensive and up-to-date source for tokens,
+          coins, networks and wallet logos as icon format. More than 2,500 icons
+          are ready as optimized SVGs as well as React components.
         </span>
         <CodeBlock
           title="install"
@@ -62,15 +64,18 @@ export default function Home() {
       </div>
       <div className="relative flex w-full flex-col-reverse gap-8 md:flex-row md:gap-12">
         <div className="flex w-full flex-col gap-8">
+          <Tabs />
           <ControlBar />
           <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
             {icons.map((icon) => {
               return (
-                <IconCard
-                  key={icon.id}
-                  metadata={icon}
-                  className="col-span-1 border border-gray-lightest "
-                />
+                <Suspense>
+                  <IconCard
+                    key={icon.id}
+                    metadata={icon}
+                    className="col-span-1 border border-gray-lightest "
+                  />
+                </Suspense>
               )
             })}
             <div className="col-span-full my-8 flex justify-center">

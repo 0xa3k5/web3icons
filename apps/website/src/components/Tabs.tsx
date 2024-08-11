@@ -2,19 +2,21 @@
 import cx from 'classnames'
 import { TType } from '@web3icons/core'
 import { Fragment, useEffect, useRef, useState } from 'react'
+import { useRouter, useSearchParams } from 'next/navigation'
+import { useAppContext } from '../hooks'
 
 interface TabsProps {
   className?: string
-  activeTab: TType
-  // eslint-disable-next-line no-unused-vars
-  onChange: (value: string) => void
 }
 
-export default function Tabs({
-  className,
-  activeTab,
-  onChange,
-}: TabsProps): JSX.Element {
+export default function Tabs({ className }: TabsProps): JSX.Element {
+  const router = useRouter()
+  const searchParams = useSearchParams()
+  const { variant } = useAppContext()
+
+  const activeTabParam = searchParams.get('tab') as TType | null
+  const [activeTab, setActiveTab] = useState<TType>(activeTabParam || 'token')
+
   const [indicatorWidth, setIndicatorWidth] = useState(0)
   const [indicatorOffset, setIndicatorOffset] = useState(0)
   const activeTabRef = useRef<HTMLLabelElement | null>(null)
@@ -26,11 +28,18 @@ export default function Tabs({
     }
   }, [activeTab])
 
+  const handleTabChange = (value: TType) => {
+    setActiveTab(value)
+    router.replace(`?type=${value}&variant=${variant}`, {
+      scroll: false,
+    })
+  }
+
   return (
     <div
       className={cx(
         className,
-        'relative inline-flex w-full rounded-sm border-b border-gray-lightest pb-2',
+        'sticky top-0 z-[2] inline-flex w-full rounded-sm border-b border-gray-lightest bg-gray-darkest py-4',
       )}
     >
       {['token', 'network', 'wallet'].map((tab) => (
@@ -41,7 +50,7 @@ export default function Tabs({
             name="segmented-control"
             value={tab}
             checked={activeTab === tab}
-            onChange={(e) => onChange(e.target.value)}
+            onChange={() => handleTabChange(tab as TType)}
             className="sr-only"
           />
           <label

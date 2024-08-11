@@ -6,13 +6,15 @@ import { Web3Icon } from './Web3Icon'
 import { scaffoldComponent } from '../utils/jsx-scaffold'
 import { useAppContext } from '../hooks'
 import SegmentedControl from './ControlBar/SegmentedControl'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import {
   ITokenMetadata,
   INetworkMetadata,
   IWalletMetadata,
 } from '@web3icons/core'
 import { Button } from './buttons'
+
+import { useSearchParams, useRouter } from 'next/navigation'
 
 export function InfoDrawer({
   metadata,
@@ -23,8 +25,39 @@ export function InfoDrawer({
   const [selectedTab, setSelectedTab] = useState(segmentedOpts[0]!)
   const { type, variant } = useAppContext()
 
+  const router = useRouter()
+
+  const searchParams = useSearchParams()
+
+  const [isOpen, setIsOpen] = useState(false)
+
+  useEffect(() => {
+    const iconId = searchParams.get('icon')
+    if (iconId === metadata.id) {
+      setIsOpen(true)
+    }
+  }, [searchParams, metadata.id])
+
+  const handleOpen = () => {
+    router.replace(`?type=${type}&variant=${variant}&icon=${metadata.id}`, {
+      scroll: false,
+    })
+    setIsOpen(true)
+  }
+
+  const handleClose = () => {
+    setIsOpen(false)
+    router.replace(`?type=${type}&variant=${variant}`, {
+      scroll: false,
+    })
+  }
+
   return (
-    <Drawer.Root direction="bottom">
+    <Drawer.Root
+      direction="bottom"
+      open={isOpen}
+      onOpenChange={(open) => (open ? handleOpen() : handleClose())}
+    >
       <Drawer.Trigger asChild>
         <Button
           icon={
@@ -44,8 +77,8 @@ export function InfoDrawer({
         />
       </Drawer.Trigger>
       <Drawer.Portal>
-        <Drawer.Overlay className="fixed inset-0 bg-gray-darkest/80" />
-        <Drawer.Content className="fixed bottom-0 z-10  flex h-[80vh] w-full select-text justify-center md:h-[40vh]">
+        <Drawer.Overlay className="fixed inset-0 z-[5] bg-gray-darkest/80" />
+        <Drawer.Content className="fixed bottom-0 z-10 flex h-[80vh] w-full select-text justify-center md:h-[40vh] focus-visible:outline-none">
           <div className="flex w-10/12 select-text flex-col gap-4 overflow-hidden rounded-md border border-gray-lightest bg-gray p-4 md:grid md:w-2/3 md:grid-cols-6">
             <div className="flex flex-col gap-4 p-2 md:col-span-2">
               <Drawer.Title className="flex items-center gap-2">
