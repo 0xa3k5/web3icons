@@ -1,3 +1,4 @@
+'use client'
 import cx from 'classnames'
 import Slider from './Slider'
 import SegmentedControl from './SegmentedControl'

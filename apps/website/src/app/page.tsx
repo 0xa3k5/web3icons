@@ -1,14 +1,13 @@
 'use client'
 import { ControlBar, IconCard, ActionBar } from '../components'
 import CodeBlock from '../components/CodeBlock/CodeBlock'
-
-import Logo from '../components/Logo'
 import { useAppContext } from '../hooks'
+import Logo from '../components/Logo'
 
 const links = [
   {
     name: 'github',
-    href: 'https://github.com/0xa3k5/token-icons',
+    href: 'https://github.com/0xa3k5/web3icons',
   },
   {
     name: 'npmjs',

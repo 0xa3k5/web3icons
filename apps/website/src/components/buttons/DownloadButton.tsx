@@ -9,7 +9,7 @@ import {
   TType,
   TVariant,
 } from '@web3icons/core'
-import { useSvgContent } from '../../hooks/useSvgContent'
+import { useSvgContent } from '../../hooks'
 import Button from './Button'
 
 interface Props {
