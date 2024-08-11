@@ -32,7 +32,7 @@ export default function SegmentedControl({
       className={cx(
         className,
         'relative inline-flex w-fit rounded-full border border-gray-lightest bg-gray-light p-1',
-        '[&:has(:focus-visible)]:focus-within:outline  [&:has(:focus-visible)]:focus-within:outline-gray-lightest',
+        '[&:has(:focus-visible)]:focus-within:outline-none  [&:has(:focus-visible)]:focus-within:outline-gray-lightest',
       )}
     >
       {options.map((option) => (

@@ -6,7 +6,7 @@ import {
   TVariant,
 } from '@web3icons/core'
 import { TokenIcon, NetworkIcon, WalletIcon } from '@web3icons/react'
-import { useAppContext } from '../hooks/AppContext'
+import { useAppContext } from '../hooks'
 
 export const Web3Icon = ({
   metadata,

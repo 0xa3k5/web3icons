@@ -6,6 +6,7 @@ import fs from 'fs'
  */
 export const ensureDirectoryExists = (dirPath: string): void => {
   if (!fs.existsSync(dirPath)) {
+    console.log(`→ creating ${dirPath}`)
     fs.mkdirSync(dirPath)
   }
 }

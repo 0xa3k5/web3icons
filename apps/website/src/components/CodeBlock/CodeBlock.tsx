@@ -35,7 +35,7 @@ export default function CodeBlock({
   }, [code, language])
 
   return (
-    <div className="group flex w-full flex-col overflow-clip rounded-lg border border-gray-lightest bg-gray-dark font-mono text-sm">
+    <div className="group flex w-full flex-col overflow-hidden rounded-lg border border-gray-lightest bg-gray-dark font-mono text-sm">
       <div className="sticky top-0 flex w-full items-center justify-between border-b border-gray-lightest bg-gray-darker px-4 py-2">
         <span>{title}</span>
         <span className="opacity-0 duration-150 group-hover:opacity-100">

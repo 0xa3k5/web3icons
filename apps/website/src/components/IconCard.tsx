@@ -1,15 +1,14 @@
 'use client'
 import cx from 'classnames'
-import { useAppContext } from '../hooks'
+import { useAppContext, useSvgContent } from '../hooks'
 import { CopyButton, DownloadButton } from './buttons'
 import {
   INetworkMetadata,
   ITokenMetadata,
   IWalletMetadata,
 } from '@web3icons/core'
-import { useSvgContent } from '../hooks/useSvgContent'
-import { Web3Icon } from './Web3Icon'
 import { InfoDrawer } from './InfoDrawer'
+import { Web3Icon } from './Web3Icon'
 
 interface Props {
   className?: string
@@ -61,7 +60,7 @@ export default function IconCard({ className, metadata }: Props): JSX.Element {
         <span className="text-xs">{_label}</span>
       </span>
       <Checkbox checked={isSelected} onChange={handleCheckboxChange} />
-      <span className="absolute right-3 top-3 z-[5] hidden items-end gap-2 group-hover/card:flex group-focus-visible:focus-within/card:flex">
+      <span className="absolute right-3 top-3 hidden items-end gap-2 group-hover/card:flex group-focus-visible:focus-within/card:flex">
         <CopyButton
           className="w-full rounded-sm p-1"
           copyContent={svgContent}

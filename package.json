@@ -5,6 +5,8 @@
   "author": "0xa3k5",
   "scripts": {
     "build": "turbo build",
+    "build:core": "turbo run build:core && bun run lint && bun run format",
+    "build:react": "turbo run build:react && bun run lint && bun run format",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error",
@@ -16,7 +18,7 @@
   "devDependencies": {
     "@web3icons/eslint-config": "*",
     "@web3icons/typescript-config": "*",
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.3",
     "turbo": "v2.0.11"
   },
   "engines": {
@@ -28,7 +30,7 @@
     "apps/*"
   ],
   "dependencies": {
-    "@changesets/cli": "^2.27.1",
+    "@changesets/cli": "^2.27.7",
     "vercel": "latest"
   },
   "resolutions": {

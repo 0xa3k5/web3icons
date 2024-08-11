@@ -1,7 +1,8 @@
+'use client'
 import cx from 'classnames'
 import { useAppContext } from '../hooks'
 import { DownloadButton, CopyButton } from './buttons'
-import { useSvgContent } from '../hooks/useSvgContent'
+import { useSvgContent } from '../hooks'
 
 interface Props {
   className?: string
@@ -14,7 +15,7 @@ export default function ActionBar({ className }: Props): JSX.Element {
     setSelectedIcons([])
   }
 
-  const { svgContent, error, loading } = useSvgContent({
+  const { svgContent } = useSvgContent({
     metadata: selectedIcons[0]!,
     variant,
     type,
@@ -23,7 +24,7 @@ export default function ActionBar({ className }: Props): JSX.Element {
   return (
     <div
       className={cx(
-        'fixed bottom-4 z-10 mx-auto flex h-14 items-center justify-between divide-x divide-gray-lightest rounded-full border border-gray-lightest bg-gray-light text-sm',
+        'fixed bottom-4 mx-auto flex h-14 items-center justify-between divide-x divide-gray-lightest rounded-full border border-gray-lightest bg-gray-light text-sm',
         className,
       )}
     >

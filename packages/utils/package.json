@@ -36,7 +36,7 @@
     "build": "tsup --config tsup.config.js && bun run lint && bun run format",
     "pre-build:core": "bun run ./src/build-scripts/core/core.pre-build.ts",
     "pre-build:react": "bun run ./src/build-scripts/react/react.pre-build.ts",
-    "core:generate-metadata": "bun run ./src/build-scripts/core/core-generate-metadata.ts"
+    "core:generate-metadata": "bun run ./src/build-scripts/core-generate-metadata.ts"
   },
   "sideEffects": false,
   "type": "module",
