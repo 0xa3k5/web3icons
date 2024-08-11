@@ -1,5 +1,14 @@
 # @web3icons/react
 
+## 3.2.1
+
+### Patch Changes
+
+- fix build-script
+- Updated dependencies
+  - @web3icons/core@3.2.1
+  - @web3icons/utils@0.0.12
+
 ## 3.2.0
 
 ### Minor Changes
