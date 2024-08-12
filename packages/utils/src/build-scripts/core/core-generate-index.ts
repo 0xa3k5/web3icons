@@ -6,7 +6,7 @@ import {
   SVG_NETWORKS_OUT_DIR,
   SVG_WALLETS_OUT_DIR,
 } from '../../constants'
-import { kebabToCamel } from '../../utils'
+import { kebabToPascalCase } from '../../utils'
 import { TType, TVariant } from '../../types'
 
 const readSvgFilesFromDirectory = (directoryPath: string): string[] => {
@@ -23,14 +23,14 @@ const createExports = (
   return svgFiles
     .map((file) => {
       const svgName = file.replace('.svg', '')
-      return `export { default as ${kebabToCamel(`${type}-${variant}-${svgName}`)} } from '../dist/svgs/${type}s/${variant}/${file}';\n`
+      return `export { default as ${kebabToPascalCase(`${type}-${variant}-${svgName}`)} } from '../dist/svgs/${type}s/${variant}/${file}';\n`
     })
     .join('')
 }
 
 export function generateIndex() {
   let indexContent =
-    '/* Generated */\nexport { svgs } from "./svg-module";\nexport * from "./types";\n'
+    '/* Generated */\nexport { svgs } from "./svg-module";\nexport * from "./types";\nexport { tokens, networks, wallets } from "./metadata";\n'
 
   // Process branded and mono for both token and network
   indexContent += createExports(

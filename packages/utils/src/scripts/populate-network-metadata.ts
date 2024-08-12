@@ -48,6 +48,7 @@ const enrichedNetworks: INetworkMetadata[] = geckoNetworks
       name: network.name,
       shortname: network.shortname ?? undefined,
       nativeCoinId: network.native_coin_id,
+      chainId: network.chain_identifier ?? undefined,
       variants,
     }
   })
