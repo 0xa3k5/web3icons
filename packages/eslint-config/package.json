@@ -1,6 +1,7 @@
 {
   "name": "@web3icons/eslint-config",
   "version": "0.0.2",
+  "private": true,
   "author": "0xa3k5",
   "files": [
     "library.js",

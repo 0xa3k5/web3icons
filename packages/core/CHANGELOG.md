@@ -1,5 +1,79 @@
 # @web3icons/core
 
+## 3.3.0
+
+### Minor Changes
+
+- interopability issues
+- fix interoperability issues
+
+### Patch Changes
+
+-
+- patch core exports
+- interopability
+- fix metadata export from core
+- patch
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @web3icons/utils@0.1.0
+
+## 3.3.0-alpha.5
+
+### Patch Changes
+
+- interopability
+- Updated dependencies
+  - @web3icons/utils@0.1.0-alpha.5
+
+## 3.3.0-alpha.4
+
+### Patch Changes
+
+-
+- Updated dependencies
+  - @web3icons/utils@0.1.0-alpha.4
+
+## 3.3.0-alpha.3
+
+### Patch Changes
+
+- patch core exports
+- Updated dependencies
+  - @web3icons/utils@0.1.0-alpha.3
+
+## 3.3.0-alpha.2
+
+### Patch Changes
+
+- fix metadata export from core
+- Updated dependencies
+  - @web3icons/utils@0.1.0-alpha.2
+
+## 3.3.0-alpha.1
+
+### Patch Changes
+
+- patch
+- Updated dependencies
+  - @web3icons/utils@0.1.0-alpha.1
+
+## 3.3.0-alpha.0
+
+### Minor Changes
+
+- interopability issues
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/utils@0.1.0-alpha.0
+
 ## 3.2.1
 
 ### Patch Changes

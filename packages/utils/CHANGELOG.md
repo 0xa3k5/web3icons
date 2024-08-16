@@ -1,5 +1,62 @@
 # @web3icons/utils
 
+## 0.1.0
+
+### Minor Changes
+
+- interopability issues
+- fix interoperability issues
+
+### Patch Changes
+
+-
+- patch core exports
+- interopability
+- fix metadata export from core
+- patch
+
+## 0.1.0-alpha.5
+
+### Patch Changes
+
+- interopability
+
+## 0.1.0-alpha.4
+
+### Patch Changes
+
+-
+
+## 0.1.0-alpha.3
+
+### Patch Changes
+
+- patch core exports
+
+## 0.1.0-alpha.2
+
+### Patch Changes
+
+- fix metadata export from core
+
+## 0.1.0-alpha.1
+
+### Patch Changes
+
+- patch
+
+## 0.1.0-alpha.0
+
+### Minor Changes
+
+- interopability issues
+
+## 0.0.0-alpha-20240813101020
+
+### Patch Changes
+
+- rollup on core
+
 ## 0.0.12
 
 ### Patch Changes
