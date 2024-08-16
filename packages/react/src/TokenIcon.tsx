@@ -32,6 +32,7 @@ const DynamicIconLoader = forwardRef<SVGSVGElement, TokenIconProps>(
       color,
       address,
       network,
+      defaultImg,
     }: TokenIconProps,
     ref,
   ): ReactElement | null => {
@@ -44,7 +45,15 @@ const DynamicIconLoader = forwardRef<SVGSVGElement, TokenIconProps>(
         const tokenData = findToken(symbol, address, network)
 
         if (!tokenData) {
-          setIconComponent(null)
+          setIconComponent(
+            <img
+              ref={ref as React.RefObject<HTMLImageElement>}
+              src={defaultImg}
+              alt="default icon"
+              className={className}
+              style={{ width: size, height: size }}
+            />,
+          )
           return
         }
 
@@ -66,14 +75,40 @@ const DynamicIconLoader = forwardRef<SVGSVGElement, TokenIconProps>(
             )
           } catch (error) {
             console.error(`Error loading icon: ${iconName}`, error)
-            setIconComponent(null)
+            setIconComponent(
+              <img
+                ref={ref as React.RefObject<HTMLImageElement>}
+                src={defaultImg}
+                alt="default icon"
+                className={className}
+                style={{ width: size, height: size }}
+              />,
+            )
           }
         } else {
-          setIconComponent(null)
+          setIconComponent(
+            <img
+              ref={ref as React.RefObject<HTMLImageElement>}
+              src={defaultImg}
+              alt="defult icon"
+              className={className}
+              style={{ width: size, height: size }}
+            />,
+          )
         }
       }
       loadIcon()
-    }, [symbol, address, network, ref, size, className, variant, color])
+    }, [
+      symbol,
+      address,
+      network,
+      ref,
+      size,
+      className,
+      variant,
+      color,
+      defaultImg,
+    ])
 
     return IconComponent
   },
@@ -81,7 +116,16 @@ const DynamicIconLoader = forwardRef<SVGSVGElement, TokenIconProps>(
 
 export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
   (
-    { symbol, size, className, variant = 'mono', color, address, network },
+    {
+      symbol,
+      size,
+      className,
+      variant = 'mono',
+      color,
+      address,
+      network,
+      defaultImg,
+    },
     ref,
   ) => {
     const props = {
@@ -90,6 +134,7 @@ export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
       variant,
       className,
       ref,
+      defaultImg,
     }
 
     if (symbol) {

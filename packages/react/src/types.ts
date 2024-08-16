@@ -9,6 +9,7 @@ export interface IconComponentProps extends SVGProps<SVGSVGElement> {
   size?: number | string
   color?: string
   className?: string
+  defaultImg?: string
 }
 
 export type TokenIconProps = IconComponentProps &
