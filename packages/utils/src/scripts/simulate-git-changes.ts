@@ -23,8 +23,8 @@ const formatIconsForMessage = (icons: string) => {
 }
 
 const simulateGitAndChangeset = () => {
-  const newTokenIcons = getNewIcons('packages/core/src/raw-svgs/tokens/')
-  const newNetworkIcons = getNewIcons('packages/core/src/raw-svgs/networks/')
+  const newTokenIcons = getNewIcons('packages/core/src/svgs/tokens/')
+  const newNetworkIcons = getNewIcons('packages/core/src/svgs/networks/')
 
   console.log('New Token Icons:', newTokenIcons)
   console.log('New Network Icons:', newNetworkIcons)

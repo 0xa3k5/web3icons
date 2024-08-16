@@ -5,6 +5,7 @@ import {
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
   SVG_WALLETS_OUT_DIR,
+  ROOT_CORE,
 } from '../../constants'
 import { kebabToPascalCase } from '../../utils'
 import { TType, TVariant } from '../../types'
@@ -23,47 +24,50 @@ const createExports = (
   return svgFiles
     .map((file) => {
       const svgName = file.replace('.svg', '')
-      return `export { default as ${kebabToPascalCase(`${type}-${variant}-${svgName}`)} } from '../dist/svgs/${type}s/${variant}/${file}';\n`
+      return `export * as ${kebabToPascalCase(`${type}-${variant}-${svgName}`)} from './${type}s/${variant}/${file}';\n`
     })
     .join('')
 }
 
 export function generateIndex() {
-  let indexContent =
-    '/* Generated */\nexport { svgs } from "./svg-module";\nexport * from "./types";\nexport { tokens, networks, wallets } from "./metadata";\n'
+  const indexContent =
+    '/* Generated */\nexport { svgs } from "./svg-module";\nexport * from "./types";\nexport * from "./metadata";\nexport * from "./svgs";\n'
+
+  let svgsIndexContent = ''
 
   // Process branded and mono for both token and network
-  indexContent += createExports(
+  svgsIndexContent += createExports(
     readSvgFilesFromDirectory(path.join(SVG_TOKENS_OUT_DIR, 'branded')),
     'token',
     'branded',
   )
-  indexContent += createExports(
+  svgsIndexContent += createExports(
     readSvgFilesFromDirectory(path.join(SVG_TOKENS_OUT_DIR, 'mono')),
     'token',
     'mono',
   )
-  indexContent += createExports(
+  svgsIndexContent += createExports(
     readSvgFilesFromDirectory(path.join(SVG_NETWORKS_OUT_DIR, 'branded')),
     'network',
     'branded',
   )
-  indexContent += createExports(
+  svgsIndexContent += createExports(
     readSvgFilesFromDirectory(path.join(SVG_NETWORKS_OUT_DIR, 'mono')),
     'network',
     'mono',
   )
-  indexContent += createExports(
+  svgsIndexContent += createExports(
     readSvgFilesFromDirectory(path.join(SVG_WALLETS_OUT_DIR, 'branded')),
     'wallet',
     'branded',
   )
-  indexContent += createExports(
+  svgsIndexContent += createExports(
     readSvgFilesFromDirectory(path.join(SVG_WALLETS_OUT_DIR, 'mono')),
     'wallet',
     'mono',
   )
 
   fs.writeFileSync(CORE_INDEX_PATH, indexContent)
+  fs.writeFileSync(path.join(ROOT_CORE, 'src/svgs/index.ts'), svgsIndexContent)
   console.log('✓ Generated: index file at src/index.ts')
 }
