@@ -1,5 +1,104 @@
 # @web3icons/react
 
+## 3.3.1
+
+### Patch Changes
+
+- svg.d.ts
+- Updated dependencies
+  - @web3icons/utils@0.1.1
+  - @web3icons/core@3.3.1
+
+## 3.3.0
+
+### Minor Changes
+
+- interopability issues
+- fix interoperability issues
+
+### Patch Changes
+
+-
+- patch core exports
+- interopability
+- fix metadata export from core
+- patch
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @web3icons/utils@0.1.0
+  - @web3icons/core@3.3.0
+
+## 3.3.0-alpha.5
+
+### Patch Changes
+
+- interopability
+- Updated dependencies
+  - @web3icons/utils@0.1.0-alpha.5
+  - @web3icons/core@3.3.0-alpha.5
+
+## 3.3.0-alpha.4
+
+### Patch Changes
+
+-
+- Updated dependencies
+  - @web3icons/utils@0.1.0-alpha.4
+  - @web3icons/core@3.3.0-alpha.4
+
+## 3.3.0-alpha.3
+
+### Patch Changes
+
+- patch core exports
+- Updated dependencies
+  - @web3icons/utils@0.1.0-alpha.3
+  - @web3icons/core@3.3.0-alpha.3
+
+## 3.3.0-alpha.2
+
+### Patch Changes
+
+- fix metadata export from core
+- Updated dependencies
+  - @web3icons/utils@0.1.0-alpha.2
+  - @web3icons/core@3.3.0-alpha.2
+
+## 3.3.0-alpha.1
+
+### Patch Changes
+
+- patch
+- Updated dependencies
+  - @web3icons/utils@0.1.0-alpha.1
+  - @web3icons/core@3.3.0-alpha.1
+
+## 3.3.0-alpha.0
+
+### Minor Changes
+
+- interopability issues
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/utils@0.1.0-alpha.0
+  - @web3icons/core@3.3.0-alpha.0
+
+## 0.0.0-alpha-20240813101020
+
+### Patch Changes
+
+- rollup on core
+- Updated dependencies
+  - @web3icons/utils@0.0.0-alpha-20240813101020
+  - @web3icons/core@0.0.0-alpha-20240813101020
+
 ## 3.2.1
 
 ### Patch Changes

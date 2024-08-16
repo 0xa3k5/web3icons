@@ -83,7 +83,7 @@ If you'd like to contribute directly by adding new icons or fixing issues:
 
 1. Fork the repository.
 2. Clone your fork and create a new branch: `git checkout -b branch-name`
-3. Add or update icons to the related folders of `core/src/raw-svgs/`
+3. Add or update icons to the related folders of `core/src/svgs/`
 4. on the root of the project run `bun run add-icons` to add the new icons to the metadata
 5. Commit and push your changes and create a pull request.
 6. In the pull request, provide a detailed description of your changes and reference any related issues.

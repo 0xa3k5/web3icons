@@ -5,10 +5,10 @@ on:
     branches: 
       - main
     paths:
-      - 'packages/core/src/raw-svgs/**'
+      - 'packages/core/src/svgs/**'
   pull_request:
     paths:
-      - 'packages/core/src/raw-svgs/**'
+      - 'packages/core/src/svgs/**'
 
 jobs:
   update-and-rebuild:
@@ -33,8 +33,8 @@ jobs:
       - name: Update Metadata
         id: update_metadata
         run: |
-          newTokenIcons=$(git diff --name-only HEAD~1 HEAD | grep 'packages/core/src/raw-svgs/tokens/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
-          newNetworkIcons=$(git diff --name-only HEAD~1 HEAD | grep 'packages/core/src/raw-svgs/networks/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
+          newTokenIcons=$(git diff --name-only HEAD~1 HEAD | grep 'packages/core/src/svgs/tokens/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
+          newNetworkIcons=$(git diff --name-only HEAD~1 HEAD | grep 'packages/core/src/svgs/networks/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
           echo "newTokenIcons=$newTokenIcons" >> $GITHUB_ENV
           echo "newNetworkIcons=$newNetworkIcons" >> $GITHUB_ENV
           bun run ./packages/utils/src/scripts/update-metadata.ts ${{ env.newTokenIcons }} ${{ env.newNetworkIcons }}

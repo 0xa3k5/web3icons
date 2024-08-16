@@ -5,7 +5,7 @@ export const ROOT_UTILS = path.resolve(ROOT_PROJECT, 'packages/utils')
 export const ROOT_CORE = path.resolve(ROOT_PROJECT, 'packages/core')
 export const ROOT_REACT = path.resolve(ROOT_PROJECT, 'packages/react')
 
-export const SVG_SRC_DIR = path.resolve(ROOT_CORE, 'src/raw-svgs')
+export const SVG_SRC_DIR = path.resolve(ROOT_CORE, 'src/svgs')
 export const SVG_TOKENS_SRC_DIR = path.resolve(SVG_SRC_DIR, 'tokens')
 export const SVG_WALLETS_SRC_DIR = path.resolve(SVG_SRC_DIR, 'wallets')
 export const SVG_NETWORKS_SRC_DIR = path.resolve(SVG_SRC_DIR, 'networks')

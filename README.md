@@ -166,6 +166,8 @@ export default App
 
 All of the Dynamic Components are designed to provide ease of use, they accept a various custom props which allows the component to correctly import the desired icon.
 
+> Dynamic components are client side components, so they are not compatible with server side rendering.
+
 ### Shared Props Overview
 
 - **`variant?`**: Determines the style of the icon (`'mono'` or `'branded'`). Defaults to `'mono'`.

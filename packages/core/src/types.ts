@@ -14,6 +14,7 @@ export interface INetworkMetadata {
   name: string
   shortname?: string
   nativeCoinId?: string
+  chainId?: number
   variants: TVariant[]
 }
 

@@ -38,7 +38,7 @@ export function generateSvgModule() {
         const variableTypeAbbr = type.slice(0, 1).toUpperCase() // N (networks), T (tokens), W (wallets)
         const importName = `${variableTypeAbbr}${variant.charAt(0).toUpperCase() + variant.slice(1)}${variableName}`
 
-        fileContent += `import ${importName} from '../dist/svgs/${type}s/${variant}/${svgFile}.svg';\n`
+        fileContent += `import * as ${importName} from './svgs/${type}s/${variant}/${svgFile}.svg';\n`
 
         const objectContent = `      '${svgFile}': ${importName},\n`
         typeObjectContent[variant as 'mono' | 'branded'] += objectContent

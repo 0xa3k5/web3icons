@@ -11,22 +11,44 @@
     "svg crypto icons",
     "coin icons"
   ],
-  "version": "3.2.1",
+  "version": "3.3.1",
   "private": false,
   "author": "0xa3k5",
   "license": "MIT",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
   "files": [
-    "dist/**/*",
-    "./dist/svgs/tokens/*",
-    "./dist/svgs/networks/*",
-    "./dist/metadata/index.js"
+    "dist/cjs/**/*",
+    "dist/esm/**/*",
+    "dist/types/**/*",
+    "dist/svgs/tokens/*",
+    "dist/svgs/networks/*",
+    "dist/svgs/wallets/*",
+    "dist/metadata/*"
   ],
   "exports": {
-    ".": "./dist/index.js",
-    "./metadata": "./dist/metadata/index.js",
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    },
+    "./metadata": {
+      "import": "./dist/esm/metadata/index.js",
+      "require": "./dist/cjs/metadata/index.js"
+    },
+    "./metadata/tokens": {
+      "import": "./dist/esm/metadata/tokens.js",
+      "require": "./dist/cjs/metadata/tokens.js"
+    },
+    "./metadata/networks": {
+      "import": "./dist/esm/metadata/networks.js",
+      "require": "./dist/cjs/metadata/networks.js"
+    },
+    "./metadata/wallets": {
+      "import": "./dist/esm/metadata/wallets.js",
+      "require": "./dist/cjs/metadata/wallets.js"
+    },
     "./svgs/tokens/*": "./dist/svgs/tokens/*",
     "./svgs/networks/*": "./dist/svgs/networks/*",
     "./svgs/wallets/*": "./dist/svgs/wallets/*"
@@ -41,18 +63,21 @@
     "access": "public"
   },
   "scripts": {
-    "build": "(cd ../utils && bun run pre-build:core) && tsc && bun run lint && bun run format && bun run post-build",
-    "post-build": "bun run src/post-build-fix-paths.ts",
+    "build": "bun run pre-build && bun run build:types && tsup && bun run post-build",
+    "pre-build": "(cd ../utils && bun run pre-build:core)",
+    "build:types": "bun run tsc --outDir dist/types --declarationDir dist/types --declaration true",
+    "post-build": "bun run lint && bun run format && bun run src/post-build-fix-paths.ts",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error"
   },
   "dependencies": {
-    "@web3icons/utils": "0.0.12"
+    "@web3icons/utils": "0.1.1"
   },
   "devDependencies": {
     "bun-types": "latest",
     "cheerio": "^1.0.0-rc.12",
-    "svgo": "^3.2.0"
+    "svgo": "^3.2.0",
+    "tsup": "^8.2.4"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

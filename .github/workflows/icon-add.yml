@@ -9,12 +9,12 @@ on:
     branches:
       - main
     paths:
-      - 'packages/core/src/raw-svgs/**'
+      - 'packages/core/src/svgs/**'
   pull_request:
     branches:
       - main
     paths:
-      - 'packages/core/src/raw-svgs/**'
+      - 'packages/core/src/svgs/**'
 
 jobs:
   update-and-rebuild:
@@ -39,7 +39,7 @@ jobs:
       - name: Identify New SVG Files
         id: files
         run: |
-          SVG_FILES=$(git diff --name-only HEAD^ HEAD | grep 'packages/core/src/raw-svgs/' | tr '\n' ',')
+          SVG_FILES=$(git diff --name-only HEAD^ HEAD | grep 'packages/core/src/svgs/' | tr '\n' ',')
           echo "SVG_FILES=${SVG_FILES%,}" >> $GITHUB_ENV
           echo "New SVG Files: $SVG_FILES"
           echo "New Token Icons: $newTokenIcons"
@@ -48,8 +48,8 @@ jobs:
       - name: Update Metadata
         if: env.SVG_FILES
         run: |
-          newTokenIcons=$(git diff --name-only HEAD^ HEAD | grep 'packages/core/src/raw-svgs/tokens/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
-          newNetworkIcons=$(git diff --name-only HEAD^ HEAD | grep 'packages/core/src/raw-svgs/networks/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
+          newTokenIcons=$(git diff --name-only HEAD^ HEAD | grep 'packages/core/src/svgs/tokens/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
+          newNetworkIcons=$(git diff --name-only HEAD^ HEAD | grep 'packages/core/src/svgs/networks/' | xargs basename -a | sed 's/.svg//' | sort -u | tr '\n' ', ' | sed 's/, $//')
           echo "newTokenIcons=$newTokenIcons" >> $GITHUB_ENV
           echo "newNetworkIcons=$newNetworkIcons" >> $GITHUB_ENV
           bun run ./packages/utils/src/scripts/add-icons.ts ${{ env.SVG_FILES }}
