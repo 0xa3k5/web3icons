@@ -1,5 +1,11 @@
 # @web3icons/utils
 
+## 0.1.1
+
+### Patch Changes
+
+- svg.d.ts
+
 ## 0.1.0
 
 ### Minor Changes

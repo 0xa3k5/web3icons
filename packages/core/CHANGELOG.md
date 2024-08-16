@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 3.3.1
+
+### Patch Changes
+
+- svg.d.ts
+- Updated dependencies
+  - @web3icons/utils@0.1.1
+
 ## 3.3.0
 
 ### Minor Changes
