@@ -14,10 +14,6 @@ Web3 Icons is the most comprehensive and up-to-date source for tokens, coins, ne
 
 > Find the data table of all supported icons [here](https://github.com/0xa3k5/web3icons/blob/main/docs/icons.md)
 
-### What's New
-
-v3.2.1:
-
 ---
 
 ### Website
@@ -86,6 +82,7 @@ All of the components extend the [`SVGSVGElement`](https://developer.mozilla.org
 - **`size?`**: Specifies the size of the icon. It can be a string or a number.
 - **`color?`**: Specifies the color of the icon. Accepts any valid CSS color value.
 - **`className?`**: Adds a custom CSS class to the icon for additional styling.
+- **`fallback?`**: Renders the fallback when the component can't find a match. (can be passed a string (url) or a ReactNode)
 
 ### Tokens
 

@@ -1,7 +1,8 @@
-import { SVGProps } from 'react'
+import { ReactNode, SVGProps } from 'react'
 
 export interface BaseIconProps extends SVGProps<SVGSVGElement> {
   size?: string | number
+  fallback?: string | ReactNode
 }
 
 export interface IconComponentProps extends SVGProps<SVGSVGElement> {
@@ -9,6 +10,7 @@ export interface IconComponentProps extends SVGProps<SVGSVGElement> {
   size?: number | string
   color?: string
   className?: string
+  fallback?: string | ReactNode
 }
 
 export type TokenIconProps = IconComponentProps &
