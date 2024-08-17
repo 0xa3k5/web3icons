@@ -1,5 +1,11 @@
 # @web3icons/utils
 
+## 0.2.0
+
+### Minor Changes
+
+- introduce "fallback" to WalletIcon, TokenIcon and NetworkIcon. fallback prop takes in a string or ReactNode and renders that if the provided props can't find a match. e.g.: `<TokenIcon symbol="EETH" fallback="/logo.svg">` would render the `logo.svg` because `eeth` is invalid.
+
 ## 0.1.1
 
 ### Patch Changes
