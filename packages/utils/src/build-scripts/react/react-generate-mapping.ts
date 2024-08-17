@@ -12,7 +12,7 @@ export function generateMapping() {
     .filter((file) => file.endsWith('.tsx'))
     .map((file) => {
       const iconName = path.basename(file, '.tsx')
-      return `${iconName}: () => import('./icons/networks/${iconName}'),\n`
+      return `${iconName}: () => import('../icons/networks/${iconName}'),\n`
     })
     .join('')
 
@@ -20,7 +20,7 @@ export function generateMapping() {
     .filter((file) => file.endsWith('.tsx'))
     .map((file) => {
       const iconName = path.basename(file, '.tsx')
-      return `${iconName}: () => import('./icons/tokens/${iconName}'),\n`
+      return `${iconName}: () => import('../icons/tokens/${iconName}'),\n`
     })
     .join('')
 
@@ -28,7 +28,7 @@ export function generateMapping() {
     .filter((file) => file.endsWith('.tsx'))
     .map((file) => {
       const iconName = path.basename(file, '.tsx')
-      return `${iconName}: () => import('./icons/wallets/${iconName}'),\n`
+      return `${iconName}: () => import('../icons/wallets/${iconName}'),\n`
     })
     .join('')
 
@@ -49,5 +49,5 @@ export const WALLET_ICON_IMPORT_MAP: IconImportMap  = {\n${walletPaths}};\n
 
   const outputPath = path.join(ROOT_REACT, 'src/utils/icon-import-map.ts')
   fs.writeFileSync(outputPath, content)
-  console.log('✅ import paths has been generated at:', outputPath)
+  console.log('✅ generated: import paths at:', outputPath)
 }
