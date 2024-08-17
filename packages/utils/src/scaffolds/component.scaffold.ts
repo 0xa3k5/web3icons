@@ -3,8 +3,8 @@ import { forwardRef } from 'react';
 import { IconComponentProps } from "../../types";
 import { BaseIcon } from '../../BaseIcon';
 
-const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono', ...props }, ref) => (
-    <BaseIcon {...props} ref={ref}>
+const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>(({ variant = 'mono', fallback, ...props }, ref) => (
+    <BaseIcon fallback={fallback} {...props} ref={ref}>
       {variant === 'mono' ? (
         <>
           {{monoJSX}}
@@ -27,8 +27,8 @@ import { forwardRef } from 'react';
 import { IconComponentProps } from "../../types";
 import { BaseIcon } from '../../BaseIcon';
 
-const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>(({ ...props }, ref) => (
-    <BaseIcon {...props} ref={ref}>
+const {{componentName}} = forwardRef<SVGSVGElement, IconComponentProps>(({ fallback, ...props }, ref) => (
+    <BaseIcon fallback={fallback} {...props} ref={ref}>
         {{variantJSX}}
     </BaseIcon>
 ));
