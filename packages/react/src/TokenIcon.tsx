@@ -1,8 +1,7 @@
 import { forwardRef, ReactElement, useEffect, useState } from 'react'
-import { tokens } from '@web3icons/core/metadata'
+import { ITokenMetadata, tokens } from '@web3icons/core'
 import { TokenIconProps } from './types'
-import { TOKEN_ICON_IMPORT_MAP } from './icon-import-map'
-import { ITokenMetadata } from '@web3icons/core'
+import { TOKEN_ICON_IMPORT_MAP } from './utils'
 
 const findToken = (
   symbol?: string,

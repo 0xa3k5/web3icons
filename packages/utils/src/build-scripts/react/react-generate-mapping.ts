@@ -47,7 +47,7 @@ export const TOKEN_ICON_IMPORT_MAP: IconImportMap  = {\n${tokenPaths}};\n
 export const WALLET_ICON_IMPORT_MAP: IconImportMap  = {\n${walletPaths}};\n
 `
 
-  const outputPath = path.join(ROOT_REACT, 'src/icon-import-map.ts')
+  const outputPath = path.join(ROOT_REACT, 'src/utils/icon-import-map.ts')
   fs.writeFileSync(outputPath, content)
   console.log('✅ import paths has been generated at:', outputPath)
 }

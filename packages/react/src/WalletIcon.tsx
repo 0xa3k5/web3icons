@@ -1,9 +1,7 @@
 import { forwardRef, ReactElement, useState, useEffect } from 'react'
+import { IWalletMetadata, wallets } from '@web3icons/core'
 import { WalletIconProps } from './types'
-import { WALLET_ICON_IMPORT_MAP } from './icon-import-map'
-import { wallets } from '@web3icons/core/metadata'
-import { IWalletMetadata } from '@web3icons/core'
-import { toKebabCase, toPascalCase } from './naming-conventions'
+import { toKebabCase, toPascalCase, WALLET_ICON_IMPORT_MAP } from './utils'
 
 const findWallet = (wallet: string): IWalletMetadata | undefined => {
   const walletObj = wallets.find(
