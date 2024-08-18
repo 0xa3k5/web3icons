@@ -1,5 +1,17 @@
 # @web3icons/react
 
+## 3.5.2
+
+### Patch Changes
+
+- hotfix type
+
+## 3.5.1
+
+### Patch Changes
+
+- patch NetworkIcon type
+
 ## 3.5.0
 
 ### Minor Changes
