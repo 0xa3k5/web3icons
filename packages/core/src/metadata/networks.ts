@@ -8,19 +8,22 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'eos',
-    name: 'EOS',
+    name: 'EOS evm',
+    chainId: 17777,
     variants: ['branded', 'mono'],
   },
   {
     id: 'aurora',
     name: 'Aurora',
     shortname: 'aurora',
+    chainId: 1313161554,
     variants: ['branded', 'mono'],
   },
   {
     id: 'polygon-pos',
     name: 'Polygon',
     shortname: 'MATIC',
+    chainId: 137,
     variants: ['branded', 'mono'],
   },
   {
@@ -36,11 +39,13 @@ export const networks: INetworkMetadata[] = [
   {
     id: 'polygon-zkevm',
     name: 'Polygon zkEVM',
+    chainId: 1101,
     variants: ['branded', 'mono'],
   },
   {
     id: 'telos',
     name: 'Telos',
+    chainId: 40,
     variants: ['branded', 'mono'],
   },
   {
@@ -56,18 +61,21 @@ export const networks: INetworkMetadata[] = [
   {
     id: 'neon-evm',
     name: 'Neon EVM',
+    chainId: 245022934,
     variants: ['branded', 'mono'],
   },
   {
     id: 'cronos',
     name: 'Cronos',
     shortname: 'CRO',
+    chainId: 25,
     variants: ['branded', 'mono'],
   },
   {
     id: 'ethereum',
     name: 'Ethereum',
     shortname: 'Ethereum',
+    chainId: 1,
     variants: ['branded', 'mono'],
   },
   {
@@ -78,21 +86,25 @@ export const networks: INetworkMetadata[] = [
   {
     id: 'kava',
     name: 'Kava',
+    chainId: 2222,
     variants: ['branded', 'mono'],
   },
   {
     id: 'linea',
     name: 'Linea',
+    chainId: 59144,
     variants: ['branded', 'mono'],
   },
   {
     id: 'filecoin',
     name: 'Filecoin',
+    chainId: 314,
     variants: ['branded', 'mono'],
   },
   {
     id: 'zilliqa',
     name: 'Zilliqa',
+    chainId: 32769,
     variants: ['branded', 'mono'],
   },
   {
@@ -125,11 +137,13 @@ export const networks: INetworkMetadata[] = [
   {
     id: 'manta-pacific',
     name: 'Manta Pacific',
+    chainId: 169,
     variants: ['branded', 'mono'],
   },
   {
     id: 'immutable',
     name: 'Immutable zkEVM',
+    chainId: 13371,
     variants: ['branded', 'mono'],
   },
   {
@@ -153,22 +167,26 @@ export const networks: INetworkMetadata[] = [
   {
     id: 'blast',
     name: 'Blast',
+    chainId: 81457,
     variants: ['branded', 'mono'],
   },
   {
     id: 'moonbeam',
     name: 'Moonbeam',
+    chainId: 1284,
     variants: ['branded', 'mono'],
   },
   {
     id: 'astar',
     name: 'Astar',
+    chainId: 592,
     variants: ['branded', 'mono'],
   },
   {
     id: 'zksync',
-    name: 'zkSync',
+    name: 'zkSync era',
     shortname: 'zkSync',
+    chainId: 324,
     variants: ['branded', 'mono'],
   },
   {
@@ -191,11 +209,13 @@ export const networks: INetworkMetadata[] = [
   {
     id: 'beam',
     name: 'Beam',
+    chainId: 4337,
     variants: ['branded', 'mono'],
   },
   {
     id: 'boba',
     name: 'Boba Network',
+    chainId: 288,
     variants: ['branded', 'mono'],
   },
   {
@@ -209,17 +229,20 @@ export const networks: INetworkMetadata[] = [
     id: 'celo',
     name: 'Celo',
     shortname: 'celo',
+    chainId: 42220,
     variants: ['branded', 'mono'],
   },
   {
     id: 'base',
     name: 'Base',
+    chainId: 8453,
     variants: ['branded', 'mono'],
   },
   {
     id: 'binance-smart-chain',
     name: 'BNB Smart Chain',
     shortname: 'BSC',
+    chainId: 56,
     variants: ['branded', 'mono'],
   },
   {
@@ -230,12 +253,14 @@ export const networks: INetworkMetadata[] = [
   {
     id: 'fantom',
     name: 'Fantom',
+    chainId: 250,
     variants: ['branded', 'mono'],
   },
   {
     id: 'avalanche',
     name: 'Avalanche',
     shortname: 'AVAX',
+    chainId: 43114,
     variants: ['branded', 'mono'],
   },
   {
@@ -264,6 +289,7 @@ export const networks: INetworkMetadata[] = [
   {
     id: 'chiliz',
     name: 'Chiliz',
+    chainId: 88888,
     variants: ['branded', 'mono'],
   },
   {
@@ -275,6 +301,7 @@ export const networks: INetworkMetadata[] = [
     id: 'etherlink',
     name: 'etherlink',
     shortname: 'etherlink',
+    chainId: 42793,
     variants: ['branded', 'mono'],
   },
   {
@@ -443,5 +470,12 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'bitkub-coin',
     chainId: 96,
     variants: ['branded', 'mono'],
+  },
+  {
+    id: 'fraxtal',
+    name: 'Fraxtal',
+    nativeCoinId: 'fraxtal',
+    chainId: 252,
+    variants: ['mono'],
   },
 ]
