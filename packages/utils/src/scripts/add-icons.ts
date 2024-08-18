@@ -10,10 +10,10 @@ import {
   TVariant,
   IWalletMetadata,
 } from '../types'
-import geckoNetworks from './gecko/gecko-networks.json'
-import geckoCoins from './gecko/gecko-coins.json'
-import customTokens from './gecko/custom-tokens.json'
-import customNetworks from './gecko/custom-networks.json'
+import _geckoNetworks from './gecko/gecko-networks.json'
+import _geckoCoins from './gecko/gecko-coins.json'
+import _customTokens from './gecko/custom-tokens.json'
+import _customNetworks from './gecko/custom-networks.json'
 import getCoinByID from './gecko/get-coin-by-id'
 import {
   CUSTOM_NETWORKS_METADATA_PATH,
@@ -29,6 +29,8 @@ import {
   validateSvg,
   getTypeAndVariant,
   findByFileName,
+  mapRawNetworkToINetwork,
+  mapRawWalletToIWallet,
 } from '../utils'
 import {
   addManualMetadata,
@@ -92,18 +94,24 @@ const findRawData = (
   type: TType,
 ): INetworkRaw[] | ITokenRaw[] | undefined => {
   if (type === 'token') {
-    const geckoCoin = findByFileName(type, name, geckoCoins)
-    const customCoin = findByFileName(type, name, customTokens)
+    const geckoCoin = findByFileName(type, name, _geckoCoins)
+    const customCoin = findByFileName(type, name, _customTokens)
     return customCoin ?? geckoCoin
   } else if (type === 'network') {
-    const geckoNetwork = findByFileName(type, name, geckoNetworks)
-    const customNetwork = findByFileName(type, name, customNetworks)
-    return customNetwork ?? geckoNetwork
+    const geckoNetworks = findByFileName(type, name, _geckoNetworks)
+    const customNetworks = findByFileName(type, name, _customNetworks)
+
+    if (geckoNetworks) {
+      return geckoNetworks?.map((n) => mapRawNetworkToINetwork(n))
+    } else if (customNetworks) {
+      return customNetworks.map((n) => mapRawNetworkToINetwork(n))
+    }
   } else if (type === 'wallet') {
     // prettier-ignore
     const walletsMetadata = JSON.parse(fs.readFileSync(WALLETS_METADATA_PATH, 'utf-8'))
-    const customWallet = findByFileName(type, name, walletsMetadata)
-    return customWallet
+    const customWallets = findByFileName(type, name, walletsMetadata)
+
+    return customWallets?.map((w) => mapRawWalletToIWallet(w))
   }
 }
 

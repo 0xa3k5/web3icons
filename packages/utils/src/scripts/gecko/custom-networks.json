@@ -1,40 +1,40 @@
 [
   { "id": "etherlink", "name": "etherlink", "shortname": "etherlink" },
-  { "id": "picasso", "name": "Picasso", "native_coin_id": "picasso" },
-  { "id": "cosmos-hub", "name": "Cosmos Hub", "native_coin_id": "cosmos" },
-  { "id": "litecoin", "name": "Litecoin", "native_coin_id": "litecoin" },
-  { "id": "wemix", "name": "Wemix", "native_coin_id": "wemix" },
+  { "id": "picasso", "name": "Picasso", "nativeCoinId": "picasso" },
+  { "id": "cosmos-hub", "name": "Cosmos Hub", "nativeCoinId": "cosmos" },
+  { "id": "litecoin", "name": "Litecoin", "nativeCoinId": "litecoin" },
+  { "id": "wemix", "name": "Wemix", "nativeCoinId": "wemix" },
   {
     "id": "gnosis",
-    "chain_identifier": 100,
+    "chainId": 100,
     "name": "Gnosis Chain",
-    "native_coin_id": "xDai"
+    "nativeCoinId": "xDai"
   },
   {
     "id": "hedera-hashgraph",
-    "chain_identifier": 295,
+    "chainId": 295,
     "name": "Hedera Hashgraph",
     "shortname": "hedera",
-    "native_coin_id": "hedera-hashgraph"
+    "nativeCoinId": "hedera-hashgraph"
   },
-  { "id": "rari", "name": "Rari", "native_coin_id": "rari" },
+  { "id": "rari", "name": "Rari", "nativeCoinId": "rari" },
   {
     "id": "zetachain",
-    "chain_identifier": 7000,
+    "chainId": 7000,
     "name": "Zeta Chain",
-    "native_coin_id": "zetachain"
+    "nativeCoinId": "zetachain"
   },
   {
     "id": "bitcoin",
     "name": "Bitcoin",
     "shortname": "bitcoin",
-    "native_coin_id": "bitcoin"
+    "nativeCoinId": "bitcoin"
   },
   {
     "id": "fio",
     "name": "FIO Protocol",
     "shortname": "fio",
-    "native_coin_id": "FIO"
+    "nativeCoinId": "FIO"
   },
   { "id": "gravity", "name": "gravity-network" },
   {
@@ -93,5 +93,90 @@
   { "id": "trust-wallet", "name": "trust" },
   { "id": "wallet-3", "name": "wallet3" },
   { "id": "xdefi", "name": "xdefi" },
-  { "id": "clave", "name": "clave" }
+  { "id": "clave", "name": "clave" },
+  {
+    "id": "energy-web",
+    "name": "energy web",
+    "shortname": "energy",
+    "chainId": "246",
+    "nativeCoinId": "ewt"
+  },
+  {
+    "id": "enuls",
+    "name": "enuls",
+    "shortname": "enuls",
+    "chainId": "119",
+    "nativeCoinId": "nuls"
+  },
+  {
+    "id": "flare",
+    "name": "flare",
+    "shortname": "flare",
+    "chainId": "14",
+    "nativeCoinId": "flr"
+  },
+  {
+    "id": "kardia",
+    "name": "kardia chain",
+    "shortname": "kardia",
+    "chainId": "24",
+    "nativeCoinId": "kai"
+  },
+  { "id": "kucoin", "name": "kucoi", "shortname": "kucoin", "chainId": "0000" },
+  {
+    "id": "lyra",
+    "name": "lyra chain",
+    "shortname": "lyra",
+    "chainId": "957",
+    "nativeCoinId": "eth"
+  },
+  {
+    "id": "shiden",
+    "name": "shiden",
+    "shortname": "shiden",
+    "chainId": "336",
+    "nativeCoinId": "sdn"
+  },
+  {
+    "id": "shimmer-evm",
+    "name": "shimmer evm",
+    "shortname": "shimmer",
+    "chainId": "148",
+    "nativeCoinId": "smr"
+  },
+  {
+    "id": "step",
+    "name": "step",
+    "shortname": "step",
+    "chainId": "1234",
+    "nativeCoinId": "step"
+  },
+  {
+    "id": "sys",
+    "name": "syscoin",
+    "shortname": "sys",
+    "chainId": "57",
+    "nativeCoinId": "sys"
+  },
+  {
+    "id": "ubiq",
+    "name": "ubiq",
+    "shortname": "ubiq",
+    "chainId": "8",
+    "nativeCoinId": "ubq"
+  },
+  {
+    "id": "xdc",
+    "name": "xdc network",
+    "shortname": "xdc",
+    "chainId": "50",
+    "nativeCoinId": "xdc"
+  },
+  {
+    "id": "zyx",
+    "name": "zyx",
+    "shortname": "zyx",
+    "chainId": "55",
+    "nativeCoinId": "zyx"
+  }
 ]

@@ -1,5 +1,50 @@
 # @web3icons/react
 
+## 3.5.0
+
+### Minor Changes
+
+- - support chainId in `NetworkIcon`
+  - add 33 new network icons:
+    - `coinex-smart-chain`
+    - `conflux`
+    - `cronos-zkevm`
+    - `elastos`
+    - `energy-web`
+    - `enuls`
+    - `ethereum-classic`
+    - `flare`
+    - `fraxtal`
+    - `fuse`
+    - `kardia`
+    - `lyra`
+    - `meter`
+    - `oasys`
+    - `okex-chain`
+    - `rollux`
+    - `rootstock`
+    - `shiden`
+    - `step`
+    - `shimmer-evm`
+    - `songbird`
+    - `sys`
+    - `theta`
+    - `thundercore`
+    - `ubiq`
+    - `ultron`
+    - `velas`
+    - `tomochain`
+    - `xdc`
+    - `zyx`
+    - `kuchain`
+  - retire @web3icons/typescript-config
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/core@3.5.0
+  - @web3icons/utils@0.2.1
+
 ## 3.4.0
 
 ### Minor Changes

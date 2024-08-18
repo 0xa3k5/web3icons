@@ -7,12 +7,15 @@
   },
   {
     "id": "eos",
-    "name": "EOS",
+    "chainId": 17777,
+    "name": "EOS evm",
+    "shortName": "eos",
     "nativeCoinId": "eos",
     "variants": ["branded", "mono"]
   },
   {
     "id": "aurora",
+    "chainId": 1313161554,
     "name": "Aurora",
     "shortname": "aurora",
     "nativeCoinId": "aurora-near",
@@ -20,6 +23,7 @@
   },
   {
     "id": "polygon-pos",
+    "chainId": 137,
     "name": "Polygon",
     "shortname": "MATIC",
     "nativeCoinId": "matic-network",
@@ -39,12 +43,14 @@
   },
   {
     "id": "polygon-zkevm",
+    "chainId": 1101,
     "name": "Polygon zkEVM",
     "nativeCoinId": "ethereum",
     "variants": ["branded", "mono"]
   },
   {
     "id": "telos",
+    "chainId": 40,
     "name": "Telos",
     "nativeCoinId": "telos",
     "variants": ["branded", "mono"]
@@ -63,12 +69,15 @@
   },
   {
     "id": "neon-evm",
+    "chainId": 245022934,
+    "shortName": "neon",
     "name": "Neon EVM",
     "nativeCoinId": "neon",
     "variants": ["branded", "mono"]
   },
   {
     "id": "cronos",
+    "chainId": 25,
     "name": "Cronos",
     "shortname": "CRO",
     "nativeCoinId": "crypto-com-chain",
@@ -76,6 +85,7 @@
   },
   {
     "id": "ethereum",
+    "chainId": 1,
     "name": "Ethereum",
     "shortname": "Ethereum",
     "nativeCoinId": "ethereum",
@@ -89,24 +99,28 @@
   },
   {
     "id": "kava",
+    "chainId": 2222,
     "name": "Kava",
     "nativeCoinId": "kava",
     "variants": ["branded", "mono"]
   },
   {
     "id": "linea",
+    "chainId": 59144,
     "name": "Linea",
     "nativeCoinId": "ethereum",
     "variants": ["branded", "mono"]
   },
   {
     "id": "filecoin",
+    "chainId": 314,
     "name": "Filecoin",
     "nativeCoinId": "filecoin",
     "variants": ["branded", "mono"]
   },
   {
     "id": "zilliqa",
+    "chainId": 32769,
     "name": "Zilliqa",
     "nativeCoinId": "zilliqa",
     "variants": ["branded", "mono"]
@@ -145,19 +159,22 @@
   },
   {
     "id": "manta-pacific",
+    "chainId": 169,
     "name": "Manta Pacific",
+    "shortName": "manta",
     "nativeCoinId": "weth",
     "variants": ["branded", "mono"]
   },
   {
     "id": "immutable",
+    "chainId": 13371,
     "name": "Immutable zkEVM",
     "nativeCoinId": "immutable-x",
     "variants": ["branded", "mono"]
   },
   {
     "id": "zora-network",
-    "chain_identifier": 7777777,
+    "chainId": 7777777,
     "name": "Zora",
     "native_coin_id": "weth",
     "variants": ["branded"]
@@ -177,25 +194,29 @@
   },
   {
     "id": "blast",
+    "chainId": 81457,
     "name": "Blast",
     "nativeCoinId": "blast",
     "variants": ["branded", "mono"]
   },
   {
     "id": "moonbeam",
+    "chainId": 1284,
     "name": "Moonbeam",
     "nativeCoinId": "moonbeam",
     "variants": ["branded", "mono"]
   },
   {
     "id": "astar",
+    "chainId": 592,
     "name": "Astar",
     "nativeCoinId": "astar",
     "variants": ["branded", "mono"]
   },
   {
     "id": "zksync",
-    "name": "zkSync",
+    "chainId": 324,
+    "name": "zkSync era",
     "shortname": "zkSync",
     "nativeCoinId": "ethereum",
     "variants": ["branded", "mono"]
@@ -221,13 +242,16 @@
   },
   {
     "id": "beam",
+    "chainId": 4337,
     "name": "Beam",
     "nativeCoinId": "beam",
     "variants": ["branded", "mono"]
   },
   {
     "id": "boba",
+    "chainId": 288,
     "name": "Boba Network",
+    "shortName": "boba",
     "nativeCoinId": "ethereum",
     "variants": ["branded", "mono"]
   },
@@ -240,6 +264,7 @@
   },
   {
     "id": "celo",
+    "chainId": 42220,
     "name": "Celo",
     "shortname": "celo",
     "nativeCoinId": "celo",
@@ -247,12 +272,14 @@
   },
   {
     "id": "base",
+    "chainId": 8453,
     "name": "Base",
     "nativeCoinId": "ethereum",
     "variants": ["branded", "mono"]
   },
   {
     "id": "binance-smart-chain",
+    "chainId": 56,
     "name": "BNB Smart Chain",
     "shortname": "BSC",
     "nativeCoinId": "binancecoin",
@@ -266,12 +293,14 @@
   },
   {
     "id": "fantom",
+    "chainId": 250,
     "name": "Fantom",
     "nativeCoinId": "fantom",
     "variants": ["branded", "mono"]
   },
   {
     "id": "avalanche",
+    "chainId": 43114,
     "name": "Avalanche",
     "shortname": "AVAX",
     "nativeCoinId": "avalanche-2",
@@ -279,7 +308,7 @@
   },
   {
     "id": "optimistic-ethereum",
-    "chain_identifier": 10,
+    "chainId": 10,
     "name": "Optimism",
     "shortname": "Optimism",
     "native_coin_id": "ethereum",
@@ -305,6 +334,7 @@
   },
   {
     "id": "chiliz",
+    "chainId": 88888,
     "name": "Chiliz",
     "nativeCoinId": "chiliz",
     "variants": ["branded", "mono"]
@@ -317,13 +347,14 @@
   },
   {
     "id": "etherlink",
+    "chainId": 42793,
     "name": "etherlink",
     "shortname": "etherlink",
     "variants": ["branded", "mono"]
   },
   {
     "id": "arbitrum-one",
-    "chain_identifier": 42161,
+    "chainId": 42161,
     "name": "Arbitrum One",
     "shortname": "Arbitrum",
     "native_coin_id": "ethereum",
@@ -344,14 +375,14 @@
   },
   {
     "id": "metis-andromeda",
-    "chain_identifier": 1088,
+    "chainId": 1088,
     "name": "Metis Andromeda",
     "native_coin_id": "metis-token",
     "variants": ["branded", "mono"]
   },
   {
     "id": "moonriver",
-    "chain_identifier": 1285,
+    "chainId": 1285,
     "name": "Moonriver",
     "shortname": "moonriver",
     "native_coin_id": "moonriver",
@@ -377,6 +408,7 @@
   },
   {
     "id": "gnosis",
+    "chainId": 100,
     "name": "Gnosis Chain",
     "native_coin_id": "xDai",
     "variants": ["branded", "mono"]
@@ -390,7 +422,7 @@
   },
   {
     "id": "hedera-hashgraph",
-    "chain_identifier": 295,
+    "chainId": 295,
     "name": "Hedera Hashgraph",
     "shortname": "hedera",
     "native_coin_id": "hedera-hashgraph",
@@ -411,7 +443,7 @@
   },
   {
     "id": "zetachain",
-    "chain_identifier": 7000,
+    "chainId": 7000,
     "name": "Zeta Chain",
     "native_coin_id": "zetachain",
     "variants": ["branded", "mono"]
@@ -431,7 +463,7 @@
   },
   {
     "id": "iotex",
-    "chain_identifier": 4689,
+    "chainId": 4689,
     "name": "IoTeX",
     "shortname": "iotex",
     "native_coin_id": "iotex",
@@ -483,16 +515,258 @@
   },
   {
     "id": "arbitrum-nova",
-    "chain_identifier": 42170,
+    "chainId": 42170,
     "name": "Arbitrum Nova",
     "native_coin_id": "ethereum",
     "variants": ["branded", "mono"]
   },
   {
     "id": "bitkub-chain",
-    "chain_identifier": 96,
+    "chainId": 96,
+    "shortName": "bitkub",
     "name": "Bitkub Chain",
     "native_coin_id": "bitkub-coin",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "coinex-smart-chain",
+    "chainId": 52,
+    "name": "CoinEx Smart Chain",
+    "shortname": "CSC",
+    "native_coin_id": "coinex-token",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "conflux",
+    "chainId": 1030,
+    "name": "Conflux",
+    "shortname": "conflux",
+    "native_coin_id": "conflux-token",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "cronos-zkevm",
+    "chainId": 388,
+    "name": "Cronos zkEVM",
+    "native_coin_id": "cronos-zkevm-cro",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "elastos",
+    "chainId": 20,
+    "name": "Elastos Smart Contract Chain",
+    "shortname": "Elastos",
+    "native_coin_id": "elastos",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "energy-web",
+    "name": "energy web",
+    "shortname": "energy",
+    "chainId": 246,
+    "nativeCoinId": "ewt",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "enuls",
+    "name": "enuls",
+    "shortname": "enuls",
+    "chainId": 119,
+    "nativeCoinId": "nuls",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "ethereum-classic",
+    "chainId": 61,
+    "name": "Ethereum Classic",
+    "native_coin_id": "ethereum-classic",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "flare",
+    "name": "flare",
+    "shortname": "flare",
+    "chainId": 14,
+    "nativeCoinId": "flr",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "fraxtal",
+    "chainId": 252,
+    "name": "Fraxtal",
+    "native_coin_id": "fraxtal",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "fuse",
+    "chainId": 122,
+    "name": "Fuse",
+    "native_coin_id": "fuse-network-token",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "kardia",
+    "name": "kardia chain",
+    "shortname": "kardia",
+    "chainId": 24,
+    "nativeCoinId": "kai",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "lukso",
+    "chainId": 42,
+    "name": "Lukso",
+    "native_coin_id": "lukso-token-2",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "lyra",
+    "name": "lyra chain",
+    "shortname": "lyra",
+    "chainId": 957,
+    "nativeCoinId": "eth",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "meter",
+    "chainId": 82,
+    "name": "Meter",
+    "native_coin_id": "meter",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "oasys",
+    "chainId": 248,
+    "name": "Oasys",
+    "native_coin_id": "oasys",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "okex-chain",
+    "chainId": 66,
+    "name": "OKT Chain",
+    "shortname": "OKEx",
+    "native_coin_id": "oec-token",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "rollux",
+    "name": "Rollux",
+    "native_coin_id": "syscoin",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "rootstock",
+    "chainId": 30,
+    "name": "Rootstock RSK",
+    "native_coin_id": "rootstock",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "shiden",
+    "name": "shiden",
+    "shortname": "shiden",
+    "chainId": 336,
+    "nativeCoinId": "sdn",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "shimmer-evm",
+    "name": "shimmer evm",
+    "shortname": "shimmer",
+    "chainId": 148,
+    "nativeCoinId": "smr",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "songbird",
+    "chainId": 19,
+    "name": "Songbird",
+    "native_coin_id": "songbird",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "step",
+    "name": "step",
+    "shortname": "step",
+    "chainId": 1234,
+    "nativeCoinId": "step",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "sys",
+    "name": "syscoin",
+    "shortname": "sys",
+    "chainId": 57,
+    "nativeCoinId": "sys",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "theta",
+    "chainId": 361,
+    "name": "Theta",
+    "native_coin_id": "theta-token",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "thundercore",
+    "chainId": 108,
+    "name": "ThunderCore",
+    "native_coin_id": "thunder-token",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "ubiq",
+    "name": "ubiq",
+    "shortname": "ubiq",
+    "chainId": 8,
+    "nativeCoinId": "ubq",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "ultron",
+    "chainId": 1231,
+    "name": "Ultron",
+    "native_coin_id": "ultron",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "velas",
+    "chainId": 106,
+    "name": "Velas",
+    "shortname": "velas",
+    "native_coin_id": "velas",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "tomochain",
+    "chainId": 88,
+    "name": "Viction",
+    "native_coin_id": "tomochain",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "xdc",
+    "name": "xdc network",
+    "shortname": "xdc",
+    "chainId": 50,
+    "nativeCoinId": "xdc",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "zyx",
+    "name": "zyx",
+    "shortname": "zyx",
+    "chainId": 55,
+    "nativeCoinId": "zyx",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "kuchain",
+    "name": "kuchain",
+    "shortname": "kuchain",
+    "chainId": 321,
+    "nativeCoinId": "kcs",
     "variants": ["branded", "mono"]
   }
 ]

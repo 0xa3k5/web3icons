@@ -19,7 +19,11 @@ export type TokenIconProps = IconComponentProps &
     | { symbol?: never; address: string; network: string }
   )
 
-export type NetworkIconProps = IconComponentProps & { network: string }
+export type NetworkIconProps = IconComponentProps &
+  (
+    | { network: string; chainId?: never }
+    | { chainId: number | string; network: never }
+  )
 
 export type WalletIconProps = IconComponentProps &
   ({ name: string; id?: never } | { id: string; name?: never })

@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (77)](#networks)
+- [networks (108)](#networks)
 - [tokens (1892)](#tokens)
 
 ### Wallets
@@ -49,85 +49,116 @@ jump to section:
 
 ### Networks
 
-| id                  | name             | branded | mono |
-| ------------------- | ---------------- | ------- | ---- |
-| kujira              | Kujira           | ✅      | ✅   |
-| eos                 | EOS              | ✅      | ✅   |
-| aurora              | Aurora           | ✅      | ✅   |
-| polygon-pos         | Polygon          | ✅      | ✅   |
-| cardano             | Cardano          | ✅      | ✅   |
-| tron                | TRON             | ✅      | ✅   |
-| polygon-zkevm       | Polygon zkEVM    | ✅      | ✅   |
-| telos               | Telos            | ✅      | ✅   |
-| algorand            | Algorand         | ❌      | ✅   |
-| mode                | Mode             | ✅      | ✅   |
-| neon-evm            | Neon EVM         | ✅      | ✅   |
-| cronos              | Cronos           | ✅      | ✅   |
-| ethereum            | Ethereum         | ✅      | ✅   |
-| starknet            | StarkNet         | ✅      | ✅   |
-| kava                | Kava             | ✅      | ✅   |
-| linea               | Linea            | ✅      | ✅   |
-| filecoin            | Filecoin         | ✅      | ✅   |
-| zilliqa             | Zilliqa          | ✅      | ✅   |
-| cosmos              | Cosmos           | ✅      | ✅   |
-| stellar             | Stellar          | ✅      | ✅   |
-| ronin               | Ronin            | ✅      | ✅   |
-| osmosis             | Osmosis          | ✅      | ✅   |
-| xai                 | XAI              | ✅      | ✅   |
-| manta-pacific       | Manta Pacific    | ✅      | ✅   |
-| immutable           | Immutable zkEVM  | ✅      | ✅   |
-| zora-network        | Zora             | ✅      | ❌   |
-| injective           | Injective        | ✅      | ✅   |
-| solana              | Solana           | ✅      | ✅   |
-| blast               | Blast            | ✅      | ✅   |
-| moonbeam            | Moonbeam         | ✅      | ✅   |
-| astar               | Astar            | ✅      | ✅   |
-| zksync              | zkSync           | ✅      | ✅   |
-| ordinals            | Bitcoin          | ✅      | ✅   |
-| juno                | Juno             | ✅      | ✅   |
-| polkadot            | Polkadot         | ✅      | ✅   |
-| beam                | Beam             | ✅      | ✅   |
-| boba                | Boba Network     | ✅      | ✅   |
-| elrond              | MultiversX       | ✅      | ✅   |
-| celo                | Celo             | ✅      | ✅   |
-| base                | Base             | ✅      | ✅   |
-| binance-smart-chain | BNB Smart Chain  | ✅      | ✅   |
-| loopring            | Loopring         | ✅      | ✅   |
-| fantom              | Fantom           | ✅      | ✅   |
-| avalanche           | Avalanche        | ✅      | ✅   |
-| optimistic-ethereum | Optimism         | ✅      | ✅   |
-| scroll              | Scroll           | ✅      | ✅   |
-| aptos               | Aptos            | ✅      | ✅   |
-| sui                 | Sui              | ✅      | ✅   |
-| chiliz              | Chiliz           | ✅      | ✅   |
-| x-layer             | X Layer          | ✅      | ✅   |
-| etherlink           | etherlink        | ✅      | ✅   |
-| arbitrum-one        | Arbitrum One     | ✅      | ✅   |
-| xrp                 | XRP Ledger       | ❌      | ✅   |
-| cosmos-hub          | Cosmos Hub       | ✅      | ✅   |
-| metis-andromeda     | Metis Andromeda  | ✅      | ✅   |
-| moonriver           | Moonriver        | ✅      | ✅   |
-| sei-network         | Sei Network      | ✅      | ✅   |
-| litecoin            | Litecoin         | ✅      | ✅   |
-| wemix               | Wemix            | ✅      | ✅   |
-| gnosis              | Gnosis Chain     | ✅      | ✅   |
-| near-protocol       | Near Protocol    | ✅      | ✅   |
-| hedera-hashgraph    | Hedera Hashgraph | ✅      | ✅   |
-| rari                | Rari             | ✅      | ✅   |
-| bitcoin             | Bitcoin          | ✅      | ✅   |
-| zetachain           | Zeta Chain       | ✅      | ✅   |
-| fio                 | FIO Protocol     | ✅      | ✅   |
-| stargaze            | Stargaze         | ✅      | ✅   |
-| iotex               | IoTeX            | ✅      | ✅   |
-| clover              | Clover           | ✅      | ✅   |
-| gravity             | gravity-network  | ✅      | ✅   |
-| lava-network        | lava-network     | ✅      | ✅   |
-| neo-x               | neo-x            | ✅      | ✅   |
-| abstract            | abstract         | ✅      | ✅   |
-| acala               | Acala            | ✅      | ✅   |
-| apex-layer          | apex layer       | ✅      | ✅   |
-| arbitrum-nova       | Arbitrum Nova    | ✅      | ✅   |
-| bitkub-chain        | Bitkub Chain     | ✅      | ✅   |
+| id                  | name                         | branded | mono |
+| ------------------- | ---------------------------- | ------- | ---- |
+| kujira              | Kujira                       | ✅      | ✅   |
+| eos                 | EOS evm                      | ✅      | ✅   |
+| aurora              | Aurora                       | ✅      | ✅   |
+| polygon-pos         | Polygon                      | ✅      | ✅   |
+| cardano             | Cardano                      | ✅      | ✅   |
+| tron                | TRON                         | ✅      | ✅   |
+| polygon-zkevm       | Polygon zkEVM                | ✅      | ✅   |
+| telos               | Telos                        | ✅      | ✅   |
+| algorand            | Algorand                     | ❌      | ✅   |
+| mode                | Mode                         | ✅      | ✅   |
+| neon-evm            | Neon EVM                     | ✅      | ✅   |
+| cronos              | Cronos                       | ✅      | ✅   |
+| ethereum            | Ethereum                     | ✅      | ✅   |
+| starknet            | StarkNet                     | ✅      | ✅   |
+| kava                | Kava                         | ✅      | ✅   |
+| linea               | Linea                        | ✅      | ✅   |
+| filecoin            | Filecoin                     | ✅      | ✅   |
+| zilliqa             | Zilliqa                      | ✅      | ✅   |
+| cosmos              | Cosmos                       | ✅      | ✅   |
+| stellar             | Stellar                      | ✅      | ✅   |
+| ronin               | Ronin                        | ✅      | ✅   |
+| osmosis             | Osmosis                      | ✅      | ✅   |
+| xai                 | XAI                          | ✅      | ✅   |
+| manta-pacific       | Manta Pacific                | ✅      | ✅   |
+| immutable           | Immutable zkEVM              | ✅      | ✅   |
+| zora-network        | Zora                         | ✅      | ❌   |
+| injective           | Injective                    | ✅      | ✅   |
+| solana              | Solana                       | ✅      | ✅   |
+| blast               | Blast                        | ✅      | ✅   |
+| moonbeam            | Moonbeam                     | ✅      | ✅   |
+| astar               | Astar                        | ✅      | ✅   |
+| zksync              | zkSync era                   | ✅      | ✅   |
+| ordinals            | Bitcoin                      | ✅      | ✅   |
+| juno                | Juno                         | ✅      | ✅   |
+| polkadot            | Polkadot                     | ✅      | ✅   |
+| beam                | Beam                         | ✅      | ✅   |
+| boba                | Boba Network                 | ✅      | ✅   |
+| elrond              | MultiversX                   | ✅      | ✅   |
+| celo                | Celo                         | ✅      | ✅   |
+| base                | Base                         | ✅      | ✅   |
+| binance-smart-chain | BNB Smart Chain              | ✅      | ✅   |
+| loopring            | Loopring                     | ✅      | ✅   |
+| fantom              | Fantom                       | ✅      | ✅   |
+| avalanche           | Avalanche                    | ✅      | ✅   |
+| optimistic-ethereum | Optimism                     | ✅      | ✅   |
+| scroll              | Scroll                       | ✅      | ✅   |
+| aptos               | Aptos                        | ✅      | ✅   |
+| sui                 | Sui                          | ✅      | ✅   |
+| chiliz              | Chiliz                       | ✅      | ✅   |
+| x-layer             | X Layer                      | ✅      | ✅   |
+| etherlink           | etherlink                    | ✅      | ✅   |
+| arbitrum-one        | Arbitrum One                 | ✅      | ✅   |
+| xrp                 | XRP Ledger                   | ❌      | ✅   |
+| cosmos-hub          | Cosmos Hub                   | ✅      | ✅   |
+| metis-andromeda     | Metis Andromeda              | ✅      | ✅   |
+| moonriver           | Moonriver                    | ✅      | ✅   |
+| sei-network         | Sei Network                  | ✅      | ✅   |
+| litecoin            | Litecoin                     | ✅      | ✅   |
+| wemix               | Wemix                        | ✅      | ✅   |
+| gnosis              | Gnosis Chain                 | ✅      | ✅   |
+| near-protocol       | Near Protocol                | ✅      | ✅   |
+| hedera-hashgraph    | Hedera Hashgraph             | ✅      | ✅   |
+| rari                | Rari                         | ✅      | ✅   |
+| bitcoin             | Bitcoin                      | ✅      | ✅   |
+| zetachain           | Zeta Chain                   | ✅      | ✅   |
+| fio                 | FIO Protocol                 | ✅      | ✅   |
+| stargaze            | Stargaze                     | ✅      | ✅   |
+| iotex               | IoTeX                        | ✅      | ✅   |
+| clover              | Clover                       | ✅      | ✅   |
+| gravity             | gravity-network              | ✅      | ✅   |
+| lava-network        | lava-network                 | ✅      | ✅   |
+| neo-x               | neo-x                        | ✅      | ✅   |
+| abstract            | abstract                     | ✅      | ✅   |
+| acala               | Acala                        | ✅      | ✅   |
+| apex-layer          | apex layer                   | ✅      | ✅   |
+| arbitrum-nova       | Arbitrum Nova                | ✅      | ✅   |
+| bitkub-chain        | Bitkub Chain                 | ✅      | ✅   |
+| coinex-smart-chain  | CoinEx Smart Chain           | ✅      | ✅   |
+| conflux             | Conflux                      | ✅      | ✅   |
+| cronos-zkevm        | Cronos zkEVM                 | ✅      | ✅   |
+| elastos             | Elastos Smart Contract Chain | ✅      | ✅   |
+| energy-web          | energy web                   | ✅      | ✅   |
+| enuls               | enuls                        | ✅      | ✅   |
+| ethereum-classic    | Ethereum Classic             | ✅      | ✅   |
+| flare               | flare                        | ✅      | ✅   |
+| fraxtal             | Fraxtal                      | ✅      | ✅   |
+| fuse                | Fuse                         | ✅      | ✅   |
+| kardia              | kardia chain                 | ✅      | ✅   |
+| lukso               | Lukso                        | ✅      | ✅   |
+| lyra                | lyra chain                   | ✅      | ✅   |
+| meter               | Meter                        | ✅      | ✅   |
+| oasys               | Oasys                        | ✅      | ✅   |
+| okex-chain          | OKT Chain                    | ✅      | ✅   |
+| rollux              | Rollux                       | ✅      | ✅   |
+| rootstock           | Rootstock RSK                | ✅      | ✅   |
+| shiden              | shiden                       | ✅      | ✅   |
+| shimmer-evm         | shimmer evm                  | ✅      | ✅   |
+| songbird            | Songbird                     | ✅      | ✅   |
+| step                | step                         | ✅      | ✅   |
+| sys                 | syscoin                      | ✅      | ✅   |
+| theta               | Theta                        | ✅      | ✅   |
+| thundercore         | ThunderCore                  | ✅      | ✅   |
+| ubiq                | ubiq                         | ✅      | ✅   |
+| ultron              | Ultron                       | ✅      | ✅   |
+| velas               | Velas                        | ✅      | ✅   |
+| tomochain           | Viction                      | ✅      | ✅   |
+| xdc                 | xdc network                  | ✅      | ✅   |
+| zyx                 | zyx                          | ✅      | ✅   |
 
 ### Tokens
 

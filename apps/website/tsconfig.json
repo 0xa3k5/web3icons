@@ -1,5 +1,5 @@
 {
-  "extends": "@web3icons/typescript-config/next.json",
+  "$schema": "https://json.schemastore.org/tsconfig",
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
@@ -9,11 +9,24 @@
   ],
   "exclude": ["node_modules"],
   "compilerOptions": {
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "incremental": false,
+    "isolatedModules": true,
+    "lib": ["es2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "moduleResolution": "Bundler",
+    "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2022",
+    "plugins": [{ "name": "next" }],
+    "allowJs": true,
+    "jsx": "preserve",
+    "noEmit": true,
     "strictNullChecks": true
   }
 }

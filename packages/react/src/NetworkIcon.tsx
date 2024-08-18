@@ -4,8 +4,11 @@ import { findNetwork } from './utils'
 import { DynamicIcon } from './DynamicIcon'
 
 export const NetworkIcon = forwardRef<SVGSVGElement, NetworkIconProps>(
-  ({ network, size, className, variant = 'mono', color, fallback }, ref) => {
-    const metadata = findNetwork({ network })
+  (
+    { network, chainId, size, className, variant = 'mono', color, fallback },
+    ref,
+  ) => {
+    const metadata = findNetwork(network ? { network } : { chainId })
     return (
       <DynamicIcon
         type="network"

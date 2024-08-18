@@ -13,9 +13,9 @@ export interface ITokenMetadata {
 export interface INetworkMetadata {
   id: string
   name: string
+  chainId?: number | string
   shortname?: string
   nativeCoinId?: string
-  chainId?: number
   variants: TVariant[]
 }
 

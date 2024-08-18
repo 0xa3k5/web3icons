@@ -88,6 +88,13 @@ export const addManualMetadata = async (
     return parseInt(answer)
   }
 
+  const getChainId = async () => {
+    const answer = await input({
+      message: 'chainId',
+    })
+    return answer.trim()
+  }
+
   const getShortName = async () => {
     const answer = await input({
       message: 'shortName',
@@ -115,6 +122,7 @@ export const addManualMetadata = async (
         id: id.trim(),
         name: name.trim(),
         shortname: await getShortName(),
+        chainId: await getChainId(),
         nativeCoinId: await getNativeCoinId(),
       } as INetworkRaw
     case 'wallet':
