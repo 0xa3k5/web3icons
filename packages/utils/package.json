@@ -1,6 +1,6 @@
 {
   "name": "@web3icons/utils",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "types": "dist/index.d.ts",
   "author": "0xa3k5",
