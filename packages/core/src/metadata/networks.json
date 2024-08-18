@@ -807,7 +807,7 @@
     "shortname": "reya",
     "chainId": "1729",
     "nativeCoinId": "eth",
-    "variants": ["branded, mono"]
+    "variants": ["branded", "mono"]
   },
   {
     "id": "tenet",

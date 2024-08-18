@@ -3387,6 +3387,7 @@ import * as NBrandedNearProtocol from './svgs/networks/branded/near-protocol.svg
 import * as NBrandedEnuls from './svgs/networks/branded/enuls.svg'
 import * as NBrandedAurora from './svgs/networks/branded/aurora.svg'
 import * as NBrandedMultiversx from './svgs/networks/branded/multiversx.svg'
+import * as NBrandedTombchain from './svgs/networks/branded/tombchain.svg'
 import * as NBrandedFraxtal from './svgs/networks/branded/fraxtal.svg'
 import * as NBrandedEthereum from './svgs/networks/branded/ethereum.svg'
 import * as NBrandedNeonEvm from './svgs/networks/branded/neon-evm.svg'
@@ -3395,6 +3396,7 @@ import * as NBrandedCronosZkevm from './svgs/networks/branded/cronos-zkevm.svg'
 import * as NBrandedApexLayer from './svgs/networks/branded/apex-layer.svg'
 import * as NBrandedLavaNetwork from './svgs/networks/branded/lava-network.svg'
 import * as NBrandedCosmosHub from './svgs/networks/branded/cosmos-hub.svg'
+import * as NBrandedMilkomedaC1 from './svgs/networks/branded/milkomeda-c1.svg'
 import * as NBrandedStep from './svgs/networks/branded/step.svg'
 import * as NBrandedPolygonZkevm from './svgs/networks/branded/polygon-zkevm.svg'
 import * as NBrandedKujira from './svgs/networks/branded/kujira.svg'
@@ -3407,6 +3409,7 @@ import * as NBrandedBinanceSmartChain from './svgs/networks/branded/binance-smar
 import * as NBrandedElastos from './svgs/networks/branded/elastos.svg'
 import * as NBrandedXai from './svgs/networks/branded/xai.svg'
 import * as NBrandedIotex from './svgs/networks/branded/iotex.svg'
+import * as NBrandedBouncebit from './svgs/networks/branded/bouncebit.svg'
 import * as NBrandedBeam from './svgs/networks/branded/beam.svg'
 import * as NBrandedLukso from './svgs/networks/branded/lukso.svg'
 import * as NBrandedAbstract from './svgs/networks/branded/abstract.svg'
@@ -3420,6 +3423,7 @@ import * as NBrandedXdc from './svgs/networks/branded/xdc.svg'
 import * as NBrandedVelas from './svgs/networks/branded/velas.svg'
 import * as NBrandedFilecoin from './svgs/networks/branded/filecoin.svg'
 import * as NBrandedChiliz from './svgs/networks/branded/chiliz.svg'
+import * as NBrandedDogechain from './svgs/networks/branded/dogechain.svg'
 import * as NBrandedMode from './svgs/networks/branded/mode.svg'
 import * as NBrandedLinea from './svgs/networks/branded/linea.svg'
 import * as NBrandedZetaChain from './svgs/networks/branded/zeta-chain.svg'
@@ -3428,6 +3432,7 @@ import * as NBrandedJuno from './svgs/networks/branded/juno.svg'
 import * as NBrandedGravity from './svgs/networks/branded/gravity.svg'
 import * as NBrandedAvalanche from './svgs/networks/branded/avalanche.svg'
 import * as NBrandedRollux from './svgs/networks/branded/rollux.svg'
+import * as NBrandedMantle from './svgs/networks/branded/mantle.svg'
 import * as NBrandedBitcoin from './svgs/networks/branded/bitcoin.svg'
 import * as NBrandedLitecoin from './svgs/networks/branded/litecoin.svg'
 import * as NBrandedWemix from './svgs/networks/branded/wemix.svg'
@@ -3448,6 +3453,7 @@ import * as NBrandedEnergyWeb from './svgs/networks/branded/energy-web.svg'
 import * as NBrandedMetisAndromeda from './svgs/networks/branded/metis-andromeda.svg'
 import * as NBrandedCoinexSmartChain from './svgs/networks/branded/coinex-smart-chain.svg'
 import * as NBrandedHederaHashgraph from './svgs/networks/branded/hedera-hashgraph.svg'
+import * as NBrandedTenet from './svgs/networks/branded/tenet.svg'
 import * as NBrandedArbitrumOne from './svgs/networks/branded/arbitrum-one.svg'
 import * as NBrandedScroll from './svgs/networks/branded/scroll.svg'
 import * as NBrandedBoba from './svgs/networks/branded/boba.svg'
@@ -3462,6 +3468,7 @@ import * as NBrandedKava from './svgs/networks/branded/kava.svg'
 import * as NBrandedMoonriver from './svgs/networks/branded/moonriver.svg'
 import * as NBrandedUbiq from './svgs/networks/branded/ubiq.svg'
 import * as NBrandedPolygonPos from './svgs/networks/branded/polygon-pos.svg'
+import * as NBrandedNahmii from './svgs/networks/branded/nahmii.svg'
 import * as NBrandedPolkadot from './svgs/networks/branded/polkadot.svg'
 import * as NBrandedOasys from './svgs/networks/branded/oasys.svg'
 import * as NBrandedBase from './svgs/networks/branded/base.svg'
@@ -3470,16 +3477,19 @@ import * as NBrandedLoopring from './svgs/networks/branded/loopring.svg'
 import * as NBrandedOsmosis from './svgs/networks/branded/osmosis.svg'
 import * as NBrandedUltron from './svgs/networks/branded/ultron.svg'
 import * as NBrandedSongbird from './svgs/networks/branded/songbird.svg'
+import * as NBrandedHubbleExchange from './svgs/networks/branded/hubble-exchange.svg'
 import * as NBrandedKucoin from './svgs/networks/branded/kucoin.svg'
 import * as NBrandedMantaPacific from './svgs/networks/branded/manta-pacific.svg'
 import * as NBrandedEthereumClassic from './svgs/networks/branded/ethereum-classic.svg'
 import * as NBrandedAcala from './svgs/networks/branded/acala.svg'
 import * as NBrandedNeoX from './svgs/networks/branded/neo-x.svg'
 import * as NBrandedSeiNetwork from './svgs/networks/branded/sei-network.svg'
+import * as NBrandedMilkomedaA1 from './svgs/networks/branded/milkomeda-a1.svg'
 import * as NBrandedShimmerEvm from './svgs/networks/branded/shimmer-evm.svg'
 import * as NBrandedTelos from './svgs/networks/branded/telos.svg'
 import * as NBrandedCelo from './svgs/networks/branded/celo.svg'
 import * as NBrandedZilliqa from './svgs/networks/branded/zilliqa.svg'
+import * as NBrandedReya from './svgs/networks/branded/reya.svg'
 import * as NBrandedConflux from './svgs/networks/branded/conflux.svg'
 import * as NBrandedSolana from './svgs/networks/branded/solana.svg'
 import * as NBrandedArbitrumNova from './svgs/networks/branded/arbitrum-nova.svg'
@@ -3501,6 +3511,7 @@ import * as NMonoCronosZkevm from './svgs/networks/mono/cronos-zkevm.svg'
 import * as NMonoApexLayer from './svgs/networks/mono/apex-layer.svg'
 import * as NMonoLavaNetwork from './svgs/networks/mono/lava-network.svg'
 import * as NMonoCosmosHub from './svgs/networks/mono/cosmos-hub.svg'
+import * as NMonoMilkomedaC1 from './svgs/networks/mono/milkomeda-c1.svg'
 import * as NMonoStep from './svgs/networks/mono/step.svg'
 import * as NMonoPolygonZkevm from './svgs/networks/mono/polygon-zkevm.svg'
 import * as NMonoKujira from './svgs/networks/mono/kujira.svg'
@@ -3514,6 +3525,7 @@ import * as NMonoBinanceSmartChain from './svgs/networks/mono/binance-smart-chai
 import * as NMonoElastos from './svgs/networks/mono/elastos.svg'
 import * as NMonoXai from './svgs/networks/mono/xai.svg'
 import * as NMonoIotex from './svgs/networks/mono/iotex.svg'
+import * as NMonoBouncebit from './svgs/networks/mono/bouncebit.svg'
 import * as NMonoBeam from './svgs/networks/mono/beam.svg'
 import * as NMonoLukso from './svgs/networks/mono/lukso.svg'
 import * as NMonoAbstract from './svgs/networks/mono/abstract.svg'
@@ -3535,6 +3547,7 @@ import * as NMonoJuno from './svgs/networks/mono/juno.svg'
 import * as NMonoGravity from './svgs/networks/mono/gravity.svg'
 import * as NMonoAvalanche from './svgs/networks/mono/avalanche.svg'
 import * as NMonoRollux from './svgs/networks/mono/rollux.svg'
+import * as NMonoMantle from './svgs/networks/mono/mantle.svg'
 import * as NMonoBitcoin from './svgs/networks/mono/bitcoin.svg'
 import * as NMonoLitecoin from './svgs/networks/mono/litecoin.svg'
 import * as NMonoWemix from './svgs/networks/mono/wemix.svg'
@@ -3556,6 +3569,7 @@ import * as NMonoEnergyWeb from './svgs/networks/mono/energy-web.svg'
 import * as NMonoMetisAndromeda from './svgs/networks/mono/metis-andromeda.svg'
 import * as NMonoCoinexSmartChain from './svgs/networks/mono/coinex-smart-chain.svg'
 import * as NMonoHederaHashgraph from './svgs/networks/mono/hedera-hashgraph.svg'
+import * as NMonoTenet from './svgs/networks/mono/tenet.svg'
 import * as NMonoArbitrumOne from './svgs/networks/mono/arbitrum-one.svg'
 import * as NMonoScroll from './svgs/networks/mono/scroll.svg'
 import * as NMonoBoba from './svgs/networks/mono/boba.svg'
@@ -3570,6 +3584,7 @@ import * as NMonoKava from './svgs/networks/mono/kava.svg'
 import * as NMonoMoonriver from './svgs/networks/mono/moonriver.svg'
 import * as NMonoUbiq from './svgs/networks/mono/ubiq.svg'
 import * as NMonoPolygonPos from './svgs/networks/mono/polygon-pos.svg'
+import * as NMonoNahmii from './svgs/networks/mono/nahmii.svg'
 import * as NMonoPolkadot from './svgs/networks/mono/polkadot.svg'
 import * as NMonoOasys from './svgs/networks/mono/oasys.svg'
 import * as NMonoBase from './svgs/networks/mono/base.svg'
@@ -3578,16 +3593,19 @@ import * as NMonoLoopring from './svgs/networks/mono/loopring.svg'
 import * as NMonoOsmosis from './svgs/networks/mono/osmosis.svg'
 import * as NMonoUltron from './svgs/networks/mono/ultron.svg'
 import * as NMonoSongbird from './svgs/networks/mono/songbird.svg'
+import * as NMonoHubbleExchange from './svgs/networks/mono/hubble-exchange.svg'
 import * as NMonoKucoin from './svgs/networks/mono/kucoin.svg'
 import * as NMonoMantaPacific from './svgs/networks/mono/manta-pacific.svg'
 import * as NMonoEthereumClassic from './svgs/networks/mono/ethereum-classic.svg'
 import * as NMonoAcala from './svgs/networks/mono/acala.svg'
 import * as NMonoNeoX from './svgs/networks/mono/neo-x.svg'
 import * as NMonoSeiNetwork from './svgs/networks/mono/sei-network.svg'
+import * as NMonoMilkomedaA1 from './svgs/networks/mono/milkomeda-a1.svg'
 import * as NMonoShimmerEvm from './svgs/networks/mono/shimmer-evm.svg'
 import * as NMonoTelos from './svgs/networks/mono/telos.svg'
 import * as NMonoCelo from './svgs/networks/mono/celo.svg'
 import * as NMonoZilliqa from './svgs/networks/mono/zilliqa.svg'
+import * as NMonoReya from './svgs/networks/mono/reya.svg'
 import * as NMonoConflux from './svgs/networks/mono/conflux.svg'
 import * as NMonoSolana from './svgs/networks/mono/solana.svg'
 import * as NMonoArbitrumNova from './svgs/networks/mono/arbitrum-nova.svg'
@@ -7070,6 +7088,7 @@ export const svgs = {
       'apex-layer': NMonoApexLayer,
       'lava-network': NMonoLavaNetwork,
       'cosmos-hub': NMonoCosmosHub,
+      'milkomeda-c1': NMonoMilkomedaC1,
       step: NMonoStep,
       'polygon-zkevm': NMonoPolygonZkevm,
       kujira: NMonoKujira,
@@ -7083,6 +7102,7 @@ export const svgs = {
       elastos: NMonoElastos,
       xai: NMonoXai,
       iotex: NMonoIotex,
+      bouncebit: NMonoBouncebit,
       beam: NMonoBeam,
       lukso: NMonoLukso,
       abstract: NMonoAbstract,
@@ -7104,6 +7124,7 @@ export const svgs = {
       gravity: NMonoGravity,
       avalanche: NMonoAvalanche,
       rollux: NMonoRollux,
+      mantle: NMonoMantle,
       bitcoin: NMonoBitcoin,
       litecoin: NMonoLitecoin,
       wemix: NMonoWemix,
@@ -7125,6 +7146,7 @@ export const svgs = {
       'metis-andromeda': NMonoMetisAndromeda,
       'coinex-smart-chain': NMonoCoinexSmartChain,
       'hedera-hashgraph': NMonoHederaHashgraph,
+      tenet: NMonoTenet,
       'arbitrum-one': NMonoArbitrumOne,
       scroll: NMonoScroll,
       boba: NMonoBoba,
@@ -7139,6 +7161,7 @@ export const svgs = {
       moonriver: NMonoMoonriver,
       ubiq: NMonoUbiq,
       'polygon-pos': NMonoPolygonPos,
+      nahmii: NMonoNahmii,
       polkadot: NMonoPolkadot,
       oasys: NMonoOasys,
       base: NMonoBase,
@@ -7147,16 +7170,19 @@ export const svgs = {
       osmosis: NMonoOsmosis,
       ultron: NMonoUltron,
       songbird: NMonoSongbird,
+      'hubble-exchange': NMonoHubbleExchange,
       kucoin: NMonoKucoin,
       'manta-pacific': NMonoMantaPacific,
       'ethereum-classic': NMonoEthereumClassic,
       acala: NMonoAcala,
       'neo-x': NMonoNeoX,
       'sei-network': NMonoSeiNetwork,
+      'milkomeda-a1': NMonoMilkomedaA1,
       'shimmer-evm': NMonoShimmerEvm,
       telos: NMonoTelos,
       celo: NMonoCelo,
       zilliqa: NMonoZilliqa,
+      reya: NMonoReya,
       conflux: NMonoConflux,
       solana: NMonoSolana,
       'arbitrum-nova': NMonoArbitrumNova,
@@ -7172,6 +7198,7 @@ export const svgs = {
       enuls: NBrandedEnuls,
       aurora: NBrandedAurora,
       multiversx: NBrandedMultiversx,
+      tombchain: NBrandedTombchain,
       fraxtal: NBrandedFraxtal,
       ethereum: NBrandedEthereum,
       'neon-evm': NBrandedNeonEvm,
@@ -7180,6 +7207,7 @@ export const svgs = {
       'apex-layer': NBrandedApexLayer,
       'lava-network': NBrandedLavaNetwork,
       'cosmos-hub': NBrandedCosmosHub,
+      'milkomeda-c1': NBrandedMilkomedaC1,
       step: NBrandedStep,
       'polygon-zkevm': NBrandedPolygonZkevm,
       kujira: NBrandedKujira,
@@ -7192,6 +7220,7 @@ export const svgs = {
       elastos: NBrandedElastos,
       xai: NBrandedXai,
       iotex: NBrandedIotex,
+      bouncebit: NBrandedBouncebit,
       beam: NBrandedBeam,
       lukso: NBrandedLukso,
       abstract: NBrandedAbstract,
@@ -7205,6 +7234,7 @@ export const svgs = {
       velas: NBrandedVelas,
       filecoin: NBrandedFilecoin,
       chiliz: NBrandedChiliz,
+      dogechain: NBrandedDogechain,
       mode: NBrandedMode,
       linea: NBrandedLinea,
       'zeta-chain': NBrandedZetaChain,
@@ -7213,6 +7243,7 @@ export const svgs = {
       gravity: NBrandedGravity,
       avalanche: NBrandedAvalanche,
       rollux: NBrandedRollux,
+      mantle: NBrandedMantle,
       bitcoin: NBrandedBitcoin,
       litecoin: NBrandedLitecoin,
       wemix: NBrandedWemix,
@@ -7233,6 +7264,7 @@ export const svgs = {
       'metis-andromeda': NBrandedMetisAndromeda,
       'coinex-smart-chain': NBrandedCoinexSmartChain,
       'hedera-hashgraph': NBrandedHederaHashgraph,
+      tenet: NBrandedTenet,
       'arbitrum-one': NBrandedArbitrumOne,
       scroll: NBrandedScroll,
       boba: NBrandedBoba,
@@ -7247,6 +7279,7 @@ export const svgs = {
       moonriver: NBrandedMoonriver,
       ubiq: NBrandedUbiq,
       'polygon-pos': NBrandedPolygonPos,
+      nahmii: NBrandedNahmii,
       polkadot: NBrandedPolkadot,
       oasys: NBrandedOasys,
       base: NBrandedBase,
@@ -7255,16 +7288,19 @@ export const svgs = {
       osmosis: NBrandedOsmosis,
       ultron: NBrandedUltron,
       songbird: NBrandedSongbird,
+      'hubble-exchange': NBrandedHubbleExchange,
       kucoin: NBrandedKucoin,
       'manta-pacific': NBrandedMantaPacific,
       'ethereum-classic': NBrandedEthereumClassic,
       acala: NBrandedAcala,
       'neo-x': NBrandedNeoX,
       'sei-network': NBrandedSeiNetwork,
+      'milkomeda-a1': NBrandedMilkomedaA1,
       'shimmer-evm': NBrandedShimmerEvm,
       telos: NBrandedTelos,
       celo: NBrandedCelo,
       zilliqa: NBrandedZilliqa,
+      reya: NBrandedReya,
       conflux: NBrandedConflux,
       solana: NBrandedSolana,
       'arbitrum-nova': NBrandedArbitrumNova,
