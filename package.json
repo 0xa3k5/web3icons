@@ -17,7 +17,6 @@
   },
   "devDependencies": {
     "@web3icons/eslint-config": "*",
-    "@web3icons/typescript-config": "*",
     "prettier": "^3.3.3",
     "turbo": "v2.0.11"
   },

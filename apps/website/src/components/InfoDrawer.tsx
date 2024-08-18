@@ -78,7 +78,7 @@ export function InfoDrawer({
       </Drawer.Trigger>
       <Drawer.Portal>
         <Drawer.Overlay className="fixed inset-0 z-[5] bg-gray-darkest/80" />
-        <Drawer.Content className="fixed bottom-0 z-10 flex h-[80vh] w-full select-text justify-center md:h-[40vh] focus-visible:outline-none">
+        <Drawer.Content className="fixed bottom-0 z-10 flex h-[80vh] w-full select-text justify-center focus-visible:outline-none md:h-[40vh]">
           <div className="flex w-10/12 select-text flex-col gap-4 overflow-hidden rounded-md border border-gray-lightest bg-gray p-4 md:grid md:w-2/3 md:grid-cols-6">
             <div className="flex flex-col gap-4 p-2 md:col-span-2">
               <Drawer.Title className="flex items-center gap-2">

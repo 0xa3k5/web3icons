@@ -245,11 +245,6 @@
     "native_coin_id": "skale"
   },
   {
-    "id": "tron",
-    "name": "TRON",
-    "native_coin_id": "tron"
-  },
-  {
     "id": "telos",
     "chain_identifier": 40,
     "name": "Telos",
@@ -398,6 +393,13 @@
     "id": "rails-network",
     "name": "Rails Network",
     "native_coin_id": "steam-exchange"
+  },
+  {
+    "id": "okex-chain",
+    "chain_identifier": 66,
+    "name": "OKT Chain",
+    "shortname": "OKEx",
+    "native_coin_id": "oec-token"
   },
   {
     "id": "stargaze",
@@ -1451,11 +1453,10 @@
     "native_coin_id": "fuse-network-token"
   },
   {
-    "id": "okex-chain",
-    "chain_identifier": 66,
-    "name": "OKT Chain",
-    "shortname": "OKEx",
-    "native_coin_id": "oec-token"
+    "id": "cronos-zkevm",
+    "chain_identifier": 388,
+    "name": "Cronos zkEVM",
+    "native_coin_id": "cronos-zkevm-cro"
   },
   {
     "id": "tomochain",
@@ -1692,5 +1693,10 @@
     "chain_identifier": 288,
     "name": "Boba Network",
     "native_coin_id": "ethereum"
+  },
+  {
+    "id": "tron",
+    "name": "TRON",
+    "native_coin_id": "tron"
   }
 ]

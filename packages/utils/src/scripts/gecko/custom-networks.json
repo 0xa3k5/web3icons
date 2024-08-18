@@ -93,5 +93,90 @@
   { "id": "trust-wallet", "name": "trust" },
   { "id": "wallet-3", "name": "wallet3" },
   { "id": "xdefi", "name": "xdefi" },
-  { "id": "clave", "name": "clave" }
+  { "id": "clave", "name": "clave" },
+  {
+    "id": "energy-web",
+    "name": "energy web",
+    "shortname": "energy",
+    "chainId": "246",
+    "nativeCoinId": "ewt"
+  },
+  {
+    "id": "enuls",
+    "name": "enuls",
+    "shortname": "enuls",
+    "chainId": "119",
+    "nativeCoinId": "nuls"
+  },
+  {
+    "id": "flare",
+    "name": "flare",
+    "shortname": "flare",
+    "chainId": "14",
+    "nativeCoinId": "flr"
+  },
+  {
+    "id": "kardia",
+    "name": "kardia chain",
+    "shortname": "kardia",
+    "chainId": "24",
+    "nativeCoinId": "kai"
+  },
+  { "id": "kucoin", "name": "kucoi", "shortname": "kucoin", "chainId": "0000" },
+  {
+    "id": "lyra",
+    "name": "lyra chain",
+    "shortname": "lyra",
+    "chainId": "957",
+    "nativeCoinId": "eth"
+  },
+  {
+    "id": "shiden",
+    "name": "shiden",
+    "shortname": "shiden",
+    "chainId": "336",
+    "nativeCoinId": "sdn"
+  },
+  {
+    "id": "shimmer-evm",
+    "name": "shimmer evm",
+    "shortname": "shimmer",
+    "chainId": "148",
+    "nativeCoinId": "smr"
+  },
+  {
+    "id": "step",
+    "name": "step",
+    "shortname": "step",
+    "chainId": "1234",
+    "nativeCoinId": "step"
+  },
+  {
+    "id": "sys",
+    "name": "syscoin",
+    "shortname": "sys",
+    "chainId": "57",
+    "nativeCoinId": "sys"
+  },
+  {
+    "id": "ubiq",
+    "name": "ubiq",
+    "shortname": "ubiq",
+    "chainId": "8",
+    "nativeCoinId": "ubq"
+  },
+  {
+    "id": "xdc",
+    "name": "xdc network",
+    "shortname": "xdc",
+    "chainId": "50",
+    "nativeCoinId": "xdc"
+  },
+  {
+    "id": "zyx",
+    "name": "zyx",
+    "shortname": "zyx",
+    "chainId": "55",
+    "nativeCoinId": "zyx"
+  }
 ]

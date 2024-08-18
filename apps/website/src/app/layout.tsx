@@ -8,10 +8,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Web3 Icons',
-  description: '2,500+ SVG & React icons for crypto currency tokens, coins, networks and wallets',
+  description:
+    '2,500+ SVG & React icons for crypto currency tokens, coins, networks and wallets',
   openGraph: {
     title: 'Web3 Icons',
-    description: '2,500+ SVG & React icons for crypto currency tokens, coins, networks and wallets',
+    description:
+      '2,500+ SVG & React icons for crypto currency tokens, coins, networks and wallets',
     url: 'https://tokenicons.io',
     type: 'website',
     images: [
@@ -28,7 +30,8 @@ export const metadata = {
     site: '@0xa3k5',
     creator: '@0xa3k5',
     title: 'Web3 Icons',
-    description: '2,500+ SVG & React icons for crypto currency tokens, coins, networks and wallets',
+    description:
+      '2,500+ SVG & React icons for crypto currency tokens, coins, networks and wallets',
     images: ['https://tokenicons.io/og-image.png'],
   },
 }
@@ -41,12 +44,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Suspense>
-      <AppContextProvider>
-        <body className={inter.className}>
-          {children}
-          <Analytics />
-        </body>
-      </AppContextProvider>
+        <AppContextProvider>
+          <body className={inter.className}>
+            {children}
+            <Analytics />
+          </body>
+        </AppContextProvider>
       </Suspense>
     </html>
   )
