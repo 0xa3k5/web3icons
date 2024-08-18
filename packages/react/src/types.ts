@@ -22,7 +22,7 @@ export type TokenIconProps = IconComponentProps &
 export type NetworkIconProps = IconComponentProps &
   (
     | { network: string; chainId?: never }
-    | { chainId: number | string; network: never }
+    | { chainId: number | string; network?: never }
   )
 
 export type WalletIconProps = IconComponentProps &
