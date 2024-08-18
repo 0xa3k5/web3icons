@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (115)](#networks)
+- [networks (119)](#networks)
 - [tokens (1892)](#tokens)
 
 ### Wallets
@@ -164,8 +164,12 @@ jump to section:
 | hubblenet           | hubble exchange              | ✅      | ✅   |
 | milkomeda-a1        | milkomeda A1                 | ✅      | ✅   |
 | milkomeda-c1        | milkomeda C1                 | ✅      | ✅   |
-| reya                | reya                         | ✅      | ✅   |
+| reya                | reya                         | ❌      | ✅   |
 | tenet               | Tenet                        | ✅      | ✅   |
+| bouncebit           | BounceBit                    | ✅      | ✅   |
+| mantle              | Mantle                       | ✅      | ✅   |
+| nahmii              | Nahmii                       | ✅      | ✅   |
+| tombchain           | Tombchain                    | ✅      | ❌   |
 
 ### Tokens
 

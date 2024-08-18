@@ -807,7 +807,7 @@
     "shortname": "reya",
     "chainId": "1729",
     "nativeCoinId": "eth",
-    "variants": ["branded", "mono"]
+    "variants": ["branded, mono"]
   },
   {
     "id": "tenet",
@@ -815,5 +815,35 @@
     "chainId": 1559,
     "nativeCoinId": "tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "bouncebit",
+    "name": "BounceBit",
+    "chainId": 6001,
+    "nativeCoinId": "bouncebit",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "mantle",
+    "name": "Mantle",
+    "chainId": 5000,
+    "nativeCoinId": "mantle",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "nahmii",
+    "name": "Nahmii",
+    "shortname": "nahmii",
+    "chainId": 4061,
+    "nativeCoinId": "nahmii",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "tombchain",
+    "name": "Tombchain",
+    "shortname": "tomb",
+    "chainId": "6969",
+    "nativeCoinId": "tomb",
+    "variants": ["branded"]
   }
 ]
