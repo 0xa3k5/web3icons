@@ -45,14 +45,25 @@ export const findToken = ({
 
 export const findNetwork = ({
   network,
+  chainId,
 }: {
-  network: string
+  network?: string
+  chainId?: number | string
 }): INetworkMetadata | undefined => {
-  const networkObj = networks.find(
-    (net) =>
-      net.id.toLowerCase() === toKebabCase(network) ||
-      net.name.toLowerCase() === network.toLowerCase() ||
-      net.shortname?.toLowerCase() === network.toLowerCase(),
-  )
-  return networkObj
+  if (network) {
+    const networkObj = networks.find(
+      (net) =>
+        net.id.toLowerCase() === toKebabCase(network) ||
+        net.name.toLowerCase() === network.toLowerCase() ||
+        net.shortname?.toLowerCase() === network.toLowerCase(),
+    )
+    return networkObj
+  }
+
+  if (chainId) {
+    const networkObj = networks.find((net) => net.chainId === chainId)
+    return networkObj
+  }
+
+  return undefined
 }
