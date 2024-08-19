@@ -22,7 +22,7 @@
     "@create-figma-plugin/ui": "^3.1.0",
     "@create-figma-plugin/utilities": "^3.1.0",
     "preact": ">=10",
-    "@web3icons/core": "3.5.0",
+    "@web3icons/core": "3.5.0"
   },
   "devDependencies": {
     "@create-figma-plugin/build": "^3.1.0",
