@@ -1,5 +1,30 @@
 # @web3icons/core
 
+## 3.6.0
+
+### Minor Changes
+
+- New Icons
+  13 new networks:
+  dogechain
+  hubblenet
+  milkomeda-a1
+  milkomeda-c1
+  reya
+  tenet
+  rollux
+  bouncebit
+  mantle
+  nahmii
+  tombchain
+  bouncebit
+  reya
+
+  Fixes & Improvements
+  remove @web3icons/utils as a dependency
+  reduce the dependencies of packages
+  fix a typo on networks.json
+
 ## 3.5.0
 
 ### Minor Changes

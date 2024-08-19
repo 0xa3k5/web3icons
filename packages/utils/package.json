@@ -1,6 +1,5 @@
 {
   "name": "@web3icons/utils",
-  "version": "0.2.1",
   "type": "module",
   "types": "dist/index.d.ts",
   "author": "0xa3k5",
@@ -19,10 +18,7 @@
   ],
   "homepage": "https://tokenicons.io",
   "license": "MIT",
-  "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
+  "private": true,
   "scripts": {
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error",

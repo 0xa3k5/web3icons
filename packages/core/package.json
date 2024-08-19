@@ -11,7 +11,7 @@
     "svg crypto icons",
     "coin icons"
   ],
-  "version": "3.5.0",
+  "version": "3.6.0",
   "private": false,
   "author": "0xa3k5",
   "license": "MIT",
@@ -69,9 +69,6 @@
     "post-build": "bun run lint && bun run format && bun run src/post-build-fix-paths.ts",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error"
-  },
-  "dependencies": {
-    "@web3icons/utils": "0.2.1"
   },
   "devDependencies": {
     "bun-types": "latest",

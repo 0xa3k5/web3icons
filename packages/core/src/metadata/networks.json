@@ -652,6 +652,7 @@
   {
     "id": "rollux",
     "name": "Rollux",
+    "chainId": 570,
     "native_coin_id": "syscoin",
     "variants": ["branded", "mono"]
   },
@@ -768,5 +769,81 @@
     "chainId": 321,
     "nativeCoinId": "kcs",
     "variants": ["branded", "mono"]
+  },
+  {
+    "id": "dogechain",
+    "name": "Dogechain",
+    "chainId": 2000,
+    "nativeCoinId": "dogechain",
+    "variants": ["branded"]
+  },
+  {
+    "id": "hubblenet",
+    "name": "hubble exchange",
+    "shortname": "hubble",
+    "chainId": "1992",
+    "nativeCoinId": "usdc",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "milkomeda-a1",
+    "name": "milkomeda A1",
+    "shortname": "milkomeda",
+    "chainId": "2002",
+    "nativeCoinId": "mALGO",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "milkomeda-c1",
+    "name": "milkomeda C1",
+    "shortname": "milkomeda",
+    "chainId": "2001",
+    "nativeCoinId": "mADA",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "reya",
+    "name": "reya",
+    "shortname": "reya",
+    "chainId": "1729",
+    "nativeCoinId": "eth",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "tenet",
+    "name": "Tenet",
+    "chainId": 1559,
+    "nativeCoinId": "tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "bouncebit",
+    "name": "BounceBit",
+    "chainId": 6001,
+    "nativeCoinId": "bouncebit",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "mantle",
+    "name": "Mantle",
+    "chainId": 5000,
+    "nativeCoinId": "mantle",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "nahmii",
+    "name": "Nahmii",
+    "shortname": "nahmii",
+    "chainId": 4061,
+    "nativeCoinId": "nahmii",
+    "variants": ["branded", "mono"]
+  },
+  {
+    "id": "tombchain",
+    "name": "Tombchain",
+    "shortname": "tomb",
+    "chainId": "6969",
+    "nativeCoinId": "tomb",
+    "variants": ["branded"]
   }
 ]

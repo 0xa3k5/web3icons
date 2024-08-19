@@ -32,12 +32,8 @@ import {
   mapRawNetworkToINetwork,
   mapRawWalletToIWallet,
 } from '../utils'
-import {
-  addManualMetadata,
-  confirmTheMetadata,
-  getUserInputSlug,
-  selectAMetadata,
-} from './cli/cli-icon-add'
+import { confirmTheMetadata } from './cli/confirm-metadata'
+import { getUserInputSlug, selectAMetadata, addManualMetadata } from './cli'
 
 const getModifiedIcons = () => {
   return execSync(
@@ -195,9 +191,14 @@ const getWithUserInput = async (
  */
 const createMetadataObj = async (
   fileName: string,
-  fileVariant: TVariant,
+  variant: TVariant | undefined,
   type: TType,
 ): Promise<ITokenMetadata | INetworkMetadata | IWalletMetadata | undefined> => {
+  if (!variant) {
+    throw new Error(
+      `variant is undefined, fileName: ${fileName}, type: ${type}, variant: ${variant}`,
+    )
+  }
   const rawData = findRawData(fileName, type)
   // no metadata
   if (!rawData || rawData[0] === undefined) {
@@ -209,7 +210,7 @@ const createMetadataObj = async (
 
     await updateCustomJson([manualData], type)
 
-    return { ...manualData, variants: [fileVariant] } as
+    return { ...manualData, variants: [variant] } as
       | ITokenMetadata
       | INetworkMetadata
       | IWalletMetadata
@@ -219,12 +220,12 @@ const createMetadataObj = async (
   if (rawData.length > 1) {
     const userChoice = await selectAMetadata(rawData, type)
     if (!userChoice) {
-      return getWithUserInput(fileName, fileVariant, type)
+      return getWithUserInput(fileName, variant, type)
     }
 
     return {
       ...userChoice,
-      variants: [fileVariant],
+      variants: [variant],
       addresses: type === 'token' ? {} : undefined,
       marketCapRank: type === 'token' ? null : undefined,
     } as ITokenMetadata | INetworkMetadata | IWalletMetadata
@@ -238,15 +239,15 @@ const createMetadataObj = async (
 
     if (existingMetadata) {
       if (!existingMetadata[0]) return undefined
-      if (!existingMetadata[0].variants.includes(fileVariant)) {
-        existingMetadata[0].variants.push(fileVariant)
+      if (!existingMetadata[0].variants.includes(variant)) {
+        existingMetadata[0].variants.push(variant)
       }
       return existingMetadata[0]
     }
 
     const metadata: ITokenMetadata | INetworkMetadata | IWalletMetadata = {
       ...rawData[0],
-      variants: [fileVariant],
+      variants: [variant],
     } as ITokenMetadata | INetworkMetadata | IWalletMetadata
 
     if (type === 'token') {
@@ -375,25 +376,28 @@ const main = async () => {
   const addedWallets: IWalletMetadata[] = []
 
   for (const [fileName, { type, variants }] of Object.entries(groupedIcons)) {
-    const metadata = await createMetadataObj(fileName, variants[0]!, type)
+    const metadata = await createMetadataObj(fileName, variants[0], type)
     if (!metadata) continue
 
     metadata.variants = variants
 
-    const confirmed = await confirmTheMetadata(metadata)
-    if (!confirmed) continue
+    const confirmedMetadata = await confirmTheMetadata({ type, metadata })
+    if (!confirmedMetadata) {
+      console.log('↛ skipping... did not confirm metadata:', metadata.id)
+      break
+    }
 
     if (type === 'token') {
-      addedTokens.push(metadata as ITokenMetadata)
+      addedTokens.push(confirmedMetadata as ITokenMetadata)
     } else if (type === 'network') {
-      addedNetworks.push(metadata as INetworkMetadata)
+      addedNetworks.push(confirmedMetadata as INetworkMetadata)
     } else if (type === 'wallet') {
-      addedWallets.push(metadata as IWalletMetadata)
+      addedWallets.push(confirmedMetadata as IWalletMetadata)
     }
   }
 
-  if (addedNetworks.length > 0)
-    await updateMetadataJson(addedNetworks, 'network')
+  // prettier-ignore
+  if (addedNetworks.length > 0) await updateMetadataJson(addedNetworks, 'network')
   if (addedTokens.length > 0) await updateMetadataJson(addedTokens, 'token')
   if (addedWallets.length > 0) await updateMetadataJson(addedWallets, 'wallet')
 }

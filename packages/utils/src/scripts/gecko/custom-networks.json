@@ -178,5 +178,33 @@
     "shortname": "zyx",
     "chainId": "55",
     "nativeCoinId": "zyx"
+  },
+  {
+    "id": "hubblenet",
+    "name": "hubble exchange",
+    "shortname": "hubble",
+    "chainId": "1992",
+    "nativeCoinId": "usdc"
+  },
+  {
+    "id": "milkomeda-a1",
+    "name": "milkomeda A1",
+    "shortname": "milkomeda",
+    "chainId": "2002",
+    "nativeCoinId": "mALGO"
+  },
+  {
+    "id": "milkomeda-c1",
+    "name": "milkomeda C1",
+    "shortname": "milkomeda",
+    "chainId": "2001",
+    "nativeCoinId": "mADA"
+  },
+  {
+    "id": "reya",
+    "name": "reya",
+    "shortname": "reya",
+    "chainId": "1729",
+    "nativeCoinId": "eth"
   }
 ]

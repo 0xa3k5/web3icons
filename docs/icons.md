@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (108)](#networks)
+- [networks (119)](#networks)
 - [tokens (1892)](#tokens)
 
 ### Wallets
@@ -159,6 +159,17 @@ jump to section:
 | tomochain           | Viction                      | ✅      | ✅   |
 | xdc                 | xdc network                  | ✅      | ✅   |
 | zyx                 | zyx                          | ✅      | ✅   |
+| kuchain             | kuchain                      | ✅      | ✅   |
+| dogechain           | Dogechain                    | ✅      | ❌   |
+| hubblenet           | hubble exchange              | ✅      | ✅   |
+| milkomeda-a1        | milkomeda A1                 | ✅      | ✅   |
+| milkomeda-c1        | milkomeda C1                 | ✅      | ✅   |
+| reya                | reya                         | ❌      | ✅   |
+| tenet               | Tenet                        | ✅      | ✅   |
+| bouncebit           | BounceBit                    | ✅      | ✅   |
+| mantle              | Mantle                       | ✅      | ✅   |
+| nahmii              | Nahmii                       | ✅      | ✅   |
+| tombchain           | Tombchain                    | ✅      | ❌   |
 
 ### Tokens
 
