@@ -1,7 +1,7 @@
 import { Fragment, h } from 'preact'
 import cx from 'classnames'
 import { useEffect, useRef, useState } from 'preact/hooks'
-import { TType } from '@web3icons/utils'
+import { TType } from 'src/types'
 
 interface TabsProps {
   className?: string

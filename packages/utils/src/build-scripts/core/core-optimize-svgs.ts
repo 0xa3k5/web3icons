@@ -1,4 +1,3 @@
-// Import the newly defined constants
 import * as path from 'path'
 import fs from 'fs'
 import {
@@ -28,13 +27,11 @@ export function optimizeSVGs() {
   ensureDirectoryExists(path.join(SVG_WALLETS_OUT_DIR, 'mono'))
   ensureDirectoryExists(path.join(SVG_WALLETS_OUT_DIR, 'branded'))
 
-  // Function to read SVGs from a directory
   const readSVGsFromDir = (dir: string): Record<TVariant, string[]> => ({
     branded: fs.readdirSync(path.join(dir, 'branded')),
     mono: fs.readdirSync(path.join(dir, 'mono')),
   })
 
-  // Function to process and optimize SVGs
   const processSVGs = (
     sourceDir: string,
     outDir: string,

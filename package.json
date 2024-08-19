@@ -18,7 +18,8 @@
   "devDependencies": {
     "@web3icons/eslint-config": "*",
     "prettier": "^3.3.3",
-    "turbo": "v2.0.11"
+    "turbo": "v2.0.11",
+    "@changesets/cli": "^2.27.7"
   },
   "engines": {
     "node": ">=18"
@@ -28,10 +29,6 @@
     "packages/*",
     "apps/*"
   ],
-  "dependencies": {
-    "@changesets/cli": "^2.27.7",
-    "vercel": "latest"
-  },
   "resolutions": {
     "typescript": "5.3.3",
     "esbuild": "^0.19.12"
