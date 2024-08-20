@@ -1,25 +1,25 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10.8169 7.88236V5.52942H13.7581L18.1699 9.05883L19.0522 12.5882C19.0522 19.6471 11.9934 22 9.34631 22C6.69928 22 4.93457 20.5295 4.93457 20.2353L9.34631 19.6471C11.3069 18.3724 15.2875 15.1765 15.5228 12.5882C15.5228 9.94123 12.4834 8.37236 10.8169 7.88236Z" fill="url(#paint0_linear_364_1760)"/>
-<path d="M10.8171 17.2941H7.87598V2H10.5231C14.6024 2 19.3465 5.5294 19.0524 13.1764C18.4642 7.88234 13.0719 5.5294 10.8171 5.5294V17.2941Z" fill="url(#paint1_linear_364_1760)"/>
-<path d="M7.87575 2L4.93457 4.05882V20.2353H7.58163C11.661 20.2353 16.1111 17 15.5228 12.5882C14.3464 16.7058 10.1305 17.2941 7.87575 17.2941V2Z" fill="url(#paint2_linear_364_1760)"/>
-<defs>
-<linearGradient id="paint0_linear_364_1760" x1="11.9999" y1="2.00002" x2="11.9999" y2="22" gradientUnits="userSpaceOnUse">
-<stop stop-color="#5A3B90"/>
-<stop offset="0.292" stop-color="#614397"/>
-<stop offset="0.615" stop-color="#8071B3"/>
-<stop offset="0.857" stop-color="#AEBADE"/>
-<stop offset="1" stop-color="#C2DCF1"/>
-</linearGradient>
-<linearGradient id="paint1_linear_364_1760" x1="19.0491" y1="11.2223" x2="4.9348" y2="11.2223" gradientUnits="userSpaceOnUse">
-<stop stop-color="#6C5DF4"/>
-<stop offset="0.437" stop-color="#8093D6"/>
-<stop offset="1" stop-color="#9DE2AE"/>
-</linearGradient>
-<linearGradient id="paint2_linear_364_1760" x1="4.93457" y1="12" x2="19.6404" y2="12" gradientUnits="userSpaceOnUse">
-<stop stop-color="#5B51EF"/>
-<stop offset="0.19" stop-color="#8367D3"/>
-<stop offset="0.45" stop-color="#B483AA"/>
-<stop offset="0.715" stop-color="#E7A081"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#DIA__a)" d="M10.817 7.882V5.53h2.941l4.412 3.53.882 3.53c0 7.058-7.059 9.411-9.706 9.411s-4.411-1.47-4.411-1.765l4.411-.588c1.96-1.275 5.942-4.47 6.177-7.059 0-2.647-3.04-4.216-4.706-4.706"/>
+    <path fill="url(#DIA__b)" d="M10.817 17.294H7.876V2h2.647c4.08 0 8.824 3.53 8.53 11.176-.589-5.294-5.981-7.647-8.236-7.647z"/>
+    <path fill="url(#DIA__c)" d="M7.876 2 4.935 4.059v16.176h2.647c4.079 0 8.53-3.235 7.94-7.647-1.176 4.118-5.392 4.706-7.646 4.706z"/>
+    <defs>
+        <linearGradient id="DIA__a" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5A3B90"/>
+            <stop offset=".292" stop-color="#614397"/>
+            <stop offset=".615" stop-color="#8071B3"/>
+            <stop offset=".857" stop-color="#AEBADE"/>
+            <stop offset="1" stop-color="#C2DCF1"/>
+        </linearGradient>
+        <linearGradient id="DIA__b" x1="19.049" x2="4.935" y1="11.222" y2="11.222" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6C5DF4"/>
+            <stop offset=".437" stop-color="#8093D6"/>
+            <stop offset="1" stop-color="#9DE2AE"/>
+        </linearGradient>
+        <linearGradient id="DIA__c" x1="4.935" x2="19.64" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5B51EF"/>
+            <stop offset=".19" stop-color="#8367D3"/>
+            <stop offset=".45" stop-color="#B483AA"/>
+            <stop offset=".715" stop-color="#E7A081"/>
+        </linearGradient>
+    </defs>
 </svg>

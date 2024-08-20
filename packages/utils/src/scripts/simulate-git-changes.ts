@@ -30,8 +30,7 @@ const simulateGitAndChangeset = () => {
   console.log('New Network Icons:', newNetworkIcons)
 
   // Simulating changeset log
-  let changesetLog =
-    '---\n"@web3icons/core": minor\n"@web3icons/react": minor\n---\n'
+  let changesetLog = '---\n"@web3icons/core": minor\n"@web3icons/react": minor\n---\n'
   if (newTokenIcons) {
     changesetLog += `New Token icons: ${formatIconsForMessage(newTokenIcons)}\n`
   }

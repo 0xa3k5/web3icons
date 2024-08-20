@@ -1,14 +1,14 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M6.37509 3.87488L2 20.1252H5.75008L8.25012 10.125H12.2939L13.8752 3.87488H6.37509Z" fill="url(#paint0_linear_364_957)"/>
-<path d="M18.0437 20.1252L22.0001 3.87488H18.2499L15.7498 13.8751H11.9998L10.1248 20.1252H18.0437Z" fill="url(#paint1_linear_364_957)"/>
-<defs>
-<linearGradient id="paint0_linear_364_957" x1="15.3371" y1="3.87488" x2="15.3371" y2="20.1252" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FB2F03"/>
-<stop offset="1" stop-color="#B42600"/>
-</linearGradient>
-<linearGradient id="paint1_linear_364_957" x1="16.0623" y1="3.87488" x2="16.0623" y2="20.1252" gradientUnits="userSpaceOnUse">
-<stop stop-color="#2560E2"/>
-<stop offset="1" stop-color="#2253D3"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#BMEX__a)" d="M6.375 3.875 2 20.125h3.75l2.5-10h4.044l1.581-6.25z"/>
+    <path fill="url(#BMEX__b)" d="M18.044 20.125 22 3.875h-3.75l-2.5 10H12l-1.875 6.25z"/>
+    <defs>
+        <linearGradient id="BMEX__a" x1="15.337" x2="15.337" y1="3.875" y2="20.125" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FB2F03"/>
+            <stop offset="1" stop-color="#B42600"/>
+        </linearGradient>
+        <linearGradient id="BMEX__b" x1="16.062" x2="16.062" y1="3.875" y2="20.125" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2560E2"/>
+            <stop offset="1" stop-color="#2253D3"/>
+        </linearGradient>
+    </defs>
 </svg>

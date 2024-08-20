@@ -1,10 +1,6 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M12 16.4999H16.1499L12 9.50011V5.00024L20.4998 18.9999H12V16.4999Z" fill="white"/>
-<path d="M12.0002 16.4999H7.83035L12.0002 9.50011V5.00024L3.50049 18.9999H12.0002V16.4999Z" fill="white"/>
-<path d="M11.9994 11.5V15.4999H9.49951L11.9994 11.5Z" fill="white"/>
-<path d="M12 11.5V15.4999H14.5L12 11.5Z" fill="white"/>
-<path d="M2 9.38013L11.9897 13.9999V14.485L2 12.3V9.38013Z" fill="white"/>
-<path d="M21.9999 8.03516L11.9902 14.005V14.17L21.9999 9.9651V8.03516Z" fill="white"/>
-<path d="M21.9999 13.8201L11.9902 14.49V14.33L21.9999 11.8901V13.8201Z" fill="white"/>
-<path d="M21.9999 9.96509L11.9902 14.165V14.33L21.9999 11.8901V9.96509Z" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="#fff" d="M12 16.5h4.15L12 9.5V5l8.5 14H12zm0 0H7.83l4.17-7V5L3.5 19H12z"/>
+    <path fill="#fff" d="M12 11.5v4H9.5zm0 0v4h2.5z"/>
+    <path fill="#fff" d="M2 9.38 11.99 14v.485L2 12.3zm20-1.345-10.01 5.97v.165L22 9.965z"/>
+    <path fill="#fff" d="m22 13.82-10.01.67v-.16L22 11.89zm0-3.855-10.01 4.2v.165L22 11.89z"/>
 </svg>

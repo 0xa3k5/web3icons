@@ -1,11 +1,11 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M2 17.4999L8.24997 10.78L9.49997 11.39L7.62498 13.53L11.065 11.9999L12.625 12.915L2 17.4999Z" fill="url(#paint0_linear_364_4849)"/>
-<path d="M22 17.4999L16.3749 11.695L19.4999 9.99994L15.7499 6.5H8.24998L4.5 9.99994L22 17.4999ZM8.87498 7.5H15.1249L17.315 9.555L15.1249 10.47L13.9999 9.49999H9.49998L12.2499 10.5H13.5L16.3749 13.53L6.685 9.555L8.87498 7.5Z" fill="white"/>
-<path d="M16.8459 11.4649L15.7059 10.2299L15.1259 10.4699L14.7759 10.1349L16.3758 11.6949L16.8459 11.4649Z" fill="#E9E9E9" fill-opacity="0.6"/>
-<defs>
-<linearGradient id="paint0_linear_364_4849" x1="16.7106" y1="7.49851" x2="5.48491" y2="18.2957" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FFA902"/>
-<stop offset="1" stop-color="#FFF000"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#GSWIFT__a)" d="m2 17.5 6.25-6.72 1.25.61-1.875 2.14 3.44-1.53 1.56.915z"/>
+    <path fill="#fff" d="m22 17.5-5.625-5.805L19.5 10l-3.75-3.5h-7.5L4.5 10zM8.875 7.5h6.25l2.19 2.055-2.19.915L14 9.5H9.5l2.75 1h1.25l2.875 3.03-9.69-3.975z"/>
+    <path fill="#E9E9E9" fill-opacity=".6" d="m16.846 11.465-1.14-1.235-.58.24-.35-.335 1.6 1.56z"/>
+    <defs>
+        <linearGradient id="GSWIFT__a" x1="16.711" x2="5.485" y1="7.499" y2="18.296" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFA902"/>
+            <stop offset="1" stop-color="#FFF000"/>
+        </linearGradient>
+    </defs>
 </svg>

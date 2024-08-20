@@ -4,12 +4,7 @@
   { "id": "cosmos-hub", "name": "Cosmos Hub", "nativeCoinId": "cosmos" },
   { "id": "litecoin", "name": "Litecoin", "nativeCoinId": "litecoin" },
   { "id": "wemix", "name": "Wemix", "nativeCoinId": "wemix" },
-  {
-    "id": "gnosis",
-    "chainId": 100,
-    "name": "Gnosis Chain",
-    "nativeCoinId": "xDai"
-  },
+  { "id": "gnosis", "chainId": 100, "name": "Gnosis Chain", "nativeCoinId": "xDai" },
   {
     "id": "hedera-hashgraph",
     "chainId": 295,
@@ -18,24 +13,9 @@
     "nativeCoinId": "hedera-hashgraph"
   },
   { "id": "rari", "name": "Rari", "nativeCoinId": "rari" },
-  {
-    "id": "zetachain",
-    "chainId": 7000,
-    "name": "Zeta Chain",
-    "nativeCoinId": "zetachain"
-  },
-  {
-    "id": "bitcoin",
-    "name": "Bitcoin",
-    "shortname": "bitcoin",
-    "nativeCoinId": "bitcoin"
-  },
-  {
-    "id": "fio",
-    "name": "FIO Protocol",
-    "shortname": "fio",
-    "nativeCoinId": "FIO"
-  },
+  { "id": "zetachain", "chainId": 7000, "name": "Zeta Chain", "nativeCoinId": "zetachain" },
+  { "id": "bitcoin", "name": "Bitcoin", "shortname": "bitcoin", "nativeCoinId": "bitcoin" },
+  { "id": "fio", "name": "FIO Protocol", "shortname": "fio", "nativeCoinId": "FIO" },
   { "id": "gravity", "name": "gravity-network" },
   {
     "id": "lava-network",
@@ -43,18 +23,8 @@
     "nativeCoinId": "lava-network",
     "shortName": "lava"
   },
-  {
-    "id": "neo-x",
-    "name": "neo-x",
-    "nativeCoinId": "neo",
-    "shortName": "neo x"
-  },
-  {
-    "id": "abstract",
-    "name": "abstract",
-    "nativeCoinId": "eth",
-    "shortName": "abs"
-  },
+  { "id": "neo-x", "name": "neo-x", "nativeCoinId": "neo", "shortName": "neo x" },
+  { "id": "abstract", "name": "abstract", "nativeCoinId": "eth", "shortName": "abs" },
   { "id": "apex-layer", "name": "apex layer", "shortName": "apex" },
   { "id": "alfa-one", "name": "alfa1" },
   { "id": "argent", "name": "argent x" },
@@ -108,13 +78,7 @@
     "chainId": "119",
     "nativeCoinId": "nuls"
   },
-  {
-    "id": "flare",
-    "name": "flare",
-    "shortname": "flare",
-    "chainId": "14",
-    "nativeCoinId": "flr"
-  },
+  { "id": "flare", "name": "flare", "shortname": "flare", "chainId": "14", "nativeCoinId": "flr" },
   {
     "id": "kardia",
     "name": "kardia chain",
@@ -144,27 +108,9 @@
     "chainId": "148",
     "nativeCoinId": "smr"
   },
-  {
-    "id": "step",
-    "name": "step",
-    "shortname": "step",
-    "chainId": "1234",
-    "nativeCoinId": "step"
-  },
-  {
-    "id": "sys",
-    "name": "syscoin",
-    "shortname": "sys",
-    "chainId": "57",
-    "nativeCoinId": "sys"
-  },
-  {
-    "id": "ubiq",
-    "name": "ubiq",
-    "shortname": "ubiq",
-    "chainId": "8",
-    "nativeCoinId": "ubq"
-  },
+  { "id": "step", "name": "step", "shortname": "step", "chainId": "1234", "nativeCoinId": "step" },
+  { "id": "sys", "name": "syscoin", "shortname": "sys", "chainId": "57", "nativeCoinId": "sys" },
+  { "id": "ubiq", "name": "ubiq", "shortname": "ubiq", "chainId": "8", "nativeCoinId": "ubq" },
   {
     "id": "xdc",
     "name": "xdc network",
@@ -172,13 +118,7 @@
     "chainId": "50",
     "nativeCoinId": "xdc"
   },
-  {
-    "id": "zyx",
-    "name": "zyx",
-    "shortname": "zyx",
-    "chainId": "55",
-    "nativeCoinId": "zyx"
-  },
+  { "id": "zyx", "name": "zyx", "shortname": "zyx", "chainId": "55", "nativeCoinId": "zyx" },
   {
     "id": "hubblenet",
     "name": "hubble exchange",
@@ -200,11 +140,26 @@
     "chainId": "2001",
     "nativeCoinId": "mADA"
   },
+  { "id": "reya", "name": "reya", "shortname": "reya", "chainId": "1729", "nativeCoinId": "eth" },
   {
-    "id": "reya",
-    "name": "reya",
-    "shortname": "reya",
-    "chainId": "1729",
-    "nativeCoinId": "eth"
+    "id": "hubble-exchange",
+    "name": "hubble exchange",
+    "shortname": "hubble",
+    "chainId": "1992",
+    "nativeCoinId": "usdc"
+  },
+  {
+    "id": "zeta",
+    "name": "zeta chain",
+    "shortname": "zeta",
+    "chainId": "7000",
+    "nativeCoinId": "zeta"
+  },
+  {
+    "id": "zeta-chain",
+    "name": "zeta chain",
+    "shortname": "zeta",
+    "chainId": 7000,
+    "nativeCoinId": "zeta"
   }
 ]

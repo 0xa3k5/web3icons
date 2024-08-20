@@ -16,9 +16,7 @@ let totalTokens = 0
 
 // Generate the Markdown table content
 const generateWalletsTable = (): string => {
-  const wallets: IWalletMetadata[] = JSON.parse(
-    fs.readFileSync(WALLETS_METADATA_PATH, 'utf8'),
-  )
+  const wallets: IWalletMetadata[] = JSON.parse(fs.readFileSync(WALLETS_METADATA_PATH, 'utf8'))
 
   let tableContent = '### Wallets\n\n| id | name | branded | mono |\n'
   tableContent += '|----|------|---------|------|\n'
@@ -36,9 +34,7 @@ const generateWalletsTable = (): string => {
 }
 
 const generateNetworksTable = (): string => {
-  const networks: INetworkMetadata[] = JSON.parse(
-    fs.readFileSync(NETWORKS_METADATA_PATH, 'utf8'),
-  )
+  const networks: INetworkMetadata[] = JSON.parse(fs.readFileSync(NETWORKS_METADATA_PATH, 'utf8'))
   let tableContent = '### Networks\n\n| id | name | branded | mono |\n'
   tableContent += '|----|------|---------|------|\n'
 
@@ -55,9 +51,7 @@ const generateNetworksTable = (): string => {
 }
 
 const generateTokensTable = (): string => {
-  const tokens: ITokenMetadata[] = JSON.parse(
-    fs.readFileSync(TOKENS_METADATA_PATH, 'utf8'),
-  )
+  const tokens: ITokenMetadata[] = JSON.parse(fs.readFileSync(TOKENS_METADATA_PATH, 'utf8'))
   let tableContent = '### Tokens\n\n| name | symbol | branded | mono |\n'
   tableContent += '|------|--------|---------|------|\n'
 

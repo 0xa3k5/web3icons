@@ -55,28 +55,16 @@ export const generateReactComponent = async (baseName: string, type: TType) => {
       throw new Error('Invalid type')
   }
 
-  const hasBrandedVariant = fs.existsSync(
-    path.join(svgOutDir, 'branded', `${baseName}.svg`),
-  )
-  const hasMonoVariant = fs.existsSync(
-    path.join(svgOutDir, 'mono', `${baseName}.svg`),
-  )
+  const hasBrandedVariant = fs.existsSync(path.join(svgOutDir, 'branded', `${baseName}.svg`))
+  const hasMonoVariant = fs.existsSync(path.join(svgOutDir, 'mono', `${baseName}.svg`))
 
   const brandedJSX = hasBrandedVariant
-    ? readyForJSX(
-        fs.readFileSync(
-          path.join(svgOutDir, 'branded', `${baseName}.svg`),
-          'utf-8',
-        ),
-      )
+    ? readyForJSX(fs.readFileSync(path.join(svgOutDir, 'branded', `${baseName}.svg`), 'utf-8'))
     : ''
   const monoJSX = hasMonoVariant
     ? readyForJSX(
         injectCurrentColor(
-          fs.readFileSync(
-            path.join(svgOutDir, 'mono', `${baseName}.svg`),
-            'utf-8',
-          ),
+          fs.readFileSync(path.join(svgOutDir, 'mono', `${baseName}.svg`), 'utf-8'),
         ),
       )
     : ''

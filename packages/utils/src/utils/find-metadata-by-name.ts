@@ -21,22 +21,21 @@ export const findByFileName = <
   fileName: string,
   data: T[],
 ): T[] | undefined => {
-  // eslint-disable-next-line no-unused-vars
   let caseConverter: (str: string) => string = (str) => str.toLowerCase()
 
   let fields: (keyof T)[]
 
   switch (type) {
     case 'token':
-      fields = ['id', 'name', 'symbol']
+      fields = ['id', 'name', 'symbol'] as (keyof T)[]
       caseConverter = (str) => str.toLowerCase()
       break
     case 'network':
-      fields = ['id', 'name', 'shortname']
+      fields = ['id', 'name', 'shortname'] as (keyof T)[]
       caseConverter = (str) => str.toLowerCase()
       break
     case 'wallet':
-      fields = ['id', 'name']
+      fields = ['id', 'name'] as (keyof T)[]
       caseConverter = toKebabCase
       break
     default:
@@ -46,9 +45,7 @@ export const findByFileName = <
   const found = data.filter((item) =>
     fields.some((field) => {
       const value = item[field]
-      return value
-        ? caseConverter(value as string) === caseConverter(fileName)
-        : false
+      return value ? caseConverter(value as string) === caseConverter(fileName) : false
     }),
   )
 

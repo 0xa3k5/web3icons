@@ -1,59 +1,65 @@
 import { confirm } from '@inquirer/prompts'
-import {
-  INetworkMetadata,
-  ITokenMetadata,
-  IWalletMetadata,
-  TType,
-} from '../../types'
-import {
-  getShortName,
-  getChainId,
-  getNativeCoinId,
-  getMarketCapRank,
-} from './icon-add-prompts'
+import { INetworkMetadata, ITokenMetadata, IWalletMetadata, TType } from '../../types'
+import { getShortName, getChainId, getNativeCoinId, getMarketCapRank } from './icon-add-prompts'
 
 type Metadata = INetworkMetadata | ITokenMetadata | IWalletMetadata
 
-const promptForMissingFields = async (
-  metadata: Metadata,
-  type: TType,
-): Promise<Metadata> => {
-  const updatedMetadata = { ...metadata }
-
+const hasMissingFields = (metadata: Metadata, type: TType): Metadata | false => {
   if (type === 'network') {
+    const network = metadata as INetworkMetadata
     if (
-      (updatedMetadata as INetworkMetadata).shortname === undefined ||
-      (updatedMetadata as INetworkMetadata).chainId === undefined ||
-      (updatedMetadata as INetworkMetadata).nativeCoinId === undefined
+      network.shortName === undefined ||
+      network.chainId === undefined ||
+      network.nativeCoinId === undefined
     ) {
-      console.log(
-        `⚠️ some fields are missing for ${updatedMetadata.name}\n\n${JSON.stringify(updatedMetadata, null, 2)}`,
-      )
-    }
-
-    if ((updatedMetadata as INetworkMetadata).shortname === undefined) {
-      ;(updatedMetadata as INetworkMetadata).shortname = await getShortName()
-    }
-    if ((updatedMetadata as INetworkMetadata).chainId === undefined) {
-      ;(updatedMetadata as INetworkMetadata).chainId = await getChainId()
-    }
-    if ((updatedMetadata as INetworkMetadata).nativeCoinId === undefined) {
-      ;(updatedMetadata as INetworkMetadata).nativeCoinId =
-        await getNativeCoinId()
-    }
+      return metadata
+    } else return false
   }
-
   if (type === 'token') {
-    if ((updatedMetadata as ITokenMetadata).marketCapRank === null) {
-      ;(updatedMetadata as ITokenMetadata).marketCapRank =
-        await getMarketCapRank(
-          'This field ranks the token by market capitalization.',
-        )
-    }
+    const token = metadata as ITokenMetadata
+    if (token.marketCapRank === null || token.marketCapRank === undefined) {
+      return metadata
+    } else return false
   }
 
+  return false
+}
+
+const promptForMissingFields = async (metadata: Metadata, type: TType): Promise<Metadata> => {
+  if (type === 'network') {
+    const network = metadata as INetworkMetadata
+
+    if (
+      network.shortName === undefined ||
+      network.chainId === undefined ||
+      network.nativeCoinId === undefined
+    ) {
+      const missingFieldNames = Object.entries(metadata).find((a) => {
+        if (a[1] === undefined) {
+          return a[0]
+        }
+      })
+      console.log(`⚠️ missing: ${missingFieldNames} for ${metadata.name}`)
+    }
+
+    if (network.shortName === undefined) {
+      network.shortName = await getShortName()
+    }
+    if (network.chainId === undefined) {
+      network.chainId = await getChainId()
+    }
+    if (network.nativeCoinId === undefined) {
+      network.nativeCoinId = await getNativeCoinId()
+    }
+  }
+  if (type === 'token') {
+    if ((metadata as ITokenMetadata).marketCapRank === null) {
+      ;(metadata as ITokenMetadata).marketCapRank =
+        (await getMarketCapRank('This field ranks the token by market capitalization.')) ?? null
+    }
+  }
   // Assuming all wallet metadata fields are required, no need for additional prompts.
-  return updatedMetadata
+  return metadata
 }
 
 export const confirmTheMetadata = async ({
@@ -63,11 +69,12 @@ export const confirmTheMetadata = async ({
   type: TType
   metadata: Metadata
 }): Promise<Metadata | false> => {
-  const updatedMetadata = await promptForMissingFields(metadata, type)
-
-  const confirmed = await confirm({
-    message: `Do you want to add ${updatedMetadata.name} to the metadata?\n\n${JSON.stringify(updatedMetadata, null, 2)}`,
-  })
-
-  return confirmed ? updatedMetadata : false
+  if (hasMissingFields(metadata, type)) {
+    const updatedMetadata = await promptForMissingFields(metadata, type)
+    const confirmed = await confirm({
+      message: `Do you want to add ${updatedMetadata.name} to the metadata?\n\n${JSON.stringify(updatedMetadata, null, 2)}`,
+    })
+    return confirmed ? updatedMetadata : false
+  }
+  return metadata
 }

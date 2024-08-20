@@ -1,21 +1,21 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_364_13762" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2" y="2" width="20" height="20">
-<path d="M22 2H2V22H22V2Z" fill="white"/>
-</mask>
-<g mask="url(#mask0_364_13762)">
-<path d="M2 2H22V22H2V2Z" fill="#333333"/>
-<path d="M22 2L2 22V2H22Z" fill="#5901F6"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M9.01001 15.0152C8.997 15.0023 8.98402 14.9894 8.97109 14.9766C6.30394 12.3087 5.48537 8.80156 7.14323 7.1437C8.80109 5.48548 12.3075 6.30406 14.9747 8.97192L14.9982 8.99584L14.0343 9.96478L14.0082 9.93834C11.8857 7.81513 9.25359 7.00584 8.12965 8.13013C7.00537 9.25442 7.81465 11.8873 9.93751 14.0102L9.97394 14.0466L9.01001 15.0152Z" fill="url(#paint0_linear_364_13762)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9899 8.98511L15.0288 9.02368C17.696 11.6916 18.5146 15.1986 16.8567 16.8566C15.1988 18.5147 11.6924 17.6961 9.02528 15.0283L9.00171 15.0044L9.96528 14.0355L9.99171 14.0619C12.1142 16.1851 14.7463 16.9944 15.8702 15.8701C16.9946 14.7458 16.1852 12.113 14.0624 9.99011C14.0503 9.97794 14.0382 9.9658 14.026 9.95368L14.9899 8.98511Z" fill="url(#paint1_linear_364_13762)"/>
-</g>
-<defs>
-<linearGradient id="paint0_linear_364_13762" x1="16.6382" y1="9.89927" x2="10.2226" y2="16.2792" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FBFCFA"/>
-<stop offset="0.817" stop-color="#9359FD" stop-opacity="0.07"/>
-</linearGradient>
-<linearGradient id="paint1_linear_364_13762" x1="9.59988" y1="14.9445" x2="14.562" y2="10.832" gradientUnits="userSpaceOnUse">
-<stop stop-color="#01FDFE"/>
-<stop offset="1" stop-color="#01FDFE" stop-opacity="0.06"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <mask id="PROS__a" width="20" height="20" x="2" y="2" maskUnits="userSpaceOnUse" style="mask-type:luminance">
+        <path fill="#fff" d="M22 2H2v20h20z"/>
+    </mask>
+    <g mask="url(#PROS__a)">
+        <path fill="#333" d="M2 2h20v20H2z"/>
+        <path fill="#5901F6" d="M22 2 2 22V2z"/>
+        <path fill="url(#PROS__b)" fill-rule="evenodd" d="m9.01 15.015-.039-.038c-2.667-2.668-3.486-6.175-1.828-7.833s5.164-.84 7.832 1.828l.023.024-.964.969-.026-.027C11.886 7.815 9.254 7.006 8.13 8.13s-.315 3.757 1.808 5.88l.036.037z" clip-rule="evenodd"/>
+        <path fill="url(#PROS__c)" fill-rule="evenodd" d="m14.99 8.985.039.039c2.667 2.668 3.486 6.175 1.828 7.833s-5.165.84-7.832-1.829l-.023-.024.963-.968.027.026c2.122 2.123 4.754 2.932 5.878 1.808s.315-3.757-1.808-5.88l-.036-.036z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="PROS__b" x1="16.638" x2="10.223" y1="9.899" y2="16.279" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FBFCFA"/>
+            <stop offset=".817" stop-color="#9359FD" stop-opacity=".07"/>
+        </linearGradient>
+        <linearGradient id="PROS__c" x1="9.6" x2="14.562" y1="14.944" y2="10.832" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#01FDFE"/>
+            <stop offset="1" stop-color="#01FDFE" stop-opacity=".06"/>
+        </linearGradient>
+    </defs>
 </svg>
