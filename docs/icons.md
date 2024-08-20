@@ -1,8 +1,8 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (119)](#networks)
-- [tokens (1892)](#tokens)
+- [networks (123)](#networks)
+- [tokens (1897)](#tokens)
 
 ### Wallets
 
@@ -52,7 +52,7 @@ jump to section:
 | id                  | name                         | branded | mono |
 | ------------------- | ---------------------------- | ------- | ---- |
 | kujira              | Kujira                       | ✅      | ✅   |
-| eos                 | EOS evm                      | ✅      | ✅   |
+| eos                 | EOS evm                      | ❌      | ✅   |
 | aurora              | Aurora                       | ✅      | ✅   |
 | polygon-pos         | Polygon                      | ✅      | ✅   |
 | cardano             | Cardano                      | ✅      | ✅   |
@@ -164,12 +164,16 @@ jump to section:
 | hubblenet           | hubble exchange              | ✅      | ✅   |
 | milkomeda-a1        | milkomeda A1                 | ✅      | ✅   |
 | milkomeda-c1        | milkomeda C1                 | ✅      | ✅   |
-| reya                | reya                         | ❌      | ✅   |
+| reya                | reya                         | ✅      | ✅   |
 | tenet               | Tenet                        | ✅      | ✅   |
 | bouncebit           | BounceBit                    | ✅      | ✅   |
 | mantle              | Mantle                       | ✅      | ✅   |
 | nahmii              | Nahmii                       | ✅      | ✅   |
 | tombchain           | Tombchain                    | ✅      | ❌   |
+| hubble-exchange     | hubble exchange              | ✅      | ✅   |
+| kucoin              | kucoin                       | ✅      | ✅   |
+| zeta                | zeta chain                   | ✅      | ✅   |
+| zeta-chain          | zeta chain                   | ✅      | ✅   |
 
 ### Tokens
 
@@ -404,7 +408,7 @@ jump to section:
 | Bit2Me                                 | b2m         | ✅      | ✅   |
 | Bitcicoin                              | bitci       | ✅      | ✅   |
 | Catcoin                                | cat         | ✅      | ❌   |
-| Bitcoin                                | btc         | ✅      | ✅   |
+| Bitcoin                                | btc         | ✅      | ❌   |
 | Bitcoin 2                              | btc2        | ✅      | ✅   |
 | Bitcoin SV                             | bsv         | ✅      | ✅   |
 | Bitcoin Diamond                        | bcd         | ✅      | ✅   |
@@ -2067,3 +2071,8 @@ jump to section:
 | AMZCoin                                | amz         | ✅      | ✅   |
 | USN                                    | usn         | ✅      | ✅   |
 | Gravity                                | g           | ✅      | ✅   |
+| 0x0.ai: AI Smart Contract              | 0x0         | ✅      | ✅   |
+| 0xGasless                              | 0xgas       | ✅      | ❌   |
+| OneArt                                 | 1art        | ✅      | ✅   |
+| 1inch                                  | 1inch       | ✅      | ✅   |
+| 2DAI.io                                | 2dai        | ✅      | ✅   |
