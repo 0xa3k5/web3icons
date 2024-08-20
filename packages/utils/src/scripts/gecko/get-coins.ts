@@ -8,10 +8,7 @@ fetch('https://api.coingecko.com/api/v3/coins/list')
   })
   .then((res) => {
     // write the coins to a JSON file
-    fs.writeFileSync(
-      path.join(__dirname, './gecko-coins.json'),
-      JSON.stringify(res, null, 2),
-    )
+    fs.writeFileSync(path.join(__dirname, './gecko-coins.json'), JSON.stringify(res, null, 2))
 
     console.log('✅ gecko-coins.json updated')
   })

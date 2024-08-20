@@ -55,7 +55,7 @@ export const findNetwork = ({
       (net) =>
         net.id.toLowerCase() === toKebabCase(network) ||
         net.name.toLowerCase() === network.toLowerCase() ||
-        net.shortname?.toLowerCase() === network.toLowerCase(),
+        net.shortName?.toLowerCase() === network.toLowerCase(),
     )
     return networkObj
   }

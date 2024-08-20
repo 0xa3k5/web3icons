@@ -1,0 +1,22 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.13513 2.27026L12.2703 5.1027V10.7892L7.13513 13.6216L2 10.7892V5.1027L7.13513 2.27026ZM2.54054 10.4703L6.86487 12.8594V7.83783L2.54054 5.69189V10.4703ZM7.40541 7.84323V12.8594L11.7297 10.4703V5.6973L7.40541 7.84323ZM11.4216 5.24864L7.13513 7.37837L2.84865 5.24864L7.13513 2.88648L11.4216 5.24864Z" fill="url(#paint0_linear_364_8682)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.8648 2.27026L22.0001 5.1027V10.7892L16.8648 13.6216L11.7297 10.7892V5.1027L16.8648 2.27026ZM12.2703 10.4703L16.5947 12.8594V7.83783L12.2703 5.69189V10.4703ZM17.1351 7.84323V12.8594L21.4595 10.4703V5.6973L17.1351 7.84323ZM21.1513 5.24864L16.8648 7.37837L12.5784 5.24864L16.8648 2.88648L21.1513 5.24864Z" fill="url(#paint1_linear_364_8682)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.0001 10.3784L17.1352 13.2108V18.8973L12.0001 21.7297L6.86499 18.8973V13.2108L12.0001 10.3784ZM7.40553 18.5783L11.7298 20.9675V15.946L7.40553 13.8001V18.5783ZM12.2704 15.9514V20.9675L16.5948 18.5783V13.8054L12.2704 15.9514ZM16.2866 13.3567L12.0001 15.4865L7.71363 13.3567L12.0001 10.9946L16.2866 13.3567Z" fill="url(#paint2_linear_364_8682)"/>
+<defs>
+<linearGradient id="paint0_linear_364_8682" x1="4.10527" y1="6.90347" x2="20.9303" y2="17.0219" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C66329"/>
+<stop offset="0.42" stop-color="#E08D39"/>
+<stop offset="1" stop-color="#D6B087"/>
+</linearGradient>
+<linearGradient id="paint1_linear_364_8682" x1="2.52636" y1="14.3165" x2="22" y2="14.3165" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E1B88A"/>
+<stop offset="0.47" stop-color="#274527"/>
+<stop offset="1" stop-color="#3A5959"/>
+</linearGradient>
+<linearGradient id="paint2_linear_364_8682" x1="12.0005" y1="10.3779" x2="12.0005" y2="21.7292" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D3B088"/>
+<stop offset="0.41" stop-color="#B4B4B4"/>
+<stop offset="1" stop-color="#A3A2A4"/>
+</linearGradient>
+</defs>
+</svg>

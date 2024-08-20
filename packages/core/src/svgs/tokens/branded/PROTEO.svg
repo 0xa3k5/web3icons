@@ -1,11 +1,11 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.88431 5.17897L5.68433 11.4737L12.0002 22L18.3159 11.4737L14.1159 5.17897L15.3581 11.4737H16.8371L12.5265 19.3685V11.4737H13.8791L12.0212 2.02632L12.0002 2L11.979 2.02632L10.1212 11.4737H11.4738V19.3685L7.15801 11.4737H8.64223L9.88431 5.17897Z" fill="#D7A012"/>
-<path d="M9.88431 5.17897L5.68433 11.4737L12.0002 22L18.3159 11.4737L14.1159 5.17897L15.3581 11.4737H16.8371L12.5265 19.3685V11.4737H13.8791L12.0212 2.02632L12.0002 2L11.979 2.02632L10.1212 11.4737H11.4738V19.3685L7.15801 11.4737H8.64223L9.88431 5.17897Z" fill="url(#paint0_linear_364_10822)" fill-opacity="0.3"/>
-<defs>
-<linearGradient id="paint0_linear_364_10822" x1="12.0002" y1="6.4737" x2="12.0002" y2="19.6317" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="0.68" stop-color="white" stop-opacity="0"/>
-<stop offset="1" stop-color="white" stop-opacity="0.5"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="#D7A012" d="m9.884 5.179-4.2 6.295L12 22l6.316-10.526-4.2-6.295 1.242 6.295h1.48l-4.312 7.895v-7.895h1.353l-1.858-9.448-.02-.026-.022.026-1.858 9.448h1.353v7.895l-4.316-7.895h1.484z"/>
+    <path fill="url(#PROTEO__a)" fill-opacity=".3" d="m9.884 5.179-4.2 6.295L12 22l6.316-10.526-4.2-6.295 1.242 6.295h1.48l-4.312 7.895v-7.895h1.353l-1.858-9.448-.02-.026-.022.026-1.858 9.448h1.353v7.895l-4.316-7.895h1.484z"/>
+    <defs>
+        <linearGradient id="PROTEO__a" x1="12" x2="12" y1="6.474" y2="19.632" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#fff"/>
+            <stop offset=".68" stop-color="#fff" stop-opacity="0"/>
+            <stop offset="1" stop-color="#fff" stop-opacity=".5"/>
+        </linearGradient>
+    </defs>
 </svg>

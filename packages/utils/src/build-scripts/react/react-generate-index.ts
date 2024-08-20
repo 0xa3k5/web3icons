@@ -31,9 +31,6 @@ export function generateIndex() {
 
   // Generate icons/index.ts in src
   const iconsIndexContent = `export * from './tokens';\nexport * from './networks';\nexport * from './wallets';\n`
-  fs.writeFileSync(
-    path.join(ROOT_REACT, 'src', 'icons', 'index.ts'),
-    iconsIndexContent,
-  )
+  fs.writeFileSync(path.join(ROOT_REACT, 'src', 'icons', 'index.ts'), iconsIndexContent)
   console.log('✓ Generated: icons index file')
 }

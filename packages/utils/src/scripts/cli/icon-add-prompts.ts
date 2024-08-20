@@ -1,4 +1,4 @@
-import { input } from '@inquirer/prompts'
+import { input, number } from '@inquirer/prompts'
 
 export const getId = async (reason?: string) => {
   const message = reason ? `id (Reason: ${reason})` : 'id'
@@ -33,19 +33,18 @@ export const getSymbol = async (reason?: string) => {
 
 export const getMarketCapRank = async (reason?: string) => {
   const message = reason ? `marketCapRank (Reason: ${reason})` : 'marketCapRank'
-  const answer = await input({
+  const answer = await number({
     message,
-    validate: (value) => value.match(/^[0-9]+$/) !== null,
   })
-  return parseInt(answer)
+  return answer
 }
 
-export const getChainId = async (reason?: string) => {
+export const getChainId = async (reason?: string): Promise<number | undefined> => {
   const message = reason ? `chainId (Reason: ${reason})` : 'chainId'
-  const answer = await input({
+  const answer = await number({
     message,
   })
-  return answer.trim() || undefined
+  return answer
 }
 
 export const getShortName = async (reason?: string) => {
