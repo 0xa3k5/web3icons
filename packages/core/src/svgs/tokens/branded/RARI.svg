@@ -1,10 +1,10 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M2 4.50003H17.9885C20.2043 4.50003 22 6.28361 22 8.48433C21.999 9.22746 21.7902 9.95563 21.397 10.5863C21.0038 11.217 20.442 11.725 19.775 12.053C21.0928 12.6958 22 14.03 22 15.5715C22 15.6921 21.9943 15.8108 21.9835 15.9286H22V19.5H16.2857V15.6958C16.2857 15.0358 15.68 14.5 14.9335 14.5H7.71428V19.5H2V4.50003ZM15.2143 8.07146H7.71428V10.2143H15.2143C15.675 10.2143 16.2857 9.7343 16.2857 9.14296C16.2857 8.55146 15.675 8.07146 15.2143 8.07146Z" fill="url(#paint0_linear_364_7675)"/>
-<defs>
-<linearGradient id="paint0_linear_364_7675" x1="3.985" y1="7.47003" x2="19.7685" y2="19.0918" gradientUnits="userSpaceOnUse">
-<stop offset="0.058" stop-color="#2568FF"/>
-<stop offset="0.306" stop-color="#5E9AFE"/>
-<stop offset="0.819" stop-color="#FF74F2"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#RARI__a)" fill-rule="evenodd" d="M2 4.5h15.988C20.205 4.5 22 6.284 22 8.484a3.98 3.98 0 0 1-2.225 3.569C21.093 12.696 22 14.03 22 15.571q0 .181-.017.358H22V19.5h-5.714v-3.804c0-.66-.606-1.196-1.353-1.196H7.715v5H2zm13.214 3.571h-7.5v2.143h7.5c.461 0 1.072-.48 1.072-1.071 0-.592-.611-1.072-1.072-1.072" clip-rule="evenodd"/>
+    <defs>
+        <linearGradient id="RARI__a" x1="3.985" x2="19.768" y1="7.47" y2="19.092" gradientUnits="userSpaceOnUse">
+            <stop offset=".058" stop-color="#2568FF"/>
+            <stop offset=".306" stop-color="#5E9AFE"/>
+            <stop offset=".819" stop-color="#FF74F2"/>
+        </linearGradient>
+    </defs>
 </svg>

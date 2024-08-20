@@ -5,9 +5,7 @@ import { TType, TVariant } from '../types'
  * @param filePath The file path of the icon
  * @returns The type and variant of the icon
  */
-export const getTypeAndVariant = (
-  filePath: string,
-): { type: TType; variant: TVariant } => {
+export const getTypeAndVariant = (filePath: string): { type: TType; variant: TVariant } => {
   let type: TType = 'token'
   let variant: TVariant = 'branded'
 

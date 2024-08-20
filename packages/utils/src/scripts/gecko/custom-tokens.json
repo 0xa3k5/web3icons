@@ -1,17 +1,6 @@
 [
-  {
-    "id": "sensegenesis",
-    "symbol": "sense",
-    "name": "Sense"
-  },
-  {
-    "id": "amzcoinvault",
-    "symbol": "amz",
-    "name": "AMZCoin"
-  },
-  {
-    "id": "danchortoken",
-    "symbol": "usn",
-    "name": "USN"
-  }
+  { "id": "sensegenesis", "symbol": "sense", "name": "Sense" },
+  { "id": "amzcoinvault", "symbol": "amz", "name": "AMZCoin" },
+  { "id": "danchortoken", "symbol": "usn", "name": "USN" },
+  { "id": "apefi", "name": "apefi", "symbol": "apefi" }
 ]

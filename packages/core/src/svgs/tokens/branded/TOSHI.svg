@@ -1,24 +1,24 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M2 3.84204V5.95784L4.04737 7.98416L8.51054 9.19472V10.1421L10.3053 14.5841V16.0526L11.9842 17.9105V17.9473L12 17.9316L12.0158 17.9473V17.9105L13.6948 16.0526V14.579L15.4842 10.1368V9.18944L19.958 7.97889L22 5.95784V3.84204L21.4579 5.31046L19.9527 6.21573L15.4895 6.98942L12.0158 6.22099V6.21573H11.9842V6.22099L8.51054 6.98942L4.04737 6.21573L2.54211 5.31046L2 3.84204Z" fill="url(#paint0_linear_364_2454)"/>
-<path d="M6.73633 15.3896L7.82054 10.5159L9.52581 14.6528L9.13107 16.3369L11.4732 18.758V20.158L6.73633 15.3896Z" fill="url(#paint1_linear_364_2454)"/>
-<path d="M17.2637 15.3896L16.1794 10.5159L14.4742 14.6528L14.8689 16.3369L12.5269 18.758V20.158L17.2637 15.3896Z" fill="url(#paint2_linear_364_2454)"/>
-<defs>
-<linearGradient id="paint0_linear_364_2454" x1="3.00001" y1="6.78863" x2="21.5865" y2="6.43824" gradientUnits="userSpaceOnUse">
-<stop stop-color="#380D78"/>
-<stop offset="0.43" stop-color="#56758A"/>
-<stop offset="0.75" stop-color="#7BF29E"/>
-<stop offset="0.93" stop-color="#8FD5B8"/>
-<stop offset="1" stop-color="#A7ACC2"/>
-</linearGradient>
-<linearGradient id="paint1_linear_364_2454" x1="1.99948" y1="9.41736" x2="9.1464" y2="23.1451" gradientUnits="userSpaceOnUse">
-<stop stop-color="#24153E"/>
-<stop offset="1" stop-color="#77E397"/>
-</linearGradient>
-<linearGradient id="paint2_linear_364_2454" x1="14.8951" y1="10.5156" x2="14.8951" y2="20.1577" gradientUnits="userSpaceOnUse">
-<stop stop-color="#A69BD7"/>
-<stop offset="0.3" stop-color="#84E7AE"/>
-<stop offset="0.48" stop-color="#70D78F"/>
-<stop offset="1" stop-color="#3D5F5E"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#TOSHI__a)" d="M2 3.842v2.116l2.047 2.026 4.464 1.21v.948l1.794 4.442v1.469l1.68 1.857v.037l.015-.015.016.015v-.037l1.679-1.857v-1.474l1.79-4.442v-.948l4.473-1.21L22 5.958V3.842l-.542 1.468-1.505.906-4.463.773-3.474-.768v-.005h-.032v.005l-3.473.768-4.464-.773-1.505-.906z"/>
+    <path fill="url(#TOSHI__b)" d="m6.736 15.39 1.085-4.874 1.705 4.137-.395 1.684 2.342 2.421v1.4z"/>
+    <path fill="url(#TOSHI__c)" d="m17.264 15.39-1.085-4.874-1.705 4.137.395 1.684-2.342 2.421v1.4z"/>
+    <defs>
+        <linearGradient id="TOSHI__a" x1="3" x2="21.587" y1="6.789" y2="6.438" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#380D78"/>
+            <stop offset=".43" stop-color="#56758A"/>
+            <stop offset=".75" stop-color="#7BF29E"/>
+            <stop offset=".93" stop-color="#8FD5B8"/>
+            <stop offset="1" stop-color="#A7ACC2"/>
+        </linearGradient>
+        <linearGradient id="TOSHI__b" x1="1.999" x2="9.146" y1="9.417" y2="23.145" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#24153E"/>
+            <stop offset="1" stop-color="#77E397"/>
+        </linearGradient>
+        <linearGradient id="TOSHI__c" x1="14.895" x2="14.895" y1="10.516" y2="20.158" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A69BD7"/>
+            <stop offset=".3" stop-color="#84E7AE"/>
+            <stop offset=".48" stop-color="#70D78F"/>
+            <stop offset="1" stop-color="#3D5F5E"/>
+        </linearGradient>
+    </defs>
 </svg>

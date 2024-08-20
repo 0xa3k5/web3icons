@@ -10,10 +10,7 @@ import prettier from 'prettier'
 const mergedCoins = [...customTokens, ...geckoCoins]
 
 // write the merged coins to a JSON file
-fs.writeFileSync(
-  path.join(__dirname, './gecko-coins.json'),
-  JSON.stringify(mergedCoins, null, 2),
-)
+fs.writeFileSync(path.join(__dirname, './gecko-coins.json'), JSON.stringify(mergedCoins, null, 2))
 
 const SVG_TOKENS_DIRS = {
   branded: path.join(SVG_TOKENS_SRC_DIR, 'branded'),
@@ -27,9 +24,7 @@ const svgFiles = {
 
 Object.entries(SVG_TOKENS_DIRS).forEach(([variant, dirPath]) => {
   fs.readdirSync(dirPath).forEach((file) => {
-    svgFiles[variant as keyof typeof svgFiles].add(
-      path.basename(file, '.svg').toLowerCase(),
-    )
+    svgFiles[variant as keyof typeof svgFiles].add(path.basename(file, '.svg').toLowerCase())
   })
 })
 
@@ -78,12 +73,9 @@ const currentCoins = JSON.parse(fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'))
 
 const enrichedCoins = await enrichCustomTokens()
 
-const formatted = await prettier.format(
-  JSON.stringify([...currentCoins, ...enrichedCoins]),
-  {
-    parser: 'json',
-  },
-)
+const formatted = await prettier.format(JSON.stringify([...currentCoins, ...enrichedCoins]), {
+  parser: 'json',
+})
 
 fs.writeFileSync(TOKENS_METADATA_PATH, formatted)
 

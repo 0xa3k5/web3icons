@@ -8,60 +8,10 @@ import {
 import { INetworkMetadata, ITokenMetadata, IWalletMetadata } from '../../types'
 import * as path from 'path'
 
-const mapTokensToMetadata = (): ITokenMetadata[] => {
-  const rawTokens: any[] = JSON.parse(
-    fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'),
-  )
-
-  return rawTokens.map((raw) => {
-    const token: ITokenMetadata = {
-      id: raw.id,
-      name: raw.name,
-      symbol: raw.symbol,
-      marketCapRank: raw.marketCapRank,
-      variants: raw.variants,
-      addresses: raw.addresses,
-    }
-    return token
-  })
-}
-
-const mapNetworksToMetadata = (): INetworkMetadata[] => {
-  const rawNetworks: any[] = JSON.parse(
-    fs.readFileSync(NETWORKS_METADATA_PATH, 'utf-8'),
-  )
-
-  return rawNetworks.map((raw) => {
-    const network: INetworkMetadata = {
-      id: raw.id,
-      name: raw.name,
-      shortname: raw.shortname,
-      nativeCoinId: raw.native_coin_id,
-      chainId: raw.chain_identifier ?? raw.chainId,
-      variants: raw.variants,
-    }
-    return network
-  })
-}
-
-const mapWalletsToMetadata = (): IWalletMetadata[] => {
-  const rawWallets: any[] = JSON.parse(
-    fs.readFileSync(WALLETS_METADATA_PATH, 'utf-8'),
-  )
-  return rawWallets.map((raw) => {
-    const wallet: IWalletMetadata = {
-      id: raw.id,
-      name: raw.name,
-      variants: raw.variants,
-    }
-    return wallet
-  })
-}
-
-export function generateMetadata() {
-  const tokens = mapTokensToMetadata()
-  const networks = mapNetworksToMetadata()
-  const wallets = mapWalletsToMetadata()
+export function generateMetadataTs() {
+  const tokens: ITokenMetadata[] = JSON.parse(fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'))
+  const networks: INetworkMetadata[] = JSON.parse(fs.readFileSync(NETWORKS_METADATA_PATH, 'utf-8'))
+  const wallets: IWalletMetadata[] = JSON.parse(fs.readFileSync(WALLETS_METADATA_PATH, 'utf-8'))
 
   const METADATA_DIR = path.join(ROOT_CORE, 'src/metadata')
 

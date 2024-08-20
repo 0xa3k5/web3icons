@@ -21,9 +21,7 @@ export const toKebabCase = (str: string) => {
  * @returns camelCase
  */
 export const toCamelCase = (str: string) => {
-  return str.replace(/[-_]+(.)?/g, (match, chr) =>
-    chr ? chr.toUpperCase() : '',
-  )
+  return str.replace(/[-_]+(.)?/g, (match, chr) => (chr ? chr.toUpperCase() : ''))
 }
 
 /**
@@ -51,9 +49,7 @@ export const kebabToCamel = (str: string) => {
 export const toPascalCase = (str: string): string => {
   const words = str.match(/[a-z0-9]+/gi) || []
   return words
-    .map(
-      (word) => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase(),
-    )
+    .map((word) => word.charAt(0).toUpperCase() + word.substring(1).toLowerCase())
     .join('')
 }
 
@@ -63,9 +59,7 @@ export const toPascalCase = (str: string): string => {
  * @returns PascalCase
  */
 export const kebabToPascalCase = (str: string): string => {
-  return str.replace(/(^\w|-\w)/g, (match) =>
-    match.replace('-', '').toUpperCase(),
-  )
+  return str.replace(/(^\w|-\w)/g, (match) => match.replace('-', '').toUpperCase())
 }
 
 /**
@@ -73,8 +67,7 @@ export const kebabToPascalCase = (str: string): string => {
  * @param str
  * @returns boolean
  */
-export const isUppercase = (filename: string): boolean =>
-  filename === filename.toUpperCase()
+export const isUppercase = (filename: string): boolean => filename === filename.toUpperCase()
 
 /**
  *

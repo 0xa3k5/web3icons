@@ -3,9 +3,7 @@ import prettier from 'prettier'
 import { ITokenMetadata } from '../types'
 import { TOKENS_METADATA_PATH } from '../constants'
 
-const geckoCoins: ITokenMetadata[] = JSON.parse(
-  fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'),
-)
+const geckoCoins: ITokenMetadata[] = JSON.parse(fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'))
 
 /**
  * removes duplicates from the tokens.json file.
@@ -17,27 +15,23 @@ const geckoCoins: ITokenMetadata[] = JSON.parse(
 export const removeDuplicates = async () => {
   const removedIds: string[] = []
 
-  const processedCoins = geckoCoins.reduce(
-    (acc: Record<string, ITokenMetadata>, coin) => {
-      const existingCoin = acc[coin.symbol]
-      if (!existingCoin) {
+  const processedCoins = geckoCoins.reduce((acc: Record<string, ITokenMetadata>, coin) => {
+    const existingCoin = acc[coin.symbol]
+    if (!existingCoin) {
+      acc[coin.symbol] = coin
+    } else {
+      if (
+        coin.marketCapRank &&
+        (!existingCoin.marketCapRank || coin.marketCapRank < existingCoin.marketCapRank)
+      ) {
+        removedIds.push(existingCoin.id)
         acc[coin.symbol] = coin
       } else {
-        if (
-          coin.marketCapRank &&
-          (!existingCoin.marketCapRank ||
-            coin.marketCapRank < existingCoin.marketCapRank)
-        ) {
-          removedIds.push(existingCoin.id)
-          acc[coin.symbol] = coin
-        } else {
-          removedIds.push(coin.id)
-        }
+        removedIds.push(coin.id)
       }
-      return acc
-    },
-    {},
-  )
+    }
+    return acc
+  }, {})
 
   // Convert the processed coins back to an array
   // clean the addresses

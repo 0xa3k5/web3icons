@@ -1,16 +1,16 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15.5824 16.3764L21.2295 19.0588H3.08838L15.5883 16.3764H15.5824Z" fill="url(#paint0_linear_364_3597)"/>
-<path d="M10.8177 2V6.68232L2.29419 17.3234L10.8177 2Z" fill="url(#paint1_linear_364_3597)"/>
-<path d="M21.7058 7.15887L14.0588 10.7353L6.55298 22L21.7058 7.15887Z" fill="#5100FF"/>
-<path d="M10.8174 2L21.1997 19.047L15.4408 16.3764L10.8174 6.68232V2Z" fill="#1D2733"/>
-<defs>
-<linearGradient id="paint0_linear_364_3597" x1="4.98194" y1="21.2105" x2="20.3968" y2="21.2105" gradientUnits="userSpaceOnUse">
-<stop stop-color="#F2F1F1"/>
-<stop offset="1" stop-color="#1D2733"/>
-</linearGradient>
-<linearGradient id="paint1_linear_364_3597" x1="4.9869" y1="21.9999" x2="20.393" y2="21.9999" gradientUnits="userSpaceOnUse">
-<stop stop-color="#F2F1F1"/>
-<stop offset="1" stop-color="#1D2733"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#AVT__a)" d="m15.582 16.376 5.648 2.683H3.088l12.5-2.683z"/>
+    <path fill="url(#AVT__b)" d="M10.818 2v4.682L2.294 17.323z"/>
+    <path fill="#5100FF" d="m21.706 7.159-7.647 3.576L6.553 22z"/>
+    <path fill="#1D2733" d="M10.817 2 21.2 19.047l-5.76-2.67-4.623-9.695z"/>
+    <defs>
+        <linearGradient id="AVT__a" x1="4.982" x2="20.397" y1="21.21" y2="21.21" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F2F1F1"/>
+            <stop offset="1" stop-color="#1D2733"/>
+        </linearGradient>
+        <linearGradient id="AVT__b" x1="4.987" x2="20.393" y1="22" y2="22" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F2F1F1"/>
+            <stop offset="1" stop-color="#1D2733"/>
+        </linearGradient>
+    </defs>
 </svg>

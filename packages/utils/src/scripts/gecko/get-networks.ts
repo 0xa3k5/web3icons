@@ -17,9 +17,7 @@ const cleanObject = (obj: any) => {
 fetch('https://api.coingecko.com/api/v3/asset_platforms')
   .then((res) => res.json())
   .then((assetPlatforms) => {
-    const cleanedData = assetPlatforms.map((platform: any) =>
-      cleanObject(platform),
-    )
+    const cleanedData = assetPlatforms.map((platform: any) => cleanObject(platform))
 
     // Write the cleaned networks to a JSON file
     fs.writeFileSync(
@@ -31,8 +29,5 @@ fetch('https://api.coingecko.com/api/v3/asset_platforms')
     console.log('✅ gecko-networks.json has been updated.')
   })
   .catch((err) => {
-    console.error(
-      'Error fetching or processing asset platforms from CoinGecko:',
-      err,
-    )
+    console.error('Error fetching or processing asset platforms from CoinGecko:', err)
   })

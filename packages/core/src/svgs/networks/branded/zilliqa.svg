@@ -1,21 +1,21 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g opacity="0.8">
-<path d="M4.94141 3.28328L16.1122 8.67719L19.0534 7.38292L7.86483 2L4.94141 3.28328Z" fill="url(#paint0_linear_376_10684)"/>
-<path d="M4.94141 3.28223V6.19329L12.718 9.94021L4.94141 13.7461V16.616L16.1176 21.9989V19.1167L8.54832 15.4398L16.1176 11.5598V8.6775L4.94141 3.29321V3.28223Z" fill="url(#paint1_linear_376_10684)"/>
-<path d="M16.1172 8.65923L19.0584 7.38281V10.2651L16.1172 11.547V8.65923ZM16.1172 21.9766L19.0584 20.6933V11.7254L16.1172 13.0183V21.9766Z" fill="url(#paint2_linear_376_10684)"/>
-</g>
-<defs>
-<linearGradient id="paint0_linear_376_10684" x1="16.7106" y1="21.3824" x2="2.16348" y2="15.9418" gradientUnits="userSpaceOnUse">
-<stop stop-color="#60AAAC"/>
-<stop offset="1" stop-color="#347181"/>
-</linearGradient>
-<linearGradient id="paint1_linear_376_10684" x1="12.0002" y1="1.99894" x2="12.0002" y2="21.9989" gradientUnits="userSpaceOnUse">
-<stop stop-color="#5AC1C1"/>
-<stop offset="1" stop-color="#216B79"/>
-</linearGradient>
-<linearGradient id="paint2_linear_376_10684" x1="14.3522" y1="19.3523" x2="20.8235" y2="14.0586" gradientUnits="userSpaceOnUse">
-<stop stop-color="#5AC1C1"/>
-<stop offset="1" stop-color="#216B79"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g opacity=".8">
+        <path fill="url(#zilliqa__a)" d="m4.941 3.283 11.171 5.394 2.941-1.294L7.865 2z"/>
+        <path fill="url(#zilliqa__b)" d="M4.941 3.282v2.911l7.777 3.747-7.777 3.806v2.87l11.177 5.383v-2.882l-7.57-3.677 7.57-3.88V8.677L4.94 3.294z"/>
+        <path fill="url(#zilliqa__c)" d="m16.117 8.66 2.941-1.277v2.882l-2.94 1.282zm0 13.317 2.941-1.284v-8.968l-2.94 1.293z"/>
+    </g>
+    <defs>
+        <linearGradient id="zilliqa__a" x1="16.711" x2="2.163" y1="21.382" y2="15.942" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#60AAAC"/>
+            <stop offset="1" stop-color="#347181"/>
+        </linearGradient>
+        <linearGradient id="zilliqa__b" x1="12" x2="12" y1="1.999" y2="21.999" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5AC1C1"/>
+            <stop offset="1" stop-color="#216B79"/>
+        </linearGradient>
+        <linearGradient id="zilliqa__c" x1="14.352" x2="20.823" y1="19.352" y2="14.059" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5AC1C1"/>
+            <stop offset="1" stop-color="#216B79"/>
+        </linearGradient>
+    </defs>
 </svg>

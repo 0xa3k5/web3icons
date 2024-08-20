@@ -14,7 +14,7 @@ export interface INetworkMetadata {
   id: string
   name: string
   chainId?: number | string
-  shortname?: string
+  shortName?: string
   nativeCoinId?: string
   variants: TVariant[]
 }
@@ -24,6 +24,9 @@ export interface IWalletMetadata {
   name: string
   variants: TVariant[]
 }
+
+export type TMetadata = INetworkMetadata | IWalletMetadata | ITokenMetadata
+export type TRaw = INetworkRaw | ITokenRaw | IWalletRaw
 
 // gecko-networks.json & custom-networks.json
 export interface INetworkRaw {
@@ -39,6 +42,7 @@ export interface ITokenRaw {
   id: string
   name: string
   symbol: string
+  market_cap_rank?: number | null
 }
 
 // wallets.json

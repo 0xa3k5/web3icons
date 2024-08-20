@@ -9,6 +9,7 @@ import {
   TType,
   TVariant,
   IWalletMetadata,
+  IWalletRaw,
 } from '../types'
 import _geckoNetworks from './gecko/gecko-networks.json'
 import _geckoCoins from './gecko/gecko-coins.json'
@@ -23,22 +24,13 @@ import {
   TOKENS_METADATA_PATH,
   WALLETS_METADATA_PATH,
 } from '../constants'
-import {
-  // findTokenByFileName,
-  // findNetworkByFileName,
-  validateSvg,
-  getTypeAndVariant,
-  findByFileName,
-  mapRawNetworkToINetwork,
-  mapRawWalletToIWallet,
-} from '../utils'
+import { validateSvg, getTypeAndVariant, findByFileName, mapRawToMetadata } from '../utils'
 import { confirmTheMetadata } from './cli/confirm-metadata'
 import { getUserInputSlug, selectAMetadata, addManualMetadata } from './cli'
+import { mergeVariants } from '../utils/merge-variants'
 
 const getModifiedIcons = () => {
-  return execSync(
-    "git ls-files --others -m --exclude-standard -- '*.svg' | tr '\n' ','",
-  )
+  return execSync("git ls-files --others -m --exclude-standard -- '*.svg' | tr '\n' ','")
     .toString()
     .trim()
 }
@@ -53,30 +45,22 @@ const findExistingMetadata = (
   id: string,
   type: TType,
 ): ITokenMetadata[] | INetworkMetadata[] | IWalletMetadata[] | undefined => {
-  let jsonPath
-  switch (type) {
-    case 'token':
-      jsonPath = TOKENS_METADATA_PATH
-      break
-    case 'network':
-      jsonPath = NETWORKS_METADATA_PATH
-      break
-    case 'wallet':
-      jsonPath = WALLETS_METADATA_PATH
-      break
-    default:
-      throw new Error('Invalid type')
+  if (type === 'token') {
+    const jsonFile = JSON.parse(fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'))
+    const existingMetadata = findByFileName(type, id, jsonFile as ITokenMetadata[])
+
+    return existingMetadata
+  } else if (type === 'network') {
+    const jsonFile = JSON.parse(fs.readFileSync(NETWORKS_METADATA_PATH, 'utf-8'))
+    const existingMetadata = findByFileName(type, id, jsonFile as INetworkMetadata[])
+
+    return existingMetadata
+  } else if (type === 'wallet') {
+    const jsonFile = JSON.parse(fs.readFileSync(WALLETS_METADATA_PATH, 'utf-8'))
+    const existingMetadata = findByFileName(type, id, jsonFile as IWalletMetadata[])
+
+    return existingMetadata
   }
-
-  const jsonFile = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'))
-
-  const existingMetadata = findByFileName(type, id, jsonFile)
-
-  return existingMetadata as
-    | ITokenMetadata[]
-    | INetworkMetadata[]
-    | IWalletMetadata[]
-    | undefined
 }
 
 /**
@@ -88,55 +72,25 @@ const findExistingMetadata = (
 const findRawData = (
   name: string,
   type: TType,
-): INetworkRaw[] | ITokenRaw[] | undefined => {
+): INetworkRaw[] | ITokenRaw[] | IWalletRaw[] | undefined => {
   if (type === 'token') {
-    const geckoCoin = findByFileName(type, name, _geckoCoins)
-    const customCoin = findByFileName(type, name, _customTokens)
+    const geckoCoin = findByFileName(type, name, _geckoCoins as ITokenRaw[])
+    const customCoin = findByFileName(type, name, _customTokens as ITokenRaw[])
+
     return customCoin ?? geckoCoin
   } else if (type === 'network') {
-    const geckoNetworks = findByFileName(type, name, _geckoNetworks)
-    const customNetworks = findByFileName(type, name, _customNetworks)
+    const geckoNetworks = findByFileName(type, name, _geckoNetworks as INetworkRaw[])
+    const customNetworks = findByFileName(type, name, _customNetworks as INetworkRaw[])
 
-    if (geckoNetworks) {
-      return geckoNetworks?.map((n) => mapRawNetworkToINetwork(n))
-    } else if (customNetworks) {
-      return customNetworks.map((n) => mapRawNetworkToINetwork(n))
-    }
+    return customNetworks ?? geckoNetworks
   } else if (type === 'wallet') {
-    // prettier-ignore
     const walletsMetadata = JSON.parse(fs.readFileSync(WALLETS_METADATA_PATH, 'utf-8'))
-    const customWallets = findByFileName(type, name, walletsMetadata)
+    const customWallets = findByFileName(type, name, walletsMetadata as IWalletRaw[])
 
-    return customWallets?.map((w) => mapRawWalletToIWallet(w))
+    return customWallets
   }
 }
 
-/**
- * Merges the variants of the given array of networks, tokens, or wallets
- * @param arr Array of networks, tokens, or wallets
- * @returns Array of merged networks, tokens, or wallets
- */
-const mergeVariants = (
-  arr: INetworkMetadata[] | ITokenMetadata[] | IWalletMetadata[],
-): INetworkMetadata[] | ITokenMetadata[] | IWalletMetadata[] => {
-  const map: Map<string, INetworkMetadata | ITokenMetadata | IWalletMetadata> =
-    new Map()
-
-  arr.forEach((n) => {
-    const key = `${n.id}|${n.name}`
-    if (map.has(key)) {
-      // Merge the variants array
-      const existing = map.get(key)
-      if (existing) {
-        existing.variants = [...new Set([...existing.variants, ...n.variants])]
-      }
-    } else {
-      map.set(key, { ...n })
-    }
-  })
-
-  return Array.from(map.values())
-}
 const getWithUserInput = async (
   fileName: string,
   fileVariant: TVariant,
@@ -202,40 +156,30 @@ const createMetadataObj = async (
   const rawData = findRawData(fileName, type)
   // no metadata
   if (!rawData || rawData[0] === undefined) {
-    console.info(
-      `👀 ${fileName}: No ${type} metadata, consider manually adding metadata"`,
-    )
+    console.info(`👀 ${fileName}: No ${type} metadata, consider manually adding metadata"`)
 
     const manualData = await addManualMetadata(type)
 
     await updateCustomJson([manualData], type)
 
-    return { ...manualData, variants: [variant] } as
-      | ITokenMetadata
-      | INetworkMetadata
-      | IWalletMetadata
+    const metadata = mapRawToMetadata({ type, variants: [variant], raw: manualData })
+    return metadata
   }
 
   // multiple metadata
   if (rawData.length > 1) {
+    console.log(`multiple matches for: ${fileName}`)
     const userChoice = await selectAMetadata(rawData, type)
     if (!userChoice) {
       return getWithUserInput(fileName, variant, type)
     }
 
-    return {
-      ...userChoice,
-      variants: [variant],
-      addresses: type === 'token' ? {} : undefined,
-      marketCapRank: type === 'token' ? null : undefined,
-    } as ITokenMetadata | INetworkMetadata | IWalletMetadata
+    const metadata = mapRawToMetadata({ type, variants: [variant], raw: userChoice })
+    return metadata
   }
 
   if (rawData.length === 1) {
-    let existingMetadata = findExistingMetadata(rawData[0].id, type) as
-      | ITokenMetadata[]
-      | INetworkMetadata[]
-      | IWalletMetadata[]
+    let existingMetadata = findExistingMetadata(rawData[0].id, type)
 
     if (existingMetadata) {
       if (!existingMetadata[0]) return undefined
@@ -245,17 +189,13 @@ const createMetadataObj = async (
       return existingMetadata[0]
     }
 
-    const metadata: ITokenMetadata | INetworkMetadata | IWalletMetadata = {
-      ...rawData[0],
-      variants: [variant],
-    } as ITokenMetadata | INetworkMetadata | IWalletMetadata
+    const metadata = mapRawToMetadata({ type, raw: rawData[0], variants: [variant] })
 
     if (type === 'token') {
       const data = await getCoinByID(rawData[0].id)
 
       ;(metadata as ITokenMetadata)['addresses'] = data.platforms || {}
-      ;(metadata as ITokenMetadata)['marketCapRank'] =
-        data.market_cap_rank || null
+      ;(metadata as ITokenMetadata)['marketCapRank'] = data.market_cap_rank || null
     }
 
     return metadata
@@ -285,12 +225,7 @@ const updateMetadataJson = async (
 
   const JSONFILE = JSON.stringify(
     Array.from(
-      new Map(
-        [...current, ...mergeVariants(metadata)].map((item) => [
-          item['id'],
-          item,
-        ]),
-      ).values(),
+      new Map([...current, ...mergeVariants(metadata)].map((item) => [item['id'], item])).values(),
     ),
   )
 
@@ -299,36 +234,23 @@ const updateMetadataJson = async (
   console.info(`✔ added ${type}: ${metadata.map((t) => t.id).join(', ')}`)
 }
 
-const updateCustomJson = async (
-  metadata: INetworkRaw[] | ITokenRaw[],
-  type: TType,
-) => {
+const updateCustomJson = async (metadata: INetworkRaw[] | ITokenRaw[], type: TType) => {
   const customJson = JSON.parse(
     fs.readFileSync(
-      type === 'token'
-        ? CUSTOM_TOKENS_METADATA_PATH
-        : CUSTOM_NETWORKS_METADATA_PATH,
+      type === 'token' ? CUSTOM_TOKENS_METADATA_PATH : CUSTOM_NETWORKS_METADATA_PATH,
       'utf-8',
     ),
   )
 
   const JSONFILE = JSON.stringify(
-    Array.from(
-      new Map(
-        [...customJson, ...metadata].map((item) => [item.id, item]),
-      ).values(),
-    ),
+    Array.from(new Map([...customJson, ...metadata].map((item) => [item.id, item])).values()),
   )
 
   fs.writeFileSync(
-    type === 'token'
-      ? CUSTOM_TOKENS_METADATA_PATH
-      : CUSTOM_NETWORKS_METADATA_PATH,
+    type === 'token' ? CUSTOM_TOKENS_METADATA_PATH : CUSTOM_NETWORKS_METADATA_PATH,
     JSONFILE,
   )
-  console.info(
-    `✔ custom ${type} added: ${metadata.map((t) => t.id).join(', ')}`,
-  )
+  console.info(`✔ custom ${type} added: ${metadata.map((t) => t.id).join(', ')}`)
 }
 
 const main = async () => {
@@ -396,7 +318,6 @@ const main = async () => {
     }
   }
 
-  // prettier-ignore
   if (addedNetworks.length > 0) await updateMetadataJson(addedNetworks, 'network')
   if (addedTokens.length > 0) await updateMetadataJson(addedTokens, 'token')
   if (addedWallets.length > 0) await updateMetadataJson(addedWallets, 'wallet')

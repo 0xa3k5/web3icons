@@ -11,16 +11,10 @@ import { kebabToPascalCase } from '../../utils'
 import { TType, TVariant } from '../../types'
 
 const readSvgFilesFromDirectory = (directoryPath: string): string[] => {
-  return fs
-    .readdirSync(directoryPath)
-    .filter((file) => path.extname(file).toLowerCase() === '.svg')
+  return fs.readdirSync(directoryPath).filter((file) => path.extname(file).toLowerCase() === '.svg')
 }
 
-const createExports = (
-  svgFiles: string[],
-  type: TType,
-  variant: TVariant,
-): string => {
+const createExports = (svgFiles: string[], type: TType, variant: TVariant): string => {
   return svgFiles
     .map((file) => {
       const svgName = file.replace('.svg', '')
@@ -31,7 +25,7 @@ const createExports = (
 
 export function generateIndex() {
   const indexContent =
-    '/* Generated */\nexport { svgs } from "./svg-module";\nexport * from "./types";\nexport * from "./metadata";\nexport * from "./svgs";\n'
+    '/* Generated */\nexport { svgs } from "./svg-module";\nexport * from "./types";\nexport * from "./metadata";\nexport * from "./svgs"'
 
   let svgsIndexContent = ''
 

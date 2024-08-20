@@ -1,26 +1,26 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M18 18.6666V19.3332H22L21.4134 18.6666H18Z" fill="#12E3BC"/>
-<path d="M13.3333 18V15.3333H4.66668V4.66666H15.3333V22H22V19.3333H18V2H2V18H13.3333Z" fill="#14F4C8"/>
-<path d="M5.33341 14.6664L4.66675 15.3331H13.3334L12.6667 14.6664H5.33341Z" fill="url(#paint0_linear_364_1678)"/>
-<path d="M5.33341 5.33319L4.66675 4.6665H15.3334L14.6668 5.33319H5.33341Z" fill="url(#paint1_linear_364_1678)"/>
-<path d="M15.3338 4.6665L14.6672 5.33319V21.3333L15.3338 21.9998V4.6665Z" fill="url(#paint2_linear_364_1678)"/>
-<path d="M8.66673 7.66653L4.66675 4.6665V15.3332L8.66673 12.3331V7.66653Z" fill="url(#paint3_linear_364_1678)"/>
-<defs>
-<linearGradient id="paint0_linear_364_1678" x1="8.10777" y1="15.7998" x2="5.69145" y2="7.06384" gradientUnits="userSpaceOnUse">
-<stop stop-color="#068F82"/>
-<stop offset="1" stop-color="#12E3BC"/>
-</linearGradient>
-<linearGradient id="paint1_linear_364_1678" x1="8.13759" y1="-3.00018" x2="8.13759" y2="6.39985" gradientUnits="userSpaceOnUse">
-<stop stop-color="#068F82"/>
-<stop offset="1" stop-color="#12E3BC"/>
-</linearGradient>
-<linearGradient id="paint2_linear_364_1678" x1="25.2005" y1="8.29986" x2="6.4005" y2="8.29986" gradientUnits="userSpaceOnUse">
-<stop stop-color="#068F82"/>
-<stop offset="1" stop-color="#12E3BC"/>
-</linearGradient>
-<linearGradient id="paint3_linear_364_1678" x1="4.1861" y1="9.49999" x2="8.87284" y2="9.49999" gradientUnits="userSpaceOnUse">
-<stop stop-color="#068F82"/>
-<stop offset="1" stop-color="#12E3BC"/>
-</linearGradient>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="#12E3BC" d="M18 18.667v.666h4l-.587-.666z"/>
+    <path fill="#14F4C8" d="M13.333 18v-2.667H4.667V4.667h10.666V22H22v-2.667h-4V2H2v16z"/>
+    <path fill="url(#QUINT__a)" d="m5.333 14.666-.666.667h8.666l-.666-.667z"/>
+    <path fill="url(#QUINT__b)" d="m5.333 5.333-.666-.667h10.666l-.666.667z"/>
+    <path fill="url(#QUINT__c)" d="m15.334 4.667-.667.666v16l.667.667z"/>
+    <path fill="url(#QUINT__d)" d="m8.667 7.667-4-3v10.666l4-3z"/>
+    <defs>
+        <linearGradient id="QUINT__a" x1="8.108" x2="5.691" y1="15.8" y2="7.064" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#068F82"/>
+            <stop offset="1" stop-color="#12E3BC"/>
+        </linearGradient>
+        <linearGradient id="QUINT__b" x1="8.138" x2="8.138" y1="-3" y2="6.4" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#068F82"/>
+            <stop offset="1" stop-color="#12E3BC"/>
+        </linearGradient>
+        <linearGradient id="QUINT__c" x1="25.201" x2="6.401" y1="8.3" y2="8.3" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#068F82"/>
+            <stop offset="1" stop-color="#12E3BC"/>
+        </linearGradient>
+        <linearGradient id="QUINT__d" x1="4.186" x2="8.873" y1="9.5" y2="9.5" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#068F82"/>
+            <stop offset="1" stop-color="#12E3BC"/>
+        </linearGradient>
+    </defs>
 </svg>
