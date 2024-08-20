@@ -1,5 +1,11 @@
 # @web3icons/core
 
+## 3.6.1
+
+### Patch Changes
+
+- host optimized svgs in the core package and move raw svgs out
+
 ## 3.6.0
 
 ### Minor Changes
