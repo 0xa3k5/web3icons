@@ -1,10 +1,10 @@
 import { forwardRef, ReactElement, ReactNode, useEffect, useState } from 'react'
 import {
+  INetworkMetadata,
   ITokenMetadata,
   IWalletMetadata,
-  INetworkMetadata,
   TType,
-} from '@web3icons/core'
+} from '@web3icons/common'
 import { BaseIcon } from './BaseIcon'
 import {
   toPascalCase,

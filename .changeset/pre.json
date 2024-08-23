@@ -1,0 +1,14 @@
+{
+  "mode": "pre",
+  "tag": "alpha",
+  "initialVersions": {
+    "@web3icons/website": "0.1.0",
+    "@web3icons/common": "0.0.0",
+    "@web3icons/core": "3.6.1",
+    "@web3icons/eslint-config": "0.0.2",
+    "@web3icons/react": "3.6.1"
+  },
+  "changesets": [
+    "hip-peas-tan"
+  ]
+}

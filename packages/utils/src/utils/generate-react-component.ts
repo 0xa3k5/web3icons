@@ -12,7 +12,7 @@ import { componentScaffold } from '../scaffolds'
 import { kebabToPascalCase } from './naming-conventions'
 import { injectCurrentColor, readyForJSX } from './svg-optimization'
 import prettier from 'prettier'
-import { TType } from '../types'
+import { TType } from '@web3icons/common'
 
 /**
  * Generate React Component from an SVG.

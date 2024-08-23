@@ -6,7 +6,7 @@ import {
   TOKENS_METADATA_PATH,
   WALLETS_METADATA_PATH,
 } from '../constants'
-import { INetworkMetadata, ITokenMetadata, IWalletMetadata } from '../types'
+import { INetworkMetadata, ITokenMetadata, IWalletMetadata } from '@web3icons/common'
 
 const outputFilePath = path.join(ROOT_PROJECT, 'docs/icons.md')
 

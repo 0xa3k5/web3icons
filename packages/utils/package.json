@@ -29,6 +29,7 @@
   },
   "sideEffects": false,
   "dependencies": {
+    "@web3icons/common": "0.0.2-alpha.0",
     "@inquirer/prompts": "^5.3.2"
   },
   "devDependencies": {

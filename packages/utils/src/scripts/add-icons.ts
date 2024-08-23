@@ -10,7 +10,7 @@ import {
   TVariant,
   IWalletMetadata,
   IWalletRaw,
-} from '../types'
+} from '@web3icons/common'
 import _geckoNetworks from './gecko/gecko-networks.json'
 import _geckoCoins from './gecko/gecko-coins.json'
 import _customTokens from './gecko/custom-tokens.json'

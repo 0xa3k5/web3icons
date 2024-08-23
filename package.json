@@ -32,5 +32,8 @@
   "resolutions": {
     "typescript": "5.3.3",
     "esbuild": "^0.19.12"
+  },
+  "dependencies": {
+    "changesets": "^1.0.2"
   }
 }

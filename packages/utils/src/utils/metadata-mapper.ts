@@ -7,7 +7,7 @@ import {
   INetworkMetadata,
   IWalletMetadata,
   TVariant,
-} from '../types'
+} from '@web3icons/common'
 
 export const mapRawToMetadata = ({
   type,

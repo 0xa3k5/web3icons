@@ -1,7 +1,7 @@
 {
-  "name": "@web3icons/core",
+  "name": "@web3icons/common",
   "homepage": "https://tokenicons.io",
-  "description": "Token Icons' core library serving optimized SVGs for cryptocurrency token & coin icons.",
+  "description": "Web3 icons' shared library, serves metadata and types and some utils.",
   "keywords": [
     "crypto icons",
     "cryptocurrency",
@@ -11,7 +11,7 @@
     "svg crypto icons",
     "coin icons"
   ],
-  "version": "3.6.2-alpha.0",
+  "version": "0.0.2-alpha.0",
   "private": false,
   "author": "0xa3k5",
   "license": "MIT",
@@ -23,9 +23,6 @@
     "dist/cjs/**/*",
     "dist/esm/**/*",
     "dist/types/**/*",
-    "dist/svgs/tokens/*",
-    "dist/svgs/networks/*",
-    "dist/svgs/wallets/*",
     "dist/metadata/*"
   ],
   "exports": {
@@ -48,32 +45,27 @@
     "./metadata/wallets": {
       "import": "./dist/esm/metadata/wallets.js",
       "require": "./dist/cjs/metadata/wallets.js"
-    },
-    "./svgs/tokens/*": "./dist/svgs/tokens/*",
-    "./svgs/networks/*": "./dist/svgs/networks/*",
-    "./svgs/wallets/*": "./dist/svgs/wallets/*"
+    }
   },
   "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/0xa3k5/web3icons.git",
-    "directory": "packages/core"
+    "directory": "packages/common"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "bun run pre-build && bun run build:types && tsup && bun run post-build",
+    "build": "bun run build:types && tsup && bun run post-build",
     "pre-build": "(cd ../utils && bun run pre-build:core)",
     "build:types": "bun run tsc --outDir dist/types --declarationDir dist/types --declaration true",
-    "post-build": "bun run lint && bun run format && bun run src/post-build-fix-paths.ts",
+    "post-build": "bun run lint && bun run format",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error"
   },
   "devDependencies": {
     "bun-types": "latest",
-    "cheerio": "^1.0.0-rc.12",
-    "svgo": "^3.2.0",
     "tsup": "^8.2.4"
   },
   "peerDependencies": {

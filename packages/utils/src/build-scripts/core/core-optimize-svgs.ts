@@ -10,7 +10,7 @@ import {
   SVG_WALLETS_OUT_DIR,
 } from '../../constants'
 import { ensureDirectoryExists, optimizeSvg } from '../../utils'
-import { TVariant } from '../../types'
+import { TVariant } from '@web3icons/common'
 
 export function optimizeSVGs() {
   console.log('Optimizing SVGs...')
