@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 3.6.2
+
+### Patch Changes
+
+- fix shortName for Beam network
+- Updated dependencies
+  - @web3icons/core@3.6.2
+
 ## 3.6.1
 
 ### Patch Changes

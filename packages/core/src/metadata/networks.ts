@@ -274,7 +274,7 @@ export const networks: INetworkMetadata[] = [
     variants: ['branded', 'mono'],
     chainId: 4337,
     nativeCoinId: 'beam',
-    shortName: 'beam',
+    shortName: 'base',
   },
   {
     id: 'boba',

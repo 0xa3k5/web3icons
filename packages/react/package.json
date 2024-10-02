@@ -11,7 +11,7 @@
     "crypto logos",
     "coin icons"
   ],
-  "version": "3.6.1",
+  "version": "3.6.2",
   "private": false,
   "license": "MIT",
   "main": "./dist/index.js",
@@ -38,7 +38,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error"
   },
   "dependencies": {
-    "@web3icons/core": "3.6.1",
+    "@web3icons/core": "3.6.2",
     "react": "^18.2.0"
   },
   "devDependencies": {
