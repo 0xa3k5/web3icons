@@ -1,5 +1,11 @@
 # @web3icons/core
 
+## 3.6.2
+
+### Patch Changes
+
+- fix shortName for Beam network
+
 ## 3.6.1
 
 ### Patch Changes
