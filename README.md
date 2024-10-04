@@ -50,7 +50,8 @@ yarn add @web3icons/core @web3icons/react
 bun i @web3icons/core @web3icons/react
 ```
 
-> You can install either of the packages based on your project's needs.
+>[!NOTE]
+>You can install either of the packages based on your project's needs.
 
 # `@web3icons/react`
 
@@ -163,7 +164,8 @@ export default App
 
 All of the Dynamic Components are designed to provide ease of use, they accept a various custom props which allows the component to correctly import the desired icon.
 
-> Dynamic components are client side components, so they are not compatible with server side rendering.
+>[!IMPORTANT]
+>Dynamic components are client side components, so they are not compatible with server side rendering.
 
 ### Shared Props Overview
 
@@ -278,7 +280,8 @@ import { tokens, networks, wallets } from '@web3icons/core/metadata'
 
 `svgs` object contains objects for each type
 
-> This would import thousands of svgs into your project and would increase the bundle size, it is not recommended for general use.
+>[!NOTE]
+>This would import thousands of svgs into your project and would increase the bundle size, it is not recommended for general use.
 
 ```jsx
 import { svgs } from '@web3icons/core'
