@@ -10,6 +10,7 @@ import {
   TVariant,
   IWalletMetadata,
   IWalletRaw,
+  TMetadata,
 } from '@web3icons/common'
 import _geckoNetworks from './gecko/gecko-networks.json'
 import _geckoCoins from './gecko/gecko-coins.json'
@@ -95,7 +96,7 @@ const getWithUserInput = async (
   fileName: string,
   fileVariant: TVariant,
   type: TType,
-): Promise<ITokenMetadata | INetworkMetadata | IWalletMetadata | undefined> => {
+): Promise<TMetadata | undefined> => {
   const geckoApiID = await getUserInputSlug(fileName)
 
   if (geckoApiID === undefined) {
@@ -141,13 +142,13 @@ const getWithUserInput = async (
  * creates metadata object for a given svg file
  * if matched, appends to existing metadata object
  * if not matched, creates new metadata object
- * @returns ITokenMetadata | INetworkMetadata | IWalletMetadata | undefined
+ * @returns TMetadata | undefined
  */
 const createMetadataObj = async (
   fileName: string,
   variant: TVariant | undefined,
   type: TType,
-): Promise<ITokenMetadata | INetworkMetadata | IWalletMetadata | undefined> => {
+): Promise<TMetadata | undefined> => {
   if (!variant) {
     throw new Error(
       `variant is undefined, fileName: ${fileName}, type: ${type}, variant: ${variant}`,

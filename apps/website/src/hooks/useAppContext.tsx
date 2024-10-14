@@ -6,15 +6,17 @@ import React, {
   ReactNode,
   useEffect,
 } from 'react'
-import {
-  INetworkMetadata,
-  ITokenMetadata,
-  IWalletMetadata,
-  TType,
-  TVariant,
-} from '@web3icons/core'
+
 import { filterAndSortIcons } from '../utils'
 import { useSearchParams } from 'next/navigation'
+import {
+  TType,
+  ITokenMetadata,
+  INetworkMetadata,
+  IWalletMetadata,
+  TVariant,
+  TMetadata,
+} from '@web3icons/common'
 
 export interface AppContextType {
   type: TType
@@ -26,9 +28,9 @@ export interface AppContextType {
   setSize: React.Dispatch<React.SetStateAction<number>>
   color: string
   setColor: React.Dispatch<React.SetStateAction<string>>
-  selectedIcons: (ITokenMetadata | INetworkMetadata | IWalletMetadata)[]
+  selectedIcons: TMetadata[]
   //prettier-ignore
-  setSelectedIcons: React.Dispatch<React.SetStateAction<(ITokenMetadata | INetworkMetadata | IWalletMetadata)[]>>
+  setSelectedIcons: React.Dispatch<React.SetStateAction<(TMetadata)[]>>
   loadMoreIcons: () => void
 }
 
@@ -49,9 +51,9 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
   const [searchTerm, setSearchTerm] = useState('')
   const [nextBatchIndex, setNextBatchIndex] = useState(0)
   // prettier-ignore
-  const [shownIcons, setShownIcons] = useState<(ITokenMetadata | INetworkMetadata | IWalletMetadata)[]>([])
+  const [shownIcons, setShownIcons] = useState<(TMetadata)[]>([])
   // prettier-ignore
-  const [selectedIcons, setSelectedIcons] = useState<(ITokenMetadata | INetworkMetadata | IWalletMetadata)[]>([])
+  const [selectedIcons, setSelectedIcons] = useState<(TMetadata)[]>([])
 
   const loadMoreIcons = () => {
     setShownIcons(

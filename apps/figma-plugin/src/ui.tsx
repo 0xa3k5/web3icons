@@ -11,7 +11,8 @@ import {
 import { SvgIcon } from './types'
 import Tabs from './components/Tabs'
 import { filterIcons } from './utils'
-import { TVariant, TType } from '@web3icons/core'
+import { TType, TVariant } from '@web3icons/common'
+
 const PER_PAGE = 50
 
 function Plugin() {

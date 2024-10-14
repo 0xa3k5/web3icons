@@ -7,20 +7,13 @@ import { scaffoldComponent } from '../utils/jsx-scaffold'
 import { useAppContext } from '../hooks'
 import SegmentedControl from './ControlBar/SegmentedControl'
 import { useEffect, useState } from 'react'
-import {
-  ITokenMetadata,
-  INetworkMetadata,
-  IWalletMetadata,
-} from '@web3icons/core'
+
 import { Button } from './buttons'
 
 import { useSearchParams, useRouter } from 'next/navigation'
+import { TMetadata } from '@web3icons/common'
 
-export function InfoDrawer({
-  metadata,
-}: {
-  metadata: ITokenMetadata | INetworkMetadata | IWalletMetadata
-}) {
+export function InfoDrawer({ metadata }: { metadata: TMetadata }) {
   const segmentedOpts = ['dynamic', 'individual']
   const [selectedTab, setSelectedTab] = useState(segmentedOpts[0]!)
   const { type, variant } = useAppContext()
