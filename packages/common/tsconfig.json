@@ -10,7 +10,7 @@
     "lib": ["es2022"],
     "module": "ESNext",
     "moduleDetection": "force",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "node",
     "noUncheckedIndexedAccess": true,
     "skipLibCheck": true,
     "strict": true,
@@ -18,6 +18,6 @@
     "outDir": "./dist",
     "resolveJsonModule": true
   },
-  "include": ["src/**/*.ts", "tsup.config.ts"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }

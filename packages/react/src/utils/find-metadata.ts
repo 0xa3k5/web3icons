@@ -1,12 +1,12 @@
+import { toKebabCase } from './naming-conventions'
 import {
+  INetworkMetadata,
   ITokenMetadata,
   IWalletMetadata,
-  INetworkMetadata,
-  wallets,
   networks,
   tokens,
-} from '@web3icons/core'
-import { toKebabCase } from './naming-conventions'
+  wallets,
+} from '@web3icons/common'
 
 export const findWallet = ({
   wallet,

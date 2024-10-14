@@ -16,35 +16,32 @@
   "author": "0xa3k5",
   "license": "MIT",
   "type": "module",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/types/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "dist/cjs/**/*",
-    "dist/esm/**/*",
-    "dist/types/**/*",
-    "dist/metadata/*"
+    "dist/**/*"
   ],
   "exports": {
     ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
     },
     "./metadata": {
-      "import": "./dist/esm/metadata/index.js",
-      "require": "./dist/cjs/metadata/index.js"
+      "import": "./dist/metadata/index.js",
+      "require": "./dist/metadata/index.js"
     },
     "./metadata/tokens": {
-      "import": "./dist/esm/metadata/tokens.js",
-      "require": "./dist/cjs/metadata/tokens.js"
+      "import": "./dist/metadata/tokens.js",
+      "require": "./dist/metadata/tokens.js"
     },
     "./metadata/networks": {
-      "import": "./dist/esm/metadata/networks.js",
-      "require": "./dist/cjs/metadata/networks.js"
+      "import": "./dist/metadata/networks.js",
+      "require": "./dist/metadata/networks.js"
     },
     "./metadata/wallets": {
-      "import": "./dist/esm/metadata/wallets.js",
-      "require": "./dist/cjs/metadata/wallets.js"
+      "import": "./dist/metadata/wallets.js",
+      "require": "./dist/metadata/wallets.js"
     }
   },
   "sideEffects": false,
@@ -57,12 +54,12 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun run build:types && tsup && bun run post-build",
-    "pre-build": "(cd ../utils && bun run pre-build:core)",
-    "build:types": "bun run tsc --outDir dist/types --declarationDir dist/types --declaration true",
+    "build": "bun run clean && bun run build:types && tsup && bun run post-build",
+    "build:types": "tsc --outDir dist --declarationDir dist --declaration true",
     "post-build": "bun run lint && bun run format",
     "lint": "eslint ./src --ext .ts",
-    "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error"
+    "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error",
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
     "bun-types": "latest",

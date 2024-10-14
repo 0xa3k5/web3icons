@@ -15,7 +15,7 @@ import {
 interface IDynamicIcon {
   metadata: ITokenMetadata | IWalletMetadata | INetworkMetadata | undefined
   type: TType
-  ref: React.ForwardedRef<SVGSVGElement>
+  ref?: React.ForwardedRef<SVGSVGElement>
   size?: string | number
   color?: string
   className?: string

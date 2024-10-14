@@ -2,12 +2,13 @@ import { defineConfig } from 'tsup'
 
 export default defineConfig([
   {
-    entry: ['src/index.ts', 'src/metadata/index.ts'],
+    entry: ['src/index.ts'],
     format: 'esm',
     outDir: 'dist',
     sourcemap: true,
-    dts: false,
+    dts: true,
     target: 'es2022',
     clean: false,
+    outExtension: ({ format }) => ({ js: `.js` }),
   },
 ])
