@@ -1,10 +1,10 @@
 # @web3icons/core
 
-## 3.6.2-alpha.0
+## 3.6.2
 
 ### Patch Changes
 
-- common package that holds types and metadata
+- fix shortName for Beam network
 
 ## 3.6.1
 

@@ -11,7 +11,7 @@
     "crypto logos",
     "coin icons"
   ],
-  "version": "3.6.2-alpha.0",
+  "version": "3.6.2",
   "private": false,
   "license": "MIT",
   "main": "./dist/index.js",
@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "@web3icons/common": "0.0.2-alpha.0",
+    "@web3icons/core": "3.6.2",
     "react": "^18.2.0"
   },
   "devDependencies": {
