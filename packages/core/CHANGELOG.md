@@ -1,5 +1,11 @@
 # @web3icons/core
 
+## 3.7.1
+
+### Patch Changes
+
+- patch
+
 ## 3.7.0
 
 ### Minor Changes
