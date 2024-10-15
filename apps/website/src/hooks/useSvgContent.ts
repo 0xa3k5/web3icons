@@ -31,31 +31,31 @@ export const useSvgContent = ({
         if (type === 'token') {
           if (variant === 'mono') {
             svgModule = await import(
-              `@web3icons/core/svgs/tokens/mono/${(metadata as ITokenMetadata).symbol.toUpperCase()}.svg`
+              `@web3icons/core/tokens/mono/${(metadata as ITokenMetadata).symbol.toUpperCase()}.svg`
             )
           } else if (variant === 'branded') {
             svgModule = await import(
-              `@web3icons/core/svgs/tokens/branded/${(metadata as ITokenMetadata).symbol.toUpperCase()}.svg`
+              `@web3icons/core/tokens/branded/${(metadata as ITokenMetadata).symbol.toUpperCase()}.svg`
             )
           }
         } else if (type === 'network') {
           if (variant === 'mono') {
             svgModule = await import(
-              `@web3icons/core/svgs/networks/mono/${metadata.id.toLowerCase()}.svg`
+              `@web3icons/core/networks/mono/${metadata.id.toLowerCase()}.svg`
             )
           } else if (variant === 'branded') {
             svgModule = await import(
-              `@web3icons/core/svgs/networks/branded/${metadata.id.toLowerCase()}.svg`
+              `@web3icons/core/networks/branded/${metadata.id.toLowerCase()}.svg`
             )
           }
         } else if (type === 'wallet') {
           if (variant === 'mono') {
             svgModule = await import(
-              `@web3icons/core/svgs/wallets/mono/${metadata.id.toLowerCase()}.svg`
+              `@web3icons/core/wallets/mono/${metadata.id.toLowerCase()}.svg`
             )
           } else if (variant === 'branded') {
             svgModule = await import(
-              `@web3icons/core/svgs/wallets/branded/${metadata.id.toLowerCase()}.svg`
+              `@web3icons/core/wallets/branded/${metadata.id.toLowerCase()}.svg`
             )
           }
         }
