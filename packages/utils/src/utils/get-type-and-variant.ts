@@ -1,4 +1,4 @@
-import { TType, TVariant } from '../types'
+import { TType, TVariant } from '@web3icons/common'
 
 /**
  * Gets the type and variant of the icon from the file path

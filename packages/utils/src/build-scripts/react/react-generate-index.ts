@@ -6,7 +6,7 @@ import {
   ROOT_REACT,
   JSX_WALLETS_OUT_DIR,
 } from '../../constants'
-import { TType } from '../../types'
+import { TType } from '@web3icons/common'
 
 const generateIndexFile = (directory: string, type: TType) => {
   const svgFiles = fs

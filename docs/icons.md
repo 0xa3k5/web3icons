@@ -408,7 +408,7 @@ jump to section:
 | Bit2Me                                 | b2m         | ✅      | ✅   |
 | Bitcicoin                              | bitci       | ✅      | ✅   |
 | Catcoin                                | cat         | ✅      | ❌   |
-| Bitcoin                                | btc         | ✅      | ❌   |
+| Bitcoin                                | btc         | ✅      | ✅   |
 | Bitcoin 2                              | btc2        | ✅      | ✅   |
 | Bitcoin SV                             | bsv         | ✅      | ✅   |
 | Bitcoin Diamond                        | bcd         | ✅      | ✅   |
@@ -2065,7 +2065,7 @@ jump to section:
 | Pendle                                 | pendle      | ✅      | ✅   |
 | Jupiter Project                        | jup         | ✅      | ✅   |
 | Artrade                                | atr         | ✅      | ✅   |
-| Base                                   | base        | ✅      | ✅   |
+| BaseSwap                               | base        | ✅      | ❌   |
 | BNB                                    | bnb         | ✅      | ✅   |
 | Sense                                  | sense       | ✅      | ✅   |
 | AMZCoin                                | amz         | ✅      | ✅   |

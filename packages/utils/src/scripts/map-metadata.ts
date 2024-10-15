@@ -1,7 +1,7 @@
 import { NETWORKS_METADATA_PATH, TOKENS_METADATA_PATH, WALLETS_METADATA_PATH } from '../constants'
 import * as fs from 'fs'
 import { mapRawToMetadata } from '../utils'
-import { INetworkRaw, ITokenRaw, IWalletRaw } from '../types'
+import { INetworkRaw, ITokenRaw, IWalletRaw } from '@web3icons/common'
 
 const main = () => {
   const _tokens: any[] = JSON.parse(fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'))

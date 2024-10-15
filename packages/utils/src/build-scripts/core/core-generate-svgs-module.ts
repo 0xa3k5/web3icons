@@ -5,9 +5,10 @@ import {
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
   SVG_WALLETS_OUT_DIR,
+  ROOT_CORE,
 } from '../../constants'
 import { kebabToPascalCase } from '../../utils'
-import { TType } from '../../types'
+import { TType, TVariant } from '@web3icons/common'
 
 const readSvgFilesFromDir = (dirPath: string) => {
   return fs

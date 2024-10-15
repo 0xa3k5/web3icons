@@ -1,4 +1,4 @@
-import { TMetadata } from '../types'
+import { TMetadata } from '@web3icons/common'
 
 /**
  * Merges the variants of the given array of networks, tokens, or wallets

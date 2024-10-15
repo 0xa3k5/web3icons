@@ -6,8 +6,8 @@ import { optimizeSVGs } from './core-optimize-svgs'
 function preBuild() {
   optimizeSVGs()
   generateSvgModule()
-  generateIndex()
   generateMetadataTs()
+  generateIndex()
 }
 
 preBuild()

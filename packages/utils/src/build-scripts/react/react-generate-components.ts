@@ -11,7 +11,7 @@ import {
   SVG_WALLETS_OUT_DIR,
 } from '../../constants'
 import { generateReactComponent, ensureDirectoryExists } from '../../utils'
-import { TType } from '../../types'
+import { TType } from '@web3icons/common'
 
 export function generateComponents() {
   ensureDirectoryExists(path.join(ROOT_REACT, 'src'))

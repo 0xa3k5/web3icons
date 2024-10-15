@@ -1,56 +1,49 @@
 export type TVariant = 'mono' | 'branded'
 export type TType = 'network' | 'token' | 'wallet'
 
-export interface ITokenMetadata {
+interface IMetadata {
   id: string
-  symbol: string
   name: string
   variants: TVariant[]
+}
+
+export interface ITokenMetadata extends IMetadata {
+  symbol: string
   marketCapRank: number | null
   addresses: { [key: string]: string | undefined }
 }
 
-export interface INetworkMetadata {
-  id: string
-  name: string
-  chainId?: number | string
+export interface INetworkMetadata extends IMetadata {
   shortName?: string
   nativeCoinId?: string
-  variants: TVariant[]
+  chainId?: number | string
 }
 
-export interface IWalletMetadata {
+export interface IWalletMetadata extends IMetadata {}
+
+interface IRaw {
   id: string
   name: string
-  variants: TVariant[]
 }
-
-export type TMetadata = INetworkMetadata | IWalletMetadata | ITokenMetadata
-export type TRaw = INetworkRaw | ITokenRaw | IWalletRaw
-
 // gecko-networks.json & custom-networks.json
-export interface INetworkRaw {
-  id: string
-  name: string
+export interface INetworkRaw extends IRaw {
   shortname?: string
   native_coin_id?: string
   chain_identifier?: number
 }
 
 // gecko-coins.json & custom-tokens.json
-export interface ITokenRaw {
-  id: string
-  name: string
+export interface ITokenRaw extends IRaw {
   symbol: string
   market_cap_rank?: number | null
 }
 
 // wallets.json
-export interface IWalletRaw {
-  id: string
-  name: string
-}
+export interface IWalletRaw extends IRaw {}
 
 export interface IconMap {
   [key: string]: string
 }
+
+export type TMetadata = INetworkMetadata | IWalletMetadata | ITokenMetadata
+export type TRaw = INetworkRaw | ITokenRaw | IWalletRaw

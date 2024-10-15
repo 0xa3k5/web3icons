@@ -1,9 +1,9 @@
 'use client'
 import cx from 'classnames'
-import { TType } from '@web3icons/core'
 import { Fragment, useEffect, useRef, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useAppContext } from '../hooks'
+import { TType } from '@web3icons/common'
 
 interface TabsProps {
   className?: string

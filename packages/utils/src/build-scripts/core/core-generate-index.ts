@@ -1,31 +1,27 @@
-import fs from 'fs'
-import path from 'path'
+import * as fs from 'fs'
+import * as path from 'path'
+import { kebabToPascalCase } from '../../utils'
+import { TType, TVariant } from '@web3icons/common'
 import {
-  CORE_INDEX_PATH,
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
   SVG_WALLETS_OUT_DIR,
   ROOT_CORE,
 } from '../../constants'
-import { kebabToPascalCase } from '../../utils'
-import { TType, TVariant } from '../../types'
 
 const readSvgFilesFromDirectory = (directoryPath: string): string[] => {
   return fs.readdirSync(directoryPath).filter((file) => path.extname(file).toLowerCase() === '.svg')
 }
 
-const createExports = (svgFiles: string[], type: TType, variant: TVariant): string => {
-  return svgFiles
-    .map((file) => {
-      const svgName = file.replace('.svg', '')
-      return `export * as ${kebabToPascalCase(`${type}-${variant}-${svgName}`)} from './${type}s/${variant}/${file}';\n`
-    })
-    .join('')
-}
-
 export function generateIndex() {
-  const indexContent =
-    '/* Generated */\nexport { svgs } from "./svg-module";\nexport * from "./types";\nexport * from "./metadata";\nexport * from "./svgs"'
+  const createExports = (svgFiles: string[], type: TType, variant: TVariant): string => {
+    return svgFiles
+      .map((file) => {
+        const svgName = file.replace('.svg', '')
+        return `export * as ${kebabToPascalCase(`${type}-${variant}-${svgName}`)} from './${type}s/${variant}/${file}';\n`
+      })
+      .join('')
+  }
 
   let svgsIndexContent = ''
 
@@ -60,8 +56,6 @@ export function generateIndex() {
     'wallet',
     'mono',
   )
-
-  fs.writeFileSync(CORE_INDEX_PATH, indexContent)
+  console.log(`✓ Generated: svgs index at ${path.join(ROOT_CORE, 'src/svgs/index.ts')}`)
   fs.writeFileSync(path.join(ROOT_CORE, 'src/svgs/index.ts'), svgsIndexContent)
-  console.log('✓ Generated: index file at src/index.ts')
 }

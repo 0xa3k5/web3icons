@@ -2,17 +2,14 @@
 import cx from 'classnames'
 import { useAppContext, useSvgContent } from '../hooks'
 import { CopyButton, DownloadButton } from './buttons'
-import {
-  INetworkMetadata,
-  ITokenMetadata,
-  IWalletMetadata,
-} from '@web3icons/core'
+
 import { InfoDrawer } from './InfoDrawer'
 import { Web3Icon } from './Web3Icon'
+import { TMetadata, ITokenMetadata } from '@web3icons/common'
 
 interface Props {
   className?: string
-  metadata: ITokenMetadata | INetworkMetadata | IWalletMetadata
+  metadata: TMetadata
 }
 
 export default function IconCard({ className, metadata }: Props): JSX.Element {

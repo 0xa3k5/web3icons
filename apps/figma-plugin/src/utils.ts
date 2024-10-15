@@ -1,13 +1,15 @@
+import { svgs } from '@web3icons/core'
+import { SvgIcon } from './types'
 import {
   INetworkMetadata,
   ITokenMetadata,
   IWalletMetadata,
-  svgs,
+  networks,
+  tokens,
   TType,
   TVariant,
-} from '@web3icons/core'
-import { networks, tokens, wallets } from '@web3icons/core/metadata'
-import { SvgIcon } from './types'
+  wallets,
+} from '@web3icons/common'
 
 const toPascalCase = (str: string): string => {
   const words = str.match(/[a-z0-9]+/gi) || []

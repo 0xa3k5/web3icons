@@ -1,10 +1,9 @@
 import { confirm } from '@inquirer/prompts'
-import { INetworkMetadata, ITokenMetadata, IWalletMetadata, TType } from '../../types'
+
 import { getShortName, getChainId, getNativeCoinId, getMarketCapRank } from './icon-add-prompts'
+import { INetworkMetadata, ITokenMetadata, TType, TMetadata } from '@web3icons/common'
 
-type Metadata = INetworkMetadata | ITokenMetadata | IWalletMetadata
-
-const hasMissingFields = (metadata: Metadata, type: TType): Metadata | false => {
+const hasMissingFields = (metadata: TMetadata, type: TType): TMetadata | false => {
   if (type === 'network') {
     const network = metadata as INetworkMetadata
     if (
@@ -25,7 +24,7 @@ const hasMissingFields = (metadata: Metadata, type: TType): Metadata | false => 
   return false
 }
 
-const promptForMissingFields = async (metadata: Metadata, type: TType): Promise<Metadata> => {
+const promptForMissingFields = async (metadata: TMetadata, type: TType): Promise<TMetadata> => {
   if (type === 'network') {
     const network = metadata as INetworkMetadata
 
@@ -67,8 +66,8 @@ export const confirmTheMetadata = async ({
   metadata,
 }: {
   type: TType
-  metadata: Metadata
-}): Promise<Metadata | false> => {
+  metadata: TMetadata
+}): Promise<TMetadata | false> => {
   if (hasMissingFields(metadata, type)) {
     const updatedMetadata = await promptForMissingFields(metadata, type)
     const confirmed = await confirm({

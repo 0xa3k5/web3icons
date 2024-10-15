@@ -1,19 +1,21 @@
 'use client'
-import {
-  ITokenMetadata,
-  INetworkMetadata,
-  IWalletMetadata,
-  TVariant,
-} from '@web3icons/core'
+
 import { TokenIcon, NetworkIcon, WalletIcon } from '@web3icons/react'
 import { useAppContext } from '../hooks'
+import {
+  TMetadata,
+  TVariant,
+  INetworkMetadata,
+  IWalletMetadata,
+  ITokenMetadata,
+} from '@web3icons/common'
 
 export const Web3Icon = ({
   metadata,
   variant,
   size: passedSize,
 }: {
-  metadata: ITokenMetadata | INetworkMetadata | IWalletMetadata
+  metadata: TMetadata
   variant: TVariant
   size?: number
 }): JSX.Element => {

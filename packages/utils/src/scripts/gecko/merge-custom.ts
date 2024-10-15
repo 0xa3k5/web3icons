@@ -3,7 +3,7 @@ import path from 'path'
 import customTokens from './custom-tokens.json'
 import geckoCoins from './gecko-coins.json'
 import getCoinByID from './get-coin-by-id'
-import { ITokenMetadata, TVariant } from '../../types'
+import { ITokenMetadata, TVariant } from '@web3icons/common'
 import { SVG_TOKENS_SRC_DIR, TOKENS_METADATA_PATH } from '../../constants'
 import prettier from 'prettier'
 
@@ -60,7 +60,7 @@ const enrichCustomTokens = () => {
           symbol: custom.symbol,
           marketCapRank: data?.market_cap_rank ?? null,
           variants,
-          addresses: data?.platforms ?? {},
+          addresses: data?.platforms ?? data?.addresses ?? {},
         }
         console.log(obj)
         return obj

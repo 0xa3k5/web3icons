@@ -1,14 +1,13 @@
 'use client'
-import cx from 'classnames'
 import Slider from './Slider'
 import SegmentedControl from './SegmentedControl'
 import ColorSlider from './ColorSlider'
 import { useAppContext } from '../../hooks'
 import SearchInput from '../SearchInput'
-import Tabs from '../Tabs'
 import { useRouter, useSearchParams } from 'next/navigation'
-import { TVariant } from '@web3icons/core'
+
 import { useState } from 'react'
+import { TVariant } from '@web3icons/common'
 
 interface Props {
   className?: string

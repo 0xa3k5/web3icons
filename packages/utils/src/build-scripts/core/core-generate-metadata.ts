@@ -3,9 +3,9 @@ import {
   TOKENS_METADATA_PATH,
   NETWORKS_METADATA_PATH,
   WALLETS_METADATA_PATH,
-  ROOT_CORE,
+  ROOT_COMMON,
 } from '../../constants'
-import { INetworkMetadata, ITokenMetadata, IWalletMetadata } from '../../types'
+import { INetworkMetadata, ITokenMetadata, IWalletMetadata } from '@web3icons/common'
 import * as path from 'path'
 
 export function generateMetadataTs() {
@@ -13,12 +13,11 @@ export function generateMetadataTs() {
   const networks: INetworkMetadata[] = JSON.parse(fs.readFileSync(NETWORKS_METADATA_PATH, 'utf-8'))
   const wallets: IWalletMetadata[] = JSON.parse(fs.readFileSync(WALLETS_METADATA_PATH, 'utf-8'))
 
-  const METADATA_DIR = path.join(ROOT_CORE, 'src/metadata')
-
   const tokenContent = `import { ITokenMetadata } from '../types'\n\nexport const tokens: ITokenMetadata[] = ${JSON.stringify(tokens, null, 2)}`
   const networkContent = `import { INetworkMetadata } from '../types'\n\nexport const networks: INetworkMetadata[] = ${JSON.stringify(networks, null, 2)}`
   const walletContent = `import { IWalletMetadata } from '../types'\n\nexport const wallets: IWalletMetadata[] = ${JSON.stringify(wallets, null, 2)}`
 
+  const METADATA_DIR = path.join(ROOT_COMMON, 'src/metadata')
   fs.writeFileSync(path.join(METADATA_DIR, 'tokens.ts'), tokenContent)
   console.log('✔ generated tokens metadata')
   fs.writeFileSync(path.join(METADATA_DIR, 'networks.ts'), networkContent)

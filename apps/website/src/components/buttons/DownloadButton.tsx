@@ -2,15 +2,16 @@
 import React, { useState, useEffect, PropsWithChildren } from 'react'
 import JSZip from 'jszip'
 import Tooltip from '../Tooltip'
+
+import { useSvgContent } from '../../hooks'
+import Button from './Button'
 import {
   INetworkMetadata,
   ITokenMetadata,
   IWalletMetadata,
   TType,
   TVariant,
-} from '@web3icons/core'
-import { useSvgContent } from '../../hooks'
-import Button from './Button'
+} from '@web3icons/common'
 
 interface Props {
   className?: string

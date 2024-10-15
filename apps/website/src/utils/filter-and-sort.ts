@@ -1,11 +1,13 @@
 import {
   INetworkMetadata,
+  networks,
   ITokenMetadata,
+  tokens,
   IWalletMetadata,
+  wallets,
   TVariant,
   TType,
-} from '@web3icons/core'
-import { networks, tokens, wallets } from '@web3icons/core/metadata'
+} from '@web3icons/common'
 
 const groupedNetworks: Record<string, INetworkMetadata[]> = {}
 

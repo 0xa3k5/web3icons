@@ -1,4 +1,4 @@
-import { TType, INetworkRaw, ITokenRaw, IWalletRaw } from '../../types'
+import { TType, INetworkRaw, ITokenRaw, IWalletRaw } from '@web3icons/common'
 import {
   getId,
   getName,

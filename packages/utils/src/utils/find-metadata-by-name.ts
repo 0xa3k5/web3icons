@@ -1,4 +1,4 @@
-import { TType, TVariant } from '../types'
+import { TType, TVariant } from '@web3icons/common'
 import { toKebabCase } from './naming-conventions'
 
 /**

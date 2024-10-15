@@ -1,5 +1,21 @@
 # @web3icons/core
 
+## 3.7.1
+
+### Patch Changes
+
+- patch
+
+## 3.7.0
+
+### Minor Changes
+
+- create common package, this makes the react package leaner
+- drop cjs support
+- fix beam network shortname
+- fix base token image
+- add JSDoc to icon components
+
 ## 3.6.2
 
 ### Patch Changes

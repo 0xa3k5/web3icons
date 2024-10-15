@@ -7,7 +7,7 @@ import {
   ITokenMetadata,
   IWalletMetadata,
   TType,
-} from '../../types'
+} from '@web3icons/common'
 import { addManualMetadata } from './get-manual-metadata'
 
 export const selectAMetadata = async (

@@ -1,10 +1,4 @@
-import {
-  INetworkMetadata,
-  ITokenMetadata,
-  IWalletMetadata,
-  TType,
-  TVariant,
-} from '@web3icons/core'
+import { ITokenMetadata, TMetadata, TType, TVariant } from '@web3icons/common'
 
 export function scaffoldComponent({
   metadata,
@@ -12,12 +6,13 @@ export function scaffoldComponent({
   variant,
   dynamic,
 }: {
-  metadata: ITokenMetadata | INetworkMetadata | IWalletMetadata
+  metadata: TMetadata
   type: TType
   variant: TVariant
   dynamic: boolean
 }) {
   let importStatement = `import { {{Web3Icon}} } from '@web3icons/react'\n`
+
   let returnStatement = `export default function App(): JSX.Element {
     return (
       <>
@@ -50,7 +45,7 @@ export function scaffoldComponent({
 }
 
 const generateDynamicUsage = (
-  metadata: ITokenMetadata | INetworkMetadata | IWalletMetadata,
+  metadata: TMetadata,
   type: TType,
   variant: TVariant,
 ) => {
@@ -102,17 +97,14 @@ const generateDynamicUsage = (
 }
 
 const generateStaticUsage = (
-  metadata: ITokenMetadata | INetworkMetadata | IWalletMetadata,
+  metadata: TMetadata,
   type: TType,
   variant: TVariant,
 ) => {
   return `<${makeComponentName(metadata, type)} variant="${variant}" />`
 }
 
-const makeComponentName = (
-  metadata: ITokenMetadata | INetworkMetadata | IWalletMetadata,
-  type: TType,
-) => {
+const makeComponentName = (metadata: TMetadata, type: TType) => {
   if (type === 'token') {
     return `Token${(metadata as ITokenMetadata).symbol.toUpperCase()}`
   } else if (type === 'network') {

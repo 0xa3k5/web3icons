@@ -1,12 +1,12 @@
 'use client'
-import { useState, useEffect } from 'react'
 import {
   INetworkMetadata,
   ITokenMetadata,
   IWalletMetadata,
-  TType,
   TVariant,
-} from '@web3icons/core'
+  TType,
+} from '@web3icons/common'
+import { useState, useEffect } from 'react'
 
 type UseFetchSvgContentArgs = {
   metadata: INetworkMetadata | ITokenMetadata | IWalletMetadata

@@ -1,0 +1,71 @@
+{
+  "name": "@web3icons/common",
+  "homepage": "https://tokenicons.io",
+  "description": "Web3 icons' shared library, serves metadata and types and some utils.",
+  "keywords": [
+    "crypto icons",
+    "cryptocurrency",
+    "ethereum logos",
+    "cryptocurrency logos",
+    "crypto logos",
+    "svg crypto icons",
+    "coin icons"
+  ],
+  "version": "0.1.1",
+  "private": false,
+  "author": "0xa3k5",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./metadata": {
+      "import": "./dist/metadata/index.js",
+      "require": "./dist/metadata/index.js"
+    },
+    "./metadata/tokens": {
+      "import": "./dist/metadata/tokens.js",
+      "require": "./dist/metadata/tokens.js"
+    },
+    "./metadata/networks": {
+      "import": "./dist/metadata/networks.js",
+      "require": "./dist/metadata/networks.js"
+    },
+    "./metadata/wallets": {
+      "import": "./dist/metadata/wallets.js",
+      "require": "./dist/metadata/wallets.js"
+    }
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xa3k5/web3icons.git",
+    "directory": "packages/common"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "bun run clean && bun run build:types && tsup && bun run post-build",
+    "build:types": "tsc --outDir dist --declarationDir dist --declaration true",
+    "post-build": "bun run lint && bun run format",
+    "lint": "eslint ./src --ext .ts",
+    "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "tsup": "^8.2.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
