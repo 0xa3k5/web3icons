@@ -41,5 +41,5 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "version": null
+  "version": "0.2.2"
 }
