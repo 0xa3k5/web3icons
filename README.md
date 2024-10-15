@@ -2,7 +2,7 @@
 
 # Web3 Icons
 
-![Tokens](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=tokens&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/core/src/metadata/tokens.json) ![Networks](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=networks&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/core/src/metadata/networks.json) ![Wallets](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=wallets&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/core/src/metadata/wallets.json) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Freact) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Fcore?style=flat&label=%40web3icons%2Fcore)
+![Tokens](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=tokens&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/tokens.json) ![Networks](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=networks&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/networks.json) ![Wallets](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=wallets&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/wallets.json) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Freact) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Fcore?style=flat&label=%40web3icons%2Fcore)
 
 _(previously named token-icons)_
 
