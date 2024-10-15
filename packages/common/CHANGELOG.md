@@ -1,7 +1,12 @@
 # @web3icons/common
 
-## 0.0.2-alpha.0
+## 0.1.0
 
-### Patch Changes
+### Minor Changes
 
-- common package that holds types and metadata
+- create common package, this makes the react package leaner
+- drop cjs support
+- fix beam network shortname
+- fix base token image
+- add JSDoc to icon components
+
