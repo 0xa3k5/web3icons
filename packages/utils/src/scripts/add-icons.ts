@@ -259,7 +259,7 @@ const main = async () => {
   const passedFiles = process.argv.slice(2)
 
   if (
-    (modifiedIcons === '' || !modifiedIcons.includes('/svgs/')) &&
+    (modifiedIcons === '' || !modifiedIcons.includes('raw-svgs/')) &&
     (passedFiles === undefined || passedFiles.length === 0)
   ) {
     console.error(`No new icons found`)

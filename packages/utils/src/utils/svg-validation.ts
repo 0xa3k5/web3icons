@@ -2,9 +2,10 @@ import * as fs from 'fs'
 import * as path from 'path'
 import { getTypeAndVariant } from './get-type-and-variant'
 import { isKebabCase, isUppercase } from './naming-conventions'
+import { ROOT_PROJECT } from '../constants'
 
 export const validateSvg = (filePath: string): boolean => {
-  const svgContent = fs.readFileSync(filePath, 'utf8')
+  const svgContent = fs.readFileSync(`${ROOT_PROJECT}/${filePath}`, 'utf8')
   const fileName = path.basename(filePath, '.svg')
   const { type, variant } = getTypeAndVariant(filePath)
 
