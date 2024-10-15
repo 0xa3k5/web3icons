@@ -9,4 +9,3 @@
 - fix beam network shortname
 - fix base token image
 - add JSDoc to icon components
-

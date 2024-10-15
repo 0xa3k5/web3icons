@@ -266,13 +266,8 @@ const main = async () => {
     process.exit(1)
   }
 
-  // we assume the passed file paths are partial paths
-  // so we need to append the SVG_SRC_DIR to them
-  // example of an expected passed file path: tokens/bitcoin or networks/ethereum
-  // when appended: packages/core/src/svgs/tokens/bitcoin or packages/core/src/svgs/networks/ethereum
-
   const iconPaths = modifiedIcons
-    .concat(passedFiles.map((f) => `${SVG_SRC_DIR}/${f}`).join(',')) // append the SVG_SRC_DIR
+    .concat(passedFiles.map((f) => `${SVG_SRC_DIR}/${f}`).join(','))
     .split(',')
     .filter(Boolean)
     .filter((filePath) => validateSvg(filePath))

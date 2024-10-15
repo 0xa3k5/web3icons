@@ -20180,13 +20180,11 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'base',
+    name: 'SwapBased',
+    variants: ['branded'],
     symbol: 'base',
-    name: 'Base',
-    variants: ['branded', 'mono'],
     marketCapRank: null,
-    addresses: {
-      base: '0xd07379a755a8f11b57610154861d694b2a0f615a',
-    },
+    addresses: {},
   },
   {
     id: 'binancecoin',

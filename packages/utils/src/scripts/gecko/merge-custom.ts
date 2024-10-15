@@ -60,7 +60,7 @@ const enrichCustomTokens = () => {
           symbol: custom.symbol,
           marketCapRank: data?.market_cap_rank ?? null,
           variants,
-          addresses: data?.platforms ?? {},
+          addresses: data?.platforms ?? data?.addresses ?? {},
         }
         console.log(obj)
         return obj
