@@ -5,7 +5,7 @@ import getCoinByID from './gecko/get-coin-by-id'
 import { ITokenMetadata, TVariant } from '@web3icons/common'
 import { appendToMetadataJson } from '../utils'
 
-const PATH_COINS = path.join(__dirname, './gecko/gecko-coins.json')
+const PATH_COINS = path.join(__dirname, './gecko/raw-tokens.json')
 
 const svgFiles = {
   branded: new Set<string>(),

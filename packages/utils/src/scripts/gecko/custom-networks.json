@@ -161,5 +161,14 @@
     "shortname": "zeta",
     "chainId": 7000,
     "nativeCoinId": "zeta"
+  },
+  { "id": "bob", "name": "Bob", "shortname": "bob", "chainId": 60808, "nativeCoinId": "eth" },
+  { "id": "kakarot", "name": "Kakarot", "shortname": "kakarot", "nativeCoinId": "eth" },
+  {
+    "id": "soneium",
+    "name": "Soneium",
+    "shortname": "soneium",
+    "chainId": 1946,
+    "nativeCoinId": "eth"
   }
 ]

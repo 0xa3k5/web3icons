@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.2.0
+
+### Minor Changes
+
+- 03c8c28: new networks: bob, soneium, kaia, kakarot, karura
+
 ## 0.1.1
 
 ### Patch Changes

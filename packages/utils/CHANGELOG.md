@@ -1,5 +1,13 @@
 # @web3icons/utils
 
+## 0.2.4
+
+### Patch Changes
+
+- 03c8c28: new networks: bob, soneium, kaia, kakarot, karura
+- Updated dependencies [03c8c28]
+  - @web3icons/common@0.2.0
+
 ## 0.2.3
 
 ### Patch Changes

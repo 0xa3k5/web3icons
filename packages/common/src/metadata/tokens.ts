@@ -20179,14 +20179,6 @@ export const tokens: ITokenMetadata[] = [
     },
   },
   {
-    id: 'base',
-    name: 'SwapBased',
-    variants: ['branded'],
-    symbol: 'base',
-    marketCapRank: null,
-    addresses: {},
-  },
-  {
     id: 'binancecoin',
     symbol: 'bnb',
     name: 'BNB',

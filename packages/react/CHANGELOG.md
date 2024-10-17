@@ -1,5 +1,16 @@
 # @web3icons/react
 
+## 3.8.0
+
+### Minor Changes
+
+- 03c8c28: new networks: bob, soneium, kaia, kakarot, karura
+
+### Patch Changes
+
+- Updated dependencies [03c8c28]
+  - @web3icons/common@0.2.0
+
 ## 3.7.1
 
 ### Patch Changes

@@ -953,5 +953,44 @@
     "shortName": "zeta",
     "chainId": 7000,
     "nativeCoinId": "zeta"
+  },
+  {
+    "id": "bob",
+    "name": "Bob",
+    "variants": ["branded", "mono"],
+    "shortName": "bob",
+    "chainId": 60808,
+    "nativeCoinId": "eth"
+  },
+  {
+    "id": "klay-token",
+    "name": "Kaia",
+    "variants": ["branded", "mono"],
+    "shortName": "kaia",
+    "chainId": 8217,
+    "nativeCoinId": "kaia"
+  },
+  {
+    "id": "kakarot",
+    "name": "Kakarot",
+    "variants": ["branded", "mono"],
+    "shortName": "kakarot",
+    "nativeCoinId": "eth"
+  },
+  {
+    "id": "karura",
+    "name": "Karura",
+    "variants": ["branded", "mono"],
+    "shortName": "karura",
+    "chainId": 686,
+    "nativeCoinId": "karura"
+  },
+  {
+    "id": "soneium",
+    "name": "Soneium",
+    "variants": ["branded", "mono"],
+    "shortName": "soneium",
+    "chainId": 1946,
+    "nativeCoinId": "eth"
   }
 ]
