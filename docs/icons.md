@@ -1,8 +1,8 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (123)](#networks)
-- [tokens (1897)](#tokens)
+- [networks (128)](#networks)
+- [tokens (1898)](#tokens)
 
 ### Wallets
 
@@ -174,6 +174,11 @@ jump to section:
 | kucoin              | kucoin                       | ✅      | ✅   |
 | zeta                | zeta chain                   | ✅      | ✅   |
 | zeta-chain          | zeta chain                   | ✅      | ✅   |
+| bob                 | Bob                          | ✅      | ✅   |
+| klay-token          | Kaia                         | ✅      | ✅   |
+| kakarot             | Kakarot                      | ✅      | ✅   |
+| karura              | Karura                       | ✅      | ✅   |
+| soneium             | Soneium                      | ✅      | ✅   |
 
 ### Tokens
 
@@ -2065,7 +2070,6 @@ jump to section:
 | Pendle                                 | pendle      | ✅      | ✅   |
 | Jupiter Project                        | jup         | ✅      | ✅   |
 | Artrade                                | atr         | ✅      | ✅   |
-| BaseSwap                               | base        | ✅      | ❌   |
 | BNB                                    | bnb         | ✅      | ✅   |
 | Sense                                  | sense       | ✅      | ✅   |
 | AMZCoin                                | amz         | ✅      | ✅   |
@@ -2076,3 +2080,5 @@ jump to section:
 | OneArt                                 | 1art        | ✅      | ✅   |
 | 1inch                                  | 1inch       | ✅      | ✅   |
 | 2DAI.io                                | 2dai        | ✅      | ✅   |
+| apefi                                  | apefi       | ✅      | ✅   |
+| SwapBased                              | base        | ✅      | ❌   |

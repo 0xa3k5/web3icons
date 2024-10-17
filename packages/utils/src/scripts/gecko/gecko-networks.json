@@ -31,6 +31,16 @@
     }
   },
   {
+    "id": "monad",
+    "name": "Monad",
+    "native_coin_id": "monad",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22182/thumb/monad.png?1729046263",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22182/small/monad.png?1729046263",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22182/large/monad.png?1729046263"
+    }
+  },
+  {
     "id": "fraxtal",
     "chain_identifier": 252,
     "name": "Fraxtal",

@@ -4,9 +4,10 @@
   "private": false,
   "author": "0xa3k5",
   "scripts": {
-    "build": "turbo build",
-    "build:core": "turbo run build:core && bun run lint && bun run format",
-    "build:react": "turbo run build:react && bun run lint && bun run format",
+    "build": "turbo build && bun run post-build",
+    "build:core": "turbo run build:core && bun run post-build",
+    "build:react": "turbo run build:react && bun run post-build",
+    "post-build": "bun run generate-icons-md && bun run lint && bun run format",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error",

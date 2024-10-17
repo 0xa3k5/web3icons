@@ -10,7 +10,7 @@ import prettier from 'prettier'
 const mergedCoins = [...customTokens, ...geckoCoins]
 
 // write the merged coins to a JSON file
-fs.writeFileSync(path.join(__dirname, './gecko-coins.json'), JSON.stringify(mergedCoins, null, 2))
+fs.writeFileSync(path.join(__dirname, './raw-tokens.json'), JSON.stringify(mergedCoins, null, 2))
 
 const SVG_TOKENS_DIRS = {
   branded: path.join(SVG_TOKENS_SRC_DIR, 'branded'),
