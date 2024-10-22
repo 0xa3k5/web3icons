@@ -1,5 +1,17 @@
 # @web3icons/core
 
+## 3.9.0
+
+### Minor Changes
+
+- update `chiliz` logo
+  new networks:
+  - `kroma`
+  - `l3x`
+  - `lightlink`
+  - `lisk`
+  - `lycan`
+
 ## 3.8.0
 
 ### Minor Changes

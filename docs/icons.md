@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (128)](#networks)
+- [networks (133)](#networks)
 - [tokens (1898)](#tokens)
 
 ### Wallets
@@ -179,6 +179,11 @@ jump to section:
 | kakarot             | Kakarot                      | ✅      | ✅   |
 | karura              | Karura                       | ✅      | ✅   |
 | soneium             | Soneium                      | ✅      | ✅   |
+| kroma               | kroma                        | ✅      | ✅   |
+| l3x                 | L3X Protocol                 | ✅      | ✅   |
+| lightlink           | LightLink                    | ✅      | ✅   |
+| lisk                | Lisk                         | ✅      | ✅   |
+| lycan               | Lycan                        | ✅      | ✅   |
 
 ### Tokens
 

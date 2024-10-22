@@ -20279,4 +20279,22 @@ export const tokens: ITokenMetadata[] = [
       ethereum: '0xb44b653f147569d88a684cbf6549e1968e8b2a1d',
     },
   },
+  {
+    id: 'apefi',
+    name: 'apefi',
+    symbol: 'apefi',
+    marketCapRank: null,
+    variants: ['branded', 'mono'],
+    addresses: {},
+  },
+  {
+    id: 'base',
+    name: 'SwapBased',
+    symbol: 'base',
+    marketCapRank: null,
+    variants: ['branded'],
+    addresses: {
+      base: '0xd07379a755a8f11b57610154861d694b2a0f615a',
+    },
+  },
 ]

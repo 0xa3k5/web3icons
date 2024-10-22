@@ -170,5 +170,14 @@
     "shortname": "soneium",
     "chainId": 1946,
     "nativeCoinId": "eth"
-  }
+  },
+  { "id": "kroma", "name": "kroma", "shortname": "kroma", "chainId": 255, "nativeCoinId": "eth" },
+  {
+    "id": "l3x",
+    "name": "L3X Protocol",
+    "shortname": "l3x",
+    "chainId": 12324,
+    "nativeCoinId": "eth"
+  },
+  { "id": "lycan", "name": "Lycan", "shortname": "lycan", "chainId": 721, "nativeCoinId": "lyc" }
 ]

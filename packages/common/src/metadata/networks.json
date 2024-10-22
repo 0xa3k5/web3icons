@@ -992,5 +992,45 @@
     "shortName": "soneium",
     "chainId": 1946,
     "nativeCoinId": "eth"
+  },
+  {
+    "id": "kroma",
+    "name": "kroma",
+    "variants": ["branded", "mono"],
+    "shortName": "kroma",
+    "chainId": 255,
+    "nativeCoinId": "eth"
+  },
+  {
+    "id": "l3x",
+    "name": "L3X Protocol",
+    "variants": ["branded", "mono"],
+    "shortName": "l3x",
+    "chainId": 12324,
+    "nativeCoinId": "eth"
+  },
+  {
+    "id": "lightlink",
+    "name": "LightLink",
+    "variants": ["branded", "mono"],
+    "shortName": "lightlink",
+    "chainId": 1890,
+    "nativeCoinId": "ethereum"
+  },
+  {
+    "id": "lisk",
+    "name": "Lisk",
+    "variants": ["branded", "mono"],
+    "shortName": "lisk",
+    "chainId": 1135,
+    "nativeCoinId": "lisk"
+  },
+  {
+    "id": "lycan",
+    "name": "Lycan",
+    "variants": ["branded", "mono"],
+    "shortName": "lycan",
+    "chainId": 721,
+    "nativeCoinId": "lyc"
   }
 ]
