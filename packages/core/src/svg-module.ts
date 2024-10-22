@@ -527,6 +527,7 @@ import * as TBrandedUMA from './svgs/tokens/branded/UMA.svg'
 import * as TBrandedSPELL from './svgs/tokens/branded/SPELL.svg'
 import * as TBrandedMMIT from './svgs/tokens/branded/MMIT.svg'
 import * as TBrandedMORK from './svgs/tokens/branded/MORK.svg'
+import * as TBrandedORDER from './svgs/tokens/branded/ORDER.svg'
 import * as TBrandedKEY from './svgs/tokens/branded/KEY.svg'
 import * as TBrandedJULD from './svgs/tokens/branded/JULD.svg'
 import * as TBrandedSATS from './svgs/tokens/branded/SATS.svg'
@@ -2250,6 +2251,7 @@ import * as TMonoLINK from './svgs/tokens/mono/LINK.svg'
 import * as TMonoALOT from './svgs/tokens/mono/ALOT.svg'
 import * as TMonoUMA from './svgs/tokens/mono/UMA.svg'
 import * as TMonoMORK from './svgs/tokens/mono/MORK.svg'
+import * as TMonoORDER from './svgs/tokens/mono/ORDER.svg'
 import * as TMonoKEY from './svgs/tokens/mono/KEY.svg'
 import * as TMonoJULD from './svgs/tokens/mono/JULD.svg'
 import * as TMonoHTR from './svgs/tokens/mono/HTR.svg'
@@ -3402,6 +3404,8 @@ import * as NBrandedPolygonZkevm from './svgs/networks/branded/polygon-zkevm.svg
 import * as NBrandedKujira from './svgs/networks/branded/kujira.svg'
 import * as NBrandedAptos from './svgs/networks/branded/aptos.svg'
 import * as NBrandedCosmos from './svgs/networks/branded/cosmos.svg'
+import * as NBrandedMoonbase from './svgs/networks/branded/moonbase.svg'
+import * as NBrandedArweave from './svgs/networks/branded/arweave.svg'
 import * as NBrandedStellar from './svgs/networks/branded/stellar.svg'
 import * as NBrandedZora from './svgs/networks/branded/zora.svg'
 import * as NBrandedCronos from './svgs/networks/branded/cronos.svg'
@@ -3417,6 +3421,7 @@ import * as NBrandedAstar from './svgs/networks/branded/astar.svg'
 import * as NBrandedInjective from './svgs/networks/branded/injective.svg'
 import * as NBrandedTron from './svgs/networks/branded/tron.svg'
 import * as NBrandedRootstock from './svgs/networks/branded/rootstock.svg'
+import * as NBrandedHarmony from './svgs/networks/branded/harmony.svg'
 import * as NBrandedFantom from './svgs/networks/branded/fantom.svg'
 import * as NBrandedClover from './svgs/networks/branded/clover.svg'
 import * as NBrandedXdc from './svgs/networks/branded/xdc.svg'
@@ -3445,6 +3450,7 @@ import * as NBrandedKardia from './svgs/networks/branded/kardia.svg'
 import * as NBrandedBlast from './svgs/networks/branded/blast.svg'
 import * as NBrandedEtherlink from './svgs/networks/branded/etherlink.svg'
 import * as NBrandedRari from './svgs/networks/branded/rari.svg'
+import * as NBrandedUnichain from './svgs/networks/branded/unichain.svg'
 import * as NBrandedKarura from './svgs/networks/branded/karura.svg'
 import * as NBrandedSui from './svgs/networks/branded/sui.svg'
 import * as NBrandedRonin from './svgs/networks/branded/ronin.svg'
@@ -3466,6 +3472,8 @@ import * as NBrandedFlare from './svgs/networks/branded/flare.svg'
 import * as NBrandedLyra from './svgs/networks/branded/lyra.svg'
 import * as NBrandedStarknet from './svgs/networks/branded/starknet.svg'
 import * as NBrandedMoonbeam from './svgs/networks/branded/moonbeam.svg'
+import * as NBrandedFluence from './svgs/networks/branded/fluence.svg'
+import * as NBrandedOrderly from './svgs/networks/branded/orderly.svg'
 import * as NBrandedOkex from './svgs/networks/branded/okex.svg'
 import * as NBrandedKroma from './svgs/networks/branded/kroma.svg'
 import * as NBrandedKava from './svgs/networks/branded/kava.svg'
@@ -3501,6 +3509,7 @@ import * as NBrandedReya from './svgs/networks/branded/reya.svg'
 import * as NBrandedKaia from './svgs/networks/branded/kaia.svg'
 import * as NBrandedConflux from './svgs/networks/branded/conflux.svg'
 import * as NBrandedSolana from './svgs/networks/branded/solana.svg'
+import * as NBrandedOptopia from './svgs/networks/branded/optopia.svg'
 import * as NBrandedArbitrumNova from './svgs/networks/branded/arbitrum-nova.svg'
 import * as NBrandedFio from './svgs/networks/branded/fio.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
@@ -3527,8 +3536,10 @@ import * as NMonoPolygonZkevm from './svgs/networks/mono/polygon-zkevm.svg'
 import * as NMonoKujira from './svgs/networks/mono/kujira.svg'
 import * as NMonoAptos from './svgs/networks/mono/aptos.svg'
 import * as NMonoCosmos from './svgs/networks/mono/cosmos.svg'
+import * as NMonoMoonbase from './svgs/networks/mono/moonbase.svg'
 import * as NMonoAlgorand from './svgs/networks/mono/algorand.svg'
 import * as NMonoEos from './svgs/networks/mono/eos.svg'
+import * as NMonoArweave from './svgs/networks/mono/arweave.svg'
 import * as NMonoStellar from './svgs/networks/mono/stellar.svg'
 import * as NMonoCronos from './svgs/networks/mono/cronos.svg'
 import * as NMonoBinanceSmartChain from './svgs/networks/mono/binance-smart-chain.svg'
@@ -3543,6 +3554,7 @@ import * as NMonoAstar from './svgs/networks/mono/astar.svg'
 import * as NMonoInjective from './svgs/networks/mono/injective.svg'
 import * as NMonoTron from './svgs/networks/mono/tron.svg'
 import * as NMonoRootstock from './svgs/networks/mono/rootstock.svg'
+import * as NMonoHarmony from './svgs/networks/mono/harmony.svg'
 import * as NMonoFantom from './svgs/networks/mono/fantom.svg'
 import * as NMonoClover from './svgs/networks/mono/clover.svg'
 import * as NMonoXdc from './svgs/networks/mono/xdc.svg'
@@ -3570,6 +3582,7 @@ import * as NMonoKardia from './svgs/networks/mono/kardia.svg'
 import * as NMonoBlast from './svgs/networks/mono/blast.svg'
 import * as NMonoEtherlink from './svgs/networks/mono/etherlink.svg'
 import * as NMonoRari from './svgs/networks/mono/rari.svg'
+import * as NMonoUnichain from './svgs/networks/mono/unichain.svg'
 import * as NMonoKarura from './svgs/networks/mono/karura.svg'
 import * as NMonoSui from './svgs/networks/mono/sui.svg'
 import * as NMonoRonin from './svgs/networks/mono/ronin.svg'
@@ -3592,6 +3605,8 @@ import * as NMonoFlare from './svgs/networks/mono/flare.svg'
 import * as NMonoLyra from './svgs/networks/mono/lyra.svg'
 import * as NMonoStarknet from './svgs/networks/mono/starknet.svg'
 import * as NMonoMoonbeam from './svgs/networks/mono/moonbeam.svg'
+import * as NMonoFluence from './svgs/networks/mono/fluence.svg'
+import * as NMonoOrderly from './svgs/networks/mono/orderly.svg'
 import * as NMonoOkex from './svgs/networks/mono/okex.svg'
 import * as NMonoKroma from './svgs/networks/mono/kroma.svg'
 import * as NMonoKava from './svgs/networks/mono/kava.svg'
@@ -3627,6 +3642,7 @@ import * as NMonoReya from './svgs/networks/mono/reya.svg'
 import * as NMonoKaia from './svgs/networks/mono/kaia.svg'
 import * as NMonoConflux from './svgs/networks/mono/conflux.svg'
 import * as NMonoSolana from './svgs/networks/mono/solana.svg'
+import * as NMonoOptopia from './svgs/networks/mono/optopia.svg'
 import * as NMonoArbitrumNova from './svgs/networks/mono/arbitrum-nova.svg'
 import * as NMonoFio from './svgs/networks/mono/fio.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
@@ -4175,6 +4191,7 @@ export const svgs = {
       ALOT: TMonoALOT,
       UMA: TMonoUMA,
       MORK: TMonoMORK,
+      ORDER: TMonoORDER,
       KEY: TMonoKEY,
       JULD: TMonoJULD,
       HTR: TMonoHTR,
@@ -5832,6 +5849,7 @@ export const svgs = {
       SPELL: TBrandedSPELL,
       MMIT: TBrandedMMIT,
       MORK: TBrandedMORK,
+      ORDER: TBrandedORDER,
       KEY: TBrandedKEY,
       JULD: TBrandedJULD,
       SATS: TBrandedSATS,
@@ -7113,8 +7131,10 @@ export const svgs = {
       kujira: NMonoKujira,
       aptos: NMonoAptos,
       cosmos: NMonoCosmos,
+      moonbase: NMonoMoonbase,
       algorand: NMonoAlgorand,
       eos: NMonoEos,
+      arweave: NMonoArweave,
       stellar: NMonoStellar,
       cronos: NMonoCronos,
       'binance-smart-chain': NMonoBinanceSmartChain,
@@ -7129,6 +7149,7 @@ export const svgs = {
       injective: NMonoInjective,
       tron: NMonoTron,
       rootstock: NMonoRootstock,
+      harmony: NMonoHarmony,
       fantom: NMonoFantom,
       clover: NMonoClover,
       xdc: NMonoXdc,
@@ -7156,6 +7177,7 @@ export const svgs = {
       blast: NMonoBlast,
       etherlink: NMonoEtherlink,
       rari: NMonoRari,
+      unichain: NMonoUnichain,
       karura: NMonoKarura,
       sui: NMonoSui,
       ronin: NMonoRonin,
@@ -7178,6 +7200,8 @@ export const svgs = {
       lyra: NMonoLyra,
       starknet: NMonoStarknet,
       moonbeam: NMonoMoonbeam,
+      fluence: NMonoFluence,
+      orderly: NMonoOrderly,
       okex: NMonoOkex,
       kroma: NMonoKroma,
       kava: NMonoKava,
@@ -7213,6 +7237,7 @@ export const svgs = {
       kaia: NMonoKaia,
       conflux: NMonoConflux,
       solana: NMonoSolana,
+      optopia: NMonoOptopia,
       'arbitrum-nova': NMonoArbitrumNova,
       fio: NMonoFio,
     },
@@ -7242,6 +7267,8 @@ export const svgs = {
       kujira: NBrandedKujira,
       aptos: NBrandedAptos,
       cosmos: NBrandedCosmos,
+      moonbase: NBrandedMoonbase,
+      arweave: NBrandedArweave,
       stellar: NBrandedStellar,
       zora: NBrandedZora,
       cronos: NBrandedCronos,
@@ -7257,6 +7284,7 @@ export const svgs = {
       injective: NBrandedInjective,
       tron: NBrandedTron,
       rootstock: NBrandedRootstock,
+      harmony: NBrandedHarmony,
       fantom: NBrandedFantom,
       clover: NBrandedClover,
       xdc: NBrandedXdc,
@@ -7285,6 +7313,7 @@ export const svgs = {
       blast: NBrandedBlast,
       etherlink: NBrandedEtherlink,
       rari: NBrandedRari,
+      unichain: NBrandedUnichain,
       karura: NBrandedKarura,
       sui: NBrandedSui,
       ronin: NBrandedRonin,
@@ -7306,6 +7335,8 @@ export const svgs = {
       lyra: NBrandedLyra,
       starknet: NBrandedStarknet,
       moonbeam: NBrandedMoonbeam,
+      fluence: NBrandedFluence,
+      orderly: NBrandedOrderly,
       okex: NBrandedOkex,
       kroma: NBrandedKroma,
       kava: NBrandedKava,
@@ -7341,6 +7372,7 @@ export const svgs = {
       kaia: NBrandedKaia,
       conflux: NBrandedConflux,
       solana: NBrandedSolana,
+      optopia: NBrandedOptopia,
       'arbitrum-nova': NBrandedArbitrumNova,
       fio: NBrandedFio,
     },

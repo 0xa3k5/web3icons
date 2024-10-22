@@ -179,5 +179,42 @@
     "chainId": 12324,
     "nativeCoinId": "eth"
   },
-  { "id": "lycan", "name": "Lycan", "shortname": "lycan", "chainId": 721, "nativeCoinId": "lyc" }
+  { "id": "lycan", "name": "Lycan", "shortname": "lycan", "chainId": 721, "nativeCoinId": "lyc" },
+  { "id": "arweave", "name": "Arweave", "shortname": "arweave" },
+  {
+    "id": "fluence",
+    "name": "Fluence",
+    "shortname": "fluence",
+    "chainId": 9999999,
+    "nativeCoinId": "flt"
+  },
+  {
+    "id": "harmony",
+    "name": "Harmony One",
+    "shortname": "one",
+    "chainId": 1666600000,
+    "nativeCoinId": "one"
+  },
+  {
+    "id": "optopia",
+    "name": "Optopia AI",
+    "shortname": "optopia",
+    "chainId": 62050,
+    "nativeCoinId": "eth"
+  },
+  {
+    "id": "orderly",
+    "name": "Orderly",
+    "shortname": "orderly",
+    "chainId": 291,
+    "nativeCoinId": "eth"
+  },
+  { "id": "moonbase", "name": "moonbase", "shortname": "moonbase", "chainId": 1287 },
+  {
+    "id": "unichain",
+    "name": "Unichain",
+    "shortname": "uni",
+    "chainId": 130,
+    "nativeCoinId": "eth"
+  }
 ]

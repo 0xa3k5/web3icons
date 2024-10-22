@@ -1,5 +1,23 @@
 # @web3icons/common
 
+## 0.4.0
+
+### Minor Changes
+
+- new networks:
+
+  - unichain
+  - optopia
+  - orderly
+  - arweave
+  - moonbeam
+  - fluence
+  - harmony
+
+  new tokens:
+
+  - ORDER
+
 ## 0.3.0
 
 ### Minor Changes

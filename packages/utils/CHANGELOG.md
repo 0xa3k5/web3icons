@@ -1,5 +1,26 @@
 # @web3icons/utils
 
+## 0.2.6
+
+### Patch Changes
+
+- new networks:
+
+  - unichain
+  - optopia
+  - orderly
+  - arweave
+  - moonbeam
+  - fluence
+  - harmony
+
+  new tokens:
+
+  - ORDER
+
+- Updated dependencies
+  - @web3icons/common@0.4.0
+
 ## 0.2.5
 
 ### Patch Changes
