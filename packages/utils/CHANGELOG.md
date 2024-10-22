@@ -1,5 +1,19 @@
 # @web3icons/utils
 
+## 0.2.5
+
+### Patch Changes
+
+- update `chiliz` logo
+  new networks:
+  - `kroma`
+  - `l3x`
+  - `lightlink`
+  - `lisk`
+  - `lycan`
+- Updated dependencies
+  - @web3icons/common@0.3.0
+
 ## 0.2.4
 
 ### Patch Changes

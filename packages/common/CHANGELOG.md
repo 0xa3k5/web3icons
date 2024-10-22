@@ -1,5 +1,17 @@
 # @web3icons/common
 
+## 0.3.0
+
+### Minor Changes
+
+- update `chiliz` logo
+  new networks:
+  - `kroma`
+  - `l3x`
+  - `lightlink`
+  - `lisk`
+  - `lycan`
+
 ## 0.2.0
 
 ### Minor Changes
