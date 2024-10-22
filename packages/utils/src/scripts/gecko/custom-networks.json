@@ -208,5 +208,13 @@
     "shortname": "orderly",
     "chainId": 291,
     "nativeCoinId": "eth"
+  },
+  { "id": "moonbase", "name": "moonbase", "shortname": "moonbase", "chainId": 1287 },
+  {
+    "id": "unichain",
+    "name": "Unichain",
+    "shortname": "uni",
+    "chainId": 130,
+    "nativeCoinId": "eth"
   }
 ]

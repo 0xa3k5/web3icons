@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (138)](#networks)
+- [networks (140)](#networks)
 - [tokens (1899)](#tokens)
 
 ### Wallets
@@ -189,6 +189,8 @@ jump to section:
 | harmony             | Harmony One                  | ✅      | ✅   |
 | optopia             | Optopia AI                   | ✅      | ✅   |
 | orderly             | Orderly                      | ✅      | ✅   |
+| moonbase            | moonbase                     | ✅      | ✅   |
+| unichain            | Unichain                     | ✅      | ✅   |
 
 ### Tokens
 

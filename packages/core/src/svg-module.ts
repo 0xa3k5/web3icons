@@ -3404,6 +3404,7 @@ import * as NBrandedPolygonZkevm from './svgs/networks/branded/polygon-zkevm.svg
 import * as NBrandedKujira from './svgs/networks/branded/kujira.svg'
 import * as NBrandedAptos from './svgs/networks/branded/aptos.svg'
 import * as NBrandedCosmos from './svgs/networks/branded/cosmos.svg'
+import * as NBrandedMoonbase from './svgs/networks/branded/moonbase.svg'
 import * as NBrandedArweave from './svgs/networks/branded/arweave.svg'
 import * as NBrandedStellar from './svgs/networks/branded/stellar.svg'
 import * as NBrandedZora from './svgs/networks/branded/zora.svg'
@@ -3449,6 +3450,7 @@ import * as NBrandedKardia from './svgs/networks/branded/kardia.svg'
 import * as NBrandedBlast from './svgs/networks/branded/blast.svg'
 import * as NBrandedEtherlink from './svgs/networks/branded/etherlink.svg'
 import * as NBrandedRari from './svgs/networks/branded/rari.svg'
+import * as NBrandedUnichain from './svgs/networks/branded/unichain.svg'
 import * as NBrandedKarura from './svgs/networks/branded/karura.svg'
 import * as NBrandedSui from './svgs/networks/branded/sui.svg'
 import * as NBrandedRonin from './svgs/networks/branded/ronin.svg'
@@ -3534,6 +3536,7 @@ import * as NMonoPolygonZkevm from './svgs/networks/mono/polygon-zkevm.svg'
 import * as NMonoKujira from './svgs/networks/mono/kujira.svg'
 import * as NMonoAptos from './svgs/networks/mono/aptos.svg'
 import * as NMonoCosmos from './svgs/networks/mono/cosmos.svg'
+import * as NMonoMoonbase from './svgs/networks/mono/moonbase.svg'
 import * as NMonoAlgorand from './svgs/networks/mono/algorand.svg'
 import * as NMonoEos from './svgs/networks/mono/eos.svg'
 import * as NMonoArweave from './svgs/networks/mono/arweave.svg'
@@ -3579,6 +3582,7 @@ import * as NMonoKardia from './svgs/networks/mono/kardia.svg'
 import * as NMonoBlast from './svgs/networks/mono/blast.svg'
 import * as NMonoEtherlink from './svgs/networks/mono/etherlink.svg'
 import * as NMonoRari from './svgs/networks/mono/rari.svg'
+import * as NMonoUnichain from './svgs/networks/mono/unichain.svg'
 import * as NMonoKarura from './svgs/networks/mono/karura.svg'
 import * as NMonoSui from './svgs/networks/mono/sui.svg'
 import * as NMonoRonin from './svgs/networks/mono/ronin.svg'
@@ -7127,6 +7131,7 @@ export const svgs = {
       kujira: NMonoKujira,
       aptos: NMonoAptos,
       cosmos: NMonoCosmos,
+      moonbase: NMonoMoonbase,
       algorand: NMonoAlgorand,
       eos: NMonoEos,
       arweave: NMonoArweave,
@@ -7172,6 +7177,7 @@ export const svgs = {
       blast: NMonoBlast,
       etherlink: NMonoEtherlink,
       rari: NMonoRari,
+      unichain: NMonoUnichain,
       karura: NMonoKarura,
       sui: NMonoSui,
       ronin: NMonoRonin,
@@ -7261,6 +7267,7 @@ export const svgs = {
       kujira: NBrandedKujira,
       aptos: NBrandedAptos,
       cosmos: NBrandedCosmos,
+      moonbase: NBrandedMoonbase,
       arweave: NBrandedArweave,
       stellar: NBrandedStellar,
       zora: NBrandedZora,
@@ -7306,6 +7313,7 @@ export const svgs = {
       blast: NBrandedBlast,
       etherlink: NBrandedEtherlink,
       rari: NBrandedRari,
+      unichain: NBrandedUnichain,
       karura: NBrandedKarura,
       sui: NBrandedSui,
       ronin: NBrandedRonin,

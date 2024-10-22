@@ -1071,5 +1071,20 @@
     "shortName": "orderly",
     "chainId": 291,
     "nativeCoinId": "eth"
+  },
+  {
+    "id": "moonbase",
+    "name": "moonbase",
+    "variants": ["branded", "mono"],
+    "shortName": "moonbase",
+    "chainId": 1287
+  },
+  {
+    "id": "unichain",
+    "name": "Unichain",
+    "variants": ["branded", "mono"],
+    "shortName": "uni",
+    "chainId": 130,
+    "nativeCoinId": "eth"
   }
 ]
