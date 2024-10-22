@@ -11,7 +11,7 @@
     "crypto logos",
     "coin icons"
   ],
-  "version": "3.10.0",
+  "version": "3.10.1",
   "private": false,
   "license": "MIT",
   "type": "module",
@@ -32,7 +32,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun run clean && (cd ../utils && bun run pre-build:react) && bun run build:types && tsup",
+    "build": "bun run clean && (cd ../utils && bun run pre-build:react) && bun run build:icons && bun run build:types && tsup",
     "build:types": "tsc --outDir dist --declarationDir dist --declaration true",
     "build:icons": "tsup 'src/icons/**/*.ts' --format esm --outDir dist/icons",
     "dev": "bun run build -- --watch",
@@ -41,7 +41,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@web3icons/common": "0.4.0",
+    "@web3icons/common": "0.4.1",
     "react": "^18.2.0"
   },
   "devDependencies": {

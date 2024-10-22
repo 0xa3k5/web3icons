@@ -110,6 +110,7 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkLycan: () => import('../icons/networks/NetworkLycan'),
   NetworkStellar: () => import('../icons/networks/NetworkStellar'),
   NetworkXdc: () => import('../icons/networks/NetworkXdc'),
+  NetworkUnichain: () => import('../icons/networks/NetworkUnichain'),
   NetworkArweave: () => import('../icons/networks/NetworkArweave'),
   NetworkImmutable: () => import('../icons/networks/NetworkImmutable'),
   NetworkStargaze: () => import('../icons/networks/NetworkStargaze'),

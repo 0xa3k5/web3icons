@@ -1,5 +1,13 @@
 # @web3icons/utils
 
+## 0.2.7
+
+### Patch Changes
+
+- fix unichain
+- Updated dependencies
+  - @web3icons/common@0.4.1
+
 ## 0.2.6
 
 ### Patch Changes
