@@ -17505,6 +17505,11 @@
     "name": "DAI Reflections"
   },
   {
+    "id": "dak",
+    "symbol": "dak",
+    "name": "dak"
+  },
+  {
     "id": "dalgo",
     "symbol": "dalgo",
     "name": "DALGO"
@@ -24605,6 +24610,11 @@
     "name": "Fellaz"
   },
   {
+    "id": "fely",
+    "symbol": "fely",
+    "name": "Fely"
+  },
+  {
     "id": "fenerbahce-token",
     "symbol": "fb",
     "name": "Fenerbahçe"
@@ -26358,6 +26368,11 @@
     "id": "fu-bao",
     "symbol": "fubao",
     "name": "Fu Bao"
+  },
+  {
+    "id": "fubb",
+    "symbol": "fubb",
+    "name": "FUBB"
   },
   {
     "id": "fud-the-pug",
@@ -41513,6 +41528,11 @@
     "id": "metfi-2",
     "symbol": "metfi",
     "name": "MetFi"
+  },
+  {
+    "id": "meth-protocol",
+    "symbol": "cook",
+    "name": "mETH Protocol"
   },
   {
     "id": "metis-bridged-wbtc-metis-andromeda",
@@ -60183,6 +60203,11 @@
     "id": "sora-doge",
     "symbol": "soradoge",
     "name": "Sora Doge"
+  },
+  {
+    "id": "sora-pussy",
+    "symbol": "pussy",
+    "name": "SORA Pussy"
   },
   {
     "id": "sora-solana",

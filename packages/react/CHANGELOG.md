@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 3.10.1
+
+### Patch Changes
+
+- fix unichain
+- Updated dependencies
+  - @web3icons/common@0.4.1
+
 ## 3.10.0
 
 ### Minor Changes

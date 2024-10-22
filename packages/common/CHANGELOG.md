@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.4.1
+
+### Patch Changes
+
+- fix unichain
+
 ## 0.4.0
 
 ### Minor Changes

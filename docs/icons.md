@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (139)](#networks)
+- [networks (140)](#networks)
 - [tokens (1899)](#tokens)
 
 ### Wallets
@@ -190,6 +190,7 @@ jump to section:
 | optopia             | Optopia AI                   | ✅      | ✅   |
 | orderly             | Orderly                      | ✅      | ✅   |
 | moonbase            | moonbase                     | ✅      | ✅   |
+| unichain            | Unichain                     | ✅      | ✅   |
 
 ### Tokens
 
