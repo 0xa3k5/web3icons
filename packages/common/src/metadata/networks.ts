@@ -1081,12 +1081,4 @@ export const networks: INetworkMetadata[] = [
     shortName: 'moonbase',
     chainId: 1287,
   },
-  {
-    id: 'unichain',
-    name: 'Unichain',
-    variants: ['branded', 'mono'],
-    shortName: 'uni',
-    chainId: 130,
-    nativeCoinId: 'eth',
-  },
 ]
