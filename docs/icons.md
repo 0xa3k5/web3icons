@@ -1,8 +1,8 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (133)](#networks)
-- [tokens (1898)](#tokens)
+- [networks (138)](#networks)
+- [tokens (1899)](#tokens)
 
 ### Wallets
 
@@ -184,6 +184,11 @@ jump to section:
 | lightlink           | LightLink                    | ✅      | ✅   |
 | lisk                | Lisk                         | ✅      | ✅   |
 | lycan               | Lycan                        | ✅      | ✅   |
+| arweave             | Arweave                      | ✅      | ✅   |
+| fluence             | Fluence                      | ✅      | ✅   |
+| harmony             | Harmony One                  | ✅      | ✅   |
+| optopia             | Optopia AI                   | ✅      | ✅   |
+| orderly             | Orderly                      | ✅      | ✅   |
 
 ### Tokens
 
@@ -2087,3 +2092,4 @@ jump to section:
 | 2DAI.io                                | 2dai        | ✅      | ✅   |
 | apefi                                  | apefi       | ✅      | ✅   |
 | SwapBased                              | base        | ✅      | ❌   |
+| Orderly Network                        | order       | ✅      | ✅   |

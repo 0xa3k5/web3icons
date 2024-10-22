@@ -63845,6 +63845,11 @@
     "name": "τDoge"
   },
   {
+    "id": "tea-fi",
+    "symbol": "tea",
+    "name": "Tea-Fi"
+  },
+  {
     "id": "tea-meme-coin",
     "symbol": "tea",
     "name": "Tea Meme Coin"
@@ -70360,6 +70365,11 @@
     "name": "Wen"
   },
   {
+    "id": "wen-5",
+    "symbol": "wen",
+    "name": "$WEN"
+  },
+  {
     "id": "weniscoin",
     "symbol": "wenis",
     "name": "WenisCoin"
@@ -73318,6 +73328,11 @@
     "id": "yamfore",
     "symbol": "cblp",
     "name": "Yamfore"
+  },
+  {
+    "id": "yap",
+    "symbol": "yap",
+    "name": "yap"
   },
   {
     "id": "yawn",
