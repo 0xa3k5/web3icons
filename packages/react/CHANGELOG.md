@@ -1,5 +1,28 @@
 # @web3icons/react
 
+## 3.10.0
+
+### Minor Changes
+
+- new networks:
+
+  - unichain
+  - optopia
+  - orderly
+  - arweave
+  - moonbeam
+  - fluence
+  - harmony
+
+  new tokens:
+
+  - ORDER
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/common@0.4.0
+
 ## 3.9.0
 
 ### Patch Changes
