@@ -3387,6 +3387,7 @@ import * as NBrandedEnuls from './svgs/networks/branded/enuls.svg'
 import * as NBrandedAurora from './svgs/networks/branded/aurora.svg'
 import * as NBrandedMultiversx from './svgs/networks/branded/multiversx.svg'
 import * as NBrandedTombchain from './svgs/networks/branded/tombchain.svg'
+import * as NBrandedL3x from './svgs/networks/branded/l3x.svg'
 import * as NBrandedFraxtal from './svgs/networks/branded/fraxtal.svg'
 import * as NBrandedEthereum from './svgs/networks/branded/ethereum.svg'
 import * as NBrandedNeonEvm from './svgs/networks/branded/neon-evm.svg'
@@ -3466,12 +3467,15 @@ import * as NBrandedLyra from './svgs/networks/branded/lyra.svg'
 import * as NBrandedStarknet from './svgs/networks/branded/starknet.svg'
 import * as NBrandedMoonbeam from './svgs/networks/branded/moonbeam.svg'
 import * as NBrandedOkex from './svgs/networks/branded/okex.svg'
+import * as NBrandedKroma from './svgs/networks/branded/kroma.svg'
 import * as NBrandedKava from './svgs/networks/branded/kava.svg'
 import * as NBrandedMoonriver from './svgs/networks/branded/moonriver.svg'
 import * as NBrandedUbiq from './svgs/networks/branded/ubiq.svg'
 import * as NBrandedPolygonPos from './svgs/networks/branded/polygon-pos.svg'
 import * as NBrandedSoneium from './svgs/networks/branded/soneium.svg'
 import * as NBrandedNahmii from './svgs/networks/branded/nahmii.svg'
+import * as NBrandedLightlink from './svgs/networks/branded/lightlink.svg'
+import * as NBrandedLisk from './svgs/networks/branded/lisk.svg'
 import * as NBrandedPolkadot from './svgs/networks/branded/polkadot.svg'
 import * as NBrandedOasys from './svgs/networks/branded/oasys.svg'
 import * as NBrandedBase from './svgs/networks/branded/base.svg'
@@ -3490,6 +3494,7 @@ import * as NBrandedSeiNetwork from './svgs/networks/branded/sei-network.svg'
 import * as NBrandedMilkomedaA1 from './svgs/networks/branded/milkomeda-a1.svg'
 import * as NBrandedShimmerEvm from './svgs/networks/branded/shimmer-evm.svg'
 import * as NBrandedTelos from './svgs/networks/branded/telos.svg'
+import * as NBrandedLycan from './svgs/networks/branded/lycan.svg'
 import * as NBrandedCelo from './svgs/networks/branded/celo.svg'
 import * as NBrandedZilliqa from './svgs/networks/branded/zilliqa.svg'
 import * as NBrandedReya from './svgs/networks/branded/reya.svg'
@@ -3507,6 +3512,7 @@ import * as NMonoNearProtocol from './svgs/networks/mono/near-protocol.svg'
 import * as NMonoEnuls from './svgs/networks/mono/enuls.svg'
 import * as NMonoAurora from './svgs/networks/mono/aurora.svg'
 import * as NMonoMultiversx from './svgs/networks/mono/multiversx.svg'
+import * as NMonoL3x from './svgs/networks/mono/l3x.svg'
 import * as NMonoFraxtal from './svgs/networks/mono/fraxtal.svg'
 import * as NMonoEthereum from './svgs/networks/mono/ethereum.svg'
 import * as NMonoNeonEvm from './svgs/networks/mono/neon-evm.svg'
@@ -3587,12 +3593,15 @@ import * as NMonoLyra from './svgs/networks/mono/lyra.svg'
 import * as NMonoStarknet from './svgs/networks/mono/starknet.svg'
 import * as NMonoMoonbeam from './svgs/networks/mono/moonbeam.svg'
 import * as NMonoOkex from './svgs/networks/mono/okex.svg'
+import * as NMonoKroma from './svgs/networks/mono/kroma.svg'
 import * as NMonoKava from './svgs/networks/mono/kava.svg'
 import * as NMonoMoonriver from './svgs/networks/mono/moonriver.svg'
 import * as NMonoUbiq from './svgs/networks/mono/ubiq.svg'
 import * as NMonoPolygonPos from './svgs/networks/mono/polygon-pos.svg'
 import * as NMonoSoneium from './svgs/networks/mono/soneium.svg'
 import * as NMonoNahmii from './svgs/networks/mono/nahmii.svg'
+import * as NMonoLightlink from './svgs/networks/mono/lightlink.svg'
+import * as NMonoLisk from './svgs/networks/mono/lisk.svg'
 import * as NMonoPolkadot from './svgs/networks/mono/polkadot.svg'
 import * as NMonoOasys from './svgs/networks/mono/oasys.svg'
 import * as NMonoBase from './svgs/networks/mono/base.svg'
@@ -3611,6 +3620,7 @@ import * as NMonoSeiNetwork from './svgs/networks/mono/sei-network.svg'
 import * as NMonoMilkomedaA1 from './svgs/networks/mono/milkomeda-a1.svg'
 import * as NMonoShimmerEvm from './svgs/networks/mono/shimmer-evm.svg'
 import * as NMonoTelos from './svgs/networks/mono/telos.svg'
+import * as NMonoLycan from './svgs/networks/mono/lycan.svg'
 import * as NMonoCelo from './svgs/networks/mono/celo.svg'
 import * as NMonoZilliqa from './svgs/networks/mono/zilliqa.svg'
 import * as NMonoReya from './svgs/networks/mono/reya.svg'
@@ -7088,6 +7098,7 @@ export const svgs = {
       enuls: NMonoEnuls,
       aurora: NMonoAurora,
       multiversx: NMonoMultiversx,
+      l3x: NMonoL3x,
       fraxtal: NMonoFraxtal,
       ethereum: NMonoEthereum,
       'neon-evm': NMonoNeonEvm,
@@ -7168,12 +7179,15 @@ export const svgs = {
       starknet: NMonoStarknet,
       moonbeam: NMonoMoonbeam,
       okex: NMonoOkex,
+      kroma: NMonoKroma,
       kava: NMonoKava,
       moonriver: NMonoMoonriver,
       ubiq: NMonoUbiq,
       'polygon-pos': NMonoPolygonPos,
       soneium: NMonoSoneium,
       nahmii: NMonoNahmii,
+      lightlink: NMonoLightlink,
+      lisk: NMonoLisk,
       polkadot: NMonoPolkadot,
       oasys: NMonoOasys,
       base: NMonoBase,
@@ -7192,6 +7206,7 @@ export const svgs = {
       'milkomeda-a1': NMonoMilkomedaA1,
       'shimmer-evm': NMonoShimmerEvm,
       telos: NMonoTelos,
+      lycan: NMonoLycan,
       celo: NMonoCelo,
       zilliqa: NMonoZilliqa,
       reya: NMonoReya,
@@ -7212,6 +7227,7 @@ export const svgs = {
       aurora: NBrandedAurora,
       multiversx: NBrandedMultiversx,
       tombchain: NBrandedTombchain,
+      l3x: NBrandedL3x,
       fraxtal: NBrandedFraxtal,
       ethereum: NBrandedEthereum,
       'neon-evm': NBrandedNeonEvm,
@@ -7291,12 +7307,15 @@ export const svgs = {
       starknet: NBrandedStarknet,
       moonbeam: NBrandedMoonbeam,
       okex: NBrandedOkex,
+      kroma: NBrandedKroma,
       kava: NBrandedKava,
       moonriver: NBrandedMoonriver,
       ubiq: NBrandedUbiq,
       'polygon-pos': NBrandedPolygonPos,
       soneium: NBrandedSoneium,
       nahmii: NBrandedNahmii,
+      lightlink: NBrandedLightlink,
+      lisk: NBrandedLisk,
       polkadot: NBrandedPolkadot,
       oasys: NBrandedOasys,
       base: NBrandedBase,
@@ -7315,6 +7334,7 @@ export const svgs = {
       'milkomeda-a1': NBrandedMilkomedaA1,
       'shimmer-evm': NBrandedShimmerEvm,
       telos: NBrandedTelos,
+      lycan: NBrandedLycan,
       celo: NBrandedCelo,
       zilliqa: NBrandedZilliqa,
       reya: NBrandedReya,

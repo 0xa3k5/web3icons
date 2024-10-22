@@ -698,17 +698,6 @@
     }
   },
   {
-    "id": "meld",
-    "chain_identifier": 333000333,
-    "name": "Meld",
-    "native_coin_id": "meld-2",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/173/thumb/meld.jpeg?1706606800",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/173/small/meld.jpeg?1706606800",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/173/large/meld.jpeg?1706606800"
-    }
-  },
-  {
     "id": "tezos",
     "name": "Tezos",
     "native_coin_id": "tezos",
@@ -1419,6 +1408,17 @@
     }
   },
   {
+    "id": "meld",
+    "chain_identifier": 333000333,
+    "name": "Meld",
+    "native_coin_id": "meld-2",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/173/thumb/meld.jpeg?1706606800",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/173/small/meld.jpeg?1706606800",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/173/large/meld.jpeg?1706606800"
+    }
+  },
+  {
     "id": "wemix-network",
     "chain_identifier": 1111,
     "name": "Wemix Network",
@@ -2020,6 +2020,17 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/41/thumb/optimism.png?1706606778",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/41/small/optimism.png?1706606778",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/41/large/optimism.png?1706606778"
+    }
+  },
+  {
+    "id": "linea",
+    "chain_identifier": 59144,
+    "name": "Linea",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/135/thumb/linea.jpeg?1706606705",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/135/small/linea.jpeg?1706606705",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/135/large/linea.jpeg?1706606705"
     }
   },
   {
@@ -3156,17 +3167,6 @@
     }
   },
   {
-    "id": "linea",
-    "chain_identifier": 59144,
-    "name": "Linea",
-    "native_coin_id": "ethereum",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/135/thumb/linea.jpeg?1706606705",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/135/small/linea.jpeg?1706606705",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/135/large/linea.jpeg?1706606705"
-    }
-  },
-  {
     "id": "aelf",
     "name": "AELF",
     "native_coin_id": "aelf",
@@ -3330,6 +3330,17 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/299/thumb/moonchain.png?1724913384",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/299/small/moonchain.png?1724913384",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/299/large/moonchain.png?1724913384"
+    }
+  },
+  {
+    "id": "taraxa",
+    "chain_identifier": 841,
+    "name": "Taraxa",
+    "native_coin_id": "taraxa",
+    "image": {
+      "thumb": null,
+      "small": null,
+      "large": null
     }
   },
   {
@@ -3569,6 +3580,17 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/273/thumb/sei.png?1717643675",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/273/small/sei.png?1717643675",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/273/large/sei.png?1717643675"
+    }
+  },
+  {
+    "id": "apechain",
+    "chain_identifier": 33139,
+    "name": "ApeChain",
+    "native_coin_id": "apecoin",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22184/thumb/apechain.jpg?1729564324",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22184/small/apechain.jpg?1729564324",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22184/large/apechain.jpg?1729564324"
     }
   }
 ]
