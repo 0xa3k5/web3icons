@@ -3455,7 +3455,9 @@ import * as NBrandedKarura from './svgs/networks/branded/karura.svg'
 import * as NBrandedSui from './svgs/networks/branded/sui.svg'
 import * as NBrandedRonin from './svgs/networks/branded/ronin.svg'
 import * as NBrandedBitkubChain from './svgs/networks/branded/bitkub-chain.svg'
+import * as NBrandedMoonbaseAlpha from './svgs/networks/branded/moonbase-alpha.svg'
 import * as NBrandedGnosis from './svgs/networks/branded/gnosis.svg'
+import * as NBrandedLumio from './svgs/networks/branded/lumio.svg'
 import * as NBrandedKakarot from './svgs/networks/branded/kakarot.svg'
 import * as NBrandedXLayer from './svgs/networks/branded/x-layer.svg'
 import * as NBrandedEnergyWeb from './svgs/networks/branded/energy-web.svg'
@@ -3469,6 +3471,7 @@ import * as NBrandedBoba from './svgs/networks/branded/boba.svg'
 import * as NBrandedViction from './svgs/networks/branded/viction.svg'
 import * as NBrandedImmutable from './svgs/networks/branded/immutable.svg'
 import * as NBrandedFlare from './svgs/networks/branded/flare.svg'
+import * as NBrandedTaiko from './svgs/networks/branded/taiko.svg'
 import * as NBrandedLyra from './svgs/networks/branded/lyra.svg'
 import * as NBrandedStarknet from './svgs/networks/branded/starknet.svg'
 import * as NBrandedMoonbeam from './svgs/networks/branded/moonbeam.svg'
@@ -3587,6 +3590,7 @@ import * as NMonoKarura from './svgs/networks/mono/karura.svg'
 import * as NMonoSui from './svgs/networks/mono/sui.svg'
 import * as NMonoRonin from './svgs/networks/mono/ronin.svg'
 import * as NMonoBitkubChain from './svgs/networks/mono/bitkub-chain.svg'
+import * as NMonoMoonbaseAlpha from './svgs/networks/mono/moonbase-alpha.svg'
 import * as NMonoGnosis from './svgs/networks/mono/gnosis.svg'
 import * as NMonoXrp from './svgs/networks/mono/xrp.svg'
 import * as NMonoKakarot from './svgs/networks/mono/kakarot.svg'
@@ -3602,6 +3606,7 @@ import * as NMonoBoba from './svgs/networks/mono/boba.svg'
 import * as NMonoViction from './svgs/networks/mono/viction.svg'
 import * as NMonoImmutable from './svgs/networks/mono/immutable.svg'
 import * as NMonoFlare from './svgs/networks/mono/flare.svg'
+import * as NMonoTaiko from './svgs/networks/mono/taiko.svg'
 import * as NMonoLyra from './svgs/networks/mono/lyra.svg'
 import * as NMonoStarknet from './svgs/networks/mono/starknet.svg'
 import * as NMonoMoonbeam from './svgs/networks/mono/moonbeam.svg'
@@ -7182,6 +7187,7 @@ export const svgs = {
       sui: NMonoSui,
       ronin: NMonoRonin,
       'bitkub-chain': NMonoBitkubChain,
+      'moonbase-alpha': NMonoMoonbaseAlpha,
       gnosis: NMonoGnosis,
       xrp: NMonoXrp,
       kakarot: NMonoKakarot,
@@ -7197,6 +7203,7 @@ export const svgs = {
       viction: NMonoViction,
       immutable: NMonoImmutable,
       flare: NMonoFlare,
+      taiko: NMonoTaiko,
       lyra: NMonoLyra,
       starknet: NMonoStarknet,
       moonbeam: NMonoMoonbeam,
@@ -7318,7 +7325,9 @@ export const svgs = {
       sui: NBrandedSui,
       ronin: NBrandedRonin,
       'bitkub-chain': NBrandedBitkubChain,
+      'moonbase-alpha': NBrandedMoonbaseAlpha,
       gnosis: NBrandedGnosis,
+      lumio: NBrandedLumio,
       kakarot: NBrandedKakarot,
       'x-layer': NBrandedXLayer,
       'energy-web': NBrandedEnergyWeb,
@@ -7332,6 +7341,7 @@ export const svgs = {
       viction: NBrandedViction,
       immutable: NBrandedImmutable,
       flare: NBrandedFlare,
+      taiko: NBrandedTaiko,
       lyra: NBrandedLyra,
       starknet: NBrandedStarknet,
       moonbeam: NBrandedMoonbeam,

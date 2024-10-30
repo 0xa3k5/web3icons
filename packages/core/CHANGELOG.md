@@ -1,5 +1,11 @@
 # @web3icons/core
 
+## 3.11.0
+
+### Minor Changes
+
+- new networks: taiko, moonbase-alpha, lumio
+
 ## 3.10.0
 
 ### Minor Changes

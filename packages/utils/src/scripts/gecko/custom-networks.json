@@ -216,5 +216,18 @@
     "shortname": "uni",
     "chainId": 130,
     "nativeCoinId": "eth"
+  },
+  {
+    "id": "lumio",
+    "name": "Super Lumio",
+    "shortname": "lumio",
+    "chainId": 8866,
+    "nativeCoinId": "eth"
+  },
+  {
+    "id": "mooonbase-alpha",
+    "name": "Moonbase Alpha",
+    "shortname": "moonbase alpha",
+    "chainId": 1287
   }
 ]

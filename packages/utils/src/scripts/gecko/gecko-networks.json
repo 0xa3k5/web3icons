@@ -496,16 +496,6 @@
     }
   },
   {
-    "id": "xai",
-    "name": "XAI",
-    "native_coin_id": "xai-blockchain",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/189/thumb/xai.png?1708573604",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/189/small/xai.png?1708573604",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/189/large/xai.png?1708573604"
-    }
-  },
-  {
     "id": "tron",
     "name": "TRON",
     "native_coin_id": "tron",
@@ -695,6 +685,17 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/166/thumb/Screenshot_2023-12-20_at_3.31.33%E2%80%AFPM.png?1706606794",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/166/small/Screenshot_2023-12-20_at_3.31.33%E2%80%AFPM.png?1706606794",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/166/large/Screenshot_2023-12-20_at_3.31.33%E2%80%AFPM.png?1706606794"
+    }
+  },
+  {
+    "id": "xai",
+    "chain_identifier": 660279,
+    "name": "XAI",
+    "native_coin_id": "xai-blockchain",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/189/thumb/xai.png?1708573604",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/189/small/xai.png?1708573604",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/189/large/xai.png?1708573604"
     }
   },
   {
@@ -3164,6 +3165,17 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/47/thumb/BOBA.png?1706606462",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/47/small/BOBA.png?1706606462",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/47/large/BOBA.png?1706606462"
+    }
+  },
+  {
+    "id": "morph-l2",
+    "chain_identifier": 2818,
+    "name": "Morph L2",
+    "native_coin_id": "weth",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22185/thumb/morph.jpg?1729659940",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22185/small/morph.jpg?1729659940",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22185/large/morph.jpg?1729659940"
     }
   },
   {

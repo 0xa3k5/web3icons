@@ -1,5 +1,16 @@
 # @web3icons/react
 
+## 3.11.0
+
+### Minor Changes
+
+- new networks: taiko, moonbase-alpha, lumio
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/common@0.5.0
+
 ## 3.10.1
 
 ### Patch Changes
