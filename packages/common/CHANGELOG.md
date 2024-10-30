@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.5.0
+
+### Minor Changes
+
+- new networks: taiko, moonbase-alpha, lumio
+
 ## 0.4.1
 
 ### Patch Changes

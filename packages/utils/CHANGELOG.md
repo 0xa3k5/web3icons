@@ -1,5 +1,13 @@
 # @web3icons/utils
 
+## 0.2.8
+
+### Patch Changes
+
+- new networks: taiko, moonbase-alpha, lumio
+- Updated dependencies
+  - @web3icons/common@0.5.0
+
 ## 0.2.7
 
 ### Patch Changes
