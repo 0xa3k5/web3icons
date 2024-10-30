@@ -1086,5 +1086,28 @@
     "shortName": "uni",
     "chainId": 130,
     "nativeCoinId": "eth"
+  },
+  {
+    "id": "lumio",
+    "name": "Super Lumio",
+    "variants": ["branded"],
+    "shortName": "lumio",
+    "chainId": 8866,
+    "nativeCoinId": "eth"
+  },
+  {
+    "id": "mooonbase-alpha",
+    "name": "Moonbase Alpha",
+    "variants": ["branded", "mono"],
+    "shortName": "moonbase alpha",
+    "chainId": 1287
+  },
+  {
+    "id": "taiko",
+    "name": "Taiko",
+    "variants": ["branded", "mono"],
+    "shortName": "taiko",
+    "chainId": 167000,
+    "nativeCoinId": "taiko"
   }
 ]

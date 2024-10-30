@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (140)](#networks)
+- [networks (143)](#networks)
 - [tokens (1899)](#tokens)
 
 ### Wallets
@@ -191,6 +191,9 @@ jump to section:
 | orderly             | Orderly                      | ✅      | ✅   |
 | moonbase            | moonbase                     | ✅      | ✅   |
 | unichain            | Unichain                     | ✅      | ✅   |
+| lumio               | Super Lumio                  | ✅      | ❌   |
+| mooonbase-alpha     | Moonbase Alpha               | ✅      | ✅   |
+| taiko               | Taiko                        | ✅      | ✅   |
 
 ### Tokens
 
