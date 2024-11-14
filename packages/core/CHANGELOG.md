@@ -1,5 +1,11 @@
 # @web3icons/core
 
+## 3.12.0
+
+### Minor Changes
+
+- update eos to new logo, add diode, lens, edgeless, world chain
+
 ## 3.11.0
 
 ### Minor Changes

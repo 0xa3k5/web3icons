@@ -3398,6 +3398,7 @@ import * as NBrandedCronosZkevm from './svgs/networks/branded/cronos-zkevm.svg'
 import * as NBrandedApexLayer from './svgs/networks/branded/apex-layer.svg'
 import * as NBrandedLavaNetwork from './svgs/networks/branded/lava-network.svg'
 import * as NBrandedCosmosHub from './svgs/networks/branded/cosmos-hub.svg'
+import * as NBrandedDiode from './svgs/networks/branded/diode.svg'
 import * as NBrandedMilkomedaC1 from './svgs/networks/branded/milkomeda-c1.svg'
 import * as NBrandedStep from './svgs/networks/branded/step.svg'
 import * as NBrandedPolygonZkevm from './svgs/networks/branded/polygon-zkevm.svg'
@@ -3405,6 +3406,7 @@ import * as NBrandedKujira from './svgs/networks/branded/kujira.svg'
 import * as NBrandedAptos from './svgs/networks/branded/aptos.svg'
 import * as NBrandedCosmos from './svgs/networks/branded/cosmos.svg'
 import * as NBrandedMoonbase from './svgs/networks/branded/moonbase.svg'
+import * as NBrandedEos from './svgs/networks/branded/eos.svg'
 import * as NBrandedArweave from './svgs/networks/branded/arweave.svg'
 import * as NBrandedStellar from './svgs/networks/branded/stellar.svg'
 import * as NBrandedZora from './svgs/networks/branded/zora.svg'
@@ -3429,6 +3431,7 @@ import * as NBrandedVelas from './svgs/networks/branded/velas.svg'
 import * as NBrandedFilecoin from './svgs/networks/branded/filecoin.svg'
 import * as NBrandedChiliz from './svgs/networks/branded/chiliz.svg'
 import * as NBrandedDogechain from './svgs/networks/branded/dogechain.svg'
+import * as NBrandedLens from './svgs/networks/branded/lens.svg'
 import * as NBrandedMode from './svgs/networks/branded/mode.svg'
 import * as NBrandedLinea from './svgs/networks/branded/linea.svg'
 import * as NBrandedZetaChain from './svgs/networks/branded/zeta-chain.svg'
@@ -3452,6 +3455,7 @@ import * as NBrandedEtherlink from './svgs/networks/branded/etherlink.svg'
 import * as NBrandedRari from './svgs/networks/branded/rari.svg'
 import * as NBrandedUnichain from './svgs/networks/branded/unichain.svg'
 import * as NBrandedKarura from './svgs/networks/branded/karura.svg'
+import * as NBrandedWorld from './svgs/networks/branded/world.svg'
 import * as NBrandedSui from './svgs/networks/branded/sui.svg'
 import * as NBrandedRonin from './svgs/networks/branded/ronin.svg'
 import * as NBrandedBitkubChain from './svgs/networks/branded/bitkub-chain.svg'
@@ -3509,6 +3513,7 @@ import * as NBrandedLycan from './svgs/networks/branded/lycan.svg'
 import * as NBrandedCelo from './svgs/networks/branded/celo.svg'
 import * as NBrandedZilliqa from './svgs/networks/branded/zilliqa.svg'
 import * as NBrandedReya from './svgs/networks/branded/reya.svg'
+import * as NBrandedEdgeless from './svgs/networks/branded/edgeless.svg'
 import * as NBrandedKaia from './svgs/networks/branded/kaia.svg'
 import * as NBrandedConflux from './svgs/networks/branded/conflux.svg'
 import * as NBrandedSolana from './svgs/networks/branded/solana.svg'
@@ -3533,6 +3538,7 @@ import * as NMonoCronosZkevm from './svgs/networks/mono/cronos-zkevm.svg'
 import * as NMonoApexLayer from './svgs/networks/mono/apex-layer.svg'
 import * as NMonoLavaNetwork from './svgs/networks/mono/lava-network.svg'
 import * as NMonoCosmosHub from './svgs/networks/mono/cosmos-hub.svg'
+import * as NMonoDiode from './svgs/networks/mono/diode.svg'
 import * as NMonoMilkomedaC1 from './svgs/networks/mono/milkomeda-c1.svg'
 import * as NMonoStep from './svgs/networks/mono/step.svg'
 import * as NMonoPolygonZkevm from './svgs/networks/mono/polygon-zkevm.svg'
@@ -3564,6 +3570,7 @@ import * as NMonoXdc from './svgs/networks/mono/xdc.svg'
 import * as NMonoVelas from './svgs/networks/mono/velas.svg'
 import * as NMonoFilecoin from './svgs/networks/mono/filecoin.svg'
 import * as NMonoChiliz from './svgs/networks/mono/chiliz.svg'
+import * as NMonoLens from './svgs/networks/mono/lens.svg'
 import * as NMonoMode from './svgs/networks/mono/mode.svg'
 import * as NMonoLinea from './svgs/networks/mono/linea.svg'
 import * as NMonoZetaChain from './svgs/networks/mono/zeta-chain.svg'
@@ -3587,6 +3594,7 @@ import * as NMonoEtherlink from './svgs/networks/mono/etherlink.svg'
 import * as NMonoRari from './svgs/networks/mono/rari.svg'
 import * as NMonoUnichain from './svgs/networks/mono/unichain.svg'
 import * as NMonoKarura from './svgs/networks/mono/karura.svg'
+import * as NMonoWorld from './svgs/networks/mono/world.svg'
 import * as NMonoSui from './svgs/networks/mono/sui.svg'
 import * as NMonoRonin from './svgs/networks/mono/ronin.svg'
 import * as NMonoBitkubChain from './svgs/networks/mono/bitkub-chain.svg'
@@ -3644,6 +3652,7 @@ import * as NMonoLycan from './svgs/networks/mono/lycan.svg'
 import * as NMonoCelo from './svgs/networks/mono/celo.svg'
 import * as NMonoZilliqa from './svgs/networks/mono/zilliqa.svg'
 import * as NMonoReya from './svgs/networks/mono/reya.svg'
+import * as NMonoEdgeless from './svgs/networks/mono/edgeless.svg'
 import * as NMonoKaia from './svgs/networks/mono/kaia.svg'
 import * as NMonoConflux from './svgs/networks/mono/conflux.svg'
 import * as NMonoSolana from './svgs/networks/mono/solana.svg'
@@ -7130,6 +7139,7 @@ export const svgs = {
       'apex-layer': NMonoApexLayer,
       'lava-network': NMonoLavaNetwork,
       'cosmos-hub': NMonoCosmosHub,
+      diode: NMonoDiode,
       'milkomeda-c1': NMonoMilkomedaC1,
       step: NMonoStep,
       'polygon-zkevm': NMonoPolygonZkevm,
@@ -7161,6 +7171,7 @@ export const svgs = {
       velas: NMonoVelas,
       filecoin: NMonoFilecoin,
       chiliz: NMonoChiliz,
+      lens: NMonoLens,
       mode: NMonoMode,
       linea: NMonoLinea,
       'zeta-chain': NMonoZetaChain,
@@ -7184,6 +7195,7 @@ export const svgs = {
       rari: NMonoRari,
       unichain: NMonoUnichain,
       karura: NMonoKarura,
+      world: NMonoWorld,
       sui: NMonoSui,
       ronin: NMonoRonin,
       'bitkub-chain': NMonoBitkubChain,
@@ -7241,6 +7253,7 @@ export const svgs = {
       celo: NMonoCelo,
       zilliqa: NMonoZilliqa,
       reya: NMonoReya,
+      edgeless: NMonoEdgeless,
       kaia: NMonoKaia,
       conflux: NMonoConflux,
       solana: NMonoSolana,
@@ -7268,6 +7281,7 @@ export const svgs = {
       'apex-layer': NBrandedApexLayer,
       'lava-network': NBrandedLavaNetwork,
       'cosmos-hub': NBrandedCosmosHub,
+      diode: NBrandedDiode,
       'milkomeda-c1': NBrandedMilkomedaC1,
       step: NBrandedStep,
       'polygon-zkevm': NBrandedPolygonZkevm,
@@ -7275,6 +7289,7 @@ export const svgs = {
       aptos: NBrandedAptos,
       cosmos: NBrandedCosmos,
       moonbase: NBrandedMoonbase,
+      eos: NBrandedEos,
       arweave: NBrandedArweave,
       stellar: NBrandedStellar,
       zora: NBrandedZora,
@@ -7299,6 +7314,7 @@ export const svgs = {
       filecoin: NBrandedFilecoin,
       chiliz: NBrandedChiliz,
       dogechain: NBrandedDogechain,
+      lens: NBrandedLens,
       mode: NBrandedMode,
       linea: NBrandedLinea,
       'zeta-chain': NBrandedZetaChain,
@@ -7322,6 +7338,7 @@ export const svgs = {
       rari: NBrandedRari,
       unichain: NBrandedUnichain,
       karura: NBrandedKarura,
+      world: NBrandedWorld,
       sui: NBrandedSui,
       ronin: NBrandedRonin,
       'bitkub-chain': NBrandedBitkubChain,
@@ -7379,6 +7396,7 @@ export const svgs = {
       celo: NBrandedCelo,
       zilliqa: NBrandedZilliqa,
       reya: NBrandedReya,
+      edgeless: NBrandedEdgeless,
       kaia: NBrandedKaia,
       conflux: NBrandedConflux,
       solana: NBrandedSolana,

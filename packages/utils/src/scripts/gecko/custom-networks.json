@@ -229,5 +229,21 @@
     "name": "Moonbase Alpha",
     "shortname": "moonbase alpha",
     "chainId": 1287
+  },
+  { "id": "diode", "name": "Diode", "shortname": "diode", "chainId": 15, "nativeCoinId": "diode" },
+  {
+    "id": "edgeless",
+    "name": "Edgeless Network",
+    "shortname": "edgeless",
+    "chainId": 2026,
+    "nativeCoinId": "eweth"
+  },
+  { "id": "lens", "name": "Lens", "shortname": "lens" },
+  {
+    "id": "world",
+    "name": "World Chain",
+    "shortname": "world",
+    "chainId": 480,
+    "nativeCoinId": "eth"
   }
 ]

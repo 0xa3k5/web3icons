@@ -443,17 +443,6 @@
     }
   },
   {
-    "id": "skale",
-    "chain_identifier": 2046399126,
-    "name": "Skale",
-    "native_coin_id": "skale",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/96/thumb/skale.png?1706606673",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/96/small/skale.png?1706606673",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/96/large/skale.png?1706606673"
-    }
-  },
-  {
     "id": "the-open-network",
     "name": "TON",
     "shortname": "TON",
@@ -493,6 +482,18 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22181/thumb/zenon.jpg?1728643155",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22181/small/zenon.jpg?1728643155",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22181/large/zenon.jpg?1728643155"
+    }
+  },
+  {
+    "id": "defi-kingdoms-blockchain",
+    "chain_identifier": 53935,
+    "name": "DFK Chain",
+    "shortname": "DFK Chain",
+    "native_coin_id": "defi-kingdoms",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/70/thumb/dfk-chain-logo-darkBlue.png?1706606503",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/70/small/dfk-chain-logo-darkBlue.png?1706606503",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/70/large/dfk-chain-logo-darkBlue.png?1706606503"
     }
   },
   {
@@ -1193,15 +1194,14 @@
     }
   },
   {
-    "id": "defi-kingdoms-blockchain",
-    "chain_identifier": 53935,
-    "name": "DFK Chain",
-    "shortname": "DFK Chain",
-    "native_coin_id": "defi-kingdoms",
+    "id": "beam",
+    "chain_identifier": 4337,
+    "name": "Beam",
+    "native_coin_id": "beam",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/70/thumb/dfk-chain-logo-darkBlue.png?1706606503",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/70/small/dfk-chain-logo-darkBlue.png?1706606503",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/70/large/dfk-chain-logo-darkBlue.png?1706606503"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/155/thumb/beam.png?1706606625",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/155/small/beam.png?1706606625",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/155/large/beam.png?1706606625"
     }
   },
   {
@@ -1671,14 +1671,14 @@
     }
   },
   {
-    "id": "beam",
-    "chain_identifier": 4337,
-    "name": "Beam",
-    "native_coin_id": "beam",
+    "id": "planq-network",
+    "chain_identifier": 7070,
+    "name": "Planq Network",
+    "native_coin_id": "planq",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/155/thumb/beam.png?1706606625",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/155/small/beam.png?1706606625",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/155/large/beam.png?1706606625"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/275/thumb/planq.jpeg?1717991052",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/275/small/planq.jpeg?1717991052",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/275/large/planq.jpeg?1717991052"
     }
   },
   {
@@ -1810,14 +1810,14 @@
     }
   },
   {
-    "id": "planq-network",
-    "chain_identifier": 7070,
-    "name": "Planq Network",
-    "native_coin_id": "planq",
+    "id": "mode",
+    "chain_identifier": 34443,
+    "name": "Mode",
+    "native_coin_id": "mode",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/275/thumb/planq.jpeg?1717991052",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/275/small/planq.jpeg?1717991052",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/275/large/planq.jpeg?1717991052"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/191/thumb/mode.jpeg?1708666179",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/191/small/mode.jpeg?1708666179",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/191/large/mode.jpeg?1708666179"
     }
   },
   {
@@ -2074,17 +2074,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/154/thumb/shimmer.jpeg?1706606407",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/154/small/shimmer.jpeg?1706606407",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/154/large/shimmer.jpeg?1706606407"
-    }
-  },
-  {
-    "id": "mode",
-    "chain_identifier": 34443,
-    "name": "Mode",
-    "native_coin_id": "mode",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/191/thumb/mode.jpeg?1708666179",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/191/small/mode.jpeg?1708666179",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/191/large/mode.jpeg?1708666179"
     }
   },
   {
@@ -2549,16 +2538,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/46/thumb/cronos.jpeg?1706606792",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/46/small/cronos.jpeg?1706606792",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/46/large/cronos.jpeg?1706606792"
-    }
-  },
-  {
-    "id": "wax",
-    "name": "WAX",
-    "native_coin_id": "wax",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/254/thumb/wax.png?1715049433",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/254/small/wax.png?1715049433",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/254/large/wax.png?1715049433"
     }
   },
   {
@@ -3603,6 +3582,38 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22184/thumb/apechain.jpg?1729564324",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22184/small/apechain.jpg?1729564324",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22184/large/apechain.jpg?1729564324"
+    }
+  },
+  {
+    "id": "kroma",
+    "chain_identifier": 255,
+    "name": "Kroma",
+    "native_coin_id": "weth",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22186/thumb/kroma.jpg?1730788629",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22186/small/kroma.jpg?1730788629",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22186/large/kroma.jpg?1730788629"
+    }
+  },
+  {
+    "id": "skale",
+    "chain_identifier": 2046399126,
+    "name": "Skale",
+    "native_coin_id": "skale",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/96/thumb/skale.png?1706606673",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/96/small/skale.png?1706606673",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/96/large/skale.png?1706606673"
+    }
+  },
+  {
+    "id": "wax",
+    "name": "WAX",
+    "native_coin_id": "wax",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/254/thumb/wax.png?1715049433",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/254/small/wax.png?1715049433",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/254/large/wax.png?1715049433"
     }
   }
 ]
