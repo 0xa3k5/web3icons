@@ -1,5 +1,13 @@
 # @web3icons/utils
 
+## 0.2.9
+
+### Patch Changes
+
+- update eos to new logo, add diode, lens, edgeless, world chain
+- Updated dependencies
+  - @web3icons/common@0.6.0
+
 ## 0.2.8
 
 ### Patch Changes

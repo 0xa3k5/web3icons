@@ -1,5 +1,12 @@
 # @web3icons/react
 
+## 3.12.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/common@0.6.0
+
 ## 3.11.0
 
 ### Minor Changes
