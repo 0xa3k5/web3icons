@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (143)](#networks)
+- [networks (147)](#networks)
 - [tokens (1899)](#tokens)
 
 ### Wallets
@@ -52,7 +52,7 @@ jump to section:
 | id                  | name                         | branded | mono |
 | ------------------- | ---------------------------- | ------- | ---- |
 | kujira              | Kujira                       | ✅      | ✅   |
-| eos                 | EOS evm                      | ❌      | ✅   |
+| eos                 | EOS evm                      | ✅      | ✅   |
 | aurora              | Aurora                       | ✅      | ✅   |
 | polygon-pos         | Polygon                      | ✅      | ✅   |
 | cardano             | Cardano                      | ✅      | ✅   |
@@ -194,6 +194,10 @@ jump to section:
 | lumio               | Super Lumio                  | ✅      | ❌   |
 | mooonbase-alpha     | Moonbase Alpha               | ✅      | ✅   |
 | taiko               | Taiko                        | ✅      | ✅   |
+| diode               | Diode                        | ✅      | ✅   |
+| edgeless            | Edgeless Network             | ✅      | ✅   |
+| lens                | Lens                         | ✅      | ✅   |
+| world               | World Chain                  | ✅      | ✅   |
 
 ### Tokens
 
