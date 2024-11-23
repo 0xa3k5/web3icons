@@ -1,0 +1,8 @@
+[
+  {
+    "id": "bybit",
+    "name": "Bybit",
+    "variants": ["branded", "mono"],
+    "type": "cex"
+  }
+]

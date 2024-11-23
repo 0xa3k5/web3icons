@@ -24,6 +24,7 @@ const METADATA_DIR = path.resolve(ROOT_COMMON, 'src/metadata')
 export const TOKENS_METADATA_PATH = path.resolve(METADATA_DIR, 'tokens.json')
 export const NETWORKS_METADATA_PATH = path.resolve(METADATA_DIR, 'networks.json')
 export const WALLETS_METADATA_PATH = path.resolve(METADATA_DIR, 'wallets.json')
+export const EXCHANGES_METADATA_PATH = path.resolve(METADATA_DIR, 'exchanges.json')
 
 export const CUSTOM_TOKENS_METADATA_PATH = path.resolve(
   ROOT_UTILS,
