@@ -1,5 +1,11 @@
 # @web3icons/core
 
+## 3.12.1
+
+### Patch Changes
+
+- fix false build
+
 ## 3.12.0
 
 ### Minor Changes

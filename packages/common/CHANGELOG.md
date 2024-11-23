@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.6.1
+
+### Patch Changes
+
+- fix false build
+
 ## 0.6.0
 
 ### Minor Changes
