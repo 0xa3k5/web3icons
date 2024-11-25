@@ -1,4 +1,4 @@
-import { input, number } from '@inquirer/prompts'
+import { input, number, select } from '@inquirer/prompts'
 
 export const getId = async (reason?: string) => {
   const message = reason ? `id (Reason: ${reason})` : 'id'
@@ -61,4 +61,14 @@ export const getNativeCoinId = async (reason?: string) => {
     message,
   })
   return answer.trim() || undefined
+}
+
+export const getExchangeType = async (reason?: string) => {
+  const message = `exchange type?`
+  const answer = await select({
+    choices: ['dex', 'cex'],
+    message,
+  })
+
+  return answer
 }

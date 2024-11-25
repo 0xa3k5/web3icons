@@ -86,7 +86,7 @@
     "chainId": "24",
     "nativeCoinId": "kai"
   },
-  { "id": "kucoin", "name": "kucoi", "shortname": "kucoin", "chainId": "0000" },
+  { "id": "kucoin", "name": "Kucoin", "type": "cex" },
   {
     "id": "lyra",
     "name": "lyra chain",

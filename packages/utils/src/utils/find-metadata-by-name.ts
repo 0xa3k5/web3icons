@@ -35,6 +35,7 @@ export const findByFileName = <
       caseConverter = (str) => str.toLowerCase()
       break
     case 'wallet':
+    case 'exchange':
       fields = ['id', 'name'] as (keyof T)[]
       caseConverter = toKebabCase
       break
