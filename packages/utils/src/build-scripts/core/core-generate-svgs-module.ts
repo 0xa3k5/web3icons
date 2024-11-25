@@ -5,10 +5,10 @@ import {
   SVG_TOKENS_OUT_DIR,
   SVG_NETWORKS_OUT_DIR,
   SVG_WALLETS_OUT_DIR,
-  ROOT_CORE,
+  SVG_EXCHANGES_OUT_DIR,
 } from '../../constants'
 import { kebabToPascalCase } from '../../utils'
-import { TType, TVariant } from '@web3icons/common'
+import { TType } from '@web3icons/common'
 
 const readSvgFilesFromDir = (dirPath: string) => {
   return fs
@@ -36,7 +36,7 @@ export function generateSvgModule() {
 
       svgFiles.forEach((svgFile) => {
         const variableName = kebabToPascalCase(svgFile)
-        const variableTypeAbbr = type.slice(0, 1).toUpperCase() // N (networks), T (tokens), W (wallets)
+        const variableTypeAbbr = type.slice(0, 1).toUpperCase() // N (networks), T (tokens), W (wallets), E (exchanges)
         const importName = `${variableTypeAbbr}${variant.charAt(0).toUpperCase() + variant.slice(1)}${variableName}`
 
         fileContent += `import * as ${importName} from './svgs/${type}s/${variant}/${svgFile}.svg';\n`
@@ -52,6 +52,7 @@ export function generateSvgModule() {
   svgObjectContent += processDirectory(SVG_TOKENS_OUT_DIR, 'token')
   svgObjectContent += processDirectory(SVG_NETWORKS_OUT_DIR, 'network')
   svgObjectContent += processDirectory(SVG_WALLETS_OUT_DIR, 'wallet')
+  svgObjectContent += processDirectory(SVG_EXCHANGES_OUT_DIR, 'exchange')
 
   svgObjectContent += '};\n'
 

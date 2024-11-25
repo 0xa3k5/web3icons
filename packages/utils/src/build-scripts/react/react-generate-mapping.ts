@@ -7,6 +7,7 @@ export function generateMapping() {
   const networkIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/networks'))
   const tokenIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/tokens'))
   const walletIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/wallets'))
+  const exchangeIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/exchanges'))
 
   const networkPaths = networkIcons
     .filter((file) => file.endsWith('.tsx'))
@@ -32,6 +33,13 @@ export function generateMapping() {
     })
     .join('')
 
+  const exchangePaths = exchangeIcons
+    .filter((file) => file.endsWith('.tsx'))
+    .map((file) => {
+      const iconName = path.basename(file, '.tsx')
+      return `${iconName}: () => import('../icons/exchanges/${iconName}')`
+    })
+
   const content = `/* Generated */\n// This file maps dynamically importable icon components.
 
 // Type for a single import function that dynamically imports a module
@@ -45,6 +53,7 @@ interface IconImportMap {
 export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {\n${networkPaths}};\n
 export const TOKEN_ICON_IMPORT_MAP: IconImportMap  = {\n${tokenPaths}};\n
 export const WALLET_ICON_IMPORT_MAP: IconImportMap  = {\n${walletPaths}};\n
+export const EXCHANGE_ICON_IMPORT_MAP: IconImportMap = {\n${exchangePaths}};\n
 `
 
   const outputPath = path.join(ROOT_REACT, 'src/utils/icon-import-map.ts')

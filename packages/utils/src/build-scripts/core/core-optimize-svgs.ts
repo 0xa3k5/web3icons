@@ -8,6 +8,8 @@ import {
   SVG_NETWORKS_OUT_DIR,
   SVG_WALLETS_SRC_DIR,
   SVG_WALLETS_OUT_DIR,
+  SVG_EXCHANGES_OUT_DIR,
+  SVG_EXCHANGES_SRC_DIR,
 } from '../../constants'
 import { ensureDirectoryExists, optimizeSvg } from '../../utils'
 import { TVariant } from '@web3icons/common'
@@ -19,12 +21,15 @@ export function optimizeSVGs() {
   ensureDirectoryExists(SVG_TOKENS_OUT_DIR)
   ensureDirectoryExists(SVG_NETWORKS_OUT_DIR)
   ensureDirectoryExists(SVG_WALLETS_OUT_DIR)
+  ensureDirectoryExists(SVG_EXCHANGES_OUT_DIR)
   ensureDirectoryExists(path.join(SVG_TOKENS_OUT_DIR, 'mono'))
   ensureDirectoryExists(path.join(SVG_TOKENS_OUT_DIR, 'branded'))
   ensureDirectoryExists(path.join(SVG_NETWORKS_OUT_DIR, 'mono'))
   ensureDirectoryExists(path.join(SVG_NETWORKS_OUT_DIR, 'branded'))
   ensureDirectoryExists(path.join(SVG_WALLETS_OUT_DIR, 'mono'))
   ensureDirectoryExists(path.join(SVG_WALLETS_OUT_DIR, 'branded'))
+  ensureDirectoryExists(path.join(SVG_EXCHANGES_OUT_DIR, 'mono'))
+  ensureDirectoryExists(path.join(SVG_EXCHANGES_OUT_DIR, 'branded'))
 
   const readSVGsFromDir = (dir: string): Record<TVariant, string[]> => ({
     branded: fs.readdirSync(path.join(dir, 'branded')),
@@ -71,5 +76,10 @@ export function optimizeSVGs() {
   const walletSVGs = readSVGsFromDir(SVG_WALLETS_SRC_DIR)
   Object.entries(walletSVGs).forEach(([variant, svgList]) => {
     processSVGs(SVG_WALLETS_SRC_DIR, SVG_WALLETS_OUT_DIR, variant as TVariant, svgList)
+  })
+
+  const exchangeSvgs = readSVGsFromDir(SVG_EXCHANGES_SRC_DIR)
+  Object.entries(exchangeSvgs).forEach(([variant, svgList]) => {
+    processSVGs(SVG_EXCHANGES_SRC_DIR, SVG_EXCHANGES_OUT_DIR, variant as TVariant, svgList)
   })
 }

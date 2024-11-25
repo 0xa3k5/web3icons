@@ -7,6 +7,8 @@ import {
   SVG_WALLETS_OUT_DIR,
   JSX_NETWORKS_OUT_DIR,
   JSX_WALLETS_OUT_DIR,
+  SVG_EXCHANGES_OUT_DIR,
+  JSX_EXCHANGES_OUT_DIR,
 } from '../constants'
 import { componentScaffold } from '../scaffolds'
 import { kebabToPascalCase } from './naming-conventions'
@@ -68,6 +70,7 @@ const generateComponentName = (baseName: string, type: TType): string => {
       return `Token${baseName.replace(/[- ]+/g, '_').toUpperCase()}`
     case 'network':
     case 'wallet':
+    case 'exchange':
       return kebabToPascalCase(`${type}-${baseName}`)
     default:
       throw new Error('Invalid type')
@@ -85,6 +88,8 @@ const getDirectories = (type: TType): { svgOutDir: string; jsxOutDir: string } =
       return { svgOutDir: SVG_NETWORKS_OUT_DIR, jsxOutDir: JSX_NETWORKS_OUT_DIR }
     case 'wallet':
       return { svgOutDir: SVG_WALLETS_OUT_DIR, jsxOutDir: JSX_WALLETS_OUT_DIR }
+    case 'exchange':
+      return { svgOutDir: SVG_EXCHANGES_OUT_DIR, jsxOutDir: JSX_EXCHANGES_OUT_DIR }
     default:
       throw new Error('Invalid type')
   }

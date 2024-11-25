@@ -6,19 +6,25 @@ export const ROOT_CORE = path.resolve(ROOT_PROJECT, 'packages/core')
 export const ROOT_REACT = path.resolve(ROOT_PROJECT, 'packages/react')
 export const ROOT_COMMON = path.resolve(ROOT_PROJECT, 'packages/common')
 
+// raw svgs
 export const SVG_SRC_DIR = path.resolve(ROOT_PROJECT, 'raw-svgs')
 export const SVG_TOKENS_SRC_DIR = path.resolve(SVG_SRC_DIR, 'tokens')
 export const SVG_WALLETS_SRC_DIR = path.resolve(SVG_SRC_DIR, 'wallets')
 export const SVG_NETWORKS_SRC_DIR = path.resolve(SVG_SRC_DIR, 'networks')
+export const SVG_EXCHANGES_SRC_DIR = path.resolve(SVG_SRC_DIR, 'exchanges')
 
-export const SVG_TOKENS_OUT_DIR = path.resolve(ROOT_CORE, 'src/svgs/tokens')
-export const SVG_NETWORKS_OUT_DIR = path.resolve(ROOT_CORE, 'src/svgs/networks')
-export const SVG_WALLETS_OUT_DIR = path.resolve(ROOT_CORE, 'src/svgs/wallets')
+// optimized svgs, hosted in core package
+const SVGS_OUT_BASE = path.resolve(ROOT_CORE, 'src/svgs')
+export const SVG_TOKENS_OUT_DIR = path.resolve(SVGS_OUT_BASE, 'tokens')
+export const SVG_NETWORKS_OUT_DIR = path.resolve(SVGS_OUT_BASE, 'networks')
+export const SVG_WALLETS_OUT_DIR = path.resolve(SVGS_OUT_BASE, 'wallets')
+export const SVG_EXCHANGES_OUT_DIR = path.resolve(SVGS_OUT_BASE, 'exchanges')
 
-export const JSX_BASE_DIR = path.resolve(ROOT_REACT, 'src/icons')
+const JSX_BASE_DIR = path.resolve(ROOT_REACT, 'src/icons')
 export const JSX_TOKENS_OUT_DIR = path.resolve(JSX_BASE_DIR, 'tokens')
 export const JSX_NETWORKS_OUT_DIR = path.resolve(JSX_BASE_DIR, 'networks')
 export const JSX_WALLETS_OUT_DIR = path.resolve(JSX_BASE_DIR, 'wallets')
+export const JSX_EXCHANGES_OUT_DIR = path.resolve(JSX_BASE_DIR, 'exchanges')
 
 const METADATA_DIR = path.resolve(ROOT_COMMON, 'src/metadata')
 export const TOKENS_METADATA_PATH = path.resolve(METADATA_DIR, 'tokens.json')

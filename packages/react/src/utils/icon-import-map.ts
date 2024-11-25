@@ -2114,3 +2114,7 @@ export const WALLET_ICON_IMPORT_MAP: IconImportMap = {
   WalletXdefi: () => import('../icons/wallets/WalletXdefi'),
   WalletArgent: () => import('../icons/wallets/WalletArgent'),
 }
+
+export const EXCHANGE_ICON_IMPORT_MAP: IconImportMap = {
+  ExchangeBybit: () => import('../icons/exchanges/ExchangeBybit'),
+}

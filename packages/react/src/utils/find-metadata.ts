@@ -1,4 +1,5 @@
 import { toKebabCase } from './naming-conventions'
+import { IExchangeMetadata } from '../../../common/dist/types'
 import {
   INetworkMetadata,
   ITokenMetadata,
@@ -6,6 +7,7 @@ import {
   networks,
   tokens,
   wallets,
+  exchanges,
 } from '@web3icons/common'
 
 export const findWallet = ({
@@ -66,4 +68,18 @@ export const findNetwork = ({
   }
 
   return undefined
+}
+
+export const findExchange = ({
+  name,
+}: {
+  name: string
+}): IExchangeMetadata | undefined => {
+  const exchangesObj = exchanges.find(
+    (exc) =>
+      exc.id === toKebabCase(name) ||
+      exc.name.toLowerCase() === name.toLowerCase(),
+  )
+
+  return exchangesObj
 }
