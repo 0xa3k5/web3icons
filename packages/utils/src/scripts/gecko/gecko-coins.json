@@ -2030,6 +2030,11 @@
     "name": "AIBlock"
   },
   {
+    "id": "aicat",
+    "symbol": "aicat",
+    "name": "AICAT"
+  },
+  {
     "id": "aichain",
     "symbol": "ait",
     "name": "AICHAIN"
@@ -3738,6 +3743,11 @@
     "id": "anzen-usdz",
     "symbol": "usdz",
     "name": "Anzen USDz"
+  },
+  {
+    "id": "ao",
+    "symbol": "ao",
+    "name": "AO"
   },
   {
     "id": "ao-computer",
@@ -43665,6 +43675,11 @@
     "name": "MindVerse"
   },
   {
+    "id": "mind-zero",
+    "symbol": "mind",
+    "name": "Mind Zero"
+  },
+  {
     "id": "mineable",
     "symbol": "mnb",
     "name": "Mineable"
@@ -59210,6 +59225,11 @@
     "name": "Secured On Blockchain"
   },
   {
+    "id": "security-token-offering",
+    "symbol": "sto",
+    "name": "Security Token Offering"
+  },
+  {
     "id": "seda-2",
     "symbol": "seda",
     "name": "SEDA"
@@ -64740,6 +64760,11 @@
     "name": "Sugarblock.ai"
   },
   {
+    "id": "sugar-boy",
+    "symbol": "sugar",
+    "name": "Sugar Boy"
+  },
+  {
     "id": "sugarchain",
     "symbol": "sugar",
     "name": "Sugarchain"
@@ -66353,6 +66378,11 @@
     "id": "teddy-dollar",
     "symbol": "tsd",
     "name": "Teddy Dollar"
+  },
+  {
+    "id": "teddyonheels",
+    "symbol": "toh",
+    "name": "TeddyOnHeels"
   },
   {
     "id": "te-food",

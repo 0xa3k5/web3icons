@@ -7,4 +7,10 @@ export const exchanges: IExchangeMetadata[] = [
     variants: ['branded', 'mono'],
     type: 'cex',
   },
+  {
+    id: 'kucoin',
+    name: 'Kucoin',
+    variants: ['branded', 'mono'],
+    type: 'cex',
+  },
 ]

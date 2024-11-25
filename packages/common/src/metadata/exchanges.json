@@ -5,5 +5,16 @@
     "variants": ["branded", "mono"],
     "type": "cex"
   },
-  { "id": "kucoin", "name": "Kucoin", "variants": ["branded", "mono"] }
+  {
+    "id": "kucoin",
+    "name": "Kucoin",
+    "variants": ["branded", "mono"],
+    "type": "cex"
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase",
+    "variants": ["branded", "mono"],
+    "type": "dex"
+  }
 ]

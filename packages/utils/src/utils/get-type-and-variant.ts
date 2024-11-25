@@ -21,7 +21,7 @@ export const getTypeAndVariant = (filePath: string): { type: TType; variant: TVa
     })
   })
 
-  if (type && variant) {
+  if (type !== undefined && variant !== undefined) {
     return { type, variant }
   } else {
     throw new Error('cant get type and variant')

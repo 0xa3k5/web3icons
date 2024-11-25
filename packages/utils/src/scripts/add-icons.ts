@@ -256,22 +256,37 @@ const updateMetadataJson = async (
   console.info(`✔ added ${type}: ${metadata.map((t) => t.id).join(', ')}`)
 }
 
-const updateCustomJson = async (metadata: INetworkRaw[] | ITokenRaw[], type: TType) => {
-  const customJson = JSON.parse(
-    fs.readFileSync(
-      type === 'token' ? CUSTOM_TOKENS_METADATA_PATH : CUSTOM_NETWORKS_METADATA_PATH,
-      'utf-8',
-    ),
-  )
+const updateCustomJson = async (
+  metadata: INetworkRaw[] | ITokenRaw[] | IWalletRaw[] | IExchangeRaw[],
+  type: TType,
+) => {
+  let jsonPath
+
+  switch (type) {
+    case 'token':
+      jsonPath = CUSTOM_TOKENS_METADATA_PATH
+      break
+    case 'network':
+      jsonPath = CUSTOM_NETWORKS_METADATA_PATH
+      break
+    case 'wallet':
+      jsonPath = WALLETS_METADATA_PATH
+      break
+    case 'exchange':
+      jsonPath = EXCHANGES_METADATA_PATH
+      break
+    default:
+      console.log(metadata)
+      throw new Error('wrong type')
+  }
+
+  const customJson = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'))
 
   const JSONFILE = JSON.stringify(
     Array.from(new Map([...customJson, ...metadata].map((item) => [item.id, item])).values()),
   )
 
-  fs.writeFileSync(
-    type === 'token' ? CUSTOM_TOKENS_METADATA_PATH : CUSTOM_NETWORKS_METADATA_PATH,
-    JSONFILE,
-  )
+  fs.writeFileSync(jsonPath, JSONFILE)
   console.info(`✔ custom ${type} added: ${metadata.map((t) => t.id).join(', ')}`)
 }
 

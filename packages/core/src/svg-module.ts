@@ -3733,7 +3733,9 @@ import * as WMonoLit from './svgs/wallets/mono/lit.svg'
 import * as WMonoPhantom from './svgs/wallets/mono/phantom.svg'
 import * as WMonoPortal from './svgs/wallets/mono/portal.svg'
 import * as EBrandedBybit from './svgs/exchanges/branded/bybit.svg'
+import * as EBrandedKucoin from './svgs/exchanges/branded/kucoin.svg'
 import * as EMonoBybit from './svgs/exchanges/mono/bybit.svg'
+import * as EMonoKucoin from './svgs/exchanges/mono/kucoin.svg'
 export const svgs = {
   tokens: {
     mono: {
@@ -7489,9 +7491,11 @@ export const svgs = {
   exchanges: {
     mono: {
       bybit: EMonoBybit,
+      kucoin: EMonoKucoin,
     },
     branded: {
       bybit: EBrandedBybit,
+      kucoin: EBrandedKucoin,
     },
   },
 }
