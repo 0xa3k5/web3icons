@@ -3,7 +3,6 @@ import path from 'path'
 import { ROOT_REACT } from '../../constants'
 
 export function generateMapping() {
-  // prettier-ignore
   const networkIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/networks'))
   const tokenIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/tokens'))
   const walletIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/wallets'))

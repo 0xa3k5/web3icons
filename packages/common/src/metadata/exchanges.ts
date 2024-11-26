@@ -13,4 +13,10 @@ export const exchanges: IExchangeMetadata[] = [
     variants: ['branded', 'mono'],
     type: 'cex',
   },
+  {
+    id: 'coinbase',
+    name: 'Coinbase',
+    variants: ['branded', 'mono'],
+    type: 'dex',
+  },
 ]

@@ -255,6 +255,11 @@
     "name": "1Sol"
   },
   {
+    "id": "1-squirrel",
+    "symbol": "peanut",
+    "name": "#1 Squirrel"
+  },
+  {
     "id": "-2",
     "symbol": "₿",
     "name": "₿"
@@ -1962,7 +1967,7 @@
   {
     "id": "agridex-governance-token",
     "symbol": "agri",
-    "name": "AgriDex Governance Token"
+    "name": "AgriDex"
   },
   {
     "id": "agritech",
@@ -9023,6 +9028,11 @@
     "id": "bitenium-token",
     "symbol": "bt",
     "name": "Bitenium"
+  },
+  {
+    "id": "bitfinity-network",
+    "symbol": "btf",
+    "name": "Bitfinity Network"
   },
   {
     "id": "bitfloki",
@@ -28905,6 +28915,11 @@
     "name": "Ginza Network"
   },
   {
+    "id": "girls",
+    "symbol": "girls",
+    "name": "GIRLS"
+  },
+  {
     "id": "gitcoin",
     "symbol": "gtc",
     "name": "Gitcoin"
@@ -38395,6 +38410,11 @@
     "name": "Let Him Cook"
   },
   {
+    "id": "let-me-do-it-for-you",
+    "symbol": "nose",
+    "name": "Let me do it for you"
+  },
+  {
     "id": "letscro",
     "symbol": "lfc",
     "name": "LetsCRO"
@@ -43983,6 +44003,11 @@
     "id": "mnemonics",
     "symbol": "$mnemo",
     "name": "Mnemonics"
+  },
+  {
+    "id": "mner-club",
+    "symbol": "rmner",
+    "name": "Mner Club"
   },
   {
     "id": "mnet-continuum",
@@ -53083,6 +53108,11 @@
     "id": "pola",
     "symbol": "pola",
     "name": "Pola On Base"
+  },
+  {
+    "id": "polar-inu",
+    "symbol": "polar",
+    "name": "Polar Inu"
   },
   {
     "id": "polaris-share",
@@ -71068,6 +71098,11 @@
     "id": "value-liquidity",
     "symbol": "value",
     "name": "Value DeFi"
+  },
+  {
+    "id": "vampaire-squid",
+    "symbol": "vs",
+    "name": "vampAIre squid"
   },
   {
     "id": "vana",

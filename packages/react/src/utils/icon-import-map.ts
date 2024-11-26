@@ -2117,4 +2117,5 @@ export const WALLET_ICON_IMPORT_MAP: IconImportMap = {
 
 export const EXCHANGE_ICON_IMPORT_MAP: IconImportMap = {
   ExchangeBybit: () => import('../icons/exchanges/ExchangeBybit'),
+  ExchangeKucoin: () => import('../icons/exchanges/ExchangeKucoin'),
 }

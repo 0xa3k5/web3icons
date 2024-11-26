@@ -1,9 +1,11 @@
 import { forwardRef, ReactElement, ReactNode, useEffect, useState } from 'react'
 import {
+  IExchangeMetadata,
   INetworkMetadata,
   ITokenMetadata,
   IWalletMetadata,
   TType,
+  TVariant,
 } from '@web3icons/common'
 import { BaseIcon } from './BaseIcon'
 import {
@@ -11,11 +13,12 @@ import {
   NETWORK_ICON_IMPORT_MAP,
   TOKEN_ICON_IMPORT_MAP,
   WALLET_ICON_IMPORT_MAP,
+  EXCHANGE_ICON_IMPORT_MAP,
 } from './utils'
 /**
  * Interface for DynamicIcon component props.
  *
- * @property {IWalletMetadata | ITokenMetadata | INetworkMetadata | undefined} metadata - Metadata for the icon.
+ * @property {IWalletMetadata | ITokenMetadata | INetworkMetadata | IExchangeMetadata | undefined} metadata - Metadata for the icon.
  * @property {TType} type - Type of the icon (token, network, or wallet).
  * @property {React.ForwardedRef<SVGSVGElement>} ref - Forwarded ref for the icon.
  * @property {(string | number)} [size] - Size of the icon.
@@ -25,13 +28,14 @@ import {
  * @property {(string | ReactNode)} [fallback] - Fallback content to display if the icon fails to load.
  */
 interface IDynamicIcon {
-  metadata: ITokenMetadata | IWalletMetadata | INetworkMetadata | undefined
+  // prettier-ignore
+  metadata: | ITokenMetadata | IWalletMetadata | INetworkMetadata | IExchangeMetadata | undefined
   type: TType
   ref?: React.ForwardedRef<SVGSVGElement>
   size?: string | number
   color?: string
   className?: string
-  variant?: 'mono' | 'branded'
+  variant?: TVariant
   fallback?: string | ReactNode
 }
 
@@ -86,6 +90,12 @@ export const DynamicIcon = forwardRef<SVGSVGElement, IDynamicIcon>(
             importFunction =
               WALLET_ICON_IMPORT_MAP[`Wallet${toPascalCase(metadata.name)}`] ??
               WALLET_ICON_IMPORT_MAP[`Wallet${toPascalCase(metadata.id)}`]
+            break
+          case 'exchange':
+            importFunction =
+              // prettier-ignore
+              EXCHANGE_ICON_IMPORT_MAP[`Exchange${toPascalCase(metadata.name)}`] ?? 
+              EXCHANGE_ICON_IMPORT_MAP[`Exchange${toPascalCase(metadata.id)}`]
             break
           default:
             throw new Error(`invalid type ${type}`)

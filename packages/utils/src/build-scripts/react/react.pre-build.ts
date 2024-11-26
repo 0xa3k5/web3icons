@@ -4,8 +4,8 @@ import { generateMapping } from './react-generate-mapping'
 
 function preBuild() {
   generateComponents()
-  generateIndex()
   generateMapping()
+  generateIndex()
 }
 
 preBuild()
