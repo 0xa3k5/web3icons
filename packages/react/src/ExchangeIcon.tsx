@@ -1,5 +1,5 @@
 import { forwardRef } from 'react'
-import { ExchangeIconProps, WalletIconProps } from './types'
+import { ExchangeIconProps } from './types'
 import { DynamicIcon } from './DynamicIcon'
 import { findWallet } from './utils'
 
