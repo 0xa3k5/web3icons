@@ -253,5 +253,6 @@
     "chainId": 3637,
     "nativeCoinId": "btc"
   },
-  { "id": "corn", "name": "Corn", "shortname": "corn", "chainId": 21000000, "nativeCoinId": "btc" }
+  { "id": "corn", "name": "Corn", "shortname": "corn", "chainId": 21000000, "nativeCoinId": "btc" },
+  { "id": "mantra", "name": "Mantra Chain", "shortname": "mantra" }
 ]

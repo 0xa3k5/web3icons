@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (149)](#networks)
+- [networks (150)](#networks)
 - [tokens (1900)](#tokens)
 
 ### Wallets
@@ -200,6 +200,7 @@ jump to section:
 | world               | World Chain                  | ✅      | ✅   |
 | botanix             | Botanix                      | ✅      | ✅   |
 | corn                | Corn                         | ✅      | ✅   |
+| mantra              | Mantra Chain                 | ✅      | ✅   |
 
 ### Tokens
 

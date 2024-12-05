@@ -1,5 +1,25 @@
 # @web3icons/react
 
+## 3.13.1
+
+### Patch Changes
+
+- add mantra chain
+- Updated dependencies
+  - @web3icons/common@0.7.1
+
+## 3.13.0
+
+### Minor Changes
+
+- new tokens: BAN, BANANO
+  new networks: corn, botanix
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/common@0.7.0
+
 ## 3.12.1
 
 ### Patch Changes
