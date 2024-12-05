@@ -245,5 +245,13 @@
     "shortname": "world",
     "chainId": 480,
     "nativeCoinId": "eth"
-  }
+  },
+  {
+    "id": "botanix",
+    "name": "Botanix",
+    "shortname": "botanix",
+    "chainId": 3637,
+    "nativeCoinId": "btc"
+  },
+  { "id": "corn", "name": "Corn", "shortname": "corn", "chainId": 21000000, "nativeCoinId": "btc" }
 ]

@@ -20311,4 +20311,12 @@ export const tokens: ITokenMetadata[] = [
       'polygon-pos': '0x4e200fe2f3efb977d5fd9c430a41531fb04d97b8',
     },
   },
+  {
+    id: 'banano',
+    name: 'Banano',
+    variants: ['branded', 'mono'],
+    symbol: 'ban',
+    marketCapRank: null,
+    addresses: {},
+  },
 ]

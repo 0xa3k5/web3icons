@@ -1142,4 +1142,20 @@ export const networks: INetworkMetadata[] = [
     chainId: 480,
     nativeCoinId: 'eth',
   },
+  {
+    id: 'botanix',
+    name: 'Botanix',
+    variants: ['branded', 'mono'],
+    shortName: 'botanix',
+    chainId: 3637,
+    nativeCoinId: 'btc',
+  },
+  {
+    id: 'corn',
+    name: 'Corn',
+    variants: ['branded', 'mono'],
+    shortName: 'corn',
+    chainId: 21000000,
+    nativeCoinId: 'btc',
+  },
 ]
