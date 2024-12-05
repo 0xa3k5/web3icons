@@ -493,6 +493,7 @@ import * as TBrandedRIN from './svgs/tokens/branded/RIN.svg'
 import * as TBrandedXSGD from './svgs/tokens/branded/XSGD.svg'
 import * as TBrandedKINT from './svgs/tokens/branded/KINT.svg'
 import * as TBrandedMMPRO from './svgs/tokens/branded/MMPRO.svg'
+import * as TBrandedBAN from './svgs/tokens/branded/BAN.svg'
 import * as TBrandedEFL from './svgs/tokens/branded/EFL.svg'
 import * as TBrandedSWEAT from './svgs/tokens/branded/SWEAT.svg'
 import * as TBrandedWXT from './svgs/tokens/branded/WXT.svg'
@@ -620,6 +621,7 @@ import * as TBrandedLUSD from './svgs/tokens/branded/LUSD.svg'
 import * as TBrandedBCD from './svgs/tokens/branded/BCD.svg'
 import * as TBrandedREGEN from './svgs/tokens/branded/REGEN.svg'
 import * as TBrandedBAL from './svgs/tokens/branded/BAL.svg'
+import * as TBrandedBANANO from './svgs/tokens/branded/BANANO.svg'
 import * as TBrandedHBOT from './svgs/tokens/branded/HBOT.svg'
 import * as TBrandedMATIC from './svgs/tokens/branded/MATIC.svg'
 import * as TBrandedFREN from './svgs/tokens/branded/FREN.svg'
@@ -2221,6 +2223,7 @@ import * as TMonoRIN from './svgs/tokens/mono/RIN.svg'
 import * as TMonoXSGD from './svgs/tokens/mono/XSGD.svg'
 import * as TMonoKINT from './svgs/tokens/mono/KINT.svg'
 import * as TMonoMMPRO from './svgs/tokens/mono/MMPRO.svg'
+import * as TMonoBAN from './svgs/tokens/mono/BAN.svg'
 import * as TMonoWBTC from './svgs/tokens/mono/WBTC.svg'
 import * as TMonoEFL from './svgs/tokens/mono/EFL.svg'
 import * as TMonoSWEAT from './svgs/tokens/mono/SWEAT.svg'
@@ -2335,6 +2338,7 @@ import * as TMonoLUSD from './svgs/tokens/mono/LUSD.svg'
 import * as TMonoBCD from './svgs/tokens/mono/BCD.svg'
 import * as TMonoREGEN from './svgs/tokens/mono/REGEN.svg'
 import * as TMonoBAL from './svgs/tokens/mono/BAL.svg'
+import * as TMonoBANANO from './svgs/tokens/mono/BANANO.svg'
 import * as TMonoHBOT from './svgs/tokens/mono/HBOT.svg'
 import * as TMonoMATIC from './svgs/tokens/mono/MATIC.svg'
 import * as TMonoBMX from './svgs/tokens/mono/BMX.svg'
@@ -3402,6 +3406,7 @@ import * as NBrandedDiode from './svgs/networks/branded/diode.svg'
 import * as NBrandedMilkomedaC1 from './svgs/networks/branded/milkomeda-c1.svg'
 import * as NBrandedStep from './svgs/networks/branded/step.svg'
 import * as NBrandedPolygonZkevm from './svgs/networks/branded/polygon-zkevm.svg'
+import * as NBrandedMantra from './svgs/networks/branded/mantra.svg'
 import * as NBrandedKujira from './svgs/networks/branded/kujira.svg'
 import * as NBrandedAptos from './svgs/networks/branded/aptos.svg'
 import * as NBrandedCosmos from './svgs/networks/branded/cosmos.svg'
@@ -3423,6 +3428,7 @@ import * as NBrandedAstar from './svgs/networks/branded/astar.svg'
 import * as NBrandedInjective from './svgs/networks/branded/injective.svg'
 import * as NBrandedTron from './svgs/networks/branded/tron.svg'
 import * as NBrandedRootstock from './svgs/networks/branded/rootstock.svg'
+import * as NBrandedCorn from './svgs/networks/branded/corn.svg'
 import * as NBrandedHarmony from './svgs/networks/branded/harmony.svg'
 import * as NBrandedFantom from './svgs/networks/branded/fantom.svg'
 import * as NBrandedClover from './svgs/networks/branded/clover.svg'
@@ -3445,6 +3451,7 @@ import * as NBrandedBitcoin from './svgs/networks/branded/bitcoin.svg'
 import * as NBrandedLitecoin from './svgs/networks/branded/litecoin.svg'
 import * as NBrandedWemix from './svgs/networks/branded/wemix.svg'
 import * as NBrandedBob from './svgs/networks/branded/bob.svg'
+import * as NBrandedBotanix from './svgs/networks/branded/botanix.svg'
 import * as NBrandedSys from './svgs/networks/branded/sys.svg'
 import * as NBrandedCardano from './svgs/networks/branded/cardano.svg'
 import * as NBrandedShiden from './svgs/networks/branded/shiden.svg'
@@ -3542,6 +3549,7 @@ import * as NMonoDiode from './svgs/networks/mono/diode.svg'
 import * as NMonoMilkomedaC1 from './svgs/networks/mono/milkomeda-c1.svg'
 import * as NMonoStep from './svgs/networks/mono/step.svg'
 import * as NMonoPolygonZkevm from './svgs/networks/mono/polygon-zkevm.svg'
+import * as NMonoMantra from './svgs/networks/mono/mantra.svg'
 import * as NMonoKujira from './svgs/networks/mono/kujira.svg'
 import * as NMonoAptos from './svgs/networks/mono/aptos.svg'
 import * as NMonoCosmos from './svgs/networks/mono/cosmos.svg'
@@ -3563,6 +3571,7 @@ import * as NMonoAstar from './svgs/networks/mono/astar.svg'
 import * as NMonoInjective from './svgs/networks/mono/injective.svg'
 import * as NMonoTron from './svgs/networks/mono/tron.svg'
 import * as NMonoRootstock from './svgs/networks/mono/rootstock.svg'
+import * as NMonoCorn from './svgs/networks/mono/corn.svg'
 import * as NMonoHarmony from './svgs/networks/mono/harmony.svg'
 import * as NMonoFantom from './svgs/networks/mono/fantom.svg'
 import * as NMonoClover from './svgs/networks/mono/clover.svg'
@@ -3584,6 +3593,7 @@ import * as NMonoBitcoin from './svgs/networks/mono/bitcoin.svg'
 import * as NMonoLitecoin from './svgs/networks/mono/litecoin.svg'
 import * as NMonoWemix from './svgs/networks/mono/wemix.svg'
 import * as NMonoBob from './svgs/networks/mono/bob.svg'
+import * as NMonoBotanix from './svgs/networks/mono/botanix.svg'
 import * as NMonoSys from './svgs/networks/mono/sys.svg'
 import * as NMonoCardano from './svgs/networks/mono/cardano.svg'
 import * as NMonoShiden from './svgs/networks/mono/shiden.svg'
@@ -4181,6 +4191,7 @@ export const svgs = {
       XSGD: TMonoXSGD,
       KINT: TMonoKINT,
       MMPRO: TMonoMMPRO,
+      BAN: TMonoBAN,
       WBTC: TMonoWBTC,
       EFL: TMonoEFL,
       SWEAT: TMonoSWEAT,
@@ -4295,6 +4306,7 @@ export const svgs = {
       BCD: TMonoBCD,
       REGEN: TMonoREGEN,
       BAL: TMonoBAL,
+      BANANO: TMonoBANANO,
       HBOT: TMonoHBOT,
       MATIC: TMonoMATIC,
       BMX: TMonoBMX,
@@ -5835,6 +5847,7 @@ export const svgs = {
       XSGD: TBrandedXSGD,
       KINT: TBrandedKINT,
       MMPRO: TBrandedMMPRO,
+      BAN: TBrandedBAN,
       EFL: TBrandedEFL,
       SWEAT: TBrandedSWEAT,
       WXT: TBrandedWXT,
@@ -5962,6 +5975,7 @@ export const svgs = {
       BCD: TBrandedBCD,
       REGEN: TBrandedREGEN,
       BAL: TBrandedBAL,
+      BANANO: TBrandedBANANO,
       HBOT: TBrandedHBOT,
       MATIC: TBrandedMATIC,
       FREN: TBrandedFREN,
@@ -7149,6 +7163,7 @@ export const svgs = {
       'milkomeda-c1': NMonoMilkomedaC1,
       step: NMonoStep,
       'polygon-zkevm': NMonoPolygonZkevm,
+      mantra: NMonoMantra,
       kujira: NMonoKujira,
       aptos: NMonoAptos,
       cosmos: NMonoCosmos,
@@ -7170,6 +7185,7 @@ export const svgs = {
       injective: NMonoInjective,
       tron: NMonoTron,
       rootstock: NMonoRootstock,
+      corn: NMonoCorn,
       harmony: NMonoHarmony,
       fantom: NMonoFantom,
       clover: NMonoClover,
@@ -7191,6 +7207,7 @@ export const svgs = {
       litecoin: NMonoLitecoin,
       wemix: NMonoWemix,
       bob: NMonoBob,
+      botanix: NMonoBotanix,
       sys: NMonoSys,
       cardano: NMonoCardano,
       shiden: NMonoShiden,
@@ -7291,6 +7308,7 @@ export const svgs = {
       'milkomeda-c1': NBrandedMilkomedaC1,
       step: NBrandedStep,
       'polygon-zkevm': NBrandedPolygonZkevm,
+      mantra: NBrandedMantra,
       kujira: NBrandedKujira,
       aptos: NBrandedAptos,
       cosmos: NBrandedCosmos,
@@ -7312,6 +7330,7 @@ export const svgs = {
       injective: NBrandedInjective,
       tron: NBrandedTron,
       rootstock: NBrandedRootstock,
+      corn: NBrandedCorn,
       harmony: NBrandedHarmony,
       fantom: NBrandedFantom,
       clover: NBrandedClover,
@@ -7334,6 +7353,7 @@ export const svgs = {
       litecoin: NBrandedLitecoin,
       wemix: NBrandedWemix,
       bob: NBrandedBob,
+      botanix: NBrandedBotanix,
       sys: NBrandedSys,
       cardano: NBrandedCardano,
       shiden: NBrandedShiden,

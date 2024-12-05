@@ -1,5 +1,24 @@
 # @web3icons/core
 
+## 3.13.2
+
+### Patch Changes
+
+- fix networks index
+
+## 3.13.1
+
+### Patch Changes
+
+- add mantra chain
+
+## 3.13.0
+
+### Minor Changes
+
+- new tokens: BAN, BANANO
+  new networks: corn, botanix
+
 ## 3.12.1
 
 ### Patch Changes
