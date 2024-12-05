@@ -1,8 +1,8 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (147)](#networks)
-- [tokens (1899)](#tokens)
+- [networks (150)](#networks)
+- [tokens (1900)](#tokens)
 
 ### Wallets
 
@@ -198,6 +198,9 @@ jump to section:
 | edgeless            | Edgeless Network             | ✅      | ✅   |
 | lens                | Lens                         | ✅      | ✅   |
 | world               | World Chain                  | ✅      | ✅   |
+| botanix             | Botanix                      | ✅      | ✅   |
+| corn                | Corn                         | ✅      | ✅   |
+| mantra              | Mantra Chain                 | ✅      | ✅   |
 
 ### Tokens
 
@@ -2102,3 +2105,4 @@ jump to section:
 | apefi                                  | apefi       | ✅      | ✅   |
 | SwapBased                              | base        | ✅      | ❌   |
 | Orderly Network                        | order       | ✅      | ✅   |
+| Banano                                 | ban         | ✅      | ✅   |

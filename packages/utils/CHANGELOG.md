@@ -1,5 +1,20 @@
 # @web3icons/utils
 
+## 0.2.12
+
+### Patch Changes
+
+- add mantra chain
+- Updated dependencies
+  - @web3icons/common@0.7.1
+
+## 0.2.11
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/common@0.7.0
+
 ## 0.2.10
 
 ### Patch Changes
