@@ -3406,6 +3406,7 @@ import * as NBrandedDiode from './svgs/networks/branded/diode.svg'
 import * as NBrandedMilkomedaC1 from './svgs/networks/branded/milkomeda-c1.svg'
 import * as NBrandedStep from './svgs/networks/branded/step.svg'
 import * as NBrandedPolygonZkevm from './svgs/networks/branded/polygon-zkevm.svg'
+import * as NBrandedMantra from './svgs/networks/branded/mantra.svg'
 import * as NBrandedKujira from './svgs/networks/branded/kujira.svg'
 import * as NBrandedAptos from './svgs/networks/branded/aptos.svg'
 import * as NBrandedCosmos from './svgs/networks/branded/cosmos.svg'
@@ -3548,6 +3549,7 @@ import * as NMonoDiode from './svgs/networks/mono/diode.svg'
 import * as NMonoMilkomedaC1 from './svgs/networks/mono/milkomeda-c1.svg'
 import * as NMonoStep from './svgs/networks/mono/step.svg'
 import * as NMonoPolygonZkevm from './svgs/networks/mono/polygon-zkevm.svg'
+import * as NMonoMantra from './svgs/networks/mono/mantra.svg'
 import * as NMonoKujira from './svgs/networks/mono/kujira.svg'
 import * as NMonoAptos from './svgs/networks/mono/aptos.svg'
 import * as NMonoCosmos from './svgs/networks/mono/cosmos.svg'
@@ -7155,6 +7157,7 @@ export const svgs = {
       'milkomeda-c1': NMonoMilkomedaC1,
       step: NMonoStep,
       'polygon-zkevm': NMonoPolygonZkevm,
+      mantra: NMonoMantra,
       kujira: NMonoKujira,
       aptos: NMonoAptos,
       cosmos: NMonoCosmos,
@@ -7299,6 +7302,7 @@ export const svgs = {
       'milkomeda-c1': NBrandedMilkomedaC1,
       step: NBrandedStep,
       'polygon-zkevm': NBrandedPolygonZkevm,
+      mantra: NBrandedMantra,
       kujira: NBrandedKujira,
       aptos: NBrandedAptos,
       cosmos: NBrandedCosmos,

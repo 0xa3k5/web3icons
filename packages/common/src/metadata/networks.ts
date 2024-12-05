@@ -1158,4 +1158,10 @@ export const networks: INetworkMetadata[] = [
     chainId: 21000000,
     nativeCoinId: 'btc',
   },
+  {
+    id: 'mantra',
+    name: 'Mantra Chain',
+    variants: ['branded', 'mono'],
+    shortName: 'mantra',
+  },
 ]

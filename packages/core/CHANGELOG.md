@@ -1,5 +1,11 @@
 # @web3icons/core
 
+## 3.13.2
+
+### Patch Changes
+
+- fix networks index
+
 ## 3.13.1
 
 ### Patch Changes

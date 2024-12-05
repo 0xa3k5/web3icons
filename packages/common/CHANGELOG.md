@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.7.2
+
+### Patch Changes
+
+- fix networks index
+
 ## 0.7.1
 
 ### Patch Changes

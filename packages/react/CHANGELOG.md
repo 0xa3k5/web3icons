@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 3.13.2
+
+### Patch Changes
+
+- fix networks index
+- Updated dependencies
+  - @web3icons/common@0.7.2
+
 ## 3.13.1
 
 ### Patch Changes
