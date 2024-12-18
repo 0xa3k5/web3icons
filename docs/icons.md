@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (156)](#networks)
+- [networks (157)](#networks)
 - [tokens (1901)](#tokens)
 
 ### Wallets
@@ -207,6 +207,7 @@ jump to section:
 | super-seed          | Super Seed                   | ✅      | ✅   |
 | vanar               | Vanar                        | ✅      | ✅   |
 | wax                 | WAX                          | ✅      | ✅   |
+| rei                 | Rei                          | ✅      | ✅   |
 
 ### Tokens
 

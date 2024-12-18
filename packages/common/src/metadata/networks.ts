@@ -1207,4 +1207,11 @@ export const networks: INetworkMetadata[] = [
     shortName: 'wax',
     nativeCoinId: 'wax',
   },
+  {
+    id: 'rei',
+    name: 'Rei',
+    variants: ['branded', 'mono'],
+    shortName: 'rei',
+    chainId: 47805,
+  },
 ]

@@ -3467,6 +3467,7 @@ import * as NBrandedBlast from './svgs/networks/branded/blast.svg'
 import * as NBrandedEtherlink from './svgs/networks/branded/etherlink.svg'
 import * as NBrandedRari from './svgs/networks/branded/rari.svg'
 import * as NBrandedUnichain from './svgs/networks/branded/unichain.svg'
+import * as NBrandedRei from './svgs/networks/branded/rei.svg'
 import * as NBrandedKarura from './svgs/networks/branded/karura.svg'
 import * as NBrandedSuperseed from './svgs/networks/branded/superseed.svg'
 import * as NBrandedWorld from './svgs/networks/branded/world.svg'
@@ -3615,6 +3616,7 @@ import * as NMonoBlast from './svgs/networks/mono/blast.svg'
 import * as NMonoEtherlink from './svgs/networks/mono/etherlink.svg'
 import * as NMonoRari from './svgs/networks/mono/rari.svg'
 import * as NMonoUnichain from './svgs/networks/mono/unichain.svg'
+import * as NMonoRei from './svgs/networks/mono/rei.svg'
 import * as NMonoKarura from './svgs/networks/mono/karura.svg'
 import * as NMonoSuperseed from './svgs/networks/mono/superseed.svg'
 import * as NMonoWorld from './svgs/networks/mono/world.svg'
@@ -7231,6 +7233,7 @@ export const svgs = {
       etherlink: NMonoEtherlink,
       rari: NMonoRari,
       unichain: NMonoUnichain,
+      rei: NMonoRei,
       karura: NMonoKarura,
       superseed: NMonoSuperseed,
       world: NMonoWorld,
@@ -7383,6 +7386,7 @@ export const svgs = {
       etherlink: NBrandedEtherlink,
       rari: NBrandedRari,
       unichain: NBrandedUnichain,
+      rei: NBrandedRei,
       karura: NBrandedKarura,
       superseed: NBrandedSuperseed,
       world: NBrandedWorld,

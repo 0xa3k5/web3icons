@@ -96,6 +96,7 @@ export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {
   NetworkSui: () => import('../icons/networks/NetworkSui'),
   NetworkAcala: () => import('../icons/networks/NetworkAcala'),
   NetworkZora: () => import('../icons/networks/NetworkZora'),
+  NetworkRei: () => import('../icons/networks/NetworkRei'),
   NetworkGnosis: () => import('../icons/networks/NetworkGnosis'),
   NetworkHemi: () => import('../icons/networks/NetworkHemi'),
   NetworkAbstract: () => import('../icons/networks/NetworkAbstract'),

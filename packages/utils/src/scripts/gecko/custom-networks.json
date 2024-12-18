@@ -257,6 +257,7 @@
   { "id": "mantra", "name": "Mantra Chain", "shortname": "mantra" },
   { "id": "hemi", "name": "Hemi", "shortname": "hemi", "chainId": 743111 },
   { "id": "lumia", "name": "Lumia", "shortname": "lumia", "chainId": 1952959480 },
-  { "id": "superseed", "name": "Super Seed", "shortname": "Super Seed", "chainId": 53302 },
-  { "id": "vanar", "name": "Vanar", "shortname": "vanar", "chainId": 2040 }
+  { "id": "super-seed", "name": "Super Seed", "shortname": "Super Seed", "chainId": 53302 },
+  { "id": "vanar", "name": "Vanar", "shortname": "vanar", "chainId": 2040 },
+  { "id": "rei", "name": "Rei", "shortname": "rei", "chainId": 47805 }
 ]
