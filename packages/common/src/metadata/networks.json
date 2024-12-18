@@ -1161,5 +1161,41 @@
     "name": "Mantra Chain",
     "variants": ["branded", "mono"],
     "shortName": "mantra"
+  },
+  {
+    "id": "hemi",
+    "name": "Hemi",
+    "variants": ["branded", "mono"],
+    "shortName": "hemi",
+    "chainId": 743111
+  },
+  {
+    "id": "lumia",
+    "name": "Lumia",
+    "variants": ["branded", "mono"],
+    "shortName": "lumia",
+    "chainId": 1952959480
+  },
+  {
+    "id": "sonic",
+    "name": "Sonic",
+    "variants": ["branded", "mono"],
+    "shortName": "sonic",
+    "chainId": 146,
+    "nativeCoinId": "sonic-3"
+  },
+  {
+    "id": "super-seed",
+    "name": "Super Seed",
+    "variants": ["branded", "mono"],
+    "shortName": "Super Seed",
+    "chainId": 53302
+  },
+  {
+    "id": "vanar",
+    "name": "Vanar",
+    "variants": ["branded", "mono"],
+    "shortName": "vanar",
+    "chainId": 2040
   }
 ]
