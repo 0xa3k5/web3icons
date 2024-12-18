@@ -1,5 +1,22 @@
 # @web3icons/common
 
+## 0.8.0
+
+### Minor Changes
+
+- new networks:
+
+  - hemi
+  - lumia
+  - wax
+  - sonic
+  - super-seed
+  - rei
+
+  new token
+
+  - S (sonic)
+
 ## 0.7.2
 
 ### Patch Changes
