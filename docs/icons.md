@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (155)](#networks)
+- [networks (156)](#networks)
 - [tokens (1901)](#tokens)
 
 ### Wallets
@@ -206,6 +206,7 @@ jump to section:
 | sonic               | Sonic                        | ✅      | ✅   |
 | super-seed          | Super Seed                   | ✅      | ✅   |
 | vanar               | Vanar                        | ✅      | ✅   |
+| wax                 | WAX                          | ✅      | ✅   |
 
 ### Tokens
 

@@ -1200,4 +1200,11 @@ export const networks: INetworkMetadata[] = [
     shortName: 'vanar',
     chainId: 2040,
   },
+  {
+    id: 'wax',
+    name: 'WAX',
+    variants: ['branded', 'mono'],
+    shortName: 'wax',
+    nativeCoinId: 'wax',
+  },
 ]

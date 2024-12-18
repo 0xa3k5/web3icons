@@ -3489,6 +3489,7 @@ import * as NBrandedBoba from './svgs/networks/branded/boba.svg'
 import * as NBrandedViction from './svgs/networks/branded/viction.svg'
 import * as NBrandedImmutable from './svgs/networks/branded/immutable.svg'
 import * as NBrandedFlare from './svgs/networks/branded/flare.svg'
+import * as NBrandedWax from './svgs/networks/branded/wax.svg'
 import * as NBrandedTaiko from './svgs/networks/branded/taiko.svg'
 import * as NBrandedLyra from './svgs/networks/branded/lyra.svg'
 import * as NBrandedStarknet from './svgs/networks/branded/starknet.svg'
@@ -3636,6 +3637,7 @@ import * as NMonoBoba from './svgs/networks/mono/boba.svg'
 import * as NMonoViction from './svgs/networks/mono/viction.svg'
 import * as NMonoImmutable from './svgs/networks/mono/immutable.svg'
 import * as NMonoFlare from './svgs/networks/mono/flare.svg'
+import * as NMonoWax from './svgs/networks/mono/wax.svg'
 import * as NMonoTaiko from './svgs/networks/mono/taiko.svg'
 import * as NMonoLyra from './svgs/networks/mono/lyra.svg'
 import * as NMonoStarknet from './svgs/networks/mono/starknet.svg'
@@ -7251,6 +7253,7 @@ export const svgs = {
       viction: NMonoViction,
       immutable: NMonoImmutable,
       flare: NMonoFlare,
+      wax: NMonoWax,
       taiko: NMonoTaiko,
       lyra: NMonoLyra,
       starknet: NMonoStarknet,
@@ -7402,6 +7405,7 @@ export const svgs = {
       viction: NBrandedViction,
       immutable: NBrandedImmutable,
       flare: NBrandedFlare,
+      wax: NBrandedWax,
       taiko: NBrandedTaiko,
       lyra: NBrandedLyra,
       starknet: NBrandedStarknet,
