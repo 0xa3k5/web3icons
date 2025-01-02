@@ -7,10 +7,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/182/thumb/valobit.png?1708317270",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/182/small/valobit.png?1708317270",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/182/large/valobit.png?1708317270"
-    },
-    "slug": "valobit",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/182/small/valobit.png?1708317270",
-    "chain_id": 182
+    }
   },
   {
     "id": "arbitrum-nova",
@@ -21,10 +18,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/93/thumb/AN_logomark.png?1706606703",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/93/small/AN_logomark.png?1706606703",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/93/large/AN_logomark.png?1706606703"
-    },
-    "slug": "arbitrum-nova",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/93/small/AN_logomark.png?1706606703",
-    "chain_id": 93
+    }
   },
   {
     "id": "factom",
@@ -34,9 +28,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "factom",
-    "chain_id": 310
+    }
   },
   {
     "id": "monad",
@@ -46,10 +38,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22182/thumb/monad.png?1729046263",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22182/small/monad.png?1729046263",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22182/large/monad.png?1729046263"
-    },
-    "slug": "monad",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22182/small/monad.png?1729046263",
-    "chain_id": 22182
+    }
   },
   {
     "id": "kusama",
@@ -59,9 +48,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "kusama",
-    "chain_id": 35
+    }
   },
   {
     "id": "zano",
@@ -71,9 +58,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "zano",
-    "chain_id": 284
+    }
   },
   {
     "id": "picasso",
@@ -83,9 +68,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "picasso",
-    "chain_id": 143
+    }
   },
   {
     "id": "findora",
@@ -95,10 +78,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/91/thumb/findora.jpeg?1706606402",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/91/small/findora.jpeg?1706606402",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/91/large/findora.jpeg?1706606402"
-    },
-    "slug": "findora",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/91/small/findora.jpeg?1706606402",
-    "chain_id": 91
+    }
   },
   {
     "id": "bitkub-chain",
@@ -109,10 +89,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/109/thumb/bitkub.jpeg?1706606416",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/109/small/bitkub.jpeg?1706606416",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/109/large/bitkub.jpeg?1706606416"
-    },
-    "slug": "bitkub-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/109/small/bitkub.jpeg?1706606416",
-    "chain_id": 109
+    }
   },
   {
     "id": "onus",
@@ -122,10 +99,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/115/thumb/onus.jpeg?1706606579",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/115/small/onus.jpeg?1706606579",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/115/large/onus.jpeg?1706606579"
-    },
-    "slug": "onus",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/115/small/onus.jpeg?1706606579",
-    "chain_id": 115
+    }
   },
   {
     "id": "empire",
@@ -136,10 +110,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/118/thumb/empire.jpeg?1706606582",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/118/small/empire.jpeg?1706606582",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/118/large/empire.jpeg?1706606582"
-    },
-    "slug": "empire",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/118/small/empire.jpeg?1706606582",
-    "chain_id": 118
+    }
   },
   {
     "id": "areon-network",
@@ -149,10 +120,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/172/thumb/areon.jpeg?1706606591",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/172/small/areon.jpeg?1706606591",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/172/large/areon.jpeg?1706606591"
-    },
-    "slug": "areon-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/172/small/areon.jpeg?1706606591",
-    "chain_id": 172
+    }
   },
   {
     "id": "shibarium",
@@ -162,10 +130,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/149/thumb/shibarium-removebg-preview.png?1706606593",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/149/small/shibarium-removebg-preview.png?1706606593",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/149/large/shibarium-removebg-preview.png?1706606593"
-    },
-    "slug": "shibarium",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/149/small/shibarium-removebg-preview.png?1706606593",
-    "chain_id": 149
+    }
   },
   {
     "id": "kujira",
@@ -175,10 +140,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/129/thumb/kujira.jpeg?1706606596",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/129/small/kujira.jpeg?1706606596",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/129/large/kujira.jpeg?1706606596"
-    },
-    "slug": "kujira",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/129/small/kujira.jpeg?1706606596",
-    "chain_id": 129
+    }
   },
   {
     "id": "vite",
@@ -188,9 +150,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "vite",
-    "chain_id": 4513
+    }
   },
   {
     "id": "komodo",
@@ -200,9 +160,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "komodo",
-    "chain_id": 611
+    }
   },
   {
     "id": "counterparty",
@@ -212,9 +170,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "counterparty",
-    "chain_id": 9
+    }
   },
   {
     "id": "bitshares",
@@ -224,9 +180,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "bitshares",
-    "chain_id": 95
+    }
   },
   {
     "id": "hoo",
@@ -237,9 +191,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "hoo",
-    "chain_id": 28
+    }
   },
   {
     "id": "icon",
@@ -249,9 +201,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "icon",
-    "chain_id": 1060
+    }
   },
   {
     "id": "nem",
@@ -261,9 +211,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "nem",
-    "chain_id": 242
+    }
   },
   {
     "id": "nuls",
@@ -273,9 +221,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "nuls",
-    "chain_id": 1053
+    }
   },
   {
     "id": "super-zero",
@@ -285,9 +231,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "sero",
-    "chain_id": 4
+    }
   },
   {
     "id": "yocoin",
@@ -298,9 +242,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "yocoin",
-    "chain_id": 32
+    }
   },
   {
     "id": "internet-computer",
@@ -310,10 +252,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/165/thumb/01_ICP_Token_HEX_white__2x.png?1706606785",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/165/small/01_ICP_Token_HEX_white__2x.png?1706606785",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/165/large/01_ICP_Token_HEX_white__2x.png?1706606785"
-    },
-    "slug": "internet-computer",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/165/small/01_ICP_Token_HEX_white__2x.png?1706606785",
-    "chain_id": 165
+    }
   },
   {
     "id": "exosama",
@@ -323,10 +262,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/111/thumb/exosama_%282%29.png?1706606472",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/111/small/exosama_%282%29.png?1706606472",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/111/large/exosama_%282%29.png?1706606472"
-    },
-    "slug": "exosama",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/111/small/exosama_%282%29.png?1706606472",
-    "chain_id": 111
+    }
   },
   {
     "id": "taiko",
@@ -338,10 +274,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/266/thumb/taiko.jpeg?1716985374",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/266/small/taiko.jpeg?1716985374",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/266/large/taiko.jpeg?1716985374"
-    },
-    "slug": "taiko",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/266/small/taiko.jpeg?1716985374",
-    "chain_id": 266
+    }
   },
   {
     "id": "godwoken",
@@ -351,10 +284,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/103/thumb/godwoken.png?1706606634",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/103/small/godwoken.png?1706606634",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/103/large/godwoken.png?1706606634"
-    },
-    "slug": "godwoken",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/103/small/godwoken.png?1706606634",
-    "chain_id": 103
+    }
   },
   {
     "id": "trustless-computer",
@@ -364,10 +294,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/132/thumb/trustless.jpeg?1706606636",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/132/small/trustless.jpeg?1706606636",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/132/large/trustless.jpeg?1706606636"
-    },
-    "slug": "trustless-computer",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/132/small/trustless.jpeg?1706606636",
-    "chain_id": 132
+    }
   },
   {
     "id": "neutron",
@@ -377,10 +304,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/133/thumb/neutron.jpeg?1706606638",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/133/small/neutron.jpeg?1706606638",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/133/large/neutron.jpeg?1706606638"
-    },
-    "slug": "neutron",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/133/small/neutron.jpeg?1706606638",
-    "chain_id": 133
+    }
   },
   {
     "id": "etherlink",
@@ -391,10 +315,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/278/thumb/etherlink.jpg?1719800793",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/278/small/etherlink.jpg?1719800793",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/278/large/etherlink.jpg?1719800793"
-    },
-    "slug": "etherlink",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/278/small/etherlink.jpg?1719800793",
-    "chain_id": 278
+    }
   },
   {
     "id": "cybria",
@@ -405,10 +326,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/194/thumb/cybria.jpeg?1709690260",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/194/small/cybria.jpeg?1709690260",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/194/large/cybria.jpeg?1709690260"
-    },
-    "slug": "cybria",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/194/small/cybria.jpeg?1709690260",
-    "chain_id": 194
+    }
   },
   {
     "id": "alienx",
@@ -419,10 +337,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/277/thumb/alienx.png?1719305544",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/277/small/alienx.png?1719305544",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/277/large/alienx.png?1719305544"
-    },
-    "slug": "alienx",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/277/small/alienx.png?1719305544",
-    "chain_id": 277
+    }
   },
   {
     "id": "rollux",
@@ -432,10 +347,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/136/thumb/logo_rollux_%281%29.png?1706606481",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/136/small/logo_rollux_%281%29.png?1706606481",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/136/large/logo_rollux_%281%29.png?1706606481"
-    },
-    "slug": "rollux",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/136/small/logo_rollux_%281%29.png?1706606481",
-    "chain_id": 136
+    }
   },
   {
     "id": "omax",
@@ -446,10 +358,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/179/thumb/omax.jpeg?1707898533",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/179/small/omax.jpeg?1707898533",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/179/large/omax.jpeg?1707898533"
-    },
-    "slug": "omax",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/179/small/omax.jpeg?1707898533",
-    "chain_id": 179
+    }
   },
   {
     "id": "xodex",
@@ -460,10 +369,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/158/thumb/xodex.jpeg?1706606643",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/158/small/xodex.jpeg?1706606643",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/158/large/xodex.jpeg?1706606643"
-    },
-    "slug": "xodex",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/158/small/xodex.jpeg?1706606643",
-    "chain_id": 158
+    }
   },
   {
     "id": "celestia",
@@ -473,10 +379,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/207/thumb/celestia.png?1711421607",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/207/small/celestia.png?1711421607",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/207/large/celestia.png?1711421607"
-    },
-    "slug": "celestia",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/207/small/celestia.png?1711421607",
-    "chain_id": 207
+    }
   },
   {
     "id": "cardano",
@@ -486,10 +389,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22/thumb/cardano.jpg?1706606486",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22/small/cardano.jpg?1706606486",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22/large/cardano.jpg?1706606486"
-    },
-    "slug": "cardano",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22/small/cardano.jpg?1706606486",
-    "chain_id": 22
+    }
   },
   {
     "id": "aura-network",
@@ -499,10 +399,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/145/thumb/aura_network.jpeg?1706606479",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/145/small/aura_network.jpeg?1706606479",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/145/large/aura_network.jpeg?1706606479"
-    },
-    "slug": "aura-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/145/small/aura_network.jpeg?1706606479",
-    "chain_id": 145
+    }
   },
   {
     "id": "echelon",
@@ -512,10 +409,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/82/thumb/Echelon.png?1706606497",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/82/small/Echelon.png?1706606497",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/82/large/Echelon.png?1706606497"
-    },
-    "slug": "echelon",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/82/small/Echelon.png?1706606497",
-    "chain_id": 82
+    }
   },
   {
     "id": "acala",
@@ -525,10 +419,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/73/thumb/Acala.jpeg?1706606499",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/73/small/Acala.jpeg?1706606499",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/73/large/Acala.jpeg?1706606499"
-    },
-    "slug": "acala",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/73/small/Acala.jpeg?1706606499",
-    "chain_id": 73
+    }
   },
   {
     "id": "everscale",
@@ -538,10 +429,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/78/thumb/7505.png?1706606508",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/78/small/7505.png?1706606508",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/78/large/7505.png?1706606508"
-    },
-    "slug": "everscale",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/78/small/7505.png?1706606508",
-    "chain_id": 78
+    }
   },
   {
     "id": "degen",
@@ -552,10 +440,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/209/thumb/degen.jpeg?1711946732",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/209/small/degen.jpeg?1711946732",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/209/large/degen.jpeg?1711946732"
-    },
-    "slug": "degen",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/209/small/degen.jpeg?1711946732",
-    "chain_id": 209
+    }
   },
   {
     "id": "degen",
@@ -577,10 +462,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/142/thumb/tonblockchain.jpeg?1706606805",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/142/small/tonblockchain.jpeg?1706606805",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/142/large/tonblockchain.jpeg?1706606805"
-    },
-    "slug": "ton",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/142/small/tonblockchain.jpeg?1706606805",
-    "chain_id": 142
+    }
   },
   {
     "id": "telos",
@@ -591,10 +473,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/7588/thumb/TLOS_200.png?1706606551",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/7588/small/TLOS_200.png?1706606551",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/7588/large/TLOS_200.png?1706606551"
-    },
-    "slug": "telos",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/7588/small/TLOS_200.png?1706606551",
-    "chain_id": 7588
+    }
   },
   {
     "id": "saga",
@@ -604,10 +483,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/234/thumb/saga.jpeg?1712891811",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/234/small/saga.jpeg?1712891811",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/234/large/saga.jpeg?1712891811"
-    },
-    "slug": "saga",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/234/small/saga.jpeg?1712891811",
-    "chain_id": 234
+    }
   },
   {
     "id": "zenon",
@@ -617,10 +493,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22181/thumb/zenon.jpg?1728643155",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22181/small/zenon.jpg?1728643155",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22181/large/zenon.jpg?1728643155"
-    },
-    "slug": "zenon",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22181/small/zenon.jpg?1728643155",
-    "chain_id": 22181
+    }
   },
   {
     "id": "defi-kingdoms-blockchain",
@@ -632,10 +505,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/70/thumb/dfk-chain-logo-darkBlue.png?1706606503",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/70/small/dfk-chain-logo-darkBlue.png?1706606503",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/70/large/dfk-chain-logo-darkBlue.png?1706606503"
-    },
-    "slug": "defi-kingdoms-blockchain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/70/small/dfk-chain-logo-darkBlue.png?1706606503",
-    "chain_id": 70
+    }
   },
   {
     "id": "tron",
@@ -645,10 +515,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/1094/thumb/TRON_LOGO.png?1706606652",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/1094/small/TRON_LOGO.png?1706606652",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/1094/large/TRON_LOGO.png?1706606652"
-    },
-    "slug": "tron",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/1094/small/TRON_LOGO.png?1706606652",
-    "chain_id": 1094
+    }
   },
   {
     "id": "rootstock",
@@ -659,10 +526,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/5070/thumb/Rootstock_RSK.jpg?1724842928",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/5070/small/Rootstock_RSK.jpg?1724842928",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/5070/large/Rootstock_RSK.jpg?1724842928"
-    },
-    "slug": "rootstock-rsk",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/5070/small/Rootstock_RSK.jpg?1724842928",
-    "chain_id": 5070
+    }
   },
   {
     "id": "omnia",
@@ -673,10 +537,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/263/thumb/OmniaVerse.png?1716209921",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/263/small/OmniaVerse.png?1716209921",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/263/large/OmniaVerse.png?1716209921"
-    },
-    "slug": "omnia",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/263/small/OmniaVerse.png?1716209921",
-    "chain_id": 263
+    }
   },
   {
     "id": "algorand",
@@ -686,10 +547,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/3/thumb/algorand_logo_mark_black.png?1706606710",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/3/small/algorand_logo_mark_black.png?1706606710",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/3/large/algorand_logo_mark_black.png?1706606710"
-    },
-    "slug": "algorand",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/3/small/algorand_logo_mark_black.png?1706606710",
-    "chain_id": 3
+    }
   },
   {
     "id": "tombchain",
@@ -699,10 +557,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/87/thumb/tombchain.jpeg?1706606589",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/87/small/tombchain.jpeg?1706606589",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/87/large/tombchain.jpeg?1706606589"
-    },
-    "slug": "tombchain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/87/small/tombchain.jpeg?1706606589",
-    "chain_id": 87
+    }
   },
   {
     "id": "callisto",
@@ -712,10 +567,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/123/thumb/callisto.jpeg?1706606557",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/123/small/callisto.jpeg?1706606557",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/123/large/callisto.jpeg?1706606557"
-    },
-    "slug": "callisto",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/123/small/callisto.jpeg?1706606557",
-    "chain_id": 123
+    }
   },
   {
     "id": "function-x",
@@ -726,10 +578,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/106/thumb/functionx.jpeg?1706606559",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/106/small/functionx.jpeg?1706606559",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/106/large/functionx.jpeg?1706606559"
-    },
-    "slug": "function-x",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/106/small/functionx.jpeg?1706606559",
-    "chain_id": 106
+    }
   },
   {
     "id": "redlight-chain",
@@ -740,10 +589,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/104/thumb/redlight.jpg?1706606562",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/104/small/redlight.jpg?1706606562",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/104/large/redlight.jpg?1706606562"
-    },
-    "slug": "redlight-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/104/small/redlight.jpg?1706606562",
-    "chain_id": 104
+    }
   },
   {
     "id": "alephium",
@@ -753,10 +599,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/146/thumb/alephium.jpeg?1706606715",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/146/small/alephium.jpeg?1706606715",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/146/large/alephium.jpeg?1706606715"
-    },
-    "slug": "alephium",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/146/small/alephium.jpeg?1706606715",
-    "chain_id": 146
+    }
   },
   {
     "id": "assetmantle",
@@ -766,10 +609,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/210/thumb/assetmantle.jpeg?1711954900",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/210/small/assetmantle.jpeg?1711954900",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/210/large/assetmantle.jpeg?1711954900"
-    },
-    "slug": "assetmantle",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/210/small/assetmantle.jpeg?1711954900",
-    "chain_id": 210
+    }
   },
   {
     "id": "kardiachain",
@@ -781,10 +621,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/31/thumb/5453.png?1706606609",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/31/small/5453.png?1706606609",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/31/large/5453.png?1706606609"
-    },
-    "slug": "kardiachain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/31/small/5453.png?1706606609",
-    "chain_id": 31
+    }
   },
   {
     "id": "venom",
@@ -794,10 +631,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/257/thumb/venom.jpeg?1715656420",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/257/small/venom.jpeg?1715656420",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/257/large/venom.jpeg?1715656420"
-    },
-    "slug": "venom",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/257/small/venom.jpeg?1715656420",
-    "chain_id": 257
+    }
   },
   {
     "id": "neon-evm",
@@ -808,10 +642,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/139/thumb/neon.jpeg?1706606787",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/139/small/neon.jpeg?1706606787",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/139/large/neon.jpeg?1706606787"
-    },
-    "slug": "neon-evm",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/139/small/neon.jpeg?1706606787",
-    "chain_id": 139
+    }
   },
   {
     "id": "genesys-network",
@@ -822,10 +653,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/177/thumb/genesys.png?1706680778",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/177/small/genesys.png?1706680778",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/177/large/genesys.png?1706680778"
-    },
-    "slug": "genesys-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/177/small/genesys.png?1706680778",
-    "chain_id": 177
+    }
   },
   {
     "id": "okex-chain",
@@ -837,10 +665,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/23/thumb/OKT_Chain.jpg?1724842844",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/23/small/OKT_Chain.jpg?1724842844",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/23/large/OKT_Chain.jpg?1724842844"
-    },
-    "slug": "okexchain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/23/small/OKT_Chain.jpg?1724842844",
-    "chain_id": 23
+    }
   },
   {
     "id": "mint",
@@ -851,10 +676,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/293/thumb/mint.jpg?1724895620",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/293/small/mint.jpg?1724895620",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/293/large/mint.jpg?1724895620"
-    },
-    "slug": "mint",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/293/small/mint.jpg?1724895620",
-    "chain_id": 293
+    }
   },
   {
     "id": "apex",
@@ -864,10 +686,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/166/thumb/Screenshot_2023-12-20_at_3.31.33%E2%80%AFPM.png?1706606794",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/166/small/Screenshot_2023-12-20_at_3.31.33%E2%80%AFPM.png?1706606794",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/166/large/Screenshot_2023-12-20_at_3.31.33%E2%80%AFPM.png?1706606794"
-    },
-    "slug": "apex",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/166/small/Screenshot_2023-12-20_at_3.31.33%E2%80%AFPM.png?1706606794",
-    "chain_id": 166
+    }
   },
   {
     "id": "tezos",
@@ -877,9 +696,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "tezos",
-    "chain_id": 976
+    }
   },
   {
     "id": "harmony-shard-0",
@@ -891,10 +708,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/20/thumb/harmony.jpg?1724898618",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/20/small/harmony.jpg?1724898618",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/20/large/harmony.jpg?1724898618"
-    },
-    "slug": "harmony-shard-0",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/20/small/harmony.jpg?1724898618",
-    "chain_id": 20
+    }
   },
   {
     "id": "waves",
@@ -904,10 +718,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/425/thumb/Waves.png?1724898723",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/425/small/Waves.png?1724898723",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/425/large/Waves.png?1724898723"
-    },
-    "slug": "waves",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/425/small/Waves.png?1724898723",
-    "chain_id": 425
+    }
   },
   {
     "id": "xai",
@@ -918,10 +729,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/189/thumb/xai.png?1708573604",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/189/small/xai.png?1708573604",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/189/large/xai.png?1708573604"
-    },
-    "slug": "xai",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/189/small/xai.png?1708573604",
-    "chain_id": 189
+    }
   },
   {
     "id": "rari",
@@ -932,10 +740,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/286/thumb/rari.png?1722501053",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/286/small/rari.png?1722501053",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/286/large/rari.png?1722501053"
-    },
-    "slug": "rari",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/286/small/rari.png?1722501053",
-    "chain_id": 286
+    }
   },
   {
     "id": "xai",
@@ -967,10 +772,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/174/thumb/stargaze.jpeg?1706606807",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/174/small/stargaze.jpeg?1706606807",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/174/large/stargaze.jpeg?1706606807"
-    },
-    "slug": "stargaze",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/174/small/stargaze.jpeg?1706606807",
-    "chain_id": 174
+    }
   },
   {
     "id": "nxt",
@@ -980,9 +782,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "nxt",
-    "chain_id": 6
+    }
   },
   {
     "id": "mdex",
@@ -992,9 +792,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "mdex",
-    "chain_id": 10
+    }
   },
   {
     "id": "bahamut",
@@ -1005,10 +803,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/256/thumb/bahamut.jpeg?1715338015",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/256/small/bahamut.jpeg?1715338015",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/256/large/bahamut.jpeg?1715338015"
-    },
-    "slug": "bahamut",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/256/small/bahamut.jpeg?1715338015",
-    "chain_id": 256
+    }
   },
   {
     "id": "starknet",
@@ -1018,10 +813,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/151/thumb/starknet.png?1706606812",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/151/small/starknet.png?1706606812",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/151/large/starknet.png?1706606812"
-    },
-    "slug": "starknet",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/151/small/starknet.png?1706606812",
-    "chain_id": 151
+    }
   },
   {
     "id": "humanode",
@@ -1031,10 +823,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/161/thumb/humanode.png?1706606654",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/161/small/humanode.png?1706606654",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/161/large/humanode.png?1706606654"
-    },
-    "slug": "humanode",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/161/small/humanode.png?1706606654",
-    "chain_id": 161
+    }
   },
   {
     "id": "curio-chain",
@@ -1044,10 +833,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/180/thumb/curio.jpeg?1707915573",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/180/small/curio.jpeg?1707915573",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/180/large/curio.jpeg?1707915573"
-    },
-    "slug": "curio-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/180/small/curio.jpeg?1707915573",
-    "chain_id": 180
+    }
   },
   {
     "id": "kava",
@@ -1058,10 +844,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/2/thumb/kava.jpeg?1707096364",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/2/small/kava.jpeg?1707096364",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/2/large/kava.jpeg?1707096364"
-    },
-    "slug": "kava",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/2/small/kava.jpeg?1707096364",
-    "chain_id": 2
+    }
   },
   {
     "id": "zkfair",
@@ -1071,10 +854,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/170/thumb/zkfair.png?1706606821",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/170/small/zkfair.png?1706606821",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/170/large/zkfair.png?1706606821"
-    },
-    "slug": "zkfair",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/170/small/zkfair.png?1706606821",
-    "chain_id": 170
+    }
   },
   {
     "id": "opbnb",
@@ -1085,10 +865,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/144/thumb/opbnb.png?1706606469",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/144/small/opbnb.png?1706606469",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/144/large/opbnb.png?1706606469"
-    },
-    "slug": "opbnb",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/144/small/opbnb.png?1706606469",
-    "chain_id": 144
+    }
   },
   {
     "id": "quicksilver",
@@ -1098,9 +875,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "quicksilver",
-    "chain_id": 184
+    }
   },
   {
     "id": "matrix",
@@ -1110,10 +885,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/90/thumb/cdZZA0rR_400x400.jpeg?1706606671",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/90/small/cdZZA0rR_400x400.jpeg?1706606671",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/90/large/cdZZA0rR_400x400.jpeg?1706606671"
-    },
-    "slug": "matrix",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/90/small/cdZZA0rR_400x400.jpeg?1706606671",
-    "chain_id": 90
+    }
   },
   {
     "id": "ShibChain",
@@ -1123,10 +895,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/99/thumb/N0fKTQVS_400x400.jpeg?1706606675",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/99/small/N0fKTQVS_400x400.jpeg?1706606675",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/99/large/N0fKTQVS_400x400.jpeg?1706606675"
-    },
-    "slug": "shibchain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/99/small/N0fKTQVS_400x400.jpeg?1706606675",
-    "chain_id": 99
+    }
   },
   {
     "id": "fusion-network",
@@ -1137,9 +906,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "fusion-network",
-    "chain_id": 24
+    }
   },
   {
     "id": "libre",
@@ -1149,10 +916,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/117/thumb/libre.jpeg?1706606678",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/117/small/libre.jpeg?1706606678",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/117/large/libre.jpeg?1706606678"
-    },
-    "slug": "libre",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/117/small/libre.jpeg?1706606678",
-    "chain_id": 117
+    }
   },
   {
     "id": "gochain",
@@ -1162,9 +926,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "gochain",
-    "chain_id": 3286
+    }
   },
   {
     "id": "achain",
@@ -1174,9 +936,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "achain",
-    "chain_id": 1147
+    }
   },
   {
     "id": "omni",
@@ -1186,9 +946,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "omni",
-    "chain_id": 7
+    }
   },
   {
     "id": "enq-enecuum",
@@ -1198,9 +956,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "enecuum",
-    "chain_id": 8
+    }
   },
   {
     "id": "metaverse-etp",
@@ -1210,9 +966,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "metaverse-etp",
-    "chain_id": 1086
+    }
   },
   {
     "id": "ardor",
@@ -1222,9 +976,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "ardor",
-    "chain_id": 525
+    }
   },
   {
     "id": "stratis",
@@ -1234,9 +986,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "stratis",
-    "chain_id": 531
+    }
   },
   {
     "id": "openledger",
@@ -1246,9 +996,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "openledger",
-    "chain_id": 533
+    }
   },
   {
     "id": "qtum",
@@ -1258,9 +1006,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "qtum",
-    "chain_id": 684
+    }
   },
   {
     "id": "bitcoin-cash",
@@ -1271,9 +1017,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "bitcoin-cash",
-    "chain_id": 780
+    }
   },
   {
     "id": "ontology",
@@ -1283,9 +1027,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "ontology",
-    "chain_id": 3447
+    }
   },
   {
     "id": "aleph-zero",
@@ -1295,10 +1037,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/171/thumb/aleph.jpeg?1706606823",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/171/small/aleph.jpeg?1706606823",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/171/large/aleph.jpeg?1706606823"
-    },
-    "slug": "aleph-zero",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/171/small/aleph.jpeg?1706606823",
-    "chain_id": 171
+    }
   },
   {
     "id": "drc-20",
@@ -1308,10 +1047,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/169/thumb/drc20.png?1706606826",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/169/small/drc20.png?1706606826",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/169/large/drc20.png?1706606826"
-    },
-    "slug": "drc-20",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/169/small/drc20.png?1706606826",
-    "chain_id": 169
+    }
   },
   {
     "id": "berachain",
@@ -1321,10 +1057,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/176/thumb/berachain.jpeg?1706606828",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/176/small/berachain.jpeg?1706606828",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/176/large/berachain.jpeg?1706606828"
-    },
-    "slug": "berachain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/176/small/berachain.jpeg?1706606828",
-    "chain_id": 176
+    }
   },
   {
     "id": "zetachain",
@@ -1335,10 +1068,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/178/thumb/zeta.jpeg?1706844749",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/178/small/zeta.jpeg?1706844749",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/178/large/zeta.jpeg?1706844749"
-    },
-    "slug": "zetachain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/178/small/zeta.jpeg?1706844749",
-    "chain_id": 178
+    }
   },
   {
     "id": "shiden network",
@@ -1349,10 +1079,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/65/thumb/tFOtjrr3_400x400.jpeg?1706606564",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/65/small/tFOtjrr3_400x400.jpeg?1706606564",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/65/large/tFOtjrr3_400x400.jpeg?1706606564"
-    },
-    "slug": "shiden-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/65/small/tFOtjrr3_400x400.jpeg?1706606564",
-    "chain_id": 65
+    }
   },
   {
     "id": "syscoin",
@@ -1364,10 +1091,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/63/thumb/xDiIFaKO_400x400.jpg?1706606573",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/63/small/xDiIFaKO_400x400.jpg?1706606573",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/63/large/xDiIFaKO_400x400.jpg?1706606573"
-    },
-    "slug": "syscoin-mainnet",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/63/small/xDiIFaKO_400x400.jpg?1706606573",
-    "chain_id": 63
+    }
   },
   {
     "id": "casper-network",
@@ -1377,10 +1101,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/181/thumb/casper.png?1707983474",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/181/small/casper.png?1707983474",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/181/large/casper.png?1707983474"
-    },
-    "slug": "casper-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/181/small/casper.png?1707983474",
-    "chain_id": 181
+    }
   },
   {
     "id": "xpla",
@@ -1390,10 +1111,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/175/thumb/xpla.jpeg?1707990587",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/175/small/xpla.jpeg?1707990587",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/175/large/xpla.jpeg?1707990587"
-    },
-    "slug": "xpla",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/175/small/xpla.jpeg?1707990587",
-    "chain_id": 175
+    }
   },
   {
     "id": "karura",
@@ -1403,10 +1121,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/79/thumb/karura.jpeg?1706606510",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/79/small/karura.jpeg?1706606510",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/79/large/karura.jpeg?1706606510"
-    },
-    "slug": "karura",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/79/small/karura.jpeg?1706606510",
-    "chain_id": 79
+    }
   },
   {
     "id": "rails-network",
@@ -1416,10 +1131,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/183/thumb/railsnetwork.jpeg?1708321107",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/183/small/railsnetwork.jpeg?1708321107",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/183/large/railsnetwork.jpeg?1708321107"
-    },
-    "slug": "rails-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/183/small/railsnetwork.jpeg?1708321107",
-    "chain_id": 183
+    }
   },
   {
     "id": "chromia",
@@ -1429,9 +1141,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "chromia",
-    "chain_id": 236
+    }
   },
   {
     "id": "sx-network",
@@ -1442,10 +1152,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/80/thumb/yIxICJL7_400x400.jpeg?1706606514",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/80/small/yIxICJL7_400x400.jpeg?1706606514",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/80/large/yIxICJL7_400x400.jpeg?1706606514"
-    },
-    "slug": "sx-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/80/small/yIxICJL7_400x400.jpeg?1706606514",
-    "chain_id": 80
+    }
   },
   {
     "id": "cube",
@@ -1455,10 +1162,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/81/thumb/cube.png?1706606516",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/81/small/cube.png?1706606516",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/81/large/cube.png?1706606516"
-    },
-    "slug": "cube",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/81/small/cube.png?1706606516",
-    "chain_id": 81
+    }
   },
   {
     "id": "bifrost-network",
@@ -1468,10 +1172,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/240/thumb/bifrost.png?1713513431",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/240/small/bifrost.png?1713513431",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/240/large/bifrost.png?1713513431"
-    },
-    "slug": "bifrost-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/240/small/bifrost.png?1713513431",
-    "chain_id": 240
+    }
   },
   {
     "id": "metis-andromeda",
@@ -1482,10 +1183,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/54/thumb/metis.png?1706606712",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/54/small/metis.png?1706606712",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/54/large/metis.png?1706606712"
-    },
-    "slug": "metis-andromeda",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/54/small/metis.png?1706606712",
-    "chain_id": 54
+    }
   },
   {
     "id": "neo",
@@ -1495,10 +1193,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/480/thumb/NEO.jpg?1724898791",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/480/small/NEO.jpg?1724898791",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/480/large/NEO.jpg?1724898791"
-    },
-    "slug": "neo",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/480/small/NEO.jpg?1724898791",
-    "chain_id": 480
+    }
   },
   {
     "id": "filecoin",
@@ -1509,10 +1204,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/197/thumb/filecoin.jpeg?1710122717",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/197/small/filecoin.jpeg?1710122717",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/197/large/filecoin.jpeg?1710122717"
-    },
-    "slug": "filecoin",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/197/small/filecoin.jpeg?1710122717",
-    "chain_id": 197
+    }
   },
   {
     "id": "cellframe",
@@ -1522,10 +1214,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/250/thumb/cellframe.jpeg?1714641609",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/250/small/cellframe.jpeg?1714641609",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/250/large/cellframe.jpeg?1714641609"
-    },
-    "slug": "cellframe",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/250/small/cellframe.jpeg?1714641609",
-    "chain_id": 250
+    }
   },
   {
     "id": "zilliqa",
@@ -1535,9 +1224,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "zilliqa",
-    "chain_id": 19
+    }
   },
   {
     "id": "beam",
@@ -1548,10 +1235,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/155/thumb/beam.png?1706606625",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/155/small/beam.png?1706606625",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/155/large/beam.png?1706606625"
-    },
-    "slug": "beam",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/155/small/beam.png?1706606625",
-    "chain_id": 155
+    }
   },
   {
     "id": "rss3-vsl",
@@ -1562,10 +1246,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/235/thumb/rss3_vsl.jpg?1733384918",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/235/small/rss3_vsl.jpg?1733384918",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/235/large/rss3_vsl.jpg?1733384918"
-    },
-    "slug": "rss3-vsl",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/235/small/rss3_vsl.jpg?1733384918",
-    "chain_id": 235
+    }
   },
   {
     "id": "hypra-network",
@@ -1576,10 +1257,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/195/thumb/hypra.jpeg?1709713617",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/195/small/hypra.jpeg?1709713617",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/195/large/hypra.jpeg?1709713617"
-    },
-    "slug": "hypra-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/195/small/hypra.jpeg?1709713617",
-    "chain_id": 195
+    }
   },
   {
     "id": "thorchain",
@@ -1589,9 +1267,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "thorchain",
-    "chain_id": 44
+    }
   },
   {
     "id": "sge",
@@ -1601,10 +1277,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/185/thumb/sge.png?1708329472",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/185/small/sge.png?1708329472",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/185/large/sge.png?1708329472"
-    },
-    "slug": "sge",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/185/small/sge.png?1708329472",
-    "chain_id": 185
+    }
   },
   {
     "id": "alverychain",
@@ -1615,10 +1288,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/309/thumb/alvey.jpeg?1724918370",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/309/small/alvey.jpeg?1724918370",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/309/large/alvey.jpeg?1724918370"
-    },
-    "slug": "alveychain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/309/small/alvey.jpeg?1724918370",
-    "chain_id": 309
+    }
   },
   {
     "id": "binancecoin",
@@ -1629,9 +1299,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "binancecoin",
-    "chain_id": 825
+    }
   },
   {
     "id": "stellar",
@@ -1641,10 +1309,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/100/thumb/stellar.jpeg?1708492494",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/100/small/stellar.jpeg?1708492494",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/100/large/stellar.jpeg?1708492494"
-    },
-    "slug": "stellar",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/100/small/stellar.jpeg?1708492494",
-    "chain_id": 100
+    }
   },
   {
     "id": "theta",
@@ -1655,10 +1320,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/59/thumb/jxOQobOB_400x400.jpeg?1706606764",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/59/small/jxOQobOB_400x400.jpeg?1706606764",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/59/large/jxOQobOB_400x400.jpeg?1706606764"
-    },
-    "slug": "theta",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/59/small/jxOQobOB_400x400.jpeg?1706606764",
-    "chain_id": 59
+    }
   },
   {
     "id": "xdai",
@@ -1669,10 +1331,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/11062/thumb/Aatar_green_white.png?1706606458",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/11062/small/Aatar_green_white.png?1706606458",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/11062/large/Aatar_green_white.png?1706606458"
-    },
-    "slug": "xdai",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/11062/small/Aatar_green_white.png?1706606458",
-    "chain_id": 11062
+    }
   },
   {
     "id": "re-al",
@@ -1683,10 +1342,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/264/thumb/re.al.jpeg?1717754295",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/264/small/re.al.jpeg?1717754295",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/264/large/re.al.jpeg?1717754295"
-    },
-    "slug": "re-al",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/264/small/re.al.jpeg?1717754295",
-    "chain_id": 264
+    }
   },
   {
     "id": "kasplex",
@@ -1696,10 +1352,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22172/thumb/kasplex-2.png?1727064572",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22172/small/kasplex-2.png?1727064572",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22172/large/kasplex-2.png?1727064572"
-    },
-    "slug": "kasplex",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22172/small/kasplex-2.png?1727064572",
-    "chain_id": 22172
+    }
   },
   {
     "id": "osmosis",
@@ -1710,10 +1363,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/25/thumb/osmosis-osmo-logo.png?1708335599",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/25/small/osmosis-osmo-logo.png?1708335599",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/25/large/osmosis-osmo-logo.png?1708335599"
-    },
-    "slug": "osmosis",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/25/small/osmosis-osmo-logo.png?1708335599",
-    "chain_id": 25
+    }
   },
   {
     "id": "ancient8",
@@ -1724,10 +1374,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/259/thumb/ancient8.jpeg?1715926598",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/259/small/ancient8.jpeg?1715926598",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/259/large/ancient8.jpeg?1715926598"
-    },
-    "slug": "ancient8",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/259/small/ancient8.jpeg?1715926598",
-    "chain_id": 259
+    }
   },
   {
     "id": "akash",
@@ -1737,10 +1384,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/201/thumb/akash.jpeg?1711344327",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/201/small/akash.jpeg?1711344327",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/201/large/akash.jpeg?1711344327"
-    },
-    "slug": "akash",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/201/small/akash.jpeg?1711344327",
-    "chain_id": 201
+    }
   },
   {
     "id": "vanar-chain",
@@ -1751,10 +1395,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/269/thumb/vanar.jpeg?1717500553",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/269/small/vanar.jpeg?1717500553",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/269/large/vanar.jpeg?1717500553"
-    },
-    "slug": "vanar-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/269/small/vanar.jpeg?1717500553",
-    "chain_id": 269
+    }
   },
   {
     "id": "velas",
@@ -1766,10 +1407,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/62/thumb/velas.jpg?1706606575",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/62/small/velas.jpg?1706606575",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/62/large/velas.jpg?1706606575"
-    },
-    "slug": "velas",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/62/small/velas.jpg?1706606575",
-    "chain_id": 62
+    }
   },
   {
     "id": "noble",
@@ -1779,10 +1417,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/190/thumb/noble.png?1708584370",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/190/small/noble.png?1708584370",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/190/large/noble.png?1708584370"
-    },
-    "slug": "noble",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/190/small/noble.png?1708584370",
-    "chain_id": 190
+    }
   },
   {
     "id": "near-protocol",
@@ -1793,10 +1428,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/34/thumb/near.jpeg?1706870535",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/34/small/near.jpeg?1706870535",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/34/large/near.jpeg?1706870535"
-    },
-    "slug": "near-protocol",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/34/small/near.jpeg?1706870535",
-    "chain_id": 34
+    }
   },
   {
     "id": "manta-pacific",
@@ -1807,10 +1439,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/150/thumb/manta.png?1706606605",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/150/small/manta.png?1706606605",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/150/large/manta.png?1706606605"
-    },
-    "slug": "manta",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/150/small/manta.png?1706606605",
-    "chain_id": 150
+    }
   },
   {
     "id": "meld",
@@ -1821,10 +1450,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/173/thumb/meld.jpeg?1706606800",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/173/small/meld.jpeg?1706606800",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/173/large/meld.jpeg?1706606800"
-    },
-    "slug": "meld",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/173/small/meld.jpeg?1706606800",
-    "chain_id": 173
+    }
   },
   {
     "id": "wemix-network",
@@ -1835,10 +1461,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/113/thumb/wemix.png?1706606488",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/113/small/wemix.png?1706606488",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/113/large/wemix.png?1706606488"
-    },
-    "slug": "wemix-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/113/small/wemix.png?1706606488",
-    "chain_id": 113
+    }
   },
   {
     "id": "immutable",
@@ -1849,10 +1472,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/159/thumb/immutable.jpeg?1706606759",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/159/small/immutable.jpeg?1706606759",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/159/large/immutable.jpeg?1706606759"
-    },
-    "slug": "immutable",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/159/small/immutable.jpeg?1706606759",
-    "chain_id": 159
+    }
   },
   {
     "id": "map-protocol",
@@ -1863,10 +1483,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/208/thumb/map_protocol.jpeg?1711516308",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/208/small/map_protocol.jpeg?1711516308",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/208/large/map_protocol.jpeg?1711516308"
-    },
-    "slug": "map-protocol",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/208/small/map_protocol.jpeg?1711516308",
-    "chain_id": 208
+    }
   },
   {
     "id": "coinex-smart-chain",
@@ -1878,10 +1495,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/77/thumb/5IeSYSyn_400x400.jpeg?1706606528",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/77/small/5IeSYSyn_400x400.jpeg?1706606528",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/77/large/5IeSYSyn_400x400.jpeg?1706606528"
-    },
-    "slug": "coinex-smart-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/77/small/5IeSYSyn_400x400.jpeg?1706606528",
-    "chain_id": 77
+    }
   },
   {
     "id": "zora-network",
@@ -1892,10 +1506,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/196/thumb/zora.jpeg?1709871117",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/196/small/zora.jpeg?1709871117",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/196/large/zora.jpeg?1709871117"
-    },
-    "slug": "zora-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/196/small/zora.jpeg?1709871117",
-    "chain_id": 196
+    }
   },
   {
     "id": "merlin-chain",
@@ -1906,10 +1517,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/188/thumb/merlin-chain.jpeg?1708522313",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/188/small/merlin-chain.jpeg?1708522313",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/188/large/merlin-chain.jpeg?1708522313"
-    },
-    "slug": "merlin",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/188/small/merlin-chain.jpeg?1708522313",
-    "chain_id": 188
+    }
   },
   {
     "id": "injective",
@@ -1919,10 +1527,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/134/thumb/injective.jpeg?1706606600",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/134/small/injective.jpeg?1706606600",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/134/large/injective.jpeg?1706606600"
-    },
-    "slug": "injective",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/134/small/injective.jpeg?1706606600",
-    "chain_id": 134
+    }
   },
   {
     "id": "binance-smart-chain",
@@ -1934,10 +1539,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/1/thumb/bnb_smart_chain.png?1706606721",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/1/small/bnb_smart_chain.png?1706606721",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/1/large/bnb_smart_chain.png?1706606721"
-    },
-    "slug": "binance-smart-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/1/small/bnb_smart_chain.png?1706606721",
-    "chain_id": 1
+    }
   },
   {
     "id": "defichain-evm",
@@ -1948,10 +1550,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/308/thumb/defichain.jpg?1724990979",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/308/small/defichain.jpg?1724990979",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/308/large/defichain.jpg?1724990979"
-    },
-    "slug": "defichain-evm",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/308/small/defichain.jpg?1724990979",
-    "chain_id": 308
+    }
   },
   {
     "id": "orenium",
@@ -1961,10 +1560,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/233/thumb/orenium.png?1712550641",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/233/small/orenium.png?1712550641",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/233/large/orenium.png?1712550641"
-    },
-    "slug": "orenium",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/233/small/orenium.png?1712550641",
-    "chain_id": 233
+    }
   },
   {
     "id": "beamprivacy",
@@ -1974,10 +1570,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/186/thumb/beamprivacy.jpeg?1708333110",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/186/small/beamprivacy.jpeg?1708333110",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/186/large/beamprivacy.jpeg?1708333110"
-    },
-    "slug": "beamprivacy",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/186/small/beamprivacy.jpeg?1708333110",
-    "chain_id": 186
+    }
   },
   {
     "id": "saita-chain",
@@ -1988,9 +1581,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "saita-chain",
-    "chain_id": 246
+    }
   },
   {
     "id": "solana",
@@ -2001,10 +1592,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/5/thumb/solana.png?1706606708",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/5/small/solana.png?1706606708",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/5/large/solana.png?1706606708"
-    },
-    "slug": "solana",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/5/small/solana.png?1706606708",
-    "chain_id": 5
+    }
   },
   {
     "id": "cyber",
@@ -2015,10 +1603,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/281/thumb/cyber.jpg?1720164649",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/281/small/cyber.jpg?1720164649",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/281/large/cyber.jpg?1720164649"
-    },
-    "slug": "cyber",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/281/small/cyber.jpg?1720164649",
-    "chain_id": 281
+    }
   },
   {
     "id": "oasis",
@@ -2030,10 +1615,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/58/thumb/Oasis_Emerald.jpg?1724842810",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/58/small/Oasis_Emerald.jpg?1724842810",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/58/large/Oasis_Emerald.jpg?1724842810"
-    },
-    "slug": "oasis",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/58/small/Oasis_Emerald.jpg?1724842810",
-    "chain_id": 58
+    }
   },
   {
     "id": "ergo",
@@ -2043,10 +1625,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/157/thumb/ergo.jpeg?1706606535",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/157/small/ergo.jpeg?1706606535",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/157/large/ergo.jpeg?1706606535"
-    },
-    "slug": "ergo",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/157/small/ergo.jpeg?1706606535",
-    "chain_id": 157
+    }
   },
   {
     "id": "turan-network",
@@ -2056,9 +1635,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "turan-network",
-    "chain_id": 258
+    }
   },
   {
     "id": "hoo-smart-chain",
@@ -2069,10 +1646,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/60/thumb/hooo.jpg?1706606539",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/60/small/hooo.jpg?1706606539",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/60/large/hooo.jpg?1706606539"
-    },
-    "slug": "hoo-smart-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/60/small/hooo.jpg?1706606539",
-    "chain_id": 60
+    }
   },
   {
     "id": "onchain",
@@ -2083,10 +1657,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/311/thumb/bpmi3su1uwpri22dtmlqhnwgr3ip.png?1725610791",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/311/small/bpmi3su1uwpri22dtmlqhnwgr3ip.png?1725610791",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/311/large/bpmi3su1uwpri22dtmlqhnwgr3ip.png?1725610791"
-    },
-    "slug": "onchain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/311/small/bpmi3su1uwpri22dtmlqhnwgr3ip.png?1725610791",
-    "chain_id": 311
+    }
   },
   {
     "id": "ordinals",
@@ -2097,10 +1668,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/127/thumb/ordinals.png?1706606816",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/127/small/ordinals.png?1706606816",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/127/large/ordinals.png?1706606816"
-    },
-    "slug": "ordinals",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/127/small/ordinals.png?1706606816",
-    "chain_id": 127
+    }
   },
   {
     "id": "juno",
@@ -2110,10 +1678,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/164/thumb/juno.png?1706606409",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/164/small/juno.png?1706606409",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/164/large/juno.png?1706606409"
-    },
-    "slug": "juno",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/164/small/juno.png?1706606409",
-    "chain_id": 164
+    }
   },
   {
     "id": "elrond",
@@ -2124,10 +1689,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/50/thumb/multiverse.jpeg?1711356002",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/50/small/multiverse.jpeg?1711356002",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/50/large/multiverse.jpeg?1711356002"
-    },
-    "slug": "elrond",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/50/small/multiverse.jpeg?1711356002",
-    "chain_id": 50
+    }
   },
   {
     "id": "Bitcichain",
@@ -2139,10 +1701,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/29/thumb/bitcichain.png?1706606405",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/29/small/bitcichain.png?1706606405",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/29/large/bitcichain.png?1706606405"
-    },
-    "slug": "bitcichain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/29/small/bitcichain.png?1706606405",
-    "chain_id": 29
+    }
   },
   {
     "id": "planq-network",
@@ -2153,10 +1712,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/275/thumb/planq.jpeg?1717991052",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/275/small/planq.jpeg?1717991052",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/275/large/planq.jpeg?1717991052"
-    },
-    "slug": "planq",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/275/small/planq.jpeg?1717991052",
-    "chain_id": 275
+    }
   },
   {
     "id": "bitcanna",
@@ -2166,10 +1722,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/202/thumb/bitcanna.png?1711345819",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/202/small/bitcanna.png?1711345819",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/202/large/bitcanna.png?1711345819"
-    },
-    "slug": "bitcanna",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/202/small/bitcanna.png?1711345819",
-    "chain_id": 202
+    }
   },
   {
     "id": "crescent",
@@ -2179,10 +1732,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/206/thumb/crescent.jpeg?1711349933",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/206/small/crescent.jpeg?1711349933",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/206/large/crescent.jpeg?1711349933"
-    },
-    "slug": "crescent",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/206/small/crescent.jpeg?1711349933",
-    "chain_id": 206
+    }
   },
   {
     "id": "mantle",
@@ -2193,10 +1743,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/140/thumb/mantle.jpeg?1706606701",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/140/small/mantle.jpeg?1706606701",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/140/large/mantle.jpeg?1706606701"
-    },
-    "slug": "mantle",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/140/small/mantle.jpeg?1706606701",
-    "chain_id": 140
+    }
   },
   {
     "id": "core",
@@ -2207,10 +1754,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/119/thumb/core.jpeg?1706606603",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/119/small/core.jpeg?1706606603",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/119/large/core.jpeg?1706606603"
-    },
-    "slug": "core",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/119/small/core.jpeg?1706606603",
-    "chain_id": 119
+    }
   },
   {
     "id": "bouncebit",
@@ -2221,10 +1765,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/260/thumb/bouncebit.jpeg?1715927323",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/260/small/bouncebit.jpeg?1715927323",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/260/large/bouncebit.jpeg?1715927323"
-    },
-    "slug": "bouncebit",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/260/small/bouncebit.jpeg?1715927323",
-    "chain_id": 260
+    }
   },
   {
     "id": "polis-chain",
@@ -2235,10 +1776,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/64/thumb/Polischain.jpeg?1706606424",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/64/small/Polischain.jpeg?1706606424",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/64/large/Polischain.jpeg?1706606424"
-    },
-    "slug": "polis-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/64/small/Polischain.jpeg?1706606424",
-    "chain_id": 64
+    }
   },
   {
     "id": "q-mainnet",
@@ -2249,10 +1787,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/289/thumb/q_protocol.png?1724400233",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/289/small/q_protocol.png?1724400233",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/289/large/q_protocol.png?1724400233"
-    },
-    "slug": "q-mainnet",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/289/small/q_protocol.png?1724400233",
-    "chain_id": 289
+    }
   },
   {
     "id": "mixin-network",
@@ -2262,10 +1797,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/75/thumb/FMsal8MK_400x400.jpg?1706606449",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/75/small/FMsal8MK_400x400.jpg?1706606449",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/75/large/FMsal8MK_400x400.jpg?1706606449"
-    },
-    "slug": "mixin-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/75/small/FMsal8MK_400x400.jpg?1706606449",
-    "chain_id": 75
+    }
   },
   {
     "id": "defichain",
@@ -2275,10 +1807,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/66/thumb/defichain.jpg?1706606455",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/66/small/defichain.jpg?1706606455",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/66/large/defichain.jpg?1706606455"
-    },
-    "slug": "defichain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/66/small/defichain.jpg?1706606455",
-    "chain_id": 66
+    }
   },
   {
     "id": "ronin",
@@ -2290,10 +1819,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/45/thumb/ronin.png?1706606769",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/45/small/ronin.png?1706606769",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/45/large/ronin.png?1706606769"
-    },
-    "slug": "ronin",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/45/small/ronin.png?1706606769",
-    "chain_id": 45
+    }
   },
   {
     "id": "furya",
@@ -2303,10 +1829,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/168/thumb/Furya.png?1706606465",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/168/small/Furya.png?1706606465",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/168/large/Furya.png?1706606465"
-    },
-    "slug": "furya",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/168/small/Furya.png?1706606465",
-    "chain_id": 168
+    }
   },
   {
     "id": "lightlink",
@@ -2317,10 +1840,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/147/thumb/lightlink.jpeg?1706606467",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/147/small/lightlink.jpeg?1706606467",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/147/large/lightlink.jpeg?1706606467"
-    },
-    "slug": "lightlink",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/147/small/lightlink.jpeg?1706606467",
-    "chain_id": 147
+    }
   },
   {
     "id": "mode",
@@ -2331,10 +1851,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/191/thumb/mode.jpeg?1708666179",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/191/small/mode.jpeg?1708666179",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/191/large/mode.jpeg?1708666179"
-    },
-    "slug": "mode",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/191/small/mode.jpeg?1708666179",
-    "chain_id": 191
+    }
   },
   {
     "id": "eos-evm",
@@ -2345,10 +1862,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/124/thumb/QaCYVHgJ_400x400.jpg?1706606618",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/124/small/QaCYVHgJ_400x400.jpg?1706606618",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/124/large/QaCYVHgJ_400x400.jpg?1706606618"
-    },
-    "slug": "eos-evm",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/124/small/QaCYVHgJ_400x400.jpg?1706606618",
-    "chain_id": 124
+    }
   },
   {
     "id": "ultron",
@@ -2359,10 +1873,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/125/thumb/ultron_edit.png?1706606620",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/125/small/ultron_edit.png?1706606620",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/125/large/ultron_edit.png?1706606620"
-    },
-    "slug": "ultron",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/125/small/ultron_edit.png?1706606620",
-    "chain_id": 125
+    }
   },
   {
     "id": "tenet",
@@ -2373,10 +1884,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/137/thumb/tenet.jpeg?1706606623",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/137/small/tenet.jpeg?1706606623",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/137/large/tenet.jpeg?1706606623"
-    },
-    "slug": "tenet",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/137/small/tenet.jpeg?1706606623",
-    "chain_id": 137
+    }
   },
   {
     "id": "comdex",
@@ -2386,10 +1894,19 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/203/thumb/comdex.png?1711347449",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/203/small/comdex.png?1711347449",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/203/large/comdex.png?1711347449"
-    },
-    "slug": "comdex",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/203/small/comdex.png?1711347449",
-    "chain_id": 203
+    }
+  },
+  {
+    "id": "sonic",
+    "chain_identifier": 146,
+    "name": "Sonic",
+    "shortname": "sonic",
+    "native_coin_id": "sonic-3",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22192/thumb/sonic.jpg?1733971484",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22192/small/sonic.jpg?1733971484",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22192/large/sonic.jpg?1733971484"
+    }
   },
   {
     "id": "sui",
@@ -2399,10 +1916,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/126/thumb/sui-ocean-square.png?1727791325",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/126/small/sui-ocean-square.png?1727791325",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/126/large/sui-ocean-square.png?1727791325"
-    },
-    "slug": "sui",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/126/small/sui-ocean-square.png?1727791325",
-    "chain_id": 126
+    }
   },
   {
     "id": "canto",
@@ -2413,10 +1927,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/92/thumb/canto-network.png?1706606584",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/92/small/canto-network.png?1706606584",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/92/large/canto-network.png?1706606584"
-    },
-    "slug": "canto",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/92/small/canto-network.png?1706606584",
-    "chain_id": 92
+    }
   },
   {
     "id": "celer-network",
@@ -2427,10 +1938,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/68/thumb/celer.jpeg?1706606730",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/68/small/celer.jpeg?1706606730",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/68/large/celer.jpeg?1706606730"
-    },
-    "slug": "celer-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/68/small/celer.jpeg?1706606730",
-    "chain_id": 68
+    }
   },
   {
     "id": "loopring",
@@ -2440,10 +1948,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/167/thumb/loopring.png?1706606734",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/167/small/loopring.png?1706606734",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/167/large/loopring.png?1706606734"
-    },
-    "slug": "loopring",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/167/small/loopring.png?1706606734",
-    "chain_id": 167
+    }
   },
   {
     "id": "chiliz",
@@ -2453,10 +1958,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/8834/thumb/chiliz.png?1710723850",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/8834/small/chiliz.png?1710723850",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/8834/large/chiliz.png?1710723850"
-    },
-    "slug": "chiliz",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/8834/small/chiliz.png?1710723850",
-    "chain_id": 8834
+    }
   },
   {
     "id": "flare-network",
@@ -2467,10 +1969,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/114/thumb/Flare.jpeg?1706606598",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/114/small/Flare.jpeg?1706606598",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/114/large/Flare.jpeg?1706606598"
-    },
-    "slug": "flare-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/114/small/Flare.jpeg?1706606598",
-    "chain_id": 114
+    }
   },
   {
     "id": "clover",
@@ -2480,10 +1979,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/128/thumb/clv.jpeg?1706606743",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/128/small/clv.jpeg?1706606743",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/128/large/clv.jpeg?1706606743"
-    },
-    "slug": "clover",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/128/small/clv.jpeg?1706606743",
-    "chain_id": 128
+    }
   },
   {
     "id": "bifrost-kusama",
@@ -2493,10 +1989,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/141/thumb/bnc.png?1706606748",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/141/small/bnc.png?1706606748",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/141/large/bnc.png?1706606748"
-    },
-    "slug": "bifrost-kusama",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/141/small/bnc.png?1706606748",
-    "chain_id": 141
+    }
   },
   {
     "id": "arbitrum-one",
@@ -2508,10 +2001,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/33/thumb/AO_logomark.png?1706606717",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/33/small/AO_logomark.png?1706606717",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/33/large/AO_logomark.png?1706606717"
-    },
-    "slug": "arbitrum-one",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/33/small/AO_logomark.png?1706606717",
-    "chain_id": 33
+    }
   },
   {
     "id": "ki-chain",
@@ -2521,10 +2011,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/162/thumb/ki_chain.png?1706606755",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/162/small/ki_chain.png?1706606755",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/162/large/ki_chain.png?1706606755"
-    },
-    "slug": "ki-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/162/small/ki_chain.png?1706606755",
-    "chain_id": 162
+    }
   },
   {
     "id": "songbird",
@@ -2535,10 +2022,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/101/thumb/songbird.jpeg?1706606724",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/101/small/songbird.jpeg?1706606724",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/101/large/songbird.jpeg?1706606724"
-    },
-    "slug": "songbird",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/101/small/songbird.jpeg?1706606724",
-    "chain_id": 101
+    }
   },
   {
     "id": "fantom",
@@ -2549,10 +2033,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/17/thumb/fantom.png?1706606773",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/17/small/fantom.png?1706606773",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/17/large/fantom.png?1706606773"
-    },
-    "slug": "fantom",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/17/small/fantom.png?1706606773",
-    "chain_id": 17
+    }
   },
   {
     "id": "base",
@@ -2563,10 +2044,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/131/thumb/base-network.png?1720533039",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/131/small/base-network.png?1720533039",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/131/large/base-network.png?1720533039"
-    },
-    "slug": "base",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/131/small/base-network.png?1720533039",
-    "chain_id": 131
+    }
   },
   {
     "id": "optimistic-ethereum",
@@ -2578,10 +2056,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/41/thumb/optimism.png?1706606778",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/41/small/optimism.png?1706606778",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/41/large/optimism.png?1706606778"
-    },
-    "slug": "optimistic-ethereum",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/41/small/optimism.png?1706606778",
-    "chain_id": 41
+    }
   },
   {
     "id": "linea",
@@ -2592,10 +2067,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/135/thumb/linea.jpeg?1706606705",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/135/small/linea.jpeg?1706606705",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/135/large/linea.jpeg?1706606705"
-    },
-    "slug": "linea",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/135/small/linea.jpeg?1706606705",
-    "chain_id": 135
+    }
   },
   {
     "id": "eclipse",
@@ -2606,10 +2078,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22189/thumb/eclipse.jpg?1733211580",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22189/small/eclipse.jpg?1733211580",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22189/large/eclipse.jpg?1733211580"
-    },
-    "slug": "eclipse",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22189/small/eclipse.jpg?1733211580",
-    "chain_id": 22189
+    }
   },
   {
     "id": "omniflix",
@@ -2619,10 +2088,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/204/thumb/omniflix.jpeg?1711348040",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/204/small/omniflix.jpeg?1711348040",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/204/large/omniflix.jpeg?1711348040"
-    },
-    "slug": "omniflix",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/204/small/omniflix.jpeg?1711348040",
-    "chain_id": 204
+    }
   },
   {
     "id": "gravity-bridge",
@@ -2632,10 +2098,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/205/thumb/gravity-bridge.png?1711348894",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/205/small/gravity-bridge.png?1711348894",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/205/large/gravity-bridge.png?1711348894"
-    },
-    "slug": "gravity-bridge",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/205/small/gravity-bridge.png?1711348894",
-    "chain_id": 205
+    }
   },
   {
     "id": "shimmer_evm",
@@ -2646,10 +2109,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/154/thumb/shimmer.jpeg?1706606407",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/154/small/shimmer.jpeg?1706606407",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/154/large/shimmer.jpeg?1706606407"
-    },
-    "slug": "shimmerevm",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/154/small/shimmer.jpeg?1706606407",
-    "chain_id": 154
+    }
   },
   {
     "id": "elysium",
@@ -2660,10 +2120,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/303/thumb/elysium.jpeg?1724915402",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/303/small/elysium.jpeg?1724915402",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/303/large/elysium.jpeg?1724915402"
-    },
-    "slug": "elysium",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/303/small/elysium.jpeg?1724915402",
-    "chain_id": 303
+    }
   },
   {
     "id": "elysium",
@@ -2684,10 +2141,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/116/thumb/aptos_round.png?1706606789",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/116/small/aptos_round.png?1706606789",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/116/large/aptos_round.png?1706606789"
-    },
-    "slug": "aptos",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/116/small/aptos_round.png?1706606789",
-    "chain_id": 116
+    }
   },
   {
     "id": "chihuahua",
@@ -2697,10 +2151,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/211/thumb/chihuahuachain.jpeg?1711956042",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/211/small/chihuahuachain.jpeg?1711956042",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/211/large/chihuahuachain.jpeg?1711956042"
-    },
-    "slug": "chihuahua",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/211/small/chihuahuachain.jpeg?1711956042",
-    "chain_id": 211
+    }
   },
   {
     "id": "coreum",
@@ -2710,10 +2161,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/212/thumb/coreum.jpeg?1711956628",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/212/small/coreum.jpeg?1711956628",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/212/large/coreum.jpeg?1711956628"
-    },
-    "slug": "coreum",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/212/small/coreum.jpeg?1711956628",
-    "chain_id": 212
+    }
   },
   {
     "id": "cudos",
@@ -2723,10 +2171,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/213/thumb/cudos.jpeg?1711958110",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/213/small/cudos.jpeg?1711958110",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/213/large/cudos.jpeg?1711958110"
-    },
-    "slug": "cudos",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/213/small/cudos.jpeg?1711958110",
-    "chain_id": 213
+    }
   },
   {
     "id": "desmos",
@@ -2736,10 +2181,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/214/thumb/desmos.jpeg?1711958405",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/214/small/desmos.jpeg?1711958405",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/214/large/desmos.jpeg?1711958405"
-    },
-    "slug": "desmos",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/214/small/desmos.jpeg?1711958405",
-    "chain_id": 214
+    }
   },
   {
     "id": "dydx",
@@ -2749,10 +2191,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/215/thumb/dydx.jpeg?1711958553",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/215/small/dydx.jpeg?1711958553",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/215/large/dydx.jpeg?1711958553"
-    },
-    "slug": "dydx",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/215/small/dydx.jpeg?1711958553",
-    "chain_id": 215
+    }
   },
   {
     "id": "dymension",
@@ -2762,10 +2201,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/216/thumb/dymension.jpeg?1711958638",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/216/small/dymension.jpeg?1711958638",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/216/large/dymension.jpeg?1711958638"
-    },
-    "slug": "dymension",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/216/small/dymension.jpeg?1711958638",
-    "chain_id": 216
+    }
   },
   {
     "id": "iris",
@@ -2775,10 +2211,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/217/thumb/irisnetwork.jpeg?1711960270",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/217/small/irisnetwork.jpeg?1711960270",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/217/large/irisnetwork.jpeg?1711960270"
-    },
-    "slug": "iris",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/217/small/irisnetwork.jpeg?1711960270",
-    "chain_id": 217
+    }
   },
   {
     "id": "ixo",
@@ -2788,10 +2221,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/218/thumb/ixo.jpeg?1711960435",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/218/small/ixo.jpeg?1711960435",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/218/large/ixo.jpeg?1711960435"
-    },
-    "slug": "ixo",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/218/small/ixo.jpeg?1711960435",
-    "chain_id": 218
+    }
   },
   {
     "id": "kyve",
@@ -2801,10 +2231,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/219/thumb/kyve.jpeg?1711960818",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/219/small/kyve.jpeg?1711960818",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/219/large/kyve.jpeg?1711960818"
-    },
-    "slug": "kyve",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/219/small/kyve.jpeg?1711960818",
-    "chain_id": 219
+    }
   },
   {
     "id": "likecoin",
@@ -2814,10 +2241,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/220/thumb/likecoin.jpeg?1711961152",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/220/small/likecoin.jpeg?1711961152",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/220/large/likecoin.jpeg?1711961152"
-    },
-    "slug": "likecoin",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/220/small/likecoin.jpeg?1711961152",
-    "chain_id": 220
+    }
   },
   {
     "id": "lum",
@@ -2827,10 +2251,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/221/thumb/lum.jpeg?1711962082",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/221/small/lum.jpeg?1711962082",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/221/large/lum.jpeg?1711962082"
-    },
-    "slug": "lum",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/221/small/lum.jpeg?1711962082",
-    "chain_id": 221
+    }
   },
   {
     "id": "mars-protocol",
@@ -2840,10 +2261,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/222/thumb/mars_protocol.png?1711962248",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/222/small/mars_protocol.png?1711962248",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/222/large/mars_protocol.png?1711962248"
-    },
-    "slug": "mars-protocol",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/222/small/mars_protocol.png?1711962248",
-    "chain_id": 222
+    }
   },
   {
     "id": "nibiru",
@@ -2853,10 +2271,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/223/thumb/nibiru.jpeg?1711962547",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/223/small/nibiru.jpeg?1711962547",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/223/large/nibiru.jpeg?1711962547"
-    },
-    "slug": "nibiru",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/223/small/nibiru.jpeg?1711962547",
-    "chain_id": 223
+    }
   },
   {
     "id": "onomy",
@@ -2866,10 +2281,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/224/thumb/onomy-protocol.jpeg?1711962986",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/224/small/onomy-protocol.jpeg?1711962986",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/224/large/onomy-protocol.jpeg?1711962986"
-    },
-    "slug": "onomy",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/224/small/onomy-protocol.jpeg?1711962986",
-    "chain_id": 224
+    }
   },
   {
     "id": "persistence",
@@ -2879,10 +2291,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/225/thumb/Persistence_One.jpeg?1711963960",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/225/small/Persistence_One.jpeg?1711963960",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/225/large/Persistence_One.jpeg?1711963960"
-    },
-    "slug": "persistence",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/225/small/Persistence_One.jpeg?1711963960",
-    "chain_id": 225
+    }
   },
   {
     "id": "quasar",
@@ -2892,9 +2301,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "quasar",
-    "chain_id": 226
+    }
   },
   {
     "id": "regen",
@@ -2904,10 +2311,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/227/thumb/regen.png?1711964852",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/227/small/regen.png?1711964852",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/227/large/regen.png?1711964852"
-    },
-    "slug": "regen",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/227/small/regen.png?1711964852",
-    "chain_id": 227
+    }
   },
   {
     "id": "sommelier",
@@ -2917,10 +2321,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/228/thumb/sommelier.png?1711965222",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/228/small/sommelier.png?1711965222",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/228/large/sommelier.png?1711965222"
-    },
-    "slug": "sommelier",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/228/small/sommelier.png?1711965222",
-    "chain_id": 228
+    }
   },
   {
     "id": "stride",
@@ -2930,10 +2331,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/229/thumb/STRD.png?1711965647",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/229/small/STRD.png?1711965647",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/229/large/STRD.png?1711965647"
-    },
-    "slug": "stride",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/229/small/STRD.png?1711965647",
-    "chain_id": 229
+    }
   },
   {
     "id": "teritori",
@@ -2943,10 +2341,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/230/thumb/teritori.jpeg?1711965808",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/230/small/teritori.jpeg?1711965808",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/230/large/teritori.jpeg?1711965808"
-    },
-    "slug": "teritori",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/230/small/teritori.jpeg?1711965808",
-    "chain_id": 230
+    }
   },
   {
     "id": "ux-chain",
@@ -2956,10 +2351,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/231/thumb/ux.jpeg?1711966080",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/231/small/ux.jpeg?1711966080",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/231/large/ux.jpeg?1711966080"
-    },
-    "slug": "ux-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/231/small/ux.jpeg?1711966080",
-    "chain_id": 231
+    }
   },
   {
     "id": "flow-evm",
@@ -2970,10 +2362,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22173/thumb/flow.jpg?1727072603",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22173/small/flow.jpg?1727072603",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22173/large/flow.jpg?1727072603"
-    },
-    "slug": "evm-on-flow",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22173/small/flow.jpg?1727072603",
-    "chain_id": 22173
+    }
   },
   {
     "id": "mayachain",
@@ -2983,10 +2372,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/232/thumb/maya.jpeg?1712287090",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/232/small/maya.jpeg?1712287090",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/232/large/maya.jpeg?1712287090"
-    },
-    "slug": "maya-protocol",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/232/small/maya.jpeg?1712287090",
-    "chain_id": 232
+    }
   },
   {
     "id": "galachain",
@@ -2996,10 +2382,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/237/thumb/gala.jpeg?1713164830",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/237/small/gala.jpeg?1713164830",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/237/large/gala.jpeg?1713164830"
-    },
-    "slug": "galachain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/237/small/gala.jpeg?1713164830",
-    "chain_id": 237
+    }
   },
   {
     "id": "xt-smart-chain",
@@ -3010,10 +2393,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/285/thumb/xt.jpg?1722395971",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/285/small/xt.jpg?1722395971",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/285/large/xt.jpg?1722395971"
-    },
-    "slug": "xt-smart-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/285/small/xt.jpg?1722395971",
-    "chain_id": 285
+    }
   },
   {
     "id": "endurance",
@@ -3024,10 +2404,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/267/thumb/endurance.jpeg?1717148781",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/267/small/endurance.jpeg?1717148781",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/267/large/endurance.jpeg?1717148781"
-    },
-    "slug": "endurance",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/267/small/endurance.jpeg?1717148781",
-    "chain_id": 267
+    }
   },
   {
     "id": "bitgert",
@@ -3039,10 +2416,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/83/thumb/bitgert.jpeg?1713154905",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/83/small/bitgert.jpeg?1713154905",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/83/large/bitgert.jpeg?1713154905"
-    },
-    "slug": "bitgert-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/83/small/bitgert.jpeg?1713154905",
-    "chain_id": 83
+    }
   },
   {
     "id": "stacks",
@@ -3052,10 +2426,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/97/thumb/Stacks.png?1706606555",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/97/small/Stacks.png?1706606555",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/97/large/Stacks.png?1706606555"
-    },
-    "slug": "stacks",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/97/small/Stacks.png?1706606555",
-    "chain_id": 97
+    }
   },
   {
     "id": "ham",
@@ -3066,10 +2437,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/295/thumb/ham.png?1724906038",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/295/small/ham.png?1724906038",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/295/large/ham.png?1724906038"
-    },
-    "slug": "ham",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/295/small/ham.png?1724906038",
-    "chain_id": 295
+    }
   },
   {
     "id": "flow",
@@ -3079,10 +2447,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/152/thumb/flow.jpeg?1706606393",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/152/small/flow.jpeg?1706606393",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/152/large/flow.jpeg?1706606393"
-    },
-    "slug": "flow",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/152/small/flow.jpeg?1706606393",
-    "chain_id": 152
+    }
   },
   {
     "id": "ql1",
@@ -3093,10 +2458,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22176/thumb/qom.png?1727689494",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22176/small/qom.png?1727689494",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22176/large/qom.png?1727689494"
-    },
-    "slug": "ql1",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22176/small/qom.png?1727689494",
-    "chain_id": 22176
+    }
   },
   {
     "id": "fraxtal",
@@ -3107,10 +2469,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/193/thumb/fraxtal.jpeg?1709564289",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/193/small/fraxtal.jpeg?1709564289",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/193/large/fraxtal.jpeg?1709564289"
-    },
-    "slug": "fraxtal",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/193/small/fraxtal.jpeg?1709564289",
-    "chain_id": 193
+    }
   },
   {
     "id": "ql1",
@@ -3142,10 +2501,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/105/thumb/KADENA.jpg?1712302262",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/105/small/KADENA.jpg?1712302262",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/105/large/KADENA.jpg?1712302262"
-    },
-    "slug": "kadena",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/105/small/KADENA.jpg?1712302262",
-    "chain_id": 105
+    }
   },
   {
     "id": "massa",
@@ -3155,10 +2511,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/241/thumb/massa.jpeg?1713847307",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/241/small/massa.jpeg?1713847307",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/241/large/massa.jpeg?1713847307"
-    },
-    "slug": "massa",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/241/small/massa.jpeg?1713847307",
-    "chain_id": 241
+    }
   },
   {
     "id": "bitlayer",
@@ -3169,10 +2522,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/244/thumb/bitlayer.jpeg?1713928802",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/244/small/bitlayer.jpeg?1713928802",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/244/large/bitlayer.jpeg?1713928802"
-    },
-    "slug": "bitlayer",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/244/small/bitlayer.jpeg?1713928802",
-    "chain_id": 244
+    }
   },
   {
     "id": "lukso",
@@ -3183,10 +2533,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/199/thumb/lukso.jpeg?1710834078",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/199/small/lukso.jpeg?1710834078",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/199/large/lukso.jpeg?1710834078"
-    },
-    "slug": "lukso",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/199/small/lukso.jpeg?1710834078",
-    "chain_id": 199
+    }
   },
   {
     "id": "bevm",
@@ -3197,10 +2544,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/245/thumb/bevm.jpeg?1713945524",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/245/small/bevm.jpeg?1713945524",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/245/large/bevm.jpeg?1713945524"
-    },
-    "slug": "bevm",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/245/small/bevm.jpeg?1713945524",
-    "chain_id": 245
+    }
   },
   {
     "id": "tdvv-sidechain",
@@ -3210,9 +2554,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "tdvv-sidechain",
-    "chain_id": 248
+    }
   },
   {
     "id": "octaspace",
@@ -3223,10 +2565,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/249/thumb/octaspace.jpeg?1714442969",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/249/small/octaspace.jpeg?1714442969",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/249/large/octaspace.jpeg?1714442969"
-    },
-    "slug": "octaspace",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/249/small/octaspace.jpeg?1714442969",
-    "chain_id": 249
+    }
   },
   {
     "id": "radix",
@@ -3236,10 +2575,18 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/107/thumb/radix.jpeg?1706606757",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/107/small/radix.jpeg?1706606757",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/107/large/radix.jpeg?1706606757"
-    },
-    "slug": "radix",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/107/small/radix.jpeg?1706606757",
-    "chain_id": 107
+    }
+  },
+  {
+    "id": "units-network",
+    "chain_identifier": 88811,
+    "name": "Units Network",
+    "native_coin_id": "unit0",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22193/thumb/unit0.jpg?1734076011",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22193/small/unit0.jpg?1734076011",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22193/large/unit0.jpg?1734076011"
+    }
   },
   {
     "id": "blast",
@@ -3250,10 +2597,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/192/thumb/blast.jpeg?1709085131",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/192/small/blast.jpeg?1709085131",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/192/large/blast.jpeg?1709085131"
-    },
-    "slug": "blast",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/192/small/blast.jpeg?1709085131",
-    "chain_id": 192
+    }
   },
   {
     "id": "oraichain",
@@ -3263,10 +2607,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/252/thumb/oraichain.jpeg?1714730939",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/252/small/oraichain.jpeg?1714730939",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/252/large/oraichain.jpeg?1714730939"
-    },
-    "slug": "oraichain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/252/small/oraichain.jpeg?1714730939",
-    "chain_id": 252
+    }
   },
   {
     "id": "laikachain",
@@ -3277,10 +2618,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22187/thumb/laika_chain.jpg?1731895152",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22187/small/laika_chain.jpg?1731895152",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22187/large/laika_chain.jpg?1731895152"
-    },
-    "slug": "laika",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22187/small/laika_chain.jpg?1731895152",
-    "chain_id": 22187
+    }
   },
   {
     "id": "laikachain",
@@ -3303,10 +2641,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/46/thumb/cronos.jpeg?1706606792",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/46/small/cronos.jpeg?1706606792",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/46/large/cronos.jpeg?1706606792"
-    },
-    "slug": "cronos",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/46/small/cronos.jpeg?1706606792",
-    "chain_id": 46
+    }
   },
   {
     "id": "zklink-nova",
@@ -3317,10 +2652,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/251/thumb/4PmOBjg9_400x400.png?1715060990",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/251/small/4PmOBjg9_400x400.png?1715060990",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/251/large/4PmOBjg9_400x400.png?1715060990"
-    },
-    "slug": "zklink-nova",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/251/small/4PmOBjg9_400x400.png?1715060990",
-    "chain_id": 251
+    }
   },
   {
     "id": "aurora",
@@ -3332,10 +2664,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/53/thumb/Aurora-logo-token-darkBG.png?1706606474",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/53/small/Aurora-logo-token-darkBG.png?1706606474",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/53/large/Aurora-logo-token-darkBG.png?1706606474"
-    },
-    "slug": "aurora",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/53/small/Aurora-logo-token-darkBG.png?1706606474",
-    "chain_id": 53
+    }
   },
   {
     "id": "celo",
@@ -3347,10 +2676,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/21/thumb/celo.jpeg?1711358666",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/21/small/celo.jpeg?1711358666",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/21/large/celo.jpeg?1711358666"
-    },
-    "slug": "celo",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/21/small/celo.jpeg?1711358666",
-    "chain_id": 21
+    }
   },
   {
     "id": "archway",
@@ -3360,10 +2686,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/200/thumb/Archway.jpeg?1715137138",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/200/small/Archway.jpeg?1715137138",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/200/large/Archway.jpeg?1715137138"
-    },
-    "slug": "archway",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/200/small/Archway.jpeg?1715137138",
-    "chain_id": 200
+    }
   },
   {
     "id": "xrp",
@@ -3374,10 +2697,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/36/thumb/xrp-logo.jpg?1706606750",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/36/small/xrp-logo.jpg?1706606750",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/36/large/xrp-logo.jpg?1706606750"
-    },
-    "slug": "xrp",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/36/small/xrp-logo.jpg?1706606750",
-    "chain_id": 36
+    }
   },
   {
     "id": "energi",
@@ -3388,10 +2708,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/76/thumb/energi.jpeg?1706606568",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/76/small/energi.jpeg?1706606568",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/76/large/energi.jpeg?1706606568"
-    },
-    "slug": "energi",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/76/small/energi.jpeg?1706606568",
-    "chain_id": 76
+    }
   },
   {
     "id": "polygon-zkevm",
@@ -3402,10 +2719,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/122/thumb/polygonzkevm.jpg?1706606698",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/122/small/polygonzkevm.jpg?1706606698",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/122/large/polygonzkevm.jpg?1706606698"
-    },
-    "slug": "polygon-zkevm",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/122/small/polygonzkevm.jpg?1706606698",
-    "chain_id": 122
+    }
   },
   {
     "id": "evmos",
@@ -3417,10 +2731,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/74/thumb/evmos.png?1711350079",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/74/small/evmos.png?1711350079",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/74/large/evmos.png?1711350079"
-    },
-    "slug": "evmos",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/74/small/evmos.png?1711350079",
-    "chain_id": 74
+    }
   },
   {
     "id": "terra",
@@ -3430,10 +2741,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/18/thumb/Terra_Classic.jpg?1724898761",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/18/small/Terra_Classic.jpg?1724898761",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/18/large/Terra_Classic.jpg?1724898761"
-    },
-    "slug": "terra",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/18/small/Terra_Classic.jpg?1724898761",
-    "chain_id": 18
+    }
   },
   {
     "id": "secret",
@@ -3443,10 +2751,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/43/thumb/scrt.png?1706606753",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/43/small/scrt.png?1706606753",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/43/large/scrt.png?1706606753"
-    },
-    "slug": "secret",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/43/small/scrt.png?1706606753",
-    "chain_id": 43
+    }
   },
   {
     "id": "iotex",
@@ -3458,10 +2763,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/16/thumb/iotex.png?1706606819",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/16/small/iotex.png?1706606819",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/16/large/iotex.png?1706606819"
-    },
-    "slug": "iotex",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/16/small/iotex.png?1706606819",
-    "chain_id": 16
+    }
   },
   {
     "id": "lisk",
@@ -3473,10 +2775,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/283/thumb/lisk.webp?1720782445",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/283/small/lisk.webp?1720782445",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/283/large/lisk.webp?1720782445"
-    },
-    "slug": "lisk",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/283/small/lisk.webp?1720782445",
-    "chain_id": 283
+    }
   },
   {
     "id": "astar",
@@ -3487,10 +2786,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/71/thumb/Astar.jpeg?1706606537",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/71/small/Astar.jpeg?1706606537",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/71/large/Astar.jpeg?1706606537"
-    },
-    "slug": "astar",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/71/small/Astar.jpeg?1706606537",
-    "chain_id": 71
+    }
   },
   {
     "id": "fuse",
@@ -3501,10 +2797,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/55/thumb/2023-02-14_11.03.01.jpg?1706606586",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/55/small/2023-02-14_11.03.01.jpg?1706606586",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/55/large/2023-02-14_11.03.01.jpg?1706606586"
-    },
-    "slug": "fuse",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/55/small/2023-02-14_11.03.01.jpg?1706606586",
-    "chain_id": 55
+    }
   },
   {
     "id": "metal-l2",
@@ -3515,10 +2808,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22174/thumb/metal.jpg?1727078117",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22174/small/metal.jpg?1727078117",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22174/large/metal.jpg?1727078117"
-    },
-    "slug": "metal-l2",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22174/small/metal.jpg?1727078117",
-    "chain_id": 22174
+    }
   },
   {
     "id": "jibchain",
@@ -3529,10 +2819,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/294/thumb/jibchain.png?1724905779",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/294/small/jibchain.png?1724905779",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/294/large/jibchain.png?1724905779"
-    },
-    "slug": "jibchain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/294/small/jibchain.png?1724905779",
-    "chain_id": 294
+    }
   },
   {
     "id": "xdc-network",
@@ -3544,10 +2831,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/27/thumb/xdc_%281%29.png?1706606530",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/27/small/xdc_%281%29.png?1706606530",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/27/large/xdc_%281%29.png?1706606530"
-    },
-    "slug": "xdc-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/27/small/xdc_%281%29.png?1706606530",
-    "chain_id": 27
+    }
   },
   {
     "id": "terra-2",
@@ -3557,10 +2841,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/120/thumb/terra.png?1706606650",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/120/small/terra.png?1706606650",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/120/large/terra.png?1706606650"
-    },
-    "slug": "terra-37c897ce-35f0-4757-8204-215aef91036e",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/120/small/terra.png?1706606650",
-    "chain_id": 120
+    }
   },
   {
     "id": "wanchain",
@@ -3571,10 +2852,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/3482/thumb/Wanchain.png?1724898670",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/3482/small/Wanchain.png?1724898670",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/3482/large/Wanchain.png?1724898670"
-    },
-    "slug": "wanchain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/3482/small/Wanchain.png?1724898670",
-    "chain_id": 3482
+    }
   },
   {
     "id": "ethereumpow",
@@ -3584,10 +2862,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/102/thumb/ETHW.png?1706606548",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/102/small/ETHW.png?1706606548",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/102/large/ETHW.png?1706606548"
-    },
-    "slug": "ethereumpow",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/102/small/ETHW.png?1706606548",
-    "chain_id": 102
+    }
   },
   {
     "id": "bittorrent",
@@ -3598,10 +2873,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/108/thumb/bttc.png?1706606477",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/108/small/bttc.png?1706606477",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/108/large/bttc.png?1706606477"
-    },
-    "slug": "bittorrent",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/108/small/bttc.png?1706606477",
-    "chain_id": 108
+    }
   },
   {
     "id": "elastos",
@@ -3613,10 +2885,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/69/thumb/elastos.jpeg?1706606521",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/69/small/elastos.jpeg?1706606521",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/69/large/elastos.jpeg?1706606521"
-    },
-    "slug": "elastos-smart-contract-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/69/small/elastos.jpeg?1706606521",
-    "chain_id": 69
+    }
   },
   {
     "id": "smartbch",
@@ -3627,10 +2896,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/51/thumb/bch.png?1706606492",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/51/small/bch.png?1706606492",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/51/large/bch.png?1706606492"
-    },
-    "slug": "smartbch",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/51/small/bch.png?1706606492",
-    "chain_id": 51
+    }
   },
   {
     "id": "step-network",
@@ -3641,10 +2907,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/98/thumb/step.jpeg?1706606616",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/98/small/step.jpeg?1706606616",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/98/large/step.jpeg?1706606616"
-    },
-    "slug": "step-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/98/small/step.jpeg?1706606616",
-    "chain_id": 98
+    }
   },
   {
     "id": "migaloo",
@@ -3654,10 +2917,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/163/thumb/migaloo.jpg?1706606696",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/163/small/migaloo.jpg?1706606696",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/163/large/migaloo.jpg?1706606696"
-    },
-    "slug": "migaloo",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/163/small/migaloo.jpg?1706606696",
-    "chain_id": 163
+    }
   },
   {
     "id": "hedera-hashgraph",
@@ -3669,10 +2929,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/30/thumb/hedera.jpeg?1706606460",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/30/small/hedera.jpeg?1706606460",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/30/large/hedera.jpeg?1706606460"
-    },
-    "slug": "hedera-hashgraph",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/30/small/hedera.jpeg?1706606460",
-    "chain_id": 30
+    }
   },
   {
     "id": "thundercore",
@@ -3683,10 +2940,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/86/thumb/thundercore.jpg?1706606627",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/86/small/thundercore.jpg?1706606627",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/86/large/thundercore.jpg?1706606627"
-    },
-    "slug": "thundercore",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/86/small/thundercore.jpg?1706606627",
-    "chain_id": 86
+    }
   },
   {
     "id": "proof-of-memes",
@@ -3697,10 +2951,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/112/thumb/proof_of_meme.jpeg?1706606430",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/112/small/proof_of_meme.jpeg?1706606430",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/112/large/proof_of_meme.jpeg?1706606430"
-    },
-    "slug": "proof-of-memes",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/112/small/proof_of_meme.jpeg?1706606430",
-    "chain_id": 112
+    }
   },
   {
     "id": "mainnetz",
@@ -3711,10 +2962,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/282/thumb/MainnetZ.png?1724842719",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/282/small/MainnetZ.png?1724842719",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/282/large/MainnetZ.png?1724842719"
-    },
-    "slug": "mainnetz",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/282/small/MainnetZ.png?1724842719",
-    "chain_id": 282
+    }
   },
   {
     "id": "hydra",
@@ -3724,10 +2972,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/85/thumb/hydra.jpeg?1706606737",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/85/small/hydra.jpeg?1706606737",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/85/large/hydra.jpeg?1706606737"
-    },
-    "slug": "hydra",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/85/small/hydra.jpeg?1706606737",
-    "chain_id": 85
+    }
   },
   {
     "id": "niza",
@@ -3737,9 +2982,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "niza",
-    "chain_id": 296
+    }
   },
   {
     "id": "uton",
@@ -3749,10 +2992,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/268/thumb/uton.png?1717463902",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/268/small/uton.png?1717463902",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/268/large/uton.png?1717463902"
-    },
-    "slug": "uton",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/268/small/uton.png?1717463902",
-    "chain_id": 268
+    }
   },
   {
     "id": "saakuru",
@@ -3763,10 +3003,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/280/thumb/saakuru.jpg?1719803308",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/280/small/saakuru.jpg?1719803308",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/280/large/saakuru.jpg?1719803308"
-    },
-    "slug": "saakuru",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/280/small/saakuru.jpg?1719803308",
-    "chain_id": 280
+    }
   },
   {
     "id": "hyperliquid",
@@ -3776,10 +3013,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/243/thumb/hyperliquid.png?1713924434",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/243/small/hyperliquid.png?1713924434",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/243/large/hyperliquid.png?1713924434"
-    },
-    "slug": "hyperliquid",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/243/small/hyperliquid.png?1713924434",
-    "chain_id": 243
+    }
   },
   {
     "id": "oasis-sapphire",
@@ -3790,10 +3024,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/187/thumb/oasis.png?1708397299",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/187/small/oasis.png?1708397299",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/187/large/oasis.png?1708397299"
-    },
-    "slug": "oasis-sapphire",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/187/small/oasis.png?1708397299",
-    "chain_id": 187
+    }
   },
   {
     "id": "iota-evm",
@@ -3804,10 +3035,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/276/thumb/iota_logo_black_symbol_only.png?1718858198",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/276/small/iota_logo_black_symbol_only.png?1718858198",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/276/large/iota_logo_black_symbol_only.png?1718858198"
-    },
-    "slug": "iota-evm",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/276/small/iota_logo_black_symbol_only.png?1718858198",
-    "chain_id": 276
+    }
   },
   {
     "id": "nahmii",
@@ -3819,10 +3047,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/270/thumb/nahmii.jpeg?1717568564",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/270/small/nahmii.jpeg?1717568564",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/270/large/nahmii.jpeg?1717568564"
-    },
-    "slug": "nahmii",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/270/small/nahmii.jpeg?1717568564",
-    "chain_id": 270
+    }
   },
   {
     "id": "boba-bnb",
@@ -3833,10 +3058,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/271/thumb/boba.jpeg?1717594533",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/271/small/boba.jpeg?1717594533",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/271/large/boba.jpeg?1717594533"
-    },
-    "slug": "boba-bnb",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/271/small/boba.jpeg?1717594533",
-    "chain_id": 271
+    }
   },
   {
     "id": "zedxion",
@@ -3848,10 +3070,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/265/thumb/zedxion.png?1716526781",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/265/small/zedxion.png?1716526781",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/265/large/zedxion.png?1716526781"
-    },
-    "slug": "zedxion",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/265/small/zedxion.png?1716526781",
-    "chain_id": 265
+    }
   },
   {
     "id": "vyvo-smart-chain",
@@ -3862,10 +3081,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/274/thumb/Vyvo.jpg?1724843210",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/274/small/Vyvo.jpg?1724843210",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/274/large/Vyvo.jpg?1724843210"
-    },
-    "slug": "vyvo-smart-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/274/small/Vyvo.jpg?1724843210",
-    "chain_id": 274
+    }
   },
   {
     "id": "astar-zkevm",
@@ -3876,10 +3092,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/198/thumb/astar.png?1710138207",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/198/small/astar.png?1710138207",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/198/large/astar.png?1710138207"
-    },
-    "slug": "astar-zkevm",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/198/small/astar.png?1710138207",
-    "chain_id": 198
+    }
   },
   {
     "id": "oasys",
@@ -3890,10 +3103,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/110/thumb/oasys.jpeg?1706606566",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/110/small/oasys.jpeg?1706606566",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/110/large/oasys.jpeg?1706606566"
-    },
-    "slug": "oasys",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/110/small/oasys.jpeg?1706606566",
-    "chain_id": 110
+    }
   },
   {
     "id": "milkomeda-cardano",
@@ -3904,10 +3114,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/67/thumb/milkomeda-cardano.png?1706606640",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/67/small/milkomeda-cardano.png?1706606640",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/67/large/milkomeda-cardano.png?1706606640"
-    },
-    "slug": "milkomeda-cardano",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/67/small/milkomeda-cardano.png?1706606640",
-    "chain_id": 67
+    }
   },
   {
     "id": "haqq-network",
@@ -3918,10 +3125,18 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/272/thumb/haqq-sign.png?1717594659",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/272/small/haqq-sign.png?1717594659",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/272/large/haqq-sign.png?1717594659"
-    },
-    "slug": "haqq-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/272/small/haqq-sign.png?1717594659",
-    "chain_id": 272
+    }
+  },
+  {
+    "id": "duckchain",
+    "chain_identifier": 5545,
+    "name": "DuckChain",
+    "native_coin_id": "the-open-network",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22190/thumb/duckchain.jpg?1733401377",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22190/small/duckchain.jpg?1733401377",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22190/large/duckchain.jpg?1733401377"
+    }
   },
   {
     "id": "sora",
@@ -3931,10 +3146,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/39/thumb/sora-xor-logo.png?1718358407",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/39/small/sora-xor-logo.png?1718358407",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/39/large/sora-xor-logo.png?1718358407"
-    },
-    "slug": "sora",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/39/small/sora-xor-logo.png?1718358407",
-    "chain_id": 39
+    }
   },
   {
     "id": "polygon-pos",
@@ -3946,10 +3158,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/15/thumb/polygon_pos.png?1706606645",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/15/small/polygon_pos.png?1706606645",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/15/large/polygon_pos.png?1706606645"
-    },
-    "slug": "polygon-pos",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/15/small/polygon_pos.png?1706606645",
-    "chain_id": 15
+    }
   },
   {
     "id": "zksync",
@@ -3961,10 +3170,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/121/thumb/zksync.jpeg?1706606814",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/121/small/zksync.jpeg?1706606814",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/121/large/zksync.jpeg?1706606814"
-    },
-    "slug": "zksync",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/121/small/zksync.jpeg?1706606814",
-    "chain_id": 121
+    }
   },
   {
     "id": "bitrock",
@@ -3975,10 +3181,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/156/thumb/bitrock.jpeg?1706606780",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/156/small/bitrock.jpeg?1706606780",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/156/large/bitrock.jpeg?1706606780"
-    },
-    "slug": "bitrock",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/156/small/bitrock.jpeg?1706606780",
-    "chain_id": 156
+    }
   },
   {
     "id": "moonriver",
@@ -3990,10 +3193,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/38/thumb/moonriver.jpg?1725875159",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/38/small/moonriver.jpg?1725875159",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/38/large/moonriver.jpg?1725875159"
-    },
-    "slug": "moonriver",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/38/small/moonriver.jpg?1725875159",
-    "chain_id": 38
+    }
   },
   {
     "id": "zircuit",
@@ -4004,10 +3204,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/287/thumb/zircuit.png?1722845779",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/287/small/zircuit.png?1722845779",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/287/large/zircuit.png?1722845779"
-    },
-    "slug": "zircuit",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/287/small/zircuit.png?1722845779",
-    "chain_id": 287
+    }
   },
   {
     "id": "boba",
@@ -4018,10 +3215,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/47/thumb/BOBA.png?1706606462",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/47/small/BOBA.png?1706606462",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/47/large/BOBA.png?1706606462"
-    },
-    "slug": "boba-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/47/small/BOBA.png?1706606462",
-    "chain_id": 47
+    }
   },
   {
     "id": "morph-l2",
@@ -4032,10 +3226,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22185/thumb/morph.jpg?1729659940",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22185/small/morph.jpg?1729659940",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22185/large/morph.jpg?1729659940"
-    },
-    "slug": "morph-l2",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22185/small/morph.jpg?1729659940",
-    "chain_id": 22185
+    }
   },
   {
     "id": "sanko",
@@ -4046,10 +3237,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/262/thumb/dmt.png?1717607022",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/262/small/dmt.png?1717607022",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/262/large/dmt.png?1717607022"
-    },
-    "slug": "sanko",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/262/small/dmt.png?1717607022",
-    "chain_id": 262
+    }
   },
   {
     "id": "sanko",
@@ -4070,10 +3258,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/247/thumb/alelf.jpg?1724842476",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/247/small/alelf.jpg?1724842476",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/247/large/alelf.jpg?1724842476"
-    },
-    "slug": "aelf",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/247/small/alelf.jpg?1724842476",
-    "chain_id": 247
+    }
   },
   {
     "id": "conflux",
@@ -4085,10 +3270,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/52/thumb/conflux.png?1724842516",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/52/small/conflux.png?1724842516",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/52/large/conflux.png?1724842516"
-    },
-    "slug": "conflux",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/52/small/conflux.png?1724842516",
-    "chain_id": 52
+    }
   },
   {
     "id": "eos",
@@ -4098,10 +3280,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/738/thumb/eos.jpg?1724842548",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/738/small/eos.jpg?1724842548",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/738/large/eos.jpg?1724842548"
-    },
-    "slug": "eos",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/738/small/eos.jpg?1724842548",
-    "chain_id": 738
+    }
   },
   {
     "id": "ethereum-classic",
@@ -4112,10 +3291,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/453/thumb/ethereum_classic.jpg?1724842608",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/453/small/ethereum_classic.jpg?1724842608",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/453/large/ethereum_classic.jpg?1724842608"
-    },
-    "slug": "ethereum-classic",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/453/small/ethereum_classic.jpg?1724842608",
-    "chain_id": 453
+    }
   },
   {
     "id": "huobi-token",
@@ -4127,10 +3303,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/11/thumb/Huobi_ECO_Chain_Mainnet.jpg?1724842645",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/11/small/Huobi_ECO_Chain_Mainnet.jpg?1724842645",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/11/large/Huobi_ECO_Chain_Mainnet.jpg?1724842645"
-    },
-    "slug": "heco",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/11/small/Huobi_ECO_Chain_Mainnet.jpg?1724842645",
-    "chain_id": 11
+    }
   },
   {
     "id": "kucoin-community-chain",
@@ -4142,10 +3315,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/26/thumb/Kucoin_Community_Chain.jpg?1724842687",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/26/small/Kucoin_Community_Chain.jpg?1724842687",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/26/large/Kucoin_Community_Chain.jpg?1724842687"
-    },
-    "slug": "kucoin-community-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/26/small/Kucoin_Community_Chain.jpg?1724842687",
-    "chain_id": 26
+    }
   },
   {
     "id": "qitmeer-network",
@@ -4156,10 +3326,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/297/thumb/qitmeer.jpeg?1724912468",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/297/small/qitmeer.jpeg?1724912468",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/297/large/qitmeer.jpeg?1724912468"
-    },
-    "slug": "qitmeer-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/297/small/qitmeer.jpeg?1724912468",
-    "chain_id": 297
+    }
   },
   {
     "id": "meter",
@@ -4170,10 +3337,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/57/thumb/Meter.jpg?1724842747",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/57/small/Meter.jpg?1724842747",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/57/large/Meter.jpg?1724842747"
-    },
-    "slug": "meter",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/57/small/Meter.jpg?1724842747",
-    "chain_id": 57
+    }
   },
   {
     "id": "vechain",
@@ -4184,10 +3348,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/1167/thumb/vechain.png?1724843001",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/1167/small/vechain.png?1724843001",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/1167/large/vechain.png?1724843001"
-    },
-    "slug": "vechain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/1167/small/vechain.png?1724843001",
-    "chain_id": 1167
+    }
   },
   {
     "id": "tomochain",
@@ -4198,10 +3359,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/3416/thumb/viction.jpg?1724843158",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/3416/small/viction.jpg?1724843158",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/3416/large/viction.jpg?1724843158"
-    },
-    "slug": "tomochain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/3416/small/viction.jpg?1724843158",
-    "chain_id": 3416
+    }
   },
   {
     "id": "world-chain",
@@ -4212,10 +3370,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22180/thumb/Worldcoin-logomark-light.png?1728377966",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22180/small/Worldcoin-logomark-light.png?1728377966",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22180/large/Worldcoin-logomark-light.png?1728377966"
-    },
-    "slug": "world-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22180/small/Worldcoin-logomark-light.png?1728377966",
-    "chain_id": 22180
+    }
   },
   {
     "id": "enuls",
@@ -4226,10 +3381,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/298/thumb/enuls.jpg?1724912998",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/298/small/enuls.jpg?1724912998",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/298/large/enuls.jpg?1724912998"
-    },
-    "slug": "enuls",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/298/small/enuls.jpg?1724912998",
-    "chain_id": 298
+    }
   },
   {
     "id": "platon-network",
@@ -4240,10 +3392,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/292/thumb/PlatON-Black.png?1724840056",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/292/small/PlatON-Black.png?1724840056",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/292/large/PlatON-Black.png?1724840056"
-    },
-    "slug": "platon-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/292/small/PlatON-Black.png?1724840056",
-    "chain_id": 292
+    }
   },
   {
     "id": "moonbeam",
@@ -4254,10 +3403,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/56/thumb/cropped-Moonbeam-Favicon-550px.png?1706606533",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/56/small/cropped-Moonbeam-Favicon-550px.png?1706606533",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/56/large/cropped-Moonbeam-Favicon-550px.png?1706606533"
-    },
-    "slug": "moonbeam",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/56/small/cropped-Moonbeam-Favicon-550px.png?1706606533",
-    "chain_id": 56
+    }
   },
   {
     "id": "moonchain",
@@ -4268,10 +3414,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/299/thumb/moonchain.png?1724913384",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/299/small/moonchain.png?1724913384",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/299/large/moonchain.png?1724913384"
-    },
-    "slug": "moonchain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/299/small/moonchain.png?1724913384",
-    "chain_id": 299
+    }
   },
   {
     "id": "avalanche",
@@ -4283,10 +3426,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/12/thumb/avalanche.png?1706606775",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/12/small/avalanche.png?1706606775",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/12/large/avalanche.png?1706606775"
-    },
-    "slug": "avalanche-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/12/small/avalanche.png?1706606775",
-    "chain_id": 12
+    }
   },
   {
     "id": "avalanche",
@@ -4309,9 +3449,7 @@
       "thumb": null,
       "small": null,
       "large": null
-    },
-    "slug": "taraxa",
-    "chain_id": 22183
+    }
   },
   {
     "id": "lung-chain",
@@ -4322,10 +3460,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/300/thumb/lung.jpeg?1724913828",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/300/small/lung.jpeg?1724913828",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/300/large/lung.jpeg?1724913828"
-    },
-    "slug": "lung-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/300/small/lung.jpeg?1724913828",
-    "chain_id": 300
+    }
   },
   {
     "id": "maxxchain",
@@ -4336,10 +3471,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/301/thumb/maxxchain.png?1724913995",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/301/small/maxxchain.png?1724913995",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/301/large/maxxchain.png?1724913995"
-    },
-    "slug": "maxxchain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/301/small/maxxchain.png?1724913995",
-    "chain_id": 301
+    }
   },
   {
     "id": "graphlinq-chain",
@@ -4350,10 +3482,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/306/thumb/graphlinq.jpeg?1724916874",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/306/small/graphlinq.jpeg?1724916874",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/306/large/graphlinq.jpeg?1724916874"
-    },
-    "slug": "graphlinq-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/306/small/graphlinq.jpeg?1724916874",
-    "chain_id": 306
+    }
   },
   {
     "id": "pulsechain",
@@ -4364,10 +3493,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/130/thumb/pulse.jpeg?1706606525",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/130/small/pulse.jpeg?1706606525",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/130/large/pulse.jpeg?1706606525"
-    },
-    "slug": "pulsechain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/130/small/pulse.jpeg?1706606525",
-    "chain_id": 130
+    }
   },
   {
     "id": "multivac",
@@ -4378,10 +3504,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/307/thumb/multivac.jpeg?1724917227",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/307/small/multivac.jpeg?1724917227",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/307/large/multivac.jpeg?1724917227"
-    },
-    "slug": "multivac",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/307/small/multivac.jpeg?1724917227",
-    "chain_id": 307
+    }
   },
   {
     "id": "inevm",
@@ -4392,10 +3515,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/291/thumb/inevm.png?1724832860",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/291/small/inevm.png?1724832860",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/291/large/inevm.png?1724832860"
-    },
-    "slug": "inevm",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/291/small/inevm.png?1724832860",
-    "chain_id": 291
+    }
   },
   {
     "id": "larissa",
@@ -4406,10 +3526,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/305/thumb/larissa.jpeg?1724916642",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/305/small/larissa.jpeg?1724916642",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/305/large/larissa.jpeg?1724916642"
-    },
-    "slug": "larissa",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/305/small/larissa.jpeg?1724916642",
-    "chain_id": 305
+    }
   },
   {
     "id": "combo",
@@ -4420,10 +3537,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/304/thumb/combo.jpeg?1724916064",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/304/small/combo.jpeg?1724916064",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/304/large/combo.jpeg?1724916064"
-    },
-    "slug": "combo",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/304/small/combo.jpeg?1724916064",
-    "chain_id": 304
+    }
   },
   {
     "id": "redstone",
@@ -4434,10 +3548,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/302/thumb/redstone.jpeg?1724914668",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/302/small/redstone.jpeg?1724914668",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/302/large/redstone.jpeg?1724914668"
-    },
-    "slug": "redstone",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/302/small/redstone.jpeg?1724914668",
-    "chain_id": 302
+    }
   },
   {
     "id": "ethereum",
@@ -4449,10 +3560,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/279/thumb/ethereum.png?1706606803",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/279/small/ethereum.png?1706606803",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/279/large/ethereum.png?1706606803"
-    },
-    "slug": "ethereum",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/279/small/ethereum.png?1706606803",
-    "chain_id": 279
+    }
   },
   {
     "id": "scroll",
@@ -4463,10 +3571,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/153/thumb/scroll.jpeg?1706606782",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/153/small/scroll.jpeg?1706606782",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/153/large/scroll.jpeg?1706606782"
-    },
-    "slug": "scroll",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/153/small/scroll.jpeg?1706606782",
-    "chain_id": 153
+    }
   },
   {
     "id": "dogechain",
@@ -4477,10 +3582,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/89/thumb/dogechain.jpeg?1706606542",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/89/small/dogechain.jpeg?1706606542",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/89/large/dogechain.jpeg?1706606542"
-    },
-    "slug": "dogechain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/89/small/dogechain.jpeg?1706606542",
-    "chain_id": 89
+    }
   },
   {
     "id": "cronos-zkevm",
@@ -4491,10 +3593,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/288/thumb/rsz_cronos_zkevm.jpg?1723777590",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/288/small/rsz_cronos_zkevm.jpg?1723777590",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/288/large/rsz_cronos_zkevm.jpg?1723777590"
-    },
-    "slug": "cronos-zkevm",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/288/small/rsz_cronos_zkevm.jpg?1723777590",
-    "chain_id": 288
+    }
   },
   {
     "id": "x-layer",
@@ -4505,10 +3604,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/238/thumb/x_logo.jpeg?1713243242",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/238/small/x_logo.jpeg?1713243242",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/238/large/x_logo.jpeg?1713243242"
-    },
-    "slug": "x-layer",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/238/small/x_logo.jpeg?1713243242",
-    "chain_id": 238
+    }
   },
   {
     "id": "sei-network",
@@ -4518,10 +3614,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/148/thumb/Sei_Logo_-_Transparent.png?1706606762",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/148/small/Sei_Logo_-_Transparent.png?1706606762",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/148/large/Sei_Logo_-_Transparent.png?1706606762"
-    },
-    "slug": "sei-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/148/small/Sei_Logo_-_Transparent.png?1706606762",
-    "chain_id": 148
+    }
   },
   {
     "id": "axelar",
@@ -4531,10 +3624,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22177/thumb/axelar.webp?1727842598",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22177/small/axelar.webp?1727842598",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22177/large/axelar.webp?1727842598"
-    },
-    "slug": "axelar",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22177/small/axelar.webp?1727842598",
-    "chain_id": 22177
+    }
   },
   {
     "id": "8bit-chain",
@@ -4544,10 +3634,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22178/thumb/8bit.jpeg?1727855288",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22178/small/8bit.jpeg?1727855288",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22178/large/8bit.jpeg?1727855288"
-    },
-    "slug": "8bit-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22178/small/8bit.jpeg?1727855288",
-    "chain_id": 22178
+    }
   },
   {
     "id": "qubic",
@@ -4557,10 +3644,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22175/thumb/qubic.jpg?1727689209",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22175/small/qubic.jpg?1727689209",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22175/large/qubic.jpg?1727689209"
-    },
-    "slug": "qubic-chain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22175/small/qubic.jpg?1727689209",
-    "chain_id": 22175
+    }
   },
   {
     "id": "chia",
@@ -4570,10 +3654,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22179/thumb/chia.jpg?1727921871",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22179/small/chia.jpg?1727921871",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22179/large/chia.jpg?1727921871"
-    },
-    "slug": "chia",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22179/small/chia.jpg?1727921871",
-    "chain_id": 22179
+    }
   },
   {
     "id": "klay-token",
@@ -4584,10 +3665,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/9672/thumb/klatyn.png?1706606810",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/9672/small/klatyn.png?1706606810",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/9672/large/klatyn.png?1706606810"
-    },
-    "slug": "klaytn",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/9672/small/klatyn.png?1706606810",
-    "chain_id": 9672
+    }
   },
   {
     "id": "sei-v2",
@@ -4598,10 +3676,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/273/thumb/sei.png?1717643675",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/273/small/sei.png?1717643675",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/273/large/sei.png?1717643675"
-    },
-    "slug": "sei-v2",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/273/small/sei.png?1717643675",
-    "chain_id": 273
+    }
   },
   {
     "id": "apechain",
@@ -4612,10 +3687,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22184/thumb/apechain.jpg?1729564324",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22184/small/apechain.jpg?1729564324",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22184/large/apechain.jpg?1729564324"
-    },
-    "slug": "apechain",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22184/small/apechain.jpg?1729564324",
-    "chain_id": 22184
+    }
   },
   {
     "id": "kroma",
@@ -4626,10 +3698,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22186/thumb/kroma.jpg?1730788629",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22186/small/kroma.jpg?1730788629",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22186/large/kroma.jpg?1730788629"
-    },
-    "slug": "kroma",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22186/small/kroma.jpg?1730788629",
-    "chain_id": 22186
+    }
   },
   {
     "id": "skale",
@@ -4640,10 +3709,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/96/thumb/skale.png?1706606673",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/96/small/skale.png?1706606673",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/96/large/skale.png?1706606673"
-    },
-    "slug": "skale",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/96/small/skale.png?1706606673",
-    "chain_id": 96
+    }
   },
   {
     "id": "wax",
@@ -4653,10 +3719,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/254/thumb/wax.png?1715049433",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/254/small/wax.png?1715049433",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/254/large/wax.png?1715049433"
-    },
-    "slug": "wax",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/254/small/wax.png?1715049433",
-    "chain_id": 254
+    }
   },
   {
     "id": "bsquared-network",
@@ -4666,10 +3729,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/239/thumb/bsquared-network.jpeg?1713432732",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/239/small/bsquared-network.jpeg?1713432732",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/239/large/bsquared-network.jpeg?1713432732"
-    },
-    "slug": "bsquared-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/239/small/bsquared-network.jpeg?1713432732",
-    "chain_id": 239
+    }
   },
   {
     "id": "defiverse",
@@ -4680,10 +3740,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22188/thumb/defiverse_%281%29.jpg?1732002206",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22188/small/defiverse_%281%29.jpg?1732002206",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22188/large/defiverse_%281%29.jpg?1732002206"
-    },
-    "slug": "defiverse",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/22188/small/defiverse_%281%29.jpg?1732002206",
-    "chain_id": 22188
+    }
   },
   {
     "id": "cosmos",
@@ -4693,10 +3750,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/1481/thumb/cosmos.png?1706606771",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/1481/small/cosmos.png?1706606771",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/1481/large/cosmos.png?1706606771"
-    },
-    "slug": "cosmos",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/1481/small/cosmos.png?1706606771",
-    "chain_id": 1481
+    }
   },
   {
     "id": "polkadot",
@@ -4706,10 +3760,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/12171/thumb/polkadot.jpeg?1706606400",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/12171/small/polkadot.jpeg?1706606400",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/12171/large/polkadot.jpeg?1706606400"
-    },
-    "slug": "polkadot",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/12171/small/polkadot.jpeg?1706606400",
-    "chain_id": 12171
+    }
   },
   {
     "id": "gravity-alpha",
@@ -4721,10 +3772,7 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/290/thumb/Gravity_Logo_Icon_Black.png?1724722766",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/290/small/Gravity_Logo_Icon_Black.png?1724722766",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/290/large/Gravity_Logo_Icon_Black.png?1724722766"
-    },
-    "slug": "gravity-alpha",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/290/small/Gravity_Logo_Icon_Black.png?1724722766",
-    "chain_id": 290
+    }
   },
   {
     "id": "bob-network",
@@ -4734,9 +3782,17 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/255/thumb/bob.jpeg?1715229826",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/255/small/bob.jpeg?1715229826",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/255/large/bob.jpeg?1715229826"
-    },
-    "slug": "bob-network",
-    "image_url": "https://coin-images.coingecko.com/asset_platforms/images/255/small/bob.jpeg?1715229826",
-    "chain_id": 255
+    }
+  },
+  {
+    "id": "airdao",
+    "chain_identifier": 16718,
+    "name": "AirDAO",
+    "native_coin_id": "amber",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22191/thumb/airdao.jpg?1733465204",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22191/small/airdao.jpg?1733465204",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22191/large/airdao.jpg?1733465204"
+    }
   }
 ]

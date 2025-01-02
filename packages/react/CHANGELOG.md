@@ -1,5 +1,27 @@
 # @web3icons/react
 
+## 3.14.0
+
+### Minor Changes
+
+- new networks:
+
+  - hemi
+  - lumia
+  - wax
+  - sonic
+  - super-seed
+  - rei
+
+  new token
+
+  - S (sonic)
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/common@0.8.0
+
 ## 3.13.2
 
 ### Patch Changes

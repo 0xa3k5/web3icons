@@ -1,5 +1,25 @@
 # @web3icons/utils
 
+## 0.2.14
+
+### Patch Changes
+
+- new networks:
+
+  - hemi
+  - lumia
+  - wax
+  - sonic
+  - super-seed
+  - rei
+
+  new token
+
+  - S (sonic)
+
+- Updated dependencies
+  - @web3icons/common@0.8.0
+
 ## 0.2.13
 
 ### Patch Changes

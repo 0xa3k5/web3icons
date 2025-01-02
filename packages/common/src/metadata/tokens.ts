@@ -20319,4 +20319,12 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: null,
     addresses: {},
   },
+  {
+    id: 'sonic-3',
+    name: 'Sonic',
+    variants: ['branded', 'mono'],
+    symbol: 's',
+    marketCapRank: null,
+    addresses: {},
+  },
 ]
