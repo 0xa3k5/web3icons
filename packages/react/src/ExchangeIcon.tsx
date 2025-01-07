@@ -1,7 +1,7 @@
 import { forwardRef } from 'react'
 import { ExchangeIconProps } from './types'
 import { DynamicIcon } from './DynamicIcon'
-import { findWallet } from './utils'
+import { findExchange } from './utils'
 
 /**
  * @component @name ExchangeIcon
@@ -15,7 +15,7 @@ import { findWallet } from './utils'
  */
 export const ExchangeIcon = forwardRef<SVGSVGElement, ExchangeIconProps>(
   ({ id, name, size, className, variant = 'mono', color, fallback }, ref) => {
-    const metadata = findWallet({ wallet: id ?? name })
+    const metadata = findExchange({ name: name ?? id })
 
     return (
       <DynamicIcon
