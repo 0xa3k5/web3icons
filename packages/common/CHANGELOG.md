@@ -1,5 +1,38 @@
 # @web3icons/common
 
+## 0.9.0
+
+### Minor Changes
+
+- - Support Exchanges
+  - Crate ExchangeIcon (dynamic icon component)
+  - New Icons:
+    - Bybit (mono, branded)
+    - Kucoin (mono, branded)
+    - Coinbase (mono, branded)
+    - 1Inch (mono, branded)
+    - Balancer (mono, branded)
+    - Bancor (mono, branded)
+    - Binance (mono, branded)
+    - Bithumb (mono, branded)
+    - BitStamp (mono, branded)
+    - BTC Turk (mono, branded)
+    - Crypto-com (mono, branded)
+    - Gate-io (mono, branded)
+    - Gemini (mono, branded)
+    - Kraken (mono, branded)
+    - Odos (mono, branded)
+    - OkX (mono, branded)
+    - Pancake Swap (mono, branded)
+    - ParaSwap (mono, branded)
+    - Paribu (mono, branded)
+    - Suhsi Swap (mono, branded)
+    - SwissBorg (mono, branded)
+    - Uniswap (mono, branded)
+    - UpBit (mono, branded)
+    - Cow Swap (mono, branded)
+  - fix: build racing conditions for react
+
 ## 0.8.0
 
 ### Minor Changes
