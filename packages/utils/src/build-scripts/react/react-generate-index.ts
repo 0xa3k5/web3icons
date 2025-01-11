@@ -12,7 +12,8 @@ import { TType } from '@web3icons/common'
 const generateIndexFile = (directory: string, type: TType) => {
   const svgFiles = fs
     .readdirSync(directory)
-    .filter((file) => path.extname(file).toLocaleLowerCase() === '.tsx')
+    .filter((file) => path.extname(file).toLowerCase() === '.tsx')
+
   const exports = svgFiles
     .map((svgFile) => {
       const baseName = path.basename(svgFile, '.tsx')

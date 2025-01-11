@@ -13,7 +13,6 @@ import {
 import { componentScaffold } from '../scaffolds'
 import { kebabToPascalCase } from './naming-conventions'
 import { injectCurrentColor, readyForJSX } from './svg-optimization'
-import prettier from 'prettier'
 import { TType, TVariant } from '@web3icons/common'
 import { generateSVGDataURL } from './generate-dataurl-from-svg'
 
@@ -23,7 +22,7 @@ import { generateSVGDataURL } from './generate-dataurl-from-svg'
  * @param {string} baseName - The base name of the SVG file.
  * @param {TType} type - The type of the component (token, network, wallet).
  */
-export const generateReactComponent = async (baseName: string, type: TType) => {
+export const generateReactComponent = (baseName: string, type: TType) => {
   const componentName = generateComponentName(baseName, type)
   const { svgOutDir, jsxOutDir } = getDirectories(type)
 
@@ -51,14 +50,9 @@ export const generateReactComponent = async (baseName: string, type: TType) => {
     .replace(/{{displayName}}/g, generateComponentName(baseName, type))
     .replace(/{{jsDocComment}}/g, jsDocComment)
 
-  const formatted = await prettier.format(componentContent, {
-    parser: 'typescript',
-    semi: false,
-    singleQuote: true,
-    jsxSingleQuote: true,
+  fs.writeFile(path.join(jsxOutDir, `${componentName}.tsx`), componentContent, (err) => {
+    if (err) throw err
   })
-
-  fs.writeFileSync(path.join(jsxOutDir, `${componentName}.tsx`), formatted)
 }
 
 /**
