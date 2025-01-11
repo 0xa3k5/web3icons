@@ -42,7 +42,7 @@ export default function Tabs({ className }: TabsProps): JSX.Element {
         'sticky top-0 z-[2] inline-flex w-full rounded-sm border-b border-gray-lightest bg-gray-darkest py-4',
       )}
     >
-      {['token', 'network', 'wallet'].map((tab) => (
+      {['token', 'network', 'wallet', 'exchange'].map((tab) => (
         <Fragment key={tab}>
           <input
             type="radio"

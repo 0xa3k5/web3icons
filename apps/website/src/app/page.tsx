@@ -3,7 +3,6 @@ import { ControlBar, IconCard, ActionBar } from '../components'
 import CodeBlock from '../components/CodeBlock/CodeBlock'
 import { useAppContext } from '../hooks'
 import Logo from '../components/Logo'
-import { Suspense } from 'react'
 import Tabs from '../components/Tabs'
 
 const links = [
@@ -69,13 +68,11 @@ export default function Home() {
           <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
             {icons.map((icon) => {
               return (
-                <Suspense>
-                  <IconCard
-                    key={icon.id}
-                    metadata={icon}
-                    className="col-span-1 border border-gray-lightest "
-                  />
-                </Suspense>
+                <IconCard
+                  key={icon.id}
+                  metadata={icon}
+                  className="col-span-1 border border-gray-lightest"
+                />
               )
             })}
             <div className="col-span-full my-8 flex justify-center">

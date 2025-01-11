@@ -7,46 +7,17 @@ import {
   wallets,
   TVariant,
   TType,
+  IExchangeMetadata,
+  exchanges,
 } from '@web3icons/common'
 
-const groupedNetworks: Record<string, INetworkMetadata[]> = {}
+const groupByVariant = <T extends { variants: TVariant[] }>(
+  arr: T[],
+  variant: TVariant,
+): T[] => {
+  return arr.filter((item) => item.variants.includes(variant))
+}
 
-networks.forEach((network) => {
-  network.variants.forEach((variant) => {
-    if (!groupedNetworks[variant]) {
-      groupedNetworks[variant] = []
-    }
-    groupedNetworks[variant]?.push(network)
-  })
-})
-
-const groupedTokens: Record<string, ITokenMetadata[]> = {}
-
-tokens.sort(
-  (a, b) => (a.marketCapRank || Infinity) - (b.marketCapRank || Infinity),
-)
-
-tokens.forEach((token) => {
-  token.variants.forEach((variant) => {
-    if (!groupedTokens[variant]) {
-      groupedTokens[variant] = []
-    }
-    groupedTokens[variant]?.push(token)
-  })
-})
-
-const groupedWallets: Record<string, IWalletMetadata[]> = {}
-
-wallets.forEach((wallet) => {
-  wallet.variants.forEach((variant) => {
-    if (!groupedWallets[variant]) {
-      groupedWallets[variant] = []
-    }
-    groupedWallets[variant]?.push(wallet)
-  })
-})
-
-// group by variants
 export const filterAndSortIcons = ({
   variant,
   searchTerm,
@@ -59,35 +30,31 @@ export const filterAndSortIcons = ({
   type: TType
   nextBatchIndex: number
   perPage: number
-}) => {
-  const filteredNetworkIcons = groupedNetworks[variant]?.filter(
-    (network) =>
-      network.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      network.id?.toLowerCase().includes(searchTerm.toLowerCase()),
-  )
-
-  const filteredTokens = groupedTokens[variant]?.filter(
-    (token) =>
-      token.symbol.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      token.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      token.id.toLowerCase().includes(searchTerm.toLowerCase()),
-  )
-
-  const filteredWalletIcons = groupedWallets[variant]?.filter(
-    (wallet) =>
-      wallet.id.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      wallet.name.toLowerCase().includes(searchTerm.toLowerCase()),
-  )
-
-  if (type === 'token' && filteredTokens) {
-    return filteredTokens.slice(0, nextBatchIndex + perPage)
+}): (
+  | INetworkMetadata
+  | ITokenMetadata
+  | IWalletMetadata
+  | IExchangeMetadata
+)[] => {
+  const filterFunction = (item: any) => {
+    const searchTermLower = searchTerm.toLowerCase()
+    return (
+      item.symbol?.toLowerCase().includes(searchTermLower) ||
+      item.id?.toLowerCase().includes(searchTermLower) ||
+      item.name?.toLowerCase().includes(searchTermLower)
+    )
   }
 
-  if (type === 'network' && filteredNetworkIcons) {
-    return filteredNetworkIcons.slice(0, nextBatchIndex + perPage)
+  const filteredIcons = {
+    network: groupByVariant(networks, variant).filter(filterFunction),
+    wallet: groupByVariant(wallets, variant).filter(filterFunction),
+    exchange: groupByVariant(exchanges, variant).filter(filterFunction),
+    token: groupByVariant(tokens, variant)
+      .filter(filterFunction)
+      .sort(
+        (a, b) => (a.marketCapRank || Infinity) - (b.marketCapRank || Infinity),
+      ),
   }
 
-  if (type === 'wallet' && filteredWalletIcons) {
-    return filteredWalletIcons.slice(0, nextBatchIndex + perPage)
-  }
+  return filteredIcons[type]?.slice(0, nextBatchIndex + perPage) || []
 }

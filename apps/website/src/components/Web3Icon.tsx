@@ -1,13 +1,18 @@
 'use client'
-
-import { TokenIcon, NetworkIcon, WalletIcon } from '@web3icons/react'
 import { useAppContext } from '../hooks'
+import {
+  TokenIcon,
+  NetworkIcon,
+  WalletIcon,
+  ExchangeIcon,
+} from '@web3icons/react'
 import {
   TMetadata,
   TVariant,
   INetworkMetadata,
   IWalletMetadata,
   ITokenMetadata,
+  IExchangeMetadata,
 } from '@web3icons/common'
 
 export const Web3Icon = ({
@@ -20,28 +25,27 @@ export const Web3Icon = ({
   size?: number
 }): JSX.Element => {
   const { type, color, size } = useAppContext()
-  if (type === 'network') {
-    return (
-      <NetworkIcon
-        network={(metadata as INetworkMetadata).id}
-        size={passedSize ?? size}
-        {...{ variant, color }}
-      />
-    )
-  } else if (type === 'wallet') {
-    return (
-      <WalletIcon
-        id={(metadata as IWalletMetadata).id}
-        size={passedSize ?? size}
-        {...{ variant, color }}
-      />
-    )
+
+  const props = {
+    size: passedSize ?? size,
+    variant,
+    color,
   }
-  return (
-    <TokenIcon
-      symbol={(metadata as ITokenMetadata).symbol}
-      size={passedSize ?? size}
-      {...{ variant, color }}
-    />
-  )
+
+  console.log({ metadata })
+
+  switch (type) {
+    case 'network':
+      return (
+        <NetworkIcon network={(metadata as INetworkMetadata).id} {...props} />
+      )
+    case 'wallet':
+      return <WalletIcon id={(metadata as IWalletMetadata).id} {...props} />
+    case 'exchange':
+      return <ExchangeIcon id={(metadata as IExchangeMetadata).id} {...props} />
+    default:
+      return (
+        <TokenIcon symbol={(metadata as ITokenMetadata).symbol} {...props} />
+      )
+  }
 }
