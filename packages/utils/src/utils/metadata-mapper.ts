@@ -7,6 +7,8 @@ import {
   INetworkMetadata,
   IWalletMetadata,
   TVariant,
+  IExchangeMetadata,
+  IExchangeRaw,
 } from '@web3icons/common'
 
 export const mapRawToMetadata = ({
@@ -51,7 +53,15 @@ export const mapRawToMetadata = ({
     const mapped: IWalletMetadata = {
       ...baseMetadata,
     }
-    console.log(mapped)
+
+    return mapped
+  }
+
+  if (type === 'exchange') {
+    const mapped: IExchangeMetadata = {
+      ...baseMetadata,
+      type: (raw as IExchangeRaw).type,
+    }
 
     return mapped
   }

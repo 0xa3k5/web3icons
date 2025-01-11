@@ -518,6 +518,17 @@
     }
   },
   {
+    "id": "titanchain",
+    "chain_identifier": 18888,
+    "name": "Titanchain",
+    "native_coin_id": "tokenize-xchange",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22199/thumb/Logo-symbol-color.png?1736237334",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22199/small/Logo-symbol-color.png?1736237334",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22199/large/Logo-symbol-color.png?1736237334"
+    }
+  },
+  {
     "id": "omnia",
     "chain_identifier": 2342,
     "name": "Omnia",
@@ -526,16 +537,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/263/thumb/OmniaVerse.png?1716209921",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/263/small/OmniaVerse.png?1716209921",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/263/large/OmniaVerse.png?1716209921"
-    }
-  },
-  {
-    "id": "algorand",
-    "name": "Algorand",
-    "native_coin_id": "algorand",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/3/thumb/algorand_logo_mark_black.png?1706606710",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/3/small/algorand_logo_mark_black.png?1706606710",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/3/large/algorand_logo_mark_black.png?1706606710"
     }
   },
   {
@@ -773,16 +774,6 @@
     }
   },
   {
-    "id": "starknet",
-    "name": "StarkNet",
-    "native_coin_id": "starknet",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/151/thumb/starknet.png?1706606812",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/151/small/starknet.png?1706606812",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/151/large/starknet.png?1706606812"
-    }
-  },
-  {
     "id": "humanode",
     "name": "Humanode",
     "native_coin_id": "wrapped-ehmnd",
@@ -1007,6 +998,16 @@
     }
   },
   {
+    "id": "abstract",
+    "name": "Abstract",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22196/thumb/abstract.jpg?1735611808",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22196/small/abstract.jpg?1735611808",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22196/large/abstract.jpg?1735611808"
+    }
+  },
+  {
     "id": "drc-20",
     "name": "DRC-20",
     "native_coin_id": "dogecoin",
@@ -1035,17 +1036,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/178/thumb/zeta.jpeg?1706844749",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/178/small/zeta.jpeg?1706844749",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/178/large/zeta.jpeg?1706844749"
-    }
-  },
-  {
-    "id": "shiden network",
-    "chain_identifier": 336,
-    "name": "Shiden Network",
-    "native_coin_id": "shiden",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/65/thumb/tFOtjrr3_400x400.jpeg?1706606564",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/65/small/tFOtjrr3_400x400.jpeg?1706606564",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/65/large/tFOtjrr3_400x400.jpeg?1706606564"
     }
   },
   {
@@ -1864,18 +1854,6 @@
     }
   },
   {
-    "id": "sonic",
-    "chain_identifier": 146,
-    "name": "Sonic",
-    "shortname": "sonic",
-    "native_coin_id": "sonic-3",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22192/thumb/sonic.jpg?1733971484",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/22192/small/sonic.jpg?1733971484",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/22192/large/sonic.jpg?1733971484"
-    }
-  },
-  {
     "id": "sui",
     "name": "Sui",
     "native_coin_id": "sui",
@@ -2612,17 +2590,6 @@
     }
   },
   {
-    "id": "xrp",
-    "name": "XRP Ledger",
-    "shortname": "xrp",
-    "native_coin_id": "ripple",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/36/thumb/xrp-logo.jpg?1706606750",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/36/small/xrp-logo.jpg?1706606750",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/36/large/xrp-logo.jpg?1706606750"
-    }
-  },
-  {
     "id": "energi",
     "chain_identifier": 39797,
     "name": "Energi",
@@ -2764,6 +2731,18 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/120/thumb/terra.png?1706606650",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/120/small/terra.png?1706606650",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/120/large/terra.png?1706606650"
+    }
+  },
+  {
+    "id": "ink",
+    "chain_identifier": 57073,
+    "name": "Ink",
+    "shortname": "ink",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": null,
+      "small": null,
+      "large": null
     }
   },
   {
@@ -3048,17 +3027,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/272/thumb/haqq-sign.png?1717594659",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/272/small/haqq-sign.png?1717594659",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/272/large/haqq-sign.png?1717594659"
-    }
-  },
-  {
-    "id": "duckchain",
-    "chain_identifier": 5545,
-    "name": "DuckChain",
-    "native_coin_id": "the-open-network",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22190/thumb/duckchain.jpg?1733401377",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/22190/small/duckchain.jpg?1733401377",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/22190/large/duckchain.jpg?1733401377"
     }
   },
   {
@@ -3485,6 +3453,17 @@
     }
   },
   {
+    "id": "shiden network",
+    "chain_identifier": 336,
+    "name": "Shiden Network",
+    "native_coin_id": "shiden",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/65/thumb/tFOtjrr3_400x400.jpeg?1706606564",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/65/small/tFOtjrr3_400x400.jpeg?1706606564",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/65/large/tFOtjrr3_400x400.jpeg?1706606564"
+    }
+  },
+  {
     "id": "cronos-zkevm",
     "chain_identifier": 388,
     "name": "Cronos zkEVM",
@@ -3554,17 +3533,6 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22179/thumb/chia.jpg?1727921871",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22179/small/chia.jpg?1727921871",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22179/large/chia.jpg?1727921871"
-    }
-  },
-  {
-    "id": "klay-token",
-    "chain_identifier": 8217,
-    "name": "Kaia",
-    "native_coin_id": "kaia",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/9672/thumb/klatyn.png?1706606810",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/9672/small/klatyn.png?1706606810",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/9672/large/klatyn.png?1706606810"
     }
   },
   {
@@ -3693,6 +3661,103 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22191/thumb/airdao.jpg?1733465204",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22191/small/airdao.jpg?1733465204",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22191/large/airdao.jpg?1733465204"
+    }
+  },
+  {
+    "id": "parex-network",
+    "chain_identifier": 322202,
+    "name": "Parex Network",
+    "native_coin_id": "parex",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22195/thumb/parex.jpg?1734922976",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22195/small/parex.jpg?1734922976",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22195/large/parex.jpg?1734922976"
+    }
+  },
+  {
+    "id": "starknet",
+    "name": "StarkNet",
+    "native_coin_id": "starknet",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/151/thumb/starknet.png?1706606812",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/151/small/starknet.png?1706606812",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/151/large/starknet.png?1706606812"
+    }
+  },
+  {
+    "id": "klay-token",
+    "chain_identifier": 8217,
+    "name": "Kaia",
+    "native_coin_id": "kaia",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/9672/thumb/kaia.png?1734946776",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/9672/small/kaia.png?1734946776",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/9672/large/kaia.png?1734946776"
+    }
+  },
+  {
+    "chain_identifier": 1923,
+    "name": "Swellchain",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22197/thumb/swell.jpg?1735814687",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22197/small/swell.jpg?1735814687",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22197/large/swell.jpg?1735814687"
+    }
+  },
+  {
+    "id": "vana",
+    "chain_identifier": 1480,
+    "name": "Vana",
+    "native_coin_id": "vana",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22198/thumb/vana.jpg?1735899932",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22198/small/vana.jpg?1735899932",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22198/large/vana.jpg?1735899932"
+    }
+  },
+  {
+    "id": "sonic",
+    "chain_identifier": 146,
+    "name": "Sonic",
+    "shortname": "sonic",
+    "native_coin_id": "sonic-3",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22192/thumb/128xS_token_Black-BG_2x.png?1735963719",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22192/small/128xS_token_Black-BG_2x.png?1735963719",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22192/large/128xS_token_Black-BG_2x.png?1735963719"
+    }
+  },
+  {
+    "id": "duckchain",
+    "chain_identifier": 5545,
+    "name": "DuckChain",
+    "native_coin_id": "the-open-network",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22190/thumb/duckchain.jpg?1733401377",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22190/small/duckchain.jpg?1733401377",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22190/large/duckchain.jpg?1733401377"
+    }
+  },
+  {
+    "id": "algorand",
+    "name": "Algorand",
+    "native_coin_id": "algorand",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/3/thumb/algorand_logo_mark_black.png?1706606710",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/3/small/algorand_logo_mark_black.png?1706606710",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/3/large/algorand_logo_mark_black.png?1706606710"
+    }
+  },
+  {
+    "id": "xrp",
+    "name": "XRP Ledger",
+    "shortname": "xrp",
+    "native_coin_id": "ripple",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/36/thumb/xrp-logo.jpg?1706606750",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/36/small/xrp-logo.jpg?1706606750",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/36/large/xrp-logo.jpg?1706606750"
     }
   }
 ]

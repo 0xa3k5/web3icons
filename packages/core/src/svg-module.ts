@@ -3758,6 +3758,54 @@ import * as WMonoWalletConnect from './svgs/wallets/mono/wallet-connect.svg'
 import * as WMonoLit from './svgs/wallets/mono/lit.svg'
 import * as WMonoPhantom from './svgs/wallets/mono/phantom.svg'
 import * as WMonoPortal from './svgs/wallets/mono/portal.svg'
+import * as EBrandedGemini from './svgs/exchanges/branded/gemini.svg'
+import * as EBrandedCryptoCom from './svgs/exchanges/branded/crypto-com.svg'
+import * as EBranded1inch from './svgs/exchanges/branded/1inch.svg'
+import * as EBrandedParaswap from './svgs/exchanges/branded/paraswap.svg'
+import * as EBrandedBinance from './svgs/exchanges/branded/binance.svg'
+import * as EBrandedSwissborg from './svgs/exchanges/branded/swissborg.svg'
+import * as EBrandedBybit from './svgs/exchanges/branded/bybit.svg'
+import * as EBrandedSushiswap from './svgs/exchanges/branded/sushiswap.svg'
+import * as EBrandedGateIo from './svgs/exchanges/branded/gate-io.svg'
+import * as EBrandedBalancer from './svgs/exchanges/branded/balancer.svg'
+import * as EBrandedKraken from './svgs/exchanges/branded/kraken.svg'
+import * as EBrandedParibu from './svgs/exchanges/branded/paribu.svg'
+import * as EBrandedCowswap from './svgs/exchanges/branded/cowswap.svg'
+import * as EBrandedOdos from './svgs/exchanges/branded/odos.svg'
+import * as EBrandedBtcturk from './svgs/exchanges/branded/btcturk.svg'
+import * as EBrandedBithumb from './svgs/exchanges/branded/bithumb.svg'
+import * as EBrandedOkx from './svgs/exchanges/branded/okx.svg'
+import * as EBrandedCoinbase from './svgs/exchanges/branded/coinbase.svg'
+import * as EBrandedBancor from './svgs/exchanges/branded/bancor.svg'
+import * as EBrandedUniswap from './svgs/exchanges/branded/uniswap.svg'
+import * as EBrandedPancakeSwap from './svgs/exchanges/branded/pancake-swap.svg'
+import * as EBrandedBitstamp from './svgs/exchanges/branded/bitstamp.svg'
+import * as EBrandedUpbit from './svgs/exchanges/branded/upbit.svg'
+import * as EBrandedKucoin from './svgs/exchanges/branded/kucoin.svg'
+import * as EMonoGemini from './svgs/exchanges/mono/gemini.svg'
+import * as EMonoCryptoCom from './svgs/exchanges/mono/crypto-com.svg'
+import * as EMono1inch from './svgs/exchanges/mono/1inch.svg'
+import * as EMonoParaswap from './svgs/exchanges/mono/paraswap.svg'
+import * as EMonoBinance from './svgs/exchanges/mono/binance.svg'
+import * as EMonoSwissborg from './svgs/exchanges/mono/swissborg.svg'
+import * as EMonoBybit from './svgs/exchanges/mono/bybit.svg'
+import * as EMonoSushiswap from './svgs/exchanges/mono/sushiswap.svg'
+import * as EMonoGateIo from './svgs/exchanges/mono/gate-io.svg'
+import * as EMonoBalancer from './svgs/exchanges/mono/balancer.svg'
+import * as EMonoKraken from './svgs/exchanges/mono/kraken.svg'
+import * as EMonoParibu from './svgs/exchanges/mono/paribu.svg'
+import * as EMonoCowswap from './svgs/exchanges/mono/cowswap.svg'
+import * as EMonoOdos from './svgs/exchanges/mono/odos.svg'
+import * as EMonoBtcturk from './svgs/exchanges/mono/btcturk.svg'
+import * as EMonoBithumb from './svgs/exchanges/mono/bithumb.svg'
+import * as EMonoOkx from './svgs/exchanges/mono/okx.svg'
+import * as EMonoCoinbase from './svgs/exchanges/mono/coinbase.svg'
+import * as EMonoBancor from './svgs/exchanges/mono/bancor.svg'
+import * as EMonoUniswap from './svgs/exchanges/mono/uniswap.svg'
+import * as EMonoPancakeSwap from './svgs/exchanges/mono/pancake-swap.svg'
+import * as EMonoBitstamp from './svgs/exchanges/mono/bitstamp.svg'
+import * as EMonoUpbit from './svgs/exchanges/mono/upbit.svg'
+import * as EMonoKucoin from './svgs/exchanges/mono/kucoin.svg'
 export const svgs = {
   tokens: {
     mono: {
@@ -7534,6 +7582,60 @@ export const svgs = {
       lit: WBrandedLit,
       phantom: WBrandedPhantom,
       portal: WBrandedPortal,
+    },
+  },
+  exchanges: {
+    mono: {
+      gemini: EMonoGemini,
+      'crypto-com': EMonoCryptoCom,
+      '1inch': EMono1inch,
+      paraswap: EMonoParaswap,
+      binance: EMonoBinance,
+      swissborg: EMonoSwissborg,
+      bybit: EMonoBybit,
+      sushiswap: EMonoSushiswap,
+      'gate-io': EMonoGateIo,
+      balancer: EMonoBalancer,
+      kraken: EMonoKraken,
+      paribu: EMonoParibu,
+      cowswap: EMonoCowswap,
+      odos: EMonoOdos,
+      btcturk: EMonoBtcturk,
+      bithumb: EMonoBithumb,
+      okx: EMonoOkx,
+      coinbase: EMonoCoinbase,
+      bancor: EMonoBancor,
+      uniswap: EMonoUniswap,
+      'pancake-swap': EMonoPancakeSwap,
+      bitstamp: EMonoBitstamp,
+      upbit: EMonoUpbit,
+      kucoin: EMonoKucoin,
+    },
+    branded: {
+      gemini: EBrandedGemini,
+      'crypto-com': EBrandedCryptoCom,
+      '1inch': EBranded1inch,
+      paraswap: EBrandedParaswap,
+      binance: EBrandedBinance,
+      swissborg: EBrandedSwissborg,
+      bybit: EBrandedBybit,
+      sushiswap: EBrandedSushiswap,
+      'gate-io': EBrandedGateIo,
+      balancer: EBrandedBalancer,
+      kraken: EBrandedKraken,
+      paribu: EBrandedParibu,
+      cowswap: EBrandedCowswap,
+      odos: EBrandedOdos,
+      btcturk: EBrandedBtcturk,
+      bithumb: EBrandedBithumb,
+      okx: EBrandedOkx,
+      coinbase: EBrandedCoinbase,
+      bancor: EBrandedBancor,
+      uniswap: EBrandedUniswap,
+      'pancake-swap': EBrandedPancakeSwap,
+      bitstamp: EBrandedBitstamp,
+      upbit: EBrandedUpbit,
+      kucoin: EBrandedKucoin,
     },
   },
 }

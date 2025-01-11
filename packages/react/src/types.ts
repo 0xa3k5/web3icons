@@ -76,3 +76,17 @@ export type NetworkIconProps = IconComponentProps &
  */
 export type WalletIconProps = IconComponentProps &
   ({ name: string; id?: never } | { id: string; name?: never })
+
+/**
+ * ExchangeIconProps type combines IconComponentProps with either name or id properties.
+ *
+ * @property {'mono' | 'branded'} [variant] - The variant of the icon.
+ * @property {number | string} [size] - The size of the icon.
+ * @property {string} [color] - The color of the icon.
+ * @property {string} [className] - Additional CSS classes for the icon.
+ * @property {(string | ReactNode)} [fallback] - The fallback content to display if the icon fails to load.
+ * @property {string} [name] - The name of the wallet.
+ * @property {string} [id] - The ID of the wallet.
+ */
+export type ExchangeIconProps = IconComponentProps &
+  ({ name: string; id?: never } | { id: string; name?: never })

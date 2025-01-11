@@ -7,11 +7,12 @@ import {
   SVG_WALLETS_OUT_DIR,
   JSX_NETWORKS_OUT_DIR,
   JSX_WALLETS_OUT_DIR,
+  SVG_EXCHANGES_OUT_DIR,
+  JSX_EXCHANGES_OUT_DIR,
 } from '../constants'
 import { componentScaffold } from '../scaffolds'
 import { kebabToPascalCase } from './naming-conventions'
 import { injectCurrentColor, readyForJSX } from './svg-optimization'
-import prettier from 'prettier'
 import { TType, TVariant } from '@web3icons/common'
 import { generateSVGDataURL } from './generate-dataurl-from-svg'
 
@@ -21,7 +22,7 @@ import { generateSVGDataURL } from './generate-dataurl-from-svg'
  * @param {string} baseName - The base name of the SVG file.
  * @param {TType} type - The type of the component (token, network, wallet).
  */
-export const generateReactComponent = async (baseName: string, type: TType) => {
+export const generateReactComponent = (baseName: string, type: TType) => {
   const componentName = generateComponentName(baseName, type)
   const { svgOutDir, jsxOutDir } = getDirectories(type)
 
@@ -49,14 +50,9 @@ export const generateReactComponent = async (baseName: string, type: TType) => {
     .replace(/{{displayName}}/g, generateComponentName(baseName, type))
     .replace(/{{jsDocComment}}/g, jsDocComment)
 
-  const formatted = await prettier.format(componentContent, {
-    parser: 'typescript',
-    semi: false,
-    singleQuote: true,
-    jsxSingleQuote: true,
+  fs.writeFile(path.join(jsxOutDir, `${componentName}.tsx`), componentContent, (err) => {
+    if (err) throw err
   })
-
-  fs.writeFileSync(path.join(jsxOutDir, `${componentName}.tsx`), formatted)
 }
 
 /**
@@ -68,6 +64,7 @@ const generateComponentName = (baseName: string, type: TType): string => {
       return `Token${baseName.replace(/[- ]+/g, '_').toUpperCase()}`
     case 'network':
     case 'wallet':
+    case 'exchange':
       return kebabToPascalCase(`${type}-${baseName}`)
     default:
       throw new Error('Invalid type')
@@ -85,6 +82,8 @@ const getDirectories = (type: TType): { svgOutDir: string; jsxOutDir: string } =
       return { svgOutDir: SVG_NETWORKS_OUT_DIR, jsxOutDir: JSX_NETWORKS_OUT_DIR }
     case 'wallet':
       return { svgOutDir: SVG_WALLETS_OUT_DIR, jsxOutDir: JSX_WALLETS_OUT_DIR }
+    case 'exchange':
+      return { svgOutDir: SVG_EXCHANGES_OUT_DIR, jsxOutDir: JSX_EXCHANGES_OUT_DIR }
     default:
       throw new Error('Invalid type')
   }

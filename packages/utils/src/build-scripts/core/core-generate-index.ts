@@ -7,6 +7,7 @@ import {
   SVG_NETWORKS_OUT_DIR,
   SVG_WALLETS_OUT_DIR,
   ROOT_CORE,
+  SVG_EXCHANGES_OUT_DIR,
 } from '../../constants'
 
 const readSvgFilesFromDirectory = (directoryPath: string): string[] => {
@@ -54,6 +55,16 @@ export function generateIndex() {
   svgsIndexContent += createExports(
     readSvgFilesFromDirectory(path.join(SVG_WALLETS_OUT_DIR, 'mono')),
     'wallet',
+    'mono',
+  )
+  svgsIndexContent += createExports(
+    readSvgFilesFromDirectory(path.join(SVG_EXCHANGES_OUT_DIR, 'branded')),
+    'exchange',
+    'branded',
+  )
+  svgsIndexContent += createExports(
+    readSvgFilesFromDirectory(path.join(SVG_EXCHANGES_OUT_DIR, 'mono')),
+    'exchange',
     'mono',
   )
   console.log(`✓ Generated: svgs index at ${path.join(ROOT_CORE, 'src/svgs/index.ts')}`)

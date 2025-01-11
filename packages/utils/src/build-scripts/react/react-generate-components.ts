@@ -1,4 +1,3 @@
-// Import necessary modules and constants
 import fs from 'fs'
 import path from 'path'
 import {
@@ -9,9 +8,27 @@ import {
   ROOT_REACT,
   JSX_WALLETS_OUT_DIR,
   SVG_WALLETS_OUT_DIR,
+  SVG_EXCHANGES_OUT_DIR,
+  JSX_EXCHANGES_OUT_DIR,
 } from '../../constants'
 import { generateReactComponent, ensureDirectoryExists } from '../../utils'
 import { TType } from '@web3icons/common'
+
+const processSVGs = (svgOutDir: string, type: TType): void => {
+  ;['branded', 'mono'].forEach((variant) => {
+    const dir = path.join(svgOutDir, variant)
+    if (!fs.existsSync(dir)) {
+      throw new Error(`No ${type} SVGs found in ${dir}`)
+    }
+
+    const svgFiles = fs.readdirSync(dir)
+    svgFiles.forEach((svg) => {
+      if (path.extname(svg) === '.svg') {
+        generateReactComponent(path.basename(svg, '.svg'), type)
+      }
+    })
+  })
+}
 
 export function generateComponents() {
   ensureDirectoryExists(path.join(ROOT_REACT, 'src'))
@@ -19,29 +36,14 @@ export function generateComponents() {
   ensureDirectoryExists(SVG_TOKENS_OUT_DIR)
   ensureDirectoryExists(SVG_NETWORKS_OUT_DIR)
   ensureDirectoryExists(SVG_WALLETS_OUT_DIR)
+  ensureDirectoryExists(SVG_EXCHANGES_OUT_DIR)
   ensureDirectoryExists(JSX_TOKENS_OUT_DIR)
   ensureDirectoryExists(JSX_NETWORKS_OUT_DIR)
   ensureDirectoryExists(JSX_WALLETS_OUT_DIR)
+  ensureDirectoryExists(JSX_EXCHANGES_OUT_DIR)
 
-  // Function to process SVGs and generate React components
-  const processSVGs = (svgOutDir: string, type: TType): void => {
-    ;['branded', 'mono'].forEach((variant) => {
-      const dir = path.join(svgOutDir, variant)
-      if (fs.existsSync(dir)) {
-        const svgFiles = fs.readdirSync(dir)
-        svgFiles.forEach((svg) => {
-          if (path.extname(svg) === '.svg') {
-            generateReactComponent(path.basename(svg, '.svg'), type)
-          }
-        })
-      } else {
-        console.log(`No ${type} SVGs found in ${dir}`)
-      }
-    })
-  }
-
-  // Process SVGs for tokens and networks
   processSVGs(SVG_TOKENS_OUT_DIR, 'token')
   processSVGs(SVG_NETWORKS_OUT_DIR, 'network')
   processSVGs(SVG_WALLETS_OUT_DIR, 'wallet')
+  processSVGs(SVG_EXCHANGES_OUT_DIR, 'exchange')
 }

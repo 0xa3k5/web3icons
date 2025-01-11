@@ -13,7 +13,6 @@ interface Props {
 }
 
 export default function IconCard({ className, metadata }: Props): JSX.Element {
-  // prettier-ignore
   const { variant, selectedIcons, setSelectedIcons, type } = useAppContext()
 
   const _label =

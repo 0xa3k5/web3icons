@@ -1,5 +1,6 @@
 export type TVariant = 'mono' | 'branded'
-export type TType = 'network' | 'token' | 'wallet'
+export type TType = 'network' | 'token' | 'wallet' | 'exchange'
+type TExchangeType = 'cex' | 'dex'
 
 interface IMetadata {
   id: string
@@ -21,6 +22,10 @@ export interface INetworkMetadata extends IMetadata {
 
 export interface IWalletMetadata extends IMetadata {}
 
+export interface IExchangeMetadata extends IMetadata {
+  type: TExchangeType
+}
+
 interface IRaw {
   id: string
   name: string
@@ -41,9 +46,19 @@ export interface ITokenRaw extends IRaw {
 // wallets.json
 export interface IWalletRaw extends IRaw {}
 
+// exchanges.json
+export interface IExchangeRaw extends IRaw {
+  type: TExchangeType
+}
+
 export interface IconMap {
   [key: string]: string
 }
 
-export type TMetadata = INetworkMetadata | IWalletMetadata | ITokenMetadata
-export type TRaw = INetworkRaw | ITokenRaw | IWalletRaw
+export type TMetadata =
+  | INetworkMetadata
+  | IWalletMetadata
+  | ITokenMetadata
+  | IExchangeMetadata
+
+export type TRaw = INetworkRaw | ITokenRaw | IWalletRaw | IExchangeRaw

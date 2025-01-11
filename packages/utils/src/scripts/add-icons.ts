@@ -11,6 +11,8 @@ import {
   IWalletMetadata,
   IWalletRaw,
   TMetadata,
+  IExchangeMetadata,
+  IExchangeRaw,
 } from '@web3icons/common'
 import _geckoNetworks from './gecko/gecko-networks.json'
 import _geckoCoins from './gecko/gecko-coins.json'
@@ -20,6 +22,7 @@ import getCoinByID from './gecko/get-coin-by-id'
 import {
   CUSTOM_NETWORKS_METADATA_PATH,
   CUSTOM_TOKENS_METADATA_PATH,
+  EXCHANGES_METADATA_PATH,
   NETWORKS_METADATA_PATH,
   SVG_SRC_DIR,
   TOKENS_METADATA_PATH,
@@ -45,22 +48,32 @@ const getModifiedIcons = () => {
 const findExistingMetadata = (
   id: string,
   type: TType,
-): ITokenMetadata[] | INetworkMetadata[] | IWalletMetadata[] | undefined => {
-  if (type === 'token') {
-    const jsonFile = JSON.parse(fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'))
-    const existingMetadata = findByFileName(type, id, jsonFile as ITokenMetadata[])
+): ITokenMetadata[] | INetworkMetadata[] | IWalletMetadata[] | IExchangeMetadata[] | undefined => {
+  let jsonFile, existingMetadata
 
-    return existingMetadata
-  } else if (type === 'network') {
-    const jsonFile = JSON.parse(fs.readFileSync(NETWORKS_METADATA_PATH, 'utf-8'))
-    const existingMetadata = findByFileName(type, id, jsonFile as INetworkMetadata[])
+  switch (type) {
+    case 'token':
+      jsonFile = JSON.parse(fs.readFileSync(TOKENS_METADATA_PATH, 'utf-8'))
+      existingMetadata = findByFileName(type, id, jsonFile as ITokenMetadata[])
 
-    return existingMetadata
-  } else if (type === 'wallet') {
-    const jsonFile = JSON.parse(fs.readFileSync(WALLETS_METADATA_PATH, 'utf-8'))
-    const existingMetadata = findByFileName(type, id, jsonFile as IWalletMetadata[])
+      return existingMetadata
+    case 'network':
+      jsonFile = JSON.parse(fs.readFileSync(NETWORKS_METADATA_PATH, 'utf-8'))
+      existingMetadata = findByFileName(type, id, jsonFile as INetworkMetadata[])
 
-    return existingMetadata
+      return existingMetadata
+    case 'wallet':
+      jsonFile = JSON.parse(fs.readFileSync(WALLETS_METADATA_PATH, 'utf-8'))
+      existingMetadata = findByFileName(type, id, jsonFile as IWalletMetadata[])
+
+      return existingMetadata
+    case 'exchange':
+      jsonFile = JSON.parse(fs.readFileSync(EXCHANGES_METADATA_PATH, 'utf-8'))
+      existingMetadata = findByFileName(type, id, jsonFile as IExchangeMetadata[])
+
+      return existingMetadata
+    default:
+      throw new Error('wrong type')
   }
 }
 
@@ -73,7 +86,7 @@ const findExistingMetadata = (
 const findRawData = (
   name: string,
   type: TType,
-): INetworkRaw[] | ITokenRaw[] | IWalletRaw[] | undefined => {
+): INetworkRaw[] | ITokenRaw[] | IWalletRaw[] | IExchangeRaw[] | undefined => {
   if (type === 'token') {
     const geckoCoin = findByFileName(type, name, _geckoCoins as ITokenRaw[])
     const customCoin = findByFileName(type, name, _customTokens as ITokenRaw[])
@@ -89,6 +102,11 @@ const findRawData = (
     const customWallets = findByFileName(type, name, walletsMetadata as IWalletRaw[])
 
     return customWallets
+  } else if (type === 'exchange') {
+    const exchangesMetadata = JSON.parse(fs.readFileSync(EXCHANGES_METADATA_PATH, 'utf-8'))
+    const customExchanges = findByFileName(type, name, exchangesMetadata as IExchangeRaw[])
+
+    return customExchanges
   }
 }
 
@@ -204,7 +222,7 @@ const createMetadataObj = async (
 }
 
 const updateMetadataJson = async (
-  metadata: INetworkMetadata[] | ITokenMetadata[] | IWalletMetadata[],
+  metadata: INetworkMetadata[] | ITokenMetadata[] | IWalletMetadata[] | IExchangeMetadata[],
   type: TType,
 ) => {
   let jsonPath
@@ -217,6 +235,9 @@ const updateMetadataJson = async (
       break
     case 'wallet':
       jsonPath = WALLETS_METADATA_PATH
+      break
+    case 'exchange':
+      jsonPath = EXCHANGES_METADATA_PATH
       break
     default:
       throw new Error('Invalid type')
@@ -235,22 +256,37 @@ const updateMetadataJson = async (
   console.info(`✔ added ${type}: ${metadata.map((t) => t.id).join(', ')}`)
 }
 
-const updateCustomJson = async (metadata: INetworkRaw[] | ITokenRaw[], type: TType) => {
-  const customJson = JSON.parse(
-    fs.readFileSync(
-      type === 'token' ? CUSTOM_TOKENS_METADATA_PATH : CUSTOM_NETWORKS_METADATA_PATH,
-      'utf-8',
-    ),
-  )
+const updateCustomJson = async (
+  metadata: INetworkRaw[] | ITokenRaw[] | IWalletRaw[] | IExchangeRaw[],
+  type: TType,
+) => {
+  let jsonPath
+
+  switch (type) {
+    case 'token':
+      jsonPath = CUSTOM_TOKENS_METADATA_PATH
+      break
+    case 'network':
+      jsonPath = CUSTOM_NETWORKS_METADATA_PATH
+      break
+    case 'wallet':
+      jsonPath = WALLETS_METADATA_PATH
+      break
+    case 'exchange':
+      jsonPath = EXCHANGES_METADATA_PATH
+      break
+    default:
+      console.log(metadata)
+      throw new Error('wrong type')
+  }
+
+  const customJson = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'))
 
   const JSONFILE = JSON.stringify(
     Array.from(new Map([...customJson, ...metadata].map((item) => [item.id, item])).values()),
   )
 
-  fs.writeFileSync(
-    type === 'token' ? CUSTOM_TOKENS_METADATA_PATH : CUSTOM_NETWORKS_METADATA_PATH,
-    JSONFILE,
-  )
+  fs.writeFileSync(jsonPath, JSONFILE)
   console.info(`✔ custom ${type} added: ${metadata.map((t) => t.id).join(', ')}`)
 }
 
@@ -292,6 +328,7 @@ const main = async () => {
   const addedNetworks: INetworkMetadata[] = []
   const addedTokens: ITokenMetadata[] = []
   const addedWallets: IWalletMetadata[] = []
+  const addedExchanges: IExchangeMetadata[] = []
 
   for (const [fileName, { type, variants }] of Object.entries(groupedIcons)) {
     const metadata = await createMetadataObj(fileName, variants[0], type)
@@ -311,12 +348,15 @@ const main = async () => {
       addedNetworks.push(confirmedMetadata as INetworkMetadata)
     } else if (type === 'wallet') {
       addedWallets.push(confirmedMetadata as IWalletMetadata)
+    } else if (type === 'exchange') {
+      addedExchanges.push(confirmedMetadata as IExchangeMetadata)
     }
   }
 
   if (addedNetworks.length > 0) await updateMetadataJson(addedNetworks, 'network')
   if (addedTokens.length > 0) await updateMetadataJson(addedTokens, 'token')
   if (addedWallets.length > 0) await updateMetadataJson(addedWallets, 'wallet')
+  if (addedExchanges.length > 0) await updateMetadataJson(addedExchanges, 'exchange')
 }
 
 await main()

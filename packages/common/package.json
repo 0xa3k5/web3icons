@@ -11,7 +11,7 @@
     "svg crypto icons",
     "coin icons"
   ],
-  "version": "0.8.0",
+  "version": "0.9.0",
   "private": false,
   "author": "0xa3k5",
   "license": "MIT",
@@ -54,8 +54,9 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun run clean && bun run build:types && tsup && bun run post-build",
+    "build": "bun run clean && bun run pre-build && bun run build:types && tsup && bun run post-build",
     "build:types": "tsc --outDir dist --declarationDir dist --declaration true",
+    "pre-build": "cd ../utils && bun run generate-metadata",
     "post-build": "bun run lint && bun run format",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error",
