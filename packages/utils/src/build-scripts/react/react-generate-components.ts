@@ -17,16 +17,16 @@ import { TType } from '@web3icons/common'
 const processSVGs = (svgOutDir: string, type: TType): void => {
   ;['branded', 'mono'].forEach((variant) => {
     const dir = path.join(svgOutDir, variant)
-    if (fs.existsSync(dir)) {
-      const svgFiles = fs.readdirSync(dir)
-      svgFiles.forEach((svg) => {
-        if (path.extname(svg) === '.svg') {
-          generateReactComponent(path.basename(svg, '.svg'), type)
-        }
-      })
-    } else {
-      console.log(`No ${type} SVGs found in ${dir}`)
+    if (!fs.existsSync(dir)) {
+      throw new Error(`No ${type} SVGs found in ${dir}`)
     }
+
+    const svgFiles = fs.readdirSync(dir)
+    svgFiles.forEach((svg) => {
+      if (path.extname(svg) === '.svg') {
+        generateReactComponent(path.basename(svg, '.svg'), type)
+      }
+    })
   })
 }
 

@@ -55,5 +55,10 @@ export interface IconMap {
   [key: string]: string
 }
 
-export type TMetadata = INetworkMetadata | IWalletMetadata | ITokenMetadata
-export type TRaw = INetworkRaw | ITokenRaw | IWalletRaw
+export type TMetadata =
+  | INetworkMetadata
+  | IWalletMetadata
+  | ITokenMetadata
+  | IExchangeMetadata
+
+export type TRaw = INetworkRaw | ITokenRaw | IWalletRaw | IExchangeRaw

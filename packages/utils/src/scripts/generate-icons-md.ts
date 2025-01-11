@@ -1,89 +1,89 @@
 import * as fs from 'fs'
 import * as path from 'path'
 import {
+  EXCHANGES_METADATA_PATH,
   NETWORKS_METADATA_PATH,
   ROOT_PROJECT,
   TOKENS_METADATA_PATH,
   WALLETS_METADATA_PATH,
 } from '../constants'
-import { INetworkMetadata, ITokenMetadata, IWalletMetadata } from '@web3icons/common'
+import {
+  IExchangeMetadata,
+  INetworkMetadata,
+  ITokenMetadata,
+  IWalletMetadata,
+} from '@web3icons/common'
 
 const outputFilePath = path.join(ROOT_PROJECT, 'docs/icons.md')
 
-let totalWallets = 0
-let totalNetworks = 0
-let totalTokens = 0
+const wallets = JSON.parse(fs.readFileSync(WALLETS_METADATA_PATH, 'utf8'))
+const networks = JSON.parse(fs.readFileSync(NETWORKS_METADATA_PATH, 'utf8'))
+const exchanges = JSON.parse(fs.readFileSync(EXCHANGES_METADATA_PATH, 'utf8'))
+const tokens = JSON.parse(fs.readFileSync(TOKENS_METADATA_PATH, 'utf8'))
 
-// Generate the Markdown table content
-const generateWalletsTable = (): string => {
-  const wallets: IWalletMetadata[] = JSON.parse(fs.readFileSync(WALLETS_METADATA_PATH, 'utf8'))
+const generateTable = <T>(
+  data: T[],
+  tableHeader: string,
+  tableContent: (item: T) => string,
+): string => {
+  let content = tableHeader
+  data.forEach((item) => {
+    content += tableContent(item) + '\n'
+  })
 
-  let tableContent = '### Wallets\n\n| id | name | branded | mono |\n'
-  tableContent += '|----|------|---------|------|\n'
+  return content
+}
 
-  wallets.forEach((wallet) => {
+const walletsTable = generateTable<IWalletMetadata>(
+  wallets,
+  '### Wallets\n\n| id | name | branded | mono |\n|----|------|---------|------|\n',
+  (wallet) => {
     const brandedCheck = wallet.variants.includes('branded') ? '✅' : '❌'
     const monoCheck = wallet.variants.includes('mono') ? '✅' : '❌'
-
-    tableContent += `| ${wallet.id} | ${wallet.name} | ${brandedCheck} | ${monoCheck} |\n`
-  })
-
-  console.log('wallets', wallets.length)
-  totalWallets = wallets.length
-  return tableContent
-}
-
-const generateNetworksTable = (): string => {
-  const networks: INetworkMetadata[] = JSON.parse(fs.readFileSync(NETWORKS_METADATA_PATH, 'utf8'))
-  let tableContent = '### Networks\n\n| id | name | branded | mono |\n'
-  tableContent += '|----|------|---------|------|\n'
-
-  networks.forEach((network) => {
+    return `| ${wallet.id} | ${wallet.name} | ${brandedCheck} | ${monoCheck} |`
+  },
+)
+const networksTable = generateTable<INetworkMetadata>(
+  networks,
+  '### Networks\n\n| id | name | branded | mono |\n|----|------|---------|------|\n',
+  (network) => {
     const brandedCheck = network.variants.includes('branded') ? '✅' : '❌'
     const monoCheck = network.variants.includes('mono') ? '✅' : '❌'
-
-    tableContent += `| ${network.id} | ${network.name} | ${brandedCheck} | ${monoCheck} |\n`
-  })
-
-  console.log('networks', networks.length)
-  totalNetworks = networks.length
-  return tableContent
-}
-
-const generateTokensTable = (): string => {
-  const tokens: ITokenMetadata[] = JSON.parse(fs.readFileSync(TOKENS_METADATA_PATH, 'utf8'))
-  let tableContent = '### Tokens\n\n| name | symbol | branded | mono |\n'
-  tableContent += '|------|--------|---------|------|\n'
-
-  tokens.forEach((token) => {
+    return `| ${network.id} | ${network.name} | ${brandedCheck} | ${monoCheck} |`
+  },
+)
+const exchangesTable = generateTable<IExchangeMetadata>(
+  exchanges,
+  '### Exchanges\n\n| id | name | type | branded | mono |\n|------|--------|---------|------|------|\n',
+  (exchange) => {
+    const brandedCheck = exchange.variants.includes('branded') ? '✅' : '❌'
+    const monoCheck = exchange.variants.includes('mono') ? '✅' : '❌'
+    return `| ${exchange.id} | ${exchange.name} | ${exchange.type} | ${brandedCheck} | ${monoCheck} |`
+  },
+)
+const tokensTable = generateTable<ITokenMetadata>(
+  tokens,
+  '### Tokens\n\n| name | symbol | branded | mono |\n|------|--------|---------|------|\n',
+  (token) => {
     const brandedCheck = token.variants.includes('branded') ? '✅' : '❌'
     const monoCheck = token.variants.includes('mono') ? '✅' : '❌'
-
-    tableContent += `| ${token.name} | ${token.symbol} | ${brandedCheck} | ${monoCheck} |\n`
-  })
-
-  console.log('tokens', tokens.length)
-  totalTokens = tokens.length
-  return tableContent
-}
-
-const walletsTable = generateWalletsTable()
-const networksTable = generateNetworksTable()
-const tokensTable = generateTokensTable()
+    return `| ${token.name} | ${token.symbol} | ${brandedCheck} | ${monoCheck} |`
+  },
+)
 
 const iconsMd =
   `jump to section:\n
-  - [wallets (${totalWallets})](#wallets)
-  - [networks (${totalNetworks})](#networks)
-  - [tokens (${totalTokens})](#tokens)\n\n` +
+  - [wallets (${wallets.length})](#wallets)
+  - [networks (${networks.length})](#networks)
+  - [tokens (${exchanges.length})](#tokens)
+  - [exchanges (${tokens.length})](#exchanges)\n\n` +
   `${walletsTable}\n\n` +
   `${networksTable}\n\n` +
+  `${exchangesTable}\n\n` +
   `${tokensTable}`
 
 fs.writeFileSync(outputFilePath, iconsMd)
+
 console.log(
-  `✅ generated icons.md\n
-  total wallets: ${totalWallets}\n
-  total networks: ${totalNetworks}\n
-  total tokens: ${totalTokens}`,
+  `✅ generated icons.md (wallets: ${wallets.length}, networks: ${networks.length}, exchanges: ${exchanges.length} tokens: ${tokens.length})`,
 )

@@ -15,7 +15,11 @@ import { findExchange } from './utils'
  */
 export const ExchangeIcon = forwardRef<SVGSVGElement, ExchangeIconProps>(
   ({ id, name, size, className, variant = 'mono', color, fallback }, ref) => {
-    const metadata = findExchange({ name: name ?? id })
+    let metadata
+    if (name) {
+      metadata = findExchange({ name })
+    }
+    metadata = findExchange({ id })
 
     return (
       <DynamicIcon
