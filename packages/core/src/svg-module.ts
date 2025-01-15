@@ -3399,6 +3399,7 @@ import * as NBrandedL3x from './svgs/networks/branded/l3x.svg'
 import * as NBrandedFraxtal from './svgs/networks/branded/fraxtal.svg'
 import * as NBrandedEthereum from './svgs/networks/branded/ethereum.svg'
 import * as NBrandedNeonEvm from './svgs/networks/branded/neon-evm.svg'
+import * as NBrandedMint from './svgs/networks/branded/mint.svg'
 import * as NBrandedZyx from './svgs/networks/branded/zyx.svg'
 import * as NBrandedCronosZkevm from './svgs/networks/branded/cronos-zkevm.svg'
 import * as NBrandedApexLayer from './svgs/networks/branded/apex-layer.svg'
@@ -3460,6 +3461,7 @@ import * as NBrandedBob from './svgs/networks/branded/bob.svg'
 import * as NBrandedBotanix from './svgs/networks/branded/botanix.svg'
 import * as NBrandedSys from './svgs/networks/branded/sys.svg'
 import * as NBrandedCardano from './svgs/networks/branded/cardano.svg'
+import * as NBrandedTreasure from './svgs/networks/branded/treasure.svg'
 import * as NBrandedShiden from './svgs/networks/branded/shiden.svg'
 import * as NBrandedStargaze from './svgs/networks/branded/stargaze.svg'
 import * as NBrandedKardia from './svgs/networks/branded/kardia.svg'
@@ -3488,6 +3490,7 @@ import * as NBrandedArbitrumOne from './svgs/networks/branded/arbitrum-one.svg'
 import * as NBrandedScroll from './svgs/networks/branded/scroll.svg'
 import * as NBrandedBoba from './svgs/networks/branded/boba.svg'
 import * as NBrandedViction from './svgs/networks/branded/viction.svg'
+import * as NBrandedMonad from './svgs/networks/branded/monad.svg'
 import * as NBrandedImmutable from './svgs/networks/branded/immutable.svg'
 import * as NBrandedFlare from './svgs/networks/branded/flare.svg'
 import * as NBrandedWax from './svgs/networks/branded/wax.svg'
@@ -3521,6 +3524,7 @@ import * as NBrandedMantaPacific from './svgs/networks/branded/manta-pacific.svg
 import * as NBrandedEthereumClassic from './svgs/networks/branded/ethereum-classic.svg'
 import * as NBrandedAcala from './svgs/networks/branded/acala.svg'
 import * as NBrandedNeoX from './svgs/networks/branded/neo-x.svg'
+import * as NBrandedSilicon from './svgs/networks/branded/silicon.svg'
 import * as NBrandedSeiNetwork from './svgs/networks/branded/sei-network.svg'
 import * as NBrandedMilkomedaA1 from './svgs/networks/branded/milkomeda-a1.svg'
 import * as NBrandedShimmerEvm from './svgs/networks/branded/shimmer-evm.svg'
@@ -3549,6 +3553,7 @@ import * as NMonoL3x from './svgs/networks/mono/l3x.svg'
 import * as NMonoFraxtal from './svgs/networks/mono/fraxtal.svg'
 import * as NMonoEthereum from './svgs/networks/mono/ethereum.svg'
 import * as NMonoNeonEvm from './svgs/networks/mono/neon-evm.svg'
+import * as NMonoMint from './svgs/networks/mono/mint.svg'
 import * as NMonoZyx from './svgs/networks/mono/zyx.svg'
 import * as NMonoCronosZkevm from './svgs/networks/mono/cronos-zkevm.svg'
 import * as NMonoApexLayer from './svgs/networks/mono/apex-layer.svg'
@@ -3609,6 +3614,7 @@ import * as NMonoBob from './svgs/networks/mono/bob.svg'
 import * as NMonoBotanix from './svgs/networks/mono/botanix.svg'
 import * as NMonoSys from './svgs/networks/mono/sys.svg'
 import * as NMonoCardano from './svgs/networks/mono/cardano.svg'
+import * as NMonoTreasure from './svgs/networks/mono/treasure.svg'
 import * as NMonoShiden from './svgs/networks/mono/shiden.svg'
 import * as NMonoStargaze from './svgs/networks/mono/stargaze.svg'
 import * as NMonoKardia from './svgs/networks/mono/kardia.svg'
@@ -3637,6 +3643,7 @@ import * as NMonoArbitrumOne from './svgs/networks/mono/arbitrum-one.svg'
 import * as NMonoScroll from './svgs/networks/mono/scroll.svg'
 import * as NMonoBoba from './svgs/networks/mono/boba.svg'
 import * as NMonoViction from './svgs/networks/mono/viction.svg'
+import * as NMonoMonad from './svgs/networks/mono/monad.svg'
 import * as NMonoImmutable from './svgs/networks/mono/immutable.svg'
 import * as NMonoFlare from './svgs/networks/mono/flare.svg'
 import * as NMonoWax from './svgs/networks/mono/wax.svg'
@@ -3670,6 +3677,7 @@ import * as NMonoMantaPacific from './svgs/networks/mono/manta-pacific.svg'
 import * as NMonoEthereumClassic from './svgs/networks/mono/ethereum-classic.svg'
 import * as NMonoAcala from './svgs/networks/mono/acala.svg'
 import * as NMonoNeoX from './svgs/networks/mono/neo-x.svg'
+import * as NMonoSilicon from './svgs/networks/mono/silicon.svg'
 import * as NMonoSeiNetwork from './svgs/networks/mono/sei-network.svg'
 import * as NMonoMilkomedaA1 from './svgs/networks/mono/milkomeda-a1.svg'
 import * as NMonoShimmerEvm from './svgs/networks/mono/shimmer-evm.svg'
@@ -7214,6 +7222,7 @@ export const svgs = {
       fraxtal: NMonoFraxtal,
       ethereum: NMonoEthereum,
       'neon-evm': NMonoNeonEvm,
+      mint: NMonoMint,
       zyx: NMonoZyx,
       'cronos-zkevm': NMonoCronosZkevm,
       'apex-layer': NMonoApexLayer,
@@ -7274,6 +7283,7 @@ export const svgs = {
       botanix: NMonoBotanix,
       sys: NMonoSys,
       cardano: NMonoCardano,
+      treasure: NMonoTreasure,
       shiden: NMonoShiden,
       stargaze: NMonoStargaze,
       kardia: NMonoKardia,
@@ -7302,6 +7312,7 @@ export const svgs = {
       scroll: NMonoScroll,
       boba: NMonoBoba,
       viction: NMonoViction,
+      monad: NMonoMonad,
       immutable: NMonoImmutable,
       flare: NMonoFlare,
       wax: NMonoWax,
@@ -7335,6 +7346,7 @@ export const svgs = {
       'ethereum-classic': NMonoEthereumClassic,
       acala: NMonoAcala,
       'neo-x': NMonoNeoX,
+      silicon: NMonoSilicon,
       'sei-network': NMonoSeiNetwork,
       'milkomeda-a1': NMonoMilkomedaA1,
       'shimmer-evm': NMonoShimmerEvm,
@@ -7366,6 +7378,7 @@ export const svgs = {
       fraxtal: NBrandedFraxtal,
       ethereum: NBrandedEthereum,
       'neon-evm': NBrandedNeonEvm,
+      mint: NBrandedMint,
       zyx: NBrandedZyx,
       'cronos-zkevm': NBrandedCronosZkevm,
       'apex-layer': NBrandedApexLayer,
@@ -7427,6 +7440,7 @@ export const svgs = {
       botanix: NBrandedBotanix,
       sys: NBrandedSys,
       cardano: NBrandedCardano,
+      treasure: NBrandedTreasure,
       shiden: NBrandedShiden,
       stargaze: NBrandedStargaze,
       kardia: NBrandedKardia,
@@ -7455,6 +7469,7 @@ export const svgs = {
       scroll: NBrandedScroll,
       boba: NBrandedBoba,
       viction: NBrandedViction,
+      monad: NBrandedMonad,
       immutable: NBrandedImmutable,
       flare: NBrandedFlare,
       wax: NBrandedWax,
@@ -7488,6 +7503,7 @@ export const svgs = {
       'ethereum-classic': NBrandedEthereumClassic,
       acala: NBrandedAcala,
       'neo-x': NBrandedNeoX,
+      silicon: NBrandedSilicon,
       'sei-network': NBrandedSeiNetwork,
       'milkomeda-a1': NBrandedMilkomedaA1,
       'shimmer-evm': NBrandedShimmerEvm,

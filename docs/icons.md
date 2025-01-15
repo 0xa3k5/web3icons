@@ -1,7 +1,7 @@
 jump to section:
 
   - [wallets (38)](#wallets)
-  - [networks (157)](#networks)
+  - [networks (161)](#networks)
   - [tokens (24)](#tokens)
   - [exchanges (1901)](#exchanges)
 
@@ -210,6 +210,10 @@ jump to section:
 | vanar | Vanar | ✅ | ✅ |
 | wax | WAX | ✅ | ✅ |
 | rei | Rei | ✅ | ✅ |
+| mint | Mint | ✅ | ✅ |
+| monad | Monad | ✅ | ✅ |
+| silicon | Silicon | ✅ | ✅ |
+| treasure | Treasure | ✅ | ✅ |
 
 
 ### Exchanges
@@ -225,7 +229,7 @@ jump to section:
 | binance | Binance | cex | ✅ | ✅ |
 | bithumb | Bithumb | cex | ✅ | ✅ |
 | bitstamp | Bitstamp | cex | ✅ | ✅ |
-| btcturk | BtcTurk | cex | ✅ | ✅ |
+| btcturk | BTC Turk | cex | ✅ | ✅ |
 | crypto-com | Crypto.com | cex | ✅ | ✅ |
 | gate-io | Gate Io | cex | ✅ | ✅ |
 | gemini | Gemini | cex | ✅ | ✅ |

@@ -259,5 +259,19 @@
   { "id": "lumia", "name": "Lumia", "shortname": "lumia", "chainId": 1952959480 },
   { "id": "super-seed", "name": "Super Seed", "shortname": "Super Seed", "chainId": 53302 },
   { "id": "vanar", "name": "Vanar", "shortname": "vanar", "chainId": 2040 },
-  { "id": "rei", "name": "Rei", "shortname": "rei", "chainId": 47805 }
+  { "id": "rei", "name": "Rei", "shortname": "rei", "chainId": 47805 },
+  {
+    "id": "silicon",
+    "name": "Silicon",
+    "shortname": "silicon",
+    "chainId": 2355,
+    "nativeCoinId": "eth"
+  },
+  {
+    "id": "treasure",
+    "name": "Treasure",
+    "shortname": "treasure",
+    "chainId": 61166,
+    "nativeCoinId": "magic"
+  }
 ]

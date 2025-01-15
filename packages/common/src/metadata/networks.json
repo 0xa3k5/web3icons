@@ -1211,5 +1211,37 @@
     "variants": ["branded", "mono"],
     "shortName": "rei",
     "chainId": 47805
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "variants": ["branded", "mono"],
+    "shortName": "mint",
+    "chainId": 185,
+    "nativeCoinId": "weth"
+  },
+  {
+    "id": "monad",
+    "name": "Monad",
+    "variants": ["branded", "mono"],
+    "shortName": "monad",
+    "chainId": 143,
+    "nativeCoinId": "monad"
+  },
+  {
+    "id": "silicon",
+    "name": "Silicon",
+    "variants": ["branded", "mono"],
+    "shortName": "silicon",
+    "chainId": 2355,
+    "nativeCoinId": "eth"
+  },
+  {
+    "id": "treasure",
+    "name": "Treasure",
+    "variants": ["branded", "mono"],
+    "shortName": "treasure",
+    "chainId": 61166,
+    "nativeCoinId": "magic"
   }
 ]
