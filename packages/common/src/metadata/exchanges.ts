@@ -57,7 +57,7 @@ export const exchanges: IExchangeMetadata[] = [
   },
   {
     id: 'btcturk',
-    name: 'BtcTurk',
+    name: 'BTC Turk',
     variants: ['branded', 'mono'],
     type: 'cex',
   },

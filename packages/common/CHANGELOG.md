@@ -1,5 +1,18 @@
 # @web3icons/common
 
+## 0.10.0
+
+### Minor Changes
+
+- new network icons:
+
+  - mint (branded, mono)
+  - monad (branded, mono)
+  - silicon (branded, mono)
+  - treasure (branded, mono)
+
+  fix arbitrum-one branded icon
+
 ## 0.9.0
 
 ### Minor Changes

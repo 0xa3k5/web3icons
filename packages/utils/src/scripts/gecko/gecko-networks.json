@@ -689,15 +689,13 @@
     }
   },
   {
-    "id": "harmony-shard-0",
-    "chain_identifier": 1666600000,
-    "name": "Harmony Shard 0",
-    "shortname": "Harmony Shard 0",
-    "native_coin_id": "harmony",
+    "id": "stellar",
+    "name": "Stellar",
+    "native_coin_id": "stellar",
     "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/20/thumb/harmony.jpg?1724898618",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/20/small/harmony.jpg?1724898618",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/20/large/harmony.jpg?1724898618"
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/100/thumb/stellar.jpeg?1708492494",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/100/small/stellar.jpeg?1708492494",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/100/large/stellar.jpeg?1708492494"
     }
   },
   {
@@ -771,6 +769,18 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/256/thumb/bahamut.jpeg?1715338015",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/256/small/bahamut.jpeg?1715338015",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/256/large/bahamut.jpeg?1715338015"
+    }
+  },
+  {
+    "id": "harmony-shard-0",
+    "chain_identifier": 1666600000,
+    "name": "Harmony Shard 0",
+    "shortname": "Harmony Shard 0",
+    "native_coin_id": "harmony",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/20/thumb/harmony.jpg?1724898618",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/20/small/harmony.jpg?1724898618",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/20/large/harmony.jpg?1724898618"
     }
   },
   {
@@ -1005,6 +1015,18 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22196/thumb/abstract.jpg?1735611808",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/22196/small/abstract.jpg?1735611808",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/22196/large/abstract.jpg?1735611808"
+    }
+  },
+  {
+    "id": "ink",
+    "chain_identifier": 57073,
+    "name": "Ink",
+    "shortname": "ink",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": null,
+      "small": null,
+      "large": null
     }
   },
   {
@@ -1256,16 +1278,6 @@
       "thumb": null,
       "small": null,
       "large": null
-    }
-  },
-  {
-    "id": "stellar",
-    "name": "Stellar",
-    "native_coin_id": "stellar",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/100/thumb/stellar.jpeg?1708492494",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/100/small/stellar.jpeg?1708492494",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/100/large/stellar.jpeg?1708492494"
     }
   },
   {
@@ -2734,18 +2746,6 @@
     }
   },
   {
-    "id": "ink",
-    "chain_identifier": 57073,
-    "name": "Ink",
-    "shortname": "ink",
-    "native_coin_id": "ethereum",
-    "image": {
-      "thumb": null,
-      "small": null,
-      "large": null
-    }
-  },
-  {
     "id": "wanchain",
     "chain_identifier": 888,
     "name": "Wanchain",
@@ -3653,17 +3653,6 @@
     }
   },
   {
-    "id": "airdao",
-    "chain_identifier": 16718,
-    "name": "AirDAO",
-    "native_coin_id": "amber",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22191/thumb/airdao.jpg?1733465204",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/22191/small/airdao.jpg?1733465204",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/22191/large/airdao.jpg?1733465204"
-    }
-  },
-  {
     "id": "parex-network",
     "chain_identifier": 322202,
     "name": "Parex Network",
@@ -3682,6 +3671,17 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/151/thumb/starknet.png?1706606812",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/151/small/starknet.png?1706606812",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/151/large/starknet.png?1706606812"
+    }
+  },
+  {
+    "id": "airdao",
+    "chain_identifier": 16718,
+    "name": "AirDAO",
+    "native_coin_id": "amber",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22191/thumb/airdao.jpg?1733465204",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22191/small/airdao.jpg?1733465204",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22191/large/airdao.jpg?1733465204"
     }
   },
   {
