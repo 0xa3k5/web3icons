@@ -2,14 +2,14 @@
 
 # Web3 Icons
 
-![Tokens](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=tokens&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/tokens.json) ![Networks](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=networks&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/networks.json) ![Wallets](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=wallets&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/wallets.json) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Freact) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Fcore?style=flat&label=%40web3icons%2Fcore)
+![Tokens](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=tokens&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/tokens.json) ![Networks](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=networks&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/networks.json) ![Wallets](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=wallets&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/wallets.json) ![Exchanges](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=wallets&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/exchanges.json) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Freact) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Fcore?style=flat&label=%40web3icons%2Fcore)
 
 _(previously named token-icons)_
 
 Web3 Icons is the most comprehensive and up-to-date source for tokens, coins, networks and wallet logos as icon format. More than 2,500 icons are ready as optimized SVGs as well as React components.
 
 - All of the icons are carefully curated by hand.
-- `type` refers to `wallet`, `token` and `network`
+- `type` refers to `wallet`, `token`, `network` and `exchange`
 - `variant` refers to `mono` and `branded` (not every icon comes with both variants, but vast majority does.)
 
 > Find the data table of all supported icons [here](https://github.com/0xa3k5/web3icons/blob/main/docs/icons.md)
@@ -103,6 +103,13 @@ Networks and chains, react components are prefixed with `Network` followed by th
 
 Crypto wallets, react components are prefixed with `Wallet` followed by the PascalCase name of the wallet. `WalletRainbow`, `WalletMetamask`, `WalletCoinbase`
 
+### Exchanges
+
+[List of all the available exchanges](https://github.com/0xa3k5/web3icons/blob/main/docs/icons.md#exchanges)
+
+Crypto exchanges, react components are prefixed with `Exchange` followed by the PascalCase name of the wallet. `ExchangeBybit`, `ExchangePancakeSwap`, `ExchangeBalancer`
+
+
 ```jsx
 import {
   TokenBTC,
@@ -114,6 +121,9 @@ import {
   WalletLedger,
   WalletMetamask,
   WalletSafe,
+  ExchangeBybit,
+  ExchangePancakeSwap,
+  ExchangeBalancer
 } from '@web3icons/react'
 
 const App = () => {
@@ -127,31 +137,21 @@ const App = () => {
       </div>
       <div>
         {/* Network Icons */}
-        <NetworkEthereum
-          size={64}
-          variant="branded"
-          className="my-custom-class"
-        />
-        <NetworkAvalanche
-          size={64}
-          variant="branded"
-          className="my-custom-class"
-        />
-        <NetworkBinanceSmartChain
-          size={64}
-          variant="branded"
-          className="my-custom-class"
-        />
+        <NetworkEthereum size={64} variant="branded" className="my-custom-class" />
+        <NetworkAvalanche size={64} variant="branded" className="my-custom-class" />
+        <NetworkBinanceSmartChain size={64} variant="branded" className="my-custom-class" />
       </div>
       <div>
         {/* Wallet Icons */}
         <WalletLedger size={64} variant="branded" className="my-custom-class" />
-        <WalletMetamask
-          size={64}
-          variant="branded"
-          className="my-custom-class"
-        />
+        <WalletMetamask size={64} variant="branded" className="my-custom-class" />
         <WalletSafe size={64} variant="branded" className="my-custom-class" />
+      </div>
+      <div>
+        {/* Exchange Icons */}
+        <ExchangeBybit size={64} variant="branded" className="my-custom-class" />
+        <ExchangeBalancer size={64} variant="branded" className="my-custom-class" />
+        <ExchangePancakeSwap size={64} variant="branded" className="my-custom-class" />
       </div>
     </>
   )
@@ -242,6 +242,25 @@ import { WalletIcon } from '@web3icons/react'
 
 ```
 
+## `<ExchangeIcon />`
+
+`<ExchangeIcon />` tries to find a match comparing the passed `name` value with the `id` or `name` from the [`exchanges.json`](https://github.com/0xa3k5/web3icons/blob/main/packages/core/src/metadata/exchanges.json)
+
+```jsx
+import { ExchangeIcon } from '@web3icons/react'
+
+// from exchanges.json:
+// {
+//   "id": "coinbase",
+//   "name": "Coinbase",
+//   "variants": ["branded", "mono"],
+//   "type": "dex"
+// },
+
+<ExchangeCoinbase name="coinbase" size={32} variant="branded" /> // matches the name
+
+```
+
 ---
 
 # `@web3icons/core`
@@ -257,6 +276,7 @@ For projects that don’t use React, icons are also available as `*.svg` files
 - `svgs/tokens/branded/BTC.svg`
 - `svgs/networks/mono/ethereum.svg`
 - `svgs/wallets/branded/metamask.svg`
+- `svgs/excahnges/mono/bybit.svg`
 
 ### Importing the individual SVGs
 
@@ -265,6 +285,7 @@ If you need to directly import the SVGs, here is the naming convention that you 
 - **`Tokens`**: prefixed with `token` followed by `variant` and the uppercase ticker. `tokenBrandedBTC`, `tokenMonoGRT`
 - **`Networks`**: prefixed with `network` followed by `variant` and the PascalCase network name. `networkMonoMetis`, `networkBrandedBinanceSmartChain`
 - **`Wallets`**: prefixed with `wallet` followed by `variant` and the PascalCase wallet name. `walletBrandedRainbow`, `walletBrandedImtoken`, `walletBrandedWalletConnect`
+- **`Exchanges`**: prefixed with `exchange` followed by `variant` and the PascalCase exchange name `exchangeCoinbase`, `exchangePancakeSwap`, `exchangeBybit`
 
 ## Metadata
 
@@ -273,7 +294,7 @@ The `@web3icons/core` package also provides comprehensive metadata for each cryp
 If you need the json file, you can import it directly:
 
 ```js
-import { tokens, networks, wallets } from '@web3icons/core/metadata'
+import { tokens, networks, wallets, exchanges } from '@web3icons/core/metadata'
 ```
 
 ### Importing the `svgs` object
