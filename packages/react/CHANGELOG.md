@@ -1,5 +1,23 @@
 # @web3icons/react
 
+## 3.16.0
+
+### Minor Changes
+
+- new network icons:
+
+  - mint (branded, mono)
+  - monad (branded, mono)
+  - silicon (branded, mono)
+  - treasure (branded, mono)
+
+  fix arbitrum-one branded icon
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/common@0.10.0
+
 ## 3.15.0
 
 ### Minor Changes
