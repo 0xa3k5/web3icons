@@ -20,7 +20,7 @@ const METADATA_PATHS = {
 }
 
 const SVG_DIRS = {
-    tokens: SVG_TOKENS_SRC_DIR,
+  tokens: SVG_TOKENS_SRC_DIR,
   networks: SVG_NETWORKS_SRC_DIR,
   wallets: SVG_WALLETS_SRC_DIR,
   exchanges: SVG_EXCHANGES_SRC_DIR,

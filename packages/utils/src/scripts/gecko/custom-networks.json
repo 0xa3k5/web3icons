@@ -311,5 +311,5 @@
     "shortname": "Moonbase Alpha",
     "chainId": 1287
   },
-  { "id": "push", "name": "Push Chain", "shortname": "Push" },
+  { "id": "push", "name": "Push Chain", "shortname": "Push" }
 ]
