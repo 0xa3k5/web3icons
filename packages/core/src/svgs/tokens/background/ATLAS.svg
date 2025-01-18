@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ATLAS__a)">
+        <path fill="#3FF" d="M24 0H0v24h24z"/>
+        <path fill="#000" d="m12 9.028-3.246 7.347c-.106.233-.165.425-.398.425H6.207c-.306 0-.475-.087-.32-.425l5.24-12.028c.104-.2.173-.347.41-.347h.928c.234 0 .298.146.412.347l5.239 12.023c.15.343-.023.43-.33.43h-2.143c-.234 0-.298-.192-.398-.425l-3.246-7.351z"/>
+        <path fill="#000" d="M12.004 20 9.86 15.886h4.215z"/>
+    </g>
+    <defs>
+        <clipPath id="ATLAS__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

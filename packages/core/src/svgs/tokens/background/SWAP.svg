@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#SWAP__a)">
+        <path fill="url(#SWAP__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M8 9.881v.919l2.8-2L8 7v.818a4.4 4.4 0 0 0 .4 8.782c1.007 0 2.4-.355 3.2-1.2 1-1.155 2.192-4.062 2.192-4.062l-3.57 2.315A2.301 2.301 0 1 1 8 9.88"/>
+        <path fill="#fff" d="M16 14.119V13.2l-2.8 2L16 17v-.818a4.4 4.4 0 0 0-.4-8.782c-1.008 0-2.4.355-3.2 1.2-1 1.155-2.192 4.062-2.192 4.062l3.57-2.314A2.3 2.3 0 1 1 16 14.119"/>
+    </g>
+    <defs>
+        <linearGradient id="SWAP__b" x1="5.961" x2="10.582" y1="8.667" y2="19.021" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0076EF"/>
+            <stop offset=".13" stop-color="#007FF6"/>
+            <stop offset=".258" stop-color="#0084F6"/>
+            <stop offset=".376" stop-color="#008BF9"/>
+            <stop offset=".492" stop-color="#009DF9"/>
+            <stop offset=".612" stop-color="#00AEF9"/>
+            <stop offset=".731" stop-color="#00B9FA"/>
+            <stop offset=".829" stop-color="#00C5FB"/>
+            <stop offset="1" stop-color="#00CCFC"/>
+        </linearGradient>
+        <clipPath id="SWAP__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

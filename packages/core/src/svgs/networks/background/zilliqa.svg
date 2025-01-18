@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#zilliqa__a)">
+        <path fill="url(#zilliqa__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m6.353 5.027 8.936 4.314 2.352-1.035L8.691 4z"/>
+        <path fill="#fff" d="M6.353 5.027v2.33l6.221 2.997-6.221 3.044v2.296L15.293 20v-2.306l-6.056-2.941 6.057-3.104V9.343L6.353 5.036zm8.94 4.301 2.354-1.021v2.306l-2.353 1.025zm0 10.653 2.354-1.026V11.78l-2.353 1.034z"/>
+    </g>
+    <defs>
+        <linearGradient id="zilliqa__b" x1="15.769" x2="4.13" y1="19.507" y2="15.154" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#60AAAC"/>
+            <stop offset="1" stop-color="#347181"/>
+        </linearGradient>
+        <clipPath id="zilliqa__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

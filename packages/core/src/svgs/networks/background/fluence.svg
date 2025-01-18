@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#fluence__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M11.422 4h1.216v2.684a5.355 5.355 0 0 1 0 10.632V20h-1.216v-2.677a5.354 5.354 0 0 1 0-10.645zm0 3.904a4.138 4.138 0 0 0 0 8.193zm1.216 8.184a4.138 4.138 0 0 0 0-8.176z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="fluence__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

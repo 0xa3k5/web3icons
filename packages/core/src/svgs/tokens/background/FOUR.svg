@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#FOUR__a)">
+        <path fill="url(#FOUR__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M9.866 12 12 11.467V8.8l-.534.267-1.6 2.4z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M4 6.352 20 4v14.587L4 20zm9.6 4.849v-4h-2.133L7.733 12v1.6L12 13.066V16.8l1.6-.534V12.8l2.133-.534v-1.6z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="FOUR__b" x1="19.45" x2="7.253" y1="4.469" y2="21.68" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#92988A"/>
+            <stop offset="1" stop-color="#3C554F"/>
+        </linearGradient>
+        <clipPath id="FOUR__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#KTC__a)" d="M2.357 2v2.857h2.857V2zm0 20V6.286h2.857v8.2L17.643 2h4zm8.929-6.357C13.4 17.714 17.643 22 17.643 22h4l-8.257-8.571z"/>
+    <path fill="url(#KTC__a)" d="M4.286 4v2.286h2.286V4zm0 16V7.429h2.286v6.56L16.515 4h3.2zm7.143-5.086A670 670 0 0 1 16.515 20h3.2l-6.606-6.857z"/>
     <defs>
-        <linearGradient id="KTC__a" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KTC__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#53F3FF"/>
             <stop offset="1" stop-color="#38CDEE"/>
         </linearGradient>

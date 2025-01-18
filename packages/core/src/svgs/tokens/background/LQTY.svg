@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#LQTY__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#2EB6EA" d="M10.788 18.788a6.788 6.788 0 1 0 0-13.576 6.788 6.788 0 0 0 0 13.576"/>
+        <path fill="#1542CD" d="M10.822 18.78c-6.81 0-9.498-8.877-3.483-12.618-.715 7.419 3.09 7.583 6.622 7.419 5.919-.275 5.922 5.198 5.922 5.198z"/>
+        <path fill="#745DDF" fill-rule="evenodd" d="M17.216 14.184c-1.03 2.635-3.444 4.517-6.428 4.6q.105.004.212.004h9s-.12-3.23-2.784-4.604" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="LQTY__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

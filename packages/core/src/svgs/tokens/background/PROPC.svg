@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PROPC__a)">
+        <path fill="#FEBE05" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4 4h10.571a5.428 5.428 0 1 1 0 10.857H9.143V9.143H4zm5.143 10.857V20H4v-5.143z"/>
+    </g>
+    <defs>
+        <clipPath id="PROPC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

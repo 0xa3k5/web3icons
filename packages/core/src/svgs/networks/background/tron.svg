@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#tron__a)">
+        <path fill="#C4342B" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M5.262 4.165a.5.5 0 0 1 .491-.15l10.581 2.59a.5.5 0 0 1 .175.082l2.153 1.57a.504.504 0 0 1 .12.687L11.375 19.78a.5.5 0 0 1-.887-.116L5.161 4.669a.5.5 0 0 1 .1-.503m1.747 2.705 3.697 10.41.608-5.394zm5.295 5.19-.618 5.488 5.23-7.653zm5.084-3.494-3.37 1.582 2.258-2.392zm-2.13-1.194L7.033 5.361l4.823 5.616z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="tron__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

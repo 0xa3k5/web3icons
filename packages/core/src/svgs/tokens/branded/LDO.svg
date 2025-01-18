@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#LDO__a)" d="m11.997 14.365-5.673-3.332-.161.244a7.02 7.02 0 0 0 .941 8.684 6.89 6.89 0 0 0 9.786 0 6.996 6.996 0 0 0 .941-8.684l-.16-.244z"/>
-    <path fill="url(#LDO__b)" d="m17.643 11.044-5.629 3.31-5.668-3.31 5.668-2.989z"/>
-    <path fill="url(#LDO__c)" d="m12.002 2 4.893 7.721-4.893 2.873z"/>
-    <path fill="url(#LDO__d)" d="M12.003 2v10.594L7.11 9.716z"/>
+    <path fill="url(#LDO__a)" d="m11.998 13.892-4.539-2.665-.128.194a5.615 5.615 0 0 0 .753 6.948 5.51 5.51 0 0 0 7.828 0 5.596 5.596 0 0 0 .753-6.948l-.128-.194z"/>
+    <path fill="url(#LDO__b)" d="m16.514 11.235-4.503 2.648-4.534-2.648 4.534-2.391z"/>
+    <path fill="url(#LDO__c)" d="m12.002 4 3.914 6.177-3.914 2.298z"/>
+    <path fill="url(#LDO__d)" d="M12.002 4v8.475l-3.914-2.302z"/>
     <defs>
-        <linearGradient id="LDO__a" x1="11.997" x2="11.997" y1="2" y2="22.007" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LDO__a" x1="11.998" x2="11.998" y1="4" y2="20.005" gradientUnits="userSpaceOnUse">
             <stop stop-color="#498BE9"/>
             <stop offset="1" stop-color="#56F2FF"/>
         </linearGradient>
-        <linearGradient id="LDO__b" x1="11.997" x2="11.997" y1="2.017" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LDO__b" x1="11.997" x2="11.997" y1="4.014" y2="19.999" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4A8CEA"/>
             <stop offset=".7" stop-color="#5ABEF4"/>
         </linearGradient>
-        <linearGradient id="LDO__c" x1="13.472" x2="10.749" y1="13.118" y2="22.81" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LDO__c" x1="13.178" x2="10.999" y1="12.895" y2="20.648" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FB8174"/>
             <stop offset=".56" stop-color="#568FDD"/>
         </linearGradient>
-        <linearGradient id="LDO__d" x1="8.145" x2="9.031" y1="7.297" y2="11.576" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LDO__d" x1="8.916" x2="9.625" y1="8.238" y2="11.661" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FFE235"/>
             <stop offset=".61" stop-color="#5DCBA2"/>
         </linearGradient>

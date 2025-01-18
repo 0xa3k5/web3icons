@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MOOV__a)">
+        <path fill="url(#MOOV__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m10 4.08 8.595 5.066a.6.6 0 0 1 .293.516v4.693a.59.59 0 0 1-.293.515l-8.59 5.049a.58.58 0 0 1-.591 0L5.4 17.5a.6.6 0 0 1-.29-.515V6.942c0-.213.112-.409.294-.516L9.418 4.08a.57.57 0 0 1 .582 0M7.334 5.849v12.279c0 .177.195.293.35.204l10.644-6.16a.235.235 0 0 0 0-.404L7.68 5.644a.231.231 0 0 0-.346.205"/>
+        <path fill="#fff" d="M9.555 13.62v-3.243a.595.595 0 0 1 .889-.52l2.813 1.617a.6.6 0 0 1 0 1.04l-2.809 1.627a.595.595 0 0 1-.893-.52"/>
+    </g>
+    <defs>
+        <linearGradient id="MOOV__b" x1="12" x2="12" y1="4" y2="19.999" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF825F"/>
+            <stop offset="1" stop-color="#FF3E68"/>
+        </linearGradient>
+        <clipPath id="MOOV__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

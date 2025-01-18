@@ -1,84 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#TAO__a)" d="m21.749 10.97-3.037 2.68c.106.175.144.4.075.612a.7.7 0 0 1-.356.432l.768 4.161c.368-.103.682-.345.875-.674a5.7 5.7 0 0 0 .825-2.306 4.7 4.7 0 0 1 .481-1.563 5.8 5.8 0 0 0 .619-2.38c.012-.376-.081-.7-.25-.963"/>
-    <path fill="#EA302A" d="M17.562 13.7a.67.67 0 0 1 .906-.269l3.074-2.706c-.537-.518-1.437-.668-2.268-.393l-5.312 1.806a.56.56 0 0 0-.293.237l3.886 1.325z"/>
-    <path fill="url(#TAO__b)" d="M16.956 17.83c.475.688 1.225 1.126 1.913 1.1l-.77-4.136a.5.5 0 0 1-.162-.032.72.72 0 0 1-.475-.7l-3.899-1.33a.6.6 0 0 0 .106.337z"/>
-    <path fill="url(#TAO__c)" d="m15.918 21.249-3.356-2.218a.67.67 0 0 1-.531.268.67.67 0 0 1-.494-.225L8.02 21.137c.188.306.475.543.875.662a5 5 0 0 0 2.337.112 4.2 4.2 0 0 1 1.562 0c.775.15 1.588.106 2.338-.118.343-.1.606-.294.787-.538z"/>
-    <path fill="url(#TAO__d)" d="M12.163 17.862a.713.713 0 0 1 .53.819l3.394 2.243c.306-.7.163-1.65-.35-2.393l-3.268-4.75a.56.56 0 0 0-.313-.225v4.306z"/>
-    <path fill="url(#TAO__e)" d="M8.238 18.55a2.62 2.62 0 0 0-.406 2.249l3.512-2.043a.714.714 0 0 1 .462-.862V13.58a.56.56 0 0 0-.275.213l-3.293 4.75z"/>
-    <path fill="url(#TAO__f)" d="m5.288 13.65-3.043-2.68a1.7 1.7 0 0 0-.245.96c.031.813.25 1.644.625 2.381a4.9 4.9 0 0 1 .475 1.563 5.75 5.75 0 0 0 .825 2.312c.231.362.537.575.875.668l.768-4.161a.7.7 0 0 1-.356-.432.75.75 0 0 1 .075-.612"/>
-    <path fill="url(#TAO__g)" d="M5.157 18.912c.688.025 1.438-.406 1.912-1.1l3.281-4.75a.6.6 0 0 0 .107-.343l-3.894 1.33a.73.73 0 0 1-.475.7 1 1 0 0 1-.168.032z"/>
-    <path fill="#DA181F" d="M5.646 13.394a.66.66 0 0 1 .8.318l3.899-1.33a.57.57 0 0 0-.3-.232l-5.312-1.812c-.83-.275-1.737-.125-2.274.4l3.08 2.7z"/>
-    <path fill="url(#TAO__h)" d="m15.568 5.939-1.475-3.875a1.36 1.36 0 0 1 .938.044 5.26 5.26 0 0 1 1.968 1.356c.359.396.787.724 1.263.968.717.37 1.34.898 1.824 1.544.256.344.356.712.338 1.075l-4-.513a.7.7 0 0 0-.268-.487.65.65 0 0 0-.582-.112z"/>
-    <path fill="url(#TAO__i)" fill-opacity=".2" d="m15.568 5.939-1.475-3.875a1.36 1.36 0 0 1 .938.044 5.26 5.26 0 0 1 1.968 1.356c.359.396.787.724 1.263.968.717.37 1.34.898 1.824 1.544.256.344.356.712.338 1.075l-4-.513a.7.7 0 0 0-.268-.487.65.65 0 0 0-.582-.112z"/>
-    <path fill="url(#TAO__j)" d="M15.05 6.238a.77.77 0 0 0 .043.907l-2.35 3.474a.62.62 0 0 1-.118-.375l.006-5.855c0-.919.413-1.775 1.038-2.15l1.456 3.912z"/>
-    <path fill="url(#TAO__k)" fill-opacity=".2" d="M15.05 6.238a.77.77 0 0 0 .043.907l-2.35 3.474a.62.62 0 0 1-.118-.375l.006-5.855c0-.919.413-1.775 1.038-2.15l1.456 3.912z"/>
-    <path fill="url(#TAO__l)" d="M20.4 7.438a2.46 2.46 0 0 1-1.588 1.581l-5.324 1.813a.54.54 0 0 1-.344 0l2.412-3.487a.67.67 0 0 0 .781-.25c.032-.057.063-.107.082-.163l3.98.513z"/>
-    <path fill="url(#TAO__m)" fill-opacity=".2" d="M20.4 7.438a2.46 2.46 0 0 1-1.588 1.581l-5.324 1.813a.54.54 0 0 1-.344 0l2.412-3.487a.67.67 0 0 0 .781-.25c.032-.057.063-.107.082-.163l3.98.513z"/>
-    <path fill="url(#TAO__n)" d="M10.106 2.064 8.63 5.939a.62.62 0 0 0-.581.112.75.75 0 0 0-.275.487l-3.987.513a1.6 1.6 0 0 1 .331-1.075 5.3 5.3 0 0 1 1.825-1.544 4.4 4.4 0 0 0 1.262-.968 5.26 5.26 0 0 1 1.962-1.356c.332-.125.65-.138.938-.05z"/>
-    <path fill="url(#TAO__o)" d="M5.414 9.013a2.46 2.46 0 0 1-1.581-1.575l3.974-.512c.019.056.05.106.081.156.188.263.5.363.781.256l2.406 3.487a.54.54 0 0 1-.343 0L5.42 9.013z"/>
-    <path fill="url(#TAO__p)" d="M8.907 7.145a.76.76 0 0 0-.032-.994l1.457-3.912c.624.375 1.03 1.237 1.037 2.15l.006 5.874a.63.63 0 0 1-.119.369z"/>
+    <path fill="url(#TAO__a)" d="m19.8 11.176-2.43 2.144c.084.14.114.32.06.49a.57.57 0 0 1-.285.345l.614 3.33a1.18 1.18 0 0 0 .7-.54 4.6 4.6 0 0 0 .66-1.845c.055-.435.185-.86.385-1.25.3-.59.47-1.25.495-1.904.01-.3-.065-.56-.2-.77"/>
+    <path fill="#EA302A" d="M16.45 13.36a.535.535 0 0 1 .724-.215l2.46-2.165c-.43-.415-1.15-.535-1.815-.315l-4.25 1.445a.45.45 0 0 0-.234.19l3.11 1.06z"/>
+    <path fill="url(#TAO__b)" d="M15.965 16.664c.38.55.98.9 1.53.88l-.616-3.31a.4.4 0 0 1-.13-.024.57.57 0 0 1-.38-.56l-3.119-1.065c0 .09.025.185.085.27z"/>
+    <path fill="url(#TAO__c)" d="m15.135 19.399-2.685-1.775c-.1.13-.25.215-.425.215-.15 0-.3-.07-.395-.18l-2.815 1.65c.15.245.38.435.7.53.6.175 1.25.21 1.87.09a3.4 3.4 0 0 1 1.25 0c.62.12 1.27.085 1.87-.095.275-.08.485-.235.63-.43z"/>
+    <path fill="url(#TAO__d)" d="M12.13 16.69a.57.57 0 0 1 .425.655l2.715 1.794c.245-.56.13-1.32-.28-1.914l-2.615-3.8a.45.45 0 0 0-.25-.18v3.445z"/>
+    <path fill="url(#TAO__e)" d="M8.99 17.24a2.1 2.1 0 0 0-.325 1.799l2.81-1.635a.57.57 0 0 1 .37-.69v-3.45a.45.45 0 0 0-.22.17l-2.635 3.8z"/>
+    <path fill="url(#TAO__f)" d="m6.63 13.32-2.434-2.144c-.13.21-.205.465-.195.77.025.65.2 1.315.5 1.904.195.39.325.815.38 1.25a4.6 4.6 0 0 0 .66 1.85c.185.29.43.46.7.535l.615-3.33a.57.57 0 0 1-.285-.345.6.6 0 0 1 .06-.49"/>
+    <path fill="url(#TAO__g)" d="M6.525 17.53c.55.02 1.15-.325 1.53-.88l2.625-3.8a.5.5 0 0 0 .085-.275L7.65 13.64c0 .25-.145.475-.38.56-.045.015-.09.02-.135.025z"/>
+    <path fill="#DA181F" d="M6.917 13.115a.53.53 0 0 1 .64.255l3.12-1.065a.46.46 0 0 0-.24-.184l-4.25-1.45c-.665-.22-1.39-.1-1.82.32l2.465 2.16z"/>
+    <path fill="url(#TAO__h)" d="m14.855 7.15-1.18-3.1c.23-.074.485-.07.75.036.6.236 1.14.607 1.574 1.085.288.317.63.58 1.01.775a4.3 4.3 0 0 1 1.46 1.234c.205.275.285.57.27.86l-3.2-.41a.56.56 0 0 0-.214-.39.52.52 0 0 0-.465-.09z"/>
+    <path fill="url(#TAO__i)" fill-opacity=".2" d="m14.855 7.15-1.18-3.1c.23-.074.485-.07.75.036.6.236 1.14.607 1.574 1.085.288.317.63.58 1.01.775a4.3 4.3 0 0 1 1.46 1.234c.205.275.285.57.27.86l-3.2-.41a.56.56 0 0 0-.214-.39.52.52 0 0 0-.465-.09z"/>
+    <path fill="url(#TAO__j)" d="M14.44 7.391a.615.615 0 0 0 .035.725l-1.88 2.78a.5.5 0 0 1-.095-.3l.005-4.685c0-.735.33-1.42.83-1.72l1.165 3.13z"/>
+    <path fill="url(#TAO__k)" fill-opacity=".2" d="M14.44 7.391a.615.615 0 0 0 .035.725l-1.88 2.78a.5.5 0 0 1-.095-.3l.005-4.685c0-.735.33-1.42.83-1.72l1.165 3.13z"/>
+    <path fill="url(#TAO__l)" d="M18.72 8.35a1.97 1.97 0 0 1-1.27 1.265l-4.26 1.45a.43.43 0 0 1-.275 0l1.93-2.79c.22.085.475.005.625-.2.025-.045.05-.085.065-.13l3.184.41z"/>
+    <path fill="url(#TAO__m)" fill-opacity=".2" d="M18.72 8.35a1.97 1.97 0 0 1-1.27 1.265l-4.26 1.45a.43.43 0 0 1-.275 0l1.93-2.79c.22.085.475.005.625-.2.025-.045.05-.085.065-.13l3.184.41z"/>
+    <path fill="url(#TAO__n)" d="m10.485 4.051-1.18 3.1a.5.5 0 0 0-.465.09c-.125.1-.2.24-.22.39l-3.19.41c-.02-.29.06-.585.266-.86a4.3 4.3 0 0 1 1.46-1.235 3.6 3.6 0 0 0 1.01-.775c.433-.477.97-.848 1.57-1.085.264-.1.52-.11.749-.04z"/>
+    <path fill="url(#TAO__o)" d="M6.73 9.61a1.97 1.97 0 0 1-1.264-1.26l3.18-.41c.014.045.04.085.064.125.15.21.4.29.625.205l1.925 2.79a.43.43 0 0 1-.275 0l-4.25-1.45z"/>
+    <path fill="url(#TAO__p)" d="M9.525 8.116A.61.61 0 0 0 9.5 7.32l1.165-3.13c.5.3.825.99.83 1.72l.005 4.7a.5.5 0 0 1-.095.295z"/>
     <defs>
-        <linearGradient id="TAO__a" x1="-7.278" x2="-1.831" y1="5.82" y2="21.635" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__a" x1="-3.423" x2=".935" y1="7.056" y2="19.709" gradientUnits="userSpaceOnUse">
             <stop offset=".46" stop-color="#EA302A"/>
             <stop offset="1" stop-color="#C5151B"/>
         </linearGradient>
-        <linearGradient id="TAO__b" x1="14.109" x2="24.399" y1="1.174" y2="16.977" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__b" x1="13.687" x2="21.919" y1="3.339" y2="15.982" gradientUnits="userSpaceOnUse">
             <stop offset=".46" stop-color="#EA302A"/>
             <stop offset="1" stop-color="#C5151B"/>
         </linearGradient>
-        <linearGradient id="TAO__c" x1="11.968" x2="11.968" y1="21.995" y2="-.062" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__c" x1="11.975" x2="11.975" y1="19.995" y2="2.35" gradientUnits="userSpaceOnUse">
             <stop stop-color="#AF0F14"/>
             <stop offset="1" stop-color="#DA181F"/>
         </linearGradient>
-        <linearGradient id="TAO__d" x1="1.023" x2="1.023" y1="24.917" y2="16.029" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__d" x1="3.218" x2="3.218" y1="22.334" y2="15.223" gradientUnits="userSpaceOnUse">
             <stop stop-color="#AF0F14"/>
             <stop offset="1" stop-color="#DA181F"/>
         </linearGradient>
-        <linearGradient id="TAO__e" x1="22.737" x2="22.737" y1="25.324" y2="16.251" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__e" x1="20.589" x2="20.589" y1="22.659" y2="15.4" gradientUnits="userSpaceOnUse">
             <stop stop-color="#AF0F14"/>
             <stop offset="1" stop-color="#DA181F"/>
         </linearGradient>
-        <linearGradient id="TAO__f" x1="2.006" x2="11.585" y1="17.293" y2="3.969" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__f" x1="4.005" x2="11.668" y1="16.235" y2="5.575" gradientUnits="userSpaceOnUse">
             <stop stop-color="#AF0F14"/>
             <stop offset=".87" stop-color="#DA181F"/>
         </linearGradient>
-        <linearGradient id="TAO__g" x1="-9.91" x2="2.374" y1="15.822" y2="6.782" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__g" x1="-5.528" x2="4.299" y1="15.058" y2="7.826" gradientUnits="userSpaceOnUse">
             <stop stop-color="#AF0F14"/>
             <stop offset=".87" stop-color="#DA181F"/>
         </linearGradient>
-        <linearGradient id="TAO__h" x1="9.816" x2="-7.405" y1="7.474" y2="28.817" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__h" x1="10.253" x2="-3.524" y1="8.378" y2="25.453" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F9B198"/>
             <stop offset="1" stop-color="#EE1C25"/>
         </linearGradient>
-        <linearGradient id="TAO__j" x1="31.799" x2="27.792" y1="4.73" y2="25.157" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__j" x1="27.84" x2="24.634" y1="6.184" y2="22.526" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F9B198"/>
             <stop offset="1" stop-color="#EE1C25"/>
         </linearGradient>
-        <linearGradient id="TAO__l" x1="11.441" x2="-10.88" y1="-16.073" y2="2.706" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__l" x1="11.552" x2="-6.305" y1="-10.459" y2="4.564" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F9B198"/>
             <stop offset="1" stop-color="#EE1C25"/>
         </linearGradient>
-        <linearGradient id="TAO__n" x1="10.552" x2="31.349" y1="9.501" y2="37.757" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__n" x1="10.842" x2="27.48" y1="10" y2="32.605" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EE2729"/>
             <stop offset="1" stop-color="#EE1C25"/>
         </linearGradient>
-        <linearGradient id="TAO__o" x1="9.334" x2="37.246" y1="-13.432" y2="12.314" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__o" x1="9.867" x2="32.197" y1="-8.346" y2="12.251" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EE2729"/>
             <stop offset="1" stop-color="#EE1C25"/>
         </linearGradient>
-        <linearGradient id="TAO__p" x1="6.519" x2="11.387" y1="3.895" y2="11.963" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TAO__p" x1="7.615" x2="11.509" y1="5.516" y2="11.97" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EE2729"/>
             <stop offset="1" stop-color="#EE1C25"/>
         </linearGradient>
-        <radialGradient id="TAO__i" cx="0" cy="0" r="1" gradientTransform="matrix(4.80812 -7.16787 6.06172 4.06612 6.184 24.697)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="TAO__i" cx="0" cy="0" r="1" gradientTransform="matrix(3.8465 -5.7343 4.84938 3.2529 7.347 22.157)" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F1373A"/>
             <stop offset="1" stop-color="#EC5F33"/>
         </radialGradient>
-        <radialGradient id="TAO__k" cx="0" cy="0" r="1" gradientTransform="matrix(11.89472 -4.31969 2.53357 6.97647 22.8 15.109)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="TAO__k" cx="0" cy="0" r="1" gradientTransform="matrix(9.5158 -3.45585 2.0269 5.58116 20.64 14.488)" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F1373A"/>
             <stop offset="1" stop-color="#EC5F33"/>
         </radialGradient>
-        <radialGradient id="TAO__m" cx="0" cy="0" r="1" gradientTransform="matrix(4.19663 -9.21675 6.3541 2.89319 8.27 6.074)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="TAO__m" cx="0" cy="0" r="1" gradientTransform="matrix(3.35734 -7.3734 5.08328 2.31458 9.017 7.258)" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F1373A"/>
             <stop offset="1" stop-color="#EC5F33"/>
         </radialGradient>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#POP__a)">
+        <path fill="url(#POP__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M6.8 13.6H18V8.8h2v6.4H6.8zM6 15.2H4V8.8h13.2v1.6H6zm11.2-2.4v-1.6H6.8v1.6z"/>
+    </g>
+    <defs>
+        <linearGradient id="POP__b" x1="12.4" x2="10" y1="8" y2="15.2" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00BAC9"/>
+            <stop offset=".12" stop-color="#2060B2"/>
+            <stop offset=".18" stop-color="#7046B2"/>
+            <stop offset=".24" stop-color="#CC83A1"/>
+            <stop offset=".3" stop-color="#663FA9"/>
+            <stop offset=".37" stop-color="#3557B8"/>
+            <stop offset=".45" stop-color="#8851B7"/>
+            <stop offset=".56" stop-color="#E096AC"/>
+            <stop offset=".75" stop-color="#7443B7"/>
+            <stop offset=".91" stop-color="#8F48A9"/>
+            <stop offset="1" stop-color="#C379AD"/>
+        </linearGradient>
+        <clipPath id="POP__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

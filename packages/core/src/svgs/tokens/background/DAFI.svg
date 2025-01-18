@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DAFI__a)">
+        <path fill="#33363C" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M16.364 4a.97.97 0 0 0-.97.97v3.414a6.304 6.304 0 1 0 2.91 5.315v-8.73a.97.97 0 0 0-.97-.969zm-.97 9.699a3.394 3.394 0 1 0-6.789 0 3.394 3.394 0 0 0 6.79 0" clip-rule="evenodd"/>
+        <path fill="#fff" d="M12 7.394c1.251 0 2.415.363 3.395.99v4.829h-.034a3.395 3.395 0 0 0-6.722 0H5.715A6.304 6.304 0 0 1 12 7.393"/>
+    </g>
+    <defs>
+        <clipPath id="DAFI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

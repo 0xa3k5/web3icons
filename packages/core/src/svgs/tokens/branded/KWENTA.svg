@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#KWENTA__a)" d="m2 14.353 10-6.259V2L2 8.259z"/>
-    <path fill="url(#KWENTA__b)" d="M22 14.353 12 8.094V2l10 6.259z"/>
-    <path fill="url(#KWENTA__c)" d="m2 9.647 10 6.259V22L2 15.741z"/>
-    <path fill="url(#KWENTA__d)" d="m22 9.647-10 6.259V22l10-6.259z"/>
+    <path fill="url(#KWENTA__a)" d="m4 13.882 8-5.007V4L4 9.007z"/>
+    <path fill="url(#KWENTA__b)" d="m20 13.882-8-5.007V4l8 5.007z"/>
+    <path fill="url(#KWENTA__c)" d="m4 10.117 8 5.007V20l-8-5.007z"/>
+    <path fill="url(#KWENTA__d)" d="m20 10.117-8 5.007V20l8-5.007z"/>
     <defs>
-        <linearGradient id="KWENTA__a" x1="2" x2="21.996" y1="9.143" y2="8.649" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KWENTA__a" x1="4" x2="19.997" y1="9.714" y2="9.319" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C39A6F"/>
             <stop offset="1" stop-color="#9A6A3A"/>
         </linearGradient>
-        <linearGradient id="KWENTA__b" x1="2" x2="21.996" y1="13.619" y2="14.098" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KWENTA__b" x1="4" x2="19.997" y1="13.295" y2="13.679" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C29665"/>
             <stop offset="1" stop-color="#AE8351"/>
         </linearGradient>
-        <linearGradient id="KWENTA__c" x1="2" x2="23.142" y1="9.143" y2="10.594" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KWENTA__c" x1="4" x2="20.914" y1="9.714" y2="10.874" gradientUnits="userSpaceOnUse">
             <stop stop-color="#323232"/>
             <stop offset="1" stop-color="#353535"/>
         </linearGradient>
-        <linearGradient id="KWENTA__d" x1="22" x2="11.412" y1="14.059" y2="14.647" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KWENTA__d" x1="20" x2="11.53" y1="13.646" y2="14.117" gradientUnits="userSpaceOnUse">
             <stop stop-color="#373737"/>
             <stop offset="1" stop-color="#2A2A2C"/>
         </linearGradient>

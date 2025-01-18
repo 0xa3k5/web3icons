@@ -1,4 +1,4 @@
-export type TVariant = 'mono' | 'branded'
+export type TVariant = 'branded' | 'mono' | 'background'
 export type TType = 'network' | 'token' | 'wallet' | 'exchange'
 type TExchangeType = 'cex' | 'dex'
 

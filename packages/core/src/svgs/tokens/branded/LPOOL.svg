@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#LPOOL__a)" d="M15.916 17.44 6.89 8.3l1-1.78 8.765 9.005z"/>
-    <path fill="url(#LPOOL__b)" d="M7.5 6.5c.135 0 .265.005.4.015L7.115 8.52a3.5 3.5 0 1 0 3.875 3.75l.06-.15V12a5.475 5.475 0 1 1 4.86 5.44l.745-1.91-.05-.03a3.5 3.5 0 1 0-3.6-3.67l-.005.02V12a5.5 5.5 0 1 1-5.5-5.5"/>
+    <path fill="url(#LPOOL__a)" d="m15.133 16.353-7.22-7.312.8-1.424 7.012 7.204z"/>
+    <path fill="url(#LPOOL__b)" d="M8.4 7.6c.108 0 .212.004.32.012l-.628 1.604a2.8 2.8 0 1 0 3.1 3l.048-.12V12a4.38 4.38 0 1 1 3.888 4.352l.596-1.529-.04-.023a2.799 2.799 0 1 0-2.88-2.936l-.004.016V12a4.4 4.4 0 1 1-4.4-4.4"/>
     <defs>
-        <linearGradient id="LPOOL__a" x1="5.001" x2="11.396" y1="8.313" y2="21.25" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LPOOL__a" x1="6.401" x2="11.517" y1="9.052" y2="19.401" gradientUnits="userSpaceOnUse">
             <stop offset=".18" stop-color="#FAA31C"/>
             <stop offset=".49" stop-color="#312D2E"/>
             <stop offset=".89" stop-color="#FE4C38"/>
         </linearGradient>
-        <linearGradient id="LPOOL__b" x1="3.03" x2="21.13" y1="13.865" y2="11.97" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LPOOL__b" x1="4.824" x2="19.304" y1="13.492" y2="11.976" gradientUnits="userSpaceOnUse">
             <stop offset=".12" stop-color="#F9C213"/>
             <stop offset=".79" stop-color="#FF443B"/>
         </linearGradient>

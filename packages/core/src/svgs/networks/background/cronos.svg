@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#cronos__a)">
+        <path fill="#051221" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.003 4 5 8.001v8L12.003 20 19 16.001v-8zm4.924 10.816-4.924 2.813-4.927-2.813V9.184l4.927-2.813 4.924 2.813z"/>
+        <path fill="#fff" d="M15.267 13.87 12 15.737 8.728 13.87v-3.736l3.271-1.87 3.268 1.87-1.36.778-1.908-1.092-1.908 1.092v2.177L12 14.182l1.908-1.091z"/>
+    </g>
+    <defs>
+        <clipPath id="cronos__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

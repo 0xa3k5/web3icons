@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ATA__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#ATA__b)" d="M16.009 5.983a5.534 5.534 0 0 0-8.847 1.1L4.718 11.42c-.125.215-.23.44-.32.66l.01.02c.245 1.034.95 3.448 3.964 3.813.165.02.315.03.46.03a1.384 1.384 0 0 1-1.195-2.07l3.379-5.887c.115-.2.37-.45.54-.565.834-.9 2.269-1.794 4.453-1.439"/>
+        <path fill="url(#ATA__c)" d="M16.008 5.982c.305.32.605.685.84 1.1l2.449 4.338c1.694 3.009.15 6.708-2.749 7.932l-.695.195c2.074-2.214 1.59-4.628 1.01-5.638a2 2 0 0 0-.08-.165L13.42 7.952a1.395 1.395 0 0 0-1.884-.51 4.45 4.45 0 0 1 4.473-1.46"/>
+        <path fill="url(#ATA__d)" d="M15.879 19.532c2.074-2.214 1.619-4.508 1.044-5.523.375.89-.335 1.74-1.34 1.74H8.498c-3.014-.37-3.819-2.53-4.069-3.564l-.02-.11c-1.454 3.549 1.145 7.672 5.143 7.672h4.738c.635 0 1.125-.115 1.585-.215z"/>
+    </g>
+    <defs>
+        <linearGradient id="ATA__b" x1="14.111" x2="5.169" y1="4.844" y2="17.833" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FCCA02"/>
+            <stop offset="1" stop-color="#AB1414"/>
+        </linearGradient>
+        <linearGradient id="ATA__c" x1="7.665" x2="13.476" y1="4.257" y2="20.519" gradientUnits="userSpaceOnUse">
+            <stop offset=".05" stop-color="#AA1215"/>
+            <stop offset=".93" stop-color="#FDCB02"/>
+        </linearGradient>
+        <linearGradient id="ATA__d" x1="3.998" x2="17.078" y1="16.938" y2="16.938" gradientUnits="userSpaceOnUse">
+            <stop offset=".16" stop-color="#FCCA02"/>
+            <stop offset="1" stop-color="#AB1414"/>
+        </linearGradient>
+        <clipPath id="ATA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

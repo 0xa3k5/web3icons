@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#optopia__a)">
+        <path fill="#FF1A2D" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M9.616 15.212a4 4 0 1 1 4.384.253v-.794l-3.584 2.11v1.736l-.8.8zm.8.64L14 13.743V9.808l-3.584 2.113zM20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="optopia__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

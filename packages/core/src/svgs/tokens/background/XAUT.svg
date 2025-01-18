@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#XAUT__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12 12c2.43 0 4.4-.358 4.4-.8 0-.441-1.97-.8-4.4-.8s-4.4.358-4.4.8 1.97.8 4.4.8"/>
+        <path fill="#fff" fill-rule="evenodd" d="M17.006 4.8H6.972L4 11.322l8 7.878 8-7.878zM12.8 12.383c2.27-.095 4.002-.588 4.002-1.183 0-.663-2.15-1.2-4.8-1.2s-4.8.537-4.8 1.2c0 .594 1.729 1.088 3.998 1.183V16h1.6z" clip-rule="evenodd"/>
+        <path fill="#DDA85B" d="M15.6 7.2H8.4v1.6h2.8v2.8h1.6V8.8h2.8z"/>
+    </g>
+    <defs>
+        <clipPath id="XAUT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

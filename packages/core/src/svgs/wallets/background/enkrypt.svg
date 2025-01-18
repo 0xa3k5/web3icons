@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#enkrypt__a)">
+        <path fill="#C54AFF" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M4 7.079C4 5.379 5.378 4 7.079 4h12.92v2.362c0 1.223-.99 2.213-2.212 2.213h-6.075a3.08 3.08 0 0 0-3.079 3.08v.783a3.08 3.08 0 0 0 3.079 3.079h6.075c1.222 0 2.213.99 2.213 2.213V20H7.079A3.08 3.08 0 0 1 4 16.921zm7.845 2.784h6.23c1.063 0 1.925.862 1.925 1.924v.518a1.924 1.924 0 0 1-1.924 1.924h-6.231a1.924 1.924 0 0 1-1.924-1.924v-.518c0-1.062.861-1.924 1.924-1.924" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="enkrypt__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#VTHO__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#C1CDDC" d="M17.053 4h-2.19l-5.02 6.93h1.575L7.402 20l9.264-10.526H12.74z"/>
+        <path fill="#2A5285" d="M6.947 12.842 10.37 4h4.58l-3.91 6.316h3.498L7.385 20l2.985-7.158z"/>
+    </g>
+    <defs>
+        <clipPath id="VTHO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -443,17 +443,6 @@
     }
   },
   {
-    "id": "the-open-network",
-    "name": "TON",
-    "shortname": "TON",
-    "native_coin_id": "the-open-network",
-    "image": {
-      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/142/thumb/tonblockchain.jpeg?1706606805",
-      "small": "https://coin-images.coingecko.com/asset_platforms/images/142/small/tonblockchain.jpeg?1706606805",
-      "large": "https://coin-images.coingecko.com/asset_platforms/images/142/large/tonblockchain.jpeg?1706606805"
-    }
-  },
-  {
     "id": "telos",
     "chain_identifier": 40,
     "name": "Telos",
@@ -2602,6 +2591,17 @@
     }
   },
   {
+    "id": "the-open-network",
+    "name": "TON",
+    "shortname": "TON",
+    "native_coin_id": "the-open-network",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/142/thumb/tonblockchain.jpeg?1706606805",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/142/small/tonblockchain.jpeg?1706606805",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/142/large/tonblockchain.jpeg?1706606805"
+    }
+  },
+  {
     "id": "energi",
     "chain_identifier": 39797,
     "name": "Energi",
@@ -2743,6 +2743,17 @@
       "thumb": "https://coin-images.coingecko.com/asset_platforms/images/120/thumb/terra.png?1706606650",
       "small": "https://coin-images.coingecko.com/asset_platforms/images/120/small/terra.png?1706606650",
       "large": "https://coin-images.coingecko.com/asset_platforms/images/120/large/terra.png?1706606650"
+    }
+  },
+  {
+    "id": "soneium",
+    "chain_identifier": 1868,
+    "name": "Soneium",
+    "native_coin_id": "ethereum",
+    "image": {
+      "thumb": "https://coin-images.coingecko.com/asset_platforms/images/22200/thumb/soneium-removebg-preview.png?1737099934",
+      "small": "https://coin-images.coingecko.com/asset_platforms/images/22200/small/soneium-removebg-preview.png?1737099934",
+      "large": "https://coin-images.coingecko.com/asset_platforms/images/22200/large/soneium-removebg-preview.png?1737099934"
     }
   },
   {

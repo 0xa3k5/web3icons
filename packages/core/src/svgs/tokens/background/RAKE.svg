@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#RAKE__a)">
+        <path fill="#12CF9C" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m8.07 5.03 2.43 9.72 9.5-2.78V12A8 8 0 1 1 8.07 5.03"/>
+        <path fill="#67E0BF" d="m10.2 4.2 2.05 7.3 7.38-1.905a8 8 0 0 0-.835-1.815L13.75 9.25l-1.365-5.24a8 8 0 0 0-2.185.195z"/>
+    </g>
+    <defs>
+        <clipPath id="RAKE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

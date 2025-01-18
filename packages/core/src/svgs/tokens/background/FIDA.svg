@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#FIDA__a)">
+        <path fill="#8081EE" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11.802 4.278h.409v3.663h-.409zM8.27 13.865l.214.35-3.094 1.852-.21-.345zm7.52.064-.21.35 3.14 1.881.21-.345z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M8.21 9.907 12 7.789l3.79 2.118v4.19L12 16.21l-3.79-2.114zm.422.185L12 8.21l3.369 1.882v3.722l-3.364 1.975-3.373-1.975z" clip-rule="evenodd"/>
+        <path fill="#fff" d="M11.794 11.878h.408v8h-.409z"/>
+        <path fill="#fff" d="m12.252 11.879-.21.345L5.09 8.245 5.3 7.9z"/>
+        <path fill="#fff" d="m11.79 11.879.21.345 6.948-3.979-.211-.345z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M4.842 8.021 12 4l7.158 4.021v7.962L12 20l-7.158-4.017zm.421.19L12 4.42l6.737 3.79v7.579L12 19.579l-6.737-3.79z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="FIDA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

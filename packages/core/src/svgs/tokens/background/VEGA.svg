@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#VEGA__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M5.334 4h2.133v11.733H5.334zM9.6 17.867H7.467v-2.134H9.6zm2.134 0V20H9.6v-2.133zm0 0v-2.134h2.133v2.134zM14.4 4h2.133v9.6H14.4zm2.133 9.6h2.134v2.133h-2.134z"/>
+    </g>
+    <defs>
+        <clipPath id="VEGA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

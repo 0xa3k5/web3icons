@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ABYSS__a)">
+        <path fill="url(#ABYSS__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.009 9.053c-1.2 0-2.115.185-2.115.185v1.92h4.21V9.24c.02 0-.895-.186-2.095-.186"/>
+        <path fill="#fff" d="M12 4C8.925 4 5.263 5.58 5.263 5.58v9.62L12 20l6.737-4.78V5.56C18.757 5.56 15.094 4 12 4m3.79 10.165-1.685 1.23v-2.553h-4.21v2.552L8.21 14.165V7.787s2.223-.508 3.808-.508c1.586 0 3.77.508 3.77.508z"/>
+    </g>
+    <defs>
+        <linearGradient id="ABYSS__b" x1="7.107" x2="17.983" y1="6.761" y2="15.986" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A025F3"/>
+            <stop offset="1" stop-color="#4212A0"/>
+        </linearGradient>
+        <clipPath id="ABYSS__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

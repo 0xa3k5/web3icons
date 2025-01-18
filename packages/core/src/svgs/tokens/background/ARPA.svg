@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ARPA__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#5A5967" d="M4.86 19 4 17.5h12.58L12 9.48l.845-1.485L19.115 19z"/>
+        <path fill="url(#ARPA__b)" d="M12.84 5 6.55 16h1.715l4.575-8 6.275 11L20 17.485z"/>
+        <path fill="url(#ARPA__c)" d="M4 17.5 11.18 5h1.665l-6.3 11h9.18l.855 1.5z"/>
+    </g>
+    <defs>
+        <linearGradient id="ARPA__b" x1="12.965" x2="13.29" y1="5.02" y2="18.6" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CBCCCD"/>
+            <stop offset="1" stop-color="#939493"/>
+        </linearGradient>
+        <linearGradient id="ARPA__c" x1="12.14" x2="4.405" y1="5" y2="17.44" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DCEBF5"/>
+            <stop offset="1" stop-color="#B9C6CC"/>
+        </linearGradient>
+        <clipPath id="ARPA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

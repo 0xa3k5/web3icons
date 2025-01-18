@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#POLYX__a)" d="M13.076 12c1.153 0 2.453-.488 2.453-1.765 0-1.229-1.247-1.764-2.453-1.764H9.647V7.294h3.612c1.894 0 3.447.959 3.447 2.941 0 1.983-1.63 2.942-3.447 2.942h-2.436v4.117H9.647V12z"/>
-    <path fill="url(#POLYX__b)" fill-rule="evenodd" d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20m0-1.177a8.824 8.824 0 1 0 0-17.648 8.824 8.824 0 0 0 0 17.649" clip-rule="evenodd"/>
+    <path fill="url(#POLYX__a)" d="M12.861 12c.923 0 1.962-.39 1.962-1.412 0-.983-.997-1.411-1.962-1.411h-2.743v-.942h2.89c1.514 0 2.757.767 2.757 2.353s-1.304 2.353-2.758 2.353H11.06v3.294h-.941V12z"/>
+    <path fill="url(#POLYX__b)" fill-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0-.941a7.06 7.06 0 1 0 0-14.12 7.06 7.06 0 0 0 0 14.12" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="POLYX__a" x1="119.583" x2="119.525" y1="1.612" y2="40.165" gradientUnits="userSpaceOnUse">
+        <linearGradient id="POLYX__a" x1="98.067" x2="98.02" y1="3.689" y2="34.532" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF2E72"/>
             <stop offset=".93" stop-color="#4A125E"/>
         </linearGradient>
-        <linearGradient id="POLYX__b" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="POLYX__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF2E72"/>
             <stop offset="1" stop-color="#631661"/>
         </linearGradient>

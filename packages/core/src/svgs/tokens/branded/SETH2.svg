@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#SETH2__a)" d="M12 13.765V2l-4.706 9.118z"/>
-    <path fill="url(#SETH2__b)" d="M12 13.765V2l4.706 9.118z"/>
-    <path fill="url(#SETH2__c)" d="m12 13.765-4.706-2.647-3.53 6.764z"/>
-    <path fill="url(#SETH2__d)" d="m12 13.765 4.706-2.647 3.53 6.764z"/>
-    <path fill="url(#SETH2__e)" d="M12 22v-8.235l-8.235 4.117z"/>
-    <path fill="url(#SETH2__f)" d="M12 22v-8.235l8.235 4.117z"/>
+    <path fill="url(#SETH2__a)" d="M12 13.411V4l-3.764 7.294z"/>
+    <path fill="url(#SETH2__b)" d="M12 13.411V4l3.765 7.294z"/>
+    <path fill="url(#SETH2__c)" d="m12 13.411-3.765-2.117-2.823 5.41z"/>
+    <path fill="url(#SETH2__d)" d="m12 13.411 3.765-2.117 2.823 5.41z"/>
+    <path fill="url(#SETH2__e)" d="M12 20v-6.588l-6.588 3.294z"/>
+    <path fill="url(#SETH2__f)" d="M12 20v-6.588l6.588 3.294z"/>
     <defs>
-        <linearGradient id="SETH2__a" x1="20.236" x2="14.58" y1="7" y2="22.752" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SETH2__a" x1="18.589" x2="14.065" y1="8" y2="20.601" gradientUnits="userSpaceOnUse">
             <stop stop-color="#7DC371"/>
             <stop offset="1" stop-color="#6FB063"/>
         </linearGradient>
-        <linearGradient id="SETH2__b" x1="3.765" x2="9.42" y1="7" y2="22.752" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SETH2__b" x1="5.412" x2="9.936" y1="8" y2="20.601" gradientUnits="userSpaceOnUse">
             <stop stop-color="#8DD981"/>
             <stop offset="1" stop-color="#9DE193"/>
         </linearGradient>
-        <linearGradient id="SETH2__c" x1="13.765" x2="1.065" y1="3.739" y2="15.398" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SETH2__c" x1="13.412" x2="3.253" y1="5.391" y2="14.718" gradientUnits="userSpaceOnUse">
             <stop stop-color="#649F5A"/>
             <stop offset="1" stop-color="#6FB063"/>
         </linearGradient>
-        <linearGradient id="SETH2__d" x1="12" x2="21.644" y1="2" y2="16.497" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SETH2__d" x1="12" x2="19.715" y1="4" y2="15.597" gradientUnits="userSpaceOnUse">
             <stop stop-color="#87D67C"/>
             <stop offset="1" stop-color="#88D77D"/>
         </linearGradient>
-        <linearGradient id="SETH2__e" x1="6.706" x2="20.364" y1="10.571" y2="12.528" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SETH2__e" x1="7.765" x2="18.691" y1="10.857" y2="12.422" gradientUnits="userSpaceOnUse">
             <stop stop-color="#65A05B"/>
             <stop offset="1" stop-color="#53894D"/>
         </linearGradient>
-        <linearGradient id="SETH2__f" x1="18.765" x2="12.588" y1="17.294" y2="20.823" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SETH2__f" x1="17.411" x2="12.471" y1="16.235" y2="19.059" gradientUnits="userSpaceOnUse">
             <stop stop-color="#78BF73"/>
             <stop offset="1" stop-color="#508D53"/>
         </linearGradient>

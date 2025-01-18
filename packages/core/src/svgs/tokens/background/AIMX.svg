@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#AIMX__a)">
+        <path fill="url(#AIMX__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m10.78 4.813-.074.057c-1.087 1.133-.406 3.667-1.001 5.663-.56 1.887-3.438 2.963-4.656 4.118a2.854 2.854 0 1 0 3.918 4.13h.011a2.1 2.1 0 0 0 .492-.761l.029-.08v-.029q.07-.172.114-.355c.55-2.013.206-5.433.675-6.657.59-1.539 1.653-2.317 2.54-3.169.612-.583 1-1.201.909-1.876v-.04a1.716 1.716 0 0 0-2.122-1.487 1.74 1.74 0 0 0-.835.486m5.788 13.195a1.716 1.716 0 1 0 3.432 0 1.716 1.716 0 0 0-3.432 0"/>
+    </g>
+    <defs>
+        <linearGradient id="AIMX__b" x1="6.349" x2="17.397" y1="6.797" y2="18.04" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#135554"/>
+            <stop offset="1" stop-color="#00A790"/>
+        </linearGradient>
+        <clipPath id="AIMX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KINE__a)">
+        <path fill="#12A8A7" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M5.066 4h4.8v4.8h-4.8zm0 11.2h4.8V20h-4.8zM9.333 12l5.333-8h4.267l-5.066 8 5.066 8h-4.267z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="KINE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

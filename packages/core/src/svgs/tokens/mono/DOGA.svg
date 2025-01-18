@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#fff" fill-rule="evenodd" d="M9.931 6.138H2V22h7.931a7.931 7.931 0 0 0 0-15.862m0 2.069H4.07V19.93h5.862a5.862 5.862 0 0 0 0-11.724" clip-rule="evenodd"/>
-    <path fill="#fff" d="m17.503 16.434-2.593.738a6 6 0 0 1-.38.531l1.36 1.593a7.8 7.8 0 0 0 1.613-2.862"/>
-    <path fill="#fff" fill-rule="evenodd" d="M14.069 2H6.138v15.862h7.93a7.93 7.93 0 1 0 0-15.862m0 2.069H8.207v11.724h5.862a5.862 5.862 0 1 0 0-11.724" clip-rule="evenodd"/>
-    <path fill="#fff" d="m8.207 10.276-2.07-2.069h2.07z"/>
+    <path fill="#fff" fill-rule="evenodd" d="M10.345 7.31H4.001V20h6.344a6.344 6.344 0 0 0 0-12.69m0 1.656h-4.69v9.379h4.69a4.69 4.69 0 0 0 0-9.38" clip-rule="evenodd"/>
+    <path fill="#fff" d="m16.402 15.547-2.074.59a5 5 0 0 1-.303.425l1.086 1.274a6.3 6.3 0 0 0 1.291-2.29"/>
+    <path fill="#fff" fill-rule="evenodd" d="M13.655 4H7.31v12.689h6.345a6.345 6.345 0 1 0 0-12.689m0 1.655h-4.69v9.379h4.69a4.69 4.69 0 1 0 0-9.379" clip-rule="evenodd"/>
+    <path fill="#fff" d="M8.965 10.62 7.31 8.967h1.655z"/>
 </svg>

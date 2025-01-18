@@ -1,66 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#INS__a)" d="M2.092 21.273v.726h.731l2.358-2.544v-.727H4.45z"/>
-    <path fill="url(#INS__b)" d="m8.955 22 1.16-2.566v-.707H9.36L8.2 21.293V22z"/>
-    <path fill="url(#INS__c)" d="M21.998 16.035v-.751l-2.468-1.326h-.711v.75l2.469 1.327z"/>
-    <path fill="url(#INS__d)" d="M21.998 8.716v-.751h-.71l-2.47 1.327v.75h.712z"/>
-    <path fill="url(#INS__e)" d="M8.199 2v.707L9.36 5.272h.755v-.707L8.955 2z"/>
-    <path fill="url(#INS__f)" d="M21.908 2.727V2h-.732L18.82 4.545v.727h.73z"/>
-    <path fill="#BE5095" d="M14.854 9.142h-.714v.714h.714z"/>
-    <path fill="url(#INS__g)" d="M13.886 18.728v.707l1.16 2.564h.756v-.707l-1.162-2.564z"/>
-    <path fill="url(#INS__h)" d="M15.8 2h-.754l-1.16 2.565v.707h.754l1.16-2.565z"/>
-    <path fill="url(#INS__i)" d="M21.908 22v-.727l-2.357-2.545h-.733v.727l2.358 2.544z"/>
-    <path fill="url(#INS__j)" d="M2.002 15.285v.75h.71l2.47-1.327v-.75H4.47z"/>
-    <path fill="url(#INS__k)" d="M2.092 2v.727l2.357 2.545h.732v-.727L2.823 2z"/>
-    <path fill="#BD687B" d="M9.141 14.855h.714v-.714h-.714z"/>
-    <path fill="url(#INS__l)" d="M2.002 7.965v.75l2.469 1.327h.71v-.75L2.712 7.965z"/>
-    <path fill="#AC5E90" d="M9.141 9.856h.714v-.714h-.714z"/>
-    <path fill="#C85C7F" d="M14.854 14.141h-.714v.714h.714z"/>
+    <path fill="url(#INS__a)" d="M4.074 19.418v.58h.585l1.886-2.035v-.582H5.96z"/>
+    <path fill="url(#INS__b)" d="m9.563 20 .929-2.053v-.566h-.604l-.929 2.053V20z"/>
+    <path fill="url(#INS__c)" d="M19.999 15.228v-.601l-1.975-1.061h-.569v.6l1.975 1.061z"/>
+    <path fill="url(#INS__d)" d="M19.999 9.373v-.601h-.569l-1.975 1.062v.6h.569z"/>
+    <path fill="url(#INS__e)" d="M8.959 4v.566l.929 2.051h.604v-.565L9.563 4z"/>
+    <path fill="url(#INS__f)" d="M19.927 4.582V4h-.586l-1.885 2.036v.581h.585z"/>
+    <path fill="#BE5095" d="M14.284 9.712h-.572v.572h.572z"/>
+    <path fill="url(#INS__g)" d="M13.508 17.381v.566l.929 2.052h.604v-.566l-.929-2.051z"/>
+    <path fill="url(#INS__h)" d="M15.04 4h-.603l-.929 2.052v.566h.604l.929-2.052z"/>
+    <path fill="url(#INS__i)" d="M19.927 19.999v-.581L18.04 17.38h-.586v.582l1.886 2.036z"/>
+    <path fill="url(#INS__j)" d="M4.001 14.627v.6h.569l1.975-1.061v-.6h-.568z"/>
+    <path fill="url(#INS__k)" d="M4.074 4v.582l1.885 2.035h.586v-.58L4.659 4z"/>
+    <path fill="#BD687B" d="M9.713 14.284h.571v-.571h-.571z"/>
+    <path fill="url(#INS__l)" d="M4.001 8.772v.6l1.976 1.061h.568v-.6L4.57 8.773z"/>
+    <path fill="#AC5E90" d="M9.713 10.284h.571v-.572h-.571z"/>
+    <path fill="#C85C7F" d="M14.284 13.713h-.572v.571h.572z"/>
     <defs>
-        <linearGradient id="INS__a" x1="21.998" x2="1.996" y1="2" y2="21.997" gradientUnits="userSpaceOnUse">
+        <linearGradient id="INS__a" x1="19.999" x2="3.997" y1="3.999" y2="19.997" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C27E64"/>
             <stop offset="1" stop-color="#CD8D56"/>
         </linearGradient>
-        <linearGradient id="INS__b" x1="17.437" x2="2.006" y1="2.004" y2="21.995" gradientUnits="userSpaceOnUse">
+        <linearGradient id="INS__b" x1="16.349" x2="4.004" y1="4.003" y2="19.996" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CB7365"/>
             <stop offset="1" stop-color="#D57D56"/>
         </linearGradient>
-        <linearGradient id="INS__c" x1="2.002" x2="21.999" y1="2.007" y2="18.931" gradientUnits="userSpaceOnUse">
+        <linearGradient id="INS__c" x1="4.002" x2="19.999" y1="4.005" y2="17.544" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D75080"/>
             <stop offset="1" stop-color="#E34B76"/>
         </linearGradient>
-        <linearGradient id="INS__d" x1="1.391" x2="22.008" y1="19.662" y2="2.01" gradientUnits="userSpaceOnUse">
+        <linearGradient id="INS__d" x1="3.513" x2="20.007" y1="18.129" y2="4.008" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CF4794"/>
             <stop offset="1" stop-color="#D739A3"/>
         </linearGradient>
-        <linearGradient id="INS__e" x1="2.009" x2="19.685" y1="2" y2="21.991" gradientUnits="userSpaceOnUse">
+        <linearGradient id="INS__e" x1="4.007" x2="18.148" y1="4" y2="19.993" gradientUnits="userSpaceOnUse">
             <stop stop-color="#8554B2"/>
             <stop offset="1" stop-color="#9C55A5"/>
         </linearGradient>
-        <linearGradient id="INS__f" x1="2.381" x2="22.003" y1="21.62" y2="2.007" gradientUnits="userSpaceOnUse">
+        <linearGradient id="INS__f" x1="4.305" x2="20.003" y1="19.696" y2="4.006" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C43CAE"/>
             <stop offset="1" stop-color="#CD2CC3"/>
         </linearGradient>
-        <linearGradient id="INS__g" x1="2.404" x2="18.008" y1="2.493" y2="21.99" gradientUnits="userSpaceOnUse">
+        <linearGradient id="INS__g" x1="4.323" x2="16.806" y1="4.394" y2="19.991" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D66766"/>
             <stop offset="1" stop-color="#E26A55"/>
         </linearGradient>
-        <linearGradient id="INS__h" x1="2.002" x2="18.493" y1="21.996" y2="2" gradientUnits="userSpaceOnUse">
+        <linearGradient id="INS__h" x1="4.002" x2="17.194" y1="19.997" y2="4" gradientUnits="userSpaceOnUse">
             <stop stop-color="#AD4AA9"/>
             <stop offset="1" stop-color="#AD3EBB"/>
         </linearGradient>
-        <linearGradient id="INS__i" x1="2.006" x2="22.009" y1="2" y2="21.988" gradientUnits="userSpaceOnUse">
+        <linearGradient id="INS__i" x1="4.005" x2="20.008" y1="3.999" y2="19.99" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E15A68"/>
             <stop offset="1" stop-color="#EB5A55"/>
         </linearGradient>
-        <linearGradient id="INS__j" x1="21.998" x2="1.988" y1="2" y2="18.592" gradientUnits="userSpaceOnUse">
+        <linearGradient id="INS__j" x1="19.999" x2="3.991" y1="3.999" y2="17.273" gradientUnits="userSpaceOnUse">
             <stop stop-color="#AC757A"/>
             <stop offset="1" stop-color="#AC8270"/>
         </linearGradient>
-        <linearGradient id="INS__k" x1="2.002" x2="21.939" y1="2" y2="21.932" gradientUnits="userSpaceOnUse">
+        <linearGradient id="INS__k" x1="4.002" x2="19.951" y1="4" y2="19.946" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6466AA"/>
             <stop offset="1" stop-color="#8563A1"/>
         </linearGradient>
-        <linearGradient id="INS__l" x1="2.298" x2="22.006" y1="2.254" y2="19.185" gradientUnits="userSpaceOnUse">
+        <linearGradient id="INS__l" x1="4.239" x2="20.005" y1="4.204" y2="17.748" gradientUnits="userSpaceOnUse">
             <stop stop-color="#857390"/>
             <stop offset="1" stop-color="#986C8D"/>
         </linearGradient>

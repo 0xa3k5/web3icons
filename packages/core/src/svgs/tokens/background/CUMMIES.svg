@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CUMMIES__a)">
+        <path fill="url(#CUMMIES__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M13.69 7.5H11l.69-2h-1.265l-3.675 9h1.305l.945-2h2.73l-.92 2.135L8.885 16h-4.15L4 14.635l3.65-9.27L9.5 4h4.19l.81 1.365z"/>
+        <path fill="#fff" fill-rule="evenodd" d="m17.355 16.725-1.44.73.73 1.1-.63 1.445H13.41l.84-2h-1.3l-.805 2H9.5l4.54-11h5.01l.95 1.445zm-3.315-1.2c-.02-.115-.04-.205-.035-.255.02-.155.035-.19.3-.32-.23-.1-.185-.385-.13-.51-.145.035-.475.14-.67.285-.065-.59.425-.87.68-.94-.06-.095-.075-.54.345-1.575.42-1.03 1.515-1.57 2.01-1.71.27.475.705 1.68.285 2.71-.42 1.035-.75 1.33-.86 1.35.14.24.305.805-.16 1.16a2.4 2.4 0 0 0-.3-.7c-.05.125-.215.355-.46.25.105.29.095.325 0 .45-.035.04-.11.085-.21.15-.21.125-.515.31-.735.63a2.5 2.5 0 0 0-.06-.975" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="CUMMIES__b" x1="7.714" x2="16.143" y1="5.429" y2="18.286" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F000E1"/>
+            <stop offset=".38" stop-color="#FD00B3"/>
+            <stop offset=".74" stop-color="#F0A"/>
+            <stop offset="1" stop-color="#D517D1"/>
+        </linearGradient>
+        <clipPath id="CUMMIES__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

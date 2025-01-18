@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DIA__a)">
+        <path fill="url(#DIA__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11.054 8.706V6.823h2.352l3.53 2.824.706 2.824c0 5.647-5.647 7.53-7.765 7.53s-3.53-1.177-3.53-1.413l3.53-.47c1.569-1.02 4.753-3.577 4.941-5.647 0-2.118-2.431-3.373-3.764-3.765"/>
+        <path fill="#fff" d="M11.054 16.235H8.701V4h2.118c3.263 0 7.059 2.824 6.823 8.941-.47-4.235-4.784-6.117-6.588-6.117z"/>
+        <path fill="#fff" d="M8.7 4 6.349 5.647v12.941h2.117c3.264 0 6.824-2.588 6.353-6.117-.94 3.294-4.314 3.764-6.117 3.764z"/>
+    </g>
+    <defs>
+        <linearGradient id="DIA__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5A3B90"/>
+            <stop offset=".292" stop-color="#614397"/>
+            <stop offset=".615" stop-color="#8071B3"/>
+            <stop offset=".857" stop-color="#AEBADE"/>
+            <stop offset="1" stop-color="#C2DCF1"/>
+        </linearGradient>
+        <clipPath id="DIA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#AQTIS__a)">
+        <path fill="url(#AQTIS__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12.118 4.941 20 19.06H4zm-.504 1.784 3.398 4.324-2.9-5.19zm2.447 3.844-2.687-3.42-.263.456 2.945 2.964zm-3.186-2.56-.06.109 1.27 1.106zm2.683 3.092-2.97-2.588-.226.405 3.2 2.183zm-4.273-.32-4.504 7.83h2.165zm-1.864 7.83h1.313l.805-7.105zm2.494-6.395.15 5.553-.846.593zm1.727 6.396h7.59l-.648-1.158zm6.711-1.577-.659-1.186-6.438 2.367zm-6.668.546 5.788-2.127-.447-.8zm5.124-3.317-.268-.48-4.117 2.88zm-6.296 3.195.584-.405-.716-4.565zm-.15-7.99 1.148 7.293 4.706-3.294z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="AQTIS__b" x1="12" x2="12" y1="4.941" y2="19.059" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#BDDC78"/>
+            <stop offset="1" stop-color="#5AD9E6"/>
+        </linearGradient>
+        <clipPath id="AQTIS__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

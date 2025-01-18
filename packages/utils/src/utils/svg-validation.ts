@@ -18,20 +18,19 @@ export const validateSvg = (filePath: string): boolean => {
     return false
   }
 
-  const isValidFileName = /^[a-zA-Z0-9]+$/g.test(fileName)
+  const isValidFileName = /^[a-zA-Z0-9-]+$/g.test(fileName)
   if (!isValidFileName) {
     console.error(
-      `❌ ${fileName}/${variant}: Invalid file name. File name should not include special characters.`,
+      `❌ ${fileName}/${variant}: Invalid file name. File name should only include letters, numbers, and dashes.`,
     )
     return false
   }
 
-  if (type === 'token' && !isUppercase(fileName)) {
-    console.error(`❌ ${fileName}/${variant}: Invalid file name for ${type}. Expected uppercase.`)
-    return false
-  }
-  if ((type === 'network' || type === 'wallet' || type === 'exchange') && !isKebabCase(fileName)) {
-    console.error(`❌ ${fileName}/${variant}: Invalid file name for ${type}. Expected kebab-case.`)
+  const namingConvention = type === 'token' ? isUppercase : isKebabCase
+  if (!namingConvention(fileName)) {
+    console.error(
+      `❌ ${fileName}/${variant}: Invalid file name for ${type}. Expected ${type === 'token' ? 'uppercase' : 'kebab-case'}.`,
+    )
     return false
   }
   return true

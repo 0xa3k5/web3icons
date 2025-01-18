@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TBTC__a)">
+        <path fill="#090502" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0m-1.882 0a6.117 6.117 0 1 1-12.235 0 6.117 6.117 0 0 1 12.235 0M12.94 9.176a.941.941 0 1 1-1.882 0 .941.941 0 0 1 1.882 0m1.882 2.353H9.176v.942h2.353v2.823h.942v-2.823h2.352z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="TBTC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

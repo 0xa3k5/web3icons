@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#RBW__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#RBW__b)" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16"/>
+        <path fill="#F6F7F3" fill-rule="evenodd" d="M7.892 16.141c.7.88 2.268 2.668 6.456 1.694-.739-.635-2.221-2.306-2.273-3.892-.73-.103-2.127-.625-1.863-1.896.056.452.498 1.412 1.788 1.624.193.014.673.014 1.05-.09.253-.07.404-.033.592.01.155.037.334.08.63.08.655 0 1.488-.833 1.79-1.153l-1.046-.998a1.83 1.83 0 0 0 .58-1.51l2.521-2.165-3.106 1.1a3.4 3.4 0 0 0-1.962-.64c-1.176 0-4.687 1.093-5.157 4.966zm6.06-6.301c-.225.419-.616 1.303-.343 1.501.278.198.8-.324 1.036-.612-.236-.15-.692-.55-.692-.889" clip-rule="evenodd"/>
+        <path fill="url(#RBW__c)" d="M10.047 8.857c-2.682 1.788-2.922 5.52-2.706 7.162-.546-.767-1.459-2.282-1.459-3.896 0-1.294.518-2.494.772-2.932l.602-.33h1.93l-1.304-.795h-.47c1.007-1.317 2.917-2.004 3.75-2.183l1.19 1.51V6.156l-.103-.273c2.523.094 3.826 1.412 4.165 2.052l-1.779.39c-1.68-.95-3.76-.042-4.588.532"/>
+        <path fill="url(#RBW__d)" d="M19.06 12a7.06 7.06 0 1 1-1.446-4.283l-.48.151a6.588 6.588 0 1 0 .471.659l.376-.268a7.03 7.03 0 0 1 1.078 3.74"/>
+    </g>
+    <defs>
+        <linearGradient id="RBW__b" x1="21.252" x2="12" y1="8.009" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0D183A"/>
+            <stop offset=".22" stop-color="#112A73"/>
+            <stop offset=".29" stop-color="#13224E"/>
+            <stop offset=".46" stop-color="#18417B"/>
+            <stop offset=".73" stop-color="#0F2771"/>
+            <stop offset="1" stop-color="#0D1839"/>
+        </linearGradient>
+        <linearGradient id="RBW__c" x1="18.434" x2="8.081" y1="7.417" y2="21.221" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#8EF6EE"/>
+            <stop offset=".3" stop-color="#5C71D9"/>
+            <stop offset=".67" stop-color="#D73960"/>
+            <stop offset="1" stop-color="#F8CF44"/>
+        </linearGradient>
+        <linearGradient id="RBW__d" x1="4.725" x2="19.798" y1="11.2" y2="15.543" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#1774C8"/>
+            <stop offset="1" stop-color="#17458A"/>
+        </linearGradient>
+        <clipPath id="RBW__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

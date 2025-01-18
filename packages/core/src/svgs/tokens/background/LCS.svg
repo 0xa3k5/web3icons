@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#LCS__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#C4C4C4" d="M8.09 8.907a.764.764 0 0 1 1.224 0l3.938 5.29a.758.758 0 0 1-.471 1.197.5.5 0 0 1-.274-.039l-2.155-.83a4.6 4.6 0 0 0-3.301 0l-2.155.83a.5.5 0 0 1-.274.039.758.758 0 0 1-.47-1.197z"/>
+        <path fill="url(#LCS__b)" d="M8.09 8.907a.764.764 0 0 1 1.224 0l3.938 5.29a.758.758 0 0 1-.471 1.197.5.5 0 0 1-.274-.039l-2.155-.83a4.6 4.6 0 0 0-3.301 0l-2.155.83a.5.5 0 0 1-.274.039.758.758 0 0 1-.47-1.197z"/>
+        <path fill="url(#LCS__c)" fill-rule="evenodd" d="m13.073 13.958.179.24a.758.758 0 0 1-.471 1.196.5.5 0 0 1-.274-.038l-2.155-.83a4.6 4.6 0 0 0-2.936-.123l-.025-.012c1.546-.584 4.81-1.49 5.565-.569q.062.076.117.136" clip-rule="evenodd"/>
+        <path fill="url(#LCS__d)" d="M14.686 15.093a.763.763 0 0 0 1.225 0l3.937-5.29a.758.758 0 0 0-.47-1.198.5.5 0 0 0-.275.039l-2.154.83a4.6 4.6 0 0 1-3.302 0l-2.154-.83a.5.5 0 0 0-.274-.039.758.758 0 0 0-.471 1.198z"/>
+        <path fill="url(#LCS__e)" fill-rule="evenodd" d="m19.671 10.042.178-.24a.758.758 0 0 0-.47-1.197.5.5 0 0 0-.275.039l-2.154.83a4.6 4.6 0 0 1-2.936.123l-.026.012c1.547.584 4.811 1.49 5.566.569q.061-.076.117-.136" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="LCS__b" x1="12" x2="12" y1="8.6" y2="15.4" gradientUnits="userSpaceOnUse">
+            <stop offset=".146" stop-color="#283DA8"/>
+            <stop offset=".615" stop-color="#4196F9"/>
+        </linearGradient>
+        <linearGradient id="LCS__c" x1="11.999" x2="11.999" y1="8.6" y2="15.401" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#283EAA"/>
+            <stop offset=".776" stop-color="#4171F9"/>
+        </linearGradient>
+        <linearGradient id="LCS__d" x1="12" x2="12" y1="15.399" y2="8.599" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DB9D16"/>
+            <stop offset="1" stop-color="#E2DA20"/>
+        </linearGradient>
+        <linearGradient id="LCS__e" x1="16.994" x2="16.994" y1="10.572" y2="8.599" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E0A500"/>
+            <stop offset=".743" stop-color="#ECCD3C"/>
+        </linearGradient>
+        <clipPath id="LCS__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

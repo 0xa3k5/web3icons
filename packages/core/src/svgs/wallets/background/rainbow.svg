@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#rainbow__a)">
+        <path fill="url(#rainbow__b)" d="M24 0H0v24h24z"/>
+        <path fill="url(#rainbow__c)" d="M4.095 8.035h1.2c6.186 0 11.2 5.014 11.2 11.2v1.2h2.4a1.2 1.2 0 0 0 1.2-1.2c0-8.174-6.626-14.8-14.8-14.8a1.2 1.2 0 0 0-1.2 1.2z"/>
+        <path fill="url(#rainbow__d)" d="M16.896 19.235h3.2a1.2 1.2 0 0 1-1.2 1.2h-2z"/>
+        <path fill="url(#rainbow__e)" d="M5.295 4.435v3.2h-1.2v-2a1.2 1.2 0 0 1 1.2-1.2"/>
+        <path fill="url(#rainbow__f)" d="M4.095 7.635h1.2c6.407 0 11.6 5.193 11.6 11.6v1.2h-3.6v-1.2a8 8 0 0 0-8-8h-1.2z"/>
+        <path fill="url(#rainbow__g)" d="M13.696 19.235h3.2v1.2h-3.2z"/>
+        <path fill="url(#rainbow__h)" d="M4.095 10.835v-3.2h1.2v3.2z"/>
+        <path fill="url(#rainbow__i)" d="M4.095 12.835a1.2 1.2 0 0 0 1.2 1.2 5.2 5.2 0 0 1 5.2 5.2 1.2 1.2 0 0 0 1.2 1.2h2v-1.2a8.4 8.4 0 0 0-8.4-8.4h-1.2z"/>
+        <path fill="url(#rainbow__j)" d="M10.495 19.235h3.2v1.2h-2a1.2 1.2 0 0 1-1.2-1.2"/>
+        <path fill="url(#rainbow__k)" d="M5.295 14.035a1.2 1.2 0 0 1-1.2-1.2v-2h1.2z"/>
+    </g>
+    <defs>
+        <radialGradient id="rainbow__c" cx="0" cy="0" r="1" gradientTransform="rotate(-90 12.265 6.97)scale(14.8)" gradientUnits="userSpaceOnUse">
+            <stop offset=".77" stop-color="#FF4000"/>
+            <stop offset="1" stop-color="#8754C9"/>
+        </radialGradient>
+        <radialGradient id="rainbow__f" cx="0" cy="0" r="1" gradientTransform="rotate(-90 12.265 6.97)scale(11.6)" gradientUnits="userSpaceOnUse">
+            <stop offset=".724" stop-color="#FFF700"/>
+            <stop offset="1" stop-color="#FF9901"/>
+        </radialGradient>
+        <radialGradient id="rainbow__i" cx="0" cy="0" r="1" gradientTransform="rotate(-90 12.265 6.97)scale(8.4)" gradientUnits="userSpaceOnUse">
+            <stop offset=".595" stop-color="#0AF"/>
+            <stop offset="1" stop-color="#01DA40"/>
+        </radialGradient>
+        <radialGradient id="rainbow__j" cx="0" cy="0" r="1" gradientTransform="matrix(3.4 0 0 9.06667 10.295 19.835)" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0AF"/>
+            <stop offset="1" stop-color="#01DA40"/>
+        </radialGradient>
+        <radialGradient id="rainbow__k" cx="0" cy="0" r="1" gradientTransform="matrix(0 -3.4 64.474 0 4.695 14.235)" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0AF"/>
+            <stop offset="1" stop-color="#01DA40"/>
+        </radialGradient>
+        <linearGradient id="rainbow__b" x1="12" x2="12" y1="0" y2="24" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#174299"/>
+            <stop offset="1" stop-color="#001E59"/>
+        </linearGradient>
+        <linearGradient id="rainbow__d" x1="16.695" x2="20.096" y1="19.835" y2="19.835" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF4000"/>
+            <stop offset="1" stop-color="#8754C9"/>
+        </linearGradient>
+        <linearGradient id="rainbow__e" x1="4.695" x2="4.695" y1="4.435" y2="7.835" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#8754C9"/>
+            <stop offset="1" stop-color="#FF4000"/>
+        </linearGradient>
+        <linearGradient id="rainbow__g" x1="13.696" x2="16.896" y1="19.835" y2="19.835" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFF700"/>
+            <stop offset="1" stop-color="#FF9901"/>
+        </linearGradient>
+        <linearGradient id="rainbow__h" x1="4.695" x2="4.695" y1="10.835" y2="7.635" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFF700"/>
+            <stop offset="1" stop-color="#FF9901"/>
+        </linearGradient>
+        <clipPath id="rainbow__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

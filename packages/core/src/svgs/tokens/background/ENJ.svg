@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ENJ__a)">
+        <path fill="url(#ENJ__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M18.275 16.267h-7.219c-1.69-.003-2.838-1.204-3.516-2.667h10.89c.892 0 1.57-.734 1.57-1.6s-.678-1.6-1.57-1.6H7.393c.532-1.454 2.055-2.668 3.662-2.667h7.219c.89 0 1.57-.681 1.57-1.54 0-.865-.688-1.66-1.57-1.66h-7.219C7.157 4.533 4 7.888 4 12v.224c.057 1.939.825 3.778 2.142 5.13s3.079 2.11 4.914 2.113h7.219c.892 0 1.57-.795 1.57-1.66 0-.866-.678-1.54-1.57-1.54"/>
+    </g>
+    <defs>
+        <linearGradient id="ENJ__b" x1="19.267" x2="7.954" y1="15.85" y2="5.332" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9468FF"/>
+            <stop offset="1" stop-color="#ADF8FF"/>
+        </linearGradient>
+        <clipPath id="ENJ__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

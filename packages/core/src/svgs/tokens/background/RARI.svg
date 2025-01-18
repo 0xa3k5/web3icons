@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#RARI__a)">
+        <path fill="url(#RARI__b)" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M4.5 6h12.79c1.773 0 3.21 1.427 3.21 3.187a3.19 3.19 0 0 1-1.78 2.855 3.14 3.14 0 0 1 1.767 3.1h.013V18h-4.571v-3.043c0-.528-.485-.957-1.082-.957H9.07v4H4.5zm10.571 2.857h-6v1.714h6c.369 0 .858-.384.858-.857s-.489-.857-.858-.857" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="RARI__b" x1="6.088" x2="18.715" y1="8.376" y2="17.673" gradientUnits="userSpaceOnUse">
+            <stop offset=".058" stop-color="#2568FF"/>
+            <stop offset=".306" stop-color="#5E9AFE"/>
+            <stop offset=".819" stop-color="#FF74F2"/>
+        </linearGradient>
+        <clipPath id="RARI__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

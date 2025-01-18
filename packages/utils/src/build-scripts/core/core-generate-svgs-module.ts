@@ -8,7 +8,7 @@ import {
   SVG_EXCHANGES_OUT_DIR,
 } from '../../constants'
 import { kebabToPascalCase } from '../../utils'
-import { TType } from '@web3icons/common'
+import { TType, TVariant } from '@web3icons/common'
 
 const readSvgFilesFromDir = (dirPath: string) => {
   return fs
@@ -21,32 +21,27 @@ export function generateSvgModule() {
   let fileContent = '/* Generated */\n'
   let svgObjectContent = 'export const svgs = {\n'
 
-  const initializeObjectContent = () => {
-    return {
-      mono: '',
-      branded: '',
-    }
-  }
-
   const processDirectory = (dirPath: string, type: TType) => {
-    const typeObjectContent = initializeObjectContent()
+    const variants = ['branded', 'mono', 'background']
+    let typeObjectContent = variants.reduce(
+      (acc, variant) => {
+        const svgFiles = readSvgFilesFromDir(path.join(dirPath, variant))
+        const variantContent = svgFiles
+          .map((svgFile) => {
+            const variableName = kebabToPascalCase(svgFile)
+            const variableTypeAbbr = type.slice(0, 1).toUpperCase()
+            const importName = `${variableTypeAbbr}${variant.charAt(0).toUpperCase() + variant.slice(1)}${variableName}`
+            fileContent += `import * as ${importName} from './svgs/${type}s/${variant}/${svgFile}.svg';\n`
+            return `      '${svgFile}': ${importName},\n`
+          })
+          .join('')
+        acc[variant as TVariant] = variantContent
+        return acc
+      },
+      { branded: '', mono: '', background: '' },
+    )
 
-    ;['branded', 'mono'].forEach((variant) => {
-      const svgFiles = readSvgFilesFromDir(path.join(dirPath, variant))
-
-      svgFiles.forEach((svgFile) => {
-        const variableName = kebabToPascalCase(svgFile)
-        const variableTypeAbbr = type.slice(0, 1).toUpperCase() // N (networks), T (tokens), W (wallets), E (exchanges)
-        const importName = `${variableTypeAbbr}${variant.charAt(0).toUpperCase() + variant.slice(1)}${variableName}`
-
-        fileContent += `import * as ${importName} from './svgs/${type}s/${variant}/${svgFile}.svg';\n`
-
-        const objectContent = `      '${svgFile}': ${importName},\n`
-        typeObjectContent[variant as 'mono' | 'branded'] += objectContent
-      })
-    })
-
-    return `  ${type}s: {\n    mono: {\n${typeObjectContent.mono}    },\n    branded: {\n${typeObjectContent.branded}    }\n  },\n`
+    return `  ${type}s: {\n    branded: {\n${typeObjectContent.branded}    },\n    mono: {\n${typeObjectContent.mono}    },\n    background: {\n${typeObjectContent.background}    }\n  },\n`
   }
 
   svgObjectContent += processDirectory(SVG_TOKENS_OUT_DIR, 'token')

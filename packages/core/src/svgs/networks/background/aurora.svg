@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#aurora__a)">
+        <path fill="url(#aurora__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M13.671 6.38a1.866 1.866 0 0 0-3.35 0l-5.056 9.583a1.867 1.867 0 0 0 1.675 2.705h10.112a1.867 1.867 0 0 0 1.676-2.705zM9.367 5.9a2.933 2.933 0 0 1 5.259 0l5.061 9.584a2.932 2.932 0 0 1-2.635 4.25H6.94a2.946 2.946 0 0 1-2.635-4.25l5.062-9.579z"/>
+    </g>
+    <defs>
+        <linearGradient id="aurora__b" x1="16.968" x2="7.492" y1="5.952" y2="18.537" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#95E141"/>
+            <stop offset=".59" stop-color="#63B836"/>
+            <stop offset="1" stop-color="#409C2D"/>
+        </linearGradient>
+        <clipPath id="aurora__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

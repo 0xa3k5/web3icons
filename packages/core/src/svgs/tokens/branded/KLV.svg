@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#KLV__a)" d="M22 21.643h-9.63L22 12.357z"/>
-    <path fill="url(#KLV__b)" d="M22 21.643H2V2.357z"/>
-    <path fill="#000" d="M22 21.643 17.186 17l1.11-1.071z" opacity=".14"/>
+    <path fill="url(#KLV__a)" d="M20 19.714h-7.703L20 12.286z"/>
+    <path fill="url(#KLV__b)" d="M20 19.714H4V4.286z"/>
+    <path fill="#000" d="M20 19.714 16.148 16l.89-.857z" opacity=".14"/>
     <defs>
-        <linearGradient id="KLV__a" x1="11.999" x2="11.999" y1="2.268" y2="21.681" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KLV__a" x1="12" x2="12" y1="4.214" y2="19.745" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF4681"/>
             <stop offset="1" stop-color="#9B44F6"/>
         </linearGradient>
-        <linearGradient id="KLV__b" x1="-2.764" x2="16.538" y1="7.406" y2="27.423" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KLV__b" x1=".189" x2="15.631" y1="8.324" y2="24.339" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF4681"/>
             <stop offset=".739" stop-color="#9B44F6"/>
         </linearGradient>

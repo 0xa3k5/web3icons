@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#BCMC__a)">
+        <path fill="url(#BCMC__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 19.059a7.06 7.06 0 1 0 0-14.12 7.06 7.06 0 0 0 0 14.12M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
+        <path fill="#fff" d="M12 7.294H9.177V12l.94-.471V8.235H12a1.412 1.412 0 0 1 .626 2.678c-2.588 1.284-5.238 2.494-7.845 3.755l.414.847 7.12-3.464s1.106-.47 1.422-.818A2.344 2.344 0 0 0 12 7.293m7.633 2.748-.414-.847-4.913 2.56a1.883 1.883 0 0 1-.894 3.539h-3.294v-1.567l-.941.48v2.028h4.235a2.822 2.822 0 0 0 2.39-4.33z"/>
+    </g>
+    <defs>
+        <linearGradient id="BCMC__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FCAB2F"/>
+            <stop offset="1" stop-color="#E45E0E"/>
+        </linearGradient>
+        <clipPath id="BCMC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MARS4__a)">
+        <path fill="#CF2437" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m10.37 4-5.015 8.75a2.43 2.43 0 0 0-.32 1.311c.026 1.172.785 2.327 2.075 2.327h8.76V20h3.096v-4.644a2.064 2.064 0 0 0-2.064-2.064H8.58l5.366-9.287h-3.575z"/>
+    </g>
+    <defs>
+        <clipPath id="MARS4__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

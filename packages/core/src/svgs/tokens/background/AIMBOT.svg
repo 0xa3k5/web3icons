@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#AIMBOT__a)">
+        <path fill="url(#AIMBOT__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m8.4 11.86 3.584 1.74L15.6 12l-3.616-1.6"/>
+        <path fill="#fff" d="m8.4 11.86 3.584 1.74v-3.2z"/>
+        <path fill="#fff" d="M18.028 8H5.972L4 10.268v3.464L5.972 16h12.056L20 13.732v-3.464zm.1 5.36s-.648 1.04-.984 1.04H6.856c-.336 0-.984-1.04-.984-1.04s-.068-.692-.068-1.352.068-1.352.068-1.352L6.856 9.6h10.288l.984 1.056s.068.692.068 1.352-.068 1.352-.068 1.352"/>
+    </g>
+    <defs>
+        <linearGradient id="AIMBOT__b" x1="956.904" x2="822.008" y1="339.65" y2="566.614" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#fff"/>
+            <stop offset="1" stop-color="#8F9196"/>
+        </linearGradient>
+        <clipPath id="AIMBOT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

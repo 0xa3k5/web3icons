@@ -1,85 +1,85 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#FARA__a)" d="M12.527 13.895V9.168l.51.127.68 1.279h3.4l-.19 1.126a2.84 2.84 0 0 0-1.215-.337c-.495 0-.932.321-1.09.484v1.537l-.337.269-1.4.452z"/>
-    <path fill="url(#FARA__b)" d="m12.985 9.4-.458-.242.174-.169h1.684l.227.3v.648l.979-.948H17l.263.406v1.894l-.337.406-.194-.406-.348-.736-1.926-.274-1.474-.884z"/>
-    <path fill="#BCBBB9" d="M12.832 13.4V9.31l.42-.105h.9l.264.105v.769h.568l.806-.88h.947l.195.275V11.1l-.2.21c-.095-.11-.427-.342-1-.342-.827 0-1.216.51-1.316.764v1.336l-1.168.537-.416-.21z"/>
-    <path fill="#C6C6C6" d="M6.264 10.705H3.527c.073.453-.142.569-.142.695.747 1.132-.158 2.137-.753 3.01 2.174 1.532 2.221 3.648 2.326 3.906.79-.963 1.58-3.305 1.58-4.337 0-.826-.185-2.526-.28-3.274z"/>
-    <path fill="url(#FARA__c)" d="m5.738 16.947.326-2.02c-.242-.4-.853-1.348-1.342-1.348s-1.263.6-1.584.82h-.506l-.005.011a5.42 5.42 0 0 1 2.28 3.674q.015.118.052.232c.273-.332.542-.827.784-1.369z"/>
-    <path fill="url(#FARA__d)" d="M3.675 10.705c.19.342.432.958.432 1.663 0 .869-.653 1.721-.969 2.037h-.526l.195-.279c.394-.552.757-1.168.773-1.82.01-.295.006-.6-.195-.906 0-.042.022-.079.048-.126.058-.106.147-.258.09-.569h.157z"/>
-    <path fill="url(#FARA__e)" d="m6.384 11.82-.7 1.4c0 1.148.048 3.806-.736 5.08l.01.016c.79-.964 1.579-3.306 1.579-4.337 0-.526-.074-1.395-.153-2.158"/>
-    <path fill="url(#FARA__f)" d="M4.91 18.12a4.25 4.25 0 0 0-1.768-3.715h-.537a5.7 5.7 0 0 1 2.3 3.69v.026z"/>
-    <path fill="url(#FARA__g)" d="M4.717 9.179a6.1 6.1 0 0 1-2.684-.105c-.18.837.416 1.758.737 2.116.09-.153.326-.458.552-.458.221 0 .469.305.564.458.073-.132.368-.39.968-.39.595 0 .921.232 1.01.347.132-.168.506-.51.916-.51.51 0 .837.379 1.01.553-.115-2.395-1.541-2.285-3.073-2.011"/>
-    <path fill="#776E5F" d="M6.022 5.684c-.274 0-.747.39-.947.58l.879.904c.263-.157.8-.526.8-.789 0-.326-.39-.695-.732-.695"/>
-    <path fill="#614108" d="M6.21 7.368 5.08 6.21l-.775.78.158.147-.158.226h-.2v2.005a22 22 0 0 0 1.6-.263c-.057-1.21.316-1.668.506-1.742z"/>
-    <path fill="url(#FARA__h)" d="m5.684 10.021-.873-.653-.706.853.89.726z"/>
-    <path fill="url(#FARA__i)" d="M3.906 11.158c.01-.3-.073-.737-.505-.737-.368 0-.568.4-.652.747l.015.022c.095-.132.332-.39.558-.39.221 0 .469.263.563.39l.021-.027z"/>
-    <path fill="url(#FARA__j)" d="M7.737 11.142c-.105-.284-.395-.72-.868-.72-.384 0-.71.341-.89.604.18-.158.474-.342.8-.342.463 0 .774.285.958.453z"/>
-    <path fill="url(#FARA__k)" d="m2.669 11.074.384-.706-1.047-.826c.052.605.4 1.195.663 1.526z"/>
-    <path fill="url(#FARA__l)" d="M7.79 10.526v-1.22l3.779.173.305 2.584-.137 1.837c-.158-.058-.736-.18-1.773-.18-1.032 0-1.669.259-1.858.385l-.316-.3v-1.742c.058-.142.316-.463.9-.616.732-.19 1.068-.39 1.068-.631 0-.237-.131-.464-.768-.464-.51 0-.842.232-.947.348z"/>
-    <path fill="#EEEAE9" d="M8.843 8.842c-.653 0-.974.305-1.053.458l2.384.684 1.332 3.068.237.806.258-.227V9.98c0-.663-.69-1.037-1.032-1.137z"/>
-    <path fill="#BCBBB9" d="M8.048 9.368v.837c.105-.073.453-.216 1.005-.216.7 0 1 .211 1 .764 0 .547-.3.647-1 .779-.552.105-.815.394-.873.526v1.353c.026.063.105.189.179.189.531-.274 2.4-.242 3.268-.19V9.933c0-.274-.584-.895-1.874-.895-1.036 0-1.568.216-1.705.326z"/>
-    <path fill="url(#FARA__m)" d="M17.79 10.526v-1.22l3.778.173.306 2.584-.137 1.837c-.158-.058-.737-.18-1.774-.18-1.031 0-1.668.259-1.858.385l-.315-.3v-1.742c.057-.142.315-.463.9-.616.731-.19 1.068-.39 1.068-.631 0-.237-.132-.464-.768-.464-.511 0-.843.232-.948.348z"/>
-    <path fill="#EEEAE9" d="M18.842 8.842c-.652 0-.973.305-1.052.458l2.384.684 1.331 3.068.237.806.258-.227V9.98c0-.663-.69-1.037-1.032-1.137z"/>
-    <path fill="#BCBBB9" d="M18.047 9.368v.837c.106-.073.453-.216 1.006-.216.7 0 1 .211 1 .764 0 .547-.3.647-1 .779-.553.105-.816.394-.874.526v1.353c.026.063.105.189.179.189.531-.274 2.4-.242 3.268-.19V9.933c0-.274-.584-.895-1.873-.895-1.037 0-1.569.216-1.706.326z"/>
-    <path fill="url(#FARA__n)" d="m6.737 15.753 1.11-1.122h10.411l1.11 1.121v1.195l-1.489 1.369H8.227l-1.49-1.369z"/>
-    <path fill="#2C1F18" d="M6.948 16.847v-1l.99-1h10.231l.99 1v1L17.8 18.095H8.306z"/>
-    <path fill="url(#FARA__o)" d="M8.843 15.158h-.526v2.632h1.579v-.527H8.843z"/>
-    <path fill="url(#FARA__p)" d="m11.179 15.158-.758 2.632h.595l.458-1.6.458 1.6h.594l-.758-2.632z"/>
-    <path fill="url(#FARA__q)" d="m13.57 15.158 1.589 1.453v-1.453h.526v2.632h-.426l-1.679-1.522v1.521h-.526v-2.631z"/>
-    <path fill="url(#FARA__r)" fill-rule="evenodd" d="M17.006 15.158h-.795v2.632h.795a1.316 1.316 0 0 0 0-2.632m-.005.526h-.263v1.58H17a.79.79 0 1 0 0-1.58" clip-rule="evenodd"/>
+    <path fill="url(#FARA__a)" d="M12.422 13.517v-3.78l.408.1.543 1.024h2.72l-.151.9a2.3 2.3 0 0 0-.973-.269c-.396 0-.745.257-.871.387v1.23l-.27.215-1.12.362z"/>
+    <path fill="url(#FARA__b)" d="m12.788 9.92-.366-.193.139-.134h1.347l.181.24v.517l.783-.757h1.129l.21.324v1.515l-.269.325-.156-.325-.278-.589-1.54-.219-1.18-.707z"/>
+    <path fill="#BCBBB9" d="M12.666 13.12V9.848l.337-.084h.72l.21.084v.615h.455l.644-.703h.758l.156.219v1.3l-.16.17c-.076-.09-.341-.274-.8-.274-.661 0-.973.408-1.053.61v1.07l-.934.429-.333-.168z"/>
+    <path fill="#C6C6C6" d="M7.411 10.964h-2.19c.06.362-.113.455-.113.556.598.905-.126 1.71-.602 2.409 1.739 1.225 1.777 2.917 1.86 3.124.632-.77 1.264-2.645 1.264-3.47 0-.66-.147-2.02-.223-2.619z"/>
+    <path fill="url(#FARA__c)" d="m6.99 15.958.261-1.617c-.193-.32-.682-1.078-1.073-1.078-.392 0-1.01.48-1.268.657h-.404l-.004.008a4.34 4.34 0 0 1 1.823 2.939q.015.095.042.185c.22-.265.434-.66.628-1.094z"/>
+    <path fill="url(#FARA__d)" d="M5.34 10.964c.151.274.345.767.345 1.33 0 .696-.522 1.378-.775 1.63h-.42l.155-.223c.316-.442.606-.934.619-1.457.008-.235.004-.48-.156-.724 0-.034.017-.063.038-.1.046-.085.118-.207.072-.456h.126z"/>
+    <path fill="url(#FARA__e)" d="m7.507 11.856-.56 1.12c0 .918.038 3.045-.59 4.064l.009.012c.631-.77 1.263-2.644 1.263-3.47 0-.42-.059-1.115-.122-1.726"/>
+    <path fill="url(#FARA__f)" d="M6.329 16.898a3.4 3.4 0 0 0-1.415-2.973h-.43a4.56 4.56 0 0 1 1.84 2.952v.02z"/>
+    <path fill="url(#FARA__g)" d="M6.174 9.744a4.9 4.9 0 0 1-2.148-.085c-.143.67.333 1.407.59 1.693.071-.122.26-.366.442-.366.177 0 .375.244.45.366.06-.105.295-.312.775-.312.476 0 .737.186.809.278.105-.134.404-.408.732-.408.409 0 .67.303.809.442-.093-1.916-1.234-1.827-2.46-1.608"/>
+    <path fill="#776E5F" d="M7.218 6.947c-.22 0-.598.312-.758.463l.703.725c.21-.127.64-.421.64-.632 0-.261-.311-.556-.585-.556"/>
+    <path fill="#614108" d="m7.369 8.295-.905-.926-.62.623.127.118-.126.181h-.16v1.604c.244-.029.842-.117 1.28-.21-.047-.969.252-1.335.404-1.394z"/>
+    <path fill="url(#FARA__h)" d="m6.948 10.418-.7-.522-.563.682.711.58z"/>
+    <path fill="url(#FARA__i)" d="M5.525 11.327c.008-.24-.059-.59-.404-.59-.295 0-.455.32-.522.599l.012.016c.076-.105.266-.311.447-.311.176 0 .374.21.45.311l.017-.02z"/>
+    <path fill="url(#FARA__j)" d="M8.59 11.315c-.084-.228-.316-.577-.695-.577-.307 0-.568.273-.711.484.143-.126.379-.274.64-.274.37 0 .619.228.766.362z"/>
+    <path fill="url(#FARA__k)" d="m4.535 11.26.308-.564-.838-.661c.042.484.32.956.53 1.22z"/>
+    <path fill="url(#FARA__l)" d="M8.632 10.823v-.977l3.023.139.244 2.067-.11 1.47c-.126-.047-.589-.144-1.418-.144-.825 0-1.335.207-1.487.308l-.252-.24v-1.394c.046-.114.252-.37.72-.493.585-.151.854-.311.854-.505 0-.19-.105-.37-.614-.37-.409 0-.674.185-.758.277z"/>
+    <path fill="#EEEAE9" d="M9.474 9.474c-.522 0-.779.244-.842.366l1.907.547 1.066 2.455.189.644.206-.18v-2.923c0-.53-.551-.83-.825-.91z"/>
+    <path fill="#BCBBB9" d="M8.839 9.895v.67c.084-.06.362-.173.804-.173.56 0 .8.168.8.61 0 .438-.24.518-.8.624-.442.084-.653.316-.699.42v1.083c.021.05.084.151.143.151.426-.218 1.92-.193 2.615-.151v-2.783c0-.22-.467-.716-1.499-.716-.83 0-1.255.173-1.364.26z"/>
+    <path fill="url(#FARA__m)" d="M16.632 10.823v-.977l3.023.139.244 2.067-.11 1.47c-.126-.047-.589-.144-1.418-.144-.826 0-1.335.207-1.487.308l-.252-.24v-1.394c.046-.114.252-.37.72-.493.585-.151.854-.311.854-.505 0-.19-.105-.37-.614-.37-.409 0-.674.185-.758.277z"/>
+    <path fill="#EEEAE9" d="M17.474 9.474c-.522 0-.779.244-.842.366l1.907.547 1.065 2.455.19.644.206-.18v-2.923c0-.53-.551-.83-.825-.91z"/>
+    <path fill="#BCBBB9" d="M16.838 9.895v.67c.084-.06.362-.173.804-.173.56 0 .8.168.8.61 0 .438-.24.518-.8.624-.442.084-.652.316-.699.42v1.083c.021.05.084.151.143.151.426-.218 1.92-.193 2.615-.151v-2.783c0-.22-.467-.716-1.499-.716-.83 0-1.255.173-1.364.26z"/>
+    <path fill="url(#FARA__n)" d="m7.79 15.002.887-.897h8.329l.888.897v.956l-1.191 1.094H8.98l-1.192-1.094z"/>
+    <path fill="#2C1F18" d="M7.959 15.878v-.8l.792-.8h8.185l.791.8v.8l-1.086.998H9.045z"/>
+    <path fill="url(#FARA__o)" d="M9.474 14.527h-.421v2.105h1.263v-.42h-.842z"/>
+    <path fill="url(#FARA__p)" d="m11.343 14.527-.607 2.105h.476l.366-1.28.367 1.28h.476l-.607-2.105z"/>
+    <path fill="url(#FARA__q)" d="m13.255 14.527 1.272 1.162v-1.162h.421v2.105h-.341l-1.343-1.217v1.217h-.421v-2.105z"/>
+    <path fill="url(#FARA__r)" fill-rule="evenodd" d="M16.005 14.527h-.636v2.105h.636a1.052 1.052 0 1 0 0-2.105m-.004.42h-.21v1.264H16a.632.632 0 1 0 0-1.263" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="FARA__a" x1="16.769" x2="12.564" y1="11.995" y2="11.995" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__a" x1="15.816" x2="12.451" y1="11.997" y2="11.997" gradientUnits="userSpaceOnUse">
             <stop offset=".42" stop-color="#AF764B"/>
             <stop offset=".56" stop-color="#F7F4EF"/>
             <stop offset=".64" stop-color="#AF7239"/>
             <stop offset=".89" stop-color="#896D57"/>
             <stop offset="1" stop-color="#7A7975"/>
         </linearGradient>
-        <linearGradient id="FARA__b" x1="17.264" x2="12.527" y1="10.353" y2="10.353" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__b" x1="16.211" x2="12.422" y1="10.683" y2="10.683" gradientUnits="userSpaceOnUse">
             <stop offset=".27" stop-color="#F3F3F3"/>
             <stop offset=".42" stop-color="#88857C"/>
             <stop offset=".67" stop-color="#CECAC7"/>
         </linearGradient>
-        <linearGradient id="FARA__c" x1="4.348" x2="4.348" y1="13.742" y2="18.316" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__c" x1="5.879" x2="5.879" y1="13.393" y2="17.052" gradientUnits="userSpaceOnUse">
             <stop stop-color="#BFBFBF"/>
             <stop offset="1" stop-color="#B9B1AB"/>
         </linearGradient>
-        <linearGradient id="FARA__d" x1="3.359" x2="3.359" y1="10.705" y2="14.405" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__d" x1="5.087" x2="5.087" y1="10.964" y2="13.924" gradientUnits="userSpaceOnUse">
             <stop stop-color="#7C8280"/>
             <stop offset="1" stop-color="#A4A5A7"/>
         </linearGradient>
-        <linearGradient id="FARA__e" x1="5.747" x2="5.747" y1="11.821" y2="18.316" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__e" x1="6.997" x2="6.997" y1="11.856" y2="17.052" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E8E8ED"/>
             <stop offset="1" stop-color="#F3F5EA"/>
         </linearGradient>
-        <linearGradient id="FARA__f" x1="3.779" x2="3.779" y1="14.484" y2="18.121" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__f" x1="5.423" x2="5.423" y1="13.989" y2="16.898" gradientUnits="userSpaceOnUse">
             <stop stop-color="#7F7366"/>
             <stop offset="1" stop-color="#C2A963"/>
         </linearGradient>
-        <linearGradient id="FARA__g" x1="4.754" x2="4.891" y1="9.042" y2="11.19" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__g" x1="6.203" x2="6.313" y1="9.634" y2="11.352" gradientUnits="userSpaceOnUse">
             <stop offset=".08" stop-color="#E1C08D"/>
             <stop offset=".15" stop-color="#9D7126"/>
             <stop offset=".42" stop-color="#8C5012"/>
         </linearGradient>
-        <linearGradient id="FARA__h" x1="5.321" x2="4.437" y1="9.658" y2="10.495" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__h" x1="6.657" x2="5.95" y1="10.127" y2="10.796" gradientUnits="userSpaceOnUse">
             <stop stop-color="#ECA0B2"/>
             <stop offset=".32" stop-color="#CB7493"/>
             <stop offset=".53" stop-color="#73001E"/>
             <stop offset=".72" stop-color="#6C0425"/>
             <stop offset="1" stop-color="#FD67B4"/>
         </linearGradient>
-        <linearGradient id="FARA__i" x1="2.743" x2="3.906" y1="10.963" y2="11.032" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__i" x1="4.594" x2="5.525" y1="11.171" y2="11.226" gradientUnits="userSpaceOnUse">
             <stop stop-color="#896322"/>
             <stop offset="1" stop-color="#C99F4B"/>
         </linearGradient>
-        <linearGradient id="FARA__j" x1="5.979" x2="7.732" y1="10.932" y2="11.1" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__j" x1="7.184" x2="8.586" y1="11.146" y2="11.281" gradientUnits="userSpaceOnUse">
             <stop stop-color="#896322"/>
             <stop offset="1" stop-color="#C99F4B"/>
         </linearGradient>
-        <linearGradient id="FARA__k" x1="2.943" x2="2.648" y1="9.437" y2="11.153" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__k" x1="4.754" x2="4.519" y1="9.95" y2="11.323" gradientUnits="userSpaceOnUse">
             <stop offset=".31" stop-color="#6B3B04"/>
             <stop offset="1" stop-color="#C3942C"/>
         </linearGradient>
-        <linearGradient id="FARA__l" x1="9.832" x2="9.832" y1="9.305" y2="14.105" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__l" x1="10.265" x2="10.265" y1="9.846" y2="13.686" gradientUnits="userSpaceOnUse">
             <stop offset=".09" stop-color="#7D7975"/>
             <stop offset=".26" stop-color="#BB802D"/>
             <stop offset=".43" stop-color="#CCC8C4"/>
@@ -87,7 +87,7 @@
             <stop offset=".76" stop-color="#79787D"/>
             <stop offset=".93" stop-color="#A9814E"/>
         </linearGradient>
-        <linearGradient id="FARA__m" x1="19.832" x2="19.832" y1="9.305" y2="14.105" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__m" x1="18.265" x2="18.265" y1="9.846" y2="13.686" gradientUnits="userSpaceOnUse">
             <stop offset=".09" stop-color="#7D7975"/>
             <stop offset=".26" stop-color="#BB802D"/>
             <stop offset=".43" stop-color="#CCC8C4"/>
@@ -95,26 +95,26 @@
             <stop offset=".76" stop-color="#79787D"/>
             <stop offset=".93" stop-color="#A9814E"/>
         </linearGradient>
-        <linearGradient id="FARA__n" x1="13.053" x2="13.053" y1="14.852" y2="18.095" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__n" x1="12.842" x2="12.842" y1="14.282" y2="16.875" gradientUnits="userSpaceOnUse">
             <stop offset=".54" stop-color="#281C1E"/>
             <stop offset=".66" stop-color="#70614A"/>
         </linearGradient>
-        <linearGradient id="FARA__o" x1="9.106" x2="9.106" y1="15.158" y2="17.79" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__o" x1="9.684" x2="9.684" y1="14.527" y2="16.632" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D7922B"/>
             <stop offset=".92" stop-color="#A47316"/>
             <stop offset=".97" stop-color="#DAB15F"/>
         </linearGradient>
-        <linearGradient id="FARA__p" x1="11.474" x2="11.474" y1="15.158" y2="17.79" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__p" x1="11.578" x2="11.578" y1="14.527" y2="16.632" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D7922B"/>
             <stop offset=".92" stop-color="#A47316"/>
             <stop offset=".97" stop-color="#DAB15F"/>
         </linearGradient>
-        <linearGradient id="FARA__q" x1="14.37" x2="14.37" y1="15.158" y2="17.79" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__q" x1="13.896" x2="13.896" y1="14.527" y2="16.632" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D7922B"/>
             <stop offset=".92" stop-color="#A47316"/>
             <stop offset=".97" stop-color="#DAB15F"/>
         </linearGradient>
-        <linearGradient id="FARA__r" x1="17.269" x2="17.269" y1="15.158" y2="17.79" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FARA__r" x1="16.215" x2="16.215" y1="14.527" y2="16.632" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D7922B"/>
             <stop offset=".92" stop-color="#A47316"/>
             <stop offset=".97" stop-color="#DAB15F"/>

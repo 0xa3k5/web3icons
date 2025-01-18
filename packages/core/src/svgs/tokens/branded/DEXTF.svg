@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#DEXTF__a)" d="M2 19.64V4.36C2 3.053 3.067 2 4.4 2h7.447C17.447 2 22 6.48 22 12s-4.547 10-10.153 10H4.393A2.373 2.373 0 0 1 2 19.64m1.693-6.18 3.254.707L14 8.387v9.1l2.667 2.28V5.733l-1.794-.98-11.18 8.7z"/>
+    <path fill="url(#DEXTF__a)" d="M4 18.112V5.888C4 4.843 4.853 4 5.92 4h5.957C16.357 4 20 7.584 20 12s-3.637 8-8.123 8H5.915A1.897 1.897 0 0 1 4 18.112m1.355-4.944 2.602.565L13.6 9.11v7.28l2.133 1.824V6.987L14.3 6.203l-8.944 6.96z"/>
     <defs>
-        <linearGradient id="DEXTF__a" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DEXTF__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#72F64B"/>
             <stop offset=".83" stop-color="#2D6A1C"/>
         </linearGradient>

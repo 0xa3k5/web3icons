@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#HIBS__a)">
+        <path fill="url(#HIBS__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M6 4a2 2 0 0 0-2 2v12a2 2 0 0 0 4 0V6a2 2 0 0 0-2-2m6 2.297a2 2 0 0 0-2 2.006v7.411a2 2 0 1 0 4 0V8.303a2 2 0 0 0-2-2.006m4 5.383c0-1.086.897-1.966 2-1.966s2 .88 2 1.966v6.354C20 19.12 19.103 20 18 20a1.98 1.98 0 0 1-2-1.966zM18 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+    </g>
+    <defs>
+        <linearGradient id="HIBS__b" x1="11.714" x2="11.714" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#25A9E0"/>
+            <stop offset="1" stop-color="#1A75BB"/>
+        </linearGradient>
+        <clipPath id="HIBS__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

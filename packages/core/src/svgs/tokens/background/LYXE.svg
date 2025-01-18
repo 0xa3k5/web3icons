@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#LYXE__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#LYXE__b)" d="m12 4 7.11 3.944v8.111L12 20l-7.111-3.945v-8.11z"/>
+        <path fill="#fff" d="M14 8.444h-3.978L8 11.999h4.068z"/>
+        <path fill="#DADBDA" d="M10.05 15.556 8.021 12h4.024l1.994 3.556z"/>
+        <path fill="#EFEEEE" d="m14.038 15.553-1.995-3.548 1.956-3.561 1.999 3.555z"/>
+    </g>
+    <defs>
+        <linearGradient id="LYXE__b" x1="8.886" x2="15.668" y1="5.78" y2="18.081" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E59F9A"/>
+            <stop offset="1" stop-color="#6A3FBA"/>
+        </linearGradient>
+        <clipPath id="LYXE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

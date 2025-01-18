@@ -10,7 +10,7 @@ export const getTypeAndVariant = (filePath: string): { type: TType; variant: TVa
   let variant: TVariant | undefined
 
   const possibleTypes: TType[] = ['token', 'network', 'wallet', 'exchange']
-  const possibleVariants: TVariant[] = ['branded', 'mono']
+  const possibleVariants: TVariant[] = ['branded', 'mono', 'background']
 
   possibleTypes.forEach((t) => {
     possibleVariants.forEach((v) => {

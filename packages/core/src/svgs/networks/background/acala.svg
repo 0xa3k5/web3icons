@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#acala__a)">
+        <path fill="url(#acala__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m.033-.751a7.249 7.249 0 1 0 0-14.498 7.249 7.249 0 0 0 0 14.498M12 18.694a6.694 6.694 0 1 0 0-13.388 6.694 6.694 0 0 0 0 13.388m.016-.816a5.894 5.894 0 1 0 0-11.788 5.894 5.894 0 0 0 0 11.788m-.332-10.656 4.267 7.402.457-.794-3.81-6.608zm-4.092 6.595 3.652-6.336.007.013.008-.012 4.327 7.508h-.915l-1.093-1.897a5.2 5.2 0 0 0-1.575-.242q-.425 0-.827.06l.527-.913a6 6 0 0 1 1.285.072l-1.737-3.014-3.202 5.555zm2.483-.096 1.64-2.847-.457-.794-2.83 4.91h.915l.009-.015c.784-.473 1.685-.712 2.669-.712.628 0 1.23.111 1.787.315l-.613-1.062a6.1 6.1 0 0 0-3.12.205" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="acala__b" x1="19.102" x2="7.298" y1="20" y2="5.42" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5A81FF"/>
+            <stop offset=".524" stop-color="#E40C5B"/>
+            <stop offset="1" stop-color="#FF4C3B"/>
+        </linearGradient>
+        <clipPath id="acala__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

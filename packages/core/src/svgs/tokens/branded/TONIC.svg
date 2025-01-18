@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#TONIC__a)" d="M2.667 2h12v5.333h-12zM16 2h5.333v5.333H16zm-1.333 6.667H9.333V22h5.334z"/>
+    <path fill="url(#TONIC__a)" d="M4.533 4h9.6v4.267h-9.6zM15.2 4h4.266v4.267H15.2zm-1.067 5.333H9.867V20h4.266z"/>
     <defs>
-        <linearGradient id="TONIC__a" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TONIC__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#000D34"/>
             <stop offset="1" stop-color="#42243D"/>
         </linearGradient>

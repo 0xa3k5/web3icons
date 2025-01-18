@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KZEN__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#KZEN__b)" d="M12 19.53a7.53 7.53 0 1 0 0-15.06 7.53 7.53 0 0 0 0 15.06"/>
+        <path fill="url(#KZEN__c)" d="M19.53 12a7.53 7.53 0 1 0-15.06 0 7.53 7.53 0 0 0 15.06 0"/>
+        <path fill="#181B1E" d="M10.588 7.294H12v8.941h-1.412zm6.019-2.353-.833-.875L15.722 4a12.93 12.93 0 0 0-2.781 7.962c0 3.05 1.059 5.85 2.823 8.038l.942-.932a11.6 11.6 0 0 1-2.396-7.106c0-2.626.852-5.091 2.297-7.02"/>
+    </g>
+    <defs>
+        <linearGradient id="KZEN__b" x1="16.391" x2="7.491" y1="5" y2="18.857" gradientUnits="userSpaceOnUse">
+            <stop offset=".16" stop-color="#FFA3A3"/>
+            <stop offset=".59" stop-color="#C50000"/>
+            <stop offset="1" stop-color="#C50101"/>
+        </linearGradient>
+        <linearGradient id="KZEN__c" x1="14.353" x2="12.293" y1="4.5" y2="7.892" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#FF5353"/>
+            <stop offset="1" stop-color="#C50101" stop-opacity="0"/>
+        </linearGradient>
+        <clipPath id="KZEN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

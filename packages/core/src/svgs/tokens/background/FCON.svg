@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#FCON__a)">
+        <path fill="url(#FCON__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M14.223 5.947 12 4 9.777 5.947v5.86l1.196 1.12.605-.65-.912-.853V6.347L12 5.183l1.334 1.164v5.077L8.888 15.6v-4.93l-.756.755A.45.45 0 0 0 8 11.74v5.913l6.224-5.846zm1.645 5.482a.45.45 0 0 1 .133.311v5.9l-3.503-3.22.605-.657 2.01 1.85v-4.944l.755.755zM12 14.848l-.444.413v4.33L12 20l.445-.409v-4.33l-.445-.41zM9.777 16.98l.89-.813v2.783l-.712-.654a.53.53 0 0 1-.178-.395zm4.446-.035-.89-.872v2.935l.721-.658a.55.55 0 0 0 .169-.4z"/>
+    </g>
+    <defs>
+        <linearGradient id="FCON__b" x1="11.146" x2="11.217" y1="4" y2="19.742" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6167FB"/>
+            <stop offset=".54" stop-color="#26BAF8"/>
+            <stop offset=".8" stop-color="#46F7B0"/>
+        </linearGradient>
+        <clipPath id="FCON__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#SLIM__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#SLIM__b)" d="M11.992 9.92 13.3 8.623l-1.318-1.297-1.322 1.306 6.813 6.736L12.716 20h-1.508l-4.682-4.632 3.365-3.339 2.029 2.013-1.394 1.326L12 16.631l1.263-1.263-1.343-1.326-2.025-2.013-3.369-3.397L11.208 4h1.508l4.758 4.632-3.369 3.393z"/>
+        <path fill="url(#SLIM__c)" d="m11.209 4 4.749 4.632h1.516L12.716 4z"/>
+        <path fill="url(#SLIM__d)" d="M17.474 8.63h-1.512l-2.665 2.59.808.804z"/>
+        <path fill="url(#SLIM__e)" d="m13.069 17.537 2.299-2.169h2.105L12.715 20l-4.572-4.632h2.593z"/>
+        <path fill="url(#SLIM__f)" d="m8.143 15.368 2.56-2.526 1.216 1.2-1.183 1.326z"/>
+        <path fill="url(#SLIM__g)" d="m8.741 8.63 6.627 6.738h2.106l-5.482-5.449a59 59 0 0 1-1.213-1.288H8.741"/>
+        <path fill="url(#SLIM__h)" d="m14.106 12.025 1.499-1.499-2.37-1.852-1.243 1.246z"/>
+        <path fill="url(#SLIM__i)" d="m9.89 12.03-2.404 2.4 3.25.938 1.183-1.326z"/>
+        <path fill="url(#SLIM__j)" d="m11.057 6.438.926.888-1.208 1.305h-2.03z"/>
+    </g>
+    <defs>
+        <linearGradient id="SLIM__b" x1="10.547" x2="15.992" y1="18.055" y2="9.04" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C20FF6"/>
+            <stop offset=".49" stop-color="#749CCE"/>
+            <stop offset="1" stop-color="#47C1C1"/>
+        </linearGradient>
+        <linearGradient id="SLIM__c" x1="8.594" x2="21.705" y1="5.527" y2="13.26" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4AF3FF"/>
+            <stop offset="1" stop-color="#087792"/>
+        </linearGradient>
+        <linearGradient id="SLIM__d" x1="18.897" x2="6.793" y1="6.858" y2="12.845" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#004957"/>
+            <stop offset="1" stop-color="#7A97D0"/>
+        </linearGradient>
+        <linearGradient id="SLIM__e" x1="7.785" x2="14.545" y1="9.265" y2="11.029" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D29BFF"/>
+            <stop offset="1" stop-color="#B661E2"/>
+        </linearGradient>
+        <linearGradient id="SLIM__f" x1="12.03" x2="12.03" y1="3.867" y2="19.6" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#7599CE"/>
+            <stop offset="1" stop-color="#69039C"/>
+        </linearGradient>
+        <linearGradient id="SLIM__g" x1="8.654" x2="20.008" y1="7.359" y2="12.701" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#1EB8F1"/>
+            <stop offset="1" stop-color="#9F76DB"/>
+        </linearGradient>
+        <linearGradient id="SLIM__h" x1="12.511" x2="4.376" y1="10.392" y2="16.828" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#313131" stop-opacity="0"/>
+            <stop offset="1"/>
+        </linearGradient>
+        <linearGradient id="SLIM__i" x1="11.755" x2="18.948" y1="12.756" y2="8.964" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#313131" stop-opacity="0"/>
+            <stop offset="1"/>
+        </linearGradient>
+        <linearGradient id="SLIM__j" x1="11.685" x2="10.881" y1="7.019" y2="8.404" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4ADAE8"/>
+            <stop offset="1" stop-color="#5E92C9"/>
+        </linearGradient>
+        <clipPath id="SLIM__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

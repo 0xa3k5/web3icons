@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CNC__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#CNC__b)" d="m12.259 4.08.1.195 6.117 11.544a3.2 3.2 0 0 0-.27-1.72l-5.857-9.9-.04-.064-.05-.05z"/>
+        <path fill="url(#CNC__c)" d="m12.214 4.05.13.295 5.762 12.643c.19-.37.32-.76.365-1.164L12.364 4.27l-.1-.19z"/>
+        <path fill="url(#CNC__d)" d="m12.15 4.019.14.4 4.787 13.863a4.4 4.4 0 0 0 1.04-1.3l-2.4-5.262-3.373-7.376-.13-.3s-.04-.01-.065-.025"/>
+        <path fill="url(#CNC__e)" d="m12.084 4.01.105.474 3.218 14.838c.64-.28 1.2-.63 1.67-1.035L12.288 4.42l-.14-.4-.06-.015v.005z"/>
+        <path fill="url(#CNC__f)" d="m12.028 4 1.36 15.887a8 8 0 0 0 2.024-.575L12.188 4.49l-.1-.475h-.065l.005-.01z"/>
+        <path fill="url(#CNC__g)" d="M10.6 19.892a9 9 0 0 0 2.788 0L12.068 4.52 12.03 4h-.075l-.05.52z"/>
+        <path fill="url(#CNC__h)" d="M8.575 19.307c.61.27 1.3.465 2.024.575l.77-8.96.54-6.402.045-.52-.065.005-.1.475-3.224 14.827z"/>
+        <path fill="url(#CNC__i)" d="M6.907 18.273c.465.41 1.035.764 1.67 1.034l3.218-14.828.1-.474-.055.015-.14.4z"/>
+        <path fill="url(#CNC__j)" d="M5.877 16.967c.26.495.61.936 1.034 1.3l2.4-6.957 2.388-6.891.135-.4-.06.03-.13.295-3.378 7.38-2.389 5.248z"/>
+        <path fill="url(#CNC__k)" d="M5.518 15.8c.05.41.165.799.354 1.169L11.64 4.345l.13-.3-.05.035-.1.195-4.208 7.961z"/>
+        <path fill="url(#CNC__l)" d="M5.502 15.444c0 .12.005.235.015.355l6.102-11.524.1-.195-.05.05-.03.05-5.487 9.285-.3.51v.02c-.23.455-.35.944-.35 1.449"/>
+    </g>
+    <defs>
+        <linearGradient id="CNC__b" x1="20.606" x2="6.619" y1="21.791" y2="-18.625" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3A3A3A"/>
+            <stop offset=".5" stop-color="#1682FE"/>
+        </linearGradient>
+        <linearGradient id="CNC__c" x1="19.422" x2="6.593" y1="21.366" y2="-28.804" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3A3A3A"/>
+            <stop offset=".5" stop-color="#1682FE"/>
+        </linearGradient>
+        <linearGradient id="CNC__d" x1="22.841" x2="10.39" y1="26.205" y2="-34.384" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3A3A3A"/>
+            <stop offset=".5" stop-color="#1682FE"/>
+        </linearGradient>
+        <linearGradient id="CNC__e" x1="23.988" x2="17.996" y1="29.078" y2="-18.615" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3A3A3A"/>
+            <stop offset=".5" stop-color="#1682FE"/>
+            <stop offset="1" stop-color="#2DBDE1"/>
+        </linearGradient>
+        <linearGradient id="CNC__f" x1="24.65" x2="20.948" y1="26.171" y2="-21.073" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3A3A3A"/>
+            <stop offset=".22" stop-color="#1682FE"/>
+            <stop offset=".5" stop-color="#57F7AE"/>
+        </linearGradient>
+        <linearGradient id="CNC__g" x1="27.045" x2="24.858" y1="26.694" y2="-12.536" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3A3A3A"/>
+            <stop offset=".22" stop-color="#1682FE"/>
+            <stop offset=".5" stop-color="#57F7AE"/>
+            <stop offset="1" stop-color="#FED55A"/>
+        </linearGradient>
+        <linearGradient id="CNC__h" x1="16.313" x2="15.697" y1="28.63" y2="-7.188" gradientUnits="userSpaceOnUse">
+            <stop offset=".22" stop-color="#1682FE"/>
+            <stop offset=".5" stop-color="#57F7AE"/>
+            <stop offset="1" stop-color="#FED55A"/>
+        </linearGradient>
+        <linearGradient id="CNC__i" x1="18.303" x2="17.168" y1="30.931" y2="8.698" gradientUnits="userSpaceOnUse">
+            <stop offset=".4" stop-color="#1682FE"/>
+            <stop offset=".7" stop-color="#57F7AE"/>
+            <stop offset="1" stop-color="#FED55A"/>
+        </linearGradient>
+        <linearGradient id="CNC__j" x1="13.897" x2="13.437" y1="33.647" y2="12.899" gradientUnits="userSpaceOnUse">
+            <stop offset=".4" stop-color="#1682FE"/>
+            <stop offset=".7" stop-color="#57F7AE"/>
+            <stop offset="1" stop-color="#FED55A"/>
+        </linearGradient>
+        <linearGradient id="CNC__k" x1="6.822" x2="10.646" y1="27.475" y2="-6.852" gradientUnits="userSpaceOnUse">
+            <stop offset=".21" stop-color="#FCA75B"/>
+            <stop offset=".52" stop-color="#FF5A5A"/>
+        </linearGradient>
+        <linearGradient id="CNC__l" x1="5.667" x2="10.914" y1="20.861" y2=".307" gradientUnits="userSpaceOnUse">
+            <stop offset=".21" stop-color="#FCA75B"/>
+            <stop offset=".52" stop-color="#FF5A5A"/>
+        </linearGradient>
+        <clipPath id="CNC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

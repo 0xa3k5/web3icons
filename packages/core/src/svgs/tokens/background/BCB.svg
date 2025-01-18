@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#BCB__a)">
+        <path fill="url(#BCB__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 19.059a7.06 7.06 0 1 0 0-14.12 7.06 7.06 0 0 0 0 14.12M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
+        <path fill="#fff" d="m11.06 8.705-.942.94v1.883l1.647-1.882h1.412l-.941.941h-.47l-.942.941h3.53l-.942 1.412H11.06l-.94.941h4.234l2.118-3.294h-2.588l1.882-1.882z"/>
+        <path fill="#fff" d="m8.377 8.749.8.8v.668l-.612-.612-1.238 3.515 2.471 2.673.363-.97h.503l-.697 1.855-3.176-3.445L8.372 8.75zm2.339 6.075-.73 1.948 4.777-.8.381-1.148h-.494l-.245.734-3.694.612.513-1.346z"/>
+    </g>
+    <defs>
+        <linearGradient id="BCB__b" x1="4.235" x2="19.765" y1="12.471" y2="12.471" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0387FA"/>
+            <stop offset="1" stop-color="#01FEFF"/>
+        </linearGradient>
+        <clipPath id="BCB__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

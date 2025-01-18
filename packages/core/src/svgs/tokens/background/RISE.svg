@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#RISE__a)">
+        <path fill="url(#RISE__b)" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M14.689 19.995a8.13 8.13 0 0 0 5.808-7.843C20.497 7.655 16.918 4 12.5 4s-7.997 3.649-7.997 8.153c0 3.728 2.454 6.872 5.808 7.847L12 9.998l-4.25 3.174-.249-.255L12.499 6l4.999 6.918-.25.25-4.249-3.169z"/>
+    </g>
+    <defs>
+        <linearGradient id="RISE__b" x1="4.502" x2="20.502" y1="10.623" y2="12.097" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CC1A3C"/>
+            <stop offset="1" stop-color="#FF9A2E"/>
+        </linearGradient>
+        <clipPath id="RISE__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -157,10 +157,10 @@
   },
   {
     "id": "zeta-chain",
-    "name": "zeta chain",
-    "shortname": "zeta",
+    "name": "Zeta Chain",
+    "shortName": "zeta",
     "chainId": 7000,
-    "nativeCoinId": "zeta"
+    "nativeCoinId": "zetachain"
   },
   { "id": "bob", "name": "Bob", "shortname": "bob", "chainId": 60808, "nativeCoinId": "eth" },
   { "id": "kakarot", "name": "Kakarot", "shortname": "kakarot", "nativeCoinId": "eth" },
@@ -273,5 +273,43 @@
     "shortname": "treasure",
     "chainId": 61166,
     "nativeCoinId": "magic"
-  }
+  },
+  { "id": "zora", "name": "zora", "chainId": 7777777, "nativeCoinId": "weth", "shortName": "zora" },
+  { "id": "multiversx", "name": "MultiversX", "shortName": "multiversx", "nativeCoinId": "egld" },
+  {
+    "id": "optimism",
+    "name": "Optimism",
+    "shortName": "Optimism",
+    "chainId": 10,
+    "nativeCoinId": "eth"
+  },
+  {
+    "id": "okex-chain",
+    "name": "OKEx Chain",
+    "shortName": "OKEx",
+    "chainId": 66,
+    "nativeCoinId": "okex"
+  },
+  {
+    "id": "viction",
+    "name": "Viction",
+    "chainId": 88,
+    "nativeCoinId": "viction",
+    "shortName": "viction"
+  },
+  {
+    "id": "kuchain",
+    "name": "kuchain",
+    "shortName": "kuchain",
+    "chainId": 321,
+    "nativeCoinId": "kcs"
+  },
+  { "id": "kaia", "name": "Kaia", "shortName": "kaia", "chainId": 8217, "nativeCoinId": "kaia" },
+  {
+    "id": "moonbase-alpha",
+    "name": "Moonbase Alpha",
+    "shortname": "Moonbase Alpha",
+    "chainId": 1287
+  },
+  { "id": "push", "name": "Push Chain", "shortname": "Push" }
 ]

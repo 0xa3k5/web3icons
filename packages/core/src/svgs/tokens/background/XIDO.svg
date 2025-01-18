@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#XIDO__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m5 4 7 5.5L19 4v4.475l-4.12 3.5L19 15.49v4.5L5 8.24zm.5 1.015v3l13 10.91V15.7l-4.38-3.725L18.5 8.25V5.01L12 10.12zm3.49 7.135 2.51 2.24L5 20v-4.515zm.02.625L5.5 15.7v3.2l5.225-4.485-1.715-1.65z"/>
+    </g>
+    <defs>
+        <clipPath id="XIDO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MTLX__a)">
+        <path fill="#3E34A7" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M19.059 5.176H20v12.706h-.941zM4 5.176h.941v12.706H4zm2.824 1.412h-.942v9.882h.942zm10.353 0h.94v10.353h-.94zm-8.471.941h-.941v10.353h.94zm6.588-.022h.941V17.86h-.94zm-4.706 1.434h-.94v8h.94zm2.824 0h.94v8h-.94zm-.941 1.412h-.942v8.47h.942z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="MTLX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

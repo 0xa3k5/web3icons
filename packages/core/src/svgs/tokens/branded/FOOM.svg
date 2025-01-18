@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="red" d="M5.126 2.626H22v16.873H5.126z"/>
-    <path fill="#00F8FF" d="M2 5.126h17.499v16.248H2z"/>
-    <path fill="#000" d="M3.25 3.876h17.5v16.249H3.25z"/>
-    <path fill="#00F8FF" d="M7.625 9.5h7.5l-.688.938H9.5V12h5.406l-.825.938h-4.58v2.812H7.624z"/>
-    <path fill="red" d="M8.875 8.25h7.5l-.687.938H10.75v1.563h5.406l-.825.937h-4.58V14.5H8.874z"/>
-    <path fill="#fff" d="M8.25 8.875h7.5l-.688.938h-4.937v1.562h5.406l-.825.937h-4.581v2.813H8.25z"/>
+    <path fill="red" d="M6.501 4.5h13.5V18H6.5z"/>
+    <path fill="#00F8FF" d="M4 6.5h14v13H4z"/>
+    <path fill="#000" d="M5.001 5.502h14v13H5z"/>
+    <path fill="#00F8FF" d="M8.501 10h6l-.55.75H10V12h4.325l-.66.75H10V15H8.5z"/>
+    <path fill="red" d="M9.501 9.002h6l-.55.75H11v1.25h4.325l-.66.75H11v2.25H9.5z"/>
+    <path fill="#fff" d="M9 9.5h6l-.55.75H10.5v1.25h4.325l-.66.75H10.5v2.25H9z"/>
 </svg>

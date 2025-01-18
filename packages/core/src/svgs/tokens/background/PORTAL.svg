@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PORTAL__a)">
+        <path fill="url(#PORTAL__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M18.666 8 12 4 5.333 8v8L12 20l6.666-4zm-9.333-.593v9.231l2.223-1.029v-5.223l1.333-1.087v4.384l-1.306.99 3.528 1.965V10.48L12.89 9.296v.003z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="PORTAL__b" x1="8.107" x2="19.609" y1="13.394" y2="16.688" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#064FAB"/>
+            <stop offset="1" stop-color="#180043"/>
+        </linearGradient>
+        <clipPath id="PORTAL__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#NSFW__a)">
+        <path fill="#8E04E2" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12 18.223v-7.556H4zm0 0v-7.556h8z"/>
+        <path fill="#fff" d="M16.222 5.777 12 10.667h8zm-8.444 0L12 10.667H4zM12 10.666V7.72l4.222-1.943z"/>
+        <path fill="#fff" d="M12 10.666V7.72L7.779 5.777z"/>
+    </g>
+    <defs>
+        <clipPath id="NSFW__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

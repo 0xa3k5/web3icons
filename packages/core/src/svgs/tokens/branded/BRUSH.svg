@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#BRUSH__a)" fill-opacity=".3" d="M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0"/>
-    <path fill="url(#BRUSH__b)" fill-rule="evenodd" d="M12 21.3a9.304 9.304 0 0 0 9.547-9.303A9.31 9.31 0 0 0 12 2.694 9.306 9.306 0 0 0 12 21.3m0 .7a10 10 0 1 0 0-20 10 10 0 0 0 0 20" clip-rule="evenodd"/>
-    <path fill="url(#BRUSH__c)" d="m6.406 16.806 3.994-3.618c.362.187 1.012.624 1.037 1.237l-3.531 3.894c-.5-.013-1.5-.338-1.5-1.513m1.319.469a.312.312 0 1 0 0-.619.312.312 0 1 0 0 .625z"/>
-    <path fill="#737071" d="m11.569 12.806 4.106 1.75.875-.925-.15-.187.412-.325.425.55-1.431 1.5L11.7 13.43l-.65.707-.388-.357z"/>
-    <path fill="#B38C68" d="M11.15 5.769c-1.25.181-2.076 1.5-2.332 2.125l6.238 6.294a2.276 2.276 0 0 0 2.306-2.107z"/>
-    <path fill="url(#BRUSH__d)" d="M9.868 6.919c-.262.1-.512 1-.6 1.431l5.588 5.638c1.043-.082 1.318-.6 1.331-.85.275-.063.919-.763 1.2-1.107l-6.138-6.237c-.212.1-.624.356-.624.575 0 .275-.432.425-.757.55"/>
-    <path fill="url(#BRUSH__e)" d="M14.83 2.006 11.2 5.87l6.124 6.169L21.95 7.4V2h-7.118z"/>
+    <path fill="url(#BRUSH__a)" fill-opacity=".3" d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0"/>
+    <path fill="url(#BRUSH__b)" fill-rule="evenodd" d="M12 19.44a7.444 7.444 0 0 0 2.908-14.375A7.446 7.446 0 1 0 12 19.44m0 .56a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
+    <path fill="url(#BRUSH__c)" d="m7.525 15.845 3.195-2.895c.29.15.81.5.83.99l-2.825 3.115c-.4-.01-1.2-.27-1.2-1.21m1.055.375a.25.25 0 1 0 0-.495.25.25 0 1 0 0 .5z"/>
+    <path fill="#737071" d="m11.655 12.645 3.285 1.4.7-.74-.12-.15.33-.26.34.44-1.145 1.2-3.285-1.39-.52.565-.31-.285z"/>
+    <path fill="#B38C68" d="M11.32 7.016c-1 .145-1.66 1.2-1.865 1.7l4.99 5.035a1.82 1.82 0 0 0 1.845-1.685z"/>
+    <path fill="url(#BRUSH__d)" d="M10.294 7.936c-.21.08-.41.8-.48 1.145l4.47 4.51c.835-.065 1.055-.48 1.066-.68.22-.05.734-.61.96-.885l-4.91-4.99c-.17.08-.5.285-.5.46 0 .22-.346.34-.606.44"/>
+    <path fill="url(#BRUSH__e)" d="m14.265 4.005-2.905 3.09 4.9 4.935 3.7-3.71V4h-5.695z"/>
     <defs>
-        <linearGradient id="BRUSH__a" x1="5.556" x2="17.944" y1="4.412" y2="19.575" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BRUSH__a" x1="6.845" x2="16.755" y1="5.93" y2="18.06" gradientUnits="userSpaceOnUse">
             <stop stop-color="#99817E"/>
             <stop offset=".25" stop-color="#948680"/>
             <stop offset=".51" stop-color="#7C988B"/>
             <stop offset=".77" stop-color="#7B90A1"/>
             <stop offset="1" stop-color="#868A9F"/>
         </linearGradient>
-        <linearGradient id="BRUSH__b" x1="5.706" x2="17.562" y1="3.95" y2="20.038" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BRUSH__b" x1="6.965" x2="16.45" y1="5.56" y2="18.43" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF413F"/>
             <stop offset=".16" stop-color="#FD9819"/>
             <stop offset=".36" stop-color="#FCC008"/>
@@ -23,19 +23,19 @@
             <stop offset=".86" stop-color="#A767E5"/>
             <stop offset="1" stop-color="#6A8AEF"/>
         </linearGradient>
-        <linearGradient id="BRUSH__c" x1="7.813" x2="14.8" y1="9.576" y2="16.9" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BRUSH__c" x1="8.651" x2="14.24" y1="10.061" y2="15.92" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D02612"/>
             <stop offset=".48" stop-color="#EB4F2E"/>
             <stop offset="1" stop-color="#841F0C"/>
         </linearGradient>
-        <linearGradient id="BRUSH__d" x1="4.525" x2="19.172" y1="5.204" y2="19.709" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BRUSH__d" x1="6.019" x2="17.737" y1="6.564" y2="18.168" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0EBEFF"/>
             <stop offset=".28" stop-color="#46CB85"/>
             <stop offset=".51" stop-color="#FA4B4C"/>
             <stop offset=".69" stop-color="#F9CD07"/>
             <stop offset="1" stop-color="#AE63E4"/>
         </linearGradient>
-        <linearGradient id="BRUSH__e" x1="13.237" x2="19.299" y1="3.644" y2="9.875" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BRUSH__e" x1="12.99" x2="17.84" y1="5.315" y2="10.3" gradientUnits="userSpaceOnUse">
             <stop stop-color="#79DBFF"/>
             <stop offset=".29" stop-color="#77DC9B"/>
             <stop offset=".55" stop-color="#EB6F69"/>

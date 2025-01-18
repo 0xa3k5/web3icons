@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#4FA8FF" d="M21.086 8.669c-.503 0-.909.387-.909.872v4.936c.006.479.424.86.92.854a.89.89 0 0 0 .897-.854V9.541c0-.485-.405-.872-.908-.872"/>
-    <path fill="url(#RAZOR__a)" d="M18.057 6.246c-.502 0-.908.388-.908.86v9.764c-.012.478.387.872.89.884.497.012.915-.363.927-.842V7.106c0-.472-.406-.86-.909-.86"/>
-    <path fill="url(#RAZOR__b)" d="M15.028 2.006c-.503 0-.908.382-.908.86V21.14c0 .472.405.854.908.854s.909-.382.909-.854V2.866c0-.478-.406-.86-.909-.86"/>
-    <path fill="url(#RAZOR__c)" d="M12 6.852c-.503 0-.909.37-.909.83v8.03c0 .455.406.83.909.83s.909-.369.909-.83v-8.03c0-.46-.406-.83-.91-.83"/>
-    <path fill="url(#RAZOR__d)" d="M8.971 2.006c-.502 0-.908.382-.908.854v18.286c0 .472.406.854.908.854.503 0 .91-.382.91-.854V2.854c0-.472-.407-.848-.91-.854z"/>
-    <path fill="url(#RAZOR__e)" d="M5.943 5.035c-.503 0-.909.375-.909.835v12.26c0 .46.406.836.909.836.502 0 .908-.376.908-.836V5.87c0-.46-.406-.835-.908-.835"/>
-    <path fill="url(#RAZOR__f)" d="M2.914 8.669c-.503 0-.909.375-.909.836v4.997c0 .454.406.83.909.83s.908-.376.908-.83V9.505c0-.46-.405-.836-.908-.836"/>
+    <path fill="#4FA8FF" d="M19.269 9.334a.71.71 0 0 0-.727.698v3.95c.005.382.34.687.737.683a.713.713 0 0 0 .717-.684v-3.949a.71.71 0 0 0-.727-.698"/>
+    <path fill="url(#RAZOR__a)" d="M16.846 7.397c-.402 0-.727.31-.727.688v7.811c-.01.383.31.698.712.707.398.01.732-.29.742-.673V8.085c0-.378-.325-.688-.727-.688"/>
+    <path fill="url(#RAZOR__b)" d="M14.423 4.005c-.403 0-.727.305-.727.688v14.619c0 .378.324.683.727.683s.726-.305.726-.683V4.692c0-.382-.324-.687-.726-.687"/>
+    <path fill="url(#RAZOR__c)" d="M12 7.881c-.402 0-.727.296-.727.664v6.425c0 .364.325.664.727.664s.727-.295.727-.664V8.545c0-.368-.325-.664-.727-.664"/>
+    <path fill="url(#RAZOR__d)" d="M9.577 4.005c-.402 0-.726.305-.726.683v14.629c0 .378.324.683.726.683.403 0 .727-.305.727-.683V4.683c0-.378-.324-.678-.727-.683z"/>
+    <path fill="url(#RAZOR__e)" d="M7.154 6.428c-.402 0-.727.3-.727.669v9.807c0 .369.325.67.727.67s.727-.302.727-.67V7.097c0-.368-.325-.669-.727-.669"/>
+    <path fill="url(#RAZOR__f)" d="M4.731 9.334c-.402 0-.727.301-.727.67V14c0 .363.325.664.727.664s.727-.3.727-.664v-3.998c0-.368-.325-.669-.727-.669"/>
     <defs>
-        <linearGradient id="RAZOR__a" x1="-171.06" x2="36.85" y1="10.084" y2="10.084" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RAZOR__a" x1="-134.448" x2="31.88" y1="10.467" y2="10.467" gradientUnits="userSpaceOnUse">
             <stop stop-color="#14779A"/>
             <stop offset="1" stop-color="#4FA8FF"/>
         </linearGradient>
-        <linearGradient id="RAZOR__b" x1="-137.776" x2="70.164" y1="10.915" y2="10.915" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RAZOR__b" x1="-107.821" x2="58.532" y1="11.132" y2="11.132" gradientUnits="userSpaceOnUse">
             <stop stop-color="#14779A"/>
             <stop offset="1" stop-color="#4FA8FF"/>
         </linearGradient>
-        <linearGradient id="RAZOR__c" x1="-104.396" x2="103.411" y1="9.825" y2="9.825" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RAZOR__c" x1="-81.117" x2="85.129" y1="10.26" y2="10.26" gradientUnits="userSpaceOnUse">
             <stop stop-color="#14779A"/>
             <stop offset="1" stop-color="#4FA8FF"/>
         </linearGradient>
-        <linearGradient id="RAZOR__d" x1="-71.083" x2="136.724" y1="10.916" y2="10.916" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RAZOR__d" x1="-54.466" x2="111.779" y1="11.133" y2="11.133" gradientUnits="userSpaceOnUse">
             <stop stop-color="#14779A"/>
             <stop offset="1" stop-color="#4FA8FF"/>
         </linearGradient>
-        <linearGradient id="RAZOR__e" x1="-37.837" x2="170.104" y1="10.478" y2="10.478" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RAZOR__e" x1="-27.87" x2="138.483" y1="10.783" y2="10.783" gradientUnits="userSpaceOnUse">
             <stop stop-color="#14779A"/>
             <stop offset="1" stop-color="#4FA8FF"/>
         </linearGradient>
-        <linearGradient id="RAZOR__f" x1="1.412" x2="20.316" y1="10.946" y2="10.946" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RAZOR__f" x1="3.53" x2="18.652" y1="11.156" y2="11.156" gradientUnits="userSpaceOnUse">
             <stop stop-color="#14779A"/>
             <stop offset="1" stop-color="#4FA8FF"/>
         </linearGradient>

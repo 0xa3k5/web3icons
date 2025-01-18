@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#POLA__a)">
+        <path fill="#1B7EFF" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="m14.382 19.53-.847-1.412 2.024-3.765L12.5 9.177h1.573l3.133 5.176z"/>
+        <path fill="#fff" d="M6.147 12.94H4.5l3.957 6.583 5.925.006-.833-1.412H9.206zm4.471-8.47.846 1.412-2.023 3.765 3.059 5.176h-1.573L7.794 9.647z"/>
+        <path fill="#fff" d="M18.853 11.059H20.5l-3.957-6.583-5.925-.005.833 1.411h4.343z"/>
+    </g>
+    <defs>
+        <clipPath id="POLA__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

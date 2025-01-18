@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TRAXX__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4 7.2h7.6v1.2H4zm3.2 2h1.2v7.6H7.2zm5.2-2H20v1.2h-7.6zm3.2 2h1.2v7.6h-1.2z"/>
+    </g>
+    <defs>
+        <clipPath id="TRAXX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

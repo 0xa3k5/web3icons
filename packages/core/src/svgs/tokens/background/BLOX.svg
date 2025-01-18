@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#BLOX__a)">
+        <path fill="url(#BLOX__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11.5 11.465 4 8.265v8L11.5 20zM12 4 4.535 7.2 12 10.4l7.464-3.2zm8 4-7.5 3.465v8.534l7.5-3.734z"/>
+    </g>
+    <defs>
+        <linearGradient id="BLOX__b" x1="21.066" x2="21.066" y1="-1.814" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#84F9C8"/>
+            <stop offset="1" stop-color="#7FB7F6"/>
+        </linearGradient>
+        <clipPath id="BLOX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

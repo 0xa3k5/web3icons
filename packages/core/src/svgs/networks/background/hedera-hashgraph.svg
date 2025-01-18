@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#hedera-hashgraph__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M14.284 12.492H9.811v-1.116h4.472z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M7.555 5.348a8 8 0 1 1 8.89 13.304 8 8 0 0 1-8.89-13.304m6.681 10.112h1.016V8.456h-1.016v2.108H9.764V8.456H8.748v7.004h1.016V13.3h4.472z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="hedera-hashgraph__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

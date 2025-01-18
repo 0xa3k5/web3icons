@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#GMEE__a)">
+        <path fill="url(#GMEE__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M10.889 4h2.667v1.009c2.897.471 4.23 2.324 4.693 4.769h-3.271C14.538 8.693 13.645 8 12 8c-2.19 0-3.333 1.733-3.333 4.004 0 2.276 1.218 3.894 3.333 3.992 1.876.088 2.778-.845 3.138-2.218h-2.471v-2.222h5.769l.009.55c0 3.539-1.112 6.476-4.89 6.943V20H10.89v-1.018c-3.404-.6-5.333-3.266-5.333-6.875 0-3.623 1.822-6.623 5.333-7.138z"/>
+    </g>
+    <defs>
+        <linearGradient id="GMEE__b" x1="6.84" x2="17.322" y1="17.4" y2="8.254" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5945FC"/>
+            <stop offset="1" stop-color="#3D9EEF"/>
+        </linearGradient>
+        <clipPath id="GMEE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

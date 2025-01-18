@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#WAN__a)">
+        <path fill="#3FBCED" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m5.496 8.596 1.734.867v4.163L12 10.989l4.77 2.637V9.463l1.734-.867v7.978L12 12.975l-6.504 3.6z"/>
+        <path fill="#fff" d="m12 18.001-3.239-2.016-1.686 1.019L12 20l4.995-3.005-1.7-1.015L12 18.005zm0-11.894L7.495 8.492l-1.808-.789L12 4l6.418 3.699-1.917.793-4.5-2.38z"/>
+    </g>
+    <defs>
+        <clipPath id="WAN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

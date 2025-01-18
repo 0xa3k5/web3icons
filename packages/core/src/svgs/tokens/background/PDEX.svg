@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PDEX__a)">
+        <path fill="#E6007A" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M20 18.005v-2.258l-3.75-3.744H14zM4 6.345v2.196l3.814 4.033H10zM6 4h2.187l3.781 3.736L15.715 4H18l-6 6.023zm0 16h2.186l3.781-3.735L15.715 20H18l-6-5.986zm6-6.853a1.143 1.143 0 1 0 0-2.287 1.143 1.143 0 0 0 0 2.287"/>
+    </g>
+    <defs>
+        <clipPath id="PDEX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

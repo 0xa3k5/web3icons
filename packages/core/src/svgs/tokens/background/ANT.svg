@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ANT__a)">
+        <path fill="url(#ANT__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M8.54 5.573a5.8 5.8 0 0 1 2.301-.485l-.764-.78s3.076-.53 7.009 1.916c0 0 .056.125 0 .482 0 0 1.864.829 2.012 2.428.16 1.6-.82 2.515-1.611 2.64 0 0 .41-.655-.224-1.012a.83.83 0 0 0-.457-.096c-1.211 0-1.351 1.416-1.351 1.416.046 2.245 3.643 2.245 4.545 2.245-.765 2.973-4.212 5.415-7.65 5.415-3.2 0-8.35-2.29-8.35-7.824 0-1.762 1.399-4.981 4.54-6.345m7.39.97c-.196.202-.364.288-.41.317l-.019.01c-1.109-.25-1.51-.829-1.51-.829a5.1 5.1 0 0 1 2.684.675s-.372-.126-.745-.174" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="ANT__b" x1="12" x2="12" y1="4.259" y2="19.742" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#02E8F7"/>
+            <stop offset="1" stop-color="#03CCFD"/>
+        </linearGradient>
+        <clipPath id="ANT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

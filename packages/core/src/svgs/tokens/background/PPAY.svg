@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PPAY__a)">
+        <path fill="url(#PPAY__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m20 11.095-.015-.035L12 13c-2.805-.67-7.715-1.87-7.985-1.94L4 11.11C4.45 7.11 7.86 4 12 4s7.55 3.1 8 7.095m-.085 2.37L12 14.25l-7.915-.79c.1.53.25 1.035.44 1.52L12 15.5l7.45-.465c.205-.5.365-1.025.465-1.57M18.65 16.51q-3.321.222-6.65.24c-2.15-.02-5.15-.235-6.73-.36q.39.593.885 1.11h11.69q.441-.463.805-.99m-1.955 1.99H7.3A8.05 8.05 0 0 0 12 20c1.75 0 3.375-.555 4.695-1.5"/>
+    </g>
+    <defs>
+        <linearGradient id="PPAY__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FB4440"/>
+            <stop offset="1" stop-color="#A72DC4"/>
+        </linearGradient>
+        <clipPath id="PPAY__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

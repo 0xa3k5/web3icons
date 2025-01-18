@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#REVO__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#D7C1C3" d="M14.795 10.21c-.56-.305-.565-.903-.499-1.256 1.501-.682 3.873-1.6 4.099-1.26.202.286-2.899 2.908-3.6 2.522z"/>
+        <path fill="#ADDFFF" d="m17.651 6.466-2.856.546 2.475-.772 1.826-.291c-.183.06-.607.353-.8.46a.9.9 0 0 0-.216.16l.06.048.156.01h.24l-.17.164c-.065.061-.169.07-.282.019a2 2 0 0 1-.226-.047.34.34 0 0 1-.131-.07.27.27 0 0 1-.076-.227m.264-.146-.028.057a.3.3 0 0 0-.033.108c-.005.043 0 .061.014.07l.005.005v-.018a.25.25 0 0 1 .07-.118q.07-.07.184-.141zm.734 1.869-1.699 2.296 1.756-1.863 1.03-1.487c-.136.131-.583.385-.762.513a.9.9 0 0 1-.24.127l-.024-.076.057-.14.103-.213-.226.08c-.09.033-.14.118-.136.245q-.033.106-.052.217a.3.3 0 0 0 .01.14.28.28 0 0 0 .183.16m.245-.17h-.066a.3.3 0 0 1-.113-.014c-.043-.014-.056-.028-.061-.042v-.005a.27.27 0 0 0 .16 0q.091-.036.207-.108z"/>
+        <path fill="url(#REVO__b)" d="M11.2 5.85c-2.08.075-3.135 3.073-3.403 4.56l5.299-.193 1.6-1.553c-.301-.97-1.421-2.894-3.497-2.814"/>
+        <path fill="#424D8D" d="m9.2 8.47-.203-.49-.292.583.499-.094z"/>
+        <path fill="#776B8E" d="M9.097 10.41v-.583l.503.484-.503.094z"/>
+        <path fill="url(#REVO__c)" d="M10.494 5.365A3 3 0 0 1 9.6 4.78c0-.193.997.094 1.298.292.212.136.702.485.9.678a14 14 0 0 1-1.3-.386z"/>
+        <path fill="url(#REVO__d)" d="M11.294 4.88q.41.425.8.87a8 8 0 0 1-.998-.485c-.499-.292-.696-.678-.598-.776.1-.094.598.193.8.39z"/>
+        <path fill="url(#REVO__e)" d="M12.598 5.944c.268-.226.837-.64.997-.485s-.597.39-.997.485"/>
+        <path fill="url(#REVO__f)" d="M13.6 5.85a3.1 3.1 0 0 0-1.002.193c.164.033.578.094.898.094s.735-.127.9-.188a3 3 0 0 0-.8-.099z"/>
+        <path fill="#151B31" d="M8.597 10.41h-.8c.301-2.038 1.6-4.076 2.602-4.368-.32.156-.8.843-1.002 1.163h.202c-1.12 1.242-1.134 2.654-1.002 3.2z"/>
+        <path fill="#FA4B3D" d="M8.9 7.205c-.08.155-.033.258 0 .291.197-.353.8-1.082 1.6-1.162s1.265.16 1.397.292c.565-.08 1.3.033 1.6.094-.597-.777-1.096-1.064-1.896-1.162-.8-.095-1.704.385-1.901.484-.203.094-.1.193-.203.292-.094.094-.296.386-.4.485-.094.094-.094.193-.197.386"/>
+        <path fill="#6991F0" d="M10.611 6.715c.033.062.09.104.188.104.236 0 .297-.193.297-.292a2 2 0 0 0-.499-.094c-.005.028-.014.061-.014.099a.096.096 0 0 1 .085.094.09.09 0 0 1-.057.094z"/>
+        <path fill="url(#REVO__g)" d="M10.9 6.72c-.16 0-.203-.188-.203-.292.16 0 .335.066.4.099 0 .066-.037.193-.197.193"/>
+        <path fill="#D9D9D9" d="M10.847 6.574a.047.047 0 0 1-.047.047.047.047 0 0 1-.052-.047.05.05 0 0 1 .047-.047c.028 0 .052.023.052.047"/>
+        <path fill="#110F15" d="m10.23 6.47-.033-.042.1-.037c.536 0 .818.117.917.193h.085v.08h-.076c-.117.207-.423.484-.837.385a.29.29 0 0 1-.236-.296c0-.099.038-.202.08-.282m.226 0c-.16.057-.226.189-.226.283 0 .113.062.193.18.221.357.09.63-.16.738-.339-.188-.131-.47-.164-.692-.164"/>
+        <path fill="#A1354E" d="M9.897 5.944c-.066 0-.216.019-.296.099-.104.094-.033.22-.104.291-.094.095-.4.292-.499.485s0 .193-.098.386c-.08.155-.033.259 0 .292.597-.777.992-1.163 1.797-1.163.603 0 1.068.16 1.2.292h.301c-.3-.292-.8-.485-1.5-.485-.5 0-.8.288-.8.189 0-.076.47-.287.705-.386z"/>
+        <path fill="url(#REVO__h)" d="M12.8 6.527c0-.094-.103-.677-.202-.776-.08-.076-.7.033-1.002.094-.198.099.904.682 1.002.682.1 0 .198.094.198 0z"/>
+        <path fill="url(#REVO__i)" d="M10.099 7.303A.094.094 0 0 1 10 7.209l-.104.188c0 .297.302.49.603.49s.597-.193 1.101-.193c.499 0 1.097.287 1.398.287.24 0 .498-.776.597-1.162-.4-.292-1.035-.292-1.6-.292-.395 0-1.797.776-1.896.776"/>
+        <path fill="#FDEADC" d="M10.4 7.595c-.16 0-.334-.132-.4-.193.696 0 1.299-.485 1.694-.485-.452.217-1.096.678-1.294.678"/>
+        <path fill="#934800" d="M11.534 6.998a8 8 0 0 1 1.464-.277c-.485 0-.937.122-1.407.207-.151.023-.32.099-.513.179-.302.131-.645.282-1.021.291H10l.042.043c.08.066.226.155.358.155.122 0 .41-.17.715-.353.141-.085.283-.17.424-.245zm-1.134.56a.46.46 0 0 1-.216-.07 1 1 0 0 1-.08-.047 2.7 2.7 0 0 0 .988-.297l.282-.117.075-.024-.353.207q-.245.14-.494.278l-.122.047a.3.3 0 0 1-.08.023"/>
+        <path fill="#8A8B8D" d="m12.39 5.962-.019-.066a.037.037 0 0 1 .024-.047c.023-.01.047 0 .052.024l.028.094q.053.006.103.023c.02.01.029.033.02.052-.01.02-.034.028-.057.02l-.043-.015.038.15a.037.037 0 0 1-.037.038.05.05 0 0 1-.048-.037 1 1 0 0 0-.037-.16.5.5 0 0 0-.16.023.044.044 0 0 1-.057-.019.03.03 0 0 1 .007-.04l.012-.007a.5.5 0 0 1 .174-.033"/>
+        <path fill="url(#REVO__j)" d="M8.099 8.371c.24.466.433 1.553.499 2.038v.87L6.8 11.186l.598-.583-.094-.193.094-.094c-.48-.08-.664-.424-.697-.584l.094-.197c0-.466.47-.904.706-1.069l.297-.385.3.484z"/>
+        <path fill="url(#REVO__k)" d="M14.998 7.981c-.565.236-.701 1.069-.701 1.46l.461-.391.141-.193v.193l.198-.193.701-.391.297-.386v.193l.3-.193v.094c.32-.15 2-.837 2.8-1.162l.203-.485c-.32-.075-2.734 1.003-3.901 1.553-.066.094-.259.292-.499.292s.099-.259.301-.39z"/>
+        <path fill="url(#REVO__l)" d="M13.797 6.917c-1.2.777-3.6 6.631-4 7.469l4.598-.292V9.633c0-.621.4-1.36.602-1.647h.296l.095-.1h-.495l-.3.095a7 7 0 0 0-.8-1.064z"/>
+        <path fill="url(#REVO__m)" d="M4.4 17.106c0 .061.014.132.028.207.207.621 1.393 1.67 2.367 1.633 2.597-.094 5.402-1.84 7.6-1.84 1.76 0 3.265-.165 3.797-.292-.197.485-3.397.678-4.4.776-.997.095-5.096 1.94-7.2 1.648A2.456 2.456 0 0 1 4.4 17.106"/>
+        <path fill="url(#REVO__n)" fill-rule="evenodd" d="m4.603 15.46-.4.484c0 1.002.48 3.007 2.4 3.007 1.294 0 2.824-.504 4.24-.97 1.205-.395 2.325-.767 3.153-.776h.838c1.731.024 3.934.047 4.362-1.36.499-1.647.499-3.106-4.499-3.2-4-.08-8.395 1.84-10.094 2.814m1.995 2.808a.99.99 0 0 0 1.003-.969.99.99 0 0 0-1.003-.97.99.99 0 0 0-.997.97.99.99 0 0 0 .997.97" clip-rule="evenodd"/>
+        <path fill="url(#REVO__o)" d="m5.6 16.424-.499-5.144 1.694-.485c.8 0 1.704.424 1.902.584l-.5 2.038.8 1.938-1.2.777-.597-.188-.4-.781.099 1.36-1.101.484-1.299-.193z"/>
+        <path fill="url(#REVO__p)" d="m4 11.577 2.598-.781c.3-.061.94.019 1.1.875.16.852-.329 1.647-.597 1.939l1.195 1.647-1.096.682-1.299-1.647-.301.188v1.85l-1.101.485L4 11.571zm1.299.678.099 1.162c.433-.094 1.28-.424 1.2-.97-.09-.611-.838-.352-1.2-.23l-.094.038z"/>
+        <path fill="#FFDBC6" fill-rule="evenodd" d="M7.101 13.609a2.46 2.46 0 0 0 .598-1.94c-.16-.856-.8-.94-1.101-.875L4 11.575l.499 5.243 1.101-.485v-1.845l.301-.192L7.2 15.943l1.096-.678-1.195-1.647zm1.083 1.628-1.186-1.633.042-.047c.127-.141.31-.4.442-.734.137-.33.217-.73.142-1.14-.08-.409-.269-.62-.462-.729a.82.82 0 0 0-.54-.084l-2.537.757.484 5.068.951-.418V14.44l.395-.258 1.304 1.651zM5.327 13.51l-.113-1.313.061-.02.094-.032h.01c.179-.066.466-.165.72-.17.132 0 .263.02.372.095a.5.5 0 0 1 .207.367c.047.315-.18.56-.443.724a2.6 2.6 0 0 1-.819.33zm.07-.094.08-.02c.452-.117 1.196-.437 1.12-.95-.089-.612-.837-.353-1.2-.23l-.093.037z" clip-rule="evenodd"/>
+        <path fill="url(#REVO__q)" d="m10.4 10.024-1.703.385.301.678.099 2.137-.8 1.068h1.501l1.732-.39v-.773l-1.035-.192-.396.192v-.583l1.2-.287.094-.683-1.096-.291.8-.386v-.687l-.697-.198z"/>
+        <path fill="url(#REVO__r)" d="m10.4 10.023-2.4.48.296 3.789 2.203-.584v-.777l-1.403.292v-.875l1.2-.292v-.776l-1.298.292v-.485l1.402-.292z"/>
+        <path fill="#FFDBC6" fill-rule="evenodd" d="m8.998 11.087 1.402-.292v-.772l-2.4.485.296 3.788 2.203-.583v-.777l-1.403.292v-.875l1.2-.292v-.777l-1.298.292zm1.223.292-1.303.291v-.644l1.402-.292v-.617l-2.235.452.282 3.624 2.052-.546v-.621l-1.403.292v-1.031l1.2-.287v-.621z" clip-rule="evenodd"/>
+        <path fill="url(#REVO__s)" d="m12.597 10.024-1.1-.198.7 3.69h1.501l1.097-3.784-.998-.197-.899 2.037-.3-1.553z"/>
+        <path fill="url(#REVO__t)" d="m11.497 9.826-.998.193 1.299 3.497h.998l1.002-3.981-.899.094-.701 2.334z"/>
+        <path fill="#FFDBC6" fill-rule="evenodd" d="m11.497 9.826-.998.193 1.299 3.497h.998l1.002-3.981-.899.094-.701 2.334zm1.459-.122-.753 2.522-.758-2.305-.838.16 1.247 3.355h.88l.96-3.812-.734.08z" clip-rule="evenodd"/>
+        <path fill="url(#REVO__u)" fill-rule="evenodd" d="M16 12.254c.174 0 .598-.23.598-.876 0-.644-.424-.875-.602-.875-.175 0-.598.23-.598.875s.423.876.598.876zm0 .97c.88 0 1.6-.83 1.6-1.846s-.72-2.037-1.6-2.037c-.339 0-.706 0-1.002.094-.424.334-.602 1.308-.602 1.943 0 .772.117 1.572.705 1.845z" clip-rule="evenodd"/>
+        <path fill="url(#REVO__v)" fill-rule="evenodd" d="M15.548 12.047c.14-.165.25-.433.25-.767 0-.33-.114-.598-.25-.763-.142-.17-.269-.207-.353-.207-.08 0-.212.038-.349.207-.14.165-.249.433-.249.763 0 .329.113.602.25.767.136.164.268.207.348.207.084 0 .216-.043.353-.207m-.353 1.176c.884 0 1.6-.87 1.6-1.943 0-1.069-.716-1.94-1.6-1.94-.88 0-1.6.871-1.6 1.94 0 1.073.72 1.943 1.6 1.943" clip-rule="evenodd"/>
+        <path fill="#FFDBC6" fill-rule="evenodd" d="M15.877 11.28c0 .348-.118.635-.268.819-.15.178-.301.235-.414.235-.109 0-.264-.057-.41-.236a1.3 1.3 0 0 1-.268-.818c0-.344.118-.63.268-.814.146-.18.301-.236.41-.236.113 0 .263.057.414.236.15.183.268.47.268.814m-.682 1.863c.823 0 1.52-.814 1.52-1.863 0-1.045-.697-1.86-1.52-1.86s-1.52.815-1.52 1.86c0 1.05.696 1.863 1.52 1.863m.602-1.863c0 .329-.113.602-.25.767-.14.164-.268.207-.352.207-.08 0-.212-.043-.349-.207-.14-.165-.249-.433-.249-.767 0-.33.113-.598.25-.763.136-.17.268-.207.348-.207.084 0 .216.038.353.207.14.165.25.433.25.763m.998 0c0 1.073-.716 1.943-1.6 1.943-.88 0-1.6-.87-1.6-1.943 0-1.069.72-1.94 1.6-1.94.884 0 1.6.871 1.6 1.94" clip-rule="evenodd"/>
+        <path fill="url(#REVO__w)" d="m12.198 17.49-1.901.584-.396-.193 1.3-.39z"/>
+        <path fill="#6DBEDC" d="M8.197 14H7.105l1.398-.39 1.101.094L8.202 14z"/>
+        <path fill="url(#REVO__x)" d="m10.3 18.07-.705-4.362-1.294.268-.104.024.904 5.53 3.096-.876v-1.162l-1.896.583z"/>
+        <path fill="url(#REVO__y)" d="M8 19.435 7.102 14h1.096l.904 5.53z"/>
+        <path fill="url(#REVO__z)" d="m12.695 13.317.5 3.59h1.001l.4-.291.702.197v-.39l1.6.193h1.195v-3.488h-3.497l-.4.095v.39l-.098.39-.104-.682h-1.299z"/>
+        <path fill="url(#REVO__A)" d="M18.598 14.292v-.975c.894.198.998.683.894 1.845a1.34 1.34 0 0 1-1.195 1.261v-.677c.165-.16.499-.565.499-.876 0-.31-.132-.517-.198-.578"/>
+        <path fill="url(#REVO__B)" d="M18.4 16.612v.005h-.706l.4-3.393.706.094-.004.014c.517.066 1.27.39 1.2 1.346-.095 1.294-.918 1.882-1.6 1.939zm.08-.673c.353-.033.847-.254.918-.97.061-.691-.348-.922-.687-.964l-.235 1.934z"/>
+        <path fill="url(#REVO__C)" d="M12.997 13.416h-1.002l-1.097 3.882H12l.997-3.887z"/>
+        <path fill="url(#REVO__D)" d="m12.998 13.416.997-.094 1.003 3.492-.8.094-.16-.626-.965.188-.174.635-.899.189zm.32 2.174.517-.094-.235-.918z"/>
+        <path fill="#CEEBFE" d="m14.197 13.223 1.2.094.998-.189h-1.798z"/>
+        <path fill="url(#REVO__E)" d="m15.2 16.815.198-3.497.899-.188.7 1.84.198-1.845h.702l-.4 3.59h-.603L16 14.58l-.103 2.235z"/>
+    </g>
+    <defs>
+        <linearGradient id="REVO__b" x1="14.204" x2="6.755" y1="4.479" y2="17.83" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FDFCFE"/>
+            <stop offset="1" stop-color="#E6D4C6"/>
+        </linearGradient>
+        <linearGradient id="REVO__c" x1="4.719" x2="22.291" y1="3.962" y2="8.948" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FAFE78"/>
+            <stop offset="1" stop-color="#FFFDCE"/>
+        </linearGradient>
+        <linearGradient id="REVO__d" x1="5.731" x2="41.677" y1="3.856" y2="22.75" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FAFE78"/>
+            <stop offset="1" stop-color="#FFFDCE"/>
+        </linearGradient>
+        <linearGradient id="REVO__e" x1="-26.575" x2="38.826" y1="-24.733" y2="-2.592" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FAFE78"/>
+            <stop offset="1" stop-color="#FFFDCE"/>
+        </linearGradient>
+        <linearGradient id="REVO__f" x1="-13.34" x2="27.54" y1="-70.574" y2="-66.23" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FAFE78"/>
+            <stop offset="1" stop-color="#FFFDCE"/>
+        </linearGradient>
+        <linearGradient id="REVO__g" x1="12.095" x2="12.095" y1="4.471" y2="19.529" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5D5B70"/>
+            <stop offset="1" stop-color="#090F1F"/>
+        </linearGradient>
+        <linearGradient id="REVO__h" x1="11.971" x2="21.975" y1="4.426" y2="18.049" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FBFFFF"/>
+            <stop offset="1" stop-color="#FEFFF9"/>
+        </linearGradient>
+        <linearGradient id="REVO__i" x1="18.718" x2="4.994" y1="7.492" y2="9.525" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFFF75"/>
+            <stop offset=".37" stop-color="#E66A12"/>
+            <stop offset="1" stop-color="#AE4213"/>
+        </linearGradient>
+        <linearGradient id="REVO__j" x1="11.98" x2="11.98" y1="4.471" y2="19.529" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#619CAA"/>
+            <stop offset=".29" stop-color="#183F78"/>
+            <stop offset=".53" stop-color="#374568"/>
+            <stop offset="1" stop-color="#637C90"/>
+        </linearGradient>
+        <linearGradient id="REVO__k" x1="20" x2="2.03" y1="5.487" y2="10.242" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#B2C9E8"/>
+            <stop offset=".27" stop-color="#44608E"/>
+            <stop offset=".74" stop-color="#152549"/>
+            <stop offset="1" stop-color="#10162F"/>
+        </linearGradient>
+        <linearGradient id="REVO__l" x1="14.019" x2="15.457" y1="5.638" y2="10.918" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4CAACE"/>
+            <stop offset=".34" stop-color="#229ACC"/>
+            <stop offset=".52" stop-color="#0C5C9B"/>
+            <stop offset=".72" stop-color="#0B4D8A"/>
+            <stop offset="1" stop-color="#0E4F75"/>
+        </linearGradient>
+        <linearGradient id="REVO__m" x1="5.506" x2="19.583" y1="13.997" y2="13.699" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6D444C"/>
+            <stop offset="1" stop-color="#254C6B"/>
+        </linearGradient>
+        <linearGradient id="REVO__n" x1="10.414" x2="15.615" y1="6.555" y2="16.13" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6CBDDB"/>
+            <stop offset=".49" stop-color="#CDDDE4"/>
+            <stop offset="1" stop-color="#D6C8C9"/>
+        </linearGradient>
+        <linearGradient id="REVO__o" x1="12" x2="12" y1="4.711" y2="19.53" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#992F34"/>
+            <stop offset=".23" stop-color="#EB6234"/>
+            <stop offset=".49" stop-color="#902524"/>
+            <stop offset=".63" stop-color="#66211C"/>
+            <stop offset=".87" stop-color="#782424"/>
+            <stop offset="1" stop-color="#5E1B1C"/>
+        </linearGradient>
+        <linearGradient id="REVO__p" x1="7.715" x2="9.327" y1="5.486" y2="18.337" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FEB05B"/>
+            <stop offset=".23" stop-color="#FE9C51"/>
+            <stop offset=".42" stop-color="#FFEA76"/>
+            <stop offset=".63" stop-color="#FD594F"/>
+            <stop offset=".81" stop-color="#FE4E4E"/>
+            <stop offset="1" stop-color="#FE4F4B"/>
+        </linearGradient>
+        <linearGradient id="REVO__q" x1="12.175" x2="12.057" y1="4.488" y2="19.862" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F67141"/>
+            <stop offset=".21" stop-color="#E74425"/>
+            <stop offset=".33" stop-color="#B24143"/>
+            <stop offset=".49" stop-color="#5B1D22"/>
+            <stop offset=".57" stop-color="#CC3F35"/>
+            <stop offset=".77" stop-color="#DD7F8F"/>
+            <stop offset=".89" stop-color="#9E3641"/>
+            <stop offset="1" stop-color="#722432"/>
+        </linearGradient>
+        <linearGradient id="REVO__r" x1="5.266" x2="9.453" y1="6.513" y2="20.244" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FAEE84"/>
+            <stop offset=".21" stop-color="#FFD871"/>
+            <stop offset=".33" stop-color="#B24143"/>
+            <stop offset=".49" stop-color="#FCD77F"/>
+            <stop offset=".57" stop-color="#F9976B"/>
+            <stop offset=".77" stop-color="#FE5953"/>
+            <stop offset=".89" stop-color="#FE5754"/>
+            <stop offset="1" stop-color="#FB5A52"/>
+        </linearGradient>
+        <linearGradient id="REVO__s" x1="9.341" x2="11.906" y1="5.219" y2="19.125" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DE5C64"/>
+            <stop offset=".19" stop-color="#BE3427"/>
+            <stop offset=".37" stop-color="#982827"/>
+            <stop offset=".68" stop-color="#DA4F3A"/>
+            <stop offset="1" stop-color="#A276AE"/>
+        </linearGradient>
+        <linearGradient id="REVO__t" x1="9.341" x2="12.153" y1="5.255" y2="19.824" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFF379"/>
+            <stop offset=".19" stop-color="#FEC35F"/>
+            <stop offset=".37" stop-color="#FD7354"/>
+            <stop offset=".68" stop-color="#F25762"/>
+            <stop offset="1" stop-color="#F35C62"/>
+        </linearGradient>
+        <linearGradient id="REVO__u" x1="11.988" x2="11.988" y1="5.219" y2="19.529" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9A3441"/>
+            <stop offset=".44" stop-color="#E85E39"/>
+            <stop offset=".74" stop-color="#CB3445"/>
+            <stop offset="1" stop-color="#A45F8F"/>
+        </linearGradient>
+        <linearGradient id="REVO__v" x1="8.517" x2="10.525" y1="5.602" y2="19.73" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FAF37E"/>
+            <stop offset=".3" stop-color="#FC674F"/>
+            <stop offset="1" stop-color="#F15B64"/>
+        </linearGradient>
+        <linearGradient id="REVO__w" x1="15.115" x2="4.638" y1="4.47" y2="5.302" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#59BDFB"/>
+            <stop offset="1" stop-color="#75BDFE"/>
+        </linearGradient>
+        <linearGradient id="REVO__x" x1="12" x2="10.235" y1="4.471" y2="19.587" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3B89C7"/>
+            <stop offset=".31" stop-color="#4EE9FE"/>
+            <stop offset=".65" stop-color="#166189"/>
+            <stop offset="1" stop-color="#1C6091"/>
+        </linearGradient>
+        <linearGradient id="REVO__y" x1="11.982" x2="11.982" y1="4.471" y2="19.529" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3B99CD"/>
+            <stop offset=".28" stop-color="#34BFE8"/>
+            <stop offset=".57" stop-color="#2BBEF2"/>
+            <stop offset="1" stop-color="#1B5D83"/>
+        </linearGradient>
+        <linearGradient id="REVO__z" x1="12.006" x2="12.006" y1="4.451" y2="19.528" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#99F3FD"/>
+            <stop offset=".33" stop-color="#207BAA"/>
+            <stop offset=".5" stop-color="#1481BE"/>
+            <stop offset="1" stop-color="#12386A"/>
+        </linearGradient>
+        <linearGradient id="REVO__A" x1="12.033" x2="12.033" y1="4.471" y2="19.529" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#99F3FD"/>
+            <stop offset=".33" stop-color="#207BAA"/>
+            <stop offset=".5" stop-color="#1481BE"/>
+            <stop offset="1" stop-color="#12386A"/>
+        </linearGradient>
+        <linearGradient id="REVO__B" x1="12.001" x2="12.001" y1="4.471" y2="19.53" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#71D1FF"/>
+            <stop offset=".25" stop-color="#3AB6F3"/>
+            <stop offset=".51" stop-color="#59EDFB"/>
+            <stop offset=".74" stop-color="#41ACFF"/>
+            <stop offset="1" stop-color="#1D68A1"/>
+        </linearGradient>
+        <linearGradient id="REVO__C" x1="15.408" x2="13.476" y1="4.489" y2="20.227" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#549EE9"/>
+            <stop offset=".39" stop-color="#25A3D5"/>
+            <stop offset="1" stop-color="#1F93CC"/>
+        </linearGradient>
+        <linearGradient id="REVO__D" x1="11.987" x2="12.241" y1="4.453" y2="18.445" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3697DB"/>
+            <stop offset=".3" stop-color="#1F90CC"/>
+            <stop offset=".49" stop-color="#3BE0FF"/>
+            <stop offset=".7" stop-color="#34A7E8"/>
+            <stop offset="1" stop-color="#2B7FBF"/>
+        </linearGradient>
+        <linearGradient id="REVO__E" x1="16.546" x2="16.546" y1="13.125" y2="16.815" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A3F6FB"/>
+            <stop offset=".19" stop-color="#35C3F3"/>
+            <stop offset=".6" stop-color="#3DDFF6"/>
+            <stop offset=".8" stop-color="#2B9FDA"/>
+            <stop offset="1" stop-color="#2179B8"/>
+        </linearGradient>
+        <clipPath id="REVO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

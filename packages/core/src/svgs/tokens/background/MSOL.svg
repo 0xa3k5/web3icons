@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MSOL__a)">
+        <path fill="#308D8A" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M6.824 6.354H20l-3.294 2.823H4zm.001 8.47H19.53l-2.813 2.823H4zm9.881-4.235L4 10.59l2.825 2.821H19.53z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="MSOL__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

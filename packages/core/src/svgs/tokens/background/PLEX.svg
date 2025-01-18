@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PLEX__a)">
+        <path fill="#F08296" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11 12.499v-3.5h1c1.034 0 1.5.4 1.5 1.75 0 1.08-.616 1.75-1.5 1.75z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M19.994 10.687v2.873c0 3.405-3.34 6.44-10.01 6.44C8.074 20 4 19.123 4 13.304V10.44c0-5.844 7.994-6.439 10.009-6.439 6.297 0 6 6.355 5.985 6.686m-4.495-.037c0-1.95-1.035-3.15-2.51-3.15-.983 0-2.781.719-3.753 1.106L9 8.7v7.8h2v-2.92q.17.063.332.133c.341.143.683.287 1.167.287 1.625 0 3-1.395 3-3.35" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="PLEX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

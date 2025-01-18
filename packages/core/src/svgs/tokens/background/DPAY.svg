@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DPAY__a)">
+        <path fill="#7859E5" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M15.5 13a4.6 4.6 0 0 1-4.425 3.5H5V20h6.075A8 8 0 0 0 19 13zM5 4h6.075A8 8 0 0 1 19 11h-3.5a4.6 4.6 0 0 0-4.425-3.5H5zm0 5.5h3.5V11H5zM5 13h3.5v1.5H5z"/>
+    </g>
+    <defs>
+        <clipPath id="DPAY__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

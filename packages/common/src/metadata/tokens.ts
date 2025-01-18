@@ -5,7 +5,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'moon',
     symbol: 'moon',
     name: 'r/CryptoCurrency Moons',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'arbitrum-nova': '0x0057ac2d777797d31cd3f8f13bf5e927571d6ad0',
       'arbitrum-one': '0x24404dc041d74cd03cfe28855f555559390c931b',
@@ -13,21 +13,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 1104,
   },
   {
-    id: 'bakerytoken',
-    symbol: 'bake',
-    name: 'BakerySwap',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'binance-smart-chain': '0xe02df9e3e622debdd69fb838bb799e3f168902c5',
-      'harmony-shard-0': '0x4da9464daf2b878e32e29115e2cfd786fe84692a',
-    },
-    marketCapRank: 451,
-  },
-  {
     id: 'alva',
     symbol: 'aa',
     name: 'ALVA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x99e6ca7e6c5c5aea22b4a992eb6895bc6d433298',
     },
@@ -37,7 +26,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aag-ventures',
     symbol: 'aag',
     name: 'AAG',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x5ba19d656b65f1684cfea4af428c23b9f3628f97',
       'harmony-shard-0': '0xae0609a062a4eaed49de28c5f6a193261e0150ea',
@@ -48,7 +37,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aave',
     symbol: 'aave',
     name: 'Aave',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9',
       avalanche: '0x63a72806098bd3d9520cc43356dd78afe5d386d9',
@@ -69,7 +58,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aavegotchi',
     symbol: 'ghst',
     name: 'Aavegotchi',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x3f382dbd960e3a9bbceae22651e88158d2791550',
       'polygon-pos': '0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7',
@@ -78,42 +67,19 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 575,
   },
   {
-    id: 'alpha-finance',
-    symbol: 'alpha',
-    name: 'Stella',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xa1faa113cbe53436df28ff0aee54275c13b40975',
-      avalanche: '0x2147efff675e4a4ee1c2f918d181cdbd7a8e208f',
-      'binance-smart-chain': '0xa1faa113cbe53436df28ff0aee54275c13b40975',
-      energi: '0x05b357201b31093a13a22d76de1b1eb23ad83017',
-    },
-    marketCapRank: 431,
-  },
-  {
     id: 'metadium',
     symbol: 'meta',
     name: 'Metadium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xde2f7766c8bf14ca67193128535e5c7454f8387c',
     },
     marketCapRank: 562,
   },
   {
-    id: 'airswap',
-    symbol: 'ast',
-    name: 'AirSwap',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x27054b13b1b798b345b591a4d22e6562d47ea75a',
-    },
-    marketCapRank: 921,
-  },
-  {
     id: 'access-protocol',
     name: 'Access Protocol',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     symbol: 'acs',
     marketCapRank: 0,
     addresses: {},
@@ -121,7 +87,7 @@ export const tokens: ITokenMetadata[] = [
   {
     id: 'acet-token',
     name: 'Acet',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     symbol: 'act',
     marketCapRank: 0,
     addresses: {},
@@ -130,7 +96,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'acquire-fi',
     symbol: 'acq',
     name: 'Acquire.Fi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4bdcb66b968060d9390c1d12bd29734496205581',
     },
@@ -140,7 +106,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'acria',
     symbol: 'acria',
     name: 'Acria.AI',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x44f5909e97e1cbf5fbbdf0fc92fd83cde5d5c58a',
       'binance-smart-chain': '0x44f5909e97e1cbf5fbbdf0fc92fd83cde5d5c58a',
@@ -151,7 +117,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'across-protocol',
     symbol: 'acx',
     name: 'Across Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f',
       'polygon-pos': '0xf328b73b6c685831f238c30a23fc19140cb4d8fc',
@@ -165,7 +131,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'adapad',
     symbol: 'adapad',
     name: 'ADAPad',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xdb0170e2d0c1cc1b2e7a90313d9b9afa4f250289',
       ethereum: '0xdb0170e2d0c1cc1b2e7a90313d9b9afa4f250289',
@@ -176,127 +142,33 @@ export const tokens: ITokenMetadata[] = [
     id: 'frencoin-2',
     symbol: 'fren',
     name: 'Frencoin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 2541,
-  },
-  {
-    id: 'adappter-token',
-    symbol: 'adp',
-    name: 'Adappter',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xc314b0e758d5ff74f63e307a86ebfe183c95767b',
-    },
-    marketCapRank: 1385,
   },
   {
     id: 'cardano',
     symbol: 'ada',
     name: 'Cardano',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 10,
-  },
-  {
-    id: 'adex',
-    symbol: 'adx',
-    name: 'AdEx',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xade00c28244d5ce17d72e40330b1c318cd12b7c3',
-      'polygon-pos': '0xdda7b23d2d72746663e7939743f929a3d85fc975',
-      'binance-smart-chain': '0x6bff4fb161347ad7de4a625ae5aa3a1ca7077819',
-    },
-    marketCapRank: 866,
-  },
-  {
-    id: 'adshares',
-    symbol: 'ads',
-    name: 'Adshares',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xcfcecfe2bd2fed07a9145222e8a7ad9cf1ccd22a',
-      'binance-smart-chain': '0xcfcecfe2bd2fed07a9145222e8a7ad9cf1ccd22a',
-      'polygon-pos': '0x598e49f01befeb1753737934a5b11fea9119c796',
-    },
-    marketCapRank: 1174,
-  },
-  {
-    id: 'adventure-gold',
-    symbol: 'agld',
-    name: 'Adventure Gold',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x32353a6c91143bfd6c7d363b546e62a9a2489a20',
-    },
-    marketCapRank: 457,
-  },
-  {
-    id: 'advertise-coin',
-    symbol: 'adco',
-    name: 'Advertise Coin',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xb6c3dc857845a713d3531cea5ac546f6767992f4',
-    },
-    marketCapRank: 947,
-  },
-  {
-    id: 'aegis-ai',
-    symbol: 'aegis',
-    name: 'Aegis Ai',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x55a8f6c6b3aa58ad6d1f26f6afeded78f32e19f4',
-    },
-    marketCapRank: 1007,
   },
   {
     id: 'aelf',
     symbol: 'elf',
     name: 'aelf',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbf2179859fc6d5bee9bf9158632dc51678a4100e',
     },
     marketCapRank: 195,
   },
   {
-    id: 'aergo',
-    symbol: 'aergo',
-    name: 'Aergo',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x91af0fbb28aba7e31403cb457106ce79397fd4e6',
-    },
-    marketCapRank: 592,
-  },
-  {
-    id: 'aerodrome-finance',
-    symbol: 'aero',
-    name: 'Aerodrome Finance',
-    variants: ['branded', 'mono'],
-    addresses: {
-      base: '0x940181a94a35a4569e4529a3cdfb74e38fd98631',
-    },
-    marketCapRank: 176,
-  },
-  {
-    id: 'aeternity',
-    symbol: 'ae',
-    name: 'Aeternity',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d',
-    },
-    marketCapRank: 1244,
-  },
-  {
     id: 'athenadao-token',
     symbol: 'ath',
     name: 'AthenaDAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa4ffdf3208f46898ce063e25c1c43056fa754739',
     },
@@ -306,7 +178,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'affyn',
     symbol: 'fyn',
     name: 'Affyn',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x3b56a704c01d650147ade2b8cee594066b3f9421',
     },
@@ -316,28 +188,17 @@ export const tokens: ITokenMetadata[] = [
     id: 'teh-fund',
     symbol: 'fund',
     name: 'Teh Fund',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7d8d7c26179b7a6aebbf66a91c38ed92d5b4996b',
     },
     marketCapRank: 2557,
   },
   {
-    id: 'delysium',
-    symbol: 'agi',
-    name: 'Delysium',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x7da2641000cbb407c329310c461b2cb9c70c3046',
-      'binance-smart-chain': '0x818835503f55283cd51a4399f595e295a9338753',
-    },
-    marketCapRank: 277,
-  },
-  {
     id: 'agoras-currency-of-tau',
     symbol: 'agrs',
     name: 'Agoras: Currency of Tau',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x738865301a9b7dd80dc3666dd48cf034ec42bdda',
     },
@@ -347,7 +208,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'agoric',
     symbol: 'bld',
     name: 'Agoric',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/2DA9C149E9AD2BD27FEFA635458FB37093C256C1A940392634A16BEA45262604',
@@ -361,7 +222,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ahatoken',
     symbol: 'aht',
     name: 'AhaToken',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 771,
   },
@@ -369,7 +230,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'a-hunters-dream',
     symbol: 'caw',
     name: 'A Hunters Dream',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xf3b9569f82b18aef890de263b84189bd33ebe452',
     },
@@ -379,7 +240,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ait-protocol',
     symbol: 'ait',
     name: 'AIT Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x89d584a1edb3a70b3b07963f9a3ea5399e38b136',
     },
@@ -389,7 +250,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sleepless-ai',
     symbol: 'ai',
     name: 'Sleepless AI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xbda011d7f8ec00f66c1923b049b94c67d148d8b2',
     },
@@ -399,7 +260,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aimbot',
     symbol: 'aimbot',
     name: 'Aimbot AI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0c48250eb1f29491f1efbeec0261eb556f0973c7',
     },
@@ -409,7 +270,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aimedis-new',
     symbol: 'aimx',
     name: 'Aimedis (NEW)',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x33b6d77c607ea499ab5db7e2201c5a516a78a5db',
     },
@@ -419,7 +280,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ai-network',
     symbol: 'ain',
     name: 'AI Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3a810ff7211b40c4fa76205a14efe161615d0385',
     },
@@ -429,7 +290,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aioz-network',
     symbol: 'aioz',
     name: 'AIOZ Network',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x626e8036deb333b408be468f951bdb42433cbf18',
       'binance-smart-chain': '0x33d08d8c7a168333a85285a68c0042b39fc3741d',
@@ -440,7 +301,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aipad',
     symbol: 'aipad',
     name: 'AIPad',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe55d97a97ae6a17706ee281486e98a84095d8aaf',
       'binance-smart-chain': '0xe55d97a97ae6a17706ee281486e98a84095d8aaf',
@@ -451,7 +312,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'altair',
     symbol: 'air',
     name: 'Altair',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 1299,
   },
@@ -459,7 +320,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'airbloc-protocol',
     symbol: 'abl',
     name: 'Airbloc',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xf8b358b3397a8ea5464f8cc753645d42e14b79ea',
     },
@@ -469,7 +330,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'airight',
     symbol: 'airi',
     name: 'aiRight',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x7e2a35c746f2f7c240b664f1da4dd100141ae71f',
     },
@@ -479,7 +340,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'airtor-protocol',
     symbol: 'ator',
     name: 'AirTor Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0f7b3f5a8fed821c5eb60049538a548db2d479ce',
     },
@@ -489,7 +350,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aisociety',
     symbol: 'ais',
     name: 'AISociety',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x42a7797351dfd281a80807196c8508eb70bb2af9',
     },
@@ -499,7 +360,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'akash-network',
     symbol: 'akt',
     name: 'Akash Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       akash: 'uakt',
     },
@@ -509,7 +370,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cashaa',
     symbol: 'cas',
     name: 'Cashaa',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x780207b8c0fdc32cf60e957415bfa1f2d4d9718c',
     },
@@ -519,7 +380,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'alaska-gold-rush',
     symbol: 'carat',
     name: 'Alaska Gold Rush',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x426c1c971fb00caaf1883bd801323a8becb0c919',
     },
@@ -529,7 +390,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'alchemix',
     symbol: 'alcx',
     name: 'Alchemix',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdbdb4d16eda451d0503b854cf79d55697f90c8df',
       'near-protocol':
@@ -541,7 +402,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'alchemy-pay',
     symbol: 'ach',
     name: 'Alchemy Pay',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xed04915c23f00a313a544955524eb7dbd823143d',
       'binance-smart-chain': '0xbc7d6b50616989655afd682fb42743507003056d',
@@ -552,7 +413,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aldrin',
     symbol: 'rin',
     name: 'Aldrin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'E5ndSkaB17Dm7CsD22dvcjfrYSDLCxFcMd6z8ddCk5wp',
     },
@@ -562,7 +423,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aleph',
     symbol: 'aleph',
     name: 'Aleph.im',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x27702a26126e0b3702af63ee09ac4d1a084ef628',
       'binance-smart-chain': '0x82d2f8e02afb160dd5a480a617692e62de9038c4',
@@ -573,7 +434,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'alephium',
     symbol: 'alph',
     name: 'Alephium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x590f820444fa3638e022776752c5eef34e2f89a6',
     },
@@ -583,7 +444,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aleph-zero',
     symbol: 'azero',
     name: 'Aleph Zero',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 256,
   },
@@ -591,7 +452,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'alethea-artificial-liquid-intelligence-token',
     symbol: 'ali',
     name: 'Artificial Liquid Intelligence',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6b0b3a982b4634ac68dd83a4dbf02311ce324181',
       cronos: '0x45c135c1cdce8d25a3b729a28659561385c52671',
@@ -604,7 +465,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'alexgo',
     symbol: 'alex',
     name: 'ALEX Lab',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe7c3755482d0da522678af05945062d4427e0923',
     },
@@ -614,7 +475,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'algebra',
     symbol: 'algb',
     name: 'Algebra',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x0169ec1f8f639b32eec6d923e24c2a2ff45b9dd6',
     },
@@ -624,7 +485,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'algorand',
     symbol: 'algo',
     name: 'Algorand',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {},
     marketCapRank: 61,
   },
@@ -632,7 +493,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'alien-worlds',
     symbol: 'tlm',
     name: 'Alien Worlds',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x888888848b652b3e3a0f34c96e00eec0f3a23f72',
       'binance-smart-chain': '0x2222227e22102fe3322098e4cbfe18cfebd57c95',
@@ -643,7 +504,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'all-art',
     symbol: 'aart',
     name: 'ALL.ART',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'F3nefJBcejYbtdREjui1T9DPh5dBgpkKq7u2GAAMXs5B',
     },
@@ -653,7 +514,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'allbridge',
     symbol: 'abr',
     name: 'Allbridge',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xa11bd36801d8fa4448f0ac4ea7a62e3634ce8c7c',
       avalanche: '0xafc43610c7840b20b90caaf93759be5b54b291c9',
@@ -672,7 +533,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'allianceblock-nexera',
     symbol: 'nxra',
     name: 'AllianceBlock Nexera',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x644192291cc835a93d6330b24ea5f5fedd0eef9e',
       avalanche: '0x644192291cc835a93d6330b24ea5f5fedd0eef9e',
@@ -685,31 +546,17 @@ export const tokens: ITokenMetadata[] = [
     id: 'all-in',
     symbol: 'allin',
     name: 'All In',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9b2b931d6ab97b6a887b2c5d8529537e6fe73ebe',
     },
     marketCapRank: 2510,
   },
   {
-    id: 'alongside-crypto-market-index',
-    symbol: 'amkt',
-    name: 'Alongside Crypto Market Index',
-    variants: ['mono'],
-    addresses: {
-      ethereum: '0xf17a3fe536f8f7847f1385ec1bc967b2ca9cae8d',
-      base: '0x13f4196cc779275888440b3000ae533bbbbc3166',
-      'optimistic-ethereum': '0xc27d9bc194a648fe3069955a5126699c4e49351c',
-      'polygon-pos': '0xb87904db461005fc716a6bf9f2d451c33b10b80b',
-      'arbitrum-one': '0x498c620c7c91c6eba2e3cd5485383f41613b7eb6',
-    },
-    marketCapRank: 1904,
-  },
-  {
     id: 'alpaca-finance',
     symbol: 'alpaca',
     name: 'Alpaca Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x8f0528ce5ef7b51152a59745befdd91d97091d2f',
       fantom: '0xad996a45fd2373ed0b10efa4a8ecb9de445a4302',
@@ -720,47 +567,17 @@ export const tokens: ITokenMetadata[] = [
     id: 'alpha-quark-token',
     symbol: 'aqt',
     name: 'Alpha Quark',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2a9bdcff37ab68b95a53435adfd8892e86084f93',
     },
     marketCapRank: 764,
   },
   {
-    id: 'alphascan',
-    symbol: 'ascn',
-    name: 'AlphaScan AI',
-    variants: ['mono'],
-    addresses: {
-      'arbitrum-one': '0x1b8d516e2146d7a32aca0fcbf9482db85fd42c3a',
-    },
-    marketCapRank: 1948,
-  },
-  {
-    id: 'altered-state-token',
-    symbol: 'asto',
-    name: 'Altered State Machine',
-    variants: ['branded'],
-    addresses: {
-      ethereum: '0x823556202e86763853b40e9cde725f412e294689',
-    },
-    marketCapRank: 706,
-  },
-  {
-    id: 'altura',
-    symbol: 'alu',
-    name: 'Altura',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'binance-smart-chain': '0x8263cd1601fe73c066bf49cc09841f35348e3be0',
-    },
-    marketCapRank: 780,
-  },
-  {
     id: 'alvey-chain',
     symbol: 'walv',
     name: 'Alvey Chain',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x256d1fce1b1221e8398f65f9b36033ce50b2d497',
       ethereum: '0x256d1fce1b1221e8398f65f9b36033ce50b2d497',
@@ -768,21 +585,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 2288,
   },
   {
-    id: 'amber',
-    symbol: 'amb',
-    name: 'AirDAO',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x586ee5df24c5a426e42ed7ea6e3eb0f00a4a2256',
-      'binance-smart-chain': '0x96c7957030aa8b1fd3c6e0ee3d84c4695c6eae9c',
-    },
-    marketCapRank: 867,
-  },
-  {
     id: 'ambire-wallet',
     symbol: 'wallet',
     name: 'Ambire Wallet',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x88800092ff476844f74dc2fc427974bbee2794ae',
       'polygon-pos': '0x564906ec1df8399f00e4ad32c0ecac0404a27a1c',
@@ -790,90 +596,30 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 1583,
   },
   {
-    id: 'amo',
-    symbol: 'amo',
-    name: 'AMO Coin',
-    variants: ['mono'],
-    addresses: {
-      'klay-token': '0x6e6c55ac20c41669261969089fad7f7fcd9ba690',
-    },
-    marketCapRank: 1169,
-  },
-  {
-    id: 'ampleforth',
-    symbol: 'ampl',
-    name: 'Ampleforth',
-    variants: ['mono'],
-    addresses: {
-      ethereum: '0xd46ba6d942050d489dbd938a2c909a5d5039a161',
-      avalanche: '0x027dbca046ca156de9622cd1e2d907d375e53aa7',
-      'near-protocol':
-        '77fba179c79de5b7653f68b5039af940ada60ce0.factory.bridge.near',
-      'harmony-shard-0': '0xf2f5bf00cd952f3f980a02f5dce278cbff4dae05',
-      energi: '0x79786ed8a70ccec6c7a31debc7fefc5119f9dc95',
-      'binance-smart-chain': '0xdb021b1b247fe2f1fa57e0a87c748cc1e321f07f',
-    },
-    marketCapRank: 291,
-  },
-  {
     id: 'ampleforth-governance-token',
     symbol: 'forth',
     name: 'Ampleforth Governance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x77fba179c79de5b7653f68b5039af940ada60ce0',
     },
     marketCapRank: 649,
   },
   {
-    id: 'amp-token',
-    symbol: 'amp',
-    name: 'Amp',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xff20817765cb7f73d4bde2e66e067e58d11095c2',
-      'near-protocol':
-        'ff20817765cb7f73d4bde2e66e067e58d11095c2.factory.bridge.near',
-      energi: '0xad7abe6f12f1059bdf48ae67bff92b00438ced95',
-    },
-    marketCapRank: 167,
-  },
-  {
     id: 'zeroliquid',
     symbol: 'zero',
     name: 'ZeroLiquid',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb0ed33f79d89541dfdcb04a8f04bc2c6be025ecc',
     },
     marketCapRank: 2629,
   },
   {
-    id: 'anchor-protocol',
-    symbol: 'anc',
-    name: 'Anchor Protocol',
-    variants: ['branded', 'mono'],
-    addresses: {
-      terra: 'terra14z56l0fp2lsf86zy3hty2z47ezkhnthtr9yq76',
-      ethereum: '0x0f3adc247e91c3c50bc08721355a41037e89bc20',
-    },
-    marketCapRank: 1721,
-  },
-  {
-    id: 'angle-protocol',
-    symbol: 'angle',
-    name: 'ANGLE',
-    variants: ['branded'],
-    addresses: {
-      ethereum: '0x31429d1856ad1377a8a0079410b297e1a9e214c2',
-    },
-    marketCapRank: 1112,
-  },
-  {
     id: 'angola',
     symbol: 'agla',
     name: 'Angola',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xd6a33f67b733d422c821c36f0f79ca145b930d01',
       ethereum: '0x1f7e5118521b550bb1a9b435727c003eb033fc51',
@@ -881,45 +627,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 1395,
   },
   {
-    id: 'ankr',
-    symbol: 'ankr',
-    name: 'Ankr Network',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x8290333cef9e6d528dd5618fb97a76f268f3edd4',
-      mode: '0xdf474b7109b73b7d57926d43598d5934131136b2',
-      avalanche: '0x20cf1b6e9d856321ed4686877cf4538f2c84b4de',
-      'polygon-zkevm': '0xdf474b7109b73b7d57926d43598d5934131136b2',
-      'optimistic-ethereum': '0xaeaeed23478c3a4b798e4ed40d8b7f41366ae861',
-      'polygon-pos': '0x101a023270368c0d50bffb62780f4afd4ea79c35',
-      'arbitrum-one': '0xaeaeed23478c3a4b798e4ed40d8b7f41366ae861',
-      'binance-smart-chain': '0xf307910a4c7bbc79691fd374889b36d8531b08e3',
-      fantom: '0xdf474b7109b73b7d57926d43598d5934131136b2',
-    },
-    marketCapRank: 181,
-  },
-  {
-    id: 'ankreth',
-    symbol: 'ankreth',
-    name: 'Ankr Staked ETH',
-    variants: ['branded'],
-    addresses: {
-      ethereum: '0xe95a203b1a91a908f9b9ce46459d101078c2c3cb',
-      fantom: '0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c',
-      'optimistic-ethereum': '0xe05a08226c49b636acf99c40da8dc6af83ce5bb3',
-      mode: '0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c',
-      avalanche: '0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c',
-      'polygon-zkevm': '0x12d8ce035c5de3ce39b1fdd4c1d5a745eaba3b8c',
-      'arbitrum-one': '0xe05a08226c49b636acf99c40da8dc6af83ce5bb3',
-      'binance-smart-chain': '0xe05a08226c49b636acf99c40da8dc6af83ce5bb3',
-    },
-    marketCapRank: 609,
-  },
-  {
     id: 'oni-token',
     symbol: 'oni',
     name: 'ONINO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xea89199344a492853502a7a699cc4230854451b8',
       fantom: '0x667c856f1a624baefe89fc4909c8701296c86c98',
@@ -930,7 +641,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'apecoin',
     symbol: 'ape',
     name: 'ApeCoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4d224452801aced8b2f0aebe155379bb5d594381',
       'polygon-pos': '0xb7b31a6bc18e48888545ce79e83e06003be70930',
@@ -938,20 +649,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 97,
   },
   {
-    id: 'banana-gun',
-    symbol: 'banana',
-    name: 'Banana Gun',
-    variants: ['branded'],
-    addresses: {
-      ethereum: '0x38e68a37e401f7271568cecaac63c6b1e19130b4',
-    },
-    marketCapRank: 541,
-  },
-  {
     id: 'apex-token-2',
     symbol: 'apex',
     name: 'ApeX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x52a8845df664d76c69d2eea607cd793565af42b8',
       'arbitrum-one': '0x61a1ff55c5216b636a294a07d77c6f4df10d3b56',
@@ -962,7 +663,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'apf-coin',
     symbol: 'apfc',
     name: 'APF coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8ed955a2b7d2c3a17a9d05daca95e01818f8c11e',
     },
@@ -972,7 +673,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aptos',
     symbol: 'apt',
     name: 'Aptos',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       aptos: '0x1::aptos_coin::AptosCoin',
     },
@@ -982,7 +683,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'apm-coin',
     symbol: 'apm',
     name: 'apM Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc8c424b91d8ce0137bab4b832b7f7d154156ba6c',
     },
@@ -992,7 +693,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'apollon-limassol',
     symbol: 'apl',
     name: 'Apollon Limassol Fan Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       chiliz: '0xb407a167fe99eb97970e41b2608d0d9484c489c8',
     },
@@ -1002,7 +703,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'apollo-2',
     symbol: 'apollo',
     name: 'Apollo',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       neutron:
         'neutron154gg0wtm2v4h9ur8xg32ep64e8ef0g5twlsgvfeajqwghdryvyqsqhgk8e',
@@ -1013,7 +714,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'apollox-2',
     symbol: 'apx',
     name: 'APX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x78f5d389f5cdccfc41594abab4b0ed02f31398b3',
     },
@@ -1023,7 +724,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'apwine',
     symbol: 'apw',
     name: 'Spectra',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4104b135dbc9609fc1a9490e61369036497660c8',
       'polygon-pos': '0x6c0ab120dbd11ba701aff6748568311668f63fe0',
@@ -1034,7 +735,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aqtis',
     symbol: 'aqtis',
     name: 'AQTIS',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6ff2241756549b5816a177659e766eaf14b34429',
     },
@@ -1044,7 +745,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aquarius',
     symbol: 'aqua',
     name: 'Aquarius',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       stellar: 'GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA',
     },
@@ -1054,7 +755,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aragon',
     symbol: 'ant',
     name: 'Aragon',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa117000000f279d81a1d3cc75430faa017fa5a2e',
       energi: '0x4b3686eec98b2b89102f2830003097c7d4e1f691',
@@ -1062,31 +763,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 236,
   },
   {
-    id: 'arbidoge',
-    symbol: 'adoge',
-    name: 'ArbiDoge',
-    variants: ['branded'],
-    addresses: {
-      'arbitrum-one': '0x155f0dd04424939368972f4e1838687d6a831151',
-    },
-    marketCapRank: 1946,
-  },
-  {
-    id: 'arbipad',
-    symbol: 'arbi',
-    name: 'ArbiPad',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'arbitrum-one': '0x07dd5beaffb65b8ff2e575d500bdf324a05295dc',
-      'binance-smart-chain': '0xa7bd657c5838472ddf85ff0797a2e6fce8fd4833',
-    },
-    marketCapRank: 2623,
-  },
-  {
     id: 'arbitrum',
     symbol: 'arb',
     name: 'Arbitrum',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       'arbitrum-one': '0x912ce59144191c1204e64559fe8253a0e49e6548',
       'arbitrum-nova': '0xf823c3cd3cebe0a1fa952ba88dc9eef8e0bf46ad',
@@ -1098,7 +778,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tether',
     symbol: 'usdt',
     name: 'Tether',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdac17f958d2ee523a2206206994597c13d831ec7',
       avalanche: '0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7',
@@ -1113,7 +793,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'arc',
     symbol: 'arc',
     name: 'Arc',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc82e3db60a52cf7529253b4ec688f631aad9e7c2',
     },
@@ -1123,7 +803,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'arcblock',
     symbol: 'abt',
     name: 'Arcblock',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb98d4c97425d9908e66e53a6fdf673acca0be986',
     },
@@ -1133,7 +813,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hunt-token',
     symbol: 'hunt',
     name: 'Hunt',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9aab071b4129b083b01cb5a0cb513ce7eca26fa5',
     },
@@ -1143,7 +823,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'archway',
     symbol: 'arch',
     name: 'Archway',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       archway: 'aarch',
       osmosis:
@@ -1155,7 +835,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ardor',
     symbol: 'ardr',
     name: 'Ardor',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 431,
   },
@@ -1163,7 +843,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'areon-network',
     symbol: 'area',
     name: 'Areon Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1339,
   },
@@ -1171,7 +851,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ari10',
     symbol: 'ari10',
     name: 'Ari10',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x80262f604acac839724f66846f290a2cc8b48662',
     },
@@ -1181,7 +861,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'arianee',
     symbol: 'aria20',
     name: 'Arianee',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xedf6568618a00c6f0908bf7758a16f76b6e04af9',
       'polygon-pos': '0x46f48fbdedaa6f5500993bede9539ef85f4bee8e',
@@ -1189,20 +869,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 1594,
   },
   {
-    id: 'ariva',
-    symbol: 'arv',
-    name: 'Ariva',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'binance-smart-chain': '0x6679eb24f59dfe111864aec72b443d1da666b360',
-    },
-    marketCapRank: 2078,
-  },
-  {
     id: 'arix',
     symbol: 'arix',
     name: 'Arix',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x4db2495afad4c0e481ffc40fdaf66e13a786b619',
       ethereum: '0xbb6cf73a00f480d0951ba979a7606857cdde626b',
@@ -1213,7 +883,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ark',
     symbol: 'ark',
     name: 'ARK',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 354,
   },
@@ -1221,7 +891,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'arkadiko-protocol',
     symbol: 'diko',
     name: 'Arkadiko',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       stacks: 'SP2C2YFP12AJZB4MABJBAJ55XECVS7E4PMMZ89YZR',
     },
@@ -1238,20 +908,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 180,
   },
   {
-    id: 'arsenal-fan-token',
-    symbol: 'afc',
-    name: 'Arsenal Fan Token',
-    variants: ['branded'],
-    addresses: {
-      chiliz: '0x1d4343d35f0e0e14c14115876d01deaa4792550b',
-    },
-    marketCapRank: 1236,
-  },
-  {
     id: 'arpa',
     symbol: 'arpa',
     name: 'ARPA',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xba50933c268f567bdc86e1ac131be072c6b0b71a',
       'binance-smart-chain': '0x6f769e65c14ebd1f68817f5f1dcdb61cfa2d6f7e',
@@ -1263,7 +923,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'arthswap',
     symbol: 'arsw',
     name: 'ArthSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       astar: '0xde2578edec4669ba7f41c5d5d2386300bcea4678',
     },
@@ -1273,7 +933,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'arweave',
     symbol: 'ar',
     name: 'Arweave',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 53,
   },
@@ -1281,7 +941,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'electronic-usd',
     symbol: 'eusd',
     name: 'Electronic USD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa0d69e286b938e21cbf7e51d71f6a4c8918f482f',
       base: '0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4',
@@ -1289,20 +949,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 1130,
   },
   {
-    id: 'asd',
-    symbol: 'asd',
-    name: 'AscendEx',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xff742d05420b6aca4481f635ad8341f81a6300c2',
-    },
-    marketCapRank: 755,
-  },
-  {
     id: 'odin-protocol',
     symbol: 'odin',
     name: 'Odin Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cosmos:
         'ibc/c360ef34a86d334f625e4cbb7da3223aea97174b61f35bb3758081a8160f7d9b',
@@ -1310,42 +960,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 2318,
   },
   {
-    id: 'asia-coin',
-    symbol: 'asia',
-    name: 'Asia Coin',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xf519381791c03dd7666c142d4e49fd94d3536011',
-      'polygon-pos': '0x50bcbc40306230713239ae1bddd5eefeeaa273dc',
-      'binance-smart-chain': '0xebaffc2d2ea7c66fb848c48124b753f93a0a90ec',
-    },
-    marketCapRank: 1682,
-  },
-  {
-    id: 'asmatch',
-    symbol: 'asm',
-    name: 'AsMatch',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'manta-pacific': '0xcd5d6de3fdbce1895f0dac13a065673599ed6806',
-    },
-    marketCapRank: 1726,
-  },
-  {
-    id: 'assaplay',
-    symbol: 'assa',
-    name: 'AssaPlay',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'binance-smart-chain': '0x7d29e5fffd1b207158aa5dbfa6d039e8bffc6a79',
-    },
-    marketCapRank: 2171,
-  },
-  {
     id: 'assetmantle',
     symbol: 'mntl',
     name: 'AssetMantle',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cosmos:
         'ibc/00F2B62EB069321A454B708876476AFCD9C23C8C9C4A5A206DDF1CD96B645057',
@@ -1355,59 +973,20 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 1750,
   },
   {
-    id: 'astar',
-    symbol: 'astr',
-    name: 'Astar',
-    variants: ['branded', 'mono'],
-    addresses: {},
-    marketCapRank: 136,
-  },
-  {
     id: 'aston-villa-fan-token',
     symbol: 'avl',
     name: 'Aston Villa Fan Token',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       chiliz: '0x095726841dc9bf395114ac83f8fd42b176cfad10',
     },
     marketCapRank: 2573,
   },
   {
-    id: 'astra-dao-2',
-    symbol: 'astradao',
-    name: 'Astra DAO',
-    variants: ['branded'],
-    addresses: {
-      'arbitrum-one': '0xd3188e0df68559c0b63361f6160c57ad88b239d8',
-    },
-    marketCapRank: 1748,
-  },
-  {
-    id: 'astrafer',
-    symbol: 'astrafer',
-    name: 'Astrafer',
-    variants: ['branded'],
-    addresses: {
-      'polygon-pos': '0xdfce1e99a31c4597a3f8a8945cbfa9037655e335',
-      ethereum: '0x97bbbc5d96875fb78d2f14b7ff8d7a3a74106f17',
-    },
-    marketCapRank: 687,
-  },
-  {
-    id: 'astroport',
-    symbol: 'astroc',
-    name: 'Astroport Classic',
-    variants: ['branded', 'mono'],
-    addresses: {
-      terra: 'terra1xj49zyqrwpv5k928jwfpfy2ha668nwdgkwlrg3',
-    },
-    marketCapRank: 2863,
-  },
-  {
     id: 'atari',
     symbol: 'atri',
     name: 'Atari',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdacd69347de42babfaecd09dc88958378780fb62',
       fantom: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
@@ -1420,7 +999,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'automata',
     symbol: 'ata',
     name: 'Automata',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xa2120b9e674d3fc3875f415a7df52e382f141225',
       'binance-smart-chain': '0xa2120b9e674d3fc3875f415a7df52e382f141225',
@@ -1432,7 +1011,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'star-atlas',
     symbol: 'atlas',
     name: 'Star Atlas',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx',
     },
@@ -1442,7 +1021,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'atlas-navi',
     symbol: 'navi',
     name: 'Atlas Navi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfc1c93a2507975e98b9d0e9260ded61a00152bf1',
     },
@@ -1452,7 +1031,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'atletico-madrid',
     symbol: 'atm',
     name: 'Atletico Madrid Fan Token',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       chiliz: '0xe9506f70be469d2369803ccf41823713bafe8154',
     },
@@ -1462,7 +1041,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'atpay',
     symbol: 'atpay',
     name: 'AtPay',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: '8sF1JWbZVCUvb6TyHYbsu9CkM8Qm6jnFVe6PqtAsdzCU',
     },
@@ -1472,7 +1051,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'auction',
     symbol: 'auction',
     name: 'Bounce',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096',
     },
@@ -1482,7 +1061,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'audius',
     symbol: 'audio',
     name: 'Audius',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x18aaa7115705e8be94bffebde57af9bfc265b998',
       energi: '0x2c25972d4adb478773be354a09e4596f29e31fb3',
@@ -1493,7 +1072,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'augur',
     symbol: 'rep',
     name: 'Augur',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x221657776846890989a759ba2973e427dff5c9bb',
       energi: '0x2a2666f62157769d09a64488bbb51bd77036f6ce',
@@ -1504,7 +1083,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aura-bal',
     symbol: 'aurabal',
     name: 'Aura BAL',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x616e8bfa43f920657b3497dbf40d6b1a02d4608d',
     },
@@ -1514,7 +1093,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aura-finance',
     symbol: 'aura',
     name: 'Aura Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc0c293ce456ff0ed870add98a0828dd4d2903dbf',
       xdai: '0x1509706a6c66ca549ff0cb464de88231ddbe213b',
@@ -1525,7 +1104,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aurigami',
     symbol: 'ply',
     name: 'Aurigami',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       aurora: '0x09c9d464b58d96837f8d8b6f4d9fe4ad408d3a4f',
       ethereum: '0x1ab43204a195a0fd37edec621482afd3792ef90b',
@@ -1538,7 +1117,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aurora-dao',
     symbol: 'idex',
     name: 'IDEX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb705268213d593b8fd88d3fdeff93aff5cbdcfae',
       'polygon-pos': '0x9cb74c8032b007466865f060ad2c46145d45553d',
@@ -1549,7 +1128,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aurora-near',
     symbol: 'aurora',
     name: 'Aurora',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaaaaaa20d9e0e2461697782ef11675f668207961',
       aurora: '0x8bec47865ade3b172a928df8f990bc7f2a3b9f79',
@@ -1562,7 +1141,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aurory',
     symbol: 'aury',
     name: 'Aurory',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: 'AURYydfxJib1ZkTir1Jn1J9ECYUtjb6rKQVmtYaixWPP',
       'arbitrum-one': '0x11bf4f05eb28b802ed3ab672594decb20ffe2313',
@@ -1573,7 +1152,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cube-intelligence',
     symbol: 'auto',
     name: 'Cube Intelligence',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x622dffcc4e83c64ba959530a5a5580687a57581b',
     },
@@ -1583,7 +1162,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'concierge-io',
     symbol: 'ava',
     name: 'AVA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9',
       energi: '0x8476d1c07cbc7e2dd9e97ffbd9850836835ee7a8',
@@ -1594,7 +1173,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'avalanche-2',
     symbol: 'avax',
     name: 'Avalanche',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 11,
   },
@@ -1602,7 +1181,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'avalaunch',
     symbol: 'xava',
     name: 'Avalaunch',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       avalanche: '0xd1c3f94de7e5b45fa4edbba472491a9f4b166fc4',
     },
@@ -1612,7 +1191,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'avaocado-dao',
     symbol: 'avg',
     name: 'Avocado DAO',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xa41f142b6eb2b164f8164cae0716892ce02f311f',
       'binance-smart-chain': '0xa41f142b6eb2b164f8164cae0716892ce02f311f',
@@ -1623,7 +1202,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aventus',
     symbol: 'avt',
     name: 'Aventus',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0d88ed6e74bbfd96b831231638b66c05571e824f',
     },
@@ -1633,7 +1212,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'aviator',
     symbol: 'avi',
     name: 'Aviator',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xd2bdaaf2b9cc6981fd273dcb7c04023bfbe0a7fe',
     },
@@ -1643,7 +1222,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'avinoc',
     symbol: 'avinoc',
     name: 'AVINOC',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xf1ca9cb74685755965c7458528a36934df52a3ef',
     },
@@ -1653,7 +1232,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'axe-cap',
     symbol: 'axe',
     name: 'Axe Cap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x070e984fda37dd942f5c953f6b2375339adac308',
     },
@@ -1663,7 +1242,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'axel',
     symbol: 'axel',
     name: 'AXEL',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1398,
   },
@@ -1671,7 +1250,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'axelar',
     symbol: 'axl',
     name: 'Axelar',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x467719ad09025fcc6cf6f8311755809d45a5e5f3',
       avalanche: '0x44c784266cf024a60e8acf2427b9857ace194c5d',
@@ -1692,7 +1271,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'axie-infinity',
     symbol: 'axs',
     name: 'Axie Infinity',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbb0e17ef65f82ab018d8edd776e8dd940327b28b',
       ronin: '0x97a9107c1793bc407d6f527b77e7fff4d812bece',
@@ -1706,137 +1285,37 @@ export const tokens: ITokenMetadata[] = [
     id: 'azit',
     symbol: 'azit',
     name: 'azit',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'klay-token': '0x6cef6dd9a3c4ad226b8b66effeea2c125df194f1',
     },
     marketCapRank: 1234,
   },
   {
-    id: 'baanx',
-    symbol: 'bxx',
-    name: 'Baanx',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x6b1a8f210ec6b7b6643cea3583fb0c079f367898',
-    },
-    marketCapRank: 1819,
-  },
-  {
     id: 'babb',
     symbol: 'bax',
     name: 'BABB',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf920e4f3fbef5b3ad0a25017514b769bdc4ac135',
     },
     marketCapRank: 1358,
   },
   {
-    id: 'baby-doge-coin',
-    symbol: 'babydoge',
-    name: 'Baby Doge Coin',
-    variants: ['branded'],
-    addresses: {
-      'binance-smart-chain': '0xc748673057861a797275cd8a068abb95a902e8de',
-      ethereum: '0xac57de9c1a09fec648e93eb98875b212db0d460b',
-    },
-    marketCapRank: 236,
-  },
-  {
-    id: 'baby-shiba-inu-erc',
-    symbol: 'babyshib',
-    name: 'Baby Shiba Inu',
-    variants: ['branded'],
-    addresses: {
-      ethereum: '0x00000000051b48047be6dc0ada6de5c3de86a588',
-    },
-    marketCapRank: 2411,
-  },
-  {
-    id: 'babytrump',
-    symbol: 'babytrump',
-    name: 'BABYTRUMP',
-    variants: ['branded'],
-    addresses: {
-      ethereum: '0x354c8cda7e3b737d360513a0dc5abcee8ee1cea3',
-      'binance-smart-chain': '0xc4bb2e24f4b6f762d31fc28eaac98882c32bc828',
-      solana: '6NbnHQKD2dh4jswTLmMCP7LnSh4Nh6y2cNgdQg2ny9zW',
-    },
-    marketCapRank: 2153,
-  },
-  {
     id: 'bomber-coin',
     symbol: 'bcoin',
     name: 'BombCrypto',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x00e1656e45f18ec6747f5a8496fd39b50b38396d',
     },
     marketCapRank: 1703,
   },
   {
-    id: 'badger-dao',
-    symbol: 'badger',
-    name: 'Badger',
-    variants: ['branded'],
-    addresses: {
-      ethereum: '0x3472a5a71965499acd81997a54bba8d852c6e53d',
-      fantom: '0x753fbc5800a8c8e3fb6dc6415810d627a387dfc9',
-      xdai: '0xdfc20ae04ed70bd9c7d720f449eedae19f659d65',
-      'harmony-shard-0': '0x06b19a0ce12dc71f1c7a6dd39e8983e089c40e0d',
-      'arbitrum-one': '0xbfa641051ba0a0ad1b0acf549a89536a0d76472e',
-      energi: '0x32e6842a6ea6a913687885ac856c2493b5b12f6f',
-    },
-    marketCapRank: 432,
-  },
-  {
-    id: 'bad-idea-ai',
-    symbol: 'bad',
-    name: 'Bad Idea AI',
-    variants: ['branded'],
-    addresses: {
-      ethereum: '0x32b86b99441480a7e5bd3a26c124ec2373e3f015',
-    },
-    marketCapRank: 1051,
-  },
-  {
-    id: 'bai-stablecoin',
-    symbol: 'bai',
-    name: 'BAI Stablecoin',
-    variants: ['branded'],
-    addresses: {
-      astar: '0x733ebcc6df85f8266349defd0980f8ced9b45f35',
-    },
-    marketCapRank: 2585,
-  },
-  {
-    id: 'balancer',
-    symbol: 'bal',
-    name: 'Balancer',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xba100000625a3754423978a60c9317c58a424e3d',
-      'harmony-shard-0': '0xdc5f76104d0b8d2bf2c2bbe06cdfe17004e9010f',
-      avalanche: '0xe15bcb9e0ea69e6ab9fa080c4c4a5632896298c3',
-      'polygon-zkevm': '0x120ef59b80774f02211563834d8e3b72cb1649d6',
-      'optimistic-ethereum': '0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921',
-      'near-protocol':
-        'ba100000625a3754423978a60c9317c58a424e3d.factory.bridge.near',
-      xdai: '0x7ef541e2a22058048904fe5744f9c7e4c57af717',
-      base: '0x4158734d47fc9692176b5085e0f52ee0da5d47f1',
-      'huobi-token': '0x045de15ca76e76426e8fc7cba8392a3138078d0f',
-      'polygon-pos': '0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3',
-      'arbitrum-one': '0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8',
-      energi: '0x9b817c6e9a38e604606aea3ad6ed271ce8eaa9d6',
-    },
-    marketCapRank: 281,
-  },
-  {
     id: 'bananacat',
     symbol: 'bcat',
     name: 'BananaCat',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x0590cc9232ebf68d81f6707a119898219342ecb9',
     },
@@ -1846,7 +1325,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bancor',
     symbol: 'bnt',
     name: 'Bancor Network',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c',
       energi: '0x9419e8edcf570a71eb0dd006602949742b711a80',
@@ -1854,33 +1333,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 481,
   },
   {
-    id: 'band-protocol',
-    symbol: 'band',
-    name: 'Band Protocol',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xba11d00c5f74255f56a5e366f4f77f5a186d7f55',
-      fantom: '0x46e7628e8b4350b2716ab470ee0ba1fa9e76c6c5',
-      energi: '0xb2ef65460bf71a05d59fdf5e8f114a32d445d164',
-    },
-    marketCapRank: 260,
-  },
-  {
-    id: 'bao-finance',
-    symbol: 'bao',
-    name: 'Bao Finance',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x374cb8c27130e2c9e04f44303f3c8351b9de61c1',
-      energi: '0x04cb6ed1d4cef27b2b0d42d628f57ee223d6beee',
-    },
-    marketCapRank: 2473,
-  },
-  {
     id: 'barnbridge',
     symbol: 'bond',
     name: 'BarnBridge',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0391d2021f89dc339f60fff84546ea23e337750f',
       'optimistic-ethereum': '0x3e7ef8f50246f725885102e8238cbba33f276747',
@@ -1892,7 +1348,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blockbank',
     symbol: 'bbank',
     name: 'blockbank',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf4b5470523ccd314c6b9da041076e7d79e0df267',
       'binance-smart-chain': '0xf4b5470523ccd314c6b9da041076e7d79e0df267',
@@ -1903,7 +1359,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cap',
     symbol: 'cap',
     name: 'Cap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x031d35296154279dc1984dcd93e392b1f946737b',
       ethereum: '0x43044f861ec040db59a7e324c40507addb673142',
@@ -1914,7 +1370,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'basilisk',
     symbol: 'bsx',
     name: 'Basilisk',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1907,
   },
@@ -1922,7 +1378,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'basic-attention-token',
     symbol: 'bat',
     name: 'Basic Attention',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0d8775f648430679a709e98d2b0cb6250d2887ef',
       'harmony-shard-0': '0x2875b4cfab0a4cc4bdc7fbdf94b6e376826a4332',
@@ -1939,7 +1395,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'the-doge-nft',
     symbol: 'dog',
     name: 'The Doge NFT',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbaac2b4491727d78d2b78815144570b9f2fe8899',
       base: '0xafb89a09d82fbde58f18ac6437b3fc81724e4df6',
@@ -1954,7 +1410,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'beoble',
     symbol: 'bbl',
     name: 'Beoble',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xd979c468a68062e7bdff4ba6df7842dfd3492e0f',
     },
@@ -1964,7 +1420,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'brickken',
     symbol: 'bkn',
     name: 'Brickken',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x0a638f07acc6969abf392bb009f216d22adea36d',
       'binance-smart-chain': '0x0e28bc9b03971e95acf9ae1326e51ecf9c55b498',
@@ -1975,45 +1431,25 @@ export const tokens: ITokenMetadata[] = [
     id: 'bata',
     symbol: 'bta',
     name: 'Bata',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2474,
-  },
-  {
-    id: 'the-big-five',
-    symbol: 'bft',
-    name: 'The Big Five',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'binance-smart-chain': '0x4b87f578d6fabf381f43bd2197fbb2a877da6ef8',
-    },
-    marketCapRank: 968,
   },
   {
     id: 'battle-infinity',
     symbol: 'ibat',
     name: 'Battle Infinity',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x19cd9b8e42d4ef62c3ea124110d5cfd283ceac43',
     },
     marketCapRank: 2567,
   },
   {
-    id: 'battle-world',
-    symbol: 'bwo',
-    name: 'Battle World',
-    variants: ['branded'],
-    addresses: {
-      'polygon-pos': '0xc1543024dc71247888a7e139c644f44e75e96d38',
-    },
-    marketCapRank: 1703,
-  },
-  {
     id: 'bazaars',
     symbol: 'bzr',
     name: 'Bazaars',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8d96b4ab6c741a4c8679ae323a100d74f085ba8f',
     },
@@ -2023,7 +1459,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'b-cube-ai',
     symbol: 'bcube',
     name: 'B-cube.ai',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x93c9175e26f57d2888c7df8b470c9eea5c0b0a93',
     },
@@ -2033,7 +1469,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'beam-2',
     symbol: 'beam',
     name: 'Beam',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce',
       'binance-smart-chain': '0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce',
@@ -2044,7 +1480,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'usd-coin',
     symbol: 'usdc',
     name: 'USDC',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
       polkadot: '1337',
@@ -2068,7 +1504,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bean',
     symbol: 'bean',
     name: 'Bean',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbea0000029ad1c77d3d5d23ba2d8893db9d1efab',
     },
@@ -2078,27 +1514,17 @@ export const tokens: ITokenMetadata[] = [
     id: 'solchat',
     symbol: 'chat',
     name: 'Solchat',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: '947tEoG318GUmyjVYhraNRvWpMX7fpBTDQFBoJvSkSG3',
     },
     marketCapRank: 619,
   },
   {
-    id: 'beefy-finance',
-    symbol: 'bifi',
-    name: 'Beefy',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xb1f1ee126e9c96231cc3d3fad7c08b4cf873b1f1',
-    },
-    marketCapRank: 929,
-  },
-  {
     id: 'beethoven-x',
     symbol: 'beets',
     name: 'Beethoven X',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       fantom: '0xf24bcf4d1e507740041c9cfd2dddb29585adce1e',
       'optimistic-ethereum': '0xb4bc46bc6cb217b59ea8f4530bae26bf69f677f0',
@@ -2109,7 +1535,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'beldex',
     symbol: 'bdx',
     name: 'Beldex',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 288,
   },
@@ -2117,7 +1543,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bella-protocol',
     symbol: 'bel',
     name: 'Bella Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa91ac63d040deb1b7a5e4d4134ad23eb0ba07e14',
       'manta-pacific': '0xb385e52903c802b3bdca7c4d0c78460a8988e1ce',
@@ -2129,7 +1555,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'belt',
     symbol: 'belt',
     name: 'Belt',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xe0e514c71282b6f4e823703a39374cf58dc3ea4f',
     },
@@ -2139,7 +1565,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bytecoin',
     symbol: 'bcn',
     name: 'Bytecoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1660,
   },
@@ -2147,7 +1573,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ben-2',
     symbol: 'ben',
     name: 'Ben',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x9bf1d7d63dd7a4ce167cf4866388226eeefa702e',
     },
@@ -2157,7 +1583,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'benddao',
     symbol: 'bend',
     name: 'BendDAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0d02755a5700414b26ff040e1de35d337df56218',
     },
@@ -2167,7 +1593,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bepro-network',
     symbol: 'bepro',
     name: 'Bepro',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xcf3c8be2e2c42331da80ef210e9b1b307c03d36a',
     },
@@ -2177,7 +1603,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'berry',
     symbol: 'berry',
     name: 'Berry',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2d787d4f5005bd66ac910c2e821241625c406ed5',
     },
@@ -2187,7 +1613,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'beta-finance',
     symbol: 'beta',
     name: 'Beta Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbe1a001fe942f96eea22ba08783140b9dcc09d28',
       avalanche: '0x511d35c52a3c244e7b8bd92c0c297755fbd89212',
@@ -2199,7 +1625,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'betswap-gg',
     symbol: 'bsgg',
     name: 'Betswap.gg',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xda16cf041e2780618c49dbae5d734b89a6bac9b3',
       avalanche: '0x49f519002eeced6902f24c0be72b6d898e4d27fc',
@@ -2208,54 +1634,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 1903,
   },
   {
-    id: 'betswirl',
-    symbol: 'bets',
-    name: 'BetSwirl',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5',
-      avalanche: '0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5',
-      'optimistic-ethereum': '0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5',
-      'arbitrum-one': '0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5',
-      'polygon-pos': '0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5',
-      'binance-smart-chain': '0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5',
-    },
-    marketCapRank: 2013,
-  },
-  {
-    id: 'bficoin',
-    symbol: 'bfic',
-    name: 'BFICoin',
-    variants: ['branded', 'mono'],
-    addresses: {},
-    marketCapRank: 1199,
-  },
-  {
-    id: 'bhnetwork',
-    symbol: 'bhat',
-    name: 'BHNetwork',
-    variants: ['branded', 'mono'],
-    addresses: {
-      elrond: 'BHAT-c1fde3',
-    },
-    marketCapRank: 2019,
-  },
-  {
-    id: 'biconomy',
-    symbol: 'bico',
-    name: 'Biconomy',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xf17e65822b568b3903685a7c9f496cf7656cc6c2',
-      'arbitrum-one': '0xa68ec98d7ca870cf1dd0b00ebbb7c4bf60a8e74d',
-    },
-    marketCapRank: 194,
-  },
-  {
     id: 'biconomy-exchange-token',
     symbol: 'bit',
     name: 'Biconomy Exchange Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xc864019047b864b6ab609a968ae2725dfaee808a',
     },
@@ -2265,37 +1647,17 @@ export const tokens: ITokenMetadata[] = [
     id: 'big-data-protocol',
     symbol: 'bdp',
     name: 'Big Data Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf3dcbc6d72a4e1892f7917b7c43b74131df8480e',
     },
     marketCapRank: 1596,
   },
   {
-    id: 'bidz-coin',
-    symbol: 'bidz',
-    name: 'BIDZ Coin',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'binance-smart-chain': '0x20de6118c3672659e488d1d45279cdf77391fbdc',
-    },
-    marketCapRank: 1146,
-  },
-  {
-    id: 'bigshortbets',
-    symbol: 'bigsb',
-    name: 'BigShortBets',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x131157c6760f78f7ddf877c0019eba175ba4b6f6',
-    },
-    marketCapRank: 1731,
-  },
-  {
     id: 'bilira',
     symbol: 'tryb',
     name: 'BiLira',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2c537e5624e4af88a7ae4060c022609376c8d0eb',
       avalanche: '0x564a341df6c126f90cf3ecb92120fd7190acb401',
@@ -2309,44 +1671,15 @@ export const tokens: ITokenMetadata[] = [
     id: 'bitcoin-cash',
     symbol: 'bch',
     name: 'Bitcoin Cash',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 15,
-  },
-  {
-    id: 'binance-usd',
-    symbol: 'busd',
-    name: 'BUSD',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x4fabb145d64652a948d72533023f6e7a623c7c53',
-      'harmony-shard-0': '0xe176ebe47d621b984a73036b9da5d834411ef734',
-      thundercore: '0xbeb0131d95ac3f03fd15894d0ade5dbf7451d171',
-      iotex: '0x84abcb2832be606341a50128aeb1db43aa017449',
-      cronos: '0xc74d59a548ecf7fc1754bb7810d716e9ac3e3ae5',
-      aptos:
-        '0xccc9620d38c4f3991fa68a03ad98ef3735f18d04717cb75d7a1300dd8a7eed75::coin::T',
-      'okex-chain': '0x332730a4f6e03d9c55829435f10360e13cfa41ff',
-      moonriver: '0x5d9ab5522c64e1f6ef5e3627eccc093f56167818',
-      sora: '0x00567d096a736f33bf78cad7b01e33463923b9c933ee13ab7e3fb7b23f5f953a',
-      fuse: '0x6a5f6a8121592becd6747a38d67451b310f7f156',
-      meter: '0x24aa189dfaa76c671c279262f94434770f557c35',
-      theta: '0x7b37d0787a3424a0810e02b24743a45ebd5530b2',
-      moonbeam: '0xa649325aa7c5093d12d6f98eb4378deae68ce23f',
-      'milkomeda-cardano': '0x218c3c3d49d0e7b37aff0d8bb079de36ae61a4c0',
-      elastos: '0x9f1d0ed4e041c503bd487e5dc9fc935ab57f9a57',
-      'polygon-pos': '0xdab529f40e671a1d4bf91361c21bf9f0c9712ab7',
-      astar: '0x4bf769b05e832fcdc9053fffbc78ca889acb5e1e',
-      xdai: '0xdd96b45877d0e8361a4ddb732da741e97f3191ff',
-      velas: '0xc9baa8cfdde8e328787e29b4b078abf2dadc2055',
-    },
-    marketCapRank: 577,
   },
   {
     id: 'dogecoin',
     symbol: 'doge',
     name: 'Dogecoin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 9,
   },
@@ -2354,7 +1687,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'eos',
     symbol: 'eos',
     name: 'EOS',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {},
     marketCapRank: 97,
   },
@@ -2362,7 +1695,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'filecoin',
     symbol: 'fil',
     name: 'Filecoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 26,
   },
@@ -2370,7 +1703,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zcoin',
     symbol: 'firo',
     name: 'Firo',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1032,
   },
@@ -2378,7 +1711,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'litecoin',
     symbol: 'ltc',
     name: 'Litecoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 22,
   },
@@ -2386,7 +1719,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ontology',
     symbol: 'ont',
     name: 'Ontology',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 254,
   },
@@ -2394,7 +1727,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polkadot',
     symbol: 'dot',
     name: 'Polkadot',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 14,
   },
@@ -2402,7 +1735,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ripple',
     symbol: 'xrp',
     name: 'XRP',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {},
     marketCapRank: 6,
   },
@@ -2410,28 +1743,17 @@ export const tokens: ITokenMetadata[] = [
     id: 'binaryx',
     symbol: 'bnx',
     name: 'BinaryX [OLD]',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x8c851d1a123ff703bd1f9dabe631b69902df5f97',
     },
     marketCapRank: 2545,
   },
   {
-    id: 'biso',
-    symbol: 'biso',
-    name: 'BISO',
-    variants: ['mono'],
-    addresses: {
-      ordinals:
-        '9c10df68525b43f36d683baadbd18328a09754423a7da13597e79a59dd976430i0',
-    },
-    marketCapRank: 2751,
-  },
-  {
     id: 'bistroo',
     symbol: 'bist',
     name: 'Bistroo',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6e8908cfa881c9f6f2c64d3436e7b80b1bf0093f',
       'binance-smart-chain': '0xbd525e51384905c6c0936a431bc7efb6c4903ea0',
@@ -2442,29 +1764,17 @@ export const tokens: ITokenMetadata[] = [
     id: 'biswap',
     symbol: 'bsw',
     name: 'Biswap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x965f527d9159dce6288a2219db51fc6eef120dd1',
     },
     marketCapRank: 632,
   },
   {
-    id: 'bit2me',
-    symbol: 'b2m',
-    name: 'Bit2Me',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xd7c302fc3ac829c7e896a32c4bd126f3e8bd0a1f',
-      'binance-smart-chain': '0x6e2a5ea25b161befa6a8444c71ae3a89c39933c6',
-      'polygon-pos': '0xe613a914bbb433855378183c3ab13003285da40a',
-    },
-    marketCapRank: 839,
-  },
-  {
     id: 'bitcicoin',
     symbol: 'bitci',
     name: 'Bitcicoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1361,
   },
@@ -2472,7 +1782,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'catcoin-cash',
     symbol: 'cat',
     name: 'Catcoin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x59f4f336bf3d0c49dbfba4a74ebd2a6ace40539a',
       ethereum: '0x59f4f336bf3d0c49dbfba4a74ebd2a6ace40539a',
@@ -2483,7 +1793,7 @@ export const tokens: ITokenMetadata[] = [
   {
     id: 'bitcoin',
     name: 'Bitcoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     symbol: 'btc',
     marketCapRank: null,
     addresses: {},
@@ -2492,7 +1802,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bitcoin-2',
     symbol: 'btc2',
     name: 'Bitcoin 2',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1648,
   },
@@ -2500,7 +1810,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bitcoin-cash-sv',
     symbol: 'bsv',
     name: 'Bitcoin SV',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 65,
   },
@@ -2508,7 +1818,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bitcoin-diamond',
     symbol: 'bcd',
     name: 'Bitcoin Diamond',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1048,
   },
@@ -2516,7 +1826,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bitcoin-gold',
     symbol: 'btg',
     name: 'Bitcoin Gold',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 122,
   },
@@ -2524,7 +1834,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bitcoin-pro',
     symbol: 'btcp',
     name: 'Bitcoin Pro',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x723cbfc05e2cfcc71d3d89e770d32801a5eef5ab',
     },
@@ -2534,27 +1844,17 @@ export const tokens: ITokenMetadata[] = [
     id: 'bitcone',
     symbol: 'cone',
     name: 'BitCone',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0xba777ae3a3c91fcd83ef85bfe65410592bdd0f7c',
     },
     marketCapRank: 1986,
   },
   {
-    id: 'bitget-token',
-    symbol: 'bgb',
-    name: 'Bitget Token',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x19de6b897ed14a376dda0fe53a5420d2ac828a28',
-    },
-    marketCapRank: 83,
-  },
-  {
     id: 'bitkub-coin',
     symbol: 'kub',
     name: 'Bitkub Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 313,
   },
@@ -2562,7 +1862,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bitmart-token',
     symbol: 'bmx',
     name: 'BitMart',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x986ee2b944c42d017f52af21c4c69b84dbea35d8',
     },
@@ -2572,27 +1872,17 @@ export const tokens: ITokenMetadata[] = [
     id: 'bitmex-token',
     symbol: 'bmex',
     name: 'BitMEX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb113c6cf239f60d380359b762e95c13817275277',
     },
     marketCapRank: 1028,
   },
   {
-    id: 'b-protocol',
-    symbol: 'bpro',
-    name: 'B.Protocol',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xbbbbbbb5aa847a2003fbc6b5c16df0bd1e725f61',
-    },
-    marketCapRank: 2070,
-  },
-  {
     id: 'bitrise-token',
     symbol: 'brise',
     name: 'Bitgert',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x8fff93e810a2edaafc326edee51071da9d398e83',
       ethereum: '0xf2b2f7b47715256ce4ea43363a867fdce9353e3a',
@@ -2603,7 +1893,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bitrock',
     symbol: 'brock',
     name: 'Bitrock',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xde67d97b8770dc98c746a3fc0093c538666eb493',
     },
@@ -2613,67 +1903,33 @@ export const tokens: ITokenMetadata[] = [
     id: 'bitshares',
     symbol: 'bts',
     name: 'BitShares',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1443,
-  },
-  {
-    id: 'bitsong',
-    symbol: 'btsg',
-    name: 'BitSong',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x05079687d35b93538cbd59fe5596380cae9054a9',
-    },
-    marketCapRank: 2422,
   },
   {
     id: 'bittensor',
     symbol: 'tao',
     name: 'Bittensor',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 44,
-  },
-  {
-    id: 'bittorrent',
-    symbol: 'btt',
-    name: 'BitTorrent',
-    variants: ['mono'],
-    addresses: {
-      tron: 'TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4',
-      bittorrent: '0x0000000000000000000000000000000000001010',
-      energi: '0xf1bdcf2d4163adf9554111439dabdd6f18ff9ba7',
-      ethereum: '0xc669928185dbce49d2230cc9b0979be6dc797957',
-    },
-    marketCapRank: 81,
   },
   {
     id: 'blackdragon-token',
     symbol: 'bdt',
     name: 'BlackDragon',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x21ccbc5e7f353ec43b2f5b1fb12c3e9d89d30dca',
     },
     marketCapRank: null,
   },
   {
-    id: 'blackpool-token',
-    symbol: 'bpt',
-    name: 'BlackPool',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x0ec9f76202a7061eb9b3a7d6b59d36215a7e37da',
-      'polygon-pos': '0x6863bd30c9e313b264657b107352ba246f8af8e0',
-    },
-    marketCapRank: 2487,
-  },
-  {
     id: 'blacksmith-token',
     symbol: 'bs',
     name: 'Blacksmith Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5eca7b975e34567d9460fa613013a7a6993ad185',
     },
@@ -2683,7 +1939,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blank',
     symbol: 'blank',
     name: 'BlockWallet',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x41a3dba3d677e573636ba691a70ff2d606c29666',
       'polygon-pos': '0xf4c83080e80ae530d6f8180572cbbf1ac9d5d435',
@@ -2694,7 +1950,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blastar',
     symbol: 'blast',
     name: 'Blastar',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       pulsechain: '0x6a44be19d96f087494bafa66ee5df1bf7aaf220f',
     },
@@ -2704,7 +1960,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bullperks',
     symbol: 'blp',
     name: 'BullPerks',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xfe1d7f7a8f0bda6e415593a2e4f82c64b446d404',
     },
@@ -2714,7 +1970,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blocto-token',
     symbol: 'blt',
     name: 'Blocto',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'BLT1noyNr3GttckEVrtcfC6oyK6yV1DpPgSyXbncMwef',
     },
@@ -2724,7 +1980,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blockasset',
     symbol: 'block',
     name: 'Blockasset',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'NFTUkR4u7wKxy9QLaX2TGvd9oZSWoMo4jqSJqdMb7Nk',
       'binance-smart-chain': '0xbc7a566b85ef73f935e640a06b5a8b031cd975df',
@@ -2735,7 +1991,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blockchain-bets',
     symbol: 'bcb',
     name: 'Blockchain Bets',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2d886570a0da04885bfd6eb48ed8b8ff01a0eb7e',
     },
@@ -2745,7 +2001,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blockchain-brawlers',
     symbol: 'brwl',
     name: 'Blockchain Brawlers',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x4086e77c5e993fdb90a406285d00111a974f877a',
     },
@@ -2755,7 +2011,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blockchain-certified-data-token',
     symbol: 'bcdt',
     name: 'EvidenZ',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xacfa209fb73bf3dd5bbfb1101b9bc999c49062a5',
       'binance-smart-chain': '0x8683e604cdf911cd72652a04bf9d571697a86a60',
@@ -2766,7 +2022,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blockchain-monster-hunt',
     symbol: 'bcmc',
     name: 'Blockchain Monster Hunt',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2ba8349123de45e931a8c8264c332e6e9cf593f9',
       'binance-smart-chain': '0xc10358f062663448a3489fc258139944534592ac',
@@ -2778,7 +2034,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blockchainspace',
     symbol: 'guild',
     name: 'BlockchainSpace',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x83e9f223e1edb3486f876ee888d76bfba26c475a',
       'polygon-pos': '0xaff41da975501e5b71848c975834341777d1a473',
@@ -2790,7 +2046,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blocksquare',
     symbol: 'bst',
     name: 'Blocksquare',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a',
     },
@@ -2800,7 +2056,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blockstack',
     symbol: 'stx',
     name: 'Stacks',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 27,
   },
@@ -2808,7 +2064,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blockv',
     symbol: 'vee',
     name: 'BLOCKv',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x340d2bde5eb28c1eed91b2f790723e3b160613b7',
       'optimistic-ethereum': '0xe3c332a5dce0e1d9bc2cc72a68437790570c28a4',
@@ -2820,7 +2076,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blocx-3',
     symbol: 'blx',
     name: 'BlocX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xe9da86435265477bcde46c7e9aa7ace5aa7e2d18',
     },
@@ -2830,7 +2086,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blox',
     symbol: 'cdt',
     name: 'Blox',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x177d39ac676ed1c67a2b268ad7f1e58826e5b0af',
     },
@@ -2840,7 +2096,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blox-2',
     symbol: 'blox',
     name: 'BLOX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc9f00080d96cea3ef92d2e2e563d4cd41fb5bb36',
     },
@@ -2850,7 +2106,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bloxmove-erc20',
     symbol: 'blxm',
     name: 'bloXmove',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x38d9eb07a7b8df7d86f440a4a5c4a4c1a27e1a08',
       'binance-smart-chain': '0x40e51e0ec04283e300f12f6bb98da157bb22036e',
@@ -2861,7 +2117,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bluemove',
     symbol: 'move',
     name: 'BlueMove',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       aptos:
         '0x27fafcc4e39daac97556af8a803dbb52bcb03f0821898dc845ac54225b9793eb::move_coin::MoveCoin',
@@ -2873,7 +2129,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bluesparrow',
     symbol: 'bluesparrow',
     name: 'BlueSparrow',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x24ccedebf841544c9e6a62af4e8c2fa6e5a46fde',
     },
@@ -2883,7 +2139,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'white-whale',
     symbol: 'whale',
     name: 'White Whale',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       migaloo:
         'migaloo1ull9s4el2pmkdevdgrjt6pwa4e5xhkda40w84kghftnlxg4h3knqpm5u3n',
@@ -2899,7 +2155,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'blur',
     symbol: 'blur',
     name: 'Blur',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5283d291dbcf85356a21ba090e6db59121208b44',
     },
@@ -2909,7 +2165,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bluzelle',
     symbol: 'blz',
     name: 'Bluzelle',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5732046a883704404f284ce41ffadd5b007fd668',
       'binance-smart-chain': '0x935a544bf5816e3a7c13db2efe3009ffda0acda2',
@@ -2921,7 +2177,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bnb48-club-token',
     symbol: 'koge',
     name: 'KOGE',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xe6df05ce8c8301223373cf5b969afcb1498c5528',
     },
@@ -2931,7 +2187,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bob-token',
     symbol: 'bob',
     name: 'BOB Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7d8146cf21e8d7cbe46054e01588207b51198729',
     },
@@ -2941,7 +2197,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'boba-network',
     symbol: 'boba',
     name: 'Boba Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x42bbfa2e77757c645eeaad1655e0911a7553efbc',
       boba: '0xa18bf3994c0cc6e3b63ac420308e5383f53120d7',
@@ -2952,7 +2208,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bolide',
     symbol: 'blid',
     name: 'Bolide',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8a7adc1b690e81c758f1bd0f72dfe27ae6ec56a5',
       'polygon-pos': '0x4b27cd6e6a5e83d236ead376d256fe2f9e9f0d2e',
@@ -2965,56 +2221,27 @@ export const tokens: ITokenMetadata[] = [
     id: 'bolt',
     symbol: 'bolt',
     name: 'Bolt',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd5930c307d7395ff807f2921f12c5eb82131a789',
     },
     marketCapRank: 1945,
   },
   {
-    id: 'bondly',
-    symbol: 'bondly',
-    name: 'Forj',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x91dfbee3965baaee32784c2d546b7a0c62f268c9',
-      'binance-smart-chain': '0x5d0158a5c3ddf47d4ea4517d8db0d76aa2e87563',
-      'polygon-pos': '0x64ca1571d1476b7a21c5aaf9f1a750a193a103c0',
-    },
-    marketCapRank: 1944,
-  },
-  {
     id: 'bonfida',
     symbol: 'fida',
     name: 'Bonfida',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp',
     },
     marketCapRank: 620,
   },
   {
-    id: 'bonk',
-    symbol: 'bonk',
-    name: 'Bonk',
-    variants: ['branded'],
-    addresses: {
-      solana: 'DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263',
-      'neon-evm': '0xd4b6520f7fb78e1ee75639f3376c581a71bcdb0e',
-      ethereum: '0x1151cb3d861920e07a38e03eead12c32178567f6',
-      aptos:
-        '0x2a90fae71afc7460ee42b20ee49a9c9b29272905ad71fef92fbd8b3905a24b56',
-      'arbitrum-one': '0x09199d9a5f4448d0848e4395d065e1ad9c4a1f74',
-      'polygon-pos': '0xe5b49820e5a1063f6f4ddf851327b5e8b2301048',
-      'binance-smart-chain': '0xa697e272a73744b343528c3bc4702f2565b2f422',
-    },
-    marketCapRank: 72,
-  },
-  {
     id: 'garden-2',
     symbol: 'seed',
     name: 'Garden',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x5eed99d066a8caf10f3e4327c1b3d8b673485eed',
       'arbitrum-one': '0x86f65121804d2cdbef79f9f072d4e0c2eebabc08',
@@ -3025,71 +2252,21 @@ export const tokens: ITokenMetadata[] = [
     id: 'boosted-lusd',
     symbol: 'blusd',
     name: 'Boosted LUSD',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xb9d7dddca9a4ac480991865efef82e01273f79c3',
     },
     marketCapRank: 1829,
   },
   {
-    id: 'bora',
-    symbol: 'bora',
-    name: 'BORA',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'klay-token': '0x02cbe46fb8a1f579254a9b485788f2d86cad51aa',
-    },
-    marketCapRank: 335,
-  },
-  {
-    id: 'boringdao',
-    symbol: 'boring',
-    name: 'BoringDAO',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xbc19712feb3a26080ebf6f2f7849b417fdd792ca',
-      'binance-smart-chain': '0xffeecbf8d7267757c2dc3d13d730e97e15bfdf7f',
-    },
-    marketCapRank: 1602,
-  },
-  {
     id: 'bosagora',
     symbol: 'boa',
     name: 'BOSagora',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x746dda2ea243400d5a63e0700f190ab79f06489e',
     },
     marketCapRank: 1425,
-  },
-  {
-    id: 'boson-protocol',
-    symbol: 'boson',
-    name: 'Boson Protocol',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xc477d038d5420c6a9e0b031712f61c5120090de9',
-      'polygon-pos': '0x9b3b0703d392321ad24338ff1f846650437a43c9',
-    },
-    marketCapRank: 557,
-  },
-  {
-    id: 'bostrom',
-    symbol: 'boot',
-    name: 'Bostrom',
-    variants: ['branded'],
-    addresses: {},
-    marketCapRank: 1003,
-  },
-  {
-    id: 'botto',
-    symbol: 'botto',
-    name: 'Botto',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x9dfad1b7102d46b1b197b90095b5c4e9f5845bba',
-    },
-    marketCapRank: 688,
   },
   {
     id: 'bountymarketcap',
@@ -3102,29 +2279,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 1614,
   },
   {
-    id: 'defibox',
-    symbol: 'box',
-    name: 'DefiBox',
-    variants: ['mono'],
-    addresses: {},
-    marketCapRank: 2138,
-  },
-  {
-    id: 'breederdao',
-    symbol: 'breed',
-    name: 'BreederDAO',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x94e9eb8b5ab9fd6b9ea3169d55ffade62a01702e',
-      'polygon-pos': '0x6949804b60dd9dcea43fd8d10ccdc640b55f9f7f',
-    },
-    marketCapRank: 1515,
-  },
-  {
     id: 'brick',
     symbol: 'brick',
     name: 'r/FortNiteBR Bricks',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-nova': '0x6dcb98f460457fe4952e12779ba852f82ecc62c1',
     },
@@ -3134,7 +2292,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ethereum',
     symbol: 'eth',
     name: 'Ethereum',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2,
   },
@@ -3142,7 +2300,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'curve-dao-token',
     symbol: 'crv',
     name: 'Curve DAO',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xd533a949740bb3306d119cc777fa900ba034cd52',
       energi: '0xd3319eaf3c4743ac75aace77befcfa445ed6e69e',
@@ -3158,7 +2316,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dai',
     symbol: 'dai',
     name: 'Dai',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6b175474e89094c44da98b954eedeac495271d0f',
       kava: '0x765277eebeca2e31912c9946eae1021199b39c61',
@@ -3198,7 +2356,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'matic-network',
     symbol: 'matic',
     name: 'Polygon',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0',
       sora: '0x009134d5c7b7fda8863985531f456f89bef5fbd76684a8acdb737b3e451d0877',
@@ -3215,7 +2373,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rocket-pool-eth',
     symbol: 'reth',
     name: 'Rocket Pool ETH',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xae78736cd615f374d3085123a210448e74fc6393',
       'optimistic-ethereum': '0x9bcef72be871e61ed4fbbc7630889bee758eb81d',
@@ -3229,7 +2387,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'true-usd',
     symbol: 'tusd',
     name: 'TrueUSD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0000000000085d4780b73119b644ae5ecd22b376',
       avalanche: '0x1c20e891bab6b1727d14da358fae2984ed9b59eb',
@@ -3243,7 +2401,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wrapped-bitcoin',
     symbol: 'wbtc',
     name: 'Wrapped Bitcoin',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599',
       thundercore: '0x18fb0a62f207a2a082ca60aa78f47a1af4985190',
@@ -3288,7 +2446,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'seth',
     symbol: 'seth',
     name: 'sETH',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb',
       'optimistic-ethereum': '0xe405de8f52ba7559f9df3c368500b6e6ae6cee49',
@@ -3299,7 +2457,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bridge-oracle',
     symbol: 'brg',
     name: 'Bridge Oracle',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x6e4a971b81ca58045a2aa982eaa3d50c4ac38f42',
       ethereum: '0xc9c4fd7579133701fa2769b6955e7e56bb386db1',
@@ -3312,7 +2470,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'brn-metaverse',
     symbol: 'brn',
     name: 'BRN Metaverse',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x926ecc7687fcfb296e97a2b4501f41a6f5f8c214',
     },
@@ -3322,7 +2480,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bscpad',
     symbol: 'bscpad',
     name: 'BSCPAD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x5a3010d4d8d3b5fb49f8b6e57fb9e48063f16700',
     },
@@ -3332,7 +2490,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bsc-station',
     symbol: 'bscs',
     name: 'BSCS',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xbcb24afb019be7e93ea9c43b7e22bb55d5b7f45d',
     },
@@ -3342,7 +2500,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'btc-standard-hashrate-token',
     symbol: 'btcst',
     name: 'BTC Standard Hashrate Token',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x78650b139471520656b9e7aa7a5e9276814a38e9',
     },
@@ -3352,87 +2510,17 @@ export const tokens: ITokenMetadata[] = [
     id: 'btse-token',
     symbol: 'btse',
     name: 'BTSE Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x666d875c600aa06ac1cf15641361dec3b00432ef',
     },
     marketCapRank: 446,
   },
   {
-    id: 'btu-protocol',
-    symbol: 'btu',
-    name: 'BTU Protocol',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0xb683d83a532e2cb7dfa5275eed3698436371cc9f',
-      'polygon-pos': '0xfdc26cda2d2440d0e83cd1dee8e8be48405806dc',
-    },
-    marketCapRank: 1434,
-  },
-  {
-    id: 'build',
-    symbol: 'build',
-    name: 'BUILD',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'binance-smart-chain': '0x83b27de2fca046fa63a11c7ce7743de33ec58822',
-      'optimistic-ethereum': '0xe4de4b87345815c71aa843ea4841bcdc682637bb',
-      'polygon-pos': '0xe94845ac6782a2e71c407abe4d5201445c26a62b',
-      ethereum: '0x57b59f981730c6257df57cf6f0d98283749a9eeb',
-      fantom: '0xa6097a4dbef3eb44c50bad6286a5ed2bc4418aa2',
-      avalanche: '0x5f018e73c185ab23647c82bd039e762813877f0e',
-      cronos: '0x6467df17771ab26d1825bf0891b3c421d92ebc1d',
-    },
-    marketCapRank: 1407,
-  },
-  {
-    id: 'bullieverse',
-    symbol: 'bull',
-    name: 'Bullieverse',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'polygon-pos': '0x9f95e17b2668afe01f8fbd157068b0a4405cc08d',
-    },
-    marketCapRank: 1601,
-  },
-  {
-    id: 'bumper',
-    symbol: 'bump',
-    name: 'Bumper',
-    variants: ['branded', 'mono'],
-    addresses: {
-      ethereum: '0x785c34312dfa6b74f6f1829f79ade39042222168',
-      'arbitrum-one': '0xfb930d1a28990820c98144201637c99bea8cb91c',
-    },
-    marketCapRank: 1808,
-  },
-  {
-    id: 'buying',
-    symbol: 'buy',
-    name: 'Buying.com',
-    variants: ['branded', 'mono'],
-    addresses: {
-      algorand: '137020565',
-      ethereum: '0x396ec402b42066864c406d1ac3bc86b575003ed8',
-      'binance-smart-chain': '0x40225c6277b29bf9056b4acb7ee1512cbff11671',
-    },
-    marketCapRank: 1296,
-  },
-  {
-    id: 'burger-swap',
-    symbol: 'burger',
-    name: 'BurgerCities',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'binance-smart-chain': '0xae9269f27437f0fcbc232d39ec814844a51d6b8f',
-    },
-    marketCapRank: 1012,
-  },
-  {
     id: 'burrow',
     symbol: 'brrr',
     name: 'Burrow',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'near-protocol': 'token.burrow.near',
     },
@@ -3442,7 +2530,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bware-infra',
     symbol: 'infra',
     name: 'Bware',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x013062189dc3dcc99e9cee714c513033b8d99e3c',
       avalanche: '0xa4fb4f0ff2431262d236778495145ecbc975c38b',
@@ -3453,7 +2541,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'byteball',
     symbol: 'gbyte',
     name: 'Obyte',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xeb34de0c4b2955ce0ff1526cdf735c9e6d249d09',
       kava: '0x0b93109d05ef330acd2c75148891cc61d20c3ef1',
@@ -3466,7 +2554,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bytom',
     symbol: 'btm',
     name: 'Bytom',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1130,
   },
@@ -3474,7 +2562,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'bzx-protocol',
     symbol: 'bzrx',
     name: 'bZx Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x56d811088235f11c8920698a204a5010a788f4b3',
       energi: '0xe19ab0a7f5bf5b243e011bd070cf9e26296f7ebc',
@@ -3485,7 +2573,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cakepie-xyz',
     symbol: 'ckp',
     name: 'Cakepie',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x2b5d9adea07b590b638ffc165792b2c610eda649',
     },
@@ -3495,7 +2583,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'calamari-network',
     symbol: 'kma',
     name: 'Calamari Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1783,
   },
@@ -3503,7 +2591,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'calaxy',
     symbol: 'clxy',
     name: 'Calaxy',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       'hedera-hashgraph': '0x00000000000000000000000000000000000d1ea6',
     },
@@ -3513,7 +2601,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'camelot-token',
     symbol: 'grail',
     name: 'Camelot Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x3d9907f9a368ad0a51be60f7da3b97cf940982d8',
     },
@@ -3523,7 +2611,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'canto',
     symbol: 'canto',
     name: 'CANTO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       canto: '0x826551890dc65655a0aceca109ab11abdbd7a07b',
       ethereum: '0x56c03b8c4fa80ba37f5a7b60caaaef749bb5b220',
@@ -3534,7 +2622,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'coin-capsule',
     symbol: 'caps',
     name: 'Ternoa',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x03be5c903c727ee2c8c4e9bc0acc860cca4715e2',
       'binance-smart-chain': '0xffba7529ac181c2ee1844548e6d7061c9a597df4',
@@ -3545,7 +2633,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'carbify',
     symbol: 'cby',
     name: 'Carbify',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xb6a5ae40e79891e4deadad06c8a7ca47396df21c',
       ethereum: '0xb9d27bc093ed0a3b7c18366266704cfe5e7af77b',
@@ -3556,7 +2644,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'carbon',
     symbol: 'carbon',
     name: 'Carbon',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xefb5df8eb84055026018030e71bc2cdfa2f138b9',
     },
@@ -3566,7 +2654,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'carbon-browser',
     symbol: 'csix',
     name: 'Carbon Browser',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x04756126f044634c9a0f0e985e60c88a51acc206',
       ethereum: '0x345887cdb19e12833ed376bbf8b8b38269f5f5c8',
@@ -3577,7 +2665,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'carbon-credit',
     symbol: 'cct',
     name: 'Carbon Credit',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       algorand: '657291910',
     },
@@ -3587,7 +2675,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cardstack',
     symbol: 'card',
     name: 'Cardstack',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x954b890704693af242613edef1b603825afcd708',
     },
@@ -3597,7 +2685,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cargox',
     symbol: 'cxo',
     name: 'CargoX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb6ee9668771a79be7967ee29a63d4184f8097143',
       'polygon-pos': '0xf2ae0038696774d65e67892c9d301c5f2cbbda58',
@@ -3608,7 +2696,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'carry',
     symbol: 'cre',
     name: 'Carry',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x115ec79f1de567ec68b7ae7eda501b406626478e',
     },
@@ -3618,7 +2706,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cartesi',
     symbol: 'ctsi',
     name: 'Cartesi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d',
       avalanche: '0x6b289cceaa8639e3831095d75a3e43520fabf552',
@@ -3633,7 +2721,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cow-protocol',
     symbol: 'cow',
     name: 'CoW Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab',
       xdai: '0x177127622c4a00f3d409b75571e12cb3c8973d3c',
@@ -3644,7 +2732,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'casper-network',
     symbol: 'cspr',
     name: 'Casper Network',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {},
     marketCapRank: 199,
   },
@@ -3652,7 +2740,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'castello-coin',
     symbol: 'cast',
     name: 'Castello Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3fab0bbaa03bceaf7c49e2b12877db0142be65fc',
     },
@@ -3672,7 +2760,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'catapult',
     symbol: 'atd',
     name: 'A2DAO',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x8052327f1baf94a9dc8b26b9100f211ee3774f54',
       'binance-smart-chain': '0x1ce440d1a64eea6aa1db2a5aa51c9b326930957c',
@@ -3683,7 +2771,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'catgirl',
     symbol: 'catgirl',
     name: 'Catgirl',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x79ebc9a2ce02277a4b5b3a768b1c0a4ed75bd936',
     },
@@ -3693,7 +2781,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'comtech-gold',
     symbol: 'cgo',
     name: 'Comtech Gold',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'xdc-network': 'xdc8f9920283470f52128bf11b0c14e798be704fd15',
     },
@@ -3703,7 +2791,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'catheon-gaming',
     symbol: 'catheon',
     name: 'Catheon Gaming',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x7e7737c40878e720b32e7bc9cd096259f876d69f',
     },
@@ -3713,7 +2801,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'caviar',
     symbol: 'cvr',
     name: 'Caviar',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x6ae96cc93331c19148541d4d2f31363684917092',
     },
@@ -3723,7 +2811,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cdai',
     symbol: 'cdai',
     name: 'cDAI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5d3a536e4d6dbd6114cc1ead35777bab948e3643',
     },
@@ -3733,7 +2821,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ceek',
     symbol: 'ceek',
     name: 'CEEK Smart VR',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xb056c38f6b7dc4064367403e26424cd2c60655e1',
       'binance-smart-chain': '0xe0f94ac5462997d2bc57287ac3a3ae4c31345d66',
@@ -3744,7 +2832,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'celer-network',
     symbol: 'celr',
     name: 'Celer Network',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x4f9254c83eb525f9fcf346490bbb3ed28a81c667',
       'arbitrum-one': '0x3a8b787f78d775aecfeea15706d4221b40f345ab',
@@ -3756,7 +2844,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'celestia',
     symbol: 'tia',
     name: 'Celestia',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cosmos:
         'ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877',
@@ -3768,7 +2856,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cellframe',
     symbol: 'cell',
     name: 'Cellframe',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x26c8afbbfe1ebaca03c2bb082e69d0476bffe099',
       'binance-smart-chain': '0xd98438889ae7364c7e2a3540547fad042fb24642',
@@ -3779,7 +2867,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'celo',
     symbol: 'celo',
     name: 'Celo',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       celo: '0x471ece3750da237f93b8e339c536989b8978a438',
     },
@@ -3789,7 +2877,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'celo-dollar',
     symbol: 'cusd',
     name: 'Celo Dollar',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       celo: '0x765de816845861e75a25fca122bb6898b8b1282a',
       'near-protocol': 'cusd.token.a11bd.near',
@@ -3800,7 +2888,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'celo-euro',
     symbol: 'ceur',
     name: 'Celo Euro',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       celo: '0xd8763cba276a3738e6de85b4b3bf5fded6d6ca73',
     },
@@ -3810,7 +2898,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'celsius-degree-token',
     symbol: 'cel',
     name: 'Celsius Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d',
       fantom: '0x2c78f1b70ccf63cdee49f9233e9faa99d43aa07e',
@@ -3824,7 +2912,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'centrifuge',
     symbol: 'cfg',
     name: 'Centrifuge',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 204,
   },
@@ -3832,7 +2920,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cere-network',
     symbol: 'cere',
     name: 'Cere Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2da719db753dfa10a62e140f436e1d67f2ddb0d6',
     },
@@ -3842,7 +2930,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'certik',
     symbol: 'ctk',
     name: 'Shentu',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 442,
   },
@@ -3850,7 +2938,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cetus-protocol',
     symbol: 'cetus',
     name: 'Cetus Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       sui: '0x6864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b::cetus::CETUS',
     },
@@ -3860,7 +2948,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'chain-games',
     symbol: 'chain',
     name: 'Chain Games',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc4c2614e694cf534d407ee49f8e44d125e4681c4',
       'harmony-shard-0': '0x84ec08c887dd8c14d389abe56e609379b7c5262e',
@@ -3873,7 +2961,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'chaingpt',
     symbol: 'cgpt',
     name: 'ChainGPT',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x9840652dc04fb9db2c43853633f0f62be6f00f98',
       ethereum: '0x25931894a86d47441213199621f1f2994e1c39aa',
@@ -3884,7 +2972,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'chain-guardians',
     symbol: 'cgg',
     name: 'Chain Guardians',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1fe24f25b1cf609b9c4e7e12d802e3640dfa5e43',
       'polygon-pos': '0x2ab4f9ac80f33071211729e45cfc346c1f8446d5',
@@ -3896,7 +2984,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'chainlink',
     symbol: 'link',
     name: 'Chainlink',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x514910771af9ca656af840dff83e8264ecf986ca',
       fantom: '0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8',
@@ -3922,7 +3010,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'chainport',
     symbol: 'portx',
     name: 'ChainPort',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x104f3152d8ebfc3f679392977356962ff36566ac',
       'polygon-pos': '0x189586b5f6317538ae50c20a976597da38984a24',
@@ -3933,7 +3021,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metahero',
     symbol: 'hero',
     name: 'Metahero',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xd40bedb44c081d2935eeba6ef5a3c8a31a1bbe13',
     },
@@ -3943,7 +3031,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'champignons-of-arborethia',
     symbol: 'champz',
     name: 'Champignons of Arborethia',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x571e21a545842c6ce596663cda5caa8196ac1c7a',
     },
@@ -3953,7 +3041,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'coinnavigator',
     symbol: 'cng',
     name: 'CoinNavigator',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xfd60b3c3c1916bdbb4319a3d264894f1dfd5eca2',
     },
@@ -3963,7 +3051,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'charged-particles',
     symbol: 'ionx',
     name: 'Charged Particles',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x02d3a27ac3f55d5d91fb0f52759842696a864217',
     },
@@ -3973,7 +3061,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'charli3',
     symbol: 'c3',
     name: 'Charli3',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       cardano: '8e51398904a5d3fc129fbf4f1589701de23c7824d5c90fdb9490e15a',
     },
@@ -3983,7 +3071,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cheems',
     symbol: 'cheems',
     name: 'Cheems',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: '3FoUAsGDbvTD6YZ4wVKJgTB76onJUKz7GPEBNiR5b8wc',
     },
@@ -3993,7 +3081,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cheqd-network',
     symbol: 'cheq',
     name: 'CHEQD Network',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x70edf1c215d0ce69e7f16fd4e6276ba0d99d4de7',
     },
@@ -4003,7 +3091,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'chia',
     symbol: 'xch',
     name: 'Chia',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 209,
   },
@@ -4011,7 +3099,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'city-tycoon-games',
     symbol: 'ctg',
     name: 'City Tycoon Games',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xb3ba14f6a482dfdebc3c2fb726ac10df91ee504c',
     },
@@ -4021,7 +3109,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'chihuahua-token',
     symbol: 'huahua',
     name: 'Chihuahua Chain',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       osmosis:
         'ibc/B9E0A1A524E98BB407D3CED8720EFEFD186002F90C1B1B7964811DD0CCC12228',
@@ -4032,7 +3120,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'eggdog',
     symbol: 'egg',
     name: 'Eggdog',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'EXA537HSBVpsFijENbt6Muuy9AADUN8dUmYKD4oKbjJE',
     },
@@ -4042,7 +3130,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'chiliz',
     symbol: 'chz',
     name: 'Chiliz',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3506424f91fd33084466f402d5d97f05f8e3b4af',
       energi: '0xa82fc24687ffbde40776dede7c70f845b67f3ef7',
@@ -4053,7 +3141,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'chirpley',
     symbol: 'chrp',
     name: 'Chirpley',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xed00fc7d48b57b81fe65d1ce71c0985e4cf442cb',
       ethereum: '0x70bc0dc6414eb8974bc70685f798838a87d8cce4',
@@ -4064,7 +3152,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'toucan-protocol-base-carbon-tonne',
     symbol: 'bct',
     name: 'Toucan Protocol: Base Carbon Tonne',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x2f800db0fdb5223b3c3f354886d907a671414a7f',
     },
@@ -4074,7 +3162,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'choise',
     symbol: 'cho',
     name: 'Choise.com',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbba39fd2935d5769116ce38d46a71bde9cf03099',
     },
@@ -4084,7 +3172,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'chromaway',
     symbol: 'chr',
     name: 'Chromia',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8a2279d4a90b6fe1c4b30fa660cc9f926797baa2',
       'binance-smart-chain': '0xf9cec8d50f6c8ad3fb6dccec577e05aa32b224fe',
@@ -4095,7 +3183,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'chronobank',
     symbol: 'time',
     name: 'chrono.tech',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x485d17a6f1b8780392d53d64751824253011a260',
       'binance-smart-chain': '0x3b198e26e473b8fab2085b37978e36c9de5d7f68',
@@ -4106,7 +3194,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'chumbai-valley',
     symbol: 'chmb',
     name: 'Chumbi Valley',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x5492ef6aeeba1a3896357359ef039a8b11621b45',
     },
@@ -4116,7 +3204,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cindicator',
     symbol: 'cnd',
     name: 'Cindicator',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd4c435f5b09f855c3317c8524cb1f586e42795fa',
     },
@@ -4126,7 +3214,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'circuits-of-value',
     symbol: 'coval',
     name: 'Circuits of Value',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x3d658390460295fb963f54dc0899cfb1c30776df',
       xdai: '0x8b8407c6184f1f0fd1082e83d6a3b8349caced12',
@@ -4140,7 +3228,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cirus',
     symbol: 'cirus',
     name: 'Cirus',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa01199c61841fce3b3dafb83fefc1899715c8756',
     },
@@ -4161,7 +3249,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'civic',
     symbol: 'cvc',
     name: 'Civic',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x41e5560054824ea6b0732e656e3ad64e20e94e45',
       energi: '0x0d91d554768dc20e1d3d95ff9d5bc041edc3ba0f',
@@ -4173,7 +3261,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cjournal',
     symbol: 'ucjl',
     name: 'Utility Cjournal',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xf5355ddc7ffbf7ca119bf3222cb0ecac2fbb4502',
     },
@@ -4183,7 +3271,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'clash-of-lilliput',
     symbol: 'col',
     name: 'Clash of Lilliput',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x9ce116224459296abc7858627abd5879514bc629',
     },
@@ -4193,7 +3281,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cleardao',
     symbol: 'clh',
     name: 'ClearDAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd7d8f3b8bc8bc48d3acc37879eaba7b85889fa52',
     },
@@ -4203,7 +3291,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'clearpool',
     symbol: 'cpool',
     name: 'Clearpool',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x66761fa41377003622aee3c7675fc7b5c1c2fac5',
     },
@@ -4213,7 +3301,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'clover-finance',
     symbol: 'clv',
     name: 'Clover Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x80c62fe4487e1351b47ba49809ebd60ed085bf52',
       'binance-smart-chain': '0x09e889bb4d5b474f561db0491c38702f367a4e4d',
@@ -4224,7 +3312,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'clintex-cti',
     symbol: 'cti',
     name: 'ClinTex CTi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xcb8fb2438a805664cd8c3e640b85ac473da5be87',
       'binance-smart-chain': '0x7c3b67b30efbacc8f787f7ebd3bdc65234299f4c',
@@ -4237,7 +3325,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'clore-ai',
     symbol: 'clore',
     name: 'Clore.ai',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 547,
   },
@@ -4245,7 +3333,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'honk',
     symbol: 'honk',
     name: 'Honk',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: '3ag1Mj9AKz9FAkCQ6gAEhpLSX8B2pUbPdkb9iBsDLZNB',
     },
@@ -4255,7 +3343,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'santiment-network-token',
     symbol: 'san',
     name: 'Santiment Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7c5a0ce9267ed19b22f8cae653f198e3e8daf098',
     },
@@ -4265,7 +3353,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cnh-tether',
     symbol: 'cnht',
     name: 'CNH Tether',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6e109e9dd7fa1a58bc3eff667e8e41fc3cc07aef',
     },
@@ -4275,7 +3363,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cocktailbar',
     symbol: 'coc',
     name: 'The Cocktailbar',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x22b6c31c2beb8f2d0d5373146eed41ab9ede3caf',
     },
@@ -4285,7 +3373,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cocos-bcx',
     symbol: 'combo',
     name: 'COMBO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc03fbf20a586fa89c2a5f6f941458e1fbc40c661',
       'binance-smart-chain': '0xc03fbf20a586fa89c2a5f6f941458e1fbc40c661',
@@ -4296,7 +3384,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'coin98',
     symbol: 'c98',
     name: 'Coin98',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xaec945e04baf28b135fa7c640f624f8d90f1c3a6',
       tomochain: '0x0fd0288aaae91eaf935e2ec14b23486f86516c8c',
@@ -4310,7 +3398,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'coinbase-wrapped-staked-eth',
     symbol: 'cbeth',
     name: 'Coinbase Wrapped Staked ETH',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbe9895146f7af43049ca1c1ae358b0541ea49704',
       'optimistic-ethereum': '0xaddb6a0412de1ba0f936dcaeb8aaa24578dcf3b2',
@@ -4324,7 +3412,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'coinmerge-os',
     symbol: 'cmos',
     name: 'CoinMerge OS',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x87869a9789291a6cec99f3c3ef2ff71fceb12a8e',
     },
@@ -4334,7 +3422,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'coinmetro',
     symbol: 'xcm',
     name: 'Coinmetro',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x36ac219f90f5a6a3c77f2a7b660e3cc701f68e25',
     },
@@ -4344,7 +3432,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'coinweb',
     symbol: 'cweb',
     name: 'Coinweb',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x505b5eda5e25a67e1c24a2bf1a527ed9eb88bf04',
     },
@@ -4354,7 +3442,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sacabam',
     symbol: 'scb',
     name: 'Sacabam',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       sui: '0x9a5502414b5d51d01c8b5641db7436d789fa15a245694b24aa37c25c2a6ce001::scb::SCB',
     },
@@ -4364,7 +3452,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'coldstack',
     symbol: 'cls',
     name: 'Coldstack',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x675bbc7514013e2073db7a919f6e4cbef576de37',
       'binance-smart-chain': '0x668048e70284107a6afab1711f28d88df3e72948',
@@ -4375,7 +3463,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'collab-land',
     symbol: 'collab',
     name: 'Collab.Land',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'arbitrum-one': '0xf18c263ec50cc211ef3f172228549b6618f10613',
     },
@@ -4385,7 +3473,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'colony',
     symbol: 'cly',
     name: 'Colony',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       avalanche: '0xec3492a2508ddf4fdc0cd76f31f340b30d1793e6',
     },
@@ -4395,7 +3483,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'comdex',
     symbol: 'cmdx',
     name: 'COMDEX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       comdex: 'ucmdx',
       archway:
@@ -4409,7 +3497,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'compound-governance-token',
     symbol: 'comp',
     name: 'Compound',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc00e94cb662c3520282e6f5717214004a7f26888',
       energi: '0x66bc411714e16b6f0c68be12bd9c666cc4576063',
@@ -4428,7 +3516,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'compound-usd-coin',
     symbol: 'cusdc',
     name: 'cUSDC',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x39aa39c021dfbae8fac545936693ac917d5e7563',
     },
@@ -4438,7 +3526,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'concentrated-voting-power',
     symbol: 'cvp',
     name: 'PowerPool Concentrated Voting Power',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x38e4adb44ef08f22f5b5b76a8f0c2d0dcbe7dca1',
     },
@@ -4448,7 +3536,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'concentrator',
     symbol: 'ctr',
     name: 'Concentrator',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb3ad645db386d7f6d753b2b9c3f4b853da6890b8',
     },
@@ -4458,7 +3546,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'concordium',
     symbol: 'ccd',
     name: 'Concordium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 793,
   },
@@ -4466,7 +3554,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'conflux-token',
     symbol: 'cfx',
     name: 'Conflux',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 69,
   },
@@ -4474,7 +3562,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'conic-finance',
     symbol: 'cnc',
     name: 'Conic',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x9ae380f0272e2162340a5bb646c354271c0f5cfc',
     },
@@ -4484,7 +3572,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'connect-financial',
     symbol: 'cnfi',
     name: 'Connect Financial',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xeabb8996ea1662cad2f7fb715127852cd3262ae9',
       'arbitrum-one': '0x6f5401c53e2769c858665621d22ddbf53d8d27c5',
@@ -4503,7 +3591,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'constitutiondao',
     symbol: 'people',
     name: 'ConstitutionDAO',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x7a58c0be72be218b41c608b7fe7c5bb630736c71',
     },
@@ -4513,7 +3601,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'contentos',
     symbol: 'cos',
     name: 'Contentos',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       binancecoin: 'COS-2E4',
     },
@@ -4523,7 +3611,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'convergence',
     symbol: 'conv',
     name: 'Convergence',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc834fa996fa3bec7aad3693af486ae53d8aa8b50',
     },
@@ -4533,7 +3621,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cope',
     symbol: 'cope',
     name: 'Cope',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: '8HGyAAB1yoM1ttS7pXjHMa3dukTFGQggnFFH3hJZgzQh',
     },
@@ -4543,7 +3631,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'coredaoorg',
     symbol: 'core',
     name: 'Core',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 112,
   },
@@ -4551,7 +3639,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cornucopias',
     symbol: 'copi',
     name: 'Cornucopias',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xfea292e5ea4510881bdb840e3cec63abd43f936f',
       cardano: 'asset1c6uau7pufsxhnm7eg0eerhu4snwfd9sn7kvvvz',
@@ -4563,7 +3651,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cortex',
     symbol: 'ctxc',
     name: 'Cortex',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 513,
   },
@@ -4571,7 +3659,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cosmos',
     symbol: 'atom',
     name: 'Cosmos Hub',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       kava: '0x15932e26f5bd4923d46a2b205191c4b5d5f43fe3',
       evmos: '0xc5e00d3b04563950941f7137b5afa3a534f0d6d6',
@@ -4588,7 +3676,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'coti',
     symbol: 'coti',
     name: 'COTI',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xddb3422497e61e13543bea06989c0789117555c5',
     },
@@ -4598,7 +3686,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'counterparty',
     symbol: 'xcp',
     name: 'Counterparty',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1070,
   },
@@ -4606,7 +3694,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'covalent',
     symbol: 'cqt',
     name: 'Covalent',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd417144312dbf50465b1c641d016962017ef6240',
     },
@@ -4616,7 +3704,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'covesting',
     symbol: 'cov',
     name: 'Covesting',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xada86b1b313d1d5267e3fc0bb303f0a2b66d0ea7',
       'binance-smart-chain': '0x0f237db17aa4e6de062e6f052bd9c805789b01c3',
@@ -4627,7 +3715,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cratos',
     symbol: 'crts',
     name: 'Cratos',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x678e840c640f619e17848045d23072844224dd37',
       'binance-smart-chain': '0x678e840c640f619e17848045d23072844224dd37',
@@ -4638,7 +3726,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cream-2',
     symbol: 'cream',
     name: 'Cream',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2ba592f78db6436527729929aaf6c908497cb200',
       energi: '0x1cca61099dcebe517f8cac58f27218e7aff2d3bf',
@@ -4654,7 +3742,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'credefi',
     symbol: 'credi',
     name: 'Credefi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xae6e307c3fe9e922e5674dbd7f830ed49c014c6b',
       'binance-smart-chain': '0x2235e79086dd23135119366da45851c741874e5b',
@@ -4665,7 +3753,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'creditcoin-2',
     symbol: 'ctc',
     name: 'Creditcoin',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xa3ee21c306a700e682abcdfe9baa6a08f3820419',
     },
@@ -4675,7 +3763,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'creo-engine',
     symbol: 'creo',
     name: 'Creo Engine',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x9521728bf66a867bc65a93ece4a543d817871eb7',
     },
@@ -4685,7 +3773,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cronos-id',
     symbol: 'croid',
     name: 'Cronos ID',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cronos: '0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7',
     },
@@ -4695,7 +3783,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cropbytes',
     symbol: 'cbx',
     name: 'CropBytes',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x37fc4b48ce93469dbea9918468993c735049642a',
     },
@@ -4705,7 +3793,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'octus-bridge',
     symbol: 'bridge',
     name: 'Octus Bridge',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       everscale:
         '0:f2679d80b682974e065e03bf42bbee285ce7c587eb153b41d761ebfd954c45e1',
@@ -4716,7 +3804,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'degen-base',
     symbol: 'degen',
     name: 'Degen (Base)',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       base: '0x4ed4e862860bed51a9570b96d89af5e1b0efefed',
     },
@@ -4726,7 +3814,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'crowdswap',
     symbol: 'crowd',
     name: 'CrowdSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x483dd3425278c1f79f377f1034d9d2cae55648b6',
     },
@@ -4736,7 +3824,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'crown-by-third-time-games',
     symbol: 'crown',
     name: 'Crown by Third Time Games',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: 'GDfnEsia2WLAW5t8yx2X5j2mkfA74i5kwGdDuZHt7XmG',
     },
@@ -4746,7 +3834,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'crowns',
     symbol: 'cws',
     name: 'Seascape Crowns',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x99aa29ac023057951781dc5d1784e9a4c362ce23',
     },
@@ -4756,7 +3844,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'crowny-token',
     symbol: 'crwny',
     name: 'Crowny',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'CRWNYkqdgvhGGae9CKfNka58j6QQkaD5bLhKXvUYqnc1',
     },
@@ -4766,7 +3854,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'crust-network',
     symbol: 'cru',
     name: 'Crust Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x32a7c02e79c4ea1008dd6564b35f131428673c41',
     },
@@ -4776,7 +3864,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'crvusd',
     symbol: 'crvusd',
     name: 'crvUSD',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xf939e0a03fb07f59a73314e73794be0e57ac1b4e',
       'arbitrum-one': '0x498bf2b1e120fed3ad3d42ea2165e9b73f99c1e5',
@@ -4791,7 +3879,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cryowar-token',
     symbol: 'cwar',
     name: 'Cryowar',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: 'HfYFjMKNZygfMC8LsQ8LtpPsPxEJoXJx4M6tqi75Hajo',
     },
@@ -4801,7 +3889,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'crypterium',
     symbol: 'crpt',
     name: 'Crypterium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x08389495d7456e1951ddf7c3a1314a4bfb646d8b',
     },
@@ -4811,7 +3899,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cryptex-finance',
     symbol: 'ctx',
     name: 'Cryptex Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x321c2fe4446c7c963dc41dd58879af648838f98d',
     },
@@ -4821,7 +3909,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cryptocart',
     symbol: 'ccv2',
     name: 'CryptoCart V2',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x612e1726435fe38dd49a0b35b4065b56f49c8f11',
       'binance-smart-chain': '0x612e1726435fe38dd49a0b35b4065b56f49c8f11',
@@ -4832,7 +3920,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'crypto-com-chain',
     symbol: 'cro',
     name: 'Cronos',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b',
     },
@@ -4842,7 +3930,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cryptofranc',
     symbol: 'xchf',
     name: 'CryptoFranc',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb4272071ecadd69d933adcd19ca99fe80664fc08',
     },
@@ -4852,7 +3940,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'crypto-gladiator-shards',
     symbol: 'cgl',
     name: 'Crypto Gladiator League',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0x2627c26b33f5193da4adfb26df60202479ccd2d3',
     },
@@ -4873,7 +3961,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'defi-kingdoms-crystal',
     symbol: 'crystal',
     name: 'DeFi Kingdoms Crystal',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'defi-kingdoms-blockchain': '0x04b9da42306b023f3572e106b11d82aad9d32ebb',
     },
@@ -4883,7 +3971,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'csp-dao-network',
     symbol: 'nebo',
     name: 'CSP DAO Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7f0c8b125040f707441cad9e5ed8a8408673b455',
     },
@@ -4893,7 +3981,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cudos',
     symbol: 'cudos',
     name: 'Cudos',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x817bbdbc3e8a1204f3691d14bb44992841e3db35',
       archway:
@@ -4905,7 +3993,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cult-dao',
     symbol: 'cult',
     name: 'Cult DAO',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xf0f9d895aca5c8678f706fb8216fa22957685a13',
     },
@@ -4915,7 +4003,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cuminu',
     symbol: 'cuminu',
     name: 'Cuminu',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd6327ce1fb9d6020e8c2c0e124a1ec23dcab7536',
     },
@@ -4925,7 +4013,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cumrocket',
     symbol: 'cummies',
     name: 'CumRocket',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x27ae27110350b98d564b9a3eed31baebc82d878d',
     },
@@ -4935,7 +4023,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'curate',
     symbol: 'xcur',
     name: 'Curate',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xe1c7e30c42c24582888c758984f6e382096786bd',
       'binance-smart-chain': '0xd52669712f253cd6b2fe8a8638f66ed726cb770c',
@@ -4947,7 +4035,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'curio-governance',
     symbol: 'cgt',
     name: 'Curio Governance Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf56b164efd3cfc02ba739b719b6526a6fa1ca32a',
       'binance-smart-chain': '0x3d04edc843e74935c09f54cc4b2fe1870e347ac9',
@@ -4958,7 +4046,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cyberconnect',
     symbol: 'cyber',
     name: 'CyberConnect',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x14778860e937f509e651192a90589de711fb88a9',
       'optimistic-ethereum': '0x14778860e937f509e651192a90589de711fb88a9',
@@ -4970,7 +4058,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'cypherium',
     symbol: 'cph',
     name: 'Cypherium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1494,
   },
@@ -4978,7 +4066,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'd3d-social',
     symbol: 'd3d',
     name: 'D3D Social',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xd3c7e51caab1089002ec05569a04d14bcc478bc4',
     },
@@ -4988,7 +4076,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dacxi',
     symbol: 'dacxi',
     name: 'Dacxi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xefab7248d36585e2340e5d25f8a8d243e6e3193f',
     },
@@ -4998,7 +4086,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dafi-protocol',
     symbol: 'dafi',
     name: 'Dafi Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfc979087305a826c2b2a0056cfaba50aad3e6439',
       'binance-smart-chain': '0x4e0fe270b856eebb91fb4b4364312be59f499a3f',
@@ -5010,7 +4098,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dao-maker',
     symbol: 'dao',
     name: 'DAO Maker',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0f51bb10119727a7e5ea3538074fb341f56b09ad',
       'arbitrum-one': '0xcaa38bcc8fb3077975bbe217acfaa449e6596a84',
@@ -5023,7 +4111,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'decentr',
     symbol: 'dec',
     name: 'Decentr',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x30f271c9e86d2b7d00a6376cd96a1cfbd5f0b9b3',
       archway:
@@ -5037,7 +4125,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dream-machine-token',
     symbol: 'dmt',
     name: 'Dream Machine Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x8b0e6f19ee57089f7649a455d89d7bc6314d04e8',
       ethereum: '0x0b7f0e51cd1739d6c96982d55ad8fa634dd43a9c',
@@ -5048,7 +4136,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'diamond',
     symbol: 'dmd',
     name: 'Diamond',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1640,
   },
@@ -5056,7 +4144,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'darwinia-network-native-token',
     symbol: 'ring',
     name: 'Darwinia Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9469d013805bffb7d3debe5e7839237e535ec483',
       'arbitrum-one': '0x9e523234d36973f9e38642886197d023c88e307e',
@@ -5068,7 +4156,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dash',
     symbol: 'dash',
     name: 'Dash',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 200,
   },
@@ -5076,7 +4164,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dash-2-trade',
     symbol: 'd2t',
     name: 'Dash 2 Trade',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4dd942baa75810a3c1e876e79d5cd35e09c97a76',
     },
@@ -5086,7 +4174,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'streamr',
     symbol: 'data',
     name: 'Streamr',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8f693ca8d21b157107184d29d398a8d082b38b76',
       'binance-smart-chain': '0x0864c156b3c5f69824564dec60c629ae6401bf2a',
@@ -5099,7 +4187,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'databroker-dao',
     symbol: 'dtx',
     name: 'DaTa eXchange DTX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x765f0c16d1ddc279295c1a7c24b0883f62d33f75',
     },
@@ -5109,7 +4197,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'data-lake',
     symbol: 'lake',
     name: 'Data Lake',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xf9ca9523e5b5a42c3018c62b084db8543478c400',
     },
@@ -5119,7 +4207,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'datamall-coin',
     symbol: 'dmc',
     name: 'Datamall Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 803,
   },
@@ -5127,7 +4215,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dogechain',
     symbol: 'dc',
     name: 'Dogechain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       dogechain: '0x7b4328c127b85369d9f82ca0503b000d09cf9180',
       ethereum: '0x7b4328c127b85369d9f82ca0503b000d09cf9180',
@@ -5138,7 +4226,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'deapcoin',
     symbol: 'dep',
     name: 'DEAPCOIN',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1a3496c18d558bd9c6c8f609e1b129f67ab08163',
       avalanche: '0xd4d026322c88c2d49942a75dff920fcfbc5614c1',
@@ -5151,7 +4239,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'defichain',
     symbol: 'dfi',
     name: 'DeFiChain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x361c60b7c2828fcab80988d00d1d542c83387b50',
       ethereum: '0x8fc8f8269ebca376d046ce292dc7eac40c8d358a',
@@ -5162,7 +4250,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'decentraland',
     symbol: 'mana',
     name: 'Decentraland',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0f5d2fb29fb7d3cfee444a200298f468908cc942',
       'polygon-pos': '0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4',
@@ -5173,7 +4261,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'decentral-games-governance',
     symbol: 'xdg',
     name: 'Decentral Games Governance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4f81c790581b240a5c948afd173620ecc8c71c8d',
       'polygon-pos': '0xc6480da81151b2277761024599e8db2ad4c388c8',
@@ -5184,7 +4272,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ice',
     symbol: 'ice',
     name: 'Ice Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xc335df7c25b72eec661d5aa32a7c2b7b2a1d1874',
       ethereum: '0x79f05c263055ba20ee0e814acd117c20caa10e0c',
@@ -5195,7 +4283,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'decentralized-advertising',
     symbol: 'dad',
     name: 'DAD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5b322514ff727253292637d9054301600c2c81e8',
     },
@@ -5205,7 +4293,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dia-data',
     symbol: 'dia',
     name: 'DIA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419',
       sora: '0x001f7a13792061236adfc93fa3aa8bad1dc8a8e8f889432b3d8d416b986f2c43',
@@ -5217,7 +4305,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'decentraweb',
     symbol: 'dweb',
     name: 'DecentraWeb',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe7f58a92476056627f9fdb92286778abd83b285f',
       'polygon-pos': '0x8839e639f210b80ffea73aedf51baed8dac04499',
@@ -5228,7 +4316,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'decimal',
     symbol: 'del',
     name: 'Decimal',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 998,
   },
@@ -5236,7 +4324,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'decred',
     symbol: 'dcr',
     name: 'Decred',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 202,
   },
@@ -5244,7 +4332,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'decubate',
     symbol: 'dcb',
     name: 'Decubate',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xeac9873291ddaca754ea5642114151f3035c67a2',
     },
@@ -5254,7 +4342,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'deepbrain-chain',
     symbol: 'dbc',
     name: 'DeepBrain Chain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1221,
   },
@@ -5262,7 +4350,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'deepfakeai',
     symbol: 'fakeai',
     name: 'DeepFakeAI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5aef5bba19e6a1644805bd4f5c93c8557b87c62c',
     },
@@ -5272,7 +4360,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'deeponion',
     symbol: 'onion',
     name: 'DeepOnion',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2617,
   },
@@ -5280,7 +4368,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'deepspace',
     symbol: 'dps',
     name: 'DEEPSPACE',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb7b1570e26315baad369b8ea0a943b7f140db9eb',
       'binance-smart-chain': '0xf275e1ac303a4c9d987a2c48b8e555a77fec3f1c',
@@ -5291,7 +4379,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'defactor',
     symbol: 'factr',
     name: 'Defactor',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe0bceef36f3a6efdd5eebfacd591423f8549b9d5',
       'polygon-pos': '0xe0bceef36f3a6efdd5eebfacd591423f8549b9d5',
@@ -5303,7 +4391,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'de-fi',
     symbol: 'defi',
     name: 'DeFi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6b0faca7ba905a86f221ceb5ca404f605e5b3131',
       'binance-smart-chain': '0x6d106c0b8d2f47c5465bdbd58d1be253762cbbc1',
@@ -5314,7 +4402,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'defi-kingdoms',
     symbol: 'jewel',
     name: 'DeFi Kingdoms',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       avalanche: '0x997ddaa07d716995de90577c123db411584e5e46',
     },
@@ -5324,7 +4412,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'definity',
     symbol: 'defx',
     name: 'DeFinity',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5f474906637bdcda05f29c74653f6962bb0f8eda',
       'binance-smart-chain': '0xbe4cb2c354480042a39350a0c6c26bf54786539f',
@@ -5335,7 +4423,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'paladin',
     symbol: 'pal',
     name: 'Paladin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xab846fb6c81370327e784ae7cbb6d6a6af6ff4bf',
     },
@@ -5345,7 +4433,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'defipulse-index',
     symbol: 'dpi',
     name: 'DeFi Pulse Index',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b',
       energi: '0x8b8e6090542b612b7e2d73a934f9f5ea7e9a40af',
@@ -5358,7 +4446,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'defit',
     symbol: 'defit',
     name: 'Digital Fitness',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x428360b02c1269bc1c79fbc399ad31d58c1e8fda',
     },
@@ -5368,7 +4456,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'defi-yield-protocol',
     symbol: 'dyp',
     name: 'Dypius [OLD]',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x961c8c0b1aad0c0b10a51fef6a867e3091bcef17',
       avalanche: '0x961c8c0b1aad0c0b10a51fef6a867e3091bcef17',
@@ -5380,7 +4468,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'degenx',
     symbol: 'dgnx',
     name: 'DegenX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       avalanche: '0x51e48670098173025c477d9aa3f0eff7bf9f7812',
       ethereum: '0x0000000000300dd8b0230efcfef136ecdf6abcde',
@@ -5391,7 +4479,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'degen-zoo',
     symbol: 'dzoo',
     name: 'Degen Zoo',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xc97d6c52f3add91fa1c5287a453d7444aecbca83',
       'binance-smart-chain': '0x56d06a78ef8e95d6043341f24759e2834be6f97b',
@@ -5402,7 +4490,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dego-finance',
     symbol: 'dego',
     name: 'Dego Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3da932456d082cba208feb0b096d49b202bf89c8',
       'binance-smart-chain': '0x3da932456d082cba208feb0b096d49b202bf89c8',
@@ -5413,7 +4501,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dejitaru-hoshi',
     symbol: 'hoshi',
     name: 'Dejitaru Hoshi',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x5362ca75aa3c0e714bc628296640c43dc5cb9ed6',
     },
@@ -5423,7 +4511,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dejitaru-tsuka',
     symbol: 'tsuka',
     name: 'Dejitaru Tsuka',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xc5fb36dd2fb59d3b98deff88425a3f425ee469ed',
     },
@@ -5433,7 +4521,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dent',
     symbol: 'dent',
     name: 'Dent',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x3597bfd533a99c9aa083587b074434e61eb0a258',
     },
@@ -5443,7 +4531,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'derace',
     symbol: 'derc',
     name: 'DeRace',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x9fa69536d1cda4a04cfb50688294de75b505a9ae',
       'binance-smart-chain': '0x373e768f79c820aa441540d254dca6d045c6d25b',
@@ -5455,7 +4543,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'derby-stars-run',
     symbol: 'dsrun',
     name: 'Derby Stars RUN',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xff76c0b48363a7c7307868a81548d340049b0023',
     },
@@ -5465,7 +4553,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'deri-protocol',
     symbol: 'deri',
     name: 'Deri Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa487bf43cf3b10dffc97a9a744cbb7036965d3b9',
       'manta-pacific': '0xd212377f71f15a1b962c9265dc44fbceaf0bc46d',
@@ -5480,7 +4568,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dero',
     symbol: 'dero',
     name: 'Dero',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 692,
   },
@@ -5488,7 +4576,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'desmos',
     symbol: 'dsm',
     name: 'Desmos',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cosmos:
         'ibc/EA4C0A9F72E2CEDF10D0E7A9A6A22954DB3444910DB5BE980DF59B05A46DAD1C',
@@ -5499,7 +4587,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'deso',
     symbol: 'deso',
     name: 'Decentralized Social',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 264,
   },
@@ -5507,7 +4595,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'devour-2',
     symbol: 'dpay',
     name: 'Devour',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe5a733681bbe6cd8c764bb8078ef8e13a576dd78',
       solana: 'Gnca3UkjR4a1FFNZuGfEELmbaHkL6GteSC2swpdWRmf7',
@@ -5518,7 +4606,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dexalot',
     symbol: 'alot',
     name: 'Dexalot',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       avalanche: '0x093783055f9047c2bff99c4e414501f8a147bc69',
     },
@@ -5528,7 +4616,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dexcheck',
     symbol: 'dck',
     name: 'DexCheck',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x16faf9daa401aa42506af503aa3d80b871c467a3',
       ethereum: '0x672f4fa517894496b8a958b4b3fca068ce513a39',
@@ -5539,7 +4627,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dexe',
     symbol: 'dexe',
     name: 'DeXe',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xde4ee8057785a7e8e800db58f9784845a5c2cbd6',
       'binance-smart-chain': '0x6e88056e8376ae7709496ba64d37fa2f8015ce3e',
@@ -5550,7 +4638,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dex-game',
     symbol: 'dxgm',
     name: 'DexGame',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x66f73d0fd4161cfad4302dc145ff994375c13475',
     },
@@ -5560,7 +4648,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dexkit',
     symbol: 'kit',
     name: 'DexKit',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7866e48c74cbfb8183cd1a929cd9b95a7a5cb4f4',
       'binance-smart-chain': '0x314593fa9a2fa16432913dbccc96104541d32d11',
@@ -5572,7 +4660,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dexlab',
     symbol: 'dxl',
     name: 'Dexlab',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'GsNzxJfFn6zQdJGeYsupJWzUAm57Ba7335mfhWvFiE9Z',
     },
@@ -5582,7 +4670,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dexpools',
     symbol: 'dxp',
     name: 'Dexpools',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x88aa4a6c5050b9a1b2aa7e34d0582025ca6ab745',
       'metis-andromeda': '0xa31848aa61f784cdbb6f74260d224a4356295799',
@@ -5593,7 +4681,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dextf',
     symbol: 'dextf',
     name: 'Domani Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5f64ab1544d28732f0a24f4713c2c8ec0da089f0',
       avalanche: '0x03e8d118a1864c7dc53bf91e007ab7d91f5a06fa',
@@ -5605,7 +4693,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dextools',
     symbol: 'dext',
     name: 'DexTools',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfb7b4564402e5500db5bb6d63ae671302777c75a',
       'binance-smart-chain': '0xe91a8d2c584ca93c7405f15c22cdfe53c29896e3',
@@ -5616,7 +4704,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dforce-token',
     symbol: 'df',
     name: 'dForce',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0',
       energi: '0xc588d81d1a9ef1a119446482fc7cbcdb0012292a',
@@ -5629,7 +4717,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dfx-finance',
     symbol: 'dfx',
     name: 'DFX Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x888888435fde8e7d4c54cab67f206e4199454c60',
       'arbitrum-one': '0x27f485b62c4a7e635f561a87560adf5090239e93',
@@ -5641,7 +4729,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dfyn-network',
     symbol: 'dfyn',
     name: 'Dfyn Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9695e0114e12c0d3a3636fab5a18e6b737529023',
       'polygon-pos': '0xc168e40227e4ebd8c1cae80f7a55a4f0e6d66c97',
@@ -5652,7 +4740,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dhedge-dao',
     symbol: 'dht',
     name: 'dHEDGE DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xca1207647ff814039530d7d35df0e1dd2e91fa84',
       'optimistic-ethereum': '0xaf9fe3b5ccdae78188b1f8b9a49da7ae9510f151',
@@ -5666,7 +4754,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'diamond-launch',
     symbol: 'dlc',
     name: 'Diamond Launch',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xde83180dd1166d4f8e5c2b7de14a2163b1bb4a87',
     },
@@ -5676,7 +4764,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'digibyte',
     symbol: 'dgb',
     name: 'DigiByte',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 306,
   },
@@ -5684,7 +4772,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'digitalbits',
     symbol: 'xdb',
     name: 'XDB CHAIN',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1289,
   },
@@ -5692,7 +4780,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'digix-gold',
     symbol: 'dgx',
     name: 'Digix Gold',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4f3afec4e5a3f2a6a1a411def7d7dfe50ee057bf',
     },
@@ -5702,7 +4790,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dimitra',
     symbol: 'dmtr',
     name: 'Dimitra',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x51cb253744189f11241becb29bedd3f1b5384fdb',
     },
@@ -5712,7 +4800,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dimo',
     symbol: 'dimo',
     name: 'DIMO',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       'polygon-pos': '0xe261d618a959afffd53168cd07d12e37b26761db',
       iotex: '0x61db9b084326d2251ccb0252c18fd9b0e887ca4f',
@@ -5724,7 +4812,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dingocoin',
     symbol: 'dingo',
     name: 'Dingocoin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: '6VYF5jXq6rfq4QRgGMG6co7b1Ev1Lj7KSbHBxfQ9e1L3',
       'binance-smart-chain': '0x9b208b117b2c4f76c1534b6f006b033220a681a4',
@@ -5735,7 +4823,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dinox',
     symbol: 'dnxc',
     name: 'DinoX',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x20a8cec5fffea65be7122bcab2ffe32ed4ebf03a',
       'polygon-pos': '0xcaf5191fc480f43e4df80106c7695eca56e48b18',
@@ -5747,7 +4835,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dione',
     symbol: 'dione',
     name: 'Dione',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x89b69f2d1adffa9a253d40840b6baa7fc903d697',
     },
@@ -5757,7 +4845,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'etherisc',
     symbol: 'dip',
     name: 'Etherisc DIP',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc719d010b63e5bbf2c0551872cd5316ed26acd83',
       xdai: '0x48b1b0d077b4919b65b4e4114806dd803901e1d9',
@@ -5768,7 +4856,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'district0x',
     symbol: 'dnt',
     name: 'district0x',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x0abdace70d3790235af448c88547603b945604ea',
       energi: '0x8dc6bb6ec3caddefb16b0317fa91217a7df93000',
@@ -5779,7 +4867,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'divergence-protocol',
     symbol: 'diver',
     name: 'Divergence Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfb782396c9b20e564a64896181c7ac8d8979d5f4',
     },
@@ -5789,7 +4877,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'diversified-staked-eth',
     symbol: 'dseth',
     name: 'Diversified Staked ETH',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x341c05c0e9b33c0e38d64de76516b2ce970bb3be',
     },
@@ -5799,7 +4887,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'divi',
     symbol: 'divi',
     name: 'Divi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x246908bff0b1ba6ecadcf57fb94f6ae2fcd43a77',
     },
@@ -5809,7 +4897,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'djed',
     symbol: 'djed',
     name: 'Djed',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cardano:
         '8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61446a65644d6963726f555344',
@@ -5820,7 +4908,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dkargo',
     symbol: 'dka',
     name: 'dKargo',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5dc60c4d5e75d22588fa17ffeb90a63e535efce0',
     },
@@ -5830,7 +4918,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dodo',
     symbol: 'dodo',
     name: 'DODO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd',
       energi: '0x4fec4e046e6b8de5d22785c3fbdb104f14f5a306',
@@ -5847,7 +4935,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dogami',
     symbol: 'doga',
     name: 'Dogami',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       tezos: 'KT1Ha4yFVeyzw6KRAdkzq6TxDHB97KG4pZe8',
       'polygon-pos': '0x2f3e306d9f02ee8e8850f9040404918d0b345207',
@@ -5858,7 +4946,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dogebonk',
     symbol: 'dobo',
     name: 'DogeBonk',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xae2df9f730c54400934c06a17462c41c08a06ed8',
     },
@@ -5868,7 +4956,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'doge-eat-doge',
     symbol: 'omnom',
     name: 'Doge Eat Doge',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       dogechain: '0xe3fca919883950c5cd468156392a6477ff5d18de',
     },
@@ -5878,7 +4966,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dogegf',
     symbol: 'dogegf',
     name: 'DogeGF',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xfb130d93e49dca13264344966a611dc79a456bc5',
       'polygon-pos': '0x0e7252706393470ffb0629da2caa39fc9340f2d4',
@@ -5889,7 +4977,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dogelon-mars',
     symbol: 'elon',
     name: 'Dogelon Mars',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3',
       fuse: '0x5dd8015cec49f4db01fd228f688bf30337d3e0a9',
@@ -5904,7 +4992,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dor',
     symbol: 'dor',
     name: 'Dor',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 2479,
   },
@@ -5912,7 +5000,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dola-borrowing-right',
     symbol: 'dbr',
     name: 'DOLA Borrowing Right',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xad038eb671c44b853887a7e32528fab35dc5d710',
     },
@@ -5922,7 +5010,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dola-usd',
     symbol: 'dola',
     name: 'DOLA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x865377367054516e17014ccded1e7d814edc9ce4',
       'optimistic-ethereum': '0x8ae125e8653821e851f12a49f7765db9a9ce7384',
@@ -5937,7 +5025,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'domi',
     symbol: 'domi',
     name: 'Domi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xbbca42c60b5290f2c48871a596492f93ff0ddc82',
       avalanche: '0xfc6da929c031162841370af240dec19099861d3b',
@@ -5949,7 +5037,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'don-t-buy-inu',
     symbol: 'dbi',
     name: "Don't Buy Inu",
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x2de509bf0014ddf697b220be628213034d320ece',
     },
@@ -5959,7 +5047,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'donut',
     symbol: 'donut',
     name: 'Donut',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xc0f9bd5fa5698b6505f643900ffa515ea5df54a9',
       xdai: '0x524b969793a64a602342d89bc2789d43a016b13a',
@@ -5970,7 +5058,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dope-wars-paper',
     symbol: 'paper',
     name: 'Dope Wars Paper',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7ae1d57b58fa6411f32948314badd83583ee0e8c',
       'optimistic-ethereum': '0x00f932f0fe257456b32deda4758922e56a4f4b42',
@@ -5981,7 +5069,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dopex',
     symbol: 'dpx',
     name: 'Dopex',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xeec2be5c91ae7f8a338e1e5f3b5de49d07afdc81',
       'arbitrum-one': '0x6c2c06790b3e3e3c38e12ee22f8183b37a13ee55',
@@ -5992,7 +5080,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dopex-rebate-token',
     symbol: 'rdpx',
     name: 'Dopex Rebate',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0ff5a8451a839f5f0bb3562689d9a44089738d11',
       'arbitrum-one': '0x32eb7902d4134bf98a28b963d26de779af92a212',
@@ -6003,7 +5091,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dora-factory-2',
     symbol: 'dora',
     name: 'Dora Factory',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x70b790d0948a760e80bc3f892b142f7779b538b2',
     },
@@ -6013,7 +5101,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dose-token',
     symbol: 'dose',
     name: 'DOSE',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb31ef9e52d94d4120eb44fe1ddfde5b4654a6515',
       'polygon-pos': '0x81382e9693de2afc33f69b70a6c12ca9b3a73f47',
@@ -6025,7 +5113,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dotmoovs',
     symbol: 'moov',
     name: 'dotmoovs',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x24ec2ca132abf8f6f8a6e24a1b97943e31f256a7',
       'binance-smart-chain': '0x0ebd9537a25f56713e34c45b38f421a1e7191469',
@@ -6037,7 +5125,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dragonchain',
     symbol: 'drgn',
     name: 'Dragonchain',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e',
     },
@@ -6047,7 +5135,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'joystream',
     symbol: 'joy',
     name: 'Joystream',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1212,
   },
@@ -6055,7 +5143,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'drep-new',
     symbol: 'drep',
     name: 'Drep',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x3ab6ed69ef663bd986ee59205ccad8a20f98b4c2',
       'binance-smart-chain': '0xec583f25a049cc145da9a256cdbe9b6201a705ff',
@@ -6066,7 +5154,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'drunk-robots',
     symbol: 'metal',
     name: 'Badmad Robots',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0x200c234721b5e549c3693ccc93cf191f90dc2af9',
       'binance-smart-chain': '0x200c234721b5e549c3693ccc93cf191f90dc2af9',
@@ -6077,7 +5165,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mixmarvel',
     symbol: 'mix',
     name: 'MixMarvel',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x5d285f735998f36631f678ff41fb56a10a4d0429',
       'binance-smart-chain': '0xcf1b55d79e824da0ae0652f96c66fe33263d743f',
@@ -6088,7 +5176,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dtravel',
     symbol: 'trvl',
     name: 'TRVL',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd47bdf574b4f76210ed503e0efe81b58aa061f3d',
       'binance-smart-chain': '0x6a8fd46f88dbd7bdc2d536c604f811c63052ce0f',
@@ -6099,7 +5187,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dua-token',
     symbol: 'dua',
     name: 'Brillion',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       avalanche: '0xb418417374fca27bb54169d3c777492e6fe17ee7',
       ethereum: '0x6c249b6f6492864d914361308601a7abb32e68f8',
@@ -6110,7 +5198,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dusk-network',
     symbol: 'dusk',
     name: 'Dusk',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x940a2db1b7008b6c776d4faaca729d6d4a4aa551',
       energi: '0x458a9f6a008055fd79f321ea7eb3f83a6cb326e2',
@@ -6121,7 +5209,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dust-protocol',
     symbol: 'dust',
     name: 'Dust Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb5b1b659da79a2507c27aad509f15b4874edc0cc',
       'polygon-pos': '0x4987a49c253c38b3259092e9aac10ec0c7ef7542',
@@ -6133,7 +5221,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dvision-network',
     symbol: 'dvi',
     name: 'Dvision Network',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x10633216e7e8281e33c86f02bf8e565a635d9770',
     },
@@ -6143,7 +5231,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'dydx-chain',
     symbol: 'dydx',
     name: 'dYdX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cosmos:
         'ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C',
@@ -6154,7 +5242,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hold-2',
     symbol: 'earn',
     name: 'HOLD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0b61c4f33bcdef83359ab97673cb5961c6435f4e',
       'binance-smart-chain': '0x2ac895feba458b42884dcbcb47d57e44c3a303c8',
@@ -6166,7 +5254,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ecash',
     symbol: 'xec',
     name: 'eCash',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 93,
   },
@@ -6174,7 +5262,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'echelon-prime',
     symbol: 'prime',
     name: 'Echelon Prime',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb23d80f5fefcddaa212212f028021b41ded428cf',
       base: '0xfa980ced6895ac314e7de34ef1bfae90a5add21b',
@@ -6185,7 +5273,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'eco',
     symbol: 'eco',
     name: 'ECO',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x8dbf9a4c99580fc7fd4024ee08f3994420035727',
     },
@@ -6195,7 +5283,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'evergrowcoin',
     symbol: 'egc',
     name: 'EverGrow Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xc001bbe2b87079294c63ece98bdd0a88d761434e',
     },
@@ -6205,7 +5293,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ecoin-2',
     symbol: 'ecoin',
     name: 'Ecoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'xdc-network': 'xdc536dd70445cea1e97f9bf1bada04cbda5199a2a1',
     },
@@ -6215,7 +5303,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ecomi',
     symbol: 'omi',
     name: 'ECOMI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xed35af169af46a02ee13b9d79eb57d6d68c1749e',
       energi: '0x003d765f3793de38ad5ea9d5fd0021cf12c3ba68',
@@ -6226,7 +5314,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ecox',
     symbol: 'ecox',
     name: 'ECOx',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xcccd1ba9f7acd6117834e0d28f25645decb1736a',
     },
@@ -6236,7 +5324,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'eden',
     symbol: 'eden',
     name: 'EDEN',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1559fa1b8f28238fd5d76d9f434ad86fd20d1559',
     },
@@ -6246,7 +5334,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'edge',
     symbol: 'edge',
     name: 'Edge',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4ec1b60b96193a64acae44778e51f7bff2007831',
     },
@@ -6256,7 +5344,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'edgeware',
     symbol: 'edg',
     name: 'Edgeware',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x4e0da40b9063dc48364c1c0ffb4ae9d091fc2270',
       'polygon-pos': '0x4e0da40b9063dc48364c1c0ffb4ae9d091fc2270',
@@ -6268,7 +5356,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'edu-coin',
     symbol: 'edu',
     name: 'Open Campus',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xbdeae1ca48894a1759a8374d63925f21f2ee2639',
       ethereum: '0x26aad156ba8efa501b32b42ffcdc8413f90e9c99',
@@ -6280,7 +5368,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'effect-network',
     symbol: 'efx',
     name: 'Effect Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1682,
   },
@@ -6288,7 +5376,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'efinity',
     symbol: 'efi',
     name: 'Efinity',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x656c00e1bcd96f256f224ad9112ff426ef053733',
     },
@@ -6298,7 +5386,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'paysenger-ego',
     symbol: 'ego',
     name: 'Paysenger EGO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1676,
   },
@@ -6317,7 +5405,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'electra-protocol',
     symbol: 'xep',
     name: 'Electra Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xb897d0a0f68800f8be7d69ffdd1c24b69f57bf3e',
     },
@@ -6327,7 +5415,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'electroneum',
     symbol: 'etn',
     name: 'Electroneum',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 476,
   },
@@ -6335,7 +5423,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'electronicgulden',
     symbol: 'efl',
     name: 'Electronic Gulden',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1956,
   },
@@ -6343,7 +5431,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'el-hippo',
     symbol: 'hipp',
     name: 'El Hippo',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x7b744eea1deca2f1b7b31f15ba036fa1759452d7',
     },
@@ -6353,7 +5441,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'elk-finance',
     symbol: 'elk',
     name: 'Elk Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       avalanche: '0xeeeeeb57642040be42185f49c52f7e9b38f8eeee',
       fantom: '0xeeeeeb57642040be42185f49c52f7e9b38f8eeee',
@@ -6373,7 +5461,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'elrond-erd-2',
     symbol: 'egld',
     name: 'MultiversX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 75,
   },
@@ -6381,7 +5469,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'elumia',
     symbol: 'elu',
     name: 'Elumia',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: '4tJZhSdGePuMEfZQ3h5LaHjTPsw1iWTRFTojnZcwsAU6',
     },
@@ -6391,7 +5479,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'elvishmagic',
     symbol: 'emagic',
     name: 'ElvishMagic',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xaf55e53cfa099a59aa30554fe106f33c47564a25',
     },
@@ -6401,7 +5489,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'elysia',
     symbol: 'el',
     name: 'ELYSIA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2781246fe707bb15cee3e5ea354e2154a2877b16',
     },
@@ -6411,7 +5499,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'eml-protocol',
     symbol: 'eml',
     name: 'EML Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x03dde9e5bb31ee40a471476e2fccf75c67921062',
     },
@@ -6421,7 +5509,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'e-money',
     symbol: 'ngm',
     name: 'e-Money',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xed0d5747a9ab03a75fbfec3228cd55848245b75d',
       osmosis:
@@ -6433,7 +5521,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'empyreal',
     symbol: 'emp',
     name: 'Empyreal',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x772598e9e62155d7fdfe65fdf01eb5a53a8465be',
       ethereum: '0x39d5313c3750140e5042887413ba8aa6145a9bd2',
@@ -6444,7 +5532,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'enigma',
     symbol: 'eng',
     name: 'Enigma',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4',
     },
@@ -6454,7 +5542,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'energi',
     symbol: 'nrg',
     name: 'Energi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1416946162b1c2c871a73b07e932d2fb6c932069',
     },
@@ -6464,7 +5552,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'energy-web-token',
     symbol: 'ewt',
     name: 'Energy Web',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       xdai: '0x6a8cb6714b1ee5b471a7d2ec4302cb4f5ff25ec2',
     },
@@ -6474,7 +5562,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'enjincoin',
     symbol: 'enj',
     name: 'Enjin Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c',
       energi: '0x204a90b57d15417864080df1cd6e907831c206a6',
@@ -6486,7 +5574,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'enjinstarter',
     symbol: 'ejs',
     name: 'Enjinstarter',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x96610186f3ab8d73ebee1cf950c750f3b1fb79c2',
       'binance-smart-chain': '0x09f423ac3c9babbff6f94d372b16e4206e71439f',
@@ -6497,7 +5585,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'enreachdao',
     symbol: 'nrch',
     name: 'Enreach',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x69fa8e7f6bf1ca1fb0de61e1366f7412b827cc51',
       'binance-smart-chain': '0x69fa8e7f6bf1ca1fb0de61e1366f7412b827cc51',
@@ -6508,7 +5596,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'entangle',
     symbol: 'ngl',
     name: 'Entangle',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x12652c6d93fdb6f4f37d48a8687783c782bb0d10',
     },
@@ -6518,7 +5606,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vigorus',
     symbol: 'vis',
     name: 'Vigorus',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0xcc1b9517460d8ae86fe576f614d091fca65a28fc',
     },
@@ -6528,7 +5616,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'epic-cash',
     symbol: 'epic',
     name: 'Epic Cash',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1924,
   },
@@ -6536,7 +5624,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'epik-prime',
     symbol: 'epik',
     name: 'Epik Prime',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4da0c48376c277cdbd7fc6fdc6936dee3e4adf75',
       'binance-smart-chain': '0x368ce786ea190f32439074e8d22e12ecb718b44c',
@@ -6547,7 +5635,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'eqifi',
     symbol: 'eqx',
     name: 'EQIFi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbd3de9a069648c84d27d74d701c9fa3253098b15',
       'binance-smart-chain': '0x436c52a8cee41d5e9c5e6f4cb146e66d552fb700',
@@ -6558,7 +5646,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'equalizer-dex',
     symbol: 'equal',
     name: 'Equalizer DEX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       fantom: '0x3fd3a0c85b70754efc07ac9ac0cbbdce664865a6',
     },
@@ -6568,7 +5656,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'equation',
     symbol: 'equ',
     name: 'Equation',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'arbitrum-one': '0x87aaffdf26c6885f6010219208d5b161ec7609c0',
     },
@@ -6578,7 +5666,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'equilibria-finance',
     symbol: 'eqb',
     name: 'Equilibria Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0xbfbcfe8873fe28dfa25f1099282b088d52bbad9c',
       ethereum: '0xfe80d611c6403f70e5b1b9b722d2b3510b740b2b',
@@ -6590,7 +5678,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'equilibrium-eosdt',
     symbol: 'eosdt',
     name: 'Equilibrium EOSDT',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {},
     marketCapRank: 2390,
   },
@@ -6598,7 +5686,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'e-radix',
     symbol: 'exrd',
     name: 'e-Radix',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6468e79a80c0eab0f9a2b574c8d5bc374af59414',
     },
@@ -6608,7 +5696,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'era-swap-token',
     symbol: 'es',
     name: 'Era Swap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x72108a8cc3254813c6be2f1b77be53e185abfdd9',
     },
@@ -6618,7 +5706,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ergo',
     symbol: 'erg',
     name: 'Ergo',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {},
     marketCapRank: 418,
   },
@@ -6626,7 +5714,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ertha',
     symbol: 'ertha',
     name: 'Ertha',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x62823659d09f9f9d2222058878f89437425eb261',
     },
@@ -6636,7 +5724,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'morpheus-labs',
     symbol: 'mind',
     name: 'Morpheus Labs',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc9eb61ffb66d5815d643bbb8195e17c49687ae1e',
       'polygon-pos': '0x280053c54006a624c26989cb8354fa4cb86f14d1',
@@ -6647,7 +5735,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ethereans',
     symbol: 'os',
     name: 'Ethereans',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6100dd79fcaa88420750dcee3f735d168abcb771',
       'optimistic-ethereum': '0x6af3cb766d6cd37449bfd321d961a61b0515c1bc',
@@ -6658,7 +5746,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'etherempires',
     symbol: 'ete',
     name: 'Etherempires',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd27b128dc6536309cdebf7f1aff0cb7717bc0268',
     },
@@ -6668,7 +5756,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ethereum-classic',
     symbol: 'etc',
     name: 'Ethereum Classic',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 29,
   },
@@ -6676,7 +5764,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ethereum-meta',
     symbol: 'ethm',
     name: 'Ethereum Meta',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfd957f21bd95e723645c07c48a2d8acb8ffb3794',
       'binance-smart-chain': '0x0b33542240d6fa323c796749f6d6869fdb7f13ca',
@@ -6688,7 +5776,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ethereum-name-service',
     symbol: 'ens',
     name: 'Ethereum Name Service',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc18360217d8f7ab5e7c516566761ea12ce7f9d72',
     },
@@ -6698,7 +5786,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ethereum-pow-iou',
     symbol: 'ethw',
     name: 'EthereumPoW',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 188,
   },
@@ -6706,7 +5794,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ethereum-push-notification-service',
     symbol: 'push',
     name: 'Push Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf418588522d5dd018b425e472991e52ebbeeeeee',
       'polygon-pos': '0x58001cc1a9e17a20935079ab40b1b8f4fc19efd1',
@@ -6717,7 +5805,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'etherland',
     symbol: 'eland',
     name: 'Etherland',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x33e07f5055173cf8febede8b21b12d1e2b523205',
       'polygon-pos': '0xb0f61c597bbcc29f3f38396b01f9c0f0c2e8bff0',
@@ -6729,7 +5817,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ethernity-chain',
     symbol: 'ern',
     name: 'Ethernity Chain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbbc2ae13b23d715c30720f079fcd9b4a74093505',
     },
@@ -6739,7 +5827,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ethichub',
     symbol: 'ethix',
     name: 'Ethix',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfd09911130e6930bf87f2b0554c44f400bd80d3e',
       xdai: '0xec3f3e6d7907acda3a7431abd230196cda3fbb19',
@@ -6751,7 +5839,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ethos',
     symbol: 'vgx',
     name: 'Voyager VGX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3c4b6e6e1ea3d4863700d7f76b36b7f3d3f13e3d',
       energi: '0xad3eac6a2ef827833880a10592c6e46605e4f9d6',
@@ -6762,7 +5850,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'etica',
     symbol: 'eti',
     name: 'Etica',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2646,
   },
@@ -6770,7 +5858,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'euler',
     symbol: 'eul',
     name: 'Euler',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd9fcd98c322942075a5c3860693e9f4f03aae07b',
     },
@@ -6780,7 +5868,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'euno',
     symbol: 'euno',
     name: 'EUNO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2340,
   },
@@ -6788,7 +5876,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'euroe-stablecoin',
     symbol: 'euroe',
     name: 'EUROe Stablecoin',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x820802fa8a99901f52e39acd21177b0be6ee2974',
       avalanche: '0x820802fa8a99901f52e39acd21177b0be6ee2974',
@@ -6803,7 +5891,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'eve-ai',
     symbol: 'eveai',
     name: 'Eve AI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x05fe069626543842439ef90d9fa1633640c50cf1',
     },
@@ -6813,7 +5901,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'everdome',
     symbol: 'dome',
     name: 'Everdome',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x475bfaa1848591ae0e6ab69600f48d828f61a80e',
     },
@@ -6823,7 +5911,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'space-id',
     symbol: 'id',
     name: 'SPACE ID',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x2dff88a56767223a5529ea5960da7a3f5f766406',
       ethereum: '0x2dff88a56767223a5529ea5960da7a3f5f766406',
@@ -6834,7 +5922,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'everipedia',
     symbol: 'iq',
     name: 'IQ',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x579cea1889991f68acc35ff5c3dd0621ff29b0c9',
       'polygon-pos': '0xb9638272ad6998708de56bbc0a290a1de534a578',
@@ -6846,7 +5934,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'everrise',
     symbol: 'rise',
     name: 'EverRise',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xc17c30e98541188614df99239cabd40280810ca3',
       avalanche: '0xc17c30e98541188614df99239cabd40280810ca3',
@@ -6860,7 +5948,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'everscale',
     symbol: 'ever',
     name: 'Everscale',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1ffefd8036409cb6d652bd610de465933b226917',
     },
@@ -6870,7 +5958,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'everton-fan-token',
     symbol: 'efc',
     name: 'Everton Fan Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       chiliz: '0xabee61f8ff0eadd8d4ee87092792aaf2d9b2ca8e',
     },
@@ -6880,7 +5968,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'holdstation',
     symbol: 'hold',
     name: 'Holdstation',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       zksync: '0xed4040fd47629e7c8fbb7da76bb50b3e7695f0f2',
     },
@@ -6890,7 +5978,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'evmos',
     symbol: 'evmos',
     name: 'Evmos',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       evmos: '0xd4949664cd82660aae99bedc034a0dea8a0bd517',
       ethereum: '0x93581991f68dbae1ea105233b67f7fa0d6bdee7b',
@@ -6901,7 +5989,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'exorde',
     symbol: 'exd',
     name: 'Exorde',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x02de007d412266a2e0fa9287c103474170f06560',
     },
@@ -6911,7 +5999,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'exosama-network',
     symbol: 'sama',
     name: 'Moonsama',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe04f47ff45576249bc5083dfdf987e03d0550113',
       exosama: '0x8c992cba48189a79204223d106fcb1d797a5f87a',
@@ -6922,7 +6010,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'extra-finance',
     symbol: 'extra',
     name: 'Extra Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'optimistic-ethereum': '0x2dad3a13ef0c6366220f989157009e501e7938f8',
       base: '0x2dad3a13ef0c6366220f989157009e501e7938f8',
@@ -6933,7 +6021,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fable-of-the-dragon',
     symbol: 'tyrant',
     name: 'Fable Of The Dragon',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x8ee325ae3e54e83956ef2d5952d3c8bc1fa6ec27',
     },
@@ -6943,7 +6031,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fabwelt',
     symbol: 'welt',
     name: 'Fabwelt',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x23e8b6a3f6891254988b84da3738d2bfe5e703b9',
       'binance-smart-chain': '0x1785113910847770290f5f840b4c74fc46451201',
@@ -6954,7 +6042,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'factor',
     symbol: 'fctr',
     name: 'FactorDAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x6dd963c510c2d2f09d5eddb48ede45fed063eb36',
     },
@@ -6964,7 +6052,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'feathercoin',
     symbol: 'ftc',
     name: 'Feathercoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2570,
   },
@@ -6972,7 +6060,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fantom',
     symbol: 'ftm',
     name: 'Fantom',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 51,
   },
@@ -6980,7 +6068,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'faraland',
     symbol: 'fara',
     name: 'FaraLand',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xf4ed363144981d3a65f42e7d0dc54ff9eef559a1',
     },
@@ -6990,7 +6078,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'harvest-finance',
     symbol: 'farm',
     name: 'Harvest Finance',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xa0246c9032bc3a600820415ae600c6388619a14d',
       energi: '0xc59a4b20ea0f8a7e6e216e7f1b070247520a4514',
@@ -7002,7 +6090,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fasttoken',
     symbol: 'ftn',
     name: 'Fasttoken',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaedf386b755465871ff874e3e37af5976e247064',
     },
@@ -7012,7 +6100,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fear',
     symbol: 'fear',
     name: 'FEAR',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x88a9a52f944315d5b4e917b9689e65445c401e83',
       'polygon-pos': '0xa2ca40dbe72028d3ac78b5250a8cb8c404e7fb8c',
@@ -7025,7 +6113,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fedoracoin',
     symbol: 'tips',
     name: 'Fedoracoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2101,
   },
@@ -7033,7 +6121,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'feg-bsc',
     symbol: 'feg',
     name: 'FEG BSC',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xbededdf2ef49e87037c4fb2ca34d1ff3d3992a11',
     },
@@ -7043,7 +6131,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'feisty-doge-nft',
     symbol: 'nfd',
     name: 'Feisty Doge NFT',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xdfdb7f72c1f195c5951a234e8db9806eb0635346',
     },
@@ -7053,7 +6141,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fei-usd',
     symbol: 'fei',
     name: 'Fei USD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x956f47f50a910163d8bf957cf5846d573e7f87ca',
     },
@@ -7063,7 +6151,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'flux-token',
     symbol: 'flx',
     name: 'SEDA Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3ea8ea4237344c9931214796d9417af1a1180770',
       aurora: '0xea62791aa682d455614eaa2a12ba3d9a2fd197af',
@@ -7074,7 +6162,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ferro',
     symbol: 'fer',
     name: 'Ferro',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cronos: '0x39bc1e38c842c60775ce37566d03b41a7a66c782',
       ethereum: '0x2f32b39023da7d6a6486a85d12b346eb9c2a0d19',
@@ -7085,7 +6173,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ferrum-network',
     symbol: 'frm',
     name: 'Ferrum Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe5caef4af8780e59df925470b050fb23c43ca68c',
       energi: '0xee0837e18f64ec6cf3bece2da75a1e5f679a6d84',
@@ -7100,7 +6188,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fetch-ai',
     symbol: 'fet',
     name: 'Fetch.ai',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaea46a60368a7bd060eec7df8cba43b7ef41ad85',
       'binance-smart-chain': '0x031b41e504677879370e9dbcf937283a8691fa7f',
@@ -7113,7 +6201,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'findora',
     symbol: 'fra',
     name: 'Fractal',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       findora: '0x0000000000000000000000000000000000001000',
     },
@@ -7123,7 +6211,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fio-protocol',
     symbol: 'fio',
     name: 'FIO Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 907,
   },
@@ -7131,7 +6219,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'firestarter',
     symbol: 'flame',
     name: 'FireStarter',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       'polygon-pos': '0x22e3f02f86bc8ea0d73718a2ae8851854e62adc5',
     },
@@ -7141,7 +6229,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'firmachain',
     symbol: 'fct',
     name: 'Firmachain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe1bad922f84b198a08292fb600319300ae32471b',
     },
@@ -7151,7 +6239,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'first-digital-usd',
     symbol: 'fdusd',
     name: 'First Digital USD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc5f0f7b66764f6ec8c8dff7ba683102295e16409',
       'binance-smart-chain': '0xc5f0f7b66764f6ec8c8dff7ba683102295e16409',
@@ -7162,7 +6250,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'koinos',
     symbol: 'koin',
     name: 'Koinos',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 882,
   },
@@ -7170,7 +6258,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'flamingo-finance',
     symbol: 'flm',
     name: 'Flamingo Finance',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 611,
   },
@@ -7178,7 +6266,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'flare-networks',
     symbol: 'flr',
     name: 'Flare',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 94,
   },
@@ -7186,7 +6274,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'flatqube',
     symbol: 'qube',
     name: 'FlatQube',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       everscale:
         '0:9f20666ce123602fd7a995508aeaa0ece4f92133503c0dfbd609b3239f3901e2',
@@ -7197,7 +6285,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'flex-coin',
     symbol: 'flex',
     name: 'FLEX Coin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xfcf8eda095e37a41e002e266daad7efc1579bc0a',
       smartbch: '0x98dd7ec28fb43b3c4c770ae532417015fa939dd3',
@@ -7208,7 +6296,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'flits',
     symbol: 'fls',
     name: 'Flits',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2886,
   },
@@ -7216,7 +6304,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'floordao',
     symbol: 'floor',
     name: 'FloorDAO (Old)',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf59257e961883636290411c11ec5ae622d19455e',
     },
@@ -7226,7 +6314,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'flow',
     symbol: 'flow',
     name: 'Flow',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 64,
   },
@@ -7234,7 +6322,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fluid-2',
     symbol: 'fluid',
     name: 'Fluid',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4e47951508fd4a4126f8ff9cf5e6fa3b7cc8e073',
       'arbitrum-one': '0x4e47951508fd4a4126f8ff9cf5e6fa3b7cc8e073',
@@ -7245,7 +6333,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zelcash',
     symbol: 'flux',
     name: 'Flux',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 204,
   },
@@ -7253,7 +6341,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'foam-protocol',
     symbol: 'foam',
     name: 'FOAM',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x4946fcea7c692606e8908002e55a582af44ac121',
     },
@@ -7263,7 +6351,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'foom',
     symbol: 'foom',
     name: 'Foom',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xd0d56273290d339aaf1417d9bfa1bb8cfe8a0933',
     },
@@ -7273,7 +6361,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'force-protocol',
     symbol: 'for',
     name: 'ForTube',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1fcdce58959f536621d76f5b7ffb955baa5a672f',
       'binance-smart-chain': '0x658a109c5900bc6d2357c87549b651670e5b0539',
@@ -7284,7 +6372,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fore-protocol',
     symbol: 'fore',
     name: 'FORE Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0xcbe94d75ec713b7ead84f55620dc3174beeb1cfe',
       ethereum: '0xb2ee0adbe0ef1281025d0676511bb1df14600f4d',
@@ -7295,7 +6383,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'the-4th-pillar',
     symbol: 'four',
     name: 'FOUR',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4730fb1463a6f1f44aeb45f6c5c422427f37f4d0',
       'binance-smart-chain': '0xd882739fca9cbae00f3821c4c65189e2d7e26147',
@@ -7308,7 +6396,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'frax',
     symbol: 'frax',
     name: 'Frax',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x853d955acef822db058eb8505911ed77f175b99e',
       moonbeam: '0x322e86852e492a7ee17f28a78c663da38fb33bfb',
@@ -7344,7 +6432,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'frax-share',
     symbol: 'fxs',
     name: 'Frax Share',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0',
       fantom: '0x7d016eec9c25232b01f23ef992d98ca97fc2af5a',
@@ -7364,7 +6452,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'freedom-coin',
     symbol: 'free',
     name: 'FREEdom coin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x2f141ce366a2462f02cea3d12cf93e4dca49e4fd',
       'binance-smart-chain': '0x12e34cdf6a031a10fe241864c32fb03a4fdad739',
@@ -7375,7 +6463,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'friends-with-benefits-pro',
     symbol: 'fwb',
     name: 'Friends With Benefits Pro',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x35bd01fc9d6d5d81ca9e055db88dc49aa2c699a8',
     },
@@ -7385,7 +6473,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fringe-finance',
     symbol: 'frin',
     name: 'Fringe Finance',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xc9fe6e1c76210be83dc1b5b20ec7fd010b0b1d15',
     },
@@ -7395,7 +6483,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'frontier-token',
     symbol: 'front',
     name: 'Frontier',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xf8c3527cc04340b208c854e985240c02f7b7793f',
       'harmony-shard-0': '0x1ee5839950fd7a227f91cf679b1931dd6f5798b3',
@@ -7408,7 +6496,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fsn',
     symbol: 'fsn',
     name: 'FUSION',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x979aca85ba37c675e78322ed5d97fa980b9bdf00',
       'binance-smart-chain': '0xfa4fa764f15d0f6e20aaec8e0d696870e5b77c6e',
@@ -7424,7 +6512,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'funfair',
     symbol: 'fun',
     name: 'FUNToken',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x419d0d8bdd9af5e606ae2232ed285aff190e711b',
       energi: '0x04cd06cf05b816f09395375f0143584b4a95ea9f',
@@ -7435,7 +6523,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'volt-inu-2',
     symbol: 'volt',
     name: 'Volt Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x7f792db54b0e580cdc755178443f0430cf799aca',
       'polygon-pos': '0x7f792db54b0e580cdc755178443f0430cf799aca',
@@ -7447,7 +6535,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fuse-network-token',
     symbol: 'fuse',
     name: 'Fuse',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d',
       'optimistic-ethereum': '0xe453d6649643f1f460c371dc3d1da98f7922fe51',
@@ -7462,7 +6550,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'futurecoin',
     symbol: 'future',
     name: 'FutureCoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x9fbff386a9405b4c98329824418ec02b5c20976b',
     },
@@ -7472,7 +6560,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'fx-coin',
     symbol: 'fx',
     name: 'Function X',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8c15ef5b4b21951d50e53e4fbda8298ffad25057',
     },
@@ -7482,7 +6570,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gains',
     symbol: 'gains',
     name: 'Gains',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x056c1d42fb1326f57da7f19ebb7dda4673f1ff55',
       'binance-smart-chain': '0xf1c3e69494e27bf067c4076a6f244a46446719d6',
@@ -7493,7 +6581,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gains-network',
     symbol: 'gns',
     name: 'Gains Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xe5417af564e4bfda1c483642db72007871397896',
       'arbitrum-one': '0x18c11fd286c5ec11c3b683caa813b77f5163a122',
@@ -7504,7 +6592,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gala',
     symbol: 'gala',
     name: 'GALA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd1d2eb1b1e90b638588728b4130137d262c87cae',
     },
@@ -7514,7 +6602,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gala-music',
     symbol: 'music',
     name: 'Gala Music',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd8c0b13b551718b808fc97ead59499d5ef862775',
     },
@@ -7524,7 +6612,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'project-galaxy',
     symbol: 'gal',
     name: 'Galxe',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x5faa989af96af85384b8a938c2ede4a7378d9875',
       'binance-smart-chain': '0xe4cc45bb5dbda06db6183e8bf016569f40497aa5',
@@ -7535,7 +6623,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'galaxia',
     symbol: 'gxa',
     name: 'Galaxia',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'klay-token': '0xa80e96cceb1419f9bd9f1c67f7978f51b534a11b',
     },
@@ -7545,7 +6633,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'galaxy-fight-club',
     symbol: 'gcoin',
     name: 'Galaxy Fight Club',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       'polygon-pos': '0x071ac29d569a47ebffb9e57517f855cb577dcc4c',
     },
@@ -7555,7 +6643,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'galeon',
     symbol: 'galeon',
     name: 'Galeon',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x1d0ac23f03870f768ca005c84cbb6fb82aa884fd',
     },
@@ -7565,7 +6653,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gitcoin',
     symbol: 'gtc',
     name: 'Gitcoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xde30da39c46104798bb5aa3fe8b9e0e1f348163f',
       'near-protocol':
@@ -7577,7 +6665,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gamestarter',
     symbol: 'game',
     name: 'Gamestarter',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd567b5f02b9073ad3a982a099a23bf019ff11d1c',
       'binance-smart-chain': '0x66109633715d2110dda791e64a7b2afadb517abb',
@@ -7588,7 +6676,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gameai',
     symbol: 'gat',
     name: 'GameAI',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xdacd068618fcdb358f8951eca2af3e2d7e7555c6',
     },
@@ -7598,7 +6686,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gamee',
     symbol: 'gmee',
     name: 'GAMEE',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd9016a907dc0ecfa3ca425ab20b6b785b42f2373',
       'the-open-network': 'EQCqnhZndBGbwjPpV8K_8WOK58ZkQPXlS_bshau9DKWnAF-p',
@@ -7610,7 +6698,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gifto',
     symbol: 'gft',
     name: 'Gifto',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x72ff5742319ef07061836f5c924ac6d72c919080',
     },
@@ -7620,7 +6708,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gamefi',
     symbol: 'gafi',
     name: 'GameFi.org',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x89af13a10b32f1b2f8d1588f93027f69b6f4e27e',
     },
@@ -7630,7 +6718,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gamercoin',
     symbol: 'ghx',
     name: 'GamerCoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x728f30fa2f100742c7949d1961804fa8e0b1387d',
       'binance-smart-chain': '0xbd7b8e4de08d9b01938f7ff2058f110ee1e0e8d4',
@@ -7641,7 +6729,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'games-for-a-living',
     symbol: 'gfal',
     name: 'Games for a Living',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x47c454ca6be2f6def6f32b638c80f91c9c3c5949',
     },
@@ -7651,7 +6739,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gamespad',
     symbol: 'gmpd',
     name: 'GamesPad',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x9720ca160bbd4e7f3dd4bb3f8bd4227ca0342e63',
     },
@@ -7661,7 +6749,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gameswap-org',
     symbol: 'gswap',
     name: 'Gameswap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaac41ec512808d64625576eddd580e7ea40ef8b2',
     },
@@ -7671,7 +6759,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gameswift',
     symbol: 'gswift',
     name: 'GameSwift',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x580e933d90091b9ce380740e3a4a39c67eb85b4c',
       ethereum: '0x580e933d90091b9ce380740e3a4a39c67eb85b4c',
@@ -7682,7 +6770,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gamezone',
     symbol: 'gzone',
     name: 'GameZone',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xb6adb74efb5801160ff749b1985fd3bd5000e938',
     },
@@ -7692,7 +6780,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gami-world',
     symbol: 'gami',
     name: 'GAMI World',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x1236a887ef31b4d32e1f0a2b5e4531f52cec7e75',
     },
@@ -7713,7 +6801,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gamma-strategies',
     symbol: 'gamma',
     name: 'Gamma Strategies',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6bea7cfef803d1e3d5f7c0103f7ded065644e197',
     },
@@ -7723,7 +6811,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gari-network',
     symbol: 'gari',
     name: 'Gari Network',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: 'CKaKtYvz6dKPyMvYq9Rh3UBrnNqYZAyd7iF4hJtjUvks',
     },
@@ -7733,7 +6821,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gas',
     symbol: 'gas',
     name: 'Gas',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       neo: '602c79718b16e442de58778e148d0b1084e3b2dffd5de6b7b16cee7969282de7',
     },
@@ -7743,7 +6831,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gatechain-token',
     symbol: 'gt',
     name: 'Gate',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe66747a101bff2dba3697199dcce5b743b454759',
     },
@@ -7753,7 +6841,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gogopool',
     symbol: 'ggp',
     name: 'GoGoPool',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       avalanche: '0x69260b9483f9871ca57f81a90d91e2f96c2cd11d',
     },
@@ -7763,7 +6851,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'geeq',
     symbol: 'geeq',
     name: 'GEEQ',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6b9f031d718dded0d681c20cb754f97b3bb81b78',
     },
@@ -7773,7 +6861,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gelato',
     symbol: 'gel',
     name: 'Gelato',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x15b7c0c907e4c6b9adaaaabc300c08991d6cea05',
       fantom: '0x15b7c0c907e4c6b9adaaaabc300c08991d6cea05',
@@ -7785,7 +6873,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gemhub',
     symbol: 'ghub',
     name: 'GemHUB',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'klay-token': '0x4836cc1f355bb2a61c210eaa0cd3f729160cd95e',
     },
@@ -7795,7 +6883,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gemini-dollar',
     symbol: 'gusd',
     name: 'Gemini Dollar',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x056fd409e1d7a124bd7017459dfea2f387b6d5cd',
       'near-protocol':
@@ -7807,7 +6895,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gemlink',
     symbol: 'glink',
     name: 'GemLink',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x0ee7292bd28f4a490f849fb30c28cabab9440f9e',
     },
@@ -7817,7 +6905,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'generaitiv',
     symbol: 'gai',
     name: 'Generaitiv',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0d8ca4b20b115d4da5c13dc45dd582a5de3e78bf',
     },
@@ -7827,7 +6915,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'genesysgo-shadow',
     symbol: 'shdw',
     name: 'Shadow Token',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: 'SHDWyBxihqiCj6YekG2GUr7wqKLeLAMK1gHZck9pL6y',
     },
@@ -7837,7 +6925,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'genius',
     symbol: 'geni',
     name: 'Genius',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x444444444444c1a66f394025ac839a535246fcc8',
       avalanche: '0x444444444444c1a66f394025ac839a535246fcc8',
@@ -7850,7 +6938,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gensokishis-metaverse',
     symbol: 'mv',
     name: 'GensoKishi Metaverse',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0xa3c322ad15218fbfaed26ba7f616249f7705d945',
       ethereum: '0xae788f80f2756a86aa2f410c651f2af83639b95b',
@@ -7861,7 +6949,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'geodnet',
     symbol: 'geod',
     name: 'Geodnet',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xac0f66379a6d7801d7726d5a943356a172549adb',
     },
@@ -7871,7 +6959,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'geojam',
     symbol: 'jam',
     name: 'Geojam',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x23894dc9da6c94ecb439911caf7d337746575a72',
     },
@@ -7881,7 +6969,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'getkicks',
     symbol: 'kicks',
     name: 'GetKicks',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xfeb4e9b932ef708c498cc997abe51d0ee39300cf',
     },
@@ -7891,7 +6979,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'get-token',
     symbol: 'get',
     name: 'GET Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8a854288a5976036a725879164ca3e91d30c6a1b',
       'polygon-pos': '0xdb725f82818de83e99f1dac22a9b5b51d3d04dd4',
@@ -7912,7 +7000,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gho',
     symbol: 'gho',
     name: 'GHO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f',
     },
@@ -7922,7 +7010,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'giveth',
     symbol: 'giv',
     name: 'Giveth',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x900db999074d9277c5da2a43f252d74366230da0',
       xdai: '0x4f4f9b8d5b4d0dc10506e5551b0513b61fd59e75',
@@ -7933,7 +7021,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gleec-coin',
     symbol: 'gleec',
     name: 'Gleec Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2201,
   },
@@ -7941,7 +7029,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'global-coin-research',
     symbol: 'gcr',
     name: 'Global Coin Research',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6307b25a665efc992ec1c1bc403c38f3ddd7c661',
       'polygon-pos': '0xa69d14d6369e414a32a5c7e729b7afbafd285965',
@@ -7952,7 +7040,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'global-digital-cluster-co',
     symbol: 'gdcc',
     name: 'Global Digital Cluster Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2163,
   },
@@ -7960,7 +7048,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'globiance-exchange',
     symbol: 'gbex',
     name: 'Globiance Exchange',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'xdc-network': 'xdc34514748f86a8da01ef082306b6d6e738f777f5a',
     },
@@ -7970,7 +7058,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gmx',
     symbol: 'gmx',
     name: 'GMX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a',
       avalanche: '0x62edc0692bd897d2295872a9ffcac5425011c661',
@@ -7981,7 +7069,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gnosis',
     symbol: 'gno',
     name: 'Gnosis',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6810e776880c02933d47db1b9fc05908e5386b96',
       energi: '0xf452bff8e958c6f335f06fc3aac427ee195366fe',
@@ -7994,7 +7082,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gny',
     symbol: 'gny',
     name: 'GNY',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb1f871ae9462f1b2c6826e88a7827e76f86751d4',
     },
@@ -8004,7 +7092,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gochain',
     symbol: 'go',
     name: 'GoChain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1557,
   },
@@ -8012,7 +7100,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gods-unchained',
     symbol: 'gods',
     name: 'Gods Unchained',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xccc8cb5229b0ac8069c51fd58367fd1e622afd97',
     },
@@ -8022,7 +7110,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'goldcoin',
     symbol: 'glc',
     name: 'Goldcoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1467,
   },
@@ -8030,7 +7118,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'golden-inu-token',
     symbol: 'golden',
     name: 'Golden Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xd87996ff3d06858bfc20989aef50cc5fcd4d84ca',
     },
@@ -8040,7 +7128,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'golem',
     symbol: 'glm',
     name: 'Golem',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429',
       energi: '0xf3ff3bf1d1afcbebd98a304482c4099dc953e9a8',
@@ -8051,7 +7139,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'good-games-guild',
     symbol: 'ggg',
     name: 'Good Games Guild',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xd8047afecb86e44eff3add991b9f063ed4ca716b',
     },
@@ -8061,7 +7149,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'good-person-coin',
     symbol: 'gpcx',
     name: 'Good Person Coin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 1785,
   },
@@ -8069,7 +7157,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'goons-of-balatroon',
     symbol: 'gob',
     name: 'Goons of Balatroon',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'arbitrum-one': '0xa2f9ecf83a48b86265ff5fd36cdbaaa1f349916c',
       beam: '0x7fb5a9921cf98362aa425e42f66bf3484c2c2b5f',
@@ -8081,7 +7169,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'goosefx',
     symbol: 'gofx',
     name: 'GooseFX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'GFX1ZjR2P15tmrSwow6FjyDYcEkoFb4p4gJCpLBjaxHD',
     },
@@ -8091,7 +7179,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'goracle-network',
     symbol: 'gora',
     name: 'Gora',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       algorand: '1138500612',
     },
@@ -8101,7 +7189,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gorilla',
     symbol: 'gorilla',
     name: 'Gorilla',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x33c04bed4533e31f2afb8ac4a61a48eda38c4fa0',
     },
@@ -8111,7 +7199,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'governance-zil',
     symbol: 'gzil',
     name: 'governance ZIL',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1970,
   },
@@ -8119,7 +7207,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'govi',
     symbol: 'govi',
     name: 'CVI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xeeaa40b28a2d1b0b08f6f97bb1dd4b75316c6107',
       zksync: '0xd63ef5e9c628c8a0e8984cdfb7444aee44b09044',
@@ -8132,7 +7220,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'goztepe-s-k-fan-token',
     symbol: 'goz',
     name: 'Göztepe S.K. Fan Token',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       chiliz: '0x0e469d1c78421c7952e4d9626800dad22f45361d',
     },
@@ -8142,7 +7230,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'grai',
     symbol: 'grai',
     name: 'Grai',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x15f74458ae0bfdaa1a96ca1aa779d715cc1eefe4',
       'arbitrum-one': '0x894134a25a5fac1c2c26f1d8fbf05111a3cb9487',
@@ -8154,7 +7242,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'granary',
     symbol: 'grain',
     name: 'Granary',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf88baf18fab7e330fa0c4f83949e23f52fececce',
       fantom: '0x02838746d9e1413e07ee064fcbada57055417f21',
@@ -8169,7 +7257,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'graphlinq-protocol',
     symbol: 'glq',
     name: 'GraphLinq Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24',
     },
@@ -8179,7 +7267,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'graviton',
     symbol: 'grav',
     name: 'Graviton',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'gravity-bridge': 'ugraviton',
       osmosis:
@@ -8198,7 +7286,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gridcoin-research',
     symbol: 'grc',
     name: 'Gridcoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1980,
   },
@@ -8206,7 +7294,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'grin',
     symbol: 'grin',
     name: 'Grin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1487,
   },
@@ -8214,7 +7302,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'grizzly-honey',
     symbol: 'ghny',
     name: 'Grizzly Honey',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xa045e37a0d1dd3a45fefb8803d22457abc0a728a',
     },
@@ -8232,7 +7320,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'grove',
     symbol: 'grv',
     name: 'GroveCoin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xf33893de6eb6ae9a67442e066ae9abd228f5290c',
       ethereum: '0xf33893de6eb6ae9a67442e066ae9abd228f5290c',
@@ -8243,7 +7331,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gsenetwork',
     symbol: 'gse',
     name: 'GSENetwork',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe530441f4f73bdb6dc2fa5af7c3fc5fd551ec838',
     },
@@ -8263,7 +7351,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gulfcoin-2',
     symbol: 'gulf',
     name: 'GulfCoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x7597bdccf10e41bccc374a6a0104cf430c420884',
     },
@@ -8273,7 +7361,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gunstar-metaverse',
     symbol: 'gsts',
     name: 'Gunstar Metaverse',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x7edc0ec89f987ecd85617b891c44fe462a325869',
     },
@@ -8283,7 +7371,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gxchain',
     symbol: 'gxc',
     name: 'GXChain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 756,
   },
@@ -8291,7 +7379,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gyen',
     symbol: 'gyen',
     name: 'GYEN',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc08512927d12348f6620a698105e1baac6ecd911',
       stellar: 'GYEN:GDF6VOEGRWLOZ64PQQGKD2IYWA22RLT37GJKS2EJXZHT2VLAGWLC5TOB',
@@ -8304,7 +7392,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'gym-network',
     symbol: 'gymnet',
     name: 'Gym Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x0012365f0a1e5f30a5046c680dcb21d07b15fcf7',
     },
@@ -8314,7 +7402,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'h2o-dao',
     symbol: 'h2o',
     name: 'H2O Dao',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xaf3287cae99c982586c07401c0d911bf7de6cd82',
     },
@@ -8324,7 +7412,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hackenai',
     symbol: 'hai',
     name: 'Hacken',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xaa9e582e5751d703f85912903bacaddfed26484c',
       ethereum: '0x05fb86775fd5c16290f1e838f5caaa7342bd9a63',
@@ -8336,7 +7424,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hairdao',
     symbol: 'hair',
     name: 'HairDAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9ce115f0341ae5dabc8b477b74e83db2018a6f42',
     },
@@ -8346,7 +7434,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pizabrc',
     symbol: 'piza',
     name: 'PIZA (Ordinals)',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ordinals:
         'c0dd0bc7d0620a02cfedc57a280cfd79823bc754623f9318d9755bcd3b131d14i0',
@@ -8357,7 +7445,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'handle-fi',
     symbol: 'forex',
     name: 'handle.fi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdb298285fe4c5410b05390ca80e8fbe9de1f259b',
       'arbitrum-one': '0xdb298285fe4c5410b05390ca80e8fbe9de1f259b',
@@ -8369,7 +7457,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'handy',
     symbol: 'handy',
     name: 'Handy',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8bbe1a2961b41340468d0548c2cd5b7dfa9b684c',
     },
@@ -8379,7 +7467,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hapi',
     symbol: 'hapi',
     name: 'HAPI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd9c2d319cd7e6177336b0a9c93c21cb48d84fb54',
       'near-protocol':
@@ -8393,7 +7481,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hathor',
     symbol: 'htr',
     name: 'Hathor',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 918,
   },
@@ -8401,7 +7489,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'harmony',
     symbol: 'one',
     name: 'Harmony',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 229,
   },
@@ -8409,27 +7497,17 @@ export const tokens: ITokenMetadata[] = [
     id: 'saitama-inu',
     symbol: 'saitama',
     name: 'Saitama',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xce3f08e664693ca792cace4af1364d5e220827b2',
     },
     marketCapRank: 531,
   },
   {
-    id: 'harrypottertrumphomersimpson777inu',
-    symbol: 'ethereum',
-    name: 'HarryPotterTrumpHomerSimpson777Inu',
-    variants: ['branded'],
-    addresses: {
-      ethereum: '0x24249b5a869a445c9b0ce269a08d73c618df9d21',
-    },
-    marketCapRank: 2450,
-  },
-  {
     id: 'hashflow',
     symbol: 'hft',
     name: 'Hashflow',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xb3999f658c0391d94a37f7ff328f3fec942bcadc',
       'binance-smart-chain': '0x44ec807ce2f4a6f2737a92e985f318d035883e47',
@@ -8440,7 +7518,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hatom',
     symbol: 'htm',
     name: 'Hatom',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       elrond: 'HTM-f51d55',
     },
@@ -8450,7 +7528,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'havah',
     symbol: 'hvh',
     name: 'HAVAH',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd076c4ba62c57b3fa10800bcfd8da66742110e0e',
     },
@@ -8460,7 +7538,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'haven',
     symbol: 'xhv',
     name: 'Haven',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {},
     marketCapRank: 2045,
   },
@@ -8468,7 +7546,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'havven',
     symbol: 'snx',
     name: 'Synthetix Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f',
       'harmony-shard-0': '0x7b9c523d59aefd362247bd5601a89722e3774dd2',
@@ -8487,7 +7565,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hawksight',
     symbol: 'hawk',
     name: 'Hawksight',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'BKipkearSqAUdNKa1WDstvcMjoPsSKBuNyvKDQDDu9WE',
     },
@@ -8497,7 +7575,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'headstarter',
     symbol: 'hst',
     name: 'HeadStarter',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'hedera-hashgraph': '0x00000000000000000000000000000000000ec585',
     },
@@ -8507,7 +7585,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hedera-hashgraph',
     symbol: 'hbar',
     name: 'Hedera',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {},
     marketCapRank: 38,
   },
@@ -8515,7 +7593,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unsheth',
     symbol: 'ush',
     name: 'unshETHing_Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe60779cc1b2c1d0580611c526a8df0e3f870ec48',
       'arbitrum-one': '0x51a80238b5738725128d3a3e06ab41c1d4c05c74',
@@ -8527,7 +7605,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hegic',
     symbol: 'hegic',
     name: 'Hegic',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x584bc13c7d411c00c01a62e8019472de68768430',
       fantom: '0x44b26e839eb3572c5e959f994804a5de66600349',
@@ -8540,7 +7618,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'helium',
     symbol: 'hnt',
     name: 'Helium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux',
     },
@@ -8550,7 +7628,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'helium-mobile',
     symbol: 'mobile',
     name: 'Helium Mobile',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'mb1eu7TzEc71KxDpsmsKoucSSuuoGLv1drys1oP2jh6',
     },
@@ -8560,7 +7638,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hello-labs',
     symbol: 'hello',
     name: 'HELLO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x411099c0b413f4feddb10edf6a8be63bd321311c',
       'binance-smart-chain': '0x0f1cbed8efa0e012adbccb1638d0ab0147d5ac00',
@@ -8571,7 +7649,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hera-finance',
     symbol: 'hera',
     name: 'Hera Finance',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'metis-andromeda': '0x6f05709bc91bad933346f9e159f0d3fdbc2c9dce',
       ethereum: '0xa2c2c937333165d4c5f2dc5f31a43e1239fecfeb',
@@ -8582,7 +7660,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hmx',
     symbol: 'hmx',
     name: 'HMX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x83d6c8c06ac276465e4c92e7ac8c23740f435140',
       ethereum: '0x83d6c8c06ac276465e4c92e7ac8c23740f435140',
@@ -8593,7 +7671,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hermes-protocol',
     symbol: 'hermes',
     name: 'Hermes Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'metis-andromeda': '0xb27bbeaaca2c00d6258c3118bab6b5b6975161c8',
     },
@@ -8603,7 +7681,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hermez-network-token',
     symbol: 'hez',
     name: 'Hermez Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xeef9f339514298c6a857efcfc1a762af84438dee',
     },
@@ -8613,7 +7691,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hero-blaze-three-kingdoms',
     symbol: 'mudol2',
     name: 'Hero Blaze: Three Kingdoms',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x5e7f472b9481c80101b22d0ba4ef4253aa61dabc',
     },
@@ -8633,7 +7711,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hiblocks',
     symbol: 'hibs',
     name: 'Hiblocks',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'klay-token': '0xe06b40df899b9717b4e6b50711e1dc72d08184cf',
     },
@@ -8643,7 +7721,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hifi-finance',
     symbol: 'hifi',
     name: 'Hifi Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4b9278b94a1112cad404048903b8d343a810b07e',
     },
@@ -8653,7 +7731,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hilo',
     symbol: 'hilo',
     name: 'HILO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbb9fd9fa4863c03c574007ff3370787b9ce65ff6',
     },
@@ -8663,7 +7741,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'humanscape',
     symbol: 'hpo',
     name: 'Hippocrat',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfe39c384d702914127a005523f9915addb9bd59b',
     },
@@ -8673,7 +7751,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hive',
     symbol: 'hive',
     name: 'Hive',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 366,
   },
@@ -8681,7 +7759,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hive-game-token',
     symbol: 'hgt',
     name: 'Hive Game Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'HGTxJQKzuMjzKkHVpRLcFHwE6ngVCJbcP35FDQtmRzhx',
     },
@@ -8691,7 +7769,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hivemapper',
     symbol: 'honey',
     name: 'Hivemapper',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: '4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy',
     },
@@ -8701,7 +7779,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hummingbot',
     symbol: 'hbot',
     name: 'Hummingbot',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe5097d9baeafb89f9bcb78c9290d545db5f9e9cb',
     },
@@ -8721,7 +7799,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'holoride',
     symbol: 'ride',
     name: 'holoride',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       elrond: 'RIDE-7d18e9',
       ethereum: '0xf97e2a78f1f3d1fd438ff7cc3bb7de01e5945b83',
@@ -8732,7 +7810,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'holotoken',
     symbol: 'hot',
     name: 'Holo',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6c6ee5e31d828de241282b9606c8e98ea48526e2',
       'harmony-shard-0': '0x5dfeadcdd2d4eb29ac5ae876daa07ffd07bf6483',
@@ -8745,7 +7823,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'honeyland-honey',
     symbol: 'hxd',
     name: 'Honeyland',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: '3dgCCb15HMQSA4Pn3Tfii5vRk7aRqTH95LJjxzsG2Mug',
     },
@@ -8755,7 +7833,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hooked-protocol',
     symbol: 'hook',
     name: 'Hooked Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xa260e12d2b924cb899ae80bb58123ac3fee1e2f0',
     },
@@ -8765,7 +7843,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hop-protocol',
     symbol: 'hop',
     name: 'Hop Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc',
       'polygon-pos': '0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc',
@@ -8780,7 +7858,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hopr',
     symbol: 'hopr',
     name: 'HOPR',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf5581dfefd8fb0e4aec526be659cfab1f8c781da',
       xdai: '0xd057604a14982fe8d88c5fc25aac3267ea142a08',
@@ -8802,7 +7880,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'horizon-protocol',
     symbol: 'hzn',
     name: 'Horizon Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xc0eff7749b125444953ef89682201fb8c6a917cd',
     },
@@ -8812,7 +7890,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hourglass',
     symbol: 'wait',
     name: 'Hourglass',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2559813bbb508c4c79e9ccce4703bcb1f149edd7',
     },
@@ -8822,7 +7900,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hubble',
     symbol: 'hbb',
     name: 'Hubble',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'HBB111SCo9jkCejsZfz8Ec8nH7T6THF8KEKSnvwT6XK6',
     },
@@ -8832,7 +7910,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'humanode',
     symbol: 'hmnd',
     name: 'Humanode',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1379,
   },
@@ -8852,7 +7930,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'huobi-btc',
     symbol: 'hbtc',
     name: 'Huobi BTC',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0316eb71485b0ab14103307bf65a021042c6d380',
       'huobi-token': '0x66a79d23e58475d2738179ca52cd0b41d73f0bea',
@@ -8863,7 +7941,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'huobi-token',
     symbol: 'ht',
     name: 'Huobi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6f259637dcd74c767781e37bc6133cd6a68aa161',
       'near-protocol':
@@ -8877,7 +7955,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'husd',
     symbol: 'husd',
     name: 'HUSD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdf574c24545e5ffecb9a659c229253d4111d87e1',
       'huobi-token': '0x0298c2b32eae4da002a15f36fdf7615bea3da047',
@@ -8891,7 +7969,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'husky-avax',
     symbol: 'husky',
     name: 'Husky Avax',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       avalanche: '0x65378b697853568da9ff8eab60c13e1ee9f4a654',
     },
@@ -8901,7 +7979,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hxro',
     symbol: 'hxro',
     name: 'HXRO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4bd70556ae3f8a6ec6c4080a0c327b24325438f3',
       energi: '0xf25ef66291cc2469781fa18512d6b26431cb0747',
@@ -8913,7 +7991,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hydra',
     symbol: 'hydra',
     name: 'Hydra',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       hydra: '6d9115a21863ce31b44cd231e4c4ccc87566222f',
     },
@@ -8923,7 +8001,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hydradx',
     symbol: 'hdx',
     name: 'HydraDX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 769,
   },
@@ -8931,7 +8009,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hypergpt',
     symbol: 'hgpt',
     name: 'HyperGPT',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x529c79f6918665ebe250f32eeeaa1d410a0798c6',
       'the-open-network': 'EQAuw01klxL8qKe9cBioTfjst0d6Gdagg51_c73z8X2-zJmj',
@@ -8942,7 +8020,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hypersign-identity-token',
     symbol: 'hid',
     name: 'Hypersign Identity',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb14ebf566511b9e6002bb286016ab2497b9b9c9d',
       'polygon-pos': '0x87847703d4bb4fcd42db887ffdcb94496e77e3ab',
@@ -8953,7 +8031,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hytopia',
     symbol: 'topia',
     name: 'HYCHAIN',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xccccb68e1a848cbdb5b60a974e07aae143ed40c3',
     },
@@ -8963,7 +8041,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'hyve',
     symbol: 'hyve',
     name: 'Hyve',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd794dd1cada4cf79c9eebaab8327a1b0507ef7d4',
       fantom: '0x90b89e881961e1053aeaddba13217d56f747349a',
@@ -8973,20 +8051,10 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 2433,
   },
   {
-    id: 'ibuffer-token',
-    symbol: 'bfr',
-    name: 'Buffer Token',
-    variants: ['branded', 'mono'],
-    addresses: {
-      'arbitrum-one': '0x1a5b0aaf478bf1fda7b934c76e7692d722982a6d',
-    },
-    marketCapRank: 2736,
-  },
-  {
     id: 'ichi-farm',
     symbol: 'ichi',
     name: 'ICHI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x111111517e4929d3dcbdfa7cce55d30d4b6bc4d6',
       'binance-smart-chain': '0x0ef4a107b48163ab4b57fca36e1352151a587be4',
@@ -8999,7 +8067,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'icon',
     symbol: 'icx',
     name: 'ICON',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 235,
   },
@@ -9007,7 +8075,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'idavoll-network',
     symbol: 'idv',
     name: 'Idavoll DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x45448e05020576929fcdeabc228e35b420098840',
     },
@@ -9017,7 +8085,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ideaology',
     symbol: 'idea',
     name: 'Ideaology',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5d3a4f62124498092ce665f865e0b38ff6f5fbea',
     },
@@ -9037,7 +8105,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'idia',
     symbol: 'idia',
     name: 'Impossible Finance Launchpad',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x0b15ddf19d47e6a86a56148fb4afffc6929bcb89',
       avalanche: '0xfcaf13227dcbfa2dc2b1928acfca03b85e2d25dd',
@@ -9050,7 +8118,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'idle',
     symbol: 'idle',
     name: 'IDLE',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x875773784af8135ea0ef43b5a374aad105c5d39e',
       'polygon-pos': '0xc25351811983818c9fe6d8c580531819c8ade90f',
@@ -9061,7 +8129,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'instadapp-eth',
     symbol: 'ieth',
     name: 'iETH v1',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc383a3833a87009fd9597f8184979af5edfad019',
     },
@@ -9071,7 +8139,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'iexec-rlc',
     symbol: 'rlc',
     name: 'iExec RLC',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x607f4c5bb672230e8672085532f7e901544a7375',
       sora: '0x008294f7b08f568a661de2b248c34fc574e7e0012a12ef7959eb1a5c6b349e09',
@@ -9083,7 +8151,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ignis',
     symbol: 'ignis',
     name: 'Ignis',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1880,
   },
@@ -9091,7 +8159,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'iguverse-igu',
     symbol: 'igu',
     name: 'IguVerse IGU',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x201bc9f242f74c47bbd898a5dc99cdcd81a21943',
     },
@@ -9101,7 +8169,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'illuvium',
     symbol: 'ilv',
     name: 'Illuvium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x767fe9edc9e0df98e07454847909b5e959d7ca0e',
       energi: '0xa4ecf6d10b8d61d4a022821a6ff8b9536a47c70d',
@@ -9112,7 +8180,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ime-lab',
     symbol: 'lime',
     name: 'iMe Lab',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x7bc75e291e656e8658d66be1cc8154a3769a35dd',
       'polygon-pos': '0x7f67639ffc8c93dd558d452b8920b28815638c44',
@@ -9123,7 +8191,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'imgnai',
     symbol: 'imgnai',
     name: 'Image Generation AI',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xa735a3af76cc30791c61c10d585833829d36cbe0',
     },
@@ -9133,7 +8201,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'imo',
     symbol: 'imo',
     name: 'IMO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x94d79c325268c898d2902050730f27a478c56cc1',
     },
@@ -9143,7 +8211,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'impt',
     symbol: 'impt',
     name: 'IMPT',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x04c17b9d3b29a78f7bd062a57cf44fc633e71f85',
     },
@@ -9153,7 +8221,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'infinitybit-token',
     symbol: 'ibit',
     name: 'InfinityBit Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa3cb87080e68ad54d00573983d935fa85d168fde',
     },
@@ -9163,7 +8231,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'infinity-pad-2',
     symbol: 'ipad',
     name: 'Infinity PAD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xa7266989b0df675cc8257d53b6bc1358faf6626a',
     },
@@ -9173,7 +8241,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'inscribe',
     symbol: 'ins',
     name: 'Inscribe',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe9572938bcbf08adcee86fd12a7c0d08dc4ab841',
     },
@@ -9183,7 +8251,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'injective-protocol',
     symbol: 'inj',
     name: 'Injective',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe28b3b32b6c345a34ff64674606124dd5aceca30',
       cosmos:
@@ -9197,7 +8265,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'instadapp',
     symbol: 'inst',
     name: 'Instadapp',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6f40d4a6237c257fff2db00fa0510deeecd303eb',
       'polygon-pos': '0xf50d05a1402d0adafa880d36050736f9f6ee7dee',
@@ -9208,7 +8276,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'insurace',
     symbol: 'insur',
     name: 'InsurAce',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x544c42fbb96b39b21df61cf322b5edc285ee7429',
       avalanche: '0x544c42fbb96b39b21df61cf322b5edc285ee7429',
@@ -9221,7 +8289,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'insure',
     symbol: 'sure',
     name: 'inSure DeFi',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xcb86c6a22cb56b6cf40cafedb06ba0df188a416e',
       avalanche: '0x5fc17416925789e0852fbfcd81c490ca4abc51f9',
@@ -9234,7 +8302,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ix-token',
     symbol: 'ixt',
     name: 'Planet IX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xe06bd4f5aac8d0aa337d13ec88db6defc6eaeefe',
     },
@@ -9244,7 +8312,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'integritee',
     symbol: 'teer',
     name: 'Integritee',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1994,
   },
@@ -9252,7 +8320,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'interlay',
     symbol: 'intr',
     name: 'Interlay',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1618,
   },
@@ -9260,7 +8328,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'internet-computer',
     symbol: 'icp',
     name: 'Internet Computer',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'internet-computer': 'ryjl3-tyaaa-aaaaa-aaaba-cai',
     },
@@ -9270,7 +8338,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'interport-token',
     symbol: 'itp',
     name: 'Interport Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2b1d36f5b61addaf7da7ebbd11b35fd8cfb0de31',
       'polygon-zkevm': '0x2b1d36f5b61addaf7da7ebbd11b35fd8cfb0de31',
@@ -9292,7 +8360,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'inter-stable-token',
     symbol: 'ist',
     name: 'Inter Stable Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/92BE0717F4678905E53F4E45B2DED18BC0CB97BF1F8B6A25AFEDF3D5A879B4D5',
@@ -9306,7 +8374,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'intrepid-token',
     symbol: 'int',
     name: 'Intrepid Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa2762ba628b962f93498d8893b6e4346140fe96d',
     },
@@ -9316,7 +8384,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'inverse-finance',
     symbol: 'inv',
     name: 'Inverse Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68',
     },
@@ -9326,7 +8394,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ion',
     symbol: 'ion',
     name: 'Ion',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis: 'uion',
     },
@@ -9352,7 +8420,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wifi',
     symbol: 'wifi',
     name: 'WiFi Map',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xe238ecb42c424e877652ad82d8a939183a04c35f',
     },
@@ -9362,7 +8430,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wicrypt',
     symbol: 'wnt',
     name: 'Wicrypt',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0x82a0e6c02b91ec9f6ff943c0a933c03dbaa19689',
       'arbitrum-one': '0xad4b9c1fbf4923061814dd9d5732eb703faa53d4',
@@ -9373,7 +8441,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ipor',
     symbol: 'ipor',
     name: 'IPOR',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1e4746dc744503b53b4a082cb3607b169a289090',
       'arbitrum-one': '0x34229b3f16fbcdfa8d8d9d17c0852f9496f4c7bb',
@@ -9384,7 +8452,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'iris-network',
     symbol: 'iris',
     name: 'IRISnet',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/7C4D60AA95E5A7558B0A364860979CA34B7FF8AAF255B87AF9E879374470CEC0',
@@ -9395,7 +8463,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'iron-fish',
     symbol: 'iron',
     name: 'Iron Fish',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 848,
   },
@@ -9403,7 +8471,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'titanswap',
     symbol: 'titan',
     name: 'TitanSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3a8cccb969a61532d1e6005e2ce12c200caece87',
     },
@@ -9413,7 +8481,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'iskra-token',
     symbol: 'isk',
     name: 'ISKRA Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x17d2628d30f8e9e966c9ba831c9b9b01ea8ea75c',
       'klay-token': '0x17d2628d30f8e9e966c9ba831c9b9b01ea8ea75c',
@@ -9424,7 +8492,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ispolink',
     symbol: 'isp',
     name: 'Ispolink',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc8807f0f5ba3fa45ffbdc66928d71c5289249014',
       'manta-pacific': '0xbab1c57ec0bb0ae81d948503e51d90166459d154',
@@ -9446,7 +8514,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ixo',
     symbol: 'ixo',
     name: 'IXO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cosmos:
         'ibc/F3FF7A84A73B62921538642F9797C423D2B4C4ACB3C7FCFFCE7F12AA69909C4B',
@@ -9468,7 +8536,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'jackal-protocol',
     symbol: 'jkl',
     name: 'Jackal Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       secret: 'secret1sgaz455pmtgld6dequqayrdseq8vy2fc48n8y3',
       osmosis:
@@ -9482,7 +8550,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'jasmycoin',
     symbol: 'jasmy',
     name: 'JasmyCoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7420b4b9a0110cdc71fb720908340c03f9bc03ec',
     },
@@ -9492,7 +8560,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'jesus-coin',
     symbol: 'jesus',
     name: 'Jesus Coin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xba386a4ca26b85fd057ab1ef86e3dc7bdeb5ce70',
     },
@@ -9502,7 +8570,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'joe',
     symbol: 'joe',
     name: 'JOE',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       avalanche: '0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd',
       'arbitrum-one': '0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07',
@@ -9515,7 +8583,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pepefork',
     symbol: 'pork',
     name: 'PepeFork',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xb9f599ce614feb2e1bbe58f180f370d05b39344e',
     },
@@ -9525,7 +8593,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'jones-dao',
     symbol: 'jones',
     name: 'Jones DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x10393c20975cf177a3513071bc110f7962cd67da',
     },
@@ -9535,7 +8603,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'julswap',
     symbol: 'juld',
     name: 'JulSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xf5d8015d625be6f59b8073c8189bd51ba28792e1',
       'harmony-shard-0': '0x504d7d5bd2075fa782fbd0be9bea4cdc7e25f5a1',
@@ -9546,7 +8614,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'jumptoken',
     symbol: 'jmpt',
     name: 'JumpToken',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x88d7e9b65dc24cf54f5edef929225fc3e1580c25',
       celo: '0x1d18d0386f51ab03e7e84e71bda1681eba865f1f',
@@ -9559,7 +8627,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'juno-network',
     symbol: 'juno',
     name: 'JUNO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cosmos:
         'ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED',
@@ -9572,7 +8640,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'just',
     symbol: 'jst',
     name: 'JUST',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       tron: 'TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9',
     },
@@ -9582,7 +8650,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'k21',
     symbol: 'k21',
     name: 'K21',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb9d99c33ea2d86ec5ec6b8a4dd816ebba64404af',
     },
@@ -9592,7 +8660,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kadena',
     symbol: 'kda',
     name: 'Kadena',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 224,
   },
@@ -9600,7 +8668,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kaizen',
     symbol: 'kzen',
     name: 'Kaizen.Finance',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0x4550003152f12014558e5ce025707e4dd841100f',
       ethereum: '0x4550003152f12014558e5ce025707e4dd841100f',
@@ -9613,7 +8681,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kalmar',
     symbol: 'kalm',
     name: 'KALM',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x4ba0057f784858a48fe351445c672ff2a3d43515',
       avalanche: '0x62aceea3e666c5706ce1c61055fac1a669d31d93',
@@ -9625,7 +8693,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kamaleont',
     symbol: 'klt',
     name: 'Kamaleont',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xf87940f78f2f4d99a0c5c22e3fcc21795cd53245',
     },
@@ -9635,7 +8703,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'karat',
     symbol: 'kat',
     name: 'Karat',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       zksync: '0xcdb7d260c107499c80b4b748e8331c64595972a1',
     },
@@ -9645,7 +8713,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kan',
     symbol: 'kan',
     name: 'BitKan',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1410434b0346f5be678d0fb554e5c7ab620f8f4a',
     },
@@ -9655,7 +8723,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kapital-dao',
     symbol: 'kap',
     name: 'KAP Games',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9625ce7753ace1fa1865a47aae2c5c2ce4418569',
       'arbitrum-one': '0x965d00aa7abc62ca10132e641d08593435ac811d',
@@ -9680,7 +8748,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kardiachain',
     symbol: 'kai',
     name: 'KardiaChain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       kardiachain: '0xaf984e23eaa3e7967f3c5e007fbe397d8566d23d',
       'binance-smart-chain': '0x39ae8eefb05138f418bb27659c21632dc1ddab10',
@@ -9691,7 +8759,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'karura',
     symbol: 'kar',
     name: 'Karura',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1081,
   },
@@ -9699,7 +8767,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kaspa',
     symbol: 'kas',
     name: 'Kaspa',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 47,
   },
@@ -9707,7 +8775,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kasta',
     symbol: 'kasta',
     name: 'Kasta',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x235737dbb56e8517391473f7c964db31fa6ef280',
     },
@@ -9717,7 +8785,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'katana-inu',
     symbol: 'kata',
     name: 'Katana Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x2e85ae1c47602f7927bcabc2ff99c40aa222ae15',
       'binance-smart-chain': '0x6d6ba21e4c4b29ca7bfa1c344ba1e35b8dae7205',
@@ -9728,7 +8796,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kava',
     symbol: 'kava',
     name: 'Kava',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 107,
   },
@@ -9736,7 +8804,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kava-lend',
     symbol: 'hard',
     name: 'Kava Lend',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       energi: '0xeeaccbb6ce1b5be68a2cf9d0dea27d4b807848d2',
     },
@@ -9746,7 +8814,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'keep3rv1',
     symbol: 'kp3r',
     name: 'Keep3rV1',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44',
       fantom: '0x2a5062d22adcfaafbd5c541d4da82e4b450d4212',
@@ -9758,7 +8826,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'keep-network',
     symbol: 'keep',
     name: 'Keep Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x85eee30c52b0b379b046fb0f85f4f3dc3009afec',
       'harmony-shard-0': '0x43bf77db5e784b263a459141bdcdf5cf6987936d',
@@ -9770,7 +8838,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kek',
     symbol: 'keke',
     name: 'KEK',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xf7168c8abb0ff80116413a8d95396bbdc318a3ff',
     },
@@ -9780,7 +8848,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ki',
     symbol: 'xki',
     name: 'KI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cosmos:
         'ibc/B547DC9B897E7C3AA5B824696110B8E3D2C31E3ED3F02FF363DCBAD82457E07E',
@@ -9791,7 +8859,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kiba-inu',
     symbol: 'kiba',
     name: 'Kiba Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x005d1123878fc55fbd56b54c73963b234a64af3c',
       'binance-smart-chain': '0xc3afde95b6eb9ba8553cdaea6645d45fb3a7faf5',
@@ -9802,7 +8870,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kiboshib',
     symbol: 'kibshi',
     name: 'KiboShib',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x02e7f808990638e9e67e1f00313037ede2362361',
     },
@@ -9812,7 +8880,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kick',
     symbol: 'kick',
     name: 'Kick',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x824a50df33ac1b41afc52f4194e2e8356c17c3ac',
       'harmony-shard-0': '0xc63fd3e9c9527ccdf1d331bbadfe21e77e357b5e',
@@ -9823,7 +8891,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kilt-protocol',
     symbol: 'kilt',
     name: 'KILT Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 692,
   },
@@ -9831,7 +8899,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kin',
     symbol: 'kin',
     name: 'Kin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6',
     },
@@ -9841,7 +8909,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'phantasma',
     symbol: 'soul',
     name: 'Phantasma',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x75858677e27c930fb622759feaffee2b754af07f',
       'binance-smart-chain': '0x298eff8af1ecebbb2c034eaa3b9a5d0cc56c59cd',
@@ -9852,7 +8920,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kine-protocol',
     symbol: 'kine',
     name: 'Kine Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xcbfef8fdd706cde6f208460f2bf39aa9c785f05d',
     },
@@ -9862,7 +8930,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kinesis-gold',
     symbol: 'kau',
     name: 'Kinesis Gold',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 531,
   },
@@ -9878,7 +8946,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'king-shiba',
     symbol: 'kingshib',
     name: 'King Shiba',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x84f4f7cdb4574c9556a494dab18ffc1d1d22316c',
     },
@@ -9888,7 +8956,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kintsugi',
     symbol: 'kint',
     name: 'Kintsugi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2186,
   },
@@ -9896,7 +8964,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kira-network',
     symbol: 'kex',
     name: 'KIRA Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x16980b3b4a3f9d89e33311b5aa8f80303e5ca4f8',
       'binance-smart-chain': '0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e',
@@ -9907,7 +8975,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kishu-inu',
     symbol: 'kishu',
     name: 'Kishu Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xa2b4c0af19cc16a6cfacce81f192b024d625817d',
     },
@@ -9917,7 +8985,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kitty-inu',
     symbol: 'kitty',
     name: 'Kitty Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x61a35258107563f6b6f102ae25490901c8760b12',
     },
@@ -9927,7 +8995,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'klaycity-orb',
     symbol: 'orb',
     name: 'Orbcity',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0x20c750c57c3bc5145af4b7a33d4fb66a8e79fe05',
       ethereum: '0x3c917054e03485808137eb306eafa8da0ab695cd',
@@ -9938,7 +9006,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'klay-token',
     symbol: 'klay',
     name: 'Klaytn',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 117,
   },
@@ -9946,7 +9014,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kleekai',
     symbol: 'klee',
     name: 'KleeKai',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xa67e9f021b9d208f7e3365b2a155e3c55b27de71',
     },
@@ -9956,7 +9024,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kleros',
     symbol: 'pnk',
     name: 'Kleros',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d',
       xdai: '0x37b60f4e9a31a64ccc0024dce7d0fd07eaa0f7b3',
@@ -9967,7 +9035,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kleva',
     symbol: 'kleva',
     name: 'KLEVA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'klay-token': '0x5fff3a6c16c2208103f318f4713d4d90601a7313',
     },
@@ -9977,7 +9045,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'klever',
     symbol: 'klv',
     name: 'Klever',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 946,
   },
@@ -9985,7 +9053,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'klima-dao',
     symbol: 'klima',
     name: 'KlimaDAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x4e78011ce80ee02d2c3e649fb657e45898257815',
     },
@@ -9995,7 +9063,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kommunitas',
     symbol: 'kom',
     name: 'Kommunitas',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xc004e2318722ea2b15499d6375905d75ee5390b8',
       'arbitrum-one': '0xa58663faef461761e44066ea26c1fcddf2927b80',
@@ -10007,7 +9075,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'komodo',
     symbol: 'kmd',
     name: 'Komodo',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 576,
   },
@@ -10015,7 +9083,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kompete',
     symbol: 'kompete',
     name: 'KOMPETE',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1e0b2992079b620aa13a7c2e7c88d2e1e18e46e9',
       base: '0x8f019931375454fe4ee353427eb94e2e0c9e0a8c',
@@ -10036,7 +9104,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kromatika',
     symbol: 'krom',
     name: 'Kromatika',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789',
       'optimistic-ethereum': '0xf98dcd95217e15e05d8638da4c91125e59590b07',
@@ -10049,7 +9117,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kryll',
     symbol: 'krl',
     name: 'KRYLL',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0',
     },
@@ -10059,7 +9127,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kryptomon',
     symbol: 'kmon',
     name: 'Kryptomon',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xc732b6586a93b6b7cf5fed3470808bc74998224d',
       ethereum: '0xc4170fd71eced3c80badca77f4e12e8aac1e3436',
@@ -10070,7 +9138,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kryptonite',
     symbol: 'seilor',
     name: 'Kryptonite',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       'sei-network':
         'sei10knxlv9e54z0xcywdhtycc63uf970aefeec73ycqwd75ep9nu45sh66m6a',
@@ -10082,7 +9150,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ktx-finance',
     symbol: 'ktc',
     name: 'KTX.Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       mantle: '0x779f4e5fb773e17bc8e809f4ef1abb140861159a',
       'binance-smart-chain': '0x545356d4d69d8cd1213ee7e339867574738751ca',
@@ -10093,7 +9161,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kucoin-shares',
     symbol: 'kcs',
     name: 'KuCoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 110,
   },
@@ -10101,7 +9169,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kujira',
     symbol: 'kuji',
     name: 'Kujira',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/BB6BCDB515050BAE97516111873CCD7BCF1FD0CCB723CC12F3C4F704D6C646CE',
@@ -10117,7 +9185,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kuma-inu',
     symbol: 'kuma',
     name: 'Kuma Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x48c276e8d03813224bb1e55f953adb6d02fd3e02',
     },
@@ -10127,7 +9195,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kunci-coin',
     symbol: 'kunci',
     name: 'Kunci Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x6cf271270662be1c4fc1b7bb7d7d7fc60cc19125',
     },
@@ -10137,7 +9205,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kusama',
     symbol: 'ksm',
     name: 'Kusama',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {},
     marketCapRank: 208,
   },
@@ -10145,7 +9213,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kwai',
     symbol: 'kwai',
     name: 'KWAI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x235d650fc6d9eb7d4bac77e128265295a0054304',
     },
@@ -10155,7 +9223,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kwenta',
     symbol: 'kwenta',
     name: 'Kwenta',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'optimistic-ethereum': '0x920cf626a271321c151d027030d5d08af699456b',
     },
@@ -10165,7 +9233,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kyber-network-crystal',
     symbol: 'knc',
     name: 'Kyber Network Crystal',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202',
       fantom: '0x1e1085efaa63edfe74aad7c05a28eae4ef917c3f',
@@ -10184,7 +9252,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'kyve-network',
     symbol: 'kyve',
     name: 'KYVE Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 702,
   },
@@ -10192,7 +9260,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'l7dex',
     symbol: 'lsd',
     name: 'L7DEX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xcd1b51b87a8a7137d6421ba5a976225187a26777',
     },
@@ -10202,7 +9270,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lambda',
     symbol: 'lamb',
     name: 'Lambda',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8971f9fd7196e5cee2c1032b50f656855af7dd26',
     },
@@ -10212,7 +9280,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'leisuremeta',
     symbol: 'lm',
     name: 'LeisureMeta',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc064f4f215b6a1e4e7f39bd8530c4de0fc43ee9d',
     },
@@ -10222,7 +9290,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'landshare',
     symbol: 'land',
     name: 'Landshare',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xa73164db271931cf952cbaeff9e8f5817b42fa5c',
     },
@@ -10232,7 +9300,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'land-of-conquest-slg',
     symbol: 'slg',
     name: 'SLG.GAMES',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfc0b60e0df5dc9d4b72d957ca2d251cee308019a',
     },
@@ -10242,7 +9310,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'latoken',
     symbol: 'la',
     name: 'LA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf',
     },
@@ -10252,7 +9320,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lattice-token',
     symbol: 'ltx',
     name: 'Lattice',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa393473d64d2f9f026b60b6df7859a689715d092',
     },
@@ -10262,7 +9330,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'launchpool',
     symbol: 'lpool',
     name: 'Launchpool',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6149c26cd2f7b5ccdb32029af817123f6e37df5b',
       'binance-smart-chain': '0xcfb24d3c3767364391340a2e6d99c64f1cbd7a3d',
@@ -10273,7 +9341,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'law-blocks',
     symbol: 'lbt',
     name: 'Law Blocks',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'xdc-network': 'xdc05940b2df33d6371201e7ae099ced4c363855dfe',
     },
@@ -10283,7 +9351,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unilayer',
     symbol: 'layer',
     name: 'UniLayer',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0ff6ffcfda92c53f615a4a75d982f399c989366b',
       'binance-smart-chain': '0xc2c23a86def9e9f5972a633b3d25f7ecbfa5e575',
@@ -10295,7 +9363,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lazio-fan-token',
     symbol: 'lazio',
     name: 'Lazio Fan Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x77d547256a2cd95f32f67ae0313e450ac200648d',
     },
@@ -10305,7 +9373,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lcx',
     symbol: 'lcx',
     name: 'LCX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x037a54aab062628c9bbae1fdb1583c195585fe41',
     },
@@ -10315,7 +9383,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'league-of-kingdoms',
     symbol: 'loka',
     name: 'League of Kingdoms',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x61e90a50137e1f645c9ef4a0d3a4f01477738406',
     },
@@ -10325,7 +9393,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'leash',
     symbol: 'leash',
     name: 'Doge Killer',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x27c70cd1946795b66be9d954418546998b546634',
     },
@@ -10335,7 +9403,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'leeds-united-fan-token',
     symbol: 'lufc',
     name: 'Leeds United Fan Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       chiliz: '0xf67a8a4299f7ebf0c58dbfb38941d0867f300c30',
     },
@@ -10345,7 +9413,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'leo-token',
     symbol: 'leo',
     name: 'LEO Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3',
       sora: '0x009e199267a6a2c8ae075bb8d4c40ee8d05c1b769085ee59ce98e50c2b2d8756',
@@ -10356,7 +9424,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'leox',
     symbol: 'leox',
     name: 'LEOX',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xa444ec96ee01bb219a44b285de47bf33c3447ad5',
     },
@@ -10366,7 +9434,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'level',
     symbol: 'lvl',
     name: 'Level',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xb64e280e9d1b5dbec4accedb2257a87b400db149',
       'arbitrum-one': '0xb64e280e9d1b5dbec4accedb2257a87b400db149',
@@ -10377,7 +9445,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lever',
     symbol: 'lever',
     name: 'LeverFi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4b5f49487ea7b3609b1ad05459be420548789f1f',
     },
@@ -10387,7 +9455,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'leverj-gluon',
     symbol: 'l2',
     name: 'Leverj Gluon',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbbff34e47e559ef680067a6b1c980639eeb64d24',
     },
@@ -10397,7 +9465,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lgcy-network',
     symbol: 'lgcy',
     name: 'LGCY Network',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xae697f994fc5ebc000f8e22ebffee04612f98a0d',
     },
@@ -10407,7 +9475,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'libra-incentix',
     symbol: 'lixx',
     name: 'Libra Incentix',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x16530b5c105fcb7c50bc84a039a0a4ed806a5124',
     },
@@ -10417,7 +9485,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lybra-finance',
     symbol: 'lbr',
     name: 'Lybra',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xed1167b6dc64e8a366db86f2e952a482d0981ebd',
       'arbitrum-one': '0xa23e44aea714fbbc08ef28340d78067b9a8cad73',
@@ -10428,7 +9496,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'libre',
     symbol: 'libre',
     name: 'Libre',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2207,
   },
@@ -10436,7 +9504,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lido-dao',
     symbol: 'ldo',
     name: 'Lido DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5a98fcbea516cf06857215779fd812ca3bef1b32',
       'optimistic-ethereum': '0xfdb794692724153d1488ccdbe0c56c252596735f',
@@ -10449,7 +9517,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lido-staked-sol',
     symbol: 'stsol',
     name: 'Lido Staked SOL',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: '7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj',
     },
@@ -10459,7 +9527,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lif3',
     symbol: 'lif3',
     name: 'LIF3 (OLD)',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       fantom: '0xbf60e7414ef09026733c1e7de72e7393888c64da',
       tombchain: '0x4200000000000000000000000000000000000108',
@@ -10470,7 +9538,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'limewire-token',
     symbol: 'lmwr',
     name: 'LimeWire',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88',
       'binance-smart-chain': '0x307bc76e3d59ed73886a9cf9360a9286f6281ba7',
@@ -10481,7 +9549,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'linear',
     symbol: 'lina',
     name: 'Linear',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3e9bc21c9b189c09df3ef1b824798658d5011937',
       'harmony-shard-0': '0x946c8286bd9b52b81f681903210e1a57872fdd85',
@@ -10493,7 +9561,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'linda-2',
     symbol: 'linda',
     name: 'Linda',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       linea: '0x82cc61354d78b846016b559e3ccd766fa7e793d5',
       ethereum: '0x039d2e8f097331278bd6c1415d839310e0d5ece4',
@@ -10508,7 +9576,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lingose',
     symbol: 'ling',
     name: 'Lingose',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1072,
   },
@@ -10516,7 +9584,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'link',
     symbol: 'fnsa',
     name: 'FINSCHIA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 286,
   },
@@ -10524,7 +9592,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'linkeye',
     symbol: 'let',
     name: 'Linkeye',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfa3118b34522580c35ae27f6cf52da1dbb756288',
     },
@@ -10534,7 +9602,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'liquiddriver',
     symbol: 'lqdr',
     name: 'LiquidDriver',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x816e21c33fa5f8440ebcdf6e01d39314541bea72',
       fantom: '0x4b6b3d425f82248996d77ecc3f3df1e500aac1db',
@@ -10548,7 +9616,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'liquity',
     symbol: 'lqty',
     name: 'Liquity',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d',
       'arbitrum-one': '0xfb9e5d956d889d91a82737b9bfcdac1dce3e1449',
@@ -10559,7 +9627,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'liquity-usd',
     symbol: 'lusd',
     name: 'Liquity USD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5f98805a4e8be255a32880fdec7f6728c6568ba0',
       zksync: '0x503234f203fc7eb888eec8513210612a43cf6115',
@@ -10573,7 +9641,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lisk',
     symbol: 'lsk',
     name: 'Lisk',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 277,
   },
@@ -10581,7 +9649,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'litentry',
     symbol: 'lit',
     name: 'Litentry',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb59490ab09a0f526cc7305822ac65f2ab12f9723',
     },
@@ -10591,7 +9659,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'litecoin-cash',
     symbol: 'lcc',
     name: 'Litecoin Cash',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 1871,
   },
@@ -10599,7 +9667,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lithium-finance',
     symbol: 'lith',
     name: 'Lithium Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x188e817b02e635d482ae4d81e25dda98a97c4a42',
     },
@@ -10609,7 +9677,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'litlab-games',
     symbol: 'litt',
     name: 'LitLab Games',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xcebef3df1f3c5bfd90fde603e71f31a53b11944d',
     },
@@ -10619,7 +9687,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'luna-inu',
     symbol: 'linu',
     name: 'Luna Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x78132543d8e20d2417d8a07d9ae199d458a0d581',
     },
@@ -10629,7 +9697,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'livepeer',
     symbol: 'lpt',
     name: 'Livepeer',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x58b6a8a3302369daec383334672404ee733ab239',
       'arbitrum-one': '0x289ba1701c2f088cf0faf8b3705246331cb8a839',
@@ -10641,7 +9709,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'liza-2',
     symbol: 'liza',
     name: 'LIZA',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x8b227d72570d3ead66014bca8305cbef7f90d1ee',
     },
@@ -10651,7 +9719,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'localcoinswap',
     symbol: 'lcs',
     name: 'LocalCoinSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaa19961b6b858d9f18a115f25aa1d98abc1fdba8',
     },
@@ -10661,7 +9729,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lockchain',
     symbol: 'loc',
     name: 'LockTrip',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5e3346444010135322268a4630d2ed5f8d09446c',
       hydra: '4ab26aaa1803daa638910d71075c06386e391147',
@@ -10672,7 +9740,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lodestar',
     symbol: 'lode',
     name: 'Lodestar',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0xf19547f9ed24aa66b03c3a552d181ae334fbb8db',
     },
@@ -10682,7 +9750,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'loki-network',
     symbol: 'oxen',
     name: 'Oxen',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1437,
   },
@@ -10690,7 +9758,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'looksrare',
     symbol: 'looks',
     name: 'LooksRare',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf4d2888d29d722226fafa5d9b24f9164c092421e',
     },
@@ -10700,7 +9768,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'loom-network-new',
     symbol: 'loom',
     name: 'Loom Network (NEW)',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x42476f744292107e34519f9c357927074ea3f75d',
       energi: '0xb506a79b296b78965f0a5c15e1474b026c23d9fa',
@@ -10711,7 +9779,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'loopring',
     symbol: 'lrc',
     name: 'Loopring',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbbbbca6a901c926f240b89eacb641d8aec7aeafd',
       energi: '0x193da10f8a969d4c081b9097b15337b1488cbbec',
@@ -10746,7 +9814,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'loungem',
     symbol: 'lzm',
     name: 'LoungeM',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1920,
   },
@@ -10754,7 +9822,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lovely-inu-finance',
     symbol: 'lovely',
     name: 'Lovely Inu finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x9e24415d1e549ebc626a13a482bb117a2b43e9cf',
     },
@@ -10764,7 +9832,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stader-ethx',
     symbol: 'ethx',
     name: 'Stader ETHx',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa35b1b31ce002fbf2058d22f30f95d405200a15b',
     },
@@ -10774,7 +9842,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lto-network',
     symbol: 'lto',
     name: 'LTO Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd01409314acb3b245cea9500ece3f6fd4d70ea30',
       'binance-smart-chain': '0x857b222fc79e1cbbf8ca5f78cb133d1b7cf34bbd',
@@ -10785,7 +9853,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lua-token',
     symbol: 'lua',
     name: 'LuaSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb1f66997a5760428d3a87d68b90bfe0ae64121cc',
       tomochain: '0x7262fa193e9590b2e075c3c16170f3f2f32f5c74',
@@ -10796,7 +9864,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'luca',
     symbol: 'luca',
     name: 'LUCA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x51e6ac1533032e72e92094867fd5921e3ea1bfa0',
     },
@@ -10806,7 +9874,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lucidao',
     symbol: 'lcd',
     name: 'Lucidao',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0xc2a45fe7d40bcac8369371b08419ddafd3131b4a',
     },
@@ -10816,7 +9884,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lucro',
     symbol: 'lcr',
     name: 'Lucro',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x988f7c894e4001eeb7b570cde80dffe21cf7b6b9',
     },
@@ -10826,7 +9894,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lukso-token',
     symbol: 'lyxe',
     name: 'LUKSO [OLD]',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa8b919680258d369114910511cc87595aec0be6d',
       'harmony-shard-0': '0x8a8ca151562a68ed3732fd963ec4e0e713b39bb3',
@@ -10837,7 +9905,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lukso-token-2',
     symbol: 'lyx',
     name: 'LUKSO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 439,
   },
@@ -10845,7 +9913,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'terra-luna',
     symbol: 'lunc',
     name: 'Terra Luna Classic',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 125,
   },
@@ -10853,7 +9921,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lunr-token',
     symbol: 'lunr',
     name: 'LunarCrush',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       zilliqa: 'zil1xxl6yp2twxvljdnn87g9fk7wykdrcv66xdy4rc',
       stacks: 'SP3K8BC0PPEVCV7NZ6QSRWPQ2JE9E5B6N3PA0KBR9.token-slunr',
@@ -10867,7 +9935,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'luxurious-pro-network-token',
     symbol: 'lpnt',
     name: 'Luxurious Pro Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6a4c76874e686a7d080d173987a35a9c48905583',
     },
@@ -10877,7 +9945,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lympo',
     symbol: 'lym',
     name: 'Lympo',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc690f7c7fcffa6a82b79fab7508c466fefdfc8c5',
     },
@@ -10887,7 +9955,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'lyra-finance',
     symbol: 'lyra',
     name: 'Lyra Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x01ba67aac7f75f647d94220cc98fb30fcc5105bf',
       'optimistic-ethereum': '0x50c5725949a6f0c72e6c4a641f24049a917db0cb',
@@ -10899,7 +9967,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mad-meerkat-etf',
     symbol: 'metf',
     name: 'Mad Meerkat ETF',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cronos: '0xb8df27c687c6af9afe845a2afad2d01e199f4878',
     },
@@ -10909,7 +9977,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mad-meerkat-optimizer',
     symbol: 'mmo',
     name: 'Mad Meerkat Optimizer',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       cronos: '0x50c0c5bda591bc7e89a342a3ed672fb59b3c46a7',
     },
@@ -10919,7 +9987,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'musd',
     symbol: 'musd',
     name: 'mStable USD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe2f2a5c287993345a840db3b0845fbc70f5935a5',
     },
@@ -10929,7 +9997,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'magiccraft',
     symbol: 'mcrt',
     name: 'MagicCraft',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x4b8285ab433d8f69cb48d5ad62b415ed1a221e4f',
       fantom: '0xe705af5f63fcabdcdf5016aa838eaaac35d12890',
@@ -10941,7 +10009,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'merit-circle',
     symbol: 'mc',
     name: 'Merit Circle',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x949d48eca67b17269629c7194f4b727d4ef9e5d6',
       'binance-smart-chain': '0x949d48eca67b17269629c7194f4b727d4ef9e5d6',
@@ -10952,7 +10020,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'magic-internet-money',
     symbol: 'mim',
     name: 'Magic Internet Money',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3',
       blast: '0x76da31d7c9cbeae102aff34d3398bc450c8374c1',
@@ -10973,7 +10041,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'magpie',
     symbol: 'mgp',
     name: 'Magpie',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xd06716e1ff2e492cc5034c2e81805562dd3b45fa',
       'arbitrum-one': '0xa61f74247455a40b01b0559ff6274441fafa22a3',
@@ -10984,7 +10052,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mahadao',
     symbol: 'maha',
     name: 'MahaDAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x745407c86df8db893011912d3ab28e68b62e49b0',
       'polygon-pos': '0xeb99748e91afca94a6289db3b02e7ef4a8f0a22d',
@@ -10996,7 +10064,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mimatic',
     symbol: 'mimatic',
     name: 'MAI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xa3fa99a148fa48d14ed51d610c367c61876997f1',
       moonriver: '0x7f5a79576620c046a293f54ffcdbd8f2468174f1',
@@ -11020,7 +10088,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'maiar-dex',
     symbol: 'mex',
     name: 'xExchange',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1008,
   },
@@ -11028,7 +10096,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'maidsafecoin',
     symbol: 'emaid',
     name: 'MaidSafeCoin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x329c6e459ffa7475718838145e5e85802db2a303',
     },
@@ -11038,7 +10106,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mainframe',
     symbol: 'mft',
     name: 'Mainframe',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdf2c7238198ad8b389666574f2d8bc411a4b7428',
       energi: '0x9594e7431144e80178b1bc6849edcba7d2d5bb27',
@@ -11049,7 +10117,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'maker',
     symbol: 'mkr',
     name: 'Maker',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2',
       avalanche: '0x88128fd4b259552a9a1d457f435a6527aab72d42',
@@ -11063,7 +10131,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mancium',
     symbol: 'manc',
     name: 'Mancium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe0c05ec44775e4ad62cdc2eecdf337aa7a143363',
     },
@@ -11073,7 +10141,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mdex',
     symbol: 'mdx',
     name: 'Mdex (HECO)',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'huobi-token': '0x25d2e80cb6b86881fd7e07dd263fb79f4abe033c',
     },
@@ -11083,7 +10151,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mangoman-intelligent',
     symbol: 'mmit',
     name: 'MangoMan Intelligent',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x9767c8e438aa18f550208e6d1fdf5f43541cc2c8',
     },
@@ -11093,7 +10161,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mango-markets',
     symbol: 'mngo',
     name: 'Mango',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac',
       'neon-evm': '0x6d12eaa69f8e4902d3f83d546b31f7318717014c',
@@ -11104,7 +10172,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'manifold-finance',
     symbol: 'fold',
     name: 'Manifold Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd084944d3c05cd115c09d072b9f44ba3e0e45921',
     },
@@ -11114,7 +10182,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'matrix-ai-network',
     symbol: 'man',
     name: 'Matrix AI Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1126,
   },
@@ -11122,7 +10190,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metastrike',
     symbol: 'mts',
     name: 'Metastrike',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x496cc0b4ee12aa2ac4c42e93067484e7ff50294b',
     },
@@ -11132,7 +10200,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mantle',
     symbol: 'mnt',
     name: 'Mantle',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3c3a81e81dc49a522a592e7622a7e711c06bf354',
       mantle: '0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000',
@@ -11143,7 +10211,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'minu',
     symbol: 'minu',
     name: 'Minu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xf48f91df403976060cc05dbbf8a0901b09fdefd4',
     },
@@ -11153,7 +10221,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mantra-dao',
     symbol: 'om',
     name: 'MANTRA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3593d125a4f7849a1b059e64f4517a86dd60c95d',
       'polygon-pos': '0xc3ec80343d2bae2f8e680fdadde7c17e71e114ea',
@@ -11165,7 +10233,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'maple',
     symbol: 'mpl',
     name: 'Maple',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x33349b282065b0284d756f0577fb39c158f935e6',
     },
@@ -11175,7 +10243,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'maps',
     symbol: 'maps',
     name: 'MAPS',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'MAPS41MDahZ9QdKXhVa4dWB9RuyfV4XqhyAZ8XcYepb',
       energi: '0x0702bf2abbb53f8feb101a71199965b891dbae97',
@@ -11186,7 +10254,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'marblex',
     symbol: 'mbx',
     name: 'Marblex',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xf95a5532d67c944dfa7eddd2f8c358fe0dc7fac2',
       'klay-token': '0xd068c52d81f4409b9502da926ace3301cc41f623',
@@ -11199,7 +10267,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'marcopolo',
     symbol: 'map',
     name: 'MAP Protocol',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x9e976f211daea0d652912ab99b0dc21a7fd728e4',
     },
@@ -11209,7 +10277,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'marinade',
     symbol: 'mnde',
     name: 'Marinade',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey',
     },
@@ -11219,7 +10287,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'market-making-pro',
     symbol: 'mmpro',
     name: 'Market Making Pro',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x6067490d05f3cf2fdffc0e353b1f5fd6e5ccdf70',
     },
@@ -11229,7 +10297,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'marlin',
     symbol: 'pond',
     name: 'Marlin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x57b946008913b82e4df85f501cbaed910e58d26c',
       'arbitrum-one': '0xda0a57b710768ae17941a9fa33f8b720c8bd9ddd',
@@ -11240,7 +10308,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mars4',
     symbol: 'mars4',
     name: 'MARS4',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x16cda4028e9e872a38acb903176719299beaed87',
       'binance-smart-chain': '0x9cd9c5a44cb8fab39b2ee3556f5c439e65e4fddd',
@@ -11251,7 +10319,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'marsdao',
     symbol: 'mdao',
     name: 'MarsDAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x60322971a672b81bcce5947706d22c19daecf6fb',
     },
@@ -11261,7 +10329,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mask-network',
     symbol: 'mask',
     name: 'Mask Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x69af81e73a73b40adf4f3d4223cd9b1ece623074',
       energi: '0x746514e2c7d91e1e84c20c54d1f6f537b28a7d8e',
@@ -11274,7 +10342,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'masq',
     symbol: 'masq',
     name: 'MASQ',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x06f3c323f0238c72bf35011071f2b5b7f43a054c',
       'polygon-pos': '0xee9a352f6aac4af1a5b9f467f6a93e0ffbe9dd35',
@@ -11286,7 +10354,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'maverick-protocol',
     symbol: 'mav',
     name: 'Maverick Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd',
       zksync: '0x787c09494ec8bcb24dcaf8659e7d5d69979ee508',
@@ -11298,7 +10366,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mass-vehicle-ledger',
     symbol: 'mvl',
     name: 'MVL',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa849eaae994fb86afa73382e9bd88c2b6b18dc71',
       'binance-smart-chain': '0x5f588efaf8eb57e3837486e834fc5a4e07768d98',
@@ -11309,7 +10377,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'materium',
     symbol: 'mtrm',
     name: 'Materium',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xcd17fa52528f37facb3028688e62ec82d9417581',
     },
@@ -11319,7 +10387,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'math',
     symbol: 'math',
     name: 'MATH',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x08d967bb0134f2d07f7cfb6e246680c53927dd30',
       'arbitrum-one': '0x99f40b01ba9c469193b360f72740e416b17ac332',
@@ -11331,7 +10399,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metavault-trade',
     symbol: 'mvx',
     name: 'Metavault Trade',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0x2760e46d9bb43dafcbecaad1f64b93207f9f0ed7',
       linea: '0x0018d96c579121a94307249d47f053e2d687b5e7',
@@ -11344,7 +10412,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'maxity',
     symbol: 'max',
     name: 'Maxity',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x63f7b1b538a78cb699e5399621b3d2e047c40de4',
     },
@@ -11354,7 +10422,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mbd-financials',
     symbol: 'mbd',
     name: 'MBD Financials',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xf899e83e6c6df1a0d4887cf0209193aa97236322',
     },
@@ -11364,7 +10432,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mcdex',
     symbol: 'mcb',
     name: 'MUX Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4e352cf164e64adcbad318c3a1e222e9eba4ce42',
       'arbitrum-one': '0x4e352cf164e64adcbad318c3a1e222e9eba4ce42',
@@ -11376,7 +10444,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mch-coin',
     symbol: 'mchc',
     name: 'MCH Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd69f306549e9d96f183b1aeca30b8f4353c2ecc3',
       'polygon-pos': '0xee7666aacaefaa6efeef62ea40176d3eb21953b9',
@@ -11387,7 +10455,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mcontent',
     symbol: 'mcontent',
     name: 'MContent',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x799e1cf88a236e42b4a87c544a22a94ae95a6910',
       ethereum: '0xd3c51de3e6dd9b53d7f37699afb3ee3bf9b9b3f4',
@@ -11398,7 +10466,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mcpepe-s',
     symbol: 'pepes',
     name: "McPepe's",
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x6bf765c43030387a983f429c1438e9d2025b7e12',
     },
@@ -11408,7 +10476,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'meanfi',
     symbol: 'mean',
     name: 'Mean DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'MEANeD3XDdUmNMsRGjASkSWdC8prLYsoRJ61pPeHctD',
       ethereum: '0x9b25889c493ae6df34ceef1ecb10d77c1ba73318',
@@ -11421,7 +10489,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'measurable-data-token',
     symbol: 'mdt',
     name: 'Measurable Data',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x814e0908b12a99fecf5bc101bb5d0b8b5cdf7d26',
     },
@@ -11431,7 +10499,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'media-network',
     symbol: 'media',
     name: 'Media Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'ETAtLmCmsoiEEKfNrHKJ2kYy3MoABhU6NQvpSfij5tDs',
       ethereum: '0xdb726152680ece3c9291f1016f1d36f3995f6941',
@@ -11443,7 +10511,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'medibloc',
     symbol: 'med',
     name: 'Medibloc',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 427,
   },
@@ -11451,7 +10519,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'medicinal-pork',
     symbol: 'mork',
     name: 'Medicinal Pork',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: null,
   },
@@ -11459,7 +10527,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'meeds-dao',
     symbol: 'meed',
     name: 'Meeds DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8503a7b00b4b52692cc6c14e5b96f142e30547b7',
       'polygon-pos': '0x6aca77cf3bab0c4e8210a09b57b07854a995289a',
@@ -11470,7 +10538,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'meld-2',
     symbol: 'meld',
     name: 'MELD',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       cardano:
         'a2944573e99d2ed3055b808eaa264f0bf119e01fc6b18863067c63e44d454c44',
@@ -11483,7 +10551,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'melon',
     symbol: 'mln',
     name: 'Enzyme',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xec67005c4e498ec7f55e092bd1d35cbc47c91892',
       'polygon-pos': '0xa9f37d84c856fda3812ad0519dad44fa0a3fe207',
@@ -11494,7 +10562,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'meme-ai-coin',
     symbol: 'memeai',
     name: 'Meme AI Coin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x695d38eb4e57e0f137e36df7c1f0f2635981246b',
     },
@@ -11504,7 +10572,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'memecoin-2',
     symbol: 'meme',
     name: 'Memecoin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74',
     },
@@ -11514,7 +10582,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'meridian-mst',
     symbol: 'mst',
     name: 'Meridian MST',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       base: '0x2f3b1a07e3efb1fcc64bd09b86bd0fa885d93552',
     },
@@ -11534,7 +10602,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'meta',
     symbol: 'mta',
     name: 'mStable Governance: Meta',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa3bed4e1c75d00fa6f4e5e6922db7261b5e9acd2',
       'optimistic-ethereum': '0x929b939f8524c3be977af57a4a0ad3fb1e374b50',
@@ -11546,7 +10614,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'meta-apes-peel',
     symbol: 'peel',
     name: 'Meta Apes PEEL',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x734548a9e43d2d564600b1b2ed5be9c2b911c6ab',
     },
@@ -11556,7 +10624,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metacade',
     symbol: 'mcade',
     name: 'Metacade',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xed328e9c1179a30ddc1e7595e036aed8760c22af',
     },
@@ -11566,7 +10634,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metafighter',
     symbol: 'mf',
     name: 'MetaFighter',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xbb6cdedac5cab4a420211a4a8e8b5dca879b31de',
     },
@@ -11576,7 +10644,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metal',
     symbol: 'mtl',
     name: 'Metal DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf433089366899d83a9f26a773d59ec7ecf30355e',
       energi: '0xd2d28530a79634423154c1fd5bdb7c1b0216cd1a',
@@ -11587,7 +10655,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'million',
     symbol: 'mm',
     name: 'Million',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6b4c7a5e3f0b99fcd83e9c089bddd6c7fce5c611',
       'binance-smart-chain': '0xbf05279f9bf1ce69bbfed670813b7e431142afa4',
@@ -11599,7 +10667,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metaplex',
     symbol: 'mplx',
     name: 'Metaplex',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m',
     },
@@ -11609,7 +10677,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metars-genesis',
     symbol: 'mrs',
     name: 'Metars Genesis',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x238d02ee3f80fbf5e381f049616025c186889b68',
     },
@@ -11619,7 +10687,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'thunder-token',
     symbol: 'tt',
     name: 'ThunderCore',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1e053d89e08c24aa2ce5c5b4206744dc2d7bd8f5',
     },
@@ -11629,7 +10697,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'terracoin',
     symbol: 'trc',
     name: 'Terracoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1395,
   },
@@ -11637,7 +10705,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metavault-dao',
     symbol: 'mvd',
     name: 'Metavault DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x788b6d2b37aa51d916f2837ae25b05f0e61339d1',
       'arbitrum-one': '0x15a808ed3846d25e88ae868de79f1bcb1ac382b5',
@@ -11648,7 +10716,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metaverse-etp',
     symbol: 'etp',
     name: 'Metaverse ETP',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2358,
   },
@@ -11656,7 +10724,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metaverse-index',
     symbol: 'mvi',
     name: 'Metaverse Index',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x72e364f2abdc788b7e918bc238b21f109cd634d7',
       'polygon-pos': '0xfe712251173a2cd5f5be2b46bb528328ea3565e1',
@@ -11667,7 +10735,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metaverse-network-pioneer',
     symbol: 'neer',
     name: 'MNet Pioneer',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1872,
   },
@@ -11675,7 +10743,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metaverser',
     symbol: 'mtvt',
     name: 'Metaverser',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xb92c5e0135a510a4a3a8803f143d2cb085bbaf73',
     },
@@ -11685,7 +10753,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metavpad',
     symbol: 'metav',
     name: 'MetaVPad',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x62858686119135cc00c4a3102b436a0eb314d402',
     },
@@ -11695,7 +10763,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metronome',
     symbol: 'met',
     name: 'Metronome',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2ebd53d035150f328bd754d6dc66b99b0edb89aa',
     },
@@ -11705,7 +10773,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'meter',
     symbol: 'mtrg',
     name: 'Meter Governance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       meter: '0x228ebbee999c6a7ad74a6130e81b12f9fe237ba3',
       'binance-smart-chain': '0xbd2949f67dcdc549c6ebe98696449fa79d988a9f',
@@ -11717,7 +10785,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metfi-2',
     symbol: 'metfi',
     name: 'MetFi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x3e7f1039896454b9cb27c53cc7383e1ab9d9512a',
     },
@@ -11727,7 +10795,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'metis-token',
     symbol: 'metis',
     name: 'Metis',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9e32b13ce7f2e80a01932b42553652e053d6ed8e',
       'metis-andromeda': '0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000',
@@ -11738,7 +10806,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mettalex',
     symbol: 'mtlx',
     name: 'Mettalex',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2e1e15c44ffe4df6a0cb7371cd00d5028e571d14',
       'binance-smart-chain': '0x5921dee8556c4593eefcfad3ca5e2f618606483b',
@@ -11749,7 +10817,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'microvisionchain',
     symbol: 'space',
     name: 'MicrovisionChain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 736,
   },
@@ -11757,7 +10825,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'milady-meme-coin',
     symbol: 'ladys',
     name: 'Milady Meme Coin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x12970e6868f88f6557b76120662c1b3e50a646bf',
       'arbitrum-one': '0x3b60ff35d3f7f62d636b067dd0dc0dfdad670e4e',
@@ -11768,7 +10836,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'milk-alliance',
     symbol: 'mlk',
     name: 'MiL.k Alliance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 430,
   },
@@ -11776,7 +10844,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mimo-parallel-governance-token',
     symbol: 'mimo',
     name: 'Mimo Governance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x90b831fa3bebf58e9744a14d638e25b4ee06f9bc',
       fantom: '0x1d1764f04de29da6b90ffbef372d1a45596c4855',
@@ -11788,7 +10856,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mimblewimblecoin',
     symbol: 'mwc',
     name: 'MimbleWimbleCoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 462,
   },
@@ -11796,7 +10864,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mina-protocol',
     symbol: 'mina',
     name: 'Mina Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 90,
   },
@@ -11804,7 +10872,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'minativerse',
     symbol: 'mntc',
     name: 'MINATIVERSE',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xe4e11e02aa14c7f24db749421986eaec1369e8c9',
     },
@@ -11814,7 +10882,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mind-language',
     symbol: 'mnd',
     name: 'Mind',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa0dd6dd7775e93eb842db0aa142c9c581031ed3b',
     },
@@ -11824,7 +10892,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mineable',
     symbol: 'mnb',
     name: 'Mineable',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x42b91f1d05afea671a2da3c780eda2abf0a2a366',
     },
@@ -11834,7 +10902,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mineral',
     symbol: 'mnr',
     name: 'Mineral',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'klay-token': '0x27dcd181459bcddc63c37bab1e404a313c0dfd79',
     },
@@ -11844,7 +10912,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'minswap',
     symbol: 'min',
     name: 'Minswap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cardano: '29d222ce763455e3d7a09a665ce554f00ac89d2e99a1a83d267170c6',
     },
@@ -11854,7 +10922,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'minted',
     symbol: 'mtd',
     name: 'Minted',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cronos: '0x0224010ba2d567ffa014222ed960d1fa43b8c8e1',
       ethereum: '0x809e130e10e787139c54e1d12d3d1971b7a675bf',
@@ -11865,7 +10933,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mintlayer',
     symbol: 'ml',
     name: 'Mintlayer',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x059956483753947536204e89bfad909e1a434cc6',
     },
@@ -11875,7 +10943,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'minto',
     symbol: 'btcmt',
     name: 'Minto',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'huobi-token': '0x410a56541bd912f9b60943fcb344f1e3d6f09567',
       'binance-smart-chain': '0x410a56541bd912f9b60943fcb344f1e3d6f09567',
@@ -11886,7 +10954,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mirror-protocol',
     symbol: 'mir',
     name: 'Mirror Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x09a3ecafa817268f77be1283176b946c4ff2e608',
       energi: '0x7e58cef7c589e0e1771b9c049cba313fdec31976',
@@ -11899,7 +10967,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mixmob',
     symbol: 'mxm',
     name: 'MixMob',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'H53UGEyBrB9easo9ego8yYk7o4Zq1G5cCtkxD3E3hZav',
     },
@@ -11909,7 +10977,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mizar',
     symbol: 'mzr',
     name: 'Mizar',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0xbbea044f9e7c0520195e49ad1e561572e7e1b948',
     },
@@ -11919,7 +10987,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mmfinance',
     symbol: 'mmf',
     name: 'MMFinance (Cronos)',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       cronos: '0x97749c9b61f878a880dfe312d2594ae07aed7656',
     },
@@ -11929,7 +10997,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mobius',
     symbol: 'mobi',
     name: 'Mobius',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       stellar: 'OBI-GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJPIH',
     },
@@ -11939,7 +11007,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mobox',
     symbol: 'mbox',
     name: 'Mobox',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377',
     },
@@ -11949,7 +11017,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'moby',
     symbol: 'moby',
     name: 'Moby',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x40a7df3df8b56147b781353d379cb960120211d7',
     },
@@ -11959,7 +11027,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mochi-thecatcoin',
     symbol: 'mochi',
     name: 'Mochi',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       base: '0xf6e932ca12afa26665dc4dde7e27be02a7c02e50',
     },
@@ -11969,7 +11037,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'modefi',
     symbol: 'mod',
     name: 'Modefi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xea1ea0972fa092dd463f2968f9bb51cc4c981d71',
       fantom: '0xe64b9fd040d1f9d4715c645e0d567ef69958d3d9',
@@ -11982,7 +11050,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'moe-3',
     symbol: 'moe',
     name: 'MOE',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       mantle: '0x4515a45337f461a11ff0fe8abf3c606ae5dc00c9',
     },
@@ -11992,7 +11060,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mog-coin',
     symbol: 'mog',
     name: 'Mog Coin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xaaee1a9723aadb7afa2810263653a34ba2c21c7a',
     },
@@ -12002,7 +11070,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stargaze',
     symbol: 'stars',
     name: 'Stargaze',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cosmos:
         'ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4',
@@ -12014,7 +11082,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'selfkey',
     symbol: 'key',
     name: 'SelfKey',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4cc19356f2d37338b9802aa8e8fc58b0373296e7',
       'polygon-pos': '0x32dc2dd3c2be453a369625e6fe0e438aed814919',
@@ -12025,7 +11093,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'monavale',
     symbol: 'mona',
     name: 'Monavale',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x275f5ad03be0fa221b4c6649b8aee09a42d9412a',
       'polygon-pos': '0x6968105460f67c3bf751be7c15f92f5286fd0ce5',
@@ -12036,7 +11104,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'monero',
     symbol: 'xmr',
     name: 'Monero',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 57,
   },
@@ -12044,7 +11112,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'monetha',
     symbol: 'mth',
     name: 'Monetha',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaf4dce16da2877f8c9e00544c93b62ac40631f16',
     },
@@ -12054,7 +11122,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mossland',
     symbol: 'moc',
     name: 'Mossland',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x865ec58b06bf6305b886793aa20a2da31d034e68',
     },
@@ -12064,7 +11132,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polymath',
     symbol: 'poly',
     name: 'Polymath',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec',
       energi: '0xe99bbd3b25a014aac93127cf868d3de07386c4dd',
@@ -12075,7 +11143,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'moonbeam',
     symbol: 'glmr',
     name: 'Moonbeam',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 215,
   },
@@ -12083,7 +11151,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'woof-token',
     symbol: 'woof',
     name: 'WOOF',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: '9nEqaUcb16sQ3Tn1psbkWqyhPdLmfHWjKGymREjsAgTE',
     },
@@ -12093,7 +11161,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'moonedge',
     symbol: 'mooned',
     name: 'MoonEdge',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0x7e4c577ca35913af564ee2a24d882a4946ec492b',
     },
@@ -12103,7 +11171,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'moonriver',
     symbol: 'movr',
     name: 'Moonriver',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       moonriver: '0x98878b06940ae243284ca214f92bb71a2b032b8a',
       meter: '0xb158870beb809ad955bf56065c5c10d7fd957cc0',
@@ -12114,7 +11182,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'moonstarter',
     symbol: 'mnst',
     name: 'MoonStarter',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x6a6ccf15b38da4b5b0ef4c8fe9fefcb472a893f9',
     },
@@ -12124,7 +11192,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'moon-tropica',
     symbol: 'cah',
     name: 'Moon Tropica',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8e0e57dcb1ce8d9091df38ec1bfc3b224529754a',
     },
@@ -12134,7 +11202,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'moonwell-artemis',
     symbol: 'well',
     name: 'Moonwell',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       moonbeam: '0x511ab53f793683763e5a8829738301368a2411e3',
       base: '0xff8adec2221f9f4d8dfbafa6b9a297d17603493d',
@@ -12145,7 +11213,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'morpheus-network',
     symbol: 'mnw',
     name: 'Morpheus Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd3e4ba569045546d09cf021ecc5dfe42b1d7f6e4',
       'polygon-pos': '0x3c59798620e5fec0ae6df1a19c6454094572ab92',
@@ -12156,7 +11224,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'moviebloc',
     symbol: 'mbl',
     name: 'MovieBloc',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ontology: 'e5a49d7fd57e7178e189d3965d1ee64368a1036d',
     },
@@ -12166,7 +11234,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'msol',
     symbol: 'msol',
     name: 'Marinade staked SOL',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So',
     },
@@ -12176,7 +11244,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mt-pelerin-shares',
     symbol: 'mps',
     name: 'Mt Pelerin Shares',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x96c645d3d3706f793ef52c19bbace441900ed47d',
       xdai: '0xfa57aa7beed63d03aaf85ffd1753f5f6242588fb',
@@ -12187,7 +11255,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'multivac',
     symbol: 'mtv',
     name: 'MultiVAC',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6226e00bcac68b0fe55583b90a1d727c14fab77f',
       'binance-smart-chain': '0x8aa688ab789d1848d131c65d98ceaa8875d97ef1',
@@ -12198,7 +11266,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mummy-finance',
     symbol: 'mmy',
     name: 'Mummy Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       fantom: '0x01e77288b38b416f972428d562454fb329350bac',
       'optimistic-ethereum': '0x47536f17f4ff30e64a96a7555826b8f9e66ec468',
@@ -12209,7 +11277,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'muse-2',
     symbol: 'muse',
     name: 'Muse DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81',
     },
@@ -12219,7 +11287,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mute',
     symbol: 'mute',
     name: 'Mute',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa49d7499271ae71cd8ab9ac515e6694c755d400c',
       zksync: '0x0e97c7a0f8b2c9885c8ac9fc6136e829cbc21d42',
@@ -12230,7 +11298,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mxc',
     symbol: 'mxc',
     name: 'MXC',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5ca381bbfb58f0092df149bd3d243b08b9a8386e',
     },
@@ -12240,7 +11308,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mx-token',
     symbol: 'mx',
     name: 'MX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x11eef04c884e24d9b7b4760e7476d06ddf797f36',
     },
@@ -12250,7 +11318,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'my-defi-pet',
     symbol: 'dpet',
     name: 'My DeFi Pet',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xfb62ae373aca027177d1c18ee0862817f9080d08',
       kardiachain: '0xfb62ae373aca027177d1c18ee0862817f9080d08',
@@ -12262,7 +11330,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'my-neighbor-alice',
     symbol: 'alice',
     name: 'My Neighbor Alice',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xac51066d7bec65dc4589368da368b212745d63e8',
       'binance-smart-chain': '0xac51066d7bec65dc4589368da368b212745d63e8',
@@ -12273,7 +11341,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'myria',
     symbol: 'myria',
     name: 'Myria',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa0ef786bf476fe0810408caba05e536ac800ff86',
     },
@@ -12283,7 +11351,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'mysterium',
     symbol: 'myst',
     name: 'Mysterium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4cf89ca06ad997bc732dc876ed2a7f26a9e7f361',
       'polygon-pos': '0x1379e8886a944d2d9d440b3d88df536aea08d9f3',
@@ -12295,7 +11363,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nabox',
     symbol: 'nabox',
     name: 'Nabox',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x03d1e72765545729a035e909edd9371a405f77fb',
       'binance-smart-chain': '0x755f34709e369d37c6fa52808ae84a32007d1155',
@@ -12306,7 +11374,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nada-protocol-token',
     symbol: 'nada',
     name: 'NADA Protocol Token',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'hedera-hashgraph': '0.0.4622883',
     },
@@ -12316,7 +11384,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'naga',
     symbol: 'ngc',
     name: 'NAGA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x72dd4b6bd852a3aa172be4d6c5a6dbec588cf131',
     },
@@ -12326,7 +11394,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nakamoto-games',
     symbol: 'naka',
     name: 'Nakamoto Games',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0x311434160d7537be358930def317afb606c0d737',
     },
@@ -12336,7 +11404,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nals',
     symbol: 'nals',
     name: 'NALS',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ordinals:
         'fd8a5b4d53d9afb37ee2845bb5bb70a490373293bf281728bbe712ee9b0872dbi0',
@@ -12347,7 +11415,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nano',
     symbol: 'xno',
     name: 'Nano',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 326,
   },
@@ -12355,7 +11423,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nanobyte',
     symbol: 'nbt',
     name: 'NanoByte',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x1d3437e570e93581bd94b2fd8fbf202d4a65654a',
       ethereum: '0x446f2a8a39cc730ef378be759a3c57f1a3fe824c',
@@ -12366,7 +11434,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'naos-finance',
     symbol: 'naos',
     name: 'NAOS Finance',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x4a615bb7166210cce20e6642a6f8fb5d4d044496',
       'binance-smart-chain': '0x758d08864fb6cce3062667225ca10b8f00496cc2',
@@ -12377,7 +11445,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'napoli-fan-token',
     symbol: 'nap',
     name: 'Napoli Fan Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       chiliz: '0xbe7f1ebb1fd6246844e093b04991ae0e66d12c77',
     },
@@ -12387,7 +11455,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nav-coin',
     symbol: 'nav',
     name: 'Navcoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xbfef6ccfc830d3baca4f6766a0d4aaa242ca9f3d',
     },
@@ -12397,7 +11465,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'near',
     symbol: 'near',
     name: 'NEAR Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 23,
   },
@@ -12405,7 +11473,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'neighbourhoods',
     symbol: 'nht',
     name: 'Neighbourhoods',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x84342e932797fc62814189f01f0fb05f52519708',
       'polygon-pos': '0x84342e932797fc62814189f01f0fb05f52519708',
@@ -12416,7 +11484,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nem',
     symbol: 'xem',
     name: 'NEM',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 201,
   },
@@ -12424,7 +11492,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'neo',
     symbol: 'neo',
     name: 'NEO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 105,
   },
@@ -12432,7 +11500,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'neon',
     symbol: 'neon',
     name: 'Neon',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: 'NeonTjSjsuo3rexg9o6vHuMXw62f9V7zvmu8M8Zut44',
     },
@@ -12442,7 +11510,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'neon-exchange',
     symbol: 'nex',
     name: 'Nash',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       neo: '3a4acd3647086e7c44398aac0349802e6a171129',
       ethereum: '0xe2dc070524a6e305ddb64d8513dc444b6a1ec845',
@@ -12454,7 +11522,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'neos-credits',
     symbol: 'ncr',
     name: 'Neos Credits',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdb5c3c46e28b53a39c255aa39a411dd64e5fed9c',
     },
@@ -12464,7 +11532,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'neptune-mutual',
     symbol: 'npm',
     name: 'Neptune Mutual',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x57f12fe6a4e5fe819eec699fadf9db2d06606bb4',
       'arbitrum-one': '0x57f12fe6a4e5fe819eec699fadf9db2d06606bb4',
@@ -12477,7 +11545,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nervenetwork',
     symbol: 'nvt',
     name: 'NerveNetwork',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1684,
   },
@@ -12485,7 +11553,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nervos-network',
     symbol: 'ckb',
     name: 'Nervos Network',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 129,
   },
@@ -12504,7 +11572,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'netswap',
     symbol: 'nett',
     name: 'Netswap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'metis-andromeda': '0x90fe084f877c65e1b577c7b2ea64b8d8dd1ab278',
     },
@@ -12514,7 +11582,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'neurai',
     symbol: 'xna',
     name: 'Neurai',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 981,
   },
@@ -12522,7 +11590,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'neuroni-ai',
     symbol: 'neuroni',
     name: 'Neuroni AI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x922e2708462c7a3d014d8344f7c4d92b27ecf332',
     },
@@ -12532,7 +11600,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'neutrino-system-base-token',
     symbol: 'nsbt',
     name: 'Neutrino System Base',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       waves: '6nSpVyNH7yM69eg446wrQR94ipbbcmZMU1ENPwanC97g',
       ethereum: '0x9d79d5b61de59d882ce90125b18f74af650acb93',
@@ -12543,7 +11611,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'new-order',
     symbol: 'newo',
     name: 'New Order',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x98585dfc8d9e7d48f0b1ae47ce33332cf4237d96',
       avalanche: '0x4bfc90322dd638f81f034517359bd447f8e0235a',
@@ -12554,7 +11622,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pepe',
     symbol: 'pepe',
     name: 'Pepe',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x6982508145454ce325ddbe47a25d4ec3d2311933',
       'arbitrum-one': '0x25d887ce7a35172c62febfd67a1856f20faebb00',
@@ -12566,7 +11634,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'newscrypto-coin',
     symbol: 'nwc',
     name: 'Newscrypto Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       stellar: 'NWC-GDZJD363YP7P3TNYDK3ZD6GLXFMAI3GLVIH7CGFLNZWIZBQUCVE6PTU7',
       ethereum: '0x968f6f898a6df937fc1859b323ac2f14643e3fed',
@@ -12578,7 +11646,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nexacoin',
     symbol: 'nexa',
     name: 'Nexa',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 1011,
   },
@@ -12586,7 +11654,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nexo',
     symbol: 'nexo',
     name: 'NEXO',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206',
       energi: '0x04640dc771edd73cbeb934fb5461674830baea11',
@@ -12600,7 +11668,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nft-art-finance',
     symbol: 'nftart',
     name: 'NFT Art Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xf7844cb890f4c339c497aeab599abdc3c874b67a',
     },
@@ -12610,7 +11678,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nftb',
     symbol: 'nftb',
     name: 'NFTb',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xde3dbbe30cfa9f437b293294d1fd64b26045c71a',
     },
@@ -12620,7 +11688,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nftbooks',
     symbol: 'nftbs',
     name: 'NFTBooks',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x6396252377f54ad33cff9131708da075b21d9b88',
     },
@@ -12630,7 +11698,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nft-worlds',
     symbol: 'wrld',
     name: 'NFT Worlds',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd5d86fc8d5c0ea1ac1ac5dfab6e529c9967a45e9',
       'polygon-pos': '0xd5d86fc8d5c0ea1ac1ac5dfab6e529c9967a45e9',
@@ -12641,7 +11709,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nftx',
     symbol: 'nftx',
     name: 'NFTX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x87d73e916d7057945c9bcd8cdd94e42a6f47f776',
     },
@@ -12651,7 +11719,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'shiba-inu',
     symbol: 'shib',
     name: 'Shiba Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce',
     },
@@ -12661,7 +11729,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nimiq-2',
     symbol: 'nim',
     name: 'Nimiq',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 1202,
   },
@@ -12669,7 +11737,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nitro-cartel',
     symbol: 'trove',
     name: 'Arbitrove Governance Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x982239d38af50b0168da33346d85fb12929c4c07',
     },
@@ -12679,7 +11747,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nunet',
     symbol: 'ntx',
     name: 'NuNet',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf0d33beda4d734c72684b5f9abbebf715d0a7935',
       cardano: 'edfd7a1d77bcb8b884c474bdc92a16002d1fb720e454fa6e993444794e5458',
@@ -12691,7 +11759,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nix-bridge-token',
     symbol: 'voice',
     name: 'Voice',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2e2364966267b5d7d2ce6cd9a9b5bd19d9c7c6a9',
     },
@@ -12701,7 +11769,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nkn',
     symbol: 'nkn',
     name: 'NKN',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5cf04716ba20127f1e2297addcf4b5035000c9eb',
     },
@@ -12711,7 +11779,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nodle-network',
     symbol: 'nodl',
     name: 'Nodle Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 973,
   },
@@ -12719,7 +11787,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'noia-network',
     symbol: 'noia',
     name: 'Syntropy',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca',
     },
@@ -12729,7 +11797,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nolus',
     symbol: 'nls',
     name: 'Nolus',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1322,
   },
@@ -12737,7 +11805,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nominex',
     symbol: 'nmx',
     name: 'Nominex',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xd32d01a43c869edcd1117c640fbdcfcfd97d9d65',
     },
@@ -12747,7 +11815,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'non-playable-coin',
     symbol: 'npc',
     name: 'Non-Playable Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8ed97a637a790be1feff5e888d43629dc05408f6',
       base: '0xb166e8b140d35d9d8226e40c09f757bac5a4d87d',
@@ -12758,7 +11826,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nord-finance',
     symbol: 'nord',
     name: 'Nord Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6e9730ecffbed43fd876a264c982e254ef05a0de',
       fantom: '0xeaf26191ac1d35ae30baa19a5ad5558dd8156aef',
@@ -12771,7 +11839,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'robonomics-network',
     symbol: 'xrt',
     name: 'Robonomics Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7de91b204c1c737bcee6f000aaa6569cf7061cb7',
       sora: '0x0083d5cbb4b90163b6a003e8f771eb7c0e2b706892cd0cbadb03f55cb9e06919',
@@ -12782,7 +11850,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nosana',
     symbol: 'nos',
     name: 'Nosana',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7',
     },
@@ -12792,7 +11860,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'uno-re',
     symbol: 'uno',
     name: 'Uno Re',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x474021845c4643113458ea4414bdb7fb74a01a77',
       'binance-smart-chain': '0x474021845c4643113458ea4414bdb7fb74a01a77',
@@ -12803,7 +11871,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'not-financial-advice',
     symbol: 'nfai',
     name: 'Not Financial Advice',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x17c50d62e6e8d20d2dc18e9ad79c43263d0720d9',
     },
@@ -12813,7 +11881,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nucleon-xcfx',
     symbol: 'xcfx',
     name: 'Nucleon xCFX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       conflux: '0x889138644274a7dc602f25a7e7d53ff40e6d0091',
     },
@@ -12823,7 +11891,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nuco-cloud',
     symbol: 'ncdt',
     name: 'nuco.cloud',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe0c8b298db4cffe05d1bea0bb1ba414522b33c1b',
     },
@@ -12833,7 +11901,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nuls',
     symbol: 'nuls',
     name: 'NULS',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 554,
   },
@@ -12841,7 +11909,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'numbers-protocol',
     symbol: 'num',
     name: 'Numbers Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3496b523e5c00a4b4150d6721320cddb234c3079',
       'binance-smart-chain': '0xeceb87cf00dcbf2d4e2880223743ff087a995ad9',
@@ -12852,7 +11920,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'numeraire',
     symbol: 'nmr',
     name: 'Numeraire',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1776e1f26f98b1a5df9cd347953a26dd3cb46671',
       energi: '0xd72922e849477a042a7e6dc84309f4bc1c1227a2',
@@ -12863,7 +11931,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nuritopia',
     symbol: 'nblu',
     name: 'Nuritopia',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x6ba5657bbff83cb579503847c6baa47295ef79a8',
     },
@@ -12873,7 +11941,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nusd',
     symbol: 'susd',
     name: 'sUSD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x57ab1ec28d129707052df4df418d58a2d46d5f51',
       fantom: '0x0e1694483ebb3b74d3054e383840c6cf011e518e',
@@ -12886,7 +11954,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nvirworld',
     symbol: 'nvir',
     name: 'NvirWorld',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9d71ce49ab8a0e6d2a1e7bfb89374c9392fd6804',
       'binance-smart-chain': '0x9d71ce49ab8a0e6d2a1e7bfb89374c9392fd6804',
@@ -12897,7 +11965,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nxm',
     symbol: 'nxm',
     name: 'Nexus Mutual',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b',
     },
@@ -12907,7 +11975,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nxt',
     symbol: 'nxt',
     name: 'NXT',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2496,
   },
@@ -12915,7 +11983,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'nym',
     symbol: 'nym',
     name: 'Nym',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x525a8f6f3ba4752868cde25164382bfbae3990e1',
     },
@@ -12925,7 +11993,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'o3-swap',
     symbol: 'o3',
     name: 'O3 Swap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xee9801669c6138e84bd50deb500827b776777d28',
       fantom: '0xee9801669c6138e84bd50deb500827b776777d28',
@@ -12943,7 +12011,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'oasis-network',
     symbol: 'rose',
     name: 'Oasis Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xf00600ebc7633462bc4f9c61ea2ce99f5aaebd4a',
     },
@@ -12953,7 +12021,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'oasys',
     symbol: 'oas',
     name: 'Oasys',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 376,
   },
@@ -12961,7 +12029,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'oath',
     symbol: 'oath',
     name: 'OATH',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       fantom: '0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6',
       ethereum: '0xd20523b39faf1d6e9023a4d6085f87b7b0de7926',
@@ -12977,7 +12045,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'obortech',
     symbol: 'obot',
     name: 'Obortech',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xedadeb5faa413e6c8623461849dfd0b7c3790c32',
       'binance-smart-chain': '0xb5be8d87fce6ce87a24b90abdb019458a8ec31f9',
@@ -12989,7 +12057,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'observer-coin',
     symbol: 'obsr',
     name: 'Observer',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'klay-token': '0x3cb6be2fc6677a63cb52b07aed523f93f5a06cb4',
     },
@@ -12999,7 +12067,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'oceanex',
     symbol: 'oce',
     name: 'OceanEX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       vechain: '0x0ce6661b4ba86a0ea7ca2bd86a0de87b0b860f14',
     },
@@ -13009,7 +12077,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ocean-protocol',
     symbol: 'ocean',
     name: 'Ocean Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x967da4048cd07ab37855c090aaf366e4ce1b9f48',
       sora: '0x002ca40397c794e25dba18cf807910eeb69eb8e81b3f07bb54f7c5d1d8ab76b9',
@@ -13023,7 +12091,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'octaspace',
     symbol: 'octa',
     name: 'OctaSpace',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 898,
   },
@@ -13041,7 +12109,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'octo-gaming',
     symbol: 'otk',
     name: 'Octokn',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'octo82drBEdm8CSDaEKBymVn86TBtgmPnDdmE64PTqJ',
     },
@@ -13051,7 +12119,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'oddz',
     symbol: 'oddz',
     name: 'Oddz',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xcd2828fc4d8e8a0ede91bb38cf64b1a81de65bf6',
       avalanche: '0xb0a6e056b587d0a85640b39b1cb44086f7a26a1e',
@@ -13064,7 +12132,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'oec-token',
     symbol: 'okt',
     name: 'OKT Chain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 234,
   },
@@ -13072,7 +12140,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'offshift',
     symbol: 'xft',
     name: 'Offshift',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x76bc677d444f1e9d57daf5187ee2b7dc852745ae',
       'binance-smart-chain': '0xe138c66982fd5c890c60b94fdba1747faf092c20',
@@ -13083,7 +12151,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'oggy-inu',
     symbol: 'oggy',
     name: 'Oggy Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x92ed61fb8955cc4e392781cb8b7cd04aadc43d0c',
     },
@@ -13105,7 +12173,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'okratech-token',
     symbol: 'ort',
     name: 'Okratech',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x9e711221b34a2d4b8f552bd5f4a6c4e7934920f7',
     },
@@ -13115,7 +12183,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'omax-token',
     symbol: 'omax',
     name: 'Omax',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1412,
   },
@@ -13134,7 +12202,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ommniverse',
     symbol: 'ommi',
     name: 'Ommniverse',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xbc2659ead8d2d13a157a75bfc5acc156e1ea06df',
     },
@@ -13144,7 +12212,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'omnicat',
     symbol: 'omni',
     name: 'OmniCat',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9e20461bc2c4c980f62f1b279d71734207a6a356',
       blast: '0x9e20461bc2c4c980f62f1b279d71734207a6a356',
@@ -13161,7 +12229,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'onbuff',
     symbol: 'onit',
     name: 'ONBUFF',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x410e731c2970dce3add351064acf5ce9e33fdbf0',
     },
@@ -13171,7 +12239,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'one-ledger',
     symbol: 'olt',
     name: 'OneLedger',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x64a60493d888728cf42616e034a0dfeae38efcf0',
     },
@@ -13181,7 +12249,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'onerare',
     symbol: 'orare',
     name: 'OneRare',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xff2382bd52efacef02cc895bcbfc4618608aa56f',
     },
@@ -13191,7 +12259,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ong',
     symbol: 'ong',
     name: 'Ontology Gas',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 398,
   },
@@ -13199,7 +12267,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'onomy-protocol',
     symbol: 'nom',
     name: 'Onomy Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/B9606D347599F0F2FDF82BA3EE339000673B7D274EA50F59494DC51EFCD42163',
@@ -13210,7 +12278,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'onooks',
     symbol: 'ooks',
     name: 'Onooks',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x69d9905b2e5f6f5433212b7f3c954433f23c1572',
     },
@@ -13220,7 +12288,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ooki',
     symbol: 'ooki',
     name: 'Ooki',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0de05f6447ab4d22c8827449ee4ba2d5c288379b',
     },
@@ -13230,7 +12298,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'openanx',
     symbol: 'oax',
     name: 'OAX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x701c244b988a513c945973defa05de933b23fe1d',
     },
@@ -13240,7 +12308,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'openocean',
     symbol: 'ooe',
     name: 'OpenOcean',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x8ea5219a16c2dbf1d6335a6aa0c6bd45c50347c5',
       'arbitrum-one': '0xdcbf4cb83d27c408b30dd7f39bfcabd7176b1ba3',
@@ -13251,7 +12319,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'opium',
     symbol: 'opium',
     name: 'Opium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x888888888889c00c67689029d7856aac1065ec11',
       'binance-smart-chain': '0x566cedd201f67e542a6851a2959c1a449a041945',
@@ -13263,7 +12331,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'optimism',
     symbol: 'op',
     name: 'Optimism',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'optimistic-ethereum': '0x4200000000000000000000000000000000000042',
     },
@@ -13273,7 +12341,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'optimus-ai',
     symbol: 'opti',
     name: 'Optimus AI',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x562e362876c8aee4744fc2c6aac8394c312d215d',
     },
@@ -13296,7 +12364,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'oraichain-token',
     symbol: 'orai',
     name: 'Oraichain',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x4c11249814f11b9346808179cf06e71ac328c1b5',
       'binance-smart-chain': '0xa325ad6d9c92b55a3fc5ad7e412b1518f96441c0',
@@ -13307,7 +12375,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'origin-ether',
     symbol: 'oeth',
     name: 'Origin Ether',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3',
     },
@@ -13317,7 +12385,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'orbofi-ai',
     symbol: 'obi',
     name: 'Orbofi AI',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xbb3a8fd6ec4bf0fdc6cd2739b1e41192d12b1873',
       'binance-smart-chain': '0x69a87c8788d4a48c1362b3b357d0e6b59c11d93f',
@@ -13328,7 +12396,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'orbs',
     symbol: 'orbs',
     name: 'Orbs',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa',
       fantom: '0x43a8cab15d06d3a5fe5854d714c37e7e9246f170',
@@ -13343,7 +12411,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'orchid-protocol',
     symbol: 'oxt',
     name: 'Orchid Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4575f41308ec1483f3d399aa9a2826d74da13deb',
     },
@@ -13353,7 +12421,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ordinals',
     symbol: 'ordi',
     name: 'ORDI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ordinals:
         'b61b0172d95e266c18aea0c624db987e971a5d6d4ebc2aaed85da4642d635735i0',
@@ -13364,7 +12432,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'origin-dollar',
     symbol: 'ousd',
     name: 'Origin Dollar',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2a8e1e676ec238d8a992307b495b45b3feaa5e86',
       astar: '0x29f6e49c6e3397c3a84f715885f9f233a441165c',
@@ -13375,7 +12443,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'origin-protocol',
     symbol: 'ogn',
     name: 'Origin Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8207c1ffc5b6804f6024322ccf34f29c3541ae26',
       sora: '0x0064c02f602195e298780323c79a0eb5b4fd0ffcad68d440a7ca7725bc79d912',
@@ -13387,7 +12455,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'origintrail',
     symbol: 'trac',
     name: 'OriginTrail',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f',
     },
@@ -13397,7 +12465,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'orion-protocol',
     symbol: 'orn',
     name: 'Orion',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x0258f474786ddfd37abce6df6bbb1dd5dfc4434a',
       energi: '0x5e2d55bc07b63b18af6c9ed8da06cd33258ebb35',
@@ -13409,7 +12477,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'osaka-protocol',
     symbol: 'osak',
     name: 'Osaka Protocol',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xa21af1050f7b26e0cff45ee51548254c41ed6b5c',
       'optimistic-ethereum': '0xbfd5206962267c7b4b4a8b3d76ac2e1b2a5c4d5e',
@@ -13425,7 +12493,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'osmosis',
     symbol: 'osmo',
     name: 'Osmosis',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       evmos: '0xfa3c22c069b9556a4b2f7ece1ee3b467909f4864',
       secret: 'secret150jec8mc2hzyyqak4umv6cfevelr0x9p0mjxgg',
@@ -13436,7 +12504,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'outer-ring',
     symbol: 'gq',
     name: 'Blink Galaxy',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xf700d4c708c2be1463e355f337603183d20e0808',
     },
@@ -13446,7 +12514,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ovr',
     symbol: 'ovr',
     name: 'Ovr',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697',
       'binance-smart-chain': '0x7e35d0e9180bf3a1fc47b0d110be7a21a10b41fe',
@@ -13458,7 +12526,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'oxbull-tech-2',
     symbol: 'oxb',
     name: 'Oxbull Tech',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x7536c00711e41df6aebcca650791107645b6bc52',
     },
@@ -13468,7 +12536,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ox-fun',
     symbol: 'ox',
     name: 'OX Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xba0dda8762c24da9487f5fa026a9b64b695a07ea',
       'arbitrum-one': '0xba0dda8762c24da9487f5fa026a9b64b695a07ea',
@@ -13482,7 +12550,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'oxygen',
     symbol: 'oxy',
     name: 'Oxygen',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'z3dn17yLaGMKffVogeFHQ9zWVcXgqgf3PQnDsNs2g6M',
       ethereum: '0x965697b4ef02f0de01384d0d4f9f782b1670c163',
@@ -13493,7 +12561,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ozone-chain',
     symbol: 'ozo',
     name: 'Ozone Chain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 537,
   },
@@ -13501,7 +12569,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'paal-ai',
     symbol: 'paal',
     name: 'PAAL AI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x14fee680690900ba0cccfc76ad70fd1b95d10e16',
     },
@@ -13511,7 +12579,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'paccoin',
     symbol: 'pac',
     name: 'PAC Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2533,
   },
@@ -13519,7 +12587,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'parrot-usd',
     symbol: 'pai',
     name: 'Parrot USD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS',
     },
@@ -13529,7 +12597,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'paid-network',
     symbol: 'paid',
     name: 'PAID Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787',
       'binance-smart-chain': '0xad86d0e9764ba90ddd68747d64bffbd79879a238',
@@ -13540,7 +12608,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'paint-swap',
     symbol: 'brush',
     name: 'Paint Swap',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       fantom: '0x85dec8c4b2680793661bca91a8f129607571863d',
     },
@@ -13550,7 +12618,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'poollotto-finance',
     symbol: 'plt',
     name: 'Poollotto.finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x631c2f0edabac799f07550aee4ff0bf7fd35212b',
     },
@@ -13560,7 +12628,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'palm-ai',
     symbol: 'palm',
     name: 'PaLM AI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf1df7305e4bab3885cab5b1e4dfc338452a67891',
     },
@@ -13570,7 +12638,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pancakeswap-token',
     symbol: 'cake',
     name: 'PancakeSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
       ethereum: '0x152649ea73beab28c5b49b26eb48f7ead6d4c898',
@@ -13583,7 +12651,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pangolin',
     symbol: 'png',
     name: 'Pangolin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       avalanche: '0x60781c2586d68229fde47564546784ab3faca982',
     },
@@ -13593,7 +12661,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'panther',
     symbol: 'zkp',
     name: 'Panther Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x909e34d3f6124c324ac83dcca84b74398a6fa173',
       'polygon-pos': '0x9a06db14d639796b25a6cec6a1bf614fd98815ec',
@@ -13604,7 +12672,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'paragen',
     symbol: 'rgen',
     name: 'Paragen',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x25382fb31e4b22e0ea09cb0761863df5ad97ed72',
     },
@@ -13614,7 +12682,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'paragonsdao',
     symbol: 'pdt',
     name: 'ParagonsDAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x375abb85c329753b1ba849a601438ae77eec9893',
     },
@@ -13624,7 +12692,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'paratoken-2',
     symbol: 'para',
     name: 'Para',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd16fd95d949f996e3808eeea0e3881c59e76ef1e',
     },
@@ -13634,7 +12702,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'paraswap',
     symbol: 'psp',
     name: 'ParaSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xcafe001067cdef266afb7eb5a286dcfd277f3de5',
       'optimistic-ethereum': '0xd3594e879b358f430e20f82bea61e83562d49d48',
@@ -13647,7 +12715,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'parex',
     symbol: 'prx',
     name: 'Parex',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x90e3414e00e231b962666bd94adb811d5bcd0c2a',
     },
@@ -13657,7 +12725,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'paribus',
     symbol: 'pbx',
     name: 'Paribus',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd528cf2e081f72908e086f8800977df826b5a483',
       cardano:
@@ -13670,7 +12738,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'parsiq',
     symbol: 'prq',
     name: 'PARSIQ',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x362bc847a3a9637d3af6624eec853618a43ed7d2',
       'binance-smart-chain': '0xd21d29b38374528675c34936bf7d5dd693d2a577',
@@ -13681,7 +12749,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'particl',
     symbol: 'part',
     name: 'Particl',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1795,
   },
@@ -13689,7 +12757,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'passage',
     symbol: 'pasg',
     name: 'Passage',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/208B2F137CDE510B44C41947C045CFDC27F996A9D990EA64460BDD5B3DBEB2ED',
@@ -13700,7 +12768,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pastel',
     symbol: 'psl',
     name: 'Pastel',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc775c0c30840cb9f51e21061b054ebf1a00acc29',
     },
@@ -13710,7 +12778,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pawswap',
     symbol: 'paw',
     name: 'PAWSWAP',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xdc63269ea166b70d4780b3a11f5c825c2b761b01',
     },
@@ -13720,7 +12788,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pawthereum',
     symbol: 'pawth',
     name: 'Pawthereum',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaecc217a749c2405b5ebc9857a16d58bdc1c367f',
       'binance-smart-chain': '0x409e215738e31d8ab252016369c2dd9c2008fee0',
@@ -13731,7 +12799,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pax-gold',
     symbol: 'paxg',
     name: 'PAX Gold',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x45804880de22913dafe09f4980848ece6ecbaf78',
       'harmony-shard-0': '0x7afb0e2eba6dc938945fe0f42484d3b8f442d0ac',
@@ -13743,7 +12811,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tenx',
     symbol: 'pay',
     name: 'TenX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb97048628db6b661d4c2aa833e95dbe1a905b280',
     },
@@ -13753,7 +12821,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'paypal-usd',
     symbol: 'pyusd',
     name: 'PayPal USD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6c3ea9036406852006290770bedfcaba0e23a0e8',
     },
@@ -13763,7 +12831,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pchain',
     symbol: 'pi',
     name: 'Plian',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1959,
   },
@@ -13771,7 +12839,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'peardao',
     symbol: 'pex',
     name: 'PearDAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x6a0b66710567b6beb81a71f7e9466450a91a384b',
     },
@@ -13781,7 +12849,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'peercoin',
     symbol: 'ppc',
     name: 'Peercoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x044d078f1c86508e13328842cc75ac021b272958',
       'polygon-pos': '0x91e7e32c710661c44ae44d10aa86135d91c3ed65',
@@ -13792,7 +12860,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pegaxy-stone',
     symbol: 'pgx',
     name: 'Pegaxy',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xc1c93d475dc82fe72dbc7074d55f5a734f8ceeae',
       avalanche: '0x0ef27ddc8f89d4886e89d630de089962ffc12e43',
@@ -13803,7 +12871,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'penpie',
     symbol: 'pnp',
     name: 'Penpie',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x7dedbce5a2e31e4c75f87fea60bf796c17718715',
       'arbitrum-one': '0x2ac2b254bc18cd4999f64773a966e4f4869c34ee',
@@ -13815,7 +12883,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'peri-finance',
     symbol: 'peri',
     name: 'PERI Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5d30ad9c6374bf925d0a75454fa327aacf778492',
       'binance-smart-chain': '0xb49b7e0742ecb4240ffe91661d2a580677460b6a',
@@ -13827,7 +12895,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'perion',
     symbol: 'perc',
     name: 'Perion',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x60be1e1fe41c1370adaf5d8e66f07cf1c2df2268',
     },
@@ -13837,7 +12905,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'perpetual-protocol',
     symbol: 'perp',
     name: 'Perpetual Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbc396689893d065f41bc2c6ecbee5e0085233447',
       'optimistic-ethereum': '0x9e1028f5f1d5ede59748ffcee5532509976840e0',
@@ -13851,7 +12919,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'per-project',
     symbol: 'per',
     name: 'PER Project',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'klay-token': '0x7eee60a000986e9efe7f5c90340738558c24317b',
     },
@@ -13861,7 +12929,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'perpy-finance',
     symbol: 'pry',
     name: 'Perpy Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x1824a51c106efc27d35a74efb56d9bf54ddb22d4',
     },
@@ -13871,7 +12939,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'persistence',
     symbol: 'xprt',
     name: 'Persistence One',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/A0CC0CF735BFB30E730C70019D4218A1244FF383503FF7579C9201AB93CA9293',
@@ -13882,7 +12950,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'petals',
     symbol: 'pts',
     name: 'Petals',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xfa53a4778431712af31a11621edee4d0926df1ac',
     },
@@ -13892,7 +12960,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pha',
     symbol: 'pha',
     name: 'Phala',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6c5ba91642f10282b576d91922ae6448c9d52f4e',
       sora: '0x0033271716eec64234a5324506c4558de27b7c23c42f3e3b74801f98bdfeebf7',
@@ -13903,7 +12971,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'phoenix-global',
     symbol: 'phb',
     name: 'Phoenix',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x0409633a72d846fc5bbe2f98d88564d35987904d',
     },
@@ -13913,7 +12981,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'phonon-dao',
     symbol: 'phonon',
     name: 'Phonon DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x758b4684be769e92eefea93f60dda0181ea303ec',
       'arbitrum-one': '0x39a49bc5017fc668299cd32e734c9269acc35295',
@@ -13924,7 +12992,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pibble',
     symbol: 'pib',
     name: 'Pibble',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1864ce27e9f7517047933caae530674e8c70b8a7',
       'klay-token': '0xafde910130c335fa5bd5fe991053e3e0a49dce7b',
@@ -13935,7 +13003,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'picasso',
     symbol: 'pica',
     name: 'Picasso',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbb63a9b64a80e9338b8ea298c51765e57c4f159c',
       secret: 'secret1e0y9vf4xr9wffyxsvlz35jzl5st2srkdl8frac',
@@ -13946,7 +13014,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'piccolo-inu',
     symbol: 'pinu',
     name: 'Piccolo Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x3a1311b8c404629e38f61d566cefefed083b9670',
     },
@@ -13956,7 +13024,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pickle-finance',
     symbol: 'pickle',
     name: 'Pickle Finance',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x429881672b9ae42b8eba0e26cd9c73711b891ca5',
       'arbitrum-one': '0x965772e0e9c84b6f359c8597c891108dcf1c5b1a',
@@ -13969,7 +13037,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pika-protocol',
     symbol: 'pika',
     name: 'Pika Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'optimistic-ethereum': '0x9a601c5bb360811d96a23689066af316a30c3027',
     },
@@ -13979,7 +13047,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pillar',
     symbol: 'plr',
     name: 'Pillar',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe3818504c1b32bf1557b16c238b2e01fd3149c17',
       'polygon-pos': '0xa6b37fc85d870711c56fbcb8afe2f8db049ae774',
@@ -13991,7 +13059,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pinksale',
     symbol: 'pinksale',
     name: 'PinkSale',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x602ba546a7b06e0fc7f58fd27eb6996ecc824689',
     },
@@ -14001,7 +13069,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'snailbrook',
     symbol: 'snail',
     name: 'SnailBrook',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x6bc40d4099f9057b23af309c08d935b890d7adc0',
     },
@@ -14011,7 +13079,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pintu-token',
     symbol: 'ptu',
     name: 'Pintu',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc229c69eb3bb51828d0caa3509a05a51083898dd',
     },
@@ -14021,7 +13089,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pip',
     symbol: 'pip',
     name: 'PIP',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'HHjoYwUp5aU6pnrvN4s2pwEErwXNZKhxKGYjRJMoBjLw',
     },
@@ -14031,7 +13099,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pirate-chain',
     symbol: 'arrr',
     name: 'Pirate Chain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 946,
   },
@@ -14039,7 +13107,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pointpay',
     symbol: 'pxp',
     name: 'PointPay',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x95aa5d2dbd3c16ee3fdea82d5c6ec3e38ce3314f',
     },
@@ -14049,7 +13117,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pivx',
     symbol: 'pivx',
     name: 'PIVX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 896,
   },
@@ -14057,7 +13125,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pixels',
     symbol: 'pixel',
     name: 'Pixels',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31',
       ronin: '0x7eae20d11ef8c779433eb24503def900b9d28ad7',
@@ -14068,7 +13136,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pkt',
     symbol: 'pkt',
     name: 'PKT',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1373,
   },
@@ -14076,7 +13144,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'planetwatch',
     symbol: 'planets',
     name: 'PlanetWatch',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       algorand: '27165954',
     },
@@ -14086,7 +13154,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'plasma-finance',
     symbol: 'ppay',
     name: 'Plasma Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x054d64b73d3d8a21af3d764efd76bcaa774f3bb2',
       'polygon-pos': '0x08158a6b5d4018340387d1a302f882e98a8bc5b4',
@@ -14098,7 +13166,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'plastiks',
     symbol: 'plastik',
     name: 'Plastiks',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       celo: '0x27cd006548df7c8c8e9fdc4a67fa05c2e3ca5cf9',
     },
@@ -14108,7 +13176,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'platon-network',
     symbol: 'lat',
     name: 'PlatON Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 518,
   },
@@ -14116,7 +13184,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'playa3ull-games-2',
     symbol: '3ull',
     name: 'PLAYA3ULL GAMES',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       avalanche: '0xa77e70d0af1ac7ff86726740db1bd065c3566937',
     },
@@ -14126,7 +13194,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'playchip',
     symbol: 'pla',
     name: 'PlayChip',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0198f46f520f33cd4329bd4be380a25a90536cd5',
     },
@@ -14136,7 +13204,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'waves',
     symbol: 'waves',
     name: 'Waves',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1cf4592ebffd730c7dc92c1bdffdfc3b9efcf29a',
     },
@@ -14146,7 +13214,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'playzap',
     symbol: 'pzp',
     name: 'PlayZap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x6ad9e9c098a45b2b41b519119c31c3dcb02accb2',
       eos: '0xf6f46bd1f85ebf00c6d7490678ad020bc73969a7',
@@ -14160,7 +13228,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'plearn',
     symbol: 'pln',
     name: 'PLEARN',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xbe0d3526fc797583dada3f30bc390013062a048b',
     },
@@ -14170,7 +13238,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pleasure-coin',
     symbol: 'nsfw',
     name: 'Pleasure Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x8f006d1e1d9dc6c98996f50a4c810f17a47fbf19',
       ethereum: '0x8f006d1e1d9dc6c98996f50a4c810f17a47fbf19',
@@ -14182,7 +13250,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'plebbit',
     symbol: 'pleb',
     name: 'Plebbit',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xea81dab2e0ecbc6b5c4172de4c22b6ef6e55bd8f',
     },
@@ -14192,7 +13260,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'plex',
     symbol: 'plex',
     name: 'PLEX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1698,
   },
@@ -14200,7 +13268,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'plugin',
     symbol: 'pli',
     name: 'Plugin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'xdc-network': 'xdcff7412ea7c8445c46a8254dfb557ac1e48094391',
     },
@@ -14210,7 +13278,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pluton',
     symbol: 'plu',
     name: 'Pluton',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd8912c10681d8b21fd3742244f44658dba12264e',
     },
@@ -14220,7 +13288,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pnetwork',
     symbol: 'pnt',
     name: 'pNetwork',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x89ab32156e46f46d02ade3fecbe5fc4243b9aaed',
       'binance-smart-chain': '0xdaacb0ab6fb34d24e8a67bfa14bf4d95d4c7af92',
@@ -14231,7 +13299,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pocket-network',
     symbol: 'pokt',
     name: 'Pocket Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 244,
   },
@@ -14239,7 +13307,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polaris-share',
     symbol: 'pola',
     name: 'Polaris Share',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc691bc298a304d591ad9b352c7a8d216de9f2ced',
     },
@@ -14249,7 +13317,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polkabridge',
     symbol: 'pbr',
     name: 'PolkaBridge',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x298d492e8c1d909d3f63bc4a36c66c64acb3d695',
       'polygon-pos': '0x0d6ae2a429df13e44a07cd2969e085e4833f64a0',
@@ -14261,7 +13329,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polka-city',
     symbol: 'polc',
     name: 'Polkacity',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xaa8330fb2b4d5d07abfe7a72262752a8505c6b37',
       'binance-smart-chain': '0x6ae9701b9c423f40d54556c9a443409d79ce170a',
@@ -14272,7 +13340,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polkadex',
     symbol: 'pdex',
     name: 'Polkadex',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf59ae934f6fe444afc309586cc60a84a0f89aaea',
       sora: '0x008a99c642c508f4f718598f32fa9ecbeea854e335312fecdbd298b92de26e21',
@@ -14283,7 +13351,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polkafoundry',
     symbol: 'pkf',
     name: 'Red Kite',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8b39b70e39aa811b69365398e0aace9bee238aeb',
     },
@@ -14293,7 +13361,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polkamarkets',
     symbol: 'polk',
     name: 'Polkamarkets',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xd478161c952357f05f0292b56012cd8457f1cfbf',
     },
@@ -14303,7 +13371,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polkastarter',
     symbol: 'pols',
     name: 'Polkastarter',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa',
       'binance-smart-chain': '0x7e624fa0e1c4abfd309cc15719b7e2580887f570',
@@ -14314,7 +13382,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polkaswap',
     symbol: 'pswap',
     name: 'Polkaswap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x519c1001d550c0a1dae7d1fc220f7d14c2a521bb',
       sora: '0x0200050000000000000000000000000000000000000000000000000000000000',
@@ -14325,7 +13393,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polker',
     symbol: 'pkr',
     name: 'Polker',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0x140a4e80dd8184536acc45f1c452d7540472e6e1',
     },
@@ -14335,7 +13403,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polychain-monsters',
     symbol: 'pmon',
     name: 'Polychain Monsters',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x1796ae0b0fa4862485106a0de9b654efe301d0b2',
       'binance-smart-chain': '0x1796ae0b0fa4862485106a0de9b654efe301d0b2',
@@ -14347,7 +13415,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polydoge',
     symbol: 'polydoge',
     name: 'PolyDoge',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0x8a953cfe442c5e8855cc6c61b1293fa648bae472',
     },
@@ -14357,7 +13425,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polygon-ecosystem-token',
     symbol: 'pol',
     name: 'Polygon Ecosystem Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x455e53cbb86018ac2b8092fdcd39d8444affc3f6',
     },
@@ -14367,7 +13435,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polylastic',
     symbol: 'polx',
     name: 'Polylastic',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x187ae45f2d361cbce37c6a8622119c91148f261b',
     },
@@ -14377,7 +13445,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polymesh',
     symbol: 'polyx',
     name: 'Polymesh',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 157,
   },
@@ -14385,7 +13453,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polypad',
     symbol: 'polypad',
     name: 'PolyPad',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x30ea765d4dda26e0f89e1b23a7c7b2526b7d29ec',
       'binance-smart-chain': '0x8ae619d633cce175a2fbcfa1cea119ddc80f1342',
@@ -14396,7 +13464,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polyswarm',
     symbol: 'nct',
     name: 'PolySwarm',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9e46a38f5daabe8683e10793b06749eef7d733d1',
       'polygon-pos': '0x4985e0b13554fb521840e893574d3848c10fcc6f',
@@ -14407,7 +13475,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'polytrade',
     symbol: 'trade',
     name: 'Polytrade',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6e5970dbd6fc7eb1f29c6d2edf2bc4c36124c0c1',
       'arbitrum-one': '0xe22c452bd2ade15dfc8ad98286bc6bdf0c9219b7',
@@ -14420,7 +13488,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pooh',
     symbol: 'pooh',
     name: 'POOH',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xb69753c06bb5c366be51e73bfc0cc2e3dc07e371',
       solana: 'J8XFfJgS1cs5WVGxGwZb9Rt5rJZizdyzaLhidtvDnYjC',
@@ -14431,7 +13499,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'poolz-finance-2',
     symbol: 'poolx',
     name: 'Poolz Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xbaea9aba1454df334943951d51116ae342eab255',
     },
@@ -14441,7 +13509,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'popcat',
     symbol: 'popcat',
     name: 'Popcat',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: '7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr',
     },
@@ -14451,7 +13519,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'popcorn',
     symbol: 'pop',
     name: 'Popcorn',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd0cd466b34a24fcb2f87676278af2005ca8a78c4',
       'optimistic-ethereum': '0x6f0fecbc276de8fc69257065fe47c5a03d986394',
@@ -14465,7 +13533,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'populous',
     symbol: 'ppt',
     name: 'Populous',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a',
       energi: '0x2483a716a4a5476da5e657be13a37cf62b608ab6',
@@ -14476,7 +13544,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'portal-2',
     symbol: 'portal',
     name: 'Portal',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1bbe973bef3a977fc51cbed703e8ffdefe001fed',
     },
@@ -14486,7 +13554,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'power',
     symbol: 'pwr',
     name: 'MaxxChain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd9dcd611bed2be9a4700c725a3810870b9bff094',
     },
@@ -14496,7 +13564,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'power-ledger',
     symbol: 'powr',
     name: 'Powerledger',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x595832f8fc6bf59c85c527fec3740a1b7a361269',
       energi: '0xd1bbc2a68b97a8ae4b423bbf534e767ef6275a30',
@@ -14507,7 +13575,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'presearch',
     symbol: 'pre',
     name: 'Presearch',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xec213f83defb583af3a000b1c0ada660b1902a0f',
     },
@@ -14517,7 +13585,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'premia',
     symbol: 'premia',
     name: 'Premia',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6399c842dd2be3de30bf99bc7d1bbf6fa3650e70',
       fantom: '0x3028b4395f98777123c7da327010c40f3c7cc4ef',
@@ -14530,7 +13598,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'primal-b3099cd0-995a-4311-80d5-9c133153b38e',
     symbol: 'primal',
     name: 'PRIMAL',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xcb5327ed4649548e0d73e70b633cdfd99af6da87',
       ethereum: '0xdd13dedecebda566322195bc4451d672a148752c',
@@ -14542,7 +13610,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'prism',
     symbol: 'prism',
     name: 'Prism',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       solana: 'PRSMNsEPqhGVCH1TtWiJqPjJyh2cKrLostPZTNy1o5x',
     },
@@ -14552,7 +13620,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'probit-exchange',
     symbol: 'prob',
     name: 'Probit',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfb559ce67ff522ec0b9ba7f5dc9dc7ef6c139803',
     },
@@ -14562,7 +13630,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'propy',
     symbol: 'pro',
     name: 'Propy',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x226bb599a12c826476e3a771454697ea52e9e220',
     },
@@ -14572,7 +13640,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'project-with',
     symbol: 'wiken',
     name: 'Project WITH',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'klay-token': '0x275f942985503d8ce9558f8377cc526a3aba3566',
     },
@@ -14582,7 +13650,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'prometeus',
     symbol: 'prom',
     name: 'Prom',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfc82bb4ba86045af6f327323a46e80412b91b27d',
       'binance-smart-chain': '0xaf53d56ff99f1322515e54fdde93ff8b3b7dafd5',
@@ -14593,7 +13661,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'propbase',
     symbol: 'props',
     name: 'Propbase',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       aptos:
         '0xe50684a338db732d8fb8a3ac71c4b8633878bd0193bca5de2ebc852a83b35099',
@@ -14604,7 +13672,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'propchain',
     symbol: 'propc',
     name: 'Propchain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9ff58067bd8d239000010c154c6983a325df138e',
     },
@@ -14614,7 +13682,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'prosper',
     symbol: 'pros',
     name: 'Prosper',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x8642a849d0dcb7a15a974794668adcfbe4794b56',
       'polygon-pos': '0x6109cb051c5c64093830121ed76272ab04bbdd7c',
@@ -14626,7 +13694,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'protectorate-protocol',
     symbol: 'prtc',
     name: 'Protectorate Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb9098d3669a78e9afe8b94a97290407400d9da31',
     },
@@ -14636,7 +13704,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'proteo-defi',
     symbol: 'proteo',
     name: 'Proteo DeFi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       elrond: 'PROTEO-0c7311',
     },
@@ -14646,7 +13714,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'proton',
     symbol: 'xpr',
     name: 'XPR Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd7efb00d12c2c13131fd319336fdf952525da2af',
       'binance-smart-chain': '0x5de3939b2f811a61d830e6f52d13b066881412ab',
@@ -14657,7 +13725,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'proximax',
     symbol: 'xpx',
     name: 'ProximaX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x6f3aaf802f57d045efdd2ac9c06d8879305542af',
     },
@@ -14667,7 +13735,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pstake-finance',
     symbol: 'pstake',
     name: 'pSTAKE Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfb5c6815ca3ac72ce9f5006869ae67f18bf77006',
       'binance-smart-chain': '0x4c882ec256823ee773b25b414d36f92ef58a7c0c',
@@ -14678,7 +13746,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pumlx',
     symbol: 'pumlx',
     name: 'PUMLx',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8c088775e4139af116ac1fa6f281bbf71e8c1c73',
     },
@@ -14688,7 +13756,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pundi-x',
     symbol: 'npxs',
     name: 'Pundi X [OLD]',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3',
       energi: '0x1bf6ea422574e0f5d336083a771768cb4e11390d',
@@ -14699,7 +13767,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pundi-x-2',
     symbol: 'pundix',
     name: 'Pundi X',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38',
     },
@@ -14709,7 +13777,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pundi-x-purse',
     symbol: 'purse',
     name: 'Pundi X PURSE',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x29a63f4b209c29b4dc47f06ffa896f32667dad2c',
       'function-x': '0x5fd55a1b9fc24967c4db09c513c3ba0dfa7ff687',
@@ -14721,7 +13789,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'purefi',
     symbol: 'ufi',
     name: 'PureFi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xcda4e840411c00a614ad9205caec807c7458a0e3',
       'binance-smart-chain': '0xe2a59d5e33c6540e18aaa46bf98917ac3158db0d',
@@ -14733,7 +13801,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pussy-financial',
     symbol: 'pussy',
     name: 'Pussy Financial',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x9196e18bc349b1f64bc08784eae259525329a1ad',
       'binance-smart-chain': '0xd9e8d20bde081600fac0d94b88eafaddce55aa43',
@@ -14744,7 +13812,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pyth-network',
     symbol: 'pyth',
     name: 'Pyth Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3',
       'manta-pacific': '0x90e95735378a31bfad2dcd87128fbb80ffeb6917',
@@ -14756,7 +13824,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'qanplatform',
     symbol: 'qanx',
     name: 'QANplatform',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaaa9214f675316182eaa21c85f0ca99160cc3aaa',
       'binance-smart-chain': '0xaaa9214f675316182eaa21c85f0ca99160cc3aaa',
@@ -14767,7 +13835,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'qash',
     symbol: 'qash',
     name: 'QASH',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x618e75ac90b12c6049ba3b27f5d5f8651b0037f6',
     },
@@ -14777,7 +13845,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'qlink',
     symbol: 'qlc',
     name: 'Kepple [OLD]',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1427,
   },
@@ -14797,7 +13865,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'qredo',
     symbol: 'qrdo',
     name: 'Qredo',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4123a133ae3c521fd134d7b13a2dec35b56c2463',
     },
@@ -14817,7 +13885,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'qtum',
     symbol: 'qtum',
     name: 'Qtum',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 190,
   },
@@ -14825,7 +13893,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'quadency',
     symbol: 'quad',
     name: 'Quadency',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xab2a7b5876d707e0126b3a75ef7781c77c8877ee',
     },
@@ -14835,7 +13903,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'quadrant-protocol',
     symbol: 'equad',
     name: 'Quadrant Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc28e931814725bbeb9e670676fabbcb694fe7df2',
     },
@@ -14845,7 +13913,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'quant-network',
     symbol: 'qnt',
     name: 'Quant',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4a220e6096b25eadb88358cb44068a3248254675',
       energi: '0x462b35452e552a66b519ecf70aedb1835d434965',
@@ -14856,7 +13924,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'quantum-resistant-ledger',
     symbol: 'qrl',
     name: 'Quantum Resistant Ledger',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1095,
   },
@@ -14864,7 +13932,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'quark-chain',
     symbol: 'qkc',
     name: 'QuarkChain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xea26c4ac16d4a5a106820bc8aee85fd0b7b2b664',
       energi: '0x02c6c53930b20bced86ddf64007bebcd923e1093',
@@ -14875,7 +13943,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'quasar-2',
     symbol: 'qsr',
     name: 'Quasar',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 494,
   },
@@ -14883,7 +13951,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'quick',
     symbol: 'quick',
     name: 'Quickswap [OLD]',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x6c28aef8977c9b773996d0e8376d2ee379446f2f',
       'polygon-pos': '0x831753dd7087cac61ab5644b308642cc1c33dc13',
@@ -14894,7 +13962,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'quidd',
     symbol: 'quidd',
     name: 'Quidd',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xda9fdab21bc4a5811134a6e0ba6ca06624e67c07',
       'polygon-pos': '0x123706cdd8e60324e610e9a2cc7012d0f45a5b8e',
@@ -14906,7 +13974,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'quint',
     symbol: 'quint',
     name: 'Quint',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x64619f611248256f7f4b72fe83872f89d5d60d64',
     },
@@ -14916,7 +13984,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'quiztok',
     symbol: 'qtcon',
     name: 'Quiztok',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x1bf7fd22709733ccd7c45ab27dd02c7ec8e50078',
       solana: 'DkNihsQs1hqEwf9TgKP8FmGv7dmMQ7hnKjS2ZSmMZZBE',
@@ -14927,7 +13995,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'r',
     symbol: 'r',
     name: 'R',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2381,
   },
@@ -14935,7 +14003,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rabbitx',
     symbol: 'rbx',
     name: 'RabbitX',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x3ba925fdeae6b46d0bb4d424d829982cb2f7309e',
     },
@@ -14945,7 +14013,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'radicle',
     symbol: 'rad',
     name: 'Radworks',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x31c8eacbffdd875c74b94b077895bd78cf1e64a3',
     },
@@ -14955,7 +14023,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'radiant',
     symbol: 'rxd',
     name: 'Radiant',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1091,
   },
@@ -14963,7 +14031,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'radiant-capital',
     symbol: 'rdnt',
     name: 'Radiant Capital',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x3082cc23568ea640225c2467653db90e9250aaa0',
       ethereum: '0x137ddb47ee24eaa998a535ab00378d6bfa84f893',
@@ -14975,7 +14043,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'radioshack',
     symbol: 'radio',
     name: 'RadioShack',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x613a489785c95afeb3b404cc41565ccff107b6e0',
       avalanche: '0x02bfd11499847003de5f0f5aa081c43854d48815',
@@ -14991,7 +14059,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'radix',
     symbol: 'xrd',
     name: 'Radix',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 134,
   },
@@ -14999,7 +14067,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rae-token',
     symbol: 'rae',
     name: 'Receive Access Ecosystem',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe5a3229ccb22b6484594973a03a3851dcd948756',
     },
@@ -15009,7 +14077,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rai',
     symbol: 'rai',
     name: 'Rai Reflex Index',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x03ab458634910aad20ef5f1c8ee96f1d6ac54919',
       avalanche: '0x97cd1cfe2ed5712660bb6c14053c0ecb031bff7d',
@@ -15022,7 +14090,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'raiden-network',
     symbol: 'rdn',
     name: 'Raiden Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6',
     },
@@ -15032,7 +14100,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rai-finance',
     symbol: 'sofi',
     name: 'RAI Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb49fa25978abf9a248b8212ab4b87277682301c0',
       base: '0x703d57164ca270b0b330a87fd159cfef1490c0a5',
@@ -15044,7 +14112,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'railgun',
     symbol: 'rail',
     name: 'Railgun',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe76c6c83af64e4c60245d8c7de953df673a7a33d',
     },
@@ -15054,7 +14122,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rainbow-token-2',
     symbol: 'rbw',
     name: 'Rainbow Token',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0x431cd3c9ac9fc73644bf68bf5691f4b83f9e104f',
     },
@@ -15064,7 +14132,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rake-com',
     symbol: 'rake',
     name: 'Rake.com',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6553565eac5daa9bfc5e2892b36291634c9b2ad6',
     },
@@ -15074,7 +14142,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rally-2',
     symbol: 'rly',
     name: 'Rally',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b',
     },
@@ -15084,7 +14152,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ramses-exchange',
     symbol: 'ram',
     name: 'Ramses Exchange',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0xaaa6c1e32c55a7bfa8066a6fae9b42650f262418',
     },
@@ -15094,7 +14162,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ramp',
     symbol: 'ramp',
     name: 'RAMP [OLD]',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x33d0568941c0c64ff7e0fb4fba0b11bd37deed9f',
       'binance-smart-chain': '0x8519ea49c997f50ceffa444d240fb655e89248aa',
@@ -15106,7 +14174,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rangers-protocol-gas',
     symbol: 'rpg',
     name: 'Rangers Protocol Gas',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1f16d41f9b3db03b462bdd6c92245ee708d1c103',
       'binance-smart-chain': '0x61dc650c10ec3c758d251cd2d1ab45af1a43e941',
@@ -15117,7 +14185,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'raptoreum',
     symbol: 'rtm',
     name: 'Raptoreum',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1706,
   },
@@ -15125,7 +14193,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rarible',
     symbol: 'rari',
     name: 'RARI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfca59cd816ab1ead66534d82bc21e7515ce441cf',
       energi: '0x87ce5dde0595d9306db44dc0baa9703ace18c415',
@@ -15136,7 +14204,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rari-governance-token',
     symbol: 'rgt',
     name: 'Rari Governance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd291e7a03283640fdc51b121ac401383a46cc623',
       'arbitrum-one': '0xef888bca6ab6b1d26dbec977c455388ecd794794',
@@ -15150,7 +14218,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ravencoin',
     symbol: 'rvn',
     name: 'Ravencoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 160,
   },
@@ -15158,7 +14226,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'revenue-coin',
     symbol: 'rvc',
     name: 'Revenue Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xbcbdecf8e76a5c32dba69de16985882ace1678c6',
     },
@@ -15168,7 +14236,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'raven-protocol',
     symbol: 'raven',
     name: 'Raven Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       binancecoin: 'RAVEN-F66',
       'binance-smart-chain': '0xcd7c5025753a49f1881b31c48caa7c517bb46308',
@@ -15179,7 +14247,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'raydium',
     symbol: 'ray',
     name: 'Raydium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: '4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R',
     },
@@ -15189,7 +14257,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'razor-network',
     symbol: 'razor',
     name: 'Razor Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd',
       'binance-smart-chain': '0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd',
@@ -15201,7 +14269,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'realfevr',
     symbol: 'fevr',
     name: 'RealFevr',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x82030cdbd9e4b7c5bb0b811a61da6360d69449cc',
       avalanche: '0x73178fceb736a9d6c1a9ef1fe413f09cba2d4a68',
@@ -15214,7 +14282,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'realm',
     symbol: 'realm',
     name: 'Realm',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x464fdb8affc9bac185a7393fd4298137866dcfb8',
       'binance-smart-chain': '0x464fdb8affc9bac185a7393fd4298137866dcfb8',
@@ -15225,7 +14293,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rebel-bots',
     symbol: 'rbls',
     name: 'Rebel Bots',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0xe26cda27c13f4f87cffc2f437c5900b27ebb5bbb',
     },
@@ -15235,7 +14303,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'reboot',
     symbol: 'gg',
     name: 'Reboot',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'arbitrum-one': '0x000000000026839b3f4181f2cf69336af6153b99',
       'arbitrum-nova': '0x000000000026839b3f4181f2cf69336af6153b99',
@@ -15246,7 +14314,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'redacted',
     symbol: 'btrfly',
     name: 'Redacted',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xc55126051b22ebb829d00368f4b12bde432de5da',
     },
@@ -15256,7 +14324,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'reddcoin',
     symbol: 'rdd',
     name: 'Reddcoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2029,
   },
@@ -15264,7 +14332,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'redfox-labs-2',
     symbol: 'rfox',
     name: 'RFOX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa1d6df714f91debf4e0802a542e13067f31b8262',
       energi: '0xaad4add9b6ed577f3fe9e6bccbbe3bdce596b062',
@@ -15276,7 +14344,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'reef',
     symbol: 'reef',
     name: 'Reef',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfe3e6a25e6b192a42a44ecddcd13796471735acf',
       sora: '0x0004d3168f737e96b66b72fbb1949a2a23d4ef87182d1e8bf64096f1bb348e0b',
@@ -15290,7 +14358,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ref-finance',
     symbol: 'ref',
     name: 'Ref Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'near-protocol': 'token.v2.ref-finance.near',
     },
@@ -15300,7 +14368,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'refund',
     symbol: 'rfd',
     name: 'Refund',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x955d5c14c8d4944da1ea7836bd44d54a8ec35ba1',
     },
@@ -15310,7 +14378,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'regen',
     symbol: 'regen',
     name: 'Regen',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076',
@@ -15322,7 +14390,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rejuve-ai',
     symbol: 'rjv',
     name: 'Rejuve.AI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa1f410f13b6007fca76833ee7eb58478d47bc5ef',
       cardano: '8cfd6893f5f6c1cc954cec1a0a1460841b74da6e7803820dde62bb78',
@@ -15334,7 +14402,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'renbtc',
     symbol: 'renbtc',
     name: 'renBTC',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xeb4c2781e4eba804ce9a9803c67d0893436bb27d',
       sora: '0x00438aac3a91cc6cee0c8d2f14e4bf7ec4512ca708b180cc0fda47b0eb1ad538',
@@ -15348,7 +14416,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'render-token',
     symbol: 'rndr',
     name: 'Render',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24',
       'polygon-pos': '0x61299774020da444af134c82fa83e3810b309991',
@@ -15360,7 +14428,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'renewable-energy',
     symbol: 'ret',
     name: 'Renewable Energy',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x10b9dd394467f2cfbc769e07e88dc7e2c41b0965',
     },
@@ -15370,7 +14438,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'republic-protocol',
     symbol: 'ren',
     name: 'Ren',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x408e41876cccdc0f92210600ef50372656052a38',
       'harmony-shard-0': '0x451e129b6045b6e4f48e7247388f21163f7743b7',
@@ -15385,7 +14453,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'request-network',
     symbol: 'req',
     name: 'Request',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8f8221afbb33998d8584a2b05749ba73c37a938a',
       'polygon-pos': '0xb25e20de2f2ebb4cffd4d16a55c7b395e8a94762',
@@ -15396,7 +14464,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'researchcoin',
     symbol: 'rsc',
     name: 'ResearchCoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd101dcc414f310268c37eeb4cd376ccfa507f571',
     },
@@ -15406,7 +14474,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'reserve-rights-token',
     symbol: 'rsr',
     name: 'Reserve Rights',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x320623b8e4ff03373931769a31fc52a4e78b5d70',
       base: '0xab36452dbac151be02b16ca17d8919826072f64a',
@@ -15418,7 +14486,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'source',
     symbol: 'source',
     name: 'Source',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1139,
   },
@@ -15426,7 +14494,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'reunit-wallet',
     symbol: 'reuni',
     name: 'Reunit Wallet',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x9ed7e4b1bff939ad473da5e7a218c771d1569456',
       avalanche: '0x9ed7e4b1bff939ad473da5e7a218c771d1569456',
@@ -15440,7 +14508,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rev3al',
     symbol: 'rev3l',
     name: 'REV3AL',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x30b5e345c79255101b8af22a19805a6fb96ddebb',
     },
@@ -15450,7 +14518,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'revain',
     symbol: 'rev',
     name: 'Revain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2ef52ed7de8c5ce03a4ef0efbe9b7450f2d7edc9',
       tron: 'TD4bVgcwj3FRbmAo283HxNvqZvY7T3uD8k',
@@ -15461,7 +14529,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'revenant',
     symbol: 'gamefi',
     name: 'Revenant',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'metis-andromeda': '0x966b25d174be6ba703e0ff80c68bb6e167236ba2',
     },
@@ -15471,7 +14539,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'revest-finance',
     symbol: 'rvst',
     name: 'Revest Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x120a3879da835a5af037bb2d1456bebd6b54d4ba',
     },
@@ -15481,7 +14549,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'revomon-2',
     symbol: 'revo',
     name: 'Revomon',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xaab09b5cd1694d12c8c980306f5e2f5d65b00e1c',
     },
@@ -15491,7 +14559,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'revv',
     symbol: 'revv',
     name: 'REVV',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x557b933a7c2c45672b610f8954a3deb39a51a8ca',
       'polygon-pos': '0x70c006878a5a50ed185ac4c87d837633923de296',
@@ -15503,7 +14571,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rhinofi',
     symbol: 'dvf',
     name: 'Rhino.fi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdddddd4301a082e62e84e43f474f044423921918',
       'arbitrum-one': '0xa7aa2921618e3d63da433829d448b58c9445a4c3',
@@ -15514,7 +14582,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ribbit-meme',
     symbol: 'ribbit',
     name: 'Ribbit Meme',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xb794ad95317f75c44090f64955954c3849315ffe',
     },
@@ -15524,7 +14592,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ribbon-finance',
     symbol: 'rbn',
     name: 'Ribbon Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6123b0049f904d730db3c36a31167d9d4121fa6b',
     },
@@ -15534,7 +14602,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ridotto',
     symbol: 'rdt',
     name: 'Ridotto',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4740735aa98dc8aa232bd049f8f0210458e7fca3',
       'binance-smart-chain': '0xe9c64384deb0c2bf06d991a8d708c77eb545e3d5',
@@ -15545,7 +14613,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rif-token',
     symbol: 'rif',
     name: 'RSK Infrastructure Framework',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       rootstock: '0x2acc95758f8b5f583470ba265eb685a8f45fc9d5',
     },
@@ -15555,7 +14623,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rigoblock',
     symbol: 'grg',
     name: 'RigoBlock',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x4fbb350052bca5417566f188eb2ebce5b19bc964',
       'optimistic-ethereum': '0xecf46257ed31c329f204eb43e254c609dee143b3',
@@ -15570,7 +14638,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ripio-credit-network',
     symbol: 'rcn',
     name: 'Ripio Credit Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf970b8e36e23f7fc3fd752eea86f8be8d83375a6',
     },
@@ -15580,7 +14648,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'risitas',
     symbol: 'risita',
     name: 'Risitas',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xe6f47303032a09c8c0f8ebb713c00e6ed345e8c3',
       'arbitrum-one': '0x7d86f1eaff29f076576b2ff09ce3bcc7533fd2c5',
@@ -15591,7 +14659,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ritestream',
     symbol: 'rite',
     name: 'ritestream',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x0808bf94d57c905f1236212654268ef82e1e594e',
     },
@@ -15601,7 +14669,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rmrk',
     symbol: 'rmrk',
     name: 'RMRK',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x524d524b4c9366be706d3a90dcf70076ca037ae3',
       moonbeam: '0x524d524b4c9366be706d3a90dcf70076ca037ae3',
@@ -15615,7 +14683,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'roasthimjim',
     symbol: 'jim',
     name: 'Jim',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xd807f7e2818db8eda0d28b5be74866338eaedb86',
     },
@@ -15625,7 +14693,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'robo-inu-finance',
     symbol: 'rbif',
     name: 'Robo Inu Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0e6fa9c050c8a707e7f56a2b3695665e4f9eac9b',
     },
@@ -15635,7 +14703,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rocket-pool',
     symbol: 'rpl',
     name: 'Rocket Pool',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd33526068d116ce69f19a9ee46f0bd304f21a51f',
       'polygon-pos': '0x7205705771547cf79201111b4bd8aaf29467b9ec',
@@ -15647,7 +14715,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rocketx',
     symbol: 'rvf',
     name: 'RocketX Exchange',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xdc8af07a7861bedd104b8093ae3e9376fc8596d2',
       'binance-smart-chain': '0x872a34ebb2d54af86827810eebc7b9dc6b2144aa',
@@ -15659,7 +14727,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'roko-network',
     symbol: 'roko',
     name: 'Roko Network',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x6f222e04f6c53cc688ffb0abe7206aac66a8ff98',
     },
@@ -15669,7 +14737,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rollbit-coin',
     symbol: 'rlb',
     name: 'Rollbit Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x046eee2cc3188071c02bfc1745a6b17c656e3f3d',
     },
@@ -15679,7 +14747,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rome',
     symbol: 'rome',
     name: 'Rome',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       moonriver: '0x4a436073552044d5f2f49b176853ad3ad473d9d6',
     },
@@ -15717,7 +14785,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'route',
     symbol: 'route',
     name: 'Router Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4',
       avalanche: '0xf44ff799ea2bbfec96f9a50498209aac3c2b3b8b',
@@ -15734,7 +14802,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rowan-coin',
     symbol: 'rwn',
     name: 'Rowan Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 784,
   },
@@ -15742,7 +14810,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rss3',
     symbol: 'rss3',
     name: 'RSS3',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc98d64da73a6616c42117b582e832812e7b8d57f',
     },
@@ -15752,7 +14820,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rubidium',
     symbol: 'rbd',
     name: 'Rubidium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2418,
   },
@@ -15760,7 +14828,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rug-rugged-art',
     symbol: 'rug',
     name: 'Rug',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xbe33f57f41a20b2f00dec91dcc1169597f36221f',
       'binance-smart-chain': '0xea4821632b139b7f08e37533d8152d50976618c6',
@@ -15772,7 +14840,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'rupiah-token',
     symbol: 'idrt',
     name: 'Rupiah Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x998ffe1e43facffb941dc337dd0468d52ba5b48a',
       'harmony-shard-0': '0xcefbea899cfccdc653b171d063481b622086be3f',
@@ -15785,7 +14853,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'safe-coin-2',
     symbol: 'safe',
     name: 'SafeCoin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 2003,
   },
@@ -15793,7 +14861,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'safe-deal',
     symbol: 'sfd',
     name: 'SafeDeal',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 1181,
   },
@@ -15801,7 +14869,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'safe-haven',
     symbol: 'sha',
     name: 'Safe Haven',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       vechain: '0x5db3c8a942333f6468176a870db36eef120a34dc',
       'binance-smart-chain': '0x40fed5691e547885cabd7a2990de719dcc8497fc',
@@ -15814,7 +14882,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'safemars',
     symbol: 'safemars',
     name: 'Safemars',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x3ad9594151886ce8538c1ff615efa2385a8c3a88',
     },
@@ -15824,7 +14892,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'safemoon-2',
     symbol: 'sfm',
     name: 'SafeMoon',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x42981d0bfbaf196529376ee702f2a9eb9092fcb5',
     },
@@ -15834,7 +14902,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'safemoon-inu',
     symbol: 'smi',
     name: 'SafeMoon Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xcd7492db29e2ab436e819b249452ee1bbdf52214',
     },
@@ -15844,7 +14912,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'safepal',
     symbol: 'sfp',
     name: 'SafePal',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x12e2b8033420270db2f3b328e32370cb5b2ca134',
       'binance-smart-chain': '0xd41fdb03ba84762dd66a0af1a6c8540ff1ba5dfb',
@@ -15856,7 +14924,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'saffron-finance',
     symbol: 'sfi',
     name: 'saffron.finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb753428af26e81097e7fd17f40c88aaa3e04902c',
       energi: '0x09319044a98e6bb4d95a6c112789afcebe5b58ac',
@@ -15867,7 +14935,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sai',
     symbol: 'sai',
     name: 'Sai',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359',
     },
@@ -15877,7 +14945,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sail-2',
     symbol: 'sail',
     name: 'Clipper SAIL',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd8f1460044925d2d5c723c7054cd9247027415b7',
     },
@@ -15887,7 +14955,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'saitarealty',
     symbol: 'srlty',
     name: 'SaitaRealty',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x142a774e8b52550e88e196cedd7a5835acb646d0',
       'binance-smart-chain': '0xee8ed80bb013325ea63df19233aae584e94f3826',
@@ -15898,7 +14966,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'saito',
     symbol: 'saito',
     name: 'Saito',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfa14fa6958401314851a17d6c5360ca29f74b57b',
       'binance-smart-chain': '0x3c6dad0475d3a1696b359dc04c99fd401be134da',
@@ -15909,7 +14977,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sakai-vault',
     symbol: 'sakai',
     name: 'Sakai Vault',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x43b35e89d15b91162dea1c51133c4c93bdd1c4af',
     },
@@ -15919,7 +14987,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'salt',
     symbol: 'salt',
     name: 'SALT',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4156d3342d5c385a87d264f90653733592000581',
     },
@@ -15929,7 +14997,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'samoyedcoin',
     symbol: 'samo',
     name: 'Samoyedcoin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: '7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU',
     },
@@ -15939,7 +15007,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'samsunspor-fan-token',
     symbol: 'sam',
     name: 'Samsunspor Fan Token',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       chiliz: '0xfc21c38f4802ab29aed8cc7367542a0955cfa9d7',
     },
@@ -15949,7 +15017,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sandclock',
     symbol: 'quartz',
     name: 'Sandclock',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xba8a621b4a54e61c442f5ec623687e2a942225ef',
       'polygon-pos': '0xa91fe5a535967f52d3abebdffb3b306d964ace13',
@@ -15960,7 +15028,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'the-sandbox',
     symbol: 'sand',
     name: 'The Sandbox',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3845badade8e6dff049820680d1f14bd3903a5d0',
       'harmony-shard-0': '0x35de8649e1e4fd1a7bd3b14f7e24e5e7887174ed',
@@ -15973,7 +15041,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sanin-inu',
     symbol: 'sani',
     name: 'Sanin Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x4521c9ad6a3d4230803ab752ed238be11f8b342f',
     },
@@ -15983,7 +15051,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sats-ordinals',
     symbol: 'sats',
     name: 'SATS (Ordinals)',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ordinals:
         '9b664bdd6f5ed80d8d88957b63364c41f3ad4efb8eee11366aa16435974d9333i0',
@@ -15994,7 +15062,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'trustswap',
     symbol: 'swap',
     name: 'TrustSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xcc4304a31d09258b0029ea7fe63d032f52e44efe',
       energi: '0x324a1e5707f356218356c95cfe20d5d9b1440f30',
@@ -16008,7 +15076,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'satt',
     symbol: 'satt',
     name: 'SaTT',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdf49c9f599a0a9049d97cff34d0c30e468987389',
     },
@@ -16018,7 +15086,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'saucerswap',
     symbol: 'sauce',
     name: 'SaucerSwap',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'hedera-hashgraph': '0x00000000000000000000000000000000000b2ad5',
     },
@@ -16028,7 +15096,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'savage',
     symbol: 'savg',
     name: 'SAVAGE',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x981aecc6eb4d382b96a02b75e931900705e95a31',
     },
@@ -16038,7 +15106,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'saveplanetearth',
     symbol: 'spe',
     name: 'SavePlanetEarth',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x4ac81e3631dcda62109e3117c4cae7bf70bbbbd2',
     },
@@ -16048,7 +15116,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sbtc',
     symbol: 'sbtc',
     name: 'sBTC',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6',
     },
@@ -16058,7 +15126,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'scallop',
     symbol: 'sclp',
     name: 'Scallop',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xf2c96e402c9199682d5ded26d3771c6b192c01af',
     },
@@ -16068,7 +15136,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'siren',
     symbol: 'si',
     name: 'Siren',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd23ac27148af6a2f339bd82d0e3cff380b5093de',
     },
@@ -16078,7 +15146,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'secret',
     symbol: 'scrt',
     name: 'Secret',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       secret: 'secret1k0jntykt7e4g3y88ltc60czgjuqdy4c9e8fzek',
     },
@@ -16088,7 +15156,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'seedify-fund',
     symbol: 'sfund',
     name: 'Seedify.fund',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x477bc8d23c634c154061869478bce96be6045d12',
       ethereum: '0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60',
@@ -16100,7 +15168,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sei-network',
     symbol: 'sei',
     name: 'Sei',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 60,
   },
@@ -16108,7 +15176,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'senate',
     symbol: 'senate',
     name: 'SENATE',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x34be5b8c30ee4fde069dc878989686abe9884470',
     },
@@ -16118,7 +15186,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'send-token',
     symbol: 'send',
     name: '/send',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3f14920c99beb920afa163031c4e47a3e03b3e4a',
       base: '0x3f14920c99beb920afa163031c4e47a3e03b3e4a',
@@ -16129,7 +15197,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sentinel',
     symbol: 'dvpn',
     name: 'Sentinel',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84',
@@ -16140,7 +15208,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'status',
     symbol: 'snt',
     name: 'Status',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x744d70fdbe2ba4cf95131626614a1763df805b9e',
       energi: '0x6bb14afedc740dce4904b7a65807fe3b967f4c94',
@@ -16151,7 +15219,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sentinel-protocol',
     symbol: 'upp',
     name: 'Sentinel Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc86d054809623432210c107af2e3f619dcfbf652',
     },
@@ -16161,7 +15229,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'serum',
     symbol: 'srm',
     name: 'Serum',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x476c5e26a75bd202a9683ffd34359c0cc15be0ff',
       energi: '0x83af4137ed450f4765a72831dd938b5203f5d2fb',
@@ -16174,7 +15242,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'seth2',
     symbol: 'seth2',
     name: 'sETH2',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xfe2e637202056d30016725477c5da089ab0a043a',
     },
@@ -16184,7 +15252,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'shibadoge',
     symbol: 'shibdoge',
     name: 'ShibaDoge',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x6adb2e268de2aa1abf6578e4a8119b960e02928f',
     },
@@ -16194,7 +15262,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'shiba-predator',
     symbol: 'qom',
     name: 'Shiba Predator',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xa71d0588eaf47f12b13cf8ec750430d21df04974',
     },
@@ -16204,7 +15272,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'synesis-one',
     symbol: 'sns',
     name: 'Synesis One',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       solana: 'SNSNkV9zfG5ZKWQs6x4hxvBRV6s8SqMfSGCtECDvdMd',
     },
@@ -16214,7 +15282,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'shiba-saga',
     symbol: 'shia',
     name: 'Shiba Saga',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x43d7e65b8ff49698d9550a7f315c87e67344fb59',
     },
@@ -16224,7 +15292,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'verse-bitcoin',
     symbol: 'verse',
     name: 'Verse',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x249ca82617ec3dfb2589c4c17ab7ec9765350a18',
       'polygon-pos': '0xc708d6f2153933daa50b2d0758955be0a93a8fec',
@@ -16246,7 +15314,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'shiden',
     symbol: 'sdn',
     name: 'Shiden Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1184,
   },
@@ -16254,7 +15322,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'shido-2',
     symbol: 'shido',
     name: 'Shido',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe2512a2f19f0388ad3d7a5263eaa82acd564827b',
     },
@@ -16264,7 +15332,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'shikoku',
     symbol: 'shik',
     name: 'Shikoku',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x24da31e7bb182cb2cabfef1d88db19c2ae1f5572',
     },
@@ -16274,7 +15342,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'shina-inu',
     symbol: 'shi',
     name: 'Shina Inu',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x243cacb4d5ff6814ad668c3e225246efa886ad5a',
     },
@@ -16284,7 +15352,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'shockwaves',
     symbol: 'neuros',
     name: 'Shockwaves',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x95b0fffabd2817959ce410070600d77bce93d454',
     },
@@ -16306,7 +15374,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'shroom-finance',
     symbol: 'shroom',
     name: 'Niftyx Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xed0439eacf4c4965ae4613d77a5c2efe10e5f183',
     },
@@ -16316,7 +15384,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'shyft-network-2',
     symbol: 'shft',
     name: 'Shyft Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb17c88bda07d28b3838e0c1de6a30eafbcf52d85',
     },
@@ -16326,7 +15394,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'siacoin',
     symbol: 'sc',
     name: 'Siacoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 175,
   },
@@ -16334,7 +15402,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'siaprime-coin',
     symbol: 'scp',
     name: 'ScPrime',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1506,
   },
@@ -16352,7 +15420,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'signum',
     symbol: 'signa',
     name: 'Signum',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2116,
   },
@@ -16360,7 +15428,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'silent-notary',
     symbol: 'ubsn',
     name: 'Silent Notary',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x86efc496dca70bcfd92d19194290e8457a375773',
     },
@@ -16370,7 +15438,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'silk-bcec1136-561c-4706-a42c-8b67d0d7f7d2',
     symbol: 'silk',
     name: 'Silk',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       secret: 'secret1fl449muk5yq8dlad7a22nje4p5d2pnsgymhjfd',
       osmosis:
@@ -16393,7 +15461,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'singularitydao',
     symbol: 'sdao',
     name: 'SingularityDAO',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x993864e43caa7f7f12953ad6feb1d1ca635b875f',
       'binance-smart-chain': '0x90ed8f1dc86388f14b64ba8fb4bbd23099f18240',
@@ -16404,7 +15472,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'singularitynet',
     symbol: 'agix',
     name: 'SingularityNET',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5b7533812759b45c2b44c19e320ba2cd2681b542',
       sora: '0x005e152271f8816d76221c7a0b5c6cafcb54fdfb6954dd8812f0158bfeac900d',
@@ -16416,7 +15484,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sipher',
     symbol: 'sipher',
     name: 'SIPHER',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x9f52c8ecbee10e00d9faaac5ee9ba0ff6550f511',
     },
@@ -16426,7 +15494,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'six-network',
     symbol: 'six',
     name: 'SIX Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       stellar: 'SIX-GDMS6EECOH6MBMCP3FYRYEVRBIV3TQGLOFQIPVAITBRJUMTI6V7A2X6Z',
     },
@@ -16436,7 +15504,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'skale',
     symbol: 'skl',
     name: 'SKALE',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7',
     },
@@ -16446,7 +15514,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'skeb',
     symbol: 'skeb',
     name: 'Skeb',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6d614686550b9e1c1df4b2cd8f91c9d4df66c810',
     },
@@ -16456,7 +15524,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'skey-network',
     symbol: 'skey',
     name: 'Skey Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x06a01a4d579479dd5d884ebf61a31727a3d8d442',
     },
@@ -16466,7 +15534,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'slam-token',
     symbol: 'slam',
     name: 'Slam',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x000851476180bfc499ea68450a5327d21c9b050e',
     },
@@ -16476,7 +15544,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'smooth-love-potion',
     symbol: 'slp',
     name: 'Smooth Love Potion',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ronin: '0xa8754b9fa15fc18bb59458815510e40a12cd2014',
       ethereum: '0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25',
@@ -16488,7 +15556,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'smardex',
     symbol: 'sdex',
     name: 'SmarDex',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5de8ab7e27f6e7a1fff3e5b337584aa43961beef',
       'arbitrum-one': '0xabd587f2607542723b17f14d00d99b987c29b074',
@@ -16502,7 +15570,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'smartcredit-token',
     symbol: 'smartcredit',
     name: 'SmartCredit',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x72e9d9038ce484ee986fea183f8d8df93f9ada13',
     },
@@ -16512,7 +15580,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'swarm-markets',
     symbol: 'smt',
     name: 'Swarm Markets',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xb17548c7b510427baac4e267bea62e800b247173',
       base: '0x2974dc646e375e83bd1c0342625b49f288987fa4',
@@ -16524,7 +15592,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'smart-valor',
     symbol: 'valor',
     name: 'Smart Valor',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x297e4e5e59ad72b1b0a2fd446929e76117be0e0a',
     },
@@ -16534,7 +15602,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'snek',
     symbol: 'snek',
     name: 'Snek',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       cardano: '279c909f348e533da5808898f87f9a14bb2c3dfbbacccd631d927a3f',
     },
@@ -16544,7 +15612,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'solana',
     symbol: 'sol',
     name: 'Solana',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 5,
   },
@@ -16552,7 +15620,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'solanium',
     symbol: 'slim',
     name: 'Solanium',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: 'xxxxa1sKNGwFtw2kFn8XauW9xq8hBZ5kVtcSesTT9fW',
     },
@@ -16562,7 +15630,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'solarcoin',
     symbol: 'slr',
     name: 'Solarcoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       zksync: '0xe027d939f7de6f521675907cf086f59e4d75b876',
       ethereum: '0x4e9e4ab99cfc14b852f552f5fb3aa68617825b6c',
@@ -16573,7 +15641,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'solcasino-token',
     symbol: 'scs',
     name: 'Solcasino Token',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       solana: 'SCSuPPNUSypLBsV4darsrYNg4ANPgaGhKhsA3GmMyjz',
     },
@@ -16583,7 +15651,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'solcial',
     symbol: 'slcl',
     name: 'Solcial',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       solana: 'SLCLww7nc1PD2gQPQdGayHviVVcpMthnqUz2iWKhNQV',
     },
@@ -16593,7 +15661,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'soldex',
     symbol: 'solx',
     name: 'Soldex',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'CH74tuRLTYcxG7qNJCsV9rghfLXJCQJbsu7i52a8F1Gn',
     },
@@ -16603,7 +15671,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'solend',
     symbol: 'slnd',
     name: 'Solend',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'SLNDpmoWTVADgEdndyvWzroNL7zSi1dF9PC3xHGtPwp',
     },
@@ -16613,7 +15681,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'solfarm',
     symbol: 'tulip',
     name: 'Tulip Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'TuLipcqtGVXP9XR62wM8WWCm6a9vhLs7T1uoWBk6FDs',
     },
@@ -16623,7 +15691,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'solidlydex',
     symbol: 'solid',
     name: 'Solidly',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x777172d858dc1599914a1c4c6c9fc48c99a60990',
       fantom: '0x777cf5ba9c291a1a8f57ff14836f6f9dc5c0f9dd',
@@ -16634,7 +15702,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'solidus-aitech',
     symbol: 'aitech',
     name: 'Solidus Ai Tech',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x2d060ef4d6bf7f9e5edde373ab735513c0e4f944',
     },
@@ -16644,7 +15712,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'solo-coin',
     symbol: 'solo',
     name: 'Sologenic',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {},
     marketCapRank: 680,
   },
@@ -16652,7 +15720,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'solve-care',
     symbol: 'solve',
     name: 'SOLVE',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x446c9033e7516d820cc9a2ce2d0b7328b579406f',
     },
@@ -16662,7 +15730,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sombra-network',
     symbol: 'smbr',
     name: 'Sombra',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x16b3e050e9e2f0ac4f1bea1b3e4fdc43d7f062dd',
       ethereum: '0x16b3e050e9e2f0ac4f1bea1b3e4fdc43d7f062dd',
@@ -16673,7 +15741,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'somesing',
     symbol: 'ssx',
     name: 'SOMESING Exchange',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'klay-token': '0xdcd62c57182e780e23d2313c4782709da85b9d6c',
     },
@@ -16683,7 +15751,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sommelier',
     symbol: 'somm',
     name: 'Sommelier',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cosmos:
         'ibc/9BBA9A1C257E971E38C1422780CE6F0B0686F0A3085E2D61118D904BFE0F5F5E',
@@ -16695,7 +15763,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'somnium-space-cubes',
     symbol: 'cube',
     name: 'Somnium Space CUBEs',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xdf801468a808a32656d2ed2d2d80b72a129739f4',
     },
@@ -16715,7 +15783,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sonne-finance',
     symbol: 'sonne',
     name: 'Sonne Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'optimistic-ethereum': '0x1db2466d9f5e10d7090e7152b68d62703a2245f0',
       base: '0x22a2488fe295047ba13bd8cccdbc8361dbd8cf7c',
@@ -16726,7 +15794,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'soonswap',
     symbol: 'soon',
     name: 'SoonVerse',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x574d22e2555cac0ce71e44778f6de2e7487ae229',
     },
@@ -16736,7 +15804,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sophiaverse',
     symbol: 'soph',
     name: 'SophiaVerse',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x73fbd93bfda83b111ddc092aa3a4ca77fd30d380',
       ethereum: '0x73fbd93bfda83b111ddc092aa3a4ca77fd30d380',
@@ -16747,7 +15815,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sora',
     symbol: 'xor',
     name: 'Sora',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x40fd72257597aa14c7231a7b1aaa29fce868f677',
       sora: '0x0200000000000000000000000000000000000000000000000000000000000000',
@@ -16758,7 +15826,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'source-protocol',
     symbol: 'srcx',
     name: 'Source Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x454b90716a9435e7161a9aea5cf00e0acbe565ae',
     },
@@ -16768,7 +15836,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'spacechain-erc-20',
     symbol: 'spc',
     name: 'SpaceChain (ERC-20)',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x86ed939b500e121c0c5f493f399084db596dad20',
     },
@@ -16778,7 +15846,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'spacefalcon',
     symbol: 'fcon',
     name: 'SpaceFalcon',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'HovGjrBGTfna4dvg6exkMxXuexB3tUfEZKcut8AWowXj',
     },
@@ -16788,7 +15856,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'spacen',
     symbol: 'sn',
     name: 'SpaceN',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x939dd9e433552e325d78c33a16ef4cd8004d2f9c',
     },
@@ -16798,7 +15866,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'spain-national-fan-token',
     symbol: 'snft',
     name: 'Spain National Football Team Fan Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       Bitcichain: '0x3e6f1be54feb9cc37dbfc31a894a8810357c3f9c',
     },
@@ -16808,7 +15876,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'spankchain',
     symbol: 'spank',
     name: 'SpankChain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x42d6622dece394b54999fbd73d108123806f6a18',
     },
@@ -16818,7 +15886,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sparkpoint',
     symbol: 'srk',
     name: 'SparkPoint',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0488401c3f535193fa8df029d9ffe615a06e74e6',
       'harmony-shard-0': '0x9500a1fbef7014dbd384633fd20bb1e6916d6fca',
@@ -16829,7 +15897,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sperax',
     symbol: 'spa',
     name: 'Sperax',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x5575552988a3a80504bbaeb1311674fcfd40ad4b',
       ethereum: '0xb4a3b0faf0ab53df58001804dda5bfc6a3d59008',
@@ -16840,7 +15908,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'spartadex',
     symbol: 'sparta',
     name: 'SpartaDEX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x11f98c7e42a367dab4f200d2fdc460fb445ce9a8',
     },
@@ -16850,7 +15918,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'spell-token',
     symbol: 'spell',
     name: 'Spell',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x090185f2135308bad17527004364ebcc2d37e5f6',
       avalanche: '0xce1bffbd5374dac86a2893119683f4911a2f7814',
@@ -16863,7 +15931,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sphere-finance',
     symbol: 'sphere',
     name: 'Sphere Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x62f594339830b90ae4c084ae7d223ffafd9658a7',
     },
@@ -16873,7 +15941,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'spheroid-universe',
     symbol: 'sph',
     name: 'Spheroid Universe',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa0cf46eb152656c7090e769916eb44a138aaa406',
     },
@@ -16883,7 +15951,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'spiritswap',
     symbol: 'spirit',
     name: 'SpiritSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       fantom: '0x5cc61a78f164885776aa610fb0fe1257df78e59b',
     },
@@ -16893,7 +15961,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'splyt',
     symbol: 'shopx',
     name: 'SHOPX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7bef710a5759d197ec0bf621c3df802c2d60d848',
     },
@@ -16903,7 +15971,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'spool-dao-token',
     symbol: 'spool',
     name: 'Spool',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x40803cea2b2a32bda1be61d3604af6a814e70976',
       'arbitrum-one': '0xeca14f81085e5b8d1c9d32dcb596681574723561',
@@ -16914,7 +15982,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'spore',
     symbol: 'spore',
     name: 'Spore',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       avalanche: '0x6e7f5c0b9f4432716bdd0a77a3601291b9d9e985',
       'binance-smart-chain': '0x33a3d962955a3862c8093d1273344719f03ca17c',
@@ -16925,7 +15993,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'spx6900',
     symbol: 'spx',
     name: 'SPX6900',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c',
       base: '0x50da645f148798f68ef2d7db7c1cb22a6819bb2c',
@@ -16937,7 +16005,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'squad',
     symbol: 'squad',
     name: 'Superpower Squad',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x724a32dfff9769a0a0e1f0515c0012d1fb14c3bd',
       'arbitrum-nova': '0x223fb0ceb2c6e5310264efe38151d7d083db91f1',
@@ -16949,7 +16017,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'squidgrow',
     symbol: 'squidgrow',
     name: 'SquidGrow',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xd8fa690304d2b2824d918c0c7376e2823704557a',
       ethereum: '0xd8fa690304d2b2824d918c0c7376e2823704557a',
@@ -16960,7 +16028,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ssv-network',
     symbol: 'ssv',
     name: 'SSV Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54',
     },
@@ -16970,7 +16038,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stake-dao',
     symbol: 'sdt',
     name: 'Stake DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f',
       'arbitrum-one': '0x7ba4a00d54a07461d9db2aef539e91409943adc9',
@@ -16982,7 +16050,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stacktical',
     symbol: 'dsla',
     name: 'DSLA Protocol',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x3affcca64c2a6f4e3b6bd9c64cd2c969efd1ecbe',
       'harmony-shard-0': '0x34704c70e9ec9fb9a921da6daad7d3e19f43c734',
@@ -16998,7 +16066,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stader-maticx',
     symbol: 'maticx',
     name: 'Stader MaticX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf03a7eb46d01d9ecaa104558c732cf82f6b6b645',
       'manta-pacific': '0x01d27580c464d5b3b26f78bee12e684901dbc02a',
@@ -17010,7 +16078,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stader-sftmx',
     symbol: 'sftmx',
     name: 'BeethovenX sFTMX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       fantom: '0xd7028092c830b5c8fce061af2e593413ebbc1fc1',
     },
@@ -17020,7 +16088,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stafi',
     symbol: 'fis',
     name: 'Stafi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       polkadot: '0xef3a930e1ffffacd2fc13434ac81bd278b0ecc8d',
       sora: '0x00e6df883c9844e34b354b840e3a527f5fc6bfc937138c67908b1c8f2931f3e9',
@@ -17032,7 +16100,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'staked-frax-ether',
     symbol: 'sfrxeth',
     name: 'Staked Frax Ether',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xac3e018457b222d93114458476f3e3416abbe38f',
       moonbeam: '0xecf91116348af1cffe335e9807f0051332be128d',
@@ -17048,7 +16116,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stfx',
     symbol: 'stfx',
     name: 'STFX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x9343e24716659a3551eb10aff9472a2dcad5db2d',
       'arbitrum-one': '0x7dd747d63b094971e6638313a6a2685e80c7fb2e',
@@ -17059,7 +16127,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'strikecoin',
     symbol: 'strx',
     name: 'StrikeX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xd6fdde76b8c1c45b33790cc8751d5b88984c44ec',
     },
@@ -17069,7 +16137,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stake-link',
     symbol: 'sdl',
     name: 'stake.link',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa95c5ebb86e0de73b4fb8c47a45b792cfea28c23',
     },
@@ -17079,7 +16147,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stakewise',
     symbol: 'swise',
     name: 'StakeWise',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x48c3399719b582dd63eb5aadf12a40b4c3f52fa2',
     },
@@ -17089,7 +16157,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stargate-finance',
     symbol: 'stg',
     name: 'Stargate Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6',
       avalanche: '0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590',
@@ -17105,7 +16173,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'starknet',
     symbol: 'strk',
     name: 'Starknet',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xca14007eff0db1f8135f4c25b34de49ab0d42766',
       starknet:
@@ -17117,7 +16185,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'starlink',
     symbol: 'starl',
     name: 'StarLink',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x8e6cd950ad6ba651f6dd608dc70e5886b1aa6b24',
     },
@@ -17127,7 +16195,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'storx',
     symbol: 'srx',
     name: 'StorX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'xdc-network': 'xdc5d5f074837f5d4618b3916ba74de1bf9662a3fed',
     },
@@ -17137,7 +16205,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stasis-eurs',
     symbol: 'eurs',
     name: 'STASIS EURO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdb25f211ab05b1c97d595516f45794528a807ad8',
       'polygon-pos': '0xe111178a87a3bff0c8d18decba5798827539ae99',
@@ -17148,7 +16216,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stat',
     symbol: 'stat',
     name: 'STAT',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4fc15c91a9c4a9efb404174464687e8e128730c2',
     },
@@ -17158,7 +16226,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'steem',
     symbol: 'steem',
     name: 'Steem',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 399,
   },
@@ -17166,7 +16234,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'steem-dollars',
     symbol: 'sbd',
     name: 'Steem Dollars',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 672,
   },
@@ -17182,7 +16250,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stellaswap',
     symbol: 'stella',
     name: 'StellaSwap',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       moonbeam: '0x0e358838ce72d5e61e0018a2ffac4bec5f4c88d2',
     },
@@ -17192,7 +16260,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'step-finance',
     symbol: 'step',
     name: 'Step Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT',
     },
@@ -17202,7 +16270,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'step-app-fitfi',
     symbol: 'fitfi',
     name: 'Step App',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       avalanche: '0x714f020c54cc9d104b6f4f6998c63ce2a31d1888',
       'binance-smart-chain': '0x7588df009c3d82378be6ab81f2108fa963c10fc8',
@@ -17214,7 +16282,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stima',
     symbol: 'stima',
     name: 'STIMA',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xd2e5decc08a80be6538f89f9ab8ff296e2f724df',
     },
@@ -17224,7 +16292,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stobox-token',
     symbol: 'stbu',
     name: 'Stobox',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa6422e3e219ee6d4c1b18895275fe43556fd50ed',
       'binance-smart-chain': '0xb0c4080a8fa7afa11a09473f3be14d44af3f8743',
@@ -17236,7 +16304,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'storj',
     symbol: 'storj',
     name: 'Storj',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac',
       'harmony-shard-0': '0x266f341e33aa61c30c6a9af89314811a5b097cb4',
@@ -17248,7 +16316,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'storm',
     symbol: 'stmx',
     name: 'StormX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa62cc35625b0c8dc1faea39d33625bb4c15bd71c',
     },
@@ -17258,7 +16326,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stp-network',
     symbol: 'stpt',
     name: 'STP',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xde7d85157d9714eadf595045cc12ca4a5f3e2adb',
     },
@@ -17268,7 +16336,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stratis',
     symbol: 'strax',
     name: 'Stratis',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2109,
   },
@@ -17276,7 +16344,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stratos',
     symbol: 'stos',
     name: 'Stratos',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x08c32b0726c5684024ea6e141c50ade9690bbdcc',
     },
@@ -17286,7 +16354,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'streamr-xdata',
     symbol: 'xdata',
     name: 'Streamr XDATA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0cf0ee63788a0849fe5297f3407f701e122cc023',
     },
@@ -17296,7 +16364,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stride',
     symbol: 'strd',
     name: 'Stride',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/A8CA5EE328FA10C9519DF6057DA1F69682D28F7D0F5CCC7ECB72E3DCA2D157A4',
@@ -17307,7 +16375,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stride-staked-atom',
     symbol: 'statom',
     name: 'Stride Staked Atom',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       evmos: '0xc8b4d3e67238e38b20d38908646ff6f4f48de5ec',
       secret: 'secret155w9uxruypsltvqfygh5urghd5v0zc6f9g69sq',
@@ -17320,7 +16388,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stride-staked-juno',
     symbol: 'stjuno',
     name: 'Stride Staked Juno',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/84502A75BCA4A5F68D464C00B3F610CE2585847D59B52E5FFB7C3C9D2DDCD3FE',
@@ -17332,7 +16400,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stride-staked-osmo',
     symbol: 'stosmo',
     name: 'Stride Staked Osmo',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/D176154B0C63D1F9C6DCFB4F70349EBF2E2B5A87A05902F57A6AE92B863E9AEC',
@@ -17343,7 +16411,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stride-staked-stars',
     symbol: 'ststars',
     name: 'Stride Staked Stars',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cosmos:
         'ibc/5DD1F95ED336014D00CE2520977EC71566D282F9749170ADC83A392E0EA7426A',
@@ -17354,7 +16422,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'strips-finance',
     symbol: 'strp',
     name: 'Strips Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x97872eafd79940c7b24f7bcc1eadb1457347adc9',
       'arbitrum-one': '0x326c33fd1113c1f29b35b4407f3d6312a8518431',
@@ -17365,7 +16433,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'strong',
     symbol: 'strong',
     name: 'Strong',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x990f341946a3fdb507ae7e52d17851b87168017c',
     },
@@ -17375,7 +16443,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'stronghold-token',
     symbol: 'shx',
     name: 'Stronghold',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       stellar: 'SHX-GDSTRSHXHGJ7ZIVRBXEYE5Q74XUVCUSEKEBR7UCHEUUEK72N7I7KJ6JH',
     },
@@ -17385,7 +16453,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'subsocial',
     symbol: 'sub',
     name: 'Subsocial',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       moonbeam: '0xffffffff43b4560bc0c451a3386e082bff50ac90',
     },
@@ -17395,7 +16463,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sudoswap',
     symbol: 'sudo',
     name: 'sudoswap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3446dd70b2d52a6bf4a5a192d9b0a161295ab7f9',
     },
@@ -17405,7 +16473,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sui',
     symbol: 'sui',
     name: 'Sui',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       sui: '0x2::sui::SUI',
     },
@@ -17415,7 +16483,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'suipad',
     symbol: 'suip',
     name: 'SuiPad',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       sui: '0xe4239cd951f6c53d9c41e25270d80d31f925ad1655e5ba5b543843d4a66975ee::SUIP::SUIP',
     },
@@ -17425,7 +16493,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'suiswap',
     symbol: 'sswp',
     name: 'Suiswap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1323,
   },
@@ -17433,7 +16501,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'suku',
     symbol: 'suku',
     name: 'SUKU',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0763fdccf1ae541a5961815c0872a8c5bc6de4d7',
     },
@@ -17443,7 +16511,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sun-token',
     symbol: 'sun',
     name: 'Sun Token',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       tron: 'TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S',
     },
@@ -17453,7 +16521,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'superlauncher-dao',
     symbol: 'launch',
     name: 'Superlauncher',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       zksync: '0xf6d9a093a1c69a152d87e269a7d909e9d76b1815',
     },
@@ -17463,7 +16531,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'superrare',
     symbol: 'rare',
     name: 'SuperRare',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xba5bde662c17e2adff1075610382b9b691296350',
     },
@@ -17473,7 +16541,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'superwalk',
     symbol: 'grnd',
     name: 'SuperWalk',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'klay-token': '0x84f8c3c8d6ee30a559d73ec570d574f671e82647',
     },
@@ -17491,7 +16559,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sushi',
     symbol: 'sushi',
     name: 'Sushi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
       fantom: '0xae75a438b2e0cb8bb01ec1e1e376de11d44477cc',
@@ -17513,7 +16581,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'suterusu',
     symbol: 'suter',
     name: 'Suterusu',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaa2ce7ae64066175e0b90497ce7d9c190c315db4',
     },
@@ -17523,7 +16591,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'swarm-bzz',
     symbol: 'bzz',
     name: 'Swarm',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x19062190b1925b5b6689d7073fdfc8c2976ef8cb',
       xdai: '0xdbf3ea6f5bee45c02255b2c26a16f300502f68da',
@@ -17534,7 +16602,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'swash',
     symbol: 'swash',
     name: 'Swash',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa130e3a33a4d84b04c3918c4e5762223ae252f80',
       xdai: '0x84e2c67cbefae6b5148fca7d02b341b12ff4b5bb',
@@ -17547,7 +16615,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sweatcoin',
     symbol: 'sweat',
     name: 'Sweat Economy',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35',
       'near-protocol': 'token.sweat',
@@ -17558,7 +16626,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sweth',
     symbol: 'sweth',
     name: 'Swell Ethereum',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf951e335afb289353dc249e82926178eac7ded78',
       'arbitrum-one': '0xbc011a12da28e8f0f528d9ee5e7039e22f91cf18',
@@ -17569,7 +16637,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'swftcoin',
     symbol: 'swftc',
     name: 'SWFTCOIN',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e',
       'binance-smart-chain': '0xe64e30276c2f826febd3784958d6da7b55dfbad3',
@@ -17580,7 +16648,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'swipe',
     symbol: 'sxp',
     name: 'SXP',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9',
       'harmony-shard-0': '0x77d046614710fddf5ca3e3ce85f4f09f7abc283c',
@@ -17592,7 +16660,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'switcheo',
     symbol: 'swth',
     name: 'Carbon Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/8FEFAE6AECF6E2A255585617F781F35A8D5709A545A804482A261C0C9548A9D3',
@@ -17607,7 +16675,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'sylo',
     symbol: 'sylo',
     name: 'Sylo',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf293d23bf2cdc05411ca0eddd588eb1977e8dcd4',
     },
@@ -17617,7 +16685,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'symbiosis-finance',
     symbol: 'sis',
     name: 'Symbiosis',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd38bb40815d2b0c2d2c866e0c72c5728ffc76dd9',
       linea: '0x6ef95b6f3b0f39508e3e04054be96d5ee39ede0d',
@@ -17632,7 +16700,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'syncus',
     symbol: 'sync',
     name: 'Syncus',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa41d2f8ee4f47d3b860a149765a7df8c3287b7f0',
       zksync: '0x2d20b8891f2f9ed0ebf1b179b2279f936dec9282',
@@ -17643,7 +16711,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'syscoin',
     symbol: 'sys',
     name: 'Syscoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 312,
   },
@@ -17651,7 +16719,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'taboo-token',
     symbol: 'taboo',
     name: 'Taboo',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x9abdba20edfba06b782126b4d8d72a5853918fd0',
     },
@@ -17661,7 +16729,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'taki',
     symbol: 'taki',
     name: 'Taki Games',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'Taki7fi3Zicv7Du1xNAWLaf6mRK7ikdn77HeGzgwvo4',
       'polygon-pos': '0xe78aee6ccb05471a69677fb74da80f5d251c042b',
@@ -17672,7 +16740,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tamadoge',
     symbol: 'tama',
     name: 'Tamadoge',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x12b6893ce26ea6341919fe289212ef77e51688c8',
     },
@@ -17682,7 +16750,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'trustpad-2-0',
     symbol: 'tpad',
     name: 'TrustPad',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x7029f86dc4634c5d59ee3f1578c193783505e2c1',
     },
@@ -17692,7 +16760,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tap',
     symbol: 'xtp',
     name: 'Tap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6368e1e18c4c419ddfc608a0bed1ccb87b9250fc',
     },
@@ -17702,7 +16770,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'taraxa',
     symbol: 'tara',
     name: 'Taraxa',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 901,
   },
@@ -17724,7 +16792,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tbtc',
     symbol: 'tbtc',
     name: 'tBTC',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x18084fba666a33d37592fa2633fd49a74dd93a88',
       'polygon-pos': '0x236aa50979d5f3de3bd1eeb40e81137f22ab794b',
@@ -17739,7 +16807,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tectonic',
     symbol: 'tonic',
     name: 'Tectonic',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cronos: '0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2',
     },
@@ -17749,7 +16817,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tectum',
     symbol: 'tet',
     name: 'Tectum',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x68a47fe1cf42eba4a030a10cd4d6a1031ca3ca0a',
     },
@@ -17759,7 +16827,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'telcoin',
     symbol: 'tel',
     name: 'Telcoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x467bccd9d29f223bce8043b84e8c8b282827790f',
       sora: '0x008f925e3e422218604fac1cc2f06f3ef9c1e244e0d2a9a823e5bd8ce9778434',
@@ -17771,7 +16839,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tellor',
     symbol: 'trb',
     name: 'Tellor Tributes',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0',
       'manta-pacific': '0x8d7090ddda057f48fdbbb2abcea22d1113ab566a',
@@ -17786,7 +16854,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'telos',
     symbol: 'tlos',
     name: 'Telos',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 390,
   },
@@ -17794,7 +16862,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9',
     symbol: 'tenet',
     name: 'TENET',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x788d86e00ab31db859c3d6b80d5a9375801d7f2a',
     },
@@ -17804,7 +16872,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tenset',
     symbol: '10set',
     name: 'Tenset',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x1ae369a6ab222aff166325b7b87eb9af06c86e57',
     },
@@ -17814,7 +16882,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'terra-luna-2',
     symbol: 'luna',
     name: 'Terra',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       osmosis:
         'ibc/785AFEC6B3741100D15E7AF01374E3C4C36F24888E96479B1C33F5C71F364EF9',
@@ -17825,7 +16893,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'terrausd',
     symbol: 'ustc',
     name: 'TerraClassicUSD',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       terra: 'uusd',
     },
@@ -17835,7 +16903,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tether-eurt',
     symbol: 'eurt',
     name: 'Euro Tether',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xc581b735a1688071a1746c968e0798d642ede491',
     },
@@ -17845,7 +16913,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tether-gold',
     symbol: 'xaut',
     name: 'Tether Gold',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x68749665ff8d2d112fa859aa293f07a622782f38',
     },
@@ -17855,7 +16923,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tetu',
     symbol: 'tetu',
     name: 'TETU',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x255707b70bf90aa112006e1b07b9aea6de021424',
       fantom: '0x65c9d9d080714cda7b5d58989dc27f897f165179',
@@ -17866,7 +16934,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tezos',
     symbol: 'xtz',
     name: 'Tezos',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 88,
   },
@@ -17874,7 +16942,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tgold',
     symbol: 'txau',
     name: 'tGOLD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xa6da8c8999c094432c77e7d318951d34019af24b',
       ethereum: '0xe4a6f23fb9e00fca037aa0ea0a6954de0a6c53bf',
@@ -17885,7 +16953,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'thales',
     symbol: 'thales',
     name: 'Thales',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8947da500eb47f82df21143d0c01a29862a8c3c5',
       'optimistic-ethereum': '0x217d47011b23bb961eb6d93ca9945b7501a5bb11',
@@ -17899,7 +16967,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'the-abyss',
     symbol: 'abyss',
     name: 'Abyss',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0e8d6b471e332f140e7d9dbb99e5e3822f728da6',
       'harmony-shard-0': '0xa52d0c7943cc1020a926b23dd1c64fc60b4fadde',
@@ -17910,7 +16978,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'the-graph',
     symbol: 'grt',
     name: 'The Graph',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc944e90c64b2c07662a292be6244bdf05cda44a7',
       'harmony-shard-0': '0x002fa662f2e09de7c306d2bab0085ee9509488ff',
@@ -17928,7 +16996,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'thena',
     symbol: 'the',
     name: 'Thena',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xf4c8e32eadec4bfe97e0f595add0f4450a863a11',
       opbnb: '0x9d94a7ff461e83f161c8c040e78557e31d8cba72',
@@ -17939,7 +17007,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'the-open-network',
     symbol: 'ton',
     name: 'Toncoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x582d872a1b094fc48f5de31d3b73f2d9be47def1',
       'binance-smart-chain': '0x76a797a59ba2c17726896976b7b3747bfd1d220f',
@@ -17950,7 +17018,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'theopetra',
     symbol: 'theo',
     name: 'Theopetra',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xfac0403a24229d7e2edd994d50f5940624cbeac2',
     },
@@ -17960,7 +17028,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'thetadrop',
     symbol: 'tdrop',
     name: 'ThetaDrop',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       theta: '0x1336739b05c7ab8a526d40dcc0d04a826b5f8b03',
     },
@@ -17970,7 +17038,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'theta-fuel',
     symbol: 'tfuel',
     name: 'Theta Fuel',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 182,
   },
@@ -17978,7 +17046,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'theta-token',
     symbol: 'theta',
     name: 'Theta Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 50,
   },
@@ -17986,7 +17054,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'the-three-kingdoms',
     symbol: 'ttk',
     name: 'The Three Kingdoms',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x39703a67bac0e39f9244d97f4c842d15fbad9c1f',
     },
@@ -17996,7 +17064,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'the-unfettered-souls',
     symbol: 'souls',
     name: 'The Unfettered Ecosystem',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'polygon-pos': '0xaa4fbc6809a8e1924520fc85282ac4c76a7671d7',
     },
@@ -18006,7 +17074,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'the-virtua-kolect',
     symbol: 'tvk',
     name: 'Virtua',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988',
     },
@@ -18016,7 +17084,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'the-winkyverse',
     symbol: 'wnk',
     name: 'Winkies',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe1bda0c3bfa2be7f740f0119b6a34f057bd58eba',
       'binance-smart-chain': '0xb160a5f19ebccd8e0549549327e43ddd1d023526',
@@ -18027,7 +17095,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'thol-token',
     symbol: 'thol',
     name: 'AngelBlock',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x207e14389183a94343942de7afbc607f57460618',
     },
@@ -18037,7 +17105,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'thorswap',
     symbol: 'thor',
     name: 'THORSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa5f2211b9b8170f694421f2046281775e8468044',
     },
@@ -18047,7 +17115,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'thorchain',
     symbol: 'rune',
     name: 'THORChain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 49,
   },
@@ -18055,7 +17123,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'thorstarter',
     symbol: 'xrune',
     name: 'Thorstarter',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x69fa0fee221ad11012bab0fdb45d444d3d2ce71c',
       fantom: '0xe1e6b01ae86ad82b1f1b4eb413b219ac32e17bf6',
@@ -18067,7 +17135,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'thorwallet',
     symbol: 'tgt',
     name: 'THORWallet DEX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x108a850856db3f85d0269a2693d896b394c80325',
     },
@@ -18077,7 +17145,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'thought',
     symbol: 'tht',
     name: 'Thought',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 874,
   },
@@ -18085,7 +17153,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'threshold-network-token',
     symbol: 't',
     name: 'Threshold Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xcdf7028ceab81fa0c6971208e83fa7872994bee5',
     },
@@ -18095,7 +17163,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tidal-finance',
     symbol: 'tidal',
     name: 'Tidal Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x29cbd0510eec0327992cd6006e63f9fa8e7f33b7',
       'polygon-pos': '0xb41ec2c036f8a42da384dde6ada79884f8b84b26',
@@ -18106,7 +17174,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tierion',
     symbol: 'tnt',
     name: 'Tierion',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x08f5a9235b08173b7569f83645d2c7fb55e8ccd8',
     },
@@ -18116,7 +17184,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tifi-token',
     symbol: 'tifi',
     name: 'TiFi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x17e65e6b9b166fb8e7c59432f0db126711246bc0',
     },
@@ -18126,7 +17194,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tigris',
     symbol: 'tig',
     name: 'Tigris',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x3a33473d7990a605a88ac72a78ad4efc40a54adb',
     },
@@ -18136,7 +17204,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tokencard',
     symbol: 'tkn',
     name: 'Monolith',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xaaaf91d9b90df800df4f55c205fd6989c977e73a',
     },
@@ -18146,7 +17214,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tokenfi',
     symbol: 'token',
     name: 'TokenFi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4507cef57c46789ef8d1a19ea45f4216bae2b528',
       'binance-smart-chain': '0x4507cef57c46789ef8d1a19ea45f4216bae2b528',
@@ -18157,7 +17225,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'token-in',
     symbol: 'tin',
     name: 'Token IN',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       aptos:
         '0xc32ba5d293577cbb1df390f35b2bc6369a593b736d0865fedec1a2b08565de8e::in_coin::InCoin',
@@ -18168,7 +17236,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tokenize-xchange',
     symbol: 'tkx',
     name: 'Tokenize Xchange',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x667102bd3413bfeaa3dffb48fa8288819e480a88',
     },
@@ -18178,7 +17246,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tokenlon',
     symbol: 'lon',
     name: 'Tokenlon',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0000000000095413afc295d19edeb1ad7b71c952',
       'arbitrum-one': '0x55678cd083fcdc2947a0df635c93c838c89454a3',
@@ -18189,7 +17257,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tokocrypto',
     symbol: 'tko',
     name: 'Tokocrypto',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x9f589e3eabe42ebc94a44727b3f3531c0c877809',
     },
@@ -18199,7 +17267,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tokpie',
     symbol: 'tkp',
     name: 'TOKPIE',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd31695a1d35e489252ce57b129fd4b1b05e6acac',
       'binance-smart-chain': '0x7849ed1447250d0b896f89b58f3075b127ca29b3',
@@ -18210,7 +17278,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tomb',
     symbol: 'tomb',
     name: 'Tomb',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       fantom: '0x6c021ae822bea943b2e66552bde1d2696a53fbb7',
       tombchain: '0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000',
@@ -18224,7 +17292,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tominet',
     symbol: 'tomi',
     name: 'tomiNet',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4385328cc4d643ca98dfea734360c0f596c83449',
     },
@@ -18234,7 +17302,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'top-network',
     symbol: 'top',
     name: 'TOP Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdcd85914b8ae28c1e62f1c488e1d968d5aaffe2b',
     },
@@ -18244,7 +17312,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tor',
     symbol: 'tor',
     name: 'TOR',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       fantom: '0x74e23df9110aa9ea0b6ff2faee01e740ca1c642e',
       'binance-smart-chain': '0x1d6cbdc6b29c6afbae65444a1f65ba9252b8ca83',
@@ -18255,7 +17323,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tornado-cash',
     symbol: 'torn',
     name: 'Tornado Cash',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x77777feddddffc19ff86db637967013e6c6a116c',
       'binance-smart-chain': '0x1ba8d3c4c219b124d351f603060663bd1bcd9bbf',
@@ -18266,7 +17334,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'torum',
     symbol: 'xtm',
     name: 'Torum',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x443cab9583b83eaa7a712c9d64525e57e2a7eb3f',
     },
@@ -18276,7 +17344,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'toshi',
     symbol: 'toshi',
     name: 'Toshi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       base: '0xac1bd2486aaf3b5c0fc3fd868558b082a531b2b4',
     },
@@ -18286,7 +17354,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tower',
     symbol: 'tower',
     name: 'Tower',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1c9922314ed1415c95b9fd453c3818fd41867d0b',
       base: '0xf7c1cefcf7e1dd8161e00099facd3e1db9e528ee',
@@ -18299,7 +17367,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'trava-finance',
     symbol: 'trava',
     name: 'Trava Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x0391be54e72f7e001f6bbc331777710b4f2999ef',
       ethereum: '0x186d0ba3dfc3386c464eecd96a61fbb1e2da00bf',
@@ -18311,7 +17379,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'traxx',
     symbol: 'traxx',
     name: 'Traxx',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd43be54c1aedf7ee4099104f2dae4ea88b18a249',
     },
@@ -18321,7 +17389,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'treeb',
     symbol: 'treeb',
     name: 'Retreeb',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       fantom: '0xc60d7067dfbc6f2caf30523a064f416a5af52963',
     },
@@ -18331,7 +17399,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tree-capital',
     symbol: 'tree',
     name: 'Tree',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0xba25b2281214300e4e649fead9a6d6acd25f1c0a',
     },
@@ -18341,7 +17409,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'treecle',
     symbol: 'trcl',
     name: 'Treecle',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'klay-token': '0x4b91c67a89d4c4b2a4ed9fcde6130d7495330972',
     },
@@ -18351,7 +17419,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'trias-token',
     symbol: 'trias',
     name: 'TriasLab',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xa4838122c683f732289805fc3c207febd55babdd',
       ethereum: '0x3a856d4effa670c54585a5d523e96513e148e95d',
@@ -18362,7 +17430,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tribe-2',
     symbol: 'tribe',
     name: 'Tribe',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc7283b66eb1eb5fb86327f08e1b5816b0720212b',
     },
@@ -18372,7 +17440,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tribeone',
     symbol: 'haka',
     name: 'TribeOne',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd85ad783cc94bd04196a13dc042a3054a9b52210',
       'binance-smart-chain': '0xd85ad783cc94bd04196a13dc042a3054a9b52210',
@@ -18383,7 +17451,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tron',
     symbol: 'trx',
     name: 'TRON',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 18,
   },
@@ -18391,7 +17459,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tronpad',
     symbol: 'tronpad',
     name: 'TRONPAD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x1bf7aedec439d6bfe38f8f9b20cf3dc99e3571c4',
     },
@@ -18401,7 +17469,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'troy',
     symbol: 'troy',
     name: 'TROY',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       binancecoin: 'TROY-9B8',
     },
@@ -18411,7 +17479,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'truefi',
     symbol: 'tru',
     name: 'TrueFi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4c19596f5aaff459fa38b0f7ed92f11ae6543784',
     },
@@ -18421,7 +17489,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'trust-wallet-token',
     symbol: 'twt',
     name: 'Trust Wallet',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x4b0f1812e5df2a09796481ff14017e6005508003',
       energi: '0xfaa02b262130431b44c929fdd960e202ffeabfe3',
@@ -18433,7 +17501,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'tutellus',
     symbol: 'tut',
     name: 'Tutellus',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x12a34a6759c871c4c1e8a0a42cfc97e4d7aaf68d',
     },
@@ -18443,7 +17511,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ubxs-token',
     symbol: 'ubxs',
     name: 'UBXS',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x4f1960e29b2ca581a38c5c474e123f420f8092db',
     },
@@ -18453,7 +17521,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'ultra',
     symbol: 'uos',
     name: 'Ultra',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c',
     },
@@ -18463,7 +17531,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'uma',
     symbol: 'uma',
     name: 'UMA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x04fa0d235c4abf4bcf4787af4cf447de572ef828',
       avalanche: '0x3bd2b1c7ed8d396dbb98ded3aebb41350a5b2339',
@@ -18474,7 +17542,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'umami-finance',
     symbol: 'umami',
     name: 'Umami',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x1622bf67e6e5747b81866fe0b85178a93c7f86e3',
     },
@@ -18484,7 +17552,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'umbrella-network',
     symbol: 'umb',
     name: 'Umbrella Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6fc13eace26590b80cccab1ba5d51890577d83b2',
       'binance-smart-chain': '0x846f52020749715f02aef25b5d1d65e48945649d',
@@ -18495,7 +17563,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'undead-blocks',
     symbol: 'undead',
     name: 'Undead Blocks',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x310c8f00b9de3c31ab95ea68feb6c877538f7947',
     },
@@ -18505,7 +17573,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unibot',
     symbol: 'unibot',
     name: 'Unibot',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf819d9cb1c2a819fd991781a822de3ca8607c3c9',
     },
@@ -18515,7 +17583,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unibright',
     symbol: 'ubt',
     name: 'Unibright',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e',
       energi: '0xe3d7a5c28d5a4143831242e8ab218d7e9b5c2c87',
@@ -18527,7 +17595,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'uniswap',
     symbol: 'uni',
     name: 'Uniswap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984',
       xdai: '0x4537e328bf7e4efa29d05caea260d7fe26af9d74',
@@ -18549,7 +17617,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unicrypt-2',
     symbol: 'uncx',
     name: 'UNCX Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xadb2437e6f65682b85f814fbc12fec0508a7b1d0',
       xdai: '0x0116e28b43a358162b96f70b4de14c98a4465f25',
@@ -18561,7 +17629,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unidef',
     symbol: 'u',
     name: 'Unidef',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x89db9b433fec1307d3dc8908f2813e9f7a1d38f0',
     },
@@ -18571,7 +17639,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unix',
     symbol: 'unix',
     name: 'UniX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xddd6a0ecc3c6f6c102e5ea3d8af7b801d1a77ac8',
       avalanche: '0x6f97d3f120fbbdaacf1c9da61a8ad126b7426861',
@@ -18582,7 +17650,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unifi-protocol-dao',
     symbol: 'unfi',
     name: 'Unifi Protocol DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x441761326490cacf7af299725b6292597ee822c2',
       'binance-smart-chain': '0x728c5bac3c3e370e372fc4671f9ef6916b814d8b',
@@ -18593,7 +17661,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unisocks',
     symbol: 'socks',
     name: 'Unisocks',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x23b608675a2b2fb1890d3abbd85c5775c51691d5',
       pulsechain: '0x23b608675a2b2fb1890d3abbd85c5775c51691d5',
@@ -18604,7 +17672,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unizen',
     symbol: 'zcx',
     name: 'Unizen',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc52c326331e9ce41f04484d3b5e5648158028804',
     },
@@ -18614,7 +17682,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unlend-finance',
     symbol: 'uft',
     name: 'UniLend Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0202be363b8a4820f3f4de7faf5224ff05943ab1',
       'polygon-pos': '0x5b4cf2c120a9702225814e18543ee658c5f8631e',
@@ -18626,7 +17694,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'uwu-lend',
     symbol: 'uwu',
     name: 'UwU Lend',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x55c08ca52497e2f1534b59e2917bf524d4765257',
     },
@@ -18636,7 +17704,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unmarshal',
     symbol: 'marsh',
     name: 'Unmarshal',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5a666c7d92e5fa7edcb6390e4efd6d0cdd69cf37',
       'binance-smart-chain': '0x2fa5daf6fe0708fbd63b1a7d1592577284f52256',
@@ -18647,7 +17715,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'unstoppable-defi',
     symbol: 'und',
     name: 'Unstoppable DeFi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0xb5a628803ee72d82098d4bcaf29a42e63531b441',
     },
@@ -18657,7 +17725,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'youves-you-governance',
     symbol: 'you',
     name: 'Youves YOU Governance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       tezos: 'KT1Xobej4mc6XgEjDoJoHtTKgbD1ELMvcQuL',
     },
@@ -18667,7 +17735,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'uquid-coin',
     symbol: 'uqc',
     name: 'Uquid Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8806926ab68eb5a7b909dcaf6fdbe5d93271d6e2',
     },
@@ -18677,7 +17745,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'urus-token',
     symbol: 'urus',
     name: 'Aurox',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc6dddb5bc6e61e0841c54f3e723ae1f3a807260b',
       'binance-smart-chain': '0xc6dddb5bc6e61e0841c54f3e723ae1f3a807260b',
@@ -18688,7 +17756,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'usdd',
     symbol: 'usdd',
     name: 'USDD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       tron: 'TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn',
       'near-protocol':
@@ -18705,7 +17773,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'verified-usd-foundation-usdv',
     symbol: 'usdv',
     name: 'Verified USD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0e573ce2736dd9637a0b21058352e1667925c7a8',
       tomochain: '0x323665443cef804a3b5206103304bd4872ea4253',
@@ -18721,7 +17789,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'usdx',
     symbol: 'usdx',
     name: 'USDX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 530,
   },
@@ -18729,7 +17797,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'utility-web3shot',
     symbol: 'uw3s',
     name: 'Utility Web3Shot',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x961e149db8bfbdb318c182152725ac806d7be3f4',
     },
@@ -18739,7 +17807,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vabble',
     symbol: 'vab',
     name: 'Vabble',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xe7ae6d0c56cacaf007b7e4d312f9af686a9e9a04',
       'polygon-pos': '0xea73dcf6f49f8d6ad5a129aaede776d78d418cfd',
@@ -18750,7 +17818,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vaiot',
     symbol: 'vai',
     name: 'Vaiot',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xd13cfd3133239a3c73a9e535a5c4dadee36b395c',
     },
@@ -18760,7 +17828,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'valencia-cf-fan-token',
     symbol: 'vcf',
     name: 'Valencia CF Fan Token',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       chiliz: '0xba0c26485b1909f80476067272d74a99cc0e1d57',
     },
@@ -18770,7 +17838,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vcore',
     symbol: 'vcore',
     name: 'IMVU',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x733b5056a0697e7a4357305fe452999a0c409feb',
     },
@@ -18780,7 +17848,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vechain',
     symbol: 'vet',
     name: 'VeChain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 44,
   },
@@ -18788,7 +17856,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vector-finance',
     symbol: 'vtx',
     name: 'Vector Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       avalanche: '0x5817d4f0b62a59b17f75207da1848c2ce75e7af4',
     },
@@ -18798,7 +17866,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vectorspace',
     symbol: 'vxv',
     name: 'Vectorspace AI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7d29a64504629172a429e64183d6673b9dacbfce',
     },
@@ -18808,7 +17876,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vega-protocol',
     symbol: 'vega',
     name: 'Vega Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xcb84d72e61e383767c4dfeb2d8ff7f4fb89abc6e',
     },
@@ -18818,7 +17886,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'velas',
     symbol: 'vlx',
     name: 'Velas',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8c543aed163909142695f2d2acd0d55791a9edb9',
       'binance-smart-chain': '0xe9c803f48dffe50180bd5b01dc04da939e3445fc',
@@ -18829,7 +17897,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'velaspad',
     symbol: 'vlxpad',
     name: 'VelasPad',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xb8e3bb633f7276cc17735d86154e0ad5ec9928c0',
       ethereum: '0xb8e3bb633f7276cc17735d86154e0ad5ec9928c0',
@@ -18841,7 +17909,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vela-token',
     symbol: 'vela',
     name: 'Vela Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0x088cd8f5ef3652623c22d48b1605dcfe860cd704',
       base: '0x5a76a56ad937335168b30df3aa1327277421c6ae',
@@ -18852,7 +17920,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'velhalla',
     symbol: 'scar',
     name: 'ScarQuest',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x8d9fb713587174ee97e91866050c383b5cee6209',
     },
@@ -18862,7 +17930,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'velodrome-finance',
     symbol: 'velo',
     name: 'Velodrome Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'optimistic-ethereum': '0x9560e827af36c94d2ac33a39bce1fe78631088db',
     },
@@ -18872,7 +17940,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'veloce-vext',
     symbol: 'vext',
     name: 'Veloce',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0x27842334c55c01ddfe81bf687425f906816c5141',
       ethereum: '0xb2492e97a68a6e4b9e9a11b99f6c42e5accd38c7',
@@ -18883,7 +17951,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vinuchain',
     symbol: 'vc',
     name: 'VinuChain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x2bf83d080d8bc4715984e75e5b3d149805d11751',
     },
@@ -18893,7 +17961,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vexanium',
     symbol: 'vex',
     name: 'Vexanium',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2523,
   },
@@ -18901,7 +17969,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vempire-ddao',
     symbol: 'vemp',
     name: 'VEMP',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xcfeb09c3c5f0f78ad72166d55f9e6e9a60e96eec',
       fantom: '0x526f1dc408cfe7fc5330ab9f1e78474ceff2a5dd',
@@ -18915,7 +17983,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'veno-finance',
     symbol: 'vno',
     name: 'Veno Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cronos: '0xdb7d0a1ec37de1de924f8e8adac6ed338d4404e9',
       zksync: '0xe75a17b4f5c4f844688d5670b684515d7c785e63',
@@ -18938,7 +18006,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'venus',
     symbol: 'xvs',
     name: 'Venus',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63',
       ethereum: '0xd3cc9d8f3689b83c91b7b59cab4946b063eb894a',
@@ -18949,7 +18017,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'verasity',
     symbol: 'vra',
     name: 'Verasity',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf411903cbc70a74d22900a5de66a2dda66507255',
     },
@@ -18959,7 +18027,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'verge',
     symbol: 'xvg',
     name: 'Verge',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 499,
   },
@@ -18967,7 +18035,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'versagames',
     symbol: 'versa',
     name: 'VersaGames',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       cronos: '0x00d7699b71290094ccb1a5884cd835bd65a78c17',
       'polygon-pos': '0x8497842420cfdbc97896c2353d75d89fc8d5be5d',
@@ -18978,7 +18046,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vertcoin',
     symbol: 'vtc',
     name: 'Vertcoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1910,
   },
@@ -18986,7 +18054,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vesper-finance',
     symbol: 'vsp',
     name: 'Vesper Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1b40183efb4dd766f11bda7a7c3ad8982e998421',
       fantom: '0x461d52769884ca6235b685ef2040f47d30c94eb5',
@@ -19008,7 +18076,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vethor-token',
     symbol: 'vtho',
     name: 'VeThor',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 265,
   },
@@ -19016,7 +18084,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'viberate',
     symbol: 'vib',
     name: 'Viberate',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2c974b2d0ba1716e644c1fc59982a89ddd2ff724',
     },
@@ -19026,7 +18094,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'victoria-vr',
     symbol: 'vr',
     name: 'Victoria VR',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7d5121505149065b562c789a0145ed750e6e8cdd',
     },
@@ -19036,7 +18104,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vidt-dao',
     symbol: 'vidt',
     name: 'VIDT DAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3be7bf1a5f23bd8336787d0289b70602f1940875',
     },
@@ -19046,7 +18114,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vidya',
     symbol: 'vidya',
     name: 'Vidya',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3d3d35bb9bec23b06ca00fe472b50e7a4c692c30',
     },
@@ -19056,7 +18124,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vita-inu',
     symbol: 'vinu',
     name: 'Vita Inu',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xfebe8c1ed424dbf688551d4e2267e7a53698f0aa',
       vite: 'tti_541b25bd5e5db35166864096',
@@ -19069,7 +18137,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'virtual-versions',
     symbol: 'vv',
     name: 'Virtual Versions',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2556,
   },
@@ -19077,7 +18145,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'virtuswap',
     symbol: 'vrsw',
     name: 'VirtuSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x99a01a4d6a4d621094983050d9a2f10b2912e53d',
       'arbitrum-one': '0xd1e094cabc5acb9d3b0599c3f76f2d01ff8d3563',
@@ -19089,7 +18157,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vitadao',
     symbol: 'vita',
     name: 'VitaDAO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321',
     },
@@ -19099,7 +18167,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vite',
     symbol: 'vite',
     name: 'Vite',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xadd5e881984783dd432f80381fb52f45b53f3e70',
       'binance-smart-chain': '0x2794dad4077602ed25a88d03781528d1637898b4',
@@ -19111,7 +18179,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vixco',
     symbol: 'vix',
     name: 'Vixco',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc0b68eb52c89e3fffa62d78012ac8b661bfaa323',
     },
@@ -19121,7 +18189,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vlaunch-2',
     symbol: 'vpad',
     name: 'VLaunch',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xf574ba6bde97cc09784e616ebaed432b4e896b49',
     },
@@ -19131,7 +18199,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vnx-euro',
     symbol: 'veur',
     name: 'VNX EURO',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6ba75d640bebfe5da1197bb5a2aff3327789b5d3',
       avalanche: '0x7678e162f38ec9ef2bfd1d0aaf9fd93355e5fa0b',
@@ -19145,7 +18213,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'voxies',
     symbol: 'voxel',
     name: 'Voxies',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xd0258a3fd00f38aa8090dfee343f10a9d4d30d3f',
     },
@@ -19155,7 +18223,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'v-systems',
     symbol: 'vsys',
     name: 'V.SYSTEMS',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 1756,
   },
@@ -19163,7 +18231,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vulcan-forged',
     symbol: 'pyr',
     name: 'Vulcan Forged',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x430ef9263e76dae63c84292c3409d61c598e9682',
       'polygon-pos': '0x430ef9263e76dae63c84292c3409d61c598e9682',
@@ -19174,7 +18242,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'vvs-finance',
     symbol: 'vvs',
     name: 'VVS Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       cronos: '0x2d03bece6747adc00e1a131bba1469c15fd11e03',
       ethereum: '0x839e71613f9aa06e5701cf6de63e303616b0dde3',
@@ -19185,7 +18253,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wagmi-2',
     symbol: 'wagmi',
     name: 'Wagmi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'metis-andromeda': '0xaf20f5f19698f1d19351028cd7103b63d30de7d7',
       fantom: '0xb1f795776cb9ddac6e7e162f31c7419dd3d48297',
@@ -19204,7 +18272,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wagmi-game-2',
     symbol: 'wagmigames',
     name: 'WAGMI Games',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x3b604747ad1720c01ded0455728b62c0d2f100f0',
     },
@@ -19214,7 +18282,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'walken',
     symbol: 'wlkn',
     name: 'Walken',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'EcQCUYv57C4V6RoPxkVUiDwtX1SP8y8FP5AEToYL8Az',
     },
@@ -19224,7 +18292,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wam',
     symbol: 'wam',
     name: 'Wam',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xebbaeff6217d22e7744394061d874015709b8141',
     },
@@ -19234,7 +18302,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wanchain',
     symbol: 'wan',
     name: 'Wanchain',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 594,
   },
@@ -19242,7 +18310,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wasder',
     symbol: 'was',
     name: 'Wasder',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0c572544a4ee47904d54aaa6a970af96b6f00e1b',
     },
@@ -19252,7 +18320,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wax',
     symbol: 'waxp',
     name: 'WAX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2a79324c19ef2b89ea98b23bc669b7e7c9f8a517',
     },
@@ -19262,7 +18330,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wazirx',
     symbol: 'wrx',
     name: 'WazirX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       binancecoin: 'WRX-ED1',
       energi: '0x0894840ba7d57c7adf2caf8fd3c41eb79af5b8e7',
@@ -19275,7 +18343,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'web3war',
     symbol: 'fps',
     name: 'web3war',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x351da1e7500aba1d168b9435dce73415718d212f',
       zilliqa: 'zil1j2wrzjljwyjelspmtr63vfl34c467ype2w3mjl',
@@ -19286,7 +18354,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'webchain',
     symbol: 'mintme',
     name: 'MintMe.com Coin',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x138218c8e064ed2a011c9ff203759a8a1e23e6c8',
       ethereum: '0x772722b55cdc2a086abd064267a17855eb15e8b3',
@@ -19299,7 +18367,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wefi-finance',
     symbol: 'wefi',
     name: 'Wefi Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'polygon-pos': '0xffa188493c15dfaf2c206c97d8633377847b6a52',
       ethereum: '0xffa188493c15dfaf2c206c97d8633377847b6a52',
@@ -19313,7 +18381,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wemix-token',
     symbol: 'wemix',
     name: 'WEMIX',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 131,
   },
@@ -19321,7 +18389,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wesendit',
     symbol: 'wsi',
     name: 'WeSendit',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x837a130aed114300bab4f9f1f4f500682f7efd48',
     },
@@ -19331,7 +18399,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'weway',
     symbol: 'wwy',
     name: 'WeWay',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       'binance-smart-chain': '0x9ab70e92319f0b9127df78868fd3655fb9f1e322',
       ethereum: '0x9ab70e92319f0b9127df78868fd3655fb9f1e322',
@@ -19342,7 +18410,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'whitebit',
     symbol: 'wbt',
     name: 'WhiteBIT Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x925206b8a707096ed26ae47c84747fe0bb734f59',
       tron: 'TFptbWaARrWTX5Yvy3gNG5Lm8BmhPx82Bt',
@@ -19353,7 +18421,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'whiteheart',
     symbol: 'white',
     name: 'Whiteheart',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x5f0e628b693018f639d10e4a4f59bd4d8b2b6b44',
     },
@@ -19363,7 +18431,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wigoswap',
     symbol: 'wigo',
     name: 'WigoSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       fantom: '0xe992beab6659bff447893641a378fbbf031c5bd6',
     },
@@ -19373,7 +18441,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wild-goat-coin',
     symbol: 'wgc',
     name: 'Wild Goat Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'AfPeB1BDUotBeNoLv82XRDCNQcdAA1mqis3YC5SMTe7a',
       'polygon-pos': '0x382586651f043cbdec7bb586e367d77b26d7d149',
@@ -19384,7 +18452,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wing-finance',
     symbol: 'wing',
     name: 'Wing Finance',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {},
     marketCapRank: 869,
   },
@@ -19392,7 +18460,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wink',
     symbol: 'win',
     name: 'WINkLink',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       tron: 'TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7',
     },
@@ -19402,7 +18470,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'winr-protocol',
     symbol: 'winr',
     name: 'WINR Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'arbitrum-one': '0xd77b108d4f6cefaa0cae9506a934e825becca46e',
       solana: 'CsxCtA8usvWKdRhe7KhLU5GgwzYaLkoHsz1MKBVZ4W3M',
@@ -19413,7 +18481,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wirex',
     symbol: 'wxt',
     name: 'WXT Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa02120696c7b8fe16c09c749e4598819b2b0e915',
       avalanche: '0xfcde4a87b8b6fa58326bb462882f1778158b02f1',
@@ -19425,7 +18493,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wise-token11',
     symbol: 'wise',
     name: 'Wise',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x66a0f676479cee1d7373f3dc2e2952778bff5bd6',
       'harmony-shard-0': '0xe7e3c4d1cfc722b45a428736845b6aff862842a1',
@@ -19436,7 +18504,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'witch-token',
     symbol: 'witch',
     name: 'Witch Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdc524e3c6910257744c1f93cf15e9f472b5bd236',
     },
@@ -19446,7 +18514,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wliti',
     symbol: 'wliti',
     name: 'wLITI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0b63128c40737b13647552e0c926bcfeccc35f93',
     },
@@ -19456,7 +18524,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wojak',
     symbol: 'wojak',
     name: 'Wojak',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x5026f006b85729a8b14553fae6af249ad16c9aab',
     },
@@ -19466,7 +18534,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wombat',
     symbol: 'wombat',
     name: 'Wombat',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0c9c7712c83b3c70e7c5e11100d33d9401bdf9dd',
       'polygon-pos': '0x0c9c7712c83b3c70e7c5e11100d33d9401bdf9dd',
@@ -19487,7 +18555,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wonderman-nation',
     symbol: 'wndr',
     name: 'Wonderman Nation',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xdfd7b0dd7bf1012dfdf3307a964c36b972300ac8',
     },
@@ -19518,7 +18586,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wownero',
     symbol: 'wow',
     name: 'Wownero',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {},
     marketCapRank: 1381,
   },
@@ -19526,7 +18594,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wozx',
     symbol: 'wozx',
     name: 'Efforce',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0x34950ff2b487d9e5282c5ab342d08a2f712eb79f',
     },
@@ -19536,7 +18604,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wrapped-accumulate',
     symbol: 'wacme',
     name: 'Wrapped Accumulate',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdf4ef6ee483953fe3b84abd08c6a060445c01170',
     },
@@ -19546,7 +18614,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wrapped-ampleforth',
     symbol: 'wampl',
     name: 'Wrapped Ampleforth',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xedb171c18ce90b633db442f2a6f72874093b49ef',
       base: '0x489fe42c267fe0366b16b0c39e7aeef977e841ef',
@@ -19557,7 +18625,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wrapped-beacon-eth',
     symbol: 'wbeth',
     name: 'Wrapped Beacon ETH',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa2e3356610840701bdf5611a53974510ae27e2e1',
       'binance-smart-chain': '0xa2e3356610840701bdf5611a53974510ae27e2e1',
@@ -19568,7 +18636,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wrapped-centrifuge',
     symbol: 'wcfg',
     name: 'Wrapped Centrifuge',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       ethereum: '0xc221b7e65ffc80de234bbb6667abdd46593d34f0',
     },
@@ -19578,7 +18646,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'wrapped-nxm',
     symbol: 'wnxm',
     name: 'Wrapped NXM',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0d438f3b5175bebc262bf23753c1e53d03432bde',
     },
@@ -19588,7 +18656,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'x2y2',
     symbol: 'x2y2',
     name: 'X2Y2',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x1e4ede388cbc9f4b5c79681b7f94d36a11abebc9',
     },
@@ -19598,7 +18666,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xana',
     symbol: 'xeta',
     name: 'XANA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       avalanche: '0x31c994ac062c1970c086260bc61babb708643fac',
       ethereum: '0x967fb0d760ed3ce53afe2f0a071674cccae73550',
@@ -19611,7 +18679,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xaurum',
     symbol: 'xaur',
     name: 'Xaurum',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x4df812f6064def1e5e029f1ca858777cc98d2d81',
     },
@@ -19621,7 +18689,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xcad-network',
     symbol: 'xcad',
     name: 'XCAD Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x7659ce147d0e714454073a5dd7003544234b6aa0',
       'binance-smart-chain': '0xa026ad2ceda16ca5fc28fd3c72f99e2c332c8a26',
@@ -19636,7 +18704,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xdce-crowd-sale',
     symbol: 'xdc',
     name: 'XDC Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 151,
   },
@@ -19644,7 +18712,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xdefi',
     symbol: 'xdefi',
     name: 'XDEFI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x72b886d09c117654ab7da13a14d603001de0b777',
       'arbitrum-one': '0x180f7cf38805d1be95c7632f653e26b0838e2969',
@@ -19655,7 +18723,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xels',
     symbol: 'xels',
     name: 'XELS',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x397deb686c72384fad502a81f4d7fdb89e1f1280',
     },
@@ -19665,7 +18733,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xfinite-entertainment-token',
     symbol: 'xet',
     name: 'Xfinite Entertainment',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       algorand: '283820866',
     },
@@ -19675,7 +18743,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xfund',
     symbol: 'xfund',
     name: 'xFUND',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x892a6f9df0147e5f079b0993f486f9aca3c87881',
       sora: '0x007e908e399cc73f3dad9f02f9c5c83a7adcd07e78dd91676ff3c002e245d8e9',
@@ -19686,7 +18754,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xido-finance',
     symbol: 'xido',
     name: 'Xido Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xf6650117017ffd48b725b4ec5a00b414097108a7',
       'binance-smart-chain': '0x3764bc0de9b6a68c67929130aaec16b6060cab8c',
@@ -19697,7 +18765,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xi-token',
     symbol: 'xi',
     name: 'Xi',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x295b42684f90c77da7ea46336001010f2791ec8c',
     },
@@ -19707,7 +18775,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xmon',
     symbol: 'xmon',
     name: 'XMON',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x3aada3e213abf8529606924d8d1c55cbdc70bf74',
     },
@@ -19717,7 +18785,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xpla',
     symbol: 'xpla',
     name: 'XPLA',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       osmosis:
         'ibc/95C9B5870F95E21A242E6AF9ADCB1F212EE4A8855087226C36FBE43FC41A77B8',
@@ -19728,7 +18796,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xp-network',
     symbol: 'xpnet',
     name: 'XP Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x8cf8238abf7b933bf8bb5ea2c7e4be101c11de2a',
     },
@@ -19738,7 +18806,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xsgd',
     symbol: 'xsgd',
     name: 'XSGD',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x70e8de73ce538da2beed35d14187f6959a8eca96',
       zilliqa: 'zil180v66mlw007ltdv8tq5t240y7upwgf7djklmwh',
@@ -19750,7 +18818,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xswap-protocol',
     symbol: 'xsp',
     name: 'XSwap Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'xdc-network': 'xdc36726235dadbdb4658d33e62a249dca7c4b2bc68',
     },
@@ -19760,7 +18828,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xsushi',
     symbol: 'xsushi',
     name: 'xSUSHI',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x8798249c2e607446efb7ad49ec89dd1865ff4272',
     },
@@ -19770,7 +18838,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xwin-finance',
     symbol: 'xwin',
     name: 'xWIN Finance',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xd88ca08d8eec1e9e09562213ae83a7853ebb5d28',
       'polygon-pos': '0x6cd6cb131764c704ba9167c29930fbdc38901ab7',
@@ -19781,7 +18849,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'x-world-games',
     symbol: 'xwg',
     name: 'X World Games',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0x6b23c89196deb721e6fd9726e6c76e4810a464bc',
       'arbitrum-one': '0xeb4d25db65dcef52380c99ba7e1344c820ecb1fc',
@@ -19793,7 +18861,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xy-finance',
     symbol: 'xy',
     name: 'XY Finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x77777777772cf0455fb38ee0e75f38034dfa50de',
       'binance-smart-chain': '0x666666661f9b6d8c581602aaa2f76cbead06c401',
@@ -19806,7 +18874,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'xyo-network',
     symbol: 'xyo',
     name: 'XYO Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x55296f69f40ea6d20e478533c15a6b08b654e758',
     },
@@ -19816,7 +18884,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'y2k',
     symbol: 'y2k',
     name: 'Y2K',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'arbitrum-one': '0x65c936f008bc34fe819bce9fa5afd9dc2d49977f',
     },
@@ -19826,7 +18894,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'yield-yak',
     symbol: 'yak',
     name: 'Yield Yak',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       avalanche: '0x59414b3089ce2af0010e7523dea7e2b35d776ec7',
       'arbitrum-one': '0x7f4db37d7beb31f445307782bc3da0f18df13696',
@@ -19837,7 +18905,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'yam-2',
     symbol: 'yam',
     name: 'YAM',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0aacfbec6a24756c20d41914f2caba817c0d8521',
       'harmony-shard-0': '0x7202adf025cbd1cc9411fd56e3cc8ef2e9dffa9d',
@@ -19848,7 +18916,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'yearn-finance',
     symbol: 'yfi',
     name: 'yearn.finance',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e',
       xdai: '0xbf65bfcb5da067446cee6a706ba3fe2fb1a9fdfd',
@@ -19871,7 +18939,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'yes-money',
     symbol: 'yes',
     name: 'YES Money',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       blast: '0x20fe91f17ec9080e3cac2d688b4ecb48c5ac3a9c',
     },
@@ -19881,7 +18949,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'yfii-finance',
     symbol: 'yfii',
     name: 'DFI.money',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xa1d0e215a23d7030842fc67ce582a6afa3ccab83',
       energi: '0xba71e0c0b13e724bf2329ecb9bdf5775a2ce9e8d',
@@ -19892,7 +18960,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'yield-guild-games',
     symbol: 'ygg',
     name: 'Yield Guild Games',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       ethereum: '0x25f8087ead173b73d6e8b84329989a8eea16cf73',
       ronin: '0x1c306872bc82525d72bf3562e8f0aa3f8f26e857',
@@ -19905,7 +18973,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'yieldification',
     symbol: 'ydf',
     name: 'Yieldification',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x30dcba0405004cf124045793e1933c798af9e66a',
       'arbitrum-one': '0x30dcba0405004cf124045793e1933c798af9e66a',
@@ -19916,7 +18984,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'yoshi-exchange',
     symbol: 'yoshi',
     name: 'Yoshi.exchange',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       fantom: '0x3dc57b391262e3aae37a08d91241f9ba9d58b570',
       'binance-smart-chain': '0x4374f26f0148a6331905edf4cd33b89d8eed78d1',
@@ -19927,7 +18995,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'yuan-chain-coin',
     symbol: 'ycc',
     name: 'Yuan Chain Coin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x37e1160184f7dd29f00b78c050bf13224780b0b0',
     },
@@ -19937,7 +19005,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zano',
     symbol: 'zano',
     name: 'Zano',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xdb85f6685950e285b1e611037bebe5b34e2b7d78',
     },
@@ -19947,7 +19015,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zap',
     symbol: 'zap',
     name: 'Zap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x6781a0f84c7e9e846dcb84a9a5bd49333067b104',
       solana: 'HxPoEHMt1vKeqjKCePcqTj6yYgn6Xqq1fKTY3Pjx4YrX',
@@ -19959,7 +19027,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zcash',
     symbol: 'zec',
     name: 'Zcash',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 207,
   },
@@ -19967,7 +19035,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zebec-protocol',
     symbol: 'zbc',
     name: 'Zebec Protocol',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       solana: 'zebeczgi5fSEtbpfQKVZKCJ3WgYXxjkMUkNNx7fLKAF',
     },
@@ -19977,7 +19045,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zeitgeist',
     symbol: 'ztg',
     name: 'Zeitgeist',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {},
     marketCapRank: 2602,
   },
@@ -19985,7 +19053,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zencash',
     symbol: 'zen',
     name: 'Horizen',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 330,
   },
@@ -19993,7 +19061,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zenlink-network-token',
     symbol: 'zlk',
     name: 'Zenlink Network',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       moonriver: '0x0f47ba9d9bde3442b42175e51d6a367928a1173b',
       astar: '0x998082c488e548820f970df5173bd2061ce90635',
@@ -20004,7 +19072,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zenon-2',
     symbol: 'znn',
     name: 'Zenon',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb2e96a63479c2edd2fd62b382c89d5ca79f572d3',
     },
@@ -20014,7 +19082,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zeroswap',
     symbol: 'zee',
     name: 'ZeroSwap',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x2edf094db69d6dcd487f1b3db9febe2eec0dd4c5',
       avalanche: '0x44754455564474a89358b2c2265883df993b12f0',
@@ -20027,7 +19095,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zignaly',
     symbol: 'zig',
     name: 'Zignaly',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xb2617246d0c6c0087f18703d576831899ca94f01',
       injective: 'peggy0xb2617246d0c6c0087f18703d576831899ca94f01',
@@ -20041,7 +19109,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zigzag-2',
     symbol: 'zz',
     name: 'ZigZag',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xc91a71a1ffa3d8b22ba615ba1b9c01b2bbbf55ad',
     },
@@ -20051,7 +19119,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zilliqa',
     symbol: 'zil',
     name: 'Zilliqa',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       'binance-smart-chain': '0xb86abcb37c3a4b64f74f59301aff131a1becc787',
     },
@@ -20061,7 +19129,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zkapes-token',
     symbol: 'zat',
     name: 'zkApes Token',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       zksync: '0x47ef4a5641992a72cfd57b9406c9d9cefee8e0c4',
     },
@@ -20071,7 +19139,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zkspace',
     symbol: 'zkb',
     name: 'ZKBase',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0xbbbbbbbb46a1da0f0c3f64522c275baa4c332636',
       energi: '0xc4efad8386124927fb46b146526625e143e5a63a',
@@ -20082,7 +19150,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zksync-id',
     symbol: 'zkid',
     name: 'zkSync id',
-    variants: ['mono'],
+    variants: ['mono', 'branded', 'background'],
     addresses: {
       zksync: '0x2141d7fe06a1d69c016fc638ba75b6ef92fa1435',
     },
@@ -20092,7 +19160,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zmine',
     symbol: 'zmn',
     name: 'ZMINE',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     addresses: {
       'binance-smart-chain': '0xfcb8a4b1a0b645e08064e05b98e9cc6f48d2aa57',
     },
@@ -20102,7 +19170,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zoid-pay',
     symbol: 'zpay',
     name: 'ZoidPay',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       tomochain: '0xe1a9a5fae06696d314994a9d6915c12a63ad055d',
     },
@@ -20112,7 +19180,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zoomer',
     symbol: 'zoomer',
     name: 'Zoomer',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {
       ethereum: '0x0d505c03d30e65f6e9b4ef88855a47a89e4b7676',
       'polygon-pos': '0xb962150760f9a3bb00e3e9cf48297ee20ada4a33',
@@ -20128,7 +19196,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'zynecoin',
     symbol: 'zyn',
     name: 'Zynecoin',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: 2235,
   },
@@ -20136,7 +19204,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'utrust',
     symbol: 'utk',
     name: 'xMoney',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     marketCapRank: null,
     addresses: {
       ethereum: '0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c',
@@ -20147,7 +19215,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'pendle',
     symbol: 'pendle',
     name: 'Pendle',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     marketCapRank: 191,
     addresses: {
       ethereum: '0x808507121b80c02388fad14726482e061b8da827',
@@ -20161,7 +19229,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'jupiter',
     symbol: 'jup',
     name: 'Jupiter Project',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     marketCapRank: 2628,
     addresses: {
       ethereum: '0x4b1e80cac91e2216eeb63e29b957eb91ae9c2be8',
@@ -20172,7 +19240,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'artrade',
     symbol: 'atr',
     name: 'Artrade',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     marketCapRank: 480,
     addresses: {
       solana: 'ATRLuHph8dxnPny4WSNW7fxkhbeivBrtWbY6BfB4xpLj',
@@ -20182,7 +19250,7 @@ export const tokens: ITokenMetadata[] = [
     id: 'binancecoin',
     symbol: 'bnb',
     name: 'BNB',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     marketCapRank: 4,
     addresses: {
       ethereum: '0xb8c77482e45f1f44de1745f52c74426c631bdd52',
@@ -20193,15 +19261,7 @@ export const tokens: ITokenMetadata[] = [
     name: 'Sense',
     symbol: 'sense',
     marketCapRank: null,
-    variants: ['branded', 'mono'],
-    addresses: {},
-  },
-  {
-    id: 'amzcoinvault',
-    name: 'AMZCoin',
-    symbol: 'amz',
-    marketCapRank: null,
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
   },
   {
@@ -20209,21 +19269,21 @@ export const tokens: ITokenMetadata[] = [
     name: 'USN',
     symbol: 'usn',
     marketCapRank: null,
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
   },
   {
     id: 'g-token',
     symbol: 'g',
     name: 'Gravity',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
     marketCapRank: null,
   },
   {
     id: '0x0-ai-ai-smart-contract',
     name: '0x0.ai: AI Smart Contract',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     symbol: '0x0',
     marketCapRank: 376,
     addresses: {
@@ -20233,7 +19293,7 @@ export const tokens: ITokenMetadata[] = [
   {
     id: '0xgasless-2',
     name: '0xGasless',
-    variants: ['branded'],
+    variants: ['branded', 'background'],
     symbol: '0xgas',
     marketCapRank: 3040,
     addresses: {
@@ -20243,7 +19303,7 @@ export const tokens: ITokenMetadata[] = [
   {
     id: '1art',
     name: 'OneArt',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     symbol: '1art',
     marketCapRank: 2680,
     addresses: {
@@ -20255,7 +19315,7 @@ export const tokens: ITokenMetadata[] = [
   {
     id: '1inch',
     name: '1inch',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     symbol: '1inch',
     marketCapRank: 165,
     addresses: {
@@ -20272,7 +19332,7 @@ export const tokens: ITokenMetadata[] = [
   {
     id: '2dai-io',
     name: '2DAI.io',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
     symbol: '2dai',
     marketCapRank: 2443,
     addresses: {
@@ -20284,47 +19344,7 @@ export const tokens: ITokenMetadata[] = [
     name: 'apefi',
     symbol: 'apefi',
     marketCapRank: null,
-    variants: ['branded', 'mono'],
-    addresses: {},
-  },
-  {
-    id: 'base',
-    name: 'SwapBased',
-    symbol: 'base',
-    marketCapRank: null,
-    variants: ['branded'],
-    addresses: {
-      base: '0xd07379a755a8f11b57610154861d694b2a0f615a',
-    },
-  },
-  {
-    id: 'orderly-network',
-    name: 'Orderly Network',
-    variants: ['branded', 'mono'],
-    symbol: 'order',
-    marketCapRank: 1057,
-    addresses: {
-      ethereum: '0xabd4c63d2616a5201454168269031355f4764337',
-      'arbitrum-one': '0x4e200fe2f3efb977d5fd9c430a41531fb04d97b8',
-      'optimistic-ethereum': '0x4e200fe2f3efb977d5fd9c430a41531fb04d97b8',
-      base: '0x4e200fe2f3efb977d5fd9c430a41531fb04d97b8',
-      'polygon-pos': '0x4e200fe2f3efb977d5fd9c430a41531fb04d97b8',
-    },
-  },
-  {
-    id: 'banano',
-    name: 'Banano',
-    variants: ['branded', 'mono'],
-    symbol: 'ban',
-    marketCapRank: null,
-    addresses: {},
-  },
-  {
-    id: 'sonic-3',
-    name: 'Sonic',
-    variants: ['branded', 'mono'],
-    symbol: 's',
-    marketCapRank: null,
+    variants: ['branded', 'mono', 'background'],
     addresses: {},
   },
 ]

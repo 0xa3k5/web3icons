@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#PEX__a)" d="m11.16 10.184-.171.222c-.754.965-1.877 2.406-1.93 3.259-.076 1.235 1.353 2.453 2.941 2.453s3.018-1.218 2.941-2.453c-.053-.853-1.176-2.3-1.929-3.265l-.435-.565c-.124-.17-.36-.188-.577-.188-.188-.006-.476.053-.576.188a10 10 0 0 1-.264.35"/>
-    <path fill="url(#PEX__b)" fill-rule="evenodd" d="M21.27 12.182a9.27 9.27 0 1 1-18.54 0 9.27 9.27 0 1 1 18.54 0m-7.494-6.064c-.411.458-1.247 1.453-1.306 1.764h.412l2.177-1.764zm-1.87 1.764h.188c.73.012 1.434.278 1.988.753q.143.136.26.294a26 26 0 0 1 1.464 2.324l.027.046c.16.276.303.524.426.719a3.75 3.75 0 0 1 0 3.547A4.84 4.84 0 0 1 12 17.882a4.84 4.84 0 0 1-4.259-2.317 3.75 3.75 0 0 1 0-3.547c.13-.206.282-.471.447-.765l.075-.127c.392-.666.87-1.478 1.396-2.197.6-.823 1.688-1.035 2.247-1.047" clip-rule="evenodd"/>
-    <path fill="url(#PEX__c)" fill-rule="evenodd" d="M12 21.27a9.271 9.271 0 1 0 0-18.542 9.271 9.271 0 0 0 0 18.543m0-.782a8.488 8.488 0 1 0 0-16.975 8.488 8.488 0 0 0 0 16.975" clip-rule="evenodd"/>
-    <path fill="url(#PEX__d)" fill-rule="evenodd" d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20m0-.882A9.118 9.118 0 1 0 12 2.88a9.118 9.118 0 0 0 0 18.237" clip-rule="evenodd"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <path fill="url(#PEX__a)" d="M11.828 10.547q-.066.084-.137.178c-.603.771-1.501 1.924-1.544 2.607-.06.988 1.083 1.962 2.353 1.962s2.414-.974 2.353-1.963c-.042-.682-.94-1.84-1.543-2.611l-.349-.452c-.098-.136-.287-.15-.46-.15-.151-.005-.382.042-.462.15q-.088.123-.21.28"/>
+    <path fill="url(#PEX__b)" fill-rule="evenodd" d="M19.916 12.146a7.416 7.416 0 1 1-14.832 0 7.416 7.416 0 0 1 14.832 0m-5.995-4.852c-.33.367-.998 1.163-1.045 1.412h.33l1.74-1.412zm-1.496 1.412h.15c.584.01 1.147.223 1.59.603q.115.107.208.235.634.9 1.172 1.859l.021.037c.128.22.243.418.34.575a3 3 0 0 1 0 2.837 3.87 3.87 0 0 1-3.406 1.854 3.87 3.87 0 0 1-3.407-1.854 3 3 0 0 1 0-2.838c.103-.164.226-.376.357-.611l.06-.102c.314-.533.697-1.182 1.117-1.757.48-.659 1.35-.828 1.797-.838" clip-rule="evenodd"/>
+    <path fill="url(#PEX__c)" fill-rule="evenodd" d="M12.5 19.418a7.417 7.417 0 1 0 0-14.834 7.417 7.417 0 0 0 0 14.834m0-.626a6.79 6.79 0 1 0 0-13.581 6.79 6.79 0 0 0 0 13.58" clip-rule="evenodd"/>
+    <path fill="url(#PEX__d)" fill-rule="evenodd" d="M12.5 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0-.706A7.296 7.296 0 0 0 19.794 12a7.295 7.295 0 1 0-7.294 7.294" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="PEX__a" x1="7.977" x2="12.704" y1="4.589" y2="13.992" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PEX__a" x1="9.282" x2="13.063" y1="6.071" y2="13.594" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C2F2DF"/>
             <stop offset="1" stop-color="#0DB775"/>
         </linearGradient>
-        <linearGradient id="PEX__b" x1="7.977" x2="12.704" y1="4.589" y2="13.992" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PEX__b" x1="9.281" x2="13.063" y1="6.071" y2="13.594" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C2F2DF"/>
             <stop offset="1" stop-color="#0DB775"/>
         </linearGradient>
-        <linearGradient id="PEX__c" x1="1.118" x2="21.435" y1="9.906" y2="14.551" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PEX__c" x1="3.794" x2="20.048" y1="10.326" y2="14.042" gradientUnits="userSpaceOnUse">
             <stop stop-color="#05462E"/>
             <stop offset="1" stop-color="#23C49B"/>
         </linearGradient>
-        <linearGradient id="PEX__d" x1="6.688" x2="14.353" y1="3.618" y2="21.523" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PEX__d" x1="8.251" x2="14.382" y1="5.294" y2="19.619" gradientUnits="userSpaceOnUse">
             <stop stop-color="#24C998"/>
             <stop offset="1" stop-color="#2EAD7B"/>
         </linearGradient>

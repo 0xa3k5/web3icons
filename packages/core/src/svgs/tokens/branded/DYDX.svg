@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#fff" d="M16.607 2 2.714 22h4.264L20.943 2z"/>
-    <path fill="url(#DYDX__a)" d="m7.429 2 4.086 5.893-2.136 3.214L3.072 2z"/>
-    <path fill="url(#DYDX__b)" d="m17.022 22-4.536-6.521 2.135-3.122L21.287 22z"/>
+    <path fill="#fff" d="M15.685 4 4.571 20h3.412l11.17-16z"/>
+    <path fill="url(#DYDX__a)" d="m8.343 4 3.268 4.714-1.708 2.572L4.857 4z"/>
+    <path fill="url(#DYDX__b)" d="m16.017 20-3.628-5.217 1.708-2.497L19.43 20z"/>
     <defs>
-        <linearGradient id="DYDX__a" x1="10.131" x2="23.052" y1="4.745" y2="20.295" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DYDX__a" x1="10.504" x2="20.841" y1="6.196" y2="18.636" gradientUnits="userSpaceOnUse">
             <stop stop-color="#fff"/>
             <stop offset="1" stop-color="#fff" stop-opacity=".55"/>
         </linearGradient>
-        <linearGradient id="DYDX__b" x1="18" x2="10.764" y1="20.486" y2="10.778" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DYDX__b" x1="16.8" x2="11.011" y1="18.789" y2="11.023" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6966FF"/>
             <stop offset="1" stop-color="#6966FF" stop-opacity=".36"/>
         </linearGradient>

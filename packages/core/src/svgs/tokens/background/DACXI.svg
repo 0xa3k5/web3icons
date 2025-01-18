@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DACXI__a)">
+        <path fill="url(#DACXI__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M13.334 5.537c0-.329.177-.631.466-.8l1.013-.596a1.03 1.03 0 0 1 1.04 0l1.014.596a.93.93 0 0 1 .467.8V16.17c0 .675-.365 1.293-.956 1.63l-.338.192-3.818-2.2.952-.56a.33.33 0 0 0 .16-.284V5.533zm-.89 2.96a1.93 1.93 0 0 0-1.4.2l-3.422 1.947a1.88 1.88 0 0 0-.955 1.631v.307l3.555 2.053v-1.138c0-.12.063-.222.16-.284l1.236-.724a.32.32 0 0 1 .32 0l.507.297zM6.667 13.61v2.56c0 .675.365 1.293.956 1.63l3.422 1.948c.592.337 1.32.337 1.912 0l2.187-1.245z"/>
+    </g>
+    <defs>
+        <linearGradient id="DACXI__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0584BE"/>
+            <stop offset=".78" stop-color="#244E78"/>
+        </linearGradient>
+        <clipPath id="DACXI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

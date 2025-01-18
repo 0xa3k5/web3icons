@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#TULIP__a)">
+        <path fill="#000" d="M24.5 0H.5v24h24z"/>
+        <path fill="url(#TULIP__b)" d="M12.043 14.445v2.95C10.977 15.5 8.613 14.7 7.013 14.7c0 3.914 3.26 5.299 5.487 5.299 2.23 0 5.486-1.385 5.486-5.299-1.6 0-3.964.8-5.029 2.693v-2.94a1 1 0 0 1-.914-.009" opacity=".45"/>
+        <path fill="url(#TULIP__c)" d="M13.2 4.35c2.734 3.548 1.723 7.466-.014 9.844a.847.847 0 0 1-1.385 0c-1.756-2.328-2.94-6.122-.01-9.843a.883.883 0 0 1 1.409 0" opacity=".45"/>
+        <path fill="url(#TULIP__d)" d="M8.678 5.255c4.055 1.655 5.042 5.587 4.663 8.549a.87.87 0 0 1-1.225.677c-2.638-1.111-5.46-3.79-4.686-8.545a.9.9 0 0 1 1.248-.686z" opacity=".45"/>
+        <path fill="url(#TULIP__e)" d="M17.58 5.95c.685 4.494-2.049 7.37-4.687 8.531a.87.87 0 0 1-1.23-.667c-.416-2.93.361-6.849 4.673-8.554a.9.9 0 0 1 1.243.686z" opacity=".45"/>
+    </g>
+    <defs>
+        <linearGradient id="TULIP__b" x1="7.494" x2="17.584" y1="21.577" y2="21.294" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5784C2"/>
+            <stop offset="1" stop-color="#1BE6B3"/>
+        </linearGradient>
+        <linearGradient id="TULIP__c" x1="12.5" x2="12.5" y1="3.537" y2="15.017" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D141E9"/>
+            <stop offset=".5" stop-color="#5F7DC1"/>
+            <stop offset="1" stop-color="#2BD9B9"/>
+        </linearGradient>
+        <linearGradient id="TULIP__d" x1="7.644" x2="13.505" y1="4.898" y2="14.622" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D141E9"/>
+            <stop offset=".5" stop-color="#5F7DC1"/>
+            <stop offset="1" stop-color="#2BD9B9"/>
+        </linearGradient>
+        <linearGradient id="TULIP__e" x1="17.369" x2="11.508" y1="4.913" y2="14.637" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D141E9"/>
+            <stop offset=".5" stop-color="#5F7DC1"/>
+            <stop offset="1" stop-color="#2BD9B9"/>
+        </linearGradient>
+        <clipPath id="TULIP__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ODIN__a)">
+        <path fill="#0C0C0C" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M17.256 18.015a7.986 7.986 0 0 1-11.27-11.27l3.02 3.019v5.23h5.23zm.759-.76a7.986 7.986 0 0 0-11.27-11.27l3.019 3.02h5.23v5.231z"/>
+    </g>
+    <defs>
+        <clipPath id="ODIN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DEC__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#DEC__b)" d="M16 4.941H8l4 7.061z"/>
+        <path fill="url(#DEC__c)" d="m16 4.941-4 7.061 4 7.057 4-7.057z"/>
+        <path fill="url(#DEC__d)" d="m8 4.941-4 7.061 4 7.057 4-7.057z"/>
+        <path fill="#74C5EE" d="M12 12.002 8 19.06h8z"/>
+    </g>
+    <defs>
+        <linearGradient id="DEC__b" x1="12.001" x2="12.001" y1="19.275" y2="4.29" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#74C5EE"/>
+            <stop offset=".32" stop-color="#73C2EF"/>
+            <stop offset=".53" stop-color="#6EB9F1"/>
+            <stop offset=".72" stop-color="#66AAF5"/>
+            <stop offset=".88" stop-color="#5A95FA"/>
+            <stop offset="1" stop-color="#4F80FF"/>
+        </linearGradient>
+        <linearGradient id="DEC__c" x1="3.983" x2="20.213" y1="12.002" y2="12.002" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#96D4C8"/>
+            <stop offset="1" stop-color="#42C0C6"/>
+        </linearGradient>
+        <linearGradient id="DEC__d" x1="4" x2="20" y1="12.002" y2="12.002" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4F80FF"/>
+            <stop offset=".28" stop-color="#4E7FFC"/>
+            <stop offset=".48" stop-color="#4A7CF3"/>
+            <stop offset=".64" stop-color="#4477E4"/>
+            <stop offset=".79" stop-color="#3C6FCE"/>
+            <stop offset=".93" stop-color="#3166B3"/>
+            <stop offset="1" stop-color="#2B60A3"/>
+        </linearGradient>
+        <clipPath id="DEC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

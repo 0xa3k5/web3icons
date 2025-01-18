@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#XOR__a)">
+        <path fill="#E3232C" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M8.191 19.034A7.95 7.95 0 0 0 12 20a7.94 7.94 0 0 0 3.808-.965L12 13.361z"/>
+        <path fill="#fff" d="M7 12v-1.5h4.5v-1H7V8h10v1.5h-4.5v1H17V12h-4.34l4.248 6.319A8 8 0 0 0 20 11.999 8 8 0 0 0 12 4a8 8 0 0 0-4.908 14.319l4.249-6.32z"/>
+    </g>
+    <defs>
+        <clipPath id="XOR__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

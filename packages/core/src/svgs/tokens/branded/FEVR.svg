@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#FEVR__a)" d="M12.4 3.111H2.74a.74.74 0 0 0-.74.74v16.297a.74.74 0 0 0 .74.74h3.704v-5.925h2.83l1.17-4.444h-4V7.555h4.786zm.2 7.408h2.548a1.48 1.48 0 1 0 0-2.963h-1.763l1.17-4.445h.43a5.926 5.926 0 0 1 3.348 10.815L22 20.889h-4.956l-3.126-5.926H11.43z"/>
+    <path fill="url(#FEVR__a)" d="M12.32 4.889H4.593A.593.593 0 0 0 4 5.482v13.037a.593.593 0 0 0 .593.592h2.963v-4.74h2.263l.936-3.556h-3.2v-2.37h3.829zm.16 5.926h2.039a1.185 1.185 0 1 0 0-2.37h-1.41l.935-3.556h.344a4.74 4.74 0 0 1 2.679 8.652L20 19.11h-3.964l-2.501-4.74h-1.991z"/>
     <defs>
-        <linearGradient id="FEVR__a" x1="5.929" x2="16.222" y1="5.492" y2="20.01" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FEVR__a" x1="7.143" x2="15.377" y1="6.794" y2="18.408" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E752F5"/>
             <stop offset=".48" stop-color="#5C0CA9"/>
             <stop offset="1" stop-color="#44019C"/>

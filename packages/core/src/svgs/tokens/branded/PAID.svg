@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#PAID__a)" d="M14 8.667V10l-.007.213.474 2.267a3.98 3.98 0 0 0 .866-2.48V8.667a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4V10a4 4 0 0 0 2 3.467v-1.7A2.67 2.67 0 0 1 3.333 10V8.667A2.667 2.667 0 0 1 6 6h5.333A2.667 2.667 0 0 1 14 8.667"/>
-    <path fill="url(#PAID__b)" d="M13.334 3.333h1.333A2.667 2.667 0 0 1 17.333 6v5.333A2.667 2.667 0 0 1 14.667 14h-1.333a2.667 2.667 0 0 1-2.667-2.667H9.334a4 4 0 0 0 4 4h1.333a4 4 0 0 0 4-4V6a4 4 0 0 0-4-4h-1.333a4 4 0 0 0-3.467 2h1.7a2.67 2.67 0 0 1 1.767-.667"/>
-    <path fill="url(#PAID__c)" d="M8.666 10h1.333a2.667 2.667 0 0 1 2.667 2.667v.666h1.333v-.666a4 4 0 0 0-4-4H8.666a4 4 0 0 0-4 4V18a4 4 0 0 0 4 4h1.333a4 4 0 0 0 3.774-2.667h-1.467a2.67 2.67 0 0 1-2.307 1.334H8.666A2.667 2.667 0 0 1 5.999 18v-5.333A2.667 2.667 0 0 1 8.666 10"/>
-    <path fill="url(#PAID__d)" d="M20 11.567a2.67 2.67 0 0 1 .666 1.766v1.334A2.666 2.666 0 0 1 18 17.333h-5.334A2.667 2.667 0 0 1 10 14.667V14.4l-1.334-1.067v1.334a4 4 0 0 0 4 4H18a4 4 0 0 0 4-4v-1.334a4 4 0 0 0-2-3.466z"/>
+    <path fill="url(#PAID__a)" d="M13.6 9.335V10.4l-.005.171.378 1.813a3.17 3.17 0 0 0 .693-1.984V9.335a3.2 3.2 0 0 0-3.2-3.2H7.2a3.2 3.2 0 0 0-3.2 3.2V10.4a3.2 3.2 0 0 0 1.6 2.774v-1.36a2.14 2.14 0 0 1-.533-1.414V9.335A2.133 2.133 0 0 1 7.2 7.2h4.267A2.134 2.134 0 0 1 13.6 9.335"/>
+    <path fill="url(#PAID__b)" d="M13.067 5.067h1.066A2.133 2.133 0 0 1 16.267 7.2v4.267a2.133 2.133 0 0 1-2.134 2.133h-1.066a2.133 2.133 0 0 1-2.134-2.133H9.867a3.2 3.2 0 0 0 3.2 3.2h1.066a3.2 3.2 0 0 0 3.2-3.2V7.2a3.2 3.2 0 0 0-3.2-3.2h-1.066a3.2 3.2 0 0 0-2.774 1.6h1.36c.374-.33.875-.533 1.414-.533"/>
+    <path fill="url(#PAID__c)" d="M9.333 10.4h1.066a2.133 2.133 0 0 1 2.134 2.133v.533h1.066v-.533a3.2 3.2 0 0 0-3.2-3.2H9.333a3.2 3.2 0 0 0-3.2 3.2V16.8a3.2 3.2 0 0 0 3.2 3.2h1.066a3.2 3.2 0 0 0 3.02-2.134h-1.174a2.13 2.13 0 0 1-1.846 1.067H9.333A2.133 2.133 0 0 1 7.199 16.8v-4.267A2.134 2.134 0 0 1 9.333 10.4"/>
+    <path fill="url(#PAID__d)" d="M18.4 11.654c.33.373.533.875.533 1.413v1.067a2.133 2.133 0 0 1-2.133 2.133h-4.267a2.134 2.134 0 0 1-2.133-2.133v-.213l-1.066-.854v1.067a3.2 3.2 0 0 0 3.2 3.2H16.8a3.2 3.2 0 0 0 3.2-3.2v-1.067a3.2 3.2 0 0 0-1.6-2.773z"/>
     <defs>
-        <linearGradient id="PAID__a" x1="11.405" x2="16.473" y1="11.36" y2="19.572" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PAID__a" x1="11.524" x2="15.579" y1="11.489" y2="18.059" gradientUnits="userSpaceOnUse">
             <stop stop-color="#074C7D"/>
             <stop offset="1" stop-color="#5D0B5D"/>
         </linearGradient>
-        <linearGradient id="PAID__b" x1="11.405" x2="16.474" y1="11.36" y2="19.572" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PAID__b" x1="11.524" x2="15.579" y1="11.488" y2="18.057" gradientUnits="userSpaceOnUse">
             <stop stop-color="#074C7D"/>
             <stop offset="1" stop-color="#5D0B5D"/>
         </linearGradient>
-        <linearGradient id="PAID__c" x1="11.405" x2="16.473" y1="11.36" y2="19.572" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PAID__c" x1="11.524" x2="15.578" y1="11.487" y2="18.057" gradientUnits="userSpaceOnUse">
             <stop stop-color="#074C7D"/>
             <stop offset="1" stop-color="#5D0B5D"/>
         </linearGradient>
-        <linearGradient id="PAID__d" x1="11.405" x2="16.473" y1="11.359" y2="19.572" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PAID__d" x1="11.524" x2="15.579" y1="11.488" y2="18.058" gradientUnits="userSpaceOnUse">
             <stop stop-color="#074C7D"/>
             <stop offset="1" stop-color="#5D0B5D"/>
         </linearGradient>

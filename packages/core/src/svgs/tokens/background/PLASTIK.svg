@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PLASTIK__a)">
+        <path fill="url(#PLASTIK__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M20 12.003a8 8 0 1 1-2.425-5.74L16.5 7.316a6.5 6.5 0 1 0 1.85 3.33l-3.8 3.75-.2.19v.01a3.5 3.5 0 1 1 .015-5.175l-1.075 1.055a2 2 0 1 0 .02 3.035l.175-.175.085-.1 1.87-1.85v.02l2.365-2.325v-.005l1.11-1.1A7.97 7.97 0 0 1 20 12.002"/>
+    </g>
+    <defs>
+        <linearGradient id="PLASTIK__b" x1="12" x2="12" y1="4.002" y2="20.002" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0440A8"/>
+            <stop offset=".59" stop-color="#00B4B0"/>
+            <stop offset="1" stop-color="#02BFA1"/>
+        </linearGradient>
+        <clipPath id="PLASTIK__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

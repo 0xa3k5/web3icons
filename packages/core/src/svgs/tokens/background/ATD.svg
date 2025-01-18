@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ATD__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#ATD__b)" d="M12.264 6.666a1.333 1.333 0 1 0 0-2.665 1.333 1.333 0 0 0 0 2.665"/>
+        <path fill="#610467" d="M6.751 17.863c-.629 0-1.14.416-1.14 1.024a1.12 1.12 0 0 0 1.14 1.11h10.505a1.12 1.12 0 0 0 1.141-1.11c0-.608-.512-1.024-1.141-1.024z"/>
+        <path fill="#610467" d="M6.107 19.822a1.12 1.12 0 0 0 1.541-.326l3.104-4.73a1.093 1.093 0 0 0-.326-1.524 1.12 1.12 0 0 0-1.54.325l-3.104 4.73a1.093 1.093 0 0 0 .325 1.525"/>
+        <path fill="url(#ATD__c)" d="M9.273 7.936a1.083 1.083 0 0 0-.266 1.535l7.348 10.068a1.15 1.15 0 0 0 1.573.256 1.085 1.085 0 0 0 .26-1.536L10.842 8.192a1.145 1.145 0 0 0-1.568-.256"/>
+    </g>
+    <defs>
+        <linearGradient id="ATD__b" x1="12.264" x2="12.264" y1="4" y2="6.666" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E4396A"/>
+            <stop offset="1" stop-color="#300F39"/>
+        </linearGradient>
+        <linearGradient id="ATD__c" x1="14.398" x2="13.331" y1="13.332" y2="14.132" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D12D6D"/>
+            <stop offset="1" stop-color="#610467"/>
+        </linearGradient>
+        <clipPath id="ATD__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

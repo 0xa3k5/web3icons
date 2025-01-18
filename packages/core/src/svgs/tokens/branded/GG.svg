@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#5F2596" d="M2 17.417v-6.972l3.333 1.733v7.028z"/>
-    <path fill="url(#GG__a)" d="M22 17.417v-6.972l-3.333 1.733v7.028z"/>
-    <path fill="url(#GG__b)" d="m12 15.4-6.666 3.822v-7L12 8.467z"/>
-    <path fill="#5E2693" d="m12 15.4 6.667 3.822v-7L12 8.467z"/>
-    <path fill="url(#GG__c)" d="M5.333 12.222 2 10.433l9.978-5.655L22 10.433l-3.334 1.79L11.994 8.5z"/>
+    <path fill="#5F2596" d="M4 16.334v-5.578l2.667 1.387v5.622z"/>
+    <path fill="url(#GG__a)" d="M20 16.334v-5.578l-2.666 1.387v5.622z"/>
+    <path fill="url(#GG__b)" d="m12 14.72-5.333 3.058v-5.6L12 9.174z"/>
+    <path fill="#5E2693" d="m12 14.72 5.333 3.058v-5.6L12 9.174z"/>
+    <path fill="url(#GG__c)" d="M6.667 12.178 4 10.748l7.982-4.525L20 10.747l-2.667 1.431L11.995 9.2z"/>
     <defs>
-        <linearGradient id="GG__a" x1="12" x2="12" y1="4.778" y2="19.222" gradientUnits="userSpaceOnUse">
+        <linearGradient id="GG__a" x1="12" x2="12" y1="6.223" y2="17.778" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F17750"/>
             <stop offset=".36" stop-color="#E26891"/>
             <stop offset=".65" stop-color="#D45AC7"/>
             <stop offset="1" stop-color="#B071D9"/>
         </linearGradient>
-        <linearGradient id="GG__b" x1="12" x2="12" y1="4.778" y2="19.222" gradientUnits="userSpaceOnUse">
+        <linearGradient id="GG__b" x1="12" x2="12" y1="6.223" y2="17.778" gradientUnits="userSpaceOnUse">
             <stop offset=".06" stop-color="#EF7C3B"/>
             <stop offset=".39" stop-color="#EA6D75"/>
             <stop offset="1" stop-color="#B961DC"/>
         </linearGradient>
-        <linearGradient id="GG__c" x1="12" x2="12" y1="4.778" y2="12.222" gradientUnits="userSpaceOnUse">
+        <linearGradient id="GG__c" x1="12" x2="12" y1="6.223" y2="12.178" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EEC985"/>
             <stop offset=".38" stop-color="#FDBD4D"/>
             <stop offset=".93" stop-color="#FCA143"/>

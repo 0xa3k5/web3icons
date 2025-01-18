@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CGL__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#CGL__b)" d="M12.687 20a7.313 7.313 0 1 0 0-14.626 7.313 7.313 0 0 0 0 14.626"/>
+        <path fill="url(#CGL__c)" d="M12 19.087c3.662 0 6.63-3.07 6.63-6.857 0-3.786-2.968-6.856-6.63-6.856s-6.63 3.07-6.63 6.856 2.968 6.857 6.63 6.857"/>
+        <path fill="#5D5D5D" d="M17.177 16.236H6.824l.941 1.412h10.353z"/>
+        <path fill="#6C6C6C" d="M6.824 16.236H4l1.412 1.412h2.823zm12.263 1.412h-2.974l1.063-1.412h1.91z"/>
+        <path fill="#FEFEFE" fill-rule="evenodd" d="M12 18.63c3.393 0 6.17-2.852 6.17-6.4 0-3.553-2.777-6.4-6.17-6.4s-6.17 2.847-6.17 6.4c0 3.548 2.777 6.4 6.17 6.4m0 .457c3.661 0 6.63-3.073 6.63-6.857 0-3.788-2.969-6.86-6.63-6.86s-6.63 3.072-6.63 6.865c0 3.784 2.969 6.856 6.63 6.856z" clip-rule="evenodd"/>
+        <path fill="url(#CGL__d)" fill-rule="evenodd" d="M4 16.236h15.059L12.687 4zm8.47-10.353-6.588 9.412h10.824z" clip-rule="evenodd"/>
+        <path fill="url(#CGL__e)" fill-rule="evenodd" d="M11.087 14.514a2.972 2.972 0 1 0 0-5.944 2.972 2.972 0 0 0 0 5.944m0 .456a3.43 3.43 0 1 0 .255-6.855 3.43 3.43 0 0 0-.255 6.855" clip-rule="evenodd"/>
+        <path fill="#F3F3F3" d="m8.113 9.714 3.43 3.656 1.144-.912-2.974-4.344-1.826-.682z"/>
+        <path fill="url(#CGL__f)" d="m12.913 14.288-1.144-.687 1.144-.913.456 1.37 1.374 1.143-.456.456z"/>
+        <path fill="#BCBCBC" d="M11.77 12.689 8.344 8.113v1.6l3.2 3.431z"/>
+        <path fill="url(#CGL__g)" d="m11.313 14.288-.457-.456 2.513-2.061.461.46z"/>
+        <path fill="url(#CGL__h)" d="m8.112 14.514 4.574-5.026.683.226-4.8 5.487-.226.913-1.144-1.144z"/>
+        <path fill="url(#CGL__i)" d="M8.344 16.114 7.2 14.971l-.687 1.143.918.918z"/>
+        <path fill="#F9F9F9" d="m15.2 6.514-.913 1.144.682.687 1.144-1.144z"/>
+        <path fill="url(#CGL__j)" d="M14.057 7.2c-1.28 0-1.977 1.751-2.057 2.513.15-.075.87-.226 1.6.687s-.15 2.513-.687 3.2c3.294-.55 4.574-4.037 4.8-5.713-.15.226-.682.683-1.6.683-.913 0-1.75-.913-2.056-1.37"/>
+        <path fill="url(#CGL__k)" d="M14.057 10.63a1.8 1.8 0 0 0-1.6-1.143c.367-1.28 1.223-1.755 1.6-1.83.183.367.837.762 1.143.913z"/>
+        <path fill="url(#CGL__l)" d="M16.113 11.088h-1.826c0 .913-.457 1.75-.687 2.056 1.28-.367 2.212-1.524 2.513-2.056"/>
+    </g>
+    <defs>
+        <linearGradient id="CGL__b" x1="12" x2="12" y1="3.995" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C3C3C3"/>
+            <stop offset="1" stop-color="#5F5F5F"/>
+        </linearGradient>
+        <linearGradient id="CGL__c" x1="12" x2="12" y1="3.994" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C3C3C3"/>
+            <stop offset="1" stop-color="#858585"/>
+        </linearGradient>
+        <linearGradient id="CGL__d" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EAEAEA"/>
+            <stop offset="1" stop-color="#C6C6C6"/>
+        </linearGradient>
+        <linearGradient id="CGL__e" x1="11.704" x2="11.704" y1="4.006" y2="19.995" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D8D8D8"/>
+            <stop offset="1" stop-color="#CFCFCF"/>
+        </linearGradient>
+        <linearGradient id="CGL__f" x1="7.696" x2="20.191" y1="7.677" y2="16.812" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D6D6D6"/>
+            <stop offset="1" stop-color="#838383"/>
+        </linearGradient>
+        <linearGradient id="CGL__g" x1="11.392" x2="14.446" y1="9.833" y2="13.697" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F8F8F8"/>
+            <stop offset="1" stop-color="#898989"/>
+        </linearGradient>
+        <linearGradient id="CGL__h" x1="11.114" x2="13.058" y1="11.171" y2="12.596" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D6D6D6"/>
+            <stop offset="1" stop-color="#838383"/>
+        </linearGradient>
+        <linearGradient id="CGL__i" x1="13.995" x2="10.483" y1="5.791" y2="17.766" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9E9E9E"/>
+            <stop offset="1" stop-color="#5D5D5D"/>
+        </linearGradient>
+        <linearGradient id="CGL__j" x1="16.165" x2="9.78" y1="9.718" y2="15.571" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FEFEFE"/>
+            <stop offset="1" stop-color="#E0E0E0"/>
+        </linearGradient>
+        <linearGradient id="CGL__k" x1="6.662" x2="15.35" y1="7.696" y2="15.757" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C1C1C1"/>
+            <stop offset="1" stop-color="#E3E3E3"/>
+        </linearGradient>
+        <linearGradient id="CGL__l" x1="14.743" x2="13.421" y1="11.314" y2="12.773" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A0A0A0"/>
+            <stop offset="1" stop-color="#C1C1C1"/>
+        </linearGradient>
+        <clipPath id="CGL__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

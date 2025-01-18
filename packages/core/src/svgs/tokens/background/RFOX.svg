@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#RFOX__a)">
+        <path fill="url(#RFOX__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M5.29 10.56V4l3.252 3.355zm9.105-2.431h-4.78l2.436 10.198zm-5.462.03L11.82 20l-6.026-8.765zm6.133 0L12.181 20l6.026-8.765zm3.643 2.4V4l-3.251 3.355z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="RFOX__b" x1="5.398" x2="18.457" y1="10.906" y2="10.906" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#AF0607"/>
+            <stop offset=".495" stop-color="#ED1C24"/>
+        </linearGradient>
+        <clipPath id="RFOX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

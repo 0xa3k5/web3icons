@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#lightlink__a)">
+        <path fill="url(#lightlink__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M13.26 10.82a.54.54 0 0 1 0 .79.63.63 0 0 1-.843 0l-1.265-1.186-2.78 2.61a.63.63 0 0 1-.843 0 .533.533 0 0 1 0-.79l3.162-2.963.04-.042a.623.623 0 0 1 .843 0z"/>
+        <path fill="#fff" d="M16.447 10.97a.533.533 0 0 1 0 .79l-3.161 2.959-.04.042a.623.623 0 0 1-.843 0l-1.686-1.58a.54.54 0 0 1 0-.79.63.63 0 0 1 .843 0l1.264 1.185 2.78-2.607a.63.63 0 0 1 .843 0m3.381.013a.63.63 0 0 0-.843 0l-1.68 1.58a.533.533 0 0 0 0 .79.63.63 0 0 0 .842 0l1.685-1.58a.544.544 0 0 0-.004-.79M5.015 13.026a.63.63 0 0 1-.843 0 .54.54 0 0 1 0-.79l1.685-1.58a.63.63 0 0 1 .843 0 .533.533 0 0 1 0 .79z"/>
+    </g>
+    <defs>
+        <linearGradient id="lightlink__b" x1="9.132" x2="13.232" y1="10.936" y2="15.257" gradientUnits="userSpaceOnUse">
+            <stop offset=".117" stop-color="#6978FF"/>
+            <stop offset=".188" stop-color="#6087FF"/>
+            <stop offset=".348" stop-color="#4DA5FF"/>
+            <stop offset=".507" stop-color="#40BAFF"/>
+            <stop offset=".662" stop-color="#39C7FF"/>
+            <stop offset=".808" stop-color="#36CBFF"/>
+            <stop offset="1" stop-color="#67FFFC"/>
+        </linearGradient>
+        <clipPath id="lightlink__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#kroma__a)">
+        <path fill="#7AE03A" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m12 4.334-8 5.11L8 12l4-2.556L16 12l4-2.556z"/>
+        <path fill="#fff" d="m20 9.444-8 5.111-8-5.11v5.11l8 5.112 8-5.112z"/>
+    </g>
+    <defs>
+        <clipPath id="kroma__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

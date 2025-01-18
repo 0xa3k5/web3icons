@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CUMINU__a)">
+        <path fill="#FF1381" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m8.889 12-3.555 2.223V9.778zm1.031-1.333 2.746-2.036 2.747 2.036 3.253-2.334-6-4.333-6 4.333zm0 2.666 2.746 2.036 2.747-2.036 3.253 2.334-6 4.333-6-4.333z"/>
+    </g>
+    <defs>
+        <clipPath id="CUMINU__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

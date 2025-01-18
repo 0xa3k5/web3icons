@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#KOM__a)">
+        <path fill="#2B6DEF" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M15.5 14.68V13l2-1 .05 3.72zm-4.145-2.66L16.03 9.3l.275-2.775-7.34 3.25v2.245zm6.16 7.98 1.985-1.25-10.02-5.78-2.225 1.15z"/>
+        <path fill="#fff" d="M5.5 4.935 7.5 4v13.82l-2 .935zm10 .29L17.5 4v5.285l-2 .965zm4-.05L17.5 4v5.25l2 1zm-10-.24L7.5 4v13.82l2 .935z"/>
+        <path fill="#fff" d="m7.5 17.5-2 1.25L7.495 20 9.5 18.75zm10-8.5-2 1.25 2 1.25 2-1.25zm-10 .73L17.5 4v2.465L7.5 12z"/>
+        <path fill="#fff" d="m7.5 12 12 6.75V13l-2-1v3.5l-8.015-4.616z"/>
+    </g>
+    <defs>
+        <clipPath id="KOM__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

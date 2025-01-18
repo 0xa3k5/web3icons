@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#FRM__a)" d="m3.47 16.712.883.512.882-.518v-3.824L18.4 5.56l-1.765-1.19-11.4 6.135v-2.47l9.635-4.848L13.106 2 3.47 6.882z"/>
-    <path fill="url(#FRM__b)" d="M17 7.776 7 13.424V16.1l10-5.941z"/>
-    <path fill="#CCA362" d="m8.177 19.665-1.765-1.188L17 11.94v2.383l-8.823 5.353z"/>
-    <path fill="#CCA362" d="m19.647 6.588.883.565v9.541L11.588 22l-1.764-1.188 8.94-5.306v-8.33l.883-.594z"/>
+    <path fill="url(#FRM__a)" d="m5.176 15.77.706.409.706-.414v-3.059L17.12 6.847l-1.412-.95-9.12 4.908V8.828l7.708-3.877L12.885 4 5.176 7.906z"/>
+    <path fill="url(#FRM__b)" d="m16 8.62-8 4.518v2.141l8-4.753z"/>
+    <path fill="#CCA362" d="m8.942 18.132-1.412-.95L16 11.953v1.906l-7.058 4.283z"/>
+    <path fill="#CCA362" d="m18.118 7.67.706.452v7.633L11.67 20l-1.411-.95 7.153-4.245V8.14l.706-.475z"/>
     <defs>
-        <linearGradient id="FRM__a" x1="2.597" x2="19.627" y1="16.505" y2="7.01" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FRM__a" x1="4.477" x2="18.101" y1="15.604" y2="8.008" gradientUnits="userSpaceOnUse">
             <stop offset=".05" stop-color="#C5C3C5"/>
             <stop offset=".3" stop-color="#F2F2F2"/>
             <stop offset=".9" stop-color="#BEBBBE"/>
         </linearGradient>
-        <linearGradient id="FRM__b" x1=".922" x2="27.288" y1="19.088" y2="10.78" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FRM__b" x1="3.137" x2="24.23" y1="17.67" y2="11.024" gradientUnits="userSpaceOnUse">
             <stop offset=".2" stop-color="#CAA467"/>
             <stop offset=".62" stop-color="#ECC77C"/>
             <stop offset=".92" stop-color="#CCA362"/>

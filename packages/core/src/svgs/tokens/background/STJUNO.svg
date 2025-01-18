@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#STJUNO__a)">
+        <path fill="#E40570" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0m-.518 0a7.482 7.482 0 1 1-14.965 0 7.482 7.482 0 0 1 14.965 0m-7.953 4.235v.942h.942v-.942h1.411v-.94h-1.411v-3.53l1.647 1.647.705-.706-1.646-1.647h2.117v-.941h-2.117l1.646-1.647-.705-.706-1.647 1.647V7.294h-.942v2.118L9.882 7.765l-.706.706 1.647 1.647H8.706v.94h2.117l-1.647 1.648.706.706 1.647-1.647v3.53h-1.411v.94z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="STJUNO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

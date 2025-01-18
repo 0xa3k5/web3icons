@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#NABOX__a)">
+        <path fill="#2AC98B" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m4.89 8.444 6.666 4V20l-2.222-1.334v-5.333L7.11 12v5.333L4.89 16z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12.444 20v-8L5.333 7.778 12 4l7.11 4v8l-2.222 1.333v-8l-2.222 1.334v8zM9.777 7.778 12 6.444 14.666 8l-2.222 1.333z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="NABOX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

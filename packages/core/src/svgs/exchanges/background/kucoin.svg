@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#kucoin__a)">
+        <path fill="#23AF91" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="m9.314 12.002 4.739 4.74 2.99-2.992a1.353 1.353 0 0 1 1.912 1.91l-3.948 3.949c-.53.521-1.38.521-1.91 0l-5.695-5.697v3.386a1.353 1.353 0 0 1-2.706 0V6.701a1.353 1.353 0 0 1 2.706 0v3.385l5.694-5.695a1.36 1.36 0 0 1 1.91 0l3.95 3.948a1.353 1.353 0 0 1-1.91 1.91l-2.991-2.99zm4.74-1.355a1.355 1.355 0 1 0 0 2.71 1.355 1.355 0 0 0 0-2.71" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="kucoin__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#BRN__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#0EEBFF" d="M7.5 13.675 6.78 12.5 4 17.24 10.5 20l-1-1.5-3.815-1.66zm9 0 .72-1.175L20 17.24 13.5 20l1-1.5 3.815-1.66z"/>
+        <path fill="url(#BRN__b)" d="M10.5 11 12 8.5l1.5 2.5-.555 1.235.555 1.265L12 16l-1.5-2.5.555-1.265zm1.5 4 .885-1.5-.25-.68-.135.18v-1.09l.32-.91L12 9.5l-.82 1.5.32.91V13l-.135-.18-.25.68z"/>
+        <path fill="url(#BRN__c)" d="M8.5 9.835 12 4l3.5 5.835L14.84 11 12 6.24 9.16 11z"/>
+        <path fill="url(#BRN__d)" d="M4 6.5 12 20l8-13.5L13.66 4l.84 1.5 3.805 1.395L12 17.67 5.695 6.9 9.5 5.5l.84-1.5z"/>
+    </g>
+    <defs>
+        <linearGradient id="BRN__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#19F1FE"/>
+            <stop offset=".5" stop-color="#7F6EFB"/>
+            <stop offset="1" stop-color="#8450FD"/>
+        </linearGradient>
+        <linearGradient id="BRN__c" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop offset=".18" stop-color="#3636E5"/>
+            <stop offset="1" stop-color="#1CA4FD"/>
+        </linearGradient>
+        <linearGradient id="BRN__d" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C63FFF"/>
+            <stop offset=".49" stop-color="#6D5FFE"/>
+            <stop offset="1" stop-color="#268EF5"/>
+        </linearGradient>
+        <clipPath id="BRN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

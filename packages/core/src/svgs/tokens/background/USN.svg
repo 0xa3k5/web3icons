@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#USN__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <mask id="USN__b" width="16" height="16" x="4" y="4" maskUnits="userSpaceOnUse" style="mask-type:luminance">
+            <path fill="#fff" d="M20 4H4v16h16z"/>
+        </mask>
+        <g mask="url(#USN__b)">
+            <path fill="#fff" fill-rule="evenodd" d="M12 4a8 8 0 1 1 0 16 8 8 0 0 1 0-16M9.47 8.243a.71.71 0 0 1 .778.245l3.373 4.508V8.211h1.39v2.006h1.62v1.337h-1.62v.892h1.62v1.337h-1.62v1.286c0 .29-.195.547-.482.636a.71.71 0 0 1-.777-.245l-3.373-4.508v4.837h-1.39v-2.006H7.37v-1.337h1.62v-.892H7.37v-1.337h1.62V8.879c0-.29.195-.547.482-.636" clip-rule="evenodd"/>
+        </g>
+    </g>
+    <defs>
+        <clipPath id="USN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TOWER__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m15.765 4-.279 1.412h-2.212L12.942 4h-1.883l-.25 1.412H8.515L8.28 4H6.354l.47 4.235h10.353L17.647 4zm-8.94 4.706.686 7.34L11.993 20l.008-.045.008.045 4.482-3.954.686-7.34zm1.41 1.882h2.824v6.824l-2.353-2.118zm4.707 6.824v-6.824h2.823l-.47 4.706z"/>
+    </g>
+    <defs>
+        <clipPath id="TOWER__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

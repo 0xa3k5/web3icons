@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ACRIA__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M10.5 11.25H8.25l3.75-6 4.75 8.5h-7.5l-1.75 3h1.75l1.5-2.5h2.5l1.5 2.5h2l-1.5-2.5h2l2.75 4.5h-6.5l-1.5-3-1.5 3H4l4-7h5.5l-1.5-3z"/>
+    </g>
+    <defs>
+        <clipPath id="ACRIA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#RDNT__a)">
+        <path fill="url(#RDNT__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11 9.502 6 6l3.502 5L4 12l5.502 1L6 17.502l5-3.004L12 20l1-5.502 5.249 3.004L14 13l6-1-6-1 4-5-5 3.502L12 4z"/>
+    </g>
+    <defs>
+        <linearGradient id="RDNT__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0FA"/>
+            <stop offset="1" stop-color="#5A10F5"/>
+        </linearGradient>
+        <clipPath id="RDNT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

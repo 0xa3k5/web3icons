@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CREAM__a)">
+        <path fill="#69E2DB" d="M24 0H0v24h24z"/>
+        <path fill="#000" d="m13.97 12.595 4.453 4.428a.845.845 0 0 1-.09 1.265 8.06 8.06 0 0 1-9.457.343A7.978 7.978 0 0 1 9.883 4.79a8.07 8.07 0 0 1 8.48.94.837.837 0 0 1 .055 1.241l-4.452 4.433a.84.84 0 0 0-.25.61c0 .115.024.23.07.335.044.1.104.2.184.275z"/>
+    </g>
+    <defs>
+        <clipPath id="CREAM__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

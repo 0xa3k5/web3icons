@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TRX__a)">
+        <path fill="#C4342B" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M5.261 4.165a.5.5 0 0 1 .492-.15l10.58 2.59a.5.5 0 0 1 .177.082l2.153 1.57a.5.5 0 0 1 .118.687l-7.407 10.837a.5.5 0 0 1-.887-.115L5.161 4.67a.5.5 0 0 1 .1-.505m1.746 2.707 3.698 10.41.608-5.395zm5.296 5.189-.618 5.489 5.23-7.654zm5.084-3.494-3.371 1.582 2.26-2.392zm-2.13-1.193L7.032 5.36l4.823 5.617z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="TRX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

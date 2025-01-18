@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TFUEL__a)">
+        <path fill="url(#TFUEL__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12.347 20c-2.04-.4-6.084-2.216-5.948-6.256h.008c-.04-.8.328-2.812 2.124-4.44C10.779 7.268 11.287 6.588 11.195 4c.82.48 2.46 1.924 2.5 3.84a7.3 7.3 0 0 1-.344 1.9c-.324.952.212 1.752 1.012 1.792.808.036 1.4-.524 1.452-1.512.64.64 1.896 2.368 1.784 4.176-.144 2.26-1.268 3.068-1.968 3.496-.216.133-.502.241-.82.362-.86.327-1.947.74-2.464 1.946M15.57 5.816v.576c-.004.096-.092.372-.4.684-.304.316-.38.8-.38 1a1.38 1.38 0 0 0 .944 1.316 1.46 1.46 0 0 1 .532-.688c.32-.176.328-.568.32-.76a3.82 3.82 0 0 0-1.016-2.128M8.799 12.4V14h2.4v2.8h1.6V14h2.4v-1.6z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="TFUEL__b" x1="14.791" x2="6.349" y1="5.131" y2="16.686" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EE6833"/>
+            <stop offset="1" stop-color="#F2A23E"/>
+        </linearGradient>
+        <clipPath id="TFUEL__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

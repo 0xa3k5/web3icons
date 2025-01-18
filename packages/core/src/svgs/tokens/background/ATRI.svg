@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ATRI__a)">
+        <path fill="#E01920" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M9.333 6h1.334v2.667c0 3.555-.84 8.36-6.667 9.333v-1.778C5.333 16 9.32 14.444 9.32 8.667zm1.778 0h1.778v12h-1.778zm3.556 0h-1.334v2.667c0 3.555.84 8.36 6.667 9.333v-1.778c-1.333-.222-5.32-1.778-5.32-7.555z"/>
+    </g>
+    <defs>
+        <clipPath id="ATRI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

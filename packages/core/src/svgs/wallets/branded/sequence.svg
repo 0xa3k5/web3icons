@@ -1,52 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#sequence__a)" d="M2 7.4v9.2A3.4 3.4 0 0 0 5.4 20h13.2a3.4 3.4 0 0 0 3.4-3.4V7.4A3.4 3.4 0 0 0 18.6 4H5.4A3.4 3.4 0 0 0 2 7.4"/>
-    <path fill="url(#sequence__b)" d="M7 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/>
-    <path fill="url(#sequence__c)" d="M7 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/>
-    <path fill="url(#sequence__d)" d="M7 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/>
-    <path fill="url(#sequence__e)" d="M7 15.994a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/>
-    <path fill="url(#sequence__f)" d="M19 12a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/>
-    <path fill="url(#sequence__g)" d="M19 12a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/>
-    <path fill="url(#sequence__h)" d="M18 7h-8a1 1 0 0 0 0 2h8a1 1 0 1 0 0-2"/>
-    <path fill="url(#sequence__i)" d="M18 14.994h-8a1 1 0 1 0 0 2h8a1 1 0 0 0 0-2"/>
-    <path fill="url(#sequence__j)" d="M14 11H6a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2"/>
+    <path fill="url(#sequence__a)" d="M4 8.32v7.36a2.72 2.72 0 0 0 2.72 2.72h10.56A2.72 2.72 0 0 0 20 15.68V8.32a2.72 2.72 0 0 0-2.72-2.72H6.72A2.72 2.72 0 0 0 4 8.32"/>
+    <path fill="url(#sequence__b)" d="M8 8.8a.8.8 0 1 0-1.6 0 .8.8 0 0 0 1.6 0"/>
+    <path fill="url(#sequence__c)" d="M8 8.8a.8.8 0 1 0-1.6 0 .8.8 0 0 0 1.6 0"/>
+    <path fill="url(#sequence__d)" d="M8 8.8a.8.8 0 1 0-1.6 0 .8.8 0 0 0 1.6 0"/>
+    <path fill="url(#sequence__e)" d="M8 15.195a.8.8 0 1 0-1.6 0 .8.8 0 0 0 1.6 0"/>
+    <path fill="url(#sequence__f)" d="M17.6 12a.8.8 0 1 0-1.6 0 .8.8 0 0 0 1.6 0"/>
+    <path fill="url(#sequence__g)" d="M17.6 12a.8.8 0 1 0-1.6 0 .8.8 0 0 0 1.6 0"/>
+    <path fill="url(#sequence__h)" d="M16.8 8h-6.4a.8.8 0 0 0 0 1.6h6.4a.8.8 0 0 0 0-1.6"/>
+    <path fill="url(#sequence__i)" d="M16.8 14.395h-6.4a.8.8 0 0 0 0 1.6h6.4a.8.8 0 0 0 0-1.6"/>
+    <path fill="url(#sequence__j)" d="M13.6 11.2H7.2a.8.8 0 1 0 0 1.6h6.4a.8.8 0 0 0 0-1.6"/>
     <defs>
-        <linearGradient id="sequence__a" x1="12" x2="12" y1="4" y2="20.017" gradientUnits="userSpaceOnUse">
+        <linearGradient id="sequence__a" x1="12" x2="12" y1="5.6" y2="18.413" gradientUnits="userSpaceOnUse">
             <stop stop-color="#1D273D"/>
             <stop offset="1" stop-color="#0D0F13"/>
         </linearGradient>
-        <linearGradient id="sequence__b" x1="5.308" x2="6.667" y1="8.986" y2="7.17" gradientUnits="userSpaceOnUse">
+        <linearGradient id="sequence__b" x1="6.646" x2="7.733" y1="9.589" y2="8.136" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4462FE"/>
             <stop offset="1" stop-color="#7D69FA"/>
         </linearGradient>
-        <linearGradient id="sequence__c" x1="5.176" x2="6.855" y1="9.001" y2="8.915" gradientUnits="userSpaceOnUse">
+        <linearGradient id="sequence__c" x1="6.541" x2="7.884" y1="9.601" y2="9.532" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3757FD"/>
             <stop offset="1" stop-color="#6980FA"/>
         </linearGradient>
-        <linearGradient id="sequence__d" x1="5.176" x2="6.855" y1="9.001" y2="8.915" gradientUnits="userSpaceOnUse">
+        <linearGradient id="sequence__d" x1="6.541" x2="7.884" y1="9.601" y2="9.532" gradientUnits="userSpaceOnUse">
             <stop stop-color="#2447FF"/>
             <stop offset="1" stop-color="#6980FA"/>
         </linearGradient>
-        <linearGradient id="sequence__e" x1="5.283" x2="6.617" y1="16.667" y2="15.253" gradientUnits="userSpaceOnUse">
+        <linearGradient id="sequence__e" x1="6.626" x2="7.694" y1="15.734" y2="14.603" gradientUnits="userSpaceOnUse">
             <stop stop-color="#BC3EE6"/>
             <stop offset="1" stop-color="#D972F1"/>
         </linearGradient>
-        <linearGradient id="sequence__f" x1="17.404" x2="18.638" y1="12.663" y2="11.35" gradientUnits="userSpaceOnUse">
+        <linearGradient id="sequence__f" x1="16.323" x2="17.31" y1="12.53" y2="11.48" gradientUnits="userSpaceOnUse">
             <stop stop-color="#29BDFF"/>
             <stop offset="1" stop-color="#96E7FB"/>
         </linearGradient>
-        <linearGradient id="sequence__g" x1="17.161" x2="18.897" y1="12.986" y2="12.903" gradientUnits="userSpaceOnUse">
+        <linearGradient id="sequence__g" x1="16.128" x2="17.518" y1="12.789" y2="12.722" gradientUnits="userSpaceOnUse">
             <stop stop-color="#23BBFF"/>
             <stop offset="1" stop-color="#85E7FF"/>
         </linearGradient>
-        <linearGradient id="sequence__h" x1="9.803" x2="18.033" y1="8.986" y2="7.012" gradientUnits="userSpaceOnUse">
+        <linearGradient id="sequence__h" x1="10.242" x2="16.826" y1="9.589" y2="8.009" gradientUnits="userSpaceOnUse">
             <stop stop-color="#23BBFF"/>
             <stop offset="1" stop-color="#85E7FF"/>
         </linearGradient>
-        <linearGradient id="sequence__i" x1="9.879" x2="17.78" y1="16.995" y2="14.97" gradientUnits="userSpaceOnUse">
+        <linearGradient id="sequence__i" x1="10.303" x2="16.624" y1="15.996" y2="14.376" gradientUnits="userSpaceOnUse">
             <stop stop-color="#2447FF"/>
             <stop offset="1" stop-color="#6980FA"/>
         </linearGradient>
-        <linearGradient id="sequence__j" x1="6.343" x2="13.891" y1="13.016" y2="10.991" gradientUnits="userSpaceOnUse">
+        <linearGradient id="sequence__j" x1="7.475" x2="13.513" y1="12.813" y2="11.192" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6634FF"/>
             <stop offset="1" stop-color="#9C6DFF"/>
         </linearGradient>

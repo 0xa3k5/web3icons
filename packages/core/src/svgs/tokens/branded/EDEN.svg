@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#EDEN__a)" fill-rule="evenodd" d="m17.2 9.367-4.089-3.95v7.905zm-8.378 8.372 2.067-2v-.078l-4.4-4.25v4.078zm1.211 1.172.856-.828V22h2.222v-3.889l1.723 1.667v-.011l.333.322 4.039-3.906h.016V8.944h-.033l-5.978-5.777L12 2 4.811 8.944h-.033v7.24h.017L7.61 18.91l1.206 1.172h.01l1.212-1.166zm3.078-3.133 2.056 1.983 2.389-2.316v-4.078L13.11 15.66zm-6.31-6.411 4.088 3.955V5.417z" clip-rule="evenodd"/>
+    <path fill="url(#EDEN__a)" fill-rule="evenodd" d="m16.16 9.893-3.271-3.16v6.325zm-6.702 6.698 1.653-1.6v-.062l-3.52-3.4v3.262zm.969.938.684-.662V20h1.778v-3.111l1.378 1.333v-.009l.266.258 3.231-3.124h.014V9.556h-.027L12.97 4.933 11.999 4 6.25 9.556h-.027v5.79h.013L8.49 17.53l.964.938h.01l.968-.934zm2.462-2.507 1.644 1.587 1.912-1.853v-3.263l-3.556 3.436zM7.84 9.893l3.271 3.165V6.733z" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="EDEN__a" x1="6.35" x2="17.622" y1="17.806" y2="8.828" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EDEN__a" x1="7.48" x2="16.498" y1="16.645" y2="9.462" gradientUnits="userSpaceOnUse">
             <stop stop-color="#10CB88"/>
             <stop offset="1" stop-color="#BDF418"/>
         </linearGradient>

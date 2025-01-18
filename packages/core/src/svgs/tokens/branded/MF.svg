@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#F0F3FA" d="M6.644 2h10.712C19.894 2 22 4.15 22 6.831V17.17c0 2.636-2.062 4.83-4.644 4.83H6.644C4.106 22 2 19.85 2 17.169V6.83C2 4.144 4.062 2 6.644 2"/>
-    <path fill="url(#MF__a)" d="M8.412 9.206a1.756 1.756 0 0 1-1.393-2A1.694 1.694 0 0 1 8.962 5.77l8.5 1.525a1.756 1.756 0 0 1 1.394 2 1.69 1.69 0 0 1-1.944 1.437z"/>
-    <path fill="url(#MF__b)" d="M7.731 14.081a1.67 1.67 0 0 1-1.325-1.95 1.644 1.644 0 0 1 1.912-1.35l5.444 1.013a1.67 1.67 0 0 1 1.332 1.95 1.646 1.646 0 0 1-1.913 1.35z"/>
-    <path fill="url(#MF__c)" d="M7.125 18.544a1.7 1.7 0 0 1-1.35-1.975c.162-.944.98-1.588 1.88-1.419l1.72.306a1.7 1.7 0 0 1 1.35 1.975c-.163.944-.982 1.588-1.882 1.419z"/>
+    <path fill="#F0F3FA" d="M7.715 4h8.57C18.315 4 20 5.72 20 7.865v8.27C20 18.245 18.35 20 16.285 20h-8.57C5.685 20 4 18.28 4 16.135v-8.27C4 5.715 5.65 4 7.715 4"/>
+    <path fill="url(#MF__a)" d="M9.13 9.765a1.405 1.405 0 0 1-1.115-1.6 1.355 1.355 0 0 1 1.555-1.15l6.8 1.22a1.405 1.405 0 0 1 1.115 1.6 1.354 1.354 0 0 1-1.555 1.15z"/>
+    <path fill="url(#MF__b)" d="M8.584 13.665a1.335 1.335 0 0 1-1.06-1.56 1.315 1.315 0 0 1 1.53-1.08l4.355.81c.735.135 1.2.85 1.065 1.56a1.316 1.316 0 0 1-1.53 1.08z"/>
+    <path fill="url(#MF__c)" d="M8.1 17.235a1.36 1.36 0 0 1-1.08-1.58c.13-.755.784-1.27 1.504-1.135l1.375.245a1.36 1.36 0 0 1 1.08 1.58c-.13.755-.785 1.27-1.505 1.135z"/>
     <defs>
-        <linearGradient id="MF__a" x1="1.479" x2="23.717" y1="7.005" y2="8.832" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MF__a" x1="3.583" x2="21.374" y1="8.004" y2="9.466" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF5B5D"/>
             <stop offset="1" stop-color="#FE38A3"/>
         </linearGradient>
-        <linearGradient id="MF__b" x1="1.995" x2="24.766" y1="7.704" y2="9.903" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MF__b" x1="3.996" x2="22.212" y1="8.563" y2="10.322" gradientUnits="userSpaceOnUse">
             <stop stop-color="#2FF3F9"/>
             <stop offset="1" stop-color="#0ABCFE"/>
         </linearGradient>
-        <linearGradient id="MF__c" x1="5.751" x2="11.376" y1="16.375" y2="17.312" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MF__c" x1="7" x2="11.5" y1="15.499" y2="16.249" gradientUnits="userSpaceOnUse">
             <stop stop-color="#BA74FF"/>
             <stop offset="1" stop-color="#6D6BFA"/>
         </linearGradient>

@@ -1,10 +1,10 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M16.9997 3.17651H6.99976L11.9998 12.0029L16.9997 3.17651Z" fill="url(#paint0_linear_364_1097)"/>
-<path d="M16.9999 3.17651L12 12.0029L16.9999 20.8236L22 12.0029L16.9999 3.17651Z" fill="url(#paint1_linear_364_1097)"/>
-<path d="M6.99999 3.17651L2 12.0029L6.99999 20.8236L12 12.0029L6.99999 3.17651Z" fill="url(#paint2_linear_364_1097)"/>
-<path d="M11.9998 12.0028L6.99976 20.8235H16.9997L11.9998 12.0028Z" fill="#74C5EE"/>
+<path d="M16 4.94116H8L12 12.0023L16 4.94116Z" fill="url(#paint0_linear_328_23630)"/>
+<path d="M15.9999 4.94116L12 12.0023L15.9999 19.0588L20 12.0023L15.9999 4.94116Z" fill="url(#paint1_linear_328_23630)"/>
+<path d="M7.99999 4.94116L4 12.0023L7.99999 19.0588L12 12.0023L7.99999 4.94116Z" fill="url(#paint2_linear_328_23630)"/>
+<path d="M12 12.0022L8 19.0588H16L12 12.0022Z" fill="#74C5EE"/>
 <defs>
-<linearGradient id="paint0_linear_364_1097" x1="12.0009" y1="21.0941" x2="12.0009" y2="2.36267" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_328_23630" x1="12.0009" y1="19.2752" x2="12.0009" y2="4.29009" gradientUnits="userSpaceOnUse">
 <stop stop-color="#74C5EE"/>
 <stop offset="0.32" stop-color="#73C2EF"/>
 <stop offset="0.53" stop-color="#6EB9F1"/>
@@ -12,11 +12,11 @@
 <stop offset="0.88" stop-color="#5A95FA"/>
 <stop offset="1" stop-color="#4F80FF"/>
 </linearGradient>
-<linearGradient id="paint1_linear_364_1097" x1="1.9788" y1="12.0029" x2="22.2658" y2="12.0029" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_328_23630" x1="3.98304" y1="12.0023" x2="20.2126" y2="12.0023" gradientUnits="userSpaceOnUse">
 <stop stop-color="#96D4C8"/>
 <stop offset="1" stop-color="#42C0C6"/>
 </linearGradient>
-<linearGradient id="paint2_linear_364_1097" x1="2" y1="12.0029" x2="22" y2="12.0029" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint2_linear_328_23630" x1="4" y1="12.0023" x2="20" y2="12.0023" gradientUnits="userSpaceOnUse">
 <stop stop-color="#4F80FF"/>
 <stop offset="0.28" stop-color="#4E7FFC"/>
 <stop offset="0.48" stop-color="#4A7CF3"/>

@@ -1,47 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#rainbow__a)" d="M2 6.5h1.5c7.732 0 14 6.268 14 14V22h3a1.5 1.5 0 0 0 1.5-1.5C22 10.283 13.717 2 3.5 2A1.5 1.5 0 0 0 2 3.5z"/>
-    <path fill="url(#rainbow__b)" d="M18 20.5h4a1.5 1.5 0 0 1-1.5 1.5H18z"/>
-    <path fill="url(#rainbow__c)" d="M3.5 2v4H2V3.5A1.5 1.5 0 0 1 3.5 2"/>
-    <path fill="url(#rainbow__d)" d="M2 6h1.5C11.508 6 18 12.492 18 20.5V22h-4.5v-1.5c0-5.523-4.477-10-10-10H2z"/>
-    <path fill="url(#rainbow__e)" d="M14 20.5h4V22h-4z"/>
-    <path fill="url(#rainbow__f)" d="M2 10V6h1.5v4z"/>
-    <path fill="url(#rainbow__g)" d="M2 12.5A1.5 1.5 0 0 0 3.5 14a6.5 6.5 0 0 1 6.5 6.5 1.5 1.5 0 0 0 1.5 1.5H14v-1.5C14 14.701 9.299 10 3.5 10H2z"/>
-    <path fill="url(#rainbow__h)" d="M10 20.5h4V22h-2.5a1.5 1.5 0 0 1-1.5-1.5"/>
-    <path fill="url(#rainbow__i)" d="M3.5 14A1.5 1.5 0 0 1 2 12.5V10h1.5z"/>
+    <path fill="url(#rainbow__a)" d="M4 7.6h1.2c6.186 0 11.2 5.014 11.2 11.2V20h2.4a1.2 1.2 0 0 0 1.2-1.2C20 10.626 13.374 4 5.2 4A1.2 1.2 0 0 0 4 5.2z"/>
+    <path fill="url(#rainbow__b)" d="M16.8 18.8H20a1.2 1.2 0 0 1-1.2 1.2h-2z"/>
+    <path fill="url(#rainbow__c)" d="M5.2 4v3.2H4v-2A1.2 1.2 0 0 1 5.2 4"/>
+    <path fill="url(#rainbow__d)" d="M4 7.2h1.2c6.407 0 11.6 5.193 11.6 11.6V20h-3.6v-1.2a8 8 0 0 0-8-8H4z"/>
+    <path fill="url(#rainbow__e)" d="M13.6 18.8h3.2V20h-3.2z"/>
+    <path fill="url(#rainbow__f)" d="M4 10.4V7.2h1.2v3.2z"/>
+    <path fill="url(#rainbow__g)" d="M4 12.4a1.2 1.2 0 0 0 1.2 1.2 5.2 5.2 0 0 1 5.2 5.2 1.2 1.2 0 0 0 1.2 1.2h2v-1.2a8.4 8.4 0 0 0-8.4-8.4H4z"/>
+    <path fill="url(#rainbow__h)" d="M10.4 18.8h3.2V20h-2a1.2 1.2 0 0 1-1.2-1.2"/>
+    <path fill="url(#rainbow__i)" d="M5.2 13.6A1.2 1.2 0 0 1 4 12.4v-2h1.2z"/>
     <defs>
-        <radialGradient id="rainbow__a" cx="0" cy="0" r="1" gradientTransform="rotate(-90 12 8.5)scale(18.5)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="rainbow__a" cx="0" cy="0" r="1" gradientTransform="rotate(-90 12 6.8)scale(14.8)" gradientUnits="userSpaceOnUse">
             <stop offset=".77" stop-color="#FF4000"/>
             <stop offset="1" stop-color="#8754C9"/>
         </radialGradient>
-        <radialGradient id="rainbow__d" cx="0" cy="0" r="1" gradientTransform="rotate(-90 12 8.5)scale(14.5)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="rainbow__d" cx="0" cy="0" r="1" gradientTransform="rotate(-90 12 6.8)scale(11.6)" gradientUnits="userSpaceOnUse">
             <stop offset=".724" stop-color="#FFF700"/>
             <stop offset="1" stop-color="#FF9901"/>
         </radialGradient>
-        <radialGradient id="rainbow__g" cx="0" cy="0" r="1" gradientTransform="rotate(-90 12 8.5)scale(10.5)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="rainbow__g" cx="0" cy="0" r="1" gradientTransform="rotate(-90 12 6.8)scale(8.4)" gradientUnits="userSpaceOnUse">
             <stop offset=".595" stop-color="#0AF"/>
             <stop offset="1" stop-color="#01DA40"/>
         </radialGradient>
-        <radialGradient id="rainbow__h" cx="0" cy="0" r="1" gradientTransform="matrix(4.25 0 0 11.3333 9.75 21.25)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="rainbow__h" cx="0" cy="0" r="1" gradientTransform="matrix(3.4 0 0 9.06667 10.2 19.4)" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0AF"/>
             <stop offset="1" stop-color="#01DA40"/>
         </radialGradient>
-        <radialGradient id="rainbow__i" cx="0" cy="0" r="1" gradientTransform="matrix(0 -4.25 80.5926 0 2.75 14.25)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="rainbow__i" cx="0" cy="0" r="1" gradientTransform="matrix(0 -3.4 64.474 0 4.6 13.8)" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0AF"/>
             <stop offset="1" stop-color="#01DA40"/>
         </radialGradient>
-        <linearGradient id="rainbow__b" x1="17.75" x2="22" y1="21.25" y2="21.25" gradientUnits="userSpaceOnUse">
+        <linearGradient id="rainbow__b" x1="16.6" x2="20" y1="19.4" y2="19.4" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF4000"/>
             <stop offset="1" stop-color="#8754C9"/>
         </linearGradient>
-        <linearGradient id="rainbow__c" x1="2.75" x2="2.75" y1="2" y2="6.25" gradientUnits="userSpaceOnUse">
+        <linearGradient id="rainbow__c" x1="4.6" x2="4.6" y1="4" y2="7.4" gradientUnits="userSpaceOnUse">
             <stop stop-color="#8754C9"/>
             <stop offset="1" stop-color="#FF4000"/>
         </linearGradient>
-        <linearGradient id="rainbow__e" x1="14" x2="18" y1="21.25" y2="21.25" gradientUnits="userSpaceOnUse">
+        <linearGradient id="rainbow__e" x1="13.6" x2="16.8" y1="19.4" y2="19.4" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FFF700"/>
             <stop offset="1" stop-color="#FF9901"/>
         </linearGradient>
-        <linearGradient id="rainbow__f" x1="2.75" x2="2.75" y1="10" y2="6" gradientUnits="userSpaceOnUse">
+        <linearGradient id="rainbow__f" x1="4.6" x2="4.6" y1="10.4" y2="7.2" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FFF700"/>
             <stop offset="1" stop-color="#FF9901"/>
         </linearGradient>

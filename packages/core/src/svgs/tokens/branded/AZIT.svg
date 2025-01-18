@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#AZIT__a)" d="m11.86 4.406-.157-.285L2 19.88h2.836l6.88-11.091 7.478 11.09H22z"/>
-    <path fill="#5550D2" d="M13.594 17.455 22 4.12h-7.855l1.382 2.424h2.182L9.273 19.88h12.309L20.2 17.454z"/>
+    <path fill="url(#AZIT__a)" d="m11.888 5.925-.126-.228L4 18.303h2.27l5.502-8.873 5.983 8.873H20z"/>
+    <path fill="#5550D2" d="M13.275 16.363 20 5.697h-6.284l1.106 1.94h1.745L9.818 18.302h9.848l-1.106-1.94z"/>
     <defs>
-        <linearGradient id="AZIT__a" x1="10.8" x2="18.582" y1="7.188" y2="20.194" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AZIT__a" x1="11.04" x2="17.265" y1="8.15" y2="18.555" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3938B8"/>
             <stop offset=".52" stop-color="#3937BD"/>
             <stop offset="1" stop-color="#5955D9"/>

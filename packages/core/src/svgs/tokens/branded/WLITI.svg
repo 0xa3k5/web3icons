@@ -1,25 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#WLITI__a)" d="M7.625 12.969v6.375L2 16.25zm3.606-2.125L9.5 11.874V16l5.319-3.094z"/>
-    <path fill="url(#WLITI__b)" d="M14.819 12.907 9.5 16v-4.125L7.625 13v6.338l3.606-2.307 5.382-3.093z"/>
-    <path fill="url(#WLITI__c)" d="M7.625 6.969v6.056L2 16.25V3.875zM9.5 7.75v4.125l1.731-1.031 3.582 2.062v-8.25zm7.113 6.188L11.23 17.03l5.382 3.094L22 17.031z"/>
-    <path fill="url(#WLITI__d)" d="m9.437 7.75 7.181 4.125L22 8.78l-7.182-4.125z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <path fill="url(#WLITI__a)" d="M9 12.775v5.1L4.5 15.4zm2.885-1.7L10.5 11.9v3.3l4.255-2.475z"/>
+    <path fill="url(#WLITI__b)" d="M14.755 12.725 10.5 15.2v-3.3l-1.5.9v5.07l2.885-1.845 4.305-2.475z"/>
+    <path fill="url(#WLITI__c)" d="M9 7.975v4.845L4.5 15.4V5.5zm1.5.625v3.3l1.385-.825 2.865 1.65v-6.6zm5.69 4.95-4.305 2.475L16.19 18.5l4.31-2.475z"/>
+    <path fill="url(#WLITI__d)" d="m10.45 8.6 5.744 3.3L20.5 9.425l-5.745-3.3z"/>
     <defs>
-        <linearGradient id="WLITI__a" x1="4.272" x2="22.698" y1="18.631" y2="9.183" gradientUnits="userSpaceOnUse">
+        <linearGradient id="WLITI__a" x1="6.318" x2="21.059" y1="17.305" y2="9.747" gradientUnits="userSpaceOnUse">
             <stop stop-color="#08A5B1"/>
             <stop offset=".67" stop-color="#6FC6A6"/>
             <stop offset="1" stop-color="#CAE5C2"/>
         </linearGradient>
-        <linearGradient id="WLITI__b" x1="-1.477" x2="18.412" y1="15.552" y2="2.779" gradientUnits="userSpaceOnUse">
+        <linearGradient id="WLITI__b" x1="1.718" x2="17.63" y1="14.842" y2="4.623" gradientUnits="userSpaceOnUse">
             <stop stop-color="#222C5F"/>
             <stop offset=".45" stop-color="#50489D"/>
             <stop offset="1" stop-color="#2D7DC1"/>
         </linearGradient>
-        <linearGradient id="WLITI__c" x1="1.481" x2="18.869" y1="14.831" y2="8.475" gradientUnits="userSpaceOnUse">
+        <linearGradient id="WLITI__c" x1="4.085" x2="17.995" y1="14.265" y2="9.18" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4BA5DC"/>
             <stop offset=".7" stop-color="#79CFE3"/>
             <stop offset="1" stop-color="#90D7EE"/>
         </linearGradient>
-        <linearGradient id="WLITI__d" x1="10.968" x2="20.443" y1="5.312" y2="11.262" gradientUnits="userSpaceOnUse">
+        <linearGradient id="WLITI__d" x1="11.674" x2="19.254" y1="6.65" y2="11.41" gradientUnits="userSpaceOnUse">
             <stop stop-color="#50489D"/>
             <stop offset=".7" stop-color="#2D7DC1"/>
             <stop offset="1" stop-color="#44BAEB"/>

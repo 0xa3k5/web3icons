@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#5A5967" d="M3.075 20.75 2 18.875h15.725L12 8.85l1.056-1.856 7.838 13.756z"/>
-    <path fill="url(#ARPA__a)" d="M13.05 3.25 5.187 17h2.144l5.72-10 7.843 13.75L22 18.856z"/>
-    <path fill="url(#ARPA__b)" d="M2 18.875 10.975 3.25h2.081L5.181 17h11.475l1.069 1.875z"/>
+    <path fill="#5A5967" d="M4.86 19 4 17.5h12.58L12 9.48l.845-1.485L19.115 19z"/>
+    <path fill="url(#ARPA__a)" d="M12.84 5 6.55 16h1.715l4.575-8 6.275 11L20 17.485z"/>
+    <path fill="url(#ARPA__b)" d="M4 17.5 11.18 5h1.665l-6.3 11h9.18l.855 1.5z"/>
     <defs>
-        <linearGradient id="ARPA__a" x1="13.206" x2="13.613" y1="3.275" y2="20.25" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ARPA__a" x1="12.965" x2="13.29" y1="5.02" y2="18.6" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CBCCCD"/>
             <stop offset="1" stop-color="#939493"/>
         </linearGradient>
-        <linearGradient id="ARPA__b" x1="12.175" x2="2.506" y1="3.25" y2="18.8" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ARPA__b" x1="12.14" x2="4.405" y1="5" y2="17.44" gradientUnits="userSpaceOnUse">
             <stop stop-color="#DCEBF5"/>
             <stop offset="1" stop-color="#B9C6CC"/>
         </linearGradient>

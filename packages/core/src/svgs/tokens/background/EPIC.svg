@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#EPIC__a)">
+        <path fill="url(#EPIC__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M8.234 14.353v-4.47l5.412-3.059-1.647-.941-5.647 3.059v6.117l5.647 3.294 5.647-3.058v-1.883l-5.647 3.059z"/>
+        <path fill="#fff" d="m14.588 8 .706-.47 1.411.94-.705.471zm-4.942 4.47v-1.646l4.471-2.589 1.412.942zm6.824-1.883-5.647 3.295 1.412.94 4.235-2.587zm1.177.943-.94.47v-1.647l.94-.47z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 19.53a7.53 7.53 0 1 0 0-15.06 7.53 7.53 0 0 0 0 15.06m0 .47a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="EPIC__b" x1="4.334" x2="20.334" y1="14.565" y2="14.565" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#B28947"/>
+            <stop offset=".16" stop-color="#F9CE97"/>
+            <stop offset=".52" stop-color="#B08656"/>
+            <stop offset=".83" stop-color="#F7CF89"/>
+            <stop offset="1" stop-color="#B68E5D"/>
+        </linearGradient>
+        <clipPath id="EPIC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

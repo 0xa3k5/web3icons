@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#NFTB__a)" d="M18 20.667V22H6v-1.333zM18 2v17.333H6V2zm-1.333 1.333H7.333V18h9.334z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <path fill="url(#NFTB__a)" d="M17.3 18.933V20H7.7v-1.067zM17.3 4v13.867H7.7V4zm-1.066 1.067H8.767V16.8h7.467z"/>
     <defs>
-        <linearGradient id="NFTB__a" x1="10.247" x2="18.473" y1="2.893" y2="13.2" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NFTB__a" x1="11.098" x2="17.679" y1="4.715" y2="12.96" gradientUnits="userSpaceOnUse">
             <stop stop-color="#18D3FD"/>
             <stop offset="1" stop-color="#DE04FF"/>
         </linearGradient>

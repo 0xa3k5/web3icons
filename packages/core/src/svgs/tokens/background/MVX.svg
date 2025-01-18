@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MVX__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#MVX__b)" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16"/>
+        <path fill="url(#MVX__c)" d="M19.219 12A7.219 7.219 0 1 1 4.78 12a7.219 7.219 0 0 1 14.438 0"/>
+        <path fill="url(#MVX__d)" fill-rule="evenodd" d="M12 19.087a7.092 7.092 0 1 0 .365-14.18A7.092 7.092 0 0 0 12 19.088m0 .132a7.219 7.219 0 1 0 0-14.44 7.219 7.219 0 0 0 0 14.438" clip-rule="evenodd"/>
+        <path fill="url(#MVX__e)" d="m9.68 19.606 7.482-7.468-2.54-2.513-2.636.103L9.332 7.31l-5.27 5.449c-.17.085.677 2.381 2.531 4.781 1.85 2.4 1.944 2.325 3.087 2.066"/>
+        <path fill="url(#MVX__f)" d="m12 17.232 5.176-5.082V9.675L12 14.762z"/>
+        <path fill="url(#MVX__g)" d="M12 17.232 6.824 12.15V9.675L12 14.762z"/>
+        <path fill="url(#MVX__h)" d="m12.01 9.708-2.627 2.574v2.39l2.626-2.493z"/>
+        <path fill="url(#MVX__i)" d="m12 9.708 2.616 2.574v2.39l-2.617-2.493z"/>
+        <path fill="url(#MVX__j)" d="m17.177 12.141-2.56-2.513V7.163l2.56 2.508z"/>
+        <path fill="url(#MVX__k)" d="m6.824 12.141 2.564-2.513V7.163L6.824 9.67z"/>
+        <path fill="#D28A1C" d="m11.991 12.203 2.626-2.575V7.163l-2.626 2.569z"/>
+        <path fill="#FFAA27" d="M12 12.203 9.388 9.628V7.163L12 9.732z"/>
+    </g>
+    <defs>
+        <linearGradient id="MVX__b" x1="21.953" x2="12" y1="1.172" y2="21.722" gradientUnits="userSpaceOnUse">
+            <stop offset=".14" stop-color="#FDEBEE"/>
+            <stop offset=".5" stop-color="#4D259B"/>
+            <stop offset=".71" stop-color="#291D99"/>
+            <stop offset="1" stop-color="#120C40"/>
+        </linearGradient>
+        <linearGradient id="MVX__c" x1="18.341" x2="4.959" y1="5.048" y2="18.164" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CABFFF"/>
+            <stop offset=".5" stop-color="#4D259B"/>
+            <stop offset=".71" stop-color="#291D99"/>
+            <stop offset="1" stop-color="#120C40"/>
+        </linearGradient>
+        <linearGradient id="MVX__d" x1="16.816" x2="4.624" y1="4" y2="18.948" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#7D51A3"/>
+            <stop offset="1" stop-color="#3A28EE"/>
+        </linearGradient>
+        <linearGradient id="MVX__e" x1="14.222" x2="8.053" y1="8.778" y2="16.637" gradientUnits="userSpaceOnUse">
+            <stop stop-opacity=".71"/>
+            <stop offset=".98" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="MVX__f" x1="42.938" x2="15.196" y1="-3.831" y2="35.658" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#FFAA27"/>
+            <stop offset=".85" stop-color="#5547BF"/>
+            <stop offset="1" stop-color="#180D65"/>
+        </linearGradient>
+        <linearGradient id="MVX__g" x1="-11.52" x2="6.284" y1="-6.342" y2="24.738" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#FFAA27"/>
+            <stop offset="1" stop-color="#8679E8"/>
+        </linearGradient>
+        <linearGradient id="MVX__h" x1="3.627" x2="9.017" y1="17.467" y2="8.124" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#fff"/>
+            <stop offset="1" stop-color="#FFC772" stop-opacity=".63"/>
+        </linearGradient>
+        <linearGradient id="MVX__i" x1="22.618" x2="16.613" y1="16.314" y2="6.002" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#fff"/>
+            <stop offset="1" stop-color="#FFC772" stop-opacity=".63"/>
+        </linearGradient>
+        <linearGradient id="MVX__j" x1="-46.5" x2="-43.865" y1="8.099" y2="24.621" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#fff"/>
+            <stop offset="1" stop-color="#FFC772" stop-opacity=".47"/>
+        </linearGradient>
+        <linearGradient id="MVX__k" x1="20.352" x2="11.922" y1="6.722" y2="21.156" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#fff"/>
+            <stop offset="1" stop-color="#FFC772" stop-opacity=".63"/>
+        </linearGradient>
+        <clipPath id="MVX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#XRT__a)">
+        <path fill="#03A2E5" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12.25 5.932a.498.498 0 1 0-.566-.818.5.5 0 0 0 .06.829L4.725 18.046a.497.497 0 0 0-.724.395.5.5 0 1 0 .996.05h13.98a.5.5 0 0 0 .5.498.499.499 0 1 0-.015-.996zm6.969 12.133-7.23-12.057-7.075 12.207.016.025h14.117a.5.5 0 0 1 .172-.175" clip-rule="evenodd"/>
+        <path fill="#fff" d="m8.493 15.994 3.493-1.803 3.498 1.803z"/>
+        <path fill="#fff" d="m11.988 10.002-3.495 5.992 3.495-1.768zm0 0 3.496 5.992-3.496-1.768z"/>
+    </g>
+    <defs>
+        <clipPath id="XRT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

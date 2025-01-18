@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TIFI__a)">
+        <path fill="#00A3FF" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4 14.4v-.16L9.7 8.4h2.64l2.06 2.128-1.356 1.42-2.02-2.116-4.4 4.568zm16-4.8v.16l-5.7 5.84h-2.64L9.6 13.472l1.356-1.42 2.02 2.116 4.4-4.568z"/>
+    </g>
+    <defs>
+        <clipPath id="TIFI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

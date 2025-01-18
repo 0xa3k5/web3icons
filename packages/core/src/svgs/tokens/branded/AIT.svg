@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#AIT__a)" d="M10.11 5.983a1.76 1.76 0 0 0-1.055-.65h4.061c.65 0 1.078.611 1.211.911l4.34 7.923v3.472c-.095.684-.523 1.034-1.006 1.034-.39 0-.972-.64-1.111-.956L10.944 7.011l-.828-1.028z"/>
-    <path fill="url(#AIT__b)" d="M12.239 15.89H6.127c-.183.088-.578.277-.628.316-.044.039-.372 1.655-.528 2.46h8.323c.206 0 .333-.227.233-.41z"/>
-    <path fill="url(#AIT__c)" d="M6.205 15.978c-1.056 2.033.933 2.678.983 2.689H3.46c-1.683 0-1.572-1.356-1.305-2.033 1.76-3.328 5.31-10.056 5.433-10.34.15-.355.578-.961 1.3-.961.578 0 .978.317 1.1.472L10.933 7c-1.223 2.317-3.89 7.35-4.728 8.978"/>
-    <path fill="url(#AIT__d)" d="M22 17.845a.813.813 0 0 1-.806.822H17.59c.739 0 1.01-.667 1.077-1v-11.7c0-.35.323-.64.667-.64h2.04c.35 0 .627.29.627.64z"/>
+    <path fill="url(#AIT__a)" d="M10.488 7.186a1.4 1.4 0 0 0-.844-.52h3.249c.52 0 .862.489.969.729l3.47 6.338v2.778c-.075.546-.417.826-.804.826-.31 0-.777-.51-.889-.764l-4.484-8.565-.662-.822z"/>
+    <path fill="url(#AIT__b)" d="M12.19 15.111H7.302c-.146.071-.462.222-.502.253-.035.031-.298 1.325-.422 1.97h6.658c.165 0 .267-.183.187-.33z"/>
+    <path fill="url(#AIT__c)" d="M7.364 15.182c-.845 1.626.746 2.142.786 2.15H5.168c-1.347 0-1.258-1.084-1.044-1.626 1.409-2.662 4.249-8.045 4.347-8.271.12-.285.462-.77 1.04-.77.462 0 .782.254.88.379l.755.955c-.978 1.854-3.111 5.88-3.782 7.183"/>
+    <path fill="url(#AIT__d)" d="M20 16.677a.65.65 0 0 1-.645.657h-2.884c.59 0 .809-.533.862-.8v-9.36c0-.28.258-.511.533-.511h1.632c.28 0 .502.23.502.51z"/>
     <defs>
-        <linearGradient id="AIT__a" x1="4.428" x2="14.158" y1="6.056" y2="21.882" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AIT__a" x1="5.942" x2="13.726" y1="7.244" y2="19.905" gradientUnits="userSpaceOnUse">
             <stop stop-color="#06A9EE"/>
             <stop offset="1" stop-color="#00529B"/>
         </linearGradient>
-        <linearGradient id="AIT__b" x1="3.307" x2="21.596" y1="11.466" y2="11.466" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AIT__b" x1="5.045" x2="19.677" y1="11.573" y2="11.573" gradientUnits="userSpaceOnUse">
             <stop stop-color="#134491"/>
             <stop offset="1" stop-color="#00ADF0"/>
         </linearGradient>
-        <linearGradient id="AIT__c" x1="11.999" x2="11.999" y1="5.327" y2="18.672" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AIT__c" x1="11.999" x2="11.999" y1="6.661" y2="17.337" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0458A0"/>
             <stop offset="1" stop-color="#00ACE8"/>
         </linearGradient>
-        <linearGradient id="AIT__d" x1="19.783" x2="19.783" y1="5.333" y2="18.667" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AIT__d" x1="18.226" x2="18.226" y1="6.667" y2="17.334" gradientUnits="userSpaceOnUse">
             <stop stop-color="#05599F"/>
             <stop offset="1" stop-color="#00ADF0"/>
         </linearGradient>

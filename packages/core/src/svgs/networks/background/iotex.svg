@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#iotex__a)">
+        <path fill="url(#iotex__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M13.65 4.439v3.639l3.153-1.822z"/>
+        <path fill="#fff" d="M16.84 6.256v3.639l3.155-1.817z" opacity=".9"/>
+        <path fill="#fff" d="M13.682 8.078v3.639l3.159-1.822z" opacity=".8"/>
+        <path fill="#fff" d="M16.84 9.895v3.639l3.155-1.817zm-3.158 1.822v3.639l3.159-1.822z" opacity=".8"/>
+        <path fill="#fff" d="M16.84 13.534v3.638l3.155-1.816z"/>
+        <path fill="#fff" d="M5.516 7.955v3.64L8.67 9.771z" opacity=".4"/>
+        <path fill="#fff" d="M9.497 9.308v3.639l3.159-1.822z" opacity=".2"/>
+        <path fill="#fff" d="M7.16 11.61v3.639l3.153-1.822z" opacity=".3"/>
+        <path fill="#fff" d="M9.236 14.355v3.64l3.16-1.823z" opacity=".9"/>
+        <path fill="#fff" d="M13.65 15.922v3.64l3.16-1.823z" opacity=".7"/>
+        <path fill="#fff" d="M10.022 7.511v3.64l3.16-1.818z" opacity=".9"/>
+        <path fill="#fff" d="M13.682 4.439v3.639l-3.16-1.822z" opacity=".8"/>
+        <path fill="#fff" d="M10.023 5.98v3.64L6.869 7.801zm3.159 1.807v3.639l-3.154-1.822z" opacity=".6"/>
+        <path fill="#fff" d="M9.486 9.308v3.639l-3.159-1.822z" opacity=".95"/>
+        <path fill="#fff" d="M13.682 11.717v3.639l-3.16-1.822z" opacity=".6"/>
+        <path fill="#fff" d="M7.16 12.564v3.634L4 14.38z" opacity=".55"/>
+        <path fill="#fff" d="M19.995 8.078v3.639l-3.154-1.822z"/>
+        <path fill="#fff" d="M16.84 9.895v3.639l-3.158-1.817z" opacity=".95"/>
+        <path fill="#fff" d="M20 11.717v3.639l-3.16-1.822z" opacity=".9"/>
+        <path fill="#fff" d="M16.836 13.534v3.638l-3.154-1.816z" opacity=".7"/>
+        <path fill="#fff" d="M12.983 15.055v3.639l-3.16-1.817z" opacity=".4"/>
+        <path fill="#fff" d="M16.84 6.256v3.639l-3.158-1.817z"/>
+    </g>
+    <defs>
+        <linearGradient id="iotex__b" x1="6.002" x2="26.225" y1="13.296" y2="16.747" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <clipPath id="iotex__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

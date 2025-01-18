@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#2DAI__a)" d="M20.605 9.442H22v6.977h-1.395z"/>
-    <path fill="url(#2DAI__b)" d="M19.674 13.163 16.186 7.58l-3.488 5.582h1.618l1.87-2.99 1.87 2.99z"/>
-    <path fill="#F15A38" d="m14.13 16.418 1.223-2.4h1.666l1.223 2.4 1.898-3.72h-7.907z"/>
-    <path fill="url(#2DAI__c)" fill-rule="evenodd" d="M8.047 11.67v2.14c.028.092.186.283.628.283.544 0 1.232-.428 1.232-1.377 0-.944-.995-1.414-1.46-1.414h-.042a.365.365 0 0 0-.358.368m.279.255v1.605c.018.075.135.219.442.219.386 0 .87-.326.87-1.037 0-.712-.698-1.065-1.033-1.065h-.028c-.14 0-.251.125-.251.278" clip-rule="evenodd"/>
-    <path fill="url(#2DAI__d)" fill-rule="evenodd" d="m2 11.172 1.395-.8h1.786l1.005.967v1.563a3 3 0 0 1-.363.298c-.195.149-.372.284-.437.428h.8v1.86H2.549L2 15.232V14.21c.623-.446 1.916-1.442 2.135-1.842-.107-.037-.86.214-1.219.345l-.511-.345zm.465-.019 1.14-.488h1.441l.675.758v1.223l-.8 1.024v.19h1.228v1.163H2.465v-.795c.484-.284 1.558-1.023 1.981-1.712-.079-.377-.293-.65-.465-.65-.107 0-.595.157-.976.278l-.26.089z" clip-rule="evenodd"/>
-    <path fill="url(#2DAI__e)" fill-rule="evenodd" d="M8.977 9.907h-2.79v5.581h2.79a2.79 2.79 0 0 0 0-5.581m0 .465H6.65v4.651h2.326a2.326 2.326 0 0 0 0-4.65" clip-rule="evenodd"/>
+    <path fill="url(#2DAI__a)" d="M18.884 9.953H20v5.582h-1.116z"/>
+    <path fill="url(#2DAI__b)" d="m18.139 12.93-2.79-4.464-2.791 4.465h1.295l1.495-2.393 1.496 2.393z"/>
+    <path fill="#F15A38" d="m13.705 15.534.978-1.92h1.332l.979 1.92 1.518-2.976h-6.325z"/>
+    <path fill="url(#2DAI__c)" fill-rule="evenodd" d="M8.837 11.736v1.712c.022.074.149.227.502.227.436 0 .986-.343.986-1.102 0-.755-.796-1.13-1.168-1.13h-.034a.29.29 0 0 0-.265.182.3.3 0 0 0-.021.111m.223.205v1.284c.015.059.108.174.354.174.309 0 .696-.26.696-.83 0-.569-.559-.851-.827-.851h-.022c-.112 0-.2.1-.2.223" clip-rule="evenodd"/>
+    <path fill="url(#2DAI__d)" fill-rule="evenodd" d="m4 11.337 1.116-.64h1.43l.803.774v1.25a3 3 0 0 1-.29.238c-.157.12-.298.227-.35.342h.64v1.489h-2.91L4 14.585v-.819c.499-.357 1.533-1.153 1.708-1.473-.086-.03-.688.171-.975.275l-.41-.275zm.372-.015.912-.39h1.153l.54.606v.978l-.64.819v.152h.982v.93H4.372v-.636c.387-.227 1.247-.818 1.585-1.369-.063-.301-.234-.52-.372-.52-.085 0-.476.126-.781.222l-.209.071z" clip-rule="evenodd"/>
+    <path fill="url(#2DAI__e)" fill-rule="evenodd" d="M9.582 10.325H7.349v4.465h2.233a2.232 2.232 0 0 0 0-4.465m0 .372h-1.86v3.721h1.86a1.861 1.861 0 0 0 0-3.72" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="2DAI__a" x1="22" x2="2" y1="10.203" y2="10.203" gradientUnits="userSpaceOnUse">
+        <linearGradient id="2DAI__a" x1="20" x2="4" y1="10.562" y2="10.562" gradientUnits="userSpaceOnUse">
             <stop offset=".32" stop-color="#F65C38"/>
             <stop offset=".62" stop-color="#ED5438"/>
         </linearGradient>
-        <linearGradient id="2DAI__b" x1="16.053" x2="9.56" y1="11.337" y2="20.148" gradientUnits="userSpaceOnUse">
+        <linearGradient id="2DAI__b" x1="15.242" x2="10.047" y1="11.47" y2="18.519" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F55D39"/>
             <stop offset="1" stop-color="#D43155"/>
         </linearGradient>
-        <linearGradient id="2DAI__c" x1="12" x2="12" y1="7.581" y2="16.419" gradientUnits="userSpaceOnUse">
+        <linearGradient id="2DAI__c" x1="12" x2="12" y1="8.465" y2="15.535" gradientUnits="userSpaceOnUse">
             <stop stop-color="#523C70"/>
             <stop offset="1" stop-color="#726CAC"/>
         </linearGradient>
-        <linearGradient id="2DAI__d" x1="4.533" x2="8.257" y1="8.722" y2="20.693" gradientUnits="userSpaceOnUse">
+        <linearGradient id="2DAI__d" x1="6.027" x2="9.006" y1="9.377" y2="18.954" gradientUnits="userSpaceOnUse">
             <stop stop-color="#787BB1"/>
             <stop offset=".43" stop-color="#40305F"/>
             <stop offset="1" stop-color="#5A437C"/>
         </linearGradient>
-        <linearGradient id="2DAI__e" x1="8.977" x2="8.977" y1="9.907" y2="15.489" gradientUnits="userSpaceOnUse">
+        <linearGradient id="2DAI__e" x1="9.582" x2="9.582" y1="10.325" y2="14.79" gradientUnits="userSpaceOnUse">
             <stop stop-color="#726CAC"/>
             <stop offset="1" stop-color="#523C70"/>
         </linearGradient>

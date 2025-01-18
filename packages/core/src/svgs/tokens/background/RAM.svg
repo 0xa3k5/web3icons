@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#RAM__a)">
+        <path fill="#000" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M15.14 14.824 20.5 9.48 17.64 6.6l-1.152 1.152L17.98 9.24l-2.94 2.932-2.568-2.56-1.276 1.272 3.948 3.94zm-5.28 0L4.5 9.48l2.64-2.664 1.152 1.152L6.78 9.48l2.94 2.932 1.064-1.06 1.28 1.272-2.208 2.2zm2.592-1.744-2.168 2.16 2.168 2.16 2.164-2.16z"/>
+    </g>
+    <defs>
+        <clipPath id="RAM__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

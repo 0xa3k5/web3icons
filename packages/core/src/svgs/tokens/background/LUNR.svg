@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#LUNR__a)">
+        <path fill="#000" d="M24.5 0H.5v24h24z"/>
+        <path fill="url(#LUNR__b)" d="M19.71 16.234a.137.137 0 0 1-.132-.17c.14-.545.216-1.12.216-1.713 0-3.896-3.266-7.058-7.294-7.058s-7.294 3.162-7.294 7.059c0 .592.075 1.167.216 1.712a.137.137 0 0 1-.131.17.13.13 0 0 1-.118-.08 8 8 0 1 1 14.654 0 .13.13 0 0 1-.118.08m-7.21 2.823a4.235 4.235 0 1 0 0-8.47 4.235 4.235 0 0 0 0 8.47"/>
+    </g>
+    <defs>
+        <linearGradient id="LUNR__b" x1="10.944" x2="10.944" y1="7.848" y2="10.469" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#07EDFD"/>
+            <stop offset="1" stop-color="#21FA90"/>
+        </linearGradient>
+        <clipPath id="LUNR__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

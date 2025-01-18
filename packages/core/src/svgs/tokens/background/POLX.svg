@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#POLX__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#86E7F7" fill-rule="evenodd" d="M5.363 11.333 4 17.111l4.158-2.737h8.73A3.11 3.11 0 0 0 20 11.334zM5.677 10H20v-.445a2.667 2.667 0 0 0-2.667-2.666H6.425v.052l-.013-.052z" clip-rule="evenodd"/>
+        <path fill="#457CD6" fill-rule="evenodd" d="M5.372 11.333 4 17.11l4.077-2.666h8.812a3.11 3.11 0 0 0 3.11-3.112z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="POLX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

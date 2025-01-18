@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ALLIN__a)">
+        <path fill="#77EBEF" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M4 19h3.955l.58-2h4.93l.58 2H18L13.225 5h-4.45zm8.5-5L11 8.955 9.5 14z" clip-rule="evenodd"/>
+        <path fill="#fff" d="M16.5 5H20v14h-3.5z"/>
+    </g>
+    <defs>
+        <clipPath id="ALLIN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

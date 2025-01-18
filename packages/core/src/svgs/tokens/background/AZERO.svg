@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#AZERO__a)">
+        <path fill="#1D242C" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="m10.571 4.377-2.691 6.29h-3.7a.18.18 0 0 0-.18.182v1.769c0 .1.08.182.18.182h2.787L4.11 19.476a.183.183 0 0 0 .165.257H6.45a.18.18 0 0 0 .166-.112l5.36-12.979 5.287 12.978a.18.18 0 0 0 .166.113h2.297c.13 0 .216-.135.165-.257L17.055 12.8h2.765c.1 0 .18-.082.18-.182v-1.77a.18.18 0 0 0-.18-.181h-3.67l-2.672-6.29a.18.18 0 0 0-.165-.11h-2.576a.18.18 0 0 0-.165.11" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="AZERO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

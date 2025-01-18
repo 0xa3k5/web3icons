@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#KDA__a)" d="M21.286 22h-6.19l-6.35-9.047 2.54-5.239z"/>
-    <path fill="#6A0097" d="M2.714 2h5v20h-5z"/>
-    <path fill="url(#KDA__b)" d="M20.174 2h-5.713L7.714 8.875v6.248z"/>
+    <path fill="url(#KDA__a)" d="M19.429 20h-4.953l-5.08-7.238 2.032-4.19z"/>
+    <path fill="#6A0097" d="M4.571 4h4v16h-4z"/>
+    <path fill="url(#KDA__b)" d="M18.54 4h-4.572L8.571 9.5v4.998z"/>
     <defs>
-        <linearGradient id="KDA__a" x1="16.922" x2="6.6" y1="22" y2="7.443" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KDA__a" x1="15.937" x2="7.68" y1="20" y2="8.354" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6A0097"/>
             <stop offset="1" stop-color="#E40790"/>
         </linearGradient>
-        <linearGradient id="KDA__b" x1="18.34" x2="7.09" y1="2" y2="12.313" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KDA__b" x1="17.072" x2="8.071" y1="4" y2="12.25" gradientUnits="userSpaceOnUse">
             <stop stop-color="#730196"/>
             <stop offset="1" stop-color="#ED098F"/>
         </linearGradient>

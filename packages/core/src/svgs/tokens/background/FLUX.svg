@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#FLUX__a)">
+        <path fill="#2C61D3" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="m19.059 8-7.06-4-7.058 4v3.692l2.353-1.332 2.353 1.332v-1.026l5.412-3.11 4 2.299zm0 8-4.155 2.354-3.845-2.243v-4.666l4-2.333 4 2.333zm-5.519 3.127L12 20l-3.333-1.889 1.564-.886zm-6.168-1.75 2.275-1.327v-2.744l-2.353-1.372-2.353 1.372V16z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="FLUX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

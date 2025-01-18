@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ARSW__a)">
+        <path fill="url(#ARSW__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4.774 18.132 5.548 20C6.994 15.303 10.194 9.332 12 6.4c1.806 2.932 5.42 9.332 6.451 13.6l.775-1.869C18.813 16 14.839 6.932 12 4 9.42 6.932 5.806 15.112 4.774 18.131M12 12c-1.239 1.92-2.926 6.131-3.613 8l-.774-2.132C8.129 16 10.71 10.932 12 9.068c1.548 1.864 4.129 7.2 4.387 8.8l-.774 1.864c-.516-1.6-2.323-5.6-3.613-7.732m-.774 7.468L12 18.4l.774 1.068.774-1.068c0-.8-1.032-2.668-1.548-3.2-.516.532-1.548 2.56-1.548 3.2z"/>
+    </g>
+    <defs>
+        <linearGradient id="ARSW__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00EBE4"/>
+            <stop offset="1" stop-color="#009EF8"/>
+        </linearGradient>
+        <clipPath id="ARSW__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>
