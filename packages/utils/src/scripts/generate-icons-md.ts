@@ -36,38 +36,42 @@ const generateTable = <T>(
 
 const walletsTable = generateTable<IWalletMetadata>(
   wallets,
-  '### Wallets\n\n| id | name | branded | mono |\n|----|------|---------|------|\n',
+  '### Wallets\n\n| id | name | branded | mono | background |\n|----|------|---------|------|\n',
   (wallet) => {
     const brandedCheck = wallet.variants.includes('branded') ? '✅' : '❌'
     const monoCheck = wallet.variants.includes('mono') ? '✅' : '❌'
-    return `| ${wallet.id} | ${wallet.name} | ${brandedCheck} | ${monoCheck} |`
+    const backgroundCheck = wallet.variants.includes('background') ? '✅' : '❌'
+    return `| ${wallet.id} | ${wallet.name} | ${brandedCheck} | ${monoCheck} | ${backgroundCheck} |`
   },
 )
 const networksTable = generateTable<INetworkMetadata>(
   networks,
-  '### Networks\n\n| id | name | branded | mono |\n|----|------|---------|------|\n',
+  '### Networks\n\n| id | name | branded | mono | background |\n|----|------|---------|------|\n',
   (network) => {
     const brandedCheck = network.variants.includes('branded') ? '✅' : '❌'
     const monoCheck = network.variants.includes('mono') ? '✅' : '❌'
-    return `| ${network.id} | ${network.name} | ${brandedCheck} | ${monoCheck} |`
+    const backgroundCheck = network.variants.includes('background') ? '✅' : '❌'
+    return `| ${network.id} | ${network.name} | ${brandedCheck} | ${monoCheck} | ${backgroundCheck} |`
   },
 )
 const exchangesTable = generateTable<IExchangeMetadata>(
   exchanges,
-  '### Exchanges\n\n| id | name | type | branded | mono |\n|------|--------|---------|------|------|\n',
+  '### Exchanges\n\n| id | name | type | branded | mono | background |\n|------|--------|---------|------|------|\n',
   (exchange) => {
     const brandedCheck = exchange.variants.includes('branded') ? '✅' : '❌'
     const monoCheck = exchange.variants.includes('mono') ? '✅' : '❌'
-    return `| ${exchange.id} | ${exchange.name} | ${exchange.type} | ${brandedCheck} | ${monoCheck} |`
+    const backgroundCheck = exchange.variants.includes('background') ? '✅' : '❌'
+    return `| ${exchange.id} | ${exchange.name} | ${exchange.type} | ${brandedCheck} | ${monoCheck} | ${backgroundCheck} |`
   },
 )
 const tokensTable = generateTable<ITokenMetadata>(
   tokens,
-  '### Tokens\n\n| name | symbol | branded | mono |\n|------|--------|---------|------|\n',
+  '### Tokens\n\n| name | symbol | branded | mono | background |\n|------|--------|---------|------|\n',
   (token) => {
     const brandedCheck = token.variants.includes('branded') ? '✅' : '❌'
     const monoCheck = token.variants.includes('mono') ? '✅' : '❌'
-    return `| ${token.name} | ${token.symbol} | ${brandedCheck} | ${monoCheck} |`
+    const backgroundCheck = token.variants.includes('background') ? '✅' : '❌'
+    return `| ${token.name} | ${token.symbol} | ${brandedCheck} | ${monoCheck} | ${backgroundCheck} |`
   },
 )
 
