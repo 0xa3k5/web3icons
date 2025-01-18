@@ -7,20 +7,22 @@ import {
   SVG_EXCHANGES_SRC_DIR,
   NETWORKS_METADATA_PATH,
   EXCHANGES_METADATA_PATH,
+  WALLETS_METADATA_PATH,
+  TOKENS_METADATA_PATH,
 } from '../constants'
 import { ITokenMetadata, TMetadata, TType, TVariant } from '@web3icons/common'
 
 const METADATA_PATHS = {
-  //   tokens: TOKENS_METADATA_PATH,
+  // tokens: TOKENS_METADATA_PATH,
   networks: NETWORKS_METADATA_PATH,
-  //   wallets: WALLETS_METADATA_PATH,
+  wallets: WALLETS_METADATA_PATH,
   exchanges: EXCHANGES_METADATA_PATH,
 }
 
 const SVG_DIRS = {
   //   tokens: SVG_TOKENS_SRC_DIR,
   networks: SVG_NETWORKS_SRC_DIR,
-  //   wallets: SVG_WALLETS_SRC_DIR,
+  wallets: SVG_WALLETS_SRC_DIR,
   exchanges: SVG_EXCHANGES_SRC_DIR,
 }
 

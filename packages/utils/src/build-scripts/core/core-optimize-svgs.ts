@@ -77,11 +77,11 @@ export function optimizeSVGs() {
     processSVGs(SVG_NETWORKS_SRC_DIR, SVG_NETWORKS_OUT_DIR, variant as TVariant, svgList)
   })
 
-  // // wallets
-  // const walletSVGs = readSVGsFromDir(SVG_WALLETS_SRC_DIR)
-  // Object.entries(walletSVGs).forEach(([variant, svgList]) => {
-  //   processSVGs(SVG_WALLETS_SRC_DIR, SVG_WALLETS_OUT_DIR, variant as TVariant, svgList)
-  // })
+  // wallets
+  const walletSVGs = readSVGsFromDir(SVG_WALLETS_SRC_DIR)
+  Object.entries(walletSVGs).forEach(([variant, svgList]) => {
+    processSVGs(SVG_WALLETS_SRC_DIR, SVG_WALLETS_OUT_DIR, variant as TVariant, svgList)
+  })
 
   // exchanges
   const exchangeSvgs = readSVGsFromDir(SVG_EXCHANGES_SRC_DIR)

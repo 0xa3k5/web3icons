@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#trezor__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M15.966 7.713C15.966 5.683 14.177 4 12 4S8.032 5.685 8.032 7.713V8.9H6.4v8.537L12 20l5.6-2.565V8.936h-1.632zm-5.911 0c0-.957.855-1.722 1.944-1.722 1.09 0 1.945.765 1.945 1.722V8.9h-3.89zm5.289 8.345-3.345 1.532-3.344-1.532v-5.13h6.689z"/>
+    </g>
+    <defs>
+        <clipPath id="trezor__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>
