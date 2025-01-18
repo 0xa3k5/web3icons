@@ -9,18 +9,11 @@ import React, {
 
 import { filterAndSortIcons } from '../utils'
 import { useSearchParams } from 'next/navigation'
-import {
-  TType,
-  ITokenMetadata,
-  INetworkMetadata,
-  IWalletMetadata,
-  TVariant,
-  TMetadata,
-} from '@web3icons/common'
+import { TType, TVariant, TMetadata } from '@web3icons/common'
 
 export interface AppContextType {
   type: TType
-  icons: ITokenMetadata[] | INetworkMetadata[] | IWalletMetadata[]
+  icons: TMetadata[]
   searchTerm: string
   setSearchTerm: React.Dispatch<React.SetStateAction<string>>
   variant: TVariant
@@ -29,9 +22,9 @@ export interface AppContextType {
   color: string
   setColor: React.Dispatch<React.SetStateAction<string>>
   selectedIcons: TMetadata[]
-  //prettier-ignore
-  setSelectedIcons: React.Dispatch<React.SetStateAction<(TMetadata)[]>>
+  setSelectedIcons: React.Dispatch<React.SetStateAction<TMetadata[]>>
   loadMoreIcons: () => void
+  hasMoreIcons: boolean
 }
 
 interface AppContextProviderProps {
@@ -50,22 +43,22 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
   const [color, setColor] = useState('#FFFFFF')
   const [searchTerm, setSearchTerm] = useState('')
   const [nextBatchIndex, setNextBatchIndex] = useState(0)
-  // prettier-ignore
-  const [shownIcons, setShownIcons] = useState<(TMetadata)[]>([])
-  // prettier-ignore
-  const [selectedIcons, setSelectedIcons] = useState<(TMetadata)[]>([])
+  const [shownIcons, setShownIcons] = useState<TMetadata[]>([])
+  const [selectedIcons, setSelectedIcons] = useState<TMetadata[]>([])
+  const [hasMoreIcons, setHasMoreIcons] = useState(true)
 
   const loadMoreIcons = () => {
-    setShownIcons(
+    const newIcons =
       filterAndSortIcons({
         variant,
         searchTerm,
         type,
         nextBatchIndex,
         perPage: PER_PAGE,
-      }) ?? [],
-    )
+      }) ?? []
+    setShownIcons(newIcons)
     setNextBatchIndex((prevIndex) => prevIndex + PER_PAGE)
+    setHasMoreIcons(newIcons.length === PER_PAGE)
   }
 
   useEffect(() => {
@@ -73,12 +66,14 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
   }, [])
 
   useEffect(() => {
+    setNextBatchIndex(0)
+    setHasMoreIcons(true)
     setShownIcons(
       filterAndSortIcons({
         variant,
         searchTerm,
         type,
-        nextBatchIndex,
+        nextBatchIndex: 0,
         perPage: PER_PAGE,
       }) ?? [],
     )
@@ -113,6 +108,7 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
         loadMoreIcons,
         color,
         setColor,
+        hasMoreIcons,
       }}
     >
       {children}

@@ -25,7 +25,7 @@ const links = [
 ]
 
 export default function Home() {
-  const { icons, selectedIcons, loadMoreIcons } = useAppContext()
+  const { icons, selectedIcons, loadMoreIcons, hasMoreIcons } = useAppContext()
 
   return (
     <main className="container mx-auto flex h-screen flex-col gap-4 p-4 font-mono sm:px-8 sm:py-16 md:gap-16">
@@ -76,13 +76,15 @@ export default function Home() {
               )
             })}
             <div className="col-span-full my-8 flex justify-center">
-              <button
-                type="button"
-                className="w-1/3 py-2 text-white duration-150 hover:bg-gray-dark"
-                onClick={loadMoreIcons}
-              >
-                load more
-              </button>
+              {hasMoreIcons && (
+                <button
+                  type="button"
+                  className="w-1/3 py-2 text-white duration-150 hover:bg-gray-dark"
+                  onClick={loadMoreIcons}
+                >
+                  load more
+                </button>
+              )}
             </div>
           </div>
         </div>
