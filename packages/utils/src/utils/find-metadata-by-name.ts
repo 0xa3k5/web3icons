@@ -3,7 +3,7 @@ import { toKebabCase } from './naming-conventions'
 
 /**
  * Unified function to find metadata by file name
- * @param type Type of the metadata to find (tokens, networks, or wallets)
+ * @param type Type of the metadata to find (tokens, networks, wallets, exchanges)
  * @param fileName
  * @param data
  * @returns
