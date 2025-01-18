@@ -24,16 +24,21 @@ export function optimizeSVGs() {
   ensureDirectoryExists(SVG_EXCHANGES_OUT_DIR)
   ensureDirectoryExists(path.join(SVG_TOKENS_OUT_DIR, 'mono'))
   ensureDirectoryExists(path.join(SVG_TOKENS_OUT_DIR, 'branded'))
+  ensureDirectoryExists(path.join(SVG_TOKENS_OUT_DIR, 'background'))
   ensureDirectoryExists(path.join(SVG_NETWORKS_OUT_DIR, 'mono'))
   ensureDirectoryExists(path.join(SVG_NETWORKS_OUT_DIR, 'branded'))
+  ensureDirectoryExists(path.join(SVG_NETWORKS_OUT_DIR, 'background'))
   ensureDirectoryExists(path.join(SVG_WALLETS_OUT_DIR, 'mono'))
   ensureDirectoryExists(path.join(SVG_WALLETS_OUT_DIR, 'branded'))
+  ensureDirectoryExists(path.join(SVG_WALLETS_OUT_DIR, 'background'))
   ensureDirectoryExists(path.join(SVG_EXCHANGES_OUT_DIR, 'mono'))
   ensureDirectoryExists(path.join(SVG_EXCHANGES_OUT_DIR, 'branded'))
+  ensureDirectoryExists(path.join(SVG_EXCHANGES_OUT_DIR, 'background'))
 
   const readSVGsFromDir = (dir: string): Record<TVariant, string[]> => ({
     branded: fs.readdirSync(path.join(dir, 'branded')),
     mono: fs.readdirSync(path.join(dir, 'mono')),
+    background: fs.readdirSync(path.join(dir, 'background')),
   })
 
   const processSVGs = (
