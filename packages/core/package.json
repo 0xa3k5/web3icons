@@ -48,6 +48,9 @@
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error"
   },
+  "dependencies": {
+    "@web3icons/common": "0.10.0"
+  },
   "devDependencies": {
     "bun-types": "latest",
     "cheerio": "^1.0.0-rc.12",
