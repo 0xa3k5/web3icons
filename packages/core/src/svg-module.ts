@@ -3887,6 +3887,7 @@ import * as WBrandedSender from './svgs/wallets/branded/sender.svg'
 import * as WBrandedVenly from './svgs/wallets/branded/venly.svg'
 import * as WBrandedUnipass from './svgs/wallets/branded/unipass.svg'
 import * as WBrandedCoin98 from './svgs/wallets/branded/coin98.svg'
+import * as WBrandedTrustWallet from './svgs/wallets/branded/trust-wallet.svg'
 import * as WBrandedClave from './svgs/wallets/branded/clave.svg'
 import * as WBrandedTrust from './svgs/wallets/branded/trust.svg'
 import * as WBrandedWalletConnect from './svgs/wallets/branded/wallet-connect.svg'
@@ -3922,6 +3923,7 @@ import * as WMonoSender from './svgs/wallets/mono/sender.svg'
 import * as WMonoVenly from './svgs/wallets/mono/venly.svg'
 import * as WMonoUnipass from './svgs/wallets/mono/unipass.svg'
 import * as WMonoCoin98 from './svgs/wallets/mono/coin98.svg'
+import * as WMonoTrustWallet from './svgs/wallets/mono/trust-wallet.svg'
 import * as WMonoClave from './svgs/wallets/mono/clave.svg'
 import * as WMonoTrust from './svgs/wallets/mono/trust.svg'
 import * as WMonoMultis from './svgs/wallets/mono/multis.svg'
@@ -3929,6 +3931,44 @@ import * as WMonoWalletConnect from './svgs/wallets/mono/wallet-connect.svg'
 import * as WMonoLit from './svgs/wallets/mono/lit.svg'
 import * as WMonoPhantom from './svgs/wallets/mono/phantom.svg'
 import * as WMonoPortal from './svgs/wallets/mono/portal.svg'
+import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
+import * as WBackgroundMyEtherWallet from './svgs/wallets/background/my-ether-wallet.svg'
+import * as WBackgroundSafe from './svgs/wallets/background/safe.svg'
+import * as WBackgroundBackpack from './svgs/wallets/background/backpack.svg'
+import * as WBackgroundSequence from './svgs/wallets/background/sequence.svg'
+import * as WBackgroundZengo from './svgs/wallets/background/zengo.svg'
+import * as WBackgroundWallet3 from './svgs/wallets/background/wallet-3.svg'
+import * as WBackgroundObvious from './svgs/wallets/background/obvious.svg'
+import * as WBackgroundRabby from './svgs/wallets/background/rabby.svg'
+import * as WBackgroundXdefi from './svgs/wallets/background/xdefi.svg'
+import * as WBackgroundTrezor from './svgs/wallets/background/trezor.svg'
+import * as WBackgroundMetamask from './svgs/wallets/background/metamask.svg'
+import * as WBackgroundKraken from './svgs/wallets/background/kraken.svg'
+import * as WBackgroundAlphaWallet from './svgs/wallets/background/alpha-wallet.svg'
+import * as WBackgroundZerion from './svgs/wallets/background/zerion.svg'
+import * as WBackgroundSoul from './svgs/wallets/background/soul.svg'
+import * as WBackgroundSquads from './svgs/wallets/background/squads.svg'
+import * as WBackgroundArgent from './svgs/wallets/background/argent.svg'
+import * as WBackgroundLedger from './svgs/wallets/background/ledger.svg'
+import * as WBackgroundRainbow from './svgs/wallets/background/rainbow.svg'
+import * as WBackgroundRonin from './svgs/wallets/background/ronin.svg'
+import * as WBackgroundTokenPocket from './svgs/wallets/background/token-pocket.svg'
+import * as WBackgroundPillar from './svgs/wallets/background/pillar.svg'
+import * as WBackgroundEnkrypt from './svgs/wallets/background/enkrypt.svg'
+import * as WBackgroundOkx from './svgs/wallets/background/okx.svg'
+import * as WBackgroundCoinbase from './svgs/wallets/background/coinbase.svg'
+import * as WBackgroundImtoken from './svgs/wallets/background/imtoken.svg'
+import * as WBackgroundSender from './svgs/wallets/background/sender.svg'
+import * as WBackgroundVenly from './svgs/wallets/background/venly.svg'
+import * as WBackgroundUnipass from './svgs/wallets/background/unipass.svg'
+import * as WBackgroundCoin98 from './svgs/wallets/background/coin98.svg'
+import * as WBackgroundTrustWallet from './svgs/wallets/background/trust-wallet.svg'
+import * as WBackgroundClave from './svgs/wallets/background/clave.svg'
+import * as WBackgroundMultis from './svgs/wallets/background/multis.svg'
+import * as WBackgroundWalletConnect from './svgs/wallets/background/wallet-connect.svg'
+import * as WBackgroundLit from './svgs/wallets/background/lit.svg'
+import * as WBackgroundPhantom from './svgs/wallets/background/phantom.svg'
+import * as WBackgroundPortal from './svgs/wallets/background/portal.svg'
 import * as EBrandedGemini from './svgs/exchanges/branded/gemini.svg'
 import * as EBrandedCryptoCom from './svgs/exchanges/branded/crypto-com.svg'
 import * as EBranded1inch from './svgs/exchanges/branded/1inch.svg'
@@ -7907,6 +7947,7 @@ export const svgs = {
       venly: WBrandedVenly,
       unipass: WBrandedUnipass,
       coin98: WBrandedCoin98,
+      'trust-wallet': WBrandedTrustWallet,
       clave: WBrandedClave,
       trust: WBrandedTrust,
       'wallet-connect': WBrandedWalletConnect,
@@ -7944,6 +7985,7 @@ export const svgs = {
       venly: WMonoVenly,
       unipass: WMonoUnipass,
       coin98: WMonoCoin98,
+      'trust-wallet': WMonoTrustWallet,
       clave: WMonoClave,
       trust: WMonoTrust,
       multis: WMonoMultis,
@@ -7952,7 +7994,46 @@ export const svgs = {
       phantom: WMonoPhantom,
       portal: WMonoPortal,
     },
-    background: {},
+    background: {
+      alfa1: WBackgroundAlfa1,
+      'my-ether-wallet': WBackgroundMyEtherWallet,
+      safe: WBackgroundSafe,
+      backpack: WBackgroundBackpack,
+      sequence: WBackgroundSequence,
+      zengo: WBackgroundZengo,
+      'wallet-3': WBackgroundWallet3,
+      obvious: WBackgroundObvious,
+      rabby: WBackgroundRabby,
+      xdefi: WBackgroundXdefi,
+      trezor: WBackgroundTrezor,
+      metamask: WBackgroundMetamask,
+      kraken: WBackgroundKraken,
+      'alpha-wallet': WBackgroundAlphaWallet,
+      zerion: WBackgroundZerion,
+      soul: WBackgroundSoul,
+      squads: WBackgroundSquads,
+      argent: WBackgroundArgent,
+      ledger: WBackgroundLedger,
+      rainbow: WBackgroundRainbow,
+      ronin: WBackgroundRonin,
+      'token-pocket': WBackgroundTokenPocket,
+      pillar: WBackgroundPillar,
+      enkrypt: WBackgroundEnkrypt,
+      okx: WBackgroundOkx,
+      coinbase: WBackgroundCoinbase,
+      imtoken: WBackgroundImtoken,
+      sender: WBackgroundSender,
+      venly: WBackgroundVenly,
+      unipass: WBackgroundUnipass,
+      coin98: WBackgroundCoin98,
+      'trust-wallet': WBackgroundTrustWallet,
+      clave: WBackgroundClave,
+      multis: WBackgroundMultis,
+      'wallet-connect': WBackgroundWalletConnect,
+      lit: WBackgroundLit,
+      phantom: WBackgroundPhantom,
+      portal: WBackgroundPortal,
+    },
   },
   exchanges: {
     branded: {
