@@ -2,14 +2,22 @@
   {
     "id": "kujira",
     "name": "Kujira",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "kujira",
     "shortName": "kujira"
   },
   {
     "id": "eos",
     "name": "EOS evm",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 17777,
     "nativeCoinId": "eos",
     "shortName": "eos"
@@ -17,7 +25,11 @@
   {
     "id": "aurora",
     "name": "Aurora",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "aurora",
     "chainId": 1313161554,
     "nativeCoinId": "aurora-near"
@@ -25,7 +37,11 @@
   {
     "id": "polygon-pos",
     "name": "Polygon",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "MATIC",
     "chainId": 137,
     "nativeCoinId": "matic-network"
@@ -33,21 +49,33 @@
   {
     "id": "cardano",
     "name": "Cardano",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "cardano",
     "shortName": "ada"
   },
   {
     "id": "tron",
     "name": "TRON",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "tron",
     "shortName": "tron"
   },
   {
     "id": "polygon-zkevm",
     "name": "Polygon zkEVM",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 1101,
     "nativeCoinId": "ethereum",
     "shortName": "polygon"
@@ -55,7 +83,11 @@
   {
     "id": "telos",
     "name": "Telos",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 40,
     "nativeCoinId": "telos",
     "shortName": "telos"
@@ -63,14 +95,20 @@
   {
     "id": "algorand",
     "name": "Algorand",
-    "variants": ["mono"],
+    "variants": [
+      "mono"
+    ],
     "nativeCoinId": "algorand",
     "shortName": "algo"
   },
   {
     "id": "mode",
     "name": "Mode",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "mode",
     "shortName": "mode",
     "chainId": 3444
@@ -78,7 +116,11 @@
   {
     "id": "neon-evm",
     "name": "Neon EVM",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 245022934,
     "nativeCoinId": "neon",
     "shortName": "neon-evm"
@@ -86,7 +128,11 @@
   {
     "id": "cronos",
     "name": "Cronos",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "CRO",
     "chainId": 25,
     "nativeCoinId": "crypto-com-chain"
@@ -94,7 +140,11 @@
   {
     "id": "ethereum",
     "name": "Ethereum",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "Ethereum",
     "chainId": 1,
     "nativeCoinId": "ethereum"
@@ -102,14 +152,22 @@
   {
     "id": "starknet",
     "name": "StarkNet",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "starknet",
     "shortName": "starknet"
   },
   {
     "id": "kava",
     "name": "Kava",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 2222,
     "nativeCoinId": "kava",
     "shortName": "kava"
@@ -117,7 +175,11 @@
   {
     "id": "linea",
     "name": "Linea",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 59144,
     "nativeCoinId": "ethereum",
     "shortName": "linea"
@@ -125,7 +187,11 @@
   {
     "id": "filecoin",
     "name": "Filecoin",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 314,
     "nativeCoinId": "filecoin",
     "shortName": "filecoin"
@@ -133,7 +199,11 @@
   {
     "id": "zilliqa",
     "name": "Zilliqa",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 32769,
     "nativeCoinId": "zilliqa",
     "shortName": "zilliqa"
@@ -141,21 +211,33 @@
   {
     "id": "cosmos",
     "name": "Cosmos",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "cosmos",
     "shortName": "cosmos"
   },
   {
     "id": "stellar",
     "name": "Stellar",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "stellar",
     "shortName": "stellar"
   },
   {
     "id": "ronin",
     "name": "Ronin",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "ron",
     "nativeCoinId": "ronin",
     "chainId": 202
@@ -163,14 +245,22 @@
   {
     "id": "osmosis",
     "name": "Osmosis",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "Osmo",
     "nativeCoinId": "osmosis"
   },
   {
     "id": "xai",
     "name": "XAI",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "xai-blockchain",
     "shortName": "xai",
     "chainId": 66027
@@ -178,7 +268,11 @@
   {
     "id": "manta-pacific",
     "name": "Manta Pacific",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 169,
     "nativeCoinId": "weth",
     "shortName": "manta"
@@ -186,7 +280,11 @@
   {
     "id": "immutable",
     "name": "Immutable zkEVM",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 13371,
     "nativeCoinId": "immutable-x",
     "shortName": "immutable"
@@ -194,21 +292,33 @@
   {
     "id": "injective",
     "name": "Injective",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "injective-protocol",
     "shortName": "injective"
   },
   {
     "id": "solana",
     "name": "Solana",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "Solana",
     "nativeCoinId": "solana"
   },
   {
     "id": "blast",
     "name": "Blast",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 81457,
     "nativeCoinId": "blast",
     "shortName": "blast"
@@ -216,7 +326,11 @@
   {
     "id": "moonbeam",
     "name": "Moonbeam",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 1284,
     "nativeCoinId": "moonbeam",
     "shortName": "moonbeam"
@@ -224,7 +338,11 @@
   {
     "id": "astar",
     "name": "Astar",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 592,
     "nativeCoinId": "astar",
     "shortName": "astar"
@@ -232,7 +350,11 @@
   {
     "id": "zksync",
     "name": "zkSync era",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "zkSync",
     "chainId": 324,
     "nativeCoinId": "ethereum"
@@ -240,21 +362,33 @@
   {
     "id": "juno",
     "name": "Juno",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "juno-network",
     "shortName": "juno"
   },
   {
     "id": "polkadot",
     "name": "Polkadot",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "polkadot",
     "shortName": "dot"
   },
   {
     "id": "beam",
     "name": "Beam",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 4337,
     "nativeCoinId": "beam",
     "shortName": "beam"
@@ -262,7 +396,11 @@
   {
     "id": "boba",
     "name": "Boba Network",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 288,
     "nativeCoinId": "ethereum",
     "shortName": "boba"
@@ -270,7 +408,11 @@
   {
     "id": "celo",
     "name": "Celo",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "celo",
     "chainId": 42220,
     "nativeCoinId": "celo"
@@ -278,7 +420,11 @@
   {
     "id": "base",
     "name": "Base",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 8453,
     "nativeCoinId": "ethereum",
     "shortName": "base"
@@ -286,7 +432,11 @@
   {
     "id": "binance-smart-chain",
     "name": "BNB Smart Chain",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "BSC",
     "chainId": 56,
     "nativeCoinId": "binancecoin"
@@ -294,14 +444,22 @@
   {
     "id": "loopring",
     "name": "Loopring",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "loopring",
     "shortName": "loopring"
   },
   {
     "id": "fantom",
     "name": "Fantom",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 250,
     "nativeCoinId": "fantom",
     "shortName": "fantom"
@@ -309,7 +467,11 @@
   {
     "id": "avalanche",
     "name": "Avalanche",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "AVAX",
     "chainId": 43114,
     "nativeCoinId": "avalanche-2"
@@ -317,7 +479,11 @@
   {
     "id": "scroll",
     "name": "Scroll",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "weth",
     "shortName": "scroll",
     "chainId": 53435
@@ -325,21 +491,33 @@
   {
     "id": "aptos",
     "name": "Aptos",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "aptos",
     "shortName": "aptos"
   },
   {
     "id": "sui",
     "name": "Sui",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "sui",
     "shortName": "sui"
   },
   {
     "id": "chiliz",
     "name": "Chiliz",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 88888,
     "nativeCoinId": "chiliz",
     "shortName": "chiliz"
@@ -347,7 +525,11 @@
   {
     "id": "x-layer",
     "name": "X Layer",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "okb",
     "shortName": "xlayer",
     "chainId": 19
@@ -355,7 +537,11 @@
   {
     "id": "etherlink",
     "name": "etherlink",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "etherlink",
     "chainId": 42793,
     "nativeCoinId": "xtz"
@@ -363,7 +549,11 @@
   {
     "id": "arbitrum-one",
     "name": "Arbitrum One",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "Arbitrum",
     "chainId": 42161,
     "nativeCoinId": "ethereum"
@@ -371,21 +561,33 @@
   {
     "id": "xrp",
     "name": "XRP Ledger",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "xrp",
     "nativeCoinId": "ripple"
   },
   {
     "id": "cosmos-hub",
     "name": "Cosmos Hub",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "cosmos",
     "shortName": "cosmos"
   },
   {
     "id": "metis-andromeda",
     "name": "Metis Andromeda",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 1088,
     "nativeCoinId": "metis-token",
     "shortName": "metis"
@@ -393,7 +595,11 @@
   {
     "id": "moonriver",
     "name": "Moonriver",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "moonriver",
     "chainId": 1285,
     "nativeCoinId": "moonriver"
@@ -401,7 +607,11 @@
   {
     "id": "sei-network",
     "name": "Sei Network",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "sei-network",
     "shortName": "sei",
     "chainId": 132
@@ -409,14 +619,22 @@
   {
     "id": "litecoin",
     "name": "Litecoin",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "litecoin",
     "shortName": "ltc"
   },
   {
     "id": "wemix",
     "name": "Wemix",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "wemix",
     "shortName": "wemix",
     "chainId": 111
@@ -424,7 +642,11 @@
   {
     "id": "gnosis",
     "name": "Gnosis Chain",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 100,
     "nativeCoinId": "xDai",
     "shortName": "xdai"
@@ -432,7 +654,11 @@
   {
     "id": "near-protocol",
     "name": "Near Protocol",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "near-protocol",
     "nativeCoinId": "near",
     "chainId": 39
@@ -440,7 +666,11 @@
   {
     "id": "hedera-hashgraph",
     "name": "Hedera Hashgraph",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "hedera",
     "chainId": 295,
     "nativeCoinId": "hedera-hashgraph"
@@ -448,7 +678,11 @@
   {
     "id": "rari",
     "name": "Rari",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "rari",
     "shortName": "rari",
     "chainId": 138001261
@@ -456,28 +690,44 @@
   {
     "id": "bitcoin",
     "name": "Bitcoin",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "bitcoin",
     "nativeCoinId": "bitcoin"
   },
   {
     "id": "fio",
     "name": "FIO Protocol",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "fio",
     "nativeCoinId": "FIO"
   },
   {
     "id": "stargaze",
     "name": "Stargaze",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "stargaze",
     "shortName": "stargaze"
   },
   {
     "id": "iotex",
     "name": "IoTeX",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "iotex",
     "chainId": 4689,
     "nativeCoinId": "iotex"
@@ -485,14 +735,22 @@
   {
     "id": "clover",
     "name": "Clover",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "clover-finance",
     "shortName": "clover"
   },
   {
     "id": "gravity",
     "name": "gravity-network",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "gravity",
     "chainId": 1625,
     "nativeCoinId": "g"
@@ -500,14 +758,22 @@
   {
     "id": "lava-network",
     "name": "lava-network",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "lava-network",
     "shortName": "lava"
   },
   {
     "id": "neo-x",
     "name": "neo-x",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "neo",
     "shortName": "neox",
     "chainId": 4776
@@ -515,7 +781,11 @@
   {
     "id": "abstract",
     "name": "abstract",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "eth",
     "shortName": "abstract",
     "chainId": 1112
@@ -523,7 +793,11 @@
   {
     "id": "acala",
     "name": "Acala",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "acala",
     "shortName": "acala",
     "chainId": 78
@@ -531,7 +805,11 @@
   {
     "id": "apex-layer",
     "name": "apex layer",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "apex",
     "chainId": 2662,
     "nativeCoinId": "eth"
@@ -539,7 +817,11 @@
   {
     "id": "arbitrum-nova",
     "name": "Arbitrum Nova",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 42170,
     "nativeCoinId": "ethereum",
     "shortName": "arbitrum-nova"
@@ -547,7 +829,11 @@
   {
     "id": "bitkub-chain",
     "name": "Bitkub Chain",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 96,
     "nativeCoinId": "bitkub-coin",
     "shortName": "bitkub"
@@ -555,7 +841,11 @@
   {
     "id": "coinex-smart-chain",
     "name": "CoinEx Smart Chain",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "CSC",
     "chainId": 52,
     "nativeCoinId": "coinex-token"
@@ -563,7 +853,11 @@
   {
     "id": "conflux",
     "name": "Conflux",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "conflux",
     "chainId": 1030,
     "nativeCoinId": "conflux-token"
@@ -571,7 +865,11 @@
   {
     "id": "cronos-zkevm",
     "name": "Cronos zkEVM",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 388,
     "nativeCoinId": "cronos-zkevm-cro",
     "shortName": "cronos"
@@ -579,7 +877,11 @@
   {
     "id": "elastos",
     "name": "Elastos Smart Contract Chain",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "Elastos",
     "chainId": 20,
     "nativeCoinId": "elastos"
@@ -587,7 +889,11 @@
   {
     "id": "energy-web",
     "name": "energy web",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "energy",
     "chainId": 246,
     "nativeCoinId": "ewt"
@@ -595,7 +901,11 @@
   {
     "id": "enuls",
     "name": "enuls",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "enuls",
     "chainId": 119,
     "nativeCoinId": "nuls"
@@ -603,7 +913,11 @@
   {
     "id": "ethereum-classic",
     "name": "Ethereum Classic",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 61,
     "nativeCoinId": "ethereum-classic",
     "shortName": "eth-classic"
@@ -611,7 +925,11 @@
   {
     "id": "flare",
     "name": "flare",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "flare",
     "chainId": 14,
     "nativeCoinId": "flr"
@@ -619,7 +937,11 @@
   {
     "id": "fraxtal",
     "name": "Fraxtal",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 252,
     "nativeCoinId": "fraxtal",
     "shortName": "fraxtal"
@@ -627,7 +949,11 @@
   {
     "id": "fuse",
     "name": "Fuse",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 122,
     "nativeCoinId": "fuse-network-token",
     "shortName": "fuse"
@@ -635,7 +961,11 @@
   {
     "id": "kardia",
     "name": "kardia chain",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "kardia",
     "chainId": 24,
     "nativeCoinId": "kai"
@@ -643,7 +973,11 @@
   {
     "id": "lukso",
     "name": "Lukso",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 42,
     "nativeCoinId": "lukso-token-2",
     "shortName": "lukso"
@@ -651,7 +985,11 @@
   {
     "id": "lyra",
     "name": "lyra chain",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "lyra",
     "chainId": 957,
     "nativeCoinId": "eth"
@@ -659,7 +997,11 @@
   {
     "id": "meter",
     "name": "Meter",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 82,
     "nativeCoinId": "meter",
     "shortName": "meter"
@@ -667,7 +1009,11 @@
   {
     "id": "oasys",
     "name": "Oasys",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 248,
     "nativeCoinId": "oasys",
     "shortName": "oasys"
@@ -675,7 +1021,11 @@
   {
     "id": "rollux",
     "name": "Rollux",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 570,
     "nativeCoinId": "syscoin",
     "shortName": "rollux"
@@ -683,7 +1033,11 @@
   {
     "id": "rootstock",
     "name": "Rootstock RSK",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 30,
     "nativeCoinId": "rootstock",
     "shortName": "rootstock"
@@ -691,7 +1045,11 @@
   {
     "id": "shiden",
     "name": "shiden",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "shiden",
     "chainId": 336,
     "nativeCoinId": "sdn"
@@ -699,7 +1057,11 @@
   {
     "id": "shimmer-evm",
     "name": "shimmer evm",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "shimmer",
     "chainId": 148,
     "nativeCoinId": "smr"
@@ -707,7 +1069,11 @@
   {
     "id": "songbird",
     "name": "Songbird",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 19,
     "nativeCoinId": "songbird",
     "shortName": "19"
@@ -715,7 +1081,11 @@
   {
     "id": "step",
     "name": "step",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "step",
     "chainId": 1234,
     "nativeCoinId": "step"
@@ -723,7 +1093,11 @@
   {
     "id": "sys",
     "name": "syscoin",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "sys",
     "chainId": 57,
     "nativeCoinId": "sys"
@@ -731,7 +1105,11 @@
   {
     "id": "theta",
     "name": "Theta",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 361,
     "nativeCoinId": "theta-token",
     "shortName": "theta"
@@ -739,7 +1117,11 @@
   {
     "id": "thundercore",
     "name": "ThunderCore",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 108,
     "nativeCoinId": "thunder-token",
     "shortName": "thunder"
@@ -747,7 +1129,11 @@
   {
     "id": "ubiq",
     "name": "ubiq",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "ubiq",
     "chainId": 8,
     "nativeCoinId": "ubq"
@@ -755,7 +1141,11 @@
   {
     "id": "ultron",
     "name": "Ultron",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 1231,
     "nativeCoinId": "ultron",
     "shortName": "ultron"
@@ -763,7 +1153,11 @@
   {
     "id": "velas",
     "name": "Velas",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "velas",
     "chainId": 106,
     "nativeCoinId": "velas"
@@ -771,7 +1165,11 @@
   {
     "id": "xdc",
     "name": "xdc network",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "xdc",
     "chainId": 50,
     "nativeCoinId": "xdc"
@@ -779,7 +1177,11 @@
   {
     "id": "zyx",
     "name": "zyx",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "zyx",
     "chainId": 55,
     "nativeCoinId": "zyx"
@@ -787,23 +1189,22 @@
   {
     "id": "dogechain",
     "name": "Dogechain",
-    "variants": ["background", "branded"],
+    "variants": [
+      "background",
+      "branded"
+    ],
     "chainId": 2000,
     "nativeCoinId": "dogechain",
     "shortName": "dogechain"
   },
   {
-    "id": "hubblenet",
-    "name": "hubble exchange",
-    "variants": ["branded", "mono"],
-    "shortName": "hubble",
-    "chainId": 1992,
-    "nativeCoinId": "usdc"
-  },
-  {
     "id": "milkomeda-a1",
     "name": "milkomeda A1",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "milkomeda",
     "chainId": 2002,
     "nativeCoinId": "mALGO"
@@ -811,7 +1212,11 @@
   {
     "id": "milkomeda-c1",
     "name": "milkomeda C1",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "milkomeda",
     "chainId": 2001,
     "nativeCoinId": "mADA"
@@ -819,7 +1224,11 @@
   {
     "id": "reya",
     "name": "reya",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "reya",
     "chainId": 1729,
     "nativeCoinId": "eth"
@@ -827,7 +1236,11 @@
   {
     "id": "tenet",
     "name": "Tenet",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 1559,
     "nativeCoinId": "tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9",
     "shortName": "tenet"
@@ -835,7 +1248,11 @@
   {
     "id": "bouncebit",
     "name": "BounceBit",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 6001,
     "nativeCoinId": "bouncebit",
     "shortName": "bounce"
@@ -843,7 +1260,11 @@
   {
     "id": "mantle",
     "name": "Mantle",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "chainId": 5000,
     "nativeCoinId": "mantle",
     "shortName": "mantle"
@@ -851,7 +1272,11 @@
   {
     "id": "nahmii",
     "name": "Nahmii",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "nahmii",
     "chainId": 4061,
     "nativeCoinId": "nahmii"
@@ -859,7 +1284,10 @@
   {
     "id": "tombchain",
     "name": "Tombchain",
-    "variants": ["background", "branded"],
+    "variants": [
+      "background",
+      "branded"
+    ],
     "shortName": "tomb",
     "chainId": 6969,
     "nativeCoinId": "tomb"
@@ -867,7 +1295,11 @@
   {
     "id": "hubble-exchange",
     "name": "hubble exchange",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "hubble",
     "chainId": 1992,
     "nativeCoinId": "usdc"
@@ -875,22 +1307,22 @@
   {
     "id": "kucoin",
     "name": "kucoin",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "kucoin",
     "nativeCoinId": "kcs"
   },
   {
-    "id": "zeta",
-    "name": "zeta chain",
-    "variants": ["branded", "mono"],
-    "shortName": "zeta",
-    "chainId": 7000,
-    "nativeCoinId": "zeta"
-  },
-  {
     "id": "zeta-chain",
     "name": "Zeta Chain",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "zeta",
     "chainId": 7000,
     "nativeCoinId": "zetachain"
@@ -898,7 +1330,11 @@
   {
     "id": "bob",
     "name": "Bob",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "bob",
     "chainId": 60808,
     "nativeCoinId": "eth"
@@ -906,14 +1342,22 @@
   {
     "id": "kakarot",
     "name": "Kakarot",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "kakarot",
     "nativeCoinId": "eth"
   },
   {
     "id": "karura",
     "name": "Karura",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "karura",
     "chainId": 686,
     "nativeCoinId": "karura"
@@ -921,7 +1365,11 @@
   {
     "id": "soneium",
     "name": "Soneium",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "soneium",
     "chainId": 1946,
     "nativeCoinId": "eth"
@@ -929,7 +1377,11 @@
   {
     "id": "kroma",
     "name": "kroma",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "kroma",
     "chainId": 255,
     "nativeCoinId": "eth"
@@ -937,7 +1389,11 @@
   {
     "id": "l3x",
     "name": "L3X Protocol",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "l3x",
     "chainId": 12324,
     "nativeCoinId": "eth"
@@ -945,7 +1401,11 @@
   {
     "id": "lightlink",
     "name": "LightLink",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "lightlink",
     "chainId": 1890,
     "nativeCoinId": "ethereum"
@@ -953,7 +1413,11 @@
   {
     "id": "lisk",
     "name": "Lisk",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "lisk",
     "chainId": 1135,
     "nativeCoinId": "lisk"
@@ -961,7 +1425,11 @@
   {
     "id": "lycan",
     "name": "Lycan",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "lycan",
     "chainId": 721,
     "nativeCoinId": "lyc"
@@ -969,14 +1437,22 @@
   {
     "id": "arweave",
     "name": "Arweave",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "arweave",
     "nativeCoinId": "ar"
   },
   {
     "id": "fluence",
     "name": "Fluence",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "fluence",
     "chainId": 9999999,
     "nativeCoinId": "flt"
@@ -984,7 +1460,11 @@
   {
     "id": "harmony",
     "name": "Harmony One",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "one",
     "chainId": 1666600000,
     "nativeCoinId": "one"
@@ -992,7 +1472,11 @@
   {
     "id": "optopia",
     "name": "Optopia AI",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "optopia",
     "chainId": 62050,
     "nativeCoinId": "eth"
@@ -1000,7 +1484,11 @@
   {
     "id": "orderly",
     "name": "Orderly",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "orderly",
     "chainId": 291,
     "nativeCoinId": "eth"
@@ -1008,14 +1496,22 @@
   {
     "id": "moonbase",
     "name": "moonbase",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "moonbase",
     "chainId": 1287
   },
   {
     "id": "unichain",
     "name": "Unichain",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "uni",
     "chainId": 130,
     "nativeCoinId": "eth"
@@ -1023,7 +1519,10 @@
   {
     "id": "lumio",
     "name": "Super Lumio",
-    "variants": ["background", "branded"],
+    "variants": [
+      "background",
+      "branded"
+    ],
     "shortName": "lumio",
     "chainId": 8866,
     "nativeCoinId": "eth"
@@ -1031,7 +1530,11 @@
   {
     "id": "taiko",
     "name": "Taiko",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "taiko",
     "chainId": 167000,
     "nativeCoinId": "taiko"
@@ -1039,7 +1542,11 @@
   {
     "id": "diode",
     "name": "Diode",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "diode",
     "chainId": 15,
     "nativeCoinId": "diode"
@@ -1047,7 +1554,11 @@
   {
     "id": "edgeless",
     "name": "Edgeless Network",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "edgeless",
     "chainId": 2026,
     "nativeCoinId": "eweth"
@@ -1055,7 +1566,11 @@
   {
     "id": "lens",
     "name": "Lens",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "lens",
     "chainId": 37111,
     "nativeCoinId": "GRASS"
@@ -1063,7 +1578,11 @@
   {
     "id": "world",
     "name": "World Chain",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "world",
     "chainId": 480,
     "nativeCoinId": "eth"
@@ -1071,7 +1590,11 @@
   {
     "id": "botanix",
     "name": "Botanix",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "botanix",
     "chainId": 3637,
     "nativeCoinId": "btc"
@@ -1079,7 +1602,11 @@
   {
     "id": "corn",
     "name": "Corn",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "corn",
     "chainId": 21000000,
     "nativeCoinId": "btc"
@@ -1087,13 +1614,21 @@
   {
     "id": "mantra",
     "name": "Mantra Chain",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "mantra"
   },
   {
     "id": "hemi",
     "name": "Hemi",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "hemi",
     "chainId": 743111,
     "nativeCoinId": "eth"
@@ -1101,14 +1636,22 @@
   {
     "id": "lumia",
     "name": "Lumia",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "lumia",
     "chainId": 1952959480
   },
   {
     "id": "sonic",
     "name": "Sonic",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "sonic",
     "chainId": 146,
     "nativeCoinId": "sonic"
@@ -1116,35 +1659,55 @@
   {
     "id": "super-seed",
     "name": "Super Seed",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "Super Seed",
     "chainId": 53302
   },
   {
     "id": "vanar",
     "name": "Vanar",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "vanar",
     "chainId": 2040
   },
   {
     "id": "wax",
     "name": "WAX",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "wax",
     "nativeCoinId": "wax"
   },
   {
     "id": "rei",
     "name": "Rei",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "rei",
     "chainId": 47805
   },
   {
     "id": "mint",
     "name": "Mint",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "mint",
     "chainId": 185,
     "nativeCoinId": "weth"
@@ -1152,7 +1715,11 @@
   {
     "id": "monad",
     "name": "Monad",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "monad",
     "chainId": 143,
     "nativeCoinId": "monad"
@@ -1160,7 +1727,11 @@
   {
     "id": "silicon",
     "name": "Silicon",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "silicon",
     "chainId": 2355,
     "nativeCoinId": "eth"
@@ -1168,7 +1739,11 @@
   {
     "id": "treasure",
     "name": "Treasure",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "treasure",
     "chainId": 61166,
     "nativeCoinId": "magic"
@@ -1176,7 +1751,11 @@
   {
     "id": "kaia",
     "name": "Kaia",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "kaia",
     "chainId": 8217,
     "nativeCoinId": "kaia"
@@ -1184,35 +1763,43 @@
   {
     "id": "moonbase-alpha",
     "name": "Moonbase Alpha",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "Moonbase Alpha",
     "chainId": 1287
   },
   {
     "id": "multiversx",
     "name": "MultiversX",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "multiversx",
     "nativeCoinId": "egld"
   },
   {
     "id": "nibiru",
     "name": "Nibiru",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "nativeCoinId": "nibiru"
-  },
-  {
-    "id": "okex-chain",
-    "name": "OKT Chain",
-    "variants": ["background", "branded", "mono"],
-    "shortName": "OKEx",
-    "chainId": 66,
-    "nativeCoinId": "oec-token"
   },
   {
     "id": "optimism",
     "name": "Optimism",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "Optimism",
     "chainId": 10,
     "nativeCoinId": "eth"
@@ -1220,13 +1807,21 @@
   {
     "id": "push",
     "name": "Push Chain",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "Push"
   },
   {
     "id": "viction",
     "name": "Viction",
-    "variants": ["background", "branded", "mono"],
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ],
     "shortName": "viction",
     "chainId": 88,
     "nativeCoinId": "viction"
@@ -1234,7 +1829,10 @@
   {
     "id": "zora",
     "name": "zora",
-    "variants": ["background", "branded"],
+    "variants": [
+      "background",
+      "branded"
+    ],
     "shortName": "zora",
     "chainId": 7777777,
     "nativeCoinId": "weth"
