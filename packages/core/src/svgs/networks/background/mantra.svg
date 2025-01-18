@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#mantra__a)">
+        <path fill="url(#mantra__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="m12 4 1.778 1.707L12 7.395l-1.778-1.688zm-1.476 6.489a2.15 2.15 0 0 0 2.952 0l4.746-4.711L20 7.11V20h-1.778V8.818l-2.969 2.79c-.889.854-2.08 1.28-3.253 1.28s-2.364-.426-3.253-1.28L5.777 8.8V20H4V7.11l1.778-1.332z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="mantra__b" x1="4" x2="89.333" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFB298"/>
+            <stop offset="1" stop-color="#FE95CE"/>
+        </linearGradient>
+        <clipPath id="mantra__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

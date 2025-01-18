@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#conflux__a)">
+        <path fill="#37A1DB" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m15.38 13.535-3.384 3.413-1.883-1.9 3.384-3.413-1.505-1.519-4.905 4.949L11.978 20l4.906-4.949z"/>
+        <path fill="#fff" d="M18.4 10.449 12.009 4l-6.41 6.467.021 3.022 6.361-6.418 6.408 6.465z"/>
+    </g>
+    <defs>
+        <clipPath id="conflux__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

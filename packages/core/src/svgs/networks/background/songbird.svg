@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#songbird__a)">
+        <path fill="#E62058" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m6.4 20 3.628-6.6-.66 5.7zm3.502-3.176.45-3.927 4.808.631zm3.458-7.869 1.966 4.325-4.842-.635zm1.027 1.622 2.434-1.217-1.293 3.729zm-4.102 1.893L7.57 4l5.638 4.722zm6.141-1.167.594-1.714.58 2.795z"/>
+    </g>
+    <defs>
+        <clipPath id="songbird__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

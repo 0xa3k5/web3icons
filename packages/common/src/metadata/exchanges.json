@@ -104,7 +104,7 @@
   {
     "id": "para-swap",
     "name": "ParaSwap",
-    "variants": ["branded", "mono", "background"],
+    "variants": ["background", "branded", "mono"],
     "type": "dex"
   },
   {

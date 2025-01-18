@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#wax__a)">
+        <path fill="#F78E1E" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m18.433 10.333-.766.657.783.677L20 10.333zm-4.766-1 2.966 2.65-1.133.684-2-2.334h-1.333l-3.5 4.334H10l2.833-3.334.887 1h-1.053L12 13h2.22l.613.667h1.334l1.333-1 1.167 1H20l-5-4.334zm-4.334 1-.666 2-.667-2H6.667l-.667 2-.667-2H4l1.333 3.334h1.334l.666-2 .667 2h1.333l1.334-3.334z"/>
+    </g>
+    <defs>
+        <clipPath id="wax__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

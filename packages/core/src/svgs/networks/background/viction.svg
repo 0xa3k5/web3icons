@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#viction__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#F8F6D7" d="M20 4v6.923a32.3 32.3 0 0 1-8 .998 32.4 32.4 0 0 1-8-.998V4a32.4 32.4 0 0 0 8 .998c2.762 0 5.443-.346 8-.998M4 20v-6.923a32.3 32.3 0 0 1 8-.998c2.762 0 5.443.347 8 .998V20a32.4 32.4 0 0 0-8-.998c-2.762 0-5.443.346-8 .998"/>
+    </g>
+    <defs>
+        <clipPath id="viction__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

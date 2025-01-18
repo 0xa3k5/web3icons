@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#lumia__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M9.02 11.721H4l5.28-2.453L11.726 4l.006 5.005a2.714 2.714 0 0 1-2.713 2.718zm5.96 0H20l-5.28-2.453L12.274 4l-.006 5.005a2.714 2.714 0 0 0 2.713 2.718zm0 .558H20l-5.28 2.453L12.274 20l-.006-5.005a2.714 2.714 0 0 1 2.713-2.718zm-5.96 0H4l5.28 2.453L11.726 20l.006-5.005a2.714 2.714 0 0 0-2.713-2.718z"/>
+    </g>
+    <defs>
+        <clipPath id="lumia__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

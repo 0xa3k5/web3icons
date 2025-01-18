@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#lumio__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#lumio__b)" d="m4 4.8 14.11 5.29v3.82L4 19.2z"/>
+        <path fill="url(#lumio__c)" d="m4 7.739 14.11 2.35v3.821L4 16.261z"/>
+        <path fill="#fff" d="M18.11 13.91A1.9 1.9 0 0 0 20 12a1.9 1.9 0 0 0-1.89-1.91A1.9 1.9 0 0 0 16.217 12a1.9 1.9 0 0 0 1.891 1.91"/>
+    </g>
+    <defs>
+        <linearGradient id="lumio__b" x1="5.745" x2="18.255" y1="12.147" y2="12.246" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#8D29C1" stop-opacity="0"/>
+            <stop offset="1" stop-color="#8D29C1"/>
+        </linearGradient>
+        <linearGradient id="lumio__c" x1="4" x2="18.255" y1="12.147" y2="12.147" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F03F79" stop-opacity="0"/>
+            <stop offset="1" stop-color="#F03F79"/>
+        </linearGradient>
+        <clipPath id="lumio__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

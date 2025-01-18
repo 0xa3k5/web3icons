@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#zora__a)" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10"/>
+    <path fill="url(#zora__a)" d="M12 20a8 8 0 1 1 0-16 8 8 0 0 1 0 16"/>
     <defs>
-        <radialGradient id="zora__a" cx="0" cy="0" r="1" gradientTransform="rotate(180 8.27 3.689)scale(16.8921)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="zora__a" cx="0" cy="0" r="1" gradientTransform="rotate(180 7.816 4.15)scale(13.5137)" gradientUnits="userSpaceOnUse">
             <stop offset=".007" stop-color="#F2CEFE"/>
             <stop offset=".191" stop-color="#AFBAF1"/>
             <stop offset=".498" stop-color="#4281D3"/>

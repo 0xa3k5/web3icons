@@ -3471,13 +3471,14 @@ import * as NBrandedRari from './svgs/networks/branded/rari.svg'
 import * as NBrandedUnichain from './svgs/networks/branded/unichain.svg'
 import * as NBrandedRei from './svgs/networks/branded/rei.svg'
 import * as NBrandedKarura from './svgs/networks/branded/karura.svg'
-import * as NBrandedSuperseed from './svgs/networks/branded/superseed.svg'
 import * as NBrandedWorld from './svgs/networks/branded/world.svg'
 import * as NBrandedSui from './svgs/networks/branded/sui.svg'
 import * as NBrandedRonin from './svgs/networks/branded/ronin.svg'
 import * as NBrandedBitkubChain from './svgs/networks/branded/bitkub-chain.svg'
 import * as NBrandedMoonbaseAlpha from './svgs/networks/branded/moonbase-alpha.svg'
+import * as NBrandedNibiru from './svgs/networks/branded/nibiru.svg'
 import * as NBrandedGnosis from './svgs/networks/branded/gnosis.svg'
+import * as NBrandedXrp from './svgs/networks/branded/xrp.svg'
 import * as NBrandedLumio from './svgs/networks/branded/lumio.svg'
 import * as NBrandedKakarot from './svgs/networks/branded/kakarot.svg'
 import * as NBrandedXLayer from './svgs/networks/branded/x-layer.svg'
@@ -3498,6 +3499,7 @@ import * as NBrandedTaiko from './svgs/networks/branded/taiko.svg'
 import * as NBrandedLyra from './svgs/networks/branded/lyra.svg'
 import * as NBrandedStarknet from './svgs/networks/branded/starknet.svg'
 import * as NBrandedMoonbeam from './svgs/networks/branded/moonbeam.svg'
+import * as NBrandedSuperSeed from './svgs/networks/branded/super-seed.svg'
 import * as NBrandedFluence from './svgs/networks/branded/fluence.svg'
 import * as NBrandedOrderly from './svgs/networks/branded/orderly.svg'
 import * as NBrandedOkex from './svgs/networks/branded/okex.svg'
@@ -3510,6 +3512,7 @@ import * as NBrandedSoneium from './svgs/networks/branded/soneium.svg'
 import * as NBrandedNahmii from './svgs/networks/branded/nahmii.svg'
 import * as NBrandedLightlink from './svgs/networks/branded/lightlink.svg'
 import * as NBrandedLisk from './svgs/networks/branded/lisk.svg'
+import * as NBrandedPush from './svgs/networks/branded/push.svg'
 import * as NBrandedPolkadot from './svgs/networks/branded/polkadot.svg'
 import * as NBrandedOasys from './svgs/networks/branded/oasys.svg'
 import * as NBrandedBase from './svgs/networks/branded/base.svg'
@@ -3531,7 +3534,6 @@ import * as NBrandedShimmerEvm from './svgs/networks/branded/shimmer-evm.svg'
 import * as NBrandedTelos from './svgs/networks/branded/telos.svg'
 import * as NBrandedLycan from './svgs/networks/branded/lycan.svg'
 import * as NBrandedCelo from './svgs/networks/branded/celo.svg'
-import * as NBrandedBitkupChain from './svgs/networks/branded/bitkup-chain.svg'
 import * as NBrandedZilliqa from './svgs/networks/branded/zilliqa.svg'
 import * as NBrandedReya from './svgs/networks/branded/reya.svg'
 import * as NBrandedEdgeless from './svgs/networks/branded/edgeless.svg'
@@ -3625,12 +3627,12 @@ import * as NMonoRari from './svgs/networks/mono/rari.svg'
 import * as NMonoUnichain from './svgs/networks/mono/unichain.svg'
 import * as NMonoRei from './svgs/networks/mono/rei.svg'
 import * as NMonoKarura from './svgs/networks/mono/karura.svg'
-import * as NMonoSuperseed from './svgs/networks/mono/superseed.svg'
 import * as NMonoWorld from './svgs/networks/mono/world.svg'
 import * as NMonoSui from './svgs/networks/mono/sui.svg'
 import * as NMonoRonin from './svgs/networks/mono/ronin.svg'
 import * as NMonoBitkubChain from './svgs/networks/mono/bitkub-chain.svg'
 import * as NMonoMoonbaseAlpha from './svgs/networks/mono/moonbase-alpha.svg'
+import * as NMonoNibiru from './svgs/networks/mono/nibiru.svg'
 import * as NMonoGnosis from './svgs/networks/mono/gnosis.svg'
 import * as NMonoXrp from './svgs/networks/mono/xrp.svg'
 import * as NMonoKakarot from './svgs/networks/mono/kakarot.svg'
@@ -3652,6 +3654,7 @@ import * as NMonoTaiko from './svgs/networks/mono/taiko.svg'
 import * as NMonoLyra from './svgs/networks/mono/lyra.svg'
 import * as NMonoStarknet from './svgs/networks/mono/starknet.svg'
 import * as NMonoMoonbeam from './svgs/networks/mono/moonbeam.svg'
+import * as NMonoSuperSeed from './svgs/networks/mono/super-seed.svg'
 import * as NMonoFluence from './svgs/networks/mono/fluence.svg'
 import * as NMonoOrderly from './svgs/networks/mono/orderly.svg'
 import * as NMonoOkex from './svgs/networks/mono/okex.svg'
@@ -3664,6 +3667,7 @@ import * as NMonoSoneium from './svgs/networks/mono/soneium.svg'
 import * as NMonoNahmii from './svgs/networks/mono/nahmii.svg'
 import * as NMonoLightlink from './svgs/networks/mono/lightlink.svg'
 import * as NMonoLisk from './svgs/networks/mono/lisk.svg'
+import * as NMonoPush from './svgs/networks/mono/push.svg'
 import * as NMonoPolkadot from './svgs/networks/mono/polkadot.svg'
 import * as NMonoOasys from './svgs/networks/mono/oasys.svg'
 import * as NMonoBase from './svgs/networks/mono/base.svg'
@@ -3694,6 +3698,164 @@ import * as NMonoSolana from './svgs/networks/mono/solana.svg'
 import * as NMonoOptopia from './svgs/networks/mono/optopia.svg'
 import * as NMonoArbitrumNova from './svgs/networks/mono/arbitrum-nova.svg'
 import * as NMonoFio from './svgs/networks/mono/fio.svg'
+import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
+import * as NBackgroundThundercore from './svgs/networks/background/thundercore.svg'
+import * as NBackgroundTheta from './svgs/networks/background/theta.svg'
+import * as NBackgroundMeter from './svgs/networks/background/meter.svg'
+import * as NBackgroundFuse from './svgs/networks/background/fuse.svg'
+import * as NBackgroundNearProtocol from './svgs/networks/background/near-protocol.svg'
+import * as NBackgroundEnuls from './svgs/networks/background/enuls.svg'
+import * as NBackgroundAurora from './svgs/networks/background/aurora.svg'
+import * as NBackgroundMultiversx from './svgs/networks/background/multiversx.svg'
+import * as NBackgroundTombchain from './svgs/networks/background/tombchain.svg'
+import * as NBackgroundL3x from './svgs/networks/background/l3x.svg'
+import * as NBackgroundFraxtal from './svgs/networks/background/fraxtal.svg'
+import * as NBackgroundEthereum from './svgs/networks/background/ethereum.svg'
+import * as NBackgroundNeonEvm from './svgs/networks/background/neon-evm.svg'
+import * as NBackgroundMint from './svgs/networks/background/mint.svg'
+import * as NBackgroundZyx from './svgs/networks/background/zyx.svg'
+import * as NBackgroundCronosZkevm from './svgs/networks/background/cronos-zkevm.svg'
+import * as NBackgroundApexLayer from './svgs/networks/background/apex-layer.svg'
+import * as NBackgroundLavaNetwork from './svgs/networks/background/lava-network.svg'
+import * as NBackgroundCosmosHub from './svgs/networks/background/cosmos-hub.svg'
+import * as NBackgroundDiode from './svgs/networks/background/diode.svg'
+import * as NBackgroundMilkomedaC1 from './svgs/networks/background/milkomeda-c1.svg'
+import * as NBackgroundVanar from './svgs/networks/background/vanar.svg'
+import * as NBackgroundStep from './svgs/networks/background/step.svg'
+import * as NBackgroundPolygonZkevm from './svgs/networks/background/polygon-zkevm.svg'
+import * as NBackgroundMantra from './svgs/networks/background/mantra.svg'
+import * as NBackgroundKujira from './svgs/networks/background/kujira.svg'
+import * as NBackgroundAptos from './svgs/networks/background/aptos.svg'
+import * as NBackgroundCosmos from './svgs/networks/background/cosmos.svg'
+import * as NBackgroundHemi from './svgs/networks/background/hemi.svg'
+import * as NBackgroundMoonbase from './svgs/networks/background/moonbase.svg'
+import * as NBackgroundEos from './svgs/networks/background/eos.svg'
+import * as NBackgroundArweave from './svgs/networks/background/arweave.svg'
+import * as NBackgroundStellar from './svgs/networks/background/stellar.svg'
+import * as NBackgroundZora from './svgs/networks/background/zora.svg'
+import * as NBackgroundCronos from './svgs/networks/background/cronos.svg'
+import * as NBackgroundBinanceSmartChain from './svgs/networks/background/binance-smart-chain.svg'
+import * as NBackgroundElastos from './svgs/networks/background/elastos.svg'
+import * as NBackgroundXai from './svgs/networks/background/xai.svg'
+import * as NBackgroundIotex from './svgs/networks/background/iotex.svg'
+import * as NBackgroundBouncebit from './svgs/networks/background/bouncebit.svg'
+import * as NBackgroundBeam from './svgs/networks/background/beam.svg'
+import * as NBackgroundLukso from './svgs/networks/background/lukso.svg'
+import * as NBackgroundAbstract from './svgs/networks/background/abstract.svg'
+import * as NBackgroundAstar from './svgs/networks/background/astar.svg'
+import * as NBackgroundInjective from './svgs/networks/background/injective.svg'
+import * as NBackgroundSonic from './svgs/networks/background/sonic.svg'
+import * as NBackgroundTron from './svgs/networks/background/tron.svg'
+import * as NBackgroundRootstock from './svgs/networks/background/rootstock.svg'
+import * as NBackgroundCorn from './svgs/networks/background/corn.svg'
+import * as NBackgroundHarmony from './svgs/networks/background/harmony.svg'
+import * as NBackgroundFantom from './svgs/networks/background/fantom.svg'
+import * as NBackgroundClover from './svgs/networks/background/clover.svg'
+import * as NBackgroundXdc from './svgs/networks/background/xdc.svg'
+import * as NBackgroundVelas from './svgs/networks/background/velas.svg'
+import * as NBackgroundFilecoin from './svgs/networks/background/filecoin.svg'
+import * as NBackgroundChiliz from './svgs/networks/background/chiliz.svg'
+import * as NBackgroundDogechain from './svgs/networks/background/dogechain.svg'
+import * as NBackgroundLens from './svgs/networks/background/lens.svg'
+import * as NBackgroundMode from './svgs/networks/background/mode.svg'
+import * as NBackgroundLinea from './svgs/networks/background/linea.svg'
+import * as NBackgroundZetaChain from './svgs/networks/background/zeta-chain.svg'
+import * as NBackgroundMatic from './svgs/networks/background/matic.svg'
+import * as NBackgroundJuno from './svgs/networks/background/juno.svg'
+import * as NBackgroundGravity from './svgs/networks/background/gravity.svg'
+import * as NBackgroundAvalanche from './svgs/networks/background/avalanche.svg'
+import * as NBackgroundRollux from './svgs/networks/background/rollux.svg'
+import * as NBackgroundLumia from './svgs/networks/background/lumia.svg'
+import * as NBackgroundMantle from './svgs/networks/background/mantle.svg'
+import * as NBackgroundBitcoin from './svgs/networks/background/bitcoin.svg'
+import * as NBackgroundLitecoin from './svgs/networks/background/litecoin.svg'
+import * as NBackgroundWemix from './svgs/networks/background/wemix.svg'
+import * as NBackgroundBob from './svgs/networks/background/bob.svg'
+import * as NBackgroundBotanix from './svgs/networks/background/botanix.svg'
+import * as NBackgroundSys from './svgs/networks/background/sys.svg'
+import * as NBackgroundCardano from './svgs/networks/background/cardano.svg'
+import * as NBackgroundTreasure from './svgs/networks/background/treasure.svg'
+import * as NBackgroundShiden from './svgs/networks/background/shiden.svg'
+import * as NBackgroundStargaze from './svgs/networks/background/stargaze.svg'
+import * as NBackgroundKardia from './svgs/networks/background/kardia.svg'
+import * as NBackgroundBlast from './svgs/networks/background/blast.svg'
+import * as NBackgroundEtherlink from './svgs/networks/background/etherlink.svg'
+import * as NBackgroundRari from './svgs/networks/background/rari.svg'
+import * as NBackgroundUnichain from './svgs/networks/background/unichain.svg'
+import * as NBackgroundRei from './svgs/networks/background/rei.svg'
+import * as NBackgroundKarura from './svgs/networks/background/karura.svg'
+import * as NBackgroundWorld from './svgs/networks/background/world.svg'
+import * as NBackgroundSui from './svgs/networks/background/sui.svg'
+import * as NBackgroundRonin from './svgs/networks/background/ronin.svg'
+import * as NBackgroundBitkubChain from './svgs/networks/background/bitkub-chain.svg'
+import * as NBackgroundMoonbaseAlpha from './svgs/networks/background/moonbase-alpha.svg'
+import * as NBackgroundNibiru from './svgs/networks/background/nibiru.svg'
+import * as NBackgroundGnosis from './svgs/networks/background/gnosis.svg'
+import * as NBackgroundXrp from './svgs/networks/background/xrp.svg'
+import * as NBackgroundLumio from './svgs/networks/background/lumio.svg'
+import * as NBackgroundKakarot from './svgs/networks/background/kakarot.svg'
+import * as NBackgroundXLayer from './svgs/networks/background/x-layer.svg'
+import * as NBackgroundEnergyWeb from './svgs/networks/background/energy-web.svg'
+import * as NBackgroundMetisAndromeda from './svgs/networks/background/metis-andromeda.svg'
+import * as NBackgroundCoinexSmartChain from './svgs/networks/background/coinex-smart-chain.svg'
+import * as NBackgroundHederaHashgraph from './svgs/networks/background/hedera-hashgraph.svg'
+import * as NBackgroundTenet from './svgs/networks/background/tenet.svg'
+import * as NBackgroundArbitrumOne from './svgs/networks/background/arbitrum-one.svg'
+import * as NBackgroundScroll from './svgs/networks/background/scroll.svg'
+import * as NBackgroundBoba from './svgs/networks/background/boba.svg'
+import * as NBackgroundViction from './svgs/networks/background/viction.svg'
+import * as NBackgroundMonad from './svgs/networks/background/monad.svg'
+import * as NBackgroundImmutable from './svgs/networks/background/immutable.svg'
+import * as NBackgroundFlare from './svgs/networks/background/flare.svg'
+import * as NBackgroundWax from './svgs/networks/background/wax.svg'
+import * as NBackgroundTaiko from './svgs/networks/background/taiko.svg'
+import * as NBackgroundLyra from './svgs/networks/background/lyra.svg'
+import * as NBackgroundStarknet from './svgs/networks/background/starknet.svg'
+import * as NBackgroundMoonbeam from './svgs/networks/background/moonbeam.svg'
+import * as NBackgroundSuperSeed from './svgs/networks/background/super-seed.svg'
+import * as NBackgroundFluence from './svgs/networks/background/fluence.svg'
+import * as NBackgroundOrderly from './svgs/networks/background/orderly.svg'
+import * as NBackgroundOkex from './svgs/networks/background/okex.svg'
+import * as NBackgroundKroma from './svgs/networks/background/kroma.svg'
+import * as NBackgroundKava from './svgs/networks/background/kava.svg'
+import * as NBackgroundMoonriver from './svgs/networks/background/moonriver.svg'
+import * as NBackgroundUbiq from './svgs/networks/background/ubiq.svg'
+import * as NBackgroundPolygonPos from './svgs/networks/background/polygon-pos.svg'
+import * as NBackgroundSoneium from './svgs/networks/background/soneium.svg'
+import * as NBackgroundNahmii from './svgs/networks/background/nahmii.svg'
+import * as NBackgroundLightlink from './svgs/networks/background/lightlink.svg'
+import * as NBackgroundLisk from './svgs/networks/background/lisk.svg'
+import * as NBackgroundPush from './svgs/networks/background/push.svg'
+import * as NBackgroundPolkadot from './svgs/networks/background/polkadot.svg'
+import * as NBackgroundOasys from './svgs/networks/background/oasys.svg'
+import * as NBackgroundBase from './svgs/networks/background/base.svg'
+import * as NBackgroundOptimism from './svgs/networks/background/optimism.svg'
+import * as NBackgroundLoopring from './svgs/networks/background/loopring.svg'
+import * as NBackgroundOsmosis from './svgs/networks/background/osmosis.svg'
+import * as NBackgroundUltron from './svgs/networks/background/ultron.svg'
+import * as NBackgroundSongbird from './svgs/networks/background/songbird.svg'
+import * as NBackgroundHubbleExchange from './svgs/networks/background/hubble-exchange.svg'
+import * as NBackgroundKucoin from './svgs/networks/background/kucoin.svg'
+import * as NBackgroundMantaPacific from './svgs/networks/background/manta-pacific.svg'
+import * as NBackgroundEthereumClassic from './svgs/networks/background/ethereum-classic.svg'
+import * as NBackgroundAcala from './svgs/networks/background/acala.svg'
+import * as NBackgroundNeoX from './svgs/networks/background/neo-x.svg'
+import * as NBackgroundSilicon from './svgs/networks/background/silicon.svg'
+import * as NBackgroundSeiNetwork from './svgs/networks/background/sei-network.svg'
+import * as NBackgroundMilkomedaA1 from './svgs/networks/background/milkomeda-a1.svg'
+import * as NBackgroundShimmerEvm from './svgs/networks/background/shimmer-evm.svg'
+import * as NBackgroundTelos from './svgs/networks/background/telos.svg'
+import * as NBackgroundLycan from './svgs/networks/background/lycan.svg'
+import * as NBackgroundCelo from './svgs/networks/background/celo.svg'
+import * as NBackgroundZilliqa from './svgs/networks/background/zilliqa.svg'
+import * as NBackgroundReya from './svgs/networks/background/reya.svg'
+import * as NBackgroundEdgeless from './svgs/networks/background/edgeless.svg'
+import * as NBackgroundKaia from './svgs/networks/background/kaia.svg'
+import * as NBackgroundConflux from './svgs/networks/background/conflux.svg'
+import * as NBackgroundSolana from './svgs/networks/background/solana.svg'
+import * as NBackgroundOptopia from './svgs/networks/background/optopia.svg'
+import * as NBackgroundArbitrumNova from './svgs/networks/background/arbitrum-nova.svg'
+import * as NBackgroundFio from './svgs/networks/background/fio.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WBrandedMyEtherWallet from './svgs/wallets/branded/my-ether-wallet.svg'
 import * as WBrandedSafe from './svgs/wallets/branded/safe.svg'
@@ -3770,7 +3932,6 @@ import * as WMonoPortal from './svgs/wallets/mono/portal.svg'
 import * as EBrandedGemini from './svgs/exchanges/branded/gemini.svg'
 import * as EBrandedCryptoCom from './svgs/exchanges/branded/crypto-com.svg'
 import * as EBranded1inch from './svgs/exchanges/branded/1inch.svg'
-import * as EBrandedParaswap from './svgs/exchanges/branded/paraswap.svg'
 import * as EBrandedBinance from './svgs/exchanges/branded/binance.svg'
 import * as EBrandedSwissborg from './svgs/exchanges/branded/swissborg.svg'
 import * as EBrandedBybit from './svgs/exchanges/branded/bybit.svg'
@@ -3781,6 +3942,7 @@ import * as EBrandedKraken from './svgs/exchanges/branded/kraken.svg'
 import * as EBrandedParibu from './svgs/exchanges/branded/paribu.svg'
 import * as EBrandedCowswap from './svgs/exchanges/branded/cowswap.svg'
 import * as EBrandedOdos from './svgs/exchanges/branded/odos.svg'
+import * as EBrandedParaSwap from './svgs/exchanges/branded/para-swap.svg'
 import * as EBrandedBtcturk from './svgs/exchanges/branded/btcturk.svg'
 import * as EBrandedBithumb from './svgs/exchanges/branded/bithumb.svg'
 import * as EBrandedOkx from './svgs/exchanges/branded/okx.svg'
@@ -3794,7 +3956,6 @@ import * as EBrandedKucoin from './svgs/exchanges/branded/kucoin.svg'
 import * as EMonoGemini from './svgs/exchanges/mono/gemini.svg'
 import * as EMonoCryptoCom from './svgs/exchanges/mono/crypto-com.svg'
 import * as EMono1inch from './svgs/exchanges/mono/1inch.svg'
-import * as EMonoParaswap from './svgs/exchanges/mono/paraswap.svg'
 import * as EMonoBinance from './svgs/exchanges/mono/binance.svg'
 import * as EMonoSwissborg from './svgs/exchanges/mono/swissborg.svg'
 import * as EMonoBybit from './svgs/exchanges/mono/bybit.svg'
@@ -3805,6 +3966,7 @@ import * as EMonoKraken from './svgs/exchanges/mono/kraken.svg'
 import * as EMonoParibu from './svgs/exchanges/mono/paribu.svg'
 import * as EMonoCowswap from './svgs/exchanges/mono/cowswap.svg'
 import * as EMonoOdos from './svgs/exchanges/mono/odos.svg'
+import * as EMonoParaSwap from './svgs/exchanges/mono/para-swap.svg'
 import * as EMonoBtcturk from './svgs/exchanges/mono/btcturk.svg'
 import * as EMonoBithumb from './svgs/exchanges/mono/bithumb.svg'
 import * as EMonoOkx from './svgs/exchanges/mono/okx.svg'
@@ -3818,7 +3980,6 @@ import * as EMonoKucoin from './svgs/exchanges/mono/kucoin.svg'
 import * as EBackgroundGemini from './svgs/exchanges/background/gemini.svg'
 import * as EBackgroundCryptoCom from './svgs/exchanges/background/crypto-com.svg'
 import * as EBackground1inch from './svgs/exchanges/background/1inch.svg'
-import * as EBackgroundParaswap from './svgs/exchanges/background/paraswap.svg'
 import * as EBackgroundBinance from './svgs/exchanges/background/binance.svg'
 import * as EBackgroundSwissborg from './svgs/exchanges/background/swissborg.svg'
 import * as EBackgroundBybit from './svgs/exchanges/background/bybit.svg'
@@ -3829,6 +3990,7 @@ import * as EBackgroundKraken from './svgs/exchanges/background/kraken.svg'
 import * as EBackgroundParibu from './svgs/exchanges/background/paribu.svg'
 import * as EBackgroundCowswap from './svgs/exchanges/background/cowswap.svg'
 import * as EBackgroundOdos from './svgs/exchanges/background/odos.svg'
+import * as EBackgroundParaSwap from './svgs/exchanges/background/para-swap.svg'
 import * as EBackgroundBtcturk from './svgs/exchanges/background/btcturk.svg'
 import * as EBackgroundBithumb from './svgs/exchanges/background/bithumb.svg'
 import * as EBackgroundOkx from './svgs/exchanges/background/okx.svg'
@@ -7321,13 +7483,14 @@ export const svgs = {
       unichain: NBrandedUnichain,
       rei: NBrandedRei,
       karura: NBrandedKarura,
-      superseed: NBrandedSuperseed,
       world: NBrandedWorld,
       sui: NBrandedSui,
       ronin: NBrandedRonin,
       'bitkub-chain': NBrandedBitkubChain,
       'moonbase-alpha': NBrandedMoonbaseAlpha,
+      nibiru: NBrandedNibiru,
       gnosis: NBrandedGnosis,
+      xrp: NBrandedXrp,
       lumio: NBrandedLumio,
       kakarot: NBrandedKakarot,
       'x-layer': NBrandedXLayer,
@@ -7348,6 +7511,7 @@ export const svgs = {
       lyra: NBrandedLyra,
       starknet: NBrandedStarknet,
       moonbeam: NBrandedMoonbeam,
+      'super-seed': NBrandedSuperSeed,
       fluence: NBrandedFluence,
       orderly: NBrandedOrderly,
       okex: NBrandedOkex,
@@ -7360,6 +7524,7 @@ export const svgs = {
       nahmii: NBrandedNahmii,
       lightlink: NBrandedLightlink,
       lisk: NBrandedLisk,
+      push: NBrandedPush,
       polkadot: NBrandedPolkadot,
       oasys: NBrandedOasys,
       base: NBrandedBase,
@@ -7381,7 +7546,6 @@ export const svgs = {
       telos: NBrandedTelos,
       lycan: NBrandedLycan,
       celo: NBrandedCelo,
-      'bitkup-chain': NBrandedBitkupChain,
       zilliqa: NBrandedZilliqa,
       reya: NBrandedReya,
       edgeless: NBrandedEdgeless,
@@ -7477,12 +7641,12 @@ export const svgs = {
       unichain: NMonoUnichain,
       rei: NMonoRei,
       karura: NMonoKarura,
-      superseed: NMonoSuperseed,
       world: NMonoWorld,
       sui: NMonoSui,
       ronin: NMonoRonin,
       'bitkub-chain': NMonoBitkubChain,
       'moonbase-alpha': NMonoMoonbaseAlpha,
+      nibiru: NMonoNibiru,
       gnosis: NMonoGnosis,
       xrp: NMonoXrp,
       kakarot: NMonoKakarot,
@@ -7504,6 +7668,7 @@ export const svgs = {
       lyra: NMonoLyra,
       starknet: NMonoStarknet,
       moonbeam: NMonoMoonbeam,
+      'super-seed': NMonoSuperSeed,
       fluence: NMonoFluence,
       orderly: NMonoOrderly,
       okex: NMonoOkex,
@@ -7516,6 +7681,7 @@ export const svgs = {
       nahmii: NMonoNahmii,
       lightlink: NMonoLightlink,
       lisk: NMonoLisk,
+      push: NMonoPush,
       polkadot: NMonoPolkadot,
       oasys: NMonoOasys,
       base: NMonoBase,
@@ -7547,7 +7713,166 @@ export const svgs = {
       'arbitrum-nova': NMonoArbitrumNova,
       fio: NMonoFio,
     },
-    background: {},
+    background: {
+      zksync: NBackgroundZksync,
+      thundercore: NBackgroundThundercore,
+      theta: NBackgroundTheta,
+      meter: NBackgroundMeter,
+      fuse: NBackgroundFuse,
+      'near-protocol': NBackgroundNearProtocol,
+      enuls: NBackgroundEnuls,
+      aurora: NBackgroundAurora,
+      multiversx: NBackgroundMultiversx,
+      tombchain: NBackgroundTombchain,
+      l3x: NBackgroundL3x,
+      fraxtal: NBackgroundFraxtal,
+      ethereum: NBackgroundEthereum,
+      'neon-evm': NBackgroundNeonEvm,
+      mint: NBackgroundMint,
+      zyx: NBackgroundZyx,
+      'cronos-zkevm': NBackgroundCronosZkevm,
+      'apex-layer': NBackgroundApexLayer,
+      'lava-network': NBackgroundLavaNetwork,
+      'cosmos-hub': NBackgroundCosmosHub,
+      diode: NBackgroundDiode,
+      'milkomeda-c1': NBackgroundMilkomedaC1,
+      vanar: NBackgroundVanar,
+      step: NBackgroundStep,
+      'polygon-zkevm': NBackgroundPolygonZkevm,
+      mantra: NBackgroundMantra,
+      kujira: NBackgroundKujira,
+      aptos: NBackgroundAptos,
+      cosmos: NBackgroundCosmos,
+      hemi: NBackgroundHemi,
+      moonbase: NBackgroundMoonbase,
+      eos: NBackgroundEos,
+      arweave: NBackgroundArweave,
+      stellar: NBackgroundStellar,
+      zora: NBackgroundZora,
+      cronos: NBackgroundCronos,
+      'binance-smart-chain': NBackgroundBinanceSmartChain,
+      elastos: NBackgroundElastos,
+      xai: NBackgroundXai,
+      iotex: NBackgroundIotex,
+      bouncebit: NBackgroundBouncebit,
+      beam: NBackgroundBeam,
+      lukso: NBackgroundLukso,
+      abstract: NBackgroundAbstract,
+      astar: NBackgroundAstar,
+      injective: NBackgroundInjective,
+      sonic: NBackgroundSonic,
+      tron: NBackgroundTron,
+      rootstock: NBackgroundRootstock,
+      corn: NBackgroundCorn,
+      harmony: NBackgroundHarmony,
+      fantom: NBackgroundFantom,
+      clover: NBackgroundClover,
+      xdc: NBackgroundXdc,
+      velas: NBackgroundVelas,
+      filecoin: NBackgroundFilecoin,
+      chiliz: NBackgroundChiliz,
+      dogechain: NBackgroundDogechain,
+      lens: NBackgroundLens,
+      mode: NBackgroundMode,
+      linea: NBackgroundLinea,
+      'zeta-chain': NBackgroundZetaChain,
+      matic: NBackgroundMatic,
+      juno: NBackgroundJuno,
+      gravity: NBackgroundGravity,
+      avalanche: NBackgroundAvalanche,
+      rollux: NBackgroundRollux,
+      lumia: NBackgroundLumia,
+      mantle: NBackgroundMantle,
+      bitcoin: NBackgroundBitcoin,
+      litecoin: NBackgroundLitecoin,
+      wemix: NBackgroundWemix,
+      bob: NBackgroundBob,
+      botanix: NBackgroundBotanix,
+      sys: NBackgroundSys,
+      cardano: NBackgroundCardano,
+      treasure: NBackgroundTreasure,
+      shiden: NBackgroundShiden,
+      stargaze: NBackgroundStargaze,
+      kardia: NBackgroundKardia,
+      blast: NBackgroundBlast,
+      etherlink: NBackgroundEtherlink,
+      rari: NBackgroundRari,
+      unichain: NBackgroundUnichain,
+      rei: NBackgroundRei,
+      karura: NBackgroundKarura,
+      world: NBackgroundWorld,
+      sui: NBackgroundSui,
+      ronin: NBackgroundRonin,
+      'bitkub-chain': NBackgroundBitkubChain,
+      'moonbase-alpha': NBackgroundMoonbaseAlpha,
+      nibiru: NBackgroundNibiru,
+      gnosis: NBackgroundGnosis,
+      xrp: NBackgroundXrp,
+      lumio: NBackgroundLumio,
+      kakarot: NBackgroundKakarot,
+      'x-layer': NBackgroundXLayer,
+      'energy-web': NBackgroundEnergyWeb,
+      'metis-andromeda': NBackgroundMetisAndromeda,
+      'coinex-smart-chain': NBackgroundCoinexSmartChain,
+      'hedera-hashgraph': NBackgroundHederaHashgraph,
+      tenet: NBackgroundTenet,
+      'arbitrum-one': NBackgroundArbitrumOne,
+      scroll: NBackgroundScroll,
+      boba: NBackgroundBoba,
+      viction: NBackgroundViction,
+      monad: NBackgroundMonad,
+      immutable: NBackgroundImmutable,
+      flare: NBackgroundFlare,
+      wax: NBackgroundWax,
+      taiko: NBackgroundTaiko,
+      lyra: NBackgroundLyra,
+      starknet: NBackgroundStarknet,
+      moonbeam: NBackgroundMoonbeam,
+      'super-seed': NBackgroundSuperSeed,
+      fluence: NBackgroundFluence,
+      orderly: NBackgroundOrderly,
+      okex: NBackgroundOkex,
+      kroma: NBackgroundKroma,
+      kava: NBackgroundKava,
+      moonriver: NBackgroundMoonriver,
+      ubiq: NBackgroundUbiq,
+      'polygon-pos': NBackgroundPolygonPos,
+      soneium: NBackgroundSoneium,
+      nahmii: NBackgroundNahmii,
+      lightlink: NBackgroundLightlink,
+      lisk: NBackgroundLisk,
+      push: NBackgroundPush,
+      polkadot: NBackgroundPolkadot,
+      oasys: NBackgroundOasys,
+      base: NBackgroundBase,
+      optimism: NBackgroundOptimism,
+      loopring: NBackgroundLoopring,
+      osmosis: NBackgroundOsmosis,
+      ultron: NBackgroundUltron,
+      songbird: NBackgroundSongbird,
+      'hubble-exchange': NBackgroundHubbleExchange,
+      kucoin: NBackgroundKucoin,
+      'manta-pacific': NBackgroundMantaPacific,
+      'ethereum-classic': NBackgroundEthereumClassic,
+      acala: NBackgroundAcala,
+      'neo-x': NBackgroundNeoX,
+      silicon: NBackgroundSilicon,
+      'sei-network': NBackgroundSeiNetwork,
+      'milkomeda-a1': NBackgroundMilkomedaA1,
+      'shimmer-evm': NBackgroundShimmerEvm,
+      telos: NBackgroundTelos,
+      lycan: NBackgroundLycan,
+      celo: NBackgroundCelo,
+      zilliqa: NBackgroundZilliqa,
+      reya: NBackgroundReya,
+      edgeless: NBackgroundEdgeless,
+      kaia: NBackgroundKaia,
+      conflux: NBackgroundConflux,
+      solana: NBackgroundSolana,
+      optopia: NBackgroundOptopia,
+      'arbitrum-nova': NBackgroundArbitrumNova,
+      fio: NBackgroundFio,
+    },
   },
   wallets: {
     branded: {
@@ -7634,7 +7959,6 @@ export const svgs = {
       gemini: EBrandedGemini,
       'crypto-com': EBrandedCryptoCom,
       '1inch': EBranded1inch,
-      paraswap: EBrandedParaswap,
       binance: EBrandedBinance,
       swissborg: EBrandedSwissborg,
       bybit: EBrandedBybit,
@@ -7645,6 +7969,7 @@ export const svgs = {
       paribu: EBrandedParibu,
       cowswap: EBrandedCowswap,
       odos: EBrandedOdos,
+      'para-swap': EBrandedParaSwap,
       btcturk: EBrandedBtcturk,
       bithumb: EBrandedBithumb,
       okx: EBrandedOkx,
@@ -7660,7 +7985,6 @@ export const svgs = {
       gemini: EMonoGemini,
       'crypto-com': EMonoCryptoCom,
       '1inch': EMono1inch,
-      paraswap: EMonoParaswap,
       binance: EMonoBinance,
       swissborg: EMonoSwissborg,
       bybit: EMonoBybit,
@@ -7671,6 +7995,7 @@ export const svgs = {
       paribu: EMonoParibu,
       cowswap: EMonoCowswap,
       odos: EMonoOdos,
+      'para-swap': EMonoParaSwap,
       btcturk: EMonoBtcturk,
       bithumb: EMonoBithumb,
       okx: EMonoOkx,
@@ -7686,7 +8011,6 @@ export const svgs = {
       gemini: EBackgroundGemini,
       'crypto-com': EBackgroundCryptoCom,
       '1inch': EBackground1inch,
-      paraswap: EBackgroundParaswap,
       binance: EBackgroundBinance,
       swissborg: EBackgroundSwissborg,
       bybit: EBackgroundBybit,
@@ -7697,6 +8021,7 @@ export const svgs = {
       paribu: EBackgroundParibu,
       cowswap: EBackgroundCowswap,
       odos: EBackgroundOdos,
+      'para-swap': EBackgroundParaSwap,
       btcturk: EBackgroundBtcturk,
       bithumb: EBackgroundBithumb,
       okx: EBackgroundOkx,

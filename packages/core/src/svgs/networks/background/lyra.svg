@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#lyra__a)">
+        <path fill="#25FAAF" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4 14.223h13.718L20 19.2H6.238zm1.313-1.257 8.22-8.166 2.43 5.444-2.86 2.722z"/>
+    </g>
+    <defs>
+        <clipPath id="lyra__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>
