@@ -113,6 +113,7 @@ import * as TBrandedBBANK from './svgs/tokens/branded/BBANK.svg'
 import * as TBrandedMNDE from './svgs/tokens/branded/MNDE.svg'
 import * as TBrandedWLITI from './svgs/tokens/branded/WLITI.svg'
 import * as TBrandedACQ from './svgs/tokens/branded/ACQ.svg'
+import * as TBrandedHFT from './svgs/tokens/branded/HFT.svg'
 import * as TBrandedANKRETH from './svgs/tokens/branded/ANKRETH.svg'
 import * as TBrandedAMZ from './svgs/tokens/branded/AMZ.svg'
 import * as TBrandedCNHT from './svgs/tokens/branded/CNHT.svg'
@@ -148,7 +149,9 @@ import * as TBrandedSHROOM from './svgs/tokens/branded/SHROOM.svg'
 import * as TBrandedMAV from './svgs/tokens/branded/MAV.svg'
 import * as TBrandedREVV from './svgs/tokens/branded/REVV.svg'
 import * as TBrandedXVG from './svgs/tokens/branded/XVG.svg'
+import * as TBrandedDENT from './svgs/tokens/branded/DENT.svg'
 import * as TBrandedD2T from './svgs/tokens/branded/D2T.svg'
+import * as TBrandedEOSDT from './svgs/tokens/branded/EOSDT.svg'
 import * as TBrandedZLK from './svgs/tokens/branded/ZLK.svg'
 import * as TBrandedODIN from './svgs/tokens/branded/ODIN.svg'
 import * as TBrandedWAGMIGAMES from './svgs/tokens/branded/WAGMIGAMES.svg'
@@ -200,6 +203,7 @@ import * as TBrandedBIDZ from './svgs/tokens/branded/BIDZ.svg'
 import * as TBrandedKLV from './svgs/tokens/branded/KLV.svg'
 import * as TBrandedGOFX from './svgs/tokens/branded/GOFX.svg'
 import * as TBrandedBDT from './svgs/tokens/branded/BDT.svg'
+import * as TBrandedWING from './svgs/tokens/branded/WING.svg'
 import * as TBrandedORAI from './svgs/tokens/branded/ORAI.svg'
 import * as TBrandedKWAI from './svgs/tokens/branded/KWAI.svg'
 import * as TBrandedRLC from './svgs/tokens/branded/RLC.svg'
@@ -248,12 +252,14 @@ import * as TBrandedDPS from './svgs/tokens/branded/DPS.svg'
 import * as TBrandedTUT from './svgs/tokens/branded/TUT.svg'
 import * as TBrandedMUSIC from './svgs/tokens/branded/MUSIC.svg'
 import * as TBrandedFIS from './svgs/tokens/branded/FIS.svg'
+import * as TBrandedEUROE from './svgs/tokens/branded/EUROE.svg'
 import * as TBrandedONI from './svgs/tokens/branded/ONI.svg'
 import * as TBrandedGG from './svgs/tokens/branded/GG.svg'
 import * as TBrandedFEG from './svgs/tokens/branded/FEG.svg'
 import * as TBrandedSTRX from './svgs/tokens/branded/STRX.svg'
 import * as TBrandedNULS from './svgs/tokens/branded/NULS.svg'
 import * as TBrandedCEUR from './svgs/tokens/branded/CEUR.svg'
+import * as TBrandedABR from './svgs/tokens/branded/ABR.svg'
 import * as TBrandedCND from './svgs/tokens/branded/CND.svg'
 import * as TBrandedSHX from './svgs/tokens/branded/SHX.svg'
 import * as TBrandedPOLS from './svgs/tokens/branded/POLS.svg'
@@ -290,6 +296,7 @@ import * as TBrandedUNDEAD from './svgs/tokens/branded/UNDEAD.svg'
 import * as TBrandedGMEE from './svgs/tokens/branded/GMEE.svg'
 import * as TBrandedBABYDOGE from './svgs/tokens/branded/BABYDOGE.svg'
 import * as TBrandedKTC from './svgs/tokens/branded/KTC.svg'
+import * as TBrandedCSPR from './svgs/tokens/branded/CSPR.svg'
 import * as TBrandedSBTC from './svgs/tokens/branded/SBTC.svg'
 import * as TBrandedDOBO from './svgs/tokens/branded/DOBO.svg'
 import * as TBrandedLEVER from './svgs/tokens/branded/LEVER.svg'
@@ -347,6 +354,7 @@ import * as TBrandedMTD from './svgs/tokens/branded/MTD.svg'
 import * as TBrandedVRSW from './svgs/tokens/branded/VRSW.svg'
 import * as TBrandedMNGO from './svgs/tokens/branded/MNGO.svg'
 import * as TBrandedMVL from './svgs/tokens/branded/MVL.svg'
+import * as TBrandedSCRT from './svgs/tokens/branded/SCRT.svg'
 import * as TBrandedMTS from './svgs/tokens/branded/MTS.svg'
 import * as TBrandedFOOM from './svgs/tokens/branded/FOOM.svg'
 import * as TBrandedCTK from './svgs/tokens/branded/CTK.svg'
@@ -378,6 +386,7 @@ import * as TBrandedTON from './svgs/tokens/branded/TON.svg'
 import * as TBrandedFRM from './svgs/tokens/branded/FRM.svg'
 import * as TBrandedOMMI from './svgs/tokens/branded/OMMI.svg'
 import * as TBrandedAVT from './svgs/tokens/branded/AVT.svg'
+import * as TBrandedAVINOC from './svgs/tokens/branded/AVINOC.svg'
 import * as TBrandedWALV from './svgs/tokens/branded/WALV.svg'
 import * as TBrandedBTSE from './svgs/tokens/branded/BTSE.svg'
 import * as TBrandedSFP from './svgs/tokens/branded/SFP.svg'
@@ -389,6 +398,7 @@ import * as TBrandedFNSA from './svgs/tokens/branded/FNSA.svg'
 import * as TBrandedCROID from './svgs/tokens/branded/CROID.svg'
 import * as TBrandedBIT from './svgs/tokens/branded/BIT.svg'
 import * as TBrandedNFAI from './svgs/tokens/branded/NFAI.svg'
+import * as TBrandedALGO from './svgs/tokens/branded/ALGO.svg'
 import * as TBrandedNODL from './svgs/tokens/branded/NODL.svg'
 import * as TBrandedRBX from './svgs/tokens/branded/RBX.svg'
 import * as TBrandedCOSMOS from './svgs/tokens/branded/COSMOS.svg'
@@ -404,6 +414,7 @@ import * as TBrandedCHEQ from './svgs/tokens/branded/CHEQ.svg'
 import * as TBrandedHUSD from './svgs/tokens/branded/HUSD.svg'
 import * as TBrandedKLAY from './svgs/tokens/branded/KLAY.svg'
 import * as TBrandedPROM from './svgs/tokens/branded/PROM.svg'
+import * as TBrandedGAL from './svgs/tokens/branded/GAL.svg'
 import * as TBrandedIDLE from './svgs/tokens/branded/IDLE.svg'
 import * as TBrandedGCR from './svgs/tokens/branded/GCR.svg'
 import * as TBrandedPAW from './svgs/tokens/branded/PAW.svg'
@@ -420,6 +431,7 @@ import * as TBrandedRBN from './svgs/tokens/branded/RBN.svg'
 import * as TBrandedRENBTC from './svgs/tokens/branded/RENBTC.svg'
 import * as TBrandedFLEX from './svgs/tokens/branded/FLEX.svg'
 import * as TBrandedNPM from './svgs/tokens/branded/NPM.svg'
+import * as TBrandedEOS from './svgs/tokens/branded/EOS.svg'
 import * as TBrandedMOVR from './svgs/tokens/branded/MOVR.svg'
 import * as TBrandedIMPT from './svgs/tokens/branded/IMPT.svg'
 import * as TBrandedEML from './svgs/tokens/branded/EML.svg'
@@ -428,6 +440,7 @@ import * as TBrandedMOVE from './svgs/tokens/branded/MOVE.svg'
 import * as TBranded0X0 from './svgs/tokens/branded/0X0.svg'
 import * as TBrandedSDN from './svgs/tokens/branded/SDN.svg'
 import * as TBrandedUNFI from './svgs/tokens/branded/UNFI.svg'
+import * as TBrandedCELR from './svgs/tokens/branded/CELR.svg'
 import * as TBrandedDEP from './svgs/tokens/branded/DEP.svg'
 import * as TBrandedDGX from './svgs/tokens/branded/DGX.svg'
 import * as TBrandedASIA from './svgs/tokens/branded/ASIA.svg'
@@ -474,7 +487,9 @@ import * as TBrandedZOOMER from './svgs/tokens/branded/ZOOMER.svg'
 import * as TBrandedSXP from './svgs/tokens/branded/SXP.svg'
 import * as TBrandedBLUESPARROW from './svgs/tokens/branded/BLUESPARROW.svg'
 import * as TBrandedXPLA from './svgs/tokens/branded/XPLA.svg'
+import * as TBrandedCLXY from './svgs/tokens/branded/CLXY.svg'
 import * as TBrandedCARBON from './svgs/tokens/branded/CARBON.svg'
+import * as TBrandedXHV from './svgs/tokens/branded/XHV.svg'
 import * as TBrandedSALT from './svgs/tokens/branded/SALT.svg'
 import * as TBrandedDOT from './svgs/tokens/branded/DOT.svg'
 import * as TBrandedNEXO from './svgs/tokens/branded/NEXO.svg'
@@ -494,6 +509,7 @@ import * as TBrandedXSGD from './svgs/tokens/branded/XSGD.svg'
 import * as TBrandedKINT from './svgs/tokens/branded/KINT.svg'
 import * as TBrandedMMPRO from './svgs/tokens/branded/MMPRO.svg'
 import * as TBrandedBAN from './svgs/tokens/branded/BAN.svg'
+import * as TBrandedWBTC from './svgs/tokens/branded/WBTC.svg'
 import * as TBrandedEFL from './svgs/tokens/branded/EFL.svg'
 import * as TBrandedSWEAT from './svgs/tokens/branded/SWEAT.svg'
 import * as TBrandedWXT from './svgs/tokens/branded/WXT.svg'
@@ -519,6 +535,7 @@ import * as TBrandedSAKAI from './svgs/tokens/branded/SAKAI.svg'
 import * as TBrandedPEPE from './svgs/tokens/branded/PEPE.svg'
 import * as TBrandedKIBA from './svgs/tokens/branded/KIBA.svg'
 import * as TBrandedBAX from './svgs/tokens/branded/BAX.svg'
+import * as TBrandedFRIN from './svgs/tokens/branded/FRIN.svg'
 import * as TBrandedTROY from './svgs/tokens/branded/TROY.svg'
 import * as TBrandedBRWL from './svgs/tokens/branded/BRWL.svg'
 import * as TBrandedBAO from './svgs/tokens/branded/BAO.svg'
@@ -559,12 +576,14 @@ import * as TBrandedXEP from './svgs/tokens/branded/XEP.svg'
 import * as TBrandedTRC from './svgs/tokens/branded/TRC.svg'
 import * as TBrandedEDGE from './svgs/tokens/branded/EDGE.svg'
 import * as TBrandedL2 from './svgs/tokens/branded/L2.svg'
+import * as TBrandedWCFG from './svgs/tokens/branded/WCFG.svg'
 import * as TBrandedQOM from './svgs/tokens/branded/QOM.svg'
 import * as TBrandedMARSH from './svgs/tokens/branded/MARSH.svg'
 import * as TBrandedXDC from './svgs/tokens/branded/XDC.svg'
 import * as TBrandedCOLLAB from './svgs/tokens/branded/COLLAB.svg'
 import * as TBrandedTOMB from './svgs/tokens/branded/TOMB.svg'
 import * as TBrandedAIS from './svgs/tokens/branded/AIS.svg'
+import * as TBrandedSOLO from './svgs/tokens/branded/SOLO.svg'
 import * as TBrandedVERSE from './svgs/tokens/branded/VERSE.svg'
 import * as TBrandedSTG from './svgs/tokens/branded/STG.svg'
 import * as TBrandedQLC from './svgs/tokens/branded/QLC.svg'
@@ -572,8 +591,10 @@ import * as TBrandedSOLX from './svgs/tokens/branded/SOLX.svg'
 import * as TBrandedATRI from './svgs/tokens/branded/ATRI.svg'
 import * as TBrandedSPACE from './svgs/tokens/branded/SPACE.svg'
 import * as TBrandedASTO from './svgs/tokens/branded/ASTO.svg'
+import * as TBrandedSENATE from './svgs/tokens/branded/SENATE.svg'
 import * as TBrandedOKT from './svgs/tokens/branded/OKT.svg'
 import * as TBrandedAA from './svgs/tokens/branded/AA.svg'
+import * as TBrandedTHEO from './svgs/tokens/branded/THEO.svg'
 import * as TBrandedVSP from './svgs/tokens/branded/VSP.svg'
 import * as TBrandedHXD from './svgs/tokens/branded/HXD.svg'
 import * as TBrandedDEGO from './svgs/tokens/branded/DEGO.svg'
@@ -628,8 +649,10 @@ import * as TBrandedFREN from './svgs/tokens/branded/FREN.svg'
 import * as TBrandedBMX from './svgs/tokens/branded/BMX.svg'
 import * as TBrandedNXT from './svgs/tokens/branded/NXT.svg'
 import * as TBrandedUMB from './svgs/tokens/branded/UMB.svg'
+import * as TBrandedWWY from './svgs/tokens/branded/WWY.svg'
 import * as TBrandedLAT from './svgs/tokens/branded/LAT.svg'
 import * as TBrandedPIKA from './svgs/tokens/branded/PIKA.svg'
+import * as TBrandedBNT from './svgs/tokens/branded/BNT.svg'
 import * as TBrandedCOPE from './svgs/tokens/branded/COPE.svg'
 import * as TBrandedSTOSMO from './svgs/tokens/branded/STOSMO.svg'
 import * as TBrandedDCB from './svgs/tokens/branded/DCB.svg'
@@ -657,6 +680,7 @@ import * as TBrandedCRPT from './svgs/tokens/branded/CRPT.svg'
 import * as TBrandedADAPAD from './svgs/tokens/branded/ADAPAD.svg'
 import * as TBranded3ULL from './svgs/tokens/branded/3ULL.svg'
 import * as TBrandedX2Y2 from './svgs/tokens/branded/X2Y2.svg'
+import * as TBrandedZRX from './svgs/tokens/branded/ZRX.svg'
 import * as TBrandedMC from './svgs/tokens/branded/MC.svg'
 import * as TBrandedFLX from './svgs/tokens/branded/FLX.svg'
 import * as TBrandedSUB from './svgs/tokens/branded/SUB.svg'
@@ -693,6 +717,7 @@ import * as TBrandedSCLP from './svgs/tokens/branded/SCLP.svg'
 import * as TBrandedSATT from './svgs/tokens/branded/SATT.svg'
 import * as TBrandedPAID from './svgs/tokens/branded/PAID.svg'
 import * as TBrandedAART from './svgs/tokens/branded/AART.svg'
+import * as TBrandedBTCST from './svgs/tokens/branded/BTCST.svg'
 import * as TBrandedINFRA from './svgs/tokens/branded/INFRA.svg'
 import * as TBrandedKINE from './svgs/tokens/branded/KINE.svg'
 import * as TBrandedBLX from './svgs/tokens/branded/BLX.svg'
@@ -809,6 +834,7 @@ import * as TBrandedSLP from './svgs/tokens/branded/SLP.svg'
 import * as TBrandedFTN from './svgs/tokens/branded/FTN.svg'
 import * as TBrandedVITE from './svgs/tokens/branded/VITE.svg'
 import * as TBrandedAPW from './svgs/tokens/branded/APW.svg'
+import * as TBrandedSMT from './svgs/tokens/branded/SMT.svg'
 import * as TBrandedZZ from './svgs/tokens/branded/ZZ.svg'
 import * as TBrandedCFX from './svgs/tokens/branded/CFX.svg'
 import * as TBrandedIPOR from './svgs/tokens/branded/IPOR.svg'
@@ -834,6 +860,7 @@ import * as TBrandedDAFI from './svgs/tokens/branded/DAFI.svg'
 import * as TBrandedYAK from './svgs/tokens/branded/YAK.svg'
 import * as TBrandedYCC from './svgs/tokens/branded/YCC.svg'
 import * as TBrandedWNK from './svgs/tokens/branded/WNK.svg'
+import * as TBrandedRSR from './svgs/tokens/branded/RSR.svg'
 import * as TBrandedWHALE from './svgs/tokens/branded/WHALE.svg'
 import * as TBrandedNOM from './svgs/tokens/branded/NOM.svg'
 import * as TBrandedKLEE from './svgs/tokens/branded/KLEE.svg'
@@ -844,6 +871,7 @@ import * as TBrandedFACTR from './svgs/tokens/branded/FACTR.svg'
 import * as TBrandedAUTO from './svgs/tokens/branded/AUTO.svg'
 import * as TBrandedSAITAMA from './svgs/tokens/branded/SAITAMA.svg'
 import * as TBrandedLUA from './svgs/tokens/branded/LUA.svg'
+import * as TBrandedSFRXETH from './svgs/tokens/branded/SFRXETH.svg'
 import * as TBrandedRARI from './svgs/tokens/branded/RARI.svg'
 import * as TBrandedDODO from './svgs/tokens/branded/DODO.svg'
 import * as TBrandedSAITO from './svgs/tokens/branded/SAITO.svg'
@@ -925,6 +953,7 @@ import * as TBrandedAPL from './svgs/tokens/branded/APL.svg'
 import * as TBrandedSNT from './svgs/tokens/branded/SNT.svg'
 import * as TBrandedPROPS from './svgs/tokens/branded/PROPS.svg'
 import * as TBrandedLMWR from './svgs/tokens/branded/LMWR.svg'
+import * as TBrandedTHE from './svgs/tokens/branded/THE.svg'
 import * as TBrandedGPCX from './svgs/tokens/branded/GPCX.svg'
 import * as TBrandedTIA from './svgs/tokens/branded/TIA.svg'
 import * as TBrandedMNTC from './svgs/tokens/branded/MNTC.svg'
@@ -938,6 +967,7 @@ import * as TBrandedFREE from './svgs/tokens/branded/FREE.svg'
 import * as TBrandedPLASTIK from './svgs/tokens/branded/PLASTIK.svg'
 import * as TBrandedPRX from './svgs/tokens/branded/PRX.svg'
 import * as TBrandedFUND from './svgs/tokens/branded/FUND.svg'
+import * as TBrandedAURABAL from './svgs/tokens/branded/AURABAL.svg'
 import * as TBrandedLOC from './svgs/tokens/branded/LOC.svg'
 import * as TBrandedNVT from './svgs/tokens/branded/NVT.svg'
 import * as TBrandedMAPS from './svgs/tokens/branded/MAPS.svg'
@@ -977,6 +1007,7 @@ import * as TBrandedIDV from './svgs/tokens/branded/IDV.svg'
 import * as TBrandedBTG from './svgs/tokens/branded/BTG.svg'
 import * as TBrandedLYX from './svgs/tokens/branded/LYX.svg'
 import * as TBrandedBETS from './svgs/tokens/branded/BETS.svg'
+import * as TBrandedQTCON from './svgs/tokens/branded/QTCON.svg'
 import * as TBrandedBCN from './svgs/tokens/branded/BCN.svg'
 import * as TBrandedUND from './svgs/tokens/branded/UND.svg'
 import * as TBrandedLBR from './svgs/tokens/branded/LBR.svg'
@@ -989,6 +1020,7 @@ import * as TBrandedSUDO from './svgs/tokens/branded/SUDO.svg'
 import * as TBrandedKILT from './svgs/tokens/branded/KILT.svg'
 import * as TBrandedGRT from './svgs/tokens/branded/GRT.svg'
 import * as TBrandedZKP from './svgs/tokens/branded/ZKP.svg'
+import * as TBrandedXRP from './svgs/tokens/branded/XRP.svg'
 import * as TBrandedWAIT from './svgs/tokens/branded/WAIT.svg'
 import * as TBrandedTET from './svgs/tokens/branded/TET.svg'
 import * as TBrandedXPX from './svgs/tokens/branded/XPX.svg'
@@ -998,6 +1030,7 @@ import * as TBrandedRAZOR from './svgs/tokens/branded/RAZOR.svg'
 import * as TBrandedXRUNE from './svgs/tokens/branded/XRUNE.svg'
 import * as TBrandedSAM from './svgs/tokens/branded/SAM.svg'
 import * as TBrandedSTAT from './svgs/tokens/branded/STAT.svg'
+import * as TBrandedFRONT from './svgs/tokens/branded/FRONT.svg'
 import * as TBrandedFTC from './svgs/tokens/branded/FTC.svg'
 import * as TBrandedVC from './svgs/tokens/branded/VC.svg'
 import * as TBrandedDMC from './svgs/tokens/branded/DMC.svg'
@@ -1013,7 +1046,9 @@ import * as TBrandedBCAT from './svgs/tokens/branded/BCAT.svg'
 import * as TBrandedBADGER from './svgs/tokens/branded/BADGER.svg'
 import * as TBrandedTOMI from './svgs/tokens/branded/TOMI.svg'
 import * as TBrandedNEAR from './svgs/tokens/branded/NEAR.svg'
+import * as TBrandedBTRFLY from './svgs/tokens/branded/BTRFLY.svg'
 import * as TBrandedFLR from './svgs/tokens/branded/FLR.svg'
+import * as TBrandedDVI from './svgs/tokens/branded/DVI.svg'
 import * as TBrandedTYRANT from './svgs/tokens/branded/TYRANT.svg'
 import * as TBrandedLM from './svgs/tokens/branded/LM.svg'
 import * as TBrandedCUMMIES from './svgs/tokens/branded/CUMMIES.svg'
@@ -1048,6 +1083,7 @@ import * as TBrandedKDA from './svgs/tokens/branded/KDA.svg'
 import * as TBrandedGRV from './svgs/tokens/branded/GRV.svg'
 import * as TBrandedFIRO from './svgs/tokens/branded/FIRO.svg'
 import * as TBrandedTRADE from './svgs/tokens/branded/TRADE.svg'
+import * as TBrandedPRISM from './svgs/tokens/branded/PRISM.svg'
 import * as TBrandedBLT from './svgs/tokens/branded/BLT.svg'
 import * as TBrandedGSE from './svgs/tokens/branded/GSE.svg'
 import * as TBrandedNALS from './svgs/tokens/branded/NALS.svg'
@@ -1066,6 +1102,7 @@ import * as TBrandedSWETH from './svgs/tokens/branded/SWETH.svg'
 import * as TBrandedWOW from './svgs/tokens/branded/WOW.svg'
 import * as TBrandedAUCTION from './svgs/tokens/branded/AUCTION.svg'
 import * as TBrandedPHB from './svgs/tokens/branded/PHB.svg'
+import * as TBrandedERTHA from './svgs/tokens/branded/ERTHA.svg'
 import * as TBrandedGHX from './svgs/tokens/branded/GHX.svg'
 import * as TBrandedJMPT from './svgs/tokens/branded/JMPT.svg'
 import * as TBrandedCROWN from './svgs/tokens/branded/CROWN.svg'
@@ -1122,6 +1159,7 @@ import * as TBrandedXRD from './svgs/tokens/branded/XRD.svg'
 import * as TBrandedCHEEMS from './svgs/tokens/branded/CHEEMS.svg'
 import * as TBrandedJONES from './svgs/tokens/branded/JONES.svg'
 import * as TBrandedDCK from './svgs/tokens/branded/DCK.svg'
+import * as TBrandedLOOT from './svgs/tokens/branded/LOOT.svg'
 import * as TBrandedNFTBS from './svgs/tokens/branded/NFTBS.svg'
 import * as TBrandedHOPR from './svgs/tokens/branded/HOPR.svg'
 import * as TBrandedCPOOL from './svgs/tokens/branded/CPOOL.svg'
@@ -1146,6 +1184,7 @@ import * as TBrandedSAND from './svgs/tokens/branded/SAND.svg'
 import * as TBrandedMUTE from './svgs/tokens/branded/MUTE.svg'
 import * as TBrandedC3 from './svgs/tokens/branded/C3.svg'
 import * as TBrandedTIG from './svgs/tokens/branded/TIG.svg'
+import * as TBrandedARB from './svgs/tokens/branded/ARB.svg'
 import * as TBrandedCKB from './svgs/tokens/branded/CKB.svg'
 import * as TBrandedDRGN from './svgs/tokens/branded/DRGN.svg'
 import * as TBrandedTKX from './svgs/tokens/branded/TKX.svg'
@@ -1169,6 +1208,7 @@ import * as TBrandedHIPP from './svgs/tokens/branded/HIPP.svg'
 import * as TBrandedMDAO from './svgs/tokens/branded/MDAO.svg'
 import * as TBrandedROKO from './svgs/tokens/branded/ROKO.svg'
 import * as TBrandedWACME from './svgs/tokens/branded/WACME.svg'
+import * as TBrandedHBAR from './svgs/tokens/branded/HBAR.svg'
 import * as TBrandedSLIM from './svgs/tokens/branded/SLIM.svg'
 import * as TBrandedPERC from './svgs/tokens/branded/PERC.svg'
 import * as TBrandedEGG from './svgs/tokens/branded/EGG.svg'
@@ -1182,6 +1222,8 @@ import * as TBrandedMEDIA from './svgs/tokens/branded/MEDIA.svg'
 import * as TBrandedSQUIDGROW from './svgs/tokens/branded/SQUIDGROW.svg'
 import * as TBrandedLTO from './svgs/tokens/branded/LTO.svg'
 import * as TBrandedTOPIA from './svgs/tokens/branded/TOPIA.svg'
+import * as TBrandedXCUR from './svgs/tokens/branded/XCUR.svg'
+import * as TBrandedKSM from './svgs/tokens/branded/KSM.svg'
 import * as TBrandedBROCK from './svgs/tokens/branded/BROCK.svg'
 import * as TBrandedLTX from './svgs/tokens/branded/LTX.svg'
 import * as TBrandedWAN from './svgs/tokens/branded/WAN.svg'
@@ -1197,12 +1239,14 @@ import * as TBrandedAGEUR from './svgs/tokens/branded/AGEUR.svg'
 import * as TBrandedLYRA from './svgs/tokens/branded/LYRA.svg'
 import * as TBrandedTITAN from './svgs/tokens/branded/TITAN.svg'
 import * as TBrandedPIB from './svgs/tokens/branded/PIB.svg'
+import * as TBrandedERG from './svgs/tokens/branded/ERG.svg'
 import * as TBrandedBTA from './svgs/tokens/branded/BTA.svg'
 import * as TBrandedNCR from './svgs/tokens/branded/NCR.svg'
 import * as TBrandedBCH from './svgs/tokens/branded/BCH.svg'
 import * as TBrandedALCX from './svgs/tokens/branded/ALCX.svg'
 import * as TBrandedRET from './svgs/tokens/branded/RET.svg'
 import * as TBrandedUSTC from './svgs/tokens/branded/USTC.svg'
+import * as TBrandedBBL from './svgs/tokens/branded/BBL.svg'
 import * as TBrandedRFOX from './svgs/tokens/branded/RFOX.svg'
 import * as TBrandedEUSD from './svgs/tokens/branded/EUSD.svg'
 import * as TBrandedBLP from './svgs/tokens/branded/BLP.svg'
@@ -1214,6 +1258,7 @@ import * as TBrandedBIGSB from './svgs/tokens/branded/BIGSB.svg'
 import * as TBrandedXY from './svgs/tokens/branded/XY.svg'
 import * as TBrandedCHO from './svgs/tokens/branded/CHO.svg'
 import * as TBrandedTKN from './svgs/tokens/branded/TKN.svg'
+import * as TBrandedSNS from './svgs/tokens/branded/SNS.svg'
 import * as TBrandedLQDR from './svgs/tokens/branded/LQDR.svg'
 import * as TBrandedBOOT from './svgs/tokens/branded/BOOT.svg'
 import * as TBrandedVR from './svgs/tokens/branded/VR.svg'
@@ -1222,6 +1267,7 @@ import * as TBrandedPROPC from './svgs/tokens/branded/PROPC.svg'
 import * as TBrandedMDT from './svgs/tokens/branded/MDT.svg'
 import * as TBrandedARC from './svgs/tokens/branded/ARC.svg'
 import * as TBrandedDREP from './svgs/tokens/branded/DREP.svg'
+import * as TBrandedDERC from './svgs/tokens/branded/DERC.svg'
 import * as TBrandedSTORJ from './svgs/tokens/branded/STORJ.svg'
 import * as TBrandedVGX from './svgs/tokens/branded/VGX.svg'
 import * as TBrandedGEOD from './svgs/tokens/branded/GEOD.svg'
@@ -1262,8 +1308,10 @@ import * as TBrandedXSP from './svgs/tokens/branded/XSP.svg'
 import * as TBrandedSAI from './svgs/tokens/branded/SAI.svg'
 import * as TBrandedREV3L from './svgs/tokens/branded/REV3L.svg'
 import * as TBrandedRIDE from './svgs/tokens/branded/RIDE.svg'
+import * as TBrandedFXS from './svgs/tokens/branded/FXS.svg'
 import * as TBrandedOPIUM from './svgs/tokens/branded/OPIUM.svg'
 import * as TBrandedGRG from './svgs/tokens/branded/GRG.svg'
+import * as TBrandedLGCY from './svgs/tokens/branded/LGCY.svg'
 import * as TBrandedLCR from './svgs/tokens/branded/LCR.svg'
 import * as TBrandedNXM from './svgs/tokens/branded/NXM.svg'
 import * as TBrandedUOS from './svgs/tokens/branded/UOS.svg'
@@ -1273,6 +1321,7 @@ import * as TBrandedBANANA from './svgs/tokens/branded/BANANA.svg'
 import * as TBrandedREV from './svgs/tokens/branded/REV.svg'
 import * as TBrandedSOURCE from './svgs/tokens/branded/SOURCE.svg'
 import * as TBrandedUBT from './svgs/tokens/branded/UBT.svg'
+import * as TBrandedCAPS from './svgs/tokens/branded/CAPS.svg'
 import * as TBrandedBTC from './svgs/tokens/branded/BTC.svg'
 import * as TBrandedNBT from './svgs/tokens/branded/NBT.svg'
 import * as TBrandedLITH from './svgs/tokens/branded/LITH.svg'
@@ -1281,6 +1330,7 @@ import * as TBrandedUWU from './svgs/tokens/branded/UWU.svg'
 import * as TBrandedEMAID from './svgs/tokens/branded/EMAID.svg'
 import * as TBrandedUCJL from './svgs/tokens/branded/UCJL.svg'
 import * as TBrandedHERA from './svgs/tokens/branded/HERA.svg'
+import * as TBrandedLEOX from './svgs/tokens/branded/LEOX.svg'
 import * as TBrandedHIFI from './svgs/tokens/branded/HIFI.svg'
 import * as TBrandedECOIN from './svgs/tokens/branded/ECOIN.svg'
 import * as TBrandedNOS from './svgs/tokens/branded/NOS.svg'
@@ -1295,11 +1345,13 @@ import * as TBrandedZPAY from './svgs/tokens/branded/ZPAY.svg'
 import * as TBrandedWNT from './svgs/tokens/branded/WNT.svg'
 import * as TBrandedBTU from './svgs/tokens/branded/BTU.svg'
 import * as TBrandedBSCPAD from './svgs/tokens/branded/BSCPAD.svg'
+import * as TBrandedACRIA from './svgs/tokens/branded/ACRIA.svg'
 import * as TBrandedGUILD from './svgs/tokens/branded/GUILD.svg'
 import * as TBrandedNWC from './svgs/tokens/branded/NWC.svg'
 import * as TBrandedNTX from './svgs/tokens/branded/NTX.svg'
 import * as TBrandedBAT from './svgs/tokens/branded/BAT.svg'
 import * as TBrandedLOOKS from './svgs/tokens/branded/LOOKS.svg'
+import * as TBrandedEURT from './svgs/tokens/branded/EURT.svg'
 import * as TBrandedBETA from './svgs/tokens/branded/BETA.svg'
 import * as TBrandedBORING from './svgs/tokens/branded/BORING.svg'
 import * as TBrandedEVMOS from './svgs/tokens/branded/EVMOS.svg'
@@ -1329,9 +1381,11 @@ import * as TBrandedIETH from './svgs/tokens/branded/IETH.svg'
 import * as TBrandedSBD from './svgs/tokens/branded/SBD.svg'
 import * as TBrandedLAMB from './svgs/tokens/branded/LAMB.svg'
 import * as TBrandedUNCX from './svgs/tokens/branded/UNCX.svg'
+import * as TBrandedQUARTZ from './svgs/tokens/branded/QUARTZ.svg'
 import * as TBrandedMED from './svgs/tokens/branded/MED.svg'
 import * as TBrandedADOGE from './svgs/tokens/branded/ADOGE.svg'
 import * as TBrandedBOND from './svgs/tokens/branded/BOND.svg'
+import * as TBrandedGBYTE from './svgs/tokens/branded/GBYTE.svg'
 import * as TBrandedASD from './svgs/tokens/branded/ASD.svg'
 import * as TBrandedRBLS from './svgs/tokens/branded/RBLS.svg'
 import * as TBrandedDXP from './svgs/tokens/branded/DXP.svg'
@@ -1356,10 +1410,14 @@ import * as TBrandedOGN from './svgs/tokens/branded/OGN.svg'
 import * as TBrandedCTR from './svgs/tokens/branded/CTR.svg'
 import * as TBrandedPDEX from './svgs/tokens/branded/PDEX.svg'
 import * as TBrandedTHOR from './svgs/tokens/branded/THOR.svg'
+import * as TBrandedZTG from './svgs/tokens/branded/ZTG.svg'
 import * as TBrandedHID from './svgs/tokens/branded/HID.svg'
 import * as TBrandedMUSD from './svgs/tokens/branded/MUSD.svg'
+import * as TBrandedWOZX from './svgs/tokens/branded/WOZX.svg'
+import * as TBrandedSKL from './svgs/tokens/branded/SKL.svg'
 import * as TBrandedBRISE from './svgs/tokens/branded/BRISE.svg'
 import * as TBrandedSOPH from './svgs/tokens/branded/SOPH.svg'
+import * as TBrandedQUAD from './svgs/tokens/branded/QUAD.svg'
 import * as TBrandedSWASH from './svgs/tokens/branded/SWASH.svg'
 import * as TBrandedSIS from './svgs/tokens/branded/SIS.svg'
 import * as TBrandedOMNI from './svgs/tokens/branded/OMNI.svg'
@@ -1403,6 +1461,7 @@ import * as TBrandedRVF from './svgs/tokens/branded/RVF.svg'
 import * as TBrandedMANA from './svgs/tokens/branded/MANA.svg'
 import * as TBrandedEMAGIC from './svgs/tokens/branded/EMAGIC.svg'
 import * as TBrandedWRLD from './svgs/tokens/branded/WRLD.svg'
+import * as TBrandedHUSH from './svgs/tokens/branded/HUSH.svg'
 import * as TBrandedWAVES from './svgs/tokens/branded/WAVES.svg'
 import * as TBrandedGYMNET from './svgs/tokens/branded/GYMNET.svg'
 import * as TBrandedAURA from './svgs/tokens/branded/AURA.svg'
@@ -1417,6 +1476,7 @@ import * as TBrandedGNY from './svgs/tokens/branded/GNY.svg'
 import * as TBrandedKYVE from './svgs/tokens/branded/KYVE.svg'
 import * as TBrandedPNT from './svgs/tokens/branded/PNT.svg'
 import * as TBrandedBSW from './svgs/tokens/branded/BSW.svg'
+import * as TBrandedAIOZ from './svgs/tokens/branded/AIOZ.svg'
 import * as TBrandedPOP from './svgs/tokens/branded/POP.svg'
 import * as TBrandedGHUB from './svgs/tokens/branded/GHUB.svg'
 import * as TBrandedGLQ from './svgs/tokens/branded/GLQ.svg'
@@ -1431,6 +1491,7 @@ import * as TBrandedPUSH from './svgs/tokens/branded/PUSH.svg'
 import * as TBrandedBLXM from './svgs/tokens/branded/BLXM.svg'
 import * as TBrandedKCS from './svgs/tokens/branded/KCS.svg'
 import * as TBrandedSTATOM from './svgs/tokens/branded/STATOM.svg'
+import * as TBrandedFRAX from './svgs/tokens/branded/FRAX.svg'
 import * as TBrandedAXE from './svgs/tokens/branded/AXE.svg'
 import * as TBrandedMNR from './svgs/tokens/branded/MNR.svg'
 import * as TBrandedAITECH from './svgs/tokens/branded/AITECH.svg'
@@ -1447,6 +1508,7 @@ import * as TBrandedMCB from './svgs/tokens/branded/MCB.svg'
 import * as TBrandedFLUID from './svgs/tokens/branded/FLUID.svg'
 import * as TBrandedGULF from './svgs/tokens/branded/GULF.svg'
 import * as TBrandedACX from './svgs/tokens/branded/ACX.svg'
+import * as TBrandedAAG from './svgs/tokens/branded/AAG.svg'
 import * as TBrandedFCTR from './svgs/tokens/branded/FCTR.svg'
 import * as TBrandedFEI from './svgs/tokens/branded/FEI.svg'
 import * as TBrandedONG from './svgs/tokens/branded/ONG.svg'
@@ -1457,6 +1519,7 @@ import * as TBrandedSRX from './svgs/tokens/branded/SRX.svg'
 import * as TBrandedTULIP from './svgs/tokens/branded/TULIP.svg'
 import * as TBrandedXCM from './svgs/tokens/branded/XCM.svg'
 import * as TBrandedINTR from './svgs/tokens/branded/INTR.svg'
+import * as TBrandedDEXE from './svgs/tokens/branded/DEXE.svg'
 import * as TBrandedALU from './svgs/tokens/branded/ALU.svg'
 import * as TBrandedTTK from './svgs/tokens/branded/TTK.svg'
 import * as TBrandedSRM from './svgs/tokens/branded/SRM.svg'
@@ -1480,6 +1543,7 @@ import * as TBrandedCOL from './svgs/tokens/branded/COL.svg'
 import * as TBrandedAVL from './svgs/tokens/branded/AVL.svg'
 import * as TBrandedOMNOM from './svgs/tokens/branded/OMNOM.svg'
 import * as TBrandedATD from './svgs/tokens/branded/ATD.svg'
+import * as TBrandedGCOIN from './svgs/tokens/branded/GCOIN.svg'
 import * as TBrandedMOC from './svgs/tokens/branded/MOC.svg'
 import * as TBrandedCAP from './svgs/tokens/branded/CAP.svg'
 import * as TBrandedAERGO from './svgs/tokens/branded/AERGO.svg'
@@ -1562,12 +1626,14 @@ import * as TBrandedBCUBE from './svgs/tokens/branded/BCUBE.svg'
 import * as TBrandedDPI from './svgs/tokens/branded/DPI.svg'
 import * as TBrandedAMP from './svgs/tokens/branded/AMP.svg'
 import * as TBrandedLOVELY from './svgs/tokens/branded/LOVELY.svg'
+import * as TBrandedCTC from './svgs/tokens/branded/CTC.svg'
 import * as TBrandedPAXG from './svgs/tokens/branded/PAXG.svg'
 import * as TBrandedBSCS from './svgs/tokens/branded/BSCS.svg'
 import * as TBrandedOAX from './svgs/tokens/branded/OAX.svg'
 import * as TBrandedMTL from './svgs/tokens/branded/MTL.svg'
 import * as TBrandedACH from './svgs/tokens/branded/ACH.svg'
 import * as TBrandedMVD from './svgs/tokens/branded/MVD.svg'
+import * as TBrandedABL from './svgs/tokens/branded/ABL.svg'
 import * as TBrandedPYUSD from './svgs/tokens/branded/PYUSD.svg'
 import * as TBrandedATA from './svgs/tokens/branded/ATA.svg'
 import * as TBrandedC98 from './svgs/tokens/branded/C98.svg'
@@ -1583,6 +1649,7 @@ import * as TBrandedSFM from './svgs/tokens/branded/SFM.svg'
 import * as TBrandedDEL from './svgs/tokens/branded/DEL.svg'
 import * as TBrandedKITTY from './svgs/tokens/branded/KITTY.svg'
 import * as TBrandedTAO from './svgs/tokens/branded/TAO.svg'
+import * as TBrandedZKID from './svgs/tokens/branded/ZKID.svg'
 import * as TBrandedPPAY from './svgs/tokens/branded/PPAY.svg'
 import * as TBrandedRLY from './svgs/tokens/branded/RLY.svg'
 import * as TBrandedFEAR from './svgs/tokens/branded/FEAR.svg'
@@ -1610,6 +1677,7 @@ import * as TBrandedSIPHER from './svgs/tokens/branded/SIPHER.svg'
 import * as TBrandedLUNA from './svgs/tokens/branded/LUNA.svg'
 import * as TBrandedBULL from './svgs/tokens/branded/BULL.svg'
 import * as TBrandedTBTC from './svgs/tokens/branded/TBTC.svg'
+import * as TBrandedSEILOR from './svgs/tokens/branded/SEILOR.svg'
 import * as TBrandedDOMI from './svgs/tokens/branded/DOMI.svg'
 import * as TBrandedUPP from './svgs/tokens/branded/UPP.svg'
 import * as TBrandedHUSKY from './svgs/tokens/branded/HUSKY.svg'
@@ -1619,13 +1687,16 @@ import * as TBrandedSMARTCREDIT from './svgs/tokens/branded/SMARTCREDIT.svg'
 import * as TBrandedASTRAFER from './svgs/tokens/branded/ASTRAFER.svg'
 import * as TBrandedANKR from './svgs/tokens/branded/ANKR.svg'
 import * as TBrandedBIFI from './svgs/tokens/branded/BIFI.svg'
+import * as TBrandedSLCL from './svgs/tokens/branded/SLCL.svg'
 import * as TBrandedQUICK from './svgs/tokens/branded/QUICK.svg'
 import * as TBrandedMATH from './svgs/tokens/branded/MATH.svg'
 import * as TBrandedBDX from './svgs/tokens/branded/BDX.svg'
+import * as TBrandedFLAME from './svgs/tokens/branded/FLAME.svg'
 import * as TBrandedRBD from './svgs/tokens/branded/RBD.svg'
 import * as TBrandedELU from './svgs/tokens/branded/ELU.svg'
 import * as TBrandedHIVE from './svgs/tokens/branded/HIVE.svg'
 import * as TBrandedGHNY from './svgs/tokens/branded/GHNY.svg'
+import * as TBrandedLYX1 from './svgs/tokens/branded/LYX-1.svg'
 import * as TBrandedARCH from './svgs/tokens/branded/ARCH.svg'
 import * as TBrandedWSI from './svgs/tokens/branded/WSI.svg'
 import * as TBrandedENJ from './svgs/tokens/branded/ENJ.svg'
@@ -1666,10 +1737,12 @@ import * as TBrandedDC from './svgs/tokens/branded/DC.svg'
 import * as TBrandedDPAY from './svgs/tokens/branded/DPAY.svg'
 import * as TBrandedFIL from './svgs/tokens/branded/FIL.svg'
 import * as TBrandedTWT from './svgs/tokens/branded/TWT.svg'
+import * as TBrandedDIMO from './svgs/tokens/branded/DIMO.svg'
 import * as TBrandedAMB from './svgs/tokens/branded/AMB.svg'
 import * as TBrandedID from './svgs/tokens/branded/ID.svg'
 import * as TBrandedSPA from './svgs/tokens/branded/SPA.svg'
 import * as TBrandedDEXT from './svgs/tokens/branded/DEXT.svg'
+import * as TBrandedSPC from './svgs/tokens/branded/SPC.svg'
 import * as TBrandedSSX from './svgs/tokens/branded/SSX.svg'
 import * as TBrandedSIGNA from './svgs/tokens/branded/SIGNA.svg'
 import * as TBrandedIQ from './svgs/tokens/branded/IQ.svg'
@@ -1708,6 +1781,7 @@ import * as TBrandedPWR from './svgs/tokens/branded/PWR.svg'
 import * as TBrandedGFAL from './svgs/tokens/branded/GFAL.svg'
 import * as TBrandedDJED from './svgs/tokens/branded/DJED.svg'
 import * as TBrandedBFR from './svgs/tokens/branded/BFR.svg'
+import * as TBrandedECO from './svgs/tokens/branded/ECO.svg'
 import * as TBrandedNGL from './svgs/tokens/branded/NGL.svg'
 import * as TBrandedCTXC from './svgs/tokens/branded/CTXC.svg'
 import * as TBrandedPNG from './svgs/tokens/branded/PNG.svg'
@@ -2781,6 +2855,7 @@ import * as TMonoSAN from './svgs/tokens/mono/SAN.svg'
 import * as TMonoXRD from './svgs/tokens/mono/XRD.svg'
 import * as TMonoJONES from './svgs/tokens/mono/JONES.svg'
 import * as TMonoDCK from './svgs/tokens/mono/DCK.svg'
+import * as TMonoLOOT from './svgs/tokens/mono/LOOT.svg'
 import * as TMonoNFTBS from './svgs/tokens/mono/NFTBS.svg'
 import * as TMonoHOPR from './svgs/tokens/mono/HOPR.svg'
 import * as TMonoASCN from './svgs/tokens/mono/ASCN.svg'
@@ -3241,6 +3316,7 @@ import * as TMonoFLAME from './svgs/tokens/mono/FLAME.svg'
 import * as TMonoRBD from './svgs/tokens/mono/RBD.svg'
 import * as TMonoHIVE from './svgs/tokens/mono/HIVE.svg'
 import * as TMonoGHNY from './svgs/tokens/mono/GHNY.svg'
+import * as TMonoLYX1 from './svgs/tokens/mono/LYX-1.svg'
 import * as TMonoWSI from './svgs/tokens/mono/WSI.svg'
 import * as TMonoENJ from './svgs/tokens/mono/ENJ.svg'
 import * as TMonoVOXEL from './svgs/tokens/mono/VOXEL.svg'
@@ -3385,6 +3461,1783 @@ import * as TMonoDPX from './svgs/tokens/mono/DPX.svg'
 import * as TMonoAQTIS from './svgs/tokens/mono/AQTIS.svg'
 import * as TMonoXCH from './svgs/tokens/mono/XCH.svg'
 import * as TMonoMXM from './svgs/tokens/mono/MXM.svg'
+import * as TBackgroundSOCKS from './svgs/tokens/background/SOCKS.svg'
+import * as TBackgroundHONK from './svgs/tokens/background/HONK.svg'
+import * as TBackgroundTHOL from './svgs/tokens/background/THOL.svg'
+import * as TBackgroundGLINK from './svgs/tokens/background/GLINK.svg'
+import * as TBackgroundSPX from './svgs/tokens/background/SPX.svg'
+import * as TBackgroundMINA from './svgs/tokens/background/MINA.svg'
+import * as TBackgroundCXO from './svgs/tokens/background/CXO.svg'
+import * as TBackgroundOCTA from './svgs/tokens/background/OCTA.svg'
+import * as TBackgroundKZEN from './svgs/tokens/background/KZEN.svg'
+import * as TBackgroundABT from './svgs/tokens/background/ABT.svg'
+import * as TBackgroundBMEX from './svgs/tokens/background/BMEX.svg'
+import * as TBackgroundRBIF from './svgs/tokens/background/RBIF.svg'
+import * as TBackgroundSAIL from './svgs/tokens/background/SAIL.svg'
+import * as TBackgroundVAB from './svgs/tokens/background/VAB.svg'
+import * as TBackgroundCNFI from './svgs/tokens/background/CNFI.svg'
+import * as TBackgroundUW3S from './svgs/tokens/background/UW3S.svg'
+import * as TBackgroundZBC from './svgs/tokens/background/ZBC.svg'
+import * as TBackgroundOXB from './svgs/tokens/background/OXB.svg'
+import * as TBackgroundSHI from './svgs/tokens/background/SHI.svg'
+import * as TBackgroundMEMEAI from './svgs/tokens/background/MEMEAI.svg'
+import * as TBackgroundVTC from './svgs/tokens/background/VTC.svg'
+import * as TBackgroundSWFTC from './svgs/tokens/background/SWFTC.svg'
+import * as TBackground2DAI from './svgs/tokens/background/2DAI.svg'
+import * as TBackgroundD3D from './svgs/tokens/background/D3D.svg'
+import * as TBackgroundPALM from './svgs/tokens/background/PALM.svg'
+import * as TBackgroundMELD from './svgs/tokens/background/MELD.svg'
+import * as TBackgroundHST from './svgs/tokens/background/HST.svg'
+import * as TBackgroundDFX from './svgs/tokens/background/DFX.svg'
+import * as TBackgroundHPO from './svgs/tokens/background/HPO.svg'
+import * as TBackgroundDEC from './svgs/tokens/background/DEC.svg'
+import * as TBackgroundOMAX from './svgs/tokens/background/OMAX.svg'
+import * as TBackgroundXVS from './svgs/tokens/background/XVS.svg'
+import * as TBackgroundTRIBE from './svgs/tokens/background/TRIBE.svg'
+import * as TBackgroundENS from './svgs/tokens/background/ENS.svg'
+import * as TBackgroundSPARTA from './svgs/tokens/background/SPARTA.svg'
+import * as TBackgroundWINR from './svgs/tokens/background/WINR.svg'
+import * as TBackgroundBKN from './svgs/tokens/background/BKN.svg'
+import * as TBackgroundCMOS from './svgs/tokens/background/CMOS.svg'
+import * as TBackgroundKAS from './svgs/tokens/background/KAS.svg'
+import * as TBackgroundMTLX from './svgs/tokens/background/MTLX.svg'
+import * as TBackgroundRCN from './svgs/tokens/background/RCN.svg'
+import * as TBackgroundSONNE from './svgs/tokens/background/SONNE.svg'
+import * as TBackgroundKLT from './svgs/tokens/background/KLT.svg'
+import * as TBackgroundITP from './svgs/tokens/background/ITP.svg'
+import * as TBackgroundMUDOL2 from './svgs/tokens/background/MUDOL2.svg'
+import * as TBackgroundNABOX from './svgs/tokens/background/NABOX.svg'
+import * as TBackgroundEPIC from './svgs/tokens/background/EPIC.svg'
+import * as TBackgroundNFD from './svgs/tokens/background/NFD.svg'
+import * as TBackgroundVSYS from './svgs/tokens/background/VSYS.svg'
+import * as TBackgroundPNK from './svgs/tokens/background/PNK.svg'
+import * as TBackgroundUSDC from './svgs/tokens/background/USDC.svg'
+import * as TBackgroundPLT from './svgs/tokens/background/PLT.svg'
+import * as TBackgroundNORD from './svgs/tokens/background/NORD.svg'
+import * as TBackgroundYFI from './svgs/tokens/background/YFI.svg'
+import * as TBackgroundUSDT from './svgs/tokens/background/USDT.svg'
+import * as TBackgroundGOB from './svgs/tokens/background/GOB.svg'
+import * as TBackgroundTHETA from './svgs/tokens/background/THETA.svg'
+import * as TBackgroundCATGIRL from './svgs/tokens/background/CATGIRL.svg'
+import * as TBackgroundLRC from './svgs/tokens/background/LRC.svg'
+import * as TBackgroundGAI from './svgs/tokens/background/GAI.svg'
+import * as TBackgroundMETFI from './svgs/tokens/background/METFI.svg'
+import * as TBackgroundPREMIA from './svgs/tokens/background/PREMIA.svg'
+import * as TBackgroundWAMPL from './svgs/tokens/background/WAMPL.svg'
+import * as TBackgroundPLEX from './svgs/tokens/background/PLEX.svg'
+import * as TBackgroundOBSR from './svgs/tokens/background/OBSR.svg'
+import * as TBackgroundILV from './svgs/tokens/background/ILV.svg'
+import * as TBackgroundRXD from './svgs/tokens/background/RXD.svg'
+import * as TBackgroundZERO from './svgs/tokens/background/ZERO.svg'
+import * as TBackgroundDIVER from './svgs/tokens/background/DIVER.svg'
+import * as TBackgroundWGC from './svgs/tokens/background/WGC.svg'
+import * as TBackgroundDEGEN from './svgs/tokens/background/DEGEN.svg'
+import * as TBackgroundFUSE from './svgs/tokens/background/FUSE.svg'
+import * as TBackgroundGZIL from './svgs/tokens/background/GZIL.svg'
+import * as TBackgroundYES from './svgs/tokens/background/YES.svg'
+import * as TBackgroundPLU from './svgs/tokens/background/PLU.svg'
+import * as TBackgroundICX from './svgs/tokens/background/ICX.svg'
+import * as TBackgroundRVN from './svgs/tokens/background/RVN.svg'
+import * as TBackgroundGODS from './svgs/tokens/background/GODS.svg'
+import * as TBackgroundOPTI from './svgs/tokens/background/OPTI.svg'
+import * as TBackgroundPRTC from './svgs/tokens/background/PRTC.svg'
+import * as TBackgroundPXP from './svgs/tokens/background/PXP.svg'
+import * as TBackgroundDOGEGF from './svgs/tokens/background/DOGEGF.svg'
+import * as TBackgroundLDO from './svgs/tokens/background/LDO.svg'
+import * as TBackgroundKAR from './svgs/tokens/background/KAR.svg'
+import * as TBackgroundHEGIC from './svgs/tokens/background/HEGIC.svg'
+import * as TBackgroundSLND from './svgs/tokens/background/SLND.svg'
+import * as TBackgroundQUINT from './svgs/tokens/background/QUINT.svg'
+import * as TBackgroundWOMBAT from './svgs/tokens/background/WOMBAT.svg'
+import * as TBackgroundPTS from './svgs/tokens/background/PTS.svg'
+import * as TBackgroundXTM from './svgs/tokens/background/XTM.svg'
+import * as TBackgroundCCD from './svgs/tokens/background/CCD.svg'
+import * as TBackgroundCIRUS from './svgs/tokens/background/CIRUS.svg'
+import * as TBackgroundXTZ from './svgs/tokens/background/XTZ.svg'
+import * as TBackgroundTDROP from './svgs/tokens/background/TDROP.svg'
+import * as TBackgroundVXV from './svgs/tokens/background/VXV.svg'
+import * as TBackgroundAXL from './svgs/tokens/background/AXL.svg'
+import * as TBackgroundCNC from './svgs/tokens/background/CNC.svg'
+import * as TBackgroundOXT from './svgs/tokens/background/OXT.svg'
+import * as TBackgroundAVG from './svgs/tokens/background/AVG.svg'
+import * as TBackgroundHOSHI from './svgs/tokens/background/HOSHI.svg'
+import * as TBackgroundDIA from './svgs/tokens/background/DIA.svg'
+import * as TBackgroundWOOF from './svgs/tokens/background/WOOF.svg'
+import * as TBackgroundFOUR from './svgs/tokens/background/FOUR.svg'
+import * as TBackgroundMBX from './svgs/tokens/background/MBX.svg'
+import * as TBackgroundPI from './svgs/tokens/background/PI.svg'
+import * as TBackgroundPOLC from './svgs/tokens/background/POLC.svg'
+import * as TBackgroundBBANK from './svgs/tokens/background/BBANK.svg'
+import * as TBackgroundMNDE from './svgs/tokens/background/MNDE.svg'
+import * as TBackgroundWLITI from './svgs/tokens/background/WLITI.svg'
+import * as TBackgroundACQ from './svgs/tokens/background/ACQ.svg'
+import * as TBackgroundHFT from './svgs/tokens/background/HFT.svg'
+import * as TBackgroundCNHT from './svgs/tokens/background/CNHT.svg'
+import * as TBackgroundAURORA from './svgs/tokens/background/AURORA.svg'
+import * as TBackgroundCVR from './svgs/tokens/background/CVR.svg'
+import * as TBackgroundALI from './svgs/tokens/background/ALI.svg'
+import * as TBackgroundNEER from './svgs/tokens/background/NEER.svg'
+import * as TBackgroundCVP from './svgs/tokens/background/CVP.svg'
+import * as TBackgroundMXC from './svgs/tokens/background/MXC.svg'
+import * as TBackgroundANT from './svgs/tokens/background/ANT.svg'
+import * as TBackgroundDSM from './svgs/tokens/background/DSM.svg'
+import * as TBackgroundHEZ from './svgs/tokens/background/HEZ.svg'
+import * as TBackgroundMINU from './svgs/tokens/background/MINU.svg'
+import * as TBackgroundJEWEL from './svgs/tokens/background/JEWEL.svg'
+import * as TBackgroundPEPES from './svgs/tokens/background/PEPES.svg'
+import * as TBackgroundCTX from './svgs/tokens/background/CTX.svg'
+import * as TBackgroundBTCMT from './svgs/tokens/background/BTCMT.svg'
+import * as TBackgroundMETA from './svgs/tokens/background/META.svg'
+import * as TBackgroundWITCH from './svgs/tokens/background/WITCH.svg'
+import * as TBackgroundETHW from './svgs/tokens/background/ETHW.svg'
+import * as TBackgroundXNA from './svgs/tokens/background/XNA.svg'
+import * as TBackgroundACS from './svgs/tokens/background/ACS.svg'
+import * as TBackgroundXOR from './svgs/tokens/background/XOR.svg'
+import * as TBackgroundVCORE from './svgs/tokens/background/VCORE.svg'
+import * as TBackgroundPUSSY from './svgs/tokens/background/PUSSY.svg'
+import * as TBackgroundEVER from './svgs/tokens/background/EVER.svg'
+import * as TBackgroundSTFX from './svgs/tokens/background/STFX.svg'
+import * as TBackgroundMYST from './svgs/tokens/background/MYST.svg'
+import * as TBackgroundPOLA from './svgs/tokens/background/POLA.svg'
+import * as TBackgroundATM from './svgs/tokens/background/ATM.svg'
+import * as TBackgroundSHROOM from './svgs/tokens/background/SHROOM.svg'
+import * as TBackgroundMAV from './svgs/tokens/background/MAV.svg'
+import * as TBackgroundREVV from './svgs/tokens/background/REVV.svg'
+import * as TBackgroundXVG from './svgs/tokens/background/XVG.svg'
+import * as TBackgroundDENT from './svgs/tokens/background/DENT.svg'
+import * as TBackgroundD2T from './svgs/tokens/background/D2T.svg'
+import * as TBackgroundEOSDT from './svgs/tokens/background/EOSDT.svg'
+import * as TBackgroundZLK from './svgs/tokens/background/ZLK.svg'
+import * as TBackgroundODIN from './svgs/tokens/background/ODIN.svg'
+import * as TBackgroundWAGMIGAMES from './svgs/tokens/background/WAGMIGAMES.svg'
+import * as TBackgroundKAP from './svgs/tokens/background/KAP.svg'
+import * as TBackgroundRLB from './svgs/tokens/background/RLB.svg'
+import * as TBackgroundORBS from './svgs/tokens/background/ORBS.svg'
+import * as TBackgroundENG from './svgs/tokens/background/ENG.svg'
+import * as TBackgroundKMD from './svgs/tokens/background/KMD.svg'
+import * as TBackgroundSUTER from './svgs/tokens/background/SUTER.svg'
+import * as TBackgroundCRVUSD from './svgs/tokens/background/CRVUSD.svg'
+import * as TBackgroundRAE from './svgs/tokens/background/RAE.svg'
+import * as TBackgroundSWTH from './svgs/tokens/background/SWTH.svg'
+import * as TBackgroundNGC from './svgs/tokens/background/NGC.svg'
+import * as TBackgroundGLM from './svgs/tokens/background/GLM.svg'
+import * as TBackgroundETI from './svgs/tokens/background/ETI.svg'
+import * as TBackgroundPOL from './svgs/tokens/background/POL.svg'
+import * as TBackgroundWLKN from './svgs/tokens/background/WLKN.svg'
+import * as TBackgroundCONV from './svgs/tokens/background/CONV.svg'
+import * as TBackgroundBLOX from './svgs/tokens/background/BLOX.svg'
+import * as TBackgroundTROVE from './svgs/tokens/background/TROVE.svg'
+import * as TBackgroundLSD from './svgs/tokens/background/LSD.svg'
+import * as TBackgroundKUB from './svgs/tokens/background/KUB.svg'
+import * as TBackgroundINJ from './svgs/tokens/background/INJ.svg'
+import * as TBackgroundION from './svgs/tokens/background/ION.svg'
+import * as TBackgroundKOMPETE from './svgs/tokens/background/KOMPETE.svg'
+import * as TBackgroundWELT from './svgs/tokens/background/WELT.svg'
+import * as TBackgroundKASTA from './svgs/tokens/background/KASTA.svg'
+import * as TBackgroundNFTX from './svgs/tokens/background/NFTX.svg'
+import * as TBackgroundMTVT from './svgs/tokens/background/MTVT.svg'
+import * as TBackgroundSAUCE from './svgs/tokens/background/SAUCE.svg'
+import * as TBackground1INCH from './svgs/tokens/background/1INCH.svg'
+import * as TBackgroundUSDV from './svgs/tokens/background/USDV.svg'
+import * as TBackgroundDOLA from './svgs/tokens/background/DOLA.svg'
+import * as TBackgroundDOME from './svgs/tokens/background/DOME.svg'
+import * as TBackgroundPLA from './svgs/tokens/background/PLA.svg'
+import * as TBackgroundGNS from './svgs/tokens/background/GNS.svg'
+import * as TBackgroundEUL from './svgs/tokens/background/EUL.svg'
+import * as TBackgroundDMTR from './svgs/tokens/background/DMTR.svg'
+import * as TBackgroundMETIS from './svgs/tokens/background/METIS.svg'
+import * as TBackgroundAIMX from './svgs/tokens/background/AIMX.svg'
+import * as TBackgroundMOOV from './svgs/tokens/background/MOOV.svg'
+import * as TBackgroundBRN from './svgs/tokens/background/BRN.svg'
+import * as TBackgroundETH from './svgs/tokens/background/ETH.svg'
+import * as TBackgroundRAD from './svgs/tokens/background/RAD.svg'
+import * as TBackgroundSTIMA from './svgs/tokens/background/STIMA.svg'
+import * as TBackgroundKOM from './svgs/tokens/background/KOM.svg'
+import * as TBackgroundKLV from './svgs/tokens/background/KLV.svg'
+import * as TBackgroundGOFX from './svgs/tokens/background/GOFX.svg'
+import * as TBackgroundBDT from './svgs/tokens/background/BDT.svg'
+import * as TBackgroundWING from './svgs/tokens/background/WING.svg'
+import * as TBackgroundORAI from './svgs/tokens/background/ORAI.svg'
+import * as TBackgroundKWAI from './svgs/tokens/background/KWAI.svg'
+import * as TBackgroundRLC from './svgs/tokens/background/RLC.svg'
+import * as TBackgroundBITCI from './svgs/tokens/background/BITCI.svg'
+import * as TBackgroundPOOLX from './svgs/tokens/background/POOLX.svg'
+import * as TBackgroundPORTX from './svgs/tokens/background/PORTX.svg'
+import * as TBackgroundZMN from './svgs/tokens/background/ZMN.svg'
+import * as TBackgroundJIM from './svgs/tokens/background/JIM.svg'
+import * as TBackgroundYFII from './svgs/tokens/background/YFII.svg'
+import * as TBackgroundRETH from './svgs/tokens/background/RETH.svg'
+import * as TBackgroundTOSHI from './svgs/tokens/background/TOSHI.svg'
+import * as TBackgroundMBL from './svgs/tokens/background/MBL.svg'
+import * as TBackgroundSIX from './svgs/tokens/background/SIX.svg'
+import * as TBackgroundLOKA from './svgs/tokens/background/LOKA.svg'
+import * as TBackgroundCLH from './svgs/tokens/background/CLH.svg'
+import * as TBackgroundDIVI from './svgs/tokens/background/DIVI.svg'
+import * as TBackgroundCOS from './svgs/tokens/background/COS.svg'
+import * as TBackgroundFSN from './svgs/tokens/background/FSN.svg'
+import * as TBackgroundJST from './svgs/tokens/background/JST.svg'
+import * as TBackgroundSTPT from './svgs/tokens/background/STPT.svg'
+import * as TBackgroundPHONON from './svgs/tokens/background/PHONON.svg'
+import * as TBackgroundMVI from './svgs/tokens/background/MVI.svg'
+import * as TBackgroundPIXEL from './svgs/tokens/background/PIXEL.svg'
+import * as TBackgroundMTV from './svgs/tokens/background/MTV.svg'
+import * as TBackgroundSTRK from './svgs/tokens/background/STRK.svg'
+import * as TBackgroundDUST from './svgs/tokens/background/DUST.svg'
+import * as TBackgroundGORILLA from './svgs/tokens/background/GORILLA.svg'
+import * as TBackgroundFET from './svgs/tokens/background/FET.svg'
+import * as TBackgroundGT from './svgs/tokens/background/GT.svg'
+import * as TBackgroundMTA from './svgs/tokens/background/MTA.svg'
+import * as TBackgroundFOLD from './svgs/tokens/background/FOLD.svg'
+import * as TBackgroundPMON from './svgs/tokens/background/PMON.svg'
+import * as TBackgroundIBAT from './svgs/tokens/background/IBAT.svg'
+import * as TBackgroundONION from './svgs/tokens/background/ONION.svg'
+import * as TBackgroundXCP from './svgs/tokens/background/XCP.svg'
+import * as TBackgroundH2O from './svgs/tokens/background/H2O.svg'
+import * as TBackgroundRITE from './svgs/tokens/background/RITE.svg'
+import * as TBackgroundTVK from './svgs/tokens/background/TVK.svg'
+import * as TBackgroundVNO from './svgs/tokens/background/VNO.svg'
+import * as TBackgroundSSV from './svgs/tokens/background/SSV.svg'
+import * as TBackgroundMIMO from './svgs/tokens/background/MIMO.svg'
+import * as TBackgroundWAXP from './svgs/tokens/background/WAXP.svg'
+import * as TBackgroundSAFE from './svgs/tokens/background/SAFE.svg'
+import * as TBackgroundDPS from './svgs/tokens/background/DPS.svg'
+import * as TBackgroundTUT from './svgs/tokens/background/TUT.svg'
+import * as TBackgroundMUSIC from './svgs/tokens/background/MUSIC.svg'
+import * as TBackgroundFIS from './svgs/tokens/background/FIS.svg'
+import * as TBackgroundEUROE from './svgs/tokens/background/EUROE.svg'
+import * as TBackgroundONI from './svgs/tokens/background/ONI.svg'
+import * as TBackgroundGG from './svgs/tokens/background/GG.svg'
+import * as TBackgroundFEG from './svgs/tokens/background/FEG.svg'
+import * as TBackgroundSTRX from './svgs/tokens/background/STRX.svg'
+import * as TBackgroundNULS from './svgs/tokens/background/NULS.svg'
+import * as TBackgroundCEUR from './svgs/tokens/background/CEUR.svg'
+import * as TBackgroundABR from './svgs/tokens/background/ABR.svg'
+import * as TBackgroundCND from './svgs/tokens/background/CND.svg'
+import * as TBackgroundSHX from './svgs/tokens/background/SHX.svg'
+import * as TBackgroundPOLS from './svgs/tokens/background/POLS.svg'
+import * as TBackgroundPOOH from './svgs/tokens/background/POOH.svg'
+import * as TBackgroundPAAL from './svgs/tokens/background/PAAL.svg'
+import * as TBackgroundATH from './svgs/tokens/background/ATH.svg'
+import * as TBackgroundCOW from './svgs/tokens/background/COW.svg'
+import * as TBackgroundEQUAL from './svgs/tokens/background/EQUAL.svg'
+import * as TBackgroundPUNDIX from './svgs/tokens/background/PUNDIX.svg'
+import * as TBackgroundSFD from './svgs/tokens/background/SFD.svg'
+import * as TBackgroundSPORE from './svgs/tokens/background/SPORE.svg'
+import * as TBackgroundATOR from './svgs/tokens/background/ATOR.svg'
+import * as TBackgroundSDL from './svgs/tokens/background/SDL.svg'
+import * as TBackgroundDFI from './svgs/tokens/background/DFI.svg'
+import * as TBackgroundCCT from './svgs/tokens/background/CCT.svg'
+import * as TBackgroundKAU from './svgs/tokens/background/KAU.svg'
+import * as TBackgroundGMPD from './svgs/tokens/background/GMPD.svg'
+import * as TBackgroundSHIDO from './svgs/tokens/background/SHIDO.svg'
+import * as TBackgroundROME from './svgs/tokens/background/ROME.svg'
+import * as TBackgroundSKEB from './svgs/tokens/background/SKEB.svg'
+import * as TBackgroundKMA from './svgs/tokens/background/KMA.svg'
+import * as TBackgroundBDP from './svgs/tokens/background/BDP.svg'
+import * as TBackgroundNRG from './svgs/tokens/background/NRG.svg'
+import * as TBackgroundRSS3 from './svgs/tokens/background/RSS3.svg'
+import * as TBackgroundIMGNAI from './svgs/tokens/background/IMGNAI.svg'
+import * as TBackgroundMONA from './svgs/tokens/background/MONA.svg'
+import * as TBackgroundPLR from './svgs/tokens/background/PLR.svg'
+import * as TBackgroundHANDY from './svgs/tokens/background/HANDY.svg'
+import * as TBackgroundEXTRA from './svgs/tokens/background/EXTRA.svg'
+import * as TBackgroundFEVR from './svgs/tokens/background/FEVR.svg'
+import * as TBackgroundNIM from './svgs/tokens/background/NIM.svg'
+import * as TBackgroundLPOOL from './svgs/tokens/background/LPOOL.svg'
+import * as TBackgroundUNDEAD from './svgs/tokens/background/UNDEAD.svg'
+import * as TBackgroundGMEE from './svgs/tokens/background/GMEE.svg'
+import * as TBackgroundKTC from './svgs/tokens/background/KTC.svg'
+import * as TBackgroundCSPR from './svgs/tokens/background/CSPR.svg'
+import * as TBackgroundSBTC from './svgs/tokens/background/SBTC.svg'
+import * as TBackgroundDOBO from './svgs/tokens/background/DOBO.svg'
+import * as TBackgroundLEVER from './svgs/tokens/background/LEVER.svg'
+import * as TBackgroundAGLA from './svgs/tokens/background/AGLA.svg'
+import * as TBackgroundAURY from './svgs/tokens/background/AURY.svg'
+import * as TBackgroundPAC from './svgs/tokens/background/PAC.svg'
+import * as TBackgroundPBX from './svgs/tokens/background/PBX.svg'
+import * as TBackgroundICHI from './svgs/tokens/background/ICHI.svg'
+import * as TBackgroundCUDOS from './svgs/tokens/background/CUDOS.svg'
+import * as TBackgroundNEX from './svgs/tokens/background/NEX.svg'
+import * as TBackgroundUSDD from './svgs/tokens/background/USDD.svg'
+import * as TBackgroundNCDT from './svgs/tokens/background/NCDT.svg'
+import * as TBackgroundCONE from './svgs/tokens/background/CONE.svg'
+import * as TBackgroundWIN from './svgs/tokens/background/WIN.svg'
+import * as TBackgroundYDF from './svgs/tokens/background/YDF.svg'
+import * as TBackgroundBSX from './svgs/tokens/background/BSX.svg'
+import * as TBackgroundNEO from './svgs/tokens/background/NEO.svg'
+import * as TBackgroundHONEY from './svgs/tokens/background/HONEY.svg'
+import * as TBackgroundPRIME from './svgs/tokens/background/PRIME.svg'
+import * as TBackgroundSLAM from './svgs/tokens/background/SLAM.svg'
+import * as TBackgroundPYR from './svgs/tokens/background/PYR.svg'
+import * as TBackgroundUFT from './svgs/tokens/background/UFT.svg'
+import * as TBackgroundUMAMI from './svgs/tokens/background/UMAMI.svg'
+import * as TBackgroundBRRR from './svgs/tokens/background/BRRR.svg'
+import * as TBackgroundLIF3 from './svgs/tokens/background/LIF3.svg'
+import * as TBackgroundXCFX from './svgs/tokens/background/XCFX.svg'
+import * as TBackgroundTEER from './svgs/tokens/background/TEER.svg'
+import * as TBackgroundBLUR from './svgs/tokens/background/BLUR.svg'
+import * as TBackgroundGOLDEN from './svgs/tokens/background/GOLDEN.svg'
+import * as TBackgroundELK from './svgs/tokens/background/ELK.svg'
+import * as TBackgroundPTU from './svgs/tokens/background/PTU.svg'
+import * as TBackgroundKP3R from './svgs/tokens/background/KP3R.svg'
+import * as TBackgroundIXT from './svgs/tokens/background/IXT.svg'
+import * as TBackgroundBCOIN from './svgs/tokens/background/BCOIN.svg'
+import * as TBackgroundNADA from './svgs/tokens/background/NADA.svg'
+import * as TBackgroundKAT from './svgs/tokens/background/KAT.svg'
+import * as TBackgroundSEI from './svgs/tokens/background/SEI.svg'
+import * as TBackgroundMMF from './svgs/tokens/background/MMF.svg'
+import * as TBackgroundCETUS from './svgs/tokens/background/CETUS.svg'
+import * as TBackgroundXWG from './svgs/tokens/background/XWG.svg'
+import * as TBackgroundXPRT from './svgs/tokens/background/XPRT.svg'
+import * as TBackgroundDIP from './svgs/tokens/background/DIP.svg'
+import * as TBackgroundCOV from './svgs/tokens/background/COV.svg'
+import * as TBackgroundODDZ from './svgs/tokens/background/ODDZ.svg'
+import * as TBackgroundDHT from './svgs/tokens/background/DHT.svg'
+import * as TBackgroundSC from './svgs/tokens/background/SC.svg'
+import * as TBackgroundJUNGLE4EOS from './svgs/tokens/background/JUNGLE4EOS.svg'
+import * as TBackgroundAVA from './svgs/tokens/background/AVA.svg'
+import * as TBackgroundSTEP from './svgs/tokens/background/STEP.svg'
+import * as TBackgroundGQ from './svgs/tokens/background/GQ.svg'
+import * as TBackgroundARIA20 from './svgs/tokens/background/ARIA20.svg'
+import * as TBackgroundMTD from './svgs/tokens/background/MTD.svg'
+import * as TBackgroundVRSW from './svgs/tokens/background/VRSW.svg'
+import * as TBackgroundMNGO from './svgs/tokens/background/MNGO.svg'
+import * as TBackgroundMVL from './svgs/tokens/background/MVL.svg'
+import * as TBackgroundSCRT from './svgs/tokens/background/SCRT.svg'
+import * as TBackgroundMTS from './svgs/tokens/background/MTS.svg'
+import * as TBackgroundFOOM from './svgs/tokens/background/FOOM.svg'
+import * as TBackgroundCTK from './svgs/tokens/background/CTK.svg'
+import * as TBackgroundSPH from './svgs/tokens/background/SPH.svg'
+import * as TBackgroundHOLD from './svgs/tokens/background/HOLD.svg'
+import * as TBackgroundBCDT from './svgs/tokens/background/BCDT.svg'
+import * as TBackgroundZYN from './svgs/tokens/background/ZYN.svg'
+import * as TBackgroundCVC from './svgs/tokens/background/CVC.svg'
+import * as TBackgroundHGT from './svgs/tokens/background/HGT.svg'
+import * as TBackgroundAVAX from './svgs/tokens/background/AVAX.svg'
+import * as TBackgroundCWEB from './svgs/tokens/background/CWEB.svg'
+import * as TBackgroundOBI from './svgs/tokens/background/OBI.svg'
+import * as TBackgroundMIND from './svgs/tokens/background/MIND.svg'
+import * as TBackgroundHDX from './svgs/tokens/background/HDX.svg'
+import * as TBackgroundCTI from './svgs/tokens/background/CTI.svg'
+import * as TBackgroundALEPH from './svgs/tokens/background/ALEPH.svg'
+import * as TBackgroundSHOPX from './svgs/tokens/background/SHOPX.svg'
+import * as TBackgroundIRIS from './svgs/tokens/background/IRIS.svg'
+import * as TBackgroundSOFI from './svgs/tokens/background/SOFI.svg'
+import * as TBackgroundEL from './svgs/tokens/background/EL.svg'
+import * as TBackgroundOZO from './svgs/tokens/background/OZO.svg'
+import * as TBackgroundCOC from './svgs/tokens/background/COC.svg'
+import * as TBackgroundMAP from './svgs/tokens/background/MAP.svg'
+import * as TBackgroundCNG from './svgs/tokens/background/CNG.svg'
+import * as TBackgroundTON from './svgs/tokens/background/TON.svg'
+import * as TBackgroundFRM from './svgs/tokens/background/FRM.svg'
+import * as TBackgroundOMMI from './svgs/tokens/background/OMMI.svg'
+import * as TBackgroundAVT from './svgs/tokens/background/AVT.svg'
+import * as TBackgroundAVINOC from './svgs/tokens/background/AVINOC.svg'
+import * as TBackgroundWALV from './svgs/tokens/background/WALV.svg'
+import * as TBackgroundBTSE from './svgs/tokens/background/BTSE.svg'
+import * as TBackgroundSFP from './svgs/tokens/background/SFP.svg'
+import * as TBackgroundMEME from './svgs/tokens/background/MEME.svg'
+import * as TBackgroundCAH from './svgs/tokens/background/CAH.svg'
+import * as TBackgroundCOTI from './svgs/tokens/background/COTI.svg'
+import * as TBackgroundLEO from './svgs/tokens/background/LEO.svg'
+import * as TBackgroundFNSA from './svgs/tokens/background/FNSA.svg'
+import * as TBackgroundCROID from './svgs/tokens/background/CROID.svg'
+import * as TBackgroundBIT from './svgs/tokens/background/BIT.svg'
+import * as TBackgroundNFAI from './svgs/tokens/background/NFAI.svg'
+import * as TBackgroundALGO from './svgs/tokens/background/ALGO.svg'
+import * as TBackgroundNODL from './svgs/tokens/background/NODL.svg'
+import * as TBackgroundRBX from './svgs/tokens/background/RBX.svg'
+import * as TBackgroundCOSMOS from './svgs/tokens/background/COSMOS.svg'
+import * as TBackgroundWNDR from './svgs/tokens/background/WNDR.svg'
+import * as TBackgroundXCHF from './svgs/tokens/background/XCHF.svg'
+import * as TBackgroundGMX from './svgs/tokens/background/GMX.svg'
+import * as TBackgroundONIT from './svgs/tokens/background/ONIT.svg'
+import * as TBackgroundPIVX from './svgs/tokens/background/PIVX.svg'
+import * as TBackgroundBIST from './svgs/tokens/background/BIST.svg'
+import * as TBackgroundEWT from './svgs/tokens/background/EWT.svg'
+import * as TBackgroundRWN from './svgs/tokens/background/RWN.svg'
+import * as TBackgroundCHEQ from './svgs/tokens/background/CHEQ.svg'
+import * as TBackgroundHUSD from './svgs/tokens/background/HUSD.svg'
+import * as TBackgroundKLAY from './svgs/tokens/background/KLAY.svg'
+import * as TBackgroundPROM from './svgs/tokens/background/PROM.svg'
+import * as TBackgroundGAL from './svgs/tokens/background/GAL.svg'
+import * as TBackgroundIDLE from './svgs/tokens/background/IDLE.svg'
+import * as TBackgroundGCR from './svgs/tokens/background/GCR.svg'
+import * as TBackgroundPAW from './svgs/tokens/background/PAW.svg'
+import * as TBackgroundKEKE from './svgs/tokens/background/KEKE.svg'
+import * as TBackgroundTRONPAD from './svgs/tokens/background/TRONPAD.svg'
+import * as TBackgroundETN from './svgs/tokens/background/ETN.svg'
+import * as TBackgroundTIDAL from './svgs/tokens/background/TIDAL.svg'
+import * as TBackgroundRUG from './svgs/tokens/background/RUG.svg'
+import * as TBackgroundSOLVE from './svgs/tokens/background/SOLVE.svg'
+import * as TBackgroundKUNCI from './svgs/tokens/background/KUNCI.svg'
+import * as TBackgroundVTHO from './svgs/tokens/background/VTHO.svg'
+import * as TBackgroundRBN from './svgs/tokens/background/RBN.svg'
+import * as TBackgroundRENBTC from './svgs/tokens/background/RENBTC.svg'
+import * as TBackgroundFLEX from './svgs/tokens/background/FLEX.svg'
+import * as TBackgroundNPM from './svgs/tokens/background/NPM.svg'
+import * as TBackgroundEOS from './svgs/tokens/background/EOS.svg'
+import * as TBackgroundMOVR from './svgs/tokens/background/MOVR.svg'
+import * as TBackgroundIMPT from './svgs/tokens/background/IMPT.svg'
+import * as TBackgroundEML from './svgs/tokens/background/EML.svg'
+import * as TBackgroundUNIBOT from './svgs/tokens/background/UNIBOT.svg'
+import * as TBackgroundMOVE from './svgs/tokens/background/MOVE.svg'
+import * as TBackground0X0 from './svgs/tokens/background/0X0.svg'
+import * as TBackgroundSDN from './svgs/tokens/background/SDN.svg'
+import * as TBackgroundUNFI from './svgs/tokens/background/UNFI.svg'
+import * as TBackgroundCELR from './svgs/tokens/background/CELR.svg'
+import * as TBackgroundDEP from './svgs/tokens/background/DEP.svg'
+import * as TBackgroundDGX from './svgs/tokens/background/DGX.svg'
+import * as TBackgroundFPS from './svgs/tokens/background/FPS.svg'
+import * as TBackgroundQSR from './svgs/tokens/background/QSR.svg'
+import * as TBackgroundQUBE from './svgs/tokens/background/QUBE.svg'
+import * as TBackgroundPUMLX from './svgs/tokens/background/PUMLX.svg'
+import * as TBackgroundXYO from './svgs/tokens/background/XYO.svg'
+import * as TBackgroundBZRX from './svgs/tokens/background/BZRX.svg'
+import * as TBackgroundCLY from './svgs/tokens/background/CLY.svg'
+import * as TBackgroundBRIDGE from './svgs/tokens/background/BRIDGE.svg'
+import * as TBackgroundXIDO from './svgs/tokens/background/XIDO.svg'
+import * as TBackgroundMETF from './svgs/tokens/background/METF.svg'
+import * as TBackgroundKIBSHI from './svgs/tokens/background/KIBSHI.svg'
+import * as TBackgroundMPLX from './svgs/tokens/background/MPLX.svg'
+import * as TBackgroundBLANK from './svgs/tokens/background/BLANK.svg'
+import * as TBackgroundFER from './svgs/tokens/background/FER.svg'
+import * as TBackgroundCHAIN from './svgs/tokens/background/CHAIN.svg'
+import * as TBackgroundTAKI from './svgs/tokens/background/TAKI.svg'
+import * as TBackgroundMVX from './svgs/tokens/background/MVX.svg'
+import * as TBackgroundACT from './svgs/tokens/background/ACT.svg'
+import * as TBackgroundOLT from './svgs/tokens/background/OLT.svg'
+import * as TBackgroundSSWP from './svgs/tokens/background/SSWP.svg'
+import * as TBackgroundCREDI from './svgs/tokens/background/CREDI.svg'
+import * as TBackgroundEXRD from './svgs/tokens/background/EXRD.svg'
+import * as TBackgroundCWS from './svgs/tokens/background/CWS.svg'
+import * as TBackgroundHOOK from './svgs/tokens/background/HOOK.svg'
+import * as TBackgroundQKC from './svgs/tokens/background/QKC.svg'
+import * as TBackgroundGSWIFT from './svgs/tokens/background/GSWIFT.svg'
+import * as TBackgroundOAS from './svgs/tokens/background/OAS.svg'
+import * as TBackgroundFLM from './svgs/tokens/background/FLM.svg'
+import * as TBackgroundTRU from './svgs/tokens/background/TRU.svg'
+import * as TBackgroundXDB from './svgs/tokens/background/XDB.svg'
+import * as TBackgroundXDEFI from './svgs/tokens/background/XDEFI.svg'
+import * as TBackgroundCQT from './svgs/tokens/background/CQT.svg'
+import * as TBackgroundCRO from './svgs/tokens/background/CRO.svg'
+import * as TBackgroundMV from './svgs/tokens/background/MV.svg'
+import * as TBackgroundNRCH from './svgs/tokens/background/NRCH.svg'
+import * as TBackgroundAHT from './svgs/tokens/background/AHT.svg'
+import * as TBackgroundGBEX from './svgs/tokens/background/GBEX.svg'
+import * as TBackgroundTRB from './svgs/tokens/background/TRB.svg'
+import * as TBackgroundZOOMER from './svgs/tokens/background/ZOOMER.svg'
+import * as TBackgroundSXP from './svgs/tokens/background/SXP.svg'
+import * as TBackgroundBLUESPARROW from './svgs/tokens/background/BLUESPARROW.svg'
+import * as TBackgroundXPLA from './svgs/tokens/background/XPLA.svg'
+import * as TBackgroundCLXY from './svgs/tokens/background/CLXY.svg'
+import * as TBackgroundCARBON from './svgs/tokens/background/CARBON.svg'
+import * as TBackgroundXHV from './svgs/tokens/background/XHV.svg'
+import * as TBackgroundSALT from './svgs/tokens/background/SALT.svg'
+import * as TBackgroundDOT from './svgs/tokens/background/DOT.svg'
+import * as TBackgroundNEXO from './svgs/tokens/background/NEXO.svg'
+import * as TBackgroundTT from './svgs/tokens/background/TT.svg'
+import * as TBackgroundAPE from './svgs/tokens/background/APE.svg'
+import * as TBackgroundELAND from './svgs/tokens/background/ELAND.svg'
+import * as TBackgroundSMBR from './svgs/tokens/background/SMBR.svg'
+import * as TBackgroundORB from './svgs/tokens/background/ORB.svg'
+import * as TBackgroundTGT from './svgs/tokens/background/TGT.svg'
+import * as TBackgroundZIG from './svgs/tokens/background/ZIG.svg'
+import * as TBackgroundTRCL from './svgs/tokens/background/TRCL.svg'
+import * as TBackgroundKEX from './svgs/tokens/background/KEX.svg'
+import * as TBackgroundPRQ from './svgs/tokens/background/PRQ.svg'
+import * as TBackgroundRIN from './svgs/tokens/background/RIN.svg'
+import * as TBackgroundXSGD from './svgs/tokens/background/XSGD.svg'
+import * as TBackgroundKINT from './svgs/tokens/background/KINT.svg'
+import * as TBackgroundMMPRO from './svgs/tokens/background/MMPRO.svg'
+import * as TBackgroundWBTC from './svgs/tokens/background/WBTC.svg'
+import * as TBackgroundEFL from './svgs/tokens/background/EFL.svg'
+import * as TBackgroundSWEAT from './svgs/tokens/background/SWEAT.svg'
+import * as TBackgroundWXT from './svgs/tokens/background/WXT.svg'
+import * as TBackgroundRPL from './svgs/tokens/background/RPL.svg'
+import * as TBackgroundCROWD from './svgs/tokens/background/CROWD.svg'
+import * as TBackgroundCYBER from './svgs/tokens/background/CYBER.svg'
+import * as TBackgroundGIV from './svgs/tokens/background/GIV.svg'
+import * as TBackgroundBEAM from './svgs/tokens/background/BEAM.svg'
+import * as TBackgroundTRYB from './svgs/tokens/background/TRYB.svg'
+import * as TBackgroundAIPAD from './svgs/tokens/background/AIPAD.svg'
+import * as TBackgroundWNXM from './svgs/tokens/background/WNXM.svg'
+import * as TBackgroundNLS from './svgs/tokens/background/NLS.svg'
+import * as TBackgroundPEX from './svgs/tokens/background/PEX.svg'
+import * as TBackgroundTRVL from './svgs/tokens/background/TRVL.svg'
+import * as TBackgroundGET from './svgs/tokens/background/GET.svg'
+import * as TBackgroundFDUSD from './svgs/tokens/background/FDUSD.svg'
+import * as TBackgroundJESUS from './svgs/tokens/background/JESUS.svg'
+import * as TBackgroundQANX from './svgs/tokens/background/QANX.svg'
+import * as TBackgroundBZR from './svgs/tokens/background/BZR.svg'
+import * as TBackgroundSILK from './svgs/tokens/background/SILK.svg'
+import * as TBackgroundPKR from './svgs/tokens/background/PKR.svg'
+import * as TBackgroundSAKAI from './svgs/tokens/background/SAKAI.svg'
+import * as TBackgroundPEPE from './svgs/tokens/background/PEPE.svg'
+import * as TBackgroundKIBA from './svgs/tokens/background/KIBA.svg'
+import * as TBackgroundBAX from './svgs/tokens/background/BAX.svg'
+import * as TBackgroundFRIN from './svgs/tokens/background/FRIN.svg'
+import * as TBackgroundTROY from './svgs/tokens/background/TROY.svg'
+import * as TBackgroundBRWL from './svgs/tokens/background/BRWL.svg'
+import * as TBackgroundLINK from './svgs/tokens/background/LINK.svg'
+import * as TBackgroundALOT from './svgs/tokens/background/ALOT.svg'
+import * as TBackgroundUMA from './svgs/tokens/background/UMA.svg'
+import * as TBackgroundSPELL from './svgs/tokens/background/SPELL.svg'
+import * as TBackgroundMMIT from './svgs/tokens/background/MMIT.svg'
+import * as TBackgroundMORK from './svgs/tokens/background/MORK.svg'
+import * as TBackgroundKEY from './svgs/tokens/background/KEY.svg'
+import * as TBackgroundJULD from './svgs/tokens/background/JULD.svg'
+import * as TBackgroundSATS from './svgs/tokens/background/SATS.svg'
+import * as TBackgroundHTR from './svgs/tokens/background/HTR.svg'
+import * as TBackgroundORT from './svgs/tokens/background/ORT.svg'
+import * as TBackgroundGYEN from './svgs/tokens/background/GYEN.svg'
+import * as TBackgroundFARM from './svgs/tokens/background/FARM.svg'
+import * as TBackgroundDAI from './svgs/tokens/background/DAI.svg'
+import * as TBackgroundDBR from './svgs/tokens/background/DBR.svg'
+import * as TBackgroundMATICX from './svgs/tokens/background/MATICX.svg'
+import * as TBackgroundCDT from './svgs/tokens/background/CDT.svg'
+import * as TBackgroundCGO from './svgs/tokens/background/CGO.svg'
+import * as TBackgroundGLEEC from './svgs/tokens/background/GLEEC.svg'
+import * as TBackgroundUBXS from './svgs/tokens/background/UBXS.svg'
+import * as TBackgroundDEFI from './svgs/tokens/background/DEFI.svg'
+import * as TBackgroundVRA from './svgs/tokens/background/VRA.svg'
+import * as TBackgroundHZN from './svgs/tokens/background/HZN.svg'
+import * as TBackgroundFUN from './svgs/tokens/background/FUN.svg'
+import * as TBackgroundVITA from './svgs/tokens/background/VITA.svg'
+import * as TBackgroundZEE from './svgs/tokens/background/ZEE.svg'
+import * as TBackgroundADA from './svgs/tokens/background/ADA.svg'
+import * as TBackgroundCERE from './svgs/tokens/background/CERE.svg'
+import * as TBackgroundSHDW from './svgs/tokens/background/SHDW.svg'
+import * as TBackgroundFCT from './svgs/tokens/background/FCT.svg'
+import * as TBackground1ART from './svgs/tokens/background/1ART.svg'
+import * as TBackgroundBRUSH from './svgs/tokens/background/BRUSH.svg'
+import * as TBackgroundXEP from './svgs/tokens/background/XEP.svg'
+import * as TBackgroundTRC from './svgs/tokens/background/TRC.svg'
+import * as TBackgroundEDGE from './svgs/tokens/background/EDGE.svg'
+import * as TBackgroundL2 from './svgs/tokens/background/L2.svg'
+import * as TBackgroundWCFG from './svgs/tokens/background/WCFG.svg'
+import * as TBackgroundQOM from './svgs/tokens/background/QOM.svg'
+import * as TBackgroundMARSH from './svgs/tokens/background/MARSH.svg'
+import * as TBackgroundXDC from './svgs/tokens/background/XDC.svg'
+import * as TBackgroundCOLLAB from './svgs/tokens/background/COLLAB.svg'
+import * as TBackgroundTOMB from './svgs/tokens/background/TOMB.svg'
+import * as TBackgroundAIS from './svgs/tokens/background/AIS.svg'
+import * as TBackgroundSOLO from './svgs/tokens/background/SOLO.svg'
+import * as TBackgroundVERSE from './svgs/tokens/background/VERSE.svg'
+import * as TBackgroundSTG from './svgs/tokens/background/STG.svg'
+import * as TBackgroundQLC from './svgs/tokens/background/QLC.svg'
+import * as TBackgroundSOLX from './svgs/tokens/background/SOLX.svg'
+import * as TBackgroundATRI from './svgs/tokens/background/ATRI.svg'
+import * as TBackgroundSPACE from './svgs/tokens/background/SPACE.svg'
+import * as TBackgroundSENATE from './svgs/tokens/background/SENATE.svg'
+import * as TBackgroundOKT from './svgs/tokens/background/OKT.svg'
+import * as TBackgroundAA from './svgs/tokens/background/AA.svg'
+import * as TBackgroundTHEO from './svgs/tokens/background/THEO.svg'
+import * as TBackgroundVSP from './svgs/tokens/background/VSP.svg'
+import * as TBackgroundHXD from './svgs/tokens/background/HXD.svg'
+import * as TBackgroundDEGO from './svgs/tokens/background/DEGO.svg'
+import * as TBackgroundOSAK from './svgs/tokens/background/OSAK.svg'
+import * as TBackgroundSCAR from './svgs/tokens/background/SCAR.svg'
+import * as TBackgroundSETH2 from './svgs/tokens/background/SETH2.svg'
+import * as TBackgroundRIBBIT from './svgs/tokens/background/RIBBIT.svg'
+import * as TBackgroundLIME from './svgs/tokens/background/LIME.svg'
+import * as TBackgroundRJV from './svgs/tokens/background/RJV.svg'
+import * as TBackgroundUNO from './svgs/tokens/background/UNO.svg'
+import * as TBackgroundPRE from './svgs/tokens/background/PRE.svg'
+import * as TBackgroundBNB from './svgs/tokens/background/BNB.svg'
+import * as TBackgroundREN from './svgs/tokens/background/REN.svg'
+import * as TBackgroundGALA from './svgs/tokens/background/GALA.svg'
+import * as TBackgroundEFX from './svgs/tokens/background/EFX.svg'
+import * as TBackgroundIST from './svgs/tokens/background/IST.svg'
+import * as TBackgroundTOKEN from './svgs/tokens/background/TOKEN.svg'
+import * as TBackgroundEDG from './svgs/tokens/background/EDG.svg'
+import * as TBackgroundGAME from './svgs/tokens/background/GAME.svg'
+import * as TBackgroundROSE from './svgs/tokens/background/ROSE.svg'
+import * as TBackgroundIDEX from './svgs/tokens/background/IDEX.svg'
+import * as TBackgroundBEAN from './svgs/tokens/background/BEAN.svg'
+import * as TBackgroundYAM from './svgs/tokens/background/YAM.svg'
+import * as TBackgroundVOLT from './svgs/tokens/background/VOLT.svg'
+import * as TBackgroundRSC from './svgs/tokens/background/RSC.svg'
+import * as TBackgroundLTC from './svgs/tokens/background/LTC.svg'
+import * as TBackgroundTUSD from './svgs/tokens/background/TUSD.svg'
+import * as TBackgroundDOGE from './svgs/tokens/background/DOGE.svg'
+import * as TBackgroundCTSI from './svgs/tokens/background/CTSI.svg'
+import * as TBackgroundMETAL from './svgs/tokens/background/METAL.svg'
+import * as TBackgroundHERO from './svgs/tokens/background/HERO.svg'
+import * as TBackgroundWIKEN from './svgs/tokens/background/WIKEN.svg'
+import * as TBackgroundPKF from './svgs/tokens/background/PKF.svg'
+import * as TBackgroundTPAD from './svgs/tokens/background/TPAD.svg'
+import * as TBackgroundNAV from './svgs/tokens/background/NAV.svg'
+import * as TBackgroundPYTH from './svgs/tokens/background/PYTH.svg'
+import * as TBackgroundTIME from './svgs/tokens/background/TIME.svg'
+import * as TBackgroundLIBRE from './svgs/tokens/background/LIBRE.svg'
+import * as TBackgroundBTM from './svgs/tokens/background/BTM.svg'
+import * as TBackgroundKIN from './svgs/tokens/background/KIN.svg'
+import * as TBackgroundDVPN from './svgs/tokens/background/DVPN.svg'
+import * as TBackgroundLUSD from './svgs/tokens/background/LUSD.svg'
+import * as TBackgroundBCD from './svgs/tokens/background/BCD.svg'
+import * as TBackgroundREGEN from './svgs/tokens/background/REGEN.svg'
+import * as TBackgroundHBOT from './svgs/tokens/background/HBOT.svg'
+import * as TBackgroundMATIC from './svgs/tokens/background/MATIC.svg'
+import * as TBackgroundFREN from './svgs/tokens/background/FREN.svg'
+import * as TBackgroundBMX from './svgs/tokens/background/BMX.svg'
+import * as TBackgroundNXT from './svgs/tokens/background/NXT.svg'
+import * as TBackgroundUMB from './svgs/tokens/background/UMB.svg'
+import * as TBackgroundWWY from './svgs/tokens/background/WWY.svg'
+import * as TBackgroundLAT from './svgs/tokens/background/LAT.svg'
+import * as TBackgroundPIKA from './svgs/tokens/background/PIKA.svg'
+import * as TBackgroundBNT from './svgs/tokens/background/BNT.svg'
+import * as TBackgroundCOPE from './svgs/tokens/background/COPE.svg'
+import * as TBackgroundSTOSMO from './svgs/tokens/background/STOSMO.svg'
+import * as TBackgroundDCB from './svgs/tokens/background/DCB.svg'
+import * as TBackgroundXPR from './svgs/tokens/background/XPR.svg'
+import * as TBackgroundJUNO from './svgs/tokens/background/JUNO.svg'
+import * as TBackgroundFUTURE from './svgs/tokens/background/FUTURE.svg'
+import * as TBackgroundPOLYX from './svgs/tokens/background/POLYX.svg'
+import * as TBackgroundEVEAI from './svgs/tokens/background/EVEAI.svg'
+import * as TBackgroundMBOX from './svgs/tokens/background/MBOX.svg'
+import * as TBackgroundCGL from './svgs/tokens/background/CGL.svg'
+import * as TBackgroundJOY from './svgs/tokens/background/JOY.svg'
+import * as TBackgroundFYN from './svgs/tokens/background/FYN.svg'
+import * as TBackgroundSHIBDOGE from './svgs/tokens/background/SHIBDOGE.svg'
+import * as TBackgroundSOL from './svgs/tokens/background/SOL.svg'
+import * as TBackgroundAQT from './svgs/tokens/background/AQT.svg'
+import * as TBackgroundMDX from './svgs/tokens/background/MDX.svg'
+import * as TBackgroundBOLT from './svgs/tokens/background/BOLT.svg'
+import * as TBackgroundSOUL from './svgs/tokens/background/SOUL.svg'
+import * as TBackgroundDERO from './svgs/tokens/background/DERO.svg'
+import * as TBackgroundSANI from './svgs/tokens/background/SANI.svg'
+import * as TBackgroundAXEL from './svgs/tokens/background/AXEL.svg'
+import * as TBackgroundCRPT from './svgs/tokens/background/CRPT.svg'
+import * as TBackgroundADAPAD from './svgs/tokens/background/ADAPAD.svg'
+import * as TBackground3ULL from './svgs/tokens/background/3ULL.svg'
+import * as TBackgroundX2Y2 from './svgs/tokens/background/X2Y2.svg'
+import * as TBackgroundZRX from './svgs/tokens/background/ZRX.svg'
+import * as TBackgroundMC from './svgs/tokens/background/MC.svg'
+import * as TBackgroundFLX from './svgs/tokens/background/FLX.svg'
+import * as TBackgroundSUB from './svgs/tokens/background/SUB.svg'
+import * as TBackgroundAIR from './svgs/tokens/background/AIR.svg'
+import * as TBackgroundDINGO from './svgs/tokens/background/DINGO.svg'
+import * as TBackgroundEDEN from './svgs/tokens/background/EDEN.svg'
+import * as TBackgroundOX from './svgs/tokens/background/OX.svg'
+import * as TBackgroundDTX from './svgs/tokens/background/DTX.svg'
+import * as TBackgroundREEF from './svgs/tokens/background/REEF.svg'
+import * as TBackgroundNEUROS from './svgs/tokens/background/NEUROS.svg'
+import * as TBackgroundDESO from './svgs/tokens/background/DESO.svg'
+import * as TBackgroundECOX from './svgs/tokens/background/ECOX.svg'
+import * as TBackgroundVEX from './svgs/tokens/background/VEX.svg'
+import * as TBackgroundFORTH from './svgs/tokens/background/FORTH.svg'
+import * as TBackgroundSAMA from './svgs/tokens/background/SAMA.svg'
+import * as TBackgroundDXL from './svgs/tokens/background/DXL.svg'
+import * as TBackgroundHAIR from './svgs/tokens/background/HAIR.svg'
+import * as TBackgroundSPOOL from './svgs/tokens/background/SPOOL.svg'
+import * as TBackgroundMFT from './svgs/tokens/background/MFT.svg'
+import * as TBackgroundPOKT from './svgs/tokens/background/POKT.svg'
+import * as TBackgroundFORE from './svgs/tokens/background/FORE.svg'
+import * as TBackgroundRADIO from './svgs/tokens/background/RADIO.svg'
+import * as TBackgroundMGP from './svgs/tokens/background/MGP.svg'
+import * as TBackgroundAPT from './svgs/tokens/background/APT.svg'
+import * as TBackgroundMEX from './svgs/tokens/background/MEX.svg'
+import * as TBackgroundARK from './svgs/tokens/background/ARK.svg'
+import * as TBackgroundMNTL from './svgs/tokens/background/MNTL.svg'
+import * as TBackgroundTIN from './svgs/tokens/background/TIN.svg'
+import * as TBackgroundDOR from './svgs/tokens/background/DOR.svg'
+import * as TBackgroundCEEK from './svgs/tokens/background/CEEK.svg'
+import * as TBackgroundFTM from './svgs/tokens/background/FTM.svg'
+import * as TBackgroundDNXC from './svgs/tokens/background/DNXC.svg'
+import * as TBackgroundSCLP from './svgs/tokens/background/SCLP.svg'
+import * as TBackgroundSATT from './svgs/tokens/background/SATT.svg'
+import * as TBackgroundPAID from './svgs/tokens/background/PAID.svg'
+import * as TBackgroundAART from './svgs/tokens/background/AART.svg'
+import * as TBackgroundBTCST from './svgs/tokens/background/BTCST.svg'
+import * as TBackgroundINFRA from './svgs/tokens/background/INFRA.svg'
+import * as TBackgroundKINE from './svgs/tokens/background/KINE.svg'
+import * as TBackgroundBLX from './svgs/tokens/background/BLX.svg'
+import * as TBackgroundDFYN from './svgs/tokens/background/DFYN.svg'
+import * as TBackgroundSPHERE from './svgs/tokens/background/SPHERE.svg'
+import * as TBackgroundHYVE from './svgs/tokens/background/HYVE.svg'
+import * as TBackgroundLCX from './svgs/tokens/background/LCX.svg'
+import * as TBackgroundTSUKA from './svgs/tokens/background/TSUKA.svg'
+import * as TBackgroundIDRT from './svgs/tokens/background/IDRT.svg'
+import * as TBackgroundWIGO from './svgs/tokens/background/WIGO.svg'
+import * as TBackgroundLADYS from './svgs/tokens/background/LADYS.svg'
+import * as TBackgroundQUIDD from './svgs/tokens/background/QUIDD.svg'
+import * as TBackgroundEDU from './svgs/tokens/background/EDU.svg'
+import * as TBackgroundNAOS from './svgs/tokens/background/NAOS.svg'
+import * as TBackgroundRGT from './svgs/tokens/background/RGT.svg'
+import * as TBackgroundLINDA from './svgs/tokens/background/LINDA.svg'
+import * as TBackgroundWALLET from './svgs/tokens/background/WALLET.svg'
+import * as TBackgroundLZM from './svgs/tokens/background/LZM.svg'
+import * as TBackgroundDOGA from './svgs/tokens/background/DOGA.svg'
+import * as TBackgroundAGIX from './svgs/tokens/background/AGIX.svg'
+import * as TBackgroundQTUM from './svgs/tokens/background/QTUM.svg'
+import * as TBackgroundWEMIX from './svgs/tokens/background/WEMIX.svg'
+import * as TBackgroundBEND from './svgs/tokens/background/BEND.svg'
+import * as TBackgroundRVST from './svgs/tokens/background/RVST.svg'
+import * as TBackgroundDXGM from './svgs/tokens/background/DXGM.svg'
+import * as TBackgroundCAKE from './svgs/tokens/background/CAKE.svg'
+import * as TBackgroundMTRM from './svgs/tokens/background/MTRM.svg'
+import * as TBackgroundPICKLE from './svgs/tokens/background/PICKLE.svg'
+import * as TBackgroundYOU from './svgs/tokens/background/YOU.svg'
+import * as TBackgroundDIONE from './svgs/tokens/background/DIONE.svg'
+import * as TBackgroundPKT from './svgs/tokens/background/PKT.svg'
+import * as TBackgroundERN from './svgs/tokens/background/ERN.svg'
+import * as TBackgroundEQU from './svgs/tokens/background/EQU.svg'
+import * as TBackgroundLITT from './svgs/tokens/background/LITT.svg'
+import * as TBackgroundEQB from './svgs/tokens/background/EQB.svg'
+import * as TBackgroundIGU from './svgs/tokens/background/IGU.svg'
+import * as TBackgroundCAST from './svgs/tokens/background/CAST.svg'
+import * as TBackgroundAGRS from './svgs/tokens/background/AGRS.svg'
+import * as TBackgroundRDN from './svgs/tokens/background/RDN.svg'
+import * as TBackgroundEGO from './svgs/tokens/background/EGO.svg'
+import * as TBackgroundDSLA from './svgs/tokens/background/DSLA.svg'
+import * as TBackgroundSUIP from './svgs/tokens/background/SUIP.svg'
+import * as TBackgroundISP from './svgs/tokens/background/ISP.svg'
+import * as TBackgroundMASQ from './svgs/tokens/background/MASQ.svg'
+import * as TBackgroundXSUSHI from './svgs/tokens/background/XSUSHI.svg'
+import * as TBackgroundDORA from './svgs/tokens/background/DORA.svg'
+import * as TBackgroundDOSE from './svgs/tokens/background/DOSE.svg'
+import * as TBackgroundTRAC from './svgs/tokens/background/TRAC.svg'
+import * as TBackgroundBOB from './svgs/tokens/background/BOB.svg'
+import * as TBackgroundTEL from './svgs/tokens/background/TEL.svg'
+import * as TBackgroundSTMX from './svgs/tokens/background/STMX.svg'
+import * as TBackgroundDAO from './svgs/tokens/background/DAO.svg'
+import * as TBackgroundDEXTF from './svgs/tokens/background/DEXTF.svg'
+import * as TBackgroundMKR from './svgs/tokens/background/MKR.svg'
+import * as TBackgroundDBC from './svgs/tokens/background/DBC.svg'
+import * as TBackgroundMIM from './svgs/tokens/background/MIM.svg'
+import * as TBackgroundATPAY from './svgs/tokens/background/ATPAY.svg'
+import * as TBackgroundLAND from './svgs/tokens/background/LAND.svg'
+import * as TBackgroundDEFX from './svgs/tokens/background/DEFX.svg'
+import * as TBackgroundSLR from './svgs/tokens/background/SLR.svg'
+import * as TBackgroundSDEX from './svgs/tokens/background/SDEX.svg'
+import * as TBackgroundZEC from './svgs/tokens/background/ZEC.svg'
+import * as TBackgroundTKP from './svgs/tokens/background/TKP.svg'
+import * as TBackgroundCUBE from './svgs/tokens/background/CUBE.svg'
+import * as TBackgroundETHIX from './svgs/tokens/background/ETHIX.svg'
+import * as TBackgroundAR from './svgs/tokens/background/AR.svg'
+import * as TBackgroundSYS from './svgs/tokens/background/SYS.svg'
+import * as TBackgroundGENI from './svgs/tokens/background/GENI.svg'
+import * as TBackgroundMST from './svgs/tokens/background/MST.svg'
+import * as TBackgroundGRND from './svgs/tokens/background/GRND.svg'
+import * as TBackgroundPAWTH from './svgs/tokens/background/PAWTH.svg'
+import * as TBackgroundBSGG from './svgs/tokens/background/BSGG.svg'
+import * as TBackgroundVERSA from './svgs/tokens/background/VERSA.svg'
+import * as TBackgroundALICE from './svgs/tokens/background/ALICE.svg'
+import * as TBackgroundMYRIA from './svgs/tokens/background/MYRIA.svg'
+import * as TBackgroundSHIA from './svgs/tokens/background/SHIA.svg'
+import * as TBackgroundMF from './svgs/tokens/background/MF.svg'
+import * as TBackgroundSTARL from './svgs/tokens/background/STARL.svg'
+import * as TBackgroundVPAD from './svgs/tokens/background/VPAD.svg'
+import * as TBackground10SET from './svgs/tokens/background/10SET.svg'
+import * as TBackgroundWAGMI from './svgs/tokens/background/WAGMI.svg'
+import * as TBackgroundDVF from './svgs/tokens/background/DVF.svg'
+import * as TBackgroundVIX from './svgs/tokens/background/VIX.svg'
+import * as TBackgroundFITFI from './svgs/tokens/background/FITFI.svg'
+import * as TBackgroundXET from './svgs/tokens/background/XET.svg'
+import * as TBackgroundKINGSHIB from './svgs/tokens/background/KINGSHIB.svg'
+import * as TBackgroundXDG from './svgs/tokens/background/XDG.svg'
+import * as TBackgroundRISE from './svgs/tokens/background/RISE.svg'
+import * as TBackgroundSOMM from './svgs/tokens/background/SOMM.svg'
+import * as TBackgroundGRAI from './svgs/tokens/background/GRAI.svg'
+import * as TBackgroundPRIMAL from './svgs/tokens/background/PRIMAL.svg'
+import * as TBackgroundXEC from './svgs/tokens/background/XEC.svg'
+import * as TBackgroundJUP from './svgs/tokens/background/JUP.svg'
+import * as TBackgroundXWIN from './svgs/tokens/background/XWIN.svg'
+import * as TBackgroundVLXPAD from './svgs/tokens/background/VLXPAD.svg'
+import * as TBackgroundKATA from './svgs/tokens/background/KATA.svg'
+import * as TBackgroundOXEN from './svgs/tokens/background/OXEN.svg'
+import * as TBackgroundTHALES from './svgs/tokens/background/THALES.svg'
+import * as TBackgroundFWB from './svgs/tokens/background/FWB.svg'
+import * as TBackgroundSLG from './svgs/tokens/background/SLG.svg'
+import * as TBackgroundSTBU from './svgs/tokens/background/STBU.svg'
+import * as TBackgroundLOOM from './svgs/tokens/background/LOOM.svg'
+import * as TBackgroundPAPER from './svgs/tokens/background/PAPER.svg'
+import * as TBackgroundSNX from './svgs/tokens/background/SNX.svg'
+import * as TBackgroundSLP from './svgs/tokens/background/SLP.svg'
+import * as TBackgroundFTN from './svgs/tokens/background/FTN.svg'
+import * as TBackgroundVITE from './svgs/tokens/background/VITE.svg'
+import * as TBackgroundAPW from './svgs/tokens/background/APW.svg'
+import * as TBackgroundSMT from './svgs/tokens/background/SMT.svg'
+import * as TBackgroundZZ from './svgs/tokens/background/ZZ.svg'
+import * as TBackgroundCFX from './svgs/tokens/background/CFX.svg'
+import * as TBackgroundIPOR from './svgs/tokens/background/IPOR.svg'
+import * as TBackgroundDCR from './svgs/tokens/background/DCR.svg'
+import * as TBackgroundABYSS from './svgs/tokens/background/ABYSS.svg'
+import * as TBackgroundBLAST from './svgs/tokens/background/BLAST.svg'
+import * as TBackgroundCOMBO from './svgs/tokens/background/COMBO.svg'
+import * as TBackgroundMIX from './svgs/tokens/background/MIX.svg'
+import * as TBackgroundAIRI from './svgs/tokens/background/AIRI.svg'
+import * as TBackgroundCHAMPZ from './svgs/tokens/background/CHAMPZ.svg'
+import * as TBackgroundPSP from './svgs/tokens/background/PSP.svg'
+import * as TBackgroundUNI from './svgs/tokens/background/UNI.svg'
+import * as TBackgroundXMON from './svgs/tokens/background/XMON.svg'
+import * as TBackgroundDASH from './svgs/tokens/background/DASH.svg'
+import * as TBackgroundEGLD from './svgs/tokens/background/EGLD.svg'
+import * as TBackgroundRFD from './svgs/tokens/background/RFD.svg'
+import * as TBackgroundPERI from './svgs/tokens/background/PERI.svg'
+import * as TBackgroundBCT from './svgs/tokens/background/BCT.svg'
+import * as TBackgroundXAVA from './svgs/tokens/background/XAVA.svg'
+import * as TBackgroundEFI from './svgs/tokens/background/EFI.svg'
+import * as TBackgroundDAFI from './svgs/tokens/background/DAFI.svg'
+import * as TBackgroundYAK from './svgs/tokens/background/YAK.svg'
+import * as TBackgroundYCC from './svgs/tokens/background/YCC.svg'
+import * as TBackgroundWNK from './svgs/tokens/background/WNK.svg'
+import * as TBackgroundRSR from './svgs/tokens/background/RSR.svg'
+import * as TBackgroundWHALE from './svgs/tokens/background/WHALE.svg'
+import * as TBackgroundNOM from './svgs/tokens/background/NOM.svg'
+import * as TBackgroundKLEE from './svgs/tokens/background/KLEE.svg'
+import * as TBackgroundARPA from './svgs/tokens/background/ARPA.svg'
+import * as TBackgroundNMR from './svgs/tokens/background/NMR.svg'
+import * as TBackgroundWAS from './svgs/tokens/background/WAS.svg'
+import * as TBackgroundFACTR from './svgs/tokens/background/FACTR.svg'
+import * as TBackgroundAUTO from './svgs/tokens/background/AUTO.svg'
+import * as TBackgroundSAITAMA from './svgs/tokens/background/SAITAMA.svg'
+import * as TBackgroundLUA from './svgs/tokens/background/LUA.svg'
+import * as TBackgroundSFRXETH from './svgs/tokens/background/SFRXETH.svg'
+import * as TBackgroundRARI from './svgs/tokens/background/RARI.svg'
+import * as TBackgroundDODO from './svgs/tokens/background/DODO.svg'
+import * as TBackgroundSAITO from './svgs/tokens/background/SAITO.svg'
+import * as TBackgroundRDNT from './svgs/tokens/background/RDNT.svg'
+import * as TBackgroundSOLID from './svgs/tokens/background/SOLID.svg'
+import * as TBackgroundKUJI from './svgs/tokens/background/KUJI.svg'
+import * as TBackgroundLVL from './svgs/tokens/background/LVL.svg'
+import * as TBackgroundMCRT from './svgs/tokens/background/MCRT.svg'
+import * as TBackgroundLAZIO from './svgs/tokens/background/LAZIO.svg'
+import * as TBackgroundNSFW from './svgs/tokens/background/NSFW.svg'
+import * as TBackgroundNAP from './svgs/tokens/background/NAP.svg'
+import * as TBackgroundLUFC from './svgs/tokens/background/LUFC.svg'
+import * as TBackground0XGAS from './svgs/tokens/background/0XGAS.svg'
+import * as TBackgroundWIFI from './svgs/tokens/background/WIFI.svg'
+import * as TBackgroundHGPT from './svgs/tokens/background/HGPT.svg'
+import * as TBackgroundBCB from './svgs/tokens/background/BCB.svg'
+import * as TBackgroundCARD from './svgs/tokens/background/CARD.svg'
+import * as TBackgroundMINTME from './svgs/tokens/background/MINTME.svg'
+import * as TBackgroundLON from './svgs/tokens/background/LON.svg'
+import * as TBackgroundARDR from './svgs/tokens/background/ARDR.svg'
+import * as TBackgroundCARAT from './svgs/tokens/background/CARAT.svg'
+import * as TBackgroundBLZ from './svgs/tokens/background/BLZ.svg'
+import * as TBackgroundBOA from './svgs/tokens/background/BOA.svg'
+import * as TBackgroundSTJUNO from './svgs/tokens/background/STJUNO.svg'
+import * as TBackgroundMOCHI from './svgs/tokens/background/MOCHI.svg'
+import * as TBackgroundAREA from './svgs/tokens/background/AREA.svg'
+import * as TBackgroundDSRUN from './svgs/tokens/background/DSRUN.svg'
+import * as TBackgroundVELO from './svgs/tokens/background/VELO.svg'
+import * as TBackgroundMIN from './svgs/tokens/background/MIN.svg'
+import * as TBackgroundOSMO from './svgs/tokens/background/OSMO.svg'
+import * as TBackgroundSTOS from './svgs/tokens/background/STOS.svg'
+import * as TBackgroundHVH from './svgs/tokens/background/HVH.svg'
+import * as TBackgroundCHR from './svgs/tokens/background/CHR.svg'
+import * as TBackgroundDNT from './svgs/tokens/background/DNT.svg'
+import * as TBackgroundHXRO from './svgs/tokens/background/HXRO.svg'
+import * as TBackgroundHUAHUA from './svgs/tokens/background/HUAHUA.svg'
+import * as TBackgroundDOG from './svgs/tokens/background/DOG.svg'
+import * as TBackgroundGAINS from './svgs/tokens/background/GAINS.svg'
+import * as TBackgroundMRS from './svgs/tokens/background/MRS.svg'
+import * as TBackgroundMPL from './svgs/tokens/background/MPL.svg'
+import * as TBackgroundDERI from './svgs/tokens/background/DERI.svg'
+import * as TBackgroundXKI from './svgs/tokens/background/XKI.svg'
+import * as TBackgroundSCNSOL from './svgs/tokens/background/SCNSOL.svg'
+import * as TBackgroundNPXS from './svgs/tokens/background/NPXS.svg'
+import * as TBackgroundOM from './svgs/tokens/background/OM.svg'
+import * as TBackgroundAIT from './svgs/tokens/background/AIT.svg'
+import * as TBackgroundOOKI from './svgs/tokens/background/OOKI.svg'
+import * as TBackgroundFOR from './svgs/tokens/background/FOR.svg'
+import * as TBackgroundSTSOL from './svgs/tokens/background/STSOL.svg'
+import * as TBackgroundLA from './svgs/tokens/background/LA.svg'
+import * as TBackgroundSHIB from './svgs/tokens/background/SHIB.svg'
+import * as TBackgroundSUI from './svgs/tokens/background/SUI.svg'
+import * as TBackgroundINST from './svgs/tokens/background/INST.svg'
+import * as TBackgroundCWAR from './svgs/tokens/background/CWAR.svg'
+import * as TBackgroundAIN from './svgs/tokens/background/AIN.svg'
+import * as TBackgroundFLS from './svgs/tokens/background/FLS.svg'
+import * as TBackgroundOOKS from './svgs/tokens/background/OOKS.svg'
+import * as TBackgroundXFT from './svgs/tokens/background/XFT.svg'
+import * as TBackgroundBTCP from './svgs/tokens/background/BTCP.svg'
+import * as TBackgroundPEOPLE from './svgs/tokens/background/PEOPLE.svg'
+import * as TBackgroundSFTMX from './svgs/tokens/background/SFTMX.svg'
+import * as TBackgroundDYP from './svgs/tokens/background/DYP.svg'
+import * as TBackgroundXETA from './svgs/tokens/background/XETA.svg'
+import * as TBackgroundHMX from './svgs/tokens/background/HMX.svg'
+import * as TBackgroundRUNE from './svgs/tokens/background/RUNE.svg'
+import * as TBackgroundHOP from './svgs/tokens/background/HOP.svg'
+import * as TBackgroundMCADE from './svgs/tokens/background/MCADE.svg'
+import * as TBackgroundPARA from './svgs/tokens/background/PARA.svg'
+import * as TBackgroundVIDYA from './svgs/tokens/background/VIDYA.svg'
+import * as TBackgroundPOLYDOGE from './svgs/tokens/background/POLYDOGE.svg'
+import * as TBackgroundHNT from './svgs/tokens/background/HNT.svg'
+import * as TBackgroundBRICK from './svgs/tokens/background/BRICK.svg'
+import * as TBackgroundKICKS from './svgs/tokens/background/KICKS.svg'
+import * as TBackgroundAPL from './svgs/tokens/background/APL.svg'
+import * as TBackgroundSNT from './svgs/tokens/background/SNT.svg'
+import * as TBackgroundPROPS from './svgs/tokens/background/PROPS.svg'
+import * as TBackgroundLMWR from './svgs/tokens/background/LMWR.svg'
+import * as TBackgroundTHE from './svgs/tokens/background/THE.svg'
+import * as TBackgroundGPCX from './svgs/tokens/background/GPCX.svg'
+import * as TBackgroundTIA from './svgs/tokens/background/TIA.svg'
+import * as TBackgroundMNTC from './svgs/tokens/background/MNTC.svg'
+import * as TBackgroundXI from './svgs/tokens/background/XI.svg'
+import * as TBackgroundJOE from './svgs/tokens/background/JOE.svg'
+import * as TBackgroundSCS from './svgs/tokens/background/SCS.svg'
+import * as TBackgroundCGG from './svgs/tokens/background/CGG.svg'
+import * as TBackgroundHTM from './svgs/tokens/background/HTM.svg'
+import * as TBackgroundPRO from './svgs/tokens/background/PRO.svg'
+import * as TBackgroundFREE from './svgs/tokens/background/FREE.svg'
+import * as TBackgroundPLASTIK from './svgs/tokens/background/PLASTIK.svg'
+import * as TBackgroundPRX from './svgs/tokens/background/PRX.svg'
+import * as TBackgroundFUND from './svgs/tokens/background/FUND.svg'
+import * as TBackgroundAURABAL from './svgs/tokens/background/AURABAL.svg'
+import * as TBackgroundLOC from './svgs/tokens/background/LOC.svg'
+import * as TBackgroundNVT from './svgs/tokens/background/NVT.svg'
+import * as TBackgroundMAPS from './svgs/tokens/background/MAPS.svg'
+import * as TBackgroundFAKEAI from './svgs/tokens/background/FAKEAI.svg'
+import * as TBackgroundARIX from './svgs/tokens/background/ARIX.svg'
+import * as TBackgroundCHMB from './svgs/tokens/background/CHMB.svg'
+import * as TBackgroundGAMMA from './svgs/tokens/background/GAMMA.svg'
+import * as TBackgroundUTK from './svgs/tokens/background/UTK.svg'
+import * as TBackgroundOGGY from './svgs/tokens/background/OGGY.svg'
+import * as TBackgroundCUSDC from './svgs/tokens/background/CUSDC.svg'
+import * as TBackgroundPEEL from './svgs/tokens/background/PEEL.svg'
+import * as TBackgroundWISE from './svgs/tokens/background/WISE.svg'
+import * as TBackgroundWEFI from './svgs/tokens/background/WEFI.svg'
+import * as TBackgroundPHA from './svgs/tokens/background/PHA.svg'
+import * as TBackgroundSNAIL from './svgs/tokens/background/SNAIL.svg'
+import * as TBackgroundNAVI from './svgs/tokens/background/NAVI.svg'
+import * as TBackgroundARRR from './svgs/tokens/background/ARRR.svg'
+import * as TBackgroundBERRY from './svgs/tokens/background/BERRY.svg'
+import * as TBackgroundBZZ from './svgs/tokens/background/BZZ.svg'
+import * as TBackgroundSETH from './svgs/tokens/background/SETH.svg'
+import * as TBackgroundBELT from './svgs/tokens/background/BELT.svg'
+import * as TBackgroundFIDA from './svgs/tokens/background/FIDA.svg'
+import * as TBackgroundPGX from './svgs/tokens/background/PGX.svg'
+import * as TBackgroundRARE from './svgs/tokens/background/RARE.svg'
+import * as TBackgroundHBTC from './svgs/tokens/background/HBTC.svg'
+import * as TBackgroundXFUND from './svgs/tokens/background/XFUND.svg'
+import * as TBackgroundLIXX from './svgs/tokens/background/LIXX.svg'
+import * as TBackgroundLAUNCH from './svgs/tokens/background/LAUNCH.svg'
+import * as TBackgroundPDT from './svgs/tokens/background/PDT.svg'
+import * as TBackgroundSNEK from './svgs/tokens/background/SNEK.svg'
+import * as TBackgroundARSW from './svgs/tokens/background/ARSW.svg'
+import * as TBackgroundNCT from './svgs/tokens/background/NCT.svg'
+import * as TBackgroundAPEX from './svgs/tokens/background/APEX.svg'
+import * as TBackgroundAPFC from './svgs/tokens/background/APFC.svg'
+import * as TBackgroundIDV from './svgs/tokens/background/IDV.svg'
+import * as TBackgroundBTG from './svgs/tokens/background/BTG.svg'
+import * as TBackgroundLYX from './svgs/tokens/background/LYX.svg'
+import * as TBackgroundQTCON from './svgs/tokens/background/QTCON.svg'
+import * as TBackgroundBCN from './svgs/tokens/background/BCN.svg'
+import * as TBackgroundUND from './svgs/tokens/background/UND.svg'
+import * as TBackgroundLBR from './svgs/tokens/background/LBR.svg'
+import * as TBackgroundNYM from './svgs/tokens/background/NYM.svg'
+import * as TBackgroundLINU from './svgs/tokens/background/LINU.svg'
+import * as TBackgroundGRC from './svgs/tokens/background/GRC.svg'
+import * as TBackgroundRIF from './svgs/tokens/background/RIF.svg'
+import * as TBackgroundPRY from './svgs/tokens/background/PRY.svg'
+import * as TBackgroundSUDO from './svgs/tokens/background/SUDO.svg'
+import * as TBackgroundKILT from './svgs/tokens/background/KILT.svg'
+import * as TBackgroundGRT from './svgs/tokens/background/GRT.svg'
+import * as TBackgroundZKP from './svgs/tokens/background/ZKP.svg'
+import * as TBackgroundXRP from './svgs/tokens/background/XRP.svg'
+import * as TBackgroundWAIT from './svgs/tokens/background/WAIT.svg'
+import * as TBackgroundTET from './svgs/tokens/background/TET.svg'
+import * as TBackgroundXPX from './svgs/tokens/background/XPX.svg'
+import * as TBackgroundVEMP from './svgs/tokens/background/VEMP.svg'
+import * as TBackgroundHAPI from './svgs/tokens/background/HAPI.svg'
+import * as TBackgroundRAZOR from './svgs/tokens/background/RAZOR.svg'
+import * as TBackgroundXRUNE from './svgs/tokens/background/XRUNE.svg'
+import * as TBackgroundSAM from './svgs/tokens/background/SAM.svg'
+import * as TBackgroundSTAT from './svgs/tokens/background/STAT.svg'
+import * as TBackgroundFRONT from './svgs/tokens/background/FRONT.svg'
+import * as TBackgroundFTC from './svgs/tokens/background/FTC.svg'
+import * as TBackgroundVC from './svgs/tokens/background/VC.svg'
+import * as TBackgroundDMC from './svgs/tokens/background/DMC.svg'
+import * as TBackgroundAPM from './svgs/tokens/background/APM.svg'
+import * as TBackgroundDMT from './svgs/tokens/background/DMT.svg'
+import * as TBackgroundSAMO from './svgs/tokens/background/SAMO.svg'
+import * as TBackgroundZANO from './svgs/tokens/background/ZANO.svg'
+import * as TBackgroundG from './svgs/tokens/background/G.svg'
+import * as TBackgroundNEON from './svgs/tokens/background/NEON.svg'
+import * as TBackgroundVIB from './svgs/tokens/background/VIB.svg'
+import * as TBackgroundDPET from './svgs/tokens/background/DPET.svg'
+import * as TBackgroundBCAT from './svgs/tokens/background/BCAT.svg'
+import * as TBackgroundTOMI from './svgs/tokens/background/TOMI.svg'
+import * as TBackgroundNEAR from './svgs/tokens/background/NEAR.svg'
+import * as TBackgroundBTRFLY from './svgs/tokens/background/BTRFLY.svg'
+import * as TBackgroundFLR from './svgs/tokens/background/FLR.svg'
+import * as TBackgroundDVI from './svgs/tokens/background/DVI.svg'
+import * as TBackgroundTYRANT from './svgs/tokens/background/TYRANT.svg'
+import * as TBackgroundLM from './svgs/tokens/background/LM.svg'
+import * as TBackgroundCUMMIES from './svgs/tokens/background/CUMMIES.svg'
+import * as TBackgroundCRE from './svgs/tokens/background/CRE.svg'
+import * as TBackgroundSPANK from './svgs/tokens/background/SPANK.svg'
+import * as TBackgroundBTC2 from './svgs/tokens/background/BTC2.svg'
+import * as TBackgroundCOVAL from './svgs/tokens/background/COVAL.svg'
+import * as TBackgroundBS from './svgs/tokens/background/BS.svg'
+import * as TBackgroundSHFT from './svgs/tokens/background/SHFT.svg'
+import * as TBackgroundVET from './svgs/tokens/background/VET.svg'
+import * as TBackgroundR from './svgs/tokens/background/R.svg'
+import * as TBackgroundHAKA from './svgs/tokens/background/HAKA.svg'
+import * as TBackgroundIBIT from './svgs/tokens/background/IBIT.svg'
+import * as TBackgroundVV from './svgs/tokens/background/VV.svg'
+import * as TBackgroundCKP from './svgs/tokens/background/CKP.svg'
+import * as TBackgroundJAM from './svgs/tokens/background/JAM.svg'
+import * as TBackgroundMET from './svgs/tokens/background/MET.svg'
+import * as TBackgroundAPX from './svgs/tokens/background/APX.svg'
+import * as TBackgroundZEN from './svgs/tokens/background/ZEN.svg'
+import * as TBackgroundCULT from './svgs/tokens/background/CULT.svg'
+import * as TBackgroundCEL from './svgs/tokens/background/CEL.svg'
+import * as TBackgroundSAVG from './svgs/tokens/background/SAVG.svg'
+import * as TBackgroundSCP from './svgs/tokens/background/SCP.svg'
+import * as TBackgroundVELA from './svgs/tokens/background/VELA.svg'
+import * as TBackgroundWHITE from './svgs/tokens/background/WHITE.svg'
+import * as TBackgroundXELS from './svgs/tokens/background/XELS.svg'
+import * as TBackgroundLCC from './svgs/tokens/background/LCC.svg'
+import * as TBackgroundCORE from './svgs/tokens/background/CORE.svg'
+import * as TBackgroundSRCX from './svgs/tokens/background/SRCX.svg'
+import * as TBackgroundKDA from './svgs/tokens/background/KDA.svg'
+import * as TBackgroundGRV from './svgs/tokens/background/GRV.svg'
+import * as TBackgroundFIRO from './svgs/tokens/background/FIRO.svg'
+import * as TBackgroundTRADE from './svgs/tokens/background/TRADE.svg'
+import * as TBackgroundPRISM from './svgs/tokens/background/PRISM.svg'
+import * as TBackgroundBLT from './svgs/tokens/background/BLT.svg'
+import * as TBackgroundGSE from './svgs/tokens/background/GSE.svg'
+import * as TBackgroundNALS from './svgs/tokens/background/NALS.svg'
+import * as TBackgroundEURS from './svgs/tokens/background/EURS.svg'
+import * as TBackgroundRDT from './svgs/tokens/background/RDT.svg'
+import * as TBackgroundREP from './svgs/tokens/background/REP.svg'
+import * as TBackgroundBEPRO from './svgs/tokens/background/BEPRO.svg'
+import * as TBackgroundMCHC from './svgs/tokens/background/MCHC.svg'
+import * as TBackgroundMSOL from './svgs/tokens/background/MSOL.svg'
+import * as TBackgroundRAKE from './svgs/tokens/background/RAKE.svg'
+import * as TBackgroundSUKU from './svgs/tokens/background/SUKU.svg'
+import * as TBackgroundMASK from './svgs/tokens/background/MASK.svg'
+import * as TBackgroundGHO from './svgs/tokens/background/GHO.svg'
+import * as TBackgroundSWETH from './svgs/tokens/background/SWETH.svg'
+import * as TBackgroundWOW from './svgs/tokens/background/WOW.svg'
+import * as TBackgroundAUCTION from './svgs/tokens/background/AUCTION.svg'
+import * as TBackgroundPHB from './svgs/tokens/background/PHB.svg'
+import * as TBackgroundERTHA from './svgs/tokens/background/ERTHA.svg'
+import * as TBackgroundGHX from './svgs/tokens/background/GHX.svg'
+import * as TBackgroundJMPT from './svgs/tokens/background/JMPT.svg'
+import * as TBackgroundCROWN from './svgs/tokens/background/CROWN.svg'
+import * as TBackgroundFLUX from './svgs/tokens/background/FLUX.svg'
+import * as TBackgroundGOVI from './svgs/tokens/background/GOVI.svg'
+import * as TBackgroundLYM from './svgs/tokens/background/LYM.svg'
+import * as TBackgroundEQX from './svgs/tokens/background/EQX.svg'
+import * as TBackgroundGHST from './svgs/tokens/background/GHST.svg'
+import * as TBackgroundTETU from './svgs/tokens/background/TETU.svg'
+import * as TBackgroundDONUT from './svgs/tokens/background/DONUT.svg'
+import * as TBackgroundMAHA from './svgs/tokens/background/MAHA.svg'
+import * as TBackgroundSUSD from './svgs/tokens/background/SUSD.svg'
+import * as TBackgroundPER from './svgs/tokens/background/PER.svg'
+import * as TBackgroundKRL from './svgs/tokens/background/KRL.svg'
+import * as TBackgroundKROM from './svgs/tokens/background/KROM.svg'
+import * as TBackgroundCHAT from './svgs/tokens/background/CHAT.svg'
+import * as TBackgroundPURSE from './svgs/tokens/background/PURSE.svg'
+import * as TBackgroundSTEEM from './svgs/tokens/background/STEEM.svg'
+import * as TBackgroundBLID from './svgs/tokens/background/BLID.svg'
+import * as TBackgroundRPG from './svgs/tokens/background/RPG.svg'
+import * as TBackgroundREUNI from './svgs/tokens/background/REUNI.svg'
+import * as TBackgroundBTS from './svgs/tokens/background/BTS.svg'
+import * as TBackgroundPIP from './svgs/tokens/background/PIP.svg'
+import * as TBackgroundARI10 from './svgs/tokens/background/ARI10.svg'
+import * as TBackgroundOBOT from './svgs/tokens/background/OBOT.svg'
+import * as TBackgroundXAUT from './svgs/tokens/background/XAUT.svg'
+import * as TBackgroundREF from './svgs/tokens/background/REF.svg'
+import * as TBackgroundISK from './svgs/tokens/background/ISK.svg'
+import * as TBackgroundNUM from './svgs/tokens/background/NUM.svg'
+import * as TBackgroundEGC from './svgs/tokens/background/EGC.svg'
+import * as TBackgroundRAIL from './svgs/tokens/background/RAIL.svg'
+import * as TBackgroundREQ from './svgs/tokens/background/REQ.svg'
+import * as TBackgroundSEND from './svgs/tokens/background/SEND.svg'
+import * as TBackgroundHUNT from './svgs/tokens/background/HUNT.svg'
+import * as TBackgroundTENET from './svgs/tokens/background/TENET.svg'
+import * as TBackgroundPERP from './svgs/tokens/background/PERP.svg'
+import * as TBackgroundLPNT from './svgs/tokens/background/LPNT.svg'
+import * as TBackgroundDSETH from './svgs/tokens/background/DSETH.svg'
+import * as TBackgroundMOONED from './svgs/tokens/background/MOONED.svg'
+import * as TBackgroundRMRK from './svgs/tokens/background/RMRK.svg'
+import * as TBackgroundXCAD from './svgs/tokens/background/XCAD.svg'
+import * as TBackgroundLINA from './svgs/tokens/background/LINA.svg'
+import * as TBackgroundEJS from './svgs/tokens/background/EJS.svg'
+import * as TBackgroundK21 from './svgs/tokens/background/K21.svg'
+import * as TBackgroundFLOW from './svgs/tokens/background/FLOW.svg'
+import * as TBackgroundSTSTARS from './svgs/tokens/background/STSTARS.svg'
+import * as TBackgroundGUSD from './svgs/tokens/background/GUSD.svg'
+import * as TBackgroundBOBA from './svgs/tokens/background/BOBA.svg'
+import * as TBackgroundZIL from './svgs/tokens/background/ZIL.svg'
+import * as TBackgroundAQUA from './svgs/tokens/background/AQUA.svg'
+import * as TBackgroundALLIN from './svgs/tokens/background/ALLIN.svg'
+import * as TBackgroundSAN from './svgs/tokens/background/SAN.svg'
+import * as TBackgroundXRD from './svgs/tokens/background/XRD.svg'
+import * as TBackgroundCHEEMS from './svgs/tokens/background/CHEEMS.svg'
+import * as TBackgroundJONES from './svgs/tokens/background/JONES.svg'
+import * as TBackgroundDCK from './svgs/tokens/background/DCK.svg'
+import * as TBackgroundLOOT from './svgs/tokens/background/LOOT.svg'
+import * as TBackgroundNFTBS from './svgs/tokens/background/NFTBS.svg'
+import * as TBackgroundHOPR from './svgs/tokens/background/HOPR.svg'
+import * as TBackgroundCPOOL from './svgs/tokens/background/CPOOL.svg'
+import * as TBackgroundPASG from './svgs/tokens/background/PASG.svg'
+import * as TBackgroundPART from './svgs/tokens/background/PART.svg'
+import * as TBackgroundBCMC from './svgs/tokens/background/BCMC.svg'
+import * as TBackgroundAI from './svgs/tokens/background/AI.svg'
+import * as TBackgroundXEM from './svgs/tokens/background/XEM.svg'
+import * as TBackgroundSTX from './svgs/tokens/background/STX.svg'
+import * as TBackgroundQNT from './svgs/tokens/background/QNT.svg'
+import * as TBackgroundHBB from './svgs/tokens/background/HBB.svg'
+import * as TBackgroundMARS4 from './svgs/tokens/background/MARS4.svg'
+import * as TBackgroundSTARS from './svgs/tokens/background/STARS.svg'
+import * as TBackgroundOCEAN from './svgs/tokens/background/OCEAN.svg'
+import * as TBackgroundCREAM from './svgs/tokens/background/CREAM.svg'
+import * as TBackgroundCPH from './svgs/tokens/background/CPH.svg'
+import * as TBackgroundTAMA from './svgs/tokens/background/TAMA.svg'
+import * as TBackgroundSAND from './svgs/tokens/background/SAND.svg'
+import * as TBackgroundMUTE from './svgs/tokens/background/MUTE.svg'
+import * as TBackgroundC3 from './svgs/tokens/background/C3.svg'
+import * as TBackgroundTIG from './svgs/tokens/background/TIG.svg'
+import * as TBackgroundARB from './svgs/tokens/background/ARB.svg'
+import * as TBackgroundCKB from './svgs/tokens/background/CKB.svg'
+import * as TBackgroundDRGN from './svgs/tokens/background/DRGN.svg'
+import * as TBackgroundTKX from './svgs/tokens/background/TKX.svg'
+import * as TBackgroundDMD from './svgs/tokens/background/DMD.svg'
+import * as TBackgroundCREO from './svgs/tokens/background/CREO.svg'
+import * as TBackgroundIPAD from './svgs/tokens/background/IPAD.svg'
+import * as TBackgroundTHT from './svgs/tokens/background/THT.svg'
+import * as TBackgroundTKO from './svgs/tokens/background/TKO.svg'
+import * as TBackgroundVOICE from './svgs/tokens/background/VOICE.svg'
+import * as TBackgroundSMI from './svgs/tokens/background/SMI.svg'
+import * as TBackgroundSCB from './svgs/tokens/background/SCB.svg'
+import * as TBackgroundKALM from './svgs/tokens/background/KALM.svg'
+import * as TBackgroundMIR from './svgs/tokens/background/MIR.svg'
+import * as TBackgroundALPACA from './svgs/tokens/background/ALPACA.svg'
+import * as TBackgroundAPEFI from './svgs/tokens/background/APEFI.svg'
+import * as TBackgroundNEWO from './svgs/tokens/background/NEWO.svg'
+import * as TBackgroundNETT from './svgs/tokens/background/NETT.svg'
+import * as TBackgroundIONX from './svgs/tokens/background/IONX.svg'
+import * as TBackgroundHIPP from './svgs/tokens/background/HIPP.svg'
+import * as TBackgroundMDAO from './svgs/tokens/background/MDAO.svg'
+import * as TBackgroundROKO from './svgs/tokens/background/ROKO.svg'
+import * as TBackgroundWACME from './svgs/tokens/background/WACME.svg'
+import * as TBackgroundHBAR from './svgs/tokens/background/HBAR.svg'
+import * as TBackgroundSLIM from './svgs/tokens/background/SLIM.svg'
+import * as TBackgroundPERC from './svgs/tokens/background/PERC.svg'
+import * as TBackgroundEGG from './svgs/tokens/background/EGG.svg'
+import * as TBackgroundKIT from './svgs/tokens/background/KIT.svg'
+import * as TBackgroundEFC from './svgs/tokens/background/EFC.svg'
+import * as TBackgroundSAFEMARS from './svgs/tokens/background/SAFEMARS.svg'
+import * as TBackgroundGAMI from './svgs/tokens/background/GAMI.svg'
+import * as TBackgroundKICK from './svgs/tokens/background/KICK.svg'
+import * as TBackgroundCMDX from './svgs/tokens/background/CMDX.svg'
+import * as TBackgroundMEDIA from './svgs/tokens/background/MEDIA.svg'
+import * as TBackgroundSQUIDGROW from './svgs/tokens/background/SQUIDGROW.svg'
+import * as TBackgroundLTO from './svgs/tokens/background/LTO.svg'
+import * as TBackgroundTOPIA from './svgs/tokens/background/TOPIA.svg'
+import * as TBackgroundXCUR from './svgs/tokens/background/XCUR.svg'
+import * as TBackgroundKSM from './svgs/tokens/background/KSM.svg'
+import * as TBackgroundBROCK from './svgs/tokens/background/BROCK.svg'
+import * as TBackgroundLTX from './svgs/tokens/background/LTX.svg'
+import * as TBackgroundWAN from './svgs/tokens/background/WAN.svg'
+import * as TBackgroundSURE from './svgs/tokens/background/SURE.svg'
+import * as TBackgroundMETAV from './svgs/tokens/background/METAV.svg'
+import * as TBackgroundNMX from './svgs/tokens/background/NMX.svg'
+import * as TBackgroundGEL from './svgs/tokens/background/GEL.svg'
+import * as TBackgroundLIZA from './svgs/tokens/background/LIZA.svg'
+import * as TBackgroundWBT from './svgs/tokens/background/WBT.svg'
+import * as TBackgroundIDIA from './svgs/tokens/background/IDIA.svg'
+import * as TBackgroundLYRA from './svgs/tokens/background/LYRA.svg'
+import * as TBackgroundTITAN from './svgs/tokens/background/TITAN.svg'
+import * as TBackgroundPIB from './svgs/tokens/background/PIB.svg'
+import * as TBackgroundERG from './svgs/tokens/background/ERG.svg'
+import * as TBackgroundBTA from './svgs/tokens/background/BTA.svg'
+import * as TBackgroundNCR from './svgs/tokens/background/NCR.svg'
+import * as TBackgroundBCH from './svgs/tokens/background/BCH.svg'
+import * as TBackgroundALCX from './svgs/tokens/background/ALCX.svg'
+import * as TBackgroundRET from './svgs/tokens/background/RET.svg'
+import * as TBackgroundUSTC from './svgs/tokens/background/USTC.svg'
+import * as TBackgroundBBL from './svgs/tokens/background/BBL.svg'
+import * as TBackgroundRFOX from './svgs/tokens/background/RFOX.svg'
+import * as TBackgroundEUSD from './svgs/tokens/background/EUSD.svg'
+import * as TBackgroundBLP from './svgs/tokens/background/BLP.svg'
+import * as TBackgroundPSL from './svgs/tokens/background/PSL.svg'
+import * as TBackgroundCOPI from './svgs/tokens/background/COPI.svg'
+import * as TBackgroundLBT from './svgs/tokens/background/LBT.svg'
+import * as TBackgroundBNX from './svgs/tokens/background/BNX.svg'
+import * as TBackgroundXY from './svgs/tokens/background/XY.svg'
+import * as TBackgroundCHO from './svgs/tokens/background/CHO.svg'
+import * as TBackgroundTKN from './svgs/tokens/background/TKN.svg'
+import * as TBackgroundSNS from './svgs/tokens/background/SNS.svg'
+import * as TBackgroundLQDR from './svgs/tokens/background/LQDR.svg'
+import * as TBackgroundVR from './svgs/tokens/background/VR.svg'
+import * as TBackgroundNEXA from './svgs/tokens/background/NEXA.svg'
+import * as TBackgroundPROPC from './svgs/tokens/background/PROPC.svg'
+import * as TBackgroundMDT from './svgs/tokens/background/MDT.svg'
+import * as TBackgroundARC from './svgs/tokens/background/ARC.svg'
+import * as TBackgroundDREP from './svgs/tokens/background/DREP.svg'
+import * as TBackgroundDERC from './svgs/tokens/background/DERC.svg'
+import * as TBackgroundSTORJ from './svgs/tokens/background/STORJ.svg'
+import * as TBackgroundVGX from './svgs/tokens/background/VGX.svg'
+import * as TBackgroundGEOD from './svgs/tokens/background/GEOD.svg'
+import * as TBackgroundSUN from './svgs/tokens/background/SUN.svg'
+import * as TBackgroundOP from './svgs/tokens/background/OP.svg'
+import * as TBackgroundCRV from './svgs/tokens/background/CRV.svg'
+import * as TBackgroundNEBO from './svgs/tokens/background/NEBO.svg'
+import * as TBackgroundVIS from './svgs/tokens/background/VIS.svg'
+import * as TBackgroundPENDLE from './svgs/tokens/background/PENDLE.svg'
+import * as TBackgroundSOON from './svgs/tokens/background/SOON.svg'
+import * as TBackgroundMX from './svgs/tokens/background/MX.svg'
+import * as TBackgroundDUA from './svgs/tokens/background/DUA.svg'
+import * as TBackgroundHAI from './svgs/tokens/background/HAI.svg'
+import * as TBackgroundVINU from './svgs/tokens/background/VINU.svg'
+import * as TBackgroundPORK from './svgs/tokens/background/PORK.svg'
+import * as TBackgroundO3 from './svgs/tokens/background/O3.svg'
+import * as TBackgroundAKT from './svgs/tokens/background/AKT.svg'
+import * as TBackgroundDEFIT from './svgs/tokens/background/DEFIT.svg'
+import * as TBackgroundMM from './svgs/tokens/background/MM.svg'
+import * as TBackgroundT from './svgs/tokens/background/T.svg'
+import * as TBackgroundIRON from './svgs/tokens/background/IRON.svg'
+import * as TBackgroundGAMEFI from './svgs/tokens/background/GAMEFI.svg'
+import * as TBackgroundIGNIS from './svgs/tokens/background/IGNIS.svg'
+import * as TBackgroundVEE from './svgs/tokens/background/VEE.svg'
+import * as TBackgroundMPS from './svgs/tokens/background/MPS.svg'
+import * as TBackgroundVEUR from './svgs/tokens/background/VEUR.svg'
+import * as TBackgroundGSWAP from './svgs/tokens/background/GSWAP.svg'
+import * as TBackgroundCHZ from './svgs/tokens/background/CHZ.svg'
+import * as TBackgroundDLC from './svgs/tokens/background/DLC.svg'
+import * as TBackgroundAZIT from './svgs/tokens/background/AZIT.svg'
+import * as TBackgroundMEED from './svgs/tokens/background/MEED.svg'
+import * as TBackgroundRGEN from './svgs/tokens/background/RGEN.svg'
+import * as TBackgroundDAD from './svgs/tokens/background/DAD.svg'
+import * as TBackgroundXRT from './svgs/tokens/background/XRT.svg'
+import * as TBackgroundORN from './svgs/tokens/background/ORN.svg'
+import * as TBackgroundXSP from './svgs/tokens/background/XSP.svg'
+import * as TBackgroundSAI from './svgs/tokens/background/SAI.svg'
+import * as TBackgroundREV3L from './svgs/tokens/background/REV3L.svg'
+import * as TBackgroundRIDE from './svgs/tokens/background/RIDE.svg'
+import * as TBackgroundFXS from './svgs/tokens/background/FXS.svg'
+import * as TBackgroundOPIUM from './svgs/tokens/background/OPIUM.svg'
+import * as TBackgroundGRG from './svgs/tokens/background/GRG.svg'
+import * as TBackgroundLGCY from './svgs/tokens/background/LGCY.svg'
+import * as TBackgroundLCR from './svgs/tokens/background/LCR.svg'
+import * as TBackgroundNXM from './svgs/tokens/background/NXM.svg'
+import * as TBackgroundUOS from './svgs/tokens/background/UOS.svg'
+import * as TBackgroundCDAI from './svgs/tokens/background/CDAI.svg'
+import * as TBackgroundGALEON from './svgs/tokens/background/GALEON.svg'
+import * as TBackgroundREV from './svgs/tokens/background/REV.svg'
+import * as TBackgroundSOURCE from './svgs/tokens/background/SOURCE.svg'
+import * as TBackgroundUBT from './svgs/tokens/background/UBT.svg'
+import * as TBackgroundCAPS from './svgs/tokens/background/CAPS.svg'
+import * as TBackgroundBTC from './svgs/tokens/background/BTC.svg'
+import * as TBackgroundNBT from './svgs/tokens/background/NBT.svg'
+import * as TBackgroundLITH from './svgs/tokens/background/LITH.svg'
+import * as TBackgroundUWU from './svgs/tokens/background/UWU.svg'
+import * as TBackgroundEMAID from './svgs/tokens/background/EMAID.svg'
+import * as TBackgroundUCJL from './svgs/tokens/background/UCJL.svg'
+import * as TBackgroundHERA from './svgs/tokens/background/HERA.svg'
+import * as TBackgroundLEOX from './svgs/tokens/background/LEOX.svg'
+import * as TBackgroundHIFI from './svgs/tokens/background/HIFI.svg'
+import * as TBackgroundECOIN from './svgs/tokens/background/ECOIN.svg'
+import * as TBackgroundNOS from './svgs/tokens/background/NOS.svg'
+import * as TBackgroundSNFT from './svgs/tokens/background/SNFT.svg'
+import * as TBackgroundWAM from './svgs/tokens/background/WAM.svg'
+import * as TBackgroundGGP from './svgs/tokens/background/GGP.svg'
+import * as TBackgroundMTRG from './svgs/tokens/background/MTRG.svg'
+import * as TBackgroundGFT from './svgs/tokens/background/GFT.svg'
+import * as TBackgroundGGG from './svgs/tokens/background/GGG.svg'
+import * as TBackgroundIDEA from './svgs/tokens/background/IDEA.svg'
+import * as TBackgroundZPAY from './svgs/tokens/background/ZPAY.svg'
+import * as TBackgroundWNT from './svgs/tokens/background/WNT.svg'
+import * as TBackgroundBSCPAD from './svgs/tokens/background/BSCPAD.svg'
+import * as TBackgroundACRIA from './svgs/tokens/background/ACRIA.svg'
+import * as TBackgroundGUILD from './svgs/tokens/background/GUILD.svg'
+import * as TBackgroundNWC from './svgs/tokens/background/NWC.svg'
+import * as TBackgroundNTX from './svgs/tokens/background/NTX.svg'
+import * as TBackgroundBAT from './svgs/tokens/background/BAT.svg'
+import * as TBackgroundLOOKS from './svgs/tokens/background/LOOKS.svg'
+import * as TBackgroundEURT from './svgs/tokens/background/EURT.svg'
+import * as TBackgroundBETA from './svgs/tokens/background/BETA.svg'
+import * as TBackgroundEVMOS from './svgs/tokens/background/EVMOS.svg'
+import * as TBackgroundPINKSALE from './svgs/tokens/background/PINKSALE.svg'
+import * as TBackgroundRDD from './svgs/tokens/background/RDD.svg'
+import * as TBackgroundXAUR from './svgs/tokens/background/XAUR.svg'
+import * as TBackgroundPROTEO from './svgs/tokens/background/PROTEO.svg'
+import * as TBackgroundTABOO from './svgs/tokens/background/TABOO.svg'
+import * as TBackgroundLCD from './svgs/tokens/background/LCD.svg'
+import * as TBackgroundPPT from './svgs/tokens/background/PPT.svg'
+import * as TBackgroundSUSHI from './svgs/tokens/background/SUSHI.svg'
+import * as TBackgroundLING from './svgs/tokens/background/LING.svg'
+import * as TBackgroundORDI from './svgs/tokens/background/ORDI.svg'
+import * as TBackgroundLCS from './svgs/tokens/background/LCS.svg'
+import * as TBackgroundPPC from './svgs/tokens/background/PPC.svg'
+import * as TBackgroundHERMES from './svgs/tokens/background/HERMES.svg'
+import * as TBackgroundBLD from './svgs/tokens/background/BLD.svg'
+import * as TBackgroundZKB from './svgs/tokens/background/ZKB.svg'
+import * as TBackgroundDBI from './svgs/tokens/background/DBI.svg'
+import * as TBackgroundCGPT from './svgs/tokens/background/CGPT.svg'
+import * as TBackgroundFARA from './svgs/tokens/background/FARA.svg'
+import * as TBackgroundCGT from './svgs/tokens/background/CGT.svg'
+import * as TBackgroundHARD from './svgs/tokens/background/HARD.svg'
+import * as TBackgroundCFG from './svgs/tokens/background/CFG.svg'
+import * as TBackgroundIETH from './svgs/tokens/background/IETH.svg'
+import * as TBackgroundSBD from './svgs/tokens/background/SBD.svg'
+import * as TBackgroundLAMB from './svgs/tokens/background/LAMB.svg'
+import * as TBackgroundUNCX from './svgs/tokens/background/UNCX.svg'
+import * as TBackgroundQUARTZ from './svgs/tokens/background/QUARTZ.svg'
+import * as TBackgroundMED from './svgs/tokens/background/MED.svg'
+import * as TBackgroundBOND from './svgs/tokens/background/BOND.svg'
+import * as TBackgroundGBYTE from './svgs/tokens/background/GBYTE.svg'
+import * as TBackgroundRBLS from './svgs/tokens/background/RBLS.svg'
+import * as TBackgroundDXP from './svgs/tokens/background/DXP.svg'
+import * as TBackgroundKAVA from './svgs/tokens/background/KAVA.svg'
+import * as TBackgroundTXAU from './svgs/tokens/background/TXAU.svg'
+import * as TBackgroundU from './svgs/tokens/background/U.svg'
+import * as TBackgroundSQUAD from './svgs/tokens/background/SQUAD.svg'
+import * as TBackgroundHOT from './svgs/tokens/background/HOT.svg'
+import * as TBackgroundSHIK from './svgs/tokens/background/SHIK.svg'
+import * as TBackgroundCRU from './svgs/tokens/background/CRU.svg'
+import * as TBackgroundDIKO from './svgs/tokens/background/DIKO.svg'
+import * as TBackgroundML from './svgs/tokens/background/ML.svg'
+import * as TBackgroundVEXT from './svgs/tokens/background/VEXT.svg'
+import * as TBackgroundOS from './svgs/tokens/background/OS.svg'
+import * as TBackgroundTREEB from './svgs/tokens/background/TREEB.svg'
+import * as TBackgroundKMON from './svgs/tokens/background/KMON.svg'
+import * as TBackgroundGRAV from './svgs/tokens/background/GRAV.svg'
+import * as TBackgroundCLORE from './svgs/tokens/background/CLORE.svg'
+import * as TBackgroundRISITA from './svgs/tokens/background/RISITA.svg'
+import * as TBackgroundTRX from './svgs/tokens/background/TRX.svg'
+import * as TBackgroundOGN from './svgs/tokens/background/OGN.svg'
+import * as TBackgroundCTR from './svgs/tokens/background/CTR.svg'
+import * as TBackgroundPDEX from './svgs/tokens/background/PDEX.svg'
+import * as TBackgroundTHOR from './svgs/tokens/background/THOR.svg'
+import * as TBackgroundZTG from './svgs/tokens/background/ZTG.svg'
+import * as TBackgroundHID from './svgs/tokens/background/HID.svg'
+import * as TBackgroundMUSD from './svgs/tokens/background/MUSD.svg'
+import * as TBackgroundWOZX from './svgs/tokens/background/WOZX.svg'
+import * as TBackgroundSKL from './svgs/tokens/background/SKL.svg'
+import * as TBackgroundBRISE from './svgs/tokens/background/BRISE.svg'
+import * as TBackgroundSOPH from './svgs/tokens/background/SOPH.svg'
+import * as TBackgroundQUAD from './svgs/tokens/background/QUAD.svg'
+import * as TBackgroundSWASH from './svgs/tokens/background/SWASH.svg'
+import * as TBackgroundSIS from './svgs/tokens/background/SIS.svg'
+import * as TBackgroundOMNI from './svgs/tokens/background/OMNI.svg'
+import * as TBackgroundQRL from './svgs/tokens/background/QRL.svg'
+import * as TBackgroundDKA from './svgs/tokens/background/DKA.svg'
+import * as TBackgroundAUDIO from './svgs/tokens/background/AUDIO.svg'
+import * as TBackgroundPOLK from './svgs/tokens/background/POLK.svg'
+import * as TBackgroundFRA from './svgs/tokens/background/FRA.svg'
+import * as TBackgroundSDT from './svgs/tokens/background/SDT.svg'
+import * as TBackgroundCAS from './svgs/tokens/background/CAS.svg'
+import * as TBackgroundAXS from './svgs/tokens/background/AXS.svg'
+import * as TBackgroundLODE from './svgs/tokens/background/LODE.svg'
+import * as TBackgroundMND from './svgs/tokens/background/MND.svg'
+import * as TBackgroundYOSHI from './svgs/tokens/background/YOSHI.svg'
+import * as TBackgroundDGB from './svgs/tokens/background/DGB.svg'
+import * as TBackgroundCRWNY from './svgs/tokens/background/CRWNY.svg'
+import * as TBackgroundLAKE from './svgs/tokens/background/LAKE.svg'
+import * as TBackgroundFCON from './svgs/tokens/background/FCON.svg'
+import * as TBackgroundRNDR from './svgs/tokens/background/RNDR.svg'
+import * as TBackgroundPLANETS from './svgs/tokens/background/PLANETS.svg'
+import * as TBackgroundPOPCAT from './svgs/tokens/background/POPCAT.svg'
+import * as TBackgroundLET from './svgs/tokens/background/LET.svg'
+import * as TBackgroundFLOOR from './svgs/tokens/background/FLOOR.svg'
+import * as TBackgroundPSTAKE from './svgs/tokens/background/PSTAKE.svg'
+import * as TBackgroundBEL from './svgs/tokens/background/BEL.svg'
+import * as TBackgroundPZP from './svgs/tokens/background/PZP.svg'
+import * as TBackgroundNVIR from './svgs/tokens/background/NVIR.svg'
+import * as TBackgroundNFTART from './svgs/tokens/background/NFTART.svg'
+import * as TBackgroundSOULS from './svgs/tokens/background/SOULS.svg'
+import * as TBackgroundGNO from './svgs/tokens/background/GNO.svg'
+import * as TBackgroundBSV from './svgs/tokens/background/BSV.svg'
+import * as TBackgroundGORA from './svgs/tokens/background/GORA.svg'
+import * as TBackgroundCOMP from './svgs/tokens/background/COMP.svg'
+import * as TBackgroundLUCA from './svgs/tokens/background/LUCA.svg'
+import * as TBackgroundGDCC from './svgs/tokens/background/GDCC.svg'
+import * as TBackgroundETC from './svgs/tokens/background/ETC.svg'
+import * as TBackgroundICP from './svgs/tokens/background/ICP.svg'
+import * as TBackgroundPNB from './svgs/tokens/background/PNB.svg'
+import * as TBackgroundSYNC from './svgs/tokens/background/SYNC.svg'
+import * as TBackgroundRVF from './svgs/tokens/background/RVF.svg'
+import * as TBackgroundMANA from './svgs/tokens/background/MANA.svg'
+import * as TBackgroundEMAGIC from './svgs/tokens/background/EMAGIC.svg'
+import * as TBackgroundWRLD from './svgs/tokens/background/WRLD.svg'
+import * as TBackgroundHUSH from './svgs/tokens/background/HUSH.svg'
+import * as TBackgroundWAVES from './svgs/tokens/background/WAVES.svg'
+import * as TBackgroundGYMNET from './svgs/tokens/background/GYMNET.svg'
+import * as TBackgroundAURA from './svgs/tokens/background/AURA.svg'
+import * as TBackgroundMOBILE from './svgs/tokens/background/MOBILE.svg'
+import * as TBackgroundLPT from './svgs/tokens/background/LPT.svg'
+import * as TBackgroundINV from './svgs/tokens/background/INV.svg'
+import * as TBackgroundPAL from './svgs/tokens/background/PAL.svg'
+import * as TBackgroundPIZA from './svgs/tokens/background/PIZA.svg'
+import * as TBackgroundMCONTENT from './svgs/tokens/background/MCONTENT.svg'
+import * as TBackgroundTRAVA from './svgs/tokens/background/TRAVA.svg'
+import * as TBackgroundGNY from './svgs/tokens/background/GNY.svg'
+import * as TBackgroundKYVE from './svgs/tokens/background/KYVE.svg'
+import * as TBackgroundPNT from './svgs/tokens/background/PNT.svg'
+import * as TBackgroundBSW from './svgs/tokens/background/BSW.svg'
+import * as TBackgroundAIOZ from './svgs/tokens/background/AIOZ.svg'
+import * as TBackgroundPOP from './svgs/tokens/background/POP.svg'
+import * as TBackgroundGHUB from './svgs/tokens/background/GHUB.svg'
+import * as TBackgroundGLQ from './svgs/tokens/background/GLQ.svg'
+import * as TBackgroundNXRA from './svgs/tokens/background/NXRA.svg'
+import * as TBackgroundRAY from './svgs/tokens/background/RAY.svg'
+import * as TBackgroundGXC from './svgs/tokens/background/GXC.svg'
+import * as TBackgroundNAKA from './svgs/tokens/background/NAKA.svg'
+import * as TBackgroundEPIK from './svgs/tokens/background/EPIK.svg'
+import * as TBackgroundALGB from './svgs/tokens/background/ALGB.svg'
+import * as TBackgroundKNC from './svgs/tokens/background/KNC.svg'
+import * as TBackgroundPUSH from './svgs/tokens/background/PUSH.svg'
+import * as TBackgroundBLXM from './svgs/tokens/background/BLXM.svg'
+import * as TBackgroundKCS from './svgs/tokens/background/KCS.svg'
+import * as TBackgroundSTATOM from './svgs/tokens/background/STATOM.svg'
+import * as TBackgroundFRAX from './svgs/tokens/background/FRAX.svg'
+import * as TBackgroundAXE from './svgs/tokens/background/AXE.svg'
+import * as TBackgroundMNR from './svgs/tokens/background/MNR.svg'
+import * as TBackgroundAITECH from './svgs/tokens/background/AITECH.svg'
+import * as TBackgroundNEURONI from './svgs/tokens/background/NEURONI.svg'
+import * as TBackgroundZAP from './svgs/tokens/background/ZAP.svg'
+import * as TBackgroundCATHEON from './svgs/tokens/background/CATHEON.svg'
+import * as TBackgroundSHA from './svgs/tokens/background/SHA.svg'
+import * as TBackgroundQRDO from './svgs/tokens/background/QRDO.svg'
+import * as TBackgroundKLIMA from './svgs/tokens/background/KLIMA.svg'
+import * as TBackgroundWBETH from './svgs/tokens/background/WBETH.svg'
+import * as TBackgroundZCX from './svgs/tokens/background/ZCX.svg'
+import * as TBackgroundMCB from './svgs/tokens/background/MCB.svg'
+import * as TBackgroundFLUID from './svgs/tokens/background/FLUID.svg'
+import * as TBackgroundGULF from './svgs/tokens/background/GULF.svg'
+import * as TBackgroundACX from './svgs/tokens/background/ACX.svg'
+import * as TBackgroundAAG from './svgs/tokens/background/AAG.svg'
+import * as TBackgroundFCTR from './svgs/tokens/background/FCTR.svg'
+import * as TBackgroundFEI from './svgs/tokens/background/FEI.svg'
+import * as TBackgroundONG from './svgs/tokens/background/ONG.svg'
+import * as TBackgroundMUSE from './svgs/tokens/background/MUSE.svg'
+import * as TBackgroundGRAIN from './svgs/tokens/background/GRAIN.svg'
+import * as TBackgroundATLAS from './svgs/tokens/background/ATLAS.svg'
+import * as TBackgroundSRX from './svgs/tokens/background/SRX.svg'
+import * as TBackgroundTULIP from './svgs/tokens/background/TULIP.svg'
+import * as TBackgroundXCM from './svgs/tokens/background/XCM.svg'
+import * as TBackgroundINTR from './svgs/tokens/background/INTR.svg'
+import * as TBackgroundDEXE from './svgs/tokens/background/DEXE.svg'
+import * as TBackgroundTTK from './svgs/tokens/background/TTK.svg'
+import * as TBackgroundSRM from './svgs/tokens/background/SRM.svg'
+import * as TBackgroundVLX from './svgs/tokens/background/VLX.svg'
+import * as TBackgroundSPE from './svgs/tokens/background/SPE.svg'
+import * as TBackgroundONE from './svgs/tokens/background/ONE.svg'
+import * as TBackgroundGRIN from './svgs/tokens/background/GRIN.svg'
+import * as TBackgroundGRAIL from './svgs/tokens/background/GRAIL.svg'
+import * as TBackgroundOMI from './svgs/tokens/background/OMI.svg'
+import * as TBackgroundDYDX from './svgs/tokens/background/DYDX.svg'
+import * as TBackgroundSRLTY from './svgs/tokens/background/SRLTY.svg'
+import * as TBackgroundDUSK from './svgs/tokens/background/DUSK.svg'
+import * as TBackgroundFX from './svgs/tokens/background/FX.svg'
+import * as TBackgroundPSWAP from './svgs/tokens/background/PSWAP.svg'
+import * as TBackgroundTLM from './svgs/tokens/background/TLM.svg'
+import * as TBackgroundMBD from './svgs/tokens/background/MBD.svg'
+import * as TBackgroundSN from './svgs/tokens/background/SN.svg'
+import * as TBackgroundCOL from './svgs/tokens/background/COL.svg'
+import * as TBackgroundAVL from './svgs/tokens/background/AVL.svg'
+import * as TBackgroundOMNOM from './svgs/tokens/background/OMNOM.svg'
+import * as TBackgroundATD from './svgs/tokens/background/ATD.svg'
+import * as TBackgroundGCOIN from './svgs/tokens/background/GCOIN.svg'
+import * as TBackgroundMOC from './svgs/tokens/background/MOC.svg'
+import * as TBackgroundCAP from './svgs/tokens/background/CAP.svg'
+import * as TBackgroundOTK from './svgs/tokens/background/OTK.svg'
+import * as TBackgroundLEASH from './svgs/tokens/background/LEASH.svg'
+import * as TBackgroundTFUEL from './svgs/tokens/background/TFUEL.svg'
+import * as TBackgroundTREE from './svgs/tokens/background/TREE.svg'
+import * as TBackgroundTIPS from './svgs/tokens/background/TIPS.svg'
+import * as TBackgroundKAN from './svgs/tokens/background/KAN.svg'
+import * as TBackgroundELF from './svgs/tokens/background/ELF.svg'
+import * as TBackgroundRBW from './svgs/tokens/background/RBW.svg'
+import * as TBackgroundNPC from './svgs/tokens/background/NPC.svg'
+import * as TBackgroundGSTS from './svgs/tokens/background/GSTS.svg'
+import * as TBackgroundPICA from './svgs/tokens/background/PICA.svg'
+import * as TBackgroundLIT from './svgs/tokens/background/LIT.svg'
+import * as TBackgroundSKEY from './svgs/tokens/background/SKEY.svg'
+import * as TBackgroundGXA from './svgs/tokens/background/GXA.svg'
+import * as TBackgroundINSUR from './svgs/tokens/background/INSUR.svg'
+import * as TBackgroundPLI from './svgs/tokens/background/PLI.svg'
+import * as TBackgroundRTM from './svgs/tokens/background/RTM.svg'
+import * as TBackgroundYGG from './svgs/tokens/background/YGG.svg'
+import * as TBackgroundTONIC from './svgs/tokens/background/TONIC.svg'
+import * as TBackgroundHILO from './svgs/tokens/background/HILO.svg'
+import * as TBackgroundLUNR from './svgs/tokens/background/LUNR.svg'
+import * as TBackgroundLYXE from './svgs/tokens/background/LYXE.svg'
+import * as TBackgroundGAT from './svgs/tokens/background/GAT.svg'
+import * as TBackgroundIMX from './svgs/tokens/background/IMX.svg'
+import * as TBackgroundMOBY from './svgs/tokens/background/MOBY.svg'
+import * as TBackgroundPAY from './svgs/tokens/background/PAY.svg'
+import * as TBackgroundPROB from './svgs/tokens/background/PROB.svg'
+import * as TBackgroundJASMY from './svgs/tokens/background/JASMY.svg'
+import * as TBackgroundTIFI from './svgs/tokens/background/TIFI.svg'
+import * as TBackgroundIMO from './svgs/tokens/background/IMO.svg'
+import * as TBackgroundINT from './svgs/tokens/background/INT.svg'
+import * as TBackgroundHIBS from './svgs/tokens/background/HIBS.svg'
+import * as TBackgroundXDATA from './svgs/tokens/background/XDATA.svg'
+import * as TBackgroundHELLO from './svgs/tokens/background/HELLO.svg'
+import * as TBackgroundMANC from './svgs/tokens/background/MANC.svg'
+import * as TBackgroundKUMA from './svgs/tokens/background/KUMA.svg'
+import * as TBackgroundELON from './svgs/tokens/background/ELON.svg'
+import * as TBackgroundMIMATIC from './svgs/tokens/background/MIMATIC.svg'
+import * as TBackgroundBRG from './svgs/tokens/background/BRG.svg'
+import * as TBackgroundALPH from './svgs/tokens/background/ALPH.svg'
+import * as TBackgroundROUTE from './svgs/tokens/background/ROUTE.svg'
+import * as TBackgroundUSN from './svgs/tokens/background/USN.svg'
+import * as TBackgroundBST from './svgs/tokens/background/BST.svg'
+import * as TBackgroundICE from './svgs/tokens/background/ICE.svg'
+import * as TBackgroundSENSE from './svgs/tokens/background/SENSE.svg'
+import * as TBackgroundBEN from './svgs/tokens/background/BEN.svg'
+import * as TBackgroundDATA from './svgs/tokens/background/DATA.svg'
+import * as TBackgroundRAMP from './svgs/tokens/background/RAMP.svg'
+import * as TBackgroundRAM from './svgs/tokens/background/RAM.svg'
+import * as TBackgroundGTC from './svgs/tokens/background/GTC.svg'
+import * as TBackgroundIXO from './svgs/tokens/background/IXO.svg'
+import * as TBackgroundGAFI from './svgs/tokens/background/GAFI.svg'
+import * as TBackgroundAPOLLO from './svgs/tokens/background/APOLLO.svg'
+import * as TBackgroundXTP from './svgs/tokens/background/XTP.svg'
+import * as TBackgroundMLN from './svgs/tokens/background/MLN.svg'
+import * as TBackgroundAAVE from './svgs/tokens/background/AAVE.svg'
+import * as TBackgroundOATH from './svgs/tokens/background/OATH.svg'
+import * as TBackgroundJKL from './svgs/tokens/background/JKL.svg'
+import * as TBackgroundSFI from './svgs/tokens/background/SFI.svg'
+import * as TBackgroundREALM from './svgs/tokens/background/REALM.svg'
+import * as TBackgroundKWENTA from './svgs/tokens/background/KWENTA.svg'
+import * as TBackgroundATR from './svgs/tokens/background/ATR.svg'
+import * as TBackgroundCLV from './svgs/tokens/background/CLV.svg'
+import * as TBackgroundFOREX from './svgs/tokens/background/FOREX.svg'
+import * as TBackgroundMTH from './svgs/tokens/background/MTH.svg'
+import * as TBackgroundXMR from './svgs/tokens/background/XMR.svg'
+import * as TBackgroundDF from './svgs/tokens/background/DF.svg'
+import * as TBackgroundKISHU from './svgs/tokens/background/KISHU.svg'
+import * as TBackgroundCOSMOSHUB from './svgs/tokens/background/COSMOSHUB.svg'
+import * as TBackgroundLQTY from './svgs/tokens/background/LQTY.svg'
+import * as TBackgroundVAI from './svgs/tokens/background/VAI.svg'
+import * as TBackgroundCTG from './svgs/tokens/background/CTG.svg'
+import * as TBackgroundBCUBE from './svgs/tokens/background/BCUBE.svg'
+import * as TBackgroundDPI from './svgs/tokens/background/DPI.svg'
+import * as TBackgroundLOVELY from './svgs/tokens/background/LOVELY.svg'
+import * as TBackgroundCTC from './svgs/tokens/background/CTC.svg'
+import * as TBackgroundPAXG from './svgs/tokens/background/PAXG.svg'
+import * as TBackgroundBSCS from './svgs/tokens/background/BSCS.svg'
+import * as TBackgroundOAX from './svgs/tokens/background/OAX.svg'
+import * as TBackgroundMTL from './svgs/tokens/background/MTL.svg'
+import * as TBackgroundACH from './svgs/tokens/background/ACH.svg'
+import * as TBackgroundMVD from './svgs/tokens/background/MVD.svg'
+import * as TBackgroundABL from './svgs/tokens/background/ABL.svg'
+import * as TBackgroundPYUSD from './svgs/tokens/background/PYUSD.svg'
+import * as TBackgroundATA from './svgs/tokens/background/ATA.svg'
+import * as TBackgroundC98 from './svgs/tokens/background/C98.svg'
+import * as TBackgroundPOLYPAD from './svgs/tokens/background/POLYPAD.svg'
+import * as TBackgroundAVI from './svgs/tokens/background/AVI.svg'
+import * as TBackgroundVVS from './svgs/tokens/background/VVS.svg'
+import * as TBackgroundUBSN from './svgs/tokens/background/UBSN.svg'
+import * as TBackgroundKLEVA from './svgs/tokens/background/KLEVA.svg'
+import * as TBackgroundCBY from './svgs/tokens/background/CBY.svg'
+import * as TBackgroundMMY from './svgs/tokens/background/MMY.svg'
+import * as TBackgroundMNB from './svgs/tokens/background/MNB.svg'
+import * as TBackgroundSFM from './svgs/tokens/background/SFM.svg'
+import * as TBackgroundDEL from './svgs/tokens/background/DEL.svg'
+import * as TBackgroundKITTY from './svgs/tokens/background/KITTY.svg'
+import * as TBackgroundTAO from './svgs/tokens/background/TAO.svg'
+import * as TBackgroundZKID from './svgs/tokens/background/ZKID.svg'
+import * as TBackgroundPPAY from './svgs/tokens/background/PPAY.svg'
+import * as TBackgroundRLY from './svgs/tokens/background/RLY.svg'
+import * as TBackgroundFEAR from './svgs/tokens/background/FEAR.svg'
+import * as TBackgroundSEED from './svgs/tokens/background/SEED.svg'
+import * as TBackgroundEMP from './svgs/tokens/background/EMP.svg'
+import * as TBackgroundDZOO from './svgs/tokens/background/DZOO.svg'
+import * as TBackgroundNOIA from './svgs/tokens/background/NOIA.svg'
+import * as TBackgroundAIMBOT from './svgs/tokens/background/AIMBOT.svg'
+import * as TBackgroundQASH from './svgs/tokens/background/QASH.svg'
+import * as TBackgroundORARE from './svgs/tokens/background/ORARE.svg'
+import * as TBackgroundCSIX from './svgs/tokens/background/CSIX.svg'
+import * as TBackgroundRAI from './svgs/tokens/background/RAI.svg'
+import * as TBackgroundCRYSTAL from './svgs/tokens/background/CRYSTAL.svg'
+import * as TBackgroundGOZ from './svgs/tokens/background/GOZ.svg'
+import * as TBackgroundETE from './svgs/tokens/background/ETE.svg'
+import * as TBackgroundNFTB from './svgs/tokens/background/NFTB.svg'
+import * as TBackgroundOETH from './svgs/tokens/background/OETH.svg'
+import * as TBackgroundXPNET from './svgs/tokens/background/XPNET.svg'
+import * as TBackgroundSTRAX from './svgs/tokens/background/STRAX.svg'
+import * as TBackgroundGARI from './svgs/tokens/background/GARI.svg'
+import * as TBackgroundBLUSD from './svgs/tokens/background/BLUSD.svg'
+import * as TBackgroundSIPHER from './svgs/tokens/background/SIPHER.svg'
+import * as TBackgroundLUNA from './svgs/tokens/background/LUNA.svg'
+import * as TBackgroundTBTC from './svgs/tokens/background/TBTC.svg'
+import * as TBackgroundSEILOR from './svgs/tokens/background/SEILOR.svg'
+import * as TBackgroundDOMI from './svgs/tokens/background/DOMI.svg'
+import * as TBackgroundUPP from './svgs/tokens/background/UPP.svg'
+import * as TBackgroundHUSKY from './svgs/tokens/background/HUSKY.svg'
+import * as TBackgroundTELOS from './svgs/tokens/background/TELOS.svg'
+import * as TBackgroundUQC from './svgs/tokens/background/UQC.svg'
+import * as TBackgroundSMARTCREDIT from './svgs/tokens/background/SMARTCREDIT.svg'
+import * as TBackgroundSLCL from './svgs/tokens/background/SLCL.svg'
+import * as TBackgroundQUICK from './svgs/tokens/background/QUICK.svg'
+import * as TBackgroundMATH from './svgs/tokens/background/MATH.svg'
+import * as TBackgroundBDX from './svgs/tokens/background/BDX.svg'
+import * as TBackgroundFLAME from './svgs/tokens/background/FLAME.svg'
+import * as TBackgroundRBD from './svgs/tokens/background/RBD.svg'
+import * as TBackgroundELU from './svgs/tokens/background/ELU.svg'
+import * as TBackgroundHIVE from './svgs/tokens/background/HIVE.svg'
+import * as TBackgroundGHNY from './svgs/tokens/background/GHNY.svg'
+import * as TBackgroundLYX1 from './svgs/tokens/background/LYX-1.svg'
+import * as TBackgroundARCH from './svgs/tokens/background/ARCH.svg'
+import * as TBackgroundWSI from './svgs/tokens/background/WSI.svg'
+import * as TBackgroundENJ from './svgs/tokens/background/ENJ.svg'
+import * as TBackgroundVOXEL from './svgs/tokens/background/VOXEL.svg'
+import * as TBackgroundPINU from './svgs/tokens/background/PINU.svg'
+import * as TBackgroundATOM from './svgs/tokens/background/ATOM.svg'
+import * as TBackgroundCAT from './svgs/tokens/background/CAT.svg'
+import * as TBackgroundMOG from './svgs/tokens/background/MOG.svg'
+import * as TBackgroundEQUAD from './svgs/tokens/background/EQUAD.svg'
+import * as TBackgroundCELO from './svgs/tokens/background/CELO.svg'
+import * as TBackgroundSTRONG from './svgs/tokens/background/STRONG.svg'
+import * as TBackgroundURUS from './svgs/tokens/background/URUS.svg'
+import * as TBackgroundCBX from './svgs/tokens/background/CBX.svg'
+import * as TBackgroundMLK from './svgs/tokens/background/MLK.svg'
+import * as TBackgroundTARA from './svgs/tokens/background/TARA.svg'
+import * as TBackgroundMMO from './svgs/tokens/background/MMO.svg'
+import * as TBackgroundMNT from './svgs/tokens/background/MNT.svg'
+import * as TBackgroundZNN from './svgs/tokens/background/ZNN.svg'
+import * as TBackgroundPOND from './svgs/tokens/background/POND.svg'
+import * as TBackgroundMNST from './svgs/tokens/background/MNST.svg'
+import * as TBackgroundRING from './svgs/tokens/background/RING.svg'
+import * as TBackgroundCLS from './svgs/tokens/background/CLS.svg'
+import * as TBackgroundTOR from './svgs/tokens/background/TOR.svg'
+import * as TBackgroundPORTAL from './svgs/tokens/background/PORTAL.svg'
+import * as TBackgroundVEGA from './svgs/tokens/background/VEGA.svg'
+import * as TBackgroundAZERO from './svgs/tokens/background/AZERO.svg'
+import * as TBackgroundTORN from './svgs/tokens/background/TORN.svg'
+import * as TBackgroundHYDRA from './svgs/tokens/background/HYDRA.svg'
+import * as TBackgroundOOE from './svgs/tokens/background/OOE.svg'
+import * as TBackgroundCRTS from './svgs/tokens/background/CRTS.svg'
+import * as TBackgroundETHM from './svgs/tokens/background/ETHM.svg'
+import * as TBackgroundGO from './svgs/tokens/background/GO.svg'
+import * as TBackgroundVALOR from './svgs/tokens/background/VALOR.svg'
+import * as TBackgroundSTRP from './svgs/tokens/background/STRP.svg'
+import * as TBackgroundSTELLA from './svgs/tokens/background/STELLA.svg'
+import * as TBackgroundRAVEN from './svgs/tokens/background/RAVEN.svg'
+import * as TBackgroundDC from './svgs/tokens/background/DC.svg'
+import * as TBackgroundDPAY from './svgs/tokens/background/DPAY.svg'
+import * as TBackgroundFIL from './svgs/tokens/background/FIL.svg'
+import * as TBackgroundTWT from './svgs/tokens/background/TWT.svg'
+import * as TBackgroundDIMO from './svgs/tokens/background/DIMO.svg'
+import * as TBackgroundID from './svgs/tokens/background/ID.svg'
+import * as TBackgroundSPA from './svgs/tokens/background/SPA.svg'
+import * as TBackgroundDEXT from './svgs/tokens/background/DEXT.svg'
+import * as TBackgroundSPC from './svgs/tokens/background/SPC.svg'
+import * as TBackgroundSSX from './svgs/tokens/background/SSX.svg'
+import * as TBackgroundSIGNA from './svgs/tokens/background/SIGNA.svg'
+import * as TBackgroundIQ from './svgs/tokens/background/IQ.svg'
+import * as TBackgroundDWEB from './svgs/tokens/background/DWEB.svg'
+import * as TBackgroundGEEQ from './svgs/tokens/background/GEEQ.svg'
+import * as TBackgroundSRK from './svgs/tokens/background/SRK.svg'
+import * as TBackgroundCUSD from './svgs/tokens/background/CUSD.svg'
+import * as TBackgroundONT from './svgs/tokens/background/ONT.svg'
+import * as TBackgroundVCF from './svgs/tokens/background/VCF.svg'
+import * as TBackgroundBLOCK from './svgs/tokens/background/BLOCK.svg'
+import * as TBackgroundETHX from './svgs/tokens/background/ETHX.svg'
+import * as TBackgroundEARN from './svgs/tokens/background/EARN.svg'
+import * as TBackgroundMWC from './svgs/tokens/background/MWC.svg'
+import * as TBackgroundFOAM from './svgs/tokens/background/FOAM.svg'
+import * as TBackgroundLAYER from './svgs/tokens/background/LAYER.svg'
+import * as TBackgroundMAN from './svgs/tokens/background/MAN.svg'
+import * as TBackgroundSDAO from './svgs/tokens/background/SDAO.svg'
+import * as TBackgroundZAT from './svgs/tokens/background/ZAT.svg'
+import * as TBackgroundVTX from './svgs/tokens/background/VTX.svg'
+import * as TBackgroundOXY from './svgs/tokens/background/OXY.svg'
+import * as TBackgroundSPIRIT from './svgs/tokens/background/SPIRIT.svg'
+import * as TBackgroundTNT from './svgs/tokens/background/TNT.svg'
+import * as TBackgroundKOIN from './svgs/tokens/background/KOIN.svg'
+import * as TBackgroundTOP from './svgs/tokens/background/TOP.svg'
+import * as TBackgroundPOLY from './svgs/tokens/background/POLY.svg'
+import * as TBackgroundKOGE from './svgs/tokens/background/KOGE.svg'
+import * as TBackgroundOVR from './svgs/tokens/background/OVR.svg'
+import * as TBackgroundMOE from './svgs/tokens/background/MOE.svg'
+import * as TBackgroundDACXI from './svgs/tokens/background/DACXI.svg'
+import * as TBackgroundWRX from './svgs/tokens/background/WRX.svg'
+import * as TBackgroundTLOS from './svgs/tokens/background/TLOS.svg'
+import * as TBackgroundCANTO from './svgs/tokens/background/CANTO.svg'
+import * as TBackgroundGZONE from './svgs/tokens/background/GZONE.svg'
+import * as TBackgroundPWR from './svgs/tokens/background/PWR.svg'
+import * as TBackgroundGFAL from './svgs/tokens/background/GFAL.svg'
+import * as TBackgroundDJED from './svgs/tokens/background/DJED.svg'
+import * as TBackgroundECO from './svgs/tokens/background/ECO.svg'
+import * as TBackgroundNGL from './svgs/tokens/background/NGL.svg'
+import * as TBackgroundCTXC from './svgs/tokens/background/CTXC.svg'
+import * as TBackgroundPNG from './svgs/tokens/background/PNG.svg'
+import * as TBackgroundRVC from './svgs/tokens/background/RVC.svg'
+import * as TBackgroundNSBT from './svgs/tokens/background/NSBT.svg'
+import * as TBackgroundUSDX from './svgs/tokens/background/USDX.svg'
+import * as TBackgroundPNP from './svgs/tokens/background/PNP.svg'
+import * as TBackgroundLSK from './svgs/tokens/background/LSK.svg'
+import * as TBackgroundNHT from './svgs/tokens/background/NHT.svg'
+import * as TBackgroundWELL from './svgs/tokens/background/WELL.svg'
+import * as TBackgroundLUNC from './svgs/tokens/background/LUNC.svg'
+import * as TBackgroundEUNO from './svgs/tokens/background/EUNO.svg'
+import * as TBackgroundOUSD from './svgs/tokens/background/OUSD.svg'
+import * as TBackgroundPROS from './svgs/tokens/background/PROS.svg'
+import * as TBackgroundMOBI from './svgs/tokens/background/MOBI.svg'
+import * as TBackgroundCCV2 from './svgs/tokens/background/CCV2.svg'
+import * as TBackgroundPAI from './svgs/tokens/background/PAI.svg'
+import * as TBackgroundPBR from './svgs/tokens/background/PBR.svg'
+import * as TBackgroundGAS from './svgs/tokens/background/GAS.svg'
+import * as TBackgroundBEETS from './svgs/tokens/background/BEETS.svg'
+import * as TBackgroundPLEB from './svgs/tokens/background/PLEB.svg'
+import * as TBackgroundCUMINU from './svgs/tokens/background/CUMINU.svg'
+import * as TBackgroundINS from './svgs/tokens/background/INS.svg'
+import * as TBackgroundEXD from './svgs/tokens/background/EXD.svg'
+import * as TBackgroundNKN from './svgs/tokens/background/NKN.svg'
+import * as TBackgroundUSH from './svgs/tokens/background/USH.svg'
+import * as TBackgroundTRAXX from './svgs/tokens/background/TRAXX.svg'
+import * as TBackgroundTOWER from './svgs/tokens/background/TOWER.svg'
+import * as TBackgroundSYLO from './svgs/tokens/background/SYLO.svg'
+import * as TBackgroundY2K from './svgs/tokens/background/Y2K.svg'
+import * as TBackgroundPLN from './svgs/tokens/background/PLN.svg'
+import * as TBackgroundETP from './svgs/tokens/background/ETP.svg'
+import * as TBackgroundMOON from './svgs/tokens/background/MOON.svg'
+import * as TBackgroundGLC from './svgs/tokens/background/GLC.svg'
+import * as TBackgroundPLY from './svgs/tokens/background/PLY.svg'
+import * as TBackgroundSWAP from './svgs/tokens/background/SWAP.svg'
+import * as TBackgroundKEEP from './svgs/tokens/background/KEEP.svg'
+import * as TBackgroundSFUND from './svgs/tokens/background/SFUND.svg'
+import * as TBackgroundNGM from './svgs/tokens/background/NGM.svg'
+import * as TBackgroundSWISE from './svgs/tokens/background/SWISE.svg'
+import * as TBackgroundUFI from './svgs/tokens/background/UFI.svg'
+import * as TBackgroundALEX from './svgs/tokens/background/ALEX.svg'
+import * as TBackgroundRDPX from './svgs/tokens/background/RDPX.svg'
+import * as TBackgroundCBETH from './svgs/tokens/background/CBETH.svg'
+import * as TBackgroundCHRP from './svgs/tokens/background/CHRP.svg'
+import * as TBackgroundWOJAK from './svgs/tokens/background/WOJAK.svg'
+import * as TBackgroundKAI from './svgs/tokens/background/KAI.svg'
+import * as TBackgroundCELL from './svgs/tokens/background/CELL.svg'
+import * as TBackgroundHAWK from './svgs/tokens/background/HAWK.svg'
+import * as TBackgroundMOD from './svgs/tokens/background/MOD.svg'
+import * as TBackgroundCAW from './svgs/tokens/background/CAW.svg'
+import * as TBackgroundREVO from './svgs/tokens/background/REVO.svg'
+import * as TBackgroundTRIAS from './svgs/tokens/background/TRIAS.svg'
+import * as TBackgroundMNW from './svgs/tokens/background/MNW.svg'
+import * as TBackgroundMAX from './svgs/tokens/background/MAX.svg'
+import * as TBackgroundSI from './svgs/tokens/background/SI.svg'
+import * as TBackgroundPOLX from './svgs/tokens/background/POLX.svg'
+import * as TBackgroundHMND from './svgs/tokens/background/HMND.svg'
+import * as TBackgroundMEAN from './svgs/tokens/background/MEAN.svg'
+import * as TBackgroundUNIX from './svgs/tokens/background/UNIX.svg'
+import * as TBackgroundSTRD from './svgs/tokens/background/STRD.svg'
+import * as TBackgroundNBLU from './svgs/tokens/background/NBLU.svg'
+import * as TBackgroundDGNX from './svgs/tokens/background/DGNX.svg'
+import * as TBackgroundES from './svgs/tokens/background/ES.svg'
+import * as TBackgroundVIDT from './svgs/tokens/background/VIDT.svg'
+import * as TBackgroundXNO from './svgs/tokens/background/XNO.svg'
+import * as TBackgroundHT from './svgs/tokens/background/HT.svg'
+import * as TBackgroundFIO from './svgs/tokens/background/FIO.svg'
+import * as TBackgroundOCE from './svgs/tokens/background/OCE.svg'
+import * as TBackgroundMZR from './svgs/tokens/background/MZR.svg'
+import * as TBackgroundPOWR from './svgs/tokens/background/POWR.svg'
+import * as TBackgroundGLMR from './svgs/tokens/background/GLMR.svg'
+import * as TBackgroundDPX from './svgs/tokens/background/DPX.svg'
+import * as TBackgroundAQTIS from './svgs/tokens/background/AQTIS.svg'
+import * as TBackgroundXCH from './svgs/tokens/background/XCH.svg'
+import * as TBackgroundMXM from './svgs/tokens/background/MXM.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NBrandedThundercore from './svgs/networks/branded/thundercore.svg'
 import * as NBrandedTheta from './svgs/networks/branded/theta.svg'
@@ -4158,6 +6011,7 @@ export const svgs = {
       MNDE: TBrandedMNDE,
       WLITI: TBrandedWLITI,
       ACQ: TBrandedACQ,
+      HFT: TBrandedHFT,
       ANKRETH: TBrandedANKRETH,
       AMZ: TBrandedAMZ,
       CNHT: TBrandedCNHT,
@@ -4193,7 +6047,9 @@ export const svgs = {
       MAV: TBrandedMAV,
       REVV: TBrandedREVV,
       XVG: TBrandedXVG,
+      DENT: TBrandedDENT,
       D2T: TBrandedD2T,
+      EOSDT: TBrandedEOSDT,
       ZLK: TBrandedZLK,
       ODIN: TBrandedODIN,
       WAGMIGAMES: TBrandedWAGMIGAMES,
@@ -4245,6 +6101,7 @@ export const svgs = {
       KLV: TBrandedKLV,
       GOFX: TBrandedGOFX,
       BDT: TBrandedBDT,
+      WING: TBrandedWING,
       ORAI: TBrandedORAI,
       KWAI: TBrandedKWAI,
       RLC: TBrandedRLC,
@@ -4293,12 +6150,14 @@ export const svgs = {
       TUT: TBrandedTUT,
       MUSIC: TBrandedMUSIC,
       FIS: TBrandedFIS,
+      EUROE: TBrandedEUROE,
       ONI: TBrandedONI,
       GG: TBrandedGG,
       FEG: TBrandedFEG,
       STRX: TBrandedSTRX,
       NULS: TBrandedNULS,
       CEUR: TBrandedCEUR,
+      ABR: TBrandedABR,
       CND: TBrandedCND,
       SHX: TBrandedSHX,
       POLS: TBrandedPOLS,
@@ -4335,6 +6194,7 @@ export const svgs = {
       GMEE: TBrandedGMEE,
       BABYDOGE: TBrandedBABYDOGE,
       KTC: TBrandedKTC,
+      CSPR: TBrandedCSPR,
       SBTC: TBrandedSBTC,
       DOBO: TBrandedDOBO,
       LEVER: TBrandedLEVER,
@@ -4392,6 +6252,7 @@ export const svgs = {
       VRSW: TBrandedVRSW,
       MNGO: TBrandedMNGO,
       MVL: TBrandedMVL,
+      SCRT: TBrandedSCRT,
       MTS: TBrandedMTS,
       FOOM: TBrandedFOOM,
       CTK: TBrandedCTK,
@@ -4423,6 +6284,7 @@ export const svgs = {
       FRM: TBrandedFRM,
       OMMI: TBrandedOMMI,
       AVT: TBrandedAVT,
+      AVINOC: TBrandedAVINOC,
       WALV: TBrandedWALV,
       BTSE: TBrandedBTSE,
       SFP: TBrandedSFP,
@@ -4434,6 +6296,7 @@ export const svgs = {
       CROID: TBrandedCROID,
       BIT: TBrandedBIT,
       NFAI: TBrandedNFAI,
+      ALGO: TBrandedALGO,
       NODL: TBrandedNODL,
       RBX: TBrandedRBX,
       COSMOS: TBrandedCOSMOS,
@@ -4449,6 +6312,7 @@ export const svgs = {
       HUSD: TBrandedHUSD,
       KLAY: TBrandedKLAY,
       PROM: TBrandedPROM,
+      GAL: TBrandedGAL,
       IDLE: TBrandedIDLE,
       GCR: TBrandedGCR,
       PAW: TBrandedPAW,
@@ -4465,6 +6329,7 @@ export const svgs = {
       RENBTC: TBrandedRENBTC,
       FLEX: TBrandedFLEX,
       NPM: TBrandedNPM,
+      EOS: TBrandedEOS,
       MOVR: TBrandedMOVR,
       IMPT: TBrandedIMPT,
       EML: TBrandedEML,
@@ -4473,6 +6338,7 @@ export const svgs = {
       '0X0': TBranded0X0,
       SDN: TBrandedSDN,
       UNFI: TBrandedUNFI,
+      CELR: TBrandedCELR,
       DEP: TBrandedDEP,
       DGX: TBrandedDGX,
       ASIA: TBrandedASIA,
@@ -4519,7 +6385,9 @@ export const svgs = {
       SXP: TBrandedSXP,
       BLUESPARROW: TBrandedBLUESPARROW,
       XPLA: TBrandedXPLA,
+      CLXY: TBrandedCLXY,
       CARBON: TBrandedCARBON,
+      XHV: TBrandedXHV,
       SALT: TBrandedSALT,
       DOT: TBrandedDOT,
       NEXO: TBrandedNEXO,
@@ -4539,6 +6407,7 @@ export const svgs = {
       KINT: TBrandedKINT,
       MMPRO: TBrandedMMPRO,
       BAN: TBrandedBAN,
+      WBTC: TBrandedWBTC,
       EFL: TBrandedEFL,
       SWEAT: TBrandedSWEAT,
       WXT: TBrandedWXT,
@@ -4564,6 +6433,7 @@ export const svgs = {
       PEPE: TBrandedPEPE,
       KIBA: TBrandedKIBA,
       BAX: TBrandedBAX,
+      FRIN: TBrandedFRIN,
       TROY: TBrandedTROY,
       BRWL: TBrandedBRWL,
       BAO: TBrandedBAO,
@@ -4604,12 +6474,14 @@ export const svgs = {
       TRC: TBrandedTRC,
       EDGE: TBrandedEDGE,
       L2: TBrandedL2,
+      WCFG: TBrandedWCFG,
       QOM: TBrandedQOM,
       MARSH: TBrandedMARSH,
       XDC: TBrandedXDC,
       COLLAB: TBrandedCOLLAB,
       TOMB: TBrandedTOMB,
       AIS: TBrandedAIS,
+      SOLO: TBrandedSOLO,
       VERSE: TBrandedVERSE,
       STG: TBrandedSTG,
       QLC: TBrandedQLC,
@@ -4617,8 +6489,10 @@ export const svgs = {
       ATRI: TBrandedATRI,
       SPACE: TBrandedSPACE,
       ASTO: TBrandedASTO,
+      SENATE: TBrandedSENATE,
       OKT: TBrandedOKT,
       AA: TBrandedAA,
+      THEO: TBrandedTHEO,
       VSP: TBrandedVSP,
       HXD: TBrandedHXD,
       DEGO: TBrandedDEGO,
@@ -4673,8 +6547,10 @@ export const svgs = {
       BMX: TBrandedBMX,
       NXT: TBrandedNXT,
       UMB: TBrandedUMB,
+      WWY: TBrandedWWY,
       LAT: TBrandedLAT,
       PIKA: TBrandedPIKA,
+      BNT: TBrandedBNT,
       COPE: TBrandedCOPE,
       STOSMO: TBrandedSTOSMO,
       DCB: TBrandedDCB,
@@ -4702,6 +6578,7 @@ export const svgs = {
       ADAPAD: TBrandedADAPAD,
       '3ULL': TBranded3ULL,
       X2Y2: TBrandedX2Y2,
+      ZRX: TBrandedZRX,
       MC: TBrandedMC,
       FLX: TBrandedFLX,
       SUB: TBrandedSUB,
@@ -4738,6 +6615,7 @@ export const svgs = {
       SATT: TBrandedSATT,
       PAID: TBrandedPAID,
       AART: TBrandedAART,
+      BTCST: TBrandedBTCST,
       INFRA: TBrandedINFRA,
       KINE: TBrandedKINE,
       BLX: TBrandedBLX,
@@ -4854,6 +6732,7 @@ export const svgs = {
       FTN: TBrandedFTN,
       VITE: TBrandedVITE,
       APW: TBrandedAPW,
+      SMT: TBrandedSMT,
       ZZ: TBrandedZZ,
       CFX: TBrandedCFX,
       IPOR: TBrandedIPOR,
@@ -4879,6 +6758,7 @@ export const svgs = {
       YAK: TBrandedYAK,
       YCC: TBrandedYCC,
       WNK: TBrandedWNK,
+      RSR: TBrandedRSR,
       WHALE: TBrandedWHALE,
       NOM: TBrandedNOM,
       KLEE: TBrandedKLEE,
@@ -4889,6 +6769,7 @@ export const svgs = {
       AUTO: TBrandedAUTO,
       SAITAMA: TBrandedSAITAMA,
       LUA: TBrandedLUA,
+      SFRXETH: TBrandedSFRXETH,
       RARI: TBrandedRARI,
       DODO: TBrandedDODO,
       SAITO: TBrandedSAITO,
@@ -4970,6 +6851,7 @@ export const svgs = {
       SNT: TBrandedSNT,
       PROPS: TBrandedPROPS,
       LMWR: TBrandedLMWR,
+      THE: TBrandedTHE,
       GPCX: TBrandedGPCX,
       TIA: TBrandedTIA,
       MNTC: TBrandedMNTC,
@@ -4983,6 +6865,7 @@ export const svgs = {
       PLASTIK: TBrandedPLASTIK,
       PRX: TBrandedPRX,
       FUND: TBrandedFUND,
+      AURABAL: TBrandedAURABAL,
       LOC: TBrandedLOC,
       NVT: TBrandedNVT,
       MAPS: TBrandedMAPS,
@@ -5022,6 +6905,7 @@ export const svgs = {
       BTG: TBrandedBTG,
       LYX: TBrandedLYX,
       BETS: TBrandedBETS,
+      QTCON: TBrandedQTCON,
       BCN: TBrandedBCN,
       UND: TBrandedUND,
       LBR: TBrandedLBR,
@@ -5034,6 +6918,7 @@ export const svgs = {
       KILT: TBrandedKILT,
       GRT: TBrandedGRT,
       ZKP: TBrandedZKP,
+      XRP: TBrandedXRP,
       WAIT: TBrandedWAIT,
       TET: TBrandedTET,
       XPX: TBrandedXPX,
@@ -5043,6 +6928,7 @@ export const svgs = {
       XRUNE: TBrandedXRUNE,
       SAM: TBrandedSAM,
       STAT: TBrandedSTAT,
+      FRONT: TBrandedFRONT,
       FTC: TBrandedFTC,
       VC: TBrandedVC,
       DMC: TBrandedDMC,
@@ -5058,7 +6944,9 @@ export const svgs = {
       BADGER: TBrandedBADGER,
       TOMI: TBrandedTOMI,
       NEAR: TBrandedNEAR,
+      BTRFLY: TBrandedBTRFLY,
       FLR: TBrandedFLR,
+      DVI: TBrandedDVI,
       TYRANT: TBrandedTYRANT,
       LM: TBrandedLM,
       CUMMIES: TBrandedCUMMIES,
@@ -5093,6 +6981,7 @@ export const svgs = {
       GRV: TBrandedGRV,
       FIRO: TBrandedFIRO,
       TRADE: TBrandedTRADE,
+      PRISM: TBrandedPRISM,
       BLT: TBrandedBLT,
       GSE: TBrandedGSE,
       NALS: TBrandedNALS,
@@ -5111,6 +7000,7 @@ export const svgs = {
       WOW: TBrandedWOW,
       AUCTION: TBrandedAUCTION,
       PHB: TBrandedPHB,
+      ERTHA: TBrandedERTHA,
       GHX: TBrandedGHX,
       JMPT: TBrandedJMPT,
       CROWN: TBrandedCROWN,
@@ -5167,6 +7057,7 @@ export const svgs = {
       CHEEMS: TBrandedCHEEMS,
       JONES: TBrandedJONES,
       DCK: TBrandedDCK,
+      LOOT: TBrandedLOOT,
       NFTBS: TBrandedNFTBS,
       HOPR: TBrandedHOPR,
       CPOOL: TBrandedCPOOL,
@@ -5191,6 +7082,7 @@ export const svgs = {
       MUTE: TBrandedMUTE,
       C3: TBrandedC3,
       TIG: TBrandedTIG,
+      ARB: TBrandedARB,
       CKB: TBrandedCKB,
       DRGN: TBrandedDRGN,
       TKX: TBrandedTKX,
@@ -5214,6 +7106,7 @@ export const svgs = {
       MDAO: TBrandedMDAO,
       ROKO: TBrandedROKO,
       WACME: TBrandedWACME,
+      HBAR: TBrandedHBAR,
       SLIM: TBrandedSLIM,
       PERC: TBrandedPERC,
       EGG: TBrandedEGG,
@@ -5227,6 +7120,8 @@ export const svgs = {
       SQUIDGROW: TBrandedSQUIDGROW,
       LTO: TBrandedLTO,
       TOPIA: TBrandedTOPIA,
+      XCUR: TBrandedXCUR,
+      KSM: TBrandedKSM,
       BROCK: TBrandedBROCK,
       LTX: TBrandedLTX,
       WAN: TBrandedWAN,
@@ -5242,12 +7137,14 @@ export const svgs = {
       LYRA: TBrandedLYRA,
       TITAN: TBrandedTITAN,
       PIB: TBrandedPIB,
+      ERG: TBrandedERG,
       BTA: TBrandedBTA,
       NCR: TBrandedNCR,
       BCH: TBrandedBCH,
       ALCX: TBrandedALCX,
       RET: TBrandedRET,
       USTC: TBrandedUSTC,
+      BBL: TBrandedBBL,
       RFOX: TBrandedRFOX,
       EUSD: TBrandedEUSD,
       BLP: TBrandedBLP,
@@ -5259,6 +7156,7 @@ export const svgs = {
       XY: TBrandedXY,
       CHO: TBrandedCHO,
       TKN: TBrandedTKN,
+      SNS: TBrandedSNS,
       LQDR: TBrandedLQDR,
       BOOT: TBrandedBOOT,
       VR: TBrandedVR,
@@ -5267,6 +7165,7 @@ export const svgs = {
       MDT: TBrandedMDT,
       ARC: TBrandedARC,
       DREP: TBrandedDREP,
+      DERC: TBrandedDERC,
       STORJ: TBrandedSTORJ,
       VGX: TBrandedVGX,
       GEOD: TBrandedGEOD,
@@ -5307,8 +7206,10 @@ export const svgs = {
       SAI: TBrandedSAI,
       REV3L: TBrandedREV3L,
       RIDE: TBrandedRIDE,
+      FXS: TBrandedFXS,
       OPIUM: TBrandedOPIUM,
       GRG: TBrandedGRG,
+      LGCY: TBrandedLGCY,
       LCR: TBrandedLCR,
       NXM: TBrandedNXM,
       UOS: TBrandedUOS,
@@ -5318,6 +7219,7 @@ export const svgs = {
       REV: TBrandedREV,
       SOURCE: TBrandedSOURCE,
       UBT: TBrandedUBT,
+      CAPS: TBrandedCAPS,
       BTC: TBrandedBTC,
       NBT: TBrandedNBT,
       LITH: TBrandedLITH,
@@ -5326,6 +7228,7 @@ export const svgs = {
       EMAID: TBrandedEMAID,
       UCJL: TBrandedUCJL,
       HERA: TBrandedHERA,
+      LEOX: TBrandedLEOX,
       HIFI: TBrandedHIFI,
       ECOIN: TBrandedECOIN,
       NOS: TBrandedNOS,
@@ -5340,11 +7243,13 @@ export const svgs = {
       WNT: TBrandedWNT,
       BTU: TBrandedBTU,
       BSCPAD: TBrandedBSCPAD,
+      ACRIA: TBrandedACRIA,
       GUILD: TBrandedGUILD,
       NWC: TBrandedNWC,
       NTX: TBrandedNTX,
       BAT: TBrandedBAT,
       LOOKS: TBrandedLOOKS,
+      EURT: TBrandedEURT,
       BETA: TBrandedBETA,
       BORING: TBrandedBORING,
       EVMOS: TBrandedEVMOS,
@@ -5374,9 +7279,11 @@ export const svgs = {
       SBD: TBrandedSBD,
       LAMB: TBrandedLAMB,
       UNCX: TBrandedUNCX,
+      QUARTZ: TBrandedQUARTZ,
       MED: TBrandedMED,
       ADOGE: TBrandedADOGE,
       BOND: TBrandedBOND,
+      GBYTE: TBrandedGBYTE,
       ASD: TBrandedASD,
       RBLS: TBrandedRBLS,
       DXP: TBrandedDXP,
@@ -5401,10 +7308,14 @@ export const svgs = {
       CTR: TBrandedCTR,
       PDEX: TBrandedPDEX,
       THOR: TBrandedTHOR,
+      ZTG: TBrandedZTG,
       HID: TBrandedHID,
       MUSD: TBrandedMUSD,
+      WOZX: TBrandedWOZX,
+      SKL: TBrandedSKL,
       BRISE: TBrandedBRISE,
       SOPH: TBrandedSOPH,
+      QUAD: TBrandedQUAD,
       SWASH: TBrandedSWASH,
       SIS: TBrandedSIS,
       OMNI: TBrandedOMNI,
@@ -5448,6 +7359,7 @@ export const svgs = {
       MANA: TBrandedMANA,
       EMAGIC: TBrandedEMAGIC,
       WRLD: TBrandedWRLD,
+      HUSH: TBrandedHUSH,
       WAVES: TBrandedWAVES,
       GYMNET: TBrandedGYMNET,
       AURA: TBrandedAURA,
@@ -5462,6 +7374,7 @@ export const svgs = {
       KYVE: TBrandedKYVE,
       PNT: TBrandedPNT,
       BSW: TBrandedBSW,
+      AIOZ: TBrandedAIOZ,
       POP: TBrandedPOP,
       GHUB: TBrandedGHUB,
       GLQ: TBrandedGLQ,
@@ -5476,6 +7389,7 @@ export const svgs = {
       BLXM: TBrandedBLXM,
       KCS: TBrandedKCS,
       STATOM: TBrandedSTATOM,
+      FRAX: TBrandedFRAX,
       AXE: TBrandedAXE,
       MNR: TBrandedMNR,
       AITECH: TBrandedAITECH,
@@ -5492,6 +7406,7 @@ export const svgs = {
       FLUID: TBrandedFLUID,
       GULF: TBrandedGULF,
       ACX: TBrandedACX,
+      AAG: TBrandedAAG,
       FCTR: TBrandedFCTR,
       FEI: TBrandedFEI,
       ONG: TBrandedONG,
@@ -5502,6 +7417,7 @@ export const svgs = {
       TULIP: TBrandedTULIP,
       XCM: TBrandedXCM,
       INTR: TBrandedINTR,
+      DEXE: TBrandedDEXE,
       ALU: TBrandedALU,
       TTK: TBrandedTTK,
       SRM: TBrandedSRM,
@@ -5525,6 +7441,7 @@ export const svgs = {
       AVL: TBrandedAVL,
       OMNOM: TBrandedOMNOM,
       ATD: TBrandedATD,
+      GCOIN: TBrandedGCOIN,
       MOC: TBrandedMOC,
       CAP: TBrandedCAP,
       AERGO: TBrandedAERGO,
@@ -5607,12 +7524,14 @@ export const svgs = {
       DPI: TBrandedDPI,
       AMP: TBrandedAMP,
       LOVELY: TBrandedLOVELY,
+      CTC: TBrandedCTC,
       PAXG: TBrandedPAXG,
       BSCS: TBrandedBSCS,
       OAX: TBrandedOAX,
       MTL: TBrandedMTL,
       ACH: TBrandedACH,
       MVD: TBrandedMVD,
+      ABL: TBrandedABL,
       PYUSD: TBrandedPYUSD,
       ATA: TBrandedATA,
       C98: TBrandedC98,
@@ -5628,6 +7547,7 @@ export const svgs = {
       DEL: TBrandedDEL,
       KITTY: TBrandedKITTY,
       TAO: TBrandedTAO,
+      ZKID: TBrandedZKID,
       PPAY: TBrandedPPAY,
       RLY: TBrandedRLY,
       FEAR: TBrandedFEAR,
@@ -5655,6 +7575,7 @@ export const svgs = {
       LUNA: TBrandedLUNA,
       BULL: TBrandedBULL,
       TBTC: TBrandedTBTC,
+      SEILOR: TBrandedSEILOR,
       DOMI: TBrandedDOMI,
       UPP: TBrandedUPP,
       HUSKY: TBrandedHUSKY,
@@ -5664,13 +7585,16 @@ export const svgs = {
       ASTRAFER: TBrandedASTRAFER,
       ANKR: TBrandedANKR,
       BIFI: TBrandedBIFI,
+      SLCL: TBrandedSLCL,
       QUICK: TBrandedQUICK,
       MATH: TBrandedMATH,
       BDX: TBrandedBDX,
+      FLAME: TBrandedFLAME,
       RBD: TBrandedRBD,
       ELU: TBrandedELU,
       HIVE: TBrandedHIVE,
       GHNY: TBrandedGHNY,
+      'LYX-1': TBrandedLYX1,
       ARCH: TBrandedARCH,
       WSI: TBrandedWSI,
       ENJ: TBrandedENJ,
@@ -5711,10 +7635,12 @@ export const svgs = {
       DPAY: TBrandedDPAY,
       FIL: TBrandedFIL,
       TWT: TBrandedTWT,
+      DIMO: TBrandedDIMO,
       AMB: TBrandedAMB,
       ID: TBrandedID,
       SPA: TBrandedSPA,
       DEXT: TBrandedDEXT,
+      SPC: TBrandedSPC,
       SSX: TBrandedSSX,
       SIGNA: TBrandedSIGNA,
       IQ: TBrandedIQ,
@@ -5753,6 +7679,7 @@ export const svgs = {
       GFAL: TBrandedGFAL,
       DJED: TBrandedDJED,
       BFR: TBrandedBFR,
+      ECO: TBrandedECO,
       NGL: TBrandedNGL,
       CTXC: TBrandedCTXC,
       PNG: TBrandedPNG,
@@ -6828,6 +8755,7 @@ export const svgs = {
       XRD: TMonoXRD,
       JONES: TMonoJONES,
       DCK: TMonoDCK,
+      LOOT: TMonoLOOT,
       NFTBS: TMonoNFTBS,
       HOPR: TMonoHOPR,
       ASCN: TMonoASCN,
@@ -7288,6 +9216,7 @@ export const svgs = {
       RBD: TMonoRBD,
       HIVE: TMonoHIVE,
       GHNY: TMonoGHNY,
+      'LYX-1': TMonoLYX1,
       WSI: TMonoWSI,
       ENJ: TMonoENJ,
       VOXEL: TMonoVOXEL,
@@ -7433,7 +9362,1785 @@ export const svgs = {
       XCH: TMonoXCH,
       MXM: TMonoMXM,
     },
-    background: {},
+    background: {
+      SOCKS: TBackgroundSOCKS,
+      HONK: TBackgroundHONK,
+      THOL: TBackgroundTHOL,
+      GLINK: TBackgroundGLINK,
+      SPX: TBackgroundSPX,
+      MINA: TBackgroundMINA,
+      CXO: TBackgroundCXO,
+      OCTA: TBackgroundOCTA,
+      KZEN: TBackgroundKZEN,
+      ABT: TBackgroundABT,
+      BMEX: TBackgroundBMEX,
+      RBIF: TBackgroundRBIF,
+      SAIL: TBackgroundSAIL,
+      VAB: TBackgroundVAB,
+      CNFI: TBackgroundCNFI,
+      UW3S: TBackgroundUW3S,
+      ZBC: TBackgroundZBC,
+      OXB: TBackgroundOXB,
+      SHI: TBackgroundSHI,
+      MEMEAI: TBackgroundMEMEAI,
+      VTC: TBackgroundVTC,
+      SWFTC: TBackgroundSWFTC,
+      '2DAI': TBackground2DAI,
+      D3D: TBackgroundD3D,
+      PALM: TBackgroundPALM,
+      MELD: TBackgroundMELD,
+      HST: TBackgroundHST,
+      DFX: TBackgroundDFX,
+      HPO: TBackgroundHPO,
+      DEC: TBackgroundDEC,
+      OMAX: TBackgroundOMAX,
+      XVS: TBackgroundXVS,
+      TRIBE: TBackgroundTRIBE,
+      ENS: TBackgroundENS,
+      SPARTA: TBackgroundSPARTA,
+      WINR: TBackgroundWINR,
+      BKN: TBackgroundBKN,
+      CMOS: TBackgroundCMOS,
+      KAS: TBackgroundKAS,
+      MTLX: TBackgroundMTLX,
+      RCN: TBackgroundRCN,
+      SONNE: TBackgroundSONNE,
+      KLT: TBackgroundKLT,
+      ITP: TBackgroundITP,
+      MUDOL2: TBackgroundMUDOL2,
+      NABOX: TBackgroundNABOX,
+      EPIC: TBackgroundEPIC,
+      NFD: TBackgroundNFD,
+      VSYS: TBackgroundVSYS,
+      PNK: TBackgroundPNK,
+      USDC: TBackgroundUSDC,
+      PLT: TBackgroundPLT,
+      NORD: TBackgroundNORD,
+      YFI: TBackgroundYFI,
+      USDT: TBackgroundUSDT,
+      GOB: TBackgroundGOB,
+      THETA: TBackgroundTHETA,
+      CATGIRL: TBackgroundCATGIRL,
+      LRC: TBackgroundLRC,
+      GAI: TBackgroundGAI,
+      METFI: TBackgroundMETFI,
+      PREMIA: TBackgroundPREMIA,
+      WAMPL: TBackgroundWAMPL,
+      PLEX: TBackgroundPLEX,
+      OBSR: TBackgroundOBSR,
+      ILV: TBackgroundILV,
+      RXD: TBackgroundRXD,
+      ZERO: TBackgroundZERO,
+      DIVER: TBackgroundDIVER,
+      WGC: TBackgroundWGC,
+      DEGEN: TBackgroundDEGEN,
+      FUSE: TBackgroundFUSE,
+      GZIL: TBackgroundGZIL,
+      YES: TBackgroundYES,
+      PLU: TBackgroundPLU,
+      ICX: TBackgroundICX,
+      RVN: TBackgroundRVN,
+      GODS: TBackgroundGODS,
+      OPTI: TBackgroundOPTI,
+      PRTC: TBackgroundPRTC,
+      PXP: TBackgroundPXP,
+      DOGEGF: TBackgroundDOGEGF,
+      LDO: TBackgroundLDO,
+      KAR: TBackgroundKAR,
+      HEGIC: TBackgroundHEGIC,
+      SLND: TBackgroundSLND,
+      QUINT: TBackgroundQUINT,
+      WOMBAT: TBackgroundWOMBAT,
+      PTS: TBackgroundPTS,
+      XTM: TBackgroundXTM,
+      CCD: TBackgroundCCD,
+      CIRUS: TBackgroundCIRUS,
+      XTZ: TBackgroundXTZ,
+      TDROP: TBackgroundTDROP,
+      VXV: TBackgroundVXV,
+      AXL: TBackgroundAXL,
+      CNC: TBackgroundCNC,
+      OXT: TBackgroundOXT,
+      AVG: TBackgroundAVG,
+      HOSHI: TBackgroundHOSHI,
+      DIA: TBackgroundDIA,
+      WOOF: TBackgroundWOOF,
+      FOUR: TBackgroundFOUR,
+      MBX: TBackgroundMBX,
+      PI: TBackgroundPI,
+      POLC: TBackgroundPOLC,
+      BBANK: TBackgroundBBANK,
+      MNDE: TBackgroundMNDE,
+      WLITI: TBackgroundWLITI,
+      ACQ: TBackgroundACQ,
+      HFT: TBackgroundHFT,
+      CNHT: TBackgroundCNHT,
+      AURORA: TBackgroundAURORA,
+      CVR: TBackgroundCVR,
+      ALI: TBackgroundALI,
+      NEER: TBackgroundNEER,
+      CVP: TBackgroundCVP,
+      MXC: TBackgroundMXC,
+      ANT: TBackgroundANT,
+      DSM: TBackgroundDSM,
+      HEZ: TBackgroundHEZ,
+      MINU: TBackgroundMINU,
+      JEWEL: TBackgroundJEWEL,
+      PEPES: TBackgroundPEPES,
+      CTX: TBackgroundCTX,
+      BTCMT: TBackgroundBTCMT,
+      META: TBackgroundMETA,
+      WITCH: TBackgroundWITCH,
+      ETHW: TBackgroundETHW,
+      XNA: TBackgroundXNA,
+      ACS: TBackgroundACS,
+      XOR: TBackgroundXOR,
+      VCORE: TBackgroundVCORE,
+      PUSSY: TBackgroundPUSSY,
+      EVER: TBackgroundEVER,
+      STFX: TBackgroundSTFX,
+      MYST: TBackgroundMYST,
+      POLA: TBackgroundPOLA,
+      ATM: TBackgroundATM,
+      SHROOM: TBackgroundSHROOM,
+      MAV: TBackgroundMAV,
+      REVV: TBackgroundREVV,
+      XVG: TBackgroundXVG,
+      DENT: TBackgroundDENT,
+      D2T: TBackgroundD2T,
+      EOSDT: TBackgroundEOSDT,
+      ZLK: TBackgroundZLK,
+      ODIN: TBackgroundODIN,
+      WAGMIGAMES: TBackgroundWAGMIGAMES,
+      KAP: TBackgroundKAP,
+      RLB: TBackgroundRLB,
+      ORBS: TBackgroundORBS,
+      ENG: TBackgroundENG,
+      KMD: TBackgroundKMD,
+      SUTER: TBackgroundSUTER,
+      CRVUSD: TBackgroundCRVUSD,
+      RAE: TBackgroundRAE,
+      SWTH: TBackgroundSWTH,
+      NGC: TBackgroundNGC,
+      GLM: TBackgroundGLM,
+      ETI: TBackgroundETI,
+      POL: TBackgroundPOL,
+      WLKN: TBackgroundWLKN,
+      CONV: TBackgroundCONV,
+      BLOX: TBackgroundBLOX,
+      TROVE: TBackgroundTROVE,
+      LSD: TBackgroundLSD,
+      KUB: TBackgroundKUB,
+      INJ: TBackgroundINJ,
+      ION: TBackgroundION,
+      KOMPETE: TBackgroundKOMPETE,
+      WELT: TBackgroundWELT,
+      KASTA: TBackgroundKASTA,
+      NFTX: TBackgroundNFTX,
+      MTVT: TBackgroundMTVT,
+      SAUCE: TBackgroundSAUCE,
+      '1INCH': TBackground1INCH,
+      USDV: TBackgroundUSDV,
+      DOLA: TBackgroundDOLA,
+      DOME: TBackgroundDOME,
+      PLA: TBackgroundPLA,
+      GNS: TBackgroundGNS,
+      EUL: TBackgroundEUL,
+      DMTR: TBackgroundDMTR,
+      METIS: TBackgroundMETIS,
+      AIMX: TBackgroundAIMX,
+      MOOV: TBackgroundMOOV,
+      BRN: TBackgroundBRN,
+      ETH: TBackgroundETH,
+      RAD: TBackgroundRAD,
+      STIMA: TBackgroundSTIMA,
+      KOM: TBackgroundKOM,
+      KLV: TBackgroundKLV,
+      GOFX: TBackgroundGOFX,
+      BDT: TBackgroundBDT,
+      WING: TBackgroundWING,
+      ORAI: TBackgroundORAI,
+      KWAI: TBackgroundKWAI,
+      RLC: TBackgroundRLC,
+      BITCI: TBackgroundBITCI,
+      POOLX: TBackgroundPOOLX,
+      PORTX: TBackgroundPORTX,
+      ZMN: TBackgroundZMN,
+      JIM: TBackgroundJIM,
+      YFII: TBackgroundYFII,
+      RETH: TBackgroundRETH,
+      TOSHI: TBackgroundTOSHI,
+      MBL: TBackgroundMBL,
+      SIX: TBackgroundSIX,
+      LOKA: TBackgroundLOKA,
+      CLH: TBackgroundCLH,
+      DIVI: TBackgroundDIVI,
+      COS: TBackgroundCOS,
+      FSN: TBackgroundFSN,
+      JST: TBackgroundJST,
+      STPT: TBackgroundSTPT,
+      PHONON: TBackgroundPHONON,
+      MVI: TBackgroundMVI,
+      PIXEL: TBackgroundPIXEL,
+      MTV: TBackgroundMTV,
+      STRK: TBackgroundSTRK,
+      DUST: TBackgroundDUST,
+      GORILLA: TBackgroundGORILLA,
+      FET: TBackgroundFET,
+      GT: TBackgroundGT,
+      MTA: TBackgroundMTA,
+      FOLD: TBackgroundFOLD,
+      PMON: TBackgroundPMON,
+      IBAT: TBackgroundIBAT,
+      ONION: TBackgroundONION,
+      XCP: TBackgroundXCP,
+      H2O: TBackgroundH2O,
+      RITE: TBackgroundRITE,
+      TVK: TBackgroundTVK,
+      VNO: TBackgroundVNO,
+      SSV: TBackgroundSSV,
+      MIMO: TBackgroundMIMO,
+      WAXP: TBackgroundWAXP,
+      SAFE: TBackgroundSAFE,
+      DPS: TBackgroundDPS,
+      TUT: TBackgroundTUT,
+      MUSIC: TBackgroundMUSIC,
+      FIS: TBackgroundFIS,
+      EUROE: TBackgroundEUROE,
+      ONI: TBackgroundONI,
+      GG: TBackgroundGG,
+      FEG: TBackgroundFEG,
+      STRX: TBackgroundSTRX,
+      NULS: TBackgroundNULS,
+      CEUR: TBackgroundCEUR,
+      ABR: TBackgroundABR,
+      CND: TBackgroundCND,
+      SHX: TBackgroundSHX,
+      POLS: TBackgroundPOLS,
+      POOH: TBackgroundPOOH,
+      PAAL: TBackgroundPAAL,
+      ATH: TBackgroundATH,
+      COW: TBackgroundCOW,
+      EQUAL: TBackgroundEQUAL,
+      PUNDIX: TBackgroundPUNDIX,
+      SFD: TBackgroundSFD,
+      SPORE: TBackgroundSPORE,
+      ATOR: TBackgroundATOR,
+      SDL: TBackgroundSDL,
+      DFI: TBackgroundDFI,
+      CCT: TBackgroundCCT,
+      KAU: TBackgroundKAU,
+      GMPD: TBackgroundGMPD,
+      SHIDO: TBackgroundSHIDO,
+      ROME: TBackgroundROME,
+      SKEB: TBackgroundSKEB,
+      KMA: TBackgroundKMA,
+      BDP: TBackgroundBDP,
+      NRG: TBackgroundNRG,
+      RSS3: TBackgroundRSS3,
+      IMGNAI: TBackgroundIMGNAI,
+      MONA: TBackgroundMONA,
+      PLR: TBackgroundPLR,
+      HANDY: TBackgroundHANDY,
+      EXTRA: TBackgroundEXTRA,
+      FEVR: TBackgroundFEVR,
+      NIM: TBackgroundNIM,
+      LPOOL: TBackgroundLPOOL,
+      UNDEAD: TBackgroundUNDEAD,
+      GMEE: TBackgroundGMEE,
+      KTC: TBackgroundKTC,
+      CSPR: TBackgroundCSPR,
+      SBTC: TBackgroundSBTC,
+      DOBO: TBackgroundDOBO,
+      LEVER: TBackgroundLEVER,
+      AGLA: TBackgroundAGLA,
+      AURY: TBackgroundAURY,
+      PAC: TBackgroundPAC,
+      PBX: TBackgroundPBX,
+      ICHI: TBackgroundICHI,
+      CUDOS: TBackgroundCUDOS,
+      NEX: TBackgroundNEX,
+      USDD: TBackgroundUSDD,
+      NCDT: TBackgroundNCDT,
+      CONE: TBackgroundCONE,
+      WIN: TBackgroundWIN,
+      YDF: TBackgroundYDF,
+      BSX: TBackgroundBSX,
+      NEO: TBackgroundNEO,
+      HONEY: TBackgroundHONEY,
+      PRIME: TBackgroundPRIME,
+      SLAM: TBackgroundSLAM,
+      PYR: TBackgroundPYR,
+      UFT: TBackgroundUFT,
+      UMAMI: TBackgroundUMAMI,
+      BRRR: TBackgroundBRRR,
+      LIF3: TBackgroundLIF3,
+      XCFX: TBackgroundXCFX,
+      TEER: TBackgroundTEER,
+      BLUR: TBackgroundBLUR,
+      GOLDEN: TBackgroundGOLDEN,
+      ELK: TBackgroundELK,
+      PTU: TBackgroundPTU,
+      KP3R: TBackgroundKP3R,
+      IXT: TBackgroundIXT,
+      BCOIN: TBackgroundBCOIN,
+      NADA: TBackgroundNADA,
+      KAT: TBackgroundKAT,
+      SEI: TBackgroundSEI,
+      MMF: TBackgroundMMF,
+      CETUS: TBackgroundCETUS,
+      XWG: TBackgroundXWG,
+      XPRT: TBackgroundXPRT,
+      DIP: TBackgroundDIP,
+      COV: TBackgroundCOV,
+      ODDZ: TBackgroundODDZ,
+      DHT: TBackgroundDHT,
+      SC: TBackgroundSC,
+      JUNGLE4EOS: TBackgroundJUNGLE4EOS,
+      AVA: TBackgroundAVA,
+      STEP: TBackgroundSTEP,
+      GQ: TBackgroundGQ,
+      ARIA20: TBackgroundARIA20,
+      MTD: TBackgroundMTD,
+      VRSW: TBackgroundVRSW,
+      MNGO: TBackgroundMNGO,
+      MVL: TBackgroundMVL,
+      SCRT: TBackgroundSCRT,
+      MTS: TBackgroundMTS,
+      FOOM: TBackgroundFOOM,
+      CTK: TBackgroundCTK,
+      SPH: TBackgroundSPH,
+      HOLD: TBackgroundHOLD,
+      BCDT: TBackgroundBCDT,
+      ZYN: TBackgroundZYN,
+      CVC: TBackgroundCVC,
+      HGT: TBackgroundHGT,
+      AVAX: TBackgroundAVAX,
+      CWEB: TBackgroundCWEB,
+      OBI: TBackgroundOBI,
+      MIND: TBackgroundMIND,
+      HDX: TBackgroundHDX,
+      CTI: TBackgroundCTI,
+      ALEPH: TBackgroundALEPH,
+      SHOPX: TBackgroundSHOPX,
+      IRIS: TBackgroundIRIS,
+      SOFI: TBackgroundSOFI,
+      EL: TBackgroundEL,
+      OZO: TBackgroundOZO,
+      COC: TBackgroundCOC,
+      MAP: TBackgroundMAP,
+      CNG: TBackgroundCNG,
+      TON: TBackgroundTON,
+      FRM: TBackgroundFRM,
+      OMMI: TBackgroundOMMI,
+      AVT: TBackgroundAVT,
+      AVINOC: TBackgroundAVINOC,
+      WALV: TBackgroundWALV,
+      BTSE: TBackgroundBTSE,
+      SFP: TBackgroundSFP,
+      MEME: TBackgroundMEME,
+      CAH: TBackgroundCAH,
+      COTI: TBackgroundCOTI,
+      LEO: TBackgroundLEO,
+      FNSA: TBackgroundFNSA,
+      CROID: TBackgroundCROID,
+      BIT: TBackgroundBIT,
+      NFAI: TBackgroundNFAI,
+      ALGO: TBackgroundALGO,
+      NODL: TBackgroundNODL,
+      RBX: TBackgroundRBX,
+      COSMOS: TBackgroundCOSMOS,
+      WNDR: TBackgroundWNDR,
+      XCHF: TBackgroundXCHF,
+      GMX: TBackgroundGMX,
+      ONIT: TBackgroundONIT,
+      PIVX: TBackgroundPIVX,
+      BIST: TBackgroundBIST,
+      EWT: TBackgroundEWT,
+      RWN: TBackgroundRWN,
+      CHEQ: TBackgroundCHEQ,
+      HUSD: TBackgroundHUSD,
+      KLAY: TBackgroundKLAY,
+      PROM: TBackgroundPROM,
+      GAL: TBackgroundGAL,
+      IDLE: TBackgroundIDLE,
+      GCR: TBackgroundGCR,
+      PAW: TBackgroundPAW,
+      KEKE: TBackgroundKEKE,
+      TRONPAD: TBackgroundTRONPAD,
+      ETN: TBackgroundETN,
+      TIDAL: TBackgroundTIDAL,
+      RUG: TBackgroundRUG,
+      SOLVE: TBackgroundSOLVE,
+      KUNCI: TBackgroundKUNCI,
+      VTHO: TBackgroundVTHO,
+      RBN: TBackgroundRBN,
+      RENBTC: TBackgroundRENBTC,
+      FLEX: TBackgroundFLEX,
+      NPM: TBackgroundNPM,
+      EOS: TBackgroundEOS,
+      MOVR: TBackgroundMOVR,
+      IMPT: TBackgroundIMPT,
+      EML: TBackgroundEML,
+      UNIBOT: TBackgroundUNIBOT,
+      MOVE: TBackgroundMOVE,
+      '0X0': TBackground0X0,
+      SDN: TBackgroundSDN,
+      UNFI: TBackgroundUNFI,
+      CELR: TBackgroundCELR,
+      DEP: TBackgroundDEP,
+      DGX: TBackgroundDGX,
+      FPS: TBackgroundFPS,
+      QSR: TBackgroundQSR,
+      QUBE: TBackgroundQUBE,
+      PUMLX: TBackgroundPUMLX,
+      XYO: TBackgroundXYO,
+      BZRX: TBackgroundBZRX,
+      CLY: TBackgroundCLY,
+      BRIDGE: TBackgroundBRIDGE,
+      XIDO: TBackgroundXIDO,
+      METF: TBackgroundMETF,
+      KIBSHI: TBackgroundKIBSHI,
+      MPLX: TBackgroundMPLX,
+      BLANK: TBackgroundBLANK,
+      FER: TBackgroundFER,
+      CHAIN: TBackgroundCHAIN,
+      TAKI: TBackgroundTAKI,
+      MVX: TBackgroundMVX,
+      ACT: TBackgroundACT,
+      OLT: TBackgroundOLT,
+      SSWP: TBackgroundSSWP,
+      CREDI: TBackgroundCREDI,
+      EXRD: TBackgroundEXRD,
+      CWS: TBackgroundCWS,
+      HOOK: TBackgroundHOOK,
+      QKC: TBackgroundQKC,
+      GSWIFT: TBackgroundGSWIFT,
+      OAS: TBackgroundOAS,
+      FLM: TBackgroundFLM,
+      TRU: TBackgroundTRU,
+      XDB: TBackgroundXDB,
+      XDEFI: TBackgroundXDEFI,
+      CQT: TBackgroundCQT,
+      CRO: TBackgroundCRO,
+      MV: TBackgroundMV,
+      NRCH: TBackgroundNRCH,
+      AHT: TBackgroundAHT,
+      GBEX: TBackgroundGBEX,
+      TRB: TBackgroundTRB,
+      ZOOMER: TBackgroundZOOMER,
+      SXP: TBackgroundSXP,
+      BLUESPARROW: TBackgroundBLUESPARROW,
+      XPLA: TBackgroundXPLA,
+      CLXY: TBackgroundCLXY,
+      CARBON: TBackgroundCARBON,
+      XHV: TBackgroundXHV,
+      SALT: TBackgroundSALT,
+      DOT: TBackgroundDOT,
+      NEXO: TBackgroundNEXO,
+      TT: TBackgroundTT,
+      APE: TBackgroundAPE,
+      ELAND: TBackgroundELAND,
+      SMBR: TBackgroundSMBR,
+      ORB: TBackgroundORB,
+      TGT: TBackgroundTGT,
+      ZIG: TBackgroundZIG,
+      TRCL: TBackgroundTRCL,
+      KEX: TBackgroundKEX,
+      PRQ: TBackgroundPRQ,
+      RIN: TBackgroundRIN,
+      XSGD: TBackgroundXSGD,
+      KINT: TBackgroundKINT,
+      MMPRO: TBackgroundMMPRO,
+      WBTC: TBackgroundWBTC,
+      EFL: TBackgroundEFL,
+      SWEAT: TBackgroundSWEAT,
+      WXT: TBackgroundWXT,
+      RPL: TBackgroundRPL,
+      CROWD: TBackgroundCROWD,
+      CYBER: TBackgroundCYBER,
+      GIV: TBackgroundGIV,
+      BEAM: TBackgroundBEAM,
+      TRYB: TBackgroundTRYB,
+      AIPAD: TBackgroundAIPAD,
+      WNXM: TBackgroundWNXM,
+      NLS: TBackgroundNLS,
+      PEX: TBackgroundPEX,
+      TRVL: TBackgroundTRVL,
+      GET: TBackgroundGET,
+      FDUSD: TBackgroundFDUSD,
+      JESUS: TBackgroundJESUS,
+      QANX: TBackgroundQANX,
+      BZR: TBackgroundBZR,
+      SILK: TBackgroundSILK,
+      PKR: TBackgroundPKR,
+      SAKAI: TBackgroundSAKAI,
+      PEPE: TBackgroundPEPE,
+      KIBA: TBackgroundKIBA,
+      BAX: TBackgroundBAX,
+      FRIN: TBackgroundFRIN,
+      TROY: TBackgroundTROY,
+      BRWL: TBackgroundBRWL,
+      LINK: TBackgroundLINK,
+      ALOT: TBackgroundALOT,
+      UMA: TBackgroundUMA,
+      SPELL: TBackgroundSPELL,
+      MMIT: TBackgroundMMIT,
+      MORK: TBackgroundMORK,
+      KEY: TBackgroundKEY,
+      JULD: TBackgroundJULD,
+      SATS: TBackgroundSATS,
+      HTR: TBackgroundHTR,
+      ORT: TBackgroundORT,
+      GYEN: TBackgroundGYEN,
+      FARM: TBackgroundFARM,
+      DAI: TBackgroundDAI,
+      DBR: TBackgroundDBR,
+      MATICX: TBackgroundMATICX,
+      CDT: TBackgroundCDT,
+      CGO: TBackgroundCGO,
+      GLEEC: TBackgroundGLEEC,
+      UBXS: TBackgroundUBXS,
+      DEFI: TBackgroundDEFI,
+      VRA: TBackgroundVRA,
+      HZN: TBackgroundHZN,
+      FUN: TBackgroundFUN,
+      VITA: TBackgroundVITA,
+      ZEE: TBackgroundZEE,
+      ADA: TBackgroundADA,
+      CERE: TBackgroundCERE,
+      SHDW: TBackgroundSHDW,
+      FCT: TBackgroundFCT,
+      '1ART': TBackground1ART,
+      BRUSH: TBackgroundBRUSH,
+      XEP: TBackgroundXEP,
+      TRC: TBackgroundTRC,
+      EDGE: TBackgroundEDGE,
+      L2: TBackgroundL2,
+      WCFG: TBackgroundWCFG,
+      QOM: TBackgroundQOM,
+      MARSH: TBackgroundMARSH,
+      XDC: TBackgroundXDC,
+      COLLAB: TBackgroundCOLLAB,
+      TOMB: TBackgroundTOMB,
+      AIS: TBackgroundAIS,
+      SOLO: TBackgroundSOLO,
+      VERSE: TBackgroundVERSE,
+      STG: TBackgroundSTG,
+      QLC: TBackgroundQLC,
+      SOLX: TBackgroundSOLX,
+      ATRI: TBackgroundATRI,
+      SPACE: TBackgroundSPACE,
+      SENATE: TBackgroundSENATE,
+      OKT: TBackgroundOKT,
+      AA: TBackgroundAA,
+      THEO: TBackgroundTHEO,
+      VSP: TBackgroundVSP,
+      HXD: TBackgroundHXD,
+      DEGO: TBackgroundDEGO,
+      OSAK: TBackgroundOSAK,
+      SCAR: TBackgroundSCAR,
+      SETH2: TBackgroundSETH2,
+      RIBBIT: TBackgroundRIBBIT,
+      LIME: TBackgroundLIME,
+      RJV: TBackgroundRJV,
+      UNO: TBackgroundUNO,
+      PRE: TBackgroundPRE,
+      BNB: TBackgroundBNB,
+      REN: TBackgroundREN,
+      GALA: TBackgroundGALA,
+      EFX: TBackgroundEFX,
+      IST: TBackgroundIST,
+      TOKEN: TBackgroundTOKEN,
+      EDG: TBackgroundEDG,
+      GAME: TBackgroundGAME,
+      ROSE: TBackgroundROSE,
+      IDEX: TBackgroundIDEX,
+      BEAN: TBackgroundBEAN,
+      YAM: TBackgroundYAM,
+      VOLT: TBackgroundVOLT,
+      RSC: TBackgroundRSC,
+      LTC: TBackgroundLTC,
+      TUSD: TBackgroundTUSD,
+      DOGE: TBackgroundDOGE,
+      CTSI: TBackgroundCTSI,
+      METAL: TBackgroundMETAL,
+      HERO: TBackgroundHERO,
+      WIKEN: TBackgroundWIKEN,
+      PKF: TBackgroundPKF,
+      TPAD: TBackgroundTPAD,
+      NAV: TBackgroundNAV,
+      PYTH: TBackgroundPYTH,
+      TIME: TBackgroundTIME,
+      LIBRE: TBackgroundLIBRE,
+      BTM: TBackgroundBTM,
+      KIN: TBackgroundKIN,
+      DVPN: TBackgroundDVPN,
+      LUSD: TBackgroundLUSD,
+      BCD: TBackgroundBCD,
+      REGEN: TBackgroundREGEN,
+      HBOT: TBackgroundHBOT,
+      MATIC: TBackgroundMATIC,
+      FREN: TBackgroundFREN,
+      BMX: TBackgroundBMX,
+      NXT: TBackgroundNXT,
+      UMB: TBackgroundUMB,
+      WWY: TBackgroundWWY,
+      LAT: TBackgroundLAT,
+      PIKA: TBackgroundPIKA,
+      BNT: TBackgroundBNT,
+      COPE: TBackgroundCOPE,
+      STOSMO: TBackgroundSTOSMO,
+      DCB: TBackgroundDCB,
+      XPR: TBackgroundXPR,
+      JUNO: TBackgroundJUNO,
+      FUTURE: TBackgroundFUTURE,
+      POLYX: TBackgroundPOLYX,
+      EVEAI: TBackgroundEVEAI,
+      MBOX: TBackgroundMBOX,
+      CGL: TBackgroundCGL,
+      JOY: TBackgroundJOY,
+      FYN: TBackgroundFYN,
+      SHIBDOGE: TBackgroundSHIBDOGE,
+      SOL: TBackgroundSOL,
+      AQT: TBackgroundAQT,
+      MDX: TBackgroundMDX,
+      BOLT: TBackgroundBOLT,
+      SOUL: TBackgroundSOUL,
+      DERO: TBackgroundDERO,
+      SANI: TBackgroundSANI,
+      AXEL: TBackgroundAXEL,
+      CRPT: TBackgroundCRPT,
+      ADAPAD: TBackgroundADAPAD,
+      '3ULL': TBackground3ULL,
+      X2Y2: TBackgroundX2Y2,
+      ZRX: TBackgroundZRX,
+      MC: TBackgroundMC,
+      FLX: TBackgroundFLX,
+      SUB: TBackgroundSUB,
+      AIR: TBackgroundAIR,
+      DINGO: TBackgroundDINGO,
+      EDEN: TBackgroundEDEN,
+      OX: TBackgroundOX,
+      DTX: TBackgroundDTX,
+      REEF: TBackgroundREEF,
+      NEUROS: TBackgroundNEUROS,
+      DESO: TBackgroundDESO,
+      ECOX: TBackgroundECOX,
+      VEX: TBackgroundVEX,
+      FORTH: TBackgroundFORTH,
+      SAMA: TBackgroundSAMA,
+      DXL: TBackgroundDXL,
+      HAIR: TBackgroundHAIR,
+      SPOOL: TBackgroundSPOOL,
+      MFT: TBackgroundMFT,
+      POKT: TBackgroundPOKT,
+      FORE: TBackgroundFORE,
+      RADIO: TBackgroundRADIO,
+      MGP: TBackgroundMGP,
+      APT: TBackgroundAPT,
+      MEX: TBackgroundMEX,
+      ARK: TBackgroundARK,
+      MNTL: TBackgroundMNTL,
+      TIN: TBackgroundTIN,
+      DOR: TBackgroundDOR,
+      CEEK: TBackgroundCEEK,
+      FTM: TBackgroundFTM,
+      DNXC: TBackgroundDNXC,
+      SCLP: TBackgroundSCLP,
+      SATT: TBackgroundSATT,
+      PAID: TBackgroundPAID,
+      AART: TBackgroundAART,
+      BTCST: TBackgroundBTCST,
+      INFRA: TBackgroundINFRA,
+      KINE: TBackgroundKINE,
+      BLX: TBackgroundBLX,
+      DFYN: TBackgroundDFYN,
+      SPHERE: TBackgroundSPHERE,
+      HYVE: TBackgroundHYVE,
+      LCX: TBackgroundLCX,
+      TSUKA: TBackgroundTSUKA,
+      IDRT: TBackgroundIDRT,
+      WIGO: TBackgroundWIGO,
+      LADYS: TBackgroundLADYS,
+      QUIDD: TBackgroundQUIDD,
+      EDU: TBackgroundEDU,
+      NAOS: TBackgroundNAOS,
+      RGT: TBackgroundRGT,
+      LINDA: TBackgroundLINDA,
+      WALLET: TBackgroundWALLET,
+      LZM: TBackgroundLZM,
+      DOGA: TBackgroundDOGA,
+      AGIX: TBackgroundAGIX,
+      QTUM: TBackgroundQTUM,
+      WEMIX: TBackgroundWEMIX,
+      BEND: TBackgroundBEND,
+      RVST: TBackgroundRVST,
+      DXGM: TBackgroundDXGM,
+      CAKE: TBackgroundCAKE,
+      MTRM: TBackgroundMTRM,
+      PICKLE: TBackgroundPICKLE,
+      YOU: TBackgroundYOU,
+      DIONE: TBackgroundDIONE,
+      PKT: TBackgroundPKT,
+      ERN: TBackgroundERN,
+      EQU: TBackgroundEQU,
+      LITT: TBackgroundLITT,
+      EQB: TBackgroundEQB,
+      IGU: TBackgroundIGU,
+      CAST: TBackgroundCAST,
+      AGRS: TBackgroundAGRS,
+      RDN: TBackgroundRDN,
+      EGO: TBackgroundEGO,
+      DSLA: TBackgroundDSLA,
+      SUIP: TBackgroundSUIP,
+      ISP: TBackgroundISP,
+      MASQ: TBackgroundMASQ,
+      XSUSHI: TBackgroundXSUSHI,
+      DORA: TBackgroundDORA,
+      DOSE: TBackgroundDOSE,
+      TRAC: TBackgroundTRAC,
+      BOB: TBackgroundBOB,
+      TEL: TBackgroundTEL,
+      STMX: TBackgroundSTMX,
+      DAO: TBackgroundDAO,
+      DEXTF: TBackgroundDEXTF,
+      MKR: TBackgroundMKR,
+      DBC: TBackgroundDBC,
+      MIM: TBackgroundMIM,
+      ATPAY: TBackgroundATPAY,
+      LAND: TBackgroundLAND,
+      DEFX: TBackgroundDEFX,
+      SLR: TBackgroundSLR,
+      SDEX: TBackgroundSDEX,
+      ZEC: TBackgroundZEC,
+      TKP: TBackgroundTKP,
+      CUBE: TBackgroundCUBE,
+      ETHIX: TBackgroundETHIX,
+      AR: TBackgroundAR,
+      SYS: TBackgroundSYS,
+      GENI: TBackgroundGENI,
+      MST: TBackgroundMST,
+      GRND: TBackgroundGRND,
+      PAWTH: TBackgroundPAWTH,
+      BSGG: TBackgroundBSGG,
+      VERSA: TBackgroundVERSA,
+      ALICE: TBackgroundALICE,
+      MYRIA: TBackgroundMYRIA,
+      SHIA: TBackgroundSHIA,
+      MF: TBackgroundMF,
+      STARL: TBackgroundSTARL,
+      VPAD: TBackgroundVPAD,
+      '10SET': TBackground10SET,
+      WAGMI: TBackgroundWAGMI,
+      DVF: TBackgroundDVF,
+      VIX: TBackgroundVIX,
+      FITFI: TBackgroundFITFI,
+      XET: TBackgroundXET,
+      KINGSHIB: TBackgroundKINGSHIB,
+      XDG: TBackgroundXDG,
+      RISE: TBackgroundRISE,
+      SOMM: TBackgroundSOMM,
+      GRAI: TBackgroundGRAI,
+      PRIMAL: TBackgroundPRIMAL,
+      XEC: TBackgroundXEC,
+      JUP: TBackgroundJUP,
+      XWIN: TBackgroundXWIN,
+      VLXPAD: TBackgroundVLXPAD,
+      KATA: TBackgroundKATA,
+      OXEN: TBackgroundOXEN,
+      THALES: TBackgroundTHALES,
+      FWB: TBackgroundFWB,
+      SLG: TBackgroundSLG,
+      STBU: TBackgroundSTBU,
+      LOOM: TBackgroundLOOM,
+      PAPER: TBackgroundPAPER,
+      SNX: TBackgroundSNX,
+      SLP: TBackgroundSLP,
+      FTN: TBackgroundFTN,
+      VITE: TBackgroundVITE,
+      APW: TBackgroundAPW,
+      SMT: TBackgroundSMT,
+      ZZ: TBackgroundZZ,
+      CFX: TBackgroundCFX,
+      IPOR: TBackgroundIPOR,
+      DCR: TBackgroundDCR,
+      ABYSS: TBackgroundABYSS,
+      BLAST: TBackgroundBLAST,
+      COMBO: TBackgroundCOMBO,
+      MIX: TBackgroundMIX,
+      AIRI: TBackgroundAIRI,
+      CHAMPZ: TBackgroundCHAMPZ,
+      PSP: TBackgroundPSP,
+      UNI: TBackgroundUNI,
+      XMON: TBackgroundXMON,
+      DASH: TBackgroundDASH,
+      EGLD: TBackgroundEGLD,
+      RFD: TBackgroundRFD,
+      PERI: TBackgroundPERI,
+      BCT: TBackgroundBCT,
+      XAVA: TBackgroundXAVA,
+      EFI: TBackgroundEFI,
+      DAFI: TBackgroundDAFI,
+      YAK: TBackgroundYAK,
+      YCC: TBackgroundYCC,
+      WNK: TBackgroundWNK,
+      RSR: TBackgroundRSR,
+      WHALE: TBackgroundWHALE,
+      NOM: TBackgroundNOM,
+      KLEE: TBackgroundKLEE,
+      ARPA: TBackgroundARPA,
+      NMR: TBackgroundNMR,
+      WAS: TBackgroundWAS,
+      FACTR: TBackgroundFACTR,
+      AUTO: TBackgroundAUTO,
+      SAITAMA: TBackgroundSAITAMA,
+      LUA: TBackgroundLUA,
+      SFRXETH: TBackgroundSFRXETH,
+      RARI: TBackgroundRARI,
+      DODO: TBackgroundDODO,
+      SAITO: TBackgroundSAITO,
+      RDNT: TBackgroundRDNT,
+      SOLID: TBackgroundSOLID,
+      KUJI: TBackgroundKUJI,
+      LVL: TBackgroundLVL,
+      MCRT: TBackgroundMCRT,
+      LAZIO: TBackgroundLAZIO,
+      NSFW: TBackgroundNSFW,
+      NAP: TBackgroundNAP,
+      LUFC: TBackgroundLUFC,
+      '0XGAS': TBackground0XGAS,
+      WIFI: TBackgroundWIFI,
+      HGPT: TBackgroundHGPT,
+      BCB: TBackgroundBCB,
+      CARD: TBackgroundCARD,
+      MINTME: TBackgroundMINTME,
+      LON: TBackgroundLON,
+      ARDR: TBackgroundARDR,
+      CARAT: TBackgroundCARAT,
+      BLZ: TBackgroundBLZ,
+      BOA: TBackgroundBOA,
+      STJUNO: TBackgroundSTJUNO,
+      MOCHI: TBackgroundMOCHI,
+      AREA: TBackgroundAREA,
+      DSRUN: TBackgroundDSRUN,
+      VELO: TBackgroundVELO,
+      MIN: TBackgroundMIN,
+      OSMO: TBackgroundOSMO,
+      STOS: TBackgroundSTOS,
+      HVH: TBackgroundHVH,
+      CHR: TBackgroundCHR,
+      DNT: TBackgroundDNT,
+      HXRO: TBackgroundHXRO,
+      HUAHUA: TBackgroundHUAHUA,
+      DOG: TBackgroundDOG,
+      GAINS: TBackgroundGAINS,
+      MRS: TBackgroundMRS,
+      MPL: TBackgroundMPL,
+      DERI: TBackgroundDERI,
+      XKI: TBackgroundXKI,
+      SCNSOL: TBackgroundSCNSOL,
+      NPXS: TBackgroundNPXS,
+      OM: TBackgroundOM,
+      AIT: TBackgroundAIT,
+      OOKI: TBackgroundOOKI,
+      FOR: TBackgroundFOR,
+      STSOL: TBackgroundSTSOL,
+      LA: TBackgroundLA,
+      SHIB: TBackgroundSHIB,
+      SUI: TBackgroundSUI,
+      INST: TBackgroundINST,
+      CWAR: TBackgroundCWAR,
+      AIN: TBackgroundAIN,
+      FLS: TBackgroundFLS,
+      OOKS: TBackgroundOOKS,
+      XFT: TBackgroundXFT,
+      BTCP: TBackgroundBTCP,
+      PEOPLE: TBackgroundPEOPLE,
+      SFTMX: TBackgroundSFTMX,
+      DYP: TBackgroundDYP,
+      XETA: TBackgroundXETA,
+      HMX: TBackgroundHMX,
+      RUNE: TBackgroundRUNE,
+      HOP: TBackgroundHOP,
+      MCADE: TBackgroundMCADE,
+      PARA: TBackgroundPARA,
+      VIDYA: TBackgroundVIDYA,
+      POLYDOGE: TBackgroundPOLYDOGE,
+      HNT: TBackgroundHNT,
+      BRICK: TBackgroundBRICK,
+      KICKS: TBackgroundKICKS,
+      APL: TBackgroundAPL,
+      SNT: TBackgroundSNT,
+      PROPS: TBackgroundPROPS,
+      LMWR: TBackgroundLMWR,
+      THE: TBackgroundTHE,
+      GPCX: TBackgroundGPCX,
+      TIA: TBackgroundTIA,
+      MNTC: TBackgroundMNTC,
+      XI: TBackgroundXI,
+      JOE: TBackgroundJOE,
+      SCS: TBackgroundSCS,
+      CGG: TBackgroundCGG,
+      HTM: TBackgroundHTM,
+      PRO: TBackgroundPRO,
+      FREE: TBackgroundFREE,
+      PLASTIK: TBackgroundPLASTIK,
+      PRX: TBackgroundPRX,
+      FUND: TBackgroundFUND,
+      AURABAL: TBackgroundAURABAL,
+      LOC: TBackgroundLOC,
+      NVT: TBackgroundNVT,
+      MAPS: TBackgroundMAPS,
+      FAKEAI: TBackgroundFAKEAI,
+      ARIX: TBackgroundARIX,
+      CHMB: TBackgroundCHMB,
+      GAMMA: TBackgroundGAMMA,
+      UTK: TBackgroundUTK,
+      OGGY: TBackgroundOGGY,
+      CUSDC: TBackgroundCUSDC,
+      PEEL: TBackgroundPEEL,
+      WISE: TBackgroundWISE,
+      WEFI: TBackgroundWEFI,
+      PHA: TBackgroundPHA,
+      SNAIL: TBackgroundSNAIL,
+      NAVI: TBackgroundNAVI,
+      ARRR: TBackgroundARRR,
+      BERRY: TBackgroundBERRY,
+      BZZ: TBackgroundBZZ,
+      SETH: TBackgroundSETH,
+      BELT: TBackgroundBELT,
+      FIDA: TBackgroundFIDA,
+      PGX: TBackgroundPGX,
+      RARE: TBackgroundRARE,
+      HBTC: TBackgroundHBTC,
+      XFUND: TBackgroundXFUND,
+      LIXX: TBackgroundLIXX,
+      LAUNCH: TBackgroundLAUNCH,
+      PDT: TBackgroundPDT,
+      SNEK: TBackgroundSNEK,
+      ARSW: TBackgroundARSW,
+      NCT: TBackgroundNCT,
+      APEX: TBackgroundAPEX,
+      APFC: TBackgroundAPFC,
+      IDV: TBackgroundIDV,
+      BTG: TBackgroundBTG,
+      LYX: TBackgroundLYX,
+      QTCON: TBackgroundQTCON,
+      BCN: TBackgroundBCN,
+      UND: TBackgroundUND,
+      LBR: TBackgroundLBR,
+      NYM: TBackgroundNYM,
+      LINU: TBackgroundLINU,
+      GRC: TBackgroundGRC,
+      RIF: TBackgroundRIF,
+      PRY: TBackgroundPRY,
+      SUDO: TBackgroundSUDO,
+      KILT: TBackgroundKILT,
+      GRT: TBackgroundGRT,
+      ZKP: TBackgroundZKP,
+      XRP: TBackgroundXRP,
+      WAIT: TBackgroundWAIT,
+      TET: TBackgroundTET,
+      XPX: TBackgroundXPX,
+      VEMP: TBackgroundVEMP,
+      HAPI: TBackgroundHAPI,
+      RAZOR: TBackgroundRAZOR,
+      XRUNE: TBackgroundXRUNE,
+      SAM: TBackgroundSAM,
+      STAT: TBackgroundSTAT,
+      FRONT: TBackgroundFRONT,
+      FTC: TBackgroundFTC,
+      VC: TBackgroundVC,
+      DMC: TBackgroundDMC,
+      APM: TBackgroundAPM,
+      DMT: TBackgroundDMT,
+      SAMO: TBackgroundSAMO,
+      ZANO: TBackgroundZANO,
+      G: TBackgroundG,
+      NEON: TBackgroundNEON,
+      VIB: TBackgroundVIB,
+      DPET: TBackgroundDPET,
+      BCAT: TBackgroundBCAT,
+      TOMI: TBackgroundTOMI,
+      NEAR: TBackgroundNEAR,
+      BTRFLY: TBackgroundBTRFLY,
+      FLR: TBackgroundFLR,
+      DVI: TBackgroundDVI,
+      TYRANT: TBackgroundTYRANT,
+      LM: TBackgroundLM,
+      CUMMIES: TBackgroundCUMMIES,
+      CRE: TBackgroundCRE,
+      SPANK: TBackgroundSPANK,
+      BTC2: TBackgroundBTC2,
+      COVAL: TBackgroundCOVAL,
+      BS: TBackgroundBS,
+      SHFT: TBackgroundSHFT,
+      VET: TBackgroundVET,
+      R: TBackgroundR,
+      HAKA: TBackgroundHAKA,
+      IBIT: TBackgroundIBIT,
+      VV: TBackgroundVV,
+      CKP: TBackgroundCKP,
+      JAM: TBackgroundJAM,
+      MET: TBackgroundMET,
+      APX: TBackgroundAPX,
+      ZEN: TBackgroundZEN,
+      CULT: TBackgroundCULT,
+      CEL: TBackgroundCEL,
+      SAVG: TBackgroundSAVG,
+      SCP: TBackgroundSCP,
+      VELA: TBackgroundVELA,
+      WHITE: TBackgroundWHITE,
+      XELS: TBackgroundXELS,
+      LCC: TBackgroundLCC,
+      CORE: TBackgroundCORE,
+      SRCX: TBackgroundSRCX,
+      KDA: TBackgroundKDA,
+      GRV: TBackgroundGRV,
+      FIRO: TBackgroundFIRO,
+      TRADE: TBackgroundTRADE,
+      PRISM: TBackgroundPRISM,
+      BLT: TBackgroundBLT,
+      GSE: TBackgroundGSE,
+      NALS: TBackgroundNALS,
+      EURS: TBackgroundEURS,
+      RDT: TBackgroundRDT,
+      REP: TBackgroundREP,
+      BEPRO: TBackgroundBEPRO,
+      MCHC: TBackgroundMCHC,
+      MSOL: TBackgroundMSOL,
+      RAKE: TBackgroundRAKE,
+      SUKU: TBackgroundSUKU,
+      MASK: TBackgroundMASK,
+      GHO: TBackgroundGHO,
+      SWETH: TBackgroundSWETH,
+      WOW: TBackgroundWOW,
+      AUCTION: TBackgroundAUCTION,
+      PHB: TBackgroundPHB,
+      ERTHA: TBackgroundERTHA,
+      GHX: TBackgroundGHX,
+      JMPT: TBackgroundJMPT,
+      CROWN: TBackgroundCROWN,
+      FLUX: TBackgroundFLUX,
+      GOVI: TBackgroundGOVI,
+      LYM: TBackgroundLYM,
+      EQX: TBackgroundEQX,
+      GHST: TBackgroundGHST,
+      TETU: TBackgroundTETU,
+      DONUT: TBackgroundDONUT,
+      MAHA: TBackgroundMAHA,
+      SUSD: TBackgroundSUSD,
+      PER: TBackgroundPER,
+      KRL: TBackgroundKRL,
+      KROM: TBackgroundKROM,
+      CHAT: TBackgroundCHAT,
+      PURSE: TBackgroundPURSE,
+      STEEM: TBackgroundSTEEM,
+      BLID: TBackgroundBLID,
+      RPG: TBackgroundRPG,
+      REUNI: TBackgroundREUNI,
+      BTS: TBackgroundBTS,
+      PIP: TBackgroundPIP,
+      ARI10: TBackgroundARI10,
+      OBOT: TBackgroundOBOT,
+      XAUT: TBackgroundXAUT,
+      REF: TBackgroundREF,
+      ISK: TBackgroundISK,
+      NUM: TBackgroundNUM,
+      EGC: TBackgroundEGC,
+      RAIL: TBackgroundRAIL,
+      REQ: TBackgroundREQ,
+      SEND: TBackgroundSEND,
+      HUNT: TBackgroundHUNT,
+      TENET: TBackgroundTENET,
+      PERP: TBackgroundPERP,
+      LPNT: TBackgroundLPNT,
+      DSETH: TBackgroundDSETH,
+      MOONED: TBackgroundMOONED,
+      RMRK: TBackgroundRMRK,
+      XCAD: TBackgroundXCAD,
+      LINA: TBackgroundLINA,
+      EJS: TBackgroundEJS,
+      K21: TBackgroundK21,
+      FLOW: TBackgroundFLOW,
+      STSTARS: TBackgroundSTSTARS,
+      GUSD: TBackgroundGUSD,
+      BOBA: TBackgroundBOBA,
+      ZIL: TBackgroundZIL,
+      AQUA: TBackgroundAQUA,
+      ALLIN: TBackgroundALLIN,
+      SAN: TBackgroundSAN,
+      XRD: TBackgroundXRD,
+      CHEEMS: TBackgroundCHEEMS,
+      JONES: TBackgroundJONES,
+      DCK: TBackgroundDCK,
+      LOOT: TBackgroundLOOT,
+      NFTBS: TBackgroundNFTBS,
+      HOPR: TBackgroundHOPR,
+      CPOOL: TBackgroundCPOOL,
+      PASG: TBackgroundPASG,
+      PART: TBackgroundPART,
+      BCMC: TBackgroundBCMC,
+      AI: TBackgroundAI,
+      XEM: TBackgroundXEM,
+      STX: TBackgroundSTX,
+      QNT: TBackgroundQNT,
+      HBB: TBackgroundHBB,
+      MARS4: TBackgroundMARS4,
+      STARS: TBackgroundSTARS,
+      OCEAN: TBackgroundOCEAN,
+      CREAM: TBackgroundCREAM,
+      CPH: TBackgroundCPH,
+      TAMA: TBackgroundTAMA,
+      SAND: TBackgroundSAND,
+      MUTE: TBackgroundMUTE,
+      C3: TBackgroundC3,
+      TIG: TBackgroundTIG,
+      ARB: TBackgroundARB,
+      CKB: TBackgroundCKB,
+      DRGN: TBackgroundDRGN,
+      TKX: TBackgroundTKX,
+      DMD: TBackgroundDMD,
+      CREO: TBackgroundCREO,
+      IPAD: TBackgroundIPAD,
+      THT: TBackgroundTHT,
+      TKO: TBackgroundTKO,
+      VOICE: TBackgroundVOICE,
+      SMI: TBackgroundSMI,
+      SCB: TBackgroundSCB,
+      KALM: TBackgroundKALM,
+      MIR: TBackgroundMIR,
+      ALPACA: TBackgroundALPACA,
+      APEFI: TBackgroundAPEFI,
+      NEWO: TBackgroundNEWO,
+      NETT: TBackgroundNETT,
+      IONX: TBackgroundIONX,
+      HIPP: TBackgroundHIPP,
+      MDAO: TBackgroundMDAO,
+      ROKO: TBackgroundROKO,
+      WACME: TBackgroundWACME,
+      HBAR: TBackgroundHBAR,
+      SLIM: TBackgroundSLIM,
+      PERC: TBackgroundPERC,
+      EGG: TBackgroundEGG,
+      KIT: TBackgroundKIT,
+      EFC: TBackgroundEFC,
+      SAFEMARS: TBackgroundSAFEMARS,
+      GAMI: TBackgroundGAMI,
+      KICK: TBackgroundKICK,
+      CMDX: TBackgroundCMDX,
+      MEDIA: TBackgroundMEDIA,
+      SQUIDGROW: TBackgroundSQUIDGROW,
+      LTO: TBackgroundLTO,
+      TOPIA: TBackgroundTOPIA,
+      XCUR: TBackgroundXCUR,
+      KSM: TBackgroundKSM,
+      BROCK: TBackgroundBROCK,
+      LTX: TBackgroundLTX,
+      WAN: TBackgroundWAN,
+      SURE: TBackgroundSURE,
+      METAV: TBackgroundMETAV,
+      NMX: TBackgroundNMX,
+      GEL: TBackgroundGEL,
+      LIZA: TBackgroundLIZA,
+      WBT: TBackgroundWBT,
+      IDIA: TBackgroundIDIA,
+      LYRA: TBackgroundLYRA,
+      TITAN: TBackgroundTITAN,
+      PIB: TBackgroundPIB,
+      ERG: TBackgroundERG,
+      BTA: TBackgroundBTA,
+      NCR: TBackgroundNCR,
+      BCH: TBackgroundBCH,
+      ALCX: TBackgroundALCX,
+      RET: TBackgroundRET,
+      USTC: TBackgroundUSTC,
+      BBL: TBackgroundBBL,
+      RFOX: TBackgroundRFOX,
+      EUSD: TBackgroundEUSD,
+      BLP: TBackgroundBLP,
+      PSL: TBackgroundPSL,
+      COPI: TBackgroundCOPI,
+      LBT: TBackgroundLBT,
+      BNX: TBackgroundBNX,
+      XY: TBackgroundXY,
+      CHO: TBackgroundCHO,
+      TKN: TBackgroundTKN,
+      SNS: TBackgroundSNS,
+      LQDR: TBackgroundLQDR,
+      VR: TBackgroundVR,
+      NEXA: TBackgroundNEXA,
+      PROPC: TBackgroundPROPC,
+      MDT: TBackgroundMDT,
+      ARC: TBackgroundARC,
+      DREP: TBackgroundDREP,
+      DERC: TBackgroundDERC,
+      STORJ: TBackgroundSTORJ,
+      VGX: TBackgroundVGX,
+      GEOD: TBackgroundGEOD,
+      SUN: TBackgroundSUN,
+      OP: TBackgroundOP,
+      CRV: TBackgroundCRV,
+      NEBO: TBackgroundNEBO,
+      VIS: TBackgroundVIS,
+      PENDLE: TBackgroundPENDLE,
+      SOON: TBackgroundSOON,
+      MX: TBackgroundMX,
+      DUA: TBackgroundDUA,
+      HAI: TBackgroundHAI,
+      VINU: TBackgroundVINU,
+      PORK: TBackgroundPORK,
+      O3: TBackgroundO3,
+      AKT: TBackgroundAKT,
+      DEFIT: TBackgroundDEFIT,
+      MM: TBackgroundMM,
+      T: TBackgroundT,
+      IRON: TBackgroundIRON,
+      GAMEFI: TBackgroundGAMEFI,
+      IGNIS: TBackgroundIGNIS,
+      VEE: TBackgroundVEE,
+      MPS: TBackgroundMPS,
+      VEUR: TBackgroundVEUR,
+      GSWAP: TBackgroundGSWAP,
+      CHZ: TBackgroundCHZ,
+      DLC: TBackgroundDLC,
+      AZIT: TBackgroundAZIT,
+      MEED: TBackgroundMEED,
+      RGEN: TBackgroundRGEN,
+      DAD: TBackgroundDAD,
+      XRT: TBackgroundXRT,
+      ORN: TBackgroundORN,
+      XSP: TBackgroundXSP,
+      SAI: TBackgroundSAI,
+      REV3L: TBackgroundREV3L,
+      RIDE: TBackgroundRIDE,
+      FXS: TBackgroundFXS,
+      OPIUM: TBackgroundOPIUM,
+      GRG: TBackgroundGRG,
+      LGCY: TBackgroundLGCY,
+      LCR: TBackgroundLCR,
+      NXM: TBackgroundNXM,
+      UOS: TBackgroundUOS,
+      CDAI: TBackgroundCDAI,
+      GALEON: TBackgroundGALEON,
+      REV: TBackgroundREV,
+      SOURCE: TBackgroundSOURCE,
+      UBT: TBackgroundUBT,
+      CAPS: TBackgroundCAPS,
+      BTC: TBackgroundBTC,
+      NBT: TBackgroundNBT,
+      LITH: TBackgroundLITH,
+      UWU: TBackgroundUWU,
+      EMAID: TBackgroundEMAID,
+      UCJL: TBackgroundUCJL,
+      HERA: TBackgroundHERA,
+      LEOX: TBackgroundLEOX,
+      HIFI: TBackgroundHIFI,
+      ECOIN: TBackgroundECOIN,
+      NOS: TBackgroundNOS,
+      SNFT: TBackgroundSNFT,
+      WAM: TBackgroundWAM,
+      GGP: TBackgroundGGP,
+      MTRG: TBackgroundMTRG,
+      GFT: TBackgroundGFT,
+      GGG: TBackgroundGGG,
+      IDEA: TBackgroundIDEA,
+      ZPAY: TBackgroundZPAY,
+      WNT: TBackgroundWNT,
+      BSCPAD: TBackgroundBSCPAD,
+      ACRIA: TBackgroundACRIA,
+      GUILD: TBackgroundGUILD,
+      NWC: TBackgroundNWC,
+      NTX: TBackgroundNTX,
+      BAT: TBackgroundBAT,
+      LOOKS: TBackgroundLOOKS,
+      EURT: TBackgroundEURT,
+      BETA: TBackgroundBETA,
+      EVMOS: TBackgroundEVMOS,
+      PINKSALE: TBackgroundPINKSALE,
+      RDD: TBackgroundRDD,
+      XAUR: TBackgroundXAUR,
+      PROTEO: TBackgroundPROTEO,
+      TABOO: TBackgroundTABOO,
+      LCD: TBackgroundLCD,
+      PPT: TBackgroundPPT,
+      SUSHI: TBackgroundSUSHI,
+      LING: TBackgroundLING,
+      ORDI: TBackgroundORDI,
+      LCS: TBackgroundLCS,
+      PPC: TBackgroundPPC,
+      HERMES: TBackgroundHERMES,
+      BLD: TBackgroundBLD,
+      ZKB: TBackgroundZKB,
+      DBI: TBackgroundDBI,
+      CGPT: TBackgroundCGPT,
+      FARA: TBackgroundFARA,
+      CGT: TBackgroundCGT,
+      HARD: TBackgroundHARD,
+      CFG: TBackgroundCFG,
+      IETH: TBackgroundIETH,
+      SBD: TBackgroundSBD,
+      LAMB: TBackgroundLAMB,
+      UNCX: TBackgroundUNCX,
+      QUARTZ: TBackgroundQUARTZ,
+      MED: TBackgroundMED,
+      BOND: TBackgroundBOND,
+      GBYTE: TBackgroundGBYTE,
+      RBLS: TBackgroundRBLS,
+      DXP: TBackgroundDXP,
+      KAVA: TBackgroundKAVA,
+      TXAU: TBackgroundTXAU,
+      U: TBackgroundU,
+      SQUAD: TBackgroundSQUAD,
+      HOT: TBackgroundHOT,
+      SHIK: TBackgroundSHIK,
+      CRU: TBackgroundCRU,
+      DIKO: TBackgroundDIKO,
+      ML: TBackgroundML,
+      VEXT: TBackgroundVEXT,
+      OS: TBackgroundOS,
+      TREEB: TBackgroundTREEB,
+      KMON: TBackgroundKMON,
+      GRAV: TBackgroundGRAV,
+      CLORE: TBackgroundCLORE,
+      RISITA: TBackgroundRISITA,
+      TRX: TBackgroundTRX,
+      OGN: TBackgroundOGN,
+      CTR: TBackgroundCTR,
+      PDEX: TBackgroundPDEX,
+      THOR: TBackgroundTHOR,
+      ZTG: TBackgroundZTG,
+      HID: TBackgroundHID,
+      MUSD: TBackgroundMUSD,
+      WOZX: TBackgroundWOZX,
+      SKL: TBackgroundSKL,
+      BRISE: TBackgroundBRISE,
+      SOPH: TBackgroundSOPH,
+      QUAD: TBackgroundQUAD,
+      SWASH: TBackgroundSWASH,
+      SIS: TBackgroundSIS,
+      OMNI: TBackgroundOMNI,
+      QRL: TBackgroundQRL,
+      DKA: TBackgroundDKA,
+      AUDIO: TBackgroundAUDIO,
+      POLK: TBackgroundPOLK,
+      FRA: TBackgroundFRA,
+      SDT: TBackgroundSDT,
+      CAS: TBackgroundCAS,
+      AXS: TBackgroundAXS,
+      LODE: TBackgroundLODE,
+      MND: TBackgroundMND,
+      YOSHI: TBackgroundYOSHI,
+      DGB: TBackgroundDGB,
+      CRWNY: TBackgroundCRWNY,
+      LAKE: TBackgroundLAKE,
+      FCON: TBackgroundFCON,
+      RNDR: TBackgroundRNDR,
+      PLANETS: TBackgroundPLANETS,
+      POPCAT: TBackgroundPOPCAT,
+      LET: TBackgroundLET,
+      FLOOR: TBackgroundFLOOR,
+      PSTAKE: TBackgroundPSTAKE,
+      BEL: TBackgroundBEL,
+      PZP: TBackgroundPZP,
+      NVIR: TBackgroundNVIR,
+      NFTART: TBackgroundNFTART,
+      SOULS: TBackgroundSOULS,
+      GNO: TBackgroundGNO,
+      BSV: TBackgroundBSV,
+      GORA: TBackgroundGORA,
+      COMP: TBackgroundCOMP,
+      LUCA: TBackgroundLUCA,
+      GDCC: TBackgroundGDCC,
+      ETC: TBackgroundETC,
+      ICP: TBackgroundICP,
+      PNB: TBackgroundPNB,
+      SYNC: TBackgroundSYNC,
+      RVF: TBackgroundRVF,
+      MANA: TBackgroundMANA,
+      EMAGIC: TBackgroundEMAGIC,
+      WRLD: TBackgroundWRLD,
+      HUSH: TBackgroundHUSH,
+      WAVES: TBackgroundWAVES,
+      GYMNET: TBackgroundGYMNET,
+      AURA: TBackgroundAURA,
+      MOBILE: TBackgroundMOBILE,
+      LPT: TBackgroundLPT,
+      INV: TBackgroundINV,
+      PAL: TBackgroundPAL,
+      PIZA: TBackgroundPIZA,
+      MCONTENT: TBackgroundMCONTENT,
+      TRAVA: TBackgroundTRAVA,
+      GNY: TBackgroundGNY,
+      KYVE: TBackgroundKYVE,
+      PNT: TBackgroundPNT,
+      BSW: TBackgroundBSW,
+      AIOZ: TBackgroundAIOZ,
+      POP: TBackgroundPOP,
+      GHUB: TBackgroundGHUB,
+      GLQ: TBackgroundGLQ,
+      NXRA: TBackgroundNXRA,
+      RAY: TBackgroundRAY,
+      GXC: TBackgroundGXC,
+      NAKA: TBackgroundNAKA,
+      EPIK: TBackgroundEPIK,
+      ALGB: TBackgroundALGB,
+      KNC: TBackgroundKNC,
+      PUSH: TBackgroundPUSH,
+      BLXM: TBackgroundBLXM,
+      KCS: TBackgroundKCS,
+      STATOM: TBackgroundSTATOM,
+      FRAX: TBackgroundFRAX,
+      AXE: TBackgroundAXE,
+      MNR: TBackgroundMNR,
+      AITECH: TBackgroundAITECH,
+      NEURONI: TBackgroundNEURONI,
+      ZAP: TBackgroundZAP,
+      CATHEON: TBackgroundCATHEON,
+      SHA: TBackgroundSHA,
+      QRDO: TBackgroundQRDO,
+      KLIMA: TBackgroundKLIMA,
+      WBETH: TBackgroundWBETH,
+      ZCX: TBackgroundZCX,
+      MCB: TBackgroundMCB,
+      FLUID: TBackgroundFLUID,
+      GULF: TBackgroundGULF,
+      ACX: TBackgroundACX,
+      AAG: TBackgroundAAG,
+      FCTR: TBackgroundFCTR,
+      FEI: TBackgroundFEI,
+      ONG: TBackgroundONG,
+      MUSE: TBackgroundMUSE,
+      GRAIN: TBackgroundGRAIN,
+      ATLAS: TBackgroundATLAS,
+      SRX: TBackgroundSRX,
+      TULIP: TBackgroundTULIP,
+      XCM: TBackgroundXCM,
+      INTR: TBackgroundINTR,
+      DEXE: TBackgroundDEXE,
+      TTK: TBackgroundTTK,
+      SRM: TBackgroundSRM,
+      VLX: TBackgroundVLX,
+      SPE: TBackgroundSPE,
+      ONE: TBackgroundONE,
+      GRIN: TBackgroundGRIN,
+      GRAIL: TBackgroundGRAIL,
+      OMI: TBackgroundOMI,
+      DYDX: TBackgroundDYDX,
+      SRLTY: TBackgroundSRLTY,
+      DUSK: TBackgroundDUSK,
+      FX: TBackgroundFX,
+      PSWAP: TBackgroundPSWAP,
+      TLM: TBackgroundTLM,
+      MBD: TBackgroundMBD,
+      SN: TBackgroundSN,
+      COL: TBackgroundCOL,
+      AVL: TBackgroundAVL,
+      OMNOM: TBackgroundOMNOM,
+      ATD: TBackgroundATD,
+      GCOIN: TBackgroundGCOIN,
+      MOC: TBackgroundMOC,
+      CAP: TBackgroundCAP,
+      OTK: TBackgroundOTK,
+      LEASH: TBackgroundLEASH,
+      TFUEL: TBackgroundTFUEL,
+      TREE: TBackgroundTREE,
+      TIPS: TBackgroundTIPS,
+      KAN: TBackgroundKAN,
+      ELF: TBackgroundELF,
+      RBW: TBackgroundRBW,
+      NPC: TBackgroundNPC,
+      GSTS: TBackgroundGSTS,
+      PICA: TBackgroundPICA,
+      LIT: TBackgroundLIT,
+      SKEY: TBackgroundSKEY,
+      GXA: TBackgroundGXA,
+      INSUR: TBackgroundINSUR,
+      PLI: TBackgroundPLI,
+      RTM: TBackgroundRTM,
+      YGG: TBackgroundYGG,
+      TONIC: TBackgroundTONIC,
+      HILO: TBackgroundHILO,
+      LUNR: TBackgroundLUNR,
+      LYXE: TBackgroundLYXE,
+      GAT: TBackgroundGAT,
+      IMX: TBackgroundIMX,
+      MOBY: TBackgroundMOBY,
+      PAY: TBackgroundPAY,
+      PROB: TBackgroundPROB,
+      JASMY: TBackgroundJASMY,
+      TIFI: TBackgroundTIFI,
+      IMO: TBackgroundIMO,
+      INT: TBackgroundINT,
+      HIBS: TBackgroundHIBS,
+      XDATA: TBackgroundXDATA,
+      HELLO: TBackgroundHELLO,
+      MANC: TBackgroundMANC,
+      KUMA: TBackgroundKUMA,
+      ELON: TBackgroundELON,
+      MIMATIC: TBackgroundMIMATIC,
+      BRG: TBackgroundBRG,
+      ALPH: TBackgroundALPH,
+      ROUTE: TBackgroundROUTE,
+      USN: TBackgroundUSN,
+      BST: TBackgroundBST,
+      ICE: TBackgroundICE,
+      SENSE: TBackgroundSENSE,
+      BEN: TBackgroundBEN,
+      DATA: TBackgroundDATA,
+      RAMP: TBackgroundRAMP,
+      RAM: TBackgroundRAM,
+      GTC: TBackgroundGTC,
+      IXO: TBackgroundIXO,
+      GAFI: TBackgroundGAFI,
+      APOLLO: TBackgroundAPOLLO,
+      XTP: TBackgroundXTP,
+      MLN: TBackgroundMLN,
+      AAVE: TBackgroundAAVE,
+      OATH: TBackgroundOATH,
+      JKL: TBackgroundJKL,
+      SFI: TBackgroundSFI,
+      REALM: TBackgroundREALM,
+      KWENTA: TBackgroundKWENTA,
+      ATR: TBackgroundATR,
+      CLV: TBackgroundCLV,
+      FOREX: TBackgroundFOREX,
+      MTH: TBackgroundMTH,
+      XMR: TBackgroundXMR,
+      DF: TBackgroundDF,
+      KISHU: TBackgroundKISHU,
+      COSMOSHUB: TBackgroundCOSMOSHUB,
+      LQTY: TBackgroundLQTY,
+      VAI: TBackgroundVAI,
+      CTG: TBackgroundCTG,
+      BCUBE: TBackgroundBCUBE,
+      DPI: TBackgroundDPI,
+      LOVELY: TBackgroundLOVELY,
+      CTC: TBackgroundCTC,
+      PAXG: TBackgroundPAXG,
+      BSCS: TBackgroundBSCS,
+      OAX: TBackgroundOAX,
+      MTL: TBackgroundMTL,
+      ACH: TBackgroundACH,
+      MVD: TBackgroundMVD,
+      ABL: TBackgroundABL,
+      PYUSD: TBackgroundPYUSD,
+      ATA: TBackgroundATA,
+      C98: TBackgroundC98,
+      POLYPAD: TBackgroundPOLYPAD,
+      AVI: TBackgroundAVI,
+      VVS: TBackgroundVVS,
+      UBSN: TBackgroundUBSN,
+      KLEVA: TBackgroundKLEVA,
+      CBY: TBackgroundCBY,
+      MMY: TBackgroundMMY,
+      MNB: TBackgroundMNB,
+      SFM: TBackgroundSFM,
+      DEL: TBackgroundDEL,
+      KITTY: TBackgroundKITTY,
+      TAO: TBackgroundTAO,
+      ZKID: TBackgroundZKID,
+      PPAY: TBackgroundPPAY,
+      RLY: TBackgroundRLY,
+      FEAR: TBackgroundFEAR,
+      SEED: TBackgroundSEED,
+      EMP: TBackgroundEMP,
+      DZOO: TBackgroundDZOO,
+      NOIA: TBackgroundNOIA,
+      AIMBOT: TBackgroundAIMBOT,
+      QASH: TBackgroundQASH,
+      ORARE: TBackgroundORARE,
+      CSIX: TBackgroundCSIX,
+      RAI: TBackgroundRAI,
+      CRYSTAL: TBackgroundCRYSTAL,
+      GOZ: TBackgroundGOZ,
+      ETE: TBackgroundETE,
+      NFTB: TBackgroundNFTB,
+      OETH: TBackgroundOETH,
+      XPNET: TBackgroundXPNET,
+      STRAX: TBackgroundSTRAX,
+      GARI: TBackgroundGARI,
+      BLUSD: TBackgroundBLUSD,
+      SIPHER: TBackgroundSIPHER,
+      LUNA: TBackgroundLUNA,
+      TBTC: TBackgroundTBTC,
+      SEILOR: TBackgroundSEILOR,
+      DOMI: TBackgroundDOMI,
+      UPP: TBackgroundUPP,
+      HUSKY: TBackgroundHUSKY,
+      TELOS: TBackgroundTELOS,
+      UQC: TBackgroundUQC,
+      SMARTCREDIT: TBackgroundSMARTCREDIT,
+      SLCL: TBackgroundSLCL,
+      QUICK: TBackgroundQUICK,
+      MATH: TBackgroundMATH,
+      BDX: TBackgroundBDX,
+      FLAME: TBackgroundFLAME,
+      RBD: TBackgroundRBD,
+      ELU: TBackgroundELU,
+      HIVE: TBackgroundHIVE,
+      GHNY: TBackgroundGHNY,
+      'LYX-1': TBackgroundLYX1,
+      ARCH: TBackgroundARCH,
+      WSI: TBackgroundWSI,
+      ENJ: TBackgroundENJ,
+      VOXEL: TBackgroundVOXEL,
+      PINU: TBackgroundPINU,
+      ATOM: TBackgroundATOM,
+      CAT: TBackgroundCAT,
+      MOG: TBackgroundMOG,
+      EQUAD: TBackgroundEQUAD,
+      CELO: TBackgroundCELO,
+      STRONG: TBackgroundSTRONG,
+      URUS: TBackgroundURUS,
+      CBX: TBackgroundCBX,
+      MLK: TBackgroundMLK,
+      TARA: TBackgroundTARA,
+      MMO: TBackgroundMMO,
+      MNT: TBackgroundMNT,
+      ZNN: TBackgroundZNN,
+      POND: TBackgroundPOND,
+      MNST: TBackgroundMNST,
+      RING: TBackgroundRING,
+      CLS: TBackgroundCLS,
+      TOR: TBackgroundTOR,
+      PORTAL: TBackgroundPORTAL,
+      VEGA: TBackgroundVEGA,
+      AZERO: TBackgroundAZERO,
+      TORN: TBackgroundTORN,
+      HYDRA: TBackgroundHYDRA,
+      OOE: TBackgroundOOE,
+      CRTS: TBackgroundCRTS,
+      ETHM: TBackgroundETHM,
+      GO: TBackgroundGO,
+      VALOR: TBackgroundVALOR,
+      STRP: TBackgroundSTRP,
+      STELLA: TBackgroundSTELLA,
+      RAVEN: TBackgroundRAVEN,
+      DC: TBackgroundDC,
+      DPAY: TBackgroundDPAY,
+      FIL: TBackgroundFIL,
+      TWT: TBackgroundTWT,
+      DIMO: TBackgroundDIMO,
+      ID: TBackgroundID,
+      SPA: TBackgroundSPA,
+      DEXT: TBackgroundDEXT,
+      SPC: TBackgroundSPC,
+      SSX: TBackgroundSSX,
+      SIGNA: TBackgroundSIGNA,
+      IQ: TBackgroundIQ,
+      DWEB: TBackgroundDWEB,
+      GEEQ: TBackgroundGEEQ,
+      SRK: TBackgroundSRK,
+      CUSD: TBackgroundCUSD,
+      ONT: TBackgroundONT,
+      VCF: TBackgroundVCF,
+      BLOCK: TBackgroundBLOCK,
+      ETHX: TBackgroundETHX,
+      EARN: TBackgroundEARN,
+      MWC: TBackgroundMWC,
+      FOAM: TBackgroundFOAM,
+      LAYER: TBackgroundLAYER,
+      MAN: TBackgroundMAN,
+      SDAO: TBackgroundSDAO,
+      ZAT: TBackgroundZAT,
+      VTX: TBackgroundVTX,
+      OXY: TBackgroundOXY,
+      SPIRIT: TBackgroundSPIRIT,
+      TNT: TBackgroundTNT,
+      KOIN: TBackgroundKOIN,
+      TOP: TBackgroundTOP,
+      POLY: TBackgroundPOLY,
+      KOGE: TBackgroundKOGE,
+      OVR: TBackgroundOVR,
+      MOE: TBackgroundMOE,
+      DACXI: TBackgroundDACXI,
+      WRX: TBackgroundWRX,
+      TLOS: TBackgroundTLOS,
+      CANTO: TBackgroundCANTO,
+      GZONE: TBackgroundGZONE,
+      PWR: TBackgroundPWR,
+      GFAL: TBackgroundGFAL,
+      DJED: TBackgroundDJED,
+      ECO: TBackgroundECO,
+      NGL: TBackgroundNGL,
+      CTXC: TBackgroundCTXC,
+      PNG: TBackgroundPNG,
+      RVC: TBackgroundRVC,
+      NSBT: TBackgroundNSBT,
+      USDX: TBackgroundUSDX,
+      PNP: TBackgroundPNP,
+      LSK: TBackgroundLSK,
+      NHT: TBackgroundNHT,
+      WELL: TBackgroundWELL,
+      LUNC: TBackgroundLUNC,
+      EUNO: TBackgroundEUNO,
+      OUSD: TBackgroundOUSD,
+      PROS: TBackgroundPROS,
+      MOBI: TBackgroundMOBI,
+      CCV2: TBackgroundCCV2,
+      PAI: TBackgroundPAI,
+      PBR: TBackgroundPBR,
+      GAS: TBackgroundGAS,
+      BEETS: TBackgroundBEETS,
+      PLEB: TBackgroundPLEB,
+      CUMINU: TBackgroundCUMINU,
+      INS: TBackgroundINS,
+      EXD: TBackgroundEXD,
+      NKN: TBackgroundNKN,
+      USH: TBackgroundUSH,
+      TRAXX: TBackgroundTRAXX,
+      TOWER: TBackgroundTOWER,
+      SYLO: TBackgroundSYLO,
+      Y2K: TBackgroundY2K,
+      PLN: TBackgroundPLN,
+      ETP: TBackgroundETP,
+      MOON: TBackgroundMOON,
+      GLC: TBackgroundGLC,
+      PLY: TBackgroundPLY,
+      SWAP: TBackgroundSWAP,
+      KEEP: TBackgroundKEEP,
+      SFUND: TBackgroundSFUND,
+      NGM: TBackgroundNGM,
+      SWISE: TBackgroundSWISE,
+      UFI: TBackgroundUFI,
+      ALEX: TBackgroundALEX,
+      RDPX: TBackgroundRDPX,
+      CBETH: TBackgroundCBETH,
+      CHRP: TBackgroundCHRP,
+      WOJAK: TBackgroundWOJAK,
+      KAI: TBackgroundKAI,
+      CELL: TBackgroundCELL,
+      HAWK: TBackgroundHAWK,
+      MOD: TBackgroundMOD,
+      CAW: TBackgroundCAW,
+      REVO: TBackgroundREVO,
+      TRIAS: TBackgroundTRIAS,
+      MNW: TBackgroundMNW,
+      MAX: TBackgroundMAX,
+      SI: TBackgroundSI,
+      POLX: TBackgroundPOLX,
+      HMND: TBackgroundHMND,
+      MEAN: TBackgroundMEAN,
+      UNIX: TBackgroundUNIX,
+      STRD: TBackgroundSTRD,
+      NBLU: TBackgroundNBLU,
+      DGNX: TBackgroundDGNX,
+      ES: TBackgroundES,
+      VIDT: TBackgroundVIDT,
+      XNO: TBackgroundXNO,
+      HT: TBackgroundHT,
+      FIO: TBackgroundFIO,
+      OCE: TBackgroundOCE,
+      MZR: TBackgroundMZR,
+      POWR: TBackgroundPOWR,
+      GLMR: TBackgroundGLMR,
+      DPX: TBackgroundDPX,
+      AQTIS: TBackgroundAQTIS,
+      XCH: TBackgroundXCH,
+      MXM: TBackgroundMXM,
+    },
   },
   networks: {
     branded: {
