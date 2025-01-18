@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#LM__a)" d="m3.579 7.263 3.158 1.58v5.789L3.579 16.21z"/>
-    <path fill="url(#LM__b)" d="m20.42 7.79-3.157 1.578v5.79l3.158 1.579z"/>
-    <path fill="#004F9F" d="M6.737 8.842 3.579 7.263 11.999 2l7.896 4.737-3.158 1.579L12 5.684z"/>
-    <path fill="#009945" d="m17.263 15.158 3.158 1.579L12 22l-7.895-4.737 3.158-1.579L12 18.316z"/>
-    <path fill="#0174BC" d="M15.684 9.368H8.316L12 11.737z"/>
-    <path fill="#024531" d="M12 16.21v-4.473l3.684-2.369z"/>
+    <path fill="url(#LM__a)" d="M5.263 8.21 7.79 9.475v4.632L5.263 15.37z"/>
+    <path fill="url(#LM__b)" d="M18.737 8.632 16.21 9.895v4.632l2.527 1.263z"/>
+    <path fill="#004F9F" d="M7.79 9.474 5.263 8.21 12 4l6.316 3.79-2.526 1.263L12 6.947z"/>
+    <path fill="#009945" d="m16.21 14.526 2.527 1.264L12 20l-6.316-3.79 2.526-1.263L12 17.054z"/>
+    <path fill="#0174BC" d="M14.948 9.895H9.053L12 11.789z"/>
+    <path fill="#024531" d="M12 15.368V11.79l2.947-1.894z"/>
     <defs>
-        <linearGradient id="LM__a" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LM__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#1E5EA8"/>
             <stop offset="1" stop-color="#163F71"/>
         </linearGradient>
-        <linearGradient id="LM__b" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LM__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#03783C"/>
             <stop offset="1" stop-color="#015429"/>
         </linearGradient>

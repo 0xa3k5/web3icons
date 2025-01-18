@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#HUNT__a)">
+        <path fill="#FB6F6E" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M8.386 4.914a.914.914 0 1 1 1.828 0V8.81a4.114 4.114 0 0 1 6.4 3.42v4.114a.915.915 0 0 1-1.828 0V12.23a2.286 2.286 0 1 0-4.572 0v4.114a.914.914 0 0 1-1.828 0zm1.828 14.172a.914.914 0 1 1-1.828 0 .914.914 0 0 1 1.828 0M15.7 20a.914.914 0 1 0 0-1.828.914.914 0 0 0 0 1.828"/>
+    </g>
+    <defs>
+        <clipPath id="HUNT__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

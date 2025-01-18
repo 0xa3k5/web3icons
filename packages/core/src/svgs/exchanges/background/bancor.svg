@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#bancor__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11.185 4 7.19 6.309l3.995 2.32 3.996-2.32zm-4.532 7.848 3.986 2.301V9.542L6.653 7.24zm0 5.851L10.639 20v-4.607l-3.986-2.301zm9.064-5.851-3.986 2.301V9.542l3.986-2.301zm1.63.302v4.609L11.731 20v-4.607z"/>
+    </g>
+    <defs>
+        <clipPath id="bancor__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

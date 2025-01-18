@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PER__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#PER__b)" d="M12 18.629a7.314 7.314 0 1 0 0-14.63 7.314 7.314 0 0 0 0 14.63"/>
+        <path fill="url(#PER__c)" d="m4.736 10.445-.023.256c1.088-.928 3.812-2.587 6.761-2.587 2.39 0 3.762 1.371 4.146 2.075l-.384 3.027-4.292 2.368-.316.242v-5.472a.862.862 0 1 0-1.723 0v7.589a7.2 7.2 0 0 0 1.723.548v-1.508c2.222-.293 5.943-1.623 5.943-5.29 0-1.394-1.033-2.903-1.582-3.479l-2.88-.836-3.24.49-2.497 1.284z"/>
+        <path fill="url(#PER__d)" d="m4.75 10.268-.028.228c1.577-1.5 4.508-2.615 6.66-2.615 2.218 0 3.818 1.326 3.818 2.953 0 2.387-3.525 3.52-5.029 3.735V10.4a.914.914 0 1 0-1.828 0v8.686a.914.914 0 1 0 1.828 0v-2.752c5.76-1.362 6.4-4.38 6.4-5.298 0-.915-.68-3.836-4.9-3.836-3.054 0-5.692 1.865-6.921 3.068"/>
+    </g>
+    <defs>
+        <linearGradient id="PER__b" x1="17.627" x2="4.816" y1="7.19" y2="14.361" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FD2307"/>
+            <stop offset="1" stop-color="#FDB106"/>
+        </linearGradient>
+        <linearGradient id="PER__c" x1="16.9" x2="9.895" y1="4.796" y2="18.853" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E67F5E"/>
+            <stop offset="1" stop-color="#FCC252"/>
+        </linearGradient>
+        <linearGradient id="PER__d" x1="10.03" x2="8.996" y1="17.289" y2="19.767" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FEFEFC"/>
+            <stop offset="1" stop-color="#FFC125"/>
+        </linearGradient>
+        <clipPath id="PER__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

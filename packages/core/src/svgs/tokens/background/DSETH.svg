@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DSETH__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m9.895 16.05-4.63-2.786L9.894 20zm4.21 0 4.63-2.786L14.106 20zM12 9.684V4l-4.63 7.578z"/>
+        <path fill="#fff" d="M12 9.473v5.052l-4.63-2.947zm0 .21V4l4.632 7.578z"/>
+        <path fill="#fff" d="M11.999 9.474v5.052l4.631-2.947z"/>
+    </g>
+    <defs>
+        <clipPath id="DSETH__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ubiq__a)">
+        <path fill="#00EA90" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m5.2 14.645 4.71 2.91v-6.603z"/>
+        <path fill="#fff" d="M12.456 4v6.355L5.2 14.645V8.191zM18.8 9.355l-4.71-2.909v6.602z"/>
+        <path fill="#fff" d="M11.544 20v-6.355l7.256-4.29v6.454z"/>
+    </g>
+    <defs>
+        <clipPath id="ubiq__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

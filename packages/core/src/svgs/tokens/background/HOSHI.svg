@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#HOSHI__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#HOSHI__b)" d="m10.771 11.329-5.556-3.26L8.035 12H9.98z"/>
+        <path fill="#A19FA0" d="M10.771 12.648 5.215 15.92 8.035 12H9.98z"/>
+        <path fill="url(#HOSHI__c)" d="m13.244 11.329 5.556-3.26L15.98 12h-1.944z"/>
+        <path fill="url(#HOSHI__d)" d="M13.244 12.648 18.8 16l-2.82-4h-1.944z"/>
+        <path fill="url(#HOSHI__e)" d="M9.984 8.547 5.2 8.051l5.04 2.976.828-.468z"/>
+        <path fill="url(#HOSHI__f)" d="m14.016 8.56 4.784-.49-5.04 2.972-.828-.472 1.084-2.012z"/>
+        <path fill="url(#HOSHI__g)" d="m10.008 15.46-4.808.46 5.04-2.977.828.468z"/>
+        <path fill="url(#HOSHI__h)" d="M13.916 15.424 18.8 16l-5.144-3.116-.828.528z"/>
+        <path fill="url(#HOSHI__i)" d="M14.712 12.284c.756.108 1.136-.176 1.232-.332l-.06-.04c-.536.424-1.328.016-1.656-.24l-.492.96c.132.088.56.332 1.172.608s.72.78.7 1l.28.172c.456-1.24-.592-1.936-1.176-2.128"/>
+        <path fill="url(#HOSHI__j)" d="M11.085 10.572 9.973 8.548 12 4v6.572z"/>
+        <path fill="url(#HOSHI__k)" d="M12.928 10.62 14 8.572 11.984 4v6.572z"/>
+        <path fill="url(#HOSHI__l)" d="m11.084 13.428-1.096 2.04 2 4.532v-6.572h-.908z"/>
+        <path fill="url(#HOSHI__m)" d="m12.884 13.428 1.096 2.04L11.984 20v-6.572z"/>
+        <path fill="#C3C1C2" d="M8.836 8.94c-.368-.369-.96-.32-1.204-.245.76 0 1.264.748 1.52 1.248.204.4.632.828.816.996l.548-.704c-.684-.096-1.224-.836-1.68-1.296"/>
+        <path fill="url(#HOSHI__n)" d="M11.956 14.216a2.26 2.26 0 0 0 2.268-2.248 2.26 2.26 0 0 0-2.268-2.248 2.26 2.26 0 0 0-2.268 2.248 2.26 2.26 0 0 0 2.268 2.248"/>
+        <path fill="url(#HOSHI__o)" fill-rule="evenodd" d="M12 14.4a2.4 2.4 0 0 0 2.218-1.482A2.402 2.402 0 0 0 12.001 9.6a2.4 2.4 0 1 0 0 4.8m-.043-.184a2.254 2.254 0 0 0 2.264-2.248 2.26 2.26 0 0 0-2.264-2.248 2.256 2.256 0 0 0-2.268 2.248 2.26 2.26 0 0 0 2.268 2.248" clip-rule="evenodd"/>
+        <path fill="url(#HOSHI__p)" d="M13.4 10.6H13v.6h.4zM12 11.8v.48c-.004.088-.08.32-.264.52h.504a.9.9 0 0 0 .16-.52v-.48h.6v.408c0 .148-.064.268-.2.268v.372h.016c.313 0 .584-.28.584-.62V11.8h.2v-.4h-1.2v-.6H12v.6h-.8v.4zm-1.6.2v.668h.26v-.452h.708v.08c0 .38-.34.688-.76.688H10.4v.216h.252c.524 0 .948-.38.948-.848V12z"/>
+    </g>
+    <defs>
+        <linearGradient id="HOSHI__b" x1="5.317" x2="16.706" y1="4.571" y2="10.107" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#ECECEC"/>
+            <stop offset="1" stop-color="#ABABAB"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__c" x1="7.628" x2="20.497" y1="17.445" y2="11.128" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#575354"/>
+            <stop offset=".15" stop-color="#949091"/>
+            <stop offset="1" stop-color="#979394"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__d" x1="18.497" x2="5.5" y1="18.064" y2="13.623" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#AAA"/>
+            <stop offset=".87" stop-color="#BEBEBE"/>
+            <stop offset="1" stop-color="#3E3C3D"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__e" x1="6.09" x2="17.122" y1="4.946" y2="4.946" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D0D0D0"/>
+            <stop offset="1" stop-color="#B3AFAE"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__f" x1="17.91" x2="6.878" y1="4.948" y2="4.948" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A8A8A8"/>
+            <stop offset="1" stop-color="#DCDCDE"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__g" x1="9.714" x2="17.71" y1="13.612" y2="14.689" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D8D8D8"/>
+            <stop offset=".73" stop-color="#A8A8A8"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__h" x1="6.985" x2="10.4" y1="7.636" y2="8.876" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#312F30"/>
+            <stop offset="1" stop-color="#858384"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__i" x1="7.699" x2="12.542" y1="7.994" y2="9.03" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#373737"/>
+            <stop offset="1" stop-color="#8B8788"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__j" x1="6.488" x2="11.086" y1="13.836" y2="19.03" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DFDFE1"/>
+            <stop offset="1" stop-color="#B6B6B6"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__k" x1="17.451" x2="5.821" y1="13.764" y2="14.366" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A8A6A7"/>
+            <stop offset=".75" stop-color="#B6B4B5"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__l" x1="5.2" x2="6.76" y1="18.101" y2="4.1" gradientUnits="userSpaceOnUse">
+            <stop offset=".82" stop-color="#898788"/>
+            <stop offset=".96" stop-color="#373536"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__m" x1="12.014" x2="11.605" y1="20" y2="4.133" gradientUnits="userSpaceOnUse">
+            <stop offset=".75" stop-color="#B3B3B3"/>
+            <stop offset="1" stop-color="#383637"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__n" x1="5.631" x2="18.524" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#8E8A8B"/>
+            <stop offset="1" stop-color="#CCC"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__o" x1="5.212" x2="17.996" y1="12.533" y2="12.533" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D9D9D9"/>
+            <stop offset=".5" stop-color="#AEACAC"/>
+            <stop offset="1" stop-color="#393738"/>
+        </linearGradient>
+        <linearGradient id="HOSHI__p" x1="10.533" x2="13.197" y1="13.152" y2="13.152" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A9A7AA"/>
+            <stop offset="1" stop-color="#DEDEE0"/>
+        </linearGradient>
+        <clipPath id="HOSHI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

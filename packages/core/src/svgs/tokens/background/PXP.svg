@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PXP__a)">
+        <path fill="url(#PXP__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M13 4h-2v1.5H6.5v2h1V18h-1v2h4v-2h-1v-3.5H11V16h2v-1.5c2.49-.02 4.5-2.04 4.5-4.5A4.526 4.526 0 0 0 13 5.5zm-3.5 8.5v-5h3.475A2.51 2.51 0 0 1 15.5 10c0 1.38-1.13 2.5-2.525 2.5z"/>
+    </g>
+    <defs>
+        <linearGradient id="PXP__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5BC5F7"/>
+            <stop offset="1" stop-color="#057EFF"/>
+        </linearGradient>
+        <clipPath id="PXP__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

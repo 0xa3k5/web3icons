@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DOG__a)">
+        <path fill="#C3A634" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M6.749 20v-7H4.75v-2h1.999V4h5.497c4.798 0 7.164 3.537 6.995 8.038C19.077 16.495 17.184 20 12.247 20zM8.748 6v5h3.998v2H8.748v5h3.498c3.838 0 4.871-2.64 4.998-6.037C17.371 8.576 15.912 6 12.246 6z"/>
+    </g>
+    <defs>
+        <clipPath id="DOG__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

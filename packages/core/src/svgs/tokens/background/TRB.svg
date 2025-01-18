@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TRB__a)">
+        <path fill="#20FE9C" d="M24 0H0v24h24z"/>
+        <path fill="#000" d="M19.98 8.207c.542 2.153-10.133 7.473-14.973 8.738-4.839 1.264 9.358-4.97 8.804-7.123s-11.87-.388-7.03-1.653c4.839-1.264 12.657-2.115 13.2.038"/>
+    </g>
+    <defs>
+        <clipPath id="TRB__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

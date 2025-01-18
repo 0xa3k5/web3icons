@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#EMP__a)">
+        <path fill="url(#EMP__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M9 14H4.25A8 8 0 0 1 4 12c0-4.42 3.545-8 7.92-8H20l-2.476 2.335-.065-.03zm11-2a8 8 0 0 1-13.6 5.709l3.1-3.21a3.54 3.54 0 0 0 2.5 1 3.5 3.5 0 0 0 2.775-5.635l.225-.2 2.98-2.98A7.97 7.97 0 0 1 20 12"/>
+        <path fill="#fff" d="M20 11.999a7.999 7.999 0 0 1-15.6 2.5h5.1l.255.224c.76.675 2.195 1.94 4.41 1.94 2.834 0 5.334-2.83 5.334-5.664 0-1.21-.25-2.225-.56-2.98a7.97 7.97 0 0 1 1.06 3.98"/>
+    </g>
+    <defs>
+        <linearGradient id="EMP__b" x1="7.3" x2="17.408" y1="17.865" y2="13.528" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0031A5"/>
+            <stop offset=".48" stop-color="#009EEF"/>
+            <stop offset="1" stop-color="#009DEE"/>
+        </linearGradient>
+        <clipPath id="EMP__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

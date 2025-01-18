@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#LAND__a)">
+        <path fill="url(#LAND__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M6.811 9.082v5.923L12 18.023V20l-6.92-4.108V8.108z"/>
+        <path fill="#fff" d="M8.54 10.055v3.89L12 15.892v-3.89zm0-3.989L12.044 4l6.875 4.108L12 12l-3.458-1.946zM6.811 7.087l-1.73 1.02 1.73.974z"/>
+        <path fill="#fff" d="M12.003 18.022 12.004 20l6.915-4.108V8.108L12 12l.002 3.89 5.187-3.025v2.162z"/>
+    </g>
+    <defs>
+        <linearGradient id="LAND__b" x1="5.552" x2="9.911" y1="8.792" y2="19.451" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5C93F7"/>
+            <stop offset="1" stop-color="#1159DF"/>
+        </linearGradient>
+        <clipPath id="LAND__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

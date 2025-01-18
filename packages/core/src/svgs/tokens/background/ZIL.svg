@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ZIL__a)">
+        <path fill="url(#ZIL__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m6.353 5.026 8.936 4.315 2.354-1.035L8.69 4z"/>
+        <path fill="#fff" d="M6.353 5.025v2.33l6.221 2.998-6.221 3.045v2.296L15.294 20v-2.306l-6.057-2.941 6.057-3.106V9.34L6.353 5.035zm8.942 4.303 2.353-1.021v2.306l-2.353 1.026zm0 10.655 2.353-1.026V11.78l-2.353 1.035z"/>
+    </g>
+    <defs>
+        <linearGradient id="ZIL__b" x1="15.769" x2="4.13" y1="19.507" y2="15.154" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#60AAAC"/>
+            <stop offset="1" stop-color="#347181"/>
+        </linearGradient>
+        <clipPath id="ZIL__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

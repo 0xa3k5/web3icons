@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KTC__a)">
+        <path fill="url(#KTC__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4.286 4v2.286h2.286V4zm0 16V7.429h2.286v6.56L16.515 4h3.2zm7.143-5.086A670 670 0 0 1 16.515 20h3.2l-6.606-6.857z"/>
+    </g>
+    <defs>
+        <linearGradient id="KTC__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#53F3FF"/>
+            <stop offset="1" stop-color="#38CDEE"/>
+        </linearGradient>
+        <clipPath id="KTC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

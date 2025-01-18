@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#KAP__a)" d="M7.265 9.059 3.176 22l6.589-3.588.358.2-1.194-4-.588 1.806-.67-.294.888-2.736zm9.376 0L20.823 22l-6.747-3.588-.364.2 1.223-4 .6 1.806.688-.294-.911-2.736 1.335-4.33z"/>
-    <path fill="url(#KAP__b)" d="m12 2-2.942 9.106L12 20.824l2.941-9.718zm-2.065 9.124 2.064-6.412 2.065 6.412-2.065 6.794z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <path fill="url(#KAP__a)" d="M8.712 9.647 5.442 20l5.27-2.87.287.16-.955-3.2-.47 1.444-.537-.235.71-2.188zm7.501 0L19.56 20l-5.398-2.87-.291.16.979-3.2.48 1.444.55-.235-.73-2.188 1.069-3.464z"/>
+    <path fill="url(#KAP__b)" d="m12.5 4-2.354 7.285 2.353 7.774 2.353-7.774zm-1.652 7.299 1.651-5.13 1.652 5.13-1.652 5.435z"/>
     <defs>
-        <linearGradient id="KAP__a" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KAP__a" x1="12.5" x2="12.5" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#DBA646"/>
             <stop offset="1" stop-color="#D38B3E"/>
         </linearGradient>
-        <linearGradient id="KAP__b" x1="12" x2="12" y1="2" y2="20.824" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KAP__b" x1="12.5" x2="12.5" y1="4" y2="19.059" gradientUnits="userSpaceOnUse">
             <stop stop-color="#DCAC4A"/>
             <stop offset="1" stop-color="#CC7229"/>
         </linearGradient>

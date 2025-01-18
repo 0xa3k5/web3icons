@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ATOR__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#ATOR__b)" fill-rule="evenodd" d="M12 17.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11m0 2.5a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
+        <path fill="#005257" d="M16.66 14.925A.8.8 0 0 0 17 15l.34.01c.975.05 2.415.115 2.635-2.345q.024-.329.025-.665h-2.5c0 1.075-.31 2.08-.84 2.925M4.4 14.5c.335.3.845.5 1.6.5.5 0 .93-.05 1.305-.135A5.5 5.5 0 0 1 6.5 12H4c0 .875.14 1.715.4 2.5"/>
+        <path fill="url(#ATOR__c)" d="M15.94 14.035c1.535.87 3.74.82 3.985-.925a8 8 0 1 0-15.85 0c.245 1.745 2.45 1.8 3.985.925a7.96 7.96 0 0 1 7.88 0"/>
+        <path fill="#005560" d="M8.5 12c-1.6-.4-3-2.5-3.5-3.5v2.25l2 2.75z"/>
+        <path fill="url(#ATOR__d)" d="M16.69 11.525c.36.185.8-.065.73-.46a5.5 5.5 0 0 0-10.85.08c-.065.38.35.625.69.45A10.2 10.2 0 0 1 12 10.5c1.74 0 3.34.34 4.69 1.025m3.235 1.585c-.245 1.745-2.45 1.8-3.985.925a7.96 7.96 0 0 0-7.88 0c-1.535.87-3.74.82-3.985-.925a8 8 0 1 1 15.85 0"/>
+        <path fill="url(#ATOR__e)" fill-rule="evenodd" d="M12 17.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11m0 2.5a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
+        <path fill="#005257" d="M16.66 14.925A.8.8 0 0 0 17 15l.34.01c.975.05 2.415.115 2.635-2.345q.024-.329.025-.665h-2.5c0 1.075-.31 2.08-.84 2.925M4.4 14.5c.335.3.845.5 1.6.5.5 0 .93-.05 1.305-.135A5.5 5.5 0 0 1 6.5 12H4c0 .875.14 1.715.4 2.5"/>
+        <path fill="url(#ATOR__f)" d="M15.94 14.035c1.535.87 3.74.82 3.985-.925a8 8 0 1 0-15.85 0c.245 1.745 2.45 1.8 3.985.925a7.96 7.96 0 0 1 7.88 0"/>
+        <path fill="#005560" d="M8.5 12c-1.6-.4-3-2.5-3.5-3.5v2.25l2 2.75z"/>
+        <path fill="url(#ATOR__g)" d="M16.69 11.525c.36.185.8-.065.73-.46a5.5 5.5 0 0 0-10.85.08c-.065.38.35.625.69.45A10.2 10.2 0 0 1 12 10.5c1.74 0 3.34.34 4.69 1.025m3.235 1.585c-.245 1.745-2.45 1.8-3.985.925a7.96 7.96 0 0 0-7.88 0c-1.535.87-3.74.82-3.985-.925a8 8 0 1 1 15.85 0"/>
+    </g>
+    <defs>
+        <linearGradient id="ATOR__b" x1="6.75" x2="17.25" y1="6" y2="18.25" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#025A63"/>
+            <stop offset=".56" stop-color="#026E7A"/>
+            <stop offset="1" stop-color="#065270"/>
+        </linearGradient>
+        <linearGradient id="ATOR__c" x1="8" x2="20.746" y1="6.244" y2="13.371" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#025962"/>
+            <stop offset="1" stop-color="#026D77"/>
+        </linearGradient>
+        <linearGradient id="ATOR__d" x1="6.25" x2="19.25" y1="6.75" y2="14" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#02BFC5"/>
+            <stop offset="1" stop-color="#01678D"/>
+        </linearGradient>
+        <linearGradient id="ATOR__e" x1="6.75" x2="17.25" y1="6" y2="18.25" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#025A63"/>
+            <stop offset=".56" stop-color="#026E7A"/>
+            <stop offset="1" stop-color="#065270"/>
+        </linearGradient>
+        <linearGradient id="ATOR__f" x1="8" x2="20.746" y1="6.244" y2="13.371" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#025962"/>
+            <stop offset="1" stop-color="#026D77"/>
+        </linearGradient>
+        <linearGradient id="ATOR__g" x1="6.25" x2="19.25" y1="6.75" y2="14" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#02BFC5"/>
+            <stop offset="1" stop-color="#01678D"/>
+        </linearGradient>
+        <clipPath id="ATOR__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

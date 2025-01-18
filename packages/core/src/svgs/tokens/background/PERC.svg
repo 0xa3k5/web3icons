@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PERC__a)">
+        <path fill="#009BA0" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0m-1.412 0a6.588 6.588 0 1 1-13.176 0 6.588 6.588 0 0 1 13.176 0m-5.176 2.673v-7.85l1.411.777v7.732zm-4.236.024V6.842l1.412.777v7.732l-1.412-.66zm-1.882-3.483v2.79l1.412.622v-2.673l-1.412-.734zm8 0v2.79l1.412.622v-2.673l-1.412-.734zm-4-2.546v7.85l1.412.659V9.445z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="PERC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

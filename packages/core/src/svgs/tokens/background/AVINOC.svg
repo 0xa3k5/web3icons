@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#AVINOC__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M7.887 4.941h6.4l-2.518 1.412H8.8L5.6 12l3.2 5.647h6.4L18.17 12 16.8 9.647l.23-2.823L20 12l-3.887 7.059H7.887L4 12z"/>
+        <path fill="#fff" d="m7.887 10.588 8.456-5.647-1.143 9.883-2.287-4.236z"/>
+    </g>
+    <defs>
+        <clipPath id="AVINOC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

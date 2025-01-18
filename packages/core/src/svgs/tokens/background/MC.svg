@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MC__a)">
+        <path fill="url(#MC__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 4c4.41 0 8 3.59 8 8s-3.59 8-8 8-8-3.59-8-8 3.59-8 8-8m0 11.5c-1-.89-1.5-2.05-1.5-3.5S11 9.39 12 8.5c1 .89 1.5 2.05 1.5 3.5s-.5 2.585-1.5 3.5" clip-rule="evenodd"/>
+        <path fill="#fff" d="M4.226 13.914c.03.05 1.785 3.135 4.65 3.085.935-.015 1.97-.625 3.125-1.5 1-.89 1.5-2.05 1.5-3.5s-.5-2.61-1.5-3.5c0 0 1.61-1.535 3.5-1.5 1.48.025 3.15.995 4.39 3.665A8.012 8.012 0 0 1 12 19.979a7.964 7.964 0 0 1-7.775-6.065"/>
+    </g>
+    <defs>
+        <linearGradient id="MC__b" x1="12" x2="12" y1="4" y2="17.25" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F4C251"/>
+            <stop offset=".89" stop-color="#E47236"/>
+        </linearGradient>
+        <clipPath id="MC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

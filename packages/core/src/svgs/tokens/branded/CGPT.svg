@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#CGPT__a)" d="m2 19.04 2-1.373V6.333L6.333 4h11.6L20 6.333l1.253-.753A.377.377 0 0 0 21.32 5l-2.787-2.893A.36.36 0 0 0 18.28 2H5.36a.35.35 0 0 0-.253.107l-3 3.12a.37.37 0 0 0-.107.26z"/>
-    <path fill="#E1E7CD" d="M6.334 4 4 6.333v11.38L6.334 20h11.333L20 17.667V6.287L18 4z"/>
-    <path fill="url(#CGPT__b)" d="M21.64 11.627H20v5.933L17.667 20H6.333L4 17.667 2 19.04l2.753 2.853c.067.067.16.107.254.107H18.28c.093 0 .187-.04.253-.107l3.36-3.486A.4.4 0 0 0 22 18.14V12a.37.37 0 0 0-.36-.373"/>
-    <path fill="#1A1A24" d="M9.334 14.667a1.333 1.333 0 1 0 0-2.667 1.333 1.333 0 0 0 0 2.667m5.333 0a1.334 1.334 0 1 0 0-2.667 1.334 1.334 0 0 0 0 2.667"/>
+    <path fill="url(#CGPT__a)" d="m4 17.632 1.6-1.099V7.467L7.467 5.6h9.28L18.4 7.467l1.003-.603a.302.302 0 0 0 .053-.464l-2.23-2.315A.28.28 0 0 0 17.025 4H6.688a.28.28 0 0 0-.202.085l-2.4 2.496A.3.3 0 0 0 4 6.79z"/>
+    <path fill="#E1E7CD" d="M7.467 5.6 5.6 7.467v9.104L7.467 18.4h9.067l1.866-1.867V7.43L16.8 5.6z"/>
+    <path fill="url(#CGPT__b)" d="M19.712 11.701H18.4v4.747L16.533 18.4H7.467L5.6 16.533 4 17.632l2.203 2.283a.3.3 0 0 0 .203.085h10.618c.075 0 .15-.032.203-.085l2.688-2.79a.3.3 0 0 0 .085-.213V12a.296.296 0 0 0-.288-.299"/>
+    <path fill="#1A1A24" d="M9.867 14.133a1.067 1.067 0 1 0 0-2.133 1.067 1.067 0 0 0 0 2.133m4.267 0a1.067 1.067 0 1 0 0-2.133 1.067 1.067 0 0 0 0 2.133"/>
     <defs>
-        <linearGradient id="CGPT__a" x1="21.121" x2="1.026" y1="4.175" y2="17.006" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGPT__a" x1="19.297" x2="3.221" y1="5.74" y2="16.004" gradientUnits="userSpaceOnUse">
             <stop stop-color="#684BFD"/>
             <stop offset=".28" stop-color="#4663E9"/>
             <stop offset=".52" stop-color="#4380E8"/>
             <stop offset=".84" stop-color="#17DAC6"/>
             <stop offset="1" stop-color="#18D6C9"/>
         </linearGradient>
-        <linearGradient id="CGPT__b" x1="21.287" x2="1.42" y1="2.72" y2="7.793" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGPT__b" x1="19.429" x2="3.536" y1="4.576" y2="8.635" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F17165"/>
             <stop offset=".25" stop-color="#F19C5C"/>
             <stop offset=".47" stop-color="#E9BE4D"/>

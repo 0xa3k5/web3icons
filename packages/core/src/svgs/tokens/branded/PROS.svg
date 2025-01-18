@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <mask id="PROS__a" width="20" height="20" x="2" y="2" maskUnits="userSpaceOnUse" style="mask-type:luminance">
-        <path fill="#fff" d="M22 2H2v20h20z"/>
+    <mask id="PROS__a" width="16" height="16" x="4" y="4" maskUnits="userSpaceOnUse" style="mask-type:luminance">
+        <path fill="#fff" d="M20 4H4v16h16z"/>
     </mask>
     <g mask="url(#PROS__a)">
-        <path fill="#333" d="M2 2h20v20H2z"/>
-        <path fill="#5901F6" d="M22 2 2 22V2z"/>
-        <path fill="url(#PROS__b)" fill-rule="evenodd" d="m9.01 15.015-.039-.038c-2.667-2.668-3.486-6.175-1.828-7.833s5.164-.84 7.832 1.828l.023.024-.964.969-.026-.027C11.886 7.815 9.254 7.006 8.13 8.13s-.315 3.757 1.808 5.88l.036.037z" clip-rule="evenodd"/>
-        <path fill="url(#PROS__c)" fill-rule="evenodd" d="m14.99 8.985.039.039c2.667 2.668 3.486 6.175 1.828 7.833s-5.165.84-7.832-1.829l-.023-.024.963-.968.027.026c2.122 2.123 4.754 2.932 5.878 1.808s.315-3.757-1.808-5.88l-.036-.036z" clip-rule="evenodd"/>
+        <path fill="#333" d="M4 4h16v16H4z"/>
+        <path fill="#5901F6" d="M20 4 4 20V4z"/>
+        <path fill="url(#PROS__b)" fill-rule="evenodd" d="m9.608 14.412-.03-.031c-2.135-2.135-2.79-4.94-1.463-6.267s4.131-.671 6.265 1.463l.019.02-.771.774-.021-.02c-1.698-1.7-3.804-2.347-4.703-1.447s-.252 3.005 1.446 4.704l.03.029z" clip-rule="evenodd"/>
+        <path fill="url(#PROS__c)" fill-rule="evenodd" d="m14.392 9.587.03.031c2.134 2.135 2.79 4.94 1.463 6.267s-4.131.671-6.265-1.463l-.019-.02.77-.774.022.02c1.698 1.7 3.804 2.347 4.703 1.447s.252-3.005-1.446-4.704l-.03-.029z" clip-rule="evenodd"/>
     </g>
     <defs>
-        <linearGradient id="PROS__b" x1="16.638" x2="10.223" y1="9.899" y2="16.279" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PROS__b" x1="15.711" x2="10.578" y1="10.319" y2="15.423" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FBFCFA"/>
             <stop offset=".817" stop-color="#9359FD" stop-opacity=".07"/>
         </linearGradient>
-        <linearGradient id="PROS__c" x1="9.6" x2="14.562" y1="14.944" y2="10.832" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PROS__c" x1="10.08" x2="14.049" y1="14.355" y2="11.065" gradientUnits="userSpaceOnUse">
             <stop stop-color="#01FDFE"/>
             <stop offset="1" stop-color="#01FDFE" stop-opacity=".06"/>
         </linearGradient>

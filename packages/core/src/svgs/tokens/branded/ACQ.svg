@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#ACQ__a)" fill-rule="evenodd" d="M12 20.824a8.824 8.824 0 1 0 0-17.649 8.824 8.824 0 0 0 0 17.649M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20" clip-rule="evenodd"/>
-    <path fill="#44B4AC" d="M13.765 12.294v.882H6.118l4.412-7.058 2.352 3.823h-1.176L10.53 7.882l-2.648 4.412z"/>
-    <path fill="#44B4AC" d="M10.823 11.706v-.883h7.647l-4.411 7.06-2.353-3.824h1.176l1.177 2.059 2.647-4.412z"/>
+    <path fill="url(#ACQ__a)" fill-rule="evenodd" d="M12 19.059a7.06 7.06 0 1 0 0-14.12 7.06 7.06 0 0 0 0 14.12M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
+    <path fill="#44B4AC" d="M13.412 12.235v.706H7.294l3.53-5.647 1.882 3.059h-.941l-.942-1.647-2.117 3.529z"/>
+    <path fill="#44B4AC" d="M11.059 11.765v-.706h6.117l-3.53 5.647-1.881-3.058h.94l.942 1.647 2.118-3.53z"/>
     <defs>
-        <linearGradient id="ACQ__a" x1="16.412" x2="7.588" y1="3.176" y2="20.529" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ACQ__a" x1="15.529" x2="8.471" y1="4.941" y2="18.824" gradientUnits="userSpaceOnUse">
             <stop stop-color="#837DBA"/>
             <stop offset=".5" stop-color="#0F67A3"/>
             <stop offset="1" stop-color="#56BCAF"/>

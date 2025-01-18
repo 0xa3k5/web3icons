@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#COTI__a)" d="M2.463 10.356c-.32 0-.463.144-.463.431v7.357c0 .319.144.425.463.425 3.53.037 7.843-3.106 11.412-5.569V4.5c-3.531 2.431-7.95 5.894-11.412 5.856"/>
-    <path fill="url(#COTI__b)" d="M21.538 13.681c.318 0 .462-.143.462-.431V5.894c0-.325-.144-.432-.462-.432-3.563-.03-7.844 3.107-11.413 5.575V19.5c3.531-2.431 7.95-5.894 11.413-5.819"/>
-    <path fill="#194AAD" d="M13.875 12.925V8.481a130 130 0 0 0-3.75 2.563v4.5c1.312-.856 2.562-1.769 3.75-2.625z"/>
+    <path fill="url(#COTI__a)" d="M4.37 10.685c-.255 0-.37.115-.37.345v5.885c0 .255.115.34.37.34 2.825.03 6.275-2.485 9.13-4.455V6c-2.825 1.945-6.36 4.715-9.13 4.685"/>
+    <path fill="url(#COTI__b)" d="M19.63 13.345c.255 0 .37-.115.37-.345V7.115c0-.26-.115-.345-.37-.345-2.85-.025-6.275 2.485-9.13 4.46V18c2.825-1.945 6.36-4.715 9.13-4.655"/>
+    <path fill="#194AAD" d="M13.5 12.74V9.183q-1.518 1-3 2.05v3.6c1.05-.685 2.05-1.415 3-2.1z"/>
     <defs>
-        <linearGradient id="COTI__a" x1="13.842" x2="12.407" y1="18.387" y2="5.573" gradientUnits="userSpaceOnUse">
+        <linearGradient id="COTI__a" x1="13.474" x2="12.326" y1="17.109" y2="6.858" gradientUnits="userSpaceOnUse">
             <stop offset=".1" stop-color="#194AAD"/>
             <stop offset=".5" stop-color="#248FCB"/>
             <stop offset=".8" stop-color="#2BBFDF"/>
         </linearGradient>
-        <linearGradient id="COTI__b" x1="14.2" x2="12.297" y1="3.672" y2="20.655" gradientUnits="userSpaceOnUse">
+        <linearGradient id="COTI__b" x1="13.76" x2="12.238" y1="5.338" y2="18.924" gradientUnits="userSpaceOnUse">
             <stop offset=".1" stop-color="#194AAD"/>
             <stop offset=".5" stop-color="#248FCB"/>
             <stop offset=".8" stop-color="#2BBFDF"/>

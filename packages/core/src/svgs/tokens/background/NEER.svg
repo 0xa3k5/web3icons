@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#NEER__a)">
+        <path fill="url(#NEER__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4 6.63v6.74c0 .07.055.13.125.13h2.75c.075 0 .125-.06.125-.13v-3.245c0-.07.06-.125.13-.125h2.245c.07 0 .125-.06.125-.135V6.63a.125.125 0 0 0-.125-.13h-5.25A.125.125 0 0 0 4 6.63m0 7.99c0-.065.05-.12.12-.12h2.76c.065 0 .12.05.12.12v2.76c0 .065-.05.12-.12.12H4.12a.12.12 0 0 1-.12-.12zm6.5 2.76V6.63c0-.065.055-.125.125-.125h7.23c.03 0 .065.015.09.04l2.02 2.01c.02.025.035.06.035.09v8.735c0 .07-.055.12-.125.12h-2.76c-.07 0-.115-.05-.115-.12v-7.255c0-.07-.065-.125-.135-.125H13.65c-.07 0-.15.05-.15.125v7.255c0 .07-.035.12-.1.12h-2.775c-.07 0-.125-.05-.125-.12"/>
+    </g>
+    <defs>
+        <linearGradient id="NEER__b" x1="6.769" x2="13.654" y1="8.119" y2="18.427" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0BD4F9"/>
+            <stop offset=".34" stop-color="#335DF7"/>
+            <stop offset=".62" stop-color="#5551CB"/>
+            <stop offset=".93" stop-color="#702EB6"/>
+            <stop offset="1" stop-color="#4E2EAD"/>
+        </linearGradient>
+        <clipPath id="NEER__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

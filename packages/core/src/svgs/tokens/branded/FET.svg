@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#FET__a)" d="M2 2h2.5v2.5H2zm6.25 0h2.5v2.5h-2.5zm0 6.25h2.5v2.5h-2.5zM14.5 2H17v2.5h-2.5zm6.25.625H22v1.25h-1.25zm0 6.25H22v1.25h-1.25zm-5.625 0h1.25v1.25h-1.25zm0 6.25h1.25v1.25h-1.25zm-6.25 0h1.25v1.25h-1.25zm-6.25 5.625h1.25V22h-1.25zm6.25 0h1.25V22h-1.25zm6.25 0h1.25V22h-1.25zm5.625 0H22V22h-1.25zm0-5.625H22v1.25h-1.25zM2 8.25h2.5v2.5H2zm0 6.25h2.5V17H2z"/>
+    <path fill="url(#FET__a)" d="M4 4h2v2H4zm5 0h2v2H9zm0 5h2v2H9zm5-5h2v2h-2zm5 .5h1v1h-1zm0 5h1v1h-1zm-4.5 0h1v1h-1zm0 5h1v1h-1zm-5 0h1v1h-1zm-5 4.5h1v1h-1zm5 0h1v1h-1zm5 0h1v1h-1zm4.5 0h1v1h-1zm0-4.5h1v1h-1zM4 9h2v2H4zm0 5h2v2H4z"/>
     <defs>
-        <linearGradient id="FET__a" x1="5.721" x2="26.339" y1="5.468" y2="29.15" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FET__a" x1="6.977" x2="23.471" y1="6.774" y2="25.72" gradientUnits="userSpaceOnUse">
             <stop stop-color="#1A1E21"/>
             <stop offset="1" stop-color="#06060A"/>
         </linearGradient>

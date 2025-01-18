@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#lightlink__a)" d="M10.397 12.145a.675.675 0 0 0 0 .987l2.107 1.976a.78.78 0 0 0 1.053 0 .675.675 0 0 0 0-.988l-2.107-1.975a.79.79 0 0 0-1.053 0"/>
-    <path fill="url(#lightlink__b)" d="M17.559 11.356a.666.666 0 0 0 0-.988.79.79 0 0 0-1.053 0l-2.949 2.765-.527.493c-.652.612-1.546.516-1.838.247l1.312 1.23a.79.79 0 0 0 1.053 0z"/>
-    <path fill="url(#lightlink__c)" d="M21.785 10.384a.79.79 0 0 0-1.054 0L18.63 12.36a.666.666 0 0 0 0 .987.79.79 0 0 0 1.053 0l2.107-1.975a.68.68 0 0 0-.005-.988"/>
-    <path fill="url(#lightlink__d)" d="M13.574 11.168a.675.675 0 0 0 0-.987l-2.107-1.976a.78.78 0 0 0-1.053 0 .675.675 0 0 0 0 .988l2.107 1.975a.79.79 0 0 0 1.053 0"/>
-    <path fill="url(#lightlink__e)" d="M6.411 11.963a.666.666 0 0 0 0 .987.79.79 0 0 0 1.054 0l2.949-2.77.526-.493c.653-.612 1.546-.516 1.838-.247l-1.311-1.23a.79.79 0 0 0-1.053 0z"/>
-    <path fill="url(#lightlink__f)" d="M2.215 12.94a.79.79 0 0 0 1.053 0l2.107-1.976a.666.666 0 0 0 0-.988.79.79 0 0 0-1.053 0l-2.107 1.976a.675.675 0 0 0 0 .987"/>
+    <path fill="url(#lightlink__a)" d="M10.717 12.39a.54.54 0 0 0 0 .79l1.686 1.58a.62.62 0 0 0 .842 0 .54.54 0 0 0 0-.79l-1.685-1.58a.63.63 0 0 0-.843 0"/>
+    <path fill="url(#lightlink__b)" d="M16.447 11.76a.533.533 0 0 0 0-.79.63.63 0 0 0-.842 0l-2.36 2.21-.42.396c-.523.49-1.237.412-1.471.197l1.049.984c.229.215.61.215.843 0z"/>
+    <path fill="url(#lightlink__c)" d="M19.828 10.982a.63.63 0 0 0-.843 0l-1.68 1.58a.533.533 0 0 0 0 .79.63.63 0 0 0 .842 0l1.685-1.58a.544.544 0 0 0-.004-.79"/>
+    <path fill="url(#lightlink__d)" d="M13.26 11.61a.54.54 0 0 0 0-.79l-1.686-1.58a.623.623 0 0 0-.843 0 .54.54 0 0 0 0 .79l1.685 1.58c.234.214.61.214.843 0"/>
+    <path fill="url(#lightlink__e)" d="M7.53 12.245a.533.533 0 0 0 0 .79.63.63 0 0 0 .842 0l2.359-2.216.421-.395c.522-.49 1.237-.412 1.47-.197l-1.048-.984a.63.63 0 0 0-.843 0z"/>
+    <path fill="url(#lightlink__f)" d="M4.172 13.026a.63.63 0 0 0 .843 0l1.685-1.58a.533.533 0 0 0 0-.79.63.63 0 0 0-.843 0l-1.685 1.58a.54.54 0 0 0 0 .79"/>
     <defs>
-        <linearGradient id="lightlink__a" x1="8.416" x2="13.54" y1="10.327" y2="15.728" gradientUnits="userSpaceOnUse">
+        <linearGradient id="lightlink__a" x1="9.132" x2="13.232" y1="10.936" y2="15.257" gradientUnits="userSpaceOnUse">
             <stop offset=".117" stop-color="#6978FF"/>
             <stop offset=".188" stop-color="#6087FF"/>
             <stop offset=".348" stop-color="#4DA5FF"/>
@@ -15,7 +15,7 @@
             <stop offset=".808" stop-color="#36CBFF"/>
             <stop offset="1" stop-color="#67FFFC"/>
         </linearGradient>
-        <linearGradient id="lightlink__b" x1="7.243" x2="22.395" y1="19.49" y2="2.877" gradientUnits="userSpaceOnUse">
+        <linearGradient id="lightlink__b" x1="8.194" x2="20.316" y1="18.267" y2="4.976" gradientUnits="userSpaceOnUse">
             <stop offset=".386" stop-color="#6978FF"/>
             <stop offset=".443" stop-color="#6284FF"/>
             <stop offset=".646" stop-color="#4AABFF"/>
@@ -23,7 +23,7 @@
             <stop offset=".909" stop-color="#36CBFF"/>
             <stop offset="1" stop-color="#67FFFC"/>
         </linearGradient>
-        <linearGradient id="lightlink__c" x1="21.399" x2="9.518" y1="10.823" y2="22.589" gradientUnits="userSpaceOnUse">
+        <linearGradient id="lightlink__c" x1="19.52" x2="10.014" y1="11.333" y2="20.746" gradientUnits="userSpaceOnUse">
             <stop offset=".047" stop-color="#6978FF"/>
             <stop offset=".124" stop-color="#6087FF"/>
             <stop offset=".302" stop-color="#4DA5FF"/>
@@ -32,7 +32,7 @@
             <stop offset=".808" stop-color="#36CBFF"/>
             <stop offset="1" stop-color="#67FFFC"/>
         </linearGradient>
-        <linearGradient id="lightlink__d" x1="11.173" x2="12.95" y1="8.662" y2="11.189" gradientUnits="userSpaceOnUse">
+        <linearGradient id="lightlink__d" x1="11.338" x2="12.76" y1="9.604" y2="11.626" gradientUnits="userSpaceOnUse">
             <stop offset=".117" stop-color="#6978FF"/>
             <stop offset=".188" stop-color="#6087FF"/>
             <stop offset=".348" stop-color="#4DA5FF"/>
@@ -41,7 +41,7 @@
             <stop offset=".808" stop-color="#36CBFF"/>
             <stop offset="1" stop-color="#67FFFC"/>
         </linearGradient>
-        <linearGradient id="lightlink__e" x1="3.898" x2="11.022" y1="16.983" y2="8.042" gradientUnits="userSpaceOnUse">
+        <linearGradient id="lightlink__e" x1="5.518" x2="11.218" y1="16.261" y2="9.108" gradientUnits="userSpaceOnUse">
             <stop offset=".313" stop-color="#6978FF"/>
             <stop offset=".363" stop-color="#6087FF"/>
             <stop offset=".478" stop-color="#4DA5FF"/>
@@ -50,7 +50,7 @@
             <stop offset=".808" stop-color="#36CBFF"/>
             <stop offset="1" stop-color="#67FFFC"/>
         </linearGradient>
-        <linearGradient id="lightlink__f" x1="11.361" x2="3.712" y1="3.328" y2="12.681" gradientUnits="userSpaceOnUse">
+        <linearGradient id="lightlink__f" x1="11.489" x2="5.369" y1="5.337" y2="12.819" gradientUnits="userSpaceOnUse">
             <stop offset=".008" stop-color="#6978FF"/>
             <stop offset=".089" stop-color="#6087FF"/>
             <stop offset=".275" stop-color="#4DA5FF"/>

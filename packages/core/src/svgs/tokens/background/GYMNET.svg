@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#GYMNET__a)">
+        <path fill="#2F6EB6" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12 11.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M19.24 4c-.24 4.03-4.09 7.405-5.98 8.595a7.84 7.84 0 0 0 6.575-1.485c.48-3.08-.2-6.025-.6-7.11z"/>
+        <path fill="#fff" d="M19.24 12.595C9.675 16.145 5.69 8.345 4.89 4c-3.284 9.78 3.29 14.52 7.175 16 4.3-1.66 6.575-5.63 7.175-7.405"/>
+    </g>
+    <defs>
+        <clipPath id="GYMNET__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

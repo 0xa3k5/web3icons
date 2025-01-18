@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#RAY__a)">
+        <path fill="url(#RAY__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M18.222 10.222v5.334L12 19.005l-6.222-3.45v-7.11L12 4.982l4.895 2.602.738-.415L12 4 4.889 8v8l7.11 4 7.112-4V9.59z"/>
+        <path fill="#fff" d="M10.666 15.555H9.333v-3.556h3.111c.676-.007 1.332-.451 1.333-1.137.009-.674-.664-1.09-1.333-1.085H9.333V8.444h3.373c1.424 0 2.394 1.067 2.405 2.418.012 1.46-1.143 2.47-2.763 2.47h-1.682z"/>
+        <path fill="#fff" d="M15.339 15.555h-1.55l-.959-1.684c.38-.023 1.031-.178 1.399-.377zm2.217-6.649.777.428.778-.428v-.904l-.777-.446-.778.446z"/>
+    </g>
+    <defs>
+        <linearGradient id="RAY__b" x1="19.099" x2="4.129" y1="8.005" y2="14.149" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C200FB"/>
+            <stop offset=".49" stop-color="#3773FE"/>
+            <stop offset="1" stop-color="#5AC4BE"/>
+        </linearGradient>
+        <clipPath id="RAY__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

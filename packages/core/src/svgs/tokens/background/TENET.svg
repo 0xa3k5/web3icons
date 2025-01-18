@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TENET__a)">
+        <path fill="#261C37" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M14.224 17.969a2.57 2.57 0 0 1-4.45 0L4.337 8.553a2.54 2.54 0 0 1 2.225-3.806h10.871c1.965 0 3.2 2.11 2.225 3.8l-5.435 9.427zm-1.25-11.102a1.074 1.074 0 0 0-1.95 0l-2.41 4.646c-.151.3-.151.67-.001.97l2.41 4.64a1.074 1.074 0 0 0 1.95 0l2.41-4.64c.15-.3.15-.67 0-.97l-2.41-4.64z"/>
+    </g>
+    <defs>
+        <clipPath id="TENET__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

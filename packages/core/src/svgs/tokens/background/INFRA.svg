@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#INFRA__a)">
+        <path fill="#FDB913" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="m12 4 6.588 5.647v4.706L12 20l-6.588-5.402V9.647zm-6.118 6.25v3.736l2.278-1.868zm2.654 2.174-2.517 2.06 5.746 4.707v-4.118zm3.7 2.649v4.108l5.74-4.922-2.428-1.901zm3.689-3.026 2.192 1.718v-3.516zm2.06-2.296-2.446 2-3.304-2.589V4.824zm-6.22-4.927v4.343l-3.229 2.65-2.522-2.071 5.75-4.918zM12 9.58l-3.092 2.541L12 14.65l3.167-2.597-3.162-2.476z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="INFRA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

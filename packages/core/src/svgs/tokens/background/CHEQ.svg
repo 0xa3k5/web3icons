@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CHEQ__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#CHEQ__b)" d="m5.99 6.642 4.408-2.24a3.66 3.66 0 0 1 1.938-.39c.818.066 3.006 3.773 3.006 3.773a1.03 1.03 0 0 0-.885-.49H5.538c-.484 0-.94.471-1.115.673.344-.653.885-.978 1.567-1.326"/>
+        <path fill="url(#CHEQ__c)" d="m15.342 8.002 1.044 1.684a2 2 0 0 0 1.731.903c.946 0 1.85-.72 1.882-1.58a1.3 1.3 0 0 0-.066-.461c-.273-.833-.884-1.435-1.81-1.906l-4.409-2.239a3.7 3.7 0 0 0-1.378-.39c.819.066 3.001 3.984 3.006 3.994z"/>
+        <path fill="url(#CHEQ__d)" d="M4.005 9.652c0-.598.15-1.176.418-1.684.17-.203.63-.673 1.115-.673h4.394c-.343 0-.663.17-.856.452L6.827 11.26q-.101.151-.16.324v.01s-1.863 2.982-2.004 3.227c-.282.503-.268.94-.268.94A3.6 3.6 0 0 1 4 14.121V9.65z"/>
+        <path fill="url(#CHEQ__e)" d="M4.664 14.823c.141-.245 2-3.228 2-3.228v-.01c-.137.406-.08.857.169 1.215l2.244 3.24s1.115 1.92 1.952 3.172c.216.357.543.633.931.785a3.65 3.65 0 0 1-1.561-.395L5.99 17.358a3.64 3.64 0 0 1-1.595-1.595l.005.01s-.02-.442.268-.946z"/>
+        <path fill="url(#CHEQ__f)" d="M11.029 19.212c-.838-1.251-1.835-2.954-1.835-2.954.193.282.517.447.856.447h9.29a4.2 4.2 0 0 1-1.222.87l-4.408 2.023a3.65 3.65 0 0 1-1.755.4 1.9 1.9 0 0 1-.931-.786z"/>
+        <path fill="url(#CHEQ__g)" d="M19.341 16.704c.33-.367.659-.94.659-1.411 0-.941-.659-1.882-1.882-1.882-.94 0-1.434.47-1.81 1.068l-.965 1.74a1.03 1.03 0 0 1-.875.485z"/>
+    </g>
+    <defs>
+        <linearGradient id="CHEQ__b" x1="14.655" x2="5.03" y1="7.065" y2="7.065" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A53523"/>
+            <stop offset="1" stop-color="#DD9D1A"/>
+        </linearGradient>
+        <linearGradient id="CHEQ__c" x1="13.385" x2="19.279" y1="4.017" y2="9.611" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DB991A"/>
+            <stop offset=".27" stop-color="#D48D1C"/>
+            <stop offset="1" stop-color="#9C2425"/>
+        </linearGradient>
+        <linearGradient id="CHEQ__d" x1="6.968" x2="6.968" y1="7.511" y2="15.772" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A12E24"/>
+            <stop offset="1" stop-color="#E4AB19"/>
+        </linearGradient>
+        <linearGradient id="CHEQ__e" x1="4.405" x2="10.751" y1="15.773" y2="19.625" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#971C26"/>
+            <stop offset="1" stop-color="#DEA01A"/>
+        </linearGradient>
+        <linearGradient id="CHEQ__f" x1="18.993" x2="8.611" y1="16.926" y2="16.926" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E3A919"/>
+            <stop offset="1" stop-color="#9B2225"/>
+        </linearGradient>
+        <linearGradient id="CHEQ__g" x1="17.201" x2="17.201" y1="13.519" y2="16.488" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E1A419"/>
+            <stop offset="1" stop-color="#971C26"/>
+        </linearGradient>
+        <clipPath id="CHEQ__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

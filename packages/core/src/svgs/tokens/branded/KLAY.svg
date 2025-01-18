@@ -1,45 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#KLAY__a)" d="M12.358 2a9.6 9.6 0 0 1 6.056 2.331L7.27 15.494z"/>
-    <path fill="url(#KLAY__b)" d="M12.358 2a9.6 9.6 0 0 1 6.056 2.331L7.27 15.494z"/>
-    <path fill="url(#KLAY__c)" d="m13.27 12.025 6.425-6.45a10.106 10.106 0 0 1 0 12.85z"/>
-    <path fill="url(#KLAY__d)" d="m13.27 12.025 6.425-6.45a10.106 10.106 0 0 1 0 12.85z"/>
-    <path fill="url(#KLAY__e)" d="m2.02 11.375 7.824-7.856-5.575 14.85a10.07 10.07 0 0 1-2.25-6.994"/>
-    <path fill="url(#KLAY__f)" d="m2.02 11.375 7.824-7.856-5.575 14.85a10.07 10.07 0 0 1-2.25-6.994"/>
-    <path fill="url(#KLAY__g)" d="m5.607 19.669 6.431-6.394 6.425 6.394A10 10 0 0 1 12.038 22a10 10 0 0 1-6.431-2.331"/>
-    <path fill="url(#KLAY__h)" d="m5.607 19.669 6.431-6.394 6.425 6.394A10 10 0 0 1 12.038 22a10 10 0 0 1-6.431-2.331"/>
+    <path fill="url(#KLAY__a)" d="M12.287 4c1.8.045 3.475.695 4.845 1.865l-8.915 8.93z"/>
+    <path fill="url(#KLAY__b)" d="M12.287 4c1.8.045 3.475.695 4.845 1.865l-8.915 8.93z"/>
+    <path fill="url(#KLAY__c)" d="m13.016 12.02 5.14-5.16a8.084 8.084 0 0 1 0 10.28z"/>
+    <path fill="url(#KLAY__d)" d="m13.016 12.02 5.14-5.16a8.084 8.084 0 0 1 0 10.28z"/>
+    <path fill="url(#KLAY__e)" d="m4.015 11.5 6.26-6.285-4.46 11.88a8.06 8.06 0 0 1-1.8-5.595"/>
+    <path fill="url(#KLAY__f)" d="m4.015 11.5 6.26-6.285-4.46 11.88a8.06 8.06 0 0 1-1.8-5.595"/>
+    <path fill="url(#KLAY__g)" d="m6.886 18.135 5.145-5.116 5.14 5.115A8 8 0 0 1 12.03 20a8 8 0 0 1-5.145-1.866"/>
+    <path fill="url(#KLAY__h)" d="m6.886 18.135 5.145-5.116 5.14 5.115A8 8 0 0 1 12.03 20a8 8 0 0 1-5.145-1.866"/>
     <defs>
-        <linearGradient id="KLAY__a" x1="10.492" x2="10.492" y1="2" y2="31.643" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KLAY__a" x1="10.794" x2="10.794" y1="4" y2="27.715" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF8300"/>
             <stop offset=".51" stop-color="#E91A00"/>
             <stop offset="1" stop-color="#7C0000"/>
         </linearGradient>
-        <linearGradient id="KLAY__b" x1="26.195" x2="1.367" y1="38.591" y2="10.197" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KLAY__b" x1="23.357" x2="3.494" y1="33.273" y2="10.558" gradientUnits="userSpaceOnUse">
             <stop stop-color="#9D0097" stop-opacity=".85"/>
             <stop offset="1" stop-color="#9D0097" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="KLAY__c" x1="-.906" x2="-.906" y1="-3.564" y2="27.564" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KLAY__c" x1="1.675" x2="1.675" y1="-.451" y2="24.452" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF8300"/>
             <stop offset=".51" stop-color="#E91A00"/>
             <stop offset="1" stop-color="#7C0000"/>
         </linearGradient>
-        <linearGradient id="KLAY__d" x1="19.139" x2="-5.804" y1="34.86" y2=".188" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KLAY__d" x1="17.711" x2="-2.243" y1="30.288" y2="2.551" gradientUnits="userSpaceOnUse">
             <stop stop-color="#9D0097" stop-opacity=".85"/>
             <stop offset="1" stop-color="#9D0097" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="KLAY__e" x1="27.497" x2="27.497" y1="-.045" y2="26.89" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KLAY__e" x1="24.398" x2="24.398" y1="2.363" y2="23.912" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF8300"/>
             <stop offset=".51" stop-color="#E91A00"/>
             <stop offset="1" stop-color="#7C0000"/>
         </linearGradient>
-        <linearGradient id="KLAY__f" x1="49.806" x2="30.409" y1="33.204" y2="-1.476" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KLAY__f" x1="42.245" x2="26.727" y1="28.963" y2="1.219" gradientUnits="userSpaceOnUse">
             <stop stop-color="#9D0097" stop-opacity=".85"/>
             <stop offset="1" stop-color="#9D0097" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="KLAY__g" x1="11.946" x2="11.946" y1="-23.845" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KLAY__g" x1="11.957" x2="11.957" y1="-16.677" y2="20" gradientUnits="userSpaceOnUse">
             <stop offset=".51" stop-color="#E91A00"/>
             <stop offset="1" stop-color="#7C0000"/>
         </linearGradient>
-        <linearGradient id="KLAY__h" x1="20.75" x2="3.875" y1="26.688" y2="10.75" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KLAY__h" x1="19" x2="5.5" y1="23.75" y2="10.999" gradientUnits="userSpaceOnUse">
             <stop stop-color="#9D0097" stop-opacity=".85"/>
             <stop offset="1" stop-color="#9D0097" stop-opacity="0"/>
         </linearGradient>

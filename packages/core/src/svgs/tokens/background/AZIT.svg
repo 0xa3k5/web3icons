@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#AZIT__a)">
+        <path fill="#5550D2" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m11.888 5.925-.126-.228L4 18.303h2.27l5.502-8.873 5.983 8.873H20z"/>
+        <path fill="#fff" d="M13.275 16.364 20 5.697h-6.283l1.105 1.94h1.745L9.818 18.302h9.848l-1.106-1.94z"/>
+    </g>
+    <defs>
+        <clipPath id="AZIT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

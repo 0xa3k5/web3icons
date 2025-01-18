@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#GFAL__a)">
+        <path fill="#F113A3" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4.941 16V8l7.06-4 3.59 2-7.355 4.25v4.249L12 16.235l3.765-1.882v-4.254L19.059 8v8L12 20z"/>
+    </g>
+    <defs>
+        <clipPath id="GFAL__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

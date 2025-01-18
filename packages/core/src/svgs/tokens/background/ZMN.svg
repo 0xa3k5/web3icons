@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ZMN__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#ZMN__b)" d="M11.884 4h.387c2.041.093 3.779.803 5.213 2.149q2.241 2.102 2.508 5.278v1.065a7.8 7.8 0 0 1-1.98 4.703 7.95 7.95 0 0 1-8.747 2.336A7.945 7.945 0 0 1 6.39 6.382Q8.605 4.132 11.884 4"/>
+        <path fill="url(#ZMN__c)" d="M19.338 11.945A7.27 7.27 0 0 1 5.346 14.72a7.29 7.29 0 0 1 1.567-7.922 7.287 7.287 0 0 1 12.425 5.147"/>
+        <path fill="url(#ZMN__d)" d="M6.718 8.209a6.61 6.61 0 0 1 6.67.023.1.1 0 0 0 .046-.019l2.364-1.648q.05-.032 0-.061a6.657 6.657 0 0 0-9.332 1.835l.023.024q.016.015.023 0a1 1 0 0 1 .206-.154m9.584-1.261L5.877 14.155c-.033.018-.037.046-.028.08q.235.629.598 1.195a.06.06 0 0 0 .047.01l.018-.01L17.26 7.97a.07.07 0 0 0 .028-.07 7 7 0 0 0-.897-.948.07.07 0 0 0-.089-.004m1.92 2.779L7.806 16.953a.06.06 0 0 1-.07-.005 9 9 0 0 1-.915-.953c-.024-.023-.02-.047.004-.065l10.776-7.464a.06.06 0 0 1 .07 0c.01 0 .014.009.019.018q.335.531.56 1.154a.04.04 0 0 1 0 .047.1.1 0 0 1-.028.046zm-.635 5.824a6.9 6.9 0 0 1-3.209.995 6.57 6.57 0 0 1-3.597-.869.07.07 0 0 0-.074.005L8.325 17.35a.03.03 0 0 0-.014.024q0 .008.004.013l.01.01a6.65 6.65 0 0 0 9.29-1.817c.033-.046.023-.06-.028-.028"/>
+    </g>
+    <defs>
+        <linearGradient id="ZMN__b" x1="4.111" x2="19.693" y1="12.356" y2="12.239" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#929595"/>
+            <stop offset=".49" stop-color="#F2F1EE"/>
+            <stop offset="1" stop-color="#949797"/>
+        </linearGradient>
+        <linearGradient id="ZMN__c" x1="4.669" x2="19.278" y1="11.28" y2="11.152" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#15191B"/>
+            <stop offset=".51" stop-color="#373A3C"/>
+            <stop offset="1" stop-color="#181C1E"/>
+        </linearGradient>
+        <linearGradient id="ZMN__d" x1="6.162" x2="17.75" y1="12.767" y2="10.941" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#959797"/>
+            <stop offset=".5" stop-color="#EDEDEB"/>
+            <stop offset="1" stop-color="#989A9A"/>
+        </linearGradient>
+        <clipPath id="ZMN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#X2Y2__a)">
+        <path fill="url(#X2Y2__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M18.6 7.488a6.86 6.86 0 0 0-4.849-1.985c-3.73 0-6.749 2.91-6.749 6.5s3.02 6.499 6.75 6.499c1.904 0 3.624-.76 4.849-1.985a7.999 7.999 0 1 1 0-9.034z"/>
+        <path fill="#fff" d="M13.75 18.001c3.45 0 6.25-2.684 6.25-5.999s-2.8-6-6.25-6c-1.614 0-3.084.59-4.194 1.55.765-.4 1.64-.55 2.57-.55 3 0 5.374 2.07 5.374 5s-2.37 5.54-5.374 5.54q-.51 0-.99-.09c.795.35 1.68.55 2.615.55"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12.25 17.002a4.75 4.75 0 1 0 .001-9.499 4.75 4.75 0 0 0 0 9.499m0-1.5a3.25 3.25 0 1 0 .001-6.5 3.25 3.25 0 0 0 0 6.5" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="X2Y2__b" x1="4.003" x2="21.535" y1="12.502" y2="12.502" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#02DFFC"/>
+            <stop offset="1" stop-color="#5831C9"/>
+        </linearGradient>
+        <clipPath id="X2Y2__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

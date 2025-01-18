@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#GOVI__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#GOVI__b)" d="M7.997 17.907c.06.508.569.823 1.247.616l9.704-6.367c.494-.353.48-1.06-.202-1.492L8.59 4.056c-.236-.15-.593.019-.593.301v3.187l6.188 3.957-6.188 3.958z"/>
+        <path fill="url(#GOVI__c)" d="M15.997 19.32c-.06.508-.54.823-1.228.616l-9.704-6.184a1.035 1.035 0 0 1 .197-1.7L15.428 5.47c.245-.15.57.019.57.301v3.106l-6.279 4.038 6.278 3.958z"/>
+        <path fill="#fff" d="m13.089 6.987-2.965 1.92 2.927 1.855 2.937-1.897zm.743 8.523-2.974-1.882-2.861 1.807v.183l2.875 1.836z"/>
+    </g>
+    <defs>
+        <linearGradient id="GOVI__b" x1="4.137" x2="11.286" y1="2.57" y2="18.053" gradientUnits="userSpaceOnUse">
+            <stop offset=".26" stop-color="#fff"/>
+            <stop offset=".84" stop-color="#95C9E3"/>
+        </linearGradient>
+        <linearGradient id="GOVI__c" x1="14.313" x2="19.245" y1="2.55" y2="19.927" gradientUnits="userSpaceOnUse">
+            <stop offset=".38" stop-color="#95C9E3"/>
+            <stop offset=".94" stop-color="#fff"/>
+        </linearGradient>
+        <clipPath id="GOVI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#TRVL__a)" d="M22 12c0 .625-.313 3.137-3.756 3.137-2.444 0-4.35-1.5-5.406-2.356a.05.05 0 0 0-.063 0 .05.05 0 0 0-.02.032.05.05 0 0 0 .007.037c.863 1.062 2.363 2.944 2.363 5.4C15.125 20.03 12.75 22 12 22V12z"/>
-    <path fill="url(#TRVL__b)" d="M5.75 8.875c2.444 0 4.344 1.494 5.406 2.356a.05.05 0 0 0 .058.013l.017-.013a.05.05 0 0 0 0-.069C10.368 10.1 8.869 8.2 8.869 5.75 8.869 2 11.687 2 11.999 2v10H2c0-.312 0-3.125 3.75-3.125"/>
+    <path fill="url(#TRVL__a)" d="M20 12c0 .5-.25 2.51-3.005 2.51-1.955 0-3.48-1.2-4.325-1.885a.04.04 0 0 0-.05 0 .04.04 0 0 0-.01.055c.69.85 1.89 2.355 1.89 4.32 0 1.425-1.9 3-2.5 3v-8z"/>
+    <path fill="url(#TRVL__b)" d="M7 9.5c1.955 0 3.475 1.195 4.325 1.885a.04.04 0 0 0 .03.014.04.04 0 0 0 .03-.014.04.04 0 0 0 0-.055c-.69-.85-1.89-2.37-1.89-4.33 0-3 2.255-3 2.505-3v8H4c0-.25 0-2.5 3-2.5"/>
     <defs>
-        <linearGradient id="TRVL__a" x1="20" x2="2.013" y1="2.525" y2="20.012" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TRVL__a" x1="18.4" x2="4.01" y1="4.42" y2="18.41" gradientUnits="userSpaceOnUse">
             <stop stop-color="#8FA3A4"/>
             <stop offset="1" stop-color="#C1D0D1"/>
         </linearGradient>
-        <linearGradient id="TRVL__b" x1="12.006" x2="4.756" y1="2" y2="12.5" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TRVL__b" x1="12.005" x2="6.205" y1="4" y2="12.4" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C7D5D6"/>
             <stop offset="1" stop-color="#5A6966"/>
         </linearGradient>

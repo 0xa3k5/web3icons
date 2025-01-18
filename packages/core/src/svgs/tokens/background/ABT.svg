@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ABT__a)">
+        <path fill="url(#ABT__b)" d="M24 0H0v24h24z"/>
+        <path fill="#000" fill-rule="evenodd" d="m12 4 7.11 4v8L12 20l-7.11-4V8zm6.444 4.125-6.222-3.5v7zm.222.375L12.444 12l6.222 3.5zm-.222 7.375-6.222-3.5v7zm-6.666 3.5-6.222-3.5 6.222-3.5zm0-7.75-6.222-3.5 6.222-3.5zM5.334 8.5l6.222 3.5-6.222 3.5z" clip-rule="evenodd"/>
+        <path fill="#000" d="m12.002 7.69 3.747 6.325-3.748 2.109-3.747-2.108zm0 .867-3.141 5.3 3.14 1.767 3.141-1.767z"/>
+    </g>
+    <defs>
+        <linearGradient id="ABT__b" x1="4.89" x2="19.11" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#06EFA0"/>
+            <stop offset="1" stop-color="#01FAFC"/>
+        </linearGradient>
+        <clipPath id="ABT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

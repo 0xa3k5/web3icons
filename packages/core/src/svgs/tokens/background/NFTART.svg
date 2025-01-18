@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#NFTART__a)">
+        <path fill="url(#NFTART__b)" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M7 5v5.5H4.5v3h1.375c.65 0 .98-.83 1.125-1.585V19h3v-8.385L15.75 19H18v-5.5h2.5v-3h-1.375c-.65 0-.98.83-1.125 1.585V5h-3v8.48L9.2 5z"/>
+    </g>
+    <defs>
+        <linearGradient id="NFTART__b" x1="4.5" x2="19.119" y1="7.217" y2="18.381" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D6022A"/>
+            <stop offset="1" stop-color="#3C08C3"/>
+        </linearGradient>
+        <clipPath id="NFTART__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

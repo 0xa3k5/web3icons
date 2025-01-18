@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DESO__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#DESO__b)" d="M5.334 4v4l10.133 5.845L5.334 20h8.25c2.81 0 5.083-1.973 5.083-4.4V12z"/>
+        <path fill="url(#DESO__c)" d="m5.334 4 13.333 8V8.4c0-2.432-2.277-4.4-5.083-4.4z"/>
+        <path fill="url(#DESO__d)" d="m12.187 11.952-6.853 4.053V20l10.133-6.155z"/>
+    </g>
+    <defs>
+        <linearGradient id="DESO__b" x1="5.333" x2="16.694" y1="6.667" y2="18.235" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3FA3FF"/>
+            <stop offset="1" stop-color="#F0F8FF"/>
+        </linearGradient>
+        <linearGradient id="DESO__c" x1="5.333" x2="21.177" y1="4" y2="8.056" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#84C3FF"/>
+            <stop offset="1" stop-color="#FBFEFF"/>
+        </linearGradient>
+        <linearGradient id="DESO__d" x1="5.867" x2="13.808" y1="18.133" y2="13.504" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A8D5FF"/>
+            <stop offset="1" stop-color="#F6FBFF"/>
+        </linearGradient>
+        <clipPath id="DESO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

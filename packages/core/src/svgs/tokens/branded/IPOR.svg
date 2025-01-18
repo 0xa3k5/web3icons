@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#IPOR__a)" d="M9.75 18 2 9l7.75 7.5 7-9.5.75 1 1.275-2L22 12.5l-3.25-5.25-1.25 2-.75-.75z"/>
-    <path fill="url(#IPOR__b)" d="M14.19 12.95c2.98-.1 6.26-.355 7.81-.5-1.525-.11-4.595-.3-7.365-.395l-.45.9zM12.185 12l-.59 1a93 93 0 0 1-5.055-.195l-.415-.62q3.028-.173 6.06-.185M2 12.45c.575-.045 1.385-.1 2.32-.16l.215.38c-1.045-.08-1.93-.16-2.535-.22"/>
+    <path fill="url(#IPOR__a)" d="M10.2 16.8 4 9.6l6.2 6L15.8 8l.6.8 1.02-1.6L20 12.4l-2.6-4.2-1 1.6-.6-.6z"/>
+    <path fill="url(#IPOR__b)" d="M13.752 12.76a118 118 0 0 0 6.248-.4c-1.22-.088-3.676-.24-5.892-.316l-.36.72zM12.148 12l-.472.8a74 74 0 0 1-4.044-.156l-.332-.496A92 92 0 0 1 12.148 12M4 12.36c.46-.036 1.108-.08 1.856-.128l.172.304A94 94 0 0 1 4 12.36"/>
     <defs>
-        <linearGradient id="IPOR__a" x1="1.64" x2="21.965" y1="9.03" y2="9.03" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IPOR__a" x1="3.712" x2="19.972" y1="9.624" y2="9.624" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E6DA88"/>
             <stop offset="1" stop-color="#E15F50"/>
         </linearGradient>
-        <linearGradient id="IPOR__b" x1="2.135" x2="23.635" y1="12.5" y2="12.5" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IPOR__b" x1="4.108" x2="21.308" y1="12.4" y2="12.4" gradientUnits="userSpaceOnUse">
             <stop offset=".67" stop-color="#2E80BF"/>
             <stop offset=".95" stop-color="#2A3985"/>
         </linearGradient>

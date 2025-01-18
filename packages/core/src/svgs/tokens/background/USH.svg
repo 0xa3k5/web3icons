@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#USH__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#USH__b)" d="M11.939 4 4.94 8 12 12l7.058-4z"/>
+        <path fill="url(#USH__c)" d="M4.94 16.132V8L12 12v8z"/>
+        <path fill="url(#USH__d)" d="M19.059 16.132V8L12 12v8z"/>
+        <path fill="url(#USH__e)" d="m12 8.202 3.294 1.882v3.765L12 15.73l-3.294-1.882v-3.765z"/>
+        <path fill="url(#USH__f)" d="M8.706 10.131 12 12v3.731L8.706 13.85z"/>
+        <path fill="url(#USH__g)" d="M15.294 10.131v-.047L12 8.202l-3.294 1.882v.047L12 11.999z"/>
+    </g>
+    <defs>
+        <linearGradient id="USH__b" x1="14.536" x2="6.888" y1="7.247" y2="11.33" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#006ACA"/>
+            <stop offset=".66" stop-color="#00DFFA"/>
+        </linearGradient>
+        <linearGradient id="USH__c" x1="5.449" x2="11.611" y1="5.537" y2="22.056" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0059CB"/>
+            <stop offset=".4" stop-color="#00C3E4"/>
+        </linearGradient>
+        <linearGradient id="USH__d" x1="18.118" x2="10.334" y1="5.788" y2="13.219" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0062C8"/>
+            <stop offset="1" stop-color="#00E7EF"/>
+        </linearGradient>
+        <linearGradient id="USH__e" x1="14.894" x2="12.14" y1="13.509" y2="20.056" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00E0FF"/>
+            <stop offset="1" stop-color="#00C9FF"/>
+        </linearGradient>
+        <linearGradient id="USH__f" x1="7.462" x2="11.368" y1="6.823" y2="13.532" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00C3FF"/>
+            <stop offset="1" stop-color="#00F1FF"/>
+        </linearGradient>
+        <linearGradient id="USH__g" x1="10.49" x2="11.351" y1="9.218" y2="10.258" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00C9FF"/>
+            <stop offset="1" stop-color="#00E8FF"/>
+        </linearGradient>
+        <clipPath id="USH__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

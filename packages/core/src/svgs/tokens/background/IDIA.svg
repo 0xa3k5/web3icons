@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#IDIA__a)">
+        <path fill="#FF0EA9" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M5.751 4.5v14.249c0 .47.375.744.75.744.275 0 .55-.15.685-.47L12.77 5.015A.744.744 0 0 0 12.08 4H6.25a.5.5 0 0 0-.494.5zM9.53 19.328 14.616 6.31A.49.49 0 0 1 15.04 6c.11-.01.225.025.32.1 5.705 4.554 2.47 14.283-5.414 13.888a.476.476 0 0 1-.415-.66"/>
+    </g>
+    <defs>
+        <clipPath id="IDIA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

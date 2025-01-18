@@ -10,7 +10,6 @@ import {
   SVG_EXCHANGES_OUT_DIR,
   JSX_EXCHANGES_OUT_DIR,
 } from '../constants'
-import { componentScaffold } from '../scaffolds'
 import { kebabToPascalCase } from './naming-conventions'
 import { injectCurrentColor, readyForJSX } from './svg-optimization'
 import { TType, TVariant } from '@web3icons/common'
@@ -26,29 +25,54 @@ export const generateReactComponent = (baseName: string, type: TType) => {
   const componentName = generateComponentName(baseName, type)
   const { svgOutDir, jsxOutDir } = getDirectories(type)
 
-  // Determine available variants
+  // Get available variants and prepare their JSX
   const variants = getAvailableVariants(svgOutDir, baseName)
+  const variantJSX = variants.reduce(
+    (acc, variant) => {
+      acc[variant] =
+        variant === 'mono'
+          ? readyForJSX(injectCurrentColor(loadSVG(svgOutDir, baseName, variant)))
+          : readyForJSX(loadSVG(svgOutDir, baseName, variant))
+      return acc
+    },
+    {} as Record<TVariant, string>,
+  )
 
-  const brandedJSX = variants.includes('branded')
-    ? readyForJSX(loadSVG(svgOutDir, baseName, 'branded'))
-    : ''
-  const monoJSX = variants.includes('mono')
-    ? readyForJSX(injectCurrentColor(loadSVG(svgOutDir, baseName, 'mono')))
-    : ''
-
+  // Generate documentation
   const variantDataURLs = generateVariantDataURLs(variants, svgOutDir, baseName)
-
   const jsDocComment = generateJSDoc(componentName, variants, variantDataURLs)
 
-  const scaffoldTemplate = selectScaffold(variants)
+  // Generate component content based on available variants
+  const defaultVariant = variants[0]
+  const componentContent = `
+import { forwardRef } from 'react';
+import { IconComponentProps } from "../../types";
+import { BaseIcon } from '../../BaseIcon';
 
-  const componentContent = scaffoldTemplate
-    .replace(/{{componentName}}/g, componentName)
-    .replace(/{{brandedJSX}}/g, brandedJSX)
-    .replace(/{{monoJSX}}/g, monoJSX)
-    .replace(/{{variantJSX}}/g, variants.includes('mono') ? monoJSX : brandedJSX)
-    .replace(/{{displayName}}/g, generateComponentName(baseName, type))
-    .replace(/{{jsDocComment}}/g, jsDocComment)
+${jsDocComment}
+const ${componentName} = forwardRef<SVGSVGElement, IconComponentProps>(({ ${variants.length > 1 ? `variant = '${defaultVariant}',` : ''} fallback, ...props }, ref) => (
+    <BaseIcon fallback={fallback} {...props} ref={ref}>
+      ${
+        variants.length === 1
+          ? variantJSX[variants[0]!]
+          : `{${variants
+              .map(
+                (v) =>
+                  `variant === '${v}' && (
+              <>
+                ${variantJSX[v]}
+              </>
+            )`,
+              )
+              .join(' || ')}}`
+      }
+    </BaseIcon>
+));
+
+${componentName}.displayName = '${componentName}';
+
+export default ${componentName};
+`
 
   fs.writeFile(path.join(jsxOutDir, `${componentName}.tsx`), componentContent, (err) => {
     if (err) throw err
@@ -90,7 +114,7 @@ const getDirectories = (type: TType): { svgOutDir: string; jsxOutDir: string } =
 }
 
 /**
- * Get available variants ('branded', 'mono') for the given SVG file.
+ * Get available variants ('branded', 'mono', 'background') for the given SVG file.
  */
 const getAvailableVariants = (svgOutDir: string, baseName: string): TVariant[] => {
   const variants: TVariant[] = []
@@ -99,6 +123,9 @@ const getAvailableVariants = (svgOutDir: string, baseName: string): TVariant[] =
   }
   if (fs.existsSync(path.join(svgOutDir, 'mono', `${baseName}.svg`))) {
     variants.push('mono')
+  }
+  if (fs.existsSync(path.join(svgOutDir, 'background', `${baseName}.svg`))) {
+    variants.push('background')
   }
   return variants
 }
@@ -146,11 +173,3 @@ const generateJSDoc = (
    */
   `
 }
-
-/**
- * Select the appropriate scaffold template based on the available variants.
- */
-const selectScaffold = (variants: string[]): string =>
-  variants.includes('branded') && variants.includes('mono')
-    ? componentScaffold.multiVariants
-    : componentScaffold.singleVariant

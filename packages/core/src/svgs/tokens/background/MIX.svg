@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MIX__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#374CE8" d="m11.235 6.292-.07-1.422 1.155.805z"/>
+        <path fill="#B96FD7" d="M11.702 9.178 10.338 8.03l1.347.142z"/>
+        <path fill="#CE7EDD" d="m11.702 9.177-.022-.995.72 1.142z"/>
+        <path fill="#AF69DC" d="m13.453 8.333-1.778-.151.72 1.142z"/>
+        <path fill="url(#MIX__b)" d="m12.8 7.031-1.125 1.156 1.773.146-.644-1.302z"/>
+        <path fill="#8354C3" d="m11.275 7.361-.942.676 1.347.142z"/>
+        <path fill="url(#MIX__c)" d="m11.17 4.857-.832 3.174.96-.676-.133-2.498z"/>
+        <path fill="#365AF7" d="m12.301 5.674-1.142-.8 1.142-.871z"/>
+        <path fill="#2D4EF2" d="m11.516 4.169-.333.72 1.129-.871-.796.155z"/>
+        <path fill="#3865FF" d="M13.63 5.333 12.298 4v1.707z"/>
+        <path fill="url(#MIX__d)" d="m11.24 6.289.031 1.089.413.808 1.12-1.155-.502-1.369-1.067.622z"/>
+        <path fill="url(#MIX__e)" d="m13.63 5.32-1.346.347.52 1.378z"/>
+        <path fill="url(#MIX__f)" d="m13.614 5.32-.818 1.72.653 1.298.165-3.023z"/>
+        <path fill="#F6609A" d="m9.662 12.889-2.995-.978 2.298 2.782z"/>
+        <path fill="url(#MIX__g)" d="M6.667 15.32V11.9l.711 2.396z"/>
+        <path fill="url(#MIX__h)" d="m7.378 14.324-.711-2.413 2.289 2.756-1.582-.338z"/>
+        <path fill="url(#MIX__i)" d="M8.005 16.587 6.67 15.316l.694-1.027z"/>
+        <path fill="#FD627F" d="m9 14.666-1.645-.356L8 16.583z"/>
+        <path fill="url(#MIX__j)" d="M9.586 15.32 8 16.582l.96-1.929z"/>
+        <path fill="url(#MIX__k)" d="M9.653 12.885 8.96 14.67l.644.68.77-.338-.72-2.124z"/>
+        <path fill="#E14B55" d="m9.622 17.332-.045-2.004.791-.32z"/>
+        <path fill="#FFD574" d="m12 20-2.387-2.676 1.395-.355z"/>
+        <path fill="url(#MIX__l)" d="M11.03 16.982 10.365 15l-.746 2.333 1.413-.346z"/>
+        <path fill="#F4B356" d="m11.987 17.665-.978-.688.99 3.022 1-2.996z"/>
+        <path fill="url(#MIX__m)" d="M14.221 17.369 12 19.999l1-3.004z"/>
+        <path fill="url(#MIX__n)" d="m11.964 14.672-.955 2.306.977.698 1.023-.671-1.045-2.338z"/>
+        <path fill="url(#MIX__o)" d="m11.96 14.693-.943 2.284-1.369-4.088z"/>
+        <path fill="url(#MIX__p)" d="M14.253 12.889H9.648l2.325 1.83z"/>
+        <path fill="url(#MIX__q)" d="m9.267 10.667-2.6 1.244 2.982.978h4.685l3-.987-2.654-1.235z"/>
+        <path fill="url(#MIX__r)" d="M12.067 11.95c.938 0 1.698-.147 1.698-.33 0-.18-.76-.328-1.698-.328s-1.698.147-1.698.329c0 .181.76.329 1.698.329"/>
+        <path fill="url(#MIX__s)" d="m14.222 15.325-.605-.351.622-2.09.743 1.77-.756.666z"/>
+        <path fill="url(#MIX__t)" d="m14.253 12.885-1.245 4.12-1.035-2.307 2.28-1.809z"/>
+        <path fill="url(#MIX__u)" d="M14.222 17.377 13 17l.622-2.035.6.346z"/>
+        <path fill="url(#MIX__v)" d="m15.982 16.667-1.76-1.36.764-.675.996 2.026z"/>
+        <path fill="url(#MIX__w)" d="m17.324 11.91-3.08.979.733 1.786 2.347-2.769z"/>
+        <path fill="url(#MIX__x)" d="m16.64 14.289-1.663.386 2.356-2.777z"/>
+        <path fill="url(#MIX__y)" d="m17.332 15.297-.724-.99.724-2.41z"/>
+        <path fill="url(#MIX__z)" d="m16.613 14.284-1.636.387 1.01 2 .622-2.387z"/>
+        <path fill="url(#MIX__A)" d="m17.323 15.276-.715-.987-.631 2.365z"/>
+    </g>
+    <defs>
+        <linearGradient id="MIX__b" x1="11.986" x2="11.986" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#7187FE"/>
+            <stop offset="1" stop-color="#8862E1"/>
+        </linearGradient>
+        <linearGradient id="MIX__c" x1="1.284" x2="3.742" y1="5.098" y2="21.124" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#435DF9"/>
+            <stop offset="1" stop-color="#4C42D3"/>
+        </linearGradient>
+        <linearGradient id="MIX__d" x1="15.58" x2="7.765" y1="7.972" y2="13.344" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2E42DE"/>
+            <stop offset="1" stop-color="#6C42C4"/>
+        </linearGradient>
+        <linearGradient id="MIX__e" x1="15.326" x2="7.829" y1="5.815" y2="13.467" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3E78FD"/>
+            <stop offset="1" stop-color="#4A70F7"/>
+        </linearGradient>
+        <linearGradient id="MIX__f" x1="7.595" x2="15.277" y1="12.47" y2="10.088" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#8359E3"/>
+            <stop offset="1" stop-color="#7562F3"/>
+        </linearGradient>
+        <linearGradient id="MIX__g" x1="5.2" x2="6.202" y1="6.891" y2="18.892" gradientUnits="userSpaceOnUse">
+            <stop offset=".43" stop-color="#D13462"/>
+            <stop offset="1" stop-color="#FF7073"/>
+        </linearGradient>
+        <linearGradient id="MIX__h" x1="7.848" x2="16.234" y1="6.426" y2="17.248" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#AD214A"/>
+            <stop offset="1" stop-color="#F67B72"/>
+        </linearGradient>
+        <linearGradient id="MIX__i" x1="8.871" x2="11.372" y1="5.795" y2="20.318" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FA7B62"/>
+            <stop offset="1" stop-color="#FFCC6D"/>
+        </linearGradient>
+        <linearGradient id="MIX__j" x1="15.181" x2="6.869" y1="5.733" y2="15.165" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF6088"/>
+            <stop offset="1" stop-color="#FEC46C"/>
+        </linearGradient>
+        <linearGradient id="MIX__k" x1="11.899" x2="11.899" y1="4.865" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#830E36"/>
+            <stop offset="1" stop-color="#EC4679"/>
+        </linearGradient>
+        <linearGradient id="MIX__l" x1="12" x2="12" y1="4.092" y2="19.878" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F15979"/>
+            <stop offset="1" stop-color="#ED9748"/>
+        </linearGradient>
+        <linearGradient id="MIX__m" x1="16.479" x2="5.715" y1="6.509" y2="17.587" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF5C8C"/>
+            <stop offset="1" stop-color="#F1984C"/>
+        </linearGradient>
+        <linearGradient id="MIX__n" x1="11.953" x2="11.953" y1="4.024" y2="20" gradientUnits="userSpaceOnUse">
+            <stop offset=".27" stop-color="#DB4B82"/>
+            <stop offset="1" stop-color="#EF8F58"/>
+        </linearGradient>
+        <linearGradient id="MIX__o" x1="8.266" x2="15.162" y1="9.652" y2="8.689" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E67C8E"/>
+            <stop offset="1" stop-color="#D55674"/>
+        </linearGradient>
+        <linearGradient id="MIX__p" x1="12.772" x2="5.237" y1="4.466" y2="14.377" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#591560"/>
+            <stop offset="1" stop-color="#C55070"/>
+        </linearGradient>
+        <linearGradient id="MIX__q" x1="9.102" x2="16.157" y1="18.432" y2="17.025" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C84083"/>
+            <stop offset=".43" stop-color="#A53B98"/>
+            <stop offset=".53" stop-color="#BB55B6"/>
+            <stop offset="1" stop-color="#744FD7"/>
+        </linearGradient>
+        <linearGradient id="MIX__r" x1="8.831" x2="18.762" y1="21.728" y2="19.551" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#220633"/>
+            <stop offset=".46" stop-color="#3E0E55"/>
+            <stop offset="1" stop-color="#370E65"/>
+        </linearGradient>
+        <linearGradient id="MIX__s" x1="12.052" x2="12.052" y1="4.816" y2="20.146" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C058BB"/>
+            <stop offset="1" stop-color="#B63781"/>
+        </linearGradient>
+        <linearGradient id="MIX__t" x1="15.316" x2="13.027" y1="5.571" y2="20.157" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#8C3078"/>
+            <stop offset="1" stop-color="#E17269"/>
+        </linearGradient>
+        <linearGradient id="MIX__u" x1="12.213" x2="12.213" y1="4.147" y2="19.852" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EE919B"/>
+            <stop offset="1" stop-color="#FBBF84"/>
+        </linearGradient>
+        <linearGradient id="MIX__v" x1="9.387" x2="13.969" y1="4.909" y2="19.411" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DB62B6"/>
+            <stop offset="1" stop-color="#C03F89"/>
+        </linearGradient>
+        <linearGradient id="MIX__w" x1="8.298" x2="10.723" y1="16.969" y2="7.683" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9E408C"/>
+            <stop offset="1" stop-color="#230E79"/>
+        </linearGradient>
+        <linearGradient id="MIX__x" x1="11.799" x2="11.799" y1="4.461" y2="19.974" gradientUnits="userSpaceOnUse">
+            <stop offset=".64" stop-color="#260E76"/>
+            <stop offset="1" stop-color="#9E408C"/>
+        </linearGradient>
+        <linearGradient id="MIX__y" x1="12.032" x2="12.032" y1="4.376" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#230D75"/>
+            <stop offset="1" stop-color="#A04F93"/>
+        </linearGradient>
+        <linearGradient id="MIX__z" x1="12.724" x2="11.959" y1="4.089" y2="19.998" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#57156D"/>
+            <stop offset="1" stop-color="#DB7391"/>
+        </linearGradient>
+        <linearGradient id="MIX__A" x1="17.145" x2="16.643" y1="14.738" y2="16.649" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#914089"/>
+            <stop offset=".96" stop-color="#D78E83"/>
+        </linearGradient>
+        <clipPath id="MIX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

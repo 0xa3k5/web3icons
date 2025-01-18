@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#telos__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#telos__b)" fill-rule="evenodd" d="M12 17.333a5.333 5.333 0 1 0 0-10.666 5.333 5.333 0 0 0 0 10.666M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <radialGradient id="telos__b" cx="0" cy="0" r="1" gradientTransform="matrix(0 8 -8 0 12 12)" gradientUnits="userSpaceOnUse">
+            <stop offset=".152" stop-color="#42A0B9"/>
+            <stop offset=".247" stop-color="#70C38D"/>
+            <stop offset=".344" stop-color="#6FC68F"/>
+            <stop offset=".488" stop-color="#3B74CE"/>
+            <stop offset=".66" stop-color="#954494"/>
+            <stop offset=".76" stop-color="#9A4290"/>
+            <stop offset=".871" stop-color="#7256AB"/>
+            <stop offset="1" stop-color="#3D7DC7"/>
+        </radialGradient>
+        <clipPath id="telos__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

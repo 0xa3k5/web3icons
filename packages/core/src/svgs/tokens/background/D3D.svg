@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#D3D__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#46B5E0" d="m4.257 9.586.45 4.742 2.444 4.189L8.67 16.64l-1.954-6.104z"/>
+        <path fill="#0196DA" d="m19.724 9.586-.447 4.742-2.443 4.189-1.537-1.891 1.973-6.09z"/>
+        <path fill="#87C9EB" d="M15.23 16.703H8.833L7.326 18.59 12.083 20l4.606-1.41z"/>
+        <path fill="#E3F4FC" d="m6.7 10.347-2.457-.888L7.52 5.872 11.932 4v2.667l-5.236 3.68z"/>
+        <path fill="#82CEF0" d="m17.299 10.347 2.458-.888-3.277-3.587L12.067 4v2.667l5.237 3.68z"/>
+        <path fill="#B9E2FE" fill-rule="evenodd" d="M17.168 10.614 12.01 6.909l-5.158 3.705 1.968 5.992h6.38l1.974-5.992zm-9.096 2.914 3.937 2.89 3.937-2.89-1.503-4.68H9.575z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="D3D__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

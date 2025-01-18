@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#PORTAL__a)" fill-rule="evenodd" d="M20.333 7 12 2 3.667 7v10L12 22l8.333-5zM8.667 6.26v11.537l2.778-1.286v-6.53l1.666-1.357v5.48l-1.632 1.238 4.41 2.455V10.1l-2.778-1.48v.004z" clip-rule="evenodd"/>
+    <path fill="url(#PORTAL__a)" fill-rule="evenodd" d="M18.666 8 12 4 5.333 8v8L12 20l6.666-4zm-9.333-.593v9.231l2.223-1.029v-5.223l1.333-1.087v4.384l-1.306.99 3.528 1.965V10.48l-2.222-1.184v.003z" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="PORTAL__a" x1="7.133" x2="21.511" y1="13.742" y2="17.86" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PORTAL__a" x1="8.106" x2="19.609" y1="13.394" y2="16.688" gradientUnits="userSpaceOnUse">
             <stop stop-color="#064FAB"/>
             <stop offset="1" stop-color="#180043"/>
         </linearGradient>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#aurora__a)" d="M14.09 4.974a2.334 2.334 0 0 0-4.189 0l-6.32 11.98a2.334 2.334 0 0 0 2.094 3.38h12.64a2.334 2.334 0 0 0 2.095-3.38zm-5.382-.6a3.667 3.667 0 0 1 6.574 0l6.327 11.981a3.665 3.665 0 0 1-3.293 5.313H5.675a3.68 3.68 0 0 1-3.293-5.313L8.708 4.382z"/>
+    <path fill="url(#aurora__a)" d="M13.671 6.38a1.867 1.867 0 0 0-3.35 0l-5.056 9.583a1.867 1.867 0 0 0 1.675 2.705h10.113a1.868 1.868 0 0 0 1.675-2.705zM9.367 5.9a2.934 2.934 0 0 1 5.259 0l5.061 9.584a2.932 2.932 0 0 1-2.634 4.25H6.94a2.945 2.945 0 0 1-2.635-4.25l5.062-9.578z"/>
     <defs>
-        <linearGradient id="aurora__a" x1="18.21" x2="6.365" y1="4.439" y2="20.171" gradientUnits="userSpaceOnUse">
+        <linearGradient id="aurora__a" x1="16.968" x2="7.492" y1="5.952" y2="18.537" gradientUnits="userSpaceOnUse">
             <stop stop-color="#95E141"/>
             <stop offset=".59" stop-color="#63B836"/>
             <stop offset="1" stop-color="#409C2D"/>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#IDLE__a)">
+        <path fill="#1B14DC" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11.556 17.333V4L6.223 7.156v10.177zm6.222-10.666h-5.333V20l5.333-3.155z"/>
+    </g>
+    <defs>
+        <clipPath id="IDLE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

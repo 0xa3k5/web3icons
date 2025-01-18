@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#UNO__a)" d="M4.424 5.334H2v8.484a4.85 4.85 0 0 0 4.848 4.848h.606a4.85 4.85 0 0 0 4.849-4.848V5.334H9.878v8.181a2.727 2.727 0 0 1-5.454 0zm9.09 3.636h2.425v9.09h-2.424z"/>
-    <path fill="url(#UNO__b)" d="M18.667 8.667A3.333 3.333 0 0 0 15.333 12v6.06h.607v-5.454a1.818 1.818 0 1 1 3.636 0v5.455H22V12a3.333 3.333 0 0 0-3.333-3.334"/>
+    <path fill="url(#UNO__a)" d="M5.94 6.667H4v6.788a3.88 3.88 0 0 0 3.879 3.878h.484a3.88 3.88 0 0 0 3.879-3.878V6.666h-1.94v6.545a2.182 2.182 0 0 1-4.363 0zm7.272 2.909h1.939v7.272h-1.94z"/>
+    <path fill="url(#UNO__b)" d="M17.334 9.332a2.666 2.666 0 0 0-2.667 2.666v4.849h.485v-4.364a1.455 1.455 0 1 1 2.909 0v4.364H20v-4.849a2.667 2.667 0 0 0-2.668-2.666"/>
     <defs>
-        <linearGradient id="UNO__a" x1="8.969" x2="8.969" y1="5.334" y2="18.666" gradientUnits="userSpaceOnUse">
+        <linearGradient id="UNO__a" x1="9.575" x2="9.575" y1="6.667" y2="17.333" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5079DD"/>
             <stop offset="1" stop-color="#3E3BAC"/>
         </linearGradient>
-        <linearGradient id="UNO__b" x1="18.667" x2="18.667" y1="8.667" y2="18.061" gradientUnits="userSpaceOnUse">
+        <linearGradient id="UNO__b" x1="17.334" x2="17.334" y1="9.332" y2="16.847" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5079DD"/>
             <stop offset="1" stop-color="#3E3BAC"/>
         </linearGradient>

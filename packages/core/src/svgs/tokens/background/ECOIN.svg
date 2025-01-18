@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ECOIN__a)">
+        <path fill="url(#ECOIN__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 19.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15m0 .5a8 8 0 1 0 0-16 8 8 0 0 0-8 8 8 8 0 0 0 8 8" clip-rule="evenodd"/>
+        <path fill="#fff" d="M11.929 5.502c-2.137 0-3.335.93-3.689 1.157l2.331 1.047c.591-.172 1.396-.2 1.725-.193 3.509.227 4.239 3.44 4.165 4.986H8.877c.42 2.009 1.698 2.5 3.253 2.5 1.352 0 2.374-1.045 2.374-1.5h1.58c-.618 2.184-2.428 3.012-3.788 3.012a6 6 0 0 1-1.726-.238L8.23 17.34c1.337 1.007 3.268 1.194 4.067 1.16 4.604 0 6.204-4.138 6.204-6.392 0-5.189-4.267-6.606-6.571-6.606"/>
+        <path fill="#fff" d="M12.125 9C10.122 9 9.207 10.653 9 11.5h6c-.123-.82-1.113-2.5-2.875-2.5"/>
+    </g>
+    <defs>
+        <linearGradient id="ECOIN__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CDAE26"/>
+            <stop offset=".409" stop-color="#F9DA3B"/>
+            <stop offset=".757" stop-color="#EDC62D"/>
+            <stop offset="1" stop-color="#CEAF26"/>
+        </linearGradient>
+        <clipPath id="ECOIN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

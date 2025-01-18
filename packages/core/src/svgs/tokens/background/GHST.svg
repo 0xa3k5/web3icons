@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#GHST__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#F934F3" d="M7 7h10v4.5H7z"/>
+        <path fill="#fff" d="M7.5 10.5h2v.5h-2z"/>
+        <path fill="#1F0448" d="M9 4h6v1H9z"/>
+        <path fill="#FB74F7" d="M9 5h6v1H9z"/>
+        <path fill="#1F0448" d="M7 5h2v1H7zm8 0h2v1h-2zm0 13h2v1h-2zm-8 0h2v1H7zM17 6h1v1h-1zM6 6h1v1H6z"/>
+        <path fill="#FB74F7" d="M8 6h1v1H8z"/>
+        <path fill="#B400EF" d="M8 7h1v1H8z"/>
+        <path fill="#8E16F8" d="M7 14.5h10v1.549H7z"/>
+        <path fill="#FDB6FA" d="M16 7h-1v1h1z"/>
+        <path fill="#FB74F7" d="M16 6h-1v1h1z"/>
+        <path fill="#B400EF" d="M7 8h1v1H7z"/>
+        <path fill="#FDB6FA" d="M17 8h-1v1h1z"/>
+        <path fill="#FB74F7" d="M16 17h-1v1h1z"/>
+        <path fill="#FDB6FA" d="M16 16h-1v1h1zm1-1h-1v1h1z"/>
+        <path fill="#B400EF" d="M9 16H8v1h1z"/>
+        <path fill="#AC14F8" d="M7 13h10v1.5H7z"/>
+        <path fill="#CF14F8" d="M7 11.5h10V13H7z"/>
+        <path fill="#B400EF" d="M8 15H7v1h1z"/>
+        <path fill="#FB74F7" d="M9 17H8v1h1z"/>
+        <path fill="#1F0448" d="M17 17h1v1h-1zM6 17h1v1H6zM18 7h1v2h-1zM5 7h1v2H5zm13 8h1v2h-1zM5 15h1v2H5zm14-6h1v6h-1zM4 9h1v6H4z"/>
+        <path fill="#FB74F7" d="M5 9h1v6H5z"/>
+        <path fill="#FDB6FA" d="M17 9h1v6h-1z"/>
+        <path fill="#B400EF" d="M6 9h1v6H6z"/>
+        <path fill="#FB74F7" d="M18 9h1v6h-1zM6 7h1v2H6zm1-.998h1v2H7zM16 6h1v2h-1zm1 1h1v2h-1zm0 8h1v2h-1zM6 15h1v2H6zm1 1h1v2H7zm9 0h1v2h-1z"/>
+        <path fill="#B400EF" d="M9 6h6v1H9z"/>
+        <path fill="#1F0448" d="M9 19h6v1H9z"/>
+        <path fill="#FB74F7" d="M9 18h6v1H9z"/>
+        <path fill="#FDB6FA" d="M9 17h6v1H9z"/>
+        <path fill="#7D17F8" d="M9 16h6v1H9z"/>
+        <path fill="#fff" d="M7 13v-2h.5v2zm2.75.5v-3h.5v3zm1.75 0v-3h.5v3zm4.15 0v-3h.5v3zM9 13v-1h.5v1zm3.25-1.25v-.751h.5v.751zM14 13v-.75h.5V13zm-.75-2.5V10h.5v.5zm0 3.5v-.5h.5v.5z"/>
+        <path fill="#fff" d="M8 11.75h1.5v.5H8zm2.25 0h1.25v.5h-1.25zm4.5-1.25H17v.5h-2.25zm-2 0h1.75v.5l-1.75-.001zm0 1.25H14v.5h-1.25zm-.5 1.25H14v.5h-1.75zM7.5 13H9v.5H7.5z"/>
+    </g>
+    <defs>
+        <clipPath id="GHST__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#silicon__a)">
+        <path fill="#007AFF" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4 16v4c3.7 0 7.082-2.029 8.824-5.294l1.882-3.53A5.99 5.99 0 0 1 20 8V4a9.98 9.98 0 0 0-8.824 5.294l-1.882 3.53A5.99 5.99 0 0 1 4 16m12 0h4v4h-4z"/>
+    </g>
+    <defs>
+        <clipPath id="silicon__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

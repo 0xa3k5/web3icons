@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#AART__a)">
+        <path fill="url(#AART__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M14.73 4.75H9.27L4 19.25h4.835L9.5 17.4a3 3 0 0 1 1.6-4.51l.9-2.54.9 2.54a3 3 0 0 1 1.605 4.51l.66 1.85H20z"/>
+        <path fill="#fff" d="M12 17.75a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+    </g>
+    <defs>
+        <linearGradient id="AART__b" x1="7.571" x2="14.454" y1="5.786" y2="18.805" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#51A7DC"/>
+            <stop offset=".19" stop-color="#3B578E"/>
+            <stop offset=".45" stop-color="#67BBCE"/>
+            <stop offset=".69" stop-color="#382F4A"/>
+            <stop offset=".79" stop-color="#A22B2C"/>
+            <stop offset=".9" stop-color="#E08C94"/>
+            <stop offset="1" stop-color="#CE7782"/>
+        </linearGradient>
+        <clipPath id="AART__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

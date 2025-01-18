@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#rollux__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#DBEF88" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 .002 16"/>
+        <path fill="#000" d="M8.466 7.87h.331l7.93 7.27v.991h-8.26zm6.255 4.796a3.304 3.304 0 0 0-4.691-4.3z"/>
+    </g>
+    <defs>
+        <clipPath id="rollux__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

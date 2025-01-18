@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#12E3BC" d="M18 18.667v.666h4l-.587-.666z"/>
-    <path fill="#14F4C8" d="M13.333 18v-2.667H4.667V4.667h10.666V22H22v-2.667h-4V2H2v16z"/>
-    <path fill="url(#QUINT__a)" d="m5.333 14.666-.666.667h8.666l-.666-.667z"/>
-    <path fill="url(#QUINT__b)" d="m5.333 5.333-.666-.667h10.666l-.666.667z"/>
-    <path fill="url(#QUINT__c)" d="m15.334 4.667-.667.666v16l.667.667z"/>
-    <path fill="url(#QUINT__d)" d="m8.667 7.667-4-3v10.666l4-3z"/>
+    <path fill="#12E3BC" d="M16.8 17.333v.533H20l-.47-.533z"/>
+    <path fill="#14F4C8" d="M13.067 16.8v-2.133H6.133V6.133h8.534V20H20v-2.133h-3.2V4H4v12.8z"/>
+    <path fill="url(#QUINT__a)" d="m6.667 14.133-.534.533h6.934l-.534-.533z"/>
+    <path fill="url(#QUINT__b)" d="m6.667 6.666-.534-.533h8.534l-.534.533z"/>
+    <path fill="url(#QUINT__c)" d="m14.667 6.133-.533.533v12.8l.533.533z"/>
+    <path fill="url(#QUINT__d)" d="m9.333 8.533-3.2-2.4v8.533l3.2-2.4z"/>
     <defs>
-        <linearGradient id="QUINT__a" x1="8.108" x2="5.691" y1="15.8" y2="7.064" gradientUnits="userSpaceOnUse">
+        <linearGradient id="QUINT__a" x1="8.886" x2="6.953" y1="15.04" y2="8.051" gradientUnits="userSpaceOnUse">
             <stop stop-color="#068F82"/>
             <stop offset="1" stop-color="#12E3BC"/>
         </linearGradient>
-        <linearGradient id="QUINT__b" x1="8.138" x2="8.138" y1="-3" y2="6.4" gradientUnits="userSpaceOnUse">
+        <linearGradient id="QUINT__b" x1="8.91" x2="8.91" y1="-.001" y2="7.519" gradientUnits="userSpaceOnUse">
             <stop stop-color="#068F82"/>
             <stop offset="1" stop-color="#12E3BC"/>
         </linearGradient>
-        <linearGradient id="QUINT__c" x1="25.201" x2="6.401" y1="8.3" y2="8.3" gradientUnits="userSpaceOnUse">
+        <linearGradient id="QUINT__c" x1="22.56" x2="7.52" y1="9.039" y2="9.039" gradientUnits="userSpaceOnUse">
             <stop stop-color="#068F82"/>
             <stop offset="1" stop-color="#12E3BC"/>
         </linearGradient>
-        <linearGradient id="QUINT__d" x1="4.186" x2="8.873" y1="9.5" y2="9.5" gradientUnits="userSpaceOnUse">
+        <linearGradient id="QUINT__d" x1="5.749" x2="9.498" y1="10" y2="10" gradientUnits="userSpaceOnUse">
             <stop stop-color="#068F82"/>
             <stop offset="1" stop-color="#12E3BC"/>
         </linearGradient>

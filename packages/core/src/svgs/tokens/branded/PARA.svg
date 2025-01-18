@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#PARA__a)" d="m3.026 9.633 8.885 4.799a1.49 1.49 0 0 0 1.412 0l7.654-4.143a1.886 1.886 0 0 0 0-3.355l-8.748-4.711a1.82 1.82 0 0 0-1.736 0L3.02 6.284a1.887 1.887 0 0 0 0 3.349z"/>
-    <path fill="url(#PARA__b)" d="M4.913 12.645 12 16.394c.468.25 1.043.25 1.499-.02l5.455-3.142 2.018 1.087a1.887 1.887 0 0 1 0 3.355l-7.648 4.143a1.47 1.47 0 0 1-1.412 0l-8.885-4.792a1.886 1.886 0 0 1-.006-3.356z"/>
+    <path fill="url(#PARA__a)" d="m4.82 10.106 7.109 3.84c.35.19.78.19 1.13 0l6.123-3.315a1.509 1.509 0 0 0 0-2.684l-6.998-3.77a1.46 1.46 0 0 0-1.39 0l-5.978 3.25a1.51 1.51 0 0 0 0 2.68z"/>
+    <path fill="url(#PARA__b)" d="M6.33 12.516 12 15.515c.374.2.834.2 1.199-.015l4.364-2.514 1.614.87a1.509 1.509 0 0 1 0 2.684l-6.118 3.314c-.35.19-.78.195-1.13 0L4.821 16.02a1.509 1.509 0 0 1-.005-2.684z"/>
     <defs>
-        <linearGradient id="PARA__a" x1="1.998" x2="19.834" y1="12.182" y2="12.103" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PARA__a" x1="3.999" x2="18.267" y1="12.146" y2="12.082" gradientUnits="userSpaceOnUse">
             <stop stop-color="#02DAFF"/>
             <stop offset="1" stop-color="#5414F1"/>
         </linearGradient>
-        <linearGradient id="PARA__b" x1="2.002" x2="19.834" y1="15.806" y2="15.687" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PARA__b" x1="4.001" x2="18.268" y1="15.045" y2="14.95" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FECF7B"/>
             <stop offset="1" stop-color="#EF26A8"/>
         </linearGradient>

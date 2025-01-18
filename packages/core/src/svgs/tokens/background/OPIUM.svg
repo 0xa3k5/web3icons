@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#OPIUM__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#OPIUM__b)" fill-rule="evenodd" d="M4 12.222c.009-1.929 1.111-5.778 5.493-5.778.551.027 1.89.29 2.827 1.12 1.178 1.036 1.36 1.111 1.96 1.111.48 0 1.036-.208 1.253-.31.2-.09.734-.267 1.254-.267.653 0 3.213.604 3.213 3.88s-2.52 3.933-3.133 3.933a3.65 3.65 0 0 1-1.454-.293c-.266-.116-.666-.29-1.155-.29-.436 0-1.258.6-1.618.899-.453.444-1.76 1.328-3.338 1.328C7.333 17.555 4 16.08 4 12.222m3.556.089c-.04-.991.395-2.978 2.457-2.978h.018c.129 0 .769-.018 1.658.556l.084.053c.88.569 1.325.853 2.33.853.83 0 1.488-.342 1.715-.51a1.9 1.9 0 0 1 .867-.294c.4 0 1.537.391 1.537 2s-1.182 2.049-1.538 2.049c-.284 0-.697-.204-.866-.311a3.5 3.5 0 0 0-1.716-.507 3.4 3.4 0 0 0-1.689.507c-.409.31-1.44.938-2.31.938-1.08 0-2.543-1.094-2.543-2.356z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="OPIUM__b" x1="4.156" x2="19.791" y1="12.315" y2="12.315" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4FEF8F"/>
+            <stop offset=".23" stop-color="#FFED03"/>
+            <stop offset=".34" stop-color="#FD9D37"/>
+            <stop offset=".46" stop-color="#F62A81"/>
+            <stop offset=".59" stop-color="#9736B6"/>
+            <stop offset=".7" stop-color="#6453C5"/>
+            <stop offset=".83" stop-color="#1A7BD9"/>
+        </linearGradient>
+        <clipPath id="OPIUM__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -14,14 +14,14 @@ export interface BaseIconProps extends SVGProps<SVGSVGElement> {
 /**
  * IconComponentProps interface extends SVGProps for SVGSVGElement and adds variant, size, color, className, and fallback properties.
  *
- * @property {'mono' | 'branded'} [variant] - The variant of the icon.
+ * @property {'mono' | 'branded' | 'background'} [variant] - The variant of the icon.
  * @property {number | string} [size] - The size of the icon.
  * @property {string} [color] - The color of the icon.
  * @property {string} [className] - Additional CSS classes for the icon.
  * @property {(string | ReactNode)} [fallback] - The fallback content to display if the icon fails to load.
  */
 export interface IconComponentProps extends SVGProps<SVGSVGElement> {
-  variant?: 'mono' | 'branded'
+  variant?: 'mono' | 'branded' | 'background'
   size?: number | string
   color?: string
   className?: string
@@ -31,7 +31,7 @@ export interface IconComponentProps extends SVGProps<SVGSVGElement> {
 /**
  * TokenIconProps type combines IconComponentProps with either symbol or address and network properties.
  *
- * @property {'mono' | 'branded'} [variant] - The variant of the icon.
+ * @property {'mono' | 'branded' | 'background'} [variant] - The variant of the icon.
  * @property {number | string} [size] - The size of the icon.
  * @property {string} [color] - The color of the icon.
  * @property {string} [className] - Additional CSS classes for the icon.
@@ -49,7 +49,7 @@ export type TokenIconProps = IconComponentProps &
 /**
  * NetworkIconProps type combines IconComponentProps with either network or chainId properties.
  *
- * @property {'mono' | 'branded'} [variant] - The variant of the icon.
+ * @property {'mono' | 'branded' | 'background'} [variant] - The variant of the icon.
  * @property {number | string} [size] - The size of the icon.
  * @property {string} [color] - The color of the icon.
  * @property {string} [className] - Additional CSS classes for the icon.
@@ -66,7 +66,7 @@ export type NetworkIconProps = IconComponentProps &
 /**
  * WalletIconProps type combines IconComponentProps with either name or id properties.
  *
- * @property {'mono' | 'branded'} [variant] - The variant of the icon.
+ * @property {'mono' | 'branded' | 'background'} [variant] - The variant of the icon.
  * @property {number | string} [size] - The size of the icon.
  * @property {string} [color] - The color of the icon.
  * @property {string} [className] - Additional CSS classes for the icon.
@@ -80,7 +80,7 @@ export type WalletIconProps = IconComponentProps &
 /**
  * ExchangeIconProps type combines IconComponentProps with either name or id properties.
  *
- * @property {'mono' | 'branded'} [variant] - The variant of the icon.
+ * @property {'mono' | 'branded' | 'background'} [variant] - The variant of the icon.
  * @property {number | string} [size] - The size of the icon.
  * @property {string} [color] - The color of the icon.
  * @property {string} [className] - Additional CSS classes for the icon.

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MOBI__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#MOBI__b)" d="M7.253 8.8c-2.47.051-3.169 2.01-3.224 2.982l.403.123c1.226-1.673 3.026-.936 3.823-.485 1.022.577 3.442 1.938 4.947 2.766s3.066 1.021 3.659 1.014c2.387-.101 2.97-2.204 3.107-3.19l-.327-.231c-.802 1.858-3.06 1.21-4.088.654-1.05-.598-3.492-1.977-4.866-2.704-1.373-.726-2.862-.922-3.434-.929"/>
+        <path fill="url(#MOBI__c)" d="M19.752 12.854c-.292-1.569-1.956-1.961-2.75-1.961-.697-.04-1.966.055-3.22.525l-.995-.55c1.637-1.522 3.455-1.849 4.214-1.81 3.343.216 3.227 2.62 2.751 3.796"/>
+        <path fill="url(#MOBI__d)" d="M7.022 14.978c-3.204-.086-3.239-2.579-2.856-3.814.46 1.583 2.096 2.003 2.856 2.015a10 10 0 0 0 3.151-.668l1.095.61c-1.582 1.503-3.466 1.869-4.246 1.857"/>
+    </g>
+    <defs>
+        <linearGradient id="MOBI__b" x1="3.974" x2="20.008" y1="11.299" y2="12.71" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D1E8F7"/>
+            <stop offset=".516" stop-color="#EEF3FC"/>
+            <stop offset="1" stop-color="#D9DCF8"/>
+        </linearGradient>
+        <linearGradient id="MOBI__c" x1="4.827" x2="19.899" y1="12.304" y2="14.306" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#99B8ED"/>
+            <stop offset="1" stop-color="#F0F2FC"/>
+        </linearGradient>
+        <linearGradient id="MOBI__d" x1="4" x2="10.617" y1="11.639" y2="12.984" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FCFEFF"/>
+            <stop offset="1" stop-color="#95B7EC"/>
+        </linearGradient>
+        <clipPath id="MOBI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

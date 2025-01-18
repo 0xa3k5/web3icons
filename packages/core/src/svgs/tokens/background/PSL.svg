@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PSL__a)">
+        <path fill="#1D1D1B" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0m-.941 0A7.059 7.059 0 1 1 4.94 12a7.059 7.059 0 0 1 14.118 0M9.176 7.765l1.31 1.411h2.275c.62 0 1.121.528 1.121 1.177 0 .65-.502 1.176-1.121 1.176h-1.702v4.704l1.412 1.414v-4.706h.212c1.442 0 2.611-1.158 2.611-2.588s-1.169-2.588-2.611-2.588z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="PSL__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

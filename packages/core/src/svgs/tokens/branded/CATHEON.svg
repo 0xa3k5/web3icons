@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#CATHEON__a)" d="M10.781 15.75c-1.087 0-1.169-1.037-1.075-1.562l-1.35-.45-1.062 2.45.643 1.793 3.232 3.494 1.268.375c.188.05.688.15 1.125.15 5.22 0 6.894-3.206 6.87-4.913 0-.106-.013-.206-.026-.3-.518-3.374-3.031-3.537-3.668-3.537a3.2 3.2 0 0 0-1.613.387c-3.563 1.7-4.088 2.113-4.344 2.113"/>
-    <path fill="url(#CATHEON__b)" d="M3.562 11.525c0-.55.144-1.375.219-1.719l.594-1.312.95-1.438 6.869-1.575.712 3.475a4.8 4.8 0 0 0-2.15-.706c-.812 0-.931.925-.944 1.263v8.6c0 2.3 1.844 3.462 2.813 3.78-8.563-1.45-9.063-8.624-9.063-10.368"/>
-    <path fill="url(#CATHEON__c)" d="M20.438 6.875c0 2.769-2.5 3.875-3.813 3.875-1.1 0-3.293-1.013-5.112-2.031C9.688 7.7 8.263 7 7.607 7 5.419 7 4.6 8.731 3.769 9.844 5.507 2.838 11.357 2 13.813 2s6.625 1.413 6.625 4.875"/>
+    <path fill="url(#CATHEON__a)" d="M11.025 15c-.87 0-.936-.83-.86-1.25l-1.08-.36-.85 1.96.514 1.435 2.585 2.795 1.016.3c.15.04.55.12.9.12 4.175 0 5.515-2.565 5.495-3.93 0-.085-.01-.165-.02-.24C18.31 13.13 16.3 13 15.79 13a2.55 2.55 0 0 0-1.29.31C11.65 14.67 11.23 15 11.024 15"/>
+    <path fill="url(#CATHEON__b)" d="M5.25 11.621c0-.44.115-1.1.175-1.375l.475-1.05.76-1.15 5.495-1.26.57 2.78a3.8 3.8 0 0 0-1.72-.565c-.65 0-.745.74-.755 1.01v6.88c0 1.84 1.475 2.77 2.25 3.026-6.85-1.16-7.25-6.9-7.25-8.296"/>
+    <path fill="url(#CATHEON__c)" d="M18.75 7.9c0 2.215-2 3.1-3.05 3.1-.88 0-2.635-.81-4.09-1.625C10.15 8.56 9.01 8 8.485 8c-1.75 0-2.405 1.385-3.07 2.275C6.805 4.67 11.485 4 13.45 4s5.3 1.13 5.3 3.9"/>
     <defs>
-        <linearGradient id="CATHEON__a" x1="20.421" x2="6.115" y1="10.83" y2="10.83" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CATHEON__a" x1="18.737" x2="7.292" y1="11.064" y2="11.064" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6CDBF5"/>
             <stop offset=".27" stop-color="#377EF2"/>
             <stop offset=".71" stop-color="#1E4DA1"/>
             <stop offset=".91" stop-color="#04145E"/>
         </linearGradient>
-        <linearGradient id="CATHEON__b" x1="12.005" x2="12.005" y1="2" y2="22.053" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CATHEON__b" x1="12.004" x2="12.004" y1="4.001" y2="20.044" gradientUnits="userSpaceOnUse">
             <stop offset=".11" stop-color="#330665"/>
             <stop offset=".5" stop-color="#392388"/>
             <stop offset=".71" stop-color="#424BD2"/>
             <stop offset=".92" stop-color="#88BFFD"/>
         </linearGradient>
-        <linearGradient id="CATHEON__c" x1="20.438" x2="4.025" y1="6.938" y2="6.844" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CATHEON__c" x1="18.75" x2="5.62" y1="7.95" y2="7.875" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C767ED"/>
             <stop offset=".15" stop-color="#82018F"/>
             <stop offset=".71" stop-color="#FC5E8E"/>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#VAI__a)">
+        <path fill="url(#VAI__b)" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="m8.52 6.296 3.452 3.376a.32.32 0 0 1 0 .456l-3.456 3.384a.336.336 0 0 1-.468 0l-3.453-3.38a.32.32 0 0 1 0-.456l3.457-3.38a.336.336 0 0 1 .468 0m4.216 4.192 3.452 3.38a.32.32 0 0 1 0 .456l-3.456 3.38a.336.336 0 0 1-.468 0l-3.452-3.376a.32.32 0 0 1 0-.456l3.456-3.384a.336.336 0 0 1 .468 0m4.216-4.192 3.452 3.376a.32.32 0 0 1 .071.351.3.3 0 0 1-.07.105l-3.457 3.384a.336.336 0 0 1-.468 0l-3.452-3.38a.32.32 0 0 1 0-.456l3.456-3.38a.336.336 0 0 1 .468 0"/>
+    </g>
+    <defs>
+        <linearGradient id="VAI__b" x1="19.273" x2="10.1" y1="7.708" y2="16.3" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5C84F9"/>
+            <stop offset=".28" stop-color="#5D70F8"/>
+            <stop offset=".57" stop-color="#5F5BF6"/>
+            <stop offset="1" stop-color="#6349F4"/>
+        </linearGradient>
+        <clipPath id="VAI__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

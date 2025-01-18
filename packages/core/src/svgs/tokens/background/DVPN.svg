@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DVPN__a)">
+        <path fill="#07B3F5" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M19.512 4H4.488v7.753C4.488 15.8 7.852 20 12 20s7.512-4.201 7.512-8.247zm-.537.488H5.025v7.276c0 3.81 3.123 7.748 6.975 7.748s6.975-3.944 6.975-7.748z" clip-rule="evenodd"/>
+        <path fill="#fff" d="M17.365 6.097H6.635v2.988l8.429 5.833-.601.51-7.829-5.275v1.664c0 2.988 2.404 6.084 5.366 6.084 2.94 0 5.328-3.047 5.365-6.015L9.998 6.848h1.417l5.95 4.137z"/>
+    </g>
+    <defs>
+        <clipPath id="DVPN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

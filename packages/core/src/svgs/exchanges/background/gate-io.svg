@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#gate-io__a)">
+        <path fill="#2354E6" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12 16.4a4.4 4.4 0 0 1 0-8.8V4a8 8 0 1 0 8 8h-3.6a4.4 4.4 0 0 1-4.4 4.4"/>
+        <path fill="#17E6A1" d="M16.4 7.6H12V12h4.4z"/>
+    </g>
+    <defs>
+        <clipPath id="gate-io__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

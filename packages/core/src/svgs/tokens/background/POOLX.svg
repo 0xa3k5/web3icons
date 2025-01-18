@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#POOLX__a)">
+        <path fill="#181B1E" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m5.85 16.025 9.09-11.75.79.615-9.085 11.75-.79-.615z"/>
+        <path fill="#fff" d="m19.525 10.32-9.99 2.2L4.3 10.3l.39-.92 4.935 2.1 9.68-2.13.215.975z"/>
+        <path fill="#fff" d="m11.51 19.31 3.17-14.75.975.21-3.165 14.75z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M8.91 5 5.08 9.985l1.375 6.085 5.55 2.81 5.62-2.81 1.3-6.07-3.91-5zm6.59-1H8.415L4 9.75l1.585 7L12 20l6.5-3.25 1.5-7z" clip-rule="evenodd"/>
+        <path fill="#fff" d="M17.61 16.725 8.275 4.9l.785-.62 9.335 11.82-.785.62z"/>
+    </g>
+    <defs>
+        <clipPath id="POOLX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

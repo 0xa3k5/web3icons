@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KDA__a)">
+        <path fill="#6A0097" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M19.428 20h-4.952l-5.08-7.238 2.032-4.19zM4.571 4h4v16h-4z"/>
+        <path fill="#fff" d="M18.54 4h-4.572L8.571 9.5v4.998z"/>
+    </g>
+    <defs>
+        <clipPath id="KDA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

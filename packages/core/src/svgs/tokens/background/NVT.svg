@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#NVT__a)">
+        <path fill="url(#NVT__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="m11.308 6.946-.216.58 3.104 5.492.216-.58zm-1.725 4.63 3.112 5.477.206-.553-3.106-5.496zm3.856 3.471-3.103-5.492.216-.58 3.103 5.493z" clip-rule="evenodd"/>
+        <path fill="#fff" d="M15.69 17.052h-2.997l3.573-9.587a.8.8 0 0 1 .289-.376.8.8 0 0 1 .447-.143H20l-3.574 9.586a.8.8 0 0 1-.288.377.8.8 0 0 1-.448.143m-8.693 0H4l3.573-9.587a.8.8 0 0 1 .289-.376.8.8 0 0 1 .446-.143h2.999l-3.574 9.586a.8.8 0 0 1-.289.377.8.8 0 0 1-.447.143"/>
+        <path fill="#fff" fill-rule="evenodd" d="M11.307 6.946h.004l.432.767-.219.574-.432-.766zm-.328 2.773-.427-.756-.217.58.425.751zm-.768 2.021-.416-.736-.212.571.413.729z" clip-rule="evenodd"/>
+        <path fill="#fff" d="m13.987 11.686.427.756-.221.58-.421-.763zm-.329 2.781-.437-.767-.216.576.438.774zm-.758 2.027-.436-.766-.206.562.435.761z"/>
+    </g>
+    <defs>
+        <linearGradient id="NVT__b" x1="6.287" x2="9.268" y1="12.606" y2="18.721" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4E90E2"/>
+            <stop offset=".857" stop-color="#17E9D9"/>
+        </linearGradient>
+        <clipPath id="NVT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

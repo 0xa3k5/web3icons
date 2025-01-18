@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#BMEX__a)" d="M6.375 3.875 2 20.125h3.75l2.5-10h4.044l1.581-6.25z"/>
-    <path fill="url(#BMEX__b)" d="M18.044 20.125 22 3.875h-3.75l-2.5 10H12l-1.875 6.25z"/>
+    <path fill="url(#BMEX__a)" d="M7.5 5.5 4 18.5h3l2-8h3.235l1.265-5z"/>
+    <path fill="url(#BMEX__b)" d="M16.835 18.5 20 5.5h-3l-2 8h-3l-1.5 5z"/>
     <defs>
-        <linearGradient id="BMEX__a" x1="15.337" x2="15.337" y1="3.875" y2="20.125" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BMEX__a" x1="14.669" x2="14.669" y1="5.5" y2="18.5" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FB2F03"/>
             <stop offset="1" stop-color="#B42600"/>
         </linearGradient>
-        <linearGradient id="BMEX__b" x1="16.062" x2="16.062" y1="3.875" y2="20.125" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BMEX__b" x1="15.25" x2="15.25" y1="5.5" y2="18.5" gradientUnits="userSpaceOnUse">
             <stop stop-color="#2560E2"/>
             <stop offset="1" stop-color="#2253D3"/>
         </linearGradient>

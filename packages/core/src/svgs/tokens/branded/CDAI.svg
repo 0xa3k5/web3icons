@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#CDAI__a)" d="M20.53 4.294A11 11 0 0 0 13.764 2C8.082 2 3.47 6.477 3.47 12c0 5.524 4.611 10 10.294 10a10.48 10.48 0 0 0 6.764-2.447L19.412 18.2a8.73 8.73 0 0 1-5.647 2.035c-4.706 0-8.53-3.688-8.53-8.235s3.824-8.235 8.53-8.235c2.07 0 4.165.706 5.647 1.894z"/>
-    <path fill="url(#CDAI__b)" fill-rule="evenodd" d="M13.765 7.882H10.53v2.942H9.353v.588h1.177v1.176H9.353v.589h1.177v2.352h3.235a3.82 3.82 0 0 0 3.53-2.352h.882v-.589h-.689c.09-.385.12-.782.088-1.176h.6v-.588h-.688a3.824 3.824 0 0 0-3.723-2.942m3.117 4.706c.108-.382.143-.78.106-1.176h-5.87v1.176zm-5.764.589v1.764h2.647a3.24 3.24 0 0 0 2.882-1.764zm0-2.353h5.764a3.236 3.236 0 0 0-3.117-2.353h-2.647z" clip-rule="evenodd"/>
+    <path fill="url(#CDAI__a)" d="M18.824 5.835A8.8 8.8 0 0 0 13.412 4c-4.546 0-8.235 3.581-8.235 8s3.689 8 8.235 8a8.38 8.38 0 0 0 5.412-1.958l-.895-1.082a6.98 6.98 0 0 1-4.517 1.628c-3.765 0-6.824-2.95-6.824-6.588s3.06-6.588 6.824-6.588c1.656 0 3.332.565 4.518 1.515z"/>
+    <path fill="url(#CDAI__b)" fill-rule="evenodd" d="M13.412 8.706h-2.589v2.353h-.94v.47h.94v.942h-.94v.47h.94v1.883h2.589a3.06 3.06 0 0 0 2.823-1.882h.706v-.471h-.55a3 3 0 0 0 .07-.941h.48v-.47h-.55a3.06 3.06 0 0 0-2.98-2.354m2.494 3.765a2.6 2.6 0 0 0 .085-.941h-4.697v.941zm-4.612.47v1.412h2.118a2.59 2.59 0 0 0 2.306-1.411zm0-1.882h4.612a2.59 2.59 0 0 0-2.494-1.882h-2.118z" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="CDAI__a" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CDAI__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#27D3A2"/>
             <stop offset="1" stop-color="#9388FD"/>
         </linearGradient>
-        <linearGradient id="CDAI__b" x1="13.935" x2="13.935" y1="7.882" y2="15.53" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CDAI__b" x1="13.548" x2="13.548" y1="8.706" y2="14.824" gradientUnits="userSpaceOnUse">
             <stop stop-color="#304250"/>
             <stop offset="1" stop-color="#5D6E7D"/>
         </linearGradient>

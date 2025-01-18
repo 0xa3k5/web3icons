@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#LUNA__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#F2E373" d="M11.556 20a7.111 7.111 0 1 0 0-14.222 7.111 7.111 0 0 0 0 14.222"/>
+        <path fill="url(#LUNA__b)" d="M13.779 4c-.596.889-1.747 1.507-2.543 1.782a7.11 7.11 0 0 0-6.702 8.231c.64 1.956 1.97 3.289 3.8 3.391 1.911.111 3.773-.573 4.644-2.675.703-1.69 1.938-2.182 2.467-2.285h4.111l-1-.71c-1.48-1.267-3.769-1.125-4.373-.6a3.3 3.3 0 0 1-1.858.781c-2.271 0-2.47-1.72-2.47-2.124v-.044c-.005-.463-.014-1.792 2.12-2.507a2.75 2.75 0 0 0 1.572-1.182h-.004c.453-.702.355-1.69.236-2.058"/>
+        <path fill="url(#LUNA__c)" d="M17.37 16.987a7.11 7.11 0 0 1-12.81-2.831c.432 1.262 1.712 3.293 4.098 3.249 2.591-.045 3.876-1.662 4.222-2.56.351-.89 1.222-2.08 2.556-2.4-.547.338-1.542 1.266-1.44 2.4.12 1.382 1.235 2.297 3.373 2.142"/>
+    </g>
+    <defs>
+        <linearGradient id="LUNA__b" x1="7.645" x2="16.278" y1="6.576" y2="13.915" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F5C859"/>
+            <stop offset="1" stop-color="#DE3633"/>
+        </linearGradient>
+        <linearGradient id="LUNA__c" x1="9.058" x2="11.578" y1="15.636" y2="20.04" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F3BE56"/>
+            <stop offset="1" stop-color="#E04437"/>
+        </linearGradient>
+        <clipPath id="LUNA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

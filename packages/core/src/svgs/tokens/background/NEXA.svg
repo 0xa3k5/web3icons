@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#NEXA__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#FFFD9D" d="m12 15.058 8-8.47-8 13.176z"/>
+        <path fill="#B6761C" d="m12 15.058-8-8.47 8 13.176z"/>
+        <path fill="#FFE144" d="M20 6.587H4l8 8.47z"/>
+        <path fill="#B6761C" d="M15.293 8.47H8.705L12 11.764z"/>
+        <path fill="#FFFD9D" d="m12 7.803 3.765-3.567L12 10.354z"/>
+        <path fill="#B6761C" d="M12 7.803 8.233 4.236 12 10.354z"/>
+        <path fill="#FFE144" d="M15.764 4.236h-7.53L12 7.803z"/>
+    </g>
+    <defs>
+        <clipPath id="NEXA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

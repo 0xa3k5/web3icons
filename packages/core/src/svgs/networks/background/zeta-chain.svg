@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#zeta-chain__a)">
+        <path fill="#005741" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M16.407 15.482v2.127H7.632c.121-1.4.573-2.385 2.135-3.77l6.64-5.665v4.971h2.39V4H5.205v4.559h2.39V6.39h7.22l-6.607 5.64-.016.014c-2.77 2.452-2.99 4.43-2.99 6.762V20h13.595v-4.517z"/>
+    </g>
+    <defs>
+        <clipPath id="zeta-chain__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

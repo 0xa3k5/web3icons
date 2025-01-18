@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#EPIC__a)" d="M7.294 14.941V9.353l6.765-3.824L12 4.353 4.941 8.176v7.647l7.06 4.118 7.058-3.823v-2.353L12 17.588z"/>
-    <path fill="url(#EPIC__b)" d="m15.236 7 .882-.588 1.765 1.176-.883.588zm-6.177 5.588v-2.059l5.588-3.235 1.765 1.176z"/>
-    <path fill="url(#EPIC__c)" d="m17.589 10.235-7.06 4.118 1.765 1.176 5.294-3.235z"/>
-    <path fill="url(#EPIC__d)" d="M19.059 11.412 17.882 12V9.94l1.177-.588z"/>
-    <path fill="url(#EPIC__e)" fill-rule="evenodd" d="M12 21.412a9.411 9.411 0 1 0 0-18.823 9.411 9.411 0 0 0 0 18.823M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20" clip-rule="evenodd"/>
+    <path fill="url(#EPIC__a)" d="M8.236 14.352v-4.47l5.412-3.06L12 5.883 6.354 8.94v6.118L12 18.352l5.647-3.059v-1.882L12 16.47z"/>
+    <path fill="url(#EPIC__b)" d="m14.589 8 .705-.47 1.412.941-.706.47zm-4.942 4.47v-1.646l4.471-2.588 1.412.94z"/>
+    <path fill="url(#EPIC__c)" d="m16.471 10.587-5.647 3.295 1.412.94 4.235-2.587z"/>
+    <path fill="url(#EPIC__d)" d="m17.647 11.528-.94.471v-1.647l.94-.47z"/>
+    <path fill="url(#EPIC__e)" fill-rule="evenodd" d="M12 19.53a7.53 7.53 0 1 0 0-15.06 7.53 7.53 0 0 0 0 15.058m0 .47a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="EPIC__a" x1="2.417" x2="22.417" y1="15.207" y2="15.207" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EPIC__a" x1="4.334" x2="20.334" y1="14.565" y2="14.565" gradientUnits="userSpaceOnUse">
             <stop stop-color="#B28947"/>
             <stop offset=".16" stop-color="#F9CE97"/>
             <stop offset=".52" stop-color="#B08656"/>
             <stop offset=".83" stop-color="#F7CF89"/>
             <stop offset="1" stop-color="#B68E5D"/>
         </linearGradient>
-        <linearGradient id="EPIC__b" x1="17.334" x2="-.16" y1="7.714" y2="14.636" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EPIC__b" x1="16.267" x2="2.272" y1="8.572" y2="14.109" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CAC5C1"/>
             <stop offset=".47" stop-color="#D3CDCD"/>
             <stop offset="1" stop-color="#6D6D6D"/>
         </linearGradient>
-        <linearGradient id="EPIC__c" x1="26.167" x2="2.299" y1="3.111" y2="14.567" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EPIC__c" x1="23.334" x2="4.24" y1="4.888" y2="14.053" gradientUnits="userSpaceOnUse">
             <stop stop-color="#ACACAC"/>
             <stop offset=".5" stop-color="#E5DDDA"/>
             <stop offset="1" stop-color="#747474"/>
         </linearGradient>
-        <linearGradient id="EPIC__d" x1="22" x2="-35.327" y1="10.889" y2="93.44" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EPIC__d" x1="20" x2="-25.861" y1="11.11" y2="77.151" gradientUnits="userSpaceOnUse">
             <stop stop-color="#ACACAC"/>
             <stop offset=".5" stop-color="#E5DDDA"/>
         </linearGradient>
-        <linearGradient id="EPIC__e" x1="6.706" x2="17" y1="3.765" y2="20.823" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EPIC__e" x1="7.765" x2="16" y1="5.412" y2="19.059" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F4E9CD"/>
             <stop offset="1" stop-color="#F4F2DA"/>
         </linearGradient>

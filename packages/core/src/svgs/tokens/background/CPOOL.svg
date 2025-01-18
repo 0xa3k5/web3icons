@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CPOOL__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#CPOOL__b)" d="M13.271 4a8 8 0 0 0 0 16z"/>
+        <path fill="#fff" d="M13.5 8.342a3.657 3.657 0 1 0 3.217 5.395l2.012 1.097a5.943 5.943 0 1 1 0-5.669l-2.012 1.097a3.66 3.66 0 0 0-3.218-1.92"/>
+        <path fill="url(#CPOOL__c)" d="M13.271 4a8 8 0 0 0 0 16z" opacity=".5"/>
+    </g>
+    <defs>
+        <linearGradient id="CPOOL__b" x1="13.271" x2="11.671" y1="4.453" y2="19.319" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#23B77F"/>
+            <stop offset=".44" stop-color="#2857B3"/>
+            <stop offset=".65" stop-color="#396CC6"/>
+            <stop offset=".82" stop-color="#5AA3EA"/>
+            <stop offset="1" stop-color="#92F5EA"/>
+        </linearGradient>
+        <linearGradient id="CPOOL__c" x1="13.271" x2="11.671" y1="4.453" y2="19.319" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#23B77F"/>
+            <stop offset=".44" stop-color="#2857B3"/>
+            <stop offset=".65" stop-color="#396CC6"/>
+            <stop offset=".82" stop-color="#5AA3EA"/>
+            <stop offset="1" stop-color="#92F5EA"/>
+        </linearGradient>
+        <clipPath id="CPOOL__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#NWC__a)">
+        <path fill="url(#NWC__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 4 7.541 6.405l.447.828L12 5.07l4.012 2.164.447-.828zM5.883 8.46l.942-.55-.473-.812-1.41.821v8.3L11.058 20v-3.39l-3.515-2.194-.5.798 3.074 1.918v1.18l-4.235-2.616zm12.235 0-.943-.55.473-.812 1.41.821v8.3L12.942 20v-3.39l3.515-2.194.5.798-3.074 1.918v1.18l4.236-2.616zM12 6.284l4.459 2.405-.447.828L12 7.354 7.988 9.518l-.447-.828 4.235-2.285zm-1.412 4.304h-.47v-.941h.47v-.47h.941v.47H12v-.47h.941v.47a1.411 1.411 0 0 1 1.155 2.223 1.411 1.411 0 0 1-.92 2.483h-.235v.47H12v-.47h-.47v.47h-.942v-.47h-.47v-.941h.47zm2.824.47a.47.47 0 0 1-.47.471h-1.413v-.94h1.412a.47.47 0 0 1 .47.47m-1.883 2.354v-.942h1.647a.47.47 0 1 1 0 .941z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="NWC__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#35B4E8"/>
+            <stop offset="1" stop-color="#3476BC"/>
+        </linearGradient>
+        <clipPath id="NWC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

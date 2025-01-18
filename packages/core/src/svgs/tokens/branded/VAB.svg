@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#VAB__a)" d="M13.37 20.292a1.118 1.118 0 0 1-1.9 0L2.15 4.767c-.423-.706.106-1.588.953-1.588h16.696c1.705 0 2.758 1.782 1.893 3.187l-2.029 3.311c-.788 1.288-2.146 1.735-3.704 1.735H9.612a.576.576 0 0 0-.553.588c.012.353.294.588.553.588h4.605a2.14 2.14 0 0 1 1.823 3.253z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <path fill="url(#VAB__a)" d="M13.596 18.634a.894.894 0 0 1-1.52 0L4.62 6.214c-.339-.565.085-1.27.762-1.27h13.357c1.364 0 2.207 1.425 1.515 2.55l-1.623 2.648c-.63 1.03-1.717 1.388-2.964 1.388H10.59a.46.46 0 0 0-.443.47c.01.283.236.47.443.47h3.683a1.711 1.711 0 0 1 1.459 2.603z"/>
     <defs>
-        <linearGradient id="VAB__a" x1="4.648" x2="12.576" y1="5.237" y2="19.945" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VAB__a" x1="6.619" x2="12.961" y1="6.59" y2="18.357" gradientUnits="userSpaceOnUse">
             <stop stop-color="#470180"/>
             <stop offset=".82" stop-color="#EF62C9"/>
             <stop offset="1" stop-color="#FFCCF7"/>

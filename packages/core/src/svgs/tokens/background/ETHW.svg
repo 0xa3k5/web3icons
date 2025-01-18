@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ETHW__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#ETHW__b)" d="M12 9.962 6.947 12 12 4z"/>
+        <path fill="url(#ETHW__c)" d="M12 9.962 17.052 12 12 4z"/>
+        <path fill="url(#ETHW__d)" d="m12 14.527-5.053-2.661L12 9.896z"/>
+        <path fill="#FBFCF7" d="m12.004 14.527 5.049-2.661-5.049-1.97z"/>
+        <path fill="#B0B4E9" d="M14.665 8.585 14.4 13.27l-2.46-3.2-2.442 3.314-.286-4.535.122-.004.261 4.194 2.341-3.17 2.358 3.064.249-4.358.126.009z"/>
+        <path fill="url(#ETHW__e)" d="M9.288 9.057a.63.63 0 0 0 .636-.62.63.63 0 0 0-.636-.618.63.63 0 0 0-.636.619c0 .342.285.619.636.619"/>
+        <path fill="#DADCF4" d="M9.431 7.963c.05-.034.16.017.21.046.013.046.034.143-.025.168-.071.03-.063-.05-.134-.075-.072-.03-.122-.093-.055-.14z"/>
+        <path fill="url(#ETHW__f)" d="M12.004 10.535a.63.63 0 0 0 .636-.62.63.63 0 0 0-.636-.618.63.63 0 0 0-.636.619c0 .342.285.619.636.619"/>
+        <path fill="#DADCF4" d="M12.143 9.445c.055-.038.164.012.21.042.018.05.035.147-.02.168-.072.03-.063-.046-.135-.076-.076-.025-.126-.088-.055-.134"/>
+        <path fill="url(#ETHW__g)" d="M14.623 9.057a.63.63 0 0 0 .636-.62.63.63 0 0 0-.636-.618.63.63 0 0 0-.636.619c0 .342.285.619.636.619"/>
+        <path fill="#DADCF4" d="M14.762 7.963c.055-.034.164.017.21.046.017.046.034.143-.02.168-.072.03-.064-.05-.14-.075-.071-.03-.117-.093-.05-.14"/>
+        <path fill="url(#ETHW__h)" d="M14.354 13.828a.627.627 0 0 0 .636-.618.63.63 0 0 0-.636-.62.63.63 0 0 0-.636.62c0 .341.285.618.636.618"/>
+        <path fill="#DADCF4" d="M14.493 12.733c.054-.034.164.017.21.046.017.046.034.143-.021.169-.072.03-.063-.05-.139-.076-.071-.03-.118-.093-.05-.14"/>
+        <path fill="url(#ETHW__i)" d="M9.524 13.828a.627.627 0 0 0 .636-.618.63.63 0 0 0-.636-.62.63.63 0 0 0-.636.62c0 .341.285.618.636.618"/>
+        <path fill="#DADCF4" d="M9.663 12.733c.055-.034.169.017.21.046.018.046.039.143-.02.169-.072.03-.063-.05-.135-.076-.072-.03-.122-.093-.055-.14"/>
+        <path fill="url(#ETHW__j)" d="m12.046 15.705-5.053-2.863L12.046 20z"/>
+        <path fill="#C8CCF7" d="m12 15.705 5.052-2.863L12 20z"/>
+    </g>
+    <defs>
+        <linearGradient id="ETHW__b" x1="7.124" x2="15.335" y1="17.255" y2="7.411" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A795F2"/>
+            <stop offset="1" stop-color="#B7D0E1"/>
+        </linearGradient>
+        <linearGradient id="ETHW__c" x1="6.947" x2="13.987" y1="7.158" y2="18.964" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E1F0F3"/>
+            <stop offset="1" stop-color="#B3DBF5"/>
+        </linearGradient>
+        <linearGradient id="ETHW__d" x1="16.918" x2="7.857" y1="6.691" y2="8.631" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DEE1F9"/>
+            <stop offset="1" stop-color="#D6CDFB"/>
+        </linearGradient>
+        <linearGradient id="ETHW__e" x1="16.483" x2="6.682" y1="7.211" y2="13.031" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C0C7F2"/>
+            <stop offset="1" stop-color="#7890D6"/>
+        </linearGradient>
+        <linearGradient id="ETHW__f" x1="16.45" x2="6.67" y1="7.265" y2="13.044" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C0C7F2"/>
+            <stop offset="1" stop-color="#7890D6"/>
+        </linearGradient>
+        <linearGradient id="ETHW__g" x1="16.45" x2="6.648" y1="7.211" y2="13.031" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C0C7F2"/>
+            <stop offset="1" stop-color="#7890D6"/>
+        </linearGradient>
+        <linearGradient id="ETHW__h" x1="16.45" x2="6.671" y1="7.212" y2="12.991" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C0C7F2"/>
+            <stop offset="1" stop-color="#7890D6"/>
+        </linearGradient>
+        <linearGradient id="ETHW__i" x1="16.484" x2="6.704" y1="7.212" y2="12.991" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C0C7F2"/>
+            <stop offset="1" stop-color="#7890D6"/>
+        </linearGradient>
+        <linearGradient id="ETHW__j" x1="8.025" x2="19.112" y1="4.941" y2="15.919" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6E89D3"/>
+            <stop offset="1" stop-color="#677FF0"/>
+        </linearGradient>
+        <clipPath id="ETHW__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

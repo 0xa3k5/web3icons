@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#UCJL__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#UCJL__b)" d="M12 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14m0 1a8 8 0 1 0 0-16 8 8 0 0 0 0 16"/>
+        <path fill="url(#UCJL__c)" d="M12 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14"/>
+        <path fill="#D7E6F9" d="M12.5 9.75v-3l-3.5 2V10c.25.25.7.5 1.5.5s1.665-.5 2-.75"/>
+        <path fill="#D5DBFB" d="m15 8-2.5 1.75V16l2.5-1.5z"/>
+        <path fill="#fff" d="M10.5 10.5c-.5 0-1.415-.335-1.5-.5v6c.085.25.5.75 1.5.75s1.75-.5 2-.75V9.75c-.5.25-1.365.75-2 .75"/>
+    </g>
+    <defs>
+        <linearGradient id="UCJL__b" x1="19.5" x2="4.75" y1="12" y2="12.25" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#17C8FA"/>
+            <stop offset="1" stop-color="#975DFE"/>
+        </linearGradient>
+        <linearGradient id="UCJL__c" x1="15.5" x2="8.25" y1="6.5" y2="17.5" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#B0AEFF"/>
+            <stop offset="1" stop-color="#278EDD"/>
+        </linearGradient>
+        <clipPath id="UCJL__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

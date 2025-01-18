@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#IDV__a)" d="M9.274 7.682h-.909v2.59a3.636 3.636 0 1 0 .091 4.7l-.486-.876a2.728 2.728 0 1 1 .359-1.869h.945z"/>
-    <path fill="url(#IDV__b)" d="M18.365 16.318a3.637 3.637 0 1 0-2.795-5.964l.513.832a2.728 2.728 0 1 1-.445 1.405l-.728-1.046c-.12.367-.182.75-.181 1.137v3.636h.909v-1.227a3.63 3.63 0 0 0 2.727 1.227"/>
-    <path fill="#14B4FE" d="M2.028 12.227a3.636 3.636 0 0 0 6.428 2.75l-.487-.882a2.727 2.727 0 0 1-5.022-1.868z"/>
-    <path fill="#1EBCFF" fill-rule="evenodd" d="M12.001 16.318a3.636 3.636 0 1 0 0-7.272 3.636 3.636 0 0 0 0 7.272m0-.909a2.727 2.727 0 1 0 0-5.455 2.727 2.727 0 0 0 0 5.455" clip-rule="evenodd"/>
+    <path fill="url(#IDV__a)" d="M9.82 8.545h-.728v2.073a2.91 2.91 0 1 0 .073 3.76l-.39-.702a2.182 2.182 0 1 1 .288-1.495h.756z"/>
+    <path fill="url(#IDV__b)" d="M17.092 15.455a2.91 2.91 0 1 0-2.237-4.771l.411.666a2.182 2.182 0 1 1-.356 1.123l-.582-.836a2.9 2.9 0 0 0-.145.909v2.909h.727v-.982a2.9 2.9 0 0 0 2.182.982"/>
+    <path fill="#14B4FE" d="M4.023 12.182a2.909 2.909 0 0 0 5.142 2.2l-.39-.706a2.182 2.182 0 0 1-4.018-1.494z"/>
+    <path fill="#1EBCFF" fill-rule="evenodd" d="M12 15.455a2.909 2.909 0 1 0 .001-5.818 2.909 2.909 0 0 0 0 5.818m0-.727a2.182 2.182 0 1 0 0-4.364 2.182 2.182 0 0 0 0 4.364" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="IDV__a" x1="16.376" x2="17.096" y1="9.729" y2="13.401" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IDV__a" x1="15.501" x2="16.077" y1="10.182" y2="13.12" gradientUnits="userSpaceOnUse">
             <stop stop-color="#14B4FE"/>
             <stop offset=".66" stop-color="#1A2C58"/>
         </linearGradient>
-        <linearGradient id="IDV__b" x1="-1.126" x2="2.764" y1="15.239" y2="8.481" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IDV__b" x1="1.499" x2="4.611" y1="14.591" y2="9.186" gradientUnits="userSpaceOnUse">
             <stop stop-color="#122543"/>
             <stop offset=".45" stop-color="#173C66"/>
             <stop offset="1" stop-color="#5FC0F0"/>

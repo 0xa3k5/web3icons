@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#FLM__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#FLM__b)" d="m8.954 7.983-.095.105-2.828 3.153c-.49.491-.816.161-.81-.27V8.676c.018-.54.223-1.051.572-1.426s.814-.584 1.299-.583h1.862l-.543.615-.63.701z"/>
+        <path fill="url(#FLM__c)" d="M18.779 9.433a5.25 5.25 0 0 1-1.376 3.404l-6.652 6.651a2 2 0 0 1-1.34.512 3 3 0 0 1-.4-.037l-.39-.121a9.5 9.5 0 0 1-1.219-.521l-.083-.047a.28.28 0 0 1-.112-.232.3.3 0 0 1 .056-.177l7.46-7.47a.6.6 0 0 0 .093-.13q.07-.135.112-.28.02-.091.028-.185a.5.5 0 0 0 .01-.122c0-.33-.132-.647-.366-.88-.234-.235-.55-.465-.881-.465h-2.726l1.832-1.734a.479.479 0 0 0-.26-.875H8.67s.38-.408.529-.557c.335-.363.744-.828 1.19-1.154A5.2 5.2 0 0 1 13.496 4c.662 0 1.318.123 1.935.363l.251.102a5.4 5.4 0 0 1 1.238.79l.074.066h.01a5.3 5.3 0 0 1 1.776 3.953z"/>
+        <path fill="#E35CC7" d="M13.278 6.666H8.736L6.375 8.819a.3.3 0 0 0 .054.464c.05.033.11.05.17.05h5.1l1.971-1.944a.4.4 0 0 0 .085-.256.47.47 0 0 0-.14-.33.48.48 0 0 0-.337-.137m-1.961 1.338a.3.3 0 0 1-.215-.086.3.3 0 0 1-.094-.208.3.3 0 0 1 .14-.247.3.3 0 0 1 .16-.046.3.3 0 0 1 .278.177.29.29 0 0 1-.06.32.3.3 0 0 1-.21.09"/>
+        <path fill="#8961D0" d="m8.67 6.725-2.277 2.05a.325.325 0 0 0 .233.558h.995l2.823-2.608zm2.76 1.358a.297.297 0 1 0 0-.594.297.297 0 0 0 0 .594"/>
+        <path fill="url(#FLM__d)" d="M11.43 8.083a.298.298 0 1 0 .001-.595.298.298 0 0 0 0 .595"/>
+        <path fill="#480061" d="M11.719 7.785a.3.3 0 0 0-.289-.298.32.32 0 0 0-.26.15.31.31 0 0 1 .315-.054.29.29 0 0 1 .178.267v.01a.25.25 0 0 1-.037.139.3.3 0 0 0 .093-.214"/>
+        <path fill="url(#FLM__e)" d="M13.279 6.666h-4.55L6.376 8.819c-.182.183-.046.508.215.513h5.107L13.67 7.39a.4.4 0 0 0 .084-.256.47.47 0 0 0-.14-.33.48.48 0 0 0-.336-.137m-1.974 1.338a.3.3 0 0 1-.277-.181.3.3 0 0 1-.023-.113.3.3 0 0 1 .14-.248.3.3 0 0 1 .16-.045.3.3 0 0 1 .205.09.3.3 0 0 1 .085.203.3.3 0 0 1-.087.203.3.3 0 0 1-.203.09"/>
+        <path fill="url(#FLM__f)" d="M8.726 6.666 6.392 8.782c-.229.209-.187.55.163.55h1.19l2.81-2.666z"/>
+        <path fill="url(#FLM__g)" d="m12.421 9.333 1.227-1.925-1.951 1.925z"/>
+    </g>
+    <defs>
+        <linearGradient id="FLM__b" x1="5.221" x2="18.779" y1="11.966" y2="11.966" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4750D9"/>
+            <stop offset=".41" stop-color="#5C45DC"/>
+            <stop offset="1" stop-color="#8131E1"/>
+        </linearGradient>
+        <linearGradient id="FLM__c" x1="5.221" x2="18.779" y1="11.999" y2="11.999" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E96161"/>
+            <stop offset=".2" stop-color="#E65B76"/>
+            <stop offset=".61" stop-color="#DF4AAC"/>
+            <stop offset="1" stop-color="#D739E6"/>
+        </linearGradient>
+        <linearGradient id="FLM__d" x1="5.197" x2="18.61" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#B100D3"/>
+            <stop offset=".23" stop-color="#9C00C0"/>
+            <stop offset=".69" stop-color="#67008E"/>
+            <stop offset="1" stop-color="#40006A"/>
+        </linearGradient>
+        <linearGradient id="FLM__e" x1="5.215" x2="18.78" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D0D7D3"/>
+            <stop offset=".52" stop-color="#D9C5E8"/>
+            <stop offset="1" stop-color="#E3B1FF"/>
+        </linearGradient>
+        <linearGradient id="FLM__f" x1="5.362" x2="18.777" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#B277EC"/>
+            <stop offset=".77" stop-color="#9336E7"/>
+            <stop offset="1" stop-color="#8921E6"/>
+        </linearGradient>
+        <linearGradient id="FLM__g" x1="11.819" x2="13.748" y1="8.47" y2="8.47" gradientUnits="userSpaceOnUse">
+            <stop stop-opacity=".5"/>
+            <stop offset=".1" stop-color="#201322" stop-opacity=".59"/>
+            <stop offset=".25" stop-color="#4A2C4E" stop-opacity=".72"/>
+            <stop offset=".4" stop-color="#6D4173" stop-opacity=".82"/>
+            <stop offset=".55" stop-color="#885190" stop-opacity=".9"/>
+            <stop offset=".85" stop-color="#A664B0"/>
+        </linearGradient>
+        <clipPath id="FLM__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

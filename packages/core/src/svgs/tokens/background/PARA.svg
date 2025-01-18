@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PARA__a)">
+        <path fill="url(#PARA__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m4.822 10.106 7.107 3.838c.35.19.78.19 1.13 0l6.122-3.313a1.51 1.51 0 0 0 0-2.684l-6.997-3.77a1.46 1.46 0 0 0-1.39 0l-5.977 3.25a1.51 1.51 0 0 0 0 2.679z"/>
+        <path fill="#fff" d="m6.33 12.516 5.668 2.999c.375.2.835.2 1.2-.015l4.363-2.514 1.615.87a1.51 1.51 0 0 1 0 2.683l-6.118 3.314c-.35.19-.78.195-1.13 0L4.821 16.02a1.509 1.509 0 0 1-.005-2.684z"/>
+    </g>
+    <defs>
+        <linearGradient id="PARA__b" x1="3.998" x2="18.267" y1="12.145" y2="12.082" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#02DAFF"/>
+            <stop offset="1" stop-color="#5414F1"/>
+        </linearGradient>
+        <clipPath id="PARA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

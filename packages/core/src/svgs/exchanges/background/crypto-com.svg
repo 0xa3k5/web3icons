@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#crypto-com__a)">
+        <path fill="#03316C" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M14.736 16.878h-.99l-1.175-1.085v-.556l1.22-1.162v-1.851l1.596-1.041 1.82 1.373zM10.65 13.96l.185-1.737-.6-1.557h3.53l-.587 1.557.166 1.737zm.804 1.832-1.175 1.099H9.277l-2.484-4.335 1.833-1.36 1.609 1.027v1.852l1.22 1.162zm-2.19-8.331h5.46l.65 2.777H8.626zM11.997 4 5.069 8.003v8L11.997 20l6.934-3.997v-8z"/>
+    </g>
+    <defs>
+        <clipPath id="crypto-com__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

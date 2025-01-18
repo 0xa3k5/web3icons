@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#SHA__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#SHA__b)" d="M12.2 4.036a.53.53 0 0 0-.389 0q-2.702.973-5.401 1.953c-.22.084-.352.268-.352.393v5.033c0 3.134.834 4.67 1.785 5.805 1.853 1.987 3.796 2.618 3.971 2.733.13.085.317.036.395 0 1.696-.745 3.215-1.887 3.938-2.733 1.428-1.675 1.795-3.174 1.795-5.806V6.337c0-.204-.2-.317-.3-.349z"/>
+        <path fill="url(#SHA__c)" d="M12.184 4.49a.48.48 0 0 0-.358 0Q9.33 5.407 6.84 6.33c-.203.079-.325.252-.325.37v4.745c0 2.955.77 4.402 1.647 5.473 1.711 1.873 3.504 2.468 3.666 2.577.12.08.293.033.365 0 1.565-.703 2.968-1.779 3.634-2.577 1.319-1.579 1.658-2.992 1.658-5.473V6.659c0-.192-.185-.299-.278-.328z"/>
+        <path fill="url(#SHA__d)" d="M12.169 4.946a.43.43 0 0 0-.329 0q-2.286.86-4.57 1.73c-.186.073-.298.236-.298.347v4.457c0 2.776.705 4.136 1.51 5.14 1.568 1.76 3.212 2.32 3.36 2.422.11.075.269.032.335 0 1.434-.66 2.72-1.671 3.331-2.421 1.208-1.483 1.52-2.81 1.52-5.141V6.985c0-.181-.17-.282-.255-.309z"/>
+        <path fill="url(#SHA__e)" d="M12.667 11.141a1.371 1.371 0 1 0-1.346-.006l-.692 2.922h2.742z"/>
+    </g>
+    <defs>
+        <linearGradient id="SHA__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#132368"/>
+            <stop offset="1" stop-color="#B02CBC"/>
+        </linearGradient>
+        <linearGradient id="SHA__c" x1="12" x2="12" y1="3.999" y2="19.999" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F8F9FB"/>
+            <stop offset="1" stop-color="#AF2CBB"/>
+        </linearGradient>
+        <linearGradient id="SHA__d" x1="12" x2="12" y1="3.999" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#1B246C"/>
+            <stop offset=".496" stop-color="#A27DC3"/>
+            <stop offset="1" stop-color="#FAEFFD"/>
+        </linearGradient>
+        <linearGradient id="SHA__e" x1="12.007" x2="12.007" y1="8.637" y2="14.137" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#31237B"/>
+            <stop offset="1" stop-color="#72259E"/>
+        </linearGradient>
+        <clipPath id="SHA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#boba__a)">
+        <path fill="#B0B1AC" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.044 14.665H4.749V4h7.295a4.534 4.534 0 0 1 4.529 4.535v1.595a4.535 4.535 0 0 1-4.53 4.535"/>
+        <path fill="#fff" d="M13.919 20h-9.17v-5.335a5.327 5.327 0 0 1 5.329-5.33h3.84a5.333 5.333 0 1 1 0 10.665"/>
+        <path fill="#fff" d="M16.573 10.04v.09a4.535 4.535 0 0 1-4.535 4.535H4.75a5.33 5.33 0 0 1 5.329-5.33h3.84c.97 0 1.876.26 2.655.705"/>
+    </g>
+    <defs>
+        <clipPath id="boba__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

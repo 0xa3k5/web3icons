@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#BTSE__a)">
+        <path fill="url(#BTSE__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.332 16.8c1.357 0 2.139-.687 2.139-1.6 0-.846-.69-1.6-2.186-1.6H9.333v3.2zm-.599-6.4c1.358 0 2.07-.688 2.07-1.6 0-.845-.735-1.6-2.07-1.6h-2.4v3.2zM5.067 4h7.724c2.024 0 3.451.699 4.394 1.611.644.624 1.035 1.448 1.035 2.516v.044c0 1.803-1.058 2.871-2.484 3.473 1.955.623 3.197 1.691 3.197 3.806v.044c0 2.672-2.254 4.506-6.096 4.506h-7.77z"/>
+    </g>
+    <defs>
+        <linearGradient id="BTSE__b" x1="6.181" x2="19.019" y1="3.429" y2="19.86" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#007CD0"/>
+            <stop offset="1" stop-color="#004EAE"/>
+        </linearGradient>
+        <clipPath id="BTSE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

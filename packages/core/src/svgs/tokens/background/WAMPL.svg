@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#WAMPL__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M20 19.733h-5.867V19.2c1.334-.24 1.2-.96.87-1.856L11.467 7.2C10.133 10.085 7.2 16.672 7.2 17.867c0 1.194 1.6 1.333 2.133 1.333v.533H4V19.2c1.067 0 2-1.259 2.336-1.856L12 4.267c1.227 2.789 3.867 9.493 4.667 11.882.8 2.39 2.56 3.051 3.333 3.051z"/>
+    </g>
+    <defs>
+        <clipPath id="WAMPL__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

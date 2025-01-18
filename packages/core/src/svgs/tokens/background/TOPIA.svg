@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TOPIA__a)">
+        <path fill="url(#TOPIA__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4.533 4H10.4v5.333h3.2V4h5.867v16H13.6v-5.333h-3.2V20H4.533z"/>
+    </g>
+    <defs>
+        <linearGradient id="TOPIA__b" x1="6.731" x2="17.352" y1="5.694" y2="17.59" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFA708"/>
+            <stop offset=".25" stop-color="#D9FE35"/>
+            <stop offset=".51" stop-color="#9CFDDE"/>
+            <stop offset=".73" stop-color="#E4B685"/>
+            <stop offset="1" stop-color="#F66AFF"/>
+        </linearGradient>
+        <clipPath id="TOPIA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

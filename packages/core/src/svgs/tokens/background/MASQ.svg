@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MASQ__a)">
+        <path fill="url(#MASQ__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M16.921 5.955c-2.583-2.607-7.256-2.607-9.84 0-2.582 2.606-2.582 7.237 0 9.848l2.177 1.82v-1.67c0-.95.517-2.555 1.98-3.858q1.484-1.32 2.99-2.61l.06.118-2.254 2.167c-.458.595-1.372 2.163-1.372 3.685 0 1.65.622 3.256 1.705 4.545l4.554-4.6a6.73 6.73 0 0 0 0-9.445"/>
+    </g>
+    <defs>
+        <linearGradient id="MASQ__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00C0FF"/>
+            <stop offset="1" stop-color="#0188FE"/>
+        </linearGradient>
+        <clipPath id="MASQ__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

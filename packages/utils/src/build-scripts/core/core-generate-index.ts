@@ -26,47 +26,25 @@ export function generateIndex() {
 
   let svgsIndexContent = ''
 
-  // Process branded and mono for both token and network
-  svgsIndexContent += createExports(
-    readSvgFilesFromDirectory(path.join(SVG_TOKENS_OUT_DIR, 'branded')),
-    'token',
-    'branded',
-  )
-  svgsIndexContent += createExports(
-    readSvgFilesFromDirectory(path.join(SVG_TOKENS_OUT_DIR, 'mono')),
-    'token',
-    'mono',
-  )
-  svgsIndexContent += createExports(
-    readSvgFilesFromDirectory(path.join(SVG_NETWORKS_OUT_DIR, 'branded')),
-    'network',
-    'branded',
-  )
-  svgsIndexContent += createExports(
-    readSvgFilesFromDirectory(path.join(SVG_NETWORKS_OUT_DIR, 'mono')),
-    'network',
-    'mono',
-  )
-  svgsIndexContent += createExports(
-    readSvgFilesFromDirectory(path.join(SVG_WALLETS_OUT_DIR, 'branded')),
-    'wallet',
-    'branded',
-  )
-  svgsIndexContent += createExports(
-    readSvgFilesFromDirectory(path.join(SVG_WALLETS_OUT_DIR, 'mono')),
-    'wallet',
-    'mono',
-  )
-  svgsIndexContent += createExports(
-    readSvgFilesFromDirectory(path.join(SVG_EXCHANGES_OUT_DIR, 'branded')),
-    'exchange',
-    'branded',
-  )
-  svgsIndexContent += createExports(
-    readSvgFilesFromDirectory(path.join(SVG_EXCHANGES_OUT_DIR, 'mono')),
-    'exchange',
-    'mono',
-  )
+  const directories = [
+    { dir: SVG_TOKENS_OUT_DIR, type: 'token' },
+    { dir: SVG_NETWORKS_OUT_DIR, type: 'network' },
+    { dir: SVG_WALLETS_OUT_DIR, type: 'wallet' },
+    { dir: SVG_EXCHANGES_OUT_DIR, type: 'exchange' },
+  ]
+
+  const variants = ['branded', 'mono', 'background']
+
+  directories.forEach(({ dir, type }) => {
+    variants.forEach((variant) => {
+      svgsIndexContent += createExports(
+        readSvgFilesFromDirectory(path.join(dir, variant)),
+        type as TType,
+        variant as TVariant,
+      )
+    })
+  })
+
   console.log(`✓ Generated: svgs index at ${path.join(ROOT_CORE, 'src/svgs/index.ts')}`)
   fs.writeFileSync(path.join(ROOT_CORE, 'src/svgs/index.ts'), svgsIndexContent)
 }

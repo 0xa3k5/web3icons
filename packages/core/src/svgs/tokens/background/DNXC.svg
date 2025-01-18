@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DNXC__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#E97E00" d="M4 20h11.733v-1.067H16.8v-1.066h1.067V16.8h1.066v-1.067H20V8.267h-1.067V7.2h-1.066V6.133H16.8V5.067h-1.067V4H8.267v1.067H7.2v1.066H6.133V7.2H5.067v1.067H4z"/>
+        <path fill="#FC0" d="M5.066 18.932h9.6v-1.066h1.067v-1.067H16.8v-1.067h1.066v-1.066h1.067V9.332h-1.067V8.266H16.8V7.199h-1.067V6.132h-1.067V5.066H9.333v1.066H8.266V7.2H7.2v1.067H6.133v1.066H5.066z"/>
+        <path fill="url(#DNXC__b)" d="M4 20v-3.697h1.056v-2.17H5.6v-1.067h1.067v-2.133h1.066V8.266H8.8V7.2h1.067V6.133H13.6v1.066h1.067v1.067H16.8v1.067h1.067v2.666H15.2v-1.066h-2.133v1.066h1.066v1.067H15.2v1.067h1.067v1.066h-3.2v-1.066H12v-1.067h-1.067v1.067H9.867v1.6H12v1.066h1.067v1.067h-2.134V16.8H8.8V20z"/>
+        <path fill="#6C6C6C" d="M15.733 9.865v1.067H16.8V9.865z"/>
+        <path fill="#fff" d="M12 7.733V8.8h1.067V7.733z"/>
+    </g>
+    <defs>
+        <linearGradient id="DNXC__b" x1="6.978" x2="23.471" y1="6.775" y2="25.716" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#1A1E21"/>
+            <stop offset="1" stop-color="#06060A"/>
+        </linearGradient>
+        <clipPath id="DNXC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

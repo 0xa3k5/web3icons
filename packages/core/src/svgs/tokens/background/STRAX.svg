@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#STRAX__a)">
+        <path fill="url(#STRAX__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11.75 4.778a.47.47 0 0 1 .5 0l7.529 4.705a.47.47 0 0 1-.02.81l-7.528 4.235a.47.47 0 0 1-.462 0l-6.828-3.84v1.27L12 15.93l7.299-4.103a.472.472 0 0 1 .7.41v2.117a.47.47 0 0 1-.23.405l-7.53 4.47a.47.47 0 0 1-.47.005L4.24 14.999a.471.471 0 0 1 .461-.82l7.294 4.1 7.064-4.184v-1.059l-6.828 3.84a.47.47 0 0 1-.462 0L4.24 12.641a.47.47 0 0 1-.24-.41V9.88a.47.47 0 0 1 .221-.4l7.53-4.706zM5.394 9.86 12 13.578l6.607-3.718L12 5.733z"/>
+    </g>
+    <defs>
+        <linearGradient id="STRAX__b" x1="12" x2="12" y1="4.706" y2="19.294" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#1B71BD"/>
+            <stop offset="1" stop-color="#10449E"/>
+        </linearGradient>
+        <clipPath id="STRAX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

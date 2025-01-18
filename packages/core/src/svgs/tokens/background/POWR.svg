@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#POWR__a)">
+        <path fill="#45DAE2" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11.958 4 14.6 6.644l-2.643 2.648-2.65-2.643z" opacity=".9"/>
+        <path fill="#fff" d="m7.971 5.106 3.632.891-.89 3.638-3.633-.891.891-3.644z" opacity=".85"/>
+        <path fill="#fff" d="m15.907 5.075-2.18.586.984.99-1.777 1.776.336 1.239 3.614-.977z" opacity=".3"/>
+        <path fill="#fff" d="m18.775 7.944-.89 3.632-3.64-.885.892-3.638z" opacity=".35"/>
+        <path fill="#fff" d="m19.935 11.936-2.588 2.711-2.704-2.582 2.588-2.71 2.704 2.588z" opacity=".4"/>
+        <path fill="#fff" d="m18.837 16.067-3.632.904-.903-3.632 3.632-.904z" opacity=".45"/>
+        <path fill="#fff" d="m15.955 18.895-3.632-.892.886-3.625 3.637.89-.89 3.633z" opacity=".5"/>
+        <path fill="#fff" d="m11.97 20-2.644-2.644 2.644-2.649 2.649 2.649z" opacity=".55"/>
+        <path fill="#fff" d="m8.026 18.985-.977-3.614 3.608-.976.977 3.607-3.608.977z" opacity=".6"/>
+        <path fill="#fff" d="m5.102 15.964.885-3.632 3.638.891-.891 3.632-3.638-.89z" opacity=".65"/>
+        <path fill="#fff" d="m4.065 12.094 2.643-2.649 2.649 2.65-2.643 2.643z" opacity=".7"/>
+        <path fill="#fff" d="m5.042 7.95 3.62-.897.902 3.632-3.632.903-.903-3.632z" opacity=".75"/>
+    </g>
+    <defs>
+        <clipPath id="POWR__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

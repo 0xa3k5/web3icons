@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#DAO__a)" d="M2 19.81 9.054 6.866l6.227-2.703-7.065 12.935z"/>
-    <path fill="url(#DAO__b)" d="m9.032 16.86 5.351-9.833 3.065 2.962-5.297 9.849z"/>
-    <path fill="url(#DAO__c)" d="M18.038 10.276 22 11.708l-1.984 3.584-4.805.162z"/>
+    <path fill="url(#DAO__a)" d="M4 18.248 9.643 7.892l4.982-2.162-5.652 10.348z"/>
+    <path fill="url(#DAO__b)" d="m9.625 15.888 4.281-7.866 2.452 2.37-4.238 7.878z"/>
+    <path fill="url(#DAO__c)" d="M16.83 10.622 20 11.768l-1.587 2.867-3.845.13z"/>
     <defs>
-        <linearGradient id="DAO__a" x1="2" x2="22" y1="11.997" y2="11.997" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DAO__a" x1="4" x2="20" y1="11.998" y2="11.998" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4086FF"/>
             <stop offset="1" stop-color="#48D4FF"/>
         </linearGradient>
-        <linearGradient id="DAO__b" x1="1.999" x2="21.999" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DAO__b" x1="3.999" x2="19.999" y1="12" y2="12" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4086FF"/>
             <stop offset="1" stop-color="#48D4FF"/>
         </linearGradient>
-        <linearGradient id="DAO__c" x1="15.211" x2="22" y1="12.87" y2="12.87" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DAO__c" x1="14.568" x2="20" y1="12.697" y2="12.697" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4086FF"/>
             <stop offset="1" stop-color="#48D4FF"/>
         </linearGradient>

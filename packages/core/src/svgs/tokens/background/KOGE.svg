@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KOGE__a)">
+        <path fill="#FFC800" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0-.941a7.06 7.06 0 1 0 0-14.12 7.06 7.06 0 0 0 0 14.12" clip-rule="evenodd"/>
+        <path fill="#fff" d="M9.176 8.608v7.61l1.412-.754v-6.07zm2.353 4.696 1.063.81-1.063.706z"/>
+        <path fill="#fff" d="m12.597 11.067 1.167.847-.95.612 1.195.946 2.226-1.304-5.84-4.306-1.22.72 2.354 1.709v1.435z"/>
+    </g>
+    <defs>
+        <clipPath id="KOGE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

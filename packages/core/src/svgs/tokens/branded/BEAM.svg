@@ -1,26 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#0B76FF" d="M12 16.5h4.15L12 9.5V5l8.5 14H12z"/>
-    <path fill="#24C1FF" d="M12 16.5H7.83l4.17-7V5L3.5 19H12z"/>
-    <path fill="#39FFF2" d="M12 11.5v4H9.5z"/>
-    <path fill="#00E2C2" d="M12 11.5v4h2.5z"/>
-    <path fill="url(#BEAM__a)" d="M2 9.38 11.99 14v.485L2 12.3z"/>
-    <path fill="url(#BEAM__b)" d="m22 8.035-10.01 5.97v.165L22 9.965z"/>
-    <path fill="url(#BEAM__c)" d="m22 13.82-10.01.67v-.16L22 11.89z"/>
-    <path fill="url(#BEAM__d)" d="m22 9.965-10.01 4.2v.165L22 11.89z"/>
+    <path fill="#0B76FF" d="M12 15.6h3.32L12 10V6.4l6.8 11.2H12z"/>
+    <path fill="#24C1FF" d="M12 15.6H8.664L12 10V6.4L5.2 17.6H12z"/>
+    <path fill="#39FFF2" d="M12 11.6v3.2h-2z"/>
+    <path fill="#00E2C2" d="M12 11.6v3.2h2z"/>
+    <path fill="url(#BEAM__a)" d="m4 9.905 7.992 3.696v.388L4 12.24z"/>
+    <path fill="url(#BEAM__b)" d="m20 8.828-8.008 4.776v.132L20 10.372z"/>
+    <path fill="url(#BEAM__c)" d="m20 13.457-8.008.535v-.128L20 11.913z"/>
+    <path fill="url(#BEAM__d)" d="m20 10.372-8.008 3.36v.132L20 11.912z"/>
     <defs>
-        <linearGradient id="BEAM__a" x1="2.01" x2="12.961" y1="12.034" y2="12.034" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BEAM__a" x1="4.008" x2="12.769" y1="12.028" y2="12.028" gradientUnits="userSpaceOnUse">
             <stop stop-color="#fff" stop-opacity="0"/>
             <stop offset="1" stop-color="#fff"/>
         </linearGradient>
-        <linearGradient id="BEAM__b" x1="21.88" x2="9.163" y1="11.971" y2="11.971" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BEAM__b" x1="19.904" x2="9.73" y1="11.977" y2="11.977" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FD76FD" stop-opacity="0"/>
             <stop offset="1" stop-color="#FF51FF"/>
         </linearGradient>
-        <linearGradient id="BEAM__c" x1="22.09" x2="11.79" y1="12.027" y2="12.027" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BEAM__c" x1="20.072" x2="11.832" y1="12.022" y2="12.022" gradientUnits="userSpaceOnUse">
             <stop stop-color="#9D6EFF" stop-opacity="0"/>
             <stop offset="1" stop-color="#A18CFF"/>
         </linearGradient>
-        <linearGradient id="BEAM__d" x1="21.99" x2="16.1" y1="12.155" y2="12.155" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BEAM__d" x1="19.992" x2="15.28" y1="12.124" y2="12.124" gradientUnits="userSpaceOnUse">
             <stop stop-color="#AE60D6" stop-opacity="0"/>
             <stop offset="1" stop-color="#AB38E6"/>
         </linearGradient>

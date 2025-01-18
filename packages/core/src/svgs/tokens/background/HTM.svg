@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#HTM__a)">
+        <path fill="url(#HTM__b)" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M6.623 8.027c-1.014-1.158-.614-2.987-.283-3.76-.517.192-1.84 1.205-1.84 3.76 0 2.89 3.253 4.192 4.672 5.781 1.419 1.59 1.84 5.925 3.253 5.925 1.42 0 2.07-4.736 3.403-5.925 1.13-1.013 4.672-3.04 4.672-5.781 0-2.198-1.227-3.424-1.84-3.76 1.019 1.504.283 2.89-.565 3.76-2.832 3.178-5.099 2.026-5.664 4.768-.283-2.747-4.534-3.323-5.808-4.768"/>
+    </g>
+    <defs>
+        <linearGradient id="HTM__b" x1="12.5" x2="12.5" y1="4.267" y2="19.733" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#64EAB7"/>
+            <stop offset="1" stop-color="#33CBF0"/>
+        </linearGradient>
+        <clipPath id="HTM__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

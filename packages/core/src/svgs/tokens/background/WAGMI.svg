@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#WAGMI__a)">
+        <path fill="url(#WAGMI__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4.103 5.143H4V10.6l8 6.868 8-7.24V5.177l-8 6.663zm12.263 0L12 8.914 7.634 5.143zM20 13.668l-6.171 5.189H20zm-9.771 5.189L4 13.486v5.37z"/>
+    </g>
+    <defs>
+        <linearGradient id="WAGMI__b" x1="4" x2="19.254" y1="10.922" y2="10.922" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DCC093"/>
+            <stop offset="1" stop-color="#C4A878"/>
+        </linearGradient>
+        <clipPath id="WAGMI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

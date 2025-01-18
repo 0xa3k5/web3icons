@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KLIMA__a)">
+        <path fill="#00CD34" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="m20 4.5-7.995 12-7.99-12zm-1.94 1-6.06 9-6.06-9z" clip-rule="evenodd"/>
+        <path fill="#fff" d="m11.995 7.5 7.99 12H15.5v-1h2.56L12 9.5l-6.06 9H8.5v1H4z"/>
+        <path fill="#fff" d="M5 11.5h14v1H5z"/>
+    </g>
+    <defs>
+        <clipPath id="KLIMA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

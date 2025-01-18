@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PENDLE__a)">
+        <path fill="#152E51" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M7.917 15.244a4.4 4.4 0 0 0-2.576 1.212A7.96 7.96 0 0 1 4 12.02a8 8 0 0 1 3.917-6.88zm.981 0a4.4 4.4 0 0 1 3.89 4.737 8 8 0 1 0-3.89-15.338z"/>
+    </g>
+    <defs>
+        <clipPath id="PENDLE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

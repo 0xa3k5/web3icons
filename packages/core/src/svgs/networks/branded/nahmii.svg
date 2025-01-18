@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#nahmii__a)" d="m10.245 3.46-.89.5v2.304a.86.86 0 0 0 .265.592.88.88 0 0 0 1.217 0 .85.85 0 0 0 .264-.592V3.948c.002-.536-.384-.755-.856-.489"/>
-    <path fill="url(#nahmii__b)" d="m13.756 3.46.889.5v2.304a.85.85 0 0 1-.264.592.88.88 0 0 1-1.218 0 .85.85 0 0 1-.264-.592V3.948c0-.536.385-.755.857-.489"/>
-    <path fill="url(#nahmii__c)" d="m5.206 5.441.89.506 3.259-1.851.89-.502c.47-.267.857-.047.857.488v-.824c0-.478-.226-.892-.604-1.106s-.856-.2-1.277.038L5.185 4.482c-.45.268-.443.696.021.96"/>
-    <path fill="url(#nahmii__d)" d="m18.794 5.441-.89.506-3.26-1.851-.888-.502c-.472-.266-.857-.047-.857.488v-.824c0-.478.226-.892.605-1.106.378-.215.856-.2 1.276.038l4.037 2.292c.448.268.441.696-.023.96"/>
-    <path fill="url(#nahmii__e)" d="m5.385 17.683.886.505 2.028-1.152a.87.87 0 0 0 .416-.521.845.845 0 0 0-.312-.911.88.88 0 0 0-.653-.167.9.9 0 0 0-.324.113l-2.041 1.158c-.47.268-.471.707 0 .975"/>
-    <path fill="url(#nahmii__f)" d="m3.63 14.694-.003-1.006 2.028-1.153a.9.9 0 0 1 .663-.086.87.87 0 0 1 .53.4.85.85 0 0 1 .087.652.86.86 0 0 1-.407.52l-2.041 1.16c-.47.267-.857.048-.858-.487"/>
-    <path fill="url(#nahmii__g)" d="M9.65 20.982v-1.01l-3.26-1.851-.885-.505c-.471-.269-.47-.707 0-.975l-.725.412c-.42.239-.672.638-.672 1.069s.251.828.672 1.068l4.036 2.29c.461.248.834.03.834-.498"/>
-    <path fill="url(#nahmii__h)" d="m2.856 9.412.89.505v3.703l.002 1.007c0 .535.387.754.859.486l-.725.412c-.42.239-.898.253-1.276.038C2.228 15.35 2 14.935 2 14.457V9.874c.012-.517.392-.725.856-.462"/>
-    <path fill="url(#nahmii__i)" d="m20.371 14.693.003-1.005-2.029-1.152a.884.884 0 0 0-1.2.31.85.85 0 0 0 .327 1.177l2.042 1.158c.47.266.856.048.857-.488"/>
-    <path fill="url(#nahmii__j)" d="m18.615 17.683-.885.506-2.03-1.152a.87.87 0 0 1-.415-.522.85.85 0 0 1 .312-.91.88.88 0 0 1 .653-.168.9.9 0 0 1 .324.113l2.041 1.159c.47.267.471.706 0 .974"/>
-    <path fill="url(#nahmii__k)" d="m21.145 9.412-.89.505v3.703l-.003 1.007c0 .535-.387.754-.859.486l.725.412c.42.239.898.253 1.276.038.378-.214.604-.628.604-1.106V9.874c-.01-.517-.39-.725-.854-.462"/>
-    <path fill="url(#nahmii__l)" d="M14.35 20.982v-1.01l3.26-1.851.886-.505c.47-.269.47-.707 0-.975l.724.412c.421.239.672.638.672 1.069s-.25.828-.672 1.068l-4.037 2.292c-.46.246-.833.027-.833-.5"/>
-    <path fill="url(#nahmii__m)" d="m19.396 4.812-.7-.398c.45.27.443.697-.02.96L13.839 8.12c-.49.278-1.165.415-1.84.413-.674-.002-1.35-.135-1.838-.413L5.326 5.374c-.464-.263-.47-.69-.021-.96l-.702.398c-.42.239-.672.638-.672 1.068s.252.829.672 1.069l4.685 2.659c.758.43 1.728.644 2.7.644h.025c.972 0 1.943-.215 2.7-.644l4.685-2.66c.421-.238.672-.637.672-1.068 0-.43-.253-.83-.674-1.068"/>
-    <path fill="url(#nahmii__n)" d="M2 9.214v.794c.012-.518.392-.725.856-.462l4.836 2.746c.489.277.948.784 1.284 1.36s.556 1.218.556 1.772v5.491c0 .527-.374.745-.835.498l.7.397c.42.239.898.253 1.276.039.379-.215.604-.629.604-1.106v-5.32c0-.858-.296-1.792-.782-2.62l-.006-.01-.006-.01c-.486-.829-1.161-1.548-1.917-1.976L3.88 8.147c-.421-.24-.898-.254-1.277-.04C2.226 8.323 2 8.735 2 9.215"/>
-    <path fill="url(#nahmii__o)" d="m14.604 21.81.699-.397c-.46.248-.835.029-.835-.498v-5.491c0-.555.217-1.198.556-1.773.339-.574.794-1.082 1.284-1.36l4.836-2.746c.464-.263.844-.054.856.463v-.794c0-.478-.226-.892-.604-1.106-.379-.215-.856-.2-1.277.038l-4.684 2.66c-.758.43-1.431 1.15-1.917 1.976l-.006.01-.006.01c-.486.828-.783 1.763-.783 2.62v5.32c0 .478.226.892.604 1.107.379.215.857.2 1.277-.039"/>
+    <path fill="url(#nahmii__a)" d="m10.596 5.167-.711.402V7.41c.005.18.08.349.21.474a.704.704 0 0 0 .975 0 .68.68 0 0 0 .21-.474V5.558c.003-.428-.306-.604-.684-.39"/>
+    <path fill="url(#nahmii__b)" d="m13.405 5.167.71.402V7.41a.68.68 0 0 1-.21.474.705.705 0 0 1-.974 0 .68.68 0 0 1-.211-.474V5.558c0-.428.307-.604.685-.39"/>
+    <path fill="url(#nahmii__c)" d="m6.565 6.753.71.404 2.609-1.48.711-.402c.377-.213.686-.038.686.39v-.659c0-.382-.18-.713-.483-.885s-.685-.16-1.021.031l-3.23 1.833c-.359.215-.354.557.018.768"/>
+    <path fill="url(#nahmii__d)" d="m17.435 6.753-.711.404-2.608-1.48-.711-.402c-.378-.213-.685-.038-.685.39v-.659c0-.382.18-.713.483-.885s.685-.16 1.021.031l3.23 1.833c.358.215.353.557-.019.768"/>
+    <path fill="url(#nahmii__e)" d="m6.708 16.546.708.404 1.623-.921a.7.7 0 0 0 .333-.417.68.68 0 0 0-.25-.73.7.7 0 0 0-.781-.042l-1.633.927c-.377.214-.377.565 0 .78"/>
+    <path fill="url(#nahmii__f)" d="m5.303 14.155-.001-.805 1.622-.922a.71.71 0 0 1 .954.251.677.677 0 0 1-.256.938l-1.633.927c-.376.214-.685.039-.686-.39"/>
+    <path fill="url(#nahmii__g)" d="M10.12 19.186v-.808l-2.608-1.482-.708-.404c-.377-.214-.376-.565 0-.78l-.58.33c-.336.191-.537.51-.537.855s.2.663.537.855l3.23 1.832c.368.198.666.023.666-.398"/>
+    <path fill="url(#nahmii__h)" d="m4.685 9.93.711.403v2.963l.002.806c0 .428.31.603.687.388l-.58.33c-.336.19-.718.202-1.02.03-.303-.171-.485-.502-.485-.884v-3.667c.01-.413.313-.58.685-.37"/>
+    <path fill="url(#nahmii__i)" d="m18.697 14.155.002-.805-1.623-.921a.706.706 0 0 0-.96.248.68.68 0 0 0 .262.941l1.633.927c.376.213.685.038.686-.39"/>
+    <path fill="url(#nahmii__j)" d="m17.292 16.546-.708.405-1.623-.922a.7.7 0 0 1-.333-.417.67.67 0 0 1 .068-.526.7.7 0 0 1 .43-.321.7.7 0 0 1 .533.075l1.633.927c.377.214.377.565 0 .78"/>
+    <path fill="url(#nahmii__k)" d="m19.316 9.93-.712.403v2.963l-.002.806c0 .428-.31.603-.687.388l.58.33c.336.19.717.202 1.02.03.303-.171.483-.502.483-.884v-3.667c-.008-.413-.311-.58-.683-.37"/>
+    <path fill="url(#nahmii__l)" d="M13.88 19.186v-.808l2.608-1.482.709-.404c.377-.214.376-.565 0-.78l.58.33c.336.191.537.51.537.855s-.2.663-.538.855l-3.23 1.834c-.367.196-.666.021-.666-.4"/>
+    <path fill="url(#nahmii__m)" d="m17.917 6.25-.56-.319c.36.215.354.558-.017.768l-3.87 2.196c-.39.222-.93.332-1.47.33-.54 0-1.08-.108-1.471-.33L6.66 6.7c-.37-.21-.376-.553-.016-.768l-.561.318c-.337.191-.538.51-.538.855 0 .344.201.663.538.855l3.748 2.127c.605.344 1.382.515 2.16.515h.02c.777 0 1.554-.171 2.16-.515l3.748-2.127c.336-.191.537-.51.537-.855s-.202-.664-.54-.855"/>
+    <path fill="url(#nahmii__n)" d="M4 9.77v.636c.01-.414.313-.58.685-.37l3.869 2.197c.39.222.758.627 1.027 1.088.27.461.445.974.445 1.418v4.393c0 .421-.3.596-.668.398l.56.318c.336.191.718.203 1.02.03.303-.171.484-.502.484-.884v-4.255c0-.687-.237-1.434-.626-2.097l-.005-.008-.005-.008c-.389-.663-.928-1.239-1.533-1.58l-3.749-2.13c-.336-.19-.718-.202-1.02-.03S4 9.387 4 9.77"/>
+    <path fill="url(#nahmii__o)" d="m14.083 19.848.56-.318c-.37.199-.668.023-.668-.398v-4.393c0-.444.173-.959.444-1.418.271-.46.636-.866 1.027-1.088l3.87-2.197c.37-.21.674-.044.684.37V9.77c0-.383-.18-.713-.483-.885s-.685-.16-1.021.03l-3.748 2.129c-.606.343-1.145.919-1.534 1.58l-.004.009-.005.008c-.39.662-.626 1.41-.626 2.096v4.256c0 .382.18.713.483.885s.685.16 1.02-.031"/>
     <defs>
-        <linearGradient id="nahmii__a" x1="10.23" x2="10.23" y1="6.243" y2="3.484" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nahmii__a" x1="10.584" x2="10.584" y1="7.394" y2="5.187" gradientUnits="userSpaceOnUse">
             <stop stop-color="#902784"/>
             <stop offset=".07" stop-color="#842885"/>
             <stop offset=".35" stop-color="#5E2D87"/>
@@ -23,7 +23,7 @@
             <stop offset=".83" stop-color="#32328A"/>
             <stop offset=".99" stop-color="#2C338A"/>
         </linearGradient>
-        <linearGradient id="nahmii__b" x1="13.771" x2="13.771" y1="6.361" y2="3.434" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nahmii__b" x1="13.417" x2="13.417" y1="7.489" y2="5.147" gradientUnits="userSpaceOnUse">
             <stop stop-color="#902784"/>
             <stop offset=".07" stop-color="#842885"/>
             <stop offset=".35" stop-color="#5E2D87"/>
@@ -31,21 +31,21 @@
             <stop offset=".83" stop-color="#32328A"/>
             <stop offset=".99" stop-color="#2C338A"/>
         </linearGradient>
-        <linearGradient id="nahmii__c" x1="5.874" x2="10.76" y1="5.613" y2="2.65" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nahmii__c" x1="7.099" x2="11.008" y1="6.891" y2="4.519" gradientUnits="userSpaceOnUse">
             <stop stop-color="#902784"/>
             <stop offset=".23" stop-color="#AA2D87"/>
             <stop offset=".53" stop-color="#C5348A"/>
             <stop offset=".79" stop-color="#D6388B"/>
             <stop offset=".99" stop-color="#DC398C"/>
         </linearGradient>
-        <linearGradient id="nahmii__d" x1="18.161" x2="13.59" y1="5.49" y2="2.915" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nahmii__d" x1="16.929" x2="13.272" y1="6.792" y2="4.732" gradientUnits="userSpaceOnUse">
             <stop stop-color="#902784"/>
             <stop offset=".23" stop-color="#AA2D87"/>
             <stop offset=".53" stop-color="#C5348A"/>
             <stop offset=".79" stop-color="#D6388B"/>
             <stop offset=".99" stop-color="#DC398C"/>
         </linearGradient>
-        <linearGradient id="nahmii__e" x1="7.844" x2="5.435" y1="16.304" y2="17.719" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nahmii__e" x1="8.675" x2="6.748" y1="15.443" y2="16.575" gradientUnits="userSpaceOnUse">
             <stop stop-color="#902784"/>
             <stop offset=".07" stop-color="#842885"/>
             <stop offset=".35" stop-color="#5E2D87"/>
@@ -53,7 +53,7 @@
             <stop offset=".83" stop-color="#32328A"/>
             <stop offset=".99" stop-color="#2C338A"/>
         </linearGradient>
-        <linearGradient id="nahmii__f" x1="6.178" x2="3.622" y1="13.23" y2="14.731" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nahmii__f" x1="7.342" x2="5.297" y1="12.984" y2="14.184" gradientUnits="userSpaceOnUse">
             <stop stop-color="#902784"/>
             <stop offset=".07" stop-color="#842885"/>
             <stop offset=".35" stop-color="#5E2D87"/>
@@ -61,21 +61,21 @@
             <stop offset=".83" stop-color="#32328A"/>
             <stop offset=".99" stop-color="#2C338A"/>
         </linearGradient>
-        <linearGradient id="nahmii__g" x1="9.468" x2="4.497" y1="20.328" y2="17.504" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nahmii__g" x1="9.974" x2="5.997" y1="18.662" y2="16.403" gradientUnits="userSpaceOnUse">
             <stop stop-color="#902784"/>
             <stop offset=".23" stop-color="#AA2D87"/>
             <stop offset=".53" stop-color="#C5348A"/>
             <stop offset=".79" stop-color="#D6388B"/>
             <stop offset=".99" stop-color="#DC398C"/>
         </linearGradient>
-        <linearGradient id="nahmii__h" x1="3.215" x2="3.306" y1="9.927" y2="15.106" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nahmii__h" x1="4.972" x2="5.045" y1="10.342" y2="14.485" gradientUnits="userSpaceOnUse">
             <stop stop-color="#902784"/>
             <stop offset=".23" stop-color="#AA2D87"/>
             <stop offset=".53" stop-color="#C5348A"/>
             <stop offset=".79" stop-color="#D6388B"/>
             <stop offset=".99" stop-color="#DC398C"/>
         </linearGradient>
-        <linearGradient id="nahmii__i" x1="17.927" x2="20.336" y1="13.289" y2="14.704" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nahmii__i" x1="16.742" x2="18.669" y1="13.031" y2="14.163" gradientUnits="userSpaceOnUse">
             <stop stop-color="#902784"/>
             <stop offset=".07" stop-color="#842885"/>
             <stop offset=".35" stop-color="#5E2D87"/>
@@ -83,7 +83,7 @@
             <stop offset=".83" stop-color="#32328A"/>
             <stop offset=".99" stop-color="#2C338A"/>
         </linearGradient>
-        <linearGradient id="nahmii__j" x1="16.052" x2="18.608" y1="16.245" y2="17.746" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nahmii__j" x1="15.241" x2="17.286" y1="15.396" y2="16.596" gradientUnits="userSpaceOnUse">
             <stop stop-color="#902784"/>
             <stop offset=".07" stop-color="#842885"/>
             <stop offset=".35" stop-color="#5E2D87"/>
@@ -91,33 +91,33 @@
             <stop offset=".83" stop-color="#32328A"/>
             <stop offset=".99" stop-color="#2C338A"/>
         </linearGradient>
-        <linearGradient id="nahmii__k" x1="20.659" x2="20.738" y1="9.894" y2="15.538" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nahmii__k" x1="18.927" x2="18.99" y1="10.315" y2="14.831" gradientUnits="userSpaceOnUse">
             <stop stop-color="#902784"/>
             <stop offset=".23" stop-color="#AA2D87"/>
             <stop offset=".53" stop-color="#C5348A"/>
             <stop offset=".79" stop-color="#D6388B"/>
             <stop offset=".99" stop-color="#DC398C"/>
         </linearGradient>
-        <linearGradient id="nahmii__l" x1="14.624" x2="19.098" y1="20.419" y2="17.683" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nahmii__l" x1="14.1" x2="17.678" y1="18.735" y2="16.546" gradientUnits="userSpaceOnUse">
             <stop stop-color="#902784"/>
             <stop offset=".23" stop-color="#AA2D87"/>
             <stop offset=".53" stop-color="#C5348A"/>
             <stop offset=".79" stop-color="#D6388B"/>
             <stop offset=".99" stop-color="#DC398C"/>
         </linearGradient>
-        <radialGradient id="nahmii__m" cx="0" cy="0" r="1" gradientTransform="matrix(12.4451 0 0 29.7467 11.927 19.496)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="nahmii__m" cx="0" cy="0" r="1" gradientTransform="matrix(9.95608 0 0 23.7973 11.942 17.996)" gradientUnits="userSpaceOnUse">
             <stop stop-color="#00A3DE"/>
             <stop offset=".25" stop-color="#029AD6"/>
             <stop offset=".66" stop-color="#0880C0"/>
             <stop offset="1" stop-color="#0E67AB"/>
         </radialGradient>
-        <radialGradient id="nahmii__n" cx="0" cy="0" r="1" gradientTransform="matrix(-10.8245 -10.708 12.36385 -12.49837 18.787 11.052)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="nahmii__n" cx="0" cy="0" r="1" gradientTransform="matrix(-8.6596 -8.5664 9.89108 -9.9987 17.43 11.242)" gradientUnits="userSpaceOnUse">
             <stop stop-color="#00A3DE"/>
             <stop offset=".25" stop-color="#029AD6"/>
             <stop offset=".66" stop-color="#0880C0"/>
             <stop offset="1" stop-color="#0E67AB"/>
         </radialGradient>
-        <radialGradient id="nahmii__o" cx="0" cy="0" r="1" gradientTransform="rotate(120.421 3.37 10.664)scale(9.9166 9.99962)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="nahmii__o" cx="0" cy="0" r="1" gradientTransform="matrix(-4.01702 6.8411 -6.89836 -4.05064 13.817 12.926)" gradientUnits="userSpaceOnUse">
             <stop stop-color="#00A3DE"/>
             <stop offset=".25" stop-color="#029AD6"/>
             <stop offset=".66" stop-color="#0880C0"/>

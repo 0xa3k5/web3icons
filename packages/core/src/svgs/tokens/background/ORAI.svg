@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ORAI__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#07ACEE" fill-rule="evenodd" d="M11.052 4A8.06 8.06 0 0 0 4 11.052h1.434a6.64 6.64 0 0 1 5.618-5.618zm1.896 1.434V4A8.06 8.06 0 0 1 20 11.052h-1.434a6.64 6.64 0 0 0-5.618-5.618m0 13.132a6.64 6.64 0 0 0 5.618-5.618H20A8.06 8.06 0 0 1 12.948 20zm-7.514-5.618a6.64 6.64 0 0 0 5.618 5.618V20A8.06 8.06 0 0 1 4 12.948z" clip-rule="evenodd"/>
+        <path fill="#1B70EF" d="M8.209 8.716c0-.28.224-.507.5-.507h6.58c.277 0 .501.227.501.507v6.569c0 .28-.224.506-.5.506H8.71a.504.504 0 0 1-.501-.507z"/>
+        <path fill="url(#ORAI__b)" fill-rule="evenodd" d="M14.842 10.815a.237.237 0 0 1 .237-.237h.948a.237.237 0 0 1 0 .474h-.948a.237.237 0 0 1-.237-.237m0 1.185a.237.237 0 0 1 .237-.237h.948a.237.237 0 1 1 0 .473h-.948a.237.237 0 0 1-.237-.236m.711.947a.237.237 0 0 0 0 .474h.474a.237.237 0 0 0 0-.474z" clip-rule="evenodd"/>
+        <path fill="url(#ORAI__c)" fill-rule="evenodd" d="M9.157 10.815a.237.237 0 0 0-.237-.237h-.948a.237.237 0 0 0 0 .474h.948a.237.237 0 0 0 .237-.237m0 1.185a.237.237 0 0 0-.237-.237h-.948a.237.237 0 1 0 0 .473h.948A.237.237 0 0 0 9.157 12m-.71.947a.237.237 0 0 1 0 .474h-.475a.237.237 0 0 1 0-.474z" clip-rule="evenodd"/>
+        <path fill="url(#ORAI__d)" fill-rule="evenodd" d="M10.579 7.973a.237.237 0 1 1 .473 0v.947a.237.237 0 1 1-.473 0zm1.184 0a.237.237 0 0 1 .474 0v.474a.237.237 0 0 1-.474 0zm1.422-.237a.237.237 0 0 0-.237.237v.474a.237.237 0 1 0 .473 0v-.474a.237.237 0 0 0-.236-.237" clip-rule="evenodd"/>
+        <path fill="url(#ORAI__e)" fill-rule="evenodd" d="M10.579 16.027a.237.237 0 1 0 .473 0v-.948a.236.236 0 0 0-.404-.167.24.24 0 0 0-.07.167zm1.184 0a.237.237 0 0 0 .474 0v-.474a.237.237 0 0 0-.474 0zm1.422.237a.237.237 0 0 1-.237-.237v-.474a.237.237 0 1 1 .473 0v.474a.237.237 0 0 1-.236.237" clip-rule="evenodd"/>
+        <path fill="#F0F3FA" fill-rule="evenodd" d="M10.342 12.001a.947.947 0 1 1 1.895 0v.948H12v-.474h-1.42v.474h-.237zm.237.237H12V12a.71.71 0 1 0-1.421 0zm1.895-1.185h1.185v.237h-.474v1.422h.473v.237h-1.184v-.237h.474V11.29h-.474z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="ORAI__b" x1="4" x2="20.757" y1="12.037" y2="12.037" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9BD2FF"/>
+            <stop offset="1" stop-color="#E4EFF8"/>
+        </linearGradient>
+        <linearGradient id="ORAI__c" x1="4" x2="16.405" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E8F1F8"/>
+            <stop offset="1" stop-color="#9BD2FF"/>
+        </linearGradient>
+        <linearGradient id="ORAI__d" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E6F0F8"/>
+            <stop offset="1" stop-color="#9BD2FF"/>
+        </linearGradient>
+        <linearGradient id="ORAI__e" x1="12" x2="12" y1="9.322" y2="19.919" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9BD2FF"/>
+            <stop offset="1" stop-color="#E6F0F8"/>
+        </linearGradient>
+        <clipPath id="ORAI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

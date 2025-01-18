@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#SOLID__a)">
+        <path fill="url(#SOLID__b)" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M12.5 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16"/>
+    </g>
+    <defs>
+        <linearGradient id="SOLID__b" x1="12.5" x2="12.5" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00C0D6"/>
+            <stop offset="1" stop-color="#10F9DB"/>
+        </linearGradient>
+        <clipPath id="SOLID__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#RGT__a)">
+        <path fill="url(#RGT__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 16.705a4.706 4.706 0 1 0 0-9.411 4.706 4.706 0 0 0 0 9.411m0-.47a4.235 4.235 0 1 0 0-8.471 4.235 4.235 0 0 0 0 8.47" clip-rule="evenodd"/>
+        <path fill="#fff" fill-rule="evenodd" d="M8.942 17.298A6.118 6.118 0 1 0 15.06 6.702a6.118 6.118 0 0 0-6.118 10.596m3.058.348a5.647 5.647 0 1 0 0-11.294 5.647 5.647 0 0 0 0 11.294" clip-rule="evenodd"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0-.47a7.53 7.53 0 1 0 0-15.06 7.53 7.53 0 1 0 0 15.06" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="RGT__b" x1="3.92" x2="20.08" y1="12.208" y2="12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F9F9F9"/>
+            <stop offset="1" stop-color="#F9F9F9" stop-opacity="0"/>
+        </linearGradient>
+        <clipPath id="RGT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

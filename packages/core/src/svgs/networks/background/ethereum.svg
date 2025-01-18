@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ethereum__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#8FFCF3" d="M12 4v5.912l5 2.237z"/>
+        <path fill="#CABCF8" d="m12 4-5 8.148 5-2.235z"/>
+        <path fill="#CBA7F5" d="M12 15.98V20l5-6.92z"/>
+        <path fill="#74A0F3" d="M12 20v-4.02l-5-2.9z"/>
+        <path fill="#CBA7F5" d="m12 15.049 5-2.9-5-2.236z"/>
+        <path fill="#74A0F3" d="m7 12.149 5 2.9V9.913z"/>
+        <path fill="#202699" fill-rule="evenodd" d="m12 15.048-5-2.9L12 4l5 8.148zm-4.67-3.136 4.588-7.475v5.435zm-.068.204 4.656-2.068v4.768zm4.816-2.068v4.768l4.653-2.7zm0-.176 4.588 2.04-4.588-7.475z" clip-rule="evenodd"/>
+        <path fill="#202699" fill-rule="evenodd" d="m12 15.917-5-2.84L12 20l5-6.924zm-4.44-2.341 4.36 2.48v3.56zm4.519 2.48v3.56l4.36-6.04z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="ethereum__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

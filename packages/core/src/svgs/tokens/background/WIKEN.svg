@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#WIKEN__a)">
+        <path fill="#474747" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4 8.38h16l-5.867 7.239L12 13.032 9.867 15.62zm10.149 5.334 3.756-4.19H6.095l3.756 4.19L12 11.428z"/>
+    </g>
+    <defs>
+        <clipPath id="WIKEN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

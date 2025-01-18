@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ARRR__a)">
+        <path fill="url(#ARRR__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4.286 7.429A3.43 3.43 0 0 1 7.714 4h8.572a3.43 3.43 0 0 1 2.143.754l-4.086 2.103H8.857A1.143 1.143 0 0 0 7.714 8v2.274l-3.428 1.772zm0 8.074V20h2a1.43 1.43 0 0 0 1.428-1.429V16h8.572a3.43 3.43 0 0 0 3.428-3.429V7.55l-3.428 1.77V12a1.144 1.144 0 0 1-1.143 1.143h-6.28z"/>
+    </g>
+    <defs>
+        <linearGradient id="ARRR__b" x1="5.388" x2="18.714" y1="5.286" y2="19.518" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#BF9B41"/>
+            <stop offset="1" stop-color="#E2C97E"/>
+        </linearGradient>
+        <clipPath id="ARRR__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#IPOR__a)">
+        <path fill="url(#IPOR__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M10.2 16.8 4 9.6l6.2 6L15.8 8l.6.8 1.02-1.6L20 12.4l-2.6-4.2-1 1.6-.6-.6z"/>
+        <path fill="#fff" d="M13.752 12.76a118 118 0 0 0 6.248-.4c-1.22-.088-3.676-.24-5.892-.316l-.36.72zM12.148 12l-.472.8a74 74 0 0 1-4.044-.156l-.332-.496A92 92 0 0 1 12.148 12M4 12.36c.46-.036 1.108-.08 1.856-.128l.172.304A94 94 0 0 1 4 12.36"/>
+    </g>
+    <defs>
+        <linearGradient id="IPOR__b" x1="3.712" x2="19.972" y1="9.624" y2="9.624" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E6DA88"/>
+            <stop offset="1" stop-color="#E15F50"/>
+        </linearGradient>
+        <clipPath id="IPOR__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

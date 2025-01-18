@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PWR__a)">
+        <path fill="url(#PWR__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11.998 19.998a8.004 8.004 0 0 0 7.868-6.543 8 8 0 0 0-.176-3.664q.06.345.06.705c0 3.2-3.166 4-4.751 4H8.998l-.5 2.501h-2.75a8 8 0 0 0 6.25 3.001"/>
+        <path fill="#fff" d="M5.546 16.732A8 8 0 1 1 19.35 8.835c-.46-.775-1.385-1.34-3.1-1.34H8.997l-2.5 2.5h8.501v-1l3 2-3 2.001v-1H6.497z"/>
+    </g>
+    <defs>
+        <linearGradient id="PWR__b" x1="6.526" x2="20.331" y1="16.863" y2="12.994" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4D4D4D"/>
+            <stop offset="1" stop-color="#1A1A1A"/>
+        </linearGradient>
+        <clipPath id="PWR__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#QUBE__a)">
+        <path fill="#0057FF" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M19.059 7.878v5.336l-2.353-1.36V9.431L12 6.824 7.294 9.332v5.092L12 16.94l3.53-1.882 3.529 1.882V20l-3.53-1.882L12 20l-7.059-3.878V7.878L12.001 4z"/>
+    </g>
+    <defs>
+        <clipPath id="QUBE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

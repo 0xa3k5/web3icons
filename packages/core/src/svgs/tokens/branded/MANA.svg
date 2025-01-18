@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#MANA__a)" d="M8.896 6.292v8.562h7.374z"/>
-    <path fill="#fff" d="M2 14.854h6.895V6.292z"/>
-    <path fill="#FF2D55" d="M5.613 19.848c1.906 1.344 4.28 2.14 6.85 2.14 2.568 0 4.942-.796 6.849-2.14z"/>
-    <path fill="#FFBC5B" d="M2 14.854c.356.764.802 1.483 1.33 2.14h13.037v-2.14z"/>
-    <path fill="url(#MANA__b)" d="M16.766 12v6.422H22z"/>
-    <path fill="#fff" d="M11.538 18.422h5.228V12z"/>
-    <path fill="#FFC95B" d="M16.767 9.432a2.854 2.854 0 1 0 0-5.708 2.854 2.854 0 0 0 0 5.708M8.896 4.865a1.427 1.427 0 1 0 0-2.853 1.427 1.427 0 0 0 0 2.853"/>
+    <path fill="url(#MANA__a)" d="M9.517 7.434v6.85h5.9z"/>
+    <path fill="#fff" d="M4 14.283h5.516v-6.85z"/>
+    <path fill="#FF2D55" d="M6.89 18.278a9.5 9.5 0 0 0 5.48 1.713 9.5 9.5 0 0 0 5.48-1.713z"/>
+    <path fill="#FFBC5B" d="M4 14.283a8.4 8.4 0 0 0 1.064 1.713h10.43v-1.713z"/>
+    <path fill="url(#MANA__b)" d="M15.813 12v5.137H20z"/>
+    <path fill="#fff" d="M11.63 17.137h4.183V12z"/>
+    <path fill="#FFC95B" d="M15.814 9.945a2.283 2.283 0 1 0 0-4.566 2.283 2.283 0 0 0 0 4.566M9.517 6.292a1.141 1.141 0 1 0 0-2.283 1.141 1.141 0 0 0 0 2.283"/>
     <defs>
-        <linearGradient id="MANA__a" x1="12.318" x2="12.318" y1="2.011" y2="21.989" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MANA__a" x1="12.255" x2="12.255" y1="4.009" y2="19.991" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A524B3"/>
             <stop offset="1" stop-color="#FF2D55"/>
         </linearGradient>
-        <linearGradient id="MANA__b" x1="11.994" x2="11.994" y1="2.011" y2="21.989" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MANA__b" x1="11.995" x2="11.995" y1="4.009" y2="19.991" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A524B3"/>
             <stop offset="1" stop-color="#FF2D55"/>
         </linearGradient>

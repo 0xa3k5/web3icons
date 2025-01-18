@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KLAY__a)">
+        <path fill="url(#KLAY__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.286 4c1.8.045 3.475.695 4.845 1.865l-8.915 8.93z"/>
+        <path fill="#fff" d="M12.286 4c1.8.045 3.475.695 4.845 1.865l-8.915 8.93zm.73 8.02 5.14-5.16a8.085 8.085 0 0 1 0 10.28z"/>
+        <path fill="#fff" d="m13.016 12.02 5.14-5.16a8.085 8.085 0 0 1 0 10.28zm-9.001-.52 6.26-6.285-4.46 11.88a8.06 8.06 0 0 1-1.8-5.595"/>
+        <path fill="#fff" d="m4.015 11.5 6.26-6.285-4.46 11.88a8.06 8.06 0 0 1-1.8-5.595m2.871 6.635 5.145-5.116 5.14 5.115A8 8 0 0 1 12.03 20a8 8 0 0 1-5.145-1.866"/>
+        <path fill="#fff" d="m6.886 18.135 5.145-5.116 5.14 5.115A8 8 0 0 1 12.03 20a8 8 0 0 1-5.145-1.866"/>
+    </g>
+    <defs>
+        <linearGradient id="KLAY__b" x1="10.794" x2="10.794" y1="4" y2="27.715" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF8300"/>
+            <stop offset=".51" stop-color="#E91A00"/>
+            <stop offset="1" stop-color="#7C0000"/>
+        </linearGradient>
+        <clipPath id="KLAY__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

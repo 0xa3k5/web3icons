@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#RXD__a)">
+        <path fill="url(#RXD__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M17.39 17.922a8.005 8.005 0 0 0-9.102-13.01 8 8 0 0 0-2.53 2.077H4.005L6.748 9.55c.3.285.7.44 1.116.44h4.823c.73 0 1.326.52 1.326 1.251s-.745 1.251-1.476 1.251h-.525l2.497 2.502c1.656 0 3.007-1.501 3.007-3.753v-.07a4.183 4.183 0 0 0-4.178-4.183H6.283a7.605 7.605 0 1 1 10.853 10.618l.25.315zM6.309 12.793l6.604 6.755a7.61 7.61 0 0 1-8.467-6.781 7.6 7.6 0 0 1 .647-3.927l-.286-.35a8.006 8.006 0 0 0 8.457 11.408l.1.096h5.154L9.66 10.992H7.058c-.926 0-1.39 1.13-.74 1.796z"/>
+    </g>
+    <defs>
+        <linearGradient id="RXD__b" x1="12.012" x2="12.012" y1="3.987" y2="19.998" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4D8FB2"/>
+            <stop offset=".36" stop-color="#35C6F3"/>
+            <stop offset=".71" stop-color="#FFF4C4"/>
+        </linearGradient>
+        <clipPath id="RXD__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

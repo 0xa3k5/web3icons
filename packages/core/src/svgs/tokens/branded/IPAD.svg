@@ -1,49 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#IPAD__a)" d="m2 12 1.579-1.579L5.158 12l-1.58 1.579z"/>
-    <path fill="url(#IPAD__b)" d="m4.105 14.105 1.58-1.579 3.683 3.685L7.79 17.79z"/>
-    <path fill="url(#IPAD__c)" d="m8.316 14.105 1.579-1.579 1.579 1.58-1.58 1.578z"/>
-    <path fill="url(#IPAD__d)" d="m10.421 12 1.58-1.579L13.578 12 12 13.579z"/>
-    <path fill="url(#IPAD__e)" d="m12.527 9.895 1.579-1.58 1.579 1.58-1.58 1.579z"/>
-    <path fill="#F3BA2F" d="m14.632 7.79 1.579-1.58 3.684 3.685-1.579 1.579z"/>
-    <path fill="url(#IPAD__f)" d="m12.527 14.105 1.579-1.579 1.579 1.58-1.58 1.578z"/>
-    <path fill="url(#IPAD__g)" d="m14.632 16.21 3.684-3.684 1.58 1.58-3.685 3.684z"/>
-    <path fill="#F3BA2F" d="m18.842 12 1.579-1.579L22 12l-1.579 1.579z"/>
-    <path fill="url(#IPAD__h)" d="M4.105 9.895 7.79 6.21l1.58 1.578-3.685 3.685z"/>
-    <path fill="url(#IPAD__i)" d="m8.316 9.895 1.579-1.58 1.579 1.58-1.58 1.579z"/>
+    <path fill="url(#IPAD__a)" d="m4 12 1.263-1.264L6.526 12l-1.263 1.264z"/>
+    <path fill="url(#IPAD__b)" d="m5.684 13.684 1.263-1.263 2.948 2.947-1.264 1.263z"/>
+    <path fill="url(#IPAD__c)" d="m9.053 13.684 1.263-1.263 1.263 1.263-1.263 1.263z"/>
+    <path fill="url(#IPAD__d)" d="M10.737 12 12 10.736 13.264 12 12 13.263z"/>
+    <path fill="url(#IPAD__e)" d="m12.421 10.316 1.264-1.263 1.263 1.263-1.264 1.263z"/>
+    <path fill="#F3BA2F" d="m14.106 8.631 1.263-1.263 2.947 2.948-1.263 1.263z"/>
+    <path fill="url(#IPAD__f)" d="m12.421 13.684 1.264-1.263 1.263 1.263-1.264 1.263z"/>
+    <path fill="url(#IPAD__g)" d="m14.106 15.368 2.947-2.947 1.263 1.263-2.947 2.948z"/>
+    <path fill="#F3BA2F" d="m17.474 12 1.263-1.264L20 12l-1.263 1.264z"/>
+    <path fill="url(#IPAD__h)" d="m5.684 10.316 2.947-2.948 1.264 1.263-2.948 2.948z"/>
+    <path fill="url(#IPAD__i)" d="m9.053 10.316 1.263-1.263 1.263 1.263-1.263 1.263z"/>
     <defs>
-        <linearGradient id="IPAD__a" x1="9.105" x2="10.694" y1="10.684" y2="9.1" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IPAD__a" x1="9.684" x2="10.956" y1="10.947" y2="9.68" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4086FF"/>
             <stop offset="1" stop-color="#48D5FF"/>
         </linearGradient>
-        <linearGradient id="IPAD__b" x1="9" x2="12.023" y1="13.737" y2="8.516" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IPAD__b" x1="9.6" x2="12.018" y1="13.389" y2="9.213" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4086FF"/>
             <stop offset="1" stop-color="#48D5FF"/>
         </linearGradient>
-        <linearGradient id="IPAD__c" x1="9.105" x2="10.694" y1="10.684" y2="9.1" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IPAD__c" x1="9.684" x2="10.956" y1="10.947" y2="9.68" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4086FF"/>
             <stop offset="1" stop-color="#48D5FF"/>
         </linearGradient>
-        <linearGradient id="IPAD__d" x1="7" x2="12.021" y1="14.895" y2="6.223" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IPAD__d" x1="8" x2="12.017" y1="14.315" y2="7.378" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E8BB41"/>
             <stop offset="1" stop-color="#F6DA5B"/>
         </linearGradient>
-        <linearGradient id="IPAD__e" x1="7" x2="12.021" y1="14.895" y2="6.223" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IPAD__e" x1="8" x2="12.017" y1="14.316" y2="7.378" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E8BB41"/>
             <stop offset="1" stop-color="#F6DA5B"/>
         </linearGradient>
-        <linearGradient id="IPAD__f" x1="7" x2="12.021" y1="14.895" y2="6.223" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IPAD__f" x1="8" x2="12.017" y1="14.316" y2="7.378" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E8BB41"/>
             <stop offset="1" stop-color="#F6DA5B"/>
         </linearGradient>
-        <linearGradient id="IPAD__g" x1="5" x2="12.029" y1="16.053" y2="3.912" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IPAD__g" x1="6.4" x2="12.024" y1="15.242" y2="5.529" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E8BB41"/>
             <stop offset="1" stop-color="#F6DA5B"/>
         </linearGradient>
-        <linearGradient id="IPAD__h" x1="5" x2="12.12" y1="16.053" y2="3.86" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IPAD__h" x1="6.4" x2="12.095" y1="15.242" y2="5.488" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4086FF"/>
             <stop offset="1" stop-color="#48D5FF"/>
         </linearGradient>
-        <linearGradient id="IPAD__i" x1="9.105" x2="10.694" y1="10.684" y2="9.1" gradientUnits="userSpaceOnUse">
+        <linearGradient id="IPAD__i" x1="9.684" x2="10.956" y1="10.947" y2="9.68" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4086FF"/>
             <stop offset="1" stop-color="#48D5FF"/>
         </linearGradient>

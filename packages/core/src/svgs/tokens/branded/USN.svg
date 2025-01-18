@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <mask id="USN__a" width="18" height="18" x="3" y="3" maskUnits="userSpaceOnUse" style="mask-type:luminance">
-        <path fill="#fff" d="M20.334 3.667H3.667v16.666h16.667z"/>
+    <mask id="USN__a" width="16" height="16" x="4" y="4" maskUnits="userSpaceOnUse" style="mask-type:luminance">
+        <path fill="#fff" d="M20 4H4v16h16z"/>
     </mask>
     <g mask="url(#USN__a)">
-        <path fill="#000" d="M20.334 12a8.333 8.333 0 1 0-16.667 0 8.333 8.333 0 0 0 16.667 0"/>
-        <path fill="#fff" d="M10.175 8.342a.74.74 0 0 0-.81-.256.7.7 0 0 0-.5.663v1.393h-1.69v1.394h1.69v.928h-1.69v1.394h1.69v2.09h1.447v-5.04l3.513 4.696a.74.74 0 0 0 .81.256.7.7 0 0 0 .501-.663v-1.34h1.689v-1.393h-1.689v-.928h1.689v-1.393h-1.689v-2.09H13.69v4.985z"/>
+        <path fill="#000" d="M20 12a8 8 0 1 0-16 0 8 8 0 0 0 16 0"/>
+        <path fill="#fff" d="M10.248 8.487a.71.71 0 0 0-.777-.245.67.67 0 0 0-.482.636v1.338H7.37v1.337h1.62v.892H7.37v1.337h1.62v2.006h1.39v-4.837l3.373 4.508a.71.71 0 0 0 .777.245.67.67 0 0 0 .481-.636v-1.286h1.621v-1.337h-1.62v-.892h1.62v-1.337h-1.62V8.21h-1.39v4.785z"/>
     </g>
 </svg>

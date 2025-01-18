@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#UNIBOT__a)">
+        <path fill="#A057A5" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m13.5 18.499-.5 1.25-.5-3.235z"/>
+        <path fill="#fff" d="m12.75 16 .751 2.5-1-2L9 12l.75.5H10zm-8-4.75L4.5 15l3-8z"/>
+        <path fill="#fff" d="M9 7.25 7.5 7l-3 8zM8.25 14 9 7.25 4.5 15z"/>
+        <path fill="#fff" d="M8.25 13.75 9 7.25 19.5 4l-9 4.5L9 12l3.5 4.5zM10 5l.5-1 .25 1.5-.25.75-.5.25zm1.75 0-1.249-1 .25 1.5h1z"/>
+        <path fill="#fff" d="m10.75 5.5-.249.75 1.25-.25-.75-.5z"/>
+        <path fill="#fff" d="M11.75 5.5H11l.75.5h.75l-.75-1zM9 19l-4.5-4 1 1.5z"/>
+        <path fill="#fff" d="M7 14.25 4.5 15 9 19h.75z"/>
+        <path fill="#fff" d="m8.25 13.75-1.25.5L9.75 19l1.75-.75 1-1.75z"/>
+        <path fill="#fff" d="m13.001 19.75-.5-3.25-1 1.75-2.5.75 1.25 1zM9 7.25 7.5 7l12-3zm.751 5.25-.75-.5.75-1.75.25 2.25z"/>
+        <path fill="#fff" d="M9.75 11.25v-1l1 .25v1l-.25.25zm3-3-1.75 1L15 12zM14 12l-3.25-1.5v1z"/>
+        <path fill="#fff" d="m14 12-4.25-1.75 1.25-1L15 12zm-3.25-.5-.249.25 2.25 1L14 12z"/>
+        <path fill="#fff" d="M12.75 12.75 14 12v1.75zM15 12h-.999v1h1zm-.999 1.75V13h1l.75.75z"/>
+        <path fill="#fff" d="M15.75 13.75 15 13v-1h1l.25.75zM16 12h-1l-2.25-3.75.75-.25 2.25 3z"/>
+        <path fill="#fff" d="m19.5 4-9.75 6.25L19.5 4.5z"/>
+        <path fill="#fff" d="m10.5 8.25 9-4.25-9.75 6.25z"/>
+    </g>
+    <defs>
+        <clipPath id="UNIBOT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

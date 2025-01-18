@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#THETA__a)" fill-rule="evenodd" d="M17.263 3.053H6.737v17.894h10.526zm-11.579 0v17.894L6.737 22h10.526l1.053-1.053V3.053L17.263 2H6.737z" clip-rule="evenodd"/>
-    <path fill="url(#THETA__b)" d="M11.473 9.366H8.84v1.052h6.316V9.366h-2.632V6.208h-1.052zm0 5.263H8.84v-1.053h6.316v1.053h-2.632v3.158h-1.052z"/>
+    <path fill="url(#THETA__a)" fill-rule="evenodd" d="M16.21 4.842H7.79v14.316h8.42zm-9.263 0v14.316L7.79 20h8.421l.842-.842V4.842L16.21 4H7.79z" clip-rule="evenodd"/>
+    <path fill="url(#THETA__b)" d="M11.579 9.892H9.474v.842h5.052v-.842h-2.105V7.365h-.842zm0 4.21H9.474v-.842h5.052v.842h-2.105v2.526h-.842z"/>
     <defs>
-        <linearGradient id="THETA__a" x1="4.028" x2="20.373" y1="3.506" y2="20.716" gradientUnits="userSpaceOnUse">
+        <linearGradient id="THETA__a" x1="5.622" x2="18.698" y1="5.205" y2="18.973" gradientUnits="userSpaceOnUse">
             <stop stop-color="#2AB8E6"/>
             <stop offset=".53" stop-color="#29CAD2"/>
             <stop offset="1" stop-color="#2EE4BE"/>
         </linearGradient>
-        <linearGradient id="THETA__b" x1="8.013" x2="17.446" y1="7.08" y2="15.657" gradientUnits="userSpaceOnUse">
+        <linearGradient id="THETA__b" x1="8.811" x2="16.357" y1="8.063" y2="14.925" gradientUnits="userSpaceOnUse">
             <stop stop-color="#2AB8E6"/>
             <stop offset=".53" stop-color="#29CAD2"/>
             <stop offset="1" stop-color="#2EE4BE"/>

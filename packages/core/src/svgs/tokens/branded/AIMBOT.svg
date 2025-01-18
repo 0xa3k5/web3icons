@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#AIMBOT__a)" d="M7.5 11.825 11.98 14l4.52-2-4.52-2"/>
-    <path fill="url(#AIMBOT__b)" d="M7.5 11.825 11.98 14v-4z"/>
-    <path fill="url(#AIMBOT__c)" d="M19.535 7H4.465L2 9.835v4.33L4.465 17h15.07L22 14.165v-4.33zm.125 6.7s-.81 1.3-1.23 1.3H5.57c-.42 0-1.23-1.3-1.23-1.3s-.085-.865-.085-1.69.085-1.69.085-1.69L5.57 9h12.86l1.23 1.32s.085.865.085 1.69-.085 1.69-.085 1.69"/>
+    <path fill="url(#AIMBOT__a)" d="m8.4 11.86 3.584 1.74L15.6 12l-3.616-1.6"/>
+    <path fill="url(#AIMBOT__b)" d="m8.4 11.86 3.584 1.74v-3.2z"/>
+    <path fill="url(#AIMBOT__c)" d="M18.028 8H5.972L4 10.268v3.464L5.972 16h12.056L20 13.732v-3.464zm.1 5.36s-.648 1.04-.984 1.04H6.856c-.336 0-.984-1.04-.984-1.04s-.068-.692-.068-1.352.068-1.352.068-1.352L6.856 9.6h10.288l.984 1.056s.068.692.068 1.352-.068 1.352-.068 1.352"/>
     <defs>
-        <linearGradient id="AIMBOT__a" x1="1193.13" x2="1024.51" y1="421.562" y2="705.267" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AIMBOT__a" x1="956.904" x2="822.008" y1="339.65" y2="566.614" gradientUnits="userSpaceOnUse">
             <stop stop-color="#fff"/>
             <stop offset="1" stop-color="#8F9196"/>
         </linearGradient>
-        <linearGradient id="AIMBOT__b" x1="6619.99" x2="9128.3" y1="676.598" y2="8560.59" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AIMBOT__b" x1="5298.39" x2="7305.04" y1="543.678" y2="6850.87" gradientUnits="userSpaceOnUse">
             <stop stop-color="#fff"/>
         </linearGradient>
-        <linearGradient id="AIMBOT__c" x1="40169.3" x2="40169.3" y1="676.198" y2="41992.1" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AIMBOT__c" x1="32137.8" x2="32137.8" y1="543.358" y2="33596.1" gradientUnits="userSpaceOnUse">
             <stop stop-color="#fff"/>
         </linearGradient>
     </defs>

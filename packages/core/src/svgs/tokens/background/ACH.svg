@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ACH__a)">
+        <path fill="#020041" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M14.353 9.092 12 4.942l-2.353 4.15v5.562a4.2 4.2 0 0 1 2.965-1.242c.616 0 1.21.141 1.74.39zm1.412 2.494v7.473H20zm-1.412 7.473h-4.47a3.06 3.06 0 0 1 4.47-3.755zm-6.118 0H4l4.235-7.473z"/>
+    </g>
+    <defs>
+        <clipPath id="ACH__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#LAKE__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <mask id="LAKE__b" width="16" height="16" x="4" y="4" maskUnits="userSpaceOnUse" style="mask-type:luminance">
+            <path fill="#fff" d="M20 4H4v16h16z"/>
+        </mask>
+        <g mask="url(#LAKE__b)">
+            <path fill="#1F1F1F" d="M4 4h16v16H4z"/>
+            <path fill="#fff" d="M8.857 14.857v1.428a4.285 4.285 0 1 0 0-8.571v1.428A2.844 2.844 0 0 1 11.715 12a2.844 2.844 0 0 1-2.858 2.857"/>
+            <path fill="#BDBEC0" d="M13.143 12h-1.428A4.293 4.293 0 0 0 16 16.286v-1.429A2.847 2.847 0 0 1 13.144 12"/>
+        </g>
+    </g>
+    <defs>
+        <clipPath id="LAKE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

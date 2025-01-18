@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MARSH__a)">
+        <path fill="#34D399" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M9.5 9.45 8 8.57v4.93c0 1.935 1.79 3.5 4 3.5s4-1.565 4-3.5v-7h-5.475l2.585 1.45h1.39v5.55c0 1.1-1.12 2-2.5 2s-2.5-.9-2.5-2zm-3-1.76v6.56c0 2.35 2.46 4.25 5.5 4.25s5.5-1.9 5.5-4.25V5.5H8.74L6.06 4H19v10c0 3.315-3.135 6-7 6s-7-2.685-7-6V6.81z"/>
+    </g>
+    <defs>
+        <clipPath id="MARSH__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

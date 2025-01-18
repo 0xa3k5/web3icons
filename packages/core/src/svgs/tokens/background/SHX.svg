@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#SHX__a)">
+        <path fill="url(#SHX__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m8.755 4-4.48 15.453a.423.423 0 0 0 .398.547H19.33c.273 0 .47-.268.397-.542L15.357 4h-1.342l.216 1.032h-1.197V4H10.97v1.032H9.907L10.061 4h-1.31z"/>
+        <path fill="#fff" d="m19.32 17.966-7.308-3.88V4h1.022v1.032h1.202L14.02 4h1.342zm-14.627 0 7.309-3.88V4h-.733v1.032H9.772L9.994 4H8.652z"/>
+    </g>
+    <defs>
+        <linearGradient id="SHX__b" x1="12.002" x2="12.002" y1="4" y2="20.516" gradientUnits="userSpaceOnUse">
+            <stop offset=".64" stop-color="#054DC9"/>
+            <stop offset="1" stop-color="#0B3299"/>
+        </linearGradient>
+        <clipPath id="SHX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#WXT__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#C9FFC6" d="m17.843 7.368-1.77 6.316-1.725-6.316h-3.044l-1.701 6.316-1.78-6.316H5.665l.593 2.105H4v1.685h2.749l.403 1.263H4v1.684h3.65l.723 2.526h2.576l1.892-7.158 1.871 7.158h2.576L20 7.368z"/>
+    </g>
+    <defs>
+        <clipPath id="WXT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

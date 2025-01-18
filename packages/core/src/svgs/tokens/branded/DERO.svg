@@ -1,91 +1,91 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#000" d="M3.112 7.003 12 2l8.886 5.003v9.994L12 22l-8.887-5.003z"/>
-    <path fill="#000" d="m6.554 8.999 5.45-2.97 5.455 3.068v6.002l-5.465 2.875-5.44-2.875z"/>
-    <path fill="#000" d="m8.276 9.994 3.73-2.133 3.731 2.134v4.072l-3.727 2.232-3.734-2.232z"/>
-    <path fill="url(#DERO__a)" d="M11.516 3.226v.972l-6.3 3.47-.92-.457zm.967 0v.988l6.295 3.47.925-.473z"/>
-    <path fill="url(#DERO__b)" d="M12.462 20.724v-.943l6.272-3.518.974.52zm-.946.025V19.8l-6.261-3.5-.948.47z"/>
-    <path fill="url(#DERO__c)" d="m12.002 2.02-.477 1.212-7.229 3.992v-.915L12 2.015l-.001-.003.003.002.004-.003-.002.005 7.699 4.234-.014.96-7.202-3.978z"/>
-    <path fill="url(#DERO__d)" d="m12.009 21.957-.492-1.23-7.207-3.968v.965l7.698 4.236-.001.004.003-.002 7.693-4.238v-.947l-7.24 3.938z"/>
-    <path fill="#998968" d="m11.506 3.247.498-1.234.48 1.209v.964l-.463-.25-.515.267z"/>
-    <path fill="#84E2F0" d="m11.506 20.713.502 1.25.454-1.248v-.926l-.492.267-.464-.267z"/>
-    <path fill="#69456B" d="m3.072 7.016 1.235-.713v.905z"/>
-    <path fill="#684872" d="M20.91 7.002 19.7 6.25l-.015.955z"/>
-    <path fill="#617ED5" d="m20.938 16.973-1.235.714v-.89z"/>
-    <path fill="#627ED5" d="m3.062 16.96 1.262.776v-.956z"/>
-    <path fill="#6A7384" d="m3.785 7.441-.71-.426 1.233.186z"/>
-    <path fill="#916790" d="m20.193 7.432.71-.43-1.223.186z"/>
-    <path fill="#89618B" d="m3.507 7.562-.435-.546.724.416z"/>
-    <path fill="#554766" d="m20.465 7.558.446-.556-.717.42z"/>
-    <path fill="#484669" d="m4.284 7.2.952.466-.483.278-.208.53-.573-.467v8.014l-.901.951v-9.95l.443.53z"/>
-    <path fill="#4D4868" d="m19.69 7.192-.951.467.482.278v.518l.82-.518v8.088l.897.952-.034-9.962-.444.53z"/>
-    <path fill="#373752" d="m4.546 8.466-.574-.488v8.042l-.891.936 1.465-.748z"/>
-    <path fill="#3C374D" d="m19.467 8.278.574-.364v8.077l.895.985-1.469-.834z"/>
-    <path fill="url(#DERO__e)" d="m5.693 8.44-1.148-.642v8.434l1.148-.68z"/>
-    <path fill="url(#DERO__f)" d="m18.32 8.423 1.148-.61v8.359l-1.148-.63z"/>
-    <path fill="#7474D5" d="m6.267 8.798-.574-.354v7.118l.574-.34z"/>
-    <path fill="url(#DERO__g)" d="m17.745 8.936.574-.5v7.118l-.574-.334z"/>
-    <path fill="#F1B8C7" d="m5.23 8.19-.474-.276 7.25-3.992 7.24 4.01-.454.305-6.786-3.866z"/>
-    <path fill="#EC68F2" d="M6.268 8.833 5.21 8.177l6.797-3.834 6.782 3.894-1.043.7-5.74-3.229z"/>
-    <path fill="url(#DERO__h)" d="m6.264 15.206-1.456.856 7.166 4.003 7.25-4.062-1.485-.797-5.737 3.072z"/>
-    <path fill="url(#DERO__i)" d="m7.99 9.86-1.198-.748 5.214-2.852 5.176 2.865-1.157.736-4.019-2.307z"/>
-    <path fill="url(#DERO__j)" d="m7.986 14.206-1.145.78 5.13 2.726 5.195-2.727-1.142-.779-4.053 2.42z"/>
-    <path fill="url(#DERO__k)" d="m6.841 9.13 1.148.73v4.368l-1.148.765zm10.33 0-1.146.73-.001 4.368 1.148.765z"/>
-    <path fill="#B3BED9" d="m12.006 8.16-3.443 1.92 1.279.715 2.164-1.17 2.153 1.17 1.29-.715z"/>
-    <path fill="#5D6675" d="M8.563 13.918v-3.859l1.294.754h4.299l1.294-.754v3.859l-2.08 1.233h-2.704z"/>
-    <path fill="#000" d="m9.71 10.786 2.308-1.27 2.284 1.27v2.517l-1.014.582.452 3.216-1.722.955-1.746-.955.5-3.216-1.062-.582z"/>
-    <path fill="#5C75B4" d="m18.739 16.271.488-.272 1.711.976-1.233-.164z"/>
-    <path fill="#5673B4" d="m5.262 16.309-.446-.255-1.745.902 1.235-.162z"/>
+    <path fill="#000" d="M4.89 8.002 11.999 4l7.11 4.002v7.996L11.998 20l-7.11-4.002z"/>
+    <path fill="#000" d="m7.644 9.598 4.36-2.376 4.363 2.455v4.801l-4.372 2.3-4.351-2.3z"/>
+    <path fill="#000" d="m9.021 10.396 2.984-1.707 2.985 1.707v3.258l-2.982 1.786-2.987-1.786z"/>
+    <path fill="url(#DERO__a)" d="M11.613 4.981v.778l-5.04 2.776-.736-.366zm.774 0v.79l5.036 2.777.74-.379z"/>
+    <path fill="url(#DERO__b)" d="M12.37 18.978v-.754l5.018-2.815.78.417zm-.757.02v-.758l-5.009-2.8-.758.377z"/>
+    <path fill="url(#DERO__c)" d="m12.002 4.017-.382.969L5.837 8.18v-.732L12 4.013V4.01l.002.002.003-.003-.001.004 6.159 3.388-.011.768-5.762-3.183z"/>
+    <path fill="url(#DERO__d)" d="m12.008 19.966-.394-.984-5.766-3.174v.772l6.159 3.389-.001.003.002-.002 6.155-3.39v-.758l-5.793 3.15z"/>
+    <path fill="#998968" d="m11.605 4.997.398-.988.384.968v.771l-.37-.2-.412.214z"/>
+    <path fill="#84E2F0" d="m11.605 18.97.401 1 .364-.998v-.74l-.394.213-.371-.214z"/>
+    <path fill="#69456B" d="m4.858 8.013.988-.57v.723z"/>
+    <path fill="#684872" d="M19.129 8.001 18.16 7.4l-.012.764z"/>
+    <path fill="#617ED5" d="m19.15 15.978-.988.57v-.71z"/>
+    <path fill="#627ED5" d="m4.85 15.97 1.009.62v-.765z"/>
+    <path fill="#6A7384" d="m5.428 8.354-.569-.341.987.149z"/>
+    <path fill="#916790" d="m18.555 8.345.568-.343-.98.147z"/>
+    <path fill="#89618B" d="m5.206 8.45-.348-.437.58.332z"/>
+    <path fill="#554766" d="m18.771 8.446.358-.444-.574.337z"/>
+    <path fill="#484669" d="m5.827 8.16.761.373-.386.223-.167.424-.458-.374v6.41l-.72.762v-7.96l.354.425z"/>
+    <path fill="#4D4868" d="m18.153 8.154-.762.374.386.222v.414l.657-.414v6.47l.717.762-.028-7.97-.355.425z"/>
+    <path fill="#373752" d="m6.037 9.173-.459-.39v6.434l-.713.748 1.172-.598z"/>
+    <path fill="#3C374D" d="m17.974 9.022.46-.29v6.461l.715.787-1.175-.667z"/>
+    <path fill="url(#DERO__e)" d="m6.954 9.153-.918-.514v6.748l.918-.545z"/>
+    <path fill="url(#DERO__f)" d="m17.055 9.138.919-.488v6.687l-.919-.504z"/>
+    <path fill="#7474D5" d="m7.413 9.437-.46-.282v5.694l.46-.273z"/>
+    <path fill="url(#DERO__g)" d="m16.595 9.55.46-.402v5.695l-.46-.267z"/>
+    <path fill="#F1B8C7" d="m6.585 8.952-.38-.22 5.8-3.195 5.792 3.208-.363.244-5.428-3.092z"/>
+    <path fill="#EC68F2" d="m7.415 9.467-.846-.525 5.437-3.067 5.426 3.115-.834.56-4.592-2.583z"/>
+    <path fill="url(#DERO__h)" d="m7.412 14.564-1.165.685 5.733 3.203 5.8-3.25-1.188-.638-4.59 2.458z"/>
+    <path fill="url(#DERO__i)" d="m8.79 10.288-.956-.598 4.17-2.282L16.146 9.7l-.926.589-3.214-1.846z"/>
+    <path fill="url(#DERO__j)" d="m8.789 13.766-.915.624 4.103 2.18 4.157-2.182-.915-.622-3.242 1.935z"/>
+    <path fill="url(#DERO__k)" d="m7.874 9.703.918.585v3.494l-.918.612zm8.264 0-.918.586v3.493l.918.612z"/>
+    <path fill="#B3BED9" d="M12.006 8.928 9.25 10.462l1.023.572 1.732-.935 1.722.935 1.032-.572z"/>
+    <path fill="#5D6675" d="M9.25 13.534v-3.087l1.036.603h3.439l1.035-.603v3.087l-1.664.986h-2.163z"/>
+    <path fill="#000" d="m10.169 11.029 1.846-1.017 1.827 1.016v2.014l-.811.466.361 2.572-1.377.765-1.397-.765.4-2.572-.85-.466z"/>
+    <path fill="#5C75B4" d="m17.391 15.418.391-.218 1.369.781-.987-.131z"/>
+    <path fill="#5673B4" d="m6.61 15.448-.357-.204-1.396.721.988-.129z"/>
     <defs>
-        <linearGradient id="DERO__a" x1="20.57" x2="3.674" y1="19.786" y2="19.806" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DERO__a" x1="18.857" x2="5.339" y1="18.229" y2="18.245" gradientUnits="userSpaceOnUse">
             <stop stop-color="#56375D"/>
             <stop offset=".5" stop-color="#887562"/>
             <stop offset="1" stop-color="#56375D"/>
         </linearGradient>
-        <linearGradient id="DERO__b" x1="3.4" x2="20.764" y1="3.709" y2="3.709" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DERO__b" x1="5.121" x2="19.012" y1="5.366" y2="5.366" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5169A6"/>
             <stop offset=".493" stop-color="#6DBAC2"/>
             <stop offset="1" stop-color="#5169A6"/>
         </linearGradient>
-        <linearGradient id="DERO__c" x1="20.938" x2="3.278" y1="18.488" y2="18.512" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DERO__c" x1="19.151" x2="5.023" y1="17.191" y2="17.21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#67496B"/>
             <stop offset=".513" stop-color="#9F8B6C"/>
             <stop offset="1" stop-color="#67496B"/>
         </linearGradient>
-        <linearGradient id="DERO__d" x1="3.062" x2="20.939" y1="4.309" y2="4.34" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DERO__d" x1="4.85" x2="19.151" y1="5.848" y2="5.872" gradientUnits="userSpaceOnUse">
             <stop stop-color="#617BD5"/>
             <stop offset=".494" stop-color="#7FE0E1"/>
             <stop offset="1" stop-color="#617BD5"/>
         </linearGradient>
-        <linearGradient id="DERO__e" x1="12" x2="12" y1="2.346" y2="21.546" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DERO__e" x1="11.999" x2="11.999" y1="4.277" y2="19.637" gradientUnits="userSpaceOnUse">
             <stop stop-color="#9466BC"/>
             <stop offset=".466" stop-color="#6564C1"/>
             <stop offset="1" stop-color="#6B81D3"/>
         </linearGradient>
-        <linearGradient id="DERO__f" x1="12" x2="12" y1="2.288" y2="21.664" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DERO__f" x1="12" x2="12" y1="4.23" y2="19.73" gradientUnits="userSpaceOnUse">
             <stop stop-color="#7337A4"/>
             <stop offset=".471" stop-color="#3B39B8"/>
             <stop offset="1" stop-color="#375FB2"/>
         </linearGradient>
-        <linearGradient id="DERO__g" x1="11.999" x2="11.999" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DERO__g" x1="11.999" x2="11.999" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6A37A7"/>
             <stop offset=".504" stop-color="#3A3BB7"/>
             <stop offset="1" stop-color="#375AB2"/>
         </linearGradient>
-        <linearGradient id="DERO__h" x1="20.286" x2="3.886" y1="4.005" y2="4.027" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DERO__h" x1="18.63" x2="5.509" y1="5.604" y2="5.621" gradientUnits="userSpaceOnUse">
             <stop stop-color="#887AF6"/>
             <stop offset=".509" stop-color="#96A7D5"/>
             <stop offset="1" stop-color="#887AF6"/>
         </linearGradient>
-        <linearGradient id="DERO__i" x1="3.929" x2="20.407" y1="18.991" y2="18.991" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DERO__i" x1="5.542" x2="18.725" y1="17.593" y2="17.593" gradientUnits="userSpaceOnUse">
             <stop stop-color="#2B313A"/>
             <stop offset=".491" stop-color="#4B505E"/>
             <stop offset="1" stop-color="#2B313A"/>
         </linearGradient>
-        <linearGradient id="DERO__j" x1="12.02" x2="12.02" y1="22.688" y2="2.141" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DERO__j" x1="12.017" x2="12.017" y1="20.551" y2="4.113" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5A6271"/>
             <stop offset="1" stop-color="#798194"/>
         </linearGradient>
-        <linearGradient id="DERO__k" x1="2.977" x2="21.051" y1="12.001" y2="12.001" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DERO__k" x1="4.782" x2="19.241" y1="12.001" y2="12.001" gradientUnits="userSpaceOnUse">
             <stop/>
             <stop offset=".127" stop-color="#282E36"/>
             <stop offset=".872" stop-color="#282E36"/>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#NAV__a)" fill-rule="evenodd" d="M7.067 3.2a1.333 1.333 0 0 0-2.4.8v6.667H3.333a1.334 1.334 0 0 0 0 2.666h1.334V20a1.333 1.333 0 0 0 2.666 0v-6.667h4l5.6 7.467a1.332 1.332 0 0 0 2.4-.8v-6.667h1.334a1.334 1.334 0 0 0 0-2.666h-1.334V4a1.334 1.334 0 0 0-2.666 0v6.667h-4zm7.6 10.133 2 2.667v-2.667zm-5.334-2.666L7.333 8v2.667z" clip-rule="evenodd"/>
+    <path fill="url(#NAV__a)" fill-rule="evenodd" d="M8.053 4.96a1.067 1.067 0 0 0-1.92.64v5.333H5.067a1.067 1.067 0 0 0 0 2.133h1.066V18.4a1.066 1.066 0 0 0 2.134 0v-5.333h3.2l4.48 5.973a1.066 1.066 0 0 0 1.92-.64v-5.333h1.066a1.067 1.067 0 0 0 0-2.134h-1.066V5.6a1.067 1.067 0 0 0-2.134 0v5.333h-3.2zm6.08 8.107 1.6 2.133v-2.133zm-4.266-2.134L8.267 8.8v2.133z" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="NAV__a" x1="22" x2="3.2" y1="2.667" y2="22.631" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NAV__a" x1="20" x2="4.96" y1="4.533" y2="20.505" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0B88F6"/>
             <stop offset=".456" stop-color="#7152D7"/>
             <stop offset="1" stop-color="#DD1EBA"/>

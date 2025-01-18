@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <mask id="LAKE__a" width="20" height="20" x="2" y="2" maskUnits="userSpaceOnUse" style="mask-type:luminance">
-        <path fill="#fff" d="M22 2H2v20h20z"/>
+    <mask id="LAKE__a" width="16" height="16" x="4" y="4" maskUnits="userSpaceOnUse" style="mask-type:luminance">
+        <path fill="#fff" d="M20 4H4v16h16z"/>
     </mask>
     <g mask="url(#LAKE__a)">
-        <path fill="#1F1F1F" d="M2 2h20v20H2z"/>
-        <path fill="#fff" d="M8.072 15.571v1.786a5.357 5.357 0 1 0 0-10.714v1.785A3.555 3.555 0 0 1 11.643 12a3.555 3.555 0 0 1-3.571 3.571"/>
-        <path fill="#BDBEC0" d="M13.43 12h-1.787c0 2.946 2.4 5.357 5.357 5.357v-1.786A3.56 3.56 0 0 1 13.43 12"/>
+        <path fill="#1F1F1F" d="M4 4h16v16H4z"/>
+        <path fill="#fff" d="M8.857 14.857v1.428a4.285 4.285 0 1 0 0-8.571v1.428A2.844 2.844 0 0 1 11.715 12a2.844 2.844 0 0 1-2.858 2.857"/>
+        <path fill="#BDBEC0" d="M13.143 12h-1.428A4.293 4.293 0 0 0 16 16.286v-1.429A2.847 2.847 0 0 1 13.144 12"/>
     </g>
 </svg>

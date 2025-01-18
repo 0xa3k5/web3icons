@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#BAT__a)">
+        <path fill="#FF4724" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12 5.066a.37.37 0 0 0-.318.184L4.05 18.386a.37.37 0 0 0 0 .367l4.658-2.488 3.294-5.868z"/>
+        <path fill="#fff" d="M19.95 18.386 12.319 5.25a.37.37 0 0 0-.32-.184L12 10.4l3.284 5.878 4.666 2.478a.37.37 0 0 0 0-.37"/>
+        <path fill="#fff" d="m19.95 18.763-4.661-2.496H8.71l-4.663 2.496a.36.36 0 0 0 .135.124q.087.046.184.046H19.63a.4.4 0 0 0 .185-.046.36.36 0 0 0 .136-.125"/>
+    </g>
+    <defs>
+        <clipPath id="BAT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

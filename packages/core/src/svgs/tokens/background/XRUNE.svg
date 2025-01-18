@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#XRUNE__a)">
+        <path fill="#28DBD1" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M8.235 12.941 15.308 4l-2.842 7.059h3.299L8.758 20l2.819-7.059z"/>
+    </g>
+    <defs>
+        <clipPath id="XRUNE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

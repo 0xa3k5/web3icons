@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#RVF__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#8C20C7" d="M11.144 6.919 7.549 8.96V5.357a7.95 7.95 0 0 1 3.595-1.308z"/>
+        <path fill="url(#RVF__b)" d="m7.55 8.96-3.483 1.977a8 8 0 0 1 3.482-5.58z"/>
+        <path fill="#2C4CE8" d="m4.929 15.744 7.293 4.249-.221.004a8 8 0 0 1-7.072-4.253"/>
+        <path fill="#9A28C5" d="m14.889 4.786-3.745 2.131v-2.87a8.1 8.1 0 0 1 3.745.49z"/>
+        <path fill="#9A38DD" d="M18.211 6.961a8 8 0 0 0-3.068-2.32l-.254.142v4.14z"/>
+        <path fill="url(#RVF__c)" d="m14.889 4.786-3.745 2.132v4.21l3.745-2.21z"/>
+        <path fill="url(#RVF__d)" d="M7.55 13.252V8.96l3.594-2.042v4.211l-3.595 2.117z"/>
+        <path fill="url(#RVF__e)" d="M7.55 13.253V8.962l-3.482 1.976a8.07 8.07 0 0 0 .517 4.06z"/>
+        <path fill="url(#RVF__f)" d="M18.395 11.034V7.19l-.189-.235-3.317 1.962v4.197z"/>
+        <path fill="url(#RVF__g)" d="m14.889 8.918-3.745 2.211v4.207l3.745-2.221z"/>
+        <path fill="url(#RVF__h)" d="M7.55 17.473v-4.22l3.594-2.122v4.206z"/>
+        <path fill="#4F1AE0" d="m7.55 17.473-.866.504a8 8 0 0 1-2.103-2.984l2.964-1.745v4.22z"/>
+        <path fill="#3756EA" d="M10.725 19.896a7.95 7.95 0 0 1-3.176-1.251v-1.177l3.595-2.131v4.31l-.424.25z"/>
+        <path fill="url(#RVF__i)" d="m14.889 13.114-3.745 2.221v4.31l3.745-2.258z"/>
+        <path fill="url(#RVF__j)" d="M14.89 17.393v-4.277l3.505-2.08v4.244z"/>
+        <path fill="#812BD5" d="m19.797 10.208-1.515.894V7.046a8 8 0 0 1 1.515 3.162"/>
+        <path fill="#4F3FE2" d="m18.352 15.31 1.223-.74a8 8 0 0 0 .222-4.361l-1.445.852z"/>
+        <path fill="#4026E5" d="M18.282 16.956a8 8 0 0 0 1.317-2.447l-1.317.8z"/>
+        <path fill="#2F2AE6" d="m14.889 17.365-3.745 2.273v.315a8.1 8.1 0 0 0 3.745-.49z"/>
+        <path fill="#472CE6" d="M14.89 19.464v-2.099l3.505-2.122v1.567a8 8 0 0 1-3.506 2.654"/>
+        <path fill="#fff" d="m8.236 13.881 3.736-6.587 3.792 6.587h-1.962l-1.83-3.185-1.802 3.185zm1.99 0h3.524l-1.778 2.823z"/>
+    </g>
+    <defs>
+        <linearGradient id="RVF__b" x1="15.589" x2="15.154" y1="12.001" y2="13.348" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#851DB9"/>
+            <stop offset="1" stop-color="#8724CC"/>
+        </linearGradient>
+        <linearGradient id="RVF__c" x1="11.276" x2="11.042" y1="11.312" y2="12.103" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A441E3"/>
+            <stop offset="1" stop-color="#8824DE"/>
+        </linearGradient>
+        <linearGradient id="RVF__d" x1="13.173" x2="12.915" y1="11.775" y2="12.584" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#8E29DD"/>
+            <stop offset="1" stop-color="#7F2DE4"/>
+        </linearGradient>
+        <linearGradient id="RVF__e" x1="13.743" x2="13.477" y1="12.383" y2="13.136" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#8631E7"/>
+            <stop offset="1" stop-color="#631CDE"/>
+        </linearGradient>
+        <linearGradient id="RVF__f" x1="12.913" x2="12.547" y1="11.7" y2="12.76" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#7E24D6"/>
+            <stop offset="1" stop-color="#782EDD"/>
+        </linearGradient>
+        <linearGradient id="RVF__g" x1="12.502" x2="11.985" y1="11.285" y2="12.665" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#7021DE"/>
+            <stop offset="1" stop-color="#682FE5"/>
+        </linearGradient>
+        <linearGradient id="RVF__h" x1="12.607" x2="12.42" y1="11.611" y2="12.105" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#672AE6"/>
+            <stop offset="1" stop-color="#4D1EE0"/>
+        </linearGradient>
+        <linearGradient id="RVF__i" x1="13.849" x2="13.566" y1="11.574" y2="12.559" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5130D3"/>
+            <stop offset="1" stop-color="#3D37E6"/>
+        </linearGradient>
+        <linearGradient id="RVF__j" x1="13.664" x2="13.334" y1="12.007" y2="13.063" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5130D3"/>
+            <stop offset="1" stop-color="#603CD1"/>
+        </linearGradient>
+        <clipPath id="RVF__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

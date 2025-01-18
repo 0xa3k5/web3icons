@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#FFFD9D" d="M12 15.823 22 5.235l-10 16.47z"/>
-    <path fill="#B6761C" d="M12 15.823 2 5.235l10 16.47z"/>
-    <path fill="#FFE144" d="M22 5.235H2l10 10.588z"/>
-    <path fill="#B6761C" d="M16.117 7.588H7.882L12 11.706z"/>
-    <path fill="#FFFD9D" d="m12 6.753 4.705-4.459L12 9.941z"/>
-    <path fill="#B6761C" d="M12 6.753 7.292 2.294 12 9.941z"/>
-    <path fill="#FFE144" d="M16.705 2.294H7.293L12 6.753z"/>
+    <path fill="#FFFD9D" d="m12 15.058 8-8.47-8 13.176z"/>
+    <path fill="#B6761C" d="m12 15.058-8-8.47 8 13.176z"/>
+    <path fill="#FFE144" d="M20 6.587H4l8 8.47z"/>
+    <path fill="#B6761C" d="M15.293 8.47H8.705L12 11.764z"/>
+    <path fill="#FFFD9D" d="m12 7.803 3.765-3.567L12 10.354z"/>
+    <path fill="#B6761C" d="M12 7.803 8.233 4.236 12 10.354z"/>
+    <path fill="#FFE144" d="M15.764 4.236h-7.53L12 7.803z"/>
 </svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#solana__a)">
+        <path fill="url(#solana__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M17.7 8.358a.55.55 0 0 1-.365.144H4.515c-.455 0-.684-.52-.37-.824l2.106-2.03a.54.54 0 0 1 .364-.15h12.87c.46 0 .685.524.365.83zm0 10.005c-.1.09-.23.14-.365.14H4.515c-.455 0-.684-.516-.37-.82l2.106-2.036a.53.53 0 0 1 .364-.145h12.87c.46 0 .685.52.365.825zm0-7.72a.55.55 0 0 0-.365-.14H4.515c-.455 0-.684.515-.37.82l2.106 2.035c.1.091.23.143.364.144h12.87c.46 0 .685-.52.365-.824z"/>
+    </g>
+    <defs>
+        <linearGradient id="solana__b" x1="4.001" x2="20.408" y1="50.258" y2="50.108" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#599DB0"/>
+            <stop offset="1" stop-color="#47F8C3"/>
+        </linearGradient>
+        <clipPath id="solana__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

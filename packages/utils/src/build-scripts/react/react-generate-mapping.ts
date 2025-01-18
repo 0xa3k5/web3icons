@@ -3,41 +3,18 @@ import path from 'path'
 import { ROOT_REACT } from '../../constants'
 
 export function generateMapping() {
-  const networkIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/networks'))
-  const tokenIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/tokens'))
-  const walletIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/wallets'))
-  const exchangeIcons = fs.readdirSync(path.join(ROOT_REACT, 'src/icons/exchanges'))
-
-  const networkPaths = networkIcons
-    .filter((file) => file.endsWith('.tsx'))
-    .map((file) => {
-      const iconName = path.basename(file, '.tsx')
-      return `${iconName}: () => import('../icons/networks/${iconName}'),\n`
-    })
-    .join('')
-
-  const tokenPaths = tokenIcons
-    .filter((file) => file.endsWith('.tsx'))
-    .map((file) => {
-      const iconName = path.basename(file, '.tsx')
-      return `${iconName}: () => import('../icons/tokens/${iconName}'),\n`
-    })
-    .join('')
-
-  const walletPaths = walletIcons
-    .filter((file) => file.endsWith('.tsx'))
-    .map((file) => {
-      const iconName = path.basename(file, '.tsx')
-      return `${iconName}: () => import('../icons/wallets/${iconName}'),\n`
-    })
-    .join('')
-
-  const exchangePaths = exchangeIcons
-    .filter((file) => file.endsWith('.tsx'))
-    .map((file) => {
-      const iconName = path.basename(file, '.tsx')
-      return `${iconName}: () => import('../icons/exchanges/${iconName}')`
-    })
+  const iconTypes = ['networks', 'tokens', 'wallets', 'exchanges']
+  const iconPaths = iconTypes.map((iconType) => {
+    const dirPath = path.join(ROOT_REACT, `src/icons/${iconType}`)
+    const files = fs.readdirSync(dirPath)
+    return files
+      .filter((file) => file.endsWith('.tsx'))
+      .map((file) => {
+        const iconName = path.basename(file, '.tsx')
+        return `${iconName}: () => import('../icons/${iconType}/${iconName}')`
+      })
+      .join(',\n')
+  })
 
   const content = `/* Generated */\n// This file maps dynamically importable icon components.
 
@@ -49,10 +26,10 @@ interface IconImportMap {
   [name: string]: IconImportFunction
 }
 
-export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {\n${networkPaths}};\n
-export const TOKEN_ICON_IMPORT_MAP: IconImportMap  = {\n${tokenPaths}};\n
-export const WALLET_ICON_IMPORT_MAP: IconImportMap  = {\n${walletPaths}};\n
-export const EXCHANGE_ICON_IMPORT_MAP: IconImportMap = {\n${exchangePaths}};\n
+export const NETWORK_ICON_IMPORT_MAP: IconImportMap = {\n${iconPaths[0]}};\n
+export const TOKEN_ICON_IMPORT_MAP: IconImportMap  = {\n${iconPaths[1]}};\n
+export const WALLET_ICON_IMPORT_MAP: IconImportMap  = {\n${iconPaths[2]}};\n
+export const EXCHANGE_ICON_IMPORT_MAP: IconImportMap = {\n${iconPaths[3]}};\n
 `
 
   const outputPath = path.join(ROOT_REACT, 'src/utils/icon-import-map.ts')

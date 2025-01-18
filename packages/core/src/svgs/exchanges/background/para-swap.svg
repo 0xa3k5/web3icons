@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#para-swap__a)">
+        <path fill="#2669F5" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M20 18.399 12.6 5.6 5.2 18.4zM7.4 11.6l3.4-5.999H4zm9.578 5.105H8.222L12.6 9.134z"/>
+    </g>
+    <defs>
+        <clipPath id="para-swap__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

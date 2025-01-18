@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#MNGO__a)" d="M13.75 15.462c-.987 2.332-2.887 3.875-5.193 4.107-.05 0-.688.056-1.032.03a13.8 13.8 0 0 0 5.963 2.288c.688.07 1.469.125 2.25.107a5.8 5.8 0 0 0 .394-2.438c-.106-2.137 1.156-3.238 2.525-3.8a13.7 13.7 0 0 1-1.581-3.562c-1.069.28-2.425 1.156-3.32 3.268z"/>
-    <path fill="url(#MNGO__b)" d="M16.088 19.538a5.95 5.95 0 0 1-.42 2.462c2.026-.05 4.145-.625 4.689-2.781.112-.463.125-.963-.063-1.394-.187-.419-.544-.744-.862-1.081a8 8 0 0 1-.813-1.032c-1.363.563-2.637 1.688-2.531 3.826"/>
-    <path fill="url(#MNGO__c)" d="M17 11.956c-.312-.813-.574-1.638-.974-2.4a9.8 9.8 0 0 0-1.813-2.331 5.9 5.9 0 0 1-2.694-.576c-.875 1.213-1.862 3.263-.956 5.6 1.344 3.457-1.375 5.82-3.125 7.282l.087.063c.325.03.657.025.982-.013 2.312-.231 4.319-1.812 5.313-4.137.9-2.113 2.206-2.913 3.268-3.188z"/>
-    <path fill="url(#MNGO__d)" d="M5.581 7.356a7.93 7.93 0 0 0-2.019 5.431 7.26 7.26 0 0 0 1.063 3.663c2.812-2.769 1.8-6.9.956-9.094"/>
-    <path fill="url(#MNGO__e)" d="M10.612 12.25c-.906-2.344.063-4.375.925-5.588a4.9 4.9 0 0 1-1.494-1.163 6 6 0 0 0-4.562 1.957c.825 2.15 1.819 6.187-.925 8.894a10.9 10.9 0 0 0 2.931 3.219c1.744-1.463 4.469-3.863 3.125-7.313z"/>
-    <path fill="url(#MNGO__f)" d="M14 4.168c1.9.738 3.232.938 4.2.907l.026-.02c-3.594-6.024-8.3-1.28-8.3-1.28l.006.012a7.6 7.6 0 0 1 4.062.375z"/>
-    <path fill="#AFD803" d="M14.026 4.124c-1.582-.612-3.063-.587-4.094-.337 2.706 4.656 7.844 1.55 8.262 1.288-.962.03-2.268-.213-4.168-.95"/>
+    <path fill="url(#MNGO__a)" d="M13.4 14.77c-.79 1.864-2.31 3.1-4.155 3.284-.04 0-.55.045-.825.025 1.426.974 3.06 1.6 4.77 1.83.55.055 1.176.1 1.8.085.225-.565.35-1.215.315-1.95-.085-1.71.925-2.59 2.02-3.04a11 11 0 0 1-1.264-2.85c-.855.225-1.94.925-2.656 2.615z"/>
+    <path fill="url(#MNGO__b)" d="M15.27 18.03a4.8 4.8 0 0 1-.335 1.97c1.62-.04 3.315-.5 3.75-2.225.09-.37.1-.77-.05-1.115-.15-.335-.435-.595-.69-.865a6.5 6.5 0 0 1-.65-.825c-1.09.45-2.11 1.35-2.025 3.06"/>
+    <path fill="url(#MNGO__c)" d="M16 11.965c-.25-.65-.46-1.31-.78-1.92a7.9 7.9 0 0 0-1.45-1.865 4.7 4.7 0 0 1-2.154-.46c-.7.97-1.49 2.61-.765 4.48 1.074 2.765-1.1 4.655-2.5 5.825l.07.05c.26.025.525.02.785-.01 1.85-.185 3.455-1.45 4.25-3.31.72-1.69 1.765-2.33 2.615-2.55z"/>
+    <path fill="url(#MNGO__d)" d="M6.865 8.286A6.35 6.35 0 0 0 5.25 12.63a5.8 5.8 0 0 0 .85 2.93c2.25-2.215 1.44-5.52.765-7.275"/>
+    <path fill="url(#MNGO__e)" d="M10.89 12.2c-.725-1.876.05-3.5.74-4.47a3.9 3.9 0 0 1-1.195-.93 4.8 4.8 0 0 0-3.65 1.564c.66 1.72 1.455 4.95-.74 7.115a8.7 8.7 0 0 0 2.345 2.575c1.395-1.17 3.575-3.09 2.5-5.85z"/>
+    <path fill="url(#MNGO__f)" d="M13.6 5.735c1.52.59 2.585.75 3.36.725l.02-.015c-2.875-4.82-6.64-1.025-6.64-1.025l.005.01a6.1 6.1 0 0 1 3.25.3z"/>
+    <path fill="#AFD803" d="M13.62 5.7c-1.264-.49-2.45-.47-3.274-.27 2.165 3.724 6.275 1.24 6.61 1.03-.77.024-1.815-.17-3.335-.76"/>
     <defs>
-        <linearGradient id="MNGO__a" x1=".122" x2="21.524" y1="17.441" y2="13.5" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MNGO__a" x1="2.497" x2="19.619" y1="16.352" y2="13.2" gradientUnits="userSpaceOnUse">
             <stop offset=".21" stop-color="#E54033"/>
             <stop offset=".84" stop-color="#FECA1A"/>
         </linearGradient>
-        <linearGradient id="MNGO__b" x1="5.131" x2="20.17" y1="11.98" y2="12.103" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MNGO__b" x1="6.505" x2="18.536" y1="11.985" y2="12.083" gradientUnits="userSpaceOnUse">
             <stop offset=".4" stop-color="#FECA1A"/>
             <stop offset="1" stop-color="#AFD803"/>
         </linearGradient>
-        <linearGradient id="MNGO__c" x1="1.9" x2="14.454" y1="22.355" y2="2.745" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MNGO__c" x1="3.92" x2="13.963" y1="20.284" y2="4.597" gradientUnits="userSpaceOnUse">
             <stop offset=".16" stop-color="#E54033"/>
             <stop offset=".84" stop-color="#FECA1A"/>
         </linearGradient>
-        <linearGradient id="MNGO__d" x1="13.164" x2="12.851" y1="4.131" y2="20.633" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MNGO__d" x1="12.931" x2="12.681" y1="5.706" y2="18.907" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FECA1A"/>
             <stop offset=".76" stop-color="#E54033"/>
         </linearGradient>
-        <linearGradient id="MNGO__e" x1="15.467" x2="13.506" y1="3.245" y2="16.15" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MNGO__e" x1="14.774" x2="13.205" y1="4.996" y2="15.319" gradientUnits="userSpaceOnUse">
             <stop offset=".16" stop-color="#FECA1A"/>
             <stop offset="1" stop-color="#E54033"/>
         </linearGradient>
-        <linearGradient id="MNGO__f" x1="4.502" x2="24.136" y1="3.418" y2="5.722" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MNGO__f" x1="6.002" x2="21.709" y1="5.134" y2="6.978" gradientUnits="userSpaceOnUse">
             <stop offset=".15" stop-color="#6CBF00"/>
             <stop offset="1" stop-color="#AFD803"/>
         </linearGradient>

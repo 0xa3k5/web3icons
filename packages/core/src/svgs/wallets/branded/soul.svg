@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#soul__a)" d="M18.455 8.499H5.572c-1.957 0-3.544 1.569-3.544 3.504s1.587 3.504 3.544 3.504h12.883c1.957 0 3.544-1.569 3.544-3.504s-1.587-3.504-3.544-3.504"/>
-    <path fill="url(#soul__b)" d="M9.495 3.036 3.04 9.466a3.527 3.527 0 0 0 0 5.002 3.56 3.56 0 0 0 5.023 0l6.455-6.43a3.527 3.527 0 0 0 0-5.002 3.56 3.56 0 0 0-5.023 0"/>
-    <path fill="url(#soul__c)" d="m15.938 9.532-6.456 6.43a3.527 3.527 0 0 0 0 5.002 3.56 3.56 0 0 0 5.023 0l6.455-6.43a3.527 3.527 0 0 0 0-5.002 3.56 3.56 0 0 0-5.023 0"/>
+    <path fill="url(#soul__a)" d="M17.164 9.199H6.858c-1.566 0-2.836 1.255-2.836 2.803s1.27 2.803 2.836 2.803h10.306c1.566 0 2.835-1.255 2.835-2.803S18.73 9.2 17.164 9.2"/>
+    <path fill="url(#soul__b)" d="M9.996 4.829 4.832 9.972a2.82 2.82 0 0 0 0 4.002 2.85 2.85 0 0 0 4.018 0l5.164-5.143a2.82 2.82 0 0 0 0-4.002 2.85 2.85 0 0 0-4.018 0"/>
+    <path fill="url(#soul__c)" d="m15.15 10.026-5.164 5.143a2.82 2.82 0 0 0 0 4.002 2.85 2.85 0 0 0 4.018 0l5.164-5.143a2.82 2.82 0 0 0 0-4.002 2.85 2.85 0 0 0-4.018 0"/>
     <defs>
-        <radialGradient id="soul__a" cx="0" cy="0" r="1" gradientTransform="rotate(152.033 8.5 6.619)scale(12.4957 10.7659)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="soul__a" cx="0" cy="0" r="1" gradientTransform="rotate(152.033 7.702 6.794)scale(9.99658 8.61275)" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FFD8B0"/>
             <stop offset=".359" stop-color="#FFA3AC"/>
             <stop offset="1" stop-color="#FF87CD"/>
         </radialGradient>
-        <radialGradient id="soul__b" cx="0" cy="0" r="1" gradientTransform="rotate(135.115 4.995 4.93)scale(10.585 12.2915)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="soul__b" cx="0" cy="0" r="1" gradientTransform="matrix(-5.9998 5.97576 -6.93917 -6.96709 12.01 6.32)" gradientUnits="userSpaceOnUse">
             <stop offset=".25" stop-color="#FF2E79"/>
             <stop offset=".87" stop-color="#FF8BD1"/>
         </radialGradient>
-        <radialGradient id="soul__c" cx="0" cy="0" r="1" gradientTransform="matrix(9.0165 -9.9037 6.33648 5.76884 11.843 18.744)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="soul__c" cx="0" cy="0" r="1" gradientTransform="matrix(7.2132 -7.92304 5.0692 4.61505 11.875 17.395)" gradientUnits="userSpaceOnUse">
             <stop offset=".13" stop-color="#FF2B9D"/>
             <stop offset=".724" stop-color="#FF9BBF"/>
             <stop offset=".958" stop-color="#FAC7BD"/>

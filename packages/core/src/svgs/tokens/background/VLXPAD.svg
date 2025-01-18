@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#VLXPAD__a)">
+        <path fill="url(#VLXPAD__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M6.431 6.666H4l4.445 7.555 3.333-5.333-1.111-2.222-2.045 3.644z"/>
+        <path fill="#fff" d="M20 6.666h-9.334l1.111 2.222h4l-.444.889h-3.334l.89 2.222h3.555z"/>
+        <path fill="#fff" d="M12.89 12 12 9.779 9.111 14.89q.628 1.189 1.111 2.444s1.694-3.467 2.667-5.333"/>
+    </g>
+    <defs>
+        <linearGradient id="VLXPAD__b" x1="6.496" x2="20" y1="10.098" y2="10.098" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0753F7"/>
+            <stop offset="1" stop-color="#02CBC5"/>
+        </linearGradient>
+        <clipPath id="VLXPAD__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

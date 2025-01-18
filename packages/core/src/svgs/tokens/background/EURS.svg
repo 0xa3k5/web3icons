@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#EURS__a)">
+        <path fill="url(#EURS__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M17.722 17.592A7.98 7.98 0 0 0 20 12a7.99 7.99 0 0 0-3.062-6.295l-1.433.055c-2.112.241-3.975 1.464-4.904 3.24H18.5l-1 2h-7.495l-.005.045c-.097.77-.087 1.184 0 1.904l.006.052H16.5l-1 2h-4.735c.822 1.186 2.206 1.98 3.781 2.25 1.356.232 2.471.314 3.175.342m-2.314 1.648A8 8 0 0 1 4 12a8 8 0 0 1 9.815-7.793A7.54 7.54 0 0 0 8.419 9H7l-1 2h2c-.06.808-.053 1.243 0 2H7l-1 2h2.56c1.158 2.33 3.829 3.892 5.986 4.149q.459.054.863.09"/>
+    </g>
+    <defs>
+        <linearGradient id="EURS__b" x1="19.462" x2="4.834" y1="4.999" y2="18.235" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#B030EC"/>
+            <stop offset=".464" stop-color="#2B7FEF"/>
+            <stop offset="1" stop-color="#15BCFF"/>
+        </linearGradient>
+        <clipPath id="EURS__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

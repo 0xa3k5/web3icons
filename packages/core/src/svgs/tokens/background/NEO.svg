@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#NEO__a)">
+        <path fill="#00E599" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m11.294 20-6.118-2.541V6.87L13.332 4l5.402 2.513-7.44 2.663z"/>
+        <path fill="#fff" d="m18.823 17.176-7.058-2.899V9.571l7.058-2.626z"/>
+    </g>
+    <defs>
+        <clipPath id="NEO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#AKT__a)">
+        <path fill="#DB4533" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M9.334 14.444 12 18.888h5.333l-2.666-4.444z" opacity=".6"/>
+        <path fill="#fff" d="m8.89 5.11 8.457 13.778L20 14.28l-5.804-9.17z"/>
+        <path fill="#fff" d="M6.8 9.556 4 14.223l2.8 4.666 5.644-9.333z"/>
+    </g>
+    <defs>
+        <clipPath id="AKT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

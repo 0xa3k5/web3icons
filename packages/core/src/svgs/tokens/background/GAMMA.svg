@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#GAMMA__a)">
+        <path fill="#FE0024" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.5 10.705 19.22 4l.7.7-6.735 6.815L20 11.5v1h-6.815L18 17.285l-.7.7-4.795-4.9v6.42h-1V13.09L4.695 20 4 19.3l6.815-6.8H4v-1l6.815.015-4.565-4.64.7-.7 4.55 4.53V4h1z"/>
+    </g>
+    <defs>
+        <clipPath id="GAMMA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

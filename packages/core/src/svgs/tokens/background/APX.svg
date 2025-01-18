@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#APX__a)">
+        <path fill="url(#APX__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M18.67 7.797a14.9 14.9 0 0 1-5.346 6.428 14.9 14.9 0 0 1-7.958 2.538A8.04 8.04 0 0 1 7.542 5.618a8.01 8.01 0 0 1 11.127 2.18m.33-.05v-.995a.06.06 0 0 1 .03-.05l.89-.505a.054.054 0 0 1 .076.021q.006.015.004.03v.995q.001.015-.004.03a.1.1 0 0 1-.02.02l-.892.505a.054.054 0 0 1-.076-.022.1.1 0 0 1-.008-.029m-.498 9.146A8.04 8.04 0 0 0 20 12.218a8 8 0 0 0-.835-3.56c-2.505 3.24-4.092 7.024-4.596 11.092 1.584-.542 2.96-1.493 3.933-2.857" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="APX__b" x1="6.987" x2="16.975" y1="7.569" y2="18.225" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#AA42FC"/>
+            <stop offset="1" stop-color="#5A49FF"/>
+        </linearGradient>
+        <clipPath id="APX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

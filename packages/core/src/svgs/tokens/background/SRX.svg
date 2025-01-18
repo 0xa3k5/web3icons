@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#SRX__a)">
+        <path fill="#E23C25" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M8.444 10V6L4.89 8zm0 4v-4L4.89 12zm0 4v-4L4.89 16zm10.667-2v-4l-3.555 2zm-3.555-2v-4L12 12zm0 4v-4L12 16z"/>
+        <path fill="#fff" d="M12 20v-4l-3.556 2zm7.111-8V8l-3.555 2zM12 8V4L8.444 6z"/>
+        <path fill="#fff" d="M8.444 10V6L12 8zm0 4v-4L12 12zM12 20v-4l3.556 2zm-7.111-8V8l3.555 2zm0 4v-4l3.555 2zM12 8V4l3.556 2z"/>
+        <path fill="#fff" d="M15.556 10V6l3.555 2zm0 4v-4l3.555 2zm0 4v-4l3.555 2z"/>
+    </g>
+    <defs>
+        <clipPath id="SRX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

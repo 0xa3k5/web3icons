@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#POLYX__a)">
+        <path fill="url(#POLYX__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.861 12c.923 0 1.962-.39 1.962-1.412 0-.983-.997-1.411-1.962-1.411h-2.743v-.942h2.89c1.514 0 2.757.767 2.757 2.353s-1.304 2.353-2.758 2.353H11.06v3.294h-.941V12z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0-.941a7.06 7.06 0 1 0 0-14.12 7.06 7.06 0 0 0 0 14.12" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="POLYX__b" x1="98.066" x2="98.02" y1="3.69" y2="34.532" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF2E72"/>
+            <stop offset=".93" stop-color="#4A125E"/>
+        </linearGradient>
+        <clipPath id="POLYX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

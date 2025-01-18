@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#OBOT__a)">
+        <path fill="#FE0000" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M4.5 4h6.4v2.667h3.2V4h6.4v6.4h-2.667v3.2H20.5V20h-6.4v-2.667h-3.2V20H4.5v-6.4h2.667v-3.2H4.5zm3.733 6.4v3.2H10.9v2.667h3.2V13.6h2.667v-3.2H14.1V7.733h-3.2V10.4zM6.1 5.6h3.2v3.2H6.1zm0 9.6h3.2v3.2H6.1zm12.8-9.6h-3.2v3.2h3.2zm-3.2 9.6h3.2v3.2h-3.2z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="OBOT__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

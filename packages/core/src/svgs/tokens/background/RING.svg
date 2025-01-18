@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#RING__a)">
+        <path fill="url(#RING__b)" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M5.7 9.98a1 1 0 1 0-.4 0v4.82h.4zm7.483 1.033c.396-.634.861-1.085 1.317-1.378v3.585a1 1 0 1 0 .4 0V9.414c.32-.146.622-.214.877-.214H16.9v4.82a1 1 0 1 0 .4 0V9.2h2v4.82a1 1 0 1 0 .4 0V9.2h.8v-.4h-4.723c-.893 0-2.1.644-2.959 2.043a1.2 1.2 0 0 0-1.044 2.113c-.332.51-.765.945-1.274 1.279V10.78a1 1 0 1 0-.4 0v3.683c-.466.232-.917.337-1.274.337H4.5v.4h4.326c.954 0 2.373-.618 3.304-2.058a1.2 1.2 0 0 0 1.053-2.13M7.7 9.98a1 1 0 1 1 .4 0v4.82h-.4z"/>
+    </g>
+    <defs>
+        <linearGradient id="RING__b" x1="6.955" x2="10.682" y1="9.235" y2="17.982" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4530DD"/>
+            <stop offset="1" stop-color="#FB3777"/>
+        </linearGradient>
+        <clipPath id="RING__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#ABT__a)" fill-rule="evenodd" d="m12 2 8.888 5v10L12 22l-8.888-5V7zm8.055 5.156-7.777-4.374v8.75zm.277.47L12.557 12l7.777 4.375zm-.277 9.218-7.777-4.375v8.75zm-8.333 4.374-7.777-4.374 7.777-4.375zm0-9.687L3.945 7.156l7.777-4.374zM3.668 7.625 11.444 12l-7.776 4.374z" clip-rule="evenodd"/>
-    <path fill="url(#ABT__b)" d="m12 6.615 4.685 7.905L12 17.156l-4.684-2.635zm0 1.083-3.925 6.625L12 16.53l3.926-2.208z"/>
+    <path fill="url(#ABT__a)" fill-rule="evenodd" d="m12 4 7.11 4v8L12 20l-7.11-4V8zm6.444 4.125-6.222-3.5v7zm.222.375L12.444 12l6.222 3.5zm-.222 7.375-6.222-3.5v7zm-6.666 3.5-6.222-3.5 6.222-3.5zm0-7.75-6.222-3.5 6.222-3.5zM5.334 8.5l6.222 3.5-6.222 3.5z" clip-rule="evenodd"/>
+    <path fill="url(#ABT__b)" d="m12 7.69 3.748 6.325L12 16.124l-3.748-2.108zm0 .867-3.14 5.3L12 15.624l3.14-1.767z"/>
     <defs>
-        <linearGradient id="ABT__a" x1="3.112" x2="20.888" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ABT__a" x1="4.89" x2="19.11" y1="12" y2="12" gradientUnits="userSpaceOnUse">
             <stop stop-color="#06EFA0"/>
             <stop offset="1" stop-color="#01FAFC"/>
         </linearGradient>
-        <linearGradient id="ABT__b" x1="3.112" x2="20.888" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ABT__b" x1="4.889" x2="19.11" y1="11.999" y2="11.999" gradientUnits="userSpaceOnUse">
             <stop stop-color="#06EFA0"/>
             <stop offset="1" stop-color="#01FAFC"/>
         </linearGradient>
