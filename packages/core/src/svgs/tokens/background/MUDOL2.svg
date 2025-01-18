@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MUDOL2__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#3C7547" d="M12 12.085 7.11 14.75 12 17.685l4.889-2.934z"/>
+        <path fill="#F95D33" d="M8.89 11.339v2.475L12 12.17l4.89 2.71v-2.71L12 9.587z"/>
+        <path fill="#F95D33" d="m12 4 7.11 4v.067L16.88 9.31 12 6.622 7.11 9.307v5.377L12 17.37l4.875-2.68 2.236 1.302v.01L12 20l-7.111-4V8z"/>
+    </g>
+    <defs>
+        <clipPath id="MUDOL2__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

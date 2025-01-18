@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#EQUAD__a)">
+        <path fill="#191A4C" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m16.046 18.898.96 1.095h2.5l-5.5-6h-2.25l2.945 3.365a6 6 0 1 1 1.775-1.355l1.33 1.5a8 8 0 1 0-1.755 1.395z"/>
+    </g>
+    <defs>
+        <clipPath id="EQUAD__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

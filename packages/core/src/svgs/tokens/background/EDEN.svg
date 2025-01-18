@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#EDEN__a)">
+        <path fill="url(#EDEN__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="m16.16 9.893-3.271-3.16v6.325zm-6.702 6.698 1.653-1.6v-.062l-3.52-3.4v3.262zm.969.938.684-.662V20h1.778v-3.111l1.378 1.333v-.009l.266.258 3.231-3.124h.014V9.556h-.027L12.97 4.933 11.999 4 6.25 9.556h-.027v5.79h.013L8.49 17.53l.964.938h.01l.968-.934zm2.462-2.507 1.644 1.587 1.912-1.853v-3.263l-3.556 3.436zM7.84 9.893l3.271 3.165V6.733z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="EDEN__b" x1="7.48" x2="16.498" y1="16.645" y2="9.462" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#10CB88"/>
+            <stop offset="1" stop-color="#BDF418"/>
+        </linearGradient>
+        <clipPath id="EDEN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#RUNE__a)" d="m3.25 22 14.014-5.88-4.433-4.481zM8.397 7.164l4.434 4.475L20.75 2z"/>
+    <path fill="url(#RUNE__a)" d="m5 20 11.211-4.704-3.546-3.585zM9.117 8.131l3.547 3.58L19 4z"/>
     <defs>
-        <linearGradient id="RUNE__a" x1="20.75" x2="3.25" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RUNE__a" x1="19" x2="5" y1="12" y2="12" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3F9"/>
             <stop offset="1" stop-color="#0CF"/>
         </linearGradient>

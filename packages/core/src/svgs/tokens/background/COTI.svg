@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#COTI__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#COTI__b)" d="M4.37 10.685c-.255 0-.37.115-.37.345v5.885c0 .255.115.34.37.34 2.825.03 6.275-2.485 9.13-4.455V6c-2.825 1.945-6.36 4.714-9.13 4.685"/>
+        <path fill="url(#COTI__c)" d="M19.63 13.345c.255 0 .37-.115.37-.345V7.115c0-.26-.115-.345-.37-.345-2.85-.025-6.275 2.485-9.13 4.46V18c2.825-1.945 6.36-4.715 9.13-4.655"/>
+        <path fill="#194AAD" d="M13.5 12.739V9.184q-1.518 1-3 2.05v3.6c1.05-.685 2.05-1.415 3-2.1z"/>
+    </g>
+    <defs>
+        <linearGradient id="COTI__b" x1="13.474" x2="12.326" y1="17.109" y2="6.858" gradientUnits="userSpaceOnUse">
+            <stop offset=".1" stop-color="#194AAD"/>
+            <stop offset=".5" stop-color="#248FCB"/>
+            <stop offset=".8" stop-color="#2BBFDF"/>
+        </linearGradient>
+        <linearGradient id="COTI__c" x1="13.76" x2="12.238" y1="5.338" y2="18.924" gradientUnits="userSpaceOnUse">
+            <stop offset=".1" stop-color="#194AAD"/>
+            <stop offset=".5" stop-color="#248FCB"/>
+            <stop offset=".8" stop-color="#2BBFDF"/>
+        </linearGradient>
+        <clipPath id="COTI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

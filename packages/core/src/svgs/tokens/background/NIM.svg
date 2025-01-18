@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#NIM__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#NIM__b)" d="m19.824 11.35-3.337-5.704a1.33 1.33 0 0 0-1.15-.65H8.663a1.35 1.35 0 0 0-1.15.65L4.176 11.35a1.29 1.29 0 0 0 0 1.3l3.337 5.703a1.33 1.33 0 0 0 1.15.65h6.674a1.35 1.35 0 0 0 1.15-.65l3.337-5.703a1.29 1.29 0 0 0 0-1.3"/>
+    </g>
+    <defs>
+        <radialGradient id="NIM__b" cx="0" cy="0" r="1" gradientTransform="matrix(16.0145 0 0 15.7643 16.037 18.823)" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EC991C"/>
+            <stop offset="1" stop-color="#E9B213"/>
+        </radialGradient>
+        <clipPath id="NIM__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

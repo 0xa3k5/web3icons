@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#KEY__a)" d="M11.445 17a1.111 1.111 0 1 0 0-2.222 1.111 1.111 0 0 0 0 2.222"/>
-    <path fill="url(#KEY__b)" fill-rule="evenodd" d="M12 2 3.11 6.983v9.99L12 22l8.889-5.028V6.983zm2.272 3.889H11.49c-.211.005-.589.155-.6.683v7.165a2.223 2.223 0 1 0 1.111 0V9.221h1.756c.166 0 .466-.189.466-.555 0-.361-.294-.556-.466-.556H12V7h2.278c.194 0 .5-.217.5-.556 0-.4-.328-.555-.506-.555" clip-rule="evenodd"/>
+    <path fill="url(#KEY__a)" d="M11.556 16a.889.889 0 1 0 0-1.777.889.889 0 0 0 0 1.777"/>
+    <path fill="url(#KEY__b)" fill-rule="evenodd" d="M12 4 4.889 7.987v7.99L11.999 20l7.112-4.022V7.987zm1.818 3.111H11.59c-.169.005-.47.125-.48.547v5.731a1.779 1.779 0 1 0 .89 0V9.778h1.404c.133 0 .373-.151.373-.445 0-.289-.236-.444-.373-.444H12V8h1.822c.156 0 .4-.173.4-.444a.427.427 0 0 0-.404-.445" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="KEY__a" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KEY__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4AB0E1"/>
             <stop offset="1" stop-color="#58B9CF"/>
         </linearGradient>
-        <linearGradient id="KEY__b" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KEY__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4AB0E1"/>
             <stop offset="1" stop-color="#58B9CF"/>
         </linearGradient>

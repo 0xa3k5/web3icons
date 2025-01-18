@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#RIF__a)">
+        <path fill="#149DD9" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M12.945 5.333h1.333v4.89h-1.334zm2.222 2.223H16.5v4h-1.333zm2.222 2.666h1.333v1.334H17.39zm1.778 0H20.5v1.334h-1.333zm0 2.223v1.333h-4.89v-1.334zm-2.223 2.222V16h-4v-1.333zm-2.666 2.222v1.333h-1.334V16.89zm0 1.778V20h-1.334v-1.333zm-2.222 0h-1.334v-4.89h1.334zm-2.223-2.223H8.5v-4h1.333zm-2.222-2.666H6.278v-1.334H7.61zm-1.778 0H4.5v-1.334h1.333zm0-2.222v-1.334h4.89v1.334zm2.223-2.223V8h4v1.333zm2.666-2.222V5.778h1.334V7.11zm0-1.778V4h1.334v1.333z"/>
+    </g>
+    <defs>
+        <clipPath id="RIF__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

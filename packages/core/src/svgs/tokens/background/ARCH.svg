@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ARCH__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#373737" d="M8.384 8.384 4 4v16h16l-3.2-3.2H7.2v-5.648c0-.907.32-1.973 1.184-2.773z"/>
+        <path fill="#FCFEFB" d="M7.2 11.152c0-.907.32-1.974 1.184-2.774L12 12l-4.8 4.8z"/>
+        <path fill="#D3DDFF" d="M16.8 16.8H7.2L12 12z"/>
+        <path fill="#FCFEFB" d="M16.8 16.8 20 20V4H4l4.384 4.384C9.131 7.691 10.294 7.2 12 7.2c3.67 0 4.8 2.261 4.8 3.952z"/>
+    </g>
+    <defs>
+        <clipPath id="ARCH__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#OMMI__a)" d="M13.593 3.9a8.15 8.15 0 0 1 5.943 3.294l1.52-1.107a10.03 10.03 0 0 0-7.463-4.062zm-6.844.25A10 10 0 0 0 9.16 21.256l.644-1.762A8.125 8.125 0 0 1 7.93 5.6L6.743 4.15zM14.405 20l.313 1.85c2.5-.438 4.68-1.8 6.175-3.725l-1.382-1.281A8.16 8.16 0 0 1 14.405 20"/>
-    <path fill="url(#OMMI__b)" d="M10.455 5.75c1.04 0 1.881-.84 1.881-1.875A1.88 1.88 0 0 0 10.456 2c-1.04 0-1.882.84-1.882 1.875s.842 1.875 1.881 1.875"/>
-    <path fill="url(#OMMI__c)" d="M8.574 13.25c.694 0 1.256-.56 1.256-1.25s-.562-1.25-1.256-1.25-1.256.56-1.256 1.25.562 1.25 1.256 1.25"/>
-    <path fill="url(#OMMI__d)" d="M12 22c.866 0 1.568-.7 1.568-1.563s-.702-1.562-1.569-1.562c-.866 0-1.569.7-1.569 1.562S11.133 22 12 22"/>
-    <path fill="url(#OMMI__e)" d="M15.624 14.65a3.756 3.756 0 0 1-5.956-.838l-1.875.438a5.643 5.643 0 0 0 9.162 1.725zm.187-5.1a3.754 3.754 0 0 0-6.106.575H7.643a5.644 5.644 0 0 1 9.587-1.812z"/>
+    <path fill="url(#OMMI__a)" d="M13.274 5.519c1.95.15 3.66 1.15 4.755 2.634l1.215-.884a8.03 8.03 0 0 0-5.97-3.25zm-5.475.2a8 8 0 0 0 1.93 13.684l.515-1.41a6.5 6.5 0 0 1-1.5-11.114l-.95-1.16zm6.125 12.68.25 1.48c2-.35 3.745-1.44 4.94-2.98l-1.105-1.026a6.52 6.52 0 0 1-4.085 2.525"/>
+    <path fill="url(#OMMI__b)" d="M10.765 7c.83 0 1.505-.672 1.505-1.5S11.596 4 10.765 4 9.26 4.672 9.26 5.5 9.934 7 10.765 7"/>
+    <path fill="url(#OMMI__c)" d="M9.26 13c.555 0 1.005-.448 1.005-1s-.45-1-1.005-1-1.005.448-1.005 1 .45 1 1.005 1"/>
+    <path fill="url(#OMMI__d)" d="M12 20c.693 0 1.255-.56 1.255-1.25S12.693 17.5 12 17.5s-1.255.56-1.255 1.25S11.307 20 12 20"/>
+    <path fill="url(#OMMI__e)" d="M14.9 14.12a3.006 3.006 0 0 1-4.766-.67l-1.5.35a4.515 4.515 0 0 0 7.33 1.38zm.149-4.08a3.004 3.004 0 0 0-4.885.46h-1.65a4.515 4.515 0 0 1 7.67-1.45z"/>
     <defs>
-        <linearGradient id="OMMI__a" x1="17.668" x2="6.611" y1="4.812" y2="20.831" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OMMI__a" x1="16.534" x2="7.689" y1="6.248" y2="19.063" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3AD02C"/>
             <stop offset=".28" stop-color="#3DD22D"/>
             <stop offset=".59" stop-color="#79D41C"/>
             <stop offset="1" stop-color="#C9D505"/>
         </linearGradient>
-        <linearGradient id="OMMI__b" x1="18.047" x2="7.938" y1="7" y2="17.674" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OMMI__b" x1="16.838" x2="8.751" y1="8" y2="16.539" gradientUnits="userSpaceOnUse">
             <stop stop-color="#233D1A"/>
             <stop offset="1" stop-color="#2BD009"/>
         </linearGradient>
-        <linearGradient id="OMMI__c" x1="18.803" x2="4.407" y1="9.5" y2="18.162" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OMMI__c" x1="17.443" x2="5.926" y1="10" y2="16.929" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A7A710"/>
             <stop offset="1" stop-color="#162C00"/>
         </linearGradient>
-        <linearGradient id="OMMI__d" x1="21.055" x2="6.553" y1="14" y2="14" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OMMI__d" x1="19.245" x2="7.642" y1="13.6" y2="13.6" gradientUnits="userSpaceOnUse">
             <stop stop-color="#489722"/>
             <stop offset="1" stop-color="#516D3A"/>
         </linearGradient>
-        <linearGradient id="OMMI__e" x1="10.455" x2="15.136" y1="7.937" y2="16.075" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OMMI__e" x1="10.764" x2="14.509" y1="8.75" y2="15.26" gradientUnits="userSpaceOnUse">
             <stop stop-color="#47D12D"/>
             <stop offset=".45" stop-color="#C8D65E" stop-opacity=".59"/>
             <stop offset=".74" stop-color="#51CE32"/>

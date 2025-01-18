@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ARK__a)">
+        <path fill="#F70000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11.963 10.048 4 18.548l8-13.176 8 13.257zm1.15 3.324h-2.487L11.906 12l1.214 1.372zm-4.8 2.285 1.418-1.371h4.306l1.454 1.371z"/>
+    </g>
+    <defs>
+        <clipPath id="ARK__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

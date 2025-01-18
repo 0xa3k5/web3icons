@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#SFUND__a)" d="m8.773 5.763 3.473-3.71.143 2.342c-.516.537-2.185 2.105-4.1 4.62-1.706 2.238-.069 5.09 1.179 6.117v2.078c-.816-.442-2.3-1.036-3.39-3.726-1.347-3.316 1.063-5.831 2.695-7.72"/>
-    <path fill="url(#SFUND__b)" d="M15.315 18.063 11.83 21.78l-.137-2.342c.516-.542 2.052-2.221 4.105-4.621 1.684-1.98 0-5.184-1.179-5.853V6.905c.81.442 2.18.863 3.274 3.553 1.342 3.316-.79 6.095-2.58 7.605"/>
-    <path fill="url(#SFUND__c)" d="M11.73 22c-1.63-1.505-4.089-5.6-.894-9.958l1.221-1.605c.68-.916 1.527-3.448.027-5.521-.185-.253-1.416-1.11-2.327-.21l-.116.13.116-.125L12.215 2c1.668 1.484 4.253 5.463 1.248 9.51l-1.58 2.043c-.573.815-1.384 3.105 0 5.768.322.484 1.58.747 2.627-.42z"/>
+    <path fill="url(#SFUND__a)" d="m9.418 7.01 2.78-2.968.113 1.874c-.413.43-1.748 1.684-3.28 3.697-1.364 1.789-.055 4.071.943 4.892v1.663c-.653-.353-1.84-.83-2.712-2.98-1.077-2.653.851-4.666 2.156-6.178"/>
+    <path fill="url(#SFUND__b)" d="m14.652 16.85-2.788 2.972-.11-1.873c.414-.434 1.643-1.777 3.285-3.697 1.347-1.583 0-4.148-.943-4.682V7.923c.648.354 1.743.69 2.619 2.842 1.074 2.653-.632 4.876-2.063 6.085"/>
+    <path fill="url(#SFUND__c)" d="M11.785 20c-1.306-1.204-3.272-4.48-.716-7.966l.977-1.285c.543-.732 1.22-2.757.02-4.416-.147-.202-1.132-.889-1.86-.169l-.093.105.093-.1L12.172 4c1.335 1.187 3.402 4.37.998 7.608l-1.263 1.634c-.46.653-1.108 2.484 0 4.615.257.387 1.263.598 2.1-.337z"/>
     <defs>
-        <linearGradient id="SFUND__a" x1="11.989" x2="11.989" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SFUND__a" x1="11.992" x2="11.992" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#986EF8"/>
             <stop offset="1" stop-color="#4592E6"/>
         </linearGradient>
-        <linearGradient id="SFUND__b" x1="11.999" x2="11.999" y1="22" y2="2" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SFUND__b" x1="11.999" x2="11.999" y1="19.999" y2="3.999" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3CD7FE"/>
             <stop offset="1" stop-color="#8651E7"/>
         </linearGradient>
-        <linearGradient id="SFUND__c" x1="12.062" x2="12.062" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SFUND__c" x1="12.05" x2="12.05" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#45CFFB"/>
             <stop offset="1" stop-color="#9E68FC"/>
         </linearGradient>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#UNIX__a)">
+        <path fill="url(#UNIX__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12 20c-4.736 0-7.467-2.459-7.467-7.259V4H8.8v8.597c0 2.134.827 3.67 3.2 3.67 2.363 0 3.2-1.558 3.2-3.67V4h4.267v8.741c0 4.8-2.731 7.259-7.467 7.259"/>
+        <path fill="#fff" d="M12 15.734a2.667 2.667 0 1 0 0-5.334 2.667 2.667 0 0 0 0 5.334"/>
+    </g>
+    <defs>
+        <linearGradient id="UNIX__b" x1="19.2" x2="4.533" y1="12.714" y2="12.714" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#BD106A"/>
+            <stop offset="1" stop-color="#7D00BC"/>
+        </linearGradient>
+        <clipPath id="UNIX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

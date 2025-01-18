@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TPAD__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#TPAD__b)" d="m11.89 20 .008-16-6.564 3.049 1.79 1.053 3.543-1.618v12.8c.2.125.404.24.609.356zm1.444-.711L12.107 20V4l6.56 3.049-1.77 1.071-3.563-1.676zm-8-11.591c.284.169.586.338.888.506.303.17.605.338.89.507v6.391l3.11 1.85v2l-4.888-2.85zm12.444.506c.302-.168.604-.337.889-.506v8.404q-1.223.715-2.445 1.45l-2.444 1.444V16.95c.533-.311 1.044-.618 1.556-.924a73 73 0 0 1 1.555-.925v-6.39c.285-.17.587-.339.889-.508"/>
+    </g>
+    <defs>
+        <linearGradient id="TPAD__b" x1="11.711" x2="17.593" y1="16.036" y2="14.065" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FC01C2"/>
+            <stop offset="1" stop-color="#6D138E"/>
+        </linearGradient>
+        <clipPath id="TPAD__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

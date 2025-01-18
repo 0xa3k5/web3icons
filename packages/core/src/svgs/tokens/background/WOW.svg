@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#WOW__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#F3BA2F" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16"/>
+        <path fill="#000" fill-rule="evenodd" d="M12 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14m0 1a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
+        <path fill="#000" d="M10 10.5c.553 0 1-.56 1-1.25S10.554 8 10 8s-1 .56-1 1.25.448 1.25 1 1.25m4 0c.553 0 1-.56 1-1.25S14.553 8 14 8s-1 .56-1 1.25.448 1.25 1 1.25m-2 7c1.381 0 2.5-1.343 2.5-3s-1.119-3-2.5-3c-1.38 0-2.5 1.343-2.5 3s1.12 3 2.5 3"/>
+    </g>
+    <defs>
+        <clipPath id="WOW__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#HZN__a)">
+        <path fill="#37F" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m20 12-2.4-2.4-1.6 1.6.8.8-4.8 4.8-1.6-1.6.8-.8.356.4v-2.356H9.2l.4.355-2.4 2.4L12 20z"/>
+        <path fill="#fff" d="M16.8 8.8 12 4l-8 8 2.4 2.4L8 12.8l-.8-.8L12 7.2l1.6 1.6-.8.8-.356-.4v2.356H14.8l-.4-.356z"/>
+    </g>
+    <defs>
+        <clipPath id="HZN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

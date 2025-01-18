@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#STIMA__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#STIMA__b)" d="M11.617 4.1a.78.78 0 0 1 .765 0l6.349 3.623a.75.75 0 0 1 .382.654v7.246c0 .267-.147.52-.382.654L12.382 19.9a.78.78 0 0 1-.765 0L5.27 16.277a.76.76 0 0 1-.382-.654V8.377c0-.267.146-.52.382-.654z"/>
+        <path fill="url(#STIMA__c)" d="M12.017 12 5.775 8.444l6.242-3.557 6.206 3.557z"/>
+        <path fill="url(#STIMA__d)" d="m12 11.978-.005 7.135-6.21-3.578-.01-7.091z"/>
+        <path fill="url(#STIMA__e)" d="m12 11.978.004 7.135 6.21-3.578.01-7.091z"/>
+        <path fill="url(#STIMA__f)" d="m5.562 10.724 6.58 3.676a.474.474 0 0 1 .178.658.49.49 0 0 1-.667.178l-6.58-3.677z"/>
+        <path fill="url(#STIMA__g)" d="m18.335 13.365-6.602-3.783a.48.48 0 0 1-.178-.662.49.49 0 0 1 .663-.178l6.61 3.792-.489.831z"/>
+    </g>
+    <defs>
+        <linearGradient id="STIMA__b" x1="4.887" x2="19.909" y1="15.463" y2="8.443" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EBECF3"/>
+            <stop offset="1" stop-color="#ACB2C6"/>
+        </linearGradient>
+        <linearGradient id="STIMA__c" x1="4.526" x2="18.66" y1="11.82" y2="11.8" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DD79B2"/>
+            <stop offset=".5" stop-color="#D4399B"/>
+            <stop offset="1" stop-color="#B94299"/>
+        </linearGradient>
+        <linearGradient id="STIMA__d" x1="5.598" x2="16.6" y1="14.847" y2="5.524" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DD79B2"/>
+            <stop offset=".5" stop-color="#D4399B"/>
+            <stop offset="1" stop-color="#B94299"/>
+        </linearGradient>
+        <linearGradient id="STIMA__e" x1="5.344" x2="16.415" y1="8.42" y2="18.506" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A7036C"/>
+            <stop offset="1" stop-color="#8C136D"/>
+        </linearGradient>
+        <linearGradient id="STIMA__f" x1="4.887" x2="21.082" y1="4" y2="9.456" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E5E7EF"/>
+            <stop offset="1" stop-color="#ACB2C6"/>
+        </linearGradient>
+        <linearGradient id="STIMA__g" x1="18.683" x2="11.645" y1="10.889" y2="10.08" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#B7BDCE"/>
+            <stop offset="1" stop-color="#D0D3E1"/>
+        </linearGradient>
+        <clipPath id="STIMA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

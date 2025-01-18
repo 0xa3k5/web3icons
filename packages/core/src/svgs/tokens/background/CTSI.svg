@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CTSI__a)">
+        <path fill="#131619" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M18.019 9.298h-3.412l-2.342 2.737.939 2.66H20zm-7.288 0H4l1.862 5.398h3.401l2.386-2.77z"/>
+        <path fill="#fff" d="m7.892 8.759 4.437-4.686 1.9 5.02-2.159 2.44-1.037-2.774zm8.118 6.477-4.448 4.691-1.9-5.02 2.16-2.44 1.042 2.77h3.152z"/>
+    </g>
+    <defs>
+        <clipPath id="CTSI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

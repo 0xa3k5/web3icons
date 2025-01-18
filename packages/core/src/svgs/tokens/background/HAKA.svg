@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#HAKA__a)">
+        <path fill="url(#HAKA__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11.53 7.295H5.884v3.294h2.823v2.879l.94 1.825V9.648H6.826V8.236h3.764v9.41l.94 1.806zm6.586 2.353v.94h-2.352v2.8l-.038.018.038.005-2.352 4.234-.941 1.882V7.295h5.645v.941h-4.704v7.683l1.41-2.625V9.648z"/>
+        <path fill="#fff" d="M12.485 19.984a7.997 7.997 0 0 0 6.101-12.523v1.246h-.88q.134.232.245.47h.635v2.824a6.586 6.586 0 0 1-5.212 6.445zm-.25.01v-1.412a7 7 0 0 1-.47 0v1.412a8 8 0 0 0 .47 0m-.72-.01A7.997 7.997 0 0 1 5.414 7.461V12a6.586 6.586 0 0 0 5.212 6.445zm6.587-13.158A8 8 0 0 0 12 4.003a7.98 7.98 0 0 0-6.097 2.823h2.023A6.55 6.55 0 0 1 12 5.414a6.55 6.55 0 0 1 4.074 1.412z"/>
+        <path fill="#fff" d="M13.877 19.778a8 8 0 0 0 6.069-6.869c-.49.146-.998.273-1.487.381a6.6 6.6 0 0 1-4.577 5.025v1.458z"/>
+    </g>
+    <defs>
+        <linearGradient id="HAKA__b" x1="19.28" x2="4.228" y1="6.007" y2="6.007" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4FB585"/>
+            <stop offset=".47" stop-color="#D41B81"/>
+            <stop offset="1" stop-color="#7826F4"/>
+        </linearGradient>
+        <clipPath id="HAKA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

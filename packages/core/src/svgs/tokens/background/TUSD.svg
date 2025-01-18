@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#TUSD__a)">
+        <path fill="#1B5AFF" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M9.833 4H4.5v5.333A5.333 5.333 0 0 0 9.833 4m0 16V9.328C9.833 6.384 12.036 4 15.028 4H20.5v5.333h-5.333V20z"/>
+    </g>
+    <defs>
+        <clipPath id="TUSD__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

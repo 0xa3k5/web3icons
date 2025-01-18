@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PRX__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#PRX__b)" d="M18.857 8.516 5.234 4.086 11.2 12.47z"/>
+        <path fill="url(#PRX__c)" d="M7.978 14.537 5.144 20l7.954-5.285L5.144 4z"/>
+    </g>
+    <defs>
+        <linearGradient id="PRX__b" x1="6.669" x2="11.484" y1="5.284" y2="14.069" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F504CB"/>
+            <stop offset="1" stop-color="#3F2EA0"/>
+        </linearGradient>
+        <linearGradient id="PRX__c" x1="5.982" x2="15.261" y1="6.286" y2="11.466" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F504CB"/>
+            <stop offset="1" stop-color="#3F2EA0"/>
+        </linearGradient>
+        <clipPath id="PRX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

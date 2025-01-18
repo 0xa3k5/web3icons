@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#THT__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#0E134D" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16"/>
+        <path fill="#0E376B" d="M11.999 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14"/>
+        <path fill="#0E608C" d="M11.999 17.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11"/>
+        <path fill="#fff" d="M9.5 11.484 8.99 9.86l-.455.5L9.06 12z"/>
+        <path fill="#A5BCCA" d="m7.439 9.5-.44.53 1.535.33.45-.5-1.55-.36z"/>
+        <path fill="#fff" d="m12 10.986-.51-1.625-.455.5.525 1.64z"/>
+        <path fill="#A5BCCA" d="m9.94 9-.44.53 1.535.33.45-.5L9.935 9z"/>
+        <path fill="#fff" d="m15 10.501-.51-1.64-.455.505.525 1.65z"/>
+        <path fill="#A5BCCA" d="m12.94 8.5-.44.535 1.535.33.45-.5-1.55-.365z"/>
+        <path fill="#fff" d="m14.5 13.486-.515-1.625-.455.5.53 1.64z"/>
+        <path fill="#A5BCCA" d="m12.425 11.5-.446.53 1.55.33.45-.5z"/>
+        <path fill="#fff" d="m14.5 16.484-.51-1.625-.455.5.525 1.64z"/>
+        <path fill="#A5BCCA" d="m12.439 14.5-.44.53 1.535.33.45-.5-1.55-.36z"/>
+    </g>
+    <defs>
+        <clipPath id="THT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

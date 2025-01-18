@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#LYRA__a)">
+        <path fill="url(#LYRA__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M15.453 10.203 12.667 13H5.61c-.51 0-.766-.585-.42-.935l7.886-7.937a.44.44 0 0 1 .705.12l1.966 4.376a1.41 1.41 0 0 1-.295 1.58M4 13.499c.16.215.735.5 1.73.5h10.952c.636 0 1.21.37 1.46.95l1.816 4.29a.55.55 0 0 1-.51.76H8.021a1.8 1.8 0 0 1-1.65-1.07z"/>
+    </g>
+    <defs>
+        <linearGradient id="LYRA__b" x1="12" x2="12" y1="3.995" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5ADCD3"/>
+            <stop offset="1" stop-color="#37C4B1"/>
+        </linearGradient>
+        <clipPath id="LYRA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

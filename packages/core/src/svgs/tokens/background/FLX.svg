@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#FLX__a)">
+        <path fill="url(#FLX__b)" d="M24 0H0v24h24z"/>
+        <path fill="#000" fill-rule="evenodd" d="M15.789 4h-1.617l-.753 3.68a4.5 4.5 0 0 0-1.015-.27l.438-2.147h-2.653l-.547 2.661a4.42 4.42 0 0 0-1.343 6.581l-.914 4.463A.855.855 0 0 0 8.215 20h1.612l.808-3.941q.498.132 1.04.152l-.518 2.526h2.653l.712-3.47a4.41 4.41 0 0 0 1.145-5.6l.947-4.631A.854.854 0 0 0 15.784 4zm-4 9.684a1.895 1.895 0 1 0 0-3.79 1.895 1.895 0 0 0 0 3.79" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="FLX__b" x1="14.979" x2="4.774" y1="6" y2="13.269" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#77D8FE"/>
+            <stop offset="1" stop-color="#4FDF9D"/>
+        </linearGradient>
+        <clipPath id="FLX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

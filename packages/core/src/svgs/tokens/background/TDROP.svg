@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TDROP__a)">
+        <path fill="url(#TDROP__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 20a6.737 6.737 0 0 0 6.736-6.737C18.737 9.541 12.843 4 12 4s-6.737 5.541-6.737 9.263A6.736 6.736 0 0 0 12 20m-3.37-8v2.947h2.105v2.106h2.527v-2.106h2.105V12z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="TDROP__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00F2FF"/>
+            <stop offset="1" stop-color="#00BCF3"/>
+        </linearGradient>
+        <clipPath id="TDROP__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

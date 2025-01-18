@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KROM__a)">
+        <path fill="url(#KROM__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m18.555 18.629-6.523-5.553-6.699 5.665c-.517.437-1.333.085-1.333-.582V5.84c0-.667.816-1.014 1.333-.582l6.7 5.691 6.58-5.616a.853.853 0 0 1 1.174.064.78.78 0 0 1-.07 1.136l-6.42 5.451 6.373 5.44a.783.783 0 0 1 .08 1.13.865.865 0 0 1-1.195.075M5.6 7.54v8.87l5.168-4.406z"/>
+    </g>
+    <defs>
+        <linearGradient id="KROM__b" x1="4" x2="20" y1="11.999" y2="11.999" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9EEBFD"/>
+            <stop offset=".23" stop-color="#AAC5F9"/>
+            <stop offset=".52" stop-color="#A5BCF8"/>
+            <stop offset=".74" stop-color="#B6B5F7"/>
+            <stop offset=".9" stop-color="#EBB0F2"/>
+            <stop offset="1" stop-color="#AEA0F4"/>
+        </linearGradient>
+        <clipPath id="KROM__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

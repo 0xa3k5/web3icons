@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#QUIDD__a)">
+        <path fill="#6B10D7" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M16.706 18.47a8 8 0 1 0-2.353 1.176v-3.572A4.706 4.706 0 1 1 16.706 12zM12 14.352a2.353 2.353 0 1 0 0-4.706 2.353 2.353 0 0 0 0 4.706"/>
+    </g>
+    <defs>
+        <clipPath id="QUIDD__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

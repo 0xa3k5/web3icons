@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DZOO__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#DZOO__b)" d="M18.388 11.557c-.547 0-.947.297-.947.444.395 0 1.182.178 1.182.889s-1.102 1.48-1.653 1.778c.942 0 2.364-.667 2.364-1.778 0-.836-.47-1.334-.946-1.334"/>
+        <path fill="#BBA1A2" d="M18.623 12.89c0-.89-.787-.965-1.182-.89v1.112c.569 0 .71.146.71.222h-.235c-.19.356-.71.591-.946.667v.667c.55-.223 1.653-.89 1.653-1.778"/>
+        <path fill="url(#DZOO__c)" d="M5.613 11.557c.546 0 .946.297.946.444-.395 0-1.182.178-1.182.889s1.102 1.48 1.654 1.778c-.943 0-2.365-.667-2.365-1.778 0-.836.471-1.334.947-1.334"/>
+        <path fill="#BBA1A2" d="M5.377 12.89c0-.89.787-.965 1.182-.89v1.112c-.569 0-.71.146-.71.222h.235c.19.356.71.591.946.667v.667c-.55-.223-1.653-.89-1.653-1.778"/>
+        <path fill="url(#DZOO__d)" d="M10.107 6.445c.378-.356 1.578-1.778 2.133-2.445v1.778l-.711 4c-.631-.964-1.8-2.978-1.422-3.333"/>
+        <path fill="url(#DZOO__e)" d="M14.365 6.445c-.377-.356-1.578-1.778-2.129-2.445v1.778l.711 4c.632-.964 1.796-2.978 1.423-3.333z"/>
+        <path fill="url(#DZOO__f)" d="M11.289 8.889c-.756-.889-1.102-2.89-1.182-3.778-1.423 1.556-.311 3.409.235 4.222z"/>
+        <path fill="url(#DZOO__g)" d="M7.978 7.556c.19-1.245 1.497-2.147 2.133-2.445-1.329 1.422-.711 3.409-.24 4.222 0 0-.289.027-.476 0-.91-.124-1.417-1.777-1.417-1.777"/>
+        <path fill="url(#DZOO__h)" d="M13.182 8.889c.755-.889 1.102-2.89 1.182-3.778 1.422 1.556.316 3.409-.236 4.222z"/>
+        <path fill="url(#DZOO__i)" d="M16.494 7.556c-.186-1.245-1.498-2.147-2.129-2.445 1.325 1.422.711 3.409.236 4.222 0 0 .293.027.475 0 .916-.124 1.423-1.777 1.423-1.777z"/>
+        <path fill="url(#DZOO__j)" d="M9.395 9.335C8.639 8.8 7.82 7.037 7.505 6.224c-.568 1.6.552 3.035 1.183 3.555l.711-.444z"/>
+        <path fill="url(#DZOO__k)" d="M7.507 11.113c-1.707-1.423-.711-3.854 0-4.89-.378 2.134.311 3.258.711 3.556z"/>
+        <path fill="url(#DZOO__l)" d="M10.818 18.889c-.485-.454-.867-1.778-.947-2.445h1.894l.47 3.556c-.47-.667-.946-.667-1.417-1.111"/>
+        <path fill="url(#DZOO__m)" d="M13.659 18.889c.48-.454.866-1.778.946-2.445h-1.893L12.236 20c.476-.667.947-.667 1.423-1.111"/>
+        <path fill="url(#DZOO__n)" d="M15.076 9.335c.756-.534 1.578-2.298 1.894-3.111.564 1.6-.551 3.035-1.183 3.555z"/>
+        <path fill="url(#DZOO__o)" d="M16.97 11.113c1.702-1.423.711-3.854 0-4.89.378 2.134-.316 3.258-.711 3.556z"/>
+        <path fill="url(#DZOO__p)" d="M11.284 15.556c-.755.889-1.102 2.889-1.182 3.778-1.422-1.556-.316-3.41.236-4.222z"/>
+        <path fill="url(#DZOO__q)" d="M7.974 16.89c.187 1.245 1.498 2.147 2.13 2.445-1.325-1.423-.712-3.41-.236-4.223 0 0-.294-.026-.476 0-.916.125-1.422 1.778-1.422 1.778z"/>
+        <path fill="url(#DZOO__r)" d="M13.182 15.556c.755.889 1.102 2.889 1.182 3.778 1.422-1.556.316-3.41-.236-4.222z"/>
+        <path fill="url(#DZOO__s)" d="M16.494 16.89c-.186 1.245-1.498 2.147-2.129 2.445 1.325-1.423.711-3.41.236-4.223 0 0 .293-.026.475 0 .916.125 1.423 1.778 1.423 1.778z"/>
+        <path fill="url(#DZOO__t)" d="M9.391 15.112c-.756.533-1.578 2.298-1.889 3.111-.569-1.6.551-3.035 1.182-3.555l.711.444z"/>
+        <path fill="url(#DZOO__u)" d="M7.778 12.89c-1.702 1.422-.987 4.297-.28 5.333-.378-2.133 1.218-4.147 1.613-4.445z"/>
+        <path fill="url(#DZOO__v)" d="M15.076 15.112c.756.533 1.578 2.298 1.894 3.111.569-1.6-.551-3.035-1.183-3.555z"/>
+        <path fill="url(#DZOO__w)" d="M16.445 13.111c1.702 1.422 1.23 4.076.524 5.112.378-2.134-1.022-4.147-1.413-4.445z"/>
+        <path fill="url(#DZOO__x)" d="M6.089 8.444c-1.707 2.845.471 5.333 1.889 5.333l-.471-1.333c-1.138-.356-1.422-2.813-1.422-4z"/>
+        <path fill="url(#DZOO__y)" d="M7.977 10.222a6 6 0 0 1-1.893-1.778 3.42 3.42 0 0 0 1.422 3.111z"/>
+        <path fill="url(#DZOO__z)" d="M18.152 8.224c1.702 2.844-.236 4.742-1.422 5.333v-1.333c1.137-.356 1.422-2.814 1.422-4"/>
+        <path fill="url(#DZOO__A)" d="M16.259 10.002a6 6 0 0 0 1.893-1.778 3.42 3.42 0 0 1-1.422 3.11z"/>
+        <path fill="url(#DZOO__B)" d="M7.556 11.09c0-.868.814-2.579 2.654-2.579l-.511-.51c.768.088 1.79.444 2.524.888.6-.444 1.44-.684 2.667-.889l-.445.516a2.82 2.82 0 0 1 2.445 2.573c0 .6-.133 1.956-1.569 2.574.342.084.902.417.902 1.448 0 1.29-2 2.667-4 2.667-1.533 0-3.556-.866-3.556-2.666 0-1.232.4-1.48.73-1.472-.854-.15-2.05-.862-1.84-2.55"/>
+        <path fill="url(#DZOO__C)" d="M8.222 10.668c-.782 0-.889.444-.889.666 0 1.245 0 2.89.733 2.89h1.467c1.222 0 1.711-2 2.69-2 1.128 0 1.146 1.764 2.443 2h1.467c.978 0 .978-2.223.978-2.89 0-.533-.564-.666-.889-.666h-2c-.444 0-1.413.889-2 .889s-1.333-.89-1.955-.89z"/>
+        <path fill="url(#DZOO__D)" d="M7.778 13.111v-.444L8.89 11.11h.445z"/>
+        <path fill="url(#DZOO__E)" d="M14.001 13.111v-.444l1.111-1.556h.445z"/>
+        <path fill="url(#DZOO__F)" d="M7.778 13.778v-.444l1.778-2.223h.445z"/>
+        <path fill="url(#DZOO__G)" d="M14.001 13.778v-.444l1.778-2.223h.444z"/>
+        <path fill="url(#DZOO__H)" d="M8.444 13.778H8l2.222-2.667h.445z"/>
+        <path fill="url(#DZOO__I)" d="M14.667 13.778h-.444l2.222-2.667h.445z"/>
+        <path fill="url(#DZOO__J)" d="M13.11 14.668h-1.777c-.444 0-.444.253-.444.506 0 .254.444 1.271 1.333 1.271s1.333-.76 1.333-1.27c0-.405-.297-.507-.444-.507"/>
+        <path fill="url(#DZOO__K)" d="M12.254 15.112c-.311 0-.854.52-.982.666.19.445.568.667.95.667.383 0 .76-.222.952-.667-.133-.146-.605-.667-.92-.667"/>
+        <path fill="#020207" d="M11.57 14.223h.475s-.315-.444-.475-.444c-.156 0-.236.097-.236.222 0 .124.08.222.236.222m1.346 0h-.47s.315-.444.47-.444c.16 0 .24.097.24.222 0 .124-.08.222-.24.222"/>
+    </g>
+    <defs>
+        <linearGradient id="DZOO__b" x1="16.412" x2="12.722" y1="5.144" y2="20.532" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#7BCC73"/>
+            <stop offset="1" stop-color="#158885"/>
+        </linearGradient>
+        <linearGradient id="DZOO__c" x1="7.588" x2="11.278" y1="5.144" y2="20.532" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#7BCC73"/>
+            <stop offset="1" stop-color="#158885"/>
+        </linearGradient>
+        <linearGradient id="DZOO__d" x1="11.979" x2="11.979" y1="4" y2="20.001" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0E9284"/>
+            <stop offset="1" stop-color="#76BE62"/>
+        </linearGradient>
+        <linearGradient id="DZOO__e" x1="7.83" x2="8.476" y1="4.615" y2="20.152" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#8ECB63"/>
+            <stop offset="1" stop-color="#4DBA76"/>
+        </linearGradient>
+        <linearGradient id="DZOO__f" x1="12.495" x2="12.495" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0D827C"/>
+            <stop offset="1" stop-color="#58B56E"/>
+        </linearGradient>
+        <linearGradient id="DZOO__g" x1="12" x2="12" y1="4" y2="19.956" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#70AB6B"/>
+            <stop offset="1" stop-color="#2EA881"/>
+        </linearGradient>
+        <linearGradient id="DZOO__h" x1="15.213" x2="15.213" y1="3.158" y2="19.158" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0D827C"/>
+            <stop offset="1" stop-color="#58B56E"/>
+        </linearGradient>
+        <linearGradient id="DZOO__i" x1="15.24" x2="15.24" y1="3.16" y2="19.116" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#70AB6B"/>
+            <stop offset="1" stop-color="#2EA881"/>
+        </linearGradient>
+        <linearGradient id="DZOO__j" x1="5.784" x2="9.672" y1="5.001" y2="21.471" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#199584"/>
+            <stop offset="1" stop-color="#6AB562"/>
+        </linearGradient>
+        <linearGradient id="DZOO__k" x1="12.001" x2="12.001" y1="4.001" y2="20.002" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6EB374"/>
+            <stop offset=".57" stop-color="#4AB67C"/>
+            <stop offset="1" stop-color="#74B960"/>
+        </linearGradient>
+        <linearGradient id="DZOO__l" x1="12" x2="12" y1="3.999" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#12837F"/>
+            <stop offset="1" stop-color="#ACDA5F"/>
+        </linearGradient>
+        <linearGradient id="DZOO__m" x1="11.987" x2="11.987" y1="3.999" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#12837F"/>
+            <stop offset="1" stop-color="#ACDA5F"/>
+        </linearGradient>
+        <linearGradient id="DZOO__n" x1="21.601" x2="17.716" y1="4.001" y2="20.473" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#199584"/>
+            <stop offset="1" stop-color="#6AB562"/>
+        </linearGradient>
+        <linearGradient id="DZOO__o" x1="16.193" x2="16.193" y1="3.274" y2="19.274" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6EB374"/>
+            <stop offset=".57" stop-color="#4AB67C"/>
+            <stop offset="1" stop-color="#74B960"/>
+        </linearGradient>
+        <linearGradient id="DZOO__p" x1="12.498" x2="12.498" y1="20.001" y2="4" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0D827C"/>
+            <stop offset="1" stop-color="#58B56E"/>
+        </linearGradient>
+        <linearGradient id="DZOO__q" x1="12.001" x2="12.001" y1="20.001" y2="4.046" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#70AB6B"/>
+            <stop offset="1" stop-color="#2EA881"/>
+        </linearGradient>
+        <linearGradient id="DZOO__r" x1="11.501" x2="11.501" y1="20.001" y2="4" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0D827C"/>
+            <stop offset="1" stop-color="#58B56E"/>
+        </linearGradient>
+        <linearGradient id="DZOO__s" x1="12.001" x2="12.001" y1="20.001" y2="4.046" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#70AB6B"/>
+            <stop offset="1" stop-color="#2EA881"/>
+        </linearGradient>
+        <linearGradient id="DZOO__t" x1="5.785" x2="9.672" y1="19.001" y2="2.531" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#199584"/>
+            <stop offset="1" stop-color="#6AB562"/>
+        </linearGradient>
+        <linearGradient id="DZOO__u" x1="8.724" x2="8.724" y1="20.001" y2="5.334" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6EB374"/>
+            <stop offset=".57" stop-color="#4AB67C"/>
+            <stop offset="1" stop-color="#74B960"/>
+        </linearGradient>
+        <linearGradient id="DZOO__v" x1="18.216" x2="14.313" y1="19.001" y2="2.523" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#199584"/>
+            <stop offset="1" stop-color="#6AB562"/>
+        </linearGradient>
+        <linearGradient id="DZOO__w" x1="15.581" x2="15.581" y1="20" y2="4.696" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6EB374"/>
+            <stop offset=".57" stop-color="#4AB67C"/>
+            <stop offset="1" stop-color="#74B960"/>
+        </linearGradient>
+        <linearGradient id="DZOO__x" x1="6.913" x2="8.991" y1="5.999" y2="19.611" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#84BA5D"/>
+            <stop offset="1" stop-color="#1D9B85"/>
+        </linearGradient>
+        <linearGradient id="DZOO__y" x1="4.783" x2="10.729" y1="3.999" y2="20.194" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#108A82"/>
+            <stop offset="1" stop-color="#42A77F"/>
+        </linearGradient>
+        <linearGradient id="DZOO__z" x1="21.272" x2="19.531" y1="6.001" y2="19.709" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#84BA5D"/>
+            <stop offset="1" stop-color="#1D9B85"/>
+        </linearGradient>
+        <linearGradient id="DZOO__A" x1="24.647" x2="18.724" y1="4.001" y2="20.185" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#108A82"/>
+            <stop offset="1" stop-color="#42A77F"/>
+        </linearGradient>
+        <linearGradient id="DZOO__B" x1="12.069" x2="12.676" y1="5.265" y2="19.998" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EFE6E7"/>
+            <stop offset="1" stop-color="#AF888B"/>
+        </linearGradient>
+        <linearGradient id="DZOO__C" x1="11.666" x2="14.986" y1="6.001" y2="18.098" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#041D21"/>
+            <stop offset="1" stop-color="#050306"/>
+        </linearGradient>
+        <linearGradient id="DZOO__D" x1="17.239" x2="7.335" y1="4" y2="21.509" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#394F51"/>
+            <stop offset="1" stop-color="#374D50" stop-opacity=".08"/>
+        </linearGradient>
+        <linearGradient id="DZOO__E" x1="17.239" x2="7.335" y1="4" y2="21.509" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#394F51"/>
+            <stop offset="1" stop-color="#374D50" stop-opacity=".08"/>
+        </linearGradient>
+        <linearGradient id="DZOO__F" x1="13.467" x2="5.784" y1="9.333" y2="22.011" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#394F51"/>
+            <stop offset="1" stop-color="#374D50" stop-opacity=".08"/>
+        </linearGradient>
+        <linearGradient id="DZOO__G" x1="13.468" x2="5.784" y1="9.333" y2="22.011" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#394F51"/>
+            <stop offset="1" stop-color="#374D50" stop-opacity=".08"/>
+        </linearGradient>
+        <linearGradient id="DZOO__H" x1="15.667" x2="7.422" y1="9.333" y2="20.671" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#394F51"/>
+            <stop offset="1" stop-color="#374D50" stop-opacity=".08"/>
+        </linearGradient>
+        <linearGradient id="DZOO__I" x1="15.667" x2="7.422" y1="9.333" y2="20.671" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#394F51"/>
+            <stop offset="1" stop-color="#374D50" stop-opacity=".08"/>
+        </linearGradient>
+        <linearGradient id="DZOO__J" x1="12" x2="12" y1="4" y2="20.001" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#021B1F"/>
+            <stop offset="1" stop-color="#0B1110"/>
+        </linearGradient>
+        <linearGradient id="DZOO__K" x1="15.461" x2="15.461" y1="1.333" y2="14.667" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5C1B15"/>
+            <stop offset="1" stop-color="#2E0002"/>
+        </linearGradient>
+        <clipPath id="DZOO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

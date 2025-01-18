@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DCK__a)">
+        <path fill="url(#DCK__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m17.08 8.601-.017.004-7.698 7.855a1.11 1.11 0 0 1-1.588.008L4.39 13.04c-.828-.832-.248-2.24.907-2.24h1.948c.34 0 .668.132.916.372l1.8 1.732-.92 1-1.8-1.704H5.413l3.156 3.136 7.55-7.727a1.34 1.34 0 0 1 .96-.408h1.464c1.3 0 1.948 1.616 1.02 2.556l-6.623 6.69a1.176 1.176 0 0 1-1.688-.015l-.452-.468.96-.964.344.36 6.52-6.56c.071-.071.02-.199-.08-.199h-1.469z"/>
+    </g>
+    <defs>
+        <linearGradient id="DCK__b" x1="19.987" x2="4.002" y1="8.661" y2="8.661" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#097CB8"/>
+            <stop offset="1" stop-color="#8ADECF"/>
+        </linearGradient>
+        <clipPath id="DCK__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

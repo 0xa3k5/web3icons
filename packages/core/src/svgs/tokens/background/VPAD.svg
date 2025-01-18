@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#VPAD__a)">
+        <path fill="#68FFD2" d="M24 0H0v24h24z"/>
+        <path fill="#000" fill-rule="evenodd" d="m4 5 8 14 8-14zm4.42 2.5 1.255 2.34L8.5 11.5h2.135L12 14l3.425-6.5z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="VPAD__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

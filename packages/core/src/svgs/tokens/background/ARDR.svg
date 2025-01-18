@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ARDR__a)">
+        <path fill="#3C87C7" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m11.904 14.136 1.416 1.835L9.2 18.75zM12 5.25l2.184 3.55-5.824 9.95H4zm0 7.814 2.912-2.128L20 18.75h-3.632z"/>
+    </g>
+    <defs>
+        <clipPath id="ARDR__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

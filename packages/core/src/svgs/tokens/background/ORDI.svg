@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#ORDI__a)">
+        <path fill="#FEFEFE" d="M24.5 0H.5v24h24z"/>
+        <path fill="#000" d="M7.233 5.778h3.045v1.778H7.61v4.07l-.444.312v.489l.444.289v3.729h2.667v1.777H7.233l-1.4-1.777v-3.556H4.5V11.11h1.333V7.556zm10.534 0h-3.045v1.778h2.667v4.07l.444.312v.489l-.444.289v3.729h-2.667v1.777h3.045l1.4-1.777v-3.556H20.5V11.11h-1.333V7.556z"/>
+        <path fill="#000" fill-rule="evenodd" d="M12.5 14.666a2.67 2.67 0 0 0 2.667-2.667 2.666 2.666 0 1 0-2.666 2.667m0-1.334a1.333 1.333 0 1 0 0-2.666 1.333 1.333 0 0 0 0 2.666" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="ORDI__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

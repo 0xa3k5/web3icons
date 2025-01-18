@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#LITH__a)">
+        <path fill="#E96036" d="M24 0H0v24h24z"/>
+        <path fill="#000" d="M7.143 10.286a3.143 3.143 0 1 0 0-6.286 3.143 3.143 0 0 0 0 6.286"/>
+        <path fill="#fff" d="M16.857 10.286a3.143 3.143 0 1 0 0-6.286 3.143 3.143 0 0 0 0 6.286"/>
+        <path fill="#000" d="M7.143 20a3.143 3.143 0 1 0 0-6.286 3.143 3.143 0 0 0 0 6.286m9.714 0a3.143 3.143 0 1 0 0-6.286 3.143 3.143 0 0 0 0 6.286"/>
+    </g>
+    <defs>
+        <clipPath id="LITH__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

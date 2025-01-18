@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DIVI__a)">
+        <path fill="url(#DIVI__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.763 4H4c1.115 2.587 2.57 3.733 4.379 3.733h4.176c1.669 0 3.546 2.112 3.546 4.267s-1.877 4.267-3.546 4.267H9.333v-4.768H5.5V20h7.264C16.309 20 20 17.392 20 12s-3.69-8-7.237-8"/>
+    </g>
+    <defs>
+        <linearGradient id="DIVI__b" x1="18.934" x2="5.749" y1="6.714" y2="17.643" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EC1F55"/>
+            <stop offset="1" stop-color="#EC2928"/>
+        </linearGradient>
+        <clipPath id="DIVI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

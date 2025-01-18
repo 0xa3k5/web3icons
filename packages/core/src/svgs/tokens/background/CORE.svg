@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CORE__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#F0F3FA" d="m17.774 4.975-6.605.06V6.64l.34 2.94.51 1.36.865.7.215 3.86.925-.84 2.98-.035v.875l.88.4.275.225 1.605.2V7.04l-.29-.5-.48-.385-.305-.45-.6-.36-.315-.365z"/>
+        <path fill="#00F" d="M13 11h.5v2H13zm0 2.5h.5v.5H13z"/>
+        <path fill="gray" d="M4.5 11.5H13V20H4.5z"/>
+        <path fill="#000" d="M4 11h8.5v8.5H4z"/>
+        <path fill="gray" d="M4 9.005h6.5v9.994H4z"/>
+        <path fill="gray" d="M7.5 7H12v3H7.5z"/>
+        <path fill="#F0F3FA" d="M8 6.496h3.5V8.5H8z"/>
+        <path fill="gray" d="M8.5 7h3v1.5h-3zm2.07-2.5H8.43v.4H8v1.6h3V4.9h-.43z"/>
+        <path fill="#F0F3FA" d="M9 5h1.5v1.5H9z"/>
+        <path fill="#000" d="M10.5 6.496h.5v.5h-.5z"/>
+        <path fill="silver" d="M10.5 5h.5v.5h-.5z"/>
+        <path fill="#000" d="M10.5 4.5h.5V5h-.5zm0 1.5h.5v.5h-.5zM9 5h1.5v.5H9z"/>
+        <path fill="silver" d="M10 4.5h.5V5H10z"/>
+        <path fill="#F0F3FA" d="M9 4.5h1V5H9z"/>
+        <path fill="gray" d="M9 4h1.5v.5H9z"/>
+        <path fill="#000" d="M11.499 7.5h.5V10h-.5z"/>
+        <path fill="red" d="M11 8.005h.5v2H11z"/>
+        <path fill="#F0F3FA" d="M10 9.5H4.5V19H12v-7.5h-2z"/>
+        <path fill="#00F" d="M5.5 11.5h4v.5h-4zm0 1H11v.5H5.5zm0 1H11v.5H5.5zm0 1H11v.5H5.5zm0 1H11v.5H5.5zm0 1H11v.5H5.5zm0 1H11v.5H5.5z"/>
+        <path fill="red" d="M6 6.5h.5V8H6zm.5-.5H7v.5h-.5zM8 4.5h.5V5H9v.5h.5V6H9v.5h-.5V7H8V6H7v-.5h1zM15.5 20v-.5H14v.5zm.5-.5V19h-.5v.5zm1.5-1.5v-.5H17V17h-.5v-.5H16v.5h-.5v.5H15v.5h1v1h.5v-1z"/>
+        <path fill="#C4C4C4" d="M9 8h.5v.5H9zm1 0h.5v.5H10zm-1.5-.5H9V8h-.5zm1 0h.5V8h-.5zm1 0h.5V8h-.5zm0 2.5h.5v.5h-.5zm.5.5h.5v.5H11z"/>
+        <path fill="gray" d="M11 10h.5v.5H11zm.5.5h.5v.5h-.5z"/>
+        <path fill="#00F" d="M12 10.5h1v.5h-1z"/>
+        <path fill="#C4C4C4" d="M8.5 8.5H9V9h-.5zm1 0h.5V9h-.5zm1 0h.5V9h-.5zm-2-2H9V7h-.5zm1 0h.5V7h-.5zm1 0h.5V7h-.5z"/>
+        <path fill="gray" d="M9 6h1.5v.5H9zm9-1h.5v.5H18zm.5.5h.5V6h-.5zm.5.5h.5v.5H19zm.5.5h.5V7h-.5z"/>
+        <path fill="#000" d="M17.999 7h2v.5h-2z"/>
+        <path fill="#00F" d="M13 7h2v.5h.5v2H15v.5h-2v-.5h-.5v-2h.5zm1.5.5h-1v2h1zm2 3h2v.5h.5v2h-.5v.5h-2V13H16v-2h.5zm1.5.5h-1v2h1zm-2-4h1v3h-1zm-1.5 3.5h1v3h-1zm3.5-3h1V10h-1z"/>
+        <path fill="silver" d="M14 14h3v.5h-3z"/>
+        <path fill="#000" d="M14 14.5h3v.5h-3z"/>
+        <path fill="gray" d="M13.5 14.5h.5v.5h-.5zm3.5 0h.5v.5H17z"/>
+        <path fill="#000" d="M17 15h.5v1H17z"/>
+        <path fill="#000" d="M17 15.5h1v.5h-1zm1 .5h2v.5h-2z"/>
+        <path fill="#000" d="M19.5 7h.5v9.5h-.5zM13 15h1v1h-1z"/>
+        <path fill="gray" d="M17.5 15h.5v.5h-.5zm.5.5h1.5v.5H18zm0-11h-7V5h6.5v2.5h.5z"/>
+        <path fill="#000" d="M11 5h.5v1.5H11z"/>
+    </g>
+    <defs>
+        <clipPath id="CORE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

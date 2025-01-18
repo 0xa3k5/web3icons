@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#PART__a)" d="M7 4.512a2.5 2.5 0 0 0-2.5 2.5v11.464c0 1.06.3 2.099.864 2.996l.325.515A3.69 3.69 0 0 1 2 18.3V7.012a5 5 0 0 1 5-5h10a5 5 0 0 1 5 5v9.976a5 5 0 0 1-5 5H9.492a2.5 2.5 0 0 1-2.5-2.5V8.862a1.875 1.875 0 0 1 1.875-1.875h6.25a1.875 1.875 0 0 1 1.875 1.875v6.25a1.875 1.875 0 0 1-1.875 1.876H9.492v2.5H17a2.5 2.5 0 0 0 2.5-2.5V7.012a2.5 2.5 0 0 0-2.5-2.5zm2.492 9.975h5v-5h-5z"/>
+    <path fill="url(#PART__a)" d="M8 6.01a2 2 0 0 0-2 2v9.17a4.5 4.5 0 0 0 .691 2.397l.26.413A2.95 2.95 0 0 1 4 17.039v-9.03a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v7.98a4 4 0 0 1-4 4H9.993a2 2 0 0 1-2-2v-8.5a1.5 1.5 0 0 1 1.5-1.5h5a1.5 1.5 0 0 1 1.5 1.5v5a1.5 1.5 0 0 1-1.5 1.5h-4.5v2H16a2 2 0 0 0 2-2V8.01a2 2 0 0 0-2-2zm1.993 7.98h4v-4h-4z"/>
     <defs>
-        <linearGradient id="PART__a" x1="12" x2="12" y1="2.012" y2="21.988" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PART__a" x1="12" x2="12" y1="4.01" y2="19.99" gradientUnits="userSpaceOnUse">
             <stop stop-color="#26F294"/>
             <stop offset="1" stop-color="#45D693"/>
         </linearGradient>

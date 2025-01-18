@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KYVE__a)">
+        <path fill="url(#KYVE__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4.857 20 8.24 4h3.063l-1.406 6.623h.555L15.549 4h3.594v.309l-6.126 7.542v.355l3.926 7.565V20h-3.417l-3.343-6.623H9.31L7.897 20z"/>
+    </g>
+    <defs>
+        <linearGradient id="KYVE__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#151E1D"/>
+            <stop offset="1" stop-color="#23584E"/>
+        </linearGradient>
+        <clipPath id="KYVE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

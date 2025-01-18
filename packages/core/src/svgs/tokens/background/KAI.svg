@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KAI__a)">
+        <path fill="#797CB3" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m10.89 10.125-2.223-5.36 3.556 1.804z"/>
+        <path fill="#fff" d="M10.889 10.124v-3.11l1.333-.445z"/>
+        <path fill="#fff" d="m10.89 7.014-2.223-2.25 3.556 1.805zM20 9.236h-3.778l1.777 3.111z"/>
+        <path fill="#fff" d="m16.222 9.236-3.333 1.333 5.11 1.778z"/>
+        <path fill="#fff" d="m14.406 6.125-1.517 4.445 3.333-1.334zm3.816-.667-2 3.778H20z"/>
+        <path fill="#fff" d="m14.406 6.125 1.817 3.11 2-3.777zM13.112 18.79l-2.445-6.889 6 2.223z"/>
+        <path fill="#fff" d="M13.11 18.79v-4.666h3.556z"/>
+        <path fill="#fff" d="M13.112 14.124 10.667 11.9l6 2.223zM6.667 5.236 4 8.569l2.667 6.222 4.666 4.445z"/>
+        <path fill="#fff" d="m8.89 11.901-2.223 2.89 4.667 4.444zm-2.223-1.554L4 8.569l2.667 6.222 2.222-2.889z"/>
+    </g>
+    <defs>
+        <clipPath id="KAI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#GXA__a)">
+        <path fill="url(#GXA__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12 18a6.09 6.09 0 0 1-5.965-5H4c.545 3.95 4.005 7 8 7s7.455-3.05 8-7h-2.035A6.09 6.09 0 0 1 12 18m0-12a6.1 6.1 0 0 1 5.7 4h-2.21a4.01 4.01 0 0 0-3.515-1.985C9.86 8.055 8.005 9.865 8 12a4.095 4.095 0 0 0 3.975 4 4.02 4.02 0 0 0 3.93-3H12.25a1.97 1.97 0 0 1 0-2H20c-.545-3.95-4.005-7-8-7s-7.455 3.05-8 7h2.035c.5-2.86 3.06-5.015 5.965-5"/>
+    </g>
+    <defs>
+        <linearGradient id="GXA__b" x1="4.98" x2="19.065" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#13EFCF"/>
+            <stop offset=".48" stop-color="#A472FF"/>
+            <stop offset="1" stop-color="#543FFF"/>
+        </linearGradient>
+        <clipPath id="GXA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

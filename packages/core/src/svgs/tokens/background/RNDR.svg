@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#RNDR__a)">
+        <path fill="url(#RNDR__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 4.5a7.5 7.5 0 1 1-6.05 3.07A1.495 1.495 0 0 0 8.5 6.5a1.5 1.5 0 1 0-2.855.64A8 8 0 1 0 12 4zm-5 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m5 8a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="RNDR__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E92121"/>
+            <stop offset="1" stop-color="#9C0403"/>
+        </linearGradient>
+        <clipPath id="RNDR__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

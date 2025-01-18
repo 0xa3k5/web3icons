@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#IGNIS__a)">
+        <path fill="#F9C011" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M14.462 6.252 10.974 4l-2.666 6.736 1.706 3.11zm2.461 3.697-2.03-3.438-7.816 13.456h3.918zm-2.289 4.718L11.59 20l4.923-2.92z"/>
+    </g>
+    <defs>
+        <clipPath id="IGNIS__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

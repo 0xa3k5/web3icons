@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#XMON__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#62BAA5" d="M8.75 16v.5h.5v2H10v.5h1v-.5h.5v-.845h-1V16.5h.57l.05-1.5H9.25v1z"/>
+        <path fill="#62BAA5" d="M8 14h1.5v1.5H8v1H6.317V16H5v-1.5h1.5v.75H8zm-2 4h1.5v-1h1.25v1.75H7.5v.75H6z"/>
+        <path fill="#17614F" d="M5 13.5h1.5v.5H5zM5 16h-.5v-2H5zm.5.5H5V16h.5zm0 0h.75V18H7.5v.5H6v-.25h-.5v1.25H5v-2h.5zm1-2V14H7v.5zm0 .75v-.75h-1v.75zV16h1v-.75H8v-.5h.75V14H8v.5h-.5v.75zm2.75-.5h1.25v1.75h.5v.5h-.5v-.5H10v.5h.5v.5h.5V17h.75v.75H11V18h-1v-1h-.75v-1H10v-.75h-.75z"/>
+        <path fill="#36937D" d="M9.25 14.5H8.5v.75H8V16h-.5v.5h-1V16h-1v.5h.75v.5H7.5v.5H6.25v.75H7.5v-.75H8V17h.75v-.5H8V16h.75v-.75h.5zM8 16.5v.5h-.5v-.5zm.25 2.25H7.5v.75h-1v.5h1v-.5h.75zM5.5 18.5H6v.5h-.5z"/>
+        <path fill="#93E6D2" d="M6.5 14H5v.5h1.5zM6 18h-.5v.5H6zm3.25-1H10v1h-.75zm3-.5h-.5v1.25h.5z"/>
+        <path fill="#62BAA5" d="M15.235 16v.5h-.5v2h-.75v.5h-1v-.5h-.5v-.845H13.5V16.5h-.585l-.05-1.5h1.87v1z"/>
+        <path fill="#62BAA5" d="M16 14h-1.5v1.5H16v1h1.67V16H19v-1.5h-1.5v.75H16zm2 4h-1.5v-1h-1.25v1.75h1.25v.75H18z"/>
+        <path fill="#17614F" d="M12.9 14.115h.71v-.565H10.5v.565h.485V16.5h.75v-1.74h.5v1.74h.75v-1.74l-.085-.65z"/>
+        <path fill="#17614F" d="M19 13.5h-1.5v.5H19zm0 2.5h.5v-2H19zm-.5.5h.5V16h-.5zm0 0h-.75V18H16.5v.5H18v-.25h.5v1.25h.5v-2h-.5zm-1-2V14H17v.5zm0 0v.75h1v-.75zm-2.25-.5H16v.5h.5v.75h.985V16h-1v-.75H16v-.5h-.75zm-.5.75H13.5v1.75H13v.5h.5v-.5h.485v.5H13.5v.5H13V17h-.75v.75H13V18h1v-1h.735v-1H14v-.75h.75z"/>
+        <path fill="#36937D" fill-rule="evenodd" d="M14.75 14.5h.75v.75h.5V16h.5v.5h1V16h1v.5h-.75v.5H16.5v.5h1.25v.75H16.5v-.75H16V17h-.75v-.5H16V16h-.75v-.75h-.5zm1.735 2v.5H16v-.5zm-.75 2.25h.765v.75h.985v.5h-1v-.5h-.75zm2.765-.25H18v.5h.5z" clip-rule="evenodd"/>
+        <path fill="#93E6D2" d="M17.5 14h1.501v.5h-1.5zm.5 4h.5v.5H18zm-3.264-1h-.75v1h.75zm-3-.5h.5v1.25h-.5z"/>
+        <path fill="url(#XMON__b)" d="M8 12.5h-.5V9H8V8h.5v-.5h.75v-1H10v-.75h.5V5h.5v-.5h.75V4h.5v.5H13V5h.5v.75h.5v.75h.75v1h.75V8h.5v1h.5v3.5H16v.5h-.5v.5h-.75v1H14v1h-4v-1h-.75v-1H8.5V13H8z"/>
+        <path fill="#93E6D2" d="M11 5v1h2V5h-.75v-.5h-.5V5z"/>
+        <path fill="#62BAA5" d="M8 8.5V12h.5v.75h.75v.75H11v.5h2v-.5h1.75v-.75h.75V12h.5V8.5h-.5V8h-.73v-.5H14V6.2h-.5v-.7h-1V5h-1v.5h-1v.7H10v1.3h-.775V8H8.5v.5z"/>
+        <path fill="#93E6D2" d="M9.34 8.75v.725l1.15 1.785h1.2V10H11v-.69h-.5v-.56z"/>
+        <path fill="#36937D" d="M8.7 11.705V11.1l.57-1.77h.606v.61h.625v.56h.575v.6h.61v1.205h-2.37v-.6z"/>
+        <path fill="#17614F" d="M8.695 11.12v-1.8h.625v1.01l1.755 1.12v.84h-1.16v-.585H9.32v-.585z"/>
+        <path fill="#fff" d="M9.3 11.1V9.93h.595v.57h.605v.6h.57v.595H9.895V11.1z"/>
+        <path fill="#93E6D2" d="M14.605 8.726v.75l-1.15 1.785H12.26V10H13v-.69h.455v-.585z"/>
+        <path fill="#36937D" d="m15.25 11.1-.57-1.77h-.605v.61h-.6v.575h-.6v.585h-.61v1.21h2.37v-.6h.615z"/>
+        <path fill="#17614F" d="M15.25 11.12v-1.8h-.62v1.01l-1.76 1.12v.84h1.165v-.585h.595v-.585h.625z"/>
+        <path fill="#fff" d="M14.65 11.1V9.93h-.6v.6h-.585v.575h-.585v.59h1.175V11.1zm-1.215-4.696h-.585v.585h.585V6.4zm-1.176.585h.59v.58h-.58v.58h.58v.575h.65v.595h-.65v-.59h-.585v-.575h-.58V7.57h.575zM11.1 8.15h.586v.58H11.1zm-.6.6h.6v.57h-.6zm.6-1.175V6.99h.58v.585zm-.59-1.165v.58h.585v-.58z"/>
+        <path fill="#93E6D2" d="M10 13.5h.5v.5H10zm3.5 0h.5v.5h-.5zm-.5.5h-.5v.5h.5zm-2 0h.5v.5H11z"/>
+    </g>
+    <defs>
+        <linearGradient id="XMON__b" x1="12.001" x2="12.001" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop offset=".73" stop-color="#17614F"/>
+            <stop offset=".77" stop-color="#36937D"/>
+        </linearGradient>
+        <clipPath id="XMON__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

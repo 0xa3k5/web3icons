@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#UNFI__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M7.336 7.879h5.45l3.335 3.336v5.45L12.785 20h-5.45L4 16.664v-5.45zm.6 1.454-2.481 2.483v4.247l2.482 2.482h4.247l2.483-2.482v-4.247l-2.483-2.483z"/>
+        <path fill="#fff" d="M11.215 4h5.45L20 7.336v5.45l-3.336 3.335h-5.45L7.88 12.785v-5.45zm.6 1.455L9.334 7.937v4.247l2.483 2.483h4.247l2.483-2.483V7.937l-2.483-2.482z"/>
+    </g>
+    <defs>
+        <clipPath id="UNFI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

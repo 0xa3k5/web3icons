@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#ALLIN__a)" fill-rule="evenodd" d="M2 20.75h4.944l.725-2.5h6.162l.725 2.5H19.5l-5.97-17.5H7.97zm10.625-6.25L10.75 8.194 8.875 14.5z" clip-rule="evenodd"/>
-    <path fill="#77EBEF" d="M17.625 3.25H22v17.5h-4.375z"/>
+    <path fill="url(#ALLIN__a)" fill-rule="evenodd" d="M4 19h3.955l.58-2h4.93l.58 2H18L13.225 5h-4.45zm8.5-5L11 8.955 9.5 14z" clip-rule="evenodd"/>
+    <path fill="#77EBEF" d="M16.5 5H20v14h-3.5z"/>
     <defs>
-        <linearGradient id="ALLIN__a" x1="4.271" x2="20.178" y1="16.375" y2="16.375" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ALLIN__a" x1="5.817" x2="18.543" y1="15.5" y2="15.5" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FDFEFF"/>
             <stop offset=".69" stop-color="#E2FAFC"/>
             <stop offset="1" stop-color="#7AEBEF"/>

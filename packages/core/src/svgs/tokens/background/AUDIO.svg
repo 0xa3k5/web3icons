@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#AUDIO__a)">
+        <path fill="#7E1BC6" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4.514 15.14c-.4 0-.645-.416-.44-.748l6.057-9.861a.526.526 0 0 1 .885 0l8.913 14.432c.2.331-.046.749-.451.749H6.988c-.4 0-.651-.423-.446-.755l1.555-2.434a.52.52 0 0 1 .44-.24h4.227a.497.497 0 0 0 .435-.76l-2.2-3.576a.504.504 0 0 0-.857 0l-1.811 2.971a.52.52 0 0 1-.44.223H4.514"/>
+    </g>
+    <defs>
+        <clipPath id="AUDIO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TRIAS__a)">
+        <path fill="url(#TRIAS__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M13.24 4.076a.37.37 0 0 0-.5.046l-8.163 9.44a.31.31 0 0 0 .068.468l8.753 5.908c.134.09.318.082.441-.02l5.543-4.59a.31.31 0 0 0 .105-.331L17.102 7.06zm-7.955 9.537 8.573.776.618-5.566-1.629-3.954zm8.513 1.317-7.88-.713 7.405 4.997zm.584.053 4.088.37-4.546 3.765zm4.448-.144-4.388-.397.6-5.409 1.632-1.37zm-2.472-7.645-1.43 1.201-1.394-3.384z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="TRIAS__b" x1="8.48" x2="13.986" y1="8.661" y2="14.71" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#79DCE5"/>
+            <stop offset=".807" stop-color="#12ABA9"/>
+        </linearGradient>
+        <clipPath id="TRIAS__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

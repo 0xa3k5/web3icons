@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#QRDO__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#QRDO__b)" d="M12 6.497a5.5 5.5 0 0 0-5.39 6.6 1.25 1.25 0 1 1-2.45.5 8 8 0 1 1 15.84-1.6h-2.5a5.5 5.5 0 0 0-5.5-5.5"/>
+        <path fill="url(#QRDO__c)" d="M18.4 9.5a1.25 1.25 0 0 1 1.46 1 8 8 0 0 1 .14 1.49v.004c0 2.04-.765 3.9-2.02 5.315l.485.585a1.25 1.25 0 1 1-1.93 1.59l-.485-.59A7.999 7.999 0 0 1 4 11.994h2.5a5.5 5.5 0 0 0 7.93 4.935l-.73-.885a1.25 1.25 0 0 1 1.93-1.59l.74.895a5.48 5.48 0 0 0 1.04-4.385 1.25 1.25 0 0 1 .995-1.46z"/>
+        <path fill="#FFE000" d="M6.515 12.417q.029.351.095.68a1.25 1.25 0 1 1-2.45.5 8 8 0 0 1-.16-1.6h2.5"/>
+    </g>
+    <defs>
+        <linearGradient id="QRDO__b" x1="18.25" x2="4.655" y1="11.542" y2="14.72" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2DDE41"/>
+            <stop offset="1" stop-color="#FFE000"/>
+        </linearGradient>
+        <linearGradient id="QRDO__c" x1="24.5" x2="6.998" y1="14.291" y2="14.456" gradientUnits="userSpaceOnUse">
+            <stop offset=".36" stop-color="#FF26EB"/>
+            <stop offset=".66" stop-color="#137FF9"/>
+            <stop offset="1" stop-color="#27B3F9"/>
+        </linearGradient>
+        <clipPath id="QRDO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

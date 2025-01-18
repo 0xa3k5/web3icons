@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ZAP__a)">
+        <path fill="url(#ZAP__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M13.024 9.5V4.631c.024-.12-.021-.405-.395-.58-.325-.153-.68.073-.786.22-1.623 2.592-4.652 8.045-4.77 8.319-.15.346-.048.561.094.72.106.12.358.19.494.19h3.293l-.703 5.956c.01.138.124.436.502.526.377.09.637-.182.72-.33l5.384-9.11c.078-.12.24-.439.068-.72a.7.7 0 0 0-.623-.322z"/>
+    </g>
+    <defs>
+        <linearGradient id="ZAP__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#087FFE"/>
+            <stop offset="1" stop-color="#50C0FE"/>
+        </linearGradient>
+        <clipPath id="ZAP__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

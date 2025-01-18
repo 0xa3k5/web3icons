@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#FEVR__a)">
+        <path fill="url(#FEVR__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.32 4.889H4.593A.593.593 0 0 0 4 5.482v13.037a.593.593 0 0 0 .593.592h2.963v-4.74h2.263l.936-3.556h-3.2v-2.37h3.829zm.16 5.926h2.039a1.185 1.185 0 1 0 0-2.37h-1.41l.935-3.556h.344a4.74 4.74 0 0 1 2.679 8.652L20 19.11h-3.964l-2.501-4.74h-1.991z"/>
+    </g>
+    <defs>
+        <linearGradient id="FEVR__b" x1="7.143" x2="15.377" y1="6.794" y2="18.408" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E752F5"/>
+            <stop offset=".48" stop-color="#5C0CA9"/>
+            <stop offset="1" stop-color="#44019C"/>
+        </linearGradient>
+        <clipPath id="FEVR__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

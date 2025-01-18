@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#SOL__a)">
+        <path fill="url(#SOL__b)" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M18.2 8.357a.55.55 0 0 1-.365.145H5.015c-.455 0-.685-.52-.37-.825l2.105-2.03c.1-.095.23-.15.365-.15h12.87c.46 0 .685.525.365.83zm0 10.006c-.1.09-.23.14-.365.14H5.015c-.455 0-.685-.515-.37-.82l2.105-2.035c.1-.095.23-.145.365-.145h12.87c.46 0 .685.52.365.825zm0-7.72a.55.55 0 0 0-.365-.14H5.015c-.455 0-.685.515-.37.82l2.105 2.035c.1.09.23.145.365.145h12.87c.46 0 .685-.52.365-.825z"/>
+    </g>
+    <defs>
+        <linearGradient id="SOL__b" x1="4.5" x2="20.884" y1="15.841" y2="15.192" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#599DB0"/>
+            <stop offset="1" stop-color="#47F8C3"/>
+        </linearGradient>
+        <clipPath id="SOL__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

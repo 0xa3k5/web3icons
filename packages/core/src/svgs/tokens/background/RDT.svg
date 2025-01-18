@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#RDT__a)">
+        <path fill="#6601FF" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.019 4.941 8.616 8.353l3.403 3.407 3.402-3.407zM7.402 9.826 4 13.238l3.402 3.407 3.403-3.407zm5.793 3.412 3.403-3.412L20 13.238l-3.402 3.407zm-5.444 5.821 4.31-4.32 4.306 4.32z"/>
+    </g>
+    <defs>
+        <clipPath id="RDT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

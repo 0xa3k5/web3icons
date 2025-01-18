@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#SDAO__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <g opacity=".7">
+            <path fill="url(#SDAO__b)" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m2.023-10.25c.184-.795.08-1.82-.903-3.228 3.534.772 5.77 4.617 4.81 8.043a6.06 6.06 0 0 1-2.876 3.755c-1.181.659-2.903 1.176-4.179.48a2.41 2.41 0 0 1-1.18-2.48c.154-.777.714-1.539 1.312-2.259.32-.386.659-.753.993-1.13l.518-.569c.668-.757 1.275-1.656 1.496-2.611z"/>
+            <path fill="#203BDB" d="M6.848 8.705c2.8-3.002 6.244-2.183 6.244-2.183l-.066-.076c-.376-.094-3.849-.706-6.178 2.26"/>
+            <path fill="url(#SDAO__c)" d="M15.058 18.32c-1.181.659-2.903 1.176-4.179.48a2.41 2.41 0 0 1-1.181-2.48c.155-.777.715-1.539 1.313-2.259.32-.386.659-.753.993-1.13l.518-.569c-.885.932-2.231 1.389-3.2 2.137-.965.739-1.271 1.854-1.017 3.045.268 1.223 1.181 2.352 3.384 2.447 1.378.06 2.456-.848 3.37-1.671"/>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="SDAO__b" x1="20" x2="4" y1="12.014" y2="12.014" gradientUnits="userSpaceOnUse">
+            <stop offset=".11" stop-color="#E25900"/>
+            <stop offset=".2" stop-color="#CBC91E"/>
+            <stop offset=".35" stop-color="#2DE2C1"/>
+            <stop offset=".46" stop-color="#3093D3"/>
+            <stop offset=".7" stop-color="#2024DE"/>
+            <stop offset="1" stop-color="#2624DF"/>
+        </linearGradient>
+        <linearGradient id="SDAO__c" x1="9.905" x2="8.216" y1="15.826" y2="15.901" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#203BDB"/>
+            <stop offset="1" stop-color="#2133DD" stop-opacity=".4"/>
+        </linearGradient>
+        <clipPath id="SDAO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

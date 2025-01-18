@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#WAGMIGAMES__a)">
+        <path fill="#00D8FF" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0-.941a7.06 7.06 0 1 0 0-14.12 7.06 7.06 0 0 0 0 14.12" clip-rule="evenodd"/>
+        <path fill="#fff" d="M7.891 10.117H6.823l2.523 5.647h.771l1.897-4.306 1.854 4.306h.842l2.466-5.647H16.17L14.287 14.4l-1.864-4.282h-.8L9.708 14.4l-1.821-4.282zM6.823 8.706v.47h3.657l.3-.253h6.396v-.217z"/>
+    </g>
+    <defs>
+        <clipPath id="WAGMIGAMES__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

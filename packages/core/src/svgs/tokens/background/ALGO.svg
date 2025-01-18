@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ALGO__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m6.793 20 7.308-12.646.88 3.273L9.57 20h2.77l3.513-6.083L17.494 20h2.482l-2.426-9.037 1.721-3.23h-2.52L15.677 4H13.26L4.024 20z"/>
+    </g>
+    <defs>
+        <clipPath id="ALGO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

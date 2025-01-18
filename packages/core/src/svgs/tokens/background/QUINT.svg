@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#QUINT__a)">
+        <path fill="#14F4C8" d="M24 0H0v24h24z"/>
+        <path fill="#000" d="M16.8 17.333v.533H20l-.47-.534z"/>
+        <path fill="#000" d="M13.067 16.8v-2.134H6.134V6.133h8.532V20H20v-2.133h-3.2V4H4v12.8z"/>
+        <path fill="#000" d="m6.667 14.132-.533.534h6.933l-.534-.534zm0-7.464-.533-.534h8.532l-.533.534z"/>
+        <path fill="#000" d="m14.667 6.134-.534.534v12.799l.534.533zm-5.333 2.4-3.2-2.4v8.533l3.2-2.4z"/>
+    </g>
+    <defs>
+        <clipPath id="QUINT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

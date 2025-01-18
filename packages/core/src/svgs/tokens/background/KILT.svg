@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KILT__a)">
+        <path fill="#8C175B" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M8.5 4h3v9.6l-.75-1.6.75 3.975V20h-3z"/>
+        <path fill="#fff" d="M14.93 4H18l-3.93 7H11zm-.265 16H18l-4.285-8H10.5zm-8.2-9h11.07c.26 0 .465.23.465.5 0 .28-.215.5-.465.5H6.465c-.26 0-.465-.23-.465-.5s.215-.5.465-.5"/>
+    </g>
+    <defs>
+        <clipPath id="KILT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

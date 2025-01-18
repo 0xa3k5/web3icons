@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#GCOIN__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M17.486 8.082v4.878l-4.572 4.489v1.66L12 20l-.937-.914v-1.66L6.514 12.96V5.829h4.572V4h1.828v1.829H16.6l-2.2 2.285H8.8v3.955l2.286 2.331V9.943h1.828v4.452l2.286-2.331v-1.829z"/>
+    </g>
+    <defs>
+        <clipPath id="GCOIN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

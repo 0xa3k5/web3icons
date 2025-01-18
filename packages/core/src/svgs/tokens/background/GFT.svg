@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#GFT__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#DFF8DA" d="m12 4.795 6.404 3.6v7.209l-6.4 3.6-6.408-3.6v-7.21L12 4.8z"/>
+        <path fill="#3B896A" d="M7.103 12.663 5.19 10.476l3.392-.64z"/>
+        <path fill="#4ED9AB" d="M8.444 17.155V12.12l3.72-6.627 3.156 6.178z"/>
+        <path fill="#3B896A" d="m16.262 17.258-4.169-2.337 3.37-2.57z"/>
+        <path fill="#4CDAC7" d="m15.595 11.417-1.285-2.51 3.805.813z"/>
+        <path fill="#4ED9AB" d="m7.867 11.743-1.91-2.187 3.39-.64z"/>
+        <path fill="#4EDBC8" fill-rule="evenodd" d="M19.11 8 12 4 4.889 8v8l7.11 4 7.112-4zm-.888.484L12 4.964l-6.222 3.52v7.027L12 19.031l6.222-3.52z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="GFT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,63 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#CGL__a)" d="M12.86 22a9.141 9.141 0 1 0 0-18.282 9.141 9.141 0 0 0 0 18.282"/>
-    <path fill="url(#CGL__b)" d="M12 20.859c4.577 0 8.288-3.838 8.288-8.57 0-4.734-3.71-8.571-8.288-8.571-4.577 0-8.288 3.837-8.288 8.57s3.71 8.57 8.288 8.57"/>
-    <path fill="#5D5D5D" d="M18.47 17.294H5.53l1.176 1.765h12.941z"/>
-    <path fill="#6C6C6C" d="M5.53 17.294H2l1.765 1.765h3.529zm15.328 1.765h-3.717l1.33-1.765h2.387z"/>
-    <path fill="#FEFEFE" fill-rule="evenodd" d="M12 20.288c4.24 0 7.712-3.565 7.712-8 0-4.44-3.471-8-7.712-8s-7.712 3.56-7.712 8c0 4.435 3.47 8 7.712 8m0 .57c4.576 0 8.288-3.84 8.288-8.57 0-4.735-3.712-8.576-8.288-8.576s-8.288 3.841-8.288 8.582c0 4.73 3.712 8.57 8.288 8.57z" clip-rule="evenodd"/>
-    <path fill="url(#CGL__c)" fill-rule="evenodd" d="M2 17.294h18.823L12.859 2zm10.588-12.94L4.353 16.117h13.529z" clip-rule="evenodd"/>
-    <path fill="url(#CGL__d)" fill-rule="evenodd" d="M10.86 15.14a3.715 3.715 0 1 0 0-7.429 3.715 3.715 0 0 0 0 7.43m0 .571a4.287 4.287 0 1 0 .318-8.568 4.287 4.287 0 0 0-.319 8.569" clip-rule="evenodd"/>
-    <path fill="#F3F3F3" d="m7.14 9.141 4.289 4.57 1.43-1.14L9.14 7.14l-2.283-.853z"/>
-    <path fill="url(#CGL__e)" d="m13.141 14.859-1.43-.86 1.43-1.14.57 1.711L15.43 16l-.571.57z"/>
-    <path fill="#BCBCBC" d="M11.712 12.859 7.43 7.14v2l4 4.288z"/>
-    <path fill="url(#CGL__f)" d="m11.141 14.859-.57-.57 3.14-2.577.577.576z"/>
-    <path fill="url(#CGL__g)" d="m7.14 15.141 5.718-6.282.853.282-6 6.859-.282 1.141-1.43-1.43z"/>
-    <path fill="url(#CGL__h)" d="M7.43 17.141 6 15.711l-.858 1.43 1.147 1.147z"/>
-    <path fill="#F9F9F9" d="m16 5.141-1.142 1.43.853.859L17.141 6z"/>
-    <path fill="url(#CGL__i)" d="M14.57 6C12.97 6 12.1 8.188 12 9.141c.188-.094 1.088-.282 2 .859s-.189 3.141-.86 4c4.118-.688 5.718-5.047 6-7.141-.188.282-.852.853-2 .853C16 7.712 14.954 6.57 14.57 6"/>
-    <path fill="url(#CGL__j)" d="M14.57 10.288a2.25 2.25 0 0 0-2-1.43c.46-1.6 1.53-2.193 2-2.287.23.458 1.048.953 1.43 1.14z"/>
-    <path fill="url(#CGL__k)" d="M17.141 10.859H14.86c0 1.141-.57 2.188-.859 2.57 1.6-.459 2.765-1.905 3.141-2.57"/>
+    <path fill="url(#CGL__a)" d="M12.687 20a7.313 7.313 0 1 0 0-14.626 7.313 7.313 0 0 0 0 14.626"/>
+    <path fill="url(#CGL__b)" d="M12 19.087c3.662 0 6.63-3.07 6.63-6.857 0-3.786-2.968-6.856-6.63-6.856s-6.63 3.07-6.63 6.856 2.968 6.857 6.63 6.857"/>
+    <path fill="#5D5D5D" d="M17.177 16.236H6.824l.941 1.412h10.353z"/>
+    <path fill="#6C6C6C" d="M6.824 16.236H4l1.412 1.412h2.823zm12.263 1.412h-2.974l1.063-1.412h1.91z"/>
+    <path fill="#FEFEFE" fill-rule="evenodd" d="M12 18.63c3.393 0 6.17-2.852 6.17-6.4 0-3.553-2.777-6.4-6.17-6.4s-6.17 2.847-6.17 6.4c0 3.548 2.777 6.4 6.17 6.4m0 .457c3.661 0 6.63-3.073 6.63-6.857 0-3.788-2.969-6.86-6.63-6.86s-6.63 3.072-6.63 6.865c0 3.784 2.969 6.856 6.63 6.856z" clip-rule="evenodd"/>
+    <path fill="url(#CGL__c)" fill-rule="evenodd" d="M4 16.236h15.059L12.687 4zm8.47-10.353-6.588 9.411h10.824z" clip-rule="evenodd"/>
+    <path fill="url(#CGL__d)" fill-rule="evenodd" d="M11.087 14.514a2.972 2.972 0 1 0 0-5.944 2.972 2.972 0 0 0 0 5.944m0 .456a3.43 3.43 0 1 0 .255-6.854 3.43 3.43 0 0 0-.255 6.854" clip-rule="evenodd"/>
+    <path fill="#F3F3F3" d="m8.113 9.714 3.43 3.656 1.144-.913-2.974-4.343-1.826-.682z"/>
+    <path fill="url(#CGL__e)" d="M12.913 14.288 11.77 13.6l1.143-.913.457 1.37 1.374 1.143-.457.456z"/>
+    <path fill="#BCBCBC" d="M11.77 12.689 8.344 8.113v1.6l3.2 3.43z"/>
+    <path fill="url(#CGL__f)" d="m11.313 14.288-.457-.456 2.513-2.061.461.46z"/>
+    <path fill="url(#CGL__g)" d="m8.112 14.514 4.574-5.026.683.226-4.8 5.487-.226.913-1.144-1.144z"/>
+    <path fill="url(#CGL__h)" d="M8.344 16.114 7.2 14.971l-.687 1.143.918.918z"/>
+    <path fill="#F9F9F9" d="m15.2 6.514-.913 1.144.682.687 1.144-1.144z"/>
+    <path fill="url(#CGL__i)" d="M14.057 7.2c-1.28 0-1.977 1.751-2.057 2.513.15-.075.87-.226 1.6.687s-.15 2.513-.687 3.2c3.294-.55 4.574-4.037 4.8-5.713-.15.226-.682.683-1.6.683-.913 0-1.75-.913-2.056-1.37"/>
+    <path fill="url(#CGL__j)" d="M14.057 10.63a1.8 1.8 0 0 0-1.6-1.143c.367-1.28 1.223-1.755 1.6-1.83.183.367.838.762 1.143.913z"/>
+    <path fill="url(#CGL__k)" d="M16.113 11.088h-1.826c0 .913-.457 1.75-.687 2.056 1.28-.367 2.212-1.524 2.513-2.056"/>
     <defs>
-        <linearGradient id="CGL__a" x1="12" x2="12" y1="1.994" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGL__a" x1="12" x2="12" y1="3.995" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C3C3C3"/>
             <stop offset="1" stop-color="#5F5F5F"/>
         </linearGradient>
-        <linearGradient id="CGL__b" x1="12" x2="12" y1="1.993" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGL__b" x1="12" x2="12" y1="3.994" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C3C3C3"/>
             <stop offset="1" stop-color="#858585"/>
         </linearGradient>
-        <linearGradient id="CGL__c" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGL__c" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EAEAEA"/>
             <stop offset="1" stop-color="#C6C6C6"/>
         </linearGradient>
-        <linearGradient id="CGL__d" x1="11.63" x2="11.63" y1="2.007" y2="21.993" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGL__d" x1="11.704" x2="11.704" y1="4.006" y2="19.995" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D8D8D8"/>
             <stop offset="1" stop-color="#CFCFCF"/>
         </linearGradient>
-        <linearGradient id="CGL__e" x1="6.621" x2="22.239" y1="6.596" y2="18.014" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGL__e" x1="7.696" x2="20.191" y1="7.677" y2="16.812" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D6D6D6"/>
             <stop offset="1" stop-color="#838383"/>
         </linearGradient>
-        <linearGradient id="CGL__f" x1="11.241" x2="15.058" y1="9.29" y2="14.12" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGL__f" x1="11.392" x2="14.446" y1="9.833" y2="13.697" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F8F8F8"/>
             <stop offset="1" stop-color="#898989"/>
         </linearGradient>
-        <linearGradient id="CGL__g" x1="10.893" x2="13.322" y1="10.963" y2="12.744" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGL__g" x1="11.114" x2="13.058" y1="11.171" y2="12.596" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D6D6D6"/>
             <stop offset="1" stop-color="#838383"/>
         </linearGradient>
-        <linearGradient id="CGL__h" x1="14.494" x2="10.104" y1="4.238" y2="19.206" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGL__h" x1="13.995" x2="10.483" y1="5.791" y2="17.766" gradientUnits="userSpaceOnUse">
             <stop stop-color="#9E9E9E"/>
             <stop offset="1" stop-color="#5D5D5D"/>
         </linearGradient>
-        <linearGradient id="CGL__i" x1="17.205" x2="9.224" y1="9.147" y2="16.464" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGL__i" x1="16.165" x2="9.78" y1="9.718" y2="15.571" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FEFEFE"/>
             <stop offset="1" stop-color="#E0E0E0"/>
         </linearGradient>
-        <linearGradient id="CGL__j" x1="5.328" x2="16.187" y1="6.62" y2="16.696" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGL__j" x1="6.663" x2="15.35" y1="7.696" y2="15.757" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C1C1C1"/>
             <stop offset="1" stop-color="#E3E3E3"/>
         </linearGradient>
-        <linearGradient id="CGL__k" x1="15.429" x2="13.776" y1="11.141" y2="12.965" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CGL__k" x1="14.743" x2="13.421" y1="11.314" y2="12.773" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A0A0A0"/>
             <stop offset="1" stop-color="#C1C1C1"/>
         </linearGradient>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#GAMI__a)">
+        <path fill="#FA096F" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M16 15.595A4.72 4.72 0 0 1 12.75 17C10.445 17 8 14.95 8 12s2.445-5 4.75-5a4.83 4.83 0 0 1 3.74 1.965L19 7.325A7.75 7.75 0 0 0 12.75 4C8.61 4 5 7.58 5 12s3.61 8 7.75 8A7.75 7.75 0 0 0 19 16.675V11h-5.5v2.5H16z"/>
+    </g>
+    <defs>
+        <clipPath id="GAMI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

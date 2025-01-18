@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PUNDIX__a)">
+        <path fill="#F2D30E" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4 5.143 5.143 4l6.286 6.286-1.143 1.143zm8.571 8.571 1.143-1.143L20 18.857 18.857 20zM10.857 12 12 10.857 13.143 12 12 13.143zm1.714-1.714L18.857 4 20 5.143l-6.286 6.286zM4 18.857l6.286-6.286 1.143 1.143L5.143 20z"/>
+    </g>
+    <defs>
+        <clipPath id="PUNDIX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

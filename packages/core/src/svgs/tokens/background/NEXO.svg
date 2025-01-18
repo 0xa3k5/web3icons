@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#NEXO__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#3CA9E5" d="m8.152 5.336 7.837 4.41v4.5L4 7.5l3.844-2.16a.33.33 0 0 1 .308 0z"/>
+        <path fill="#2853C3" d="m15.996 5.244-3.999 2.25 3.999 2.25z"/>
+        <path fill="#1A4199" d="m15.995 5.244 3.845 2.16a.31.31 0 0 1 .153.264v8.826l-3.998-2.244z"/>
+        <path fill="#2853C3" d="m20 16.497-3.85 2.163a.33.33 0 0 1-.326 0l-7.838-4.41V9.737z"/>
+        <path fill="#60BEFF" d="M4 7.494v8.826a.31.31 0 0 0 .154.276l3.844 2.16V9.745z"/>
+        <path fill="#3CA9E5" d="m7.999 18.75 3.999-2.25-3.999-2.256z"/>
+    </g>
+    <defs>
+        <clipPath id="NEXO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

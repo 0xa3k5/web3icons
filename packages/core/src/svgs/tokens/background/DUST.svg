@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DUST__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M9.714 4h2.743v2.743H9.714z"/>
+        <path fill="#fff" d="M7.428 4.914h3.657v2.743H7.428z"/>
+        <path fill="#fff" d="M6.514 6.286h3.657v2.286H6.514z"/>
+        <path fill="#fff" d="M5.143 8.114H8.8v2.743H5.143z"/>
+        <path fill="#fff" d="M8.343 9.486h4.115v1.371H8.343z"/>
+        <path fill="#fff" d="M8.343 10.4h2.742v1.371H8.343zm-1.829 0h1.372v3.657H6.514z"/>
+        <path fill="#fff" d="M5.143 11.772h1.829v1.371H5.143zm2.286.914H8.8v4.572H7.43z"/>
+        <path fill="#fff" d="M8.343 14.972h1.372v3.657H8.343zM9.715 13.6h1.371V20H9.715z"/>
+        <path fill="#fff" d="M10.628 12.686h2.743v1.371h-2.743zm0 2.285h1.829v1.372h-1.829zm0 1.829h2.743V20h-2.743zM14.286 4h-2.743v2.743h2.743z"/>
+        <path fill="#fff" d="M16.571 4.914h-3.657v2.743h3.657z"/>
+        <path fill="#fff" d="M17.485 6.286h-3.657v2.286h3.657z"/>
+        <path fill="#fff" d="M18.857 8.114H15.2v2.743h3.657z"/>
+        <path fill="#fff" d="M15.657 9.486h-4.114v1.371h4.114z"/>
+        <path fill="#fff" d="M15.657 10.4h-2.743v1.371h2.743zm1.828 0h-1.37v3.657h1.37z"/>
+        <path fill="#fff" d="M18.857 11.772H17.03v1.371h1.828zm-2.285.914H15.2v4.572h1.372z"/>
+        <path fill="#fff" d="M15.657 14.972h-1.372v3.657h1.372zM14.285 13.6h-1.37V20h1.37z"/>
+        <path fill="#fff" d="M13.372 14.972h-1.829v1.371h1.829z"/>
+    </g>
+    <defs>
+        <clipPath id="DUST__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#EQX__a)">
+        <path fill="url(#EQX__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4 20V4h16v2.286H6.286v11.428h9.143V20zm13.714-9.714H8V8h12v12h-2.286v-5.143H8v-2.286h9.714z"/>
+    </g>
+    <defs>
+        <linearGradient id="EQX__b" x1="5.429" x2="17.286" y1="6.857" y2="17.714" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#112650"/>
+            <stop offset="1" stop-color="#38A28B"/>
+        </linearGradient>
+        <clipPath id="EQX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

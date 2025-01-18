@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CUDOS__a)">
+        <path fill="url(#CUDOS__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M17.652 6.339A8 8 0 1 0 6.348 17.66 8 8 0 0 0 17.652 6.34m-6.096 12.77a7.07 7.07 0 0 1-4.777-2.19A7.1 7.1 0 0 1 4.89 12a7.1 7.1 0 0 1 1.889-4.924 7.07 7.07 0 0 1 4.777-2.186v2.662a4.4 4.4 0 0 0-2.871 1.435A4.43 4.43 0 0 0 7.556 12c0 1.111.378 2.186 1.129 3.008a4.4 4.4 0 0 0 2.87 1.436zm5.652-2.19c-1.258 1.332-2.933 2.083-4.764 2.19v-2.666a4.461 4.461 0 0 0 2.858-7.461 4.38 4.38 0 0 0-2.858-1.427V4.89a6.99 6.99 0 0 1 6.208 4.462 7.18 7.18 0 0 1-1.444 7.567M12 15.554a3.555 3.555 0 1 0 0-7.11 3.555 3.555 0 0 0 0 7.11" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="CUDOS__b" x1="4.33" x2="19.408" y1="15.457" y2="8.263" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2D9DFD"/>
+            <stop offset="1" stop-color="#36D5FD"/>
+        </linearGradient>
+        <clipPath id="CUDOS__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

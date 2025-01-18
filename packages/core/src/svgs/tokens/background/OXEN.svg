@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#OXEN__a)">
+        <path fill="#12C6BA" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 12 4 5.066h16zm0 0-8 6.933h16z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="OXEN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

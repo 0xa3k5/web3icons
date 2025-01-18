@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#UW3S__a)">
+        <path fill="#000" d="M24.5 0H.5v24h24z"/>
+        <path fill="url(#UW3S__b)" d="M15.298 8.996H9.496v5.802a5.408 5.408 0 0 1-3.412-9.214 5.407 5.407 0 0 1 9.214 3.412"/>
+        <path fill="url(#UW3S__c)" d="M9.686 14.708a5.52 5.52 0 0 0 5.517-5.711h5.296V20H9.496v-5.302z"/>
+    </g>
+    <defs>
+        <linearGradient id="UW3S__b" x1="19.388" x2="4.492" y1="11.329" y2="14.96" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C3F5E9"/>
+            <stop offset=".17" stop-color="#C7C6E8"/>
+            <stop offset=".45" stop-color="#D196E5"/>
+            <stop offset=".69" stop-color="#7698EC"/>
+            <stop offset=".95" stop-color="#5693F0"/>
+        </linearGradient>
+        <linearGradient id="UW3S__c" x1="19.97" x2="9.827" y1="9.282" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E9CFEB"/>
+            <stop offset=".2" stop-color="#AC90F4"/>
+            <stop offset=".49" stop-color="#7567F8"/>
+            <stop offset="1" stop-color="#3095F4"/>
+        </linearGradient>
+        <clipPath id="UW3S__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

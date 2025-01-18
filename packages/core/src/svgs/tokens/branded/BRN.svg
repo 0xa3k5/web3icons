@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#0EEBFF" d="m6.375 14.094-.9-1.47L2 18.55 10.125 22l-1.25-1.875-4.769-2.075zm11.25 0 .9-1.47L22 18.55 13.875 22l1.25-1.875 4.769-2.075z"/>
-    <path fill="url(#BRN__a)" d="M10.125 10.75 12 7.625l1.875 3.125-.694 1.544.694 1.581L12 17l-1.875-3.125.694-1.581zm1.875 5 1.106-1.875-.312-.85-.17.225v-1.363l.4-1.137L12 8.875l-1.025 1.875.4 1.137v1.363l-.169-.225-.313.85z"/>
-    <path fill="url(#BRN__b)" d="M7.625 9.294 12 2l4.375 7.294-.825 1.456L12 4.8l-3.55 5.95z"/>
-    <path fill="url(#BRN__c)" d="M2 5.125 12 22 22 5.125 14.075 2l1.05 1.875 4.756 1.744L12 19.087 4.119 5.625l4.756-1.75L9.925 2z"/>
+    <path fill="#0EEBFF" d="M7.5 13.675 6.78 12.5 4 17.24 10.5 20l-1-1.5-3.815-1.66zm9 0 .72-1.175L20 17.24 13.5 20l1-1.5 3.815-1.66z"/>
+    <path fill="url(#BRN__a)" d="M10.5 11 12 8.5l1.5 2.5-.555 1.235.555 1.265L12 16l-1.5-2.5.555-1.265zm1.5 4 .885-1.5-.25-.68-.135.18v-1.09l.32-.91L12 9.5l-.82 1.5.32.91V13l-.135-.18-.25.68z"/>
+    <path fill="url(#BRN__b)" d="M8.5 9.835 12 4l3.5 5.835L14.84 11 12 6.24 9.16 11z"/>
+    <path fill="url(#BRN__c)" d="M4 6.5 12 20l8-13.5L13.66 4l.84 1.5 3.805 1.395L12 17.67 5.695 6.9 9.5 5.5l.84-1.5z"/>
     <defs>
-        <linearGradient id="BRN__a" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BRN__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#19F1FE"/>
             <stop offset=".5" stop-color="#7F6EFB"/>
             <stop offset="1" stop-color="#8450FD"/>
         </linearGradient>
-        <linearGradient id="BRN__b" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BRN__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop offset=".18" stop-color="#3636E5"/>
             <stop offset="1" stop-color="#1CA4FD"/>
         </linearGradient>
-        <linearGradient id="BRN__c" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BRN__c" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C63FFF"/>
             <stop offset=".49" stop-color="#6D5FFE"/>
             <stop offset="1" stop-color="#268EF5"/>

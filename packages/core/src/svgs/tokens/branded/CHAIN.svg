@@ -1,233 +1,233 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#CHAIN__a)" fill-rule="evenodd" d="M10.986 8.716c.342.095.657.18 1.1.18.494 0 1.03-.122 1.515-.237.4-.09.768-.174 1.047-.174.616 0 1.242.416 1.658 1.163.351.728.605 1.5.753 2.294 0 .016 0 .08.015.169.08.579.321 2.452-.42 2.857-.69.38-1.595-.163-1.958-.479a3.63 3.63 0 0 0-2.61-1.236 3.68 3.68 0 0 0-2.632 1.236c-.368.316-1.252.863-1.863.48-.763-.48-.473-2.632-.42-3.027.057-.39.525-3.189 2.194-3.457.758 0 1.21.12 1.62.231m.115.464c.295.084.569.157.958.157.463 0 .984-.11 1.442-.21.332-.074.632-.142.858-.153.926-.052 1.179.3 1.547.916.326.547.547 1.542.6 1.79l.016.057c.079.316.531 2.442-.232 2.826-.526.263-1.342-.442-1.763-.805l-.168-.142c-.3-.337-1.137-.747-2.268-.747-1.137 0-1.99.41-2.29.747a2 2 0 0 0-.184.158c-.42.368-1.21 1.058-1.668.79-.647-.374-.342-2.185-.253-2.711l.016-.105c.053-.316.505-2.832 1.969-2.774.673 0 1.063.106 1.42.21z" clip-rule="evenodd"/>
-    <path fill="url(#CHAIN__b)" fill-rule="evenodd" d="M9.018 10.343c0-.342.273-.616.615-.616h.227c.342 0 .62.274.62.616v.042h.037c.343 0 .622.273.622.615v.227a.62.62 0 0 1-.621.62h-.037v.037a.62.62 0 0 1-.621.616h-.227a.613.613 0 0 1-.615-.616v-.036h-.042a.62.62 0 0 1-.616-.621V11c0-.342.274-.615.616-.615h.042zm.51.079a.242.242 0 0 1 .484 0v.452h.458a.22.22 0 0 1 .156.377.22.22 0 0 1-.156.065h-.458v.453a.242.242 0 0 1-.484 0v-.453H9.07a.221.221 0 0 1 0-.442h.458z" clip-rule="evenodd"/>
-    <path fill="url(#CHAIN__c)" d="M13.88 11.116a.447.447 0 1 1-.894 0 .447.447 0 0 1 .894 0"/>
-    <path fill="url(#CHAIN__d)" d="M14.77 10.227a.446.446 0 0 1-.764.316.448.448 0 1 1 .764-.316"/>
-    <path fill="url(#CHAIN__e)" d="M15.659 11.116a.448.448 0 1 1-.89 0 .447.447 0 1 1 .895 0z"/>
-    <path fill="url(#CHAIN__f)" d="M14.77 12a.447.447 0 1 1-.894 0 .447.447 0 0 1 .894 0"/>
-    <path fill="url(#CHAIN__g)" d="M19.212 16.02a1.27 1.27 0 0 0-1.342.385l-.674.79c-.321.378-.39.884-.21 1.31.178-.137.357-.274.526-.421a.7.7 0 0 1 .142-.337l.737-.852a.6.6 0 0 1 .39-.211c.157-.21.3-.437.43-.663"/>
-    <path fill="url(#CHAIN__h)" d="M18.201 18.773a.64.64 0 0 0 .4-.21l.732-.858a.64.64 0 0 0 .142-.316q.283-.377.526-.779c.326.463.31 1.106-.074 1.558l-.679.79a1.256 1.256 0 0 1-1.6.268q.285-.214.553-.453"/>
-    <path fill="url(#CHAIN__i)" d="M20.295 12.232a1.27 1.27 0 0 0-.979 1l-.194 1.02c-.09.453.079.895.394 1.185.106-.216.2-.442.284-.668a.6.6 0 0 1 0-.264l.21-1.105a.6.6 0 0 1 .222-.368 9 9 0 0 0 .063-.8"/>
-    <path fill="url(#CHAIN__j)" d="M20.69 15.179a.65.65 0 0 0 .331-.437l.211-1.105a.62.62 0 0 0-.047-.379 8 8 0 0 0 .084-.9 1.27 1.27 0 0 1 .705 1.39l-.195 1.02a1.27 1.27 0 0 1-1.347 1.021q.141-.301.258-.61"/>
-    <path fill="url(#CHAIN__k)" d="M19.511 8.459c-.316.29-.479.736-.39 1.184l.2 1.02c.106.511.495.895.974 1a8 8 0 0 0-.053-.668.63.63 0 0 1-.2-.352l-.215-1.106a.6.6 0 0 1 .01-.289 9 9 0 0 0-.326-.79"/>
-    <path fill="url(#CHAIN__l)" d="M21.211 10.806a.7.7 0 0 0 .053-.405l-.216-1.1a.62.62 0 0 0-.305-.421 8 8 0 0 0-.321-.78 1.27 1.27 0 0 1 1.352 1.022l.2 1.02a1.27 1.27 0 0 1-.705 1.395 8 8 0 0 0-.063-.731z"/>
-    <path fill="url(#CHAIN__m)" d="M16.97 5.401a1.27 1.27 0 0 0 .242 1.31l.694.769c.337.368.832.494 1.28.368a8 8 0 0 0-.37-.579.6.6 0 0 1-.3-.179l-.752-.831a.62.62 0 0 1-.158-.342 10 10 0 0 0-.636-.516"/>
-    <path fill="url(#CHAIN__n)" d="M17.617 4.664q.348.26.673.558c.148.016.29.084.395.2l.753.832a.6.6 0 0 1 .157.442c.143.19.269.39.39.59a1.27 1.27 0 0 0-.069-1.622l-.705-.768a1.27 1.27 0 0 0-1.6-.232z"/>
-    <path fill="url(#CHAIN__o)" d="M16.48 5.07a1.28 1.28 0 0 1-1.29.226l-.968-.369a1.27 1.27 0 0 1-.805-1.015q.426.07.837.179a.64.64 0 0 0 .252.184l1.053.4c.095.037.2.052.3.037.21.105.42.226.62.357"/>
-    <path fill="url(#CHAIN__p)" d="M16.948 4.212a1.27 1.27 0 0 0-.79-1.442l-.968-.37a1.27 1.27 0 0 0-1.558.553c.28.052.553.105.821.179a.6.6 0 0 1 .5-.021l1.053.4c.168.068.294.2.358.363.2.105.394.21.584.331z"/>
-    <path fill="url(#CHAIN__q)" d="M12.764 3.833a1.27 1.27 0 0 1-1.147.873l-1.037.053a1.27 1.27 0 0 1-1.094-.537q.407-.135.826-.226a.56.56 0 0 0 .263.047l1.126-.052a.65.65 0 0 0 .416-.185q.324.002.647.027"/>
-    <path fill="url(#CHAIN__r)" d="M12.749 2.854a9 9 0 0 0-.764-.026.6.6 0 0 0-.342-.08l-1.12.053a.6.6 0 0 0-.474.253q-.41.095-.805.22a1.27 1.27 0 0 1 1.21-1.22l1.037-.053a1.27 1.27 0 0 1 1.258.853"/>
-    <path fill="url(#CHAIN__s)" d="M6.166 6.301c.415.226.936.21 1.341-.084l.843-.605a1.27 1.27 0 0 0 .526-1.158q-.34.136-.663.31a.6.6 0 0 1-.18.2l-.91.653a.57.57 0 0 1-.347.116 9 9 0 0 0-.61.568"/>
-    <path fill="url(#CHAIN__t)" d="M7.839 3.86a.6.6 0 0 0-.526.094l-.916.652a.63.63 0 0 0-.247.38q-.332.282-.632.589a1.27 1.27 0 0 1 .416-1.558l.842-.605a1.274 1.274 0 0 1 1.663.158q-.307.14-.6.29"/>
-    <path fill="url(#CHAIN__u)" d="M4.176 9.743c.473.015.942-.248 1.168-.705l.463-.927a1.28 1.28 0 0 0-.1-1.294c-.147.184-.29.368-.42.563 0 .105-.017.21-.064.305l-.5 1.005a.62.62 0 0 1-.284.284q-.155.38-.263.769"/>
-    <path fill="url(#CHAIN__v)" d="M4.492 6.811a.63.63 0 0 0-.384.321l-.5 1.006a.63.63 0 0 0-.053.41c-.11.274-.21.558-.294.842a1.27 1.27 0 0 1-.342-1.552l.463-.932a1.27 1.27 0 0 1 1.52-.647q-.212.269-.41.552"/>
-    <path fill="url(#CHAIN__w)" d="M4.045 13.648a1.27 1.27 0 0 0 .69-1.158l-.027-1.042a1.27 1.27 0 0 0-.679-1.095 6 6 0 0 0-.105.71.6.6 0 0 1 .068.28l.032 1.126a.65.65 0 0 1-.106.363c.027.273.074.547.127.816"/>
-    <path fill="url(#CHAIN__x)" d="M2.95 10.895a.64.64 0 0 0-.2.479l.025 1.126c0 .158.069.3.169.406.026.294.073.578.131.862a1.27 1.27 0 0 1-1.047-1.215l-.026-1.042a1.27 1.27 0 0 1 1.052-1.279c-.042.216-.073.442-.105.668z"/>
-    <path fill="url(#CHAIN__y)" d="M5.729 17.12c.215-.347.263-.789.079-1.194l-.421-.947a1.27 1.27 0 0 0-1.195-.747q.096.322.216.636a.63.63 0 0 1 .279.295l.457 1.021a.5.5 0 0 1 .053.221c.168.247.342.49.526.716z"/>
-    <path fill="url(#CHAIN__z)" d="M3.513 15.263a.62.62 0 0 0 .036.41l.464 1.027a.61.61 0 0 0 .447.352c.153.227.316.442.484.653a1.27 1.27 0 0 1-1.6-.668l-.431-.948a1.27 1.27 0 0 1 .368-1.51q.104.347.232.684"/>
-    <path fill="url(#CHAIN__A)" d="M8.854 19.458a1.27 1.27 0 0 0-.548-1.132l-.852-.59a1.27 1.27 0 0 0-1.263-.105c.179.19.368.369.563.527a.8.8 0 0 1 .2.094l.921.637a.7.7 0 0 1 .168.169q.394.219.81.4"/>
-    <path fill="url(#CHAIN__B)" d="M5.976 18.779c.005.194.1.384.268.5l.926.636a.63.63 0 0 0 .553.08c.237.126.473.241.726.347a1.27 1.27 0 0 1-1.673.21l-.858-.59a1.27 1.27 0 0 1-.406-1.625c.148.152.306.3.464.442"/>
-    <path fill="url(#CHAIN__C)" d="M12.686 20.089q-.395.03-.79.02a.6.6 0 0 0-.242-.088l-1.11-.158a.7.7 0 0 0-.31.037 8 8 0 0 1-.695-.19 1.27 1.27 0 0 1 1.215-.532l.926.127c.469.068.843.379 1 .784z"/>
-    <path fill="url(#CHAIN__D)" d="M9.291 20.657c.026.6.474 1.116 1.095 1.2l.926.132a1.27 1.27 0 0 0 1.395-.921 9 9 0 0 1-.706.016.6.6 0 0 1-.52.168l-1.106-.153a.62.62 0 0 1-.431-.263 9 9 0 0 1-.653-.179"/>
-    <path fill="url(#CHAIN__E)" d="M16.422 18.884a1.27 1.27 0 0 0-1.295-.226l-.868.336a1.27 1.27 0 0 0-.795 1c.242-.037.49-.09.727-.158a.7.7 0 0 1 .21-.136l1.053-.406c.1-.037.2-.052.3-.037.226-.115.452-.242.668-.373"/>
-    <path fill="url(#CHAIN__F)" d="M14.317 20.815a.62.62 0 0 0 .537.048l1.052-.406a.62.62 0 0 0 .353-.368 7 7 0 0 0 .631-.347 1.27 1.27 0 0 1-.784 1.436l-.868.337a1.27 1.27 0 0 1-1.569-.563q.325-.056.643-.137z"/>
-    <path fill="url(#CHAIN__G)" d="M3.38 12.385a.34.34 0 0 1 .37.315c.041.553.225 1.716.62 2.484a.342.342 0 0 1-.605.316c-.458-.895-.653-2.158-.7-2.752a.343.343 0 0 1 .316-.369z"/>
-    <path fill="url(#CHAIN__H)" d="M4.176 8.274a.34.34 0 0 1 .179.448c-.21.515-.58 1.631-.58 2.494a.342.342 0 0 1-.683 0c0-1 .405-2.215.631-2.757a.34.34 0 0 1 .453-.185"/>
-    <path fill="url(#CHAIN__I)" d="M6.844 5.012c.11.147.09.363-.058.478-.437.353-1.284 1.158-1.7 1.921a.342.342 0 1 1-.6-.326c.474-.884 1.41-1.758 1.874-2.126a.34.34 0 0 1 .479.053z"/>
-    <path fill="url(#CHAIN__J)" d="M10.676 3.422a.343.343 0 0 1-.279.39c-.547.095-1.684.395-2.41.863a.343.343 0 0 1-.369-.579 8.2 8.2 0 0 1 2.663-.958.34.34 0 0 1 .395.28z"/>
-    <path fill="url(#CHAIN__K)" d="M14.791 3.717a.34.34 0 0 1-.42.237c-.537-.158-1.69-.39-2.553-.284a.345.345 0 1 1-.079-.684c1-.116 2.252.147 2.82.31a.34.34 0 0 1 .232.421"/>
-    <path fill="url(#CHAIN__L)" d="M18.342 5.896a.34.34 0 0 1-.484.01 7.6 7.6 0 0 0-2.116-1.452.343.343 0 0 1 .009-.603.34.34 0 0 1 .239-.029c.937.363 1.92 1.18 2.342 1.59a.34.34 0 0 1 .01.484"/>
-    <path fill="url(#CHAIN__M)" d="M20.448 9.516a.34.34 0 0 1-.427-.215c-.173-.532-.626-1.616-1.189-2.274a.343.343 0 1 1 .516-.447 8.2 8.2 0 0 1 1.32 2.51.335.335 0 0 1-.22.426"/>
-    <path fill="url(#CHAIN__N)" d="M20.653 13.674a.34.34 0 0 1-.28-.395c.096-.552.2-1.72 0-2.568a.343.343 0 0 1 .67-.153c.226.98.104 2.258 0 2.837a.34.34 0 0 1-.39.279"/>
-    <path fill="url(#CHAIN__O)" d="M18.838 17.395a.34.34 0 0 1-.064-.48c.342-.441.985-1.426 1.206-2.262a.34.34 0 0 1 .283-.286.344.344 0 0 1 .396.319.34.34 0 0 1-.022.14 8.2 8.2 0 0 1-1.315 2.505.343.343 0 0 1-.484.064"/>
-    <path fill="url(#CHAIN__P)" d="M15.527 19.947a.34.34 0 0 1 .168-.458c.506-.232 1.526-.816 2.105-1.458a.346.346 0 0 1 .6.215.34.34 0 0 1-.09.248 8.2 8.2 0 0 1-2.325 1.616.35.35 0 0 1-.263.014.34.34 0 0 1-.195-.177"/>
-    <path fill="url(#CHAIN__Q)" d="M11.465 20.647a.34.34 0 0 1 .357-.327c.558.027 1.737-.02 2.548-.315a.342.342 0 1 1 .236.637c-.947.347-2.226.389-2.815.357a.34.34 0 0 1-.327-.352"/>
-    <path fill="url(#CHAIN__R)" d="M7.428 19.284c.1-.158.31-.21.473-.116.474.29 1.526.81 2.384.931a.343.343 0 0 1-.095.68 8.2 8.2 0 0 1-2.647-1.027.34.34 0 0 1-.115-.468"/>
-    <path fill="url(#CHAIN__S)" d="M4.534 16.39a.343.343 0 0 1 .473.105c.295.473 1 1.41 1.71 1.91a.342.342 0 1 1-.389.558 8.2 8.2 0 0 1-1.9-2.105.336.336 0 0 1 .106-.469"/>
+    <path fill="url(#CHAIN__a)" fill-rule="evenodd" d="M11.188 9.373c.273.076.526.143.88.143.395 0 .825-.097 1.212-.19.32-.071.615-.139.838-.139.492 0 .993.333 1.326.93.281.583.484 1.2.602 1.836 0 .013 0 .064.013.135.063.463.256 1.962-.337 2.286-.552.303-1.276-.13-1.566-.383a2.9 2.9 0 0 0-2.088-.99 2.95 2.95 0 0 0-2.105.99c-.295.253-1.002.69-1.49.383-.611-.383-.38-2.105-.337-2.42.046-.312.42-2.552 1.755-2.767.606 0 .968.097 1.297.186m.092.37c.236.068.455.127.767.127.37 0 .787-.089 1.153-.169.265-.059.505-.114.686-.122.741-.042.943.24 1.238.733.261.437.438 1.233.48 1.431l.013.046c.063.253.425 1.954-.186 2.261-.42.21-1.073-.354-1.41-.644l-.135-.114c-.24-.27-.909-.598-1.814-.598-.91 0-1.591.329-1.831.598-.043.03-.089.072-.148.127-.337.294-.968.846-1.334.631-.518-.299-.274-1.747-.202-2.168l.012-.084c.042-.253.404-2.265 1.575-2.219a3.6 3.6 0 0 1 1.136.168z" clip-rule="evenodd"/>
+    <path fill="url(#CHAIN__b)" fill-rule="evenodd" d="M9.614 10.673a.49.49 0 0 1 .492-.492h.181c.274 0 .497.219.497.492v.034h.03c.273 0 .496.219.496.492v.181a.5.5 0 0 1-.497.497h-.029v.03a.494.494 0 0 1-.497.492h-.18a.49.49 0 0 1-.493-.492v-.03H9.58a.494.494 0 0 1-.493-.497v-.18a.49.49 0 0 1 .493-.493h.034zm.408.063a.194.194 0 0 1 .387 0v.362h.366a.177.177 0 1 1 0 .354h-.366v.362a.194.194 0 0 1-.387 0v-.362h-.366a.177.177 0 0 1 0-.354h.366z" clip-rule="evenodd"/>
+    <path fill="url(#CHAIN__c)" d="M13.504 11.294a.358.358 0 1 1-.716 0 .358.358 0 0 1 .716 0"/>
+    <path fill="url(#CHAIN__d)" d="M14.215 10.581a.357.357 0 0 1-.61.254.359.359 0 0 1 .252-.611.36.36 0 0 1 .358.357"/>
+    <path fill="url(#CHAIN__e)" d="M14.926 11.294a.358.358 0 1 1-.712 0 .358.358 0 1 1 .716 0z"/>
+    <path fill="url(#CHAIN__f)" d="M14.215 12a.358.358 0 1 1-.716 0 .358.358 0 0 1 .716 0"/>
+    <path fill="url(#CHAIN__g)" d="M17.769 15.216a1.02 1.02 0 0 0-1.074.308l-.538.631a1.01 1.01 0 0 0-.169 1.048c.143-.11.286-.219.421-.337a.55.55 0 0 1 .114-.269l.59-.682a.48.48 0 0 1 .31-.168c.127-.169.24-.35.346-.53"/>
+    <path fill="url(#CHAIN__h)" d="M16.96 17.419a.5.5 0 0 0 .32-.169l.586-.686a.5.5 0 0 0 .114-.252q.226-.303.42-.624c.262.37.249.885-.058 1.247l-.544.631a1.005 1.005 0 0 1-1.28.215 7 7 0 0 0 .443-.362"/>
+    <path fill="url(#CHAIN__i)" d="M18.635 12.186a1.02 1.02 0 0 0-.783.8l-.156.816c-.072.362.063.716.316.947a6 6 0 0 0 .227-.534.5.5 0 0 1 0-.21l.168-.885a.5.5 0 0 1 .177-.295c.025-.21.042-.42.05-.64"/>
+    <path fill="url(#CHAIN__j)" d="M18.95 14.544a.52.52 0 0 0 .266-.35l.168-.884a.5.5 0 0 0-.037-.303c.033-.236.059-.476.067-.72a1.014 1.014 0 0 1 .564 1.111l-.156.817a1.015 1.015 0 0 1-1.077.817q.112-.241.206-.488"/>
+    <path fill="url(#CHAIN__k)" d="M18.008 9.167a1.02 1.02 0 0 0-.312.947l.16.817c.084.408.396.716.78.8a7 7 0 0 0-.043-.535.5.5 0 0 1-.16-.282l-.173-.884a.5.5 0 0 1 .009-.232 7 7 0 0 0-.261-.631"/>
+    <path fill="url(#CHAIN__l)" d="M19.368 11.043c.042-.092.064-.21.042-.324l-.172-.88a.5.5 0 0 0-.244-.336 7 7 0 0 0-.257-.624c.51-.042.98.304 1.082.817l.16.817a1.015 1.015 0 0 1-.564 1.116 7 7 0 0 0-.05-.586z"/>
+    <path fill="url(#CHAIN__m)" d="M15.975 6.72c-.134.345-.071.753.194 1.048l.556.615c.27.294.665.395 1.023.294a7 7 0 0 0-.295-.463.47.47 0 0 1-.24-.143l-.602-.665a.5.5 0 0 1-.126-.274 8 8 0 0 0-.51-.412"/>
+    <path fill="url(#CHAIN__n)" d="M16.493 6.13q.279.208.539.447a.5.5 0 0 1 .316.16l.602.665a.47.47 0 0 1 .126.354c.114.151.215.311.311.471a1.02 1.02 0 0 0-.054-1.297l-.564-.614a1.014 1.014 0 0 0-1.28-.185z"/>
+    <path fill="url(#CHAIN__o)" d="M15.584 6.455c-.274.236-.67.32-1.032.182l-.775-.295a1.01 1.01 0 0 1-.644-.813q.341.056.67.143c.05.064.122.114.202.148l.842.32c.076.03.16.042.24.03.168.083.337.18.497.285"/>
+    <path fill="url(#CHAIN__p)" d="M15.958 5.77a1.014 1.014 0 0 0-.632-1.154l-.775-.295a1.015 1.015 0 0 0-1.246.442c.223.042.442.084.657.143a.5.5 0 0 1 .4-.017l.842.32a.5.5 0 0 1 .286.29c.16.085.316.17.467.266z"/>
+    <path fill="url(#CHAIN__q)" d="M12.612 5.466a1.01 1.01 0 0 1-.918.7l-.83.041a1.01 1.01 0 0 1-.875-.43q.325-.106.66-.18c.064.03.14.042.211.038l.901-.042a.52.52 0 0 0 .333-.148q.258.002.518.021"/>
+    <path fill="url(#CHAIN__r)" d="M12.598 4.683a8 8 0 0 0-.61-.021.5.5 0 0 0-.274-.063l-.896.042a.48.48 0 0 0-.38.202q-.327.076-.644.177a1.015 1.015 0 0 1 .969-.977l.83-.042c.458-.021.858.265 1.005.682"/>
+    <path fill="url(#CHAIN__s)" d="M7.333 7.44c.333.182.75.169 1.074-.067l.673-.484a1.01 1.01 0 0 0 .421-.926 5 5 0 0 0-.53.248.5.5 0 0 1-.143.16l-.729.522a.46.46 0 0 1-.278.093 7 7 0 0 0-.488.455"/>
+    <path fill="url(#CHAIN__t)" d="M8.672 5.487a.48.48 0 0 0-.421.076l-.733.522a.5.5 0 0 0-.198.303 8 8 0 0 0-.505.472 1.015 1.015 0 0 1 .333-1.247l.673-.484a1.02 1.02 0 0 1 1.33.127q-.246.112-.48.231"/>
+    <path fill="url(#CHAIN__u)" d="M5.74 10.193a1.01 1.01 0 0 0 .934-.564l.37-.74a1.02 1.02 0 0 0-.08-1.036 7 7 0 0 0-.336.45.54.54 0 0 1-.05.244l-.4.804a.5.5 0 0 1-.228.228 6 6 0 0 0-.21.614"/>
+    <path fill="url(#CHAIN__v)" d="M5.994 7.849a.5.5 0 0 0-.307.257l-.4.804a.5.5 0 0 0-.042.328 8 8 0 0 0-.236.674 1.015 1.015 0 0 1-.273-1.242l.37-.745a1.015 1.015 0 0 1 1.217-.518q-.17.214-.329.442"/>
+    <path fill="url(#CHAIN__w)" d="M5.636 13.318a1.01 1.01 0 0 0 .552-.926l-.021-.834a1.01 1.01 0 0 0-.543-.875 5 5 0 0 0-.085.568.5.5 0 0 1 .055.223l.025.901c0 .105-.03.21-.084.29.021.22.06.438.101.653"/>
+    <path fill="url(#CHAIN__x)" d="M4.76 11.116a.5.5 0 0 0-.16.383l.021.901c0 .127.055.24.135.325.02.235.059.463.105.69a1.014 1.014 0 0 1-.838-.972l-.02-.834a1.015 1.015 0 0 1 .841-1.023c-.033.172-.059.354-.084.535z"/>
+    <path fill="url(#CHAIN__y)" d="M6.983 16.097c.172-.278.21-.632.063-.956l-.337-.758a1.015 1.015 0 0 0-.956-.597q.077.257.173.509.147.076.223.236l.366.816a.4.4 0 0 1 .043.177c.134.198.273.392.42.573z"/>
+    <path fill="url(#CHAIN__z)" d="M5.21 14.61a.5.5 0 0 0 .03.33l.37.82a.49.49 0 0 0 .358.282q.184.27.388.522a1.014 1.014 0 0 1-1.28-.534l-.346-.758a1.015 1.015 0 0 1 .295-1.209q.083.278.185.548"/>
+    <path fill="url(#CHAIN__A)" d="M9.483 17.965a1.01 1.01 0 0 0-.438-.905l-.682-.472a1.01 1.01 0 0 0-1.01-.084c.143.151.295.294.45.42q.084.026.16.077l.737.509a.6.6 0 0 1 .135.135q.314.176.648.32"/>
+    <path fill="url(#CHAIN__B)" d="M7.18 17.422a.5.5 0 0 0 .215.4l.74.51a.51.51 0 0 0 .443.063c.19.1.379.193.58.277a1.015 1.015 0 0 1-1.338.169l-.686-.472a1.014 1.014 0 0 1-.324-1.3q.179.182.37.353"/>
+    <path fill="url(#CHAIN__C)" d="M12.548 18.47q-.315.024-.632.017a.5.5 0 0 0-.193-.071l-.889-.127a.54.54 0 0 0-.248.03 6 6 0 0 1-.556-.152 1.01 1.01 0 0 1 .973-.425l.74.101c.375.055.674.303.8.627z"/>
+    <path fill="url(#CHAIN__D)" d="M9.833 18.926c.02.48.378.892.875.96l.741.105c.51.067.985-.253 1.116-.737a8 8 0 0 1-.564.013.48.48 0 0 1-.417.134l-.884-.122a.5.5 0 0 1-.345-.21 7 7 0 0 1-.522-.143"/>
+    <path fill="url(#CHAIN__E)" d="M15.537 17.506a1.02 1.02 0 0 0-1.035-.18l-.695.268a1.02 1.02 0 0 0-.636.8c.194-.029.392-.071.581-.126a.6.6 0 0 1 .169-.11l.842-.324a.5.5 0 0 1 .24-.029 8 8 0 0 0 .534-.299"/>
+    <path fill="url(#CHAIN__F)" d="M13.853 19.052a.5.5 0 0 0 .43.038l.841-.324a.5.5 0 0 0 .282-.295q.26-.126.505-.278a1.015 1.015 0 0 1-.627 1.15l-.694.27a1.015 1.015 0 0 1-1.255-.451q.26-.046.514-.11z"/>
+    <path fill="url(#CHAIN__G)" d="M5.105 12.307c.151-.013.282.1.294.252.034.443.181 1.373.497 1.988a.273.273 0 0 1-.484.252c-.366-.715-.522-1.726-.56-2.202a.274.274 0 0 1 .253-.294z"/>
+    <path fill="url(#CHAIN__H)" d="M5.74 9.02a.27.27 0 0 1 .143.357c-.168.413-.463 1.306-.463 1.996a.274.274 0 0 1-.547 0c0-.8.324-1.772.505-2.206a.274.274 0 0 1 .362-.147"/>
+    <path fill="url(#CHAIN__I)" d="M7.874 6.41a.28.28 0 0 1-.046.382c-.35.282-1.027.926-1.36 1.537a.274.274 0 1 1-.48-.261c.38-.707 1.128-1.406 1.499-1.7a.274.274 0 0 1 .383.041z"/>
+    <path fill="url(#CHAIN__J)" d="M10.94 5.137a.274.274 0 0 1-.223.312c-.438.076-1.347.316-1.928.69a.274.274 0 0 1-.295-.463 6.6 6.6 0 0 1 2.13-.766.273.273 0 0 1 .316.223z"/>
+    <path fill="url(#CHAIN__K)" d="M14.233 5.374a.274.274 0 0 1-.337.19c-.43-.127-1.352-.312-2.042-.228a.276.276 0 1 1-.063-.548c.8-.092 1.802.118 2.256.249a.273.273 0 0 1 .186.337"/>
+    <path fill="url(#CHAIN__L)" d="M17.074 7.117a.273.273 0 0 1-.387.008 6 6 0 0 0-1.693-1.162.274.274 0 0 1 .198-.505c.75.29 1.537.943 1.874 1.272.11.105.113.277.008.387"/>
+    <path fill="url(#CHAIN__M)" d="M18.758 10.013a.273.273 0 0 1-.341-.173c-.14-.425-.501-1.292-.952-1.818a.274.274 0 0 1 .329-.431.3.3 0 0 1 .084.073 6.6 6.6 0 0 1 1.056 2.008.27.27 0 0 1-.176.34"/>
+    <path fill="url(#CHAIN__N)" d="M18.922 13.34a.274.274 0 0 1-.223-.316c.076-.442.16-1.377 0-2.055a.274.274 0 0 1 .534-.122c.181.783.085 1.806 0 2.27a.274.274 0 0 1-.311.222"/>
+    <path fill="url(#CHAIN__O)" d="M17.47 16.316a.274.274 0 0 1-.05-.383c.273-.354.786-1.141.963-1.81a.28.28 0 0 1 .227-.229.28.28 0 0 1 .287.145.28.28 0 0 1 .012.223 6.6 6.6 0 0 1-1.052 2.003.28.28 0 0 1-.291.1.3.3 0 0 1-.096-.049"/>
+    <path fill="url(#CHAIN__P)" d="M14.82 18.356a.274.274 0 0 1 .135-.366c.405-.185 1.221-.652 1.684-1.166a.276.276 0 0 1 .409.37c-.54.536-1.17.973-1.861 1.293a.28.28 0 0 1-.303-.044.3.3 0 0 1-.063-.087"/>
+    <path fill="url(#CHAIN__Q)" d="M11.57 18.917a.275.275 0 0 1 .287-.261c.447.02 1.39-.017 2.038-.253a.273.273 0 0 1 .398.262.27.27 0 0 1-.209.248c-.757.277-1.78.311-2.252.286a.274.274 0 0 1-.261-.282"/>
+    <path fill="url(#CHAIN__R)" d="M8.341 17.827a.28.28 0 0 1 .38-.093c.378.232 1.22.648 1.906.745a.274.274 0 1 1-.076.543 6.6 6.6 0 0 1-2.117-.82.273.273 0 0 1-.093-.375"/>
+    <path fill="url(#CHAIN__S)" d="M6.027 15.51a.274.274 0 0 1 .38.085c.235.379.8 1.128 1.368 1.528a.273.273 0 1 1-.312.446 6.6 6.6 0 0 1-1.52-1.684.27.27 0 0 1 .084-.374"/>
     <defs>
-        <linearGradient id="CHAIN__a" x1="11.757" x2="11.757" y1="-19.193" y2="44.449" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__a" x1="11.805" x2="11.805" y1="-12.954" y2="37.958" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EA3A25"/>
             <stop offset=".49" stop-color="#F2B73B"/>
             <stop offset="1" stop-color="#ED3C20"/>
         </linearGradient>
-        <linearGradient id="CHAIN__b" x1="28.209" x2="28.209" y1="-57.506" y2="94.296" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__b" x1="24.966" x2="24.966" y1="-43.604" y2="77.833" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EA3A25"/>
             <stop offset=".49" stop-color="#F2B73B"/>
             <stop offset="1" stop-color="#ED3C20"/>
         </linearGradient>
-        <linearGradient id="CHAIN__c" x1="-19.993" x2="-19.993" y1="-203.529" y2="267.057" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__c" x1="-13.594" x2="-13.594" y1="-160.417" y2="216.039" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EA3A25"/>
             <stop offset=".49" stop-color="#F2B73B"/>
         </linearGradient>
-        <linearGradient id="CHAIN__d" x1="-39.872" x2="-39.872" y1="-183.646" y2="286.94" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__d" x1="-29.497" x2="-29.497" y1="-144.511" y2="231.944" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EA3A25"/>
             <stop offset=".49" stop-color="#F2B73B"/>
         </linearGradient>
-        <linearGradient id="CHAIN__e" x1="-59.628" x2="-59.628" y1="-192.97" y2="253.442" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__e" x1="-45.301" x2="-45.301" y1="-151.97" y2="205.147" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EA3A25"/>
             <stop offset=".49" stop-color="#F2B73B"/>
         </linearGradient>
-        <linearGradient id="CHAIN__f" x1="-39.872" x2="-39.872" y1="-223.292" y2="247.293" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__g" x1="-40.065" x2="-40.065" y1="-107.861" y2="49.496" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__h" x1="-41.711" x2="-41.711" y1="-102.649" y2="40.603" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__i" x1="-116.5" x2="-116.5" y1="-61.842" y2="62.952" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__j" x1="-105.705" x2="-105.705" y1="-58.295" y2="58.128" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__k" x1="-116.447" x2="-116.447" y1="-38.295" y2="86.499" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__l" x1="-104.787" x2="-104.787" y1="-33.428" y2="82.811" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__m" x1="-40.418" x2="-40.418" y1="-25.255" y2="135.071" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__n" x1="-40.616" x2="-40.616" y1="-15.66" y2="126.877" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__o" x1="-7.24" x2="-7.24" y1="-24.024" y2="248.408" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__p" x1="-7.76" x2="-7.76" y1="-1.32" y2="209.669" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__q" x1="17.344" x2="17.344" y1="-35.848" y2="383.462" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__r" x1="17.735" x2="17.735" y1="2.021" y2="315.734" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__s" x1="44.965" x2="44.965" y1="-22.496" y2="177.257" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__t" x1="45.471" x2="45.471" y1="-7.775" y2="158.862" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__u" x1="90.826" x2="90.826" y1="-30.906" y2="105.753" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__v" x1="89.083" x2="89.083" y1="-24.314" y2="101.037" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__w" x1="200.076" x2="200.076" y1="-48.703" y2="72.703" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__f" x1="-29.497" x2="-29.497" y1="-176.228" y2="200.227" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EA3A25"/>
             <stop offset=".49" stop-color="#F2B73B"/>
             <stop offset="1" stop-color="#ED3C20"/>
         </linearGradient>
-        <linearGradient id="CHAIN__x" x1="188.189" x2="188.189" y1="-44.547" y2="68.547" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__g" x1="-29.65" x2="-29.65" y1="-83.886" y2="41.995" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__h" x1="-30.968" x2="-30.968" y1="-79.716" y2="34.882" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__i" x1="-90.798" x2="-90.798" y1="-47.071" y2="52.76" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__j" x1="-82.162" x2="-82.162" y1="-44.233" y2="48.902" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__k" x1="-90.755" x2="-90.755" y1="-28.235" y2="71.597" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__l" x1="-81.427" x2="-81.427" y1="-24.342" y2="68.646" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__m" x1="-29.933" x2="-29.933" y1="-17.805" y2="110.452" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__n" x1="-30.091" x2="-30.091" y1="-10.128" y2="103.897" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__o" x1="-3.392" x2="-3.392" y1="-16.819" y2="201.12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__p" x1="-3.808" x2="-3.808" y1="1.344" y2="170.13" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__q" x1="16.275" x2="16.275" y1="-26.277" y2="309.159" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__r" x1="16.587" x2="16.587" y1="4.017" y2="254.978" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__s" x1="38.371" x2="38.371" y1="-15.596" y2="144.201" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__t" x1="38.776" x2="38.776" y1="-3.82" y2="129.485" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__u" x1="75.057" x2="75.057" y1="-22.324" y2="86.999" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__v" x1="73.665" x2="73.665" y1="-17.051" y2="83.227" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__w" x1="162.456" x2="162.456" y1="-36.56" y2="60.56" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EA3A25"/>
             <stop offset=".49" stop-color="#F2B73B"/>
             <stop offset="1" stop-color="#ED3C20"/>
         </linearGradient>
-        <linearGradient id="CHAIN__y" x1="92.278" x2="92.278" y1="-82.642" y2="55.764" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__z" x1="87.883" x2="87.883" y1="-76.465" y2="48.291" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__A" x1="45.582" x2="45.582" y1="-157.315" y2="48.111" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__B" x1="45.072" x2="45.072" y1="-131.968" y2="32.039" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__C" x1="17.651" x2="17.651" y1="-361.157" y2="61.934" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__D" x1="17.869" x2="17.869" y1="-275.903" y2="21.99" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__E" x1="-7.889" x2="-7.889" y1="-230.838" y2="50.175" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__F" x1="-8.273" x2="-8.273" y1="-188.73" y2="26.273" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__G" x1="135.849" x2="135.849" y1="-61.188" y2="60.574" gradientUnits="userSpaceOnUse">
-            <stop offset=".49" stop-color="#F2B73B"/>
-            <stop offset="1" stop-color="#ED3C20"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__H" x1="140.047" x2="140.047" y1="-35.709" y2="85.048" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__I" x1="63.025" x2="63.025" y1="-19.172" y2="127.678" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__J" x1="30.208" x2="30.208" y1="-12.191" y2="238.539" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__K" x1="5.372" x2="5.372" y1="-16.933" y2="379.297" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__L" x1="-22.822" x2="-22.822" y1="-14.544" y2="168.153" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__M" x1="-66.95" x2="-66.95" y1="-26.783" y2="102.76" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EA3A25"/>
-            <stop offset=".49" stop-color="#F2B73B"/>
-        </linearGradient>
-        <linearGradient id="CHAIN__N" x1="-205.716" x2="-205.716" y1="-46.969" y2="71.151" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__x" x1="152.947" x2="152.947" y1="-33.236" y2="57.236" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EA3A25"/>
             <stop offset=".49" stop-color="#F2B73B"/>
             <stop offset="1" stop-color="#ED3C20"/>
         </linearGradient>
-        <linearGradient id="CHAIN__O" x1="-66.532" x2="-66.532" y1="-77.631" y2="51.194" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__y" x1="76.22" x2="76.22" y1="-63.711" y2="47.01" gradientUnits="userSpaceOnUse">
             <stop offset=".49" stop-color="#F2B73B"/>
             <stop offset="1" stop-color="#ED3C20"/>
         </linearGradient>
-        <linearGradient id="CHAIN__P" x1="-22.034" x2="-22.034" y1="-141.038" y2="38.675" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__z" x1="72.704" x2="72.704" y1="-58.769" y2="41.032" gradientUnits="userSpaceOnUse">
             <stop offset=".49" stop-color="#F2B73B"/>
             <stop offset="1" stop-color="#ED3C20"/>
         </linearGradient>
-        <linearGradient id="CHAIN__Q" x1="5.157" x2="5.157" y1="-343.186" y2="41.047" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__A" x1="38.864" x2="38.864" y1="-123.448" y2="40.886" gradientUnits="userSpaceOnUse">
             <stop offset=".49" stop-color="#F2B73B"/>
             <stop offset="1" stop-color="#ED3C20"/>
         </linearGradient>
-        <linearGradient id="CHAIN__R" x1="30.868" x2="30.868" y1="-204.155" y2="36.663" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__B" x1="38.456" x2="38.456" y1="-103.171" y2="28.03" gradientUnits="userSpaceOnUse">
             <stop offset=".49" stop-color="#F2B73B"/>
             <stop offset="1" stop-color="#ED3C20"/>
         </linearGradient>
-        <linearGradient id="CHAIN__S" x1="12.001" x2="12.001" y1="2.001" y2="21.999" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CHAIN__C" x1="16.52" x2="16.52" y1="-286.516" y2="51.946" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__D" x1="16.695" x2="16.695" y1="-218.314" y2="19.992" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__E" x1="-3.911" x2="-3.911" y1="-182.264" y2="42.538" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__F" x1="-4.219" x2="-4.219" y1="-148.578" y2="23.418" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__G" x1="111.075" x2="111.075" y1="-46.549" y2="50.857" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__H" x1="114.433" x2="114.433" y1="-26.166" y2="70.436" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__I" x1="52.818" x2="52.818" y1="-12.937" y2="104.539" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__J" x1="26.565" x2="26.565" y1="-7.353" y2="193.224" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__K" x1="6.698" x2="6.698" y1="-11.146" y2="305.827" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__L" x1="-15.856" x2="-15.856" y1="-9.234" y2="136.918" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__M" x1="-51.158" x2="-51.158" y1="-19.026" y2="84.605" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__N" x1="-162.167" x2="-162.167" y1="-35.174" y2="59.32" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EA3A25"/>
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__O" x1="-50.824" x2="-50.824" y1="-59.702" y2="43.355" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__P" x1="-15.227" x2="-15.227" y1="-110.427" y2="33.338" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__Q" x1="6.525" x2="6.525" y1="-272.139" y2="35.236" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__R" x1="27.093" x2="27.093" y1="-160.918" y2="31.729" gradientUnits="userSpaceOnUse">
+            <stop offset=".49" stop-color="#F2B73B"/>
+            <stop offset="1" stop-color="#ED3C20"/>
+        </linearGradient>
+        <linearGradient id="CHAIN__S" x1="12.001" x2="12.001" y1="4.001" y2="19.998" gradientUnits="userSpaceOnUse">
             <stop offset=".49" stop-color="#F2B73B"/>
             <stop offset="1" stop-color="#ED3C20"/>
         </linearGradient>

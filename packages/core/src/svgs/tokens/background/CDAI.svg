@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CDAI__a)">
+        <path fill="url(#CDAI__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M18.824 5.835A8.8 8.8 0 0 0 13.412 4c-4.546 0-8.235 3.581-8.235 8s3.689 8 8.235 8a8.38 8.38 0 0 0 5.411-1.958l-.894-1.082a6.98 6.98 0 0 1-4.517 1.628c-3.765 0-6.824-2.95-6.824-6.588s3.06-6.588 6.824-6.588c1.656 0 3.332.565 4.517 1.515z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M13.412 8.706h-2.589v2.353h-.94v.47h.94v.942h-.94v.47h.94v1.883h2.589a3.06 3.06 0 0 0 2.823-1.882h.706v-.471h-.55a3 3 0 0 0 .07-.941h.48v-.47h-.55a3.06 3.06 0 0 0-2.98-2.354m2.494 3.765a2.6 2.6 0 0 0 .085-.941h-4.697v.941zm-4.612.47v1.412h2.118a2.59 2.59 0 0 0 2.306-1.411zm0-1.882h4.612a2.59 2.59 0 0 0-2.494-1.882h-2.118z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="CDAI__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#27D3A2"/>
+            <stop offset="1" stop-color="#9388FD"/>
+        </linearGradient>
+        <clipPath id="CDAI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

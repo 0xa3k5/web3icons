@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#OCTA__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#OCTA__b)" d="M4 9.076v6.11l1.333.898V8.178L4 9.08z"/>
+        <path fill="url(#OCTA__c)" d="M5.333 8.178v7.91l1.333-.901V9.076z"/>
+        <path fill="url(#OCTA__d)" d="M6.667 6.622V17.63L8 18.529v-12.8l-1.333.897z"/>
+        <path fill="url(#OCTA__e)" d="m8 18.533 1.333-.898V6.622L8 5.72z"/>
+        <path fill="url(#OCTA__f)" d="M20 9.076v6.11l-1.333.898V8.178L20 9.08z"/>
+        <path fill="url(#OCTA__g)" d="M18.667 8.178v7.91l-1.333-.901V9.076z"/>
+        <path fill="url(#OCTA__h)" d="M17.334 6.622V17.63l-1.333.898v-12.8l1.333.897z"/>
+        <path fill="url(#OCTA__i)" d="m16 18.533-1.333-.898V6.622L16 5.72z"/>
+        <path fill="url(#OCTA__j)" d="M9.333 4.898v14.204l1.329.898h.004V4z"/>
+        <path fill="url(#OCTA__k)" d="M10.667 20h.004l1.33-.898V4.898L10.666 4z"/>
+        <path fill="url(#OCTA__l)" d="M12 4.898v14.204l1.329.898h.004V4z"/>
+        <path fill="url(#OCTA__m)" d="M13.334 20h.004l1.33-.898V4.898L13.333 4z"/>
+    </g>
+    <defs>
+        <linearGradient id="OCTA__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#670057"/>
+            <stop offset="1" stop-color="#230059"/>
+        </linearGradient>
+        <linearGradient id="OCTA__c" x1="12" x2="12" y1="4" y2="19.991" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CC1B99"/>
+            <stop offset="1" stop-color="#471288"/>
+        </linearGradient>
+        <linearGradient id="OCTA__d" x1="12" x2="12" y1="3.994" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#670057"/>
+            <stop offset="1" stop-color="#230059"/>
+        </linearGradient>
+        <linearGradient id="OCTA__e" x1="12" x2="12" y1="4.005" y2="19.994" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CC1B99"/>
+            <stop offset="1" stop-color="#471288"/>
+        </linearGradient>
+        <linearGradient id="OCTA__f" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CC1B99"/>
+            <stop offset="1" stop-color="#471288"/>
+        </linearGradient>
+        <linearGradient id="OCTA__g" x1="12.001" x2="12.001" y1="4" y2="19.991" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#670057"/>
+            <stop offset="1" stop-color="#230059"/>
+        </linearGradient>
+        <linearGradient id="OCTA__h" x1="12.001" x2="12.001" y1="3.994" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CC1B99"/>
+            <stop offset="1" stop-color="#471288"/>
+        </linearGradient>
+        <linearGradient id="OCTA__i" x1="12" x2="12" y1="4.005" y2="19.994" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#670057"/>
+            <stop offset="1" stop-color="#230059"/>
+        </linearGradient>
+        <linearGradient id="OCTA__j" x1="12" x2="12" y1="4" y2="20.005" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#670057"/>
+            <stop offset="1" stop-color="#230059"/>
+        </linearGradient>
+        <linearGradient id="OCTA__k" x1="14" x2="14" y1="4" y2="20.005" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CC1B99"/>
+            <stop offset="1" stop-color="#471288"/>
+        </linearGradient>
+        <linearGradient id="OCTA__l" x1="12" x2="12" y1="4" y2="20.005" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#670057"/>
+            <stop offset="1" stop-color="#230059"/>
+        </linearGradient>
+        <linearGradient id="OCTA__m" x1="14.001" x2="14.001" y1="4" y2="20.005" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#CC1B99"/>
+            <stop offset="1" stop-color="#471288"/>
+        </linearGradient>
+        <clipPath id="OCTA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

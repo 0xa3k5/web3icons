@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CRO__a)">
+        <path fill="#2E4B9F" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m8.121 4.727-.97 4.364h9.698l-.97-4.364zM9.091 12l-2.137-1.45L4 12.484l3.949 6.788h1.495l1.586-1.82v-.825l-1.94-1.762zm5.7-1.94H9.394l1.15 1.94-.53 2.424h4.162L13.455 12zm.118 1.94 2.136-1.655L20 12.485l-3.893 6.788H14.67l-1.714-1.833v-.847l1.954-1.805z"/>
+    </g>
+    <defs>
+        <clipPath id="CRO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

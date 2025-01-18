@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CXO__a)">
+        <path fill="#8DDB2E" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M20 4.75h-1.5v1.5H20zm-1.5 1.5h-1.502v1.5H18.5zm1.5 9.5h-1.5v1.5H20zm-1.5-2.5H17v1.5h1.5zm-3-3H14v1.5h1.5zm1.5-1.5h-1.5v1.5H17zm3 1.5h-1.5v1.5H20z"/>
+        <path fill="#fff" d="M17 17.75v-1.5h-1.5v1.5H14v-1.5h1.5v-3H14v-1.5h-1.5v-1.5H14v-1.5h-1.5v-1.5H14v1.5h1.5v-2.5H17v-1.5h-4l-2.25 4-2.525-4H4L8.5 12 4 19.25h4.136l2.614-4.5 2.25 4.5h5.5v-1.5zm-4.5-3v-1.5H11v-1.5l-1.5.005V10.25H11v1.5h1.5v1.5H14v1.5z"/>
+    </g>
+    <defs>
+        <clipPath id="CXO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

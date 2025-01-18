@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DEXTF__a)">
+        <path fill="url(#DEXTF__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4 18.112V5.888C4 4.843 4.853 4 5.92 4h5.957C16.357 4 20 7.584 20 12s-3.637 8-8.123 8H5.915A1.897 1.897 0 0 1 4 18.112m1.355-4.944 2.602.565L13.6 9.11v7.28l2.133 1.824V6.987L14.3 6.203l-8.944 6.96z"/>
+    </g>
+    <defs>
+        <linearGradient id="DEXTF__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#72F64B"/>
+            <stop offset=".83" stop-color="#2D6A1C"/>
+        </linearGradient>
+        <clipPath id="DEXTF__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

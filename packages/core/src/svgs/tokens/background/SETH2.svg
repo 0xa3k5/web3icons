@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#SETH2__a)">
+        <path fill="url(#SETH2__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12 13.411V4l-3.765 7.294zm0 0V4l3.765 7.294z"/>
+        <path fill="#fff" d="m12 13.411-3.765-2.117-2.823 5.41zm0 0 3.765-2.117 2.823 5.41zM12 20v-6.588l-6.588 3.294zm0 0v-6.588l6.588 3.294z"/>
+    </g>
+    <defs>
+        <linearGradient id="SETH2__b" x1="18.588" x2="14.065" y1="8" y2="20.601" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#7DC371"/>
+            <stop offset="1" stop-color="#6FB063"/>
+        </linearGradient>
+        <clipPath id="SETH2__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

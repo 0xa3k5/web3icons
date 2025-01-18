@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MMPRO__a)">
+        <path fill="#3C6" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M15.429 9.333V7.43h-.381v1.904h-.743l-1.162 1.421V7.048h-.953V4h-.38v3.048h-.953v3.706l-1.162-1.42h-.743V7.428h-.38v1.904H7.81v5.334h.761v3.047h.381v-3.047h.762V11.63l1.143 1.333v3.226h.953V20h.38v-3.81h.953v-3.222l1.143-1.334v3.033h.762v3.047h.38v-3.047h.762V9.333z"/>
+    </g>
+    <defs>
+        <clipPath id="MMPRO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

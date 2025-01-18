@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#FOOM__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="red" d="M6.501 4.5h13.5V18H6.5z"/>
+        <path fill="#00F8FF" d="M4 6.5h14v13H4z"/>
+        <path fill="#000" d="M5.001 5.502h14v13H5z"/>
+        <path fill="#00F8FF" d="M8.501 10h6l-.55.75H10V12h4.325l-.66.75H10V15H8.5z"/>
+        <path fill="red" d="M9.501 9.002h6l-.55.75H11v1.25h4.325l-.66.75H11v2.25H9.5z"/>
+        <path fill="#fff" d="M9 9.5h6l-.55.75H10.5v1.25h4.325l-.66.75H10.5v2.25H9z"/>
+    </g>
+    <defs>
+        <clipPath id="FOOM__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

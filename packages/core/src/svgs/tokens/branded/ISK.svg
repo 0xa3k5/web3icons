@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#ISK__a)" d="m11.884 2 7.432 7.284a3.667 3.667 0 0 1 0 5.263l-2.29 2.242-5.136-5.036a6.803 6.803 0 0 1 0-9.753zm.232 20-7.432-7.284a3.67 3.67 0 0 1 0-5.263l2.29-2.242 5.137 5.036a6.807 6.807 0 0 1 0 9.753z"/>
+    <path fill="url(#ISK__a)" d="m11.908 4 5.945 5.827a2.93 2.93 0 0 1 0 4.21l-1.832 1.795-4.11-4.03a5.445 5.445 0 0 1 0-7.802zm.185 16-5.946-5.827a2.934 2.934 0 0 1 0-4.21L7.98 8.167l4.11 4.03a5.446 5.446 0 0 1 0 7.802z"/>
     <defs>
-        <linearGradient id="ISK__a" x1="16.771" x2="6.103" y1="3.104" y2="20.505" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ISK__a" x1="15.817" x2="7.282" y1="4.883" y2="18.804" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FA2A9B"/>
             <stop offset=".39" stop-color="#6691DA"/>
             <stop offset=".57" stop-color="#2BAAEA"/>

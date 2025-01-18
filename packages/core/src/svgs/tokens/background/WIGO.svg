@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#WIGO__a)">
+        <path fill="#070BF0" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M20 12h-1.714V6.731a13.34 13.34 0 0 1-13.52 3.635L4 10.137 4.457 8.6l.772.229c4.285 1.28 8.971.131 12.034-3.115H12V4h8zM4 12h1.714v5.269a13.34 13.34 0 0 1 13.52-3.635l.766.229-.457 1.537-.772-.229a11.87 11.87 0 0 0-12.034 3.115H12V20H4z"/>
+    </g>
+    <defs>
+        <clipPath id="WIGO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

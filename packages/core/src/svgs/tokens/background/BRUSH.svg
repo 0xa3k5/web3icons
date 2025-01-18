@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#BRUSH__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#BRUSH__b)" fill-opacity=".3" d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0"/>
+        <path fill="url(#BRUSH__c)" fill-rule="evenodd" d="M12 19.44a7.44 7.44 0 0 0 7.638-7.443A7.447 7.447 0 0 0 12 4.556a7.445 7.445 0 0 0 0 14.885m0 .56a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
+        <path fill="url(#BRUSH__d)" d="m7.525 15.845 3.195-2.895c.29.15.81.5.83.99l-2.825 3.115c-.4-.01-1.2-.27-1.2-1.21m1.055.375a.25.25 0 1 0 0-.495.25.25 0 0 0 0 .5z"/>
+        <path fill="#737071" d="m11.655 12.646 3.285 1.4.7-.74-.12-.15.33-.26.34.44-1.145 1.2-3.285-1.39-.52.564-.31-.285z"/>
+        <path fill="#B38C68" d="M11.32 7.016c-1 .145-1.66 1.2-1.865 1.7l4.99 5.035a1.82 1.82 0 0 0 1.845-1.685z"/>
+        <path fill="url(#BRUSH__e)" d="M10.294 7.936c-.21.08-.41.8-.48 1.145l4.47 4.51c.835-.065 1.055-.48 1.066-.68.22-.05.734-.61.96-.885l-4.91-4.99c-.17.08-.5.285-.5.46 0 .22-.346.34-.606.44"/>
+        <path fill="url(#BRUSH__f)" d="m14.265 4.005-2.905 3.09 4.9 4.935 3.7-3.71V4h-5.695z"/>
+    </g>
+    <defs>
+        <linearGradient id="BRUSH__b" x1="6.845" x2="16.755" y1="5.93" y2="18.06" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#99817E"/>
+            <stop offset=".25" stop-color="#948680"/>
+            <stop offset=".51" stop-color="#7C988B"/>
+            <stop offset=".77" stop-color="#7B90A1"/>
+            <stop offset="1" stop-color="#868A9F"/>
+        </linearGradient>
+        <linearGradient id="BRUSH__c" x1="6.965" x2="16.45" y1="5.56" y2="18.43" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF413F"/>
+            <stop offset=".16" stop-color="#FD9819"/>
+            <stop offset=".36" stop-color="#FCC008"/>
+            <stop offset=".51" stop-color="#45C391"/>
+            <stop offset=".7" stop-color="#D69B70"/>
+            <stop offset=".86" stop-color="#A767E5"/>
+            <stop offset="1" stop-color="#6A8AEF"/>
+        </linearGradient>
+        <linearGradient id="BRUSH__d" x1="8.651" x2="14.24" y1="10.061" y2="15.92" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D02612"/>
+            <stop offset=".48" stop-color="#EB4F2E"/>
+            <stop offset="1" stop-color="#841F0C"/>
+        </linearGradient>
+        <linearGradient id="BRUSH__e" x1="6.019" x2="17.737" y1="6.564" y2="18.168" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0EBEFF"/>
+            <stop offset=".28" stop-color="#46CB85"/>
+            <stop offset=".51" stop-color="#FA4B4C"/>
+            <stop offset=".69" stop-color="#F9CD07"/>
+            <stop offset="1" stop-color="#AE63E4"/>
+        </linearGradient>
+        <linearGradient id="BRUSH__f" x1="12.99" x2="17.84" y1="5.315" y2="10.3" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#79DBFF"/>
+            <stop offset=".29" stop-color="#77DC9B"/>
+            <stop offset=".55" stop-color="#EB6F69"/>
+            <stop offset=".73" stop-color="#FEE074"/>
+            <stop offset="1" stop-color="#C58FEC"/>
+        </linearGradient>
+        <clipPath id="BRUSH__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

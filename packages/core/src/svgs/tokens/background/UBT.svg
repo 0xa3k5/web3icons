@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#UBT__a)">
+        <path fill="url(#UBT__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m20 6-2-2h-8v13H7V6H4v12l2 2h5l2-2h5l2-2v-4l-1-1 1-1zm-7 1h4v3h-4zm4 8h-4v-3h4z"/>
+    </g>
+    <defs>
+        <linearGradient id="UBT__b" x1="17.768" x2="6.463" y1="6.254" y2="17.631" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F5E710"/>
+            <stop offset=".22" stop-color="#4DB15A"/>
+            <stop offset=".45" stop-color="#00A09A"/>
+            <stop offset=".71" stop-color="#1E548A"/>
+            <stop offset="1" stop-color="#DA1E74"/>
+        </linearGradient>
+        <clipPath id="UBT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#WLITI__a)">
+        <path fill="url(#WLITI__b)" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M9 12.775v5.1L4.5 15.4zm2.885-1.7L10.5 11.9v3.3l4.255-2.475z"/>
+        <path fill="#fff" d="M14.755 12.725 10.5 15.2v-3.3l-1.5.9v5.07l2.885-1.845 4.305-2.475z"/>
+        <path fill="#fff" d="M9 7.975v4.845L4.5 15.4V5.5zm1.5.625v3.3l1.385-.825 2.865 1.65v-6.6zm5.69 4.95-4.305 2.475L16.19 18.5l4.31-2.475z"/>
+        <path fill="#fff" d="m10.45 8.6 5.744 3.3L20.5 9.425l-5.745-3.3z"/>
+    </g>
+    <defs>
+        <linearGradient id="WLITI__b" x1="6.318" x2="21.059" y1="17.305" y2="9.747" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#08A5B1"/>
+            <stop offset=".67" stop-color="#6FC6A6"/>
+            <stop offset="1" stop-color="#CAE5C2"/>
+        </linearGradient>
+        <clipPath id="WLITI__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

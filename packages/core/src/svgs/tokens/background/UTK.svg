@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#UTK__a)">
+        <path fill="#7C4DFF" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.86 12 20 8.152l-1.2-2.327-6.537 2.667a.7.7 0 0 1-.524 0L5.2 5.827 4 8.152 11.14 12 4 15.848l1.2 2.327 6.538-2.667a.7.7 0 0 1 .523 0l6.537 2.668 1.2-2.328z"/>
+    </g>
+    <defs>
+        <clipPath id="UTK__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

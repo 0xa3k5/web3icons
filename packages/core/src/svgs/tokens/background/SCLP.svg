@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#SCLP__a)">
+        <path fill="url(#SCLP__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m15.265 4.957-3.811 3.92a.2.2 0 0 0-.038.032L8.65 11.676a.684.684 0 0 0 0 .969l2.62 2.62-3.227 3.388a10 10 0 0 1-1.45-1.218C3.212 14.06 3.094 9.883 6.5 6.472c2.7-2.7 5.885-3.157 8.765-1.515"/>
+        <path fill="#fff" d="M17.533 17.5c-2.692 2.687-5.858 3.172-8.719 1.624l1.139-1.186 2.607-2.696 2.592-2.592a.693.693 0 0 0 0-.97l-2.602-2.6 3.195-3.341.282-.292c.47.33.941.73 1.388 1.177 3.355 3.345 3.496 7.495.118 10.877"/>
+    </g>
+    <defs>
+        <linearGradient id="SCLP__b" x1="17.127" x2="-2.31" y1="-1.871" y2="53.375" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00DECA"/>
+            <stop offset=".38" stop-color="#3A8AFA"/>
+            <stop offset="1" stop-color="#1A6AF4"/>
+        </linearGradient>
+        <clipPath id="SCLP__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

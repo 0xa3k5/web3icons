@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TOSHI__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#TOSHI__b)" d="M4 5.474v1.692l1.638 1.621 3.57.969v.758l1.436 3.553v1.175l1.343 1.486v.03l.013-.013.013.013v-.03l1.343-1.486v-1.179l1.431-3.554v-.757l3.58-.969L20 7.166V5.474l-.434 1.174-1.204.725-3.57.619-2.78-.615v-.004h-.025v.004l-2.779.615-3.57-.62-1.204-.724z"/>
+        <path fill="url(#TOSHI__c)" d="m7.79 14.712.866-3.9 1.365 3.31-.316 1.347 1.874 1.937v1.12z"/>
+        <path fill="url(#TOSHI__d)" d="m16.21 14.712-.867-3.9-1.364 3.31.316 1.347-1.874 1.937v1.12z"/>
+    </g>
+    <defs>
+        <linearGradient id="TOSHI__b" x1="4.8" x2="19.669" y1="7.831" y2="7.551" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#380D78"/>
+            <stop offset=".43" stop-color="#56758A"/>
+            <stop offset=".75" stop-color="#7BF29E"/>
+            <stop offset=".93" stop-color="#8FD5B8"/>
+            <stop offset="1" stop-color="#A7ACC2"/>
+        </linearGradient>
+        <linearGradient id="TOSHI__c" x1="4" x2="9.717" y1="9.934" y2="20.916" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#24153E"/>
+            <stop offset="1" stop-color="#77E397"/>
+        </linearGradient>
+        <linearGradient id="TOSHI__d" x1="14.316" x2="14.316" y1="10.812" y2="18.526" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A69BD7"/>
+            <stop offset=".3" stop-color="#84E7AE"/>
+            <stop offset=".48" stop-color="#70D78F"/>
+            <stop offset="1" stop-color="#3D5F5E"/>
+        </linearGradient>
+        <clipPath id="TOSHI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

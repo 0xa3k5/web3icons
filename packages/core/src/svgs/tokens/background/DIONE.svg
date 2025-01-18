@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DIONE__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#30128D" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16"/>
+        <path fill="#7D1FA9" d="M12 18.586a6.587 6.587 0 1 0 0-13.173 6.587 6.587 0 0 0 0 13.173"/>
+        <path fill="#FB88F3" d="M12 16.982a4.982 4.982 0 1 0 0-9.965 4.982 4.982 0 0 0 0 9.965"/>
+        <path fill="#E7B2F8" d="M12 16.586a4.587 4.587 0 1 0 0-9.173 4.587 4.587 0 0 0 0 9.173"/>
+        <path fill="url(#DIONE__b)" d="M16.054 12.152c0 2.31-1.547 3.333-3.818 3.915-1.01.262-1.854.147-2.591 0-1.183-.235-1.818-1.066-2.165-2.222a3 3 0 0 1-.093-.88c0-1.676 2.186-4.987 4.489-4.987a4.18 4.18 0 0 1 4.178 4.178z"/>
+    </g>
+    <defs>
+        <linearGradient id="DIONE__b" x1="14.649" x2="7.925" y1="9.458" y2="14.832" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6DDFF4"/>
+            <stop offset=".42" stop-color="#10FDF7"/>
+            <stop offset=".65" stop-color="#20DFFB"/>
+            <stop offset="1" stop-color="#688FEB"/>
+        </linearGradient>
+        <clipPath id="DIONE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#TRAC__a)">
+        <path fill="url(#TRAC__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12 4v3.98a4.02 4.02 0 1 0 3.075 6.61l3.045 2.56A7.97 7.97 0 0 1 12 20a8 8 0 0 1 0-16m3.775 9.39 3.735 1.38c-.165.435-.36.855-.6 1.26l-3.435-2.005a4 4 0 0 0 .3-.635m4.1-2.78Q20 11.286 20 12h-3.98c0-.24-.02-.47-.06-.7l3.92-.69zm-2.71-4.715c.36.3.685.63.985.99L15.09 9.43a4 4 0 0 0-.49-.5z"/>
+    </g>
+    <defs>
+        <linearGradient id="TRAC__b" x1="5.654" x2="18.44" y1="7.654" y2="15.777" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4CCB88"/>
+            <stop offset="1" stop-color="#30C7B4"/>
+        </linearGradient>
+        <clipPath id="TRAC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

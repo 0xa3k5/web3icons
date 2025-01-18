@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#HUSD__a)">
+        <path fill="#1A61F0" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M18 20h-3v-5.06c0-.811-.729-1.44-1.57-1.44H9.048C7.365 13.5 6 12.155 6 10.533V4.002h3v5.061c0 .81.729 1.437 1.57 1.437h4.381c1.683.002 3.046 1.348 3.047 2.97zm-9 0H6v-5c1.683 0 3 1.38 3 3.003zm6-16h3v5c-1.684 0-3-1.379-3-3z"/>
+    </g>
+    <defs>
+        <clipPath id="HUSD__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

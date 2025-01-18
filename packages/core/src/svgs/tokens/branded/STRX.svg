@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#STRX__a)" d="M12.024 9.412 3.252 2l14.794 2.824zM10.27 22 2.588 2.765l9.059 7.47zm9.858-16.941-7.012 5.765h5.5l-7.352 10.888L21.412 9.647h-4.883z"/>
+    <path fill="url(#STRX__a)" d="M12.019 9.93 5.002 4l11.836 2.259zM10.617 20 4.47 4.612l7.247 5.976zm7.887-13.553-5.61 4.612h4.4l-5.882 8.71 8.118-9.651h-3.906z"/>
     <defs>
-        <linearGradient id="STRX__a" x1="4.884" x2="19.074" y1="4.464" y2="18.236" gradientUnits="userSpaceOnUse">
+        <linearGradient id="STRX__a" x1="6.307" x2="17.659" y1="5.971" y2="16.989" gradientUnits="userSpaceOnUse">
             <stop stop-color="#73D8E2"/>
             <stop offset=".69" stop-color="#4950D4"/>
         </linearGradient>

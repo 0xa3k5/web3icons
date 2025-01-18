@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#APFC__a)">
+        <path fill="url(#APFC__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="m8.108 4.217 4.108 2.266v4.549l-4.108 2.265L4 11.031V6.483zM4.432 6.958v3.818l3.46 1.912V8.67l-3.46-1.717zm3.892 1.717v4.012l3.46-1.91v-3.82zm3.213-2.076-3.43 1.704L4.68 6.599l3.429-1.89z" clip-rule="evenodd"/>
+        <path fill="#fff" fill-rule="evenodd" d="M15.892 4.217 20 6.483v4.549l-4.108 2.265-4.108-2.266V6.483zm-3.675 2.741v3.818l3.459 1.912V8.67l-3.46-1.717zm3.891 1.717v4.012l3.46-1.91v-3.82zm3.213-2.076-3.429 1.704-3.429-1.704 3.429-1.89z" clip-rule="evenodd"/>
+        <path fill="#fff" fill-rule="evenodd" d="m12 10.703 4.108 2.266v4.549L12 19.784l-4.108-2.266v-4.55zm-3.675 2.742v3.818l3.459 1.91v-4.016l-3.46-1.717zm3.891 1.716v4.013l3.46-1.911v-3.818zm3.213-2.075-3.43 1.703-3.428-1.703L12 11.196z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="APFC__b" x1="5.684" x2="19.144" y1="7.922" y2="16.017" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C66329"/>
+            <stop offset=".42" stop-color="#E08D39"/>
+            <stop offset="1" stop-color="#D6B087"/>
+        </linearGradient>
+        <clipPath id="APFC__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

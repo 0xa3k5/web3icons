@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#SNAIL__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#SNAIL__b)" d="M10.816 7.168c-1.295 0-4.861 3.107-6.482 4.66-.433 1.167.542 1.652 1.084 1.75 2.426 0 6.477-5.243 6.477-5.826 0-.465-.723-.584-1.079-.584"/>
+        <path fill="url(#SNAIL__c)" d="M9.196 7.168c-2.374.238-3.87 2.04-4.32 2.916 1.347.29 1.89-.294 2.7-1.166.65-.697 2.972-1.264 4.051-1.455a10.8 10.8 0 0 0-2.43-.295"/>
+        <path fill="#D2ADFD" d="M6.223 10.667c-1.078 0-1.347-.392-1.347-.583H5.96c.537 0 1.404-1.068 1.884-1.455 1.084-.878 2.43-1.167 3.783-1.167-1.352 1.069-4.32 3.2-5.404 3.2z"/>
+        <path fill="url(#SNAIL__d)" d="M5.413 12.996c-1.079 0-1.167-.774-1.079-1.167-.119.429-.325 1.198-.268 1.75.067.712.5 1.166 1.347 1.166 1.894 0 7.313-4.294 8.392-4.294.861 0 .97.31 1.063.506-.18-.681-.81-2.039-1.889-2.039-1.352 0-6.214 4.078-7.566 4.078"/>
+        <path fill="url(#SNAIL__e)" d="M14.058 11.828c-3.458.934-6.483 4.47-7.561 6.121a5.4 5.4 0 0 0 1.62.29c2.426 0 7.02-3.789 7.02-5.244 0-1.167-.723-1.26-1.085-1.167z"/>
+        <path fill="url(#SNAIL__f)" d="M5.413 17.95c-.645 0-.986.97-1.079 1.455 0 .583 2.431.29 2.7 0 .273-.294-.81-1.455-1.62-1.455"/>
+        <path fill="url(#SNAIL__g)" d="M13.79 10.373c-2.824.078-7.02 4.372-8.377 4.372-.537 0-1.079-.583-1.347-1.167-.269 1.167.268 2.333 1.889 2.333s5.13-2.044 7.019-3.205c1.517-.929 2.075-.583 2.167-.294l-.273-1.455c-.268-.584-.542-.6-1.084-.584z"/>
+        <path fill="url(#SNAIL__h)" d="M6.616 18.016c.242.104.841.222 2.043.222 1.9 0 4.062-.877 5.688-2.621 1.626-1.75 2.978-5.533 4.604-5.533s1.625 4.955-1.895 7.571c-1.357 1.167-3.736 1.75-5.687 1.75-1.858 0-3.87-.883-4.748-1.389z"/>
+        <path fill="url(#SNAIL__i)" d="M14.14 7.407c-.795-.465-.666-.981-.495-1.177.495-.589 1.987 0 2.735 1.47.743 1.472.248 3.237-.253 3.53-.495.295-.99-3.235-1.987-3.818z"/>
+        <path fill="url(#SNAIL__j)" d="M15.76 5.661c-.794-.474-.665-.98-.495-1.176.496-.589 1.987 0 2.736 1.47.743 1.472.247 3.237-.253 3.53-.496.295-.991-3.235-1.987-3.824"/>
+    </g>
+    <defs>
+        <linearGradient id="SNAIL__b" x1="18.88" x2="3.187" y1="4.97" y2="14.912" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3F12B7"/>
+            <stop offset="1" stop-color="#2F0FD2"/>
+        </linearGradient>
+        <linearGradient id="SNAIL__c" x1="12" x2="10.232" y1="4.259" y2="14.574" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C28EFA"/>
+            <stop offset="1" stop-color="#E6C2FF"/>
+        </linearGradient>
+        <linearGradient id="SNAIL__d" x1="17.602" x2="2.075" y1="5.028" y2="9.539" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#87CAFF"/>
+            <stop offset="1" stop-color="#5E7EF5"/>
+        </linearGradient>
+        <linearGradient id="SNAIL__e" x1="18.872" x2="3.179" y1="4.969" y2="14.912" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#004F9E"/>
+            <stop offset="1" stop-color="#02628A"/>
+        </linearGradient>
+        <linearGradient id="SNAIL__f" x1="18.875" x2="3.182" y1="4.928" y2="14.894" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#49D2E5"/>
+            <stop offset="1" stop-color="#58FCCC"/>
+        </linearGradient>
+        <linearGradient id="SNAIL__g" x1="18.829" x2="3.59" y1="5.09" y2="9.171" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#BBE9F9"/>
+            <stop offset="1" stop-color="#607EFF"/>
+        </linearGradient>
+        <linearGradient id="SNAIL__h" x1="18.745" x2="4.304" y1="5.708" y2="13.437" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D2FCD2"/>
+            <stop offset="1" stop-color="#53DBED"/>
+        </linearGradient>
+        <linearGradient id="SNAIL__i" x1="7.077" x2="13.455" y1="4.926" y2="19.935" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C4F4E4"/>
+            <stop offset="1" stop-color="#84FFBB"/>
+        </linearGradient>
+        <linearGradient id="SNAIL__j" x1="15.76" x2="18.594" y1="4.485" y2="8.474" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C4F4E4"/>
+            <stop offset="1" stop-color="#84FFBB"/>
+        </linearGradient>
+        <clipPath id="SNAIL__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

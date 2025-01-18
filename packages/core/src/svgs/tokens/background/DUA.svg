@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DUA__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#1E1E1E" d="M6.089 4a2.085 2.085 0 0 0-2.085 2.085v11.83c0 1.15.935 2.085 2.085 2.085h9.915a4 4 0 0 0 .59-7.955A4.05 4.05 0 0 0 15.959 4z"/>
+        <path fill="#86D900" d="M5.504 7.5a1.5 1.5 0 0 1 1.5-1.5h7a3 3 0 1 1 0 6 3 3 0 1 1-3 3v.25a2.75 2.75 0 0 1-5.5 0z"/>
+    </g>
+    <defs>
+        <clipPath id="DUA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

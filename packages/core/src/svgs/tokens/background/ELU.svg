@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ELU__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#8D6521" d="M20 12a8 8 0 1 1-16.001 0A8 8 0 0 1 20 12m-8 7.53a7.53 7.53 0 1 0 0-15.062 7.53 7.53 0 0 0 0 15.062"/>
+        <path fill="#D8B343" d="M19.15 12a7.15 7.15 0 1 1-14.299 0 7.15 7.15 0 0 1 14.3 0"/>
+        <path fill="#FFEC62" d="M19.65 12a7.65 7.65 0 1 1-15.3 0 7.65 7.65 0 0 1 15.3 0M12 19.15a7.15 7.15 0 1 0 0-14.302 7.15 7.15 0 0 0 0 14.302"/>
+        <path fill="#FCDB5F" d="m8.145 18.025 7.33-12.275c.515.285.995.635 1.42 1.04l-7.16 11.995c-.565-.19-1.1-.45-1.59-.76M18.41 8.82l-1.78 3.03-1.045-.61 2.1-3.575c.28.36.52.75.725 1.155"/>
+        <path fill="#BB8B25" d="M19.15 12.245c-.02.505-.09 1-.205 1.47-.6.495-1.32 1.295-1.95 2-.325.365-.625.705-.88.965.905-1.7 2.215-3.44 3.035-4.435"/>
+        <path fill="#ECCE46" d="M10.57 4.99c-.725.86-1.445 2.25-1.54 4.245l-1.51 3.02c-.49-.95-.985-3.3.24-6.015a7.1 7.1 0 0 1 2.81-1.25"/>
+        <path fill="#FADA5E" d="M12.65 4.875c.58.055 1.145.175 1.675.36l-1.585 3.66-.725-1.265.635-2.75z"/>
+        <path fill="#8D6521" fill-rule="evenodd" d="M12 17.76a5.76 5.76 0 1 0 0-11.52 5.76 5.76 0 0 0 0 11.52m0 .15a5.91 5.91 0 1 0 0-11.82 5.91 5.91 0 0 0 0 11.82" clip-rule="evenodd"/>
+        <path fill="#8D6521" fill-rule="evenodd" d="M12 16.871a4.87 4.87 0 1 0 0-9.738 4.87 4.87 0 0 0 0 9.738m0 .15a5.019 5.019 0 1 0 0-10.037 5.019 5.019 0 0 0 0 10.037" clip-rule="evenodd"/>
+        <path fill="#B88829" d="M16.505 12a4.507 4.507 0 0 1-4.502 4.656A4.506 4.506 0 0 1 7.5 12a4.505 4.505 0 0 1 9 0z"/>
+        <path fill="#8D6521" fill-rule="evenodd" d="M12 16.356a4.355 4.355 0 1 0 0-8.71 4.355 4.355 0 0 0 0 8.71m0 .15A4.506 4.506 0 1 0 12 7.5a4.505 4.505 0 0 0 0 9z" clip-rule="evenodd"/>
+        <path fill="#FCDB5F" d="m14.1 18.84.875-1.73c.635-.375 1.2-.86 1.65-1.435l-1.365 2.69q-.556.286-1.165.475z"/>
+        <path fill="url(#ELU__b)" d="m10.26 13.47 1.78 2.795a90 90 0 0 0 1.16-1.255c.14-.165.195-.32.2-.38 1-2 .585-3.8-.63-7.675l-.73-1.43-.78 1.335c-.66 2-.94 5.24-1 6.61"/>
+        <path fill="#341902" d="m12.045 5.365.795 1.56v.005c1.21 3.86 1.645 5.7.635 7.725a.9.9 0 0 1-.215.4c-.145.165-.835.91-1.165 1.26l-.065.07-1.85-2.895v-.02c.065-1.375.345-4.625 1.005-6.635V6.83zm-.72 1.525c-.65 1.975-.93 5.18-.99 6.56l1.715 2.69c.35-.37.965-1.03 1.095-1.18s.18-.3.185-.34v-.01l.005-.01c.985-1.965.58-3.745-.635-7.62l-.665-1.3z"/>
+        <path fill="#FFFFE6" d="m11.88 7.32.28-1.31.49 1.05-.365 1.85z"/>
+        <path fill="#FFF894" d="m11.88 7.32.28-1.31.49 1.05z"/>
+        <path fill="#E7C233" d="m11.595 10.22.69-1.334-.395-1.55-.5-.275-.51 2.5z"/>
+        <path fill="url(#ELU__c)" d="m11.57 10.57-.665-.8-.39 2.39s.12.22.324.165c.2-.054.33-.175.366-.23z"/>
+        <path fill="url(#ELU__d)" d="m11.675 10.515.635-1.525.9 1.255-.725 1.54z"/>
+        <path fill="url(#ELU__e)" d="m13.415 10.34-.835 1.73c-.05.11.025.18.07.2.35.086.92.4 1.16.54.13-.994-.21-2.06-.395-2.47"/>
+        <path fill="url(#ELU__f)" d="m12.365 11.961-.73-1.05-.39 1.25.69.935c.1-.16.32-.515.43-.675.105-.165.045-.375 0-.46"/>
+        <path fill="url(#ELU__g)" d="m12.46 12.517-.57.86c-.04.26.385.98.61 1.284l.565.01-.605.07c-.12.25-.315.7-.395.85a.52.52 0 0 0 0 .43c.32-.344.995-1.08 1.12-1.25.22-.295.54-1.665.45-1.745-.1-.08-.37-.3-.665-.51-.29-.22-.46-.09-.51 0"/>
+        <path fill="url(#ELU__h)" d="M10.585 12.659c-.24.2-.235.615-.2.8l1.48 2.33.485-1.185-1.25-2.215c-.075.01-.28.075-.515.27"/>
+        <path fill="url(#ELU__i)" d="m12.38 8.935 1.025 1.245c0-1.015-.44-2.23-.715-3.01z"/>
+        <path fill="#FFDA55" d="m11.84 7.21-.42-.2.66-1.19z"/>
+        <path fill="url(#ELU__j)" d="m14.085 11.754.27 1.475.7-.33c.085-.04.135-.1.15-.12.76-.665.89-1.495 1.045-3.325l-.06-.72-.555.425a13.4 13.4 0 0 0-1.55 2.6z"/>
+        <path fill="#341902" d="m16.25 8.59.075.866v.01c-.15 1.815-.285 2.675-1.065 3.365a.5.5 0 0 1-.17.14l-.7.325-.09.045-.29-1.595.01-.02a13.5 13.5 0 0 1 1.555-2.615l.005-.005.675-.515zm-.565.626a13.3 13.3 0 0 0-1.52 2.55l.25 1.355.605-.285a.3.3 0 0 0 .12-.095l.005-.01.01-.01c.73-.64.865-1.435 1.02-3.265l-.05-.58z"/>
+        <path fill="#FFFFE6" d="m15.815 9.455.34-.5.025.525-.47.71z"/>
+        <path fill="#FFF894" d="m15.815 9.455.34-.5.025.525z"/>
+        <path fill="#E7C233" d="m15.2 10.624.515-.445.1-.715-.16-.2-.64.96z"/>
+        <path fill="url(#ELU__k)" d="m15.13 10.764-.14-.45-.575.935s.015.11.11.125a.3.3 0 0 0 .19-.035z"/>
+        <path fill="url(#ELU__l)" d="m15.185 10.761.525-.53.165.68-.57.52z"/>
+        <path fill="url(#ELU__m)" d="m15.945 10.986-.65.58c-.04.035-.02.08 0 .1.13.095.315.32.39.42.225-.395.265-.9.26-1.1"/>
+        <path fill="url(#ELU__n)" d="m15.225 11.485-.125-.565-.38.455.13.51.3-.21c.07-.05.08-.15.075-.19"/>
+        <path fill="url(#ELU__o)" d="m15.17 11.73-.385.265c-.06.1-.005.475.035.64l.235.1-.265-.07-.31.285a.24.24 0 0 0-.075.18c.195-.09.6-.28.685-.33.205-.18.37-.402.485-.65l-.19-.33c-.085-.14-.18-.12-.215-.09"/>
+        <path fill="url(#ELU__p)" d="M14.36 11.47c-.135.045-.2.22-.22.3l.22 1.23.41-.41-.15-1.145a.54.54 0 0 0-.26.025"/>
+        <path fill="url(#ELU__q)" d="m15.75 10.221.215.695c.175-.425.2-1.01.215-1.38l-.435.685z"/>
+        <path fill="#FFDA55" d="m15.815 9.4-.14-.15.48-.385-.34.54z"/>
+        <path fill="url(#ELU__r)" d="m15.065 13.7-.07 2.11 1.035-.305a.6.6 0 0 0 .235-.144c1.205-.766 1.625-1.89 2.355-4.4l.13-1.025-.866.475c-1.034.88-2.31 2.56-2.82 3.295z"/>
+        <path fill="#341902" d="m18.84 9.8-.146 1.17v.005c-.73 2.505-1.155 3.66-2.385 4.445-.04.04-.13.11-.26.15-.13.05-.744.23-1.03.315l-.1.025.07-2.23.01-.02c.51-.73 1.795-2.42 2.835-3.305l.005-.005zm-.916.675c-1.015.865-2.27 2.515-2.785 3.25l-.065 1.985c.315-.09.815-.24.93-.28a.5.5 0 0 0 .2-.115l.01-.01.01-.005c1.175-.75 1.59-1.845 2.325-4.36l.105-.865z"/>
+        <path fill="#FFFFE6" d="m18.04 10.865.6-.625-.12.735-.83.895z"/>
+        <path fill="#FFF894" d="m18.04 10.865.6-.625-.12.735z"/>
+        <path fill="#E7C233" d="m16.88 12.36.82-.505.34-.98-.16-.31-1.13 1.2z"/>
+        <path fill="url(#ELU__s)" d="m16.745 12.545-.06-.65-1.035 1.175s-.015.155.11.195a.4.4 0 0 0 .265-.005z"/>
+        <path fill="url(#ELU__t)" d="m16.82 12.55.855-.63.025.98-.91.605z"/>
+        <path fill="url(#ELU__u)" d="m17.77 13.02-1.03.67a.1.1 0 0 0-.04.135c.15.166.334.516.404.675a3.55 3.55 0 0 0 .665-1.48"/>
+        <path fill="url(#ELU__v)" d="m16.665 12.75-.64.56.025.73.455-.225c.11-.055.15-.19.16-.25z"/>
+        <path fill="url(#ELU__w)" d="m16.52 13.9-.59.284c-.11.126-.15.66-.14.9l.285.19-.335-.16-.495.335a.35.35 0 0 0-.15.236c.285-.085.885-.266 1.01-.32a3 3 0 0 0 .835-.806l-.155-.5c-.075-.21-.205-.2-.265-.164z"/>
+        <path fill="url(#ELU__x)" d="M15.51 13.364c-.186.03-.33.26-.38.37l-.056 1.76.66-.49.135-1.62a.7.7 0 0 0-.36-.02"/>
+        <path fill="url(#ELU__y)" d="m17.73 11.915.09 1.01c.35-.55.55-1.36.684-1.875z"/>
+        <path fill="#FFDA55" d="m18.055 10.796-.14-.25.75-.435z"/>
+        <path fill="url(#ELU__z)" d="m8.92 13.7.064 2.11-1.03-.305a.6.6 0 0 1-.235-.144c-1.205-.766-1.625-1.89-2.355-4.4l-.13-1.025.865.475c1.035.88 2.31 2.56 2.82 3.295z"/>
+        <path fill="#341902" d="m5.146 9.8.144 1.17v.005c.73 2.505 1.15 3.66 2.386 4.445.04.04.13.11.26.15.13.05.74.23 1.03.315l.1.025-.07-2.23-.016-.02c-.505-.73-1.79-2.42-2.83-3.305l-.005-.005zm.915.675c1.014.865 2.27 2.515 2.784 3.25l.065 1.985c-.315-.09-.815-.24-.93-.28a.5.5 0 0 1-.2-.115l-.01-.01-.01-.005c-1.175-.75-1.59-1.845-2.324-4.36l-.106-.865z"/>
+        <path fill="#FFFFE6" d="m5.945 10.865-.6-.625.12.735.83.895z"/>
+        <path fill="#FFF894" d="m5.945 10.865-.6-.625.12.735z"/>
+        <path fill="#E7C233" d="m7.1 12.36-.816-.505-.34-.98.16-.31 1.13 1.2-.13.594z"/>
+        <path fill="url(#ELU__A)" d="m7.24 12.545.06-.65 1.035 1.175s.01.155-.11.195a.4.4 0 0 1-.265-.005z"/>
+        <path fill="url(#ELU__B)" d="m7.165 12.55-.855-.63-.025.98.91.605z"/>
+        <path fill="url(#ELU__C)" d="m6.215 13.02 1.03.67c.07.046.05.11.035.135a3.2 3.2 0 0 0-.4.675 3.55 3.55 0 0 1-.665-1.48"/>
+        <path fill="url(#ELU__D)" d="m7.32 12.75.64.56-.026.73-.455-.225c-.115-.055-.15-.19-.16-.25z"/>
+        <path fill="url(#ELU__E)" d="m7.464 13.9.59.284c.11.126.15.66.135.9l-.28.19.33-.16.5.335c.1.066.14.185.15.236a20 20 0 0 1-1.01-.32 3 3 0 0 1-.835-.806l.155-.5c.075-.21.205-.2.265-.164z"/>
+        <path fill="url(#ELU__F)" d="M8.475 13.366c.185.03.33.26.38.37l.055 1.76-.66-.49-.135-1.62c.04-.02.17-.05.36-.02"/>
+        <path fill="url(#ELU__G)" d="m6.255 11.915-.09 1.01c-.35-.55-.55-1.36-.686-1.875z"/>
+        <path fill="#FFDA55" d="m5.93 10.796.14-.25-.75-.435z"/>
+        <path fill="url(#ELU__H)" d="m9.915 11.754-.27 1.475-.7-.33a.4.4 0 0 1-.15-.12c-.755-.665-.89-1.495-1.045-3.325l.06-.72.56.425a13.4 13.4 0 0 1 1.55 2.6z"/>
+        <path fill="#341902" d="m7.75 8.59-.076.866v.01c.15 1.815.285 2.675 1.065 3.365a.5.5 0 0 0 .175.14c.085.045.5.235.7.325l.09.045.29-1.595-.01-.02a13.5 13.5 0 0 0-1.56-2.615l-.005-.005zm.564.626a13.3 13.3 0 0 1 1.52 2.55L9.59 13.12l-.61-.285a.3.3 0 0 1-.12-.095v-.01l-.015-.01c-.73-.64-.865-1.435-1.02-3.265l.05-.58z"/>
+        <path fill="#FFFFE6" d="m8.185 9.455-.34-.5-.025.525.47.71-.1-.735z"/>
+        <path fill="#FFF894" d="m8.185 9.455-.34-.5-.025.525z"/>
+        <path fill="#E7C233" d="m8.8 10.624-.515-.445-.1-.715.16-.2.64.96z"/>
+        <path fill="url(#ELU__I)" d="m8.87 10.764.145-.45.57.935s-.015.11-.11.125a.3.3 0 0 1-.19-.035z"/>
+        <path fill="url(#ELU__J)" d="m8.815 10.761-.525-.53-.165.68.57.52z"/>
+        <path fill="url(#ELU__K)" d="m8.06 10.986.645.58c.04.035.02.08.005.1-.135.095-.32.32-.395.42a2.3 2.3 0 0 1-.255-1.1"/>
+        <path fill="url(#ELU__L)" d="m8.775 11.485.125-.565.38.455-.13.51-.3-.21c-.07-.05-.08-.15-.075-.19"/>
+        <path fill="url(#ELU__M)" d="m8.83 11.73.385.265c.06.1.01.475-.035.64l-.235.1.265-.07c.1.085.25.235.31.285a.26.26 0 0 1 .075.18q-.347-.157-.685-.33a1.95 1.95 0 0 1-.485-.65l.19-.33c.085-.14.18-.12.215-.09"/>
+        <path fill="url(#ELU__N)" d="M9.64 11.47c.135.045.2.22.22.3L9.64 13l-.405-.41.15-1.145a.6.6 0 0 1 .255.025"/>
+        <path fill="url(#ELU__O)" d="m8.25 10.221-.215.695c-.17-.425-.195-1.01-.215-1.38l.435.685z"/>
+        <path fill="#FFDA55" d="m8.185 9.4.14-.15-.48-.385.34.54z"/>
+        <path fill="url(#ELU__P)" d="M11.015 17.505a2.18 2.18 0 0 0 1.025 1.78c.31-.27 1.12-1.185 1.12-1.685 0-.325-.8-.81-1.12-.9a2.7 2.7 0 0 0-1.025.8z"/>
+        <path fill="#341902" d="m12.04 16.615.02.01c.39.139.742.365 1.03.66.08.1.15.205.15.315 0 .14-.06.305-.145.47-.27.473-.608.903-1.005 1.275l-.04.035-.05-.03a2.25 2.25 0 0 1-1.06-1.85v-.02l.015-.015c.105-.16.29-.34.485-.495.2-.15.41-.285.575-.345zm0 .16c-.14.05-.325.17-.505.315-.18.14-.35.3-.445.44 0 .84.6 1.44.94 1.665A5.5 5.5 0 0 0 12.96 18a.9.9 0 0 0 .125-.4c0-.05-.035-.125-.11-.215a2.7 2.7 0 0 0-.93-.61z"/>
+        <path fill="url(#ELU__Q)" d="M12.025 16.815c-.4.204-.75.575-.875.73 0 .584.415 1.124.62 1.324l.39-.404-.685-.756c.26-.24.72-.57.915-.7z"/>
+        <path fill="url(#ELU__R)" d="m12.19 17.665-.39.285-.25-.23.33-.27z"/>
+        <path fill="url(#ELU__S)" d="m12.405 17.05-.45.4c.305.185.67.535.815.69.53-.56-.025-.965-.365-1.095z"/>
+        <path fill="url(#ELU__T)" d="m12.27 17.8-.35.23.35.405-.43.485.2.19a2.6 2.6 0 0 0 .675-.93z"/>
+    </g>
+    <defs>
+        <linearGradient id="ELU__b" x1="11.998" x2="11.998" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FEE481"/>
+            <stop offset=".4" stop-color="#FFFFBD"/>
+            <stop offset=".68" stop-color="#FFF88A"/>
+            <stop offset="1" stop-color="#F1E675"/>
+        </linearGradient>
+        <linearGradient id="ELU__c" x1="11.962" x2="10.566" y1="4.032" y2="20.502" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C18B00"/>
+            <stop offset="1" stop-color="#936200"/>
+        </linearGradient>
+        <linearGradient id="ELU__d" x1="12.026" x2="12.026" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFF5D0"/>
+            <stop offset=".45" stop-color="#FFE373"/>
+            <stop offset="1" stop-color="#FFE78A"/>
+        </linearGradient>
+        <linearGradient id="ELU__e" x1="8.975" x2="11.738" y1="9.507" y2="21.464" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DAA400"/>
+            <stop offset="1" stop-color="#BC8600"/>
+        </linearGradient>
+        <linearGradient id="ELU__f" x1="14.251" x2="11.95" y1="8.322" y2="16.854" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D49B00"/>
+            <stop offset="1" stop-color="#FBC928"/>
+        </linearGradient>
+        <linearGradient id="ELU__g" x1="12.01" x2="12.01" y1="4.006" y2="20.001" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9D6900"/>
+            <stop offset="1" stop-color="#7F4F00"/>
+        </linearGradient>
+        <linearGradient id="ELU__h" x1="12.01" x2="12.01" y1="3.999" y2="19.999" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#905E00"/>
+            <stop offset="1" stop-color="#BC9021"/>
+        </linearGradient>
+        <linearGradient id="ELU__i" x1="8.371" x2="9.469" y1="5.063" y2="19.183" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFDB5B"/>
+            <stop offset="1" stop-color="#FFDF6A"/>
+        </linearGradient>
+        <linearGradient id="ELU__j" x1="19.778" x2="16.245" y1="4.035" y2="22.007" gradientUnits="userSpaceOnUse">
+            <stop offset=".4" stop-color="#FFFFBD"/>
+            <stop offset=".68" stop-color="#FFF88A"/>
+        </linearGradient>
+        <linearGradient id="ELU__k" x1="18.098" x2="10.12" y1="4.376" y2="22.126" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C18B00"/>
+            <stop offset="1" stop-color="#936200"/>
+        </linearGradient>
+        <linearGradient id="ELU__l" x1="17.449" x2="13.427" y1="4.335" y2="21.567" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFF5D0"/>
+            <stop offset=".45" stop-color="#FFE373"/>
+            <stop offset="1" stop-color="#FFE78A"/>
+        </linearGradient>
+        <linearGradient id="ELU__m" x1="11.913" x2="12.181" y1="8.001" y2="19.721" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DAA400"/>
+            <stop offset="1" stop-color="#BC8600"/>
+        </linearGradient>
+        <linearGradient id="ELU__n" x1="17.594" x2="11.962" y1="9.14" y2="18.465" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D49B00"/>
+            <stop offset="1" stop-color="#FBC928"/>
+        </linearGradient>
+        <linearGradient id="ELU__o" x1="16.513" x2="10.491" y1="4.3" y2="22.177" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9D6900"/>
+            <stop offset="1" stop-color="#7F4F00"/>
+        </linearGradient>
+        <linearGradient id="ELU__p" x1="18.984" x2="16.26" y1="4.523" y2="21.102" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#905E00"/>
+            <stop offset="1" stop-color="#BC9021"/>
+        </linearGradient>
+        <linearGradient id="ELU__q" x1="18.345" x2="17.634" y1="4.929" y2="18.702" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFDB5B"/>
+            <stop offset="1" stop-color="#FFDF6A"/>
+        </linearGradient>
+        <linearGradient id="ELU__r" x1="20.149" x2="12.273" y1="4.069" y2="23.374" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FEE481"/>
+            <stop offset=".4" stop-color="#FFFFBD"/>
+            <stop offset=".68" stop-color="#FFF88A"/>
+        </linearGradient>
+        <linearGradient id="ELU__s" x1="20.146" x2="6.829" y1="4.461" y2="21.358" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C18B00"/>
+            <stop offset="1" stop-color="#936200"/>
+        </linearGradient>
+        <linearGradient id="ELU__t" x1="20.791" x2="13.784" y1="4.454" y2="23.607" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFF5D0"/>
+            <stop offset=".45" stop-color="#FFE373"/>
+            <stop offset="1" stop-color="#FFE78A"/>
+        </linearGradient>
+        <linearGradient id="ELU__u" x1="12.162" x2="11.088" y1="7.406" y2="19.703" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DAA400"/>
+            <stop offset="1" stop-color="#BC8600"/>
+        </linearGradient>
+        <linearGradient id="ELU__v" x1="19.375" x2="10.266" y1="9.519" y2="19.655" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D49B00"/>
+            <stop offset="1" stop-color="#FBC928"/>
+        </linearGradient>
+        <linearGradient id="ELU__w" x1="18.092" x2="6.816" y1="4.482" y2="21.835" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9D6900"/>
+            <stop offset="1" stop-color="#7F4F00"/>
+        </linearGradient>
+        <linearGradient id="ELU__x" x1="22.616" x2="18.252" y1="4.892" y2="23.37" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#905E00"/>
+            <stop offset="1" stop-color="#BC9021"/>
+        </linearGradient>
+        <linearGradient id="ELU__y" x1="18.245" x2="16.163" y1="4.853" y2="19.732" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFDB5B"/>
+            <stop offset="1" stop-color="#FFDF6A"/>
+        </linearGradient>
+        <linearGradient id="ELU__z" x1="3.85" x2="11.719" y1="4.069" y2="23.381" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FEE481"/>
+            <stop offset=".4" stop-color="#FFFFBD"/>
+            <stop offset=".68" stop-color="#FFF88A"/>
+        </linearGradient>
+        <linearGradient id="ELU__A" x1="3.854" x2="17.169" y1="4.461" y2="21.363" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C18B00"/>
+            <stop offset="1" stop-color="#936200"/>
+        </linearGradient>
+        <linearGradient id="ELU__B" x1="3.209" x2="10.216" y1="4.454" y2="23.607" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFF5D0"/>
+            <stop offset=".45" stop-color="#FFE373"/>
+            <stop offset="1" stop-color="#FFE78A"/>
+        </linearGradient>
+        <linearGradient id="ELU__C" x1="11.854" x2="12.926" y1="7.406" y2="19.703" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DAA400"/>
+            <stop offset="1" stop-color="#BC8600"/>
+        </linearGradient>
+        <linearGradient id="ELU__D" x1="4.624" x2="13.614" y1="9.519" y2="19.603" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D49B00"/>
+            <stop offset="1" stop-color="#FBC928"/>
+        </linearGradient>
+        <linearGradient id="ELU__E" x1="5.907" x2="17.183" y1="4.482" y2="21.835" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9D6900"/>
+            <stop offset="1" stop-color="#7F4F00"/>
+        </linearGradient>
+        <linearGradient id="ELU__F" x1="1.383" x2="5.755" y1="4.88" y2="23.373" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#905E00"/>
+            <stop offset="1" stop-color="#BC9021"/>
+        </linearGradient>
+        <linearGradient id="ELU__G" x1="5.754" x2="7.837" y1="4.853" y2="19.732" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFDB5B"/>
+            <stop offset="1" stop-color="#FFDF6A"/>
+        </linearGradient>
+        <linearGradient id="ELU__H" x1="4.221" x2="7.774" y1="4.035" y2="22.014" gradientUnits="userSpaceOnUse">
+            <stop offset=".4" stop-color="#FFFFBD"/>
+            <stop offset=".68" stop-color="#FFF88A"/>
+        </linearGradient>
+        <linearGradient id="ELU__I" x1="5.902" x2="13.88" y1="4.376" y2="22.126" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C18B00"/>
+            <stop offset="1" stop-color="#936200"/>
+        </linearGradient>
+        <linearGradient id="ELU__J" x1="6.551" x2="10.573" y1="4.335" y2="21.567" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFF5D0"/>
+            <stop offset=".45" stop-color="#FFE373"/>
+            <stop offset="1" stop-color="#FFE78A"/>
+        </linearGradient>
+        <linearGradient id="ELU__K" x1="12.022" x2="11.801" y1="8.001" y2="19.718" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DAA400"/>
+            <stop offset="1" stop-color="#BC8600"/>
+        </linearGradient>
+        <linearGradient id="ELU__L" x1="6.405" x2="12.037" y1="9.14" y2="18.465" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D49B00"/>
+            <stop offset="1" stop-color="#FBC928"/>
+        </linearGradient>
+        <linearGradient id="ELU__M" x1="7.487" x2="13.508" y1="4.3" y2="22.178" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9D6900"/>
+            <stop offset="1" stop-color="#7F4F00"/>
+        </linearGradient>
+        <linearGradient id="ELU__N" x1="4.896" x2="7.603" y1="4.512" y2="21.108" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#905E00"/>
+            <stop offset="1" stop-color="#BC9021"/>
+        </linearGradient>
+        <linearGradient id="ELU__O" x1="5.839" x2="6.551" y1="4.929" y2="18.702" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFDB5B"/>
+            <stop offset="1" stop-color="#FFDF6A"/>
+        </linearGradient>
+        <linearGradient id="ELU__P" x1="12.018" x2="12.018" y1="3.969" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F2DE68"/>
+            <stop offset="1" stop-color="#FFFFD2"/>
+        </linearGradient>
+        <linearGradient id="ELU__Q" x1="12" x2="12" y1="3.999" y2="19.999" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#A66F00"/>
+            <stop offset=".46" stop-color="#581F00"/>
+            <stop offset="1" stop-color="#D19900"/>
+        </linearGradient>
+        <linearGradient id="ELU__R" x1="20" x2="3.5" y1="11.84" y2="11.84" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C68200"/>
+            <stop offset="1" stop-color="#EDB400"/>
+        </linearGradient>
+        <linearGradient id="ELU__S" x1="6.552" x2="13.508" y1="6.411" y2="13.31" gradientUnits="userSpaceOnUse">
+            <stop offset=".51" stop-color="#865300"/>
+            <stop offset="1" stop-color="#CA9000"/>
+        </linearGradient>
+        <linearGradient id="ELU__T" x1="12.275" x2="12.275" y1="17.8" y2="19.11" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F7C116"/>
+            <stop offset="1" stop-color="#FFD53C"/>
+        </linearGradient>
+        <clipPath id="ELU__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

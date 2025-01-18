@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <g clip-path="url(#LIF3__a)">
+        <path fill="url(#LIF3__b)" d="M24.5 0H.5v24h24z"/>
+        <path fill="#fff" d="M11.08 5.465A1.51 1.51 0 0 1 12.5 4.5c.63 0 1.2.385 1.42.965L18.7 17.5h1.8v2H17l-4.5-12-4.5 12H4.5v-2h1.8z"/>
+    </g>
+    <defs>
+        <linearGradient id="LIF3__b" x1="7.5" x2="16.843" y1="5.839" y2="18.612" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#749FC1"/>
+            <stop offset=".49" stop-color="#294874"/>
+        </linearGradient>
+        <clipPath id="LIF3__a">
+            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#GEEQ__a)">
+        <path fill="#254280" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.5 4.5h-1V8h1zm0 11.5h-1v3.5h1z"/>
+        <path fill="#fff" d="M12 20a8 8 0 0 0 6.82-12.185l-.753.692a7 7 0 1 1-.567-.837l.738-.679A7.99 7.99 0 0 0 12 4a8 8 0 0 0-8 8 8 8 0 0 0 8 8"/>
+        <path fill="#fff" d="m17.69 8.855-.762.701a5.5 5.5 0 1 1-.536-.866l.739-.68a6.49 6.49 0 0 0-5.132-2.51 6.5 6.5 0 1 0 5.69 3.355"/>
+        <path fill="#fff" d="M12 7.5a4.5 4.5 0 0 1 3.653 1.871l-.743.684A3.5 3.5 0 1 0 15.355 13H12.5v-1h3q-.002-.52-.144-.996l.799-.735A4.5 4.5 0 1 1 12 7.5"/>
+    </g>
+    <defs>
+        <clipPath id="GEEQ__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

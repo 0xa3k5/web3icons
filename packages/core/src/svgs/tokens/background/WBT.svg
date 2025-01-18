@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#WBT__a)">
+        <path fill="url(#WBT__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M17.657 17.657A8 8 0 1 1 6.343 6.342a8 8 0 0 1 11.314 11.315m-5.284-8.038a.97.97 0 0 1 .4.312h-.005l1.225 1.602 2.498-6.153c.57.387 1.087.847 1.54 1.366l-2.883 7.105a.97.97 0 0 1-1.673.217l-1.22-1.602-1.607 3.953a.97.97 0 0 1-.852.608h-.048a.97.97 0 0 1-.857-.518l-2.252-4.255a.972.972 0 0 1 1.72-.905l1.276 2.408 1.46-3.604a.97.97 0 0 1 1.278-.534" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="WBT__b" x1="3.995" x2="20" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E9C570"/>
+            <stop offset="1" stop-color="#F7B839"/>
+        </linearGradient>
+        <clipPath id="WBT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#XCAD__a)">
+        <path fill="url(#XCAD__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m9.925 11.547-2.97-6.15h4.299l1.513 3.602h.037l2.767-3.603H20l-5.328 6.41 3.159 6.797h-4.448l-1.626-4.138h-.037l-3.16 4.138H4z"/>
+    </g>
+    <defs>
+        <linearGradient id="XCAD__b" x1="11.999" x2="11.999" y1="18.604" y2="5.396" gradientUnits="userSpaceOnUse">
+            <stop offset=".015" stop-color="#FD6422"/>
+            <stop offset=".26" stop-color="#FC194A"/>
+            <stop offset=".605" stop-color="#FC125F"/>
+            <stop offset="1" stop-color="#9B2AA6"/>
+        </linearGradient>
+        <clipPath id="XCAD__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

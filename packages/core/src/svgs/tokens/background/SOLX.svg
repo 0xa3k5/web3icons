@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#SOLX__a)">
+        <path fill="url(#SOLX__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M17.66 9H14c0-1.32-1.38-1.95-2-2-.705-.035-2 .385-2 1.615 0 1.535.54 1.26 4.455 2.01 3.135.6 4 3.005 4.04 4.135.1 1.75-1.04 5.24-6.4 5.24-5.355 0-6.63-3.295-6.595-5h3.88c-.05 1.74 2.12 2 2.715 2 .6 0 2.405-.35 2.405-1.865s-1.485-1.44-2.065-1.48c-.46-.03-1.15-.115-1.435-.155-3.9-.515-4.995-3.18-4.995-4.525C6.005 7.625 6.15 4 12 4c4.68 0 5.72 3.34 5.66 5"/>
+    </g>
+    <defs>
+        <linearGradient id="SOLX__b" x1="19.485" x2="5.98" y1="9.415" y2="15.895" gradientUnits="userSpaceOnUse">
+            <stop offset=".03" stop-color="#E604B7"/>
+            <stop offset=".61" stop-color="#483EFF"/>
+            <stop offset="1" stop-color="#20BDFC"/>
+        </linearGradient>
+        <clipPath id="SOLX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

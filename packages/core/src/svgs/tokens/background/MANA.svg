@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#MANA__a)">
+        <path fill="#FFC95B" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M9.516 7.434v6.849h5.9zM4 14.283h5.516v-6.85zm2.89 3.995a9.5 9.5 0 0 0 5.48 1.713 9.5 9.5 0 0 0 5.48-1.713z"/>
+        <path fill="#fff" d="M4 14.283a8.4 8.4 0 0 0 1.064 1.713h10.43v-1.713zM15.813 12v5.137H20z"/>
+        <path fill="#fff" d="M11.63 17.137h4.182V12zm4.183-7.192a2.283 2.283 0 1 0 0-4.566 2.283 2.283 0 0 0 0 4.566M9.516 6.292a1.141 1.141 0 1 0 0-2.283 1.141 1.141 0 0 0 0 2.283"/>
+    </g>
+    <defs>
+        <clipPath id="MANA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

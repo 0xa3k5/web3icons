@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#THOR__a)">
+        <path fill="url(#THOR__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0m-8 7.53a7.53 7.53 0 1 0 0-15.06 7.53 7.53 0 0 0 0 15.06"/>
+        <path fill="#fff" d="m10.475 9.18 1.732 1.675L16.05 6.76l-5.576 2.414zm6.428-3.3.273.368-4.955 5.28-2.575-2.494zm-2.88 8.03-1.774-1.698-4.607 4.78zm-7.2 3.972-.263-.376 5.675-5.977 2.588 2.532z"/>
+    </g>
+    <defs>
+        <linearGradient id="THOR__b" x1="17.412" x2="7.294" y1="5.882" y2="17.882" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#37FAF9"/>
+            <stop offset="1" stop-color="#08ACFC"/>
+        </linearGradient>
+        <clipPath id="THOR__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

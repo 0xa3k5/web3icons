@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#AQUA__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#AQUA__b)" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16"/>
+    </g>
+    <defs>
+        <linearGradient id="AQUA__b" x1="7.75" x2="16" y1="5.75" y2="18.5" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#55B6FF"/>
+            <stop offset=".2" stop-color="#4377EC"/>
+            <stop offset=".43" stop-color="#2B2CAE"/>
+            <stop offset="1" stop-color="#1F123E"/>
+        </linearGradient>
+        <clipPath id="AQUA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

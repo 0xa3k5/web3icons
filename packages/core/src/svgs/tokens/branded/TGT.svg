@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#TGT__a)" d="M12.919 11.637 8.012 7.162 21.687 2zm4.912 4.482L2.313 22l10.606-10.363z"/>
+    <path fill="url(#TGT__a)" d="M12.735 11.71 8.81 8.13 19.75 4zm3.93 3.585L4.25 20l8.485-8.29z"/>
     <defs>
-        <linearGradient id="TGT__a" x1="2.313" x2="21.687" y1="22" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TGT__a" x1="4.25" x2="19.75" y1="20" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0CF"/>
             <stop offset="1" stop-color="#3F9"/>
         </linearGradient>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#CFX__a)" d="m12.01 2 8.411 8.063-.016 3.858-8.431-8.084-8.369 8.026-.026-3.779zm0 16.263 4.369-4.184 1.937 1.858L11.99 22l-6.306-6.042 6.327-6.063 1.937 1.858-4.364 4.184 2.432 2.326z"/>
+    <path fill="url(#CFX__a)" d="m12.009 4 6.728 6.45-.013 3.087-6.745-6.468-6.695 6.422-.02-3.024zm0 13.01 3.494-3.347 1.55 1.486L11.992 20l-5.045-4.834 5.062-4.85 1.549 1.486-3.49 3.347 1.945 1.862z"/>
     <defs>
-        <linearGradient id="CFX__a" x1="20.421" x2="2.062" y1="18.2" y2="8.46" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CFX__a" x1="18.737" x2="4.049" y1="16.96" y2="9.168" gradientUnits="userSpaceOnUse">
             <stop stop-color="#13C77F"/>
             <stop offset="1" stop-color="#295DB2"/>
         </linearGradient>

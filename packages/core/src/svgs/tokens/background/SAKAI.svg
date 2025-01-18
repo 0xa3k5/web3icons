@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#SAKAI__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#348AA7" d="M8.444 10V6L4.89 8z"/>
+        <path fill="#55CF98" d="m12 8-3.556 2v4L12 16z"/>
+        <path fill="#1A6882" d="m4.889 8 3.555 2v4L4.89 16z"/>
+        <path fill="#76E8B5" d="M8.444 6 12 8l-3.556 2z"/>
+        <path fill="#12556B" d="m4.889 16 3.555-2L12 16v4z"/>
+        <path fill="#BCE784" d="M15.556 6 12 8 8.444 6 12 4z"/>
+        <path fill="#48B081" d="m12 8 3.556 2v4L12 16z"/>
+        <path fill="#1A6882" d="m19.111 8-3.555 2v4l3.555 2z"/>
+        <path fill="#57C795" d="M15.556 6 12 8l3.556 2z"/>
+        <path fill="#0D3E4F" d="m19.111 16-3.555-2L12 16v4z"/>
+        <path fill="#348AA7" d="M15.556 10V6l3.555 2z"/>
+    </g>
+    <defs>
+        <clipPath id="SAKAI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

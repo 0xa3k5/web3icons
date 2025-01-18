@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#PIXEL__a)" d="M7.334 16.667h5.333V22H7.334z"/>
-    <path fill="url(#PIXEL__b)" d="M12.667 2h2.087C18.754 2 22 5.247 22 9.253c0 4-3.247 7.414-7.253 7.414H7.334v-10h5.333v4.667h2.087c1.313 0 2.58-1.02 2.58-2.334 0-1.313-1.267-2.333-2.587-2.333h-2.08z"/>
-    <path fill="url(#PIXEL__c)" d="M2 11.334h5.333v5.333H2z"/>
-    <path fill="url(#PIXEL__d)" d="M7.334 11.334h5.333v5.333H7.334z"/>
+    <path fill="url(#PIXEL__a)" d="M8.267 15.733h4.266V20H8.267z"/>
+    <path fill="url(#PIXEL__b)" d="M12.533 4h1.67A5.8 5.8 0 0 1 20 9.803c0 3.2-2.597 5.93-5.803 5.93h-5.93v-8h4.266v3.734h1.67c1.05 0 2.064-.816 2.064-1.867 0-1.05-1.014-1.867-2.07-1.867h-1.664z"/>
+    <path fill="url(#PIXEL__c)" d="M4 11.468h4.267v4.267H4z"/>
+    <path fill="url(#PIXEL__d)" d="M8.267 11.468h4.266v4.267H8.267z"/>
     <defs>
-        <linearGradient id="PIXEL__a" x1="2" x2="22" y1="8" y2="16.425" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PIXEL__a" x1="4" x2="20" y1="8.8" y2="15.54" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3EFF6E"/>
             <stop offset="1" stop-color="#16DDDE"/>
         </linearGradient>
-        <linearGradient id="PIXEL__b" x1="2.227" x2="23.718" y1="7.409" y2="17.118" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PIXEL__b" x1="4.182" x2="21.375" y1="8.327" y2="16.095" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF5B3C"/>
             <stop offset="1" stop-color="#FF3196"/>
         </linearGradient>
-        <linearGradient id="PIXEL__c" x1="2" x2="22" y1="8" y2="16.425" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PIXEL__c" x1="4" x2="20" y1="8.801" y2="15.541" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF6F3F"/>
             <stop offset="1" stop-color="#FFC546"/>
         </linearGradient>
-        <linearGradient id="PIXEL__d" x1="7.334" x2="12.667" y1="12.934" y2="15.18" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PIXEL__d" x1="8.267" x2="12.534" y1="12.748" y2="14.545" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E059FE"/>
             <stop offset="1" stop-color="#656FFF"/>
         </linearGradient>

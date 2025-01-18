@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#NAP__a)">
+        <path fill="#03A7E4" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="m13.775 17.366-.132.042a5.65 5.65 0 1 1 .132-.042m-3.03-8.66H8.706v.466h.216l.254.276v4.906s0 .47-.47.47v.47h1.411v-.47s-.47-.024-.47-.47V9.958l4.922 5.337h.254V9.648s0-.471.471-.471v-.47h-1.412v.47s.47 0 .47.47v3.027z" clip-rule="evenodd"/>
+        <path fill="#fff" fill-rule="evenodd" d="M17.657 6.343A8 8 0 1 0 6.343 17.657 8 8 0 0 0 17.657 6.343m-3.315.006a6.12 6.12 0 1 0-4.689 11.307 6.12 6.12 0 0 0 4.689-11.307" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="NAP__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

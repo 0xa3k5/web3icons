@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CRYSTAL__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#D2E2DA" d="M12 6.909V4L4.242 20l2.424-1.94z"/>
+        <path fill="#7E8B92" d="M12 6.909V4l7.758 16-2.425-1.94z"/>
+        <path fill="#5A687A" d="M17.333 18.06H6.666L4.242 20h15.515z"/>
+        <path fill="#6A7C8B" d="M6.667 18.06 12 6.91l5.333 11.15z"/>
+        <path fill="#8AC4DE" d="M12 10.788V7.394l-2.424 4.848.727.727-1.455.728-1.697 4.12 1.94-1.696z"/>
+        <path fill="#58779F" d="M12 10.788V7.394l2.424 4.848-.727.727 1.454.728 1.697 4.12-1.94-1.696z"/>
+        <path fill="#475985" d="M14.909 16.122H9.09l-1.94 1.697h3.637l.727-.728h.97l.727.727h3.636z"/>
+        <path fill="url(#CRYSTAL__b)" d="m9.091 16.12 2.91-5.333 2.908 5.334z"/>
+    </g>
+    <defs>
+        <linearGradient id="CRYSTAL__b" x1="10.546" x2="14.909" y1="13.454" y2="16.121" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D2EDFB"/>
+            <stop offset="1" stop-color="#91CCE5"/>
+        </linearGradient>
+        <clipPath id="CRYSTAL__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

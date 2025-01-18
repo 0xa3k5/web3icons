@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#OVR__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#29C2F6" d="M11.52 4.1c.305-.13.65-.13.96 0l5.784 2.54c.45.194.735.64.735 1.134v8.45c0 .5-.29.944-.735 1.14l-5.785 2.534c-.304.135-.65.135-.96 0l-5.784-2.535A1.24 1.24 0 0 1 5 16.223V7.775c0-.495.29-.94.735-1.135z"/>
+        <path fill="#0451C8" d="M11.655 6.075c.22-.1.47-.1.69 0l4.13 1.9c.32.15.524.485.524.855v6.34c0 .37-.205.704-.525.85l-4.13 1.9a.8.8 0 0 1-.69 0l-4.129-1.9A.93.93 0 0 1 7 15.17V8.83c0-.37.205-.705.525-.85l4.13-1.9z"/>
+        <path fill="#ED723A" d="M5.22 16.939a1.26 1.26 0 0 1-.22-.715v-8.45c0-.26.08-.505.22-.71L12 10v4z"/>
+        <path fill="url(#OVR__b)" d="M7.44 15.974a.95.95 0 0 1-.44-.805v-6.34c0-.335.17-.645.44-.805L12 10v4z"/>
+        <path fill="url(#OVR__c)" d="M18.78 7.064c.14.2.22.45.22.71v8.45c0 .26-.08.51-.22.715L12 13.999v-4z"/>
+        <path fill="url(#OVR__d)" d="M16.56 8.024c.27.16.44.47.44.805v6.34c0 .335-.17.645-.44.805L12 13.999v-4z"/>
+        <path fill="url(#OVR__e)" d="M18.78 16.939c-.126.18-.3.33-.515.425l-5.785 2.534c-.15.07-.315.1-.48.1V14z"/>
+        <path fill="#3C75D2" d="M16.56 15.974a1 1 0 0 1-.085.05l-4.13 1.9a.8.8 0 0 1-.345.075v-4z"/>
+        <path fill="url(#OVR__f)" d="M12.01 4 12 10 5.22 7.065c.13-.185.3-.335.516-.425L11.52 4.1c.155-.065.325-.1.49-.1"/>
+        <path fill="url(#OVR__g)" d="m12.006 6-.005 4-4.56-1.975.085-.05 4.13-1.9a.9.9 0 0 1 .35-.075"/>
+        <path fill="url(#OVR__h)" d="m11.99 4 .01 6 6.78-2.935a1.2 1.2 0 0 0-.515-.425L12.48 4.1a1.3 1.3 0 0 0-.49-.1"/>
+        <path fill="#6334AA" d="M16.56 8.025a1 1 0 0 0-.085-.05l-4.13-1.9a.9.9 0 0 0-.35-.075L12 10z"/>
+        <path fill="url(#OVR__i)" d="M15.5 12a3.499 3.499 0 1 1-6.998 0 3.499 3.499 0 0 1 6.997 0"/>
+    </g>
+    <defs>
+        <linearGradient id="OVR__b" x1="5" x2="18.299" y1="10.873" y2="10.873" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E14719"/>
+            <stop offset="1" stop-color="#EC6813"/>
+        </linearGradient>
+        <linearGradient id="OVR__c" x1="10.03" x2="16.103" y1="7.532" y2="20.438" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#DF62AF"/>
+            <stop offset="1" stop-color="#D4438D"/>
+        </linearGradient>
+        <linearGradient id="OVR__d" x1="5" x2="17.223" y1="9.484" y2="13.132" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#894EBA"/>
+            <stop offset="1" stop-color="#95428A"/>
+        </linearGradient>
+        <linearGradient id="OVR__e" x1="6.332" x2="17.208" y1="17.986" y2="15.359" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#68D5FF"/>
+            <stop offset="1" stop-color="#29C2F6"/>
+        </linearGradient>
+        <linearGradient id="OVR__f" x1="19" x2="6.54" y1="4" y2="12.709" gradientUnits="userSpaceOnUse">
+            <stop offset=".17" stop-color="#FAC35F"/>
+            <stop offset="1" stop-color="#F9A56E"/>
+        </linearGradient>
+        <linearGradient id="OVR__g" x1="5.63" x2="21.324" y1="12" y2="15.421" gradientUnits="userSpaceOnUse">
+            <stop offset=".2" stop-color="#F68D44"/>
+            <stop offset="1" stop-color="#F8B136"/>
+        </linearGradient>
+        <linearGradient id="OVR__h" x1="5.001" x2="18.247" y1="10.4" y2="10.4" gradientUnits="userSpaceOnUse">
+            <stop offset=".21" stop-color="#945ED3"/>
+            <stop offset="1" stop-color="#BF3C90"/>
+        </linearGradient>
+        <linearGradient id="OVR__i" x1="8.935" x2="12" y1="9.75" y2="15.499" gradientUnits="userSpaceOnUse">
+            <stop offset=".64" stop-color="#FDFAF8"/>
+            <stop offset="1" stop-color="#FDFAF8" stop-opacity=".4"/>
+        </linearGradient>
+        <clipPath id="OVR__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

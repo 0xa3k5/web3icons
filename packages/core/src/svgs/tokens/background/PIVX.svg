@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#PIVX__a)">
+        <path fill="#5E4778" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12.8 5.6H6.4V4h6.4a4.8 4.8 0 0 1 0 9.6H8V20H6.4v-8h6.4a3.2 3.2 0 1 0 0-6.4"/>
+        <path fill="#fff" d="M11.733 9.332H6.4v-1.6h5.333z"/>
+    </g>
+    <defs>
+        <clipPath id="PIVX__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

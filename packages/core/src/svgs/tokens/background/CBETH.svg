@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CBETH__a)">
+        <path fill="#0052FF" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M12 19.25a7.25 7.25 0 1 0 0-14.5 7.25 7.25 0 0 0 0 14.5M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0"/>
+        <path fill="#fff" d="M12 6v4.25l3.5 1.605zm0 0-3.5 5.855 3.5-1.6zm0 8.61v2.89l3.5-4.975zm0 2.89v-2.89l-3.5-2.085zm0-3.555 3.5-2.09-3.5-1.6z"/>
+        <path fill="#fff" d="m8.5 11.855 3.5 2.09V10.25z"/>
+    </g>
+    <defs>
+        <clipPath id="CBETH__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

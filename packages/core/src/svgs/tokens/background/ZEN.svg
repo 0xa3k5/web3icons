@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ZEN__a)">
+        <path fill="url(#ZEN__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M18.509 7.338 17.2 9.366a5.834 5.834 0 0 1-4.263 8.383 5.8 5.8 0 0 1-3.544-.55L7.36 18.507a7.987 7.987 0 0 0 12.612-5.858 8.02 8.02 0 0 0-1.463-5.316h.005z"/>
+        <path fill="#fff" d="M12.012 16.007a4.015 4.015 0 0 0 3.953-3.293 9.15 9.15 0 0 0-7.285 1.515 4.02 4.02 0 0 0 3.332 1.778"/>
+        <path fill="#fff" d="M13.993 11.777q1.03.002 2.037.222a4.02 4.02 0 0 0-7.87-1.157 4 4 0 0 0-.13 1.698c-.555.408-1.06.88-1.506 1.406a5.833 5.833 0 0 1 4.74-7.706 5.8 5.8 0 0 1 3.35.565l2.023-1.313a7.987 7.987 0 0 0-12.616 5.947 8 8 0 0 0 1.548 5.321 9.6 9.6 0 0 1 1.365-1.886q.654-.677 1.411-1.238a9.56 9.56 0 0 1 5.652-1.858z"/>
+    </g>
+    <defs>
+        <radialGradient id="ZEN__b" cx="0" cy="0" r="1" gradientTransform="matrix(17.034 0 0 17.0165 18.119 3.995)" gradientUnits="userSpaceOnUse">
+            <stop offset=".1" stop-color="#26DB8D"/>
+            <stop offset=".26" stop-color="#23D29A"/>
+            <stop offset=".56" stop-color="#1ABBBB"/>
+            <stop offset=".89" stop-color="#0E9DE5"/>
+        </radialGradient>
+        <clipPath id="ZEN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

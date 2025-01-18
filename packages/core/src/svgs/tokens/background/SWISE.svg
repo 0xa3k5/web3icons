@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#SWISE__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#SWISE__b)" d="M5.333 16.622 12.004 20v-6.626l-6.671 3.244z"/>
+        <path fill="url(#SWISE__c)" d="m12.004 20 6.662-3.364-6.662-3.262z"/>
+        <path fill="url(#SWISE__d)" d="m12.004 13.374 6.663 3.262-2.72-5.174L12 13.378z"/>
+        <path fill="url(#SWISE__e)" d="m5.333 16.622 6.671-3.249-3.933-1.92z"/>
+        <path fill="url(#SWISE__f)" d="m8.07 11.453 3.93 1.92V4l-3.934 7.453z"/>
+        <path fill="url(#SWISE__g)" d="m12.004 13.373 3.943-1.91L12 4v9.378z"/>
+    </g>
+    <defs>
+        <linearGradient id="SWISE__b" x1="8.149" x2="22.667" y1="5.642" y2="11.741" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#8277A6"/>
+            <stop offset="1" stop-color="#655880"/>
+        </linearGradient>
+        <linearGradient id="SWISE__c" x1="4.292" x2="16.794" y1="21.481" y2="6.181" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#665A82"/>
+            <stop offset=".24" stop-color="#73638D"/>
+            <stop offset="1" stop-color="#B4A6D1"/>
+        </linearGradient>
+        <linearGradient id="SWISE__d" x1="11.689" x2="26.91" y1="15.492" y2="4.556" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#B0A0CE"/>
+            <stop offset="1" stop-color="#CEC6E2"/>
+        </linearGradient>
+        <linearGradient id="SWISE__e" x1="12.2" x2="15.252" y1="14.043" y2="8.082" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#887CAE"/>
+            <stop offset="1" stop-color="#7A6E9B"/>
+        </linearGradient>
+        <linearGradient id="SWISE__f" x1="21.74" x2="10.018" y1="12.004" y2="12.004" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#B0A0CE"/>
+            <stop offset="1" stop-color="#887CAE"/>
+        </linearGradient>
+        <linearGradient id="SWISE__g" x1="13.182" x2="15.609" y1="9.796" y2="12.111" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#B0A0CE"/>
+            <stop offset="1" stop-color="#CEC6E2"/>
+        </linearGradient>
+        <clipPath id="SWISE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

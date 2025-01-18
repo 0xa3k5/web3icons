@@ -1,26 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#MVD__a)" d="m2 7 10 10v5L2 12z"/>
-    <path fill="url(#MVD__b)" d="m2 12 5-5V2L2 7z"/>
-    <path fill="#C58F3C" d="M4.5 9.5 2 12V7z"/>
-    <path fill="#FFAA27" d="M12 12 7 7V2l5 5.088z"/>
-    <path fill="url(#MVD__c)" d="M22 7 12 17v5l10-10z"/>
-    <path fill="url(#MVD__d)" d="m22 12-5-5V2l5 5z"/>
-    <path fill="#D79B3F" d="M19.5 9.5 22 12V7z"/>
-    <path fill="#D28A1C" d="m12 12 5-5V2l-5 5.088z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+    <path fill="url(#MVD__a)" d="m4.5 8 8 8v4l-8-8z"/>
+    <path fill="url(#MVD__b)" d="m4.5 12 4-4V4l-4 4z"/>
+    <path fill="#C58F3C" d="m6.5 10-2 2V8z"/>
+    <path fill="#FFAA27" d="m12.5 12-4-4V4l4 4.07z"/>
+    <path fill="url(#MVD__c)" d="m20.5 8-8 8v4l8-8z"/>
+    <path fill="url(#MVD__d)" d="m20.5 12-4-4V4l4 4z"/>
+    <path fill="#D79B3F" d="m18.5 10 2 2V8z"/>
+    <path fill="#D28A1C" d="m12.5 12 4-4V4l-4 4.07z"/>
     <defs>
-        <linearGradient id="MVD__a" x1="2" x2="13.088" y1="4.108" y2="26.427" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MVD__a" x1="4.5" x2="13.371" y1="5.687" y2="23.542" gradientUnits="userSpaceOnUse">
             <stop stop-color="#955A00"/>
             <stop offset=".79" stop-color="#F29F20"/>
         </linearGradient>
-        <linearGradient id="MVD__b" x1="5.925" x2="13.629" y1="14.45" y2="-1.487" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MVD__b" x1="7.64" x2="13.803" y1="13.96" y2="1.21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#9E877A"/>
             <stop offset="1" stop-color="#fff"/>
         </linearGradient>
-        <linearGradient id="MVD__c" x1="8.837" x2="12.668" y1="10.425" y2="15.995" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MVD__c" x1="9.97" x2="13.034" y1="10.74" y2="15.196" gradientUnits="userSpaceOnUse">
             <stop stop-color="#B06E07"/>
             <stop offset="1" stop-color="#C77E0C"/>
         </linearGradient>
-        <linearGradient id="MVD__d" x1="18.075" x2="10.371" y1="14.45" y2="-1.487" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MVD__d" x1="17.36" x2="11.197" y1="13.96" y2="1.21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#9E877A"/>
             <stop offset="1" stop-color="#fff"/>
         </linearGradient>

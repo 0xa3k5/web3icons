@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#BTRFLY__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m11.773 10.378.245.955.209-.955 5.258-3.933H20l-.684 3.47-2.427 1.854v.453h.596l.457 2.09-2.515 3.244H15.2l-1.6-2.311-.916 1.422h-.226l-.231-.445h-.45l-.23.445h-.227l-.915-1.422-1.6 2.31h-.227l-2.516-3.244.458-2.089h.591v-.453L4.684 9.916 4 6.445h2.516z"/>
+    </g>
+    <defs>
+        <clipPath id="BTRFLY__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#CNFI__a)">
+        <path fill="url(#CNFI__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M11 4c-3.95.5-7 3.89-7 8s3.05 7.5 7 8v-2.085a6 6 0 0 1 0-11.83zm2 16c3.95-.5 7-3.89 7-8s-3.05-7.5-7-8v2.085a6 6 0 0 1 4.02 2.63c.065.325.005.81-.4 1.085a1.1 1.1 0 0 1-1.27 0v.01a4 4 0 1 0-.09 4.51v.02a1.15 1.15 0 0 1 1.455-.205c.38.25.475.61.45.925A6 6 0 0 1 13 17.915zm4.5-8a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+    </g>
+    <defs>
+        <linearGradient id="CNFI__b" x1="6.335" x2="18.27" y1="6.065" y2="15.74" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FF5300"/>
+            <stop offset="1" stop-color="#FBB705"/>
+        </linearGradient>
+        <clipPath id="CNFI__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

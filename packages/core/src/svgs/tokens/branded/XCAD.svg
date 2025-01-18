@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#XCAD__a)" d="M9.406 11.434 5.693 3.746h5.374l1.891 4.504h.047l3.458-4.504H22l-6.66 8.011 3.948 8.497h-5.56l-2.031-5.172h-.047L7.7 20.254H2z"/>
+    <path fill="url(#XCAD__a)" d="m9.925 11.547-2.97-6.15h4.299l1.513 3.602h.037l2.767-3.603H20l-5.328 6.41 3.159 6.797h-4.448l-1.626-4.138h-.037l-3.16 4.138H4z"/>
     <defs>
-        <linearGradient id="XCAD__a" x1="11.999" x2="11.999" y1="20.255" y2="3.745" gradientUnits="userSpaceOnUse">
+        <linearGradient id="XCAD__a" x1="11.999" x2="11.999" y1="18.603" y2="5.395" gradientUnits="userSpaceOnUse">
             <stop offset=".015" stop-color="#FD6422"/>
             <stop offset=".26" stop-color="#FC194A"/>
             <stop offset=".605" stop-color="#FC125F"/>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KALM__a)">
+        <path fill="#414141" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M7.5 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m0 4.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m0 4.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m0 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M15 8.5h3L13 14l5 6h-3l-5-6z"/>
+    </g>
+    <defs>
+        <clipPath id="KALM__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

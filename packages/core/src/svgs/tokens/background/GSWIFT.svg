@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#GSWIFT__a)">
+        <path fill="#E9E9E9" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="m4 16.4 5-5.377 1 .489-1.5 1.711L11.252 12l1.248.732z"/>
+        <path fill="#fff" d="m20 16.4-4.5-4.644 2.5-1.357-3-2.8H9l-3 2.8zm-10.5-8h5l1.752 1.644-1.752.732-.9-.776H10l2.2.8h1l2.3 2.424-7.752-3.18z"/>
+        <path fill="#fff" d="m15.876 11.572-.912-.988-.464.192-.28-.268 1.28 1.248z"/>
+    </g>
+    <defs>
+        <clipPath id="GSWIFT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

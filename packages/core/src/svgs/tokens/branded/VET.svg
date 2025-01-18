@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#VET__a)" d="M22 2.938h-1.788c-.437 0-.83.25-1.024.643L14.5 13.294l-.006-.006-1.25 2.587v.012l-1.25 2.588L5.75 5.531h1.781c.438 0 .838.25 1.025.644l4.082 8.394 1.25-2.588L10.593 5.2A4.01 4.01 0 0 0 6.98 2.938H2L3.25 5.53l7.5 15.532h2.5z"/>
+    <path fill="url(#VET__a)" d="M20 4.75h-1.43c-.35 0-.665.2-.82.515L14 13.035l-.005-.005-1 2.07v.01l-1 2.07L7 6.825h1.425c.35 0 .67.2.82.515l3.265 6.715 1-2.07-2.635-5.425a3.21 3.21 0 0 0-2.89-1.81H4l1 2.075 6 12.425h2z"/>
     <defs>
-        <linearGradient id="VET__a" x1="2" x2="20.942" y1="21.548" y2="-.062" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VET__a" x1="4" x2="19.153" y1="19.638" y2="2.35" gradientUnits="userSpaceOnUse">
             <stop stop-color="#582974"/>
             <stop offset=".15" stop-color="#4163AD"/>
             <stop offset=".47" stop-color="#22B2F9"/>

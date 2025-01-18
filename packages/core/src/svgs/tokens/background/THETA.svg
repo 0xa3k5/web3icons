@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#THETA__a)">
+        <path fill="url(#THETA__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M16.21 4.842H7.79v14.316h8.42zm-9.263 0v14.316L7.79 20h8.421l.842-.842V4.842L16.21 4H7.79z" clip-rule="evenodd"/>
+        <path fill="#fff" d="M11.58 9.892H9.475v.842h5.052v-.842h-2.105V7.365h-.842zm0 4.21H9.475v-.842h5.052v.842h-2.105v2.526h-.842z"/>
+    </g>
+    <defs>
+        <linearGradient id="THETA__b" x1="5.622" x2="18.698" y1="5.205" y2="18.973" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2AB8E6"/>
+            <stop offset=".53" stop-color="#29CAD2"/>
+            <stop offset="1" stop-color="#2EE4BE"/>
+        </linearGradient>
+        <clipPath id="THETA__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

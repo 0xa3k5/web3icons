@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#GOVI__a)" d="M6.996 19.384c.076.635.712 1.03 1.559.77l12.13-7.959c.618-.441.6-1.324-.252-1.865L7.737 2.07c-.294-.188-.741.024-.741.377V6.43l7.736 4.947-7.736 4.948z"/>
-    <path fill="url(#GOVI__b)" d="M16.997 21.149c-.076.635-.677 1.03-1.536.77l-12.13-7.73a1.293 1.293 0 0 1 .247-2.123l12.707-8.23c.306-.19.712.023.712.376v3.882l-7.848 5.048 7.848 4.948z"/>
-    <path fill="#fff" d="m13.361 5.735-3.706 2.4 3.66 2.319 3.67-2.371zm.93 10.655-3.718-2.354-3.577 2.26v.229l3.594 2.294z"/>
+    <path fill="url(#GOVI__a)" d="M7.997 17.907c.06.508.569.823 1.247.616l9.704-6.367c.494-.353.48-1.06-.202-1.492L8.59 4.056c-.236-.15-.593.019-.593.301v3.187l6.188 3.957-6.188 3.958z"/>
+    <path fill="url(#GOVI__b)" d="M15.997 19.32c-.06.508-.54.823-1.228.616l-9.704-6.184a1.035 1.035 0 0 1 .197-1.7L15.428 5.47c.245-.15.57.019.57.301v3.106l-6.279 4.038 6.278 3.958z"/>
+    <path fill="#fff" d="m13.089 6.987-2.965 1.92 2.927 1.855 2.937-1.897zm.743 8.523-2.974-1.882-2.861 1.807v.183l2.875 1.836z"/>
     <defs>
-        <linearGradient id="GOVI__a" x1="2.171" x2="11.108" y1=".212" y2="19.566" gradientUnits="userSpaceOnUse">
+        <linearGradient id="GOVI__a" x1="4.137" x2="11.286" y1="2.57" y2="18.053" gradientUnits="userSpaceOnUse">
             <stop offset=".26" stop-color="#fff"/>
             <stop offset=".84" stop-color="#95C9E3"/>
         </linearGradient>
-        <linearGradient id="GOVI__b" x1="14.891" x2="21.057" y1=".187" y2="21.909" gradientUnits="userSpaceOnUse">
+        <linearGradient id="GOVI__b" x1="14.313" x2="19.245" y1="2.55" y2="19.927" gradientUnits="userSpaceOnUse">
             <stop offset=".38" stop-color="#95C9E3"/>
             <stop offset=".94" stop-color="#fff"/>
         </linearGradient>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#DAO__a)">
+        <path fill="url(#DAO__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4 18.249 9.643 7.892l4.982-2.162-5.652 10.348zm5.626-2.361 4.28-7.866 2.453 2.37-4.238 7.878zm7.204-5.268L20 11.766l-1.587 2.867-3.845.13z"/>
+    </g>
+    <defs>
+        <linearGradient id="DAO__b" x1="4" x2="20" y1="11.998" y2="11.998" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4086FF"/>
+            <stop offset="1" stop-color="#48D4FF"/>
+        </linearGradient>
+        <clipPath id="DAO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

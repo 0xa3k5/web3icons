@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#WHALE__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M4 12q0-.252.015-.5H4V10h14.186A6.5 6.5 0 0 0 11.5 5.519V4.015Q11.748 4 12 4a8 8 0 1 1-8 8m1.5 0q0-.252.019-.5h1.003a5.5 5.5 0 0 0 5.969 5.979V15.97a4 4 0 0 1-4.46-4.47h10.45q.018.248.019.5a6.5 6.5 0 1 1-13 0m6.5 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="WHALE__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

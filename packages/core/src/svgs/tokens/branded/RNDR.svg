@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#RNDR__a)" fill-rule="evenodd" d="M12 2.625a9.375 9.375 0 1 1-7.562 3.838 1.869 1.869 0 0 0 3.188-1.338 1.875 1.875 0 1 0-3.57.8A10 10 0 1 0 12.002 2zm-6.25 3.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5m6.25 10a4.375 4.375 0 1 0 0-8.75 4.375 4.375 0 0 0 0 8.75" clip-rule="evenodd"/>
+    <path fill="url(#RNDR__a)" fill-rule="evenodd" d="M12 4.5a7.5 7.5 0 1 1-6.05 3.07A1.495 1.495 0 0 0 8.5 6.5a1.5 1.5 0 1 0-2.855.64A8 8 0 1 0 12 4zm-5 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m5 8a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="RNDR__a" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RNDR__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E92121"/>
             <stop offset="1" stop-color="#9C0403"/>
         </linearGradient>

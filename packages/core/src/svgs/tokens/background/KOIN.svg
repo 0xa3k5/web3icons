@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#KOIN__a)">
+        <path fill="#6F00F6" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 4.871 5.778 8.436v7.129L12 19.129l6.222-3.565V8.437zM19.11 8 12 4 4.889 8v8l7.11 4 7.112-4z" clip-rule="evenodd"/>
+        <path fill="#fff" fill-rule="evenodd" d="m12 9.333-2.222 1.31v2.712L12 14.666l2.222-1.311v-2.711zm3.11.889L12 8.444l-3.111 1.778v3.555l3.11 1.778 3.112-1.778z" clip-rule="evenodd"/>
+        <path fill="#fff" d="M11.556 12.177 5.12 8.555l.387-.658L12 11.555 18.338 7.9l.387.65-6.28 3.626v7.258h-.89z"/>
+    </g>
+    <defs>
+        <clipPath id="KOIN__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

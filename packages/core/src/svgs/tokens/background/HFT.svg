@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#HFT__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M8.235 6.354H5.882v3.294H4v1.882h1.882v1.412H4v1.882h1.882v2.824h2.353v-2.824h7.53v2.824h2.353v-2.824H20v-1.882h-1.882V11.53H20V9.648h-1.882V6.354h-2.353v3.294h-7.53zm7.53 6.588V11.53h-7.53v1.412z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="HFT__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>
