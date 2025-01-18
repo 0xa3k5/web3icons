@@ -32,8 +32,6 @@ export const Web3Icon = ({
     color,
   }
 
-  console.log({ metadata })
-
   switch (type) {
     case 'network':
       return (
