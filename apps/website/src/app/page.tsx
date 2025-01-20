@@ -1,9 +1,16 @@
 'use client'
-import { ControlBar, IconCard, ActionBar } from '../components'
-import CodeBlock from '../components/CodeBlock/CodeBlock'
+import { useEffect, useState } from 'react'
+import { useSearchParams, useRouter } from 'next/navigation'
+import { TType, TMetadata } from '@web3icons/common'
+import {
+  ControlBar,
+  IconCard,
+  Drawer,
+  CodeBlock,
+  Logo,
+  Tabs,
+} from '../components'
 import { useAppContext } from '../hooks'
-import Logo from '../components/Logo'
-import Tabs from '../components/Tabs'
 
 const links = [
   {
@@ -25,7 +32,24 @@ const links = [
 ]
 
 export default function Home() {
-  const { icons, selectedIcons, loadMoreIcons, hasMoreIcons } = useAppContext()
+  const router = useRouter()
+  const searchParams = useSearchParams()
+  const activeTabParam = searchParams.get('type') as TType | null
+  const [activeTab, setActiveTab] = useState<TType>(activeTabParam || 'token')
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false)
+  const [selectedIcon, setSelectedIcon] = useState<TMetadata | null>(null)
+  const { icons, loadMoreIcons, hasMoreIcons, variant } = useAppContext()
+
+  const handleTabChange = (value: string) => {
+    setActiveTab(value as TType)
+    router.replace(`?type=${value}&variant=${variant}`, { scroll: false })
+  }
+
+  useEffect(() => {
+    if (activeTabParam) {
+      setActiveTab(activeTabParam)
+    }
+  }, [activeTabParam])
 
   return (
     <main className="container mx-auto flex h-screen flex-col gap-4 p-4 font-mono sm:px-8 sm:py-16 md:gap-16">
@@ -56,14 +80,23 @@ export default function Home() {
           are ready as optimized SVGs as well as React components.
         </span>
         <CodeBlock
-          title="install"
-          code="npm i @web3icons/react"
-          language="bash"
+          lineNumbers={false}
+          tabs={[
+            {
+              label: 'install',
+              content: 'npm i @web3icons/react',
+              language: 'bash',
+            },
+          ]}
         />
       </div>
       <div className="relative flex w-full flex-col-reverse gap-8 md:flex-row md:gap-12">
         <div className="flex w-full flex-col gap-8">
-          <Tabs />
+          <Tabs
+            tabs={['token', 'network', 'wallet', 'exchange']}
+            onTabChange={handleTabChange}
+            activeTab={activeTab}
+          />
           <ControlBar />
           <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
             {icons.map((icon) => {
@@ -72,6 +105,10 @@ export default function Home() {
                   key={icon.id}
                   metadata={icon}
                   className="col-span-1 border border-gray-lightest"
+                  onClick={() => {
+                    setSelectedIcon(icon)
+                    setIsDrawerOpen(true)
+                  }}
                 />
               )
             })}
@@ -89,10 +126,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {selectedIcons.length > 0 && (
-        <div className="flex w-full justify-center">
-          <ActionBar />
-        </div>
+      {selectedIcon && (
+        <Drawer
+          metadata={selectedIcon}
+          isOpen={isDrawerOpen}
+          setIsOpen={setIsDrawerOpen}
+        />
       )}
     </main>
   )
