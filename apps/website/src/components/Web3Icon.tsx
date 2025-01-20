@@ -19,10 +19,12 @@ export const Web3Icon = ({
   metadata,
   variant,
   size: passedSize,
+  className,
 }: {
   metadata: TMetadata
   variant: TVariant
   size?: number
+  className?: string
 }): JSX.Element => {
   const { type, color, size } = useAppContext()
 
@@ -30,6 +32,7 @@ export const Web3Icon = ({
     size: passedSize ?? size,
     variant,
     color,
+    className,
   }
 
   switch (type) {

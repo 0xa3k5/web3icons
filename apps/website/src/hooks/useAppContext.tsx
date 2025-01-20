@@ -17,6 +17,7 @@ export interface AppContextType {
   searchTerm: string
   setSearchTerm: React.Dispatch<React.SetStateAction<string>>
   variant: TVariant
+  setVariant: React.Dispatch<React.SetStateAction<TVariant>>
   size: number
   setSize: React.Dispatch<React.SetStateAction<number>>
   color: string
@@ -101,6 +102,7 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
         searchTerm,
         setSearchTerm,
         variant,
+        setVariant,
         size,
         setSize,
         selectedIcons,

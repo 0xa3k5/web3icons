@@ -15,9 +15,7 @@ export function scaffoldComponent({
 
   let returnStatement = `export default function App(): JSX.Element {
     return (
-      <>
         {{returnStatement}}
-      </>
     );
   }`
 
@@ -92,6 +90,14 @@ const generateDynamicUsage = (
       `        <WalletIcon name="${metadata.name}" variant="${variant}" />`
     )
   }
+  if (type === 'exchange') {
+    return (
+      `{/* exchange id */}\n` +
+      `        <ExchangeIcon id="${metadata.id}" variant="${variant}" />\n` +
+      `        {/* exchange name */}\n` +
+      `        <ExchangeIcon name="${metadata.name}" variant="${variant}" />`
+    )
+  }
 
   return ''
 }
@@ -105,15 +111,12 @@ const generateStaticUsage = (
 }
 
 const makeComponentName = (metadata: TMetadata, type: TType) => {
-  if (type === 'token') {
-    return `Token${(metadata as ITokenMetadata).symbol.toUpperCase()}`
-  } else if (type === 'network') {
-    return `Network${toPascalCase(metadata.id)}`
-  } else if (type === 'wallet') {
-    return `Wallet${toPascalCase(metadata.id)}`
-  } else {
-    throw new Error('Invalid type')
-  }
+  const prefix = type.charAt(0).toUpperCase() + type.slice(1)
+  const suffix =
+    type === 'token'
+      ? (metadata as ITokenMetadata).symbol.toUpperCase()
+      : toPascalCase(metadata.id)
+  return `${prefix}${suffix}`
 }
 
 const toPascalCase = (str: string): string => {
