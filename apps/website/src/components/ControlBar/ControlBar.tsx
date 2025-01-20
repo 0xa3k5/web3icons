@@ -26,9 +26,11 @@ export default function ControlBar({ className }: Props): JSX.Element {
 
   const router = useRouter()
   const searchParams = useSearchParams()
+
   const activeVariantParam = searchParams.get('variant') as TVariant | null
-  // prettier-ignore
-  const [activeVariant, setActiveVariant] = useState<TVariant>(activeVariantParam || 'mono')
+  const [activeVariant, setActiveVariant] = useState<TVariant>(
+    activeVariantParam || 'mono',
+  )
 
   const handleSegmentedControlChange = (value: TVariant) => {
     setActiveVariant(value)
@@ -38,17 +40,17 @@ export default function ControlBar({ className }: Props): JSX.Element {
   }
 
   return (
-    <div className="grid grid-cols-10 gap-4 lg:gap-0">
-      <div className="col-span-5 flex items-center justify-center md:pr-4 lg:col-span-4">
+    <div className="grid grid-cols-12 gap-8">
+      <div className="col-span-full flex items-center justify-center md:pr-4 lg:col-span-5">
         <SearchInput
           onInput={(e) => setSearchTerm(e.target.value)}
           placeholder="Search"
           value={searchTerm}
         />
       </div>
-      <div className="col-span-5 flex items-center justify-center px-4 lg:col-span-2">
+      <div className="col-span-5 flex items-center justify-center px-4 lg:col-span-3">
         <SegmentedControl
-          options={['mono', 'branded']}
+          options={['mono', 'branded', 'background']}
           selected={activeVariant}
           onChange={(value) => handleSegmentedControlChange(value as TVariant)}
         />

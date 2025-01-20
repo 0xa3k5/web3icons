@@ -2,25 +2,37 @@
 import { useEffect, useState } from 'react'
 import { CopyButton } from '../buttons'
 import { highlight, type Language } from '.'
+import Tabs from '../Tabs'
 
-type Props = {
-  code: string
+interface Tab {
+  label: string
+  content: string
   language: Language
+}
+
+interface Props {
   lineNumbers?: boolean
-  title: string
+  tabs: Tab[]
 }
 
 export default function CodeBlock({
-  code,
-  language,
   lineNumbers = true,
-  title,
+  tabs,
 }: Props): JSX.Element {
   const [lines, setLines] = useState<{ content: string; style: any }[][]>([])
+  const [activeTab, setActiveTab] = useState<Tab>(tabs[0]!)
+
+  const handleTabChange = (label: string) => {
+    const newActiveTab = tabs.find((tab) => tab.label === label)
+    if (newActiveTab) {
+      setActiveTab(newActiveTab)
+    }
+  }
 
   useEffect(() => {
     const loadHighlighter = async () => {
-      const { tokens } = await highlight(code, language)
+      const { content, language } = activeTab
+      const { tokens } = await highlight(content, language)
 
       const formattedLines = tokens.map((line) =>
         line.map((token) => ({
@@ -32,17 +44,32 @@ export default function CodeBlock({
     }
 
     loadHighlighter()
-  }, [code, language])
+  }, [activeTab, tabs])
+
+  useEffect(() => {
+    setActiveTab(tabs[0]!)
+  }, [tabs])
 
   return (
-    <div className="group flex w-full flex-col overflow-hidden rounded-lg border border-gray-lightest bg-gray-dark font-mono text-sm">
-      <div className="sticky top-0 flex w-full items-center justify-between border-b border-gray-lightest bg-gray-darker px-4 py-2">
-        <span>{title}</span>
-        <span className="opacity-0 duration-150 group-hover:opacity-100">
-          <CopyButton copyContent={code} tooltipPosition="bottom" />
-        </span>
+    <div className="group flex w-full flex-col overflow-hidden rounded-lg border border-gray-lightest font-mono text-sm">
+      <div className="flex items-center justify-between border-b border-gray-lightest bg-gray-darkest">
+        <Tabs
+          tabs={tabs.map((tab) => tab.label)}
+          size="sm"
+          onTabChange={handleTabChange}
+          activeTab={activeTab.label}
+          separator={false}
+        />
+        <div className="flex justify-end p-2">
+          <CopyButton
+            copyContent={activeTab.content}
+            tooltipPosition="bottom"
+            className="rounded-sm"
+          />
+        </div>
       </div>
-      <div className="h-full max-h-64 overflow-scroll p-4">
+
+      <div className="h-full max-h-64 overflow-scroll bg-gray-dark p-4">
         {lines.map((line, index) => (
           <div key={index} className="flex">
             {lineNumbers ? (
