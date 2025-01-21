@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
-import { TType, TMetadata } from '@web3icons/common'
+import { TType, TMetadata, TVariant } from '@web3icons/common'
 import {
   ControlBar,
   IconCard,
@@ -11,6 +11,7 @@ import {
   Tabs,
 } from '../components'
 import { useAppContext } from '../hooks'
+import SegmentedControl from '../components/ControlBar/SegmentedControl'
 
 const links = [
   {
@@ -35,19 +36,33 @@ export default function Home() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const activeTabParam = searchParams.get('type') as TType | null
-  const [activeTab, setActiveTab] = useState<TType>(activeTabParam || 'token')
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   const [selectedIcon, setSelectedIcon] = useState<TMetadata | null>(null)
-  const { icons, loadMoreIcons, hasMoreIcons, variant } = useAppContext()
+  const {
+    icons,
+    loadMoreIcons,
+    hasMoreIcons,
+    variant,
+    type,
+    setVariant,
+    setType,
+  } = useAppContext()
 
   const handleTabChange = (value: string) => {
-    setActiveTab(value as TType)
+    setType(value as TType)
     router.replace(`?type=${value}&variant=${variant}`, { scroll: false })
+  }
+
+  const handleVariantChange = (value: TVariant) => {
+    setVariant(value)
+    router.replace(`?type=${type}&variant=${value}`, {
+      scroll: false,
+    })
   }
 
   useEffect(() => {
     if (activeTabParam) {
-      setActiveTab(activeTabParam)
+      setType(activeTabParam)
     }
   }, [activeTabParam])
 
@@ -95,9 +110,17 @@ export default function Home() {
           <Tabs
             tabs={['token', 'network', 'wallet', 'exchange']}
             onTabChange={handleTabChange}
-            activeTab={activeTab}
+            activeTab={type}
+            slotAfter={
+              <SegmentedControl
+                options={['mono', 'branded', 'background']}
+                selected={variant}
+                onChange={(variant) => handleVariantChange(variant as TVariant)}
+                className="hidden md:inline-flex"
+              />
+            }
           />
-          <ControlBar />
+          <ControlBar handleVariantChange={handleVariantChange} />
           <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
             {icons.map((icon) => {
               return (

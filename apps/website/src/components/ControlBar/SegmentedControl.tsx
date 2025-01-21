@@ -6,7 +6,6 @@ interface SegmentedControlProps {
   className?: string
   selected: string
   options: string[]
-  // eslint-disable-next-line no-unused-vars
   onChange: (value: string) => void
 }
 
@@ -32,7 +31,7 @@ export default function SegmentedControl({
       className={cx(
         className,
         'relative inline-flex w-fit rounded-full border border-gray-lightest bg-gray-light p-1',
-        '[&:has(:focus-visible)]:focus-within:outline-none  [&:has(:focus-visible)]:focus-within:outline-gray-lightest',
+        'focus-visible:outline-none [&:has(:focus-visible)]:focus-within:outline-none  [&:has(:focus-visible)]:focus-within:outline-gray-lightest',
       )}
     >
       {options.map((option) => (

@@ -59,16 +59,16 @@ export default function CodeBlock({
           onTabChange={handleTabChange}
           activeTab={activeTab.label}
           separator={false}
+          slotAfter={
+            <CopyButton
+              onClick={() => {
+                navigator.clipboard.writeText(activeTab.content)
+              }}
+              tooltipPosition="bottom"
+              className="mr-2 rounded-sm p-2"
+            />
+          }
         />
-        <div className="flex justify-end p-2">
-          <CopyButton
-            onClick={() => {
-              navigator.clipboard.writeText(activeTab.content)
-            }}
-            tooltipPosition="bottom"
-            className="rounded-sm"
-          />
-        </div>
       </div>
 
       <div className="h-full max-h-64 overflow-scroll bg-gray-dark p-4">

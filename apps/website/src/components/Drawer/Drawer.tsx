@@ -87,7 +87,7 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
       onOpenChange={(open) => (open ? handleOpen() : handleClose())}
     >
       <_Drawer.Portal>
-        <_Drawer.Content className="fixed right-0 top-0 z-10 flex h-full w-[30vw] shrink-0">
+        <_Drawer.Content className="fixed right-0 top-0 z-10 flex h-full w-[80vw] shrink-0 md:w-[30vw]">
           <div className="flex size-full shrink-0 select-text flex-col gap-4 overflow-hidden rounded-md border border-gray-lightest bg-gray p-2 focus-visible:outline-none">
             <div className="flex flex-col gap-4">
               <div className="relative flex w-full items-center justify-center overflow-hidden border-b border-gray-lightest py-16">

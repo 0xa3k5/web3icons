@@ -9,6 +9,7 @@ interface TabsProps {
   activeTab: string
   size?: 'sm' | 'md'
   separator?: boolean
+  slotAfter?: React.ReactNode
 }
 
 export default function Tabs({
@@ -18,6 +19,7 @@ export default function Tabs({
   activeTab,
   size = 'md',
   separator = true,
+  slotAfter,
 }: TabsProps): JSX.Element {
   const [indicatorWidth, setIndicatorWidth] = useState(0)
   const [indicatorOffset, setIndicatorOffset] = useState(0)
@@ -39,7 +41,7 @@ export default function Tabs({
         separator ? 'border-b border-gray-lightest' : '',
       )}
     >
-      <div className="flex">
+      <div className="flex justify-between">
         {tabs.map((tab) => (
           <Fragment key={tab}>
             <input
@@ -65,6 +67,7 @@ export default function Tabs({
           </Fragment>
         ))}
       </div>
+      {slotAfter}
       {tabs.length > 1 && (
         <div
           className="absolute left-0 top-0 h-full border-b border-white transition-all duration-150"
