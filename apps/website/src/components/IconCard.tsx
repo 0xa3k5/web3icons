@@ -1,11 +1,8 @@
 'use client'
 import cx from 'classnames'
 import { useAppContext } from '../hooks'
-import { CopyButton, DownloadButton } from './buttons'
 import { Web3Icon } from './Web3Icon'
 import { TMetadata, ITokenMetadata } from '@web3icons/common'
-import { fetchSvgContent } from '../utils'
-import { useEffect, useState } from 'react'
 
 interface Props {
   className?: string
@@ -19,23 +16,11 @@ export default function IconCard({
   onClick,
 }: Props): JSX.Element {
   const { variant, type } = useAppContext()
-  const [svgContent, setSvgContent] = useState<string>('')
 
   const _label =
     type === 'token'
       ? (metadata as ITokenMetadata).symbol?.toUpperCase()
       : metadata.name
-
-  useEffect(() => {
-    ;(async () => {
-      const { svg } = await fetchSvgContent({
-        metadata,
-        variant,
-        type,
-      })
-      setSvgContent(svg)
-    })()
-  }, [variant])
 
   return (
     <div
@@ -54,19 +39,6 @@ export default function IconCard({
         )}
       >
         <span className="text-xs">{_label}</span>
-      </span>
-      <span className="absolute right-3 top-3 hidden items-end gap-2 group-hover/card:flex group-focus-visible:focus-within/card:flex">
-        <CopyButton
-          className="w-full rounded-sm p-1"
-          copyContent={svgContent}
-          disabled={!svgContent}
-        />
-        <DownloadButton
-          type={type}
-          className="w-full rounded-sm p-1"
-          variant={variant}
-          metadata={metadata}
-        />
       </span>
     </div>
   )

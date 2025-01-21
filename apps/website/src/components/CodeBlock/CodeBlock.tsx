@@ -62,7 +62,9 @@ export default function CodeBlock({
         />
         <div className="flex justify-end p-2">
           <CopyButton
-            copyContent={activeTab.content}
+            onClick={() => {
+              navigator.clipboard.writeText(activeTab.content)
+            }}
             tooltipPosition="bottom"
             className="rounded-sm"
           />

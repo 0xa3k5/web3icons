@@ -6,7 +6,7 @@ import { PropsWithChildren, useEffect, useState } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { ITokenMetadata, TMetadata, TVariant } from '@web3icons/common'
 import { fetchSvgContent } from '../../utils/fetch-svg-content'
-import { CodeBlock, CopyButton, DescriptionList, Web3Icon } from '..'
+import { CodeBlock, DescriptionList, Web3Icon } from '..'
 
 interface Props {
   metadata: TMetadata
@@ -87,26 +87,17 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
       onOpenChange={(open) => (open ? handleOpen() : handleClose())}
     >
       <_Drawer.Portal>
-        <_Drawer.Overlay className="bg-gray-900 fixed inset-0 z-[5] bg-opacity-80" />
-        <_Drawer.Content className="fixed right-0 top-0 z-10 flex h-full w-[30vw] select-text justify-center focus-visible:outline-none">
-          <div className="flex flex-col gap-4 overflow-hidden rounded-md border border-gray-lightest bg-gray p-2">
+        <_Drawer.Content className="fixed right-0 top-0 z-10 flex h-full w-[30vw] shrink-0">
+          <div className="flex size-full shrink-0 select-text flex-col gap-4 overflow-hidden rounded-md border border-gray-lightest bg-gray p-2 focus-visible:outline-none">
             <div className="flex flex-col gap-4">
               <div className="relative flex w-full items-center justify-center overflow-hidden border-b border-gray-lightest py-16">
                 <Web3Icon
                   metadata={metadata}
                   variant={drawerVariant}
                   size={96}
-                  className="z-10"
+                  className=""
                 />
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
-              </div>
-              <div className="flex w-full gap-2">
-                <CopyButton copyContent={tabContents.svg}>
-                  <span className="text-sm">Copy SVG</span>
-                </CopyButton>
-                <CopyButton copyContent={tabContents.svg}>
-                  <span className="text-sm">Copy PNG</span>
-                </CopyButton>
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />
               </div>
               <div className="flex flex-col gap-4 p-4">
                 <_Drawer.Title className="flex items-center justify-between">
@@ -154,6 +145,17 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
                     <DescriptionList.Item key={key} label={key} value={value} />
                   ))}
                 </DescriptionList>
+                <span className="text-sm text-white/40">
+                  Found an issue with the icon?{' '}
+                  <a
+                    href="https://github.com/0xa3k5/web3icons/issues"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-[#4C9EFF] hover:underline"
+                  >
+                    Report it on Github
+                  </a>
+                </span>
               </div>
             </div>
           </div>

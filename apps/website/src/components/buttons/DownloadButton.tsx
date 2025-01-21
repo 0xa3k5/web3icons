@@ -1,41 +1,28 @@
 'use client'
 import React, { useState, useEffect, PropsWithChildren } from 'react'
 import Tooltip from '../Tooltip'
-import { fetchSvgContent } from '../../utils'
-import { TMetadata, TType, TVariant } from '@web3icons/common'
 import { saveAs } from 'file-saver'
 import cx from 'classnames'
 
 interface Props {
   className?: string
-  metadata: TMetadata
-  type: TType
-  variant: TVariant
+  onClick: () => void
 }
 
 export default function DownloadButton({
   className,
-  metadata,
-  variant,
-  type,
   children,
+  onClick,
 }: PropsWithChildren<Props>): JSX.Element {
   const [tooltip, setTooltip] = useState<{ toggle: boolean; text: string }>({
     toggle: false,
     text: '',
   })
 
-  const handleDownload = async (event: React.MouseEvent<HTMLButtonElement>) => {
+  const handleDownload = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.currentTarget.blur()
 
-    const { svg } = await fetchSvgContent({
-      metadata,
-      variant,
-      type,
-    })
-
-    const blob = new Blob([svg])
-    saveAs(blob, `${metadata.id}-${variant}.svg`)
+    onClick()
     setTooltip({ toggle: true, text: 'downloaded!' })
   }
 
