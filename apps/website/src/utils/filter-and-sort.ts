@@ -22,14 +22,10 @@ export const filterAndSortIcons = ({
   variant,
   searchTerm,
   type,
-  nextBatchIndex,
-  perPage,
 }: {
   variant: TVariant
   searchTerm: string
   type: TType
-  nextBatchIndex: number
-  perPage: number
 }): (
   | INetworkMetadata
   | ITokenMetadata
@@ -56,5 +52,5 @@ export const filterAndSortIcons = ({
       ),
   }
 
-  return filteredIcons[type]?.slice(0, nextBatchIndex + perPage) || []
+  return filteredIcons[type]
 }

@@ -14,6 +14,7 @@ const LANGUAGES: (BundledLanguage | SpecialLanguage)[] = [
   'jsx',
   'tsx',
   'json',
+  'typescript',
 ]
 
 export type Language = (typeof LANGUAGES)[number]
@@ -26,6 +27,10 @@ export async function highlight(code: string, lang: Language) {
       themes: [THEME],
       langs: LANGUAGES,
     })
+  }
+
+  if (!code || typeof code !== 'string') {
+    return { html: '', tokens: [] }
   }
 
   const { tokens } = highlighter.codeToTokens(code, {
