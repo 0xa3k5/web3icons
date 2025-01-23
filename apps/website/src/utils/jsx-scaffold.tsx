@@ -4,12 +4,16 @@ export function scaffoldComponent({
   metadata,
   type,
   variant,
-  dynamic,
+  size,
+  color,
+  dynamic = false,
 }: {
   metadata: TMetadata
   type: TType
   variant: TVariant
-  dynamic: boolean
+  size: number
+  color: string
+  dynamic?: boolean
 }) {
   let importStatement = `import { {{Web3Icon}} } from '@web3icons/react'\n`
 
@@ -26,27 +30,35 @@ export function scaffoldComponent({
     )
     returnStatement = returnStatement.replace(
       '{{returnStatement}}',
-      generateDynamicUsage(metadata, type, variant),
+      generateDynamicUsage({ metadata, type, variant, size, color }),
     )
   } else {
     importStatement = importStatement.replace(
       '{{Web3Icon}}',
-      makeComponentName(metadata, type),
+      makeComponentName({ metadata, type }),
     )
     returnStatement = returnStatement.replace(
       '{{returnStatement}}',
-      generateStaticUsage(metadata, type, variant),
+      generateStaticUsage({ metadata, type, variant, size, color }),
     )
   }
 
   return `${importStatement}\n${returnStatement}`
 }
 
-const generateDynamicUsage = (
-  metadata: TMetadata,
-  type: TType,
-  variant: TVariant,
-) => {
+const generateDynamicUsage = ({
+  metadata,
+  type,
+  variant,
+  size,
+  color,
+}: {
+  metadata: TMetadata
+  type: TType
+  variant: TVariant
+  size: number
+  color: string
+}) => {
   if (type === 'token') {
     const tokenMetadata = metadata as ITokenMetadata
     const addresses = tokenMetadata.addresses
@@ -61,14 +73,14 @@ const generateDynamicUsage = (
           addresses
             .map(
               ([network, address]) =>
-                `        <TokenIcon network="${network}" address="${address}" variant="${variant}" />`,
+                `        <TokenIcon network="${network}" address="${address}" variant="${variant}" size="${size}" ${variant === 'mono' ? `color="${color}"` : ''}/>`,
             )
             .join('\n        {/* or */}\n')
         : ''
 
     return (
       `{/* token symbol */}\n` +
-      `        <TokenIcon symbol="${tokenMetadata.symbol}" variant="${variant}" />` +
+      `        <TokenIcon symbol="${tokenMetadata.symbol}" variant="${variant}" size="${size}" ${variant === 'mono' ? `color="${color}"` : ''}/>` +
       additional
     )
   }
@@ -76,41 +88,55 @@ const generateDynamicUsage = (
   if (type === 'network') {
     return (
       `{/* network id */}\n` +
-      `        <NetworkIcon network="${metadata.id}" variant="${variant}" />\n` +
+      `        <NetworkIcon network="${metadata.id}" variant="${variant}" size="${size}" ${variant === 'mono' ? `color="${color}"` : ''}/>\n` +
       `        {/* network name */}\n` +
-      `        <NetworkIcon id="${metadata.name}" variant="${variant}" />`
+      `        <NetworkIcon id="${metadata.name}" variant="${variant}" size="${size}" ${variant === 'mono' ? `color="${color}"` : ''}/>`
     )
   }
 
   if (type === 'wallet') {
     return (
       `{/* wallet id */}\n` +
-      `        <WalletIcon id="${metadata.id}" variant="${variant}" />\n` +
+      `        <WalletIcon id="${metadata.id}" variant="${variant}" size="${size}" ${variant === 'mono' ? `color="${color}"` : ''}/>\n` +
       `        {/* wallet name */}\n` +
-      `        <WalletIcon name="${metadata.name}" variant="${variant}" />`
+      `        <WalletIcon name="${metadata.name}" variant="${variant}" size="${size}" ${variant === 'mono' ? `color="${color}"` : ''}/>`
     )
   }
   if (type === 'exchange') {
     return (
       `{/* exchange id */}\n` +
-      `        <ExchangeIcon id="${metadata.id}" variant="${variant}" />\n` +
+      `        <ExchangeIcon id="${metadata.id}" variant="${variant}" size="${size}" ${variant === 'mono' ? `color="${color}"` : ''}/>\n` +
       `        {/* exchange name */}\n` +
-      `        <ExchangeIcon name="${metadata.name}" variant="${variant}" />`
+      `        <ExchangeIcon name="${metadata.name}" variant="${variant}" size="${size}" ${variant === 'mono' ? `color="${color}"` : ''}/>`
     )
   }
 
   return ''
 }
 
-const generateStaticUsage = (
-  metadata: TMetadata,
-  type: TType,
-  variant: TVariant,
-) => {
-  return `<${makeComponentName(metadata, type)} variant="${variant}" />`
+const generateStaticUsage = ({
+  metadata,
+  type,
+  variant,
+  size,
+  color,
+}: {
+  metadata: TMetadata
+  type: TType
+  variant: TVariant
+  size: number
+  color: string
+}) => {
+  return `<${makeComponentName({ metadata, type })} variant="${variant}" size="${size}" ${variant === 'mono' ? `color="${color}"` : ''} />`
 }
 
-const makeComponentName = (metadata: TMetadata, type: TType) => {
+const makeComponentName = ({
+  metadata,
+  type,
+}: {
+  metadata: TMetadata
+  type: TType
+}) => {
   const prefix = type.charAt(0).toUpperCase() + type.slice(1)
   const suffix =
     type === 'token'

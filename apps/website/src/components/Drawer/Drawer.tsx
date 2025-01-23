@@ -15,7 +15,7 @@ interface Props {
 }
 
 export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
-  const { type, variant } = useAppContext()
+  const { type, variant, size, color } = useAppContext()
   const [drawerVariant, setDrawerVariant] = useState<TVariant>(variant)
   const router = useRouter()
   const searchParams = useSearchParams()
@@ -68,13 +68,16 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
           metadata,
           type,
           variant: drawerVariant,
+          size,
+          color,
           dynamic: true,
         }),
         individual: scaffoldComponent({
           metadata,
           type,
           variant: drawerVariant,
-          dynamic: false,
+          size,
+          color,
         }),
       })
     })()
@@ -110,13 +113,20 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
                   <div className="flex items-center gap-2">
                     {(['branded', 'mono', 'background'] as TVariant[]).map(
                       (v) => (
-                        <button
-                          className={`flex overflow-hidden rounded-md outline ${drawerVariant === v ? 'outline-white/30' : 'outline-transparent'}`}
-                          type="button"
-                          onClick={() => setDrawerVariant(v)}
+                        <label
+                          key={v}
+                          className={`flex items-center gap-2 ${drawerVariant === v ? 'border-white/30' : 'border-transparent'} overflow-hidden rounded-md border`}
                         >
+                          <input
+                            type="radio"
+                            name="variant"
+                            value={v}
+                            checked={drawerVariant === v}
+                            onChange={() => setDrawerVariant(v)}
+                            className="sr-only"
+                          />
                           <Web3Icon metadata={metadata} variant={v} size={40} />
-                        </button>
+                        </label>
                       ),
                     )}
                   </div>
