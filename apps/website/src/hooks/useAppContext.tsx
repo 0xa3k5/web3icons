@@ -9,29 +9,24 @@ import React, {
 
 import { filterAndSortIcons } from '../utils'
 import { useSearchParams } from 'next/navigation'
-import {
-  TType,
-  ITokenMetadata,
-  INetworkMetadata,
-  IWalletMetadata,
-  TVariant,
-  TMetadata,
-} from '@web3icons/common'
+import { TType, TVariant, TMetadata } from '@web3icons/common'
 
 export interface AppContextType {
   type: TType
-  icons: ITokenMetadata[] | INetworkMetadata[] | IWalletMetadata[]
+  setType: React.Dispatch<React.SetStateAction<TType>>
+  icons: TMetadata[]
   searchTerm: string
   setSearchTerm: React.Dispatch<React.SetStateAction<string>>
   variant: TVariant
+  setVariant: React.Dispatch<React.SetStateAction<TVariant>>
   size: number
   setSize: React.Dispatch<React.SetStateAction<number>>
   color: string
   setColor: React.Dispatch<React.SetStateAction<string>>
   selectedIcons: TMetadata[]
-  //prettier-ignore
-  setSelectedIcons: React.Dispatch<React.SetStateAction<(TMetadata)[]>>
+  setSelectedIcons: React.Dispatch<React.SetStateAction<TMetadata[]>>
   loadMoreIcons: () => void
+  hasMoreIcons: boolean
 }
 
 interface AppContextProviderProps {
@@ -42,7 +37,7 @@ const AppContext = createContext<AppContextType | undefined>(undefined)
 export const AppContextProvider: React.FC<AppContextProviderProps> = ({
   children,
 }: AppContextProviderProps) => {
-  const PER_PAGE = 96
+  const PER_PAGE = 200
   const searchParams = useSearchParams()
   const [type, setType] = useState<TType>('token')
   const [variant, setVariant] = useState<TVariant>('mono')
@@ -50,38 +45,24 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
   const [color, setColor] = useState('#FFFFFF')
   const [searchTerm, setSearchTerm] = useState('')
   const [nextBatchIndex, setNextBatchIndex] = useState(0)
-  // prettier-ignore
-  const [shownIcons, setShownIcons] = useState<(TMetadata)[]>([])
-  // prettier-ignore
-  const [selectedIcons, setSelectedIcons] = useState<(TMetadata)[]>([])
+  const [shownIcons, setShownIcons] = useState<TMetadata[]>([])
+  const [selectedIcons, setSelectedIcons] = useState<TMetadata[]>([])
+  const [hasMoreIcons, setHasMoreIcons] = useState(false)
 
-  const loadMoreIcons = () => {
-    setShownIcons(
-      filterAndSortIcons({
-        variant,
-        searchTerm,
-        type,
-        nextBatchIndex,
-        perPage: PER_PAGE,
-      }) ?? [],
-    )
+  const loadIcons = () => {
+    const icons = filterAndSortIcons({
+      variant,
+      searchTerm,
+      type,
+    })
+
+    setShownIcons(icons.slice(0, nextBatchIndex + PER_PAGE) ?? [])
     setNextBatchIndex((prevIndex) => prevIndex + PER_PAGE)
+    setHasMoreIcons(icons.length > nextBatchIndex + PER_PAGE)
   }
 
   useEffect(() => {
-    loadMoreIcons()
-  }, [])
-
-  useEffect(() => {
-    setShownIcons(
-      filterAndSortIcons({
-        variant,
-        searchTerm,
-        type,
-        nextBatchIndex,
-        perPage: PER_PAGE,
-      }) ?? [],
-    )
+    loadIcons()
   }, [searchTerm, variant, type])
 
   useEffect(() => {
@@ -102,17 +83,20 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
     <AppContext.Provider
       value={{
         type,
+        setType,
+        loadMoreIcons: loadIcons,
         icons: shownIcons,
         searchTerm,
         setSearchTerm,
         variant,
+        setVariant,
         size,
         setSize,
         selectedIcons,
         setSelectedIcons,
-        loadMoreIcons,
         color,
         setColor,
+        hasMoreIcons,
       }}
     >
       {children}

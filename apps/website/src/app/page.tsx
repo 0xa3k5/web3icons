@@ -1,9 +1,17 @@
 'use client'
-import { ControlBar, IconCard, ActionBar } from '../components'
-import CodeBlock from '../components/CodeBlock/CodeBlock'
+import { useEffect, useState } from 'react'
+import { useSearchParams, useRouter } from 'next/navigation'
+import { TType, TMetadata, TVariant } from '@web3icons/common'
+import {
+  ControlBar,
+  IconCard,
+  Drawer,
+  CodeBlock,
+  Logo,
+  Tabs,
+} from '../components'
 import { useAppContext } from '../hooks'
-import Logo from '../components/Logo'
-import Tabs from '../components/Tabs'
+import SegmentedControl from '../components/ControlBar/SegmentedControl'
 
 const links = [
   {
@@ -25,7 +33,38 @@ const links = [
 ]
 
 export default function Home() {
-  const { icons, selectedIcons, loadMoreIcons } = useAppContext()
+  const router = useRouter()
+  const searchParams = useSearchParams()
+  const activeTabParam = searchParams.get('type') as TType | null
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false)
+  const [selectedIcon, setSelectedIcon] = useState<TMetadata | null>(null)
+  const {
+    icons,
+    loadMoreIcons,
+    hasMoreIcons,
+    variant,
+    type,
+    setVariant,
+    setType,
+  } = useAppContext()
+
+  const handleTabChange = (value: string) => {
+    setType(value as TType)
+    router.replace(`?type=${value}&variant=${variant}`, { scroll: false })
+  }
+
+  const handleVariantChange = (value: TVariant) => {
+    setVariant(value)
+    router.replace(`?type=${type}&variant=${value}`, {
+      scroll: false,
+    })
+  }
+
+  useEffect(() => {
+    if (activeTabParam) {
+      setType(activeTabParam)
+    }
+  }, [activeTabParam])
 
   return (
     <main className="container mx-auto flex h-screen flex-col gap-4 p-4 font-mono sm:px-8 sm:py-16 md:gap-16">
@@ -56,15 +95,32 @@ export default function Home() {
           are ready as optimized SVGs as well as React components.
         </span>
         <CodeBlock
-          title="install"
-          code="npm i @web3icons/react"
-          language="bash"
+          lineNumbers={false}
+          tabs={[
+            {
+              label: 'install',
+              content: 'npm i @web3icons/react',
+              language: 'bash',
+            },
+          ]}
         />
       </div>
       <div className="relative flex w-full flex-col-reverse gap-8 md:flex-row md:gap-12">
         <div className="flex w-full flex-col gap-8">
-          <Tabs />
-          <ControlBar />
+          <Tabs
+            tabs={['token', 'network', 'wallet', 'exchange']}
+            onTabChange={handleTabChange}
+            activeTab={type}
+            slotAfter={
+              <SegmentedControl
+                options={['mono', 'branded', 'background']}
+                selected={variant}
+                onChange={(variant) => handleVariantChange(variant as TVariant)}
+                className="hidden md:inline-flex"
+              />
+            }
+          />
+          <ControlBar handleVariantChange={handleVariantChange} />
           <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
             {icons.map((icon) => {
               return (
@@ -72,25 +128,33 @@ export default function Home() {
                   key={icon.id}
                   metadata={icon}
                   className="col-span-1 border border-gray-lightest"
+                  onClick={() => {
+                    setSelectedIcon(icon)
+                    setIsDrawerOpen(true)
+                  }}
                 />
               )
             })}
             <div className="col-span-full my-8 flex justify-center">
-              <button
-                type="button"
-                className="w-1/3 py-2 text-white duration-150 hover:bg-gray-dark"
-                onClick={loadMoreIcons}
-              >
-                load more
-              </button>
+              {hasMoreIcons && (
+                <button
+                  type="button"
+                  className="w-1/3 py-2 text-white duration-150 hover:bg-gray-dark"
+                  onClick={loadMoreIcons}
+                >
+                  load more
+                </button>
+              )}
             </div>
           </div>
         </div>
       </div>
-      {selectedIcons.length > 0 && (
-        <div className="flex w-full justify-center">
-          <ActionBar />
-        </div>
+      {selectedIcon && (
+        <Drawer
+          metadata={selectedIcon}
+          isOpen={isDrawerOpen}
+          setIsOpen={setIsDrawerOpen}
+        />
       )}
     </main>
   )

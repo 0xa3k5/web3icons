@@ -5,17 +5,17 @@ import Button from './Button'
 
 interface Props {
   className?: string
-  copyContent: string
   disabled?: boolean
   tooltipPosition?: 'top' | 'bottom'
+  onClick: () => void
 }
 
 export default function CopyButton({
   className,
-  copyContent,
   disabled,
   children,
   tooltipPosition,
+  onClick,
 }: PropsWithChildren<Props>): JSX.Element {
   const [tooltip, setTooltip] = useState({ toggle: false, text: '' })
 
@@ -30,7 +30,7 @@ export default function CopyButton({
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText(copyContent)
+      onClick()
       setTooltip({ toggle: true, text: 'copied!' })
     } catch (err) {
       console.error(err)
