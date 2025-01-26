@@ -10,6 +10,7 @@ import {
   addNewVariant,
 } from '../../utils'
 import chalk from 'chalk'
+import { handleDeletedIcons } from './delete-icons'
 
 const getModifiedIcons = () => {
   return execSync("git ls-files --others -m --exclude-standard -- '*.svg' | tr '\n' ','")
@@ -17,22 +18,38 @@ const getModifiedIcons = () => {
     .trim()
 }
 
+const getDeletedIcons = () => {
+  return execSync("git ls-files --deleted -- '*.svg' | tr '\n' ','").toString().trim()
+}
+
 const addIcons = async () => {
+  await handleDeletedIcons()
+
   const modifiedIcons = getModifiedIcons()
   const passedFiles = process.argv.slice(2)
+  const deletedFiles = getDeletedIcons().split(',').filter(Boolean)
 
   if (
     (modifiedIcons === '' || !modifiedIcons.includes('raw-svgs/')) &&
-    (passedFiles === undefined || passedFiles.length === 0)
+    (passedFiles === undefined || passedFiles.length === 0) &&
+    deletedFiles.length === 0
   ) {
-    console.error(`No new icons found`)
-    process.exit(1)
+    console.error(`No icon changes detected`)
+    process.exit(0)
   }
 
+  // Skip if only deletions were found
+  if (modifiedIcons === '' && passedFiles.length === 0) {
+    process.exit(0)
+  }
+
+  // Filter out deleted files from the modified files list
+  const deletedSet = new Set(deletedFiles)
   const iconPaths = modifiedIcons
     .concat(passedFiles.map((f) => `${SVG_SRC_DIR}/${f}`).join(','))
     .split(',')
     .filter(Boolean)
+    .filter((filePath) => !deletedSet.has(filePath))
     .filter((filePath) => validateSvg(filePath))
 
   const groupedIcons: {

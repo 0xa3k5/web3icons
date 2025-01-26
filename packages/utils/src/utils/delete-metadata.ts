@@ -8,17 +8,16 @@ import {
 } from '../constants'
 
 export const deleteMetadata = async (fileName: string, type: TType): Promise<void> => {
-  const paths = {
+  const METADATA_PATHS = {
     token: TOKENS_METADATA_PATH,
     network: NETWORKS_METADATA_PATH,
     wallet: WALLETS_METADATA_PATH,
     exchange: EXCHANGES_METADATA_PATH,
   }
 
-  const metadataPath = paths[type]
-  const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'))
+  const metadata = JSON.parse(fs.readFileSync(METADATA_PATHS[type], 'utf-8'))
 
   const updatedMetadata = metadata.filter((item: TMetadata) => item.id !== fileName)
 
-  fs.writeFileSync(metadataPath, JSON.stringify(updatedMetadata, null, 2))
+  fs.writeFileSync(METADATA_PATHS[type], JSON.stringify(updatedMetadata, null, 2))
 }

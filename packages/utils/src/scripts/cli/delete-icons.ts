@@ -1,35 +1,102 @@
 import { execSync } from 'child_process'
 import path from 'path'
-import chalk from 'chalk'
+import { TType, TVariant, TMetadata } from '@web3icons/common'
 import { confirm } from '@clack/prompts'
-import { deleteMetadata, findExistingMetadata, getTypeAndVariant } from '../../utils'
+import chalk from 'chalk'
+import fs from 'fs'
+import {
+  getTypeAndVariant,
+  findExistingMetadata,
+  deleteMetadata,
+  updateMetadataJson,
+} from '../../utils'
 
-export const handleDeletedIcons = async () => {
-  const deletedFiles = execSync("git ls-files --deleted -- '*.svg' | tr '\n' ','").toString().trim()
+const getDeletedIcons = () => {
+  return execSync("git ls-files --deleted -- '*.svg' | tr '\n' ','").toString().trim()
+}
+
+const deleteVariant = async (
+  metadata: TMetadata,
+  type: TType,
+  deletedVariant: TVariant,
+): Promise<void> => {
+  const updatedVariants = metadata.variants.filter((v) => v !== deletedVariant)
+  metadata.variants = updatedVariants
+
+  await updateMetadataJson(metadata, type)
+  console.log(chalk.blue(`Removed ${deletedVariant} variant from ${metadata.id}`))
+}
+
+const deleteAllVariants = async (
+  fileName: string,
+  type: TType,
+  remainingVariants: TVariant[],
+): Promise<void> => {
+  // Delete remaining SVG files
+  remainingVariants.forEach((variant) => {
+    const svgPath = path.join('raw-svgs', type, variant, `${fileName}.svg`)
+    if (fs.existsSync(svgPath)) {
+      fs.unlinkSync(svgPath)
+      console.log(chalk.red(`Deleted ${fileName} (${variant})`))
+    }
+  })
+
+  await deleteMetadata(fileName, type)
+  console.log(chalk.red(`Removed ${fileName} metadata`))
+}
+
+export const handleDeletedIcons = async (): Promise<void> => {
+  const deletedFiles = getDeletedIcons()
   if (!deletedFiles) return
 
   const deletedIconPaths = deletedFiles.split(',').filter(Boolean)
 
   for (const filePath of deletedIconPaths) {
     const fileName = path.basename(filePath, '.svg')
-    const { type } = getTypeAndVariant(filePath)
+    const { type, variant } = getTypeAndVariant(filePath)
 
     const existingMetadata = findExistingMetadata(fileName, type)
     if (!existingMetadata) continue
 
-    const shouldDelete = await confirm({
-      message: `${chalk.yellow('⚠️')} Icon ${chalk.bold(fileName)} has been deleted.\nDo you want to remove its metadata as well?`,
-      active: 'Yes, remove metadata',
-      inactive: 'No, keep metadata',
-    })
+    console.log(chalk.yellow(`\nDeleted ${variant} variant of ${fileName}`))
 
-    if (shouldDelete) {
-      await deleteMetadata(fileName, type)
-      console.log(chalk.red(`Removed metadata for deleted ${type} icon: ${fileName}`))
+    if (existingMetadata.variants.length > 1) {
+      // Multiple variants exist
+      const remainingVariants = existingMetadata.variants.filter((v) => v !== variant)
+
+      if (remainingVariants.length === existingMetadata.variants.length) {
+        continue
+      }
+
+      const shouldDeleteAll = await confirm({
+        message: `Delete all variants of ${fileName}? (${remainingVariants.join(', ')})`,
+        active: 'Yes',
+        inactive: 'No',
+        initialValue: false,
+      })
+
+      if (shouldDeleteAll) {
+        await deleteAllVariants(fileName, type, remainingVariants)
+      } else {
+        await deleteVariant(existingMetadata, type, variant)
+      }
     } else {
-      console.log(chalk.blue(`Keeping metadata for deleted ${type} icon: ${fileName}`))
+      // Only one variant exists
+      const shouldDeleteMetadata = await confirm({
+        message: `Remove metadata for ${fileName}?`,
+        active: 'Yes',
+        inactive: 'No',
+        initialValue: false,
+      })
+
+      if (shouldDeleteMetadata) {
+        await deleteMetadata(fileName, type)
+        console.log(chalk.red(`Removed ${fileName} metadata`))
+      }
     }
   }
 }
 
-handleDeletedIcons()
+if (import.meta.url === `file://${process.argv[1]}`) {
+  await handleDeletedIcons()
+}
