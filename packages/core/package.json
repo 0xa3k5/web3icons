@@ -29,7 +29,7 @@
     },
     "./svgs/tokens/*": "./dist/svgs/tokens/*",
     "./svgs/networks/*": "./dist/svgs/networks/*",
-    "./svgs/wallets/*": "./dist/svgs/wallets/*",
+    "./svgs/wallets/*": "./dist/svgs/wallets/*"
   },
   "sideEffects": false,
   "repository": {

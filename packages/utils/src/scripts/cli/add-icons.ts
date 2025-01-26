@@ -1,16 +1,15 @@
 import { execSync } from 'child_process'
 import path from 'path'
 import { TType, TVariant } from '@web3icons/common'
-import { SVG_SRC_DIR } from '../constants'
+import { SVG_SRC_DIR } from '../../constants'
 import {
   validateSvg,
   getTypeAndVariant,
   findExistingMetadata,
   addNewIcon,
   addNewVariant,
-} from '../utils'
+} from '../../utils'
 import chalk from 'chalk'
-import { handleDeletedIcons } from './cli/delete-icons'
 
 const getModifiedIcons = () => {
   return execSync("git ls-files --others -m --exclude-standard -- '*.svg' | tr '\n' ','")
@@ -18,9 +17,7 @@ const getModifiedIcons = () => {
     .trim()
 }
 
-const main = async () => {
-  await handleDeletedIcons()
-
+const addIcons = async () => {
   const modifiedIcons = getModifiedIcons()
   const passedFiles = process.argv.slice(2)
 
@@ -74,4 +71,4 @@ const main = async () => {
   }
 }
 
-await main()
+await addIcons()
