@@ -29,8 +29,9 @@
   },
   "sideEffects": false,
   "dependencies": {
+    "@clack/prompts": "^0.9.1",
     "@web3icons/common": "0.10.0",
-    "@inquirer/prompts": "^5.3.2"
+    "chalk": "^5.4.1"
   },
   "devDependencies": {
     "bun-types": "latest",

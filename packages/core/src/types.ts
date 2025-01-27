@@ -1,6 +1,5 @@
 import { TVariant } from '@web3icons/common'
 
-export type TType = 'network' | 'token' | 'wallet'
 export interface ITokenMetadata {
   id: string
   symbol: string

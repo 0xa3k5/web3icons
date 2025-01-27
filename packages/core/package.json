@@ -41,10 +41,10 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun run pre-build && bun run build:types && tsup && bun run post-build",
+    "build": "bun run pre-build && bun run build:types && tsup",
     "pre-build": "cd ../utils && bun run pre-build:core",
     "build:types": "tsc --outDir dist/types --declarationDir dist/types --declaration true",
-    "post-build": "bun run src/post-build-fix-paths.ts && bun run lint && bun run format",
+    "post-build": "bun run lint && bun run format",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error"
   },
