@@ -4,7 +4,8 @@
     "name": "Kujira",
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "kujira",
-    "shortName": "kujira"
+    "shortName": "kujira",
+    "caip2id": "cosmos:kaiyo-1"
   },
   {
     "id": "eos",
@@ -12,7 +13,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 17777,
     "nativeCoinId": "eos",
-    "shortName": "eos"
+    "shortName": "eos",
+    "caip2id": "eip155:17777"
   },
   {
     "id": "aurora",
@@ -20,22 +22,25 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "aurora",
     "chainId": 1313161554,
-    "nativeCoinId": "aurora-near"
+    "nativeCoinId": "aurora-near",
+    "caip2id": "eip155:1313161554"
   },
   {
-    "id": "polygon-pos",
+    "id": "polygon",
     "name": "Polygon",
     "variants": ["background", "branded", "mono"],
     "shortName": "MATIC",
     "chainId": 137,
-    "nativeCoinId": "matic-network"
+    "nativeCoinId": "matic-network",
+    "caip2id": "eip155:137"
   },
   {
     "id": "cardano",
     "name": "Cardano",
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "cardano",
-    "shortName": "ada"
+    "shortName": "ada",
+    "caip2id": "cip-34:1-764824073"
   },
   {
     "id": "tron",
@@ -50,7 +55,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 1101,
     "nativeCoinId": "ethereum",
-    "shortName": "polygon"
+    "shortName": "polygon",
+    "caip2id": "eip155:1101"
   },
   {
     "id": "telos",
@@ -58,14 +64,16 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 40,
     "nativeCoinId": "telos",
-    "shortName": "telos"
+    "shortName": "telos",
+    "caip2id": "eip155:40"
   },
   {
     "id": "algorand",
     "name": "Algorand",
     "variants": ["mono"],
     "nativeCoinId": "algorand",
-    "shortName": "algo"
+    "shortName": "algo",
+    "caip2id": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73k"
   },
   {
     "id": "mode",
@@ -73,7 +81,8 @@
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "mode",
     "shortName": "mode",
-    "chainId": 3444
+    "chainId": 34443,
+    "caip2id": "eip155:34443"
   },
   {
     "id": "neon-evm",
@@ -81,7 +90,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 245022934,
     "nativeCoinId": "neon",
-    "shortName": "neon-evm"
+    "shortName": "neon-evm",
+    "caip2id": "eip155:245022934"
   },
   {
     "id": "cronos",
@@ -89,7 +99,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "CRO",
     "chainId": 25,
-    "nativeCoinId": "crypto-com-chain"
+    "nativeCoinId": "crypto-com-chain",
+    "caip2id": "eip155:25"
   },
   {
     "id": "ethereum",
@@ -97,7 +108,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "Ethereum",
     "chainId": 1,
-    "nativeCoinId": "ethereum"
+    "nativeCoinId": "ethereum",
+    "caip2id": "eip155:1"
   },
   {
     "id": "starknet",
@@ -112,7 +124,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 2222,
     "nativeCoinId": "kava",
-    "shortName": "kava"
+    "shortName": "kava",
+    "caip2id": "cosmos:kava-4"
   },
   {
     "id": "linea",
@@ -120,7 +133,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 59144,
     "nativeCoinId": "ethereum",
-    "shortName": "linea"
+    "shortName": "linea",
+    "caip2id": "eip155:59144"
   },
   {
     "id": "filecoin",
@@ -128,7 +142,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 314,
     "nativeCoinId": "filecoin",
-    "shortName": "filecoin"
+    "shortName": "filecoin",
+    "caip2id": "eip155:314"
   },
   {
     "id": "zilliqa",
@@ -136,7 +151,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 32769,
     "nativeCoinId": "zilliqa",
-    "shortName": "zilliqa"
+    "shortName": "zilliqa",
+    "caip2id": "eip155:32769"
   },
   {
     "id": "cosmos",
@@ -150,7 +166,8 @@
     "name": "Stellar",
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "stellar",
-    "shortName": "stellar"
+    "shortName": "stellar",
+    "caip2id": "stellar:pubnet"
   },
   {
     "id": "ronin",
@@ -158,7 +175,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "ron",
     "nativeCoinId": "ronin",
-    "chainId": 202
+    "chainId": 2020,
+    "caip2id": "eip155:2020"
   },
   {
     "id": "osmosis",
@@ -173,7 +191,8 @@
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "xai-blockchain",
     "shortName": "xai",
-    "chainId": 66027
+    "chainId": 660279,
+    "caip2id": "eip155:660279"
   },
   {
     "id": "manta-pacific",
@@ -189,7 +208,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 13371,
     "nativeCoinId": "immutable-x",
-    "shortName": "immutable"
+    "shortName": "immutable",
+    "caip2id": "eip155:13371"
   },
   {
     "id": "injective",
@@ -203,7 +223,8 @@
     "name": "Solana",
     "variants": ["background", "branded", "mono"],
     "shortName": "Solana",
-    "nativeCoinId": "solana"
+    "nativeCoinId": "solana",
+    "caip2id": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp"
   },
   {
     "id": "blast",
@@ -211,7 +232,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 81457,
     "nativeCoinId": "blast",
-    "shortName": "blast"
+    "shortName": "blast",
+    "caip2id": "eip155:81457"
   },
   {
     "id": "moonbeam",
@@ -219,7 +241,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 1284,
     "nativeCoinId": "moonbeam",
-    "shortName": "moonbeam"
+    "shortName": "moonbeam",
+    "caip2id": "eip155:1284"
   },
   {
     "id": "astar",
@@ -227,7 +250,17 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 592,
     "nativeCoinId": "astar",
-    "shortName": "astar"
+    "shortName": "astar",
+    "caip2id": "eip155:592"
+  },
+  {
+    "id": "astar-zkevm",
+    "name": "Astar zkEVM",
+    "variants": ["background", "branded", "mono"],
+    "chainId": 3776,
+    "nativeCoinId": "astar",
+    "shortName": "astar",
+    "caip2id": "eip155:3776"
   },
   {
     "id": "zksync",
@@ -235,7 +268,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "zkSync",
     "chainId": 324,
-    "nativeCoinId": "ethereum"
+    "nativeCoinId": "ethereum",
+    "caip2id": "eip155:324"
   },
   {
     "id": "juno",
@@ -249,7 +283,8 @@
     "name": "Polkadot",
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "polkadot",
-    "shortName": "dot"
+    "shortName": "dot",
+    "caip2id": "polkadot:91b171bb158e2d3848fa23a9f1c25182"
   },
   {
     "id": "beam",
@@ -257,7 +292,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 4337,
     "nativeCoinId": "beam",
-    "shortName": "beam"
+    "shortName": "beam",
+    "caip2id": "eip155:4337"
   },
   {
     "id": "boba",
@@ -265,7 +301,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 288,
     "nativeCoinId": "ethereum",
-    "shortName": "boba"
+    "shortName": "boba",
+    "caip2id": "eip155:288"
   },
   {
     "id": "celo",
@@ -273,7 +310,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "celo",
     "chainId": 42220,
-    "nativeCoinId": "celo"
+    "nativeCoinId": "celo",
+    "caip2id": "eip155:42220"
   },
   {
     "id": "base",
@@ -281,7 +319,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 8453,
     "nativeCoinId": "ethereum",
-    "shortName": "base"
+    "shortName": "base",
+    "caip2id": "eip155:8453"
   },
   {
     "id": "binance-smart-chain",
@@ -289,7 +328,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "BSC",
     "chainId": 56,
-    "nativeCoinId": "binancecoin"
+    "nativeCoinId": "binancecoin",
+    "caip2id": "eip155:56"
   },
   {
     "id": "loopring",
@@ -300,19 +340,21 @@
   },
   {
     "id": "fantom",
-    "name": "Fantom",
+    "name": "Fantom Opera",
     "variants": ["background", "branded", "mono"],
     "chainId": 250,
     "nativeCoinId": "fantom",
-    "shortName": "fantom"
+    "shortName": "fantom",
+    "caip2id": "eip155:250"
   },
   {
     "id": "avalanche",
-    "name": "Avalanche",
+    "name": "Avalanche C-Chain",
     "variants": ["background", "branded", "mono"],
-    "shortName": "AVAX",
+    "shortName": "Avalanche",
     "chainId": 43114,
-    "nativeCoinId": "avalanche-2"
+    "nativeCoinId": "avax",
+    "caip2id": "eip155:43114"
   },
   {
     "id": "scroll",
@@ -320,7 +362,8 @@
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "weth",
     "shortName": "scroll",
-    "chainId": 53435
+    "chainId": 534352,
+    "caip2id": "eip155:534352"
   },
   {
     "id": "aptos",
@@ -342,7 +385,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 88888,
     "nativeCoinId": "chiliz",
-    "shortName": "chiliz"
+    "shortName": "chiliz",
+    "caip2id": "eip155:88888"
   },
   {
     "id": "x-layer",
@@ -350,7 +394,8 @@
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "okb",
     "shortName": "xlayer",
-    "chainId": 19
+    "chainId": 19,
+    "caip2id": "eip155:19"
   },
   {
     "id": "etherlink",
@@ -358,7 +403,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "etherlink",
     "chainId": 42793,
-    "nativeCoinId": "xtz"
+    "nativeCoinId": "xtz",
+    "caip2id": "eip155:42793"
   },
   {
     "id": "arbitrum-one",
@@ -366,21 +412,24 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "Arbitrum",
     "chainId": 42161,
-    "nativeCoinId": "ethereum"
+    "nativeCoinId": "ethereum",
+    "caip2id": "eip155:42161"
   },
   {
     "id": "xrp",
     "name": "XRP Ledger",
     "variants": ["background", "branded", "mono"],
     "shortName": "xrp",
-    "nativeCoinId": "ripple"
+    "nativeCoinId": "ripple",
+    "caip2id": "xrpl:0"
   },
   {
     "id": "cosmos-hub",
     "name": "Cosmos Hub",
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "cosmos",
-    "shortName": "cosmos"
+    "shortName": "cosmos",
+    "caip2id": "cosmos:cosmoshub-4"
   },
   {
     "id": "metis-andromeda",
@@ -388,7 +437,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 1088,
     "nativeCoinId": "metis-token",
-    "shortName": "metis"
+    "shortName": "metis",
+    "caip2id": "eip155:1088"
   },
   {
     "id": "moonriver",
@@ -396,7 +446,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "moonriver",
     "chainId": 1285,
-    "nativeCoinId": "moonriver"
+    "nativeCoinId": "moonriver",
+    "caip2id": "eip155:1285"
   },
   {
     "id": "sei-network",
@@ -404,14 +455,16 @@
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "sei-network",
     "shortName": "sei",
-    "chainId": 132
+    "chainId": 1329,
+    "caip2id": "eip155:1329"
   },
   {
     "id": "litecoin",
     "name": "Litecoin",
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "litecoin",
-    "shortName": "ltc"
+    "shortName": "ltc",
+    "caip2id": "bip122:12a765e31ffd4059bada1e25190f6e98"
   },
   {
     "id": "wemix",
@@ -419,7 +472,8 @@
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "wemix",
     "shortName": "wemix",
-    "chainId": 111
+    "chainId": 111,
+    "caip2id": "eip155:1111"
   },
   {
     "id": "gnosis",
@@ -427,7 +481,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 100,
     "nativeCoinId": "xDai",
-    "shortName": "xdai"
+    "shortName": "xdai",
+    "caip2id": "eip155:100"
   },
   {
     "id": "near-protocol",
@@ -435,7 +490,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "near-protocol",
     "nativeCoinId": "near",
-    "chainId": 39
+    "chainId": 39,
+    "caip2id": "near:mainnet"
   },
   {
     "id": "hedera-hashgraph",
@@ -443,7 +499,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "hedera",
     "chainId": 295,
-    "nativeCoinId": "hedera-hashgraph"
+    "nativeCoinId": "hedera-hashgraph",
+    "caip2id": "eip155:295"
   },
   {
     "id": "rari",
@@ -451,14 +508,16 @@
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "rari",
     "shortName": "rari",
-    "chainId": 138001261
+    "chainId": 1380012617,
+    "caip2id": "eip155:1380012617"
   },
   {
     "id": "bitcoin",
     "name": "Bitcoin",
     "variants": ["background", "branded", "mono"],
     "shortName": "bitcoin",
-    "nativeCoinId": "bitcoin"
+    "nativeCoinId": "bitcoin",
+    "caip2id": "bip122:000000000019d6689c085ae165831e93"
   },
   {
     "id": "fio",
@@ -480,14 +539,17 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "iotex",
     "chainId": 4689,
-    "nativeCoinId": "iotex"
+    "nativeCoinId": "iotex",
+    "caip2id": "eip155:4689"
   },
   {
     "id": "clover",
     "name": "Clover",
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "clover-finance",
-    "shortName": "clover"
+    "shortName": "clover",
+    "chainId": 1024,
+    "caip2id": "eip155:1024"
   },
   {
     "id": "gravity",
@@ -495,7 +557,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "gravity",
     "chainId": 1625,
-    "nativeCoinId": "g"
+    "nativeCoinId": "g",
+    "caip2id": "eip155:1625"
   },
   {
     "id": "lava-network",
@@ -510,7 +573,8 @@
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "neo",
     "shortName": "neox",
-    "chainId": 4776
+    "chainId": 47763,
+    "caip2id": "eip155:47763"
   },
   {
     "id": "abstract",
@@ -518,7 +582,8 @@
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "eth",
     "shortName": "abstract",
-    "chainId": 1112
+    "chainId": 11124,
+    "caip2id": "eip155:11124"
   },
   {
     "id": "acala",
@@ -526,7 +591,8 @@
     "variants": ["background", "branded", "mono"],
     "nativeCoinId": "acala",
     "shortName": "acala",
-    "chainId": 78
+    "chainId": 787,
+    "caip2id": "eip155:787"
   },
   {
     "id": "apex-layer",
@@ -534,7 +600,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "apex",
     "chainId": 2662,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:2662"
   },
   {
     "id": "arbitrum-nova",
@@ -542,7 +609,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 42170,
     "nativeCoinId": "ethereum",
-    "shortName": "arbitrum-nova"
+    "shortName": "arbitrum-nova",
+    "caip2id": "eip155:42170"
   },
   {
     "id": "bitkub-chain",
@@ -550,7 +618,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 96,
     "nativeCoinId": "bitkub-coin",
-    "shortName": "bitkub"
+    "shortName": "bitkub",
+    "caip2id": "eip155:96"
   },
   {
     "id": "coinex-smart-chain",
@@ -558,7 +627,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "CSC",
     "chainId": 52,
-    "nativeCoinId": "coinex-token"
+    "nativeCoinId": "coinex-token",
+    "caip2id": "eip155:52"
   },
   {
     "id": "conflux",
@@ -566,7 +636,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "conflux",
     "chainId": 1030,
-    "nativeCoinId": "conflux-token"
+    "nativeCoinId": "conflux-token",
+    "caip2id": "eip155:1030"
   },
   {
     "id": "cronos-zkevm",
@@ -574,7 +645,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 388,
     "nativeCoinId": "cronos-zkevm-cro",
-    "shortName": "cronos"
+    "shortName": "cronos",
+    "caip2id": "eip155:388"
   },
   {
     "id": "elastos",
@@ -590,7 +662,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "energy",
     "chainId": 246,
-    "nativeCoinId": "ewt"
+    "nativeCoinId": "ewt",
+    "caip2id": "eip155:246"
   },
   {
     "id": "enuls",
@@ -598,7 +671,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "enuls",
     "chainId": 119,
-    "nativeCoinId": "nuls"
+    "nativeCoinId": "nuls",
+    "caip2id": "eip155:119"
   },
   {
     "id": "ethereum-classic",
@@ -606,7 +680,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 61,
     "nativeCoinId": "ethereum-classic",
-    "shortName": "eth-classic"
+    "shortName": "eth-classic",
+    "caip2id": "eip155:61"
   },
   {
     "id": "flare",
@@ -614,7 +689,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "flare",
     "chainId": 14,
-    "nativeCoinId": "flr"
+    "nativeCoinId": "flr",
+    "caip2id": "eip155:14"
   },
   {
     "id": "fraxtal",
@@ -622,7 +698,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 252,
     "nativeCoinId": "fraxtal",
-    "shortName": "fraxtal"
+    "shortName": "fraxtal",
+    "caip2id": "eip155:252"
   },
   {
     "id": "fuse",
@@ -630,7 +707,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 122,
     "nativeCoinId": "fuse-network-token",
-    "shortName": "fuse"
+    "shortName": "fuse",
+    "caip2id": "eip155:122"
   },
   {
     "id": "kardia",
@@ -638,7 +716,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "kardia",
     "chainId": 24,
-    "nativeCoinId": "kai"
+    "nativeCoinId": "kai",
+    "caip2id": "eip155:24"
   },
   {
     "id": "lukso",
@@ -646,7 +725,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 42,
     "nativeCoinId": "lukso-token-2",
-    "shortName": "lukso"
+    "shortName": "lukso",
+    "caip2id": "eip155:42"
   },
   {
     "id": "lyra",
@@ -654,7 +734,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "lyra",
     "chainId": 957,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:957"
   },
   {
     "id": "meter",
@@ -662,7 +743,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 82,
     "nativeCoinId": "meter",
-    "shortName": "meter"
+    "shortName": "meter",
+    "caip2id": "eip155:82"
   },
   {
     "id": "oasys",
@@ -670,7 +752,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 248,
     "nativeCoinId": "oasys",
-    "shortName": "oasys"
+    "shortName": "oasys",
+    "caip2id": "eip155:248"
   },
   {
     "id": "rollux",
@@ -678,7 +761,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 570,
     "nativeCoinId": "syscoin",
-    "shortName": "rollux"
+    "shortName": "rollux",
+    "caip2id": "eip155:570"
   },
   {
     "id": "rootstock",
@@ -686,7 +770,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 30,
     "nativeCoinId": "rootstock",
-    "shortName": "rootstock"
+    "shortName": "rootstock",
+    "caip2id": "eip155:30"
   },
   {
     "id": "shiden",
@@ -694,7 +779,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "shiden",
     "chainId": 336,
-    "nativeCoinId": "sdn"
+    "nativeCoinId": "sdn",
+    "caip2id": "eip155:336"
   },
   {
     "id": "shimmer-evm",
@@ -702,7 +788,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "shimmer",
     "chainId": 148,
-    "nativeCoinId": "smr"
+    "nativeCoinId": "smr",
+    "caip2id": "eip155:148"
   },
   {
     "id": "songbird",
@@ -710,7 +797,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 19,
     "nativeCoinId": "songbird",
-    "shortName": "19"
+    "shortName": "19",
+    "caip2id": "eip155:19"
   },
   {
     "id": "step",
@@ -718,15 +806,17 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "step",
     "chainId": 1234,
-    "nativeCoinId": "step"
+    "nativeCoinId": "step",
+    "caip2id": "eip155:1234"
   },
   {
     "id": "sys",
-    "name": "syscoin",
+    "name": "Syscoin",
     "variants": ["background", "branded", "mono"],
     "shortName": "sys",
     "chainId": 57,
-    "nativeCoinId": "sys"
+    "nativeCoinId": "sys",
+    "caip2id": "eip155:57"
   },
   {
     "id": "theta",
@@ -734,7 +824,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 361,
     "nativeCoinId": "theta-token",
-    "shortName": "theta"
+    "shortName": "theta",
+    "caip2id": "eip155:361"
   },
   {
     "id": "thundercore",
@@ -742,7 +833,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 108,
     "nativeCoinId": "thunder-token",
-    "shortName": "thunder"
+    "shortName": "thunder",
+    "caip2id": "eip155:108"
   },
   {
     "id": "ubiq",
@@ -750,7 +842,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "ubiq",
     "chainId": 8,
-    "nativeCoinId": "ubq"
+    "nativeCoinId": "ubq",
+    "caip2id": "eip155:8"
   },
   {
     "id": "ultron",
@@ -758,7 +851,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 1231,
     "nativeCoinId": "ultron",
-    "shortName": "ultron"
+    "shortName": "ultron",
+    "caip2id": "eip155:1231"
   },
   {
     "id": "velas",
@@ -766,7 +860,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "velas",
     "chainId": 106,
-    "nativeCoinId": "velas"
+    "nativeCoinId": "velas",
+    "caip2id": "eip155:106"
   },
   {
     "id": "xdc",
@@ -774,7 +869,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "xdc",
     "chainId": 50,
-    "nativeCoinId": "xdc"
+    "nativeCoinId": "xdc",
+    "caip2id": "eip155:50"
   },
   {
     "id": "zyx",
@@ -782,15 +878,17 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "zyx",
     "chainId": 55,
-    "nativeCoinId": "zyx"
+    "nativeCoinId": "zyx",
+    "caip2id": "eip155:55"
   },
   {
     "id": "dogechain",
     "name": "Dogechain",
     "variants": ["background", "branded"],
     "chainId": 2000,
-    "nativeCoinId": "dogechain",
-    "shortName": "dogechain"
+    "nativeCoinId": "doge",
+    "shortName": "dogechain",
+    "caip2id": "eip155:2000"
   },
   {
     "id": "milkomeda-a1",
@@ -798,7 +896,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "milkomeda",
     "chainId": 2002,
-    "nativeCoinId": "mALGO"
+    "nativeCoinId": "mALGO",
+    "caip2id": "eip155:2002"
   },
   {
     "id": "milkomeda-c1",
@@ -806,7 +905,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "milkomeda",
     "chainId": 2001,
-    "nativeCoinId": "mADA"
+    "nativeCoinId": "mADA",
+    "caip2id": "eip155:2001"
   },
   {
     "id": "reya",
@@ -814,7 +914,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "reya",
     "chainId": 1729,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:1729"
   },
   {
     "id": "tenet",
@@ -822,7 +923,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 1559,
     "nativeCoinId": "tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9",
-    "shortName": "tenet"
+    "shortName": "tenet",
+    "caip2id": "eip155:1559"
   },
   {
     "id": "bouncebit",
@@ -830,7 +932,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 6001,
     "nativeCoinId": "bouncebit",
-    "shortName": "bounce"
+    "shortName": "bounce",
+    "caip2id": "eip155:6001"
   },
   {
     "id": "mantle",
@@ -838,7 +941,8 @@
     "variants": ["background", "branded", "mono"],
     "chainId": 5000,
     "nativeCoinId": "mantle",
-    "shortName": "mantle"
+    "shortName": "mantle",
+    "caip2id": "eip155:5000"
   },
   {
     "id": "nahmii",
@@ -846,7 +950,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "nahmii",
     "chainId": 4061,
-    "nativeCoinId": "nahmii"
+    "nativeCoinId": "nahmii",
+    "caip2id": "eip155:4061"
   },
   {
     "id": "tombchain",
@@ -854,7 +959,8 @@
     "variants": ["background", "branded"],
     "shortName": "tomb",
     "chainId": 6969,
-    "nativeCoinId": "tomb"
+    "nativeCoinId": "tomb",
+    "caip2id": "eip155:6969"
   },
   {
     "id": "hubble-exchange",
@@ -862,7 +968,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "hubble",
     "chainId": 1992,
-    "nativeCoinId": "usdc"
+    "nativeCoinId": "usdc",
+    "caip2id": "eip155:1992"
   },
   {
     "id": "kucoin",
@@ -877,7 +984,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "zeta",
     "chainId": 7000,
-    "nativeCoinId": "zetachain"
+    "nativeCoinId": "zetachain",
+    "caip2id": "eip155:7000"
   },
   {
     "id": "bob",
@@ -885,7 +993,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "bob",
     "chainId": 60808,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:60808"
   },
   {
     "id": "kakarot",
@@ -900,15 +1009,17 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "karura",
     "chainId": 686,
-    "nativeCoinId": "karura"
+    "nativeCoinId": "karura",
+    "caip2id": "eip155:686"
   },
   {
     "id": "soneium",
     "name": "Soneium",
     "variants": ["background", "branded", "mono"],
     "shortName": "soneium",
-    "chainId": 1946,
-    "nativeCoinId": "eth"
+    "chainId": 1868,
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:1868"
   },
   {
     "id": "kroma",
@@ -916,7 +1027,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "kroma",
     "chainId": 255,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:255"
   },
   {
     "id": "l3x",
@@ -924,7 +1036,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "l3x",
     "chainId": 12324,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:12324"
   },
   {
     "id": "lightlink",
@@ -932,7 +1045,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "lightlink",
     "chainId": 1890,
-    "nativeCoinId": "ethereum"
+    "nativeCoinId": "ethereum",
+    "caip2id": "eip155:1890"
   },
   {
     "id": "lisk",
@@ -940,7 +1054,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "lisk",
     "chainId": 1135,
-    "nativeCoinId": "lisk"
+    "nativeCoinId": "lisk",
+    "caip2id": "eip155:1135"
   },
   {
     "id": "lycan",
@@ -948,7 +1063,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "lycan",
     "chainId": 721,
-    "nativeCoinId": "lyc"
+    "nativeCoinId": "lyc",
+    "caip2id": "eip155:721"
   },
   {
     "id": "arweave",
@@ -963,7 +1079,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "fluence",
     "chainId": 9999999,
-    "nativeCoinId": "flt"
+    "nativeCoinId": "flt",
+    "caip2id": "eip155:9999999"
   },
   {
     "id": "harmony",
@@ -971,7 +1088,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "one",
     "chainId": 1666600000,
-    "nativeCoinId": "one"
+    "nativeCoinId": "one",
+    "caip2id": "eip155:1666600000"
   },
   {
     "id": "optopia",
@@ -979,7 +1097,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "optopia",
     "chainId": 62050,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:62050"
   },
   {
     "id": "orderly",
@@ -987,22 +1106,25 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "orderly",
     "chainId": 291,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:291"
   },
   {
     "id": "moonbase",
     "name": "moonbase",
     "variants": ["background", "branded", "mono"],
     "shortName": "moonbase",
-    "chainId": 1287
+    "chainId": 1287,
+    "caip2id": "eip155:1287"
   },
   {
     "id": "unichain",
     "name": "Unichain",
     "variants": ["background", "branded", "mono"],
     "shortName": "uni",
-    "chainId": 130,
-    "nativeCoinId": "eth"
+    "chainId": 1301,
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:1301"
   },
   {
     "id": "lumio",
@@ -1010,7 +1132,8 @@
     "variants": ["background", "branded"],
     "shortName": "lumio",
     "chainId": 8866,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:8866"
   },
   {
     "id": "taiko",
@@ -1018,7 +1141,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "taiko",
     "chainId": 167000,
-    "nativeCoinId": "taiko"
+    "nativeCoinId": "taiko",
+    "caip2id": "eip155:167000"
   },
   {
     "id": "diode",
@@ -1026,7 +1150,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "diode",
     "chainId": 15,
-    "nativeCoinId": "diode"
+    "nativeCoinId": "diode",
+    "caip2id": "eip155:15"
   },
   {
     "id": "edgeless",
@@ -1034,7 +1159,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "edgeless",
     "chainId": 2026,
-    "nativeCoinId": "eweth"
+    "nativeCoinId": "eweth",
+    "caip2id": "eip155:2026"
   },
   {
     "id": "lens",
@@ -1042,7 +1168,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "lens",
     "chainId": 37111,
-    "nativeCoinId": "GRASS"
+    "nativeCoinId": "GRASS",
+    "caip2id": "eip155:37111"
   },
   {
     "id": "world",
@@ -1050,7 +1177,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "world",
     "chainId": 480,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:480"
   },
   {
     "id": "botanix",
@@ -1058,7 +1186,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "botanix",
     "chainId": 3637,
-    "nativeCoinId": "btc"
+    "nativeCoinId": "btc",
+    "caip2id": "eip155:3637"
   },
   {
     "id": "corn",
@@ -1066,7 +1195,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "corn",
     "chainId": 21000000,
-    "nativeCoinId": "btc"
+    "nativeCoinId": "btc",
+    "caip2id": "eip155:21000000"
   },
   {
     "id": "mantra",
@@ -1080,14 +1210,16 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "hemi",
     "chainId": 743111,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:743111"
   },
   {
     "id": "lumia",
     "name": "Lumia",
     "variants": ["background", "branded", "mono"],
     "shortName": "lumia",
-    "chainId": 1952959480
+    "chainId": 994873017,
+    "caip2id": "eip155:994873017"
   },
   {
     "id": "sonic",
@@ -1095,35 +1227,40 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "sonic",
     "chainId": 146,
-    "nativeCoinId": "sonic"
+    "nativeCoinId": "sonic",
+    "caip2id": "eip155:146"
   },
   {
     "id": "super-seed",
     "name": "Super Seed",
     "variants": ["background", "branded", "mono"],
     "shortName": "Super Seed",
-    "chainId": 53302
+    "chainId": 5330,
+    "caip2id": "eip155:5330"
   },
   {
     "id": "vanar",
     "name": "Vanar",
     "variants": ["background", "branded", "mono"],
     "shortName": "vanar",
-    "chainId": 2040
+    "chainId": 2040,
+    "caip2id": "eip155:2040"
   },
   {
     "id": "wax",
     "name": "WAX",
     "variants": ["background", "branded", "mono"],
     "shortName": "wax",
-    "nativeCoinId": "wax"
+    "nativeCoinId": "wax",
+    "caip2id": "antelope:1064487b3cd1a897ce03ae5b6a865651"
   },
   {
     "id": "rei",
     "name": "Rei",
     "variants": ["background", "branded", "mono"],
     "shortName": "rei",
-    "chainId": 47805
+    "chainId": 47805,
+    "caip2id": "eip155:47805"
   },
   {
     "id": "mint",
@@ -1131,7 +1268,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "mint",
     "chainId": 185,
-    "nativeCoinId": "weth"
+    "nativeCoinId": "weth",
+    "caip2id": "eip155:185"
   },
   {
     "id": "monad",
@@ -1139,15 +1277,17 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "monad",
     "chainId": 143,
-    "nativeCoinId": "monad"
+    "nativeCoinId": "monad",
+    "caip2id": "eip155:143"
   },
   {
     "id": "silicon",
-    "name": "Silicon",
+    "name": "Silicon zkEVM",
     "variants": ["background", "branded", "mono"],
     "shortName": "silicon",
     "chainId": 2355,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:2355"
   },
   {
     "id": "treasure",
@@ -1155,7 +1295,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "treasure",
     "chainId": 61166,
-    "nativeCoinId": "magic"
+    "nativeCoinId": "magic",
+    "caip2id": "eip155:61166"
   },
   {
     "id": "kaia",
@@ -1163,14 +1304,16 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "kaia",
     "chainId": 8217,
-    "nativeCoinId": "kaia"
+    "nativeCoinId": "kaia",
+    "caip2id": "eip155:8217"
   },
   {
     "id": "moonbase-alpha",
     "name": "Moonbase Alpha",
     "variants": ["background", "branded", "mono"],
     "shortName": "Moonbase Alpha",
-    "chainId": 1287
+    "chainId": 1287,
+    "caip2id": "eip155:1287"
   },
   {
     "id": "multiversx",
@@ -1183,7 +1326,9 @@
     "id": "nibiru",
     "name": "Nibiru",
     "variants": ["background", "branded", "mono"],
-    "nativeCoinId": "nibiru"
+    "nativeCoinId": "nibiru",
+    "chainId": 6900,
+    "caip2id": "eip155:6900"
   },
   {
     "id": "optimism",
@@ -1191,7 +1336,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "Optimism",
     "chainId": 10,
-    "nativeCoinId": "eth"
+    "nativeCoinId": "eth",
+    "caip2id": "eip155:10"
   },
   {
     "id": "push",
@@ -1205,7 +1351,8 @@
     "variants": ["background", "branded", "mono"],
     "shortName": "viction",
     "chainId": 88,
-    "nativeCoinId": "viction"
+    "nativeCoinId": "viction",
+    "caip2id": "eip155:88"
   },
   {
     "id": "zora",
@@ -1213,6 +1360,7 @@
     "variants": ["background", "branded"],
     "shortName": "zora",
     "chainId": 7777777,
-    "nativeCoinId": "weth"
+    "nativeCoinId": "weth",
+    "caip2id": "eip155:7777777"
   }
 ]
