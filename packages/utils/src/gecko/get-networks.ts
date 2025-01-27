@@ -26,7 +26,7 @@ fetch('https://api.coingecko.com/api/v3/asset_platforms')
       'utf8',
     )
 
-    console.log('✅ gecko-networks.json has been updated.')
+    console.log('-gecko-networks.json has been updated.')
   })
   .catch((err) => {
     console.error('Error fetching or processing asset platforms from CoinGecko:', err)

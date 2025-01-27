@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { SVG_TOKENS_SRC_DIR, TOKENS_METADATA_PATH } from '../constants'
-import getCoinByID from './gecko/get-coin-by-id'
+import getCoinByID from '../gecko/get-coin-by-id'
 import { ITokenMetadata, TVariant } from '@web3icons/common'
 import { appendToMetadataJson } from '../utils'
 

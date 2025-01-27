@@ -109,7 +109,6 @@ Crypto wallets, react components are prefixed with `Wallet` followed by the Pasc
 
 Crypto exchanges, react components are prefixed with `Exchange` followed by the PascalCase name of the wallet. `ExchangeBybit`, `ExchangePancakeSwap`, `ExchangeBalancer`
 
-
 ```jsx
 import {
   TokenBTC,
@@ -123,7 +122,7 @@ import {
   WalletSafe,
   ExchangeBybit,
   ExchangePancakeSwap,
-  ExchangeBalancer
+  ExchangeBalancer,
 } from '@web3icons/react'
 
 const App = () => {
@@ -137,21 +136,49 @@ const App = () => {
       </div>
       <div>
         {/* Network Icons */}
-        <NetworkEthereum size={64} variant="branded" className="my-custom-class" />
-        <NetworkAvalanche size={64} variant="branded" className="my-custom-class" />
-        <NetworkBinanceSmartChain size={64} variant="branded" className="my-custom-class" />
+        <NetworkEthereum
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
+        <NetworkAvalanche
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
+        <NetworkBinanceSmartChain
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
       </div>
       <div>
         {/* Wallet Icons */}
         <WalletLedger size={64} variant="branded" className="my-custom-class" />
-        <WalletMetamask size={64} variant="branded" className="my-custom-class" />
+        <WalletMetamask
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
         <WalletSafe size={64} variant="branded" className="my-custom-class" />
       </div>
       <div>
         {/* Exchange Icons */}
-        <ExchangeBybit size={64} variant="branded" className="my-custom-class" />
-        <ExchangeBalancer size={64} variant="branded" className="my-custom-class" />
-        <ExchangePancakeSwap size={64} variant="branded" className="my-custom-class" />
+        <ExchangeBybit
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
+        <ExchangeBalancer
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
+        <ExchangePancakeSwap
+          size={64}
+          variant="branded"
+          className="my-custom-class"
+        />
       </div>
     </>
   )
@@ -256,9 +283,7 @@ import { ExchangeIcon } from '@web3icons/react'
 //   "variants": ["branded", "mono"],
 //   "type": "dex"
 // },
-
-<ExchangeCoinbase name="coinbase" size={32} variant="branded" /> // matches the name
-
+;<ExchangeCoinbase name="coinbase" size={32} variant="branded" /> // matches the name
 ```
 
 ---
