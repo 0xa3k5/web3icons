@@ -173,5 +173,12 @@
     "name": "Aevo",
     "type": "dex",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "paradex",
+    "fileName": "paradex",
+    "name": "Paradex",
+    "type": "dex",
+    "variants": ["background", "branded", "mono"]
   }
 ]

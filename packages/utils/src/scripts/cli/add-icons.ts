@@ -29,8 +29,6 @@ const addIcons = async () => {
   const passedFiles = process.argv.slice(2)
   const deletedFiles = getDeletedIcons().split(',').filter(Boolean)
 
-  console.log({ modifiedIcons })
-
   if (
     (modifiedIcons === '' || !modifiedIcons.includes('raw-svgs/')) &&
     (passedFiles === undefined || passedFiles.length === 0) &&
@@ -74,8 +72,6 @@ const addIcons = async () => {
       groupedIcons[fileName][type]!.variants.push(variant)
     }
   })
-
-  console.log({ groupedIcons })
 
   for (const [fileName, typeGroups] of Object.entries(groupedIcons)) {
     for (const [type, { variants }] of Object.entries(typeGroups)) {

@@ -2,8 +2,8 @@ jump to section:
 
 - [wallets (38)](#wallets)
 - [networks (162)](#networks)
-- [tokens (25)](#tokens)
-- [exchanges (1814)](#exchanges)
+- [exchanges (26)](#exchanges)
+- [tokens (1814)](#tokens)
 
 ### Wallets
 
@@ -244,6 +244,7 @@ jump to section:
 | uniswap      | Uniswap      | dex  | ✅      | ✅   | ✅         |
 | upbit        | UpBit        | cex  | ✅      | ✅   | ✅         |
 | aevo         | Aevo         | dex  | ✅      | ✅   | ✅         |
+| paradex      | Paradex      | dex  | ✅      | ✅   | ✅         |
 
 ### Tokens
 

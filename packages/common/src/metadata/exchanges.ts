@@ -171,9 +171,16 @@ export const exchanges: IExchangeMetadata[] = [
   },
   {
     id: 'aevo',
-    name: 'Aevo',
-    variants: ['background', 'branded', 'mono'],
     fileName: 'aevo',
+    name: 'Aevo',
     type: 'dex',
+    variants: ['background', 'branded', 'mono'],
+  },
+  {
+    id: 'paradex',
+    fileName: 'paradex',
+    name: 'Paradex',
+    type: 'dex',
+    variants: ['background', 'branded', 'mono'],
   },
 ]

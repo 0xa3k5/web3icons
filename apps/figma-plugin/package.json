@@ -22,8 +22,8 @@
     "@create-figma-plugin/ui": "^3.1.0",
     "@create-figma-plugin/utilities": "^3.1.0",
     "preact": ">=10",
-    "@web3icons/core": "3.16.0",
-    "@web3icons/common": "0.10.0"
+    "@web3icons/core": "4.0.0",
+    "@web3icons/common": "0.11.0"
   },
   "devDependencies": {
     "@create-figma-plugin/build": "^3.1.0",
@@ -35,7 +35,6 @@
     "typescript": ">=4"
   },
   "scripts": {
-    "build": "bun run build:css && bun run build:js",
     "build:css": "tailwindcss --input ./src/css/input.css --output ./src/css/output.css",
     "build:js": "build-figma-plugin --typecheck --minify",
     "watch": "bun run build:css && concurrently \"bun run watch:css\" \"bun run watch:js\"",
