@@ -1,7 +1,7 @@
 import { forwardRef } from 'react'
-import { NetworkIconProps } from './types'
 import { findNetwork } from './utils'
 import { DynamicIcon } from './DynamicIcon'
+import { NetworkIconProps } from './types'
 
 /**
  * @component @name NetworkIcon
@@ -15,10 +15,20 @@ import { DynamicIcon } from './DynamicIcon'
  */
 export const NetworkIcon = forwardRef<SVGSVGElement, NetworkIconProps>(
   (
-    { network, chainId, size, className, variant = 'mono', color, fallback },
+    {
+      name,
+      id,
+      chainId,
+      caip2id,
+      size,
+      className,
+      variant = 'mono',
+      color,
+      fallback,
+    },
     ref,
   ) => {
-    const metadata = findNetwork(network ? { network } : { chainId })
+    const metadata = findNetwork({ name, id, caip2id, chainId })
     return (
       <DynamicIcon
         type="network"
