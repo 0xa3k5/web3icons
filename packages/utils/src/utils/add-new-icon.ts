@@ -19,7 +19,7 @@ export const addNewIcon = async (
 ): Promise<void> => {
   const [fileName, { type, variants }] = icon
   const { id, name, fileName: currentFileName } = await getBaseMetadata(fileName, type, variants)
-  const metadata: TMetadata = { id, name, variants }
+  const metadata: TMetadata = { id, name, variants, fileName }
 
   const metadataHandlers = {
     network: () => handleNetworkMetadata(currentFileName, metadata as INetworkMetadata),
@@ -31,7 +31,7 @@ export const addNewIcon = async (
   const handler = metadataHandlers[type]
   if (!handler) throw new Error(`Unsupported icon type: ${type}`)
   await handler()
-
+  metadata.fileName = fileName
   await confirmAndAddMetadata(metadata, type)
 }
 

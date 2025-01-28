@@ -7,11 +7,7 @@ interface Props {
   type: TType
 }
 
-export const fetchSvgContent = async ({
-  metadata,
-  variant,
-  type,
-}: Props) => {
+export const fetchSvgContent = async ({ metadata, variant, type }: Props) => {
   let loading = true
   let error = null
 

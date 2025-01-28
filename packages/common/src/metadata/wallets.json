@@ -3,377 +3,228 @@
     "id": "alfa1",
     "fileName": "alfa1",
     "name": "alfa1",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "alpha-wallet",
     "fileName": "alpha-wallet",
     "name": "alpha wallet",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "argent",
     "fileName": "argent",
     "name": "argent x",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "backpack",
     "fileName": "backpack",
     "name": "backpack",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "clave",
     "fileName": "clave",
     "name": "clave",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "coin98",
     "fileName": "coin98",
     "name": "coin98",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "coinbase",
     "fileName": "coinbase",
     "name": "coinbase wallet",
-    "variants": [
-      "branded",
-      "background"
-    ]
+    "variants": ["branded", "background"]
   },
   {
     "id": "enkrypt",
     "fileName": "enkrypt",
     "name": "enkrypt",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "imtoken",
     "fileName": "imtoken",
     "name": "imToken",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "kraken",
     "fileName": "kraken",
     "name": "kraken wallet",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "ledger",
     "fileName": "ledger",
     "name": "ledger",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "lit",
     "fileName": "lit",
     "name": "lit protocol",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "metamask",
     "fileName": "metamask",
     "name": "MetaMask",
-    "variants": [
-      "branded",
-      "background"
-    ]
+    "variants": ["branded", "background"]
   },
   {
     "id": "multis",
     "fileName": "multis",
     "name": "multis",
-    "variants": [
-      "mono",
-      "background"
-    ]
+    "variants": ["mono", "background"]
   },
   {
     "id": "my-ether-wallet",
     "fileName": "my-ether-wallet",
     "name": "MyEtherWallet",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "obvious",
     "fileName": "obvious",
     "name": "obvious wallet",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "okx",
     "fileName": "okx",
     "name": "okx wallet",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "phantom",
     "fileName": "phantom",
     "name": "phantom",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "pillar",
     "fileName": "pillar",
     "name": "Pillar",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "portal",
     "fileName": "portal",
     "name": "portal",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "rabby",
     "fileName": "rabby",
     "name": "rabby",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "rainbow",
     "fileName": "rainbow",
     "name": "rainbow",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "ronin",
     "fileName": "ronin",
     "name": "ronin",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "safe",
     "fileName": "safe",
     "name": "safe wallet",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "sender",
     "fileName": "sender",
     "name": "sender",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "sequence",
     "fileName": "sequence",
     "name": "sequence",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "soul",
     "fileName": "soul",
     "name": "soul",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "squads",
     "fileName": "squads",
     "name": "squads",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "token-pocket",
     "fileName": "token-pocket",
     "name": "token pocket",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "trezor",
     "fileName": "trezor",
     "name": "trezor",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "trust",
     "fileName": "trust",
     "name": "trust wallet",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "unipass",
     "fileName": "unipass",
     "name": "unipass",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "venly",
     "fileName": "venly",
     "name": "venly",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "wallet-3",
     "fileName": "wallet-3",
     "name": "wallet3",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "wallet-connect",
     "fileName": "wallet-connect",
     "name": "wallet connect",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "xdefi",
     "fileName": "xdefi",
     "name": "xdefi",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "zengo",
     "fileName": "zengo",
     "name": "zengo",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "zerion",
     "fileName": "zerion",
     "name": "zerion",
-    "variants": [
-      "branded",
-      "mono",
-      "background"
-    ]
+    "variants": ["branded", "mono", "background"]
   }
 ]

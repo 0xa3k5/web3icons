@@ -1,4 +1,10 @@
-import { ReactNode, SVGProps } from 'react'
+import {
+  ReactNode,
+  SVGProps,
+  ForwardRefExoticComponent,
+  RefAttributes,
+} from 'react'
+import { TVariant } from '@web3icons/common'
 
 /**
  * BaseIconProps interface extends SVGProps for SVGSVGElement and adds size and fallback properties.
@@ -21,7 +27,7 @@ export interface BaseIconProps extends SVGProps<SVGSVGElement> {
  * @property {(string | ReactNode)} [fallback] - The fallback content to display if the icon fails to load.
  */
 export interface IconComponentProps extends SVGProps<SVGSVGElement> {
-  variant?: 'mono' | 'branded' | 'background'
+  variant?: TVariant
   size?: number | string
   color?: string
   className?: string
@@ -90,3 +96,7 @@ export type WalletIconProps = IconComponentProps &
  */
 export type ExchangeIconProps = IconComponentProps &
   ({ name: string; id?: never } | { id: string; name?: never })
+
+export type IconComponent = ForwardRefExoticComponent<
+  IconComponentProps & RefAttributes<SVGSVGElement>
+>
