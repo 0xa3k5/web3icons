@@ -169,9 +169,9 @@
   },
   {
     "id": "aevo",
-    "name": "Aevo",
-    "variants": ["background", "branded", "mono"],
     "fileName": "aevo",
-    "type": "dex"
+    "name": "Aevo",
+    "type": "dex",
+    "variants": ["background", "branded", "mono"]
   }
 ]

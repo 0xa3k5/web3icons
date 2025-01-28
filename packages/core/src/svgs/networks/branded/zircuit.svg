@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#zircuit__a)" fill-rule="evenodd" d="M2 12C2 6.478 6.477 2 12 2s10 4.477 10 10a9.95 9.95 0 0 1-2.425 6.528l-7.562-7.561-6.502 6.502-1.074 1.073A9.95 9.95 0 0 1 2 12m17.321 3.897.091-.183h.001a8.3 8.3 0 0 0 .877-3.713c0-4.571-3.719-8.29-8.29-8.29s-8.289 3.719-8.289 8.29c0 1.292.306 2.582.885 3.73l.092.182 7.325-7.324zM12.001 22c2.489 0 4.766-.91 6.517-2.415l-6.504-6.505-6.517 6.516A9.94 9.94 0 0 0 12 22" clip-rule="evenodd"/>
+    <defs>
+        <linearGradient id="zircuit__a" x1="12" x2="12.03" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#169E00"/>
+            <stop offset=".49" stop-color="#00C537"/>
+            <stop offset="1" stop-color="#00B1C9"/>
+        </linearGradient>
+    </defs>
+</svg>
