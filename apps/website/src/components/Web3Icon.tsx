@@ -37,9 +37,7 @@ export const Web3Icon = ({
 
   switch (type) {
     case 'network':
-      return (
-        <NetworkIcon network={(metadata as INetworkMetadata).id} {...props} />
-      )
+      return <NetworkIcon id={(metadata as INetworkMetadata).id} {...props} />
     case 'wallet':
       return <WalletIcon id={(metadata as IWalletMetadata).id} {...props} />
     case 'exchange':
