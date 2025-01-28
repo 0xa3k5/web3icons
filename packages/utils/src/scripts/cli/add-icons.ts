@@ -29,6 +29,8 @@ const addIcons = async () => {
   const passedFiles = process.argv.slice(2)
   const deletedFiles = getDeletedIcons().split(',').filter(Boolean)
 
+  console.log({ modifiedIcons })
+
   if (
     (modifiedIcons === '' || !modifiedIcons.includes('raw-svgs/')) &&
     (passedFiles === undefined || passedFiles.length === 0) &&
@@ -53,7 +55,7 @@ const addIcons = async () => {
     .filter((filePath) => validateSvg(filePath))
 
   const groupedIcons: {
-    [key: string]: { type: TType; variants: TVariant[] }
+    [key: string]: { [type in TType]?: { variants: TVariant[] } }
   } = {}
 
   iconPaths.forEach((filePath) => {
@@ -61,29 +63,37 @@ const addIcons = async () => {
     const { type, variant } = getTypeAndVariant(filePath)
 
     if (!groupedIcons[fileName]) {
-      groupedIcons[fileName] = { type, variants: [] }
+      groupedIcons[fileName] = {}
     }
 
-    if (!groupedIcons[fileName].variants.includes(variant)) {
-      groupedIcons[fileName].variants.push(variant)
+    if (!groupedIcons[fileName][type]) {
+      groupedIcons[fileName][type] = { variants: [] }
+    }
+
+    if (!groupedIcons[fileName][type]!.variants.includes(variant)) {
+      groupedIcons[fileName][type]!.variants.push(variant)
     }
   })
 
-  for (const icon of Object.entries(groupedIcons)) {
-    const [fileName, { type, variants }] = icon
+  console.log({ groupedIcons })
 
-    const existingMetadata = findExistingMetadata(fileName, type)
+  for (const [fileName, typeGroups] of Object.entries(groupedIcons)) {
+    for (const [type, { variants }] of Object.entries(typeGroups)) {
+      const existingMetadata = findExistingMetadata(fileName, type as TType)
 
-    if (!existingMetadata) {
-      console.log(chalk.green(`Adding new ${type} icon: ${fileName}`))
-      await addNewIcon(icon)
-      continue
-    }
+      console.log({ existingMetadata })
 
-    if (variants.some((variant) => !existingMetadata.variants.includes(variant))) {
-      console.log(chalk.blue(`Adding new variants to existing ${type} icon: ${fileName}`))
-      await addNewVariant(existingMetadata, type, variants)
-      continue
+      if (!existingMetadata) {
+        console.log(chalk.green(`Adding new ${type} icon: ${fileName}`))
+        await addNewIcon([fileName, { type: type as TType, variants }])
+        continue
+      }
+
+      if (variants.some((variant) => !existingMetadata.variants.includes(variant))) {
+        console.log(chalk.blue(`Adding new variants to existing ${type} icon: ${fileName}`))
+        await addNewVariant(existingMetadata, type as TType, variants)
+        continue
+      }
     }
   }
 }
