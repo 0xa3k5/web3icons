@@ -5665,6 +5665,7 @@ import * as EBrandedBithumb from './svgs/exchanges/branded/bithumb.svg'
 import * as EBrandedOkx from './svgs/exchanges/branded/okx.svg'
 import * as EBrandedCoinbase from './svgs/exchanges/branded/coinbase.svg'
 import * as EBrandedBancor from './svgs/exchanges/branded/bancor.svg'
+import * as EBrandedParadex from './svgs/exchanges/branded/paradex.svg'
 import * as EBrandedUniswap from './svgs/exchanges/branded/uniswap.svg'
 import * as EBrandedPancakeSwap from './svgs/exchanges/branded/pancake-swap.svg'
 import * as EBrandedBitstamp from './svgs/exchanges/branded/bitstamp.svg'
@@ -5690,6 +5691,7 @@ import * as EMonoBithumb from './svgs/exchanges/mono/bithumb.svg'
 import * as EMonoOkx from './svgs/exchanges/mono/okx.svg'
 import * as EMonoCoinbase from './svgs/exchanges/mono/coinbase.svg'
 import * as EMonoBancor from './svgs/exchanges/mono/bancor.svg'
+import * as EMonoParadex from './svgs/exchanges/mono/paradex.svg'
 import * as EMonoUniswap from './svgs/exchanges/mono/uniswap.svg'
 import * as EMonoPancakeSwap from './svgs/exchanges/mono/pancake-swap.svg'
 import * as EMonoBitstamp from './svgs/exchanges/mono/bitstamp.svg'
@@ -5715,6 +5717,7 @@ import * as EBackgroundBithumb from './svgs/exchanges/background/bithumb.svg'
 import * as EBackgroundOkx from './svgs/exchanges/background/okx.svg'
 import * as EBackgroundCoinbase from './svgs/exchanges/background/coinbase.svg'
 import * as EBackgroundBancor from './svgs/exchanges/background/bancor.svg'
+import * as EBackgroundParadex from './svgs/exchanges/background/paradex.svg'
 import * as EBackgroundUniswap from './svgs/exchanges/background/uniswap.svg'
 import * as EBackgroundPancakeSwap from './svgs/exchanges/background/pancake-swap.svg'
 import * as EBackgroundBitstamp from './svgs/exchanges/background/bitstamp.svg'
@@ -11413,6 +11416,7 @@ export const svgs = {
       okx: EBrandedOkx,
       coinbase: EBrandedCoinbase,
       bancor: EBrandedBancor,
+      paradex: EBrandedParadex,
       uniswap: EBrandedUniswap,
       'pancake-swap': EBrandedPancakeSwap,
       bitstamp: EBrandedBitstamp,
@@ -11440,6 +11444,7 @@ export const svgs = {
       okx: EMonoOkx,
       coinbase: EMonoCoinbase,
       bancor: EMonoBancor,
+      paradex: EMonoParadex,
       uniswap: EMonoUniswap,
       'pancake-swap': EMonoPancakeSwap,
       bitstamp: EMonoBitstamp,
@@ -11467,6 +11472,7 @@ export const svgs = {
       okx: EBackgroundOkx,
       coinbase: EBackgroundCoinbase,
       bancor: EBackgroundBancor,
+      paradex: EBackgroundParadex,
       uniswap: EBackgroundUniswap,
       'pancake-swap': EBackgroundPancakeSwap,
       bitstamp: EBackgroundBitstamp,
