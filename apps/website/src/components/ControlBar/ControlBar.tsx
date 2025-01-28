@@ -19,7 +19,12 @@ export default function ControlBar({
     useAppContext()
 
   return (
-    <div className={cx('flex flex-col gap-8 md:flex-row md:justify-between', className)}>
+    <div
+      className={cx(
+        'flex flex-col gap-8 md:flex-row md:justify-between',
+        className,
+      )}
+    >
       <SegmentedControl
         options={['mono', 'branded', 'background']}
         selected={variant}
@@ -32,7 +37,7 @@ export default function ControlBar({
         value={searchTerm}
       />
 
-      <div className="flex flex-row gap-8 w-full">
+      <div className="flex w-full flex-row gap-8">
         <Slider
           label="size"
           minValue={16}

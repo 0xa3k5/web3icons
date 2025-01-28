@@ -1,5 +1,4 @@
 /* Generated */
-import * as TBrandedBABYSHIB from './svgs/tokens/branded/BABYSHIB.svg'
 import * as TBrandedSOCKS from './svgs/tokens/branded/SOCKS.svg'
 import * as TBrandedHONK from './svgs/tokens/branded/HONK.svg'
 import * as TBrandedTHOL from './svgs/tokens/branded/THOL.svg'
@@ -25,7 +24,6 @@ import * as TBrandedSWFTC from './svgs/tokens/branded/SWFTC.svg'
 import * as TBranded2DAI from './svgs/tokens/branded/2DAI.svg'
 import * as TBrandedD3D from './svgs/tokens/branded/D3D.svg'
 import * as TBrandedPALM from './svgs/tokens/branded/PALM.svg'
-import * as TBrandedBHAT from './svgs/tokens/branded/BHAT.svg'
 import * as TBrandedMELD from './svgs/tokens/branded/MELD.svg'
 import * as TBrandedHST from './svgs/tokens/branded/HST.svg'
 import * as TBrandedDFX from './svgs/tokens/branded/DFX.svg'
@@ -70,7 +68,6 @@ import * as TBrandedILV from './svgs/tokens/branded/ILV.svg'
 import * as TBrandedRXD from './svgs/tokens/branded/RXD.svg'
 import * as TBrandedZERO from './svgs/tokens/branded/ZERO.svg'
 import * as TBrandedDIVER from './svgs/tokens/branded/DIVER.svg'
-import * as TBrandedBUMP from './svgs/tokens/branded/BUMP.svg'
 import * as TBrandedWGC from './svgs/tokens/branded/WGC.svg'
 import * as TBrandedDEGEN from './svgs/tokens/branded/DEGEN.svg'
 import * as TBrandedFUSE from './svgs/tokens/branded/FUSE.svg'
@@ -108,14 +105,11 @@ import * as TBrandedFOUR from './svgs/tokens/branded/FOUR.svg'
 import * as TBrandedMBX from './svgs/tokens/branded/MBX.svg'
 import * as TBrandedPI from './svgs/tokens/branded/PI.svg'
 import * as TBrandedPOLC from './svgs/tokens/branded/POLC.svg'
-import * as TBrandedBOSON from './svgs/tokens/branded/BOSON.svg'
 import * as TBrandedBBANK from './svgs/tokens/branded/BBANK.svg'
 import * as TBrandedMNDE from './svgs/tokens/branded/MNDE.svg'
 import * as TBrandedWLITI from './svgs/tokens/branded/WLITI.svg'
 import * as TBrandedACQ from './svgs/tokens/branded/ACQ.svg'
 import * as TBrandedHFT from './svgs/tokens/branded/HFT.svg'
-import * as TBrandedANKRETH from './svgs/tokens/branded/ANKRETH.svg'
-import * as TBrandedAMZ from './svgs/tokens/branded/AMZ.svg'
 import * as TBrandedCNHT from './svgs/tokens/branded/CNHT.svg'
 import * as TBrandedAURORA from './svgs/tokens/branded/AURORA.svg'
 import * as TBrandedCVR from './svgs/tokens/branded/CVR.svg'
@@ -128,7 +122,6 @@ import * as TBrandedDSM from './svgs/tokens/branded/DSM.svg'
 import * as TBrandedHEZ from './svgs/tokens/branded/HEZ.svg'
 import * as TBrandedMINU from './svgs/tokens/branded/MINU.svg'
 import * as TBrandedJEWEL from './svgs/tokens/branded/JEWEL.svg'
-import * as TBrandedANC from './svgs/tokens/branded/ANC.svg'
 import * as TBrandedPEPES from './svgs/tokens/branded/PEPES.svg'
 import * as TBrandedCTX from './svgs/tokens/branded/CTX.svg'
 import * as TBrandedBTCMT from './svgs/tokens/branded/BTCMT.svg'
@@ -179,7 +172,6 @@ import * as TBrandedION from './svgs/tokens/branded/ION.svg'
 import * as TBrandedKOMPETE from './svgs/tokens/branded/KOMPETE.svg'
 import * as TBrandedWELT from './svgs/tokens/branded/WELT.svg'
 import * as TBrandedKASTA from './svgs/tokens/branded/KASTA.svg'
-import * as TBrandedAGLD from './svgs/tokens/branded/AGLD.svg'
 import * as TBrandedNFTX from './svgs/tokens/branded/NFTX.svg'
 import * as TBrandedMTVT from './svgs/tokens/branded/MTVT.svg'
 import * as TBrandedSAUCE from './svgs/tokens/branded/SAUCE.svg'
@@ -199,7 +191,6 @@ import * as TBrandedETH from './svgs/tokens/branded/ETH.svg'
 import * as TBrandedRAD from './svgs/tokens/branded/RAD.svg'
 import * as TBrandedSTIMA from './svgs/tokens/branded/STIMA.svg'
 import * as TBrandedKOM from './svgs/tokens/branded/KOM.svg'
-import * as TBrandedBIDZ from './svgs/tokens/branded/BIDZ.svg'
 import * as TBrandedKLV from './svgs/tokens/branded/KLV.svg'
 import * as TBrandedGOFX from './svgs/tokens/branded/GOFX.svg'
 import * as TBrandedBDT from './svgs/tokens/branded/BDT.svg'
@@ -221,7 +212,6 @@ import * as TBrandedLOKA from './svgs/tokens/branded/LOKA.svg'
 import * as TBrandedCLH from './svgs/tokens/branded/CLH.svg'
 import * as TBrandedDIVI from './svgs/tokens/branded/DIVI.svg'
 import * as TBrandedCOS from './svgs/tokens/branded/COS.svg'
-import * as TBrandedETHEREUM from './svgs/tokens/branded/ETHEREUM.svg'
 import * as TBrandedFSN from './svgs/tokens/branded/FSN.svg'
 import * as TBrandedJST from './svgs/tokens/branded/JST.svg'
 import * as TBrandedSTPT from './svgs/tokens/branded/STPT.svg'
@@ -294,7 +284,6 @@ import * as TBrandedNIM from './svgs/tokens/branded/NIM.svg'
 import * as TBrandedLPOOL from './svgs/tokens/branded/LPOOL.svg'
 import * as TBrandedUNDEAD from './svgs/tokens/branded/UNDEAD.svg'
 import * as TBrandedGMEE from './svgs/tokens/branded/GMEE.svg'
-import * as TBrandedBABYDOGE from './svgs/tokens/branded/BABYDOGE.svg'
 import * as TBrandedKTC from './svgs/tokens/branded/KTC.svg'
 import * as TBrandedCSPR from './svgs/tokens/branded/CSPR.svg'
 import * as TBrandedSBTC from './svgs/tokens/branded/SBTC.svg'
@@ -307,7 +296,6 @@ import * as TBrandedPBX from './svgs/tokens/branded/PBX.svg'
 import * as TBrandedICHI from './svgs/tokens/branded/ICHI.svg'
 import * as TBrandedCUDOS from './svgs/tokens/branded/CUDOS.svg'
 import * as TBrandedNEX from './svgs/tokens/branded/NEX.svg'
-import * as TBrandedBPT from './svgs/tokens/branded/BPT.svg'
 import * as TBrandedUSDD from './svgs/tokens/branded/USDD.svg'
 import * as TBrandedNCDT from './svgs/tokens/branded/NCDT.svg'
 import * as TBrandedCONE from './svgs/tokens/branded/CONE.svg'
@@ -335,7 +323,6 @@ import * as TBrandedBCOIN from './svgs/tokens/branded/BCOIN.svg'
 import * as TBrandedNADA from './svgs/tokens/branded/NADA.svg'
 import * as TBrandedKAT from './svgs/tokens/branded/KAT.svg'
 import * as TBrandedSEI from './svgs/tokens/branded/SEI.svg'
-import * as TBrandedBTSG from './svgs/tokens/branded/BTSG.svg'
 import * as TBrandedMMF from './svgs/tokens/branded/MMF.svg'
 import * as TBrandedCETUS from './svgs/tokens/branded/CETUS.svg'
 import * as TBrandedXWG from './svgs/tokens/branded/XWG.svg'
@@ -345,7 +332,6 @@ import * as TBrandedCOV from './svgs/tokens/branded/COV.svg'
 import * as TBrandedODDZ from './svgs/tokens/branded/ODDZ.svg'
 import * as TBrandedDHT from './svgs/tokens/branded/DHT.svg'
 import * as TBrandedSC from './svgs/tokens/branded/SC.svg'
-import * as TBrandedJUNGLE4EOS from './svgs/tokens/branded/JUNGLE4EOS.svg'
 import * as TBrandedAVA from './svgs/tokens/branded/AVA.svg'
 import * as TBrandedSTEP from './svgs/tokens/branded/STEP.svg'
 import * as TBrandedGQ from './svgs/tokens/branded/GQ.svg'
@@ -366,11 +352,8 @@ import * as TBrandedCVC from './svgs/tokens/branded/CVC.svg'
 import * as TBrandedHGT from './svgs/tokens/branded/HGT.svg'
 import * as TBrandedAVAX from './svgs/tokens/branded/AVAX.svg'
 import * as TBrandedCWEB from './svgs/tokens/branded/CWEB.svg'
-import * as TBrandedBORA from './svgs/tokens/branded/BORA.svg'
 import * as TBrandedOBI from './svgs/tokens/branded/OBI.svg'
-import * as TBrandedALPHA from './svgs/tokens/branded/ALPHA.svg'
 import * as TBrandedMIND from './svgs/tokens/branded/MIND.svg'
-import * as TBrandedAEGIS from './svgs/tokens/branded/AEGIS.svg'
 import * as TBrandedHDX from './svgs/tokens/branded/HDX.svg'
 import * as TBrandedCTI from './svgs/tokens/branded/CTI.svg'
 import * as TBrandedALEPH from './svgs/tokens/branded/ALEPH.svg'
@@ -401,7 +384,6 @@ import * as TBrandedNFAI from './svgs/tokens/branded/NFAI.svg'
 import * as TBrandedALGO from './svgs/tokens/branded/ALGO.svg'
 import * as TBrandedNODL from './svgs/tokens/branded/NODL.svg'
 import * as TBrandedRBX from './svgs/tokens/branded/RBX.svg'
-import * as TBrandedCOSMOS from './svgs/tokens/branded/COSMOS.svg'
 import * as TBrandedWNDR from './svgs/tokens/branded/WNDR.svg'
 import * as TBrandedXCHF from './svgs/tokens/branded/XCHF.svg'
 import * as TBrandedGMX from './svgs/tokens/branded/GMX.svg'
@@ -422,7 +404,6 @@ import * as TBrandedKEKE from './svgs/tokens/branded/KEKE.svg'
 import * as TBrandedTRONPAD from './svgs/tokens/branded/TRONPAD.svg'
 import * as TBrandedETN from './svgs/tokens/branded/ETN.svg'
 import * as TBrandedTIDAL from './svgs/tokens/branded/TIDAL.svg'
-import * as TBrandedBABYTRUMP from './svgs/tokens/branded/BABYTRUMP.svg'
 import * as TBrandedRUG from './svgs/tokens/branded/RUG.svg'
 import * as TBrandedSOLVE from './svgs/tokens/branded/SOLVE.svg'
 import * as TBrandedKUNCI from './svgs/tokens/branded/KUNCI.svg'
@@ -443,7 +424,6 @@ import * as TBrandedUNFI from './svgs/tokens/branded/UNFI.svg'
 import * as TBrandedCELR from './svgs/tokens/branded/CELR.svg'
 import * as TBrandedDEP from './svgs/tokens/branded/DEP.svg'
 import * as TBrandedDGX from './svgs/tokens/branded/DGX.svg'
-import * as TBrandedASIA from './svgs/tokens/branded/ASIA.svg'
 import * as TBrandedFPS from './svgs/tokens/branded/FPS.svg'
 import * as TBrandedQSR from './svgs/tokens/branded/QSR.svg'
 import * as TBrandedQUBE from './svgs/tokens/branded/QUBE.svg'
@@ -480,7 +460,6 @@ import * as TBrandedCRO from './svgs/tokens/branded/CRO.svg'
 import * as TBrandedMV from './svgs/tokens/branded/MV.svg'
 import * as TBrandedNRCH from './svgs/tokens/branded/NRCH.svg'
 import * as TBrandedAHT from './svgs/tokens/branded/AHT.svg'
-import * as TBrandedBUILD from './svgs/tokens/branded/BUILD.svg'
 import * as TBrandedGBEX from './svgs/tokens/branded/GBEX.svg'
 import * as TBrandedTRB from './svgs/tokens/branded/TRB.svg'
 import * as TBrandedZOOMER from './svgs/tokens/branded/ZOOMER.svg'
@@ -496,7 +475,6 @@ import * as TBrandedNEXO from './svgs/tokens/branded/NEXO.svg'
 import * as TBrandedTT from './svgs/tokens/branded/TT.svg'
 import * as TBrandedAPE from './svgs/tokens/branded/APE.svg'
 import * as TBrandedELAND from './svgs/tokens/branded/ELAND.svg'
-import * as TBrandedASTROC from './svgs/tokens/branded/ASTROC.svg'
 import * as TBrandedSMBR from './svgs/tokens/branded/SMBR.svg'
 import * as TBrandedORB from './svgs/tokens/branded/ORB.svg'
 import * as TBrandedTGT from './svgs/tokens/branded/TGT.svg'
@@ -508,7 +486,6 @@ import * as TBrandedRIN from './svgs/tokens/branded/RIN.svg'
 import * as TBrandedXSGD from './svgs/tokens/branded/XSGD.svg'
 import * as TBrandedKINT from './svgs/tokens/branded/KINT.svg'
 import * as TBrandedMMPRO from './svgs/tokens/branded/MMPRO.svg'
-import * as TBrandedBAN from './svgs/tokens/branded/BAN.svg'
 import * as TBrandedWBTC from './svgs/tokens/branded/WBTC.svg'
 import * as TBrandedEFL from './svgs/tokens/branded/EFL.svg'
 import * as TBrandedSWEAT from './svgs/tokens/branded/SWEAT.svg'
@@ -538,14 +515,12 @@ import * as TBrandedBAX from './svgs/tokens/branded/BAX.svg'
 import * as TBrandedFRIN from './svgs/tokens/branded/FRIN.svg'
 import * as TBrandedTROY from './svgs/tokens/branded/TROY.svg'
 import * as TBrandedBRWL from './svgs/tokens/branded/BRWL.svg'
-import * as TBrandedBAO from './svgs/tokens/branded/BAO.svg'
 import * as TBrandedLINK from './svgs/tokens/branded/LINK.svg'
 import * as TBrandedALOT from './svgs/tokens/branded/ALOT.svg'
 import * as TBrandedUMA from './svgs/tokens/branded/UMA.svg'
 import * as TBrandedSPELL from './svgs/tokens/branded/SPELL.svg'
 import * as TBrandedMMIT from './svgs/tokens/branded/MMIT.svg'
 import * as TBrandedMORK from './svgs/tokens/branded/MORK.svg'
-import * as TBrandedORDER from './svgs/tokens/branded/ORDER.svg'
 import * as TBrandedKEY from './svgs/tokens/branded/KEY.svg'
 import * as TBrandedJULD from './svgs/tokens/branded/JULD.svg'
 import * as TBrandedSATS from './svgs/tokens/branded/SATS.svg'
@@ -590,7 +565,6 @@ import * as TBrandedQLC from './svgs/tokens/branded/QLC.svg'
 import * as TBrandedSOLX from './svgs/tokens/branded/SOLX.svg'
 import * as TBrandedATRI from './svgs/tokens/branded/ATRI.svg'
 import * as TBrandedSPACE from './svgs/tokens/branded/SPACE.svg'
-import * as TBrandedASTO from './svgs/tokens/branded/ASTO.svg'
 import * as TBrandedSENATE from './svgs/tokens/branded/SENATE.svg'
 import * as TBrandedOKT from './svgs/tokens/branded/OKT.svg'
 import * as TBrandedAA from './svgs/tokens/branded/AA.svg'
@@ -621,7 +595,6 @@ import * as TBrandedYAM from './svgs/tokens/branded/YAM.svg'
 import * as TBrandedVOLT from './svgs/tokens/branded/VOLT.svg'
 import * as TBrandedRSC from './svgs/tokens/branded/RSC.svg'
 import * as TBrandedLTC from './svgs/tokens/branded/LTC.svg'
-import * as TBrandedBXX from './svgs/tokens/branded/BXX.svg'
 import * as TBrandedTUSD from './svgs/tokens/branded/TUSD.svg'
 import * as TBrandedDOGE from './svgs/tokens/branded/DOGE.svg'
 import * as TBrandedCTSI from './svgs/tokens/branded/CTSI.svg'
@@ -630,7 +603,6 @@ import * as TBrandedHERO from './svgs/tokens/branded/HERO.svg'
 import * as TBrandedWIKEN from './svgs/tokens/branded/WIKEN.svg'
 import * as TBrandedPKF from './svgs/tokens/branded/PKF.svg'
 import * as TBrandedTPAD from './svgs/tokens/branded/TPAD.svg'
-import * as TBrandedANGLE from './svgs/tokens/branded/ANGLE.svg'
 import * as TBrandedNAV from './svgs/tokens/branded/NAV.svg'
 import * as TBrandedPYTH from './svgs/tokens/branded/PYTH.svg'
 import * as TBrandedTIME from './svgs/tokens/branded/TIME.svg'
@@ -641,8 +613,6 @@ import * as TBrandedDVPN from './svgs/tokens/branded/DVPN.svg'
 import * as TBrandedLUSD from './svgs/tokens/branded/LUSD.svg'
 import * as TBrandedBCD from './svgs/tokens/branded/BCD.svg'
 import * as TBrandedREGEN from './svgs/tokens/branded/REGEN.svg'
-import * as TBrandedBAL from './svgs/tokens/branded/BAL.svg'
-import * as TBrandedBANANO from './svgs/tokens/branded/BANANO.svg'
 import * as TBrandedHBOT from './svgs/tokens/branded/HBOT.svg'
 import * as TBrandedMATIC from './svgs/tokens/branded/MATIC.svg'
 import * as TBrandedFREN from './svgs/tokens/branded/FREN.svg'
@@ -660,7 +630,6 @@ import * as TBrandedXPR from './svgs/tokens/branded/XPR.svg'
 import * as TBrandedJUNO from './svgs/tokens/branded/JUNO.svg'
 import * as TBrandedFUTURE from './svgs/tokens/branded/FUTURE.svg'
 import * as TBrandedPOLYX from './svgs/tokens/branded/POLYX.svg'
-import * as TBrandedBAND from './svgs/tokens/branded/BAND.svg'
 import * as TBrandedEVEAI from './svgs/tokens/branded/EVEAI.svg'
 import * as TBrandedMBOX from './svgs/tokens/branded/MBOX.svg'
 import * as TBrandedCGL from './svgs/tokens/branded/CGL.svg'
@@ -671,7 +640,6 @@ import * as TBrandedSOL from './svgs/tokens/branded/SOL.svg'
 import * as TBrandedAQT from './svgs/tokens/branded/AQT.svg'
 import * as TBrandedMDX from './svgs/tokens/branded/MDX.svg'
 import * as TBrandedBOLT from './svgs/tokens/branded/BOLT.svg'
-import * as TBrandedBONK from './svgs/tokens/branded/BONK.svg'
 import * as TBrandedSOUL from './svgs/tokens/branded/SOUL.svg'
 import * as TBrandedDERO from './svgs/tokens/branded/DERO.svg'
 import * as TBrandedSANI from './svgs/tokens/branded/SANI.svg'
@@ -680,7 +648,6 @@ import * as TBrandedCRPT from './svgs/tokens/branded/CRPT.svg'
 import * as TBrandedADAPAD from './svgs/tokens/branded/ADAPAD.svg'
 import * as TBranded3ULL from './svgs/tokens/branded/3ULL.svg'
 import * as TBrandedX2Y2 from './svgs/tokens/branded/X2Y2.svg'
-import * as TBrandedZRX from './svgs/tokens/branded/ZRX.svg'
 import * as TBrandedMC from './svgs/tokens/branded/MC.svg'
 import * as TBrandedFLX from './svgs/tokens/branded/FLX.svg'
 import * as TBrandedSUB from './svgs/tokens/branded/SUB.svg'
@@ -754,14 +721,11 @@ import * as TBrandedEQU from './svgs/tokens/branded/EQU.svg'
 import * as TBrandedLITT from './svgs/tokens/branded/LITT.svg'
 import * as TBrandedEQB from './svgs/tokens/branded/EQB.svg'
 import * as TBrandedIGU from './svgs/tokens/branded/IGU.svg'
-import * as TBrandedBAI from './svgs/tokens/branded/BAI.svg'
 import * as TBrandedCAST from './svgs/tokens/branded/CAST.svg'
 import * as TBrandedAGRS from './svgs/tokens/branded/AGRS.svg'
 import * as TBrandedRDN from './svgs/tokens/branded/RDN.svg'
 import * as TBrandedEGO from './svgs/tokens/branded/EGO.svg'
-import * as TBrandedBICO from './svgs/tokens/branded/BICO.svg'
 import * as TBrandedDSLA from './svgs/tokens/branded/DSLA.svg'
-import * as TBrandedBUSD from './svgs/tokens/branded/BUSD.svg'
 import * as TBrandedSUIP from './svgs/tokens/branded/SUIP.svg'
 import * as TBrandedISP from './svgs/tokens/branded/ISP.svg'
 import * as TBrandedMASQ from './svgs/tokens/branded/MASQ.svg'
@@ -773,7 +737,6 @@ import * as TBrandedBOB from './svgs/tokens/branded/BOB.svg'
 import * as TBrandedTEL from './svgs/tokens/branded/TEL.svg'
 import * as TBrandedSTMX from './svgs/tokens/branded/STMX.svg'
 import * as TBrandedDAO from './svgs/tokens/branded/DAO.svg'
-import * as TBrandedBFIC from './svgs/tokens/branded/BFIC.svg'
 import * as TBrandedDEXTF from './svgs/tokens/branded/DEXTF.svg'
 import * as TBrandedMKR from './svgs/tokens/branded/MKR.svg'
 import * as TBrandedDBC from './svgs/tokens/branded/DBC.svg'
@@ -783,16 +746,13 @@ import * as TBrandedLAND from './svgs/tokens/branded/LAND.svg'
 import * as TBrandedDEFX from './svgs/tokens/branded/DEFX.svg'
 import * as TBrandedSLR from './svgs/tokens/branded/SLR.svg'
 import * as TBrandedSDEX from './svgs/tokens/branded/SDEX.svg'
-import * as TBrandedADCO from './svgs/tokens/branded/ADCO.svg'
 import * as TBrandedZEC from './svgs/tokens/branded/ZEC.svg'
 import * as TBrandedTKP from './svgs/tokens/branded/TKP.svg'
 import * as TBrandedCUBE from './svgs/tokens/branded/CUBE.svg'
 import * as TBrandedETHIX from './svgs/tokens/branded/ETHIX.svg'
 import * as TBrandedAR from './svgs/tokens/branded/AR.svg'
-import * as TBrandedADP from './svgs/tokens/branded/ADP.svg'
 import * as TBrandedSYS from './svgs/tokens/branded/SYS.svg'
 import * as TBrandedGENI from './svgs/tokens/branded/GENI.svg'
-import * as TBrandedAE from './svgs/tokens/branded/AE.svg'
 import * as TBrandedMST from './svgs/tokens/branded/MST.svg'
 import * as TBrandedGRND from './svgs/tokens/branded/GRND.svg'
 import * as TBrandedPAWTH from './svgs/tokens/branded/PAWTH.svg'
@@ -823,7 +783,6 @@ import * as TBrandedVLXPAD from './svgs/tokens/branded/VLXPAD.svg'
 import * as TBrandedKATA from './svgs/tokens/branded/KATA.svg'
 import * as TBrandedOXEN from './svgs/tokens/branded/OXEN.svg'
 import * as TBrandedTHALES from './svgs/tokens/branded/THALES.svg'
-import * as TBrandedAGI from './svgs/tokens/branded/AGI.svg'
 import * as TBrandedFWB from './svgs/tokens/branded/FWB.svg'
 import * as TBrandedSLG from './svgs/tokens/branded/SLG.svg'
 import * as TBrandedSTBU from './svgs/tokens/branded/STBU.svg'
@@ -855,7 +814,6 @@ import * as TBrandedPERI from './svgs/tokens/branded/PERI.svg'
 import * as TBrandedBCT from './svgs/tokens/branded/BCT.svg'
 import * as TBrandedXAVA from './svgs/tokens/branded/XAVA.svg'
 import * as TBrandedEFI from './svgs/tokens/branded/EFI.svg'
-import * as TBrandedBUY from './svgs/tokens/branded/BUY.svg'
 import * as TBrandedDAFI from './svgs/tokens/branded/DAFI.svg'
 import * as TBrandedYAK from './svgs/tokens/branded/YAK.svg'
 import * as TBrandedYCC from './svgs/tokens/branded/YCC.svg'
@@ -905,25 +863,21 @@ import * as TBrandedOSMO from './svgs/tokens/branded/OSMO.svg'
 import * as TBrandedSTOS from './svgs/tokens/branded/STOS.svg'
 import * as TBrandedHVH from './svgs/tokens/branded/HVH.svg'
 import * as TBrandedCHR from './svgs/tokens/branded/CHR.svg'
-import * as TBrandedASM from './svgs/tokens/branded/ASM.svg'
 import * as TBrandedDNT from './svgs/tokens/branded/DNT.svg'
 import * as TBrandedHXRO from './svgs/tokens/branded/HXRO.svg'
 import * as TBrandedHUAHUA from './svgs/tokens/branded/HUAHUA.svg'
 import * as TBrandedDOG from './svgs/tokens/branded/DOG.svg'
 import * as TBrandedGAINS from './svgs/tokens/branded/GAINS.svg'
-import * as TBrandedADS from './svgs/tokens/branded/ADS.svg'
 import * as TBrandedMRS from './svgs/tokens/branded/MRS.svg'
 import * as TBrandedMPL from './svgs/tokens/branded/MPL.svg'
 import * as TBrandedDERI from './svgs/tokens/branded/DERI.svg'
 import * as TBrandedXKI from './svgs/tokens/branded/XKI.svg'
-import * as TBrandedSCNSOL from './svgs/tokens/branded/SCNSOL.svg'
 import * as TBrandedNPXS from './svgs/tokens/branded/NPXS.svg'
 import * as TBrandedOM from './svgs/tokens/branded/OM.svg'
 import * as TBrandedAIT from './svgs/tokens/branded/AIT.svg'
 import * as TBrandedOOKI from './svgs/tokens/branded/OOKI.svg'
 import * as TBrandedFOR from './svgs/tokens/branded/FOR.svg'
 import * as TBrandedSTSOL from './svgs/tokens/branded/STSOL.svg'
-import * as TBrandedBONDLY from './svgs/tokens/branded/BONDLY.svg'
 import * as TBrandedLA from './svgs/tokens/branded/LA.svg'
 import * as TBrandedSHIB from './svgs/tokens/branded/SHIB.svg'
 import * as TBrandedSUI from './svgs/tokens/branded/SUI.svg'
@@ -938,7 +892,6 @@ import * as TBrandedPEOPLE from './svgs/tokens/branded/PEOPLE.svg'
 import * as TBrandedSFTMX from './svgs/tokens/branded/SFTMX.svg'
 import * as TBrandedDYP from './svgs/tokens/branded/DYP.svg'
 import * as TBrandedXETA from './svgs/tokens/branded/XETA.svg'
-import * as TBrandedASTR from './svgs/tokens/branded/ASTR.svg'
 import * as TBrandedHMX from './svgs/tokens/branded/HMX.svg'
 import * as TBrandedRUNE from './svgs/tokens/branded/RUNE.svg'
 import * as TBrandedHOP from './svgs/tokens/branded/HOP.svg'
@@ -972,7 +925,6 @@ import * as TBrandedLOC from './svgs/tokens/branded/LOC.svg'
 import * as TBrandedNVT from './svgs/tokens/branded/NVT.svg'
 import * as TBrandedMAPS from './svgs/tokens/branded/MAPS.svg'
 import * as TBrandedFAKEAI from './svgs/tokens/branded/FAKEAI.svg'
-import * as TBrandedBURGER from './svgs/tokens/branded/BURGER.svg'
 import * as TBrandedARIX from './svgs/tokens/branded/ARIX.svg'
 import * as TBrandedCHMB from './svgs/tokens/branded/CHMB.svg'
 import * as TBrandedGAMMA from './svgs/tokens/branded/GAMMA.svg'
@@ -1006,7 +958,6 @@ import * as TBrandedAPFC from './svgs/tokens/branded/APFC.svg'
 import * as TBrandedIDV from './svgs/tokens/branded/IDV.svg'
 import * as TBrandedBTG from './svgs/tokens/branded/BTG.svg'
 import * as TBrandedLYX from './svgs/tokens/branded/LYX.svg'
-import * as TBrandedBETS from './svgs/tokens/branded/BETS.svg'
 import * as TBrandedQTCON from './svgs/tokens/branded/QTCON.svg'
 import * as TBrandedBCN from './svgs/tokens/branded/BCN.svg'
 import * as TBrandedUND from './svgs/tokens/branded/UND.svg'
@@ -1043,7 +994,6 @@ import * as TBrandedNEON from './svgs/tokens/branded/NEON.svg'
 import * as TBrandedVIB from './svgs/tokens/branded/VIB.svg'
 import * as TBrandedDPET from './svgs/tokens/branded/DPET.svg'
 import * as TBrandedBCAT from './svgs/tokens/branded/BCAT.svg'
-import * as TBrandedBADGER from './svgs/tokens/branded/BADGER.svg'
 import * as TBrandedTOMI from './svgs/tokens/branded/TOMI.svg'
 import * as TBrandedNEAR from './svgs/tokens/branded/NEAR.svg'
 import * as TBrandedBTRFLY from './svgs/tokens/branded/BTRFLY.svg'
@@ -1064,7 +1014,6 @@ import * as TBrandedHAKA from './svgs/tokens/branded/HAKA.svg'
 import * as TBrandedIBIT from './svgs/tokens/branded/IBIT.svg'
 import * as TBrandedVV from './svgs/tokens/branded/VV.svg'
 import * as TBrandedCKP from './svgs/tokens/branded/CKP.svg'
-import * as TBrandedAST from './svgs/tokens/branded/AST.svg'
 import * as TBrandedJAM from './svgs/tokens/branded/JAM.svg'
 import * as TBrandedMET from './svgs/tokens/branded/MET.svg'
 import * as TBrandedAPX from './svgs/tokens/branded/APX.svg'
@@ -1092,7 +1041,6 @@ import * as TBrandedRDT from './svgs/tokens/branded/RDT.svg'
 import * as TBrandedREP from './svgs/tokens/branded/REP.svg'
 import * as TBrandedBEPRO from './svgs/tokens/branded/BEPRO.svg'
 import * as TBrandedMCHC from './svgs/tokens/branded/MCHC.svg'
-import * as TBrandedBAD from './svgs/tokens/branded/BAD.svg'
 import * as TBrandedMSOL from './svgs/tokens/branded/MSOL.svg'
 import * as TBrandedRAKE from './svgs/tokens/branded/RAKE.svg'
 import * as TBrandedSUKU from './svgs/tokens/branded/SUKU.svg'
@@ -1159,12 +1107,9 @@ import * as TBrandedXRD from './svgs/tokens/branded/XRD.svg'
 import * as TBrandedCHEEMS from './svgs/tokens/branded/CHEEMS.svg'
 import * as TBrandedJONES from './svgs/tokens/branded/JONES.svg'
 import * as TBrandedDCK from './svgs/tokens/branded/DCK.svg'
-import * as TBrandedLOOT from './svgs/tokens/branded/LOOT.svg'
 import * as TBrandedNFTBS from './svgs/tokens/branded/NFTBS.svg'
 import * as TBrandedHOPR from './svgs/tokens/branded/HOPR.svg'
 import * as TBrandedCPOOL from './svgs/tokens/branded/CPOOL.svg'
-import * as TBrandedS from './svgs/tokens/branded/S.svg'
-import * as TBrandedAFC from './svgs/tokens/branded/AFC.svg'
 import * as TBrandedPASG from './svgs/tokens/branded/PASG.svg'
 import * as TBrandedPART from './svgs/tokens/branded/PART.svg'
 import * as TBrandedBCMC from './svgs/tokens/branded/BCMC.svg'
@@ -1179,7 +1124,6 @@ import * as TBrandedOCEAN from './svgs/tokens/branded/OCEAN.svg'
 import * as TBrandedCREAM from './svgs/tokens/branded/CREAM.svg'
 import * as TBrandedCPH from './svgs/tokens/branded/CPH.svg'
 import * as TBrandedTAMA from './svgs/tokens/branded/TAMA.svg'
-import * as TBrandedADX from './svgs/tokens/branded/ADX.svg'
 import * as TBrandedSAND from './svgs/tokens/branded/SAND.svg'
 import * as TBrandedMUTE from './svgs/tokens/branded/MUTE.svg'
 import * as TBrandedC3 from './svgs/tokens/branded/C3.svg'
@@ -1197,7 +1141,6 @@ import * as TBrandedVOICE from './svgs/tokens/branded/VOICE.svg'
 import * as TBrandedSMI from './svgs/tokens/branded/SMI.svg'
 import * as TBrandedSCB from './svgs/tokens/branded/SCB.svg'
 import * as TBrandedKALM from './svgs/tokens/branded/KALM.svg'
-import * as TBrandedBOTTO from './svgs/tokens/branded/BOTTO.svg'
 import * as TBrandedMIR from './svgs/tokens/branded/MIR.svg'
 import * as TBrandedALPACA from './svgs/tokens/branded/ALPACA.svg'
 import * as TBrandedAPEFI from './svgs/tokens/branded/APEFI.svg'
@@ -1233,9 +1176,7 @@ import * as TBrandedNMX from './svgs/tokens/branded/NMX.svg'
 import * as TBrandedGEL from './svgs/tokens/branded/GEL.svg'
 import * as TBrandedLIZA from './svgs/tokens/branded/LIZA.svg'
 import * as TBrandedWBT from './svgs/tokens/branded/WBT.svg'
-import * as TBrandedAERO from './svgs/tokens/branded/AERO.svg'
 import * as TBrandedIDIA from './svgs/tokens/branded/IDIA.svg'
-import * as TBrandedAGEUR from './svgs/tokens/branded/AGEUR.svg'
 import * as TBrandedLYRA from './svgs/tokens/branded/LYRA.svg'
 import * as TBrandedTITAN from './svgs/tokens/branded/TITAN.svg'
 import * as TBrandedPIB from './svgs/tokens/branded/PIB.svg'
@@ -1254,13 +1195,11 @@ import * as TBrandedPSL from './svgs/tokens/branded/PSL.svg'
 import * as TBrandedCOPI from './svgs/tokens/branded/COPI.svg'
 import * as TBrandedLBT from './svgs/tokens/branded/LBT.svg'
 import * as TBrandedBNX from './svgs/tokens/branded/BNX.svg'
-import * as TBrandedBIGSB from './svgs/tokens/branded/BIGSB.svg'
 import * as TBrandedXY from './svgs/tokens/branded/XY.svg'
 import * as TBrandedCHO from './svgs/tokens/branded/CHO.svg'
 import * as TBrandedTKN from './svgs/tokens/branded/TKN.svg'
 import * as TBrandedSNS from './svgs/tokens/branded/SNS.svg'
 import * as TBrandedLQDR from './svgs/tokens/branded/LQDR.svg'
-import * as TBrandedBOOT from './svgs/tokens/branded/BOOT.svg'
 import * as TBrandedVR from './svgs/tokens/branded/VR.svg'
 import * as TBrandedNEXA from './svgs/tokens/branded/NEXA.svg'
 import * as TBrandedPROPC from './svgs/tokens/branded/PROPC.svg'
@@ -1300,7 +1239,6 @@ import * as TBrandedDLC from './svgs/tokens/branded/DLC.svg'
 import * as TBrandedAZIT from './svgs/tokens/branded/AZIT.svg'
 import * as TBrandedMEED from './svgs/tokens/branded/MEED.svg'
 import * as TBrandedRGEN from './svgs/tokens/branded/RGEN.svg'
-import * as TBrandedARV from './svgs/tokens/branded/ARV.svg'
 import * as TBrandedDAD from './svgs/tokens/branded/DAD.svg'
 import * as TBrandedXRT from './svgs/tokens/branded/XRT.svg'
 import * as TBrandedORN from './svgs/tokens/branded/ORN.svg'
@@ -1317,7 +1255,6 @@ import * as TBrandedNXM from './svgs/tokens/branded/NXM.svg'
 import * as TBrandedUOS from './svgs/tokens/branded/UOS.svg'
 import * as TBrandedCDAI from './svgs/tokens/branded/CDAI.svg'
 import * as TBrandedGALEON from './svgs/tokens/branded/GALEON.svg'
-import * as TBrandedBANANA from './svgs/tokens/branded/BANANA.svg'
 import * as TBrandedREV from './svgs/tokens/branded/REV.svg'
 import * as TBrandedSOURCE from './svgs/tokens/branded/SOURCE.svg'
 import * as TBrandedUBT from './svgs/tokens/branded/UBT.svg'
@@ -1325,7 +1262,6 @@ import * as TBrandedCAPS from './svgs/tokens/branded/CAPS.svg'
 import * as TBrandedBTC from './svgs/tokens/branded/BTC.svg'
 import * as TBrandedNBT from './svgs/tokens/branded/NBT.svg'
 import * as TBrandedLITH from './svgs/tokens/branded/LITH.svg'
-import * as TBrandedBWO from './svgs/tokens/branded/BWO.svg'
 import * as TBrandedUWU from './svgs/tokens/branded/UWU.svg'
 import * as TBrandedEMAID from './svgs/tokens/branded/EMAID.svg'
 import * as TBrandedUCJL from './svgs/tokens/branded/UCJL.svg'
@@ -1343,7 +1279,6 @@ import * as TBrandedGGG from './svgs/tokens/branded/GGG.svg'
 import * as TBrandedIDEA from './svgs/tokens/branded/IDEA.svg'
 import * as TBrandedZPAY from './svgs/tokens/branded/ZPAY.svg'
 import * as TBrandedWNT from './svgs/tokens/branded/WNT.svg'
-import * as TBrandedBTU from './svgs/tokens/branded/BTU.svg'
 import * as TBrandedBSCPAD from './svgs/tokens/branded/BSCPAD.svg'
 import * as TBrandedACRIA from './svgs/tokens/branded/ACRIA.svg'
 import * as TBrandedGUILD from './svgs/tokens/branded/GUILD.svg'
@@ -1353,7 +1288,6 @@ import * as TBrandedBAT from './svgs/tokens/branded/BAT.svg'
 import * as TBrandedLOOKS from './svgs/tokens/branded/LOOKS.svg'
 import * as TBrandedEURT from './svgs/tokens/branded/EURT.svg'
 import * as TBrandedBETA from './svgs/tokens/branded/BETA.svg'
-import * as TBrandedBORING from './svgs/tokens/branded/BORING.svg'
 import * as TBrandedEVMOS from './svgs/tokens/branded/EVMOS.svg'
 import * as TBrandedPINKSALE from './svgs/tokens/branded/PINKSALE.svg'
 import * as TBrandedRDD from './svgs/tokens/branded/RDD.svg'
@@ -1367,7 +1301,6 @@ import * as TBrandedLING from './svgs/tokens/branded/LING.svg'
 import * as TBrandedORDI from './svgs/tokens/branded/ORDI.svg'
 import * as TBrandedLCS from './svgs/tokens/branded/LCS.svg'
 import * as TBrandedPPC from './svgs/tokens/branded/PPC.svg'
-import * as TBrandedASTRADAO from './svgs/tokens/branded/ASTRADAO.svg'
 import * as TBrandedHERMES from './svgs/tokens/branded/HERMES.svg'
 import * as TBrandedBLD from './svgs/tokens/branded/BLD.svg'
 import * as TBrandedZKB from './svgs/tokens/branded/ZKB.svg'
@@ -1383,10 +1316,8 @@ import * as TBrandedLAMB from './svgs/tokens/branded/LAMB.svg'
 import * as TBrandedUNCX from './svgs/tokens/branded/UNCX.svg'
 import * as TBrandedQUARTZ from './svgs/tokens/branded/QUARTZ.svg'
 import * as TBrandedMED from './svgs/tokens/branded/MED.svg'
-import * as TBrandedADOGE from './svgs/tokens/branded/ADOGE.svg'
 import * as TBrandedBOND from './svgs/tokens/branded/BOND.svg'
 import * as TBrandedGBYTE from './svgs/tokens/branded/GBYTE.svg'
-import * as TBrandedASD from './svgs/tokens/branded/ASD.svg'
 import * as TBrandedRBLS from './svgs/tokens/branded/RBLS.svg'
 import * as TBrandedDXP from './svgs/tokens/branded/DXP.svg'
 import * as TBrandedKAVA from './svgs/tokens/branded/KAVA.svg'
@@ -1455,13 +1386,11 @@ import * as TBrandedLUCA from './svgs/tokens/branded/LUCA.svg'
 import * as TBrandedGDCC from './svgs/tokens/branded/GDCC.svg'
 import * as TBrandedETC from './svgs/tokens/branded/ETC.svg'
 import * as TBrandedICP from './svgs/tokens/branded/ICP.svg'
-import * as TBrandedPNB from './svgs/tokens/branded/PNB.svg'
 import * as TBrandedSYNC from './svgs/tokens/branded/SYNC.svg'
 import * as TBrandedRVF from './svgs/tokens/branded/RVF.svg'
 import * as TBrandedMANA from './svgs/tokens/branded/MANA.svg'
 import * as TBrandedEMAGIC from './svgs/tokens/branded/EMAGIC.svg'
 import * as TBrandedWRLD from './svgs/tokens/branded/WRLD.svg'
-import * as TBrandedHUSH from './svgs/tokens/branded/HUSH.svg'
 import * as TBrandedWAVES from './svgs/tokens/branded/WAVES.svg'
 import * as TBrandedGYMNET from './svgs/tokens/branded/GYMNET.svg'
 import * as TBrandedAURA from './svgs/tokens/branded/AURA.svg'
@@ -1498,7 +1427,6 @@ import * as TBrandedAITECH from './svgs/tokens/branded/AITECH.svg'
 import * as TBrandedNEURONI from './svgs/tokens/branded/NEURONI.svg'
 import * as TBrandedZAP from './svgs/tokens/branded/ZAP.svg'
 import * as TBrandedCATHEON from './svgs/tokens/branded/CATHEON.svg'
-import * as TBrandedBREED from './svgs/tokens/branded/BREED.svg'
 import * as TBrandedSHA from './svgs/tokens/branded/SHA.svg'
 import * as TBrandedQRDO from './svgs/tokens/branded/QRDO.svg'
 import * as TBrandedKLIMA from './svgs/tokens/branded/KLIMA.svg'
@@ -1520,17 +1448,14 @@ import * as TBrandedTULIP from './svgs/tokens/branded/TULIP.svg'
 import * as TBrandedXCM from './svgs/tokens/branded/XCM.svg'
 import * as TBrandedINTR from './svgs/tokens/branded/INTR.svg'
 import * as TBrandedDEXE from './svgs/tokens/branded/DEXE.svg'
-import * as TBrandedALU from './svgs/tokens/branded/ALU.svg'
 import * as TBrandedTTK from './svgs/tokens/branded/TTK.svg'
 import * as TBrandedSRM from './svgs/tokens/branded/SRM.svg'
 import * as TBrandedVLX from './svgs/tokens/branded/VLX.svg'
 import * as TBrandedSPE from './svgs/tokens/branded/SPE.svg'
-import * as TBrandedBASE from './svgs/tokens/branded/BASE.svg'
 import * as TBrandedONE from './svgs/tokens/branded/ONE.svg'
 import * as TBrandedGRIN from './svgs/tokens/branded/GRIN.svg'
 import * as TBrandedGRAIL from './svgs/tokens/branded/GRAIL.svg'
 import * as TBrandedOMI from './svgs/tokens/branded/OMI.svg'
-import * as TBrandedASSA from './svgs/tokens/branded/ASSA.svg'
 import * as TBrandedDYDX from './svgs/tokens/branded/DYDX.svg'
 import * as TBrandedSRLTY from './svgs/tokens/branded/SRLTY.svg'
 import * as TBrandedDUSK from './svgs/tokens/branded/DUSK.svg'
@@ -1546,7 +1471,6 @@ import * as TBrandedATD from './svgs/tokens/branded/ATD.svg'
 import * as TBrandedGCOIN from './svgs/tokens/branded/GCOIN.svg'
 import * as TBrandedMOC from './svgs/tokens/branded/MOC.svg'
 import * as TBrandedCAP from './svgs/tokens/branded/CAP.svg'
-import * as TBrandedAERGO from './svgs/tokens/branded/AERGO.svg'
 import * as TBrandedOTK from './svgs/tokens/branded/OTK.svg'
 import * as TBrandedLEASH from './svgs/tokens/branded/LEASH.svg'
 import * as TBrandedTFUEL from './svgs/tokens/branded/TFUEL.svg'
@@ -1555,7 +1479,6 @@ import * as TBrandedTIPS from './svgs/tokens/branded/TIPS.svg'
 import * as TBrandedKAN from './svgs/tokens/branded/KAN.svg'
 import * as TBrandedELF from './svgs/tokens/branded/ELF.svg'
 import * as TBrandedRBW from './svgs/tokens/branded/RBW.svg'
-import * as TBrandedBFT from './svgs/tokens/branded/BFT.svg'
 import * as TBrandedNPC from './svgs/tokens/branded/NPC.svg'
 import * as TBrandedGSTS from './svgs/tokens/branded/GSTS.svg'
 import * as TBrandedPICA from './svgs/tokens/branded/PICA.svg'
@@ -1571,7 +1494,6 @@ import * as TBrandedHILO from './svgs/tokens/branded/HILO.svg'
 import * as TBrandedLUNR from './svgs/tokens/branded/LUNR.svg'
 import * as TBrandedLYXE from './svgs/tokens/branded/LYXE.svg'
 import * as TBrandedGAT from './svgs/tokens/branded/GAT.svg'
-import * as TBrandedIMX from './svgs/tokens/branded/IMX.svg'
 import * as TBrandedMOBY from './svgs/tokens/branded/MOBY.svg'
 import * as TBrandedPAY from './svgs/tokens/branded/PAY.svg'
 import * as TBrandedPROB from './svgs/tokens/branded/PROB.svg'
@@ -1592,7 +1514,6 @@ import * as TBrandedROUTE from './svgs/tokens/branded/ROUTE.svg'
 import * as TBrandedUSN from './svgs/tokens/branded/USN.svg'
 import * as TBrandedBST from './svgs/tokens/branded/BST.svg'
 import * as TBrandedICE from './svgs/tokens/branded/ICE.svg'
-import * as TBrandedB2M from './svgs/tokens/branded/B2M.svg'
 import * as TBrandedSENSE from './svgs/tokens/branded/SENSE.svg'
 import * as TBrandedBEN from './svgs/tokens/branded/BEN.svg'
 import * as TBrandedDATA from './svgs/tokens/branded/DATA.svg'
@@ -1601,7 +1522,6 @@ import * as TBrandedRAM from './svgs/tokens/branded/RAM.svg'
 import * as TBrandedGTC from './svgs/tokens/branded/GTC.svg'
 import * as TBrandedIXO from './svgs/tokens/branded/IXO.svg'
 import * as TBrandedGAFI from './svgs/tokens/branded/GAFI.svg'
-import * as TBrandedARBI from './svgs/tokens/branded/ARBI.svg'
 import * as TBrandedAPOLLO from './svgs/tokens/branded/APOLLO.svg'
 import * as TBrandedXTP from './svgs/tokens/branded/XTP.svg'
 import * as TBrandedMLN from './svgs/tokens/branded/MLN.svg'
@@ -1618,13 +1538,11 @@ import * as TBrandedMTH from './svgs/tokens/branded/MTH.svg'
 import * as TBrandedXMR from './svgs/tokens/branded/XMR.svg'
 import * as TBrandedDF from './svgs/tokens/branded/DF.svg'
 import * as TBrandedKISHU from './svgs/tokens/branded/KISHU.svg'
-import * as TBrandedCOSMOSHUB from './svgs/tokens/branded/COSMOSHUB.svg'
 import * as TBrandedLQTY from './svgs/tokens/branded/LQTY.svg'
 import * as TBrandedVAI from './svgs/tokens/branded/VAI.svg'
 import * as TBrandedCTG from './svgs/tokens/branded/CTG.svg'
 import * as TBrandedBCUBE from './svgs/tokens/branded/BCUBE.svg'
 import * as TBrandedDPI from './svgs/tokens/branded/DPI.svg'
-import * as TBrandedAMP from './svgs/tokens/branded/AMP.svg'
 import * as TBrandedLOVELY from './svgs/tokens/branded/LOVELY.svg'
 import * as TBrandedCTC from './svgs/tokens/branded/CTC.svg'
 import * as TBrandedPAXG from './svgs/tokens/branded/PAXG.svg'
@@ -1659,14 +1577,12 @@ import * as TBrandedDZOO from './svgs/tokens/branded/DZOO.svg'
 import * as TBrandedNOIA from './svgs/tokens/branded/NOIA.svg'
 import * as TBrandedAIMBOT from './svgs/tokens/branded/AIMBOT.svg'
 import * as TBrandedQASH from './svgs/tokens/branded/QASH.svg'
-import * as TBrandedBGB from './svgs/tokens/branded/BGB.svg'
 import * as TBrandedORARE from './svgs/tokens/branded/ORARE.svg'
 import * as TBrandedCSIX from './svgs/tokens/branded/CSIX.svg'
 import * as TBrandedRAI from './svgs/tokens/branded/RAI.svg'
 import * as TBrandedCRYSTAL from './svgs/tokens/branded/CRYSTAL.svg'
 import * as TBrandedGOZ from './svgs/tokens/branded/GOZ.svg'
 import * as TBrandedETE from './svgs/tokens/branded/ETE.svg'
-import * as TBrandedBPRO from './svgs/tokens/branded/BPRO.svg'
 import * as TBrandedNFTB from './svgs/tokens/branded/NFTB.svg'
 import * as TBrandedOETH from './svgs/tokens/branded/OETH.svg'
 import * as TBrandedXPNET from './svgs/tokens/branded/XPNET.svg'
@@ -1675,18 +1591,13 @@ import * as TBrandedGARI from './svgs/tokens/branded/GARI.svg'
 import * as TBrandedBLUSD from './svgs/tokens/branded/BLUSD.svg'
 import * as TBrandedSIPHER from './svgs/tokens/branded/SIPHER.svg'
 import * as TBrandedLUNA from './svgs/tokens/branded/LUNA.svg'
-import * as TBrandedBULL from './svgs/tokens/branded/BULL.svg'
 import * as TBrandedTBTC from './svgs/tokens/branded/TBTC.svg'
 import * as TBrandedSEILOR from './svgs/tokens/branded/SEILOR.svg'
 import * as TBrandedDOMI from './svgs/tokens/branded/DOMI.svg'
 import * as TBrandedUPP from './svgs/tokens/branded/UPP.svg'
 import * as TBrandedHUSKY from './svgs/tokens/branded/HUSKY.svg'
-import * as TBrandedTELOS from './svgs/tokens/branded/TELOS.svg'
 import * as TBrandedUQC from './svgs/tokens/branded/UQC.svg'
 import * as TBrandedSMARTCREDIT from './svgs/tokens/branded/SMARTCREDIT.svg'
-import * as TBrandedASTRAFER from './svgs/tokens/branded/ASTRAFER.svg'
-import * as TBrandedANKR from './svgs/tokens/branded/ANKR.svg'
-import * as TBrandedBIFI from './svgs/tokens/branded/BIFI.svg'
 import * as TBrandedSLCL from './svgs/tokens/branded/SLCL.svg'
 import * as TBrandedQUICK from './svgs/tokens/branded/QUICK.svg'
 import * as TBrandedMATH from './svgs/tokens/branded/MATH.svg'
@@ -1696,7 +1607,6 @@ import * as TBrandedRBD from './svgs/tokens/branded/RBD.svg'
 import * as TBrandedELU from './svgs/tokens/branded/ELU.svg'
 import * as TBrandedHIVE from './svgs/tokens/branded/HIVE.svg'
 import * as TBrandedGHNY from './svgs/tokens/branded/GHNY.svg'
-import * as TBrandedLYX1 from './svgs/tokens/branded/LYX-1.svg'
 import * as TBrandedARCH from './svgs/tokens/branded/ARCH.svg'
 import * as TBrandedWSI from './svgs/tokens/branded/WSI.svg'
 import * as TBrandedENJ from './svgs/tokens/branded/ENJ.svg'
@@ -1738,7 +1648,6 @@ import * as TBrandedDPAY from './svgs/tokens/branded/DPAY.svg'
 import * as TBrandedFIL from './svgs/tokens/branded/FIL.svg'
 import * as TBrandedTWT from './svgs/tokens/branded/TWT.svg'
 import * as TBrandedDIMO from './svgs/tokens/branded/DIMO.svg'
-import * as TBrandedAMB from './svgs/tokens/branded/AMB.svg'
 import * as TBrandedID from './svgs/tokens/branded/ID.svg'
 import * as TBrandedSPA from './svgs/tokens/branded/SPA.svg'
 import * as TBrandedDEXT from './svgs/tokens/branded/DEXT.svg'
@@ -1772,7 +1681,6 @@ import * as TBrandedKOGE from './svgs/tokens/branded/KOGE.svg'
 import * as TBrandedOVR from './svgs/tokens/branded/OVR.svg'
 import * as TBrandedMOE from './svgs/tokens/branded/MOE.svg'
 import * as TBrandedDACXI from './svgs/tokens/branded/DACXI.svg'
-import * as TBrandedBAKE from './svgs/tokens/branded/BAKE.svg'
 import * as TBrandedWRX from './svgs/tokens/branded/WRX.svg'
 import * as TBrandedTLOS from './svgs/tokens/branded/TLOS.svg'
 import * as TBrandedCANTO from './svgs/tokens/branded/CANTO.svg'
@@ -1780,7 +1688,6 @@ import * as TBrandedGZONE from './svgs/tokens/branded/GZONE.svg'
 import * as TBrandedPWR from './svgs/tokens/branded/PWR.svg'
 import * as TBrandedGFAL from './svgs/tokens/branded/GFAL.svg'
 import * as TBrandedDJED from './svgs/tokens/branded/DJED.svg'
-import * as TBrandedBFR from './svgs/tokens/branded/BFR.svg'
 import * as TBrandedECO from './svgs/tokens/branded/ECO.svg'
 import * as TBrandedNGL from './svgs/tokens/branded/NGL.svg'
 import * as TBrandedCTXC from './svgs/tokens/branded/CTXC.svg'
@@ -1879,7 +1786,6 @@ import * as TMonoSWFTC from './svgs/tokens/mono/SWFTC.svg'
 import * as TMono2DAI from './svgs/tokens/mono/2DAI.svg'
 import * as TMonoD3D from './svgs/tokens/mono/D3D.svg'
 import * as TMonoPALM from './svgs/tokens/mono/PALM.svg'
-import * as TMonoBHAT from './svgs/tokens/mono/BHAT.svg'
 import * as TMonoHST from './svgs/tokens/mono/HST.svg'
 import * as TMonoDFX from './svgs/tokens/mono/DFX.svg'
 import * as TMonoHPO from './svgs/tokens/mono/HPO.svg'
@@ -1897,7 +1803,6 @@ import * as TMonoMTLX from './svgs/tokens/mono/MTLX.svg'
 import * as TMonoRCN from './svgs/tokens/mono/RCN.svg'
 import * as TMonoSONNE from './svgs/tokens/mono/SONNE.svg'
 import * as TMonoKLT from './svgs/tokens/mono/KLT.svg'
-import * as TMonoITP from './svgs/tokens/mono/ITP.svg'
 import * as TMonoNABOX from './svgs/tokens/mono/NABOX.svg'
 import * as TMonoEPIC from './svgs/tokens/mono/EPIC.svg'
 import * as TMonoOPUL from './svgs/tokens/mono/OPUL.svg'
@@ -1921,7 +1826,6 @@ import * as TMonoILV from './svgs/tokens/mono/ILV.svg'
 import * as TMonoRXD from './svgs/tokens/mono/RXD.svg'
 import * as TMonoZERO from './svgs/tokens/mono/ZERO.svg'
 import * as TMonoDIVER from './svgs/tokens/mono/DIVER.svg'
-import * as TMonoBUMP from './svgs/tokens/mono/BUMP.svg'
 import * as TMonoWGC from './svgs/tokens/mono/WGC.svg'
 import * as TMonoFUSE from './svgs/tokens/mono/FUSE.svg'
 import * as TMonoGZIL from './svgs/tokens/mono/GZIL.svg'
@@ -1950,13 +1854,11 @@ import * as TMonoWOOF from './svgs/tokens/mono/WOOF.svg'
 import * as TMonoFOUR from './svgs/tokens/mono/FOUR.svg'
 import * as TMonoMBX from './svgs/tokens/mono/MBX.svg'
 import * as TMonoPI from './svgs/tokens/mono/PI.svg'
-import * as TMonoBOSON from './svgs/tokens/mono/BOSON.svg'
 import * as TMonoBBANK from './svgs/tokens/mono/BBANK.svg'
 import * as TMonoMNDE from './svgs/tokens/mono/MNDE.svg'
 import * as TMonoWLITI from './svgs/tokens/mono/WLITI.svg'
 import * as TMonoACQ from './svgs/tokens/mono/ACQ.svg'
 import * as TMonoHFT from './svgs/tokens/mono/HFT.svg'
-import * as TMonoAMZ from './svgs/tokens/mono/AMZ.svg'
 import * as TMonoCNHT from './svgs/tokens/mono/CNHT.svg'
 import * as TMonoAURORA from './svgs/tokens/mono/AURORA.svg'
 import * as TMonoCVR from './svgs/tokens/mono/CVR.svg'
@@ -1964,11 +1866,9 @@ import * as TMonoALI from './svgs/tokens/mono/ALI.svg'
 import * as TMonoNEER from './svgs/tokens/mono/NEER.svg'
 import * as TMonoCVP from './svgs/tokens/mono/CVP.svg'
 import * as TMonoMXC from './svgs/tokens/mono/MXC.svg'
-import * as TMonoAMO from './svgs/tokens/mono/AMO.svg'
 import * as TMonoANT from './svgs/tokens/mono/ANT.svg'
 import * as TMonoDSM from './svgs/tokens/mono/DSM.svg'
 import * as TMonoHEZ from './svgs/tokens/mono/HEZ.svg'
-import * as TMonoANC from './svgs/tokens/mono/ANC.svg'
 import * as TMonoCTX from './svgs/tokens/mono/CTX.svg'
 import * as TMonoBTCMT from './svgs/tokens/mono/BTCMT.svg'
 import * as TMonoMETA from './svgs/tokens/mono/META.svg'
@@ -2014,7 +1914,6 @@ import * as TMonoION from './svgs/tokens/mono/ION.svg'
 import * as TMonoKOMPETE from './svgs/tokens/mono/KOMPETE.svg'
 import * as TMonoWELT from './svgs/tokens/mono/WELT.svg'
 import * as TMonoKASTA from './svgs/tokens/mono/KASTA.svg'
-import * as TMonoAGLD from './svgs/tokens/mono/AGLD.svg'
 import * as TMonoNFTX from './svgs/tokens/mono/NFTX.svg'
 import * as TMonoVSTA from './svgs/tokens/mono/VSTA.svg'
 import * as TMono1INCH from './svgs/tokens/mono/1INCH.svg'
@@ -2032,7 +1931,6 @@ import * as TMonoBRN from './svgs/tokens/mono/BRN.svg'
 import * as TMonoETH from './svgs/tokens/mono/ETH.svg'
 import * as TMonoRAD from './svgs/tokens/mono/RAD.svg'
 import * as TMonoKOM from './svgs/tokens/mono/KOM.svg'
-import * as TMonoBIDZ from './svgs/tokens/mono/BIDZ.svg'
 import * as TMonoKLV from './svgs/tokens/mono/KLV.svg'
 import * as TMonoGOFX from './svgs/tokens/mono/GOFX.svg'
 import * as TMonoBDT from './svgs/tokens/mono/BDT.svg'
@@ -2122,7 +2020,6 @@ import * as TMonoPBX from './svgs/tokens/mono/PBX.svg'
 import * as TMonoICHI from './svgs/tokens/mono/ICHI.svg'
 import * as TMonoCUDOS from './svgs/tokens/mono/CUDOS.svg'
 import * as TMonoNEX from './svgs/tokens/mono/NEX.svg'
-import * as TMonoBPT from './svgs/tokens/mono/BPT.svg'
 import * as TMonoGMM from './svgs/tokens/mono/GMM.svg'
 import * as TMonoUSDD from './svgs/tokens/mono/USDD.svg'
 import * as TMonoNCDT from './svgs/tokens/mono/NCDT.svg'
@@ -2146,7 +2043,6 @@ import * as TMonoKP3R from './svgs/tokens/mono/KP3R.svg'
 import * as TMonoIXT from './svgs/tokens/mono/IXT.svg'
 import * as TMonoKAT from './svgs/tokens/mono/KAT.svg'
 import * as TMonoSEI from './svgs/tokens/mono/SEI.svg'
-import * as TMonoBTSG from './svgs/tokens/mono/BTSG.svg'
 import * as TMonoCETUS from './svgs/tokens/mono/CETUS.svg'
 import * as TMonoXWG from './svgs/tokens/mono/XWG.svg'
 import * as TMonoXPRT from './svgs/tokens/mono/XPRT.svg'
@@ -2155,7 +2051,6 @@ import * as TMonoCOV from './svgs/tokens/mono/COV.svg'
 import * as TMonoODDZ from './svgs/tokens/mono/ODDZ.svg'
 import * as TMonoDHT from './svgs/tokens/mono/DHT.svg'
 import * as TMonoSC from './svgs/tokens/mono/SC.svg'
-import * as TMonoJUNGLE4EOS from './svgs/tokens/mono/JUNGLE4EOS.svg'
 import * as TMonoAVA from './svgs/tokens/mono/AVA.svg'
 import * as TMonoSTEP from './svgs/tokens/mono/STEP.svg'
 import * as TMonoARIA20 from './svgs/tokens/mono/ARIA20.svg'
@@ -2174,10 +2069,7 @@ import * as TMonoCVC from './svgs/tokens/mono/CVC.svg'
 import * as TMonoHGT from './svgs/tokens/mono/HGT.svg'
 import * as TMonoAVAX from './svgs/tokens/mono/AVAX.svg'
 import * as TMonoCWEB from './svgs/tokens/mono/CWEB.svg'
-import * as TMonoBORA from './svgs/tokens/mono/BORA.svg'
-import * as TMonoALPHA from './svgs/tokens/mono/ALPHA.svg'
 import * as TMonoMIND from './svgs/tokens/mono/MIND.svg'
-import * as TMonoAEGIS from './svgs/tokens/mono/AEGIS.svg'
 import * as TMonoHDX from './svgs/tokens/mono/HDX.svg'
 import * as TMonoCTI from './svgs/tokens/mono/CTI.svg'
 import * as TMonoALEPH from './svgs/tokens/mono/ALEPH.svg'
@@ -2202,7 +2094,6 @@ import * as TMonoBIT from './svgs/tokens/mono/BIT.svg'
 import * as TMonoNFAI from './svgs/tokens/mono/NFAI.svg'
 import * as TMonoALGO from './svgs/tokens/mono/ALGO.svg'
 import * as TMonoNODL from './svgs/tokens/mono/NODL.svg'
-import * as TMonoCOSMOS from './svgs/tokens/mono/COSMOS.svg'
 import * as TMonoWNDR from './svgs/tokens/mono/WNDR.svg'
 import * as TMonoXCHF from './svgs/tokens/mono/XCHF.svg'
 import * as TMonoGMX from './svgs/tokens/mono/GMX.svg'
@@ -2238,7 +2129,6 @@ import * as TMonoUNFI from './svgs/tokens/mono/UNFI.svg'
 import * as TMonoCELR from './svgs/tokens/mono/CELR.svg'
 import * as TMonoDEP from './svgs/tokens/mono/DEP.svg'
 import * as TMonoDGX from './svgs/tokens/mono/DGX.svg'
-import * as TMonoASIA from './svgs/tokens/mono/ASIA.svg'
 import * as TMonoFPS from './svgs/tokens/mono/FPS.svg'
 import * as TMonoQSR from './svgs/tokens/mono/QSR.svg'
 import * as TMonoQUBE from './svgs/tokens/mono/QUBE.svg'
@@ -2270,7 +2160,6 @@ import * as TMonoCQT from './svgs/tokens/mono/CQT.svg'
 import * as TMonoCRO from './svgs/tokens/mono/CRO.svg'
 import * as TMonoNRCH from './svgs/tokens/mono/NRCH.svg'
 import * as TMonoAHT from './svgs/tokens/mono/AHT.svg'
-import * as TMonoBUILD from './svgs/tokens/mono/BUILD.svg'
 import * as TMonoGBEX from './svgs/tokens/mono/GBEX.svg'
 import * as TMonoTRB from './svgs/tokens/mono/TRB.svg'
 import * as TMonoZOOMER from './svgs/tokens/mono/ZOOMER.svg'
@@ -2286,7 +2175,6 @@ import * as TMonoDOT from './svgs/tokens/mono/DOT.svg'
 import * as TMonoTT from './svgs/tokens/mono/TT.svg'
 import * as TMonoAPE from './svgs/tokens/mono/APE.svg'
 import * as TMonoELAND from './svgs/tokens/mono/ELAND.svg'
-import * as TMonoASTROC from './svgs/tokens/mono/ASTROC.svg'
 import * as TMonoSMBR from './svgs/tokens/mono/SMBR.svg'
 import * as TMonoVENT from './svgs/tokens/mono/VENT.svg'
 import * as TMonoTGT from './svgs/tokens/mono/TGT.svg'
@@ -2298,7 +2186,6 @@ import * as TMonoRIN from './svgs/tokens/mono/RIN.svg'
 import * as TMonoXSGD from './svgs/tokens/mono/XSGD.svg'
 import * as TMonoKINT from './svgs/tokens/mono/KINT.svg'
 import * as TMonoMMPRO from './svgs/tokens/mono/MMPRO.svg'
-import * as TMonoBAN from './svgs/tokens/mono/BAN.svg'
 import * as TMonoWBTC from './svgs/tokens/mono/WBTC.svg'
 import * as TMonoEFL from './svgs/tokens/mono/EFL.svg'
 import * as TMonoSWEAT from './svgs/tokens/mono/SWEAT.svg'
@@ -2324,12 +2211,10 @@ import * as TMonoSAKAI from './svgs/tokens/mono/SAKAI.svg'
 import * as TMonoBAX from './svgs/tokens/mono/BAX.svg'
 import * as TMonoFRIN from './svgs/tokens/mono/FRIN.svg'
 import * as TMonoTROY from './svgs/tokens/mono/TROY.svg'
-import * as TMonoBAO from './svgs/tokens/mono/BAO.svg'
 import * as TMonoLINK from './svgs/tokens/mono/LINK.svg'
 import * as TMonoALOT from './svgs/tokens/mono/ALOT.svg'
 import * as TMonoUMA from './svgs/tokens/mono/UMA.svg'
 import * as TMonoMORK from './svgs/tokens/mono/MORK.svg'
-import * as TMonoORDER from './svgs/tokens/mono/ORDER.svg'
 import * as TMonoKEY from './svgs/tokens/mono/KEY.svg'
 import * as TMonoJULD from './svgs/tokens/mono/JULD.svg'
 import * as TMonoHTR from './svgs/tokens/mono/HTR.svg'
@@ -2394,7 +2279,6 @@ import * as TMonoBEAN from './svgs/tokens/mono/BEAN.svg'
 import * as TMonoYAM from './svgs/tokens/mono/YAM.svg'
 import * as TMonoRSC from './svgs/tokens/mono/RSC.svg'
 import * as TMonoLTC from './svgs/tokens/mono/LTC.svg'
-import * as TMonoBXX from './svgs/tokens/mono/BXX.svg'
 import * as TMonoTUSD from './svgs/tokens/mono/TUSD.svg'
 import * as TMonoCTSI from './svgs/tokens/mono/CTSI.svg'
 import * as TMonoHERO from './svgs/tokens/mono/HERO.svg'
@@ -2412,8 +2296,6 @@ import * as TMonoDVPN from './svgs/tokens/mono/DVPN.svg'
 import * as TMonoLUSD from './svgs/tokens/mono/LUSD.svg'
 import * as TMonoBCD from './svgs/tokens/mono/BCD.svg'
 import * as TMonoREGEN from './svgs/tokens/mono/REGEN.svg'
-import * as TMonoBAL from './svgs/tokens/mono/BAL.svg'
-import * as TMonoBANANO from './svgs/tokens/mono/BANANO.svg'
 import * as TMonoHBOT from './svgs/tokens/mono/HBOT.svg'
 import * as TMonoMATIC from './svgs/tokens/mono/MATIC.svg'
 import * as TMonoBMX from './svgs/tokens/mono/BMX.svg'
@@ -2430,7 +2312,6 @@ import * as TMonoXPR from './svgs/tokens/mono/XPR.svg'
 import * as TMonoJUNO from './svgs/tokens/mono/JUNO.svg'
 import * as TMonoFUTURE from './svgs/tokens/mono/FUTURE.svg'
 import * as TMonoPOLYX from './svgs/tokens/mono/POLYX.svg'
-import * as TMonoBAND from './svgs/tokens/mono/BAND.svg'
 import * as TMonoEVEAI from './svgs/tokens/mono/EVEAI.svg'
 import * as TMonoMBOX from './svgs/tokens/mono/MBOX.svg'
 import * as TMonoJOY from './svgs/tokens/mono/JOY.svg'
@@ -2449,7 +2330,6 @@ import * as TMonoCRPT from './svgs/tokens/mono/CRPT.svg'
 import * as TMonoADAPAD from './svgs/tokens/mono/ADAPAD.svg'
 import * as TMono3ULL from './svgs/tokens/mono/3ULL.svg'
 import * as TMonoX2Y2 from './svgs/tokens/mono/X2Y2.svg'
-import * as TMonoZRX from './svgs/tokens/mono/ZRX.svg'
 import * as TMonoMC from './svgs/tokens/mono/MC.svg'
 import * as TMonoFLX from './svgs/tokens/mono/FLX.svg'
 import * as TMonoSUB from './svgs/tokens/mono/SUB.svg'
@@ -2512,8 +2392,6 @@ import * as TMonoCAST from './svgs/tokens/mono/CAST.svg'
 import * as TMonoAGRS from './svgs/tokens/mono/AGRS.svg'
 import * as TMonoRDN from './svgs/tokens/mono/RDN.svg'
 import * as TMonoEGO from './svgs/tokens/mono/EGO.svg'
-import * as TMonoBICO from './svgs/tokens/mono/BICO.svg'
-import * as TMonoBUSD from './svgs/tokens/mono/BUSD.svg'
 import * as TMonoSUIP from './svgs/tokens/mono/SUIP.svg'
 import * as TMonoISP from './svgs/tokens/mono/ISP.svg'
 import * as TMonoMASQ from './svgs/tokens/mono/MASQ.svg'
@@ -2524,7 +2402,6 @@ import * as TMonoBOB from './svgs/tokens/mono/BOB.svg'
 import * as TMonoTEL from './svgs/tokens/mono/TEL.svg'
 import * as TMonoSTMX from './svgs/tokens/mono/STMX.svg'
 import * as TMonoDAO from './svgs/tokens/mono/DAO.svg'
-import * as TMonoBFIC from './svgs/tokens/mono/BFIC.svg'
 import * as TMonoDEXTF from './svgs/tokens/mono/DEXTF.svg'
 import * as TMonoMKR from './svgs/tokens/mono/MKR.svg'
 import * as TMonoDBC from './svgs/tokens/mono/DBC.svg'
@@ -2533,15 +2410,12 @@ import * as TMonoLAND from './svgs/tokens/mono/LAND.svg'
 import * as TMonoDEFX from './svgs/tokens/mono/DEFX.svg'
 import * as TMonoSLR from './svgs/tokens/mono/SLR.svg'
 import * as TMonoSDEX from './svgs/tokens/mono/SDEX.svg'
-import * as TMonoADCO from './svgs/tokens/mono/ADCO.svg'
 import * as TMonoZEC from './svgs/tokens/mono/ZEC.svg'
 import * as TMonoTKP from './svgs/tokens/mono/TKP.svg'
 import * as TMonoETHIX from './svgs/tokens/mono/ETHIX.svg'
 import * as TMonoAR from './svgs/tokens/mono/AR.svg'
-import * as TMonoADP from './svgs/tokens/mono/ADP.svg'
 import * as TMonoSYS from './svgs/tokens/mono/SYS.svg'
 import * as TMonoGENI from './svgs/tokens/mono/GENI.svg'
-import * as TMonoAE from './svgs/tokens/mono/AE.svg'
 import * as TMonoMST from './svgs/tokens/mono/MST.svg'
 import * as TMonoPAWTH from './svgs/tokens/mono/PAWTH.svg'
 import * as TMonoBSGG from './svgs/tokens/mono/BSGG.svg'
@@ -2564,7 +2438,6 @@ import * as TMonoJUP from './svgs/tokens/mono/JUP.svg'
 import * as TMonoVLXPAD from './svgs/tokens/mono/VLXPAD.svg'
 import * as TMonoOXEN from './svgs/tokens/mono/OXEN.svg'
 import * as TMonoTHALES from './svgs/tokens/mono/THALES.svg'
-import * as TMonoAGI from './svgs/tokens/mono/AGI.svg'
 import * as TMonoFWB from './svgs/tokens/mono/FWB.svg'
 import * as TMonoSLG from './svgs/tokens/mono/SLG.svg'
 import * as TMonoSTBU from './svgs/tokens/mono/STBU.svg'
@@ -2590,7 +2463,6 @@ import * as TMonoPERI from './svgs/tokens/mono/PERI.svg'
 import * as TMonoBCT from './svgs/tokens/mono/BCT.svg'
 import * as TMonoXAVA from './svgs/tokens/mono/XAVA.svg'
 import * as TMonoEFI from './svgs/tokens/mono/EFI.svg'
-import * as TMonoBUY from './svgs/tokens/mono/BUY.svg'
 import * as TMonoDAFI from './svgs/tokens/mono/DAFI.svg'
 import * as TMonoYAK from './svgs/tokens/mono/YAK.svg'
 import * as TMonoYCC from './svgs/tokens/mono/YCC.svg'
@@ -2635,23 +2507,19 @@ import * as TMonoOSMO from './svgs/tokens/mono/OSMO.svg'
 import * as TMonoSTOS from './svgs/tokens/mono/STOS.svg'
 import * as TMonoHVH from './svgs/tokens/mono/HVH.svg'
 import * as TMonoCHR from './svgs/tokens/mono/CHR.svg'
-import * as TMonoASM from './svgs/tokens/mono/ASM.svg'
 import * as TMonoHXRO from './svgs/tokens/mono/HXRO.svg'
 import * as TMonoDOG from './svgs/tokens/mono/DOG.svg'
 import * as TMonoGAINS from './svgs/tokens/mono/GAINS.svg'
-import * as TMonoADS from './svgs/tokens/mono/ADS.svg'
 import * as TMonoMRS from './svgs/tokens/mono/MRS.svg'
 import * as TMonoMPL from './svgs/tokens/mono/MPL.svg'
 import * as TMonoDERI from './svgs/tokens/mono/DERI.svg'
 import * as TMonoLORDS from './svgs/tokens/mono/LORDS.svg'
 import * as TMonoXKI from './svgs/tokens/mono/XKI.svg'
-import * as TMonoSCNSOL from './svgs/tokens/mono/SCNSOL.svg'
 import * as TMonoNPXS from './svgs/tokens/mono/NPXS.svg'
 import * as TMonoOM from './svgs/tokens/mono/OM.svg'
 import * as TMonoAIT from './svgs/tokens/mono/AIT.svg'
 import * as TMonoOOKI from './svgs/tokens/mono/OOKI.svg'
 import * as TMonoFOR from './svgs/tokens/mono/FOR.svg'
-import * as TMonoBONDLY from './svgs/tokens/mono/BONDLY.svg'
 import * as TMonoLA from './svgs/tokens/mono/LA.svg'
 import * as TMonoSUI from './svgs/tokens/mono/SUI.svg'
 import * as TMonoINST from './svgs/tokens/mono/INST.svg'
@@ -2662,7 +2530,6 @@ import * as TMonoXFT from './svgs/tokens/mono/XFT.svg'
 import * as TMonoBTCP from './svgs/tokens/mono/BTCP.svg'
 import * as TMonoSFTMX from './svgs/tokens/mono/SFTMX.svg'
 import * as TMonoXETA from './svgs/tokens/mono/XETA.svg'
-import * as TMonoASTR from './svgs/tokens/mono/ASTR.svg'
 import * as TMonoHMX from './svgs/tokens/mono/HMX.svg'
 import * as TMonoRUNE from './svgs/tokens/mono/RUNE.svg'
 import * as TMonoHOP from './svgs/tokens/mono/HOP.svg'
@@ -2678,7 +2545,6 @@ import * as TMonoPROPS from './svgs/tokens/mono/PROPS.svg'
 import * as TMonoLMWR from './svgs/tokens/mono/LMWR.svg'
 import * as TMonoTHE from './svgs/tokens/mono/THE.svg'
 import * as TMonoSNC from './svgs/tokens/mono/SNC.svg'
-import * as TMonoAMKT from './svgs/tokens/mono/AMKT.svg'
 import * as TMonoTIA from './svgs/tokens/mono/TIA.svg'
 import * as TMonoMNTC from './svgs/tokens/mono/MNTC.svg'
 import * as TMonoXI from './svgs/tokens/mono/XI.svg'
@@ -2694,7 +2560,6 @@ import * as TMonoNVT from './svgs/tokens/mono/NVT.svg'
 import * as TMonoMAPS from './svgs/tokens/mono/MAPS.svg'
 import * as TMonoKNDX from './svgs/tokens/mono/KNDX.svg'
 import * as TMonoFAKEAI from './svgs/tokens/mono/FAKEAI.svg'
-import * as TMonoBURGER from './svgs/tokens/mono/BURGER.svg'
 import * as TMonoGAMMA from './svgs/tokens/mono/GAMMA.svg'
 import * as TMonoUTK from './svgs/tokens/mono/UTK.svg'
 import * as TMonoCUSDC from './svgs/tokens/mono/CUSDC.svg'
@@ -2723,7 +2588,6 @@ import * as TMonoAPFC from './svgs/tokens/mono/APFC.svg'
 import * as TMonoIDV from './svgs/tokens/mono/IDV.svg'
 import * as TMonoBTG from './svgs/tokens/mono/BTG.svg'
 import * as TMonoLYX from './svgs/tokens/mono/LYX.svg'
-import * as TMonoBETS from './svgs/tokens/mono/BETS.svg'
 import * as TMonoQTCON from './svgs/tokens/mono/QTCON.svg'
 import * as TMonoBCN from './svgs/tokens/mono/BCN.svg'
 import * as TMonoUND from './svgs/tokens/mono/UND.svg'
@@ -2773,7 +2637,6 @@ import * as TMonoHAKA from './svgs/tokens/mono/HAKA.svg'
 import * as TMonoIBIT from './svgs/tokens/mono/IBIT.svg'
 import * as TMonoVV from './svgs/tokens/mono/VV.svg'
 import * as TMonoCKP from './svgs/tokens/mono/CKP.svg'
-import * as TMonoAST from './svgs/tokens/mono/AST.svg'
 import * as TMonoJAM from './svgs/tokens/mono/JAM.svg'
 import * as TMonoMET from './svgs/tokens/mono/MET.svg'
 import * as TMonoAPX from './svgs/tokens/mono/APX.svg'
@@ -2791,7 +2654,6 @@ import * as TMonoTRADE from './svgs/tokens/mono/TRADE.svg'
 import * as TMonoPRISM from './svgs/tokens/mono/PRISM.svg'
 import * as TMonoBLT from './svgs/tokens/mono/BLT.svg'
 import * as TMonoGSE from './svgs/tokens/mono/GSE.svg'
-import * as TMonoBOX from './svgs/tokens/mono/BOX.svg'
 import * as TMonoNALS from './svgs/tokens/mono/NALS.svg'
 import * as TMonoEURS from './svgs/tokens/mono/EURS.svg'
 import * as TMonoRDT from './svgs/tokens/mono/RDT.svg'
@@ -2855,11 +2717,8 @@ import * as TMonoSAN from './svgs/tokens/mono/SAN.svg'
 import * as TMonoXRD from './svgs/tokens/mono/XRD.svg'
 import * as TMonoJONES from './svgs/tokens/mono/JONES.svg'
 import * as TMonoDCK from './svgs/tokens/mono/DCK.svg'
-import * as TMonoLOOT from './svgs/tokens/mono/LOOT.svg'
 import * as TMonoNFTBS from './svgs/tokens/mono/NFTBS.svg'
 import * as TMonoHOPR from './svgs/tokens/mono/HOPR.svg'
-import * as TMonoASCN from './svgs/tokens/mono/ASCN.svg'
-import * as TMonoS from './svgs/tokens/mono/S.svg'
 import * as TMonoPASG from './svgs/tokens/mono/PASG.svg'
 import * as TMonoPART from './svgs/tokens/mono/PART.svg'
 import * as TMonoBCMC from './svgs/tokens/mono/BCMC.svg'
@@ -2874,7 +2733,6 @@ import * as TMonoSTARS from './svgs/tokens/mono/STARS.svg'
 import * as TMonoOCEAN from './svgs/tokens/mono/OCEAN.svg'
 import * as TMonoCREAM from './svgs/tokens/mono/CREAM.svg'
 import * as TMonoCPH from './svgs/tokens/mono/CPH.svg'
-import * as TMonoADX from './svgs/tokens/mono/ADX.svg'
 import * as TMonoSAND from './svgs/tokens/mono/SAND.svg'
 import * as TMonoKARATE from './svgs/tokens/mono/KARATE.svg'
 import * as TMonoMUTE from './svgs/tokens/mono/MUTE.svg'
@@ -2889,7 +2747,6 @@ import * as TMonoTKO from './svgs/tokens/mono/TKO.svg'
 import * as TMonoVOICE from './svgs/tokens/mono/VOICE.svg'
 import * as TMonoSCB from './svgs/tokens/mono/SCB.svg'
 import * as TMonoKALM from './svgs/tokens/mono/KALM.svg'
-import * as TMonoBOTTO from './svgs/tokens/mono/BOTTO.svg'
 import * as TMonoMIR from './svgs/tokens/mono/MIR.svg'
 import * as TMonoDAG from './svgs/tokens/mono/DAG.svg'
 import * as TMonoALPACA from './svgs/tokens/mono/ALPACA.svg'
@@ -2921,7 +2778,6 @@ import * as TMonoMETAV from './svgs/tokens/mono/METAV.svg'
 import * as TMonoNMX from './svgs/tokens/mono/NMX.svg'
 import * as TMonoGEL from './svgs/tokens/mono/GEL.svg'
 import * as TMonoWBT from './svgs/tokens/mono/WBT.svg'
-import * as TMonoAERO from './svgs/tokens/mono/AERO.svg'
 import * as TMonoIDIA from './svgs/tokens/mono/IDIA.svg'
 import * as TMonoLYRA from './svgs/tokens/mono/LYRA.svg'
 import * as TMonoTITAN from './svgs/tokens/mono/TITAN.svg'
@@ -2940,7 +2796,6 @@ import * as TMonoCOPI from './svgs/tokens/mono/COPI.svg'
 import * as TMonoLBT from './svgs/tokens/mono/LBT.svg'
 import * as TMonoBNX from './svgs/tokens/mono/BNX.svg'
 import * as TMonoBMC from './svgs/tokens/mono/BMC.svg'
-import * as TMonoBIGSB from './svgs/tokens/mono/BIGSB.svg'
 import * as TMonoXY from './svgs/tokens/mono/XY.svg'
 import * as TMonoCHO from './svgs/tokens/mono/CHO.svg'
 import * as TMonoTKN from './svgs/tokens/mono/TKN.svg'
@@ -2959,7 +2814,6 @@ import * as TMonoNEBO from './svgs/tokens/mono/NEBO.svg'
 import * as TMonoPENDLE from './svgs/tokens/mono/PENDLE.svg'
 import * as TMonoSOON from './svgs/tokens/mono/SOON.svg'
 import * as TMonoMX from './svgs/tokens/mono/MX.svg'
-import * as TMonoAMPL from './svgs/tokens/mono/AMPL.svg'
 import * as TMonoHAI from './svgs/tokens/mono/HAI.svg'
 import * as TMonoO3 from './svgs/tokens/mono/O3.svg'
 import * as TMonoAKT from './svgs/tokens/mono/AKT.svg'
@@ -2978,7 +2832,6 @@ import * as TMonoDLC from './svgs/tokens/mono/DLC.svg'
 import * as TMonoAZIT from './svgs/tokens/mono/AZIT.svg'
 import * as TMonoMEED from './svgs/tokens/mono/MEED.svg'
 import * as TMonoRGEN from './svgs/tokens/mono/RGEN.svg'
-import * as TMonoARV from './svgs/tokens/mono/ARV.svg'
 import * as TMonoDAD from './svgs/tokens/mono/DAD.svg'
 import * as TMonoXRT from './svgs/tokens/mono/XRT.svg'
 import * as TMonoXSP from './svgs/tokens/mono/XSP.svg'
@@ -3000,7 +2853,6 @@ import * as TMonoCAPS from './svgs/tokens/mono/CAPS.svg'
 import * as TMonoBTC from './svgs/tokens/mono/BTC.svg'
 import * as TMonoNBT from './svgs/tokens/mono/NBT.svg'
 import * as TMonoLITH from './svgs/tokens/mono/LITH.svg'
-import * as TMonoBTT from './svgs/tokens/mono/BTT.svg'
 import * as TMonoLEOX from './svgs/tokens/mono/LEOX.svg'
 import * as TMonoHIFI from './svgs/tokens/mono/HIFI.svg'
 import * as TMonoECOIN from './svgs/tokens/mono/ECOIN.svg'
@@ -3011,7 +2863,6 @@ import * as TMonoMTRG from './svgs/tokens/mono/MTRG.svg'
 import * as TMonoGGG from './svgs/tokens/mono/GGG.svg'
 import * as TMonoIDEA from './svgs/tokens/mono/IDEA.svg'
 import * as TMonoZPAY from './svgs/tokens/mono/ZPAY.svg'
-import * as TMonoBTU from './svgs/tokens/mono/BTU.svg'
 import * as TMonoBSCPAD from './svgs/tokens/mono/BSCPAD.svg'
 import * as TMonoACRIA from './svgs/tokens/mono/ACRIA.svg'
 import * as TMonoGUILD from './svgs/tokens/mono/GUILD.svg'
@@ -3021,7 +2872,6 @@ import * as TMonoBAT from './svgs/tokens/mono/BAT.svg'
 import * as TMonoLOOKS from './svgs/tokens/mono/LOOKS.svg'
 import * as TMonoEURT from './svgs/tokens/mono/EURT.svg'
 import * as TMonoBETA from './svgs/tokens/mono/BETA.svg'
-import * as TMonoBORING from './svgs/tokens/mono/BORING.svg'
 import * as TMonoEVMOS from './svgs/tokens/mono/EVMOS.svg'
 import * as TMonoPINKSALE from './svgs/tokens/mono/PINKSALE.svg'
 import * as TMonoRDD from './svgs/tokens/mono/RDD.svg'
@@ -3048,7 +2898,6 @@ import * as TMonoQUARTZ from './svgs/tokens/mono/QUARTZ.svg'
 import * as TMonoMED from './svgs/tokens/mono/MED.svg'
 import * as TMonoBOND from './svgs/tokens/mono/BOND.svg'
 import * as TMonoGBYTE from './svgs/tokens/mono/GBYTE.svg'
-import * as TMonoASD from './svgs/tokens/mono/ASD.svg'
 import * as TMonoKAVA from './svgs/tokens/mono/KAVA.svg'
 import * as TMonoTXAU from './svgs/tokens/mono/TXAU.svg'
 import * as TMonoU from './svgs/tokens/mono/U.svg'
@@ -3083,7 +2932,6 @@ import * as TMonoOMNI from './svgs/tokens/mono/OMNI.svg'
 import * as TMonoQRL from './svgs/tokens/mono/QRL.svg'
 import * as TMonoDKA from './svgs/tokens/mono/DKA.svg'
 import * as TMonoAUDIO from './svgs/tokens/mono/AUDIO.svg'
-import * as TMonoZCN from './svgs/tokens/mono/ZCN.svg'
 import * as TMonoFRA from './svgs/tokens/mono/FRA.svg'
 import * as TMonoSDT from './svgs/tokens/mono/SDT.svg'
 import * as TMonoCAS from './svgs/tokens/mono/CAS.svg'
@@ -3104,7 +2952,6 @@ import * as TMonoPZP from './svgs/tokens/mono/PZP.svg'
 import * as TMonoNVIR from './svgs/tokens/mono/NVIR.svg'
 import * as TMonoTAROT from './svgs/tokens/mono/TAROT.svg'
 import * as TMonoNFTART from './svgs/tokens/mono/NFTART.svg'
-import * as TMonoBISO from './svgs/tokens/mono/BISO.svg'
 import * as TMonoGNO from './svgs/tokens/mono/GNO.svg'
 import * as TMonoBSV from './svgs/tokens/mono/BSV.svg'
 import * as TMonoGORA from './svgs/tokens/mono/GORA.svg'
@@ -3113,12 +2960,10 @@ import * as TMonoLUCA from './svgs/tokens/mono/LUCA.svg'
 import * as TMonoGDCC from './svgs/tokens/mono/GDCC.svg'
 import * as TMonoETC from './svgs/tokens/mono/ETC.svg'
 import * as TMonoICP from './svgs/tokens/mono/ICP.svg'
-import * as TMonoPNB from './svgs/tokens/mono/PNB.svg'
 import * as TMonoSYNC from './svgs/tokens/mono/SYNC.svg'
 import * as TMonoMANA from './svgs/tokens/mono/MANA.svg'
 import * as TMonoIDNA from './svgs/tokens/mono/IDNA.svg'
 import * as TMonoWRLD from './svgs/tokens/mono/WRLD.svg'
-import * as TMonoHUSH from './svgs/tokens/mono/HUSH.svg'
 import * as TMonoWAVES from './svgs/tokens/mono/WAVES.svg'
 import * as TMonoGYMNET from './svgs/tokens/mono/GYMNET.svg'
 import * as TMonoAURA from './svgs/tokens/mono/AURA.svg'
@@ -3152,7 +2997,6 @@ import * as TMonoNEURONI from './svgs/tokens/mono/NEURONI.svg'
 import * as TMonoNEST from './svgs/tokens/mono/NEST.svg'
 import * as TMonoZAP from './svgs/tokens/mono/ZAP.svg'
 import * as TMonoCATHEON from './svgs/tokens/mono/CATHEON.svg'
-import * as TMonoBREED from './svgs/tokens/mono/BREED.svg'
 import * as TMonoQRDO from './svgs/tokens/mono/QRDO.svg'
 import * as TMonoKLIMA from './svgs/tokens/mono/KLIMA.svg'
 import * as TMonoWBETH from './svgs/tokens/mono/WBETH.svg'
@@ -3173,7 +3017,6 @@ import * as TMonoTULIP from './svgs/tokens/mono/TULIP.svg'
 import * as TMonoXCM from './svgs/tokens/mono/XCM.svg'
 import * as TMonoINTR from './svgs/tokens/mono/INTR.svg'
 import * as TMonoDEXE from './svgs/tokens/mono/DEXE.svg'
-import * as TMonoALU from './svgs/tokens/mono/ALU.svg'
 import * as TMonoTTK from './svgs/tokens/mono/TTK.svg'
 import * as TMonoSRM from './svgs/tokens/mono/SRM.svg'
 import * as TMonoVLX from './svgs/tokens/mono/VLX.svg'
@@ -3181,7 +3024,6 @@ import * as TMonoONE from './svgs/tokens/mono/ONE.svg'
 import * as TMonoGRIN from './svgs/tokens/mono/GRIN.svg'
 import * as TMonoGRAIL from './svgs/tokens/mono/GRAIL.svg'
 import * as TMonoOMI from './svgs/tokens/mono/OMI.svg'
-import * as TMonoASSA from './svgs/tokens/mono/ASSA.svg'
 import * as TMonoDYDX from './svgs/tokens/mono/DYDX.svg'
 import * as TMonoSRLTY from './svgs/tokens/mono/SRLTY.svg'
 import * as TMonoDUSK from './svgs/tokens/mono/DUSK.svg'
@@ -3192,13 +3034,11 @@ import * as TMonoMBD from './svgs/tokens/mono/MBD.svg'
 import * as TMonoSN from './svgs/tokens/mono/SN.svg'
 import * as TMonoGCOIN from './svgs/tokens/mono/GCOIN.svg'
 import * as TMonoCAP from './svgs/tokens/mono/CAP.svg'
-import * as TMonoAERGO from './svgs/tokens/mono/AERGO.svg'
 import * as TMonoOTK from './svgs/tokens/mono/OTK.svg'
 import * as TMonoTFUEL from './svgs/tokens/mono/TFUEL.svg'
 import * as TMonoTIPS from './svgs/tokens/mono/TIPS.svg'
 import * as TMonoKAN from './svgs/tokens/mono/KAN.svg'
 import * as TMonoELF from './svgs/tokens/mono/ELF.svg'
-import * as TMonoBFT from './svgs/tokens/mono/BFT.svg'
 import * as TMonoNPC from './svgs/tokens/mono/NPC.svg'
 import * as TMonoPICA from './svgs/tokens/mono/PICA.svg'
 import * as TMonoLIT from './svgs/tokens/mono/LIT.svg'
@@ -3212,7 +3052,6 @@ import * as TMonoTONIC from './svgs/tokens/mono/TONIC.svg'
 import * as TMonoHILO from './svgs/tokens/mono/HILO.svg'
 import * as TMonoLUNR from './svgs/tokens/mono/LUNR.svg'
 import * as TMonoLYXE from './svgs/tokens/mono/LYXE.svg'
-import * as TMonoIMX from './svgs/tokens/mono/IMX.svg'
 import * as TMonoMOBY from './svgs/tokens/mono/MOBY.svg'
 import * as TMonoPAY from './svgs/tokens/mono/PAY.svg'
 import * as TMonoPROB from './svgs/tokens/mono/PROB.svg'
@@ -3231,7 +3070,6 @@ import * as TMonoROUTE from './svgs/tokens/mono/ROUTE.svg'
 import * as TMonoUSN from './svgs/tokens/mono/USN.svg'
 import * as TMonoBST from './svgs/tokens/mono/BST.svg'
 import * as TMonoICE from './svgs/tokens/mono/ICE.svg'
-import * as TMonoB2M from './svgs/tokens/mono/B2M.svg'
 import * as TMonoSENSE from './svgs/tokens/mono/SENSE.svg'
 import * as TMonoDATA from './svgs/tokens/mono/DATA.svg'
 import * as TMonoRAMP from './svgs/tokens/mono/RAMP.svg'
@@ -3239,7 +3077,6 @@ import * as TMonoRAM from './svgs/tokens/mono/RAM.svg'
 import * as TMonoGTC from './svgs/tokens/mono/GTC.svg'
 import * as TMonoIXO from './svgs/tokens/mono/IXO.svg'
 import * as TMonoGAFI from './svgs/tokens/mono/GAFI.svg'
-import * as TMonoARBI from './svgs/tokens/mono/ARBI.svg'
 import * as TMonoAPOLLO from './svgs/tokens/mono/APOLLO.svg'
 import * as TMonoXTP from './svgs/tokens/mono/XTP.svg'
 import * as TMonoMLN from './svgs/tokens/mono/MLN.svg'
@@ -3256,11 +3093,9 @@ import * as TMonoFOREX from './svgs/tokens/mono/FOREX.svg'
 import * as TMonoMTH from './svgs/tokens/mono/MTH.svg'
 import * as TMonoXMR from './svgs/tokens/mono/XMR.svg'
 import * as TMonoDF from './svgs/tokens/mono/DF.svg'
-import * as TMonoCOSMOSHUB from './svgs/tokens/mono/COSMOSHUB.svg'
 import * as TMonoVAI from './svgs/tokens/mono/VAI.svg'
 import * as TMonoCTG from './svgs/tokens/mono/CTG.svg'
 import * as TMonoBCUBE from './svgs/tokens/mono/BCUBE.svg'
-import * as TMonoAMP from './svgs/tokens/mono/AMP.svg'
 import * as TMonoLOVELY from './svgs/tokens/mono/LOVELY.svg'
 import * as TMonoCTC from './svgs/tokens/mono/CTC.svg'
 import * as TMonoPAXG from './svgs/tokens/mono/PAXG.svg'
@@ -3289,26 +3124,20 @@ import * as TMonoEMP from './svgs/tokens/mono/EMP.svg'
 import * as TMonoNOIA from './svgs/tokens/mono/NOIA.svg'
 import * as TMonoAIMBOT from './svgs/tokens/mono/AIMBOT.svg'
 import * as TMonoQASH from './svgs/tokens/mono/QASH.svg'
-import * as TMonoBGB from './svgs/tokens/mono/BGB.svg'
 import * as TMonoORARE from './svgs/tokens/mono/ORARE.svg'
 import * as TMonoITHEUM from './svgs/tokens/mono/ITHEUM.svg'
 import * as TMonoCSIX from './svgs/tokens/mono/CSIX.svg'
 import * as TMonoETE from './svgs/tokens/mono/ETE.svg'
-import * as TMonoBPRO from './svgs/tokens/mono/BPRO.svg'
 import * as TMonoNFTB from './svgs/tokens/mono/NFTB.svg'
 import * as TMonoOETH from './svgs/tokens/mono/OETH.svg'
 import * as TMonoXPNET from './svgs/tokens/mono/XPNET.svg'
 import * as TMonoSTRAX from './svgs/tokens/mono/STRAX.svg'
-import * as TMonoBULL from './svgs/tokens/mono/BULL.svg'
 import * as TMonoTBTC from './svgs/tokens/mono/TBTC.svg'
 import * as TMonoSEILOR from './svgs/tokens/mono/SEILOR.svg'
 import * as TMonoDOMI from './svgs/tokens/mono/DOMI.svg'
 import * as TMonoUPP from './svgs/tokens/mono/UPP.svg'
-import * as TMonoTELOS from './svgs/tokens/mono/TELOS.svg'
 import * as TMonoUQC from './svgs/tokens/mono/UQC.svg'
 import * as TMonoSMARTCREDIT from './svgs/tokens/mono/SMARTCREDIT.svg'
-import * as TMonoANKR from './svgs/tokens/mono/ANKR.svg'
-import * as TMonoBIFI from './svgs/tokens/mono/BIFI.svg'
 import * as TMonoSLCL from './svgs/tokens/mono/SLCL.svg'
 import * as TMonoMATH from './svgs/tokens/mono/MATH.svg'
 import * as TMonoBDX from './svgs/tokens/mono/BDX.svg'
@@ -3316,7 +3145,6 @@ import * as TMonoFLAME from './svgs/tokens/mono/FLAME.svg'
 import * as TMonoRBD from './svgs/tokens/mono/RBD.svg'
 import * as TMonoHIVE from './svgs/tokens/mono/HIVE.svg'
 import * as TMonoGHNY from './svgs/tokens/mono/GHNY.svg'
-import * as TMonoLYX1 from './svgs/tokens/mono/LYX-1.svg'
 import * as TMonoWSI from './svgs/tokens/mono/WSI.svg'
 import * as TMonoENJ from './svgs/tokens/mono/ENJ.svg'
 import * as TMonoVOXEL from './svgs/tokens/mono/VOXEL.svg'
@@ -3353,7 +3181,6 @@ import * as TMonoDPAY from './svgs/tokens/mono/DPAY.svg'
 import * as TMonoFIL from './svgs/tokens/mono/FIL.svg'
 import * as TMonoTWT from './svgs/tokens/mono/TWT.svg'
 import * as TMonoDIMO from './svgs/tokens/mono/DIMO.svg'
-import * as TMonoAMB from './svgs/tokens/mono/AMB.svg'
 import * as TMonoID from './svgs/tokens/mono/ID.svg'
 import * as TMonoSPA from './svgs/tokens/mono/SPA.svg'
 import * as TMonoDEXT from './svgs/tokens/mono/DEXT.svg'
@@ -3382,7 +3209,6 @@ import * as TMonoTOP from './svgs/tokens/mono/TOP.svg'
 import * as TMonoPOLY from './svgs/tokens/mono/POLY.svg'
 import * as TMonoKOGE from './svgs/tokens/mono/KOGE.svg'
 import * as TMonoDACXI from './svgs/tokens/mono/DACXI.svg'
-import * as TMonoBAKE from './svgs/tokens/mono/BAKE.svg'
 import * as TMonoWRX from './svgs/tokens/mono/WRX.svg'
 import * as TMonoTLOS from './svgs/tokens/mono/TLOS.svg'
 import * as TMonoCANTO from './svgs/tokens/mono/CANTO.svg'
@@ -3390,7 +3216,6 @@ import * as TMonoGZONE from './svgs/tokens/mono/GZONE.svg'
 import * as TMonoPWR from './svgs/tokens/mono/PWR.svg'
 import * as TMonoGFAL from './svgs/tokens/mono/GFAL.svg'
 import * as TMonoDJED from './svgs/tokens/mono/DJED.svg'
-import * as TMonoBFR from './svgs/tokens/mono/BFR.svg'
 import * as TMonoECO from './svgs/tokens/mono/ECO.svg'
 import * as TMonoCTXC from './svgs/tokens/mono/CTXC.svg'
 import * as TMonoPNG from './svgs/tokens/mono/PNG.svg'
@@ -3794,7 +3619,6 @@ import * as TBackgroundCOV from './svgs/tokens/background/COV.svg'
 import * as TBackgroundODDZ from './svgs/tokens/background/ODDZ.svg'
 import * as TBackgroundDHT from './svgs/tokens/background/DHT.svg'
 import * as TBackgroundSC from './svgs/tokens/background/SC.svg'
-import * as TBackgroundJUNGLE4EOS from './svgs/tokens/background/JUNGLE4EOS.svg'
 import * as TBackgroundAVA from './svgs/tokens/background/AVA.svg'
 import * as TBackgroundSTEP from './svgs/tokens/background/STEP.svg'
 import * as TBackgroundGQ from './svgs/tokens/background/GQ.svg'
@@ -3847,7 +3671,6 @@ import * as TBackgroundNFAI from './svgs/tokens/background/NFAI.svg'
 import * as TBackgroundALGO from './svgs/tokens/background/ALGO.svg'
 import * as TBackgroundNODL from './svgs/tokens/background/NODL.svg'
 import * as TBackgroundRBX from './svgs/tokens/background/RBX.svg'
-import * as TBackgroundCOSMOS from './svgs/tokens/background/COSMOS.svg'
 import * as TBackgroundWNDR from './svgs/tokens/background/WNDR.svg'
 import * as TBackgroundXCHF from './svgs/tokens/background/XCHF.svg'
 import * as TBackgroundGMX from './svgs/tokens/background/GMX.svg'
@@ -4112,7 +3935,6 @@ import * as TBackgroundCRPT from './svgs/tokens/background/CRPT.svg'
 import * as TBackgroundADAPAD from './svgs/tokens/background/ADAPAD.svg'
 import * as TBackground3ULL from './svgs/tokens/background/3ULL.svg'
 import * as TBackgroundX2Y2 from './svgs/tokens/background/X2Y2.svg'
-import * as TBackgroundZRX from './svgs/tokens/background/ZRX.svg'
 import * as TBackgroundMC from './svgs/tokens/background/MC.svg'
 import * as TBackgroundFLX from './svgs/tokens/background/FLX.svg'
 import * as TBackgroundSUB from './svgs/tokens/background/SUB.svg'
@@ -4337,7 +4159,6 @@ import * as TBackgroundMRS from './svgs/tokens/background/MRS.svg'
 import * as TBackgroundMPL from './svgs/tokens/background/MPL.svg'
 import * as TBackgroundDERI from './svgs/tokens/background/DERI.svg'
 import * as TBackgroundXKI from './svgs/tokens/background/XKI.svg'
-import * as TBackgroundSCNSOL from './svgs/tokens/background/SCNSOL.svg'
 import * as TBackgroundNPXS from './svgs/tokens/background/NPXS.svg'
 import * as TBackgroundOM from './svgs/tokens/background/OM.svg'
 import * as TBackgroundAIT from './svgs/tokens/background/AIT.svg'
@@ -4573,7 +4394,6 @@ import * as TBackgroundXRD from './svgs/tokens/background/XRD.svg'
 import * as TBackgroundCHEEMS from './svgs/tokens/background/CHEEMS.svg'
 import * as TBackgroundJONES from './svgs/tokens/background/JONES.svg'
 import * as TBackgroundDCK from './svgs/tokens/background/DCK.svg'
-import * as TBackgroundLOOT from './svgs/tokens/background/LOOT.svg'
 import * as TBackgroundNFTBS from './svgs/tokens/background/NFTBS.svg'
 import * as TBackgroundHOPR from './svgs/tokens/background/HOPR.svg'
 import * as TBackgroundCPOOL from './svgs/tokens/background/CPOOL.svg'
@@ -4853,13 +4673,11 @@ import * as TBackgroundLUCA from './svgs/tokens/background/LUCA.svg'
 import * as TBackgroundGDCC from './svgs/tokens/background/GDCC.svg'
 import * as TBackgroundETC from './svgs/tokens/background/ETC.svg'
 import * as TBackgroundICP from './svgs/tokens/background/ICP.svg'
-import * as TBackgroundPNB from './svgs/tokens/background/PNB.svg'
 import * as TBackgroundSYNC from './svgs/tokens/background/SYNC.svg'
 import * as TBackgroundRVF from './svgs/tokens/background/RVF.svg'
 import * as TBackgroundMANA from './svgs/tokens/background/MANA.svg'
 import * as TBackgroundEMAGIC from './svgs/tokens/background/EMAGIC.svg'
 import * as TBackgroundWRLD from './svgs/tokens/background/WRLD.svg'
-import * as TBackgroundHUSH from './svgs/tokens/background/HUSH.svg'
 import * as TBackgroundWAVES from './svgs/tokens/background/WAVES.svg'
 import * as TBackgroundGYMNET from './svgs/tokens/background/GYMNET.svg'
 import * as TBackgroundAURA from './svgs/tokens/background/AURA.svg'
@@ -4963,7 +4781,6 @@ import * as TBackgroundHILO from './svgs/tokens/background/HILO.svg'
 import * as TBackgroundLUNR from './svgs/tokens/background/LUNR.svg'
 import * as TBackgroundLYXE from './svgs/tokens/background/LYXE.svg'
 import * as TBackgroundGAT from './svgs/tokens/background/GAT.svg'
-import * as TBackgroundIMX from './svgs/tokens/background/IMX.svg'
 import * as TBackgroundMOBY from './svgs/tokens/background/MOBY.svg'
 import * as TBackgroundPAY from './svgs/tokens/background/PAY.svg'
 import * as TBackgroundPROB from './svgs/tokens/background/PROB.svg'
@@ -5008,7 +4825,6 @@ import * as TBackgroundMTH from './svgs/tokens/background/MTH.svg'
 import * as TBackgroundXMR from './svgs/tokens/background/XMR.svg'
 import * as TBackgroundDF from './svgs/tokens/background/DF.svg'
 import * as TBackgroundKISHU from './svgs/tokens/background/KISHU.svg'
-import * as TBackgroundCOSMOSHUB from './svgs/tokens/background/COSMOSHUB.svg'
 import * as TBackgroundLQTY from './svgs/tokens/background/LQTY.svg'
 import * as TBackgroundVAI from './svgs/tokens/background/VAI.svg'
 import * as TBackgroundCTG from './svgs/tokens/background/CTG.svg'
@@ -5067,7 +4883,6 @@ import * as TBackgroundSEILOR from './svgs/tokens/background/SEILOR.svg'
 import * as TBackgroundDOMI from './svgs/tokens/background/DOMI.svg'
 import * as TBackgroundUPP from './svgs/tokens/background/UPP.svg'
 import * as TBackgroundHUSKY from './svgs/tokens/background/HUSKY.svg'
-import * as TBackgroundTELOS from './svgs/tokens/background/TELOS.svg'
 import * as TBackgroundUQC from './svgs/tokens/background/UQC.svg'
 import * as TBackgroundSMARTCREDIT from './svgs/tokens/background/SMARTCREDIT.svg'
 import * as TBackgroundSLCL from './svgs/tokens/background/SLCL.svg'
@@ -5079,7 +4894,6 @@ import * as TBackgroundRBD from './svgs/tokens/background/RBD.svg'
 import * as TBackgroundELU from './svgs/tokens/background/ELU.svg'
 import * as TBackgroundHIVE from './svgs/tokens/background/HIVE.svg'
 import * as TBackgroundGHNY from './svgs/tokens/background/GHNY.svg'
-import * as TBackgroundLYX1 from './svgs/tokens/background/LYX-1.svg'
 import * as TBackgroundARCH from './svgs/tokens/background/ARCH.svg'
 import * as TBackgroundWSI from './svgs/tokens/background/WSI.svg'
 import * as TBackgroundENJ from './svgs/tokens/background/ENJ.svg'
@@ -5246,6 +5060,7 @@ import * as NBrandedFuse from './svgs/networks/branded/fuse.svg'
 import * as NBrandedNearProtocol from './svgs/networks/branded/near-protocol.svg'
 import * as NBrandedEnuls from './svgs/networks/branded/enuls.svg'
 import * as NBrandedAurora from './svgs/networks/branded/aurora.svg'
+import * as NBrandedPolygon from './svgs/networks/branded/polygon.svg'
 import * as NBrandedMultiversx from './svgs/networks/branded/multiversx.svg'
 import * as NBrandedTombchain from './svgs/networks/branded/tombchain.svg'
 import * as NBrandedL3x from './svgs/networks/branded/l3x.svg'
@@ -5269,6 +5084,7 @@ import * as NBrandedAptos from './svgs/networks/branded/aptos.svg'
 import * as NBrandedCosmos from './svgs/networks/branded/cosmos.svg'
 import * as NBrandedHemi from './svgs/networks/branded/hemi.svg'
 import * as NBrandedMoonbase from './svgs/networks/branded/moonbase.svg'
+import * as NBrandedAlgorand from './svgs/networks/branded/algorand.svg'
 import * as NBrandedEos from './svgs/networks/branded/eos.svg'
 import * as NBrandedArweave from './svgs/networks/branded/arweave.svg'
 import * as NBrandedStellar from './svgs/networks/branded/stellar.svg'
@@ -5300,7 +5116,6 @@ import * as NBrandedLens from './svgs/networks/branded/lens.svg'
 import * as NBrandedMode from './svgs/networks/branded/mode.svg'
 import * as NBrandedLinea from './svgs/networks/branded/linea.svg'
 import * as NBrandedZetaChain from './svgs/networks/branded/zeta-chain.svg'
-import * as NBrandedMatic from './svgs/networks/branded/matic.svg'
 import * as NBrandedJuno from './svgs/networks/branded/juno.svg'
 import * as NBrandedGravity from './svgs/networks/branded/gravity.svg'
 import * as NBrandedAvalanche from './svgs/networks/branded/avalanche.svg'
@@ -5360,7 +5175,6 @@ import * as NBrandedKroma from './svgs/networks/branded/kroma.svg'
 import * as NBrandedKava from './svgs/networks/branded/kava.svg'
 import * as NBrandedMoonriver from './svgs/networks/branded/moonriver.svg'
 import * as NBrandedUbiq from './svgs/networks/branded/ubiq.svg'
-import * as NBrandedPolygonPos from './svgs/networks/branded/polygon-pos.svg'
 import * as NBrandedSoneium from './svgs/networks/branded/soneium.svg'
 import * as NBrandedNahmii from './svgs/networks/branded/nahmii.svg'
 import * as NBrandedLightlink from './svgs/networks/branded/lightlink.svg'
@@ -5404,6 +5218,7 @@ import * as NMonoFuse from './svgs/networks/mono/fuse.svg'
 import * as NMonoNearProtocol from './svgs/networks/mono/near-protocol.svg'
 import * as NMonoEnuls from './svgs/networks/mono/enuls.svg'
 import * as NMonoAurora from './svgs/networks/mono/aurora.svg'
+import * as NMonoPolygon from './svgs/networks/mono/polygon.svg'
 import * as NMonoMultiversx from './svgs/networks/mono/multiversx.svg'
 import * as NMonoL3x from './svgs/networks/mono/l3x.svg'
 import * as NMonoFraxtal from './svgs/networks/mono/fraxtal.svg'
@@ -5456,7 +5271,6 @@ import * as NMonoLens from './svgs/networks/mono/lens.svg'
 import * as NMonoMode from './svgs/networks/mono/mode.svg'
 import * as NMonoLinea from './svgs/networks/mono/linea.svg'
 import * as NMonoZetaChain from './svgs/networks/mono/zeta-chain.svg'
-import * as NMonoMatic from './svgs/networks/mono/matic.svg'
 import * as NMonoJuno from './svgs/networks/mono/juno.svg'
 import * as NMonoGravity from './svgs/networks/mono/gravity.svg'
 import * as NMonoAvalanche from './svgs/networks/mono/avalanche.svg'
@@ -5515,7 +5329,6 @@ import * as NMonoKroma from './svgs/networks/mono/kroma.svg'
 import * as NMonoKava from './svgs/networks/mono/kava.svg'
 import * as NMonoMoonriver from './svgs/networks/mono/moonriver.svg'
 import * as NMonoUbiq from './svgs/networks/mono/ubiq.svg'
-import * as NMonoPolygonPos from './svgs/networks/mono/polygon-pos.svg'
 import * as NMonoSoneium from './svgs/networks/mono/soneium.svg'
 import * as NMonoNahmii from './svgs/networks/mono/nahmii.svg'
 import * as NMonoLightlink from './svgs/networks/mono/lightlink.svg'
@@ -5559,6 +5372,7 @@ import * as NBackgroundFuse from './svgs/networks/background/fuse.svg'
 import * as NBackgroundNearProtocol from './svgs/networks/background/near-protocol.svg'
 import * as NBackgroundEnuls from './svgs/networks/background/enuls.svg'
 import * as NBackgroundAurora from './svgs/networks/background/aurora.svg'
+import * as NBackgroundPolygon from './svgs/networks/background/polygon.svg'
 import * as NBackgroundMultiversx from './svgs/networks/background/multiversx.svg'
 import * as NBackgroundTombchain from './svgs/networks/background/tombchain.svg'
 import * as NBackgroundL3x from './svgs/networks/background/l3x.svg'
@@ -5582,6 +5396,7 @@ import * as NBackgroundAptos from './svgs/networks/background/aptos.svg'
 import * as NBackgroundCosmos from './svgs/networks/background/cosmos.svg'
 import * as NBackgroundHemi from './svgs/networks/background/hemi.svg'
 import * as NBackgroundMoonbase from './svgs/networks/background/moonbase.svg'
+import * as NBackgroundAlgorand from './svgs/networks/background/algorand.svg'
 import * as NBackgroundEos from './svgs/networks/background/eos.svg'
 import * as NBackgroundArweave from './svgs/networks/background/arweave.svg'
 import * as NBackgroundStellar from './svgs/networks/background/stellar.svg'
@@ -5613,7 +5428,6 @@ import * as NBackgroundLens from './svgs/networks/background/lens.svg'
 import * as NBackgroundMode from './svgs/networks/background/mode.svg'
 import * as NBackgroundLinea from './svgs/networks/background/linea.svg'
 import * as NBackgroundZetaChain from './svgs/networks/background/zeta-chain.svg'
-import * as NBackgroundMatic from './svgs/networks/background/matic.svg'
 import * as NBackgroundJuno from './svgs/networks/background/juno.svg'
 import * as NBackgroundGravity from './svgs/networks/background/gravity.svg'
 import * as NBackgroundAvalanche from './svgs/networks/background/avalanche.svg'
@@ -5673,7 +5487,6 @@ import * as NBackgroundKroma from './svgs/networks/background/kroma.svg'
 import * as NBackgroundKava from './svgs/networks/background/kava.svg'
 import * as NBackgroundMoonriver from './svgs/networks/background/moonriver.svg'
 import * as NBackgroundUbiq from './svgs/networks/background/ubiq.svg'
-import * as NBackgroundPolygonPos from './svgs/networks/background/polygon-pos.svg'
 import * as NBackgroundSoneium from './svgs/networks/background/soneium.svg'
 import * as NBackgroundNahmii from './svgs/networks/background/nahmii.svg'
 import * as NBackgroundLightlink from './svgs/networks/background/lightlink.svg'
@@ -5740,7 +5553,6 @@ import * as WBrandedSender from './svgs/wallets/branded/sender.svg'
 import * as WBrandedVenly from './svgs/wallets/branded/venly.svg'
 import * as WBrandedUnipass from './svgs/wallets/branded/unipass.svg'
 import * as WBrandedCoin98 from './svgs/wallets/branded/coin98.svg'
-import * as WBrandedTrustWallet from './svgs/wallets/branded/trust-wallet.svg'
 import * as WBrandedClave from './svgs/wallets/branded/clave.svg'
 import * as WBrandedTrust from './svgs/wallets/branded/trust.svg'
 import * as WBrandedWalletConnect from './svgs/wallets/branded/wallet-connect.svg'
@@ -5776,7 +5588,6 @@ import * as WMonoSender from './svgs/wallets/mono/sender.svg'
 import * as WMonoVenly from './svgs/wallets/mono/venly.svg'
 import * as WMonoUnipass from './svgs/wallets/mono/unipass.svg'
 import * as WMonoCoin98 from './svgs/wallets/mono/coin98.svg'
-import * as WMonoTrustWallet from './svgs/wallets/mono/trust-wallet.svg'
 import * as WMonoClave from './svgs/wallets/mono/clave.svg'
 import * as WMonoTrust from './svgs/wallets/mono/trust.svg'
 import * as WMonoMultis from './svgs/wallets/mono/multis.svg'
@@ -5815,8 +5626,8 @@ import * as WBackgroundSender from './svgs/wallets/background/sender.svg'
 import * as WBackgroundVenly from './svgs/wallets/background/venly.svg'
 import * as WBackgroundUnipass from './svgs/wallets/background/unipass.svg'
 import * as WBackgroundCoin98 from './svgs/wallets/background/coin98.svg'
-import * as WBackgroundTrustWallet from './svgs/wallets/background/trust-wallet.svg'
 import * as WBackgroundClave from './svgs/wallets/background/clave.svg'
+import * as WBackgroundTrust from './svgs/wallets/background/trust.svg'
 import * as WBackgroundMultis from './svgs/wallets/background/multis.svg'
 import * as WBackgroundWalletConnect from './svgs/wallets/background/wallet-connect.svg'
 import * as WBackgroundLit from './svgs/wallets/background/lit.svg'
@@ -5897,7 +5708,6 @@ import * as EBackgroundKucoin from './svgs/exchanges/background/kucoin.svg'
 export const svgs = {
   tokens: {
     branded: {
-      BABYSHIB: TBrandedBABYSHIB,
       SOCKS: TBrandedSOCKS,
       HONK: TBrandedHONK,
       THOL: TBrandedTHOL,
@@ -5923,7 +5733,6 @@ export const svgs = {
       '2DAI': TBranded2DAI,
       D3D: TBrandedD3D,
       PALM: TBrandedPALM,
-      BHAT: TBrandedBHAT,
       MELD: TBrandedMELD,
       HST: TBrandedHST,
       DFX: TBrandedDFX,
@@ -5968,7 +5777,6 @@ export const svgs = {
       RXD: TBrandedRXD,
       ZERO: TBrandedZERO,
       DIVER: TBrandedDIVER,
-      BUMP: TBrandedBUMP,
       WGC: TBrandedWGC,
       DEGEN: TBrandedDEGEN,
       FUSE: TBrandedFUSE,
@@ -6006,14 +5814,11 @@ export const svgs = {
       MBX: TBrandedMBX,
       PI: TBrandedPI,
       POLC: TBrandedPOLC,
-      BOSON: TBrandedBOSON,
       BBANK: TBrandedBBANK,
       MNDE: TBrandedMNDE,
       WLITI: TBrandedWLITI,
       ACQ: TBrandedACQ,
       HFT: TBrandedHFT,
-      ANKRETH: TBrandedANKRETH,
-      AMZ: TBrandedAMZ,
       CNHT: TBrandedCNHT,
       AURORA: TBrandedAURORA,
       CVR: TBrandedCVR,
@@ -6026,7 +5831,6 @@ export const svgs = {
       HEZ: TBrandedHEZ,
       MINU: TBrandedMINU,
       JEWEL: TBrandedJEWEL,
-      ANC: TBrandedANC,
       PEPES: TBrandedPEPES,
       CTX: TBrandedCTX,
       BTCMT: TBrandedBTCMT,
@@ -6077,7 +5881,6 @@ export const svgs = {
       KOMPETE: TBrandedKOMPETE,
       WELT: TBrandedWELT,
       KASTA: TBrandedKASTA,
-      AGLD: TBrandedAGLD,
       NFTX: TBrandedNFTX,
       MTVT: TBrandedMTVT,
       SAUCE: TBrandedSAUCE,
@@ -6097,7 +5900,6 @@ export const svgs = {
       RAD: TBrandedRAD,
       STIMA: TBrandedSTIMA,
       KOM: TBrandedKOM,
-      BIDZ: TBrandedBIDZ,
       KLV: TBrandedKLV,
       GOFX: TBrandedGOFX,
       BDT: TBrandedBDT,
@@ -6119,7 +5921,6 @@ export const svgs = {
       CLH: TBrandedCLH,
       DIVI: TBrandedDIVI,
       COS: TBrandedCOS,
-      ETHEREUM: TBrandedETHEREUM,
       FSN: TBrandedFSN,
       JST: TBrandedJST,
       STPT: TBrandedSTPT,
@@ -6192,7 +5993,6 @@ export const svgs = {
       LPOOL: TBrandedLPOOL,
       UNDEAD: TBrandedUNDEAD,
       GMEE: TBrandedGMEE,
-      BABYDOGE: TBrandedBABYDOGE,
       KTC: TBrandedKTC,
       CSPR: TBrandedCSPR,
       SBTC: TBrandedSBTC,
@@ -6205,7 +6005,6 @@ export const svgs = {
       ICHI: TBrandedICHI,
       CUDOS: TBrandedCUDOS,
       NEX: TBrandedNEX,
-      BPT: TBrandedBPT,
       USDD: TBrandedUSDD,
       NCDT: TBrandedNCDT,
       CONE: TBrandedCONE,
@@ -6233,7 +6032,6 @@ export const svgs = {
       NADA: TBrandedNADA,
       KAT: TBrandedKAT,
       SEI: TBrandedSEI,
-      BTSG: TBrandedBTSG,
       MMF: TBrandedMMF,
       CETUS: TBrandedCETUS,
       XWG: TBrandedXWG,
@@ -6243,7 +6041,6 @@ export const svgs = {
       ODDZ: TBrandedODDZ,
       DHT: TBrandedDHT,
       SC: TBrandedSC,
-      JUNGLE4EOS: TBrandedJUNGLE4EOS,
       AVA: TBrandedAVA,
       STEP: TBrandedSTEP,
       GQ: TBrandedGQ,
@@ -6264,11 +6061,8 @@ export const svgs = {
       HGT: TBrandedHGT,
       AVAX: TBrandedAVAX,
       CWEB: TBrandedCWEB,
-      BORA: TBrandedBORA,
       OBI: TBrandedOBI,
-      ALPHA: TBrandedALPHA,
       MIND: TBrandedMIND,
-      AEGIS: TBrandedAEGIS,
       HDX: TBrandedHDX,
       CTI: TBrandedCTI,
       ALEPH: TBrandedALEPH,
@@ -6299,7 +6093,6 @@ export const svgs = {
       ALGO: TBrandedALGO,
       NODL: TBrandedNODL,
       RBX: TBrandedRBX,
-      COSMOS: TBrandedCOSMOS,
       WNDR: TBrandedWNDR,
       XCHF: TBrandedXCHF,
       GMX: TBrandedGMX,
@@ -6320,7 +6113,6 @@ export const svgs = {
       TRONPAD: TBrandedTRONPAD,
       ETN: TBrandedETN,
       TIDAL: TBrandedTIDAL,
-      BABYTRUMP: TBrandedBABYTRUMP,
       RUG: TBrandedRUG,
       SOLVE: TBrandedSOLVE,
       KUNCI: TBrandedKUNCI,
@@ -6341,7 +6133,6 @@ export const svgs = {
       CELR: TBrandedCELR,
       DEP: TBrandedDEP,
       DGX: TBrandedDGX,
-      ASIA: TBrandedASIA,
       FPS: TBrandedFPS,
       QSR: TBrandedQSR,
       QUBE: TBrandedQUBE,
@@ -6378,7 +6169,6 @@ export const svgs = {
       MV: TBrandedMV,
       NRCH: TBrandedNRCH,
       AHT: TBrandedAHT,
-      BUILD: TBrandedBUILD,
       GBEX: TBrandedGBEX,
       TRB: TBrandedTRB,
       ZOOMER: TBrandedZOOMER,
@@ -6394,7 +6184,6 @@ export const svgs = {
       TT: TBrandedTT,
       APE: TBrandedAPE,
       ELAND: TBrandedELAND,
-      ASTROC: TBrandedASTROC,
       SMBR: TBrandedSMBR,
       ORB: TBrandedORB,
       TGT: TBrandedTGT,
@@ -6406,7 +6195,6 @@ export const svgs = {
       XSGD: TBrandedXSGD,
       KINT: TBrandedKINT,
       MMPRO: TBrandedMMPRO,
-      BAN: TBrandedBAN,
       WBTC: TBrandedWBTC,
       EFL: TBrandedEFL,
       SWEAT: TBrandedSWEAT,
@@ -6436,14 +6224,12 @@ export const svgs = {
       FRIN: TBrandedFRIN,
       TROY: TBrandedTROY,
       BRWL: TBrandedBRWL,
-      BAO: TBrandedBAO,
       LINK: TBrandedLINK,
       ALOT: TBrandedALOT,
       UMA: TBrandedUMA,
       SPELL: TBrandedSPELL,
       MMIT: TBrandedMMIT,
       MORK: TBrandedMORK,
-      ORDER: TBrandedORDER,
       KEY: TBrandedKEY,
       JULD: TBrandedJULD,
       SATS: TBrandedSATS,
@@ -6488,7 +6274,6 @@ export const svgs = {
       SOLX: TBrandedSOLX,
       ATRI: TBrandedATRI,
       SPACE: TBrandedSPACE,
-      ASTO: TBrandedASTO,
       SENATE: TBrandedSENATE,
       OKT: TBrandedOKT,
       AA: TBrandedAA,
@@ -6519,7 +6304,6 @@ export const svgs = {
       VOLT: TBrandedVOLT,
       RSC: TBrandedRSC,
       LTC: TBrandedLTC,
-      BXX: TBrandedBXX,
       TUSD: TBrandedTUSD,
       DOGE: TBrandedDOGE,
       CTSI: TBrandedCTSI,
@@ -6528,7 +6312,6 @@ export const svgs = {
       WIKEN: TBrandedWIKEN,
       PKF: TBrandedPKF,
       TPAD: TBrandedTPAD,
-      ANGLE: TBrandedANGLE,
       NAV: TBrandedNAV,
       PYTH: TBrandedPYTH,
       TIME: TBrandedTIME,
@@ -6539,8 +6322,6 @@ export const svgs = {
       LUSD: TBrandedLUSD,
       BCD: TBrandedBCD,
       REGEN: TBrandedREGEN,
-      BAL: TBrandedBAL,
-      BANANO: TBrandedBANANO,
       HBOT: TBrandedHBOT,
       MATIC: TBrandedMATIC,
       FREN: TBrandedFREN,
@@ -6558,7 +6339,6 @@ export const svgs = {
       JUNO: TBrandedJUNO,
       FUTURE: TBrandedFUTURE,
       POLYX: TBrandedPOLYX,
-      BAND: TBrandedBAND,
       EVEAI: TBrandedEVEAI,
       MBOX: TBrandedMBOX,
       CGL: TBrandedCGL,
@@ -6569,7 +6349,6 @@ export const svgs = {
       AQT: TBrandedAQT,
       MDX: TBrandedMDX,
       BOLT: TBrandedBOLT,
-      BONK: TBrandedBONK,
       SOUL: TBrandedSOUL,
       DERO: TBrandedDERO,
       SANI: TBrandedSANI,
@@ -6578,7 +6357,6 @@ export const svgs = {
       ADAPAD: TBrandedADAPAD,
       '3ULL': TBranded3ULL,
       X2Y2: TBrandedX2Y2,
-      ZRX: TBrandedZRX,
       MC: TBrandedMC,
       FLX: TBrandedFLX,
       SUB: TBrandedSUB,
@@ -6652,14 +6430,11 @@ export const svgs = {
       LITT: TBrandedLITT,
       EQB: TBrandedEQB,
       IGU: TBrandedIGU,
-      BAI: TBrandedBAI,
       CAST: TBrandedCAST,
       AGRS: TBrandedAGRS,
       RDN: TBrandedRDN,
       EGO: TBrandedEGO,
-      BICO: TBrandedBICO,
       DSLA: TBrandedDSLA,
-      BUSD: TBrandedBUSD,
       SUIP: TBrandedSUIP,
       ISP: TBrandedISP,
       MASQ: TBrandedMASQ,
@@ -6671,7 +6446,6 @@ export const svgs = {
       TEL: TBrandedTEL,
       STMX: TBrandedSTMX,
       DAO: TBrandedDAO,
-      BFIC: TBrandedBFIC,
       DEXTF: TBrandedDEXTF,
       MKR: TBrandedMKR,
       DBC: TBrandedDBC,
@@ -6681,16 +6455,13 @@ export const svgs = {
       DEFX: TBrandedDEFX,
       SLR: TBrandedSLR,
       SDEX: TBrandedSDEX,
-      ADCO: TBrandedADCO,
       ZEC: TBrandedZEC,
       TKP: TBrandedTKP,
       CUBE: TBrandedCUBE,
       ETHIX: TBrandedETHIX,
       AR: TBrandedAR,
-      ADP: TBrandedADP,
       SYS: TBrandedSYS,
       GENI: TBrandedGENI,
-      AE: TBrandedAE,
       MST: TBrandedMST,
       GRND: TBrandedGRND,
       PAWTH: TBrandedPAWTH,
@@ -6721,7 +6492,6 @@ export const svgs = {
       KATA: TBrandedKATA,
       OXEN: TBrandedOXEN,
       THALES: TBrandedTHALES,
-      AGI: TBrandedAGI,
       FWB: TBrandedFWB,
       SLG: TBrandedSLG,
       STBU: TBrandedSTBU,
@@ -6753,7 +6523,6 @@ export const svgs = {
       BCT: TBrandedBCT,
       XAVA: TBrandedXAVA,
       EFI: TBrandedEFI,
-      BUY: TBrandedBUY,
       DAFI: TBrandedDAFI,
       YAK: TBrandedYAK,
       YCC: TBrandedYCC,
@@ -6803,25 +6572,21 @@ export const svgs = {
       STOS: TBrandedSTOS,
       HVH: TBrandedHVH,
       CHR: TBrandedCHR,
-      ASM: TBrandedASM,
       DNT: TBrandedDNT,
       HXRO: TBrandedHXRO,
       HUAHUA: TBrandedHUAHUA,
       DOG: TBrandedDOG,
       GAINS: TBrandedGAINS,
-      ADS: TBrandedADS,
       MRS: TBrandedMRS,
       MPL: TBrandedMPL,
       DERI: TBrandedDERI,
       XKI: TBrandedXKI,
-      SCNSOL: TBrandedSCNSOL,
       NPXS: TBrandedNPXS,
       OM: TBrandedOM,
       AIT: TBrandedAIT,
       OOKI: TBrandedOOKI,
       FOR: TBrandedFOR,
       STSOL: TBrandedSTSOL,
-      BONDLY: TBrandedBONDLY,
       LA: TBrandedLA,
       SHIB: TBrandedSHIB,
       SUI: TBrandedSUI,
@@ -6836,7 +6601,6 @@ export const svgs = {
       SFTMX: TBrandedSFTMX,
       DYP: TBrandedDYP,
       XETA: TBrandedXETA,
-      ASTR: TBrandedASTR,
       HMX: TBrandedHMX,
       RUNE: TBrandedRUNE,
       HOP: TBrandedHOP,
@@ -6870,7 +6634,6 @@ export const svgs = {
       NVT: TBrandedNVT,
       MAPS: TBrandedMAPS,
       FAKEAI: TBrandedFAKEAI,
-      BURGER: TBrandedBURGER,
       ARIX: TBrandedARIX,
       CHMB: TBrandedCHMB,
       GAMMA: TBrandedGAMMA,
@@ -6904,7 +6667,6 @@ export const svgs = {
       IDV: TBrandedIDV,
       BTG: TBrandedBTG,
       LYX: TBrandedLYX,
-      BETS: TBrandedBETS,
       QTCON: TBrandedQTCON,
       BCN: TBrandedBCN,
       UND: TBrandedUND,
@@ -6941,7 +6703,6 @@ export const svgs = {
       VIB: TBrandedVIB,
       DPET: TBrandedDPET,
       BCAT: TBrandedBCAT,
-      BADGER: TBrandedBADGER,
       TOMI: TBrandedTOMI,
       NEAR: TBrandedNEAR,
       BTRFLY: TBrandedBTRFLY,
@@ -6962,7 +6723,6 @@ export const svgs = {
       IBIT: TBrandedIBIT,
       VV: TBrandedVV,
       CKP: TBrandedCKP,
-      AST: TBrandedAST,
       JAM: TBrandedJAM,
       MET: TBrandedMET,
       APX: TBrandedAPX,
@@ -6990,7 +6750,6 @@ export const svgs = {
       REP: TBrandedREP,
       BEPRO: TBrandedBEPRO,
       MCHC: TBrandedMCHC,
-      BAD: TBrandedBAD,
       MSOL: TBrandedMSOL,
       RAKE: TBrandedRAKE,
       SUKU: TBrandedSUKU,
@@ -7057,12 +6816,9 @@ export const svgs = {
       CHEEMS: TBrandedCHEEMS,
       JONES: TBrandedJONES,
       DCK: TBrandedDCK,
-      LOOT: TBrandedLOOT,
       NFTBS: TBrandedNFTBS,
       HOPR: TBrandedHOPR,
       CPOOL: TBrandedCPOOL,
-      S: TBrandedS,
-      AFC: TBrandedAFC,
       PASG: TBrandedPASG,
       PART: TBrandedPART,
       BCMC: TBrandedBCMC,
@@ -7077,7 +6833,6 @@ export const svgs = {
       CREAM: TBrandedCREAM,
       CPH: TBrandedCPH,
       TAMA: TBrandedTAMA,
-      ADX: TBrandedADX,
       SAND: TBrandedSAND,
       MUTE: TBrandedMUTE,
       C3: TBrandedC3,
@@ -7095,7 +6850,6 @@ export const svgs = {
       SMI: TBrandedSMI,
       SCB: TBrandedSCB,
       KALM: TBrandedKALM,
-      BOTTO: TBrandedBOTTO,
       MIR: TBrandedMIR,
       ALPACA: TBrandedALPACA,
       APEFI: TBrandedAPEFI,
@@ -7131,9 +6885,7 @@ export const svgs = {
       GEL: TBrandedGEL,
       LIZA: TBrandedLIZA,
       WBT: TBrandedWBT,
-      AERO: TBrandedAERO,
       IDIA: TBrandedIDIA,
-      AGEUR: TBrandedAGEUR,
       LYRA: TBrandedLYRA,
       TITAN: TBrandedTITAN,
       PIB: TBrandedPIB,
@@ -7152,13 +6904,11 @@ export const svgs = {
       COPI: TBrandedCOPI,
       LBT: TBrandedLBT,
       BNX: TBrandedBNX,
-      BIGSB: TBrandedBIGSB,
       XY: TBrandedXY,
       CHO: TBrandedCHO,
       TKN: TBrandedTKN,
       SNS: TBrandedSNS,
       LQDR: TBrandedLQDR,
-      BOOT: TBrandedBOOT,
       VR: TBrandedVR,
       NEXA: TBrandedNEXA,
       PROPC: TBrandedPROPC,
@@ -7198,7 +6948,6 @@ export const svgs = {
       AZIT: TBrandedAZIT,
       MEED: TBrandedMEED,
       RGEN: TBrandedRGEN,
-      ARV: TBrandedARV,
       DAD: TBrandedDAD,
       XRT: TBrandedXRT,
       ORN: TBrandedORN,
@@ -7215,7 +6964,6 @@ export const svgs = {
       UOS: TBrandedUOS,
       CDAI: TBrandedCDAI,
       GALEON: TBrandedGALEON,
-      BANANA: TBrandedBANANA,
       REV: TBrandedREV,
       SOURCE: TBrandedSOURCE,
       UBT: TBrandedUBT,
@@ -7223,7 +6971,6 @@ export const svgs = {
       BTC: TBrandedBTC,
       NBT: TBrandedNBT,
       LITH: TBrandedLITH,
-      BWO: TBrandedBWO,
       UWU: TBrandedUWU,
       EMAID: TBrandedEMAID,
       UCJL: TBrandedUCJL,
@@ -7241,7 +6988,6 @@ export const svgs = {
       IDEA: TBrandedIDEA,
       ZPAY: TBrandedZPAY,
       WNT: TBrandedWNT,
-      BTU: TBrandedBTU,
       BSCPAD: TBrandedBSCPAD,
       ACRIA: TBrandedACRIA,
       GUILD: TBrandedGUILD,
@@ -7251,7 +6997,6 @@ export const svgs = {
       LOOKS: TBrandedLOOKS,
       EURT: TBrandedEURT,
       BETA: TBrandedBETA,
-      BORING: TBrandedBORING,
       EVMOS: TBrandedEVMOS,
       PINKSALE: TBrandedPINKSALE,
       RDD: TBrandedRDD,
@@ -7265,7 +7010,6 @@ export const svgs = {
       ORDI: TBrandedORDI,
       LCS: TBrandedLCS,
       PPC: TBrandedPPC,
-      ASTRADAO: TBrandedASTRADAO,
       HERMES: TBrandedHERMES,
       BLD: TBrandedBLD,
       ZKB: TBrandedZKB,
@@ -7281,10 +7025,8 @@ export const svgs = {
       UNCX: TBrandedUNCX,
       QUARTZ: TBrandedQUARTZ,
       MED: TBrandedMED,
-      ADOGE: TBrandedADOGE,
       BOND: TBrandedBOND,
       GBYTE: TBrandedGBYTE,
-      ASD: TBrandedASD,
       RBLS: TBrandedRBLS,
       DXP: TBrandedDXP,
       KAVA: TBrandedKAVA,
@@ -7353,13 +7095,11 @@ export const svgs = {
       GDCC: TBrandedGDCC,
       ETC: TBrandedETC,
       ICP: TBrandedICP,
-      PNB: TBrandedPNB,
       SYNC: TBrandedSYNC,
       RVF: TBrandedRVF,
       MANA: TBrandedMANA,
       EMAGIC: TBrandedEMAGIC,
       WRLD: TBrandedWRLD,
-      HUSH: TBrandedHUSH,
       WAVES: TBrandedWAVES,
       GYMNET: TBrandedGYMNET,
       AURA: TBrandedAURA,
@@ -7396,7 +7136,6 @@ export const svgs = {
       NEURONI: TBrandedNEURONI,
       ZAP: TBrandedZAP,
       CATHEON: TBrandedCATHEON,
-      BREED: TBrandedBREED,
       SHA: TBrandedSHA,
       QRDO: TBrandedQRDO,
       KLIMA: TBrandedKLIMA,
@@ -7418,17 +7157,14 @@ export const svgs = {
       XCM: TBrandedXCM,
       INTR: TBrandedINTR,
       DEXE: TBrandedDEXE,
-      ALU: TBrandedALU,
       TTK: TBrandedTTK,
       SRM: TBrandedSRM,
       VLX: TBrandedVLX,
       SPE: TBrandedSPE,
-      BASE: TBrandedBASE,
       ONE: TBrandedONE,
       GRIN: TBrandedGRIN,
       GRAIL: TBrandedGRAIL,
       OMI: TBrandedOMI,
-      ASSA: TBrandedASSA,
       DYDX: TBrandedDYDX,
       SRLTY: TBrandedSRLTY,
       DUSK: TBrandedDUSK,
@@ -7444,7 +7180,6 @@ export const svgs = {
       GCOIN: TBrandedGCOIN,
       MOC: TBrandedMOC,
       CAP: TBrandedCAP,
-      AERGO: TBrandedAERGO,
       OTK: TBrandedOTK,
       LEASH: TBrandedLEASH,
       TFUEL: TBrandedTFUEL,
@@ -7453,7 +7188,6 @@ export const svgs = {
       KAN: TBrandedKAN,
       ELF: TBrandedELF,
       RBW: TBrandedRBW,
-      BFT: TBrandedBFT,
       NPC: TBrandedNPC,
       GSTS: TBrandedGSTS,
       PICA: TBrandedPICA,
@@ -7469,7 +7203,6 @@ export const svgs = {
       LUNR: TBrandedLUNR,
       LYXE: TBrandedLYXE,
       GAT: TBrandedGAT,
-      IMX: TBrandedIMX,
       MOBY: TBrandedMOBY,
       PAY: TBrandedPAY,
       PROB: TBrandedPROB,
@@ -7490,7 +7223,6 @@ export const svgs = {
       USN: TBrandedUSN,
       BST: TBrandedBST,
       ICE: TBrandedICE,
-      B2M: TBrandedB2M,
       SENSE: TBrandedSENSE,
       BEN: TBrandedBEN,
       DATA: TBrandedDATA,
@@ -7499,7 +7231,6 @@ export const svgs = {
       GTC: TBrandedGTC,
       IXO: TBrandedIXO,
       GAFI: TBrandedGAFI,
-      ARBI: TBrandedARBI,
       APOLLO: TBrandedAPOLLO,
       XTP: TBrandedXTP,
       MLN: TBrandedMLN,
@@ -7516,13 +7247,11 @@ export const svgs = {
       XMR: TBrandedXMR,
       DF: TBrandedDF,
       KISHU: TBrandedKISHU,
-      COSMOSHUB: TBrandedCOSMOSHUB,
       LQTY: TBrandedLQTY,
       VAI: TBrandedVAI,
       CTG: TBrandedCTG,
       BCUBE: TBrandedBCUBE,
       DPI: TBrandedDPI,
-      AMP: TBrandedAMP,
       LOVELY: TBrandedLOVELY,
       CTC: TBrandedCTC,
       PAXG: TBrandedPAXG,
@@ -7557,14 +7286,12 @@ export const svgs = {
       NOIA: TBrandedNOIA,
       AIMBOT: TBrandedAIMBOT,
       QASH: TBrandedQASH,
-      BGB: TBrandedBGB,
       ORARE: TBrandedORARE,
       CSIX: TBrandedCSIX,
       RAI: TBrandedRAI,
       CRYSTAL: TBrandedCRYSTAL,
       GOZ: TBrandedGOZ,
       ETE: TBrandedETE,
-      BPRO: TBrandedBPRO,
       NFTB: TBrandedNFTB,
       OETH: TBrandedOETH,
       XPNET: TBrandedXPNET,
@@ -7573,18 +7300,13 @@ export const svgs = {
       BLUSD: TBrandedBLUSD,
       SIPHER: TBrandedSIPHER,
       LUNA: TBrandedLUNA,
-      BULL: TBrandedBULL,
       TBTC: TBrandedTBTC,
       SEILOR: TBrandedSEILOR,
       DOMI: TBrandedDOMI,
       UPP: TBrandedUPP,
       HUSKY: TBrandedHUSKY,
-      TELOS: TBrandedTELOS,
       UQC: TBrandedUQC,
       SMARTCREDIT: TBrandedSMARTCREDIT,
-      ASTRAFER: TBrandedASTRAFER,
-      ANKR: TBrandedANKR,
-      BIFI: TBrandedBIFI,
       SLCL: TBrandedSLCL,
       QUICK: TBrandedQUICK,
       MATH: TBrandedMATH,
@@ -7594,7 +7316,6 @@ export const svgs = {
       ELU: TBrandedELU,
       HIVE: TBrandedHIVE,
       GHNY: TBrandedGHNY,
-      'LYX-1': TBrandedLYX1,
       ARCH: TBrandedARCH,
       WSI: TBrandedWSI,
       ENJ: TBrandedENJ,
@@ -7636,7 +7357,6 @@ export const svgs = {
       FIL: TBrandedFIL,
       TWT: TBrandedTWT,
       DIMO: TBrandedDIMO,
-      AMB: TBrandedAMB,
       ID: TBrandedID,
       SPA: TBrandedSPA,
       DEXT: TBrandedDEXT,
@@ -7670,7 +7390,6 @@ export const svgs = {
       OVR: TBrandedOVR,
       MOE: TBrandedMOE,
       DACXI: TBrandedDACXI,
-      BAKE: TBrandedBAKE,
       WRX: TBrandedWRX,
       TLOS: TBrandedTLOS,
       CANTO: TBrandedCANTO,
@@ -7678,7 +7397,6 @@ export const svgs = {
       PWR: TBrandedPWR,
       GFAL: TBrandedGFAL,
       DJED: TBrandedDJED,
-      BFR: TBrandedBFR,
       ECO: TBrandedECO,
       NGL: TBrandedNGL,
       CTXC: TBrandedCTXC,
@@ -7779,7 +7497,6 @@ export const svgs = {
       '2DAI': TMono2DAI,
       D3D: TMonoD3D,
       PALM: TMonoPALM,
-      BHAT: TMonoBHAT,
       HST: TMonoHST,
       DFX: TMonoDFX,
       HPO: TMonoHPO,
@@ -7797,7 +7514,6 @@ export const svgs = {
       RCN: TMonoRCN,
       SONNE: TMonoSONNE,
       KLT: TMonoKLT,
-      ITP: TMonoITP,
       NABOX: TMonoNABOX,
       EPIC: TMonoEPIC,
       OPUL: TMonoOPUL,
@@ -7821,7 +7537,6 @@ export const svgs = {
       RXD: TMonoRXD,
       ZERO: TMonoZERO,
       DIVER: TMonoDIVER,
-      BUMP: TMonoBUMP,
       WGC: TMonoWGC,
       FUSE: TMonoFUSE,
       GZIL: TMonoGZIL,
@@ -7850,13 +7565,11 @@ export const svgs = {
       FOUR: TMonoFOUR,
       MBX: TMonoMBX,
       PI: TMonoPI,
-      BOSON: TMonoBOSON,
       BBANK: TMonoBBANK,
       MNDE: TMonoMNDE,
       WLITI: TMonoWLITI,
       ACQ: TMonoACQ,
       HFT: TMonoHFT,
-      AMZ: TMonoAMZ,
       CNHT: TMonoCNHT,
       AURORA: TMonoAURORA,
       CVR: TMonoCVR,
@@ -7864,11 +7577,9 @@ export const svgs = {
       NEER: TMonoNEER,
       CVP: TMonoCVP,
       MXC: TMonoMXC,
-      AMO: TMonoAMO,
       ANT: TMonoANT,
       DSM: TMonoDSM,
       HEZ: TMonoHEZ,
-      ANC: TMonoANC,
       CTX: TMonoCTX,
       BTCMT: TMonoBTCMT,
       META: TMonoMETA,
@@ -7914,7 +7625,6 @@ export const svgs = {
       KOMPETE: TMonoKOMPETE,
       WELT: TMonoWELT,
       KASTA: TMonoKASTA,
-      AGLD: TMonoAGLD,
       NFTX: TMonoNFTX,
       VSTA: TMonoVSTA,
       '1INCH': TMono1INCH,
@@ -7932,7 +7642,6 @@ export const svgs = {
       ETH: TMonoETH,
       RAD: TMonoRAD,
       KOM: TMonoKOM,
-      BIDZ: TMonoBIDZ,
       KLV: TMonoKLV,
       GOFX: TMonoGOFX,
       BDT: TMonoBDT,
@@ -8022,7 +7731,6 @@ export const svgs = {
       ICHI: TMonoICHI,
       CUDOS: TMonoCUDOS,
       NEX: TMonoNEX,
-      BPT: TMonoBPT,
       GMM: TMonoGMM,
       USDD: TMonoUSDD,
       NCDT: TMonoNCDT,
@@ -8046,7 +7754,6 @@ export const svgs = {
       IXT: TMonoIXT,
       KAT: TMonoKAT,
       SEI: TMonoSEI,
-      BTSG: TMonoBTSG,
       CETUS: TMonoCETUS,
       XWG: TMonoXWG,
       XPRT: TMonoXPRT,
@@ -8055,7 +7762,6 @@ export const svgs = {
       ODDZ: TMonoODDZ,
       DHT: TMonoDHT,
       SC: TMonoSC,
-      JUNGLE4EOS: TMonoJUNGLE4EOS,
       AVA: TMonoAVA,
       STEP: TMonoSTEP,
       ARIA20: TMonoARIA20,
@@ -8074,10 +7780,7 @@ export const svgs = {
       HGT: TMonoHGT,
       AVAX: TMonoAVAX,
       CWEB: TMonoCWEB,
-      BORA: TMonoBORA,
-      ALPHA: TMonoALPHA,
       MIND: TMonoMIND,
-      AEGIS: TMonoAEGIS,
       HDX: TMonoHDX,
       CTI: TMonoCTI,
       ALEPH: TMonoALEPH,
@@ -8102,7 +7805,6 @@ export const svgs = {
       NFAI: TMonoNFAI,
       ALGO: TMonoALGO,
       NODL: TMonoNODL,
-      COSMOS: TMonoCOSMOS,
       WNDR: TMonoWNDR,
       XCHF: TMonoXCHF,
       GMX: TMonoGMX,
@@ -8138,7 +7840,6 @@ export const svgs = {
       CELR: TMonoCELR,
       DEP: TMonoDEP,
       DGX: TMonoDGX,
-      ASIA: TMonoASIA,
       FPS: TMonoFPS,
       QSR: TMonoQSR,
       QUBE: TMonoQUBE,
@@ -8170,7 +7871,6 @@ export const svgs = {
       CRO: TMonoCRO,
       NRCH: TMonoNRCH,
       AHT: TMonoAHT,
-      BUILD: TMonoBUILD,
       GBEX: TMonoGBEX,
       TRB: TMonoTRB,
       ZOOMER: TMonoZOOMER,
@@ -8186,7 +7886,6 @@ export const svgs = {
       TT: TMonoTT,
       APE: TMonoAPE,
       ELAND: TMonoELAND,
-      ASTROC: TMonoASTROC,
       SMBR: TMonoSMBR,
       VENT: TMonoVENT,
       TGT: TMonoTGT,
@@ -8198,7 +7897,6 @@ export const svgs = {
       XSGD: TMonoXSGD,
       KINT: TMonoKINT,
       MMPRO: TMonoMMPRO,
-      BAN: TMonoBAN,
       WBTC: TMonoWBTC,
       EFL: TMonoEFL,
       SWEAT: TMonoSWEAT,
@@ -8224,12 +7922,10 @@ export const svgs = {
       BAX: TMonoBAX,
       FRIN: TMonoFRIN,
       TROY: TMonoTROY,
-      BAO: TMonoBAO,
       LINK: TMonoLINK,
       ALOT: TMonoALOT,
       UMA: TMonoUMA,
       MORK: TMonoMORK,
-      ORDER: TMonoORDER,
       KEY: TMonoKEY,
       JULD: TMonoJULD,
       HTR: TMonoHTR,
@@ -8294,7 +7990,6 @@ export const svgs = {
       YAM: TMonoYAM,
       RSC: TMonoRSC,
       LTC: TMonoLTC,
-      BXX: TMonoBXX,
       TUSD: TMonoTUSD,
       CTSI: TMonoCTSI,
       HERO: TMonoHERO,
@@ -8312,8 +8007,6 @@ export const svgs = {
       LUSD: TMonoLUSD,
       BCD: TMonoBCD,
       REGEN: TMonoREGEN,
-      BAL: TMonoBAL,
-      BANANO: TMonoBANANO,
       HBOT: TMonoHBOT,
       MATIC: TMonoMATIC,
       BMX: TMonoBMX,
@@ -8330,7 +8023,6 @@ export const svgs = {
       JUNO: TMonoJUNO,
       FUTURE: TMonoFUTURE,
       POLYX: TMonoPOLYX,
-      BAND: TMonoBAND,
       EVEAI: TMonoEVEAI,
       MBOX: TMonoMBOX,
       JOY: TMonoJOY,
@@ -8349,7 +8041,6 @@ export const svgs = {
       ADAPAD: TMonoADAPAD,
       '3ULL': TMono3ULL,
       X2Y2: TMonoX2Y2,
-      ZRX: TMonoZRX,
       MC: TMonoMC,
       FLX: TMonoFLX,
       SUB: TMonoSUB,
@@ -8412,8 +8103,6 @@ export const svgs = {
       AGRS: TMonoAGRS,
       RDN: TMonoRDN,
       EGO: TMonoEGO,
-      BICO: TMonoBICO,
-      BUSD: TMonoBUSD,
       SUIP: TMonoSUIP,
       ISP: TMonoISP,
       MASQ: TMonoMASQ,
@@ -8424,7 +8113,6 @@ export const svgs = {
       TEL: TMonoTEL,
       STMX: TMonoSTMX,
       DAO: TMonoDAO,
-      BFIC: TMonoBFIC,
       DEXTF: TMonoDEXTF,
       MKR: TMonoMKR,
       DBC: TMonoDBC,
@@ -8433,15 +8121,12 @@ export const svgs = {
       DEFX: TMonoDEFX,
       SLR: TMonoSLR,
       SDEX: TMonoSDEX,
-      ADCO: TMonoADCO,
       ZEC: TMonoZEC,
       TKP: TMonoTKP,
       ETHIX: TMonoETHIX,
       AR: TMonoAR,
-      ADP: TMonoADP,
       SYS: TMonoSYS,
       GENI: TMonoGENI,
-      AE: TMonoAE,
       MST: TMonoMST,
       PAWTH: TMonoPAWTH,
       BSGG: TMonoBSGG,
@@ -8464,7 +8149,6 @@ export const svgs = {
       VLXPAD: TMonoVLXPAD,
       OXEN: TMonoOXEN,
       THALES: TMonoTHALES,
-      AGI: TMonoAGI,
       FWB: TMonoFWB,
       SLG: TMonoSLG,
       STBU: TMonoSTBU,
@@ -8490,7 +8174,6 @@ export const svgs = {
       BCT: TMonoBCT,
       XAVA: TMonoXAVA,
       EFI: TMonoEFI,
-      BUY: TMonoBUY,
       DAFI: TMonoDAFI,
       YAK: TMonoYAK,
       YCC: TMonoYCC,
@@ -8535,23 +8218,19 @@ export const svgs = {
       STOS: TMonoSTOS,
       HVH: TMonoHVH,
       CHR: TMonoCHR,
-      ASM: TMonoASM,
       HXRO: TMonoHXRO,
       DOG: TMonoDOG,
       GAINS: TMonoGAINS,
-      ADS: TMonoADS,
       MRS: TMonoMRS,
       MPL: TMonoMPL,
       DERI: TMonoDERI,
       LORDS: TMonoLORDS,
       XKI: TMonoXKI,
-      SCNSOL: TMonoSCNSOL,
       NPXS: TMonoNPXS,
       OM: TMonoOM,
       AIT: TMonoAIT,
       OOKI: TMonoOOKI,
       FOR: TMonoFOR,
-      BONDLY: TMonoBONDLY,
       LA: TMonoLA,
       SUI: TMonoSUI,
       INST: TMonoINST,
@@ -8562,7 +8241,6 @@ export const svgs = {
       BTCP: TMonoBTCP,
       SFTMX: TMonoSFTMX,
       XETA: TMonoXETA,
-      ASTR: TMonoASTR,
       HMX: TMonoHMX,
       RUNE: TMonoRUNE,
       HOP: TMonoHOP,
@@ -8578,7 +8256,6 @@ export const svgs = {
       LMWR: TMonoLMWR,
       THE: TMonoTHE,
       SNC: TMonoSNC,
-      AMKT: TMonoAMKT,
       TIA: TMonoTIA,
       MNTC: TMonoMNTC,
       XI: TMonoXI,
@@ -8594,7 +8271,6 @@ export const svgs = {
       MAPS: TMonoMAPS,
       KNDX: TMonoKNDX,
       FAKEAI: TMonoFAKEAI,
-      BURGER: TMonoBURGER,
       GAMMA: TMonoGAMMA,
       UTK: TMonoUTK,
       CUSDC: TMonoCUSDC,
@@ -8623,7 +8299,6 @@ export const svgs = {
       IDV: TMonoIDV,
       BTG: TMonoBTG,
       LYX: TMonoLYX,
-      BETS: TMonoBETS,
       QTCON: TMonoQTCON,
       BCN: TMonoBCN,
       UND: TMonoUND,
@@ -8673,7 +8348,6 @@ export const svgs = {
       IBIT: TMonoIBIT,
       VV: TMonoVV,
       CKP: TMonoCKP,
-      AST: TMonoAST,
       JAM: TMonoJAM,
       MET: TMonoMET,
       APX: TMonoAPX,
@@ -8691,7 +8365,6 @@ export const svgs = {
       PRISM: TMonoPRISM,
       BLT: TMonoBLT,
       GSE: TMonoGSE,
-      BOX: TMonoBOX,
       NALS: TMonoNALS,
       EURS: TMonoEURS,
       RDT: TMonoRDT,
@@ -8755,11 +8428,8 @@ export const svgs = {
       XRD: TMonoXRD,
       JONES: TMonoJONES,
       DCK: TMonoDCK,
-      LOOT: TMonoLOOT,
       NFTBS: TMonoNFTBS,
       HOPR: TMonoHOPR,
-      ASCN: TMonoASCN,
-      S: TMonoS,
       PASG: TMonoPASG,
       PART: TMonoPART,
       BCMC: TMonoBCMC,
@@ -8774,7 +8444,6 @@ export const svgs = {
       OCEAN: TMonoOCEAN,
       CREAM: TMonoCREAM,
       CPH: TMonoCPH,
-      ADX: TMonoADX,
       SAND: TMonoSAND,
       KARATE: TMonoKARATE,
       MUTE: TMonoMUTE,
@@ -8789,7 +8458,6 @@ export const svgs = {
       VOICE: TMonoVOICE,
       SCB: TMonoSCB,
       KALM: TMonoKALM,
-      BOTTO: TMonoBOTTO,
       MIR: TMonoMIR,
       DAG: TMonoDAG,
       ALPACA: TMonoALPACA,
@@ -8821,7 +8489,6 @@ export const svgs = {
       NMX: TMonoNMX,
       GEL: TMonoGEL,
       WBT: TMonoWBT,
-      AERO: TMonoAERO,
       IDIA: TMonoIDIA,
       LYRA: TMonoLYRA,
       TITAN: TMonoTITAN,
@@ -8840,7 +8507,6 @@ export const svgs = {
       LBT: TMonoLBT,
       BNX: TMonoBNX,
       BMC: TMonoBMC,
-      BIGSB: TMonoBIGSB,
       XY: TMonoXY,
       CHO: TMonoCHO,
       TKN: TMonoTKN,
@@ -8859,7 +8525,6 @@ export const svgs = {
       PENDLE: TMonoPENDLE,
       SOON: TMonoSOON,
       MX: TMonoMX,
-      AMPL: TMonoAMPL,
       HAI: TMonoHAI,
       O3: TMonoO3,
       AKT: TMonoAKT,
@@ -8878,7 +8543,6 @@ export const svgs = {
       AZIT: TMonoAZIT,
       MEED: TMonoMEED,
       RGEN: TMonoRGEN,
-      ARV: TMonoARV,
       DAD: TMonoDAD,
       XRT: TMonoXRT,
       XSP: TMonoXSP,
@@ -8900,7 +8564,6 @@ export const svgs = {
       BTC: TMonoBTC,
       NBT: TMonoNBT,
       LITH: TMonoLITH,
-      BTT: TMonoBTT,
       LEOX: TMonoLEOX,
       HIFI: TMonoHIFI,
       ECOIN: TMonoECOIN,
@@ -8911,7 +8574,6 @@ export const svgs = {
       GGG: TMonoGGG,
       IDEA: TMonoIDEA,
       ZPAY: TMonoZPAY,
-      BTU: TMonoBTU,
       BSCPAD: TMonoBSCPAD,
       ACRIA: TMonoACRIA,
       GUILD: TMonoGUILD,
@@ -8921,7 +8583,6 @@ export const svgs = {
       LOOKS: TMonoLOOKS,
       EURT: TMonoEURT,
       BETA: TMonoBETA,
-      BORING: TMonoBORING,
       EVMOS: TMonoEVMOS,
       PINKSALE: TMonoPINKSALE,
       RDD: TMonoRDD,
@@ -8948,7 +8609,6 @@ export const svgs = {
       MED: TMonoMED,
       BOND: TMonoBOND,
       GBYTE: TMonoGBYTE,
-      ASD: TMonoASD,
       KAVA: TMonoKAVA,
       TXAU: TMonoTXAU,
       U: TMonoU,
@@ -8983,7 +8643,6 @@ export const svgs = {
       QRL: TMonoQRL,
       DKA: TMonoDKA,
       AUDIO: TMonoAUDIO,
-      ZCN: TMonoZCN,
       FRA: TMonoFRA,
       SDT: TMonoSDT,
       CAS: TMonoCAS,
@@ -9004,7 +8663,6 @@ export const svgs = {
       NVIR: TMonoNVIR,
       TAROT: TMonoTAROT,
       NFTART: TMonoNFTART,
-      BISO: TMonoBISO,
       GNO: TMonoGNO,
       BSV: TMonoBSV,
       GORA: TMonoGORA,
@@ -9013,12 +8671,10 @@ export const svgs = {
       GDCC: TMonoGDCC,
       ETC: TMonoETC,
       ICP: TMonoICP,
-      PNB: TMonoPNB,
       SYNC: TMonoSYNC,
       MANA: TMonoMANA,
       IDNA: TMonoIDNA,
       WRLD: TMonoWRLD,
-      HUSH: TMonoHUSH,
       WAVES: TMonoWAVES,
       GYMNET: TMonoGYMNET,
       AURA: TMonoAURA,
@@ -9052,7 +8708,6 @@ export const svgs = {
       NEST: TMonoNEST,
       ZAP: TMonoZAP,
       CATHEON: TMonoCATHEON,
-      BREED: TMonoBREED,
       QRDO: TMonoQRDO,
       KLIMA: TMonoKLIMA,
       WBETH: TMonoWBETH,
@@ -9073,7 +8728,6 @@ export const svgs = {
       XCM: TMonoXCM,
       INTR: TMonoINTR,
       DEXE: TMonoDEXE,
-      ALU: TMonoALU,
       TTK: TMonoTTK,
       SRM: TMonoSRM,
       VLX: TMonoVLX,
@@ -9081,7 +8735,6 @@ export const svgs = {
       GRIN: TMonoGRIN,
       GRAIL: TMonoGRAIL,
       OMI: TMonoOMI,
-      ASSA: TMonoASSA,
       DYDX: TMonoDYDX,
       SRLTY: TMonoSRLTY,
       DUSK: TMonoDUSK,
@@ -9092,13 +8745,11 @@ export const svgs = {
       SN: TMonoSN,
       GCOIN: TMonoGCOIN,
       CAP: TMonoCAP,
-      AERGO: TMonoAERGO,
       OTK: TMonoOTK,
       TFUEL: TMonoTFUEL,
       TIPS: TMonoTIPS,
       KAN: TMonoKAN,
       ELF: TMonoELF,
-      BFT: TMonoBFT,
       NPC: TMonoNPC,
       PICA: TMonoPICA,
       LIT: TMonoLIT,
@@ -9112,7 +8763,6 @@ export const svgs = {
       HILO: TMonoHILO,
       LUNR: TMonoLUNR,
       LYXE: TMonoLYXE,
-      IMX: TMonoIMX,
       MOBY: TMonoMOBY,
       PAY: TMonoPAY,
       PROB: TMonoPROB,
@@ -9131,7 +8781,6 @@ export const svgs = {
       USN: TMonoUSN,
       BST: TMonoBST,
       ICE: TMonoICE,
-      B2M: TMonoB2M,
       SENSE: TMonoSENSE,
       DATA: TMonoDATA,
       RAMP: TMonoRAMP,
@@ -9139,7 +8788,6 @@ export const svgs = {
       GTC: TMonoGTC,
       IXO: TMonoIXO,
       GAFI: TMonoGAFI,
-      ARBI: TMonoARBI,
       APOLLO: TMonoAPOLLO,
       XTP: TMonoXTP,
       MLN: TMonoMLN,
@@ -9156,11 +8804,9 @@ export const svgs = {
       MTH: TMonoMTH,
       XMR: TMonoXMR,
       DF: TMonoDF,
-      COSMOSHUB: TMonoCOSMOSHUB,
       VAI: TMonoVAI,
       CTG: TMonoCTG,
       BCUBE: TMonoBCUBE,
-      AMP: TMonoAMP,
       LOVELY: TMonoLOVELY,
       CTC: TMonoCTC,
       PAXG: TMonoPAXG,
@@ -9189,26 +8835,20 @@ export const svgs = {
       NOIA: TMonoNOIA,
       AIMBOT: TMonoAIMBOT,
       QASH: TMonoQASH,
-      BGB: TMonoBGB,
       ORARE: TMonoORARE,
       ITHEUM: TMonoITHEUM,
       CSIX: TMonoCSIX,
       ETE: TMonoETE,
-      BPRO: TMonoBPRO,
       NFTB: TMonoNFTB,
       OETH: TMonoOETH,
       XPNET: TMonoXPNET,
       STRAX: TMonoSTRAX,
-      BULL: TMonoBULL,
       TBTC: TMonoTBTC,
       SEILOR: TMonoSEILOR,
       DOMI: TMonoDOMI,
       UPP: TMonoUPP,
-      TELOS: TMonoTELOS,
       UQC: TMonoUQC,
       SMARTCREDIT: TMonoSMARTCREDIT,
-      ANKR: TMonoANKR,
-      BIFI: TMonoBIFI,
       SLCL: TMonoSLCL,
       MATH: TMonoMATH,
       BDX: TMonoBDX,
@@ -9216,7 +8856,6 @@ export const svgs = {
       RBD: TMonoRBD,
       HIVE: TMonoHIVE,
       GHNY: TMonoGHNY,
-      'LYX-1': TMonoLYX1,
       WSI: TMonoWSI,
       ENJ: TMonoENJ,
       VOXEL: TMonoVOXEL,
@@ -9253,7 +8892,6 @@ export const svgs = {
       FIL: TMonoFIL,
       TWT: TMonoTWT,
       DIMO: TMonoDIMO,
-      AMB: TMonoAMB,
       ID: TMonoID,
       SPA: TMonoSPA,
       DEXT: TMonoDEXT,
@@ -9282,7 +8920,6 @@ export const svgs = {
       POLY: TMonoPOLY,
       KOGE: TMonoKOGE,
       DACXI: TMonoDACXI,
-      BAKE: TMonoBAKE,
       WRX: TMonoWRX,
       TLOS: TMonoTLOS,
       CANTO: TMonoCANTO,
@@ -9290,7 +8927,6 @@ export const svgs = {
       PWR: TMonoPWR,
       GFAL: TMonoGFAL,
       DJED: TMonoDJED,
-      BFR: TMonoBFR,
       ECO: TMonoECO,
       CTXC: TMonoCTXC,
       PNG: TMonoPNG,
@@ -9696,7 +9332,6 @@ export const svgs = {
       ODDZ: TBackgroundODDZ,
       DHT: TBackgroundDHT,
       SC: TBackgroundSC,
-      JUNGLE4EOS: TBackgroundJUNGLE4EOS,
       AVA: TBackgroundAVA,
       STEP: TBackgroundSTEP,
       GQ: TBackgroundGQ,
@@ -9749,7 +9384,6 @@ export const svgs = {
       ALGO: TBackgroundALGO,
       NODL: TBackgroundNODL,
       RBX: TBackgroundRBX,
-      COSMOS: TBackgroundCOSMOS,
       WNDR: TBackgroundWNDR,
       XCHF: TBackgroundXCHF,
       GMX: TBackgroundGMX,
@@ -10014,7 +9648,6 @@ export const svgs = {
       ADAPAD: TBackgroundADAPAD,
       '3ULL': TBackground3ULL,
       X2Y2: TBackgroundX2Y2,
-      ZRX: TBackgroundZRX,
       MC: TBackgroundMC,
       FLX: TBackgroundFLX,
       SUB: TBackgroundSUB,
@@ -10239,7 +9872,6 @@ export const svgs = {
       MPL: TBackgroundMPL,
       DERI: TBackgroundDERI,
       XKI: TBackgroundXKI,
-      SCNSOL: TBackgroundSCNSOL,
       NPXS: TBackgroundNPXS,
       OM: TBackgroundOM,
       AIT: TBackgroundAIT,
@@ -10475,7 +10107,6 @@ export const svgs = {
       CHEEMS: TBackgroundCHEEMS,
       JONES: TBackgroundJONES,
       DCK: TBackgroundDCK,
-      LOOT: TBackgroundLOOT,
       NFTBS: TBackgroundNFTBS,
       HOPR: TBackgroundHOPR,
       CPOOL: TBackgroundCPOOL,
@@ -10755,13 +10386,11 @@ export const svgs = {
       GDCC: TBackgroundGDCC,
       ETC: TBackgroundETC,
       ICP: TBackgroundICP,
-      PNB: TBackgroundPNB,
       SYNC: TBackgroundSYNC,
       RVF: TBackgroundRVF,
       MANA: TBackgroundMANA,
       EMAGIC: TBackgroundEMAGIC,
       WRLD: TBackgroundWRLD,
-      HUSH: TBackgroundHUSH,
       WAVES: TBackgroundWAVES,
       GYMNET: TBackgroundGYMNET,
       AURA: TBackgroundAURA,
@@ -10865,7 +10494,6 @@ export const svgs = {
       LUNR: TBackgroundLUNR,
       LYXE: TBackgroundLYXE,
       GAT: TBackgroundGAT,
-      IMX: TBackgroundIMX,
       MOBY: TBackgroundMOBY,
       PAY: TBackgroundPAY,
       PROB: TBackgroundPROB,
@@ -10910,7 +10538,6 @@ export const svgs = {
       XMR: TBackgroundXMR,
       DF: TBackgroundDF,
       KISHU: TBackgroundKISHU,
-      COSMOSHUB: TBackgroundCOSMOSHUB,
       LQTY: TBackgroundLQTY,
       VAI: TBackgroundVAI,
       CTG: TBackgroundCTG,
@@ -10969,7 +10596,6 @@ export const svgs = {
       DOMI: TBackgroundDOMI,
       UPP: TBackgroundUPP,
       HUSKY: TBackgroundHUSKY,
-      TELOS: TBackgroundTELOS,
       UQC: TBackgroundUQC,
       SMARTCREDIT: TBackgroundSMARTCREDIT,
       SLCL: TBackgroundSLCL,
@@ -10981,7 +10607,6 @@ export const svgs = {
       ELU: TBackgroundELU,
       HIVE: TBackgroundHIVE,
       GHNY: TBackgroundGHNY,
-      'LYX-1': TBackgroundLYX1,
       ARCH: TBackgroundARCH,
       WSI: TBackgroundWSI,
       ENJ: TBackgroundENJ,
@@ -11152,6 +10777,7 @@ export const svgs = {
       'near-protocol': NBrandedNearProtocol,
       enuls: NBrandedEnuls,
       aurora: NBrandedAurora,
+      polygon: NBrandedPolygon,
       multiversx: NBrandedMultiversx,
       tombchain: NBrandedTombchain,
       l3x: NBrandedL3x,
@@ -11175,6 +10801,7 @@ export const svgs = {
       cosmos: NBrandedCosmos,
       hemi: NBrandedHemi,
       moonbase: NBrandedMoonbase,
+      algorand: NBrandedAlgorand,
       eos: NBrandedEos,
       arweave: NBrandedArweave,
       stellar: NBrandedStellar,
@@ -11206,7 +10833,6 @@ export const svgs = {
       mode: NBrandedMode,
       linea: NBrandedLinea,
       'zeta-chain': NBrandedZetaChain,
-      matic: NBrandedMatic,
       juno: NBrandedJuno,
       gravity: NBrandedGravity,
       avalanche: NBrandedAvalanche,
@@ -11266,7 +10892,6 @@ export const svgs = {
       kava: NBrandedKava,
       moonriver: NBrandedMoonriver,
       ubiq: NBrandedUbiq,
-      'polygon-pos': NBrandedPolygonPos,
       soneium: NBrandedSoneium,
       nahmii: NBrandedNahmii,
       lightlink: NBrandedLightlink,
@@ -11312,6 +10937,7 @@ export const svgs = {
       'near-protocol': NMonoNearProtocol,
       enuls: NMonoEnuls,
       aurora: NMonoAurora,
+      polygon: NMonoPolygon,
       multiversx: NMonoMultiversx,
       l3x: NMonoL3x,
       fraxtal: NMonoFraxtal,
@@ -11364,7 +10990,6 @@ export const svgs = {
       mode: NMonoMode,
       linea: NMonoLinea,
       'zeta-chain': NMonoZetaChain,
-      matic: NMonoMatic,
       juno: NMonoJuno,
       gravity: NMonoGravity,
       avalanche: NMonoAvalanche,
@@ -11423,7 +11048,6 @@ export const svgs = {
       kava: NMonoKava,
       moonriver: NMonoMoonriver,
       ubiq: NMonoUbiq,
-      'polygon-pos': NMonoPolygonPos,
       soneium: NMonoSoneium,
       nahmii: NMonoNahmii,
       lightlink: NMonoLightlink,
@@ -11469,6 +11093,7 @@ export const svgs = {
       'near-protocol': NBackgroundNearProtocol,
       enuls: NBackgroundEnuls,
       aurora: NBackgroundAurora,
+      polygon: NBackgroundPolygon,
       multiversx: NBackgroundMultiversx,
       tombchain: NBackgroundTombchain,
       l3x: NBackgroundL3x,
@@ -11492,6 +11117,7 @@ export const svgs = {
       cosmos: NBackgroundCosmos,
       hemi: NBackgroundHemi,
       moonbase: NBackgroundMoonbase,
+      algorand: NBackgroundAlgorand,
       eos: NBackgroundEos,
       arweave: NBackgroundArweave,
       stellar: NBackgroundStellar,
@@ -11523,7 +11149,6 @@ export const svgs = {
       mode: NBackgroundMode,
       linea: NBackgroundLinea,
       'zeta-chain': NBackgroundZetaChain,
-      matic: NBackgroundMatic,
       juno: NBackgroundJuno,
       gravity: NBackgroundGravity,
       avalanche: NBackgroundAvalanche,
@@ -11583,7 +11208,6 @@ export const svgs = {
       kava: NBackgroundKava,
       moonriver: NBackgroundMoonriver,
       ubiq: NBackgroundUbiq,
-      'polygon-pos': NBackgroundPolygonPos,
       soneium: NBackgroundSoneium,
       nahmii: NBackgroundNahmii,
       lightlink: NBackgroundLightlink,
@@ -11654,7 +11278,6 @@ export const svgs = {
       venly: WBrandedVenly,
       unipass: WBrandedUnipass,
       coin98: WBrandedCoin98,
-      'trust-wallet': WBrandedTrustWallet,
       clave: WBrandedClave,
       trust: WBrandedTrust,
       'wallet-connect': WBrandedWalletConnect,
@@ -11692,7 +11315,6 @@ export const svgs = {
       venly: WMonoVenly,
       unipass: WMonoUnipass,
       coin98: WMonoCoin98,
-      'trust-wallet': WMonoTrustWallet,
       clave: WMonoClave,
       trust: WMonoTrust,
       multis: WMonoMultis,
@@ -11733,8 +11355,8 @@ export const svgs = {
       venly: WBackgroundVenly,
       unipass: WBackgroundUnipass,
       coin98: WBackgroundCoin98,
-      'trust-wallet': WBackgroundTrustWallet,
       clave: WBackgroundClave,
+      trust: WBackgroundTrust,
       multis: WBackgroundMultis,
       'wallet-connect': WBackgroundWalletConnect,
       lit: WBackgroundLit,

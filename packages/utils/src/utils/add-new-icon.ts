@@ -19,7 +19,7 @@ export const addNewIcon = async (
 ): Promise<void> => {
   const [fileName, { type, variants }] = icon
   const { id, name, fileName: currentFileName } = await getBaseMetadata(fileName, type, variants)
-  const metadata: TMetadata = { id, name, variants }
+  const metadata: TMetadata = { id, name, variants, fileName }
 
   const metadataHandlers = {
     network: () => handleNetworkMetadata(currentFileName, metadata as INetworkMetadata),
@@ -31,7 +31,7 @@ export const addNewIcon = async (
   const handler = metadataHandlers[type]
   if (!handler) throw new Error(`Unsupported icon type: ${type}`)
   await handler()
-
+  metadata.fileName = fileName
   await confirmAndAddMetadata(metadata, type)
 }
 
@@ -90,11 +90,17 @@ const handleNetworkMetadata = async (
     validate: (value) => (value.length > 0 ? undefined : 'Short name is required'),
   })) as string
 
-  const chainId = await text({
+  const chainId = (await text({
     message: `Chain ID of the ${fileName} (optional)`,
     placeholder: '',
-  })
-  metadata.chainId = chainId ? parseInt(chainId as string) : undefined
+  })) as string
+  metadata.chainId = chainId ? parseInt(chainId) : undefined
+  const caip2id = (await text({
+    message: `CAIP2 ID of the ${fileName} (optional)`,
+    placeholder: '',
+  })) as string | undefined
+
+  metadata.caip2id = caip2id ? caip2id : chainId ? `eip155:${chainId}` : undefined
 
   metadata.nativeCoinId = (await text({
     message: `Native coin ID of the ${fileName} (optional)`,
