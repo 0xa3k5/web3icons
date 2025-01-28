@@ -1,14 +1,17 @@
 import { defineConfig } from 'tsup'
 
-export default defineConfig([
-  {
-    entry: ['src/index.ts'],
-    format: 'esm',
-    outDir: 'dist',
-    sourcemap: true,
-    dts: true,
-    target: 'es2022',
-    clean: false,
-    outExtension: ({ format }) => ({ js: `.js` }),
+export default defineConfig({
+  entry: {
+    index: 'src/index.ts',
+    'icons/tokens': 'src/icons/tokens/index.ts',
+    'icons/networks': 'src/icons/networks/index.ts',
+    'icons/wallets': 'src/icons/wallets/index.ts',
+    'icons/exchanges': 'src/icons/exchanges/index.ts',
   },
-])
+  format: ['esm'],
+  dts: true,
+  splitting: true,
+  clean: true,
+  external: ['react', 'react-dom'],
+  treeshake: true,
+})

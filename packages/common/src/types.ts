@@ -4,6 +4,7 @@ export type TExchangeType = 'cex' | 'dex'
 
 interface IMetadata {
   id: string
+  fileName: string
   name: string
   variants: TVariant[]
 }
@@ -18,6 +19,7 @@ export interface INetworkMetadata extends IMetadata {
   shortName?: string
   nativeCoinId?: string
   chainId?: number | string
+  caip2id?: string
 }
 
 export interface IWalletMetadata extends IMetadata {}

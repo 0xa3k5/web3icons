@@ -18,8 +18,9 @@ export const ExchangeIcon = forwardRef<SVGSVGElement, ExchangeIconProps>(
     let metadata
     if (name) {
       metadata = findExchange({ name })
+    } else if (id) {
+      metadata = findExchange({ id })
     }
-    metadata = findExchange({ id })
 
     return (
       <DynamicIcon

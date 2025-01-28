@@ -15,7 +15,7 @@ import { findWallet } from './utils'
  */
 export const WalletIcon = forwardRef<SVGSVGElement, WalletIconProps>(
   ({ id, name, size, className, variant = 'mono', color, fallback }, ref) => {
-    const metadata = findWallet({ wallet: id ?? name })
+    const metadata = findWallet({ id, name })
 
     return (
       <DynamicIcon

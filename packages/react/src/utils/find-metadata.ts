@@ -46,37 +46,59 @@ const findMetadata = <T>(
 /**
  * Finds a wallet metadata object based on the provided wallet name or ID.
  *
- * @param wallet - The wallet name or ID to search for.
+ * @param id - The wallet ID to search for.
+ * @param name - The wallet name to search for.
  * @returns The wallet metadata object if found, otherwise undefined.
  */
 export const findWallet = ({
-  wallet,
+  id,
+  name,
 }: {
-  wallet: string
+  id?: string
+  name?: string
 }): IWalletMetadata | undefined => {
-  return findMetadata(wallets, { id: toKebabCase(wallet), name: wallet })
+  if (id) {
+    return findMetadata(wallets, { id: toKebabCase(id), name: id })
+  }
+  if (name) {
+    return findMetadata(wallets, { id: toKebabCase(name), name })
+  }
+  return undefined
 }
 
 /**
  * Finds a token metadata object based on the provided symbol or address and network.
  *
+ * @param id - The token ID to search for.
+ * @param name - The token name to search for.
  * @param symbol - The token symbol to search for.
  * @param address - The token address to search for.
  * @param network - The network to search the address on.
  * @returns The token metadata object if found, otherwise undefined.
  */
 export const findToken = ({
+  id,
+  name,
   symbol,
   address,
   network,
 }: {
+  id?: string
+  name?: string
   symbol?: string
   address?: string
   network?: string
 }): ITokenMetadata | undefined => {
+  if (id) {
+    return findMetadata(tokens, { id })
+  }
+  if (name) {
+    return findMetadata(tokens, { name })
+  }
   if (symbol) {
     return findMetadata(tokens, { symbol })
-  } else if (address && network) {
+  }
+  if (address && network) {
     return findMetadata(tokens, { addresses: { [network]: address } })
   }
   return undefined
@@ -85,26 +107,38 @@ export const findToken = ({
 /**
  * Finds a network metadata object based on the provided network name or chain ID.
  *
- * @param network - The network name to search for.
+ * @param id - The network ID to search for.
+ * @param name - The network name to search for.
  * @param chainId - The chain ID to search for.
+ * @param caip2id - The CAIP-2 ID to search for.
  * @returns The network metadata object if found, otherwise undefined.
  */
 export const findNetwork = ({
-  network,
+  id,
+  name,
   chainId,
+  caip2id,
 }: {
-  network?: string
+  id?: string
+  name?: string
   chainId?: number | string
+  caip2id?: string
 }): INetworkMetadata | undefined => {
-  if (network) {
+  if (name) {
     return findMetadata(networks, {
-      id: toKebabCase(network),
-      name: network,
-      shortName: network,
+      id: toKebabCase(name),
+      name,
+      shortName: name,
     })
   }
   if (chainId) {
     return findMetadata(networks, { chainId })
+  }
+  if (caip2id) {
+    return findMetadata(networks, { caip2id })
+  }
+  if (id) {
+    return findMetadata(networks, { id: toKebabCase(id), name: id })
   }
   return undefined
 }
@@ -112,8 +146,8 @@ export const findNetwork = ({
 /**
  * Finds an exchange metadata object based on the provided exchange name or ID.
  *
- * @param name - The exchange name to search for.
  * @param id - The exchange ID to search for.
+ * @param name - The exchange name to search for.
  * @returns The exchange metadata object if found, otherwise undefined.
  */
 export const findExchange = ({

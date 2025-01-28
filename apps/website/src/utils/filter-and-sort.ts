@@ -37,7 +37,10 @@ export const filterAndSortIcons = ({
     return (
       item.symbol?.toLowerCase().includes(searchTermLower) ||
       item.id?.toLowerCase().includes(searchTermLower) ||
-      item.name?.toLowerCase().includes(searchTermLower)
+      item.name?.toLowerCase().includes(searchTermLower) ||
+      item.chainId?.toString().toLowerCase().includes(searchTermLower) ||
+      item.caip2id?.toLowerCase().includes(searchTermLower) ||
+      item.shortName?.toLowerCase().includes(searchTermLower)
     )
   }
 

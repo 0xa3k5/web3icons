@@ -1,4 +1,10 @@
-import { ReactNode, SVGProps } from 'react'
+import {
+  ReactNode,
+  SVGProps,
+  ForwardRefExoticComponent,
+  RefAttributes,
+} from 'react'
+import { TVariant } from '@web3icons/common'
 
 /**
  * BaseIconProps interface extends SVGProps for SVGSVGElement and adds size and fallback properties.
@@ -8,23 +14,6 @@ import { ReactNode, SVGProps } from 'react'
  */
 export interface BaseIconProps extends SVGProps<SVGSVGElement> {
   size?: string | number
-  fallback?: string | ReactNode
-}
-
-/**
- * IconComponentProps interface extends SVGProps for SVGSVGElement and adds variant, size, color, className, and fallback properties.
- *
- * @property {'mono' | 'branded' | 'background'} [variant] - The variant of the icon.
- * @property {number | string} [size] - The size of the icon.
- * @property {string} [color] - The color of the icon.
- * @property {string} [className] - Additional CSS classes for the icon.
- * @property {(string | ReactNode)} [fallback] - The fallback content to display if the icon fails to load.
- */
-export interface IconComponentProps extends SVGProps<SVGSVGElement> {
-  variant?: 'mono' | 'branded' | 'background'
-  size?: number | string
-  color?: string
-  className?: string
   fallback?: string | ReactNode
 }
 
@@ -41,26 +30,35 @@ export interface IconComponentProps extends SVGProps<SVGSVGElement> {
  * @property {string} [network] - The network of the token.
  */
 export type TokenIconProps = IconComponentProps &
-  (
-    | { symbol: string; address?: never; network?: never }
-    | { symbol?: never; address: string; network: string }
+  // prettier-ignore
+  (| { symbol: string; address?: never; network?: never; id?: never; name?: never }
+    // prettier-ignore
+    | { symbol?: never; address: string; network: string; id?: never; name?: never }
+    // prettier-ignore
+    | { symbol?: never; address?: never; network?: never; id: string; name?: never }
+    // prettier-ignore
+    | { symbol?: never; address?: never; network?: never; id?: never; name: string }
   )
 
 /**
- * NetworkIconProps type combines IconComponentProps with either network or chainId properties.
+ * NetworkIconProps type combines IconComponentProps with network identifier properties.
  *
  * @property {'mono' | 'branded' | 'background'} [variant] - The variant of the icon.
  * @property {number | string} [size] - The size of the icon.
  * @property {string} [color] - The color of the icon.
  * @property {string} [className] - Additional CSS classes for the icon.
- * @property {(string | ReactNode)} [fallback] - The fallback content to display if the icon fails to load.
- * @property {string} [network] - The network of the icon.
+ * @property {string} [name] - The name of the network.
  * @property {(number | string)} [chainId] - The chain ID of the network.
+ * @property {string} [caip2id] - The CAIP-2 ID of the network.
+ * @property {string} [id] - The ID of the network.
+ * @property {(string | ReactNode)} [fallback] - Fallback content to display if the icon fails to load.
  */
 export type NetworkIconProps = IconComponentProps &
   (
-    | { network: string; chainId?: never }
-    | { chainId: number | string; network?: never }
+    | { name: string; chainId?: never; caip2id?: never; id?: never }
+    | { name?: never; chainId: number | string; caip2id?: never; id?: never }
+    | { name?: never; chainId?: never; caip2id: string; id?: never }
+    | { name?: never; chainId?: never; caip2id?: never; id: string }
   )
 
 /**
@@ -75,7 +73,7 @@ export type NetworkIconProps = IconComponentProps &
  * @property {string} [id] - The ID of the wallet.
  */
 export type WalletIconProps = IconComponentProps &
-  ({ name: string; id?: never } | { id: string; name?: never })
+  ({ name: string; id?: never } | { name?: never; id: string })
 
 /**
  * ExchangeIconProps type combines IconComponentProps with either name or id properties.
@@ -89,4 +87,25 @@ export type WalletIconProps = IconComponentProps &
  * @property {string} [id] - The ID of the wallet.
  */
 export type ExchangeIconProps = IconComponentProps &
-  ({ name: string; id?: never } | { id: string; name?: never })
+  ({ name: string; id?: never } | { name?: never; id: string })
+
+/**
+ * IconComponentProps interface extends SVGProps for SVGSVGElement and adds variant, size, color, className, and fallback properties.
+ *
+ * @property {'mono' | 'branded' | 'background'} [variant] - The variant of the icon.
+ * @property {number | string} [size] - The size of the icon.
+ * @property {string} [color] - The color of the icon.
+ * @property {string} [className] - Additional CSS classes for the icon.
+ * @property {(string | ReactNode)} [fallback] - The fallback content to display if the icon fails to load.
+ */
+export interface IconComponentProps extends SVGProps<SVGSVGElement> {
+  variant?: TVariant
+  size?: number | string
+  color?: string
+  className?: string
+  fallback?: string | ReactNode
+}
+
+export type IconComponent = ForwardRefExoticComponent<
+  IconComponentProps & RefAttributes<SVGSVGElement>
+>
