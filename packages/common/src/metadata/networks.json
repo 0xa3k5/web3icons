@@ -1362,5 +1362,14 @@
     "chainId": 7777777,
     "nativeCoinId": "weth",
     "caip2id": "eip155:7777777"
+  },
+  {
+    "id": "okex",
+    "name": "OKEx Chain",
+    "shortName": "OKEx",
+    "chainId": 66,
+    "nativeCoinId": "okex",
+    "variants": ["background", "branded", "mono"],
+    "caip2id": "eip155:66"
   }
 ]

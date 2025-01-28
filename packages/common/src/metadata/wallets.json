@@ -170,8 +170,8 @@
     "variants": ["branded", "mono", "background"]
   },
   {
-    "id": "trust-wallet",
-    "name": "trust",
+    "id": "trust",
+    "name": "trust wallet",
     "variants": ["branded", "mono", "background"]
   },
   {
