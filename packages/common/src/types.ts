@@ -4,6 +4,7 @@ export type TExchangeType = 'cex' | 'dex'
 
 interface IMetadata {
   id: string
+  fileName: string
   name: string
   variants: TVariant[]
 }

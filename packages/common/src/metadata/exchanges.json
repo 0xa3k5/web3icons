@@ -1,146 +1,266 @@
 [
   {
-    "id": "bybit",
-    "name": "Bybit",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
-  },
-  {
-    "id": "kucoin",
-    "name": "Kucoin",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
-  },
-  {
-    "id": "coinbase",
-    "name": "Coinbase",
-    "variants": ["branded", "mono", "background"],
-    "type": "dex"
-  },
-  {
     "id": "1inch",
+    "fileName": "1inch",
     "name": "1inch",
-    "variants": ["branded", "mono", "background"],
-    "type": "dex"
+    "type": "dex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
   },
   {
     "id": "balancer",
+    "fileName": "balancer",
     "name": "Balancer",
-    "variants": ["branded", "mono", "background"],
-    "type": "dex"
+    "type": "dex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
   },
   {
     "id": "bancor",
+    "fileName": "bancor",
     "name": "Bancor",
-    "variants": ["branded", "mono", "background"],
-    "type": "dex"
+    "type": "dex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
   },
   {
     "id": "binance",
+    "fileName": "binance",
     "name": "Binance",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
   },
   {
     "id": "bithumb",
+    "fileName": "bithumb",
     "name": "Bithumb",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
   },
   {
     "id": "bitstamp",
+    "fileName": "bitstamp",
     "name": "Bitstamp",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
   },
   {
     "id": "btcturk",
+    "fileName": "btcturk",
     "name": "BTC Turk",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
   },
   {
-    "id": "crypto-com",
-    "name": "Crypto.com",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
+    "id": "bybit",
+    "fileName": "bybit",
+    "name": "Bybit",
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
   },
   {
-    "id": "gate-io",
-    "name": "Gate Io",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
-  },
-  {
-    "id": "gemini",
-    "name": "Gemini",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
-  },
-  {
-    "id": "kraken",
-    "name": "Kraken",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
-  },
-  {
-    "id": "odos",
-    "name": "Odos",
-    "variants": ["branded", "mono", "background"],
-    "type": "dex"
-  },
-  {
-    "id": "okx",
-    "name": "OkX",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
-  },
-  {
-    "id": "pancake-swap",
-    "name": "Pancake Swap",
-    "variants": ["branded", "mono", "background"],
-    "type": "dex"
-  },
-  {
-    "id": "para-swap",
-    "name": "ParaSwap",
-    "variants": ["background", "branded", "mono"],
-    "type": "dex"
-  },
-  {
-    "id": "paribu",
-    "name": "Paribu",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
-  },
-  {
-    "id": "sushiswap",
-    "name": "Sushi Swap",
-    "variants": ["branded", "mono", "background"],
-    "type": "dex"
-  },
-  {
-    "id": "swissborg",
-    "name": "SwissBorg",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
-  },
-  {
-    "id": "uniswap",
-    "name": "Uniswap",
-    "variants": ["branded", "mono", "background"],
-    "type": "dex"
-  },
-  {
-    "id": "upbit",
-    "name": "UpBit",
-    "variants": ["branded", "mono", "background"],
-    "type": "cex"
+    "id": "coinbase",
+    "fileName": "coinbase",
+    "name": "Coinbase",
+    "type": "dex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
   },
   {
     "id": "cowswap",
+    "fileName": "cowswap",
     "name": "Cow Swap",
-    "variants": ["branded", "mono", "background"],
-    "type": "dex"
+    "type": "dex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "crypto-com",
+    "fileName": "crypto-com",
+    "name": "Crypto.com",
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "gate-io",
+    "fileName": "gate-io",
+    "name": "Gate Io",
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "gemini",
+    "fileName": "gemini",
+    "name": "Gemini",
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "kraken",
+    "fileName": "kraken",
+    "name": "Kraken",
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "kucoin",
+    "fileName": "kucoin",
+    "name": "Kucoin",
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "odos",
+    "fileName": "odos",
+    "name": "Odos",
+    "type": "dex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "okx",
+    "fileName": "okx",
+    "name": "OkX",
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "pancake-swap",
+    "fileName": "pancake-swap",
+    "name": "Pancake Swap",
+    "type": "dex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "para-swap",
+    "fileName": "para-swap",
+    "name": "ParaSwap",
+    "type": "dex",
+    "variants": [
+      "background",
+      "branded",
+      "mono"
+    ]
+  },
+  {
+    "id": "paribu",
+    "fileName": "paribu",
+    "name": "Paribu",
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "sushiswap",
+    "fileName": "sushiswap",
+    "name": "Sushi Swap",
+    "type": "dex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "swissborg",
+    "fileName": "swissborg",
+    "name": "SwissBorg",
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "uniswap",
+    "fileName": "uniswap",
+    "name": "Uniswap",
+    "type": "dex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
+  },
+  {
+    "id": "upbit",
+    "fileName": "upbit",
+    "name": "UpBit",
+    "type": "cex",
+    "variants": [
+      "branded",
+      "mono",
+      "background"
+    ]
   }
 ]
