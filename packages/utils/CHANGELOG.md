@@ -1,5 +1,55 @@
 # @web3icons/utils
 
+## 0.3.0
+
+### Minor Changes
+
+- - new `background` variant for icons.
+  - add `branded` variant to most of the missing icons.
+  - include `fileName` to the metadata
+  - support `caip2id` for network icons.
+  - performance improvements for dynamic icons (`TokenIcon`, `NetworkIcon`, `ExchangeIcon`, `WalletIcon`) (this should fix #25 and #40)
+  - website improvements
+
+  **cli:**
+
+  - migrate from `@inquirer` to `@clack`
+  - greatly improve `add-icons` flow's UX
+  - cover icon deletion (fixes #33)
+
+  **ID changes**
+  renamed several network icons to align with official naming
+
+  - `polygon` (was `polygon-pos`)
+  - `multiversx` (was `elrond`)
+  - `viction` (was `tomochain`)
+  - `kaia` (was `klay-token`)
+  - `okex` (was `okex-chain`)
+  - `optimism` (was `optimistic-ethereum`)
+  - `trust` (was `trust-wallet`)
+
+  **new networks:**
+  `multiversx`, `moonbase-alpha`, `nibiru`, `push`, `berachain`, `paradex`, `zero-network`, `zircuit`
+  _(all available in background, branded, and mono variants.)_
+
+  **new network variants:**
+  `zora`, `xrp`, `algorand` _(background, branded)_
+
+  **new exchanges:**
+  `aevo`, `paradex` _(branded, mono, background)_
+
+  new token variants:
+  `AAG`, `ACRIA`, `AIOZ`, `ABL`, `ALGO`, `ABR`, `ARB`, `AURABAL`, `AVINOC`, `BNT`, `BBL`, `BTCST`, `GBYTE`, `CLXY`, `CSPR`, `CELR`, `CAPS`, `CTC`, `XCUR`, `DENT`, `DERC`, `DEXE`, `DIMO`, `DVI`, `ECO`, `EOS`, `EOSDT`, `ERG`, `ERTHA`, `EUROE`, `FLAME`, `FRAX`, `FXS`, `FRIN`, `FRONT`, `GCOIN`, `HFT`, `XHV`, `HBAR`, `SEILOR`, `KSM`, `LEOX`, `LGCY`, `PRISM`, `GAL`, `QUAD`, `QTCON`, `BTRFLY`, `RSR`, `XRP`, `QUARTZ`, `SCRT`, `SENATE`, `SKL`, `SLCL`, `SOLO`, `SPC`, `SFRXETH`, `SMT`, `SNS`, `EURT`, `THE`, `THEO`, `WWY`, `WING`, `WOZX`, `WBTC`, `WCFG`, `ZTG`, `ZKID`
+  _(background, branded)_
+
+  deprecated tokens:
+  `BAKE`, `ALPHA`, `AST`, `ADP`, `ADX`, `ADS`, `AGLD`, `ADCO`, `AEGIS`, `AERGO`, `AERO`, `AE`, `AGI`, `AMKT`, `ASCN`, `ASTO`, `ALU`, `AMB`, `AMO`, `AMPL`, `AMP`, `ANC`, `ANGLE`, `ANKR`, `ANKRETH`, `BANANA`, `ADOGE`, `ARBI`, `ARV`, `AFC`, `ASD`, `ASIA`, `ASM`, `ASSA`, `ASTR`, `ASTRADAO`, `ASTRAFER`, `ASTROC`, `BXX`, `BABYDOGE`, `BABYSHIB`, `BABYTRUMP`, `BADGER`, `BAD`, `BAI`, `BAL`, `BAND`, `BAO`, `BFT`, `BWO`, `BIFI`, `BETS`, `BFIC`, `BHAT`, `BICO`, `BIDZ`, `BIGSB`, `BUSD`, `BISO`, `B2M`, `BGB`, `BPRO`, `BTSG`, `BTT`, `BPT`, `BONDLY`, `BONK`, `BORA`, `BORING`, `BOSON`, `BOOT`, `BOTTO`, `BOX`, `BREED`, `BTU`, `BUILD`, `BULL`, `BUMP`, `BUY`, `BURGER`, `ETHEREUM`, `BFR`, `AMZ`, `BASE`, `ORDER`, `BAN`, `S`
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/common@0.11.0
+
 ## 0.2.16
 
 ### Patch Changes

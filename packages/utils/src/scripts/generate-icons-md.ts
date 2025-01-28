@@ -79,8 +79,8 @@ const iconsMd =
   `jump to section:\n
   - [wallets (${wallets.length})](#wallets)
   - [networks (${networks.length})](#networks)
-  - [tokens (${exchanges.length})](#tokens)
-  - [exchanges (${tokens.length})](#exchanges)\n\n` +
+  - [exchanges (${exchanges.length})](#exchanges)
+  - [tokens (${tokens.length})](#tokens)\n\n` +
   `${walletsTable}\n\n` +
   `${networksTable}\n\n` +
   `${exchangesTable}\n\n` +

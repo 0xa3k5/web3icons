@@ -23,9 +23,5 @@ const METADATA_PATHS = {
 
 export const findExistingMetadata = (id: string, type: TType): TMetadata | undefined => {
   const metadata = JSON.parse(fs.readFileSync(METADATA_PATHS[type], 'utf-8'))
-  console.log(
-    type,
-    metadata.find((item: TMetadata) => item.id === id),
-  )
   return metadata.find((item: TMetadata) => item.id === id)
 }
