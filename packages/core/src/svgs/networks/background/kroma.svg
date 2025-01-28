@@ -1,10 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
     <g clip-path="url(#kroma__a)">
-        <path fill="#7AE03A" d="M24 0H0v24h24z"/>
-        <path fill="#fff" d="m12 4.334-8 5.11L8 12l4-2.556L16 12l4-2.556z"/>
-        <path fill="#fff" d="m20 9.444-8 5.111-8-5.11v5.11l8 5.112 8-5.112z"/>
+        <path fill="#fff" d="M0 0h24v24H0z"/>
+        <path fill="url(#kroma__b)" d="M12 2.5 2 8.833 7 12l5-3.167L17 12l5-3.167z"/>
+        <path fill="url(#kroma__c)" d="m22 8.833-10 6.333L2 8.833v6.333L12 21.5l10-6.334z"/>
     </g>
     <defs>
+        <linearGradient id="kroma__b" x1="12" x2="12" y1="2.5" y2="12" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#70DE2C"/>
+            <stop offset="1" stop-color="#8EE558"/>
+        </linearGradient>
+        <linearGradient id="kroma__c" x1="12" x2="12" y1="8.833" y2="21.5" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#70DE2C"/>
+            <stop offset="1" stop-color="#8EE558"/>
+        </linearGradient>
         <clipPath id="kroma__a">
             <path fill="#fff" d="M0 0h24v24H0z"/>
         </clipPath>

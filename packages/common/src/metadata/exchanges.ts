@@ -169,4 +169,11 @@ export const exchanges: IExchangeMetadata[] = [
     type: 'cex',
     variants: ['branded', 'mono', 'background'],
   },
+  {
+    id: 'aevo',
+    name: 'Aevo',
+    variants: ['background', 'branded', 'mono'],
+    fileName: 'aevo',
+    type: 'dex',
+  },
 ]

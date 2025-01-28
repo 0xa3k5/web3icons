@@ -166,5 +166,12 @@
     "name": "UpBit",
     "type": "cex",
     "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "aevo",
+    "fileName": "aevo",
+    "name": "Aevo",
+    "type": "dex",
+    "variants": ["background", "branded", "mono"]
   }
 ]

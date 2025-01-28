@@ -1,8 +1,8 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (158)](#networks)
-- [tokens (24)](#tokens)
+- [networks (162)](#networks)
+- [tokens (25)](#tokens)
 - [exchanges (1814)](#exchanges)
 
 ### Wallets
@@ -210,6 +210,10 @@ jump to section:
 | arbitrum-nova       | Arbitrum Nova                | ✅      | ✅   | ✅         |
 | fio                 | FIO Protocol                 | ✅      | ✅   | ✅         |
 | algorand            | Algorand                     | ✅      | ✅   | ✅         |
+| berachain           | Berachain                    | ✅      | ✅   | ✅         |
+| paradex             | Paradex                      | ✅      | ✅   | ✅         |
+| zero-network        | Zero Network                 | ✅      | ✅   | ✅         |
+| zircuit             | Zircuit                      | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -239,6 +243,7 @@ jump to section:
 | swissborg    | SwissBorg    | cex  | ✅      | ✅   | ✅         |
 | uniswap      | Uniswap      | dex  | ✅      | ✅   | ✅         |
 | upbit        | UpBit        | cex  | ✅      | ✅   | ✅         |
+| aevo         | Aevo         | dex  | ✅      | ✅   | ✅         |
 
 ### Tokens
 
