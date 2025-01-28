@@ -5084,6 +5084,7 @@ import * as NBrandedAptos from './svgs/networks/branded/aptos.svg'
 import * as NBrandedCosmos from './svgs/networks/branded/cosmos.svg'
 import * as NBrandedHemi from './svgs/networks/branded/hemi.svg'
 import * as NBrandedMoonbase from './svgs/networks/branded/moonbase.svg'
+import * as NBrandedAlgorand from './svgs/networks/branded/algorand.svg'
 import * as NBrandedEos from './svgs/networks/branded/eos.svg'
 import * as NBrandedArweave from './svgs/networks/branded/arweave.svg'
 import * as NBrandedStellar from './svgs/networks/branded/stellar.svg'
@@ -5395,6 +5396,7 @@ import * as NBackgroundAptos from './svgs/networks/background/aptos.svg'
 import * as NBackgroundCosmos from './svgs/networks/background/cosmos.svg'
 import * as NBackgroundHemi from './svgs/networks/background/hemi.svg'
 import * as NBackgroundMoonbase from './svgs/networks/background/moonbase.svg'
+import * as NBackgroundAlgorand from './svgs/networks/background/algorand.svg'
 import * as NBackgroundEos from './svgs/networks/background/eos.svg'
 import * as NBackgroundArweave from './svgs/networks/background/arweave.svg'
 import * as NBackgroundStellar from './svgs/networks/background/stellar.svg'
@@ -10799,6 +10801,7 @@ export const svgs = {
       cosmos: NBrandedCosmos,
       hemi: NBrandedHemi,
       moonbase: NBrandedMoonbase,
+      algorand: NBrandedAlgorand,
       eos: NBrandedEos,
       arweave: NBrandedArweave,
       stellar: NBrandedStellar,
@@ -11114,6 +11117,7 @@ export const svgs = {
       cosmos: NBackgroundCosmos,
       hemi: NBackgroundHemi,
       moonbase: NBackgroundMoonbase,
+      algorand: NBackgroundAlgorand,
       eos: NBackgroundEos,
       arweave: NBackgroundArweave,
       stellar: NBackgroundStellar,

@@ -1521,6 +1521,6 @@ export const networks: INetworkMetadata[] = [
     name: 'Algorand',
     shortName: 'algo',
     nativeCoinId: 'algorand',
-    variants: ['mono'],
+    variants: ['mono', 'background', 'branded'],
   },
 ]
