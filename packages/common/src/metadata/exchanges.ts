@@ -178,9 +178,9 @@ export const exchanges: IExchangeMetadata[] = [
   },
   {
     id: 'paradex',
-    name: 'Paradex',
-    variants: ['background', 'branded', 'mono'],
     fileName: 'paradex',
+    name: 'Paradex',
     type: 'dex',
+    variants: ['background', 'branded', 'mono'],
   },
 ]
