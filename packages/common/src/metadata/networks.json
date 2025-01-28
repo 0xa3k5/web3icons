@@ -1520,5 +1520,42 @@
     "shortName": "algo",
     "nativeCoinId": "algorand",
     "variants": ["mono", "background", "branded"]
+  },
+  {
+    "id": "berachain",
+    "fileName": "berachain",
+    "chainId": 80094,
+    "caip2id": "eip155:80094",
+    "name": "Berachain",
+    "shortName": "berachain",
+    "nativeCoinId": "BERA",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "paradex",
+    "fileName": "paradex",
+    "name": "Paradex",
+    "shortName": "paradex",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "zero-network",
+    "fileName": "zero-network",
+    "chainId": 543210,
+    "caip2id": "eip155:543210",
+    "name": "Zero Network",
+    "shortName": "zero-network",
+    "nativeCoinId": "ETH",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "zircuit",
+    "fileName": "zircuit",
+    "chainId": 48900,
+    "caip2id": "eip155:48900",
+    "name": "Zircuit",
+    "shortName": "zircuit",
+    "nativeCoinId": "ETH",
+    "variants": ["background", "branded", "mono"]
   }
 ]
