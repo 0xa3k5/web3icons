@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#THOR__a)" d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0m-8 7.53a7.53 7.53 0 1 0 0-15.06 7.53 7.53 0 0 0 0 15.058"/>
-    <path fill="url(#THOR__b)" d="m10.476 9.182 1.731 1.675 3.845-4.094-5.576 2.414zm6.428-3.3.273.368-4.955 5.28-2.575-2.494z"/>
-    <path fill="url(#THOR__c)" d="m14.023 13.91-1.774-1.698-4.607 4.78zm-7.2 3.972-.263-.376 5.675-5.977 2.588 2.532z"/>
+    <path fill="url(#THOR__a)" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0m-9 8.47a8.47 8.47 0 1 0 0-16.94 8.47 8.47 0 0 0 0 16.94"/>
+    <path fill="url(#THOR__b)" d="m10.285 8.83 1.948 1.884 4.326-4.606-6.274 2.716zm7.232-3.712.307.413-5.575 5.94-2.895-2.806z"/>
+    <path fill="url(#THOR__c)" d="m14.276 14.15-1.996-1.912-5.183 5.38zm-8.1 4.468-.297-.424 6.385-6.723 2.912 2.848z"/>
     <defs>
-        <linearGradient id="THOR__a" x1="17.412" x2="7.294" y1="5.882" y2="17.882" gradientUnits="userSpaceOnUse">
+        <linearGradient id="THOR__a" x1="18.088" x2="6.706" y1="5.118" y2="18.618" gradientUnits="userSpaceOnUse">
             <stop stop-color="#37FAF9"/>
             <stop offset="1" stop-color="#08ACFC"/>
         </linearGradient>
-        <linearGradient id="THOR__b" x1="19.12" x2="4.686" y1="4.6" y2="13.436" gradientUnits="userSpaceOnUse">
+        <linearGradient id="THOR__b" x1="20.011" x2="3.772" y1="3.676" y2="13.615" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3EFFFA"/>
             <stop offset="1" stop-color="#29E0EE"/>
         </linearGradient>
-        <linearGradient id="THOR__c" x1="7.831" x2="13.454" y1="17.181" y2="12.809" gradientUnits="userSpaceOnUse">
+        <linearGradient id="THOR__c" x1="7.31" x2="13.636" y1="17.829" y2="12.91" gradientUnits="userSpaceOnUse">
             <stop stop-color="#14AAFE"/>
             <stop offset="1" stop-color="#1CD2F1"/>
         </linearGradient>

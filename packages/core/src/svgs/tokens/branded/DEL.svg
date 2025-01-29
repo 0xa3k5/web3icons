@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#DEL__a)" d="M18.4 4H5.6v3.2h9.067v9.6H5.6V20h12.8zm-6.933 6.4H5.6v3.2h5.867z"/>
+    <path fill="url(#DEL__a)" d="M19.2 3H4.8v3.6H15v10.8H4.8V21h14.4zm-7.8 7.2H4.8v3.6h6.6z"/>
     <defs>
-        <linearGradient id="DEL__a" x1="8.229" x2="18.942" y1="6.286" y2="15.307" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DEL__a" x1="7.757" x2="19.809" y1="5.571" y2="15.72" gradientUnits="userSpaceOnUse">
             <stop stop-color="#02FDAD"/>
             <stop offset=".45" stop-color="#457DF4"/>
             <stop offset="1" stop-color="#9845F5"/>

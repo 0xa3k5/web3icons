@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#UCJL__a)" d="M12 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14m0 1a8 8 0 1 0 0-16 8 8 0 0 0 0 16"/>
-    <path fill="url(#UCJL__b)" d="M12 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14"/>
-    <path fill="#D7E6F9" d="M12.5 9.75v-3l-3.5 2V10c.25.25.7.5 1.5.5s1.665-.5 2-.75"/>
-    <path fill="#D5DBFB" d="m15 8-2.5 1.75V16l2.5-1.5z"/>
-    <path fill="#fff" d="M10.5 10.5c-.5 0-1.415-.335-1.5-.5v6c.085.25.5.75 1.5.75s1.75-.5 2-.75V9.75c-.5.25-1.364.75-2 .75"/>
+    <path fill="url(#UCJL__a)" d="M12 19.875a7.875 7.875 0 1 0 0-15.75 7.875 7.875 0 0 0 0 15.75M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"/>
+    <path fill="url(#UCJL__b)" d="M12 19.875a7.875 7.875 0 1 0 0-15.75 7.875 7.875 0 0 0 0 15.75"/>
+    <path fill="#D7E6F9" d="M12.563 9.469V6.094l-3.938 2.25V9.75c.282.281.788.563 1.688.563s1.873-.563 2.25-.844"/>
+    <path fill="#D5DBFB" d="m15.376 7.5-2.813 1.969V16.5l2.813-1.687z"/>
+    <path fill="#fff" d="M10.313 10.313c-.562 0-1.592-.377-1.688-.563v6.75c.096.281.563.844 1.688.844s1.969-.563 2.25-.844V9.47c-.563.281-1.536.844-2.25.844"/>
     <defs>
-        <linearGradient id="UCJL__a" x1="19.5" x2="4.75" y1="12" y2="12.25" gradientUnits="userSpaceOnUse">
+        <linearGradient id="UCJL__a" x1="20.437" x2="3.844" y1="12" y2="12.281" gradientUnits="userSpaceOnUse">
             <stop stop-color="#17C8FA"/>
             <stop offset="1" stop-color="#975DFE"/>
         </linearGradient>
-        <linearGradient id="UCJL__b" x1="15.5" x2="8.25" y1="6.5" y2="17.5" gradientUnits="userSpaceOnUse">
+        <linearGradient id="UCJL__b" x1="15.938" x2="7.782" y1="5.812" y2="18.188" gradientUnits="userSpaceOnUse">
             <stop stop-color="#B0AEFF"/>
             <stop offset="1" stop-color="#278EDD"/>
         </linearGradient>

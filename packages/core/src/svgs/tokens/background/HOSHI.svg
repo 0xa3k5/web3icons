@@ -42,7 +42,7 @@
             <stop stop-color="#A8A8A8"/>
             <stop offset="1" stop-color="#DCDCDE"/>
         </linearGradient>
-        <linearGradient id="HOSHI__g" x1="9.714" x2="17.71" y1="13.612" y2="14.689" gradientUnits="userSpaceOnUse">
+        <linearGradient id="HOSHI__g" x1="9.715" x2="17.71" y1="13.612" y2="14.689" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D8D8D8"/>
             <stop offset=".73" stop-color="#A8A8A8"/>
         </linearGradient>

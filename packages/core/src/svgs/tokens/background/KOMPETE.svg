@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
     <g clip-path="url(#KOMPETE__a)">
-        <path fill="url(#KOMPETE__b)" d="M24.5 0H.5v24h24z"/>
-        <path fill="#fff" d="M5.071 20V4H8.5v6.623L14.854 4h5.075l-6.84 6.943L19.929 20h-4.572l-4.766-6.52L8.5 15.6V20z"/>
+        <path fill="url(#KOMPETE__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M4.571 20V4H8v6.623L14.354 4h5.075l-6.84 6.943L19.429 20h-4.572l-4.766-6.52L8 15.6V20z"/>
     </g>
     <defs>
-        <linearGradient id="KOMPETE__b" x1="6.573" x2="18.536" y1="17.837" y2="8.373" gradientUnits="userSpaceOnUse">
+        <linearGradient id="KOMPETE__b" x1="6.073" x2="18.036" y1="17.837" y2="8.373" gradientUnits="userSpaceOnUse">
             <stop stop-color="#090909"/>
             <stop offset="1" stop-color="#6C0C0D"/>
         </linearGradient>
         <clipPath id="KOMPETE__a">
-            <path fill="#fff" d="M.5 0h24v24H.5z"/>
+            <path fill="#fff" d="M0 0h24v24H0z"/>
         </clipPath>
     </defs>
 </svg>

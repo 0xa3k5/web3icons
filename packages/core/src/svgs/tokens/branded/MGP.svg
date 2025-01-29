@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#CEEBFF" d="M12 19.059a7.06 7.06 0 1 0 0-14.12 7.06 7.06 0 0 0 0 14.12M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16"/>
-    <path fill="#91C5FF" d="M12 19.058A7.059 7.059 0 1 0 12 4.94a7.059 7.059 0 0 0 0 14.118"/>
-    <path fill="url(#MGP__a)" d="M12 13.883a7.53 7.53 0 0 0 6.084-3.097 7 7 0 0 1-.329 1.581l-.579.574.396-.099q-.135.317-.297.612l-.57.429.377-.095A6.01 6.01 0 0 1 12 16.706c-2.118 0-3.981-1.157-5.083-2.918l.377.095-.57-.424a7 7 0 0 1-.31-.659l.41.141-.575-.574a7 7 0 0 1-.334-1.58A7.52 7.52 0 0 0 12 13.882"/>
-    <path fill="url(#MGP__b)" d="M16.471 12.223a4.47 4.47 0 1 1-8.94 0 4.47 4.47 0 0 1 8.94 0"/>
-    <path fill="url(#MGP__c)" d="M16.113 14.117a4.935 4.935 0 0 1-8.113 0 4.47 4.47 0 0 0 8.113 0"/>
-    <path fill="#FDFFFF" d="M16 11.515a1.882 1.882 0 1 1-3.765 0 1.882 1.882 0 0 1 3.765 0"/>
-    <path fill="url(#MGP__d)" d="m11.53 13.177.47-.706.471.706-.47.706z"/>
-    <path fill="#1474B0" d="M14.353 11.764a.942.942 0 1 1-1.884 0 .942.942 0 0 1 1.883 0"/>
-    <path fill="#0C192A" d="M14.117 11.766a.707.707 0 1 1-1.414-.001.707.707 0 0 1 1.414 0"/>
-    <path fill="#FEFFFF" d="M13.883 11.295a.236.236 0 1 1-.471 0 .236.236 0 0 1 .471 0"/>
-    <path fill="#FDFFFF" d="M8 11.529a1.882 1.882 0 1 0 3.764 0 1.882 1.882 0 0 0-3.764 0"/>
-    <path fill="#1474B0" d="M9.647 11.779a.94.94 0 1 0 1.881 0 .94.94 0 0 0-1.881 0"/>
-    <path fill="#0C192A" d="M9.883 11.78a.706.706 0 1 0 1.411 0 .706.706 0 0 0-1.411 0"/>
-    <path fill="#FEFFFF" d="M10.118 11.295a.236.236 0 1 0 .471 0 .236.236 0 0 0-.47 0"/>
+    <path fill="#CEEBFF" d="M12 19.941a7.942 7.942 0 1 0 0-15.883 7.942 7.942 0 0 0 0 15.883M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"/>
+    <path fill="#91C5FF" d="M12 19.94a7.941 7.941 0 1 0 0-15.882 7.941 7.941 0 0 0 0 15.882"/>
+    <path fill="url(#MGP__a)" d="M12 14.118a8.47 8.47 0 0 0 6.845-3.483 7.8 7.8 0 0 1-.37 1.779l-.652.645.445-.11a8 8 0 0 1-.334.688l-.64.481.423-.106A6.76 6.76 0 0 1 12 17.295c-2.383 0-4.48-1.303-5.718-3.283l.423.106-.64-.476a7 7 0 0 1-.35-.742l.461.16-.646-.646a8 8 0 0 1-.376-1.78A8.46 8.46 0 0 0 12 14.119"/>
+    <path fill="url(#MGP__b)" d="M17.03 12.25a5.03 5.03 0 1 1-10.059 0 5.03 5.03 0 0 1 10.059 0"/>
+    <path fill="url(#MGP__c)" d="M16.627 14.382a5.55 5.55 0 0 1-7.139 1.755A5.55 5.55 0 0 1 7.5 14.382a5.03 5.03 0 0 0 9.127 0"/>
+    <path fill="#FDFFFF" d="M16.5 11.455a2.118 2.118 0 1 1-4.236 0 2.118 2.118 0 0 1 4.236 0"/>
+    <path fill="url(#MGP__d)" d="m11.47 13.324.53-.795.53.794-.53.795z"/>
+    <path fill="#1474B0" d="M14.647 11.735a1.059 1.059 0 1 1-2.118 0 1.059 1.059 0 0 1 2.118 0"/>
+    <path fill="#0C192A" d="M14.382 11.737a.795.795 0 1 1-1.59-.001.795.795 0 0 1 1.59 0"/>
+    <path fill="#FEFFFF" d="M14.119 11.207a.265.265 0 1 1-.53 0 .265.265 0 0 1 .53 0"/>
+    <path fill="#FDFFFF" d="M7.5 11.47a2.118 2.118 0 1 0 4.235 0 2.118 2.118 0 0 0-4.235 0"/>
+    <path fill="#1474B0" d="M9.353 11.751a1.059 1.059 0 1 0 2.118 0 1.059 1.059 0 0 0-2.118 0"/>
+    <path fill="#0C192A" d="M9.618 11.751a.794.794 0 1 0 1.589 0 .794.794 0 0 0-1.589 0"/>
+    <path fill="#FEFFFF" d="M9.883 11.207a.265.265 0 1 0 .53 0 .265.265 0 0 0-.53 0"/>
     <defs>
-        <linearGradient id="MGP__a" x1="19.734" x2="4.575" y1="8.553" y2="8.553" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MGP__a" x1="20.7" x2="3.647" y1="8.123" y2="8.123" gradientUnits="userSpaceOnUse">
             <stop stop-color="#68AFE7"/>
             <stop offset=".07" stop-color="#106EBE"/>
             <stop offset=".16" stop-color="#0A3256"/>
@@ -22,11 +22,11 @@
             <stop offset=".91" stop-color="#1879CA"/>
             <stop offset="1" stop-color="#67AEE6"/>
         </linearGradient>
-        <linearGradient id="MGP__b" x1="11.579" x2="11.579" y1="4.027" y2="20.027" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MGP__b" x1="11.527" x2="11.527" y1="3.03" y2="21.03" gradientUnits="userSpaceOnUse">
             <stop stop-color="#06111D"/>
             <stop offset="1" stop-color="#154983"/>
         </linearGradient>
-        <linearGradient id="MGP__c" x1="4.111" x2="19.889" y1="5.481" y2="5.481" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MGP__c" x1="3.125" x2="20.875" y1="4.667" y2="4.667" gradientUnits="userSpaceOnUse">
             <stop stop-color="#083A5E"/>
             <stop offset=".09" stop-color="#699AC3"/>
             <stop offset=".29" stop-color="#FFFDFF"/>
@@ -34,7 +34,7 @@
             <stop offset=".94" stop-color="#4197DE"/>
             <stop offset="1" stop-color="#114873"/>
         </linearGradient>
-        <linearGradient id="MGP__d" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MGP__d" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C7C4BD"/>
             <stop offset="1" stop-color="#ADA9AA"/>
         </linearGradient>

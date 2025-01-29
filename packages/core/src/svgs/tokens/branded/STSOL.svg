@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#STSOL__a)" d="M11.998 13.868 7.44 11.192l-.129.196a5.64 5.64 0 0 0 .756 6.975 5.537 5.537 0 0 0 7.86 0 5.62 5.62 0 0 0 .755-6.975l-.129-.196z"/>
-    <path fill="url(#STSOL__b)" d="m16.554 11.203-4.556 2.676-4.561-2.68 4.574-2.392z"/>
-    <path fill="url(#STSOL__c)" d="m11.998 4 3.934 6.135-3.934 2.311z"/>
-    <path fill="url(#STSOL__d)" d="M11.998 4v8.446l-3.925-2.311z"/>
+    <path fill="url(#STSOL__a)" d="m11.997 14.102-5.126-3.01-.145.22a6.34 6.34 0 0 0 .85 7.846 6.23 6.23 0 0 0 6.816 1.363 6.2 6.2 0 0 0 2.026-1.363 6.32 6.32 0 0 0 .85-7.846l-.145-.22z"/>
+    <path fill="url(#STSOL__b)" d="m17.123 11.103-5.126 3.01-5.131-3.015 5.146-2.69z"/>
+    <path fill="url(#STSOL__c)" d="m11.997 3 4.426 6.901-4.426 2.601z"/>
+    <path fill="url(#STSOL__d)" d="M11.998 3v9.502l-4.416-2.6z"/>
     <defs>
-        <linearGradient id="STSOL__a" x1="11.998" x2="11.998" y1="4" y2="20.006" gradientUnits="userSpaceOnUse">
+        <linearGradient id="STSOL__a" x1="11.997" x2="11.997" y1="3" y2="21.007" gradientUnits="userSpaceOnUse">
             <stop stop-color="#498BE9"/>
             <stop offset="1" stop-color="#56F2FF"/>
         </linearGradient>
-        <linearGradient id="STSOL__b" x1="11.997" x2="11.997" y1="4.001" y2="19.945" gradientUnits="userSpaceOnUse">
+        <linearGradient id="STSOL__b" x1="11.997" x2="11.997" y1="3.001" y2="20.938" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4A8CEA"/>
             <stop offset=".7" stop-color="#5ABEF4"/>
         </linearGradient>
-        <linearGradient id="STSOL__c" x1="13.187" x2="10.984" y1="12.842" y2="20.648" gradientUnits="userSpaceOnUse">
+        <linearGradient id="STSOL__c" x1="13.336" x2="10.857" y1="12.947" y2="21.729" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FB8174"/>
             <stop offset=".56" stop-color="#568FDD"/>
         </linearGradient>
-        <linearGradient id="STSOL__d" x1="8.904" x2="9.616" y1="8.192" y2="11.628" gradientUnits="userSpaceOnUse">
+        <linearGradient id="STSOL__d" x1="8.517" x2="9.318" y1="7.716" y2="11.582" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FFE235"/>
             <stop offset=".61" stop-color="#5DCBA2"/>
         </linearGradient>

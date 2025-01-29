@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
-    <path fill="url(#LINA__a)" d="M5.957 14.265a1.975 1.975 0 0 1 0-2.772L13.369 4l.346.35a1.975 1.975 0 0 1 0 2.771l-7.413 7.493z"/>
-    <path fill="url(#LINA__b)" d="M8.62 16.958a1.975 1.975 0 0 1 0-2.771l7.413-7.493.345.35a1.975 1.975 0 0 1 0 2.77l-7.412 7.494z"/>
-    <path fill="url(#LINA__c)" d="M11.286 16.879a1.975 1.975 0 0 0 0 2.772l.346.349 7.412-7.493a1.975 1.975 0 0 0 0-2.771l-.345-.35z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#LINA__a)" d="M4.638 14.548a2.22 2.22 0 0 1 0-3.119L12.977 3l.389.393a2.22 2.22 0 0 1 0 3.118l-8.34 8.43z"/>
+    <path fill="url(#LINA__b)" d="M7.635 17.578a2.22 2.22 0 0 1 0-3.118l8.339-8.43.388.394a2.22 2.22 0 0 1 0 3.118l-8.338 8.43z"/>
+    <path fill="url(#LINA__c)" d="M10.634 17.489a2.22 2.22 0 0 0 0 3.118l.39.393 8.338-8.43a2.22 2.22 0 0 0 0-3.117l-.388-.393z"/>
     <defs>
-        <linearGradient id="LINA__a" x1="11.127" x2="21.852" y1="10.693" y2="21.946" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LINA__a" x1="10.455" x2="22.52" y1="10.529" y2="23.189" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6BB7FF"/>
             <stop offset="1" stop-color="#053BF7"/>
         </linearGradient>
-        <linearGradient id="LINA__b" x1="6.866" x2="17.59" y1="6.632" y2="17.887" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LINA__b" x1="5.661" x2="17.726" y1="5.962" y2="18.623" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6BB7FF"/>
             <stop offset="1" stop-color="#053BF7"/>
         </linearGradient>
-        <linearGradient id="LINA__c" x1="8.978" x2="16.1" y1="8.439" y2="15.484" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LINA__c" x1="8.038" x2="16.05" y1="7.994" y2="15.919" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6BB7FF"/>
             <stop offset="1" stop-color="#053BF7"/>
         </linearGradient>

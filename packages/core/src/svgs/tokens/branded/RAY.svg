@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#RAY__a)" d="M18.222 10.222v5.334L12 19.005l-6.222-3.45v-7.11L12 4.982l4.894 2.602.74-.415L12 4 4.889 8v8l7.11 4 7.112-4V9.59z"/>
-    <path fill="url(#RAY__b)" d="M10.666 15.555H9.333v-3.556h3.111c.676-.007 1.332-.451 1.333-1.137.008-.674-.664-1.09-1.333-1.085H9.333V8.444h3.373c1.424 0 2.394 1.067 2.405 2.418.012 1.46-1.143 2.47-2.763 2.47h-1.682z"/>
-    <path fill="url(#RAY__c)" d="M15.34 15.555h-1.55l-.959-1.684c.38-.023 1.031-.178 1.399-.377z"/>
-    <path fill="url(#RAY__d)" d="m17.556 8.906.777.428.778-.428v-.904l-.777-.446-.778.446z"/>
+    <path fill="url(#RAY__a)" d="M19 10v6l-7 3.88L5 16V8l7-3.894 5.506 2.928.832-.468L12 3 4 7.501v8.998L12 21l8-4.501V9.288z"/>
+    <path fill="url(#RAY__b)" d="M10.5 16H9v-4h3.5c.76-.008 1.498-.508 1.5-1.28.008-.758-.748-1.225-1.5-1.22H9V8h3.794c1.602 0 2.693 1.2 2.705 2.72.014 1.642-1.286 2.78-3.108 2.78h-1.892z"/>
+    <path fill="url(#RAY__c)" d="M15.757 16h-1.743l-1.079-1.896c.427-.025 1.16-.2 1.574-.424z"/>
+    <path fill="url(#RAY__d)" d="m18.25 8.52.875.48.875-.48V7.501L19.125 7l-.875.502z"/>
     <defs>
-        <linearGradient id="RAY__a" x1="19.099" x2="4.129" y1="8.005" y2="14.149" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RAY__a" x1="19.986" x2="3.145" y1="7.506" y2="14.418" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C200FB"/>
             <stop offset=".49" stop-color="#3773FE"/>
             <stop offset="1" stop-color="#5AC4BE"/>
         </linearGradient>
-        <linearGradient id="RAY__b" x1="28.926" x2="-6.906" y1="3.011" y2="19.099" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RAY__b" x1="31.042" x2="-9.269" y1="1.888" y2="19.986" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C200FB"/>
             <stop offset=".49" stop-color="#3773FE"/>
             <stop offset="1" stop-color="#5AC4BE"/>
         </linearGradient>
-        <linearGradient id="RAY__c" x1="40.424" x2="-50.565" y1="-38.592" y2="-11.31" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RAY__c" x1="43.977" x2="-58.386" y1="-44.916" y2="-14.224" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C200FB"/>
             <stop offset=".49" stop-color="#3773FE"/>
             <stop offset="1" stop-color="#5AC4BE"/>
         </linearGradient>
-        <linearGradient id="RAY__d" x1="19.113" x2="3.208" y1="8.003" y2="14.43" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RAY__d" x1="20.003" x2="2.109" y1="7.504" y2="14.733" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C200FB"/>
             <stop offset=".49" stop-color="#3773FE"/>
             <stop offset="1" stop-color="#5AC4BE"/>

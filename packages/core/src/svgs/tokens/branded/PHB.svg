@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#E61E28" d="M11.988 14.1c.014-.028.045-.012.06 0l.29 3.398-.32.302-.336-.302c.096-1.12.292-3.37.306-3.399"/>
-    <path fill="url(#PHB__a)" d="m11.332 11.62.306-.38.371.788.377-.788.307.38-.684 1.472z"/>
-    <path fill="url(#PHB__b)" d="m11.687 10.816.328-.337.333.337-.334.61z"/>
-    <path fill="url(#PHB__c)" d="m5.755 11.076-.298-.87 6.046 2.543.384.672-.525 3.797-.46-.426.76-3.37z"/>
-    <path fill="url(#PHB__d)" d="m18.246 11.076.298-.87-6.046 2.543-.385.672.526 3.797.46-.426-.76-3.37z"/>
-    <path fill="url(#PHB__e)" d="M10.367 10.65 4 6.2l.634 1.737 6.112 3.427z"/>
-    <path fill="url(#PHB__f)" d="M13.633 10.65 20 6.2l-.634 1.737-6.112 3.427z"/>
-    <path fill="url(#PHB__g)" d="m5.289 9.744-.477-1.322 6.11 3.281.377.7z"/>
-    <path fill="url(#PHB__h)" d="m18.712 9.744.477-1.322-6.111 3.281-.377.7z"/>
+    <path fill="#E61E28" d="M11.986 14.362c.016-.031.051-.013.068 0l.326 3.824-.36.34-.378-.34c.108-1.262.329-3.793.344-3.824"/>
+    <path fill="url(#PHB__a)" d="m11.249 11.573.344-.428.418.887.424-.886.344.427-.768 1.655z"/>
+    <path fill="url(#PHB__b)" d="m11.648 10.668.369-.378.374.378-.375.687z"/>
+    <path fill="url(#PHB__c)" d="m4.974 10.96-.335-.978 6.802 2.861.432.756-.591 4.271-.517-.48.855-3.791z"/>
+    <path fill="url(#PHB__d)" d="m19.027 10.96.335-.978-6.802 2.861-.433.756.592 4.271.517-.48-.855-3.791z"/>
+    <path fill="url(#PHB__e)" d="M10.163 10.483 3 5.475l.713 1.954 6.876 3.856z"/>
+    <path fill="url(#PHB__f)" d="M13.837 10.483 21 5.475l-.713 1.954-6.876 3.856z"/>
+    <path fill="url(#PHB__g)" d="m4.45 9.462-.537-1.487 6.875 3.691.424.787z"/>
+    <path fill="url(#PHB__h)" d="m19.55 9.462.538-1.487-6.876 3.691-.423.787z"/>
     <defs>
-        <linearGradient id="PHB__a" x1="11.998" x2="11.998" y1="6.2" y2="17.8" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PHB__a" x1="11.997" x2="11.997" y1="5.475" y2="18.526" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E9231E"/>
             <stop offset="1" stop-color="#E42021"/>
         </linearGradient>
-        <linearGradient id="PHB__b" x1="12" x2="12" y1="6.2" y2="17.8" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PHB__b" x1="12" x2="12" y1="5.475" y2="18.525" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E53A2D"/>
             <stop offset="1" stop-color="#E82620"/>
         </linearGradient>
-        <linearGradient id="PHB__c" x1="4" x2="14.923" y1="6.2" y2="18.021" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PHB__c" x1="3" x2="15.288" y1="5.475" y2="18.774" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F0341E"/>
             <stop offset="1" stop-color="#E31D26"/>
         </linearGradient>
-        <linearGradient id="PHB__d" x1="20" x2="9.076" y1="6.2" y2="18.021" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PHB__d" x1="21" x2="8.711" y1="5.475" y2="18.774" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F0341E"/>
             <stop offset="1" stop-color="#E31D26"/>
         </linearGradient>
-        <linearGradient id="PHB__e" x1="4.277" x2="19.453" y1="6.2" y2="18.476" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PHB__e" x1="3.312" x2="20.385" y1="5.475" y2="19.286" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F7691F"/>
             <stop offset="1" stop-color="#E9342A"/>
         </linearGradient>
-        <linearGradient id="PHB__f" x1="19.724" x2="4.547" y1="6.2" y2="18.476" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PHB__f" x1="20.689" x2="3.615" y1="5.475" y2="19.286" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F7691F"/>
             <stop offset="1" stop-color="#E9342A"/>
         </linearGradient>
-        <linearGradient id="PHB__g" x1="4" x2="21.327" y1="6.2" y2="14.803" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PHB__g" x1="3" x2="22.493" y1="5.475" y2="15.154" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EE511F"/>
             <stop offset="1" stop-color="#EE1B21"/>
         </linearGradient>
-        <linearGradient id="PHB__h" x1="19.189" x2="12.673" y1="8.422" y2="12.244" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PHB__h" x1="20.088" x2="12.758" y1="7.975" y2="12.274" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EE511F"/>
             <stop offset="1" stop-color="#EE1B21"/>
         </linearGradient>

@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#D7A012" d="m10.307 6.543-3.36 5.036L12 20l5.052-8.421-3.36-5.036.994 5.036h1.184l-3.449 6.316v-6.316h1.082l-1.486-7.558L12 4l-.017.021-1.486 7.558h1.082v6.316l-3.453-6.316h1.188z"/>
-    <path fill="url(#PROTEO__a)" fill-opacity=".3" d="m10.307 6.543-3.36 5.036L12 20l5.052-8.421-3.36-5.036.994 5.036h1.184l-3.449 6.316v-6.316h1.082l-1.486-7.558L12 4l-.017.021-1.486 7.558h1.082v6.316l-3.453-6.316h1.188z"/>
+    <path fill="#D7A012" d="m10.096 5.861-3.78 5.665L12 21l5.684-9.474-3.78-5.665 1.118 5.665h1.331l-3.88 7.106v-7.106h1.218L12.02 3.024 12 3l-.019.024-1.672 8.502h1.217v7.106l-3.884-7.106h1.336z"/>
+    <path fill="url(#PROTEO__a)" fill-opacity=".3" d="m10.096 5.861-3.78 5.665L12 21l5.684-9.474-3.78-5.665 1.118 5.665h1.331l-3.88 7.106v-7.106h1.218L12.02 3.024 12 3l-.019.024-1.672 8.502h1.217v7.106l-3.884-7.106h1.336z"/>
     <defs>
-        <linearGradient id="PROTEO__a" x1="12" x2="12" y1="7.579" y2="18.105" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PROTEO__a" x1="12" x2="12" y1="7.026" y2="18.869" gradientUnits="userSpaceOnUse">
             <stop stop-color="#fff"/>
             <stop offset=".68" stop-color="#fff" stop-opacity="0"/>
             <stop offset="1" stop-color="#fff" stop-opacity=".5"/>

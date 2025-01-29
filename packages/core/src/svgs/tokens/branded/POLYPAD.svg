@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#POLYPAD__a)" d="M19.059 15.995v-8L12 4 4.941 7.995v8l2.353 1.323V9.332L12 6.649l4.706 2.683v5.336L12 17.341V20z"/>
-    <path fill="url(#POLYPAD__b)" d="M15.294 10.15 12 8.3l-3.294 1.85v8l1.882 1.016V11.18L12 10.356l1.412.824v1.637L12 13.641v2.047l3.294-1.84z"/>
-    <path fill="#fff" d="M19.059 7.995 12 4 4.941 7.995l2.344 1.337L12 6.649l4.715 2.683z"/>
-    <path fill="#fff" d="m12 8.3-3.267 1.85 1.817 1.03 1.45-.828 1.449.823 1.844-1.026z"/>
+    <path fill="url(#POLYPAD__a)" d="M19.94 16.495v-9L12 3 4.059 7.495v9l2.647 1.487V8.998L12 5.981l5.294 3.017v6.004L12 18.009V21z"/>
+    <path fill="url(#POLYPAD__b)" d="M15.706 9.918 12 7.838l-3.706 2.08v9l2.117 1.143v-8.984L12 10.151l1.588.926v1.843L12 13.846v2.303l3.706-2.07z"/>
+    <path fill="#fff" d="M19.94 7.495 12 3 4.059 7.495l2.636 1.503L12 5.981l5.304 3.017z"/>
+    <path fill="#fff" d="M11.999 7.837 8.325 9.918l2.043 1.16 1.63-.932 1.632.926 2.075-1.154z"/>
     <defs>
-        <linearGradient id="POLYPAD__a" x1="15.53" x2="8.668" y1="6" y2="18.108" gradientUnits="userSpaceOnUse">
+        <linearGradient id="POLYPAD__a" x1="15.97" x2="8.252" y1="5.25" y2="18.872" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4E4AFF"/>
             <stop offset="1" stop-color="#A873FF"/>
         </linearGradient>
-        <linearGradient id="POLYPAD__b" x1="15.489" x2="9.672" y1="5.364" y2="20.307" gradientUnits="userSpaceOnUse">
+        <linearGradient id="POLYPAD__b" x1="15.925" x2="9.381" y1="4.534" y2="21.346" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4E4AFF"/>
             <stop offset="1" stop-color="#A873FF"/>
         </linearGradient>

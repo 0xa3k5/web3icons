@@ -1,34 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#STIMA__a)" d="M11.617 4.1a.78.78 0 0 1 .765 0l6.349 3.623a.75.75 0 0 1 .382.654v7.246c0 .267-.147.52-.382.654L12.382 19.9a.78.78 0 0 1-.765 0L5.27 16.277a.76.76 0 0 1-.382-.654V8.377c0-.267.146-.52.382-.654z"/>
-    <path fill="url(#STIMA__b)" d="M12.017 12 5.775 8.445l6.242-3.556 6.206 3.556z"/>
-    <path fill="url(#STIMA__c)" d="m12 11.978-.005 7.135-6.21-3.578-.01-7.091z"/>
-    <path fill="url(#STIMA__d)" d="m12 11.978.004 7.135 6.21-3.578.01-7.091z"/>
-    <path fill="url(#STIMA__e)" d="m5.562 10.724 6.58 3.676a.474.474 0 0 1 .178.658.49.49 0 0 1-.667.178l-6.58-3.677z"/>
-    <path fill="url(#STIMA__f)" d="m18.335 13.365-6.602-3.783a.48.48 0 0 1-.178-.662.49.49 0 0 1 .663-.178l6.61 3.792-.489.831z"/>
+    <path fill="url(#STIMA__a)" d="M11.57 3.113a.88.88 0 0 1 .86 0l7.142 4.076c.265.15.43.43.43.735v8.152a.85.85 0 0 1-.43.735l-7.142 4.076a.88.88 0 0 1-.86 0l-7.142-4.076a.85.85 0 0 1-.43-.735V7.924c0-.3.165-.585.43-.735z"/>
+    <path fill="url(#STIMA__b)" d="M12.02 12 4.998 8l7.022-4.001 6.982 4z"/>
+    <path fill="url(#STIMA__c)" d="m12 11.976-.006 8.027-6.986-4.026L4.998 8z"/>
+    <path fill="url(#STIMA__d)" d="m12 11.976.005 8.027 6.986-4.026.01-7.977z"/>
+    <path fill="url(#STIMA__e)" d="M4.758 10.564 12.16 14.7c.265.15.355.48.2.74a.55.55 0 0 1-.75.2l-7.402-4.136z"/>
+    <path fill="url(#STIMA__f)" d="M19.127 13.536 11.7 9.28a.537.537 0 0 1-.2-.745.55.55 0 0 1 .745-.2l7.437 4.266-.55.935z"/>
     <defs>
-        <linearGradient id="STIMA__a" x1="4.887" x2="19.909" y1="15.463" y2="8.443" gradientUnits="userSpaceOnUse">
+        <linearGradient id="STIMA__a" x1="3.998" x2="20.897" y1="15.896" y2="7.999" gradientUnits="userSpaceOnUse">
             <stop stop-color="#EBECF3"/>
             <stop offset="1" stop-color="#ACB2C6"/>
         </linearGradient>
-        <linearGradient id="STIMA__b" x1="4.526" x2="18.66" y1="11.821" y2="11.8" gradientUnits="userSpaceOnUse">
+        <linearGradient id="STIMA__b" x1="3.591" x2="19.493" y1="11.798" y2="11.775" gradientUnits="userSpaceOnUse">
             <stop stop-color="#DD79B2"/>
             <stop offset=".5" stop-color="#D4399B"/>
             <stop offset="1" stop-color="#B94299"/>
         </linearGradient>
-        <linearGradient id="STIMA__c" x1="5.598" x2="16.6" y1="14.847" y2="5.524" gradientUnits="userSpaceOnUse">
+        <linearGradient id="STIMA__c" x1="4.798" x2="17.175" y1="15.203" y2="4.715" gradientUnits="userSpaceOnUse">
             <stop stop-color="#DD79B2"/>
             <stop offset=".5" stop-color="#D4399B"/>
             <stop offset="1" stop-color="#B94299"/>
         </linearGradient>
-        <linearGradient id="STIMA__d" x1="5.344" x2="16.415" y1="8.42" y2="18.506" gradientUnits="userSpaceOnUse">
+        <linearGradient id="STIMA__d" x1="4.512" x2="16.967" y1="7.973" y2="19.32" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A7036C"/>
             <stop offset="1" stop-color="#8C136D"/>
         </linearGradient>
-        <linearGradient id="STIMA__e" x1="4.887" x2="21.082" y1="4" y2="9.456" gradientUnits="userSpaceOnUse">
+        <linearGradient id="STIMA__e" x1="3.997" x2="22.217" y1="2.999" y2="9.138" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E5E7EF"/>
             <stop offset="1" stop-color="#ACB2C6"/>
         </linearGradient>
-        <linearGradient id="STIMA__f" x1="18.683" x2="11.645" y1="10.889" y2="10.08" gradientUnits="userSpaceOnUse">
+        <linearGradient id="STIMA__f" x1="19.518" x2="11.601" y1="10.75" y2="9.84" gradientUnits="userSpaceOnUse">
             <stop stop-color="#B7BDCE"/>
             <stop offset="1" stop-color="#D0D3E1"/>
         </linearGradient>

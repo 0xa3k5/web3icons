@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#MNW__a)" d="m6.72 7.089-2.697 9.99c-.174.65.669 1.092 1.12.584l3.605-4.047 2.212 2.503a1.402 1.402 0 0 0 2.09 0l2.21-2.498 3.596 4.023c.457.508 1.294.066 1.12-.584l-2.692-9.957a1.345 1.345 0 0 0-2.3-.527L12 9.95 9.026 6.57a1.346 1.346 0 0 0-2.301.518z"/>
-    <path fill="url(#MNW__b)" d="m6.72 7.089-1.774 6.574a2 2 0 0 1 2.706-1.036c.47.222.837.64 1.096.989l2.212 2.494a1.402 1.402 0 0 0 2.09 0l2.211-2.494 2.894-3.29a4.11 4.11 0 0 1-6.16-.376L9.021 6.57a1.346 1.346 0 0 0-2.301.518"/>
-    <path fill="url(#MNW__c)" d="m15.261 13.615 3.596 4.024c.456.508 1.294.065 1.12-.584l-1.822-6.73z"/>
-    <path fill="url(#MNW__d)" d="m4.946 13.658-.923 3.416c-.174.65.669 1.092 1.12.583l3.605-4.046c-.29-.448-.7-.802-1.186-1.022a2 2 0 0 0-2.184.421 2 2 0 0 0-.437.648z"/>
+    <path fill="url(#MNW__a)" d="m6.06 6.474-3.034 11.24c-.196.73.752 1.228 1.26.656l4.056-4.553 2.488 2.817a1.58 1.58 0 0 0 2.35 0l2.489-2.811 4.044 4.526c.514.572 1.456.074 1.26-.656L17.945 6.49a1.513 1.513 0 0 0-2.589-.593L12 9.693 8.654 5.892a1.514 1.514 0 0 0-2.589.582z"/>
+    <path fill="url(#MNW__b)" d="M6.06 6.474 4.064 13.87a2.25 2.25 0 0 1 3.044-1.164c.53.248.942.72 1.234 1.111l2.488 2.806a1.576 1.576 0 0 0 2.35 0l2.489-2.806 3.255-3.7a4.625 4.625 0 0 1-6.93-.424L8.65 5.892a1.514 1.514 0 0 0-2.59.582"/>
+    <path fill="url(#MNW__c)" d="m15.669 13.817 4.045 4.526c.513.572 1.455.074 1.26-.656l-2.05-7.57z"/>
+    <path fill="url(#MNW__d)" d="m4.064 13.864-1.038 3.844c-.196.73.752 1.228 1.26.656l4.056-4.552a3.1 3.1 0 0 0-1.335-1.15 2.25 2.25 0 0 0-2.456.474c-.21.208-.378.456-.492.728z"/>
     <defs>
-        <linearGradient id="MNW__a" x1="15.835" x2="15.28" y1="7.051" y2="10.971" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MNW__a" x1="16.314" x2="15.69" y1="6.432" y2="10.842" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5083A9"/>
             <stop offset="1" stop-color="#12132C"/>
         </linearGradient>
-        <linearGradient id="MNW__b" x1="18.444" x2="4.001" y1="12.875" y2="13.218" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MNW__b" x1="19.249" x2="3.001" y1="12.983" y2="13.37" gradientUnits="userSpaceOnUse">
             <stop stop-color="#1C2849"/>
             <stop offset="1" stop-color="#5893BA"/>
         </linearGradient>
-        <linearGradient id="MNW__c" x1="9.53" x2="11.5" y1="8.733" y2="18.439" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MNW__c" x1="9.221" x2="11.438" y1="8.324" y2="19.244" gradientUnits="userSpaceOnUse">
             <stop stop-color="#13182F"/>
             <stop offset="1" stop-color="#5284AC"/>
         </linearGradient>
-        <linearGradient id="MNW__d" x1="7.67" x2="4.8" y1="12.777" y2="17.54" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MNW__d" x1="7.129" x2="3.9" y1="12.874" y2="18.232" gradientUnits="userSpaceOnUse">
             <stop stop-color="#1C2849"/>
             <stop offset="1" stop-color="#436C92"/>
         </linearGradient>

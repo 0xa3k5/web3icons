@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
-    <path fill="url(#SOLID__a)" d="M12.5 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#SOLID__a)" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"/>
     <defs>
-        <linearGradient id="SOLID__a" x1="12.5" x2="12.5" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SOLID__a" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#00C0D6"/>
             <stop offset="1" stop-color="#10F9DB"/>
         </linearGradient>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#WAGMI__a)" d="M4.103 5.143H4V10.6l8 6.868 8-7.24V5.177l-8 6.663zm12.263 0L12 8.914 7.634 5.143zM20 13.668l-6.171 5.189H20zm-9.771 5.189L4 13.485v5.372z"/>
+    <path fill="url(#WAGMI__a)" d="M3.116 4.286H3v6.14l9 7.727 9-8.145V4.325l-9 7.495zm13.796 0L12 8.53 7.089 4.286zM21 13.878l-6.943 5.837H21zm-10.993 5.837L3 13.672v6.043z"/>
     <defs>
-        <linearGradient id="WAGMI__a" x1="4" x2="19.254" y1="10.922" y2="10.922" gradientUnits="userSpaceOnUse">
+        <linearGradient id="WAGMI__a" x1="3" x2="20.161" y1="10.788" y2="10.788" gradientUnits="userSpaceOnUse">
             <stop stop-color="#DCC093"/>
             <stop offset="1" stop-color="#C4A878"/>
         </linearGradient>

@@ -1,70 +1,70 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#CRV__a)" d="M19.556 12.209c-.96 2.48-5.064 3.205-9.166 1.617-3.867-1.497-7.433-7.61-2.611-9.636 1.712-.384 3.9-.195 6.088.652 4.102 1.587 6.649 4.886 5.689 7.367"/>
-    <path fill="url(#CRV__b)" d="M14.813 5.803c-.944-.174-1.006 1.04-.877 1.72 2.516.993 3.358 2.471 3.42 2.565 1.15-.978 2.32.115 2.424.95-.125-2.71-3.682-4.999-4.967-5.235"/>
-    <path fill="url(#CRV__c)" d="M5.35 16.618c-.66-2.03-.055-3.818.33-4.458-.345-1.602-.994-4.819-1.014-4.799-1.139 4.006-.11 7.89.571 9.322z"/>
-    <path fill="url(#CRV__d)" d="M4.567 7.842c.095-.766.575-1.686.88-2.111L10.9 4.084c5.586.927 4.283 3.194.138 2.803-1.277-.12-.661 1.067-.586 2.164.345 2.329-.18 2.6-.992 3.801-.285-.586-.917-1.697-2.043-1.773-.902-.06-1.778 1.082-1.969 1.502-.05-.044-.22-.805-.315-1.117-.5-1.043-.736-2.25-.565-3.622"/>
-    <path fill="url(#CRV__e)" d="M5.173 7.798c-.157-.679-.066-1.285 0-1.503.156-.596.938-1.86 2.814-2.156 1.876-.295 3.555-.046 4.16.281.575.387.327 1.56-.842 1.23-1.703-.492-1.966.157-1.826 1.053.38 1.98.158 3.306 0 3.721 0 0-.51 1.282-.93.879-.72-.72-1.387-.58-2.125-.387-.59.154-.767-.263-.782-.492-.091-.592-.312-1.947-.47-2.626"/>
-    <path fill="url(#CRV__f)" d="M6.822 4.49c-1.338.637-.854 3.128-.437 4.36.454-.285 1.846-.172 2.273.283-.637-3.614.868-5.06 1.322-5.032 0 0-.747-.08-1.266-.036-.624.035-1.295.14-1.892.425"/>
-    <path fill="url(#CRV__g)" d="M17.418 10.036c-1.058 1.18-4.514 1.663-6.11 1.757.333 1.595.031 4.025-.162 5.04 2.057-.65 6.336-1.983 7-2.119.831-.17 1.848-1.475 1.679-3.373s-1.729-2.017-2.407-1.305"/>
-    <path fill="url(#CRV__h)" d="M10.502 8.638c-.25.106.571 2.159.837 3.185 4.129-.309 5.504-1.333 5.521-1.333-2.315-1.918-6.044-1.985-6.358-1.852"/>
-    <path fill="url(#CRV__i)" d="M17.365 10.105c-.615-2.314-6.355-3.569-6.944-3.162-.352.243-.209 1.181 0 1.71 2.845-.279 5.513 1.113 6.411 1.824.142-.033.48-.29.533-.372"/>
-    <path fill="url(#CRV__j)" d="M18.29 10.584c-1.2.228-1.099-.274-.9-.554.636-.779 1.724-.324 2.188 0 .07.09-.09.327-1.288.554"/>
-    <path fill="url(#CRV__k)" d="M7.878 18.87c1.39-.109 2.38-1.937 2.212-4.085-.169-2.146-1.432-3.798-2.822-3.69-1.39.11-2.38 1.939-2.212 4.086s1.432 3.799 2.822 3.69"/>
-    <path fill="url(#CRV__l)" d="M7.221 12.847c-.84.155-1.534-.108-1.776-.26.23-.461.827-1.465 1.958-1.542 1.022-.07 1.676.755 1.97 1.377-.428-.034-1.312.27-2.152.425"/>
-    <path fill="url(#CRV__m)" fill-opacity=".5" d="M7.221 12.847c-.84.155-1.534-.108-1.776-.26.23-.461.827-1.465 1.958-1.542 1.022-.07 1.676.755 1.97 1.377-.428-.034-1.312.27-2.152.425"/>
-    <path fill="url(#CRV__n)" d="M8.493 20c1.439.032 2.354-1.856 2.632-2.804l-1.362-.106c-.124.551-.752 1.612-1.933 1.747-1.254.144-2.188-1.433-2.479-2.226a.3.3 0 0 1-.117.066C5.618 17.87 6.694 19.96 8.493 20"/>
-    <path fill="url(#CRV__o)" d="M8.493 20c1.439.032 2.354-1.856 2.632-2.804l-1.362-.106c-.124.551-.752 1.612-1.933 1.747-1.254.144-2.188-1.433-2.479-2.226a.3.3 0 0 1-.117.066C5.618 17.87 6.694 19.96 8.493 20"/>
-    <path fill="url(#CRV__p)" d="M10.242 8.114c.647 2.087-.167 3.91-.706 4.614.845 1.966.233 3.905.233 4.456s1.176.405 1.36 0c.679-2.105.64-5.836-.887-9.07"/>
-    <path fill="url(#CRV__q)" d="m5.9 12.767-.433-.176c.12-.374.715-1.485 1.913-1.546-.379.11-1.315.99-1.48 1.722"/>
-    <path fill="#F4BA0C" d="M7.48 12.806c-.897.239-1.703-.024-1.993-.186a3.4 3.4 0 0 0-.364 1.155c1.247.374 3.507-.42 4.481-.864l-.226-.484c-.258.026-1 .14-1.897.379"/>
+    <path fill="url(#CRV__a)" d="M20.5 12.235c-1.08 2.79-5.696 3.605-10.311 1.819-4.35-1.684-8.362-8.56-2.938-10.84 1.926-.433 4.388-.22 6.85.733 4.615 1.786 7.48 5.497 6.4 8.288"/>
+    <path fill="url(#CRV__b)" d="M15.165 5.028c-1.062-.195-1.132 1.171-.987 1.935 2.83 1.117 3.778 2.78 3.848 2.886 1.293-1.1 2.609.129 2.726 1.068-.14-3.049-4.142-5.623-5.587-5.89"/>
+    <path fill="url(#CRV__c)" d="M4.518 17.195c-.742-2.284-.061-4.295.373-5.014-.39-1.803-1.119-5.422-1.142-5.4-1.28 4.507-.123 8.876.643 10.488z"/>
+    <path fill="url(#CRV__d)" d="M3.638 7.322c.107-.861.647-1.897.99-2.375l6.133-1.852c6.284 1.042 4.818 3.592.155 3.153-1.436-.135-.743 1.2-.659 2.434.389 2.62-.202 2.925-1.115 4.277-.321-.66-1.032-1.91-2.3-1.995-1.014-.067-2 1.217-2.214 1.69-.056-.05-.247-.906-.355-1.257-.562-1.173-.827-2.531-.635-4.075"/>
+    <path fill="url(#CRV__e)" d="M4.32 7.273c-.177-.764-.074-1.446 0-1.692.175-.67 1.055-2.093 3.165-2.425s4-.052 4.68.317c.648.434.368 1.755-.947 1.382-1.916-.553-2.212.178-2.054 1.185.426 2.228.177 3.72 0 4.187 0 0-.573 1.442-1.047.988-.81-.81-1.56-.652-2.39-.435-.663.174-.863-.296-.88-.553-.102-.666-.35-2.19-.528-2.954"/>
+    <path fill="url(#CRV__f)" d="M6.175 3.55c-1.505.718-.961 3.52-.492 4.906.511-.32 2.077-.193 2.557.319-.716-4.066.976-5.694 1.488-5.662 0 0-.84-.09-1.425-.04-.701.04-1.456.157-2.128.478"/>
+    <path fill="url(#CRV__g)" d="M18.095 9.79c-1.19 1.328-5.078 1.871-6.873 1.977.374 1.795.035 4.528-.182 5.67 2.314-.731 7.128-2.231 7.875-2.384.935-.19 2.079-1.659 1.888-3.795-.19-2.135-1.945-2.268-2.708-1.467"/>
+    <path fill="url(#CRV__h)" d="M10.315 8.218c-.282.119.643 2.428.942 3.583 4.644-.348 6.192-1.5 6.21-1.5-2.603-2.157-6.798-2.232-7.152-2.083"/>
+    <path fill="url(#CRV__i)" d="M18.035 9.868c-.692-2.603-7.15-4.015-7.812-3.557-.396.273-.234 1.329 0 1.924 3.201-.314 6.203 1.251 7.213 2.052.16-.037.54-.326.6-.419"/>
+    <path fill="url(#CRV__j)" d="M19.075 10.407c-1.348.257-1.235-.309-1.011-.623.715-.877 1.938-.365 2.46 0 .08.1-.1.367-1.449.623"/>
+    <path fill="url(#CRV__k)" d="M7.363 19.73c1.564-.123 2.678-2.18 2.488-4.596s-1.61-4.274-3.175-4.151c-1.564.122-2.678 2.18-2.488 4.595.19 2.416 1.611 4.274 3.175 4.151"/>
+    <path fill="url(#CRV__l)" d="M6.624 12.953c-.945.175-1.726-.122-1.998-.292.257-.52.93-1.649 2.202-1.736 1.15-.078 1.885.85 2.216 1.55-.481-.039-1.475.303-2.42.478"/>
+    <path fill="url(#CRV__m)" fill-opacity=".5" d="M6.624 12.953c-.945.175-1.726-.122-1.998-.292.257-.52.93-1.649 2.202-1.736 1.15-.078 1.885.85 2.216 1.55-.481-.039-1.475.303-2.42.478"/>
+    <path fill="url(#CRV__n)" d="M8.055 21c1.618.035 2.648-2.088 2.96-3.155l-1.532-.119c-.139.62-.846 1.814-2.174 1.966-1.411.162-2.462-1.612-2.789-2.505a.3.3 0 0 1-.131.075C4.82 18.602 6.03 20.955 8.055 21"/>
+    <path fill="url(#CRV__o)" d="M8.055 21c1.618.035 2.648-2.088 2.96-3.155l-1.532-.119c-.139.62-.846 1.814-2.174 1.966-1.411.162-2.462-1.612-2.789-2.505a.3.3 0 0 1-.131.075C4.82 18.602 6.03 20.955 8.055 21"/>
+    <path fill="url(#CRV__p)" d="M10.022 7.628c.728 2.349-.188 4.399-.794 5.191.95 2.212.262 4.393.262 5.013s1.323.455 1.53 0c.763-2.368.72-6.566-.998-10.204"/>
+    <path fill="url(#CRV__q)" d="m5.137 12.863-.487-.198c.135-.42.805-1.67 2.153-1.74-.427.123-1.48 1.115-1.666 1.938"/>
+    <path fill="#F4BA0C" d="M6.916 12.907c-1.01.269-1.916-.028-2.243-.21a3.8 3.8 0 0 0-.41 1.3c1.403.421 3.946-.473 5.042-.972l-.255-.545c-.29.03-1.124.158-2.134.427"/>
     <defs>
-        <linearGradient id="CRV__a" x1="8.986" x2="20.178" y1="4.464" y2="9.603" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__a" x1="8.61" x2="21.2" y1="3.522" y2="9.304" gradientUnits="userSpaceOnUse">
             <stop offset=".339" stop-color="#FF7301"/>
             <stop offset=".948" stop-color="#FFDD01"/>
         </linearGradient>
-        <linearGradient id="CRV__b" x1="5.04" x2="19.782" y1="4.001" y2="14.339" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__b" x1="4.17" x2="20.755" y1="3.001" y2="14.631" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF8101"/>
             <stop offset="1" stop-color="#FFE601"/>
         </linearGradient>
-        <linearGradient id="CRV__c" x1="-.872" x2="-1.435" y1="11.236" y2="21.013" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__c" x1="-2.481" x2="-3.115" y1="11.141" y2="22.14" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF9100"/>
             <stop offset=".314" stop-color="#D4FF23"/>
             <stop offset=".49" stop-color="#87FF70"/>
             <stop offset=".688" stop-color="#1CFFDB"/>
             <stop offset="1" stop-color="#00BEFF"/>
         </linearGradient>
-        <linearGradient id="CRV__d" x1="14.733" x2="19.004" y1="4.499" y2="6.025" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__d" x1="15.075" x2="19.88" y1="3.562" y2="5.278" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF4E00"/>
             <stop offset="1" stop-color="#FF7300"/>
         </linearGradient>
-        <linearGradient id="CRV__e" x1="15.012" x2="19.891" y1="7.136" y2="7.8" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__e" x1="15.388" x2="20.878" y1="6.527" y2="7.276" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FA0F00"/>
             <stop offset="1" stop-color="#FF6E01"/>
         </linearGradient>
-        <linearGradient id="CRV__f" x1="5.94" x2="10.079" y1="9.601" y2="23.178" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__f" x1="5.183" x2="9.839" y1="9.301" y2="24.575" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A80000"/>
             <stop offset="1" stop-color="#FA0F01"/>
         </linearGradient>
-        <linearGradient id="CRV__g" x1="10.677" x2="13.534" y1="7.606" y2="16.59" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__g" x1="10.512" x2="13.726" y1="7.057" y2="17.164" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FFE600"/>
             <stop offset=".469" stop-color="#7AFF7D"/>
             <stop offset=".891" stop-color="#1CFFDB"/>
             <stop offset="1" stop-color="#00DCFE"/>
         </linearGradient>
-        <linearGradient id="CRV__h" x1="12.361" x2="8.55" y1="8.955" y2="17.737" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__h" x1="12.406" x2="8.119" y1="8.574" y2="18.454" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F1FC06"/>
             <stop offset=".469" stop-color="#7AFF7D"/>
             <stop offset="1" stop-color="#1CFFDB"/>
         </linearGradient>
-        <linearGradient id="CRV__i" x1="7.139" x2="20.435" y1="8.062" y2="15.726" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__i" x1="6.532" x2="21.489" y1="7.57" y2="16.192" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FFC100"/>
             <stop offset="1" stop-color="#F1FC06"/>
         </linearGradient>
-        <linearGradient id="CRV__j" x1="12.002" x2="12.002" y1="3.999" y2="20.002" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__j" x1="12.002" x2="12.002" y1="2.999" y2="21.002" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FFD701"/>
             <stop offset="1" stop-color="#FFE601"/>
         </linearGradient>
-        <linearGradient id="CRV__k" x1="9.138" x2="10.398" y1="5.122" y2="20.134" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__k" x1="8.781" x2="10.198" y1="4.262" y2="21.15" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FFA300"/>
             <stop offset=".214" stop-color="#DEFF19"/>
             <stop offset=".464" stop-color="#A4FF53"/>
@@ -72,30 +72,30 @@
             <stop offset=".865" stop-color="#00A0FF"/>
             <stop offset=".974" stop-color="#0064FF"/>
         </linearGradient>
-        <linearGradient id="CRV__l" x1="5.88" x2="28.237" y1="11.332" y2="12.037" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__l" x1="5.115" x2="30.267" y1="11.248" y2="12.041" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF8A01"/>
             <stop offset="1" stop-color="#FFDB00"/>
         </linearGradient>
-        <linearGradient id="CRV__m" x1="16.511" x2="15.278" y1="27.63" y2="2.553" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__m" x1="17.075" x2="15.688" y1="29.584" y2="1.372" gradientUnits="userSpaceOnUse">
             <stop stop-color="#DFFD18"/>
             <stop offset="1" stop-color="#FDAD12"/>
         </linearGradient>
-        <linearGradient id="CRV__n" x1="17.402" x2="9.314" y1="9.891" y2="14.322" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__n" x1="18.077" x2="8.979" y1="9.628" y2="14.612" gradientUnits="userSpaceOnUse">
             <stop stop-color="#14F3E6"/>
             <stop offset="1" stop-color="#0040FF"/>
         </linearGradient>
-        <linearGradient id="CRV__o" x1="5.318" x2="12.209" y1="5.701" y2="8.193" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__o" x1="4.482" x2="12.235" y1="4.914" y2="7.717" gradientUnits="userSpaceOnUse">
             <stop stop-color="#09D3F3"/>
             <stop offset="1" stop-color="#0001FC" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="CRV__p" x1="7.933" x2="8.515" y1="11.37" y2="22.409" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__p" x1="7.425" x2="8.079" y1="11.291" y2="23.711" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF9100"/>
             <stop offset=".314" stop-color="#D4FF23"/>
             <stop offset=".49" stop-color="#87FF70"/>
             <stop offset=".688" stop-color="#1CFFDB"/>
             <stop offset="1" stop-color="#00D8FF"/>
         </linearGradient>
-        <linearGradient id="CRV__q" x1="4.805" x2="11.146" y1="9.695" y2="19.308" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CRV__q" x1="3.906" x2="11.039" y1="9.407" y2="20.221" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF4E01"/>
             <stop offset="1" stop-color="#F4BB0C"/>
         </linearGradient>

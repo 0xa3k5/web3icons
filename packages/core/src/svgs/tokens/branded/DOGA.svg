@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#DOGA__a)" fill-rule="evenodd" d="M10.345 7.31H4V20h6.345a6.344 6.344 0 1 0 0-12.69m0 1.656h-4.69v9.379h4.69a4.69 4.69 0 0 0 0-9.38" clip-rule="evenodd"/>
-    <path fill="url(#DOGA__b)" d="m16.402 15.547-2.074.59a5 5 0 0 1-.304.425l1.087 1.274a6.3 6.3 0 0 0 1.29-2.29"/>
-    <path fill="url(#DOGA__c)" fill-rule="evenodd" d="M13.655 4H7.311v12.689h6.344a6.344 6.344 0 1 0 0-12.689m0 1.655h-4.69v9.379h4.69a4.69 4.69 0 0 0 0-9.379" clip-rule="evenodd"/>
-    <path fill="url(#DOGA__d)" d="M8.966 10.62 7.31 8.967h1.655z"/>
+    <path fill="url(#DOGA__a)" fill-rule="evenodd" d="M10.138 6.725H3V21h7.138a7.136 7.136 0 0 0 5.047-12.185 7.14 7.14 0 0 0-5.047-2.09m0 1.862H4.862v10.551h5.276a5.276 5.276 0 0 0 0-10.551" clip-rule="evenodd"/>
+    <path fill="url(#DOGA__b)" d="m16.952 15.99-2.333.664a6 6 0 0 1-.342.478l1.223 1.434a7.05 7.05 0 0 0 1.452-2.576"/>
+    <path fill="url(#DOGA__c)" fill-rule="evenodd" d="M13.862 3H6.724v14.275h7.138a7.137 7.137 0 1 0 0-14.275m0 1.862H8.587v10.551h5.275a5.276 5.276 0 0 0 0-10.551" clip-rule="evenodd"/>
+    <path fill="url(#DOGA__d)" d="M8.587 10.448 6.724 8.586h1.863z"/>
     <defs>
-        <linearGradient id="DOGA__a" x1="6.429" x2="17.285" y1="6.858" y2="17" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DOGA__a" x1="5.732" x2="17.946" y1="6.215" y2="17.625" gradientUnits="userSpaceOnUse">
             <stop stop-color="#422C81"/>
             <stop offset="1" stop-color="#7B368A"/>
         </linearGradient>
-        <linearGradient id="DOGA__b" x1="6.428" x2="17.285" y1="6.857" y2="16.999" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DOGA__b" x1="5.732" x2="17.945" y1="6.214" y2="17.624" gradientUnits="userSpaceOnUse">
             <stop stop-color="#422C81"/>
             <stop offset="1" stop-color="#7B368A"/>
         </linearGradient>
-        <linearGradient id="DOGA__c" x1="6.429" x2="17.286" y1="6.857" y2="16.999" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DOGA__c" x1="5.733" x2="17.946" y1="6.214" y2="17.624" gradientUnits="userSpaceOnUse">
             <stop stop-color="#422C81"/>
             <stop offset="1" stop-color="#7B368A"/>
         </linearGradient>
-        <linearGradient id="DOGA__d" x1="6.429" x2="17.286" y1="6.857" y2="17" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DOGA__d" x1="5.733" x2="17.946" y1="6.214" y2="17.625" gradientUnits="userSpaceOnUse">
             <stop stop-color="#422C81"/>
             <stop offset="1" stop-color="#7B368A"/>
         </linearGradient>

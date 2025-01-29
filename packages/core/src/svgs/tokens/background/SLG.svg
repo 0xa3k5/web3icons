@@ -2,8 +2,8 @@
     <g clip-path="url(#SLG__a)">
         <path fill="#000" d="M24 0H0v24h24z"/>
         <path fill="url(#SLG__b)" d="m4.47 16.645 2.354-4.376 5.223 2.296 5.13-2.296 2.352 4.376L12.047 20z"/>
-        <path fill="url(#SLG__c)" fill-rule="evenodd" d="M11.99 14.875a854 854 0 0 0-5.166-2.607l5.167-2.57 5.185 2.57zm0-.815c-1.162-.588-3.5-1.774-3.543-1.788l3.544-1.76 3.562 1.765-3.562 1.788zm-1.637-1.355 1.647.706 1.647-.71L12 11.999l-1.647.701z" clip-rule="evenodd"/>
-        <path fill="url(#SLG__d)" d="M11.999 11.53 8.234 9.872 12 4z"/>
+        <path fill="url(#SLG__c)" fill-rule="evenodd" d="M11.99 14.875a853 853 0 0 0-5.166-2.607l5.167-2.57 5.186 2.57zm0-.815c-1.162-.588-3.5-1.774-3.543-1.788l3.544-1.76 3.562 1.765-3.562 1.788zm-1.637-1.355 1.647.706 1.647-.71L12 11.999l-1.647.701z" clip-rule="evenodd"/>
+        <path fill="url(#SLG__d)" d="M12 11.53 8.233 9.872 12 4z"/>
         <path fill="url(#SLG__e)" d="m12 11.53 3.764-1.657L12 4z"/>
     </g>
     <defs>
@@ -11,7 +11,7 @@
             <stop offset=".59" stop-color="#A9CFD8"/>
             <stop offset="1" stop-color="#CFE6EE"/>
         </linearGradient>
-        <linearGradient id="SLG__c" x1="12" x2="12" y1="9.698" y2="14.874" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SLG__c" x1="12" x2="12" y1="9.698" y2="14.875" gradientUnits="userSpaceOnUse">
             <stop offset=".57" stop-color="#D7FDFF"/>
             <stop offset="1" stop-color="#DAFBFF"/>
         </linearGradient>

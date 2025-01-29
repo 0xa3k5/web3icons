@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#POP__a)" d="M6.8 13.6H18V8.8h2v6.4H6.8zM6 15.2H4V8.8h13.2v1.6H6zm11.2-2.4v-1.6H6.8v1.6z"/>
+    <path fill="url(#POP__a)" d="M6.15 13.8h12.6V8.4H21v7.2H6.15zm-.9 1.8H3V8.4h14.85v1.8H5.25zm12.6-2.7v-1.8H6.15v1.8z"/>
     <defs>
-        <linearGradient id="POP__a" x1="12.4" x2="10" y1="8" y2="15.2" gradientUnits="userSpaceOnUse">
+        <linearGradient id="POP__a" x1="12.45" x2="9.75" y1="7.5" y2="15.6" gradientUnits="userSpaceOnUse">
             <stop stop-color="#00BAC9"/>
             <stop offset=".12" stop-color="#2060B2"/>
             <stop offset=".18" stop-color="#7046B2"/>

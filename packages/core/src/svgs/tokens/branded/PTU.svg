@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
-    <path fill="url(#PTU__a)" d="M14.872 4h-4.744a4.304 4.304 0 0 0-4.249 4.359V20h2.759V8.359c0-.993.513-1.6 1.49-1.6h4.744c.977 0 1.49.601 1.49 1.6V20h2.759V8.359A4.304 4.304 0 0 0 14.872 4"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#PTU__a)" d="M14.669 3H9.33a4.84 4.84 0 0 0-4.78 4.903V21h3.104V7.903c0-1.117.577-1.8 1.676-1.8h5.338c1.098 0 1.676.677 1.676 1.8V21h3.103V7.903A4.84 4.84 0 0 0 14.668 3"/>
     <defs>
-        <linearGradient id="PTU__a" x1="7.507" x2="20.533" y1="9.749" y2="17.043" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PTU__a" x1="6.383" x2="21.037" y1="9.468" y2="17.673" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0A68F4"/>
             <stop offset="1" stop-color="#3DFFB9"/>
         </linearGradient>

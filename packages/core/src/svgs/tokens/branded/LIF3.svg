@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
-    <path fill="url(#LIF3__a)" d="M11.08 5.465A1.515 1.515 0 0 1 12.5 4.5c.63 0 1.2.385 1.42.965L18.7 17.5h1.8v2H17l-4.5-12-4.5 12H4.5v-2h1.8z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#LIF3__a)" d="M10.403 4.648A1.705 1.705 0 0 1 12 3.563c.709 0 1.35.433 1.598 1.085l5.377 13.54H21v2.25h-3.937L12 6.938l-5.063 13.5H3v-2.25h2.025z"/>
     <defs>
-        <linearGradient id="LIF3__a" x1="7.5" x2="16.843" y1="5.839" y2="18.612" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LIF3__a" x1="6.375" x2="16.886" y1="5.069" y2="19.439" gradientUnits="userSpaceOnUse">
             <stop stop-color="#749FC1"/>
             <stop offset=".49" stop-color="#294874"/>
         </linearGradient>

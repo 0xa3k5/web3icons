@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#mantra__a)" fill-rule="evenodd" d="m12 4 1.778 1.707L12 7.395l-1.778-1.688zm-1.476 6.489a2.15 2.15 0 0 0 2.952 0l4.746-4.711L20 7.11V20h-1.778V8.818l-2.969 2.79c-.889.854-2.08 1.28-3.253 1.28s-2.364-.426-3.253-1.28L5.777 8.8V20H4V7.11l1.778-1.332z" clip-rule="evenodd"/>
+    <path fill="url(#mantra__a)" fill-rule="evenodd" d="m12 3 2 1.92-2 1.9-2-1.9zm-1.66 7.3c.92.88 2.4.88 3.32 0L19 5l2 1.5V21h-2V8.42l-3.34 3.14c-1 .96-2.34 1.44-3.66 1.44s-2.66-.48-3.66-1.44L5 8.4V21H3V6.5L5 5z" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="mantra__a" x1="4" x2="89.333" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+        <linearGradient id="mantra__a" x1="3" x2="99" y1="12" y2="12" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FFB298"/>
             <stop offset="1" stop-color="#FE95CE"/>
         </linearGradient>

@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#VXV__a)" fill-rule="evenodd" d="M18.722 8.23 12 4.447 5.278 8.23v7.542L12 19.551l6.721-3.78zm-6.503-4.172a.45.45 0 0 0-.439 0l-6.722 3.78a.45.45 0 0 0-.228.391v7.542c0 .162.087.311.228.39l6.722 3.781a.45.45 0 0 0 .44 0l6.721-3.78a.45.45 0 0 0 .229-.391V8.229a.45.45 0 0 0-.229-.39z" clip-rule="evenodd"/>
-    <path fill="url(#VXV__b)" fill-rule="evenodd" d="m12.278 17.226 4.817-8.238c.196-.336-.182-.713-.522-.52l-4.56 2.588-4.547-2.587c-.34-.194-.719.184-.523.52l4.805 8.237a.308.308 0 0 0 .53 0m-.02-1.437 3.042-5.37c.076-.135-.075-.284-.21-.207l-3.092 1.763.007.015-1.853 1.056 1.572 2.744a.308.308 0 0 0 .534-.001M9.753 12.35l1.456-.826-2.393-1.382c-.135-.078-.288.072-.21.207z" clip-rule="evenodd"/>
-    <path fill="url(#VXV__c)" d="m11.76 12.129-.792-.464 1.214-.705.765.47z"/>
-    <path fill="url(#VXV__d)" d="m10.73 11.249 3.176 1.83.535-.581-3.14-1.845z"/>
+    <path fill="url(#VXV__a)" fill-rule="evenodd" d="M19.562 7.758 12 3.504 4.438 7.758v8.484L12 20.496l7.562-4.254zm-7.315-4.693a.5.5 0 0 0-.494 0L4.19 7.318a.5.5 0 0 0-.257.44v8.484c0 .182.098.35.257.44l7.562 4.253a.5.5 0 0 0 .494 0l7.562-4.253a.5.5 0 0 0 .257-.44V7.758a.5.5 0 0 0-.257-.44z" clip-rule="evenodd"/>
+    <path fill="url(#VXV__b)" fill-rule="evenodd" d="m12.313 17.879 5.419-9.268c.221-.378-.204-.802-.587-.585l-5.13 2.912-5.116-2.91c-.382-.218-.808.206-.588.584l5.405 9.267a.346.346 0 0 0 .597 0m-.023-1.617 3.422-6.042c.086-.151-.084-.318-.236-.232l-3.478 1.983.007.018-2.084 1.188 1.77 3.086c.132.232.468.23.6-.001m-2.818-3.867 1.638-.93-2.692-1.554c-.152-.088-.323.08-.236.232z" clip-rule="evenodd"/>
+    <path fill="url(#VXV__c)" d="m11.73 12.145-.891-.522 1.366-.793.86.53z"/>
+    <path fill="url(#VXV__d)" d="m10.57 11.155 3.575 2.06.601-.654-3.531-2.076z"/>
     <defs>
-        <linearGradient id="VXV__a" x1="8.751" x2="15.669" y1="5.82" y2="17.968" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VXV__a" x1="8.345" x2="16.128" y1="5.048" y2="18.714" gradientUnits="userSpaceOnUse">
             <stop stop-color="#DCDCDC"/>
             <stop offset="1" stop-color="#585858"/>
         </linearGradient>
-        <linearGradient id="VXV__b" x1="5.539" x2="19.524" y1="12.716" y2="9.755" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VXV__b" x1="4.731" x2="20.464" y1="12.805" y2="9.474" gradientUnits="userSpaceOnUse">
             <stop stop-color="#51898A"/>
             <stop offset="1" stop-color="#7DB9C9"/>
         </linearGradient>
-        <linearGradient id="VXV__c" x1="17.334" x2="2.614" y1="3.792" y2="11.945" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VXV__c" x1="18.001" x2="1.441" y1="2.766" y2="11.938" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6AA4AE"/>
             <stop offset=".334" stop-color="#538289"/>
             <stop offset=".597" stop-color="#538289"/>
             <stop offset="1" stop-color="#629CA3"/>
         </linearGradient>
-        <linearGradient id="VXV__d" x1="11.03" x2="14.067" y1="10.924" y2="12.683" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VXV__d" x1="10.908" x2="14.325" y1="10.79" y2="12.769" gradientUnits="userSpaceOnUse">
             <stop stop-color="#639CA3"/>
             <stop offset="1" stop-color="#6EA9B4"/>
         </linearGradient>

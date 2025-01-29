@@ -1,19 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <g opacity=".8">
-        <path fill="url(#ZIL__a)" d="m6.353 5.026 8.936 4.315 2.354-1.035L8.69 4z"/>
-        <path fill="url(#ZIL__b)" d="M6.353 5.025v2.33l6.221 2.998-6.221 3.045v2.296L15.294 20v-2.306l-6.057-2.941 6.057-3.106V9.34L6.353 5.035z"/>
-        <path fill="url(#ZIL__c)" d="m15.294 9.328 2.353-1.021v2.306l-2.353 1.026zm0 10.655 2.353-1.026V11.78l-2.353 1.035z"/>
-    </g>
+    <path fill="url(#ZIL__a)" d="M5.647 4.154 15.7 9.01l2.647-1.165L8.278 3z"/>
+    <path fill="url(#ZIL__b)" d="M5.647 4.153v2.621l6.999 3.372-7 3.426v2.584L15.707 21v-2.594l-6.814-3.31 6.814-3.494V9.008L5.646 4.164z"/>
+    <path fill="url(#ZIL__c)" d="m15.706 8.994 2.647-1.15v2.595l-2.647 1.154zm0 11.986 2.647-1.154v-8.074l-2.647 1.165z"/>
     <defs>
-        <linearGradient id="ZIL__a" x1="15.769" x2="4.13" y1="19.507" y2="15.154" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ZIL__a" x1="16.24" x2="3.146" y1="20.445" y2="15.548" gradientUnits="userSpaceOnUse">
             <stop stop-color="#60AAAC"/>
             <stop offset="1" stop-color="#347181"/>
         </linearGradient>
-        <linearGradient id="ZIL__b" x1="12" x2="12" y1="3.999" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ZIL__b" x1="12" x2="12" y1="2.999" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5AC1C1"/>
             <stop offset="1" stop-color="#216B79"/>
         </linearGradient>
-        <linearGradient id="ZIL__c" x1="13.882" x2="19.059" y1="17.884" y2="13.648" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ZIL__c" x1="14.117" x2="19.941" y1="18.619" y2="13.854" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5AC1C1"/>
             <stop offset="1" stop-color="#216B79"/>
         </linearGradient>

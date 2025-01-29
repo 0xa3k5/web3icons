@@ -1,13 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <mask id="SENSE__a" width="10" height="16" x="7" y="4" maskUnits="userSpaceOnUse" style="mask-type:luminance">
-        <path fill="#fff" d="M16.631 4H7.368v16h9.263z"/>
-    </mask>
-    <g mask="url(#SENSE__a)">
-        <path fill="#A367FF" d="M11.32 14.667 10.105 20l3.158-2.666z"/>
-        <path fill="#8766F0" d="m13.263 17.332 3.369-2.889-5.312.223z"/>
-        <path fill="#53539A" d="m16.632 14.444-3.79-5.111-1.522 5.333z"/>
-        <path fill="#6487E7" d="m7.368 9.777 3.952 4.89 1.522-5.334z"/>
-        <path fill="#45C8FE" d="M12.842 9.333 14.105 4l-3.369 2.889z"/>
-        <path fill="#5DA9FF" d="m7.368 9.778 5.474-.445-2.105-2.444z"/>
-    </g>
+    <path fill="#fff" d="M17.21 3H6.79v18h10.42z"/>
+    <path fill="#A367FF" d="M11.235 15 9.87 21l3.552-3z"/>
+    <path fill="#8766F0" d="m13.421 17.998 3.79-3.25-5.976.25z"/>
+    <path fill="#53539A" d="m17.21 14.749-4.262-5.75-1.713 6z"/>
+    <path fill="#6487E7" d="m6.79 9.499 4.445 5.5 1.712-6z"/>
+    <path fill="#45C8FE" d="m12.947 9 1.42-6-3.789 3.25z"/>
+    <path fill="#5DA9FF" d="m6.79 9.5 6.157-.5-2.368-2.75z"/>
 </svg>

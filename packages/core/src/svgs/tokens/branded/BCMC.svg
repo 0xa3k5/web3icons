@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#BCMC__a)" fill-rule="evenodd" d="M12 19.059a7.06 7.06 0 1 0 0-14.12 7.06 7.06 0 0 0 0 14.12M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
-    <path fill="url(#BCMC__b)" d="M12 7.294H9.177V12l.94-.471V8.235H12a1.412 1.412 0 0 1 .626 2.678c-2.588 1.284-5.238 2.494-7.845 3.755l.414.847 7.12-3.464s1.106-.47 1.422-.818A2.345 2.345 0 0 0 12 7.293m7.633 2.748-.414-.847-4.913 2.56a1.883 1.883 0 0 1-.894 3.539h-3.294v-1.567l-.941.48v2.028h4.235a2.823 2.823 0 0 0 2.39-4.33z"/>
+    <path fill="url(#BCMC__a)" fill-rule="evenodd" d="M12 19.941a7.942 7.942 0 1 0 0-15.883 7.942 7.942 0 0 0 0 15.883M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18" clip-rule="evenodd"/>
+    <path fill="url(#BCMC__b)" d="M12 6.705H8.824V12l1.058-.529V7.764H12a1.589 1.589 0 0 1 .704 3.013C9.792 12.222 6.812 13.583 3.88 15l.466.953 8.01-3.896s1.244-.53 1.599-.921A2.636 2.636 0 0 0 12 6.705m8.587 3.092-.466-.953-5.527 2.88a2.119 2.119 0 0 1-1.006 3.982H9.882v-1.763l-1.058.54v2.281h4.764a3.175 3.175 0 0 0 2.69-4.87z"/>
     <defs>
-        <linearGradient id="BCMC__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BCMC__a" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FCAB2F"/>
             <stop offset="1" stop-color="#E45E0E"/>
         </linearGradient>
-        <linearGradient id="BCMC__b" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BCMC__b" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FCAB2F"/>
             <stop offset="1" stop-color="#E45E0E"/>
         </linearGradient>

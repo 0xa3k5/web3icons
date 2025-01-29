@@ -1,37 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#NVT__a)" fill-rule="evenodd" d="m11.308 6.946-.216.58 3.104 5.492.216-.58zm-1.725 4.63 3.112 5.477.206-.553-3.106-5.495zm3.856 3.471-3.103-5.492.216-.58 3.103 5.493z" clip-rule="evenodd"/>
-    <path fill="url(#NVT__b)" d="M15.69 17.052h-2.997l3.573-9.587a.8.8 0 0 1 .289-.376.8.8 0 0 1 .447-.143H20l-3.574 9.586a.8.8 0 0 1-.288.377.8.8 0 0 1-.448.143"/>
-    <path fill="url(#NVT__c)" d="M6.997 17.052H4l3.573-9.587a.8.8 0 0 1 .289-.376.8.8 0 0 1 .446-.143h3l-3.575 9.586a.8.8 0 0 1-.289.377.8.8 0 0 1-.447.143"/>
-    <path fill="url(#NVT__d)" fill-rule="evenodd" d="M11.307 6.946h.004l.432.767-.219.574-.432-.766zm-.328 2.773-.428-.756-.216.58.425.751zm-.768 2.021-.416-.735-.212.57.413.729z" clip-rule="evenodd"/>
-    <path fill="url(#NVT__e)" d="m13.987 11.686.427.756-.221.58-.421-.763z"/>
-    <path fill="url(#NVT__f)" d="m13.657 14.467-.437-.767-.216.576.438.774z"/>
-    <path fill="url(#NVT__g)" d="m12.9 16.494-.436-.767-.206.562.435.762z"/>
+    <path fill="url(#NVT__a)" fill-rule="evenodd" d="m11.221 6.315-.243.651 3.492 6.18.243-.653zm-1.94 5.208 3.501 6.162.232-.622L9.52 10.88zm4.338 3.905L10.128 9.25l.243-.651 3.49 6.178z" clip-rule="evenodd"/>
+    <path fill="url(#NVT__b)" d="M16.151 17.683H12.78l4.019-10.785a.9.9 0 0 1 .325-.423.87.87 0 0 1 .502-.16H21l-4.02 10.784a.9.9 0 0 1-.326.424.9.9 0 0 1-.503.16"/>
+    <path fill="url(#NVT__c)" d="M6.372 17.683H3L7.02 6.898a.9.9 0 0 1 .324-.423.87.87 0 0 1 .503-.16h3.373L7.2 17.099a.9.9 0 0 1-.325.424.9.9 0 0 1-.503.16"/>
+    <path fill="url(#NVT__d)" fill-rule="evenodd" d="M11.22 6.315h.004l.487.862-.246.646-.487-.861zm-.369 3.12-.48-.851-.244.652.478.845zm-.864 2.273-.467-.828-.24.643.466.82z" clip-rule="evenodd"/>
+    <path fill="url(#NVT__e)" d="m14.235 11.647.48.85-.249.652-.473-.857z"/>
+    <path fill="url(#NVT__f)" d="m13.865 14.776-.492-.864-.244.648.493.872z"/>
+    <path fill="url(#NVT__g)" d="m13.012 17.056-.49-.863-.232.632.49.857z"/>
     <defs>
-        <linearGradient id="NVT__a" x1="6.287" x2="9.268" y1="12.606" y2="18.721" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NVT__a" x1="5.572" x2="8.926" y1="12.682" y2="19.561" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4E90E2"/>
             <stop offset=".857" stop-color="#17E9D9"/>
         </linearGradient>
-        <linearGradient id="NVT__b" x1="18.024" x2="7.509" y1="10.429" y2="7.685" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NVT__b" x1="18.776" x2="6.947" y1="10.233" y2="7.146" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5D7CE9"/>
             <stop offset="1" stop-color="#17EAD9"/>
         </linearGradient>
-        <linearGradient id="NVT__c" x1="18.023" x2="7.508" y1="10.429" y2="7.685" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NVT__c" x1="18.776" x2="6.947" y1="10.233" y2="7.146" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5D7CE9"/>
             <stop offset="1" stop-color="#17EAD9"/>
         </linearGradient>
-        <linearGradient id="NVT__d" x1="3.332" x2="7.759" y1="12" y2="18.852" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NVT__d" x1="2.249" x2="7.229" y1="12" y2="19.708" gradientUnits="userSpaceOnUse">
             <stop offset=".39" stop-color="#2E4177"/>
             <stop offset="1" stop-color="#2E4177" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="NVT__e" x1="3.476" x2="-13.14" y1="30.752" y2="15.541" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NVT__e" x1="2.411" x2="-16.282" y1="33.096" y2="15.984" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3B8382"/>
             <stop offset="1" stop-color="#439A99" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="NVT__f" x1="22.257" x2="5.835" y1="15.416" y2=".457" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NVT__f" x1="23.539" x2="5.065" y1="15.843" y2="-.985" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3B8382"/>
             <stop offset="1" stop-color="#439A99" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="NVT__g" x1="13.75" x2="12.611" y1="14.83" y2="14.513" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NVT__g" x1="13.968" x2="12.687" y1="15.184" y2="14.827" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3B8382"/>
             <stop offset="1" stop-color="#439A99" stop-opacity="0"/>
         </linearGradient>

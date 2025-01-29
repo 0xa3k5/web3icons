@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
     <g clip-path="url(#PROS__a)">
         <path fill="#fff" d="M24 0H0v24h24z"/>
-        <path fill="#333" d="M11.882 11.882 24 0v24H0z"/>
         <path fill="#5901F6" d="M24 0 0 24V0z"/>
-        <path fill="url(#PROS__b)" fill-rule="evenodd" d="m7.814 16.221-.054-.054C4.026 12.432 2.88 7.522 5.2 5.201c2.322-2.322 7.23-1.176 10.965 2.56l.033.033-1.35 1.356-.036-.036C11.84 6.14 8.155 5.008 6.582 6.582s-.441 5.26 2.53 8.232l.052.051z" clip-rule="evenodd"/>
-        <path fill="url(#PROS__c)" fill-rule="evenodd" d="m16.186 7.779.054.054c3.734 3.735 4.88 8.645 2.56 10.966-2.322 2.321-7.23 1.175-10.965-2.56l-.033-.033 1.35-1.357.036.037c2.972 2.973 6.657 4.106 8.23 2.532s.441-5.26-2.53-8.232l-.052-.051z" clip-rule="evenodd"/>
+        <path fill="#333" d="M11.921 11.921 20 4v16H4z"/>
+        <path fill="url(#PROS__b)" fill-rule="evenodd" d="m9.21 14.814-.037-.036c-2.49-2.49-3.253-5.764-1.706-7.31 1.547-1.549 4.82-.785 7.31 1.705l.021.023-.9.904-.024-.024c-1.98-1.982-4.437-2.738-5.486-1.688-1.05 1.05-.294 3.507 1.687 5.488l.034.034z" clip-rule="evenodd"/>
+        <path fill="url(#PROS__c)" fill-rule="evenodd" d="m14.79 9.186.036.036c2.49 2.49 3.254 5.763 1.707 7.31-1.548 1.548-4.82.784-7.31-1.706l-.022-.022.9-.905.024.025c1.981 1.982 4.438 2.737 5.487 1.688s.294-3.507-1.687-5.488l-.035-.034z" clip-rule="evenodd"/>
     </g>
     <defs>
-        <linearGradient id="PROS__b" x1="18.494" x2="9.512" y1="9.059" y2="17.991" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PROS__b" x1="16.329" x2="10.341" y1="10.039" y2="15.994" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FBFCFA"/>
             <stop offset=".817" stop-color="#9359FD" stop-opacity=".07"/>
         </linearGradient>
-        <linearGradient id="PROS__c" x1="8.64" x2="15.587" y1="16.122" y2="10.364" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PROS__c" x1="9.759" x2="14.391" y1="14.748" y2="10.909" gradientUnits="userSpaceOnUse">
             <stop stop-color="#01FDFE"/>
             <stop offset="1" stop-color="#01FDFE" stop-opacity=".06"/>
         </linearGradient>
