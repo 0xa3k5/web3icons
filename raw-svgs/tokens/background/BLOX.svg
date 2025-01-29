@@ -1,9 +1,9 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_328_27045)">
 <path d="M24 0H0V24H24V0Z" fill="url(#paint0_linear_328_27045)"/>
-<path d="M11.4995 11.4654L4 8.26562V16.2652L11.4995 20V11.4654Z" fill="white"/>
-<path d="M11.9998 4L4.53516 7.19984L11.9998 10.3996L19.4644 7.19984L11.9998 4Z" fill="white"/>
-<path d="M19.9996 8L12.5 11.4648V19.9993L19.9996 16.2645V8Z" fill="white"/>
+<path d="M11.437 11.3986L3 7.79883V16.7984L11.437 21V11.3986Z" fill="white"/>
+<path d="M11.9997 3L3.60205 6.59981L11.9997 10.1995L20.3974 6.59981L11.9997 3Z" fill="white"/>
+<path d="M20.9995 7.5L12.5625 11.3979V20.9992L20.9995 16.7976V7.5Z" fill="white"/>
 </g>
 <defs>
 <linearGradient id="paint0_linear_328_27045" x1="21.0661" y1="-1.81403" x2="21.0661" y2="20" gradientUnits="userSpaceOnUse">

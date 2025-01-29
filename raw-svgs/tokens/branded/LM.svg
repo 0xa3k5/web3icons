@@ -1,16 +1,16 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M5.26318 8.21094L7.78953 9.47411V14.1057L5.26318 15.3689V8.21094Z" fill="url(#paint0_linear_328_53697)"/>
-<path d="M18.7369 8.63184L16.2104 9.89501V14.5266L18.7369 15.7897V8.63184Z" fill="url(#paint1_linear_328_53697)"/>
-<path d="M7.78953 9.47375L5.26318 8.21058L12.0001 4L18.316 7.78953L15.7896 9.05269L12.0001 6.9474L7.78953 9.47375Z" fill="#004F9F"/>
-<path d="M16.2105 14.5264L18.7369 15.7895L12 20.0001L5.68408 16.2106L8.21043 14.9475L12 17.0527L16.2105 14.5264Z" fill="#009945"/>
-<path d="M14.9475 9.89453H9.05273L12.0001 11.7893L14.9475 9.89453Z" fill="#0174BC"/>
-<path d="M12 15.3683V11.7893L14.9474 9.89453L12 15.3683Z" fill="#024531"/>
+<path d="M4.42114 7.7373L7.26326 9.15836V14.3689L4.42114 15.79V7.7373Z" fill="url(#paint0_linear_328_53697)"/>
+<path d="M19.5788 8.21094L16.7366 9.632V14.8425L19.5788 16.2635V8.21094Z" fill="url(#paint1_linear_328_53697)"/>
+<path d="M7.26326 9.15794L4.42114 7.73688L12.0001 3L19.1054 7.2632L16.2633 8.68425L12.0001 6.31581L7.26326 9.15794Z" fill="#004F9F"/>
+<path d="M16.7367 14.8418L19.5789 16.2628L11.9999 20.9997L4.89453 16.7366L7.73666 15.3156L11.9999 17.6839L16.7367 14.8418Z" fill="#009945"/>
+<path d="M15.3159 9.63086H8.68433L12.0001 11.7625L15.3159 9.63086Z" fill="#0174BC"/>
+<path d="M12 15.7888V11.7625L15.3158 9.63086L12 15.7888Z" fill="#024531"/>
 <defs>
-<linearGradient id="paint0_linear_328_53697" x1="12.0001" y1="4.00035" x2="12.0001" y2="20.0005" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_328_53697" x1="12.0001" y1="3.00043" x2="12.0001" y2="21.0005" gradientUnits="userSpaceOnUse">
 <stop stop-color="#1E5EA8"/>
 <stop offset="1" stop-color="#163F71"/>
 </linearGradient>
-<linearGradient id="paint1_linear_328_53697" x1="11.9999" y1="4.00019" x2="11.9999" y2="20.0003" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_328_53697" x1="11.9998" y1="3.00037" x2="11.9998" y2="21.0004" gradientUnits="userSpaceOnUse">
 <stop stop-color="#03783C"/>
 <stop offset="1" stop-color="#015429"/>
 </linearGradient>
