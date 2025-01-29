@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#TOPIA__a)" d="M4.533 4H10.4v5.333h3.2V4h5.867v16H13.6v-5.333h-3.2V20H4.533z"/>
+    <path fill="url(#TOPIA__a)" d="M3.6 3h6.6v6h3.6V3h6.6v18h-6.6v-6h-3.6v6H3.6z"/>
     <defs>
-        <linearGradient id="TOPIA__a" x1="6.731" x2="17.352" y1="5.694" y2="17.59" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TOPIA__a" x1="6.072" x2="18.021" y1="4.906" y2="18.289" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FFA708"/>
             <stop offset=".25" stop-color="#D9FE35"/>
             <stop offset=".51" stop-color="#9CFDDE"/>

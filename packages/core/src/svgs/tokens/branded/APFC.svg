@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#APFC__a)" fill-rule="evenodd" d="m8.108 4.216 4.108 2.266v4.549l-4.108 2.266L4 11.031v-4.55zm-3.676 6.56 3.46 1.911V8.67l-3.46-1.717zm3.892-2.102v4.013l3.46-1.911V6.957zM11.537 6.6 8.108 8.302 4.678 6.6l3.43-1.89z" clip-rule="evenodd"/>
-    <path fill="url(#APFC__b)" fill-rule="evenodd" d="M15.892 4.216 20 6.482v4.549l-4.108 2.266-4.108-2.266v-4.55zm-3.676 6.56 3.46 1.911V8.67l-3.46-1.717zm3.892-2.102v4.013l3.46-1.911V6.957zM19.321 6.6l-3.43 1.703L12.464 6.6l3.429-1.89z" clip-rule="evenodd"/>
-    <path fill="url(#APFC__c)" fill-rule="evenodd" d="m12 10.703 4.108 2.266v4.55L12 19.783l-4.108-2.266V12.97zm-3.675 6.56 3.459 1.911v-4.017l-3.46-1.716zm3.891-2.101v4.012l3.46-1.91v-3.82zm3.213-2.076L12 14.79l-3.429-1.704 3.43-1.89z" clip-rule="evenodd"/>
+    <path fill="url(#APFC__a)" fill-rule="evenodd" d="m7.622 3.243 4.621 2.55v5.117l-4.621 2.55L3 10.91V5.792zm-4.135 7.38 3.891 2.15v-4.52l-3.891-1.93zm4.378-2.364v4.514l3.892-2.15V6.327zm3.614-2.336L7.623 7.84 3.764 5.923l3.858-2.125z" clip-rule="evenodd"/>
+    <path fill="url(#APFC__b)" fill-rule="evenodd" d="M16.378 3.243 21 5.793v5.117l-4.622 2.55-4.621-2.55V5.792zm-4.135 7.38 3.892 2.15v-4.52l-3.892-1.93zm4.379-2.364v4.514l3.891-2.15V6.327zm3.614-2.336L16.378 7.84 12.52 5.923l3.858-2.125z" clip-rule="evenodd"/>
+    <path fill="url(#APFC__c)" fill-rule="evenodd" d="m12 10.541 4.622 2.55v5.117L12 20.758l-4.621-2.55V13.09zm-4.135 7.38 3.892 2.15v-4.52l-3.892-1.93zm4.378-2.364v4.514l3.892-2.15v-4.296zm3.615-2.335L12 15.138l-3.858-1.916L12 11.096z" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="APFC__a" x1="5.684" x2="19.144" y1="7.922" y2="16.017" gradientUnits="userSpaceOnUse">
+        <linearGradient id="APFC__a" x1="4.895" x2="20.037" y1="7.413" y2="16.519" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C66329"/>
             <stop offset=".42" stop-color="#E08D39"/>
             <stop offset="1" stop-color="#D6B087"/>
         </linearGradient>
-        <linearGradient id="APFC__b" x1="4.421" x2="20" y1="13.853" y2="13.853" gradientUnits="userSpaceOnUse">
+        <linearGradient id="APFC__b" x1="3.474" x2="21" y1="14.085" y2="14.085" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E1B88A"/>
             <stop offset=".47" stop-color="#274527"/>
             <stop offset="1" stop-color="#3A5959"/>
         </linearGradient>
-        <linearGradient id="APFC__c" x1="12.001" x2="12.001" y1="10.703" y2="19.784" gradientUnits="userSpaceOnUse">
+        <linearGradient id="APFC__c" x1="12.001" x2="12.001" y1="10.541" y2="20.757" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D3B088"/>
             <stop offset=".41" stop-color="#B4B4B4"/>
             <stop offset="1" stop-color="#A3A2A4"/>

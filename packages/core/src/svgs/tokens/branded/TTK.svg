@@ -1,48 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#TTK__a)" d="M5.416 16.54a7.96 7.96 0 0 1-1.401-4.88c.43.274.904.47 1.401.578z"/>
-    <path fill="url(#TTK__b)" d="M9.648 19.646a8 8 0 0 1-2.187-1.059h1.717v.47h.47z"/>
-    <path fill="url(#TTK__c)" d="M10.589 19.875v-.818h.235v-.47h.235v-6.584h-.235v-.47h-.235v-.94h2.822v.94h-.236v.47h-.235v6.584h.235v.47h.236v.818a8 8 0 0 1-2.822 0"/>
-    <path fill="url(#TTK__d)" d="M16.537 18.587a8 8 0 0 1-2.186 1.058v-.587h.47v-.47z"/>
-    <path fill="url(#TTK__e)" d="M17.172 12.474h-2.821v.94h.235v.47h.235v4.233h1.88v-4.233h.236v-.47h.235z"/>
-    <path fill="url(#TTK__f)" d="M9.648 12.474H6.827v.94h.235v.47h.235v4.233h1.881v-4.233h.235v-.47h.235z"/>
-    <path fill="url(#TTK__g)" d="M18.113 17.153a7.96 7.96 0 0 0 1.857-5.737h-.009a.24.24 0 0 1-.24.112c-.47.217-1.09.475-1.608.475z"/>
-    <path fill="url(#TTK__h)" d="M19.947 11.157a.234.234 0 0 0-.366-.018.24.24 0 0 0-.057.126c-1.308-.132-2.21-.626-2.502-1.157a.235.235 0 0 0-.085-.456c-.235 0-.235.235-.235.235v.235h-2.351v-.705c1.128 0 2.036-.47 2.351-.706-1.345.047-1.975-.48-2.22-.959a.47.47 0 1 0-.602-.451h-3.762a.471.471 0 1 0-.602.451 1.4 1.4 0 0 1-.367.484l-3.964-.413q.163-.27.348-.522h2.704l-2.394-.4a7.98 7.98 0 0 1 12.472.202l-3.024.433 3.48.216q.149.24.282.49h-2.821l3.038.432a8 8 0 0 1 .682 2.488z"/>
-    <path fill="url(#TTK__i)" d="M4.24 11.062a.24.24 0 0 0-.188.094c.094-.96.367-1.867.78-2.7l4.318-.22c-.54.46-1.373.527-1.853.475.188.564 1.331.705 1.881.705v.706h-1.88v-.236a.235.235 0 1 0-.236.236c-.546.954-1.655 1.142-2.587 1.175a.235.235 0 0 0-.235-.235"/>
+    <path fill="url(#TTK__a)" d="M4.594 17.108a8.95 8.95 0 0 1-1.577-5.491 4.8 4.8 0 0 0 1.577.65z"/>
+    <path fill="url(#TTK__b)" d="M9.354 20.601a9 9 0 0 1-2.46-1.19h1.931v.529h.53z"/>
+    <path fill="url(#TTK__c)" d="M10.413 20.86v-.921h.264v-.53h.265v-7.406h-.265v-.529h-.264v-1.058h3.174v1.058h-.265v.53h-.264v7.406h.264v.529h.265v.92a9 9 0 0 1-3.174 0"/>
+    <path fill="url(#TTK__d)" d="M17.105 19.41a9 9 0 0 1-2.46 1.191v-.661h.529v-.53z"/>
+    <path fill="url(#TTK__e)" d="M17.819 12.533h-3.174v1.058h.264v.529h.264v4.761h2.117V14.12h.264v-.53h.265z"/>
+    <path fill="url(#TTK__f)" d="M9.354 12.533H6.18v1.058h.265v.529h.264v4.761h2.116V14.12h.265v-.53h.264z"/>
+    <path fill="url(#TTK__g)" d="M18.877 17.797a8.96 8.96 0 0 0 2.09-6.455h-.01a.27.27 0 0 1-.27.127c-.53.244-1.228.535-1.81.535z"/>
+    <path fill="url(#TTK__h)" d="M20.94 11.051a.264.264 0 0 0-.476.122c-1.47-.148-2.486-.704-2.814-1.302a.264.264 0 0 0 .077-.453.26.26 0 0 0-.173-.06c-.264 0-.264.265-.264.265v.264h-2.645v-.793c1.27 0 2.29-.53 2.645-.794-1.513.053-2.222-.54-2.497-1.08a.529.529 0 1 0-.677-.507H9.883a.53.53 0 1 0-.677.508 1.6 1.6 0 0 1-.413.545L4.333 7.3q.184-.301.392-.587h3.042l-2.693-.45a8.978 8.978 0 0 1 14.03.228l-3.401.487 3.915.243q.166.271.317.55h-3.174l3.418.487c.406.885.665 1.83.767 2.799z"/>
+    <path fill="url(#TTK__i)" d="M3.27 10.945a.27.27 0 0 0-.21.106c.105-1.08.412-2.1.877-3.037l4.857-.249c-.608.519-1.545.593-2.084.534.211.635 1.497.794 2.116.794v.794H6.71v-.265a.265.265 0 1 0-.265.265c-.614 1.074-1.862 1.285-2.91 1.322a.265.265 0 0 0-.264-.264"/>
     <defs>
-        <linearGradient id="TTK__a" x1="12" x2="12" y1="4.008" y2="19.997" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TTK__a" x1="12" x2="12" y1="3.009" y2="20.997" gradientUnits="userSpaceOnUse">
             <stop offset=".71" stop-color="#C9AF67"/>
             <stop offset="1" stop-color="#A58C51"/>
         </linearGradient>
-        <linearGradient id="TTK__b" x1="37.134" x2="37.134" y1="-216.447" y2="25.334" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TTK__b" x1="40.276" x2="40.276" y1="-245" y2="27.001" gradientUnits="userSpaceOnUse">
             <stop offset=".71" stop-color="#C9AF67"/>
             <stop offset="1" stop-color="#A58C51"/>
         </linearGradient>
-        <linearGradient id="TTK__c" x1="12.023" x2="12.023" y1="-7.197" y2="19.996" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TTK__c" x1="12.026" x2="12.026" y1="-9.597" y2="20.995" gradientUnits="userSpaceOnUse">
             <stop offset=".71" stop-color="#C9AF67"/>
             <stop offset="1" stop-color="#A58C51"/>
         </linearGradient>
-        <linearGradient id="TTK__d" x1="-13.09" x2="-13.09" y1="-216.447" y2="25.334" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TTK__d" x1="-16.225" x2="-16.225" y1="-245" y2="27.001" gradientUnits="userSpaceOnUse">
             <stop offset=".71" stop-color="#C9AF67"/>
             <stop offset="1" stop-color="#A58C51"/>
         </linearGradient>
-        <linearGradient id="TTK__e" x1="-9.233" x2="-9.233" y1="-20" y2="25.334" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TTK__e" x1="-11.886" x2="-11.886" y1="-24" y2="27" gradientUnits="userSpaceOnUse">
             <stop offset=".71" stop-color="#C9AF67"/>
             <stop offset="1" stop-color="#A58C51"/>
         </linearGradient>
-        <linearGradient id="TTK__f" x1="33.278" x2="33.278" y1="-20" y2="25.334" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TTK__f" x1="35.937" x2="35.937" y1="-24" y2="27" gradientUnits="userSpaceOnUse">
             <stop offset=".71" stop-color="#C9AF67"/>
             <stop offset="1" stop-color="#A58C51"/>
         </linearGradient>
-        <linearGradient id="TTK__g" x1="-47.783" x2="-47.783" y1="-16.656" y2="27.935" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TTK__g" x1="-55.255" x2="-55.255" y1="-20.238" y2="29.927" gradientUnits="userSpaceOnUse">
             <stop offset=".71" stop-color="#C9AF67"/>
             <stop offset="1" stop-color="#A58C51"/>
         </linearGradient>
-        <linearGradient id="TTK__h" x1="11.408" x2="11.408" y1="4.019" y2="39.234" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TTK__h" x1="11.334" x2="11.334" y1="3.021" y2="42.638" gradientUnits="userSpaceOnUse">
             <stop stop-color="#927A47"/>
             <stop offset=".4" stop-color="#CAB067"/>
             <stop offset=".71" stop-color="#C9AF67"/>
         </linearGradient>
-        <linearGradient id="TTK__i" x1="12" x2="12" y1="4.008" y2="19.997" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TTK__i" x1="12" x2="12" y1="3.009" y2="20.997" gradientUnits="userSpaceOnUse">
             <stop stop-color="#927A47"/>
             <stop offset=".4" stop-color="#CAB067"/>
             <stop offset=".71" stop-color="#C9AF67"/>

@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#SETH__a)" fill-rule="evenodd" d="M12 19.059a7.06 7.06 0 1 0 0-14.12 7.06 7.06 0 0 0 0 14.12M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
-    <path fill="#627EEA" d="M12 18.118a6.118 6.118 0 1 0 0-12.235 6.118 6.118 0 0 0 0 12.235"/>
-    <path fill="#fff" d="M12.001 10.823v-3.53L9.178 12z"/>
-    <path fill="#C1CCF7" d="M12.001 10.823v-3.53L14.825 12zm0 0L9.178 12 12 13.647z"/>
-    <path fill="#8198EE" d="M12 13.647v-2.824L14.824 12z"/>
-    <path fill="#fff" d="m12.001 14.353-2.823-1.882L12 16.706z"/>
-    <path fill="#C1CCF7" d="M14.824 12.47 12 14.354v2.353z"/>
+    <path fill="url(#SETH__a)" fill-rule="evenodd" d="M12 19.941a7.942 7.942 0 1 0 0-15.883 7.942 7.942 0 0 0 0 15.883M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18" clip-rule="evenodd"/>
+    <path fill="#627EEA" d="M12 18.883a6.882 6.882 0 1 0 0-13.765 6.882 6.882 0 0 0 0 13.765"/>
+    <path fill="#fff" d="M12.002 10.677v-3.97L8.825 12z"/>
+    <path fill="#C1CCF7" d="M12.002 10.677v-3.97L15.178 12zm0 0L8.825 12l3.177 1.853z"/>
+    <path fill="#8198EE" d="M12 13.852v-3.176l3.177 1.323z"/>
+    <path fill="#fff" d="m12.002 14.647-3.177-2.118 3.177 4.765z"/>
+    <path fill="#C1CCF7" d="M15.177 12.53 12 14.646v2.647z"/>
     <defs>
-        <linearGradient id="SETH__a" x1="16.471" x2="7.294" y1="5.882" y2="18.353" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SETH__a" x1="17.029" x2="6.706" y1="5.118" y2="19.147" gradientUnits="userSpaceOnUse">
             <stop stop-color="#269981"/>
             <stop offset="1" stop-color="#142D44"/>
         </linearGradient>

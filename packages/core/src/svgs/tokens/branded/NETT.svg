@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#NETT__a)" d="m8.577 12-4.444 5.523c-.156-.091-.142-.347-.12-.466L5.117 12z"/>
-    <path fill="url(#NETT__b)" d="M11.746 14.263 8.582 12 4.13 17.532c.1.124.352.092.462.055z"/>
-    <path fill="#54CCFF" d="M8.582 12h-3.47a980 980 0 0 1 1.545-5.459.57.57 0 0 1 .27-.302z"/>
-    <path fill="#A2AFFE" d="M7.425 6.243c-.192-.128-.412-.055-.503 0l1.664 5.761 7.448.453c-2.789-1.994-8.413-6.081-8.61-6.214"/>
-    <path fill="#3189F7" d="M11.75 14.277 8.577 12l3.52.187z"/>
-    <path fill="url(#NETT__c)" d="m16.025 12.457-3.932-.283-.357 2.09 5.656 3.438c.124.082.393.242.512.242.124 0 .247-.032.297-.046l-2.18-5.44z"/>
-    <path fill="url(#NETT__d)" d="M19.29 12.375h-3.338l2.24 5.523c.284-.064.449-.356.485-.489l.613-5.03z"/>
-    <path fill="url(#NETT__e)" d="m15.985 12.457-3.521-2.565 6.767-3.717c.06-.064.247-.17.512-.091.265.077.274.393.247.54l-.714 5.833z"/>
+    <path fill="url(#NETT__a)" d="m8.149 12-5 6.214c-.175-.103-.16-.391-.133-.525L4.256 12z"/>
+    <path fill="url(#NETT__b)" d="M11.714 14.546 8.155 12l-5.01 6.224c.113.139.396.103.52.062z"/>
+    <path fill="#54CCFF" d="M8.154 12H4.25a1221 1221 0 0 1 1.739-6.141c.051-.17.22-.299.303-.34z"/>
+    <path fill="#A2AFFE" d="M6.853 5.523c-.216-.144-.463-.061-.566 0l1.872 6.482 8.38.509C13.4 10.27 7.073 5.673 6.852 5.524"/>
+    <path fill="#3189F7" d="M11.72 14.562 8.15 12l3.96.21z"/>
+    <path fill="url(#NETT__c)" d="m16.528 12.514-4.424-.319-.4 2.35 6.362 3.869c.139.092.442.273.576.273.139 0 .278-.036.334-.052l-2.453-6.12z"/>
+    <path fill="url(#NETT__d)" d="M20.2 12.422h-3.754l2.52 6.214c.32-.072.504-.402.546-.551l.689-5.658z"/>
+    <path fill="url(#NETT__e)" d="M16.483 12.514 12.522 9.63l7.612-4.182c.067-.072.278-.19.577-.103s.308.442.277.607l-.802 6.563z"/>
     <defs>
-        <linearGradient id="NETT__a" x1="11.992" x2="11.992" y1="6.066" y2="17.944" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NETT__a" x1="11.991" x2="11.991" y1="5.324" y2="18.687" gradientUnits="userSpaceOnUse">
             <stop stop-color="#38C2FF"/>
             <stop offset="1" stop-color="#2698EE"/>
         </linearGradient>
-        <linearGradient id="NETT__b" x1="12.001" x2="12.001" y1="6.056" y2="17.942" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NETT__b" x1="12.001" x2="12.001" y1="5.313" y2="18.685" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4196FF"/>
             <stop offset="1" stop-color="#2588FD"/>
         </linearGradient>
-        <linearGradient id="NETT__c" x1="12" x2="10.124" y1="6.056" y2="14.268" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NETT__c" x1="12" x2="9.89" y1="5.313" y2="14.551" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4583FC"/>
             <stop offset="1" stop-color="#307EFA"/>
         </linearGradient>
-        <linearGradient id="NETT__d" x1="12.175" x2="12.175" y1="6.056" y2="17.905" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NETT__d" x1="12.197" x2="12.197" y1="5.313" y2="18.643" gradientUnits="userSpaceOnUse">
             <stop stop-color="#718CFD"/>
             <stop offset="1" stop-color="#5A86FF"/>
         </linearGradient>
-        <linearGradient id="NETT__e" x1="19.619" x2="16.446" y1="6.468" y2="12.476" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NETT__e" x1="20.571" x2="17.002" y1="5.776" y2="12.535" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A796F6"/>
             <stop offset="1" stop-color="#999FFF"/>
         </linearGradient>

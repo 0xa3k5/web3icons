@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
-    <path fill="url(#HAWK__a)" d="M7.154 17.949a8 8 0 0 1-2.475-4.259c.795-1.223 2.73-3.774 6.423-4.668l-.141.094c-.847.518-2.278 1.412-3.233 3.087-.979 1.713-1.11 3.859-.574 5.746"/>
-    <path fill="url(#HAWK__b)" fill-rule="evenodd" d="M12.5 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0 0a7.96 7.96 0 0 0 3.576-.843c-2.287-1.42-4.63-4-2.62-7.02a5.99 5.99 0 0 1 5.721-.34c-.329-1.26-1.731-2.795-3.99-3.402-.767-.207-1.266-.47-1.412-.579l-.014-.009c-.57-.395-.81-.56-.983-.588-1.106-.127-2.4.216-3.36.583a9.04 9.04 0 0 0-4.909 4.593A8 8 0 0 0 12.5 20" clip-rule="evenodd"/>
-    <path fill="#0D3137" d="M13.733 8.724a4.17 4.17 0 0 0-2.757.334q.25-.038.503-.056c.104 0 .941.32 1.407.282.348-.033.574-.338.659-.513a.06.06 0 0 1 .047-.033z"/>
-    <path fill="url(#HAWK__c)" d="M11.907 19.977c-1.515-2.085-1.647-5.868 1.543-7.84-2.004 3.021.344 5.6 2.622 7.021a7.97 7.97 0 0 1-4.165.82"/>
-    <path fill="url(#HAWK__d)" d="M15.267 8.414c-.4.08-1.082.339-1.242.974-.278 1.068-.47 2.217-.56 2.739a5.99 5.99 0 0 1 5.713-.33c-.32-1.246-1.7-2.757-3.91-3.383"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#HAWK__a)" d="M5.986 18.693A9 9 0 0 1 3.2 13.902c.895-1.377 3.07-4.246 7.227-5.252l-.16.106c-.952.582-2.562 1.588-3.636 3.473-1.101 1.927-1.25 4.34-.646 6.464"/>
+    <path fill="url(#HAWK__b)" fill-rule="evenodd" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18m0 0a8.95 8.95 0 0 0 4.023-.948c-2.572-1.599-5.209-4.5-2.948-7.898a6.74 6.74 0 0 1 6.437-.382c-.37-1.418-1.948-3.144-4.49-3.827-.862-.233-1.423-.53-1.587-.651l-.016-.011c-.64-.445-.91-.63-1.107-.662-1.244-.143-2.7.244-3.78.657a10.16 10.16 0 0 0-5.521 5.167A9 9 0 0 0 12 21" clip-rule="evenodd"/>
+    <path fill="#0D3137" d="M13.388 8.315a4.7 4.7 0 0 0-3.103.376 7 7 0 0 1 .567-.064c.116 0 1.059.36 1.583.318.391-.037.646-.381.74-.577a.07.07 0 0 1 .054-.037z"/>
+    <path fill="url(#HAWK__c)" d="M11.333 20.974c-1.705-2.345-1.853-6.601 1.737-8.82-2.256 3.4.386 6.3 2.948 7.9a8.96 8.96 0 0 1-4.685.92"/>
+    <path fill="url(#HAWK__d)" d="M15.113 7.966c-.45.09-1.218.381-1.398 1.096-.312 1.202-.529 2.493-.63 3.08a6.74 6.74 0 0 1 6.427-.37c-.36-1.403-1.91-3.102-4.399-3.806"/>
     <defs>
-        <linearGradient id="HAWK__a" x1="19.902" x2="13.3" y1="4.018" y2="20.609" gradientUnits="userSpaceOnUse">
+        <linearGradient id="HAWK__a" x1="20.328" x2="12.9" y1="3.02" y2="21.686" gradientUnits="userSpaceOnUse">
             <stop stop-color="#2EE4A9"/>
             <stop offset="1" stop-color="#0BBDC7"/>
         </linearGradient>
-        <linearGradient id="HAWK__b" x1="6.331" x2="20.763" y1="7.294" y2="13.675" gradientUnits="userSpaceOnUse">
+        <linearGradient id="HAWK__b" x1="5.059" x2="21.297" y1="6.706" y2="13.885" gradientUnits="userSpaceOnUse">
             <stop stop-color="#26E09F"/>
             <stop offset="1" stop-color="#02A566"/>
         </linearGradient>
-        <linearGradient id="HAWK__c" x1="10.578" x2="11.423" y1="4.824" y2="20.062" gradientUnits="userSpaceOnUse">
+        <linearGradient id="HAWK__c" x1="9.838" x2="10.789" y1="3.927" y2="21.07" gradientUnits="userSpaceOnUse">
             <stop stop-color="#11AEB9"/>
             <stop offset=".52" stop-color="#91DFE9"/>
             <stop offset="1" stop-color="#fff" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="HAWK__d" x1="14.054" x2="18.745" y1="10.005" y2="10.805" gradientUnits="userSpaceOnUse">
+        <linearGradient id="HAWK__d" x1="13.748" x2="19.026" y1="9.755" y2="10.655" gradientUnits="userSpaceOnUse">
             <stop offset=".09" stop-color="#42C696"/>
             <stop offset="1" stop-color="#fff" stop-opacity="0"/>
         </linearGradient>

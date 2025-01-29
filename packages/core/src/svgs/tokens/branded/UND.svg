@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#UND__a)" d="M19.5 13.74V4c-3.43 0-4.286 2.785-4.286 4.175v5.215c0 4.175-5.24 5.22-7.86 5.22 2 1.11 4.17 1.39 5 1.39 5.716 0 7.145-4.175 7.145-6.26"/>
-    <path fill="url(#UND__b)" d="M19.5 4c-.965.58-2.145 1.73-2.145 3.48v5.565c0 1.97-1 5.91-5 5.91-2.285 0-3.9-.15-4.955-.325A11.5 11.5 0 0 0 12.35 20c5.72 0 7.15-4.175 7.15-6.26z"/>
-    <path fill="url(#UND__c)" d="M4.5 13.045V4l2.145.7v8c0 3.335 2.38 4.4 3.57 4.515-.57.28-1.665.35-2.145.35-2.855 0-3.57-3.015-3.57-4.52"/>
-    <path fill="url(#UND__d)" d="M8.785 7.48c0-1.95-1.43-2.67-2.14-2.785v8.35c0 3.475 2.14 4.17 3.21 4.17 1.285 0 2.385-.695 2.86-1.04-3.145.555-3.93-1.855-3.93-3.13z"/>
+    <path fill="url(#UND__a)" d="M20.437 13.958V3c-3.859 0-4.82 3.133-4.82 4.697v5.867c0 4.697-5.896 5.872-8.843 5.872C9.024 20.685 11.465 21 12.399 21c6.43 0 8.038-4.697 8.038-7.042"/>
+    <path fill="url(#UND__b)" d="M20.438 3c-1.086.652-2.413 1.946-2.413 3.915v6.26c0 2.217-1.125 6.65-5.625 6.65-2.571 0-4.388-.17-5.575-.366A12.9 12.9 0 0 0 12.394 21c6.435 0 8.044-4.697 8.044-7.042z"/>
+    <path fill="url(#UND__c)" d="M3.563 13.176V3l2.413.788v9c0 3.751 2.677 4.95 4.016 5.079-.641.315-1.873.394-2.413.394-3.212 0-4.016-3.392-4.016-5.085"/>
+    <path fill="url(#UND__d)" d="M8.383 6.915c0-2.193-1.609-3.003-2.407-3.133v9.394c0 3.91 2.407 4.691 3.61 4.691 1.447 0 2.684-.782 3.218-1.17-3.538.625-4.42-2.087-4.42-3.52z"/>
     <defs>
-        <linearGradient id="UND__a" x1="12.002" x2="12.002" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="UND__a" x1="12.003" x2="12.003" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A41351"/>
             <stop offset="1" stop-color="#E0196C"/>
         </linearGradient>
-        <linearGradient id="UND__b" x1="17.727" x2="15.795" y1="4.695" y2="19.799" gradientUnits="userSpaceOnUse">
+        <linearGradient id="UND__b" x1="18.444" x2="16.269" y1="3.782" y2="20.774" gradientUnits="userSpaceOnUse">
             <stop stop-color="#AA1654"/>
             <stop offset="1" stop-color="#E51970"/>
         </linearGradient>
-        <linearGradient id="UND__c" x1="11.993" x2="11.993" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="UND__c" x1="11.992" x2="11.992" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#1631B6"/>
             <stop offset="1" stop-color="#025DE1"/>
         </linearGradient>
-        <linearGradient id="UND__d" x1="9.68" x2="9.68" y1="4.695" y2="17.215" gradientUnits="userSpaceOnUse">
+        <linearGradient id="UND__d" x1="9.39" x2="9.39" y1="3.782" y2="17.867" gradientUnits="userSpaceOnUse">
             <stop stop-color="#133BC1"/>
             <stop offset="1" stop-color="#0264EB"/>
         </linearGradient>

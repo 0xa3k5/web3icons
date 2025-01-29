@@ -1,21 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <g opacity=".5">
-        <path fill="url(#NBT__a)" fill-rule="evenodd" d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0m-.941 0A7.06 7.06 0 1 1 4.94 12a7.06 7.06 0 0 1 14.119 0" clip-rule="evenodd"/>
-        <path fill="url(#NBT__b)" d="M15.764 13.76c0 .584-.55 1.064-1.176 1.064s-1.177-.48-1.177-1.063v-3.643c0-.706-.41-1.412-1.355-1.412h-.113c-.946 0-1.355.706-1.355 1.412v3.643c0 .583-.55 1.063-1.177 1.063-.626 0-1.176-.48-1.176-1.063V9.648c0-1.878 1.694-3.294 3.69-3.294h.112c1.977 0 3.727 1.425 3.727 3.294z"/>
-        <path fill="url(#NBT__c)" d="M9.411 8.706a1.177 1.177 0 1 0 0-2.353 1.177 1.177 0 0 0 0 2.353"/>
-        <path fill="#2A1F63" d="M8.235 15.764h7.53v.941h-7.53z"/>
-    </g>
+    <path fill="url(#NBT__a)" fill-rule="evenodd" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0m-1.059 0a7.941 7.941 0 1 1-15.883 0 7.941 7.941 0 0 1 15.883 0" clip-rule="evenodd"/>
+    <path fill="url(#NBT__b)" d="M16.235 13.98c0 .657-.62 1.197-1.324 1.197s-1.323-.54-1.323-1.197V9.883c0-.794-.46-1.588-1.525-1.588h-.127c-1.064 0-1.525.794-1.525 1.588v4.097c0 .657-.62 1.197-1.323 1.197-.704 0-1.324-.54-1.324-1.197V9.353c0-2.112 1.906-3.706 4.15-3.706h.128c2.223 0 4.193 1.605 4.193 3.706z"/>
+    <path fill="url(#NBT__c)" d="M9.088 8.295a1.324 1.324 0 1 0 0-2.648 1.324 1.324 0 0 0 0 2.648"/>
+    <path fill="#2A1F63" d="M7.764 16.234h8.47v1.06h-8.47z"/>
     <defs>
-        <linearGradient id="NBT__a" x1="17.882" x2="6.118" y1="6.118" y2="17.882" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NBT__a" x1="18.618" x2="5.382" y1="5.382" y2="18.618" gradientUnits="userSpaceOnUse">
             <stop stop-color="#AC89DD"/>
             <stop offset="1" stop-color="#9864E6"/>
         </linearGradient>
-        <linearGradient id="NBT__b" x1="4" x2="19.435" y1="8.445" y2="18.862" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NBT__b" x1="2.999" x2="20.364" y1="8" y2="19.719" gradientUnits="userSpaceOnUse">
             <stop offset=".14" stop-color="#7B72DC"/>
             <stop offset=".35" stop-color="#7A73E6"/>
             <stop offset="1" stop-color="#BC9CEB"/>
         </linearGradient>
-        <linearGradient id="NBT__c" x1="7.2" x2="16.8" y1="5.601" y2="16.801" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NBT__c" x1="6.599" x2="17.399" y1="4.8" y2="17.4" gradientUnits="userSpaceOnUse">
             <stop stop-color="#DFE8F7"/>
             <stop offset="1" stop-color="#BBBBF1"/>
         </linearGradient>

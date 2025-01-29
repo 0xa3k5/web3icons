@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#FAB508" d="m12 11.111-3.111-1.76 3.11-1.795 3.112 1.795z"/>
-    <path fill="#B5C7FF" d="m4 12.556 4-2.333v3.888l-4 2.334zm8 0 4-2.333v3.888l-4 2.334z"/>
-    <path fill="url(#MBOX__a)" d="m20 12.556-4-2.333v3.888l4 2.334zm-8 0-4-2.333v3.888l4 2.334z"/>
+    <path fill="#FAB508" d="M12 11 8.5 9.02 12 7l3.5 2.02z"/>
+    <path fill="#B5C7FF" d="M3 12.625 7.5 10v4.375L3 17zm9 0L16.5 10v4.375L12 17z"/>
+    <path fill="url(#MBOX__a)" d="M21 12.625 16.5 10v4.375L21 17zm-9 0L7.5 10v4.375L12 17z"/>
     <defs>
-        <linearGradient id="MBOX__a" x1="7.999" x2="19.999" y1="13.334" y2="13.334" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MBOX__a" x1="7.499" x2="20.999" y1="13.5" y2="13.5" gradientUnits="userSpaceOnUse">
             <stop stop-color="#1B6CF5"/>
             <stop offset="1" stop-color="#1B48F5"/>
         </linearGradient>

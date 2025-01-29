@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#YOU__a)" d="M5.09 4h6.285v3.428H7.946v6.594c0 .972 1.715 3.006 4 3.12s4-2.04 4-3.12V5.714h-1.714v-.571h2.285v8.88c0 1.525-1.977 3.69-4.57 3.69-2.595 0-4.572-2.285-4.572-3.69V6.856h3.428V4.571H5.661v9.657c0 1.588 1.714 5.2 6.285 5.2s6.286-3.229 6.286-5.2V4.251h.57v9.977c0 2.211-1.953 5.84-6.856 5.771S5.09 16.342 5.09 14.228z"/>
-    <path fill="url(#YOU__b)" d="M17.66 4h-5.143v3.428h2.286v6.234c0 .663-.937 2.383-2.857 2.337s-2.857-1.554-2.857-2.337v-5h-.571v5c0 1.417 1.525 2.897 3.428 2.909 1.903.011 3.428-1.646 3.428-2.909V6.857H13.09V4.571h4v9.091a4.8 4.8 0 0 1-5.052 4.623c-3.77 0-5.234-3.103-5.234-4.623V5.714H9.66v-.571H6.232v8.52c0 2.114 1.668 5.216 5.805 5.193s5.623-3.285 5.623-5.194z"/>
-    <path fill="url(#YOU__c)" d="M8.809 8.827a.389.389 0 1 0 0-.777.389.389 0 0 0 0 .777"/>
-    <path fill="url(#YOU__d)" d="M9.723 5.794a.389.389 0 1 0 0-.777.389.389 0 0 0 0 .777"/>
-    <path fill="url(#YOU__e)" d="M14.163 5.794a.389.389 0 1 0 0-.777.389.389 0 0 0 0 .777"/>
-    <path fill="url(#YOU__f)" d="M18.522 4.777a.389.389 0 1 0 0-.777.389.389 0 0 0 0 .777"/>
+    <path fill="url(#YOU__a)" d="M4.226 3h7.07v3.857H7.44v7.418c0 1.093 1.928 3.381 4.5 3.51 2.57.128 4.5-2.295 4.5-3.51V4.928h-1.93v-.642h2.572v9.99c0 1.716-2.224 4.152-5.142 4.152s-5.143-2.572-5.143-4.153v-8.06h3.857V3.642H4.868v10.864c0 1.787 1.929 5.85 7.072 5.85s7.07-3.633 7.07-5.85V3.283h.643v11.224c0 2.487-2.198 6.57-7.713 6.492-5.516-.077-7.714-4.114-7.714-6.492z"/>
+    <path fill="url(#YOU__b)" d="M18.368 3h-5.786v3.857h2.571v7.013c0 .746-1.054 2.68-3.214 2.63-2.16-.052-3.214-1.75-3.214-2.63V8.245h-.642v5.625c0 1.594 1.716 3.26 3.856 3.272 2.141.013 3.857-1.851 3.857-3.272V6.214h-2.571V3.643h4.5V13.87a5.4 5.4 0 0 1-5.683 5.2c-4.242 0-5.888-3.49-5.888-5.2V4.928h3.214v-.642H5.511v9.584c0 2.379 1.877 5.869 6.531 5.843s6.326-3.696 6.326-5.843z"/>
+    <path fill="url(#YOU__c)" d="M8.41 8.43a.437.437 0 1 0 0-.874.437.437 0 0 0 0 .874"/>
+    <path fill="url(#YOU__d)" d="M9.439 5.018a.437.437 0 1 0 0-.874.437.437 0 0 0 0 .874"/>
+    <path fill="url(#YOU__e)" d="M14.433 5.018a.437.437 0 1 0 0-.874.437.437 0 0 0 0 .874"/>
+    <path fill="url(#YOU__f)" d="M19.337 3.874a.437.437 0 1 0 0-.874.437.437 0 0 0 0 .874"/>
     <defs>
-        <linearGradient id="YOU__a" x1="18.248" x2="18.809" y1="4.161" y2="4.638" gradientUnits="userSpaceOnUse">
+        <linearGradient id="YOU__a" x1="19.03" x2="19.66" y1="3.182" y2="3.718" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A81ED5"/>
             <stop offset="1" stop-color="#4300D0"/>
         </linearGradient>
-        <linearGradient id="YOU__b" x1="18.248" x2="18.809" y1="4.161" y2="4.638" gradientUnits="userSpaceOnUse">
+        <linearGradient id="YOU__b" x1="19.03" x2="19.66" y1="3.182" y2="3.718" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A81ED5"/>
             <stop offset="1" stop-color="#4300D0"/>
         </linearGradient>
-        <linearGradient id="YOU__c" x1="18.248" x2="18.809" y1="4.16" y2="4.637" gradientUnits="userSpaceOnUse">
+        <linearGradient id="YOU__c" x1="19.03" x2="19.66" y1="3.18" y2="3.717" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A81ED5"/>
             <stop offset="1" stop-color="#4300D0"/>
         </linearGradient>
-        <linearGradient id="YOU__d" x1="18.248" x2="18.808" y1="4.161" y2="4.638" gradientUnits="userSpaceOnUse">
+        <linearGradient id="YOU__d" x1="19.029" x2="19.66" y1="3.181" y2="3.718" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A81ED5"/>
             <stop offset="1" stop-color="#4300D0"/>
         </linearGradient>
-        <linearGradient id="YOU__e" x1="18.248" x2="18.809" y1="4.161" y2="4.638" gradientUnits="userSpaceOnUse">
+        <linearGradient id="YOU__e" x1="19.029" x2="19.66" y1="3.181" y2="3.718" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A81ED5"/>
             <stop offset="1" stop-color="#4300D0"/>
         </linearGradient>
-        <linearGradient id="YOU__f" x1="18.248" x2="18.808" y1="4.161" y2="4.638" gradientUnits="userSpaceOnUse">
+        <linearGradient id="YOU__f" x1="19.029" x2="19.659" y1="3.182" y2="3.718" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A81ED5"/>
             <stop offset="1" stop-color="#4300D0"/>
         </linearGradient>

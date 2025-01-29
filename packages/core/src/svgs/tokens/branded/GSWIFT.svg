@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#GSWIFT__a)" d="m4 16.4 5-5.377 1 .488-1.5 1.712L11.252 12l1.248.732z"/>
-    <path fill="#fff" d="m20 16.4-4.5-4.643L18 10.4l-3-2.8H9l-3 2.8zm-10.5-8h5l1.752 1.645-1.752.732-.9-.776H10l2.2.8h1l2.3 2.424-7.752-3.18z"/>
-    <path fill="#E9E9E9" fill-opacity=".6" d="m15.877 11.572-.912-.988-.464.192-.28-.268 1.28 1.248z"/>
+    <path fill="url(#GSWIFT__a)" d="M3 16.948 8.625 10.9l1.125.55-1.688 1.925 3.097-1.377 1.403.824z"/>
+    <path fill="#fff" d="m21 16.95-5.063-5.225L18.75 10.2l-3.375-3.15h-6.75L5.25 10.2zm-11.813-9h5.625l1.972 1.85-1.972.823L13.8 9.75H9.75l2.475.9h1.125l2.587 2.727-8.72-3.578z"/>
+    <path fill="#E9E9E9" fill-opacity=".6" d="m16.361 11.517-1.026-1.111-.522.216-.315-.302 1.44 1.404z"/>
     <defs>
-        <linearGradient id="GSWIFT__a" x1="15.768" x2="6.788" y1="8.398" y2="17.036" gradientUnits="userSpaceOnUse">
+        <linearGradient id="GSWIFT__a" x1="16.24" x2="6.136" y1="7.947" y2="17.665" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FFA902"/>
             <stop offset="1" stop-color="#FFF000"/>
         </linearGradient>

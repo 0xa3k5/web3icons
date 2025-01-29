@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#TDROP__a)" fill-rule="evenodd" d="M12 20a6.737 6.737 0 0 0 6.736-6.737C18.737 9.541 12.843 4 12 4c-.841 0-6.736 5.541-6.736 9.263A6.736 6.736 0 0 0 11.999 20M8.63 12v2.947h2.105v2.106h2.527v-2.106h2.105V12z" clip-rule="evenodd"/>
+    <path fill="url(#TDROP__a)" fill-rule="evenodd" d="M12 21a7.58 7.58 0 0 0 7.579-7.579C19.579 9.234 12.947 3 11.999 3c-.947 0-7.578 6.234-7.578 10.421A7.58 7.58 0 0 0 12 21m-3.79-9v3.316h2.369v2.368h2.842v-2.368h2.368V12z" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="TDROP__a" x1="11.999" x2="11.999" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="TDROP__a" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#00F2FF"/>
             <stop offset="1" stop-color="#00BCF3"/>
         </linearGradient>

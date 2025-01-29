@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
-    <path fill="url(#RARI__a)" fill-rule="evenodd" d="M4.5 6h12.79c1.773 0 3.21 1.427 3.21 3.187a3.19 3.19 0 0 1-1.78 2.855 3.14 3.14 0 0 1 1.767 3.1h.013V18h-4.571v-3.043c0-.528-.485-.957-1.082-.957H9.07v4H4.5zm10.571 2.857h-6v1.714h6c.369 0 .858-.384.858-.857s-.489-.857-.858-.857" clip-rule="evenodd"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#RARI__a)" fill-rule="evenodd" d="M3 5.25h14.39c1.994 0 3.61 1.605 3.61 3.586a3.59 3.59 0 0 1-2.003 3.212c1.186.578 2.003 1.779 2.003 3.166q0 .163-.015.322H21v3.214h-5.143v-3.424c0-.594-.545-1.076-1.217-1.076H8.143v4.5H3zm11.893 3.214h-6.75v1.929h6.75c.414 0 .964-.432.964-.964 0-.533-.55-.965-.964-.965" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="RARI__a" x1="6.088" x2="18.715" y1="8.376" y2="17.673" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RARI__a" x1="4.787" x2="18.992" y1="7.923" y2="18.383" gradientUnits="userSpaceOnUse">
             <stop offset=".058" stop-color="#2568FF"/>
             <stop offset=".306" stop-color="#5E9AFE"/>
             <stop offset=".819" stop-color="#FF74F2"/>

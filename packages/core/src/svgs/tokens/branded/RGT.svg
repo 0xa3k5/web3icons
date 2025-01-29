@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#RGT__a)" fill-rule="evenodd" d="M12 16.706a4.706 4.706 0 1 0 0-9.412 4.706 4.706 0 0 0 0 9.412m0-.47a4.235 4.235 0 1 0 0-8.471 4.235 4.235 0 0 0 0 8.47" clip-rule="evenodd"/>
-    <path fill="url(#RGT__b)" fill-rule="evenodd" d="M8.943 17.3A6.118 6.118 0 1 0 15.06 6.702 6.118 6.118 0 0 0 8.943 17.3m3.058.348A5.647 5.647 0 1 0 12 6.353a5.647 5.647 0 0 0 0 11.295" clip-rule="evenodd"/>
-    <path fill="url(#RGT__c)" fill-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0-.47a7.53 7.53 0 1 0 0-15.06 7.53 7.53 0 1 0 0 15.06" clip-rule="evenodd"/>
+    <path fill="url(#RGT__a)" fill-rule="evenodd" d="M12 17.294a5.294 5.294 0 1 0 0-10.588 5.294 5.294 0 0 0 0 10.588m0-.53a4.765 4.765 0 1 0 0-9.53 4.765 4.765 0 0 0 0 9.53" clip-rule="evenodd"/>
+    <path fill="url(#RGT__b)" fill-rule="evenodd" d="M8.56 17.962a6.882 6.882 0 1 0 6.883-11.92 6.882 6.882 0 0 0-6.883 11.92m3.44.391a6.353 6.353 0 1 0 0-12.706 6.353 6.353 0 0 0 0 12.706" clip-rule="evenodd"/>
+    <path fill="url(#RGT__c)" fill-rule="evenodd" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18m0-.53A8.47 8.47 0 0 0 20.47 12 8.47 8.47 0 0 0 12 3.53 8.47 8.47 0 0 0 3.53 12 8.47 8.47 0 0 0 12 20.47" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="RGT__a" x1="3.92" x2="20.08" y1="12.209" y2="12" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RGT__a" x1="2.91" x2="21.09" y1="12.235" y2="12" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F9F9F9"/>
             <stop offset="1" stop-color="#F9F9F9" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="RGT__b" x1="20.223" x2="3.775" y1="11.999" y2="11.999" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RGT__b" x1="21.251" x2="2.747" y1="11.999" y2="11.999" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F0F0F0"/>
             <stop offset="1" stop-color="#F0F0F0" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="RGT__c" x1="4" x2="20" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RGT__c" x1="3" x2="21" y1="12" y2="12" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F0F0F0"/>
             <stop offset="1" stop-color="#F0F0F0" stop-opacity="0"/>
         </linearGradient>

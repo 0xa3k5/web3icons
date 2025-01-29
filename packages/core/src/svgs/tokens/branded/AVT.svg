@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#AVT__a)" d="m14.866 15.502 4.518 2.146H4.87l10-2.146z"/>
-    <path fill="url(#AVT__b)" d="M11.054 4v3.746l-6.819 8.513z"/>
-    <path fill="#5100FF" d="m19.765 8.127-6.117 2.86L7.643 20z"/>
-    <path fill="#1D2733" d="m11.054 4 8.306 13.638-4.607-2.137-3.7-7.755z"/>
+    <path fill="url(#AVT__a)" d="m15.224 15.94 5.082 2.414H3.98l11.25-2.414z"/>
+    <path fill="url(#AVT__b)" d="M10.936 3v4.214l-7.671 9.578z"/>
+    <path fill="#5100FF" d="m20.736 7.642-6.883 3.22L7.098 21z"/>
+    <path fill="#1D2733" d="m10.935 3 9.344 15.343-5.183-2.404-4.16-8.725z"/>
     <defs>
-        <linearGradient id="AVT__a" x1="6.385" x2="18.717" y1="19.369" y2="19.369" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AVT__a" x1="5.683" x2="19.557" y1="20.29" y2="20.29" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F2F1F1"/>
             <stop offset="1" stop-color="#1D2733"/>
         </linearGradient>
-        <linearGradient id="AVT__b" x1="6.39" x2="18.715" y1="20" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AVT__b" x1="5.688" x2="19.554" y1="21.001" y2="21.001" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F2F1F1"/>
             <stop offset="1" stop-color="#1D2733"/>
         </linearGradient>

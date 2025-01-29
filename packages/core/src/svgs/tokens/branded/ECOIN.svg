@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#ECOIN__a)" fill-rule="evenodd" d="M12 19.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15m0 .5a8 8 0 1 0-8-8 8 8 0 0 0 8 8" clip-rule="evenodd"/>
-    <path fill="url(#ECOIN__b)" d="M11.929 5.502c-2.136 0-3.335.93-3.688 1.157l2.33 1.047c.591-.172 1.397-.2 1.725-.193 3.509.227 4.239 3.44 4.166 4.986H8.877c.42 2.009 1.698 2.5 3.254 2.5 1.351 0 2.374-1.045 2.374-1.5h1.58c-.619 2.184-2.43 3.012-3.789 3.012a6 6 0 0 1-1.725-.238L8.229 17.34c1.337 1.007 3.269 1.194 4.067 1.16 4.605 0 6.204-4.138 6.204-6.392 0-5.189-4.267-6.606-6.571-6.606"/>
-    <path fill="url(#ECOIN__c)" d="M12.126 9C10.123 9 9.207 10.653 9 11.5h6c-.123-.82-1.113-2.5-2.874-2.5"/>
+    <path fill="url(#ECOIN__a)" fill-rule="evenodd" d="M12 20.437a8.438 8.438 0 1 0 0-16.875 8.438 8.438 0 0 0 0 16.875M12 21a9 9 0 0 0 9-9 9 9 0 0 0-9-9 9 9 0 0 0-9 9 9 9 0 0 0 9 9" clip-rule="evenodd"/>
+    <path fill="url(#ECOIN__b)" d="M11.92 4.69c-2.403 0-3.752 1.046-4.15 1.301l2.623 1.179c.665-.195 1.571-.226 1.94-.218 3.948.256 4.769 3.87 4.686 5.61H8.487c.473 2.26 1.91 2.812 3.66 2.812 1.52 0 2.671-1.176 2.671-1.687h1.778c-.696 2.456-2.733 3.388-4.263 3.388a6.8 6.8 0 0 1-1.94-.268l-2.635 1.2c1.504 1.134 3.677 1.343 4.575 1.305 5.18 0 6.98-4.655 6.98-7.19 0-5.838-4.8-7.433-7.393-7.433"/>
+    <path fill="url(#ECOIN__c)" d="M12.141 8.625c-2.253 0-3.283 1.86-3.515 2.813h6.75c-.14-.923-1.253-2.813-3.235-2.813"/>
     <defs>
-        <linearGradient id="ECOIN__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ECOIN__a" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CDAE26"/>
             <stop offset=".409" stop-color="#F9DA3B"/>
             <stop offset=".757" stop-color="#EDC62D"/>
             <stop offset="1" stop-color="#CEAF26"/>
         </linearGradient>
-        <linearGradient id="ECOIN__b" x1="12.001" x2="12.001" y1="3.999" y2="19.999" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ECOIN__b" x1="12.001" x2="12.001" y1="2.999" y2="20.999" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CDAE26"/>
             <stop offset=".409" stop-color="#F9DA3B"/>
             <stop offset=".757" stop-color="#EDC62D"/>
             <stop offset="1" stop-color="#CEAF26"/>
         </linearGradient>
-        <linearGradient id="ECOIN__c" x1="12.001" x2="12.001" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ECOIN__c" x1="12.001" x2="12.001" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CDAE26"/>
             <stop offset=".409" stop-color="#F9DA3B"/>
             <stop offset=".757" stop-color="#EDC62D"/>

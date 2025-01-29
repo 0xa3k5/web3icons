@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#REV__a)" d="m9.59 4 7.259 4.121v3.394l-3.297 1.775 3.782 2.831V20l-6.788-5.09v-3.395l3.307-1.78L9.59 7.332v10.245L6.667 20V5.455L9.586 4z"/>
+    <path fill="url(#REV__a)" d="m9.29 3 8.165 4.636v3.818l-3.71 1.997L18 16.636V21l-7.636-5.727v-3.818l3.72-2.002-4.795-2.706v11.526L6 21V4.636L9.284 3z"/>
     <defs>
-        <linearGradient id="REV__a" x1="6" x2="21.591" y1="3.286" y2="13.505" gradientUnits="userSpaceOnUse">
+        <linearGradient id="REV__a" x1="5.25" x2="22.79" y1="2.196" y2="13.693" gradientUnits="userSpaceOnUse">
             <stop offset=".06" stop-color="#1A1C3C"/>
             <stop offset="1" stop-color="#720044"/>
         </linearGradient>

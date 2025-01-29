@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#A62222" d="M8.444 10V6L4.89 8z"/>
-    <path fill="#EE8622" d="M8.444 14v-4L4.89 12z"/>
-    <path fill="#A62222" d="M8.444 18v-4L4.89 16z"/>
-    <path fill="#E23C25" d="M19.111 16v-4l-3.555 2zm-3.555-2v-4L12 12zm0 4v-4L12 16z"/>
-    <path fill="#EE8622" d="M12 20v-4l-3.556 2z"/>
-    <path fill="#FAC211" d="M19.111 12V8l-3.555 2z"/>
-    <path fill="#EE8622" d="M12 8V4L8.443 6z"/>
-    <path fill="#E23C25" d="M8.444 10V6l3.555 2z"/>
-    <path fill="#FAC211" d="M8.444 14v-4l3.555 2zm3.555 6v-4l3.556 2z"/>
-    <path fill="#E23C25" d="M4.889 12V8l3.555 2zm0 4v-4l3.555 2z"/>
-    <path fill="#FAC211" d="M12 8V4l3.556 2z"/>
-    <path fill="#EE8622" d="M15.556 10V6l3.555 2zm0 4v-4l3.555 2z"/>
-    <path fill="#A62222" d="M15.556 18v-4l3.555 2z"/>
+    <path fill="#A62222" d="M8 9.75v-4.5L4 7.5z"/>
+    <path fill="#EE8622" d="M8 14.25v-4.5L4 12z"/>
+    <path fill="#A62222" d="M8 18.75v-4.5L4 16.5z"/>
+    <path fill="#E23C25" d="M20 16.5V12l-4 2.25zm-4-2.25v-4.5L12 12zm0 4.5v-4.5l-4 2.25z"/>
+    <path fill="#EE8622" d="M12 21v-4.5l-4 2.25z"/>
+    <path fill="#FAC211" d="M20 12V7.5l-4 2.25z"/>
+    <path fill="#EE8622" d="M12 7.5V3L8 5.25z"/>
+    <path fill="#E23C25" d="M8 9.75v-4.5l4 2.25z"/>
+    <path fill="#FAC211" d="M8 14.25v-4.5L12 12zM12 21v-4.5l4 2.25z"/>
+    <path fill="#E23C25" d="M4 12V7.5l4 2.25zm0 4.5V12l4 2.25z"/>
+    <path fill="#FAC211" d="M12 7.5V3l4 2.25z"/>
+    <path fill="#EE8622" d="M16 9.75v-4.5l4 2.25zm0 4.5v-4.5L20 12z"/>
+    <path fill="#A62222" d="M16 18.75v-4.5l4 2.25z"/>
 </svg>

@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#07ACEE" fill-rule="evenodd" d="M11.052 4A8.06 8.06 0 0 0 4 11.052h1.434a6.64 6.64 0 0 1 5.618-5.618zm1.896 1.434V4A8.06 8.06 0 0 1 20 11.052h-1.434a6.64 6.64 0 0 0-5.618-5.618m0 13.132a6.64 6.64 0 0 0 5.618-5.618H20A8.06 8.06 0 0 1 12.948 20zm-7.514-5.618a6.64 6.64 0 0 0 5.618 5.618V20A8.06 8.06 0 0 1 4 12.948z" clip-rule="evenodd"/>
-    <path fill="#1B70EF" d="M8.209 8.716c0-.28.224-.507.5-.507h6.58c.277 0 .501.227.501.507v6.569c0 .28-.224.506-.5.506H8.71a.504.504 0 0 1-.501-.507z"/>
-    <path fill="url(#ORAI__a)" fill-rule="evenodd" d="M14.842 10.815a.237.237 0 0 1 .237-.237h.948a.237.237 0 0 1 0 .474h-.948a.237.237 0 0 1-.237-.237m0 1.185a.237.237 0 0 1 .237-.237h.948a.237.237 0 1 1 0 .473h-.948a.237.237 0 0 1-.237-.236m.711.947a.237.237 0 0 0 0 .474h.474a.237.237 0 0 0 0-.474z" clip-rule="evenodd"/>
-    <path fill="url(#ORAI__b)" fill-rule="evenodd" d="M9.157 10.815a.237.237 0 0 0-.237-.237h-.948a.237.237 0 0 0 0 .474h.948a.237.237 0 0 0 .237-.237m0 1.185a.237.237 0 0 0-.237-.237h-.948a.237.237 0 1 0 0 .473h.948A.237.237 0 0 0 9.157 12m-.71.947a.237.237 0 0 1 0 .474h-.475a.237.237 0 0 1 0-.474z" clip-rule="evenodd"/>
-    <path fill="url(#ORAI__c)" fill-rule="evenodd" d="M10.579 7.973a.237.237 0 0 1 .473 0v.947a.237.237 0 0 1-.473 0zm1.184 0a.237.237 0 0 1 .474 0v.474a.237.237 0 0 1-.474 0zm1.422-.237a.237.237 0 0 0-.237.237v.474a.237.237 0 1 0 .473 0v-.474a.237.237 0 0 0-.236-.237" clip-rule="evenodd"/>
-    <path fill="url(#ORAI__d)" fill-rule="evenodd" d="M10.579 16.027a.237.237 0 1 0 .473 0v-.948a.236.236 0 0 0-.404-.167.24.24 0 0 0-.07.167zm1.184 0a.237.237 0 1 0 .474 0v-.474a.237.237 0 0 0-.474 0zm1.422.237a.237.237 0 0 1-.237-.237v-.474a.237.237 0 1 1 .473 0v.474a.237.237 0 0 1-.236.237" clip-rule="evenodd"/>
-    <path fill="#F0F3FA" fill-rule="evenodd" d="M10.342 12.001a.947.947 0 1 1 1.895 0v.948H12v-.474h-1.42v.474h-.237zm.237.237H12V12a.711.711 0 0 0-1.421 0zm1.895-1.185h1.185v.237h-.474v1.422h.473v.237h-1.184v-.237h.474V11.29h-.474z" clip-rule="evenodd"/>
+    <path fill="#07ACEE" fill-rule="evenodd" d="M10.934 3A9.07 9.07 0 0 0 3 10.934h1.613a7.47 7.47 0 0 1 6.32-6.321zm2.132 1.613V3A9.07 9.07 0 0 1 21 10.934h-1.613a7.47 7.47 0 0 0-6.321-6.321m0 14.774a7.47 7.47 0 0 0 6.32-6.321H21A9.07 9.07 0 0 1 13.066 21zm-8.453-6.321a7.47 7.47 0 0 0 6.32 6.32V21A9.07 9.07 0 0 1 3 13.066z" clip-rule="evenodd"/>
+    <path fill="#1B70EF" d="M7.735 8.305c0-.314.252-.57.563-.57H15.7c.31 0 .562.256.562.57v7.39c0 .315-.252.57-.563.57h-7.4a.566.566 0 0 1-.563-.57z"/>
+    <path fill="url(#ORAI__a)" fill-rule="evenodd" d="M15.197 10.667a.267.267 0 0 1 .267-.267h1.066a.267.267 0 0 1 0 .534h-1.067a.267.267 0 0 1-.266-.267m0 1.333a.267.267 0 0 1 .267-.267h1.066a.267.267 0 1 1 0 .533h-1.067a.266.266 0 0 1-.266-.266m.8 1.066a.267.267 0 0 0 0 .533h.533a.267.267 0 0 0 0-.533z" clip-rule="evenodd"/>
+    <path fill="url(#ORAI__b)" fill-rule="evenodd" d="M8.801 10.667a.267.267 0 0 0-.266-.267H7.468a.267.267 0 0 0 0 .534h1.067a.267.267 0 0 0 .266-.267m0 1.333a.267.267 0 0 0-.266-.267H7.468a.267.267 0 0 0 0 .533h1.067A.266.266 0 0 0 8.8 12M8 13.066a.266.266 0 0 1 0 .533h-.533a.267.267 0 0 1 0-.533z" clip-rule="evenodd"/>
+    <path fill="url(#ORAI__c)" fill-rule="evenodd" d="M10.4 7.47a.266.266 0 1 1 .534 0v1.065a.266.266 0 0 1-.533 0zm1.333 0a.267.267 0 0 1 .533 0v.532a.267.267 0 0 1-.533 0zm1.6-.267a.267.267 0 0 0-.267.266v.533a.266.266 0 1 0 .533 0V7.47a.266.266 0 0 0-.267-.266" clip-rule="evenodd"/>
+    <path fill="url(#ORAI__d)" fill-rule="evenodd" d="M10.4 16.53a.266.266 0 1 0 .534 0v-1.066a.266.266 0 0 0-.455-.188.27.27 0 0 0-.078.188zm1.333 0a.267.267 0 0 0 .533 0v-.533a.267.267 0 0 0-.533 0zm1.6.267a.267.267 0 0 1-.267-.267v-.533a.266.266 0 1 1 .533 0v.533a.266.266 0 0 1-.267.267" clip-rule="evenodd"/>
+    <path fill="#F0F3FA" fill-rule="evenodd" d="M10.134 12.001a1.066 1.066 0 1 1 2.132 0v1.066H12v-.533h-1.6v.533h-.266zm.267.267H12V12a.8.8 0 1 0-1.6 0zm2.132-1.333h1.332v.267h-.533V12.8h.533v.266h-1.332V12.8h.533v-1.6h-.533z" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="ORAI__a" x1="4" x2="20.757" y1="12.037" y2="12.037" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ORAI__a" x1="2.999" x2="21.851" y1="12.041" y2="12.041" gradientUnits="userSpaceOnUse">
             <stop stop-color="#9BD2FF"/>
             <stop offset="1" stop-color="#E4EFF8"/>
         </linearGradient>
-        <linearGradient id="ORAI__b" x1="4" x2="16.405" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ORAI__b" x1="3" x2="16.955" y1="12" y2="12" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E8F1F8"/>
             <stop offset="1" stop-color="#9BD2FF"/>
         </linearGradient>
-        <linearGradient id="ORAI__c" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ORAI__c" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E6F0F8"/>
             <stop offset="1" stop-color="#9BD2FF"/>
         </linearGradient>
-        <linearGradient id="ORAI__d" x1="12" x2="12" y1="9.322" y2="19.919" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ORAI__d" x1="12" x2="12" y1="8.987" y2="20.909" gradientUnits="userSpaceOnUse">
             <stop stop-color="#9BD2FF"/>
             <stop offset="1" stop-color="#E6F0F8"/>
         </linearGradient>

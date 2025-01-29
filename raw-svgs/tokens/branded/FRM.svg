@@ -1,15 +1,15 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M5.17627 15.7695L5.88217 16.179L6.58805 15.7648V12.706L17.1199 6.84708L15.7081 5.89649L6.58805 10.8048V8.82829L14.2963 4.9506L12.8846 4L5.17627 7.90592V15.7695Z" fill="url(#paint0_linear_328_28850)"/>
-<path d="M15.9995 8.62036L7.99951 13.1381V15.2792L15.9995 10.5262V8.62036Z" fill="url(#paint1_linear_328_28850)"/>
-<path d="M8.94156 18.1323L7.52979 17.1817L16.0004 11.9534V13.8593L8.94156 18.1417V18.1323Z" fill="#CCA362"/>
-<path d="M18.1177 7.67047L18.8236 8.12224V15.7553L11.6705 20.0001L10.2588 19.0495L17.4117 14.8047V8.14106L18.1177 7.66577V7.67047Z" fill="#CCA362"/>
+<path d="M4.32324 16.2407L5.11737 16.7013L5.91149 16.2353V12.7942L17.7598 6.20296L16.1715 5.13354L5.91149 10.6554V8.43181L14.5833 4.06942L12.9951 3L4.32324 7.39415V16.2407Z" fill="url(#paint0_linear_328_28850)"/>
+<path d="M16.4995 8.198L7.49951 13.2804V15.6892L16.4995 10.3421V8.198Z" fill="url(#paint1_linear_328_28850)"/>
+<path d="M8.55944 18.8988L6.97119 17.8293L16.5007 11.9475V14.0917L8.55944 18.9093V18.8988Z" fill="#CCA362"/>
+<path d="M18.8822 7.12931L19.6764 7.63755V16.2247L11.6292 21L10.041 19.9307L18.0881 15.1553V7.65872L18.8822 7.12402V7.12931Z" fill="#CCA362"/>
 <defs>
-<linearGradient id="paint0_linear_328_28850" x1="4.47724" y1="15.6045" x2="18.1014" y2="8.00843" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_328_28850" x1="3.53683" y1="16.055" x2="18.864" y2="7.50947" gradientUnits="userSpaceOnUse">
 <stop offset="0.05" stop-color="#C5C3C5"/>
 <stop offset="0.3" stop-color="#F2F2F2"/>
 <stop offset="0.9" stop-color="#BEBBBE"/>
 </linearGradient>
-<linearGradient id="paint1_linear_328_28850" x1="3.13688" y1="17.6699" x2="24.2297" y2="11.0235" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_328_28850" x1="2.02907" y1="18.3787" x2="25.7584" y2="10.9015" gradientUnits="userSpaceOnUse">
 <stop offset="0.2" stop-color="#CAA467"/>
 <stop offset="0.62" stop-color="#ECC77C"/>
 <stop offset="0.92" stop-color="#CCA362"/>

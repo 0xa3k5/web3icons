@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#zircuit__a)" fill-rule="evenodd" d="M2 12C2 6.478 6.477 2 12 2s10 4.477 10 10a9.95 9.95 0 0 1-2.425 6.528l-7.562-7.561-6.502 6.502-1.074 1.073A9.95 9.95 0 0 1 2 12m17.321 3.897.091-.183h.001a8.3 8.3 0 0 0 .877-3.713c0-4.571-3.719-8.29-8.29-8.29s-8.289 3.719-8.289 8.29c0 1.292.306 2.582.885 3.73l.092.182 7.325-7.324zM12.001 22c2.489 0 4.766-.91 6.517-2.415l-6.504-6.505-6.517 6.516A9.94 9.94 0 0 0 12 22" clip-rule="evenodd"/>
+    <path fill="url(#zircuit__a)" fill-rule="evenodd" d="M3 12a9 9 0 1 1 15.817 5.876l-6.805-6.806-5.853 5.852-.966.966A8.95 8.95 0 0 1 3 12m15.589 3.507.082-.164c.517-1.03.79-2.186.79-3.343 0-4.113-3.347-7.46-7.46-7.46-4.115 0-7.46 3.347-7.46 7.46 0 1.163.275 2.324.796 3.358l.083.164 6.592-6.592zM12 21c2.24 0 4.29-.819 5.866-2.174l-5.854-5.854-5.865 5.865A8.95 8.95 0 0 0 12 21" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="zircuit__a" x1="12" x2="12.03" y1="2" y2="22" gradientUnits="userSpaceOnUse">
+        <linearGradient id="zircuit__a" x1="12" x2="12.027" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#169E00"/>
             <stop offset=".49" stop-color="#00C537"/>
             <stop offset="1" stop-color="#00B1C9"/>

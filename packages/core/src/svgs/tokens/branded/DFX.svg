@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#DFX__a)" d="M12 4.005v8.03l-3.145-3.2c-1.015.87-1.325 2.515-1.37 3.2 0 2.725 2.72 4.625 4.515 4.43V20c-6.31-.3-7.965-5.435-8-7.965 0-5.62 4.845-8.16 8-8.03"/>
-    <path fill="url(#DFX__b)" d="M12 19.995v-8.03l3.145 3.2c1.015-.87 1.325-2.515 1.37-3.2 0-2.725-2.72-4.625-4.515-4.43V4c6.31.3 7.965 5.435 8 7.965 0 5.62-4.845 8.16-8 8.03"/>
+    <path fill="url(#DFX__a)" d="M12 3.006v9.033l-3.538-3.6c-1.142.979-1.49 2.83-1.541 3.6 0 3.066 3.06 5.204 5.079 4.984V21c-7.099-.337-8.96-6.114-9-8.96 0-6.323 5.45-9.18 9-9.034"/>
+    <path fill="url(#DFX__b)" d="M12 20.995V11.96l3.538 3.6c1.142-.979 1.49-2.83 1.541-3.6 0-3.066-3.06-5.203-5.079-4.984V3c7.099.338 8.96 6.115 9 8.96 0 6.323-5.45 9.18-9 9.035"/>
     <defs>
-        <linearGradient id="DFX__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DFX__a" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop offset=".32" stop-color="#00E8F2"/>
             <stop offset="1" stop-color="#3F28F7"/>
         </linearGradient>
-        <linearGradient id="DFX__b" x1="16" x2="16" y1="20" y2="4" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DFX__b" x1="16.5" x2="16.5" y1="21" y2="3" gradientUnits="userSpaceOnUse">
             <stop offset=".46" stop-color="#EA00D1"/>
             <stop offset="1" stop-color="#6401F2"/>
         </linearGradient>

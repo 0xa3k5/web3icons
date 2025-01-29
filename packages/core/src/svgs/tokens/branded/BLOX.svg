@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#BLOX__a)" d="M11.5 11.466 4 8.266v8L11.5 20z"/>
-    <path fill="url(#BLOX__b)" d="M12 4 4.535 7.2 12 10.4l7.465-3.2z"/>
-    <path fill="url(#BLOX__c)" d="m20 8-7.5 3.465v8.534l7.5-3.734z"/>
+    <path fill="url(#BLOX__a)" d="M11.437 11.399 3 7.799v9L11.437 21z"/>
+    <path fill="url(#BLOX__b)" d="M12 3 3.602 6.6 12 10.2l8.398-3.6z"/>
+    <path fill="url(#BLOX__c)" d="m21 7.5-8.437 3.898v9.601L21 16.798z"/>
     <defs>
-        <linearGradient id="BLOX__a" x1="21.066" x2="21.066" y1="-1.814" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BLOX__a" x1="22.199" x2="22.199" y1="-3.541" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#84F9C8"/>
             <stop offset="1" stop-color="#7FB7F6"/>
         </linearGradient>
-        <linearGradient id="BLOX__b" x1="12" x2="12" y1="4" y2="43.998" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BLOX__b" x1="12" x2="12" y1="3" y2="47.998" gradientUnits="userSpaceOnUse">
             <stop stop-color="#84F9C8"/>
             <stop offset="1" stop-color="#7FB7F6"/>
         </linearGradient>
-        <linearGradient id="BLOX__c" x1="12" x2="12" y1="4" y2="19.999" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BLOX__c" x1="12" x2="12" y1="3" y2="20.999" gradientUnits="userSpaceOnUse">
             <stop stop-color="#84F9C8"/>
             <stop offset="1" stop-color="#7FB7F6"/>
         </linearGradient>

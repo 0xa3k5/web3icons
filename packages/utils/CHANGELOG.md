@@ -1,5 +1,11 @@
 # @web3icons/utils
 
+## 0.3.1
+
+### Patch Changes
+
+- slightly reduce icon sizes for better consistency
+
 ## 0.3.0
 
 ### Minor Changes

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#DFYN__a)" d="M10.71 13.143H6.058L8.343 4h3.685c1.846 0 3.076 1.673 3.222 3.218.114 1.235-.48 2.958-.79 3.64h3.483L9.015 20z"/>
+    <path fill="url(#DFYN__a)" d="M10.55 13.286H5.314L7.886 3h4.145c2.077 0 3.461 1.882 3.625 3.62.129 1.39-.54 3.328-.89 4.094h3.92L8.642 21z"/>
     <defs>
-        <linearGradient id="DFYN__a" x1="16.627" x2="5.559" y1="7.314" y2="13.743" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DFYN__a" x1="17.205" x2="4.754" y1="6.729" y2="13.961" gradientUnits="userSpaceOnUse">
             <stop stop-color="#B8566F"/>
             <stop offset="1" stop-color="#60B9E2"/>
         </linearGradient>

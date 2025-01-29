@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#SALT__a)" d="m12 8.911 4.414 8.882H7.588zM12 4 4.276 20h15.448z"/>
+    <path fill="url(#SALT__a)" d="m12 8.525 4.966 9.992H7.037zM12 3 3.31 21h17.38z"/>
     <defs>
-        <linearGradient id="SALT__a" x1="8.819" x2="19.724" y1="12" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SALT__a" x1="8.422" x2="20.69" y1="12" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#17BABC"/>
             <stop offset="1" stop-color="#687883"/>
         </linearGradient>

@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#EMP__a)" d="M9 14H4.25A8 8 0 0 1 4 12c0-4.42 3.545-8 7.92-8H20l-2.476 2.335-.065-.03z"/>
-    <path fill="url(#EMP__b)" d="M19.999 12a8 8 0 0 1-13.6 5.709l3.1-3.21a3.54 3.54 0 0 0 2.5 1 3.5 3.5 0 0 0 2.775-5.635l.225-.2 2.98-2.98A7.97 7.97 0 0 1 19.999 12"/>
-    <path fill="url(#EMP__c)" d="M19.999 11.999a8 8 0 0 1-15.6 2.5h5.1l.255.224c.76.675 2.195 1.94 4.41 1.94C17 16.663 19.5 13.833 19.5 11c0-1.21-.25-2.225-.56-2.98A7.97 7.97 0 0 1 20 12"/>
+    <path fill="url(#EMP__a)" d="M8.626 14.25H3.282A9 9 0 0 1 3.001 12c0-4.973 3.988-9 8.91-9H21l-2.785 2.627-.073-.034z"/>
+    <path fill="url(#EMP__b)" d="M20.999 11.999A9 9 0 0 1 5.7 18.422l3.487-3.61A3.98 3.98 0 0 0 12 15.935a3.938 3.938 0 0 0 3.121-6.339l.253-.225 3.353-3.352a8.97 8.97 0 0 1 2.272 5.979"/>
+    <path fill="url(#EMP__c)" d="M20.999 11.999A9 9 0 0 1 3.45 14.81h5.737l.287.253c.855.76 2.47 2.182 4.96 2.182 3.19 0 6.002-3.183 6.002-6.372 0-1.361-.281-2.503-.63-3.353A8.96 8.96 0 0 1 21 12"/>
     <defs>
-        <linearGradient id="EMP__a" x1="7.3" x2="17.408" y1="17.865" y2="13.528" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EMP__a" x1="6.713" x2="18.084" y1="18.598" y2="13.719" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0031A5"/>
             <stop offset=".48" stop-color="#009EEF"/>
             <stop offset="1" stop-color="#009DEE"/>
         </linearGradient>
-        <linearGradient id="EMP__b" x1="12.035" x2="12.035" y1="4" y2="20.004" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EMP__b" x1="12.039" x2="12.039" y1="3" y2="21.005" gradientUnits="userSpaceOnUse">
             <stop stop-color="#00BAFF"/>
             <stop offset=".67" stop-color="#05207D"/>
         </linearGradient>
-        <linearGradient id="EMP__c" x1="20.169" x2="4.205" y1="14.164" y2="14.844" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EMP__c" x1="21.19" x2="3.231" y1="14.434" y2="15.199" gradientUnits="userSpaceOnUse">
             <stop stop-color="#03DDFE"/>
             <stop offset=".41" stop-color="#0058C1"/>
             <stop offset=".69" stop-color="#00136C"/>

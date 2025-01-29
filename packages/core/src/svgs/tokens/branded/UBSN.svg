@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#fff" d="m13.667 14.333-5.333-3.334V9.666l5.333 3.333z" opacity=".8"/>
-    <path fill="url(#UBSN__a)" d="M8.334 9.666H20v1.333H8.334z"/>
-    <path fill="url(#UBSN__b)" d="M13.667 14.333H4V13h9.667z"/>
+    <path fill="#fff" d="m13.875 14.625-6-3.75v-1.5l6 3.75z" opacity=".8"/>
+    <path fill="url(#UBSN__a)" d="M7.875 9.375H21v1.5H7.875z"/>
+    <path fill="url(#UBSN__b)" d="M13.875 14.625H3v-1.5h10.875z"/>
     <defs>
-        <linearGradient id="UBSN__a" x1="9.213" x2="19.573" y1="10.653" y2="10.653" gradientUnits="userSpaceOnUse">
+        <linearGradient id="UBSN__a" x1="8.865" x2="20.52" y1="10.485" y2="10.485" gradientUnits="userSpaceOnUse">
             <stop stop-color="#fff"/>
             <stop offset="1" stop-color="#fff" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="UBSN__b" x1="12.937" x2="4.353" y1="13.347" y2="13.347" gradientUnits="userSpaceOnUse">
+        <linearGradient id="UBSN__b" x1="13.054" x2="3.397" y1="13.515" y2="13.515" gradientUnits="userSpaceOnUse">
             <stop stop-color="#fff"/>
             <stop offset="1" stop-color="#fff" stop-opacity="0"/>
         </linearGradient>

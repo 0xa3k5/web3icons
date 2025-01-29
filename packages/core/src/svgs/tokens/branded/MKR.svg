@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#MKR__a)" d="M4.199 7.255a.4.4 0 0 1 .399-.002l6.398 3.64a.4.4 0 0 1 .203.347v5.16a.4.4 0 1 1-.8 0v-4.927L4.8 8.288V16.4a.4.4 0 1 1-.8 0V7.6a.4.4 0 0 1 .199-.345m15.602 0a.4.4 0 0 0-.399-.002l-6.398 3.64a.4.4 0 0 0-.203.347v5.16a.4.4 0 1 0 .8 0v-4.927L19.2 8.288V16.4a.4.4 0 0 0 .8 0V7.6a.4.4 0 0 0-.199-.345"/>
+    <path fill="url(#MKR__a)" d="M3.224 6.66a.45.45 0 0 1 .448-.001l7.199 4.095a.45.45 0 0 1 .228.39v5.806a.45.45 0 1 1-.9 0v-5.544L3.9 7.824v9.126a.45.45 0 0 1-.9 0v-9.9a.45.45 0 0 1 .224-.39m17.552 0a.45.45 0 0 0-.449-.001l-7.198 4.095a.45.45 0 0 0-.228.39v5.806a.45.45 0 0 0 .9 0v-5.544L20.1 7.824v9.126a.45.45 0 0 0 .9 0v-9.9a.45.45 0 0 0-.224-.39"/>
     <defs>
-        <linearGradient id="MKR__a" x1="4" x2="20" y1="12" y2="12" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MKR__a" x1="3" x2="21" y1="12" y2="12" gradientUnits="userSpaceOnUse">
             <stop stop-color="#1BC4A3"/>
             <stop offset="1" stop-color="#586979"/>
         </linearGradient>

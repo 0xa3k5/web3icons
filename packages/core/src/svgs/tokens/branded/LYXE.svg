@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#LYXE__a)" d="m12 4 7.11 3.944v8.111L12 20l-7.111-3.945v-8.11z"/>
-    <path fill="#fff" d="M14 8.444h-3.978L8 11.999h4.068z"/>
-    <path fill="#DADBDA" d="M10.05 15.556 8.021 12h4.024l1.994 3.556z"/>
-    <path fill="#EFEEEE" d="m14.038 15.553-1.995-3.548 1.956-3.561 1.999 3.555z"/>
+    <path fill="url(#LYXE__a)" d="m12 3 8 4.438v9.125L12 21l-8-4.438V7.438z"/>
+    <path fill="#fff" d="M14.25 8H9.775L7.5 12h4.576z"/>
+    <path fill="#DADBDA" d="m9.807 16-2.283-4h4.526l2.244 4z"/>
+    <path fill="#EFEEEE" d="m14.292 15.998-2.244-3.992L14.25 8l2.248 4z"/>
     <defs>
-        <linearGradient id="LYXE__a" x1="8.886" x2="15.668" y1="5.78" y2="18.081" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LYXE__a" x1="8.498" x2="16.127" y1="5.003" y2="18.841" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E59F9A"/>
             <stop offset="1" stop-color="#6A3FBA"/>
         </linearGradient>

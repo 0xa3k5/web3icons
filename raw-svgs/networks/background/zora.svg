@@ -4,7 +4,7 @@
 <path d="M12 20C7.58171 20 4 16.4183 4 11.9999C4 7.58171 7.58171 4 12 4C16.4183 4 19.9999 7.58171 19.9999 11.9999C19.9999 16.4183 16.4183 20 12 20Z" fill="url(#paint0_radial_328_60534)"/>
 </g>
 <defs>
-<radialGradient id="paint0_radial_328_60534" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(15.6322 8.3018) rotate(180) scale(13.5137)">
+<radialGradient id="paint0_radial_328_60534" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(15.6322 8.3018) rotate(180) scale(13.5137 13.5137)">
 <stop offset="0.00682297" stop-color="#F2CEFE"/>
 <stop offset="0.1913" stop-color="#AFBAF1"/>
 <stop offset="0.4982" stop-color="#4281D3"/>

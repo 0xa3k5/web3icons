@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#SLG__a)" d="m4.47 16.645 2.354-4.376 5.223 2.296 5.13-2.296 2.352 4.376L12.047 20z"/>
-    <path fill="url(#SLG__b)" fill-rule="evenodd" d="M11.99 14.875a854 854 0 0 0-5.166-2.607l5.167-2.57 5.185 2.57zm0-.815c-1.162-.588-3.5-1.774-3.543-1.788l3.544-1.76 3.562 1.765-3.562 1.788zm-1.637-1.355 1.647.706 1.647-.71L12 11.999l-1.647.701z" clip-rule="evenodd"/>
-    <path fill="url(#SLG__c)" d="M11.999 11.53 8.234 9.872 12 4z"/>
-    <path fill="url(#SLG__d)" d="m12 11.53 3.764-1.657L12 4z"/>
+    <path fill="url(#SLG__a)" d="m3.53 17.225 2.647-4.923 5.876 2.583 5.77-2.583 2.647 4.923L12.053 21z"/>
+    <path fill="url(#SLG__b)" fill-rule="evenodd" d="M11.99 15.234A960 960 0 0 0 6.176 12.3l5.812-2.89 5.834 2.89zm0-.916c-1.308-.662-3.94-1.996-3.987-2.012l3.986-1.98 4.008 1.985-4.008 2.012zm-1.843-1.525 1.853.794 1.853-.8L12 12l-1.853.789z" clip-rule="evenodd"/>
+    <path fill="url(#SLG__c)" d="M11.999 11.47 7.764 9.607 11.999 3z"/>
+    <path fill="url(#SLG__d)" d="m12 11.47 4.235-1.863L12 3z"/>
     <defs>
-        <linearGradient id="SLG__a" x1="11.849" x2="11.849" y1="19.365" y2="13.525" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SLG__a" x1="11.831" x2="11.831" y1="20.285" y2="13.715" gradientUnits="userSpaceOnUse">
             <stop offset=".59" stop-color="#A9CFD8"/>
             <stop offset="1" stop-color="#CFE6EE"/>
         </linearGradient>
-        <linearGradient id="SLG__b" x1="12" x2="12" y1="9.698" y2="14.874" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SLG__b" x1="12" x2="12" y1="9.41" y2="15.233" gradientUnits="userSpaceOnUse">
             <stop offset=".57" stop-color="#D7FDFF"/>
             <stop offset="1" stop-color="#DAFBFF"/>
         </linearGradient>
-        <linearGradient id="SLG__c" x1="8.973" x2="11.665" y1="10.216" y2="5.261" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SLG__c" x1="8.595" x2="11.623" y1="9.993" y2="4.419" gradientUnits="userSpaceOnUse">
             <stop offset=".46" stop-color="#70B8C7"/>
             <stop offset="1" stop-color="#D8F3FC"/>
         </linearGradient>
-        <linearGradient id="SLG__d" x1="15.025" x2="12.334" y1="10.216" y2="5.261" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SLG__d" x1="15.403" x2="12.375" y1="9.993" y2="4.419" gradientUnits="userSpaceOnUse">
             <stop offset=".26" stop-color="#96CEDF"/>
             <stop offset="1" stop-color="#D8F3FC"/>
         </linearGradient>

@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#PWR__a)" d="M11.998 19.999A8.002 8.002 0 0 0 19.69 9.791q.06.345.06.705c0 3.201-3.166 4.001-4.751 4.001H8.997l-.5 2.501h-2.75a8 8 0 0 0 6.25 3.001"/>
-    <path fill="url(#PWR__b)" d="M5.547 16.733A8.002 8.002 0 1 1 19.35 8.836c-.46-.776-1.386-1.34-3.101-1.34H8.998l-2.501 2.5h8.502v-1l3.001 2-3 2v-1H6.496z"/>
+    <path fill="url(#PWR__a)" d="M11.998 20.999A9.004 9.004 0 0 0 20.65 9.515q.068.388.068.793c0 3.601-3.562 4.501-5.345 4.501H8.622l-.563 2.814H4.964a9 9 0 0 0 7.034 3.376"/>
+    <path fill="url(#PWR__b)" d="M4.74 17.324A9.003 9.003 0 1 1 20.27 8.44c-.518-.872-1.56-1.508-3.49-1.508H8.623L5.81 9.745h9.565V8.62l3.376 2.25-3.376 2.251v-1.125H5.81z"/>
     <defs>
-        <linearGradient id="PWR__a" x1="6.526" x2="20.331" y1="16.864" y2="12.994" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PWR__a" x1="5.842" x2="21.373" y1="17.471" y2="13.118" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4D4D4D"/>
             <stop offset="1" stop-color="#1A1A1A"/>
         </linearGradient>
-        <linearGradient id="PWR__b" x1="5.247" x2="18.75" y1="7.245" y2="7.495" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PWR__b" x1="4.402" x2="19.594" y1="6.651" y2="6.932" gradientUnits="userSpaceOnUse">
             <stop stop-color="#008CC4"/>
             <stop offset="1" stop-color="#00A8F8"/>
         </linearGradient>
