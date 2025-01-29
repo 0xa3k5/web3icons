@@ -1,4 +1,4 @@
-import { TType, TMetadata } from '@web3icons/common'
+import { TType, TMetadata, ITokenMetadata } from '@web3icons/common'
 import fs from 'fs'
 import {
   TOKENS_METADATA_PATH,
@@ -23,5 +23,8 @@ const METADATA_PATHS = {
 
 export const findExistingMetadata = (id: string, type: TType): TMetadata | undefined => {
   const metadata = JSON.parse(fs.readFileSync(METADATA_PATHS[type], 'utf-8'))
+  if (type === 'token') {
+    return metadata.find((item: ITokenMetadata) => item.symbol.toUpperCase() === id)
+  }
   return metadata.find((item: TMetadata) => item.id === id)
 }
