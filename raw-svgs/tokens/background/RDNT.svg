@@ -1,7 +1,7 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_328_40811)">
 <path d="M24 0H0V24H24V0Z" fill="url(#paint0_linear_328_40811)"/>
-<path d="M10.875 9.19001L5.25001 5.25001L9.19001 10.875L3 12L9.19001 13.125L5.25001 18.19L10.875 14.81L12 21L13.125 14.81L19.03 18.19L14.25 13.125L21 12L14.25 10.875L18.75 5.25001L13.125 9.19001L12 3L10.875 9.19001Z" fill="white"/>
+<path d="M11 9.50223L6.00001 6.00001L9.50223 11L4 12L9.50223 13L6.00001 17.5022L11 14.4978L12 20L13 14.4978L18.2489 17.5022L14 13L20 12L14 11L18 6.00001L13 9.50223L12 4L11 9.50223Z" fill="white"/>
 </g>
 <defs>
 <linearGradient id="paint0_linear_328_40811" x1="12" y1="4" x2="12" y2="20" gradientUnits="userSpaceOnUse">

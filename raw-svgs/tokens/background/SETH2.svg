@@ -1,12 +1,12 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_328_37718)">
 <path d="M24 0H0V24H24V0Z" fill="url(#paint0_linear_328_37718)"/>
-<path d="M11.9997 13.5875V3L7.76465 11.2055L11.9997 13.5875Z" fill="white"/>
-<path d="M12 13.5875V3L16.2351 11.2055L12 13.5875Z" fill="white"/>
-<path d="M12.0002 13.5873L7.76515 11.2051L4.58887 17.2929L12.0002 13.5873Z" fill="white"/>
-<path d="M12 13.5873L16.2351 11.2051L19.4112 17.2929L12 13.5873Z" fill="white"/>
-<path d="M12.0002 21.0002V13.5889L4.58887 17.2945L12.0002 21.0002Z" fill="white"/>
-<path d="M12 21.0002V13.5889L19.4112 17.2945L12 21.0002Z" fill="white"/>
+<path d="M11.9998 13.4111V4L8.23535 11.2937L11.9998 13.4111Z" fill="white"/>
+<path d="M12 13.4111V4L15.7645 11.2937L12 13.4111Z" fill="white"/>
+<path d="M12.0004 13.4109L8.23593 11.2935L5.4126 16.7048L12.0004 13.4109Z" fill="white"/>
+<path d="M12 13.4109L15.7645 11.2935L18.5877 16.7048L12 13.4109Z" fill="white"/>
+<path d="M12.0004 19.9999V13.4121L5.4126 16.706L12.0004 19.9999Z" fill="white"/>
+<path d="M12 19.9999V13.4121L18.5877 16.706L12 19.9999Z" fill="white"/>
 </g>
 <defs>
 <linearGradient id="paint0_linear_328_37718" x1="18.5885" y1="7.99977" x2="14.0646" y2="20.6009" gradientUnits="userSpaceOnUse">
