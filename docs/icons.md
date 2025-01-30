@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (162)](#networks)
+- [networks (166)](#networks)
 - [exchanges (26)](#exchanges)
-- [tokens (1814)](#tokens)
+- [tokens (1820)](#tokens)
 
 ### Wallets
 
@@ -214,6 +214,10 @@ jump to section:
 | paradex             | Paradex                      | ✅      | ✅   | ✅         |
 | zero-network        | Zero Network                 | ✅      | ✅   | ✅         |
 | zircuit             | Zircuit                      | ✅      | ✅   | ✅         |
+| expchain            | EXPchain                     | ✅      | ✅   | ✅         |
+| japan-open-chain    | Japan Open Chain             | ✅      | ✅   | ✅         |
+| vana                | Vana                         | ✅      | ✅   | ✅         |
+| vara                | Vara                         | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -1296,7 +1300,7 @@ jump to section:
 | Neptune Mutual                         | npm         | ✅      | ✅   | ✅         |
 | NerveNetwork                           | nvt         | ✅      | ✅   | ✅         |
 | Nervos Network                         | ckb         | ✅      | ❌   | ✅         |
-| Nest Protocol                          | nest        | ❌      | ✅   | ❌         |
+| Nest Protocol                          | nest        | ✅      | ✅   | ✅         |
 | Netswap                                | nett        | ✅      | ✅   | ✅         |
 | Neurai                                 | xna         | ✅      | ✅   | ✅         |
 | Neuroni AI                             | neuroni     | ✅      | ✅   | ✅         |
@@ -2064,3 +2068,9 @@ jump to section:
 | ZoidPay                                | zpay        | ✅      | ✅   | ✅         |
 | Zoomer                                 | zoomer      | ✅      | ✅   | ✅         |
 | Zynecoin                               | zyn         | ✅      | ✅   | ✅         |
+| Hush                                   | HUSH        | ✅      | ✅   | ✅         |
+| Immutable                              | IMX         | ✅      | ✅   | ✅         |
+| Pink BNB                               | PNB         | ✅      | ✅   | ✅         |
+| Japan Open Chain                       | JOP         | ✅      | ✅   | ✅         |
+| 0x Protocol                            | ZRX         | ✅      | ✅   | ✅         |
+| Vara                                   | VARA        | ✅      | ✅   | ✅         |

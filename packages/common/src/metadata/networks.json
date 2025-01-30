@@ -1557,5 +1557,43 @@
     "shortName": "zircuit",
     "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "expchain",
+    "fileName": "expchain",
+    "chainId": 18880,
+    "caip2id": "eip155:18880",
+    "name": "EXPchain",
+    "shortName": "expchain",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "japan-open-chain",
+    "fileName": "japan-open-chain",
+    "chainId": 81,
+    "caip2id": "eip155:81",
+    "name": "Japan Open Chain",
+    "shortName": "JOC",
+    "nativeCoinId": "JOC",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "vana",
+    "fileName": "vana",
+    "chainId": 1480,
+    "caip2id": "eip155:1480",
+    "name": "Vana",
+    "shortName": "vana",
+    "nativeCoinId": "VANA",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "vara",
+    "fileName": "vara",
+    "caip2id": "gear:vara-mainnet",
+    "name": "Vara",
+    "shortName": "vara",
+    "nativeCoinId": "VARA",
+    "variants": ["background", "branded", "mono"]
   }
 ]

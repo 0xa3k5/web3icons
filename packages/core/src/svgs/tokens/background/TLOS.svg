@@ -1,14 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
     <g clip-path="url(#TLOS__a)">
-        <path fill="#000" d="M24 0H0v24h24z"/>
-        <path fill="url(#TLOS__b)" fill-rule="evenodd" d="M5.355 10.092c-.316-.685-.854-2.191-.474-2.745.38-.553 1.534-1.732 2.069-2.164.113-.052.465-.16.971-.178.507-.018 3.284-.007 4.61 0 .24-.387.782-.986.98-1.004.2-.018 2.478.141 3.593.223.226.06.632.335.452.96-.181.624-.648 1.896-.859 2.453l2.553 4.373c-.03.736-.33 2.665-.637 3.289-.263.534-1.417.68-2.25.786q-.212.027-.389.052c-.3.889-2.43 2.722-8.043 3.825-.818.16-1.512-.192-1.784-.97-.998-2.855-2.072-7.225-.792-8.9m1.4-.207c.069.076.166.296 0 .56l-.002.002c-.209.33-.752 1.194-.727 2.767.021 1.26 1.014 4.05 1.508 5.286 2.262-.423 6.895-1.672 7.332-3.278.035-.136.234-.432.754-.534.193-.038.425-.067.66-.095.556-.07 1.128-.14 1.238-.337.125-.223.38-1.347.493-1.88-.892-1.33-2.682-4.117-2.703-4.625-.021-.509.476-1.7.728-2.251H14.06c-.208.398-.754 1.02-1.274 1s-3.596-.009-5.07 0l-1.69 1.505z" clip-rule="evenodd"/>
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="url(#TLOS__b)" fill-rule="evenodd" d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12m0 3a9 9 0 1 0 0-18 9 9 0 0 0 0 18" clip-rule="evenodd"/>
     </g>
     <defs>
-        <linearGradient id="TLOS__b" x1="4.75" x2="19.25" y1="12" y2="12" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#AC72F8"/>
-            <stop offset=".724" stop-color="#39297E"/>
-            <stop offset="1" stop-color="#AC72F8"/>
-        </linearGradient>
+        <radialGradient id="TLOS__b" cx="0" cy="0" r="1" gradientTransform="matrix(0 9 -9 0 12 12)" gradientUnits="userSpaceOnUse">
+            <stop offset=".152" stop-color="#42A0B9"/>
+            <stop offset=".247" stop-color="#70C38D"/>
+            <stop offset=".344" stop-color="#6FC68F"/>
+            <stop offset=".488" stop-color="#3B74CE"/>
+            <stop offset=".66" stop-color="#954494"/>
+            <stop offset=".76" stop-color="#9A4290"/>
+            <stop offset=".871" stop-color="#7256AB"/>
+            <stop offset="1" stop-color="#3D7DC7"/>
+        </radialGradient>
         <clipPath id="TLOS__a">
             <path fill="#fff" d="M0 0h24v24H0z"/>
         </clipPath>

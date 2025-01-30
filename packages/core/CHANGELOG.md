@@ -1,5 +1,31 @@
 # @web3icons/core
 
+## 4.0.2
+
+### Patch Changes
+
+- new networks:
+  Vana (background, branded, mono)
+  Vara (background, branded, mono)
+  Japan Open Chain (background, branded, mono)
+  EXP Chain (background, branded, mono)
+
+  new tokens:
+  PNB (background, branded, mono)
+  JOP (background, branded, mono)
+  VARA (background, branded, mono)
+  VANA (background, branded, mono)
+  HUSH (background, branded, mono)
+  ZRX (background, branded, mono)
+
+  new variants:
+  NEST (background, branded)
+
+  fixed: TELOS
+
+- Updated dependencies
+  - @web3icons/common@0.11.1
+
 ## 4.0.1
 
 ### Patch Changes
