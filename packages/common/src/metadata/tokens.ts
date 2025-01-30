@@ -21206,4 +21206,13 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 0,
     addresses: {},
   },
+  {
+    id: 'vara',
+    name: 'Vara',
+    variants: ['background', 'branded', 'mono'],
+    fileName: 'VARA',
+    symbol: 'VARA',
+    marketCapRank: 0,
+    addresses: {},
+  },
 ]

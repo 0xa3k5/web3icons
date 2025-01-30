@@ -3,7 +3,7 @@ jump to section:
 - [wallets (38)](#wallets)
 - [networks (166)](#networks)
 - [exchanges (26)](#exchanges)
-- [tokens (1819)](#tokens)
+- [tokens (1820)](#tokens)
 
 ### Wallets
 
@@ -2073,3 +2073,4 @@ jump to section:
 | Pink BNB                               | PNB         | ✅      | ✅   | ✅         |
 | Japan Open Chain                       | JOP         | ✅      | ✅   | ✅         |
 | 0x Protocol                            | ZRX         | ✅      | ✅   | ✅         |
+| Vara                                   | VARA        | ✅      | ✅   | ✅         |

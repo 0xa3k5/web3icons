@@ -3081,6 +3081,7 @@ import * as TMonoROUTE from './svgs/tokens/mono/ROUTE.svg'
 import * as TMonoUSN from './svgs/tokens/mono/USN.svg'
 import * as TMonoBST from './svgs/tokens/mono/BST.svg'
 import * as TMonoICE from './svgs/tokens/mono/ICE.svg'
+import * as TMonoVARA from './svgs/tokens/mono/VARA.svg'
 import * as TMonoSENSE from './svgs/tokens/mono/SENSE.svg'
 import * as TMonoDATA from './svgs/tokens/mono/DATA.svg'
 import * as TMonoRAMP from './svgs/tokens/mono/RAMP.svg'
@@ -4817,6 +4818,7 @@ import * as TBackgroundROUTE from './svgs/tokens/background/ROUTE.svg'
 import * as TBackgroundUSN from './svgs/tokens/background/USN.svg'
 import * as TBackgroundBST from './svgs/tokens/background/BST.svg'
 import * as TBackgroundICE from './svgs/tokens/background/ICE.svg'
+import * as TBackgroundVARA from './svgs/tokens/background/VARA.svg'
 import * as TBackgroundSENSE from './svgs/tokens/background/SENSE.svg'
 import * as TBackgroundBEN from './svgs/tokens/background/BEN.svg'
 import * as TBackgroundDATA from './svgs/tokens/background/DATA.svg'
@@ -8838,6 +8840,7 @@ export const svgs = {
       USN: TMonoUSN,
       BST: TMonoBST,
       ICE: TMonoICE,
+      VARA: TMonoVARA,
       SENSE: TMonoSENSE,
       DATA: TMonoDATA,
       RAMP: TMonoRAMP,
@@ -10576,6 +10579,7 @@ export const svgs = {
       USN: TBackgroundUSN,
       BST: TBackgroundBST,
       ICE: TBackgroundICE,
+      VARA: TBackgroundVARA,
       SENSE: TBackgroundSENSE,
       BEN: TBackgroundBEN,
       DATA: TBackgroundDATA,
