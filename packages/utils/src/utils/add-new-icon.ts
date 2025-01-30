@@ -72,7 +72,7 @@ const getBaseMetadata = async (
   }
 
   const name = (await text({
-    message: 'Enter short name (human readable)',
+    message: 'Enter name (human readable)',
     placeholder: createHumanReadableName(currentFileName),
     validate: (value) => (value.length > 0 ? undefined : 'short name is required'),
   })) as string

@@ -56,7 +56,10 @@ export const handleDeletedIcons = async (): Promise<void> => {
     const { type, variant } = getTypeAndVariant(filePath)
 
     const existingMetadata = findExistingMetadata(fileName, type)
-    if (!existingMetadata) continue
+    if (!existingMetadata) {
+      console.log(chalk.yellow(`No metadata found for ${fileName}, safe to delete`))
+      continue
+    }
 
     console.log(chalk.yellow(`\nDeleted ${variant} variant of ${fileName}`))
 

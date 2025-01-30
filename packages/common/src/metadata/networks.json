@@ -1560,40 +1560,40 @@
   },
   {
     "id": "expchain",
-    "name": "EXPchain",
-    "variants": ["background", "branded", "mono"],
     "fileName": "expchain",
-    "shortName": "expchain",
     "chainId": 18880,
-    "caip2id": "eip155:18880"
+    "caip2id": "eip155:18880",
+    "name": "EXPchain",
+    "shortName": "expchain",
+    "variants": ["background", "branded", "mono"]
   },
   {
     "id": "japan-open-chain",
-    "name": "Japan Open Chain",
-    "variants": ["background", "branded", "mono"],
     "fileName": "japan-open-chain",
-    "shortName": "JOC",
     "chainId": 81,
     "caip2id": "eip155:81",
-    "nativeCoinId": "JOC"
+    "name": "Japan Open Chain",
+    "shortName": "JOC",
+    "nativeCoinId": "JOC",
+    "variants": ["background", "branded", "mono"]
   },
   {
     "id": "vana",
-    "name": "Vana",
-    "variants": ["background", "branded", "mono"],
     "fileName": "vana",
-    "shortName": "vana",
     "chainId": 1480,
     "caip2id": "eip155:1480",
-    "nativeCoinId": "VANA"
+    "name": "Vana",
+    "shortName": "vana",
+    "nativeCoinId": "VANA",
+    "variants": ["background", "branded", "mono"]
   },
   {
     "id": "vara",
-    "name": "Vara",
-    "variants": ["background", "branded", "mono"],
     "fileName": "vara",
-    "shortName": "vara",
     "caip2id": "gear:vara-mainnet",
-    "nativeCoinId": "VARA"
+    "name": "Vara",
+    "shortName": "vara",
+    "nativeCoinId": "VARA",
+    "variants": ["background", "branded", "mono"]
   }
 ]

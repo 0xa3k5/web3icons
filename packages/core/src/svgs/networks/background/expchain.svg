@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#expchain__a)">
+        <path fill="#F5F5F5" d="M0 0h24v24H0z"/>
+        <path fill="#141413" fill-rule="evenodd" d="m13.302 4.744 5.696 9.767a1.48 1.48 0 0 1-.55 2.034L12.752 19.8a1.52 1.52 0 0 1-1.504 0l-5.696-3.255a1.48 1.48 0 0 1-.55-2.034l5.696-9.767c.578-.992 2.025-.992 2.604 0m-7.2 10.396a.23.23 0 0 0 .085.316l5.49 3.139V5.578zm6.22-9.562v13.017l5.49-3.139a.23.23 0 0 0 .086-.316z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="expchain__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>
