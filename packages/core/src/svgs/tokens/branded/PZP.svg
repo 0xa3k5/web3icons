@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#PZP__a)" d="M11.556 17.777h.889v1.73c0 .27-.2.492-.445.492-.244 0-.444-.222-.444-.493z"/>
-    <path fill="url(#PZP__b)" d="M9.777 16.889h.89v1.729c0 .27-.2.493-.445.493s-.445-.222-.445-.493z"/>
-    <path fill="url(#PZP__c)" d="M12.445 6.222h-.89V4.493c0-.27.2-.493.445-.493s.444.222.444.493z"/>
-    <path fill="url(#PZP__d)" d="M14.223 6.667h-.889v-1.73c0-.27.2-.493.444-.493.245 0 .445.223.445.494z"/>
-    <path fill="url(#PZP__e)" d="M7.556 5.777v1.356c0 1.084.902 1.755 2.017 1.755h1.89c.404 0 .8.125.946.187a291 291 0 0 0-3.467 3.658c-.324.373-1.386 1.511-1.386 2.951a1.973 1.973 0 0 0 1.702 2.094h7.187v-1.356c0-1.085-.903-1.756-2.018-1.756h-1.76c-.4 0-.938-.124-1.107-.186.902-.943 2.911-3.138 3.311-3.534.507-.489 1.578-1.413 1.578-3.138a2.006 2.006 0 0 0-1.578-2.03z"/>
-    <path fill="url(#PZP__f)" d="m12.471 9.288-1.258 2.178c-.23.396-.546.827-.546 1.2 0 .889.617 1.391.889 1.556.52-.734.715-1.027 1.222-1.774a2.92 2.92 0 0 0 .556-1.933c0-1.329-1.232-2.031-1.778-2.071H9.382a2 2 0 0 1-1.826-1.311c0 1.084.902 1.755 2.017 1.755h1.983c.342 0 .666.223.915.4"/>
+    <path fill="url(#PZP__a)" d="M11.5 18.5h1v1.945c0 .305-.225.555-.5.555s-.5-.25-.5-.555z"/>
+    <path fill="url(#PZP__b)" d="M9.5 17.5h1v1.945c0 .305-.225.555-.5.555-.276 0-.5-.25-.5-.555z"/>
+    <path fill="url(#PZP__c)" d="M12.5 5.5h-1V3.555c0-.305.225-.555.5-.555s.5.25.5.555z"/>
+    <path fill="url(#PZP__d)" d="M14.5 6h-.999V4.055c0-.305.225-.555.5-.555s.5.25.5.555z"/>
+    <path fill="url(#PZP__e)" d="M7 5v1.525C7 7.745 8.015 8.5 9.27 8.5h2.125c.455 0 .9.14 1.065.21a328 328 0 0 0-3.9 4.115c-.365.42-1.56 1.7-1.56 3.32A2.22 2.22 0 0 0 8.915 18.5h8.086v-1.525C17 15.755 15.984 15 14.73 15h-1.98a4.7 4.7 0 0 1-1.246-.21c1.015-1.06 3.275-3.53 3.725-3.975.57-.55 1.775-1.59 1.775-3.53 0-1.55-1.18-2.17-1.775-2.285z"/>
+    <path fill="url(#PZP__f)" d="m12.53 8.95-1.415 2.45c-.26.445-.615.93-.615 1.35 0 1 .695 1.565 1 1.75.585-.825.805-1.155 1.375-1.995a3.28 3.28 0 0 0 .625-2.175c0-1.495-1.385-2.286-2-2.33H9.055A2.25 2.25 0 0 1 7 6.523C7 7.744 8.015 8.5 9.27 8.5h2.23c.385 0 .75.25 1.03.45"/>
     <defs>
-        <linearGradient id="PZP__a" x1="7.551" x2="13.603" y1="5.343" y2="22.35" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PZP__a" x1="6.994" x2="13.804" y1="4.511" y2="23.644" gradientUnits="userSpaceOnUse">
             <stop offset=".02" stop-color="#D4964B"/>
             <stop offset=".54" stop-color="#FFED87"/>
         </linearGradient>
-        <linearGradient id="PZP__b" x1="7.55" x2="13.833" y1="4" y2="17.234" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PZP__b" x1="6.994" x2="14.063" y1="2.999" y2="17.889" gradientUnits="userSpaceOnUse">
             <stop offset=".31" stop-color="#D4964B"/>
             <stop offset=".79" stop-color="#FFED87"/>
         </linearGradient>
-        <linearGradient id="PZP__c" x1="7.551" x2="13.603" y1="5.344" y2="22.351" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PZP__c" x1="6.994" x2="13.804" y1="4.512" y2="23.645" gradientUnits="userSpaceOnUse">
             <stop offset=".52" stop-color="#FFED87"/>
             <stop offset=".86" stop-color="#D4964B"/>
         </linearGradient>
-        <linearGradient id="PZP__d" x1="7.551" x2="13.834" y1="4" y2="17.235" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PZP__d" x1="6.995" x2="14.064" y1="3" y2="17.889" gradientUnits="userSpaceOnUse">
             <stop offset=".52" stop-color="#FFED87"/>
             <stop offset=".86" stop-color="#D4964B"/>
         </linearGradient>
-        <linearGradient id="PZP__e" x1="15.942" x2="5.028" y1="4.9" y2="16.321" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PZP__e" x1="16.435" x2="4.156" y1="4.013" y2="16.862" gradientUnits="userSpaceOnUse">
             <stop offset=".05" stop-color="#F8FCDA"/>
             <stop offset=".26" stop-color="#FCE34B"/>
             <stop offset=".76" stop-color="#FFAB39"/>
         </linearGradient>
-        <linearGradient id="PZP__f" x1="13.23" x2="10.248" y1="9.346" y2="14.333" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PZP__f" x1="13.384" x2="10.029" y1="9.015" y2="14.625" gradientUnits="userSpaceOnUse">
             <stop offset=".06" stop-color="#F96428"/>
             <stop offset=".8" stop-color="#F3F14F"/>
         </linearGradient>

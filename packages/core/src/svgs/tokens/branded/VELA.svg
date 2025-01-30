@@ -1,47 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#VELA__a)" d="m16.572 9.998-2.286 4.004c-.709 1.234-2.011 1.883-3.429 1.883l3.429-5.883L15.429 8z"/>
-    <path fill="url(#VELA__b)" d="m16.571 9.998-2.286 4.004c-.708 1.234-1.988 1.856-3.405 1.856l3.405-5.856L15.428 8z"/>
-    <path fill="url(#VELA__c)" d="m20 8.114-1.143 1.888-2.285 4c-.71 1.234-2.012 1.883-3.429 1.883h-2.286c1.418 0 2.693-.671 3.401-1.906l2.314-3.977-1.143-1.888z"/>
-    <path fill="url(#VELA__d)" d="M15.493 8.115H6.286l.732-1.45.416-.836h4.612c1.408 0 2.71.855 3.428 2.24l.023.046z"/>
-    <path fill="url(#VELA__e)" d="M15.493 8.115H6.286l1.216-2.286h4.65c1.407 0 2.623 1.07 3.336 2.286z"/>
-    <path fill="url(#VELA__f)" d="M15.405 7.963c-.708-1.216-1.952-2.134-3.355-2.134H7.479L6.318 8.114 4 4h6.857a3.95 3.95 0 0 1 2.404.823l.106.082q.147.125.283.26c.242.248.457.526.635.837z"/>
-    <path fill="url(#VELA__g)" d="M10.858 15.886H8.572L6.286 12a3.96 3.96 0 0 1 .018-3.922l.398.654L8.572 12z"/>
-    <path fill="url(#VELA__h)" d="M10.857 15.89v-.004H8.571L6.286 12a3.91 3.91 0 0 1 .023-3.895z"/>
-    <path fill="url(#VELA__i)" d="M10.875 15.886 8.571 20l-2.286-4-1.142-1.998a4 4 0 0 1-.325-.722l-.032-.11a4.6 4.6 0 0 1-.146-.667l-.01-.114-.009-.12v-.013l-.009-.123v-.124c-.001-.525.1-1.045.297-1.531l.05-.119q.084-.182.184-.357l1.152-1.897A3.9 3.9 0 0 0 6.29 12l2.286 3.886z"/>
+    <path fill="url(#VELA__a)" d="m17.143 9.747-2.572 4.505c-.796 1.389-2.262 2.12-3.856 2.12l3.857-6.62L15.857 7.5z"/>
+    <path fill="url(#VELA__b)" d="m17.142 9.747-2.571 4.505c-.797 1.389-2.237 2.088-3.831 2.088l3.83-6.588L15.858 7.5z"/>
+    <path fill="url(#VELA__c)" d="m21 7.629-1.286 2.124-2.571 4.5c-.797 1.388-2.263 2.118-3.857 2.118h-2.571c1.594 0 3.028-.755 3.826-2.144l2.602-4.474-1.286-2.124z"/>
+    <path fill="url(#VELA__d)" d="M15.93 7.629H5.572l.823-1.63.468-.941h5.189c1.584 0 3.05.961 3.857 2.52l.026.051z"/>
+    <path fill="url(#VELA__e)" d="M15.93 7.629H5.572L6.94 5.058h5.23c1.584 0 2.952 1.203 3.754 2.571z"/>
+    <path fill="url(#VELA__f)" d="M15.831 7.459c-.797-1.368-2.196-2.402-3.775-2.402H6.914L5.607 7.628 3 3h7.714a4.44 4.44 0 0 1 2.705.926l.118.092q.165.14.32.293c.272.278.514.592.714.942z"/>
+    <path fill="url(#VELA__g)" d="M10.715 16.372H8.143L5.572 12a4.45 4.45 0 0 1 .02-4.412l.448.735L8.143 12z"/>
+    <path fill="url(#VELA__h)" d="M10.714 16.376v-.005H8.143L5.57 12a4.4 4.4 0 0 1 .026-4.382z"/>
+    <path fill="url(#VELA__i)" d="M10.735 16.371 8.143 21 5.57 16.5l-1.285-2.248a4.6 4.6 0 0 1-.366-.812l-.036-.124a5 5 0 0 1-.164-.75l-.01-.13-.01-.133v-.015l-.011-.14v-.138a4.6 4.6 0 0 1 .334-1.723l.057-.134q.093-.204.206-.4l1.296-2.135A4.39 4.39 0 0 0 5.576 12l2.572 4.371z"/>
     <defs>
-        <linearGradient id="VELA__a" x1="27.181" x2="9.208" y1="2.711" y2="24.177" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VELA__a" x1="29.078" x2="8.859" y1="1.55" y2="25.699" gradientUnits="userSpaceOnUse">
             <stop stop-color="#02F0FE"/>
             <stop offset="1" stop-color="#4D7EFE"/>
         </linearGradient>
-        <linearGradient id="VELA__b" x1="18.252" x2="10.407" y1="6.709" y2="22.989" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VELA__b" x1="19.033" x2="10.207" y1="6.047" y2="24.363" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4D4AFE"/>
             <stop offset="1" stop-color="#4D7EFE" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="VELA__c" x1="19.36" x2="1.667" y1="3.633" y2="16.643" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VELA__c" x1="20.28" x2=".375" y1="2.588" y2="17.223" gradientUnits="userSpaceOnUse">
             <stop stop-color="#02F0FE"/>
             <stop offset="1" stop-color="#4D7EFE"/>
         </linearGradient>
-        <linearGradient id="VELA__d" x1=".173" x2="21.067" y1="-2.271" y2="-.781" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VELA__d" x1="-1.305" x2="22.2" y1="-4.055" y2="-2.379" gradientUnits="userSpaceOnUse">
             <stop stop-color="#02F0FE"/>
             <stop offset="1" stop-color="#4D7EFE"/>
         </linearGradient>
-        <linearGradient id="VELA__e" x1="3.746" x2="19.508" y1="12.32" y2="12.309" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VELA__e" x1="2.715" x2="20.446" y1="12.36" y2="12.347" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4D4AFE"/>
             <stop offset="1" stop-color="#4D7EFE" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="VELA__f" x1="4.468" x2="21.08" y1="5.884" y2="7.838" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VELA__f" x1="3.527" x2="22.215" y1="5.12" y2="7.318" gradientUnits="userSpaceOnUse">
             <stop stop-color="#02F0FE"/>
             <stop offset="1" stop-color="#4D7EFE"/>
         </linearGradient>
-        <linearGradient id="VELA__g" x1="16.23" x2="12.804" y1="27.953" y2="3.013" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VELA__g" x1="16.758" x2="12.905" y1="29.947" y2="1.89" gradientUnits="userSpaceOnUse">
             <stop stop-color="#02F0FE"/>
             <stop offset="1" stop-color="#4D7EFE"/>
         </linearGradient>
-        <linearGradient id="VELA__h" x1="17.48" x2="10.207" y1="21.475" y2="2.326" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VELA__h" x1="18.165" x2="9.983" y1="22.659" y2="1.116" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4D4AFE"/>
             <stop offset="1" stop-color="#4D7EFE" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="VELA__i" x1="8.914" x2="6.409" y1="19.927" y2="8.055" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VELA__i" x1="8.528" x2="5.71" y1="20.917" y2="7.562" gradientUnits="userSpaceOnUse">
             <stop stop-color="#02F0FE"/>
             <stop offset="1" stop-color="#4D7EFE"/>
         </linearGradient>

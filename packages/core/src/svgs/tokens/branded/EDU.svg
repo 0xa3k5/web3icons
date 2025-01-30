@@ -1,28 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#EDU__a)" d="M4.5 16.047V14.91l6.5 3.336v-4.89l1.46-.96a.8.8 0 0 1 .04.278v6.39c0 1.064-1.13 1.057-1.62.775-1.63-.935-5.48-2.848-5.85-3.014-.37-.167-.524-.588-.53-.778"/>
-    <path fill="#4273EB" d="m9 14.225-4.5-2.502v1.664l4.5 2.46z"/>
-    <path fill="url(#EDU__b)" d="m4.5 9.885 6.502 3.47 1.461-.95s-.161-.173-.35-.29L4.677 8.093a.54.54 0 0 0-.176.38z"/>
-    <path fill="url(#EDU__c)" d="M11.414 4.143 4.676 8.094l1.436.834 2.353-1.306 6.045 3.467 1.353-.935a1.5 1.5 0 0 0-.433-.387l-5.371-3.02 2.012-1.11 5.927 3.413 1.384-.92c-.099-.206-.336-.358-.458-.433l-6.29-3.554c-.532-.253-1.014-.116-1.22 0"/>
-    <path fill="url(#EDU__d)" d="M14.5 19.653v-8.557l1.36-.943c.111.12.14.32.14.393v8.138z"/>
-    <path fill="url(#EDU__e)" d="M18 17.509V9.054l1.36-.93c.111.118.14.315.14.387v7.644s0 .32-.226.483z"/>
+    <path fill="url(#EDU__a)" d="M3.563 16.553v-1.279l7.312 3.753v-5.502l1.643-1.079a.9.9 0 0 1 .045.312v7.189c0 1.197-1.271 1.19-1.823.872-1.834-1.052-6.166-3.204-6.582-3.391-.415-.188-.588-.66-.596-.875"/>
+    <path fill="#4273EB" d="M8.625 14.503 3.563 11.69v1.872l5.062 2.766z"/>
+    <path fill="url(#EDU__b)" d="m3.563 9.62 7.314 3.904 1.644-1.067s-.182-.196-.393-.328L3.76 7.605a.6.6 0 0 0-.199.429z"/>
+    <path fill="url(#EDU__c)" d="M11.34 3.161 3.76 7.606l1.616.938 2.648-1.47 6.8 3.9 1.522-1.051a1.7 1.7 0 0 0-.487-.435L9.816 6.09l2.264-1.249 6.667 3.84 1.557-1.036c-.11-.23-.378-.402-.514-.486L12.713 3.16c-.598-.285-1.14-.13-1.373 0"/>
+    <path fill="url(#EDU__d)" d="M14.813 20.61v-9.627l1.53-1.06c.125.134.157.36.157.44v9.156z"/>
+    <path fill="url(#EDU__e)" d="M18.75 18.197v-9.51l1.53-1.048c.125.133.158.355.158.436v8.6s0 .36-.255.542z"/>
     <defs>
-        <linearGradient id="EDU__a" x1="17.114" x2="12.807" y1="5.334" y2="18.226" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EDU__a" x1="17.754" x2="12.908" y1="4.5" y2="19.004" gradientUnits="userSpaceOnUse">
             <stop stop-color="#7CD872"/>
             <stop offset=".796" stop-color="#4073F3"/>
         </linearGradient>
-        <linearGradient id="EDU__b" x1="4.5" x2="19.19" y1="7.135" y2="12.14" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EDU__b" x1="3.563" x2="20.088" y1="6.527" y2="12.158" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6EC185"/>
             <stop offset="1" stop-color="#4373EA"/>
         </linearGradient>
-        <linearGradient id="EDU__c" x1="8.855" x2="18.088" y1="7.486" y2="10.211" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EDU__c" x1="8.462" x2="18.849" y1="6.922" y2="9.987" gradientUnits="userSpaceOnUse">
             <stop stop-color="#7BDF6A"/>
             <stop offset="1" stop-color="#416FF6"/>
         </linearGradient>
-        <linearGradient id="EDU__d" x1="12" x2="12" y1="4.001" y2="20.001" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EDU__d" x1="12" x2="12" y1="3.001" y2="21.002" gradientUnits="userSpaceOnUse">
             <stop stop-color="#7CD872"/>
             <stop offset="1" stop-color="#4073F3"/>
         </linearGradient>
-        <linearGradient id="EDU__e" x1="18.75" x2="18.75" y1="8.123" y2="17.509" gradientUnits="userSpaceOnUse">
+        <linearGradient id="EDU__e" x1="19.594" x2="19.594" y1="7.639" y2="18.197" gradientUnits="userSpaceOnUse">
             <stop stop-color="#7CD872"/>
             <stop offset="1" stop-color="#4073F3"/>
         </linearGradient>

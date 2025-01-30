@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#DESO__a)" d="M5.333 4v4l10.134 5.845L5.333 20h8.25c2.812 0 5.084-1.973 5.084-4.4V12z"/>
-    <path fill="url(#DESO__b)" d="m5.333 4 13.334 8V8.4c0-2.432-2.278-4.4-5.083-4.4z"/>
-    <path fill="url(#DESO__c)" d="m12.187 11.952-6.854 4.053V20l10.134-6.155z"/>
+    <path fill="url(#DESO__a)" d="M4.5 3v4.5l11.4 6.576L4.5 21h9.282c3.162 0 5.718-2.22 5.718-4.95V12z"/>
+    <path fill="url(#DESO__b)" d="m4.5 3 15 9V7.95C19.5 5.214 16.938 3 13.782 3z"/>
+    <path fill="url(#DESO__c)" d="m12.21 11.946-7.71 4.56V21l11.4-6.924z"/>
     <defs>
-        <linearGradient id="DESO__a" x1="5.333" x2="16.693" y1="6.667" y2="18.235" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DESO__a" x1="4.5" x2="17.28" y1="6" y2="19.014" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3FA3FF"/>
             <stop offset="1" stop-color="#F0F8FF"/>
         </linearGradient>
-        <linearGradient id="DESO__b" x1="5.333" x2="21.177" y1="4" y2="8.056" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DESO__b" x1="4.5" x2="22.324" y1="3" y2="7.563" gradientUnits="userSpaceOnUse">
             <stop stop-color="#84C3FF"/>
             <stop offset="1" stop-color="#FBFEFF"/>
         </linearGradient>
-        <linearGradient id="DESO__c" x1="5.867" x2="13.808" y1="18.133" y2="13.504" gradientUnits="userSpaceOnUse">
+        <linearGradient id="DESO__c" x1="5.1" x2="14.034" y1="18.9" y2="13.692" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A8D5FF"/>
             <stop offset="1" stop-color="#F6FBFF"/>
         </linearGradient>

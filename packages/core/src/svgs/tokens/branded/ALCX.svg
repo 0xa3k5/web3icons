@@ -1,14 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <mask id="ALCX__a" width="16" height="16" x="4" y="4" maskUnits="userSpaceOnUse" style="mask-type:luminance">
-        <path fill="#fff" d="M20 4H4v16h16z"/>
-    </mask>
-    <g mask="url(#ALCX__a)">
-        <path fill="url(#ALCX__b)" d="M4 4h16v16H4z"/>
-        <path fill="#ECBE9D" fill-rule="evenodd" d="M12 17.144a5.143 5.143 0 1 0 0-10.287 5.143 5.143 0 0 0 0 10.287m0-.286a4.857 4.857 0 1 0 0-9.714 4.857 4.857 0 0 0 0 9.714" clip-rule="evenodd"/>
-        <path fill="#ECBE9D" d="M11.878 8.065v-.971h.285v.971l3.266 2.6v2.592l-.552.457.655 1.143h-2.109l-1.4 1.154-1.445-1.154H8.572l.6-1.118-.6-.482v-2.595l3.306-2.6zm.142.249-3.077 2.422 1.274 1.023 1.806-3.051 1.763 3.094 1.274-1.065zm3.123 2.725-1.211 1.015.803 1.411.408-.343zm-4.703.9 1.723 1.386v1.246h2.877l-3.022-5.294zm1.723 2.918v.668l.812-.668zm-.286.674v-2.069l-3.02-2.428v2.088zM9.4 13.919l-.351.652h1.174z"/>
-    </g>
+    <path fill="#fff" d="M21 3H3v18h18z"/>
+    <path fill="url(#ALCX__a)" d="M3 3h18v18H3z"/>
+    <path fill="#ECBE9D" fill-rule="evenodd" d="M12 17.786a5.784 5.784 0 0 0 4.092-9.876A5.785 5.785 0 1 0 12 17.786m0-.321a5.464 5.464 0 1 0 0-10.929 5.464 5.464 0 0 0 0 10.929" clip-rule="evenodd"/>
+    <path fill="#ECBE9D" d="M11.862 7.573V6.48h.321v1.093l3.674 2.925v2.916l-.62.514.736 1.286h-2.372l-1.575 1.298-1.626-1.298H8.143l.675-1.257-.675-.543v-2.919l3.719-2.925zm.16.28-3.461 2.726 1.433 1.15 2.032-3.432 1.983 3.48 1.434-1.198zm3.514 3.066-1.363 1.141.903 1.588.46-.385zm-5.29 1.013 1.937 1.559v1.401h3.237l-3.4-5.956zm1.937 3.282v.752l.913-.752zm-.321.758v-2.327l-3.398-2.732v2.35zM9.075 14.16l-.395.733H10z"/>
     <defs>
-        <linearGradient id="ALCX__b" x1="6.977" x2="23.471" y1="6.774" y2="25.72" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ALCX__a" x1="6.349" x2="24.905" y1="6.121" y2="27.435" gradientUnits="userSpaceOnUse">
             <stop stop-color="#1A1E21"/>
             <stop offset="1" stop-color="#06060A"/>
         </linearGradient>

@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#CTR__a)" d="M16.179 11.528a4.777 4.777 0 0 1-4.428 6.494 4.76 4.76 0 0 1-4.753-4.767A4.758 4.758 0 0 1 12.48 8.54l1.242-3.737A7.516 7.516 0 0 0 4 12c0 4.16 3.36 7.53 7.501 7.53a7.514 7.514 0 0 0 7.483-8z"/>
-    <path fill="url(#CTR__b)" d="M17.412 10.587a2.588 2.588 0 1 0 0-5.176 2.588 2.588 0 0 0 0 5.176"/>
+    <path fill="url(#CTR__a)" d="M16.701 11.469a5.373 5.373 0 0 1-4.982 7.306c-2.954 0-5.347-2.404-5.347-5.363a5.352 5.352 0 0 1 6.168-5.305l1.398-4.203A8.455 8.455 0 0 0 3 11.998c0 4.68 3.78 8.471 8.439 8.471a8.455 8.455 0 0 0 8.418-9z"/>
+    <path fill="url(#CTR__b)" d="M18.088 10.41a2.912 2.912 0 1 0 0-5.823 2.912 2.912 0 0 0 0 5.824"/>
     <defs>
-        <linearGradient id="CTR__a" x1="17.87" x2="7.21" y1="8.483" y2="17.651" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CTR__a" x1="18.604" x2="6.611" y1="8.044" y2="18.357" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6C7AF1"/>
             <stop offset=".35" stop-color="#8958EB"/>
             <stop offset="1" stop-color="#C746A6"/>
         </linearGradient>
-        <linearGradient id="CTR__b" x1="17.412" x2="17.412" y1="5.411" y2="10.587" gradientUnits="userSpaceOnUse">
+        <linearGradient id="CTR__b" x1="18.088" x2="18.088" y1="4.587" y2="10.411" gradientUnits="userSpaceOnUse">
             <stop stop-color="#32C5FF"/>
             <stop offset="1" stop-color="#904EE8"/>
         </linearGradient>

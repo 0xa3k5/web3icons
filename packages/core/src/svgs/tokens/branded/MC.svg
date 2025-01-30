@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#MC__a)" fill-rule="evenodd" d="M12 4c4.41 0 8 3.59 8 8s-3.59 8-8 8-8-3.59-8-8 3.59-8 8-8m0 11.5c-1-.89-1.5-2.05-1.5-3.5S11 9.39 12 8.5c1 .89 1.5 2.05 1.5 3.5s-.5 2.585-1.5 3.5" clip-rule="evenodd"/>
-    <path fill="url(#MC__b)" d="M4.226 13.914c.03.05 1.785 3.135 4.65 3.085.935-.015 1.97-.625 3.125-1.5 1-.89 1.5-2.05 1.5-3.5s-.5-2.61-1.5-3.5c0 0 1.61-1.535 3.5-1.5 1.48.025 3.15.995 4.39 3.665A8.012 8.012 0 0 1 12 19.979a7.965 7.965 0 0 1-7.775-6.065"/>
+    <path fill="url(#MC__a)" fill-rule="evenodd" d="M12 3c4.961 0 9 4.039 9 9s-4.039 9-9 9-9-4.039-9-9 4.039-9 9-9m0 12.937c-1.125-1-1.687-2.306-1.687-3.937S10.875 9.064 12 8.062c1.125 1.002 1.687 2.307 1.687 3.938s-.562 2.908-1.687 3.937" clip-rule="evenodd"/>
+    <path fill="url(#MC__b)" d="M3.254 14.153c.034.056 2.008 3.527 5.231 3.47 1.052-.016 2.216-.702 3.516-1.687 1.125-1.001 1.687-2.306 1.687-3.937 0-1.632-.562-2.937-1.687-3.938 0 0 1.811-1.727 3.937-1.687 1.665.028 3.544 1.12 4.939 4.123a9.013 9.013 0 0 1-8.876 10.48 8.96 8.96 0 0 1-8.747-6.824"/>
     <defs>
-        <linearGradient id="MC__a" x1="12" x2="12" y1="4" y2="17.25" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MC__a" x1="12" x2="12" y1="3" y2="17.906" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F4C251"/>
             <stop offset=".89" stop-color="#E47236"/>
         </linearGradient>
-        <linearGradient id="MC__b" x1="12.111" x2="12.111" y1="6.998" y2="19.978" gradientUnits="userSpaceOnUse">
+        <linearGradient id="MC__b" x1="12.125" x2="12.125" y1="6.374" y2="20.976" gradientUnits="userSpaceOnUse">
             <stop offset=".15" stop-color="#E1602B"/>
             <stop offset="1" stop-color="#EDAD3F"/>
         </linearGradient>

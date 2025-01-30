@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#35AF3B" fill-rule="evenodd" d="M12 19.556a7.556 7.556 0 1 0 0-15.112 7.556 7.556 0 0 0 0 15.112M12 20a7.998 7.998 0 0 0 7.391-11.061A8 8 0 0 0 12 4a8 8 0 0 0 0 16" clip-rule="evenodd"/>
-    <path fill="url(#BDX__a)" fill-rule="evenodd" d="M16.444 6.444v7.778a.89.89 0 0 1-.889.888h-4.889a.89.89 0 0 1-.889-.888v-4.89c0-.488.4-.888.89-.888h4.613zm-4.889 4.222a.445.445 0 0 1 .445-.444h2.222a.444.444 0 0 1 .444.444v2.222a.445.445 0 0 1-.444.445H12a.444.444 0 0 1-.445-.445z" clip-rule="evenodd"/>
-    <path fill="url(#BDX__b)" d="M14.666 12.89a.445.445 0 0 1-.444.444h-3.138c-.418 0-.925-.031-1.307-.667v1.556c0 .489.4.889.89.889h3.11a.88.88 0 0 0 .89-.89z"/>
-    <path fill="url(#BDX__c)" d="M12.889 8.444h-2.223a.89.89 0 0 0-.889.889v3.333c.383.635.89.666 1.307.666H12a.444.444 0 0 1-.445-.444v-2.222a.444.444 0 0 1 .445-.444h.889z"/>
-    <path fill="url(#BDX__d)" fill-rule="evenodd" d="M7.111 8.667v7.778c0 .489.4.889.89.889h4.888a.89.89 0 0 0 .889-.89v-4.888a.89.89 0 0 0-.889-.889H8.276zm4.89 4.223a.444.444 0 0 0-.445-.445H9.334a.445.445 0 0 0-.445.444v2.223a.444.444 0 0 0 .445.444h2.222a.445.445 0 0 0 .444-.444z" clip-rule="evenodd"/>
-    <path fill="url(#BDX__e)" d="M7.111 14.889v1.556c0 .488.4.889.89.889h3.11c.534 0 .89-.223.89-.89v-1.333a.445.445 0 0 1-.445.445H8.222c-.444 0-.848-.142-1.11-.667"/>
-    <path fill="url(#BDX__f)" d="M10.667 10.667H8.276l-1.165-2v6.222c.263.525.667.667 1.111.667h1.112a.445.445 0 0 1-.445-.444V12.89a.445.445 0 0 1 .445-.445h1.333z"/>
+    <path fill="#35AF3B" fill-rule="evenodd" d="M12 20.5a8.5 8.5 0 1 0 0-17 8.5 8.5 0 0 0 0 17m0 .5a8.997 8.997 0 0 0 9-9 9 9 0 0 0-9-9 9 9 0 0 0 0 18" clip-rule="evenodd"/>
+    <path fill="url(#BDX__a)" fill-rule="evenodd" d="M17 5.75v8.75a1 1 0 0 1-1 1h-5.5a1 1 0 0 1-1-1V9c0-.55.45-1 1-1h5.19zm-5.5 4.75a.5.5 0 0 1 .5-.5h2.5a.5.5 0 0 1 .5.5V13a.5.5 0 0 1-.5.5H12a.5.5 0 0 1-.5-.5z" clip-rule="evenodd"/>
+    <path fill="url(#BDX__b)" d="M15 13a.5.5 0 0 1-.5.5h-3.53c-.47 0-1.04-.034-1.47-.75v1.75c0 .55.45 1 1 1H14c.62 0 1-.5 1-1z"/>
+    <path fill="url(#BDX__c)" d="M13 8h-2.5a1 1 0 0 0-1 1v3.75c.43.714 1 .75 1.47.75H12a.5.5 0 0 1-.5-.5v-2.5a.5.5 0 0 1 .5-.5h1z"/>
+    <path fill="url(#BDX__d)" fill-rule="evenodd" d="M6.5 8.25V17c0 .55.45 1 1 1H13a1 1 0 0 0 1-1v-5.5a1 1 0 0 0-1-1H7.81zM12 13a.5.5 0 0 0-.5-.5H9a.5.5 0 0 0-.5.5v2.5a.5.5 0 0 0 .5.5h2.5a.5.5 0 0 0 .5-.5z" clip-rule="evenodd"/>
+    <path fill="url(#BDX__e)" d="M6.5 15.25V17c0 .55.45 1 1 1H11c.6 0 1-.25 1-1v-1.5a.5.5 0 0 1-.5.5H7.75c-.5 0-.955-.16-1.25-.75"/>
+    <path fill="url(#BDX__f)" d="M10.5 10.5H7.81L6.5 8.25v7c.295.59.75.75 1.25.75H9a.5.5 0 0 1-.5-.5V13a.5.5 0 0 1 .5-.5h1.5z"/>
     <defs>
-        <linearGradient id="BDX__a" x1="17.333" x2="17.333" y1="5.23" y2="17.948" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BDX__a" x1="18" x2="18" y1="4.384" y2="18.692" gradientUnits="userSpaceOnUse">
             <stop stop-color="#72A8CF"/>
             <stop offset="1" stop-color="#1071AB"/>
         </linearGradient>
-        <linearGradient id="BDX__b" x1="20" x2="6.181" y1="14.182" y2="14.182" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BDX__b" x1="21" x2="5.454" y1="14.455" y2="14.455" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0F6192"/>
             <stop offset="1" stop-color="#1473AD"/>
         </linearGradient>
-        <linearGradient id="BDX__c" x1="8.571" x2="8.108" y1="1.817" y2="20.017" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BDX__c" x1="8.142" x2="7.621" y1=".545" y2="21.019" gradientUnits="userSpaceOnUse">
             <stop stop-color="#72A8CF"/>
             <stop offset="1" stop-color="#116394"/>
         </linearGradient>
-        <linearGradient id="BDX__d" x1="12" x2="12" y1="4.001" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BDX__d" x1="12" x2="12" y1="3.001" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#36DD21"/>
             <stop offset="1" stop-color="#34B238"/>
         </linearGradient>
-        <linearGradient id="BDX__e" x1="20" x2="4" y1="12.727" y2="12.727" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BDX__e" x1="21" x2="3" y1="12.818" y2="12.818" gradientUnits="userSpaceOnUse">
             <stop stop-color="#34A93A"/>
             <stop offset="1" stop-color="#34B537"/>
         </linearGradient>
-        <linearGradient id="BDX__f" x1="7.556" x2="7.556" y1="10.001" y2="15.556" gradientUnits="userSpaceOnUse">
+        <linearGradient id="BDX__f" x1="7" x2="7" y1="9.751" y2="16.001" gradientUnits="userSpaceOnUse">
             <stop stop-color="#35E11D"/>
             <stop offset="1" stop-color="#31A137"/>
         </linearGradient>

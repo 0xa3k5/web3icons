@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#0500FF" d="M4.8 6.311 12 4v16c-5.143-2.134-7.2-6.222-7.2-8.533z"/>
-    <path fill="url(#trust__a)" d="M19.2 6.311 12 4v16c5.143-2.134 7.2-6.222 7.2-8.533z"/>
+    <path fill="#0500FF" d="M3.9 5.6 12 3v18c-5.786-2.4-8.1-7-8.1-9.6z"/>
+    <path fill="url(#trust__a)" d="M20.1 5.6 12 3v18c5.786-2.4 8.1-7 8.1-9.6z"/>
     <defs>
-        <linearGradient id="trust__a" x1="17.288" x2="11.971" y1="2.88" y2="19.82" gradientUnits="userSpaceOnUse">
+        <linearGradient id="trust__a" x1="17.948" x2="11.967" y1="1.74" y2="20.797" gradientUnits="userSpaceOnUse">
             <stop offset=".02" stop-color="#00F"/>
             <stop offset=".08" stop-color="#0094FF"/>
             <stop offset=".16" stop-color="#48FF91"/>

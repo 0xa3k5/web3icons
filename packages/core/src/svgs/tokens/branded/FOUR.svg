@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#FOUR__a)" d="M9.866 12 12 11.467V8.8l-.534.267-1.6 2.4z"/>
-    <path fill="url(#FOUR__b)" fill-rule="evenodd" d="M4 6.352 20 4v14.587L4 20zm9.6 4.849v-4h-2.133L7.733 12v1.6L12 13.066V16.8l1.6-.534V12.8l2.133-.534v-1.6z" clip-rule="evenodd"/>
+    <path fill="url(#FOUR__a)" d="m9.6 12 2.4-.6v-3l-.6.3-1.8 2.7z"/>
+    <path fill="url(#FOUR__b)" fill-rule="evenodd" d="M3 5.646 21 3v16.41L3 21zm10.8 5.455V6.6h-2.4L7.2 12v1.8l4.8-.6v4.2l1.8-.6v-3.9l2.4-.6v-1.8z" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="FOUR__a" x1="19.45" x2="7.253" y1="4.469" y2="21.68" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FOUR__a" x1="20.382" x2="6.66" y1="3.528" y2="22.89" gradientUnits="userSpaceOnUse">
             <stop stop-color="#92988A"/>
             <stop offset="1" stop-color="#3C554F"/>
         </linearGradient>
-        <linearGradient id="FOUR__b" x1="19.451" x2="7.253" y1="4.469" y2="21.68" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FOUR__b" x1="20.382" x2="6.66" y1="3.528" y2="22.89" gradientUnits="userSpaceOnUse">
             <stop stop-color="#92988A"/>
             <stop offset="1" stop-color="#3C554F"/>
         </linearGradient>

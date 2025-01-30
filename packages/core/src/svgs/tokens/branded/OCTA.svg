@@ -1,62 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#OCTA__a)" d="M4 9.076v6.11l1.333.898V8.178L4 9.08z"/>
-    <path fill="url(#OCTA__b)" d="M5.334 8.178v7.91l1.333-.901V9.076z"/>
-    <path fill="url(#OCTA__c)" d="M6.667 6.622V17.63L8 18.529v-12.8l-1.333.897z"/>
-    <path fill="url(#OCTA__d)" d="m8 18.533 1.334-.898V6.622L8 5.72z"/>
-    <path fill="url(#OCTA__e)" d="M20 9.076v6.11l-1.333.898V8.178L20 9.08z"/>
-    <path fill="url(#OCTA__f)" d="M18.667 8.178v7.91l-1.333-.901V9.076z"/>
-    <path fill="url(#OCTA__g)" d="M17.334 6.622V17.63L16 18.529v-12.8l1.334.897z"/>
-    <path fill="url(#OCTA__h)" d="m16 18.533-1.333-.898V6.622L16 5.72z"/>
-    <path fill="url(#OCTA__i)" d="M9.334 4.898v14.204l1.328.898h.005V4z"/>
-    <path fill="url(#OCTA__j)" d="M10.667 20h.004L12 19.102V4.898L10.666 4z"/>
-    <path fill="url(#OCTA__k)" d="M12 4.898v14.204l1.329.898h.004V4z"/>
-    <path fill="url(#OCTA__l)" d="M13.334 20h.004l1.329-.898V4.898L13.334 4z"/>
+    <path fill="url(#OCTA__a)" d="M3 8.71v6.875l1.5 1.01V7.7L3 8.715z"/>
+    <path fill="url(#OCTA__b)" d="M4.5 7.7v8.9L6 15.585V8.71z"/>
+    <path fill="url(#OCTA__c)" d="M6 5.95v12.384l1.5 1.01v-14.4L6 5.954z"/>
+    <path fill="url(#OCTA__d)" d="M7.5 19.35 9 18.34V5.95L7.5 4.935z"/>
+    <path fill="url(#OCTA__e)" d="M21 8.71v6.875l-1.5 1.01V7.7L21 8.715z"/>
+    <path fill="url(#OCTA__f)" d="M19.5 7.7v8.9L18 15.585V8.71z"/>
+    <path fill="url(#OCTA__g)" d="M18 5.95v12.384l-1.5 1.01v-14.4l1.5 1.01z"/>
+    <path fill="url(#OCTA__h)" d="M16.5 19.35 15 18.34V5.95l1.5-1.015z"/>
+    <path fill="url(#OCTA__i)" d="M9 4.01v15.98L10.495 21h.005V3z"/>
+    <path fill="url(#OCTA__j)" d="M10.5 21h.005l1.494-1.01V4.01L10.5 3z"/>
+    <path fill="url(#OCTA__k)" d="M12 4.01v15.98L13.495 21h.005V3z"/>
+    <path fill="url(#OCTA__l)" d="M13.5 21h.005L15 19.99V4.01L13.5 3z"/>
     <defs>
-        <linearGradient id="OCTA__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OCTA__a" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#670057"/>
             <stop offset="1" stop-color="#230059"/>
         </linearGradient>
-        <linearGradient id="OCTA__b" x1="12" x2="12" y1="4" y2="19.991" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OCTA__b" x1="12" x2="12" y1="3" y2="20.99" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CC1B99"/>
             <stop offset="1" stop-color="#471288"/>
         </linearGradient>
-        <linearGradient id="OCTA__c" x1="12" x2="12" y1="3.994" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OCTA__c" x1="12" x2="12" y1="2.993" y2="20.999" gradientUnits="userSpaceOnUse">
             <stop stop-color="#670057"/>
             <stop offset="1" stop-color="#230059"/>
         </linearGradient>
-        <linearGradient id="OCTA__d" x1="12.001" x2="12.001" y1="4.005" y2="19.994" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OCTA__d" x1="12" x2="12" y1="3.006" y2="20.993" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CC1B99"/>
             <stop offset="1" stop-color="#471288"/>
         </linearGradient>
-        <linearGradient id="OCTA__e" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OCTA__e" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CC1B99"/>
             <stop offset="1" stop-color="#471288"/>
         </linearGradient>
-        <linearGradient id="OCTA__f" x1="12.001" x2="12.001" y1="4" y2="19.991" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OCTA__f" x1="12.001" x2="12.001" y1="3" y2="20.99" gradientUnits="userSpaceOnUse">
             <stop stop-color="#670057"/>
             <stop offset="1" stop-color="#230059"/>
         </linearGradient>
-        <linearGradient id="OCTA__g" x1="12" x2="12" y1="3.994" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OCTA__g" x1="12.001" x2="12.001" y1="2.993" y2="20.999" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CC1B99"/>
             <stop offset="1" stop-color="#471288"/>
         </linearGradient>
-        <linearGradient id="OCTA__h" x1="12" x2="12" y1="4.005" y2="19.994" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OCTA__h" x1="12" x2="12" y1="3.006" y2="20.993" gradientUnits="userSpaceOnUse">
             <stop stop-color="#670057"/>
             <stop offset="1" stop-color="#230059"/>
         </linearGradient>
-        <linearGradient id="OCTA__i" x1="12" x2="12" y1="4" y2="20.005" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OCTA__i" x1="12" x2="12" y1="3" y2="21.005" gradientUnits="userSpaceOnUse">
             <stop stop-color="#670057"/>
             <stop offset="1" stop-color="#230059"/>
         </linearGradient>
-        <linearGradient id="OCTA__j" x1="14" x2="14" y1="4" y2="20.005" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OCTA__j" x1="14.249" x2="14.249" y1="3" y2="21.005" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CC1B99"/>
             <stop offset="1" stop-color="#471288"/>
         </linearGradient>
-        <linearGradient id="OCTA__k" x1="12" x2="12" y1="4" y2="20.005" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OCTA__k" x1="12" x2="12" y1="3" y2="21.005" gradientUnits="userSpaceOnUse">
             <stop stop-color="#670057"/>
             <stop offset="1" stop-color="#230059"/>
         </linearGradient>
-        <linearGradient id="OCTA__l" x1="14" x2="14" y1="4" y2="20.005" gradientUnits="userSpaceOnUse">
+        <linearGradient id="OCTA__l" x1="14.25" x2="14.25" y1="3" y2="21.005" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CC1B99"/>
             <stop offset="1" stop-color="#471288"/>
         </linearGradient>

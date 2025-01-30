@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#FC8800" fill-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m0-.47a7.53 7.53 0 1 0 0-15.06 7.53 7.53 0 0 0 0 15.058" clip-rule="evenodd"/>
-    <path fill="url(#L2__a)" d="M12.96 15.501 8.306 7.294h9.34z"/>
-    <path fill="url(#L2__b)" d="m11.002 8.499-4.65 8.207h9.342z"/>
-    <path fill="#FFCD05" d="M9.996 10.278 12.96 15.5l1.021-1.788L11.004 8.5z"/>
+    <path fill="#FC8800" fill-rule="evenodd" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18m0-.53a8.47 8.47 0 1 0 0-16.94 8.47 8.47 0 0 0 0 16.94" clip-rule="evenodd"/>
+    <path fill="url(#L2__a)" d="M13.08 15.939 7.844 6.706h10.509z"/>
+    <path fill="url(#L2__b)" d="m10.877 8.062-5.23 9.233h10.508z"/>
+    <path fill="#FFCD05" d="m9.745 10.063 3.336 5.876 1.148-2.012-3.351-5.865z"/>
     <defs>
-        <linearGradient id="L2__a" x1="18.936" x2="8.439" y1="5.248" y2="12.908" gradientUnits="userSpaceOnUse">
+        <linearGradient id="L2__a" x1="19.803" x2="7.994" y1="4.404" y2="13.022" gradientUnits="userSpaceOnUse">
             <stop stop-color="#915512"/>
             <stop offset="1" stop-color="#E0A662"/>
         </linearGradient>
-        <linearGradient id="L2__b" x1="15.486" x2="3.678" y1="11.807" y2="18.2" gradientUnits="userSpaceOnUse">
+        <linearGradient id="L2__b" x1="15.921" x2="2.637" y1="11.784" y2="18.975" gradientUnits="userSpaceOnUse">
             <stop stop-color="#935E26"/>
             <stop offset="1" stop-color="#F1BD84"/>
         </linearGradient>

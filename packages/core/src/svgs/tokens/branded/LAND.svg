@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#LAND__a)" d="M6.811 9.082v5.923L12 18.023V20l-6.92-4.108V8.108z"/>
-    <path fill="url(#LAND__b)" d="M8.541 10.055v3.89L12 15.892v-3.89z"/>
-    <path fill="url(#LAND__c)" d="M8.541 6.066 12.043 4l6.876 4.108L11.999 12l-3.458-1.946z"/>
-    <path fill="url(#LAND__d)" d="m6.811 7.087-1.73 1.02 1.73.974z"/>
-    <path fill="url(#LAND__e)" d="M12.004 18.022V20l6.915-4.108V8.108L12.001 12l.002 3.89 5.187-3.025v2.162z"/>
+    <path fill="url(#LAND__a)" d="M6.163 8.717v6.664L12 18.776V21l-7.784-4.62V7.622z"/>
+    <path fill="url(#LAND__b)" d="M8.109 9.812v4.377l3.89 2.189V12z"/>
+    <path fill="url(#LAND__c)" d="M8.109 5.325 12.049 3l7.734 4.622L12 12 8.109 9.81z"/>
+    <path fill="url(#LAND__d)" d="M6.163 6.473 4.216 7.62l1.947 1.095z"/>
+    <path fill="url(#LAND__e)" d="M12.004 18.775 12.005 21l7.779-4.621V7.622L12.001 12l.002 4.377 5.835-3.404v2.432z"/>
     <defs>
-        <linearGradient id="LAND__a" x1="5.552" x2="9.911" y1="8.792" y2="19.451" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LAND__a" x1="4.746" x2="9.65" y1="8.391" y2="20.382" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5C93F7"/>
             <stop offset="1" stop-color="#1159DF"/>
         </linearGradient>
-        <linearGradient id="LAND__b" x1="5.552" x2="9.911" y1="8.792" y2="19.451" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LAND__b" x1="4.746" x2="9.65" y1="8.391" y2="20.382" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5C93F7"/>
             <stop offset="1" stop-color="#1159DF"/>
         </linearGradient>
-        <linearGradient id="LAND__c" x1="12.004" x2="12.004" y1="4" y2="11.991" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LAND__c" x1="12.005" x2="12.005" y1="3" y2="11.99" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6695FE"/>
             <stop offset="1" stop-color="#0B57E0"/>
         </linearGradient>
-        <linearGradient id="LAND__d" x1="12.004" x2="12.004" y1="4" y2="11.991" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LAND__d" x1="12.005" x2="12.005" y1="3" y2="11.99" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6695FE"/>
             <stop offset="1" stop-color="#0B57E0"/>
         </linearGradient>
-        <linearGradient id="LAND__e" x1="18.141" x2="14.136" y1="8.368" y2="20.004" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LAND__e" x1="18.908" x2="14.403" y1="7.914" y2="21.005" gradientUnits="userSpaceOnUse">
             <stop stop-color="#084BCE"/>
             <stop offset="1" stop-color="#09166A"/>
         </linearGradient>

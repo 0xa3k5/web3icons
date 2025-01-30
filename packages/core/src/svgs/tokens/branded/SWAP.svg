@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#SWAP__a)" d="M8 9.881v.92L10.8 8.8 8 7v.818a4.4 4.4 0 0 0 .4 8.782c1.008 0 2.4-.354 3.2-1.2 1-1.154 2.192-4.062 2.192-4.062l-3.57 2.315a2.302 2.302 0 0 1-4.017-1.385A2.3 2.3 0 0 1 8 9.88"/>
-    <path fill="url(#SWAP__b)" d="M16 14.119V13.2l-2.8 2L16 17v-.818a4.4 4.4 0 0 0-.4-8.782c-1.008 0-2.4.354-3.2 1.2-1 1.154-2.192 4.062-2.192 4.062l3.57-2.315A2.3 2.3 0 1 1 16 14.12"/>
+    <path fill="url(#SWAP__a)" d="M7.5 9.616v1.034l3.15-2.25L7.5 6.375v.92a4.95 4.95 0 0 0 .45 9.88c1.134 0 2.7-.399 3.6-1.35 1.125-1.299 2.466-4.57 2.466-4.57L9.999 13.86a2.59 2.59 0 0 1-4.165-.403A2.59 2.59 0 0 1 7.5 9.616"/>
+    <path fill="url(#SWAP__b)" d="M16.5 14.384V13.35l-3.15 2.25 3.15 2.025v-.92a4.95 4.95 0 0 0-.45-9.88c-1.134 0-2.7.399-3.6 1.35-1.125 1.299-2.466 4.57-2.466 4.57L14 10.14a2.587 2.587 0 1 1 2.499 4.243"/>
     <defs>
-        <linearGradient id="SWAP__a" x1="5.961" x2="10.582" y1="8.667" y2="19.021" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SWAP__a" x1="5.206" x2="10.404" y1="8.25" y2="19.899" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0076EF"/>
             <stop offset=".13" stop-color="#007FF6"/>
             <stop offset=".258" stop-color="#0084F6"/>
@@ -13,7 +13,7 @@
             <stop offset=".829" stop-color="#00C5FB"/>
             <stop offset="1" stop-color="#00CCFC"/>
         </linearGradient>
-        <linearGradient id="SWAP__b" x1="18.992" x2="13.392" y1="15.4" y2="7.4" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SWAP__b" x1="19.866" x2="13.566" y1="15.825" y2="6.825" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0076EF"/>
             <stop offset=".13" stop-color="#007FF6"/>
             <stop offset=".258" stop-color="#0084F6"/>

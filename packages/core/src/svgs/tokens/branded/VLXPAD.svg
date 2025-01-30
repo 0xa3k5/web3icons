@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#VLXPAD__a)" d="M6.431 6.666H4l4.445 7.556 3.333-5.334-1.111-2.222-2.045 3.645z"/>
-    <path fill="url(#VLXPAD__b)" d="M20 6.666h-9.334l1.111 2.222h4l-.444.89h-3.334l.89 2.221h3.555z"/>
-    <path fill="url(#VLXPAD__c)" d="M12.89 12 12 9.779 9.111 14.89a23 23 0 0 1 1.111 2.444s1.694-3.467 2.667-5.333"/>
+    <path fill="url(#VLXPAD__a)" d="M5.735 5.999H3l5 8.5 3.75-6L10.5 6l-2.3 4.1z"/>
+    <path fill="url(#VLXPAD__b)" d="M21 5.999H10.5l1.25 2.5h4.5l-.5 1H12l1 2.5h4z"/>
+    <path fill="url(#VLXPAD__c)" d="m13 12-1-2.5-3.25 5.75A26 26 0 0 1 10 18s1.906-3.9 3-6"/>
     <defs>
-        <linearGradient id="VLXPAD__a" x1="6.496" x2="20" y1="10.098" y2="10.098" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VLXPAD__a" x1="5.808" x2="21.001" y1="9.86" y2="9.86" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0753F7"/>
             <stop offset="1" stop-color="#02CBC5"/>
         </linearGradient>
-        <linearGradient id="VLXPAD__b" x1="5.904" x2="18.407" y1="8.124" y2="8.124" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VLXPAD__b" x1="5.142" x2="19.209" y1="7.639" y2="7.639" gradientUnits="userSpaceOnUse">
             <stop stop-color="#02A7A1"/>
             <stop offset="1" stop-color="#01E8BA"/>
         </linearGradient>
-        <linearGradient id="VLXPAD__c" x1="12.751" x2="9.59" y1="10.556" y2="16.147" gradientUnits="userSpaceOnUse">
+        <linearGradient id="VLXPAD__c" x1="12.845" x2="9.29" y1="10.376" y2="16.666" gradientUnits="userSpaceOnUse">
             <stop stop-color="#01DBC0"/>
             <stop offset="1" stop-color="#03ACD3"/>
         </linearGradient>

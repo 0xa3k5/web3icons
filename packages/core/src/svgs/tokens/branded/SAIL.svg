@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#SAIL__a)" d="M15.892 18.003c-4.982-6.201-3.46-10.586-2.076-12.004-3.736 3.403-2.421 8.752-1.297 11 1.037.601 2.68.917 3.373 1z"/>
-    <path fill="url(#SAIL__b)" d="M7.07 15c.208-4.401 4.584-9.167 6.746-11C9.457 9.6 10.789 14.832 12 16.748z"/>
-    <path fill="url(#SAIL__c)" d="M5.514 17.75v-1.253s.26-.498 1.037-.498c1.99 0 7.948 2.733 9.86 2.75 1.102.01 1.73-.8 2.075-1.249-.346.666-1.366 2.076-3.027 2.076-2.075 0-5.894-2.327-8.908-2.327-.622 0-.95.333-1.037.502"/>
-    <path fill="url(#SAIL__d)" d="M6.698 17.475c-1.037 0-1.011 1.215-.752 1.686 0-.238.216-.843.752-.843.761-.005 5.726 1.06 8.329 1.682-2.379-.843-6.487-2.525-8.329-2.525"/>
+    <path fill="url(#SAIL__a)" d="M16.378 18.753c-5.604-6.976-3.892-11.909-2.335-13.504-4.204 3.828-2.725 9.846-1.46 12.375 1.168.677 3.016 1.032 3.795 1.124z"/>
+    <path fill="url(#SAIL__b)" d="M6.454 15.376C6.687 10.424 11.61 5.063 14.043 3 9.139 9.3 10.638 15.186 12 17.341z"/>
+    <path fill="url(#SAIL__c)" d="M4.703 18.47v-1.411s.292-.56 1.167-.56c2.238 0 8.942 3.075 11.092 3.094 1.24.01 1.946-.9 2.335-1.405-.39.749-1.537 2.335-3.405 2.335-2.335 0-6.63-2.618-10.022-2.618-.7 0-1.07.375-1.167.565"/>
+    <path fill="url(#SAIL__d)" d="M6.036 18.16c-1.168 0-1.139 1.366-.847 1.896 0-.267.243-.948.847-.948.856-.005 6.44 1.192 9.37 1.892-2.677-.948-7.298-2.84-9.37-2.84"/>
     <defs>
-        <linearGradient id="SAIL__a" x1="11.997" x2="11.997" y1="4.007" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SAIL__a" x1="11.996" x2="11.996" y1="3.007" y2="21.001" gradientUnits="userSpaceOnUse">
             <stop stop-color="#FF9C00"/>
             <stop offset=".54" stop-color="#FED087"/>
             <stop offset="1" stop-color="#FF9D00"/>
         </linearGradient>
-        <linearGradient id="SAIL__b" x1="17.987" x2="14.127" y1="4.315" y2="20.008" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SAIL__b" x1="18.735" x2="14.393" y1="3.354" y2="21.009" gradientUnits="userSpaceOnUse">
             <stop stop-color="#00116A"/>
             <stop offset=".63" stop-color="#003180"/>
             <stop offset=".78" stop-color="#0094C6"/>
             <stop offset="1" stop-color="#00CBEE"/>
         </linearGradient>
-        <linearGradient id="SAIL__c" x1="5.254" x2="18.529" y1="7.347" y2="7.528" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SAIL__c" x1="4.411" x2="19.345" y1="6.765" y2="6.969" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0064A3"/>
             <stop offset=".16" stop-color="#00B1DA"/>
             <stop offset=".46" stop-color="#001169"/>
             <stop offset="1" stop-color="#011D6D"/>
         </linearGradient>
-        <linearGradient id="SAIL__d" x1="5.765" x2="14.366" y1="18.343" y2="20.743" gradientUnits="userSpaceOnUse">
+        <linearGradient id="SAIL__d" x1="4.985" x2="14.661" y1="19.137" y2="21.837" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0064A3"/>
             <stop offset=".16" stop-color="#00B1DA"/>
             <stop offset=".51" stop-color="#001169"/>

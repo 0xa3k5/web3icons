@@ -1,17 +1,17 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_328_21369)">
 <path d="M24 0H0V24H24V0Z" fill="white"/>
-<path d="M4.37 10.6846C4.115 10.6846 4 10.7996 4 11.0295V16.9145C4 17.1695 4.115 17.2545 4.37 17.2545C7.19499 17.2845 10.645 14.7695 13.4999 12.7995V5.99957C10.675 7.94455 7.13999 10.7145 4.37 10.6846Z" fill="url(#paint0_linear_328_21369)"/>
-<path d="M19.6299 13.3451C19.885 13.3451 20 13.23 20 13V7.11501C20 6.85501 19.885 6.77002 19.6299 6.77002C16.78 6.74502 13.3549 9.25501 10.5 11.23V18C13.3249 16.0549 16.8599 13.2851 19.6299 13.3451Z" fill="url(#paint1_linear_328_21369)"/>
-<path d="M13.4999 12.7389V9.1839C12.4881 9.84974 11.4879 10.5332 10.5 11.2339V14.8339C11.55 14.1489 12.5499 13.4189 13.4999 12.7338V12.7389Z" fill="#194AAD"/>
+<path d="M4.37 10.6848C4.115 10.6848 4 10.7998 4 11.0297V16.9147C4 17.1697 4.115 17.2547 4.37 17.2547C7.19499 17.2847 10.645 14.7697 13.4999 12.7997V5.99976C10.675 7.94474 7.13999 10.7147 4.37 10.6848Z" fill="url(#paint0_linear_328_21369)"/>
+<path d="M19.6299 13.3453C19.885 13.3453 20 13.2302 20 13.0002V7.11519C20 6.85519 19.885 6.7702 19.6299 6.7702C16.78 6.7452 13.3549 9.25519 10.5 11.2302V18.0002C13.3249 16.0551 16.8599 13.2853 19.6299 13.3453Z" fill="url(#paint1_linear_328_21369)"/>
+<path d="M13.4999 12.7391V9.18408C12.4881 9.84992 11.4879 10.5334 10.5 11.2341V14.8341C11.55 14.1491 12.5499 13.4191 13.4999 12.734V12.7391Z" fill="#194AAD"/>
 </g>
 <defs>
-<linearGradient id="paint0_linear_328_21369" x1="13.4737" y1="17.109" x2="12.3257" y2="6.85799" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_328_21369" x1="13.4737" y1="17.1092" x2="12.3257" y2="6.85818" gradientUnits="userSpaceOnUse">
 <stop offset="0.1" stop-color="#194AAD"/>
 <stop offset="0.5" stop-color="#248FCB"/>
 <stop offset="0.8" stop-color="#2BBFDF"/>
 </linearGradient>
-<linearGradient id="paint1_linear_328_21369" x1="13.76" y1="5.33772" x2="12.2376" y2="18.9241" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_328_21369" x1="13.76" y1="5.3379" x2="12.2376" y2="18.9243" gradientUnits="userSpaceOnUse">
 <stop offset="0.1" stop-color="#194AAD"/>
 <stop offset="0.5" stop-color="#248FCB"/>
 <stop offset="0.8" stop-color="#2BBFDF"/>

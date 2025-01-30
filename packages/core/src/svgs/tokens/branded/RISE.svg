@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
-    <path fill="url(#RISE__a)" d="M14.689 19.995a8.13 8.13 0 0 0 5.808-7.843C20.497 7.655 16.918 4 12.499 4c-4.418 0-7.997 3.649-7.997 8.153 0 3.728 2.454 6.872 5.808 7.847L12 9.998l-4.25 3.174-.249-.255L12.499 6l4.999 6.918-.25.25-4.249-3.169z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#RISE__a)" d="M14.463 20.995a9.15 9.15 0 0 0 6.534-8.824C20.997 7.112 16.97 3 12 3s-8.998 4.105-8.998 9.172c0 4.194 2.761 7.731 6.535 8.828l1.9-11.252-4.78 3.57-.28-.286L12 5.249l5.623 7.783-.281.281-4.78-3.565z"/>
     <defs>
-        <linearGradient id="RISE__a" x1="4.502" x2="20.502" y1="10.623" y2="12.097" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RISE__a" x1="3.002" x2="21.002" y1="10.451" y2="12.11" gradientUnits="userSpaceOnUse">
             <stop stop-color="#CC1A3C"/>
             <stop offset="1" stop-color="#FF9A2E"/>
         </linearGradient>

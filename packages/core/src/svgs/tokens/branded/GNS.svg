@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#GNS__a)" d="M15.252 7.911c.32.189.513.523.513.89v6.4c0 .574-.358 1.035-.941 1.035-.584 0-.942-.461-.942-1.035v-3.986c0-.315-.564-.513-.847-.367L9.318 12.81a1.064 1.064 0 0 1-1.426-.423 1.02 1.02 0 0 1 .428-1.398l5.897-3.101c.324-.17.72-.16 1.035.023"/>
-    <path fill="url(#GNS__b)" d="M9.176 10.518c.847-.25 1.46-.273 2.142-.273 1.002 0 1.74.254 2.009.565.179.047.555.202.555.404V15.2c0 .574.358 1.035.941 1.035.584 0 .941-.46.941-1.035V8.8c0-.367-.197-.706-.517-.89a1.08 1.08 0 0 0-1.04-.023z"/>
-    <path fill="url(#GNS__c)" d="M12.513 8.772c.531.141 1.37.513 1.37 1.346v1.068c0-.01 0 .01 0 0v3.99c0 .565.357 1.06.94 1.06.584 0 .941-.462.941-1.036V8.8c0-.367-.197-.706-.517-.89a1.08 1.08 0 0 0-1.04-.023z"/>
-    <path fill="url(#GNS__d)" d="m10.917 14.094-1.176.687c-.17.1-.25.301-.146.471.136.226.367.513.696.725.34.22.702.268.965.258.179-.014.273-.169.273-.348v-1.44a.4.4 0 0 0-.612-.348z"/>
-    <path fill="url(#GNS__e)" fill-rule="evenodd" d="M12 19.059a7.06 7.06 0 1 0 0-14.12 7.06 7.06 0 0 0 0 14.12M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16" clip-rule="evenodd"/>
+    <path fill="url(#GNS__a)" d="M15.658 7.4c.36.212.577.588.577 1v7.2c0 .647-.402 1.165-1.059 1.165s-1.058-.518-1.058-1.164v-4.484c0-.355-.636-.577-.953-.413L8.982 12.91a1.197 1.197 0 0 1-1.604-.476 1.15 1.15 0 0 1 .482-1.572l6.633-3.49c.366-.19.81-.18 1.165.027"/>
+    <path fill="url(#GNS__b)" d="M8.823 10.333c.953-.281 1.641-.308 2.41-.308 1.127 0 1.958.286 2.26.636.2.053.624.228.624.455V15.6c0 .646.403 1.165 1.06 1.165.656 0 1.058-.519 1.058-1.165V8.4c0-.413-.222-.794-.582-1a1.22 1.22 0 0 0-1.17-.027z"/>
+    <path fill="url(#GNS__c)" d="M12.577 8.368c.598.16 1.54.578 1.54 1.515v1.201c0 .01 0-.01 0 0v4.49c0 .635.403 1.19 1.06 1.19.656 0 1.058-.518 1.058-1.164V8.4c0-.413-.222-.794-.582-1a1.22 1.22 0 0 0-1.17-.027z"/>
+    <path fill="url(#GNS__d)" d="m10.782 14.356-1.324.773c-.19.111-.28.339-.164.53.154.254.413.577.784.815.38.249.788.302 1.085.291.201-.016.307-.19.307-.392v-1.62a.45.45 0 0 0-.688-.391z"/>
+    <path fill="url(#GNS__e)" fill-rule="evenodd" d="M12 19.941a7.942 7.942 0 1 0 0-15.883 7.942 7.942 0 0 0 0 15.883M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="GNS__a" x1="18.739" x2="6.93" y1="3.998" y2="15.035" gradientUnits="userSpaceOnUse">
+        <linearGradient id="GNS__a" x1="19.581" x2="6.296" y1="2.998" y2="15.414" gradientUnits="userSpaceOnUse">
             <stop offset=".45" stop-color="#266E84"/>
             <stop offset="1" stop-color="#56DBAE"/>
         </linearGradient>
-        <linearGradient id="GNS__b" x1="13.405" x2="12.386" y1="4.39" y2="20.052" gradientUnits="userSpaceOnUse">
+        <linearGradient id="GNS__b" x1="13.581" x2="12.434" y1="3.439" y2="21.059" gradientUnits="userSpaceOnUse">
             <stop offset=".18" stop-color="#2F778D"/>
             <stop offset=".27" stop-color="#43B39C"/>
         </linearGradient>
-        <linearGradient id="GNS__c" x1="11.803" x2="11.803" y1="3.999" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="GNS__c" x1="11.778" x2="11.778" y1="2.999" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4CFB8F"/>
             <stop offset="1" stop-color="#1FC3F1"/>
         </linearGradient>
-        <linearGradient id="GNS__d" x1="11.711" x2="17.215" y1="7.666" y2="20.174" gradientUnits="userSpaceOnUse">
+        <linearGradient id="GNS__d" x1="11.675" x2="17.867" y1="7.124" y2="21.196" gradientUnits="userSpaceOnUse">
             <stop stop-color="#34D6C1"/>
             <stop offset="1" stop-color="#38BFD2"/>
         </linearGradient>
-        <linearGradient id="GNS__e" x1="7.765" x2="16.706" y1="5.882" y2="18.824" gradientUnits="userSpaceOnUse">
+        <linearGradient id="GNS__e" x1="7.235" x2="17.294" y1="5.118" y2="19.677" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4CFB8F"/>
             <stop offset="1" stop-color="#28CEDD"/>
         </linearGradient>

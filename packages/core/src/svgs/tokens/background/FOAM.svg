@@ -1,35 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
     <g clip-path="url(#FOAM__a)">
         <path fill="#fff" d="M24 0H0v24h24z"/>
-        <path fill="url(#FOAM__b)" d="M9.999 14.491v-1.032l1.278.714-.944.507z"/>
-        <path fill="#493636" d="M13.998 14.491v-1.032l-1.275.714.948.507z"/>
-        <path fill="url(#FOAM__c)" d="m16.004 11.555-2.005 1.068 2.005 1.096 1.995-1.096z"/>
-        <path fill="#83615B" d="m10.306 9.268-.31-.166v.333z"/>
-        <path fill="#6F5655" d="M17.997 11.198V7.231l-2 1.032v4.064z"/>
-        <path fill="url(#FOAM__d)" d="M13.999 9.093V5.068l-2 1.098v4.055z"/>
-        <path fill="#654A48" d="m13.658 9.26.34-.168v.343z"/>
+        <path fill="url(#FOAM__b)" d="M10 14.49v-1.03l1.277.714-.944.507z"/>
+        <path fill="#493636" d="M13.999 14.49v-1.03l-1.275.714.947.507z"/>
+        <path fill="url(#FOAM__c)" d="M16.004 11.555 14 12.623l2.005 1.096L18 12.623z"/>
+        <path fill="#83615B" d="m10.307 9.268-.31-.166v.333z"/>
+        <path fill="#6F5655" d="M17.998 11.198V7.231l-2 1.032v4.064z"/>
+        <path fill="url(#FOAM__d)" d="M14 9.093V5.068l-2 1.098v4.055z"/>
+        <path fill="#654A48" d="M13.658 9.26 14 9.091v.343z"/>
         <path fill="#684B49" d="m13.667 14.659.332-.18v.368z"/>
         <path fill="#7A5D59" d="m10.338 14.659-.339-.18v.368z"/>
-        <path fill="#7D6563" d="M8.004 6.164 6 7.232l2.005 1.096L10 7.232z"/>
-        <path fill="url(#FOAM__e)" d="M9.999 9.105v-4.04l2 1.094v4.075z"/>
-        <path fill="url(#FOAM__f)" d="M13.999 11.21V7.23l2 1.078v4.018z"/>
-        <path fill="url(#FOAM__g)" d="M13.999 16.652V12.62l2 1.07v4.1z"/>
-        <path fill="#7D6563" d="M12.004 4 9.999 5.068l2.005 1.096 1.995-1.096zm4 2.164-2.005 1.068 2.005 1.097 1.995-1.098z"/>
-        <path fill="url(#FOAM__h)" d="m8.004 11.555-2.005 1.068 2.005 1.096 1.995-1.096z"/>
-        <path fill="url(#FOAM__i)" d="m12.004 13.764-2.005 1.068 2.005 1.096 1.995-1.096z"/>
-        <path fill="url(#FOAM__j)" d="M5.999 16.653V12.62l2 1.079v4.09z"/>
-        <path fill="#7D6563" d="M12.004 8.362 9.999 9.43l2.005 1.097 1.995-1.097z"/>
-        <path fill="url(#FOAM__k)" d="M9.999 18.866V14.82l2 1.095V20z"/>
+        <path fill="#7D6563" d="M8.005 6.164 5.999 7.232l2.006 1.096L10 7.232z"/>
+        <path fill="url(#FOAM__e)" d="M10 9.105v-4.04l2 1.094v4.075z"/>
+        <path fill="url(#FOAM__f)" d="M14 11.21V7.23l2 1.078v4.018z"/>
+        <path fill="url(#FOAM__g)" d="M14 16.652V12.62l2 1.07v4.1z"/>
+        <path fill="#7D6563" d="M12.004 4 10 5.068l2.005 1.096L14 5.068zm4 2.164L14 7.232l2.005 1.097L18 7.23z"/>
+        <path fill="url(#FOAM__h)" d="M8.004 11.555 6 12.623l2.005 1.096L10 12.623z"/>
+        <path fill="url(#FOAM__i)" d="M12.004 13.763 10 14.831l2.005 1.097L14 14.83z"/>
+        <path fill="url(#FOAM__j)" d="M6 16.653V12.62l2 1.08v4.09z"/>
+        <path fill="#7D6563" d="M12.004 8.362 10 9.43l2.005 1.097L14 9.43z"/>
+        <path fill="url(#FOAM__k)" d="M10 18.865V14.82l2 1.095V20z"/>
         <path fill="#6E5453" d="M18 16.65v-4.035l-2 1.074v4.099z"/>
-        <path fill="#725857" d="M13.999 13.465V9.428l-2 1.092v4.078z"/>
-        <path fill="#705554" d="M13.999 18.866V14.82l-2 1.095V20z"/>
-        <path fill="url(#FOAM__l)" d="M9.999 16.653V12.62l-2 1.079v4.09z"/>
-        <path fill="url(#FOAM__m)" d="M9.999 11.259V7.232l-2 1.075v4.086z"/>
+        <path fill="#725857" d="M14 13.465V9.428l-2 1.092v4.078z"/>
+        <path fill="#705554" d="M14 18.865V14.82l-2 1.095V20z"/>
+        <path fill="url(#FOAM__l)" d="M10 16.653V12.62L8 13.7v4.09z"/>
+        <path fill="url(#FOAM__m)" d="M10 11.259V7.232L8 8.307v4.086z"/>
         <path fill="url(#FOAM__n)" d="M6 11.259V7.232l2 1.075v4.086z"/>
-        <path fill="url(#FOAM__o)" d="M9.999 13.468V9.432l2 1.09v4.077z"/>
+        <path fill="url(#FOAM__o)" d="M10 13.468V9.432l2 1.09v4.077z"/>
     </g>
     <defs>
-        <linearGradient id="FOAM__b" x1="6.074" x2="18.17" y1="12" y2="13.449" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FOAM__b" x1="6.075" x2="18.17" y1="11.999" y2="13.449" gradientUnits="userSpaceOnUse">
             <stop stop-color="#6C5E5D"/>
             <stop offset="1" stop-color="#684440"/>
         </linearGradient>
@@ -37,11 +37,11 @@
             <stop offset=".491" stop-color="#533534"/>
             <stop offset="1" stop-color="#3C3133"/>
         </linearGradient>
-        <linearGradient id="FOAM__d" x1="5.999" x2="14.53" y1="12.842" y2="5.939" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FOAM__d" x1="6" x2="14.53" y1="12.841" y2="5.939" gradientUnits="userSpaceOnUse">
             <stop stop-color="#543D3D"/>
             <stop offset=".77" stop-color="#4C3939"/>
         </linearGradient>
-        <linearGradient id="FOAM__e" x1="18.001" x2="6.654" y1="12.023" y2="8.806" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FOAM__e" x1="18.001" x2="6.655" y1="12.023" y2="8.806" gradientUnits="userSpaceOnUse">
             <stop stop-color="#966761"/>
             <stop offset=".768" stop-color="#6A5D5C"/>
         </linearGradient>
@@ -49,7 +49,7 @@
             <stop stop-color="#966761"/>
             <stop offset=".768" stop-color="#6A5D5C"/>
         </linearGradient>
-        <linearGradient id="FOAM__g" x1="18.001" x2="6.64" y1="11.958" y2="8.76" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FOAM__g" x1="18.001" x2="6.641" y1="11.958" y2="8.76" gradientUnits="userSpaceOnUse">
             <stop stop-color="#966761"/>
             <stop offset=".768" stop-color="#6A5D5C"/>
         </linearGradient>
@@ -65,7 +65,7 @@
             <stop stop-color="#C79890"/>
             <stop offset=".563" stop-color="#C89B94"/>
         </linearGradient>
-        <linearGradient id="FOAM__k" x1="18.001" x2="13.787" y1="7.31" y2="19.154" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FOAM__k" x1="18.001" x2="13.788" y1="7.31" y2="19.154" gradientUnits="userSpaceOnUse">
             <stop stop-color="#DB9E94"/>
             <stop offset=".453" stop-color="#CF9991"/>
         </linearGradient>
@@ -77,7 +77,7 @@
             <stop stop-color="#543D3D"/>
             <stop offset=".77" stop-color="#4C3939"/>
         </linearGradient>
-        <linearGradient id="FOAM__n" x1="18" x2="13.69" y1="7.681" y2="19.299" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FOAM__n" x1="18.001" x2="13.69" y1="7.681" y2="19.298" gradientUnits="userSpaceOnUse">
             <stop stop-color="#DBA096"/>
             <stop offset=".518" stop-color="#BC938D"/>
         </linearGradient>

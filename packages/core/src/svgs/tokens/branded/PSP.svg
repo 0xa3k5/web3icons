@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#PSP__a)" fill-rule="evenodd" d="M4 5.5h7l-3.49 6zm1.15 13H20l-7.445-13zm3.19-2h8.32L12.49 9z" clip-rule="evenodd"/>
+    <path fill="url(#PSP__a)" fill-rule="evenodd" d="M3 4.688h7.875l-3.926 6.75zm1.294 14.625H21L12.624 4.688zm3.588-2.25h9.36l-4.69-8.438z" clip-rule="evenodd"/>
     <defs>
-        <linearGradient id="PSP__a" x1="15.86" x2="10.484" y1="6.243" y2="18.698" gradientUnits="userSpaceOnUse">
+        <linearGradient id="PSP__a" x1="16.343" x2="10.295" y1="5.523" y2="19.535" gradientUnits="userSpaceOnUse">
             <stop stop-color="#568EFF"/>
             <stop offset="1" stop-color="#185BEF"/>
         </linearGradient>

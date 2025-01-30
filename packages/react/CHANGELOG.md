@@ -1,5 +1,11 @@
 # @web3icons/react
 
+## 4.0.1
+
+### Patch Changes
+
+- slightly reduce icon sizes for better consistency
+
 ## 4.0.0
 
 ### Major Changes

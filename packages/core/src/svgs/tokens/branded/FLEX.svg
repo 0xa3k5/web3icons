@@ -1,84 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#FLEX__a)" d="M10.625 4.119c-.92.159-1.806.48-2.615.946l4.005 6.936z"/>
-    <path fill="#DADADA" d="M18.933 8.007a8 8 0 0 0-.799-1.141L12.014 12l7.507-2.733a8 8 0 0 0-.588-1.261"/>
-    <path fill="url(#FLEX__b)" d="M19.88 10.613q-.12-.689-.359-1.346L12.015 12H20q-.001-.71-.12-1.387"/>
-    <path fill="url(#FLEX__c)" d="m12.015 12 1.388 7.877a8 8 0 0 0 2.609-.954z"/>
-    <path fill="url(#FLEX__d)" d="M4.482 14.742c.32.878.793 1.693 1.395 2.408L12.015 12z"/>
-    <path fill="url(#FLEX__e)" d="M4 12c0 .935.164 1.863.482 2.742L12.015 12z"/>
-    <path fill="url(#FLEX__f)" d="M8.01 5.064A8 8 0 0 0 5.877 6.85L12.015 12z"/>
-    <path fill="url(#FLEX__g)" d="m12.015 12 3.997 6.922a8 8 0 0 0 2.122-1.787z"/>
-    <path fill="url(#FLEX__h)" d="m12.015 12 6.119 5.135a8 8 0 0 0 1.386-2.403z"/>
-    <path fill="url(#FLEX__i)" d="M5.878 6.85a8 8 0 0 0-1.395 2.407L12.015 12z"/>
-    <path fill="url(#FLEX__j)" d="m12.015 12 7.505 2.732A8 8 0 0 0 20 12z"/>
-    <path fill="url(#FLEX__k)" d="M4.483 9.258A8 8 0 0 0 4 12h8.015z"/>
-    <path fill="url(#FLEX__l)" d="M17.15 5.878a8 8 0 0 0-1.139-.801l-3.996 6.922 6.119-5.135a8 8 0 0 0-.983-.986"/>
-    <path fill="url(#FLEX__m)" d="M5.877 17.15a8 8 0 0 0 2.133 1.786L12.015 12z"/>
-    <path fill="#C2C2C2" d="M14.75 4.485a8 8 0 0 0-1.347-.362L12.016 12l3.996-6.922a8 8 0 0 0-1.261-.593"/>
-    <path fill="url(#FLEX__n)" d="M8.01 18.936a7.9 7.9 0 0 0 2.615.946L12.015 12z"/>
-    <path fill="url(#FLEX__o)" d="M12.015 4H12q-.704 0-1.375.118L12.015 12l1.389-7.877A8 8 0 0 0 12.015 4"/>
-    <path fill="url(#FLEX__p)" d="m12.015 12-1.39 7.882q.671.117 1.375.118h.015q.7 0 1.389-.123z"/>
+    <path fill="url(#FLEX__a)" d="M10.453 3.134a8.9 8.9 0 0 0-2.941 1.064l4.505 7.803z"/>
+    <path fill="#DADADA" d="M19.8 7.507a9 9 0 0 0-.9-1.283L12.018 12l8.444-3.074a9 9 0 0 0-.662-1.42"/>
+    <path fill="url(#FLEX__b)" d="M20.865 10.44a9 9 0 0 0-.404-1.514l-8.444 3.073H21q-.002-.799-.135-1.56"/>
+    <path fill="url(#FLEX__c)" d="m12.017 12 1.562 8.862a9 9 0 0 0 2.934-1.074z"/>
+    <path fill="url(#FLEX__d)" d="M3.542 15.085c.36.988.892 1.904 1.57 2.708L12.017 12z"/>
+    <path fill="url(#FLEX__e)" d="M3 12c0 1.052.184 2.096.543 3.085L12.017 12z"/>
+    <path fill="url(#FLEX__f)" d="M7.512 4.197a9 9 0 0 0-2.4 2.01l6.905 5.792z"/>
+    <path fill="url(#FLEX__g)" d="m12.017 12 4.496 7.788a9 9 0 0 0 2.388-2.011z"/>
+    <path fill="url(#FLEX__h)" d="m12.017 12 6.884 5.777a9 9 0 0 0 1.56-2.704z"/>
+    <path fill="url(#FLEX__i)" d="M5.113 6.206a9 9 0 0 0-1.57 2.709l8.475 3.084z"/>
+    <path fill="url(#FLEX__j)" d="m12.017 12 8.444 3.073A9 9 0 0 0 21 12z"/>
+    <path fill="url(#FLEX__k)" d="M3.543 8.915A9 9 0 0 0 3 12h9.017z"/>
+    <path fill="url(#FLEX__l)" d="M17.795 5.113q-.602-.507-1.283-.902L12.017 12 18.9 6.222a9 9 0 0 0-1.107-1.11"/>
+    <path fill="url(#FLEX__m)" d="M5.112 17.793a9 9 0 0 0 2.4 2.01L12.017 12z"/>
+    <path fill="#C2C2C2" d="M15.093 3.546a9 9 0 0 0-1.514-.407L12.017 12l4.496-7.787a9 9 0 0 0-1.42-.667"/>
+    <path fill="url(#FLEX__n)" d="M7.512 19.802c.91.526 1.906.886 2.94 1.065L12.018 12z"/>
+    <path fill="url(#FLEX__o)" d="M12.017 3H12q-.791 0-1.547.133L12.017 12l1.563-8.862A9 9 0 0 0 12.016 3"/>
+    <path fill="url(#FLEX__p)" d="m12.017 12-1.564 8.867Q11.208 21 12 21h.017q.788 0 1.563-.138z"/>
     <defs>
-        <linearGradient id="FLEX__a" x1="12.001" x2="16.42" y1="11.649" y2="8.218" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__a" x1="12.001" x2="16.973" y1="11.604" y2="7.745" gradientUnits="userSpaceOnUse">
             <stop stop-color="#ACACAC"/>
             <stop offset="1" stop-color="#BDBDBD"/>
         </linearGradient>
-        <linearGradient id="FLEX__b" x1="11.751" x2="17.418" y1="10.213" y2="17.13" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__b" x1="11.72" x2="18.095" y1="9.99" y2="17.771" gradientUnits="userSpaceOnUse">
             <stop stop-color="#DADADA"/>
             <stop offset="1" stop-color="#FBFBFB"/>
         </linearGradient>
-        <linearGradient id="FLEX__c" x1="12.422" x2="8.097" y1="13.101" y2="16.254" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__c" x1="12.475" x2="7.609" y1="13.239" y2="16.786" gradientUnits="userSpaceOnUse">
             <stop stop-color="#373737"/>
             <stop offset="1" stop-color="#3F3F3F"/>
         </linearGradient>
-        <linearGradient id="FLEX__d" x1="13.717" x2="11.978" y1="11.097" y2="7.32" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__d" x1="13.931" x2="11.975" y1="10.984" y2="6.735" gradientUnits="userSpaceOnUse">
             <stop stop-color="#686868"/>
             <stop offset="1" stop-color="#787878"/>
         </linearGradient>
-        <linearGradient id="FLEX__e" x1="12.992" x2="15.617" y1="10.859" y2="3.521" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__e" x1="13.117" x2="16.069" y1="10.717" y2="2.462" gradientUnits="userSpaceOnUse">
             <stop stop-color="#747474"/>
             <stop offset="1" stop-color="#7F7F7F"/>
         </linearGradient>
-        <linearGradient id="FLEX__f" x1="15.362" x2="12.317" y1="11.762" y2="14.43" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__f" x1="15.783" x2="12.357" y1="11.733" y2="14.733" gradientUnits="userSpaceOnUse">
             <stop stop-color="#B0B0B0"/>
             <stop offset="1" stop-color="#848484"/>
         </linearGradient>
-        <linearGradient id="FLEX__g" x1="12.726" x2="11.201" y1="11.378" y2="13.937" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__g" x1="12.817" x2="11.101" y1="11.3" y2="14.179" gradientUnits="userSpaceOnUse">
             <stop stop-color="#282828"/>
             <stop offset="1" stop-color="#383838"/>
         </linearGradient>
-        <linearGradient id="FLEX__h" x1="13.886" x2="11.337" y1="9.475" y2="14.095" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__h" x1="14.122" x2="11.254" y1="9.159" y2="14.357" gradientUnits="userSpaceOnUse">
             <stop stop-color="#1A1A1A"/>
             <stop offset="1" stop-color="#2D2D2D"/>
         </linearGradient>
-        <linearGradient id="FLEX__i" x1="13.817" x2="10.887" y1="11.307" y2="16.386" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__i" x1="14.044" x2="10.749" y1="11.22" y2="16.934" gradientUnits="userSpaceOnUse">
             <stop stop-color="#848484"/>
             <stop offset="1" stop-color="#838383"/>
         </linearGradient>
-        <linearGradient id="FLEX__j" x1="13.795" x2="8.084" y1="4.914" y2="10.837" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__j" x1="14.019" x2="7.595" y1="4.028" y2="10.692" gradientUnits="userSpaceOnUse">
             <stop stop-color="#010101"/>
             <stop offset="1" stop-color="#1C1C1C"/>
         </linearGradient>
-        <linearGradient id="FLEX__k" x1="12.793" x2="7.259" y1="10.465" y2="16.761" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__k" x1="12.892" x2="6.666" y1="10.273" y2="17.356" gradientUnits="userSpaceOnUse">
             <stop stop-color="#888"/>
             <stop offset="1" stop-color="#7B7B7B"/>
         </linearGradient>
-        <linearGradient id="FLEX__l" x1="11.222" x2="15.025" y1="7.861" y2="12.467" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__l" x1="11.125" x2="15.404" y1="7.344" y2="12.525" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C2C2C2"/>
             <stop offset="1" stop-color="#DADADA"/>
         </linearGradient>
-        <linearGradient id="FLEX__m" x1="14.567" x2="11.687" y1="12.405" y2="9.488" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__m" x1="14.888" x2="11.648" y1="12.456" y2="9.174" gradientUnits="userSpaceOnUse">
             <stop stop-color="#515151"/>
             <stop offset=".995" stop-color="#6B6B6B"/>
         </linearGradient>
-        <linearGradient id="FLEX__n" x1="17.225" x2="11.384" y1="12.341" y2="8.677" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__n" x1="17.878" x2="11.307" y1="12.384" y2="8.262" gradientUnits="userSpaceOnUse">
             <stop stop-color="#434343"/>
             <stop offset="1" stop-color="#575757"/>
         </linearGradient>
-        <linearGradient id="FLEX__o" x1="5.929" x2="18.512" y1="9.655" y2="9.655" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__o" x1="5.17" x2="19.326" y1="9.362" y2="9.362" gradientUnits="userSpaceOnUse">
             <stop stop-color="#B9B9B9"/>
             <stop offset="1" stop-color="#C1C1C1"/>
         </linearGradient>
-        <linearGradient id="FLEX__p" x1="12.926" x2="11.092" y1="16.728" y2="16.728" gradientUnits="userSpaceOnUse">
+        <linearGradient id="FLEX__p" x1="13.041" x2="10.979" y1="17.319" y2="17.319" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3D3D3D"/>
             <stop offset="1" stop-color="#464646"/>
         </linearGradient>

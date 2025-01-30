@@ -1,31 +1,136 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
     <g clip-path="url(#iotex__a)">
-        <path fill="url(#iotex__b)" d="M24 0H0v24h24z"/>
-        <path fill="#fff" d="M13.65 4.439v3.639l3.153-1.822z"/>
-        <path fill="#fff" d="M16.84 6.256v3.639l3.155-1.817z" opacity=".9"/>
-        <path fill="#fff" d="M13.682 8.078v3.639l3.159-1.822z" opacity=".8"/>
-        <path fill="#fff" d="M16.84 9.895v3.639l3.155-1.817zm-3.158 1.822v3.639l3.159-1.822z" opacity=".8"/>
-        <path fill="#fff" d="M16.84 13.534v3.638l3.155-1.816z"/>
-        <path fill="#fff" d="M5.516 7.955v3.64L8.67 9.771z" opacity=".4"/>
-        <path fill="#fff" d="M9.497 9.308v3.639l3.159-1.822z" opacity=".2"/>
-        <path fill="#fff" d="M7.16 11.61v3.639l3.153-1.822z" opacity=".3"/>
-        <path fill="#fff" d="M9.236 14.355v3.64l3.16-1.823z" opacity=".9"/>
-        <path fill="#fff" d="M13.65 15.922v3.64l3.16-1.823z" opacity=".7"/>
-        <path fill="#fff" d="M10.022 7.511v3.64l3.16-1.818z" opacity=".9"/>
-        <path fill="#fff" d="M13.682 4.439v3.639l-3.16-1.822z" opacity=".8"/>
-        <path fill="#fff" d="M10.023 5.98v3.64L6.869 7.801zm3.159 1.807v3.639l-3.154-1.822z" opacity=".6"/>
-        <path fill="#fff" d="M9.486 9.308v3.639l-3.159-1.822z" opacity=".95"/>
-        <path fill="#fff" d="M13.682 11.717v3.639l-3.16-1.822z" opacity=".6"/>
-        <path fill="#fff" d="M7.16 12.564v3.634L4 14.38z" opacity=".55"/>
-        <path fill="#fff" d="M19.995 8.078v3.639l-3.154-1.822z"/>
-        <path fill="#fff" d="M16.84 9.895v3.639l-3.158-1.817z" opacity=".95"/>
-        <path fill="#fff" d="M20 11.717v3.639l-3.16-1.822z" opacity=".9"/>
-        <path fill="#fff" d="M16.836 13.534v3.638l-3.154-1.816z" opacity=".7"/>
-        <path fill="#fff" d="M12.983 15.055v3.639l-3.16-1.817z" opacity=".4"/>
-        <path fill="#fff" d="M16.84 6.256v3.639l-3.158-1.817z"/>
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#iotex__b)" d="M13.65 4.439v3.639l3.153-1.822z"/>
+        <path fill="url(#iotex__c)" d="M16.84 6.256v3.639l3.155-1.817z" opacity=".9"/>
+        <path fill="url(#iotex__d)" d="M13.682 8.078v3.639l3.159-1.822z" opacity=".8"/>
+        <path fill="url(#iotex__e)" d="M16.84 9.895v3.639l3.155-1.817zm-3.158 1.822v3.639l3.159-1.822z" opacity=".8"/>
+        <path fill="url(#iotex__f)" d="M16.84 13.534v3.638l3.155-1.816z"/>
+        <path fill="url(#iotex__g)" d="M5.516 7.955v3.64L8.67 9.771z" opacity=".4"/>
+        <path fill="url(#iotex__h)" d="M9.497 9.308v3.639l3.159-1.822z" opacity=".2"/>
+        <path fill="url(#iotex__i)" d="M7.16 11.61v3.639l3.153-1.822z" opacity=".3"/>
+        <path fill="url(#iotex__j)" d="M9.236 14.355v3.64l3.16-1.823z" opacity=".9"/>
+        <path fill="url(#iotex__k)" d="M13.65 15.922v3.64l3.16-1.823z" opacity=".7"/>
+        <path fill="url(#iotex__l)" d="M10.022 7.511v3.64l3.16-1.818z" opacity=".9"/>
+        <path fill="url(#iotex__m)" d="M13.682 4.439v3.639l-3.16-1.822z" opacity=".8"/>
+        <path fill="url(#iotex__n)" d="M10.023 5.98v3.64L6.869 7.801zm3.159 1.807v3.639l-3.154-1.822z" opacity=".6"/>
+        <path fill="url(#iotex__o)" d="M9.486 9.308v3.639l-3.159-1.822z" opacity=".95"/>
+        <path fill="url(#iotex__p)" d="M13.682 11.717v3.639l-3.16-1.822z" opacity=".6"/>
+        <path fill="url(#iotex__q)" d="M7.16 12.564v3.634L4 14.38z" opacity=".55"/>
+        <path fill="url(#iotex__r)" d="M19.995 8.078v3.639l-3.154-1.822z"/>
+        <path fill="url(#iotex__s)" d="M16.84 9.895v3.639l-3.158-1.817z" opacity=".95"/>
+        <path fill="url(#iotex__t)" d="M20 11.717v3.639l-3.16-1.822z" opacity=".9"/>
+        <path fill="url(#iotex__u)" d="M16.836 13.534v3.638l-3.154-1.816z" opacity=".7"/>
+        <path fill="url(#iotex__v)" d="M12.983 15.055v3.639l-3.16-1.817z" opacity=".4"/>
+        <path fill="url(#iotex__w)" d="M16.84 6.256v3.639l-3.158-1.817z"/>
     </g>
     <defs>
-        <linearGradient id="iotex__b" x1="6.002" x2="26.225" y1="13.296" y2="16.747" gradientUnits="userSpaceOnUse">
+        <linearGradient id="iotex__b" x1="14.438" x2="17.115" y1="6.455" y2="6.851" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__c" x1="17.63" x2="20.306" y1="8.272" y2="8.668" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__d" x1="14.472" x2="17.152" y1="10.094" y2="10.491" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__e" x1="15.261" x2="20.53" y1="12.92" y2="13.96" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__f" x1="17.63" x2="20.306" y1="15.55" y2="15.945" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__g" x1="6.305" x2="8.981" y1="9.971" y2="10.367" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__h" x1="10.287" x2="12.967" y1="11.324" y2="11.721" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__i" x1="7.948" x2="10.624" y1="13.626" y2="14.021" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__j" x1="10.026" x2="12.707" y1="16.371" y2="16.768" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__k" x1="14.441" x2="17.122" y1="17.938" y2="18.335" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__l" x1="10.812" x2="13.493" y1="9.527" y2="9.924" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__m" x1="11.313" x2="13.993" y1="6.455" y2="6.852" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__n" x1="8.448" x2="13.716" y1="8.997" y2="10.039" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__o" x1="7.117" x2="9.798" y1="11.324" y2="11.721" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__p" x1="11.313" x2="13.993" y1="13.733" y2="14.13" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__q" x1="4.79" x2="7.471" y1="14.577" y2="14.975" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__r" x1="17.63" x2="20.306" y1="10.094" y2="10.49" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__s" x1="14.472" x2="17.152" y1="11.911" y2="12.308" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__t" x1="17.631" x2="20.312" y1="13.733" y2="14.13" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__u" x1="14.47" x2="17.147" y1="15.55" y2="15.945" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__v" x1="10.614" x2="13.294" y1="17.07" y2="17.468" gradientUnits="userSpaceOnUse">
+            <stop offset=".07" stop-color="#77FE9E"/>
+            <stop offset=".369" stop-color="#72A7FF"/>
+            <stop offset="1" stop-color="#EC02D5"/>
+        </linearGradient>
+        <linearGradient id="iotex__w" x1="14.472" x2="17.152" y1="8.272" y2="8.669" gradientUnits="userSpaceOnUse">
             <stop offset=".07" stop-color="#77FE9E"/>
             <stop offset=".369" stop-color="#72A7FF"/>
             <stop offset="1" stop-color="#EC02D5"/>

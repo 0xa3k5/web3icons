@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#RGEN__a)" d="m6.17 9.245 5.022-4.973 1.027.871-5.093 5.035 4.897 4.844 4.898-4.844-.831-.822-.956.947-.889-.983.907-.897a1.395 1.395 0 0 1 1.929.03l.715.712a1.425 1.425 0 0 1 0 2.026l-4.746 4.693a1.46 1.46 0 0 1-2.053 0L6.17 11.111a1.313 1.313 0 0 1 0-1.866"/>
-    <path fill="url(#RGEN__b)" d="m14.325 9.231.43-.426a1.78 1.78 0 0 0 .463 1.51l2.529 2.503-.476 1.35-2.946-2.91a1.42 1.42 0 0 1 0-2.027"/>
-    <path fill="url(#RGEN__c)" d="M11.85 5.13c-.374-.347-1.085-.209-1.414-.107l.551-.604a1.46 1.46 0 0 1 2.05 0l.76.755a1.423 1.423 0 0 1 0 2.022l-6.73 6.653 4.96 4.906c1.431-1.408 4.409-4.346 4.862-4.804.453-.462.311-1.4.178-1.809l.71.698a1.42 1.42 0 0 1 0 2.027l-4.803 4.746a1.35 1.35 0 0 1-1.893 0l-4.804-4.75a1.42 1.42 0 0 1 0-2.027l6.728-6.653z"/>
+    <path fill="url(#RGEN__a)" d="m5.441 8.9 5.65-5.594 1.155.98-5.73 5.665 5.51 5.449 5.51-5.45-.936-.924-1.075 1.065-1-1.105 1.02-1.01a1.57 1.57 0 0 1 2.17.035l.805.8a1.6 1.6 0 0 1 .353 1.757 1.6 1.6 0 0 1-.353.522l-5.34 5.28a1.645 1.645 0 0 1-2.31 0L5.442 11a1.477 1.477 0 0 1 0-2.1"/>
+    <path fill="url(#RGEN__b)" d="m14.614 8.885.485-.48a2 2 0 0 0 .52 1.7l2.845 2.815-.535 1.52-3.315-3.275a1.6 1.6 0 0 1 0-2.28"/>
+    <path fill="url(#RGEN__c)" d="M11.83 4.271c-.42-.39-1.22-.235-1.59-.12l.62-.68a1.645 1.645 0 0 1 2.305 0l.855.85a1.6 1.6 0 0 1 0 2.275L6.45 14.08l5.58 5.52c1.61-1.585 4.96-4.89 5.47-5.405.51-.52.35-1.575.2-2.035l.8.785a1.6 1.6 0 0 1 .353 1.758 1.6 1.6 0 0 1-.353.522l-5.405 5.34a1.52 1.52 0 0 1-2.13 0L5.561 15.22a1.6 1.6 0 0 1 0-2.28l7.57-7.484z"/>
     <defs>
-        <linearGradient id="RGEN__a" x1="6.064" x2="16.496" y1="12.119" y2="9.657" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RGEN__a" x1="5.322" x2="17.058" y1="12.134" y2="9.364" gradientUnits="userSpaceOnUse">
             <stop stop-color="#873B9F"/>
             <stop offset=".52" stop-color="#359DDA"/>
             <stop offset=".72" stop-color="#2867AC"/>
             <stop offset=".85" stop-color="#327EC2"/>
             <stop offset="1" stop-color="#27ABE3"/>
         </linearGradient>
-        <linearGradient id="RGEN__b" x1="6.289" x2="17.189" y1="8.533" y2="19.675" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RGEN__b" x1="5.575" x2="17.837" y1="8.1" y2="20.634" gradientUnits="userSpaceOnUse">
             <stop offset=".31" stop-color="#2CAAE2"/>
             <stop offset="1" stop-color="#286DB0"/>
         </linearGradient>
-        <linearGradient id="RGEN__c" x1="5.85" x2="12.832" y1="14.329" y2="14.6" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RGEN__c" x1="5.081" x2="12.935" y1="14.62" y2="14.925" gradientUnits="userSpaceOnUse">
             <stop stop-color="#813B9D"/>
             <stop offset="1" stop-color="#24ADE3"/>
         </linearGradient>

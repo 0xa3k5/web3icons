@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
-    <path fill="url(#NFTART__a)" d="M7 5v5.5H4.5v3h1.375c.65 0 .98-.83 1.125-1.585V19h3v-8.385L15.75 19H18v-5.5h2.5v-3h-1.375c-.65 0-.98.83-1.125 1.585V5h-3v8.48L9.2 5z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#NFTART__a)" d="M5.813 4.125v6.188H3v3.374h1.547c.731 0 1.102-.933 1.266-1.783v7.971h3.374v-9.433l6.47 9.433h2.53v-6.187H21v-3.376h-1.547c-.731 0-1.102.934-1.266 1.784V4.125h-3.375v9.54l-6.525-9.54z"/>
     <defs>
-        <linearGradient id="NFTART__a" x1="4.5" x2="19.119" y1="7.217" y2="18.381" gradientUnits="userSpaceOnUse">
+        <linearGradient id="NFTART__a" x1="3" x2="19.446" y1="6.62" y2="19.179" gradientUnits="userSpaceOnUse">
             <stop stop-color="#D6022A"/>
             <stop offset="1" stop-color="#3C08C3"/>
         </linearGradient>

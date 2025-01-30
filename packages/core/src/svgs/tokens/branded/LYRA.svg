@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#LYRA__a)" d="M15.453 10.203 12.667 13H5.61c-.51 0-.766-.585-.42-.935l7.886-7.937a.44.44 0 0 1 .705.12l1.966 4.376a1.41 1.41 0 0 1-.295 1.58"/>
-    <path fill="url(#LYRA__b)" d="M4 13.499c.16.215.735.5 1.73.5h10.953c.635 0 1.21.37 1.46.95l1.815 4.29a.55.55 0 0 1-.51.76H8.021a1.8 1.8 0 0 1-1.65-1.07z"/>
+    <path fill="url(#LYRA__a)" d="m15.884 9.979-3.134 3.145H4.812c-.574 0-.861-.658-.473-1.052l8.872-8.929a.495.495 0 0 1 .794.135l2.21 4.923a1.59 1.59 0 0 1-.33 1.778"/>
+    <path fill="url(#LYRA__b)" d="M3 13.686c.18.242.827.563 1.947.563h12.321c.714 0 1.361.416 1.643 1.069l2.042 4.827a.62.62 0 0 1-.574.855H7.523a2.03 2.03 0 0 1-1.856-1.204z"/>
     <defs>
-        <linearGradient id="LYRA__a" x1="12" x2="12" y1="3.995" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LYRA__a" x1="12" x2="12" y1="2.994" y2="21.001" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5ADCD3"/>
             <stop offset="1" stop-color="#37C4B1"/>
         </linearGradient>
-        <linearGradient id="LYRA__b" x1="18.078" x2="6.015" y1="14.689" y2="19.1" gradientUnits="userSpaceOnUse">
+        <linearGradient id="LYRA__b" x1="18.838" x2="5.267" y1="15.025" y2="19.988" gradientUnits="userSpaceOnUse">
             <stop stop-color="#47D1C1"/>
             <stop offset="1" stop-color="#21BFA1"/>
         </linearGradient>

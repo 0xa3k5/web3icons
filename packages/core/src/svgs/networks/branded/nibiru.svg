@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#nibiru__a)" d="M12.2 4 6.836 7.773 17.2 15.306V7.517zm4.018 9.337-7.636-5.55 3.636-2.558 4 2.813z"/>
-    <path fill="url(#nibiru__b)" d="M6.8 8.694v7.793L11.929 20l5.226-3.779zm1.018 7.26v-5.29l7.642 5.557-3.528 2.55z"/>
+    <path fill="url(#nibiru__a)" d="M12.225 3 6.19 7.244l11.66 8.475V6.957zm4.52 10.504L8.156 7.26l4.09-2.878 4.5 3.165z"/>
+    <path fill="url(#nibiru__b)" d="M6.15 8.281v8.767L11.92 21l5.88-4.25zm1.146 8.167v-5.952l8.597 6.252-3.97 2.87z"/>
     <defs>
-        <linearGradient id="nibiru__a" x1=".922" x2="70.517" y1="2.277" y2="17.064" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nibiru__a" x1="-.462" x2="77.832" y1="1.062" y2="17.697" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F29AC4"/>
             <stop offset=".13" stop-color="#F2A9CB"/>
             <stop offset=".275" stop-color="#F2BAD5"/>
@@ -12,7 +12,7 @@
             <stop offset=".8" stop-color="#11BBCA"/>
             <stop offset="1" stop-color="#17A0BF"/>
         </linearGradient>
-        <linearGradient id="nibiru__b" x1=".922" x2="70.517" y1="2.277" y2="17.064" gradientUnits="userSpaceOnUse">
+        <linearGradient id="nibiru__b" x1="-.462" x2="77.832" y1="1.062" y2="17.697" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F29AC4"/>
             <stop offset=".13" stop-color="#F2A9CB"/>
             <stop offset=".275" stop-color="#F2BAD5"/>

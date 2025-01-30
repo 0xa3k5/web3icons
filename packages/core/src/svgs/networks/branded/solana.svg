@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#solana__a)" d="M17.7 8.358a.55.55 0 0 1-.365.144H4.515c-.455 0-.684-.52-.37-.825l2.106-2.03a.54.54 0 0 1 .364-.15h12.87c.46 0 .685.525.365.83z"/>
-    <path fill="url(#solana__b)" d="M17.7 18.363c-.1.09-.23.14-.365.14H4.515c-.455 0-.684-.516-.37-.82l2.106-2.036a.53.53 0 0 1 .364-.145h12.87c.46 0 .685.52.365.825z"/>
-    <path fill="url(#solana__c)" d="M17.7 10.642a.55.55 0 0 0-.365-.14H4.515c-.455 0-.684.516-.37.82l2.106 2.036c.1.092.23.143.364.145h12.87c.46 0 .685-.52.365-.825z"/>
+    <path fill="url(#solana__a)" d="M18.413 7.902a.62.62 0 0 1-.411.163H3.58c-.512 0-.77-.585-.416-.928l2.369-2.284a.6.6 0 0 1 .41-.169H20.42c.517 0 .77.59.41.935z"/>
+    <path fill="url(#solana__b)" d="M18.413 19.158a.62.62 0 0 1-.411.158H3.58c-.512 0-.77-.58-.416-.923l2.369-2.29a.6.6 0 0 1 .41-.163H20.42c.517 0 .77.586.41.928z"/>
+    <path fill="url(#solana__c)" d="M18.413 10.473a.62.62 0 0 0-.411-.158H3.58c-.512 0-.77.58-.416.923l2.369 2.29c.111.103.257.16.41.163H20.42c.517 0 .77-.586.41-.928z"/>
     <defs>
-        <linearGradient id="solana__a" x1="4.001" x2="20.408" y1="50.258" y2="50.108" gradientUnits="userSpaceOnUse">
+        <linearGradient id="solana__a" x1="3.001" x2="21.459" y1="55.041" y2="54.871" gradientUnits="userSpaceOnUse">
             <stop stop-color="#599DB0"/>
             <stop offset="1" stop-color="#47F8C3"/>
         </linearGradient>
-        <linearGradient id="solana__b" x1="4.001" x2="20.303" y1="9.482" y2="9.357" gradientUnits="userSpaceOnUse">
+        <linearGradient id="solana__b" x1="3.001" x2="21.341" y1="9.168" y2="9.027" gradientUnits="userSpaceOnUse">
             <stop stop-color="#C44FE2"/>
             <stop offset="1" stop-color="#73B0D0"/>
         </linearGradient>
-        <linearGradient id="solana__c" x1="4.921" x2="19.38" y1="12.003" y2="12.003" gradientUnits="userSpaceOnUse">
+        <linearGradient id="solana__c" x1="4.036" x2="20.303" y1="12.003" y2="12.003" gradientUnits="userSpaceOnUse">
             <stop stop-color="#778CBF"/>
             <stop offset="1" stop-color="#5DCDC9"/>
         </linearGradient>

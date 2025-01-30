@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#ABYSS__a)" d="M12.009 9.053c-1.2 0-2.114.185-2.114.185v1.92h4.21V9.24c.02 0-.895-.186-2.096-.186"/>
-    <path fill="url(#ABYSS__b)" d="M12 4C8.925 4 5.263 5.58 5.263 5.58v9.62L12 20l6.737-4.78V5.56C18.757 5.56 15.093 4 12 4m3.79 10.165-1.685 1.23v-2.553h-4.21v2.552L8.21 14.165V7.787s2.223-.508 3.808-.508c1.586 0 3.77.508 3.77.508z"/>
+    <path fill="url(#ABYSS__a)" d="M12.01 8.685c-1.35 0-2.379.208-2.379.208v2.16h4.737V8.894c.022 0-1.007-.21-2.358-.21"/>
+    <path fill="url(#ABYSS__b)" d="M12 3C8.54 3 4.42 4.778 4.42 4.778V15.6L12 21l7.579-5.378V4.755c.022 0-4.1-1.755-7.58-1.755m4.263 11.436-1.895 1.383v-2.872H9.631v2.871l-1.894-1.382V7.26s2.5-.57 4.285-.57c1.784-.001 4.241.57 4.241.57z"/>
     <defs>
-        <linearGradient id="ABYSS__a" x1="7.107" x2="17.983" y1="6.761" y2="15.986" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ABYSS__a" x1="6.496" x2="18.731" y1="6.106" y2="16.484" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A025F3"/>
             <stop offset="1" stop-color="#4212A0"/>
         </linearGradient>
-        <linearGradient id="ABYSS__b" x1="7.107" x2="17.983" y1="6.76" y2="15.985" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ABYSS__b" x1="6.496" x2="18.731" y1="6.105" y2="16.483" gradientUnits="userSpaceOnUse">
             <stop stop-color="#A025F3"/>
             <stop offset="1" stop-color="#4212A0"/>
         </linearGradient>

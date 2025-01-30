@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#ZEN__a)" d="M18.51 7.337 17.2 9.365a5.832 5.832 0 0 1-4.263 8.384 5.8 5.8 0 0 1-3.544-.55L7.36 18.506a7.987 7.987 0 0 0 12.613-5.857 8.03 8.03 0 0 0-1.464-5.317h.005z"/>
-    <path fill="url(#ZEN__b)" d="M12.01 16.008a4.016 4.016 0 0 0 3.954-3.293 9.15 9.15 0 0 0-7.285 1.515 4.02 4.02 0 0 0 3.332 1.778"/>
-    <path fill="#fff" d="M13.992 11.778a9.6 9.6 0 0 1 2.037.222 4.021 4.021 0 0 0-7.87-1.156 4 4 0 0 0-.13 1.697c-.555.408-1.06.88-1.506 1.406a5.833 5.833 0 0 1 4.74-7.706 5.8 5.8 0 0 1 3.35.565l2.024-1.313A7.987 7.987 0 0 0 4.02 11.44a8 8 0 0 0 1.548 5.322 9.6 9.6 0 0 1 1.365-1.887c.435-.45.908-.865 1.411-1.238a9.56 9.56 0 0 1 5.653-1.857z"/>
+    <path fill="url(#ZEN__a)" d="m19.323 6.754-1.472 2.28a6.562 6.562 0 0 1-4.796 9.432 6.54 6.54 0 0 1-3.987-.618l-2.287 1.47A8.986 8.986 0 0 0 20.97 12.73a9.03 9.03 0 0 0-1.647-5.98h.006z"/>
+    <path fill="url(#ZEN__b)" d="M12.012 16.51a4.52 4.52 0 0 0 4.447-3.706 10.3 10.3 0 0 0-8.196 1.704 4.53 4.53 0 0 0 3.749 2.001"/>
+    <path fill="#fff" d="M14.24 11.75q1.16.001 2.293.25a4.524 4.524 0 0 0-7.93-2.979 4.5 4.5 0 0 0-1.07 3.587c-.625.46-1.193.99-1.694 1.582a6.56 6.56 0 0 1 5.331-8.67 6.53 6.53 0 0 1 3.77.636l2.276-1.477A8.985 8.985 0 0 0 3.022 11.37a9 9 0 0 0 1.742 5.986c.425-.767.94-1.48 1.535-2.122q.737-.762 1.588-1.392a10.75 10.75 0 0 1 6.359-2.09z"/>
     <defs>
-        <radialGradient id="ZEN__a" cx="0" cy="0" r="1" gradientTransform="matrix(17.034 0 0 17.0165 18.12 3.995)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="ZEN__a" cx="0" cy="0" r="1" gradientTransform="matrix(19.1627 0 0 19.1429 18.884 2.994)" gradientUnits="userSpaceOnUse">
             <stop offset=".1" stop-color="#26DB8D"/>
             <stop offset=".26" stop-color="#23D29A"/>
             <stop offset=".56" stop-color="#1ABBBB"/>
             <stop offset=".89" stop-color="#0E9DE5"/>
         </radialGradient>
-        <radialGradient id="ZEN__b" cx="0" cy="0" r="1" gradientTransform="matrix(29.5527 0 0 61.5636 25.602 -19.665)" gradientUnits="userSpaceOnUse">
+        <radialGradient id="ZEN__b" cx="0" cy="0" r="1" gradientTransform="matrix(33.2458 0 0 69.2569 27.301 -23.622)" gradientUnits="userSpaceOnUse">
             <stop offset=".26" stop-color="#23D29A"/>
             <stop offset=".56" stop-color="#1ABBBB"/>
             <stop offset=".89" stop-color="#0E9DE5"/>

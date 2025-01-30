@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
     <g clip-path="url(#UBSN__a)">
         <path fill="#000" d="M24 0H0v24h24z"/>
-        <path fill="#fff" d="m13.666 14.333-5.333-3.334V9.666l5.333 3.333z"/>
-        <path fill="#fff" d="M8.333 9.666H20v1.333H8.333zm5.334 4.667H4V13h9.667z"/>
+        <path fill="#fff" d="M13.667 14.334 8.333 11V9.667L13.666 13z"/>
+        <path fill="#fff" d="M8.333 9.667H20V11H8.333zm5.334 4.666H4V13h9.667z"/>
     </g>
     <defs>
         <clipPath id="UBSN__a">

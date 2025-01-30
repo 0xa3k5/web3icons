@@ -1,19 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <g opacity=".8">
-        <path fill="url(#zilliqa__a)" d="m6.353 5.027 8.937 4.315 2.353-1.035L8.692 4z"/>
-        <path fill="url(#zilliqa__b)" d="M6.353 5.026v2.329l6.222 2.997-6.222 3.045v2.296L15.295 20v-2.306l-6.056-2.942 6.055-3.104V9.342L6.353 5.035z"/>
-        <path fill="url(#zilliqa__c)" d="m15.294 9.328 2.353-1.022v2.306l-2.353 1.026zm0 10.654 2.353-1.027v-7.174l-2.353 1.034z"/>
-    </g>
+    <path fill="url(#zilliqa__a)" d="M5.647 4.155 15.701 9.01l2.648-1.165L8.279 3z"/>
+    <path fill="url(#zilliqa__b)" d="M5.647 4.154v2.62l7 3.373-7 3.425v2.583L15.707 21v-2.594l-6.814-3.31 6.813-3.492V9.01L5.647 4.164z"/>
+    <path fill="url(#zilliqa__c)" d="m15.706 8.994 2.647-1.15v2.595l-2.647 1.154zm0 11.986 2.647-1.155v-8.072l-2.647 1.164z"/>
     <defs>
-        <linearGradient id="zilliqa__a" x1="15.769" x2="4.131" y1="19.507" y2="15.154" gradientUnits="userSpaceOnUse">
+        <linearGradient id="zilliqa__a" x1="16.24" x2="3.147" y1="20.445" y2="15.548" gradientUnits="userSpaceOnUse">
             <stop stop-color="#60AAAC"/>
             <stop offset="1" stop-color="#347181"/>
         </linearGradient>
-        <linearGradient id="zilliqa__b" x1="12" x2="12" y1="3.999" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="zilliqa__b" x1="12" x2="12" y1="2.999" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5AC1C1"/>
             <stop offset="1" stop-color="#216B79"/>
         </linearGradient>
-        <linearGradient id="zilliqa__c" x1="13.882" x2="19.059" y1="17.883" y2="13.647" gradientUnits="userSpaceOnUse">
+        <linearGradient id="zilliqa__c" x1="14.117" x2="19.942" y1="18.618" y2="13.853" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5AC1C1"/>
             <stop offset="1" stop-color="#216B79"/>
         </linearGradient>

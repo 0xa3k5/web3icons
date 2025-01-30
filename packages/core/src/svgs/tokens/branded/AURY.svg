@@ -1,49 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="#00EADB" d="M12 19.99a7.992 7.992 0 1 0 0-15.984 7.992 7.992 0 0 0 0 15.985"/>
-    <path fill="#E756CB" d="M4.023 12.497a7.992 7.992 0 0 0 15.954 0z"/>
-    <path fill="url(#AURY__a)" d="M18.614 7.508c.3.45.564.929.774 1.433-.7.14-1.449.375-1.814.92-.04.06.005.14.08.14.475 0 1.324.01 2.108.09.15.614.23 1.248.23 1.907h-4.36l2.047-4.525c.312-.035.627-.023.934.035"/>
-    <path fill="url(#AURY__b)" d="M16.86 5.654a7.96 7.96 0 0 0-7.877-1.059c1.903.375 2.937.745 3.282.91.044.02.035.08-.015.084-1.364.33-3.387.4-5.02.225l.964 2.143c.05.005.094.03.134.06.26.225.73.43 1.399.435.01 0 .025.015.025.03 0 .01-.01.02-.02.025-.34.08-1.029.144-1.229.144l.16.35h6.694l.29-.65c-.275.066-.68.14-1.09.15-.01 0-.015-.014 0-.02.26-.094.8-.324 1.324-.654z"/>
-    <path fill="url(#AURY__c)" d="M5.996 6.723q-.33.375-.615.795c.265.25.65.44 1.184.48z"/>
-    <path fill="url(#AURY__d)" d="m13.988 11.999.68-1.499h-5.33l.673 1.5z"/>
-    <path fill="url(#AURY__e)" d="M10.242 12.497h3.516L12 16.368z"/>
-    <path fill="url(#AURY__f)" d="M8.369 11.998 7.005 9.001h.015l-.03-.07.015.07a4.88 4.88 0 0 0-2.957 2.178q-.04.409-.04.82z"/>
-    <path fill="url(#AURY__g)" d="M8.593 12.497 12 19.99a7.99 7.99 0 0 1-7.977-7.493z"/>
-    <path fill="url(#AURY__h)" d="M15.407 12.497h4.57A7.99 7.99 0 0 1 12 19.99z"/>
+    <path fill="#00EADB" d="M12 20.99a8.991 8.991 0 1 0 0-17.983 8.991 8.991 0 0 0 0 17.982"/>
+    <path fill="#E756CB" d="M3.026 12.56a8.991 8.991 0 0 0 17.949 0z"/>
+    <path fill="url(#AURY__a)" d="M19.44 6.946c.338.506.635 1.045.871 1.613-.786.157-1.63.421-2.04 1.034-.044.067.006.157.09.157.534 0 1.49.012 2.372.101.168.692.258 1.405.258 2.147h-4.906l2.305-5.091a3.5 3.5 0 0 1 1.05.04"/>
+    <path fill="url(#AURY__b)" d="M17.468 4.861A8.95 8.95 0 0 0 8.606 3.67c2.14.421 3.304.837 3.692 1.023.05.022.04.09-.017.095-1.534.371-3.81.45-5.648.253l1.085 2.41a.3.3 0 0 1 .152.068c.292.253.82.483 1.573.49.011 0 .028.016.028.033 0 .011-.011.022-.022.028a9 9 0 0 1-1.383.163l.18.393h7.53l.326-.73a6 6 0 0 1-1.225.168c-.011 0-.017-.017 0-.022.292-.107.9-.365 1.49-.736z"/>
+    <path fill="url(#AURY__c)" d="M5.245 6.064a9 9 0 0 0-.69.893c.297.281.73.495 1.331.54z"/>
+    <path fill="url(#AURY__d)" d="M14.236 11.999 15 10.313H9.004l.759 1.686z"/>
+    <path fill="url(#AURY__e)" d="M10.022 12.56h3.956L12 16.913z"/>
+    <path fill="url(#AURY__f)" d="M7.915 11.998 6.38 8.627h.017l-.033-.08.016.08a5.5 5.5 0 0 0-3.326 2.45q-.046.46-.045.921z"/>
+    <path fill="url(#AURY__g)" d="M8.168 12.56 12 20.987a8.99 8.99 0 0 1-8.974-8.429z"/>
+    <path fill="url(#AURY__h)" d="M15.833 12.56h5.141A8.99 8.99 0 0 1 12 20.987z"/>
     <defs>
-        <linearGradient id="AURY__a" x1="-9.303" x2="-9.303" y1="-8.135" y2="48.136" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AURY__a" x1="-11.966" x2="-11.966" y1="-10.652" y2="52.653" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E756CC"/>
             <stop offset=".47" stop-color="#8F79D4"/>
             <stop offset=".6" stop-color="#668AD7"/>
         </linearGradient>
-        <linearGradient id="AURY__b" x1="11.925" x2="11.925" y1="4.019" y2="55.16" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AURY__b" x1="11.916" x2="11.916" y1="3.022" y2="60.555" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E756CC"/>
             <stop offset=".47" stop-color="#8F79D4"/>
         </linearGradient>
-        <linearGradient id="AURY__c" x1="93.372" x2="93.372" y1="-30.135" y2="170.658" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AURY__c" x1="103.543" x2="103.543" y1="-35.402" y2="190.49" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E756CC"/>
             <stop offset=".47" stop-color="#8F79D4"/>
         </linearGradient>
-        <linearGradient id="AURY__d" x1="11.992" x2="11.992" y1="-65.336" y2="105.338" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#E756CC"/>
-            <stop offset=".47" stop-color="#8F79D4"/>
-            <stop offset=".6" stop-color="#668AD7"/>
-        </linearGradient>
-        <linearGradient id="AURY__e" x1="12" x2="12" y1="-31.099" y2="34.968" gradientUnits="userSpaceOnUse">
-            <stop offset=".47" stop-color="#8F79D4"/>
-            <stop offset=".6" stop-color="#668AD7"/>
-            <stop offset="1" stop-color="#01E9C9"/>
-        </linearGradient>
-        <linearGradient id="AURY__f" x1="33.303" x2="33.303" y1="-21.695" y2="61.697" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AURY__d" x1="11.991" x2="11.991" y1="-75.003" y2="117.005" gradientUnits="userSpaceOnUse">
             <stop stop-color="#E756CC"/>
             <stop offset=".47" stop-color="#8F79D4"/>
             <stop offset=".6" stop-color="#668AD7"/>
         </linearGradient>
-        <linearGradient id="AURY__g" x1="19.992" x2="19.992" y1="-14.135" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AURY__e" x1="12" x2="12" y1="-36.486" y2="37.839" gradientUnits="userSpaceOnUse">
             <stop offset=".47" stop-color="#8F79D4"/>
             <stop offset=".6" stop-color="#668AD7"/>
             <stop offset="1" stop-color="#01E9C9"/>
         </linearGradient>
-        <linearGradient id="AURY__h" x1="12" x2="12" y1="4.005" y2="19.989" gradientUnits="userSpaceOnUse">
+        <linearGradient id="AURY__f" x1="35.966" x2="35.966" y1="-25.907" y2="67.909" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E756CC"/>
+            <stop offset=".47" stop-color="#8F79D4"/>
+            <stop offset=".6" stop-color="#668AD7"/>
+        </linearGradient>
+        <linearGradient id="AURY__g" x1="20.991" x2="20.991" y1="-17.402" y2="21" gradientUnits="userSpaceOnUse">
+            <stop offset=".47" stop-color="#8F79D4"/>
+            <stop offset=".6" stop-color="#668AD7"/>
+            <stop offset="1" stop-color="#01E9C9"/>
+        </linearGradient>
+        <linearGradient id="AURY__h" x1="12" x2="12" y1="3.006" y2="20.988" gradientUnits="userSpaceOnUse">
             <stop offset=".47" stop-color="#8F79D4"/>
             <stop offset=".6" stop-color="#668AD7"/>
             <stop offset="1" stop-color="#01E9C9"/>

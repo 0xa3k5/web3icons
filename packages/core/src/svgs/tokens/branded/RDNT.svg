@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-    <path fill="url(#RDNT__a)" d="M11 9.502 6 6l3.502 5L4 12l5.502 1L6 17.502l5-3.004L12 20l1-5.502 5.249 3.004L14 13l6-1-6-1 4-5-5 3.502L12 4z"/>
+    <path fill="url(#RDNT__a)" d="M10.875 9.19 5.25 5.25l3.94 5.625L3 12l6.19 1.125-3.94 5.065 5.625-3.38L12 21l1.125-6.19 5.905 3.38-4.78-5.065L21 12l-6.75-1.125 4.5-5.625-5.625 3.94L12 3z"/>
     <defs>
-        <linearGradient id="RDNT__a" x1="12" x2="12" y1="4" y2="20" gradientUnits="userSpaceOnUse">
+        <linearGradient id="RDNT__a" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse">
             <stop stop-color="#0FA"/>
             <stop offset="1" stop-color="#5A10F5"/>
         </linearGradient>

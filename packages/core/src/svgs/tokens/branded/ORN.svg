@@ -1,33 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none" viewBox="0 0 25 24">
-    <path fill="url(#ORN__a)" d="M11.105 5.11c-1.882 0-4.116 1.274-4.945 2.414 1.569-1.006 4.074-1.425 4.844-1.319 3.124.502 4.17 3.302 4.327 4.738 1.193.47 3.55.612 2.287-1.884-1.577-3.111-4.207-3.95-6.513-3.95"/>
-    <path fill="url(#ORN__b)" d="M9.944 16.735c3.002 0 5.435-2.399 5.435-5.358 0-2.96-2.433-5.358-5.435-5.358S4.51 8.418 4.51 11.377s2.433 5.358 5.434 5.358"/>
-    <path fill="#25253B" d="M11.17 16.134a3.904 3.904 0 1 0 0-7.809 3.904 3.904 0 0 0 0 7.81"/>
-    <path fill="url(#ORN__c)" d="M20.015 10.99c.738-.518.482-1.562.218-1.916-.406-.546-.974-.612-1.203-.586-1.819.205-3.306 2.223-3.886 3.214l2.28 1.58c.107-.15.387-.597.842-1.118.55-.631 1.287-.85 1.749-1.174"/>
-    <path fill="url(#ORN__d)" d="M18.235 11.345c.39-.812-.298-1.532-.7-1.712-.621-.278-1.093-.08-1.234 0-1.487 1.067-1.902 3.63-1.924 4.777l3.028.383c.02-.183.065-.735.078-1.48.015-.745.565-1.58.752-1.968"/>
-    <path fill="url(#ORN__e)" d="M11.193 18.89c-4.155 0-6.877-3.754-6.683-7.349 1.341 4.49 4.612 5.432 6.683 4.949 1.658-.387 3.145-2.061 3.728-2.88.238-.334 1.122-.46 1.857-.058.735.401.91 1.282.735 1.61-1.755 3.278-4.736 3.729-6.32 3.729"/>
-    <path fill="url(#ORN__f)" d="M17.83 7.865a1.378 1.378 0 1 0 0-2.756 1.378 1.378 0 0 0 0 2.756"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#ORN__a)" d="M10.43 4.248c-2.116 0-4.63 1.434-5.562 2.716 1.765-1.131 4.583-1.603 5.45-1.483 3.514.564 4.69 3.715 4.868 5.33 1.342.528 3.994.688 2.572-2.12-1.773-3.5-4.732-4.443-7.327-4.443"/>
+    <path fill="url(#ORN__b)" d="M9.125 17.327c3.376 0 6.114-2.699 6.114-6.028S12.5 5.271 9.125 5.271 3.01 7.971 3.01 11.3c0 3.33 2.737 6.028 6.114 6.028"/>
+    <path fill="#25253B" d="M10.504 16.65a4.392 4.392 0 1 0 0-8.784 4.392 4.392 0 0 0 0 8.785"/>
+    <path fill="url(#ORN__c)" d="M20.455 10.864c.83-.582.542-1.758.245-2.155-.456-.614-1.096-.69-1.354-.66-2.046.231-3.718 2.5-4.37 3.616l2.564 1.777c.12-.168.436-.672.947-1.258.62-.71 1.449-.956 1.968-1.32"/>
+    <path fill="url(#ORN__d)" d="M18.451 11.263c.44-.913-.334-1.724-.787-1.926-.698-.313-1.23-.09-1.388 0-1.673 1.2-2.14 4.083-2.165 5.374l3.407.431c.023-.205.073-.827.088-1.665.016-.838.635-1.777.845-2.214"/>
+    <path fill="url(#ORN__e)" d="M10.53 19.752c-4.675 0-7.737-4.224-7.52-8.268 1.51 5.05 5.19 6.111 7.52 5.567 1.865-.435 3.538-2.319 4.194-3.24.267-.375 1.262-.516 2.089-.065s1.025 1.442.827 1.81c-1.975 3.69-5.328 4.196-7.11 4.196"/>
+    <path fill="url(#ORN__f)" d="M17.997 7.349a1.55 1.55 0 1 0 0-3.101 1.55 1.55 0 0 0 0 3.1"/>
     <defs>
-        <linearGradient id="ORN__a" x1="5.99" x2="21.309" y1="8.31" y2="11.637" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ORN__a" x1="4.677" x2="21.911" y1="7.849" y2="11.592" gradientUnits="userSpaceOnUse">
             <stop stop-color="#5D86BC"/>
             <stop offset=".614" stop-color="#6CC3D7"/>
         </linearGradient>
-        <linearGradient id="ORN__b" x1="5.355" x2="19.172" y1="9.486" y2="15.188" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ORN__b" x1="3.962" x2="19.506" y1="9.172" y2="15.587" gradientUnits="userSpaceOnUse">
             <stop offset=".226" stop-color="#94D0DA"/>
             <stop offset="1" stop-color="#3F65AE"/>
         </linearGradient>
-        <linearGradient id="ORN__c" x1="16.88" x2="9.79" y1="4.889" y2="18.076" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ORN__c" x1="16.928" x2="8.951" y1="4.001" y2="18.835" gradientUnits="userSpaceOnUse">
             <stop stop-color="#F57240"/>
             <stop offset="1" stop-color="#FBE18C"/>
         </linearGradient>
-        <linearGradient id="ORN__d" x1="5.917" x2="17.488" y1="13.387" y2="4.821" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ORN__d" x1="4.594" x2="17.611" y1="13.56" y2="3.923" gradientUnits="userSpaceOnUse">
             <stop offset=".212" stop-color="#583D90"/>
             <stop offset="1" stop-color="#DC719B"/>
         </linearGradient>
-        <linearGradient id="ORN__e" x1="4.388" x2="20.183" y1="5.823" y2="9.197" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ORN__e" x1="2.874" x2="20.644" y1="5.051" y2="8.847" gradientUnits="userSpaceOnUse">
             <stop stop-color="#4FA2C5"/>
             <stop offset="1" stop-color="#FD7813"/>
         </linearGradient>
-        <linearGradient id="ORN__f" x1="18.634" x2="17.005" y1="5.571" y2="7.471" gradientUnits="userSpaceOnUse">
+        <linearGradient id="ORN__f" x1="18.901" x2="17.068" y1="4.767" y2="6.905" gradientUnits="userSpaceOnUse">
             <stop stop-color="#B1599B"/>
             <stop offset="1" stop-color="#5B418B"/>
         </linearGradient>
