@@ -1300,7 +1300,7 @@ jump to section:
 | Neptune Mutual                         | npm         | ✅      | ✅   | ✅         |
 | NerveNetwork                           | nvt         | ✅      | ✅   | ✅         |
 | Nervos Network                         | ckb         | ✅      | ❌   | ✅         |
-| Nest Protocol                          | nest        | ❌      | ✅   | ❌         |
+| Nest Protocol                          | nest        | ✅      | ✅   | ✅         |
 | Netswap                                | nett        | ✅      | ✅   | ✅         |
 | Neurai                                 | xna         | ✅      | ✅   | ✅         |
 | Neuroni AI                             | neuroni     | ✅      | ✅   | ✅         |

@@ -12145,7 +12145,7 @@ export const tokens: ITokenMetadata[] = [
       ethereum: '0xcd6926193308d3b371fdd6a6219067e550000000',
       'binance-smart-chain': '0xcd6926193308d3b371fdd6a6219067e550000000',
     },
-    variants: ['mono'],
+    variants: ['mono', 'background', 'branded'],
   },
   {
     id: 'netswap',

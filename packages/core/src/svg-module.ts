@@ -1429,6 +1429,7 @@ import * as TBrandedAXE from './svgs/tokens/branded/AXE.svg'
 import * as TBrandedMNR from './svgs/tokens/branded/MNR.svg'
 import * as TBrandedAITECH from './svgs/tokens/branded/AITECH.svg'
 import * as TBrandedNEURONI from './svgs/tokens/branded/NEURONI.svg'
+import * as TBrandedNEST from './svgs/tokens/branded/NEST.svg'
 import * as TBrandedZAP from './svgs/tokens/branded/ZAP.svg'
 import * as TBrandedCATHEON from './svgs/tokens/branded/CATHEON.svg'
 import * as TBrandedSHA from './svgs/tokens/branded/SHA.svg'
@@ -4728,6 +4729,7 @@ import * as TBackgroundAXE from './svgs/tokens/background/AXE.svg'
 import * as TBackgroundMNR from './svgs/tokens/background/MNR.svg'
 import * as TBackgroundAITECH from './svgs/tokens/background/AITECH.svg'
 import * as TBackgroundNEURONI from './svgs/tokens/background/NEURONI.svg'
+import * as TBackgroundNEST from './svgs/tokens/background/NEST.svg'
 import * as TBackgroundZAP from './svgs/tokens/background/ZAP.svg'
 import * as TBackgroundCATHEON from './svgs/tokens/background/CATHEON.svg'
 import * as TBackgroundSHA from './svgs/tokens/background/SHA.svg'
@@ -7186,6 +7188,7 @@ export const svgs = {
       MNR: TBrandedMNR,
       AITECH: TBrandedAITECH,
       NEURONI: TBrandedNEURONI,
+      NEST: TBrandedNEST,
       ZAP: TBrandedZAP,
       CATHEON: TBrandedCATHEON,
       SHA: TBrandedSHA,
@@ -10489,6 +10492,7 @@ export const svgs = {
       MNR: TBackgroundMNR,
       AITECH: TBackgroundAITECH,
       NEURONI: TBackgroundNEURONI,
+      NEST: TBackgroundNEST,
       ZAP: TBackgroundZAP,
       CATHEON: TBackgroundCATHEON,
       SHA: TBackgroundSHA,
