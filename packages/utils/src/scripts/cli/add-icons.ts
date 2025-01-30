@@ -77,8 +77,6 @@ const addIcons = async () => {
     for (const [type, { variants }] of Object.entries(typeGroups)) {
       const existingMetadata = findExistingMetadata(fileName, type as TType)
 
-      console.log({ existingMetadata })
-
       if (!existingMetadata) {
         console.log(chalk.green(`Adding new ${type} icon: ${fileName}`))
         await addNewIcon([fileName, { type: type as TType, variants }])
