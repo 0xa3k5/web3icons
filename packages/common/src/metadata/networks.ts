@@ -367,6 +367,7 @@ export const networks: INetworkMetadata[] = [
     id: 'elastos',
     fileName: 'elastos',
     chainId: 20,
+    caip2id: 'eip155:20',
     name: 'Elastos Smart Contract Chain',
     shortName: 'Elastos',
     nativeCoinId: 'elastos',
@@ -1597,5 +1598,15 @@ export const networks: INetworkMetadata[] = [
     shortName: 'vara',
     nativeCoinId: 'VARA',
     variants: ['background', 'branded', 'mono'],
+  },
+  {
+    id: 'iota-evm',
+    name: 'Iota EVM',
+    variants: ['background', 'branded', 'mono'],
+    fileName: 'iota-evm',
+    shortName: 'Iota',
+    chainId: 8822,
+    caip2id: 'eip155:8822',
+    nativeCoinId: 'IOTA',
   },
 ]
