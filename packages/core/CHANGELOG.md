@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.4
+
+### Patch Changes
+
+- quick patch for react
+- Updated dependencies
+  - @web3icons/common@0.11.3
+
 ## 4.0.3
 
 ### Patch Changes

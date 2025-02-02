@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.3
+
+### Patch Changes
+
+- quick patch for react
+
 ## 0.11.2
 
 ### Patch Changes

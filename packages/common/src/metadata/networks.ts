@@ -1601,12 +1601,12 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'iota-evm',
-    name: 'Iota EVM',
-    variants: ['background', 'branded', 'mono'],
     fileName: 'iota-evm',
-    shortName: 'Iota',
     chainId: 8822,
     caip2id: 'eip155:8822',
+    name: 'Iota EVM',
+    shortName: 'Iota',
     nativeCoinId: 'IOTA',
+    variants: ['background', 'branded', 'mono'],
   },
 ]
