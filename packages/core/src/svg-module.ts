@@ -1121,6 +1121,7 @@ import * as TBrandedSTX from './svgs/tokens/branded/STX.svg'
 import * as TBrandedQNT from './svgs/tokens/branded/QNT.svg'
 import * as TBrandedHBB from './svgs/tokens/branded/HBB.svg'
 import * as TBrandedMARS4 from './svgs/tokens/branded/MARS4.svg'
+import * as TBrandedVINE from './svgs/tokens/branded/VINE.svg'
 import * as TBrandedSTARS from './svgs/tokens/branded/STARS.svg'
 import * as TBrandedOCEAN from './svgs/tokens/branded/OCEAN.svg'
 import * as TBrandedCREAM from './svgs/tokens/branded/CREAM.svg'
@@ -1164,6 +1165,7 @@ import * as TBrandedGAMI from './svgs/tokens/branded/GAMI.svg'
 import * as TBrandedKICK from './svgs/tokens/branded/KICK.svg'
 import * as TBrandedCMDX from './svgs/tokens/branded/CMDX.svg'
 import * as TBrandedMEDIA from './svgs/tokens/branded/MEDIA.svg'
+import * as TBrandedIOTA from './svgs/tokens/branded/IOTA.svg'
 import * as TBrandedSQUIDGROW from './svgs/tokens/branded/SQUIDGROW.svg'
 import * as TBrandedLTO from './svgs/tokens/branded/LTO.svg'
 import * as TBrandedTOPIA from './svgs/tokens/branded/TOPIA.svg'
@@ -2738,6 +2740,7 @@ import * as TMonoVIA from './svgs/tokens/mono/VIA.svg'
 import * as TMonoQNT from './svgs/tokens/mono/QNT.svg'
 import * as TMonoHBB from './svgs/tokens/mono/HBB.svg'
 import * as TMonoMARS4 from './svgs/tokens/mono/MARS4.svg'
+import * as TMonoVINE from './svgs/tokens/mono/VINE.svg'
 import * as TMonoSTARS from './svgs/tokens/mono/STARS.svg'
 import * as TMonoOCEAN from './svgs/tokens/mono/OCEAN.svg'
 import * as TMonoCREAM from './svgs/tokens/mono/CREAM.svg'
@@ -4421,6 +4424,7 @@ import * as TBackgroundSTX from './svgs/tokens/background/STX.svg'
 import * as TBackgroundQNT from './svgs/tokens/background/QNT.svg'
 import * as TBackgroundHBB from './svgs/tokens/background/HBB.svg'
 import * as TBackgroundMARS4 from './svgs/tokens/background/MARS4.svg'
+import * as TBackgroundVINE from './svgs/tokens/background/VINE.svg'
 import * as TBackgroundSTARS from './svgs/tokens/background/STARS.svg'
 import * as TBackgroundOCEAN from './svgs/tokens/background/OCEAN.svg'
 import * as TBackgroundCREAM from './svgs/tokens/background/CREAM.svg'
@@ -4464,6 +4468,7 @@ import * as TBackgroundGAMI from './svgs/tokens/background/GAMI.svg'
 import * as TBackgroundKICK from './svgs/tokens/background/KICK.svg'
 import * as TBackgroundCMDX from './svgs/tokens/background/CMDX.svg'
 import * as TBackgroundMEDIA from './svgs/tokens/background/MEDIA.svg'
+import * as TBackgroundIOTA from './svgs/tokens/background/IOTA.svg'
 import * as TBackgroundSQUIDGROW from './svgs/tokens/background/SQUIDGROW.svg'
 import * as TBackgroundLTO from './svgs/tokens/background/LTO.svg'
 import * as TBackgroundTOPIA from './svgs/tokens/background/TOPIA.svg'
@@ -5128,6 +5133,7 @@ import * as NBrandedRootstock from './svgs/networks/branded/rootstock.svg'
 import * as NBrandedCorn from './svgs/networks/branded/corn.svg'
 import * as NBrandedHarmony from './svgs/networks/branded/harmony.svg'
 import * as NBrandedFantom from './svgs/networks/branded/fantom.svg'
+import * as NBrandedIotaEvm from './svgs/networks/branded/iota-evm.svg'
 import * as NBrandedClover from './svgs/networks/branded/clover.svg'
 import * as NBrandedXdc from './svgs/networks/branded/xdc.svg'
 import * as NBrandedVelas from './svgs/networks/branded/velas.svg'
@@ -5292,6 +5298,7 @@ import * as NMonoRootstock from './svgs/networks/mono/rootstock.svg'
 import * as NMonoCorn from './svgs/networks/mono/corn.svg'
 import * as NMonoHarmony from './svgs/networks/mono/harmony.svg'
 import * as NMonoFantom from './svgs/networks/mono/fantom.svg'
+import * as NMonoIotaEvm from './svgs/networks/mono/iota-evm.svg'
 import * as NMonoClover from './svgs/networks/mono/clover.svg'
 import * as NMonoXdc from './svgs/networks/mono/xdc.svg'
 import * as NMonoVelas from './svgs/networks/mono/velas.svg'
@@ -5456,6 +5463,7 @@ import * as NBackgroundRootstock from './svgs/networks/background/rootstock.svg'
 import * as NBackgroundCorn from './svgs/networks/background/corn.svg'
 import * as NBackgroundHarmony from './svgs/networks/background/harmony.svg'
 import * as NBackgroundFantom from './svgs/networks/background/fantom.svg'
+import * as NBackgroundIotaEvm from './svgs/networks/background/iota-evm.svg'
 import * as NBackgroundClover from './svgs/networks/background/clover.svg'
 import * as NBackgroundXdc from './svgs/networks/background/xdc.svg'
 import * as NBackgroundVelas from './svgs/networks/background/velas.svg'
@@ -6880,6 +6888,7 @@ export const svgs = {
       QNT: TBrandedQNT,
       HBB: TBrandedHBB,
       MARS4: TBrandedMARS4,
+      VINE: TBrandedVINE,
       STARS: TBrandedSTARS,
       OCEAN: TBrandedOCEAN,
       CREAM: TBrandedCREAM,
@@ -6923,6 +6932,7 @@ export const svgs = {
       KICK: TBrandedKICK,
       CMDX: TBrandedCMDX,
       MEDIA: TBrandedMEDIA,
+      IOTA: TBrandedIOTA,
       SQUIDGROW: TBrandedSQUIDGROW,
       LTO: TBrandedLTO,
       TOPIA: TBrandedTOPIA,
@@ -8499,6 +8509,7 @@ export const svgs = {
       QNT: TMonoQNT,
       HBB: TMonoHBB,
       MARS4: TMonoMARS4,
+      VINE: TMonoVINE,
       STARS: TMonoSTARS,
       OCEAN: TMonoOCEAN,
       CREAM: TMonoCREAM,
@@ -10184,6 +10195,7 @@ export const svgs = {
       QNT: TBackgroundQNT,
       HBB: TBackgroundHBB,
       MARS4: TBackgroundMARS4,
+      VINE: TBackgroundVINE,
       STARS: TBackgroundSTARS,
       OCEAN: TBackgroundOCEAN,
       CREAM: TBackgroundCREAM,
@@ -10227,6 +10239,7 @@ export const svgs = {
       KICK: TBackgroundKICK,
       CMDX: TBackgroundCMDX,
       MEDIA: TBackgroundMEDIA,
+      IOTA: TBackgroundIOTA,
       SQUIDGROW: TBackgroundSQUIDGROW,
       LTO: TBackgroundLTO,
       TOPIA: TBackgroundTOPIA,
@@ -10895,6 +10908,7 @@ export const svgs = {
       corn: NBrandedCorn,
       harmony: NBrandedHarmony,
       fantom: NBrandedFantom,
+      'iota-evm': NBrandedIotaEvm,
       clover: NBrandedClover,
       xdc: NBrandedXdc,
       velas: NBrandedVelas,
@@ -11061,6 +11075,7 @@ export const svgs = {
       corn: NMonoCorn,
       harmony: NMonoHarmony,
       fantom: NMonoFantom,
+      'iota-evm': NMonoIotaEvm,
       clover: NMonoClover,
       xdc: NMonoXdc,
       velas: NMonoVelas,
@@ -11227,6 +11242,7 @@ export const svgs = {
       corn: NBackgroundCorn,
       harmony: NBackgroundHarmony,
       fantom: NBackgroundFantom,
+      'iota-evm': NBackgroundIotaEvm,
       clover: NBackgroundClover,
       xdc: NBackgroundXdc,
       velas: NBackgroundVelas,

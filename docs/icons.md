@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (166)](#networks)
+- [networks (167)](#networks)
 - [exchanges (26)](#exchanges)
-- [tokens (1820)](#tokens)
+- [tokens (1821)](#tokens)
 
 ### Wallets
 
@@ -218,6 +218,7 @@ jump to section:
 | japan-open-chain    | Japan Open Chain             | ✅      | ✅   | ✅         |
 | vana                | Vana                         | ✅      | ✅   | ✅         |
 | vara                | Vara                         | ✅      | ✅   | ✅         |
+| iota-evm            | Iota EVM                     | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -1003,7 +1004,7 @@ jump to section:
 | Inverse Finance                        | inv         | ✅      | ✅   | ✅         |
 | Ion                                    | ion         | ✅      | ✅   | ✅         |
 | IOST                                   | iost        | ❌      | ✅   | ❌         |
-| IOTA                                   | iota        | ❌      | ✅   | ❌         |
+| IOTA                                   | iota        | ✅      | ✅   | ✅         |
 | IPOR                                   | ipor        | ✅      | ✅   | ✅         |
 | IRISnet                                | iris        | ✅      | ✅   | ✅         |
 | Iron Fish                              | iron        | ✅      | ✅   | ✅         |
@@ -2074,3 +2075,4 @@ jump to section:
 | Japan Open Chain                       | JOP         | ✅      | ✅   | ✅         |
 | 0x Protocol                            | ZRX         | ✅      | ✅   | ✅         |
 | Vara                                   | VARA        | ✅      | ✅   | ✅         |
+| Vine Coin                              | VINE        | ✅      | ✅   | ✅         |

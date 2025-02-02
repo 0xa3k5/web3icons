@@ -8725,7 +8725,7 @@ export const tokens: ITokenMetadata[] = [
     name: 'IOTA',
     marketCapRank: 106,
     addresses: {},
-    variants: ['mono'],
+    variants: ['mono', 'background', 'branded'],
   },
   {
     id: 'ipor',
@@ -21214,5 +21214,16 @@ export const tokens: ITokenMetadata[] = [
     symbol: 'VARA',
     marketCapRank: 0,
     addresses: {},
+  },
+  {
+    id: 'vine',
+    name: 'Vine Coin',
+    variants: ['background', 'branded', 'mono'],
+    fileName: 'VINE',
+    symbol: 'VINE',
+    marketCapRank: 0,
+    addresses: {
+      solana: '6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump',
+    },
   },
 ]
