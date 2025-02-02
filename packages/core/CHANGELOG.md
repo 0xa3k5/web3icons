@@ -1,5 +1,22 @@
 # @web3icons/core
 
+## 4.0.3
+
+### Patch Changes
+
+- new networks:
+
+  - `iota-evm` (branded, mono, background)
+
+  new tokens:
+
+  - `VINE` (branded,mono, background)
+
+  add branded and background variants to `IOTA` token
+
+- Updated dependencies
+  - @web3icons/common@0.11.2
+
 ## 4.0.2
 
 ### Patch Changes
