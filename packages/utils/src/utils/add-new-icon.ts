@@ -132,6 +132,31 @@ const handleTokenMetadata = async (fileName: string, metadata: ITokenMetadata): 
     placeholder: '',
   })
   metadata.marketCapRank = marketCapRank ? parseInt(marketCapRank as string) : 0
+
+  metadata.addresses = {}
+
+  while (true) {
+    const addAddress = await confirm({
+      message: 'Would you like to add a contract address for a network?',
+    })
+
+    if (!addAddress) break
+
+    const network = (await text({
+      message: 'Enter the network name (e.g. ethereum, binance-smart-chain, polygon-pos)',
+      validate: (value) => (value.length > 0 ? undefined : 'Network name is required'),
+    })) as string
+
+    const address = (await text({
+      message: `Enter the contract address for ${network}`,
+      validate: (value) => {
+        if (value.length === 0) return 'Contract address is required'
+        return undefined
+      },
+    })) as string
+
+    metadata.addresses[network] = address
+  }
 }
 
 const handleExchangeMetadata = async (metadata: IExchangeMetadata): Promise<void> => {
