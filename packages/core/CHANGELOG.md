@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.5
+
+### Patch Changes
+
+- add nexis network, apechain update APE token
+- Updated dependencies
+  - @web3icons/common@0.11.4
+
 ## 4.0.4
 
 ### Patch Changes
