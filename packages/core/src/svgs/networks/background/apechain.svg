@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#apechain__a)">
+        <path fill="#0054FA" d="M24 0H0v24h24z"/>
+        <g clip-path="url(#apechain__b)">
+            <path stroke="#fff" stroke-width="2.256" d="M19.808 6.024H4.196a.143.143 0 0 0-.144.143v11.907c0 .079.064.143.144.143h15.612c.08 0 .143-.064.143-.143V6.167a.143.143 0 0 0-.143-.143Z"/>
+            <path fill="#fff" d="M7.726 8.827H8.99l.816 6.784H8.734l-.12-1.476h-.567l-.12 1.476H6.91zm.504 3.016-.11 1.394h.422l-.12-1.394-.082-1.173h-.028zm3.825 3.768h-1.091V8.827h1.43c.779 0 1.256.459 1.256 1.284v1.668c0 .816-.477 1.274-1.256 1.274h-.34zm.009-3.373h.238c.183 0 .257-.165.257-.459v-1.668c0-.303-.074-.468-.257-.468h-.238zm2.842 3.373V8.827h2.127v.899h-1.036v2.007h.926v.899h-.926v2.08h1.036v.899z"/>
+        </g>
+    </g>
+    <defs>
+        <clipPath id="apechain__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+        <clipPath id="apechain__b">
+            <path fill="#fff" d="M4 6h16v12.232H4z"/>
+        </clipPath>
+    </defs>
+</svg>

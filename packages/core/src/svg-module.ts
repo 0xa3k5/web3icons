@@ -5143,6 +5143,7 @@ import * as NBrandedDogechain from './svgs/networks/branded/dogechain.svg'
 import * as NBrandedLens from './svgs/networks/branded/lens.svg'
 import * as NBrandedMode from './svgs/networks/branded/mode.svg'
 import * as NBrandedLinea from './svgs/networks/branded/linea.svg'
+import * as NBrandedApechain from './svgs/networks/branded/apechain.svg'
 import * as NBrandedZetaChain from './svgs/networks/branded/zeta-chain.svg'
 import * as NBrandedJuno from './svgs/networks/branded/juno.svg'
 import * as NBrandedGravity from './svgs/networks/branded/gravity.svg'
@@ -5202,6 +5203,7 @@ import * as NBrandedBerachain from './svgs/networks/branded/berachain.svg'
 import * as NBrandedMoonbeam from './svgs/networks/branded/moonbeam.svg'
 import * as NBrandedSuperSeed from './svgs/networks/branded/super-seed.svg'
 import * as NBrandedFluence from './svgs/networks/branded/fluence.svg'
+import * as NBrandedNexis from './svgs/networks/branded/nexis.svg'
 import * as NBrandedOrderly from './svgs/networks/branded/orderly.svg'
 import * as NBrandedOkex from './svgs/networks/branded/okex.svg'
 import * as NBrandedKroma from './svgs/networks/branded/kroma.svg'
@@ -5307,6 +5309,7 @@ import * as NMonoChiliz from './svgs/networks/mono/chiliz.svg'
 import * as NMonoLens from './svgs/networks/mono/lens.svg'
 import * as NMonoMode from './svgs/networks/mono/mode.svg'
 import * as NMonoLinea from './svgs/networks/mono/linea.svg'
+import * as NMonoApechain from './svgs/networks/mono/apechain.svg'
 import * as NMonoZetaChain from './svgs/networks/mono/zeta-chain.svg'
 import * as NMonoJuno from './svgs/networks/mono/juno.svg'
 import * as NMonoGravity from './svgs/networks/mono/gravity.svg'
@@ -5365,6 +5368,7 @@ import * as NMonoBerachain from './svgs/networks/mono/berachain.svg'
 import * as NMonoMoonbeam from './svgs/networks/mono/moonbeam.svg'
 import * as NMonoSuperSeed from './svgs/networks/mono/super-seed.svg'
 import * as NMonoFluence from './svgs/networks/mono/fluence.svg'
+import * as NMonoNexis from './svgs/networks/mono/nexis.svg'
 import * as NMonoOrderly from './svgs/networks/mono/orderly.svg'
 import * as NMonoOkex from './svgs/networks/mono/okex.svg'
 import * as NMonoKroma from './svgs/networks/mono/kroma.svg'
@@ -5473,6 +5477,7 @@ import * as NBackgroundDogechain from './svgs/networks/background/dogechain.svg'
 import * as NBackgroundLens from './svgs/networks/background/lens.svg'
 import * as NBackgroundMode from './svgs/networks/background/mode.svg'
 import * as NBackgroundLinea from './svgs/networks/background/linea.svg'
+import * as NBackgroundApechain from './svgs/networks/background/apechain.svg'
 import * as NBackgroundZetaChain from './svgs/networks/background/zeta-chain.svg'
 import * as NBackgroundJuno from './svgs/networks/background/juno.svg'
 import * as NBackgroundGravity from './svgs/networks/background/gravity.svg'
@@ -5532,6 +5537,7 @@ import * as NBackgroundBerachain from './svgs/networks/background/berachain.svg'
 import * as NBackgroundMoonbeam from './svgs/networks/background/moonbeam.svg'
 import * as NBackgroundSuperSeed from './svgs/networks/background/super-seed.svg'
 import * as NBackgroundFluence from './svgs/networks/background/fluence.svg'
+import * as NBackgroundNexis from './svgs/networks/background/nexis.svg'
 import * as NBackgroundOrderly from './svgs/networks/background/orderly.svg'
 import * as NBackgroundOkex from './svgs/networks/background/okex.svg'
 import * as NBackgroundKroma from './svgs/networks/background/kroma.svg'
@@ -10918,6 +10924,7 @@ export const svgs = {
       lens: NBrandedLens,
       mode: NBrandedMode,
       linea: NBrandedLinea,
+      apechain: NBrandedApechain,
       'zeta-chain': NBrandedZetaChain,
       juno: NBrandedJuno,
       gravity: NBrandedGravity,
@@ -10977,6 +10984,7 @@ export const svgs = {
       moonbeam: NBrandedMoonbeam,
       'super-seed': NBrandedSuperSeed,
       fluence: NBrandedFluence,
+      nexis: NBrandedNexis,
       orderly: NBrandedOrderly,
       okex: NBrandedOkex,
       kroma: NBrandedKroma,
@@ -11084,6 +11092,7 @@ export const svgs = {
       lens: NMonoLens,
       mode: NMonoMode,
       linea: NMonoLinea,
+      apechain: NMonoApechain,
       'zeta-chain': NMonoZetaChain,
       juno: NMonoJuno,
       gravity: NMonoGravity,
@@ -11142,6 +11151,7 @@ export const svgs = {
       moonbeam: NMonoMoonbeam,
       'super-seed': NMonoSuperSeed,
       fluence: NMonoFluence,
+      nexis: NMonoNexis,
       orderly: NMonoOrderly,
       okex: NMonoOkex,
       kroma: NMonoKroma,
@@ -11252,6 +11262,7 @@ export const svgs = {
       lens: NBackgroundLens,
       mode: NBackgroundMode,
       linea: NBackgroundLinea,
+      apechain: NBackgroundApechain,
       'zeta-chain': NBackgroundZetaChain,
       juno: NBackgroundJuno,
       gravity: NBackgroundGravity,
@@ -11311,6 +11322,7 @@ export const svgs = {
       moonbeam: NBackgroundMoonbeam,
       'super-seed': NBackgroundSuperSeed,
       fluence: NBackgroundFluence,
+      nexis: NBackgroundNexis,
       orderly: NBackgroundOrderly,
       okex: NBackgroundOkex,
       kroma: NBackgroundKroma,

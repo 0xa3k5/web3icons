@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (167)](#networks)
+- [networks (169)](#networks)
 - [exchanges (26)](#exchanges)
 - [tokens (1821)](#tokens)
 
@@ -219,6 +219,8 @@ jump to section:
 | vana                | Vana                         | ✅      | ✅   | ✅         |
 | vara                | Vara                         | ✅      | ✅   | ✅         |
 | iota-evm            | Iota EVM                     | ✅      | ✅   | ✅         |
+| apechain            | Apechain                     | ✅      | ✅   | ✅         |
+| nexis               | Nexis Network                | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
