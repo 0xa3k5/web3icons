@@ -1,5 +1,18 @@
 # @web3icons/common
 
+## 0.11.5
+
+### Patch Changes
+
+- new networks:
+
+  ontology (branded, mono, background)
+  prom (branded, mono, background)
+  ink (branded, mono, background)
+
+  updated tokens:
+  PROM (branded, mono, background)
+
 ## 0.11.4
 
 ### Patch Changes

@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (169)](#networks)
+- [networks (172)](#networks)
 - [exchanges (26)](#exchanges)
 - [tokens (1821)](#tokens)
 
@@ -221,6 +221,9 @@ jump to section:
 | iota-evm            | Iota EVM                     | ✅      | ✅   | ✅         |
 | apechain            | Apechain                     | ✅      | ✅   | ✅         |
 | nexis               | Nexis Network                | ✅      | ✅   | ✅         |
+| ink                 | Ink                          | ✅      | ✅   | ✅         |
+| ontology            | Ontology                     | ✅      | ✅   | ✅         |
+| prom                | Prom                         | ✅      | ✅   | ✅         |
 
 ### Exchanges
 

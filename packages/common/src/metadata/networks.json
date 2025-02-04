@@ -1626,5 +1626,35 @@
     "shortName": "Nexis",
     "nativeCoinId": "NZT",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "ink",
+    "fileName": "ink",
+    "chainId": 57073,
+    "caip2id": "eip155:57073",
+    "name": "Ink",
+    "shortName": "Ink",
+    "nativeCoinId": "ETH",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "ontology",
+    "fileName": "ontology",
+    "chainId": 58,
+    "caip2id": "eip155:58",
+    "name": "Ontology",
+    "shortName": "Ontology",
+    "nativeCoinId": "ONG",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "prom",
+    "fileName": "prom",
+    "chainId": 227,
+    "caip2id": "eip155:227",
+    "name": "Prom",
+    "shortName": "Prom",
+    "nativeCoinId": "PROM",
+    "variants": ["background", "branded", "mono"]
   }
 ]

@@ -5088,6 +5088,7 @@ import * as NBrandedAurora from './svgs/networks/branded/aurora.svg'
 import * as NBrandedExpchain from './svgs/networks/branded/expchain.svg'
 import * as NBrandedPolygon from './svgs/networks/branded/polygon.svg'
 import * as NBrandedMultiversx from './svgs/networks/branded/multiversx.svg'
+import * as NBrandedInk from './svgs/networks/branded/ink.svg'
 import * as NBrandedTombchain from './svgs/networks/branded/tombchain.svg'
 import * as NBrandedL3x from './svgs/networks/branded/l3x.svg'
 import * as NBrandedFraxtal from './svgs/networks/branded/fraxtal.svg'
@@ -5109,6 +5110,7 @@ import * as NBrandedKujira from './svgs/networks/branded/kujira.svg'
 import * as NBrandedAptos from './svgs/networks/branded/aptos.svg'
 import * as NBrandedCosmos from './svgs/networks/branded/cosmos.svg'
 import * as NBrandedHemi from './svgs/networks/branded/hemi.svg'
+import * as NBrandedProm from './svgs/networks/branded/prom.svg'
 import * as NBrandedMoonbase from './svgs/networks/branded/moonbase.svg'
 import * as NBrandedAlgorand from './svgs/networks/branded/algorand.svg'
 import * as NBrandedEos from './svgs/networks/branded/eos.svg'
@@ -5217,6 +5219,7 @@ import * as NBrandedLisk from './svgs/networks/branded/lisk.svg'
 import * as NBrandedPush from './svgs/networks/branded/push.svg'
 import * as NBrandedPolkadot from './svgs/networks/branded/polkadot.svg'
 import * as NBrandedOasys from './svgs/networks/branded/oasys.svg'
+import * as NBrandedOntology from './svgs/networks/branded/ontology.svg'
 import * as NBrandedBase from './svgs/networks/branded/base.svg'
 import * as NBrandedOptimism from './svgs/networks/branded/optimism.svg'
 import * as NBrandedLoopring from './svgs/networks/branded/loopring.svg'
@@ -5257,6 +5260,7 @@ import * as NMonoAurora from './svgs/networks/mono/aurora.svg'
 import * as NMonoExpchain from './svgs/networks/mono/expchain.svg'
 import * as NMonoPolygon from './svgs/networks/mono/polygon.svg'
 import * as NMonoMultiversx from './svgs/networks/mono/multiversx.svg'
+import * as NMonoInk from './svgs/networks/mono/ink.svg'
 import * as NMonoL3x from './svgs/networks/mono/l3x.svg'
 import * as NMonoFraxtal from './svgs/networks/mono/fraxtal.svg'
 import * as NMonoEthereum from './svgs/networks/mono/ethereum.svg'
@@ -5277,6 +5281,7 @@ import * as NMonoKujira from './svgs/networks/mono/kujira.svg'
 import * as NMonoAptos from './svgs/networks/mono/aptos.svg'
 import * as NMonoCosmos from './svgs/networks/mono/cosmos.svg'
 import * as NMonoHemi from './svgs/networks/mono/hemi.svg'
+import * as NMonoProm from './svgs/networks/mono/prom.svg'
 import * as NMonoMoonbase from './svgs/networks/mono/moonbase.svg'
 import * as NMonoAlgorand from './svgs/networks/mono/algorand.svg'
 import * as NMonoEos from './svgs/networks/mono/eos.svg'
@@ -5382,6 +5387,7 @@ import * as NMonoLisk from './svgs/networks/mono/lisk.svg'
 import * as NMonoPush from './svgs/networks/mono/push.svg'
 import * as NMonoPolkadot from './svgs/networks/mono/polkadot.svg'
 import * as NMonoOasys from './svgs/networks/mono/oasys.svg'
+import * as NMonoOntology from './svgs/networks/mono/ontology.svg'
 import * as NMonoBase from './svgs/networks/mono/base.svg'
 import * as NMonoOptimism from './svgs/networks/mono/optimism.svg'
 import * as NMonoLoopring from './svgs/networks/mono/loopring.svg'
@@ -5422,6 +5428,7 @@ import * as NBackgroundAurora from './svgs/networks/background/aurora.svg'
 import * as NBackgroundExpchain from './svgs/networks/background/expchain.svg'
 import * as NBackgroundPolygon from './svgs/networks/background/polygon.svg'
 import * as NBackgroundMultiversx from './svgs/networks/background/multiversx.svg'
+import * as NBackgroundInk from './svgs/networks/background/ink.svg'
 import * as NBackgroundTombchain from './svgs/networks/background/tombchain.svg'
 import * as NBackgroundL3x from './svgs/networks/background/l3x.svg'
 import * as NBackgroundFraxtal from './svgs/networks/background/fraxtal.svg'
@@ -5443,6 +5450,7 @@ import * as NBackgroundKujira from './svgs/networks/background/kujira.svg'
 import * as NBackgroundAptos from './svgs/networks/background/aptos.svg'
 import * as NBackgroundCosmos from './svgs/networks/background/cosmos.svg'
 import * as NBackgroundHemi from './svgs/networks/background/hemi.svg'
+import * as NBackgroundProm from './svgs/networks/background/prom.svg'
 import * as NBackgroundMoonbase from './svgs/networks/background/moonbase.svg'
 import * as NBackgroundAlgorand from './svgs/networks/background/algorand.svg'
 import * as NBackgroundEos from './svgs/networks/background/eos.svg'
@@ -5551,6 +5559,7 @@ import * as NBackgroundLisk from './svgs/networks/background/lisk.svg'
 import * as NBackgroundPush from './svgs/networks/background/push.svg'
 import * as NBackgroundPolkadot from './svgs/networks/background/polkadot.svg'
 import * as NBackgroundOasys from './svgs/networks/background/oasys.svg'
+import * as NBackgroundOntology from './svgs/networks/background/ontology.svg'
 import * as NBackgroundBase from './svgs/networks/background/base.svg'
 import * as NBackgroundOptimism from './svgs/networks/background/optimism.svg'
 import * as NBackgroundLoopring from './svgs/networks/background/loopring.svg'
@@ -10869,6 +10878,7 @@ export const svgs = {
       expchain: NBrandedExpchain,
       polygon: NBrandedPolygon,
       multiversx: NBrandedMultiversx,
+      ink: NBrandedInk,
       tombchain: NBrandedTombchain,
       l3x: NBrandedL3x,
       fraxtal: NBrandedFraxtal,
@@ -10890,6 +10900,7 @@ export const svgs = {
       aptos: NBrandedAptos,
       cosmos: NBrandedCosmos,
       hemi: NBrandedHemi,
+      prom: NBrandedProm,
       moonbase: NBrandedMoonbase,
       algorand: NBrandedAlgorand,
       eos: NBrandedEos,
@@ -10998,6 +11009,7 @@ export const svgs = {
       push: NBrandedPush,
       polkadot: NBrandedPolkadot,
       oasys: NBrandedOasys,
+      ontology: NBrandedOntology,
       base: NBrandedBase,
       optimism: NBrandedOptimism,
       loopring: NBrandedLoopring,
@@ -11040,6 +11052,7 @@ export const svgs = {
       expchain: NMonoExpchain,
       polygon: NMonoPolygon,
       multiversx: NMonoMultiversx,
+      ink: NMonoInk,
       l3x: NMonoL3x,
       fraxtal: NMonoFraxtal,
       ethereum: NMonoEthereum,
@@ -11060,6 +11073,7 @@ export const svgs = {
       aptos: NMonoAptos,
       cosmos: NMonoCosmos,
       hemi: NMonoHemi,
+      prom: NMonoProm,
       moonbase: NMonoMoonbase,
       algorand: NMonoAlgorand,
       eos: NMonoEos,
@@ -11165,6 +11179,7 @@ export const svgs = {
       push: NMonoPush,
       polkadot: NMonoPolkadot,
       oasys: NMonoOasys,
+      ontology: NMonoOntology,
       base: NMonoBase,
       optimism: NMonoOptimism,
       loopring: NMonoLoopring,
@@ -11207,6 +11222,7 @@ export const svgs = {
       expchain: NBackgroundExpchain,
       polygon: NBackgroundPolygon,
       multiversx: NBackgroundMultiversx,
+      ink: NBackgroundInk,
       tombchain: NBackgroundTombchain,
       l3x: NBackgroundL3x,
       fraxtal: NBackgroundFraxtal,
@@ -11228,6 +11244,7 @@ export const svgs = {
       aptos: NBackgroundAptos,
       cosmos: NBackgroundCosmos,
       hemi: NBackgroundHemi,
+      prom: NBackgroundProm,
       moonbase: NBackgroundMoonbase,
       algorand: NBackgroundAlgorand,
       eos: NBackgroundEos,
@@ -11336,6 +11353,7 @@ export const svgs = {
       push: NBackgroundPush,
       polkadot: NBackgroundPolkadot,
       oasys: NBackgroundOasys,
+      ontology: NBackgroundOntology,
       base: NBackgroundBase,
       optimism: NBackgroundOptimism,
       loopring: NBackgroundLoopring,
