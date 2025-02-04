@@ -1,5 +1,21 @@
 # @web3icons/react
 
+## 4.0.6
+
+### Patch Changes
+
+- new networks:
+
+  ontology (branded, mono, background)
+  prom (branded, mono, background)
+  ink (branded, mono, background)
+
+  updated tokens:
+  PROM (branded, mono, background)
+
+- Updated dependencies
+  - @web3icons/common@0.11.5
+
 ## 4.0.5
 
 ### Patch Changes
