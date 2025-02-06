@@ -969,6 +969,7 @@ import * as TBrandedGRC from './svgs/tokens/branded/GRC.svg'
 import * as TBrandedRIF from './svgs/tokens/branded/RIF.svg'
 import * as TBrandedPRY from './svgs/tokens/branded/PRY.svg'
 import * as TBrandedSUDO from './svgs/tokens/branded/SUDO.svg'
+import * as TBrandedSWELL from './svgs/tokens/branded/SWELL.svg'
 import * as TBrandedKILT from './svgs/tokens/branded/KILT.svg'
 import * as TBrandedGRT from './svgs/tokens/branded/GRT.svg'
 import * as TBrandedZKP from './svgs/tokens/branded/ZKP.svg'
@@ -2608,6 +2609,7 @@ import * as TMonoGRC from './svgs/tokens/mono/GRC.svg'
 import * as TMonoRIF from './svgs/tokens/mono/RIF.svg'
 import * as TMonoPRY from './svgs/tokens/mono/PRY.svg'
 import * as TMonoSUDO from './svgs/tokens/mono/SUDO.svg'
+import * as TMonoSWELL from './svgs/tokens/mono/SWELL.svg'
 import * as TMonoKILT from './svgs/tokens/mono/KILT.svg'
 import * as TMonoGRT from './svgs/tokens/mono/GRT.svg'
 import * as TMonoZKP from './svgs/tokens/mono/ZKP.svg'
@@ -4272,6 +4274,7 @@ import * as TBackgroundGRC from './svgs/tokens/background/GRC.svg'
 import * as TBackgroundRIF from './svgs/tokens/background/RIF.svg'
 import * as TBackgroundPRY from './svgs/tokens/background/PRY.svg'
 import * as TBackgroundSUDO from './svgs/tokens/background/SUDO.svg'
+import * as TBackgroundSWELL from './svgs/tokens/background/SWELL.svg'
 import * as TBackgroundKILT from './svgs/tokens/background/KILT.svg'
 import * as TBackgroundGRT from './svgs/tokens/background/GRT.svg'
 import * as TBackgroundZKP from './svgs/tokens/background/ZKP.svg'
@@ -5141,6 +5144,7 @@ import * as NBrandedXdc from './svgs/networks/branded/xdc.svg'
 import * as NBrandedVelas from './svgs/networks/branded/velas.svg'
 import * as NBrandedFilecoin from './svgs/networks/branded/filecoin.svg'
 import * as NBrandedChiliz from './svgs/networks/branded/chiliz.svg'
+import * as NBrandedAutonomys from './svgs/networks/branded/autonomys.svg'
 import * as NBrandedDogechain from './svgs/networks/branded/dogechain.svg'
 import * as NBrandedLens from './svgs/networks/branded/lens.svg'
 import * as NBrandedMode from './svgs/networks/branded/mode.svg'
@@ -5180,6 +5184,7 @@ import * as NBrandedBitkubChain from './svgs/networks/branded/bitkub-chain.svg'
 import * as NBrandedMoonbaseAlpha from './svgs/networks/branded/moonbase-alpha.svg'
 import * as NBrandedNibiru from './svgs/networks/branded/nibiru.svg'
 import * as NBrandedGnosis from './svgs/networks/branded/gnosis.svg'
+import * as NBrandedSwell from './svgs/networks/branded/swell.svg'
 import * as NBrandedXrp from './svgs/networks/branded/xrp.svg'
 import * as NBrandedLumio from './svgs/networks/branded/lumio.svg'
 import * as NBrandedKakarot from './svgs/networks/branded/kakarot.svg'
@@ -5311,6 +5316,7 @@ import * as NMonoXdc from './svgs/networks/mono/xdc.svg'
 import * as NMonoVelas from './svgs/networks/mono/velas.svg'
 import * as NMonoFilecoin from './svgs/networks/mono/filecoin.svg'
 import * as NMonoChiliz from './svgs/networks/mono/chiliz.svg'
+import * as NMonoAutonomys from './svgs/networks/mono/autonomys.svg'
 import * as NMonoLens from './svgs/networks/mono/lens.svg'
 import * as NMonoMode from './svgs/networks/mono/mode.svg'
 import * as NMonoLinea from './svgs/networks/mono/linea.svg'
@@ -5349,6 +5355,7 @@ import * as NMonoBitkubChain from './svgs/networks/mono/bitkub-chain.svg'
 import * as NMonoMoonbaseAlpha from './svgs/networks/mono/moonbase-alpha.svg'
 import * as NMonoNibiru from './svgs/networks/mono/nibiru.svg'
 import * as NMonoGnosis from './svgs/networks/mono/gnosis.svg'
+import * as NMonoSwell from './svgs/networks/mono/swell.svg'
 import * as NMonoXrp from './svgs/networks/mono/xrp.svg'
 import * as NMonoKakarot from './svgs/networks/mono/kakarot.svg'
 import * as NMonoXLayer from './svgs/networks/mono/x-layer.svg'
@@ -5481,6 +5488,7 @@ import * as NBackgroundXdc from './svgs/networks/background/xdc.svg'
 import * as NBackgroundVelas from './svgs/networks/background/velas.svg'
 import * as NBackgroundFilecoin from './svgs/networks/background/filecoin.svg'
 import * as NBackgroundChiliz from './svgs/networks/background/chiliz.svg'
+import * as NBackgroundAutonomys from './svgs/networks/background/autonomys.svg'
 import * as NBackgroundDogechain from './svgs/networks/background/dogechain.svg'
 import * as NBackgroundLens from './svgs/networks/background/lens.svg'
 import * as NBackgroundMode from './svgs/networks/background/mode.svg'
@@ -5520,6 +5528,7 @@ import * as NBackgroundBitkubChain from './svgs/networks/background/bitkub-chain
 import * as NBackgroundMoonbaseAlpha from './svgs/networks/background/moonbase-alpha.svg'
 import * as NBackgroundNibiru from './svgs/networks/background/nibiru.svg'
 import * as NBackgroundGnosis from './svgs/networks/background/gnosis.svg'
+import * as NBackgroundSwell from './svgs/networks/background/swell.svg'
 import * as NBackgroundXrp from './svgs/networks/background/xrp.svg'
 import * as NBackgroundLumio from './svgs/networks/background/lumio.svg'
 import * as NBackgroundKakarot from './svgs/networks/background/kakarot.svg'
@@ -6751,6 +6760,7 @@ export const svgs = {
       RIF: TBrandedRIF,
       PRY: TBrandedPRY,
       SUDO: TBrandedSUDO,
+      SWELL: TBrandedSWELL,
       KILT: TBrandedKILT,
       GRT: TBrandedGRT,
       ZKP: TBrandedZKP,
@@ -8392,6 +8402,7 @@ export const svgs = {
       RIF: TMonoRIF,
       PRY: TMonoPRY,
       SUDO: TMonoSUDO,
+      SWELL: TMonoSWELL,
       KILT: TMonoKILT,
       GRT: TMonoGRT,
       ZKP: TMonoZKP,
@@ -10058,6 +10069,7 @@ export const svgs = {
       RIF: TBackgroundRIF,
       PRY: TBackgroundPRY,
       SUDO: TBackgroundSUDO,
+      SWELL: TBackgroundSWELL,
       KILT: TBackgroundKILT,
       GRT: TBackgroundGRT,
       ZKP: TBackgroundZKP,
@@ -10931,6 +10943,7 @@ export const svgs = {
       velas: NBrandedVelas,
       filecoin: NBrandedFilecoin,
       chiliz: NBrandedChiliz,
+      autonomys: NBrandedAutonomys,
       dogechain: NBrandedDogechain,
       lens: NBrandedLens,
       mode: NBrandedMode,
@@ -10970,6 +10983,7 @@ export const svgs = {
       'moonbase-alpha': NBrandedMoonbaseAlpha,
       nibiru: NBrandedNibiru,
       gnosis: NBrandedGnosis,
+      swell: NBrandedSwell,
       xrp: NBrandedXrp,
       lumio: NBrandedLumio,
       kakarot: NBrandedKakarot,
@@ -11103,6 +11117,7 @@ export const svgs = {
       velas: NMonoVelas,
       filecoin: NMonoFilecoin,
       chiliz: NMonoChiliz,
+      autonomys: NMonoAutonomys,
       lens: NMonoLens,
       mode: NMonoMode,
       linea: NMonoLinea,
@@ -11141,6 +11156,7 @@ export const svgs = {
       'moonbase-alpha': NMonoMoonbaseAlpha,
       nibiru: NMonoNibiru,
       gnosis: NMonoGnosis,
+      swell: NMonoSwell,
       xrp: NMonoXrp,
       kakarot: NMonoKakarot,
       'x-layer': NMonoXLayer,
@@ -11275,6 +11291,7 @@ export const svgs = {
       velas: NBackgroundVelas,
       filecoin: NBackgroundFilecoin,
       chiliz: NBackgroundChiliz,
+      autonomys: NBackgroundAutonomys,
       dogechain: NBackgroundDogechain,
       lens: NBackgroundLens,
       mode: NBackgroundMode,
@@ -11314,6 +11331,7 @@ export const svgs = {
       'moonbase-alpha': NBackgroundMoonbaseAlpha,
       nibiru: NBackgroundNibiru,
       gnosis: NBackgroundGnosis,
+      swell: NBackgroundSwell,
       xrp: NBackgroundXrp,
       lumio: NBackgroundLumio,
       kakarot: NBackgroundKakarot,

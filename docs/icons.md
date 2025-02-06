@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (172)](#networks)
+- [networks (174)](#networks)
 - [exchanges (26)](#exchanges)
-- [tokens (1821)](#tokens)
+- [tokens (1822)](#tokens)
 
 ### Wallets
 
@@ -224,6 +224,8 @@ jump to section:
 | ink                 | Ink                          | ✅      | ✅   | ✅         |
 | ontology            | Ontology                     | ✅      | ✅   | ✅         |
 | prom                | Prom                         | ✅      | ✅   | ✅         |
+| autonomys           | Autonomys EVM                | ✅      | ✅   | ✅         |
+| swell               | Swell Network                | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2081,3 +2083,4 @@ jump to section:
 | 0x Protocol                            | ZRX         | ✅      | ✅   | ✅         |
 | Vara                                   | VARA        | ✅      | ✅   | ✅         |
 | Vine Coin                              | VINE        | ✅      | ✅   | ✅         |
+| Swell                                  | SWELL       | ✅      | ✅   | ✅         |

@@ -21226,4 +21226,15 @@ export const tokens: ITokenMetadata[] = [
       solana: '6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump',
     },
   },
+  {
+    id: 'SWELL',
+    name: 'Swell',
+    variants: ['background', 'branded', 'mono'],
+    fileName: 'SWELL',
+    symbol: 'SWELL',
+    marketCapRank: 0,
+    addresses: {
+      ethereum: '0x0a6e7ba5042b38349e437ec6db6214aec7b35676',
+    },
+  },
 ]

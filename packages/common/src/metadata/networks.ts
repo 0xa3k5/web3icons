@@ -1659,4 +1659,23 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'PROM',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'autonomys',
+    fileName: 'autonomys',
+    chainId: 490000,
+    caip2id: 'eip155:490000',
+    name: 'Autonomys EVM',
+    shortName: 'Auto EVM',
+    variants: ['background', 'branded', 'mono'],
+  },
+  {
+    id: 'swell',
+    fileName: 'swell',
+    chainId: 1923,
+    caip2id: 'eip155:1923',
+    name: 'Swell Network',
+    shortName: 'Swell',
+    nativeCoinId: 'ETH',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]
