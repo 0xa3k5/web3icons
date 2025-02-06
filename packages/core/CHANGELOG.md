@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.7
+
+### Patch Changes
+
+- add networks: swell, autonomys - add token: SWELL
+- Updated dependencies
+  - @web3icons/common@0.11.6
+
 ## 4.0.6
 
 ### Patch Changes
