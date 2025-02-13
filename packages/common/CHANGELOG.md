@@ -1,5 +1,13 @@
 # @web3icons/common
 
+## 0.11.7
+
+### Patch Changes
+
+- add hashkey network (branded, mono, background)
+  add ARI token (branded, mono, background)
+  fix iotex branded icon
+
 ## 0.11.6
 
 ### Patch Changes

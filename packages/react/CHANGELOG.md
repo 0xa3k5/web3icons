@@ -1,5 +1,15 @@
 # @web3icons/react
 
+## 4.0.8
+
+### Patch Changes
+
+- add hashkey network (branded, mono, background)
+  add ARI token (branded, mono, background)
+  fix iotex branded icon
+- Updated dependencies
+  - @web3icons/common@0.11.7
+
 ## 4.0.7
 
 ### Patch Changes
