@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (174)](#networks)
+- [networks (175)](#networks)
 - [exchanges (26)](#exchanges)
-- [tokens (1822)](#tokens)
+- [tokens (1823)](#tokens)
 
 ### Wallets
 
@@ -226,6 +226,7 @@ jump to section:
 | prom                | Prom                         | ✅      | ✅   | ✅         |
 | autonomys           | Autonomys EVM                | ✅      | ✅   | ✅         |
 | swell               | Swell Network                | ✅      | ✅   | ✅         |
+| hashkey             | Hashkey Chain                | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2084,3 +2085,4 @@ jump to section:
 | Vara                                   | VARA        | ✅      | ✅   | ✅         |
 | Vine Coin                              | VINE        | ✅      | ✅   | ✅         |
 | Swell                                  | SWELL       | ✅      | ✅   | ✅         |
+| ARI                                    | ARI         | ✅      | ✅   | ✅         |

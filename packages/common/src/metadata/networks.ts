@@ -1678,4 +1678,14 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'ETH',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'hashkey',
+    fileName: 'hashkey',
+    chainId: 177,
+    caip2id: 'eip155:177',
+    name: 'Hashkey Chain',
+    shortName: 'Hashkey',
+    nativeCoinId: 'HSK',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]
