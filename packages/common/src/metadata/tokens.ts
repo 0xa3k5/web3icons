@@ -21237,4 +21237,15 @@ export const tokens: ITokenMetadata[] = [
       ethereum: '0x0a6e7ba5042b38349e437ec6db6214aec7b35676',
     },
   },
+  {
+    id: 'ARI',
+    name: 'ARI',
+    variants: ['background', 'branded', 'mono'],
+    fileName: 'ARI',
+    symbol: 'ARI',
+    marketCapRank: 0,
+    addresses: {
+      base: '0xd1e6f3f0a7f40d5412f7471875879381441bf722',
+    },
+  },
 ]
