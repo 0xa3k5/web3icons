@@ -33,21 +33,21 @@ export default function IconCard({
   return (
     <label
       className={cx(
-        'relative flex flex-col items-center justify-center gap-1 border border-gray-lightest p-4 duration-150',
+        'relative flex flex-col items-center justify-center gap-1 px-2 py-4 duration-150',
         className,
         isSelected ? 'bg-gray-light' : hover && 'bg-gray',
       )}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
-      <img className="size-8" src={svg} />
+      <div dangerouslySetInnerHTML={{ __html: svg }} />
       <span
         className={cx(
-          'text-center text-sm text-white',
+          'text-center text-sm text-white mt-2',
           isSelected ? 'text-opacity-100' : 'text-opacity-60',
         )}
       >
-        {iconName.replace('Icon', '')}
+        {iconName}
       </span>
       <input
         type="checkbox"

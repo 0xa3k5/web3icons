@@ -1,7 +1,7 @@
 import { Fragment, h } from 'preact'
 import cx from 'classnames'
 import { useEffect, useRef, useState } from 'preact/hooks'
-import { TType } from 'src/types'
+import { TType } from '@web3icons/common'
 
 interface TabsProps {
   className?: string
@@ -33,7 +33,7 @@ export default function Tabs({
         'relative inline-flex w-full rounded-sm border-b border-gray-lightest pb-2',
       )}
     >
-      {['token', 'network', 'wallet'].map((tab) => (
+      {['token', 'network', 'wallet', 'exchange'].map((tab) => (
         <Fragment key={tab}>
           <input
             type="radio"

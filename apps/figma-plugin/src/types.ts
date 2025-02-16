@@ -14,5 +14,3 @@ export interface SvgIcon {
   name: string
   svg: string
 }
-
-export type TType = 'token' | 'wallet' | 'network'
