@@ -51,7 +51,7 @@
       ]
     },
     "id": "1170720285035693761",
-    "name": "Token Icons (SVG)",
+    "name": "Web3 Icons",
     "main": "src/main.ts",
     "ui": "src/ui.tsx"
   }
