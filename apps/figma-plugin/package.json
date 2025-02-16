@@ -22,7 +22,7 @@
     "@create-figma-plugin/ui": "^3.1.0",
     "@create-figma-plugin/utilities": "^3.1.0",
     "preact": ">=10",
-    "@web3icons/core": "4.0.8",
+    "@web3icons/core": "4.0.9",
     "@web3icons/common": "0.11.7"
   },
   "devDependencies": {
@@ -35,6 +35,7 @@
     "typescript": ">=4"
   },
   "scripts": {
+    "build": "bun run build:css && bun run build:js",
     "build:css": "tailwindcss --input ./src/css/input.css --output ./src/css/output.css",
     "build:js": "build-figma-plugin --typecheck --minify",
     "watch": "bun run build:css && concurrently \"bun run watch:css\" \"bun run watch:js\"",
@@ -50,8 +51,9 @@
         "none"
       ]
     },
+    "documentAccess": "dynamic-page",
     "id": "1170720285035693761",
-    "name": "Token Icons (SVG)",
+    "name": "Web3 Icons",
     "main": "src/main.ts",
     "ui": "src/ui.tsx"
   }

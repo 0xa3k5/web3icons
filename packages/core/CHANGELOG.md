@@ -1,5 +1,11 @@
 # @web3icons/core
 
+## 4.0.9
+
+### Patch Changes
+
+- update to inline svgs on build
+
 ## 4.0.8
 
 ### Patch Changes

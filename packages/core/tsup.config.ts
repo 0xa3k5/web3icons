@@ -7,8 +7,10 @@ export default defineConfig([
     outDir: 'dist',
     sourcemap: true,
     dts: true,
-    external: ['**/*.svg'],
     target: 'es2022',
     clean: false,
+    loader: {
+      '.svg': 'text',
+    },
   },
 ])
