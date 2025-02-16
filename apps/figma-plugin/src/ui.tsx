@@ -58,18 +58,18 @@ function Plugin() {
   return (
     <main className="flex w-full flex-col gap-4 bg-gray-darkest p-4">
       <Tabs activeTab={type} onChange={(value) => setType(value as TType)} />
-      <div className="flex gap-4">
-        <SearchInput
-          placeholder="Search"
-          value={searchKey}
-          onInput={(event) => setSearchKey(event.currentTarget.value)}
-        />
-        <SegmentedControl
-          onChange={(value) => setVariant(value as 'mono' | 'branded' | 'background')}
-          options={['branded', 'mono', 'background']}
-          selected={variant}
-        />
-      </div>
+      <SearchInput
+        placeholder="Search"
+        value={searchKey}
+        onInput={(event) => setSearchKey(event.currentTarget.value)}
+      />
+      <SegmentedControl
+        onChange={(value) =>
+          setVariant(value as 'mono' | 'branded' | 'background')
+        }
+        options={['branded', 'mono', 'background']}
+        selected={variant}
+      />
 
       {isLoading ? (
         <div className="flex justify-center p-4">
