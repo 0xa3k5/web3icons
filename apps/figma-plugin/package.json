@@ -51,6 +51,7 @@
         "none"
       ]
     },
+    "documentAccess": "dynamic-page",
     "id": "1170720285035693761",
     "name": "Web3 Icons",
     "main": "src/main.ts",
