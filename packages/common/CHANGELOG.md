@@ -1,5 +1,12 @@
 # @web3icons/common
 
+## 0.11.8
+
+### Patch Changes
+
+- add peaq network
+  add PEAQ token
+
 ## 0.11.7
 
 ### Patch Changes
