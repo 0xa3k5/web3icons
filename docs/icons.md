@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (175)](#networks)
+- [networks (176)](#networks)
 - [exchanges (26)](#exchanges)
-- [tokens (1823)](#tokens)
+- [tokens (1824)](#tokens)
 
 ### Wallets
 
@@ -227,6 +227,7 @@ jump to section:
 | autonomys           | Autonomys EVM                | ✅      | ✅   | ✅         |
 | swell               | Swell Network                | ✅      | ✅   | ✅         |
 | hashkey             | Hashkey Chain                | ✅      | ✅   | ✅         |
+| peaq                | peaq                         | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2086,3 +2087,4 @@ jump to section:
 | Vine Coin                              | VINE        | ✅      | ✅   | ✅         |
 | Swell                                  | SWELL       | ✅      | ✅   | ✅         |
 | ARI                                    | ARI         | ✅      | ✅   | ✅         |
+| peaq                                   | PEAQ        | ✅      | ✅   | ✅         |

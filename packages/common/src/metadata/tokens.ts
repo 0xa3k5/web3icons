@@ -21248,4 +21248,15 @@ export const tokens: ITokenMetadata[] = [
       base: '0xd1e6f3f0a7f40d5412f7471875879381441bf722',
     },
   },
+  {
+    id: 'PEAQ',
+    name: 'peaq',
+    variants: ['background', 'branded', 'mono'],
+    fileName: 'PEAQ',
+    symbol: 'PEAQ',
+    marketCapRank: 0,
+    addresses: {
+      ethereum: '0x408480574c803D05a0244b479c5020a97f546c51',
+    },
+  },
 ]

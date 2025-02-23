@@ -43,7 +43,7 @@ export default function IconCard({
       <div dangerouslySetInnerHTML={{ __html: svg }} />
       <span
         className={cx(
-          'text-center text-sm text-white mt-2',
+          'mt-2 text-center text-sm text-white',
           isSelected ? 'text-opacity-100' : 'text-opacity-60',
         )}
       >

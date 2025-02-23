@@ -1688,4 +1688,14 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'HSK',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'peaq',
+    fileName: 'peaq',
+    chainId: 3338,
+    caip2id: 'eip155:3338',
+    name: 'peaq',
+    shortName: 'peaq',
+    nativeCoinId: 'PEAQ',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]
