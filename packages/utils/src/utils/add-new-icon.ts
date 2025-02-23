@@ -6,8 +6,10 @@ import {
   TMetadata,
   TType,
   TVariant,
+  tokens,
 } from '@web3icons/common'
 import { confirmAndAddMetadata, renameIconFiles } from './'
+import { duplicateIconsToType } from './duplicate-icons-to-type'
 
 const ID_PATTERNS = {
   token: /^[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*$/,
@@ -102,10 +104,45 @@ const handleNetworkMetadata = async (
 
   metadata.caip2id = caip2id ? caip2id : chainId ? `eip155:${chainId}` : undefined
 
-  metadata.nativeCoinId = (await text({
-    message: `Native coin ID of the ${fileName} (optional)`,
+  const nativeCoinId = (await text({
+    message: `Native coin symbol of the ${fileName} (optional)`,
     placeholder: '',
   })) as string | undefined
+
+  metadata.nativeCoinId = nativeCoinId
+
+  if (nativeCoinId) {
+    const matchingToken = tokens.find(
+      (token) => token.symbol.toUpperCase() === nativeCoinId.toUpperCase(),
+    )
+
+    if (!matchingToken) {
+      const shouldAddToken = await confirm({
+        message: `No token icon found for symbol "${nativeCoinId}". Would you like to add token support using the same icon?`,
+      })
+
+      if (shouldAddToken) {
+        // Copy and rename the network icon files to create token variants
+        const tokenFileName = nativeCoinId.toUpperCase()
+        duplicateIconsToType(fileName, tokenFileName, metadata.variants, 'network', 'token')
+
+        // Create token metadata
+        const tokenMetadata: ITokenMetadata = {
+          id: tokenFileName,
+          name: metadata.name,
+          variants: metadata.variants,
+          fileName: tokenFileName,
+          symbol: nativeCoinId.toUpperCase(),
+          marketCapRank: 0,
+          addresses: {},
+        }
+
+        // Get additional token metadata
+        await handleTokenMetadata(tokenFileName, tokenMetadata)
+        await confirmAndAddMetadata(tokenMetadata, 'token')
+      }
+    }
+  }
 }
 
 const handleTokenMetadata = async (fileName: string, metadata: ITokenMetadata): Promise<void> => {

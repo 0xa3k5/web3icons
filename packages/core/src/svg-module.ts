@@ -1416,6 +1416,7 @@ import * as TBrandedBSW from './svgs/tokens/branded/BSW.svg'
 import * as TBrandedAIOZ from './svgs/tokens/branded/AIOZ.svg'
 import * as TBrandedPOP from './svgs/tokens/branded/POP.svg'
 import * as TBrandedGHUB from './svgs/tokens/branded/GHUB.svg'
+import * as TBrandedPEAQ from './svgs/tokens/branded/PEAQ.svg'
 import * as TBrandedGLQ from './svgs/tokens/branded/GLQ.svg'
 import * as TBrandedNXRA from './svgs/tokens/branded/NXRA.svg'
 import * as TBrandedRAY from './svgs/tokens/branded/RAY.svg'
@@ -2997,6 +2998,7 @@ import * as TMonoPNT from './svgs/tokens/mono/PNT.svg'
 import * as TMonoBSW from './svgs/tokens/mono/BSW.svg'
 import * as TMonoAIOZ from './svgs/tokens/mono/AIOZ.svg'
 import * as TMonoPOP from './svgs/tokens/mono/POP.svg'
+import * as TMonoPEAQ from './svgs/tokens/mono/PEAQ.svg'
 import * as TMonoGLQ from './svgs/tokens/mono/GLQ.svg'
 import * as TMonoNXRA from './svgs/tokens/mono/NXRA.svg'
 import * as TMonoRAY from './svgs/tokens/mono/RAY.svg'
@@ -4723,6 +4725,7 @@ import * as TBackgroundBSW from './svgs/tokens/background/BSW.svg'
 import * as TBackgroundAIOZ from './svgs/tokens/background/AIOZ.svg'
 import * as TBackgroundPOP from './svgs/tokens/background/POP.svg'
 import * as TBackgroundGHUB from './svgs/tokens/background/GHUB.svg'
+import * as TBackgroundPEAQ from './svgs/tokens/background/PEAQ.svg'
 import * as TBackgroundGLQ from './svgs/tokens/background/GLQ.svg'
 import * as TBackgroundNXRA from './svgs/tokens/background/NXRA.svg'
 import * as TBackgroundRAY from './svgs/tokens/background/RAY.svg'
@@ -5224,6 +5227,7 @@ import * as NBrandedSoneium from './svgs/networks/branded/soneium.svg'
 import * as NBrandedNahmii from './svgs/networks/branded/nahmii.svg'
 import * as NBrandedLightlink from './svgs/networks/branded/lightlink.svg'
 import * as NBrandedLisk from './svgs/networks/branded/lisk.svg'
+import * as NBrandedPeaq from './svgs/networks/branded/peaq.svg'
 import * as NBrandedHashkey from './svgs/networks/branded/hashkey.svg'
 import * as NBrandedPush from './svgs/networks/branded/push.svg'
 import * as NBrandedPolkadot from './svgs/networks/branded/polkadot.svg'
@@ -5395,6 +5399,7 @@ import * as NMonoSoneium from './svgs/networks/mono/soneium.svg'
 import * as NMonoNahmii from './svgs/networks/mono/nahmii.svg'
 import * as NMonoLightlink from './svgs/networks/mono/lightlink.svg'
 import * as NMonoLisk from './svgs/networks/mono/lisk.svg'
+import * as NMonoPeaq from './svgs/networks/mono/peaq.svg'
 import * as NMonoHashkey from './svgs/networks/mono/hashkey.svg'
 import * as NMonoPush from './svgs/networks/mono/push.svg'
 import * as NMonoPolkadot from './svgs/networks/mono/polkadot.svg'
@@ -5570,6 +5575,7 @@ import * as NBackgroundSoneium from './svgs/networks/background/soneium.svg'
 import * as NBackgroundNahmii from './svgs/networks/background/nahmii.svg'
 import * as NBackgroundLightlink from './svgs/networks/background/lightlink.svg'
 import * as NBackgroundLisk from './svgs/networks/background/lisk.svg'
+import * as NBackgroundPeaq from './svgs/networks/background/peaq.svg'
 import * as NBackgroundHashkey from './svgs/networks/background/hashkey.svg'
 import * as NBackgroundPush from './svgs/networks/background/push.svg'
 import * as NBackgroundPolkadot from './svgs/networks/background/polkadot.svg'
@@ -7213,6 +7219,7 @@ export const svgs = {
       AIOZ: TBrandedAIOZ,
       POP: TBrandedPOP,
       GHUB: TBrandedGHUB,
+      PEAQ: TBrandedPEAQ,
       GLQ: TBrandedGLQ,
       NXRA: TBrandedNXRA,
       RAY: TBrandedRAY,
@@ -8796,6 +8803,7 @@ export const svgs = {
       BSW: TMonoBSW,
       AIOZ: TMonoAIOZ,
       POP: TMonoPOP,
+      PEAQ: TMonoPEAQ,
       GLQ: TMonoGLQ,
       NXRA: TMonoNXRA,
       RAY: TMonoRAY,
@@ -10524,6 +10532,7 @@ export const svgs = {
       AIOZ: TBackgroundAIOZ,
       POP: TBackgroundPOP,
       GHUB: TBackgroundGHUB,
+      PEAQ: TBackgroundPEAQ,
       GLQ: TBackgroundGLQ,
       NXRA: TBackgroundNXRA,
       RAY: TBackgroundRAY,
@@ -11029,6 +11038,7 @@ export const svgs = {
       nahmii: NBrandedNahmii,
       lightlink: NBrandedLightlink,
       lisk: NBrandedLisk,
+      peaq: NBrandedPeaq,
       hashkey: NBrandedHashkey,
       push: NBrandedPush,
       polkadot: NBrandedPolkadot,
@@ -11202,6 +11212,7 @@ export const svgs = {
       nahmii: NMonoNahmii,
       lightlink: NMonoLightlink,
       lisk: NMonoLisk,
+      peaq: NMonoPeaq,
       hashkey: NMonoHashkey,
       push: NMonoPush,
       polkadot: NMonoPolkadot,
@@ -11379,6 +11390,7 @@ export const svgs = {
       nahmii: NBackgroundNahmii,
       lightlink: NBackgroundLightlink,
       lisk: NBackgroundLisk,
+      peaq: NBackgroundPeaq,
       hashkey: NBackgroundHashkey,
       push: NBackgroundPush,
       polkadot: NBackgroundPolkadot,

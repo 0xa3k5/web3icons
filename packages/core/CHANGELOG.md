@@ -1,5 +1,14 @@
 # @web3icons/core
 
+## 4.0.10
+
+### Patch Changes
+
+- add peaq network
+  add PEAQ token
+- Updated dependencies
+  - @web3icons/common@0.11.8
+
 ## 4.0.9
 
 ### Patch Changes
