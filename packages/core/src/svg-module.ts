@@ -5095,6 +5095,7 @@ import * as NBrandedNearProtocol from './svgs/networks/branded/near-protocol.svg
 import * as NBrandedEnuls from './svgs/networks/branded/enuls.svg'
 import * as NBrandedAurora from './svgs/networks/branded/aurora.svg'
 import * as NBrandedExpchain from './svgs/networks/branded/expchain.svg'
+import * as NBrandedMegaEth from './svgs/networks/branded/mega-eth.svg'
 import * as NBrandedPolygon from './svgs/networks/branded/polygon.svg'
 import * as NBrandedMultiversx from './svgs/networks/branded/multiversx.svg'
 import * as NBrandedInk from './svgs/networks/branded/ink.svg'
@@ -5271,6 +5272,7 @@ import * as NMonoNearProtocol from './svgs/networks/mono/near-protocol.svg'
 import * as NMonoEnuls from './svgs/networks/mono/enuls.svg'
 import * as NMonoAurora from './svgs/networks/mono/aurora.svg'
 import * as NMonoExpchain from './svgs/networks/mono/expchain.svg'
+import * as NMonoMegaEth from './svgs/networks/mono/mega-eth.svg'
 import * as NMonoPolygon from './svgs/networks/mono/polygon.svg'
 import * as NMonoMultiversx from './svgs/networks/mono/multiversx.svg'
 import * as NMonoInk from './svgs/networks/mono/ink.svg'
@@ -5443,6 +5445,7 @@ import * as NBackgroundNearProtocol from './svgs/networks/background/near-protoc
 import * as NBackgroundEnuls from './svgs/networks/background/enuls.svg'
 import * as NBackgroundAurora from './svgs/networks/background/aurora.svg'
 import * as NBackgroundExpchain from './svgs/networks/background/expchain.svg'
+import * as NBackgroundMegaEth from './svgs/networks/background/mega-eth.svg'
 import * as NBackgroundPolygon from './svgs/networks/background/polygon.svg'
 import * as NBackgroundMultiversx from './svgs/networks/background/multiversx.svg'
 import * as NBackgroundInk from './svgs/networks/background/ink.svg'
@@ -10906,6 +10909,7 @@ export const svgs = {
       enuls: NBrandedEnuls,
       aurora: NBrandedAurora,
       expchain: NBrandedExpchain,
+      'mega-eth': NBrandedMegaEth,
       polygon: NBrandedPolygon,
       multiversx: NBrandedMultiversx,
       ink: NBrandedInk,
@@ -11084,6 +11088,7 @@ export const svgs = {
       enuls: NMonoEnuls,
       aurora: NMonoAurora,
       expchain: NMonoExpchain,
+      'mega-eth': NMonoMegaEth,
       polygon: NMonoPolygon,
       multiversx: NMonoMultiversx,
       ink: NMonoInk,
@@ -11258,6 +11263,7 @@ export const svgs = {
       enuls: NBackgroundEnuls,
       aurora: NBackgroundAurora,
       expchain: NBackgroundExpchain,
+      'mega-eth': NBackgroundMegaEth,
       polygon: NBackgroundPolygon,
       multiversx: NBackgroundMultiversx,
       ink: NBackgroundInk,

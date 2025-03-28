@@ -1,5 +1,15 @@
 # @web3icons/core
 
+## 4.0.11
+
+### Patch Changes
+
+- add mega-eth network icon
+  update metamask wallet icon
+  update berachain network icon
+- Updated dependencies
+  - @web3icons/common@0.11.9
+
 ## 4.0.10
 
 ### Patch Changes
