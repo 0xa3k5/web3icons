@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (176)](#networks)
+- [networks (177)](#networks)
 - [exchanges (26)](#exchanges)
 - [tokens (1824)](#tokens)
 
@@ -228,6 +228,7 @@ jump to section:
 | swell               | Swell Network                | ✅      | ✅   | ✅         |
 | hashkey             | Hashkey Chain                | ✅      | ✅   | ✅         |
 | peaq                | peaq                         | ✅      | ✅   | ✅         |
+| mega-eth            | Mega ETH                     | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
