@@ -1698,4 +1698,14 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'PEAQ',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'mega-eth',
+    fileName: 'mega',
+    chainId: 6342,
+    caip2id: 'eip155:6342',
+    name: 'Mega ETH',
+    shortName: 'Mega',
+    nativeCoinId: 'eth',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]
