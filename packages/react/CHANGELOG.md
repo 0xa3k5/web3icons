@@ -1,5 +1,11 @@
 # @web3icons/react
 
+## 4.0.12
+
+### Patch Changes
+
+- Created separate dynamic entry point for components using hooks to prevent 'use client' directive and hooks from leaking into main bundle which ensures server-side compatibility for static exports
+
 ## 4.0.11
 
 ### Patch Changes

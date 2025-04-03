@@ -14,7 +14,7 @@
     "@types/react": "18.2.64",
     "@types/react-dom": "18.2.21",
     "@vercel/analytics": "^1.2.2",
-    "@web3icons/react": "4.0.11",
+    "@web3icons/react": "4.0.12",
     "@web3icons/common": "0.11.9",
     "@web3icons/core": "4.0.11",
     "autoprefixer": "10.4.18",
