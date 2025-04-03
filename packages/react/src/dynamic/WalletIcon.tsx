@@ -1,7 +1,8 @@
+'use client'
 import { forwardRef } from 'react'
-import { WalletIconProps } from './types'
-import { DynamicIcon } from './DynamicIcon'
-import { findWallet } from './utils'
+import { WalletIconProps } from '../types'
+import { findWallet } from '../utils'
+import DynamicIcon from './DynamicIcon'
 
 /**
  * @component @name WalletIcon

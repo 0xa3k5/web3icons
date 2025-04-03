@@ -1,3 +1,4 @@
+'use client'
 import { forwardRef, ReactElement, ReactNode, useEffect, useState } from 'react'
 import {
   IExchangeMetadata,
@@ -7,9 +8,9 @@ import {
   TType,
   TVariant,
 } from '@web3icons/common'
-import { BaseIcon } from './BaseIcon'
-import { loadIcon } from './utils/loadIcon'
-import { IconComponent } from './types'
+import { BaseIcon } from '../BaseIcon'
+import { loadIcon } from '../utils/loadIcon'
+import { IconComponent } from '../types'
 
 /**
  * Interface for DynamicIcon component props.
@@ -24,8 +25,12 @@ import { IconComponent } from './types'
  * @property {(string | ReactNode)} [fallback] - Fallback content to display if the icon fails to load.
  */
 interface IDynamicIcon {
-  // prettier-ignore
-  metadata: | ITokenMetadata | IWalletMetadata | INetworkMetadata | IExchangeMetadata | undefined
+  metadata:
+    | ITokenMetadata
+    | IWalletMetadata
+    | INetworkMetadata
+    | IExchangeMetadata
+    | undefined
   type: TType
   ref?: React.ForwardedRef<SVGSVGElement>
   size?: string | number
@@ -42,7 +47,7 @@ interface IDynamicIcon {
  * @param {React.ForwardedRef<SVGSVGElement>} ref
  * @returns {ReactElement | null} JSX Element for the DynamicIcon component or null if the icon fails to load.
  */
-export const DynamicIcon = forwardRef<SVGSVGElement, IDynamicIcon>(
+const DynamicIcon = forwardRef<SVGSVGElement, IDynamicIcon>(
   (
     { size, color, className, variant, fallback, metadata, type }: IDynamicIcon,
     ref,
@@ -87,3 +92,5 @@ export const DynamicIcon = forwardRef<SVGSVGElement, IDynamicIcon>(
     ) : null
   },
 )
+
+export default DynamicIcon

@@ -23,6 +23,10 @@
       "import": "./dist/index.js",
       "require": "./dist/index.js"
     },
+    "./dynamic": {
+      "import": "./dist/dynamic/index.js",
+      "require": "./dist/dynamic/index.js"
+    },
     "./icons": {
       "import": "./dist/icons/index.js",
       "require": "./dist/icons/index.js"

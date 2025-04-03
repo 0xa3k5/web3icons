@@ -1,8 +1,8 @@
+'use client'
 import { forwardRef } from 'react'
-import { ExchangeIconProps } from './types'
-import { DynamicIcon } from './DynamicIcon'
-import { findExchange } from './utils'
-
+import { ExchangeIconProps } from '../types'
+import { findExchange } from '../utils'
+import DynamicIcon from './DynamicIcon'
 /**
  * @component @name ExchangeIcon
  *

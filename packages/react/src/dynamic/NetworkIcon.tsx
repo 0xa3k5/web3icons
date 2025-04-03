@@ -1,7 +1,8 @@
+'use client'
 import { forwardRef } from 'react'
-import { findNetwork } from './utils'
-import { DynamicIcon } from './DynamicIcon'
-import { NetworkIconProps } from './types'
+import { findNetwork } from '../utils'
+import { NetworkIconProps } from '../types'
+import DynamicIcon from './DynamicIcon'
 
 /**
  * @component @name NetworkIcon
