@@ -5235,6 +5235,7 @@ import * as NBrandedPolkadot from './svgs/networks/branded/polkadot.svg'
 import * as NBrandedOasys from './svgs/networks/branded/oasys.svg'
 import * as NBrandedOntology from './svgs/networks/branded/ontology.svg'
 import * as NBrandedBase from './svgs/networks/branded/base.svg'
+import * as NBrandedUltra from './svgs/networks/branded/ultra.svg'
 import * as NBrandedOptimism from './svgs/networks/branded/optimism.svg'
 import * as NBrandedLoopring from './svgs/networks/branded/loopring.svg'
 import * as NBrandedOsmosis from './svgs/networks/branded/osmosis.svg'
@@ -5408,6 +5409,7 @@ import * as NMonoPolkadot from './svgs/networks/mono/polkadot.svg'
 import * as NMonoOasys from './svgs/networks/mono/oasys.svg'
 import * as NMonoOntology from './svgs/networks/mono/ontology.svg'
 import * as NMonoBase from './svgs/networks/mono/base.svg'
+import * as NMonoUltra from './svgs/networks/mono/ultra.svg'
 import * as NMonoOptimism from './svgs/networks/mono/optimism.svg'
 import * as NMonoLoopring from './svgs/networks/mono/loopring.svg'
 import * as NMonoOsmosis from './svgs/networks/mono/osmosis.svg'
@@ -5585,6 +5587,7 @@ import * as NBackgroundPolkadot from './svgs/networks/background/polkadot.svg'
 import * as NBackgroundOasys from './svgs/networks/background/oasys.svg'
 import * as NBackgroundOntology from './svgs/networks/background/ontology.svg'
 import * as NBackgroundBase from './svgs/networks/background/base.svg'
+import * as NBackgroundUltra from './svgs/networks/background/ultra.svg'
 import * as NBackgroundOptimism from './svgs/networks/background/optimism.svg'
 import * as NBackgroundLoopring from './svgs/networks/background/loopring.svg'
 import * as NBackgroundOsmosis from './svgs/networks/background/osmosis.svg'
@@ -11049,6 +11052,7 @@ export const svgs = {
       oasys: NBrandedOasys,
       ontology: NBrandedOntology,
       base: NBrandedBase,
+      ultra: NBrandedUltra,
       optimism: NBrandedOptimism,
       loopring: NBrandedLoopring,
       osmosis: NBrandedOsmosis,
@@ -11224,6 +11228,7 @@ export const svgs = {
       oasys: NMonoOasys,
       ontology: NMonoOntology,
       base: NMonoBase,
+      ultra: NMonoUltra,
       optimism: NMonoOptimism,
       loopring: NMonoLoopring,
       osmosis: NMonoOsmosis,
@@ -11403,6 +11408,7 @@ export const svgs = {
       oasys: NBackgroundOasys,
       ontology: NBackgroundOntology,
       base: NBackgroundBase,
+      ultra: NBackgroundUltra,
       optimism: NBackgroundOptimism,
       loopring: NBackgroundLoopring,
       osmosis: NBackgroundOsmosis,

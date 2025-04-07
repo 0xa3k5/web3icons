@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (177)](#networks)
+- [networks (178)](#networks)
 - [exchanges (26)](#exchanges)
 - [tokens (1824)](#tokens)
 
@@ -229,6 +229,7 @@ jump to section:
 | hashkey             | Hashkey Chain                | ✅      | ✅   | ✅         |
 | peaq                | peaq                         | ✅      | ✅   | ✅         |
 | mega-eth            | Mega ETH                     | ✅      | ✅   | ✅         |
+| ultra               | Ultra                        | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
