@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 4.0.13
+
+### Patch Changes
+
+- add ultra network (mono,branded,background)
+- Updated dependencies
+  - @web3icons/common@0.11.10
+
 ## 4.0.12
 
 ### Patch Changes
