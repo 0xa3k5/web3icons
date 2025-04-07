@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.10
+
+### Patch Changes
+
+- add ultra network (mono,branded,background)
+
 ## 0.11.9
 
 ### Patch Changes

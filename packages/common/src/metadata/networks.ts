@@ -1708,4 +1708,13 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'eth',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'ultra',
+    fileName: 'ultra',
+    caip2id: 'antelope:a9c481dfbc7d9506dc7e87e9a137c931',
+    name: 'Ultra',
+    shortName: 'Ultra',
+    nativeCoinId: 'UOS',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]
