@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (178)](#networks)
+- [networks (179)](#networks)
 - [exchanges (26)](#exchanges)
 - [tokens (1824)](#tokens)
 
@@ -230,6 +230,7 @@ jump to section:
 | peaq                | peaq                         | ✅      | ✅   | ✅         |
 | mega-eth            | Mega ETH                     | ✅      | ✅   | ✅         |
 | ultra               | Ultra                        | ✅      | ✅   | ✅         |
+| katana              | Katana                       | ✅      | ✅   | ✅         |
 
 ### Exchanges
 

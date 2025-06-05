@@ -1717,4 +1717,14 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'UOS',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'katana',
+    fileName: 'katana',
+    chainId: 129399,
+    caip2id: 'eip155:129399',
+    name: 'Katana',
+    shortName: 'katana',
+    nativeCoinId: 'eth',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]

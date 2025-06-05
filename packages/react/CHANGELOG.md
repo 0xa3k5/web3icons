@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 4.0.14
+
+### Patch Changes
+
+- add Katana network
+- Updated dependencies
+  - @web3icons/common@0.11.11
+
 ## 4.0.13
 
 ### Patch Changes

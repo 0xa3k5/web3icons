@@ -1,5 +1,12 @@
 # @web3icons/utils
 
+## 0.3.12
+
+### Patch Changes
+
+- Updated dependencies
+  - @web3icons/common@0.11.11
+
 ## 0.3.11
 
 ### Patch Changes
