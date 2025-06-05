@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.11
+
+### Patch Changes
+
+- add Katana network
+
 ## 0.11.10
 
 ### Patch Changes

@@ -5109,6 +5109,7 @@ import * as NBrandedZyx from './svgs/networks/branded/zyx.svg'
 import * as NBrandedCronosZkevm from './svgs/networks/branded/cronos-zkevm.svg'
 import * as NBrandedApexLayer from './svgs/networks/branded/apex-layer.svg'
 import * as NBrandedLavaNetwork from './svgs/networks/branded/lava-network.svg'
+import * as NBrandedKatana from './svgs/networks/branded/katana.svg'
 import * as NBrandedCosmosHub from './svgs/networks/branded/cosmos-hub.svg'
 import * as NBrandedDiode from './svgs/networks/branded/diode.svg'
 import * as NBrandedMilkomedaC1 from './svgs/networks/branded/milkomeda-c1.svg'
@@ -5286,6 +5287,7 @@ import * as NMonoZyx from './svgs/networks/mono/zyx.svg'
 import * as NMonoCronosZkevm from './svgs/networks/mono/cronos-zkevm.svg'
 import * as NMonoApexLayer from './svgs/networks/mono/apex-layer.svg'
 import * as NMonoLavaNetwork from './svgs/networks/mono/lava-network.svg'
+import * as NMonoKatana from './svgs/networks/mono/katana.svg'
 import * as NMonoCosmosHub from './svgs/networks/mono/cosmos-hub.svg'
 import * as NMonoDiode from './svgs/networks/mono/diode.svg'
 import * as NMonoMilkomedaC1 from './svgs/networks/mono/milkomeda-c1.svg'
@@ -5461,6 +5463,7 @@ import * as NBackgroundZyx from './svgs/networks/background/zyx.svg'
 import * as NBackgroundCronosZkevm from './svgs/networks/background/cronos-zkevm.svg'
 import * as NBackgroundApexLayer from './svgs/networks/background/apex-layer.svg'
 import * as NBackgroundLavaNetwork from './svgs/networks/background/lava-network.svg'
+import * as NBackgroundKatana from './svgs/networks/background/katana.svg'
 import * as NBackgroundCosmosHub from './svgs/networks/background/cosmos-hub.svg'
 import * as NBackgroundDiode from './svgs/networks/background/diode.svg'
 import * as NBackgroundMilkomedaC1 from './svgs/networks/background/milkomeda-c1.svg'
@@ -10926,6 +10929,7 @@ export const svgs = {
       'cronos-zkevm': NBrandedCronosZkevm,
       'apex-layer': NBrandedApexLayer,
       'lava-network': NBrandedLavaNetwork,
+      katana: NBrandedKatana,
       'cosmos-hub': NBrandedCosmosHub,
       diode: NBrandedDiode,
       'milkomeda-c1': NBrandedMilkomedaC1,
@@ -11105,6 +11109,7 @@ export const svgs = {
       'cronos-zkevm': NMonoCronosZkevm,
       'apex-layer': NMonoApexLayer,
       'lava-network': NMonoLavaNetwork,
+      katana: NMonoKatana,
       'cosmos-hub': NMonoCosmosHub,
       diode: NMonoDiode,
       'milkomeda-c1': NMonoMilkomedaC1,
@@ -11282,6 +11287,7 @@ export const svgs = {
       'cronos-zkevm': NBackgroundCronosZkevm,
       'apex-layer': NBackgroundApexLayer,
       'lava-network': NBackgroundLavaNetwork,
+      katana: NBackgroundKatana,
       'cosmos-hub': NBackgroundCosmosHub,
       diode: NBackgroundDiode,
       'milkomeda-c1': NBackgroundMilkomedaC1,
