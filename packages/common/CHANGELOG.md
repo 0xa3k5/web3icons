@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.12
+
+### Patch Changes
+
+- add ozean network
+
 ## 0.11.11
 
 ### Patch Changes

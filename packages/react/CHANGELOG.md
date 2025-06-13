@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 4.0.15
+
+### Patch Changes
+
+- add ozean network
+- Updated dependencies
+  - @web3icons/common@0.11.12
+
 ## 4.0.14
 
 ### Patch Changes
