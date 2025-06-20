@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.13
+
+### Patch Changes
+
+- add status network
+
 ## 0.11.12
 
 ### Patch Changes

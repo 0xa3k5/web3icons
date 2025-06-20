@@ -1727,4 +1727,23 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'eth',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'ozean',
+    fileName: 'ozean',
+    chainId: 31911,
+    caip2id: 'eip155:31911',
+    name: 'Ozean',
+    shortName: 'ozean',
+    variants: ['background', 'branded', 'mono'],
+  },
+  {
+    id: 'status',
+    fileName: 'status',
+    chainId: 1660990954,
+    caip2id: 'eip155:1660990954',
+    name: 'Status',
+    shortName: 'status',
+    nativeCoinId: 'ETH',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]

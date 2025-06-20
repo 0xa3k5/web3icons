@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (179)](#networks)
+- [networks (181)](#networks)
 - [exchanges (26)](#exchanges)
 - [tokens (1824)](#tokens)
 
@@ -231,6 +231,8 @@ jump to section:
 | mega-eth            | Mega ETH                     | ✅      | ✅   | ✅         |
 | ultra               | Ultra                        | ✅      | ✅   | ✅         |
 | katana              | Katana                       | ✅      | ✅   | ✅         |
+| ozean               | Ozean                        | ✅      | ✅   | ✅         |
+| status              | Status                       | ✅      | ✅   | ✅         |
 
 ### Exchanges
 

@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.16
+
+### Patch Changes
+
+- add status network
+- Updated dependencies
+  - @web3icons/common@0.11.13
+
 ## 4.0.15
 
 ### Patch Changes

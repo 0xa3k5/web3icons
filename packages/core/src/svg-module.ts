@@ -5121,6 +5121,7 @@ import * as NBrandedKujira from './svgs/networks/branded/kujira.svg'
 import * as NBrandedAptos from './svgs/networks/branded/aptos.svg'
 import * as NBrandedCosmos from './svgs/networks/branded/cosmos.svg'
 import * as NBrandedHemi from './svgs/networks/branded/hemi.svg'
+import * as NBrandedOzean from './svgs/networks/branded/ozean.svg'
 import * as NBrandedProm from './svgs/networks/branded/prom.svg'
 import * as NBrandedMoonbase from './svgs/networks/branded/moonbase.svg'
 import * as NBrandedAlgorand from './svgs/networks/branded/algorand.svg'
@@ -5253,6 +5254,7 @@ import * as NBrandedSilicon from './svgs/networks/branded/silicon.svg'
 import * as NBrandedSeiNetwork from './svgs/networks/branded/sei-network.svg'
 import * as NBrandedMilkomedaA1 from './svgs/networks/branded/milkomeda-a1.svg'
 import * as NBrandedShimmerEvm from './svgs/networks/branded/shimmer-evm.svg'
+import * as NBrandedStatus from './svgs/networks/branded/status.svg'
 import * as NBrandedTelos from './svgs/networks/branded/telos.svg'
 import * as NBrandedLycan from './svgs/networks/branded/lycan.svg'
 import * as NBrandedCelo from './svgs/networks/branded/celo.svg'
@@ -5299,6 +5301,7 @@ import * as NMonoKujira from './svgs/networks/mono/kujira.svg'
 import * as NMonoAptos from './svgs/networks/mono/aptos.svg'
 import * as NMonoCosmos from './svgs/networks/mono/cosmos.svg'
 import * as NMonoHemi from './svgs/networks/mono/hemi.svg'
+import * as NMonoOzean from './svgs/networks/mono/ozean.svg'
 import * as NMonoProm from './svgs/networks/mono/prom.svg'
 import * as NMonoMoonbase from './svgs/networks/mono/moonbase.svg'
 import * as NMonoAlgorand from './svgs/networks/mono/algorand.svg'
@@ -5428,6 +5431,7 @@ import * as NMonoSilicon from './svgs/networks/mono/silicon.svg'
 import * as NMonoSeiNetwork from './svgs/networks/mono/sei-network.svg'
 import * as NMonoMilkomedaA1 from './svgs/networks/mono/milkomeda-a1.svg'
 import * as NMonoShimmerEvm from './svgs/networks/mono/shimmer-evm.svg'
+import * as NMonoStatus from './svgs/networks/mono/status.svg'
 import * as NMonoTelos from './svgs/networks/mono/telos.svg'
 import * as NMonoLycan from './svgs/networks/mono/lycan.svg'
 import * as NMonoCelo from './svgs/networks/mono/celo.svg'
@@ -5475,6 +5479,7 @@ import * as NBackgroundKujira from './svgs/networks/background/kujira.svg'
 import * as NBackgroundAptos from './svgs/networks/background/aptos.svg'
 import * as NBackgroundCosmos from './svgs/networks/background/cosmos.svg'
 import * as NBackgroundHemi from './svgs/networks/background/hemi.svg'
+import * as NBackgroundOzean from './svgs/networks/background/ozean.svg'
 import * as NBackgroundProm from './svgs/networks/background/prom.svg'
 import * as NBackgroundMoonbase from './svgs/networks/background/moonbase.svg'
 import * as NBackgroundAlgorand from './svgs/networks/background/algorand.svg'
@@ -5607,6 +5612,7 @@ import * as NBackgroundSilicon from './svgs/networks/background/silicon.svg'
 import * as NBackgroundSeiNetwork from './svgs/networks/background/sei-network.svg'
 import * as NBackgroundMilkomedaA1 from './svgs/networks/background/milkomeda-a1.svg'
 import * as NBackgroundShimmerEvm from './svgs/networks/background/shimmer-evm.svg'
+import * as NBackgroundStatus from './svgs/networks/background/status.svg'
 import * as NBackgroundTelos from './svgs/networks/background/telos.svg'
 import * as NBackgroundLycan from './svgs/networks/background/lycan.svg'
 import * as NBackgroundCelo from './svgs/networks/background/celo.svg'
@@ -10941,6 +10947,7 @@ export const svgs = {
       aptos: NBrandedAptos,
       cosmos: NBrandedCosmos,
       hemi: NBrandedHemi,
+      ozean: NBrandedOzean,
       prom: NBrandedProm,
       moonbase: NBrandedMoonbase,
       algorand: NBrandedAlgorand,
@@ -11073,6 +11080,7 @@ export const svgs = {
       'sei-network': NBrandedSeiNetwork,
       'milkomeda-a1': NBrandedMilkomedaA1,
       'shimmer-evm': NBrandedShimmerEvm,
+      status: NBrandedStatus,
       telos: NBrandedTelos,
       lycan: NBrandedLycan,
       celo: NBrandedCelo,
@@ -11121,6 +11129,7 @@ export const svgs = {
       aptos: NMonoAptos,
       cosmos: NMonoCosmos,
       hemi: NMonoHemi,
+      ozean: NMonoOzean,
       prom: NMonoProm,
       moonbase: NMonoMoonbase,
       algorand: NMonoAlgorand,
@@ -11250,6 +11259,7 @@ export const svgs = {
       'sei-network': NMonoSeiNetwork,
       'milkomeda-a1': NMonoMilkomedaA1,
       'shimmer-evm': NMonoShimmerEvm,
+      status: NMonoStatus,
       telos: NMonoTelos,
       lycan: NMonoLycan,
       celo: NMonoCelo,
@@ -11299,6 +11309,7 @@ export const svgs = {
       aptos: NBackgroundAptos,
       cosmos: NBackgroundCosmos,
       hemi: NBackgroundHemi,
+      ozean: NBackgroundOzean,
       prom: NBackgroundProm,
       moonbase: NBackgroundMoonbase,
       algorand: NBackgroundAlgorand,
@@ -11431,6 +11442,7 @@ export const svgs = {
       'sei-network': NBackgroundSeiNetwork,
       'milkomeda-a1': NBackgroundMilkomedaA1,
       'shimmer-evm': NBackgroundShimmerEvm,
+      status: NBackgroundStatus,
       telos: NBackgroundTelos,
       lycan: NBackgroundLycan,
       celo: NBackgroundCelo,
