@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.14
+
+### Patch Changes
+
+- use unichain mainnet chainid instead of testnet
+
 ## 0.11.13
 
 ### Patch Changes

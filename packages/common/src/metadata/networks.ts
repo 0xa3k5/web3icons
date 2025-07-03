@@ -804,8 +804,8 @@ export const networks: INetworkMetadata[] = [
   {
     id: 'unichain',
     fileName: 'unichain',
-    chainId: 1301,
-    caip2id: 'eip155:1301',
+    chainId: 130,
+    caip2id: 'eip155:130',
     name: 'Unichain',
     shortName: 'uni',
     nativeCoinId: 'eth',
