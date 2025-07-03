@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 4.0.17
+
+### Patch Changes
+
+- use unichain mainnet chainid instead of testnet
+- Updated dependencies
+  - @web3icons/common@0.11.14
+
 ## 4.0.16
 
 ### Patch Changes
