@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 4.0.18
+
+### Patch Changes
+
+- fix memecoin token icon
+- Updated dependencies
+  - @web3icons/common@0.11.15
+
 ## 4.0.17
 
 ### Patch Changes

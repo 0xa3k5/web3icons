@@ -2098,6 +2098,7 @@ import * as TMonoAVT from './svgs/tokens/mono/AVT.svg'
 import * as TMonoAVINOC from './svgs/tokens/mono/AVINOC.svg'
 import * as TMonoBTSE from './svgs/tokens/mono/BTSE.svg'
 import * as TMonoSFP from './svgs/tokens/mono/SFP.svg'
+import * as TMonoMEME from './svgs/tokens/mono/MEME.svg'
 import * as TMonoCAH from './svgs/tokens/mono/CAH.svg'
 import * as TMonoLEO from './svgs/tokens/mono/LEO.svg'
 import * as TMonoFNSA from './svgs/tokens/mono/FNSA.svg'
@@ -7918,6 +7919,7 @@ export const svgs = {
       AVINOC: TMonoAVINOC,
       BTSE: TMonoBTSE,
       SFP: TMonoSFP,
+      MEME: TMonoMEME,
       CAH: TMonoCAH,
       LEO: TMonoLEO,
       FNSA: TMonoFNSA,
