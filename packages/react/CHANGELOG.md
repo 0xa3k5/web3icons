@@ -1,5 +1,11 @@
 # @web3icons/react
 
+## 4.0.19
+
+### Patch Changes
+
+- fix missed build
+
 ## 4.0.18
 
 ### Patch Changes
