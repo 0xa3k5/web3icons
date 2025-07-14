@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" width="24" height="24">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: white;
+      }
+    </style>
+  </defs>
+  <g id="Layer_11" data-name="Layer_1">
+    <g>
+      <path class="st0" d="M3.7,5.5h-1.8v12.9h1.8V5.5h0Z"/>
+      <path class="st0" d="M7.4,3.7h11.1v-1.8H5.5v1.8h1.8,0Z"/>
+      <rect class="st0" x="3.7" y="3.7" width="1.8" height="1.8"/>
+      <rect class="st0" x="18.5" y="3.7" width="1.8" height="1.8"/>
+      <path class="st0" d="M16.6,7.4h-3.7v1.8h-1.8v-1.8h-3.7v9.2h1.8v-3.7h1.8v1.8h1.8v-1.8h1.8v3.7h1.8V7.4h0Z"/>
+      <rect class="st0" x="3.7" y="18.5" width="1.8" height="1.8"/>
+      <path class="st0" d="M16.6,20.3H5.5v1.8h12.9v-1.8h-1.8Z"/>
+      <path class="st0" d="M20.3,5.5v12.9h1.8V5.5h-1.8Z"/>
+      <rect class="st0" x="18.5" y="18.5" width="1.8" height="1.8"/>
+      <path d="M18.5,1.8V0H5.5v1.8h12.9Z"/>
+      <rect x="3.7" y="1.8" width="1.8" height="1.8"/>
+      <rect x="18.5" y="1.8" width="1.8" height="1.8"/>
+      <rect x="1.8" y="3.7" width="1.8" height="1.8"/>
+      <path d="M18.5,3.7H5.5v1.8h-1.8v12.9h1.8v1.8h12.9v-1.8h1.8V5.5h-1.8v-1.8ZM14.8,16.6v-3.7h-1.8v1.8h-1.8v-1.8h-1.8v3.7h-1.8V7.4h3.7v1.8h1.8v-1.8h3.7v9.2h-1.8Z"/>
+      <rect x="20.3" y="3.7" width="1.8" height="1.8"/>
+      <path d="M22.2,5.5v12.9h1.8V5.5h-1.8Z"/>
+      <path d="M1.8,5.5H0v12.9h1.8V5.5h0Z"/>
+      <rect x="1.8" y="18.5" width="1.8" height="1.8"/>
+      <rect x="20.3" y="18.5" width="1.8" height="1.8"/>
+      <rect x="3.7" y="20.3" width="1.8" height="1.8"/>
+      <rect x="18.5" y="20.3" width="1.8" height="1.8"/>
+      <path d="M5.5,22.2v1.8h12.9v-1.8H5.5Z"/>
+    </g>
+  </g>
+</svg>
