@@ -1213,7 +1213,7 @@ jump to section:
 | MELD                                   | meld        | ✅      | ❌   | ✅         |
 | Enzyme                                 | mln         | ✅      | ✅   | ✅         |
 | Meme AI Coin                           | memeai      | ✅      | ❌   | ✅         |
-| Memecoin                               | meme        | ✅      | ❌   | ✅         |
+| Memecoin                               | meme        | ✅      | ✅   | ✅         |
 | Meridian MST                           | mst         | ✅      | ✅   | ✅         |
 | Merit Circle                           | mc          | ✅      | ✅   | ✅         |
 | MESSIER                                | m87         | ❌      | ✅   | ❌         |

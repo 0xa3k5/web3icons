@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.15
+
+### Patch Changes
+
+- fix memecoin token icon
+
 ## 0.11.14
 
 ### Patch Changes

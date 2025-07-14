@@ -1,37 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" width="24" height="24">
-  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
-  <defs>
-    <style>
-      .st0 {
-        fill: white;
-      }
-    </style>
-  </defs>
-  <g id="Layer_11" data-name="Layer_1">
-    <g>
-      <path class="st0" d="M3.7,5.5h-1.8v12.9h1.8V5.5h0Z"/>
-      <path class="st0" d="M7.4,3.7h11.1v-1.8H5.5v1.8h1.8,0Z"/>
-      <rect class="st0" x="3.7" y="3.7" width="1.8" height="1.8"/>
-      <rect class="st0" x="18.5" y="3.7" width="1.8" height="1.8"/>
-      <path class="st0" d="M16.6,7.4h-3.7v1.8h-1.8v-1.8h-3.7v9.2h1.8v-3.7h1.8v1.8h1.8v-1.8h1.8v3.7h1.8V7.4h0Z"/>
-      <rect class="st0" x="3.7" y="18.5" width="1.8" height="1.8"/>
-      <path class="st0" d="M16.6,20.3H5.5v1.8h12.9v-1.8h-1.8Z"/>
-      <path class="st0" d="M20.3,5.5v12.9h1.8V5.5h-1.8Z"/>
-      <rect class="st0" x="18.5" y="18.5" width="1.8" height="1.8"/>
-      <path d="M18.5,1.8V0H5.5v1.8h12.9Z"/>
-      <rect x="3.7" y="1.8" width="1.8" height="1.8"/>
-      <rect x="18.5" y="1.8" width="1.8" height="1.8"/>
-      <rect x="1.8" y="3.7" width="1.8" height="1.8"/>
-      <path d="M18.5,3.7H5.5v1.8h-1.8v12.9h1.8v1.8h12.9v-1.8h1.8V5.5h-1.8v-1.8ZM14.8,16.6v-3.7h-1.8v1.8h-1.8v-1.8h-1.8v3.7h-1.8V7.4h3.7v1.8h1.8v-1.8h3.7v9.2h-1.8Z"/>
-      <rect x="20.3" y="3.7" width="1.8" height="1.8"/>
-      <path d="M22.2,5.5v12.9h1.8V5.5h-1.8Z"/>
-      <path d="M1.8,5.5H0v12.9h1.8V5.5h0Z"/>
-      <rect x="1.8" y="18.5" width="1.8" height="1.8"/>
-      <rect x="20.3" y="18.5" width="1.8" height="1.8"/>
-      <rect x="3.7" y="20.3" width="1.8" height="1.8"/>
-      <rect x="18.5" y="20.3" width="1.8" height="1.8"/>
-      <path d="M5.5,22.2v1.8h12.9v-1.8H5.5Z"/>
-    </g>
-  </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.60397 6.20801H3V17.7031H4.60397V6.20801Z" fill="white"/>
+<path d="M7.90109 4.60397H17.7922V3H6.20801V4.60397H7.81198H7.90109Z" fill="white"/>
+<path d="M6.20797 4.604H4.604V6.20797H6.20797V4.604Z" fill="white"/>
+<path d="M19.396 4.604H17.792V6.20797H19.396V4.604Z" fill="white"/>
+<path d="M12.8019 9.50485V7.90088H15.9207V16.0989H14.3168V12.8019H12.7128V14.4059H11.1088V12.8019H9.50485V16.0989H7.90088V7.90088H11.1979V9.50485H12.8019Z" fill="white"/>
+<path d="M6.20797 17.792H4.604V19.396H6.20797V17.792Z" fill="white"/>
+<path d="M16.0991 19.396H6.20801V21H17.7031V19.396H16.0991Z" fill="white"/>
+<path d="M19.396 6.20801V17.7031H21V6.20801H19.396Z" fill="white"/>
+<path d="M19.396 17.792H17.792V19.396H19.396V17.792Z" fill="white"/>
 </svg>

@@ -10976,7 +10976,7 @@ export const tokens: ITokenMetadata[] = [
     variants: ['branded', 'background'],
   },
   {
-    id: 'memecoin-2',
+    id: 'memecoin',
     fileName: 'MEME',
     symbol: 'meme',
     name: 'Memecoin',
@@ -10984,7 +10984,7 @@ export const tokens: ITokenMetadata[] = [
     addresses: {
       ethereum: '0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74',
     },
-    variants: ['branded', 'background'],
+    variants: ['branded', 'mono', 'background'],
   },
   {
     id: 'meridian-mst',
