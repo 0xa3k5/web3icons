@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import { AppContextProvider } from '../hooks'
 import { Analytics } from '@vercel/analytics/react'
 import { Suspense } from 'react'
+import { ClerkProvider } from '@clerk/nextjs'
+import { Header } from '../components/header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -42,15 +44,18 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <Suspense>
-        <AppContextProvider>
-          <body className={inter.className}>
-            {children}
-            <Analytics />
-          </body>
-        </AppContextProvider>
-      </Suspense>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <Suspense>
+          <AppContextProvider>
+            <body className={`${inter.className} mx-auto max-w-screen-lg`}>
+              <Header />
+              {children}
+              <Analytics />
+            </body>
+          </AppContextProvider>
+        </Suspense>
+      </html>
+    </ClerkProvider>
   )
 }

@@ -2,35 +2,9 @@
 import { useEffect, useState } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { TType, TMetadata, TVariant } from '@web3icons/common'
-import {
-  ControlBar,
-  IconCard,
-  Drawer,
-  CodeBlock,
-  Logo,
-  Tabs,
-} from '../components'
+import { ControlBar, IconCard, Drawer, CodeBlock, Tabs } from '../components'
 import { useAppContext } from '../hooks'
 import SegmentedControl from '../components/ControlBar/SegmentedControl'
-
-const links = [
-  {
-    name: 'github',
-    href: 'https://github.com/0xa3k5/web3icons',
-  },
-  {
-    name: 'npmjs',
-    href: 'https://www.npmjs.com/package/@web3icons/react',
-  },
-  {
-    name: 'figma plugin',
-    href: 'https://figma.com/community/plugin/1170720285035693761',
-  },
-  {
-    name: 'figma file',
-    href: 'https://www.figma.com/community/file/1355517329090639687/token-icons-community',
-  },
-]
 
 export default function Home() {
   const router = useRouter()
@@ -67,26 +41,7 @@ export default function Home() {
   }, [activeTabParam])
 
   return (
-    <main className="container mx-auto flex h-screen flex-col gap-4 p-4 font-mono sm:px-8 sm:py-16 md:gap-16">
-      <div className="flex w-full flex-col items-start justify-between gap-4 md:flex-row">
-        <Logo />
-        <nav className="flex flex-wrap gap-4">
-          {links.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              target="_blank"
-              rel="noreferrer"
-              className="group flex items-center gap-4 whitespace-nowrap text-white"
-            >
-              <span className="text-white/40 group-hover:text-white/100">
-                {link.name}
-              </span>
-              <span className="group-last-of-type:hidden">/</span>
-            </a>
-          ))}
-        </nav>
-      </div>
+    <main className="container mx-auto flex h-screen flex-col gap-4 font-mono sm:py-16 md:gap-16">
       <div className="flex max-w-2xl flex-col gap-4">
         <h1 className="max-w-40 text-4xl tracking-widest">web3 icons</h1>
         <span className="text-white/40">

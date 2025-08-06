@@ -9,7 +9,6 @@ module.exports = {
     'prettier',
     require.resolve('@vercel/style-guide/eslint/next'),
     'plugin:prettier/recommended',
-    'plugin:tailwindcss/recommended',
   ],
   globals: {
     React: true,
