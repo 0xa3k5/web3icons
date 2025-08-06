@@ -5,6 +5,7 @@ import { config } from 'dotenv'
 import healthRoutes from './routes/health'
 import iconRoutes from './routes/icons'
 import metadataRoutes from './routes/metadata'
+import managementRoutes from './routes/management'
 import { authMiddleware } from './middleware/auth'
 
 config({ path: '../../.env.local' })
@@ -13,11 +14,12 @@ const app = new Hono()
 
 app.use('*', cors({
   origin: '*',
-  allowMethods: ['GET', 'OPTIONS'],
-  allowHeaders: ['Content-Type', 'X-API-Key'],
+  allowMethods: ['GET', 'POST', 'DELETE', 'OPTIONS'],
+  allowHeaders: ['Content-Type', 'X-API-Key', 'x-clerk-user-id'],
 }))
 
 app.route('/health', healthRoutes)
+app.route('/management', managementRoutes)
 
 // protected routes require API key
 app.use('/v1/*', authMiddleware)
