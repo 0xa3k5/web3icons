@@ -21,13 +21,16 @@
     "delete-icons": "bun run ./packages/utils/src/scripts/cli/delete-icons.ts",
     "generate-icons-md": "bun run ./packages/utils/src/scripts/generate-icons-md.ts",
     "update-gecko-networks": "bun run ./packages/utils/src/scripts/gecko/get-networks.ts",
-    "update-gecko-coins": "bun run ./packages/utils/src/scripts/gecko/get-coins.ts"
+    "update-gecko-coins": "bun run ./packages/utils/src/scripts/gecko/get-coins.ts",
+    "cdn:sync": "bun run ./scripts/sync-to-r2.ts"
   },
   "devDependencies": {
     "@web3icons/eslint-config": "*",
     "prettier": "^3.3.3",
     "turbo": "v2.0.11",
-    "@changesets/cli": "^2.27.7"
+    "@changesets/cli": "^2.27.7",
+    "@aws-sdk/client-s3": "^3.478.0",
+    "dotenv": "^17.2.1"
   },
   "engines": {
     "node": ">=18"
