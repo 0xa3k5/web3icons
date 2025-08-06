@@ -1,12 +1,12 @@
 'use client'
 import { Drawer as _Drawer } from 'vaul'
-import { scaffoldComponent } from '../../utils/jsx-scaffold'
-import { useAppContext } from '../../hooks'
+import { scaffoldComponent } from '../utils/jsx-scaffold'
+import { useAppContext } from '../hooks'
 import { PropsWithChildren, useEffect, useState } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { ITokenMetadata, TMetadata, TVariant } from '@web3icons/common'
-import { fetchSvgContent } from '../../utils/fetch-svg-content'
-import { CodeBlock, DescriptionList, Web3Icon } from '..'
+import { fetchSvgContent } from '../utils/fetch-svg-content'
+import { CodeBlock, DescriptionList, Web3Icon } from '.'
 
 interface Props {
   metadata: TMetadata

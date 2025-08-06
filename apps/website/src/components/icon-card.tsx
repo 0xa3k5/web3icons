@@ -1,7 +1,7 @@
 'use client'
 import cx from 'classnames'
 import { useAppContext } from '../hooks'
-import { Web3Icon } from './Web3Icon'
+import { Web3Icon } from './web3-icon'
 import { TMetadata, ITokenMetadata } from '@web3icons/common'
 
 interface Props {

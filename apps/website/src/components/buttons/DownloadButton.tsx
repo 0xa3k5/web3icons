@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useEffect, PropsWithChildren } from 'react'
-import Tooltip from '../Tooltip'
+import Tooltip from '../tooltip'
 import { saveAs } from 'file-saver'
 import cx from 'classnames'
 

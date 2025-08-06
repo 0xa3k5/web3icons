@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react'
 import { CopyButton } from '../buttons'
 import { highlight, type Language } from '.'
-import Tabs from '../Tabs'
+import Tabs from '../tabs'
 
 interface Tab {
   label: string

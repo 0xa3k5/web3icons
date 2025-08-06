@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect, PropsWithChildren } from 'react'
-import Tooltip from '../Tooltip'
+import Tooltip from '../tooltip'
 import Button from './Button'
 
 interface Props {

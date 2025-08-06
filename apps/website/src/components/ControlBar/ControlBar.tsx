@@ -3,7 +3,7 @@ import Slider from './Slider'
 import SegmentedControl from './SegmentedControl'
 import ColorSlider from './ColorSlider'
 import { useAppContext } from '../../hooks'
-import SearchInput from '../SearchInput'
+import SearchInput from '../search-input'
 import { TVariant } from '@web3icons/common'
 import cx from 'classnames'
 
