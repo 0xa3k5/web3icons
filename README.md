@@ -18,7 +18,7 @@ Web3 Icons is the most comprehensive and up-to-date source for tokens, coins, ne
 
 ### Website
 
-The Web3 Icons website ([https://tokenicons.io](https://tokenicons.io/)) provides a searchable collection of all available icons. You can browse, search, and download icons directly from the website.
+The Web3 Icons website ([https://web3icons.io](https://web3icons.io/)) provides a searchable collection of all available icons. You can browse, search, and download icons directly from the website.
 
 ### Contributing
 
@@ -29,7 +29,7 @@ We welcome contributions to `web3icons`! If you'd like to contribute, please ref
 - [`@web3icons/core`](https://github.com/0xa3k5/web3icons/tree/main/packages/core): npm package that serves optimized svgs as svg files
 - [`@web3icons/react`](https://github.com/0xa3k5/web3icons/tree/main/packages/react): React components for web3 icons
 - [`@web3icons/utils`](https://github.com/0xa3k5/web3icons/tree/main/packages/utils): Private utility and build scripts for the monorepo
-- [`apps/website`](https://github.com/0xa3k5/web3icons/tree/main/apps/website): Next.js app for https://tokenicons.io
+- [`apps/website`](https://github.com/0xa3k5/web3icons/tree/main/apps/website): Next.js app for https://web3icons.io
 - [`apps/figma-plugin`](https://github.com/0xa3k5/web3icons/tree/main/apps/figma-plugin): Figma plugin for web3 icons
 
 ---
