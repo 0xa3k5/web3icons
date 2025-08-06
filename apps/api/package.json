@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "hono": "^4.0.0",
-    "@hono/cors": "^1.0.0",
     "@web3icons/common": "0.11.15",
     "dotenv": "^16.4.5"
   },
