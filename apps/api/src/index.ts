@@ -5,6 +5,7 @@ import { config } from 'dotenv'
 import healthRoutes from './routes/health'
 import iconRoutes from './routes/icons'
 import metadataRoutes from './routes/metadata'
+import { authMiddleware } from './middleware/auth'
 
 config({ path: '../../.env.local' })
 
