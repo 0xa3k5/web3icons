@@ -18,6 +18,9 @@ app.use('*', cors({
 }))
 
 app.route('/health', healthRoutes)
+
+// protected routes require API key
+app.use('/v1/*', authMiddleware)
 app.route('/v1/icons', iconRoutes)
 app.route('/v1/metadata', metadataRoutes)
 
