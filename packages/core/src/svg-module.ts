@@ -1295,6 +1295,7 @@ import * as TBrandedLOOKS from './svgs/tokens/branded/LOOKS.svg'
 import * as TBrandedEURT from './svgs/tokens/branded/EURT.svg'
 import * as TBrandedBETA from './svgs/tokens/branded/BETA.svg'
 import * as TBrandedEVMOS from './svgs/tokens/branded/EVMOS.svg'
+import * as TBrandedEURC from './svgs/tokens/branded/EURC.svg'
 import * as TBrandedPINKSALE from './svgs/tokens/branded/PINKSALE.svg'
 import * as TBrandedRDD from './svgs/tokens/branded/RDD.svg'
 import * as TBrandedXAUR from './svgs/tokens/branded/XAUR.svg'
@@ -2891,6 +2892,7 @@ import * as TMonoLOOKS from './svgs/tokens/mono/LOOKS.svg'
 import * as TMonoEURT from './svgs/tokens/mono/EURT.svg'
 import * as TMonoBETA from './svgs/tokens/mono/BETA.svg'
 import * as TMonoEVMOS from './svgs/tokens/mono/EVMOS.svg'
+import * as TMonoEURC from './svgs/tokens/mono/EURC.svg'
 import * as TMonoPINKSALE from './svgs/tokens/mono/PINKSALE.svg'
 import * as TMonoRDD from './svgs/tokens/mono/RDD.svg'
 import * as TMonoXAUR from './svgs/tokens/mono/XAUR.svg'
@@ -4605,6 +4607,7 @@ import * as TBackgroundLOOKS from './svgs/tokens/background/LOOKS.svg'
 import * as TBackgroundEURT from './svgs/tokens/background/EURT.svg'
 import * as TBackgroundBETA from './svgs/tokens/background/BETA.svg'
 import * as TBackgroundEVMOS from './svgs/tokens/background/EVMOS.svg'
+import * as TBackgroundEURC from './svgs/tokens/background/EURC.svg'
 import * as TBackgroundPINKSALE from './svgs/tokens/background/PINKSALE.svg'
 import * as TBackgroundRDD from './svgs/tokens/background/RDD.svg'
 import * as TBackgroundXAUR from './svgs/tokens/background/XAUR.svg'
@@ -7114,6 +7117,7 @@ export const svgs = {
       EURT: TBrandedEURT,
       BETA: TBrandedBETA,
       EVMOS: TBrandedEVMOS,
+      EURC: TBrandedEURC,
       PINKSALE: TBrandedPINKSALE,
       RDD: TBrandedRDD,
       XAUR: TBrandedXAUR,
@@ -8712,6 +8716,7 @@ export const svgs = {
       EURT: TMonoEURT,
       BETA: TMonoBETA,
       EVMOS: TMonoEVMOS,
+      EURC: TMonoEURC,
       PINKSALE: TMonoPINKSALE,
       RDD: TMonoRDD,
       XAUR: TMonoXAUR,
@@ -10428,6 +10433,7 @@ export const svgs = {
       EURT: TBackgroundEURT,
       BETA: TBackgroundBETA,
       EVMOS: TBackgroundEVMOS,
+      EURC: TBackgroundEURC,
       PINKSALE: TBackgroundPINKSALE,
       RDD: TBackgroundRDD,
       XAUR: TBackgroundXAUR,
