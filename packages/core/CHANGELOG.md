@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.20
+
+### Patch Changes
+
+- add EURC token
+- Updated dependencies
+  - @web3icons/common@0.11.16
+
 ## 4.0.18
 
 ### Patch Changes

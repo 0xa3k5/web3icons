@@ -3,7 +3,7 @@ jump to section:
 - [wallets (38)](#wallets)
 - [networks (181)](#networks)
 - [exchanges (26)](#exchanges)
-- [tokens (1824)](#tokens)
+- [tokens (1825)](#tokens)
 
 ### Wallets
 
@@ -2093,3 +2093,4 @@ jump to section:
 | Swell                                  | SWELL       | ✅      | ✅   | ✅         |
 | ARI                                    | ARI         | ✅      | ✅   | ✅         |
 | peaq                                   | PEAQ        | ✅      | ✅   | ✅         |
+| EURC                                   | EURC        | ✅      | ✅   | ✅         |
