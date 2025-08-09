@@ -21259,4 +21259,19 @@ export const tokens: ITokenMetadata[] = [
       ethereum: '0x408480574c803D05a0244b479c5020a97f546c51',
     },
   },
+  {
+    id: 'EURC',
+    name: 'EURC',
+    variants: ['background', 'branded', 'mono'],
+    fileName: 'EURC',
+    symbol: 'EURC',
+    marketCapRank: 0,
+    addresses: {
+      ethereum: '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c',
+      avalanche: '0xC891EB4cbdEFf6e073e859e987815Ed1505c2ACD',
+      solana: 'HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr',
+      stellar: 'EURC-GDHU6WRG4IEQXM5NZ4BMPKOXHW76MZM4Y2IEMFDVXBSDP6SJY4ITNPP2',
+      base: '0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42',
+    },
+  },
 ]
