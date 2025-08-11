@@ -9,15 +9,18 @@ export default function DashboardLayout({
   return (
     <>
       <SignedIn>
-        <div className="min-h-screen bg-gray-darkest text-white font-mono">
-          <div className="container mx-auto px-4 sm:px-8 py-8">
+        <div className="min-h-screen bg-gray-darkest font-mono text-white">
+          <div className="mx-auto px-4 py-8 sm:px-8">
             <div className="mb-8 flex items-center justify-between">
               <div>
-                <Link href="/" className="text-white/40 hover:text-white duration-150">
+                <Link
+                  href="/"
+                  className="text-white/40 duration-150 hover:text-white"
+                >
                   ← back to icons
                 </Link>
-                <h1 className="text-3xl font-mono mt-4">api dashboard</h1>
-                <span className="text-white/40 mt-2 block">
+                <h1 className="mt-4 font-mono text-3xl">api dashboard</h1>
+                <span className="mt-2 block text-white/40">
                   manage your web3icons api keys and monitor usage
                 </span>
               </div>
@@ -26,7 +29,7 @@ export default function DashboardLayout({
           </div>
         </div>
       </SignedIn>
-      
+
       <SignedOut>
         <RedirectToSignIn />
       </SignedOut>

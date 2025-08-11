@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { CopyButton } from '../buttons'
 import { highlight, type Language } from '.'
 import Tabs from '../tabs'
+import cx from 'classnames'
 
 interface Tab {
   label: string
@@ -13,11 +14,13 @@ interface Tab {
 interface Props {
   lineNumbers?: boolean
   tabs: Tab[]
+  classNames?: string
 }
 
 export default function CodeBlock({
   lineNumbers = true,
   tabs,
+  classNames,
 }: Props): JSX.Element {
   const [lines, setLines] = useState<{ content: string; style: any }[][]>([])
   const [activeTab, setActiveTab] = useState<Tab>(tabs[0]!)
@@ -51,7 +54,12 @@ export default function CodeBlock({
   }, [tabs])
 
   return (
-    <div className="group flex w-full flex-col overflow-hidden rounded-lg border border-gray-lightest font-mono text-sm">
+    <div
+      className={cx(
+        classNames,
+        `group flex w-full flex-col overflow-hidden rounded-lg border border-gray-lightest font-mono text-sm`,
+      )}
+    >
       <div className="flex items-center justify-between border-b border-gray-lightest bg-gray-darkest">
         <Tabs
           tabs={tabs.map((tab) => tab.label)}

@@ -2,7 +2,6 @@ import '../globals.css'
 import { Inter } from 'next/font/google'
 import { AppContextProvider } from '../hooks'
 import { Analytics } from '@vercel/analytics/react'
-import { Suspense } from 'react'
 import { ClerkProvider } from '@clerk/nextjs'
 import { Header } from '../components/header'
 
@@ -46,15 +45,13 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <Suspense>
-          <AppContextProvider>
-            <body className={`${inter.className} mx-auto max-w-screen-lg`}>
-              <Header />
-              {children}
-              <Analytics />
-            </body>
-          </AppContextProvider>
-        </Suspense>
+        <AppContextProvider>
+          <body className={`${inter.className} mx-auto max-w-screen-2xl`}>
+            <Header />
+            {children}
+            <Analytics />
+          </body>
+        </AppContextProvider>
       </html>
     </ClerkProvider>
   )
