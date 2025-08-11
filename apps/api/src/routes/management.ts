@@ -142,12 +142,12 @@ management.get('/usage', async (c) => {
         requests: 0,
         remaining: 1000,
         percentUsed: 0,
-        dailyLimit: 1000
+        dailyLimit: 1000,
       })
     }
 
     // get usage for all user's api keys today
-    const apiKeyIds = apiKeys.map(k => k.id)
+    const apiKeyIds = apiKeys.map((k) => k.id)
     const { data: usageData, error: usageError } = await supabase
       .from('usage_daily')
       .select('total_requests')
@@ -160,7 +160,10 @@ management.get('/usage', async (c) => {
     }
 
     // sum up total requests across all api keys
-    const requestsToday = (usageData || []).reduce((sum, row) => sum + (row.total_requests || 0), 0)
+    const requestsToday = (usageData || []).reduce(
+      (sum, row) => sum + (row.total_requests || 0),
+      0,
+    )
     const dailyLimit = 1000 // free tier limit
     const remaining = Math.max(0, dailyLimit - requestsToday)
     const percentUsed = Math.round((requestsToday / dailyLimit) * 100)

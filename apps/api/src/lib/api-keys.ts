@@ -61,9 +61,7 @@ export async function validateApiKey(key: string): Promise<ApiKey | null> {
   return null
 }
 
-export async function checkRateLimit(
-  apiKeyId: string,
-): Promise<{
+export async function checkRateLimit(apiKeyId: string): Promise<{
   allowed: boolean
   limit: number
   remaining: number
