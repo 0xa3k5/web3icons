@@ -1,0 +1,102 @@
+import React, { forwardRef } from 'react'
+import cx from 'classnames'
+
+export interface InputProps
+  extends React.InputHTMLAttributes<HTMLInputElement> {
+  label?: string
+  error?: string
+  helperText?: string
+  leftIcon?: React.ReactNode
+  rightIcon?: React.ReactNode
+  containerClassName?: string
+}
+
+const Input = forwardRef<HTMLInputElement, InputProps>(
+  (
+    {
+      className,
+      containerClassName,
+      label,
+      error,
+      helperText,
+      leftIcon,
+      rightIcon,
+      id,
+      required,
+      ...props
+    },
+    ref,
+  ) => {
+    const inputId = id || `input-${Math.random().toString(36).slice(2, 9)}`
+
+    return (
+      <div className={cx('w-full', containerClassName)}>
+        {label && (
+          <label
+            htmlFor={inputId}
+            className="mb-2 block text-sm font-medium text-white/80"
+          >
+            {label}
+            {required && <span className="text-red-400 ml-1">*</span>}
+          </label>
+        )}
+
+        <div className="relative">
+          {leftIcon && (
+            <div className="absolute left-3 top-1/2 -translate-y-1/2 text-white/60">
+              {leftIcon}
+            </div>
+          )}
+
+          <input
+            ref={ref}
+            id={inputId}
+            className={cx(
+              'w-full border border-gray-lightest bg-gray px-3 py-2 text-sm text-white placeholder:text-white/40 focus:border-white/40 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50',
+              leftIcon && 'pl-10',
+              rightIcon && 'pr-10',
+              error && 'border-red-400 focus:border-red-400',
+              className,
+            )}
+            aria-invalid={error ? 'true' : 'false'}
+            aria-describedby={
+              error
+                ? `${inputId}-error`
+                : helperText
+                  ? `${inputId}-helper`
+                  : undefined
+            }
+            required={required}
+            {...props}
+          />
+
+          {rightIcon && (
+            <div className="absolute right-3 top-1/2 -translate-y-1/2 text-white/60">
+              {rightIcon}
+            </div>
+          )}
+        </div>
+
+        {error && (
+          <p
+            id={`${inputId}-error`}
+            className="text-red-400 mt-1 text-sm"
+            role="alert"
+          >
+            {error}
+          </p>
+        )}
+
+        {helperText && !error && (
+          <p id={`${inputId}-helper`} className="mt-1 text-sm text-white/60">
+            {helperText}
+          </p>
+        )}
+      </div>
+    )
+  },
+)
+
+Input.displayName = 'Input'
+
+export { Input }
