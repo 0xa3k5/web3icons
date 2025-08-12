@@ -63,7 +63,7 @@ export function ApiPlayground({
   }
 
   return (
-    <div className={cx('border-l border-gray-lightest p-6', className)}>
+    <div className={cx('border-gray-lightest border-l p-6', className)}>
       <div className="mb-6">
         <h3 className="mb-4 text-lg">API Playground</h3>
 
@@ -81,7 +81,6 @@ export function ApiPlayground({
         <div className="flex flex-col gap-2">
           <CodeBlock
             lineNumbers={false}
-            classNames="h-40"
             tabs={[
               {
                 label: 'curl',
@@ -93,18 +92,18 @@ export function ApiPlayground({
           <button
             onClick={handleSendRequest}
             disabled={loading || (endpoint.requiresAuth && !apiKey)}
-            className={`w-full rounded-md bg-primary py-2 text-sm text-white transition-colors hover:bg-primary/80 disabled:cursor-not-allowed disabled:bg-gray disabled:text-white/40`}
+            className={`bg-primary hover:bg-primary/80 disabled:bg-gray w-full rounded-md py-2 text-sm text-white transition-colors disabled:cursor-not-allowed disabled:text-white/40`}
           >
             {loading ? 'Sending...' : 'Send Request'}
           </button>
         </div>
       </div>
 
-      <div className="border-t border-gray-lightest pt-6">
+      <div className="border-gray-lightest border-t pt-6">
         <h4 className="text-md mb-4">Response</h4>
 
         {response?.error && (
-          <div className="bg-red-900/20 border-red-500/20 text-red-200 mb-4 border p-3 text-sm">
+          <div className="mb-4 border border-red-500/20 bg-red-900/20 p-3 text-sm text-red-200">
             <strong>Error:</strong> {response.error}
           </div>
         )}
@@ -112,6 +111,7 @@ export function ApiPlayground({
         {response ? (
           <CodeBlock
             lineNumbers={false}
+            classNames="max-h-128"
             tabs={[
               {
                 label: `Response (${response.status})`,
@@ -127,6 +127,7 @@ export function ApiPlayground({
             </p>
             <CodeBlock
               lineNumbers={false}
+              classNames="max-h-128"
               tabs={[
                 {
                   label: exampleResponse.error ? 'Error' : 'Example 200',

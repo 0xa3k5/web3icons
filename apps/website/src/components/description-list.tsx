@@ -26,7 +26,7 @@ DescriptionList.Item = ({
   return (
     <span
       className={cx(
-        'flex items-center justify-between border-b border-gray-lightest py-3 last-of-type:border-0',
+        'border-gray-lightest flex items-center justify-between border-b py-3 last-of-type:border-0',
         className,
       )}
     >

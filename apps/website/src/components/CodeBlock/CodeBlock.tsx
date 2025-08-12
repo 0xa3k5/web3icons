@@ -15,12 +15,14 @@ interface Props {
   lineNumbers?: boolean
   tabs: Tab[]
   classNames?: string
+  wrap?: boolean
 }
 
 export default function CodeBlock({
   lineNumbers = true,
   tabs,
   classNames,
+  wrap = false,
 }: Props): JSX.Element {
   const [lines, setLines] = useState<{ content: string; style: any }[][]>([])
   const [activeTab, setActiveTab] = useState<Tab>(tabs[0]!)
@@ -57,10 +59,10 @@ export default function CodeBlock({
     <div
       className={cx(
         classNames,
-        `group flex w-full flex-col overflow-hidden rounded-lg border border-gray-lightest font-mono text-sm`,
+        `border-gray-lightest group flex w-full flex-col overflow-hidden rounded-lg border font-mono text-sm`,
       )}
     >
-      <div className="flex items-center justify-between border-b border-gray-lightest bg-gray-darkest">
+      <div className="border-gray-lightest bg-gray-darkest flex items-center justify-between border-b">
         <Tabs
           tabs={tabs.map((tab) => tab.label)}
           size="sm"
@@ -79,15 +81,22 @@ export default function CodeBlock({
         />
       </div>
 
-      <div className="h-full max-h-64 overflow-scroll bg-gray-dark p-4">
+      <div className="bg-gray-dark h-full overflow-scroll p-4">
         {lines.map((line, index) => (
           <div key={index} className="flex">
             {lineNumbers ? (
-              <span className="mr-4 flex w-4 shrink-0 select-none justify-end text-right text-white/20">
+              <span className="mr-4 flex w-4 shrink-0 select-none text-right text-white/20">
                 {index + 1}
               </span>
             ) : null}
-            <pre className="flex-1 select-text">
+            <pre
+              data-wrap={wrap}
+              className={cx(
+                'flex-1 select-text',
+                'data-[wrap=true]:whitespace-pre-wrap data-[wrap=true]:break-words',
+                'data-[wrap=false]:whitespace-pre',
+              )}
+            >
               {line.map((token, i) => (
                 <span key={i} style={{ color: token.style.color }}>
                   {token.content}

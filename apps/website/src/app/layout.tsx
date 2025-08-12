@@ -44,11 +44,13 @@ export default function RootLayout({
 }) {
   return (
     <ClerkProvider>
-      <html lang="en">
+      <html lang="en" className="h-full">
         <AppContextProvider>
-          <body className={`${inter.className} mx-auto max-w-screen-2xl`}>
+          <body
+            className={`${inter.className} mx-auto flex h-full max-w-screen-xl flex-col`}
+          >
             <Header />
-            {children}
+            <main className="flex-1">{children}</main>
             <Analytics />
           </body>
         </AppContextProvider>

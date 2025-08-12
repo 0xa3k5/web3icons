@@ -9,7 +9,7 @@ export default function DashboardLayout({
   return (
     <>
       <SignedIn>
-        <div className="min-h-screen bg-gray-darkest font-mono text-white">
+        <div className="bg-gray-darkest min-h-screen font-mono text-white">
           <div className="mx-auto px-4 py-8 sm:px-8">
             <div className="mb-8 flex items-center justify-between">
               <div>

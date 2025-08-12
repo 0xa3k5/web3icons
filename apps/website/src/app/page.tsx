@@ -58,6 +58,7 @@ export default function Home() {
               language: 'bash',
             },
           ]}
+          classNames="max-h-32"
         />
       </div>
       <div className="relative flex w-full flex-col-reverse gap-8 md:flex-row md:gap-12">
@@ -82,7 +83,7 @@ export default function Home() {
                 <IconCard
                   key={icon.id}
                   metadata={icon}
-                  className="col-span-1 border border-gray-lightest"
+                  className="border-gray-lightest col-span-1 border"
                   onClick={() => {
                     setSelectedIcon(icon)
                     setIsDrawerOpen(true)
@@ -94,7 +95,7 @@ export default function Home() {
               {hasMoreIcons && (
                 <button
                   type="button"
-                  className="w-1/3 py-2 text-white duration-150 hover:bg-gray-dark"
+                  className="hover:bg-gray-dark w-1/3 py-2 text-white duration-150"
                   onClick={loadMoreIcons}
                 >
                   load more

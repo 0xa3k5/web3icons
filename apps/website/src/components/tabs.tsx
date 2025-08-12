@@ -36,9 +36,9 @@ export default function Tabs({
     <div
       className={cx(
         className,
-        'sticky top-0 z-[2] flex w-full justify-between rounded-sm bg-gray-darkest',
+        'bg-gray-darkest sticky top-0 z-[2] flex w-full justify-between rounded-sm',
         size === 'sm' ? 'py-2' : 'py-4',
-        separator ? 'border-b border-gray-lightest' : '',
+        separator ? 'border-gray-lightest border-b' : '',
       )}
     >
       <div className="flex justify-between">

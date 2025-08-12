@@ -14,7 +14,7 @@ export function Sidebar({ endpointGroups, className }: Props) {
   const selectedEndpoint = pathname?.replace('/api-reference/', '')
 
   return (
-    <div className={cx('border-r border-gray-lightest', className)}>
+    <div className={cx('border-gray-lightest border-r', className)}>
       <div className="sticky top-0 p-6">
         <h1 className="mb-6 text-xl">API Reference</h1>
         <nav className="flex flex-col gap-4">
@@ -30,7 +30,7 @@ export function Sidebar({ endpointGroups, className }: Props) {
                   data-selected={selectedEndpoint === endpoint.id}
                   // prettier-ignore
                   className={`
-                    block w-full rounded-sm px-3 py-2 text-sm transition-colors text-left
+                    block w-full px-3 py-2 text-sm transition-colors text-left
                     text-white/60 hover:text-white
                     data-[selected=true]:border-l 
                     data-[selected=true]:border-primary 

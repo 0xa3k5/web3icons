@@ -29,7 +29,7 @@ export default function Tooltip({
   return (
     <div
       className={cx(
-        'absolute z-10 rounded-md border border-gray-lightest bg-gray-darkest px-2 py-1 text-xs',
+        'border-gray-lightest bg-gray-darkest absolute z-10 rounded-md border px-2 py-1 text-xs',
         {
           'bottom-full left-1/2 mb-2 -translate-x-1/2 transform':
             position === 'top',

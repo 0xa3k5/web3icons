@@ -42,7 +42,7 @@ export default function DownloadButton({
         onClick={(event) => handleDownload(event)}
         className={cx(
           'items-center rounded-sm aria-disabled:pointer-events-none aria-disabled:text-opacity-20',
-          'text-opacity-60 hover:bg-gray-lightest hover:text-opacity-100',
+          'hover:bg-gray-lightest text-opacity-60 hover:text-opacity-100',
           'relative flex gap-2 p-2 text-white duration-150',
           className,
         )}

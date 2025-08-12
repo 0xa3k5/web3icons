@@ -18,7 +18,7 @@ export const Checkbox = ({ checked, onChange, className }: Props) => {
         className={cx(
           'absolute left-3 top-3 hidden',
           'group-hover/card:block group-focus-visible:focus-within/card:block group-data-[selected=true]/card:block',
-          'h-6 w-6 rounded border border-gray-lightest bg-gray-light group-data-[selected=true]/card:bg-primary',
+          'border-gray-lightest bg-gray-light group-data-[selected=true]/card:bg-primary h-6 w-6 rounded border',
         )}
       >
         <span className="absolute inset-0 hidden items-center justify-center group-data-[selected=true]/card:flex">

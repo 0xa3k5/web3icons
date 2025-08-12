@@ -49,7 +49,7 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
             className="mb-2 block text-sm font-medium text-white/80"
           >
             {label}
-            {required && <span className="text-red-400 ml-1">*</span>}
+            {required && <span className="ml-1 text-red-400">*</span>}
           </label>
         )}
 
@@ -57,7 +57,7 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
           ref={ref}
           id={selectId}
           className={cx(
-            'w-full border border-gray-lightest bg-gray px-3 py-2 text-sm text-white focus:border-white/40 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50',
+            'border-gray-lightest bg-gray w-full border px-3 py-2 text-sm text-white focus:border-white/40 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50',
             error && 'border-red-400 focus:border-red-400',
             className,
           )}
@@ -93,7 +93,7 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
         {error && (
           <p
             id={`${selectId}-error`}
-            className="text-red-400 mt-1 text-sm"
+            className="mt-1 text-sm text-red-400"
             role="alert"
           >
             {error}

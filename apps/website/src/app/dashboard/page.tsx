@@ -100,7 +100,7 @@ export default function DashboardPage() {
   return (
     <div className="space-y-8">
       {/* API Keys Section */}
-      <div className="border border-gray-lightest p-6">
+      <div className="border-gray-lightest border p-6">
         <div className="mb-6 flex items-center justify-between">
           <div>
             <h2 className="font-mono text-xl">api keys</h2>
@@ -110,7 +110,7 @@ export default function DashboardPage() {
           </div>
           <button
             onClick={() => setIsCreating(true)}
-            className="bg-primary px-4 py-2 text-sm duration-150 hover:bg-primary/80"
+            className="bg-primary hover:bg-primary/80 px-4 py-2 text-sm duration-150"
           >
             create new key
           </button>
@@ -118,14 +118,14 @@ export default function DashboardPage() {
 
         {/* Create New Key Form */}
         {isCreating && (
-          <div className="mb-6 border border-gray-lightest bg-gray-dark p-4">
+          <div className="border-gray-lightest bg-gray-dark mb-6 border p-4">
             <div className="space-y-4">
               <input
                 type="text"
                 placeholder="key name (e.g., production app)"
                 value={newKeyName}
                 onChange={(e) => setNewKeyName(e.target.value)}
-                className="w-full border border-gray-lightest bg-gray px-3 py-2 text-sm focus:border-white/40 focus:outline-none"
+                className="border-gray-lightest bg-gray w-full border px-3 py-2 text-sm focus:border-white/40 focus:outline-none"
               />
               <div className="flex gap-2">
                 <button
@@ -133,7 +133,7 @@ export default function DashboardPage() {
                     createApiKey()
                     setIsCreating(false)
                   }}
-                  className="bg-primary px-4 py-2 text-sm duration-150 hover:bg-primary/80"
+                  className="bg-primary hover:bg-primary/80 px-4 py-2 text-sm duration-150"
                 >
                   create
                 </button>
@@ -142,7 +142,7 @@ export default function DashboardPage() {
                     setIsCreating(false)
                     setNewKeyName('')
                   }}
-                  className="border border-gray-lightest px-4 py-2 text-sm duration-150 hover:bg-gray-dark"
+                  className="border-gray-lightest hover:bg-gray-dark border px-4 py-2 text-sm duration-150"
                 >
                   cancel
                 </button>
@@ -153,19 +153,19 @@ export default function DashboardPage() {
 
         {/* New API Key Display */}
         {newApiKey && (
-          <div className="mb-6 border border-primary bg-primary/10 p-4">
+          <div className="border-primary bg-primary/10 mb-6 border p-4">
             <p className="mb-2 text-sm">
               <span className="text-white/60">
                 your new api key (save it now, you won't see it again):
               </span>
             </p>
             <div className="flex items-center gap-2">
-              <code className="flex-1 border border-gray-lightest bg-gray-dark px-3 py-2 text-xs">
+              <code className="border-gray-lightest bg-gray-dark flex-1 border px-3 py-2 text-xs">
                 {newApiKey}
               </code>
               <button
                 onClick={() => copyToClipboard(newApiKey)}
-                className="border border-gray-lightest px-3 py-2 text-sm duration-150 hover:bg-gray-dark"
+                className="border-gray-lightest hover:bg-gray-dark border px-3 py-2 text-sm duration-150"
               >
                 copy
               </button>
@@ -189,7 +189,7 @@ export default function DashboardPage() {
             apiKeys.map((key) => (
               <div
                 key={key.id}
-                className="flex items-center justify-between border border-gray-lightest p-4"
+                className="border-gray-lightest flex items-center justify-between border p-4"
               >
                 <div>
                   <p className="font-mono">{key.name}</p>
@@ -213,7 +213,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Quick Start */}
-      <div className="border border-gray-lightest p-6">
+      <div className="border-gray-lightest border p-6">
         <h2 className="mb-4 font-mono text-xl">quick start</h2>
         <div className="space-y-3 text-sm">
           <div className="flex items-start gap-2">
@@ -224,7 +224,7 @@ export default function DashboardPage() {
             <span className="text-white/40">2.</span>
             <div>
               <span>make a request with your key:</span>
-              <pre className="mt-2 overflow-x-auto border border-gray-lightest bg-gray-dark p-3 text-xs">
+              <pre className="border-gray-lightest bg-gray-dark mt-2 overflow-x-auto border p-3 text-xs">
                 {`curl -H "X-API-Key: YOUR_API_KEY" \\
   "https://web3icons-production.up.railway.app/v1/icons/tokens/ETH"`}
               </pre>
@@ -238,7 +238,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Usage Stats Preview */}
-      <div className="border border-gray-lightest p-6">
+      <div className="border-gray-lightest border p-6">
         <h2 className="mb-4 font-mono text-xl">usage today</h2>
         <div className="grid grid-cols-3 gap-4 text-center">
           <div>

@@ -1,17 +1,24 @@
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'
 import Link from 'next/link'
 import Logo from './logo'
+import cx from 'classnames'
 
-interface Props {}
+interface Props {
+  className?: string
+}
 
-export function Header() {
+export function Header({ className }: Props) {
   return (
-    <div className="flex w-full items-center justify-center py-2">
+    <div
+      className={cx('flex w-full items-center justify-center py-2', className)}
+    >
       <div className="container flex w-full flex-col items-start justify-between gap-4 md:flex-row">
-        <Logo className="size-16" />
+        <Link href="/">
+          <Logo className="size-16" />
+        </Link>
         <SignedOut>
           <SignInButton mode="modal">
-            <button className="border border-gray-lightest px-4 py-2 font-mono text-sm text-white duration-150 hover:bg-gray-dark">
+            <button className="border-gray-lightest hover:bg-gray-dark border px-4 py-2 font-mono text-sm text-white duration-150">
               sign in
             </button>
           </SignInButton>
@@ -21,13 +28,13 @@ export function Header() {
           <div className="flex items-center gap-4">
             <Link
               href="/api-reference"
-              className="border border-gray-lightest px-4 py-2 font-mono text-sm text-white duration-150 hover:bg-gray-dark"
+              className="border-gray-lightest hover:bg-gray-dark border px-4 py-2 font-mono text-sm text-white duration-150"
             >
               api docs
             </Link>
             <Link
               href="/dashboard"
-              className="bg-primary px-4 py-2 font-mono text-sm text-white duration-150 hover:bg-primary/80"
+              className="bg-primary hover:bg-primary/80 px-4 py-2 font-mono text-sm text-white duration-150"
             >
               dashboard
             </Link>

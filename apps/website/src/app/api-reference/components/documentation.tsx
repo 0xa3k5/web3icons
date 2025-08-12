@@ -26,16 +26,17 @@ export function Documentation({
             data-method={endpoint.method}
             // prettier-ignore
             className={`
+              border
               font-mono rounded px-2 py-1 text-sm
-              data-[method=GET]:bg-green-900
+              data-[method=GET]:border-green-900
               data-[method=GET]:text-green-200 
-              data-[method=POST]:bg-blue-900
+              data-[method=POST]:border-blue-900
               data-[method=POST]:text-blue-200
-              data-[method=PUT]:bg-yellow-900
+              data-[method=PUT]:border-yellow-900
               data-[method=PUT]:text-yellow-200
-              data-[method=DELETE]:bg-red-900
+              data-[method=DELETE]:border-red-900
               data-[method=DELETE]:text-red-200
-              data-[method=PATCH]:bg-purple-900
+              data-[method=PATCH]:border-purple-900
               data-[method=PATCH]:text-purple-200
             `}
           >
@@ -55,7 +56,7 @@ export function Documentation({
           <p className="mb-6 text-white/80">{endpoint.longDescription}</p>
         )}
 
-        <div className="rounded-sm border border-gray-lightest bg-gray-dark p-4">
+        <div className="border-gray-lightest bg-gray-dark rounded-sm border p-4">
           <code className="text-sm">
             {endpoint.method} {endpoint.pathExample || endpoint.endpoint}
           </code>
@@ -69,10 +70,10 @@ export function Documentation({
             {endpoint.inputs.map((input, index) => (
               <div
                 key={index}
-                className="flex flex-col gap-4 border border-gray-lightest p-4"
+                className="border-gray-lightest flex flex-col gap-4 border p-4"
               >
-                <div className="flex items-center gap-2">
-                  <code className="text-sm text-white">{input.name}</code>
+                <div className="flex items-baseline gap-2">
+                  <code className="text-white">{input.name}</code>
                   <span className="text-xs text-white/40">{input.type}</span>
                   {input.required && (
                     <span className="text-xs text-white">required</span>
@@ -111,12 +112,24 @@ export function Documentation({
             {endpoint.responses.map((response, index) => (
               <div
                 key={index}
-                className="flex flex-col gap-2 border border-gray-lightest p-4"
+                className="border-gray-lightest flex flex-col gap-2 border p-4"
               >
                 <div className="flex items-center gap-2">
                   <span
                     data-status={response.status}
-                    className="data-[status='200']:bg-green-900 data-[status='200']:text-green-200 data-[status='400']:bg-yellow-900 data-[status='400']:text-yellow-200 data-[status='401']:bg-red-900 data-[status='401']:text-red-200 data-[status='404']:bg-red-900 data-[status='404']:text-red-200 data-[status='500']:bg-red-900 data-[status='500']:text-red-200 rounded px-2 py-1 font-mono text-sm"
+                    // prettier-ignore
+                    className={`
+                      rounded px-2 py-1 font-mono text-sm border
+                      data-[status='200']:border-green-900
+                      data-[status='200']:text-green-200
+                      data-[status='400']:border-yellow-900
+                      data-[status='400']:text-yellow-200
+                      data-[status='401']:border-red-900
+                      data-[status='401']:text-red-200
+                      data-[status='404']:border-red-900
+                      data-[status='404']:text-red-200
+                      data-[status='500']:border-red-900
+                      data-[status='500']:text-red-200`}
                   >
                     {response.status}
                   </span>
@@ -125,7 +138,7 @@ export function Documentation({
                   </span>
                 </div>
                 {response.example && (
-                  <pre className="overflow-x-auto border border-gray-lightest bg-gray-dark p-2 text-xs text-white/80">
+                  <pre className="border-gray-lightest bg-gray-dark overflow-x-auto border p-2 text-xs text-white/80">
                     {JSON.stringify(response.example, null, 2)}
                   </pre>
                 )}
