@@ -1,16 +1,33 @@
-import { randomBytes } from 'crypto'
+import { randomBytes, createCipher, createDecipher } from 'crypto'
 import bcrypt from 'bcryptjs'
 import { supabase, type ApiKey } from './supabase'
+
+const ENCRYPTION_SECRET = process.env.API_KEY_ENCRYPTION_SECRET || 'fallback-secret-key-change-in-production'
+
+function encryptApiKey(key: string): string {
+  const cipher = createCipher('aes-256-cbc', ENCRYPTION_SECRET)
+  let encrypted = cipher.update(key, 'utf8', 'hex')
+  encrypted += cipher.final('hex')
+  return encrypted
+}
+
+export function decryptApiKey(encryptedKey: string): string {
+  const decipher = createDecipher('aes-256-cbc', ENCRYPTION_SECRET)
+  let decrypted = decipher.update(encryptedKey, 'hex', 'utf8')
+  decrypted += decipher.final('utf8')
+  return decrypted
+}
 
 export async function generateApiKey(
   name: string,
   userId?: string,
 ): Promise<{ key: string; apiKey: ApiKey }> {
-  const prefix = 'w3i_live_'
+  const prefix = 'w3i_'
   const keyBytes = randomBytes(24).toString('base64url')
   const fullKey = `${prefix}${keyBytes}`
 
   const keyHash = await bcrypt.hash(fullKey, 10)
+  const keyEncrypted = encryptApiKey(fullKey)
   const last4 = keyBytes.slice(-4)
 
   const { data, error } = await supabase
@@ -18,6 +35,7 @@ export async function generateApiKey(
     .insert({
       user_id: userId,
       key_hash: keyHash,
+      key_encrypted: keyEncrypted,
       key_prefix: prefix,
       last_4: last4,
       name: name,
