@@ -1,6 +1,7 @@
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'
 import Link from 'next/link'
 import Logo from './logo'
+import { Button } from './button'
 import cx from 'classnames'
 
 interface Props {
@@ -18,25 +19,23 @@ export function Header({ className }: Props) {
         </Link>
         <SignedOut>
           <SignInButton mode="modal">
-            <button className="border-gray-lightest hover:bg-gray-dark border px-4 py-2 font-mono text-sm text-white duration-150">
+            <Button variant="secondary" size="sm">
               sign in
-            </button>
+            </Button>
           </SignInButton>
         </SignedOut>
 
         <SignedIn>
           <div className="flex items-center gap-4">
-            <Link
-              href="/api-reference"
-              className="border-gray-lightest hover:bg-gray-dark border px-4 py-2 font-mono text-sm text-white duration-150"
-            >
-              api docs
+            <Link href="/api-reference">
+              <Button variant="secondary" size="sm">
+                api docs
+              </Button>
             </Link>
-            <Link
-              href="/dashboard"
-              className="bg-primary hover:bg-primary/80 px-4 py-2 font-mono text-sm text-white duration-150"
-            >
-              dashboard
+            <Link href="/dashboard">
+              <Button variant="primary" size="sm">
+                dashboard
+              </Button>
             </Link>
             <UserButton
               appearance={{

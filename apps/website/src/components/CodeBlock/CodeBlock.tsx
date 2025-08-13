@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { CopyButton } from '../buttons'
-import { highlight, type Language } from '.'
+import { CopyButton } from '../copy-button'
+import { highlight, type Language } from './shiki'
 import Tabs from '../tabs'
 import cx from 'classnames'
 
@@ -85,7 +85,7 @@ export default function CodeBlock({
         {lines.map((line, index) => (
           <div key={index} className="flex">
             {lineNumbers ? (
-              <span className="mr-4 flex w-4 shrink-0 select-none text-right text-white/20">
+              <span className="mr-4 flex w-4 shrink-0 text-right text-white/20 select-none">
                 {index + 1}
               </span>
             ) : null}
@@ -93,7 +93,7 @@ export default function CodeBlock({
               data-wrap={wrap}
               className={cx(
                 'flex-1 select-text',
-                'data-[wrap=true]:whitespace-pre-wrap data-[wrap=true]:break-words',
+                'data-[wrap=true]:break-words data-[wrap=true]:whitespace-pre-wrap',
                 'data-[wrap=false]:whitespace-pre',
               )}
             >

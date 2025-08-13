@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { TType, TMetadata, TVariant } from '@web3icons/common'
 import { ControlBar, IconCard, Drawer, CodeBlock, Tabs } from '../components'
+import { Button } from '../components/button'
 import { useAppContext } from '../hooks'
 import SegmentedControl from '../components/ControlBar/SegmentedControl'
 
@@ -93,13 +94,13 @@ export default function Home() {
             })}
             <div className="col-span-full my-8 flex justify-center">
               {hasMoreIcons && (
-                <button
-                  type="button"
-                  className="hover:bg-gray-dark w-1/3 py-2 text-white duration-150"
+                <Button
+                  variant="ghost"
                   onClick={loadMoreIcons}
+                  className="w-1/3"
                 >
                   load more
-                </button>
+                </Button>
               )}
             </div>
           </div>

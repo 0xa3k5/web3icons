@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from 'react'
-import { CodeBlock } from '../../../components'
+import { useEffect, useState } from 'react'
+import { Button, CodeBlock } from '../../../components'
 import { Input } from '../../../components/input'
 import { IEndpoint } from '../../../utils/open-api-parser'
 import { generateCurl } from '../../../utils/generate-curl'
@@ -36,12 +36,10 @@ export function ApiPlayground({
   const getFilteredQueryParams = () => {
     const filtered: Record<string, string> = {}
 
-    // Include default query params
     if (endpoint.defaultQueryParams) {
       Object.assign(filtered, endpoint.defaultQueryParams)
     }
 
-    // Include non-empty query params
     Object.entries(queryParams).forEach(([key, value]) => {
       if (value !== undefined && value !== '') {
         filtered[key] = value
@@ -65,13 +63,11 @@ export function ApiPlayground({
   return (
     <div className={cx('border-gray-lightest border-l p-6', className)}>
       <div className="mb-6">
-        <h3 className="mb-4 text-lg">API Playground</h3>
-
         {endpoint.requiresAuth && (
           <Input
             label="API Key"
             type="text"
-            placeholder="w3i_live_..."
+            placeholder="w3i_..."
             value={apiKey}
             onChange={(e) => onApiKeyChange(e.target.value)}
             containerClassName="mb-4"
@@ -89,13 +85,14 @@ export function ApiPlayground({
               },
             ]}
           />
-          <button
+          <Button
+            variant="primary"
             onClick={handleSendRequest}
             disabled={loading || (endpoint.requiresAuth && !apiKey)}
-            className={`bg-primary hover:bg-primary/80 disabled:bg-gray w-full rounded-md py-2 text-sm text-white transition-colors disabled:cursor-not-allowed disabled:text-white/40`}
+            fullWidth
           >
-            {loading ? 'Sending...' : 'Send Request'}
-          </button>
+            send request
+          </Button>
         </div>
       </div>
 
