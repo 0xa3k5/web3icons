@@ -97,20 +97,15 @@ export function ApiKeysTable({ initialApiKeys }: Props) {
   }
 
   return (
-    <div className="border-gray-lightest border p-8">
+    <div className="border-gray-lightest flex flex-col gap-8 rounded-xl border p-8">
       <div className="mb-6 flex items-center justify-between">
         <h2 className="font-mono text-lg">api keys</h2>
 
-        <Button
-          variant="primary"
-          size="sm"
-          onClick={() => setShowCreateForm(true)}
-        >
+        <Button variant="secondary" onClick={() => setShowCreateForm(true)}>
           create new key
         </Button>
       </div>
 
-      {/* Create Key Form */}
       {showCreateForm && (
         <div className="border-gray-lightest bg-gray-dark mb-6 border p-4">
           <div className="space-y-4">

@@ -16,3 +16,4 @@ apps/figma-plugin/manifest.json
 packages/react/src/icons/**/*.ts
 packages/react/src/icons/**/*.tsx
 .claude/
+server

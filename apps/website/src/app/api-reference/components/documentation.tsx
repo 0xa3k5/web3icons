@@ -58,7 +58,7 @@ export function Documentation({
 
         <div className="border-gray-lightest bg-gray-dark rounded-sm border p-4">
           <code className="text-sm">
-            {endpoint.method} {endpoint.pathExample || endpoint.endpoint}
+            {endpoint.method} {endpoint.endpoint}
           </code>
         </div>
       </div>

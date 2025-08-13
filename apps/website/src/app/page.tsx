@@ -42,7 +42,7 @@ export default function Home() {
   }, [activeTabParam])
 
   return (
-    <main className="container mx-auto flex h-screen flex-col gap-4 font-mono sm:py-16 md:gap-16">
+    <div className="flex min-h-full flex-col gap-4 font-mono sm:py-16 md:gap-16">
       <div className="flex max-w-2xl flex-col gap-4">
         <h1 className="max-w-40 text-4xl tracking-widest">web3 icons</h1>
         <span className="text-white/40">
@@ -78,7 +78,7 @@ export default function Home() {
             }
           />
           <ControlBar handleVariantChange={handleVariantChange} />
-          <div className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
+          <div className="grid w-full grid-cols-2 gap-0 sm:grid-cols-3 lg:grid-cols-5">
             {icons.map((icon) => {
               return (
                 <IconCard
@@ -92,18 +92,18 @@ export default function Home() {
                 />
               )
             })}
-            <div className="col-span-full my-8 flex justify-center">
-              {hasMoreIcons && (
-                <Button
-                  variant="ghost"
-                  onClick={loadMoreIcons}
-                  className="w-1/3"
-                >
-                  load more
-                </Button>
-              )}
-            </div>
           </div>
+          {hasMoreIcons && (
+            <div className="flex justify-center py-8">
+              <Button
+                variant="ghost"
+                onClick={loadMoreIcons}
+                className="w-1/3 min-w-32"
+              >
+                load more
+              </Button>
+            </div>
+          )}
         </div>
       </div>
       {selectedIcon && (
@@ -113,6 +113,6 @@ export default function Home() {
           setIsOpen={setIsDrawerOpen}
         />
       )}
-    </main>
+    </div>
   )
 }

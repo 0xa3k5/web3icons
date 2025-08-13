@@ -63,7 +63,7 @@ export function UsageChart({ usageHistory }: Props) {
   return (
     <div className="border-gray-lightest flex flex-col gap-8 rounded-xl border p-8">
       <div className="flex items-center justify-between">
-        <h2 className="font-mono text-xl">usage over time</h2>
+        <h2 className="font-mono text-lg">usage</h2>
         <SegmentedControl
           options={['7d', '30d']}
           selected={period}

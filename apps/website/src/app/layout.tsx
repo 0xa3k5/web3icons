@@ -4,6 +4,7 @@ import { AppContextProvider } from '../hooks'
 import { Analytics } from '@vercel/analytics/react'
 import { ClerkProvider } from '@clerk/nextjs'
 import { Header } from '../components/header'
+import { Footer } from '../components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -46,12 +47,11 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en" className="h-full">
         <AppContextProvider>
-          <body
-            className={`${inter.className} mx-auto flex h-full max-w-screen-xl flex-col`}
-          >
+          <body className={`${inter.className} mx-auto flex h-full flex-col`}>
             <Header />
-            <main className="flex-1">{children}</main>
+            <main className="container mx-auto flex-1">{children}</main>
             <Analytics />
+            <Footer />
           </body>
         </AppContextProvider>
       </html>
