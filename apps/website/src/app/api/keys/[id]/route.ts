@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { auth } from '@clerk/nextjs'
 
-const API_URL =
-  process.env.NEXT_PUBLIC_API_URL ||
-  'https://web3icons-production.up.railway.app'
+const API_URL = process.env.NEXT_PUBLIC_API_URL
 
 export async function DELETE(
   request: NextRequest,

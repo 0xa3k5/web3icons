@@ -16,7 +16,7 @@ const openApiSpec = {
   },
   servers: [
     {
-      url: 'https://web3icons-production.up.railway.app',
+      url: 'https://api.web3icons.io',
       description: 'Production server',
     },
   ],
