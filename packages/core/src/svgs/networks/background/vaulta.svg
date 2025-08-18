@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#vaulta__a)">
+        <path fill="#2E3BFF" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M14.648 10.282h-2.17a.32.32 0 0 0-.227.094l-4.998 5.003H4V10.56l1.935-1.94v5.371h.276l5.05-5.055c.202-.202.476-.316.762-.316h2.625zM20 8.622h-3.253l-4.998 5.002a.32.32 0 0 1-.227.094h-2.17v1.66h2.623c.287 0 .563-.114.765-.317l5.048-5.053h.277v4.538h-3.118v.833h3.118l.287-.288.268-.269L20 13.44z"/>
+    </g>
+    <defs>
+        <clipPath id="vaulta__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>
