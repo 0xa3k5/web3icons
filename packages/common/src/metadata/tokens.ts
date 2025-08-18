@@ -21274,4 +21274,15 @@ export const tokens: ITokenMetadata[] = [
       base: '0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42',
     },
   },
+  {
+    id: 'A',
+    name: 'Vaulta',
+    variants: ['background', 'branded', 'mono'],
+    fileName: 'A',
+    symbol: 'A',
+    marketCapRank: 0,
+    addresses: {
+      ethereum: '0xCc80062086c8fb8d4837C56FCDB25A67Cd9c7d58',
+    },
+  },
 ]
