@@ -2,7 +2,9 @@ import '../globals.css'
 import { Inter } from 'next/font/google'
 import { AppContextProvider } from '../hooks'
 import { Analytics } from '@vercel/analytics/react'
-import { Suspense } from 'react'
+import { ClerkProvider } from '@clerk/nextjs'
+import { Header } from '../components/header'
+import { Footer } from '../components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,11 +16,11 @@ export const metadata = {
     title: 'Web3 Icons',
     description:
       '2,500+ SVG & React icons for crypto currency tokens, coins, networks and wallets',
-    url: 'https://tokenicons.io',
+    url: 'https://web3icons.io',
     type: 'website',
     images: [
       {
-        url: 'https://tokenicons.io/og-image.png',
+        url: 'https://web3icons.io/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Web3 Icons',
@@ -32,7 +34,7 @@ export const metadata = {
     title: 'Web3 Icons',
     description:
       '2,500+ SVG & React icons for crypto currency tokens, coins, networks and wallets',
-    images: ['https://tokenicons.io/og-image.png'],
+    images: ['https://web3icons.io/og-image.png'],
   },
 }
 
@@ -42,15 +44,17 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <Suspense>
+    <ClerkProvider>
+      <html lang="en" className="h-full">
         <AppContextProvider>
-          <body className={inter.className}>
-            {children}
+          <body className={`${inter.className} mx-auto flex h-full flex-col`}>
+            <Header />
+            <main className="container mx-auto flex-1">{children}</main>
             <Analytics />
+            <Footer />
           </body>
         </AppContextProvider>
-      </Suspense>
-    </html>
+      </html>
+    </ClerkProvider>
   )
 }

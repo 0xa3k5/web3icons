@@ -1,1 +1,1 @@
-# tokenicons.io
+# web3icons.io
