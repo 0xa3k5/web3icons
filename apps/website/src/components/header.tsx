@@ -31,7 +31,12 @@ export function Header({ className }: Props) {
               docs
             </Button>
           </Link>
-          
+          <Link href="/api-reference">
+            <Button variant="ghost" size="sm">
+              api reference
+            </Button>
+          </Link>
+
           <SignedOut>
             <SignInButton mode="modal">
               <Button variant="secondary" size="sm">
@@ -41,11 +46,6 @@ export function Header({ className }: Props) {
           </SignedOut>
 
           <SignedIn>
-            <Link href="/api-reference">
-              <Button variant="ghost" size="sm">
-                api reference
-              </Button>
-            </Link>
             <Link href="/dashboard">
               <Button variant="primary" size="sm">
                 dashboard

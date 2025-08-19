@@ -1,0 +1,65 @@
+---
+title: API Overview
+description: Web3 Icons REST API for dynamic icon retrieval and management
+---
+
+# Web3 Icons API
+
+The Web3 Icons API provides programmatic access to our complete icon library via RESTful endpoints. Perfect for dynamic applications, server-side rendering, and integrations.
+
+## Base URL
+
+```bash
+https://api.web3icons.io
+```
+
+Check out the detailed [Api References](/api-reference) for more information
+
+## Authentication
+
+All API requests require an API key:
+
+```bash
+curl -H "X-API-Key: your-api-key" https://api.web3icons.io/v1/icons/tokens/BTC
+```
+
+## Rate Limits
+
+- **Free Tier**: 1,000 requests/month
+- **Pro Tier**: ?? requests/month (soon)
+
+## Quick Start
+
+```bash
+# Get Bitcoin icon
+curl -H "X-API-Key: your-key" https://api.web3icons.io/v1/icons/tokens/BTC?variant=branded
+
+# Search tokens
+curl -H "X-API-Key: your-key" https://api.web3icons.io/v1/search?q=bitcoin&type=token
+
+# Get metadata
+curl -H "X-API-Key: your-key" https://api.web3icons.io/v1/metadata/tokens
+```
+
+## Endpoints Overview
+
+- **Icons**: `/v1/icons/{type}/{identifier}` - Get icon SVG
+- **Search**: `/v1/search` - Search across all icons  
+- **Metadata**: `/v1/metadata/{type}` - Get metadata collections
+
+## Response Formats
+
+- **SVG**: Direct SVG content (default)
+- **JSON**: Metadata with SVG data URL
+- **PNG**: Rasterized PNG (coming soon)
+
+## Error Handling
+
+```json
+{
+  "error": "Icon not found",
+  "message": "Token 'INVALID' not found",
+  "code": "ICON_NOT_FOUND"
+}
+```
+

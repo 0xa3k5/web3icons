@@ -142,7 +142,7 @@ function getFileMetadata(filePath: string): DocMetadata | null {
 
 export function generateNavigation(): DocSection[] {
   const docsPath = getDocsPath()
-  const navigation: DocSection[] = []
+  const allSections: DocSection[] = []
 
   function processDirectoryNested(
     dirPath: string,
@@ -161,22 +161,19 @@ export function generateNavigation(): DocSection[] {
           const metadata = getFileMetadata(filePath)
           const baseName = entry.name.replace('.mdx', '')
 
-          const href =
-            baseName === 'index'
-              ? `/docs${relativePath}`
-              : `/docs${relativePath}/${baseName}`
+          const href = `/docs${relativePath}/${baseName}`
 
           currentSectionItems.push({
-            id: href.replace('/docs/', '').replace(/\//g, '-') || 'index',
+            id: href.replace('/docs/', '').replace(/\//g, '-'),
             name: metadata?.title || baseName,
             href,
             description: metadata?.description,
           })
         }
       }
+      
       if (currentSectionItems.length > 0) {
-        const categoryName =
-          categoryPrefix || relativePath.replace('/', '') || 'root'
+        const categoryName = categoryPrefix || relativePath.replace('/', '') || 'root'
         sections.push({
           category: categoryName,
           items: currentSectionItems,
@@ -206,6 +203,32 @@ export function generateNavigation(): DocSection[] {
 
   try {
     const entries = fs.readdirSync(docsPath, { withFileTypes: true })
+    const rootFiles: DocItem[] = []
+
+    for (const entry of entries) {
+      if (entry.isFile() && entry.name.endsWith('.mdx')) {
+        const filePath = path.join(docsPath, entry.name)
+        const metadata = getFileMetadata(filePath)
+        const baseName = entry.name.replace('.mdx', '')
+
+        const href = baseName === 'home' ? '/docs' : `/docs/${baseName}`
+        const name = baseName === 'home' ? 'Home' : metadata?.title || baseName
+
+        rootFiles.push({
+          id: baseName === 'home' ? 'home' : baseName,
+          name,
+          href,
+          description: metadata?.description,
+        })
+      }
+    }
+
+    if (rootFiles.length > 0) {
+      allSections.push({
+        category: '',
+        items: rootFiles,
+      })
+    }
 
     for (const entry of entries) {
       if (entry.isDirectory()) {
@@ -215,8 +238,43 @@ export function generateNavigation(): DocSection[] {
           `/${entry.name}`,
           entry.name,
         )
-        navigation.push(...sections)
+        allSections.push(...sections)
       }
+    }
+
+    const navigation: DocSection[] = []
+    
+    // Root level pages (Home, Best Practices, API Overview)
+    const rootSection = allSections.find(s => s.category === '')
+    if (rootSection) {
+      // Sort root items to ensure Home appears first
+      const sortedRootItems = rootSection.items.sort((a, b) => {
+        if (a.id === 'home') return -1
+        if (b.id === 'home') return 1
+        return 0
+      })
+      
+      navigation.push({
+        category: '',
+        items: sortedRootItems
+      })
+    }
+    
+    // Packages section with nested packages in specific order
+    const packagesSection = allSections.find(s => s.category === 'packages')
+    if (packagesSection) {
+      // Sort package items in the specific order: common, react, core
+      const packageOrder = ['common', 'react', 'core']
+      const sortedItems = packagesSection.items.sort((a, b) => {
+        const aIndex = packageOrder.findIndex(pkg => a.href.includes(pkg))
+        const bIndex = packageOrder.findIndex(pkg => b.href.includes(pkg))
+        return aIndex - bIndex
+      })
+      
+      navigation.push({
+        category: 'packages',
+        items: sortedItems
+      })
     }
 
     return navigation
@@ -234,7 +292,7 @@ export function getDocData(
 
   let filePath: string | undefined
   if (slug.length === 0) {
-    filePath = path.join(docsPath, 'index.mdx')
+    filePath = path.join(docsPath, 'home.mdx')
   } else {
     const pathSegments = [...slug]
     const fileName = pathSegments[pathSegments.length - 1]
