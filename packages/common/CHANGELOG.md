@@ -1,5 +1,26 @@
 # @web3icons/common
 
+## 0.11.17
+
+### Patch Changes
+
+- add networks:
+
+  - vaulta (branded, mono, background)
+  - movement (branded, mono, background)
+  - supra movevm (branded, mono, background)
+  - stacks (branded, mono, background)
+
+  add tokens:
+
+  - A (branded, mono, background)
+
+## 0.11.16
+
+### Patch Changes
+
+- add EURC token
+
 ## 0.11.15
 
 ### Patch Changes

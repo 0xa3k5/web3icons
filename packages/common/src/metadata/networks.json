@@ -1743,5 +1743,37 @@
     "shortName": "status",
     "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "vaulta",
+    "fileName": "vaulta",
+    "chainId": 17777,
+    "caip2id": "eip155:17777",
+    "name": "Vaulta EVM",
+    "shortName": "Vaulta",
+    "nativeCoinId": "EOS",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "stacks",
+    "fileName": "stacks",
+    "caip2id": "stacks:1",
+    "name": "Stacks",
+    "shortName": "stacks",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "supra-movevm",
+    "fileName": "supra-movevm",
+    "name": "Supra MoveVM",
+    "shortName": "Supra",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "movement",
+    "fileName": "movement",
+    "name": "Movement",
+    "shortName": "movement",
+    "variants": ["background", "branded", "mono"]
   }
 ]

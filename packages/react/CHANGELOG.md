@@ -1,5 +1,31 @@
 # @web3icons/react
 
+## 4.0.21
+
+### Patch Changes
+
+- add networks:
+
+  - vaulta (branded, mono, background)
+  - movement (branded, mono, background)
+  - supra movevm (branded, mono, background)
+  - stacks (branded, mono, background)
+
+  add tokens:
+
+  - A (branded, mono, background)
+
+- Updated dependencies
+  - @web3icons/common@0.11.17
+
+## 4.0.20
+
+### Patch Changes
+
+- add EURC token
+- Updated dependencies
+  - @web3icons/common@0.11.16
+
 ## 4.0.19
 
 ### Patch Changes

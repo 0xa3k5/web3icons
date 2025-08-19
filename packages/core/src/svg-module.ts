@@ -1212,6 +1212,7 @@ import * as TBrandedPROPC from './svgs/tokens/branded/PROPC.svg'
 import * as TBrandedMDT from './svgs/tokens/branded/MDT.svg'
 import * as TBrandedARC from './svgs/tokens/branded/ARC.svg'
 import * as TBrandedDREP from './svgs/tokens/branded/DREP.svg'
+import * as TBrandedA from './svgs/tokens/branded/A.svg'
 import * as TBrandedDERC from './svgs/tokens/branded/DERC.svg'
 import * as TBrandedSTORJ from './svgs/tokens/branded/STORJ.svg'
 import * as TBrandedVGX from './svgs/tokens/branded/VGX.svg'
@@ -1295,6 +1296,7 @@ import * as TBrandedLOOKS from './svgs/tokens/branded/LOOKS.svg'
 import * as TBrandedEURT from './svgs/tokens/branded/EURT.svg'
 import * as TBrandedBETA from './svgs/tokens/branded/BETA.svg'
 import * as TBrandedEVMOS from './svgs/tokens/branded/EVMOS.svg'
+import * as TBrandedEURC from './svgs/tokens/branded/EURC.svg'
 import * as TBrandedPINKSALE from './svgs/tokens/branded/PINKSALE.svg'
 import * as TBrandedRDD from './svgs/tokens/branded/RDD.svg'
 import * as TBrandedXAUR from './svgs/tokens/branded/XAUR.svg'
@@ -2823,6 +2825,7 @@ import * as TMonoVR from './svgs/tokens/mono/VR.svg'
 import * as TMonoPROPC from './svgs/tokens/mono/PROPC.svg'
 import * as TMonoMDT from './svgs/tokens/mono/MDT.svg'
 import * as TMonoARC from './svgs/tokens/mono/ARC.svg'
+import * as TMonoA from './svgs/tokens/mono/A.svg'
 import * as TMonoDERC from './svgs/tokens/mono/DERC.svg'
 import * as TMonoSTORJ from './svgs/tokens/mono/STORJ.svg'
 import * as TMonoVGX from './svgs/tokens/mono/VGX.svg'
@@ -2891,6 +2894,7 @@ import * as TMonoLOOKS from './svgs/tokens/mono/LOOKS.svg'
 import * as TMonoEURT from './svgs/tokens/mono/EURT.svg'
 import * as TMonoBETA from './svgs/tokens/mono/BETA.svg'
 import * as TMonoEVMOS from './svgs/tokens/mono/EVMOS.svg'
+import * as TMonoEURC from './svgs/tokens/mono/EURC.svg'
 import * as TMonoPINKSALE from './svgs/tokens/mono/PINKSALE.svg'
 import * as TMonoRDD from './svgs/tokens/mono/RDD.svg'
 import * as TMonoXAUR from './svgs/tokens/mono/XAUR.svg'
@@ -4522,6 +4526,7 @@ import * as TBackgroundPROPC from './svgs/tokens/background/PROPC.svg'
 import * as TBackgroundMDT from './svgs/tokens/background/MDT.svg'
 import * as TBackgroundARC from './svgs/tokens/background/ARC.svg'
 import * as TBackgroundDREP from './svgs/tokens/background/DREP.svg'
+import * as TBackgroundA from './svgs/tokens/background/A.svg'
 import * as TBackgroundDERC from './svgs/tokens/background/DERC.svg'
 import * as TBackgroundSTORJ from './svgs/tokens/background/STORJ.svg'
 import * as TBackgroundVGX from './svgs/tokens/background/VGX.svg'
@@ -4605,6 +4610,7 @@ import * as TBackgroundLOOKS from './svgs/tokens/background/LOOKS.svg'
 import * as TBackgroundEURT from './svgs/tokens/background/EURT.svg'
 import * as TBackgroundBETA from './svgs/tokens/background/BETA.svg'
 import * as TBackgroundEVMOS from './svgs/tokens/background/EVMOS.svg'
+import * as TBackgroundEURC from './svgs/tokens/background/EURC.svg'
 import * as TBackgroundPINKSALE from './svgs/tokens/background/PINKSALE.svg'
 import * as TBackgroundRDD from './svgs/tokens/background/RDD.svg'
 import * as TBackgroundXAUR from './svgs/tokens/background/XAUR.svg'
@@ -5107,6 +5113,7 @@ import * as NBrandedEthereum from './svgs/networks/branded/ethereum.svg'
 import * as NBrandedNeonEvm from './svgs/networks/branded/neon-evm.svg'
 import * as NBrandedMint from './svgs/networks/branded/mint.svg'
 import * as NBrandedZyx from './svgs/networks/branded/zyx.svg'
+import * as NBrandedMovement from './svgs/networks/branded/movement.svg'
 import * as NBrandedCronosZkevm from './svgs/networks/branded/cronos-zkevm.svg'
 import * as NBrandedApexLayer from './svgs/networks/branded/apex-layer.svg'
 import * as NBrandedLavaNetwork from './svgs/networks/branded/lava-network.svg'
@@ -5171,6 +5178,7 @@ import * as NBrandedBitcoin from './svgs/networks/branded/bitcoin.svg'
 import * as NBrandedLitecoin from './svgs/networks/branded/litecoin.svg'
 import * as NBrandedVana from './svgs/networks/branded/vana.svg'
 import * as NBrandedWemix from './svgs/networks/branded/wemix.svg'
+import * as NBrandedStacks from './svgs/networks/branded/stacks.svg'
 import * as NBrandedBob from './svgs/networks/branded/bob.svg'
 import * as NBrandedBotanix from './svgs/networks/branded/botanix.svg'
 import * as NBrandedSys from './svgs/networks/branded/sys.svg'
@@ -5179,6 +5187,7 @@ import * as NBrandedTreasure from './svgs/networks/branded/treasure.svg'
 import * as NBrandedShiden from './svgs/networks/branded/shiden.svg'
 import * as NBrandedStargaze from './svgs/networks/branded/stargaze.svg'
 import * as NBrandedKardia from './svgs/networks/branded/kardia.svg'
+import * as NBrandedSupraMovevm from './svgs/networks/branded/supra-movevm.svg'
 import * as NBrandedBlast from './svgs/networks/branded/blast.svg'
 import * as NBrandedEtherlink from './svgs/networks/branded/etherlink.svg'
 import * as NBrandedRari from './svgs/networks/branded/rari.svg'
@@ -5186,6 +5195,7 @@ import * as NBrandedUnichain from './svgs/networks/branded/unichain.svg'
 import * as NBrandedRei from './svgs/networks/branded/rei.svg'
 import * as NBrandedKarura from './svgs/networks/branded/karura.svg'
 import * as NBrandedZircuit from './svgs/networks/branded/zircuit.svg'
+import * as NBrandedVaulta from './svgs/networks/branded/vaulta.svg'
 import * as NBrandedWorld from './svgs/networks/branded/world.svg'
 import * as NBrandedSui from './svgs/networks/branded/sui.svg'
 import * as NBrandedZeroNetwork from './svgs/networks/branded/zero-network.svg'
@@ -5287,6 +5297,7 @@ import * as NMonoEthereum from './svgs/networks/mono/ethereum.svg'
 import * as NMonoNeonEvm from './svgs/networks/mono/neon-evm.svg'
 import * as NMonoMint from './svgs/networks/mono/mint.svg'
 import * as NMonoZyx from './svgs/networks/mono/zyx.svg'
+import * as NMonoMovement from './svgs/networks/mono/movement.svg'
 import * as NMonoCronosZkevm from './svgs/networks/mono/cronos-zkevm.svg'
 import * as NMonoApexLayer from './svgs/networks/mono/apex-layer.svg'
 import * as NMonoLavaNetwork from './svgs/networks/mono/lava-network.svg'
@@ -5349,6 +5360,7 @@ import * as NMonoBitcoin from './svgs/networks/mono/bitcoin.svg'
 import * as NMonoLitecoin from './svgs/networks/mono/litecoin.svg'
 import * as NMonoVana from './svgs/networks/mono/vana.svg'
 import * as NMonoWemix from './svgs/networks/mono/wemix.svg'
+import * as NMonoStacks from './svgs/networks/mono/stacks.svg'
 import * as NMonoBob from './svgs/networks/mono/bob.svg'
 import * as NMonoBotanix from './svgs/networks/mono/botanix.svg'
 import * as NMonoSys from './svgs/networks/mono/sys.svg'
@@ -5357,6 +5369,7 @@ import * as NMonoTreasure from './svgs/networks/mono/treasure.svg'
 import * as NMonoShiden from './svgs/networks/mono/shiden.svg'
 import * as NMonoStargaze from './svgs/networks/mono/stargaze.svg'
 import * as NMonoKardia from './svgs/networks/mono/kardia.svg'
+import * as NMonoSupraMovevm from './svgs/networks/mono/supra-movevm.svg'
 import * as NMonoBlast from './svgs/networks/mono/blast.svg'
 import * as NMonoEtherlink from './svgs/networks/mono/etherlink.svg'
 import * as NMonoRari from './svgs/networks/mono/rari.svg'
@@ -5364,6 +5377,7 @@ import * as NMonoUnichain from './svgs/networks/mono/unichain.svg'
 import * as NMonoRei from './svgs/networks/mono/rei.svg'
 import * as NMonoKarura from './svgs/networks/mono/karura.svg'
 import * as NMonoZircuit from './svgs/networks/mono/zircuit.svg'
+import * as NMonoVaulta from './svgs/networks/mono/vaulta.svg'
 import * as NMonoWorld from './svgs/networks/mono/world.svg'
 import * as NMonoSui from './svgs/networks/mono/sui.svg'
 import * as NMonoZeroNetwork from './svgs/networks/mono/zero-network.svg'
@@ -5465,6 +5479,7 @@ import * as NBackgroundEthereum from './svgs/networks/background/ethereum.svg'
 import * as NBackgroundNeonEvm from './svgs/networks/background/neon-evm.svg'
 import * as NBackgroundMint from './svgs/networks/background/mint.svg'
 import * as NBackgroundZyx from './svgs/networks/background/zyx.svg'
+import * as NBackgroundMovement from './svgs/networks/background/movement.svg'
 import * as NBackgroundCronosZkevm from './svgs/networks/background/cronos-zkevm.svg'
 import * as NBackgroundApexLayer from './svgs/networks/background/apex-layer.svg'
 import * as NBackgroundLavaNetwork from './svgs/networks/background/lava-network.svg'
@@ -5529,6 +5544,7 @@ import * as NBackgroundBitcoin from './svgs/networks/background/bitcoin.svg'
 import * as NBackgroundLitecoin from './svgs/networks/background/litecoin.svg'
 import * as NBackgroundVana from './svgs/networks/background/vana.svg'
 import * as NBackgroundWemix from './svgs/networks/background/wemix.svg'
+import * as NBackgroundStacks from './svgs/networks/background/stacks.svg'
 import * as NBackgroundBob from './svgs/networks/background/bob.svg'
 import * as NBackgroundBotanix from './svgs/networks/background/botanix.svg'
 import * as NBackgroundSys from './svgs/networks/background/sys.svg'
@@ -5537,6 +5553,7 @@ import * as NBackgroundTreasure from './svgs/networks/background/treasure.svg'
 import * as NBackgroundShiden from './svgs/networks/background/shiden.svg'
 import * as NBackgroundStargaze from './svgs/networks/background/stargaze.svg'
 import * as NBackgroundKardia from './svgs/networks/background/kardia.svg'
+import * as NBackgroundSupraMovevm from './svgs/networks/background/supra-movevm.svg'
 import * as NBackgroundBlast from './svgs/networks/background/blast.svg'
 import * as NBackgroundEtherlink from './svgs/networks/background/etherlink.svg'
 import * as NBackgroundRari from './svgs/networks/background/rari.svg'
@@ -5544,6 +5561,7 @@ import * as NBackgroundUnichain from './svgs/networks/background/unichain.svg'
 import * as NBackgroundRei from './svgs/networks/background/rei.svg'
 import * as NBackgroundKarura from './svgs/networks/background/karura.svg'
 import * as NBackgroundZircuit from './svgs/networks/background/zircuit.svg'
+import * as NBackgroundVaulta from './svgs/networks/background/vaulta.svg'
 import * as NBackgroundWorld from './svgs/networks/background/world.svg'
 import * as NBackgroundSui from './svgs/networks/background/sui.svg'
 import * as NBackgroundZeroNetwork from './svgs/networks/background/zero-network.svg'
@@ -7031,6 +7049,7 @@ export const svgs = {
       MDT: TBrandedMDT,
       ARC: TBrandedARC,
       DREP: TBrandedDREP,
+      A: TBrandedA,
       DERC: TBrandedDERC,
       STORJ: TBrandedSTORJ,
       VGX: TBrandedVGX,
@@ -7114,6 +7133,7 @@ export const svgs = {
       EURT: TBrandedEURT,
       BETA: TBrandedBETA,
       EVMOS: TBrandedEVMOS,
+      EURC: TBrandedEURC,
       PINKSALE: TBrandedPINKSALE,
       RDD: TBrandedRDD,
       XAUR: TBrandedXAUR,
@@ -8644,6 +8664,7 @@ export const svgs = {
       PROPC: TMonoPROPC,
       MDT: TMonoMDT,
       ARC: TMonoARC,
+      A: TMonoA,
       DERC: TMonoDERC,
       STORJ: TMonoSTORJ,
       VGX: TMonoVGX,
@@ -8712,6 +8733,7 @@ export const svgs = {
       EURT: TMonoEURT,
       BETA: TMonoBETA,
       EVMOS: TMonoEVMOS,
+      EURC: TMonoEURC,
       PINKSALE: TMonoPINKSALE,
       RDD: TMonoRDD,
       XAUR: TMonoXAUR,
@@ -10345,6 +10367,7 @@ export const svgs = {
       MDT: TBackgroundMDT,
       ARC: TBackgroundARC,
       DREP: TBackgroundDREP,
+      A: TBackgroundA,
       DERC: TBackgroundDERC,
       STORJ: TBackgroundSTORJ,
       VGX: TBackgroundVGX,
@@ -10428,6 +10451,7 @@ export const svgs = {
       EURT: TBackgroundEURT,
       BETA: TBackgroundBETA,
       EVMOS: TBackgroundEVMOS,
+      EURC: TBackgroundEURC,
       PINKSALE: TBackgroundPINKSALE,
       RDD: TBackgroundRDD,
       XAUR: TBackgroundXAUR,
@@ -10934,6 +10958,7 @@ export const svgs = {
       'neon-evm': NBrandedNeonEvm,
       mint: NBrandedMint,
       zyx: NBrandedZyx,
+      movement: NBrandedMovement,
       'cronos-zkevm': NBrandedCronosZkevm,
       'apex-layer': NBrandedApexLayer,
       'lava-network': NBrandedLavaNetwork,
@@ -10998,6 +11023,7 @@ export const svgs = {
       litecoin: NBrandedLitecoin,
       vana: NBrandedVana,
       wemix: NBrandedWemix,
+      stacks: NBrandedStacks,
       bob: NBrandedBob,
       botanix: NBrandedBotanix,
       sys: NBrandedSys,
@@ -11006,6 +11032,7 @@ export const svgs = {
       shiden: NBrandedShiden,
       stargaze: NBrandedStargaze,
       kardia: NBrandedKardia,
+      'supra-movevm': NBrandedSupraMovevm,
       blast: NBrandedBlast,
       etherlink: NBrandedEtherlink,
       rari: NBrandedRari,
@@ -11013,6 +11040,7 @@ export const svgs = {
       rei: NBrandedRei,
       karura: NBrandedKarura,
       zircuit: NBrandedZircuit,
+      vaulta: NBrandedVaulta,
       world: NBrandedWorld,
       sui: NBrandedSui,
       'zero-network': NBrandedZeroNetwork,
@@ -11116,6 +11144,7 @@ export const svgs = {
       'neon-evm': NMonoNeonEvm,
       mint: NMonoMint,
       zyx: NMonoZyx,
+      movement: NMonoMovement,
       'cronos-zkevm': NMonoCronosZkevm,
       'apex-layer': NMonoApexLayer,
       'lava-network': NMonoLavaNetwork,
@@ -11178,6 +11207,7 @@ export const svgs = {
       litecoin: NMonoLitecoin,
       vana: NMonoVana,
       wemix: NMonoWemix,
+      stacks: NMonoStacks,
       bob: NMonoBob,
       botanix: NMonoBotanix,
       sys: NMonoSys,
@@ -11186,6 +11216,7 @@ export const svgs = {
       shiden: NMonoShiden,
       stargaze: NMonoStargaze,
       kardia: NMonoKardia,
+      'supra-movevm': NMonoSupraMovevm,
       blast: NMonoBlast,
       etherlink: NMonoEtherlink,
       rari: NMonoRari,
@@ -11193,6 +11224,7 @@ export const svgs = {
       rei: NMonoRei,
       karura: NMonoKarura,
       zircuit: NMonoZircuit,
+      vaulta: NMonoVaulta,
       world: NMonoWorld,
       sui: NMonoSui,
       'zero-network': NMonoZeroNetwork,
@@ -11296,6 +11328,7 @@ export const svgs = {
       'neon-evm': NBackgroundNeonEvm,
       mint: NBackgroundMint,
       zyx: NBackgroundZyx,
+      movement: NBackgroundMovement,
       'cronos-zkevm': NBackgroundCronosZkevm,
       'apex-layer': NBackgroundApexLayer,
       'lava-network': NBackgroundLavaNetwork,
@@ -11360,6 +11393,7 @@ export const svgs = {
       litecoin: NBackgroundLitecoin,
       vana: NBackgroundVana,
       wemix: NBackgroundWemix,
+      stacks: NBackgroundStacks,
       bob: NBackgroundBob,
       botanix: NBackgroundBotanix,
       sys: NBackgroundSys,
@@ -11368,6 +11402,7 @@ export const svgs = {
       shiden: NBackgroundShiden,
       stargaze: NBackgroundStargaze,
       kardia: NBackgroundKardia,
+      'supra-movevm': NBackgroundSupraMovevm,
       blast: NBackgroundBlast,
       etherlink: NBackgroundEtherlink,
       rari: NBackgroundRari,
@@ -11375,6 +11410,7 @@ export const svgs = {
       rei: NBackgroundRei,
       karura: NBackgroundKarura,
       zircuit: NBackgroundZircuit,
+      vaulta: NBackgroundVaulta,
       world: NBackgroundWorld,
       sui: NBackgroundSui,
       'zero-network': NBackgroundZeroNetwork,

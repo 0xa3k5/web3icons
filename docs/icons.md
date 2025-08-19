@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (181)](#networks)
+- [networks (185)](#networks)
 - [exchanges (26)](#exchanges)
-- [tokens (1824)](#tokens)
+- [tokens (1826)](#tokens)
 
 ### Wallets
 
@@ -233,6 +233,10 @@ jump to section:
 | katana              | Katana                       | ✅      | ✅   | ✅         |
 | ozean               | Ozean                        | ✅      | ✅   | ✅         |
 | status              | Status                       | ✅      | ✅   | ✅         |
+| vaulta              | Vaulta EVM                   | ✅      | ✅   | ✅         |
+| stacks              | Stacks                       | ✅      | ✅   | ✅         |
+| supra-movevm        | Supra MoveVM                 | ✅      | ✅   | ✅         |
+| movement            | Movement                     | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2093,3 +2097,5 @@ jump to section:
 | Swell                                  | SWELL       | ✅      | ✅   | ✅         |
 | ARI                                    | ARI         | ✅      | ✅   | ✅         |
 | peaq                                   | PEAQ        | ✅      | ✅   | ✅         |
+| EURC                                   | EURC        | ✅      | ✅   | ✅         |
+| Vaulta                                 | A           | ✅      | ✅   | ✅         |
