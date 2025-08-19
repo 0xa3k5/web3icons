@@ -8,13 +8,13 @@ interface DocPageProps {
   params: { slug: string[] }
 }
 
-export function generateStaticParams() {
-  const paths = getAllDocsPaths()
+export async function generateStaticParams() {
+  const paths = await getAllDocsPaths()
   return paths.map((slug) => ({ slug }))
 }
 
-export function generateMetadata({ params }: DocPageProps) {
-  const docData = getDocData(params.slug || [])
+export async function generateMetadata({ params }: DocPageProps) {
+  const docData = await getDocData(params.slug || [])
 
   if (!docData) {
     return {
@@ -29,8 +29,8 @@ export function generateMetadata({ params }: DocPageProps) {
   }
 }
 
-export default function DocPage({ params }: DocPageProps) {
-  const docData = getDocData(params.slug || [])
+export default async function DocPage({ params }: DocPageProps) {
+  const docData = await getDocData(params.slug || [])
 
   if (!docData) {
     notFound()

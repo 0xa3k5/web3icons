@@ -7,8 +7,8 @@ interface DocsLayoutProps {
   children: ReactNode
 }
 
-export default function DocsLayout({ children }: DocsLayoutProps) {
-  const sidebarGroups = generateNavigation()
+export default async function DocsLayout({ children }: DocsLayoutProps) {
+  const sidebarGroups = await generateNavigation()
 
   return (
     <div className="grid h-full w-full grid-cols-12 gap-2">

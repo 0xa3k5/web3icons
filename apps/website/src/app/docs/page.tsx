@@ -10,8 +10,8 @@ export const metadata = {
     'Comprehensive guide to using Web3 Icons - the most complete library of crypto icons for tokens, networks, wallets, and exchanges',
 }
 
-export default function DocsPage() {
-  const docData = getDocData([])
+export default async function DocsPage() {
+  const docData = await getDocData([])
 
   if (!docData) {
     notFound()
