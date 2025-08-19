@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @theme {
   --color-gray-lightest: #222222;
@@ -10,9 +11,12 @@
   --color-primary: #FF3D00;
   --color-white: #FFFFFF;
   --color-transparent: transparent;
+
+  --prose-img-border-radius: var(--radius-xl);
 }
 
 body {
   color: var(--color-white);
   background-color: var(--color-gray-darkest);
 }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

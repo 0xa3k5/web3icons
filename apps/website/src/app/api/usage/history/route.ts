@@ -13,11 +13,14 @@ export async function GET(request: Request) {
     const url = new URL(request.url)
     const period = url.searchParams.get('period') || '7d'
 
-    const response = await fetch(`${API_URL}/management/usage/history?period=${period}`, {
-      headers: {
-        'x-clerk-user-id': userId,
+    const response = await fetch(
+      `${API_URL}/management/usage/history?period=${period}`,
+      {
+        headers: {
+          'x-clerk-user-id': userId,
+        },
       },
-    })
+    )
 
     if (!response.ok) {
       throw new Error('Failed to fetch usage history from API')

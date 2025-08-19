@@ -53,7 +53,6 @@ export async function fetchApiKeysWithUsage(): Promise<IApiKeyWithUsage[]> {
   const { userId } = auth()
   if (!userId) throw new Error('Unauthorized')
 
-
   // Fetch both API keys and their usage
   const [keysResponse, usageResponse] = await Promise.all([
     fetch(`${API_URL}/management/keys`, {

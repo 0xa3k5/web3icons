@@ -2,7 +2,9 @@ import { randomBytes, createCipher, createDecipher } from 'crypto'
 import bcrypt from 'bcryptjs'
 import { supabase, type ApiKey } from './supabase'
 
-const ENCRYPTION_SECRET = process.env.API_KEY_ENCRYPTION_SECRET || 'fallback-secret-key-change-in-production'
+const ENCRYPTION_SECRET =
+  process.env.API_KEY_ENCRYPTION_SECRET ||
+  'fallback-secret-key-change-in-production'
 
 function encryptApiKey(key: string): string {
   const cipher = createCipher('aes-256-cbc', ENCRYPTION_SECRET)

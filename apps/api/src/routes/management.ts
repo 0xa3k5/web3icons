@@ -49,8 +49,11 @@ management.post('/keys', async (c) => {
 
     // use the generateApiKey function from api-keys lib
     const { generateApiKey } = await import('../lib/api-keys')
-    
-    const { key: fullKey, apiKey: data } = await generateApiKey(name.trim(), clerkUserId)
+
+    const { key: fullKey, apiKey: data } = await generateApiKey(
+      name.trim(),
+      clerkUserId,
+    )
 
     return c.json({
       key: fullKey,
@@ -365,16 +368,16 @@ const revealRateLimit = new Map<string, { count: number; resetAt: number }>()
 function checkRevealRateLimit(userId: string): boolean {
   const now = Date.now()
   const userLimit = revealRateLimit.get(userId)
-  
+
   if (!userLimit || now > userLimit.resetAt) {
     revealRateLimit.set(userId, { count: 1, resetAt: now + 60000 }) // 1 minute
     return true
   }
-  
+
   if (userLimit.count >= 5) {
     return false
   }
-  
+
   userLimit.count++
   return true
 }
@@ -390,7 +393,10 @@ management.get('/keys/:id/reveal', async (c) => {
 
   // Check rate limit
   if (!checkRevealRateLimit(clerkUserId)) {
-    return c.json({ error: 'rate limit exceeded - max 5 reveals per minute' }, 429)
+    return c.json(
+      { error: 'rate limit exceeded - max 5 reveals per minute' },
+      429,
+    )
   }
 
   try {
