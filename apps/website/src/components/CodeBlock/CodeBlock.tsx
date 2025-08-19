@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { CopyButton } from '../copy-button'
 import { highlight, type Language } from './shiki'
 import Tabs from '../tabs'
@@ -16,6 +16,7 @@ interface Props {
   tabs: Tab[]
   classNames?: string
   wrap?: boolean
+  as?: 'pre' | 'span'
 }
 
 export default function CodeBlock({
@@ -23,6 +24,7 @@ export default function CodeBlock({
   tabs,
   classNames,
   wrap = false,
+  as = 'pre',
 }: Props): JSX.Element {
   const [lines, setLines] = useState<{ content: string; style: any }[][]>([])
   const [activeTab, setActiveTab] = useState<Tab>(tabs[0]!)
@@ -89,20 +91,22 @@ export default function CodeBlock({
                 {index + 1}
               </span>
             ) : null}
-            <pre
-              data-wrap={wrap}
-              className={cx(
-                'flex-1 select-text',
-                'data-[wrap=true]:break-words data-[wrap=true]:whitespace-pre-wrap',
-                'data-[wrap=false]:whitespace-pre',
-              )}
-            >
-              {line.map((token, i) => (
+            {React.createElement(
+              as,
+              {
+                'data-wrap': wrap,
+                className: cx(
+                  'flex-1 select-text',
+                  'data-[wrap=true]:whitespace-pre-wrap data-[wrap=true]:break-words',
+                  'data-[wrap=false]:whitespace-pre',
+                ),
+              },
+              line.map((token, i) => (
                 <span key={i} style={{ color: token.style.color }}>
                   {token.content}
                 </span>
-              ))}
-            </pre>
+              )),
+            )}
           </div>
         ))}
       </div>

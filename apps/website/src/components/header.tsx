@@ -26,6 +26,12 @@ export function Header({ className }: Props) {
         </div>
 
         <div className="flex items-center gap-4">
+          <Link href="/docs">
+            <Button variant="ghost" size="sm">
+              docs
+            </Button>
+          </Link>
+          
           <SignedOut>
             <SignInButton mode="modal">
               <Button variant="secondary" size="sm">
