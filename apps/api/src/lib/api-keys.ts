@@ -1,23 +1,53 @@
-import { randomBytes, createCipher, createDecipher } from 'crypto'
+import {
+  randomBytes,
+  createCipheriv,
+  createDecipheriv,
+  pbkdf2Sync,
+} from 'crypto'
 import bcrypt from 'bcryptjs'
 import { supabase, type ApiKey } from './supabase'
 
-const ENCRYPTION_SECRET =
-  process.env.API_KEY_ENCRYPTION_SECRET ||
-  'fallback-secret-key-change-in-production'
-
-function encryptApiKey(key: string): string {
-  const cipher = createCipher('aes-256-cbc', ENCRYPTION_SECRET)
-  let encrypted = cipher.update(key, 'utf8', 'hex')
-  encrypted += cipher.final('hex')
-  return encrypted
+const ENCRYPTION_SECRET = process.env.API_KEY_ENCRYPTION_SECRET
+if (!ENCRYPTION_SECRET) {
+  throw new Error('API_KEY_ENCRYPTION_SECRET environment variable is required')
 }
 
-export function decryptApiKey(encryptedKey: string): string {
-  const decipher = createDecipher('aes-256-cbc', ENCRYPTION_SECRET)
-  let decrypted = decipher.update(encryptedKey, 'hex', 'utf8')
-  decrypted += decipher.final('utf8')
-  return decrypted
+function encryptApiKey(key: string): string {
+  try {
+    const salt = randomBytes(16)
+    const iv = randomBytes(16)
+    const derivedKey = pbkdf2Sync(ENCRYPTION_SECRET!, new Uint8Array(salt), 100000, 32, 'sha256')
+
+    const cipher = createCipheriv('aes-256-cbc', new Uint8Array(derivedKey), new Uint8Array(iv))
+    let encrypted = cipher.update(key, 'utf8', 'hex')
+    encrypted += cipher.final('hex')
+
+    return salt.toString('hex') + ':' + iv.toString('hex') + ':' + encrypted
+  } catch (error) {
+    throw new Error('Failed to encrypt API key')
+  }
+}
+
+export function decryptApiKey(encryptedData: string): string {
+  try {
+    const parts = encryptedData.split(':')
+    if (parts.length !== 3) {
+      throw new Error('Invalid encrypted data format')
+    }
+
+    const salt = Buffer.from(parts[0], 'hex')
+    const iv = Buffer.from(parts[1], 'hex')
+    const encrypted = parts[2]
+
+    const derivedKey = pbkdf2Sync(ENCRYPTION_SECRET!, new Uint8Array(salt), 100000, 32, 'sha256')
+
+    const decipher = createDecipheriv('aes-256-cbc', new Uint8Array(derivedKey), new Uint8Array(iv))
+    let decrypted = decipher.update(encrypted, 'hex', 'utf8')
+    decrypted += decipher.final('utf8')
+    return decrypted
+  } catch (error) {
+    throw new Error('Failed to decrypt API key')
+  }
 }
 
 export async function generateApiKey(
@@ -147,7 +177,7 @@ export async function logApiUsage(
   userAgent?: string,
   ipAddress?: string,
 ): Promise<void> {
-  await supabase.from('api_usage').insert({
+  const { error } = await supabase.from('api_usage').insert({
     api_key_id: apiKeyId,
     endpoint,
     method,
@@ -157,4 +187,8 @@ export async function logApiUsage(
     user_agent: userAgent,
     ip_address: ipAddress,
   })
+  
+  if (error) {
+    console.error('Failed to log API usage:', error)
+  }
 }
