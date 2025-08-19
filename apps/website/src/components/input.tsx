@@ -42,7 +42,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         )}
 
         <div className="relative">
-          {!!iconBefore && (
+          {iconBefore && (
             <div className="absolute top-1/2 left-3 -translate-y-1/2 text-white/60">
               {iconBefore}
             </div>
@@ -53,9 +53,9 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
             id={inputId}
             className={cx(
               'border-gray-lightest bg-gray w-full border px-3 py-2 text-sm text-white placeholder:text-white/40 focus:border-white/40 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50',
-              iconBefore && 'pl-10',
-              iconAfter && 'pr-10',
-              error && 'border-red-400 focus:border-red-400',
+              !!iconBefore && 'pl-10',
+              !!iconAfter && 'pr-10',
+              !!error && 'border-red-400 focus:border-red-400',
               className,
             )}
             aria-invalid={error ? 'true' : 'false'}
@@ -70,14 +70,14 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
             {...props}
           />
 
-          {!!iconAfter && (
+          {iconAfter && (
             <div className="absolute top-1/2 right-3 -translate-y-1/2 text-white/60">
               {iconAfter}
             </div>
           )}
         </div>
 
-        {!!error && (
+        {error && (
           <p
             id={`${inputId}-error`}
             className="mt-1 text-sm text-red-400"
