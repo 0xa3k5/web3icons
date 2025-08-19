@@ -10,6 +10,7 @@ interface TabsProps {
   size?: 'sm' | 'md'
   separator?: boolean
   slotAfter?: React.ReactNode
+  groupName?: string
 }
 
 export default function Tabs({
@@ -20,10 +21,12 @@ export default function Tabs({
   size = 'md',
   separator = true,
   slotAfter,
+  groupName,
 }: TabsProps): JSX.Element {
   const [indicatorWidth, setIndicatorWidth] = useState(0)
   const [indicatorOffset, setIndicatorOffset] = useState(0)
   const activeTabRef = useRef<HTMLLabelElement | null>(null)
+  const radioGroupName = groupName || `tabs-${Math.random().toString(36).substr(2, 9)}`
 
   useEffect(() => {
     if (activeTabRef.current) {
@@ -46,15 +49,15 @@ export default function Tabs({
           <Fragment key={tab}>
             <input
               type="radio"
-              id={`tab-${tab}`}
-              name="segmented-control"
+              id={`${radioGroupName}-${tab}`}
+              name={radioGroupName}
               value={tab}
               checked={activeTab === tab}
               onChange={() => onTabChange(tab)}
               className="sr-only"
             />
             <label
-              htmlFor={`tab-${tab}`}
+              htmlFor={`${radioGroupName}-${tab}`}
               className={cx(
                 'z-[1] flex items-center justify-center rounded-full text-base duration-150',
                 size === 'sm' ? 'px-4 py-2 text-sm' : 'px-6 py-2 text-base',

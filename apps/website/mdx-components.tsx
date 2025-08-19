@@ -59,9 +59,9 @@ const Link = (props: any) => {
 
 const Table = (props: any) => {
   return (
-    <div className="my-6 overflow-x-auto rounded-xl">
+    <div className="my-6 overflow-x-auto">
       <table
-        className="divide-gray-lightest border-gray-lightest min-w-full divide-y rounded border"
+        className="divide-gray-lightest border-gray-lightest min-w-full divide-y border"
         {...props}
       />
     </div>

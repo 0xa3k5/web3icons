@@ -12,75 +12,97 @@ function detectPackageManager(content: string): string {
 
 function processConsecutiveCodeBlocks(content: string): string {
   const codeBlockRegex = /```(\w+)\n([\s\S]*?)\n```/g
-  const blocks: Array<{
-    language: string
-    content: string
-    label: string
-    match: string
-  }> = []
-  let match
-
-  while ((match = codeBlockRegex.exec(content)) !== null) {
-    const [fullMatch, language, blockContent] = match
-    const label =
-      language === 'bash' ? detectPackageManager(blockContent || '') : ''
-    blocks.push({
-      language: language || '',
-      content: blockContent || '',
-      label,
-      match: fullMatch,
-    })
-  }
-
   let processedContent = content
-  let i = 0
+  let lastIndex = 0
 
-  while (i < blocks.length) {
-    const currentBlock = blocks[i]
-    const consecutiveBlocks = [currentBlock]
-    let j = i + 1
+  while (true) {
+    codeBlockRegex.lastIndex = lastIndex
+    const firstMatch = codeBlockRegex.exec(processedContent)
 
-    while (j < blocks.length && blocks[j]?.label && currentBlock?.label) {
-      const between = content
-        .slice(
-          content.indexOf(blocks[j - 1]?.match || '') +
-            (blocks[j - 1]?.match?.length || 0),
-          content.indexOf(blocks[j]?.match || ''),
-        )
-        .trim()
+    if (!firstMatch) break
 
-      if (between === '') {
-        consecutiveBlocks.push(blocks[j])
-        j++
-      } else {
-        break
-      }
+    const [firstFullMatch, firstLanguage, firstBlockContent] = firstMatch
+    const firstLabel =
+      firstLanguage === 'bash'
+        ? detectPackageManager(firstBlockContent || '')
+        : ''
+
+    if (!firstLabel) {
+      lastIndex = firstMatch.index + firstFullMatch.length
+      continue
     }
 
-    if (
-      consecutiveBlocks.length > 1 &&
-      consecutiveBlocks.every((b) => b?.label || false)
-    ) {
+    const consecutiveBlocks = [
+      {
+        language: firstLanguage || '',
+        content: firstBlockContent || '',
+        label: firstLabel,
+        match: firstFullMatch,
+        index: firstMatch.index,
+      },
+    ]
+
+    let searchStart = firstMatch.index + firstFullMatch.length
+
+    while (true) {
+      codeBlockRegex.lastIndex = searchStart
+      const nextMatch = codeBlockRegex.exec(processedContent)
+
+      if (!nextMatch) break
+
+      const [nextFullMatch, nextLanguage, nextBlockContent] = nextMatch
+      const nextLabel =
+        nextLanguage === 'bash'
+          ? detectPackageManager(nextBlockContent || '')
+          : ''
+
+      if (!nextLabel) break
+
+      const betweenText = processedContent
+        .slice(searchStart, nextMatch.index)
+        .trim()
+
+      if (betweenText !== '') break
+
+      consecutiveBlocks.push({
+        language: nextLanguage || '',
+        content: nextBlockContent || '',
+        label: nextLabel,
+        match: nextFullMatch,
+        index: nextMatch.index,
+      })
+
+      searchStart = nextMatch.index + nextFullMatch.length
+    }
+
+    if (consecutiveBlocks.length > 1) {
       const tabs = consecutiveBlocks.map((b) => ({
-        label: b?.label || '',
-        content: b?.content || '',
-        language: b?.language || '',
+        label: b.label,
+        content: b.content,
+        language: b.language,
       }))
 
       const groupedBlock = `<CodeBlock as="span" tabs={${JSON.stringify(tabs)}} lineNumbers={false} />`
 
+      let offset = 0
       consecutiveBlocks.forEach((block) => {
-        processedContent = processedContent.replace(block?.match || '', '')
+        const blockIndex = processedContent.indexOf(block.match, offset)
+        processedContent =
+          processedContent.slice(0, blockIndex) +
+          processedContent.slice(blockIndex + block.match.length)
+        offset = blockIndex
       })
 
-      const insertPos = content.indexOf(consecutiveBlocks[0]?.match || '')
+      const insertPos = consecutiveBlocks[0]?.index || 0
       processedContent =
         processedContent.slice(0, insertPos) +
         groupedBlock +
         processedContent.slice(insertPos)
-    }
 
-    i = j
+      lastIndex = insertPos + groupedBlock.length
+    } else {
+      lastIndex = firstMatch.index + firstFullMatch.length
+    }
   }
 
   return processedContent
