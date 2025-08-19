@@ -87,10 +87,15 @@ export async function validateApiKey(key: string): Promise<ApiKey | null> {
     return null
   }
 
+  const keyBytes = key.substring(4)
+  const last4 = keyBytes.slice(-4)
+
   const { data: apiKeys, error } = await supabase
     .from('api_keys')
     .select('*')
     .eq('is_active', true)
+    .eq('last_4', last4)
+    .order('last_used', { ascending: false })
 
   if (error || !apiKeys) {
     return null
@@ -99,10 +104,11 @@ export async function validateApiKey(key: string): Promise<ApiKey | null> {
   for (const apiKey of apiKeys) {
     const isValid = await bcrypt.compare(key, apiKey.key_hash)
     if (isValid) {
-      await supabase
+      supabase
         .from('api_keys')
         .update({ last_used: new Date().toISOString() })
         .eq('id', apiKey.id)
+        .then(() => {})
 
       return apiKey
     }

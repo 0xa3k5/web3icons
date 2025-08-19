@@ -4,9 +4,22 @@ import {
   networks,
   wallets,
   exchanges,
-} from '@web3icons/common/metadata'
+  ITokenMetadata,
+  INetworkMetadata,
+  IWalletMetadata,
+  IExchangeMetadata,
+  TType,
+} from '@web3icons/common'
 
 const search = new Hono()
+interface SearchResultItem {
+  id: string
+  name: string
+  type: TType
+  symbol?: string
+  score: number
+  [key: string]: any
+}
 
 // fuzzy search helper
 function fuzzyMatch(query: string, text: string): boolean {
@@ -27,26 +40,29 @@ function fuzzyMatch(query: string, text: string): boolean {
 }
 
 // calculate relevance score
-function getRelevanceScore(query: string, item: any): number {
+function getRelevanceScore(
+  query: string,
+  item: ITokenMetadata | INetworkMetadata | IWalletMetadata | IExchangeMetadata,
+): number {
   const q = query.toLowerCase()
   let score = 0
 
-  // exact symbol match = highest score
-  if (item.symbol?.toLowerCase() === q) score += 100
+  // exact symbol match = highest score (only for tokens)
+  if ('symbol' in item && item.symbol?.toLowerCase() === q) score += 100
 
   // exact name match
   if (item.name?.toLowerCase() === q) score += 80
 
   // starts with query
-  if (item.symbol?.toLowerCase().startsWith(q)) score += 50
+  if ('symbol' in item && item.symbol?.toLowerCase().startsWith(q)) score += 50
   if (item.name?.toLowerCase().startsWith(q)) score += 40
 
   // contains query
-  if (item.symbol?.toLowerCase().includes(q)) score += 30
+  if ('symbol' in item && item.symbol?.toLowerCase().includes(q)) score += 30
   if (item.name?.toLowerCase().includes(q)) score += 20
 
   // fuzzy match
-  if (fuzzyMatch(q, item.symbol || '')) score += 10
+  if ('symbol' in item && fuzzyMatch(q, item.symbol || '')) score += 10
   if (fuzzyMatch(q, item.name || '')) score += 5
 
   return score
@@ -56,21 +72,45 @@ function getRelevanceScore(query: string, item: any): number {
 search.get('/', (c) => {
   const query = c.req.query('q')
   const type = c.req.query('type') // optional filter: token, network, wallet, exchange
-  const limit = parseInt(c.req.query('limit') || '20')
-  const offset = parseInt(c.req.query('offset') || '0')
+  const limitParam = c.req.query('limit') || '20'
+  const offsetParam = c.req.query('offset') || '0'
 
   if (!query) {
     return c.json({ error: 'query parameter required' }, 400)
   }
 
-  let results: any[] = []
+  if (query.length > 100) {
+    return c.json({ error: 'query too long, maximum 100 characters' }, 400)
+  }
+
+  if (type && !['token', 'network', 'wallet', 'exchange'].includes(type)) {
+    return c.json(
+      {
+        error: 'invalid type, must be one of: token, network, wallet, exchange',
+      },
+      400,
+    )
+  }
+
+  const limit = parseInt(limitParam)
+  const offset = parseInt(offsetParam)
+
+  if (isNaN(limit) || limit < 1 || limit > 100) {
+    return c.json({ error: 'invalid limit, must be between 1 and 100' }, 400)
+  }
+
+  if (isNaN(offset) || offset < 0) {
+    return c.json({ error: 'invalid offset, must be 0 or positive' }, 400)
+  }
+
+  let results: SearchResultItem[] = []
 
   // search in each category
   if (!type || type === 'token') {
     const tokenResults = tokens
       .map((token) => ({
         ...token,
-        type: 'token',
+        type: 'token' as TType,
         score: getRelevanceScore(query, token),
       }))
       .filter((item) => item.score > 0)
@@ -81,7 +121,7 @@ search.get('/', (c) => {
     const networkResults = networks
       .map((network) => ({
         ...network,
-        type: 'network',
+        type: 'network' as TType,
         score: getRelevanceScore(query, network),
       }))
       .filter((item) => item.score > 0)
@@ -92,7 +132,7 @@ search.get('/', (c) => {
     const walletResults = wallets
       .map((wallet) => ({
         ...wallet,
-        type: 'wallet',
+        type: 'wallet' as TType,
         score: getRelevanceScore(query, wallet),
       }))
       .filter((item) => item.score > 0)
@@ -103,7 +143,7 @@ search.get('/', (c) => {
     const exchangeResults = exchanges
       .map((exchange) => ({
         ...exchange,
-        type: 'exchange',
+        type: 'exchange' as TType,
         score: getRelevanceScore(query, exchange),
       }))
       .filter((item) => item.score > 0)
@@ -130,63 +170,117 @@ search.get('/', (c) => {
 search.get('/advanced', (c) => {
   const symbol = c.req.query('symbol')
   const name = c.req.query('name')
-  const chain = c.req.query('chain')
-  const tag = c.req.query('tag')
+  const chainId = c.req.query('chainId')
   const type = c.req.query('type')
 
-  let results: any[] = []
+  // Validate input lengths
+  if (symbol && symbol.length > 20) {
+    return c.json({ error: 'symbol too long, maximum 20 characters' }, 400)
+  }
+  if (name && name.length > 100) {
+    return c.json({ error: 'name too long, maximum 100 characters' }, 400)
+  }
+  if (chainId && chainId.length > 20) {
+    return c.json({ error: 'chainId too long, maximum 20 characters' }, 400)
+  }
+  if (type && !['token', 'network', 'wallet', 'exchange'].includes(type)) {
+    return c.json(
+      {
+        error: 'invalid type, must be one of: token, network, wallet, exchange',
+      },
+      400,
+    )
+  }
+
+  // At least one search criteria must be provided
+  if (!symbol && !name && !chainId && !type) {
+    return c.json(
+      { error: 'at least one search criteria must be provided' },
+      400,
+    )
+  }
+
+  let results: SearchResultItem[] = []
 
   // helper to check if item matches all provided criteria
-  const matchesCriteria = (item: any) => {
-    if (symbol && !item.symbol?.toLowerCase().includes(symbol.toLowerCase()))
+  const matchesCriteria = (
+    item:
+      | ITokenMetadata
+      | INetworkMetadata
+      | IWalletMetadata
+      | IExchangeMetadata,
+  ) => {
+    if (
+      symbol &&
+      'symbol' in item &&
+      !item.symbol?.toLowerCase().includes(symbol.toLowerCase())
+    )
       return false
     if (name && !item.name?.toLowerCase().includes(name.toLowerCase()))
       return false
-    if (chain && item.chain !== chain) return false
-    if (tag && (!item.tags || !item.tags.includes(tag))) return false
+    if (chainId && 'chainId' in item && item.chainId?.toString() !== chainId)
+      return false
     return true
   }
 
   // search each type based on filter
   if (!type || type === 'token') {
     results.push(
-      ...tokens.filter(matchesCriteria).map((t) => ({ ...t, type: 'token' })),
+      ...tokens
+        .filter(matchesCriteria)
+        .map((t) => ({ ...t, type: 'token' as TType, score: 0 })),
     )
   }
   if (!type || type === 'network') {
     results.push(
       ...networks
         .filter(matchesCriteria)
-        .map((n) => ({ ...n, type: 'network' })),
+        .map((n) => ({ ...n, type: 'network' as TType, score: 0 })),
     )
   }
   if (!type || type === 'wallet') {
     results.push(
-      ...wallets.filter(matchesCriteria).map((w) => ({ ...w, type: 'wallet' })),
+      ...wallets
+        .filter(matchesCriteria)
+        .map((w) => ({ ...w, type: 'wallet' as TType, score: 0 })),
     )
   }
   if (!type || type === 'exchange') {
     results.push(
       ...exchanges
         .filter(matchesCriteria)
-        .map((e) => ({ ...e, type: 'exchange' })),
+        .map((e) => ({ ...e, type: 'exchange' as TType, score: 0 })),
     )
   }
 
+  const cleanResults = results.map(({ score, ...item }) => item)
+
   return c.json({
-    filters: { symbol, name, chain, tag, type },
-    total: results.length,
-    results,
+    filters: { symbol, name, chainId, type },
+    total: cleanResults.length,
+    results: cleanResults,
   })
 })
 
 // autocomplete/suggestions endpoint
 search.get('/suggest', (c) => {
   const query = c.req.query('q')
-  const limit = parseInt(c.req.query('limit') || '10')
+  const limitParam = c.req.query('limit') || '10'
 
   if (!query || query.length < 1) {
     return c.json({ error: 'query must be at least 1 character' }, 400)
+  }
+
+  if (query.length > 50) {
+    return c.json(
+      { error: 'query too long, maximum 50 characters for suggestions' },
+      400,
+    )
+  }
+
+  const limit = parseInt(limitParam)
+  if (isNaN(limit) || limit < 1 || limit > 50) {
+    return c.json({ error: 'invalid limit, must be between 1 and 50' }, 400)
   }
 
   const suggestions: string[] = []
@@ -205,7 +299,7 @@ search.get('/suggest', (c) => {
   // check all collections
   ;[...tokens, ...networks, ...wallets, ...exchanges].forEach((item) => {
     if (suggestions.length < limit) {
-      addSuggestion(item.symbol)
+      if ('symbol' in item && item.symbol) addSuggestion(item.symbol as string)
       addSuggestion(item.name)
     }
   })
