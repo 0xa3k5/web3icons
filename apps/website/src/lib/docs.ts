@@ -157,8 +157,7 @@ async function getFileContent(filePath: string): Promise<string | null> {
       return null
     }
   } else {
-    const relativePath = path.relative(getDocsPath(), filePath)
-    return await fetchFromGitHub(relativePath)
+    return await fetchFromGitHub(filePath)
   }
 }
 
@@ -212,24 +211,21 @@ async function generateNavigationFromFiles(
       })
     } else {
       const baseName = file.replace('.mdx', '')
-      const isHome = baseName === 'home'
       rootItems.push({
-        id: isHome ? 'home' : baseName,
+        id: baseName,
         name: metadata?.title || baseName,
-        href: isHome ? '/docs' : `/docs/${baseName}`,
+        href: `/docs/${baseName}`,
         description: metadata?.description,
       })
     }
   }
 
-  // Sort root items (home first)
   rootItems.sort((a, b) => {
     if (a.id === 'home') return -1
     if (b.id === 'home') return 1
     return 0
   })
 
-  // Sort packages in specific order
   const packageOrder = ['common', 'react', 'core']
   packageItems.sort((a, b) => {
     const aIndex = packageOrder.findIndex((pkg) => a.href.includes(pkg))
@@ -248,62 +244,60 @@ async function generateNavigationFromFiles(
   return navigation
 }
 
+async function getAllFiles(): Promise<string[]> {
+  const files: string[] = []
+  function scanDirectory(dirPath: string, prefix: string = ''): void {
+    const entries = fs.readdirSync(dirPath, { withFileTypes: true })
+
+    for (const entry of entries) {
+      if (entry.isFile() && entry.name.endsWith('.mdx')) {
+        const filePath = prefix ? `${prefix}/${entry.name}` : entry.name
+        files.push(filePath)
+      } else if (entry.isDirectory()) {
+        const subDirPath = path.join(dirPath, entry.name)
+        const subPrefix = prefix ? `${prefix}/${entry.name}` : entry.name
+        scanDirectory(subDirPath, subPrefix)
+      }
+    }
+  }
+  if (isDevelopment) {
+    const docsPath = getDocsPath()
+    scanDirectory(docsPath)
+    return files
+  } else {
+    return await getManifest()
+  }
+}
+
 export async function generateNavigation(): Promise<DocSection[]> {
   try {
-    if (isDevelopment) {
-      // Development: scan local filesystem
-      const docsPath = getDocsPath()
-      const files: string[] = []
-
-      const entries = fs.readdirSync(docsPath, { withFileTypes: true })
-
-      for (const entry of entries) {
-        if (entry.isFile() && entry.name.endsWith('.mdx')) {
-          files.push(entry.name)
-        } else if (entry.isDirectory() && entry.name === 'packages') {
-          const packageEntries = fs.readdirSync(
-            path.join(docsPath, 'packages'),
-            { withFileTypes: true },
-          )
-          for (const packageEntry of packageEntries) {
-            if (packageEntry.isFile() && packageEntry.name.endsWith('.mdx')) {
-              files.push(`packages/${packageEntry.name}`)
-            }
-          }
-        }
-      }
-
-      return await generateNavigationFromFiles(files)
-    } else {
-      // Production: use manifest
-      const files = await getManifest()
-      return await generateNavigationFromFiles(files)
-    }
+    const files = await getAllFiles()
+    return await generateNavigationFromFiles(files)
   } catch (error) {
     console.error('Error generating navigation:', error)
     return []
   }
 }
 
-// Get a specific doc's content and metadata
 export async function getDocData(
   slug: string[],
 ): Promise<{ content: string; metadata: DocMetadata } | null> {
-  let relativePath: string
-
-  if (slug.length === 0) {
-    relativePath = 'home.mdx'
-  } else if (slug.length === 1) {
-    // Root level files like best-practices, api-overview
-    relativePath = `${slug[0]}.mdx`
-  } else if (slug.length === 2 && slug[0] === 'packages') {
-    // Package files like packages/react
-    relativePath = `packages/${slug[1]}.mdx`
-  } else {
-    return null
-  }
-
   try {
+    const files = await getAllFiles()
+    let relativePath: string | null = null
+
+    for (const file of files) {
+      const pathFromFile = filesToPaths([file])[0]
+      if (pathFromFile && arraysEqual(pathFromFile, slug)) {
+        relativePath = file
+        break
+      }
+    }
+
+    if (!relativePath) {
+      return null
+    }
+
     let fileContents: string | null
 
     if (isDevelopment) {
@@ -331,24 +325,26 @@ export async function getDocData(
       metadata: data as DocMetadata,
     }
   } catch (error) {
-    console.error(`Error reading doc file ${relativePath}:`, error)
+    console.error(`Error reading doc file:`, error)
     return null
   }
+}
+
+function arraysEqual(a: string[], b: string[]): boolean {
+  return a.length === b.length && a.every((val, i) => val === b[i])
 }
 
 function filesToPaths(files: string[]): string[][] {
   const paths: string[][] = []
 
   for (const file of files) {
-    if (file === 'home.mdx') {
-      paths.push([]) // home route
-    } else if (file.startsWith('packages/')) {
-      const packageName = file.replace('packages/', '').replace('.mdx', '')
-      paths.push(['packages', packageName])
-    } else {
-      const baseName = file.replace('.mdx', '')
-      paths.push([baseName])
-    }
+    // Convert file path to URL segments
+    // e.g., "home.mdx" -> ["home"]
+    // e.g., "packages/react.mdx" -> ["packages", "react"]
+    // e.g., "guides/getting-started.mdx" -> ["guides", "getting-started"]
+    const pathWithoutExt = file.replace('.mdx', '')
+    const segments = pathWithoutExt.split('/')
+    paths.push(segments)
   }
 
   return paths
@@ -356,35 +352,8 @@ function filesToPaths(files: string[]): string[][] {
 
 export async function getAllDocsPaths(): Promise<string[][]> {
   try {
-    if (isDevelopment) {
-      // Development: scan local filesystem
-      const docsPath = getDocsPath()
-      const files: string[] = []
-
-      const entries = fs.readdirSync(docsPath, { withFileTypes: true })
-
-      for (const entry of entries) {
-        if (entry.isFile() && entry.name.endsWith('.mdx')) {
-          files.push(entry.name)
-        } else if (entry.isDirectory() && entry.name === 'packages') {
-          const packageEntries = fs.readdirSync(
-            path.join(docsPath, 'packages'),
-            { withFileTypes: true },
-          )
-          for (const packageEntry of packageEntries) {
-            if (packageEntry.isFile() && packageEntry.name.endsWith('.mdx')) {
-              files.push(`packages/${packageEntry.name}`)
-            }
-          }
-        }
-      }
-
-      return filesToPaths(files)
-    } else {
-      // Production: use manifest
-      const files = await getManifest()
-      return filesToPaths(files)
-    }
+    const files = await getAllFiles()
+    return filesToPaths(files)
   } catch (error) {
     console.error('Error generating doc paths:', error)
     return []
