@@ -6,8 +6,8 @@ export interface InputProps
   label?: string
   error?: string
   helperText?: string
-  leftIcon?: React.ReactNode
-  rightIcon?: React.ReactNode
+  iconBefore?: React.ReactNode
+  iconAfter?: React.ReactNode
   containerClassName?: string
 }
 
@@ -19,8 +19,8 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
       label,
       error,
       helperText,
-      leftIcon,
-      rightIcon,
+      iconBefore,
+      iconAfter,
       id,
       required,
       ...props
@@ -42,9 +42,9 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         )}
 
         <div className="relative">
-          {leftIcon && (
-            <div className="absolute left-3 top-1/2 -translate-y-1/2 text-white/60">
-              {leftIcon}
+          {!!iconBefore && (
+            <div className="absolute top-1/2 left-3 -translate-y-1/2 text-white/60">
+              {iconBefore}
             </div>
           )}
 
@@ -53,8 +53,8 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
             id={inputId}
             className={cx(
               'border-gray-lightest bg-gray w-full border px-3 py-2 text-sm text-white placeholder:text-white/40 focus:border-white/40 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50',
-              leftIcon && 'pl-10',
-              rightIcon && 'pr-10',
+              iconBefore && 'pl-10',
+              iconAfter && 'pr-10',
               error && 'border-red-400 focus:border-red-400',
               className,
             )}
@@ -70,14 +70,14 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
             {...props}
           />
 
-          {rightIcon && (
-            <div className="absolute right-3 top-1/2 -translate-y-1/2 text-white/60">
-              {rightIcon}
+          {!!iconAfter && (
+            <div className="absolute top-1/2 right-3 -translate-y-1/2 text-white/60">
+              {iconAfter}
             </div>
           )}
         </div>
 
-        {error && (
+        {!!error && (
           <p
             id={`${inputId}-error`}
             className="mt-1 text-sm text-red-400"
