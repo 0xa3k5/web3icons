@@ -11,12 +11,44 @@
   --color-primary: #FF3D00;
   --color-white: #FFFFFF;
   --color-transparent: transparent;
-
-  --prose-img-border-radius: var(--radius-xl);
 }
 
 body {
   color: var(--color-white);
   background-color: var(--color-gray-darkest);
 }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+@utility prose {
+  --tw-prose-body: rgb(255 255 255 / 0.6);
+  --tw-prose-headings: var(--color-white);
+  --tw-prose-bold: var(--color-white);
+  --tw-prose-quote-borders: rgb(255 255 255 / 0.3);
+  --tw-prose-quotes: rgb(255 255 255 / 0.7);
+  --tw-prose-a: var(--color-white);
+
+  & h1, & h2, & h3, & h4, & h5, & h6 {
+    font-weight: 400;
+  }
+
+  & li, & p, & a, & span, & ul, & ol, & blockquote, & strong {
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+
+  & h1 {
+    font-size: 1.5rem;  
+  }
+
+  & h2 {
+    font-size: 1.25rem;
+  }
+
+  & h3, & h4, & h5 {
+    font-size: 1rem;
+  }
+
+  & h6 {
+    font-size: 0.875rem;
+  }
+
+}

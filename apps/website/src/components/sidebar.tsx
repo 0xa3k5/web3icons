@@ -29,7 +29,7 @@ export function Sidebar({ groups, className, basePath = '' }: Props) {
       <nav className="sticky top-0 flex flex-col gap-4 p-6">
         {groups.map((group) => (
           <div key={group.category} className="flex flex-col gap-1">
-            <h3 className="mb-2 font-mono text-sm text-white/60">
+            <h3 className="mb-2 font-mono text-xs text-white/60 capitalize">
               {group.category}
             </h3>
             {group.items.map((item) => (

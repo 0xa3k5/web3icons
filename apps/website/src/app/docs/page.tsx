@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import { MDXRemote } from 'next-mdx-remote/rsc'
+import remarkGfm from 'remark-gfm'
 import { getDocData } from '../../lib/docs'
 import { useMDXComponents } from '../../../mdx-components'
 
@@ -19,8 +20,16 @@ export default function DocsPage() {
   const components = useMDXComponents()
 
   return (
-    <article className="prose prose-invert prose-headings:underline max-w-none">
-      <MDXRemote source={docData.content} components={components} />
+    <article className="prose prose-invert max-w-none">
+      <MDXRemote 
+        source={docData.content} 
+        components={components}
+        options={{
+          mdxOptions: {
+            remarkPlugins: [remarkGfm],
+          },
+        }}
+      />
     </article>
   )
 }

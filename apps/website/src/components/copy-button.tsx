@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect, PropsWithChildren } from 'react'
+import { useState, useEffect, useRef, PropsWithChildren } from 'react'
 import Tooltip from './tooltip'
 import { Button } from './button'
 import type { ButtonSize } from './button'
@@ -23,6 +23,7 @@ export const CopyButton = ({
   iconOnly = false,
 }: PropsWithChildren<Props>): JSX.Element => {
   const [tooltip, setTooltip] = useState({ toggle: false, text: '' })
+  const buttonRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     let timer: NodeJS.Timeout
@@ -62,7 +63,7 @@ export const CopyButton = ({
   const isIconOnly = iconOnly || !children
 
   return (
-    <div className="relative inline-block">
+    <div ref={buttonRef} className="relative inline-block">
       <Button
         variant={isIconOnly ? 'icon' : 'ghost'}
         size={size}
@@ -77,6 +78,7 @@ export const CopyButton = ({
         text={tooltip.text}
         toggle={tooltip.toggle}
         position={tooltipPosition}
+        buttonRef={buttonRef}
       />
     </div>
   )

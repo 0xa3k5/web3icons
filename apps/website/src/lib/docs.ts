@@ -2,6 +2,90 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
+function detectPackageManager(content: string): string {
+  if (content.includes('npm ')) return 'npm'
+  if (content.includes('yarn ')) return 'yarn'
+  if (content.includes('bun ')) return 'bun'
+  if (content.includes('pnpm ')) return 'pnpm'
+  return ''
+}
+
+function processConsecutiveCodeBlocks(content: string): string {
+  const codeBlockRegex = /```(\w+)\n([\s\S]*?)\n```/g
+  const blocks: Array<{
+    language: string
+    content: string
+    label: string
+    match: string
+  }> = []
+  let match
+
+  while ((match = codeBlockRegex.exec(content)) !== null) {
+    const [fullMatch, language, blockContent] = match
+    const label =
+      language === 'bash' ? detectPackageManager(blockContent || '') : ''
+    blocks.push({
+      language: language || '',
+      content: blockContent || '',
+      label,
+      match: fullMatch,
+    })
+  }
+
+  let processedContent = content
+  let i = 0
+
+  while (i < blocks.length) {
+    const currentBlock = blocks[i]
+    const consecutiveBlocks = [currentBlock]
+    let j = i + 1
+
+    while (j < blocks.length && blocks[j]?.label && currentBlock?.label) {
+      const between = content
+        .slice(
+          content.indexOf(blocks[j - 1]?.match || '') +
+            (blocks[j - 1]?.match?.length || 0),
+          content.indexOf(blocks[j]?.match || ''),
+        )
+        .trim()
+
+      if (between === '') {
+        consecutiveBlocks.push(blocks[j])
+        j++
+      } else {
+        break
+      }
+    }
+
+    if (
+      consecutiveBlocks.length > 1 &&
+      consecutiveBlocks.every((b) => b?.label || false)
+    ) {
+      const tabs = consecutiveBlocks.map((b) => ({
+        label: b?.label || '',
+        content: b?.content || '',
+        language: b?.language || '',
+      }))
+
+      const groupedBlock = `<CodeBlock as="span" tabs={${JSON.stringify(tabs)}} lineNumbers={false} />`
+
+      consecutiveBlocks.forEach((block) => {
+        processedContent = processedContent.replace(block?.match || '', '')
+      })
+
+      const insertPos = content.indexOf(consecutiveBlocks[0]?.match || '')
+      processedContent =
+        processedContent.slice(0, insertPos) +
+        groupedBlock +
+        processedContent.slice(insertPos)
+    }
+
+    i = j
+  }
+
+  return processedContent
+}
+
 export interface DocMetadata {
   title: string
   description: string
@@ -156,9 +240,10 @@ export function getDocData(
   try {
     const fileContents = fs.readFileSync(filePath, 'utf8')
     const { data, content } = matter(fileContents)
+    const processedContent = processConsecutiveCodeBlocks(content)
 
     return {
-      content,
+      content: processedContent,
       metadata: data as DocMetadata,
     }
   } catch (error) {
