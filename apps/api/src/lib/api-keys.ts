@@ -16,9 +16,19 @@ function encryptApiKey(key: string): string {
   try {
     const salt = randomBytes(16)
     const iv = randomBytes(16)
-    const derivedKey = pbkdf2Sync(ENCRYPTION_SECRET!, new Uint8Array(salt), 100000, 32, 'sha256')
+    const derivedKey = pbkdf2Sync(
+      ENCRYPTION_SECRET!,
+      new Uint8Array(salt),
+      100000,
+      32,
+      'sha256',
+    )
 
-    const cipher = createCipheriv('aes-256-cbc', new Uint8Array(derivedKey), new Uint8Array(iv))
+    const cipher = createCipheriv(
+      'aes-256-cbc',
+      new Uint8Array(derivedKey),
+      new Uint8Array(iv),
+    )
     let encrypted = cipher.update(key, 'utf8', 'hex')
     encrypted += cipher.final('hex')
 
@@ -39,9 +49,19 @@ export function decryptApiKey(encryptedData: string): string {
     const iv = Buffer.from(parts[1], 'hex')
     const encrypted = parts[2]
 
-    const derivedKey = pbkdf2Sync(ENCRYPTION_SECRET!, new Uint8Array(salt), 100000, 32, 'sha256')
+    const derivedKey = pbkdf2Sync(
+      ENCRYPTION_SECRET!,
+      new Uint8Array(salt),
+      100000,
+      32,
+      'sha256',
+    )
 
-    const decipher = createDecipheriv('aes-256-cbc', new Uint8Array(derivedKey), new Uint8Array(iv))
+    const decipher = createDecipheriv(
+      'aes-256-cbc',
+      new Uint8Array(derivedKey),
+      new Uint8Array(iv),
+    )
     let decrypted = decipher.update(encrypted, 'hex', 'utf8')
     decrypted += decipher.final('utf8')
     return decrypted
@@ -193,7 +213,7 @@ export async function logApiUsage(
     user_agent: userAgent,
     ip_address: ipAddress,
   })
-  
+
   if (error) {
     console.error('Failed to log API usage:', error)
   }

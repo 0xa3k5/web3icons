@@ -42,7 +42,7 @@
   },
   "scripts": {
     "build": "bun run pre-build && bun run build:types && tsup",
-    "pre-build": "cd ../utils && bun run pre-build:core",
+    "pre-build": "cd ../../scripts/build-scripts/core && bun run core.pre-build.ts",
     "build:types": "tsc --outDir dist/types --declarationDir dist/types --declaration true",
     "post-build": "bun run lint && bun run format",
     "lint": "eslint ./src --ext .ts",
