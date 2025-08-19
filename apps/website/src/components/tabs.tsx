@@ -26,7 +26,8 @@ export default function Tabs({
   const [indicatorWidth, setIndicatorWidth] = useState(0)
   const [indicatorOffset, setIndicatorOffset] = useState(0)
   const activeTabRef = useRef<HTMLLabelElement | null>(null)
-  const radioGroupName = groupName || `tabs-${Math.random().toString(36).substr(2, 9)}`
+  const radioGroupName =
+    groupName || `tabs-${Math.random().toString(36).substr(2, 9)}`
 
   useEffect(() => {
     if (activeTabRef.current) {

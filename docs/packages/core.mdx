@@ -2,6 +2,7 @@
 title: web3icons/core
 description: Framework-agnostic SVG icons for any JavaScript project
 ---
+
 ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Fcore)
 
 # @web3icons/core
@@ -59,7 +60,7 @@ import { svgs } from '@web3icons/core'
 export default {
   data() {
     return { bitcoinIcon: svgs.tokens.brandedBTC }
-  }
+  },
 }
 </script>
 ```
@@ -69,7 +70,7 @@ import { Component } from '@angular/core'
 import { svgs } from '@web3icons/core'
 
 @Component({
-  template: '<img [src]="bitcoinIcon" width="32" alt="Bitcoin">'
+  template: '<img [src]="bitcoinIcon" width="32" alt="Bitcoin">',
 })
 export class MyComponent {
   bitcoinIcon = svgs.tokens.brandedBTC
@@ -79,27 +80,30 @@ export class MyComponent {
 ## Icon Access
 
 **Data URLs** (recommended):
+
 ```javascript
 import { svgs } from '@web3icons/core'
 const bitcoinIcon = svgs.tokens.brandedBTC
 ```
 
 **Direct file imports**:
+
 ```javascript
 const btcSvg = await import('@web3icons/core/svgs/tokens/branded/BTC.svg')
 img.src = btcSvg.default
 ```
 
 **Metadata** (from @web3icons/common):
+
 ```javascript
 import { tokens } from '@web3icons/common/metadata'
-const bitcoin = tokens.find(token => token.symbol === 'BTC')
+const bitcoin = tokens.find((token) => token.symbol === 'BTC')
 ```
 
 ## Variants
 
 - **mono**: `svgs.tokens.monoBTC` - Monochromatic, styleable
-- **branded**: `svgs.tokens.brandedBTC` - Official brand colors  
+- **branded**: `svgs.tokens.brandedBTC` - Official brand colors
 - **background**: `svgs.tokens.backgroundBTC` - With circular background
 
 ## Icon Categories
@@ -112,12 +116,14 @@ const bitcoin = tokens.find(token => token.symbol === 'BTC')
 ## Performance
 
 **Tree-shaking**: Import only specific icons
+
 ```javascript
 import { svgs } from '@web3icons/core' // ✅ Good
 import * as Web3Icons from '@web3icons/core' // ❌ Avoid
 ```
 
 **Dynamic imports**: Load on demand
+
 ```javascript
 async function loadIcon(symbol) {
   const svg = await import(`@web3icons/core/svgs/tokens/branded/${symbol}.svg`)
@@ -157,14 +163,15 @@ Main export providing access to all icons as data URLs:
 import { svgs } from '@web3icons/core'
 
 interface SvgCollections {
-  tokens: Record<string, string>     // brandedBTC, monoBTC, backgroundBTC
-  networks: Record<string, string>   // brandedEthereum, monoEthereum
-  wallets: Record<string, string>    // brandedMetamask, monoMetamask
-  exchanges: Record<string, string>  // brandedUniswap, monoUniswap
+  tokens: Record<string, string> // brandedBTC, monoBTC, backgroundBTC
+  networks: Record<string, string> // brandedEthereum, monoEthereum
+  wallets: Record<string, string> // brandedMetamask, monoMetamask
+  exchanges: Record<string, string> // brandedUniswap, monoUniswap
 }
 ```
 
 **Usage**:
+
 ```javascript
 // Token icons
 const bitcoinBranded = svgs.tokens.brandedBTC
@@ -222,6 +229,7 @@ Direct SVG imports use these paths:
 ### Bundle Optimization
 
 **Tree Shaking**:
+
 ```javascript
 // ✅ Efficient - only imports needed SVGs
 import { svgs } from '@web3icons/core'
@@ -232,10 +240,13 @@ import * as Web3Icons from '@web3icons/core'
 ```
 
 **Dynamic imports**: Load on demand
+
 ```javascript
 async function loadTokenIcon(symbol, variant = 'branded') {
   try {
-    const module = await import(`@web3icons/core/svgs/tokens/${variant}/${symbol.toUpperCase()}.svg`)
+    const module = await import(
+      `@web3icons/core/svgs/tokens/${variant}/${symbol.toUpperCase()}.svg`
+    )
     return module.default
   } catch (error) {
     console.warn(`Icon not found: ${symbol}`)

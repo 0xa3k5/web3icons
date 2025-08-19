@@ -22,8 +22,8 @@ yarn add @web3icons/react
 ```bash
 bun add @web3icons/react
 ```
-Requires React 18
 
+Requires React 18
 
 ## Quick Start
 
@@ -51,7 +51,7 @@ import { TokenIcon, NetworkIcon } from '@web3icons/react'
 function DynamicExample() {
   const tokenSymbol = 'BTC'
   const networkName = 'ethereum'
-  
+
   return (
     <div>
       <TokenIcon symbol={tokenSymbol} size={32} variant="branded" />
@@ -63,28 +63,31 @@ function DynamicExample() {
 
 ## Props
 
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| size | string \| number | 24 | Icon size in pixels |
-| variant | 'mono' \| 'branded' \| 'background' | 'mono' | Visual style |
-| color | string | 'currentColor' | Color (mono variant only) |
-| className | string | - | CSS class name |
+| Prop      | Type                                | Default        | Description               |
+| --------- | ----------------------------------- | -------------- | ------------------------- |
+| size      | string \| number                    | 24             | Icon size in pixels       |
+| variant   | 'mono' \| 'branded' \| 'background' | 'mono'         | Visual style              |
+| color     | string                              | 'currentColor' | Color (mono variant only) |
+| className | string                              | -              | CSS class name            |
 
 All icons support standard SVG props: `onClick`, `style`, `aria-label`, etc.
 
 ## Variants
 
 **Mono**: Monochromatic, inherits text color
+
 ```jsx
 <TokenBTC variant="mono" className="text-blue-500" />
 ```
 
 **Branded**: Official brand colors
+
 ```jsx
 <TokenBTC variant="branded" />
 ```
 
 **Background**: With circular background (select icons)
+
 ```jsx
 <TokenBTC variant="background" />
 ```
@@ -99,12 +102,14 @@ All icons support standard SVG props: `onClick`, `style`, `aria-label`, etc.
 ## Performance
 
 **Tree-shaking**: Import only what you use
+
 ```jsx
 import { TokenBTC } from '@web3icons/react' // ✅ ~2KB
 import * as Icons from '@web3icons/react' // ❌ ~500KB
 ```
 
 **Static vs Dynamic**: Prefer individual components
+
 ```jsx
 <TokenBTC size={24} /> // ✅ Better performance
 <TokenIcon symbol="btc" size={24} /> // ⚠️ Use when needed
@@ -135,14 +140,15 @@ All static icon components share the same interface:
 
 ```tsx
 interface IconProps extends React.SVGProps<SVGSVGElement> {
-  size?: string | number          // Default: 24
-  variant?: 'mono' | 'branded' | 'background'  // Default: 'mono'  
-  color?: string                  // Default: 'currentColor' (mono only)
+  size?: string | number // Default: 24
+  variant?: 'mono' | 'branded' | 'background' // Default: 'mono'
+  color?: string // Default: 'currentColor' (mono only)
   className?: string
 }
 ```
 
 **Usage**:
+
 ```tsx
 import { TokenBTC, NetworkEthereum, WalletMetamask } from '@web3icons/react'
 
@@ -157,9 +163,9 @@ import { TokenBTC, NetworkEthereum, WalletMetamask } from '@web3icons/react'
 
 ```tsx
 interface TokenIconProps extends IconProps {
-  symbol?: string                 // Token symbol: "btc", "eth"
-  address?: string               // Contract address
-  network?: string               // Network for address lookup
+  symbol?: string // Token symbol: "btc", "eth"
+  address?: string // Contract address
+  network?: string // Network for address lookup
   fallback?: React.ReactNode | string
 }
 ```
@@ -170,7 +176,7 @@ import { TokenIcon } from '@web3icons/react'
 // By symbol
 <TokenIcon symbol="btc" variant="branded" />
 
-// By contract address  
+// By contract address
 <TokenIcon address="0xa0b86a33e6441cc8c6b01cfb5e45bcf5b92f4dc1" network="ethereum" />
 
 // With fallback
@@ -182,7 +188,7 @@ import { TokenIcon } from '@web3icons/react'
 
 ```tsx
 interface NetworkIconProps extends IconProps {
-  network: string                 // Network ID, name, or chain ID
+  network: string // Network ID, name, or chain ID
   fallback?: React.ReactNode | string
 }
 ```
@@ -191,7 +197,7 @@ interface NetworkIconProps extends IconProps {
 import { NetworkIcon } from '@web3icons/react'
 
 <NetworkIcon network="ethereum" variant="branded" />
-<NetworkIcon network="eth" variant="branded" />  
+<NetworkIcon network="eth" variant="branded" />
 <NetworkIcon network="1" variant="branded" />
 <NetworkIcon network="unknown" fallback="🌐" />
 ```
@@ -200,7 +206,7 @@ import { NetworkIcon } from '@web3icons/react'
 
 ```tsx
 interface WalletIconProps extends IconProps {
-  name: string                    // Wallet ID or name
+  name: string // Wallet ID or name
   fallback?: React.ReactNode | string
 }
 ```
@@ -217,7 +223,7 @@ import { WalletIcon } from '@web3icons/react'
 
 ```tsx
 interface ExchangeIconProps extends IconProps {
-  name: string                    // Exchange ID or name
+  name: string // Exchange ID or name
   fallback?: React.ReactNode | string
 }
 ```
@@ -239,9 +245,13 @@ const tokens = ['BTC', 'ETH', 'USDC']
 function TokenGrid() {
   return (
     <div className="grid grid-cols-3 gap-4">
-      {tokens.map(symbol => (
+      {tokens.map((symbol) => (
         <div key={symbol} className="flex items-center gap-2">
-          <TokenIcon symbol={symbol.toLowerCase()} size={24} variant="branded" />
+          <TokenIcon
+            symbol={symbol.toLowerCase()}
+            size={24}
+            variant="branded"
+          />
           <span>{symbol}</span>
         </div>
       ))}
@@ -256,14 +266,14 @@ function TokenGrid() {
 const wallets = [
   { id: 'metamask', name: 'MetaMask' },
   { id: 'coinbase-wallet', name: 'Coinbase' },
-  { id: 'rainbow', name: 'Rainbow' }
+  { id: 'rainbow', name: 'Rainbow' },
 ]
 
 function WalletSelector({ onSelect }) {
   return (
     <div className="space-y-2">
-      {wallets.map(wallet => (
-        <button 
+      {wallets.map((wallet) => (
+        <button
           key={wallet.id}
           onClick={() => onSelect(wallet.id)}
           className="flex items-center gap-3 p-3 border rounded hover:border-blue-500"
@@ -282,7 +292,7 @@ function WalletSelector({ onSelect }) {
 ```tsx
 function ResponsiveIcon({ symbol }) {
   return (
-    <TokenIcon 
+    <TokenIcon
       symbol={symbol}
       className="w-4 h-4 sm:w-6 sm:h-6 md:w-8 md:h-8"
       variant="branded"

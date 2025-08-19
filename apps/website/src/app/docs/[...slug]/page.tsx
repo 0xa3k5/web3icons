@@ -39,8 +39,8 @@ export default async function DocPage({ params }: DocPageProps) {
   const components = useMDXComponents()
 
   return (
-    <MDXRemote 
-      source={docData.content} 
+    <MDXRemote
+      source={docData.content}
       components={components}
       options={{
         mdxOptions: {

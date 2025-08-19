@@ -84,7 +84,7 @@ const TableRow = (props: any) => {
 const TableHeader = (props: any) => {
   return (
     <th
-      className="px-4 py-3 text-left font-mono text-xs text-white/80 capitalize"
+      className="px-4 py-3 text-left font-mono text-xs capitalize text-white/80"
       {...props}
     />
   )

@@ -22,15 +22,15 @@ export default function Tooltip({
   useEffect(() => {
     if (toggle) {
       setVisible(true)
-      
+
       if (buttonRef?.current) {
         const rect = buttonRef.current.getBoundingClientRect()
         setCoords({
           x: rect.left + rect.width / 2,
-          y: position === 'top' ? rect.top - 8 : rect.bottom + 8
+          y: position === 'top' ? rect.top - 8 : rect.bottom + 8,
         })
       }
-      
+
       const timer = setTimeout(() => setVisible(false), 1000)
       return () => clearTimeout(timer)
     }
@@ -39,12 +39,12 @@ export default function Tooltip({
   if (!visible) return null
 
   const useFixedPositioning = buttonRef?.current
-  
+
   if (useFixedPositioning) {
     return (
       <div
         className={cx(
-          'border-gray-lightest bg-gray-darkest fixed z-50 rounded-md border px-2 py-1 text-xs -translate-x-1/2',
+          'border-gray-lightest bg-gray-darkest fixed z-50 -translate-x-1/2 rounded-md border px-2 py-1 text-xs',
           {
             '-translate-y-full': position === 'top',
           },

@@ -111,7 +111,7 @@ export default function CodeBlock({
       )}
 
       {isSingleTab && (
-        <div className="absolute top-3 right-2">
+        <div className="absolute right-2 top-3">
           <CopyButton
             onClick={() => {
               navigator.clipboard.writeText(activeTab.content)
@@ -126,7 +126,7 @@ export default function CodeBlock({
         {lines.map((line, index) => (
           <div key={index} className="flex">
             {lineNumbers ? (
-              <span className="mr-4 flex w-4 shrink-0 text-right text-white/20 select-none">
+              <span className="mr-4 flex w-4 shrink-0 select-none text-right text-white/20">
                 {index + 1}
               </span>
             ) : null}

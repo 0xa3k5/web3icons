@@ -8,12 +8,14 @@ description: Guidelines for effectively using Web3 Icons in your applications
 ## Performance
 
 **Use individual imports** for better tree-shaking:
+
 ```tsx
 import { TokenBTC } from '@web3icons/react' // ✅ Good - ~2KB
 import * as Web3Icons from '@web3icons/react' // ❌ Avoid - ~500KB
 ```
 
 **Prefer static imports** over dynamic components when possible:
+
 ```tsx
 <TokenBTC size={24} variant="branded" /> // ✅ Static - better performance
 <TokenIcon symbol="btc" size={24} variant="branded" /> // ⚠️ Dynamic - use when needed
@@ -24,14 +26,14 @@ import * as Web3Icons from '@web3icons/react' // ❌ Avoid - ~500KB
 **Choose variants based on context:**
 
 - **Mono**: Text-heavy interfaces, dark mode, when colors need customization
-- **Branded**: Marketing pages, portfolios, when brand colors matter  
+- **Branded**: Marketing pages, portfolios, when brand colors matter
 - **Background**: Cards, badges, when icons need more visual weight
 
 ```tsx
 // Interface elements
 <TokenBTC variant="mono" className="text-gray-600" />
 
-// Portfolio display  
+// Portfolio display
 <TokenBTC variant="branded" size={32} />
 
 // Feature cards
@@ -41,6 +43,7 @@ import * as Web3Icons from '@web3icons/react' // ❌ Avoid - ~500KB
 ## Styling
 
 **Use CSS classes for common styles:**
+
 ```tsx
 // Create reusable classes
 <TokenBTC className="icon-hover icon-shadow" />
@@ -53,15 +56,16 @@ import * as Web3Icons from '@web3icons/react' // ❌ Avoid - ~500KB
 ## Fallbacks
 
 **Always provide fallbacks for dynamic components:**
+
 ```tsx
-<TokenIcon 
-  symbol={userToken} 
+<TokenIcon
+  symbol={userToken}
   fallback={<div className="size-6 bg-gray-200" />}
 />
 
 // Or string fallback for images
-<TokenIcon 
-  symbol={userToken} 
+<TokenIcon
+  symbol={userToken}
   fallback="https://example.com/default-token.png"
 />
 ```
@@ -69,6 +73,7 @@ import * as Web3Icons from '@web3icons/react' // ❌ Avoid - ~500KB
 ## Bundle Optimization
 
 **Monitor bundle size:**
+
 ```bash
 # Check what you're importing
 npx @next/bundle-analyzer
@@ -78,6 +83,7 @@ grep -r "from '@web3icons/react'" src/
 ```
 
 **Use dynamic imports for large lists:**
+
 ```tsx
 // For icon picker/gallery components
 const iconComponents = await import('@web3icons/react')
@@ -86,10 +92,11 @@ const iconComponents = await import('@web3icons/react')
 ## Dark Mode
 
 **Design for both themes:**
+
 ```tsx
 // Use mono variant with theme-aware colors
-<TokenBTC 
-  variant="mono" 
+<TokenBTC
+  variant="mono"
   className="text-gray-900 dark:text-white"
 />
 
@@ -100,6 +107,7 @@ const iconComponents = await import('@web3icons/react')
 ## API Usage
 
 **Cache API responses:**
+
 ```typescript
 const iconCache = new Map()
 
@@ -107,7 +115,7 @@ async function getCachedIcon(symbol: string) {
   if (iconCache.has(symbol)) {
     return iconCache.get(symbol)
   }
-  
+
   const response = await fetch(`/api/icons/${symbol}`)
   const icon = await response.text()
   iconCache.set(symbol, icon)

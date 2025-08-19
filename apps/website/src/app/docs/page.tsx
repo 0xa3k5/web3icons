@@ -21,8 +21,8 @@ export default async function DocsPage() {
 
   return (
     <article className="prose prose-invert max-w-none">
-      <MDXRemote 
-        source={docData.content} 
+      <MDXRemote
+        source={docData.content}
         components={components}
         options={{
           mdxOptions: {
