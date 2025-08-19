@@ -3,6 +3,8 @@ import { auth } from '@clerk/nextjs'
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL
 
+export const dynamic = 'force-dynamic'
+
 export async function GET() {
   try {
     const { userId } = auth()
