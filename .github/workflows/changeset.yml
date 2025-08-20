@@ -4,6 +4,11 @@ on:
   pull_request:
     types: [opened, synchronize]
 
+permissions:
+  issues: write
+  pull-requests: write
+  contents: read
+
 jobs:
   changeset:
     runs-on: ubuntu-latest
@@ -87,9 +92,28 @@ jobs:
             );
             
             if (changesetComment) {
-              github.rest.issues.deleteComment({
+              await github.rest.issues.deleteComment({
                 owner,
                 repo,
                 comment_id: changesetComment.id
+              });
+            }
+            
+            // Add success comment
+            const successComment = `## ✅ Changeset Detected
+            
+            Great! This PR includes a changeset. When merged to main, it will trigger a release.`;
+            
+            // Check if success comment already exists
+            const existingSuccessComment = comments.data.find(comment => 
+              comment.body.includes('✅ Changeset Detected')
+            );
+            
+            if (!existingSuccessComment) {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: number,
+                body: successComment
               });
             }
