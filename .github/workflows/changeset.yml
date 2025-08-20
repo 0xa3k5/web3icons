@@ -1,0 +1,119 @@
+name: Changeset
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+permissions:
+  issues: write
+  pull-requests: write
+  contents: read
+
+jobs:
+  changeset:
+    runs-on: ubuntu-latest
+    if: github.head_ref != 'changeset-release/main'
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Install Dependencies
+        run: bun install
+
+      - name: Check for changeset
+        id: changeset
+        run: |
+          if [ -z "$(find .changeset -name "*.md" -not -name "README.md" 2>/dev/null)" ]; then
+            echo "has_changeset=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changeset=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Comment PR
+        if: steps.changeset.outputs.has_changeset == 'false'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo, number } = context.issue;
+            
+            const comment = `## 🦋 Changeset Missing
+            
+            This PR doesn't include a changeset. If this PR contains changes that should trigger a release, please add a changeset by running:
+            
+            \`\`\`bash
+            bun changeset
+            \`\`\`
+            
+            If this PR doesn't need a changeset (docs, tests, etc.), you can ignore this message.
+            
+            [Learn more about changesets](https://github.com/changesets/changesets/blob/main/docs/adding-a-changeset.md)`;
+            
+            // Check if comment already exists
+            const comments = await github.rest.issues.listComments({
+              owner,
+              repo,
+              issue_number: number,
+            });
+            
+            const existingComment = comments.data.find(comment => 
+              comment.body.includes('🦋 Changeset Missing')
+            );
+            
+            if (!existingComment) {
+              github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: number,
+                body: comment
+              });
+            }
+
+      - name: Success Comment
+        if: steps.changeset.outputs.has_changeset == 'true'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo, number } = context.issue;
+            
+            // Remove any existing changeset missing comments
+            const comments = await github.rest.issues.listComments({
+              owner,
+              repo,
+              issue_number: number,
+            });
+            
+            const changesetComment = comments.data.find(comment => 
+              comment.body.includes('🦋 Changeset Missing')
+            );
+            
+            if (changesetComment) {
+              await github.rest.issues.deleteComment({
+                owner,
+                repo,
+                comment_id: changesetComment.id
+              });
+            }
+            
+            // Add success comment
+            const successComment = `## ✅ Changeset Detected
+            
+            Great! This PR includes a changeset. When merged to main, it will trigger a release.`;
+            
+            // Check if success comment already exists
+            const existingSuccessComment = comments.data.find(comment => 
+              comment.body.includes('✅ Changeset Detected')
+            );
+            
+            if (!existingSuccessComment) {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: number,
+                body: successComment
+              });
+            }
