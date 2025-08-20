@@ -1,5 +1,11 @@
 # @web3icons/react
 
+## 4.0.22
+
+### Patch Changes
+
+- 974f3ee: update USDC and EURC token icons
+
 ## 4.0.21
 
 ### Patch Changes
