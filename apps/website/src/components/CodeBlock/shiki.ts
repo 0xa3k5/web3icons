@@ -15,6 +15,17 @@ const LANGUAGES: (BundledLanguage | SpecialLanguage)[] = [
   'tsx',
   'json',
   'typescript',
+  'vue',
+  'python',
+  'java',
+  'c',
+  'c++',
+  'c#',
+  'ruby',
+  'php',
+  'swift',
+  'kotlin',
+  'svelte',
 ]
 
 export type Language = (typeof LANGUAGES)[number]

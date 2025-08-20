@@ -47,8 +47,8 @@ export default function Slider({
         value={value}
         onChange={handleChange}
         className={cx(
-          'h-2 w-full appearance-none rounded-full bg-gray-lightest duration-150',
-          '[&::-webkit-slider-thumb]:size-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:duration-150',
+          'bg-gray-lightest h-2 w-full appearance-none rounded-full duration-150',
+          '[&::-webkit-slider-thumb]:bg-primary [&::-webkit-slider-thumb]:size-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:duration-150',
           'active:h-4 [&::-webkit-slider-thumb]:active:w-6',
         )}
       />
