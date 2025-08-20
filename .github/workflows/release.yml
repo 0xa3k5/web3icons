@@ -30,6 +30,7 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
+          version: bun run changeset version
           publish: bun run changeset publish
           title: "Version Packages"
           commit: "Version Packages"
