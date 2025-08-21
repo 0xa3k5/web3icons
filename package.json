@@ -5,27 +5,27 @@
   "author": "0xa3k5",
   "scripts": {
     "build": "turbo build && bun run post-build",
-    "build:packages": "bun run build:common && bun run build:utils && bun run build:core && bun run build:react",
-    "build:apps": "bun run build:website && bun run build:figma",
+    "build:packages": "turbo build --filter=@web3icons/common --filter=@web3icons/core --filter=@web3icons/react && bun post-build",
+    "build:apps": "turbo build --filter=@web3icons/website --filter=@web3icons/figma-plugin --filter=@web3icons/api",
     "build:common": "turbo build --filter=@web3icons/common",
-    "build:utils": "turbo build --filter=@web3icons/utils",
     "build:core": "turbo build --filter=@web3icons/core",
     "build:react": "turbo build --filter=@web3icons/react",
     "build:website": "turbo build --filter=@web3icons/website",
     "build:figma": "turbo build --filter=@web3icons/figma-plugin",
     "build:api": "turbo build --filter=@web3icons/api",
-    "post-build": "bun run generate-icons-md && bun run lint && bun run format",
+    "post-build": "bun generate-icons-md && bun lint && bun format",
     "dev": "turbo dev",
-    "dev:api": "bun run dev --filter @web3icons/api",
+    "dev:api": "bun dev --filter @web3icons/api",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error",
-    "add-icons": "bun run ./packages/utils/src/scripts/cli/add-icons.ts",
-    "delete-icons": "bun run ./packages/utils/src/scripts/cli/delete-icons.ts",
-    "check-missing": "bun run ./packages/utils/src/scripts/cli/check-missing-metadata.ts",
-    "generate-icons-md": "bun run ./packages/utils/src/scripts/generate-icons-md.ts",
-    "update-gecko-networks": "bun run ./packages/utils/src/scripts/gecko/get-networks.ts",
-    "update-gecko-coins": "bun run ./packages/utils/src/scripts/gecko/get-coins.ts",
-    "cdn:sync": "bun run ./scripts/sync-to-r2.ts"
+    "add-icons": "bun ./scripts/cli/add-icons.ts",
+    "delete-icons": "bun ./scripts/cli/delete-icons.ts",
+    "check-missing": "bun ./scripts/cli/check-missing-metadata.ts",
+    "generate-icons-md": "bun ./scripts/maintenance/generate-icons-md.ts",
+    "update-gecko-networks": "bun ./scripts/gecko/get-networks.ts",
+    "update-gecko-coins": "bun ./scripts/gecko/get-coins.ts",
+    "cdn:sync": "bun ./scripts/sync-to-r2.ts",
+    "validate-svgs": "bun ./scripts/maintenance/validate-svgs.ts"
   },
   "devDependencies": {
     "@web3icons/eslint-config": "*",
@@ -33,7 +33,11 @@
     "turbo": "v2.0.11",
     "@changesets/cli": "^2.27.7",
     "@aws-sdk/client-s3": "^3.478.0",
-    "dotenv": "^17.2.1"
+    "dotenv": "^17.2.1",
+    "@clack/prompts": "^0.9.1",
+    "chalk": "^5.4.1",
+    "cheerio": "^1.0.0-rc.12",
+    "svgo": "^3.2.0"
   },
   "engines": {
     "node": ">=18"

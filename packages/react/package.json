@@ -36,7 +36,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun run clean && (cd ../utils && bun run pre-build:react) && bun run build:icons && bun run build:types && tsup",
+    "build": "bun run clean && (cd ../../scripts/build-scripts/react && bun react.pre-build.ts) && bun run build:icons && bun run build:types && tsup",
     "build:types": "tsc --outDir dist --declarationDir dist --declaration true",
     "build:icons": "tsup 'src/icons/**/*.ts' --format esm --outDir dist/icons",
     "dev": "bun run build -- --watch",

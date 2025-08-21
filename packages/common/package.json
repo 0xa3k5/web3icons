@@ -56,7 +56,7 @@
   "scripts": {
     "build": "bun run clean && bun run pre-build && bun run build:types && tsup && bun run post-build",
     "build:types": "tsc --outDir dist --declarationDir dist --declaration true",
-    "pre-build": "cd ../utils && bun run generate-metadata",
+    "pre-build": "cd ../../scripts/build-scripts && bun generate-metadata.ts",
     "post-build": "bun run lint && bun run format",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error",
