@@ -2,9 +2,9 @@ import { confirm, select } from '@clack/prompts'
 import chalk from 'chalk'
 import fs from 'fs'
 import path from 'path'
-import { TType, TVariant } from '@web3icons/common'
 import { findExistingMetadata, addNewIcon } from '../utils'
 import { SVG_SRC_DIR } from '../constants'
+import { TType, TVariant } from '../../packages/common/src'
 
 interface MissingIcon {
   fileName: string
@@ -83,6 +83,8 @@ const handleDeleteIcons = async (iconGroup: MissingIcon[]): Promise<void> => {
 }
 
 const main = async () => {
+  const isCI = process.argv.includes('--ci')
+
   console.log(chalk.bold('\n🔍 Checking for SVG files without metadata...\n'))
 
   const missingIcons = getMissingIcons()
@@ -116,6 +118,10 @@ const main = async () => {
   })
 
   console.log('\n')
+
+  if (isCI) {
+    process.exit(1)
+  }
 
   // Process each missing icon
   for (const [key, iconGroup] of missingIcons) {

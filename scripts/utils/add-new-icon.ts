@@ -7,7 +7,7 @@ import {
   TType,
   TVariant,
   tokens,
-} from '@web3icons/common'
+} from '../../packages/common/src'
 import { confirmAndAddMetadata, renameIconFiles } from './'
 import { duplicateIconsToType } from './duplicate-icons-to-type'
 
