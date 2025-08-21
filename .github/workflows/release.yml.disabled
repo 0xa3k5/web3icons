@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 20
+          fetch-depth: 0
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
@@ -24,7 +24,7 @@ jobs:
         run: bun install
 
       - name: Build packages
-        run: bun build:packages
+        run: bun run build:packages
 
       - name: Create Release Pull Request or Publish to npm
         id: changesets

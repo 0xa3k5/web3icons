@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  changeset:
+  validate:
     runs-on: ubuntu-latest
     if: github.head_ref != 'changeset-release/main'
     steps:
@@ -28,11 +28,13 @@ jobs:
         run: |
           if [ -z "$(find .changeset -name "*.md" -not -name "README.md" 2>/dev/null)" ]; then
             echo "has_changeset=false" >> $GITHUB_OUTPUT
+            echo "No changeset found"
           else
             echo "has_changeset=true" >> $GITHUB_OUTPUT
+            echo "Changeset detected"
           fi
 
-      - name: Comment PR
+      - name: Comment - Missing changeset
         if: steps.changeset.outputs.has_changeset == 'false'
         uses: actions/github-script@v7
         with:
@@ -40,39 +42,31 @@ jobs:
           script: |
             const { owner, repo, number } = context.issue;
             
-            const comment = `## 🦋 Changeset Missing
+            const comment = `**Changeset missing**
             
-            This PR doesn't include a changeset. If this PR contains changes that should trigger a release, please add a changeset by running:
-            
+            This PR doesn't include a changeset. Add one by running:
             \`\`\`bash
             bun changeset
             \`\`\`
             
-            If this PR doesn't need a changeset (docs, tests, etc.), you can ignore this message.
-            
-            [Learn more about changesets](https://github.com/changesets/changesets/blob/main/docs/adding-a-changeset.md)`;
+            Skip if this PR doesn't need a release (docs, tests, etc.).`;
             
             // Check if comment already exists
             const comments = await github.rest.issues.listComments({
-              owner,
-              repo,
-              issue_number: number,
+              owner, repo, issue_number: number
             });
             
             const existingComment = comments.data.find(comment => 
-              comment.body.includes('🦋 Changeset Missing')
+              comment.body.includes('**Changeset missing**')
             );
             
             if (!existingComment) {
-              github.rest.issues.createComment({
-                owner,
-                repo,
-                issue_number: number,
-                body: comment
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: number, body: comment
               });
             }
 
-      - name: Success Comment
+      - name: Comment - Changeset detected  
         if: steps.changeset.outputs.has_changeset == 'true'
         uses: actions/github-script@v7
         with:
@@ -80,40 +74,43 @@ jobs:
           script: |
             const { owner, repo, number } = context.issue;
             
-            // Remove any existing changeset missing comments
+            const comment = `**Changeset detected** ✓
+            
+            This PR includes a changeset and will trigger a release when merged to main.`;
+            
+            // Remove old missing changeset comments
             const comments = await github.rest.issues.listComments({
-              owner,
-              repo,
-              issue_number: number,
+              owner, repo, issue_number: number
             });
             
-            const changesetComment = comments.data.find(comment => 
-              comment.body.includes('🦋 Changeset Missing')
+            const missingComment = comments.data.find(comment => 
+              comment.body.includes('**Changeset missing**')
             );
             
-            if (changesetComment) {
+            if (missingComment) {
               await github.rest.issues.deleteComment({
-                owner,
-                repo,
-                comment_id: changesetComment.id
+                owner, repo, comment_id: missingComment.id
               });
             }
             
-            // Add success comment
-            const successComment = `## ✅ Changeset Detected
-            
-            Great! This PR includes a changeset. When merged to main, it will trigger a release.`;
-            
-            // Check if success comment already exists
-            const existingSuccessComment = comments.data.find(comment => 
-              comment.body.includes('✅ Changeset Detected')
+            // Add or update success comment
+            const existingSuccess = comments.data.find(comment => 
+              comment.body.includes('**Changeset detected**')
             );
             
-            if (!existingSuccessComment) {
+            if (existingSuccess) {
+              try {
+                await github.rest.issues.updateComment({
+                  owner, repo, comment_id: existingSuccess.id, body: comment
+                });
+              } catch (error) {
+                console.log('Failed to update comment, creating new one:', error.message);
+                await github.rest.issues.createComment({
+                  owner, repo, issue_number: number, body: comment
+                });
+              }
+            } else {
               await github.rest.issues.createComment({
-                owner,
-                repo,
-                issue_number: number,
-                body: successComment
+                owner, repo, issue_number: number, body: comment
               });
             }
