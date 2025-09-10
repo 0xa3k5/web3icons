@@ -20,12 +20,6 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
 
-      - name: Install Dependencies
-        run: bun install
-
-      - name: Build packages
-        run: bun build:packages
-
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
