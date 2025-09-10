@@ -24,8 +24,8 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          version: bun changeset version
-          publish: bun changeset publish
+          version: bunx changeset version
+          publish: bunx changeset publish
           title: "Version Packages"
           commit: "Version Packages"
           createGithubReleases: true
