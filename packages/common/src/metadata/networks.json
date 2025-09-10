@@ -1775,5 +1775,14 @@
     "name": "Movement",
     "shortName": "movement",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "fuel",
+    "fileName": "fuel",
+    "chainId": 9889,
+    "caip2id": "eip155:9889",
+    "name": "Fuel",
+    "shortName": "fuel",
+    "variants": ["background", "branded", "mono"]
   }
 ]

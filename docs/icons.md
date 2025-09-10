@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (38)](#wallets)
-- [networks (185)](#networks)
+- [networks (186)](#networks)
 - [exchanges (26)](#exchanges)
 - [tokens (1826)](#tokens)
 
@@ -237,6 +237,7 @@ jump to section:
 | stacks              | Stacks                       | ✅      | ✅   | ✅         |
 | supra-movevm        | Supra MoveVM                 | ✅      | ✅   | ✅         |
 | movement            | Movement                     | ✅      | ✅   | ✅         |
+| fuel                | Fuel                         | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
