@@ -5126,6 +5126,7 @@ import * as NBrandedStep from './svgs/networks/branded/step.svg'
 import * as NBrandedPolygonZkevm from './svgs/networks/branded/polygon-zkevm.svg'
 import * as NBrandedMantra from './svgs/networks/branded/mantra.svg'
 import * as NBrandedKujira from './svgs/networks/branded/kujira.svg'
+import * as NBrandedFuel from './svgs/networks/branded/fuel.svg'
 import * as NBrandedAptos from './svgs/networks/branded/aptos.svg'
 import * as NBrandedCosmos from './svgs/networks/branded/cosmos.svg'
 import * as NBrandedHemi from './svgs/networks/branded/hemi.svg'
@@ -5310,6 +5311,7 @@ import * as NMonoStep from './svgs/networks/mono/step.svg'
 import * as NMonoPolygonZkevm from './svgs/networks/mono/polygon-zkevm.svg'
 import * as NMonoMantra from './svgs/networks/mono/mantra.svg'
 import * as NMonoKujira from './svgs/networks/mono/kujira.svg'
+import * as NMonoFuel from './svgs/networks/mono/fuel.svg'
 import * as NMonoAptos from './svgs/networks/mono/aptos.svg'
 import * as NMonoCosmos from './svgs/networks/mono/cosmos.svg'
 import * as NMonoHemi from './svgs/networks/mono/hemi.svg'
@@ -5492,6 +5494,7 @@ import * as NBackgroundStep from './svgs/networks/background/step.svg'
 import * as NBackgroundPolygonZkevm from './svgs/networks/background/polygon-zkevm.svg'
 import * as NBackgroundMantra from './svgs/networks/background/mantra.svg'
 import * as NBackgroundKujira from './svgs/networks/background/kujira.svg'
+import * as NBackgroundFuel from './svgs/networks/background/fuel.svg'
 import * as NBackgroundAptos from './svgs/networks/background/aptos.svg'
 import * as NBackgroundCosmos from './svgs/networks/background/cosmos.svg'
 import * as NBackgroundHemi from './svgs/networks/background/hemi.svg'
@@ -10971,6 +10974,7 @@ export const svgs = {
       'polygon-zkevm': NBrandedPolygonZkevm,
       mantra: NBrandedMantra,
       kujira: NBrandedKujira,
+      fuel: NBrandedFuel,
       aptos: NBrandedAptos,
       cosmos: NBrandedCosmos,
       hemi: NBrandedHemi,
@@ -11157,6 +11161,7 @@ export const svgs = {
       'polygon-zkevm': NMonoPolygonZkevm,
       mantra: NMonoMantra,
       kujira: NMonoKujira,
+      fuel: NMonoFuel,
       aptos: NMonoAptos,
       cosmos: NMonoCosmos,
       hemi: NMonoHemi,
@@ -11341,6 +11346,7 @@ export const svgs = {
       'polygon-zkevm': NBackgroundPolygonZkevm,
       mantra: NBackgroundMantra,
       kujira: NBackgroundKujira,
+      fuel: NBackgroundFuel,
       aptos: NBackgroundAptos,
       cosmos: NBackgroundCosmos,
       hemi: NBackgroundHemi,
