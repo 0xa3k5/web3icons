@@ -1,5 +1,11 @@
 # @web3icons/react
 
+## 4.0.24
+
+### Patch Changes
+
+- fix build
+
 ## 4.0.23
 
 ### Patch Changes

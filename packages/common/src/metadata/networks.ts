@@ -1780,11 +1780,11 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'fuel',
-    name: 'Fuel',
-    variants: ['background', 'branded', 'mono'],
     fileName: 'fuel',
-    shortName: 'fuel',
     chainId: 9889,
     caip2id: 'eip155:9889',
+    name: 'Fuel',
+    shortName: 'fuel',
+    variants: ['background', 'branded', 'mono'],
   },
 ]
