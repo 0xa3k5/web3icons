@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 4.0.23
+
+### Patch Changes
+
+- b519f72: add Fuel network
+
 ## 0.11.17
 
 ### Patch Changes
