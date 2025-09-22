@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#glow__a)">
+        <path fill="url(#glow__b)" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M17.61 17.703A7.98 7.98 0 0 1 12 20a7.97 7.97 0 0 1-5.6-2.288 9.095 9.095 0 0 1 11.21-.01m.093-.092A7.98 7.98 0 0 0 20 12c0-2.18-.872-4.156-2.286-5.6-2.582 3.286-2.585 7.932-.011 11.21m-.08-11.302a9.095 9.095 0 0 1-11.236-.01A7.97 7.97 0 0 1 12 4a7.98 7.98 0 0 1 5.623 2.309m-11.324.078A7.97 7.97 0 0 0 4 12c0 2.192.882 4.178 2.309 5.623a9.095 9.095 0 0 0-.01-11.236"/>
+    </g>
+    <defs>
+        <linearGradient id="glow__b" x1=".012" x2="23.98" y1="-.048" y2="24.011" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6F03FB"/>
+            <stop offset="1" stop-color="#EC5EFF"/>
+        </linearGradient>
+        <clipPath id="glow__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

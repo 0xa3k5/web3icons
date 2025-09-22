@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#temple__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="url(#temple__b)" d="M15.055 8.922H17.5L16.277 4H7.723l1.222 4.922h2.442l1.223 4.925h-1.527l.611 2.46h1.527l.611 2.462H17.5z"/>
+        <path fill="url(#temple__c)" d="M16.277 10.153h-.918l-.304-1.231H17.5z"/>
+        <path fill="url(#temple__d)" d="M15.055 6.462H9.557L9.4 5.847h6.113z"/>
+        <path fill="url(#temple__e)" d="M7.723 10.153 6.5 5.231 7.723 4l1.222 4.922z"/>
+        <path fill="url(#temple__f)" d="M13.22 16.306h-1.526l-1.222 1.232h1.526z"/>
+        <path fill="url(#temple__g)" d="M10.168 10.153H7.723l1.222-1.231h2.442z"/>
+        <path fill="url(#temple__h)" d="M12.61 13.847h-1.527l-.915-3.694 1.22-1.231z"/>
+        <path fill="url(#temple__i)" d="m11.695 16.306-.612-2.46-1.222 1.232.611 2.46z"/>
+        <path fill="url(#temple__j)" d="m13.832 18.769-.611-2.463-1.223 1.232L12.61 20z"/>
+        <path fill="url(#temple__k)" d="m16.278 18.769-2.75-11.075-.49.49 2.628 10.585-.49.494h.611z"/>
+        <path fill="url(#temple__l)" d="M15.97 7.694h-.611l-.304-1.232.459-.615z"/>
+        <path fill="url(#temple__m)" d="m16.278 18.769-.49.494h-.612l.49-.494h-1.834L12.61 20h3.668l1.222-1.23z"/>
+    </g>
+    <defs>
+        <linearGradient id="temple__b" x1="7.722" x2="17.499" y1="11.385" y2="11.385" gradientUnits="userSpaceOnUse">
+            <stop offset=".002" stop-color="#FCC33C"/>
+            <stop offset="1" stop-color="#FFEE50"/>
+        </linearGradient>
+        <linearGradient id="temple__c" x1="17.499" x2="15.054" y1="9.538" y2="9.538" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FB9828"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <linearGradient id="temple__d" x1="15.514" x2="9.403" y1="6.154" y2="6.154" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F84200"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <linearGradient id="temple__e" x1="7.005" x2="8.459" y1="4.18" y2="9.969" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F96C13"/>
+            <stop offset="1" stop-color="#FB9828"/>
+        </linearGradient>
+        <linearGradient id="temple__f" x1="10.472" x2="13.221" y1="16.923" y2="16.923" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F84200"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <linearGradient id="temple__g" x1="7.722" x2="11.388" y1="9.538" y2="9.538" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F84200"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <linearGradient id="temple__h" x1="11.89" x2="10.655" y1="14.027" y2="9.107" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F96C13"/>
+            <stop offset="1" stop-color="#FB9828"/>
+        </linearGradient>
+        <linearGradient id="temple__i" x1="11.19" x2="10.354" y1="17.358" y2="14.029" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FB9828"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <linearGradient id="temple__j" x1="13.328" x2="12.492" y1="19.82" y2="16.491" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F96C13"/>
+            <stop offset="1" stop-color="#FB9828"/>
+        </linearGradient>
+        <linearGradient id="temple__k" x1="15.788" x2="12.921" y1="19.261" y2="7.845" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F96C13"/>
+            <stop offset="1" stop-color="#F84200"/>
+        </linearGradient>
+        <linearGradient id="temple__l" x1="15.729" x2="15.266" y1="7.952" y2="6.107" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F84200"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <linearGradient id="temple__m" x1="13.123" x2="16.774" y1="19.385" y2="19.385" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F84200"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <clipPath id="temple__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>
