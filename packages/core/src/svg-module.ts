@@ -1985,6 +1985,7 @@ import * as TMonoVNO from './svgs/tokens/mono/VNO.svg'
 import * as TMonoSSV from './svgs/tokens/mono/SSV.svg'
 import * as TMonoMIMO from './svgs/tokens/mono/MIMO.svg'
 import * as TMonoWAXP from './svgs/tokens/mono/WAXP.svg'
+import * as TMonoSAFE from './svgs/tokens/mono/SAFE.svg'
 import * as TMonoDPS from './svgs/tokens/mono/DPS.svg'
 import * as TMonoTUT from './svgs/tokens/mono/TUT.svg'
 import * as TMonoMUSIC from './svgs/tokens/mono/MUSIC.svg'
@@ -5647,14 +5648,20 @@ import * as NBackgroundSolana from './svgs/networks/background/solana.svg'
 import * as NBackgroundOptopia from './svgs/networks/background/optopia.svg'
 import * as NBackgroundArbitrumNova from './svgs/networks/background/arbitrum-nova.svg'
 import * as NBackgroundFio from './svgs/networks/background/fio.svg'
+import * as WBrandedGlow from './svgs/wallets/branded/glow.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
+import * as WBrandedAtomic from './svgs/wallets/branded/atomic.svg'
 import * as WBrandedMyEtherWallet from './svgs/wallets/branded/my-ether-wallet.svg'
 import * as WBrandedSafe from './svgs/wallets/branded/safe.svg'
+import * as WBrandedKeplr from './svgs/wallets/branded/keplr.svg'
 import * as WBrandedBackpack from './svgs/wallets/branded/backpack.svg'
 import * as WBrandedSequence from './svgs/wallets/branded/sequence.svg'
+import * as WBrandedExodus from './svgs/wallets/branded/exodus.svg'
+import * as WBrandedBlue from './svgs/wallets/branded/blue.svg'
 import * as WBrandedZengo from './svgs/wallets/branded/zengo.svg'
 import * as WBrandedWallet3 from './svgs/wallets/branded/wallet-3.svg'
 import * as WBrandedObvious from './svgs/wallets/branded/obvious.svg'
+import * as WBrandedBitbox from './svgs/wallets/branded/bitbox.svg'
 import * as WBrandedRabby from './svgs/wallets/branded/rabby.svg'
 import * as WBrandedXdefi from './svgs/wallets/branded/xdefi.svg'
 import * as WBrandedTrezor from './svgs/wallets/branded/trezor.svg'
@@ -5663,17 +5670,20 @@ import * as WBrandedKraken from './svgs/wallets/branded/kraken.svg'
 import * as WBrandedAlphaWallet from './svgs/wallets/branded/alpha-wallet.svg'
 import * as WBrandedZerion from './svgs/wallets/branded/zerion.svg'
 import * as WBrandedSoul from './svgs/wallets/branded/soul.svg'
+import * as WBrandedTemple from './svgs/wallets/branded/temple.svg'
 import * as WBrandedSquads from './svgs/wallets/branded/squads.svg'
 import * as WBrandedArgent from './svgs/wallets/branded/argent.svg'
 import * as WBrandedLedger from './svgs/wallets/branded/ledger.svg'
 import * as WBrandedRainbow from './svgs/wallets/branded/rainbow.svg'
 import * as WBrandedRonin from './svgs/wallets/branded/ronin.svg'
 import * as WBrandedTokenPocket from './svgs/wallets/branded/token-pocket.svg'
+import * as WBrandedKukai from './svgs/wallets/branded/kukai.svg'
 import * as WBrandedPillar from './svgs/wallets/branded/pillar.svg'
 import * as WBrandedEnkrypt from './svgs/wallets/branded/enkrypt.svg'
 import * as WBrandedOkx from './svgs/wallets/branded/okx.svg'
 import * as WBrandedCoinbase from './svgs/wallets/branded/coinbase.svg'
 import * as WBrandedImtoken from './svgs/wallets/branded/imtoken.svg'
+import * as WBrandedSolflare from './svgs/wallets/branded/solflare.svg'
 import * as WBrandedSender from './svgs/wallets/branded/sender.svg'
 import * as WBrandedVenly from './svgs/wallets/branded/venly.svg'
 import * as WBrandedUnipass from './svgs/wallets/branded/unipass.svg'
@@ -5684,14 +5694,19 @@ import * as WBrandedWalletConnect from './svgs/wallets/branded/wallet-connect.sv
 import * as WBrandedLit from './svgs/wallets/branded/lit.svg'
 import * as WBrandedPhantom from './svgs/wallets/branded/phantom.svg'
 import * as WBrandedPortal from './svgs/wallets/branded/portal.svg'
+import * as WMonoGlow from './svgs/wallets/mono/glow.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
+import * as WMonoAtomic from './svgs/wallets/mono/atomic.svg'
 import * as WMonoMyEtherWallet from './svgs/wallets/mono/my-ether-wallet.svg'
 import * as WMonoSafe from './svgs/wallets/mono/safe.svg'
+import * as WMonoKeplr from './svgs/wallets/mono/keplr.svg'
 import * as WMonoBackpack from './svgs/wallets/mono/backpack.svg'
 import * as WMonoSequence from './svgs/wallets/mono/sequence.svg'
+import * as WMonoExodus from './svgs/wallets/mono/exodus.svg'
 import * as WMonoZengo from './svgs/wallets/mono/zengo.svg'
 import * as WMonoWallet3 from './svgs/wallets/mono/wallet-3.svg'
 import * as WMonoObvious from './svgs/wallets/mono/obvious.svg'
+import * as WMonoBitbox from './svgs/wallets/mono/bitbox.svg'
 import * as WMonoRabby from './svgs/wallets/mono/rabby.svg'
 import * as WMonoXdefi from './svgs/wallets/mono/xdefi.svg'
 import * as WMonoTrezor from './svgs/wallets/mono/trezor.svg'
@@ -5705,10 +5720,12 @@ import * as WMonoLedger from './svgs/wallets/mono/ledger.svg'
 import * as WMonoRainbow from './svgs/wallets/mono/rainbow.svg'
 import * as WMonoRonin from './svgs/wallets/mono/ronin.svg'
 import * as WMonoTokenPocket from './svgs/wallets/mono/token-pocket.svg'
+import * as WMonoKukai from './svgs/wallets/mono/kukai.svg'
 import * as WMonoPillar from './svgs/wallets/mono/pillar.svg'
 import * as WMonoEnkrypt from './svgs/wallets/mono/enkrypt.svg'
 import * as WMonoOkx from './svgs/wallets/mono/okx.svg'
 import * as WMonoImtoken from './svgs/wallets/mono/imtoken.svg'
+import * as WMonoSolflare from './svgs/wallets/mono/solflare.svg'
 import * as WMonoSender from './svgs/wallets/mono/sender.svg'
 import * as WMonoVenly from './svgs/wallets/mono/venly.svg'
 import * as WMonoUnipass from './svgs/wallets/mono/unipass.svg'
@@ -5720,14 +5737,20 @@ import * as WMonoWalletConnect from './svgs/wallets/mono/wallet-connect.svg'
 import * as WMonoLit from './svgs/wallets/mono/lit.svg'
 import * as WMonoPhantom from './svgs/wallets/mono/phantom.svg'
 import * as WMonoPortal from './svgs/wallets/mono/portal.svg'
+import * as WBackgroundGlow from './svgs/wallets/background/glow.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
+import * as WBackgroundAtomic from './svgs/wallets/background/atomic.svg'
 import * as WBackgroundMyEtherWallet from './svgs/wallets/background/my-ether-wallet.svg'
 import * as WBackgroundSafe from './svgs/wallets/background/safe.svg'
+import * as WBackgroundKeplr from './svgs/wallets/background/keplr.svg'
 import * as WBackgroundBackpack from './svgs/wallets/background/backpack.svg'
 import * as WBackgroundSequence from './svgs/wallets/background/sequence.svg'
+import * as WBackgroundExodus from './svgs/wallets/background/exodus.svg'
+import * as WBackgroundBlue from './svgs/wallets/background/blue.svg'
 import * as WBackgroundZengo from './svgs/wallets/background/zengo.svg'
 import * as WBackgroundWallet3 from './svgs/wallets/background/wallet-3.svg'
 import * as WBackgroundObvious from './svgs/wallets/background/obvious.svg'
+import * as WBackgroundBitbox from './svgs/wallets/background/bitbox.svg'
 import * as WBackgroundRabby from './svgs/wallets/background/rabby.svg'
 import * as WBackgroundXdefi from './svgs/wallets/background/xdefi.svg'
 import * as WBackgroundTrezor from './svgs/wallets/background/trezor.svg'
@@ -5736,17 +5759,20 @@ import * as WBackgroundKraken from './svgs/wallets/background/kraken.svg'
 import * as WBackgroundAlphaWallet from './svgs/wallets/background/alpha-wallet.svg'
 import * as WBackgroundZerion from './svgs/wallets/background/zerion.svg'
 import * as WBackgroundSoul from './svgs/wallets/background/soul.svg'
+import * as WBackgroundTemple from './svgs/wallets/background/temple.svg'
 import * as WBackgroundSquads from './svgs/wallets/background/squads.svg'
 import * as WBackgroundArgent from './svgs/wallets/background/argent.svg'
 import * as WBackgroundLedger from './svgs/wallets/background/ledger.svg'
 import * as WBackgroundRainbow from './svgs/wallets/background/rainbow.svg'
 import * as WBackgroundRonin from './svgs/wallets/background/ronin.svg'
 import * as WBackgroundTokenPocket from './svgs/wallets/background/token-pocket.svg'
+import * as WBackgroundKukai from './svgs/wallets/background/kukai.svg'
 import * as WBackgroundPillar from './svgs/wallets/background/pillar.svg'
 import * as WBackgroundEnkrypt from './svgs/wallets/background/enkrypt.svg'
 import * as WBackgroundOkx from './svgs/wallets/background/okx.svg'
 import * as WBackgroundCoinbase from './svgs/wallets/background/coinbase.svg'
 import * as WBackgroundImtoken from './svgs/wallets/background/imtoken.svg'
+import * as WBackgroundSolflare from './svgs/wallets/background/solflare.svg'
 import * as WBackgroundSender from './svgs/wallets/background/sender.svg'
 import * as WBackgroundVenly from './svgs/wallets/background/venly.svg'
 import * as WBackgroundUnipass from './svgs/wallets/background/unipass.svg'
@@ -7827,6 +7853,7 @@ export const svgs = {
       SSV: TMonoSSV,
       MIMO: TMonoMIMO,
       WAXP: TMonoWAXP,
+      SAFE: TMonoSAFE,
       DPS: TMonoDPS,
       TUT: TMonoTUT,
       MUSIC: TMonoMUSIC,
@@ -11503,14 +11530,20 @@ export const svgs = {
   },
   wallets: {
     branded: {
+      glow: WBrandedGlow,
       alfa1: WBrandedAlfa1,
+      atomic: WBrandedAtomic,
       'my-ether-wallet': WBrandedMyEtherWallet,
       safe: WBrandedSafe,
+      keplr: WBrandedKeplr,
       backpack: WBrandedBackpack,
       sequence: WBrandedSequence,
+      exodus: WBrandedExodus,
+      blue: WBrandedBlue,
       zengo: WBrandedZengo,
       'wallet-3': WBrandedWallet3,
       obvious: WBrandedObvious,
+      bitbox: WBrandedBitbox,
       rabby: WBrandedRabby,
       xdefi: WBrandedXdefi,
       trezor: WBrandedTrezor,
@@ -11519,17 +11552,20 @@ export const svgs = {
       'alpha-wallet': WBrandedAlphaWallet,
       zerion: WBrandedZerion,
       soul: WBrandedSoul,
+      temple: WBrandedTemple,
       squads: WBrandedSquads,
       argent: WBrandedArgent,
       ledger: WBrandedLedger,
       rainbow: WBrandedRainbow,
       ronin: WBrandedRonin,
       'token-pocket': WBrandedTokenPocket,
+      kukai: WBrandedKukai,
       pillar: WBrandedPillar,
       enkrypt: WBrandedEnkrypt,
       okx: WBrandedOkx,
       coinbase: WBrandedCoinbase,
       imtoken: WBrandedImtoken,
+      solflare: WBrandedSolflare,
       sender: WBrandedSender,
       venly: WBrandedVenly,
       unipass: WBrandedUnipass,
@@ -11542,14 +11578,19 @@ export const svgs = {
       portal: WBrandedPortal,
     },
     mono: {
+      glow: WMonoGlow,
       alfa1: WMonoAlfa1,
+      atomic: WMonoAtomic,
       'my-ether-wallet': WMonoMyEtherWallet,
       safe: WMonoSafe,
+      keplr: WMonoKeplr,
       backpack: WMonoBackpack,
       sequence: WMonoSequence,
+      exodus: WMonoExodus,
       zengo: WMonoZengo,
       'wallet-3': WMonoWallet3,
       obvious: WMonoObvious,
+      bitbox: WMonoBitbox,
       rabby: WMonoRabby,
       xdefi: WMonoXdefi,
       trezor: WMonoTrezor,
@@ -11563,10 +11604,12 @@ export const svgs = {
       rainbow: WMonoRainbow,
       ronin: WMonoRonin,
       'token-pocket': WMonoTokenPocket,
+      kukai: WMonoKukai,
       pillar: WMonoPillar,
       enkrypt: WMonoEnkrypt,
       okx: WMonoOkx,
       imtoken: WMonoImtoken,
+      solflare: WMonoSolflare,
       sender: WMonoSender,
       venly: WMonoVenly,
       unipass: WMonoUnipass,
@@ -11580,14 +11623,20 @@ export const svgs = {
       portal: WMonoPortal,
     },
     background: {
+      glow: WBackgroundGlow,
       alfa1: WBackgroundAlfa1,
+      atomic: WBackgroundAtomic,
       'my-ether-wallet': WBackgroundMyEtherWallet,
       safe: WBackgroundSafe,
+      keplr: WBackgroundKeplr,
       backpack: WBackgroundBackpack,
       sequence: WBackgroundSequence,
+      exodus: WBackgroundExodus,
+      blue: WBackgroundBlue,
       zengo: WBackgroundZengo,
       'wallet-3': WBackgroundWallet3,
       obvious: WBackgroundObvious,
+      bitbox: WBackgroundBitbox,
       rabby: WBackgroundRabby,
       xdefi: WBackgroundXdefi,
       trezor: WBackgroundTrezor,
@@ -11596,17 +11645,20 @@ export const svgs = {
       'alpha-wallet': WBackgroundAlphaWallet,
       zerion: WBackgroundZerion,
       soul: WBackgroundSoul,
+      temple: WBackgroundTemple,
       squads: WBackgroundSquads,
       argent: WBackgroundArgent,
       ledger: WBackgroundLedger,
       rainbow: WBackgroundRainbow,
       ronin: WBackgroundRonin,
       'token-pocket': WBackgroundTokenPocket,
+      kukai: WBackgroundKukai,
       pillar: WBackgroundPillar,
       enkrypt: WBackgroundEnkrypt,
       okx: WBackgroundOkx,
       coinbase: WBackgroundCoinbase,
       imtoken: WBackgroundImtoken,
+      solflare: WBackgroundSolflare,
       sender: WBackgroundSender,
       venly: WBackgroundVenly,
       unipass: WBackgroundUnipass,

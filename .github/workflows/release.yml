@@ -17,15 +17,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v1
-
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
         with:
-          version: bunx changeset version
-          publish: bunx changeset publish
+          version: npx changeset version
+          publish: npx changeset publish
           title: "Version Packages"
           commit: "Version Packages"
           createGithubReleases: true

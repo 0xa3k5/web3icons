@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#temple__a)" d="M15.333 8.537H18L16.666 3H7.334l1.334 5.537h2.664l1.333 5.54H11l.667 2.768h1.665l.667 2.77H18z"/>
+    <path fill="url(#temple__b)" d="M16.666 9.923h-1.002l-.332-1.385H18z"/>
+    <path fill="url(#temple__c)" d="M15.333 5.77H9.335l-.17-.692h6.669z"/>
+    <path fill="url(#temple__d)" d="M7.334 9.922 6 4.385 7.334 3l1.333 5.537z"/>
+    <path fill="url(#temple__e)" d="M13.332 16.844h-1.665l-1.334 1.386h1.665z"/>
+    <path fill="url(#temple__f)" d="M10.001 9.923H7.334l1.334-1.385h2.664z"/>
+    <path fill="url(#temple__g)" d="M12.666 14.078H11l-.998-4.155 1.33-1.385z"/>
+    <path fill="url(#temple__h)" d="M11.667 16.845 11 14.078l-1.334 1.385.667 2.767z"/>
+    <path fill="url(#temple__i)" d="m13.999 19.615-.667-2.77-1.334 1.385.667 2.77z"/>
+    <path fill="url(#temple__j)" d="m16.667 19.615-3-12.46-.534.552L16 19.615l-.535.555h.667z"/>
+    <path fill="url(#temple__k)" d="M16.331 7.155h-.667l-.332-1.385.502-.692z"/>
+    <path fill="url(#temple__l)" d="m16.667 19.615-.535.555h-.667l.535-.555h-2L12.664 21h4.002L18 19.615z"/>
+    <defs>
+        <linearGradient id="temple__a" x1="7.333" x2="17.999" y1="11.308" y2="11.308" gradientUnits="userSpaceOnUse">
+            <stop offset=".002" stop-color="#FCC33C"/>
+            <stop offset="1" stop-color="#FFEE50"/>
+        </linearGradient>
+        <linearGradient id="temple__b" x1="17.999" x2="15.332" y1="9.231" y2="9.231" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FB9828"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <linearGradient id="temple__c" x1="15.833" x2="9.167" y1="5.423" y2="5.423" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F84200"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <linearGradient id="temple__d" x1="6.551" x2="8.231" y1="3.203" y2="9.691" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F96C13"/>
+            <stop offset="1" stop-color="#FB9828"/>
+        </linearGradient>
+        <linearGradient id="temple__e" x1="10.333" x2="13.333" y1="17.538" y2="17.538" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F84200"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <linearGradient id="temple__f" x1="7.333" x2="11.333" y1="9.231" y2="9.231" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F84200"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <linearGradient id="temple__g" x1="11.88" x2="10.453" y1="14.281" y2="8.767" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F96C13"/>
+            <stop offset="1" stop-color="#FB9828"/>
+        </linearGradient>
+        <linearGradient id="temple__h" x1="11.116" x2="10.15" y1="18.028" y2="14.297" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FB9828"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <linearGradient id="temple__i" x1="13.449" x2="12.483" y1="20.797" y2="17.066" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F96C13"/>
+            <stop offset="1" stop-color="#FB9828"/>
+        </linearGradient>
+        <linearGradient id="temple__j" x1="16.133" x2="12.819" y1="20.169" y2="7.373" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F96C13"/>
+            <stop offset="1" stop-color="#F84200"/>
+        </linearGradient>
+        <linearGradient id="temple__k" x1="16.069" x2="15.533" y1="7.446" y2="5.379" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F84200"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+        <linearGradient id="temple__l" x1="13.226" x2="17.209" y1="20.308" y2="20.308" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F84200"/>
+            <stop offset="1" stop-color="#F96C13"/>
+        </linearGradient>
+    </defs>
+</svg>

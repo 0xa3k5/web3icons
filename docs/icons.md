@@ -1,6 +1,6 @@
 jump to section:
 
-- [wallets (38)](#wallets)
+- [wallets (47)](#wallets)
 - [networks (186)](#networks)
 - [exchanges (26)](#exchanges)
 - [tokens (1826)](#tokens)
@@ -47,6 +47,15 @@ jump to section:
 | xdefi           | xdefi           | ✅      | ✅   | ✅         |
 | zengo           | zengo           | ✅      | ✅   | ✅         |
 | zerion          | zerion          | ✅      | ✅   | ✅         |
+| atomic          | Atomic          | ✅      | ✅   | ✅         |
+| bitbox          | Bitbox          | ✅      | ✅   | ✅         |
+| blue            | Blue Wallet     | ✅      | ❌   | ✅         |
+| exodus          | Exodus          | ✅      | ✅   | ✅         |
+| glow            | Glow            | ✅      | ✅   | ✅         |
+| keplr           | Keplr           | ✅      | ✅   | ✅         |
+| kukai           | Kukai           | ✅      | ✅   | ✅         |
+| solflare        | Solflare        | ✅      | ✅   | ✅         |
+| temple          | Temple          | ✅      | ❌   | ✅         |
 
 ### Networks
 
@@ -1638,7 +1647,7 @@ jump to section:
 | Rug                                    | rug         | ✅      | ❌   | ✅         |
 | Rupiah Token                           | idrt        | ✅      | ✅   | ✅         |
 | Sacabam                                | scb         | ✅      | ✅   | ✅         |
-| SafeCoin                               | safe        | ✅      | ❌   | ✅         |
+| Safe                                   | safe        | ✅      | ✅   | ✅         |
 | SafeDeal                               | sfd         | ✅      | ❌   | ✅         |
 | Safe Haven                             | sha         | ✅      | ❌   | ✅         |
 | Safemars                               | safemars    | ✅      | ❌   | ✅         |

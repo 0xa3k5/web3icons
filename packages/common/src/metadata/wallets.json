@@ -226,5 +226,59 @@
     "fileName": "zerion",
     "name": "zerion",
     "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "atomic",
+    "fileName": "atomic",
+    "name": "Atomic",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "bitbox",
+    "fileName": "bitbox",
+    "name": "Bitbox",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "blue",
+    "fileName": "blue",
+    "name": "Blue Wallet",
+    "variants": ["background", "branded"]
+  },
+  {
+    "id": "exodus",
+    "fileName": "exodus",
+    "name": "Exodus",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "glow",
+    "fileName": "glow",
+    "name": "Glow",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "keplr",
+    "fileName": "keplr",
+    "name": "Keplr",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "kukai",
+    "fileName": "kukai",
+    "name": "Kukai",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "solflare",
+    "fileName": "solflare",
+    "name": "Solflare",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "temple",
+    "fileName": "temple",
+    "name": "Temple",
+    "variants": ["background", "branded"]
   }
 ]

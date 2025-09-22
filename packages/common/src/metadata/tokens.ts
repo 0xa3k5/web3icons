@@ -15854,13 +15854,15 @@ export const tokens: ITokenMetadata[] = [
     variants: ['branded', 'mono', 'background'],
   },
   {
-    id: 'safe-coin-2',
+    id: 'safe',
     fileName: 'SAFE',
     symbol: 'safe',
-    name: 'SafeCoin',
-    marketCapRank: 2003,
-    addresses: {},
-    variants: ['branded', 'background'],
+    name: 'Safe',
+    marketCapRank: null,
+    addresses: {
+      ethereum: '0x5afe3855358e112b5647b952709e6165e1c1eeee',
+    },
+    variants: ['branded', 'background', 'mono'],
   },
   {
     id: 'safe-deal',
