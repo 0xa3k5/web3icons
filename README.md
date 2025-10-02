@@ -31,7 +31,6 @@ We welcome contributions to `web3icons`! If you'd like to contribute, please ref
 - [`@web3icons/common`](https://github.com/0xa3k5/web3icons/tree/main/packages/common): Shared metadata and types
 - [`scripts/`](https://github.com/0xa3k5/web3icons/tree/main/scripts): Build scripts, CLI tools, and maintenance utilities
 - [`apps/website`](https://github.com/0xa3k5/web3icons/tree/main/apps/website): Next.js app for https://web3icons.io
-- [`apps/api`](https://github.com/0xa3k5/web3icons/tree/main/apps/api): REST API service
 - [`apps/figma-plugin`](https://github.com/0xa3k5/web3icons/tree/main/apps/figma-plugin): Figma plugin for web3 icons
 
 ---

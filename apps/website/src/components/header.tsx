@@ -1,4 +1,3 @@
-import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'
 import Link from 'next/link'
 import Logo from './logo'
 import { Button } from './button'
@@ -31,35 +30,6 @@ export function Header({ className }: Props) {
               docs
             </Button>
           </Link>
-          <Link href="/api-reference">
-            <Button variant="ghost" size="sm">
-              api reference
-            </Button>
-          </Link>
-
-          <SignedOut>
-            <SignInButton mode="modal">
-              <Button variant="secondary" size="sm">
-                sign in
-              </Button>
-            </SignInButton>
-          </SignedOut>
-
-          <SignedIn>
-            <Link href="/dashboard">
-              <Button variant="primary" size="sm">
-                dashboard
-              </Button>
-            </Link>
-            <UserButton
-              appearance={{
-                elements: {
-                  avatarBox: 'size-8',
-                  userButtonAvatarBox: 'size-8 border border-gray-lightest',
-                },
-              }}
-            />
-          </SignedIn>
         </div>
       </div>
     </div>

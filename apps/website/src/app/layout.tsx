@@ -2,7 +2,6 @@ import '../globals.css'
 import { Inter } from 'next/font/google'
 import { AppContextProvider } from '../hooks'
 import { Analytics } from '@vercel/analytics/react'
-import { ClerkProvider } from '@clerk/nextjs'
 import { Header } from '../components/header'
 import { Footer } from '../components/footer'
 
@@ -44,17 +43,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ClerkProvider>
-      <html lang="en" className="h-full">
-        <AppContextProvider>
-          <body className={`${inter.className} mx-auto flex h-full flex-col`}>
-            <Header />
-            <main className="container mx-auto flex-1">{children}</main>
-            <Analytics />
-            <Footer />
-          </body>
-        </AppContextProvider>
-      </html>
-    </ClerkProvider>
+    <html lang="en" className="h-full">
+      <AppContextProvider>
+        <body className={`${inter.className} mx-auto flex h-full flex-col`}>
+          <Header />
+          <main className="container mx-auto flex-1">{children}</main>
+          <Analytics />
+          <Footer />
+        </body>
+      </AppContextProvider>
+    </html>
   )
 }
