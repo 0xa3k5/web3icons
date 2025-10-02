@@ -1,5 +1,6 @@
 import '../globals.css'
 import { Inter } from 'next/font/google'
+import { Suspense } from 'react'
 import { AppContextProvider } from '../hooks'
 import { Analytics } from '@vercel/analytics/react'
 import { Header } from '../components/header'
@@ -44,14 +45,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full">
-      <AppContextProvider>
-        <body className={`${inter.className} mx-auto flex h-full flex-col`}>
-          <Header />
-          <main className="container mx-auto flex-1">{children}</main>
-          <Analytics />
-          <Footer />
-        </body>
-      </AppContextProvider>
+      <body className={`${inter.className} mx-auto flex h-full flex-col`}>
+        <Suspense>
+          <AppContextProvider>
+            <Header />
+            <main className="container mx-auto flex-1">{children}</main>
+            <Analytics />
+            <Footer />
+          </AppContextProvider>
+        </Suspense>
+      </body>
     </html>
   )
 }

@@ -5,6 +5,7 @@
 ---
 
 new wallets:
+
 - atomic (branded, mono, background)
 - bitbox (branded, mono, background)
 - blue (branded, background)
