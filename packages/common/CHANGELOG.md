@@ -1,5 +1,25 @@
 # @web3icons/common
 
+## 0.11.20
+
+### Patch Changes
+
+- b1690da: new wallets:
+
+  - atomic (branded, mono, background)
+  - bitbox (branded, mono, background)
+  - blue (branded, background)
+  - exodus (branded, mono, background)
+  - glow (branded, mono, background)
+  - keplr (branded, mono, background)
+  - kukai (branded, mono, background)
+  - solfrale (branded, mono, background)
+  - temple (branded, mono, background)
+
+  replace old SafeCoin icon in favor of Safe Token (gnosis)
+
+- update base icons to match the new brand
+
 ## 0.11.19
 
 ### Patch Changes
