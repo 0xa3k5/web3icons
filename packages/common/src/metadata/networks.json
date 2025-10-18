@@ -6,7 +6,7 @@
     "caip2id": "eip155:324",
     "name": "zkSync era",
     "shortName": "zkSync",
-    "nativeCoinId": "ethereum",
+    "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
   },
   {
@@ -134,17 +134,7 @@
     "caip2id": "eip155:1",
     "name": "Ethereum",
     "shortName": "Ethereum",
-    "nativeCoinId": "ethereum",
-    "variants": ["background", "branded", "mono"]
-  },
-  {
-    "id": "sepolia",
-    "fileName": "network:ethereum",
-    "chainId": 11155111,
-    "caip2id": "eip155:11155111",
-    "name": "Sepolia Testnet",
-    "shortName": "Sepolia",
-    "nativeCoinId": "ethereum",
+    "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
   },
   {
@@ -154,7 +144,7 @@
     "caip2id": "eip155:17000",
     "name": "Holesky Testnet",
     "shortName": "Holesky",
-    "nativeCoinId": "ethereum",
+    "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
   },
   {
@@ -164,7 +154,7 @@
     "caip2id": "eip155:5",
     "name": "Goerli Testnet (Deprecated)",
     "shortName": "Goerli",
-    "nativeCoinId": "ethereum",
+    "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
   },
   {
@@ -280,7 +270,7 @@
     "caip2id": "eip155:1101",
     "name": "Polygon zkEVM",
     "shortName": "polygon",
-    "nativeCoinId": "ethereum",
+    "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
   },
   {
@@ -624,7 +614,7 @@
     "caip2id": "eip155:59144",
     "name": "Linea",
     "shortName": "linea",
-    "nativeCoinId": "ethereum",
+    "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
   },
   {
@@ -1018,7 +1008,7 @@
     "caip2id": "eip155:42161",
     "name": "Arbitrum One",
     "shortName": "Arbitrum",
-    "nativeCoinId": "ethereum",
+    "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
   },
   {
@@ -1038,7 +1028,7 @@
     "caip2id": "eip155:288",
     "name": "Boba Network",
     "shortName": "boba",
-    "nativeCoinId": "ethereum",
+    "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
   },
   {
@@ -1234,7 +1224,7 @@
     "caip2id": "eip155:1890",
     "name": "LightLink",
     "shortName": "lightlink",
-    "nativeCoinId": "ethereum",
+    "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
   },
   {
@@ -1280,7 +1270,7 @@
     "caip2id": "eip155:8453",
     "name": "Base",
     "shortName": "base",
-    "nativeCoinId": "ethereum",
+    "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
   },
   {
@@ -1532,7 +1522,7 @@
     "caip2id": "eip155:42170",
     "name": "Arbitrum Nova",
     "shortName": "arbitrum-nova",
-    "nativeCoinId": "ethereum",
+    "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
   },
   {

@@ -11,6 +11,7 @@ import {
 } from '../utils'
 import chalk from 'chalk'
 import { handleDeletedIcons } from './delete-icons'
+import { select, text, confirm } from '@clack/prompts'
 
 const getModifiedIcons = () => {
   return execSync(
@@ -26,11 +27,98 @@ const getDeletedIcons = () => {
     .trim()
 }
 
+/**
+ * Add metadata entry without requiring icon files
+ * Used for entries that reference existing icons (e.g., testnets, wrapped tokens)
+ */
+const addMetadataOnly = async () => {
+  const addAnother = async (): Promise<void> => {
+    // Select the type for the NEW entry being created
+    const newEntryType = (await select({
+      message: 'Select type for the new entry you are creating',
+      options: [
+        { value: 'network', label: 'Network' },
+        { value: 'token', label: 'Token' },
+        { value: 'wallet', label: 'Wallet' },
+        { value: 'exchange', label: 'Exchange' },
+      ],
+    })) as TType
+
+    // Ask for the full icon reference in one prompt
+    const iconRef = (await text({
+      message: 'Enter icon reference to use (format: type:name)',
+      placeholder: 'network:ethereum',
+      validate: (value) => {
+        if (!value) return 'Icon reference is required'
+        const parts = value.split(':')
+        if (parts.length !== 2) {
+          return 'Invalid format. Use "type:name" (e.g., "network:ethereum", "token:usdc")'
+        }
+        const validTypes = ['network', 'token', 'wallet', 'exchange']
+        if (!validTypes.includes(parts[0]!)) {
+          return `Invalid type. Must be one of: ${validTypes.join(', ')}`
+        }
+        return undefined
+      },
+    })) as string
+
+    // Parse the reference
+    const [refTypeInput, iconName] = iconRef.split(':')
+
+    // Find the reference metadata to get variants
+    const refMetadata = findExistingMetadata(iconName!, refTypeInput as TType)
+
+    if (!refMetadata) {
+      console.log(
+        chalk.red(
+          `Error: Referenced icon "${iconRef}" not found. Please ensure the icon exists.`,
+        ),
+      )
+      process.exit(1)
+    }
+
+    console.log(
+      chalk.dim(
+        `Using variants from ${iconRef}: ${refMetadata.variants.join(', ')}`,
+      ),
+    )
+    console.log('')
+
+    // Pass the iconRef and the NEW entry's type
+    await addNewIcon([iconRef, { type: newEntryType, variants: refMetadata.variants }])
+
+    const shouldAddAnother = await confirm({
+      message: 'Add another metadata entry?',
+      initialValue: false,
+    })
+
+    if (shouldAddAnother) {
+      await addAnother()
+    }
+  }
+
+  await addAnother()
+}
+
 const addIcons = async () => {
   await handleDeletedIcons()
 
+  const args = process.argv.slice(2)
+  const metadataOnlyFlag = args.includes('--metadata-only')
+  const passedFiles = args.filter((arg) => !arg.startsWith('--'))
+
+  // If --metadata-only flag is used, skip to metadata creation
+  if (metadataOnlyFlag) {
+    console.log(
+      chalk.blue(
+        '📝 Metadata-only mode: Add new metadata entries without icon files',
+      ),
+    )
+    await addMetadataOnly()
+    process.exit(0)
+  }
+
   const modifiedIcons = getModifiedIcons()
-  const passedFiles = process.argv.slice(2)
   const deletedFiles = getDeletedIcons().split(',').filter(Boolean)
 
   if (
@@ -39,6 +127,11 @@ const addIcons = async () => {
     deletedFiles.length === 0
   ) {
     console.error(`No icon changes detected`)
+    console.log(
+      chalk.dim(
+        '\nTip: Use "bun run add-icons --metadata-only" to add entries that reference existing icons',
+      ),
+    )
     process.exit(0)
   }
 

@@ -19,6 +19,7 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error",
     "add-icons": "bun ./scripts/cli/add-icons.ts",
+    "add-metadata": "bun ./scripts/cli/add-icons.ts --metadata-only",
     "delete-icons": "bun ./scripts/cli/delete-icons.ts",
     "check-missing": "bun ./scripts/cli/check-missing-metadata.ts",
     "generate-icons-md": "bun ./scripts/maintenance/generate-icons-md.ts",
