@@ -1718,7 +1718,7 @@
   },
   {
     "id": "mega-eth",
-    "fileName": "network:mega",
+    "fileName": "network:mega-eth",
     "chainId": 6342,
     "caip2id": "eip155:6342",
     "name": "Mega ETH",
