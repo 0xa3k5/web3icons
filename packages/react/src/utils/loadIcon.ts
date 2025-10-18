@@ -1,4 +1,4 @@
-import { ITokenMetadata, TMetadata } from '@web3icons/common'
+import { TMetadata, TType } from '@web3icons/common'
 import type { IconComponent } from '../types'
 import { toPascalCase } from './naming-conventions'
 
@@ -11,12 +11,35 @@ export const preloadIcon = (type: string, metadata: TMetadata): void => {
   }
 }
 
+/**
+ * parse fileName to extract type and name
+ * format must be "type:name" where type is one of: network, token, wallet, exchange
+ * examples:
+ * - "network:ethereum" - references network icon
+ * - "token:usdc" - references token icon
+ * - "wallet:metamask" - references wallet icon
+ */
+const parseFileName = (fileName: string): { type: TType; name: string } => {
+  const parts = fileName.split(':')
+  if (parts.length !== 2) {
+    throw new Error(
+      `Invalid fileName format: "${fileName}". Expected format: "type:name" (e.g., "network:ethereum")`,
+    )
+  }
+  return { type: parts[0] as TType, name: parts[1]! }
+}
+
 const getIconKey = (type: string, metadata: TMetadata): string => {
-  return `${type.charAt(0).toUpperCase()}${type.slice(1)}${
-    type === 'token'
-      ? (metadata as ITokenMetadata).symbol.toUpperCase()
-      : toPascalCase(metadata.id)
-  }`
+  const fileName = metadata.fileName
+  const { type: iconType, name: iconName } = parseFileName(fileName)
+
+  // generate component name based on the icon's type
+  const componentName =
+    iconType === 'token'
+      ? iconName.replace(/[- ]+/g, '_').toUpperCase()
+      : toPascalCase(iconName)
+
+  return `${iconType.charAt(0).toUpperCase()}${iconType.slice(1)}${componentName}`
 }
 
 export const loadIcon = (
@@ -24,11 +47,13 @@ export const loadIcon = (
   metadata: TMetadata,
 ): Promise<IconComponent> => {
   const key = getIconKey(type, metadata)
+  const fileName = metadata.fileName
+  const { type: iconType } = parseFileName(fileName)
 
   if (!iconCache.has(key)) {
     const importPromise = import(
       /* webpackChunkName: "[request]" */
-      `../icons/${type}s/${key}.tsx`
+      `../icons/${iconType}s/${key}.tsx`
     )
       .then((module) => module.default)
       .catch((error) => {
