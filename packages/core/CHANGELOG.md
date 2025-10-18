@@ -1,5 +1,15 @@
 # @web3icons/core
 
+## 4.0.26
+
+### Patch Changes
+
+- - implemented fileName field with "type:name" format allowing multiple metadata entries to share the same icon files.
+  - added --metadata-only cli flag to add-icons script for creating entries without uploading new icons.
+  - added 27 testnets (sepolia, fuji, base sepolia, etc.) referencing their mainnet icons.
+- Updated dependencies
+  - @web3icons/common@0.11.21
+
 ## 4.0.25
 
 ### Patch Changes

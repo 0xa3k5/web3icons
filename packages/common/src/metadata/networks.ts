@@ -154,7 +154,7 @@ export const networks: INetworkMetadata[] = [
     fileName: 'network:ethereum',
     chainId: 5,
     caip2id: 'eip155:5',
-    name: 'Goerli Testnet',
+    name: 'Goerli Testnet (Deprecated)',
     shortName: 'Goerli',
     nativeCoinId: 'ETH',
     variants: ['background', 'branded', 'mono'],
