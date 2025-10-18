@@ -85,7 +85,10 @@ const addMetadataOnly = async () => {
     console.log('')
 
     // Pass the iconRef and the NEW entry's type
-    await addNewIcon([iconRef, { type: newEntryType, variants: refMetadata.variants }])
+    await addNewIcon([
+      iconRef,
+      { type: newEntryType, variants: refMetadata.variants },
+    ])
 
     const shouldAddAnother = await confirm({
       message: 'Add another metadata entry?',
