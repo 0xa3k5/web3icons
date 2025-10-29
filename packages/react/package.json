@@ -46,17 +46,17 @@
   },
   "dependencies": {
     "@web3icons/common": "0.11.21",
-    "react": "^18.2.0"
+    "react": "^19.0.0"
   },
   "devDependencies": {
     "@svgr/core": "^8.1.0",
-    "@types/react": "^18.3.3",
+    "@types/react": "^19.0.0",
     "bun-types": "latest",
     "tsup": "^8.0.2",
     "typescript": "^5.0.0"
   },
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "^19.0.0"
   },
   "files": [
     "dist"
