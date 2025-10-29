@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (47)](#wallets)
-- [networks (215)](#networks)
-- [exchanges (26)](#exchanges)
-- [tokens (1826)](#tokens)
+- [networks (216)](#networks)
+- [exchanges (27)](#exchanges)
+- [tokens (1827)](#tokens)
 
 ### Wallets
 
@@ -276,6 +276,7 @@ jump to section:
 | kava-testnet                | Kava Testnet                    | ✅      | ✅   | ✅         |
 | telos-testnet               | Telos EVM Testnet               | ✅      | ✅   | ✅         |
 | ethereum-classic-mordor     | Ethereum Classic Mordor Testnet | ✅      | ✅   | ✅         |
+| arc                         | Arc                             | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -307,6 +308,7 @@ jump to section:
 | upbit        | UpBit        | cex  | ✅      | ✅   | ✅         |
 | aevo         | Aevo         | dex  | ✅      | ✅   | ✅         |
 | paradex      | Paradex      | dex  | ✅      | ✅   | ✅         |
+| bitget       | Bitget       | cex  | ✅      | ✅   | ✅         |
 
 ### Tokens
 
@@ -2138,3 +2140,4 @@ jump to section:
 | peaq                                   | PEAQ        | ✅      | ✅   | ✅         |
 | EURC                                   | EURC        | ✅      | ✅   | ✅         |
 | Vaulta                                 | A           | ✅      | ✅   | ✅         |
+| SOPH                                   | SOPH        | ✅      | ✅   | ✅         |

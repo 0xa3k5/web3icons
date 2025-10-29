@@ -21287,4 +21287,15 @@ export const tokens: ITokenMetadata[] = [
       ethereum: '0xCc80062086c8fb8d4837C56FCDB25A67Cd9c7d58',
     },
   },
+  {
+    id: 'SOPHEN',
+    name: 'SOPH',
+    variants: ['background', 'branded', 'mono'],
+    fileName: 'token:SOPHEN',
+    symbol: 'SOPH',
+    marketCapRank: 0,
+    addresses: {
+      ethereum: '0x6b7774cb12ed7573a7586e7d0e62a2a563ddd3f0',
+    },
+  },
 ]
