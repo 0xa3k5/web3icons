@@ -1,5 +1,13 @@
 # @web3icons/common
 
+## 0.11.22
+
+### Patch Changes
+
+- add exchange:bitget (background, branded, mono)
+  add token:SOPH (background, branded, mono)
+  add network:arc (background, branded, mono)
+
 ## 0.11.21
 
 ### Patch Changes

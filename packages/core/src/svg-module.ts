@@ -1075,6 +1075,7 @@ import * as TBrandedSTEEM from './svgs/tokens/branded/STEEM.svg'
 import * as TBrandedBLID from './svgs/tokens/branded/BLID.svg'
 import * as TBrandedRPG from './svgs/tokens/branded/RPG.svg'
 import * as TBrandedREUNI from './svgs/tokens/branded/REUNI.svg'
+import * as TBrandedSOPHEN from './svgs/tokens/branded/SOPHEN.svg'
 import * as TBrandedBTS from './svgs/tokens/branded/BTS.svg'
 import * as TBrandedPIP from './svgs/tokens/branded/PIP.svg'
 import * as TBrandedARI10 from './svgs/tokens/branded/ARI10.svg'
@@ -2705,6 +2706,7 @@ import * as TMonoSTEEM from './svgs/tokens/mono/STEEM.svg'
 import * as TMonoBLID from './svgs/tokens/mono/BLID.svg'
 import * as TMonoRPG from './svgs/tokens/mono/RPG.svg'
 import * as TMonoREUNI from './svgs/tokens/mono/REUNI.svg'
+import * as TMonoSOPHEN from './svgs/tokens/mono/SOPHEN.svg'
 import * as TMonoBTS from './svgs/tokens/mono/BTS.svg'
 import * as TMonoPIP from './svgs/tokens/mono/PIP.svg'
 import * as TMonoARI10 from './svgs/tokens/mono/ARI10.svg'
@@ -4390,6 +4392,7 @@ import * as TBackgroundSTEEM from './svgs/tokens/background/STEEM.svg'
 import * as TBackgroundBLID from './svgs/tokens/background/BLID.svg'
 import * as TBackgroundRPG from './svgs/tokens/background/RPG.svg'
 import * as TBackgroundREUNI from './svgs/tokens/background/REUNI.svg'
+import * as TBackgroundSOPHEN from './svgs/tokens/background/SOPHEN.svg'
 import * as TBackgroundBTS from './svgs/tokens/background/BTS.svg'
 import * as TBackgroundPIP from './svgs/tokens/background/PIP.svg'
 import * as TBackgroundARI10 from './svgs/tokens/background/ARI10.svg'
@@ -5228,6 +5231,7 @@ import * as NBrandedTaiko from './svgs/networks/branded/taiko.svg'
 import * as NBrandedLyra from './svgs/networks/branded/lyra.svg'
 import * as NBrandedParadex from './svgs/networks/branded/paradex.svg'
 import * as NBrandedStarknet from './svgs/networks/branded/starknet.svg'
+import * as NBrandedArc from './svgs/networks/branded/arc.svg'
 import * as NBrandedBerachain from './svgs/networks/branded/berachain.svg'
 import * as NBrandedMoonbeam from './svgs/networks/branded/moonbeam.svg'
 import * as NBrandedSuperSeed from './svgs/networks/branded/super-seed.svg'
@@ -5410,6 +5414,7 @@ import * as NMonoTaiko from './svgs/networks/mono/taiko.svg'
 import * as NMonoLyra from './svgs/networks/mono/lyra.svg'
 import * as NMonoParadex from './svgs/networks/mono/paradex.svg'
 import * as NMonoStarknet from './svgs/networks/mono/starknet.svg'
+import * as NMonoArc from './svgs/networks/mono/arc.svg'
 import * as NMonoBerachain from './svgs/networks/mono/berachain.svg'
 import * as NMonoMoonbeam from './svgs/networks/mono/moonbeam.svg'
 import * as NMonoSuperSeed from './svgs/networks/mono/super-seed.svg'
@@ -5596,6 +5601,7 @@ import * as NBackgroundTaiko from './svgs/networks/background/taiko.svg'
 import * as NBackgroundLyra from './svgs/networks/background/lyra.svg'
 import * as NBackgroundParadex from './svgs/networks/background/paradex.svg'
 import * as NBackgroundStarknet from './svgs/networks/background/starknet.svg'
+import * as NBackgroundArc from './svgs/networks/background/arc.svg'
 import * as NBackgroundBerachain from './svgs/networks/background/berachain.svg'
 import * as NBackgroundMoonbeam from './svgs/networks/background/moonbeam.svg'
 import * as NBackgroundSuperSeed from './svgs/networks/background/super-seed.svg'
@@ -5810,6 +5816,7 @@ import * as EBrandedPancakeSwap from './svgs/exchanges/branded/pancake-swap.svg'
 import * as EBrandedBitstamp from './svgs/exchanges/branded/bitstamp.svg'
 import * as EBrandedUpbit from './svgs/exchanges/branded/upbit.svg'
 import * as EBrandedKucoin from './svgs/exchanges/branded/kucoin.svg'
+import * as EBrandedBitget from './svgs/exchanges/branded/bitget.svg'
 import * as EMonoGemini from './svgs/exchanges/mono/gemini.svg'
 import * as EMonoCryptoCom from './svgs/exchanges/mono/crypto-com.svg'
 import * as EMono1inch from './svgs/exchanges/mono/1inch.svg'
@@ -5836,6 +5843,7 @@ import * as EMonoPancakeSwap from './svgs/exchanges/mono/pancake-swap.svg'
 import * as EMonoBitstamp from './svgs/exchanges/mono/bitstamp.svg'
 import * as EMonoUpbit from './svgs/exchanges/mono/upbit.svg'
 import * as EMonoKucoin from './svgs/exchanges/mono/kucoin.svg'
+import * as EMonoBitget from './svgs/exchanges/mono/bitget.svg'
 import * as EBackgroundGemini from './svgs/exchanges/background/gemini.svg'
 import * as EBackgroundCryptoCom from './svgs/exchanges/background/crypto-com.svg'
 import * as EBackground1inch from './svgs/exchanges/background/1inch.svg'
@@ -5862,6 +5870,7 @@ import * as EBackgroundPancakeSwap from './svgs/exchanges/background/pancake-swa
 import * as EBackgroundBitstamp from './svgs/exchanges/background/bitstamp.svg'
 import * as EBackgroundUpbit from './svgs/exchanges/background/upbit.svg'
 import * as EBackgroundKucoin from './svgs/exchanges/background/kucoin.svg'
+import * as EBackgroundBitget from './svgs/exchanges/background/bitget.svg'
 export const svgs = {
   tokens: {
     branded: {
@@ -6941,6 +6950,7 @@ export const svgs = {
       BLID: TBrandedBLID,
       RPG: TBrandedRPG,
       REUNI: TBrandedREUNI,
+      SOPHEN: TBrandedSOPHEN,
       BTS: TBrandedBTS,
       PIP: TBrandedPIP,
       ARI10: TBrandedARI10,
@@ -8573,6 +8583,7 @@ export const svgs = {
       BLID: TMonoBLID,
       RPG: TMonoRPG,
       REUNI: TMonoREUNI,
+      SOPHEN: TMonoSOPHEN,
       BTS: TMonoBTS,
       PIP: TMonoPIP,
       ARI10: TMonoARI10,
@@ -10260,6 +10271,7 @@ export const svgs = {
       BLID: TBackgroundBLID,
       RPG: TBackgroundRPG,
       REUNI: TBackgroundREUNI,
+      SOPHEN: TBackgroundSOPHEN,
       BTS: TBackgroundBTS,
       PIP: TBackgroundPIP,
       ARI10: TBackgroundARI10,
@@ -11102,6 +11114,7 @@ export const svgs = {
       lyra: NBrandedLyra,
       paradex: NBrandedParadex,
       starknet: NBrandedStarknet,
+      arc: NBrandedArc,
       berachain: NBrandedBerachain,
       moonbeam: NBrandedMoonbeam,
       'super-seed': NBrandedSuperSeed,
@@ -11286,6 +11299,7 @@ export const svgs = {
       lyra: NMonoLyra,
       paradex: NMonoParadex,
       starknet: NMonoStarknet,
+      arc: NMonoArc,
       berachain: NMonoBerachain,
       moonbeam: NMonoMoonbeam,
       'super-seed': NMonoSuperSeed,
@@ -11474,6 +11488,7 @@ export const svgs = {
       lyra: NBackgroundLyra,
       paradex: NBackgroundParadex,
       starknet: NBackgroundStarknet,
+      arc: NBackgroundArc,
       berachain: NBackgroundBerachain,
       moonbeam: NBackgroundMoonbeam,
       'super-seed': NBackgroundSuperSeed,
@@ -11700,6 +11715,7 @@ export const svgs = {
       bitstamp: EBrandedBitstamp,
       upbit: EBrandedUpbit,
       kucoin: EBrandedKucoin,
+      bitget: EBrandedBitget,
     },
     mono: {
       gemini: EMonoGemini,
@@ -11728,6 +11744,7 @@ export const svgs = {
       bitstamp: EMonoBitstamp,
       upbit: EMonoUpbit,
       kucoin: EMonoKucoin,
+      bitget: EMonoBitget,
     },
     background: {
       gemini: EBackgroundGemini,
@@ -11756,6 +11773,7 @@ export const svgs = {
       bitstamp: EBackgroundBitstamp,
       upbit: EBackgroundUpbit,
       kucoin: EBackgroundKucoin,
+      bitget: EBackgroundBitget,
     },
   },
 }

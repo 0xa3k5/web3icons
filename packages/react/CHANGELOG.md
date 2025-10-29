@@ -1,5 +1,15 @@
 # @web3icons/react
 
+## 4.0.28
+
+### Patch Changes
+
+- add exchange:bitget (background, branded, mono)
+  add token:SOPH (background, branded, mono)
+  add network:arc (background, branded, mono)
+- Updated dependencies
+  - @web3icons/common@0.11.22
+
 ## 4.0.27
 
 ### Patch Changes

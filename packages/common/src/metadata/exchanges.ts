@@ -183,4 +183,11 @@ export const exchanges: IExchangeMetadata[] = [
     type: 'dex',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'bitget',
+    fileName: 'exchange:bitget',
+    name: 'Bitget',
+    type: 'cex',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]

@@ -2074,5 +2074,15 @@
     "shortName": "ETC Mordor",
     "nativeCoinId": "ethereum-classic",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "arc",
+    "fileName": "network:arc",
+    "chainId": 5042002,
+    "caip2id": "eip155:5042002",
+    "name": "Arc",
+    "shortName": "Arc",
+    "nativeCoinId": "USDC",
+    "variants": ["background", "branded", "mono"]
   }
 ]
