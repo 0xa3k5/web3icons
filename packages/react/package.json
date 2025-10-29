@@ -45,7 +45,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@web3icons/common": "0.11.21",
+    "@web3icons/common": "0.11.22",
     "react": "^19.0.0"
   },
   "devDependencies": {
