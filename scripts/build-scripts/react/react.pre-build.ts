@@ -1,5 +1,12 @@
 import { generateComponents } from './react-generate-components'
 import { generateIndex } from './react-generate-index'
 
-generateComponents()
-generateIndex()
+async function preBuild() {
+  await generateComponents()
+  generateIndex()
+}
+
+preBuild().catch((error) => {
+  console.error('Pre-build failed:', error)
+  process.exit(1)
+})

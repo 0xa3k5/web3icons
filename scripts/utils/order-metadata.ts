@@ -22,8 +22,9 @@ export const orderMetadata = () => {
   const wallets: IWalletMetadata[] = JSON.parse(
     fs.readFileSync(WALLETS_METADATA_PATH, 'utf-8'),
   )
-  // prettier-ignore
-  const exchanges: IExchangeMetadata[] = JSON.parse(fs.readFileSync(EXCHANGES_METADATA_PATH, 'utf-8'))
+  const exchanges: IExchangeMetadata[] = JSON.parse(
+    fs.readFileSync(EXCHANGES_METADATA_PATH, 'utf-8'),
+  )
 
   const reorderFields = <T extends Record<string, any>>(
     items: T[],
@@ -40,36 +41,21 @@ export const orderMetadata = () => {
     })
   }
 
-  // prettier-ignore
-  const networkFields = ['id', 'fileName', 'chainId', 'caip2id', 'name', 'shortName', 'nativeCoinId', 'variants']
-  const tokenFields = [
-    'id',
-    'fileName',
-    'symbol',
-    'name',
-    'marketCapRank',
-    'addresses',
-    'variants',
-  ]
-  const walletFields = ['id', 'fileName', 'name', 'variants']
-  const exchangeFields = ['id', 'fileName', 'name', 'type', 'variants']
+  const networkFields = Object.keys(
+    networks[0] ?? {},
+  ) as (keyof INetworkMetadata)[]
+  const tokenFields = Object.keys(tokens[0] ?? {}) as (keyof ITokenMetadata)[]
+  const walletFields = Object.keys(
+    wallets[0] ?? {},
+  ) as (keyof IWalletMetadata)[]
+  const exchangeFields = Object.keys(
+    exchanges[0] ?? {},
+  ) as (keyof IExchangeMetadata)[]
 
-  const networksOrdered = reorderFields(
-    networks,
-    networkFields as (keyof INetworkMetadata)[],
-  )
-  const tokensOrdered = reorderFields(
-    tokens,
-    tokenFields as (keyof ITokenMetadata)[],
-  )
-  const walletsOrdered = reorderFields(
-    wallets,
-    walletFields as (keyof IWalletMetadata)[],
-  )
-  const exchangesOrdered = reorderFields(
-    exchanges,
-    exchangeFields as (keyof IExchangeMetadata)[],
-  )
+  const networksOrdered = reorderFields(networks, networkFields)
+  const tokensOrdered = reorderFields(tokens, tokenFields)
+  const walletsOrdered = reorderFields(wallets, walletFields)
+  const exchangesOrdered = reorderFields(exchanges, exchangeFields)
 
   fs.writeFileSync(
     NETWORKS_METADATA_PATH,

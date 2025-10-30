@@ -5,7 +5,7 @@ import { TType, TVariant } from '@web3icons/common'
  * @param filePath The file path of the icon
  * @returns The type and variant of the icon
  */
-export const getTypeAndVariant = (
+export const getTypeAndVariantFromFile = (
   filePath: string,
 ): { type: TType; variant: TVariant } => {
   let type: TType | undefined

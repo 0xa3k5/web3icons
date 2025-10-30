@@ -5,7 +5,7 @@ import { confirm } from '@clack/prompts'
 import chalk from 'chalk'
 import fs from 'fs'
 import {
-  getTypeAndVariant,
+  getTypeAndVariantFromFile,
   findExistingMetadata,
   deleteMetadata,
   updateMetadataJson,
@@ -57,7 +57,7 @@ export const handleDeletedIcons = async (): Promise<void> => {
 
   for (const filePath of deletedIconPaths) {
     const fileName = path.basename(filePath, '.svg')
-    const { type, variant } = getTypeAndVariant(filePath)
+    const { type, variant } = getTypeAndVariantFromFile(filePath)
 
     const existingMetadata = findExistingMetadata(fileName, type)
     if (!existingMetadata) {

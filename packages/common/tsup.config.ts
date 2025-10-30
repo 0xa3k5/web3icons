@@ -6,7 +6,7 @@ export default defineConfig([
     format: 'esm',
     outDir: 'dist',
     sourcemap: true,
-    dts: false,
+    dts: true,
     target: 'es2022',
     clean: false,
   },

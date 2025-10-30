@@ -13,9 +13,24 @@ import {
 } from '../../constants'
 import { ensureDirectoryExists, optimizeSvg } from '../../utils'
 import { TVariant } from '@web3icons/common'
+import {
+  loadCache,
+  saveCache,
+  hasFileChanged,
+  updateFileCache,
+  isIncrementalEnabled,
+} from '../../utils/build-cache'
 
-export function optimizeSVGs() {
+export async function optimizeSVGs() {
   console.log('Optimizing SVGs...')
+  const startTime = performance.now()
+  const incrementalEnabled = isIncrementalEnabled()
+  const cache = incrementalEnabled ? loadCache() : {}
+
+  if (incrementalEnabled) {
+    console.log('→ Incremental build enabled')
+  }
+
   ensureDirectoryExists(path.resolve(ROOT_CORE, 'src', 'svgs'))
   ensureDirectoryExists(SVG_TOKENS_OUT_DIR)
   ensureDirectoryExists(SVG_NETWORKS_OUT_DIR)
@@ -40,34 +55,68 @@ export function optimizeSVGs() {
     background: fs.readdirSync(path.join(dir, 'background')),
   })
 
-  const processSVGs = (
-    sourceDir: string,
-    outDir: string,
-    variant: TVariant,
-    rawSVGs: string[],
-  ): void => {
-    rawSVGs.forEach((rawSVG) => {
-      optimizeAndOutput(rawSVG, sourceDir, outDir, variant)
-    })
-    console.log(
-      `→ optimized ${variant} in ${path.basename(sourceDir)}:`,
-      rawSVGs.length,
-    )
-  }
-
-  const optimizeAndOutput = (
+  const optimizeAndOutput = async (
     rawSVG: string,
     sourceDir: string,
     outDir: string,
     variant: TVariant,
-  ): void => {
+  ): Promise<boolean> => {
     const baseName = path.basename(rawSVG, '.svg')
     const svgFilePath = path.join(sourceDir, variant, rawSVG)
-    const optimizedSVG = optimizeSvg(
-      fs.readFileSync(svgFilePath, 'utf-8'),
-      baseName,
-    )
-    fs.writeFileSync(path.join(outDir, variant, rawSVG), optimizedSVG)
+    const outputPath = path.join(outDir, variant, rawSVG)
+
+    // Skip if file hasn't changed AND output exists
+    if (
+      incrementalEnabled &&
+      !hasFileChanged(svgFilePath, cache) &&
+      fs.existsSync(outputPath)
+    ) {
+      return false
+    }
+
+    const svgContent = await fs.promises.readFile(svgFilePath, 'utf-8')
+    const optimizedSVG = optimizeSvg(svgContent, baseName)
+    await fs.promises.writeFile(outputPath, optimizedSVG)
+
+    if (incrementalEnabled) {
+      updateFileCache(svgFilePath, cache)
+    }
+
+    return true
+  }
+
+  const processSVGsBatch = async (
+    sourceDir: string,
+    outDir: string,
+    variant: TVariant,
+    rawSVGs: string[],
+    batchSize: number = 100,
+  ): Promise<void> => {
+    const batches: string[][] = []
+    for (let i = 0; i < rawSVGs.length; i += batchSize) {
+      batches.push(rawSVGs.slice(i, i + batchSize))
+    }
+
+    let processedCount = 0
+    for (const batch of batches) {
+      const results = await Promise.all(
+        batch.map((rawSVG) =>
+          optimizeAndOutput(rawSVG, sourceDir, outDir, variant),
+        ),
+      )
+      processedCount += results.filter(Boolean).length
+    }
+
+    if (incrementalEnabled) {
+      console.log(
+        `→ optimized ${variant} in ${path.basename(sourceDir)}: ${processedCount}/${rawSVGs.length} (${rawSVGs.length - processedCount} cached)`,
+      )
+    } else {
+      console.log(
+        `→ optimized ${variant} in ${path.basename(sourceDir)}:`,
+        rawSVGs.length,
+      )
+    }
   }
 
   const types = [
@@ -77,10 +126,21 @@ export function optimizeSVGs() {
     { srcDir: SVG_EXCHANGES_SRC_DIR, outDir: SVG_EXCHANGES_OUT_DIR },
   ]
 
-  types.forEach(({ srcDir, outDir }) => {
-    const svgVariants = readSVGsFromDir(srcDir)
-    Object.entries(svgVariants).forEach(([variant, svgList]) => {
-      processSVGs(srcDir, outDir, variant as TVariant, svgList)
-    })
-  })
+  await Promise.all(
+    types.flatMap(({ srcDir, outDir }) => {
+      const svgVariants = readSVGsFromDir(srcDir)
+      return Object.entries(svgVariants).map(([variant, svgList]) =>
+        processSVGsBatch(srcDir, outDir, variant as TVariant, svgList),
+      )
+    }),
+  )
+
+  if (incrementalEnabled) {
+    saveCache(cache)
+  }
+
+  const endTime = performance.now()
+  console.log(
+    `✓ SVG optimization completed in ${((endTime - startTime) / 1000).toFixed(2)}s`,
+  )
 }

@@ -17,3 +17,4 @@ packages/react/src/icons/**/*.ts
 packages/react/src/icons/**/*.tsx
 .claude/
 server
+.build-cache/

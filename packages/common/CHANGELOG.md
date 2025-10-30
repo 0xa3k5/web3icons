@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.23
+
+### Patch Changes
+
+- improve build process
+
 ## 0.11.22
 
 ### Patch Changes

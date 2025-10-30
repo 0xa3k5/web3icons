@@ -4,7 +4,7 @@ import { TType, TVariant } from '@web3icons/common'
 import { SVG_SRC_DIR } from '../constants'
 import {
   validateSvg,
-  getTypeAndVariant,
+  getTypeAndVariantFromFile,
   findExistingMetadata,
   addNewIcon,
   addNewVariant,
@@ -158,7 +158,7 @@ const addIcons = async () => {
 
   iconPaths.forEach((filePath) => {
     const fileName = path.basename(filePath, '.svg')
-    const { type, variant } = getTypeAndVariant(filePath)
+    const { type, variant } = getTypeAndVariantFromFile(filePath)
 
     if (!groupedIcons[fileName]) {
       groupedIcons[fileName] = {}

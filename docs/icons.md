@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (47)](#wallets)
-- [networks (216)](#networks)
+- [networks (217)](#networks)
 - [exchanges (27)](#exchanges)
 - [tokens (1827)](#tokens)
 
@@ -277,6 +277,7 @@ jump to section:
 | telos-testnet               | Telos EVM Testnet               | ✅      | ✅   | ✅         |
 | ethereum-classic-mordor     | Ethereum Classic Mordor Testnet | ✅      | ✅   | ✅         |
 | arc                         | Arc                             | ✅      | ✅   | ✅         |
+| shibarium                   | Shibarium                       | ✅      | ❌   | ✅         |
 
 ### Exchanges
 

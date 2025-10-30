@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.28
+
+### Patch Changes
+
+- improve build process
+- Updated dependencies
+  - @web3icons/common@0.11.23
+
 ## 4.0.27
 
 ### Patch Changes

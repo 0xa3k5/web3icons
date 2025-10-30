@@ -1,47 +1,47 @@
 import fs from 'fs'
 import path from 'path'
-import {
-  JSX_TOKENS_OUT_DIR,
-  SVG_TOKENS_OUT_DIR,
-  SVG_NETWORKS_OUT_DIR,
-  SVG_WALLETS_OUT_DIR,
-  JSX_NETWORKS_OUT_DIR,
-  JSX_WALLETS_OUT_DIR,
-  SVG_EXCHANGES_OUT_DIR,
-  JSX_EXCHANGES_OUT_DIR,
-} from '../constants'
 import { kebabToPascalCase } from './naming-conventions'
 import { injectCurrentColor, readyForJSX } from './svg-optimization'
 import { TType, TVariant } from '@web3icons/common'
 import { generateSVGDataURL } from './generate-dataurl-from-svg'
+import { getSVGDirectories } from './get-svg-directories'
 
 /**
  * Generate React Component from an SVG.
  *
- * @param {string} baseName - The base name of the SVG file.
+ * @param {string} baseName - The base name for the component (usually the entry ID).
  * @param {TType} type - The type of the component (token, network, wallet).
+ * @param {string} fileName - The fileName from metadata (may include cross-type reference like "token:SHIB").
  */
-export const generateReactComponent = (baseName: string, type: TType) => {
-  const componentName = generateComponentName(baseName, type)
-  const { svgOutDir, jsxOutDir } = getDirectories(type)
+export const generateReactComponent = async (
+  baseName: string,
+  fileName: string,
+): Promise<void> => {
+  if (!fileName.includes(':') || fileName.split(':').length !== 2) {
+    throw new Error(
+      `Invalid fileName format: "${fileName}". Expected format: "type:name" (e.g., "network:ethereum")`,
+    )
+  }
 
-  // Get available variants and prepare their JSX
-  const variants = getAvailableVariants(svgOutDir, baseName)
+  const [type, name] = fileName.split(':') as [TType, string]
+
+  const componentName = generateComponentName(baseName, type)
+  const { svgOutDir, jsxOutDir } = getSVGDirectories(type)
+
+  const variants = getAvailableVariants(svgOutDir, name)
   const variantJSX = variants.reduce(
     (acc, variant) => {
       acc[variant] =
         variant === 'mono'
-          ? readyForJSX(
-              injectCurrentColor(loadSVG(svgOutDir, baseName, variant)),
-            )
-          : readyForJSX(loadSVG(svgOutDir, baseName, variant))
+          ? readyForJSX(injectCurrentColor(loadSVG(svgOutDir, name, variant)))
+          : readyForJSX(loadSVG(svgOutDir, name, variant))
       return acc
     },
     {} as Record<TVariant, string>,
   )
 
   // Generate documentation
-  const variantDataURLs = generateVariantDataURLs(variants, svgOutDir, baseName)
+  const variantDataURLs = generateVariantDataURLs(variants, svgOutDir, name)
   const jsDocComment = generateJSDoc(componentName, variants, variantDataURLs)
 
   // Generate component content based on available variants
@@ -76,12 +76,9 @@ ${componentName}.displayName = '${componentName}';
 export default ${componentName};
 `
 
-  fs.writeFile(
+  await fs.promises.writeFile(
     path.join(jsxOutDir, `${componentName}.tsx`),
     componentContent,
-    (err) => {
-      if (err) throw err
-    },
   )
 }
 
@@ -96,32 +93,6 @@ const generateComponentName = (baseName: string, type: TType): string => {
     case 'wallet':
     case 'exchange':
       return kebabToPascalCase(`${type}-${baseName}`)
-    default:
-      throw new Error('Invalid type')
-  }
-}
-
-/**
- * Get the appropriate directories for SVG and JSX output based on the type.
- */
-const getDirectories = (
-  type: TType,
-): { svgOutDir: string; jsxOutDir: string } => {
-  switch (type) {
-    case 'token':
-      return { svgOutDir: SVG_TOKENS_OUT_DIR, jsxOutDir: JSX_TOKENS_OUT_DIR }
-    case 'network':
-      return {
-        svgOutDir: SVG_NETWORKS_OUT_DIR,
-        jsxOutDir: JSX_NETWORKS_OUT_DIR,
-      }
-    case 'wallet':
-      return { svgOutDir: SVG_WALLETS_OUT_DIR, jsxOutDir: JSX_WALLETS_OUT_DIR }
-    case 'exchange':
-      return {
-        svgOutDir: SVG_EXCHANGES_OUT_DIR,
-        jsxOutDir: JSX_EXCHANGES_OUT_DIR,
-      }
     default:
       throw new Error('Invalid type')
   }

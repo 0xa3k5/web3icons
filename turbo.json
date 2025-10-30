@@ -4,10 +4,36 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".next/**", "!.next/cache/**", "dist/**"]
+      "inputs": [
+        "src/**",
+        "raw-svgs/**",
+        "tsconfig.json",
+        "tsup.config.ts",
+        "package.json"
+      ],
+      "outputs": [".next/**", "!.next/cache/**", "dist/**"],
+      "cache": true
+    },
+    "@web3icons/react#build": {
+      "dependsOn": ["@web3icons/common#build", "@web3icons/core#build"],
+      "inputs": [
+        "src/**",
+        "../core/src/svgs/**",
+        "tsconfig.json",
+        "tsup.config.ts",
+        "package.json"
+      ],
+      "outputs": ["dist/**"],
+      "cache": true
     },
     "lint": {
-      "dependsOn": ["^lint"]
+      "dependsOn": ["^lint"],
+      "inputs": ["src/**", ".eslintrc*", "tsconfig.json"],
+      "cache": true
+    },
+    "format": {
+      "inputs": ["**/*.{ts,tsx,js,jsx,md,mdx,json}", ".prettierrc*"],
+      "cache": true
     },
     "dev": {
       "cache": false,

@@ -2087,4 +2087,14 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'USDC',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'shibarium',
+    fileName: 'token:SHIB',
+    chainId: 109,
+    caip2id: 'eip155:109',
+    name: 'Shibarium',
+    shortName: 'Shibarium',
+    nativeCoinId: 'BONE',
+    variants: ['branded', 'background'],
+  },
 ]

@@ -21263,10 +21263,9 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'EURC',
-    name: 'EURC',
-    variants: ['background', 'branded', 'mono'],
     fileName: 'token:EURC',
     symbol: 'EURC',
+    name: 'EURC',
     marketCapRank: 0,
     addresses: {
       ethereum: '0x1abaea1f7c830bd89acc67ec4af516284b1bc33c',
@@ -21275,27 +21274,28 @@ export const tokens: ITokenMetadata[] = [
       stellar: 'EURC-GDHU6WRG4IEQXM5NZ4BMPKOXHW76MZM4Y2IEMFDVXBSDP6SJY4ITNPP2',
       base: '0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42',
     },
+    variants: ['background', 'branded', 'mono'],
   },
   {
     id: 'A',
-    name: 'Vaulta',
-    variants: ['background', 'branded', 'mono'],
     fileName: 'token:A',
     symbol: 'A',
+    name: 'Vaulta',
     marketCapRank: 0,
     addresses: {
       ethereum: '0xCc80062086c8fb8d4837C56FCDB25A67Cd9c7d58',
     },
+    variants: ['background', 'branded', 'mono'],
   },
   {
     id: 'SOPHEN',
-    name: 'SOPH',
-    variants: ['background', 'branded', 'mono'],
     fileName: 'token:SOPHEN',
     symbol: 'SOPH',
+    name: 'SOPH',
     marketCapRank: 0,
     addresses: {
       ethereum: '0x6b7774cb12ed7573a7586e7d0e62a2a563ddd3f0',
     },
+    variants: ['background', 'branded', 'mono'],
   },
 ]
