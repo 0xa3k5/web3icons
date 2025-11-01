@@ -19,7 +19,7 @@
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vercel/analytics": "^1.2.2",
-    "@web3icons/react": "4.0.30",
+    "@web3icons/react": "4.0.31",
     "@web3icons/common": "0.11.23",
     "@web3icons/core": "4.0.28",
     "autoprefixer": "10.4.18",

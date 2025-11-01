@@ -1,5 +1,11 @@
 # @web3icons/react
 
+## 4.0.31
+
+### Patch Changes
+
+- fix: move react from dependencies to devDependencies
+
 ## 4.0.30
 
 ### Patch Changes

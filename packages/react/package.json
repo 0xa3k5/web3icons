@@ -11,7 +11,7 @@
     "crypto logos",
     "coin icons"
   ],
-  "version": "4.0.30",
+  "version": "4.0.31",
   "private": false,
   "license": "MIT",
   "type": "module",
@@ -44,13 +44,13 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@web3icons/common": "0.11.23",
-    "react": "^18.2.0"
+    "@web3icons/common": "0.11.23"
   },
   "devDependencies": {
     "@svgr/core": "^8.1.0",
     "@types/react": "^18.3.3",
     "bun-types": "latest",
+    "react": "^18.2.0",
     "tsup": "^8.0.2",
     "typescript": "^5.0.0"
   },
