@@ -1,5 +1,11 @@
 # @web3icons/react
 
+## 4.0.30
+
+### Patch Changes
+
+- support react-19
+
 ## 4.0.29
 
 ### Patch Changes
