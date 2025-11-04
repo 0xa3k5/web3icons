@@ -27,7 +27,6 @@
 ### Patch Changes
 
 - b1690da: new wallets:
-
   - atomic (branded, mono, background)
   - bitbox (branded, mono, background)
   - blue (branded, background)
@@ -47,7 +46,6 @@
 ### Patch Changes
 
 - 5154530: new wallets:
-
   - atomic (branded, mono, background)
   - bitbox (branded, mono, background)
   - blue (branded, background)
@@ -71,14 +69,12 @@
 ### Patch Changes
 
 - add networks:
-
   - vaulta (branded, mono, background)
   - movement (branded, mono, background)
   - supra movevm (branded, mono, background)
   - stacks (branded, mono, background)
 
   add tokens:
-
   - A (branded, mono, background)
 
 ## 0.11.16
@@ -182,11 +178,9 @@
 ### Patch Changes
 
 - new networks:
-
   - `iota-evm` (branded, mono, background)
 
   new tokens:
-
   - `VINE` (branded,mono, background)
 
   add branded and background variants to `IOTA` token
@@ -226,14 +220,12 @@
   - website improvements
 
   **cli:**
-
   - migrate from `@inquirer` to `@clack`
   - greatly improve `add-icons` flow's UX
   - cover icon deletion (fixes #33)
 
   **ID changes**
   renamed several network icons to align with official naming
-
   - `polygon` (was `polygon-pos`)
   - `multiversx` (was `elrond`)
   - `viction` (was `tomochain`)
@@ -264,7 +256,6 @@
 ### Minor Changes
 
 - new network icons:
-
   - mint (branded, mono)
   - monad (branded, mono)
   - silicon (branded, mono)
@@ -310,7 +301,6 @@
 ### Minor Changes
 
 - new networks:
-
   - hemi
   - lumia
   - wax
@@ -319,7 +309,6 @@
   - rei
 
   new token
-
   - S (sonic)
 
 ## 0.7.2
@@ -370,7 +359,6 @@
 ### Minor Changes
 
 - new networks:
-
   - unichain
   - optopia
   - orderly
@@ -380,7 +368,6 @@
   - harmony
 
   new tokens:
-
   - ORDER
 
 ## 0.3.0

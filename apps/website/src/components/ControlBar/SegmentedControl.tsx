@@ -31,7 +31,7 @@ export default function SegmentedControl({
       className={cx(
         className,
         'border-gray-lightest bg-gray-light relative inline-flex w-fit rounded-full border p-1',
-        '[&:has(:focus-visible)]:focus-within:outline-gray-lightest focus-visible:outline-none  [&:has(:focus-visible)]:focus-within:outline-none',
+        '[&:has(:focus-visible)]:focus-within:outline-gray-lightest focus-visible:outline-none [&:has(:focus-visible)]:focus-within:outline-none',
       )}
     >
       {options.map((option) => (
@@ -55,7 +55,7 @@ export default function SegmentedControl({
         </Fragment>
       ))}
       <div
-        className="bg-gray-lightest absolute left-0 top-1 h-[calc(100%-0.5rem)] rounded-full transition-all duration-150"
+        className="bg-gray-lightest absolute top-1 left-0 h-[calc(100%-0.5rem)] rounded-full transition-all duration-150"
         style={{
           width: indicatorWidth,
           transform: `translateX(${indicatorOffset}px)`,

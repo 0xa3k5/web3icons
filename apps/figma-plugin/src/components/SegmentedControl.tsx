@@ -23,7 +23,7 @@ export default function SegmentedControl({
       className={cx(
         className,
         'relative inline-flex w-full rounded-full border border-gray-lightest bg-gray-light p-1 text-white',
-        '[&:has(:focus-visible)]:focus-within:outline  [&:has(:focus-visible)]:focus-within:outline-gray-lightest',
+        '[&:has(:focus-visible)]:focus-within:outline [&:has(:focus-visible)]:focus-within:outline-gray-lightest',
       )}
     >
       {options.map((option, index) => (
@@ -38,7 +38,11 @@ export default function SegmentedControl({
             className="sr-only"
           />
           <label
-            ref={(el) => (optionRefs.current[index] = el)}
+            ref={(el: HTMLLabelElement | null) => {
+              if (el) {
+                optionRefs.current[index] = el
+              }
+            }}
             htmlFor={`option-${option}`}
             className={cx(
               'z-[1] flex w-full items-center justify-center rounded-full px-4 py-1 text-sm',

@@ -30,7 +30,7 @@ DescriptionList.Item = ({
         className,
       )}
     >
-      <dt className="capitalize text-white/40">{label}</dt>
+      <dt className="text-white/40 capitalize">{label}</dt>
       <dd>{renderValue(value)}</dd>
     </span>
   )

@@ -26,7 +26,7 @@ export default function IconCard({
     <div
       id={metadata.id}
       className={cx(
-        'group/card relative flex flex-col items-center justify-center gap-4 pb-4 pt-8 duration-150',
+        'group/card relative flex flex-col items-center justify-center gap-4 pt-8 pb-4 duration-150',
         'hover:bg-gray',
         className,
       )}

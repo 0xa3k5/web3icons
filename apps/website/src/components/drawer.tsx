@@ -90,8 +90,8 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
       onOpenChange={(open) => (open ? handleOpen() : handleClose())}
     >
       <_Drawer.Portal>
-        <_Drawer.Content className="fixed right-0 top-0 z-10 flex h-full w-[80vw] shrink-0 md:w-[30vw]">
-          <div className="border-gray-lightest bg-gray flex size-full shrink-0 select-text flex-col gap-4 overflow-hidden rounded-md border p-2 focus-visible:outline-none">
+        <_Drawer.Content className="fixed top-0 right-0 z-10 flex h-full w-[80vw] shrink-0 md:w-[30vw]">
+          <div className="border-gray-lightest bg-gray flex size-full shrink-0 flex-col gap-4 overflow-hidden rounded-md border p-2 select-text focus-visible:outline-none">
             <div className="flex flex-col gap-4">
               <div className="border-gray-lightest relative flex w-full items-center justify-center overflow-hidden border-b py-16">
                 <Web3Icon
@@ -100,13 +100,13 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
                   size={96}
                   className=""
                 />
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] bg-[size:14px_24px]" />
               </div>
               <div className="flex flex-col gap-4 p-4">
                 <_Drawer.Title className="flex items-center justify-between">
                   <div className="flex flex-col gap-2">
                     <span className="text-lg">{metadata.name}</span>
-                    <span className="text-sm capitalize text-white/40">
+                    <span className="text-sm text-white/40 capitalize">
                       {type}
                     </span>
                   </div>
