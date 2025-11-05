@@ -9,39 +9,41 @@ import { getSVGDirectories } from './get-svg-directories'
 /**
  * Generate React Component from an SVG.
  *
- * @param {string} baseName - The base name for the component (usually the entry ID).
- * @param {TType} type - The type of the component (token, network, wallet).
- * @param {string} fileName - The fileName from metadata (may include cross-type reference like "token:SHIB").
+ * @param {string} baseName - The base name for the component (symbol for tokens, name for networks, wallets, exchanges).
+ * @param {TType} metadataSourceType - The type where this entry is defined (determines component name and output directory).
+ * @param {TType} svgSourceType - The type where the SVG file lives (determines SVG import path).
+ * @param {string} svgFileName - The SVG file name (without .svg extension).
  */
 export const generateReactComponent = async (
   baseName: string,
-  fileName: string,
+  metadataSourceType: TType,
+  svgSourceType: TType,
+  svgFileName: string,
 ): Promise<void> => {
-  if (!fileName.includes(':') || fileName.split(':').length !== 2) {
-    throw new Error(
-      `Invalid fileName format: "${fileName}". Expected format: "type:name" (e.g., "network:ethereum")`,
-    )
-  }
+  const componentName = generateComponentName(baseName, metadataSourceType)
+  const { jsxOutDir } = getSVGDirectories(metadataSourceType)
+  const { svgOutDir } = getSVGDirectories(svgSourceType)
 
-  const [type, name] = fileName.split(':') as [TType, string]
-
-  const componentName = generateComponentName(baseName, type)
-  const { svgOutDir, jsxOutDir } = getSVGDirectories(type)
-
-  const variants = getAvailableVariants(svgOutDir, name)
+  const variants = getAvailableVariants(svgOutDir, svgFileName)
   const variantJSX = variants.reduce(
     (acc, variant) => {
       acc[variant] =
         variant === 'mono'
-          ? readyForJSX(injectCurrentColor(loadSVG(svgOutDir, name, variant)))
-          : readyForJSX(loadSVG(svgOutDir, name, variant))
+          ? readyForJSX(
+              injectCurrentColor(loadSVG(svgOutDir, svgFileName, variant)),
+            )
+          : readyForJSX(loadSVG(svgOutDir, svgFileName, variant))
       return acc
     },
     {} as Record<TVariant, string>,
   )
 
   // Generate documentation
-  const variantDataURLs = generateVariantDataURLs(variants, svgOutDir, name)
+  const variantDataURLs = generateVariantDataURLs(
+    variants,
+    svgOutDir,
+    svgFileName,
+  )
   const jsDocComment = generateJSDoc(componentName, variants, variantDataURLs)
 
   // Generate component content based on available variants
