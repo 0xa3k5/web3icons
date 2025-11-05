@@ -3,7 +3,7 @@ jump to section:
 - [wallets (47)](#wallets)
 - [networks (217)](#networks)
 - [exchanges (27)](#exchanges)
-- [tokens (1827)](#tokens)
+- [tokens (1826)](#tokens)
 
 ### Wallets
 
@@ -1059,7 +1059,7 @@ jump to section:
 | Inter Stable Token                     | ist         | ✅      | ✅   | ✅         |
 | Interlay                               | intr        | ✅      | ✅   | ✅         |
 | Internet Computer                      | icp         | ✅      | ✅   | ✅         |
-| Interport Token                        | itp         | ✅      | ✅   | ✅         |
+| Interport Token                        | itp         | ✅      | ❌   | ✅         |
 | Intrepid Token                         | int         | ✅      | ✅   | ✅         |
 | Inverse Finance                        | inv         | ✅      | ✅   | ✅         |
 | Ion                                    | ion         | ✅      | ✅   | ✅         |
@@ -2141,4 +2141,3 @@ jump to section:
 | peaq                                   | PEAQ        | ✅      | ✅   | ✅         |
 | EURC                                   | EURC        | ✅      | ✅   | ✅         |
 | Vaulta                                 | A           | ✅      | ✅   | ✅         |
-| SOPH                                   | SOPH        | ✅      | ✅   | ✅         |

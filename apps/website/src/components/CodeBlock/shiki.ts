@@ -3,6 +3,7 @@ import {
   createHighlighter,
   Highlighter,
   SpecialLanguage,
+  ThemedToken,
 } from 'shiki'
 
 let highlighter: Highlighter
@@ -30,7 +31,13 @@ const LANGUAGES: (BundledLanguage | SpecialLanguage)[] = [
 
 export type Language = (typeof LANGUAGES)[number]
 
-export async function highlight(code: string, lang: Language) {
+export async function highlight(
+  code: string,
+  lang: Language,
+): Promise<{
+  html: string
+  tokens: ThemedToken[][]
+}> {
   const THEME = 'houston'
 
   if (!highlighter) {
