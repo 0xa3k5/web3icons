@@ -8674,7 +8674,7 @@ export const tokens: ITokenMetadata[] = [
       base: '0x2b1d36f5b61addaf7da7ebbd11b35fd8cfb0de31',
       'binance-smart-chain': '0x2b1d36f5b61addaf7da7ebbd11b35fd8cfb0de31',
     },
-    variants: ['branded', 'mono', 'background'],
+    variants: ['branded', 'background'],
   },
   {
     id: 'intrepid-token',

@@ -12,6 +12,7 @@ import {
   confirmAndAddMetadata,
   renameIconFiles,
   deleteUnusedSvgFiles,
+  validateFilePath,
 } from './'
 import { duplicateIconsToType } from './duplicate-icons-to-type'
 
@@ -118,6 +119,10 @@ const getBaseMetadata = async (
           const validTypes = ['network', 'token', 'wallet', 'exchange']
           if (!validTypes.includes(parts[0]!)) {
             return `Invalid type. Must be one of: ${validTypes.join(', ')}`
+          }
+          const validation = validateFilePath(value, variants)
+          if (!validation.valid) {
+            return validation.error
           }
           return undefined
         },
