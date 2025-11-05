@@ -1,5 +1,24 @@
 # @web3icons/core
 
+## 4.0.30
+
+### Patch Changes
+
+- add networks:
+  - ame-chain (branded, mono, background)
+  - minima (branded, mono, background)
+
+  add tokens:
+  - AME (branded, mono, background)
+  - MINIMA (branded, mono, background)
+
+  update icons:
+  - network:injective (rebranded new icon)
+  - token:INJ (rebranded new icon)
+
+- Updated dependencies
+  - @web3icons/common@0.11.25
+
 ## 4.0.29
 
 ### Patch Changes
