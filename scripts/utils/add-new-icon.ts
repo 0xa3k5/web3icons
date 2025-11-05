@@ -29,7 +29,7 @@ export const addNewIcon = async (
     name,
     fileName: finalFileName,
   } = await getBaseMetadata(fileName, type, variants)
-  const metadata: TMetadata = { id, name, variants, fileName: finalFileName }
+  const metadata: TMetadata = { id, name, variants, filePath: finalFileName }
 
   const metadataHandlers = {
     network: () =>
@@ -180,7 +180,7 @@ const handleNetworkMetadata = async (
         // Copy and rename the network icon files to create token variants
         const tokenFileName = nativeCoinId.toUpperCase()
         duplicateIconsToType(
-          metadata.fileName,
+          metadata.filePath,
           tokenFileName,
           metadata.variants,
           'network',
@@ -192,7 +192,7 @@ const handleNetworkMetadata = async (
           id: tokenFileName,
           name: metadata.name,
           variants: metadata.variants,
-          fileName: `token:${tokenFileName}`,
+          filePath: metadata.filePath,
           symbol: nativeCoinId.toUpperCase(),
           marketCapRank: 0,
           addresses: {},

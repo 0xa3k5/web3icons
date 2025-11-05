@@ -3,7 +3,7 @@ import { INetworkMetadata } from '../types'
 export const networks: INetworkMetadata[] = [
   {
     id: 'zksync',
-    fileName: 'network:zksync',
+    filePath: 'network:zksync',
     chainId: 324,
     caip2id: 'eip155:324',
     name: 'zkSync era',
@@ -13,7 +13,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'thundercore',
-    fileName: 'network:thundercore',
+    filePath: 'network:thundercore',
     chainId: 108,
     caip2id: 'eip155:108',
     name: 'ThunderCore',
@@ -23,7 +23,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'theta',
-    fileName: 'network:theta',
+    filePath: 'network:theta',
     chainId: 361,
     caip2id: 'eip155:361',
     name: 'Theta',
@@ -33,7 +33,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'meter',
-    fileName: 'network:meter',
+    filePath: 'network:meter',
     chainId: 82,
     caip2id: 'eip155:82',
     name: 'Meter',
@@ -43,7 +43,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'fuse',
-    fileName: 'network:fuse',
+    filePath: 'network:fuse',
     chainId: 122,
     caip2id: 'eip155:122',
     name: 'Fuse',
@@ -53,7 +53,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'near-protocol',
-    fileName: 'network:near-protocol',
+    filePath: 'network:near-protocol',
     chainId: 39,
     caip2id: 'near:mainnet',
     name: 'Near Protocol',
@@ -63,7 +63,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'enuls',
-    fileName: 'network:enuls',
+    filePath: 'network:enuls',
     chainId: 119,
     caip2id: 'eip155:119',
     name: 'enuls',
@@ -73,7 +73,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'aurora',
-    fileName: 'network:aurora',
+    filePath: 'network:aurora',
     chainId: 1313161554,
     caip2id: 'eip155:1313161554',
     name: 'Aurora',
@@ -83,7 +83,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'polygon',
-    fileName: 'network:polygon',
+    filePath: 'network:polygon',
     chainId: 137,
     caip2id: 'eip155:137',
     name: 'Polygon',
@@ -93,7 +93,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'multiversx',
-    fileName: 'network:multiversx',
+    filePath: 'network:multiversx',
     name: 'MultiversX',
     shortName: 'multiversx',
     nativeCoinId: 'egld',
@@ -101,7 +101,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'tombchain',
-    fileName: 'network:tombchain',
+    filePath: 'network:tombchain',
     chainId: 6969,
     caip2id: 'eip155:6969',
     name: 'Tombchain',
@@ -111,7 +111,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'l3x',
-    fileName: 'network:l3x',
+    filePath: 'network:l3x',
     chainId: 12324,
     caip2id: 'eip155:12324',
     name: 'L3X Protocol',
@@ -121,7 +121,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'fraxtal',
-    fileName: 'network:fraxtal',
+    filePath: 'network:fraxtal',
     chainId: 252,
     caip2id: 'eip155:252',
     name: 'Fraxtal',
@@ -131,7 +131,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'ethereum',
-    fileName: 'network:ethereum',
+    filePath: 'network:ethereum',
     chainId: 1,
     caip2id: 'eip155:1',
     name: 'Ethereum',
@@ -141,7 +141,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'holesky',
-    fileName: 'network:ethereum',
+    filePath: 'network:ethereum',
     chainId: 17000,
     caip2id: 'eip155:17000',
     name: 'Holesky Testnet',
@@ -151,7 +151,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'goerli',
-    fileName: 'network:ethereum',
+    filePath: 'network:ethereum',
     chainId: 5,
     caip2id: 'eip155:5',
     name: 'Goerli Testnet (Deprecated)',
@@ -161,7 +161,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'neon-evm',
-    fileName: 'network:neon-evm',
+    filePath: 'network:neon-evm',
     chainId: 245022934,
     caip2id: 'eip155:245022934',
     name: 'Neon EVM',
@@ -171,7 +171,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'mint',
-    fileName: 'network:mint',
+    filePath: 'network:mint',
     chainId: 185,
     caip2id: 'eip155:185',
     name: 'Mint',
@@ -181,7 +181,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'zyx',
-    fileName: 'network:zyx',
+    filePath: 'network:zyx',
     chainId: 55,
     caip2id: 'eip155:55',
     name: 'zyx',
@@ -191,7 +191,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'cronos-zkevm',
-    fileName: 'network:cronos-zkevm',
+    filePath: 'network:cronos-zkevm',
     chainId: 388,
     caip2id: 'eip155:388',
     name: 'Cronos zkEVM',
@@ -201,7 +201,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'apex-layer',
-    fileName: 'network:apex-layer',
+    filePath: 'network:apex-layer',
     chainId: 2662,
     caip2id: 'eip155:2662',
     name: 'apex layer',
@@ -211,7 +211,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'lava-network',
-    fileName: 'network:lava-network',
+    filePath: 'network:lava-network',
     name: 'lava-network',
     shortName: 'lava',
     nativeCoinId: 'lava-network',
@@ -219,7 +219,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'cosmos-hub',
-    fileName: 'network:cosmos-hub',
+    filePath: 'network:cosmos-hub',
     caip2id: 'cosmos:cosmoshub-4',
     name: 'Cosmos Hub',
     shortName: 'cosmos',
@@ -228,7 +228,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'diode',
-    fileName: 'network:diode',
+    filePath: 'network:diode',
     chainId: 15,
     caip2id: 'eip155:15',
     name: 'Diode',
@@ -238,7 +238,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'milkomeda-c1',
-    fileName: 'network:milkomeda-c1',
+    filePath: 'network:milkomeda-c1',
     chainId: 2001,
     caip2id: 'eip155:2001',
     name: 'milkomeda C1',
@@ -248,7 +248,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'vanar',
-    fileName: 'network:vanar',
+    filePath: 'network:vanar',
     chainId: 2040,
     caip2id: 'eip155:2040',
     name: 'Vanar',
@@ -257,7 +257,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'step',
-    fileName: 'network:step',
+    filePath: 'network:step',
     chainId: 1234,
     caip2id: 'eip155:1234',
     name: 'step',
@@ -267,7 +267,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'polygon-zkevm',
-    fileName: 'network:polygon-zkevm',
+    filePath: 'network:polygon-zkevm',
     chainId: 1101,
     caip2id: 'eip155:1101',
     name: 'Polygon zkEVM',
@@ -277,14 +277,14 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'mantra',
-    fileName: 'network:mantra',
+    filePath: 'network:mantra',
     name: 'Mantra Chain',
     shortName: 'mantra',
     variants: ['background', 'branded', 'mono'],
   },
   {
     id: 'kujira',
-    fileName: 'network:kujira',
+    filePath: 'network:kujira',
     caip2id: 'cosmos:kaiyo-1',
     name: 'Kujira',
     shortName: 'kujira',
@@ -293,7 +293,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'aptos',
-    fileName: 'network:aptos',
+    filePath: 'network:aptos',
     name: 'Aptos',
     shortName: 'aptos',
     nativeCoinId: 'aptos',
@@ -301,7 +301,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'cosmos',
-    fileName: 'network:cosmos',
+    filePath: 'network:cosmos',
     name: 'Cosmos',
     shortName: 'cosmos',
     nativeCoinId: 'cosmos',
@@ -309,7 +309,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'hemi',
-    fileName: 'network:hemi',
+    filePath: 'network:hemi',
     chainId: 743111,
     caip2id: 'eip155:743111',
     name: 'Hemi',
@@ -319,7 +319,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'moonbase',
-    fileName: 'network:moonbase',
+    filePath: 'network:moonbase',
     chainId: 1287,
     caip2id: 'eip155:1287',
     name: 'moonbase',
@@ -328,7 +328,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'eos',
-    fileName: 'network:eos',
+    filePath: 'network:eos',
     chainId: 17777,
     caip2id: 'eip155:17777',
     name: 'EOS evm',
@@ -338,7 +338,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'arweave',
-    fileName: 'network:arweave',
+    filePath: 'network:arweave',
     name: 'Arweave',
     shortName: 'arweave',
     nativeCoinId: 'ar',
@@ -346,7 +346,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'stellar',
-    fileName: 'network:stellar',
+    filePath: 'network:stellar',
     caip2id: 'stellar:pubnet',
     name: 'Stellar',
     shortName: 'stellar',
@@ -355,7 +355,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'zora',
-    fileName: 'network:zora',
+    filePath: 'network:zora',
     chainId: 7777777,
     caip2id: 'eip155:7777777',
     name: 'zora',
@@ -365,7 +365,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'cronos',
-    fileName: 'network:cronos',
+    filePath: 'network:cronos',
     chainId: 25,
     caip2id: 'eip155:25',
     name: 'Cronos',
@@ -375,7 +375,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'binance-smart-chain',
-    fileName: 'network:binance-smart-chain',
+    filePath: 'network:binance-smart-chain',
     chainId: 56,
     caip2id: 'eip155:56',
     name: 'BNB Smart Chain',
@@ -385,7 +385,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'elastos',
-    fileName: 'network:elastos',
+    filePath: 'network:elastos',
     chainId: 20,
     caip2id: 'eip155:20',
     name: 'Elastos Smart Contract Chain',
@@ -395,7 +395,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'xai',
-    fileName: 'network:xai',
+    filePath: 'network:xai',
     chainId: 660279,
     caip2id: 'eip155:660279',
     name: 'XAI',
@@ -405,7 +405,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'iotex',
-    fileName: 'network:iotex',
+    filePath: 'network:iotex',
     chainId: 4689,
     caip2id: 'eip155:4689',
     name: 'IoTeX',
@@ -415,7 +415,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'bouncebit',
-    fileName: 'network:bouncebit',
+    filePath: 'network:bouncebit',
     chainId: 6001,
     caip2id: 'eip155:6001',
     name: 'BounceBit',
@@ -425,7 +425,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'beam',
-    fileName: 'network:beam',
+    filePath: 'network:beam',
     chainId: 4337,
     caip2id: 'eip155:4337',
     name: 'Beam',
@@ -435,7 +435,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'lukso',
-    fileName: 'network:lukso',
+    filePath: 'network:lukso',
     chainId: 42,
     caip2id: 'eip155:42',
     name: 'Lukso',
@@ -445,7 +445,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'abstract',
-    fileName: 'network:abstract',
+    filePath: 'network:abstract',
     chainId: 11124,
     caip2id: 'eip155:11124',
     name: 'abstract',
@@ -455,7 +455,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'astar',
-    fileName: 'network:astar',
+    filePath: 'network:astar',
     chainId: 592,
     caip2id: 'eip155:592',
     name: 'Astar',
@@ -465,7 +465,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'injective',
-    fileName: 'network:injective',
+    filePath: 'network:injective',
     name: 'Injective',
     shortName: 'injective',
     nativeCoinId: 'injective-protocol',
@@ -473,7 +473,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'sonic',
-    fileName: 'network:sonic',
+    filePath: 'network:sonic',
     chainId: 146,
     caip2id: 'eip155:146',
     name: 'Sonic',
@@ -483,7 +483,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'tron',
-    fileName: 'network:tron',
+    filePath: 'network:tron',
     name: 'TRON',
     shortName: 'tron',
     nativeCoinId: 'tron',
@@ -491,7 +491,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'rootstock',
-    fileName: 'network:rootstock',
+    filePath: 'network:rootstock',
     chainId: 30,
     caip2id: 'eip155:30',
     name: 'Rootstock RSK',
@@ -501,7 +501,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'corn',
-    fileName: 'network:corn',
+    filePath: 'network:corn',
     chainId: 21000000,
     caip2id: 'eip155:21000000',
     name: 'Corn',
@@ -511,7 +511,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'harmony',
-    fileName: 'network:harmony',
+    filePath: 'network:harmony',
     chainId: 1666600000,
     caip2id: 'eip155:1666600000',
     name: 'Harmony One',
@@ -521,7 +521,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'fantom',
-    fileName: 'network:fantom',
+    filePath: 'network:fantom',
     chainId: 250,
     caip2id: 'eip155:250',
     name: 'Fantom Opera',
@@ -531,7 +531,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'clover',
-    fileName: 'network:clover',
+    filePath: 'network:clover',
     chainId: 1024,
     caip2id: 'eip155:1024',
     name: 'Clover',
@@ -541,7 +541,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'xdc',
-    fileName: 'network:xdc',
+    filePath: 'network:xdc',
     chainId: 50,
     caip2id: 'eip155:50',
     name: 'xdc network',
@@ -551,7 +551,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'velas',
-    fileName: 'network:velas',
+    filePath: 'network:velas',
     chainId: 106,
     caip2id: 'eip155:106',
     name: 'Velas',
@@ -561,7 +561,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'filecoin',
-    fileName: 'network:filecoin',
+    filePath: 'network:filecoin',
     chainId: 314,
     caip2id: 'eip155:314',
     name: 'Filecoin',
@@ -571,7 +571,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'chiliz',
-    fileName: 'network:chiliz',
+    filePath: 'network:chiliz',
     chainId: 88888,
     caip2id: 'eip155:88888',
     name: 'Chiliz',
@@ -581,7 +581,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'dogechain',
-    fileName: 'network:dogechain',
+    filePath: 'network:dogechain',
     chainId: 2000,
     caip2id: 'eip155:2000',
     name: 'Dogechain',
@@ -591,7 +591,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'lens',
-    fileName: 'network:lens',
+    filePath: 'network:lens',
     chainId: 37111,
     caip2id: 'eip155:37111',
     name: 'Lens',
@@ -601,7 +601,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'mode',
-    fileName: 'network:mode',
+    filePath: 'network:mode',
     chainId: 34443,
     caip2id: 'eip155:34443',
     name: 'Mode',
@@ -611,7 +611,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'linea',
-    fileName: 'network:linea',
+    filePath: 'network:linea',
     chainId: 59144,
     caip2id: 'eip155:59144',
     name: 'Linea',
@@ -621,7 +621,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'zeta-chain',
-    fileName: 'network:zeta-chain',
+    filePath: 'network:zeta-chain',
     chainId: 7000,
     caip2id: 'eip155:7000',
     name: 'Zeta Chain',
@@ -631,7 +631,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'juno',
-    fileName: 'network:juno',
+    filePath: 'network:juno',
     name: 'Juno',
     shortName: 'juno',
     nativeCoinId: 'juno-network',
@@ -639,7 +639,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'gravity',
-    fileName: 'network:gravity',
+    filePath: 'network:gravity',
     chainId: 1625,
     caip2id: 'eip155:1625',
     name: 'gravity-network',
@@ -649,7 +649,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'avalanche',
-    fileName: 'network:avalanche',
+    filePath: 'network:avalanche',
     chainId: 43114,
     caip2id: 'eip155:43114',
     name: 'Avalanche C-Chain',
@@ -659,7 +659,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'rollux',
-    fileName: 'network:rollux',
+    filePath: 'network:rollux',
     chainId: 570,
     caip2id: 'eip155:570',
     name: 'Rollux',
@@ -669,7 +669,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'lumia',
-    fileName: 'network:lumia',
+    filePath: 'network:lumia',
     chainId: 994873017,
     caip2id: 'eip155:994873017',
     name: 'Lumia',
@@ -678,7 +678,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'mantle',
-    fileName: 'network:mantle',
+    filePath: 'network:mantle',
     chainId: 5000,
     caip2id: 'eip155:5000',
     name: 'Mantle',
@@ -688,7 +688,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'bitcoin',
-    fileName: 'network:bitcoin',
+    filePath: 'network:bitcoin',
     caip2id: 'bip122:000000000019d6689c085ae165831e93',
     name: 'Bitcoin',
     shortName: 'bitcoin',
@@ -697,7 +697,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'litecoin',
-    fileName: 'network:litecoin',
+    filePath: 'network:litecoin',
     caip2id: 'bip122:12a765e31ffd4059bada1e25190f6e98',
     name: 'Litecoin',
     shortName: 'ltc',
@@ -706,7 +706,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'wemix',
-    fileName: 'network:wemix',
+    filePath: 'network:wemix',
     chainId: 111,
     caip2id: 'eip155:1111',
     name: 'Wemix',
@@ -716,7 +716,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'bob',
-    fileName: 'network:bob',
+    filePath: 'network:bob',
     chainId: 60808,
     caip2id: 'eip155:60808',
     name: 'Bob',
@@ -726,7 +726,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'botanix',
-    fileName: 'network:botanix',
+    filePath: 'network:botanix',
     chainId: 3637,
     caip2id: 'eip155:3637',
     name: 'Botanix',
@@ -736,7 +736,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'sys',
-    fileName: 'network:sys',
+    filePath: 'network:sys',
     chainId: 57,
     caip2id: 'eip155:57',
     name: 'Syscoin',
@@ -746,7 +746,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'cardano',
-    fileName: 'network:cardano',
+    filePath: 'network:cardano',
     caip2id: 'cip-34:1-764824073',
     name: 'Cardano',
     shortName: 'ada',
@@ -755,7 +755,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'treasure',
-    fileName: 'network:treasure',
+    filePath: 'network:treasure',
     chainId: 61166,
     caip2id: 'eip155:61166',
     name: 'Treasure',
@@ -765,7 +765,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'shiden',
-    fileName: 'network:shiden',
+    filePath: 'network:shiden',
     chainId: 336,
     caip2id: 'eip155:336',
     name: 'shiden',
@@ -775,7 +775,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'stargaze',
-    fileName: 'network:stargaze',
+    filePath: 'network:stargaze',
     name: 'Stargaze',
     shortName: 'stargaze',
     nativeCoinId: 'stargaze',
@@ -783,7 +783,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'kardia',
-    fileName: 'network:kardia',
+    filePath: 'network:kardia',
     chainId: 24,
     caip2id: 'eip155:24',
     name: 'kardia chain',
@@ -793,7 +793,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'blast',
-    fileName: 'network:blast',
+    filePath: 'network:blast',
     chainId: 81457,
     caip2id: 'eip155:81457',
     name: 'Blast',
@@ -803,7 +803,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'etherlink',
-    fileName: 'network:etherlink',
+    filePath: 'network:etherlink',
     chainId: 42793,
     caip2id: 'eip155:42793',
     name: 'etherlink',
@@ -813,7 +813,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'rari',
-    fileName: 'network:rari',
+    filePath: 'network:rari',
     chainId: 1380012617,
     caip2id: 'eip155:1380012617',
     name: 'Rari',
@@ -823,7 +823,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'unichain',
-    fileName: 'network:unichain',
+    filePath: 'network:unichain',
     chainId: 130,
     caip2id: 'eip155:130',
     name: 'Unichain',
@@ -833,7 +833,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'rei',
-    fileName: 'network:rei',
+    filePath: 'network:rei',
     chainId: 47805,
     caip2id: 'eip155:47805',
     name: 'Rei',
@@ -842,7 +842,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'karura',
-    fileName: 'network:karura',
+    filePath: 'network:karura',
     chainId: 686,
     caip2id: 'eip155:686',
     name: 'Karura',
@@ -852,7 +852,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'world',
-    fileName: 'network:world',
+    filePath: 'network:world',
     chainId: 480,
     caip2id: 'eip155:480',
     name: 'World Chain',
@@ -862,7 +862,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'sui',
-    fileName: 'network:sui',
+    filePath: 'network:sui',
     name: 'Sui',
     shortName: 'sui',
     nativeCoinId: 'sui',
@@ -870,7 +870,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'ronin',
-    fileName: 'network:ronin',
+    filePath: 'network:ronin',
     chainId: 2020,
     caip2id: 'eip155:2020',
     name: 'Ronin',
@@ -880,7 +880,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'bitkub-chain',
-    fileName: 'network:bitkub-chain',
+    filePath: 'network:bitkub-chain',
     chainId: 96,
     caip2id: 'eip155:96',
     name: 'Bitkub Chain',
@@ -890,7 +890,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'moonbase-alpha',
-    fileName: 'network:moonbase-alpha',
+    filePath: 'network:moonbase-alpha',
     chainId: 1287,
     caip2id: 'eip155:1287',
     name: 'Moonbase Alpha',
@@ -899,7 +899,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'nibiru',
-    fileName: 'network:nibiru',
+    filePath: 'network:nibiru',
     chainId: 6900,
     caip2id: 'eip155:6900',
     name: 'Nibiru',
@@ -908,7 +908,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'gnosis',
-    fileName: 'network:gnosis',
+    filePath: 'network:gnosis',
     chainId: 100,
     caip2id: 'eip155:100',
     name: 'Gnosis Chain',
@@ -918,7 +918,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'xrp',
-    fileName: 'network:xrp',
+    filePath: 'network:xrp',
     caip2id: 'xrpl:0',
     name: 'XRP Ledger',
     shortName: 'xrp',
@@ -927,7 +927,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'lumio',
-    fileName: 'network:lumio',
+    filePath: 'network:lumio',
     chainId: 8866,
     caip2id: 'eip155:8866',
     name: 'Super Lumio',
@@ -937,7 +937,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'kakarot',
-    fileName: 'network:kakarot',
+    filePath: 'network:kakarot',
     name: 'Kakarot',
     shortName: 'kakarot',
     nativeCoinId: 'eth',
@@ -945,7 +945,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'x-layer',
-    fileName: 'network:x-layer',
+    filePath: 'network:x-layer',
     chainId: 19,
     caip2id: 'eip155:19',
     name: 'X Layer',
@@ -955,7 +955,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'energy-web',
-    fileName: 'network:energy-web',
+    filePath: 'network:energy-web',
     chainId: 246,
     caip2id: 'eip155:246',
     name: 'energy web',
@@ -965,7 +965,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'metis-andromeda',
-    fileName: 'network:metis-andromeda',
+    filePath: 'network:metis-andromeda',
     chainId: 1088,
     caip2id: 'eip155:1088',
     name: 'Metis Andromeda',
@@ -975,7 +975,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'coinex-smart-chain',
-    fileName: 'network:coinex-smart-chain',
+    filePath: 'network:coinex-smart-chain',
     chainId: 52,
     caip2id: 'eip155:52',
     name: 'CoinEx Smart Chain',
@@ -985,7 +985,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'hedera-hashgraph',
-    fileName: 'network:hedera-hashgraph',
+    filePath: 'network:hedera-hashgraph',
     chainId: 295,
     caip2id: 'eip155:295',
     name: 'Hedera Hashgraph',
@@ -995,7 +995,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'tenet',
-    fileName: 'network:tenet',
+    filePath: 'network:tenet',
     chainId: 1559,
     caip2id: 'eip155:1559',
     name: 'Tenet',
@@ -1005,7 +1005,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'arbitrum-one',
-    fileName: 'network:arbitrum-one',
+    filePath: 'network:arbitrum-one',
     chainId: 42161,
     caip2id: 'eip155:42161',
     name: 'Arbitrum One',
@@ -1015,7 +1015,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'scroll',
-    fileName: 'network:scroll',
+    filePath: 'network:scroll',
     chainId: 534352,
     caip2id: 'eip155:534352',
     name: 'Scroll',
@@ -1025,7 +1025,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'boba',
-    fileName: 'network:boba',
+    filePath: 'network:boba',
     chainId: 288,
     caip2id: 'eip155:288',
     name: 'Boba Network',
@@ -1035,7 +1035,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'viction',
-    fileName: 'network:viction',
+    filePath: 'network:viction',
     chainId: 88,
     caip2id: 'eip155:88',
     name: 'Viction',
@@ -1045,7 +1045,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'monad',
-    fileName: 'network:monad',
+    filePath: 'network:monad',
     chainId: 143,
     caip2id: 'eip155:143',
     name: 'Monad',
@@ -1055,7 +1055,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'immutable',
-    fileName: 'network:immutable',
+    filePath: 'network:immutable',
     chainId: 13371,
     caip2id: 'eip155:13371',
     name: 'Immutable zkEVM',
@@ -1065,7 +1065,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'flare',
-    fileName: 'network:flare',
+    filePath: 'network:flare',
     chainId: 14,
     caip2id: 'eip155:14',
     name: 'flare',
@@ -1075,7 +1075,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'wax',
-    fileName: 'network:wax',
+    filePath: 'network:wax',
     caip2id: 'antelope:1064487b3cd1a897ce03ae5b6a865651',
     name: 'WAX',
     shortName: 'wax',
@@ -1084,7 +1084,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'taiko',
-    fileName: 'network:taiko',
+    filePath: 'network:taiko',
     chainId: 167000,
     caip2id: 'eip155:167000',
     name: 'Taiko',
@@ -1094,7 +1094,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'lyra',
-    fileName: 'network:lyra',
+    filePath: 'network:lyra',
     chainId: 957,
     caip2id: 'eip155:957',
     name: 'lyra chain',
@@ -1104,7 +1104,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'starknet',
-    fileName: 'network:starknet',
+    filePath: 'network:starknet',
     name: 'StarkNet',
     shortName: 'starknet',
     nativeCoinId: 'starknet',
@@ -1112,7 +1112,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'moonbeam',
-    fileName: 'network:moonbeam',
+    filePath: 'network:moonbeam',
     chainId: 1284,
     caip2id: 'eip155:1284',
     name: 'Moonbeam',
@@ -1122,7 +1122,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'super-seed',
-    fileName: 'network:super-seed',
+    filePath: 'network:super-seed',
     chainId: 5330,
     caip2id: 'eip155:5330',
     name: 'Super Seed',
@@ -1131,7 +1131,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'fluence',
-    fileName: 'network:fluence',
+    filePath: 'network:fluence',
     chainId: 9999999,
     caip2id: 'eip155:9999999',
     name: 'Fluence',
@@ -1141,7 +1141,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'orderly',
-    fileName: 'network:orderly',
+    filePath: 'network:orderly',
     chainId: 291,
     caip2id: 'eip155:291',
     name: 'Orderly',
@@ -1151,7 +1151,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'okex',
-    fileName: 'network:okex',
+    filePath: 'network:okex',
     chainId: 66,
     caip2id: 'eip155:66',
     name: 'OKEx Chain',
@@ -1161,7 +1161,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'kroma',
-    fileName: 'network:kroma',
+    filePath: 'network:kroma',
     chainId: 255,
     caip2id: 'eip155:255',
     name: 'kroma',
@@ -1171,7 +1171,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'kava',
-    fileName: 'network:kava',
+    filePath: 'network:kava',
     chainId: 2222,
     caip2id: 'cosmos:kava-4',
     name: 'Kava',
@@ -1181,7 +1181,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'moonriver',
-    fileName: 'network:moonriver',
+    filePath: 'network:moonriver',
     chainId: 1285,
     caip2id: 'eip155:1285',
     name: 'Moonriver',
@@ -1191,7 +1191,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'ubiq',
-    fileName: 'network:ubiq',
+    filePath: 'network:ubiq',
     chainId: 8,
     caip2id: 'eip155:8',
     name: 'ubiq',
@@ -1201,7 +1201,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'soneium',
-    fileName: 'network:soneium',
+    filePath: 'network:soneium',
     chainId: 1868,
     caip2id: 'eip155:1868',
     name: 'Soneium',
@@ -1211,7 +1211,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'nahmii',
-    fileName: 'network:nahmii',
+    filePath: 'network:nahmii',
     chainId: 4061,
     caip2id: 'eip155:4061',
     name: 'Nahmii',
@@ -1221,7 +1221,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'lightlink',
-    fileName: 'network:lightlink',
+    filePath: 'network:lightlink',
     chainId: 1890,
     caip2id: 'eip155:1890',
     name: 'LightLink',
@@ -1231,7 +1231,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'lisk',
-    fileName: 'network:lisk',
+    filePath: 'network:lisk',
     chainId: 1135,
     caip2id: 'eip155:1135',
     name: 'Lisk',
@@ -1241,14 +1241,14 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'push',
-    fileName: 'network:push',
+    filePath: 'network:push',
     name: 'Push Chain',
     shortName: 'Push',
     variants: ['background', 'branded', 'mono'],
   },
   {
     id: 'polkadot',
-    fileName: 'network:polkadot',
+    filePath: 'network:polkadot',
     caip2id: 'polkadot:91b171bb158e2d3848fa23a9f1c25182',
     name: 'Polkadot',
     shortName: 'dot',
@@ -1257,7 +1257,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'oasys',
-    fileName: 'network:oasys',
+    filePath: 'network:oasys',
     chainId: 248,
     caip2id: 'eip155:248',
     name: 'Oasys',
@@ -1267,7 +1267,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'base',
-    fileName: 'network:base',
+    filePath: 'network:base',
     chainId: 8453,
     caip2id: 'eip155:8453',
     name: 'Base',
@@ -1277,7 +1277,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'optimism',
-    fileName: 'network:optimism',
+    filePath: 'network:optimism',
     chainId: 10,
     caip2id: 'eip155:10',
     name: 'Optimism',
@@ -1287,7 +1287,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'loopring',
-    fileName: 'network:loopring',
+    filePath: 'network:loopring',
     name: 'Loopring',
     shortName: 'loopring',
     nativeCoinId: 'loopring',
@@ -1295,7 +1295,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'osmosis',
-    fileName: 'network:osmosis',
+    filePath: 'network:osmosis',
     name: 'Osmosis',
     shortName: 'Osmo',
     nativeCoinId: 'osmosis',
@@ -1303,7 +1303,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'ultron',
-    fileName: 'network:ultron',
+    filePath: 'network:ultron',
     chainId: 1231,
     caip2id: 'eip155:1231',
     name: 'Ultron',
@@ -1313,7 +1313,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'songbird',
-    fileName: 'network:songbird',
+    filePath: 'network:songbird',
     chainId: 19,
     caip2id: 'eip155:19',
     name: 'Songbird',
@@ -1323,7 +1323,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'hubble-exchange',
-    fileName: 'network:hubble-exchange',
+    filePath: 'network:hubble-exchange',
     chainId: 1992,
     caip2id: 'eip155:1992',
     name: 'hubble exchange',
@@ -1333,7 +1333,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'kucoin',
-    fileName: 'network:kucoin',
+    filePath: 'network:kucoin',
     name: 'kucoin',
     shortName: 'kucoin',
     nativeCoinId: 'kcs',
@@ -1341,7 +1341,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'manta-pacific',
-    fileName: 'network:manta-pacific',
+    filePath: 'network:manta-pacific',
     chainId: 169,
     name: 'Manta Pacific',
     shortName: 'manta',
@@ -1350,7 +1350,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'ethereum-classic',
-    fileName: 'network:ethereum-classic',
+    filePath: 'network:ethereum-classic',
     chainId: 61,
     caip2id: 'eip155:61',
     name: 'Ethereum Classic',
@@ -1360,7 +1360,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'acala',
-    fileName: 'network:acala',
+    filePath: 'network:acala',
     chainId: 787,
     caip2id: 'eip155:787',
     name: 'Acala',
@@ -1370,7 +1370,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'neo-x',
-    fileName: 'network:neo-x',
+    filePath: 'network:neo-x',
     chainId: 47763,
     caip2id: 'eip155:47763',
     name: 'neo-x',
@@ -1380,7 +1380,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'silicon',
-    fileName: 'network:silicon',
+    filePath: 'network:silicon',
     chainId: 2355,
     caip2id: 'eip155:2355',
     name: 'Silicon zkEVM',
@@ -1390,7 +1390,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'sei-network',
-    fileName: 'network:sei-network',
+    filePath: 'network:sei-network',
     chainId: 1329,
     caip2id: 'eip155:1329',
     name: 'Sei Network',
@@ -1400,7 +1400,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'milkomeda-a1',
-    fileName: 'network:milkomeda-a1',
+    filePath: 'network:milkomeda-a1',
     chainId: 2002,
     caip2id: 'eip155:2002',
     name: 'milkomeda A1',
@@ -1410,7 +1410,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'shimmer-evm',
-    fileName: 'network:shimmer-evm',
+    filePath: 'network:shimmer-evm',
     chainId: 148,
     caip2id: 'eip155:148',
     name: 'shimmer evm',
@@ -1420,7 +1420,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'telos',
-    fileName: 'network:telos',
+    filePath: 'network:telos',
     chainId: 40,
     caip2id: 'eip155:40',
     name: 'Telos',
@@ -1430,7 +1430,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'lycan',
-    fileName: 'network:lycan',
+    filePath: 'network:lycan',
     chainId: 721,
     caip2id: 'eip155:721',
     name: 'Lycan',
@@ -1440,7 +1440,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'celo',
-    fileName: 'network:celo',
+    filePath: 'network:celo',
     chainId: 42220,
     caip2id: 'eip155:42220',
     name: 'Celo',
@@ -1450,7 +1450,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'zilliqa',
-    fileName: 'network:zilliqa',
+    filePath: 'network:zilliqa',
     chainId: 32769,
     caip2id: 'eip155:32769',
     name: 'Zilliqa',
@@ -1460,7 +1460,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'reya',
-    fileName: 'network:reya',
+    filePath: 'network:reya',
     chainId: 1729,
     caip2id: 'eip155:1729',
     name: 'reya',
@@ -1470,7 +1470,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'edgeless',
-    fileName: 'network:edgeless',
+    filePath: 'network:edgeless',
     chainId: 2026,
     caip2id: 'eip155:2026',
     name: 'Edgeless Network',
@@ -1480,7 +1480,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'kaia',
-    fileName: 'network:kaia',
+    filePath: 'network:kaia',
     chainId: 8217,
     caip2id: 'eip155:8217',
     name: 'Kaia',
@@ -1490,7 +1490,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'conflux',
-    fileName: 'network:conflux',
+    filePath: 'network:conflux',
     chainId: 1030,
     caip2id: 'eip155:1030',
     name: 'Conflux',
@@ -1500,7 +1500,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'solana',
-    fileName: 'network:solana',
+    filePath: 'network:solana',
     caip2id: 'solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp',
     name: 'Solana',
     shortName: 'Solana',
@@ -1509,7 +1509,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'optopia',
-    fileName: 'network:optopia',
+    filePath: 'network:optopia',
     chainId: 62050,
     caip2id: 'eip155:62050',
     name: 'Optopia AI',
@@ -1519,7 +1519,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'arbitrum-nova',
-    fileName: 'network:arbitrum-nova',
+    filePath: 'network:arbitrum-nova',
     chainId: 42170,
     caip2id: 'eip155:42170',
     name: 'Arbitrum Nova',
@@ -1529,7 +1529,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'fio',
-    fileName: 'network:fio',
+    filePath: 'network:fio',
     name: 'FIO Protocol',
     shortName: 'fio',
     nativeCoinId: 'FIO',
@@ -1537,7 +1537,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'algorand',
-    fileName: 'network:algorand',
+    filePath: 'network:algorand',
     caip2id: 'algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73k',
     name: 'Algorand',
     shortName: 'algo',
@@ -1546,7 +1546,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'berachain',
-    fileName: 'network:berachain',
+    filePath: 'network:berachain',
     chainId: 80094,
     caip2id: 'eip155:80094',
     name: 'Berachain',
@@ -1556,14 +1556,14 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'paradex',
-    fileName: 'network:paradex',
+    filePath: 'network:paradex',
     name: 'Paradex',
     shortName: 'paradex',
     variants: ['background', 'branded', 'mono'],
   },
   {
     id: 'zero-network',
-    fileName: 'network:zero-network',
+    filePath: 'network:zero-network',
     chainId: 543210,
     caip2id: 'eip155:543210',
     name: 'Zero Network',
@@ -1573,7 +1573,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'zircuit',
-    fileName: 'network:zircuit',
+    filePath: 'network:zircuit',
     chainId: 48900,
     caip2id: 'eip155:48900',
     name: 'Zircuit',
@@ -1583,7 +1583,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'expchain',
-    fileName: 'network:expchain',
+    filePath: 'network:expchain',
     chainId: 18880,
     caip2id: 'eip155:18880',
     name: 'EXPchain',
@@ -1592,7 +1592,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'japan-open-chain',
-    fileName: 'network:japan-open-chain',
+    filePath: 'network:japan-open-chain',
     chainId: 81,
     caip2id: 'eip155:81',
     name: 'Japan Open Chain',
@@ -1602,7 +1602,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'vana',
-    fileName: 'network:vana',
+    filePath: 'network:vana',
     chainId: 1480,
     caip2id: 'eip155:1480',
     name: 'Vana',
@@ -1612,7 +1612,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'vara',
-    fileName: 'network:vara',
+    filePath: 'network:vara',
     caip2id: 'gear:vara-mainnet',
     name: 'Vara',
     shortName: 'vara',
@@ -1621,7 +1621,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'iota-evm',
-    fileName: 'network:iota-evm',
+    filePath: 'network:iota-evm',
     chainId: 8822,
     caip2id: 'eip155:8822',
     name: 'Iota EVM',
@@ -1631,7 +1631,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'apechain',
-    fileName: 'network:apechain',
+    filePath: 'network:apechain',
     chainId: 33139,
     caip2id: 'eip155:33139',
     name: 'Apechain',
@@ -1641,7 +1641,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'nexis',
-    fileName: 'network:nexis',
+    filePath: 'network:nexis',
     chainId: 2370,
     caip2id: 'eip155:2370',
     name: 'Nexis Network',
@@ -1651,7 +1651,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'ink',
-    fileName: 'network:ink',
+    filePath: 'network:ink',
     chainId: 57073,
     caip2id: 'eip155:57073',
     name: 'Ink',
@@ -1661,7 +1661,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'ontology',
-    fileName: 'network:ontology',
+    filePath: 'network:ontology',
     chainId: 58,
     caip2id: 'eip155:58',
     name: 'Ontology',
@@ -1671,7 +1671,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'prom',
-    fileName: 'network:prom',
+    filePath: 'network:prom',
     chainId: 227,
     caip2id: 'eip155:227',
     name: 'Prom',
@@ -1681,7 +1681,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'autonomys',
-    fileName: 'network:autonomys',
+    filePath: 'network:autonomys',
     chainId: 490000,
     caip2id: 'eip155:490000',
     name: 'Autonomys EVM',
@@ -1690,7 +1690,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'swell',
-    fileName: 'network:swell',
+    filePath: 'network:swell',
     chainId: 1923,
     caip2id: 'eip155:1923',
     name: 'Swell Network',
@@ -1700,7 +1700,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'hashkey',
-    fileName: 'network:hashkey',
+    filePath: 'network:hashkey',
     chainId: 177,
     caip2id: 'eip155:177',
     name: 'Hashkey Chain',
@@ -1710,7 +1710,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'peaq',
-    fileName: 'network:peaq',
+    filePath: 'network:peaq',
     chainId: 3338,
     caip2id: 'eip155:3338',
     name: 'peaq',
@@ -1720,7 +1720,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'mega-eth',
-    fileName: 'network:mega-eth',
+    filePath: 'network:mega-eth',
     chainId: 6342,
     caip2id: 'eip155:6342',
     name: 'Mega ETH',
@@ -1730,7 +1730,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'ultra',
-    fileName: 'network:ultra',
+    filePath: 'network:ultra',
     caip2id: 'antelope:a9c481dfbc7d9506dc7e87e9a137c931',
     name: 'Ultra',
     shortName: 'Ultra',
@@ -1739,7 +1739,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'katana',
-    fileName: 'network:katana',
+    filePath: 'network:katana',
     chainId: 129399,
     caip2id: 'eip155:129399',
     name: 'Katana',
@@ -1749,7 +1749,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'ozean',
-    fileName: 'network:ozean',
+    filePath: 'network:ozean',
     chainId: 31911,
     caip2id: 'eip155:31911',
     name: 'Ozean',
@@ -1758,7 +1758,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'status',
-    fileName: 'network:status',
+    filePath: 'network:status',
     chainId: 1660990954,
     caip2id: 'eip155:1660990954',
     name: 'Status',
@@ -1768,7 +1768,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'vaulta',
-    fileName: 'network:vaulta',
+    filePath: 'network:vaulta',
     chainId: 17777,
     caip2id: 'eip155:17777',
     name: 'Vaulta EVM',
@@ -1778,7 +1778,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'stacks',
-    fileName: 'network:stacks',
+    filePath: 'network:stacks',
     caip2id: 'stacks:1',
     name: 'Stacks',
     shortName: 'stacks',
@@ -1786,21 +1786,21 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'supra-movevm',
-    fileName: 'network:supra-movevm',
+    filePath: 'network:supra-movevm',
     name: 'Supra MoveVM',
     shortName: 'Supra',
     variants: ['background', 'branded', 'mono'],
   },
   {
     id: 'movement',
-    fileName: 'network:movement',
+    filePath: 'network:movement',
     name: 'Movement',
     shortName: 'movement',
     variants: ['background', 'branded', 'mono'],
   },
   {
     id: 'fuel',
-    fileName: 'network:fuel',
+    filePath: 'network:fuel',
     chainId: 9889,
     caip2id: 'eip155:9889',
     name: 'Fuel',
@@ -1809,7 +1809,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'sepolia',
-    fileName: 'network:ethereum',
+    filePath: 'network:ethereum',
     chainId: 11155111,
     caip2id: 'eip155:11155111',
     name: 'Sepolia Testnet',
@@ -1819,7 +1819,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'binance-smart-chain-testnet',
-    fileName: 'network:binance-smart-chain',
+    filePath: 'network:binance-smart-chain',
     chainId: 97,
     caip2id: 'eip155:97',
     name: 'BNB Smart Chain Testnet',
@@ -1829,7 +1829,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'polygon-amoy',
-    fileName: 'network:polygon',
+    filePath: 'network:polygon',
     chainId: 80002,
     caip2id: 'eip155:80002',
     name: 'Polygon Amoy Testnet',
@@ -1839,7 +1839,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'polygon-zkevm-cardona',
-    fileName: 'network:polygon-zkevm',
+    filePath: 'network:polygon-zkevm',
     chainId: 2442,
     caip2id: 'eip155:2442',
     name: 'Polygon zkEVM Cardona Testnet',
@@ -1849,7 +1849,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'avalanche-fuji',
-    fileName: 'network:avalanche',
+    filePath: 'network:avalanche',
     chainId: 43113,
     caip2id: 'eip155:43113',
     name: 'Avalanche Fuji Testnet',
@@ -1859,7 +1859,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'arbitrum-sepolia',
-    fileName: 'network:arbitrum-one',
+    filePath: 'network:arbitrum-one',
     chainId: 421614,
     caip2id: 'eip155:421614',
     name: 'Arbitrum Sepolia Testnet',
@@ -1869,7 +1869,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'optimism-sepolia',
-    fileName: 'network:optimism',
+    filePath: 'network:optimism',
     chainId: 11155420,
     caip2id: 'eip155:11155420',
     name: 'OP Sepolia Testnet',
@@ -1879,7 +1879,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'base-sepolia',
-    fileName: 'network:base',
+    filePath: 'network:base',
     chainId: 84532,
     caip2id: 'eip155:84532',
     name: 'Base Sepolia Testnet',
@@ -1889,7 +1889,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'zksync-sepolia',
-    fileName: 'network:zksync',
+    filePath: 'network:zksync',
     chainId: 300,
     caip2id: 'eip155:300',
     name: 'zkSync Sepolia Testnet',
@@ -1899,7 +1899,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'scroll-sepolia',
-    fileName: 'network:scroll',
+    filePath: 'network:scroll',
     chainId: 534351,
     caip2id: 'eip155:534351',
     name: 'Scroll Sepolia Testnet',
@@ -1909,7 +1909,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'linea-sepolia',
-    fileName: 'network:linea',
+    filePath: 'network:linea',
     chainId: 59141,
     caip2id: 'eip155:59141',
     name: 'Linea Sepolia Testnet',
@@ -1919,7 +1919,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'fantom-testnet',
-    fileName: 'network:fantom',
+    filePath: 'network:fantom',
     chainId: 4002,
     caip2id: 'eip155:4002',
     name: 'Fantom Testnet',
@@ -1929,7 +1929,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'celo-alfajores',
-    fileName: 'network:celo',
+    filePath: 'network:celo',
     chainId: 44787,
     caip2id: 'eip155:44787',
     name: 'Celo Alfajores Testnet',
@@ -1939,7 +1939,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'mantle-sepolia',
-    fileName: 'network:mantle',
+    filePath: 'network:mantle',
     chainId: 5003,
     caip2id: 'eip155:5003',
     name: 'Mantle Sepolia Testnet',
@@ -1949,7 +1949,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'blast-sepolia',
-    fileName: 'network:blast',
+    filePath: 'network:blast',
     chainId: 168587773,
     caip2id: 'eip155:168587773',
     name: 'Blast Sepolia Testnet',
@@ -1959,7 +1959,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'taiko-hekla',
-    fileName: 'network:taiko',
+    filePath: 'network:taiko',
     chainId: 167009,
     caip2id: 'eip155:167009',
     name: 'Taiko Hekla Testnet',
@@ -1969,7 +1969,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'mode-sepolia',
-    fileName: 'network:mode',
+    filePath: 'network:mode',
     chainId: 919,
     caip2id: 'eip155:919',
     name: 'Mode Sepolia Testnet',
@@ -1979,7 +1979,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'zetachain-testnet',
-    fileName: 'network:zeta-chain',
+    filePath: 'network:zeta-chain',
     chainId: 7001,
     caip2id: 'eip155:7001',
     name: 'ZetaChain Testnet',
@@ -1989,7 +1989,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'kaia-kairos',
-    fileName: 'network:kaia',
+    filePath: 'network:kaia',
     chainId: 1001,
     caip2id: 'eip155:1001',
     name: 'Kaia Kairos Testnet',
@@ -1999,7 +1999,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'filecoin-calibration',
-    fileName: 'network:filecoin',
+    filePath: 'network:filecoin',
     chainId: 314159,
     caip2id: 'eip155:314159',
     name: 'Filecoin Calibration Testnet',
@@ -2009,7 +2009,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'manta-pacific-sepolia',
-    fileName: 'network:manta-pacific',
+    filePath: 'network:manta-pacific',
     chainId: 3441006,
     caip2id: 'eip155:3441006',
     name: 'Manta Pacific Sepolia Testnet',
@@ -2019,7 +2019,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'metis-sepolia',
-    fileName: 'network:metis-andromeda',
+    filePath: 'network:metis-andromeda',
     chainId: 59902,
     caip2id: 'eip155:59902',
     name: 'Metis Sepolia Testnet',
@@ -2029,7 +2029,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'boba-sepolia',
-    fileName: 'network:boba',
+    filePath: 'network:boba',
     chainId: 28882,
     caip2id: 'eip155:28882',
     name: 'Boba Sepolia Testnet',
@@ -2039,7 +2039,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'cronos-testnet',
-    fileName: 'network:cronos',
+    filePath: 'network:cronos',
     chainId: 338,
     caip2id: 'eip155:338',
     name: 'Cronos Testnet',
@@ -2049,7 +2049,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'kava-testnet',
-    fileName: 'network:kava',
+    filePath: 'network:kava',
     chainId: 2221,
     caip2id: 'eip155:2221',
     name: 'Kava Testnet',
@@ -2059,7 +2059,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'telos-testnet',
-    fileName: 'network:telos',
+    filePath: 'network:telos',
     chainId: 41,
     caip2id: 'eip155:41',
     name: 'Telos EVM Testnet',
@@ -2069,7 +2069,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'ethereum-classic-mordor',
-    fileName: 'network:ethereum-classic',
+    filePath: 'network:ethereum-classic',
     chainId: 63,
     caip2id: 'eip155:63',
     name: 'Ethereum Classic Mordor Testnet',
@@ -2079,7 +2079,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'arc',
-    fileName: 'network:arc',
+    filePath: 'network:arc',
     chainId: 5042002,
     caip2id: 'eip155:5042002',
     name: 'Arc',
@@ -2089,7 +2089,7 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'shibarium',
-    fileName: 'token:SHIB',
+    filePath: 'token:SHIB',
     chainId: 109,
     caip2id: 'eip155:109',
     name: 'Shibarium',

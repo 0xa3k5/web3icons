@@ -3,7 +3,7 @@ import { ITokenMetadata } from '../types'
 export const tokens: ITokenMetadata[] = [
   {
     id: '0x0-ai-ai-smart-contract',
-    fileName: 'token:0X0',
+    filePath: 'token:0X0',
     symbol: '0x0',
     name: '0x0.ai: AI Smart Contract',
     marketCapRank: 376,
@@ -14,7 +14,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: '0xgasless-2',
-    fileName: 'token:0XGAS',
+    filePath: 'token:0XGAS',
     symbol: '0xgas',
     name: '0xGasless',
     marketCapRank: 3040,
@@ -25,7 +25,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: '1art',
-    fileName: 'token:1ART',
+    filePath: 'token:1ART',
     symbol: '1art',
     name: 'OneArt',
     marketCapRank: 2680,
@@ -38,7 +38,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: '1inch',
-    fileName: 'token:1INCH',
+    filePath: 'token:1INCH',
     symbol: '1inch',
     name: '1inch',
     marketCapRank: 165,
@@ -56,7 +56,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: '2dai-io',
-    fileName: 'token:2DAI',
+    filePath: 'token:2DAI',
     symbol: '2dai',
     name: '2DAI.io',
     marketCapRank: 2443,
@@ -67,7 +67,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'a-hunters-dream',
-    fileName: 'token:CAW',
+    filePath: 'token:CAW',
     symbol: 'caw',
     name: 'A Hunters Dream',
     marketCapRank: 725,
@@ -78,7 +78,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aag-ventures',
-    fileName: 'token:AAG',
+    filePath: 'token:AAG',
     symbol: 'aag',
     name: 'AAG',
     marketCapRank: 2030,
@@ -90,7 +90,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aave',
-    fileName: 'token:AAVE',
+    filePath: 'token:AAVE',
     symbol: 'aave',
     name: 'Aave',
     marketCapRank: 66,
@@ -112,7 +112,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aavegotchi',
-    fileName: 'token:GHST',
+    filePath: 'token:GHST',
     symbol: 'ghst',
     name: 'Aavegotchi',
     marketCapRank: 575,
@@ -125,7 +125,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'access-protocol',
-    fileName: 'token:ACS',
+    filePath: 'token:ACS',
     symbol: 'acs',
     name: 'Access Protocol',
     marketCapRank: 0,
@@ -134,7 +134,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'acet-token',
-    fileName: 'token:ACT',
+    filePath: 'token:ACT',
     symbol: 'act',
     name: 'Acet',
     marketCapRank: 0,
@@ -143,7 +143,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'acquire-fi',
-    fileName: 'token:ACQ',
+    filePath: 'token:ACQ',
     symbol: 'acq',
     name: 'Acquire.Fi',
     marketCapRank: 1334,
@@ -154,7 +154,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'acria',
-    fileName: 'token:ACRIA',
+    filePath: 'token:ACRIA',
     symbol: 'acria',
     name: 'Acria.AI',
     marketCapRank: 1944,
@@ -166,7 +166,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'across-protocol',
-    fileName: 'token:ACX',
+    filePath: 'token:ACX',
     symbol: 'acx',
     name: 'Across Protocol',
     marketCapRank: 568,
@@ -181,7 +181,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'adapad',
-    fileName: 'token:ADAPAD',
+    filePath: 'token:ADAPAD',
     symbol: 'adapad',
     name: 'ADAPad',
     marketCapRank: 1962,
@@ -193,7 +193,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aelf',
-    fileName: 'token:ELF',
+    filePath: 'token:ELF',
     symbol: 'elf',
     name: 'aelf',
     marketCapRank: 195,
@@ -204,7 +204,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'affyn',
-    fileName: 'token:FYN',
+    filePath: 'token:FYN',
     symbol: 'fyn',
     name: 'Affyn',
     marketCapRank: 848,
@@ -215,7 +215,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'agoras-currency-of-tau',
-    fileName: 'token:AGRS',
+    filePath: 'token:AGRS',
     symbol: 'agrs',
     name: 'Agoras: Currency of Tau',
     marketCapRank: 588,
@@ -226,7 +226,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'agoric',
-    fileName: 'token:BLD',
+    filePath: 'token:BLD',
     symbol: 'bld',
     name: 'Agoric',
     marketCapRank: 576,
@@ -241,7 +241,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ahatoken',
-    fileName: 'token:AHT',
+    filePath: 'token:AHT',
     symbol: 'aht',
     name: 'AhaToken',
     marketCapRank: 771,
@@ -250,7 +250,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ai-network',
-    fileName: 'token:AIN',
+    filePath: 'token:AIN',
     symbol: 'ain',
     name: 'AI Network',
     marketCapRank: 1388,
@@ -261,7 +261,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aimbot',
-    fileName: 'token:AIMBOT',
+    filePath: 'token:AIMBOT',
     symbol: 'aimbot',
     name: 'Aimbot AI',
     marketCapRank: 1820,
@@ -272,7 +272,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aimedis-new',
-    fileName: 'token:AIMX',
+    filePath: 'token:AIMX',
     symbol: 'aimx',
     name: 'Aimedis (NEW)',
     marketCapRank: 1928,
@@ -283,7 +283,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aioz-network',
-    fileName: 'token:AIOZ',
+    filePath: 'token:AIOZ',
     symbol: 'aioz',
     name: 'AIOZ Network',
     marketCapRank: 122,
@@ -295,7 +295,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aipad',
-    fileName: 'token:AIPAD',
+    filePath: 'token:AIPAD',
     symbol: 'aipad',
     name: 'AIPad',
     marketCapRank: 1249,
@@ -307,7 +307,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'airbloc-protocol',
-    fileName: 'token:ABL',
+    filePath: 'token:ABL',
     symbol: 'abl',
     name: 'Airbloc',
     marketCapRank: 2698,
@@ -318,7 +318,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'airight',
-    fileName: 'token:AIRI',
+    filePath: 'token:AIRI',
     symbol: 'airi',
     name: 'aiRight',
     marketCapRank: 1615,
@@ -329,7 +329,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'airtor-protocol',
-    fileName: 'token:ATOR',
+    filePath: 'token:ATOR',
     symbol: 'ator',
     name: 'AirTor Protocol',
     marketCapRank: 313,
@@ -340,7 +340,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aisociety',
-    fileName: 'token:AIS',
+    filePath: 'token:AIS',
     symbol: 'ais',
     name: 'AISociety',
     marketCapRank: 2439,
@@ -351,7 +351,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ait-protocol',
-    fileName: 'token:AIT',
+    filePath: 'token:AIT',
     symbol: 'ait',
     name: 'AIT Protocol',
     marketCapRank: 736,
@@ -362,7 +362,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'akash-network',
-    fileName: 'token:AKT',
+    filePath: 'token:AKT',
     symbol: 'akt',
     name: 'Akash Network',
     marketCapRank: 102,
@@ -373,7 +373,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'alaska-gold-rush',
-    fileName: 'token:CARAT',
+    filePath: 'token:CARAT',
     symbol: 'carat',
     name: 'Alaska Gold Rush',
     marketCapRank: 2010,
@@ -384,7 +384,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'alchemix',
-    fileName: 'token:ALCX',
+    filePath: 'token:ALCX',
     symbol: 'alcx',
     name: 'Alchemix',
     marketCapRank: 616,
@@ -397,7 +397,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'alchemy-pay',
-    fileName: 'token:ACH',
+    filePath: 'token:ACH',
     symbol: 'ach',
     name: 'Alchemy Pay',
     marketCapRank: 355,
@@ -409,7 +409,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aldrin',
-    fileName: 'token:RIN',
+    filePath: 'token:RIN',
     symbol: 'rin',
     name: 'Aldrin',
     marketCapRank: 2004,
@@ -420,7 +420,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aleph',
-    fileName: 'token:ALEPH',
+    filePath: 'token:ALEPH',
     symbol: 'aleph',
     name: 'Aleph.im',
     marketCapRank: 758,
@@ -432,7 +432,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aleph-zero',
-    fileName: 'token:AZERO',
+    filePath: 'token:AZERO',
     symbol: 'azero',
     name: 'Aleph Zero',
     marketCapRank: 256,
@@ -441,7 +441,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'alephium',
-    fileName: 'token:ALPH',
+    filePath: 'token:ALPH',
     symbol: 'alph',
     name: 'Alephium',
     marketCapRank: 342,
@@ -452,7 +452,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'alethea-artificial-liquid-intelligence-token',
-    fileName: 'token:ALI',
+    filePath: 'token:ALI',
     symbol: 'ali',
     name: 'Artificial Liquid Intelligence',
     marketCapRank: 553,
@@ -466,7 +466,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'alexgo',
-    fileName: 'token:ALEX',
+    filePath: 'token:ALEX',
     symbol: 'alex',
     name: 'ALEX Lab',
     marketCapRank: 239,
@@ -477,7 +477,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'algebra',
-    fileName: 'token:ALGB',
+    filePath: 'token:ALGB',
     symbol: 'algb',
     name: 'Algebra',
     marketCapRank: 1431,
@@ -488,7 +488,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'algorand',
-    fileName: 'token:ALGO',
+    filePath: 'token:ALGO',
     symbol: 'algo',
     name: 'Algorand',
     marketCapRank: 61,
@@ -497,7 +497,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'alien-worlds',
-    fileName: 'token:TLM',
+    filePath: 'token:TLM',
     symbol: 'tlm',
     name: 'Alien Worlds',
     marketCapRank: 500,
@@ -509,7 +509,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'all-art',
-    fileName: 'token:AART',
+    filePath: 'token:AART',
     symbol: 'aart',
     name: 'ALL.ART',
     marketCapRank: 2009,
@@ -520,7 +520,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'all-in',
-    fileName: 'token:ALLIN',
+    filePath: 'token:ALLIN',
     symbol: 'allin',
     name: 'All In',
     marketCapRank: 2510,
@@ -531,7 +531,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'allbridge',
-    fileName: 'token:ABR',
+    filePath: 'token:ABR',
     symbol: 'abr',
     name: 'Allbridge',
     marketCapRank: 1822,
@@ -551,7 +551,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'allianceblock-nexera',
-    fileName: 'token:NXRA',
+    filePath: 'token:NXRA',
     symbol: 'nxra',
     name: 'AllianceBlock Nexera',
     marketCapRank: 349,
@@ -565,7 +565,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'alpaca-finance',
-    fileName: 'token:ALPACA',
+    filePath: 'token:ALPACA',
     symbol: 'alpaca',
     name: 'Alpaca Finance',
     marketCapRank: 892,
@@ -577,7 +577,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'alpha-quark-token',
-    fileName: 'token:AQT',
+    filePath: 'token:AQT',
     symbol: 'aqt',
     name: 'Alpha Quark',
     marketCapRank: 764,
@@ -588,7 +588,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'altair',
-    fileName: 'token:AIR',
+    filePath: 'token:AIR',
     symbol: 'air',
     name: 'Altair',
     marketCapRank: 1299,
@@ -597,7 +597,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'alva',
-    fileName: 'token:AA',
+    filePath: 'token:AA',
     symbol: 'aa',
     name: 'ALVA',
     marketCapRank: 788,
@@ -608,7 +608,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'alvey-chain',
-    fileName: 'token:WALV',
+    filePath: 'token:WALV',
     symbol: 'walv',
     name: 'Alvey Chain',
     marketCapRank: 2288,
@@ -620,7 +620,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ambire-wallet',
-    fileName: 'token:WALLET',
+    filePath: 'token:WALLET',
     symbol: 'wallet',
     name: 'Ambire Wallet',
     marketCapRank: 1583,
@@ -632,7 +632,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ampleforth-governance-token',
-    fileName: 'token:FORTH',
+    filePath: 'token:FORTH',
     symbol: 'forth',
     name: 'Ampleforth Governance',
     marketCapRank: 649,
@@ -643,7 +643,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'angola',
-    fileName: 'token:AGLA',
+    filePath: 'token:AGLA',
     symbol: 'agla',
     name: 'Angola',
     marketCapRank: 1395,
@@ -655,7 +655,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'apecoin',
-    fileName: 'token:APE',
+    filePath: 'token:APE',
     symbol: 'ape',
     name: 'ApeCoin',
     marketCapRank: 97,
@@ -667,7 +667,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'apefi',
-    fileName: 'token:APEFI',
+    filePath: 'token:APEFI',
     symbol: 'apefi',
     name: 'apefi',
     marketCapRank: null,
@@ -676,7 +676,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'apex-token-2',
-    fileName: 'token:APEX',
+    filePath: 'token:APEX',
     symbol: 'apex',
     name: 'ApeX',
     marketCapRank: 412,
@@ -688,7 +688,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'apf-coin',
-    fileName: 'token:APFC',
+    filePath: 'token:APFC',
     symbol: 'apfc',
     name: 'APF coin',
     marketCapRank: 1787,
@@ -699,7 +699,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'apm-coin',
-    fileName: 'token:APM',
+    filePath: 'token:APM',
     symbol: 'apm',
     name: 'apM Coin',
     marketCapRank: 2050,
@@ -710,7 +710,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'apollo-2',
-    fileName: 'token:APOLLO',
+    filePath: 'token:APOLLO',
     symbol: 'apollo',
     name: 'Apollo',
     marketCapRank: 1317,
@@ -722,7 +722,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'apollon-limassol',
-    fileName: 'token:APL',
+    filePath: 'token:APL',
     symbol: 'apl',
     name: 'Apollon Limassol Fan Token',
     marketCapRank: 2001,
@@ -733,7 +733,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'apollox-2',
-    fileName: 'token:APX',
+    filePath: 'token:APX',
     symbol: 'apx',
     name: 'APX',
     marketCapRank: 663,
@@ -744,7 +744,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aptos',
-    fileName: 'token:APT',
+    filePath: 'token:APT',
     symbol: 'apt',
     name: 'Aptos',
     marketCapRank: 24,
@@ -755,7 +755,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'apwine',
-    fileName: 'token:APW',
+    filePath: 'token:APW',
     symbol: 'apw',
     name: 'Spectra',
     marketCapRank: 1162,
@@ -767,7 +767,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aqtis',
-    fileName: 'token:AQTIS',
+    filePath: 'token:AQTIS',
     symbol: 'aqtis',
     name: 'AQTIS',
     marketCapRank: 1073,
@@ -778,7 +778,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aquarius',
-    fileName: 'token:AQUA',
+    filePath: 'token:AQUA',
     symbol: 'aqua',
     name: 'Aquarius',
     marketCapRank: 1124,
@@ -789,7 +789,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aragon',
-    fileName: 'token:ANT',
+    filePath: 'token:ANT',
     symbol: 'ant',
     name: 'Aragon',
     marketCapRank: 236,
@@ -801,7 +801,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'arbitrum',
-    fileName: 'token:ARB',
+    filePath: 'token:ARB',
     symbol: 'arb',
     name: 'Arbitrum',
     marketCapRank: 32,
@@ -814,7 +814,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'arc',
-    fileName: 'token:ARC',
+    filePath: 'token:ARC',
     symbol: 'arc',
     name: 'Arc',
     marketCapRank: 567,
@@ -825,7 +825,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'arcblock',
-    fileName: 'token:ABT',
+    filePath: 'token:ABT',
     symbol: 'abt',
     name: 'Arcblock',
     marketCapRank: 343,
@@ -836,7 +836,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'archway',
-    fileName: 'token:ARCH',
+    filePath: 'token:ARCH',
     symbol: 'arch',
     name: 'Archway',
     marketCapRank: 745,
@@ -849,7 +849,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ardor',
-    fileName: 'token:ARDR',
+    filePath: 'token:ARDR',
     symbol: 'ardr',
     name: 'Ardor',
     marketCapRank: 431,
@@ -858,7 +858,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'areon-network',
-    fileName: 'token:AREA',
+    filePath: 'token:AREA',
     symbol: 'area',
     name: 'Areon Network',
     marketCapRank: 1339,
@@ -867,7 +867,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ari10',
-    fileName: 'token:ARI10',
+    filePath: 'token:ARI10',
     symbol: 'ari10',
     name: 'Ari10',
     marketCapRank: 1579,
@@ -878,7 +878,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'arianee',
-    fileName: 'token:ARIA20',
+    filePath: 'token:ARIA20',
     symbol: 'aria20',
     name: 'Arianee',
     marketCapRank: 1594,
@@ -890,7 +890,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'arix',
-    fileName: 'token:ARIX',
+    filePath: 'token:ARIX',
     symbol: 'arix',
     name: 'Arix',
     marketCapRank: 2127,
@@ -902,7 +902,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ark',
-    fileName: 'token:ARK',
+    filePath: 'token:ARK',
     symbol: 'ark',
     name: 'ARK',
     marketCapRank: 354,
@@ -911,7 +911,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'arkadiko-protocol',
-    fileName: 'token:DIKO',
+    filePath: 'token:DIKO',
     symbol: 'diko',
     name: 'Arkadiko',
     marketCapRank: 790,
@@ -922,7 +922,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'arkham',
-    fileName: 'token:ARKM',
+    filePath: 'token:ARKM',
     symbol: 'arkm',
     name: 'Arkham',
     marketCapRank: 180,
@@ -933,7 +933,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'arpa',
-    fileName: 'token:ARPA',
+    filePath: 'token:ARPA',
     symbol: 'arpa',
     name: 'ARPA',
     marketCapRank: 535,
@@ -946,7 +946,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'arthswap',
-    fileName: 'token:ARSW',
+    filePath: 'token:ARSW',
     symbol: 'arsw',
     name: 'ArthSwap',
     marketCapRank: 2351,
@@ -957,7 +957,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'artrade',
-    fileName: 'token:ATR',
+    filePath: 'token:ATR',
     symbol: 'atr',
     name: 'Artrade',
     marketCapRank: 480,
@@ -968,7 +968,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'arweave',
-    fileName: 'token:AR',
+    filePath: 'token:AR',
     symbol: 'ar',
     name: 'Arweave',
     marketCapRank: 53,
@@ -977,7 +977,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'assetmantle',
-    fileName: 'token:MNTL',
+    filePath: 'token:MNTL',
     symbol: 'mntl',
     name: 'AssetMantle',
     marketCapRank: 1750,
@@ -991,7 +991,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aston-villa-fan-token',
-    fileName: 'token:AVL',
+    filePath: 'token:AVL',
     symbol: 'avl',
     name: 'Aston Villa Fan Token',
     marketCapRank: 2573,
@@ -1002,7 +1002,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'atari',
-    fileName: 'token:ATRI',
+    filePath: 'token:ATRI',
     symbol: 'atri',
     name: 'Atari',
     marketCapRank: 2016,
@@ -1016,7 +1016,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'athenadao-token',
-    fileName: 'token:ATH',
+    filePath: 'token:ATH',
     symbol: 'ath',
     name: 'AthenaDAO',
     marketCapRank: 1593,
@@ -1027,7 +1027,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'atlas-navi',
-    fileName: 'token:NAVI',
+    filePath: 'token:NAVI',
     symbol: 'navi',
     name: 'Atlas Navi',
     marketCapRank: 831,
@@ -1038,7 +1038,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'atletico-madrid',
-    fileName: 'token:ATM',
+    filePath: 'token:ATM',
     symbol: 'atm',
     name: 'Atletico Madrid Fan Token',
     marketCapRank: 1327,
@@ -1049,7 +1049,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'atpay',
-    fileName: 'token:ATPAY',
+    filePath: 'token:ATPAY',
     symbol: 'atpay',
     name: 'AtPay',
     marketCapRank: 1328,
@@ -1060,7 +1060,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'auction',
-    fileName: 'token:AUCTION',
+    filePath: 'token:AUCTION',
     symbol: 'auction',
     name: 'Bounce',
     marketCapRank: 385,
@@ -1071,7 +1071,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'audius',
-    fileName: 'token:AUDIO',
+    filePath: 'token:AUDIO',
     symbol: 'audio',
     name: 'Audius',
     marketCapRank: 229,
@@ -1083,7 +1083,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'augur',
-    fileName: 'token:REP',
+    filePath: 'token:REP',
     symbol: 'rep',
     name: 'Augur',
     marketCapRank: 1478,
@@ -1095,7 +1095,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aura-bal',
-    fileName: 'token:AURABAL',
+    filePath: 'token:AURABAL',
     symbol: 'aurabal',
     name: 'Aura BAL',
     marketCapRank: 786,
@@ -1106,7 +1106,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aura-finance',
-    fileName: 'token:AURA',
+    filePath: 'token:AURA',
     symbol: 'aura',
     name: 'Aura Finance',
     marketCapRank: 906,
@@ -1118,7 +1118,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aurigami',
-    fileName: 'token:PLY',
+    filePath: 'token:PLY',
     symbol: 'ply',
     name: 'Aurigami',
     marketCapRank: 2303,
@@ -1132,7 +1132,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aurora-dao',
-    fileName: 'token:IDEX',
+    filePath: 'token:IDEX',
     symbol: 'idex',
     name: 'IDEX',
     marketCapRank: 605,
@@ -1144,7 +1144,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aurora-near',
-    fileName: 'token:AURORA',
+    filePath: 'token:AURORA',
     symbol: 'aurora',
     name: 'Aurora',
     marketCapRank: 388,
@@ -1158,7 +1158,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aurory',
-    fileName: 'token:AURY',
+    filePath: 'token:AURY',
     symbol: 'aury',
     name: 'Aurory',
     marketCapRank: 820,
@@ -1170,7 +1170,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'automata',
-    fileName: 'token:ATA',
+    filePath: 'token:ATA',
     symbol: 'ata',
     name: 'Automata',
     marketCapRank: 563,
@@ -1183,7 +1183,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'avalanche-2',
-    fileName: 'token:AVAX',
+    filePath: 'token:AVAX',
     symbol: 'avax',
     name: 'Avalanche',
     marketCapRank: 11,
@@ -1192,7 +1192,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'avalaunch',
-    fileName: 'token:XAVA',
+    filePath: 'token:XAVA',
     symbol: 'xava',
     name: 'Avalaunch',
     marketCapRank: 760,
@@ -1203,7 +1203,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'avaocado-dao',
-    fileName: 'token:AVG',
+    filePath: 'token:AVG',
     symbol: 'avg',
     name: 'Avocado DAO',
     marketCapRank: 2104,
@@ -1215,7 +1215,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aventus',
-    fileName: 'token:AVT',
+    filePath: 'token:AVT',
     symbol: 'avt',
     name: 'Aventus',
     marketCapRank: 806,
@@ -1226,7 +1226,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'aviator',
-    fileName: 'token:AVI',
+    filePath: 'token:AVI',
     symbol: 'avi',
     name: 'Aviator',
     marketCapRank: 890,
@@ -1237,7 +1237,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'avinoc',
-    fileName: 'token:AVINOC',
+    filePath: 'token:AVINOC',
     symbol: 'avinoc',
     name: 'AVINOC',
     marketCapRank: 1119,
@@ -1248,7 +1248,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'axe-cap',
-    fileName: 'token:AXE',
+    filePath: 'token:AXE',
     symbol: 'axe',
     name: 'Axe Cap',
     marketCapRank: 2384,
@@ -1259,7 +1259,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'axel',
-    fileName: 'token:AXEL',
+    filePath: 'token:AXEL',
     symbol: 'axel',
     name: 'AXEL',
     marketCapRank: 1398,
@@ -1268,7 +1268,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'axelar',
-    fileName: 'token:AXL',
+    filePath: 'token:AXL',
     symbol: 'axl',
     name: 'Axelar',
     marketCapRank: 99,
@@ -1290,7 +1290,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'axie-infinity',
-    fileName: 'token:AXS',
+    filePath: 'token:AXS',
     symbol: 'axs',
     name: 'Axie Infinity',
     marketCapRank: 78,
@@ -1305,7 +1305,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'azit',
-    fileName: 'token:AZIT',
+    filePath: 'token:AZIT',
     symbol: 'azit',
     name: 'azit',
     marketCapRank: 1234,
@@ -1316,7 +1316,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'b-cube-ai',
-    fileName: 'token:BCUBE',
+    filePath: 'token:BCUBE',
     symbol: 'bcube',
     name: 'B-cube.ai',
     marketCapRank: 1834,
@@ -1327,7 +1327,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'babb',
-    fileName: 'token:BAX',
+    filePath: 'token:BAX',
     symbol: 'bax',
     name: 'BABB',
     marketCapRank: 1358,
@@ -1338,7 +1338,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bananacat',
-    fileName: 'token:BCAT',
+    filePath: 'token:BCAT',
     symbol: 'bcat',
     name: 'BananaCat',
     marketCapRank: 2589,
@@ -1349,7 +1349,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bancor',
-    fileName: 'token:BNT',
+    filePath: 'token:BNT',
     symbol: 'bnt',
     name: 'Bancor Network',
     marketCapRank: 481,
@@ -1361,7 +1361,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'barnbridge',
-    fileName: 'token:BOND',
+    filePath: 'token:BOND',
     symbol: 'bond',
     name: 'BarnBridge',
     marketCapRank: 817,
@@ -1374,7 +1374,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'basic-attention-token',
-    fileName: 'token:BAT',
+    filePath: 'token:BAT',
     symbol: 'bat',
     name: 'Basic Attention',
     marketCapRank: 189,
@@ -1392,7 +1392,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'basilisk',
-    fileName: 'token:BSX',
+    filePath: 'token:BSX',
     symbol: 'bsx',
     name: 'Basilisk',
     marketCapRank: 1907,
@@ -1401,7 +1401,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bata',
-    fileName: 'token:BTA',
+    filePath: 'token:BTA',
     symbol: 'bta',
     name: 'Bata',
     marketCapRank: 2474,
@@ -1410,7 +1410,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'battle-infinity',
-    fileName: 'token:IBAT',
+    filePath: 'token:IBAT',
     symbol: 'ibat',
     name: 'Battle Infinity',
     marketCapRank: 2567,
@@ -1421,7 +1421,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bazaars',
-    fileName: 'token:BZR',
+    filePath: 'token:BZR',
     symbol: 'bzr',
     name: 'Bazaars',
     marketCapRank: 527,
@@ -1432,7 +1432,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'beam-2',
-    fileName: 'token:BEAM',
+    filePath: 'token:BEAM',
     symbol: 'beam',
     name: 'Beam',
     marketCapRank: 70,
@@ -1444,7 +1444,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bean',
-    fileName: 'token:BEAN',
+    filePath: 'token:BEAN',
     symbol: 'bean',
     name: 'Bean',
     marketCapRank: 813,
@@ -1455,7 +1455,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'beethoven-x',
-    fileName: 'token:BEETS',
+    filePath: 'token:BEETS',
     symbol: 'beets',
     name: 'Beethoven X',
     marketCapRank: 1535,
@@ -1467,7 +1467,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'beldex',
-    fileName: 'token:BDX',
+    filePath: 'token:BDX',
     symbol: 'bdx',
     name: 'Beldex',
     marketCapRank: 288,
@@ -1476,7 +1476,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bella-protocol',
-    fileName: 'token:BEL',
+    filePath: 'token:BEL',
     symbol: 'bel',
     name: 'Bella Protocol',
     marketCapRank: 715,
@@ -1489,7 +1489,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'belt',
-    fileName: 'token:BELT',
+    filePath: 'token:BELT',
     symbol: 'belt',
     name: 'Belt',
     marketCapRank: 2293,
@@ -1500,7 +1500,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ben-2',
-    fileName: 'token:BEN',
+    filePath: 'token:BEN',
     symbol: 'ben',
     name: 'Ben',
     marketCapRank: 1331,
@@ -1511,7 +1511,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'benddao',
-    fileName: 'token:BEND',
+    filePath: 'token:BEND',
     symbol: 'bend',
     name: 'BendDAO',
     marketCapRank: 1862,
@@ -1522,7 +1522,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'beoble',
-    fileName: 'token:BBL',
+    filePath: 'token:BBL',
     symbol: 'bbl',
     name: 'Beoble',
     marketCapRank: 1198,
@@ -1533,7 +1533,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bepro-network',
-    fileName: 'token:BEPRO',
+    filePath: 'token:BEPRO',
     symbol: 'bepro',
     name: 'Bepro',
     marketCapRank: 1317,
@@ -1544,7 +1544,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'berry',
-    fileName: 'token:BERRY',
+    filePath: 'token:BERRY',
     symbol: 'berry',
     name: 'Berry',
     marketCapRank: 1814,
@@ -1555,7 +1555,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'beta-finance',
-    fileName: 'token:BETA',
+    filePath: 'token:BETA',
     symbol: 'beta',
     name: 'Beta Finance',
     marketCapRank: 590,
@@ -1568,7 +1568,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'betswap-gg',
-    fileName: 'token:BSGG',
+    filePath: 'token:BSGG',
     symbol: 'bsgg',
     name: 'Betswap.gg',
     marketCapRank: 1903,
@@ -1581,7 +1581,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'biconomy-exchange-token',
-    fileName: 'token:BIT',
+    filePath: 'token:BIT',
     symbol: 'bit',
     name: 'Biconomy Exchange Token',
     marketCapRank: 2455,
@@ -1592,7 +1592,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'big-data-protocol',
-    fileName: 'token:BDP',
+    filePath: 'token:BDP',
     symbol: 'bdp',
     name: 'Big Data Protocol',
     marketCapRank: 1596,
@@ -1603,7 +1603,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bilira',
-    fileName: 'token:TRYB',
+    filePath: 'token:TRYB',
     symbol: 'tryb',
     name: 'BiLira',
     marketCapRank: 1022,
@@ -1618,7 +1618,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'binancecoin',
-    fileName: 'token:BNB',
+    filePath: 'token:BNB',
     symbol: 'bnb',
     name: 'BNB',
     marketCapRank: 4,
@@ -1629,7 +1629,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'binaryx',
-    fileName: 'token:BNX',
+    filePath: 'token:BNX',
     symbol: 'bnx',
     name: 'BinaryX [OLD]',
     marketCapRank: 2545,
@@ -1640,7 +1640,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bistroo',
-    fileName: 'token:BIST',
+    filePath: 'token:BIST',
     symbol: 'bist',
     name: 'Bistroo',
     marketCapRank: 2498,
@@ -1652,7 +1652,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'biswap',
-    fileName: 'token:BSW',
+    filePath: 'token:BSW',
     symbol: 'bsw',
     name: 'Biswap',
     marketCapRank: 632,
@@ -1663,7 +1663,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitcicoin',
-    fileName: 'token:BITCI',
+    filePath: 'token:BITCI',
     symbol: 'bitci',
     name: 'Bitcicoin',
     marketCapRank: 1361,
@@ -1672,7 +1672,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitcoin',
-    fileName: 'token:BTC',
+    filePath: 'token:BTC',
     symbol: 'btc',
     name: 'Bitcoin',
     marketCapRank: null,
@@ -1681,7 +1681,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitcoin-2',
-    fileName: 'token:BTC2',
+    filePath: 'token:BTC2',
     symbol: 'btc2',
     name: 'Bitcoin 2',
     marketCapRank: 1648,
@@ -1690,7 +1690,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitcoin-cash',
-    fileName: 'token:BCH',
+    filePath: 'token:BCH',
     symbol: 'bch',
     name: 'Bitcoin Cash',
     marketCapRank: 15,
@@ -1699,7 +1699,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitcoin-cash-sv',
-    fileName: 'token:BSV',
+    filePath: 'token:BSV',
     symbol: 'bsv',
     name: 'Bitcoin SV',
     marketCapRank: 65,
@@ -1708,7 +1708,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitcoin-diamond',
-    fileName: 'token:BCD',
+    filePath: 'token:BCD',
     symbol: 'bcd',
     name: 'Bitcoin Diamond',
     marketCapRank: 1048,
@@ -1717,7 +1717,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitcoin-gold',
-    fileName: 'token:BTG',
+    filePath: 'token:BTG',
     symbol: 'btg',
     name: 'Bitcoin Gold',
     marketCapRank: 122,
@@ -1726,7 +1726,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitcoin-pro',
-    fileName: 'token:BTCP',
+    filePath: 'token:BTCP',
     symbol: 'btcp',
     name: 'Bitcoin Pro',
     marketCapRank: 1722,
@@ -1737,7 +1737,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitcone',
-    fileName: 'token:CONE',
+    filePath: 'token:CONE',
     symbol: 'cone',
     name: 'BitCone',
     marketCapRank: 1986,
@@ -1748,7 +1748,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitkub-coin',
-    fileName: 'token:KUB',
+    filePath: 'token:KUB',
     symbol: 'kub',
     name: 'Bitkub Coin',
     marketCapRank: 313,
@@ -1757,7 +1757,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitmart-token',
-    fileName: 'token:BMX',
+    filePath: 'token:BMX',
     symbol: 'bmx',
     name: 'BitMart',
     marketCapRank: 521,
@@ -1768,7 +1768,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitmex-token',
-    fileName: 'token:BMEX',
+    filePath: 'token:BMEX',
     symbol: 'bmex',
     name: 'BitMEX',
     marketCapRank: 1028,
@@ -1779,7 +1779,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitrise-token',
-    fileName: 'token:BRISE',
+    filePath: 'token:BRISE',
     symbol: 'brise',
     name: 'Bitgert',
     marketCapRank: 534,
@@ -1791,7 +1791,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitrock',
-    fileName: 'token:BROCK',
+    filePath: 'token:BROCK',
     symbol: 'brock',
     name: 'Bitrock',
     marketCapRank: 1084,
@@ -1802,7 +1802,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bitshares',
-    fileName: 'token:BTS',
+    filePath: 'token:BTS',
     symbol: 'bts',
     name: 'BitShares',
     marketCapRank: 1443,
@@ -1811,7 +1811,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bittensor',
-    fileName: 'token:TAO',
+    filePath: 'token:TAO',
     symbol: 'tao',
     name: 'Bittensor',
     marketCapRank: 44,
@@ -1820,7 +1820,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blackdragon-token',
-    fileName: 'token:BDT',
+    filePath: 'token:BDT',
     symbol: 'bdt',
     name: 'BlackDragon',
     marketCapRank: null,
@@ -1831,7 +1831,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blacksmith-token',
-    fileName: 'token:BS',
+    filePath: 'token:BS',
     symbol: 'bs',
     name: 'Blacksmith Token',
     marketCapRank: 2848,
@@ -1842,7 +1842,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blank',
-    fileName: 'token:BLANK',
+    filePath: 'token:BLANK',
     symbol: 'blank',
     name: 'BlockWallet',
     marketCapRank: 2517,
@@ -1854,7 +1854,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blastar',
-    fileName: 'token:BLAST',
+    filePath: 'token:BLAST',
     symbol: 'blast',
     name: 'Blastar',
     marketCapRank: 2530,
@@ -1865,7 +1865,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blockasset',
-    fileName: 'token:BLOCK',
+    filePath: 'token:BLOCK',
     symbol: 'block',
     name: 'Blockasset',
     marketCapRank: 1212,
@@ -1877,7 +1877,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blockbank',
-    fileName: 'token:BBANK',
+    filePath: 'token:BBANK',
     symbol: 'bbank',
     name: 'blockbank',
     marketCapRank: 2930,
@@ -1889,7 +1889,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blockchain-bets',
-    fileName: 'token:BCB',
+    filePath: 'token:BCB',
     symbol: 'bcb',
     name: 'Blockchain Bets',
     marketCapRank: 1192,
@@ -1900,7 +1900,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blockchain-brawlers',
-    fileName: 'token:BRWL',
+    filePath: 'token:BRWL',
     symbol: 'brwl',
     name: 'Blockchain Brawlers',
     marketCapRank: 1442,
@@ -1911,7 +1911,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blockchain-certified-data-token',
-    fileName: 'token:BCDT',
+    filePath: 'token:BCDT',
     symbol: 'bcdt',
     name: 'EvidenZ',
     marketCapRank: 2475,
@@ -1923,7 +1923,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blockchain-monster-hunt',
-    fileName: 'token:BCMC',
+    filePath: 'token:BCMC',
     symbol: 'bcmc',
     name: 'Blockchain Monster Hunt',
     marketCapRank: 2373,
@@ -1936,7 +1936,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blockchainspace',
-    fileName: 'token:GUILD',
+    filePath: 'token:GUILD',
     symbol: 'guild',
     name: 'BlockchainSpace',
     marketCapRank: 2108,
@@ -1949,7 +1949,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blocksquare',
-    fileName: 'token:BST',
+    filePath: 'token:BST',
     symbol: 'bst',
     name: 'Blocksquare',
     marketCapRank: 883,
@@ -1960,7 +1960,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blockstack',
-    fileName: 'token:STX',
+    filePath: 'token:STX',
     symbol: 'stx',
     name: 'Stacks',
     marketCapRank: 27,
@@ -1969,7 +1969,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blockv',
-    fileName: 'token:VEE',
+    filePath: 'token:VEE',
     symbol: 'vee',
     name: 'BLOCKv',
     marketCapRank: 1006,
@@ -1982,7 +1982,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blocto-token',
-    fileName: 'token:BLT',
+    filePath: 'token:BLT',
     symbol: 'blt',
     name: 'Blocto',
     marketCapRank: 1694,
@@ -1993,7 +1993,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blocx-3',
-    fileName: 'token:BLX',
+    filePath: 'token:BLX',
     symbol: 'blx',
     name: 'BlocX',
     marketCapRank: 2644,
@@ -2004,7 +2004,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blox',
-    fileName: 'token:CDT',
+    filePath: 'token:CDT',
     symbol: 'cdt',
     name: 'Blox',
     marketCapRank: 202,
@@ -2015,7 +2015,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blox-2',
-    fileName: 'token:BLOX',
+    filePath: 'token:BLOX',
     symbol: 'blox',
     name: 'BLOX',
     marketCapRank: 2240,
@@ -2026,7 +2026,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bloxmove-erc20',
-    fileName: 'token:BLXM',
+    filePath: 'token:BLXM',
     symbol: 'blxm',
     name: 'bloXmove',
     marketCapRank: 2078,
@@ -2038,7 +2038,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bluemove',
-    fileName: 'token:MOVE',
+    filePath: 'token:MOVE',
     symbol: 'move',
     name: 'BlueMove',
     marketCapRank: 1608,
@@ -2051,7 +2051,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bluesparrow',
-    fileName: 'token:BLUESPARROW',
+    filePath: 'token:BLUESPARROW',
     symbol: 'bluesparrow',
     name: 'BlueSparrow',
     marketCapRank: 2241,
@@ -2062,7 +2062,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'blur',
-    fileName: 'token:BLUR',
+    filePath: 'token:BLUR',
     symbol: 'blur',
     name: 'Blur',
     marketCapRank: 121,
@@ -2073,7 +2073,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bluzelle',
-    fileName: 'token:BLZ',
+    filePath: 'token:BLZ',
     symbol: 'blz',
     name: 'Bluzelle',
     marketCapRank: 386,
@@ -2086,7 +2086,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bnb48-club-token',
-    fileName: 'token:KOGE',
+    filePath: 'token:KOGE',
     symbol: 'koge',
     name: 'KOGE',
     marketCapRank: 681,
@@ -2097,7 +2097,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bob-token',
-    fileName: 'token:BOB',
+    filePath: 'token:BOB',
     symbol: 'bob',
     name: 'BOB Token',
     marketCapRank: 1071,
@@ -2108,7 +2108,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'boba-network',
-    fileName: 'token:BOBA',
+    filePath: 'token:BOBA',
     symbol: 'boba',
     name: 'Boba Network',
     marketCapRank: 332,
@@ -2120,7 +2120,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bolide',
-    fileName: 'token:BLID',
+    filePath: 'token:BLID',
     symbol: 'blid',
     name: 'Bolide',
     marketCapRank: 1461,
@@ -2134,7 +2134,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bolt',
-    fileName: 'token:BOLT',
+    filePath: 'token:BOLT',
     symbol: 'bolt',
     name: 'Bolt',
     marketCapRank: 1945,
@@ -2145,7 +2145,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bomber-coin',
-    fileName: 'token:BCOIN',
+    filePath: 'token:BCOIN',
     symbol: 'bcoin',
     name: 'BombCrypto',
     marketCapRank: 1703,
@@ -2156,7 +2156,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bonfida',
-    fileName: 'token:FIDA',
+    filePath: 'token:FIDA',
     symbol: 'fida',
     name: 'Bonfida',
     marketCapRank: 620,
@@ -2167,7 +2167,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'boosted-lusd',
-    fileName: 'token:BLUSD',
+    filePath: 'token:BLUSD',
     symbol: 'blusd',
     name: 'Boosted LUSD',
     marketCapRank: 1829,
@@ -2178,7 +2178,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bosagora',
-    fileName: 'token:BOA',
+    filePath: 'token:BOA',
     symbol: 'boa',
     name: 'BOSagora',
     marketCapRank: 1425,
@@ -2189,7 +2189,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bountymarketcap',
-    fileName: 'token:BMC',
+    filePath: 'token:BMC',
     symbol: 'bmc',
     name: 'BountyMarketCap',
     marketCapRank: 1614,
@@ -2200,7 +2200,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'brick',
-    fileName: 'token:BRICK',
+    filePath: 'token:BRICK',
     symbol: 'brick',
     name: 'r/FortNiteBR Bricks',
     marketCapRank: 1550,
@@ -2211,7 +2211,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'brickken',
-    fileName: 'token:BKN',
+    filePath: 'token:BKN',
     symbol: 'bkn',
     name: 'Brickken',
     marketCapRank: 1044,
@@ -2223,7 +2223,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bridge-oracle',
-    fileName: 'token:BRG',
+    filePath: 'token:BRG',
     symbol: 'brg',
     name: 'Bridge Oracle',
     marketCapRank: 1592,
@@ -2237,7 +2237,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'brn-metaverse',
-    fileName: 'token:BRN',
+    filePath: 'token:BRN',
     symbol: 'brn',
     name: 'BRN Metaverse',
     marketCapRank: 1299,
@@ -2248,7 +2248,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bsc-station',
-    fileName: 'token:BSCS',
+    filePath: 'token:BSCS',
     symbol: 'bscs',
     name: 'BSCS',
     marketCapRank: 2168,
@@ -2259,7 +2259,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bscpad',
-    fileName: 'token:BSCPAD',
+    filePath: 'token:BSCPAD',
     symbol: 'bscpad',
     name: 'BSCPAD',
     marketCapRank: 1312,
@@ -2270,7 +2270,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'btc-standard-hashrate-token',
-    fileName: 'token:BTCST',
+    filePath: 'token:BTCST',
     symbol: 'btcst',
     name: 'BTC Standard Hashrate Token',
     marketCapRank: 1972,
@@ -2281,7 +2281,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'btse-token',
-    fileName: 'token:BTSE',
+    filePath: 'token:BTSE',
     symbol: 'btse',
     name: 'BTSE Token',
     marketCapRank: 446,
@@ -2292,7 +2292,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bullperks',
-    fileName: 'token:BLP',
+    filePath: 'token:BLP',
     symbol: 'blp',
     name: 'BullPerks',
     marketCapRank: 1813,
@@ -2303,7 +2303,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'burrow',
-    fileName: 'token:BRRR',
+    filePath: 'token:BRRR',
     symbol: 'brrr',
     name: 'Burrow',
     marketCapRank: 1756,
@@ -2314,7 +2314,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bware-infra',
-    fileName: 'token:INFRA',
+    filePath: 'token:INFRA',
     symbol: 'infra',
     name: 'Bware',
     marketCapRank: 1824,
@@ -2326,7 +2326,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'byteball',
-    fileName: 'token:GBYTE',
+    filePath: 'token:GBYTE',
     symbol: 'gbyte',
     name: 'Obyte',
     marketCapRank: 1250,
@@ -2340,7 +2340,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bytecoin',
-    fileName: 'token:BCN',
+    filePath: 'token:BCN',
     symbol: 'bcn',
     name: 'Bytecoin',
     marketCapRank: 1660,
@@ -2349,7 +2349,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bytom',
-    fileName: 'token:BTM',
+    filePath: 'token:BTM',
     symbol: 'btm',
     name: 'Bytom',
     marketCapRank: 1130,
@@ -2358,7 +2358,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'bzx-protocol',
-    fileName: 'token:BZRX',
+    filePath: 'token:BZRX',
     symbol: 'bzrx',
     name: 'bZx Protocol',
     marketCapRank: 992,
@@ -2370,7 +2370,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cakepie-xyz',
-    fileName: 'token:CKP',
+    filePath: 'token:CKP',
     symbol: 'ckp',
     name: 'Cakepie',
     marketCapRank: 1140,
@@ -2381,7 +2381,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'calamari-network',
-    fileName: 'token:KMA',
+    filePath: 'token:KMA',
     symbol: 'kma',
     name: 'Calamari Network',
     marketCapRank: 1783,
@@ -2390,7 +2390,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'calaxy',
-    fileName: 'token:CLXY',
+    filePath: 'token:CLXY',
     symbol: 'clxy',
     name: 'Calaxy',
     marketCapRank: 1603,
@@ -2401,7 +2401,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'camelot-token',
-    fileName: 'token:GRAIL',
+    filePath: 'token:GRAIL',
     symbol: 'grail',
     name: 'Camelot Token',
     marketCapRank: 855,
@@ -2412,7 +2412,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'canto',
-    fileName: 'token:CANTO',
+    filePath: 'token:CANTO',
     symbol: 'canto',
     name: 'CANTO',
     marketCapRank: 358,
@@ -2424,7 +2424,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cap',
-    fileName: 'token:CAP',
+    filePath: 'token:CAP',
     symbol: 'cap',
     name: 'Cap',
     marketCapRank: 2574,
@@ -2436,7 +2436,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'carbify',
-    fileName: 'token:CBY',
+    filePath: 'token:CBY',
     symbol: 'cby',
     name: 'Carbify',
     marketCapRank: 898,
@@ -2448,7 +2448,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'carbon',
-    fileName: 'token:CARBON',
+    filePath: 'token:CARBON',
     symbol: 'carbon',
     name: 'Carbon',
     marketCapRank: 2627,
@@ -2459,7 +2459,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'carbon-browser',
-    fileName: 'token:CSIX',
+    filePath: 'token:CSIX',
     symbol: 'csix',
     name: 'Carbon Browser',
     marketCapRank: 950,
@@ -2471,7 +2471,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'carbon-credit',
-    fileName: 'token:CCT',
+    filePath: 'token:CCT',
     symbol: 'cct',
     name: 'Carbon Credit',
     marketCapRank: 1921,
@@ -2482,7 +2482,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cardano',
-    fileName: 'token:ADA',
+    filePath: 'token:ADA',
     symbol: 'ada',
     name: 'Cardano',
     marketCapRank: 10,
@@ -2491,7 +2491,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cardstack',
-    fileName: 'token:CARD',
+    filePath: 'token:CARD',
     symbol: 'card',
     name: 'Cardstack',
     marketCapRank: 2272,
@@ -2502,7 +2502,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cargox',
-    fileName: 'token:CXO',
+    filePath: 'token:CXO',
     symbol: 'cxo',
     name: 'CargoX',
     marketCapRank: 1271,
@@ -2514,7 +2514,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'carry',
-    fileName: 'token:CRE',
+    filePath: 'token:CRE',
     symbol: 'cre',
     name: 'Carry',
     marketCapRank: 596,
@@ -2525,7 +2525,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cartesi',
-    fileName: 'token:CTSI',
+    filePath: 'token:CTSI',
     symbol: 'ctsi',
     name: 'Cartesi',
     marketCapRank: 298,
@@ -2541,7 +2541,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cashaa',
-    fileName: 'token:CAS',
+    filePath: 'token:CAS',
     symbol: 'cas',
     name: 'Cashaa',
     marketCapRank: 2057,
@@ -2552,7 +2552,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'casper-network',
-    fileName: 'token:CSPR',
+    filePath: 'token:CSPR',
     symbol: 'cspr',
     name: 'Casper Network',
     marketCapRank: 199,
@@ -2561,7 +2561,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'castello-coin',
-    fileName: 'token:CAST',
+    filePath: 'token:CAST',
     symbol: 'cast',
     name: 'Castello Coin',
     marketCapRank: 1102,
@@ -2572,7 +2572,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'catapult',
-    fileName: 'token:ATD',
+    filePath: 'token:ATD',
     symbol: 'atd',
     name: 'A2DAO',
     marketCapRank: 2620,
@@ -2584,7 +2584,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'catcoin-cash',
-    fileName: 'token:CAT',
+    filePath: 'token:CAT',
     symbol: 'cat',
     name: 'Catcoin',
     marketCapRank: 841,
@@ -2597,7 +2597,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'catgirl',
-    fileName: 'token:CATGIRL',
+    filePath: 'token:CATGIRL',
     symbol: 'catgirl',
     name: 'Catgirl',
     marketCapRank: 1031,
@@ -2608,7 +2608,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'catheon-gaming',
-    fileName: 'token:CATHEON',
+    filePath: 'token:CATHEON',
     symbol: 'catheon',
     name: 'Catheon Gaming',
     marketCapRank: 2305,
@@ -2619,7 +2619,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'caviar',
-    fileName: 'token:CVR',
+    filePath: 'token:CVR',
     symbol: 'cvr',
     name: 'Caviar',
     marketCapRank: 2319,
@@ -2630,7 +2630,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cdai',
-    fileName: 'token:CDAI',
+    filePath: 'token:CDAI',
     symbol: 'cdai',
     name: 'cDAI',
     marketCapRank: 639,
@@ -2641,7 +2641,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ceek',
-    fileName: 'token:CEEK',
+    filePath: 'token:CEEK',
     symbol: 'ceek',
     name: 'CEEK Smart VR',
     marketCapRank: 605,
@@ -2653,7 +2653,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'celer-network',
-    fileName: 'token:CELR',
+    filePath: 'token:CELR',
     symbol: 'celr',
     name: 'Celer Network',
     marketCapRank: 362,
@@ -2666,7 +2666,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'celestia',
-    fileName: 'token:TIA',
+    filePath: 'token:TIA',
     symbol: 'tia',
     name: 'Celestia',
     marketCapRank: 52,
@@ -2679,7 +2679,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cellframe',
-    fileName: 'token:CELL',
+    filePath: 'token:CELL',
     symbol: 'cell',
     name: 'Cellframe',
     marketCapRank: 801,
@@ -2691,7 +2691,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'celo',
-    fileName: 'token:CELO',
+    filePath: 'token:CELO',
     symbol: 'celo',
     name: 'Celo',
     marketCapRank: 154,
@@ -2702,7 +2702,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'celo-dollar',
-    fileName: 'token:CUSD',
+    filePath: 'token:CUSD',
     symbol: 'cusd',
     name: 'Celo Dollar',
     marketCapRank: 889,
@@ -2714,7 +2714,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'celo-euro',
-    fileName: 'token:CEUR',
+    filePath: 'token:CEUR',
     symbol: 'ceur',
     name: 'Celo Euro',
     marketCapRank: 1497,
@@ -2725,7 +2725,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'celsius-degree-token',
-    fileName: 'token:CEL',
+    filePath: 'token:CEL',
     symbol: 'cel',
     name: 'Celsius Network',
     marketCapRank: 476,
@@ -2740,7 +2740,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'centrifuge',
-    fileName: 'token:CFG',
+    filePath: 'token:CFG',
     symbol: 'cfg',
     name: 'Centrifuge',
     marketCapRank: 204,
@@ -2749,7 +2749,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cere-network',
-    fileName: 'token:CERE',
+    filePath: 'token:CERE',
     symbol: 'cere',
     name: 'Cere Network',
     marketCapRank: 677,
@@ -2760,7 +2760,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'certik',
-    fileName: 'token:CTK',
+    filePath: 'token:CTK',
     symbol: 'ctk',
     name: 'Shentu',
     marketCapRank: 442,
@@ -2769,7 +2769,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cetus-protocol',
-    fileName: 'token:CETUS',
+    filePath: 'token:CETUS',
     symbol: 'cetus',
     name: 'Cetus Protocol',
     marketCapRank: 699,
@@ -2780,7 +2780,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'chain-games',
-    fileName: 'token:CHAIN',
+    filePath: 'token:CHAIN',
     symbol: 'chain',
     name: 'Chain Games',
     marketCapRank: 1721,
@@ -2794,7 +2794,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'chain-guardians',
-    fileName: 'token:CGG',
+    filePath: 'token:CGG',
     symbol: 'cgg',
     name: 'Chain Guardians',
     marketCapRank: 1875,
@@ -2807,7 +2807,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'chaingpt',
-    fileName: 'token:CGPT',
+    filePath: 'token:CGPT',
     symbol: 'cgpt',
     name: 'ChainGPT',
     marketCapRank: 407,
@@ -2819,7 +2819,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'chainlink',
-    fileName: 'token:LINK',
+    filePath: 'token:LINK',
     symbol: 'link',
     name: 'Chainlink',
     marketCapRank: 16,
@@ -2846,7 +2846,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'chainport',
-    fileName: 'token:PORTX',
+    filePath: 'token:PORTX',
     symbol: 'portx',
     name: 'ChainPort',
     marketCapRank: 2446,
@@ -2858,7 +2858,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'champignons-of-arborethia',
-    fileName: 'token:CHAMPZ',
+    filePath: 'token:CHAMPZ',
     symbol: 'champz',
     name: 'Champignons of Arborethia',
     marketCapRank: 1660,
@@ -2869,7 +2869,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'charged-particles',
-    fileName: 'token:IONX',
+    filePath: 'token:IONX',
     symbol: 'ionx',
     name: 'Charged Particles',
     marketCapRank: 2468,
@@ -2880,7 +2880,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'charli3',
-    fileName: 'token:C3',
+    filePath: 'token:C3',
     symbol: 'c3',
     name: 'Charli3',
     marketCapRank: 1917,
@@ -2891,7 +2891,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cheems',
-    fileName: 'token:CHEEMS',
+    filePath: 'token:CHEEMS',
     symbol: 'cheems',
     name: 'Cheems',
     marketCapRank: 2218,
@@ -2902,7 +2902,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cheqd-network',
-    fileName: 'token:CHEQ',
+    filePath: 'token:CHEQ',
     symbol: 'cheq',
     name: 'CHEQD Network',
     marketCapRank: 632,
@@ -2913,7 +2913,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'chia',
-    fileName: 'token:XCH',
+    filePath: 'token:XCH',
     symbol: 'xch',
     name: 'Chia',
     marketCapRank: 209,
@@ -2922,7 +2922,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'chihuahua-token',
-    fileName: 'token:HUAHUA',
+    filePath: 'token:HUAHUA',
     symbol: 'huahua',
     name: 'Chihuahua Chain',
     marketCapRank: 1228,
@@ -2934,7 +2934,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'chiliz',
-    fileName: 'token:CHZ',
+    filePath: 'token:CHZ',
     symbol: 'chz',
     name: 'Chiliz',
     marketCapRank: 89,
@@ -2946,7 +2946,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'chirpley',
-    fileName: 'token:CHRP',
+    filePath: 'token:CHRP',
     symbol: 'chrp',
     name: 'Chirpley',
     marketCapRank: 1275,
@@ -2958,7 +2958,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'choise',
-    fileName: 'token:CHO',
+    filePath: 'token:CHO',
     symbol: 'cho',
     name: 'Choise.com',
     marketCapRank: 1721,
@@ -2969,7 +2969,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'chromaway',
-    fileName: 'token:CHR',
+    filePath: 'token:CHR',
     symbol: 'chr',
     name: 'Chromia',
     marketCapRank: 228,
@@ -2981,7 +2981,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'chronobank',
-    fileName: 'token:TIME',
+    filePath: 'token:TIME',
     symbol: 'time',
     name: 'chrono.tech',
     marketCapRank: 1109,
@@ -2993,7 +2993,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'chumbai-valley',
-    fileName: 'token:CHMB',
+    filePath: 'token:CHMB',
     symbol: 'chmb',
     name: 'Chumbi Valley',
     marketCapRank: 1692,
@@ -3004,7 +3004,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cindicator',
-    fileName: 'token:CND',
+    filePath: 'token:CND',
     symbol: 'cnd',
     name: 'Cindicator',
     marketCapRank: 2437,
@@ -3015,7 +3015,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'circuits-of-value',
-    fileName: 'token:COVAL',
+    filePath: 'token:COVAL',
     symbol: 'coval',
     name: 'Circuits of Value',
     marketCapRank: 695,
@@ -3030,7 +3030,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cirus',
-    fileName: 'token:CIRUS',
+    filePath: 'token:CIRUS',
     symbol: 'cirus',
     name: 'Cirus',
     marketCapRank: 1949,
@@ -3041,7 +3041,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'city-tycoon-games',
-    fileName: 'token:CTG',
+    filePath: 'token:CTG',
     symbol: 'ctg',
     name: 'City Tycoon Games',
     marketCapRank: 2454,
@@ -3052,7 +3052,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'civic',
-    fileName: 'token:CVC',
+    filePath: 'token:CVC',
     symbol: 'cvc',
     name: 'Civic',
     marketCapRank: 374,
@@ -3065,7 +3065,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cjournal',
-    fileName: 'token:UCJL',
+    filePath: 'token:UCJL',
     symbol: 'ucjl',
     name: 'Utility Cjournal',
     marketCapRank: 2343,
@@ -3076,7 +3076,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'clash-of-lilliput',
-    fileName: 'token:COL',
+    filePath: 'token:COL',
     symbol: 'col',
     name: 'Clash of Lilliput',
     marketCapRank: 635,
@@ -3087,7 +3087,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cleardao',
-    fileName: 'token:CLH',
+    filePath: 'token:CLH',
     symbol: 'clh',
     name: 'ClearDAO',
     marketCapRank: 2414,
@@ -3098,7 +3098,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'clearpool',
-    fileName: 'token:CPOOL',
+    filePath: 'token:CPOOL',
     symbol: 'cpool',
     name: 'Clearpool',
     marketCapRank: 446,
@@ -3109,7 +3109,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'clintex-cti',
-    fileName: 'token:CTI',
+    filePath: 'token:CTI',
     symbol: 'cti',
     name: 'ClinTex CTi',
     marketCapRank: 1855,
@@ -3123,7 +3123,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'clore-ai',
-    fileName: 'token:CLORE',
+    filePath: 'token:CLORE',
     symbol: 'clore',
     name: 'Clore.ai',
     marketCapRank: 547,
@@ -3132,7 +3132,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'clover-finance',
-    fileName: 'token:CLV',
+    filePath: 'token:CLV',
     symbol: 'clv',
     name: 'Clover Finance',
     marketCapRank: 517,
@@ -3144,7 +3144,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cnh-tether',
-    fileName: 'token:CNHT',
+    filePath: 'token:CNHT',
     symbol: 'cnht',
     name: 'CNH Tether',
     marketCapRank: 2125,
@@ -3155,7 +3155,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cocktailbar',
-    fileName: 'token:COC',
+    filePath: 'token:COC',
     symbol: 'coc',
     name: 'The Cocktailbar',
     marketCapRank: 1961,
@@ -3166,7 +3166,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cocos-bcx',
-    fileName: 'token:COMBO',
+    filePath: 'token:COMBO',
     symbol: 'combo',
     name: 'COMBO',
     marketCapRank: 600,
@@ -3178,7 +3178,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'coin-capsule',
-    fileName: 'token:CAPS',
+    filePath: 'token:CAPS',
     symbol: 'caps',
     name: 'Ternoa',
     marketCapRank: 847,
@@ -3190,7 +3190,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'coin98',
-    fileName: 'token:C98',
+    filePath: 'token:C98',
     symbol: 'c98',
     name: 'Coin98',
     marketCapRank: 302,
@@ -3205,7 +3205,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'coinbase-wrapped-staked-eth',
-    fileName: 'token:CBETH',
+    filePath: 'token:CBETH',
     symbol: 'cbeth',
     name: 'Coinbase Wrapped Staked ETH',
     marketCapRank: 153,
@@ -3220,7 +3220,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'coinmerge-os',
-    fileName: 'token:CMOS',
+    filePath: 'token:CMOS',
     symbol: 'cmos',
     name: 'CoinMerge OS',
     marketCapRank: 2742,
@@ -3231,7 +3231,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'coinmetro',
-    fileName: 'token:XCM',
+    filePath: 'token:XCM',
     symbol: 'xcm',
     name: 'Coinmetro',
     marketCapRank: 1065,
@@ -3242,7 +3242,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'coinnavigator',
-    fileName: 'token:CNG',
+    filePath: 'token:CNG',
     symbol: 'cng',
     name: 'CoinNavigator',
     marketCapRank: 1905,
@@ -3253,7 +3253,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'coinweb',
-    fileName: 'token:CWEB',
+    filePath: 'token:CWEB',
     symbol: 'cweb',
     name: 'Coinweb',
     marketCapRank: 686,
@@ -3264,7 +3264,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'coldstack',
-    fileName: 'token:CLS',
+    filePath: 'token:CLS',
     symbol: 'cls',
     name: 'Coldstack',
     marketCapRank: 1762,
@@ -3276,7 +3276,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'collab-land',
-    fileName: 'token:COLLAB',
+    filePath: 'token:COLLAB',
     symbol: 'collab',
     name: 'Collab.Land',
     marketCapRank: 2462,
@@ -3287,7 +3287,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'colony',
-    fileName: 'token:CLY',
+    filePath: 'token:CLY',
     symbol: 'cly',
     name: 'Colony',
     marketCapRank: 1008,
@@ -3298,7 +3298,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'comdex',
-    fileName: 'token:CMDX',
+    filePath: 'token:CMDX',
     symbol: 'cmdx',
     name: 'COMDEX',
     marketCapRank: 1733,
@@ -3313,7 +3313,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'compound-governance-token',
-    fileName: 'token:COMP',
+    filePath: 'token:COMP',
     symbol: 'comp',
     name: 'Compound',
     marketCapRank: 181,
@@ -3333,7 +3333,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'compound-usd-coin',
-    fileName: 'token:CUSDC',
+    filePath: 'token:CUSDC',
     symbol: 'cusdc',
     name: 'cUSDC',
     marketCapRank: 636,
@@ -3344,7 +3344,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'comtech-gold',
-    fileName: 'token:CGO',
+    filePath: 'token:CGO',
     symbol: 'cgo',
     name: 'Comtech Gold',
     marketCapRank: 1473,
@@ -3355,7 +3355,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'concentrated-voting-power',
-    fileName: 'token:CVP',
+    filePath: 'token:CVP',
     symbol: 'cvp',
     name: 'PowerPool Concentrated Voting Power',
     marketCapRank: 1163,
@@ -3366,7 +3366,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'concentrator',
-    fileName: 'token:CTR',
+    filePath: 'token:CTR',
     symbol: 'ctr',
     name: 'Concentrator',
     marketCapRank: 2765,
@@ -3377,7 +3377,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'concierge-io',
-    fileName: 'token:AVA',
+    filePath: 'token:AVA',
     symbol: 'ava',
     name: 'AVA',
     marketCapRank: 780,
@@ -3389,7 +3389,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'concordium',
-    fileName: 'token:CCD',
+    filePath: 'token:CCD',
     symbol: 'ccd',
     name: 'Concordium',
     marketCapRank: 793,
@@ -3398,7 +3398,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'conflux-token',
-    fileName: 'token:CFX',
+    filePath: 'token:CFX',
     symbol: 'cfx',
     name: 'Conflux',
     marketCapRank: 69,
@@ -3407,7 +3407,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'conic-finance',
-    fileName: 'token:CNC',
+    filePath: 'token:CNC',
     symbol: 'cnc',
     name: 'Conic',
     marketCapRank: 1865,
@@ -3418,7 +3418,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'connect-financial',
-    fileName: 'token:CNFI',
+    filePath: 'token:CNFI',
     symbol: 'cnfi',
     name: 'Connect Financial',
     marketCapRank: 2211,
@@ -3430,7 +3430,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'constellation-labs',
-    fileName: 'token:DAG',
+    filePath: 'token:DAG',
     symbol: 'dag',
     name: 'Constellation',
     marketCapRank: 355,
@@ -3439,7 +3439,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'constitutiondao',
-    fileName: 'token:PEOPLE',
+    filePath: 'token:PEOPLE',
     symbol: 'people',
     name: 'ConstitutionDAO',
     marketCapRank: 349,
@@ -3450,7 +3450,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'contentos',
-    fileName: 'token:COS',
+    filePath: 'token:COS',
     symbol: 'cos',
     name: 'Contentos',
     marketCapRank: 757,
@@ -3461,7 +3461,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'convergence',
-    fileName: 'token:CONV',
+    filePath: 'token:CONV',
     symbol: 'conv',
     name: 'Convergence',
     marketCapRank: 2157,
@@ -3472,7 +3472,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cope',
-    fileName: 'token:COPE',
+    filePath: 'token:COPE',
     symbol: 'cope',
     name: 'Cope',
     marketCapRank: 2330,
@@ -3483,7 +3483,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'coredaoorg',
-    fileName: 'token:CORE',
+    filePath: 'token:CORE',
     symbol: 'core',
     name: 'Core',
     marketCapRank: 112,
@@ -3492,7 +3492,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cornucopias',
-    fileName: 'token:COPI',
+    filePath: 'token:COPI',
     symbol: 'copi',
     name: 'Cornucopias',
     marketCapRank: 619,
@@ -3505,7 +3505,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cortex',
-    fileName: 'token:CTXC',
+    filePath: 'token:CTXC',
     symbol: 'ctxc',
     name: 'Cortex',
     marketCapRank: 513,
@@ -3514,7 +3514,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cosmos',
-    fileName: 'token:ATOM',
+    filePath: 'token:ATOM',
     symbol: 'atom',
     name: 'Cosmos Hub',
     marketCapRank: 29,
@@ -3532,7 +3532,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'coti',
-    fileName: 'token:COTI',
+    filePath: 'token:COTI',
     symbol: 'coti',
     name: 'COTI',
     marketCapRank: 274,
@@ -3543,7 +3543,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'counterparty',
-    fileName: 'token:XCP',
+    filePath: 'token:XCP',
     symbol: 'xcp',
     name: 'Counterparty',
     marketCapRank: 1070,
@@ -3552,7 +3552,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'covalent',
-    fileName: 'token:CQT',
+    filePath: 'token:CQT',
     symbol: 'cqt',
     name: 'Covalent',
     marketCapRank: 339,
@@ -3563,7 +3563,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'covesting',
-    fileName: 'token:COV',
+    filePath: 'token:COV',
     symbol: 'cov',
     name: 'Covesting',
     marketCapRank: 2782,
@@ -3575,7 +3575,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cow-protocol',
-    fileName: 'token:COW',
+    filePath: 'token:COW',
     symbol: 'cow',
     name: 'CoW Protocol',
     marketCapRank: 639,
@@ -3587,7 +3587,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cratos',
-    fileName: 'token:CRTS',
+    filePath: 'token:CRTS',
     symbol: 'crts',
     name: 'Cratos',
     marketCapRank: 640,
@@ -3599,7 +3599,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cream-2',
-    fileName: 'token:CREAM',
+    filePath: 'token:CREAM',
     symbol: 'cream',
     name: 'Cream',
     marketCapRank: 1121,
@@ -3616,7 +3616,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'credefi',
-    fileName: 'token:CREDI',
+    filePath: 'token:CREDI',
     symbol: 'credi',
     name: 'Credefi',
     marketCapRank: 1122,
@@ -3628,7 +3628,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'creditcoin-2',
-    fileName: 'token:CTC',
+    filePath: 'token:CTC',
     symbol: 'ctc',
     name: 'Creditcoin',
     marketCapRank: 262,
@@ -3639,7 +3639,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'creo-engine',
-    fileName: 'token:CREO',
+    filePath: 'token:CREO',
     symbol: 'creo',
     name: 'Creo Engine',
     marketCapRank: 846,
@@ -3650,7 +3650,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cronos-id',
-    fileName: 'token:CROID',
+    filePath: 'token:CROID',
     symbol: 'croid',
     name: 'Cronos ID',
     marketCapRank: 1034,
@@ -3661,7 +3661,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cropbytes',
-    fileName: 'token:CBX',
+    filePath: 'token:CBX',
     symbol: 'cbx',
     name: 'CropBytes',
     marketCapRank: 1779,
@@ -3672,7 +3672,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'crowdswap',
-    fileName: 'token:CROWD',
+    filePath: 'token:CROWD',
     symbol: 'crowd',
     name: 'CrowdSwap',
     marketCapRank: 1996,
@@ -3683,7 +3683,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'crown-by-third-time-games',
-    fileName: 'token:CROWN',
+    filePath: 'token:CROWN',
     symbol: 'crown',
     name: 'Crown by Third Time Games',
     marketCapRank: 313,
@@ -3694,7 +3694,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'crowns',
-    fileName: 'token:CWS',
+    filePath: 'token:CWS',
     symbol: 'cws',
     name: 'Seascape Crowns',
     marketCapRank: 1989,
@@ -3705,7 +3705,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'crowny-token',
-    fileName: 'token:CRWNY',
+    filePath: 'token:CRWNY',
     symbol: 'crwny',
     name: 'Crowny',
     marketCapRank: 1584,
@@ -3716,7 +3716,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'crust-network',
-    fileName: 'token:CRU',
+    filePath: 'token:CRU',
     symbol: 'cru',
     name: 'Crust Network',
     marketCapRank: 707,
@@ -3727,7 +3727,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'crvusd',
-    fileName: 'token:CRVUSD',
+    filePath: 'token:CRVUSD',
     symbol: 'crvusd',
     name: 'crvUSD',
     marketCapRank: 411,
@@ -3743,7 +3743,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cryowar-token',
-    fileName: 'token:CWAR',
+    filePath: 'token:CWAR',
     symbol: 'cwar',
     name: 'Cryowar',
     marketCapRank: 1561,
@@ -3754,7 +3754,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'crypterium',
-    fileName: 'token:CRPT',
+    filePath: 'token:CRPT',
     symbol: 'crpt',
     name: 'Crypterium',
     marketCapRank: 1815,
@@ -3765,7 +3765,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cryptex-finance',
-    fileName: 'token:CTX',
+    filePath: 'token:CTX',
     symbol: 'ctx',
     name: 'Cryptex Finance',
     marketCapRank: 1057,
@@ -3776,7 +3776,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'crypto-com-chain',
-    fileName: 'token:CRO',
+    filePath: 'token:CRO',
     symbol: 'cro',
     name: 'Cronos',
     marketCapRank: 36,
@@ -3787,7 +3787,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'crypto-gladiator-shards',
-    fileName: 'token:CGL',
+    filePath: 'token:CGL',
     symbol: 'cgl',
     name: 'Crypto Gladiator League',
     marketCapRank: 1258,
@@ -3798,7 +3798,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cryptocart',
-    fileName: 'token:CCV2',
+    filePath: 'token:CCV2',
     symbol: 'ccv2',
     name: 'CryptoCart V2',
     marketCapRank: 2466,
@@ -3810,7 +3810,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cryptofranc',
-    fileName: 'token:XCHF',
+    filePath: 'token:XCHF',
     symbol: 'xchf',
     name: 'CryptoFranc',
     marketCapRank: 2295,
@@ -3821,7 +3821,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cryptogpt-token',
-    fileName: 'token:LAI',
+    filePath: 'token:LAI',
     symbol: 'lai',
     name: 'LayerAI',
     marketCapRank: 1173,
@@ -3833,7 +3833,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'csp-dao-network',
-    fileName: 'token:NEBO',
+    filePath: 'token:NEBO',
     symbol: 'nebo',
     name: 'CSP DAO Network',
     marketCapRank: 1796,
@@ -3844,7 +3844,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cube-intelligence',
-    fileName: 'token:AUTO',
+    filePath: 'token:AUTO',
     symbol: 'auto',
     name: 'Cube Intelligence',
     marketCapRank: 2017,
@@ -3855,7 +3855,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cudos',
-    fileName: 'token:CUDOS',
+    filePath: 'token:CUDOS',
     symbol: 'cudos',
     name: 'Cudos',
     marketCapRank: 438,
@@ -3868,7 +3868,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cult-dao',
-    fileName: 'token:CULT',
+    filePath: 'token:CULT',
     symbol: 'cult',
     name: 'Cult DAO',
     marketCapRank: 1200,
@@ -3879,7 +3879,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cuminu',
-    fileName: 'token:CUMINU',
+    filePath: 'token:CUMINU',
     symbol: 'cuminu',
     name: 'Cuminu',
     marketCapRank: 1851,
@@ -3890,7 +3890,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cumrocket',
-    fileName: 'token:CUMMIES',
+    filePath: 'token:CUMMIES',
     symbol: 'cummies',
     name: 'CumRocket',
     marketCapRank: 1223,
@@ -3901,7 +3901,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'curate',
-    fileName: 'token:XCUR',
+    filePath: 'token:XCUR',
     symbol: 'xcur',
     name: 'Curate',
     marketCapRank: 2519,
@@ -3914,7 +3914,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'curio-governance',
-    fileName: 'token:CGT',
+    filePath: 'token:CGT',
     symbol: 'cgt',
     name: 'Curio Governance Token',
     marketCapRank: 1954,
@@ -3926,7 +3926,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'curve-dao-token',
-    fileName: 'token:CRV',
+    filePath: 'token:CRV',
     symbol: 'crv',
     name: 'Curve DAO',
     marketCapRank: 131,
@@ -3943,7 +3943,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cyberconnect',
-    fileName: 'token:CYBER',
+    filePath: 'token:CYBER',
     symbol: 'cyber',
     name: 'CyberConnect',
     marketCapRank: 402,
@@ -3956,7 +3956,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cypherium',
-    fileName: 'token:CPH',
+    filePath: 'token:CPH',
     symbol: 'cph',
     name: 'Cypherium',
     marketCapRank: 1494,
@@ -3965,7 +3965,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'd3d-social',
-    fileName: 'token:D3D',
+    filePath: 'token:D3D',
     symbol: 'd3d',
     name: 'D3D Social',
     marketCapRank: 1285,
@@ -3976,7 +3976,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dacxi',
-    fileName: 'token:DACXI',
+    filePath: 'token:DACXI',
     symbol: 'dacxi',
     name: 'Dacxi',
     marketCapRank: 1512,
@@ -3987,7 +3987,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dafi-protocol',
-    fileName: 'token:DAFI',
+    filePath: 'token:DAFI',
     symbol: 'dafi',
     name: 'Dafi Protocol',
     marketCapRank: 2302,
@@ -4000,7 +4000,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dai',
-    fileName: 'token:DAI',
+    filePath: 'token:DAI',
     symbol: 'dai',
     name: 'Dai',
     marketCapRank: 30,
@@ -4041,7 +4041,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'danchortoken',
-    fileName: 'token:USN',
+    filePath: 'token:USN',
     symbol: 'usn',
     name: 'USN',
     marketCapRank: null,
@@ -4050,7 +4050,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dao-maker',
-    fileName: 'token:DAO',
+    filePath: 'token:DAO',
     symbol: 'dao',
     name: 'DAO Maker',
     marketCapRank: 221,
@@ -4064,7 +4064,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'darwinia-network-native-token',
-    fileName: 'token:RING',
+    filePath: 'token:RING',
     symbol: 'ring',
     name: 'Darwinia Network',
     marketCapRank: 1513,
@@ -4077,7 +4077,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dash',
-    fileName: 'token:DASH',
+    filePath: 'token:DASH',
     symbol: 'dash',
     name: 'Dash',
     marketCapRank: 200,
@@ -4086,7 +4086,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dash-2-trade',
-    fileName: 'token:D2T',
+    filePath: 'token:D2T',
     symbol: 'd2t',
     name: 'Dash 2 Trade',
     marketCapRank: 2360,
@@ -4097,7 +4097,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'data-lake',
-    fileName: 'token:LAKE',
+    filePath: 'token:LAKE',
     symbol: 'lake',
     name: 'Data Lake',
     marketCapRank: 1153,
@@ -4108,7 +4108,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'databroker-dao',
-    fileName: 'token:DTX',
+    filePath: 'token:DTX',
     symbol: 'dtx',
     name: 'DaTa eXchange DTX',
     marketCapRank: 2410,
@@ -4119,7 +4119,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'datamall-coin',
-    fileName: 'token:DMC',
+    filePath: 'token:DMC',
     symbol: 'dmc',
     name: 'Datamall Coin',
     marketCapRank: 803,
@@ -4128,7 +4128,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'de-fi',
-    fileName: 'token:DEFI',
+    filePath: 'token:DEFI',
     symbol: 'defi',
     name: 'DeFi',
     marketCapRank: 983,
@@ -4140,7 +4140,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'deapcoin',
-    fileName: 'token:DEP',
+    filePath: 'token:DEP',
     symbol: 'dep',
     name: 'DEAPCOIN',
     marketCapRank: 677,
@@ -4154,7 +4154,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'decentr',
-    fileName: 'token:DEC',
+    filePath: 'token:DEC',
     symbol: 'dec',
     name: 'Decentr',
     marketCapRank: 2678,
@@ -4169,7 +4169,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'decentral-games-governance',
-    fileName: 'token:XDG',
+    filePath: 'token:XDG',
     symbol: 'xdg',
     name: 'Decentral Games Governance',
     marketCapRank: 1444,
@@ -4181,7 +4181,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'decentraland',
-    fileName: 'token:MANA',
+    filePath: 'token:MANA',
     symbol: 'mana',
     name: 'Decentraland',
     marketCapRank: 94,
@@ -4193,7 +4193,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'decentralized-advertising',
-    fileName: 'token:DAD',
+    filePath: 'token:DAD',
     symbol: 'dad',
     name: 'DAD',
     marketCapRank: 1651,
@@ -4204,7 +4204,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'decentraweb',
-    fileName: 'token:DWEB',
+    filePath: 'token:DWEB',
     symbol: 'dweb',
     name: 'DecentraWeb',
     marketCapRank: 2719,
@@ -4216,7 +4216,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'decimal',
-    fileName: 'token:DEL',
+    filePath: 'token:DEL',
     symbol: 'del',
     name: 'Decimal',
     marketCapRank: 998,
@@ -4225,7 +4225,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'decred',
-    fileName: 'token:DCR',
+    filePath: 'token:DCR',
     symbol: 'dcr',
     name: 'Decred',
     marketCapRank: 202,
@@ -4234,7 +4234,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'decubate',
-    fileName: 'token:DCB',
+    filePath: 'token:DCB',
     symbol: 'dcb',
     name: 'Decubate',
     marketCapRank: 792,
@@ -4245,7 +4245,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'deepbrain-chain',
-    fileName: 'token:DBC',
+    filePath: 'token:DBC',
     symbol: 'dbc',
     name: 'DeepBrain Chain',
     marketCapRank: 1221,
@@ -4254,7 +4254,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'deepfakeai',
-    fileName: 'token:FAKEAI',
+    filePath: 'token:FAKEAI',
     symbol: 'fakeai',
     name: 'DeepFakeAI',
     marketCapRank: 1123,
@@ -4265,7 +4265,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'deeponion',
-    fileName: 'token:ONION',
+    filePath: 'token:ONION',
     symbol: 'onion',
     name: 'DeepOnion',
     marketCapRank: 2617,
@@ -4274,7 +4274,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'deepspace',
-    fileName: 'token:DPS',
+    filePath: 'token:DPS',
     symbol: 'dps',
     name: 'DEEPSPACE',
     marketCapRank: 2035,
@@ -4286,7 +4286,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'defactor',
-    fileName: 'token:FACTR',
+    filePath: 'token:FACTR',
     symbol: 'factr',
     name: 'Defactor',
     marketCapRank: 1180,
@@ -4299,7 +4299,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'defi-kingdoms',
-    fileName: 'token:JEWEL',
+    filePath: 'token:JEWEL',
     symbol: 'jewel',
     name: 'DeFi Kingdoms',
     marketCapRank: 1090,
@@ -4310,7 +4310,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'defi-kingdoms-crystal',
-    fileName: 'token:CRYSTAL',
+    filePath: 'token:CRYSTAL',
     symbol: 'crystal',
     name: 'DeFi Kingdoms Crystal',
     marketCapRank: 2331,
@@ -4321,7 +4321,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'defi-yield-protocol',
-    fileName: 'token:DYP',
+    filePath: 'token:DYP',
     symbol: 'dyp',
     name: 'Dypius [OLD]',
     marketCapRank: 1679,
@@ -4334,7 +4334,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'defichain',
-    fileName: 'token:DFI',
+    filePath: 'token:DFI',
     symbol: 'dfi',
     name: 'DeFiChain',
     marketCapRank: 641,
@@ -4346,7 +4346,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'definity',
-    fileName: 'token:DEFX',
+    filePath: 'token:DEFX',
     symbol: 'defx',
     name: 'DeFinity',
     marketCapRank: 1526,
@@ -4358,7 +4358,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'defipulse-index',
-    fileName: 'token:DPI',
+    filePath: 'token:DPI',
     symbol: 'dpi',
     name: 'DeFi Pulse Index',
     marketCapRank: 1016,
@@ -4372,7 +4372,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'defit',
-    fileName: 'token:DEFIT',
+    filePath: 'token:DEFIT',
     symbol: 'defit',
     name: 'Digital Fitness',
     marketCapRank: 1693,
@@ -4383,7 +4383,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'degen-base',
-    fileName: 'token:DEGEN',
+    filePath: 'token:DEGEN',
     symbol: 'degen',
     name: 'Degen (Base)',
     marketCapRank: 228,
@@ -4394,7 +4394,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'degen-zoo',
-    fileName: 'token:DZOO',
+    filePath: 'token:DZOO',
     symbol: 'dzoo',
     name: 'Degen Zoo',
     marketCapRank: 1797,
@@ -4406,7 +4406,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'degenx',
-    fileName: 'token:DGNX',
+    filePath: 'token:DGNX',
     symbol: 'dgnx',
     name: 'DegenX',
     marketCapRank: 2017,
@@ -4418,7 +4418,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dego-finance',
-    fileName: 'token:DEGO',
+    filePath: 'token:DEGO',
     symbol: 'dego',
     name: 'Dego Finance',
     marketCapRank: 1193,
@@ -4430,7 +4430,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dejitaru-hoshi',
-    fileName: 'token:HOSHI',
+    filePath: 'token:HOSHI',
     symbol: 'hoshi',
     name: 'Dejitaru Hoshi',
     marketCapRank: 2469,
@@ -4441,7 +4441,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dejitaru-tsuka',
-    fileName: 'token:TSUKA',
+    filePath: 'token:TSUKA',
     symbol: 'tsuka',
     name: 'Dejitaru Tsuka',
     marketCapRank: 875,
@@ -4452,7 +4452,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dent',
-    fileName: 'token:DENT',
+    filePath: 'token:DENT',
     symbol: 'dent',
     name: 'Dent',
     marketCapRank: 359,
@@ -4463,7 +4463,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'derace',
-    fileName: 'token:DERC',
+    filePath: 'token:DERC',
     symbol: 'derc',
     name: 'DeRace',
     marketCapRank: 862,
@@ -4476,7 +4476,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'derby-stars-run',
-    fileName: 'token:DSRUN',
+    filePath: 'token:DSRUN',
     symbol: 'dsrun',
     name: 'Derby Stars RUN',
     marketCapRank: 1886,
@@ -4487,7 +4487,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'deri-protocol',
-    fileName: 'token:DERI',
+    filePath: 'token:DERI',
     symbol: 'deri',
     name: 'Deri Protocol',
     marketCapRank: 2148,
@@ -4503,7 +4503,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dero',
-    fileName: 'token:DERO',
+    filePath: 'token:DERO',
     symbol: 'dero',
     name: 'Dero',
     marketCapRank: 692,
@@ -4512,7 +4512,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'desmos',
-    fileName: 'token:DSM',
+    filePath: 'token:DSM',
     symbol: 'dsm',
     name: 'Desmos',
     marketCapRank: 2281,
@@ -4524,7 +4524,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'deso',
-    fileName: 'token:DESO',
+    filePath: 'token:DESO',
     symbol: 'deso',
     name: 'Decentralized Social',
     marketCapRank: 264,
@@ -4533,7 +4533,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'devour-2',
-    fileName: 'token:DPAY',
+    filePath: 'token:DPAY',
     symbol: 'dpay',
     name: 'Devour',
     marketCapRank: 1450,
@@ -4545,7 +4545,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dex-game',
-    fileName: 'token:DXGM',
+    filePath: 'token:DXGM',
     symbol: 'dxgm',
     name: 'DexGame',
     marketCapRank: 2427,
@@ -4556,7 +4556,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dexalot',
-    fileName: 'token:ALOT',
+    filePath: 'token:ALOT',
     symbol: 'alot',
     name: 'Dexalot',
     marketCapRank: 947,
@@ -4567,7 +4567,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dexcheck',
-    fileName: 'token:DCK',
+    filePath: 'token:DCK',
     symbol: 'dck',
     name: 'DexCheck',
     marketCapRank: 922,
@@ -4579,7 +4579,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dexe',
-    fileName: 'token:DEXE',
+    filePath: 'token:DEXE',
     symbol: 'dexe',
     name: 'DeXe',
     marketCapRank: 129,
@@ -4591,7 +4591,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dexkit',
-    fileName: 'token:KIT',
+    filePath: 'token:KIT',
     symbol: 'kit',
     name: 'DexKit',
     marketCapRank: 2590,
@@ -4604,7 +4604,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dexlab',
-    fileName: 'token:DXL',
+    filePath: 'token:DXL',
     symbol: 'dxl',
     name: 'Dexlab',
     marketCapRank: 2125,
@@ -4615,7 +4615,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dexpools',
-    fileName: 'token:DXP',
+    filePath: 'token:DXP',
     symbol: 'dxp',
     name: 'Dexpools',
     marketCapRank: 1880,
@@ -4627,7 +4627,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dextf',
-    fileName: 'token:DEXTF',
+    filePath: 'token:DEXTF',
     symbol: 'dextf',
     name: 'Domani Protocol',
     marketCapRank: 1097,
@@ -4640,7 +4640,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dextools',
-    fileName: 'token:DEXT',
+    filePath: 'token:DEXT',
     symbol: 'dext',
     name: 'DexTools',
     marketCapRank: 610,
@@ -4652,7 +4652,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dforce-token',
-    fileName: 'token:DF',
+    filePath: 'token:DF',
     symbol: 'df',
     name: 'dForce',
     marketCapRank: 807,
@@ -4666,7 +4666,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dfx-finance',
-    fileName: 'token:DFX',
+    filePath: 'token:DFX',
     symbol: 'dfx',
     name: 'DFX Finance',
     marketCapRank: 2015,
@@ -4679,7 +4679,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dfyn-network',
-    fileName: 'token:DFYN',
+    filePath: 'token:DFYN',
     symbol: 'dfyn',
     name: 'Dfyn Network',
     marketCapRank: 1770,
@@ -4691,7 +4691,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dhedge-dao',
-    fileName: 'token:DHT',
+    filePath: 'token:DHT',
     symbol: 'dht',
     name: 'dHEDGE DAO',
     marketCapRank: 1563,
@@ -4706,7 +4706,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dia-data',
-    fileName: 'token:DIA',
+    filePath: 'token:DIA',
     symbol: 'dia',
     name: 'DIA',
     marketCapRank: 608,
@@ -4719,7 +4719,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'diamond',
-    fileName: 'token:DMD',
+    filePath: 'token:DMD',
     symbol: 'dmd',
     name: 'Diamond',
     marketCapRank: 1640,
@@ -4728,7 +4728,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'diamond-launch',
-    fileName: 'token:DLC',
+    filePath: 'token:DLC',
     symbol: 'dlc',
     name: 'Diamond Launch',
     marketCapRank: 1312,
@@ -4739,7 +4739,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'digibyte',
-    fileName: 'token:DGB',
+    filePath: 'token:DGB',
     symbol: 'dgb',
     name: 'DigiByte',
     marketCapRank: 306,
@@ -4748,7 +4748,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'digitalbits',
-    fileName: 'token:XDB',
+    filePath: 'token:XDB',
     symbol: 'xdb',
     name: 'XDB CHAIN',
     marketCapRank: 1289,
@@ -4757,7 +4757,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'digix-gold',
-    fileName: 'token:DGX',
+    filePath: 'token:DGX',
     symbol: 'dgx',
     name: 'Digix Gold',
     marketCapRank: 2598,
@@ -4768,7 +4768,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dimitra',
-    fileName: 'token:DMTR',
+    filePath: 'token:DMTR',
     symbol: 'dmtr',
     name: 'Dimitra',
     marketCapRank: 530,
@@ -4779,7 +4779,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dimo',
-    fileName: 'token:DIMO',
+    filePath: 'token:DIMO',
     symbol: 'dimo',
     name: 'DIMO',
     marketCapRank: 562,
@@ -4792,7 +4792,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dingocoin',
-    fileName: 'token:DINGO',
+    filePath: 'token:DINGO',
     symbol: 'dingo',
     name: 'Dingocoin',
     marketCapRank: 2074,
@@ -4804,7 +4804,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dinox',
-    fileName: 'token:DNXC',
+    filePath: 'token:DNXC',
     symbol: 'dnxc',
     name: 'DinoX',
     marketCapRank: 2668,
@@ -4817,7 +4817,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dione',
-    fileName: 'token:DIONE',
+    filePath: 'token:DIONE',
     symbol: 'dione',
     name: 'Dione',
     marketCapRank: 476,
@@ -4828,7 +4828,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'district0x',
-    fileName: 'token:DNT',
+    filePath: 'token:DNT',
     symbol: 'dnt',
     name: 'district0x',
     marketCapRank: 653,
@@ -4840,7 +4840,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'divergence-protocol',
-    fileName: 'token:DIVER',
+    filePath: 'token:DIVER',
     symbol: 'diver',
     name: 'Divergence Protocol',
     marketCapRank: 2069,
@@ -4851,7 +4851,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'diversified-staked-eth',
-    fileName: 'token:DSETH',
+    filePath: 'token:DSETH',
     symbol: 'dseth',
     name: 'Diversified Staked ETH',
     marketCapRank: 2183,
@@ -4862,7 +4862,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'divi',
-    fileName: 'token:DIVI',
+    filePath: 'token:DIVI',
     symbol: 'divi',
     name: 'Divi',
     marketCapRank: 1552,
@@ -4873,7 +4873,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'djed',
-    fileName: 'token:DJED',
+    filePath: 'token:DJED',
     symbol: 'djed',
     name: 'Djed',
     marketCapRank: 1956,
@@ -4885,7 +4885,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dkargo',
-    fileName: 'token:DKA',
+    filePath: 'token:DKA',
     symbol: 'dka',
     name: 'dKargo',
     marketCapRank: 431,
@@ -4896,7 +4896,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dodo',
-    fileName: 'token:DODO',
+    filePath: 'token:DODO',
     symbol: 'dodo',
     name: 'DODO',
     marketCapRank: 396,
@@ -4914,7 +4914,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dogami',
-    fileName: 'token:DOGA',
+    filePath: 'token:DOGA',
     symbol: 'doga',
     name: 'Dogami',
     marketCapRank: 1669,
@@ -4926,7 +4926,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'doge-eat-doge',
-    fileName: 'token:OMNOM',
+    filePath: 'token:OMNOM',
     symbol: 'omnom',
     name: 'Doge Eat Doge',
     marketCapRank: 813,
@@ -4937,7 +4937,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dogebonk',
-    fileName: 'token:DOBO',
+    filePath: 'token:DOBO',
     symbol: 'dobo',
     name: 'DogeBonk',
     marketCapRank: 1753,
@@ -4948,7 +4948,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dogechain',
-    fileName: 'token:DC',
+    filePath: 'token:DC',
     symbol: 'dc',
     name: 'Dogechain',
     marketCapRank: 966,
@@ -4960,7 +4960,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dogecoin',
-    fileName: 'token:DOGE',
+    filePath: 'token:DOGE',
     symbol: 'doge',
     name: 'Dogecoin',
     marketCapRank: 9,
@@ -4969,7 +4969,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dogegf',
-    fileName: 'token:DOGEGF',
+    filePath: 'token:DOGEGF',
     symbol: 'dogegf',
     name: 'DogeGF',
     marketCapRank: 1793,
@@ -4981,7 +4981,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dogelon-mars',
-    fileName: 'token:ELON',
+    filePath: 'token:ELON',
     symbol: 'elon',
     name: 'Dogelon Mars',
     marketCapRank: 343,
@@ -4997,7 +4997,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dola-borrowing-right',
-    fileName: 'token:DBR',
+    filePath: 'token:DBR',
     symbol: 'dbr',
     name: 'DOLA Borrowing Right',
     marketCapRank: 2510,
@@ -5008,7 +5008,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dola-usd',
-    fileName: 'token:DOLA',
+    filePath: 'token:DOLA',
     symbol: 'dola',
     name: 'DOLA',
     marketCapRank: 651,
@@ -5024,7 +5024,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'domi',
-    fileName: 'token:DOMI',
+    filePath: 'token:DOMI',
     symbol: 'domi',
     name: 'Domi',
     marketCapRank: 1160,
@@ -5037,7 +5037,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'don-t-buy-inu',
-    fileName: 'token:DBI',
+    filePath: 'token:DBI',
     symbol: 'dbi',
     name: "Don't Buy Inu",
     marketCapRank: 1714,
@@ -5048,7 +5048,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'donut',
-    fileName: 'token:DONUT',
+    filePath: 'token:DONUT',
     symbol: 'donut',
     name: 'Donut',
     marketCapRank: 2062,
@@ -5060,7 +5060,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dope-wars-paper',
-    fileName: 'token:PAPER',
+    filePath: 'token:PAPER',
     symbol: 'paper',
     name: 'Dope Wars Paper',
     marketCapRank: 2199,
@@ -5072,7 +5072,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dopex',
-    fileName: 'token:DPX',
+    filePath: 'token:DPX',
     symbol: 'dpx',
     name: 'Dopex',
     marketCapRank: null,
@@ -5084,7 +5084,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dopex-rebate-token',
-    fileName: 'token:RDPX',
+    filePath: 'token:RDPX',
     symbol: 'rdpx',
     name: 'Dopex Rebate',
     marketCapRank: 1659,
@@ -5096,7 +5096,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dor',
-    fileName: 'token:DOR',
+    filePath: 'token:DOR',
     symbol: 'dor',
     name: 'Dor',
     marketCapRank: 2479,
@@ -5105,7 +5105,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dora-factory-2',
-    fileName: 'token:DORA',
+    filePath: 'token:DORA',
     symbol: 'dora',
     name: 'Dora Factory',
     marketCapRank: 484,
@@ -5116,7 +5116,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dose-token',
-    fileName: 'token:DOSE',
+    filePath: 'token:DOSE',
     symbol: 'dose',
     name: 'DOSE',
     marketCapRank: 1458,
@@ -5129,7 +5129,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dotmoovs',
-    fileName: 'token:MOOV',
+    filePath: 'token:MOOV',
     symbol: 'moov',
     name: 'dotmoovs',
     marketCapRank: 1449,
@@ -5142,7 +5142,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dragonchain',
-    fileName: 'token:DRGN',
+    filePath: 'token:DRGN',
     symbol: 'drgn',
     name: 'Dragonchain',
     marketCapRank: 1116,
@@ -5153,7 +5153,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dream-machine-token',
-    fileName: 'token:DMT',
+    filePath: 'token:DMT',
     symbol: 'dmt',
     name: 'Dream Machine Token',
     marketCapRank: 972,
@@ -5165,7 +5165,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'drep-new',
-    fileName: 'token:DREP',
+    filePath: 'token:DREP',
     symbol: 'drep',
     name: 'Drep',
     marketCapRank: 1860,
@@ -5177,7 +5177,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'drunk-robots',
-    fileName: 'token:METAL',
+    filePath: 'token:METAL',
     symbol: 'metal',
     name: 'Badmad Robots',
     marketCapRank: 825,
@@ -5189,7 +5189,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dtravel',
-    fileName: 'token:TRVL',
+    filePath: 'token:TRVL',
     symbol: 'trvl',
     name: 'TRVL',
     marketCapRank: 1053,
@@ -5201,7 +5201,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dua-token',
-    fileName: 'token:DUA',
+    filePath: 'token:DUA',
     symbol: 'dua',
     name: 'Brillion',
     marketCapRank: 1305,
@@ -5213,7 +5213,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dusk-network',
-    fileName: 'token:DUSK',
+    filePath: 'token:DUSK',
     symbol: 'dusk',
     name: 'Dusk',
     marketCapRank: 294,
@@ -5225,7 +5225,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dust-protocol',
-    fileName: 'token:DUST',
+    filePath: 'token:DUST',
     symbol: 'dust',
     name: 'Dust Protocol',
     marketCapRank: 1407,
@@ -5238,7 +5238,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dvision-network',
-    fileName: 'token:DVI',
+    filePath: 'token:DVI',
     symbol: 'dvi',
     name: 'Dvision Network',
     marketCapRank: 1453,
@@ -5249,7 +5249,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'dydx-chain',
-    fileName: 'token:DYDX',
+    filePath: 'token:DYDX',
     symbol: 'dydx',
     name: 'dYdX',
     marketCapRank: 76,
@@ -5261,7 +5261,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'e-money',
-    fileName: 'token:NGM',
+    filePath: 'token:NGM',
     symbol: 'ngm',
     name: 'e-Money',
     marketCapRank: 2668,
@@ -5274,7 +5274,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'e-radix',
-    fileName: 'token:EXRD',
+    filePath: 'token:EXRD',
     symbol: 'exrd',
     name: 'e-Radix',
     marketCapRank: 571,
@@ -5285,7 +5285,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ecash',
-    fileName: 'token:XEC',
+    filePath: 'token:XEC',
     symbol: 'xec',
     name: 'eCash',
     marketCapRank: 93,
@@ -5294,7 +5294,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'echelon-prime',
-    fileName: 'token:PRIME',
+    filePath: 'token:PRIME',
     symbol: 'prime',
     name: 'Echelon Prime',
     marketCapRank: 136,
@@ -5306,7 +5306,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'eco',
-    fileName: 'token:ECO',
+    filePath: 'token:ECO',
     symbol: 'eco',
     name: 'ECO',
     marketCapRank: 2037,
@@ -5317,7 +5317,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ecoin-2',
-    fileName: 'token:ECOIN',
+    filePath: 'token:ECOIN',
     symbol: 'ecoin',
     name: 'Ecoin',
     marketCapRank: 779,
@@ -5328,7 +5328,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ecomi',
-    fileName: 'token:OMI',
+    filePath: 'token:OMI',
     symbol: 'omi',
     name: 'ECOMI',
     marketCapRank: 339,
@@ -5340,7 +5340,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ecox',
-    fileName: 'token:ECOX',
+    filePath: 'token:ECOX',
     symbol: 'ecox',
     name: 'ECOx',
     marketCapRank: 742,
@@ -5351,7 +5351,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'eden',
-    fileName: 'token:EDEN',
+    filePath: 'token:EDEN',
     symbol: 'eden',
     name: 'EDEN',
     marketCapRank: 1256,
@@ -5362,7 +5362,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'edge',
-    fileName: 'token:EDGE',
+    filePath: 'token:EDGE',
     symbol: 'edge',
     name: 'Edge',
     marketCapRank: 1684,
@@ -5373,7 +5373,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'edgeware',
-    fileName: 'token:EDG',
+    filePath: 'token:EDG',
     symbol: 'edg',
     name: 'Edgeware',
     marketCapRank: 2128,
@@ -5386,7 +5386,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'edu-coin',
-    fileName: 'token:EDU',
+    filePath: 'token:EDU',
     symbol: 'edu',
     name: 'Open Campus',
     marketCapRank: 284,
@@ -5399,7 +5399,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'effect-network',
-    fileName: 'token:EFX',
+    filePath: 'token:EFX',
     symbol: 'efx',
     name: 'Effect Network',
     marketCapRank: 1682,
@@ -5408,7 +5408,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'efinity',
-    fileName: 'token:EFI',
+    filePath: 'token:EFI',
     symbol: 'efi',
     name: 'Efinity',
     marketCapRank: 1461,
@@ -5419,7 +5419,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'eggdog',
-    fileName: 'token:EGG',
+    filePath: 'token:EGG',
     symbol: 'egg',
     name: 'Eggdog',
     marketCapRank: 1899,
@@ -5430,7 +5430,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'el-hippo',
-    fileName: 'token:HIPP',
+    filePath: 'token:HIPP',
     symbol: 'hipp',
     name: 'El Hippo',
     marketCapRank: 1906,
@@ -5441,7 +5441,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'elastos',
-    fileName: 'token:ELA',
+    filePath: 'token:ELA',
     symbol: 'ela',
     name: 'Elastos',
     marketCapRank: 608,
@@ -5453,7 +5453,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'electra-protocol',
-    fileName: 'token:XEP',
+    filePath: 'token:XEP',
     symbol: 'xep',
     name: 'Electra Protocol',
     marketCapRank: 1076,
@@ -5464,7 +5464,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'electroneum',
-    fileName: 'token:ETN',
+    filePath: 'token:ETN',
     symbol: 'etn',
     name: 'Electroneum',
     marketCapRank: 476,
@@ -5473,7 +5473,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'electronic-usd',
-    fileName: 'token:EUSD',
+    filePath: 'token:EUSD',
     symbol: 'eusd',
     name: 'Electronic USD',
     marketCapRank: 1130,
@@ -5485,7 +5485,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'electronicgulden',
-    fileName: 'token:EFL',
+    filePath: 'token:EFL',
     symbol: 'efl',
     name: 'Electronic Gulden',
     marketCapRank: 1956,
@@ -5494,7 +5494,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'elk-finance',
-    fileName: 'token:ELK',
+    filePath: 'token:ELK',
     symbol: 'elk',
     name: 'Elk Finance',
     marketCapRank: 2288,
@@ -5515,7 +5515,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'elrond-erd-2',
-    fileName: 'token:EGLD',
+    filePath: 'token:EGLD',
     symbol: 'egld',
     name: 'MultiversX',
     marketCapRank: 75,
@@ -5524,7 +5524,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'elumia',
-    fileName: 'token:ELU',
+    filePath: 'token:ELU',
     symbol: 'elu',
     name: 'Elumia',
     marketCapRank: 1575,
@@ -5535,7 +5535,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'elvishmagic',
-    fileName: 'token:EMAGIC',
+    filePath: 'token:EMAGIC',
     symbol: 'emagic',
     name: 'ElvishMagic',
     marketCapRank: 2162,
@@ -5546,7 +5546,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'elysia',
-    fileName: 'token:EL',
+    filePath: 'token:EL',
     symbol: 'el',
     name: 'ELYSIA',
     marketCapRank: 514,
@@ -5557,7 +5557,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'eml-protocol',
-    fileName: 'token:EML',
+    filePath: 'token:EML',
     symbol: 'eml',
     name: 'EML Protocol',
     marketCapRank: 1480,
@@ -5568,7 +5568,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'empyreal',
-    fileName: 'token:EMP',
+    filePath: 'token:EMP',
     symbol: 'emp',
     name: 'Empyreal',
     marketCapRank: 1214,
@@ -5580,7 +5580,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'energi',
-    fileName: 'token:NRG',
+    filePath: 'token:NRG',
     symbol: 'nrg',
     name: 'Energi',
     marketCapRank: 1436,
@@ -5591,7 +5591,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'energy-web-token',
-    fileName: 'token:EWT',
+    filePath: 'token:EWT',
     symbol: 'ewt',
     name: 'Energy Web',
     marketCapRank: 473,
@@ -5602,7 +5602,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'enigma',
-    fileName: 'token:ENG',
+    filePath: 'token:ENG',
     symbol: 'eng',
     name: 'Enigma',
     marketCapRank: 2645,
@@ -5613,7 +5613,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'enjincoin',
-    fileName: 'token:ENJ',
+    filePath: 'token:ENJ',
     symbol: 'enj',
     name: 'Enjin Coin',
     marketCapRank: 147,
@@ -5626,7 +5626,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'enjinstarter',
-    fileName: 'token:EJS',
+    filePath: 'token:EJS',
     symbol: 'ejs',
     name: 'Enjinstarter',
     marketCapRank: 962,
@@ -5638,7 +5638,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'enreachdao',
-    fileName: 'token:NRCH',
+    filePath: 'token:NRCH',
     symbol: 'nrch',
     name: 'Enreach',
     marketCapRank: 1996,
@@ -5650,7 +5650,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'entangle',
-    fileName: 'token:NGL',
+    filePath: 'token:NGL',
     symbol: 'ngl',
     name: 'Entangle',
     marketCapRank: 328,
@@ -5661,7 +5661,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'eos',
-    fileName: 'token:EOS',
+    filePath: 'token:EOS',
     symbol: 'eos',
     name: 'EOS',
     marketCapRank: 97,
@@ -5670,7 +5670,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'epic-cash',
-    fileName: 'token:EPIC',
+    filePath: 'token:EPIC',
     symbol: 'epic',
     name: 'Epic Cash',
     marketCapRank: 1924,
@@ -5679,7 +5679,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'epik-prime',
-    fileName: 'token:EPIK',
+    filePath: 'token:EPIK',
     symbol: 'epik',
     name: 'Epik Prime',
     marketCapRank: 1382,
@@ -5691,7 +5691,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'eqifi',
-    fileName: 'token:EQX',
+    filePath: 'token:EQX',
     symbol: 'eqx',
     name: 'EQIFi',
     marketCapRank: 1964,
@@ -5703,7 +5703,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'equalizer-dex',
-    fileName: 'token:EQUAL',
+    filePath: 'token:EQUAL',
     symbol: 'equal',
     name: 'Equalizer DEX',
     marketCapRank: 2086,
@@ -5714,7 +5714,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'equation',
-    fileName: 'token:EQU',
+    filePath: 'token:EQU',
     symbol: 'equ',
     name: 'Equation',
     marketCapRank: 1973,
@@ -5725,7 +5725,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'equilibria-finance',
-    fileName: 'token:EQB',
+    filePath: 'token:EQB',
     symbol: 'eqb',
     name: 'Equilibria Finance',
     marketCapRank: 1308,
@@ -5738,7 +5738,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'equilibrium-eosdt',
-    fileName: 'token:EOSDT',
+    filePath: 'token:EOSDT',
     symbol: 'eosdt',
     name: 'Equilibrium EOSDT',
     marketCapRank: 2390,
@@ -5747,7 +5747,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'era-swap-token',
-    fileName: 'token:ES',
+    filePath: 'token:ES',
     symbol: 'es',
     name: 'Era Swap',
     marketCapRank: 1602,
@@ -5758,7 +5758,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ergo',
-    fileName: 'token:ERG',
+    filePath: 'token:ERG',
     symbol: 'erg',
     name: 'Ergo',
     marketCapRank: 418,
@@ -5767,7 +5767,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ertha',
-    fileName: 'token:ERTHA',
+    filePath: 'token:ERTHA',
     symbol: 'ertha',
     name: 'Ertha',
     marketCapRank: 2020,
@@ -5778,7 +5778,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ethereans',
-    fileName: 'token:OS',
+    filePath: 'token:OS',
     symbol: 'os',
     name: 'Ethereans',
     marketCapRank: 2059,
@@ -5790,7 +5790,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'etherempires',
-    fileName: 'token:ETE',
+    filePath: 'token:ETE',
     symbol: 'ete',
     name: 'Etherempires',
     marketCapRank: 1717,
@@ -5801,7 +5801,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ethereum',
-    fileName: 'token:ETH',
+    filePath: 'token:ETH',
     symbol: 'eth',
     name: 'Ethereum',
     marketCapRank: 2,
@@ -5810,7 +5810,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ethereum-classic',
-    fileName: 'token:ETC',
+    filePath: 'token:ETC',
     symbol: 'etc',
     name: 'Ethereum Classic',
     marketCapRank: 29,
@@ -5819,7 +5819,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ethereum-meta',
-    fileName: 'token:ETHM',
+    filePath: 'token:ETHM',
     symbol: 'ethm',
     name: 'Ethereum Meta',
     marketCapRank: 1245,
@@ -5832,7 +5832,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ethereum-name-service',
-    fileName: 'token:ENS',
+    filePath: 'token:ENS',
     symbol: 'ens',
     name: 'Ethereum Name Service',
     marketCapRank: 152,
@@ -5843,7 +5843,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ethereum-pow-iou',
-    fileName: 'token:ETHW',
+    filePath: 'token:ETHW',
     symbol: 'ethw',
     name: 'EthereumPoW',
     marketCapRank: 188,
@@ -5852,7 +5852,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ethereum-push-notification-service',
-    fileName: 'token:PUSH',
+    filePath: 'token:PUSH',
     symbol: 'push',
     name: 'Push Protocol',
     marketCapRank: 1232,
@@ -5864,7 +5864,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'etherisc',
-    fileName: 'token:DIP',
+    filePath: 'token:DIP',
     symbol: 'dip',
     name: 'Etherisc DIP',
     marketCapRank: 1437,
@@ -5876,7 +5876,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'etherland',
-    fileName: 'token:ELAND',
+    filePath: 'token:ELAND',
     symbol: 'eland',
     name: 'Etherland',
     marketCapRank: 1602,
@@ -5889,7 +5889,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ethernity-chain',
-    fileName: 'token:ERN',
+    filePath: 'token:ERN',
     symbol: 'ern',
     name: 'Ethernity Chain',
     marketCapRank: 473,
@@ -5900,7 +5900,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ethichub',
-    fileName: 'token:ETHIX',
+    filePath: 'token:ETHIX',
     symbol: 'ethix',
     name: 'Ethix',
     marketCapRank: 1317,
@@ -5913,7 +5913,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ethos',
-    fileName: 'token:VGX',
+    filePath: 'token:VGX',
     symbol: 'vgx',
     name: 'Voyager VGX',
     marketCapRank: 957,
@@ -5925,7 +5925,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'etica',
-    fileName: 'token:ETI',
+    filePath: 'token:ETI',
     symbol: 'eti',
     name: 'Etica',
     marketCapRank: 2646,
@@ -5934,7 +5934,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'euler',
-    fileName: 'token:EUL',
+    filePath: 'token:EUL',
     symbol: 'eul',
     name: 'Euler',
     marketCapRank: 511,
@@ -5945,7 +5945,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'euno',
-    fileName: 'token:EUNO',
+    filePath: 'token:EUNO',
     symbol: 'euno',
     name: 'EUNO',
     marketCapRank: 2340,
@@ -5954,7 +5954,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'euroe-stablecoin',
-    fileName: 'token:EUROE',
+    filePath: 'token:EUROE',
     symbol: 'euroe',
     name: 'EUROe Stablecoin',
     marketCapRank: 2328,
@@ -5970,7 +5970,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'eve-ai',
-    fileName: 'token:EVEAI',
+    filePath: 'token:EVEAI',
     symbol: 'eveai',
     name: 'Eve AI',
     marketCapRank: 1834,
@@ -5981,7 +5981,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'everdome',
-    fileName: 'token:DOME',
+    filePath: 'token:DOME',
     symbol: 'dome',
     name: 'Everdome',
     marketCapRank: 1281,
@@ -5992,7 +5992,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'evergrowcoin',
-    fileName: 'token:EGC',
+    filePath: 'token:EGC',
     symbol: 'egc',
     name: 'EverGrow Coin',
     marketCapRank: 723,
@@ -6003,7 +6003,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'everipedia',
-    fileName: 'token:IQ',
+    filePath: 'token:IQ',
     symbol: 'iq',
     name: 'IQ',
     marketCapRank: 301,
@@ -6016,7 +6016,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'everrise',
-    fileName: 'token:RISE',
+    filePath: 'token:RISE',
     symbol: 'rise',
     name: 'EverRise',
     marketCapRank: 1491,
@@ -6031,7 +6031,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'everscale',
-    fileName: 'token:EVER',
+    filePath: 'token:EVER',
     symbol: 'ever',
     name: 'Everscale',
     marketCapRank: 614,
@@ -6042,7 +6042,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'everton-fan-token',
-    fileName: 'token:EFC',
+    filePath: 'token:EFC',
     symbol: 'efc',
     name: 'Everton Fan Token',
     marketCapRank: 2000,
@@ -6053,7 +6053,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'evmos',
-    fileName: 'token:EVMOS',
+    filePath: 'token:EVMOS',
     symbol: 'evmos',
     name: 'Evmos',
     marketCapRank: 854,
@@ -6065,7 +6065,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'exorde',
-    fileName: 'token:EXD',
+    filePath: 'token:EXD',
     symbol: 'exd',
     name: 'Exorde',
     marketCapRank: 2275,
@@ -6076,7 +6076,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'exosama-network',
-    fileName: 'token:SAMA',
+    filePath: 'token:SAMA',
     symbol: 'sama',
     name: 'Moonsama',
     marketCapRank: 1531,
@@ -6088,7 +6088,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'extra-finance',
-    fileName: 'token:EXTRA',
+    filePath: 'token:EXTRA',
     symbol: 'extra',
     name: 'Extra Finance',
     marketCapRank: 944,
@@ -6100,7 +6100,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fable-of-the-dragon',
-    fileName: 'token:TYRANT',
+    filePath: 'token:TYRANT',
     symbol: 'tyrant',
     name: 'Fable Of The Dragon',
     marketCapRank: 2442,
@@ -6111,7 +6111,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fabwelt',
-    fileName: 'token:WELT',
+    filePath: 'token:WELT',
     symbol: 'welt',
     name: 'Fabwelt',
     marketCapRank: 1924,
@@ -6123,7 +6123,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'factor',
-    fileName: 'token:FCTR',
+    filePath: 'token:FCTR',
     symbol: 'fctr',
     name: 'FactorDAO',
     marketCapRank: 2478,
@@ -6134,7 +6134,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fantom',
-    fileName: 'token:FTM',
+    filePath: 'token:FTM',
     symbol: 'ftm',
     name: 'Fantom',
     marketCapRank: 51,
@@ -6143,7 +6143,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'faraland',
-    fileName: 'token:FARA',
+    filePath: 'token:FARA',
     symbol: 'fara',
     name: 'FaraLand',
     marketCapRank: 2530,
@@ -6154,7 +6154,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fasttoken',
-    fileName: 'token:FTN',
+    filePath: 'token:FTN',
     symbol: 'ftn',
     name: 'Fasttoken',
     marketCapRank: 178,
@@ -6165,7 +6165,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fear',
-    fileName: 'token:FEAR',
+    filePath: 'token:FEAR',
     symbol: 'fear',
     name: 'FEAR',
     marketCapRank: 2049,
@@ -6179,7 +6179,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'feathercoin',
-    fileName: 'token:FTC',
+    filePath: 'token:FTC',
     symbol: 'ftc',
     name: 'Feathercoin',
     marketCapRank: 2570,
@@ -6188,7 +6188,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fedoracoin',
-    fileName: 'token:TIPS',
+    filePath: 'token:TIPS',
     symbol: 'tips',
     name: 'Fedoracoin',
     marketCapRank: 2101,
@@ -6197,7 +6197,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'feg-bsc',
-    fileName: 'token:FEG',
+    filePath: 'token:FEG',
     symbol: 'feg',
     name: 'FEG BSC',
     marketCapRank: 857,
@@ -6208,7 +6208,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fei-usd',
-    fileName: 'token:FEI',
+    filePath: 'token:FEI',
     symbol: 'fei',
     name: 'Fei USD',
     marketCapRank: 1319,
@@ -6219,7 +6219,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'feisty-doge-nft',
-    fileName: 'token:NFD',
+    filePath: 'token:NFD',
     symbol: 'nfd',
     name: 'Feisty Doge NFT',
     marketCapRank: 1320,
@@ -6230,7 +6230,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ferro',
-    fileName: 'token:FER',
+    filePath: 'token:FER',
     symbol: 'fer',
     name: 'Ferro',
     marketCapRank: 1464,
@@ -6242,7 +6242,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ferrum-network',
-    fileName: 'token:FRM',
+    filePath: 'token:FRM',
     symbol: 'frm',
     name: 'Ferrum Network',
     marketCapRank: 1059,
@@ -6258,7 +6258,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fetch-ai',
-    fileName: 'token:FET',
+    filePath: 'token:FET',
     symbol: 'fet',
     name: 'Fetch.ai',
     marketCapRank: 48,
@@ -6272,7 +6272,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'filecoin',
-    fileName: 'token:FIL',
+    filePath: 'token:FIL',
     symbol: 'fil',
     name: 'Filecoin',
     marketCapRank: 26,
@@ -6281,7 +6281,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'findora',
-    fileName: 'token:FRA',
+    filePath: 'token:FRA',
     symbol: 'fra',
     name: 'Fractal',
     marketCapRank: 1334,
@@ -6292,7 +6292,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fio-protocol',
-    fileName: 'token:FIO',
+    filePath: 'token:FIO',
     symbol: 'fio',
     name: 'FIO Protocol',
     marketCapRank: 907,
@@ -6301,7 +6301,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'firestarter',
-    fileName: 'token:FLAME',
+    filePath: 'token:FLAME',
     symbol: 'flame',
     name: 'FireStarter',
     marketCapRank: 1563,
@@ -6312,7 +6312,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'firmachain',
-    fileName: 'token:FCT',
+    filePath: 'token:FCT',
     symbol: 'fct',
     name: 'Firmachain',
     marketCapRank: 659,
@@ -6323,7 +6323,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'first-digital-usd',
-    fileName: 'token:FDUSD',
+    filePath: 'token:FDUSD',
     symbol: 'fdusd',
     name: 'First Digital USD',
     marketCapRank: 52,
@@ -6335,7 +6335,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'flamingo-finance',
-    fileName: 'token:FLM',
+    filePath: 'token:FLM',
     symbol: 'flm',
     name: 'Flamingo Finance',
     marketCapRank: 611,
@@ -6344,7 +6344,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'flare-networks',
-    fileName: 'token:FLR',
+    filePath: 'token:FLR',
     symbol: 'flr',
     name: 'Flare',
     marketCapRank: 94,
@@ -6353,7 +6353,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'flatqube',
-    fileName: 'token:QUBE',
+    filePath: 'token:QUBE',
     symbol: 'qube',
     name: 'FlatQube',
     marketCapRank: 2263,
@@ -6365,7 +6365,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'flex-coin',
-    fileName: 'token:FLEX',
+    filePath: 'token:FLEX',
     symbol: 'flex',
     name: 'FLEX Coin',
     marketCapRank: 1137,
@@ -6377,7 +6377,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'flits',
-    fileName: 'token:FLS',
+    filePath: 'token:FLS',
     symbol: 'fls',
     name: 'Flits',
     marketCapRank: 2886,
@@ -6386,7 +6386,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'floordao',
-    fileName: 'token:FLOOR',
+    filePath: 'token:FLOOR',
     symbol: 'floor',
     name: 'FloorDAO (Old)',
     marketCapRank: 1906,
@@ -6397,7 +6397,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'flow',
-    fileName: 'token:FLOW',
+    filePath: 'token:FLOW',
     symbol: 'flow',
     name: 'Flow',
     marketCapRank: 64,
@@ -6406,7 +6406,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fluid-2',
-    fileName: 'token:FLUID',
+    filePath: 'token:FLUID',
     symbol: 'fluid',
     name: 'Fluid',
     marketCapRank: 2281,
@@ -6418,7 +6418,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'flux-token',
-    fileName: 'token:FLX',
+    filePath: 'token:FLX',
     symbol: 'flx',
     name: 'SEDA Protocol',
     marketCapRank: 799,
@@ -6430,7 +6430,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'foam-protocol',
-    fileName: 'token:FOAM',
+    filePath: 'token:FOAM',
     symbol: 'foam',
     name: 'FOAM',
     marketCapRank: 1435,
@@ -6441,7 +6441,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'foom',
-    fileName: 'token:FOOM',
+    filePath: 'token:FOOM',
     symbol: 'foom',
     name: 'Foom',
     marketCapRank: 1838,
@@ -6452,7 +6452,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'force-protocol',
-    fileName: 'token:FOR',
+    filePath: 'token:FOR',
     symbol: 'for',
     name: 'ForTube',
     marketCapRank: 1152,
@@ -6464,7 +6464,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fore-protocol',
-    fileName: 'token:FORE',
+    filePath: 'token:FORE',
     symbol: 'fore',
     name: 'FORE Protocol',
     marketCapRank: 1924,
@@ -6476,7 +6476,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'forta',
-    fileName: 'token:FORT',
+    filePath: 'token:FORT',
     symbol: 'fort',
     name: 'Forta',
     marketCapRank: 574,
@@ -6488,7 +6488,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'frax',
-    fileName: 'token:FRAX',
+    filePath: 'token:FRAX',
     symbol: 'frax',
     name: 'Frax',
     marketCapRank: 156,
@@ -6513,7 +6513,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'frax-price-index-share',
-    fileName: 'token:FPIS',
+    filePath: 'token:FPIS',
     symbol: 'fpis',
     name: 'Frax Price Index Share',
     marketCapRank: 919,
@@ -6526,7 +6526,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'frax-share',
-    fileName: 'token:FXS',
+    filePath: 'token:FXS',
     symbol: 'fxs',
     name: 'Frax Share',
     marketCapRank: 165,
@@ -6547,7 +6547,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'freedom-coin',
-    fileName: 'token:FREE',
+    filePath: 'token:FREE',
     symbol: 'free',
     name: 'FREEdom coin',
     marketCapRank: 2231,
@@ -6559,7 +6559,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'frencoin-2',
-    fileName: 'token:FREN',
+    filePath: 'token:FREN',
     symbol: 'fren',
     name: 'Frencoin',
     marketCapRank: 2541,
@@ -6568,7 +6568,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'friends-with-benefits-pro',
-    fileName: 'token:FWB',
+    filePath: 'token:FWB',
     symbol: 'fwb',
     name: 'Friends With Benefits Pro',
     marketCapRank: 1896,
@@ -6579,7 +6579,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fringe-finance',
-    fileName: 'token:FRIN',
+    filePath: 'token:FRIN',
     symbol: 'frin',
     name: 'Fringe Finance',
     marketCapRank: 2236,
@@ -6590,7 +6590,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'frontier-token',
-    fileName: 'token:FRONT',
+    filePath: 'token:FRONT',
     symbol: 'front',
     name: 'Frontier',
     marketCapRank: 487,
@@ -6604,7 +6604,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fsn',
-    fileName: 'token:FSN',
+    filePath: 'token:FSN',
     symbol: 'fsn',
     name: 'FUSION',
     marketCapRank: 1293,
@@ -6621,7 +6621,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'funfair',
-    fileName: 'token:FUN',
+    filePath: 'token:FUN',
     symbol: 'fun',
     name: 'FUNToken',
     marketCapRank: 622,
@@ -6633,7 +6633,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fuse-network-token',
-    fileName: 'token:FUSE',
+    filePath: 'token:FUSE',
     symbol: 'fuse',
     name: 'Fuse',
     marketCapRank: 1181,
@@ -6649,7 +6649,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'futurecoin',
-    fileName: 'token:FUTURE',
+    filePath: 'token:FUTURE',
     symbol: 'future',
     name: 'FutureCoin',
     marketCapRank: 1982,
@@ -6660,7 +6660,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fx-coin',
-    fileName: 'token:FX',
+    filePath: 'token:FX',
     symbol: 'fx',
     name: 'Function X',
     marketCapRank: 428,
@@ -6671,7 +6671,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'g-token',
-    fileName: 'token:G',
+    filePath: 'token:G',
     symbol: 'g',
     name: 'Gravity',
     marketCapRank: null,
@@ -6680,7 +6680,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gains',
-    fileName: 'token:GAINS',
+    filePath: 'token:GAINS',
     symbol: 'gains',
     name: 'Gains',
     marketCapRank: 1331,
@@ -6692,7 +6692,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gains-network',
-    fileName: 'token:GNS',
+    filePath: 'token:GNS',
     symbol: 'gns',
     name: 'Gains Network',
     marketCapRank: 385,
@@ -6704,7 +6704,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gala',
-    fileName: 'token:GALA',
+    filePath: 'token:GALA',
     symbol: 'gala',
     name: 'GALA',
     marketCapRank: 56,
@@ -6715,7 +6715,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gala-music',
-    fileName: 'token:MUSIC',
+    filePath: 'token:MUSIC',
     symbol: 'music',
     name: 'Gala Music',
     marketCapRank: 1282,
@@ -6726,7 +6726,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'galaxia',
-    fileName: 'token:GXA',
+    filePath: 'token:GXA',
     symbol: 'gxa',
     name: 'Galaxia',
     marketCapRank: 1749,
@@ -6737,7 +6737,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'galaxy-fight-club',
-    fileName: 'token:GCOIN',
+    filePath: 'token:GCOIN',
     symbol: 'gcoin',
     name: 'Galaxy Fight Club',
     marketCapRank: 2615,
@@ -6748,7 +6748,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'galeon',
-    fileName: 'token:GALEON',
+    filePath: 'token:GALEON',
     symbol: 'galeon',
     name: 'Galeon',
     marketCapRank: 1358,
@@ -6759,7 +6759,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gameai',
-    fileName: 'token:GAT',
+    filePath: 'token:GAT',
     symbol: 'gat',
     name: 'GameAI',
     marketCapRank: 1361,
@@ -6770,7 +6770,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gamee',
-    fileName: 'token:GMEE',
+    filePath: 'token:GMEE',
     symbol: 'gmee',
     name: 'GAMEE',
     marketCapRank: 1423,
@@ -6783,7 +6783,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gamefi',
-    fileName: 'token:GAFI',
+    filePath: 'token:GAFI',
     symbol: 'gafi',
     name: 'GameFi.org',
     marketCapRank: 550,
@@ -6794,7 +6794,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gamercoin',
-    fileName: 'token:GHX',
+    filePath: 'token:GHX',
     symbol: 'ghx',
     name: 'GamerCoin',
     marketCapRank: 454,
@@ -6806,7 +6806,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'games-for-a-living',
-    fileName: 'token:GFAL',
+    filePath: 'token:GFAL',
     symbol: 'gfal',
     name: 'Games for a Living',
     marketCapRank: 751,
@@ -6817,7 +6817,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gamespad',
-    fileName: 'token:GMPD',
+    filePath: 'token:GMPD',
     symbol: 'gmpd',
     name: 'GamesPad',
     marketCapRank: 2552,
@@ -6828,7 +6828,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gamestarter',
-    fileName: 'token:GAME',
+    filePath: 'token:GAME',
     symbol: 'game',
     name: 'Gamestarter',
     marketCapRank: 1611,
@@ -6840,7 +6840,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gameswap-org',
-    fileName: 'token:GSWAP',
+    filePath: 'token:GSWAP',
     symbol: 'gswap',
     name: 'Gameswap',
     marketCapRank: 1667,
@@ -6851,7 +6851,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gameswift',
-    fileName: 'token:GSWIFT',
+    filePath: 'token:GSWIFT',
     symbol: 'gswift',
     name: 'GameSwift',
     marketCapRank: 901,
@@ -6863,7 +6863,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gamezone',
-    fileName: 'token:GZONE',
+    filePath: 'token:GZONE',
     symbol: 'gzone',
     name: 'GameZone',
     marketCapRank: 1461,
@@ -6874,7 +6874,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gami-world',
-    fileName: 'token:GAMI',
+    filePath: 'token:GAMI',
     symbol: 'gami',
     name: 'GAMI World',
     marketCapRank: 1628,
@@ -6885,7 +6885,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gamium',
-    fileName: 'token:GMM',
+    filePath: 'token:GMM',
     symbol: 'gmm',
     name: 'Gamium',
     marketCapRank: 889,
@@ -6897,7 +6897,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gamma-strategies',
-    fileName: 'token:GAMMA',
+    filePath: 'token:GAMMA',
     symbol: 'gamma',
     name: 'Gamma Strategies',
     marketCapRank: 1357,
@@ -6908,7 +6908,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'garden-2',
-    fileName: 'token:SEED',
+    filePath: 'token:SEED',
     symbol: 'seed',
     name: 'Garden',
     marketCapRank: 2138,
@@ -6920,7 +6920,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gari-network',
-    fileName: 'token:GARI',
+    filePath: 'token:GARI',
     symbol: 'gari',
     name: 'Gari Network',
     marketCapRank: 1268,
@@ -6931,7 +6931,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gas',
-    fileName: 'token:GAS',
+    filePath: 'token:GAS',
     symbol: 'gas',
     name: 'Gas',
     marketCapRank: 208,
@@ -6942,7 +6942,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gatechain-token',
-    fileName: 'token:GT',
+    filePath: 'token:GT',
     symbol: 'gt',
     name: 'Gate',
     marketCapRank: 86,
@@ -6953,7 +6953,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'geeq',
-    fileName: 'token:GEEQ',
+    filePath: 'token:GEEQ',
     symbol: 'geeq',
     name: 'GEEQ',
     marketCapRank: 1452,
@@ -6964,7 +6964,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gelato',
-    fileName: 'token:GEL',
+    filePath: 'token:GEL',
     symbol: 'gel',
     name: 'Gelato',
     marketCapRank: 436,
@@ -6977,7 +6977,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gemhub',
-    fileName: 'token:GHUB',
+    filePath: 'token:GHUB',
     symbol: 'ghub',
     name: 'GemHUB',
     marketCapRank: 1497,
@@ -6988,7 +6988,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gemini-dollar',
-    fileName: 'token:GUSD',
+    filePath: 'token:GUSD',
     symbol: 'gusd',
     name: 'Gemini Dollar',
     marketCapRank: 454,
@@ -7001,7 +7001,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gemlink',
-    fileName: 'token:GLINK',
+    filePath: 'token:GLINK',
     symbol: 'glink',
     name: 'GemLink',
     marketCapRank: 2423,
@@ -7012,7 +7012,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'generaitiv',
-    fileName: 'token:GAI',
+    filePath: 'token:GAI',
     symbol: 'gai',
     name: 'Generaitiv',
     marketCapRank: 2168,
@@ -7023,7 +7023,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'genesysgo-shadow',
-    fileName: 'token:SHDW',
+    filePath: 'token:SHDW',
     symbol: 'shdw',
     name: 'Shadow Token',
     marketCapRank: 264,
@@ -7034,7 +7034,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'genius',
-    fileName: 'token:GENI',
+    filePath: 'token:GENI',
     symbol: 'geni',
     name: 'Genius',
     marketCapRank: 2434,
@@ -7048,7 +7048,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gensokishis-metaverse',
-    fileName: 'token:MV',
+    filePath: 'token:MV',
     symbol: 'mv',
     name: 'GensoKishi Metaverse',
     marketCapRank: 1482,
@@ -7060,7 +7060,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'geodnet',
-    fileName: 'token:GEOD',
+    filePath: 'token:GEOD',
     symbol: 'geod',
     name: 'Geodnet',
     marketCapRank: 1159,
@@ -7071,7 +7071,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'geojam',
-    fileName: 'token:JAM',
+    filePath: 'token:JAM',
     symbol: 'jam',
     name: 'Geojam',
     marketCapRank: 1380,
@@ -7082,7 +7082,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'get-token',
-    fileName: 'token:GET',
+    filePath: 'token:GET',
     symbol: 'get',
     name: 'GET Protocol',
     marketCapRank: 696,
@@ -7094,7 +7094,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'getkicks',
-    fileName: 'token:KICKS',
+    filePath: 'token:KICKS',
     symbol: 'kicks',
     name: 'GetKicks',
     marketCapRank: 2378,
@@ -7105,7 +7105,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gho',
-    fileName: 'token:GHO',
+    filePath: 'token:GHO',
     symbol: 'gho',
     name: 'GHO',
     marketCapRank: 857,
@@ -7116,7 +7116,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ghost-by-mcafee',
-    fileName: 'token:GHOST',
+    filePath: 'token:GHOST',
     symbol: 'ghost',
     name: 'Ghost',
     marketCapRank: 2184,
@@ -7127,7 +7127,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gifto',
-    fileName: 'token:GFT',
+    filePath: 'token:GFT',
     symbol: 'gft',
     name: 'Gifto',
     marketCapRank: 1009,
@@ -7138,7 +7138,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gitcoin',
-    fileName: 'token:GTC',
+    filePath: 'token:GTC',
     symbol: 'gtc',
     name: 'Gitcoin',
     marketCapRank: 451,
@@ -7151,7 +7151,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'giveth',
-    fileName: 'token:GIV',
+    filePath: 'token:GIV',
     symbol: 'giv',
     name: 'Giveth',
     marketCapRank: 2140,
@@ -7163,7 +7163,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gleec-coin',
-    fileName: 'token:GLEEC',
+    filePath: 'token:GLEEC',
     symbol: 'gleec',
     name: 'Gleec Coin',
     marketCapRank: 2201,
@@ -7172,7 +7172,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'global-coin-research',
-    fileName: 'token:GCR',
+    filePath: 'token:GCR',
     symbol: 'gcr',
     name: 'Global Coin Research',
     marketCapRank: 2454,
@@ -7184,7 +7184,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'global-digital-cluster-co',
-    fileName: 'token:GDCC',
+    filePath: 'token:GDCC',
     symbol: 'gdcc',
     name: 'Global Digital Cluster Coin',
     marketCapRank: 2163,
@@ -7193,7 +7193,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'globiance-exchange',
-    fileName: 'token:GBEX',
+    filePath: 'token:GBEX',
     symbol: 'gbex',
     name: 'Globiance Exchange',
     marketCapRank: 1222,
@@ -7204,7 +7204,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gmx',
-    fileName: 'token:GMX',
+    filePath: 'token:GMX',
     symbol: 'gmx',
     name: 'GMX',
     marketCapRank: 212,
@@ -7216,7 +7216,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gnosis',
-    fileName: 'token:GNO',
+    filePath: 'token:GNO',
     symbol: 'gno',
     name: 'Gnosis',
     marketCapRank: 119,
@@ -7230,7 +7230,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gny',
-    fileName: 'token:GNY',
+    filePath: 'token:GNY',
     symbol: 'gny',
     name: 'GNY',
     marketCapRank: 1826,
@@ -7241,7 +7241,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gochain',
-    fileName: 'token:GO',
+    filePath: 'token:GO',
     symbol: 'go',
     name: 'GoChain',
     marketCapRank: 1557,
@@ -7250,7 +7250,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gods-unchained',
-    fileName: 'token:GODS',
+    filePath: 'token:GODS',
     symbol: 'gods',
     name: 'Gods Unchained',
     marketCapRank: 519,
@@ -7261,7 +7261,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gogopool',
-    fileName: 'token:GGP',
+    filePath: 'token:GGP',
     symbol: 'ggp',
     name: 'GoGoPool',
     marketCapRank: 894,
@@ -7272,7 +7272,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'goldcoin',
-    fileName: 'token:GLC',
+    filePath: 'token:GLC',
     symbol: 'glc',
     name: 'Goldcoin',
     marketCapRank: 1467,
@@ -7281,7 +7281,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'golden-inu-token',
-    fileName: 'token:GOLDEN',
+    filePath: 'token:GOLDEN',
     symbol: 'golden',
     name: 'Golden Inu',
     marketCapRank: 2364,
@@ -7292,7 +7292,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'golem',
-    fileName: 'token:GLM',
+    filePath: 'token:GLM',
     symbol: 'glm',
     name: 'Golem',
     marketCapRank: 165,
@@ -7304,7 +7304,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'good-games-guild',
-    fileName: 'token:GGG',
+    filePath: 'token:GGG',
     symbol: 'ggg',
     name: 'Good Games Guild',
     marketCapRank: 1828,
@@ -7315,7 +7315,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'good-person-coin',
-    fileName: 'token:GPCX',
+    filePath: 'token:GPCX',
     symbol: 'gpcx',
     name: 'Good Person Coin',
     marketCapRank: 1785,
@@ -7324,7 +7324,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'goons-of-balatroon',
-    fileName: 'token:GOB',
+    filePath: 'token:GOB',
     symbol: 'gob',
     name: 'Goons of Balatroon',
     marketCapRank: 2289,
@@ -7337,7 +7337,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'goosefx',
-    fileName: 'token:GOFX',
+    filePath: 'token:GOFX',
     symbol: 'gofx',
     name: 'GooseFX',
     marketCapRank: 1550,
@@ -7348,7 +7348,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'goracle-network',
-    fileName: 'token:GORA',
+    filePath: 'token:GORA',
     symbol: 'gora',
     name: 'Gora',
     marketCapRank: 2130,
@@ -7359,7 +7359,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gorilla',
-    fileName: 'token:GORILLA',
+    filePath: 'token:GORILLA',
     symbol: 'gorilla',
     name: 'Gorilla',
     marketCapRank: 1879,
@@ -7370,7 +7370,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'governance-zil',
-    fileName: 'token:GZIL',
+    filePath: 'token:GZIL',
     symbol: 'gzil',
     name: 'governance ZIL',
     marketCapRank: 1970,
@@ -7379,7 +7379,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'govi',
-    fileName: 'token:GOVI',
+    filePath: 'token:GOVI',
     symbol: 'govi',
     name: 'CVI',
     marketCapRank: 1850,
@@ -7393,7 +7393,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'goztepe-s-k-fan-token',
-    fileName: 'token:GOZ',
+    filePath: 'token:GOZ',
     symbol: 'goz',
     name: 'Göztepe S.K. Fan Token',
     marketCapRank: 2226,
@@ -7404,7 +7404,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'grai',
-    fileName: 'token:GRAI',
+    filePath: 'token:GRAI',
     symbol: 'grai',
     name: 'Grai',
     marketCapRank: 1747,
@@ -7417,7 +7417,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'granary',
-    fileName: 'token:GRAIN',
+    filePath: 'token:GRAIN',
     symbol: 'grain',
     name: 'Granary',
     marketCapRank: 2118,
@@ -7433,7 +7433,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'graphlinq-protocol',
-    fileName: 'token:GLQ',
+    filePath: 'token:GLQ',
     symbol: 'glq',
     name: 'GraphLinq Protocol',
     marketCapRank: 787,
@@ -7444,7 +7444,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'graviton',
-    fileName: 'token:GRAV',
+    filePath: 'token:GRAV',
     symbol: 'grav',
     name: 'Graviton',
     marketCapRank: 2241,
@@ -7464,7 +7464,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gridcoin-research',
-    fileName: 'token:GRC',
+    filePath: 'token:GRC',
     symbol: 'grc',
     name: 'Gridcoin',
     marketCapRank: 1980,
@@ -7473,7 +7473,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'grin',
-    fileName: 'token:GRIN',
+    filePath: 'token:GRIN',
     symbol: 'grin',
     name: 'Grin',
     marketCapRank: 1487,
@@ -7482,7 +7482,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'grizzly-honey',
-    fileName: 'token:GHNY',
+    filePath: 'token:GHNY',
     symbol: 'ghny',
     name: 'Grizzly Honey',
     marketCapRank: 1998,
@@ -7493,7 +7493,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'groestlcoin',
-    fileName: 'token:GRS',
+    filePath: 'token:GRS',
     symbol: 'grs',
     name: 'Groestlcoin',
     marketCapRank: 669,
@@ -7502,7 +7502,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'grove',
-    fileName: 'token:GRV',
+    filePath: 'token:GRV',
     symbol: 'grv',
     name: 'GroveCoin',
     marketCapRank: 1806,
@@ -7514,7 +7514,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gsenetwork',
-    fileName: 'token:GSE',
+    filePath: 'token:GSE',
     symbol: 'gse',
     name: 'GSENetwork',
     marketCapRank: 2624,
@@ -7525,7 +7525,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'guild-of-guardians',
-    fileName: 'token:GOG',
+    filePath: 'token:GOG',
     symbol: 'gog',
     name: 'Guild of Guardians',
     marketCapRank: 566,
@@ -7536,7 +7536,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gulfcoin-2',
-    fileName: 'token:GULF',
+    filePath: 'token:GULF',
     symbol: 'gulf',
     name: 'GulfCoin',
     marketCapRank: 1760,
@@ -7547,7 +7547,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gunstar-metaverse',
-    fileName: 'token:GSTS',
+    filePath: 'token:GSTS',
     symbol: 'gsts',
     name: 'Gunstar Metaverse',
     marketCapRank: 2486,
@@ -7558,7 +7558,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gxchain',
-    fileName: 'token:GXC',
+    filePath: 'token:GXC',
     symbol: 'gxc',
     name: 'GXChain',
     marketCapRank: 756,
@@ -7567,7 +7567,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gyen',
-    fileName: 'token:GYEN',
+    filePath: 'token:GYEN',
     symbol: 'gyen',
     name: 'GYEN',
     marketCapRank: 1312,
@@ -7581,7 +7581,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'gym-network',
-    fileName: 'token:GYMNET',
+    filePath: 'token:GYMNET',
     symbol: 'gymnet',
     name: 'Gym Network',
     marketCapRank: 2149,
@@ -7592,7 +7592,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'h2o-dao',
-    fileName: 'token:H2O',
+    filePath: 'token:H2O',
     symbol: 'h2o',
     name: 'H2O Dao',
     marketCapRank: 790,
@@ -7603,7 +7603,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hackenai',
-    fileName: 'token:HAI',
+    filePath: 'token:HAI',
     symbol: 'hai',
     name: 'Hacken',
     marketCapRank: 762,
@@ -7616,7 +7616,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hairdao',
-    fileName: 'token:HAIR',
+    filePath: 'token:HAIR',
     symbol: 'hair',
     name: 'HairDAO',
     marketCapRank: 1022,
@@ -7627,7 +7627,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'handle-fi',
-    fileName: 'token:FOREX',
+    filePath: 'token:FOREX',
     symbol: 'forex',
     name: 'handle.fi',
     marketCapRank: 2875,
@@ -7640,7 +7640,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'handy',
-    fileName: 'token:HANDY',
+    filePath: 'token:HANDY',
     symbol: 'handy',
     name: 'Handy',
     marketCapRank: 2150,
@@ -7651,7 +7651,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hapi',
-    fileName: 'token:HAPI',
+    filePath: 'token:HAPI',
     symbol: 'hapi',
     name: 'HAPI',
     marketCapRank: 1268,
@@ -7666,7 +7666,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'harmony',
-    fileName: 'token:ONE',
+    filePath: 'token:ONE',
     symbol: 'one',
     name: 'Harmony',
     marketCapRank: 229,
@@ -7675,7 +7675,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'harvest-finance',
-    fileName: 'token:FARM',
+    filePath: 'token:FARM',
     symbol: 'farm',
     name: 'Harvest Finance',
     marketCapRank: 916,
@@ -7688,7 +7688,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hashflow',
-    fileName: 'token:HFT',
+    filePath: 'token:HFT',
     symbol: 'hft',
     name: 'Hashflow',
     marketCapRank: 377,
@@ -7700,7 +7700,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hathor',
-    fileName: 'token:HTR',
+    filePath: 'token:HTR',
     symbol: 'htr',
     name: 'Hathor',
     marketCapRank: 918,
@@ -7709,7 +7709,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hatom',
-    fileName: 'token:HTM',
+    filePath: 'token:HTM',
     symbol: 'htm',
     name: 'Hatom',
     marketCapRank: 781,
@@ -7720,7 +7720,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'havah',
-    fileName: 'token:HVH',
+    filePath: 'token:HVH',
     symbol: 'hvh',
     name: 'HAVAH',
     marketCapRank: 1049,
@@ -7731,7 +7731,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'haven',
-    fileName: 'token:XHV',
+    filePath: 'token:XHV',
     symbol: 'xhv',
     name: 'Haven',
     marketCapRank: 2045,
@@ -7740,7 +7740,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'havven',
-    fileName: 'token:SNX',
+    filePath: 'token:SNX',
     symbol: 'snx',
     name: 'Synthetix Network',
     marketCapRank: 81,
@@ -7760,7 +7760,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hawksight',
-    fileName: 'token:HAWK',
+    filePath: 'token:HAWK',
     symbol: 'hawk',
     name: 'Hawksight',
     marketCapRank: 2136,
@@ -7771,7 +7771,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'headstarter',
-    fileName: 'token:HST',
+    filePath: 'token:HST',
     symbol: 'hst',
     name: 'HeadStarter',
     marketCapRank: 1862,
@@ -7782,7 +7782,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hedera-hashgraph',
-    fileName: 'token:HBAR',
+    filePath: 'token:HBAR',
     symbol: 'hbar',
     name: 'Hedera',
     marketCapRank: 38,
@@ -7791,7 +7791,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hegic',
-    fileName: 'token:HEGIC',
+    filePath: 'token:HEGIC',
     symbol: 'hegic',
     name: 'Hegic',
     marketCapRank: 1071,
@@ -7805,7 +7805,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'helium',
-    fileName: 'token:HNT',
+    filePath: 'token:HNT',
     symbol: 'hnt',
     name: 'Helium',
     marketCapRank: 111,
@@ -7816,7 +7816,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'helium-mobile',
-    fileName: 'token:MOBILE',
+    filePath: 'token:MOBILE',
     symbol: 'mobile',
     name: 'Helium Mobile',
     marketCapRank: 254,
@@ -7827,7 +7827,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hello-labs',
-    fileName: 'token:HELLO',
+    filePath: 'token:HELLO',
     symbol: 'hello',
     name: 'HELLO',
     marketCapRank: 938,
@@ -7839,7 +7839,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hera-finance',
-    fileName: 'token:HERA',
+    filePath: 'token:HERA',
     symbol: 'hera',
     name: 'Hera Finance',
     marketCapRank: 1193,
@@ -7851,7 +7851,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hermes-protocol',
-    fileName: 'token:HERMES',
+    filePath: 'token:HERMES',
     symbol: 'hermes',
     name: 'Hermes Protocol',
     marketCapRank: 2022,
@@ -7862,7 +7862,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hermez-network-token',
-    fileName: 'token:HEZ',
+    filePath: 'token:HEZ',
     symbol: 'hez',
     name: 'Hermez Network',
     marketCapRank: 631,
@@ -7873,7 +7873,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hero-blaze-three-kingdoms',
-    fileName: 'token:MUDOL2',
+    filePath: 'token:MUDOL2',
     symbol: 'mudol2',
     name: 'Hero Blaze: Three Kingdoms',
     marketCapRank: 2141,
@@ -7884,7 +7884,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'heroes-of-nft',
-    fileName: 'token:HON',
+    filePath: 'token:HON',
     symbol: 'hon',
     name: 'Heroes of NFT',
     marketCapRank: 2479,
@@ -7895,7 +7895,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hiblocks',
-    fileName: 'token:HIBS',
+    filePath: 'token:HIBS',
     symbol: 'hibs',
     name: 'Hiblocks',
     marketCapRank: 2469,
@@ -7906,7 +7906,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hifi-finance',
-    fileName: 'token:HIFI',
+    filePath: 'token:HIFI',
     symbol: 'hifi',
     name: 'Hifi Finance',
     marketCapRank: 419,
@@ -7917,7 +7917,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hilo',
-    fileName: 'token:HILO',
+    filePath: 'token:HILO',
     symbol: 'hilo',
     name: 'HILO',
     marketCapRank: 1664,
@@ -7928,7 +7928,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hive',
-    fileName: 'token:HIVE',
+    filePath: 'token:HIVE',
     symbol: 'hive',
     name: 'Hive',
     marketCapRank: 366,
@@ -7937,7 +7937,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hive-game-token',
-    fileName: 'token:HGT',
+    filePath: 'token:HGT',
     symbol: 'hgt',
     name: 'Hive Game Token',
     marketCapRank: 2855,
@@ -7948,7 +7948,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hivemapper',
-    fileName: 'token:HONEY',
+    filePath: 'token:HONEY',
     symbol: 'honey',
     name: 'Hivemapper',
     marketCapRank: 391,
@@ -7959,7 +7959,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hmx',
-    fileName: 'token:HMX',
+    filePath: 'token:HMX',
     symbol: 'hmx',
     name: 'HMX',
     marketCapRank: 1390,
@@ -7971,7 +7971,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hoge-finance',
-    fileName: 'token:HOGE',
+    filePath: 'token:HOGE',
     symbol: 'hoge',
     name: 'Hoge Finance',
     marketCapRank: 1351,
@@ -7982,7 +7982,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hold-2',
-    fileName: 'token:EARN',
+    filePath: 'token:EARN',
     symbol: 'earn',
     name: 'HOLD',
     marketCapRank: 1991,
@@ -7995,7 +7995,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'holdstation',
-    fileName: 'token:HOLD',
+    filePath: 'token:HOLD',
     symbol: 'hold',
     name: 'Holdstation',
     marketCapRank: 930,
@@ -8006,7 +8006,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'holoride',
-    fileName: 'token:RIDE',
+    filePath: 'token:RIDE',
     symbol: 'ride',
     name: 'holoride',
     marketCapRank: 1336,
@@ -8018,7 +8018,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'holotoken',
-    fileName: 'token:HOT',
+    filePath: 'token:HOT',
     symbol: 'hot',
     name: 'Holo',
     marketCapRank: 163,
@@ -8032,7 +8032,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'honeyland-honey',
-    fileName: 'token:HXD',
+    filePath: 'token:HXD',
     symbol: 'hxd',
     name: 'Honeyland',
     marketCapRank: 942,
@@ -8043,7 +8043,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'honk',
-    fileName: 'token:HONK',
+    filePath: 'token:HONK',
     symbol: 'honk',
     name: 'Honk',
     marketCapRank: 1522,
@@ -8054,7 +8054,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hooked-protocol',
-    fileName: 'token:HOOK',
+    filePath: 'token:HOOK',
     symbol: 'hook',
     name: 'Hooked Protocol',
     marketCapRank: 334,
@@ -8065,7 +8065,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hop-protocol',
-    fileName: 'token:HOP',
+    filePath: 'token:HOP',
     symbol: 'hop',
     name: 'Hop Protocol',
     marketCapRank: 1923,
@@ -8081,7 +8081,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hopr',
-    fileName: 'token:HOPR',
+    filePath: 'token:HOPR',
     symbol: 'hopr',
     name: 'HOPR',
     marketCapRank: 628,
@@ -8093,7 +8093,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hord',
-    fileName: 'token:HORD',
+    filePath: 'token:HORD',
     symbol: 'hord',
     name: 'Hord',
     marketCapRank: 1846,
@@ -8105,7 +8105,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'horizon-protocol',
-    fileName: 'token:HZN',
+    filePath: 'token:HZN',
     symbol: 'hzn',
     name: 'Horizon Protocol',
     marketCapRank: 1503,
@@ -8116,7 +8116,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hourglass',
-    fileName: 'token:WAIT',
+    filePath: 'token:WAIT',
     symbol: 'wait',
     name: 'Hourglass',
     marketCapRank: 1424,
@@ -8127,7 +8127,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hubble',
-    fileName: 'token:HBB',
+    filePath: 'token:HBB',
     symbol: 'hbb',
     name: 'Hubble',
     marketCapRank: 1185,
@@ -8138,7 +8138,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'humanode',
-    fileName: 'token:HMND',
+    filePath: 'token:HMND',
     symbol: 'hmnd',
     name: 'Humanode',
     marketCapRank: 1379,
@@ -8147,7 +8147,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'humans-ai',
-    fileName: 'token:HEART',
+    filePath: 'token:HEART',
     symbol: 'heart',
     name: 'Humans.ai',
     marketCapRank: 310,
@@ -8160,7 +8160,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'humanscape',
-    fileName: 'token:HPO',
+    filePath: 'token:HPO',
     symbol: 'hpo',
     name: 'Hippocrat',
     marketCapRank: 497,
@@ -8171,7 +8171,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hummingbot',
-    fileName: 'token:HBOT',
+    filePath: 'token:HBOT',
     symbol: 'hbot',
     name: 'Hummingbot',
     marketCapRank: 2375,
@@ -8182,7 +8182,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hunt-token',
-    fileName: 'token:HUNT',
+    filePath: 'token:HUNT',
     symbol: 'hunt',
     name: 'Hunt',
     marketCapRank: 494,
@@ -8193,7 +8193,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'huobi-btc',
-    fileName: 'token:HBTC',
+    filePath: 'token:HBTC',
     symbol: 'hbtc',
     name: 'Huobi BTC',
     marketCapRank: 336,
@@ -8205,7 +8205,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'huobi-token',
-    fileName: 'token:HT',
+    filePath: 'token:HT',
     symbol: 'ht',
     name: 'Huobi',
     marketCapRank: 434,
@@ -8220,7 +8220,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'husd',
-    fileName: 'token:HUSD',
+    filePath: 'token:HUSD',
     symbol: 'husd',
     name: 'HUSD',
     marketCapRank: 1307,
@@ -8235,7 +8235,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'husky-avax',
-    fileName: 'token:HUSKY',
+    filePath: 'token:HUSKY',
     symbol: 'husky',
     name: 'Husky Avax',
     marketCapRank: 1544,
@@ -8246,7 +8246,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hxro',
-    fileName: 'token:HXRO',
+    filePath: 'token:HXRO',
     symbol: 'hxro',
     name: 'HXRO',
     marketCapRank: 664,
@@ -8259,7 +8259,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hydra',
-    fileName: 'token:HYDRA',
+    filePath: 'token:HYDRA',
     symbol: 'hydra',
     name: 'Hydra',
     marketCapRank: 1238,
@@ -8270,7 +8270,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hydradx',
-    fileName: 'token:HDX',
+    filePath: 'token:HDX',
     symbol: 'hdx',
     name: 'HydraDX',
     marketCapRank: 769,
@@ -8279,7 +8279,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hypergpt',
-    fileName: 'token:HGPT',
+    filePath: 'token:HGPT',
     symbol: 'hgpt',
     name: 'HyperGPT',
     marketCapRank: 965,
@@ -8291,7 +8291,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hypersign-identity-token',
-    fileName: 'token:HID',
+    filePath: 'token:HID',
     symbol: 'hid',
     name: 'Hypersign Identity',
     marketCapRank: 2200,
@@ -8303,7 +8303,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hytopia',
-    fileName: 'token:TOPIA',
+    filePath: 'token:TOPIA',
     symbol: 'topia',
     name: 'HYCHAIN',
     marketCapRank: 697,
@@ -8314,7 +8314,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hyve',
-    fileName: 'token:HYVE',
+    filePath: 'token:HYVE',
     symbol: 'hyve',
     name: 'Hyve',
     marketCapRank: 2433,
@@ -8328,7 +8328,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ice',
-    fileName: 'token:ICE',
+    filePath: 'token:ICE',
     symbol: 'ice',
     name: 'Ice Network',
     marketCapRank: 1018,
@@ -8340,7 +8340,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ichi-farm',
-    fileName: 'token:ICHI',
+    filePath: 'token:ICHI',
     symbol: 'ichi',
     name: 'ICHI',
     marketCapRank: 1115,
@@ -8354,7 +8354,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'icon',
-    fileName: 'token:ICX',
+    filePath: 'token:ICX',
     symbol: 'icx',
     name: 'ICON',
     marketCapRank: 235,
@@ -8363,7 +8363,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'idavoll-network',
-    fileName: 'token:IDV',
+    filePath: 'token:IDV',
     symbol: 'idv',
     name: 'Idavoll DAO',
     marketCapRank: 2159,
@@ -8374,7 +8374,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ideaology',
-    fileName: 'token:IDEA',
+    filePath: 'token:IDEA',
     symbol: 'idea',
     name: 'Ideaology',
     marketCapRank: 2176,
@@ -8385,7 +8385,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'idena',
-    fileName: 'token:IDNA',
+    filePath: 'token:IDNA',
     symbol: 'idna',
     name: 'Idena',
     marketCapRank: 2203,
@@ -8396,7 +8396,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'idia',
-    fileName: 'token:IDIA',
+    filePath: 'token:IDIA',
     symbol: 'idia',
     name: 'Impossible Finance Launchpad',
     marketCapRank: 655,
@@ -8410,7 +8410,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'idle',
-    fileName: 'token:IDLE',
+    filePath: 'token:IDLE',
     symbol: 'idle',
     name: 'IDLE',
     marketCapRank: 2222,
@@ -8422,7 +8422,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'iexec-rlc',
-    fileName: 'token:RLC',
+    filePath: 'token:RLC',
     symbol: 'rlc',
     name: 'iExec RLC',
     marketCapRank: 278,
@@ -8435,7 +8435,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ignis',
-    fileName: 'token:IGNIS',
+    filePath: 'token:IGNIS',
     symbol: 'ignis',
     name: 'Ignis',
     marketCapRank: 1880,
@@ -8444,7 +8444,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'iguverse-igu',
-    fileName: 'token:IGU',
+    filePath: 'token:IGU',
     symbol: 'igu',
     name: 'IguVerse IGU',
     marketCapRank: 1626,
@@ -8455,7 +8455,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'illuvium',
-    fileName: 'token:ILV',
+    filePath: 'token:ILV',
     symbol: 'ilv',
     name: 'Illuvium',
     marketCapRank: 128,
@@ -8467,7 +8467,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ime-lab',
-    fileName: 'token:LIME',
+    filePath: 'token:LIME',
     symbol: 'lime',
     name: 'iMe Lab',
     marketCapRank: 782,
@@ -8479,7 +8479,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'imgnai',
-    fileName: 'token:IMGNAI',
+    filePath: 'token:IMGNAI',
     symbol: 'imgnai',
     name: 'Image Generation AI',
     marketCapRank: 1099,
@@ -8490,7 +8490,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'imo',
-    fileName: 'token:IMO',
+    filePath: 'token:IMO',
     symbol: 'imo',
     name: 'IMO',
     marketCapRank: 2145,
@@ -8501,7 +8501,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'impt',
-    fileName: 'token:IMPT',
+    filePath: 'token:IMPT',
     symbol: 'impt',
     name: 'IMPT',
     marketCapRank: 1739,
@@ -8512,7 +8512,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'infinity-pad-2',
-    fileName: 'token:IPAD',
+    filePath: 'token:IPAD',
     symbol: 'ipad',
     name: 'Infinity PAD',
     marketCapRank: 2251,
@@ -8523,7 +8523,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'infinitybit-token',
-    fileName: 'token:IBIT',
+    filePath: 'token:IBIT',
     symbol: 'ibit',
     name: 'InfinityBit Token',
     marketCapRank: 1983,
@@ -8534,7 +8534,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'injective-protocol',
-    fileName: 'token:INJ',
+    filePath: 'network:injective',
     symbol: 'inj',
     name: 'Injective',
     marketCapRank: 46,
@@ -8549,7 +8549,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'inscribe',
-    fileName: 'token:INS',
+    filePath: 'token:INS',
     symbol: 'ins',
     name: 'Inscribe',
     marketCapRank: 1848,
@@ -8560,7 +8560,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'instadapp',
-    fileName: 'token:INST',
+    filePath: 'token:INST',
     symbol: 'inst',
     name: 'Instadapp',
     marketCapRank: 922,
@@ -8572,7 +8572,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'instadapp-eth',
-    fileName: 'token:IETH',
+    filePath: 'token:IETH',
     symbol: 'ieth',
     name: 'iETH v1',
     marketCapRank: 2509,
@@ -8583,7 +8583,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'insurace',
-    fileName: 'token:INSUR',
+    filePath: 'token:INSUR',
     symbol: 'insur',
     name: 'InsurAce',
     marketCapRank: 2051,
@@ -8597,7 +8597,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'insure',
-    fileName: 'token:SURE',
+    filePath: 'token:SURE',
     symbol: 'sure',
     name: 'inSure DeFi',
     marketCapRank: 398,
@@ -8611,7 +8611,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'integritee',
-    fileName: 'token:TEER',
+    filePath: 'token:TEER',
     symbol: 'teer',
     name: 'Integritee',
     marketCapRank: 1994,
@@ -8620,7 +8620,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'inter-stable-token',
-    fileName: 'token:IST',
+    filePath: 'token:IST',
     symbol: 'ist',
     name: 'Inter Stable Token',
     marketCapRank: 2534,
@@ -8635,7 +8635,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'interlay',
-    fileName: 'token:INTR',
+    filePath: 'token:INTR',
     symbol: 'intr',
     name: 'Interlay',
     marketCapRank: 1618,
@@ -8644,7 +8644,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'internet-computer',
-    fileName: 'token:ICP',
+    filePath: 'token:ICP',
     symbol: 'icp',
     name: 'Internet Computer',
     marketCapRank: 21,
@@ -8655,7 +8655,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'interport-token',
-    fileName: 'token:ITP',
+    filePath: 'token:ITP',
     symbol: 'itp',
     name: 'Interport Token',
     marketCapRank: 1896,
@@ -8678,7 +8678,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'intrepid-token',
-    fileName: 'token:INT',
+    filePath: 'token:INT',
     symbol: 'int',
     name: 'Intrepid Token',
     marketCapRank: 2632,
@@ -8689,7 +8689,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'inverse-finance',
-    fileName: 'token:INV',
+    filePath: 'token:INV',
     symbol: 'inv',
     name: 'Inverse Finance',
     marketCapRank: 988,
@@ -8700,7 +8700,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ion',
-    fileName: 'token:ION',
+    filePath: 'token:ION',
     symbol: 'ion',
     name: 'Ion',
     marketCapRank: 1519,
@@ -8711,7 +8711,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'iostoken',
-    fileName: 'token:IOST',
+    filePath: 'token:IOST',
     symbol: 'iost',
     name: 'IOST',
     marketCapRank: 315,
@@ -8720,7 +8720,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'iota',
-    fileName: 'token:IOTA',
+    filePath: 'token:IOTA',
     symbol: 'iota',
     name: 'IOTA',
     marketCapRank: 106,
@@ -8729,7 +8729,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ipor',
-    fileName: 'token:IPOR',
+    filePath: 'token:IPOR',
     symbol: 'ipor',
     name: 'IPOR',
     marketCapRank: 1460,
@@ -8741,7 +8741,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'iris-network',
-    fileName: 'token:IRIS',
+    filePath: 'token:IRIS',
     symbol: 'iris',
     name: 'IRISnet',
     marketCapRank: 640,
@@ -8753,7 +8753,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'iron-fish',
-    fileName: 'token:IRON',
+    filePath: 'token:IRON',
     symbol: 'iron',
     name: 'Iron Fish',
     marketCapRank: 848,
@@ -8762,7 +8762,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'iskra-token',
-    fileName: 'token:ISK',
+    filePath: 'token:ISK',
     symbol: 'isk',
     name: 'ISKRA Token',
     marketCapRank: 960,
@@ -8774,7 +8774,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ispolink',
-    fileName: 'token:ISP',
+    filePath: 'token:ISP',
     symbol: 'isp',
     name: 'Ispolink',
     marketCapRank: 1419,
@@ -8787,7 +8787,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'itheum',
-    fileName: 'token:ITHEUM',
+    filePath: 'token:ITHEUM',
     symbol: 'itheum',
     name: 'Itheum',
     marketCapRank: 1370,
@@ -8798,7 +8798,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ix-swap',
-    fileName: 'token:IXS',
+    filePath: 'token:IXS',
     symbol: 'ixs',
     name: 'IX Swap',
     marketCapRank: 486,
@@ -8810,7 +8810,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ix-token',
-    fileName: 'token:IXT',
+    filePath: 'token:IXT',
     symbol: 'ixt',
     name: 'Planet IX',
     marketCapRank: 1369,
@@ -8821,7 +8821,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ixo',
-    fileName: 'token:IXO',
+    filePath: 'token:IXO',
     symbol: 'ixo',
     name: 'IXO',
     marketCapRank: 1454,
@@ -8833,7 +8833,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'jackal-protocol',
-    fileName: 'token:JKL',
+    filePath: 'token:JKL',
     symbol: 'jkl',
     name: 'Jackal Protocol',
     marketCapRank: 700,
@@ -8848,7 +8848,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'jasmycoin',
-    fileName: 'token:JASMY',
+    filePath: 'token:JASMY',
     symbol: 'jasmy',
     name: 'JasmyCoin',
     marketCapRank: 113,
@@ -8859,7 +8859,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'jesus-coin',
-    fileName: 'token:JESUS',
+    filePath: 'token:JESUS',
     symbol: 'jesus',
     name: 'Jesus Coin',
     marketCapRank: 1060,
@@ -8870,7 +8870,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'joe',
-    fileName: 'token:JOE',
+    filePath: 'token:JOE',
     symbol: 'joe',
     name: 'JOE',
     marketCapRank: 267,
@@ -8884,7 +8884,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'jones-dao',
-    fileName: 'token:JONES',
+    filePath: 'token:JONES',
     symbol: 'jones',
     name: 'Jones DAO',
     marketCapRank: 1945,
@@ -8895,7 +8895,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'joystream',
-    fileName: 'token:JOY',
+    filePath: 'token:JOY',
     symbol: 'joy',
     name: 'Joystream',
     marketCapRank: 1212,
@@ -8904,7 +8904,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'julswap',
-    fileName: 'token:JULD',
+    filePath: 'token:JULD',
     symbol: 'juld',
     name: 'JulSwap',
     marketCapRank: 2062,
@@ -8916,7 +8916,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'jumptoken',
-    fileName: 'token:JMPT',
+    filePath: 'token:JMPT',
     symbol: 'jmpt',
     name: 'JumpToken',
     marketCapRank: 1328,
@@ -8930,7 +8930,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'juno-network',
-    fileName: 'token:JUNO',
+    filePath: 'token:JUNO',
     symbol: 'juno',
     name: 'JUNO',
     marketCapRank: 1064,
@@ -8944,7 +8944,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'jupiter',
-    fileName: 'token:JUP',
+    filePath: 'token:JUP',
     symbol: 'jup',
     name: 'Jupiter Project',
     marketCapRank: 2628,
@@ -8956,7 +8956,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'just',
-    fileName: 'token:JST',
+    filePath: 'token:JST',
     symbol: 'jst',
     name: 'JUST',
     marketCapRank: 242,
@@ -8967,7 +8967,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'k21',
-    fileName: 'token:K21',
+    filePath: 'token:K21',
     symbol: 'k21',
     name: 'K21',
     marketCapRank: 2304,
@@ -8978,7 +8978,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kadena',
-    fileName: 'token:KDA',
+    filePath: 'token:KDA',
     symbol: 'kda',
     name: 'Kadena',
     marketCapRank: 224,
@@ -8987,7 +8987,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kaizen',
-    fileName: 'token:KZEN',
+    filePath: 'token:KZEN',
     symbol: 'kzen',
     name: 'Kaizen.Finance',
     marketCapRank: null,
@@ -9001,7 +9001,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kalmar',
-    fileName: 'token:KALM',
+    filePath: 'token:KALM',
     symbol: 'kalm',
     name: 'KALM',
     marketCapRank: 2581,
@@ -9014,7 +9014,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kamaleont',
-    fileName: 'token:KLT',
+    filePath: 'token:KLT',
     symbol: 'klt',
     name: 'Kamaleont',
     marketCapRank: 1566,
@@ -9025,7 +9025,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kan',
-    fileName: 'token:KAN',
+    filePath: 'token:KAN',
     symbol: 'kan',
     name: 'BitKan',
     marketCapRank: 1720,
@@ -9036,7 +9036,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kapital-dao',
-    fileName: 'token:KAP',
+    filePath: 'token:KAP',
     symbol: 'kap',
     name: 'KAP Games',
     marketCapRank: 1306,
@@ -9051,7 +9051,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'karat',
-    fileName: 'token:KAT',
+    filePath: 'token:KAT',
     symbol: 'kat',
     name: 'Karat',
     marketCapRank: 2213,
@@ -9062,7 +9062,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'karate-combat',
-    fileName: 'token:KARATE',
+    filePath: 'token:KARATE',
     symbol: 'karate',
     name: 'Karate Combat',
     marketCapRank: 1002,
@@ -9074,7 +9074,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kardiachain',
-    fileName: 'token:KAI',
+    filePath: 'token:KAI',
     symbol: 'kai',
     name: 'KardiaChain',
     marketCapRank: 1090,
@@ -9086,7 +9086,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'karura',
-    fileName: 'token:KAR',
+    filePath: 'token:KAR',
     symbol: 'kar',
     name: 'Karura',
     marketCapRank: 1081,
@@ -9095,7 +9095,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kaspa',
-    fileName: 'token:KAS',
+    filePath: 'token:KAS',
     symbol: 'kas',
     name: 'Kaspa',
     marketCapRank: 47,
@@ -9104,7 +9104,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kasta',
-    fileName: 'token:KASTA',
+    filePath: 'token:KASTA',
     symbol: 'kasta',
     name: 'Kasta',
     marketCapRank: 1163,
@@ -9115,7 +9115,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'katana-inu',
-    fileName: 'token:KATA',
+    filePath: 'token:KATA',
     symbol: 'kata',
     name: 'Katana Inu',
     marketCapRank: 741,
@@ -9127,7 +9127,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kava',
-    fileName: 'token:KAVA',
+    filePath: 'token:KAVA',
     symbol: 'kava',
     name: 'Kava',
     marketCapRank: 107,
@@ -9136,7 +9136,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kava-lend',
-    fileName: 'token:HARD',
+    filePath: 'token:HARD',
     symbol: 'hard',
     name: 'Kava Lend',
     marketCapRank: 881,
@@ -9147,7 +9147,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'keep-network',
-    fileName: 'token:KEEP',
+    filePath: 'token:KEEP',
     symbol: 'keep',
     name: 'Keep Network',
     marketCapRank: 447,
@@ -9160,7 +9160,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'keep3rv1',
-    fileName: 'token:KP3R',
+    filePath: 'token:KP3R',
     symbol: 'kp3r',
     name: 'Keep3rV1',
     marketCapRank: 788,
@@ -9173,7 +9173,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kek',
-    fileName: 'token:KEKE',
+    filePath: 'token:KEKE',
     symbol: 'keke',
     name: 'KEK',
     marketCapRank: 2249,
@@ -9184,7 +9184,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ki',
-    fileName: 'token:XKI',
+    filePath: 'token:XKI',
     symbol: 'xki',
     name: 'KI',
     marketCapRank: 1865,
@@ -9196,7 +9196,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kiba-inu',
-    fileName: 'token:KIBA',
+    filePath: 'token:KIBA',
     symbol: 'kiba',
     name: 'Kiba Inu',
     marketCapRank: 2060,
@@ -9208,7 +9208,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kiboshib',
-    fileName: 'token:KIBSHI',
+    filePath: 'token:KIBSHI',
     symbol: 'kibshi',
     name: 'KiboShib',
     marketCapRank: 1867,
@@ -9219,7 +9219,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kick',
-    fileName: 'token:KICK',
+    filePath: 'token:KICK',
     symbol: 'kick',
     name: 'Kick',
     marketCapRank: 2161,
@@ -9231,7 +9231,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kilt-protocol',
-    fileName: 'token:KILT',
+    filePath: 'token:KILT',
     symbol: 'kilt',
     name: 'KILT Protocol',
     marketCapRank: 692,
@@ -9240,7 +9240,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kin',
-    fileName: 'token:KIN',
+    filePath: 'token:KIN',
     symbol: 'kin',
     name: 'Kin',
     marketCapRank: 645,
@@ -9251,7 +9251,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kine-protocol',
-    fileName: 'token:KINE',
+    filePath: 'token:KINE',
     symbol: 'kine',
     name: 'Kine Protocol',
     marketCapRank: 1876,
@@ -9262,7 +9262,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kinesis-gold',
-    fileName: 'token:KAU',
+    filePath: 'token:KAU',
     symbol: 'kau',
     name: 'Kinesis Gold',
     marketCapRank: 531,
@@ -9271,7 +9271,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kinesis-silver',
-    fileName: 'token:KAG',
+    filePath: 'token:KAG',
     symbol: 'kag',
     name: 'Kinesis Silver',
     marketCapRank: 565,
@@ -9280,7 +9280,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'king-shiba',
-    fileName: 'token:KINGSHIB',
+    filePath: 'token:KINGSHIB',
     symbol: 'kingshib',
     name: 'King Shiba',
     marketCapRank: 2334,
@@ -9291,7 +9291,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kintsugi',
-    fileName: 'token:KINT',
+    filePath: 'token:KINT',
     symbol: 'kint',
     name: 'Kintsugi',
     marketCapRank: 2186,
@@ -9300,7 +9300,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kira-network',
-    fileName: 'token:KEX',
+    filePath: 'token:KEX',
     symbol: 'kex',
     name: 'KIRA Network',
     marketCapRank: 1071,
@@ -9312,7 +9312,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kishu-inu',
-    fileName: 'token:KISHU',
+    filePath: 'token:KISHU',
     symbol: 'kishu',
     name: 'Kishu Inu',
     marketCapRank: 1035,
@@ -9323,7 +9323,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kitty-inu',
-    fileName: 'token:KITTY',
+    filePath: 'token:KITTY',
     symbol: 'kitty',
     name: 'Kitty Inu',
     marketCapRank: 1944,
@@ -9334,7 +9334,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'klay-token',
-    fileName: 'token:KLAY',
+    filePath: 'token:KLAY',
     symbol: 'klay',
     name: 'Klaytn',
     marketCapRank: 117,
@@ -9343,7 +9343,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'klaycity-orb',
-    fileName: 'token:ORB',
+    filePath: 'token:ORB',
     symbol: 'orb',
     name: 'Orbcity',
     marketCapRank: 1432,
@@ -9355,7 +9355,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kleekai',
-    fileName: 'token:KLEE',
+    filePath: 'token:KLEE',
     symbol: 'klee',
     name: 'KleeKai',
     marketCapRank: 2751,
@@ -9366,7 +9366,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kleros',
-    fileName: 'token:PNK',
+    filePath: 'token:PNK',
     symbol: 'pnk',
     name: 'Kleros',
     marketCapRank: 1124,
@@ -9378,7 +9378,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kleva',
-    fileName: 'token:KLEVA',
+    filePath: 'token:KLEVA',
     symbol: 'kleva',
     name: 'KLEVA',
     marketCapRank: 1484,
@@ -9389,7 +9389,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'klever',
-    fileName: 'token:KLV',
+    filePath: 'token:KLV',
     symbol: 'klv',
     name: 'Klever',
     marketCapRank: 946,
@@ -9398,7 +9398,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'klima-dao',
-    fileName: 'token:KLIMA',
+    filePath: 'token:KLIMA',
     symbol: 'klima',
     name: 'KlimaDAO',
     marketCapRank: 992,
@@ -9409,7 +9409,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'koinos',
-    fileName: 'token:KOIN',
+    filePath: 'token:KOIN',
     symbol: 'koin',
     name: 'Koinos',
     marketCapRank: 882,
@@ -9418,7 +9418,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kommunitas',
-    fileName: 'token:KOM',
+    filePath: 'token:KOM',
     symbol: 'kom',
     name: 'Kommunitas',
     marketCapRank: 1961,
@@ -9431,7 +9431,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'komodo',
-    fileName: 'token:KMD',
+    filePath: 'token:KMD',
     symbol: 'kmd',
     name: 'Komodo',
     marketCapRank: 576,
@@ -9440,7 +9440,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kompete',
-    fileName: 'token:KOMPETE',
+    filePath: 'token:KOMPETE',
     symbol: 'kompete',
     name: 'KOMPETE',
     marketCapRank: 1026,
@@ -9452,7 +9452,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kondux-v2',
-    fileName: 'token:KNDX',
+    filePath: 'token:KNDX',
     symbol: 'kndx',
     name: 'KONDUX',
     marketCapRank: 660,
@@ -9463,7 +9463,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kromatika',
-    fileName: 'token:KROM',
+    filePath: 'token:KROM',
     symbol: 'krom',
     name: 'Kromatika',
     marketCapRank: 2096,
@@ -9477,7 +9477,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kryll',
-    fileName: 'token:KRL',
+    filePath: 'token:KRL',
     symbol: 'krl',
     name: 'KRYLL',
     marketCapRank: 903,
@@ -9488,7 +9488,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kryptomon',
-    fileName: 'token:KMON',
+    filePath: 'token:KMON',
     symbol: 'kmon',
     name: 'Kryptomon',
     marketCapRank: 1343,
@@ -9500,7 +9500,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kryptonite',
-    fileName: 'token:SEILOR',
+    filePath: 'token:SEILOR',
     symbol: 'seilor',
     name: 'Kryptonite',
     marketCapRank: 1224,
@@ -9513,7 +9513,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ktx-finance',
-    fileName: 'token:KTC',
+    filePath: 'token:KTC',
     symbol: 'ktc',
     name: 'KTX.Finance',
     marketCapRank: null,
@@ -9525,7 +9525,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kucoin-shares',
-    fileName: 'token:KCS',
+    filePath: 'token:KCS',
     symbol: 'kcs',
     name: 'KuCoin',
     marketCapRank: 110,
@@ -9534,7 +9534,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kujira',
-    fileName: 'token:KUJI',
+    filePath: 'token:KUJI',
     symbol: 'kuji',
     name: 'Kujira',
     marketCapRank: 253,
@@ -9551,7 +9551,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kuma-inu',
-    fileName: 'token:KUMA',
+    filePath: 'token:KUMA',
     symbol: 'kuma',
     name: 'Kuma Inu',
     marketCapRank: 2658,
@@ -9562,7 +9562,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kunci-coin',
-    fileName: 'token:KUNCI',
+    filePath: 'token:KUNCI',
     symbol: 'kunci',
     name: 'Kunci Coin',
     marketCapRank: 3927,
@@ -9573,7 +9573,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kusama',
-    fileName: 'token:KSM',
+    filePath: 'token:KSM',
     symbol: 'ksm',
     name: 'Kusama',
     marketCapRank: 208,
@@ -9582,7 +9582,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kwai',
-    fileName: 'token:KWAI',
+    filePath: 'token:KWAI',
     symbol: 'kwai',
     name: 'KWAI',
     marketCapRank: 1671,
@@ -9593,7 +9593,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kwenta',
-    fileName: 'token:KWENTA',
+    filePath: 'token:KWENTA',
     symbol: 'kwenta',
     name: 'Kwenta',
     marketCapRank: 676,
@@ -9604,7 +9604,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kyber-network-crystal',
-    fileName: 'token:KNC',
+    filePath: 'token:KNC',
     symbol: 'knc',
     name: 'Kyber Network Crystal',
     marketCapRank: 408,
@@ -9624,7 +9624,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'kyve-network',
-    fileName: 'token:KYVE',
+    filePath: 'token:KYVE',
     symbol: 'kyve',
     name: 'KYVE Network',
     marketCapRank: 702,
@@ -9633,7 +9633,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'l7dex',
-    fileName: 'token:LSD',
+    filePath: 'token:LSD',
     symbol: 'lsd',
     name: 'L7DEX',
     marketCapRank: 291,
@@ -9644,7 +9644,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lambda',
-    fileName: 'token:LAMB',
+    filePath: 'token:LAMB',
     symbol: 'lamb',
     name: 'Lambda',
     marketCapRank: 1238,
@@ -9655,7 +9655,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'land-of-conquest-slg',
-    fileName: 'token:SLG',
+    filePath: 'token:SLG',
     symbol: 'slg',
     name: 'SLG.GAMES',
     marketCapRank: 897,
@@ -9666,7 +9666,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'landshare',
-    fileName: 'token:LAND',
+    filePath: 'token:LAND',
     symbol: 'land',
     name: 'Landshare',
     marketCapRank: 1205,
@@ -9677,7 +9677,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'latoken',
-    fileName: 'token:LA',
+    filePath: 'token:LA',
     symbol: 'la',
     name: 'LA',
     marketCapRank: 2263,
@@ -9688,7 +9688,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lattice-token',
-    fileName: 'token:LTX',
+    filePath: 'token:LTX',
     symbol: 'ltx',
     name: 'Lattice',
     marketCapRank: 1859,
@@ -9699,7 +9699,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'launchpool',
-    fileName: 'token:LPOOL',
+    filePath: 'token:LPOOL',
     symbol: 'lpool',
     name: 'Launchpool',
     marketCapRank: 2213,
@@ -9711,7 +9711,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'law-blocks',
-    fileName: 'token:LBT',
+    filePath: 'token:LBT',
     symbol: 'lbt',
     name: 'Law Blocks',
     marketCapRank: 1679,
@@ -9722,7 +9722,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lazio-fan-token',
-    fileName: 'token:LAZIO',
+    filePath: 'token:LAZIO',
     symbol: 'lazio',
     name: 'Lazio Fan Token',
     marketCapRank: 1007,
@@ -9733,7 +9733,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lcx',
-    fileName: 'token:LCX',
+    filePath: 'token:LCX',
     symbol: 'lcx',
     name: 'LCX',
     marketCapRank: 293,
@@ -9744,7 +9744,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'league-of-kingdoms',
-    fileName: 'token:LOKA',
+    filePath: 'token:LOKA',
     symbol: 'loka',
     name: 'League of Kingdoms',
     marketCapRank: 782,
@@ -9755,7 +9755,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'leash',
-    fileName: 'token:LEASH',
+    filePath: 'token:LEASH',
     symbol: 'leash',
     name: 'Doge Killer',
     marketCapRank: 691,
@@ -9766,7 +9766,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'leeds-united-fan-token',
-    fileName: 'token:LUFC',
+    filePath: 'token:LUFC',
     symbol: 'lufc',
     name: 'Leeds United Fan Token',
     marketCapRank: 2237,
@@ -9777,7 +9777,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'leisuremeta',
-    fileName: 'token:LM',
+    filePath: 'token:LM',
     symbol: 'lm',
     name: 'LeisureMeta',
     marketCapRank: 1100,
@@ -9788,7 +9788,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'leo-token',
-    fileName: 'token:LEO',
+    filePath: 'token:LEO',
     symbol: 'leo',
     name: 'LEO Token',
     marketCapRank: 25,
@@ -9800,7 +9800,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'leox',
-    fileName: 'token:LEOX',
+    filePath: 'token:LEOX',
     symbol: 'leox',
     name: 'LEOX',
     marketCapRank: 927,
@@ -9811,7 +9811,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'level',
-    fileName: 'token:LVL',
+    filePath: 'token:LVL',
     symbol: 'lvl',
     name: 'Level',
     marketCapRank: 1886,
@@ -9823,7 +9823,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lever',
-    fileName: 'token:LEVER',
+    filePath: 'token:LEVER',
     symbol: 'lever',
     name: 'LeverFi',
     marketCapRank: 599,
@@ -9834,7 +9834,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'leverj-gluon',
-    fileName: 'token:L2',
+    filePath: 'token:L2',
     symbol: 'l2',
     name: 'Leverj Gluon',
     marketCapRank: 2833,
@@ -9845,7 +9845,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lgcy-network',
-    fileName: 'token:LGCY',
+    filePath: 'token:LGCY',
     symbol: 'lgcy',
     name: 'LGCY Network',
     marketCapRank: 2132,
@@ -9856,7 +9856,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'libra-incentix',
-    fileName: 'token:LIXX',
+    filePath: 'token:LIXX',
     symbol: 'lixx',
     name: 'Libra Incentix',
     marketCapRank: 1050,
@@ -9867,7 +9867,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'libre',
-    fileName: 'token:LIBRE',
+    filePath: 'token:LIBRE',
     symbol: 'libre',
     name: 'Libre',
     marketCapRank: 2207,
@@ -9876,7 +9876,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lido-dao',
-    fileName: 'token:LDO',
+    filePath: 'token:LDO',
     symbol: 'ldo',
     name: 'Lido DAO',
     marketCapRank: 55,
@@ -9890,7 +9890,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lido-staked-sol',
-    fileName: 'token:STSOL',
+    filePath: 'token:STSOL',
     symbol: 'stsol',
     name: 'Lido Staked SOL',
     marketCapRank: 122,
@@ -9901,7 +9901,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lif3',
-    fileName: 'token:LIF3',
+    filePath: 'token:LIF3',
     symbol: 'lif3',
     name: 'LIF3 (OLD)',
     marketCapRank: 857,
@@ -9913,7 +9913,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'limewire-token',
-    fileName: 'token:LMWR',
+    filePath: 'token:LMWR',
     symbol: 'lmwr',
     name: 'LimeWire',
     marketCapRank: 602,
@@ -9925,7 +9925,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'linda-2',
-    fileName: 'token:LINDA',
+    filePath: 'token:LINDA',
     symbol: 'linda',
     name: 'Linda',
     marketCapRank: 2085,
@@ -9941,7 +9941,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'linear',
-    fileName: 'token:LINA',
+    filePath: 'token:LINA',
     symbol: 'lina',
     name: 'Linear',
     marketCapRank: 579,
@@ -9954,7 +9954,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lingose',
-    fileName: 'token:LING',
+    filePath: 'token:LING',
     symbol: 'ling',
     name: 'Lingose',
     marketCapRank: 1072,
@@ -9963,7 +9963,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'link',
-    fileName: 'token:FNSA',
+    filePath: 'token:FNSA',
     symbol: 'fnsa',
     name: 'FINSCHIA',
     marketCapRank: 286,
@@ -9972,7 +9972,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'linkeye',
-    fileName: 'token:LET',
+    filePath: 'token:LET',
     symbol: 'let',
     name: 'Linkeye',
     marketCapRank: 2586,
@@ -9983,7 +9983,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'liquiddriver',
-    fileName: 'token:LQDR',
+    filePath: 'token:LQDR',
     symbol: 'lqdr',
     name: 'LiquidDriver',
     marketCapRank: 2033,
@@ -9998,7 +9998,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'liquity',
-    fileName: 'token:LQTY',
+    filePath: 'token:LQTY',
     symbol: 'lqty',
     name: 'Liquity',
     marketCapRank: 411,
@@ -10010,7 +10010,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'liquity-usd',
-    fileName: 'token:LUSD',
+    filePath: 'token:LUSD',
     symbol: 'lusd',
     name: 'Liquity USD',
     marketCapRank: 467,
@@ -10025,7 +10025,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lisk',
-    fileName: 'token:LSK',
+    filePath: 'token:LSK',
     symbol: 'lsk',
     name: 'Lisk',
     marketCapRank: 277,
@@ -10034,7 +10034,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'litecoin',
-    fileName: 'token:LTC',
+    filePath: 'token:LTC',
     symbol: 'ltc',
     name: 'Litecoin',
     marketCapRank: 22,
@@ -10043,7 +10043,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'litecoin-cash',
-    fileName: 'token:LCC',
+    filePath: 'token:LCC',
     symbol: 'lcc',
     name: 'Litecoin Cash',
     marketCapRank: 1871,
@@ -10052,7 +10052,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'litentry',
-    fileName: 'token:LIT',
+    filePath: 'token:LIT',
     symbol: 'lit',
     name: 'Litentry',
     marketCapRank: 581,
@@ -10063,7 +10063,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lithium-finance',
-    fileName: 'token:LITH',
+    filePath: 'token:LITH',
     symbol: 'lith',
     name: 'Lithium Finance',
     marketCapRank: 1355,
@@ -10074,7 +10074,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'litlab-games',
-    fileName: 'token:LITT',
+    filePath: 'token:LITT',
     symbol: 'litt',
     name: 'LitLab Games',
     marketCapRank: 1316,
@@ -10085,7 +10085,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'livepeer',
-    fileName: 'token:LPT',
+    filePath: 'token:LPT',
     symbol: 'lpt',
     name: 'Livepeer',
     marketCapRank: 170,
@@ -10098,7 +10098,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'liza-2',
-    fileName: 'token:LIZA',
+    filePath: 'token:LIZA',
     symbol: 'liza',
     name: 'LIZA',
     marketCapRank: 1495,
@@ -10109,7 +10109,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'localcoinswap',
-    fileName: 'token:LCS',
+    filePath: 'token:LCS',
     symbol: 'lcs',
     name: 'LocalCoinSwap',
     marketCapRank: 2050,
@@ -10120,7 +10120,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lockchain',
-    fileName: 'token:LOC',
+    filePath: 'token:LOC',
     symbol: 'loc',
     name: 'LockTrip',
     marketCapRank: 2036,
@@ -10132,7 +10132,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lodestar',
-    fileName: 'token:LODE',
+    filePath: 'token:LODE',
     symbol: 'lode',
     name: 'Lodestar',
     marketCapRank: 2176,
@@ -10143,7 +10143,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'loki-network',
-    fileName: 'token:OXEN',
+    filePath: 'token:OXEN',
     symbol: 'oxen',
     name: 'Oxen',
     marketCapRank: 1437,
@@ -10152,7 +10152,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'looksrare',
-    fileName: 'token:LOOKS',
+    filePath: 'token:LOOKS',
     symbol: 'looks',
     name: 'LooksRare',
     marketCapRank: 440,
@@ -10163,7 +10163,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'loom-network-new',
-    fileName: 'token:LOOM',
+    filePath: 'token:LOOM',
     symbol: 'loom',
     name: 'Loom Network (NEW)',
     marketCapRank: 427,
@@ -10175,7 +10175,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'loopring',
-    fileName: 'token:LRC',
+    filePath: 'token:LRC',
     symbol: 'lrc',
     name: 'Loopring',
     marketCapRank: 197,
@@ -10188,7 +10188,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lords',
-    fileName: 'token:LORDS',
+    filePath: 'token:LORDS',
     symbol: 'lords',
     name: 'LORDS',
     marketCapRank: 1032,
@@ -10201,7 +10201,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lossless',
-    fileName: 'token:LSS',
+    filePath: 'token:LSS',
     symbol: 'lss',
     name: 'Lossless',
     marketCapRank: 1227,
@@ -10213,7 +10213,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'loungem',
-    fileName: 'token:LZM',
+    filePath: 'token:LZM',
     symbol: 'lzm',
     name: 'LoungeM',
     marketCapRank: 1920,
@@ -10222,7 +10222,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lovely-inu-finance',
-    fileName: 'token:LOVELY',
+    filePath: 'token:LOVELY',
     symbol: 'lovely',
     name: 'Lovely Inu finance',
     marketCapRank: 1533,
@@ -10233,7 +10233,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lto-network',
-    fileName: 'token:LTO',
+    filePath: 'token:LTO',
     symbol: 'lto',
     name: 'LTO Network',
     marketCapRank: 487,
@@ -10245,7 +10245,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lua-token',
-    fileName: 'token:LUA',
+    filePath: 'token:LUA',
     symbol: 'lua',
     name: 'LuaSwap',
     marketCapRank: 1528,
@@ -10257,7 +10257,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'luca',
-    fileName: 'token:LUCA',
+    filePath: 'token:LUCA',
     symbol: 'luca',
     name: 'LUCA',
     marketCapRank: 1702,
@@ -10268,7 +10268,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lucidao',
-    fileName: 'token:LCD',
+    filePath: 'token:LCD',
     symbol: 'lcd',
     name: 'Lucidao',
     marketCapRank: 1660,
@@ -10279,7 +10279,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lucro',
-    fileName: 'token:LCR',
+    filePath: 'token:LCR',
     symbol: 'lcr',
     name: 'Lucro',
     marketCapRank: 1784,
@@ -10290,7 +10290,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lukso-token',
-    fileName: 'token:LYXE',
+    filePath: 'token:LYXE',
     symbol: 'lyxe',
     name: 'LUKSO [OLD]',
     marketCapRank: 628,
@@ -10302,7 +10302,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lukso-token-2',
-    fileName: 'token:LYX',
+    filePath: 'token:LYX',
     symbol: 'lyx',
     name: 'LUKSO',
     marketCapRank: 439,
@@ -10311,7 +10311,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'luna-inu',
-    fileName: 'token:LINU',
+    filePath: 'token:LINU',
     symbol: 'linu',
     name: 'Luna Inu',
     marketCapRank: 1441,
@@ -10322,7 +10322,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lunr-token',
-    fileName: 'token:LUNR',
+    filePath: 'token:LUNR',
     symbol: 'lunr',
     name: 'LunarCrush',
     marketCapRank: 1110,
@@ -10337,7 +10337,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'luxurious-pro-network-token',
-    fileName: 'token:LPNT',
+    filePath: 'token:LPNT',
     symbol: 'lpnt',
     name: 'Luxurious Pro Network',
     marketCapRank: 1657,
@@ -10348,7 +10348,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lybra-finance',
-    fileName: 'token:LBR',
+    filePath: 'token:LBR',
     symbol: 'lbr',
     name: 'Lybra',
     marketCapRank: 1319,
@@ -10360,7 +10360,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lympo',
-    fileName: 'token:LYM',
+    filePath: 'token:LYM',
     symbol: 'lym',
     name: 'Lympo',
     marketCapRank: 1942,
@@ -10371,7 +10371,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'lyra-finance',
-    fileName: 'token:LYRA',
+    filePath: 'token:LYRA',
     symbol: 'lyra',
     name: 'Lyra Finance',
     marketCapRank: 544,
@@ -10384,7 +10384,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mad-meerkat-etf',
-    fileName: 'token:METF',
+    filePath: 'token:METF',
     symbol: 'metf',
     name: 'Mad Meerkat ETF',
     marketCapRank: 2282,
@@ -10395,7 +10395,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mad-meerkat-optimizer',
-    fileName: 'token:MMO',
+    filePath: 'token:MMO',
     symbol: 'mmo',
     name: 'Mad Meerkat Optimizer',
     marketCapRank: 2716,
@@ -10406,7 +10406,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'magic-internet-money',
-    fileName: 'token:MIM',
+    filePath: 'token:MIM',
     symbol: 'mim',
     name: 'Magic Internet Money',
     marketCapRank: 723,
@@ -10428,7 +10428,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'magiccraft',
-    fileName: 'token:MCRT',
+    filePath: 'token:MCRT',
     symbol: 'mcrt',
     name: 'MagicCraft',
     marketCapRank: 1574,
@@ -10441,7 +10441,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'magpie',
-    fileName: 'token:MGP',
+    filePath: 'token:MGP',
     symbol: 'mgp',
     name: 'Magpie',
     marketCapRank: 925,
@@ -10453,7 +10453,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mahadao',
-    fileName: 'token:MAHA',
+    filePath: 'token:MAHA',
     symbol: 'maha',
     name: 'MahaDAO',
     marketCapRank: 1627,
@@ -10466,7 +10466,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'maiar-dex',
-    fileName: 'token:MEX',
+    filePath: 'token:MEX',
     symbol: 'mex',
     name: 'xExchange',
     marketCapRank: 1008,
@@ -10475,7 +10475,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'maidsafecoin',
-    fileName: 'token:EMAID',
+    filePath: 'token:EMAID',
     symbol: 'emaid',
     name: 'MaidSafeCoin',
     marketCapRank: 1273,
@@ -10486,7 +10486,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mainframe',
-    fileName: 'token:MFT',
+    filePath: 'token:MFT',
     symbol: 'mft',
     name: 'Mainframe',
     marketCapRank: 526,
@@ -10498,7 +10498,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'maker',
-    fileName: 'token:MKR',
+    filePath: 'token:MKR',
     symbol: 'mkr',
     name: 'Maker',
     marketCapRank: 42,
@@ -10513,7 +10513,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mancium',
-    fileName: 'token:MANC',
+    filePath: 'token:MANC',
     symbol: 'manc',
     name: 'Mancium',
     marketCapRank: 1520,
@@ -10524,7 +10524,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mango-markets',
-    fileName: 'token:MNGO',
+    filePath: 'token:MNGO',
     symbol: 'mngo',
     name: 'Mango',
     marketCapRank: 1066,
@@ -10536,7 +10536,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mangoman-intelligent',
-    fileName: 'token:MMIT',
+    filePath: 'token:MMIT',
     symbol: 'mmit',
     name: 'MangoMan Intelligent',
     marketCapRank: 1443,
@@ -10547,7 +10547,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'manifold-finance',
-    fileName: 'token:FOLD',
+    filePath: 'token:FOLD',
     symbol: 'fold',
     name: 'Manifold Finance',
     marketCapRank: 836,
@@ -10558,7 +10558,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mantle',
-    fileName: 'token:MNT',
+    filePath: 'token:MNT',
     symbol: 'mnt',
     name: 'Mantle',
     marketCapRank: 35,
@@ -10570,7 +10570,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mantra-dao',
-    fileName: 'token:OM',
+    filePath: 'token:OM',
     symbol: 'om',
     name: 'MANTRA',
     marketCapRank: 175,
@@ -10583,7 +10583,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'maple',
-    fileName: 'token:MPL',
+    filePath: 'token:MPL',
     symbol: 'mpl',
     name: 'Maple',
     marketCapRank: 386,
@@ -10594,7 +10594,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'maps',
-    fileName: 'token:MAPS',
+    filePath: 'token:MAPS',
     symbol: 'maps',
     name: 'MAPS',
     marketCapRank: 2216,
@@ -10606,7 +10606,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'marblex',
-    fileName: 'token:MBX',
+    filePath: 'token:MBX',
     symbol: 'mbx',
     name: 'Marblex',
     marketCapRank: 393,
@@ -10620,7 +10620,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'marcopolo',
-    fileName: 'token:MAP',
+    filePath: 'token:MAP',
     symbol: 'map',
     name: 'MAP Protocol',
     marketCapRank: 593,
@@ -10631,7 +10631,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'marinade',
-    fileName: 'token:MNDE',
+    filePath: 'token:MNDE',
     symbol: 'mnde',
     name: 'Marinade',
     marketCapRank: 597,
@@ -10642,7 +10642,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'market-making-pro',
-    fileName: 'token:MMPRO',
+    filePath: 'token:MMPRO',
     symbol: 'mmpro',
     name: 'Market Making Pro',
     marketCapRank: 1568,
@@ -10653,7 +10653,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'marlin',
-    fileName: 'token:POND',
+    filePath: 'token:POND',
     symbol: 'pond',
     name: 'Marlin',
     marketCapRank: 284,
@@ -10665,7 +10665,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mars4',
-    fileName: 'token:MARS4',
+    filePath: 'token:MARS4',
     symbol: 'mars4',
     name: 'MARS4',
     marketCapRank: 1672,
@@ -10677,7 +10677,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'marsdao',
-    fileName: 'token:MDAO',
+    filePath: 'token:MDAO',
     symbol: 'mdao',
     name: 'MarsDAO',
     marketCapRank: 1302,
@@ -10688,7 +10688,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mask-network',
-    fileName: 'token:MASK',
+    filePath: 'token:MASK',
     symbol: 'mask',
     name: 'Mask Network',
     marketCapRank: 180,
@@ -10702,7 +10702,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'masq',
-    fileName: 'token:MASQ',
+    filePath: 'token:MASQ',
     symbol: 'masq',
     name: 'MASQ',
     marketCapRank: 1514,
@@ -10715,7 +10715,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mass-vehicle-ledger',
-    fileName: 'token:MVL',
+    filePath: 'token:MVL',
     symbol: 'mvl',
     name: 'MVL',
     marketCapRank: 367,
@@ -10727,7 +10727,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'materium',
-    fileName: 'token:MTRM',
+    filePath: 'token:MTRM',
     symbol: 'mtrm',
     name: 'Materium',
     marketCapRank: 2088,
@@ -10738,7 +10738,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'math',
-    fileName: 'token:MATH',
+    filePath: 'token:MATH',
     symbol: 'math',
     name: 'MATH',
     marketCapRank: 915,
@@ -10751,7 +10751,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'matic-network',
-    fileName: 'token:MATIC',
+    filePath: 'token:MATIC',
     symbol: 'matic',
     name: 'Polygon',
     marketCapRank: 20,
@@ -10769,7 +10769,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'matrix-ai-network',
-    fileName: 'token:MAN',
+    filePath: 'token:MAN',
     symbol: 'man',
     name: 'Matrix AI Network',
     marketCapRank: 1126,
@@ -10778,7 +10778,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'maverick-protocol',
-    fileName: 'token:MAV',
+    filePath: 'token:MAV',
     symbol: 'mav',
     name: 'Maverick Protocol',
     marketCapRank: 390,
@@ -10791,7 +10791,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'maxity',
-    fileName: 'token:MAX',
+    filePath: 'token:MAX',
     symbol: 'max',
     name: 'Maxity',
     marketCapRank: 1764,
@@ -10802,7 +10802,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mbd-financials',
-    fileName: 'token:MBD',
+    filePath: 'token:MBD',
     symbol: 'mbd',
     name: 'MBD Financials',
     marketCapRank: 1727,
@@ -10813,7 +10813,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mcdex',
-    fileName: 'token:MCB',
+    filePath: 'token:MCB',
     symbol: 'mcb',
     name: 'MUX Protocol',
     marketCapRank: 809,
@@ -10826,7 +10826,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mch-coin',
-    fileName: 'token:MCHC',
+    filePath: 'token:MCHC',
     symbol: 'mchc',
     name: 'MCH Coin',
     marketCapRank: 2065,
@@ -10838,7 +10838,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mcontent',
-    fileName: 'token:MCONTENT',
+    filePath: 'token:MCONTENT',
     symbol: 'mcontent',
     name: 'MContent',
     marketCapRank: 1662,
@@ -10850,7 +10850,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mcpepe-s',
-    fileName: 'token:PEPES',
+    filePath: 'token:PEPES',
     symbol: 'pepes',
     name: "McPepe's",
     marketCapRank: 2582,
@@ -10861,7 +10861,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mdex',
-    fileName: 'token:MDX',
+    filePath: 'token:MDX',
     symbol: 'mdx',
     name: 'Mdex (HECO)',
     marketCapRank: 753,
@@ -10872,7 +10872,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'meanfi',
-    fileName: 'token:MEAN',
+    filePath: 'token:MEAN',
     symbol: 'mean',
     name: 'Mean DAO',
     marketCapRank: 1685,
@@ -10886,7 +10886,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'measurable-data-token',
-    fileName: 'token:MDT',
+    filePath: 'token:MDT',
     symbol: 'mdt',
     name: 'Measurable Data',
     marketCapRank: 656,
@@ -10897,7 +10897,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'media-network',
-    fileName: 'token:MEDIA',
+    filePath: 'token:MEDIA',
     symbol: 'media',
     name: 'Media Network',
     marketCapRank: 1771,
@@ -10910,7 +10910,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'medibloc',
-    fileName: 'token:MED',
+    filePath: 'token:MED',
     symbol: 'med',
     name: 'Medibloc',
     marketCapRank: 427,
@@ -10919,7 +10919,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'medicinal-pork',
-    fileName: 'token:MORK',
+    filePath: 'token:MORK',
     symbol: 'mork',
     name: 'Medicinal Pork',
     marketCapRank: null,
@@ -10928,7 +10928,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'meeds-dao',
-    fileName: 'token:MEED',
+    filePath: 'token:MEED',
     symbol: 'meed',
     name: 'Meeds DAO',
     marketCapRank: 1934,
@@ -10940,7 +10940,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'meld-2',
-    fileName: 'token:MELD',
+    filePath: 'token:MELD',
     symbol: 'meld',
     name: 'MELD',
     marketCapRank: 590,
@@ -10954,7 +10954,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'melon',
-    fileName: 'token:MLN',
+    filePath: 'token:MLN',
     symbol: 'mln',
     name: 'Enzyme',
     marketCapRank: 914,
@@ -10966,7 +10966,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'meme-ai-coin',
-    fileName: 'token:MEMEAI',
+    filePath: 'token:MEMEAI',
     symbol: 'memeai',
     name: 'Meme AI Coin',
     marketCapRank: 1774,
@@ -10977,7 +10977,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'memecoin',
-    fileName: 'token:MEME',
+    filePath: 'token:MEME',
     symbol: 'meme',
     name: 'Memecoin',
     marketCapRank: 169,
@@ -10988,7 +10988,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'meridian-mst',
-    fileName: 'token:MST',
+    filePath: 'token:MST',
     symbol: 'mst',
     name: 'Meridian MST',
     marketCapRank: 2663,
@@ -10999,7 +10999,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'merit-circle',
-    fileName: 'token:MC',
+    filePath: 'token:MC',
     symbol: 'mc',
     name: 'Merit Circle',
     marketCapRank: 550,
@@ -11011,7 +11011,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'messier',
-    fileName: 'token:M87',
+    filePath: 'token:M87',
     symbol: 'm87',
     name: 'MESSIER',
     marketCapRank: 1724,
@@ -11022,7 +11022,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'meta',
-    fileName: 'token:MTA',
+    filePath: 'token:MTA',
     symbol: 'mta',
     name: 'mStable Governance: Meta',
     marketCapRank: 2478,
@@ -11035,7 +11035,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'meta-apes-peel',
-    fileName: 'token:PEEL',
+    filePath: 'token:PEEL',
     symbol: 'peel',
     name: 'Meta Apes PEEL',
     marketCapRank: 1868,
@@ -11046,7 +11046,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metacade',
-    fileName: 'token:MCADE',
+    filePath: 'token:MCADE',
     symbol: 'mcade',
     name: 'Metacade',
     marketCapRank: 873,
@@ -11057,7 +11057,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metadium',
-    fileName: 'token:META',
+    filePath: 'token:META',
     symbol: 'meta',
     name: 'Metadium',
     marketCapRank: 562,
@@ -11068,7 +11068,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metafighter',
-    fileName: 'token:MF',
+    filePath: 'token:MF',
     symbol: 'mf',
     name: 'MetaFighter',
     marketCapRank: 2479,
@@ -11079,7 +11079,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metahero',
-    fileName: 'token:HERO',
+    filePath: 'token:HERO',
     symbol: 'hero',
     name: 'Metahero',
     marketCapRank: 831,
@@ -11090,7 +11090,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metal',
-    fileName: 'token:MTL',
+    filePath: 'token:MTL',
     symbol: 'mtl',
     name: 'Metal DAO',
     marketCapRank: 425,
@@ -11102,7 +11102,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metaplex',
-    fileName: 'token:MPLX',
+    filePath: 'token:MPLX',
     symbol: 'mplx',
     name: 'Metaplex',
     marketCapRank: 473,
@@ -11113,7 +11113,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metars-genesis',
-    fileName: 'token:MRS',
+    filePath: 'token:MRS',
     symbol: 'mrs',
     name: 'Metars Genesis',
     marketCapRank: 417,
@@ -11124,7 +11124,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metastrike',
-    fileName: 'token:MTS',
+    filePath: 'token:MTS',
     symbol: 'mts',
     name: 'Metastrike',
     marketCapRank: 2036,
@@ -11135,7 +11135,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metavault-dao',
-    fileName: 'token:MVD',
+    filePath: 'token:MVD',
     symbol: 'mvd',
     name: 'Metavault DAO',
     marketCapRank: 2603,
@@ -11147,7 +11147,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metavault-trade',
-    fileName: 'token:MVX',
+    filePath: 'token:MVX',
     symbol: 'mvx',
     name: 'Metavault Trade',
     marketCapRank: 1898,
@@ -11161,7 +11161,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metaverse-etp',
-    fileName: 'token:ETP',
+    filePath: 'token:ETP',
     symbol: 'etp',
     name: 'Metaverse ETP',
     marketCapRank: 2358,
@@ -11170,7 +11170,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metaverse-index',
-    fileName: 'token:MVI',
+    filePath: 'token:MVI',
     symbol: 'mvi',
     name: 'Metaverse Index',
     marketCapRank: 1587,
@@ -11182,7 +11182,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metaverse-network-pioneer',
-    fileName: 'token:NEER',
+    filePath: 'token:NEER',
     symbol: 'neer',
     name: 'MNet Pioneer',
     marketCapRank: 1872,
@@ -11191,7 +11191,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metaverser',
-    fileName: 'token:MTVT',
+    filePath: 'token:MTVT',
     symbol: 'mtvt',
     name: 'Metaverser',
     marketCapRank: 2435,
@@ -11202,7 +11202,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metavpad',
-    fileName: 'token:METAV',
+    filePath: 'token:METAV',
     symbol: 'metav',
     name: 'MetaVPad',
     marketCapRank: 2381,
@@ -11213,7 +11213,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'meter',
-    fileName: 'token:MTRG',
+    filePath: 'token:MTRG',
     symbol: 'mtrg',
     name: 'Meter Governance',
     marketCapRank: 626,
@@ -11226,7 +11226,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metfi-2',
-    fileName: 'token:METFI',
+    filePath: 'token:METFI',
     symbol: 'metfi',
     name: 'MetFi',
     marketCapRank: 1875,
@@ -11237,7 +11237,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metis-token',
-    fileName: 'token:METIS',
+    filePath: 'token:METIS',
     symbol: 'metis',
     name: 'Metis',
     marketCapRank: 186,
@@ -11249,7 +11249,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'metronome',
-    fileName: 'token:MET',
+    filePath: 'token:MET',
     symbol: 'met',
     name: 'Metronome',
     marketCapRank: 1553,
@@ -11260,7 +11260,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mettalex',
-    fileName: 'token:MTLX',
+    filePath: 'token:MTLX',
     symbol: 'mtlx',
     name: 'Mettalex',
     marketCapRank: 1191,
@@ -11272,7 +11272,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'microvisionchain',
-    fileName: 'token:SPACE',
+    filePath: 'token:SPACE',
     symbol: 'space',
     name: 'MicrovisionChain',
     marketCapRank: 736,
@@ -11281,7 +11281,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'milady-meme-coin',
-    fileName: 'token:LADYS',
+    filePath: 'token:LADYS',
     symbol: 'ladys',
     name: 'Milady Meme Coin',
     marketCapRank: 315,
@@ -11293,7 +11293,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'milk-alliance',
-    fileName: 'token:MLK',
+    filePath: 'token:MLK',
     symbol: 'mlk',
     name: 'MiL.k Alliance',
     marketCapRank: 430,
@@ -11302,7 +11302,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'million',
-    fileName: 'token:MM',
+    filePath: 'token:MM',
     symbol: 'mm',
     name: 'Million',
     marketCapRank: 2347,
@@ -11315,7 +11315,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mimatic',
-    fileName: 'token:MIMATIC',
+    filePath: 'token:MIMATIC',
     symbol: 'mimatic',
     name: 'MAI',
     marketCapRank: 1122,
@@ -11340,7 +11340,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mimblewimblecoin',
-    fileName: 'token:MWC',
+    filePath: 'token:MWC',
     symbol: 'mwc',
     name: 'MimbleWimbleCoin',
     marketCapRank: 462,
@@ -11349,7 +11349,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mimo-parallel-governance-token',
-    fileName: 'token:MIMO',
+    filePath: 'token:MIMO',
     symbol: 'mimo',
     name: 'Mimo Governance',
     marketCapRank: 1672,
@@ -11362,7 +11362,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mina-protocol',
-    fileName: 'token:MINA',
+    filePath: 'token:MINA',
     symbol: 'mina',
     name: 'Mina Protocol',
     marketCapRank: 90,
@@ -11371,7 +11371,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'minativerse',
-    fileName: 'token:MNTC',
+    filePath: 'token:MNTC',
     symbol: 'mntc',
     name: 'MINATIVERSE',
     marketCapRank: 1601,
@@ -11382,7 +11382,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mind-language',
-    fileName: 'token:MND',
+    filePath: 'token:MND',
     symbol: 'mnd',
     name: 'Mind',
     marketCapRank: 1472,
@@ -11393,7 +11393,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mineable',
-    fileName: 'token:MNB',
+    filePath: 'token:MNB',
     symbol: 'mnb',
     name: 'Mineable',
     marketCapRank: 3384,
@@ -11404,7 +11404,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mineral',
-    fileName: 'token:MNR',
+    filePath: 'token:MNR',
     symbol: 'mnr',
     name: 'Mineral',
     marketCapRank: 2078,
@@ -11415,7 +11415,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'minswap',
-    fileName: 'token:MIN',
+    filePath: 'token:MIN',
     symbol: 'min',
     name: 'Minswap',
     marketCapRank: 828,
@@ -11426,7 +11426,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'minted',
-    fileName: 'token:MTD',
+    filePath: 'token:MTD',
     symbol: 'mtd',
     name: 'Minted',
     marketCapRank: 1475,
@@ -11438,7 +11438,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mintlayer',
-    fileName: 'token:ML',
+    filePath: 'token:ML',
     symbol: 'ml',
     name: 'Mintlayer',
     marketCapRank: 839,
@@ -11449,7 +11449,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'minto',
-    fileName: 'token:BTCMT',
+    filePath: 'token:BTCMT',
     symbol: 'btcmt',
     name: 'Minto',
     marketCapRank: 1888,
@@ -11461,7 +11461,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'minu',
-    fileName: 'token:MINU',
+    filePath: 'token:MINU',
     symbol: 'minu',
     name: 'Minu',
     marketCapRank: 2024,
@@ -11472,7 +11472,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mirror-protocol',
-    fileName: 'token:MIR',
+    filePath: 'token:MIR',
     symbol: 'mir',
     name: 'Mirror Protocol',
     marketCapRank: 1424,
@@ -11486,7 +11486,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mixmarvel',
-    fileName: 'token:MIX',
+    filePath: 'token:MIX',
     symbol: 'mix',
     name: 'MixMarvel',
     marketCapRank: 1052,
@@ -11498,7 +11498,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mixmob',
-    fileName: 'token:MXM',
+    filePath: 'token:MXM',
     symbol: 'mxm',
     name: 'MixMob',
     marketCapRank: 1458,
@@ -11509,7 +11509,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mizar',
-    fileName: 'token:MZR',
+    filePath: 'token:MZR',
     symbol: 'mzr',
     name: 'Mizar',
     marketCapRank: 1998,
@@ -11520,7 +11520,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mmfinance',
-    fileName: 'token:MMF',
+    filePath: 'token:MMF',
     symbol: 'mmf',
     name: 'MMFinance (Cronos)',
     marketCapRank: 1749,
@@ -11531,7 +11531,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mobius',
-    fileName: 'token:MOBI',
+    filePath: 'token:MOBI',
     symbol: 'mobi',
     name: 'Mobius',
     marketCapRank: 1774,
@@ -11542,7 +11542,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mobox',
-    fileName: 'token:MBOX',
+    filePath: 'token:MBOX',
     symbol: 'mbox',
     name: 'Mobox',
     marketCapRank: 457,
@@ -11553,7 +11553,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'moby',
-    fileName: 'token:MOBY',
+    filePath: 'token:MOBY',
     symbol: 'moby',
     name: 'Moby',
     marketCapRank: 1215,
@@ -11564,7 +11564,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mochi-thecatcoin',
-    fileName: 'token:MOCHI',
+    filePath: 'token:MOCHI',
     symbol: 'mochi',
     name: 'Mochi',
     marketCapRank: 734,
@@ -11575,7 +11575,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'modefi',
-    fileName: 'token:MOD',
+    filePath: 'token:MOD',
     symbol: 'mod',
     name: 'Modefi',
     marketCapRank: 2482,
@@ -11589,7 +11589,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'moe-3',
-    fileName: 'token:MOE',
+    filePath: 'token:MOE',
     symbol: 'moe',
     name: 'MOE',
     marketCapRank: 1591,
@@ -11600,7 +11600,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mog-coin',
-    fileName: 'token:MOG',
+    filePath: 'token:MOG',
     symbol: 'mog',
     name: 'Mog Coin',
     marketCapRank: 270,
@@ -11611,7 +11611,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'monavale',
-    fileName: 'token:MONA',
+    filePath: 'token:MONA',
     symbol: 'mona',
     name: 'Monavale',
     marketCapRank: 2327,
@@ -11623,7 +11623,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'monero',
-    fileName: 'token:XMR',
+    filePath: 'token:XMR',
     symbol: 'xmr',
     name: 'Monero',
     marketCapRank: 57,
@@ -11632,7 +11632,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'monetha',
-    fileName: 'token:MTH',
+    filePath: 'token:MTH',
     symbol: 'mth',
     name: 'Monetha',
     marketCapRank: 2675,
@@ -11643,7 +11643,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'moon',
-    fileName: 'token:MOON',
+    filePath: 'token:MOON',
     symbol: 'moon',
     name: 'r/CryptoCurrency Moons',
     marketCapRank: 1104,
@@ -11655,7 +11655,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'moon-tropica',
-    fileName: 'token:CAH',
+    filePath: 'token:CAH',
     symbol: 'cah',
     name: 'Moon Tropica',
     marketCapRank: 544,
@@ -11666,7 +11666,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'moonbeam',
-    fileName: 'token:GLMR',
+    filePath: 'token:GLMR',
     symbol: 'glmr',
     name: 'Moonbeam',
     marketCapRank: 215,
@@ -11675,7 +11675,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'moonedge',
-    fileName: 'token:MOONED',
+    filePath: 'token:MOONED',
     symbol: 'mooned',
     name: 'MoonEdge',
     marketCapRank: 2107,
@@ -11686,7 +11686,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'moonriver',
-    fileName: 'token:MOVR',
+    filePath: 'token:MOVR',
     symbol: 'movr',
     name: 'Moonriver',
     marketCapRank: 352,
@@ -11698,7 +11698,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'moonstarter',
-    fileName: 'token:MNST',
+    filePath: 'token:MNST',
     symbol: 'mnst',
     name: 'MoonStarter',
     marketCapRank: 2455,
@@ -11709,7 +11709,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'moonwell-artemis',
-    fileName: 'token:WELL',
+    filePath: 'token:WELL',
     symbol: 'well',
     name: 'Moonwell',
     marketCapRank: 549,
@@ -11721,7 +11721,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'morpheus-labs',
-    fileName: 'token:MIND',
+    filePath: 'token:MIND',
     symbol: 'mind',
     name: 'Morpheus Labs',
     marketCapRank: 2245,
@@ -11733,7 +11733,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'morpheus-network',
-    fileName: 'token:MNW',
+    filePath: 'token:MNW',
     symbol: 'mnw',
     name: 'Morpheus Network',
     marketCapRank: 821,
@@ -11745,7 +11745,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mossland',
-    fileName: 'token:MOC',
+    filePath: 'token:MOC',
     symbol: 'moc',
     name: 'Mossland',
     marketCapRank: 737,
@@ -11756,7 +11756,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'moviebloc',
-    fileName: 'token:MBL',
+    filePath: 'token:MBL',
     symbol: 'mbl',
     name: 'MovieBloc',
     marketCapRank: 500,
@@ -11767,7 +11767,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'msol',
-    fileName: 'token:MSOL',
+    filePath: 'token:MSOL',
     symbol: 'msol',
     name: 'Marinade staked SOL',
     marketCapRank: 100,
@@ -11778,7 +11778,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mt-pelerin-shares',
-    fileName: 'token:MPS',
+    filePath: 'token:MPS',
     symbol: 'mps',
     name: 'Mt Pelerin Shares',
     marketCapRank: 2254,
@@ -11790,7 +11790,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'multivac',
-    fileName: 'token:MTV',
+    filePath: 'token:MTV',
     symbol: 'mtv',
     name: 'MultiVAC',
     marketCapRank: 1708,
@@ -11802,7 +11802,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mummy-finance',
-    fileName: 'token:MMY',
+    filePath: 'token:MMY',
     symbol: 'mmy',
     name: 'Mummy Finance',
     marketCapRank: 2126,
@@ -11814,7 +11814,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'musd',
-    fileName: 'token:MUSD',
+    filePath: 'token:MUSD',
     symbol: 'musd',
     name: 'mStable USD',
     marketCapRank: 2075,
@@ -11825,7 +11825,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'muse-2',
-    fileName: 'token:MUSE',
+    filePath: 'token:MUSE',
     symbol: 'muse',
     name: 'Muse DAO',
     marketCapRank: 1176,
@@ -11836,7 +11836,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mute',
-    fileName: 'token:MUTE',
+    filePath: 'token:MUTE',
     symbol: 'mute',
     name: 'Mute',
     marketCapRank: 1109,
@@ -11848,7 +11848,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mx-token',
-    fileName: 'token:MX',
+    filePath: 'token:MX',
     symbol: 'mx',
     name: 'MX',
     marketCapRank: 214,
@@ -11859,7 +11859,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mxc',
-    fileName: 'token:MXC',
+    filePath: 'token:MXC',
     symbol: 'mxc',
     name: 'MXC',
     marketCapRank: 736,
@@ -11870,7 +11870,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'my-defi-pet',
-    fileName: 'token:DPET',
+    filePath: 'token:DPET',
     symbol: 'dpet',
     name: 'My DeFi Pet',
     marketCapRank: 1848,
@@ -11883,7 +11883,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'my-neighbor-alice',
-    fileName: 'token:ALICE',
+    filePath: 'token:ALICE',
     symbol: 'alice',
     name: 'My Neighbor Alice',
     marketCapRank: 386,
@@ -11895,7 +11895,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'myria',
-    fileName: 'token:MYRIA',
+    filePath: 'token:MYRIA',
     symbol: 'myria',
     name: 'Myria',
     marketCapRank: 378,
@@ -11906,7 +11906,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'mysterium',
-    fileName: 'token:MYST',
+    filePath: 'token:MYST',
     symbol: 'myst',
     name: 'Mysterium',
     marketCapRank: 1808,
@@ -11919,7 +11919,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nabox',
-    fileName: 'token:NABOX',
+    filePath: 'token:NABOX',
     symbol: 'nabox',
     name: 'Nabox',
     marketCapRank: 2245,
@@ -11931,7 +11931,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nada-protocol-token',
-    fileName: 'token:NADA',
+    filePath: 'token:NADA',
     symbol: 'nada',
     name: 'NADA Protocol Token',
     marketCapRank: 1453,
@@ -11942,7 +11942,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'naga',
-    fileName: 'token:NGC',
+    filePath: 'token:NGC',
     symbol: 'ngc',
     name: 'NAGA',
     marketCapRank: 2005,
@@ -11953,7 +11953,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nakamoto-games',
-    fileName: 'token:NAKA',
+    filePath: 'token:NAKA',
     symbol: 'naka',
     name: 'Nakamoto Games',
     marketCapRank: 422,
@@ -11964,7 +11964,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nals',
-    fileName: 'token:NALS',
+    filePath: 'token:NALS',
     symbol: 'nals',
     name: 'NALS',
     marketCapRank: 2073,
@@ -11976,7 +11976,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nano',
-    fileName: 'token:XNO',
+    filePath: 'token:XNO',
     symbol: 'xno',
     name: 'Nano',
     marketCapRank: 326,
@@ -11985,7 +11985,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nanobyte',
-    fileName: 'token:NBT',
+    filePath: 'token:NBT',
     symbol: 'nbt',
     name: 'NanoByte',
     marketCapRank: 2081,
@@ -11997,7 +11997,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'naos-finance',
-    fileName: 'token:NAOS',
+    filePath: 'token:NAOS',
     symbol: 'naos',
     name: 'NAOS Finance',
     marketCapRank: 1836,
@@ -12009,7 +12009,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'napoli-fan-token',
-    fileName: 'token:NAP',
+    filePath: 'token:NAP',
     symbol: 'nap',
     name: 'Napoli Fan Token',
     marketCapRank: 1823,
@@ -12020,7 +12020,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nav-coin',
-    fileName: 'token:NAV',
+    filePath: 'token:NAV',
     symbol: 'nav',
     name: 'Navcoin',
     marketCapRank: 1997,
@@ -12031,7 +12031,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'near',
-    fileName: 'token:NEAR',
+    filePath: 'token:NEAR',
     symbol: 'near',
     name: 'NEAR Protocol',
     marketCapRank: 23,
@@ -12040,7 +12040,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'neighbourhoods',
-    fileName: 'token:NHT',
+    filePath: 'token:NHT',
     symbol: 'nht',
     name: 'Neighbourhoods',
     marketCapRank: 1888,
@@ -12052,7 +12052,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nem',
-    fileName: 'token:XEM',
+    filePath: 'token:XEM',
     symbol: 'xem',
     name: 'NEM',
     marketCapRank: 201,
@@ -12061,7 +12061,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'neo',
-    fileName: 'token:NEO',
+    filePath: 'token:NEO',
     symbol: 'neo',
     name: 'NEO',
     marketCapRank: 105,
@@ -12070,7 +12070,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'neon',
-    fileName: 'token:NEON',
+    filePath: 'token:NEON',
     symbol: 'neon',
     name: 'Neon',
     marketCapRank: 537,
@@ -12081,7 +12081,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'neon-exchange',
-    fileName: 'token:NEX',
+    filePath: 'token:NEX',
     symbol: 'nex',
     name: 'Nash',
     marketCapRank: 1664,
@@ -12094,7 +12094,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'neos-credits',
-    fileName: 'token:NCR',
+    filePath: 'token:NCR',
     symbol: 'ncr',
     name: 'Neos Credits',
     marketCapRank: 2047,
@@ -12105,7 +12105,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'neptune-mutual',
-    fileName: 'token:NPM',
+    filePath: 'token:NPM',
     symbol: 'npm',
     name: 'Neptune Mutual',
     marketCapRank: 2110,
@@ -12119,7 +12119,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nervenetwork',
-    fileName: 'token:NVT',
+    filePath: 'token:NVT',
     symbol: 'nvt',
     name: 'NerveNetwork',
     marketCapRank: 1684,
@@ -12128,7 +12128,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nervos-network',
-    fileName: 'token:CKB',
+    filePath: 'token:CKB',
     symbol: 'ckb',
     name: 'Nervos Network',
     marketCapRank: 129,
@@ -12137,7 +12137,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nest',
-    fileName: 'token:NEST',
+    filePath: 'token:NEST',
     symbol: 'nest',
     name: 'Nest Protocol',
     marketCapRank: 1083,
@@ -12149,7 +12149,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'netswap',
-    fileName: 'token:NETT',
+    filePath: 'token:NETT',
     symbol: 'nett',
     name: 'Netswap',
     marketCapRank: 1761,
@@ -12160,7 +12160,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'neurai',
-    fileName: 'token:XNA',
+    filePath: 'token:XNA',
     symbol: 'xna',
     name: 'Neurai',
     marketCapRank: 981,
@@ -12169,7 +12169,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'neuroni-ai',
-    fileName: 'token:NEURONI',
+    filePath: 'token:NEURONI',
     symbol: 'neuroni',
     name: 'Neuroni AI',
     marketCapRank: 1901,
@@ -12180,7 +12180,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'neutrino-system-base-token',
-    fileName: 'token:NSBT',
+    filePath: 'token:NSBT',
     symbol: 'nsbt',
     name: 'Neutrino System Base',
     marketCapRank: 2335,
@@ -12192,7 +12192,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'new-order',
-    fileName: 'token:NEWO',
+    filePath: 'token:NEWO',
     symbol: 'newo',
     name: 'New Order',
     marketCapRank: 2453,
@@ -12204,7 +12204,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'newscrypto-coin',
-    fileName: 'token:NWC',
+    filePath: 'token:NWC',
     symbol: 'nwc',
     name: 'Newscrypto Coin',
     marketCapRank: 1045,
@@ -12217,7 +12217,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nexacoin',
-    fileName: 'token:NEXA',
+    filePath: 'token:NEXA',
     symbol: 'nexa',
     name: 'Nexa',
     marketCapRank: 1011,
@@ -12226,7 +12226,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nexo',
-    fileName: 'token:NEXO',
+    filePath: 'token:NEXO',
     symbol: 'nexo',
     name: 'NEXO',
     marketCapRank: 143,
@@ -12241,7 +12241,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nft-art-finance',
-    fileName: 'token:NFTART',
+    filePath: 'token:NFTART',
     symbol: 'nftart',
     name: 'NFT Art Finance',
     marketCapRank: 2397,
@@ -12252,7 +12252,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nft-worlds',
-    fileName: 'token:WRLD',
+    filePath: 'token:WRLD',
     symbol: 'wrld',
     name: 'NFT Worlds',
     marketCapRank: 909,
@@ -12264,7 +12264,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nftb',
-    fileName: 'token:NFTB',
+    filePath: 'token:NFTB',
     symbol: 'nftb',
     name: 'NFTb',
     marketCapRank: 1841,
@@ -12275,7 +12275,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nftbooks',
-    fileName: 'token:NFTBS',
+    filePath: 'token:NFTBS',
     symbol: 'nftbs',
     name: 'NFTBooks',
     marketCapRank: 2296,
@@ -12286,7 +12286,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nftx',
-    fileName: 'token:NFTX',
+    filePath: 'token:NFTX',
     symbol: 'nftx',
     name: 'NFTX',
     marketCapRank: 1625,
@@ -12297,7 +12297,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nimiq-2',
-    fileName: 'token:NIM',
+    filePath: 'token:NIM',
     symbol: 'nim',
     name: 'Nimiq',
     marketCapRank: 1202,
@@ -12306,7 +12306,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nitro-cartel',
-    fileName: 'token:TROVE',
+    filePath: 'token:TROVE',
     symbol: 'trove',
     name: 'Arbitrove Governance Token',
     marketCapRank: 2377,
@@ -12317,7 +12317,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nix-bridge-token',
-    fileName: 'token:VOICE',
+    filePath: 'token:VOICE',
     symbol: 'voice',
     name: 'Voice',
     marketCapRank: 1946,
@@ -12328,7 +12328,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nkn',
-    fileName: 'token:NKN',
+    filePath: 'token:NKN',
     symbol: 'nkn',
     name: 'NKN',
     marketCapRank: 454,
@@ -12339,7 +12339,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nodle-network',
-    fileName: 'token:NODL',
+    filePath: 'token:NODL',
     symbol: 'nodl',
     name: 'Nodle Network',
     marketCapRank: 973,
@@ -12348,7 +12348,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'noia-network',
-    fileName: 'token:NOIA',
+    filePath: 'token:NOIA',
     symbol: 'noia',
     name: 'Syntropy',
     marketCapRank: 349,
@@ -12359,7 +12359,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nolus',
-    fileName: 'token:NLS',
+    filePath: 'token:NLS',
     symbol: 'nls',
     name: 'Nolus',
     marketCapRank: 1322,
@@ -12368,7 +12368,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nominex',
-    fileName: 'token:NMX',
+    filePath: 'token:NMX',
     symbol: 'nmx',
     name: 'Nominex',
     marketCapRank: 2532,
@@ -12379,7 +12379,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'non-playable-coin',
-    fileName: 'token:NPC',
+    filePath: 'token:NPC',
     symbol: 'npc',
     name: 'Non-Playable Coin',
     marketCapRank: 1173,
@@ -12391,7 +12391,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nord-finance',
-    fileName: 'token:NORD',
+    filePath: 'token:NORD',
     symbol: 'nord',
     name: 'Nord Finance',
     marketCapRank: 2574,
@@ -12405,7 +12405,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nosana',
-    fileName: 'token:NOS',
+    filePath: 'token:NOS',
     symbol: 'nos',
     name: 'Nosana',
     marketCapRank: 223,
@@ -12416,7 +12416,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'not-financial-advice',
-    fileName: 'token:NFAI',
+    filePath: 'token:NFAI',
     symbol: 'nfai',
     name: 'Not Financial Advice',
     marketCapRank: 2394,
@@ -12427,7 +12427,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nucleon-xcfx',
-    fileName: 'token:XCFX',
+    filePath: 'token:XCFX',
     symbol: 'xcfx',
     name: 'Nucleon xCFX',
     marketCapRank: 1490,
@@ -12438,7 +12438,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nuco-cloud',
-    fileName: 'token:NCDT',
+    filePath: 'token:NCDT',
     symbol: 'ncdt',
     name: 'nuco.cloud',
     marketCapRank: 990,
@@ -12449,7 +12449,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nuls',
-    fileName: 'token:NULS',
+    filePath: 'token:NULS',
     symbol: 'nuls',
     name: 'NULS',
     marketCapRank: 554,
@@ -12458,7 +12458,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'numbers-protocol',
-    fileName: 'token:NUM',
+    filePath: 'token:NUM',
     symbol: 'num',
     name: 'Numbers Protocol',
     marketCapRank: 610,
@@ -12470,7 +12470,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'numeraire',
-    fileName: 'token:NMR',
+    filePath: 'token:NMR',
     symbol: 'nmr',
     name: 'Numeraire',
     marketCapRank: 319,
@@ -12482,7 +12482,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nunet',
-    fileName: 'token:NTX',
+    filePath: 'token:NTX',
     symbol: 'ntx',
     name: 'NuNet',
     marketCapRank: 778,
@@ -12495,7 +12495,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nuritopia',
-    fileName: 'token:NBLU',
+    filePath: 'token:NBLU',
     symbol: 'nblu',
     name: 'Nuritopia',
     marketCapRank: 2275,
@@ -12506,7 +12506,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nusd',
-    fileName: 'token:SUSD',
+    filePath: 'token:SUSD',
     symbol: 'susd',
     name: 'sUSD',
     marketCapRank: 772,
@@ -12520,7 +12520,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nvirworld',
-    fileName: 'token:NVIR',
+    filePath: 'token:NVIR',
     symbol: 'nvir',
     name: 'NvirWorld',
     marketCapRank: 1128,
@@ -12532,7 +12532,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nxm',
-    fileName: 'token:NXM',
+    filePath: 'token:NXM',
     symbol: 'nxm',
     name: 'Nexus Mutual',
     marketCapRank: 271,
@@ -12543,7 +12543,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nxt',
-    fileName: 'token:NXT',
+    filePath: 'token:NXT',
     symbol: 'nxt',
     name: 'NXT',
     marketCapRank: 2496,
@@ -12552,7 +12552,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'nym',
-    fileName: 'token:NYM',
+    filePath: 'token:NYM',
     symbol: 'nym',
     name: 'Nym',
     marketCapRank: 358,
@@ -12563,7 +12563,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'o3-swap',
-    fileName: 'token:O3',
+    filePath: 'token:O3',
     symbol: 'o3',
     name: 'O3 Swap',
     marketCapRank: 2442,
@@ -12582,7 +12582,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'oasis-network',
-    fileName: 'token:ROSE',
+    filePath: 'token:ROSE',
     symbol: 'rose',
     name: 'Oasis Network',
     marketCapRank: 120,
@@ -12593,7 +12593,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'oasys',
-    fileName: 'token:OAS',
+    filePath: 'token:OAS',
     symbol: 'oas',
     name: 'Oasys',
     marketCapRank: 376,
@@ -12602,7 +12602,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'oath',
-    fileName: 'token:OATH',
+    filePath: 'token:OATH',
     symbol: 'oath',
     name: 'OATH',
     marketCapRank: 1923,
@@ -12619,7 +12619,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'obortech',
-    fileName: 'token:OBOT',
+    filePath: 'token:OBOT',
     symbol: 'obot',
     name: 'Obortech',
     marketCapRank: 1287,
@@ -12632,7 +12632,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'observer-coin',
-    fileName: 'token:OBSR',
+    filePath: 'token:OBSR',
     symbol: 'obsr',
     name: 'Observer',
     marketCapRank: 1204,
@@ -12643,7 +12643,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ocean-protocol',
-    fileName: 'token:OCEAN',
+    filePath: 'token:OCEAN',
     symbol: 'ocean',
     name: 'Ocean Protocol',
     marketCapRank: 131,
@@ -12658,7 +12658,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'oceanex',
-    fileName: 'token:OCE',
+    filePath: 'token:OCE',
     symbol: 'oce',
     name: 'OceanEX',
     marketCapRank: 2198,
@@ -12669,7 +12669,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'octaspace',
-    fileName: 'token:OCTA',
+    filePath: 'token:OCTA',
     symbol: 'octa',
     name: 'OctaSpace',
     marketCapRank: 898,
@@ -12678,7 +12678,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'octavia',
-    fileName: 'token:VIA',
+    filePath: 'token:VIA',
     symbol: 'via',
     name: 'Octavia',
     marketCapRank: 1342,
@@ -12689,7 +12689,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'octo-gaming',
-    fileName: 'token:OTK',
+    filePath: 'token:OTK',
     symbol: 'otk',
     name: 'Octokn',
     marketCapRank: 1082,
@@ -12700,7 +12700,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'octus-bridge',
-    fileName: 'token:BRIDGE',
+    filePath: 'token:BRIDGE',
     symbol: 'bridge',
     name: 'Octus Bridge',
     marketCapRank: 1560,
@@ -12712,7 +12712,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'oddz',
-    fileName: 'token:ODDZ',
+    filePath: 'token:ODDZ',
     symbol: 'oddz',
     name: 'Oddz',
     marketCapRank: 2444,
@@ -12726,7 +12726,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'odin-protocol',
-    fileName: 'token:ODIN',
+    filePath: 'token:ODIN',
     symbol: 'odin',
     name: 'Odin Protocol',
     marketCapRank: 2318,
@@ -12738,7 +12738,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'oec-token',
-    fileName: 'token:OKT',
+    filePath: 'token:OKT',
     symbol: 'okt',
     name: 'OKT Chain',
     marketCapRank: 234,
@@ -12747,7 +12747,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'offshift',
-    fileName: 'token:XFT',
+    filePath: 'token:XFT',
     symbol: 'xft',
     name: 'Offshift',
     marketCapRank: 1713,
@@ -12759,7 +12759,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'oggy-inu',
-    fileName: 'token:OGGY',
+    filePath: 'token:OGGY',
     symbol: 'oggy',
     name: 'Oggy Inu',
     marketCapRank: 1823,
@@ -12770,7 +12770,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'okb',
-    fileName: 'token:OKB',
+    filePath: 'token:OKB',
     symbol: 'okb',
     name: 'OKB',
     marketCapRank: 39,
@@ -12783,7 +12783,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'okratech-token',
-    fileName: 'token:ORT',
+    filePath: 'token:ORT',
     symbol: 'ort',
     name: 'Okratech',
     marketCapRank: 1820,
@@ -12794,7 +12794,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'omax-token',
-    fileName: 'token:OMAX',
+    filePath: 'token:OMAX',
     symbol: 'omax',
     name: 'Omax',
     marketCapRank: 1412,
@@ -12803,7 +12803,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'omisego',
-    fileName: 'token:OMG',
+    filePath: 'token:OMG',
     symbol: 'omg',
     name: 'OMG Network',
     marketCapRank: 400,
@@ -12815,7 +12815,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ommniverse',
-    fileName: 'token:OMMI',
+    filePath: 'token:OMMI',
     symbol: 'ommi',
     name: 'Ommniverse',
     marketCapRank: 1603,
@@ -12826,7 +12826,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'omnicat',
-    fileName: 'token:OMNI',
+    filePath: 'token:OMNI',
     symbol: 'omni',
     name: 'OmniCat',
     marketCapRank: 843,
@@ -12844,7 +12844,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'onbuff',
-    fileName: 'token:ONIT',
+    filePath: 'token:ONIT',
     symbol: 'onit',
     name: 'ONBUFF',
     marketCapRank: 953,
@@ -12855,7 +12855,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'one-ledger',
-    fileName: 'token:OLT',
+    filePath: 'token:OLT',
     symbol: 'olt',
     name: 'OneLedger',
     marketCapRank: 2452,
@@ -12866,7 +12866,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'onerare',
-    fileName: 'token:ORARE',
+    filePath: 'token:ORARE',
     symbol: 'orare',
     name: 'OneRare',
     marketCapRank: 2400,
@@ -12877,7 +12877,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ong',
-    fileName: 'token:ONG',
+    filePath: 'token:ONG',
     symbol: 'ong',
     name: 'Ontology Gas',
     marketCapRank: 398,
@@ -12886,7 +12886,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'oni-token',
-    fileName: 'token:ONI',
+    filePath: 'token:ONI',
     symbol: 'oni',
     name: 'ONINO',
     marketCapRank: 1389,
@@ -12898,7 +12898,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'onomy-protocol',
-    fileName: 'token:NOM',
+    filePath: 'token:NOM',
     symbol: 'nom',
     name: 'Onomy Protocol',
     marketCapRank: 869,
@@ -12910,7 +12910,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'onooks',
-    fileName: 'token:OOKS',
+    filePath: 'token:OOKS',
     symbol: 'ooks',
     name: 'Onooks',
     marketCapRank: 1811,
@@ -12921,7 +12921,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ontology',
-    fileName: 'token:ONT',
+    filePath: 'token:ONT',
     symbol: 'ont',
     name: 'Ontology',
     marketCapRank: 254,
@@ -12930,7 +12930,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ooki',
-    fileName: 'token:OOKI',
+    filePath: 'token:OOKI',
     symbol: 'ooki',
     name: 'Ooki',
     marketCapRank: 1245,
@@ -12941,7 +12941,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'openanx',
-    fileName: 'token:OAX',
+    filePath: 'token:OAX',
     symbol: 'oax',
     name: 'OAX',
     marketCapRank: 1420,
@@ -12952,7 +12952,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'openocean',
-    fileName: 'token:OOE',
+    filePath: 'token:OOE',
     symbol: 'ooe',
     name: 'OpenOcean',
     marketCapRank: 1422,
@@ -12964,7 +12964,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'opium',
-    fileName: 'token:OPIUM',
+    filePath: 'token:OPIUM',
     symbol: 'opium',
     name: 'Opium',
     marketCapRank: 2179,
@@ -12977,7 +12977,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'optimism',
-    fileName: 'token:OP',
+    filePath: 'token:OP',
     symbol: 'op',
     name: 'Optimism',
     marketCapRank: 40,
@@ -12988,7 +12988,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'optimus-ai',
-    fileName: 'token:OPTI',
+    filePath: 'token:OPTI',
     symbol: 'opti',
     name: 'Optimus AI',
     marketCapRank: 927,
@@ -12999,7 +12999,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'opulous',
-    fileName: 'token:OPUL',
+    filePath: 'token:OPUL',
     symbol: 'opul',
     name: 'Opulous',
     marketCapRank: 451,
@@ -13013,7 +13013,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'oraichain-token',
-    fileName: 'token:ORAI',
+    filePath: 'token:ORAI',
     symbol: 'orai',
     name: 'Oraichain',
     marketCapRank: 313,
@@ -13025,7 +13025,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'orbofi-ai',
-    fileName: 'token:OBI',
+    filePath: 'token:OBI',
     symbol: 'obi',
     name: 'Orbofi AI',
     marketCapRank: 1296,
@@ -13037,7 +13037,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'orbs',
-    fileName: 'token:ORBS',
+    filePath: 'token:ORBS',
     symbol: 'orbs',
     name: 'Orbs',
     marketCapRank: 343,
@@ -13053,7 +13053,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'orchid-protocol',
-    fileName: 'token:OXT',
+    filePath: 'token:OXT',
     symbol: 'oxt',
     name: 'Orchid Protocol',
     marketCapRank: 555,
@@ -13064,7 +13064,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ordinals',
-    fileName: 'token:ORDI',
+    filePath: 'token:ORDI',
     symbol: 'ordi',
     name: 'ORDI',
     marketCapRank: 87,
@@ -13076,7 +13076,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'origin-dollar',
-    fileName: 'token:OUSD',
+    filePath: 'token:OUSD',
     symbol: 'ousd',
     name: 'Origin Dollar',
     marketCapRank: 1466,
@@ -13088,7 +13088,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'origin-ether',
-    fileName: 'token:OETH',
+    filePath: 'token:OETH',
     symbol: 'oeth',
     name: 'Origin Ether',
     marketCapRank: 403,
@@ -13099,7 +13099,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'origin-protocol',
-    fileName: 'token:OGN',
+    filePath: 'token:OGN',
     symbol: 'ogn',
     name: 'Origin Protocol',
     marketCapRank: 490,
@@ -13112,7 +13112,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'origintrail',
-    fileName: 'token:TRAC',
+    filePath: 'token:TRAC',
     symbol: 'trac',
     name: 'OriginTrail',
     marketCapRank: 195,
@@ -13123,7 +13123,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'orion-protocol',
-    fileName: 'token:ORN',
+    filePath: 'token:ORN',
     symbol: 'orn',
     name: 'Orion',
     marketCapRank: 605,
@@ -13136,7 +13136,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'osaka-protocol',
-    fileName: 'token:OSAK',
+    filePath: 'token:OSAK',
     symbol: 'osak',
     name: 'Osaka Protocol',
     marketCapRank: 317,
@@ -13153,7 +13153,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'osmosis',
-    fileName: 'token:OSMO',
+    filePath: 'token:OSMO',
     symbol: 'osmo',
     name: 'Osmosis',
     marketCapRank: 121,
@@ -13165,7 +13165,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'outer-ring',
-    fileName: 'token:GQ',
+    filePath: 'token:GQ',
     symbol: 'gq',
     name: 'Blink Galaxy',
     marketCapRank: 1500,
@@ -13176,7 +13176,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ovr',
-    fileName: 'token:OVR',
+    filePath: 'token:OVR',
     symbol: 'ovr',
     name: 'Ovr',
     marketCapRank: 1075,
@@ -13189,7 +13189,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ox-fun',
-    fileName: 'token:OX',
+    filePath: 'token:OX',
     symbol: 'ox',
     name: 'OX Coin',
     marketCapRank: 822,
@@ -13204,7 +13204,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'oxbull-tech-2',
-    fileName: 'token:OXB',
+    filePath: 'token:OXB',
     symbol: 'oxb',
     name: 'Oxbull Tech',
     marketCapRank: 1387,
@@ -13215,7 +13215,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'oxygen',
-    fileName: 'token:OXY',
+    filePath: 'token:OXY',
     symbol: 'oxy',
     name: 'Oxygen',
     marketCapRank: 1309,
@@ -13227,7 +13227,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ozone-chain',
-    fileName: 'token:OZO',
+    filePath: 'token:OZO',
     symbol: 'ozo',
     name: 'Ozone Chain',
     marketCapRank: 537,
@@ -13236,7 +13236,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'paal-ai',
-    fileName: 'token:PAAL',
+    filePath: 'token:PAAL',
     symbol: 'paal',
     name: 'PAAL AI',
     marketCapRank: 222,
@@ -13247,7 +13247,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'paccoin',
-    fileName: 'token:PAC',
+    filePath: 'token:PAC',
     symbol: 'pac',
     name: 'PAC Protocol',
     marketCapRank: 2533,
@@ -13256,7 +13256,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'paid-network',
-    fileName: 'token:PAID',
+    filePath: 'token:PAID',
     symbol: 'paid',
     name: 'PAID Network',
     marketCapRank: 665,
@@ -13268,7 +13268,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'paint-swap',
-    fileName: 'token:BRUSH',
+    filePath: 'token:BRUSH',
     symbol: 'brush',
     name: 'Paint Swap',
     marketCapRank: 1414,
@@ -13279,7 +13279,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'paladin',
-    fileName: 'token:PAL',
+    filePath: 'token:PAL',
     symbol: 'pal',
     name: 'Paladin',
     marketCapRank: 2293,
@@ -13290,7 +13290,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'palm-ai',
-    fileName: 'token:PALM',
+    filePath: 'token:PALM',
     symbol: 'palm',
     name: 'PaLM AI',
     marketCapRank: 613,
@@ -13301,7 +13301,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pancakeswap-token',
-    fileName: 'token:CAKE',
+    filePath: 'token:CAKE',
     symbol: 'cake',
     name: 'PancakeSwap',
     marketCapRank: 104,
@@ -13315,7 +13315,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pangolin',
-    fileName: 'token:PNG',
+    filePath: 'token:PNG',
     symbol: 'png',
     name: 'Pangolin',
     marketCapRank: 508,
@@ -13326,7 +13326,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'panther',
-    fileName: 'token:ZKP',
+    filePath: 'token:ZKP',
     symbol: 'zkp',
     name: 'Panther Protocol',
     marketCapRank: 1412,
@@ -13338,7 +13338,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'paragen',
-    fileName: 'token:RGEN',
+    filePath: 'token:RGEN',
     symbol: 'rgen',
     name: 'Paragen',
     marketCapRank: 2592,
@@ -13349,7 +13349,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'paragonsdao',
-    fileName: 'token:PDT',
+    filePath: 'token:PDT',
     symbol: 'pdt',
     name: 'ParagonsDAO',
     marketCapRank: 1127,
@@ -13360,7 +13360,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'paraswap',
-    fileName: 'token:PSP',
+    filePath: 'token:PSP',
     symbol: 'psp',
     name: 'ParaSwap',
     marketCapRank: 732,
@@ -13374,7 +13374,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'paratoken-2',
-    fileName: 'token:PARA',
+    filePath: 'token:PARA',
     symbol: 'para',
     name: 'Para',
     marketCapRank: 2123,
@@ -13385,7 +13385,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'parex',
-    fileName: 'token:PRX',
+    filePath: 'token:PRX',
     symbol: 'prx',
     name: 'Parex',
     marketCapRank: 1721,
@@ -13396,7 +13396,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'paribus',
-    fileName: 'token:PBX',
+    filePath: 'token:PBX',
     symbol: 'pbx',
     name: 'Paribus',
     marketCapRank: 1208,
@@ -13410,7 +13410,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'parrot-usd',
-    fileName: 'token:PAI',
+    filePath: 'token:PAI',
     symbol: 'pai',
     name: 'Parrot USD',
     marketCapRank: 1915,
@@ -13421,7 +13421,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'parsiq',
-    fileName: 'token:PRQ',
+    filePath: 'token:PRQ',
     symbol: 'prq',
     name: 'PARSIQ',
     marketCapRank: 840,
@@ -13433,7 +13433,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'particl',
-    fileName: 'token:PART',
+    filePath: 'token:PART',
     symbol: 'part',
     name: 'Particl',
     marketCapRank: 1795,
@@ -13442,7 +13442,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'passage',
-    fileName: 'token:PASG',
+    filePath: 'token:PASG',
     symbol: 'pasg',
     name: 'Passage',
     marketCapRank: 940,
@@ -13454,7 +13454,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pastel',
-    fileName: 'token:PSL',
+    filePath: 'token:PSL',
     symbol: 'psl',
     name: 'Pastel',
     marketCapRank: 2017,
@@ -13465,7 +13465,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pawswap',
-    fileName: 'token:PAW',
+    filePath: 'token:PAW',
     symbol: 'paw',
     name: 'PAWSWAP',
     marketCapRank: 1658,
@@ -13476,7 +13476,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pawthereum',
-    fileName: 'token:PAWTH',
+    filePath: 'token:PAWTH',
     symbol: 'pawth',
     name: 'Pawthereum',
     marketCapRank: 2183,
@@ -13488,7 +13488,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pax-gold',
-    fileName: 'token:PAXG',
+    filePath: 'token:PAXG',
     symbol: 'paxg',
     name: 'PAX Gold',
     marketCapRank: 216,
@@ -13501,7 +13501,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'paypal-usd',
-    fileName: 'token:PYUSD',
+    filePath: 'token:PYUSD',
     symbol: 'pyusd',
     name: 'PayPal USD',
     marketCapRank: 361,
@@ -13512,7 +13512,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'paysenger-ego',
-    fileName: 'token:EGO',
+    filePath: 'token:EGO',
     symbol: 'ego',
     name: 'Paysenger EGO',
     marketCapRank: 1676,
@@ -13521,7 +13521,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pchain',
-    fileName: 'token:PI',
+    filePath: 'token:PI',
     symbol: 'pi',
     name: 'Plian',
     marketCapRank: 1959,
@@ -13530,7 +13530,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'peardao',
-    fileName: 'token:PEX',
+    filePath: 'token:PEX',
     symbol: 'pex',
     name: 'PearDAO',
     marketCapRank: 2488,
@@ -13541,7 +13541,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'peercoin',
-    fileName: 'token:PPC',
+    filePath: 'token:PPC',
     symbol: 'ppc',
     name: 'Peercoin',
     marketCapRank: 1354,
@@ -13553,7 +13553,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pegaxy-stone',
-    fileName: 'token:PGX',
+    filePath: 'token:PGX',
     symbol: 'pgx',
     name: 'Pegaxy',
     marketCapRank: 1954,
@@ -13565,7 +13565,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pendle',
-    fileName: 'token:PENDLE',
+    filePath: 'token:PENDLE',
     symbol: 'pendle',
     name: 'Pendle',
     marketCapRank: 191,
@@ -13580,7 +13580,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'penpie',
-    fileName: 'token:PNP',
+    filePath: 'token:PNP',
     symbol: 'pnp',
     name: 'Penpie',
     marketCapRank: 1289,
@@ -13593,7 +13593,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pepe',
-    fileName: 'token:PEPE',
+    filePath: 'token:PEPE',
     symbol: 'pepe',
     name: 'Pepe',
     marketCapRank: 42,
@@ -13606,7 +13606,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pepefork',
-    fileName: 'token:PORK',
+    filePath: 'token:PORK',
     symbol: 'pork',
     name: 'PepeFork',
     marketCapRank: 549,
@@ -13617,7 +13617,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'per-project',
-    fileName: 'token:PER',
+    filePath: 'token:PER',
     symbol: 'per',
     name: 'PER Project',
     marketCapRank: 1838,
@@ -13628,7 +13628,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'peri-finance',
-    fileName: 'token:PERI',
+    filePath: 'token:PERI',
     symbol: 'peri',
     name: 'PERI Finance',
     marketCapRank: 2383,
@@ -13641,7 +13641,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'perion',
-    fileName: 'token:PERC',
+    filePath: 'token:PERC',
     symbol: 'perc',
     name: 'Perion',
     marketCapRank: 1301,
@@ -13652,7 +13652,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'perpetual-protocol',
-    fileName: 'token:PERP',
+    filePath: 'token:PERP',
     symbol: 'perp',
     name: 'Perpetual Protocol',
     marketCapRank: 507,
@@ -13667,7 +13667,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'perpy-finance',
-    fileName: 'token:PRY',
+    filePath: 'token:PRY',
     symbol: 'pry',
     name: 'Perpy Finance',
     marketCapRank: 2265,
@@ -13678,7 +13678,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'persistence',
-    fileName: 'token:XPRT',
+    filePath: 'token:XPRT',
     symbol: 'xprt',
     name: 'Persistence One',
     marketCapRank: 624,
@@ -13690,7 +13690,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'petals',
-    fileName: 'token:PTS',
+    filePath: 'token:PTS',
     symbol: 'pts',
     name: 'Petals',
     marketCapRank: 1056,
@@ -13701,7 +13701,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pha',
-    fileName: 'token:PHA',
+    filePath: 'token:PHA',
     symbol: 'pha',
     name: 'Phala',
     marketCapRank: 388,
@@ -13713,7 +13713,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'phantasma',
-    fileName: 'token:SOUL',
+    filePath: 'token:SOUL',
     symbol: 'soul',
     name: 'Phantasma',
     marketCapRank: 1131,
@@ -13725,7 +13725,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'phoenix-global',
-    fileName: 'token:PHB',
+    filePath: 'token:PHB',
     symbol: 'phb',
     name: 'Phoenix',
     marketCapRank: 459,
@@ -13736,7 +13736,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'phonon-dao',
-    fileName: 'token:PHONON',
+    filePath: 'token:PHONON',
     symbol: 'phonon',
     name: 'Phonon DAO',
     marketCapRank: 1935,
@@ -13748,7 +13748,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pibble',
-    fileName: 'token:PIB',
+    filePath: 'token:PIB',
     symbol: 'pib',
     name: 'Pibble',
     marketCapRank: 1307,
@@ -13760,7 +13760,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'picasso',
-    fileName: 'token:PICA',
+    filePath: 'token:PICA',
     symbol: 'pica',
     name: 'Picasso',
     marketCapRank: 879,
@@ -13772,7 +13772,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'piccolo-inu',
-    fileName: 'token:PINU',
+    filePath: 'token:PINU',
     symbol: 'pinu',
     name: 'Piccolo Inu',
     marketCapRank: 2540,
@@ -13783,7 +13783,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pickle-finance',
-    fileName: 'token:PICKLE',
+    filePath: 'token:PICKLE',
     symbol: 'pickle',
     name: 'Pickle Finance',
     marketCapRank: 2149,
@@ -13797,7 +13797,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pika-protocol',
-    fileName: 'token:PIKA',
+    filePath: 'token:PIKA',
     symbol: 'pika',
     name: 'Pika Protocol',
     marketCapRank: 1451,
@@ -13808,7 +13808,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pillar',
-    fileName: 'token:PLR',
+    filePath: 'token:PLR',
     symbol: 'plr',
     name: 'Pillar',
     marketCapRank: 2619,
@@ -13821,7 +13821,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pinksale',
-    fileName: 'token:PINKSALE',
+    filePath: 'token:PINKSALE',
     symbol: 'pinksale',
     name: 'PinkSale',
     marketCapRank: 999,
@@ -13832,7 +13832,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pintu-token',
-    fileName: 'token:PTU',
+    filePath: 'token:PTU',
     symbol: 'ptu',
     name: 'Pintu',
     marketCapRank: 1046,
@@ -13843,7 +13843,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pip',
-    fileName: 'token:PIP',
+    filePath: 'token:PIP',
     symbol: 'pip',
     name: 'PIP',
     marketCapRank: 1146,
@@ -13854,7 +13854,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pirate-chain',
-    fileName: 'token:ARRR',
+    filePath: 'token:ARRR',
     symbol: 'arrr',
     name: 'Pirate Chain',
     marketCapRank: 946,
@@ -13863,7 +13863,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pivx',
-    fileName: 'token:PIVX',
+    filePath: 'token:PIVX',
     symbol: 'pivx',
     name: 'PIVX',
     marketCapRank: 896,
@@ -13872,7 +13872,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pixels',
-    fileName: 'token:PIXEL',
+    filePath: 'token:PIXEL',
     symbol: 'pixel',
     name: 'Pixels',
     marketCapRank: 176,
@@ -13884,7 +13884,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pizabrc',
-    fileName: 'token:PIZA',
+    filePath: 'token:PIZA',
     symbol: 'piza',
     name: 'PIZA (Ordinals)',
     marketCapRank: 1915,
@@ -13896,7 +13896,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pkt',
-    fileName: 'token:PKT',
+    filePath: 'token:PKT',
     symbol: 'pkt',
     name: 'PKT',
     marketCapRank: 1373,
@@ -13905,7 +13905,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'planetwatch',
-    fileName: 'token:PLANETS',
+    filePath: 'token:PLANETS',
     symbol: 'planets',
     name: 'PlanetWatch',
     marketCapRank: 1990,
@@ -13916,7 +13916,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'plasma-finance',
-    fileName: 'token:PPAY',
+    filePath: 'token:PPAY',
     symbol: 'ppay',
     name: 'Plasma Finance',
     marketCapRank: 2421,
@@ -13929,7 +13929,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'plastiks',
-    fileName: 'token:PLASTIK',
+    filePath: 'token:PLASTIK',
     symbol: 'plastik',
     name: 'Plastiks',
     marketCapRank: 2602,
@@ -13940,7 +13940,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'platon-network',
-    fileName: 'token:LAT',
+    filePath: 'token:LAT',
     symbol: 'lat',
     name: 'PlatON Network',
     marketCapRank: 518,
@@ -13949,7 +13949,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'playa3ull-games-2',
-    fileName: 'token:3ULL',
+    filePath: 'token:3ULL',
     symbol: '3ull',
     name: 'PLAYA3ULL GAMES',
     marketCapRank: 933,
@@ -13960,7 +13960,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'playchip',
-    fileName: 'token:PLA',
+    filePath: 'token:PLA',
     symbol: 'pla',
     name: 'PlayChip',
     marketCapRank: null,
@@ -13971,7 +13971,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'playzap',
-    fileName: 'token:PZP',
+    filePath: 'token:PZP',
     symbol: 'pzp',
     name: 'PlayZap',
     marketCapRank: 1383,
@@ -13986,7 +13986,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'plearn',
-    fileName: 'token:PLN',
+    filePath: 'token:PLN',
     symbol: 'pln',
     name: 'PLEARN',
     marketCapRank: 1359,
@@ -13997,7 +13997,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pleasure-coin',
-    fileName: 'token:NSFW',
+    filePath: 'token:NSFW',
     symbol: 'nsfw',
     name: 'Pleasure Coin',
     marketCapRank: 2003,
@@ -14010,7 +14010,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'plebbit',
-    fileName: 'token:PLEB',
+    filePath: 'token:PLEB',
     symbol: 'pleb',
     name: 'Plebbit',
     marketCapRank: 1366,
@@ -14021,7 +14021,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'plex',
-    fileName: 'token:PLEX',
+    filePath: 'token:PLEX',
     symbol: 'plex',
     name: 'PLEX',
     marketCapRank: 1698,
@@ -14030,7 +14030,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'plugin',
-    fileName: 'token:PLI',
+    filePath: 'token:PLI',
     symbol: 'pli',
     name: 'Plugin',
     marketCapRank: 1836,
@@ -14041,7 +14041,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pluton',
-    fileName: 'token:PLU',
+    filePath: 'token:PLU',
     symbol: 'plu',
     name: 'Pluton',
     marketCapRank: 994,
@@ -14052,7 +14052,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pnetwork',
-    fileName: 'token:PNT',
+    filePath: 'token:PNT',
     symbol: 'pnt',
     name: 'pNetwork',
     marketCapRank: 1805,
@@ -14064,7 +14064,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pocket-network',
-    fileName: 'token:POKT',
+    filePath: 'token:POKT',
     symbol: 'pokt',
     name: 'Pocket Network',
     marketCapRank: 244,
@@ -14073,7 +14073,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pointpay',
-    fileName: 'token:PXP',
+    filePath: 'token:PXP',
     symbol: 'pxp',
     name: 'PointPay',
     marketCapRank: 1976,
@@ -14084,7 +14084,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polaris-share',
-    fileName: 'token:POLA',
+    filePath: 'token:POLA',
     symbol: 'pola',
     name: 'Polaris Share',
     marketCapRank: 1114,
@@ -14095,7 +14095,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polka-city',
-    fileName: 'token:POLC',
+    filePath: 'token:POLC',
     symbol: 'polc',
     name: 'Polkacity',
     marketCapRank: 1539,
@@ -14107,7 +14107,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polkabridge',
-    fileName: 'token:PBR',
+    filePath: 'token:PBR',
     symbol: 'pbr',
     name: 'PolkaBridge',
     marketCapRank: 1851,
@@ -14120,7 +14120,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polkadex',
-    fileName: 'token:PDEX',
+    filePath: 'token:PDEX',
     symbol: 'pdex',
     name: 'Polkadex',
     marketCapRank: 1729,
@@ -14132,7 +14132,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polkadot',
-    fileName: 'token:DOT',
+    filePath: 'token:DOT',
     symbol: 'dot',
     name: 'Polkadot',
     marketCapRank: 14,
@@ -14141,7 +14141,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polkafoundry',
-    fileName: 'token:PKF',
+    filePath: 'token:PKF',
     symbol: 'pkf',
     name: 'Red Kite',
     marketCapRank: 1283,
@@ -14152,7 +14152,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polkamarkets',
-    fileName: 'token:POLK',
+    filePath: 'token:POLK',
     symbol: 'polk',
     name: 'Polkamarkets',
     marketCapRank: 1912,
@@ -14163,7 +14163,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polkastarter',
-    fileName: 'token:POLS',
+    filePath: 'token:POLS',
     symbol: 'pols',
     name: 'Polkastarter',
     marketCapRank: 481,
@@ -14175,7 +14175,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polkaswap',
-    fileName: 'token:PSWAP',
+    filePath: 'token:PSWAP',
     symbol: 'pswap',
     name: 'Polkaswap',
     marketCapRank: 1542,
@@ -14187,7 +14187,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polker',
-    fileName: 'token:PKR',
+    filePath: 'token:PKR',
     symbol: 'pkr',
     name: 'Polker',
     marketCapRank: 2324,
@@ -14198,7 +14198,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polychain-monsters',
-    fileName: 'token:PMON',
+    filePath: 'token:PMON',
     symbol: 'pmon',
     name: 'Polychain Monsters',
     marketCapRank: 2080,
@@ -14211,7 +14211,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polydoge',
-    fileName: 'token:POLYDOGE',
+    filePath: 'token:POLYDOGE',
     symbol: 'polydoge',
     name: 'PolyDoge',
     marketCapRank: 1465,
@@ -14222,7 +14222,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polygon-ecosystem-token',
-    fileName: 'token:POL',
+    filePath: 'token:POL',
     symbol: 'pol',
     name: 'Polygon Ecosystem Token',
     marketCapRank: 487,
@@ -14233,7 +14233,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polylastic',
-    fileName: 'token:POLX',
+    filePath: 'token:POLX',
     symbol: 'polx',
     name: 'Polylastic',
     marketCapRank: 2054,
@@ -14244,7 +14244,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polymath',
-    fileName: 'token:POLY',
+    filePath: 'token:POLY',
     symbol: 'poly',
     name: 'Polymath',
     marketCapRank: 540,
@@ -14256,7 +14256,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polymesh',
-    fileName: 'token:POLYX',
+    filePath: 'token:POLYX',
     symbol: 'polyx',
     name: 'Polymesh',
     marketCapRank: 157,
@@ -14265,7 +14265,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polypad',
-    fileName: 'token:POLYPAD',
+    filePath: 'token:POLYPAD',
     symbol: 'polypad',
     name: 'PolyPad',
     marketCapRank: 2305,
@@ -14277,7 +14277,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polyswarm',
-    fileName: 'token:NCT',
+    filePath: 'token:NCT',
     symbol: 'nct',
     name: 'PolySwarm',
     marketCapRank: 755,
@@ -14289,7 +14289,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'polytrade',
-    fileName: 'token:TRADE',
+    filePath: 'token:TRADE',
     symbol: 'trade',
     name: 'Polytrade',
     marketCapRank: 601,
@@ -14303,7 +14303,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pooh',
-    fileName: 'token:POOH',
+    filePath: 'token:POOH',
     symbol: 'pooh',
     name: 'POOH',
     marketCapRank: 1121,
@@ -14315,7 +14315,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'poollotto-finance',
-    fileName: 'token:PLT',
+    filePath: 'token:PLT',
     symbol: 'plt',
     name: 'Poollotto.finance',
     marketCapRank: 1133,
@@ -14326,7 +14326,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'poolz-finance-2',
-    fileName: 'token:POOLX',
+    filePath: 'token:POOLX',
     symbol: 'poolx',
     name: 'Poolz Finance',
     marketCapRank: 1082,
@@ -14337,7 +14337,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'popcat',
-    fileName: 'token:POPCAT',
+    filePath: 'token:POPCAT',
     symbol: 'popcat',
     name: 'Popcat',
     marketCapRank: 259,
@@ -14348,7 +14348,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'popcorn',
-    fileName: 'token:POP',
+    filePath: 'token:POP',
     symbol: 'pop',
     name: 'Popcorn',
     marketCapRank: 2835,
@@ -14363,7 +14363,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'populous',
-    fileName: 'token:PPT',
+    filePath: 'token:PPT',
     symbol: 'ppt',
     name: 'Populous',
     marketCapRank: 2529,
@@ -14375,7 +14375,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'portal-2',
-    fileName: 'token:PORTAL',
+    filePath: 'token:PORTAL',
     symbol: 'portal',
     name: 'Portal',
     marketCapRank: 251,
@@ -14386,7 +14386,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'power',
-    fileName: 'token:PWR',
+    filePath: 'token:PWR',
     symbol: 'pwr',
     name: 'MaxxChain',
     marketCapRank: 2824,
@@ -14397,7 +14397,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'power-ledger',
-    fileName: 'token:POWR',
+    filePath: 'token:POWR',
     symbol: 'powr',
     name: 'Powerledger',
     marketCapRank: 331,
@@ -14409,7 +14409,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'premia',
-    fileName: 'token:PREMIA',
+    filePath: 'token:PREMIA',
     symbol: 'premia',
     name: 'Premia',
     marketCapRank: 1352,
@@ -14423,7 +14423,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'presearch',
-    fileName: 'token:PRE',
+    filePath: 'token:PRE',
     symbol: 'pre',
     name: 'Presearch',
     marketCapRank: 1421,
@@ -14434,7 +14434,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'primal-b3099cd0-995a-4311-80d5-9c133153b38e',
-    fileName: 'token:PRIMAL',
+    filePath: 'token:PRIMAL',
     symbol: 'primal',
     name: 'PRIMAL',
     marketCapRank: 2560,
@@ -14447,7 +14447,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'prism',
-    fileName: 'token:PRISM',
+    filePath: 'token:PRISM',
     symbol: 'prism',
     name: 'Prism',
     marketCapRank: 1694,
@@ -14458,7 +14458,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'probit-exchange',
-    fileName: 'token:PROB',
+    filePath: 'token:PROB',
     symbol: 'prob',
     name: 'Probit',
     marketCapRank: 2096,
@@ -14469,7 +14469,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'project-galaxy',
-    fileName: 'token:GAL',
+    filePath: 'token:GAL',
     symbol: 'gal',
     name: 'Galxe',
     marketCapRank: 187,
@@ -14481,7 +14481,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'project-with',
-    fileName: 'token:WIKEN',
+    filePath: 'token:WIKEN',
     symbol: 'wiken',
     name: 'Project WITH',
     marketCapRank: 1279,
@@ -14492,7 +14492,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'prometeus',
-    fileName: 'token:PROM',
+    filePath: 'token:PROM',
     symbol: 'prom',
     name: 'Prom',
     marketCapRank: 298,
@@ -14504,7 +14504,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'propbase',
-    fileName: 'token:PROPS',
+    filePath: 'token:PROPS',
     symbol: 'props',
     name: 'Propbase',
     marketCapRank: 628,
@@ -14516,7 +14516,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'propchain',
-    fileName: 'token:PROPC',
+    filePath: 'token:PROPC',
     symbol: 'propc',
     name: 'Propchain',
     marketCapRank: 595,
@@ -14527,7 +14527,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'propy',
-    fileName: 'token:PRO',
+    filePath: 'token:PRO',
     symbol: 'pro',
     name: 'Propy',
     marketCapRank: 495,
@@ -14538,7 +14538,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'prosper',
-    fileName: 'token:PROS',
+    filePath: 'token:PROS',
     symbol: 'pros',
     name: 'Prosper',
     marketCapRank: 1242,
@@ -14551,7 +14551,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'protectorate-protocol',
-    fileName: 'token:PRTC',
+    filePath: 'token:PRTC',
     symbol: 'prtc',
     name: 'Protectorate Protocol',
     marketCapRank: 2276,
@@ -14562,7 +14562,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'proteo-defi',
-    fileName: 'token:PROTEO',
+    filePath: 'token:PROTEO',
     symbol: 'proteo',
     name: 'Proteo DeFi',
     marketCapRank: 2371,
@@ -14573,7 +14573,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'proton',
-    fileName: 'token:XPR',
+    filePath: 'token:XPR',
     symbol: 'xpr',
     name: 'XPR Network',
     marketCapRank: 778,
@@ -14585,7 +14585,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'proximax',
-    fileName: 'token:XPX',
+    filePath: 'token:XPX',
     symbol: 'xpx',
     name: 'ProximaX',
     marketCapRank: 1737,
@@ -14596,7 +14596,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pstake-finance',
-    fileName: 'token:PSTAKE',
+    filePath: 'token:PSTAKE',
     symbol: 'pstake',
     name: 'pSTAKE Finance',
     marketCapRank: 705,
@@ -14608,7 +14608,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pumlx',
-    fileName: 'token:PUMLX',
+    filePath: 'token:PUMLX',
     symbol: 'pumlx',
     name: 'PUMLx',
     marketCapRank: 2378,
@@ -14619,7 +14619,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pundi-x',
-    fileName: 'token:NPXS',
+    filePath: 'token:NPXS',
     symbol: 'npxs',
     name: 'Pundi X [OLD]',
     marketCapRank: 593,
@@ -14631,7 +14631,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pundi-x-2',
-    fileName: 'token:PUNDIX',
+    filePath: 'token:PUNDIX',
     symbol: 'pundix',
     name: 'Pundi X',
     marketCapRank: 382,
@@ -14642,7 +14642,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pundi-x-purse',
-    fileName: 'token:PURSE',
+    filePath: 'token:PURSE',
     symbol: 'purse',
     name: 'Pundi X PURSE',
     marketCapRank: 1570,
@@ -14655,7 +14655,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'purefi',
-    fileName: 'token:UFI',
+    filePath: 'token:UFI',
     symbol: 'ufi',
     name: 'PureFi',
     marketCapRank: 1217,
@@ -14668,7 +14668,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pussy-financial',
-    fileName: 'token:PUSSY',
+    filePath: 'token:PUSSY',
     symbol: 'pussy',
     name: 'Pussy Financial',
     marketCapRank: 2133,
@@ -14680,7 +14680,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pyth-network',
-    fileName: 'token:PYTH',
+    filePath: 'token:PYTH',
     symbol: 'pyth',
     name: 'Pyth Network',
     marketCapRank: 86,
@@ -14693,7 +14693,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'qanplatform',
-    fileName: 'token:QANX',
+    filePath: 'token:QANX',
     symbol: 'qanx',
     name: 'QANplatform',
     marketCapRank: 423,
@@ -14705,7 +14705,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'qash',
-    fileName: 'token:QASH',
+    filePath: 'token:QASH',
     symbol: 'qash',
     name: 'QASH',
     marketCapRank: 1149,
@@ -14716,7 +14716,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'qlink',
-    fileName: 'token:QLC',
+    filePath: 'token:QLC',
     symbol: 'qlc',
     name: 'Kepple [OLD]',
     marketCapRank: 1427,
@@ -14725,7 +14725,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'qmall',
-    fileName: 'token:QMALL',
+    filePath: 'token:QMALL',
     symbol: 'qmall',
     name: 'Qmall',
     marketCapRank: 1742,
@@ -14738,7 +14738,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'qredo',
-    fileName: 'token:QRDO',
+    filePath: 'token:QRDO',
     symbol: 'qrdo',
     name: 'Qredo',
     marketCapRank: 689,
@@ -14749,7 +14749,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'qrolli',
-    fileName: 'token:QR',
+    filePath: 'token:QR',
     symbol: 'qr',
     name: 'Qrolli',
     marketCapRank: 2261,
@@ -14760,7 +14760,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'qtum',
-    fileName: 'token:QTUM',
+    filePath: 'token:QTUM',
     symbol: 'qtum',
     name: 'Qtum',
     marketCapRank: 190,
@@ -14769,7 +14769,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'quadency',
-    fileName: 'token:QUAD',
+    filePath: 'token:QUAD',
     symbol: 'quad',
     name: 'Quadency',
     marketCapRank: 2291,
@@ -14780,7 +14780,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'quadrant-protocol',
-    fileName: 'token:EQUAD',
+    filePath: 'token:EQUAD',
     symbol: 'equad',
     name: 'Quadrant Protocol',
     marketCapRank: 1982,
@@ -14791,7 +14791,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'quant-network',
-    fileName: 'token:QNT',
+    filePath: 'token:QNT',
     symbol: 'qnt',
     name: 'Quant',
     marketCapRank: 65,
@@ -14803,7 +14803,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'quantum-resistant-ledger',
-    fileName: 'token:QRL',
+    filePath: 'token:QRL',
     symbol: 'qrl',
     name: 'Quantum Resistant Ledger',
     marketCapRank: 1095,
@@ -14812,7 +14812,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'quark-chain',
-    fileName: 'token:QKC',
+    filePath: 'token:QKC',
     symbol: 'qkc',
     name: 'QuarkChain',
     marketCapRank: 505,
@@ -14824,7 +14824,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'quasar-2',
-    fileName: 'token:QSR',
+    filePath: 'token:QSR',
     symbol: 'qsr',
     name: 'Quasar',
     marketCapRank: 494,
@@ -14833,7 +14833,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'quick',
-    fileName: 'token:QUICK',
+    filePath: 'token:QUICK',
     symbol: 'quick',
     name: 'Quickswap [OLD]',
     marketCapRank: 739,
@@ -14845,7 +14845,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'quidd',
-    fileName: 'token:QUIDD',
+    filePath: 'token:QUIDD',
     symbol: 'quidd',
     name: 'Quidd',
     marketCapRank: 3058,
@@ -14858,7 +14858,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'quint',
-    fileName: 'token:QUINT',
+    filePath: 'token:QUINT',
     symbol: 'quint',
     name: 'Quint',
     marketCapRank: 1746,
@@ -14869,7 +14869,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'quiztok',
-    fileName: 'token:QTCON',
+    filePath: 'token:QTCON',
     symbol: 'qtcon',
     name: 'Quiztok',
     marketCapRank: 1215,
@@ -14881,7 +14881,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'r',
-    fileName: 'token:R',
+    filePath: 'token:R',
     symbol: 'r',
     name: 'R',
     marketCapRank: 2381,
@@ -14890,7 +14890,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rabbitx',
-    fileName: 'token:RBX',
+    filePath: 'token:RBX',
     symbol: 'rbx',
     name: 'RabbitX',
     marketCapRank: 1006,
@@ -14901,7 +14901,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'radiant',
-    fileName: 'token:RXD',
+    filePath: 'token:RXD',
     symbol: 'rxd',
     name: 'Radiant',
     marketCapRank: 1091,
@@ -14910,7 +14910,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'radiant-capital',
-    fileName: 'token:RDNT',
+    filePath: 'token:RDNT',
     symbol: 'rdnt',
     name: 'Radiant Capital',
     marketCapRank: 393,
@@ -14923,7 +14923,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'radicle',
-    fileName: 'token:RAD',
+    filePath: 'token:RAD',
     symbol: 'rad',
     name: 'Radworks',
     marketCapRank: 408,
@@ -14934,7 +14934,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'radioshack',
-    fileName: 'token:RADIO',
+    filePath: 'token:RADIO',
     symbol: 'radio',
     name: 'RadioShack',
     marketCapRank: 2241,
@@ -14951,7 +14951,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'radix',
-    fileName: 'token:XRD',
+    filePath: 'token:XRD',
     symbol: 'xrd',
     name: 'Radix',
     marketCapRank: 134,
@@ -14960,7 +14960,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rae-token',
-    fileName: 'token:RAE',
+    filePath: 'token:RAE',
     symbol: 'rae',
     name: 'Receive Access Ecosystem',
     marketCapRank: 1671,
@@ -14971,7 +14971,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rai',
-    fileName: 'token:RAI',
+    filePath: 'token:RAI',
     symbol: 'rai',
     name: 'Rai Reflex Index',
     marketCapRank: 1787,
@@ -14985,7 +14985,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rai-finance',
-    fileName: 'token:SOFI',
+    filePath: 'token:SOFI',
     symbol: 'sofi',
     name: 'RAI Finance',
     marketCapRank: 1206,
@@ -14998,7 +14998,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'raiden-network',
-    fileName: 'token:RDN',
+    filePath: 'token:RDN',
     symbol: 'rdn',
     name: 'Raiden Network',
     marketCapRank: 2458,
@@ -15009,7 +15009,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'railgun',
-    fileName: 'token:RAIL',
+    filePath: 'token:RAIL',
     symbol: 'rail',
     name: 'Railgun',
     marketCapRank: 979,
@@ -15020,7 +15020,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rainbow-token-2',
-    fileName: 'token:RBW',
+    filePath: 'token:RBW',
     symbol: 'rbw',
     name: 'Rainbow Token',
     marketCapRank: 1379,
@@ -15031,7 +15031,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rake-com',
-    fileName: 'token:RAKE',
+    filePath: 'token:RAKE',
     symbol: 'rake',
     name: 'Rake.com',
     marketCapRank: 1699,
@@ -15042,7 +15042,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rally-2',
-    fileName: 'token:RLY',
+    filePath: 'token:RLY',
     symbol: 'rly',
     name: 'Rally',
     marketCapRank: 492,
@@ -15053,7 +15053,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ramp',
-    fileName: 'token:RAMP',
+    filePath: 'token:RAMP',
     symbol: 'ramp',
     name: 'RAMP [OLD]',
     marketCapRank: 875,
@@ -15066,7 +15066,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ramses-exchange',
-    fileName: 'token:RAM',
+    filePath: 'token:RAM',
     symbol: 'ram',
     name: 'Ramses Exchange',
     marketCapRank: 1742,
@@ -15077,7 +15077,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rangers-protocol-gas',
-    fileName: 'token:RPG',
+    filePath: 'token:RPG',
     symbol: 'rpg',
     name: 'Rangers Protocol Gas',
     marketCapRank: 1193,
@@ -15089,7 +15089,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'raptoreum',
-    fileName: 'token:RTM',
+    filePath: 'token:RTM',
     symbol: 'rtm',
     name: 'Raptoreum',
     marketCapRank: 1706,
@@ -15098,7 +15098,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rari-governance-token',
-    fileName: 'token:RGT',
+    filePath: 'token:RGT',
     symbol: 'rgt',
     name: 'Rari Governance',
     marketCapRank: 1863,
@@ -15113,7 +15113,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rarible',
-    fileName: 'token:RARI',
+    filePath: 'token:RARI',
     symbol: 'rari',
     name: 'RARI',
     marketCapRank: 703,
@@ -15125,7 +15125,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'raven-protocol',
-    fileName: 'token:RAVEN',
+    filePath: 'token:RAVEN',
     symbol: 'raven',
     name: 'Raven Protocol',
     marketCapRank: 1597,
@@ -15137,7 +15137,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ravencoin',
-    fileName: 'token:RVN',
+    filePath: 'token:RVN',
     symbol: 'rvn',
     name: 'Ravencoin',
     marketCapRank: 160,
@@ -15146,7 +15146,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'raydium',
-    fileName: 'token:RAY',
+    filePath: 'token:RAY',
     symbol: 'ray',
     name: 'Raydium',
     marketCapRank: 171,
@@ -15157,7 +15157,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'razor-network',
-    fileName: 'token:RAZOR',
+    filePath: 'token:RAZOR',
     symbol: 'razor',
     name: 'Razor Network',
     marketCapRank: 1803,
@@ -15170,7 +15170,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'realfevr',
-    fileName: 'token:FEVR',
+    filePath: 'token:FEVR',
     symbol: 'fevr',
     name: 'RealFevr',
     marketCapRank: 1877,
@@ -15184,7 +15184,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'realm',
-    fileName: 'token:REALM',
+    filePath: 'token:REALM',
     symbol: 'realm',
     name: 'Realm',
     marketCapRank: 2075,
@@ -15196,7 +15196,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rebel-bots',
-    fileName: 'token:RBLS',
+    filePath: 'token:RBLS',
     symbol: 'rbls',
     name: 'Rebel Bots',
     marketCapRank: 1520,
@@ -15207,7 +15207,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'reboot',
-    fileName: 'token:GG',
+    filePath: 'token:GG',
     symbol: 'gg',
     name: 'Reboot',
     marketCapRank: 1643,
@@ -15219,7 +15219,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'redacted',
-    fileName: 'token:BTRFLY',
+    filePath: 'token:BTRFLY',
     symbol: 'btrfly',
     name: 'Redacted',
     marketCapRank: 583,
@@ -15230,7 +15230,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'reddcoin',
-    fileName: 'token:RDD',
+    filePath: 'token:RDD',
     symbol: 'rdd',
     name: 'Reddcoin',
     marketCapRank: 2029,
@@ -15239,7 +15239,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'redfox-labs-2',
-    fileName: 'token:RFOX',
+    filePath: 'token:RFOX',
     symbol: 'rfox',
     name: 'RFOX',
     marketCapRank: 1470,
@@ -15252,7 +15252,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'reef',
-    fileName: 'token:REEF',
+    filePath: 'token:REEF',
     symbol: 'reef',
     name: 'Reef',
     marketCapRank: 619,
@@ -15267,7 +15267,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ref-finance',
-    fileName: 'token:REF',
+    filePath: 'token:REF',
     symbol: 'ref',
     name: 'Ref Finance',
     marketCapRank: 1304,
@@ -15278,7 +15278,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'refund',
-    fileName: 'token:RFD',
+    filePath: 'token:RFD',
     symbol: 'rfd',
     name: 'Refund',
     marketCapRank: 1663,
@@ -15289,7 +15289,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'regen',
-    fileName: 'token:REGEN',
+    filePath: 'token:REGEN',
     symbol: 'regen',
     name: 'Regen',
     marketCapRank: 1401,
@@ -15302,7 +15302,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rejuve-ai',
-    fileName: 'token:RJV',
+    filePath: 'token:RJV',
     symbol: 'rjv',
     name: 'Rejuve.AI',
     marketCapRank: 1077,
@@ -15315,7 +15315,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'renbtc',
-    fileName: 'token:RENBTC',
+    filePath: 'token:RENBTC',
     symbol: 'renbtc',
     name: 'renBTC',
     marketCapRank: 1156,
@@ -15330,7 +15330,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'render-token',
-    fileName: 'token:RNDR',
+    filePath: 'token:RNDR',
     symbol: 'rndr',
     name: 'Render',
     marketCapRank: 35,
@@ -15343,7 +15343,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'renewable-energy',
-    fileName: 'token:RET',
+    filePath: 'token:RET',
     symbol: 'ret',
     name: 'Renewable Energy',
     marketCapRank: 1980,
@@ -15354,7 +15354,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'republic-protocol',
-    fileName: 'token:REN',
+    filePath: 'token:REN',
     symbol: 'ren',
     name: 'Ren',
     marketCapRank: 528,
@@ -15370,7 +15370,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'request-network',
-    fileName: 'token:REQ',
+    filePath: 'token:REQ',
     symbol: 'req',
     name: 'Request',
     marketCapRank: 460,
@@ -15382,7 +15382,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'researchcoin',
-    fileName: 'token:RSC',
+    filePath: 'token:RSC',
     symbol: 'rsc',
     name: 'ResearchCoin',
     marketCapRank: 656,
@@ -15393,7 +15393,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'reserve-rights-token',
-    fileName: 'token:RSR',
+    filePath: 'token:RSR',
     symbol: 'rsr',
     name: 'Reserve Rights',
     marketCapRank: 180,
@@ -15406,7 +15406,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'reunit-wallet',
-    fileName: 'token:REUNI',
+    filePath: 'token:REUNI',
     symbol: 'reuni',
     name: 'Reunit Wallet',
     marketCapRank: 2209,
@@ -15421,7 +15421,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rev3al',
-    fileName: 'token:REV3L',
+    filePath: 'token:REV3L',
     symbol: 'rev3l',
     name: 'REV3AL',
     marketCapRank: 1515,
@@ -15432,7 +15432,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'revain',
-    fileName: 'token:REV',
+    filePath: 'token:REV',
     symbol: 'rev',
     name: 'Revain',
     marketCapRank: 1807,
@@ -15444,7 +15444,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'revenant',
-    fileName: 'token:GAMEFI',
+    filePath: 'token:GAMEFI',
     symbol: 'gamefi',
     name: 'Revenant',
     marketCapRank: 2347,
@@ -15455,7 +15455,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'revenue-coin',
-    fileName: 'token:RVC',
+    filePath: 'token:RVC',
     symbol: 'rvc',
     name: 'Revenue Coin',
     marketCapRank: 2069,
@@ -15466,7 +15466,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'revest-finance',
-    fileName: 'token:RVST',
+    filePath: 'token:RVST',
     symbol: 'rvst',
     name: 'Revest Finance',
     marketCapRank: 967,
@@ -15477,7 +15477,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'revomon-2',
-    fileName: 'token:REVO',
+    filePath: 'token:REVO',
     symbol: 'revo',
     name: 'Revomon',
     marketCapRank: 1820,
@@ -15488,7 +15488,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'revv',
-    fileName: 'token:REVV',
+    filePath: 'token:REVV',
     symbol: 'revv',
     name: 'REVV',
     marketCapRank: 1347,
@@ -15501,7 +15501,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rhinofi',
-    fileName: 'token:DVF',
+    filePath: 'token:DVF',
     symbol: 'dvf',
     name: 'Rhino.fi',
     marketCapRank: 1533,
@@ -15513,7 +15513,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ribbit-meme',
-    fileName: 'token:RIBBIT',
+    filePath: 'token:RIBBIT',
     symbol: 'ribbit',
     name: 'Ribbit Meme',
     marketCapRank: 2597,
@@ -15524,7 +15524,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ribbon-finance',
-    fileName: 'token:RBN',
+    filePath: 'token:RBN',
     symbol: 'rbn',
     name: 'Ribbon Finance',
     marketCapRank: 74,
@@ -15535,7 +15535,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ridotto',
-    fileName: 'token:RDT',
+    filePath: 'token:RDT',
     symbol: 'rdt',
     name: 'Ridotto',
     marketCapRank: 1508,
@@ -15547,7 +15547,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rif-token',
-    fileName: 'token:RIF',
+    filePath: 'token:RIF',
     symbol: 'rif',
     name: 'RSK Infrastructure Framework',
     marketCapRank: 291,
@@ -15558,7 +15558,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rigoblock',
-    fileName: 'token:GRG',
+    filePath: 'token:GRG',
     symbol: 'grg',
     name: 'RigoBlock',
     marketCapRank: 1207,
@@ -15574,7 +15574,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ripio-credit-network',
-    fileName: 'token:RCN',
+    filePath: 'token:RCN',
     symbol: 'rcn',
     name: 'Ripio Credit Network',
     marketCapRank: 2477,
@@ -15585,7 +15585,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ripple',
-    fileName: 'token:XRP',
+    filePath: 'token:XRP',
     symbol: 'xrp',
     name: 'XRP',
     marketCapRank: 6,
@@ -15594,7 +15594,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'risitas',
-    fileName: 'token:RISITA',
+    filePath: 'token:RISITA',
     symbol: 'risita',
     name: 'Risitas',
     marketCapRank: 3745,
@@ -15606,7 +15606,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ritestream',
-    fileName: 'token:RITE',
+    filePath: 'token:RITE',
     symbol: 'rite',
     name: 'ritestream',
     marketCapRank: 1745,
@@ -15617,7 +15617,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rmrk',
-    fileName: 'token:RMRK',
+    filePath: 'token:RMRK',
     symbol: 'rmrk',
     name: 'RMRK',
     marketCapRank: 1140,
@@ -15632,7 +15632,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'roasthimjim',
-    fileName: 'token:JIM',
+    filePath: 'token:JIM',
     symbol: 'jim',
     name: 'Jim',
     marketCapRank: 2307,
@@ -15643,7 +15643,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'robo-inu-finance',
-    fileName: 'token:RBIF',
+    filePath: 'token:RBIF',
     symbol: 'rbif',
     name: 'Robo Inu Finance',
     marketCapRank: 1560,
@@ -15654,7 +15654,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'robonomics-network',
-    fileName: 'token:XRT',
+    filePath: 'token:XRT',
     symbol: 'xrt',
     name: 'Robonomics Network',
     marketCapRank: 1534,
@@ -15666,7 +15666,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rocket-pool',
-    fileName: 'token:RPL',
+    filePath: 'token:RPL',
     symbol: 'rpl',
     name: 'Rocket Pool',
     marketCapRank: 166,
@@ -15679,7 +15679,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rocket-pool-eth',
-    fileName: 'token:RETH',
+    filePath: 'token:RETH',
     symbol: 'reth',
     name: 'Rocket Pool ETH',
     marketCapRank: 62,
@@ -15694,7 +15694,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rocketx',
-    fileName: 'token:RVF',
+    filePath: 'token:RVF',
     symbol: 'rvf',
     name: 'RocketX Exchange',
     marketCapRank: 806,
@@ -15707,7 +15707,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'roko-network',
-    fileName: 'token:ROKO',
+    filePath: 'token:ROKO',
     symbol: 'roko',
     name: 'Roko Network',
     marketCapRank: 1334,
@@ -15718,7 +15718,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rollbit-coin',
-    fileName: 'token:RLB',
+    filePath: 'token:RLB',
     symbol: 'rlb',
     name: 'Rollbit Coin',
     marketCapRank: 262,
@@ -15729,7 +15729,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rome',
-    fileName: 'token:ROME',
+    filePath: 'token:ROME',
     symbol: 'rome',
     name: 'Rome',
     marketCapRank: 2179,
@@ -15740,7 +15740,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'roobee',
-    fileName: 'token:ROOBEE',
+    filePath: 'token:ROOBEE',
     symbol: 'roobee',
     name: 'Roobee',
     marketCapRank: 2505,
@@ -15756,7 +15756,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rook',
-    fileName: 'token:ROOK',
+    filePath: 'token:ROOK',
     symbol: 'rook',
     name: 'Rook',
     marketCapRank: 2391,
@@ -15770,7 +15770,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'route',
-    fileName: 'token:ROUTE',
+    filePath: 'token:ROUTE',
     symbol: 'route',
     name: 'Router Protocol',
     marketCapRank: 689,
@@ -15788,7 +15788,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rowan-coin',
-    fileName: 'token:RWN',
+    filePath: 'token:RWN',
     symbol: 'rwn',
     name: 'Rowan Coin',
     marketCapRank: 784,
@@ -15797,7 +15797,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rss3',
-    fileName: 'token:RSS3',
+    filePath: 'token:RSS3',
     symbol: 'rss3',
     name: 'RSS3',
     marketCapRank: 232,
@@ -15808,7 +15808,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rubidium',
-    fileName: 'token:RBD',
+    filePath: 'token:RBD',
     symbol: 'rbd',
     name: 'Rubidium',
     marketCapRank: 2418,
@@ -15817,7 +15817,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rug-rugged-art',
-    fileName: 'token:RUG',
+    filePath: 'token:RUG',
     symbol: 'rug',
     name: 'Rug',
     marketCapRank: 3052,
@@ -15830,7 +15830,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'rupiah-token',
-    fileName: 'token:IDRT',
+    filePath: 'token:IDRT',
     symbol: 'idrt',
     name: 'Rupiah Token',
     marketCapRank: 1415,
@@ -15844,7 +15844,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sacabam',
-    fileName: 'token:SCB',
+    filePath: 'token:SCB',
     symbol: 'scb',
     name: 'Sacabam',
     marketCapRank: 2079,
@@ -15855,7 +15855,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'safe',
-    fileName: 'token:SAFE',
+    filePath: 'token:SAFE',
     symbol: 'safe',
     name: 'Safe',
     marketCapRank: null,
@@ -15866,7 +15866,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'safe-deal',
-    fileName: 'token:SFD',
+    filePath: 'token:SFD',
     symbol: 'sfd',
     name: 'SafeDeal',
     marketCapRank: 1181,
@@ -15875,7 +15875,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'safe-haven',
-    fileName: 'token:SHA',
+    filePath: 'token:SHA',
     symbol: 'sha',
     name: 'Safe Haven',
     marketCapRank: 1962,
@@ -15889,7 +15889,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'safemars',
-    fileName: 'token:SAFEMARS',
+    filePath: 'token:SAFEMARS',
     symbol: 'safemars',
     name: 'Safemars',
     marketCapRank: 1839,
@@ -15900,7 +15900,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'safemoon-2',
-    fileName: 'token:SFM',
+    filePath: 'token:SFM',
     symbol: 'sfm',
     name: 'SafeMoon',
     marketCapRank: 615,
@@ -15911,7 +15911,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'safemoon-inu',
-    fileName: 'token:SMI',
+    filePath: 'token:SMI',
     symbol: 'smi',
     name: 'SafeMoon Inu',
     marketCapRank: 2560,
@@ -15922,7 +15922,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'safepal',
-    fileName: 'token:SFP',
+    filePath: 'token:SFP',
     symbol: 'sfp',
     name: 'SafePal',
     marketCapRank: 240,
@@ -15935,7 +15935,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'saffron-finance',
-    fileName: 'token:SFI',
+    filePath: 'token:SFI',
     symbol: 'sfi',
     name: 'saffron.finance',
     marketCapRank: 2112,
@@ -15947,7 +15947,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sai',
-    fileName: 'token:SAI',
+    filePath: 'token:SAI',
     symbol: 'sai',
     name: 'Sai',
     marketCapRank: 769,
@@ -15958,7 +15958,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sail-2',
-    fileName: 'token:SAIL',
+    filePath: 'token:SAIL',
     symbol: 'sail',
     name: 'Clipper SAIL',
     marketCapRank: 1792,
@@ -15969,7 +15969,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'saitama-inu',
-    fileName: 'token:SAITAMA',
+    filePath: 'token:SAITAMA',
     symbol: 'saitama',
     name: 'Saitama',
     marketCapRank: 531,
@@ -15980,7 +15980,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'saitarealty',
-    fileName: 'token:SRLTY',
+    filePath: 'token:SRLTY',
     symbol: 'srlty',
     name: 'SaitaRealty',
     marketCapRank: 1966,
@@ -15992,7 +15992,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'saito',
-    fileName: 'token:SAITO',
+    filePath: 'token:SAITO',
     symbol: 'saito',
     name: 'Saito',
     marketCapRank: 1227,
@@ -16004,7 +16004,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sakai-vault',
-    fileName: 'token:SAKAI',
+    filePath: 'token:SAKAI',
     symbol: 'sakai',
     name: 'Sakai Vault',
     marketCapRank: 1941,
@@ -16015,7 +16015,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'salt',
-    fileName: 'token:SALT',
+    filePath: 'token:SALT',
     symbol: 'salt',
     name: 'SALT',
     marketCapRank: 2382,
@@ -16026,7 +16026,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'samoyedcoin',
-    fileName: 'token:SAMO',
+    filePath: 'token:SAMO',
     symbol: 'samo',
     name: 'Samoyedcoin',
     marketCapRank: 696,
@@ -16037,7 +16037,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'samsunspor-fan-token',
-    fileName: 'token:SAM',
+    filePath: 'token:SAM',
     symbol: 'sam',
     name: 'Samsunspor Fan Token',
     marketCapRank: 2050,
@@ -16048,7 +16048,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sandclock',
-    fileName: 'token:QUARTZ',
+    filePath: 'token:QUARTZ',
     symbol: 'quartz',
     name: 'Sandclock',
     marketCapRank: 2518,
@@ -16060,7 +16060,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sanin-inu',
-    fileName: 'token:SANI',
+    filePath: 'token:SANI',
     symbol: 'sani',
     name: 'Sanin Inu',
     marketCapRank: 1942,
@@ -16071,7 +16071,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'santiment-network-token',
-    fileName: 'token:SAN',
+    filePath: 'token:SAN',
     symbol: 'san',
     name: 'Santiment Network',
     marketCapRank: 1646,
@@ -16082,7 +16082,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sats-ordinals',
-    fileName: 'token:SATS',
+    filePath: 'token:SATS',
     symbol: 'sats',
     name: 'SATS (Ordinals)',
     marketCapRank: 109,
@@ -16094,7 +16094,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'satt',
-    fileName: 'token:SATT',
+    filePath: 'token:SATT',
     symbol: 'satt',
     name: 'SaTT',
     marketCapRank: 3102,
@@ -16105,7 +16105,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'saucerswap',
-    fileName: 'token:SAUCE',
+    filePath: 'token:SAUCE',
     symbol: 'sauce',
     name: 'SaucerSwap',
     marketCapRank: 560,
@@ -16116,7 +16116,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'savage',
-    fileName: 'token:SAVG',
+    filePath: 'token:SAVG',
     symbol: 'savg',
     name: 'SAVAGE',
     marketCapRank: 1880,
@@ -16127,7 +16127,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'saveplanetearth',
-    fileName: 'token:SPE',
+    filePath: 'token:SPE',
     symbol: 'spe',
     name: 'SavePlanetEarth',
     marketCapRank: 1809,
@@ -16138,7 +16138,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sbtc',
-    fileName: 'token:SBTC',
+    filePath: 'token:SBTC',
     symbol: 'sbtc',
     name: 'sBTC',
     marketCapRank: 1220,
@@ -16149,7 +16149,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'scallop',
-    fileName: 'token:SCLP',
+    filePath: 'token:SCLP',
     symbol: 'sclp',
     name: 'Scallop',
     marketCapRank: 821,
@@ -16160,7 +16160,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'secret',
-    fileName: 'token:SCRT',
+    filePath: 'token:SCRT',
     symbol: 'scrt',
     name: 'Secret',
     marketCapRank: 365,
@@ -16171,7 +16171,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'seedify-fund',
-    fileName: 'token:SFUND',
+    filePath: 'token:SFUND',
     symbol: 'sfund',
     name: 'Seedify.fund',
     marketCapRank: 285,
@@ -16184,7 +16184,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sei-network',
-    fileName: 'token:SEI',
+    filePath: 'token:SEI',
     symbol: 'sei',
     name: 'Sei',
     marketCapRank: 60,
@@ -16193,7 +16193,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'selfkey',
-    fileName: 'token:KEY',
+    filePath: 'token:KEY',
     symbol: 'key',
     name: 'SelfKey',
     marketCapRank: 660,
@@ -16205,7 +16205,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'senate',
-    fileName: 'token:SENATE',
+    filePath: 'token:SENATE',
     symbol: 'senate',
     name: 'SENATE',
     marketCapRank: 1322,
@@ -16216,7 +16216,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'send-token',
-    fileName: 'token:SEND',
+    filePath: 'token:SEND',
     symbol: 'send',
     name: '/send',
     marketCapRank: 1425,
@@ -16228,7 +16228,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sensegenesis',
-    fileName: 'token:SENSE',
+    filePath: 'token:SENSE',
     symbol: 'sense',
     name: 'Sense',
     marketCapRank: null,
@@ -16237,7 +16237,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sentinel',
-    fileName: 'token:DVPN',
+    filePath: 'token:DVPN',
     symbol: 'dvpn',
     name: 'Sentinel',
     marketCapRank: 846,
@@ -16249,7 +16249,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sentinel-protocol',
-    fileName: 'token:UPP',
+    filePath: 'token:UPP',
     symbol: 'upp',
     name: 'Sentinel Protocol',
     marketCapRank: 723,
@@ -16260,7 +16260,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'serum',
-    fileName: 'token:SRM',
+    filePath: 'token:SRM',
     symbol: 'srm',
     name: 'Serum',
     marketCapRank: 1070,
@@ -16274,7 +16274,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'seth',
-    fileName: 'token:SETH',
+    filePath: 'token:SETH',
     symbol: 'seth',
     name: 'sETH',
     marketCapRank: 829,
@@ -16286,7 +16286,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'seth2',
-    fileName: 'token:SETH2',
+    filePath: 'token:SETH2',
     symbol: 'seth2',
     name: 'sETH2',
     marketCapRank: 588,
@@ -16297,7 +16297,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'shiba-inu',
-    fileName: 'token:SHIB',
+    filePath: 'token:SHIB',
     symbol: 'shib',
     name: 'Shiba Inu',
     marketCapRank: 13,
@@ -16308,7 +16308,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'shiba-predator',
-    fileName: 'token:QOM',
+    filePath: 'token:QOM',
     symbol: 'qom',
     name: 'Shiba Predator',
     marketCapRank: 1017,
@@ -16319,7 +16319,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'shiba-saga',
-    fileName: 'token:SHIA',
+    filePath: 'token:SHIA',
     symbol: 'shia',
     name: 'Shiba Saga',
     marketCapRank: 1627,
@@ -16330,7 +16330,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'shibadoge',
-    fileName: 'token:SHIBDOGE',
+    filePath: 'token:SHIBDOGE',
     symbol: 'shibdoge',
     name: 'ShibaDoge',
     marketCapRank: 1936,
@@ -16341,7 +16341,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'shiden',
-    fileName: 'token:SDN',
+    filePath: 'token:SDN',
     symbol: 'sdn',
     name: 'Shiden Network',
     marketCapRank: 1184,
@@ -16350,7 +16350,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'shido-2',
-    fileName: 'token:SHIDO',
+    filePath: 'token:SHIDO',
     symbol: 'shido',
     name: 'Shido',
     marketCapRank: 896,
@@ -16361,7 +16361,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'shikoku',
-    fileName: 'token:SHIK',
+    filePath: 'token:SHIK',
     symbol: 'shik',
     name: 'Shikoku',
     marketCapRank: 2432,
@@ -16372,7 +16372,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'shina-inu',
-    fileName: 'token:SHI',
+    filePath: 'token:SHI',
     symbol: 'shi',
     name: 'Shina Inu',
     marketCapRank: 1252,
@@ -16383,7 +16383,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'shockwaves',
-    fileName: 'token:NEUROS',
+    filePath: 'token:NEUROS',
     symbol: 'neuros',
     name: 'Shockwaves',
     marketCapRank: 2081,
@@ -16394,7 +16394,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'shrapnel-2',
-    fileName: 'token:SHRAP',
+    filePath: 'token:SHRAP',
     symbol: 'shrap',
     name: 'Shrapnel',
     marketCapRank: 477,
@@ -16407,7 +16407,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'shroom-finance',
-    fileName: 'token:SHROOM',
+    filePath: 'token:SHROOM',
     symbol: 'shroom',
     name: 'Niftyx Protocol',
     marketCapRank: 2044,
@@ -16418,7 +16418,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'shyft-network-2',
-    fileName: 'token:SHFT',
+    filePath: 'token:SHFT',
     symbol: 'shft',
     name: 'Shyft Network',
     marketCapRank: 1539,
@@ -16429,7 +16429,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'siacoin',
-    fileName: 'token:SC',
+    filePath: 'token:SC',
     symbol: 'sc',
     name: 'Siacoin',
     marketCapRank: 175,
@@ -16438,7 +16438,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'siaprime-coin',
-    fileName: 'token:SCP',
+    filePath: 'token:SCP',
     symbol: 'scp',
     name: 'ScPrime',
     marketCapRank: 1506,
@@ -16447,7 +16447,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sidus',
-    fileName: 'token:SIDUS',
+    filePath: 'token:SIDUS',
     symbol: 'sidus',
     name: 'Sidus',
     marketCapRank: 486,
@@ -16458,7 +16458,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'signum',
-    fileName: 'token:SIGNA',
+    filePath: 'token:SIGNA',
     symbol: 'signa',
     name: 'Signum',
     marketCapRank: 2116,
@@ -16467,7 +16467,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'silent-notary',
-    fileName: 'token:UBSN',
+    filePath: 'token:UBSN',
     symbol: 'ubsn',
     name: 'Silent Notary',
     marketCapRank: 2359,
@@ -16478,7 +16478,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'silk-bcec1136-561c-4706-a42c-8b67d0d7f7d2',
-    fileName: 'token:SILK',
+    filePath: 'token:SILK',
     symbol: 'silk',
     name: 'Silk',
     marketCapRank: 1912,
@@ -16491,7 +16491,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'silo-finance',
-    fileName: 'token:SILO',
+    filePath: 'token:SILO',
     symbol: 'silo',
     name: 'Silo Finance',
     marketCapRank: 972,
@@ -16503,7 +16503,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'singularitydao',
-    fileName: 'token:SDAO',
+    filePath: 'token:SDAO',
     symbol: 'sdao',
     name: 'SingularityDAO',
     marketCapRank: 546,
@@ -16515,7 +16515,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'singularitynet',
-    fileName: 'token:AGIX',
+    filePath: 'token:AGIX',
     symbol: 'agix',
     name: 'SingularityNET',
     marketCapRank: 73,
@@ -16528,7 +16528,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sipher',
-    fileName: 'token:SIPHER',
+    filePath: 'token:SIPHER',
     symbol: 'sipher',
     name: 'SIPHER',
     marketCapRank: 850,
@@ -16539,7 +16539,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'siren',
-    fileName: 'token:SI',
+    filePath: 'token:SI',
     symbol: 'si',
     name: 'Siren',
     marketCapRank: 2417,
@@ -16550,7 +16550,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'six-network',
-    fileName: 'token:SIX',
+    filePath: 'token:SIX',
     symbol: 'six',
     name: 'SIX Network',
     marketCapRank: 1446,
@@ -16561,7 +16561,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'skale',
-    fileName: 'token:SKL',
+    filePath: 'token:SKL',
     symbol: 'skl',
     name: 'SKALE',
     marketCapRank: 161,
@@ -16572,7 +16572,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'skeb',
-    fileName: 'token:SKEB',
+    filePath: 'token:SKEB',
     symbol: 'skeb',
     name: 'Skeb',
     marketCapRank: 1588,
@@ -16583,7 +16583,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'skey-network',
-    fileName: 'token:SKEY',
+    filePath: 'token:SKEY',
     symbol: 'skey',
     name: 'Skey Network',
     marketCapRank: 1140,
@@ -16594,7 +16594,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'slam-token',
-    fileName: 'token:SLAM',
+    filePath: 'token:SLAM',
     symbol: 'slam',
     name: 'Slam',
     marketCapRank: 2421,
@@ -16605,7 +16605,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sleepless-ai',
-    fileName: 'token:AI',
+    filePath: 'token:AI',
     symbol: 'ai',
     name: 'Sleepless AI',
     marketCapRank: 321,
@@ -16616,7 +16616,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'smardex',
-    fileName: 'token:SDEX',
+    filePath: 'token:SDEX',
     symbol: 'sdex',
     name: 'SmarDex',
     marketCapRank: 377,
@@ -16631,7 +16631,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'smart-valor',
-    fileName: 'token:VALOR',
+    filePath: 'token:VALOR',
     symbol: 'valor',
     name: 'Smart Valor',
     marketCapRank: 1358,
@@ -16642,7 +16642,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'smartcredit-token',
-    fileName: 'token:SMARTCREDIT',
+    filePath: 'token:SMARTCREDIT',
     symbol: 'smartcredit',
     name: 'SmartCredit',
     marketCapRank: 2413,
@@ -16653,7 +16653,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'smooth-love-potion',
-    fileName: 'token:SLP',
+    filePath: 'token:SLP',
     symbol: 'slp',
     name: 'Smooth Love Potion',
     marketCapRank: 305,
@@ -16666,7 +16666,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'snailbrook',
-    fileName: 'token:SNAIL',
+    filePath: 'token:SNAIL',
     symbol: 'snail',
     name: 'SnailBrook',
     marketCapRank: 1271,
@@ -16677,7 +16677,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'snek',
-    fileName: 'token:SNEK',
+    filePath: 'token:SNEK',
     symbol: 'snek',
     name: 'Snek',
     marketCapRank: 506,
@@ -16688,7 +16688,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'solana',
-    fileName: 'token:SOL',
+    filePath: 'token:SOL',
     symbol: 'sol',
     name: 'Solana',
     marketCapRank: 5,
@@ -16697,7 +16697,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'solanium',
-    fileName: 'token:SLIM',
+    filePath: 'token:SLIM',
     symbol: 'slim',
     name: 'Solanium',
     marketCapRank: 955,
@@ -16708,7 +16708,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'solarcoin',
-    fileName: 'token:SLR',
+    filePath: 'token:SLR',
     symbol: 'slr',
     name: 'Solarcoin',
     marketCapRank: 2484,
@@ -16720,7 +16720,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'solcasino-token',
-    fileName: 'token:SCS',
+    filePath: 'token:SCS',
     symbol: 'scs',
     name: 'Solcasino Token',
     marketCapRank: 573,
@@ -16731,7 +16731,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'solchat',
-    fileName: 'token:CHAT',
+    filePath: 'token:CHAT',
     symbol: 'chat',
     name: 'Solchat',
     marketCapRank: 619,
@@ -16742,7 +16742,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'solcial',
-    fileName: 'token:SLCL',
+    filePath: 'token:SLCL',
     symbol: 'slcl',
     name: 'Solcial',
     marketCapRank: 2158,
@@ -16753,7 +16753,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'soldex',
-    fileName: 'token:SOLX',
+    filePath: 'token:SOLX',
     symbol: 'solx',
     name: 'Soldex',
     marketCapRank: 3821,
@@ -16764,7 +16764,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'solend',
-    fileName: 'token:SLND',
+    filePath: 'token:SLND',
     symbol: 'slnd',
     name: 'Solend',
     marketCapRank: 648,
@@ -16775,7 +16775,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'solfarm',
-    fileName: 'token:TULIP',
+    filePath: 'token:TULIP',
     symbol: 'tulip',
     name: 'Tulip Protocol',
     marketCapRank: 2321,
@@ -16786,7 +16786,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'solidlydex',
-    fileName: 'token:SOLID',
+    filePath: 'token:SOLID',
     symbol: 'solid',
     name: 'Solidly',
     marketCapRank: 1753,
@@ -16798,7 +16798,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'solidus-aitech',
-    fileName: 'token:AITECH',
+    filePath: 'token:AITECH',
     symbol: 'aitech',
     name: 'Solidus Ai Tech',
     marketCapRank: 419,
@@ -16809,7 +16809,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'solo-coin',
-    fileName: 'token:SOLO',
+    filePath: 'token:SOLO',
     symbol: 'solo',
     name: 'Sologenic',
     marketCapRank: 680,
@@ -16818,7 +16818,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'solve-care',
-    fileName: 'token:SOLVE',
+    filePath: 'token:SOLVE',
     symbol: 'solve',
     name: 'SOLVE',
     marketCapRank: 1199,
@@ -16829,7 +16829,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sombra-network',
-    fileName: 'token:SMBR',
+    filePath: 'token:SMBR',
     symbol: 'smbr',
     name: 'Sombra',
     marketCapRank: 2438,
@@ -16841,7 +16841,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'somesing',
-    fileName: 'token:SSX',
+    filePath: 'token:SSX',
     symbol: 'ssx',
     name: 'SOMESING Exchange',
     marketCapRank: 1847,
@@ -16852,7 +16852,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sommelier',
-    fileName: 'token:SOMM',
+    filePath: 'token:SOMM',
     symbol: 'somm',
     name: 'Sommelier',
     marketCapRank: 805,
@@ -16865,7 +16865,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'somnium-space-cubes',
-    fileName: 'token:CUBE',
+    filePath: 'token:CUBE',
     symbol: 'cube',
     name: 'Somnium Space CUBEs',
     marketCapRank: 1246,
@@ -16876,7 +16876,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sonne-finance',
-    fileName: 'token:SONNE',
+    filePath: 'token:SONNE',
     symbol: 'sonne',
     name: 'Sonne Finance',
     marketCapRank: 1406,
@@ -16888,7 +16888,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'soonswap',
-    fileName: 'token:SOON',
+    filePath: 'token:SOON',
     symbol: 'soon',
     name: 'SoonVerse',
     marketCapRank: 1750,
@@ -16899,7 +16899,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sophiaverse',
-    fileName: 'token:SOPH',
+    filePath: 'token:SOPH',
     symbol: 'soph',
     name: 'SophiaVerse',
     marketCapRank: 1136,
@@ -16911,7 +16911,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sora',
-    fileName: 'token:XOR',
+    filePath: 'token:XOR',
     symbol: 'xor',
     name: 'Sora',
     marketCapRank: 2092,
@@ -16923,7 +16923,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'source',
-    fileName: 'token:SOURCE',
+    filePath: 'token:SOURCE',
     symbol: 'source',
     name: 'Source',
     marketCapRank: 1139,
@@ -16932,7 +16932,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'source-protocol',
-    fileName: 'token:SRCX',
+    filePath: 'token:SRCX',
     symbol: 'srcx',
     name: 'Source Protocol',
     marketCapRank: 2250,
@@ -16943,7 +16943,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sovryn',
-    fileName: 'token:SOV',
+    filePath: 'token:SOV',
     symbol: 'sov',
     name: 'Sovryn',
     marketCapRank: 605,
@@ -16955,7 +16955,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'space-id',
-    fileName: 'token:ID',
+    filePath: 'token:ID',
     symbol: 'id',
     name: 'SPACE ID',
     marketCapRank: 202,
@@ -16967,7 +16967,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'spacechain-erc-20',
-    fileName: 'token:SPC',
+    filePath: 'token:SPC',
     symbol: 'spc',
     name: 'SpaceChain (ERC-20)',
     marketCapRank: 1965,
@@ -16978,7 +16978,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'spacefalcon',
-    fileName: 'token:FCON',
+    filePath: 'token:FCON',
     symbol: 'fcon',
     name: 'SpaceFalcon',
     marketCapRank: 1661,
@@ -16989,7 +16989,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'spacen',
-    fileName: 'token:SN',
+    filePath: 'token:SN',
     symbol: 'sn',
     name: 'SpaceN',
     marketCapRank: 1281,
@@ -17000,7 +17000,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'spain-national-fan-token',
-    fileName: 'token:SNFT',
+    filePath: 'token:SNFT',
     symbol: 'snft',
     name: 'Spain National Football Team Fan Token',
     marketCapRank: 2206,
@@ -17011,7 +17011,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'spankchain',
-    fileName: 'token:SPANK',
+    filePath: 'token:SPANK',
     symbol: 'spank',
     name: 'SpankChain',
     marketCapRank: 1757,
@@ -17022,7 +17022,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sparkpoint',
-    fileName: 'token:SRK',
+    filePath: 'token:SRK',
     symbol: 'srk',
     name: 'SparkPoint',
     marketCapRank: 2320,
@@ -17034,7 +17034,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'spartadex',
-    fileName: 'token:SPARTA',
+    filePath: 'token:SPARTA',
     symbol: 'sparta',
     name: 'SpartaDEX',
     marketCapRank: 1170,
@@ -17045,7 +17045,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'spell-token',
-    fileName: 'token:SPELL',
+    filePath: 'token:SPELL',
     symbol: 'spell',
     name: 'Spell',
     marketCapRank: 372,
@@ -17059,7 +17059,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sperax',
-    fileName: 'token:SPA',
+    filePath: 'token:SPA',
     symbol: 'spa',
     name: 'Sperax',
     marketCapRank: 987,
@@ -17071,7 +17071,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sphere-finance',
-    fileName: 'token:SPHERE',
+    filePath: 'token:SPHERE',
     symbol: 'sphere',
     name: 'Sphere Finance',
     marketCapRank: 1866,
@@ -17082,7 +17082,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'spheroid-universe',
-    fileName: 'token:SPH',
+    filePath: 'token:SPH',
     symbol: 'sph',
     name: 'Spheroid Universe',
     marketCapRank: 1707,
@@ -17093,7 +17093,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'spiritswap',
-    fileName: 'token:SPIRIT',
+    filePath: 'token:SPIRIT',
     symbol: 'spirit',
     name: 'SpiritSwap',
     marketCapRank: 1918,
@@ -17104,7 +17104,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'splyt',
-    fileName: 'token:SHOPX',
+    filePath: 'token:SHOPX',
     symbol: 'shopx',
     name: 'SHOPX',
     marketCapRank: 1447,
@@ -17115,7 +17115,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'spool-dao-token',
-    fileName: 'token:SPOOL',
+    filePath: 'token:SPOOL',
     symbol: 'spool',
     name: 'Spool',
     marketCapRank: 1350,
@@ -17127,7 +17127,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'spore',
-    fileName: 'token:SPORE',
+    filePath: 'token:SPORE',
     symbol: 'spore',
     name: 'Spore',
     marketCapRank: 2501,
@@ -17139,7 +17139,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'spx6900',
-    fileName: 'token:SPX',
+    filePath: 'token:SPX',
     symbol: 'spx',
     name: 'SPX6900',
     marketCapRank: 2171,
@@ -17152,7 +17152,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'squad',
-    fileName: 'token:SQUAD',
+    filePath: 'token:SQUAD',
     symbol: 'squad',
     name: 'Superpower Squad',
     marketCapRank: 2551,
@@ -17165,7 +17165,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'squidgrow',
-    fileName: 'token:SQUIDGROW',
+    filePath: 'token:SQUIDGROW',
     symbol: 'squidgrow',
     name: 'SquidGrow',
     marketCapRank: 1294,
@@ -17177,7 +17177,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ssv-network',
-    fileName: 'token:SSV',
+    filePath: 'token:SSV',
     symbol: 'ssv',
     name: 'SSV Network',
     marketCapRank: 219,
@@ -17188,7 +17188,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stacktical',
-    fileName: 'token:DSLA',
+    filePath: 'token:DSLA',
     symbol: 'dsla',
     name: 'DSLA Protocol',
     marketCapRank: 1836,
@@ -17205,7 +17205,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stader-ethx',
-    fileName: 'token:ETHX',
+    filePath: 'token:ETHX',
     symbol: 'ethx',
     name: 'Stader ETHx',
     marketCapRank: 211,
@@ -17216,7 +17216,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stader-maticx',
-    fileName: 'token:MATICX',
+    filePath: 'token:MATICX',
     symbol: 'maticx',
     name: 'Stader MaticX',
     marketCapRank: 415,
@@ -17229,7 +17229,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stader-sftmx',
-    fileName: 'token:SFTMX',
+    filePath: 'token:SFTMX',
     symbol: 'sftmx',
     name: 'BeethovenX sFTMX',
     marketCapRank: 1104,
@@ -17240,7 +17240,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stafi',
-    fileName: 'token:FIS',
+    filePath: 'token:FIS',
     symbol: 'fis',
     name: 'Stafi',
     marketCapRank: 452,
@@ -17253,7 +17253,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stake-dao',
-    fileName: 'token:SDT',
+    filePath: 'token:SDT',
     symbol: 'sdt',
     name: 'Stake DAO',
     marketCapRank: 1278,
@@ -17266,7 +17266,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stake-link',
-    fileName: 'token:SDL',
+    filePath: 'token:SDL',
     symbol: 'sdl',
     name: 'stake.link',
     marketCapRank: 1493,
@@ -17277,7 +17277,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'staked-frax-ether',
-    fileName: 'token:SFRXETH',
+    filePath: 'token:SFRXETH',
     symbol: 'sfrxeth',
     name: 'Staked Frax Ether',
     marketCapRank: 159,
@@ -17294,7 +17294,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stakewise',
-    fileName: 'token:SWISE',
+    filePath: 'token:SWISE',
     symbol: 'swise',
     name: 'StakeWise',
     marketCapRank: 1286,
@@ -17305,7 +17305,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'star-atlas',
-    fileName: 'token:ATLAS',
+    filePath: 'token:ATLAS',
     symbol: 'atlas',
     name: 'Star Atlas',
     marketCapRank: 470,
@@ -17316,7 +17316,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stargate-finance',
-    fileName: 'token:STG',
+    filePath: 'token:STG',
     symbol: 'stg',
     name: 'Stargate Finance',
     marketCapRank: 406,
@@ -17333,7 +17333,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stargaze',
-    fileName: 'token:STARS',
+    filePath: 'token:STARS',
     symbol: 'stars',
     name: 'Stargaze',
     marketCapRank: 653,
@@ -17346,7 +17346,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'starknet',
-    fileName: 'token:STRK',
+    filePath: 'token:STRK',
     symbol: 'strk',
     name: 'Starknet',
     marketCapRank: 78,
@@ -17359,7 +17359,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'starlink',
-    fileName: 'token:STARL',
+    filePath: 'token:STARL',
     symbol: 'starl',
     name: 'StarLink',
     marketCapRank: 883,
@@ -17370,7 +17370,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stasis-eurs',
-    fileName: 'token:EURS',
+    filePath: 'token:EURS',
     symbol: 'eurs',
     name: 'STASIS EURO',
     marketCapRank: 444,
@@ -17382,7 +17382,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stat',
-    fileName: 'token:STAT',
+    filePath: 'token:STAT',
     symbol: 'stat',
     name: 'STAT',
     marketCapRank: 1567,
@@ -17393,7 +17393,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'status',
-    fileName: 'token:SNT',
+    filePath: 'token:SNT',
     symbol: 'snt',
     name: 'Status',
     marketCapRank: 345,
@@ -17405,7 +17405,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'steem',
-    fileName: 'token:STEEM',
+    filePath: 'token:STEEM',
     symbol: 'steem',
     name: 'Steem',
     marketCapRank: 399,
@@ -17414,7 +17414,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'steem-dollars',
-    fileName: 'token:SBD',
+    filePath: 'token:SBD',
     symbol: 'sbd',
     name: 'Steem Dollars',
     marketCapRank: 672,
@@ -17423,7 +17423,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stellar',
-    fileName: 'token:XLM',
+    filePath: 'token:XLM',
     symbol: 'xlm',
     name: 'Stellar',
     marketCapRank: 37,
@@ -17432,7 +17432,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stellaswap',
-    fileName: 'token:STELLA',
+    filePath: 'token:STELLA',
     symbol: 'stella',
     name: 'StellaSwap',
     marketCapRank: 2056,
@@ -17443,7 +17443,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'step-app-fitfi',
-    fileName: 'token:FITFI',
+    filePath: 'token:FITFI',
     symbol: 'fitfi',
     name: 'Step App',
     marketCapRank: 984,
@@ -17456,7 +17456,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'step-finance',
-    fileName: 'token:STEP',
+    filePath: 'token:STEP',
     symbol: 'step',
     name: 'Step Finance',
     marketCapRank: 1032,
@@ -17467,7 +17467,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stfx',
-    fileName: 'token:STFX',
+    filePath: 'token:STFX',
     symbol: 'stfx',
     name: 'STFX',
     marketCapRank: 1037,
@@ -17479,7 +17479,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stima',
-    fileName: 'token:STIMA',
+    filePath: 'token:STIMA',
     symbol: 'stima',
     name: 'STIMA',
     marketCapRank: 2071,
@@ -17490,7 +17490,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stobox-token',
-    fileName: 'token:STBU',
+    filePath: 'token:STBU',
     symbol: 'stbu',
     name: 'Stobox',
     marketCapRank: 1128,
@@ -17503,7 +17503,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'storj',
-    fileName: 'token:STORJ',
+    filePath: 'token:STORJ',
     symbol: 'storj',
     name: 'Storj',
     marketCapRank: 485,
@@ -17516,7 +17516,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'storm',
-    fileName: 'token:STMX',
+    filePath: 'token:STMX',
     symbol: 'stmx',
     name: 'StormX',
     marketCapRank: 449,
@@ -17527,7 +17527,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'storx',
-    fileName: 'token:SRX',
+    filePath: 'token:SRX',
     symbol: 'srx',
     name: 'StorX',
     marketCapRank: 1229,
@@ -17538,7 +17538,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stp-network',
-    fileName: 'token:STPT',
+    filePath: 'token:STPT',
     symbol: 'stpt',
     name: 'STP',
     marketCapRank: 405,
@@ -17549,7 +17549,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stratis',
-    fileName: 'token:STRAX',
+    filePath: 'token:STRAX',
     symbol: 'strax',
     name: 'Stratis',
     marketCapRank: 2109,
@@ -17558,7 +17558,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stratos',
-    fileName: 'token:STOS',
+    filePath: 'token:STOS',
     symbol: 'stos',
     name: 'Stratos',
     marketCapRank: 559,
@@ -17569,7 +17569,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'streamr',
-    fileName: 'token:DATA',
+    filePath: 'token:DATA',
     symbol: 'data',
     name: 'Streamr',
     marketCapRank: 674,
@@ -17583,7 +17583,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'streamr-xdata',
-    fileName: 'token:XDATA',
+    filePath: 'token:XDATA',
     symbol: 'xdata',
     name: 'Streamr XDATA',
     marketCapRank: 716,
@@ -17594,7 +17594,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stride',
-    fileName: 'token:STRD',
+    filePath: 'token:STRD',
     symbol: 'strd',
     name: 'Stride',
     marketCapRank: 280,
@@ -17606,7 +17606,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stride-staked-atom',
-    fileName: 'token:STATOM',
+    filePath: 'token:STATOM',
     symbol: 'statom',
     name: 'Stride Staked Atom',
     marketCapRank: 751,
@@ -17620,7 +17620,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stride-staked-juno',
-    fileName: 'token:STJUNO',
+    filePath: 'token:STJUNO',
     symbol: 'stjuno',
     name: 'Stride Staked Juno',
     marketCapRank: 2505,
@@ -17633,7 +17633,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stride-staked-osmo',
-    fileName: 'token:STOSMO',
+    filePath: 'token:STOSMO',
     symbol: 'stosmo',
     name: 'Stride Staked Osmo',
     marketCapRank: 969,
@@ -17645,7 +17645,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stride-staked-stars',
-    fileName: 'token:STSTARS',
+    filePath: 'token:STSTARS',
     symbol: 'ststars',
     name: 'Stride Staked Stars',
     marketCapRank: 2547,
@@ -17657,7 +17657,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'strikecoin',
-    fileName: 'token:STRX',
+    filePath: 'token:STRX',
     symbol: 'strx',
     name: 'StrikeX',
     marketCapRank: 663,
@@ -17668,7 +17668,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'strips-finance',
-    fileName: 'token:STRP',
+    filePath: 'token:STRP',
     symbol: 'strp',
     name: 'Strips Finance',
     marketCapRank: 1896,
@@ -17680,7 +17680,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'strong',
-    fileName: 'token:STRONG',
+    filePath: 'token:STRONG',
     symbol: 'strong',
     name: 'Strong',
     marketCapRank: 2322,
@@ -17691,7 +17691,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'stronghold-token',
-    fileName: 'token:SHX',
+    filePath: 'token:SHX',
     symbol: 'shx',
     name: 'Stronghold',
     marketCapRank: 789,
@@ -17702,7 +17702,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'subsocial',
-    fileName: 'token:SUB',
+    filePath: 'token:SUB',
     symbol: 'sub',
     name: 'Subsocial',
     marketCapRank: 1709,
@@ -17713,7 +17713,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sudoswap',
-    fileName: 'token:SUDO',
+    filePath: 'token:SUDO',
     symbol: 'sudo',
     name: 'sudoswap',
     marketCapRank: 1819,
@@ -17724,7 +17724,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sui',
-    fileName: 'token:SUI',
+    filePath: 'token:SUI',
     symbol: 'sui',
     name: 'Sui',
     marketCapRank: 58,
@@ -17735,7 +17735,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'suipad',
-    fileName: 'token:SUIP',
+    filePath: 'token:SUIP',
     symbol: 'suip',
     name: 'SuiPad',
     marketCapRank: 1626,
@@ -17746,7 +17746,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'suiswap',
-    fileName: 'token:SSWP',
+    filePath: 'token:SSWP',
     symbol: 'sswp',
     name: 'Suiswap',
     marketCapRank: 1323,
@@ -17755,7 +17755,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'suku',
-    fileName: 'token:SUKU',
+    filePath: 'token:SUKU',
     symbol: 'suku',
     name: 'SUKU',
     marketCapRank: 1021,
@@ -17766,7 +17766,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sun-token',
-    fileName: 'token:SUN',
+    filePath: 'token:SUN',
     symbol: 'sun',
     name: 'Sun Token',
     marketCapRank: 403,
@@ -17777,7 +17777,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'suncontract',
-    fileName: 'token:SNC',
+    filePath: 'token:SNC',
     symbol: 'snc',
     name: 'SunContract',
     marketCapRank: 1621,
@@ -17788,7 +17788,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'super-zero',
-    fileName: 'token:SERO',
+    filePath: 'token:SERO',
     symbol: 'sero',
     name: 'SERO',
     marketCapRank: 2316,
@@ -17797,7 +17797,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'superlauncher-dao',
-    fileName: 'token:LAUNCH',
+    filePath: 'token:LAUNCH',
     symbol: 'launch',
     name: 'Superlauncher',
     marketCapRank: 2420,
@@ -17808,7 +17808,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'superrare',
-    fileName: 'token:RARE',
+    filePath: 'token:RARE',
     symbol: 'rare',
     name: 'SuperRare',
     marketCapRank: 451,
@@ -17819,7 +17819,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'superwalk',
-    fileName: 'token:GRND',
+    filePath: 'token:GRND',
     symbol: 'grnd',
     name: 'SuperWalk',
     marketCapRank: 1473,
@@ -17830,7 +17830,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sushi',
-    fileName: 'token:SUSHI',
+    filePath: 'token:SUSHI',
     symbol: 'sushi',
     name: 'Sushi',
     marketCapRank: 238,
@@ -17853,7 +17853,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'suterusu',
-    fileName: 'token:SUTER',
+    filePath: 'token:SUTER',
     symbol: 'suter',
     name: 'Suterusu',
     marketCapRank: 2349,
@@ -17864,7 +17864,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'swarm-bzz',
-    fileName: 'token:BZZ',
+    filePath: 'token:BZZ',
     symbol: 'bzz',
     name: 'Swarm',
     marketCapRank: 864,
@@ -17876,7 +17876,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'swarm-markets',
-    fileName: 'token:SMT',
+    filePath: 'token:SMT',
     symbol: 'smt',
     name: 'Swarm Markets',
     marketCapRank: 744,
@@ -17889,7 +17889,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'swash',
-    fileName: 'token:SWASH',
+    filePath: 'token:SWASH',
     symbol: 'swash',
     name: 'Swash',
     marketCapRank: 1149,
@@ -17903,7 +17903,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sweatcoin',
-    fileName: 'token:SWEAT',
+    filePath: 'token:SWEAT',
     symbol: 'sweat',
     name: 'Sweat Economy',
     marketCapRank: 517,
@@ -17915,7 +17915,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sweth',
-    fileName: 'token:SWETH',
+    filePath: 'token:SWETH',
     symbol: 'sweth',
     name: 'Swell Ethereum',
     marketCapRank: 137,
@@ -17927,7 +17927,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'swftcoin',
-    fileName: 'token:SWFTC',
+    filePath: 'token:SWFTC',
     symbol: 'swftc',
     name: 'SWFTCOIN',
     marketCapRank: 728,
@@ -17939,7 +17939,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'swipe',
-    fileName: 'token:SXP',
+    filePath: 'token:SXP',
     symbol: 'sxp',
     name: 'SXP',
     marketCapRank: 274,
@@ -17952,7 +17952,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'switcheo',
-    fileName: 'token:SWTH',
+    filePath: 'token:SWTH',
     symbol: 'swth',
     name: 'Carbon Protocol',
     marketCapRank: 1298,
@@ -17968,7 +17968,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'sylo',
-    fileName: 'token:SYLO',
+    filePath: 'token:SYLO',
     symbol: 'sylo',
     name: 'Sylo',
     marketCapRank: 1337,
@@ -17979,7 +17979,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'symbiosis-finance',
-    fileName: 'token:SIS',
+    filePath: 'token:SIS',
     symbol: 'sis',
     name: 'Symbiosis',
     marketCapRank: 1014,
@@ -17995,7 +17995,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'syncus',
-    fileName: 'token:SYNC',
+    filePath: 'token:SYNC',
     symbol: 'sync',
     name: 'Syncus',
     marketCapRank: 627,
@@ -18007,7 +18007,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'synesis-one',
-    fileName: 'token:SNS',
+    filePath: 'token:SNS',
     symbol: 'sns',
     name: 'Synesis One',
     marketCapRank: 651,
@@ -18018,7 +18018,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'syscoin',
-    fileName: 'token:SYS',
+    filePath: 'token:SYS',
     symbol: 'sys',
     name: 'Syscoin',
     marketCapRank: 312,
@@ -18027,7 +18027,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'taboo-token',
-    fileName: 'token:TABOO',
+    filePath: 'token:TABOO',
     symbol: 'taboo',
     name: 'Taboo',
     marketCapRank: 1097,
@@ -18038,7 +18038,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'taki',
-    fileName: 'token:TAKI',
+    filePath: 'token:TAKI',
     symbol: 'taki',
     name: 'Taki Games',
     marketCapRank: 908,
@@ -18050,7 +18050,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tamadoge',
-    fileName: 'token:TAMA',
+    filePath: 'token:TAMA',
     symbol: 'tama',
     name: 'Tamadoge',
     marketCapRank: 1553,
@@ -18061,7 +18061,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tap',
-    fileName: 'token:XTP',
+    filePath: 'token:XTP',
     symbol: 'xtp',
     name: 'Tap',
     marketCapRank: 1689,
@@ -18072,7 +18072,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'taraxa',
-    fileName: 'token:TARA',
+    filePath: 'token:TARA',
     symbol: 'tara',
     name: 'Taraxa',
     marketCapRank: 901,
@@ -18081,7 +18081,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tarot',
-    fileName: 'token:TAROT',
+    filePath: 'token:TAROT',
     symbol: 'tarot',
     name: 'Tarot V1',
     marketCapRank: 2382,
@@ -18096,7 +18096,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tbtc',
-    fileName: 'token:TBTC',
+    filePath: 'token:TBTC',
     symbol: 'tbtc',
     name: 'tBTC',
     marketCapRank: 488,
@@ -18112,7 +18112,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tectonic',
-    fileName: 'token:TONIC',
+    filePath: 'token:TONIC',
     symbol: 'tonic',
     name: 'Tectonic',
     marketCapRank: 931,
@@ -18123,7 +18123,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tectum',
-    fileName: 'token:TET',
+    filePath: 'token:TET',
     symbol: 'tet',
     name: 'Tectum',
     marketCapRank: 332,
@@ -18134,7 +18134,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'teh-fund',
-    fileName: 'token:FUND',
+    filePath: 'token:FUND',
     symbol: 'fund',
     name: 'Teh Fund',
     marketCapRank: 2557,
@@ -18145,7 +18145,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'telcoin',
-    fileName: 'token:TEL',
+    filePath: 'token:TEL',
     symbol: 'tel',
     name: 'Telcoin',
     marketCapRank: 259,
@@ -18158,7 +18158,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tellor',
-    fileName: 'token:TRB',
+    filePath: 'token:TRB',
     symbol: 'trb',
     name: 'Tellor Tributes',
     marketCapRank: 308,
@@ -18174,7 +18174,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'telos',
-    fileName: 'token:TLOS',
+    filePath: 'token:TLOS',
     symbol: 'tlos',
     name: 'Telos',
     marketCapRank: 390,
@@ -18183,7 +18183,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tenet-1b000f7b-59cb-4e06-89ce-d62b32d362b9',
-    fileName: 'token:TENET',
+    filePath: 'token:TENET',
     symbol: 'tenet',
     name: 'TENET',
     marketCapRank: 958,
@@ -18194,7 +18194,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tenset',
-    fileName: 'token:10SET',
+    filePath: 'token:10SET',
     symbol: '10set',
     name: 'Tenset',
     marketCapRank: 374,
@@ -18205,7 +18205,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tenx',
-    fileName: 'token:PAY',
+    filePath: 'token:PAY',
     symbol: 'pay',
     name: 'TenX',
     marketCapRank: 2614,
@@ -18216,7 +18216,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'terra-luna',
-    fileName: 'token:LUNC',
+    filePath: 'token:LUNC',
     symbol: 'lunc',
     name: 'Terra Luna Classic',
     marketCapRank: 125,
@@ -18225,7 +18225,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'terra-luna-2',
-    fileName: 'token:LUNA',
+    filePath: 'token:LUNA',
     symbol: 'luna',
     name: 'Terra',
     marketCapRank: 140,
@@ -18237,7 +18237,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'terracoin',
-    fileName: 'token:TRC',
+    filePath: 'token:TRC',
     symbol: 'trc',
     name: 'Terracoin',
     marketCapRank: 1395,
@@ -18246,7 +18246,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'terrausd',
-    fileName: 'token:USTC',
+    filePath: 'token:USTC',
     symbol: 'ustc',
     name: 'TerraClassicUSD',
     marketCapRank: 302,
@@ -18257,7 +18257,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tether',
-    fileName: 'token:USDT',
+    filePath: 'token:USDT',
     symbol: 'usdt',
     name: 'Tether',
     marketCapRank: 3,
@@ -18273,7 +18273,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tether-eurt',
-    fileName: 'token:EURT',
+    filePath: 'token:EURT',
     symbol: 'eurt',
     name: 'Euro Tether',
     marketCapRank: 887,
@@ -18284,7 +18284,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tether-gold',
-    fileName: 'token:XAUT',
+    filePath: 'token:XAUT',
     symbol: 'xaut',
     name: 'Tether Gold',
     marketCapRank: 180,
@@ -18295,7 +18295,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tetu',
-    fileName: 'token:TETU',
+    filePath: 'token:TETU',
     symbol: 'tetu',
     name: 'TETU',
     marketCapRank: 2443,
@@ -18307,7 +18307,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tezos',
-    fileName: 'token:XTZ',
+    filePath: 'token:XTZ',
     symbol: 'xtz',
     name: 'Tezos',
     marketCapRank: 88,
@@ -18316,7 +18316,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tgold',
-    fileName: 'token:TXAU',
+    filePath: 'token:TXAU',
     symbol: 'txau',
     name: 'tGOLD',
     marketCapRank: 1776,
@@ -18328,7 +18328,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'thales',
-    fileName: 'token:THALES',
+    filePath: 'token:THALES',
     symbol: 'thales',
     name: 'Thales',
     marketCapRank: 1206,
@@ -18343,7 +18343,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'the-4th-pillar',
-    fileName: 'token:FOUR',
+    filePath: 'token:FOUR',
     symbol: 'four',
     name: 'FOUR',
     marketCapRank: 2489,
@@ -18357,7 +18357,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'the-abyss',
-    fileName: 'token:ABYSS',
+    filePath: 'token:ABYSS',
     symbol: 'abyss',
     name: 'Abyss',
     marketCapRank: 2203,
@@ -18369,7 +18369,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'the-doge-nft',
-    fileName: 'token:DOG',
+    filePath: 'token:DOG',
     symbol: 'dog',
     name: 'The Doge NFT',
     marketCapRank: 281,
@@ -18385,7 +18385,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'the-graph',
-    fileName: 'token:GRT',
+    filePath: 'token:GRT',
     symbol: 'grt',
     name: 'The Graph',
     marketCapRank: 41,
@@ -18404,7 +18404,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'the-open-network',
-    fileName: 'token:TON',
+    filePath: 'token:TON',
     symbol: 'ton',
     name: 'Toncoin',
     marketCapRank: 12,
@@ -18416,7 +18416,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'the-sandbox',
-    fileName: 'token:SAND',
+    filePath: 'token:SAND',
     symbol: 'sand',
     name: 'The Sandbox',
     marketCapRank: 77,
@@ -18430,7 +18430,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'the-three-kingdoms',
-    fileName: 'token:TTK',
+    filePath: 'token:TTK',
     symbol: 'ttk',
     name: 'The Three Kingdoms',
     marketCapRank: 2310,
@@ -18441,7 +18441,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'the-unfettered-souls',
-    fileName: 'token:SOULS',
+    filePath: 'token:SOULS',
     symbol: 'souls',
     name: 'The Unfettered Ecosystem',
     marketCapRank: 1840,
@@ -18452,7 +18452,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'the-virtua-kolect',
-    fileName: 'token:TVK',
+    filePath: 'token:TVK',
     symbol: 'tvk',
     name: 'Virtua',
     marketCapRank: 761,
@@ -18463,7 +18463,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'the-winkyverse',
-    fileName: 'token:WNK',
+    filePath: 'token:WNK',
     symbol: 'wnk',
     name: 'Winkies',
     marketCapRank: 1990,
@@ -18475,7 +18475,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'thena',
-    fileName: 'token:THE',
+    filePath: 'token:THE',
     symbol: 'the',
     name: 'Thena',
     marketCapRank: 1254,
@@ -18487,7 +18487,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'theopetra',
-    fileName: 'token:THEO',
+    filePath: 'token:THEO',
     symbol: 'theo',
     name: 'Theopetra',
     marketCapRank: 1335,
@@ -18498,7 +18498,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'theta-fuel',
-    fileName: 'token:TFUEL',
+    filePath: 'token:TFUEL',
     symbol: 'tfuel',
     name: 'Theta Fuel',
     marketCapRank: 182,
@@ -18507,7 +18507,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'theta-token',
-    fileName: 'token:THETA',
+    filePath: 'token:THETA',
     symbol: 'theta',
     name: 'Theta Network',
     marketCapRank: 50,
@@ -18516,7 +18516,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'thetadrop',
-    fileName: 'token:TDROP',
+    filePath: 'token:TDROP',
     symbol: 'tdrop',
     name: 'ThetaDrop',
     marketCapRank: 707,
@@ -18527,7 +18527,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'thol-token',
-    fileName: 'token:THOL',
+    filePath: 'token:THOL',
     symbol: 'thol',
     name: 'AngelBlock',
     marketCapRank: 1646,
@@ -18538,7 +18538,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'thorchain',
-    fileName: 'token:RUNE',
+    filePath: 'token:RUNE',
     symbol: 'rune',
     name: 'THORChain',
     marketCapRank: 49,
@@ -18547,7 +18547,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'thorstarter',
-    fileName: 'token:XRUNE',
+    filePath: 'token:XRUNE',
     symbol: 'xrune',
     name: 'Thorstarter',
     marketCapRank: 2091,
@@ -18560,7 +18560,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'thorswap',
-    fileName: 'token:THOR',
+    filePath: 'token:THOR',
     symbol: 'thor',
     name: 'THORSwap',
     marketCapRank: 690,
@@ -18571,7 +18571,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'thorwallet',
-    fileName: 'token:TGT',
+    filePath: 'token:TGT',
     symbol: 'tgt',
     name: 'THORWallet DEX',
     marketCapRank: 1394,
@@ -18582,7 +18582,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'thought',
-    fileName: 'token:THT',
+    filePath: 'token:THT',
     symbol: 'tht',
     name: 'Thought',
     marketCapRank: 874,
@@ -18591,7 +18591,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'threshold-network-token',
-    fileName: 'token:T',
+    filePath: 'token:T',
     symbol: 't',
     name: 'Threshold Network',
     marketCapRank: 195,
@@ -18602,7 +18602,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'thunder-token',
-    fileName: 'token:TT',
+    filePath: 'token:TT',
     symbol: 'tt',
     name: 'ThunderCore',
     marketCapRank: 674,
@@ -18613,7 +18613,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tidal-finance',
-    fileName: 'token:TIDAL',
+    filePath: 'token:TIDAL',
     symbol: 'tidal',
     name: 'Tidal Finance',
     marketCapRank: 2252,
@@ -18625,7 +18625,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tierion',
-    fileName: 'token:TNT',
+    filePath: 'token:TNT',
     symbol: 'tnt',
     name: 'Tierion',
     marketCapRank: 2122,
@@ -18636,7 +18636,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tifi-token',
-    fileName: 'token:TIFI',
+    filePath: 'token:TIFI',
     symbol: 'tifi',
     name: 'TiFi',
     marketCapRank: 2308,
@@ -18647,7 +18647,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tigris',
-    fileName: 'token:TIG',
+    filePath: 'token:TIG',
     symbol: 'tig',
     name: 'Tigris',
     marketCapRank: 2363,
@@ -18658,7 +18658,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'titanswap',
-    fileName: 'token:TITAN',
+    filePath: 'token:TITAN',
     symbol: 'titan',
     name: 'TitanSwap',
     marketCapRank: 2199,
@@ -18669,7 +18669,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'token-in',
-    fileName: 'token:TIN',
+    filePath: 'token:TIN',
     symbol: 'tin',
     name: 'Token IN',
     marketCapRank: 2577,
@@ -18681,7 +18681,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tokencard',
-    fileName: 'token:TKN',
+    filePath: 'token:TKN',
     symbol: 'tkn',
     name: 'Monolith',
     marketCapRank: 2006,
@@ -18692,7 +18692,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tokenfi',
-    fileName: 'token:TOKEN',
+    filePath: 'token:TOKEN',
     symbol: 'token',
     name: 'TokenFi',
     marketCapRank: 314,
@@ -18704,7 +18704,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tokenize-xchange',
-    fileName: 'token:TKX',
+    filePath: 'token:TKX',
     symbol: 'tkx',
     name: 'Tokenize Xchange',
     marketCapRank: 102,
@@ -18715,7 +18715,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tokenlon',
-    fileName: 'token:LON',
+    filePath: 'token:LON',
     symbol: 'lon',
     name: 'Tokenlon',
     marketCapRank: 540,
@@ -18727,7 +18727,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tokocrypto',
-    fileName: 'token:TKO',
+    filePath: 'token:TKO',
     symbol: 'tko',
     name: 'Tokocrypto',
     marketCapRank: 763,
@@ -18738,7 +18738,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tokpie',
-    fileName: 'token:TKP',
+    filePath: 'token:TKP',
     symbol: 'tkp',
     name: 'TOKPIE',
     marketCapRank: 680,
@@ -18750,7 +18750,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tomb',
-    fileName: 'token:TOMB',
+    filePath: 'token:TOMB',
     symbol: 'tomb',
     name: 'Tomb',
     marketCapRank: 2053,
@@ -18765,7 +18765,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tominet',
-    fileName: 'token:TOMI',
+    filePath: 'token:TOMI',
     symbol: 'tomi',
     name: 'tomiNet',
     marketCapRank: 556,
@@ -18776,7 +18776,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'top-network',
-    fileName: 'token:TOP',
+    filePath: 'token:TOP',
     symbol: 'top',
     name: 'TOP Network',
     marketCapRank: 2558,
@@ -18787,7 +18787,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tor',
-    fileName: 'token:TOR',
+    filePath: 'token:TOR',
     symbol: 'tor',
     name: 'TOR',
     marketCapRank: 360,
@@ -18799,7 +18799,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tornado-cash',
-    fileName: 'token:TORN',
+    filePath: 'token:TORN',
     symbol: 'torn',
     name: 'Tornado Cash',
     marketCapRank: 1464,
@@ -18811,7 +18811,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'torum',
-    fileName: 'token:XTM',
+    filePath: 'token:XTM',
     symbol: 'xtm',
     name: 'Torum',
     marketCapRank: 1341,
@@ -18822,7 +18822,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'toshi',
-    fileName: 'token:TOSHI',
+    filePath: 'token:TOSHI',
     symbol: 'toshi',
     name: 'Toshi',
     marketCapRank: 332,
@@ -18833,7 +18833,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'toucan-protocol-base-carbon-tonne',
-    fileName: 'token:BCT',
+    filePath: 'token:BCT',
     symbol: 'bct',
     name: 'Toucan Protocol: Base Carbon Tonne',
     marketCapRank: 1164,
@@ -18844,7 +18844,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tower',
-    fileName: 'token:TOWER',
+    filePath: 'token:TOWER',
     symbol: 'tower',
     name: 'Tower',
     marketCapRank: 1559,
@@ -18858,7 +18858,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'trava-finance',
-    fileName: 'token:TRAVA',
+    filePath: 'token:TRAVA',
     symbol: 'trava',
     name: 'Trava Finance',
     marketCapRank: 2512,
@@ -18871,7 +18871,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'traxx',
-    fileName: 'token:TRAXX',
+    filePath: 'token:TRAXX',
     symbol: 'traxx',
     name: 'Traxx',
     marketCapRank: 2626,
@@ -18882,7 +18882,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tree-capital',
-    fileName: 'token:TREE',
+    filePath: 'token:TREE',
     symbol: 'tree',
     name: 'Tree',
     marketCapRank: 1256,
@@ -18893,7 +18893,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'treeb',
-    fileName: 'token:TREEB',
+    filePath: 'token:TREEB',
     symbol: 'treeb',
     name: 'Retreeb',
     marketCapRank: 1552,
@@ -18904,7 +18904,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'treecle',
-    fileName: 'token:TRCL',
+    filePath: 'token:TRCL',
     symbol: 'trcl',
     name: 'Treecle',
     marketCapRank: 2557,
@@ -18915,7 +18915,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'trias-token',
-    fileName: 'token:TRIAS',
+    filePath: 'token:TRIAS',
     symbol: 'trias',
     name: 'TriasLab',
     marketCapRank: 471,
@@ -18927,7 +18927,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tribe-2',
-    fileName: 'token:TRIBE',
+    filePath: 'token:TRIBE',
     symbol: 'tribe',
     name: 'Tribe',
     marketCapRank: 331,
@@ -18938,7 +18938,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tribeone',
-    fileName: 'token:HAKA',
+    filePath: 'token:HAKA',
     symbol: 'haka',
     name: 'TribeOne',
     marketCapRank: 2273,
@@ -18950,7 +18950,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tron',
-    fileName: 'token:TRX',
+    filePath: 'token:TRX',
     symbol: 'trx',
     name: 'TRON',
     marketCapRank: 18,
@@ -18959,7 +18959,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tronpad',
-    fileName: 'token:TRONPAD',
+    filePath: 'token:TRONPAD',
     symbol: 'tronpad',
     name: 'TRONPAD',
     marketCapRank: 2386,
@@ -18970,7 +18970,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'troy',
-    fileName: 'token:TROY',
+    filePath: 'token:TROY',
     symbol: 'troy',
     name: 'TROY',
     marketCapRank: 944,
@@ -18981,7 +18981,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'true-usd',
-    fileName: 'token:TUSD',
+    filePath: 'token:TUSD',
     symbol: 'tusd',
     name: 'TrueUSD',
     marketCapRank: 192,
@@ -18996,7 +18996,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'truefi',
-    fileName: 'token:TRU',
+    filePath: 'token:TRU',
     symbol: 'tru',
     name: 'TrueFi',
     marketCapRank: 386,
@@ -19007,7 +19007,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'trust-wallet-token',
-    fileName: 'token:TWT',
+    filePath: 'token:TWT',
     symbol: 'twt',
     name: 'Trust Wallet',
     marketCapRank: 175,
@@ -19020,7 +19020,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'trustpad-2-0',
-    fileName: 'token:TPAD',
+    filePath: 'token:TPAD',
     symbol: 'tpad',
     name: 'TrustPad',
     marketCapRank: 2001,
@@ -19031,7 +19031,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'trustswap',
-    fileName: 'token:SWAP',
+    filePath: 'token:SWAP',
     symbol: 'swap',
     name: 'TrustSwap',
     marketCapRank: 1110,
@@ -19046,7 +19046,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'tutellus',
-    fileName: 'token:TUT',
+    filePath: 'token:TUT',
     symbol: 'tut',
     name: 'Tutellus',
     marketCapRank: 2531,
@@ -19057,7 +19057,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ubxs-token',
-    fileName: 'token:UBXS',
+    filePath: 'token:UBXS',
     symbol: 'ubxs',
     name: 'UBXS',
     marketCapRank: 1064,
@@ -19068,7 +19068,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ultra',
-    fileName: 'token:UOS',
+    filePath: 'token:UOS',
     symbol: 'uos',
     name: 'Ultra',
     marketCapRank: 523,
@@ -19079,7 +19079,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'uma',
-    fileName: 'token:UMA',
+    filePath: 'token:UMA',
     symbol: 'uma',
     name: 'UMA',
     marketCapRank: 251,
@@ -19091,7 +19091,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'umami-finance',
-    fileName: 'token:UMAMI',
+    filePath: 'token:UMAMI',
     symbol: 'umami',
     name: 'Umami',
     marketCapRank: 2132,
@@ -19102,7 +19102,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'umbrella-network',
-    fileName: 'token:UMB',
+    filePath: 'token:UMB',
     symbol: 'umb',
     name: 'Umbrella Network',
     marketCapRank: 1334,
@@ -19114,7 +19114,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'undead-blocks',
-    fileName: 'token:UNDEAD',
+    filePath: 'token:UNDEAD',
     symbol: 'undead',
     name: 'Undead Blocks',
     marketCapRank: 2303,
@@ -19125,7 +19125,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unibot',
-    fileName: 'token:UNIBOT',
+    filePath: 'token:UNIBOT',
     symbol: 'unibot',
     name: 'Unibot',
     marketCapRank: 1128,
@@ -19136,7 +19136,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unibright',
-    fileName: 'token:UBT',
+    filePath: 'token:UBT',
     symbol: 'ubt',
     name: 'Unibright',
     marketCapRank: 1234,
@@ -19149,7 +19149,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unicrypt-2',
-    fileName: 'token:UNCX',
+    filePath: 'token:UNCX',
     symbol: 'uncx',
     name: 'UNCX Network',
     marketCapRank: 1403,
@@ -19162,7 +19162,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unidef',
-    fileName: 'token:U',
+    filePath: 'token:U',
     symbol: 'u',
     name: 'Unidef',
     marketCapRank: 1770,
@@ -19173,7 +19173,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unifi-protocol-dao',
-    fileName: 'token:UNFI',
+    filePath: 'token:UNFI',
     symbol: 'unfi',
     name: 'Unifi Protocol DAO',
     marketCapRank: 702,
@@ -19185,7 +19185,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unilayer',
-    fileName: 'token:LAYER',
+    filePath: 'token:LAYER',
     symbol: 'layer',
     name: 'UniLayer',
     marketCapRank: 2337,
@@ -19198,7 +19198,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unisocks',
-    fileName: 'token:SOCKS',
+    filePath: 'token:SOCKS',
     symbol: 'socks',
     name: 'Unisocks',
     marketCapRank: 1490,
@@ -19210,7 +19210,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'uniswap',
-    fileName: 'token:UNI',
+    filePath: 'token:UNI',
     symbol: 'uni',
     name: 'Uniswap',
     marketCapRank: 19,
@@ -19233,7 +19233,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unix',
-    fileName: 'token:UNIX',
+    filePath: 'token:UNIX',
     symbol: 'unix',
     name: 'UniX',
     marketCapRank: 1946,
@@ -19245,7 +19245,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unizen',
-    fileName: 'token:ZCX',
+    filePath: 'token:ZCX',
     symbol: 'zcx',
     name: 'Unizen',
     marketCapRank: 324,
@@ -19256,7 +19256,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unlend-finance',
-    fileName: 'token:UFT',
+    filePath: 'token:UFT',
     symbol: 'uft',
     name: 'UniLend Finance',
     marketCapRank: 759,
@@ -19269,7 +19269,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unmarshal',
-    fileName: 'token:MARSH',
+    filePath: 'token:MARSH',
     symbol: 'marsh',
     name: 'Unmarshal',
     marketCapRank: 1303,
@@ -19281,7 +19281,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'uno-re',
-    fileName: 'token:UNO',
+    filePath: 'token:UNO',
     symbol: 'uno',
     name: 'Uno Re',
     marketCapRank: 1766,
@@ -19293,7 +19293,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unsheth',
-    fileName: 'token:USH',
+    filePath: 'token:USH',
     symbol: 'ush',
     name: 'unshETHing_Token',
     marketCapRank: 2595,
@@ -19306,7 +19306,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'unstoppable-defi',
-    fileName: 'token:UND',
+    filePath: 'token:UND',
     symbol: 'und',
     name: 'Unstoppable DeFi',
     marketCapRank: 2389,
@@ -19317,7 +19317,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'uquid-coin',
-    fileName: 'token:UQC',
+    filePath: 'token:UQC',
     symbol: 'uqc',
     name: 'Uquid Coin',
     marketCapRank: 549,
@@ -19328,7 +19328,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'urus-token',
-    fileName: 'token:URUS',
+    filePath: 'token:URUS',
     symbol: 'urus',
     name: 'Aurox',
     marketCapRank: 2111,
@@ -19340,7 +19340,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'usd-coin',
-    fileName: 'token:USDC',
+    filePath: 'token:USDC',
     symbol: 'usdc',
     name: 'USDC',
     marketCapRank: 8,
@@ -19365,7 +19365,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'usdd',
-    fileName: 'token:USDD',
+    filePath: 'token:USDD',
     symbol: 'usdd',
     name: 'USDD',
     marketCapRank: 145,
@@ -19383,7 +19383,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'usdx',
-    fileName: 'token:USDX',
+    filePath: 'token:USDX',
     symbol: 'usdx',
     name: 'USDX',
     marketCapRank: 530,
@@ -19392,7 +19392,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'utility-web3shot',
-    fileName: 'token:UW3S',
+    filePath: 'token:UW3S',
     symbol: 'uw3s',
     name: 'Utility Web3Shot',
     marketCapRank: 1904,
@@ -19403,7 +19403,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'utrust',
-    fileName: 'token:UTK',
+    filePath: 'token:UTK',
     symbol: 'utk',
     name: 'xMoney',
     marketCapRank: null,
@@ -19415,7 +19415,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'uwu-lend',
-    fileName: 'token:UWU',
+    filePath: 'token:UWU',
     symbol: 'uwu',
     name: 'UwU Lend',
     marketCapRank: 835,
@@ -19426,7 +19426,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'v-systems',
-    fileName: 'token:VSYS',
+    filePath: 'token:VSYS',
     symbol: 'vsys',
     name: 'V.SYSTEMS',
     marketCapRank: 1756,
@@ -19435,7 +19435,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vabble',
-    fileName: 'token:VAB',
+    filePath: 'token:VAB',
     symbol: 'vab',
     name: 'Vabble',
     marketCapRank: 2131,
@@ -19447,7 +19447,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vaiot',
-    fileName: 'token:VAI',
+    filePath: 'token:VAI',
     symbol: 'vai',
     name: 'Vaiot',
     marketCapRank: 559,
@@ -19458,7 +19458,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'valencia-cf-fan-token',
-    fileName: 'token:VCF',
+    filePath: 'token:VCF',
     symbol: 'vcf',
     name: 'Valencia CF Fan Token',
     marketCapRank: 2315,
@@ -19469,7 +19469,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vcore',
-    fileName: 'token:VCORE',
+    filePath: 'token:VCORE',
     symbol: 'vcore',
     name: 'IMVU',
     marketCapRank: 2247,
@@ -19480,7 +19480,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vechain',
-    fileName: 'token:VET',
+    filePath: 'token:VET',
     symbol: 'vet',
     name: 'VeChain',
     marketCapRank: 44,
@@ -19489,7 +19489,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vector-finance',
-    fileName: 'token:VTX',
+    filePath: 'token:VTX',
     symbol: 'vtx',
     name: 'Vector Finance',
     marketCapRank: 2132,
@@ -19500,7 +19500,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vectorspace',
-    fileName: 'token:VXV',
+    filePath: 'token:VXV',
     symbol: 'vxv',
     name: 'Vectorspace AI',
     marketCapRank: 858,
@@ -19511,7 +19511,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vega-protocol',
-    fileName: 'token:VEGA',
+    filePath: 'token:VEGA',
     symbol: 'vega',
     name: 'Vega Protocol',
     marketCapRank: 714,
@@ -19522,7 +19522,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vela-token',
-    fileName: 'token:VELA',
+    filePath: 'token:VELA',
     symbol: 'vela',
     name: 'Vela Token',
     marketCapRank: 1348,
@@ -19534,7 +19534,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'velas',
-    fileName: 'token:VLX',
+    filePath: 'token:VLX',
     symbol: 'vlx',
     name: 'Velas',
     marketCapRank: 780,
@@ -19546,7 +19546,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'velaspad',
-    fileName: 'token:VLXPAD',
+    filePath: 'token:VLXPAD',
     symbol: 'vlxpad',
     name: 'VelasPad',
     marketCapRank: 1997,
@@ -19559,7 +19559,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'velhalla',
-    fileName: 'token:SCAR',
+    filePath: 'token:SCAR',
     symbol: 'scar',
     name: 'ScarQuest',
     marketCapRank: 1548,
@@ -19570,7 +19570,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'veloce-vext',
-    fileName: 'token:VEXT',
+    filePath: 'token:VEXT',
     symbol: 'vext',
     name: 'Veloce',
     marketCapRank: 1401,
@@ -19582,7 +19582,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'velodrome-finance',
-    fileName: 'token:VELO',
+    filePath: 'token:VELO',
     symbol: 'velo',
     name: 'Velodrome Finance',
     marketCapRank: 372,
@@ -19593,7 +19593,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vempire-ddao',
-    fileName: 'token:VEMP',
+    filePath: 'token:VEMP',
     symbol: 'vemp',
     name: 'VEMP',
     marketCapRank: 2160,
@@ -19608,7 +19608,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'veno-finance',
-    fileName: 'token:VNO',
+    filePath: 'token:VNO',
     symbol: 'vno',
     name: 'Veno Finance',
     marketCapRank: 627,
@@ -19620,7 +19620,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vent-finance',
-    fileName: 'token:VENT',
+    filePath: 'token:VENT',
     symbol: 'vent',
     name: 'Vent Finance',
     marketCapRank: 1990,
@@ -19633,7 +19633,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'venus',
-    fileName: 'token:XVS',
+    filePath: 'token:XVS',
     symbol: 'xvs',
     name: 'Venus',
     marketCapRank: 305,
@@ -19645,7 +19645,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'verasity',
-    fileName: 'token:VRA',
+    filePath: 'token:VRA',
     symbol: 'vra',
     name: 'Verasity',
     marketCapRank: 547,
@@ -19656,7 +19656,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'verge',
-    fileName: 'token:XVG',
+    filePath: 'token:XVG',
     symbol: 'xvg',
     name: 'Verge',
     marketCapRank: 499,
@@ -19665,7 +19665,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'verified-usd-foundation-usdv',
-    fileName: 'token:USDV',
+    filePath: 'token:USDV',
     symbol: 'usdv',
     name: 'Verified USD',
     marketCapRank: 1086,
@@ -19682,7 +19682,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'versagames',
-    fileName: 'token:VERSA',
+    filePath: 'token:VERSA',
     symbol: 'versa',
     name: 'VersaGames',
     marketCapRank: 2400,
@@ -19694,7 +19694,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'verse-bitcoin',
-    fileName: 'token:VERSE',
+    filePath: 'token:VERSE',
     symbol: 'verse',
     name: 'Verse',
     marketCapRank: 1962,
@@ -19706,7 +19706,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vertcoin',
-    fileName: 'token:VTC',
+    filePath: 'token:VTC',
     symbol: 'vtc',
     name: 'Vertcoin',
     marketCapRank: 1910,
@@ -19715,7 +19715,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vesper-finance',
-    fileName: 'token:VSP',
+    filePath: 'token:VSP',
     symbol: 'vsp',
     name: 'Vesper Finance',
     marketCapRank: 1943,
@@ -19728,7 +19728,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vesta-finance',
-    fileName: 'token:VSTA',
+    filePath: 'token:VSTA',
     symbol: 'vsta',
     name: 'Vesta Finance',
     marketCapRank: 1380,
@@ -19739,7 +19739,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vethor-token',
-    fileName: 'token:VTHO',
+    filePath: 'token:VTHO',
     symbol: 'vtho',
     name: 'VeThor',
     marketCapRank: 265,
@@ -19748,7 +19748,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vexanium',
-    fileName: 'token:VEX',
+    filePath: 'token:VEX',
     symbol: 'vex',
     name: 'Vexanium',
     marketCapRank: 2523,
@@ -19757,7 +19757,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'viberate',
-    fileName: 'token:VIB',
+    filePath: 'token:VIB',
     symbol: 'vib',
     name: 'Viberate',
     marketCapRank: 1160,
@@ -19768,7 +19768,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'victoria-vr',
-    fileName: 'token:VR',
+    filePath: 'token:VR',
     symbol: 'vr',
     name: 'Victoria VR',
     marketCapRank: 374,
@@ -19779,7 +19779,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vidt-dao',
-    fileName: 'token:VIDT',
+    filePath: 'token:VIDT',
     symbol: 'vidt',
     name: 'VIDT DAO',
     marketCapRank: 814,
@@ -19790,7 +19790,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vidya',
-    fileName: 'token:VIDYA',
+    filePath: 'token:VIDYA',
     symbol: 'vidya',
     name: 'Vidya',
     marketCapRank: 2063,
@@ -19801,7 +19801,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vigorus',
-    fileName: 'token:VIS',
+    filePath: 'token:VIS',
     symbol: 'vis',
     name: 'Vigorus',
     marketCapRank: 2498,
@@ -19812,7 +19812,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vinuchain',
-    fileName: 'token:VC',
+    filePath: 'token:VC',
     symbol: 'vc',
     name: 'VinuChain',
     marketCapRank: 1537,
@@ -19823,7 +19823,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'virtual-versions',
-    fileName: 'token:VV',
+    filePath: 'token:VV',
     symbol: 'vv',
     name: 'Virtual Versions',
     marketCapRank: 2556,
@@ -19832,7 +19832,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'virtuswap',
-    fileName: 'token:VRSW',
+    filePath: 'token:VRSW',
     symbol: 'vrsw',
     name: 'VirtuSwap',
     marketCapRank: 1892,
@@ -19845,7 +19845,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vita-inu',
-    fileName: 'token:VINU',
+    filePath: 'token:VINU',
     symbol: 'vinu',
     name: 'Vita Inu',
     marketCapRank: 1161,
@@ -19859,7 +19859,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vitadao',
-    fileName: 'token:VITA',
+    filePath: 'token:VITA',
     symbol: 'vita',
     name: 'VitaDAO',
     marketCapRank: 632,
@@ -19870,7 +19870,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vite',
-    fileName: 'token:VITE',
+    filePath: 'token:VITE',
     symbol: 'vite',
     name: 'Vite',
     marketCapRank: 898,
@@ -19883,7 +19883,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vixco',
-    fileName: 'token:VIX',
+    filePath: 'token:VIX',
     symbol: 'vix',
     name: 'Vixco',
     marketCapRank: 1440,
@@ -19894,7 +19894,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vlaunch-2',
-    fileName: 'token:VPAD',
+    filePath: 'token:VPAD',
     symbol: 'vpad',
     name: 'VLaunch',
     marketCapRank: 1167,
@@ -19905,7 +19905,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vnx-euro',
-    fileName: 'token:VEUR',
+    filePath: 'token:VEUR',
     symbol: 'veur',
     name: 'VNX EURO',
     marketCapRank: 2220,
@@ -19920,7 +19920,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'volt-inu-2',
-    fileName: 'token:VOLT',
+    filePath: 'token:VOLT',
     symbol: 'volt',
     name: 'Volt Inu',
     marketCapRank: 902,
@@ -19933,7 +19933,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'voxies',
-    fileName: 'token:VOXEL',
+    filePath: 'token:VOXEL',
     symbol: 'voxel',
     name: 'Voxies',
     marketCapRank: 798,
@@ -19944,7 +19944,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vulcan-forged',
-    fileName: 'token:PYR',
+    filePath: 'token:PYR',
     symbol: 'pyr',
     name: 'Vulcan Forged',
     marketCapRank: 374,
@@ -19956,7 +19956,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vvs-finance',
-    fileName: 'token:VVS',
+    filePath: 'token:VVS',
     symbol: 'vvs',
     name: 'VVS Finance',
     marketCapRank: 320,
@@ -19968,7 +19968,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wagmi-2',
-    fileName: 'token:WAGMI',
+    filePath: 'token:WAGMI',
     symbol: 'wagmi',
     name: 'Wagmi',
     marketCapRank: 1087,
@@ -19988,7 +19988,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wagmi-game-2',
-    fileName: 'token:WAGMIGAMES',
+    filePath: 'token:WAGMIGAMES',
     symbol: 'wagmigames',
     name: 'WAGMI Games',
     marketCapRank: 832,
@@ -19999,7 +19999,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'walken',
-    fileName: 'token:WLKN',
+    filePath: 'token:WLKN',
     symbol: 'wlkn',
     name: 'Walken',
     marketCapRank: 1897,
@@ -20010,7 +20010,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wam',
-    fileName: 'token:WAM',
+    filePath: 'token:WAM',
     symbol: 'wam',
     name: 'Wam',
     marketCapRank: 1744,
@@ -20021,7 +20021,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wanchain',
-    fileName: 'token:WAN',
+    filePath: 'token:WAN',
     symbol: 'wan',
     name: 'Wanchain',
     marketCapRank: 594,
@@ -20030,7 +20030,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wasder',
-    fileName: 'token:WAS',
+    filePath: 'token:WAS',
     symbol: 'was',
     name: 'Wasder',
     marketCapRank: 1355,
@@ -20041,7 +20041,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'waves',
-    fileName: 'token:WAVES',
+    filePath: 'token:WAVES',
     symbol: 'waves',
     name: 'Waves',
     marketCapRank: 227,
@@ -20052,7 +20052,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wax',
-    fileName: 'token:WAXP',
+    filePath: 'token:WAXP',
     symbol: 'waxp',
     name: 'WAX',
     marketCapRank: 250,
@@ -20063,7 +20063,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wazirx',
-    fileName: 'token:WRX',
+    filePath: 'token:WRX',
     symbol: 'wrx',
     name: 'WazirX',
     marketCapRank: 418,
@@ -20077,7 +20077,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'web3war',
-    fileName: 'token:FPS',
+    filePath: 'token:FPS',
     symbol: 'fps',
     name: 'web3war',
     marketCapRank: 1580,
@@ -20089,7 +20089,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'webchain',
-    fileName: 'token:MINTME',
+    filePath: 'token:MINTME',
     symbol: 'mintme',
     name: 'MintMe.com Coin',
     marketCapRank: 2425,
@@ -20103,7 +20103,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wefi-finance',
-    fileName: 'token:WEFI',
+    filePath: 'token:WEFI',
     symbol: 'wefi',
     name: 'Wefi Finance',
     marketCapRank: 1901,
@@ -20118,7 +20118,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wemix-token',
-    fileName: 'token:WEMIX',
+    filePath: 'token:WEMIX',
     symbol: 'wemix',
     name: 'WEMIX',
     marketCapRank: 131,
@@ -20127,7 +20127,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wesendit',
-    fileName: 'token:WSI',
+    filePath: 'token:WSI',
     symbol: 'wsi',
     name: 'WeSendit',
     marketCapRank: 1831,
@@ -20138,7 +20138,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'weway',
-    fileName: 'token:WWY',
+    filePath: 'token:WWY',
     symbol: 'wwy',
     name: 'WeWay',
     marketCapRank: 976,
@@ -20150,7 +20150,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'whales-market',
-    fileName: 'token:WHALES',
+    filePath: 'token:WHALES',
     symbol: 'whales',
     name: 'Whales Market',
     marketCapRank: 914,
@@ -20161,7 +20161,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'white-whale',
-    fileName: 'token:WHALE',
+    filePath: 'token:WHALE',
     symbol: 'whale',
     name: 'White Whale',
     marketCapRank: 1350,
@@ -20178,7 +20178,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'whitebit',
-    fileName: 'token:WBT',
+    filePath: 'token:WBT',
     symbol: 'wbt',
     name: 'WhiteBIT Coin',
     marketCapRank: 101,
@@ -20190,7 +20190,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'whiteheart',
-    fileName: 'token:WHITE',
+    filePath: 'token:WHITE',
     symbol: 'white',
     name: 'Whiteheart',
     marketCapRank: 745,
@@ -20201,7 +20201,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wicrypt',
-    fileName: 'token:WNT',
+    filePath: 'token:WNT',
     symbol: 'wnt',
     name: 'Wicrypt',
     marketCapRank: 1238,
@@ -20213,7 +20213,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wifi',
-    fileName: 'token:WIFI',
+    filePath: 'token:WIFI',
     symbol: 'wifi',
     name: 'WiFi Map',
     marketCapRank: 810,
@@ -20224,7 +20224,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wigoswap',
-    fileName: 'token:WIGO',
+    filePath: 'token:WIGO',
     symbol: 'wigo',
     name: 'WigoSwap',
     marketCapRank: 1118,
@@ -20235,7 +20235,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wild-goat-coin',
-    fileName: 'token:WGC',
+    filePath: 'token:WGC',
     symbol: 'wgc',
     name: 'Wild Goat Coin',
     marketCapRank: 2240,
@@ -20247,7 +20247,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wing-finance',
-    fileName: 'token:WING',
+    filePath: 'token:WING',
     symbol: 'wing',
     name: 'Wing Finance',
     marketCapRank: 869,
@@ -20256,7 +20256,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wink',
-    fileName: 'token:WIN',
+    filePath: 'token:WIN',
     symbol: 'win',
     name: 'WINkLink',
     marketCapRank: 395,
@@ -20267,7 +20267,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'winr-protocol',
-    fileName: 'token:WINR',
+    filePath: 'token:WINR',
     symbol: 'winr',
     name: 'WINR Protocol',
     marketCapRank: 1068,
@@ -20279,7 +20279,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wirex',
-    fileName: 'token:WXT',
+    filePath: 'token:WXT',
     symbol: 'wxt',
     name: 'WXT Token',
     marketCapRank: 1263,
@@ -20292,7 +20292,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wise-token11',
-    fileName: 'token:WISE',
+    filePath: 'token:WISE',
     symbol: 'wise',
     name: 'Wise',
     marketCapRank: 1286,
@@ -20304,7 +20304,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'witch-token',
-    fileName: 'token:WITCH',
+    filePath: 'token:WITCH',
     symbol: 'witch',
     name: 'Witch Token',
     marketCapRank: 1477,
@@ -20315,7 +20315,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wliti',
-    fileName: 'token:WLITI',
+    filePath: 'token:WLITI',
     symbol: 'wliti',
     name: 'wLITI',
     marketCapRank: 2669,
@@ -20326,7 +20326,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wojak',
-    fileName: 'token:WOJAK',
+    filePath: 'token:WOJAK',
     symbol: 'wojak',
     name: 'Wojak',
     marketCapRank: 1005,
@@ -20337,7 +20337,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wom-token',
-    fileName: 'token:WOM',
+    filePath: 'token:WOM',
     symbol: 'wom',
     name: 'WOM Protocol',
     marketCapRank: 1432,
@@ -20348,7 +20348,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wombat',
-    fileName: 'token:WOMBAT',
+    filePath: 'token:WOMBAT',
     symbol: 'wombat',
     name: 'Wombat',
     marketCapRank: 1511,
@@ -20360,7 +20360,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wonderman-nation',
-    fileName: 'token:WNDR',
+    filePath: 'token:WNDR',
     symbol: 'wndr',
     name: 'Wonderman Nation',
     marketCapRank: 2534,
@@ -20371,7 +20371,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'woo-network',
-    fileName: 'token:WOO',
+    filePath: 'token:WOO',
     symbol: 'woo',
     name: 'WOO',
     marketCapRank: 130,
@@ -20393,7 +20393,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'woof-token',
-    fileName: 'token:WOOF',
+    filePath: 'token:WOOF',
     symbol: 'woof',
     name: 'WOOF',
     marketCapRank: 2172,
@@ -20404,7 +20404,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wownero',
-    fileName: 'token:WOW',
+    filePath: 'token:WOW',
     symbol: 'wow',
     name: 'Wownero',
     marketCapRank: 1381,
@@ -20413,7 +20413,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wozx',
-    fileName: 'token:WOZX',
+    filePath: 'token:WOZX',
     symbol: 'wozx',
     name: 'Efforce',
     marketCapRank: 1810,
@@ -20424,7 +20424,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wrapped-accumulate',
-    fileName: 'token:WACME',
+    filePath: 'token:WACME',
     symbol: 'wacme',
     name: 'Wrapped Accumulate',
     marketCapRank: 1877,
@@ -20435,7 +20435,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wrapped-ampleforth',
-    fileName: 'token:WAMPL',
+    filePath: 'token:WAMPL',
     symbol: 'wampl',
     name: 'Wrapped Ampleforth',
     marketCapRank: 1220,
@@ -20447,7 +20447,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wrapped-beacon-eth',
-    fileName: 'token:WBETH',
+    filePath: 'token:WBETH',
     symbol: 'wbeth',
     name: 'Wrapped Beacon ETH',
     marketCapRank: 295,
@@ -20459,7 +20459,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wrapped-bitcoin',
-    fileName: 'token:WBTC',
+    filePath: 'token:WBTC',
     symbol: 'wbtc',
     name: 'Wrapped Bitcoin',
     marketCapRank: 17,
@@ -20505,7 +20505,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wrapped-centrifuge',
-    fileName: 'token:WCFG',
+    filePath: 'token:WCFG',
     symbol: 'wcfg',
     name: 'Wrapped Centrifuge',
     marketCapRank: 231,
@@ -20516,7 +20516,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'wrapped-nxm',
-    fileName: 'token:WNXM',
+    filePath: 'token:WNXM',
     symbol: 'wnxm',
     name: 'Wrapped NXM',
     marketCapRank: 591,
@@ -20527,7 +20527,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'x-world-games',
-    fileName: 'token:XWG',
+    filePath: 'token:XWG',
     symbol: 'xwg',
     name: 'X World Games',
     marketCapRank: 1536,
@@ -20540,7 +20540,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'x2y2',
-    fileName: 'token:X2Y2',
+    filePath: 'token:X2Y2',
     symbol: 'x2y2',
     name: 'X2Y2',
     marketCapRank: 1831,
@@ -20551,7 +20551,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xana',
-    fileName: 'token:XETA',
+    filePath: 'token:XETA',
     symbol: 'xeta',
     name: 'XANA',
     marketCapRank: 660,
@@ -20565,7 +20565,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xaurum',
-    fileName: 'token:XAUR',
+    filePath: 'token:XAUR',
     symbol: 'xaur',
     name: 'Xaurum',
     marketCapRank: 2671,
@@ -20576,7 +20576,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xcad-network',
-    fileName: 'token:XCAD',
+    filePath: 'token:XCAD',
     symbol: 'xcad',
     name: 'XCAD Network',
     marketCapRank: 638,
@@ -20592,7 +20592,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xdce-crowd-sale',
-    fileName: 'token:XDC',
+    filePath: 'token:XDC',
     symbol: 'xdc',
     name: 'XDC Network',
     marketCapRank: 151,
@@ -20601,7 +20601,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xdefi',
-    fileName: 'token:XDEFI',
+    filePath: 'token:XDEFI',
     symbol: 'xdefi',
     name: 'XDEFI',
     marketCapRank: 1245,
@@ -20613,7 +20613,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xels',
-    fileName: 'token:XELS',
+    filePath: 'token:XELS',
     symbol: 'xels',
     name: 'XELS',
     marketCapRank: 1608,
@@ -20624,7 +20624,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xfinite-entertainment-token',
-    fileName: 'token:XET',
+    filePath: 'token:XET',
     symbol: 'xet',
     name: 'Xfinite Entertainment',
     marketCapRank: 2536,
@@ -20635,7 +20635,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xfund',
-    fileName: 'token:XFUND',
+    filePath: 'token:XFUND',
     symbol: 'xfund',
     name: 'xFUND',
     marketCapRank: 1741,
@@ -20647,7 +20647,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xi-token',
-    fileName: 'token:XI',
+    filePath: 'token:XI',
     symbol: 'xi',
     name: 'Xi',
     marketCapRank: 2212,
@@ -20658,7 +20658,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xido-finance',
-    fileName: 'token:XIDO',
+    filePath: 'token:XIDO',
     symbol: 'xido',
     name: 'Xido Finance',
     marketCapRank: 907,
@@ -20670,7 +20670,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xmon',
-    fileName: 'token:XMON',
+    filePath: 'token:XMON',
     symbol: 'xmon',
     name: 'XMON',
     marketCapRank: 2259,
@@ -20681,7 +20681,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xp-network',
-    fileName: 'token:XPNET',
+    filePath: 'token:XPNET',
     symbol: 'xpnet',
     name: 'XP Network',
     marketCapRank: 2292,
@@ -20692,7 +20692,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xpla',
-    fileName: 'token:XPLA',
+    filePath: 'token:XPLA',
     symbol: 'xpla',
     name: 'XPLA',
     marketCapRank: 441,
@@ -20704,7 +20704,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xsgd',
-    fileName: 'token:XSGD',
+    filePath: 'token:XSGD',
     symbol: 'xsgd',
     name: 'XSGD',
     marketCapRank: 883,
@@ -20717,7 +20717,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xsushi',
-    fileName: 'token:XSUSHI',
+    filePath: 'token:XSUSHI',
     symbol: 'xsushi',
     name: 'xSUSHI',
     marketCapRank: 722,
@@ -20728,7 +20728,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xswap-protocol',
-    fileName: 'token:XSP',
+    filePath: 'token:XSP',
     symbol: 'xsp',
     name: 'XSwap Protocol',
     marketCapRank: 2227,
@@ -20739,7 +20739,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xwin-finance',
-    fileName: 'token:XWIN',
+    filePath: 'token:XWIN',
     symbol: 'xwin',
     name: 'xWIN Finance',
     marketCapRank: 1753,
@@ -20751,7 +20751,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xy-finance',
-    fileName: 'token:XY',
+    filePath: 'token:XY',
     symbol: 'xy',
     name: 'XY Finance',
     marketCapRank: 2167,
@@ -20765,7 +20765,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'xyo-network',
-    fileName: 'token:XYO',
+    filePath: 'token:XYO',
     symbol: 'xyo',
     name: 'XYO Network',
     marketCapRank: 413,
@@ -20776,7 +20776,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'y2k',
-    fileName: 'token:Y2K',
+    filePath: 'token:Y2K',
     symbol: 'y2k',
     name: 'Y2K',
     marketCapRank: 2606,
@@ -20787,7 +20787,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'yam-2',
-    fileName: 'token:YAM',
+    filePath: 'token:YAM',
     symbol: 'yam',
     name: 'YAM',
     marketCapRank: 2350,
@@ -20799,7 +20799,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'yearn-finance',
-    fileName: 'token:YFI',
+    filePath: 'token:YFI',
     symbol: 'yfi',
     name: 'yearn.finance',
     marketCapRank: 272,
@@ -20823,7 +20823,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'yes-money',
-    fileName: 'token:YES',
+    filePath: 'token:YES',
     symbol: 'yes',
     name: 'YES Money',
     marketCapRank: 663,
@@ -20834,7 +20834,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'yfii-finance',
-    fileName: 'token:YFII',
+    filePath: 'token:YFII',
     symbol: 'yfii',
     name: 'DFI.money',
     marketCapRank: 1132,
@@ -20846,7 +20846,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'yield-guild-games',
-    fileName: 'token:YGG',
+    filePath: 'token:YGG',
     symbol: 'ygg',
     name: 'Yield Guild Games',
     marketCapRank: 210,
@@ -20860,7 +20860,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'yield-yak',
-    fileName: 'token:YAK',
+    filePath: 'token:YAK',
     symbol: 'yak',
     name: 'Yield Yak',
     marketCapRank: 1596,
@@ -20872,7 +20872,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'yieldification',
-    fileName: 'token:YDF',
+    filePath: 'token:YDF',
     symbol: 'ydf',
     name: 'Yieldification',
     marketCapRank: 2358,
@@ -20884,7 +20884,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'yoshi-exchange',
-    fileName: 'token:YOSHI',
+    filePath: 'token:YOSHI',
     symbol: 'yoshi',
     name: 'Yoshi.exchange',
     marketCapRank: 1657,
@@ -20896,7 +20896,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'youves-you-governance',
-    fileName: 'token:YOU',
+    filePath: 'token:YOU',
     symbol: 'you',
     name: 'Youves YOU Governance',
     marketCapRank: 1837,
@@ -20907,7 +20907,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'yuan-chain-coin',
-    fileName: 'token:YCC',
+    filePath: 'token:YCC',
     symbol: 'ycc',
     name: 'Yuan Chain Coin',
     marketCapRank: 1651,
@@ -20918,7 +20918,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zano',
-    fileName: 'token:ZANO',
+    filePath: 'token:ZANO',
     symbol: 'zano',
     name: 'Zano',
     marketCapRank: 783,
@@ -20929,7 +20929,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zap',
-    fileName: 'token:ZAP',
+    filePath: 'token:ZAP',
     symbol: 'zap',
     name: 'Zap',
     marketCapRank: 2064,
@@ -20942,7 +20942,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zcash',
-    fileName: 'token:ZEC',
+    filePath: 'token:ZEC',
     symbol: 'zec',
     name: 'Zcash',
     marketCapRank: 207,
@@ -20951,7 +20951,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zcoin',
-    fileName: 'token:FIRO',
+    filePath: 'token:FIRO',
     symbol: 'firo',
     name: 'Firo',
     marketCapRank: 1032,
@@ -20960,7 +20960,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zebec-protocol',
-    fileName: 'token:ZBC',
+    filePath: 'token:ZBC',
     symbol: 'zbc',
     name: 'Zebec Protocol',
     marketCapRank: 346,
@@ -20971,7 +20971,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zeitgeist',
-    fileName: 'token:ZTG',
+    filePath: 'token:ZTG',
     symbol: 'ztg',
     name: 'Zeitgeist',
     marketCapRank: 2602,
@@ -20980,7 +20980,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zelcash',
-    fileName: 'token:FLUX',
+    filePath: 'token:FLUX',
     symbol: 'flux',
     name: 'Flux',
     marketCapRank: 204,
@@ -20989,7 +20989,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zencash',
-    fileName: 'token:ZEN',
+    filePath: 'token:ZEN',
     symbol: 'zen',
     name: 'Horizen',
     marketCapRank: 330,
@@ -20998,7 +20998,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zenlink-network-token',
-    fileName: 'token:ZLK',
+    filePath: 'token:ZLK',
     symbol: 'zlk',
     name: 'Zenlink Network',
     marketCapRank: 2648,
@@ -21010,7 +21010,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zenon-2',
-    fileName: 'token:ZNN',
+    filePath: 'token:ZNN',
     symbol: 'znn',
     name: 'Zenon',
     marketCapRank: 1297,
@@ -21021,7 +21021,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zeroliquid',
-    fileName: 'token:ZERO',
+    filePath: 'token:ZERO',
     symbol: 'zero',
     name: 'ZeroLiquid',
     marketCapRank: 2629,
@@ -21032,7 +21032,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zeroswap',
-    fileName: 'token:ZEE',
+    filePath: 'token:ZEE',
     symbol: 'zee',
     name: 'ZeroSwap',
     marketCapRank: 2194,
@@ -21046,7 +21046,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zignaly',
-    fileName: 'token:ZIG',
+    filePath: 'token:ZIG',
     symbol: 'zig',
     name: 'Zignaly',
     marketCapRank: 461,
@@ -21061,7 +21061,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zigzag-2',
-    fileName: 'token:ZZ',
+    filePath: 'token:ZZ',
     symbol: 'zz',
     name: 'ZigZag',
     marketCapRank: 2150,
@@ -21072,7 +21072,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zilliqa',
-    fileName: 'token:ZIL',
+    filePath: 'token:ZIL',
     symbol: 'zil',
     name: 'Zilliqa',
     marketCapRank: 153,
@@ -21083,7 +21083,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zkapes-token',
-    fileName: 'token:ZAT',
+    filePath: 'token:ZAT',
     symbol: 'zat',
     name: 'zkApes Token',
     marketCapRank: 2624,
@@ -21094,7 +21094,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zkspace',
-    fileName: 'token:ZKB',
+    filePath: 'token:ZKB',
     symbol: 'zkb',
     name: 'ZKBase',
     marketCapRank: 1485,
@@ -21106,7 +21106,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zksync-id',
-    fileName: 'token:ZKID',
+    filePath: 'token:ZKID',
     symbol: 'zkid',
     name: 'zkSync id',
     marketCapRank: 2003,
@@ -21117,7 +21117,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zmine',
-    fileName: 'token:ZMN',
+    filePath: 'token:ZMN',
     symbol: 'zmn',
     name: 'ZMINE',
     marketCapRank: 1618,
@@ -21128,7 +21128,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zoid-pay',
-    fileName: 'token:ZPAY',
+    filePath: 'token:ZPAY',
     symbol: 'zpay',
     name: 'ZoidPay',
     marketCapRank: 1638,
@@ -21139,7 +21139,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zoomer',
-    fileName: 'token:ZOOMER',
+    filePath: 'token:ZOOMER',
     symbol: 'zoomer',
     name: 'Zoomer',
     marketCapRank: 1913,
@@ -21156,7 +21156,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'zynecoin',
-    fileName: 'token:ZYN',
+    filePath: 'token:ZYN',
     symbol: 'zyn',
     name: 'Zynecoin',
     marketCapRank: 2235,
@@ -21165,7 +21165,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'hush',
-    fileName: 'token:HUSH',
+    filePath: 'token:HUSH',
     symbol: 'HUSH',
     name: 'Hush',
     marketCapRank: 0,
@@ -21174,7 +21174,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'imx',
-    fileName: 'token:IMX',
+    filePath: 'token:IMX',
     symbol: 'IMX',
     name: 'Immutable',
     marketCapRank: 0,
@@ -21183,7 +21183,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pnb',
-    fileName: 'token:PNB',
+    filePath: 'token:PNB',
     symbol: 'PNB',
     name: 'Pink BNB',
     marketCapRank: 0,
@@ -21192,7 +21192,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'JOP',
-    fileName: 'token:JOP',
+    filePath: 'token:JOP',
     symbol: 'JOP',
     name: 'Japan Open Chain',
     marketCapRank: 0,
@@ -21201,7 +21201,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: '0x-protocol',
-    fileName: 'token:ZRX',
+    filePath: 'token:ZRX',
     symbol: 'ZRX',
     name: '0x Protocol',
     marketCapRank: 0,
@@ -21210,7 +21210,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vara',
-    fileName: 'token:VARA',
+    filePath: 'token:VARA',
     symbol: 'VARA',
     name: 'Vara',
     marketCapRank: 0,
@@ -21219,7 +21219,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'vine',
-    fileName: 'token:VINE',
+    filePath: 'token:VINE',
     symbol: 'VINE',
     name: 'Vine Coin',
     marketCapRank: 0,
@@ -21230,7 +21230,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'SWELL',
-    fileName: 'token:SWELL',
+    filePath: 'token:SWELL',
     symbol: 'SWELL',
     name: 'Swell',
     marketCapRank: 0,
@@ -21241,7 +21241,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'ARI',
-    fileName: 'token:ARI',
+    filePath: 'token:ARI',
     symbol: 'ARI',
     name: 'ARI',
     marketCapRank: 0,
@@ -21252,7 +21252,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'PEAQ',
-    fileName: 'token:PEAQ',
+    filePath: 'token:PEAQ',
     symbol: 'PEAQ',
     name: 'peaq',
     marketCapRank: 0,
@@ -21263,7 +21263,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'EURC',
-    fileName: 'token:EURC',
+    filePath: 'token:EURC',
     symbol: 'EURC',
     name: 'EURC',
     marketCapRank: 0,
@@ -21278,23 +21278,12 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'A',
-    fileName: 'token:A',
+    filePath: 'token:A',
     symbol: 'A',
     name: 'Vaulta',
     marketCapRank: 0,
     addresses: {
       ethereum: '0xCc80062086c8fb8d4837C56FCDB25A67Cd9c7d58',
-    },
-    variants: ['background', 'branded', 'mono'],
-  },
-  {
-    id: 'SOPHEN',
-    fileName: 'token:SOPHEN',
-    symbol: 'SOPH',
-    name: 'SOPH',
-    marketCapRank: 0,
-    addresses: {
-      ethereum: '0x6b7774cb12ed7573a7586e7d0e62a2a563ddd3f0',
     },
     variants: ['background', 'branded', 'mono'],
   },
