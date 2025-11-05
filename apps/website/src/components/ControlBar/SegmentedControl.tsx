@@ -55,7 +55,7 @@ export default function SegmentedControl({
         </Fragment>
       ))}
       <div
-        className="bg-gray-lightest absolute top-1 left-0 h-[calc(100%-0.5rem)] rounded-full transition-all duration-150"
+        className="bg-gray-lightest absolute left-0 top-1 h-[calc(100%-0.5rem)] rounded-full transition-all duration-150"
         style={{
           width: indicatorWidth,
           transform: `translateX(${indicatorOffset}px)`,

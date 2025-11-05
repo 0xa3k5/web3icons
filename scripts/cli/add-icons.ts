@@ -52,7 +52,7 @@ const addMetadataOnly = async () => {
         if (!value) return 'Icon reference is required'
         const parts = value.split(':')
         if (parts.length !== 2) {
-          return 'Invalid format. Use "type:name" (e.g., "network:ethereum", "token:usdc")'
+          return 'Invalid format. Use "type:name" (e.g., "network:ethereum", "token:USDC")'
         }
         const validTypes = ['network', 'token', 'wallet', 'exchange']
         if (!validTypes.includes(parts[0]!)) {
@@ -164,12 +164,12 @@ const addIcons = async () => {
       groupedIcons[fileName] = {}
     }
 
-    if (!groupedIcons[fileName][type]) {
-      groupedIcons[fileName][type] = { variants: [] }
+    if (!groupedIcons[fileName]?.[type]) {
+      groupedIcons[fileName]![type] = { variants: [] }
     }
 
-    if (!groupedIcons[fileName][type]!.variants.includes(variant)) {
-      groupedIcons[fileName][type]!.variants.push(variant)
+    if (!groupedIcons[fileName]?.[type]?.variants.includes(variant)) {
+      groupedIcons[fileName]?.[type]?.variants.push(variant)
     }
   })
 
