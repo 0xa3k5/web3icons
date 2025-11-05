@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (47)](#wallets)
-- [networks (218)](#networks)
+- [networks (219)](#networks)
 - [exchanges (27)](#exchanges)
-- [tokens (1827)](#tokens)
+- [tokens (1828)](#tokens)
 
 ### Wallets
 
@@ -279,6 +279,7 @@ jump to section:
 | arc                         | Arc                             | ✅      | ✅   | ✅         |
 | shibarium                   | Shibarium                       | ✅      | ❌   | ✅         |
 | minima                      | Minima                          | ✅      | ✅   | ✅         |
+| ame-chain                   | Ame Chain                       | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2143,3 +2144,4 @@ jump to section:
 | EURC                                   | EURC        | ✅      | ✅   | ✅         |
 | Vaulta                                 | A           | ✅      | ✅   | ✅         |
 | Minima                                 | MINIMA      | ✅      | ✅   | ✅         |
+| Ame Chain                              | AME         | ✅      | ✅   | ✅         |

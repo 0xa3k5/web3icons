@@ -21298,4 +21298,13 @@ export const tokens: ITokenMetadata[] = [
       ethereum: '0x669c01CAF0eDcaD7c2b8Dc771474aD937A7CA4AF',
     },
   },
+  {
+    id: 'ame',
+    name: 'Ame Chain',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:ame-chain',
+    symbol: 'AME',
+    marketCapRank: 0,
+    addresses: {},
+  },
 ]

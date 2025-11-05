@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#ame-chain__a)">
+        <path fill="#640000" d="M24 0H0v24h24z"/>
+        <path fill="url(#ame-chain__b)" fill-rule="evenodd" d="m18.996 12.038-6.7 3.877v2.064l6.7-3.879v2.06l-6.315 3.657a1.37 1.37 0 0 1-1.365 0L8.56 18.222v-7.76L6.777 9.431v7.76L5 16.16V8.843a1.37 1.37 0 0 1 .682-1.186l2.756-1.595 6.697 3.88 1.783-1.033-6.698-3.877L12.003 4l6.314 3.658A1.37 1.37 0 0 1 19 8.844zM9.62 7.442 7.074 8.916 8.857 9.95l2.547-1.474zm5.812 5.971 1.783-1.034V9.43l-1.783 1.033zM9.156 16.51l2.547 1.475v-2.069L9.156 14.44zm5.685-2.754v-3.29L12 8.817l-2.843 1.646v3.291L12 15.401z" clip-rule="evenodd"/>
+        <path fill="url(#ame-chain__c)" fill-rule="evenodd" d="M13.73 12.546v.656l-1.62.883-.016-2.146c.579-.32 1.06-.569 1.636-.876v.614l-1.151.606v.129l1.15-.612v.622l-1.15.606v.128z" clip-rule="evenodd"/>
+        <path fill="url(#ame-chain__d)" fill-rule="evenodd" d="m12 9.973-1.725.928.702.383L12 10.739l1.026.544.702-.382z" clip-rule="evenodd"/>
+        <path fill="url(#ame-chain__e)" fill-rule="evenodd" d="m10.778 13.456-.5-.272v-2.132l1.657.887c0 .525-.01 1.62-.011 2.14l-.487-.263.016-1.464-.031-.016-.054-.03-.014-.006-.01 1.463-.475-.258.015-1.463-.098-.053z" clip-rule="evenodd"/>
+        <path fill="url(#ame-chain__f)" fill-rule="evenodd" d="m11.34 11.275.656-.357.67.362-.665.367z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <linearGradient id="ame-chain__b" x1="6.05" x2="18.061" y1="6.896" y2="16.164" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D40000"/>
+            <stop offset="1" stop-color="#F70"/>
+        </linearGradient>
+        <linearGradient id="ame-chain__c" x1="12.305" x2="15.685" y1="10.818" y2="11.691" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D40000"/>
+            <stop offset="1" stop-color="#F70"/>
+        </linearGradient>
+        <linearGradient id="ame-chain__d" x1="10.721" x2="13.671" y1="9.867" y2="13.573" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D40000"/>
+            <stop offset="1" stop-color="#F70"/>
+        </linearGradient>
+        <linearGradient id="ame-chain__e" x1="10.491" x2="13.91" y1="10.807" y2="11.7" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D40000"/>
+            <stop offset="1" stop-color="#F70"/>
+        </linearGradient>
+        <linearGradient id="ame-chain__f" x1="11.447" x2="13.341" y1="11.158" y2="11.574" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D40000"/>
+            <stop offset="1" stop-color="#F70"/>
+        </linearGradient>
+        <clipPath id="ame-chain__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>
