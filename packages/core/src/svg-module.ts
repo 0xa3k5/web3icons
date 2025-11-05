@@ -5094,6 +5094,9 @@ import * as TBackgroundEURC from './svgs/tokens/background/EURC.svg'
 import * as TBrandedA from './svgs/tokens/branded/A.svg'
 import * as TMonoA from './svgs/tokens/mono/A.svg'
 import * as TBackgroundA from './svgs/tokens/background/A.svg'
+import * as TBrandedMINIMA from './svgs/networks/branded/minima.svg'
+import * as TMonoMINIMA from './svgs/networks/mono/minima.svg'
+import * as TBackgroundMINIMA from './svgs/networks/background/minima.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
 import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
@@ -5740,6 +5743,9 @@ import * as NMonoArc from './svgs/networks/mono/arc.svg'
 import * as NBackgroundArc from './svgs/networks/background/arc.svg'
 import * as NBrandedShibarium from './svgs/tokens/branded/SHIB.svg'
 import * as NBackgroundShibarium from './svgs/tokens/background/SHIB.svg'
+import * as NBrandedMinima from './svgs/networks/branded/minima.svg'
+import * as NMonoMinima from './svgs/networks/mono/minima.svg'
+import * as NBackgroundMinima from './svgs/networks/background/minima.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -7741,6 +7747,7 @@ export const svgs = {
       peaq: TBrandedPEAQ,
       eurc: TBrandedEURC,
       a: TBrandedA,
+      minima: TBrandedMINIMA,
     },
     mono: {
       '0x0': TMono0X0,
@@ -9278,6 +9285,7 @@ export const svgs = {
       peaq: TMonoPEAQ,
       eurc: TMonoEURC,
       a: TMonoA,
+      minima: TMonoMINIMA,
     },
     background: {
       '0x0': TBackground0X0,
@@ -11060,6 +11068,7 @@ export const svgs = {
       peaq: TBackgroundPEAQ,
       eurc: TBackgroundEURC,
       a: TBackgroundA,
+      minima: TBackgroundMINIMA,
     },
   },
   networks: {
@@ -11281,6 +11290,7 @@ export const svgs = {
       'ethereum-classic-mordor': NBrandedEthereumClassicMordor,
       arc: NBrandedArc,
       shibarium: NBrandedShibarium,
+      minima: NBrandedMinima,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11495,6 +11505,7 @@ export const svgs = {
       'telos-testnet': NMonoTelosTestnet,
       'ethereum-classic-mordor': NMonoEthereumClassicMordor,
       arc: NMonoArc,
+      minima: NMonoMinima,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -11714,6 +11725,7 @@ export const svgs = {
       'ethereum-classic-mordor': NBackgroundEthereumClassicMordor,
       arc: NBackgroundArc,
       shibarium: NBackgroundShibarium,
+      minima: NBackgroundMinima,
     },
   },
   wallets: {

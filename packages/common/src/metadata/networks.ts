@@ -2097,4 +2097,12 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'BONE',
     variants: ['branded', 'background'],
   },
+  {
+    id: 'minima',
+    filePath: 'network:minima',
+    name: 'Minima',
+    shortName: 'Minima',
+    nativeCoinId: 'MINIMA',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]
