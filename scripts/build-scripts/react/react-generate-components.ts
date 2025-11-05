@@ -1,7 +1,11 @@
 import fs from 'fs'
 import path from 'path'
-import { ensureDirectoryExists, generateReactComponent } from '../../utils'
-import { TType } from '@web3icons/common'
+import {
+  ensureDirectoryExists,
+  generateReactComponent,
+  validateAllFilePaths,
+} from '../../utils'
+import { ITokenMetadata, TMetadata, TType } from '@web3icons/common'
 import {
   JSX_TOKENS_OUT_DIR,
   JSX_NETWORKS_OUT_DIR,
@@ -17,13 +21,6 @@ import {
   WALLETS_METADATA_PATH,
   EXCHANGES_METADATA_PATH,
 } from '../../constants'
-import { getSVGDirectories } from '../../utils/get-svg-directories'
-
-interface MetadataEntry {
-  id: string
-  fileName: string
-  variants: string[]
-}
 
 const getMetadataPath = (type: TType): string => {
   switch (type) {
@@ -40,44 +37,57 @@ const getMetadataPath = (type: TType): string => {
   }
 }
 
-const processSVGs = async (type: TType): Promise<void> => {
-  const variants = ['branded', 'mono', 'background']
+const processSVGs = async (metadataSourceType: TType): Promise<void> => {
   const componentTasks: Array<{
     baseName: string
-    type: TType
-    fileName: string
+    metadataSourceType: TType
+    svgSourceType: TType
+    svgFileName: string
   }> = []
 
-  const metadataPath = getMetadataPath(type)
-  const metadata: MetadataEntry[] = JSON.parse(
+  const metadataPath = getMetadataPath(metadataSourceType)
+  const metadata: TMetadata[] = JSON.parse(
     fs.readFileSync(metadataPath, 'utf-8'),
   )
+
+  // Validate all filePaths before processing
+  const validationErrors = validateAllFilePaths(metadata, metadataSourceType)
+  if (validationErrors.length > 0) {
+    console.error(
+      `\n❌ Found ${validationErrors.length} invalid filePath reference(s) in ${metadataSourceType}s metadata:\n`,
+    )
+    validationErrors.forEach(({ id, filePath, error }) => {
+      console.error(`  - ${id} (filePath: "${filePath}"): ${error}`)
+    })
+    throw new Error(
+      `Invalid filePath references found in ${metadataSourceType}s metadata. Please fix the errors above.`,
+    )
+  }
 
   // Process each metadata entry
   for (const entry of metadata) {
     if (
-      !entry.fileName.includes(':') ||
-      entry.fileName.split(':').length !== 2
+      !entry.filePath.includes(':') ||
+      entry.filePath.split(':').length !== 2
     ) {
       throw new Error(
-        `Invalid fileName format: "${entry.fileName}". Expected format: "type:name" (e.g., "network:ethereum")`,
+        `Invalid filePath format: "${entry.filePath}". Expected format: "type:name" (e.g., "network:ethereum")`,
       )
     }
-    const [type, name] = entry.fileName.split(':') as [TType, string]
+    const [svgSourceType, svgFileName] = entry.filePath.split(':') as [
+      TType,
+      string,
+    ]
 
-    const { svgOutDir } = getSVGDirectories(type)
-
-    const hasAnyVariant = variants.some((variant) =>
-      fs.existsSync(path.join(svgOutDir, variant, `${name}.svg`)),
-    )
-
-    if (hasAnyVariant) {
-      componentTasks.push({
-        baseName: entry.id,
-        type,
-        fileName: entry.fileName,
-      })
-    }
+    componentTasks.push({
+      baseName:
+        metadataSourceType === 'token'
+          ? (entry as ITokenMetadata).symbol
+          : entry.id,
+      metadataSourceType,
+      svgSourceType,
+      svgFileName,
+    })
   }
 
   // Process components in parallel batches
@@ -89,13 +99,21 @@ const processSVGs = async (type: TType): Promise<void> => {
 
   for (const batch of batches) {
     await Promise.all(
-      batch.map(({ baseName, fileName }) =>
-        generateReactComponent(baseName, fileName),
+      batch.map(
+        ({ baseName, metadataSourceType, svgSourceType, svgFileName }) =>
+          generateReactComponent(
+            baseName,
+            metadataSourceType,
+            svgSourceType,
+            svgFileName,
+          ),
       ),
     )
   }
 
-  console.log(`→ generated ${componentTasks.length} ${type} components`)
+  console.log(
+    `→ generated ${componentTasks.length} ${metadataSourceType} components`,
+  )
 }
 
 export async function generateComponents() {

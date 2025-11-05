@@ -67,7 +67,7 @@ export default function Tooltip({
         {
           'bottom-full left-1/2 mb-2 -translate-x-1/2 transform':
             position === 'top',
-          'top-full left-1/2 mt-2 -translate-x-1/2 transform':
+          'left-1/2 top-full mt-2 -translate-x-1/2 transform':
             position === 'bottom',
         },
         className,

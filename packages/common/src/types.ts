@@ -2,9 +2,9 @@ export type TVariant = 'branded' | 'mono' | 'background'
 export type TType = 'network' | 'token' | 'wallet' | 'exchange'
 export type TExchangeType = 'cex' | 'dex'
 
-interface IMetadata {
+export interface IMetadata {
   id: string
-  fileName: string
+  filePath: string
   name: string
   variants: TVariant[]
 }

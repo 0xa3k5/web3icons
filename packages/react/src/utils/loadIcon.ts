@@ -19,19 +19,18 @@ export const preloadIcon = (type: string, metadata: TMetadata): void => {
  * - "token:usdc" - references token icon
  * - "wallet:metamask" - references wallet icon
  */
-const parseFileName = (fileName: string): { type: TType; name: string } => {
-  const parts = fileName.split(':')
+const parseFilePath = (filePath: string): { type: TType; name: string } => {
+  const parts = filePath.split(':')
   if (parts.length !== 2) {
     throw new Error(
-      `Invalid fileName format: "${fileName}". Expected format: "type:name" (e.g., "network:ethereum")`,
+      `Invalid filePath format: "${filePath}". Expected format: "type:name" (e.g., "network:ethereum")`,
     )
   }
   return { type: parts[0] as TType, name: parts[1]! }
 }
 
 const getIconKey = (type: string, metadata: TMetadata): string => {
-  const fileName = metadata.fileName
-  const { type: iconType, name: iconName } = parseFileName(fileName)
+  const { type: iconType, name: iconName } = parseFilePath(metadata.filePath)
 
   // generate component name based on the icon's type
   const componentName =
@@ -47,8 +46,7 @@ export const loadIcon = (
   metadata: TMetadata,
 ): Promise<IconComponent> => {
   const key = getIconKey(type, metadata)
-  const fileName = metadata.fileName
-  const { type: iconType } = parseFileName(fileName)
+  const { type: iconType } = parseFilePath(metadata.filePath)
 
   if (!iconCache.has(key)) {
     const importPromise = import(

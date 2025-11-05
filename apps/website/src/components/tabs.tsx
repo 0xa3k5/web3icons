@@ -74,7 +74,7 @@ export default function Tabs({
       {slotAfter}
       {tabs.length > 1 && (
         <div
-          className="absolute top-0 left-0 h-full border-b border-white transition-all duration-150"
+          className="absolute left-0 top-0 h-full border-b border-white transition-all duration-150"
           style={{
             width: indicatorWidth,
             transform: `translateX(${indicatorOffset}px)`,

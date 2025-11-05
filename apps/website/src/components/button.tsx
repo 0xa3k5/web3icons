@@ -58,7 +58,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
           'data-[full-width=true]:w-full',
           'inline-flex items-center justify-center gap-2',
           'font-mono text-sm transition-all duration-150',
-          'focus-within:ring-0 focus-within:outline-none focus:ring-0 focus:outline-none',
+          'focus-within:outline-none focus-within:ring-0 focus:outline-none focus:ring-0',
           'disabled:pointer-events-none disabled:opacity-50',
 
           'data-[size=xs]:rounded-sm data-[size=xs]:px-2 data-[size=xs]:py-1 data-[size=xs]:text-xs',

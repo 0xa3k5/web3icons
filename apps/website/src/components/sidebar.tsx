@@ -30,7 +30,7 @@ export function Sidebar({ groups, className, basePath = '' }: Props) {
         {groups.map((group) => (
           <div key={group.category} className="flex flex-col gap-1">
             {group.category && (
-              <h3 className="mb-2 font-mono text-xs text-white/60 capitalize">
+              <h3 className="mb-2 font-mono text-xs capitalize text-white/60">
                 {group.category}
               </h3>
             )}

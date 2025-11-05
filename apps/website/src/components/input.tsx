@@ -43,7 +43,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
 
         <div className="relative">
           {iconBefore && (
-            <div className="absolute top-1/2 left-3 -translate-y-1/2 text-white/60">
+            <div className="absolute left-3 top-1/2 -translate-y-1/2 text-white/60">
               {iconBefore}
             </div>
           )}
@@ -71,7 +71,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
           />
 
           {iconAfter && (
-            <div className="absolute top-1/2 right-3 -translate-y-1/2 text-white/60">
+            <div className="absolute right-3 top-1/2 -translate-y-1/2 text-white/60">
               {iconAfter}
             </div>
           )}

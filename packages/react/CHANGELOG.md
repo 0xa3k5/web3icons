@@ -1,5 +1,17 @@
 # @web3icons/react
 
+## 4.0.32
+
+### Patch Changes
+
+- - fixed variable shadowing bug in react component generation
+  - `@webi3cons/core` and `@web3icons/react` packages now read metadata and support cross-type icon references via `filePath`
+  - added strict validation: ensures all declared variants have corresponding SVG files
+  - metadata `fileName` → `filePath` (format: "type:name", e.g., "network:ethereum")
+  - validation: new utility checks filePath references and required variants
+- Updated dependencies
+  - @web3icons/common@0.11.24
+
 ## 4.0.31
 
 ### Patch Changes
