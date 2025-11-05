@@ -182,29 +182,22 @@ const handleNetworkMetadata = async (
       })
 
       if (shouldAddToken) {
-        // Copy and rename the network icon files to create token variants
-        const tokenFileName = nativeCoinId.toUpperCase()
-        duplicateIconsToType(
-          metadata.filePath,
-          tokenFileName,
-          metadata.variants,
-          'network',
-          'token',
-        )
+        // Create token metadata that references the same icon (no file duplication needed!)
+        const tokenId = nativeCoinId.toLowerCase()
 
-        // Create token metadata
+        // Create token metadata with same filePath (icon sharing!)
         const tokenMetadata: ITokenMetadata = {
-          id: tokenFileName,
+          id: tokenId,
           name: metadata.name,
           variants: metadata.variants,
-          filePath: metadata.filePath,
+          filePath: metadata.filePath, // Same filePath = shares the icon!
           symbol: nativeCoinId.toUpperCase(),
           marketCapRank: 0,
           addresses: {},
         }
 
         // Get additional token metadata
-        await handleTokenMetadata(tokenFileName, metadata.name, tokenMetadata)
+        await handleTokenMetadata(tokenId, metadata.name, tokenMetadata)
         await confirmAndAddMetadata(tokenMetadata, 'token')
       }
     }

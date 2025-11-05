@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (47)](#wallets)
-- [networks (217)](#networks)
+- [networks (219)](#networks)
 - [exchanges (27)](#exchanges)
-- [tokens (1826)](#tokens)
+- [tokens (1828)](#tokens)
 
 ### Wallets
 
@@ -278,6 +278,8 @@ jump to section:
 | ethereum-classic-mordor     | Ethereum Classic Mordor Testnet | ✅      | ✅   | ✅         |
 | arc                         | Arc                             | ✅      | ✅   | ✅         |
 | shibarium                   | Shibarium                       | ✅      | ❌   | ✅         |
+| minima                      | Minima                          | ✅      | ✅   | ✅         |
+| ame-chain                   | Ame Chain                       | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2141,3 +2143,5 @@ jump to section:
 | peaq                                   | PEAQ        | ✅      | ✅   | ✅         |
 | EURC                                   | EURC        | ✅      | ✅   | ✅         |
 | Vaulta                                 | A           | ✅      | ✅   | ✅         |
+| Minima                                 | MINIMA      | ✅      | ✅   | ✅         |
+| Ame Chain                              | AME         | ✅      | ✅   | ✅         |

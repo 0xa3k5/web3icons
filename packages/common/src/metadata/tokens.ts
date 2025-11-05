@@ -21287,4 +21287,24 @@ export const tokens: ITokenMetadata[] = [
     },
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'minima',
+    name: 'Minima',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:minima',
+    symbol: 'MINIMA',
+    marketCapRank: 0,
+    addresses: {
+      ethereum: '0x669c01CAF0eDcaD7c2b8Dc771474aD937A7CA4AF',
+    },
+  },
+  {
+    id: 'ame',
+    name: 'Ame Chain',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:ame-chain',
+    symbol: 'AME',
+    marketCapRank: 0,
+    addresses: {},
+  },
 ]

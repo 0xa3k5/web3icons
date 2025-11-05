@@ -2094,5 +2094,23 @@
     "shortName": "Shibarium",
     "nativeCoinId": "BONE",
     "variants": ["branded", "background"]
+  },
+  {
+    "id": "minima",
+    "filePath": "network:minima",
+    "name": "Minima",
+    "shortName": "Minima",
+    "nativeCoinId": "MINIMA",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "ame-chain",
+    "filePath": "network:ame-chain",
+    "chainId": 180,
+    "caip2id": "eip155:180",
+    "name": "Ame Chain",
+    "shortName": "Ame",
+    "nativeCoinId": "AME",
+    "variants": ["background", "branded", "mono"]
   }
 ]

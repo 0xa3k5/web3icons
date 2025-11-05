@@ -2097,4 +2097,22 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'BONE',
     variants: ['branded', 'background'],
   },
+  {
+    id: 'minima',
+    filePath: 'network:minima',
+    name: 'Minima',
+    shortName: 'Minima',
+    nativeCoinId: 'MINIMA',
+    variants: ['background', 'branded', 'mono'],
+  },
+  {
+    id: 'ame-chain',
+    name: 'Ame Chain',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:ame-chain',
+    shortName: 'Ame',
+    chainId: 180,
+    caip2id: 'eip155:180',
+    nativeCoinId: 'AME',
+  },
 ]
