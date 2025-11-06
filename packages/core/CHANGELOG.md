@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.31
+
+### Patch Changes
+
+- add bahamut, hyper-evm, symbiosis
+- Updated dependencies
+  - @web3icons/common@0.11.26
+
 ## 4.0.30
 
 ### Patch Changes

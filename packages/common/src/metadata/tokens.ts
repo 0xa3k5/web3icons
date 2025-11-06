@@ -6154,7 +6154,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'fasttoken',
-    filePath: 'token:FTN',
+    filePath: 'network:bahamut',
     symbol: 'ftn',
     name: 'Fasttoken',
     marketCapRank: 178,
@@ -17979,7 +17979,7 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'symbiosis-finance',
-    filePath: 'token:SIS',
+    filePath: 'network:symbiosis',
     symbol: 'sis',
     name: 'Symbiosis',
     marketCapRank: 1014,
@@ -21289,22 +21289,31 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'minima',
-    name: 'Minima',
-    variants: ['background', 'branded', 'mono'],
     filePath: 'network:minima',
     symbol: 'MINIMA',
+    name: 'Minima',
     marketCapRank: 0,
     addresses: {
       ethereum: '0x669c01CAF0eDcaD7c2b8Dc771474aD937A7CA4AF',
     },
+    variants: ['background', 'branded', 'mono'],
   },
   {
     id: 'ame',
-    name: 'Ame Chain',
-    variants: ['background', 'branded', 'mono'],
     filePath: 'network:ame-chain',
     symbol: 'AME',
+    name: 'Ame Chain',
     marketCapRank: 0,
     addresses: {},
+    variants: ['background', 'branded', 'mono'],
+  },
+  {
+    id: 'hype',
+    filePath: 'network:hyper-evm',
+    symbol: 'HYPE',
+    name: 'Hyper EVM',
+    marketCapRank: 0,
+    addresses: {},
+    variants: ['background', 'branded', 'mono'],
   },
 ]
