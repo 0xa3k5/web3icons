@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 4.0.34
+
+### Patch Changes
+
+- add bahamut, hyper-evm, symbiosis
+- Updated dependencies
+  - @web3icons/common@0.11.26
+
 ## 4.0.33
 
 ### Patch Changes

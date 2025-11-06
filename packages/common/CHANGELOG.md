@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.26
+
+### Patch Changes
+
+- add bahamut, hyper-evm, symbiosis
+
 ## 0.11.25
 
 ### Patch Changes

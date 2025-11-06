@@ -1479,9 +1479,9 @@ import * as TMonoFTM from './svgs/tokens/mono/FTM.svg'
 import * as TBackgroundFTM from './svgs/tokens/background/FTM.svg'
 import * as TBrandedFARA from './svgs/tokens/branded/FARA.svg'
 import * as TBackgroundFARA from './svgs/tokens/background/FARA.svg'
-import * as TBrandedFTN from './svgs/tokens/branded/FTN.svg'
-import * as TMonoFTN from './svgs/tokens/mono/FTN.svg'
-import * as TBackgroundFTN from './svgs/tokens/background/FTN.svg'
+import * as TBrandedFTN from './svgs/networks/branded/bahamut.svg'
+import * as TMonoFTN from './svgs/networks/mono/bahamut.svg'
+import * as TBackgroundFTN from './svgs/networks/background/bahamut.svg'
 import * as TBrandedFEAR from './svgs/tokens/branded/FEAR.svg'
 import * as TMonoFEAR from './svgs/tokens/mono/FEAR.svg'
 import * as TBackgroundFEAR from './svgs/tokens/background/FEAR.svg'
@@ -4299,9 +4299,9 @@ import * as TBackgroundSWTH from './svgs/tokens/background/SWTH.svg'
 import * as TBrandedSYLO from './svgs/tokens/branded/SYLO.svg'
 import * as TMonoSYLO from './svgs/tokens/mono/SYLO.svg'
 import * as TBackgroundSYLO from './svgs/tokens/background/SYLO.svg'
-import * as TBrandedSIS from './svgs/tokens/branded/SIS.svg'
-import * as TMonoSIS from './svgs/tokens/mono/SIS.svg'
-import * as TBackgroundSIS from './svgs/tokens/background/SIS.svg'
+import * as TBrandedSIS from './svgs/networks/branded/symbiosis.svg'
+import * as TMonoSIS from './svgs/networks/mono/symbiosis.svg'
+import * as TBackgroundSIS from './svgs/networks/background/symbiosis.svg'
 import * as TBrandedSYNC from './svgs/tokens/branded/SYNC.svg'
 import * as TMonoSYNC from './svgs/tokens/mono/SYNC.svg'
 import * as TBackgroundSYNC from './svgs/tokens/background/SYNC.svg'
@@ -5100,6 +5100,9 @@ import * as TBackgroundMINIMA from './svgs/networks/background/minima.svg'
 import * as TBrandedAME from './svgs/networks/branded/ame-chain.svg'
 import * as TMonoAME from './svgs/networks/mono/ame-chain.svg'
 import * as TBackgroundAME from './svgs/networks/background/ame-chain.svg'
+import * as TBrandedHYPE from './svgs/networks/branded/hyper-evm.svg'
+import * as TMonoHYPE from './svgs/networks/mono/hyper-evm.svg'
+import * as TBackgroundHYPE from './svgs/networks/background/hyper-evm.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
 import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
@@ -5752,6 +5755,15 @@ import * as NBackgroundMinima from './svgs/networks/background/minima.svg'
 import * as NBrandedAmeChain from './svgs/networks/branded/ame-chain.svg'
 import * as NMonoAmeChain from './svgs/networks/mono/ame-chain.svg'
 import * as NBackgroundAmeChain from './svgs/networks/background/ame-chain.svg'
+import * as NBrandedBahamut from './svgs/networks/branded/bahamut.svg'
+import * as NMonoBahamut from './svgs/networks/mono/bahamut.svg'
+import * as NBackgroundBahamut from './svgs/networks/background/bahamut.svg'
+import * as NBrandedHyperEvm from './svgs/networks/branded/hyper-evm.svg'
+import * as NMonoHyperEvm from './svgs/networks/mono/hyper-evm.svg'
+import * as NBackgroundHyperEvm from './svgs/networks/background/hyper-evm.svg'
+import * as NBrandedSymbiosis from './svgs/networks/branded/symbiosis.svg'
+import * as NMonoSymbiosis from './svgs/networks/mono/symbiosis.svg'
+import * as NBackgroundSymbiosis from './svgs/networks/background/symbiosis.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -7755,6 +7767,7 @@ export const svgs = {
       a: TBrandedA,
       minima: TBrandedMINIMA,
       ame: TBrandedAME,
+      hype: TBrandedHYPE,
     },
     mono: {
       '0x0': TMono0X0,
@@ -9294,6 +9307,7 @@ export const svgs = {
       a: TMonoA,
       minima: TMonoMINIMA,
       ame: TMonoAME,
+      hype: TMonoHYPE,
     },
     background: {
       '0x0': TBackground0X0,
@@ -11078,6 +11092,7 @@ export const svgs = {
       a: TBackgroundA,
       minima: TBackgroundMINIMA,
       ame: TBackgroundAME,
+      hype: TBackgroundHYPE,
     },
   },
   networks: {
@@ -11301,6 +11316,9 @@ export const svgs = {
       shibarium: NBrandedShibarium,
       minima: NBrandedMinima,
       'ame-chain': NBrandedAmeChain,
+      bahamut: NBrandedBahamut,
+      'hyper-evm': NBrandedHyperEvm,
+      symbiosis: NBrandedSymbiosis,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11517,6 +11535,9 @@ export const svgs = {
       arc: NMonoArc,
       minima: NMonoMinima,
       'ame-chain': NMonoAmeChain,
+      bahamut: NMonoBahamut,
+      'hyper-evm': NMonoHyperEvm,
+      symbiosis: NMonoSymbiosis,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -11738,6 +11759,9 @@ export const svgs = {
       shibarium: NBackgroundShibarium,
       minima: NBackgroundMinima,
       'ame-chain': NBackgroundAmeChain,
+      bahamut: NBackgroundBahamut,
+      'hyper-evm': NBackgroundHyperEvm,
+      symbiosis: NBackgroundSymbiosis,
     },
   },
   wallets: {

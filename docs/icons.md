@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (47)](#wallets)
-- [networks (219)](#networks)
+- [networks (222)](#networks)
 - [exchanges (27)](#exchanges)
-- [tokens (1828)](#tokens)
+- [tokens (1829)](#tokens)
 
 ### Wallets
 
@@ -280,6 +280,9 @@ jump to section:
 | shibarium                   | Shibarium                       | ✅      | ❌   | ✅         |
 | minima                      | Minima                          | ✅      | ✅   | ✅         |
 | ame-chain                   | Ame Chain                       | ✅      | ✅   | ✅         |
+| bahamut                     | Bahamut                         | ✅      | ✅   | ✅         |
+| hyper-evm                   | Hyper EVM                       | ✅      | ✅   | ✅         |
+| symbiosis                   | Symbiosis                       | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2145,3 +2148,4 @@ jump to section:
 | Vaulta                                 | A           | ✅      | ✅   | ✅         |
 | Minima                                 | MINIMA      | ✅      | ✅   | ✅         |
 | Ame Chain                              | AME         | ✅      | ✅   | ✅         |
+| Hyper EVM                              | HYPE        | ✅      | ✅   | ✅         |
