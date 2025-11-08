@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.27
+
+### Patch Changes
+
+- add PEC token and pecunity wallet
+
 ## 0.11.26
 
 ### Patch Changes

@@ -283,8 +283,8 @@
   },
   {
     "id": "pecunity-wallet",
+    "filePath": "token:PEC",
     "name": "Pecunity",
-    "variants": ["background", "branded", "mono"],
-    "filePath": "token:PEC"
+    "variants": ["background", "branded", "mono"]
   }
 ]

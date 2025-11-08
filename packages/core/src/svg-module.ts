@@ -5103,6 +5103,9 @@ import * as TBackgroundAME from './svgs/networks/background/ame-chain.svg'
 import * as TBrandedHYPE from './svgs/networks/branded/hyper-evm.svg'
 import * as TMonoHYPE from './svgs/networks/mono/hyper-evm.svg'
 import * as TBackgroundHYPE from './svgs/networks/background/hyper-evm.svg'
+import * as TBrandedPEC from './svgs/tokens/branded/PEC.svg'
+import * as TMonoPEC from './svgs/tokens/mono/PEC.svg'
+import * as TBackgroundPEC from './svgs/tokens/background/PEC.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
 import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
@@ -5900,6 +5903,9 @@ import * as WMonoSolflare from './svgs/wallets/mono/solflare.svg'
 import * as WBackgroundSolflare from './svgs/wallets/background/solflare.svg'
 import * as WBrandedTemple from './svgs/wallets/branded/temple.svg'
 import * as WBackgroundTemple from './svgs/wallets/background/temple.svg'
+import * as WBrandedPecunityWallet from './svgs/tokens/branded/PEC.svg'
+import * as WMonoPecunityWallet from './svgs/tokens/mono/PEC.svg'
+import * as WBackgroundPecunityWallet from './svgs/tokens/background/PEC.svg'
 import * as EBranded1inch from './svgs/exchanges/branded/1inch.svg'
 import * as EMono1inch from './svgs/exchanges/mono/1inch.svg'
 import * as EBackground1inch from './svgs/exchanges/background/1inch.svg'
@@ -7768,6 +7774,7 @@ export const svgs = {
       minima: TBrandedMINIMA,
       ame: TBrandedAME,
       hype: TBrandedHYPE,
+      pec: TBrandedPEC,
     },
     mono: {
       '0x0': TMono0X0,
@@ -9308,6 +9315,7 @@ export const svgs = {
       minima: TMonoMINIMA,
       ame: TMonoAME,
       hype: TMonoHYPE,
+      pec: TMonoPEC,
     },
     background: {
       '0x0': TBackground0X0,
@@ -11093,6 +11101,7 @@ export const svgs = {
       minima: TBackgroundMINIMA,
       ame: TBackgroundAME,
       hype: TBackgroundHYPE,
+      pec: TBackgroundPEC,
     },
   },
   networks: {
@@ -11812,6 +11821,7 @@ export const svgs = {
       kukai: WBrandedKukai,
       solflare: WBrandedSolflare,
       temple: WBrandedTemple,
+      'pecunity-wallet': WBrandedPecunityWallet,
     },
     mono: {
       alfa1: WMonoAlfa1,
@@ -11857,6 +11867,7 @@ export const svgs = {
       keplr: WMonoKeplr,
       kukai: WMonoKukai,
       solflare: WMonoSolflare,
+      'pecunity-wallet': WMonoPecunityWallet,
     },
     background: {
       alfa1: WBackgroundAlfa1,
@@ -11906,6 +11917,7 @@ export const svgs = {
       kukai: WBackgroundKukai,
       solflare: WBackgroundSolflare,
       temple: WBackgroundTemple,
+      'pecunity-wallet': WBackgroundPecunityWallet,
     },
   },
   exchanges: {
