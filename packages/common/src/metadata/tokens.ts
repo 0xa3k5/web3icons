@@ -21316,4 +21316,15 @@ export const tokens: ITokenMetadata[] = [
     addresses: {},
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'pecunity',
+    name: 'Pecunity',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'token:PEC',
+    symbol: 'PEC',
+    marketCapRank: 0,
+    addresses: {
+      'binance-smart-chain': '0x413c2834f02003752d6Cc0Bcd1cE85Af04D62fBE',
+    },
+  },
 ]

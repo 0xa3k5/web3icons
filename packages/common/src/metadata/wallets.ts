@@ -283,4 +283,10 @@ export const wallets: IWalletMetadata[] = [
     name: 'Temple',
     variants: ['background', 'branded'],
   },
+  {
+    id: 'pecunity-wallet',
+    name: 'Pecunity',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'token:PEC',
+  },
 ]

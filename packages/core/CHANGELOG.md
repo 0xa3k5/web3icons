@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.32
+
+### Patch Changes
+
+- add PEC token and pecunity wallet
+- Updated dependencies
+  - @web3icons/common@0.11.27
+
 ## 4.0.31
 
 ### Patch Changes

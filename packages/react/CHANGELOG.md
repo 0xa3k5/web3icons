@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 4.0.35
+
+### Patch Changes
+
+- add PEC token and pecunity wallet
+- Updated dependencies
+  - @web3icons/common@0.11.27
+
 ## 4.0.34
 
 ### Patch Changes

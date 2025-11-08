@@ -1,9 +1,9 @@
 jump to section:
 
-- [wallets (47)](#wallets)
+- [wallets (48)](#wallets)
 - [networks (222)](#networks)
 - [exchanges (27)](#exchanges)
-- [tokens (1829)](#tokens)
+- [tokens (1830)](#tokens)
 
 ### Wallets
 
@@ -56,6 +56,7 @@ jump to section:
 | kukai           | Kukai           | ✅      | ✅   | ✅         |
 | solflare        | Solflare        | ✅      | ✅   | ✅         |
 | temple          | Temple          | ✅      | ❌   | ✅         |
+| pecunity-wallet | Pecunity        | ✅      | ✅   | ✅         |
 
 ### Networks
 
@@ -2149,3 +2150,4 @@ jump to section:
 | Minima                                 | MINIMA      | ✅      | ✅   | ✅         |
 | Ame Chain                              | AME         | ✅      | ✅   | ✅         |
 | Hyper EVM                              | HYPE        | ✅      | ✅   | ✅         |
+| Pecunity                               | PEC         | ✅      | ✅   | ✅         |

@@ -280,5 +280,11 @@
     "filePath": "wallet:temple",
     "name": "Temple",
     "variants": ["background", "branded"]
+  },
+  {
+    "id": "pecunity-wallet",
+    "filePath": "token:PEC",
+    "name": "Pecunity",
+    "variants": ["background", "branded", "mono"]
   }
 ]
