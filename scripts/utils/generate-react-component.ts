@@ -136,13 +136,16 @@ const generateJSDoc = (
   variantDataURLs: Record<string, string>,
 ): string => {
   return `
-  /**
-   * @component @name ${componentName}
-   * 
-   * ${variants.map((variant) => `@example <${componentName} variant='${variant}' size={32} />\n   * @preview (${variant}) ![${variant}](${variantDataURLs[variant]})`).join('\n   * ')}
-   *
-   * @param {IconComponentProps} props - IconComponentProps
-   * @returns {JSX.Element} JSX Element
-   */
+/**
+ * @component @name ${componentName}
+ * @description Web3Icon for ${componentName}
+ *
+ * @preview (${variants.map((variant) => `${variant}`).join(', ')})
+ * @preview ${variants.map((variant) => `![${variant}](${variantDataURLs[variant]})`).join(' ')}
+ * @see https://web3icons/docs
+ * @param props - Web3Icon component props
+ * @returns {JSX.Element} JSX Element
+ * 
+ */
   `
 }

@@ -285,8 +285,8 @@ export const wallets: IWalletMetadata[] = [
   },
   {
     id: 'pecunity-wallet',
+    filePath: 'token:PEC',
     name: 'Pecunity',
     variants: ['background', 'branded', 'mono'],
-    filePath: 'token:PEC',
   },
 ]
