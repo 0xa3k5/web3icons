@@ -1,6 +1,7 @@
 export * from './icons'
 export * from './types'
 export * from './BaseIcon'
+export { default as Web3IconLogo } from './Logo'
 export * as tokenIcons from './icons/tokens'
 export * as networkIcons from './icons/networks'
 export * as walletIcons from './icons/wallets'
