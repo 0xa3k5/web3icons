@@ -2,9 +2,43 @@ import fs from 'fs'
 import path from 'path'
 import { kebabToPascalCase } from './naming-conventions'
 import { injectCurrentColor, readyForJSX } from './svg-optimization'
-import { TType, TVariant } from '@web3icons/common'
+import { TType, TVariant, TIconVariants } from '@web3icons/common'
 import { generateSVGDataURL } from './generate-dataurl-from-svg'
-import { getSVGDirectories } from './get-svg-directories'
+import { svgToIconNode } from './svg-to-iconnode'
+import {
+  SVG_TOKENS_OUT_DIR,
+  SVG_NETWORKS_OUT_DIR,
+  SVG_WALLETS_OUT_DIR,
+  SVG_EXCHANGES_OUT_DIR,
+  JSX_TOKENS_OUT_DIR,
+  JSX_NETWORKS_OUT_DIR,
+  JSX_WALLETS_OUT_DIR,
+  JSX_EXCHANGES_OUT_DIR,
+} from '../constants'
+
+/**
+ * Get SVG and JSX output directories for a given type.
+ */
+const getSVGDirectories = (type: TType) => {
+  switch (type) {
+    case 'token':
+      return { svgOutDir: SVG_TOKENS_OUT_DIR, jsxOutDir: JSX_TOKENS_OUT_DIR }
+    case 'network':
+      return {
+        svgOutDir: SVG_NETWORKS_OUT_DIR,
+        jsxOutDir: JSX_NETWORKS_OUT_DIR,
+      }
+    case 'wallet':
+      return { svgOutDir: SVG_WALLETS_OUT_DIR, jsxOutDir: JSX_WALLETS_OUT_DIR }
+    case 'exchange':
+      return {
+        svgOutDir: SVG_EXCHANGES_OUT_DIR,
+        jsxOutDir: JSX_EXCHANGES_OUT_DIR,
+      }
+    default:
+      throw new Error(`Invalid type: ${type}`)
+  }
+}
 
 /**
  * Generate React Component from an SVG.
@@ -25,18 +59,16 @@ export const generateReactComponent = async (
   const { svgOutDir } = getSVGDirectories(svgSourceType)
 
   const variants = getAvailableVariants(svgOutDir, svgFileName)
-  const variantJSX = variants.reduce(
-    (acc, variant) => {
-      acc[variant] =
-        variant === 'mono'
-          ? readyForJSX(
-              injectCurrentColor(loadSVG(svgOutDir, svgFileName, variant)),
-            )
-          : readyForJSX(loadSVG(svgOutDir, svgFileName, variant))
-      return acc
-    },
-    {} as Record<TVariant, string>,
-  )
+
+  // Convert each variant SVG to IconNode data structure
+  const variantData: TIconVariants = {}
+  for (const variant of variants) {
+    const svgContent = loadSVG(svgOutDir, svgFileName, variant)
+    const processed =
+      variant === 'mono' ? injectCurrentColor(svgContent) : svgContent
+    const jsxReady = readyForJSX(processed)
+    variantData[variant] = svgToIconNode(jsxReady)
+  }
 
   // Generate documentation
   const variantDataURLs = generateVariantDataURLs(
@@ -46,40 +78,20 @@ export const generateReactComponent = async (
   )
   const jsDocComment = generateJSDoc(componentName, variants, variantDataURLs)
 
-  // Generate component content based on available variants
-  const defaultVariant = variants[0]
-  const componentContent = `
-import { forwardRef } from 'react';
-import { IconComponentProps } from "../../types";
-import { BaseIcon } from '../../BaseIcon';
+  // Generate component using factory pattern
+  const componentContent = `import { createWeb3Icon } from '../../createWeb3Icon'
+import type { TIconVariants } from '@web3icons/common'
+
+export const __iconNode: TIconVariants = ${JSON.stringify(variantData, null, 2)}
 
 ${jsDocComment}
-const ${componentName} = forwardRef<SVGSVGElement, IconComponentProps>(({ ${variants.length > 1 ? `variant = '${defaultVariant}',` : ''} fallback, ...props }, ref) => (
-    <BaseIcon fallback={fallback} {...props} ref={ref}>
-      ${
-        variants.length === 1
-          ? variantJSX[variants[0]!]
-          : `{${variants
-              .map(
-                (v) =>
-                  `variant === '${v}' && (
-              <>
-                ${variantJSX[v]}
-              </>
-            )`,
-              )
-              .join(' || ')}}`
-      }
-    </BaseIcon>
-));
+const ${componentName} = createWeb3Icon('${componentName}', __iconNode)
 
-${componentName}.displayName = '${componentName}';
-
-export default ${componentName};
+export default ${componentName}
 `
 
   await fs.promises.writeFile(
-    path.join(jsxOutDir, `${componentName}.tsx`),
+    path.join(jsxOutDir, `${componentName}.ts`),
     componentContent,
   )
 }
@@ -157,13 +169,16 @@ const generateJSDoc = (
   variantDataURLs: Record<string, string>,
 ): string => {
   return `
-  /**
-   * @component @name ${componentName}
-   * 
-   * ${variants.map((variant) => `@example <${componentName} variant='${variant}' size={32} />\n   * @preview (${variant}) ![${variant}](${variantDataURLs[variant]})`).join('\n   * ')}
-   *
-   * @param {IconComponentProps} props - IconComponentProps
-   * @returns {JSX.Element} JSX Element
-   */
+/**
+ * @component @name ${componentName}
+ * @description Web3Icon for ${componentName}
+ *
+ * @preview (${variants.map((variant) => `${variant}`).join(', ')})
+ * @preview ${variants.map((variant) => `![${variant}](${variantDataURLs[variant]})`).join(' ')}
+ * @see https://web3icons/docs
+ * @param props - Web3Icon component props
+ * @returns {JSX.Element} JSX Element
+ * 
+ */
   `
 }

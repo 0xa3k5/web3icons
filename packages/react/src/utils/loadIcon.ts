@@ -51,7 +51,7 @@ export const loadIcon = (
   if (!iconCache.has(key)) {
     const importPromise = import(
       /* webpackChunkName: "[request]" */
-      `../icons/${iconType}s/${key}.tsx`
+      `../icons/${iconType}s/${key}.ts`
     )
       .then((module) => module.default)
       .catch((error) => {

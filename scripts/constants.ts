@@ -38,14 +38,5 @@ export const EXCHANGES_METADATA_PATH = path.resolve(
   'exchanges.json',
 )
 
-export const CUSTOM_TOKENS_METADATA_PATH = path.resolve(
-  ROOT_SCRIPTS,
-  'gecko/custom-tokens.json',
-)
-export const CUSTOM_NETWORKS_METADATA_PATH = path.resolve(
-  ROOT_SCRIPTS,
-  'gecko/custom-networks.json',
-)
-
 export const CORE_INDEX_PATH = path.resolve(ROOT_CORE, 'src', 'index.ts')
 export const CORE_SVG_MODULE_PATH = path.resolve(ROOT_CORE, 'src/svg-module.ts')

@@ -1,5 +1,14 @@
 # @web3icons/common
 
+## 0.11.28
+
+### Patch Changes
+
+- feat: export Web3IconLogo from the react package
+  feat: use factory function for component generation
+  fix: tree-shaking
+  chore: improve bundling and build process
+
 ## 0.11.27
 
 ### Patch Changes

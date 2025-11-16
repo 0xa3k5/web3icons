@@ -64,3 +64,27 @@ export type TMetadata =
   | IExchangeMetadata
 
 export type TRaw = INetworkRaw | ITokenRaw | IWalletRaw | IExchangeRaw
+
+/**
+ * Represents an SVG element as a data structure for the factory pattern.
+ * Format: [elementName, attributes] or [elementName, attributes, children]
+ */
+export type IconNodeElement =
+  | [elementName: string, attributes: Record<string, any>]
+  | [
+      elementName: string,
+      attributes: Record<string, any>,
+      children: IconNodeElement[],
+    ]
+
+export type IconNode = IconNodeElement[]
+
+/**
+ * Icon variants data structure.
+ * Each variant contains an array of IconNode elements.
+ */
+export type TIconVariants = {
+  branded?: IconNode
+  mono?: IconNode
+  background?: IconNode
+}

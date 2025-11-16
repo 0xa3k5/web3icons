@@ -1,5 +1,12 @@
 'use client'
-import { forwardRef, ReactElement, ReactNode, useEffect, useState } from 'react'
+import {
+  createElement,
+  forwardRef,
+  ReactElement,
+  ReactNode,
+  useEffect,
+  useState,
+} from 'react'
 import {
   IExchangeMetadata,
   INetworkMetadata,
@@ -45,7 +52,7 @@ interface IDynamicIcon {
  *
  * @param {IDynamicIcon} props
  * @param {React.ForwardedRef<SVGSVGElement>} ref
- * @returns {ReactElement | null} JSX Element for the DynamicIcon component or null if the icon fails to load.
+ * @returns {ReactElement | null} Element for the DynamicIcon component or null if the icon fails to load.
  */
 const DynamicIcon = forwardRef<SVGSVGElement, IDynamicIcon>(
   (
@@ -70,26 +77,24 @@ const DynamicIcon = forwardRef<SVGSVGElement, IDynamicIcon>(
 
     // Show fallback for errors or missing icons
     if (!Icon && fallback) {
-      return (
-        <BaseIcon
-          ref={ref}
-          size={size}
-          color={color}
-          className={className}
-          fallback={fallback}
-        />
-      )
+      return createElement(BaseIcon, {
+        ref,
+        size,
+        color,
+        className,
+        fallback,
+      })
     }
 
-    return Icon ? (
-      <Icon
-        ref={ref}
-        size={size}
-        color={color}
-        className={className}
-        variant={variant}
-      />
-    ) : null
+    return Icon
+      ? createElement(Icon, {
+          ref,
+          size,
+          color,
+          className,
+          variant,
+        })
+      : null
   },
 )
 

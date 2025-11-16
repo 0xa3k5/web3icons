@@ -1,6 +1,6 @@
 import { toKebabCase } from './naming-conventions'
-import { IExchangeMetadata } from '../../../common/dist/types'
 import {
+  IExchangeMetadata,
   INetworkMetadata,
   ITokenMetadata,
   IWalletMetadata,

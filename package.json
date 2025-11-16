@@ -6,10 +6,10 @@
   "scripts": {
     "build": "turbo build && bun post-build",
     "build:packages": "turbo build --filter=@web3icons/common --filter=@web3icons/core --filter=@web3icons/react && bun post-build",
-    "build:apps": "turbo build --filter=@web3icons/website --filter=@web3icons/figma-plugin && bun post-build",
+    "build:apps": "turbo build --filter=@web3icons/website --filter=@web3icons/figma-plugin",
     "build:common": "turbo build --filter=@web3icons/common && bun post-build",
-    "build:core": "turbo build --filter=@web3icons/core && bun post-build",
-    "build:react": "turbo build --filter=@web3icons/react && bun post-build",
+    "build:core": "turbo build --filter=@web3icons/core",
+    "build:react": "turbo build --filter=@web3icons/react",
     "build:website": "turbo build --filter=@web3icons/website",
     "build:figma": "turbo build --filter=@web3icons/figma-plugin",
     "post-build": "bun generate-icons-md && bun format",
@@ -20,8 +20,6 @@
     "delete-icons": "bun ./scripts/cli/delete-icons.ts",
     "check-missing": "bun ./scripts/cli/check-missing-metadata.ts",
     "generate-icons-md": "bun ./scripts/maintenance/generate-icons-md.ts",
-    "update-gecko-networks": "bun ./scripts/gecko/get-networks.ts",
-    "update-gecko-coins": "bun ./scripts/gecko/get-coins.ts",
     "cdn:sync": "bun ./scripts/sync-to-r2.ts",
     "validate-svgs": "bun ./scripts/maintenance/validate-svgs.ts",
     "validate-filenames": "bun ./scripts/cli/validate-filenames.ts"
