@@ -11,13 +11,13 @@ interface Props {
   disabled: boolean
 }
 
-export default function ColorSlider({
+export const ColorSlider = ({
   className,
   color,
   setColor,
   label,
   disabled,
-}: Props): JSX.Element {
+}: Props) => {
   const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value
     const regex = /^#?([0-9A-F]{0,6})$/i

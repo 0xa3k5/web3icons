@@ -1,5 +1,6 @@
+'use client'
 import Link from 'next/link'
-import Logo from './logo'
+import { Web3IconLogo } from '@web3icons/react'
 
 const externalLinks = [
   {
@@ -25,7 +26,7 @@ export const Footer = () => {
     <footer className="border-gray-lightest mx-auto flex w-screen justify-center border-t">
       <div className="container flex items-center justify-between py-4">
         <Link href="/">
-          <Logo className="size-12" />
+          <Web3IconLogo className="size-12" />
         </Link>
 
         <nav className="flex items-center gap-1">

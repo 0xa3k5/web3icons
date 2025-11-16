@@ -9,12 +9,12 @@ interface SegmentedControlProps {
   onChange: (value: string) => void
 }
 
-export default function SegmentedControl({
+export const SegmentedControl = ({
   className,
   selected,
-  onChange,
   options,
-}: SegmentedControlProps): JSX.Element {
+  onChange,
+}: SegmentedControlProps) => {
   const [indicatorWidth, setIndicatorWidth] = useState(0)
   const [indicatorOffset, setIndicatorOffset] = useState(0)
   const selectedOptionRef = useRef<HTMLLabelElement | null>(null)
@@ -47,7 +47,7 @@ export default function SegmentedControl({
           />
           <label
             htmlFor={`option-${option}`}
-            className="z-[1] flex items-center justify-center rounded-full px-6 py-2 text-sm"
+            className="z-1 flex items-center justify-center rounded-full px-6 py-2 text-sm"
             ref={selected === option ? selectedOptionRef : null}
           >
             {option.charAt(0).toUpperCase() + option.slice(1)}

@@ -1,5 +1,6 @@
 'use client'
 import cx from 'classnames'
+import Link from 'next/link'
 import { useAppContext } from '../hooks'
 import { Web3Icon } from './web3-icon'
 import { TMetadata, ITokenMetadata } from '@web3icons/common'
@@ -7,32 +8,38 @@ import { TMetadata, ITokenMetadata } from '@web3icons/common'
 interface Props {
   className?: string
   metadata: TMetadata
-  onClick: () => void
 }
 
-export default function IconCard({
-  className,
-  metadata,
-  onClick,
-}: Props): JSX.Element {
-  const { variant, type } = useAppContext()
+export default function IconCard({ className, metadata }: Props): JSX.Element {
+  const { variant, type, size, color } = useAppContext()
 
   const _label =
     type === 'token'
       ? (metadata as ITokenMetadata).symbol?.toUpperCase()
       : metadata.name
 
+  const iconId =
+    type === 'token'
+      ? (metadata as ITokenMetadata).symbol?.toUpperCase() || metadata.id
+      : metadata.id
+
   return (
-    <div
+    <Link
+      href={`/${type}/${iconId}`}
       id={metadata.id}
       className={cx(
         'group/card relative flex flex-col items-center justify-center gap-4 pb-4 pt-8 duration-150',
         'hover:bg-gray',
         className,
       )}
-      onClick={onClick}
     >
-      <Web3Icon metadata={metadata} variant={variant} />
+      <Web3Icon
+        metadata={metadata}
+        variant={variant}
+        type={type}
+        size={size}
+        color={color}
+      />
       <span
         className={cx(
           'text-center text-white/40 group-data-[selected=true]/card:text-white',
@@ -40,6 +47,6 @@ export default function IconCard({
       >
         <span className="text-xs">{_label}</span>
       </span>
-    </div>
+    </Link>
   )
 }

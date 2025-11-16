@@ -1,5 +1,6 @@
+'use client'
 import Link from 'next/link'
-import Logo from './logo'
+import { Web3IconLogo } from '@web3icons/react'
 import { Button } from './button'
 import { Breadcrumb } from './breadcrumbs'
 import cx from 'classnames'
@@ -19,7 +20,7 @@ export function Header({ className }: Props) {
       <div className="container flex w-full items-center justify-between gap-4">
         <div className="flex items-center">
           <Link href="/">
-            <Logo className="size-12" />
+            <Web3IconLogo size={48} />
           </Link>
           <Breadcrumb className="hidden md:flex" />
         </div>

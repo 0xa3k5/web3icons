@@ -10,14 +10,14 @@ interface Props {
   label: string
 }
 
-export default function Slider({
+export const Slider = ({
   className,
   minValue,
   maxValue,
   value,
   label,
   setValue,
-}: Props): JSX.Element {
+}: Props) => {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const newValue = parseFloat(e.target.value)
     setValue(newValue)
