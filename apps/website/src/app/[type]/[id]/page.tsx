@@ -23,7 +23,7 @@ import { scaffoldComponent } from '../../../utils/jsx-scaffold'
 
 interface PageProps {
   params: {
-    type: string
+    type: TType
     id: string
   }
 }
@@ -37,7 +37,6 @@ const metadataMap: Record<TType, TMetadata[]> = {
 
 export default function IconPage({ params }: PageProps) {
   const { type, id } = params
-  const typedType = type as TType
 
   const [variant, setVariant] = useState<TVariant>('branded')
   const [codeSnippets, setCodeSnippets] = useState({
@@ -46,14 +45,14 @@ export default function IconPage({ params }: PageProps) {
     dynamic: '',
   })
 
-  const metadataList = metadataMap[typedType]
+  const metadataList = metadataMap[type]
 
   if (!metadataList) {
     notFound()
   }
 
   const metadata = metadataList.find((item) => {
-    if (typedType === 'token') {
+    if (type === 'token') {
       return (item as ITokenMetadata).symbol?.toUpperCase() === id.toUpperCase()
     }
     return item.id === id.toLowerCase()
@@ -68,13 +67,13 @@ export default function IconPage({ params }: PageProps) {
       const { svg } = await fetchSvgContent({
         metadata,
         variant,
-        type: typedType,
+        type,
       })
       setCodeSnippets({
         svg,
         individual: scaffoldComponent({
           metadata,
-          type: typedType,
+          type,
           variant,
           size: 24,
           color: 'currentColor',
@@ -82,7 +81,7 @@ export default function IconPage({ params }: PageProps) {
         }),
         dynamic: scaffoldComponent({
           metadata,
-          type: typedType,
+          type,
           variant,
           size: 24,
           color: 'currentColor',
@@ -90,15 +89,15 @@ export default function IconPage({ params }: PageProps) {
         }),
       })
     })()
-  }, [metadata, variant, typedType])
+  }, [metadata, variant, type])
 
   const iconName =
-    typedType === 'token'
+    type === 'token'
       ? (metadata as ITokenMetadata).symbol.toUpperCase()
       : metadata.name || metadata.id
 
   const variants: TVariant[] =
-    typedType === 'token' || typedType === 'network'
+    type === 'token' || type === 'network'
       ? ['branded', 'mono', 'background']
       : ['branded', 'mono']
 
@@ -107,7 +106,7 @@ export default function IconPage({ params }: PageProps) {
       <div className="flex items-center justify-between">
         <div className="flex gap-2">
           <Web3Icon
-            type={typedType}
+            type={type}
             metadata={metadata}
             variant={variant}
             size={40}
@@ -126,7 +125,7 @@ export default function IconPage({ params }: PageProps) {
           {variants.map((v) => (
             <Web3Icon
               key={v}
-              type={typedType}
+              type={type}
               metadata={metadata}
               variant={v}
               size={64}

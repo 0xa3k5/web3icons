@@ -10,12 +10,11 @@ const metadataMap = {
   exchange: exchanges,
 }
 
-export default function Modal({ params }: { params: { type: string; id: string } }) {
+export default function Modal({ params }: { params: { type: TType; id: string } }) {
   const router = useRouter()
   const { type, id } = params
-  const typedType = type as TType
 
-  const metadataList = metadataMap[typedType]
+  const metadataList = metadataMap[type]
 
   if (!metadataList) {
     router.back()
@@ -23,7 +22,7 @@ export default function Modal({ params }: { params: { type: string; id: string }
   }
 
   const metadata = metadataList.find((item: any) => {
-    if (typedType === 'token') {
+    if (type === 'token') {
       return item.symbol?.toUpperCase() === id.toUpperCase()
     }
     return item.id === id.toLowerCase()

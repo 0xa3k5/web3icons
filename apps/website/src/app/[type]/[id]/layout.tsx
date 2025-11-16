@@ -7,7 +7,6 @@ import {
   ITokenMetadata,
   TType,
 } from '@web3icons/common'
-import { notFound } from 'next/navigation'
 
 const metadataMap: Record<TType, TMetadata[]> = {
   token: tokens,
@@ -61,8 +60,7 @@ export async function generateMetadata({
   params: { type: string; id: string }
 }) {
   const { type, id } = params
-  const typedType = type as TType
-  const metadata = findMetadata(typedType, id)
+  const metadata = findMetadata(type as TType, id)
 
   if (!metadata) {
     return {
@@ -72,13 +70,13 @@ export async function generateMetadata({
   }
 
   const iconName =
-    typedType === 'token'
+    type === 'token'
       ? (metadata as ITokenMetadata).symbol?.toUpperCase() || metadata.name
       : metadata.name
 
-  const typeLabel = typedType.charAt(0).toUpperCase() + typedType.slice(1)
+  const typeLabel = type.charAt(0).toUpperCase() + type.slice(1)
   const title = `${iconName} ${typeLabel} Icon - Web3 Icons`
-  const description = `Download ${iconName} ${typedType} icon in SVG and React formats. Available in branded, mono, and background variants.`
+  const description = `${iconName} ${type} icon in SVG and React formats. Available in branded, mono, and background variants.`
 
   return {
     title,
