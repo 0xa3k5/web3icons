@@ -1,18 +1,24 @@
 'use client'
-import { useEffect, useState } from 'react'
+import { useEffect, useCallback } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
-import { TType, TMetadata, TVariant } from '@web3icons/common'
-import { ControlBar, IconCard, Drawer, CodeBlock, Tabs } from '../components'
+import { TType, TVariant } from '@web3icons/common'
+import {
+  IconCard,
+  CodeBlock,
+  Tabs,
+  SegmentedControl,
+  SearchInput,
+} from '../components'
 import { Button } from '../components/button'
 import { useAppContext } from '../hooks'
-import SegmentedControl from '../components/ControlBar/SegmentedControl'
+import { Slider } from '../components/slider'
+import { ColorSlider } from '../components/color-slider'
 
 export default function Home() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const activeTabParam = searchParams.get('type') as TType | null
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false)
-  const [selectedIcon, setSelectedIcon] = useState<TMetadata | null>(null)
+
   const {
     icons,
     loadMoreIcons,
@@ -21,19 +27,31 @@ export default function Home() {
     type,
     setVariant,
     setType,
+    searchTerm,
+    setSearchTerm,
+    size,
+    setSize,
+    color,
+    setColor,
   } = useAppContext()
 
-  const handleTabChange = (value: string) => {
-    setType(value as TType)
-    router.replace(`?type=${value}&variant=${variant}`, { scroll: false })
-  }
+  const handleTabChange = useCallback(
+    (value: string) => {
+      setType(value as TType)
+      router.replace(`?type=${value}&variant=${variant}`, { scroll: false })
+    },
+    [variant, setType, router],
+  )
 
-  const handleVariantChange = (value: TVariant) => {
-    setVariant(value)
-    router.replace(`?type=${type}&variant=${value}`, {
-      scroll: false,
-    })
-  }
+  const handleVariantChange = useCallback(
+    (value: TVariant) => {
+      setVariant(value)
+      router.replace(`?type=${type}&variant=${value}`, {
+        scroll: false,
+      })
+    },
+    [type, setVariant, router],
+  )
 
   useEffect(() => {
     if (activeTabParam) {
@@ -54,8 +72,23 @@ export default function Home() {
           lineNumbers={false}
           tabs={[
             {
-              label: 'install',
+              label: 'npm',
               content: 'npm i @web3icons/react',
+              language: 'bash',
+            },
+            {
+              label: 'yarn',
+              content: 'yarn add @web3icons/react',
+              language: 'bash',
+            },
+            {
+              label: 'bun',
+              content: 'bun add @web3icons/react',
+              language: 'bash',
+            },
+            {
+              label: 'pnpm',
+              content: 'pnpm add @web3icons/react',
               language: 'bash',
             },
           ]}
@@ -77,7 +110,32 @@ export default function Home() {
               />
             }
           />
-          <ControlBar handleVariantChange={handleVariantChange} />
+          <div className="flex flex-col gap-8 md:flex-row md:justify-between">
+            <SearchInput
+              onInput={(e) => setSearchTerm(e.target.value)}
+              placeholder="Search"
+              value={searchTerm}
+            />
+
+            <div className="flex w-full flex-row gap-8">
+              <Slider
+                label="size"
+                minValue={16}
+                maxValue={96}
+                value={size}
+                setValue={(value) => setSize(value)}
+                className="w-1/2 md:w-full"
+              />
+
+              <ColorSlider
+                disabled={variant !== 'mono'}
+                label="color"
+                color={color}
+                setColor={setColor}
+                className="w-1/2 md:w-full"
+              />
+            </div>
+          </div>
           <div className="grid w-full grid-cols-2 gap-0 sm:grid-cols-3 lg:grid-cols-5">
             {icons.map((icon) => {
               return (
@@ -85,10 +143,6 @@ export default function Home() {
                   key={icon.id}
                   metadata={icon}
                   className="border-gray-lightest col-span-1 border"
-                  onClick={() => {
-                    setSelectedIcon(icon)
-                    setIsDrawerOpen(true)
-                  }}
                 />
               )
             })}
@@ -106,13 +160,6 @@ export default function Home() {
           )}
         </div>
       </div>
-      {selectedIcon && (
-        <Drawer
-          metadata={selectedIcon}
-          isOpen={isDrawerOpen}
-          setIsOpen={setIsDrawerOpen}
-        />
-      )}
     </div>
   )
 }

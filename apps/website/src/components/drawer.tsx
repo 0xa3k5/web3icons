@@ -3,10 +3,11 @@ import { Drawer as _Drawer } from 'vaul'
 import { scaffoldComponent } from '../utils/jsx-scaffold'
 import { useAppContext } from '../hooks'
 import { PropsWithChildren, useEffect, useState } from 'react'
-import { useSearchParams, useRouter } from 'next/navigation'
+import { useRouter, usePathname } from 'next/navigation'
 import { ITokenMetadata, TMetadata, TVariant } from '@web3icons/common'
 import { fetchSvgContent } from '../utils/fetch-svg-content'
 import { CodeBlock, DescriptionList, Web3Icon } from '.'
+import classNames from 'classnames'
 
 interface Props {
   metadata: TMetadata
@@ -18,41 +19,38 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
   const { type, variant, size, color } = useAppContext()
   const [drawerVariant, setDrawerVariant] = useState<TVariant>(variant)
   const router = useRouter()
-  const searchParams = useSearchParams()
+  const pathname = usePathname()
 
   const [tabContents, setTabContents] = useState<any>('')
 
   useEffect(() => {
-    const iconId = searchParams.get('icon')
+    const pathParts = pathname.split('/').filter(Boolean)
+    const urlId = pathParts[1]
 
-    if (type === 'token') {
-      if (iconId === (metadata as ITokenMetadata).symbol.toUpperCase()) {
-        setIsOpen(true)
-      }
-    } else {
-      if (iconId === metadata.id) {
-        setIsOpen(true)
+    if (urlId) {
+      if (type === 'token') {
+        if (
+          urlId.toUpperCase() ===
+          (metadata as ITokenMetadata).symbol?.toUpperCase()
+        ) {
+          setIsOpen(true)
+        }
+      } else {
+        if (urlId.toLowerCase() === metadata.id.toLowerCase()) {
+          setIsOpen(true)
+        }
       }
     }
-  }, [searchParams, metadata.id])
+  }, [pathname, metadata, type])
 
   const handleOpen = () => {
     const iconFileName =
       type === 'token'
-        ? (metadata as ITokenMetadata).symbol.toUpperCase()
+        ? (metadata as ITokenMetadata).symbol?.toUpperCase() || metadata.id
         : metadata.id.toLowerCase()
 
-    router.replace(`?type=${type}&variant=${variant}&icon=${iconFileName}`, {
-      scroll: false,
-    })
+    router.push(`/${type}s/${iconFileName}`)
     setIsOpen(true)
-  }
-
-  const handleClose = () => {
-    setIsOpen(false)
-    router.replace(`?type=${type}&variant=${variant}`, {
-      scroll: false,
-    })
   }
 
   useEffect(() => {
@@ -87,18 +85,19 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
     <_Drawer.Root
       direction="right"
       open={isOpen}
-      onOpenChange={(open) => (open ? handleOpen() : handleClose())}
+      onOpenChange={(open) => (open ? handleOpen() : setIsOpen(false))}
     >
       <_Drawer.Portal>
         <_Drawer.Content className="fixed right-0 top-0 z-10 flex h-full w-[80vw] shrink-0 md:w-[30vw]">
-          <div className="border-gray-lightest bg-gray flex size-full shrink-0 select-text flex-col gap-4 overflow-hidden rounded-md border p-2 focus-visible:outline-none">
+          <div className="border-gray-lightest bg-gray flex size-full shrink-0 select-text flex-col gap-4 overflow-y-scroll rounded-md border p-2 focus-visible:outline-none">
             <div className="flex flex-col gap-4">
-              <div className="border-gray-lightest relative flex w-full items-center justify-center overflow-hidden border-b py-16">
+              <div className="border-gray-lightest relative flex w-full items-center justify-center border-b py-16">
                 <Web3Icon
                   metadata={metadata}
                   variant={drawerVariant}
                   size={96}
                   className=""
+                  type={type}
                 />
                 <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />
               </div>
@@ -115,7 +114,11 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
                       (v) => (
                         <label
                           key={v}
-                          className={`flex items-center gap-2 ${drawerVariant === v ? 'border-white/30' : 'border-transparent'} overflow-hidden rounded-md border`}
+                          data-current={drawerVariant === v}
+                          className={classNames(
+                            'flex items-center gap-2 overflow-hidden rounded-md border border-transparent',
+                            'data-[current=true]:border-white/30',
+                          )}
                         >
                           <input
                             type="radio"
@@ -125,7 +128,12 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
                             onChange={() => setDrawerVariant(v)}
                             className="sr-only"
                           />
-                          <Web3Icon metadata={metadata} variant={v} size={40} />
+                          <Web3Icon
+                            type={type}
+                            metadata={metadata}
+                            variant={v}
+                            size={40}
+                          />
                         </label>
                       ),
                     )}
@@ -134,14 +142,14 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
                 <CodeBlock
                   tabs={[
                     {
-                      label: 'Dynamic',
-                      content: tabContents.dynamic,
-                      language: 'typescript',
-                    },
-                    {
                       label: 'Individual',
                       content: tabContents.individual,
-                      language: 'typescript',
+                      language: 'tsx',
+                    },
+                    {
+                      label: 'Dynamic',
+                      content: tabContents.dynamic,
+                      language: 'tsx',
                     },
                     {
                       label: 'SVG',
