@@ -1,5 +1,16 @@
 # @web3icons/react
 
+## 4.0.36
+
+### Patch Changes
+
+- feat: export Web3IconLogo from the react package
+  feat: use factory function for component generation
+  fix: tree-shaking
+  chore: improve bundling and build process
+- Updated dependencies
+  - @web3icons/common@0.11.28
+
 ## 4.0.35
 
 ### Patch Changes
