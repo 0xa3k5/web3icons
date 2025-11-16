@@ -1,6 +1,6 @@
 {
   "name": "@web3icons/react",
-  "homepage": "https://tokenicons.io",
+  "homepage": "https://web3icons.io",
   "description": "React components for incorporating Web 3 Icons into React applications.",
   "keywords": [
     "crypto icons",
@@ -36,7 +36,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun clean && (cd ../../scripts/build-scripts/react && bun react.pre-build.ts) && bun build:icons && tsup",
+    "build": "bun clean && (cd ../../scripts/build-scripts/react && bun react.pre-build.ts) && bun build:icons && tsup && bun format",
     "build:icons": "tsup --config tsup.icons.config.ts",
     "dev": "bun run build -- --watch",
     "lint": "eslint ./src --ext .ts,.tsx",

@@ -4,8 +4,41 @@ import { kebabToPascalCase } from './naming-conventions'
 import { injectCurrentColor, readyForJSX } from './svg-optimization'
 import { TType, TVariant, TIconVariants } from '@web3icons/common'
 import { generateSVGDataURL } from './generate-dataurl-from-svg'
-import { getSVGDirectories } from './get-svg-directories'
 import { svgToIconNode } from './svg-to-iconnode'
+import {
+  SVG_TOKENS_OUT_DIR,
+  SVG_NETWORKS_OUT_DIR,
+  SVG_WALLETS_OUT_DIR,
+  SVG_EXCHANGES_OUT_DIR,
+  JSX_TOKENS_OUT_DIR,
+  JSX_NETWORKS_OUT_DIR,
+  JSX_WALLETS_OUT_DIR,
+  JSX_EXCHANGES_OUT_DIR,
+} from '../constants'
+
+/**
+ * Get SVG and JSX output directories for a given type.
+ */
+const getSVGDirectories = (type: TType) => {
+  switch (type) {
+    case 'token':
+      return { svgOutDir: SVG_TOKENS_OUT_DIR, jsxOutDir: JSX_TOKENS_OUT_DIR }
+    case 'network':
+      return {
+        svgOutDir: SVG_NETWORKS_OUT_DIR,
+        jsxOutDir: JSX_NETWORKS_OUT_DIR,
+      }
+    case 'wallet':
+      return { svgOutDir: SVG_WALLETS_OUT_DIR, jsxOutDir: JSX_WALLETS_OUT_DIR }
+    case 'exchange':
+      return {
+        svgOutDir: SVG_EXCHANGES_OUT_DIR,
+        jsxOutDir: JSX_EXCHANGES_OUT_DIR,
+      }
+    default:
+      throw new Error(`Invalid type: ${type}`)
+  }
+}
 
 /**
  * Generate React Component from an SVG.

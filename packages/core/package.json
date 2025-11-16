@@ -1,6 +1,6 @@
 {
   "name": "@web3icons/core",
-  "homepage": "https://tokenicons.io",
+  "homepage": "https://web3icons.io",
   "description": "Token Icons' core library serving optimized SVGs for cryptocurrency token & coin icons.",
   "keywords": [
     "crypto icons",
@@ -41,7 +41,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun run pre-build && tsup",
+    "build": "bun run pre-build && tsup && bun format",
     "pre-build": "cd ../../scripts/build-scripts/core && bun core.pre-build.ts",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error"

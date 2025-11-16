@@ -1,6 +1,6 @@
 {
   "name": "@web3icons/common",
-  "homepage": "https://tokenicons.io",
+  "homepage": "https://web3icons.io",
   "description": "Web3 icons' shared library, serves metadata and types and some utils.",
   "keywords": [
     "crypto icons",
@@ -54,7 +54,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun run clean && bun run pre-build && tsup",
+    "build": "bun run clean && bun run pre-build && tsup && bun format",
     "pre-build": "cd ../../scripts/build-scripts && bun generate-metadata.ts",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error",
