@@ -1,5 +1,5 @@
 'use client'
-import { forwardRef } from 'react'
+import { createElement, forwardRef } from 'react'
 import { TokenIconProps } from '../types'
 import { findToken } from '../utils'
 import DynamicIcon from './DynamicIcon'
@@ -8,11 +8,12 @@ import DynamicIcon from './DynamicIcon'
  * @component @name TokenIcon
  *
  * @description A React component for rendering token icons dynamically based on the provided symbol, address, and network.
+ * @note This dynamically imports the icon therefore it is not tree-shakable. Import individual icons instead for tree-shaking optimization.
  *
  * @param {TokenIconProps} props
  * @param {SVGSVGElement} ref
  *
- * @returns {JSX.Element} JSX Element for the TokenIcon component.
+ * @returns {JSX.Element} Element for the TokenIcon component.
  */
 export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
   (
@@ -29,18 +30,16 @@ export const TokenIcon = forwardRef<SVGSVGElement, TokenIconProps>(
     ref,
   ) => {
     const metadata = findToken(symbol ? { symbol } : { address, network })
-    return (
-      <DynamicIcon
-        type="token"
-        metadata={metadata}
-        className={className}
-        color={color}
-        fallback={fallback}
-        ref={ref}
-        size={size}
-        variant={variant}
-      />
-    )
+    return createElement(DynamicIcon, {
+      type: 'token',
+      metadata,
+      className,
+      color,
+      fallback,
+      ref,
+      size,
+      variant,
+    })
   },
 )
 

@@ -24,20 +24,20 @@
       "require": "./dist/index.js"
     },
     "./dynamic": {
-      "import": "./dist/dynamic/index.js",
-      "require": "./dist/dynamic/index.js"
+      "import": "./dist/dynamic.js",
+      "require": "./dist/dynamic.js"
     },
-    "./icons": {
-      "import": "./dist/icons/index.js",
-      "require": "./dist/icons/index.js"
-    }
+    "./icons/tokens/*": "./dist/icons/tokens/*.js",
+    "./icons/networks/*": "./dist/icons/networks/*.js",
+    "./icons/wallets/*": "./dist/icons/wallets/*.js",
+    "./icons/exchanges/*": "./dist/icons/exchanges/*.js"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "bun run clean && (cd ../../scripts/build-scripts/react && bun react.pre-build.ts) && bun run build:icons && tsup",
-    "build:icons": "tsup 'src/icons/**/*.ts' --format esm --outDir dist/icons --dts",
+    "build": "bun clean && (cd ../../scripts/build-scripts/react && bun react.pre-build.ts) && bun build:icons && tsup",
+    "build:icons": "tsup --config tsup.icons.config.ts",
     "dev": "bun run build -- --watch",
     "lint": "eslint ./src --ext .ts,.tsx",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error",
