@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { Fragment } from 'react'
 import cx from 'classnames'
+import { TType } from '@web3icons/common'
 
 interface BreadcrumbProps {
   className?: string
@@ -25,9 +26,13 @@ export function Breadcrumb({ className }: BreadcrumbProps) {
 
   const segments = pathname.split('/').filter(Boolean)
   const items: BreadcrumbItem[] = []
+  const types: `${TType}s`[] = ['tokens', 'networks', 'wallets', 'exchanges']
 
   segments.forEach((segment, index) => {
-    const href = '/' + segments.slice(0, index + 1).join('/')
+    const isType = index === 0 && types.includes(segment as `${TType}s`)
+    const href = isType
+      ? `/?type=${segment.slice(0, -1)}`
+      : '/' + segments.slice(0, index + 1).join('/')
 
     const label = segment
       .split('-')

@@ -1,6 +1,6 @@
 'use client'
 import cx from 'classnames'
-import { Fragment, useEffect, useRef, useState } from 'react'
+import { Fragment, useEffect, useId, useRef, useState } from 'react'
 
 interface TabsProps {
   className?: string
@@ -26,8 +26,8 @@ export default function Tabs({
   const [indicatorWidth, setIndicatorWidth] = useState(0)
   const [indicatorOffset, setIndicatorOffset] = useState(0)
   const activeTabRef = useRef<HTMLLabelElement | null>(null)
-  const radioGroupName =
-    groupName || `tabs-${Math.random().toString(36).substr(2, 9)}`
+  const id = useId()
+  const radioGroupName = groupName || `tabs-${id}`
 
   useEffect(() => {
     if (activeTabRef.current) {
@@ -40,7 +40,7 @@ export default function Tabs({
     <div
       className={cx(
         className,
-        'bg-gray-darkest sticky top-0 z-[2] flex w-full justify-between rounded-sm',
+        'bg-gray-darkest z-2 sticky top-0 flex w-full justify-between rounded-sm',
         size === 'sm' ? 'py-2' : 'py-4',
         separator ? 'border-gray-lightest border-b' : '',
       )}
@@ -60,7 +60,7 @@ export default function Tabs({
             <label
               htmlFor={`${radioGroupName}-${tab}`}
               className={cx(
-                'z-[1] flex items-center justify-center rounded-full text-base duration-150',
+                'z-1 flex items-center justify-center rounded-full text-base duration-150',
                 size === 'sm' ? 'px-4 py-2 text-sm' : 'px-6 py-2 text-base',
                 activeTab === tab ? 'opacity-100' : 'opacity-40',
               )}

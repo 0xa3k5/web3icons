@@ -3,15 +3,21 @@ import cx from 'classnames'
 import Link from 'next/link'
 import { useAppContext } from '../hooks'
 import { Web3Icon } from './web3-icon'
-import { TMetadata, ITokenMetadata } from '@web3icons/common'
+import { TMetadata, ITokenMetadata, TType } from '@web3icons/common'
 
 interface Props {
   className?: string
   metadata: TMetadata
+  type?: TType
 }
 
-export default function IconCard({ className, metadata }: Props): JSX.Element {
-  const { variant, type, size, color } = useAppContext()
+export default function IconCard({
+  className,
+  metadata,
+  type: passedType,
+}: Props): JSX.Element {
+  const { variant, type: contextType, size, color } = useAppContext()
+  const type = passedType || contextType
 
   const _label =
     type === 'token'
@@ -25,7 +31,7 @@ export default function IconCard({ className, metadata }: Props): JSX.Element {
 
   return (
     <Link
-      href={`/${type}/${iconId}`}
+      href={`/${type}s/${iconId}`}
       id={metadata.id}
       className={cx(
         'group/card relative flex flex-col items-center justify-center gap-4 pb-4 pt-8 duration-150',

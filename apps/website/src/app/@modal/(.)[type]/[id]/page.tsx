@@ -1,20 +1,31 @@
 'use client'
 import { useRouter } from 'next/navigation'
-import { tokens, networks, wallets, exchanges, TType } from '@web3icons/common'
+import {
+  tokens,
+  networks,
+  wallets,
+  exchanges,
+  TType,
+  TMetadata,
+} from '@web3icons/common'
 import { Drawer } from '../../../../components'
 
-const metadataMap = {
+const metadataMap: Record<TType, TMetadata[]> = {
   token: tokens,
   network: networks,
   wallet: wallets,
   exchange: exchanges,
 }
 
-export default function Modal({ params }: { params: { type: TType; id: string } }) {
+export default function Modal({
+  params,
+}: {
+  params: { type: `${TType}s`; id: string }
+}) {
   const router = useRouter()
   const { type, id } = params
-
-  const metadataList = metadataMap[type]
+  const web3Type = type.slice(0, -1) as TType
+  const metadataList = metadataMap[web3Type]
 
   if (!metadataList) {
     router.back()
@@ -22,7 +33,7 @@ export default function Modal({ params }: { params: { type: TType; id: string } 
   }
 
   const metadata = metadataList.find((item: any) => {
-    if (type === 'token') {
+    if (web3Type === 'token') {
       return item.symbol?.toUpperCase() === id.toUpperCase()
     }
     return item.id === id.toLowerCase()

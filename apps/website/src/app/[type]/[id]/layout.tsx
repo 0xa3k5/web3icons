@@ -30,23 +30,19 @@ function findMetadata(type: TType, id: string): TMetadata | undefined {
 export async function generateStaticParams() {
   const params: { type: string; id: string }[] = []
 
-  // Generate params for all tokens
   tokens.forEach((token) => {
     const id = token.symbol?.toUpperCase() || token.id
     params.push({ type: 'token', id })
   })
 
-  // Generate params for all networks
   networks.forEach((network) => {
     params.push({ type: 'network', id: network.id })
   })
 
-  // Generate params for all wallets
   wallets.forEach((wallet) => {
     params.push({ type: 'wallet', id: wallet.id })
   })
 
-  // Generate params for all exchanges
   exchanges.forEach((exchange) => {
     params.push({ type: 'exchange', id: exchange.id })
   })
@@ -60,7 +56,8 @@ export async function generateMetadata({
   params: { type: string; id: string }
 }) {
   const { type, id } = params
-  const metadata = findMetadata(type as TType, id)
+  const web3Type = type.slice(0, -1) as TType
+  const metadata = findMetadata(web3Type, id)
 
   if (!metadata) {
     return {
@@ -70,13 +67,30 @@ export async function generateMetadata({
   }
 
   const iconName =
-    type === 'token'
+    web3Type === 'token'
       ? (metadata as ITokenMetadata).symbol?.toUpperCase() || metadata.name
       : metadata.name
 
-  const typeLabel = type.charAt(0).toUpperCase() + type.slice(1)
+  const typeLabel = web3Type.charAt(0).toUpperCase() + web3Type.slice(1)
   const title = `${iconName} ${typeLabel} Icon - Web3 Icons`
-  const description = `${iconName} ${type} icon in SVG and React formats. Available in branded, mono, and background variants.`
+
+  let description = ''
+  if (web3Type === 'token') {
+    const token = metadata as ITokenMetadata
+    const symbol = token.symbol?.toUpperCase() || token.id.toUpperCase()
+    description = `${token.name} (${symbol}) crypto icons as SVG or React components for your web3 project. Available in ${token.variants.join(', ')} styles.`
+  } else if (web3Type === 'network') {
+    const network = metadata as any
+    const chainInfo = network.chainId ? ` on Chain ${network.chainId}` : ''
+    description = `${network.name} blockchain icons${chainInfo} in SVG and React formats. Perfect for web3 applications with ${network.variants.join(', ')} variants.`
+  } else if (web3Type === 'wallet') {
+    const wallet = metadata as any
+    description = `${wallet.name} Wallet icons for crypto and web3 apps. Free SVG and React components in ${wallet.variants.join(', ')} styles.`
+  } else if (web3Type === 'exchange') {
+    const exchange = metadata as any
+    const exchangeType = exchange.type === 'dex' ? 'DEX' : 'Exchange'
+    description = `${exchange.name} ${exchangeType} icons in SVG and React. Optimized for crypto and web3 applications with ${exchange.variants.join(', ')} variants.`
+  }
 
   return {
     title,
@@ -104,6 +118,10 @@ export async function generateMetadata({
   }
 }
 
-export default function IconLayout({ children }: { children: React.ReactNode }) {
+export default function IconLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return children
 }
