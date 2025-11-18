@@ -70,13 +70,11 @@ export const generateReactComponent = async (
     variantData[variant] = svgToIconNode(jsxReady)
   }
 
-  // Generate documentation
   const variantDataURLs = generateVariantDataURLs(
     variants,
     svgOutDir,
     svgFileName,
   )
-  const jsDocComment = generateJSDoc(componentName, variants, variantDataURLs)
 
   // Generate component using factory pattern
   const componentContent = `import { createWeb3Icon } from '../../createWeb3Icon'
@@ -84,7 +82,17 @@ import type { TIconVariants } from '@web3icons/common'
 
 export const __iconNode: TIconVariants = ${JSON.stringify(variantData, null, 2)}
 
-${jsDocComment}
+/**
+ * @component @name ${componentName}
+ * @description Web3Icon for ${componentName}
+ *
+ * @preview (${variants.map((variant) => `${variant}`).join(', ')})
+ * @preview ${variants.map((variant) => `![${variant}](${variantDataURLs[variant]})`).join(' ')}
+ * @see https://web3icons.io/${metadataSourceType}s/${metadataSourceType === 'token' ? baseName.toUpperCase() : baseName}
+ * @param props - Web3Icon component props
+ * @returns {JSX.Element} JSX Element
+ * 
+ */
 const ${componentName} = createWeb3Icon('${componentName}', __iconNode)
 
 export default ${componentName}
@@ -158,27 +166,4 @@ const generateVariantDataURLs = (
   })
 
   return variantDataURLs
-}
-
-/**
- * Generate a JSDoc comment including the preview of the SVG as a Data URL for all available variants.
- */
-const generateJSDoc = (
-  componentName: string,
-  variants: string[],
-  variantDataURLs: Record<string, string>,
-): string => {
-  return `
-/**
- * @component @name ${componentName}
- * @description Web3Icon for ${componentName}
- *
- * @preview (${variants.map((variant) => `${variant}`).join(', ')})
- * @preview ${variants.map((variant) => `![${variant}](${variantDataURLs[variant]})`).join(' ')}
- * @see https://web3icons/docs
- * @param props - Web3Icon component props
- * @returns {JSX.Element} JSX Element
- * 
- */
-  `
 }
