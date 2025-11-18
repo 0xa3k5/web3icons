@@ -88,7 +88,7 @@ export function Header({ className }: Props) {
       )}
     >
       <div className="container flex w-full items-center justify-between gap-4">
-        <div className="flex items-center flex-1">
+        <div className="flex flex-1 items-center">
           <Link href="/">
             <Web3IconLogo size={48} />
           </Link>
@@ -117,11 +117,9 @@ export function Header({ className }: Props) {
           />
         </div>
 
-        <div className="flex items-center gap-4 flex-1 justify-end">
+        <div className="flex flex-1 items-center justify-end gap-4">
           <Link href="/docs">
-            <Button variant="ghost">
-              docs
-            </Button>
+            <Button variant="ghost">docs</Button>
           </Link>
         </div>
       </div>
