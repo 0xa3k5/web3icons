@@ -51,7 +51,7 @@ export default function RootLayout({
         <Suspense>
           <AppContextProvider>
             <Header />
-            <main className="container mx-auto flex-1">{children}</main>
+            <main className="container mx-auto flex-1 py-16">{children}</main>
             {modal}
             <Analytics />
             <Footer />

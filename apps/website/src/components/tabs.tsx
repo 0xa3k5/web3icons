@@ -2,9 +2,14 @@
 import cx from 'classnames'
 import { Fragment, useEffect, useId, useRef, useState } from 'react'
 
+interface Tab {
+  label: string
+  slotAfter?: React.ReactNode
+}
+
 interface TabsProps {
   className?: string
-  tabs: string[]
+  tabs: Tab[]
   onTabChange: (value: string) => void
   activeTab: string
   size?: 'sm' | 'md'
@@ -40,33 +45,34 @@ export default function Tabs({
     <div
       className={cx(
         className,
-        'bg-gray-darkest z-2 sticky top-0 flex w-full justify-between rounded-sm',
+        'bg-gray-darkest sticky top-0 z-10 flex w-full justify-between rounded-sm',
         size === 'sm' ? 'py-2' : 'py-4',
         separator ? 'border-gray-lightest border-b' : '',
       )}
     >
       <div className="flex justify-between">
         {tabs.map((tab) => (
-          <Fragment key={tab}>
+          <Fragment key={tab.label}>
             <input
               type="radio"
-              id={`${radioGroupName}-${tab}`}
+              id={`${radioGroupName}-${tab.label}`}
               name={radioGroupName}
-              value={tab}
-              checked={activeTab === tab}
-              onChange={() => onTabChange(tab)}
+              value={tab.label}
+              checked={activeTab === tab.label}
+              onChange={() => onTabChange(tab.label)}
               className="sr-only"
             />
             <label
-              htmlFor={`${radioGroupName}-${tab}`}
+              htmlFor={`${radioGroupName}-${tab.label}`}
               className={cx(
-                'z-1 flex items-center justify-center rounded-full text-base duration-150',
+                'flex items-baseline justify-center rounded-full text-base duration-150',
                 size === 'sm' ? 'px-4 py-2 text-sm' : 'px-6 py-2 text-base',
-                activeTab === tab ? 'opacity-100' : 'opacity-40',
+                activeTab === tab.label ? 'opacity-100' : 'opacity-40',
               )}
-              ref={activeTab === tab ? activeTabRef : null}
+              ref={activeTab === tab.label ? activeTabRef : null}
             >
-              {tab.charAt(0).toUpperCase() + tab.slice(1)}
+              {tab.label.charAt(0).toUpperCase() + tab.label.slice(1)}
+              {tab.slotAfter}
             </label>
           </Fragment>
         ))}

@@ -90,7 +90,11 @@ export default function CodeBlock({
       {!isSingleTab && (
         <div className="border-gray-lightest bg-gray-darkest flex items-center justify-between border-b">
           <Tabs
-            tabs={effectiveTabs.map((tab) => tab.label)}
+            tabs={effectiveTabs.map((tab) => {
+              return {
+                label: tab.label,
+              }
+            })}
             size="sm"
             onTabChange={handleTabChange}
             activeTab={activeTab.label}
