@@ -28,7 +28,7 @@ export const metadata = {
     ],
   },
   twitter: {
-    cardType: 'summary_large_image',
+    card: 'summary_large_image',
     site: '@0xa3k5',
     creator: '@0xa3k5',
     title: 'Web3 Icons',
@@ -40,16 +40,19 @@ export const metadata = {
 
 export default function RootLayout({
   children,
+  modal,
 }: {
   children: React.ReactNode
+  modal: React.ReactNode
 }) {
   return (
-    <html lang="en" className="h-full">
-      <body className={`${inter.className} mx-auto flex h-full flex-col`}>
+    <html lang="en">
+      <body className={`${inter.className} mx-auto flex min-h-dvh flex-col`}>
         <Suspense>
           <AppContextProvider>
             <Header />
-            <main className="container mx-auto flex-1">{children}</main>
+            <main className="container mx-auto flex-1 py-16">{children}</main>
+            {modal}
             <Analytics />
             <Footer />
           </AppContextProvider>

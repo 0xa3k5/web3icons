@@ -1,5 +1,6 @@
+'use client'
 import Link from 'next/link'
-import Logo from './logo'
+import { Web3IconLogo } from '@web3icons/react'
 
 const externalLinks = [
   {
@@ -25,23 +26,21 @@ export const Footer = () => {
     <footer className="border-gray-lightest mx-auto flex w-screen justify-center border-t">
       <div className="container flex items-center justify-between py-4">
         <Link href="/">
-          <Logo className="size-12" />
+          <Web3IconLogo className="size-12" />
         </Link>
 
         <nav className="flex items-center gap-1">
           {externalLinks.map((link, index) => (
             <div key={link.name} className="flex items-center">
-              <a
+              <Link
                 href={link.href}
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center gap-2 px-3 py-2 text-white/40 transition-colors hover:text-white"
-                aria-label={link.name}
+                className="flex items-center gap-2 px-3 py-2 font-mono text-sm text-white/40 transition-colors hover:text-white"
               >
-                <span className="font-mono text-sm">
-                  {link.name.toLowerCase()}
-                </span>
-              </a>
+                {link.name.toLowerCase()}
+              </Link>
+
               {index < externalLinks.length - 1 && (
                 <span className="text-white/20">/</span>
               )}

@@ -9,12 +9,12 @@ interface SegmentedControlProps {
   onChange: (value: string) => void
 }
 
-export default function SegmentedControl({
+export const SegmentedControl = ({
   className,
   selected,
-  onChange,
   options,
-}: SegmentedControlProps): JSX.Element {
+  onChange,
+}: SegmentedControlProps) => {
   const [indicatorWidth, setIndicatorWidth] = useState(0)
   const [indicatorOffset, setIndicatorOffset] = useState(0)
   const selectedOptionRef = useRef<HTMLLabelElement | null>(null)
@@ -30,10 +30,17 @@ export default function SegmentedControl({
     <div
       className={cx(
         className,
-        'border-gray-lightest bg-gray-light relative inline-flex w-fit rounded-full border p-1',
-        '[&:has(:focus-visible)]:focus-within:outline-gray-lightest focus-visible:outline-none [&:has(:focus-visible)]:focus-within:outline-none',
+        'border-gray-light relative inline-flex w-fit rounded-lg border p-1',
+        '[&:has(:focus-visible)]:focus-within:outline-gray-light focus-visible:outline-none [&:has(:focus-visible)]:focus-within:outline-none',
       )}
     >
+      <span
+        className="bg-gray-light absolute left-0 top-1 h-[calc(100%-0.5rem)] rounded-md transition-all duration-150"
+        style={{
+          width: indicatorWidth,
+          transform: `translateX(${indicatorOffset}px)`,
+        }}
+      />
       {options.map((option) => (
         <Fragment key={option}>
           <input
@@ -47,20 +54,13 @@ export default function SegmentedControl({
           />
           <label
             htmlFor={`option-${option}`}
-            className="z-[1] flex items-center justify-center rounded-full px-6 py-2 text-sm"
+            className="isolate flex items-center justify-center rounded-lg px-6 py-2 text-sm"
             ref={selected === option ? selectedOptionRef : null}
           >
             {option.charAt(0).toUpperCase() + option.slice(1)}
           </label>
         </Fragment>
       ))}
-      <div
-        className="bg-gray-lightest absolute left-0 top-1 h-[calc(100%-0.5rem)] rounded-full transition-all duration-150"
-        style={{
-          width: indicatorWidth,
-          transform: `translateX(${indicatorOffset}px)`,
-        }}
-      />
     </div>
   )
 }

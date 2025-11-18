@@ -90,7 +90,11 @@ export default function CodeBlock({
       {!isSingleTab && (
         <div className="border-gray-lightest bg-gray-darkest flex items-center justify-between border-b">
           <Tabs
-            tabs={effectiveTabs.map((tab) => tab.label)}
+            tabs={effectiveTabs.map((tab) => {
+              return {
+                label: tab.label,
+              }
+            })}
             size="sm"
             onTabChange={handleTabChange}
             activeTab={activeTab.label}
@@ -149,6 +153,15 @@ export default function CodeBlock({
           </div>
         ))}
       </div>
+      {activeTab.label.toLowerCase() === 'dynamic' && (
+        <div className="border border-blue-500/20 bg-blue-500/50 p-4">
+          <p className="text-white">
+            Dynamic components are client side components, so they are not
+            compatible with server side rendering. Import individual icons
+            instead for tree-shaking optimization.
+          </p>
+        </div>
+      )}
     </div>
   )
 }
