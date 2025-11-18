@@ -61,5 +61,3 @@ export const removeDuplicates = async () => {
 
   console.log(`Removed ${removedIds.length} duplicates from tokens.json`)
 }
-
-removeDuplicates().catch(console.error)
