@@ -1,6 +1,7 @@
 export { default as IconCard } from './icon-card'
 export { default as Tabs } from './tabs'
 export { default as SearchInput } from './search-input'
+export { SearchResults } from './search-results'
 export { Drawer } from './drawer'
 export { CodeBlock } from './CodeBlock'
 export { default as Tooltip } from './tooltip'

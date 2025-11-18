@@ -32,17 +32,15 @@ export const Footer = () => {
         <nav className="flex items-center gap-1">
           {externalLinks.map((link, index) => (
             <div key={link.name} className="flex items-center">
-              <a
+              <Link
                 href={link.href}
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center gap-2 px-3 py-2 text-white/40 transition-colors hover:text-white"
-                aria-label={link.name}
+                className="flex items-center gap-2 px-3 py-2 font-mono text-sm text-white/40 transition-colors hover:text-white"
               >
-                <span className="font-mono text-sm">
-                  {link.name.toLowerCase()}
-                </span>
-              </a>
+                {link.name.toLowerCase()}
+              </Link>
+
               {index < externalLinks.length - 1 && (
                 <span className="text-white/20">/</span>
               )}

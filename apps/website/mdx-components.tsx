@@ -1,6 +1,7 @@
+'use client'
 import type { MDXComponents } from 'mdx/types'
 import React from 'react'
-import CodeBlock from './src/components/CodeBlock/CodeBlock'
+import { CodeBlock } from './src/components'
 import NextLink from 'next/link'
 
 const extractCodeContent = (
@@ -98,7 +99,7 @@ const TableBody = (props: any) => {
   return <tbody className="divide-y divide-gray-700" {...props} />
 }
 
-const components: MDXComponents = {
+export const mdxComponents: MDXComponents = {
   code: Code as any,
   pre: Pre as any,
   a: Link as any,
@@ -112,5 +113,5 @@ const components: MDXComponents = {
 }
 
 export function useMDXComponents(): MDXComponents {
-  return components
+  return mdxComponents
 }

@@ -3,21 +3,31 @@ import cx from 'classnames'
 import Link from 'next/link'
 import { useAppContext } from '../hooks'
 import { Web3Icon } from './web3-icon'
-import { TMetadata, ITokenMetadata, TType } from '@web3icons/common'
+import { TMetadata, ITokenMetadata, TType, TVariant } from '@web3icons/common'
 
 interface Props {
   className?: string
   metadata: TMetadata
   type?: TType
+  variant?: TVariant
+  forceFullPage?: boolean
 }
 
 export default function IconCard({
   className,
   metadata,
   type: passedType,
+  variant: passedVariant,
+  forceFullPage = false,
 }: Props): JSX.Element {
-  const { variant, type: contextType, size, color } = useAppContext()
+  const {
+    variant: contextVariant,
+    type: contextType,
+    size,
+    color,
+  } = useAppContext()
   const type = passedType || contextType
+  const variant = passedVariant || contextVariant
 
   const _label =
     type === 'token'
@@ -29,9 +39,12 @@ export default function IconCard({
       ? (metadata as ITokenMetadata).symbol?.toUpperCase() || metadata.id
       : metadata.id
 
+  const href = `/${type}s/${iconId}`
+  const LinkOrAnchor = forceFullPage ? 'a' : Link
+
   return (
-    <Link
-      href={`/${type}s/${iconId}`}
+    <LinkOrAnchor
+      href={href}
       id={metadata.id}
       className={cx(
         'group/card relative flex flex-col items-center justify-center gap-4 pb-4 pt-8 duration-150',
@@ -46,13 +59,9 @@ export default function IconCard({
         size={size}
         color={color}
       />
-      <span
-        className={cx(
-          'text-center text-white/40 group-data-[selected=true]/card:text-white',
-        )}
-      >
+      <span className="text-center text-white/40 group-hover/card:text-white">
         <span className="text-xs">{_label}</span>
       </span>
-    </Link>
+    </LinkOrAnchor>
   )
 }

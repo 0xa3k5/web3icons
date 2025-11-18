@@ -140,6 +140,7 @@ export default function Home() {
             onInput={(e) => setSearchTerm(e.target.value)}
             placeholder="Search"
             value={searchTerm}
+            className="w-full"
           />
 
           <div className="flex w-full flex-row gap-8">

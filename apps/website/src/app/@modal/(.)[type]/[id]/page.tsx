@@ -24,11 +24,15 @@ export default function Modal({
 }) {
   const router = useRouter()
   const { type, id } = params
+
+  if (!type) {
+    return null
+  }
+
   const web3Type = type.slice(0, -1) as TType
   const metadataList = metadataMap[web3Type]
 
   if (!metadataList) {
-    router.back()
     return null
   }
 
@@ -40,7 +44,6 @@ export default function Modal({
   })
 
   if (!metadata) {
-    router.back()
     return null
   }
 

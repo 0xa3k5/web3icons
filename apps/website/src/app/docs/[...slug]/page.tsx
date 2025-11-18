@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
-import { MDXRemote } from 'next-mdx-remote/rsc'
 import { getDocData, getAllDocsPaths } from '../../../lib/docs'
-import { useMDXComponents } from '../../../../mdx-components'
+import { MDXRemote } from 'next-mdx-remote/rsc'
+import { CodeBlock } from '../../../components'
 import remarkGfm from 'remark-gfm'
 
 interface DocPageProps {
@@ -36,12 +36,12 @@ export default async function DocPage({ params }: DocPageProps) {
     notFound()
   }
 
-  const components = useMDXComponents()
-
   return (
     <MDXRemote
       source={docData.content}
-      components={components}
+      components={{
+        CodeBlock,
+      }}
       options={{
         mdxOptions: {
           remarkPlugins: [remarkGfm],
