@@ -1,5 +1,12 @@
 # @web3icons/react
 
+## 4.0.37
+
+### Patch Changes
+
+- fix broken path on Web3Logo
+- update component jsdocs to link to website
+
 ## 4.0.36
 
 ### Patch Changes
