@@ -32,19 +32,19 @@ export async function generateStaticParams() {
 
   tokens.forEach((token) => {
     const id = token.symbol?.toUpperCase() || token.id
-    params.push({ type: 'token', id })
+    params.push({ type: 'tokens', id })
   })
 
   networks.forEach((network) => {
-    params.push({ type: 'network', id: network.id })
+    params.push({ type: 'networks', id: network.id })
   })
 
   wallets.forEach((wallet) => {
-    params.push({ type: 'wallet', id: wallet.id })
+    params.push({ type: 'wallets', id: wallet.id })
   })
 
   exchanges.forEach((exchange) => {
-    params.push({ type: 'exchange', id: exchange.id })
+    params.push({ type: 'exchanges', id: exchange.id })
   })
 
   return params

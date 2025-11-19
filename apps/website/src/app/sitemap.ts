@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   tokens.forEach((token) => {
     const id = token.symbol?.toUpperCase() || token.id
     routes.push({
-      url: `${baseUrl}/token/${id}`,
+      url: `${baseUrl}/tokens/${id}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
@@ -24,7 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   networks.forEach((network) => {
     routes.push({
-      url: `${baseUrl}/network/${network.id}`,
+      url: `${baseUrl}/networks/${network.id}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   wallets.forEach((wallet) => {
     routes.push({
-      url: `${baseUrl}/wallet/${wallet.id}`,
+      url: `${baseUrl}/wallets/${wallet.id}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -42,10 +42,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   exchanges.forEach((exchange) => {
     routes.push({
-      url: `${baseUrl}/exchange/${exchange.id}`,
+      url: `${baseUrl}/exchanges/${exchange.id}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
+    })
+  })
+
+  // Documentation pages
+  const docPages = [
+    'home',
+    'packages/common',
+    'packages/core',
+    'packages/react',
+  ]
+
+  docPages.forEach((page) => {
+    routes.push({
+      url: `${baseUrl}/docs/${page}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.6,
     })
   })
 
