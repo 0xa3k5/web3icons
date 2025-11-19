@@ -4,13 +4,11 @@
 
 ![Tokens](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=tokens&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/tokens.json) ![Networks](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=networks&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/networks.json) ![Wallets](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=wallets&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/wallets.json) ![Exchanges](https://img.shields.io/badge/dynamic/json?style=flat&color=FF3D00&label=exchanges&query=length&url=https://raw.githubusercontent.com/0xa3k5/web3icons/main/packages/common/src/metadata/exchanges.json) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Freact) ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Fcore?style=flat&label=%40web3icons%2Fcore)
 
-_(previously named token-icons)_
-
 Web3 Icons is the most comprehensive and up-to-date source for tokens, coins, networks and wallet logos as icon format. More than 2,500 icons are ready as optimized SVGs as well as React components.
 
 - All of the icons are carefully curated by hand.
 - `type` refers to `wallet`, `token`, `network` and `exchange`
-- `variant` refers to `mono` and `branded` (not every icon comes with both variants, but vast majority does.)
+- `variant` refers to `mono`, `branded`, and `background` (not every icon comes with all variants, but the vast majority have at least `mono` or `branded` and all icons have `background` variants)
 
 > Find the data table of all supported icons [here](https://github.com/0xa3k5/web3icons/blob/main/docs/icons.md)
 
@@ -58,9 +56,9 @@ bun i @web3icons/core @web3icons/react
 
 ### Tree-shaking
 
-`@web3icons/react` is designed to be tree-shaken, meaning that it only includes the Icon Components that are actually used in your project. This can help reduce the size of your bundle and improve performance.
+Individual icon components from `@web3icons/react` are tree-shakable, meaning that only the icons you explicitly import will be included in your bundle. This helps reduce bundle size and improve performance.
 
-> All of the dynamic components (`<TokenIcon />, <NetworkIcon />`, `<WalletIcon />`) also only imports the icons that are used.
+> **Note:** Dynamic components (`<TokenIcon />`, `<NetworkIcon />`, `<WalletIcon />`, `<ExchangeIcon />`) are **NOT tree-shakable**. They load icons on-demand at runtime using dynamic imports. For optimal bundle size, use individual icon components instead.
 
 ## Usage
 
@@ -71,20 +69,20 @@ There are two main ways to use any icon your project needs in a React environmen
    1. `<TokenIcon />`
    2. `<NetworkIcon />`
    3. `<WalletIcon />`
+   4. `<ExchangeIcon />`
 
 ### Using Individual Components
 
-All the icons from the React library is prefixed with `Token`, `Network` or `Wallet`
+All the icons from the React library are prefixed with `Token`, `Network`, `Wallet`, or `Exchange`
 
 ### Props Overview
 
 All of the components extend the [`SVGSVGElement`](https://developer.mozilla.org/en-US/docs/Web/API/SVGSVGElement) and accepts a `size` prop as number or string.
 
-- **`variant?`**: Determines the style of the icon. It can be either `'mono'` (monochromatic) or `'branded'` (brand-specific). Default is `'mono'`.
+- **`variant?`**: Determines the style of the icon. Options: `'mono'`, `'branded'`, or `'background'`. Default is `'mono'`.
 - **`size?`**: Specifies the size of the icon. It can be a string or a number.
 - **`color?`**: Specifies the color of the icon. Accepts any valid CSS color value.
 - **`className?`**: Adds a custom CSS class to the icon for additional styling.
-- **`fallback?`**: Renders the fallback when the component can't find a match. (can be passed a string (url) or a ReactNode)
 
 ### Tokens
 
@@ -98,9 +96,9 @@ Cryptocurrency coins and tokens, the react components are prefixed with `Token`,
 
 Networks and chains, react components are prefixed with `Network` followed by the PascalCase name of the network. `NetworkBinanceSmartChain`, `NetworkEthereum`, `NetworkAvalanche`
 
-### exchanges
+### Wallets
 
-[List of all the available wallets](https://github.com/0xa3k5/web3icons/blob/main/docs/icons.md#networks)
+[List of all the available wallets](https://github.com/0xa3k5/web3icons/blob/main/docs/icons.md#wallets)
 
 Crypto wallets, react components are prefixed with `Wallet` followed by the PascalCase name of the wallet. `WalletRainbow`, `WalletMetamask`, `WalletCoinbase`
 
@@ -108,7 +106,7 @@ Crypto wallets, react components are prefixed with `Wallet` followed by the Pasc
 
 [List of all the available exchanges](https://github.com/0xa3k5/web3icons/blob/main/docs/icons.md#exchanges)
 
-Crypto exchanges, react components are prefixed with `Exchange` followed by the PascalCase name of the wallet. `ExchangeBybit`, `ExchangePancakeSwap`, `ExchangeBalancer`
+Crypto exchanges, react components are prefixed with `Exchange` followed by the PascalCase name of the exchange. `ExchangeBybit`, `ExchangePancakeSwap`, `ExchangeBalancer`
 
 ```jsx
 import {
@@ -190,17 +188,18 @@ export default App
 
 ## Using Dynamic Components
 
-All of the Dynamic Components are designed to provide ease of use, they accept a various custom props which allows the component to correctly import the desired icon.
+All of the Dynamic Components are designed to provide ease of use, they accept various custom props which allow the component to correctly import the desired icon.
 
 > [!IMPORTANT]
-> Dynamic components are client side components, so they are not compatible with server side rendering.
+> Dynamic components are **client-side only** and are **not tree-shakable**. They use dynamic imports to load icons at runtime, which means all icon code is included in your bundle (split into chunks). For better bundle optimization, use individual icon components instead.
 
 ### Shared Props Overview
 
-- **`variant?`**: Determines the style of the icon (`'mono'` or `'branded'`). Defaults to `'mono'`.
+- **`variant?`**: Determines the style of the icon. Options: `'mono'`, `'branded'`, or `'background'`. Defaults to `'mono'`.
 - **`size?`**: Specifies the size of the icon. It can be a string or a number.
 - **`color?`**: Specifies the color of the icon. Accepts any valid CSS color value.
 - **`className?`**: Adds a custom CSS class to the icon for additional styling.
+- **`fallback?`**: Fallback content to display if the icon cannot be found. Can be a string (URL) or a ReactNode.
 
 ## `<TokenIcon />`
 
@@ -226,7 +225,7 @@ import { TokenIcon } from '@web3icons/react'
 
 ## `<NetworkIcon />`
 
-`<NetworkIcon />` tries to find a match comparing the passed `network` value with the `id` or `name` or `shortName` from the [`networks.json`](https://github.com/0xa3k5/web3icons/blob/main/packages/core/src/metadata/networks.json)
+`<NetworkIcon />` tries to find a match comparing the passed `network` value with the `id` or `name` or `shortName` from the [`networks.json`](https://github.com/0xa3k5/web3icons/blob/main/packages/common/src/metadata/networks.json)
 
 ### Props
 
@@ -253,7 +252,7 @@ import { NetworkIcon } from '@web3icons/react'
 
 ## `<WalletIcon />`
 
-`<WalletIcon />` tries to find a match comparing the passed `name` value with the `id` or `name` from the [`wallets.json`](https://github.com/0xa3k5/web3icons/blob/main/packages/core/src/metadata/wallets.json)
+`<WalletIcon />` tries to find a match comparing the passed `name` value with the `id` or `name` from the [`wallets.json`](https://github.com/0xa3k5/web3icons/blob/main/packages/common/src/metadata/wallets.json)
 
 ```jsx
 import { WalletIcon } from '@web3icons/react'
@@ -272,7 +271,7 @@ import { WalletIcon } from '@web3icons/react'
 
 ## `<ExchangeIcon />`
 
-`<ExchangeIcon />` tries to find a match comparing the passed `name` value with the `id` or `name` from the [`exchanges.json`](https://github.com/0xa3k5/web3icons/blob/main/packages/core/src/metadata/exchanges.json)
+`<ExchangeIcon />` tries to find a match comparing the passed `name` value with the `id` or `name` from the [`exchanges.json`](https://github.com/0xa3k5/web3icons/blob/main/packages/common/src/metadata/exchanges.json)
 
 ```jsx
 import { ExchangeIcon } from '@web3icons/react'
@@ -282,85 +281,19 @@ import { ExchangeIcon } from '@web3icons/react'
 //   "id": "coinbase",
 //   "name": "Coinbase",
 //   "variants": ["branded", "mono"],
-//   "type": "dex"
-// },
-;<ExchangeCoinbase name="coinbase" size={32} variant="branded" /> // matches the name
+//   "type": "cex"
+// }
+
+<ExchangeIcon name="coinbase" size={32} variant="branded" /> // matches the name
 ```
 
 ---
 
 # `@web3icons/core`
 
-For projects that don’t use React, icons are also available as `*.svg` files in the `dist/svgs` folder. Which contains folders for types (`tokens`, `networks`, `wallets`) and variants (`branded` and `mono`) svg icons.
+For projects that don't use React, icons are available as optimized `*.svg` files.
 
-- Token names are always ticker in uppercase. `ETH`, `BTC`, `GRT`
-- Network names are always kebab-case. `ethereum`, `binance-smart-chain`, `bitcoin`
-- Wallet names are always kebab-case. `metamask`, `coinbase-wallet`, `rabby`
-
-### Example file paths:
-
-- `svgs/tokens/branded/BTC.svg`
-- `svgs/networks/mono/ethereum.svg`
-- `svgs/wallets/branded/metamask.svg`
-- `svgs/excahnges/mono/bybit.svg`
-
-### Importing the individual SVGs
-
-If you need to directly import the SVGs, here is the naming convention that you can use: `{type} {variant} {symbol}`
-
-- **`Tokens`**: prefixed with `token` followed by `variant` and the uppercase ticker. `tokenBrandedBTC`, `tokenMonoGRT`
-- **`Networks`**: prefixed with `network` followed by `variant` and the PascalCase network name. `networkMonoMetis`, `networkBrandedBinanceSmartChain`
-- **`Wallets`**: prefixed with `wallet` followed by `variant` and the PascalCase wallet name. `walletBrandedRainbow`, `walletBrandedImtoken`, `walletBrandedWalletConnect`
-- **`Exchanges`**: prefixed with `exchange` followed by `variant` and the PascalCase exchange name `exchangeCoinbase`, `exchangePancakeSwap`, `exchangeBybit`
-
-## Metadata
-
-The `@web3icons/core` package also provides comprehensive metadata for each cryptocurrency token in a convenient JSON format, which you can import directly into your project.
-
-If you need the json file, you can import it directly:
-
-```js
-import { tokens, networks, wallets, exchanges } from '@web3icons/core/metadata'
-```
-
-### Importing the `svgs` object
-
-`svgs` object contains objects for each type
-
-> [!NOTE]
-> This would import thousands of svgs into your project and would increase the bundle size, it is not recommended for general use.
-
-```jsx
-import { svgs } from '@web3icons/core'
-
-const IconDisplay = () => {
-  return (
-    <div>
-      <img src={svgs.tokens.brandedETH} alt="Ethereum Branded Token Icon" />
-      <img
-        src={svgs.networks.brandedEthereum}
-        alt="Ethereum Branded Network Icon"
-      />
-    </div>
-  )
-}
-```
-
-### Dynamic import
-
-```js
-const type = 'tokens'
-const variant = 'branded'
-const iconName = 'BTC'
-
-const svgModule = await import(
-  `@web3icons/core/svgs/${type}/${variant}/${iconName}.svg`
-)
-const response = await fetch(svgModule.default.src)
-const svgContent = await response.text()
-
-console.log(svgContent)
-```
+**[View full @web3icons/core documentation →](packages/core/README.md)**
 
 ---
 
