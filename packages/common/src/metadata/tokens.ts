@@ -21327,4 +21327,27 @@ export const tokens: ITokenMetadata[] = [
       'binance-smart-chain': '0x413c2834f02003752d6Cc0Bcd1cE85Af04D62fBE',
     },
   },
+  {
+    id: 'gun',
+    name: 'GUNZ',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:gunz',
+    symbol: 'GUN',
+    marketCapRank: 0,
+    addresses: {},
+  },
+  {
+    id: 'JURIS',
+    name: 'Juris Protocol',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:juris',
+    symbol: 'JURIS',
+    marketCapRank: 0,
+    addresses: {
+      'terra-classic':
+        'terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2',
+      osmosis:
+        'ibc/46579C587A0B8CF8B0A1FF6B0EFA2082F11876578E47FC81A9CAAD31F424AF98',
+    },
+  },
 ]

@@ -2145,57 +2145,57 @@
   },
   {
     "id": "gunz",
-    "name": "GUNZ",
-    "variants": ["background", "branded", "mono"],
     "filePath": "network:gunz",
-    "shortName": "GUNZ",
     "chainId": 43419,
     "caip2id": "eip155:43419",
-    "nativeCoinId": "GUN"
+    "name": "GUNZ",
+    "shortName": "GUNZ",
+    "nativeCoinId": "GUN",
+    "variants": ["background", "branded", "mono"]
   },
   {
     "id": "flow",
-    "name": "Flow",
-    "variants": ["branded", "mono", "background"],
     "filePath": "token:FLOW",
-    "shortName": "Flow",
     "chainId": 747,
     "caip2id": "eip155:747",
-    "nativeCoinId": "FLOW"
+    "name": "Flow",
+    "shortName": "Flow",
+    "nativeCoinId": "FLOW",
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "flow-testnet",
-    "name": "Flow Testnet",
-    "variants": ["branded", "mono", "background"],
     "filePath": "token:FLOW",
-    "shortName": "Flow",
     "chainId": 545,
     "caip2id": "eip155:545",
-    "nativeCoinId": "FLOW"
+    "name": "Flow Testnet",
+    "shortName": "Flow",
+    "nativeCoinId": "FLOW",
+    "variants": ["branded", "mono", "background"]
   },
   {
     "id": "stable",
-    "name": "Stablechain",
-    "variants": ["background", "branded", "mono"],
     "filePath": "network:stable",
-    "shortName": "Stable",
     "chainId": 988,
     "caip2id": "eip155:988",
-    "nativeCoinId": "USDT"
+    "name": "Stablechain",
+    "shortName": "Stable",
+    "nativeCoinId": "USDT",
+    "variants": ["background", "branded", "mono"]
   },
   {
     "id": "juris",
-    "name": "Juris Protocol",
-    "variants": ["background", "branded", "mono"],
     "filePath": "network:juris",
-    "shortName": "Juris"
+    "name": "Juris Protocol",
+    "shortName": "Juris",
+    "variants": ["background", "branded", "mono"]
   },
   {
     "id": "terra-classic",
-    "name": "Terra Classic",
-    "variants": ["background", "branded", "mono"],
     "filePath": "network:terra-classic",
+    "name": "Terra Classic",
     "shortName": "Terra",
-    "nativeCoinId": "LUNC"
+    "nativeCoinId": "LUNC",
+    "variants": ["background", "branded", "mono"]
   }
 ]

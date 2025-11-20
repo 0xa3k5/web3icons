@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#juris__a)">
+        <path fill="#132452" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M18.856 10.142a2320 2320 0 0 1-4.005 7.2H9.14L6.288 12.2l2.86-5.142h4.568L14.86 5H8.004L4 12.2c.968 1.747 3.019 5.434 3.996 7.2h8L20 12.2z" clip-rule="evenodd"/>
+        <path fill="#CC051C" fill-rule="evenodd" d="M11.428 13.224c-.141-.256-.432-.768-.572-1.024.422-.769 1.285-2.315 1.716-3.083h-2.288L8.567 12.2l1.717 3.083h3.423c1.241-2.242 2.755-4.959 4.005-7.2l-1.145-2.059c-1.258 2.27-2.745 4.94-4.004 7.2h-1.144z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="juris__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>
