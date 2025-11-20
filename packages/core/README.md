@@ -46,7 +46,12 @@ The `@web3icons/common` package provides comprehensive metadata for all icons in
 If you need the metadata, you can import it directly:
 
 ```js
-import { tokens, networks, wallets, exchanges } from '@web3icons/common/metadata'
+import {
+  tokens,
+  networks,
+  wallets,
+  exchanges,
+} from '@web3icons/common/metadata'
 ```
 
 ## Importing the `svgs` object

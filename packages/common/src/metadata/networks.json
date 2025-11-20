@@ -2142,5 +2142,60 @@
     "shortName": "Symbiosis",
     "nativeCoinId": "SIS",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "gunz",
+    "filePath": "network:gunz",
+    "chainId": 43419,
+    "caip2id": "eip155:43419",
+    "name": "GUNZ",
+    "shortName": "GUNZ",
+    "nativeCoinId": "GUN",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "flow",
+    "filePath": "token:FLOW",
+    "chainId": 747,
+    "caip2id": "eip155:747",
+    "name": "Flow",
+    "shortName": "Flow",
+    "nativeCoinId": "FLOW",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "flow-testnet",
+    "filePath": "token:FLOW",
+    "chainId": 545,
+    "caip2id": "eip155:545",
+    "name": "Flow Testnet",
+    "shortName": "Flow",
+    "nativeCoinId": "FLOW",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "stable",
+    "filePath": "network:stable",
+    "chainId": 988,
+    "caip2id": "eip155:988",
+    "name": "Stablechain",
+    "shortName": "Stable",
+    "nativeCoinId": "USDT",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "juris",
+    "filePath": "network:juris",
+    "name": "Juris Protocol",
+    "shortName": "Juris",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "terra-classic",
+    "filePath": "network:terra-classic",
+    "name": "Terra Classic",
+    "shortName": "Terra",
+    "nativeCoinId": "LUNC",
+    "variants": ["background", "branded", "mono"]
   }
 ]

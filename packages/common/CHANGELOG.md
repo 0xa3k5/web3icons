@@ -1,5 +1,20 @@
 # @web3icons/common
 
+## 0.11.29
+
+### Patch Changes
+
+- network icons:
+  - `gunz` (https://web3icons/networks/gunz)
+  - `flow` (https://web3icons/networks/flow)
+  - `terra-classic` (https://web3icons/networks/terra-classic)
+  - `juris-protocol` (https://web3icons/networks/juris-protocol)
+  - `stablechain` (https://web3icons/networks-stable)
+
+  tokens:
+  - `GUN` (https://web3icons/tokens/GUN)
+  - `JURIS` (https://web3icons/tokens/JURIS)
+
 ## 0.11.28
 
 ### Patch Changes
