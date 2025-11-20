@@ -2142,5 +2142,15 @@
     "shortName": "Symbiosis",
     "nativeCoinId": "SIS",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "gunz",
+    "name": "GUNZ",
+    "variants": ["background", "branded", "mono"],
+    "filePath": "network:gunz",
+    "shortName": "GUNZ",
+    "chainId": 43419,
+    "caip2id": "eip155:43419",
+    "nativeCoinId": "GUN"
   }
 ]
