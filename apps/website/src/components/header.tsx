@@ -87,8 +87,8 @@ export function Header({ className }: Props) {
         className,
       )}
     >
-      <div className="container flex w-full items-center justify-between gap-4">
-        <div className="flex flex-1 items-center">
+      <div className="container max-sm:px-4 flex w-full items-center justify-between gap-8">
+        <div className="flex sm:flex-1 items-center">
           <Link href="/">
             <Web3IconLogo size={48} />
           </Link>
@@ -101,7 +101,7 @@ export function Header({ className }: Props) {
             onKeyDown={handleKeyDown}
             placeholder="Search"
             value={searchTerm}
-            className="w-96"
+            className="w-full grow sm:w-96"
             role="combobox"
             aria-autocomplete="list"
             aria-expanded={showResults}
@@ -117,7 +117,7 @@ export function Header({ className }: Props) {
           />
         </div>
 
-        <div className="flex flex-1 items-center justify-end gap-4">
+        <div className="flex sm:flex-1 items-center justify-end gap-4">
           <Link href="/docs">
             <Button variant="ghost">docs</Button>
           </Link>

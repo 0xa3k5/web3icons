@@ -141,7 +141,7 @@ export default function CodeBlock({
                 className: cx(
                   'flex-1 select-text',
                   'data-[wrap=true]:whitespace-pre-wrap data-[wrap=true]:break-words',
-                  'data-[wrap=false]:whitespace-pre',
+                  'whitespace-pre no-scrollbar',
                 ),
               },
               line.map((token, i) => (

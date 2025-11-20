@@ -108,16 +108,16 @@ export default function IconPage({ params }: PageProps) {
   const description = generateTypeDescription(web3Type, metadata)
 
   return (
-    <div className="flex min-h-dvh flex-col gap-8 py-8 font-mono max-sm:px-8">
-      <div className="flex items-center justify-between">
-        <div className="flex gap-4">
+    <div className="flex min-h-dvh flex-col gap-8 font-mono max-sm:px-8 sm:py-8">
+      <div className="flex gap-4 max-sm:flex-col sm:items-center sm:justify-between">
+        <div className="flex gap-4 max-sm:flex-col">
           <Web3Icon
             type={web3Type}
             metadata={metadata}
             variant={variant}
             size={40}
           />
-          <div className="flex max-w-2xl flex-col gap-2 text-pretty">
+          <div className="flex w-full flex-col gap-2 text-pretty sm:max-w-2xl">
             <h1 className="text-4xl">{iconName}</h1>
             <p className="text-lg text-white/40">{description}</p>
           </div>
@@ -129,7 +129,7 @@ export default function IconPage({ params }: PageProps) {
         />
       </div>
 
-      <div className="flex gap-4">
+      <div className="flex gap-4 max-sm:flex-col">
         <div className="relative flex flex-1 items-center justify-center gap-8 overflow-clip p-16">
           {variants.map((v) => (
             <button
@@ -202,7 +202,7 @@ export default function IconPage({ params }: PageProps) {
       <section className="my-16 flex flex-col gap-12">
         <div className="flex max-w-lg flex-col gap-1">
           <h2 className="text-xl">
-            more {type}s{' '}
+            more {type}{' '}
             <span className="-ml-2 text-lg text-white/40">
               ({allItems.length - MORE_LIMIT})
             </span>
@@ -223,7 +223,7 @@ export default function IconPage({ params }: PageProps) {
             />
           ))}
           <Link
-            href={`/${type}s/`}
+            href={type}
             className="hover:bg-gray relative flex  flex-col items-center justify-center gap-4 pb-4 pt-8 duration-150"
           >
             <div className="flex flex-col items-center justify-center gap-4 text-center text-white/40">
@@ -232,7 +232,7 @@ export default function IconPage({ params }: PageProps) {
                   +{allItems.length - MORE_LIMIT}
                 </span>
               )}
-              <span className="text-xs">See all {type}s</span>
+              <span className="text-xs">See all {type}</span>
             </div>
           </Link>
         </div>
