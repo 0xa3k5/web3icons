@@ -2152,5 +2152,25 @@
     "chainId": 43419,
     "caip2id": "eip155:43419",
     "nativeCoinId": "GUN"
+  },
+  {
+    "id": "flow",
+    "name": "Flow",
+    "variants": ["branded", "mono", "background"],
+    "filePath": "token:FLOW",
+    "shortName": "Flow",
+    "chainId": 747,
+    "caip2id": "eip155:747",
+    "nativeCoinId": "FLOW"
+  },
+  {
+    "id": "flow-testnet",
+    "name": "Flow Testnet",
+    "variants": ["branded", "mono", "background"],
+    "filePath": "token:FLOW",
+    "shortName": "Flow",
+    "chainId": 545,
+    "caip2id": "eip155:545",
+    "nativeCoinId": "FLOW"
   }
 ]
