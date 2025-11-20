@@ -2172,5 +2172,15 @@
     "chainId": 545,
     "caip2id": "eip155:545",
     "nativeCoinId": "FLOW"
+  },
+  {
+    "id": "stable",
+    "name": "Stablechain",
+    "variants": ["background", "branded", "mono"],
+    "filePath": "network:stable",
+    "shortName": "Stable",
+    "chainId": 988,
+    "caip2id": "eip155:988",
+    "nativeCoinId": "USDT"
   }
 ]
