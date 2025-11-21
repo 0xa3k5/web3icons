@@ -23,8 +23,8 @@ const externalLinks = [
 
 export const Footer = () => {
   return (
-    <footer className="border-gray-lightest mx-auto flex w-screen justify-center border-t">
-      <div className="container flex items-center justify-between py-4">
+    <footer className="border-gray-lightest mx-auto flex w-full justify-center border-t">
+      <div className="container flex items-center justify-between py-4 max-sm:px-4">
         <Link href="/">
           <Web3IconLogo className="size-12" />
         </Link>

@@ -45,7 +45,7 @@ export default function Tabs({
     <div
       className={cx(
         className,
-        'bg-gray-darkest sticky top-0 z-10 flex w-full justify-between rounded-sm',
+        'bg-gray-darkest no-scrollbar sticky top-0 z-10 flex w-full justify-between overflow-x-scroll rounded-sm',
         size === 'sm' ? 'py-2' : 'py-4',
         separator ? 'border-gray-lightest border-b' : '',
       )}

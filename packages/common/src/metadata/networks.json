@@ -152,7 +152,7 @@
     "filePath": "network:ethereum",
     "chainId": 5,
     "caip2id": "eip155:5",
-    "name": "Goerli Testnet (Deprecated)",
+    "name": "Goerli Testnet",
     "shortName": "Goerli",
     "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]

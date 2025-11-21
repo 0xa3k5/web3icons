@@ -1,4 +1,4 @@
-![Web3 Icons](https://raw.githubusercontent.com/0xa3k5/web3icons/main/apps/figma-plugin/src/assets/cover.png)
+![Web3 Icons](https://web3icons.io/og-image.png)
 
 # Web3 Icons
 

@@ -58,7 +58,6 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
       const { svg } = await fetchSvgContent({
         metadata,
         variant: drawerVariant,
-        type,
       })
       setTabContents({
         svg: svg,

@@ -22,7 +22,7 @@ interface Props {
   label?: string
 }
 
-export default function CodeBlock({
+export const CodeBlock = ({
   lineNumbers = true,
   tabs,
   classNames,
@@ -31,7 +31,7 @@ export default function CodeBlock({
   content,
   language,
   label,
-}: Props): JSX.Element {
+}: Props) => {
   const isSingleTab =
     !tabs || tabs.length === 0 || (tabs.length === 1 && !tabs[0]?.label)
 
@@ -141,7 +141,7 @@ export default function CodeBlock({
                 className: cx(
                   'flex-1 select-text',
                   'data-[wrap=true]:whitespace-pre-wrap data-[wrap=true]:break-words',
-                  'data-[wrap=false]:whitespace-pre',
+                  'whitespace-pre no-scrollbar',
                 ),
               },
               line.map((token, i) => (

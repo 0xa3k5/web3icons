@@ -7,6 +7,7 @@ import {
   ITokenMetadata,
   TType,
 } from '@web3icons/common'
+import { generateTypeDescription } from '../../../utils/generate-type-description'
 
 const metadataMap: Record<TType, TMetadata[]> = {
   token: tokens,
@@ -73,24 +74,7 @@ export async function generateMetadata({
 
   const typeLabel = web3Type.charAt(0).toUpperCase() + web3Type.slice(1)
   const title = `${iconName} ${typeLabel} Icon - Web3 Icons`
-
-  let description = ''
-  if (web3Type === 'token') {
-    const token = metadata as ITokenMetadata
-    const symbol = token.symbol?.toUpperCase() || token.id.toUpperCase()
-    description = `${token.name} (${symbol}) crypto icons as SVG or React components for your web3 project. Available in ${token.variants.join(', ')} styles.`
-  } else if (web3Type === 'network') {
-    const network = metadata as any
-    const chainInfo = network.chainId ? ` on Chain ${network.chainId}` : ''
-    description = `${network.name} blockchain icons${chainInfo} in SVG and React formats. Perfect for web3 applications with ${network.variants.join(', ')} variants.`
-  } else if (web3Type === 'wallet') {
-    const wallet = metadata as any
-    description = `${wallet.name} Wallet icons for crypto and web3 apps. Free SVG and React components in ${wallet.variants.join(', ')} styles.`
-  } else if (web3Type === 'exchange') {
-    const exchange = metadata as any
-    const exchangeType = exchange.type === 'dex' ? 'DEX' : 'Exchange'
-    description = `${exchange.name} ${exchangeType} icons in SVG and React. Optimized for crypto and web3 applications with ${exchange.variants.join(', ')} variants.`
-  }
+  const description = generateTypeDescription(web3Type, metadata)
 
   return {
     title,
@@ -100,20 +84,11 @@ export async function generateMetadata({
       description,
       url: `https://web3icons.io/${type}/${id}`,
       type: 'website',
-      images: [
-        {
-          url: 'https://web3icons.io/og-image.png',
-          width: 1200,
-          height: 630,
-          alt: `${iconName} ${typeLabel} Icon`,
-        },
-      ],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://web3icons.io/og-image.png'],
     },
   }
 }

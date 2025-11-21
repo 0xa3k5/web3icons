@@ -68,7 +68,7 @@ export default function Home() {
   }, [activeTabParam])
 
   return (
-    <div className="flex min-h-full flex-col gap-4 font-mono sm:py-16 md:gap-16">
+    <div className="flex min-h-full w-full flex-col gap-4 font-mono max-sm:px-4 sm:py-16 md:gap-16">
       <div className="flex max-w-2xl flex-col gap-4">
         <h1 className="max-w-40 text-4xl tracking-widest">web3 icons</h1>
         <span className="text-white/40">
