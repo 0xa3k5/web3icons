@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (48)](#wallets)
-- [networks (222)](#networks)
+- [networks (228)](#networks)
 - [exchanges (27)](#exchanges)
-- [tokens (1830)](#tokens)
+- [tokens (1832)](#tokens)
 
 ### Wallets
 
@@ -284,6 +284,12 @@ jump to section:
 | bahamut                     | Bahamut                         | ✅      | ✅   | ✅         |
 | hyper-evm                   | Hyper EVM                       | ✅      | ✅   | ✅         |
 | symbiosis                   | Symbiosis                       | ✅      | ✅   | ✅         |
+| gunz                        | GUNZ                            | ✅      | ✅   | ✅         |
+| flow                        | Flow                            | ✅      | ✅   | ✅         |
+| flow-testnet                | Flow Testnet                    | ✅      | ✅   | ✅         |
+| stable                      | Stablechain                     | ✅      | ✅   | ✅         |
+| juris                       | Juris Protocol                  | ✅      | ✅   | ✅         |
+| terra-classic               | Terra Classic                   | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2151,3 +2157,5 @@ jump to section:
 | Ame Chain                              | AME         | ✅      | ✅   | ✅         |
 | Hyper EVM                              | HYPE        | ✅      | ✅   | ✅         |
 | Pecunity                               | PEC         | ✅      | ✅   | ✅         |
+| GUNZ                                   | GUN         | ✅      | ✅   | ✅         |
+| Juris Protocol                         | JURIS       | ✅      | ✅   | ✅         |

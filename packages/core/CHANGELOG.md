@@ -1,5 +1,23 @@
 # @web3icons/core
 
+## 4.0.34
+
+### Patch Changes
+
+- network icons:
+  - `gunz` (https://web3icons/networks/gunz)
+  - `flow` (https://web3icons/networks/flow)
+  - `terra-classic` (https://web3icons/networks/terra-classic)
+  - `juris-protocol` (https://web3icons/networks/juris-protocol)
+  - `stablechain` (https://web3icons/networks-stable)
+
+  tokens:
+  - `GUN` (https://web3icons/tokens/GUN)
+  - `JURIS` (https://web3icons/tokens/JURIS)
+
+- Updated dependencies
+  - @web3icons/common@0.11.29
+
 ## 4.0.33
 
 ### Patch Changes

@@ -242,7 +242,7 @@ import { NetworkIcon } from '@web3icons/react'
 // "name": "BNB Smart Chain",
 // "shortname": "BSC",
 // "nativeCoinId": "binancecoin",
-// "variants": ["branded", "mono"]
+// "variants": ["branded", "mono", "background"]
 // }
 
 <NetworkIcon network="bsc" size={32} variant="branded" /> // matches the shortname
@@ -261,7 +261,7 @@ import { WalletIcon } from '@web3icons/react'
 // {
 // "id": "wallet-connect",
 // "name": "Wallet Connect",
-// "variants": ["branded", "mono"]
+// "variants": ["branded", "mono", "background"]
 // }
 
 <WalletIcon name="wallet-connect" size={32} variant="branded" /> // matches the id
@@ -280,10 +280,12 @@ import { ExchangeIcon } from '@web3icons/react'
 // {
 //   "id": "coinbase",
 //   "name": "Coinbase",
-//   "variants": ["branded", "mono"],
+//   "variants": ["branded", "mono", "background"],
 //   "type": "cex"
 // }
-;<ExchangeIcon name="coinbase" size={32} variant="branded" /> // matches the name
+
+<ExchangeIcon name="coinbase" size={32} variant="branded" /> // matches the name
+<ExchangeIcon name="coinbase" size={32} variant="mono" /> // matches the name
 ```
 
 ---

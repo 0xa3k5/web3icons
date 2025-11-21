@@ -5106,6 +5106,12 @@ import * as TBackgroundHYPE from './svgs/networks/background/hyper-evm.svg'
 import * as TBrandedPEC from './svgs/tokens/branded/PEC.svg'
 import * as TMonoPEC from './svgs/tokens/mono/PEC.svg'
 import * as TBackgroundPEC from './svgs/tokens/background/PEC.svg'
+import * as TBrandedGUN from './svgs/networks/branded/gunz.svg'
+import * as TMonoGUN from './svgs/networks/mono/gunz.svg'
+import * as TBackgroundGUN from './svgs/networks/background/gunz.svg'
+import * as TBrandedJURIS from './svgs/networks/branded/juris.svg'
+import * as TMonoJURIS from './svgs/networks/mono/juris.svg'
+import * as TBackgroundJURIS from './svgs/networks/background/juris.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
 import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
@@ -5767,6 +5773,24 @@ import * as NBackgroundHyperEvm from './svgs/networks/background/hyper-evm.svg'
 import * as NBrandedSymbiosis from './svgs/networks/branded/symbiosis.svg'
 import * as NMonoSymbiosis from './svgs/networks/mono/symbiosis.svg'
 import * as NBackgroundSymbiosis from './svgs/networks/background/symbiosis.svg'
+import * as NBrandedGunz from './svgs/networks/branded/gunz.svg'
+import * as NMonoGunz from './svgs/networks/mono/gunz.svg'
+import * as NBackgroundGunz from './svgs/networks/background/gunz.svg'
+import * as NBrandedFlow from './svgs/tokens/branded/FLOW.svg'
+import * as NMonoFlow from './svgs/tokens/mono/FLOW.svg'
+import * as NBackgroundFlow from './svgs/tokens/background/FLOW.svg'
+import * as NBrandedFlowTestnet from './svgs/tokens/branded/FLOW.svg'
+import * as NMonoFlowTestnet from './svgs/tokens/mono/FLOW.svg'
+import * as NBackgroundFlowTestnet from './svgs/tokens/background/FLOW.svg'
+import * as NBrandedStable from './svgs/networks/branded/stable.svg'
+import * as NMonoStable from './svgs/networks/mono/stable.svg'
+import * as NBackgroundStable from './svgs/networks/background/stable.svg'
+import * as NBrandedJuris from './svgs/networks/branded/juris.svg'
+import * as NMonoJuris from './svgs/networks/mono/juris.svg'
+import * as NBackgroundJuris from './svgs/networks/background/juris.svg'
+import * as NBrandedTerraClassic from './svgs/networks/branded/terra-classic.svg'
+import * as NMonoTerraClassic from './svgs/networks/mono/terra-classic.svg'
+import * as NBackgroundTerraClassic from './svgs/networks/background/terra-classic.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -7775,6 +7799,8 @@ export const svgs = {
       ame: TBrandedAME,
       hype: TBrandedHYPE,
       pec: TBrandedPEC,
+      gun: TBrandedGUN,
+      juris: TBrandedJURIS,
     },
     mono: {
       '0x0': TMono0X0,
@@ -9316,6 +9342,8 @@ export const svgs = {
       ame: TMonoAME,
       hype: TMonoHYPE,
       pec: TMonoPEC,
+      gun: TMonoGUN,
+      juris: TMonoJURIS,
     },
     background: {
       '0x0': TBackground0X0,
@@ -11102,6 +11130,8 @@ export const svgs = {
       ame: TBackgroundAME,
       hype: TBackgroundHYPE,
       pec: TBackgroundPEC,
+      gun: TBackgroundGUN,
+      juris: TBackgroundJURIS,
     },
   },
   networks: {
@@ -11328,6 +11358,12 @@ export const svgs = {
       bahamut: NBrandedBahamut,
       'hyper-evm': NBrandedHyperEvm,
       symbiosis: NBrandedSymbiosis,
+      gunz: NBrandedGunz,
+      flow: NBrandedFlow,
+      'flow-testnet': NBrandedFlowTestnet,
+      stable: NBrandedStable,
+      juris: NBrandedJuris,
+      'terra-classic': NBrandedTerraClassic,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11547,6 +11583,12 @@ export const svgs = {
       bahamut: NMonoBahamut,
       'hyper-evm': NMonoHyperEvm,
       symbiosis: NMonoSymbiosis,
+      gunz: NMonoGunz,
+      flow: NMonoFlow,
+      'flow-testnet': NMonoFlowTestnet,
+      stable: NMonoStable,
+      juris: NMonoJuris,
+      'terra-classic': NMonoTerraClassic,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -11771,6 +11813,12 @@ export const svgs = {
       bahamut: NBackgroundBahamut,
       'hyper-evm': NBackgroundHyperEvm,
       symbiosis: NBackgroundSymbiosis,
+      gunz: NBackgroundGunz,
+      flow: NBackgroundFlow,
+      'flow-testnet': NBackgroundFlowTestnet,
+      stable: NBackgroundStable,
+      juris: NBackgroundJuris,
+      'terra-classic': NBackgroundTerraClassic,
     },
   },
   wallets: {
