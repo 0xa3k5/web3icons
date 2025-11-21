@@ -87,8 +87,8 @@ export function Header({ className }: Props) {
         className,
       )}
     >
-      <div className="container max-sm:px-4 flex w-full items-center justify-between gap-8">
-        <div className="flex sm:flex-1 items-center">
+      <div className="container flex w-full items-center justify-between gap-8 max-sm:px-4">
+        <div className="flex items-center sm:flex-1">
           <Link href="/">
             <Web3IconLogo size={48} />
           </Link>
@@ -117,7 +117,7 @@ export function Header({ className }: Props) {
           />
         </div>
 
-        <div className="flex sm:flex-1 items-center justify-end gap-4">
+        <div className="flex items-center justify-end gap-4 sm:flex-1">
           <Link href="/docs">
             <Button variant="ghost">docs</Button>
           </Link>

@@ -284,7 +284,7 @@ import { ExchangeIcon } from '@web3icons/react'
 //   "type": "cex"
 // }
 
-<ExchangeIcon name="coinbase" size={32} variant="branded" /> // matches the name
+;<ExchangeIcon name="coinbase" size={32} variant="branded" /> // matches the name
 ```
 
 ---

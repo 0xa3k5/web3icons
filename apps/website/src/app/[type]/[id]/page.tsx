@@ -75,7 +75,6 @@ export default function IconPage({ params }: PageProps) {
       const { svg } = await fetchSvgContent({
         metadata,
         variant,
-        type: web3Type,
       })
       setCodeSnippets({
         svg,

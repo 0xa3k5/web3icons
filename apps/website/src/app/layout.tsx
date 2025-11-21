@@ -9,6 +9,7 @@ import { Footer } from '../components/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
+  metadataBase: new URL('https://web3icons.io'),
   title: 'Web3 Icons',
   description:
     '2,500+ SVG & React icons for crypto currency tokens, coins, networks and wallets',

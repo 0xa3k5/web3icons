@@ -22,7 +22,7 @@ interface Props {
   label?: string
 }
 
-export default function CodeBlock({
+export const CodeBlock = ({
   lineNumbers = true,
   tabs,
   classNames,
@@ -31,7 +31,7 @@ export default function CodeBlock({
   content,
   language,
   label,
-}: Props): JSX.Element {
+}: Props) => {
   const isSingleTab =
     !tabs || tabs.length === 0 || (tabs.length === 1 && !tabs[0]?.label)
 

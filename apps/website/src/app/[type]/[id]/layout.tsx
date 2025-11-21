@@ -84,20 +84,11 @@ export async function generateMetadata({
       description,
       url: `https://web3icons.io/${type}/${id}`,
       type: 'website',
-      images: [
-        {
-          url: 'https://web3icons.io/og-image.png',
-          width: 1200,
-          height: 630,
-          alt: `${iconName} ${typeLabel} Icon`,
-        },
-      ],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://web3icons.io/og-image.png'],
     },
   }
 }
