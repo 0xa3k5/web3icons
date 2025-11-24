@@ -21318,30 +21318,29 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'pecunity',
-    name: 'Pecunity',
-    variants: ['background', 'branded', 'mono'],
     filePath: 'token:PEC',
     symbol: 'PEC',
+    name: 'Pecunity',
     marketCapRank: 0,
     addresses: {
       'binance-smart-chain': '0x413c2834f02003752d6Cc0Bcd1cE85Af04D62fBE',
     },
+    variants: ['background', 'branded', 'mono'],
   },
   {
     id: 'gun',
-    name: 'GUNZ',
-    variants: ['background', 'branded', 'mono'],
     filePath: 'network:gunz',
     symbol: 'GUN',
+    name: 'GUNZ',
     marketCapRank: 0,
     addresses: {},
+    variants: ['background', 'branded', 'mono'],
   },
   {
     id: 'JURIS',
-    name: 'Juris Protocol',
-    variants: ['background', 'branded', 'mono'],
     filePath: 'network:juris',
     symbol: 'JURIS',
+    name: 'Juris Protocol',
     marketCapRank: 0,
     addresses: {
       'terra-classic':
@@ -21349,5 +21348,6 @@ export const tokens: ITokenMetadata[] = [
       osmosis:
         'ibc/46579C587A0B8CF8B0A1FF6B0EFA2082F11876578E47FC81A9CAAD31F424AF98',
     },
+    variants: ['background', 'branded', 'mono'],
   },
 ]

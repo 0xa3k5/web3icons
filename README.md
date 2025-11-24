@@ -191,7 +191,15 @@ export default App
 All of the Dynamic Components are designed to provide ease of use, they accept various custom props which allow the component to correctly import the desired icon.
 
 > [!IMPORTANT]
-> Dynamic components are **client-side only** and are **not tree-shakable**. They use dynamic imports to load icons at runtime, which means all icon code is included in your bundle (split into chunks). For better bundle optimization, use individual icon components instead.
+> Dynamic components are available from the `/dynamic` entry point and are **client-side only** and are **not tree-shakable**. They use React hooks and dynamic imports to load icons at runtime. For better bundle optimization and server component compatibility, use individual icon components instead.
+>
+> ```jsx
+> // ✅ Dynamic components (client-side only)
+> import { TokenIcon, NetworkIcon } from '@web3icons/react/dynamic'
+>
+> // ✅ Static components (server-safe, tree-shakable)
+> import { TokenBTC, NetworkEthereum } from '@web3icons/react'
+> ```
 
 ### Shared Props Overview
 
@@ -214,7 +222,7 @@ These properties are used specifically for token icons. You must provide either 
 ### Example Usage
 
 ```jsx
-import { TokenIcon } from '@web3icons/react'
+import { TokenIcon } from '@web3icons/react/dynamic'
 
 // Renders Ethereum icon in mono variant
 <TokenIcon symbol="eth" size={32} color="#000" />
@@ -234,7 +242,7 @@ import { TokenIcon } from '@web3icons/react'
 ### Example Usage
 
 ```jsx
-import { NetworkIcon } from '@web3icons/react'
+import { NetworkIcon } from '@web3icons/react/dynamic'
 
 // from networks.json:
 // {
@@ -255,7 +263,7 @@ import { NetworkIcon } from '@web3icons/react'
 `<WalletIcon />` tries to find a match comparing the passed `name` value with the `id` or `name` from the [`wallets.json`](https://github.com/0xa3k5/web3icons/blob/main/packages/common/src/metadata/wallets.json)
 
 ```jsx
-import { WalletIcon } from '@web3icons/react'
+import { WalletIcon } from '@web3icons/react/dynamic'
 
 // from wallets.json:
 // {
@@ -274,7 +282,7 @@ import { WalletIcon } from '@web3icons/react'
 `<ExchangeIcon />` tries to find a match comparing the passed `name` value with the `id` or `name` from the [`exchanges.json`](https://github.com/0xa3k5/web3icons/blob/main/packages/common/src/metadata/exchanges.json)
 
 ```jsx
-import { ExchangeIcon } from '@web3icons/react'
+import { ExchangeIcon } from '@web3icons/react/dynamic'
 
 // from exchanges.json:
 // {

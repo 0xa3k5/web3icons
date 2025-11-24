@@ -1,5 +1,50 @@
 # @web3icons/react
 
+## 4.1.0
+
+### Added
+
+- New `/dynamic` entry point for dynamic icon components (TokenIcon, NetworkIcon, WalletIcon, ExchangeIcon)
+- Server component compatibility for all static icon exports
+
+### Changed
+
+- **Important Migration**: Dynamic components should now be imported from `@web3icons/react/dynamic` instead of `@web3icons/react`
+
+### Migration Guide
+
+**Before:**
+
+```jsx
+import { TokenIcon, NetworkIcon } from '@web3icons/react' // ⚠️ Deprecated
+```
+
+**After:**
+
+```jsx
+import { TokenIcon, NetworkIcon } from '@web3icons/react/dynamic' // ✅ Recommended
+```
+
+**Static components** (unchanged):
+
+```jsx
+import { TokenBTC, NetworkEthereum } from '@web3icons/react' // ✅ Works in server components
+```
+
+### Fixed
+
+- Fixed React Server Components compatibility ([#77](https://github.com/0xa3k5/web3icons/issues/77))
+- Removed React hooks from main bundle to prevent server component build errors
+- Dynamic components now properly isolated in separate entry point
+
+### Technical Details
+
+- Main bundle (`@web3icons/react`) is now server-safe (no hooks)
+- Dynamic bundle (`@web3icons/react/dynamic`) contains client-only components with hooks
+
+- Updated dependencies
+  - @web3icons/common@0.11.30
+
 ## 4.0.38
 
 ### Patch Changes

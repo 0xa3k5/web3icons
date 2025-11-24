@@ -46,7 +46,7 @@ function App() {
 ### Dynamic Components
 
 ```jsx
-import { TokenIcon, NetworkIcon } from '@web3icons/react'
+import { TokenIcon, NetworkIcon } from '@web3icons/react/dynamic'
 
 function DynamicExample() {
   const tokenSymbol = 'BTC'
@@ -120,7 +120,7 @@ import * as Icons from '@web3icons/react' // ❌ ~500KB
 Full TypeScript support with type definitions:
 
 ```tsx
-import { TokenIcon } from '@web3icons/react'
+import { TokenIcon } from '@web3icons/react/dynamic'
 
 interface Props {
   symbol: string
@@ -171,7 +171,7 @@ interface TokenIconProps extends IconProps {
 ```
 
 ```tsx
-import { TokenIcon } from '@web3icons/react'
+import { TokenIcon } from '@web3icons/react/dynamic'
 
 // By symbol
 <TokenIcon symbol="btc" variant="branded" />
@@ -194,7 +194,7 @@ interface NetworkIconProps extends IconProps {
 ```
 
 ```tsx
-import { NetworkIcon } from '@web3icons/react'
+import { NetworkIcon } from '@web3icons/react/dynamic'
 
 <NetworkIcon network="ethereum" variant="branded" />
 <NetworkIcon network="eth" variant="branded" />
@@ -212,7 +212,7 @@ interface WalletIconProps extends IconProps {
 ```
 
 ```tsx
-import { WalletIcon } from '@web3icons/react'
+import { WalletIcon } from '@web3icons/react/dynamic'
 
 <WalletIcon name="metamask" variant="branded" />
 <WalletIcon name="coinbase-wallet" variant="branded" />
@@ -229,7 +229,7 @@ interface ExchangeIconProps extends IconProps {
 ```
 
 ```tsx
-import { ExchangeIcon } from '@web3icons/react'
+import { ExchangeIcon } from '@web3icons/react/dynamic'
 
 <ExchangeIcon name="uniswap" variant="branded" />
 <ExchangeIcon name="binance" variant="branded" />

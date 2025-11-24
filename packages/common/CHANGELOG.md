@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.30
+
+### Patch Changes
+
+- Fix Goerli Testnet name (was Goerli Testnet (Deprecated) -> Goerli Testnet)
+
 ## 0.11.29
 
 ### Patch Changes

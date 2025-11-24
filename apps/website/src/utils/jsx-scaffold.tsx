@@ -18,7 +18,7 @@ export function scaffoldComponent({
   if (dynamic) {
     const componentName = `${capitalize(type)}Icon`
     const usage = generateDynamicUsage({ metadata, type, variant, size, color })
-    return `import { ${componentName} } from '@web3icons/react'
+    return `import { ${componentName} } from '@web3icons/react/dynamic'
 
 export default function App() {
   return (
