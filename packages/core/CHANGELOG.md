@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.36
+
+### Patch Changes
+
+- update coinbase exchange icon
+- Updated dependencies
+  - @web3icons/common@0.11.31
+
 ## 4.0.35
 
 ### Patch Changes
