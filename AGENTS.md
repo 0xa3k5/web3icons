@@ -300,12 +300,12 @@ After making changes:
 
 ### Dynamic React Components
 
-The React package provides dynamic components that automatically load the correct icon based on props. These are client-side only components (`'use client'` directive).
+The React package provides dynamic components that automatically load the correct icon based on props. These are client-side only components (`'use client'` directive) and must be imported from the `/dynamic` entry point.
 
 #### TokenIcon Component
 
 ```tsx
-import { TokenIcon } from '@web3icons/react'
+import { TokenIcon } from '@web3icons/react/dynamic'
 
 // By symbol
 <TokenIcon symbol="ETH" variant="branded" size={32} />
@@ -334,7 +334,7 @@ import { TokenIcon } from '@web3icons/react'
 #### NetworkIcon Component
 
 ```tsx
-import { NetworkIcon } from '@web3icons/react'
+import { NetworkIcon } from '@web3icons/react/dynamic'
 
 // By name (matches id, name, or shortName - case insensitive)
 <NetworkIcon name="Ethereum" variant="branded" size={32} />
@@ -357,7 +357,7 @@ import { NetworkIcon } from '@web3icons/react'
 #### WalletIcon & ExchangeIcon
 
 ```tsx
-import { WalletIcon, ExchangeIcon } from '@web3icons/react'
+import { WalletIcon, ExchangeIcon } from '@web3icons/react/dynamic'
 
 <WalletIcon name="MetaMask" variant="branded" />
 <WalletIcon id="metamask" /> // kebab-case id

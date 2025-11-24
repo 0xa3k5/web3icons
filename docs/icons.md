@@ -77,7 +77,7 @@ jump to section:
 | fraxtal                     | Fraxtal                         | ✅      | ✅   | ✅         |
 | ethereum                    | Ethereum                        | ✅      | ✅   | ✅         |
 | holesky                     | Holesky Testnet                 | ✅      | ✅   | ✅         |
-| goerli                      | Goerli Testnet (Deprecated)     | ✅      | ✅   | ✅         |
+| goerli                      | Goerli Testnet                  | ✅      | ✅   | ✅         |
 | neon-evm                    | Neon EVM                        | ✅      | ✅   | ✅         |
 | mint                        | Mint                            | ✅      | ✅   | ✅         |
 | zyx                         | zyx                             | ✅      | ✅   | ✅         |

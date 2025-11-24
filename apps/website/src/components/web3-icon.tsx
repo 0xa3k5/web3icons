@@ -4,7 +4,7 @@ import {
   NetworkIcon,
   WalletIcon,
   ExchangeIcon,
-} from '@web3icons/react'
+} from '@web3icons/react/dynamic'
 import {
   TMetadata,
   TVariant,
