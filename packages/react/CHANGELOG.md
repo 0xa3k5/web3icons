@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 4.1.1
+
+### Patch Changes
+
+- update coinbase exchange icon
+- Updated dependencies
+  - @web3icons/common@0.11.31
+
 ## 4.1.0
 
 ### Added

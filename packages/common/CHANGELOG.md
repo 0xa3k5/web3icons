@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.31
+
+### Patch Changes
+
+- update coinbase exchange icon
+
 ## 0.11.30
 
 ### Patch Changes
