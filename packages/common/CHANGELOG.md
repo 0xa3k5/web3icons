@@ -1,5 +1,12 @@
 # @web3icons/common
 
+## 0.11.32
+
+### Patch Changes
+
+- add `HNS` (Handshake) token icon - https://web3icons.io/tokens/HNS
+  link `MON` to existing `monad` icon - https://web3icons.io/tokens/MON
+
 ## 0.11.31
 
 ### Patch Changes
