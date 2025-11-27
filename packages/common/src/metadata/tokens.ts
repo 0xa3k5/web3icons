@@ -21350,4 +21350,25 @@ export const tokens: ITokenMetadata[] = [
     },
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'HNS',
+    name: 'Handshake',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'token:HNS',
+    symbol: 'HNS',
+    marketCapRank: 0,
+    addresses: {},
+  },
+  {
+    id: 'MON',
+    name: 'Monad',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:monad',
+    symbol: 'MON',
+    marketCapRank: 0,
+    addresses: {
+      ethereum: '0x6917037f8944201b2648198a89906edf863b9517',
+      solana: 'CrAr4RRJMBVwRsZtT62pEhfA9H5utymC2mVx8e7FreP2',
+    },
+  },
 ]

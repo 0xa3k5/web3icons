@@ -3,7 +3,7 @@ jump to section:
 - [wallets (48)](#wallets)
 - [networks (228)](#networks)
 - [exchanges (27)](#exchanges)
-- [tokens (1832)](#tokens)
+- [tokens (1834)](#tokens)
 
 ### Wallets
 
@@ -2159,3 +2159,5 @@ jump to section:
 | Pecunity                               | PEC         | ✅      | ✅   | ✅         |
 | GUNZ                                   | GUN         | ✅      | ✅   | ✅         |
 | Juris Protocol                         | JURIS       | ✅      | ✅   | ✅         |
+| Handshake                              | HNS         | ✅      | ✅   | ✅         |
+| Monad                                  | MON         | ✅      | ✅   | ✅         |
