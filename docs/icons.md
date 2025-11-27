@@ -2159,3 +2159,4 @@ jump to section:
 | Pecunity                               | PEC         | ✅      | ✅   | ✅         |
 | GUNZ                                   | GUN         | ✅      | ✅   | ✅         |
 | Juris Protocol                         | JURIS       | ✅      | ✅   | ✅         |
+| Handshake                              | HNS         | ✅      | ✅   | ✅         |

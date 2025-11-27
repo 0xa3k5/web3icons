@@ -21350,4 +21350,12 @@ export const tokens: ITokenMetadata[] = [
     },
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'HNS',
+    name: 'Handshake',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'token:HNS',
+    symbol: 'HNS',
+    marketCapRank: 0,
+    addresses: {},
 ]
