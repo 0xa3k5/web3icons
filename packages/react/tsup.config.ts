@@ -9,7 +9,7 @@ export default defineConfig({
   },
   format: ['esm'],
   dts: true,
-  splitting: false,
+  splitting: true,
   clean: false,
   external: ['react', 'react-dom'],
   treeshake: true,
