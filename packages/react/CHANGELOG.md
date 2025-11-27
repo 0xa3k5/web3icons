@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 4.1.3
+
+### Patch Changes
+
+- migrate to rollup from tsup
+- Updated dependencies
+  - @web3icons/common@0.11.33
+
 ## 4.1.2
 
 ### Patch Changes

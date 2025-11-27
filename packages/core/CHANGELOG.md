@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.38
+
+### Patch Changes
+
+- migrate to rollup from tsup
+- Updated dependencies
+  - @web3icons/common@0.11.33
+
 ## 4.0.37
 
 ### Patch Changes
