@@ -1,5 +1,14 @@
 # @web3icons/react
 
+## 4.1.2
+
+### Patch Changes
+
+- add `HNS` (Handshake) token icon - https://web3icons.io/tokens/HNS
+  link `MON` to existing `monad` icon - https://web3icons.io/tokens/MON
+- Updated dependencies
+  - @web3icons/common@0.11.32
+
 ## 4.1.1
 
 ### Patch Changes

@@ -5112,6 +5112,12 @@ import * as TBackgroundGUN from './svgs/networks/background/gunz.svg'
 import * as TBrandedJURIS from './svgs/networks/branded/juris.svg'
 import * as TMonoJURIS from './svgs/networks/mono/juris.svg'
 import * as TBackgroundJURIS from './svgs/networks/background/juris.svg'
+import * as TBrandedHNS from './svgs/tokens/branded/HNS.svg'
+import * as TMonoHNS from './svgs/tokens/mono/HNS.svg'
+import * as TBackgroundHNS from './svgs/tokens/background/HNS.svg'
+import * as TBrandedMON from './svgs/networks/branded/monad.svg'
+import * as TMonoMON from './svgs/networks/mono/monad.svg'
+import * as TBackgroundMON from './svgs/networks/background/monad.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
 import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
@@ -7801,6 +7807,8 @@ export const svgs = {
       pec: TBrandedPEC,
       gun: TBrandedGUN,
       juris: TBrandedJURIS,
+      hns: TBrandedHNS,
+      mon: TBrandedMON,
     },
     mono: {
       '0x0': TMono0X0,
@@ -9344,6 +9352,8 @@ export const svgs = {
       pec: TMonoPEC,
       gun: TMonoGUN,
       juris: TMonoJURIS,
+      hns: TMonoHNS,
+      mon: TMonoMON,
     },
     background: {
       '0x0': TBackground0X0,
@@ -11132,6 +11142,8 @@ export const svgs = {
       pec: TBackgroundPEC,
       gun: TBackgroundGUN,
       juris: TBackgroundJURIS,
+      hns: TBackgroundHNS,
+      mon: TBackgroundMON,
     },
   },
   networks: {
