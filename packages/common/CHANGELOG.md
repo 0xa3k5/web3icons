@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.33
+
+### Patch Changes
+
+- migrate to rollup from tsup
+
 ## 0.11.32
 
 ### Patch Changes
