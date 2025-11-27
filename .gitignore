@@ -18,3 +18,4 @@ packages/react/src/icons/**/*.tsx
 .claude/
 server
 .build-cache/
+.rollup.cache/

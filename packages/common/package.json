@@ -54,15 +54,14 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun run clean && bun run pre-build && tsup && bun format",
+    "build": "bun run clean && bun run pre-build && rollup -c && bun format",
     "pre-build": "cd ../../scripts/build-scripts && bun generate-metadata.ts",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error",
     "clean": "rm -rf dist"
   },
   "devDependencies": {
-    "bun-types": "latest",
-    "tsup": "^8.2.4"
+    "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
