@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.34
+
+### Patch Changes
+
+- fix broken build
+
 ## 0.11.33
 
 ### Patch Changes

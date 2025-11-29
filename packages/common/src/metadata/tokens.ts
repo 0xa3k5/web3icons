@@ -21352,23 +21352,23 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'HNS',
-    name: 'Handshake',
-    variants: ['background', 'branded', 'mono'],
     filePath: 'token:HNS',
     symbol: 'HNS',
+    name: 'Handshake',
     marketCapRank: 0,
     addresses: {},
+    variants: ['background', 'branded', 'mono'],
   },
   {
     id: 'MON',
-    name: 'Monad',
-    variants: ['background', 'branded', 'mono'],
     filePath: 'network:monad',
     symbol: 'MON',
+    name: 'Monad',
     marketCapRank: 0,
     addresses: {
       ethereum: '0x6917037f8944201b2648198a89906edf863b9517',
       solana: 'CrAr4RRJMBVwRsZtT62pEhfA9H5utymC2mVx8e7FreP2',
     },
+    variants: ['background', 'branded', 'mono'],
   },
 ]
