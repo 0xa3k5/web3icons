@@ -6,7 +6,7 @@ import {
   ThemedToken,
 } from 'shiki'
 
-let highlighter: Highlighter
+const THEME = 'houston'
 
 const LANGUAGES: (BundledLanguage | SpecialLanguage)[] = [
   'bash',
@@ -31,6 +31,21 @@ const LANGUAGES: (BundledLanguage | SpecialLanguage)[] = [
 
 export type Language = (typeof LANGUAGES)[number]
 
+// Use globalThis to ensure singleton across module instances
+const globalCache = globalThis as typeof globalThis & {
+  __shikiHighlighter?: Promise<Highlighter>
+}
+
+function getHighlighter(): Promise<Highlighter> {
+  if (!globalCache.__shikiHighlighter) {
+    globalCache.__shikiHighlighter = createHighlighter({
+      themes: [THEME],
+      langs: LANGUAGES,
+    })
+  }
+  return globalCache.__shikiHighlighter
+}
+
 export async function highlight(
   code: string,
   lang: Language,
@@ -38,28 +53,33 @@ export async function highlight(
   html: string
   tokens: ThemedToken[][]
 }> {
-  const THEME = 'houston'
-
-  if (!highlighter) {
-    highlighter = await createHighlighter({
-      themes: [THEME],
-      langs: LANGUAGES,
-    })
-  }
-
   if (!code || typeof code !== 'string') {
     return { html: '', tokens: [] }
   }
 
-  const { tokens } = highlighter.codeToTokens(code, {
-    theme: THEME,
-    lang: lang,
-  })
+  try {
+    const highlighter = await getHighlighter()
 
-  const html = highlighter.codeToHtml(code, {
-    theme: THEME,
-    lang: lang,
-  })
+    const { tokens } = highlighter.codeToTokens(code, {
+      theme: THEME,
+      lang: lang,
+    })
 
-  return { html, tokens }
+    const html = highlighter.codeToHtml(code, {
+      theme: THEME,
+      lang: lang,
+    })
+
+    return { html, tokens }
+  } catch {
+    // Fallback when Shiki fails (e.g., regex backtracking limit)
+    const lines = code.split('\n')
+    const fallbackTokens: ThemedToken[][] = lines.map((line) => [
+      { content: line, color: undefined },
+    ])
+    return {
+      html: `<pre><code>${code}</code></pre>`,
+      tokens: fallbackTokens,
+    }
+  }
 }

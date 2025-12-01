@@ -4,7 +4,7 @@ import { Web3IconLogo } from '@web3icons/react'
 import { Button } from './button'
 import { Breadcrumb } from './breadcrumbs'
 import cx from 'classnames'
-import SearchInput from './search-input'
+import { SearchInput } from './search-input'
 import { SearchResults } from './search-results'
 import { useState, useRef, useEffect } from 'react'
 import { searchIcons, SearchResult } from '../utils/search'
@@ -13,7 +13,7 @@ interface Props {
   className?: string
 }
 
-export function Header({ className }: Props) {
+export const Header = ({ className }: Props) => {
   const [searchTerm, setSearchTerm] = useState('')
   const [searchResults, setSearchResults] = useState<SearchResult[]>([])
   const [showResults, setShowResults] = useState(false)

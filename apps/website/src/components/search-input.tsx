@@ -16,14 +16,14 @@ interface Props {
   'aria-activedescendant'?: string
 }
 
-export default function SearchInput({
+export const SearchInput = ({
   className,
   placeholder,
   value,
   onInput,
   children,
   ...ariaProps
-}: PropsWithChildren<Props>): JSX.Element {
+}: PropsWithChildren<Props>) => {
   return (
     <div
       className={cx(
