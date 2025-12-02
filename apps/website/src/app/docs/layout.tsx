@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { generateNavigation } from '../../lib/docs'
+import { generateNavigation } from './lib/docs'
 import { Sidebar } from '../../components/sidebar'
 import cx from 'classnames'
 
@@ -7,8 +7,8 @@ interface DocsLayoutProps {
   children: ReactNode
 }
 
-export default async function DocsLayout({ children }: DocsLayoutProps) {
-  const sidebarGroups = await generateNavigation()
+export default function DocsLayout({ children }: DocsLayoutProps) {
+  const sidebarGroups = generateNavigation()
 
   return (
     <div className="grid h-full w-full grid-cols-12 gap-2">

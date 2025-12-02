@@ -1,0 +1,420 @@
+---
+title: React
+description: React components for Web3 crypto icons with TypeScript support
+order: 1
+---
+
+import {
+  TokenBTC,
+  TokenETH,
+  TokenUSDC,
+  TokenSOL,
+  TokenAVAX,
+  TokenMATIC,
+  NetworkBitcoin,
+  NetworkEthereum,
+  NetworkSolana,
+  WalletMetamask,
+  WalletCoinbase,
+  WalletOkx,
+} from '@web3icons/react'
+import {
+  TokenIcon,
+  NetworkIcon,
+  WalletIcon,
+  ExchangeIcon,
+} from '@web3icons/react/dynamic'
+import {
+  LiveExample,
+  WalletSelector,
+  ExchangeList,
+  InstallTabs,
+  IndividualReactIcons,
+  DynamicReactIcons,
+  SizeExample,
+} from '../../components'
+
+![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Freact)
+
+# @web3icons/react
+
+React components for Web3 Icons with TypeScript support and tree-shaking optimization.
+
+## Installation
+
+<InstallTabs pkg="@web3icons/react" />
+
+> Requires React 18+
+
+## Individual Components (Recommended)
+
+Import icons directly for optimal bundle size with tree-shaking. All of the icons in the web3icons library are prefixed with their type names (`Token`, `Network`, `Wallet`, `Exchange`).
+Token icons are named as `TokenSYMBOL` (uppercase token symbol), and other types are PascalCase `NetworkEthereum`, `WalletMetamask` `ExchangeCoinbase`, `NetworkBinanceSmartChain` etc.
+
+<IndividualReactIcons />
+
+| Prop      | Type                                | Default        | Description               |
+| --------- | ----------------------------------- | -------------- | ------------------------- |
+| size      | string \| number                    | 24             | Icon size in pixels       |
+| variant   | 'mono' \| 'branded' \| 'background' | 'mono'         | Visual style              |
+| color     | string                              | 'currentColor' | Color (mono variant only) |
+| className | string                              | -              | CSS class name            |
+
+## Dynamic Components
+
+Use dynamic components when the icon is determined at runtime. There is one dynamic icon per supported icon types. `TokenIcon`, `NetworkIcon`, `WalletIcon`, `ExchangeIcon`.
+
+<DynamicReactIcons />
+
+> Dynamic components are _NOT_ tree-shakable and are
+> client-only components. They dynamically import icons based on the given props.
+
+All icons support standard SVG props.
+
+## Variants
+
+Icons come in three visual styles: `mono`, `branded`, `background`.
+
+<LiveExample
+  tabs={[
+    {
+      label: 'mono',
+      preview: <TokenBTC variant="mono" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'
+
+<TokenBTC variant="mono" size={48} />`
+    },
+    {
+      label: 'branded',
+      preview: <TokenBTC variant="branded" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'
+
+<TokenBTC variant="branded" size={48} />`
+    },
+    {
+      label: 'background',
+      preview: <TokenBTC variant="background" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'
+
+<TokenBTC variant="background" size={48} />` } ]} />
+
+> Not all icons have all three variants but all of them have at least `(mono|branded)` and `background`
+
+## Icon Sizes
+
+Control icon size with the `size` prop:
+
+<SizeExample />
+
+## Icon Categories
+
+### Tokens (2,000+)
+
+<LiveExample
+  title="Token Icons"
+  description="Cryptocurrency token icons"
+  tabs={[
+    {
+      label: 'Code',
+      preview: (
+        <div className="flex flex-wrap gap-4">
+          {['BTC', 'ETH', 'USDC', 'SOL', 'AVAX', 'MATIC'].map((symbol) => (
+            <div key={symbol} className="flex flex-col items-center gap-2">
+              <TokenIcon symbol={symbol} size={32} variant="branded" />
+              <span className="text-xs text-gray-500">{symbol}</span>
+            </div>
+          ))}
+        </div>
+      ),
+      content: `import { TokenIcon } from '@web3icons/react/dynamic'
+
+const tokens = ['BTC', 'ETH', 'USDC', 'SOL', 'AVAX', 'MATIC']
+
+function TokenGrid() {
+return (
+
+<div className="grid grid-cols-6 gap-4">
+  {tokens.map((symbol) => (
+    <TokenIcon key={symbol} symbol={symbol} size={32} variant="branded" />
+  ))}
+</div>
+) }` } ]} />
+
+### Networks (150+)
+
+<LiveExample
+  title="Network Icons"
+  description="Blockchain network icons"
+  tabs={[
+    {
+      label: 'Code',
+      preview: (
+        <div className="flex flex-wrap gap-4">
+          {['ethereum', 'bitcoin', 'solana', 'avalanche', 'polygon', 'arbitrum'].map((network) => (
+            <div key={network} className="flex flex-col items-center gap-2">
+              <NetworkIcon network={network} size={32} variant="branded" />
+              <span className="text-xs text-gray-500">{network}</span>
+            </div>
+          ))}
+        </div>
+      ),
+      content: `import { NetworkIcon } from '@web3icons/react/dynamic'
+
+const networks = ['ethereum', 'bitcoin', 'solana', 'avalanche', 'polygon', 'arbitrum']
+
+function NetworkGrid() {
+return (
+
+<div className="grid grid-cols-6 gap-4">
+  {networks.map((network) => (
+    <NetworkIcon key={network} network={network} size={32} variant="branded" />
+  ))}
+</div>
+) }` } ]} />
+
+### Wallets (50+)
+
+<LiveExample
+  title="Wallet Selector"
+  description="A wallet connection dialog using wallet icons"
+  tabs={[
+    {
+      label: 'Code',
+      preview: <WalletSelector />,
+      content: `import { WalletIcon } from '@web3icons/react/dynamic'
+
+const wallets = [
+{ id: 'metamask', name: 'MetaMask' },
+{ id: 'coinbase-wallet', name: 'Coinbase Wallet' },
+{ id: 'rainbow', name: 'Rainbow' },
+{ id: 'trust-wallet', name: 'Trust Wallet' },
+]
+
+function WalletSelector({ onSelect }) {
+return (
+
+<div className="space-y-2">
+  {wallets.map((wallet) => (
+    <button
+      key={wallet.id}
+      onClick={() => onSelect(wallet.name)}
+      className="flex items-center gap-3 rounded-lg border p-3"
+    >
+      <WalletIcon name={wallet.name} size={32} variant="branded" />
+      <span>{wallet.name}</span>
+    </button>
+  ))}
+</div>
+) }` } ]} />
+
+### Exchanges (40+)
+
+<LiveExample
+  title="Exchange Icons"
+  description="CEX and DEX exchange icons"
+  tabs={[
+    {
+      label: 'Code',
+      preview: <ExchangeList />,
+      content: `import { ExchangeIcon } from '@web3icons/react/dynamic'
+
+const exchanges = [
+{ id: 'binance', name: 'Binance', type: 'cex' },
+{ id: 'coinbase', name: 'Coinbase', type: 'cex' },
+{ id: 'uniswap', name: 'Uniswap', type: 'dex' },
+{ id: 'sushiswap', name: 'SushiSwap', type: 'dex' },
+]
+
+function ExchangeList() {
+return (
+
+<div className="grid grid-cols-2 gap-3">
+  {exchanges.map((exchange) => (
+    <div
+      key={exchange.id}
+      className="flex items-center gap-3 rounded-lg border p-3"
+    >
+      <ExchangeIcon name={exchange.id} size={28} variant="branded" />
+      <div>
+        <span className="font-medium">{exchange.name}</span>
+        <span className="text-xs uppercase text-gray-500">{exchange.type}</span>
+      </div>
+    </div>
+  ))}
+</div>
+) }` } ]} />
+
+## Performance
+
+### Tree-shaking
+
+Import only what you need for optimal bundle size:
+
+```jsx
+// Good - only includes BTC icon (~2KB)
+import { TokenBTC } from '@web3icons/react'
+
+// Bad - includes ALL icons (~500KB)
+import * as Icons from '@web3icons/react'
+```
+
+### Static vs Dynamic
+
+Prefer individual components when possible:
+
+```jsx
+// Better performance - static import
+<TokenBTC size={24} />
+
+// Use only when icon is determined at runtime
+<TokenIcon symbol="btc" size={24} />
+```
+
+Dynamic components require additional runtime lookup and include all icons in the bundle.
+
+## TypeScript
+
+Full TypeScript support with type definitions:
+
+```tsx
+import { TokenIcon } from '@web3icons/react/dynamic'
+import type { TVariant } from '@web3icons/common'
+
+interface CryptoCardProps {
+  symbol: string
+  size?: number
+  variant?: TVariant
+}
+
+function CryptoCard({
+  symbol,
+  size = 24,
+  variant = 'branded',
+}: CryptoCardProps) {
+  return <TokenIcon symbol={symbol} size={size} variant={variant} />
+}
+```
+
+## Component API Reference
+
+### Individual Icon Components
+
+All static icon components share the same interface:
+
+```tsx
+interface IconProps extends React.SVGProps<SVGSVGElement> {
+  size?: string | number
+  variant?: 'mono' | 'branded' | 'background'
+  color?: string
+  className?: string
+}
+```
+
+### TokenIcon (Dynamic)
+
+```tsx
+interface TokenIconProps extends IconProps {
+  symbol?: string
+  address?: string
+  network?: string
+  fallback?: React.ReactNode | string
+}
+```
+
+```tsx
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+<TokenIcon symbol="btc" variant="branded" />
+
+<TokenIcon
+  address="0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+  network="ethereum"
+/>
+
+<TokenIcon symbol="unknown" fallback={<div>?</div>} />
+```
+
+### NetworkIcon (Dynamic)
+
+```tsx
+interface NetworkIconProps extends IconProps {
+  network: string
+  fallback?: React.ReactNode | string
+}
+```
+
+<LiveExample
+  title="Network Lookup"
+  description="Look up networks by name or ID"
+  tabs={[
+    {
+      label: 'Code',
+      preview: (
+        <div className="flex flex-wrap gap-4">
+          {['ethereum', 'bitcoin', 'solana', 'polygon'].map((network) => (
+            <div key={network} className="flex flex-col items-center gap-2">
+              <NetworkIcon network={network} size={32} variant="branded" />
+              <span className="text-xs text-gray-500">{network}</span>
+            </div>
+          ))}
+        </div>
+      ),
+      content: `import { NetworkIcon } from '@web3icons/react/dynamic'
+
+<NetworkIcon network="ethereum" variant="branded" />
+<NetworkIcon network="eth" variant="branded" />
+<NetworkIcon network="1" variant="branded" />
+<NetworkIcon network="unknown" fallback="?" />` } ]} />
+
+### WalletIcon (Dynamic)
+
+```tsx
+interface WalletIconProps extends IconProps {
+  name: string
+  fallback?: React.ReactNode | string
+}
+```
+
+```tsx
+import { WalletIcon } from '@web3icons/react/dynamic'
+
+<WalletIcon name="metamask" variant="branded" />
+<WalletIcon name="coinbase-wallet" variant="branded" />
+<WalletIcon name="unknown" fallback="?" />
+```
+
+### ExchangeIcon (Dynamic)
+
+```tsx
+interface ExchangeIconProps extends IconProps {
+  name: string
+  fallback?: React.ReactNode | string
+}
+```
+
+```tsx
+import { ExchangeIcon } from '@web3icons/react/dynamic'
+
+<ExchangeIcon name="uniswap" variant="branded" />
+<ExchangeIcon name="binance" variant="branded" />
+```
+
+## Error Handling
+
+Dynamic components handle missing icons gracefully:
+
+```tsx
+<TokenIcon symbol="invalid" />
+
+<TokenIcon symbol="invalid" fallback="?" />
+
+<TokenIcon symbol="custom" fallback="https://example.com/fallback.png" />
+
+function SafeIcon({ symbol }) {
+  return (
+    <ErrorBoundary fallback={<div className="w-6 h-6 bg-gray-200 rounded" />}>
+      <TokenIcon symbol={symbol} variant="branded" />
+    </ErrorBoundary>
+  )
+}
+```

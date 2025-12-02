@@ -26,31 +26,40 @@ body {
   --tw-prose-quotes: rgb(255 255 255 / 0.7);
   --tw-prose-a: var(--color-white);
 
-  & h1, & h2, & h3, & h4, & h5, & h6 {
+  h1, & h2, & h3, & h4, & h5, & h6 {
     font-weight: 400;
   }
 
-  & li, & p, & a, & span, & ul, & ol, & blockquote, & strong {
+  li, & p, & a, & span, & ul, & ol, & blockquote, & strong {
     font-weight: 400;
-    font-size: 0.875rem;
-  }
-
-  & h1 {
-    font-size: 1.5rem;  
-  }
-
-  & h2 {
-    font-size: 1.25rem;
-  }
-
-  & h3, & h4, & h5 {
     font-size: 1rem;
   }
 
-  & h6 {
-    font-size: 0.875rem;
+  h1 {
+    font-size: 2rem;
   }
 
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3, & h4, & h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  code::before,
+  code::after {
+    content: none;
+  }
+  
+  blockquote::before,
+  blockquote::after {
+    content: none;
+  }
 }
 @utility no-scrollbar {
   @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
