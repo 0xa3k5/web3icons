@@ -22,6 +22,7 @@ Shared TypeScript types and metadata for all Web3 Icons packages. Use this packa
 Access comprehensive metadata for all icons:
 
 ```typescript
+import {
   tokens,
   networks,
   wallets,
@@ -42,6 +43,7 @@ const ethereum = networks.find((n) => n.chainId === 1)
 Import types for building type-safe applications:
 
 ```typescript
+import {
   TVariant, // 'mono' | 'branded' | 'background'
   TType, // 'token' | 'network' | 'wallet' | 'exchange'
   TTokenMetadata, // Token metadata structure
