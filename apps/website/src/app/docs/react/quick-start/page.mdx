@@ -1,0 +1,106 @@
+---
+title: Quick Start
+description: Get started with @web3icons/react - React components for Web3 crypto icons
+order: 1
+---
+
+import {
+  TokenBTC,
+  TokenETH,
+  TokenUSDC,
+  NetworkEthereum,
+  WalletMetamask,
+} from '@web3icons/react'
+import {
+  TokenIcon,
+  NetworkIcon,
+  WalletIcon,
+  ExchangeIcon,
+} from '@web3icons/react/dynamic'
+import {
+  LiveExample,
+  InstallTabs,
+  IndividualReactIcons,
+  DynamicReactIcons,
+  SizeExample,
+} from '../../components'
+
+![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Freact)
+
+# @web3icons/react
+
+React components for Web3 Icons with TypeScript support and tree-shaking optimization.
+
+## Installation
+
+<InstallTabs pkg="@web3icons/react" />
+
+> Requires React 18+
+
+## Individual Components (Recommended)
+
+Import icons directly for optimal bundle size with tree-shaking. All of the icons in the web3icons library are prefixed with their type names (`Token`, `Network`, `Wallet`, `Exchange`).
+Token icons are named as `TokenSYMBOL` (uppercase token symbol), and other types are PascalCase `NetworkEthereum`, `WalletMetamask` `ExchangeCoinbase`, `NetworkBinanceSmartChain` etc.
+
+<IndividualReactIcons />
+
+| Prop      | Type                                | Default        | Description               |
+| --------- | ----------------------------------- | -------------- | ------------------------- |
+| size      | string \| number                    | 24             | Icon size in pixels       |
+| variant   | 'mono' \| 'branded' \| 'background' | 'mono'         | Visual style              |
+| color     | string                              | 'currentColor' | Color (mono variant only) |
+| className | string                              | -              | CSS class name            |
+
+## Dynamic Components
+
+Use dynamic components when the icon is determined at runtime. There is one dynamic icon per supported icon types. `TokenIcon`, `NetworkIcon`, `WalletIcon`, `ExchangeIcon`.
+
+<DynamicReactIcons />
+
+> Dynamic components are _NOT_ tree-shakable and are
+> client-only components. They dynamically import icons based on the given props.
+
+All icons support standard SVG props.
+
+## Variants
+
+Icons come in three visual styles: `mono`, `branded`, `background`.
+
+<LiveExample
+  tabs={[
+    {
+      label: 'mono',
+      preview: <TokenBTC variant="mono" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'
+
+<TokenBTC variant="mono" size={48} />`
+    },
+    {
+      label: 'branded',
+      preview: <TokenBTC variant="branded" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'
+
+<TokenBTC variant="branded" size={48} />`
+    },
+    {
+      label: 'background',
+      preview: <TokenBTC variant="background" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'
+
+<TokenBTC variant="background" size={48} />` } ]} />
+
+> Not all icons have all three variants but all of them have at least `(mono|branded)` and `background`
+
+## Icon Sizes
+
+Control icon size with the `size` prop:
+
+<SizeExample />
+
+## Next Steps
+
+Now that you have the basics, explore more:
+
+- [API Reference](/docs/react/api) - Complete props and TypeScript types
+- [Dynamic Icons](/docs/react/dynamic-icons) - Deep dive into runtime icon loading
+- [Performance](/docs/react/performance) - Optimization tips and bundle analysis
