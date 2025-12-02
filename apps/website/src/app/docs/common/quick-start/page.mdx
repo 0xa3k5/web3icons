@@ -1,0 +1,210 @@
+---
+title: Quick Start
+description: TypeScript types and metadata for Web3 Icons
+order: 1
+---
+
+import { InstallTabs } from '../../components'
+
+![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Fcommon)
+
+# @web3icons/common
+
+Shared TypeScript types and metadata for all Web3 Icons packages. Use this package to access icon metadata, or build type-safe integrations.
+
+## Installation
+
+<InstallTabs pkg="@web3icons/common" />
+
+> This package is included as a dependency of `@web3icons/react` and `@web3icons/core`. Install it directly only if you need standalone access to metadata or types.
+
+## Metadata Access
+
+Access comprehensive metadata for all icons:
+
+```typescript
+import {
+  tokens,
+  networks,
+  wallets,
+  exchanges,
+} from '@web3icons/common/metadata'
+
+// Find by symbol
+const bitcoin = tokens.find((t) => t.symbol === 'BTC')
+// { id: 'bitcoin', name: 'Bitcoin', symbol: 'BTC', ... }
+
+// Find by chain ID
+const ethereum = networks.find((n) => n.chainId === 1)
+// { id: 'ethereum', name: 'Ethereum', chainId: 1, ... }
+```
+
+## TypeScript Types
+
+Import types for building type-safe applications:
+
+```typescript
+import type {
+  TVariant, // 'mono' | 'branded' | 'background'
+  TType, // 'token' | 'network' | 'wallet' | 'exchange'
+  TTokenMetadata, // Token metadata structure
+  TNetworkMetadata, // Network metadata structure
+  TWalletMetadata, // Wallet metadata structure
+  TExchangeMetadata, // Exchange metadata structure
+} from '@web3icons/common'
+```
+
+## Metadata Interfaces
+
+`TTokenMetadata`
+
+```typescript
+interface TTokenMetadata {
+  id: string // "bitcoin"
+  name: string // "Bitcoin"
+  symbol: string // "BTC"
+  variants: TVariant[] // ["mono", "branded", "background"]
+  addresses?: Record<string, string> // Contract addresses by network
+}
+```
+
+`TNetworkMetadata`
+
+```typescript
+interface TNetworkMetadata {
+  id: string // "ethereum"
+  name: string // "Ethereum"
+  shortName?: string // "eth"
+  chainId?: number // 1
+  variants: TVariant[] // ["mono", "branded"]
+  nativeCoinId?: string // "ethereum"
+}
+```
+
+`TWalletMetadata`
+
+```typescript
+interface TWalletMetadata {
+  id: string // "metamask"
+  name: string // "MetaMask"
+  variants: TVariant[] // ["mono", "branded"]
+}
+```
+
+`TExchangeMetadata`
+
+```typescript
+interface TExchangeMetadata {
+  id: string // "uniswap"
+  name: string // "Uniswap"
+  variants: TVariant[] // ["mono", "branded"]
+  type: 'cex' | 'dex' // Exchange type
+}
+```
+
+## Search and Filter
+
+### Search Tokens
+
+```typescript
+import { tokens } from '@web3icons/common/metadata'
+
+function searchTokens(query: string) {
+  const q = query.toLowerCase()
+  return tokens.filter(
+    (token) =>
+      token.name.toLowerCase().includes(q) ||
+      token.symbol.toLowerCase().includes(q),
+  )
+}
+
+// Usage
+const results = searchTokens('bitcoin')
+// [{ id: 'bitcoin', name: 'Bitcoin', symbol: 'BTC', ... }, ...]
+```
+
+### Find Network by Chain ID
+
+```typescript
+import { networks } from '@web3icons/common/metadata'
+
+function getNetworkByChainId(chainId: number) {
+  return networks.find((network) => network.chainId === chainId)
+}
+
+// Usage
+const ethereum = getNetworkByChainId(1)
+const polygon = getNetworkByChainId(137)
+const arbitrum = getNetworkByChainId(42161)
+```
+
+### Find Token by Contract Address
+
+```typescript
+import { tokens } from '@web3icons/common/metadata'
+
+function getTokenByAddress(address: string, network: string) {
+  return tokens.find(
+    (token) =>
+      token.addresses?.[network]?.toLowerCase() === address.toLowerCase(),
+  )
+}
+
+// Usage
+const usdc = getTokenByAddress(
+  '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48',
+  'ethereum',
+)
+```
+
+## Type-Safe Components
+
+Build components with full type safety:
+
+```typescript
+import type { TTokenMetadata, TVariant } from '@web3icons/common'
+
+interface TokenCardProps {
+  token: TTokenMetadata
+  variant: TVariant
+  onClick: (token: TTokenMetadata) => void
+}
+
+function TokenCard({ token, variant, onClick }: TokenCardProps) {
+  return (
+    <button onClick={() => onClick(token)}>
+      <span>{token.name} ({token.symbol})</span>
+    </button>
+  )
+}
+```
+
+## Tree-Shakeable Imports
+
+Import only what you need to minimize bundle size:
+
+```typescript
+// Import specific collections
+import { tokens } from '@web3icons/common/metadata/tokens'
+import { networks } from '@web3icons/common/metadata/networks'
+
+// Type-only imports (zero runtime cost)
+import type { TTokenMetadata } from '@web3icons/common'
+```
+
+## Framework Compatibility
+
+Works with any JavaScript framework:
+
+| Framework              | Usage                                  |
+| ---------------------- | -------------------------------------- |
+| React                  | Use with `@web3icons/react` components |
+| Vue / Angular / Svelte | Import types and metadata directly     |
+| Node.js                | Server-side metadata processing        |
+| Vanilla JS             | Type definitions via JSDoc             |
+
+## Next Steps
+
+- [API Reference](/docs/common/api) - Complete type definitions
+- [@web3icons/react](/docs/react/quick-start) - React components
+- [@web3icons/core](/docs/core/quick-start) - Framework-agnostic SVGs

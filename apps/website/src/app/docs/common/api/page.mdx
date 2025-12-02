@@ -1,0 +1,277 @@
+---
+title: API Reference
+description: Complete API reference for @web3icons/common types and metadata
+order: 2
+---
+
+# API Reference
+
+Complete reference for all @web3icons/common exports.
+
+## Type Exports
+
+Import types from the main entry point:
+
+```typescript
+import type {
+  TVariant,
+  TType,
+  TTokenMetadata,
+  TNetworkMetadata,
+  TWalletMetadata,
+  TExchangeMetadata,
+} from '@web3icons/common'
+```
+
+### TVariant
+
+Icon visual style variant.
+
+```typescript
+type TVariant = 'mono' | 'branded' | 'background'
+```
+
+| Value          | Description                            |
+| -------------- | -------------------------------------- |
+| `'mono'`       | Monochromatic, single color            |
+| `'branded'`    | Official brand colors                  |
+| `'background'` | With circular background (tokens only) |
+
+### TType
+
+Icon category type.
+
+```typescript
+type TType = 'token' | 'network' | 'wallet' | 'exchange'
+```
+
+### TTokenMetadata
+
+Token metadata structure.
+
+```typescript
+interface TTokenMetadata {
+  id: string
+  name: string
+  symbol: string
+  variants: TVariant[]
+  addresses?: Record<string, string>
+  marketCapRank?: number | null
+}
+```
+
+| Property        | Type                     | Description                           |
+| --------------- | ------------------------ | ------------------------------------- |
+| `id`            | `string`                 | Unique identifier (e.g., `"bitcoin"`) |
+| `name`          | `string`                 | Display name (e.g., `"Bitcoin"`)      |
+| `symbol`        | `string`                 | Ticker symbol (e.g., `"BTC"`)         |
+| `variants`      | `TVariant[]`             | Available icon variants               |
+| `addresses`     | `Record<string, string>` | Contract addresses by network         |
+| `marketCapRank` | `number \| null`         | Market cap ranking                    |
+
+### TNetworkMetadata
+
+Network metadata structure.
+
+```typescript
+interface TNetworkMetadata {
+  id: string
+  name: string
+  shortName?: string
+  chainId?: number | string
+  caip2id?: string
+  variants: TVariant[]
+  nativeCoinId?: string
+}
+```
+
+| Property       | Type               | Description                            |
+| -------------- | ------------------ | -------------------------------------- |
+| `id`           | `string`           | Unique identifier (e.g., `"ethereum"`) |
+| `name`         | `string`           | Display name (e.g., `"Ethereum"`)      |
+| `shortName`    | `string`           | Short name (e.g., `"ETH"`)             |
+| `chainId`      | `number \| string` | EVM chain ID                           |
+| `caip2id`      | `string`           | CAIP-2 identifier (e.g., `"eip155:1"`) |
+| `variants`     | `TVariant[]`       | Available icon variants                |
+| `nativeCoinId` | `string`           | ID of native coin token                |
+
+### TWalletMetadata
+
+Wallet metadata structure.
+
+```typescript
+interface TWalletMetadata {
+  id: string
+  name: string
+  variants: TVariant[]
+}
+```
+
+| Property   | Type         | Description                            |
+| ---------- | ------------ | -------------------------------------- |
+| `id`       | `string`     | Unique identifier (e.g., `"metamask"`) |
+| `name`     | `string`     | Display name (e.g., `"MetaMask"`)      |
+| `variants` | `TVariant[]` | Available icon variants                |
+
+### TExchangeMetadata
+
+Exchange metadata structure.
+
+```typescript
+interface TExchangeMetadata {
+  id: string
+  name: string
+  type: 'cex' | 'dex'
+  variants: TVariant[]
+}
+```
+
+| Property   | Type             | Description                           |
+| ---------- | ---------------- | ------------------------------------- |
+| `id`       | `string`         | Unique identifier (e.g., `"uniswap"`) |
+| `name`     | `string`         | Display name (e.g., `"Uniswap"`)      |
+| `type`     | `'cex' \| 'dex'` | Exchange type                         |
+| `variants` | `TVariant[]`     | Available icon variants               |
+
+## Metadata Exports
+
+Import metadata from the metadata subpath:
+
+```typescript
+import {
+  tokens,
+  networks,
+  wallets,
+  exchanges,
+} from '@web3icons/common/metadata'
+```
+
+`tokens`
+
+```typescript
+const tokens: TTokenMetadata[]
+
+// Example entry
+{
+  id: 'bitcoin',
+  name: 'Bitcoin',
+  symbol: 'BTC',
+  variants: ['mono', 'branded', 'background'],
+  addresses: {
+    ethereum: '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'
+  },
+  marketCapRank: 1
+}
+```
+
+`networks`
+
+```typescript
+const networks: TNetworkMetadata[]
+
+// Example entry
+{
+  id: 'ethereum',
+  name: 'Ethereum',
+  shortName: 'ETH',
+  chainId: 1,
+  caip2id: 'eip155:1',
+  variants: ['mono', 'branded'],
+  nativeCoinId: 'ethereum'
+}
+```
+
+`wallets`
+
+```typescript
+const wallets: TWalletMetadata[]
+
+// Example entry
+{
+  id: 'metamask',
+  name: 'MetaMask',
+  variants: ['mono', 'branded']
+}
+```
+
+`exchanges`
+
+```typescript
+const exchanges: TExchangeMetadata[]
+
+// Example entry
+{
+  id: 'uniswap',
+  name: 'Uniswap',
+  type: 'dex',
+  variants: ['mono', 'branded']
+}
+```
+
+## Subpath Imports
+
+Import specific collections for tree-shaking:
+
+```typescript
+// Individual collection imports
+import { tokens } from '@web3icons/common/metadata/tokens'
+import { networks } from '@web3icons/common/metadata/networks'
+import { wallets } from '@web3icons/common/metadata/wallets'
+import { exchanges } from '@web3icons/common/metadata/exchanges'
+```
+
+## Utility Functions
+
+Common patterns for working with metadata:
+
+#### Find by ID
+
+```typescript
+import { tokens, networks } from '@web3icons/common/metadata'
+
+const bitcoin = tokens.find((t) => t.id === 'bitcoin')
+const ethereum = networks.find((n) => n.id === 'ethereum')
+```
+
+#### Find by Symbol
+
+```typescript
+import { tokens } from '@web3icons/common/metadata'
+
+const btc = tokens.find((t) => t.symbol === 'BTC')
+const eth = tokens.find((t) => t.symbol === 'ETH')
+```
+
+#### Find by Chain ID
+
+```typescript
+import { networks } from '@web3icons/common/metadata'
+
+const network = networks.find((n) => n.chainId === 137) // Polygon
+```
+
+#### Find by Contract Address
+
+```typescript
+import { tokens } from '@web3icons/common/metadata'
+
+function findTokenByAddress(address: string, network: string) {
+  return tokens.find(
+    (t) => t.addresses?.[network]?.toLowerCase() === address.toLowerCase(),
+  )
+}
+```
+
+#### Search by Name
+
+```typescript
+import { tokens } from '@web3icons/common/metadata'
+
+function searchTokens(query: string) {
+  const q = query.toLowerCase()
+  return tokens.filter(
+    (t) =>
+      t.name.toLowerCase().includes(q) || t.symbol.toLowerCase().includes(q),
+  )
+}
+```
