@@ -4,7 +4,6 @@ description: TypeScript types and metadata for Web3 Icons
 order: 1
 ---
 
-import { InstallTabs } from '../../components'
 
 ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Fcommon)
 
@@ -23,7 +22,6 @@ Shared TypeScript types and metadata for all Web3 Icons packages. Use this packa
 Access comprehensive metadata for all icons:
 
 ```typescript
-import {
   tokens,
   networks,
   wallets,
@@ -44,7 +42,6 @@ const ethereum = networks.find((n) => n.chainId === 1)
 Import types for building type-safe applications:
 
 ```typescript
-import type {
   TVariant, // 'mono' | 'branded' | 'background'
   TType, // 'token' | 'network' | 'wallet' | 'exchange'
   TTokenMetadata, // Token metadata structure
@@ -107,7 +104,6 @@ interface TExchangeMetadata {
 ### Search Tokens
 
 ```typescript
-import { tokens } from '@web3icons/common/metadata'
 
 function searchTokens(query: string) {
   const q = query.toLowerCase()
@@ -126,7 +122,6 @@ const results = searchTokens('bitcoin')
 ### Find Network by Chain ID
 
 ```typescript
-import { networks } from '@web3icons/common/metadata'
 
 function getNetworkByChainId(chainId: number) {
   return networks.find((network) => network.chainId === chainId)
@@ -141,7 +136,6 @@ const arbitrum = getNetworkByChainId(42161)
 ### Find Token by Contract Address
 
 ```typescript
-import { tokens } from '@web3icons/common/metadata'
 
 function getTokenByAddress(address: string, network: string) {
   return tokens.find(
@@ -162,7 +156,6 @@ const usdc = getTokenByAddress(
 Build components with full type safety:
 
 ```typescript
-import type { TTokenMetadata, TVariant } from '@web3icons/common'
 
 interface TokenCardProps {
   token: TTokenMetadata
@@ -185,11 +178,8 @@ Import only what you need to minimize bundle size:
 
 ```typescript
 // Import specific collections
-import { tokens } from '@web3icons/common/metadata/tokens'
-import { networks } from '@web3icons/common/metadata/networks'
 
 // Type-only imports (zero runtime cost)
-import type { TTokenMetadata } from '@web3icons/common'
 ```
 
 ## Framework Compatibility

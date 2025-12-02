@@ -4,9 +4,6 @@ description: Using web3icons with Next.js App Router and Pages Router
 order: 1
 ---
 
-import { TokenBTC, NetworkEthereum } from '@web3icons/react'
-import { TokenIcon } from '@web3icons/react/dynamic'
-import { LiveExample, InstallTabs } from '../../components'
 
 # Next.js Integration
 
@@ -24,7 +21,6 @@ Individual icon components work directly in Server Components:
 
 ```tsx
 // app/page.tsx (Server Component)
-import { TokenBTC, TokenETH, NetworkEthereum } from '@web3icons/react'
 
 export default function Page() {
   return (
@@ -45,7 +41,6 @@ Dynamic components require the `'use client'` directive:
 // app/components/token-display.tsx
 'use client'
 
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 interface Props {
   symbol: string
@@ -58,7 +53,6 @@ export function TokenDisplay({ symbol }: Props) {
 
 ```tsx
 // app/page.tsx
-import { TokenDisplay } from './components/token-display'
 
 export default function Page() {
   return <TokenDisplay symbol="BTC" />
@@ -71,8 +65,6 @@ Combine server and client components for optimal performance:
 
 ```tsx
 // app/portfolio/page.tsx
-import { TokenBTC, TokenETH } from '@web3icons/react'
-import { TokenList } from './token-list'
 
 // Static icons render on the server
 // Dynamic list is a client component
@@ -93,8 +85,6 @@ export default function Portfolio() {
 // app/portfolio/token-list.tsx
 'use client'
 
-import { TokenIcon } from '@web3icons/react/dynamic'
-import { useUserTokens } from '@/hooks/use-user-tokens'
 
 export function TokenList() {
   const tokens = useUserTokens()
@@ -118,8 +108,6 @@ All components work in Pages Router without special configuration:
 
 ```tsx
 // pages/index.tsx
-import { TokenBTC, TokenETH } from '@web3icons/react'
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 export default function Home() {
   return (
@@ -144,7 +132,6 @@ Split the dynamic icon bundle from your main bundle:
 ```tsx
 'use client'
 
-import { lazy, Suspense } from 'react'
 
 const TokenIcon = lazy(() =>
   import('@web3icons/react/dynamic').then((mod) => ({
@@ -173,7 +160,6 @@ Dynamic icons in client components are automatically code-split per route:
 // app/wallet/page.tsx
 'use client'
 
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 // This chunk only loads when /wallet is visited
 export default function WalletPage() {
@@ -204,13 +190,10 @@ ANALYZE=true npm run build
 
 ```tsx
 // ✅ - tree-shakeable, minimal bundle
-import { TokenBTC, TokenETH } from '@web3icons/react'
 
 // ✅ - only load when needed
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 // ❌ - imports entire icon library
-import * as Icons from '@web3icons/react'
 ```
 
 ## SSR Considerations
@@ -228,7 +211,6 @@ Handle the hydration gap with fallbacks:
 ```tsx
 'use client'
 
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 export function Token({ symbol }: { symbol: string }) {
   return (
@@ -247,8 +229,6 @@ export function Token({ symbol }: { symbol: string }) {
 For using icons as images with Next.js Image component:
 
 ```tsx
-import Image from 'next/image'
-import { svgs } from '@web3icons/core'
 
 export function TokenImage({ symbol }: { symbol: string }) {
   const key = `branded${symbol.toUpperCase()}` as keyof typeof svgs.tokens
@@ -264,8 +244,6 @@ No additional TypeScript configuration is needed. The packages include full type
 
 ```typescript
 // Types are automatically inferred
-import { TokenBTC } from '@web3icons/react'
-import type { ComponentProps } from 'react'
 
 type TokenBTCProps = ComponentProps<typeof TokenBTC>
 // { size?: number | string; variant?: 'mono' | 'branded' | 'background'; ... }
@@ -278,7 +256,6 @@ type TokenBTCProps = ComponentProps<typeof TokenBTC>
 ```tsx
 'use client'
 
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 interface TokenDisplayProps {
   symbol: string
@@ -306,7 +283,6 @@ export function TokenDisplay({ symbol, name, balance }: TokenDisplayProps) {
 ```tsx
 'use client'
 
-import { NetworkIcon } from '@web3icons/react/dynamic'
 
 const networks = [
   { chainId: 1, name: 'Ethereum' },

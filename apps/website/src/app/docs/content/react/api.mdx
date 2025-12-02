@@ -4,21 +4,6 @@ description: Complete API reference for @web3icons/react components
 order: 2
 ---
 
-import {
-  TokenIcon,
-  NetworkIcon,
-  WalletIcon,
-  ExchangeIcon,
-} from '@web3icons/react/dynamic'
-import { TokenBTC, NetworkEthereum } from '@web3icons/react'
-import {
-  LiveExample,
-  DynamicTokenLookup,
-  DynamicNetworkLookup,
-  DynamicWalletLookup,
-  DynamicExchangeLookup,
-} from '../../components'
-
 # API Reference
 
 Complete reference for all @web3icons/react components and TypeScript types.
@@ -62,7 +47,6 @@ interface IconProps extends React.SVGProps<SVGSVGElement> {
 ### Usage
 
 ```tsx
-import { TokenBTC, NetworkEthereum, WalletMetamask } from '@web3icons/react'
 
 // Basic usage
 <TokenBTC />
@@ -144,7 +128,7 @@ Look up exchange icons by name or ID.
 Import types from `@web3icons/common`:
 
 ```tsx
-import type {
+import {
   TVariant, // 'mono' | 'branded' | 'background'
   TType, // 'token' | 'network' | 'wallet' | 'exchange'
   ITokenMetadata, // Token metadata interface
@@ -168,15 +152,13 @@ Dynamic components return `null` for missing icons by default. Use the `fallback
 // Component fallback
 <TokenIcon
   symbol="INVALID"
-  fallback={<div className="w-6 h-6 bg-gray-200 rounded-full" />}
+  fallback={<div className="size-6 bg-gray-200 rounded-full" />}
 />
 ```
 
 For granular error handling, wrap in an error boundary:
 
 ```tsx
-import { ErrorBoundary } from 'react-error-boundary'
-
 function SafeIcon({ symbol }: { symbol: string }) {
   return (
     <ErrorBoundary fallback={<FallbackIcon />}>

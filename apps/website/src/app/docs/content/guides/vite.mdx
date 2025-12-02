@@ -4,7 +4,6 @@ description: Using web3icons with Vite and React
 order: 2
 ---
 
-import { InstallTabs } from '../../components'
 
 # Vite Integration
 
@@ -20,7 +19,6 @@ No additional configuration required. Import and use directly:
 
 ```tsx
 // src/App.tsx
-import { TokenBTC, TokenETH, NetworkEthereum } from '@web3icons/react'
 
 function App() {
   return (
@@ -41,7 +39,6 @@ Use dynamic components for runtime icon selection:
 
 ```tsx
 // src/components/TokenDisplay.tsx
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 interface Props {
   symbol: string
@@ -54,7 +51,6 @@ export function TokenDisplay({ symbol }: Props) {
 
 ```tsx
 // src/App.tsx
-import { TokenDisplay } from './components/TokenDisplay'
 
 function App() {
   const tokens = ['BTC', 'ETH', 'USDC', 'SOL']
@@ -75,7 +71,6 @@ For non-React usage or vanilla JavaScript:
 
 ```tsx
 // src/App.tsx
-import { svgs } from '@web3icons/core'
 
 function App() {
   return (
@@ -108,9 +103,6 @@ Add to vite.config.ts for build-time analysis:
 
 ```typescript
 // vite.config.ts
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import { visualizer } from 'rollup-plugin-visualizer'
 
 export default defineConfig({
   plugins: [
@@ -127,13 +119,10 @@ export default defineConfig({
 
 ```tsx
 // ✅ - tree-shakeable
-import { TokenBTC, TokenETH } from '@web3icons/react'
 
 // ✅ - for dynamic use cases
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 // ❌ Avoid - imports everything
-import * as Icons from '@web3icons/react'
 ```
 
 ## Code Splitting
@@ -141,7 +130,6 @@ import * as Icons from '@web3icons/react'
 ### Lazy Load Dynamic Icons
 
 ```tsx
-import { lazy, Suspense } from 'react'
 
 const TokenIcon = lazy(() =>
   import('@web3icons/react/dynamic').then((mod) => ({
@@ -166,8 +154,6 @@ Configure Vite to separate icon bundles:
 
 ```typescript
 // vite.config.ts
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
@@ -190,8 +176,6 @@ Types work out of the box. No additional configuration needed:
 
 ```typescript
 // Types are inferred automatically
-import { TokenBTC } from '@web3icons/react'
-import type { ComponentProps } from 'react'
 
 type IconProps = ComponentProps<typeof TokenBTC>
 ```
@@ -202,8 +186,6 @@ Vite handles SVG imports automatically. For direct SVG file imports:
 
 ```typescript
 // vite.config.ts
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
@@ -213,7 +195,6 @@ export default defineConfig({
 
 ```tsx
 // Direct SVG import
-import btcIcon from '@web3icons/core/svgs/tokens/branded/BTC.svg'
 
 function App() {
   return <img src={btcIcon} alt="Bitcoin" />
@@ -226,8 +207,6 @@ Vite's dev server handles @web3icons efficiently. For larger projects:
 
 ```typescript
 // vite.config.ts
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
@@ -243,9 +222,6 @@ Complete example of a token selector component:
 
 ```tsx
 // src/components/TokenSelector.tsx
-import { useState } from 'react'
-import { TokenIcon } from '@web3icons/react/dynamic'
-import { tokens } from '@web3icons/common/metadata'
 
 export function TokenSelector() {
   const [search, setSearch] = useState('')
@@ -294,7 +270,6 @@ export function TokenSelector() {
 
 ```tsx
 // src/components/WalletBalance.tsx
-import { TokenIcon, NetworkIcon } from '@web3icons/react/dynamic'
 
 interface Asset {
   symbol: string

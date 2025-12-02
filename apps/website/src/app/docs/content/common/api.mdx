@@ -13,7 +13,6 @@ Complete reference for all @web3icons/common exports.
 Import types from the main entry point:
 
 ```typescript
-import type {
   TVariant,
   TType,
   TTokenMetadata,
@@ -138,7 +137,6 @@ interface TExchangeMetadata {
 Import metadata from the metadata subpath:
 
 ```typescript
-import {
   tokens,
   networks,
   wallets,
@@ -214,10 +212,6 @@ Import specific collections for tree-shaking:
 
 ```typescript
 // Individual collection imports
-import { tokens } from '@web3icons/common/metadata/tokens'
-import { networks } from '@web3icons/common/metadata/networks'
-import { wallets } from '@web3icons/common/metadata/wallets'
-import { exchanges } from '@web3icons/common/metadata/exchanges'
 ```
 
 ## Utility Functions
@@ -227,7 +221,6 @@ Common patterns for working with metadata:
 #### Find by ID
 
 ```typescript
-import { tokens, networks } from '@web3icons/common/metadata'
 
 const bitcoin = tokens.find((t) => t.id === 'bitcoin')
 const ethereum = networks.find((n) => n.id === 'ethereum')
@@ -236,7 +229,6 @@ const ethereum = networks.find((n) => n.id === 'ethereum')
 #### Find by Symbol
 
 ```typescript
-import { tokens } from '@web3icons/common/metadata'
 
 const btc = tokens.find((t) => t.symbol === 'BTC')
 const eth = tokens.find((t) => t.symbol === 'ETH')
@@ -245,7 +237,6 @@ const eth = tokens.find((t) => t.symbol === 'ETH')
 #### Find by Chain ID
 
 ```typescript
-import { networks } from '@web3icons/common/metadata'
 
 const network = networks.find((n) => n.chainId === 137) // Polygon
 ```
@@ -253,7 +244,6 @@ const network = networks.find((n) => n.chainId === 137) // Polygon
 #### Find by Contract Address
 
 ```typescript
-import { tokens } from '@web3icons/common/metadata'
 
 function findTokenByAddress(address: string, network: string) {
   return tokens.find(
@@ -265,7 +255,6 @@ function findTokenByAddress(address: string, network: string) {
 #### Search by Name
 
 ```typescript
-import { tokens } from '@web3icons/common/metadata'
 
 function searchTokens(query: string) {
   const q = query.toLowerCase()

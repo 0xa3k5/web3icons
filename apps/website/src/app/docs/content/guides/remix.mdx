@@ -4,7 +4,6 @@ description: Using web3icons with Remix
 order: 3
 ---
 
-import { InstallTabs } from '../../components'
 
 # Remix Integration
 
@@ -20,7 +19,6 @@ Import and use icons in your routes:
 
 ```tsx
 // app/routes/_index.tsx
-import { TokenBTC, TokenETH, NetworkEthereum } from '@web3icons/react'
 
 export default function Index() {
   return (
@@ -41,7 +39,6 @@ Individual icon components render on the server without issues:
 
 ```tsx
 // app/routes/tokens.tsx
-import { TokenBTC, TokenETH, TokenUSDC } from '@web3icons/react'
 
 export default function Tokens() {
   return (
@@ -69,7 +66,6 @@ Dynamic components require client-side rendering:
 
 ```tsx
 // app/components/token-icon-client.tsx
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 interface Props {
   symbol: string
@@ -83,8 +79,6 @@ export function TokenIconClient({ symbol, size = 32 }: Props) {
 
 ```tsx
 // app/routes/portfolio.tsx
-import { ClientOnly } from 'remix-utils/client-only'
-import { TokenIconClient } from '~/components/token-icon-client'
 
 export default function Portfolio() {
   const tokens = ['BTC', 'ETH', 'SOL', 'AVAX']
@@ -111,9 +105,6 @@ Combine with Remix loaders for dynamic data:
 
 ```tsx
 // app/routes/wallet.$address.tsx
-import { json, type LoaderFunctionArgs } from '@remix-run/node'
-import { useLoaderData } from '@remix-run/react'
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 interface Asset {
   symbol: string
@@ -153,9 +144,6 @@ Use @web3icons/common for type-safe development:
 
 ```tsx
 // app/routes/api.tokens.tsx
-import { json } from '@remix-run/node'
-import { tokens } from '@web3icons/common/metadata'
-import type { TTokenMetadata } from '@web3icons/common'
 
 export async function loader() {
   // Filter and transform metadata on the server
@@ -176,7 +164,6 @@ For image-based rendering:
 
 ```tsx
 // app/routes/icons.tsx
-import { svgs } from '@web3icons/core'
 
 export default function Icons() {
   return (
@@ -219,8 +206,6 @@ npx source-map-explorer build/client/**/*.js
 
 ```tsx
 // app/components/network-switcher.tsx
-import { useState } from 'react'
-import { NetworkIcon } from '@web3icons/react/dynamic'
 
 const networks = [
   { chainId: 1, name: 'Ethereum', network: 'ethereum' },
@@ -277,10 +262,6 @@ export function NetworkSwitcher({ currentChainId, onSwitch }: Props) {
 
 ```tsx
 // app/routes/search.tsx
-import { json } from '@remix-run/node'
-import { Form, useLoaderData, useSearchParams } from '@remix-run/react'
-import { tokens } from '@web3icons/common/metadata'
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 export async function loader({ request }: { request: Request }) {
   const url = new URL(request.url)
@@ -345,8 +326,6 @@ To avoid hydration mismatches with dynamic icons:
 
 ```tsx
 // Recommended pattern
-import { TokenBTC } from '@web3icons/react' // Static - renders on server
-import { TokenIcon } from '@web3icons/react/dynamic' // Dynamic - client only
 
 export default function Page() {
   return (

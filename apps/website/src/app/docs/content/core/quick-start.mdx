@@ -4,7 +4,6 @@ description: Framework-agnostic SVG icons for any JavaScript project
 order: 1
 ---
 
-import { InstallTabs } from '../../components'
 
 ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Fcore)
 
@@ -21,7 +20,6 @@ Framework-agnostic package providing direct access to SVG files. Works with vani
 Access icons as data URLs through the `svgs` object:
 
 ```javascript
-import { svgs } from '@web3icons/core'
 
 // Token icons
 const bitcoinIcon = svgs.tokens.brandedBTC
@@ -40,7 +38,6 @@ const uniswapIcon = svgs.exchanges.brandedUniswap
 ## Using in HTML
 
 ```javascript
-import { svgs } from '@web3icons/core'
 
 // Set as image source
 document.getElementById('btc-icon').src = svgs.tokens.brandedBTC
@@ -68,7 +65,6 @@ document.body.appendChild(img)
 All icons come in multiple visual styles:
 
 ```javascript
-import { svgs } from '@web3icons/core'
 
 // Mono - Monochromatic, single color
 svgs.tokens.monoBTC
@@ -99,13 +95,10 @@ You can also import SVG files directly:
 
 ```javascript
 // Tokens: /svgs/tokens/{variant}/{SYMBOL}.svg
-import btcSvg from '@web3icons/core/svgs/tokens/branded/BTC.svg'
 
 // Networks: /svgs/networks/{variant}/{kebab-case}.svg
-import ethSvg from '@web3icons/core/svgs/networks/branded/ethereum.svg'
 
 // Wallets: /svgs/wallets/{variant}/{kebab-case}.svg
-import mmSvg from '@web3icons/core/svgs/wallets/branded/metamask.svg'
 ```
 
 ## Dynamic Loading
@@ -135,7 +128,6 @@ const ethIcon = await loadIcon('eth', 'mono')
 Create a utility for safe icon access with fallbacks:
 
 ```javascript
-import { svgs } from '@web3icons/core'
 
 function getTokenIcon(symbol, variant = 'branded') {
   const key = `${variant}${symbol.toUpperCase()}`
@@ -151,8 +143,6 @@ const icon = getTokenIcon('btc') || '/fallback-icon.svg'
 Full TypeScript support included:
 
 ```typescript
-import { svgs } from '@web3icons/core'
-import type { TTokenMetadata } from '@web3icons/common'
 
 interface TokenDisplay {
   token: TTokenMetadata

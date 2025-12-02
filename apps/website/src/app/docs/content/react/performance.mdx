@@ -21,13 +21,10 @@ Individual imports are fully tree-shakeable. Only the icons you import are inclu
 
 ```tsx
 // Good - only BTC and ETH icons included
-import { TokenBTC, TokenETH } from '@web3icons/react'
 
 // Bad - includes ALL icons
-import * as Icons from '@web3icons/react'
 
 // Bad - breaks tree-shaking
-import { TokenBTC } from '@web3icons/react'
 const iconName = 'TokenETH'
 const Icon = Icons[iconName] // Dynamic lookup prevents tree-shaking
 ```
@@ -56,7 +53,6 @@ npx webpack-bundle-analyzer
 - Maximum performance is critical
 
 ```tsx
-import { TokenBTC, TokenETH, TokenUSDC } from '@web3icons/react'
 
 function TopTokens() {
   return (
@@ -76,7 +72,6 @@ function TopTokens() {
 - You need to display arbitrary icons
 
 ```tsx
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 function UserToken({ symbol }: { symbol: string }) {
   return <TokenIcon symbol={symbol} size={24} variant="branded" />
@@ -90,7 +85,6 @@ function UserToken({ symbol }: { symbol: string }) {
 Split dynamic components into separate chunks:
 
 ```tsx
-import { lazy, Suspense } from 'react'
 
 // Lazy load the entire dynamic icon module
 const TokenIcon = lazy(() =>
@@ -118,7 +112,6 @@ In Next.js App Router, dynamic icons in client components are automatically code
 // app/portfolio/page.tsx
 'use client'
 
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 // This chunk only loads when /portfolio is visited
 export default function Portfolio() {
@@ -139,7 +132,6 @@ const icons = ['BTC', 'ETH', 'USDC']
 icons.map((s) => <TokenIcon symbol={s} />)
 
 // Do this
-import { TokenBTC, TokenETH, TokenUSDC } from '@web3icons/react'
 const icons = [TokenBTC, TokenETH, TokenUSDC]
 icons.map((Icon, i) => <Icon key={i} />)
 ```
@@ -149,8 +141,6 @@ icons.map((Icon, i) => <Icon key={i} />)
 Prevent unnecessary re-renders:
 
 ```tsx
-import { memo } from 'react'
-import { TokenIcon } from '@web3icons/react/dynamic'
 
 const MemoizedTokenIcon = memo(TokenIcon)
 
@@ -199,7 +189,6 @@ npx source-map-explorer dist/**/*.js
 ### Runtime Performance
 
 ```tsx
-import { Profiler } from 'react'
 
 function onRender(id, phase, actualDuration) {
   console.log(`${id} ${phase}: ${actualDuration}ms`)

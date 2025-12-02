@@ -13,7 +13,6 @@ Complete reference for all @web3icons/core exports.
 The main export providing access to all icons as data URLs.
 
 ```typescript
-import { svgs } from '@web3icons/core'
 
 interface SvgCollections {
   tokens: Record<string, string>
@@ -28,7 +27,6 @@ interface SvgCollections {
 Token icons keyed by `{variant}{SYMBOL}`:
 
 ```javascript
-import { svgs } from '@web3icons/core'
 
 svgs.tokens.brandedBTC      // Bitcoin branded
 svgs.tokens.monoBTC         // Bitcoin mono
@@ -44,7 +42,6 @@ svgs.tokens.backgroundETH   // Ethereum with background
 Network icons keyed by `{variant}{PascalCase}`:
 
 ```javascript
-import { svgs } from '@web3icons/core'
 
 svgs.networks.brandedEthereum
 svgs.networks.monoEthereum
@@ -61,7 +58,6 @@ svgs.networks.monoBinanceSmartChain
 Wallet icons keyed by `{variant}{PascalCase}`:
 
 ```javascript
-import { svgs } from '@web3icons/core'
 
 svgs.wallets.brandedMetamask
 svgs.wallets.monoMetamask
@@ -78,7 +74,6 @@ svgs.wallets.monoRainbow
 Exchange icons keyed by `{variant}{PascalCase}`:
 
 ```javascript
-import { svgs } from '@web3icons/core'
 
 svgs.exchanges.brandedUniswap
 svgs.exchanges.monoUniswap
@@ -98,34 +93,24 @@ Import individual SVG files for minimal bundle size:
 
 ```javascript
 // Path: @web3icons/core/svgs/tokens/{variant}/{SYMBOL}.svg
-import btcBranded from '@web3icons/core/svgs/tokens/branded/BTC.svg'
-import btcMono from '@web3icons/core/svgs/tokens/mono/BTC.svg'
-import btcBackground from '@web3icons/core/svgs/tokens/background/BTC.svg'
 ```
 
 ### Network SVGs
 
 ```javascript
 // Path: @web3icons/core/svgs/networks/{variant}/{kebab-case}.svg
-import ethereumBranded from '@web3icons/core/svgs/networks/branded/ethereum.svg'
-import polygonMono from '@web3icons/core/svgs/networks/mono/polygon.svg'
-import bscBranded from '@web3icons/core/svgs/networks/branded/binance-smart-chain.svg'
 ```
 
 ### Wallet SVGs
 
 ```javascript
 // Path: @web3icons/core/svgs/wallets/{variant}/{kebab-case}.svg
-import metamaskBranded from '@web3icons/core/svgs/wallets/branded/metamask.svg'
-import coinbaseMono from '@web3icons/core/svgs/wallets/mono/coinbase-wallet.svg'
 ```
 
 ### Exchange SVGs
 
 ```javascript
 // Path: @web3icons/core/svgs/exchanges/{variant}/{kebab-case}.svg
-import uniswapBranded from '@web3icons/core/svgs/exchanges/branded/uniswap.svg'
-import binanceMono from '@web3icons/core/svgs/exchanges/mono/binance.svg'
 ```
 
 ## File Path Patterns
@@ -159,7 +144,6 @@ import binanceMono from '@web3icons/core/svgs/exchanges/mono/binance.svg'
 The package includes full TypeScript definitions:
 
 ```typescript
-import { svgs } from '@web3icons/core'
 
 // Type-safe access
 const btc: string = svgs.tokens.brandedBTC

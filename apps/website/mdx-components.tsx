@@ -69,7 +69,9 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         {...props}
       />
     ),
-    td: (props) => <td className="px-4 py-3 text-sm text-white/60" {...props} />,
+    td: (props) => (
+      <td className="px-4 py-3 text-sm text-white/60" {...props} />
+    ),
     pre: ({ children }) => {
       const { content, language } = extractCodeFromPre(children)
       return (
@@ -80,7 +82,6 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       )
     },
     code: ({ children, className, ...props }) => {
-      // If it has a language class, it's inside a pre block - let pre handle it
       if (className?.includes('language-')) {
         return (
           <code className={className} {...props}>
@@ -88,17 +89,18 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           </code>
         )
       }
-      // Inline code
       return (
         <code
-          className="bg-primary/10 text-primary border-primary/20 rounded border px-1.5 py-0.5 font-mono text-sm"
+          className="bg-primary/5 text-primary border-primary/10 rounded border px-1.5 py-0.5 font-mono text-sm"
           {...props}
         >
           {children}
         </code>
       )
     },
-    blockquote: (props) => <blockquote className="border-l-primary/20 border-l-2 pl-4" {...props} />,
+    blockquote: (props) => (
+      <blockquote className="border-l-primary/20 border-l-2 pl-4" {...props} />
+    ),
     ...components,
   }
 }
