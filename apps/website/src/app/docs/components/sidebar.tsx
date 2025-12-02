@@ -16,45 +16,53 @@ export interface SidebarGroup {
 
 interface Props {
   groups: SidebarGroup[]
-  className?: string
   basePath?: string
 }
 
-export function Sidebar({ groups, className, basePath = '' }: Props) {
+export function SidebarContent({
+  groups,
+  basePath = '',
+  onNavigate,
+}: Props & { onNavigate?: () => void }) {
   const pathname = usePathname()
   const selectedItem = pathname?.replace(basePath, '').replace(/^\//, '')
 
   return (
-    <div className={cx('', className)}>
-      <nav className="sticky top-24 flex flex-col gap-2">
-        {groups.map((group) => (
-          <div key={group.category} className="flex flex-col py-2">
-            {group.category && (
-              <h3 className="mb-2 px-3 font-mono text-sm capitalize text-white">
-                {group.category}
-              </h3>
-            )}
-            {group.items.map((item) => (
-              <Link
-                key={item.id}
-                href={item.href}
-                data-selected={
-                  selectedItem === item.id || pathname === item.href
-                }
-                className={cx(
-                  'w-full px-3 py-2 text-sm transition-colors',
-                  'hover:bg-gray-light text-white/60 hover:text-white',
-                  'data-[selected=true]:border-l',
-                  'data-[selected=true]:border-primary',
-                  'data-[selected=true]:text-white',
-                )}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </div>
-        ))}
-      </nav>
-    </div>
+    <>
+      {groups.map((group) => (
+        <div key={group.category} className="flex flex-col py-2">
+          {group.category && (
+            <h3 className="mb-2 px-3 font-mono text-sm capitalize text-white">
+              {group.category}
+            </h3>
+          )}
+          {group.items.map((item) => (
+            <Link
+              key={item.id}
+              href={item.href}
+              onClick={onNavigate}
+              data-selected={selectedItem === item.id || pathname === item.href}
+              className={cx(
+                'w-full px-3 py-2 text-sm transition-colors',
+                'hover:bg-gray-light text-white/60 hover:text-white',
+                'data-[selected=true]:border-l',
+                'data-[selected=true]:border-primary',
+                'data-[selected=true]:text-white',
+              )}
+            >
+              {item.name}
+            </Link>
+          ))}
+        </div>
+      ))}
+    </>
+  )
+}
+
+export function Sidebar({ groups, basePath = '' }: Props) {
+  return (
+    <nav className="sticky top-24 hidden w-48 shrink-0 flex-col gap-2 lg:flex xl:w-64">
+      <SidebarContent groups={groups} basePath={basePath} />
+    </nav>
   )
 }

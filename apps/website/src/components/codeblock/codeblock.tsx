@@ -49,7 +49,7 @@ export async function CodeBlock({
     <div
       className={cx(
         classNames,
-        'not-prose border-gray-lightest group relative flex w-full flex-col overflow-hidden rounded-lg border font-mono text-sm',
+        'not-prose border-gray-lightest group relative flex w-full flex-col overflow-hidden rounded-lg border font-mono text-xs',
       )}
     >
       <CodeBlockParts

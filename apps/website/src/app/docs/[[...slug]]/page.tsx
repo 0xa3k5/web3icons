@@ -5,8 +5,19 @@ import { compileMDX } from 'next-mdx-remote/rsc'
 import remarkGfm from 'remark-gfm'
 import rehypeSlug from 'rehype-slug'
 import { useMDXComponents } from '../../../../mdx-components'
-import * as docsComponents from '../components'
-import { TableOfContents, type TOCItem } from '../components'
+import {
+  TableOfContents,
+  type TOCItem,
+  InstallTabs,
+  LiveExample,
+  IndividualReactIcons,
+  DynamicReactIcons,
+  SizeExample,
+  DynamicTokenLookup,
+  DynamicNetworkLookup,
+  DynamicWalletLookup,
+  DynamicExchangeLookup,
+} from '../components'
 import {
   TokenBTC,
   TokenETH,
@@ -111,7 +122,6 @@ export default async function DocsPage({
 
   const components = {
     ...useMDXComponents({}),
-    ...docsComponents,
     TokenBTC,
     TokenETH,
     TokenUSDC,
@@ -121,6 +131,15 @@ export default async function DocsPage({
     NetworkIcon,
     WalletIcon,
     ExchangeIcon,
+    InstallTabs,
+    LiveExample,
+    IndividualReactIcons,
+    DynamicReactIcons,
+    SizeExample,
+    DynamicTokenLookup,
+    DynamicNetworkLookup,
+    DynamicWalletLookup,
+    DynamicExchangeLookup,
   }
 
   const headings = extractHeadings(source)
@@ -141,10 +160,8 @@ export default async function DocsPage({
 
   return (
     <>
-      <div className="w-3xl">
-        <article className="prose prose-invert max-w-none">{content}</article>
-      </div>
-      <aside className="ml-8 w-64">
+      <article className="prose prose-invert min-w-0 flex-1">{content}</article>
+      <aside className="sticky top-24 hidden h-fit w-48 shrink-0 xl:block xl:w-56">
         <TableOfContents
           headings={headings}
           githubPath={`apps/website/${relativePath}`}

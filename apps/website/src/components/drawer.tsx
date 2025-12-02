@@ -88,7 +88,7 @@ export function Drawer({ metadata, isOpen, setIsOpen }: Props) {
     >
       <_Drawer.Portal>
         <_Drawer.Overlay className="z-100 fixed inset-0 bg-black/50" />
-        <_Drawer.Content className="z-100 fixed right-0 top-0 flex h-full w-[80vw] shrink-0 md:w-[30vw]">
+        <_Drawer.Content className="z-100 fixed right-0 top-0 flex h-full w-[80dvw] shrink-0 md:w-[60vw] xl:w-[30vw]">
           <div className="border-gray-lightest bg-gray flex size-full shrink-0 select-text flex-col gap-4 overflow-y-scroll rounded-md border p-2 focus-visible:outline-none">
             <div className="flex flex-col gap-4">
               <div className="border-gray-lightest relative flex w-full items-center justify-center border-b py-16">
