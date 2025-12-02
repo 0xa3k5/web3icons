@@ -1,117 +1,106 @@
-'use client'
 import type { MDXComponents } from 'mdx/types'
 import React from 'react'
-import { CodeBlock } from './src/components'
-import NextLink from 'next/link'
+import { CodeBlock } from './src/components/codeblock/codeblock'
+import type { Language } from './src/components/codeblock/shiki'
 
-const extractCodeContent = (
-  children: any,
-): { content: string; language: string } => {
-  if (
-    React.isValidElement(children) &&
-    (children as any).props?.className?.includes('language-')
-  ) {
-    const match = (children as any).props.className.match(/language-(\w+)/)
-    const language = match ? match[1] : 'text'
-    const content =
-      typeof (children as any).props.children === 'string'
-        ? (children as any).props.children
-        : String((children as any).props.children || '')
-    return { content: content.replace(/\n$/, ''), language }
-  }
-  return { content: '', language: 'text' }
-}
-
-const Code = (props: any) => {
-  return (
-    <code
-      className="bg-gray-dark rounded px-1 py-0.5 font-mono text-sm text-gray-200"
-      {...props}
-    />
-  )
-}
-
-const Pre = (props: any) => {
-  const { children, ...rest } = props
-  const { content, language } = extractCodeContent(children)
-
-  if (!content) {
-    return <pre {...rest}>{children}</pre>
+// Extract code content and language from MDX's pre > code structure
+function extractCodeFromPre(children: React.ReactNode): {
+  content: string
+  language: Language
+} {
+  // MDX wraps code blocks as: <pre><code className="language-xxx">content</code></pre>
+  // The type can be 'code' string OR our custom code component function
+  if (React.isValidElement(children)) {
+    const element = children as React.ReactElement<{
+      className?: string
+      children?: React.ReactNode
+    }>
+    const className = element.props.className || ''
+    const langMatch = className.match(/language-(\w+)/)
+    const language = (langMatch?.[1] || 'text') as Language
+    const content = extractTextContent(element.props.children).trim()
+    return { content, language }
   }
 
-  return (
-    <CodeBlock
-      content={content}
-      language={language as any}
-      lineNumbers={false}
-      as="span"
-    />
-  )
+  // Fallback
+  return { content: extractTextContent(children), language: 'text' }
 }
 
-const Link = (props: any) => {
-  return (
-    <NextLink
-      {...props}
-      className="hover:text-primary text-white/60 transition-colors"
-    />
-  )
+function extractTextContent(node: React.ReactNode): string {
+  if (typeof node === 'string') return node
+  if (typeof node === 'number') return String(node)
+  if (!node) return ''
+  if (Array.isArray(node)) return node.map(extractTextContent).join('')
+  if (React.isValidElement(node)) {
+    return extractTextContent(
+      (node.props as { children?: React.ReactNode }).children,
+    )
+  }
+  return ''
 }
 
-const Table = (props: any) => {
-  return (
-    <div className="my-6 overflow-x-auto">
-      <table
-        className="divide-gray-lightest border-gray-lightest min-w-full divide-y border"
+export function useMDXComponents(components: MDXComponents): MDXComponents {
+  return {
+    a: (props) => (
+      <a
+        {...props}
+        className="hover:text-primary text-white/60 transition-colors"
+      />
+    ),
+    table: (props) => (
+      <div className="my-6 overflow-x-auto">
+        <table
+          className="divide-gray-lightest border-gray-lightest min-w-full divide-y border"
+          {...props}
+        />
+      </div>
+    ),
+    thead: (props) => <thead className="bg-gray-dark" {...props} />,
+    tbody: (props) => <tbody className="divide-y divide-gray-700" {...props} />,
+    tr: (props) => (
+      <tr
+        className="hover:bg-gray-lightest border-gray-lightest border-b"
         {...props}
       />
-    </div>
-  )
-}
-
-const TableHead = (props: any) => {
-  return <thead className="bg-gray-dark" {...props} />
-}
-
-const TableRow = (props: any) => {
-  return (
-    <tr
-      className="hover:bg-gray-lightest border-gray-lightest border-b"
-      {...props}
-    />
-  )
-}
-
-const TableHeader = (props: any) => {
-  return (
-    <th
-      className="px-4 py-3 text-left font-mono text-xs capitalize text-white/80"
-      {...props}
-    />
-  )
-}
-
-const TableCell = (props: any) => {
-  return <td className="px-4 py-3 text-sm text-white/60" {...props} />
-}
-
-const TableBody = (props: any) => {
-  return <tbody className="divide-y divide-gray-700" {...props} />
-}
-
-export const mdxComponents: MDXComponents = {
-  code: Code as any,
-  pre: Pre as any,
-  a: Link as any,
-  table: Table as any,
-  thead: TableHead as any,
-  tbody: TableBody as any,
-  tr: TableRow as any,
-  th: TableHeader as any,
-  td: TableCell as any,
-  CodeBlock: CodeBlock as any,
-}
-
-export function useMDXComponents(): MDXComponents {
-  return mdxComponents
+    ),
+    th: (props) => (
+      <th
+        className="px-4 py-3 text-left font-mono text-xs capitalize text-white/80"
+        {...props}
+      />
+    ),
+    td: (props) => (
+      <td className="px-4 py-3 text-sm text-white/60" {...props} />
+    ),
+    pre: ({ children }) => {
+      const { content, language } = extractCodeFromPre(children)
+      return (
+        <CodeBlock
+          tabs={[{ label: 'Code', content, language }]}
+          lineNumbers={true}
+        />
+      )
+    },
+    code: ({ children, className, ...props }) => {
+      if (className?.includes('language-')) {
+        return (
+          <code className={className} {...props}>
+            {children}
+          </code>
+        )
+      }
+      return (
+        <code
+          className="bg-primary/5 text-primary border-primary/10 rounded border px-1.5 py-0.5 font-mono text-sm"
+          {...props}
+        >
+          {children}
+        </code>
+      )
+    },
+    blockquote: (props) => (
+      <blockquote className="border-l-primary/20 border-l-2 pl-4" {...props} />
+    ),
+    ...components,
+  }
 }

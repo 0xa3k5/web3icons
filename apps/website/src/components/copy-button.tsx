@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect, useRef, PropsWithChildren } from 'react'
-import Tooltip from './tooltip'
+import { Tooltip } from './tooltip'
 import { Button } from './button'
 import type { ButtonSize } from './button'
 
@@ -44,19 +44,15 @@ export const CopyButton = ({
   }
 
   const copyIcon = (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      width="16"
-      height="16"
-      fill="none"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-    >
-      <rect height="13" rx="2" ry="2" width="13" x="9" y="9" />
-      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+      <path
+        stroke="currentColor"
+        d="M19.2 9.3h-8.1a1.8 1.8 0 0 0-1.8 1.8v8.1a1.8 1.8 0 0 0 1.8 1.8h8.1a1.8 1.8 0 0 0 1.8-1.8v-8.1a1.8 1.8 0 0 0-1.8-1.8Z"
+      />
+      <path
+        stroke="currentColor"
+        d="M5.7 14.7h-.9A1.8 1.8 0 0 1 3 12.9V4.8A1.8 1.8 0 0 1 4.8 3h8.1a1.8 1.8 0 0 1 1.8 1.8v.9"
+      />
     </svg>
   )
 

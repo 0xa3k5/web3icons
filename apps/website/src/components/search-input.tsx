@@ -1,13 +1,12 @@
 import cx from 'classnames'
-import { PropsWithChildren } from 'react'
+import { PropsWithChildren, Ref } from 'react'
 
 interface Props {
   className?: string
   placeholder: string
   value: string
-  // eslint-disable-next-line no-unused-vars
+  ref?: Ref<HTMLInputElement>
   onInput: (event: React.ChangeEvent<HTMLInputElement>) => void
-  // eslint-disable-next-line no-unused-vars
   onKeyDown?: (event: React.KeyboardEvent<HTMLInputElement>) => void
   role?: string
   'aria-autocomplete'?: 'list' | 'none' | 'inline' | 'both'
@@ -16,23 +15,25 @@ interface Props {
   'aria-activedescendant'?: string
 }
 
-export default function SearchInput({
+export const SearchInput = ({
   className,
   placeholder,
   value,
   onInput,
   children,
+  ref,
   ...ariaProps
-}: PropsWithChildren<Props>): JSX.Element {
+}: PropsWithChildren<Props>) => {
   return (
     <div
       className={cx(
         className,
-        'border-gray-lightest flex items-center rounded-md border px-4 py-2 duration-150',
+        'border-gray-lightest flex items-center rounded-md border py-2 pl-4 pr-2 duration-150',
         'group focus-within:border-white/20 focus-within:text-white',
       )}
     >
       <input
+        ref={ref}
         placeholder={placeholder}
         value={value}
         type="search"

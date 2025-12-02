@@ -18,40 +18,58 @@ body {
   background-color: var(--color-gray-darkest);
 }
 
-@utility prose {
-  --tw-prose-body: rgb(255 255 255 / 0.6);
+.prose {
+  --tw-prose-body: #9394A2;
   --tw-prose-headings: var(--color-white);
   --tw-prose-bold: var(--color-white);
   --tw-prose-quote-borders: rgb(255 255 255 / 0.3);
   --tw-prose-quotes: rgb(255 255 255 / 0.7);
-  --tw-prose-a: var(--color-white);
-
-  & h1, & h2, & h3, & h4, & h5, & h6 {
-    font-weight: 400;
-  }
-
-  & li, & p, & a, & span, & ul, & ol, & blockquote, & strong {
-    font-weight: 400;
-    font-size: 0.875rem;
-  }
-
-  & h1 {
-    font-size: 1.5rem;  
-  }
-
-  & h2 {
-    font-size: 1.25rem;
-  }
-
-  & h3, & h4, & h5 {
-    font-size: 1rem;
-  }
-
-  & h6 {
-    font-size: 0.875rem;
-  }
-
+  --tw-prose-links: var(--color-white);
 }
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  font-weight: 400;
+  
+}
+
+.prose li,
+.prose p,
+.prose a,
+.prose span,
+.prose ul,
+.prose ol,
+.prose blockquote,
+.prose strong {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.prose h1 { font-size: 2rem; }
+.prose h2 { font-size: 1.5rem; }
+.prose h3 { font-size: 1.25rem; }
+.prose h4,
+.prose h5,
+.prose h6 { font-size: 1rem; }
+
+.prose code::before,
+.prose code::after {
+  content: none;
+}
+
+.prose blockquote p:first-of-type::before,
+.prose blockquote p:last-of-type::after {
+  content: none;
+}
+
+.prose th {
+  font-weight: 400;
+}
+
 @utility no-scrollbar {
   @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
 }

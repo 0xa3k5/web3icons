@@ -1,0 +1,283 @@
+---
+title: Contributing
+description: How to contribute icons and code to Web3 Icons
+order: 99
+---
+
+# Contributing
+
+Thank you for your interest in contributing to Web3 Icons! This guide covers how to add new icons, update existing ones, and contribute to the codebase.
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/0xa3k5/web3icons.git
+cd web3icons
+
+# Install dependencies (uses Bun)
+bun install
+
+# Build all packages
+bun build:packages
+```
+
+## Adding New Icons
+
+### 1. Prepare SVG Files
+
+Create your SVG files following these specifications:
+
+| Requirement | Value       |
+| ----------- | ----------- |
+| Canvas size | 24×24 px    |
+| Viewbox     | `0 0 24 24` |
+| Format      | SVG         |
+
+**Naming conventions:**
+
+- **Tokens**: UPPERCASE symbol (e.g., `BTC.svg`, `ETH.svg`)
+- **Networks**: kebab-case (e.g., `ethereum.svg`, `binance-smart-chain.svg`)
+- **Wallets**: kebab-case (e.g., `metamask.svg`, `coinbase-wallet.svg`)
+- **Exchanges**: kebab-case (e.g., `uniswap.svg`, `binance.svg`)
+
+### 2. Add SVG Files
+
+Place your SVG files in the `raw-svgs/` directory:
+
+```
+raw-svgs/
+├── tokens/
+│   ├── branded/       # brand colors, official version
+│   │   └── BTC.svg
+│   ├── mono/          # monochrome svg must be in #ffffff
+│   │   └── BTC.svg
+│   └── background/    # with background
+│       └── BTC.svg
+├── networks/
+│   ├── branded/
+│   │   └── ethereum.svg
+│   └── mono/
+│       └── ethereum.svg
+├── wallets/
+│   ├── branded/
+│   │   └── metamask.svg
+│   └── mono/
+│       └── metamask.svg
+└── exchanges/
+    ├── branded/
+    │   └── uniswap.svg
+    └── mono/
+        └── uniswap.svg
+```
+
+### 3. Run the Add Icons Script
+
+```bash
+bun add-icons
+```
+
+The CLI will:
+
+1. Detect new SVG files in `raw-svgs/`
+2. Prompt for metadata (name, ID, contract addresses, etc.)
+3. Add entries to the metadata JSON files
+
+### 4. Build and Verify
+
+```bash
+# Build all packages
+bun build:packages
+```
+
+Verify your icons appear in:
+
+- `packages/core/src/svgs/` (optimized SVGs)
+- `packages/react/src/icons/` (React components)
+
+## Icon Variants
+
+Each icon can have up to three variants:
+
+| Variant      | Description                           | Required    |
+| ------------ | ------------------------------------- | ----------- |
+| `branded`    | Official brand colors                 | Recommended |
+| `mono`       | Single color, inherits `currentColor` | Recommended |
+| `background` | with background                       | Yes         |
+
+## Metadata Structure
+
+### Token Metadata
+
+```json
+{
+  "id": "bitcoin",
+  "filePath": "token:BTC",
+  "symbol": "BTC",
+  "name": "Bitcoin",
+  "marketCapRank": 1,
+  "addresses": {
+    "ethereum": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "binance-smart-chain": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c"
+  },
+  "variants": ["branded", "mono", "background"]
+}
+```
+
+### Network Metadata
+
+```json
+{
+  "id": "ethereum",
+  "filePath": "network:ethereum",
+  "chainId": 1,
+  "caip2id": "eip155:1",
+  "name": "Ethereum",
+  "shortName": "ETH",
+  "nativeCoinId": "ethereum",
+  "variants": ["branded", "mono"]
+}
+```
+
+### Wallet Metadata
+
+```json
+{
+  "id": "metamask",
+  "filePath": "wallet:metamask",
+  "name": "MetaMask",
+  "variants": ["branded", "mono"]
+}
+```
+
+### Exchange Metadata
+
+```json
+{
+  "id": "uniswap",
+  "filePath": "exchange:uniswap",
+  "name": "Uniswap",
+  "type": "dex",
+  "variants": ["branded", "mono"]
+}
+```
+
+## Sharing Icons (filePath)
+
+Multiple metadata entries can reference the same SVG file using `filePath`:
+
+```json
+// Wrapped Bitcoin uses Bitcoin's icon
+{
+  "id": "wrapped-bitcoin",
+  "filePath": "token:BTC",
+  "symbol": "WBTC",
+  "name": "Wrapped Bitcoin"
+}
+
+// Sepolia testnet uses Ethereum's icon
+{
+  "id": "sepolia",
+  "filePath": "network:ethereum",
+  "name": "Sepolia Testnet",
+  "chainId": 11155111
+}
+```
+
+Use `bun add-metadata` to add entries that share existing icons.
+
+## CLI Commands
+
+| Command                  | Description                                      |
+| ------------------------ | ------------------------------------------------ |
+| `bun add-icons`          | Add new icons (detects git changes in raw-svgs/) |
+| `bun add-metadata`       | Add metadata for existing icons (icon sharing)   |
+| `bun delete-icons`       | Remove icons and their metadata                  |
+| `bun check-missing`      | Find icons without metadata                      |
+| `bun validate-svgs`      | Validate SVG files                               |
+| `bun validate-filenames` | Check filename conventions                       |
+
+## Build Commands
+
+| Command              | Description                               |
+| -------------------- | ----------------------------------------- |
+| `bun run build`      | Build all packages and apps               |
+| `bun build:packages` | Build only packages (common, core, react) |
+| `bun build:common`   | Generate metadata TypeScript from JSON    |
+| `bun build:core`     | Optimize SVGs, generate exports           |
+| `bun build:react`    | Generate React components                 |
+| `bun format`         | Format code with Prettier                 |
+
+## SVG Guidelines
+
+### Do
+
+- Use a 24×24px viewBox
+- Keep file size minimal
+- Use paths instead of shapes where possible
+- Center the icon within the frame
+
+### Don't
+
+- Include embedded fonts
+- Use external references
+- Include JavaScript
+- Include unnecessary metadata
+
+### Optimization
+
+SVGs are automatically optimized during build using SVGO:
+
+- Removes unnecessary metadata
+- Minifies paths and transforms
+- Prefixes IDs to prevent conflicts
+- Converts styles for React compatibility
+
+## Testing Your Changes
+
+```bash
+# Build packages
+bun build:packages
+
+# Start the website dev server
+bun dev
+
+# Check generated files
+ls packages/core/src/svgs/tokens/branded/
+ls packages/react/src/icons/tokens/
+```
+
+## Submitting Changes
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b add-new-icon`
+3. Add your icons and metadata
+4. Build and test: `bun build:packages`
+5. Format: `bun format`
+6. Commit: `git commit -m "Add XYZ token icon"`
+7. Push and create a Pull Request
+
+## Getting Help
+
+- [Open an issue](https://github.com/0xa3k5/web3icons/issues) for bugs or feature requests
+- Check existing icons in `raw-svgs/` for reference
+- Review the metadata files in `packages/common/src/metadata/`
+
+## Repository Structure
+
+```
+web3icons/
+├── packages/
+│   ├── common/          # Metadata and TypeScript types
+│   ├── core/            # Optimized SVGs
+│   └── react/           # React components
+├── apps/
+│   ├── website/         # website
+│   └── figma-plugin/    # Figma plugin
+├── scripts/             # Build scripts and CLI tools
+├── raw-svgs/            # Source SVG files (add icons here)
+```
+
+## License
+
+By contributing, you agree that your contributions will be licensed under the MIT License.

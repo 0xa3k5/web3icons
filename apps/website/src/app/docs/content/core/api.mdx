@@ -1,0 +1,171 @@
+---
+title: API Reference
+description: Complete API reference for @web3icons/core
+order: 2
+---
+
+# API Reference
+
+Complete reference for all @web3icons/core exports.
+
+## SVG Collections
+
+The main export providing access to all icons as data URLs.
+
+```typescript
+
+interface SvgCollections {
+  tokens: Record<string, string>
+  networks: Record<string, string>
+  wallets: Record<string, string>
+  exchanges: Record<string, string>
+}
+```
+
+### tokens
+
+Token icons keyed by `{variant}{SYMBOL}`:
+
+```javascript
+
+svgs.tokens.brandedBTC      // Bitcoin branded
+svgs.tokens.monoBTC         // Bitcoin mono
+svgs.tokens.backgroundBTC   // Bitcoin with background
+
+svgs.tokens.brandedETH      // Ethereum branded
+svgs.tokens.monoETH         // Ethereum mono
+svgs.tokens.backgroundETH   // Ethereum with background
+```
+
+### networks
+
+Network icons keyed by `{variant}{PascalCase}`:
+
+```javascript
+
+svgs.networks.brandedEthereum
+svgs.networks.monoEthereum
+
+svgs.networks.brandedPolygon
+svgs.networks.monoPolygon
+
+svgs.networks.brandedBinanceSmartChain
+svgs.networks.monoBinanceSmartChain
+```
+
+### wallets
+
+Wallet icons keyed by `{variant}{PascalCase}`:
+
+```javascript
+
+svgs.wallets.brandedMetamask
+svgs.wallets.monoMetamask
+
+svgs.wallets.brandedCoinbaseWallet
+svgs.wallets.monoCoinbaseWallet
+
+svgs.wallets.brandedRainbow
+svgs.wallets.monoRainbow
+```
+
+### exchanges
+
+Exchange icons keyed by `{variant}{PascalCase}`:
+
+```javascript
+
+svgs.exchanges.brandedUniswap
+svgs.exchanges.monoUniswap
+
+svgs.exchanges.brandedBinance
+svgs.exchanges.monoBinance
+
+svgs.exchanges.brandedCoinbase
+svgs.exchanges.monoCoinbase
+```
+
+## Direct SVG Imports
+
+Import individual SVG files for minimal bundle size:
+
+### Token SVGs
+
+```javascript
+// Path: @web3icons/core/svgs/tokens/{variant}/{SYMBOL}.svg
+```
+
+### Network SVGs
+
+```javascript
+// Path: @web3icons/core/svgs/networks/{variant}/{kebab-case}.svg
+```
+
+### Wallet SVGs
+
+```javascript
+// Path: @web3icons/core/svgs/wallets/{variant}/{kebab-case}.svg
+```
+
+### Exchange SVGs
+
+```javascript
+// Path: @web3icons/core/svgs/exchanges/{variant}/{kebab-case}.svg
+```
+
+## File Path Patterns
+
+| Type | Path Pattern | Example |
+| ---- | ------------ | ------- |
+| Token | `/svgs/tokens/{variant}/{SYMBOL}.svg` | `/svgs/tokens/branded/BTC.svg` |
+| Network | `/svgs/networks/{variant}/{kebab-case}.svg` | `/svgs/networks/branded/ethereum.svg` |
+| Wallet | `/svgs/wallets/{variant}/{kebab-case}.svg` | `/svgs/wallets/branded/metamask.svg` |
+| Exchange | `/svgs/exchanges/{variant}/{kebab-case}.svg` | `/svgs/exchanges/branded/uniswap.svg` |
+
+## Object Key Patterns
+
+| Type | Key Pattern | Example |
+| ---- | ----------- | ------- |
+| Token | `{variant}{SYMBOL}` | `brandedBTC`, `monoETH` |
+| Network | `{variant}{PascalCase}` | `brandedEthereum`, `monoPolygon` |
+| Wallet | `{variant}{PascalCase}` | `brandedMetamask`, `monoRainbow` |
+| Exchange | `{variant}{PascalCase}` | `brandedUniswap`, `monoBinance` |
+
+## Variants
+
+| Variant | Description | Available For |
+| ------- | ----------- | ------------- |
+| `branded` | Official brand colors | All icon types |
+| `mono` | Monochromatic, single color | All icon types |
+| `background` | Circular background | Tokens only |
+
+## TypeScript Support
+
+The package includes full TypeScript definitions:
+
+```typescript
+
+// Type-safe access
+const btc: string = svgs.tokens.brandedBTC
+
+// Dynamic access with type assertion
+function getToken(symbol: string, variant: 'branded' | 'mono' = 'branded') {
+  const key = `${variant}${symbol.toUpperCase()}` as keyof typeof svgs.tokens
+  return svgs.tokens[key]
+}
+```
+
+## Bundle Analysis
+
+Check what's included in your bundle:
+
+```bash
+# Vite
+npx vite-bundle-visualizer
+
+# Webpack
+npx webpack-bundle-analyzer
+
+# Next.js
+ANALYZE=true npm run build
+```

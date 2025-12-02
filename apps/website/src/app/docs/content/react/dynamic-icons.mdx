@@ -1,0 +1,114 @@
+---
+title: Dynamic Icons
+description: Deep dive into runtime icon loading with @web3icons/react dynamic components
+order: 3
+---
+
+# Dynamic Icons
+
+Dynamic icon components load icons at runtime based on props. They're perfect for user-driven interfaces where you don't know which icons you'll need at build time.
+
+#### When to Use Dynamic Icons
+
+> Dynamic components are client-only and include all icons in the bundle. For optimal bundle size, prefer individual imports when possible.
+
+| Use Case                  | Recommendation                      |
+| ------------------------- | ----------------------------------- |
+| Known icons at build time | Use individual imports (`TokenBTC`) |
+| User wallet displays      | Use `TokenIcon` with symbol         |
+| Portfolio tracking        | Use `TokenIcon` with address lookup |
+| Network selection UI      | Use `NetworkIcon` with chainId      |
+| Wallet connection modal   | Use `WalletIcon`                    |
+
+## TokenIcon
+
+Looks up tokens by symbol or contract address.
+
+<DynamicTokenLookup />
+
+## NetworkIcon
+
+Look up blockchain networks by name, chain ID, or CAIP-2 identifier.
+
+<DynamicNetworkLookup />
+
+## WalletIcon
+
+Display wallet icons in connection modals and account displays.
+
+<DynamicWalletLookup />
+
+## ExchangeIcon
+
+Display centralized (CEX) and decentralized (DEX) exchange icons.
+
+<DynamicExchangeLookup />
+
+## ID Conventions
+
+Dynamic components use consistent ID patterns for lookups:
+
+| Type     | ID Format        | Examples                          |
+| -------- | ---------------- | --------------------------------- |
+| Token    | Uppercase symbol | `BTC`, `ETH`, `USDC`              |
+| Network  | kebab-case       | `ethereum`, `binance-smart-chain` |
+| Wallet   | kebab-case       | `metamask`, `coinbase-wallet`     |
+| Exchange | kebab-case       | `uniswap`, `pancakeswap`          |
+
+## Fallback Strategies
+
+Handle missing icons gracefully with the `fallback` prop.
+
+```tsx
+// String fallback - renders as text
+<TokenIcon symbol="UNKNOWN" fallback="?" />
+
+// URL fallback - renders as <img>
+<TokenIcon symbol="CUSTOM" fallback="https://example.com/token.png" />
+
+// Component fallback - full control
+<TokenIcon
+  symbol="UNKNOWN"
+  fallback={
+    <div className="size-8 rounded-full bg-gradient-to-br from-purple-500 to-pink-500" />
+  }
+/>
+```
+
+## Handling Edge Cases
+
+### Missing Icons
+
+```tsx
+// Returns null by default
+<TokenIcon symbol="NONEXISTENT" />
+
+// With fallback
+<TokenIcon symbol="NONEXISTENT" fallback={<PlaceholderIcon />} />
+```
+
+### Multiple Tokens with Same Symbol
+
+Some tokens share symbols. Use contract address for precision:
+
+```tsx
+// Could match multiple tokens
+<TokenIcon symbol="USDT" />
+
+// Precise lookup by address
+<TokenIcon
+  address="0xdac17f958d2ee523a2206206994597c13d831ec7"
+  network="ethereum"
+/>
+```
+
+### Network Aliases
+
+Networks support multiple lookup methods:
+
+```tsx
+// All of these work for Binance Smart Chain
+<NetworkIcon network="binance-smart-chain" />
+<NetworkIcon network="bsc" />
+<NetworkIcon chainId={56} />
+```

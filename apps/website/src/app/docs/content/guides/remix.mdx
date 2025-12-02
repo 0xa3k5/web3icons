@@ -1,0 +1,345 @@
+---
+title: Remix
+description: Using web3icons with Remix
+order: 3
+---
+
+
+# Remix Integration
+
+Set up @web3icons/react with Remix for full-stack React applications.
+
+## Installation
+
+<InstallTabs pkg="@web3icons/react" />
+
+## Basic Setup
+
+Import and use icons in your routes:
+
+```tsx
+// app/routes/_index.tsx
+
+export default function Index() {
+  return (
+    <div className="flex gap-4">
+      <TokenBTC size={32} variant="branded" />
+      <TokenETH size={32} variant="branded" />
+      <NetworkEthereum size={32} variant="branded" />
+    </div>
+  )
+}
+```
+
+## Server vs Client Rendering
+
+### Static Icons (Server-Safe)
+
+Individual icon components render on the server without issues:
+
+```tsx
+// app/routes/tokens.tsx
+
+export default function Tokens() {
+  return (
+    <div className="grid grid-cols-3 gap-4">
+      <div className="flex flex-col items-center gap-2">
+        <TokenBTC size={48} variant="branded" />
+        <span>Bitcoin</span>
+      </div>
+      <div className="flex flex-col items-center gap-2">
+        <TokenETH size={48} variant="branded" />
+        <span>Ethereum</span>
+      </div>
+      <div className="flex flex-col items-center gap-2">
+        <TokenUSDC size={48} variant="branded" />
+        <span>USDC</span>
+      </div>
+    </div>
+  )
+}
+```
+
+### Dynamic Icons (Client-Only)
+
+Dynamic components require client-side rendering:
+
+```tsx
+// app/components/token-icon-client.tsx
+
+interface Props {
+  symbol: string
+  size?: number
+}
+
+export function TokenIconClient({ symbol, size = 32 }: Props) {
+  return <TokenIcon symbol={symbol} size={size} variant="branded" />
+}
+```
+
+```tsx
+// app/routes/portfolio.tsx
+
+export default function Portfolio() {
+  const tokens = ['BTC', 'ETH', 'SOL', 'AVAX']
+
+  return (
+    <div className="grid grid-cols-4 gap-4">
+      {tokens.map((symbol) => (
+        <ClientOnly key={symbol} fallback={<IconPlaceholder />}>
+          {() => <TokenIconClient symbol={symbol} />}
+        </ClientOnly>
+      ))}
+    </div>
+  )
+}
+
+function IconPlaceholder() {
+  return <div className="h-8 w-8 animate-pulse rounded-full bg-gray-200" />
+}
+```
+
+## With Loaders
+
+Combine with Remix loaders for dynamic data:
+
+```tsx
+// app/routes/wallet.$address.tsx
+
+interface Asset {
+  symbol: string
+  name: string
+  balance: string
+}
+
+export async function loader({ params }: LoaderFunctionArgs) {
+  const assets = await fetchWalletAssets(params.address!)
+  return json({ assets })
+}
+
+export default function Wallet() {
+  const { assets } = useLoaderData<typeof loader>()
+
+  return (
+    <div className="space-y-4">
+      {assets.map((asset) => (
+        <div key={asset.symbol} className="flex items-center gap-4 border-b pb-4">
+          <TokenIcon symbol={asset.symbol} size={40} variant="branded" />
+          <div>
+            <div className="font-semibold">{asset.name}</div>
+            <div className="text-sm text-gray-500">
+              {asset.balance} {asset.symbol}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  )
+}
+```
+
+## Metadata and Types
+
+Use @web3icons/common for type-safe development:
+
+```tsx
+// app/routes/api.tokens.tsx
+
+export async function loader() {
+  // Filter and transform metadata on the server
+  const topTokens = tokens
+    .filter((t): t is TTokenMetadata & { marketCapRank: number } =>
+      t.marketCapRank !== null && t.marketCapRank <= 100
+    )
+    .sort((a, b) => a.marketCapRank - b.marketCapRank)
+    .slice(0, 20)
+
+  return json({ tokens: topTokens })
+}
+```
+
+## Using @web3icons/core
+
+For image-based rendering:
+
+```tsx
+// app/routes/icons.tsx
+
+export default function Icons() {
+  return (
+    <div className="flex gap-4">
+      <img src={svgs.tokens.brandedBTC} alt="Bitcoin" width={32} height={32} />
+      <img src={svgs.tokens.brandedETH} alt="Ethereum" width={32} height={32} />
+      <img src={svgs.networks.brandedPolygon} alt="Polygon" width={32} height={32} />
+    </div>
+  )
+}
+```
+
+## Bundle Configuration
+
+### Optimize Server Bundle
+
+Add to remix.config.js if needed:
+
+```javascript
+// remix.config.js
+module.exports = {
+  serverDependenciesToBundle: [
+    // Usually not needed, but if you encounter issues:
+    // '@web3icons/react',
+  ],
+}
+```
+
+### Analyze Bundle Size
+
+```bash
+# Build with stats
+npx remix build --sourcemap
+
+# Analyze
+npx source-map-explorer build/client/**/*.js
+```
+
+## Example: Network Switcher
+
+```tsx
+// app/components/network-switcher.tsx
+
+const networks = [
+  { chainId: 1, name: 'Ethereum', network: 'ethereum' },
+  { chainId: 137, name: 'Polygon', network: 'polygon' },
+  { chainId: 42161, name: 'Arbitrum', network: 'arbitrum' },
+  { chainId: 10, name: 'Optimism', network: 'optimism' },
+  { chainId: 8453, name: 'Base', network: 'base' },
+]
+
+interface Props {
+  currentChainId: number
+  onSwitch: (chainId: number) => void
+}
+
+export function NetworkSwitcher({ currentChainId, onSwitch }: Props) {
+  const [isOpen, setIsOpen] = useState(false)
+  const current = networks.find((n) => n.chainId === currentChainId) || networks[0]
+
+  return (
+    <div className="relative">
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex items-center gap-2 rounded-lg border px-3 py-2"
+      >
+        <NetworkIcon chainId={current.chainId} size={20} variant="branded" />
+        <span>{current.name}</span>
+      </button>
+
+      {isOpen && (
+        <div className="absolute right-0 mt-2 w-48 rounded-lg border bg-white shadow-lg">
+          {networks.map((network) => (
+            <button
+              key={network.chainId}
+              onClick={() => {
+                onSwitch(network.chainId)
+                setIsOpen(false)
+              }}
+              className={`flex w-full items-center gap-2 px-3 py-2 hover:bg-gray-50 ${
+                network.chainId === currentChainId ? 'bg-blue-50' : ''
+              }`}
+            >
+              <NetworkIcon chainId={network.chainId} size={20} variant="branded" />
+              <span>{network.name}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+```
+
+## Example: Token Search
+
+```tsx
+// app/routes/search.tsx
+
+export async function loader({ request }: { request: Request }) {
+  const url = new URL(request.url)
+  const query = url.searchParams.get('q')?.toLowerCase() || ''
+
+  const results = query
+    ? tokens
+        .filter(
+          (t) =>
+            t.name.toLowerCase().includes(query) ||
+            t.symbol.toLowerCase().includes(query)
+        )
+        .slice(0, 20)
+    : []
+
+  return json({ results })
+}
+
+export default function Search() {
+  const { results } = useLoaderData<typeof loader>()
+  const [searchParams] = useSearchParams()
+  const query = searchParams.get('q') || ''
+
+  return (
+    <div className="mx-auto max-w-lg p-4">
+      <Form method="get" className="mb-6">
+        <input
+          type="text"
+          name="q"
+          defaultValue={query}
+          placeholder="Search tokens..."
+          className="w-full rounded-lg border px-4 py-2"
+        />
+      </Form>
+
+      <div className="space-y-2">
+        {results.map((token) => (
+          <div
+            key={token.id}
+            className="flex items-center gap-3 rounded-lg border p-3"
+          >
+            <TokenIcon symbol={token.symbol} size={32} variant="branded" />
+            <div>
+              <div className="font-semibold">{token.symbol}</div>
+              <div className="text-sm text-gray-500">{token.name}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+```
+
+## Hydration Tips
+
+To avoid hydration mismatches with dynamic icons:
+
+1. Use `ClientOnly` from remix-utils for dynamic components
+2. Provide consistent fallback placeholders
+3. Use static icons for critical above-the-fold content
+
+```tsx
+// Recommended pattern
+
+export default function Page() {
+  return (
+    <>
+      {/* Hero - uses static icons for fast paint */}
+      <header>
+        <TokenBTC size={48} variant="branded" />
+      </header>
+
+      {/* Below fold - dynamic icons are fine */}
+      <main>
+        <TokenIcon symbol={userSelectedToken} size={32} variant="branded" />
+      </main>
+    </>
+  )
+}
+```

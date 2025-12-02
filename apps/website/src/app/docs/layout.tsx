@@ -1,27 +1,19 @@
 import { ReactNode } from 'react'
-import { generateNavigation } from '../../lib/docs'
-import { Sidebar } from '../../components/sidebar'
-import cx from 'classnames'
+import { generateNavigation } from './lib/docs'
+import { Sidebar, MobileSidebar } from './components'
 
 interface DocsLayoutProps {
   children: ReactNode
 }
 
-export default async function DocsLayout({ children }: DocsLayoutProps) {
-  const sidebarGroups = await generateNavigation()
+export default function DocsLayout({ children }: DocsLayoutProps) {
+  const sidebarGroups = generateNavigation()
 
   return (
-    <div className="grid h-full w-full grid-cols-12 gap-2">
-      <Sidebar groups={sidebarGroups} basePath="/docs" className="col-span-2" />
-      <main className="col-span-10 min-w-0">
-        <div className="py-6">
-          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-            <article className={cx('prose prose-invert max-w-none')}>
-              {children}
-            </article>
-          </div>
-        </div>
-      </main>
+    <div className="mx-auto flex max-w-7xl gap-8 px-4 py-8 lg:gap-16 lg:py-16">
+      <Sidebar groups={sidebarGroups} basePath="/docs" />
+      <MobileSidebar groups={sidebarGroups} basePath="/docs" />
+      {children}
     </div>
   )
 }

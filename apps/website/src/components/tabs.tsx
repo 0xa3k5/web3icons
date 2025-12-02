@@ -18,7 +18,7 @@ interface TabsProps {
   groupName?: string
 }
 
-export default function Tabs({
+export const Tabs = ({
   className,
   tabs,
   onTabChange,
@@ -27,7 +27,7 @@ export default function Tabs({
   separator = true,
   slotAfter,
   groupName,
-}: TabsProps): JSX.Element {
+}: TabsProps) => {
   const [indicatorWidth, setIndicatorWidth] = useState(0)
   const [indicatorOffset, setIndicatorOffset] = useState(0)
   const activeTabRef = useRef<HTMLLabelElement | null>(null)

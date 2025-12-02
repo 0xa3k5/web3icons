@@ -13,13 +13,13 @@ interface Props {
   forceFullPage?: boolean
 }
 
-export default function IconCard({
+export const IconCard = ({
   className,
   metadata,
   type: passedType,
   variant: passedVariant,
   forceFullPage = false,
-}: Props): JSX.Element {
+}: Props) => {
   const {
     variant: contextVariant,
     type: contextType,

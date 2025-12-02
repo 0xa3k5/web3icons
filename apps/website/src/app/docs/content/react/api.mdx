@@ -1,0 +1,169 @@
+---
+title: API Reference
+description: Complete API reference for @web3icons/react components
+order: 2
+---
+
+# API Reference
+
+Complete reference for all @web3icons/react components and TypeScript types.
+
+## Common Props
+
+All icon components (both individual and dynamic) share these base props:
+
+| Prop      | Type                                  | Default          | Description                 |
+| --------- | ------------------------------------- | ---------------- | --------------------------- |
+| size      | `string \| number`                    | `24`             | Icon size in pixels         |
+| variant   | `'mono' \| 'branded' \| 'background'` | `'mono'`         | Visual style                |
+| color     | `string`                              | `'currentColor'` | Color (mono variant only)   |
+| className | `string`                              | -                | CSS class name              |
+| ...props  | `SVGProps<SVGSVGElement>`             | -                | All standard SVG attributes |
+
+## Individual Components
+
+Static imports for optimal bundle size. Use when you know which icons you need at build time.
+
+### Naming Convention
+
+| Type     | Pattern                | Examples                                      |
+| -------- | ---------------------- | --------------------------------------------- |
+| Token    | `Token{SYMBOL}`        | `TokenBTC`, `TokenETH`, `TokenUSDC`           |
+| Network  | `Network{PascalCase}`  | `NetworkEthereum`, `NetworkBinanceSmartChain` |
+| Wallet   | `Wallet{PascalCase}`   | `WalletMetamask`, `WalletCoinbase`            |
+| Exchange | `Exchange{PascalCase}` | `ExchangeUniswap`, `ExchangeBinance`          |
+
+### TypeScript Interface
+
+```tsx
+interface IconProps extends React.SVGProps<SVGSVGElement> {
+  size?: string | number
+  variant?: 'mono' | 'branded' | 'background'
+  color?: string
+  className?: string
+}
+```
+
+### Usage
+
+```tsx
+
+// Basic usage
+<TokenBTC />
+
+// With props
+<TokenBTC size={48} variant="branded" />
+
+// With SVG props
+<NetworkEthereum
+  size={24}
+  onClick={() => console.log('clicked')}
+  aria-label="Ethereum network"
+/>
+```
+
+## Dynamic Components
+
+Runtime icon loading based on props. Use when icons are determined at runtime.
+
+> Dynamic components are client-only (`'use client'`) and include all icons in the bundle.
+
+### TokenIcon
+
+Look up token icons by symbol or contract address.
+
+```tsx
+interface TokenIconProps extends IconProps {
+  symbol?: string // Token symbol (e.g., "BTC", "ETH")
+  address?: string // Contract address
+  network?: string // Network for address lookup
+  fallback?: React.ReactNode | string // Fallback for missing icons
+}
+```
+
+<DynamicTokenLookup />
+
+### NetworkIcon
+
+Look up network icons by name, chain ID, or CAIP-2 ID.
+
+```tsx
+interface NetworkIconProps extends IconProps {
+  network?: string // Network name or ID
+  chainId?: number | string // EVM chain ID
+  fallback?: React.ReactNode | string
+}
+```
+
+<DynamicNetworkLookup />
+
+### WalletIcon
+
+Look up wallet icons by name or ID.
+
+```tsx
+// interface WalletIconProps extends IconProps {
+//   name: string // Wallet name or ID
+//   fallback?: React.ReactNode | string
+// }
+```
+
+<DynamicWalletLookup />
+
+### ExchangeIcon
+
+Look up exchange icons by name or ID.
+
+```tsx
+// interface ExchangeIconProps extends IconProps {
+//   name: string // Exchange name or ID
+//   fallback?: React.ReactNode | string
+// }
+```
+
+<DynamicExchangeLookup />
+
+## TypeScript Types
+
+Import types from `@web3icons/common`:
+
+```tsx
+import {
+  TVariant, // 'mono' | 'branded' | 'background'
+  TType, // 'token' | 'network' | 'wallet' | 'exchange'
+  ITokenMetadata, // Token metadata interface
+  INetworkMetadata, // Network metadata interface
+  IWalletMetadata, // Wallet metadata interface
+  IExchangeMetadata, // Exchange metadata interface
+} from '@web3icons/common'
+```
+
+## Error Handling
+
+Dynamic components return `null` for missing icons by default. Use the `fallback` prop to customize:
+
+```tsx
+// No fallback - renders nothing if not found
+<TokenIcon symbol="INVALID" />
+
+// URL fallback (renders as img)
+<TokenIcon symbol="CUSTOM" fallback="https://example.com/icon.png" />
+
+// Component fallback
+<TokenIcon
+  symbol="INVALID"
+  fallback={<div className="size-6 bg-gray-200 rounded-full" />}
+/>
+```
+
+For granular error handling, wrap in an error boundary:
+
+```tsx
+function SafeIcon({ symbol }: { symbol: string }) {
+  return (
+    <ErrorBoundary fallback={<FallbackIcon />}>
+      <TokenIcon symbol={symbol} variant="branded" />
+    </ErrorBoundary>
+  )
+}
+```

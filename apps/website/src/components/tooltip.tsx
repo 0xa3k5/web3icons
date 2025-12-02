@@ -10,13 +10,13 @@ interface TooltipProps {
   buttonRef?: RefObject<HTMLDivElement>
 }
 
-export default function Tooltip({
+export const Tooltip = ({
   text,
   toggle,
   position = 'top',
   className,
   buttonRef,
-}: TooltipProps): JSX.Element | null {
+}: TooltipProps) => {
   const [visible, setVisible] = useState(false)
   const [coords, setCoords] = useState({ x: 0, y: 0 })
 
