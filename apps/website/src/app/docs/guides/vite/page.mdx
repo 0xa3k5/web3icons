@@ -1,0 +1,338 @@
+---
+title: Vite
+description: Using web3icons with Vite and React
+order: 2
+---
+
+import { InstallTabs } from '../../components'
+
+# Vite Integration
+
+Set up @web3icons/react or @web3icons/core with Vite for fast development and optimized builds.
+
+## Installation
+
+<InstallTabs pkg="@web3icons/react" />
+
+## Basic Setup
+
+No additional configuration required. Import and use directly:
+
+```tsx
+// src/App.tsx
+import { TokenBTC, TokenETH, NetworkEthereum } from '@web3icons/react'
+
+function App() {
+  return (
+    <div className="flex gap-4">
+      <TokenBTC size={32} variant="branded" />
+      <TokenETH size={32} variant="branded" />
+      <NetworkEthereum size={32} variant="branded" />
+    </div>
+  )
+}
+
+export default App
+```
+
+## Dynamic Icons
+
+Use dynamic components for runtime icon selection:
+
+```tsx
+// src/components/TokenDisplay.tsx
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+interface Props {
+  symbol: string
+}
+
+export function TokenDisplay({ symbol }: Props) {
+  return <TokenIcon symbol={symbol} size={32} variant="branded" />
+}
+```
+
+```tsx
+// src/App.tsx
+import { TokenDisplay } from './components/TokenDisplay'
+
+function App() {
+  const tokens = ['BTC', 'ETH', 'USDC', 'SOL']
+
+  return (
+    <div className="grid grid-cols-4 gap-4">
+      {tokens.map((symbol) => (
+        <TokenDisplay key={symbol} symbol={symbol} />
+      ))}
+    </div>
+  )
+}
+```
+
+## Using @web3icons/core
+
+For non-React usage or vanilla JavaScript:
+
+```tsx
+// src/App.tsx
+import { svgs } from '@web3icons/core'
+
+function App() {
+  return (
+    <div>
+      <img src={svgs.tokens.brandedBTC} alt="Bitcoin" width={32} height={32} />
+      <img
+        src={svgs.networks.brandedEthereum}
+        alt="Ethereum"
+        width={32}
+        height={32}
+      />
+    </div>
+  )
+}
+```
+
+## Bundle Optimization
+
+### Analyze Bundle
+
+```bash
+# Install visualizer
+npm install -D rollup-plugin-visualizer
+
+# Or use npx
+npx vite-bundle-visualizer
+```
+
+Add to vite.config.ts for build-time analysis:
+
+```typescript
+// vite.config.ts
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import { visualizer } from 'rollup-plugin-visualizer'
+
+export default defineConfig({
+  plugins: [
+    react(),
+    visualizer({
+      open: true,
+      gzipSize: true,
+    }),
+  ],
+})
+```
+
+### Optimal Imports
+
+```tsx
+// ✅ - tree-shakeable
+import { TokenBTC, TokenETH } from '@web3icons/react'
+
+// ✅ - for dynamic use cases
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+// ❌ Avoid - imports everything
+import * as Icons from '@web3icons/react'
+```
+
+## Code Splitting
+
+### Lazy Load Dynamic Icons
+
+```tsx
+import { lazy, Suspense } from 'react'
+
+const TokenIcon = lazy(() =>
+  import('@web3icons/react/dynamic').then((mod) => ({
+    default: mod.TokenIcon,
+  })),
+)
+
+function TokenList({ symbols }: { symbols: string[] }) {
+  return (
+    <Suspense fallback={<div>Loading icons...</div>}>
+      {symbols.map((symbol) => (
+        <TokenIcon key={symbol} symbol={symbol} size={24} variant="branded" />
+      ))}
+    </Suspense>
+  )
+}
+```
+
+### Manual Chunks
+
+Configure Vite to separate icon bundles:
+
+```typescript
+// vite.config.ts
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          web3icons: ['@web3icons/react'],
+          'web3icons-dynamic': ['@web3icons/react/dynamic'],
+        },
+      },
+    },
+  },
+})
+```
+
+## TypeScript Configuration
+
+Types work out of the box. No additional configuration needed:
+
+```typescript
+// Types are inferred automatically
+import { TokenBTC } from '@web3icons/react'
+import type { ComponentProps } from 'react'
+
+type IconProps = ComponentProps<typeof TokenBTC>
+```
+
+## SVG Handling
+
+Vite handles SVG imports automatically. For direct SVG file imports:
+
+```typescript
+// vite.config.ts
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  assetsInclude: ['**/*.svg'],
+})
+```
+
+```tsx
+// Direct SVG import
+import btcIcon from '@web3icons/core/svgs/tokens/branded/BTC.svg'
+
+function App() {
+  return <img src={btcIcon} alt="Bitcoin" />
+}
+```
+
+## Development Performance
+
+Vite's dev server handles @web3icons efficiently. For larger projects:
+
+```typescript
+// vite.config.ts
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  optimizeDeps: {
+    include: ['@web3icons/react', '@web3icons/common'],
+  },
+})
+```
+
+## Example: Token Selector
+
+Complete example of a token selector component:
+
+```tsx
+// src/components/TokenSelector.tsx
+import { useState } from 'react'
+import { TokenIcon } from '@web3icons/react/dynamic'
+import { tokens } from '@web3icons/common/metadata'
+
+export function TokenSelector() {
+  const [search, setSearch] = useState('')
+  const [selected, setSelected] = useState<string | null>(null)
+
+  const filtered = tokens
+    .filter(
+      (t) =>
+        t.name.toLowerCase().includes(search.toLowerCase()) ||
+        t.symbol.toLowerCase().includes(search.toLowerCase()),
+    )
+    .slice(0, 20)
+
+  return (
+    <div className="w-80 rounded-lg border p-4">
+      <input
+        type="text"
+        placeholder="Search tokens..."
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+        className="mb-4 w-full rounded border px-3 py-2"
+      />
+      <div className="max-h-64 overflow-auto">
+        {filtered.map((token) => (
+          <button
+            key={token.id}
+            onClick={() => setSelected(token.symbol)}
+            className={`flex w-full items-center gap-3 rounded p-2 hover:bg-gray-50 ${
+              selected === token.symbol ? 'bg-blue-50' : ''
+            }`}
+          >
+            <TokenIcon symbol={token.symbol} size={32} variant="branded" />
+            <div className="text-left">
+              <div className="font-medium">{token.symbol}</div>
+              <div className="text-sm text-gray-500">{token.name}</div>
+            </div>
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}
+```
+
+## Example: Wallet Balance
+
+```tsx
+// src/components/WalletBalance.tsx
+import { TokenIcon, NetworkIcon } from '@web3icons/react/dynamic'
+
+interface Asset {
+  symbol: string
+  name: string
+  balance: string
+  network: string
+}
+
+export function WalletBalance({ assets }: { assets: Asset[] }) {
+  return (
+    <div className="space-y-4">
+      {assets.map((asset) => (
+        <div
+          key={`${asset.network}-${asset.symbol}`}
+          className="flex items-center justify-between rounded-lg border p-4"
+        >
+          <div className="flex items-center gap-3">
+            <div className="relative">
+              <TokenIcon symbol={asset.symbol} size={40} variant="branded" />
+              <NetworkIcon
+                network={asset.network}
+                size={16}
+                variant="branded"
+                className="absolute -bottom-1 -right-1 rounded-full border-2 border-white"
+              />
+            </div>
+            <div>
+              <div className="font-semibold">{asset.name}</div>
+              <div className="text-sm text-gray-500">{asset.network}</div>
+            </div>
+          </div>
+          <div className="text-right">
+            <div className="font-mono">{asset.balance}</div>
+            <div className="text-sm text-gray-500">{asset.symbol}</div>
+          </div>
+        </div>
+      ))}
+    </div>
+  )
+}
+```
