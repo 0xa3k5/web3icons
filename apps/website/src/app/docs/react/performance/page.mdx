@@ -1,0 +1,211 @@
+---
+title: Performance
+description: Optimize bundle size and performance with @web3icons/react
+order: 4
+---
+
+# Performance Optimization
+
+Strategies for minimizing bundle size and maximizing performance with web3icons.
+
+## Bundle Size Overview
+
+| Import Method      | Bundle Impact             | Use Case                  |
+| ------------------ | ------------------------- | ------------------------- |
+| Individual imports | ~1-2KB gzipped per icon   | Known icons at build time |
+| Dynamic components | All icons (~2MB+ gzipped) | Runtime icon selection    |
+
+## Tree-Shaking
+
+Individual imports are fully tree-shakeable. Only the icons you import are included in your bundle.
+
+```tsx
+// Good - only BTC and ETH icons included
+import { TokenBTC, TokenETH } from '@web3icons/react'
+
+// Bad - includes ALL icons
+import * as Icons from '@web3icons/react'
+
+// Bad - breaks tree-shaking
+import { TokenBTC } from '@web3icons/react'
+const iconName = 'TokenETH'
+const Icon = Icons[iconName] // Dynamic lookup prevents tree-shaking
+```
+
+### Verify Tree-Shaking
+
+Use your bundler's analyzer to verify only needed icons are included:
+
+```bash
+# Next.js
+ANALYZE=true npm run build
+
+# Vite
+npx vite-bundle-visualizer
+
+# Webpack
+npx webpack-bundle-analyzer
+```
+
+## Static vs Dynamic Imports
+
+### When to Use Static Imports
+
+- You know exactly which icons you need
+- Icons are hardcoded in your components
+- Maximum performance is critical
+
+```tsx
+import { TokenBTC, TokenETH, TokenUSDC } from '@web3icons/react'
+
+function TopTokens() {
+  return (
+    <div>
+      <TokenBTC size={24} variant="branded" />
+      <TokenETH size={24} variant="branded" />
+      <TokenUSDC size={24} variant="branded" />
+    </div>
+  )
+}
+```
+
+### When to Use Dynamic Imports
+
+- Icon is determined by user input or API response
+- Building a token list, wallet selector, or similar UI
+- You need to display arbitrary icons
+
+```tsx
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+function UserToken({ symbol }: { symbol: string }) {
+  return <TokenIcon symbol={symbol} size={24} variant="branded" />
+}
+```
+
+## Lazy Loading Patterns
+
+### Code Splitting with React.lazy
+
+Split dynamic components into separate chunks:
+
+```tsx
+import { lazy, Suspense } from 'react'
+
+// Lazy load the entire dynamic icon module
+const TokenIcon = lazy(() =>
+  import('@web3icons/react/dynamic').then((mod) => ({
+    default: mod.TokenIcon,
+  })),
+)
+
+function TokenDisplay({ symbol }: { symbol: string }) {
+  return (
+    <Suspense
+      fallback={<div className="h-6 w-6 animate-pulse rounded bg-gray-200" />}
+    >
+      <TokenIcon symbol={symbol} size={24} variant="branded" />
+    </Suspense>
+  )
+}
+```
+
+### Route-Based Splitting
+
+In Next.js App Router, dynamic icons in client components are automatically code-split:
+
+```tsx
+// app/portfolio/page.tsx
+'use client'
+
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+// This chunk only loads when /portfolio is visited
+export default function Portfolio() {
+  const tokens = useUserTokens()
+  return tokens.map((t) => <TokenIcon key={t.symbol} symbol={t.symbol} />)
+}
+```
+
+## Performance Tips
+
+### 1. Prefer Static Imports
+
+When you have a fixed set of icons, always use static imports:
+
+```tsx
+// Instead of this
+const icons = ['BTC', 'ETH', 'USDC']
+icons.map((s) => <TokenIcon symbol={s} />)
+
+// Do this
+import { TokenBTC, TokenETH, TokenUSDC } from '@web3icons/react'
+const icons = [TokenBTC, TokenETH, TokenUSDC]
+icons.map((Icon, i) => <Icon key={i} />)
+```
+
+### 2. Memoize Icon Components
+
+Prevent unnecessary re-renders:
+
+```tsx
+import { memo } from 'react'
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+const MemoizedTokenIcon = memo(TokenIcon)
+
+function TokenList({ tokens }) {
+  return tokens.map((t) => (
+    <MemoizedTokenIcon key={t.symbol} symbol={t.symbol} variant="branded" />
+  ))
+}
+```
+
+### 3. Use CSS for Size Changes
+
+Avoid passing different `size` props when CSS will work:
+
+```tsx
+// Less optimal - creates different icon instances
+<TokenBTC size={16} />
+<TokenBTC size={24} />
+<TokenBTC size={32} />
+
+// Better - same icon, CSS scaling
+<TokenBTC className="size-4" />
+<TokenBTC className="size-6" />
+<TokenBTC className="size-8" />
+```
+
+### 4. Preload Critical Icons
+
+For above-the-fold content, preload the icon module:
+
+```tsx
+// In your layout or page head
+<link rel="modulepreload" href="/_next/static/chunks/token-btc.js" />
+```
+
+## Measuring Performance
+
+### Bundle Analysis
+
+```bash
+# Analyze your production build
+npm run build
+npx source-map-explorer dist/**/*.js
+```
+
+### Runtime Performance
+
+```tsx
+import { Profiler } from 'react'
+
+function onRender(id, phase, actualDuration) {
+  console.log(`${id} ${phase}: ${actualDuration}ms`)
+}
+
+;<Profiler id="TokenList" onRender={onRender}>
+  <TokenList tokens={tokens} />
+</Profiler>
+```
