@@ -74,9 +74,12 @@ export async function highlight(
   } catch {
     // Fallback when Shiki fails (e.g., regex backtracking limit)
     const lines = code.split('\n')
-    const fallbackTokens: ThemedToken[][] = lines.map((line) => [
-      { content: line, color: undefined },
-    ])
+    let offset = 0
+    const fallbackTokens: ThemedToken[][] = lines.map((line) => {
+      const token: ThemedToken = { content: line, offset }
+      offset += line.length + 1 // +1 for newline
+      return [token]
+    })
     return {
       html: `<pre><code>${code}</code></pre>`,
       tokens: fallbackTokens,

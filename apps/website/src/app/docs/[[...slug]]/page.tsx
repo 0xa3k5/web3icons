@@ -7,7 +7,6 @@ import rehypeSlug from 'rehype-slug'
 import { useMDXComponents } from '../../../../mdx-components'
 import * as docsComponents from '../components'
 import { TableOfContents, type TOCItem } from '../components'
-// Import web3icons components used in MDX
 import {
   TokenBTC,
   TokenETH,
@@ -24,7 +23,6 @@ import {
 
 const CONTENT_PATH = path.join(process.cwd(), 'src/app/docs/content')
 
-// Extract headings from MDX source
 function extractHeadings(source: string): TOCItem[] {
   const headingRegex = /^(#{2,3})\s+(.+)$/gm
   const headings: TOCItem[] = []
@@ -50,13 +48,11 @@ interface Frontmatter {
 }
 
 function getMdxPath(slug: string[]): string | null {
-  // Try exact path first: /docs/react/api -> content/react/api.mdx
   const exactPath = path.join(CONTENT_PATH, ...slug) + '.mdx'
   if (fs.existsSync(exactPath)) {
     return exactPath
   }
 
-  // Try index file: /docs/react -> content/react/index.mdx
   const indexPath = path.join(CONTENT_PATH, ...slug, 'index.mdx')
   if (fs.existsSync(indexPath)) {
     return indexPath
@@ -145,7 +141,7 @@ export default async function DocsPage({
 
   return (
     <>
-      <div className="max-w-3xl">
+      <div className="w-3xl">
         <article className="prose prose-invert max-w-none">{content}</article>
       </div>
       <aside className="ml-8 w-64">
