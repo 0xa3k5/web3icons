@@ -15,7 +15,7 @@ export function MobileSidebar({ groups, basePath = '' }: Props) {
     <>
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed left-4 top-4 z-50 text-white/60 transition-colors hover:text-white lg:hidden"
+        className="fixed left-4 top-5 z-50 text-white/60 transition-colors hover:text-white lg:hidden"
         aria-label="Open menu"
       >
         <svg

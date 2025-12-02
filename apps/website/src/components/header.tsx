@@ -21,6 +21,7 @@ export const Header = ({ className }: Props) => {
   const [showResults, setShowResults] = useState(false)
   const [activeIndex, setActiveIndex] = useState(-1)
   const searchRef = useRef<HTMLDivElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     if (searchTerm.trim().length > 0) {
@@ -48,6 +49,23 @@ export const Header = ({ className }: Props) => {
     document.addEventListener('mousedown', handleClickOutside)
     return () => {
       document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [])
+
+  useEffect(() => {
+    function handleSlashKey(event: KeyboardEvent) {
+      if (
+        event.key === '/' &&
+        !['INPUT', 'TEXTAREA'].includes((event.target as HTMLElement).tagName)
+      ) {
+        event.preventDefault()
+        inputRef.current?.focus()
+      }
+    }
+
+    document.addEventListener('keydown', handleSlashKey)
+    return () => {
+      document.removeEventListener('keydown', handleSlashKey)
     }
   }, [])
 
@@ -94,16 +112,19 @@ export const Header = ({ className }: Props) => {
           <Link href="/" className={isDocsPage ? 'hidden lg:block' : ''}>
             <Web3IconLogo size={48} />
           </Link>
-          <Breadcrumb className={isDocsPage ? 'hidden lg:flex' : 'hidden md:flex'} />
+          <Breadcrumb
+            className={isDocsPage ? 'hidden lg:flex' : 'hidden md:flex'}
+          />
         </div>
 
         <div ref={searchRef} className="relative flex-1">
           <SearchInput
+            ref={inputRef}
             onInput={(e) => setSearchTerm(e.target.value)}
             onKeyDown={handleKeyDown}
             placeholder="Search"
             value={searchTerm}
-            className="w-full grow sm:w-96"
+            className="group w-full sm:w-96"
             role="combobox"
             aria-autocomplete="list"
             aria-expanded={showResults}
@@ -111,7 +132,11 @@ export const Header = ({ className }: Props) => {
             aria-activedescendant={
               activeIndex >= 0 ? `search-option-${activeIndex}` : undefined
             }
-          />
+          >
+            <kbd className="border-gray-lightest rounded border px-2 py-1 font-mono text-xs text-white/40 group-focus-within:hidden max-sm:hidden">
+              /
+            </kbd>
+          </SearchInput>
           <SearchResults
             results={searchResults}
             isVisible={showResults}
