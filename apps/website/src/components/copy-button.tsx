@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect, useRef, PropsWithChildren } from 'react'
-import Tooltip from './tooltip'
+import { Tooltip } from './tooltip'
 import { Button } from './button'
 import type { ButtonSize } from './button'
 

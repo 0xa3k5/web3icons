@@ -107,7 +107,7 @@ export default function IconPage({ params }: PageProps) {
   const description = generateTypeDescription(web3Type, metadata)
 
   return (
-    <div className="flex min-h-dvh flex-col gap-8 font-mono max-sm:px-8 sm:py-8">
+    <div className="flex min-h-dvh flex-col gap-8 font-mono max-sm:px-8 sm:py-16">
       <div className="flex gap-4 max-sm:flex-col sm:items-center sm:justify-between">
         <div className="flex gap-4 max-sm:flex-col">
           <Web3Icon

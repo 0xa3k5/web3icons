@@ -13,7 +13,10 @@ export interface NavGroup {
 export const navigation: NavGroup[] = [
   {
     category: '',
-    items: [{ id: 'home', name: 'Home', href: '/docs' }],
+    items: [
+      { id: 'home', name: 'Home', href: '/docs' },
+      { id: 'contributing', name: 'Contributing', href: '/docs/contributing' },
+    ],
   },
   {
     category: 'react',
@@ -45,10 +48,6 @@ export const navigation: NavGroup[] = [
       { id: 'vite', name: 'Vite', href: '/docs/guides/vite' },
       { id: 'remix', name: 'Remix', href: '/docs/guides/remix' },
     ],
-  },
-  {
-    category: '',
-    items: [{ id: 'contributing', name: 'Contributing', href: '/docs/contributing' }],
   },
 ]
 

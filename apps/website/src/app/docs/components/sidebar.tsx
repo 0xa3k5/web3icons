@@ -26,11 +26,11 @@ export function Sidebar({ groups, className, basePath = '' }: Props) {
 
   return (
     <div className={cx('border-gray-lightest border-r', className)}>
-      <nav className="sticky top-0 flex flex-col gap-4 p-6">
+      <nav className="divide-gray-lightest sticky top-0 flex flex-col gap-2 divide-y">
         {groups.map((group) => (
-          <div key={group.category} className="flex flex-col gap-1">
+          <div key={group.category} className="flex flex-col py-2">
             {group.category && (
-              <h3 className="mb-2 font-mono text-xs capitalize text-white/60">
+              <h3 className="mb-2 px-3 font-mono text-sm capitalize text-white">
                 {group.category}
               </h3>
             )}
@@ -41,14 +41,13 @@ export function Sidebar({ groups, className, basePath = '' }: Props) {
                 data-selected={
                   selectedItem === item.id || pathname === item.href
                 }
-                // prettier-ignore
-                className={`
-                    block w-full px-3 py-2 text-sm transition-colors text-left
-                    text-white/60 hover:text-white
-                    data-[selected=true]:border-l 
-                    data-[selected=true]:border-primary 
-                    data-[selected=true]:text-white
-                    `}
+                className={cx(
+                  'w-full px-3 py-2 text-sm transition-colors',
+                  'hover:bg-gray-light text-white/60 hover:text-white',
+                  'data-[selected=true]:border-l',
+                  'data-[selected=true]:border-primary',
+                  'data-[selected=true]:text-white',
+                )}
               >
                 {item.name}
               </Link>

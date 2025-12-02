@@ -9,3 +9,4 @@ export {
   DynamicWalletLookup,
   DynamicExchangeLookup,
 } from './dynamic-lookup'
+export { Sidebar } from './sidebar'
