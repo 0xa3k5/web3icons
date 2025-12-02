@@ -1,0 +1,175 @@
+---
+title: Quick Start
+description: Framework-agnostic SVG icons for any JavaScript project
+order: 1
+---
+
+import { InstallTabs } from '../../components'
+
+![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Fcore)
+
+# @web3icons/core
+
+Framework-agnostic package providing direct access to SVG files. Works with vanilla JavaScript, Vue, Angular, Svelte, or any web project.
+
+## Installation
+
+<InstallTabs pkg="@web3icons/core" />
+
+## SVG Imports
+
+Access icons as data URLs through the `svgs` object:
+
+```javascript
+import { svgs } from '@web3icons/core'
+
+// Token icons
+const bitcoinIcon = svgs.tokens.brandedBTC
+const ethereumIcon = svgs.tokens.monoETH
+
+// Network icons
+const polygonIcon = svgs.networks.brandedPolygon
+
+// Wallet icons
+const metamaskIcon = svgs.wallets.brandedMetamask
+
+// Exchange icons
+const uniswapIcon = svgs.exchanges.brandedUniswap
+```
+
+## Using in HTML
+
+```javascript
+import { svgs } from '@web3icons/core'
+
+// Set as image source
+document.getElementById('btc-icon').src = svgs.tokens.brandedBTC
+
+// Create dynamic elements
+const img = document.createElement('img')
+img.src = svgs.tokens.brandedETH
+img.width = 32
+img.height = 32
+img.alt = 'Ethereum'
+document.body.appendChild(img)
+```
+
+## Icon Categories
+
+| Category | Count | Example Keys |
+| -------- | ----- | ------------ |
+| Tokens | 2,000+ | `brandedBTC`, `monoETH`, `backgroundUSDC` |
+| Networks | 150+ | `brandedEthereum`, `monoBinanceSmartChain` |
+| Wallets | 50+ | `brandedMetamask`, `monoCoinbaseWallet` |
+| Exchanges | 40+ | `brandedUniswap`, `monoBinance` |
+
+## Variants
+
+All icons come in multiple visual styles:
+
+```javascript
+import { svgs } from '@web3icons/core'
+
+// Mono - Monochromatic, single color
+svgs.tokens.monoBTC
+
+// Branded - Official brand colors
+svgs.tokens.brandedBTC
+
+// Background - With circular background (tokens only)
+svgs.tokens.backgroundBTC
+```
+
+## Naming Conventions
+
+### Object Keys
+
+Icons in the `svgs` object follow this pattern:
+
+| Type | Pattern | Examples |
+| ---- | ------- | -------- |
+| Tokens | `{variant}{SYMBOL}` | `brandedBTC`, `monoETH` |
+| Networks | `{variant}{PascalCase}` | `brandedEthereum`, `monoBinanceSmartChain` |
+| Wallets | `{variant}{PascalCase}` | `brandedMetamask`, `monoCoinbaseWallet` |
+| Exchanges | `{variant}{PascalCase}` | `brandedUniswap`, `monoBinance` |
+
+### Direct File Paths
+
+You can also import SVG files directly:
+
+```javascript
+// Tokens: /svgs/tokens/{variant}/{SYMBOL}.svg
+import btcSvg from '@web3icons/core/svgs/tokens/branded/BTC.svg'
+
+// Networks: /svgs/networks/{variant}/{kebab-case}.svg
+import ethSvg from '@web3icons/core/svgs/networks/branded/ethereum.svg'
+
+// Wallets: /svgs/wallets/{variant}/{kebab-case}.svg
+import mmSvg from '@web3icons/core/svgs/wallets/branded/metamask.svg'
+```
+
+## Dynamic Loading
+
+Load icons on demand for better initial bundle size:
+
+```javascript
+async function loadIcon(symbol, variant = 'branded') {
+  try {
+    const module = await import(
+      `@web3icons/core/svgs/tokens/${variant}/${symbol.toUpperCase()}.svg`
+    )
+    return module.default
+  } catch (error) {
+    console.warn(`Icon not found: ${symbol}`)
+    return null
+  }
+}
+
+// Usage
+const btcIcon = await loadIcon('btc')
+const ethIcon = await loadIcon('eth', 'mono')
+```
+
+## Helper Function
+
+Create a utility for safe icon access with fallbacks:
+
+```javascript
+import { svgs } from '@web3icons/core'
+
+function getTokenIcon(symbol, variant = 'branded') {
+  const key = `${variant}${symbol.toUpperCase()}`
+  return svgs.tokens[key] || null
+}
+
+// Usage with fallback
+const icon = getTokenIcon('btc') || '/fallback-icon.svg'
+```
+
+## TypeScript
+
+Full TypeScript support included:
+
+```typescript
+import { svgs } from '@web3icons/core'
+import type { TTokenMetadata } from '@web3icons/common'
+
+interface TokenDisplay {
+  token: TTokenMetadata
+  size: number
+}
+
+function createIcon({ token, size }: TokenDisplay) {
+  const key = `branded${token.symbol}` as keyof typeof svgs.tokens
+  const img = document.createElement('img')
+  img.src = svgs.tokens[key]
+  img.width = size
+  return img
+}
+```
+
+## Next Steps
+
+- [API Reference](/docs/core/api) - Complete exports and types
+- [Framework Examples](/docs/guides/vue) - Vue, Angular, Svelte examples
+- [@web3icons/common](/docs/common/quick-start) - Metadata and types
