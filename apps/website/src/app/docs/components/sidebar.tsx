@@ -25,8 +25,8 @@ export function Sidebar({ groups, className, basePath = '' }: Props) {
   const selectedItem = pathname?.replace(basePath, '').replace(/^\//, '')
 
   return (
-    <div className={cx('border-gray-lightest border-r', className)}>
-      <nav className="divide-gray-lightest sticky top-0 flex flex-col gap-2 divide-y">
+    <div className={cx('', className)}>
+      <nav className="sticky top-24 flex flex-col gap-2">
         {groups.map((group) => (
           <div key={group.category} className="flex flex-col py-2">
             {group.category && (

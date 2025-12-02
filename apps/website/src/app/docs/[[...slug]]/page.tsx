@@ -3,8 +3,10 @@ import path from 'path'
 import { notFound } from 'next/navigation'
 import { compileMDX } from 'next-mdx-remote/rsc'
 import remarkGfm from 'remark-gfm'
+import rehypeSlug from 'rehype-slug'
 import { useMDXComponents } from '../../../../mdx-components'
 import * as docsComponents from '../components'
+import { TableOfContents, type TOCItem } from '../components'
 // Import web3icons components used in MDX
 import {
   TokenBTC,
@@ -21,6 +23,26 @@ import {
 } from '@web3icons/react/dynamic'
 
 const CONTENT_PATH = path.join(process.cwd(), 'src/app/docs/content')
+
+// Extract headings from MDX source
+function extractHeadings(source: string): TOCItem[] {
+  const headingRegex = /^(#{2,3})\s+(.+)$/gm
+  const headings: TOCItem[] = []
+  let match
+
+  while ((match = headingRegex.exec(source)) !== null) {
+    const level = match[1]?.length || 0
+    const text = match[2]?.trim() || ''
+    // Generate slug matching rehype-slug behavior
+    const id = text
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+    headings.push({ id, text, level })
+  }
+
+  return headings
+}
 
 interface Frontmatter {
   title?: string
@@ -52,7 +74,12 @@ function getAllMdxFiles(dir: string, basePath: string[] = []): string[][] {
 
   for (const entry of entries) {
     if (entry.isDirectory()) {
-      paths.push(...getAllMdxFiles(path.join(dir, entry.name), [...basePath, entry.name]))
+      paths.push(
+        ...getAllMdxFiles(path.join(dir, entry.name), [
+          ...basePath,
+          entry.name,
+        ]),
+      )
     } else if (entry.name.endsWith('.mdx')) {
       const name = entry.name.replace('.mdx', '')
       if (name === 'index') {
@@ -89,7 +116,6 @@ export default async function DocsPage({
   const components = {
     ...useMDXComponents({}),
     ...docsComponents,
-    // web3icons components
     TokenBTC,
     TokenETH,
     TokenUSDC,
@@ -101,21 +127,35 @@ export default async function DocsPage({
     ExchangeIcon,
   }
 
-  const { content, frontmatter } = await compileMDX<Frontmatter>({
+  const headings = extractHeadings(source)
+  // Get relative path for GitHub edit link
+  const relativePath = mdxPath.replace(process.cwd() + '/', '')
+
+  const { content } = await compileMDX<Frontmatter>({
     source,
     options: {
       parseFrontmatter: true,
       mdxOptions: {
         remarkPlugins: [remarkGfm],
+        rehypePlugins: [rehypeSlug],
       },
     },
     components,
   })
 
   return (
-    <article className="prose prose-invert max-w-none">
-      {content}
-    </article>
+    <>
+      <div className="max-w-3xl">
+        <article className="prose prose-invert max-w-none">{content}</article>
+      </div>
+      <aside className="ml-8 w-64">
+        <TableOfContents
+          headings={headings}
+          githubPath={`apps/website/${relativePath}`}
+          markdownSource={source}
+        />
+      </aside>
+    </>
   )
 }
 

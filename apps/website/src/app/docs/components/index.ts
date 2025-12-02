@@ -10,3 +10,4 @@ export {
   DynamicExchangeLookup,
 } from './dynamic-lookup'
 export { Sidebar } from './sidebar'
+export { TableOfContents, type TOCItem } from './table-of-contents'
