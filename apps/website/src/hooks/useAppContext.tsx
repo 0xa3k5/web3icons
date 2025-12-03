@@ -5,11 +5,17 @@ import React, {
   useState,
   ReactNode,
   useEffect,
+  useTransition,
+  useMemo,
+  useCallback,
 } from 'react'
+import { useSearchParams, useRouter, usePathname } from 'next/navigation'
 
 import { filterAndSortIcons } from '../utils'
-import { useSearchParams } from 'next/navigation'
 import { TType, TVariant, TMetadata } from '@web3icons/common'
+
+const validTypes: TType[] = ['token', 'network', 'wallet', 'exchange']
+const validVariants: TVariant[] = ['branded', 'mono', 'background']
 
 export interface AppContextType {
   type: TType
@@ -39,68 +45,94 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
 }: AppContextProviderProps) => {
   const PER_PAGE = 200
   const searchParams = useSearchParams()
-  const [type, setType] = useState<TType>('token')
-  const [variant, setVariant] = useState<TVariant>('branded')
+  const router = useRouter()
+  const pathname = usePathname()
+  const [, startTransition] = useTransition()
+
+  const [type, setType] = useState<TType>(() => {
+    const param = searchParams.get('type')
+    return param && validTypes.includes(param as TType)
+      ? (param as TType)
+      : 'token'
+  })
+  const [variant, setVariant] = useState<TVariant>(() => {
+    const param = searchParams.get('variant')
+    return param && validVariants.includes(param as TVariant)
+      ? (param as TVariant)
+      : 'branded'
+  })
   const [size, setSize] = useState(64)
   const [color, setColor] = useState('#FFFFFF')
   const [searchTerm, setSearchTerm] = useState('')
-  const [nextBatchIndex, setNextBatchIndex] = useState(0)
-  const [shownIcons, setShownIcons] = useState<TMetadata[]>([])
+  const [page, setPage] = useState(1)
   const [selectedIcons, setSelectedIcons] = useState<TMetadata[]>([])
-  const [hasMoreIcons, setHasMoreIcons] = useState(false)
 
-  const loadIcons = () => {
-    const icons = filterAndSortIcons({
-      variant,
-      searchTerm,
-      type,
+  useEffect(() => {
+    if (pathname !== '/') return
+    const params = new URLSearchParams(searchParams.toString())
+    params.set('type', type)
+    params.set('variant', variant)
+    router.replace(`?${params.toString()}`, { scroll: false })
+  }, [type, variant, router, searchParams, pathname])
+
+  const filteredIcons = useMemo(
+    () => filterAndSortIcons({ variant, searchTerm, type }),
+    [variant, searchTerm, type],
+  )
+
+  const shownIcons = useMemo(
+    () => filteredIcons.slice(0, page * PER_PAGE),
+    [filteredIcons, page],
+  )
+
+  const hasMoreIcons = useMemo(
+    () => filteredIcons.length > page * PER_PAGE,
+    [filteredIcons, page],
+  )
+
+  useEffect(() => {
+    setPage(1)
+  }, [searchTerm, type])
+
+  const loadMoreIcons = useCallback(() => {
+    startTransition(() => {
+      setPage((prev) => prev + 1)
     })
+  }, [startTransition])
 
-    setShownIcons(icons.slice(0, nextBatchIndex + PER_PAGE) ?? [])
-    setNextBatchIndex((prevIndex) => prevIndex + PER_PAGE)
-    setHasMoreIcons(icons.length > nextBatchIndex + PER_PAGE)
-  }
-
-  useEffect(() => {
-    loadIcons()
-  }, [searchTerm, variant, type])
-
-  useEffect(() => {
-    const _type = searchParams.get('type') as TType | null
-    if (_type && _type !== type) {
-      setType(_type)
-    }
-  }, [searchParams])
-
-  useEffect(() => {
-    const _variant = searchParams.get('variant') as TVariant | null
-    if (_variant && _variant !== variant) {
-      setVariant(_variant)
-    }
-  }, [searchParams])
+  const contextValue = useMemo<AppContextType>(
+    () => ({
+      type,
+      setType,
+      loadMoreIcons,
+      icons: shownIcons,
+      searchTerm,
+      setSearchTerm,
+      variant,
+      setVariant,
+      size,
+      setSize,
+      selectedIcons,
+      setSelectedIcons,
+      color,
+      setColor,
+      hasMoreIcons,
+    }),
+    [
+      type,
+      loadMoreIcons,
+      shownIcons,
+      searchTerm,
+      variant,
+      size,
+      selectedIcons,
+      color,
+      hasMoreIcons,
+    ],
+  )
 
   return (
-    <AppContext.Provider
-      value={{
-        type,
-        setType,
-        loadMoreIcons: loadIcons,
-        icons: shownIcons,
-        searchTerm,
-        setSearchTerm,
-        variant,
-        setVariant,
-        size,
-        setSize,
-        selectedIcons,
-        setSelectedIcons,
-        color,
-        setColor,
-        hasMoreIcons,
-      }}
-    >
-      {children}
-    </AppContext.Provider>
+    <AppContext.Provider value={contextValue}>{children}</AppContext.Provider>
   )
 }
 

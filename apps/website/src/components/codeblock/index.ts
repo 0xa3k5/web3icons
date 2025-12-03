@@ -1,3 +1,2 @@
-export { CodeBlock } from './codeblock'
+export { CodeBlock, CodeBlockParts, type HighlightedTab } from './codeblock'
 export * from './shiki'
-export { CodeBlockParts, type HighlightedTab } from './codeblock.parts'

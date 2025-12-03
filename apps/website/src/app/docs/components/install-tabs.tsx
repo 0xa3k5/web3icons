@@ -4,7 +4,7 @@ interface Props {
   pkg: string
 }
 
-export const InstallTabs = async ({ pkg }: Props) => {
+export const InstallTabs = ({ pkg }: Props) => {
   return (
     <CodeBlock
       tabs={[

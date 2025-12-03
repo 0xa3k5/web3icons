@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import {
   CodeBlockParts,
   type HighlightedTab,
-} from '../../../components/codeblock/codeblock.parts'
+} from '../../../components/codeblock'
 
 interface Props {
   title?: string

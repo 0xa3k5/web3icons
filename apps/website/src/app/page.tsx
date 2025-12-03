@@ -1,6 +1,5 @@
 'use client'
-import { useEffect, useCallback } from 'react'
-import { useSearchParams, useRouter } from 'next/navigation'
+import { useCallback } from 'react'
 import {
   TType,
   TVariant,
@@ -23,18 +22,14 @@ import { Slider } from '../components/slider'
 import { ColorSlider } from '../components/color-slider'
 
 export default function Home() {
-  const router = useRouter()
-  const searchParams = useSearchParams()
-  const activeTabParam = searchParams.get('type') as TType | null
-
   const {
     icons,
     loadMoreIcons,
     hasMoreIcons,
     variant,
     type,
-    setVariant,
     setType,
+    setVariant,
     searchTerm,
     setSearchTerm,
     size,
@@ -43,29 +38,21 @@ export default function Home() {
     setColor,
   } = useAppContext()
 
+  // Pure React state - no URL
   const handleTabChange = useCallback(
     (value: string) => {
       setType(value as TType)
-      router.replace(`?type=${value}&variant=${variant}`, { scroll: false })
     },
-    [variant, setType, router],
+    [setType],
   )
 
   const handleVariantChange = useCallback(
     (value: TVariant) => {
       setVariant(value)
-      router.replace(`?type=${type}&variant=${value}`, {
-        scroll: false,
-      })
     },
-    [type, setVariant, router],
+    [setVariant],
   )
 
-  useEffect(() => {
-    if (activeTabParam) {
-      setType(activeTabParam)
-    }
-  }, [activeTabParam])
 
   return (
     <div className="flex min-h-full w-full flex-col gap-4 font-mono max-sm:px-4 py-8 sm:py-16 md:gap-16">

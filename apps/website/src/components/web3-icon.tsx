@@ -1,4 +1,5 @@
 'use client'
+import { memo } from 'react'
 import {
   TokenIcon,
   NetworkIcon,
@@ -24,7 +25,7 @@ interface Props {
   color?: string
 }
 
-export const Web3Icon = (props: Props): JSX.Element => {
+export const Web3Icon = memo((props: Props): JSX.Element => {
   switch (props.type) {
     case 'network':
       return (
@@ -49,4 +50,4 @@ export const Web3Icon = (props: Props): JSX.Element => {
         />
       )
   }
-}
+})

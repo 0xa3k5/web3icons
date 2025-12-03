@@ -1,6 +1,6 @@
 import type { MDXComponents } from 'mdx/types'
 import React from 'react'
-import { CodeBlock } from './src/components/codeblock/codeblock'
+import { CodeBlock } from './src/components/codeblock'
 import type { Language } from './src/components/codeblock/shiki'
 
 // Extract code content and language from MDX's pre > code structure
