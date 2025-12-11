@@ -41,6 +41,5 @@ jobs:
           version: bun run version
           publish: bun run release
           createGithubReleases: true
-          commitMode: github-api
         env:
           GITHUB_TOKEN: ${{ github.token }}
