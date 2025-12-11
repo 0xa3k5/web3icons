@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.35
+
+### Patch Changes
+
+- 90b485e: improve esm module resolution compatibility
+
 ## 0.11.34
 
 ### Patch Changes

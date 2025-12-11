@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 4.1.5
+
+### Patch Changes
+
+- 90b485e: improve esm module resolution compatibility
+- Updated dependencies [90b485e]
+  - @web3icons/common@0.11.35
+
 ## 4.1.4
 
 ### Patch Changes
