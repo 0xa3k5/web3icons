@@ -1,5 +1,5 @@
 import { createElement, forwardRef, Fragment } from 'react'
-import { BaseIconProps } from './types'
+import type { BaseIconProps } from './types.js'
 
 /**
  * renders an SVG with children or an image/fallback content

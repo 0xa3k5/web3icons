@@ -1,4 +1,4 @@
-import { toKebabCase } from './naming-conventions'
+import { toKebabCase } from './naming-conventions.js'
 import {
   IExchangeMetadata,
   INetworkMetadata,

@@ -1,4 +1,4 @@
-import { ITokenMetadata } from '../types'
+import type { ITokenMetadata } from '../types.js'
 
 export const tokens: ITokenMetadata[] = [
   {

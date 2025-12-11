@@ -20,7 +20,7 @@ const generateIndexFile = (directory: string, type: TType) => {
   const exports = svgFiles
     .map((svgFile) => {
       const baseName = path.basename(svgFile, '.ts')
-      return `export { default as ${baseName} } from './${baseName}';\n`
+      return `export { default as ${baseName} } from './${baseName}.js';\n`
     })
     .join('')
 
@@ -35,7 +35,7 @@ export function generateIndex() {
   generateIndexFile(JSX_EXCHANGES_OUT_DIR, 'exchange')
 
   // Generate icons/index.ts in src
-  const iconsIndexContent = `export * from './tokens';\nexport * from './networks';\nexport * from './wallets';\nexport * from './exchanges';`
+  const iconsIndexContent = `export * from './tokens/index.js';\nexport * from './networks/index.js';\nexport * from './wallets/index.js';\nexport * from './exchanges/index.js';`
   fs.writeFileSync(
     path.join(ROOT_REACT, 'src', 'icons', 'index.ts'),
     iconsIndexContent,

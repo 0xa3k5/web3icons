@@ -29,9 +29,15 @@ export interface BaseIconProps extends SVGProps<SVGSVGElement> {
  * @property {string} [address] - The address of the token.
  * @property {string} [network] - The network of the token.
  */
-export type TokenIconProps = IconComponentProps &
-  // prettier-ignore
-  (| { symbol: string; address?: never; network?: never; id?: never; name?: never }
+export type TokenIconProps = IconComponentProps & // prettier-ignore
+  (
+    | {
+        symbol: string
+        address?: never
+        network?: never
+        id?: never
+        name?: never
+      }
     // prettier-ignore
     | { symbol?: never; address: string; network: string; id?: never; name?: never }
     // prettier-ignore

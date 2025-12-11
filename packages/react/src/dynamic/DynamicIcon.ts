@@ -15,9 +15,9 @@ import {
   TType,
   TVariant,
 } from '@web3icons/common'
-import { BaseIcon } from '../BaseIcon'
-import { loadIcon } from '../utils/loadIcon'
-import { IconComponent } from '../types'
+import { BaseIcon } from '../BaseIcon.js'
+import { loadIcon } from '../utils/loadIcon.js'
+import type { IconComponent } from '../types.js'
 
 /**
  * Interface for DynamicIcon component props.

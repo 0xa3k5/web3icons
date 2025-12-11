@@ -1,4 +1,4 @@
-export { tokens } from './tokens'
-export { networks } from './networks'
-export { wallets } from './wallets'
-export { exchanges } from './exchanges'
+export { tokens } from './tokens.js'
+export { networks } from './networks.js'
+export { wallets } from './wallets.js'
+export { exchanges } from './exchanges.js'

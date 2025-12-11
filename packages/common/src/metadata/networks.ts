@@ -1,4 +1,4 @@
-import { INetworkMetadata } from '../types'
+import type { INetworkMetadata } from '../types.js'
 
 export const networks: INetworkMetadata[] = [
   {

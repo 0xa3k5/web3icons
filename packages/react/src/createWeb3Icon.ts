@@ -1,6 +1,6 @@
 import { createElement, forwardRef } from 'react'
-import { BaseIcon } from './BaseIcon'
-import { IconComponentProps } from './types'
+import { BaseIcon } from './BaseIcon.js'
+import type { IconComponentProps } from './types.js'
 import type { IconNode, TIconVariants } from '@web3icons/common'
 
 /**
