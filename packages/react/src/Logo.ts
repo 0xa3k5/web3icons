@@ -1,5 +1,5 @@
-import { TIconVariants } from '@web3icons/common'
-import { createWeb3Icon } from './createWeb3Icon'
+import type { TIconVariants } from '@web3icons/common'
+import { createWeb3Icon } from './createWeb3Icon.js'
 
 const __iconNode: TIconVariants = {
   branded: [

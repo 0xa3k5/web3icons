@@ -1,4 +1,4 @@
-import { IWalletMetadata } from '../types'
+import type { IWalletMetadata } from '../types.js'
 
 export const wallets: IWalletMetadata[] = [
   {

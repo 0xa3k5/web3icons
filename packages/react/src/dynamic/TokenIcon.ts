@@ -1,8 +1,8 @@
 'use client'
 import { createElement, forwardRef } from 'react'
-import { TokenIconProps } from '../types'
-import { findToken } from '../utils'
-import DynamicIcon from './DynamicIcon'
+import type { TokenIconProps } from '../types.js'
+import { findToken } from '../utils/index.js'
+import DynamicIcon from './DynamicIcon.js'
 
 /**
  * @component @name TokenIcon

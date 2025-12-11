@@ -1,4 +1,4 @@
-import { IExchangeMetadata } from '../types'
+import type { IExchangeMetadata } from '../types.js'
 
 export const exchanges: IExchangeMetadata[] = [
   {

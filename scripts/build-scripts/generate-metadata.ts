@@ -27,10 +27,10 @@ export function generateMetadataTs() {
   // prettier-ignore
   const exchanges: IExchangeMetadata[] = JSON.parse(fs.readFileSync(EXCHANGES_METADATA_PATH, 'utf-8'))
 
-  const tokenContent = `import { ITokenMetadata } from '../types'\n\nexport const tokens: ITokenMetadata[] = ${JSON.stringify(tokens, null, 2)}`
-  const networkContent = `import { INetworkMetadata } from '../types'\n\nexport const networks: INetworkMetadata[] = ${JSON.stringify(networks, null, 2)}`
-  const walletContent = `import { IWalletMetadata } from '../types'\n\nexport const wallets: IWalletMetadata[] = ${JSON.stringify(wallets, null, 2)}`
-  const exchangeContent = `import { IExchangeMetadata } from '../types'\n\nexport const exchanges: IExchangeMetadata[] = ${JSON.stringify(exchanges, null, 2)}`
+  const tokenContent = `import type { ITokenMetadata } from '../types.js'\n\nexport const tokens: ITokenMetadata[] = ${JSON.stringify(tokens, null, 2)}`
+  const networkContent = `import type { INetworkMetadata } from '../types.js'\n\nexport const networks: INetworkMetadata[] = ${JSON.stringify(networks, null, 2)}`
+  const walletContent = `import type { IWalletMetadata } from '../types.js'\n\nexport const wallets: IWalletMetadata[] = ${JSON.stringify(wallets, null, 2)}`
+  const exchangeContent = `import type { IExchangeMetadata } from '../types.js'\n\nexport const exchanges: IExchangeMetadata[] = ${JSON.stringify(exchanges, null, 2)}`
 
   const METADATA_DIR = path.join(ROOT_COMMON, 'src/metadata')
   fs.writeFileSync(path.join(METADATA_DIR, 'tokens.ts'), tokenContent)
@@ -42,7 +42,7 @@ export function generateMetadataTs() {
   fs.writeFileSync(path.join(METADATA_DIR, 'exchanges.ts'), exchangeContent)
   console.log('common: ✔ exchanges metadata')
 
-  const indexContent = `export { tokens } from './tokens'\nexport { networks } from './networks'\nexport { wallets } from './wallets'\nexport { exchanges } from './exchanges'`
+  const indexContent = `export { tokens } from './tokens.js'\nexport { networks } from './networks.js'\nexport { wallets } from './wallets.js'\nexport { exchanges } from './exchanges.js'`
   fs.writeFileSync(path.join(METADATA_DIR, 'index.ts'), indexContent)
   console.log('common: ✔ metadata index file')
 }

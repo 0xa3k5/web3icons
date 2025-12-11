@@ -1,6 +1,6 @@
-import { TMetadata, TType } from '@web3icons/common'
-import type { IconComponent } from '../types'
-import { toPascalCase } from './naming-conventions'
+import type { TMetadata, TType } from '@web3icons/common'
+import type { IconComponent } from '../types.js'
+import { toPascalCase } from './naming-conventions.js'
 
 const iconCache = new Map<string, Promise<IconComponent>>()
 

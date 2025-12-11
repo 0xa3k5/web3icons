@@ -1,4 +1,4 @@
-export { TokenIcon } from './TokenIcon'
-export { NetworkIcon } from './NetworkIcon'
-export { WalletIcon } from './WalletIcon'
-export { ExchangeIcon } from './ExchangeIcon'
+export { TokenIcon } from './TokenIcon.js'
+export { NetworkIcon } from './NetworkIcon.js'
+export { WalletIcon } from './WalletIcon.js'
+export { ExchangeIcon } from './ExchangeIcon.js'

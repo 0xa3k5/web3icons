@@ -1,8 +1,8 @@
 'use client'
 import { createElement, forwardRef } from 'react'
-import { NetworkIconProps } from '../types'
-import { findNetwork } from '../utils'
-import DynamicIcon from './DynamicIcon'
+import type { NetworkIconProps } from '../types.js'
+import { findNetwork } from '../utils/index.js'
+import DynamicIcon from './DynamicIcon.js'
 
 /**
  * @component @name NetworkIcon

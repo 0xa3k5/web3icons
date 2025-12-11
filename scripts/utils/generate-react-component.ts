@@ -77,7 +77,7 @@ export const generateReactComponent = async (
   )
 
   // Generate component using factory pattern
-  const componentContent = `import { createWeb3Icon } from '../../createWeb3Icon'
+  const componentContent = `import { createWeb3Icon } from '../../createWeb3Icon.js'
 import type { TIconVariants } from '@web3icons/common'
 
 export const __iconNode: TIconVariants = ${JSON.stringify(variantData, null, 2)}

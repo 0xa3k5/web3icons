@@ -1,2 +1,2 @@
-export * from './find-metadata'
-export * from './naming-conventions'
+export * from './find-metadata.js'
+export * from './naming-conventions.js'
