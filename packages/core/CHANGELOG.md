@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.40
+
+### Patch Changes
+
+- 90b485e: improve esm module resolution compatibility
+- Updated dependencies [90b485e]
+  - @web3icons/common@0.11.35
+
 ## 4.0.39
 
 ### Patch Changes
