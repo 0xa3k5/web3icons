@@ -1,5 +1,11 @@
 # @web3icons/react
 
+## 4.1.6
+
+### Patch Changes
+
+- 20b9eac: use dynamic import paths instead of string literal so vite doesn't fail
+
 ## 4.1.5
 
 ### Patch Changes

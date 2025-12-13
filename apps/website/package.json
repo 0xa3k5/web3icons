@@ -22,7 +22,7 @@
     "@vercel/og": "^0.8.5",
     "@web3icons/common": "0.11.35",
     "@web3icons/core": "4.0.40",
-    "@web3icons/react": "^4.1.5",
+    "@web3icons/react": "^4.1.6",
     "autoprefixer": "10.4.18",
     "eslint": "8.57.0",
     "eslint-config-next": "14.1.3",
