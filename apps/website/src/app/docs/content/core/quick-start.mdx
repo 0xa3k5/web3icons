@@ -4,7 +4,6 @@ description: Framework-agnostic SVG icons for any JavaScript project
 order: 1
 ---
 
-
 ![NPM Version](https://img.shields.io/npm/v/%40web3icons%2Freact?style=flat&label=%40web3icons%2Fcore)
 
 # @web3icons/core
@@ -20,7 +19,6 @@ Framework-agnostic package providing direct access to SVG files. Works with vani
 Access icons as data URLs through the `svgs` object:
 
 ```javascript
-
 // Token icons
 const bitcoinIcon = svgs.tokens.brandedBTC
 const ethereumIcon = svgs.tokens.monoETH
@@ -38,7 +36,6 @@ const uniswapIcon = svgs.exchanges.brandedUniswap
 ## Using in HTML
 
 ```javascript
-
 // Set as image source
 document.getElementById('btc-icon').src = svgs.tokens.brandedBTC
 
@@ -53,19 +50,18 @@ document.body.appendChild(img)
 
 ## Icon Categories
 
-| Category | Count | Example Keys |
-| -------- | ----- | ------------ |
-| Tokens | 2,000+ | `brandedBTC`, `monoETH`, `backgroundUSDC` |
-| Networks | 150+ | `brandedEthereum`, `monoBinanceSmartChain` |
-| Wallets | 50+ | `brandedMetamask`, `monoCoinbaseWallet` |
-| Exchanges | 40+ | `brandedUniswap`, `monoBinance` |
+| Category  | Count  | Example Keys                               |
+| --------- | ------ | ------------------------------------------ |
+| Tokens    | 2,000+ | `brandedBTC`, `monoETH`, `backgroundUSDC`  |
+| Networks  | 150+   | `brandedEthereum`, `monoBinanceSmartChain` |
+| Wallets   | 50+    | `brandedMetamask`, `monoCoinbaseWallet`    |
+| Exchanges | 40+    | `brandedUniswap`, `monoBinance`            |
 
 ## Variants
 
 All icons come in multiple visual styles:
 
 ```javascript
-
 // Mono - Monochromatic, single color
 svgs.tokens.monoBTC
 
@@ -82,12 +78,12 @@ svgs.tokens.backgroundBTC
 
 Icons in the `svgs` object follow this pattern:
 
-| Type | Pattern | Examples |
-| ---- | ------- | -------- |
-| Tokens | `{variant}{SYMBOL}` | `brandedBTC`, `monoETH` |
-| Networks | `{variant}{PascalCase}` | `brandedEthereum`, `monoBinanceSmartChain` |
-| Wallets | `{variant}{PascalCase}` | `brandedMetamask`, `monoCoinbaseWallet` |
-| Exchanges | `{variant}{PascalCase}` | `brandedUniswap`, `monoBinance` |
+| Type      | Pattern                 | Examples                                   |
+| --------- | ----------------------- | ------------------------------------------ |
+| Tokens    | `{variant}{SYMBOL}`     | `brandedBTC`, `monoETH`                    |
+| Networks  | `{variant}{PascalCase}` | `brandedEthereum`, `monoBinanceSmartChain` |
+| Wallets   | `{variant}{PascalCase}` | `brandedMetamask`, `monoCoinbaseWallet`    |
+| Exchanges | `{variant}{PascalCase}` | `brandedUniswap`, `monoBinance`            |
 
 ### Direct File Paths
 
@@ -128,7 +124,6 @@ const ethIcon = await loadIcon('eth', 'mono')
 Create a utility for safe icon access with fallbacks:
 
 ```javascript
-
 function getTokenIcon(symbol, variant = 'branded') {
   const key = `${variant}${symbol.toUpperCase()}`
   return svgs.tokens[key] || null
@@ -143,7 +138,6 @@ const icon = getTokenIcon('btc') || '/fallback-icon.svg'
 Full TypeScript support included:
 
 ```typescript
-
 interface TokenDisplay {
   token: TTokenMetadata
   size: number

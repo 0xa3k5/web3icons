@@ -7,8 +7,10 @@ export interface SelectOption {
   disabled?: boolean
 }
 
-export interface SelectProps
-  extends Omit<React.SelectHTMLAttributes<HTMLSelectElement>, 'onChange'> {
+export interface SelectProps extends Omit<
+  React.SelectHTMLAttributes<HTMLSelectElement>,
+  'onChange'
+> {
   options: SelectOption[] | string[]
   label?: string
   error?: string

@@ -4,7 +4,6 @@ description: Using web3icons with Remix
 order: 3
 ---
 
-
 # Remix Integration
 
 Set up @web3icons/react with Remix for full-stack React applications.
@@ -123,7 +122,10 @@ export default function Wallet() {
   return (
     <div className="space-y-4">
       {assets.map((asset) => (
-        <div key={asset.symbol} className="flex items-center gap-4 border-b pb-4">
+        <div
+          key={asset.symbol}
+          className="flex items-center gap-4 border-b pb-4"
+        >
           <TokenIcon symbol={asset.symbol} size={40} variant="branded" />
           <div>
             <div className="font-semibold">{asset.name}</div>
@@ -148,8 +150,9 @@ Use @web3icons/common for type-safe development:
 export async function loader() {
   // Filter and transform metadata on the server
   const topTokens = tokens
-    .filter((t): t is TTokenMetadata & { marketCapRank: number } =>
-      t.marketCapRank !== null && t.marketCapRank <= 100
+    .filter(
+      (t): t is TTokenMetadata & { marketCapRank: number } =>
+        t.marketCapRank !== null && t.marketCapRank <= 100,
     )
     .sort((a, b) => a.marketCapRank - b.marketCapRank)
     .slice(0, 20)
@@ -170,7 +173,12 @@ export default function Icons() {
     <div className="flex gap-4">
       <img src={svgs.tokens.brandedBTC} alt="Bitcoin" width={32} height={32} />
       <img src={svgs.tokens.brandedETH} alt="Ethereum" width={32} height={32} />
-      <img src={svgs.networks.brandedPolygon} alt="Polygon" width={32} height={32} />
+      <img
+        src={svgs.networks.brandedPolygon}
+        alt="Polygon"
+        width={32}
+        height={32}
+      />
     </div>
   )
 }
@@ -222,7 +230,8 @@ interface Props {
 
 export function NetworkSwitcher({ currentChainId, onSwitch }: Props) {
   const [isOpen, setIsOpen] = useState(false)
-  const current = networks.find((n) => n.chainId === currentChainId) || networks[0]
+  const current =
+    networks.find((n) => n.chainId === currentChainId) || networks[0]
 
   return (
     <div className="relative">
@@ -247,7 +256,11 @@ export function NetworkSwitcher({ currentChainId, onSwitch }: Props) {
                 network.chainId === currentChainId ? 'bg-blue-50' : ''
               }`}
             >
-              <NetworkIcon chainId={network.chainId} size={20} variant="branded" />
+              <NetworkIcon
+                chainId={network.chainId}
+                size={20}
+                variant="branded"
+              />
               <span>{network.name}</span>
             </button>
           ))}
@@ -272,7 +285,7 @@ export async function loader({ request }: { request: Request }) {
         .filter(
           (t) =>
             t.name.toLowerCase().includes(query) ||
-            t.symbol.toLowerCase().includes(query)
+            t.symbol.toLowerCase().includes(query),
         )
         .slice(0, 20)
     : []
