@@ -1,3 +1,4 @@
+'use client'
 export { TokenIcon } from './TokenIcon.js'
 export { NetworkIcon } from './NetworkIcon.js'
 export { WalletIcon } from './WalletIcon.js'

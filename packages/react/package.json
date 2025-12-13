@@ -27,6 +27,10 @@
       "types": "./dist/dynamic/index.d.ts",
       "import": "./dist/dynamic/index.js"
     },
+    "./dynamicIconImports": {
+      "types": "./dynamicIconImports.d.ts",
+      "import": "./dynamicIconImports.js"
+    },
     "./icons/tokens/*": {
       "types": "./dist/icons/tokens/*.d.ts",
       "import": "./dist/icons/tokens/*.js"
@@ -48,7 +52,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun clean && (cd ../../scripts/build-scripts/react && bun react.pre-build.ts) && rollup -c && bun format",
+    "build": "bun clean && (cd ../../scripts/build-scripts/react && bun react.pre-build.ts) && rollup -c && rollup -c rollup.dynamic.config.mjs && bun format",
     "dev": "bun run build -- --watch",
     "lint": "eslint ./src --ext .ts,.tsx",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,mdx,json}\" --log-level error",
@@ -68,7 +72,10 @@
     "react": "^18.0.0 || ^19.0.0"
   },
   "files": [
-    "dist"
+    "dist",
+    "dynamicIconImports.js",
+    "dynamicIconImports.js.map",
+    "dynamicIconImports.d.ts"
   ],
   "sideEffects": false,
   "repository": {
