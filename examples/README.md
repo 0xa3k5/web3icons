@@ -1,24 +1,38 @@
 # Web3Icons Examples
 
-This directory contains example projects demonstrating how to use the Web3Icons packages.
+Example projects demonstrating `@web3icons/react` usage.
 
-## @web3icons/react Examples
-
-| Example                    | Description                                        |
-| -------------------------- | -------------------------------------------------- |
-| [nextjs](./nextjs)         | Next.js App Router with static and dynamic imports |
-| [react-vite](./react-vite) | React + Vite with static and dynamic imports       |
+| Example                    | Description        |
+| -------------------------- | ------------------ |
+| [nextjs](./nextjs)         | Next.js App Router |
+| [react-vite](./react-vite) | React + Vite       |
 
 ## Running Examples
 
-Each example is a standalone project. Navigate to the example directory and run:
-
 ```bash
 cd examples/nextjs  # or examples/react-vite
-npm install
-npm run dev
+bun install
+bun dev
 ```
 
-## Coming Soon
+## Pages
 
-- `@web3icons/core` examples (vanilla JS, HTML)
+Each example has two pages:
+
+- `/` - Static imports (tree-shakable)
+- `/dynamic` - Dynamic imports (runtime lookup)
+
+## Verifying Tree-Shaking
+
+The static page imports only 7 icons. Run bundle analysis to confirm:
+
+```bash
+bun run build:analyze
+```
+
+## Documentation
+
+- [Next.js Guide](https://web3icons.io/docs/guides/nextjs)
+- [Vite Guide](https://web3icons.io/docs/guides/vite)
+- [Performance & Tree-Shaking](https://web3icons.io/docs/react/performance)
+- [Dynamic Icons](https://web3icons.io/docs/react/dynamic-icons)

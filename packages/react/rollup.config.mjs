@@ -1,5 +1,6 @@
 import { createESMConfig } from '../../scripts/rollup/base-config.mjs';
 import preserveDirectives from 'rollup-plugin-preserve-directives';
+import dts from 'rollup-plugin-dts';
 
 const external = ['react', 'react-dom', '@web3icons/common'];
 
@@ -29,14 +30,15 @@ mainEntry.plugins.push(preserveDirectivesPlugin);
 mainEntry.onwarn = onwarn;
 
 // Dynamic components entry point
+// Mark dynamicIconImports as external to avoid bundling all icons
 const dynamicEntry = createESMConfig({
   input: 'src/dynamic/index.ts',
   outputDir: 'dist',
-  external,
-  generateDeclarations: true, // Generate declarations inline
+  external: [...external, '@web3icons/react/dynamicIconImports'],
+  generateDeclarations: false,
 });
 
 dynamicEntry.plugins.push(preserveDirectivesPlugin);
 dynamicEntry.onwarn = onwarn;
 
-export default [mainEntry, dynamicEntry];
+export default [mainEntry];

@@ -1,6 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "include": ["src/**/*.ts", "src/**/*.tsx", "./index.ts"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "./rollup.dynamic.config",
+    "./dynamicIconImports.js"
+  ],
   "exclude": ["node_modules", "dist"],
   "display": "Default",
   "compilerOptions": {

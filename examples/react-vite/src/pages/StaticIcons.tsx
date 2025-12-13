@@ -7,18 +7,18 @@ import {
   WalletMetamask,
   WalletRainbow,
 } from '@web3icons/react'
-import Link from 'next/link'
+import { Link } from 'react-router-dom'
 
-export default function Home() {
+export function StaticIcons() {
   return (
     <main style={{ fontFamily: 'system-ui, sans-serif', padding: '2rem' }}>
-      <h1>Static Imports (Server Components)</h1>
+      <h1>Static Imports</h1>
       <p style={{ color: '#666', marginBottom: '1rem' }}>
         Only these 7 icons are bundled. Run <code>bun run build:analyze</code>{' '}
         to verify tree-shaking.
       </p>
       <p style={{ marginBottom: '2rem' }}>
-        <Link href="/dynamic">View Dynamic Imports →</Link>
+        <Link to="/dynamic">View Dynamic Imports →</Link>
       </p>
 
       <section>
