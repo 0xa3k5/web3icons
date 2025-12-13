@@ -223,7 +223,6 @@ Common patterns for working with metadata:
 #### Find by ID
 
 ```typescript
-
 const bitcoin = tokens.find((t) => t.id === 'bitcoin')
 const ethereum = networks.find((n) => n.id === 'ethereum')
 ```
@@ -231,7 +230,6 @@ const ethereum = networks.find((n) => n.id === 'ethereum')
 #### Find by Symbol
 
 ```typescript
-
 const btc = tokens.find((t) => t.symbol === 'BTC')
 const eth = tokens.find((t) => t.symbol === 'ETH')
 ```
@@ -239,14 +237,12 @@ const eth = tokens.find((t) => t.symbol === 'ETH')
 #### Find by Chain ID
 
 ```typescript
-
 const network = networks.find((n) => n.chainId === 137) // Polygon
 ```
 
 #### Find by Contract Address
 
 ```typescript
-
 function findTokenByAddress(address: string, network: string) {
   return tokens.find(
     (t) => t.addresses?.[network]?.toLowerCase() === address.toLowerCase(),
@@ -257,7 +253,6 @@ function findTokenByAddress(address: string, network: string) {
 #### Search by Name
 
 ```typescript
-
 function searchTokens(query: string) {
   const q = query.toLowerCase()
   return tokens.filter(
