@@ -21381,6 +21381,15 @@ export const tokens: ITokenMetadata[] = [
     addresses: {},
   },
   {
+    id: 'l1',
+    name: 'Genesis L1',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:genesis-l1',
+    symbol: 'L1',
+    marketCapRank: 0,
+    addresses: {},
+  },
+  {
     id: 'uptick',
     name: 'Uptick',
     variants: ['background', 'branded', 'mono'],

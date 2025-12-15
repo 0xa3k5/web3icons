@@ -293,6 +293,7 @@ jump to section:
 | xdc-network                 | XDC Network                     | ✅      | ✅   | ✅         |
 | crab                        | Crab                            | ✅      | ✅   | ✅         |
 | darwinia                    | Darwinia                        | ✅      | ✅   | ✅         |
+| genesis-l1                  | Genesis L1                      | ✅      | ✅   | ✅         |
 | uptick                      | Uptick                          | ✅      | ✅   | ✅         |
 
 ### Exchanges
@@ -2166,4 +2167,5 @@ jump to section:
 | Handshake                              | HNS         | ✅      | ✅   | ✅         |
 | Monad                                  | MON         | ✅      | ✅   | ✅         |
 | Crab                                   | CRAB        | ✅      | ✅   | ✅         |
+| Genesis L1                             | L1          | ✅      | ✅   | ✅         |
 | Uptick                                 | UPTICK      | ✅      | ✅   | ✅         |

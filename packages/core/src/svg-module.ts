@@ -5121,6 +5121,9 @@ import * as TBackgroundMON from './svgs/networks/background/monad.svg'
 import * as TBrandedCRAB from './svgs/networks/branded/crab.svg'
 import * as TMonoCRAB from './svgs/networks/mono/crab.svg'
 import * as TBackgroundCRAB from './svgs/networks/background/crab.svg'
+import * as TBrandedL1 from './svgs/networks/branded/genesis-l1.svg'
+import * as TMonoL1 from './svgs/networks/mono/genesis-l1.svg'
+import * as TBackgroundL1 from './svgs/networks/background/genesis-l1.svg'
 import * as TBrandedUPTICK from './svgs/networks/branded/uptick.svg'
 import * as TMonoUPTICK from './svgs/networks/mono/uptick.svg'
 import * as TBackgroundUPTICK from './svgs/networks/background/uptick.svg'
@@ -5812,6 +5815,9 @@ import * as NBackgroundCrab from './svgs/networks/background/crab.svg'
 import * as NBrandedDarwinia from './svgs/networks/branded/darwinia.svg'
 import * as NMonoDarwinia from './svgs/networks/mono/darwinia.svg'
 import * as NBackgroundDarwinia from './svgs/networks/background/darwinia.svg'
+import * as NBrandedGenesisL1 from './svgs/networks/branded/genesis-l1.svg'
+import * as NMonoGenesisL1 from './svgs/networks/mono/genesis-l1.svg'
+import * as NBackgroundGenesisL1 from './svgs/networks/background/genesis-l1.svg'
 import * as NBrandedUptick from './svgs/networks/branded/uptick.svg'
 import * as NMonoUptick from './svgs/networks/mono/uptick.svg'
 import * as NBackgroundUptick from './svgs/networks/background/uptick.svg'
@@ -7828,6 +7834,7 @@ export const svgs = {
       hns: TBrandedHNS,
       mon: TBrandedMON,
       crab: TBrandedCRAB,
+      l1: TBrandedL1,
       uptick: TBrandedUPTICK,
     },
     mono: {
@@ -9375,6 +9382,7 @@ export const svgs = {
       hns: TMonoHNS,
       mon: TMonoMON,
       crab: TMonoCRAB,
+      l1: TMonoL1,
       uptick: TMonoUPTICK,
     },
     background: {
@@ -11167,6 +11175,7 @@ export const svgs = {
       hns: TBackgroundHNS,
       mon: TBackgroundMON,
       crab: TBackgroundCRAB,
+      l1: TBackgroundL1,
       uptick: TBackgroundUPTICK,
     },
   },
@@ -11400,6 +11409,10 @@ export const svgs = {
       stable: NBrandedStable,
       juris: NBrandedJuris,
       'terra-classic': NBrandedTerraClassic,
+      'xdc-network': NBrandedXdcNetwork,
+      crab: NBrandedCrab,
+      darwinia: NBrandedDarwinia,
+      'genesis-l1': NBrandedGenesisL1,
       uptick: NBrandedUptick,
     },
     mono: {
@@ -11626,6 +11639,11 @@ export const svgs = {
       stable: NMonoStable,
       juris: NMonoJuris,
       'terra-classic': NMonoTerraClassic,
+      'xdc-network': NMonoXdcNetwork,
+      crab: NMonoCrab,
+      darwinia: NMonoDarwinia,
+      'genesis-l1': NMonoGenesisL1,
+      uptick: NMonoUptick,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -11856,6 +11874,11 @@ export const svgs = {
       stable: NBackgroundStable,
       juris: NBackgroundJuris,
       'terra-classic': NBackgroundTerraClassic,
+      'xdc-network': NBackgroundXdcNetwork,
+      crab: NBackgroundCrab,
+      darwinia: NBackgroundDarwinia,
+      'genesis-l1': NBackgroundGenesisL1,
+      uptick: NBackgroundUptick,
     },
   },
   wallets: {
