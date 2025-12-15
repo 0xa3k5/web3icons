@@ -2240,6 +2240,15 @@ export const networks: INetworkMetadata[] = [
     caip2id: 'eip155:29',
     nativeCoinId: 'L1',
   },
+  {
+    id: 'tempo',
+    name: 'Tempo',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:tempo',
+    shortName: 'Tempo',
+    nativeCoinId: 'USD',
+  },
+  {
     id: 'uptick',
     name: 'Uptick',
     variants: ['background', 'branded', 'mono'],

@@ -272,6 +272,7 @@ const dynamicIconImports = {
   NetworkTelos: () => import('./dist/icons/networks/NetworkTelos.js'),
   NetworkTelosTestnet: () =>
     import('./dist/icons/networks/NetworkTelosTestnet.js'),
+  NetworkTempo: () => import('./dist/icons/networks/NetworkTempo.js'),
   NetworkTenet: () => import('./dist/icons/networks/NetworkTenet.js'),
   NetworkTerraClassic: () =>
     import('./dist/icons/networks/NetworkTerraClassic.js'),

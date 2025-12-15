@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (48)](#wallets)
-- [networks (228)](#networks)
+- [networks (234)](#networks)
 - [exchanges (27)](#exchanges)
-- [tokens (1834)](#tokens)
+- [tokens (1837)](#tokens)
 
 ### Wallets
 
@@ -294,6 +294,7 @@ jump to section:
 | crab                        | Crab                            | ✅      | ✅   | ✅         |
 | darwinia                    | Darwinia                        | ✅      | ✅   | ✅         |
 | genesis-l1                  | Genesis L1                      | ✅      | ✅   | ✅         |
+| tempo                       | Tempo                           | ✅      | ✅   | ✅         |
 | uptick                      | Uptick                          | ✅      | ✅   | ✅         |
 
 ### Exchanges

@@ -5818,6 +5818,9 @@ import * as NBackgroundDarwinia from './svgs/networks/background/darwinia.svg'
 import * as NBrandedGenesisL1 from './svgs/networks/branded/genesis-l1.svg'
 import * as NMonoGenesisL1 from './svgs/networks/mono/genesis-l1.svg'
 import * as NBackgroundGenesisL1 from './svgs/networks/background/genesis-l1.svg'
+import * as NBrandedTempo from './svgs/networks/branded/tempo.svg'
+import * as NMonoTempo from './svgs/networks/mono/tempo.svg'
+import * as NBackgroundTempo from './svgs/networks/background/tempo.svg'
 import * as NBrandedUptick from './svgs/networks/branded/uptick.svg'
 import * as NMonoUptick from './svgs/networks/mono/uptick.svg'
 import * as NBackgroundUptick from './svgs/networks/background/uptick.svg'
@@ -11413,6 +11416,7 @@ export const svgs = {
       crab: NBrandedCrab,
       darwinia: NBrandedDarwinia,
       'genesis-l1': NBrandedGenesisL1,
+      tempo: NBrandedTempo,
       uptick: NBrandedUptick,
     },
     mono: {
@@ -11643,6 +11647,7 @@ export const svgs = {
       crab: NMonoCrab,
       darwinia: NMonoDarwinia,
       'genesis-l1': NMonoGenesisL1,
+      tempo: NMonoTempo,
       uptick: NMonoUptick,
     },
     background: {
@@ -11878,6 +11883,7 @@ export const svgs = {
       crab: NBackgroundCrab,
       darwinia: NBackgroundDarwinia,
       'genesis-l1': NBackgroundGenesisL1,
+      tempo: NBackgroundTempo,
       uptick: NBackgroundUptick,
     },
   },
