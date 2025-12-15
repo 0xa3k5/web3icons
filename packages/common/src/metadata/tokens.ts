@@ -21371,4 +21371,13 @@ export const tokens: ITokenMetadata[] = [
     },
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'crab',
+    name: 'Crab',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:crab',
+    symbol: 'CRAB',
+    marketCapRank: 0,
+    addresses: {},
+  },
 ]

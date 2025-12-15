@@ -291,6 +291,8 @@ jump to section:
 | juris                       | Juris Protocol                  | ✅      | ✅   | ✅         |
 | terra-classic               | Terra Classic                   | ✅      | ✅   | ✅         |
 | xdc-network                 | XDC Network                     | ✅      | ✅   | ✅         |
+| crab                        | Crab                            | ✅      | ✅   | ✅         |
+| darwinia                    | Darwinia                        | ✅      | ✅   | ✅         |
 
 ### Exchanges
 

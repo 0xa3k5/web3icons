@@ -87,11 +87,13 @@ const dynamicIconImports = {
   NetworkCorn: () => import('./dist/icons/networks/NetworkCorn.js'),
   NetworkCosmos: () => import('./dist/icons/networks/NetworkCosmos.js'),
   NetworkCosmosHub: () => import('./dist/icons/networks/NetworkCosmosHub.js'),
+  NetworkCrab: () => import('./dist/icons/networks/NetworkCrab.js'),
   NetworkCronos: () => import('./dist/icons/networks/NetworkCronos.js'),
   NetworkCronosTestnet: () =>
     import('./dist/icons/networks/NetworkCronosTestnet.js'),
   NetworkCronosZkevm: () =>
     import('./dist/icons/networks/NetworkCronosZkevm.js'),
+  NetworkDarwinia: () => import('./dist/icons/networks/NetworkDarwinia.js'),
   NetworkDiode: () => import('./dist/icons/networks/NetworkDiode.js'),
   NetworkDogechain: () => import('./dist/icons/networks/NetworkDogechain.js'),
   NetworkEdgeless: () => import('./dist/icons/networks/NetworkEdgeless.js'),

@@ -2208,5 +2208,25 @@
     "nativeCoinId": "XDC",
     "variants": ["branded", "mono", "background"]
   },
+  {
+    "id": "crab",
+    "filePath": "network:crab",
+    "chainId": 44,
+    "caip2id": "eip155:44",
+    "name": "Crab",
+    "shortName": "Crab",
+    "nativeCoinId": "CRAB",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "darwinia",
+    "filePath": "network:darwinia",
+    "chainId": 46,
+    "caip2id": "eip155:46",
+    "name": "Darwinia",
+    "shortName": "Darwinia",
+    "nativeCoinId": "RING",
+    "variants": ["background", "branded", "mono"]
+  },
   }
 ]
