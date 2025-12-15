@@ -2200,4 +2200,14 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'LUNC',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'xdc-network',
+    name: 'XDC Network',
+    variants: ['branded', 'mono', 'background'],
+    filePath: 'token:XDC',
+    shortName: 'XDC',
+    chainId: 51,
+    caip2id: 'eip155:51',
+    nativeCoinId: 'XDC',
+  },
 ]

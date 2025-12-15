@@ -290,6 +290,7 @@ jump to section:
 | stable                      | Stablechain                     | ✅      | ✅   | ✅         |
 | juris                       | Juris Protocol                  | ✅      | ✅   | ✅         |
 | terra-classic               | Terra Classic                   | ✅      | ✅   | ✅         |
+| xdc-network                 | XDC Network                     | ✅      | ✅   | ✅         |
 
 ### Exchanges
 

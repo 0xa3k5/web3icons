@@ -293,6 +293,7 @@ const dynamicIconImports = {
   NetworkWorld: () => import('./dist/icons/networks/NetworkWorld.js'),
   NetworkXai: () => import('./dist/icons/networks/NetworkXai.js'),
   NetworkXdc: () => import('./dist/icons/networks/NetworkXdc.js'),
+  NetworkXdcNetwork: () => import('./dist/icons/networks/NetworkXdcNetwork.js'),
   NetworkXLayer: () => import('./dist/icons/networks/NetworkXLayer.js'),
   NetworkXrp: () => import('./dist/icons/networks/NetworkXrp.js'),
   NetworkZeroNetwork: () =>

@@ -2197,5 +2197,16 @@
     "shortName": "Terra",
     "nativeCoinId": "LUNC",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "xdc-network",
+    "filePath": "token:XDC",
+    "chainId": 51,
+    "caip2id": "eip155:51",
+    "name": "XDC Network",
+    "shortName": "XDC",
+    "nativeCoinId": "XDC",
+    "variants": ["branded", "mono", "background"]
+  },
   }
 ]
