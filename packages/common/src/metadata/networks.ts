@@ -2230,4 +2230,14 @@ export const networks: INetworkMetadata[] = [
     caip2id: 'eip155:46',
     nativeCoinId: 'RING',
   },
+  {
+    id: 'uptick',
+    name: 'Uptick',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:uptick',
+    shortName: 'Uptick',
+    chainId: 117,
+    caip2id: 'eip155:117',
+    nativeCoinId: 'UPTICK',
+  },
 ]

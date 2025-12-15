@@ -293,6 +293,7 @@ jump to section:
 | xdc-network                 | XDC Network                     | ✅      | ✅   | ✅         |
 | crab                        | Crab                            | ✅      | ✅   | ✅         |
 | darwinia                    | Darwinia                        | ✅      | ✅   | ✅         |
+| uptick                      | Uptick                          | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2164,3 +2165,5 @@ jump to section:
 | Juris Protocol                         | JURIS       | ✅      | ✅   | ✅         |
 | Handshake                              | HNS         | ✅      | ✅   | ✅         |
 | Monad                                  | MON         | ✅      | ✅   | ✅         |
+| Crab                                   | CRAB        | ✅      | ✅   | ✅         |
+| Uptick                                 | UPTICK      | ✅      | ✅   | ✅         |

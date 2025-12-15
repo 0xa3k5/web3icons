@@ -21380,4 +21380,13 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 0,
     addresses: {},
   },
+  {
+    id: 'uptick',
+    name: 'Uptick',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:uptick',
+    symbol: 'UPTICK',
+    marketCapRank: 0,
+    addresses: {},
+  },
 ]

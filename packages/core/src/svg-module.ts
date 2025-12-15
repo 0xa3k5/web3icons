@@ -5121,6 +5121,9 @@ import * as TBackgroundMON from './svgs/networks/background/monad.svg'
 import * as TBrandedCRAB from './svgs/networks/branded/crab.svg'
 import * as TMonoCRAB from './svgs/networks/mono/crab.svg'
 import * as TBackgroundCRAB from './svgs/networks/background/crab.svg'
+import * as TBrandedUPTICK from './svgs/networks/branded/uptick.svg'
+import * as TMonoUPTICK from './svgs/networks/mono/uptick.svg'
+import * as TBackgroundUPTICK from './svgs/networks/background/uptick.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
 import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
@@ -5809,6 +5812,9 @@ import * as NBackgroundCrab from './svgs/networks/background/crab.svg'
 import * as NBrandedDarwinia from './svgs/networks/branded/darwinia.svg'
 import * as NMonoDarwinia from './svgs/networks/mono/darwinia.svg'
 import * as NBackgroundDarwinia from './svgs/networks/background/darwinia.svg'
+import * as NBrandedUptick from './svgs/networks/branded/uptick.svg'
+import * as NMonoUptick from './svgs/networks/mono/uptick.svg'
+import * as NBackgroundUptick from './svgs/networks/background/uptick.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -7821,6 +7827,8 @@ export const svgs = {
       juris: TBrandedJURIS,
       hns: TBrandedHNS,
       mon: TBrandedMON,
+      crab: TBrandedCRAB,
+      uptick: TBrandedUPTICK,
     },
     mono: {
       '0x0': TMono0X0,
@@ -9366,6 +9374,8 @@ export const svgs = {
       juris: TMonoJURIS,
       hns: TMonoHNS,
       mon: TMonoMON,
+      crab: TMonoCRAB,
+      uptick: TMonoUPTICK,
     },
     background: {
       '0x0': TBackground0X0,
@@ -11156,6 +11166,8 @@ export const svgs = {
       juris: TBackgroundJURIS,
       hns: TBackgroundHNS,
       mon: TBackgroundMON,
+      crab: TBackgroundCRAB,
+      uptick: TBackgroundUPTICK,
     },
   },
   networks: {
@@ -11388,6 +11400,7 @@ export const svgs = {
       stable: NBrandedStable,
       juris: NBrandedJuris,
       'terra-classic': NBrandedTerraClassic,
+      uptick: NBrandedUptick,
     },
     mono: {
       zksync: NMonoZksync,

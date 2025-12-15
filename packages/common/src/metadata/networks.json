@@ -2228,5 +2228,14 @@
     "nativeCoinId": "RING",
     "variants": ["background", "branded", "mono"]
   },
+  {
+    "id": "uptick",
+    "filePath": "network:uptick",
+    "chainId": 117,
+    "caip2id": "eip155:117",
+    "name": "Uptick",
+    "shortName": "Uptick",
+    "nativeCoinId": "UPTICK",
+    "variants": ["background", "branded", "mono"]
   }
 ]
