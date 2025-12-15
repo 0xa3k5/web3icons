@@ -596,7 +596,7 @@ export const networks: INetworkMetadata[] = [
     caip2id: 'eip155:37111',
     name: 'Lens',
     shortName: 'lens',
-    nativeCoinId: 'GRASS',
+    nativeCoinId: 'GHO',
     variants: ['background', 'branded', 'mono'],
   },
   {
