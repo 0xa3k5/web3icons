@@ -594,7 +594,7 @@
     "caip2id": "eip155:37111",
     "name": "Lens",
     "shortName": "lens",
-    "nativeCoinId": "GRASS",
+    "nativeCoinId": "GHO",
     "variants": ["background", "branded", "mono"]
   },
   {
@@ -2196,6 +2196,64 @@
     "name": "Terra Classic",
     "shortName": "Terra",
     "nativeCoinId": "LUNC",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "xdc-network",
+    "filePath": "token:XDC",
+    "chainId": 51,
+    "caip2id": "eip155:51",
+    "name": "XDC Network",
+    "shortName": "XDC",
+    "nativeCoinId": "XDC",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "crab",
+    "filePath": "network:crab",
+    "chainId": 44,
+    "caip2id": "eip155:44",
+    "name": "Crab",
+    "shortName": "Crab",
+    "nativeCoinId": "CRAB",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "darwinia",
+    "filePath": "network:darwinia",
+    "chainId": 46,
+    "caip2id": "eip155:46",
+    "name": "Darwinia",
+    "shortName": "Darwinia",
+    "nativeCoinId": "RING",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "genesis-l1",
+    "filePath": "network:genesis-l1",
+    "chainId": 29,
+    "caip2id": "eip155:29",
+    "name": "Genesis L1",
+    "shortName": "Genesis L1",
+    "nativeCoinId": "L1",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "tempo",
+    "filePath": "network:tempo",
+    "name": "Tempo",
+    "shortName": "Tempo",
+    "nativeCoinId": "USD",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "uptick",
+    "filePath": "network:uptick",
+    "chainId": 117,
+    "caip2id": "eip155:117",
+    "name": "Uptick",
+    "shortName": "Uptick",
+    "nativeCoinId": "UPTICK",
     "variants": ["background", "branded", "mono"]
   }
 ]

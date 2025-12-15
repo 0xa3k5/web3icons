@@ -5118,6 +5118,15 @@ import * as TBackgroundHNS from './svgs/tokens/background/HNS.svg'
 import * as TBrandedMON from './svgs/networks/branded/monad.svg'
 import * as TMonoMON from './svgs/networks/mono/monad.svg'
 import * as TBackgroundMON from './svgs/networks/background/monad.svg'
+import * as TBrandedCRAB from './svgs/networks/branded/crab.svg'
+import * as TMonoCRAB from './svgs/networks/mono/crab.svg'
+import * as TBackgroundCRAB from './svgs/networks/background/crab.svg'
+import * as TBrandedL1 from './svgs/networks/branded/genesis-l1.svg'
+import * as TMonoL1 from './svgs/networks/mono/genesis-l1.svg'
+import * as TBackgroundL1 from './svgs/networks/background/genesis-l1.svg'
+import * as TBrandedUPTICK from './svgs/networks/branded/uptick.svg'
+import * as TMonoUPTICK from './svgs/networks/mono/uptick.svg'
+import * as TBackgroundUPTICK from './svgs/networks/background/uptick.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
 import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
@@ -5797,6 +5806,24 @@ import * as NBackgroundJuris from './svgs/networks/background/juris.svg'
 import * as NBrandedTerraClassic from './svgs/networks/branded/terra-classic.svg'
 import * as NMonoTerraClassic from './svgs/networks/mono/terra-classic.svg'
 import * as NBackgroundTerraClassic from './svgs/networks/background/terra-classic.svg'
+import * as NBrandedXdcNetwork from './svgs/tokens/branded/XDC.svg'
+import * as NMonoXdcNetwork from './svgs/tokens/mono/XDC.svg'
+import * as NBackgroundXdcNetwork from './svgs/tokens/background/XDC.svg'
+import * as NBrandedCrab from './svgs/networks/branded/crab.svg'
+import * as NMonoCrab from './svgs/networks/mono/crab.svg'
+import * as NBackgroundCrab from './svgs/networks/background/crab.svg'
+import * as NBrandedDarwinia from './svgs/networks/branded/darwinia.svg'
+import * as NMonoDarwinia from './svgs/networks/mono/darwinia.svg'
+import * as NBackgroundDarwinia from './svgs/networks/background/darwinia.svg'
+import * as NBrandedGenesisL1 from './svgs/networks/branded/genesis-l1.svg'
+import * as NMonoGenesisL1 from './svgs/networks/mono/genesis-l1.svg'
+import * as NBackgroundGenesisL1 from './svgs/networks/background/genesis-l1.svg'
+import * as NBrandedTempo from './svgs/networks/branded/tempo.svg'
+import * as NMonoTempo from './svgs/networks/mono/tempo.svg'
+import * as NBackgroundTempo from './svgs/networks/background/tempo.svg'
+import * as NBrandedUptick from './svgs/networks/branded/uptick.svg'
+import * as NMonoUptick from './svgs/networks/mono/uptick.svg'
+import * as NBackgroundUptick from './svgs/networks/background/uptick.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -7809,6 +7836,9 @@ export const svgs = {
       juris: TBrandedJURIS,
       hns: TBrandedHNS,
       mon: TBrandedMON,
+      crab: TBrandedCRAB,
+      l1: TBrandedL1,
+      uptick: TBrandedUPTICK,
     },
     mono: {
       '0x0': TMono0X0,
@@ -9354,6 +9384,9 @@ export const svgs = {
       juris: TMonoJURIS,
       hns: TMonoHNS,
       mon: TMonoMON,
+      crab: TMonoCRAB,
+      l1: TMonoL1,
+      uptick: TMonoUPTICK,
     },
     background: {
       '0x0': TBackground0X0,
@@ -11144,6 +11177,9 @@ export const svgs = {
       juris: TBackgroundJURIS,
       hns: TBackgroundHNS,
       mon: TBackgroundMON,
+      crab: TBackgroundCRAB,
+      l1: TBackgroundL1,
+      uptick: TBackgroundUPTICK,
     },
   },
   networks: {
@@ -11376,6 +11412,12 @@ export const svgs = {
       stable: NBrandedStable,
       juris: NBrandedJuris,
       'terra-classic': NBrandedTerraClassic,
+      'xdc-network': NBrandedXdcNetwork,
+      crab: NBrandedCrab,
+      darwinia: NBrandedDarwinia,
+      'genesis-l1': NBrandedGenesisL1,
+      tempo: NBrandedTempo,
+      uptick: NBrandedUptick,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11601,6 +11643,12 @@ export const svgs = {
       stable: NMonoStable,
       juris: NMonoJuris,
       'terra-classic': NMonoTerraClassic,
+      'xdc-network': NMonoXdcNetwork,
+      crab: NMonoCrab,
+      darwinia: NMonoDarwinia,
+      'genesis-l1': NMonoGenesisL1,
+      tempo: NMonoTempo,
+      uptick: NMonoUptick,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -11831,6 +11879,12 @@ export const svgs = {
       stable: NBackgroundStable,
       juris: NBackgroundJuris,
       'terra-classic': NBackgroundTerraClassic,
+      'xdc-network': NBackgroundXdcNetwork,
+      crab: NBackgroundCrab,
+      darwinia: NBackgroundDarwinia,
+      'genesis-l1': NBackgroundGenesisL1,
+      tempo: NBackgroundTempo,
+      uptick: NBackgroundUptick,
     },
   },
   wallets: {
