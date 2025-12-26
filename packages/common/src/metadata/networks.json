@@ -2255,5 +2255,15 @@
     "shortName": "Uptick",
     "nativeCoinId": "UPTICK",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "plasma",
+    "name": "Plasma",
+    "variants": ["background", "branded", "mono"],
+    "filePath": "network:plasma",
+    "shortName": "Plasma",
+    "chainId": 9745,
+    "caip2id": "eip155:9745",
+    "nativeCoinId": "XPL"
   }
 ]
