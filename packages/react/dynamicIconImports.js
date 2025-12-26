@@ -17,6 +17,8 @@ const dynamicIconImports = {
     import('./dist/icons/exchanges/ExchangeCryptoCom.js'),
   ExchangeGateIo: () => import('./dist/icons/exchanges/ExchangeGateIo.js'),
   ExchangeGemini: () => import('./dist/icons/exchanges/ExchangeGemini.js'),
+  ExchangeHyperliquid: () =>
+    import('./dist/icons/exchanges/ExchangeHyperliquid.js'),
   ExchangeKraken: () => import('./dist/icons/exchanges/ExchangeKraken.js'),
   ExchangeKucoin: () => import('./dist/icons/exchanges/ExchangeKucoin.js'),
   ExchangeOdos: () => import('./dist/icons/exchanges/ExchangeOdos.js'),
@@ -224,6 +226,7 @@ const dynamicIconImports = {
   NetworkOzean: () => import('./dist/icons/networks/NetworkOzean.js'),
   NetworkParadex: () => import('./dist/icons/networks/NetworkParadex.js'),
   NetworkPeaq: () => import('./dist/icons/networks/NetworkPeaq.js'),
+  NetworkPlasma: () => import('./dist/icons/networks/NetworkPlasma.js'),
   NetworkPolkadot: () => import('./dist/icons/networks/NetworkPolkadot.js'),
   NetworkPolygon: () => import('./dist/icons/networks/NetworkPolygon.js'),
   NetworkPolygonAmoy: () =>
@@ -280,6 +283,7 @@ const dynamicIconImports = {
   NetworkThundercore: () =>
     import('./dist/icons/networks/NetworkThundercore.js'),
   NetworkTombchain: () => import('./dist/icons/networks/NetworkTombchain.js'),
+  NetworkTon: () => import('./dist/icons/networks/NetworkTon.js'),
   NetworkTreasure: () => import('./dist/icons/networks/NetworkTreasure.js'),
   NetworkTron: () => import('./dist/icons/networks/NetworkTron.js'),
   NetworkUbiq: () => import('./dist/icons/networks/NetworkUbiq.js'),
@@ -2095,6 +2099,7 @@ const dynamicIconImports = {
   TokenXNA: () => import('./dist/icons/tokens/TokenXNA.js'),
   TokenXNO: () => import('./dist/icons/tokens/TokenXNO.js'),
   TokenXOR: () => import('./dist/icons/tokens/TokenXOR.js'),
+  TokenXPL: () => import('./dist/icons/tokens/TokenXPL.js'),
   TokenXPLA: () => import('./dist/icons/tokens/TokenXPLA.js'),
   TokenXPNET: () => import('./dist/icons/tokens/TokenXPNET.js'),
   TokenXPR: () => import('./dist/icons/tokens/TokenXPR.js'),

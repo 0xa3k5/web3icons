@@ -190,4 +190,11 @@ export const exchanges: IExchangeMetadata[] = [
     type: 'cex',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'hyperliquid',
+    filePath: 'network:hyper-evm',
+    name: 'Hyperliquid',
+    type: 'dex',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]

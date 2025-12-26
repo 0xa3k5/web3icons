@@ -190,9 +190,9 @@
   },
   {
     "id": "hyperliquid",
-    "name": "Hyperliquid",
-    "variants": ["background", "branded", "mono"],
     "filePath": "network:hyper-evm",
-    "type": "dex"
+    "name": "Hyperliquid",
+    "type": "dex",
+    "variants": ["background", "branded", "mono"]
   }
 ]
