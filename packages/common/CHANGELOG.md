@@ -1,5 +1,15 @@
 # @web3icons/common
 
+## 0.11.37
+
+### Patch Changes
+
+- ba471ec: network: add `The Open Chain` (background, branded, mono)
+  network: add `Plasma` (background, branded, mono)
+  token: add `Toncoin` (background, branded, mono)
+  token: add `XPL` (background, branded, mono)
+  exchange: add `hyperliquid` (background, branded, mono)
+
 ## 0.11.36
 
 ### Patch Changes
