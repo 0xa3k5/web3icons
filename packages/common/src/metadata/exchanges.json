@@ -187,5 +187,12 @@
     "name": "Bitget",
     "type": "cex",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "hyperliquid",
+    "name": "Hyperliquid",
+    "variants": ["background", "branded", "mono"],
+    "filePath": "network:hyper-evm",
+    "type": "dex"
   }
 ]
