@@ -2258,4 +2258,23 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'UPTICK',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'plasma',
+    filePath: 'network:plasma',
+    chainId: 9745,
+    caip2id: 'eip155:9745',
+    name: 'Plasma',
+    shortName: 'Plasma',
+    nativeCoinId: 'XPL',
+    variants: ['background', 'branded', 'mono'],
+  },
+  {
+    id: 'ton',
+    filePath: 'network:ton',
+    chainId: -239,
+    caip2id: 'ton:-239',
+    name: 'The Open Network',
+    shortName: 'TON',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]

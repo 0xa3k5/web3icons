@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (48)](#wallets)
-- [networks (234)](#networks)
-- [exchanges (27)](#exchanges)
-- [tokens (1837)](#tokens)
+- [networks (236)](#networks)
+- [exchanges (28)](#exchanges)
+- [tokens (1838)](#tokens)
 
 ### Wallets
 
@@ -296,6 +296,8 @@ jump to section:
 | genesis-l1                  | Genesis L1                      | ✅      | ✅   | ✅         |
 | tempo                       | Tempo                           | ✅      | ✅   | ✅         |
 | uptick                      | Uptick                          | ✅      | ✅   | ✅         |
+| plasma                      | Plasma                          | ✅      | ✅   | ✅         |
+| ton                         | The Open Network                | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -328,6 +330,7 @@ jump to section:
 | aevo         | Aevo         | dex  | ✅      | ✅   | ✅         |
 | paradex      | Paradex      | dex  | ✅      | ✅   | ✅         |
 | bitget       | Bitget       | cex  | ✅      | ✅   | ✅         |
+| hyperliquid  | Hyperliquid  | dex  | ✅      | ✅   | ✅         |
 
 ### Tokens
 
@@ -1916,7 +1919,7 @@ jump to section:
 | Abyss                                  | abyss       | ✅      | ✅   | ✅         |
 | The Doge NFT                           | dog         | ✅      | ✅   | ✅         |
 | The Graph                              | grt         | ✅      | ✅   | ✅         |
-| Toncoin                                | ton         | ✅      | ✅   | ✅         |
+| Toncoin                                | TON         | ✅      | ✅   | ✅         |
 | The Sandbox                            | sand        | ✅      | ✅   | ✅         |
 | The Three Kingdoms                     | ttk         | ✅      | ✅   | ✅         |
 | The Unfettered Ecosystem               | souls       | ✅      | ❌   | ✅         |
@@ -2170,3 +2173,4 @@ jump to section:
 | Crab                                   | CRAB        | ✅      | ✅   | ✅         |
 | Genesis L1                             | L1          | ✅      | ✅   | ✅         |
 | Uptick                                 | UPTICK      | ✅      | ✅   | ✅         |
+| Plasma                                 | XPL         | ✅      | ✅   | ✅         |

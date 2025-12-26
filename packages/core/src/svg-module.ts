@@ -4398,9 +4398,9 @@ import * as TBackgroundDOG from './svgs/tokens/background/DOG.svg'
 import * as TBrandedGRT from './svgs/tokens/branded/GRT.svg'
 import * as TMonoGRT from './svgs/tokens/mono/GRT.svg'
 import * as TBackgroundGRT from './svgs/tokens/background/GRT.svg'
-import * as TBrandedTON from './svgs/tokens/branded/TON.svg'
-import * as TMonoTON from './svgs/tokens/mono/TON.svg'
-import * as TBackgroundTON from './svgs/tokens/background/TON.svg'
+import * as TBrandedTON from './svgs/networks/branded/ton.svg'
+import * as TMonoTON from './svgs/networks/mono/ton.svg'
+import * as TBackgroundTON from './svgs/networks/background/ton.svg'
 import * as TBrandedSAND from './svgs/tokens/branded/SAND.svg'
 import * as TMonoSAND from './svgs/tokens/mono/SAND.svg'
 import * as TBackgroundSAND from './svgs/tokens/background/SAND.svg'
@@ -5127,6 +5127,9 @@ import * as TBackgroundL1 from './svgs/networks/background/genesis-l1.svg'
 import * as TBrandedUPTICK from './svgs/networks/branded/uptick.svg'
 import * as TMonoUPTICK from './svgs/networks/mono/uptick.svg'
 import * as TBackgroundUPTICK from './svgs/networks/background/uptick.svg'
+import * as TBrandedXPL from './svgs/networks/branded/plasma.svg'
+import * as TMonoXPL from './svgs/networks/mono/plasma.svg'
+import * as TBackgroundXPL from './svgs/networks/background/plasma.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
 import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
@@ -5824,6 +5827,12 @@ import * as NBackgroundTempo from './svgs/networks/background/tempo.svg'
 import * as NBrandedUptick from './svgs/networks/branded/uptick.svg'
 import * as NMonoUptick from './svgs/networks/mono/uptick.svg'
 import * as NBackgroundUptick from './svgs/networks/background/uptick.svg'
+import * as NBrandedPlasma from './svgs/networks/branded/plasma.svg'
+import * as NMonoPlasma from './svgs/networks/mono/plasma.svg'
+import * as NBackgroundPlasma from './svgs/networks/background/plasma.svg'
+import * as NBrandedTon from './svgs/networks/branded/ton.svg'
+import * as NMonoTon from './svgs/networks/mono/ton.svg'
+import * as NBackgroundTon from './svgs/networks/background/ton.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -6044,6 +6053,9 @@ import * as EBackgroundParadex from './svgs/exchanges/background/paradex.svg'
 import * as EBrandedBitget from './svgs/exchanges/branded/bitget.svg'
 import * as EMonoBitget from './svgs/exchanges/mono/bitget.svg'
 import * as EBackgroundBitget from './svgs/exchanges/background/bitget.svg'
+import * as EBrandedHyperliquid from './svgs/networks/branded/hyper-evm.svg'
+import * as EMonoHyperliquid from './svgs/networks/mono/hyper-evm.svg'
+import * as EBackgroundHyperliquid from './svgs/networks/background/hyper-evm.svg'
 
 export const svgs = {
   tokens: {
@@ -7839,6 +7851,7 @@ export const svgs = {
       crab: TBrandedCRAB,
       l1: TBrandedL1,
       uptick: TBrandedUPTICK,
+      xpl: TBrandedXPL,
     },
     mono: {
       '0x0': TMono0X0,
@@ -9387,6 +9400,7 @@ export const svgs = {
       crab: TMonoCRAB,
       l1: TMonoL1,
       uptick: TMonoUPTICK,
+      xpl: TMonoXPL,
     },
     background: {
       '0x0': TBackground0X0,
@@ -11180,6 +11194,7 @@ export const svgs = {
       crab: TBackgroundCRAB,
       l1: TBackgroundL1,
       uptick: TBackgroundUPTICK,
+      xpl: TBackgroundXPL,
     },
   },
   networks: {
@@ -11418,6 +11433,8 @@ export const svgs = {
       'genesis-l1': NBrandedGenesisL1,
       tempo: NBrandedTempo,
       uptick: NBrandedUptick,
+      plasma: NBrandedPlasma,
+      ton: NBrandedTon,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11649,6 +11666,8 @@ export const svgs = {
       'genesis-l1': NMonoGenesisL1,
       tempo: NMonoTempo,
       uptick: NMonoUptick,
+      plasma: NMonoPlasma,
+      ton: NMonoTon,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -11885,6 +11904,8 @@ export const svgs = {
       'genesis-l1': NBackgroundGenesisL1,
       tempo: NBackgroundTempo,
       uptick: NBackgroundUptick,
+      plasma: NBackgroundPlasma,
+      ton: NBackgroundTon,
     },
   },
   wallets: {
@@ -12063,6 +12084,7 @@ export const svgs = {
       aevo: EBrandedAevo,
       paradex: EBrandedParadex,
       bitget: EBrandedBitget,
+      hyperliquid: EBrandedHyperliquid,
     },
     mono: {
       '1inch': EMono1inch,
@@ -12092,6 +12114,7 @@ export const svgs = {
       aevo: EMonoAevo,
       paradex: EMonoParadex,
       bitget: EMonoBitget,
+      hyperliquid: EMonoHyperliquid,
     },
     background: {
       '1inch': EBackground1inch,
@@ -12121,6 +12144,7 @@ export const svgs = {
       aevo: EBackgroundAevo,
       paradex: EBackgroundParadex,
       bitget: EBackgroundBitget,
+      hyperliquid: EBackgroundHyperliquid,
     },
   },
 }

@@ -18404,13 +18404,14 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'the-open-network',
-    filePath: 'token:TON',
-    symbol: 'ton',
+    filePath: 'network:ton',
+    symbol: 'TON',
     name: 'Toncoin',
     marketCapRank: 12,
     addresses: {
       ethereum: '0x582d872a1b094fc48f5de31d3b73f2d9be47def1',
       'binance-smart-chain': '0x76a797a59ba2c17726896976b7b3747bfd1d220f',
+      ton: 'EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c',
     },
     variants: ['branded', 'mono', 'background'],
   },
@@ -21396,6 +21397,18 @@ export const tokens: ITokenMetadata[] = [
     name: 'Uptick',
     marketCapRank: 0,
     addresses: {},
+    variants: ['background', 'branded', 'mono'],
+  },
+  {
+    id: 'xpl',
+    filePath: 'network:plasma',
+    symbol: 'XPL',
+    name: 'Plasma',
+    marketCapRank: 0,
+    addresses: {
+      'binance-smart-chain': '0x405FBc9004D857903bFD6b3357792D71a50726b0',
+      plasma: '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
+    },
     variants: ['background', 'branded', 'mono'],
   },
 ]
