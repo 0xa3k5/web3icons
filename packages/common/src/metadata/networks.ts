@@ -946,8 +946,8 @@ export const networks: INetworkMetadata[] = [
   {
     id: 'x-layer',
     filePath: 'network:x-layer',
-    chainId: 19,
-    caip2id: 'eip155:19',
+    chainId: 196,
+    caip2id: 'eip155:196',
     name: 'X Layer',
     shortName: 'xlayer',
     nativeCoinId: 'okb',
