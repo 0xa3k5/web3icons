@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.38
+
+### Patch Changes
+
+- 3ee6bbb: fix x-layer chainId and caip2id
+
 ## 0.11.37
 
 ### Patch Changes
