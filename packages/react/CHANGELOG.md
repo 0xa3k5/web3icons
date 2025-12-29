@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 4.1.9
+
+### Patch Changes
+
+- 3ee6bbb: fix x-layer chainId and caip2id
+- Updated dependencies [3ee6bbb]
+  - @web3icons/common@0.11.38
+
 ## 4.1.8
 
 ### Patch Changes

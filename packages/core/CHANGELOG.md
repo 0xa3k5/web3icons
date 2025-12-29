@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.43
+
+### Patch Changes
+
+- 3ee6bbb: fix x-layer chainId and caip2id
+- Updated dependencies [3ee6bbb]
+  - @web3icons/common@0.11.38
+
 ## 4.0.42
 
 ### Patch Changes
