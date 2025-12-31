@@ -286,5 +286,23 @@
     "filePath": "token:PEC",
     "name": "Pecunity",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "ambire",
+    "filePath": "token:WALLET",
+    "name": "Ambire",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "cypherock",
+    "filePath": "wallet:cypherock",
+    "name": "Cypherock",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "daimo",
+    "filePath": "wallet:daimo",
+    "name": "Daimo Pay",
+    "variants": ["background", "branded", "mono"]
   }
 ]

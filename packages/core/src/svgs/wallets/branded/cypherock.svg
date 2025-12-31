@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <path fill="url(#cypherock__a)" d="M12.834 18.947 14.177 21l5.323-7.794h-5.174l-3.884 5.68-3.663-5.164 2.32-.018 1.952 2.735.68-1.022-1.969-2.77H4.5l5.915 8.327 4.582-6.71h2.313l-3.178 4.596-.61-.927z"/>
+    <path fill="url(#cypherock__b)" d="m10.442 5.115 3.884 5.679H19.5L14.177 3l-1.343 2.053.688 1.014.61-.926 3.178 4.596h-2.313l-4.582-6.71L4.5 11.352h5.262l1.97-2.77-.68-1.022L9.1 10.296l-2.321-.018z"/>
+    <defs>
+        <linearGradient id="cypherock__a" x1="4.137" x2="19.855" y1="16.748" y2="16.748" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FBC926"/>
+            <stop offset=".006" stop-color="#FBC926"/>
+            <stop offset=".253" stop-color="#FFFBCC"/>
+            <stop offset=".298" stop-color="#F8EBB9"/>
+            <stop offset=".388" stop-color="#E7D08F"/>
+            <stop offset=".512" stop-color="#D1AA55"/>
+            <stop offset=".596" stop-color="#C3922E"/>
+            <stop offset=".823" stop-color="#E4C878"/>
+            <stop offset=".871" stop-color="#EED688"/>
+            <stop offset="1" stop-color="#FFFBCC"/>
+        </linearGradient>
+        <linearGradient id="cypherock__b" x1="4.137" x2="19.855" y1="7.101" y2="7.101" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FBC926"/>
+            <stop offset=".006" stop-color="#FBC926"/>
+            <stop offset=".253" stop-color="#FFFBCC"/>
+            <stop offset=".298" stop-color="#F8EBB9"/>
+            <stop offset=".388" stop-color="#E7D08F"/>
+            <stop offset=".512" stop-color="#D1AA55"/>
+            <stop offset=".596" stop-color="#C3922E"/>
+            <stop offset=".823" stop-color="#E4C878"/>
+            <stop offset=".871" stop-color="#EED688"/>
+            <stop offset="1" stop-color="#FFFBCC"/>
+        </linearGradient>
+    </defs>
+</svg>
