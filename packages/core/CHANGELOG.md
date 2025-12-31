@@ -1,5 +1,15 @@
 # @web3icons/core
 
+## 4.0.44
+
+### Patch Changes
+
+- e6e4e86: wallet: add `Cypherock` (background, branded, mono)
+  wallet: add `Daimo Pay` (background, branded, mono)
+  wallet: add `Ambire` (background, branded, mono)
+- Updated dependencies [e6e4e86]
+  - @web3icons/common@0.11.39
+
 ## 4.0.43
 
 ### Patch Changes
