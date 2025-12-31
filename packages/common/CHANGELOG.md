@@ -1,5 +1,13 @@
 # @web3icons/common
 
+## 0.11.39
+
+### Patch Changes
+
+- e6e4e86: wallet: add `Cypherock` (background, branded, mono)
+  wallet: add `Daimo Pay` (background, branded, mono)
+  wallet: add `Ambire` (background, branded, mono)
+
 ## 0.11.38
 
 ### Patch Changes
