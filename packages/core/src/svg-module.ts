@@ -5972,6 +5972,15 @@ import * as WBackgroundTemple from './svgs/wallets/background/temple.svg'
 import * as WBrandedPecunityWallet from './svgs/tokens/branded/PEC.svg'
 import * as WMonoPecunityWallet from './svgs/tokens/mono/PEC.svg'
 import * as WBackgroundPecunityWallet from './svgs/tokens/background/PEC.svg'
+import * as WBrandedAmbire from './svgs/tokens/branded/WALLET.svg'
+import * as WMonoAmbire from './svgs/tokens/mono/WALLET.svg'
+import * as WBackgroundAmbire from './svgs/tokens/background/WALLET.svg'
+import * as WBrandedCypherock from './svgs/wallets/branded/cypherock.svg'
+import * as WMonoCypherock from './svgs/wallets/mono/cypherock.svg'
+import * as WBackgroundCypherock from './svgs/wallets/background/cypherock.svg'
+import * as WBrandedDaimo from './svgs/wallets/branded/daimo.svg'
+import * as WMonoDaimo from './svgs/wallets/mono/daimo.svg'
+import * as WBackgroundDaimo from './svgs/wallets/background/daimo.svg'
 import * as EBranded1inch from './svgs/exchanges/branded/1inch.svg'
 import * as EMono1inch from './svgs/exchanges/mono/1inch.svg'
 import * as EBackground1inch from './svgs/exchanges/background/1inch.svg'
@@ -11957,6 +11966,9 @@ export const svgs = {
       solflare: WBrandedSolflare,
       temple: WBrandedTemple,
       'pecunity-wallet': WBrandedPecunityWallet,
+      ambire: WBrandedAmbire,
+      cypherock: WBrandedCypherock,
+      daimo: WBrandedDaimo,
     },
     mono: {
       alfa1: WMonoAlfa1,
@@ -12003,6 +12015,9 @@ export const svgs = {
       kukai: WMonoKukai,
       solflare: WMonoSolflare,
       'pecunity-wallet': WMonoPecunityWallet,
+      ambire: WMonoAmbire,
+      cypherock: WMonoCypherock,
+      daimo: WMonoDaimo,
     },
     background: {
       alfa1: WBackgroundAlfa1,
@@ -12053,6 +12068,9 @@ export const svgs = {
       solflare: WBackgroundSolflare,
       temple: WBackgroundTemple,
       'pecunity-wallet': WBackgroundPecunityWallet,
+      ambire: WBackgroundAmbire,
+      cypherock: WBackgroundCypherock,
+      daimo: WBackgroundDaimo,
     },
   },
   exchanges: {

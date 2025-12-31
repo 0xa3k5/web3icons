@@ -1,6 +1,6 @@
 jump to section:
 
-- [wallets (48)](#wallets)
+- [wallets (51)](#wallets)
 - [networks (236)](#networks)
 - [exchanges (28)](#exchanges)
 - [tokens (1838)](#tokens)
@@ -57,6 +57,9 @@ jump to section:
 | solflare        | Solflare        | ✅      | ✅   | ✅         |
 | temple          | Temple          | ✅      | ❌   | ✅         |
 | pecunity-wallet | Pecunity        | ✅      | ✅   | ✅         |
+| ambire          | Ambire          | ✅      | ✅   | ✅         |
+| cypherock       | Cypherock       | ✅      | ✅   | ✅         |
+| daimo           | Daimo Pay       | ✅      | ✅   | ✅         |
 
 ### Networks
 
