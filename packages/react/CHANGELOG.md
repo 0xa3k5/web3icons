@@ -1,5 +1,15 @@
 # @web3icons/react
 
+## 4.1.11
+
+### Patch Changes
+
+- 7ca2358: network: Plume (branded, mono, background)
+  network: Codex (branded, mono, background)
+  token: PLUME (branded, mono, background)
+- Updated dependencies [7ca2358]
+  - @web3icons/common@0.11.40
+
 ## 4.1.10
 
 ### Patch Changes

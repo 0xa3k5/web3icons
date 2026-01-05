@@ -1,5 +1,13 @@
 # @web3icons/common
 
+## 0.11.40
+
+### Patch Changes
+
+- 7ca2358: network: Plume (branded, mono, background)
+  network: Codex (branded, mono, background)
+  token: PLUME (branded, mono, background)
+
 ## 0.11.39
 
 ### Patch Changes
