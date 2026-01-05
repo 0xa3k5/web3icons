@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (51)](#wallets)
-- [networks (236)](#networks)
+- [networks (238)](#networks)
 - [exchanges (28)](#exchanges)
-- [tokens (1838)](#tokens)
+- [tokens (1839)](#tokens)
 
 ### Wallets
 
@@ -301,6 +301,8 @@ jump to section:
 | uptick                      | Uptick                          | ✅      | ✅   | ✅         |
 | plasma                      | Plasma                          | ✅      | ✅   | ✅         |
 | ton                         | The Open Network                | ✅      | ✅   | ✅         |
+| plume                       | Plume                           | ✅      | ✅   | ✅         |
+| codex                       | Codex                           | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2177,3 +2179,4 @@ jump to section:
 | Genesis L1                             | L1          | ✅      | ✅   | ✅         |
 | Uptick                                 | UPTICK      | ✅      | ✅   | ✅         |
 | Plasma                                 | XPL         | ✅      | ✅   | ✅         |
+| Plume                                  | PLUME       | ✅      | ✅   | ✅         |

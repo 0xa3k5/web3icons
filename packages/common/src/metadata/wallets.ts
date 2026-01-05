@@ -291,20 +291,20 @@ export const wallets: IWalletMetadata[] = [
   },
   {
     id: 'ambire',
+    filePath: 'token:WALLET',
     name: 'Ambire',
     variants: ['branded', 'mono', 'background'],
-    filePath: 'token:WALLET',
   },
   {
     id: 'cypherock',
+    filePath: 'wallet:cypherock',
     name: 'Cypherock',
     variants: ['background', 'branded', 'mono'],
-    filePath: 'wallet:cypherock',
   },
   {
     id: 'daimo',
+    filePath: 'wallet:daimo',
     name: 'Daimo Pay',
     variants: ['background', 'branded', 'mono'],
-    filePath: 'wallet:daimo',
   },
 ]

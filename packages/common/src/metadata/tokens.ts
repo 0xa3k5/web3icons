@@ -21411,4 +21411,13 @@ export const tokens: ITokenMetadata[] = [
     },
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'plume',
+    name: 'Plume',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:plume',
+    symbol: 'PLUME',
+    marketCapRank: 0,
+    addresses: {},
+  },
 ]

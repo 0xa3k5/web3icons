@@ -2274,5 +2274,25 @@
     "name": "The Open Network",
     "shortName": "TON",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "plume",
+    "filePath": "network:plume",
+    "chainId": 98866,
+    "caip2id": "eip155:98866",
+    "name": "Plume",
+    "shortName": "Plume",
+    "nativeCoinId": "PLUME",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "codex",
+    "filePath": "network:codex",
+    "chainId": 81224,
+    "caip2id": "eip155:81224",
+    "name": "Codex",
+    "shortName": "Codex",
+    "nativeCoinId": "ETH",
+    "variants": ["background", "branded", "mono"]
   }
 ]

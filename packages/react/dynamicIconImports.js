@@ -83,6 +83,7 @@ const dynamicIconImports = {
     import('./dist/icons/networks/NetworkCeloAlfajores.js'),
   NetworkChiliz: () => import('./dist/icons/networks/NetworkChiliz.js'),
   NetworkClover: () => import('./dist/icons/networks/NetworkClover.js'),
+  NetworkCodex: () => import('./dist/icons/networks/NetworkCodex.js'),
   NetworkCoinexSmartChain: () =>
     import('./dist/icons/networks/NetworkCoinexSmartChain.js'),
   NetworkConflux: () => import('./dist/icons/networks/NetworkConflux.js'),
@@ -227,6 +228,7 @@ const dynamicIconImports = {
   NetworkParadex: () => import('./dist/icons/networks/NetworkParadex.js'),
   NetworkPeaq: () => import('./dist/icons/networks/NetworkPeaq.js'),
   NetworkPlasma: () => import('./dist/icons/networks/NetworkPlasma.js'),
+  NetworkPlume: () => import('./dist/icons/networks/NetworkPlume.js'),
   NetworkPolkadot: () => import('./dist/icons/networks/NetworkPolkadot.js'),
   NetworkPolygon: () => import('./dist/icons/networks/NetworkPolygon.js'),
   NetworkPolygonAmoy: () =>
@@ -1516,6 +1518,7 @@ const dynamicIconImports = {
   TokenPLR: () => import('./dist/icons/tokens/TokenPLR.js'),
   TokenPLT: () => import('./dist/icons/tokens/TokenPLT.js'),
   TokenPLU: () => import('./dist/icons/tokens/TokenPLU.js'),
+  TokenPLUME: () => import('./dist/icons/tokens/TokenPLUME.js'),
   TokenPLY: () => import('./dist/icons/tokens/TokenPLY.js'),
   TokenPMON: () => import('./dist/icons/tokens/TokenPMON.js'),
   TokenPNB: () => import('./dist/icons/tokens/TokenPNB.js'),
