@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <g clip-path="url(#plume__a)">
+        <path fill="#FF3D00" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M4 4.001v6.36l2.254 2.274v-6.36l6.284.02-2.253-2.274L4.001 4zM15.433 9.09v5.742l-2.255-2.273V6.815zm-6.286 6.34h5.693l-2.253-2.274H6.894zm9.49 2.606V12.32l-2.255-2.273v6.36l-6.284-.021 2.253 2.274 5.683.02 1.199 1.208L20 20l-.146-.737z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="plume__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>
