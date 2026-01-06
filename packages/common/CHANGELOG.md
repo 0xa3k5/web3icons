@@ -1,5 +1,12 @@
 # @web3icons/common
 
+## 0.11.41
+
+### Patch Changes
+
+- 2f08d12: network: Pulsechain (branded, background, mono)
+  token: PLS (branded, background, mono)
+
 ## 0.11.40
 
 ### Patch Changes
