@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (51)](#wallets)
-- [networks (238)](#networks)
+- [networks (239)](#networks)
 - [exchanges (28)](#exchanges)
-- [tokens (1839)](#tokens)
+- [tokens (1840)](#tokens)
 
 ### Wallets
 
@@ -303,6 +303,7 @@ jump to section:
 | ton                         | The Open Network                | ✅      | ✅   | ✅         |
 | plume                       | Plume                           | ✅      | ✅   | ✅         |
 | codex                       | Codex                           | ✅      | ✅   | ✅         |
+| pulsechain                  | Pulsechain                      | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2180,3 +2181,4 @@ jump to section:
 | Uptick                                 | UPTICK      | ✅      | ✅   | ✅         |
 | Plasma                                 | XPL         | ✅      | ✅   | ✅         |
 | Plume                                  | PLUME       | ✅      | ✅   | ✅         |
+| Pulsechain                             | PLS         | ✅      | ✅   | ✅         |

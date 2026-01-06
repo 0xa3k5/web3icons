@@ -5133,6 +5133,9 @@ import * as TBackgroundXPL from './svgs/networks/background/plasma.svg'
 import * as TBrandedPLUME from './svgs/networks/branded/plume.svg'
 import * as TMonoPLUME from './svgs/networks/mono/plume.svg'
 import * as TBackgroundPLUME from './svgs/networks/background/plume.svg'
+import * as TBrandedPLS from './svgs/networks/branded/pulsechain.svg'
+import * as TMonoPLS from './svgs/networks/mono/pulsechain.svg'
+import * as TBackgroundPLS from './svgs/networks/background/pulsechain.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
 import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
@@ -5842,6 +5845,9 @@ import * as NBackgroundPlume from './svgs/networks/background/plume.svg'
 import * as NBrandedCodex from './svgs/networks/branded/codex.svg'
 import * as NMonoCodex from './svgs/networks/mono/codex.svg'
 import * as NBackgroundCodex from './svgs/networks/background/codex.svg'
+import * as NBrandedPulsechain from './svgs/networks/branded/pulsechain.svg'
+import * as NMonoPulsechain from './svgs/networks/mono/pulsechain.svg'
+import * as NBackgroundPulsechain from './svgs/networks/background/pulsechain.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -7871,6 +7877,7 @@ export const svgs = {
       uptick: TBrandedUPTICK,
       xpl: TBrandedXPL,
       plume: TBrandedPLUME,
+      pls: TBrandedPLS,
     },
     mono: {
       '0x0': TMono0X0,
@@ -9421,6 +9428,7 @@ export const svgs = {
       uptick: TMonoUPTICK,
       xpl: TMonoXPL,
       plume: TMonoPLUME,
+      pls: TMonoPLS,
     },
     background: {
       '0x0': TBackground0X0,
@@ -11216,6 +11224,7 @@ export const svgs = {
       uptick: TBackgroundUPTICK,
       xpl: TBackgroundXPL,
       plume: TBackgroundPLUME,
+      pls: TBackgroundPLS,
     },
   },
   networks: {
@@ -11458,6 +11467,7 @@ export const svgs = {
       ton: NBrandedTon,
       plume: NBrandedPlume,
       codex: NBrandedCodex,
+      pulsechain: NBrandedPulsechain,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11693,6 +11703,7 @@ export const svgs = {
       ton: NMonoTon,
       plume: NMonoPlume,
       codex: NMonoCodex,
+      pulsechain: NMonoPulsechain,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -11933,6 +11944,7 @@ export const svgs = {
       ton: NBackgroundTon,
       plume: NBackgroundPlume,
       codex: NBackgroundCodex,
+      pulsechain: NBackgroundPulsechain,
     },
   },
   wallets: {

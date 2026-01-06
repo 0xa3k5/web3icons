@@ -238,6 +238,7 @@ const dynamicIconImports = {
   NetworkPolygonZkevmCardona: () =>
     import('./dist/icons/networks/NetworkPolygonZkevmCardona.js'),
   NetworkProm: () => import('./dist/icons/networks/NetworkProm.js'),
+  NetworkPulsechain: () => import('./dist/icons/networks/NetworkPulsechain.js'),
   NetworkPush: () => import('./dist/icons/networks/NetworkPush.js'),
   NetworkRari: () => import('./dist/icons/networks/NetworkRari.js'),
   NetworkRei: () => import('./dist/icons/networks/NetworkRei.js'),
@@ -1516,6 +1517,7 @@ const dynamicIconImports = {
   TokenPLI: () => import('./dist/icons/tokens/TokenPLI.js'),
   TokenPLN: () => import('./dist/icons/tokens/TokenPLN.js'),
   TokenPLR: () => import('./dist/icons/tokens/TokenPLR.js'),
+  TokenPLS: () => import('./dist/icons/tokens/TokenPLS.js'),
   TokenPLT: () => import('./dist/icons/tokens/TokenPLT.js'),
   TokenPLU: () => import('./dist/icons/tokens/TokenPLU.js'),
   TokenPLUME: () => import('./dist/icons/tokens/TokenPLUME.js'),
