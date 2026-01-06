@@ -1,5 +1,14 @@
 # @web3icons/core
 
+## 4.0.46
+
+### Patch Changes
+
+- 2f08d12: network: Pulsechain (branded, background, mono)
+  token: PLS (branded, background, mono)
+- Updated dependencies [2f08d12]
+  - @web3icons/common@0.11.41
+
 ## 4.0.45
 
 ### Patch Changes
