@@ -2294,5 +2294,15 @@
     "shortName": "Codex",
     "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "pulsechain",
+    "filePath": "network:pulsechain",
+    "chainId": 369,
+    "caip2id": "eip155:369",
+    "name": "Pulsechain",
+    "shortName": "PLS",
+    "nativeCoinId": "PLS",
+    "variants": ["background", "branded", "mono"]
   }
 ]
