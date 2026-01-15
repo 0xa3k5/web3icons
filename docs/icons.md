@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (51)](#wallets)
-- [networks (239)](#networks)
+- [networks (240)](#networks)
 - [exchanges (28)](#exchanges)
 - [tokens (1840)](#tokens)
 
@@ -304,6 +304,7 @@ jump to section:
 | plume                       | Plume                           | ✅      | ✅   | ✅         |
 | codex                       | Codex                           | ✅      | ✅   | ✅         |
 | pulsechain                  | Pulsechain                      | ✅      | ✅   | ✅         |
+| monad-testnet               | Monad Testnet                   | ✅      | ✅   | ✅         |
 
 ### Exchanges
 

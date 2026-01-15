@@ -201,6 +201,8 @@ const dynamicIconImports = {
   NetworkModeSepolia: () =>
     import('./dist/icons/networks/NetworkModeSepolia.js'),
   NetworkMonad: () => import('./dist/icons/networks/NetworkMonad.js'),
+  NetworkMonadTestnet: () =>
+    import('./dist/icons/networks/NetworkMonadTestnet.js'),
   NetworkMoonbase: () => import('./dist/icons/networks/NetworkMoonbase.js'),
   NetworkMoonbaseAlpha: () =>
     import('./dist/icons/networks/NetworkMoonbaseAlpha.js'),
