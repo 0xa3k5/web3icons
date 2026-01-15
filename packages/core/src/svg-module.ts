@@ -5848,6 +5848,9 @@ import * as NBackgroundCodex from './svgs/networks/background/codex.svg'
 import * as NBrandedPulsechain from './svgs/networks/branded/pulsechain.svg'
 import * as NMonoPulsechain from './svgs/networks/mono/pulsechain.svg'
 import * as NBackgroundPulsechain from './svgs/networks/background/pulsechain.svg'
+import * as NBrandedMonadTestnet from './svgs/networks/branded/monad.svg'
+import * as NMonoMonadTestnet from './svgs/networks/mono/monad.svg'
+import * as NBackgroundMonadTestnet from './svgs/networks/background/monad.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -11468,6 +11471,7 @@ export const svgs = {
       plume: NBrandedPlume,
       codex: NBrandedCodex,
       pulsechain: NBrandedPulsechain,
+      'monad-testnet': NBrandedMonadTestnet,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11704,6 +11708,7 @@ export const svgs = {
       plume: NMonoPlume,
       codex: NMonoCodex,
       pulsechain: NMonoPulsechain,
+      'monad-testnet': NMonoMonadTestnet,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -11945,6 +11950,7 @@ export const svgs = {
       plume: NBackgroundPlume,
       codex: NBackgroundCodex,
       pulsechain: NBackgroundPulsechain,
+      'monad-testnet': NBackgroundMonadTestnet,
     },
   },
   wallets: {

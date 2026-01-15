@@ -2307,4 +2307,14 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'PLS',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'monad-testnet',
+    filePath: 'network:monad',
+    chainId: 10143,
+    caip2id: 'eip155:10143',
+    name: 'Monad Testnet',
+    shortName: 'Monad Testnet',
+    nativeCoinId: 'MON',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]
