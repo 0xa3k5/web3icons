@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.47
+
+### Patch Changes
+
+- 9bbcd3d: network: add monad-testnet (background, branded, mono)
+- Updated dependencies [9bbcd3d]
+  - @web3icons/common@0.11.42
+
 ## 4.0.46
 
 ### Patch Changes
