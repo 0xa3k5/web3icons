@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <path fill="url(#thundercore__a)" d="M6.76 11.453a.4.4 0 0 0 .338.612h4.56a.191.191 0 0 1 .162.293l-4.474 7.164a.16.16 0 0 1-.225.05 9.01 9.01 0 0 1 4.592-16.571.159.159 0 0 1 .137.242zm10.282-6.912a.16.16 0 0 0-.225.048l-4.406 7.059a.192.192 0 0 0 .162.292h4.56a.4.4 0 0 1 .337.612l-5.155 8.255a.125.125 0 0 0 .113.192A9.008 9.008 0 0 0 17.04 4.541z"/>
     <defs>
         <linearGradient id="thundercore__a" x1="10.772" x2="13.936" y1="6.715" y2="20.311" gradientUnits="userSpaceOnUse">

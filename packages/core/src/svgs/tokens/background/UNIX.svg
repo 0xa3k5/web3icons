@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <g clip-path="url(#UNIX__a)">
         <path fill="url(#UNIX__b)" d="M24 0H0v24h24z"/>
         <path fill="#fff" d="M12 20c-4.736 0-7.467-2.459-7.467-7.259V4H8.8v8.597c0 2.134.827 3.67 3.2 3.67 2.363 0 3.2-1.558 3.2-3.67V4h4.267v8.741c0 4.8-2.731 7.259-7.467 7.259"/>

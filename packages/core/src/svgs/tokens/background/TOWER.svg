@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <g clip-path="url(#TOWER__a)">
         <path fill="#000" d="M24 0H0v24h24z"/>
         <path fill="#fff" d="m15.765 4-.28 1.412h-2.212L12.941 4H11.06l-.251 1.412H8.515L8.28 4H6.353l.47 4.235h10.354L17.647 4zM6.824 8.706l.687 7.34L11.992 20l.008-.045.008.045 4.482-3.954.687-7.34zm1.411 1.882h2.824v6.824l-2.353-2.118zm4.706 6.824v-6.824h2.824l-.47 4.706z"/>

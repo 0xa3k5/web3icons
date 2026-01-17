@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <path fill="url(#RAY__a)" d="M19 10v6l-7 3.88L5 16V8l7-3.894 5.506 2.928.832-.468L12 3 4 7.501v8.998L12 21l8-4.501V9.288z"/>
     <path fill="url(#RAY__b)" d="M10.5 16H9v-4h3.5c.76-.008 1.498-.508 1.5-1.28.008-.758-.748-1.225-1.5-1.22H9V8h3.794c1.602 0 2.693 1.2 2.705 2.72.014 1.642-1.286 2.78-3.108 2.78h-1.892z"/>
     <path fill="url(#RAY__c)" d="M15.757 16h-1.743l-1.079-1.896c.427-.025 1.16-.2 1.574-.424z"/>

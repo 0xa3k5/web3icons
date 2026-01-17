@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <path fill="url(#1ART__a)" d="M14.179 3.276c1.098-.696 2.592.006 2.622 1.212v14.988c0 .84-.876 1.524-1.8 1.524-.912 0-1.782-.666-1.8-1.5V7.956s-2.442 1.518-3.618 2.124c-.138.072-.288.12-.462.126-.204 0-.42-.036-.63-.114-.69-.264-1.32-.93-1.29-1.692.017-.444.216-.864.654-1.152l.024-.018 6.3-3.96z"/>
     <defs>
         <linearGradient id="1ART__a" x1="15.686" x2="5.921" y1="7.018" y2="10.375" gradientUnits="userSpaceOnUse">

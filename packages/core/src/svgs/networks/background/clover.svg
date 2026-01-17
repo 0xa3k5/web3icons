@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <g clip-path="url(#clover__a)">
         <path fill="#0C0B0B" d="M24 0H0v24h24z"/>
         <path fill="#fff" d="M11.362 9.29a.267.267 0 0 0-.266.266v1.56h-1.54a.267.267 0 0 0-.267.266v1.293c0 .147.12.266.266.266h1.54v1.503c0 .147.12.266.267.266h1.274a.266.266 0 0 0 .267-.266v-1.56h-1.807v-1.769h1.807v1.826h1.54a.266.266 0 0 0 .267-.266v-1.293a.267.267 0 0 0-.266-.267h-1.541v-1.56a.267.267 0 0 0-.267-.266z"/>

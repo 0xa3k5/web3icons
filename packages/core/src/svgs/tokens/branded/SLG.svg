@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <path fill="url(#SLG__a)" d="m3.53 17.225 2.647-4.923 5.876 2.583 5.77-2.583 2.647 4.923L12.053 21z"/>
     <path fill="url(#SLG__b)" fill-rule="evenodd" d="M11.99 15.234A960 960 0 0 0 6.176 12.3l5.812-2.89 5.834 2.89zm0-.916c-1.308-.662-3.94-1.996-3.987-2.012l3.986-1.98 4.008 1.985-4.008 2.012zm-1.843-1.525 1.853.794 1.853-.8L12 12l-1.853.789z" clip-rule="evenodd"/>
     <path fill="url(#SLG__c)" d="M11.999 11.47 7.764 9.607 11.999 3z"/>

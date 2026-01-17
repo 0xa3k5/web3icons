@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <path fill="url(#rainbow__a)" d="M3 7.05h1.35c6.959 0 12.6 5.641 12.6 12.6V21h2.7A1.35 1.35 0 0 0 21 19.65C21 10.454 13.546 3 4.35 3A1.35 1.35 0 0 0 3 4.35z"/>
     <path fill="url(#rainbow__b)" d="M17.4 19.65H21A1.35 1.35 0 0 1 19.65 21H17.4z"/>
     <path fill="url(#rainbow__c)" d="M4.35 3v3.6H3V4.35C3 3.604 3.604 3 4.35 3"/>

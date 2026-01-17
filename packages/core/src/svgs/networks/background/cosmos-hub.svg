@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <g clip-path="url(#cosmos-hub__a)">
         <path fill="#BA3FD9" d="M24 0H0v24h24z"/>
         <path fill="#fff" fill-rule="evenodd" d="M12 4.554 5.402 8.277v7.446L12 19.446l6.598-3.723V8.277zM19.09 8 12 4 4.91 8v8L12 20l7.09-4z" clip-rule="evenodd"/>

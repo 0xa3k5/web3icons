@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <path fill="url(#BRUSH__a)" fill-opacity=".3" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"/>
     <path fill="url(#BRUSH__b)" fill-rule="evenodd" d="M12 20.37a8.37 8.37 0 0 0 7.934-5.118A8.375 8.375 0 1 0 12 20.37m0 .63a9 9 0 1 0 0-18 9 9 0 0 0 0 18" clip-rule="evenodd"/>
     <path fill="url(#BRUSH__c)" d="m6.966 16.326 3.594-3.257c.326.168.911.562.934 1.113l-3.178 3.505c-.45-.011-1.35-.304-1.35-1.361m1.186.421a.28.28 0 1 0 0-.556.281.281 0 1 0 0 .562z"/>
