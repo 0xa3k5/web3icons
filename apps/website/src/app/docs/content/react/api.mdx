@@ -138,6 +138,84 @@ import {
 } from '@web3icons/common'
 ```
 
+## Global Styling with the `web3icons` Class
+
+All icon components automatically include the `web3icons` CSS class on the SVG element. This allows you to apply global styles to all web3icons in your application.
+
+### Basic Usage
+
+```css
+/* Apply styles to all web3icons */
+.web3icons {
+  transition: transform 0.2s ease;
+}
+
+.web3icons:hover {
+  transform: scale(1.1);
+}
+```
+
+### Common Styling Patterns
+
+```css
+/* Add consistent spacing */
+.web3icons {
+  margin: 0 4px;
+}
+
+/* Apply drop shadow to all icons */
+.web3icons {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+/* Grayscale filter with hover effect */
+.web3icons {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.web3icons:hover {
+  filter: grayscale(0%);
+}
+```
+
+### Combining with Custom Classes
+
+When you pass a `className` prop, it's appended to the `web3icons` class:
+
+```tsx
+<TokenBTC className="my-custom-class" />
+// Renders: <svg class="web3icons my-custom-class" ...>
+```
+
+This allows you to target icons with combined selectors:
+
+```css
+/* Global styles for all icons */
+.web3icons {
+  vertical-align: middle;
+}
+
+/* Specific styles for certain icons */
+.web3icons.featured-icon {
+  width: 48px;
+  height: 48px;
+}
+```
+
+### Tailwind CSS
+
+With Tailwind, you can target the `web3icons` class in your global styles:
+
+```css
+/* In your global CSS */
+@layer components {
+  .web3icons {
+    @apply inline-block align-middle;
+  }
+}
+```
+
 ## Error Handling
 
 Dynamic components return `null` for missing icons by default. Use the `fallback` prop to customize:
