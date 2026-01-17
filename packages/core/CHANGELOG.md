@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.48
+
+### Patch Changes
+
+- 053dfbd: add globally available web3icons class to all svgs
+- Updated dependencies [053dfbd]
+  - @web3icons/common@0.11.43
+
 ## 4.0.47
 
 ### Patch Changes
