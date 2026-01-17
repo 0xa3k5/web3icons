@@ -54,6 +54,17 @@ export const styleStringToObject = (styleString: string) => {
   return styleObject
 }
 
+/**
+ * Add 'web3icons' class to the root SVG element for identification and global styling.
+ */
+export const addWeb3IconsClass = (svg: string): string => {
+  const $ = cheerio.load(svg, { xmlMode: true })
+  const $svg = $('svg')
+  const existing = $svg.attr('class') || ''
+  $svg.attr('class', existing ? `${existing} web3icons` : 'web3icons')
+  return $.xml()
+}
+
 export const readyForJSX = (svgRaw: string) => {
   const $ = cheerio.load(svgRaw, { xmlMode: true })
 

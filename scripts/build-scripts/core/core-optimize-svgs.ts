@@ -11,7 +11,11 @@ import {
   SVG_EXCHANGES_OUT_DIR,
   SVG_EXCHANGES_SRC_DIR,
 } from '../../constants'
-import { ensureDirectoryExists, optimizeSvg } from '../../utils'
+import {
+  ensureDirectoryExists,
+  optimizeSvg,
+  addWeb3IconsClass,
+} from '../../utils'
 import { TVariant } from '@web3icons/common'
 import {
   loadCache,
@@ -76,7 +80,8 @@ export async function optimizeSVGs() {
 
     const svgContent = await fs.promises.readFile(svgFilePath, 'utf-8')
     const optimizedSVG = optimizeSvg(svgContent, baseName)
-    await fs.promises.writeFile(outputPath, optimizedSVG)
+    const finalSVG = addWeb3IconsClass(optimizedSVG)
+    await fs.promises.writeFile(outputPath, finalSVG)
 
     if (incrementalEnabled) {
       updateFileCache(svgFilePath, cache)
