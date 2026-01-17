@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.43
+
+### Patch Changes
+
+- 053dfbd: add globally available web3icons class to all svgs
+
 ## 0.11.42
 
 ### Patch Changes
