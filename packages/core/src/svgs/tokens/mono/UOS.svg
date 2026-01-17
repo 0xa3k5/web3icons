@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <path fill="#fff" d="M10.313 11.494V3.563h3.374v7.93c0 .63-.579 1.632-1.636 1.632a1.685 1.685 0 0 1-1.59-.99 1.7 1.7 0 0 1-.149-.641"/>
     <path fill="#fff" d="M3 12.208V3.563h3.375v8.47c0 2.009 1.417 5.03 5.625 5.03 3.803 0 5.625-2.459 5.625-5.03v-8.47H21v8.2c0 1.728-.585 8.618-9 8.675-7.284.05-9-5.49-9-8.23"/>
 </svg>

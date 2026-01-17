@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <path fill="url(#GARI__a)" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"/>
     <path fill="url(#GARI__b)" d="M20.47 12a8.47 8.47 0 1 1-16.94 0 8.47 8.47 0 0 1 16.94 0"/>
     <path fill="url(#GARI__c)" fill-rule="evenodd" d="M12 20.47a8.47 8.47 0 1 0 0-16.94 8.47 8.47 0 0 0 0 16.94m0-.137c4.553 0 8.248-3.712 8.248-8.29 0-4.58-3.695-8.292-8.248-8.292s-8.25 3.712-8.25 8.291 3.696 8.29 8.249 8.29" clip-rule="evenodd"/>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <g clip-path="url(#PZP__a)">
         <path fill="url(#PZP__b)" d="M24 0H0v24h24z"/>
         <path fill="#fff" d="M11.556 17.777h.889v1.73c0 .27-.2.493-.445.493-.244 0-.444-.223-.444-.494zm-1.779-.887h.89v1.729c0 .27-.2.493-.445.493s-.445-.222-.445-.493zm2.668-10.668h-.89V4.493c0-.27.2-.493.445-.493s.444.222.444.493zm1.778.445h-.889v-1.73c0-.27.2-.493.444-.493.245 0 .445.223.445.494z"/>

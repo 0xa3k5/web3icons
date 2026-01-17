@@ -15,6 +15,7 @@ import {
   SegmentedControl,
   SearchInput,
   Tag,
+  UsedBy,
 } from '../components'
 import { Button } from '../components/button'
 import { useAppContext } from '../hooks'
@@ -38,7 +39,6 @@ export default function Home() {
     setColor,
   } = useAppContext()
 
-  // Pure React state - no URL
   const handleTabChange = useCallback(
     (value: string) => {
       setType(value as TType)
@@ -89,6 +89,7 @@ export default function Home() {
           classNames="max-h-32"
         />
       </div>
+      <UsedBy />
       <Tabs
         tabs={[
           {

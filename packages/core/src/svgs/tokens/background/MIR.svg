@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <g clip-path="url(#MIR__a)">
         <path fill="#fff" d="M24 0H0v24h24z"/>
         <path fill="#01D8DD" fill-rule="evenodd" d="M4.74 6.582 9.932 4.4c.759-.301 2.604-.725 3.915 0 1.311.726 1.281 1.54 1.103 1.856l4.596 1.02-1.885 1.006-4.031-1.006-1.436.567L15.21 9.5l-2.48 1.346zm4.672-.263 1.784-.735c.224-.08.737-.194 1.001 0 .33.241.144.544-.155.735-.239.153-.959.48-1.289.625z" clip-rule="evenodd"/>

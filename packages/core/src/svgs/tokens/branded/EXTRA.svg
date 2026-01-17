@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <path fill="#B0D1FA" fill-rule="evenodd" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18m0-1.059a7.942 7.942 0 1 0 0-15.883 7.942 7.942 0 0 0 0 15.883" clip-rule="evenodd"/>
     <path fill="#146AE5" d="M11.513 16.235v-1.292h-2.53a1.004 1.004 0 0 1-1.007-1.016c0-.556.455-1.133 1.006-1.133h1.959v-1.15H8.982a2.28 2.28 0 0 0-2.276 2.299 2.283 2.283 0 0 0 2.276 2.292z"/>
     <path fill="#194989" d="M7.184 12.53c.37.223.953.424 1.604.297.577-.117.063-.583-.62-1.027-.389.148-.73.401-.984.73"/>

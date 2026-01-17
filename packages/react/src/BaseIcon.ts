@@ -24,6 +24,10 @@ export const BaseIcon = forwardRef<
     return createElement(Fragment, null, fallback)
   }
 
+  const className = props.className
+    ? `web3icons ${props.className}`
+    : 'web3icons'
+
   return createElement(
     'svg',
     {
@@ -34,6 +38,7 @@ export const BaseIcon = forwardRef<
       fill: 'none',
       xmlns: 'http://www.w3.org/2000/svg',
       ...props,
+      className,
     },
     children,
   )

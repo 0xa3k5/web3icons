@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <g clip-path="url(#atomic__a)">
         <path fill="#212E4F" d="M24 0H0v24h24z"/>
         <path fill="url(#atomic__b)" fill-rule="evenodd" d="M4 19.5 8.748 6.84c.602-1.479 1.726-2.315 3.219-2.34h.066c1.494.025 2.617.861 3.22 2.34L20 19.5l-2.94-.995L13.004 7.69c-.247-.599-.532-.814-1.005-.823-.472.01-.756.225-1.003.823L6.94 18.505zm10.066-4.821c0 1.106-.913 2.002-2.038 2.002-1.126 0-2.038-.896-2.038-2.002s.912-2.002 2.038-2.002 2.038.896 2.038 2.002" clip-rule="evenodd"/>

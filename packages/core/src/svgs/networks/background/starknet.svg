@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <g clip-path="url(#starknet__a)">
         <path fill="#0C0C4F" d="M24 0H0v24h24z"/>
         <path fill="#FAFAFA" fill-rule="evenodd" d="m7.824 9.683.248-.766a.5.5 0 0 1 .33-.325l.77-.237c.107-.033.107-.183.002-.218l-.767-.248a.5.5 0 0 1-.325-.33l-.237-.77c-.032-.106-.183-.108-.217-.002l-.248.767a.5.5 0 0 1-.33.325l-.77.237a.114.114 0 0 0-.002.217l.767.248c.155.05.276.174.325.33l.236.77a.114.114 0 0 0 .218.002" clip-rule="evenodd"/>

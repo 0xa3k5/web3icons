@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <g clip-path="url(#PIB__a)">
         <path fill="url(#PIB__b)" d="M24 0H0v24h24z"/>
         <path fill="#fff" d="M5.778 10.428V7.596l3.177-1.808 2.449 1.406zm6-6.428L9.333 5.494l5.778 3.28V5.895zm3.778 8.729V6.132l2.666 1.458v3.7zm2.665 1.837v-2.84l-5.6 3.235 2.43 1.474zm-9.332 1.68v-2.861l5.778 3.298-2.445 1.54zm-3.111 2.3v-5.962l2.667-1.473V20zm4.444-8.61L12 8.89l1.778 1.047v2.271L12 13.333l-1.778-1.125z"/>

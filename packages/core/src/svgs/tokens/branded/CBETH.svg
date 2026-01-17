@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <path fill="#0052FF" d="M12 20.156a8.157 8.157 0 1 0 0-16.313 8.157 8.157 0 0 0 0 16.313M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"/>
     <path fill="#0052FF" fill-opacity=".6" d="M12 5.25v4.781l3.938 1.806z"/>
     <path fill="#0052FF" d="m12 5.25-3.937 6.587 3.937-1.8z"/>

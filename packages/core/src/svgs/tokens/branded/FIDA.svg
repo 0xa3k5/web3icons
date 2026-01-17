@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <path fill="#5F60C7" d="M11.777 3.313h.46v4.12h-.46zM7.803 14.098l.241.394-3.481 2.084-.237-.389zm8.46.072-.237.393 3.534 2.117.236-.388z"/>
     <path fill="url(#FIDA__a)" fill-rule="evenodd" d="M7.737 9.645 12 7.263l4.263 2.382v4.713L12 16.736l-4.263-2.378zm.473.209L12 7.736l3.79 2.118v4.187l-3.785 2.222L8.21 14.04z" clip-rule="evenodd"/>
     <path fill="#8081EE" d="M11.768 11.863h.459v9h-.46z"/>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
     <g clip-path="url(#DOG__a)">
         <path fill="#C3A634" d="M24 0H0v24h24z"/>
         <path fill="#fff" d="M6.75 20v-7h-2v-2h2V4h5.496c4.798 0 7.164 3.537 6.996 8.038C19.076 16.495 17.184 20 12.247 20zM8.747 6v5h3.998v2H8.748v5h3.498c3.838 0 4.872-2.64 4.998-6.037C17.371 8.576 15.912 6 12.246 6z"/>
