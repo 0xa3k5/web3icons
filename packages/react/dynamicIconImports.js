@@ -82,6 +82,7 @@ const dynamicIconImports = {
   NetworkCeloAlfajores: () =>
     import('./dist/icons/networks/NetworkCeloAlfajores.js'),
   NetworkChiliz: () => import('./dist/icons/networks/NetworkChiliz.js'),
+  NetworkCitrea: () => import('./dist/icons/networks/NetworkCitrea.js'),
   NetworkClover: () => import('./dist/icons/networks/NetworkClover.js'),
   NetworkCodex: () => import('./dist/icons/networks/NetworkCodex.js'),
   NetworkCoinexSmartChain: () =>

@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (51)](#wallets)
-- [networks (240)](#networks)
+- [networks (241)](#networks)
 - [exchanges (28)](#exchanges)
 - [tokens (1840)](#tokens)
 
@@ -305,6 +305,7 @@ jump to section:
 | codex                       | Codex                           | ✅      | ✅   | ✅         |
 | pulsechain                  | Pulsechain                      | ✅      | ✅   | ✅         |
 | monad-testnet               | Monad Testnet                   | ✅      | ✅   | ✅         |
+| citrea                      | Citrea                          | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
