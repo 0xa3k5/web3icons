@@ -1,5 +1,15 @@
 # @web3icons/react
 
+## 4.1.15
+
+### Patch Changes
+
+- c409c24: network: citrea (`mono`, `branded`, `background`)
+  token: cBTC (`mono`, `branded`, `background`)
+  token: USDe (`mono`, `branded`, `background`)
+- Updated dependencies [c409c24]
+  - @web3icons/common@0.11.44
+
 ## 4.1.14
 
 ### Patch Changes
