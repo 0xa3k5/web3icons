@@ -1,5 +1,13 @@
 # @web3icons/common
 
+## 0.11.44
+
+### Patch Changes
+
+- c409c24: network: citrea (`mono`, `branded`, `background`)
+  token: cBTC (`mono`, `branded`, `background`)
+  token: USDe (`mono`, `branded`, `background`)
+
 ## 0.11.43
 
 ### Patch Changes
