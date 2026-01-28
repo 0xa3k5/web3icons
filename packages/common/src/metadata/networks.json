@@ -2322,7 +2322,7 @@
     "caip2id": "eip155:4114",
     "name": "Citrea",
     "shortName": "Citrea",
-    "nativeCoinId": "cBTC",
+    "nativeCoinId": "CBTC",
     "variants": ["background", "branded", "mono"]
   }
 ]
