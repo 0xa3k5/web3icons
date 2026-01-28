@@ -3,7 +3,7 @@ jump to section:
 - [wallets (51)](#wallets)
 - [networks (241)](#networks)
 - [exchanges (28)](#exchanges)
-- [tokens (1840)](#tokens)
+- [tokens (1842)](#tokens)
 
 ### Wallets
 
@@ -2184,3 +2184,5 @@ jump to section:
 | Plasma                                 | XPL         | ✅      | ✅   | ✅         |
 | Plume                                  | PLUME       | ✅      | ✅   | ✅         |
 | Pulsechain                             | PLS         | ✅      | ✅   | ✅         |
+| cBTC                                   | CBTC        | ✅      | ✅   | ✅         |
+| USDe                                   | USDE        | ✅      | ✅   | ✅         |
