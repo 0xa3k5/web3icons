@@ -21429,4 +21429,24 @@ export const tokens: ITokenMetadata[] = [
     addresses: {},
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'CBTC',
+    name: 'cBTC',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'token:CBTC',
+    symbol: 'CBTC',
+    marketCapRank: 0,
+    addresses: {},
+  },
+  {
+    id: 'USDE',
+    name: 'USDe',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'token:USDE',
+    symbol: 'USDE',
+    marketCapRank: 0,
+    addresses: {
+      ethereum: '0x4c9EDD5852cd905f086C759E8383e09bff1E68B3',
+    },
+  },
 ]

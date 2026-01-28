@@ -2319,12 +2319,12 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'citrea',
-    name: 'Citrea',
-    variants: ['background', 'branded', 'mono'],
     filePath: 'network:citrea',
-    shortName: 'Citrea',
     chainId: 4114,
     caip2id: 'eip155:4114',
-    nativeCoinId: 'cBTC',
+    name: 'Citrea',
+    shortName: 'Citrea',
+    nativeCoinId: 'CBTC',
+    variants: ['background', 'branded', 'mono'],
   },
 ]
