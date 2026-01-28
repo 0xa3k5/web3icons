@@ -2314,5 +2314,15 @@
     "shortName": "Monad Testnet",
     "nativeCoinId": "MON",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "citrea",
+    "filePath": "network:citrea",
+    "chainId": 4114,
+    "caip2id": "eip155:4114",
+    "name": "Citrea",
+    "shortName": "Citrea",
+    "nativeCoinId": "CBTC",
+    "variants": ["background", "branded", "mono"]
   }
 ]

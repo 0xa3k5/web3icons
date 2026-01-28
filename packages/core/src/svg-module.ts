@@ -5851,6 +5851,9 @@ import * as NBackgroundPulsechain from './svgs/networks/background/pulsechain.sv
 import * as NBrandedMonadTestnet from './svgs/networks/branded/monad.svg'
 import * as NMonoMonadTestnet from './svgs/networks/mono/monad.svg'
 import * as NBackgroundMonadTestnet from './svgs/networks/background/monad.svg'
+import * as NBrandedCitrea from './svgs/networks/branded/citrea.svg'
+import * as NMonoCitrea from './svgs/networks/mono/citrea.svg'
+import * as NBackgroundCitrea from './svgs/networks/background/citrea.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -11472,6 +11475,7 @@ export const svgs = {
       codex: NBrandedCodex,
       pulsechain: NBrandedPulsechain,
       'monad-testnet': NBrandedMonadTestnet,
+      citrea: NBrandedCitrea,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11709,6 +11713,7 @@ export const svgs = {
       codex: NMonoCodex,
       pulsechain: NMonoPulsechain,
       'monad-testnet': NMonoMonadTestnet,
+      citrea: NMonoCitrea,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -11951,6 +11956,7 @@ export const svgs = {
       codex: NBackgroundCodex,
       pulsechain: NBackgroundPulsechain,
       'monad-testnet': NBackgroundMonadTestnet,
+      citrea: NBackgroundCitrea,
     },
   },
   wallets: {
