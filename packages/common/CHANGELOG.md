@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.45
+
+### Patch Changes
+
+- 54f31ab: fix abstract chain id, add abstract sepolia testnet
+
 ## 0.11.44
 
 ### Patch Changes
