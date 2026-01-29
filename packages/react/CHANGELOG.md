@@ -1,5 +1,13 @@
 # @web3icons/react
 
+## 4.1.16
+
+### Patch Changes
+
+- 54f31ab: fix abstract chain id, add abstract sepolia testnet
+- Updated dependencies [54f31ab]
+  - @web3icons/common@0.11.45
+
 ## 4.1.15
 
 ### Patch Changes

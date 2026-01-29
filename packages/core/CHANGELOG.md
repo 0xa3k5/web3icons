@@ -1,5 +1,13 @@
 # @web3icons/core
 
+## 4.0.50
+
+### Patch Changes
+
+- 54f31ab: fix abstract chain id, add abstract sepolia testnet
+- Updated dependencies [54f31ab]
+  - @web3icons/common@0.11.45
+
 ## 4.0.49
 
 ### Patch Changes
