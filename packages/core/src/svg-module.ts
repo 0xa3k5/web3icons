@@ -5281,6 +5281,9 @@ import * as NBackgroundLukso from './svgs/networks/background/lukso.svg'
 import * as NBrandedAbstract from './svgs/networks/branded/abstract.svg'
 import * as NMonoAbstract from './svgs/networks/mono/abstract.svg'
 import * as NBackgroundAbstract from './svgs/networks/background/abstract.svg'
+import * as NBrandedAbstractSepolia from './svgs/networks/branded/abstract.svg'
+import * as NMonoAbstractSepolia from './svgs/networks/mono/abstract.svg'
+import * as NBackgroundAbstractSepolia from './svgs/networks/background/abstract.svg'
 import * as NBrandedAstar from './svgs/networks/branded/astar.svg'
 import * as NMonoAstar from './svgs/networks/mono/astar.svg'
 import * as NBackgroundAstar from './svgs/networks/background/astar.svg'
@@ -11294,6 +11297,7 @@ export const svgs = {
       beam: NBrandedBeam,
       lukso: NBrandedLukso,
       abstract: NBrandedAbstract,
+      'abstract-sepolia': NBrandedAbstractSepolia,
       astar: NBrandedAstar,
       injective: NBrandedInjective,
       sonic: NBrandedSonic,
@@ -11535,6 +11539,7 @@ export const svgs = {
       beam: NMonoBeam,
       lukso: NMonoLukso,
       abstract: NMonoAbstract,
+      'abstract-sepolia': NMonoAbstractSepolia,
       astar: NMonoAstar,
       injective: NMonoInjective,
       sonic: NMonoSonic,
@@ -11775,6 +11780,7 @@ export const svgs = {
       beam: NBackgroundBeam,
       lukso: NBackgroundLukso,
       abstract: NBackgroundAbstract,
+      'abstract-sepolia': NBackgroundAbstractSepolia,
       astar: NBackgroundAstar,
       injective: NBackgroundInjective,
       sonic: NBackgroundSonic,

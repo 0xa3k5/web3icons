@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (51)](#wallets)
-- [networks (241)](#networks)
+- [networks (242)](#networks)
 - [exchanges (28)](#exchanges)
 - [tokens (1842)](#tokens)
 
@@ -111,7 +111,8 @@ jump to section:
 | bouncebit                   | BounceBit                       | ✅      | ✅   | ✅         |
 | beam                        | Beam                            | ✅      | ✅   | ✅         |
 | lukso                       | Lukso                           | ✅      | ✅   | ✅         |
-| abstract                    | abstract                        | ✅      | ✅   | ✅         |
+| abstract                    | Abstract                        | ✅      | ✅   | ✅         |
+| abstract-sepolia            | Abstract Sepolia Testnet        | ✅      | ✅   | ✅         |
 | astar                       | Astar                           | ✅      | ✅   | ✅         |
 | injective                   | Injective                       | ✅      | ✅   | ✅         |
 | sonic                       | Sonic                           | ✅      | ✅   | ✅         |

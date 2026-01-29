@@ -444,10 +444,20 @@
   {
     "id": "abstract",
     "filePath": "network:abstract",
+    "chainId": 2741,
+    "caip2id": "eip155:2741",
+    "name": "Abstract",
+    "shortName": "Abstract",
+    "nativeCoinId": "eth",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "abstract-sepolia",
+    "filePath": "network:abstract",
     "chainId": 11124,
     "caip2id": "eip155:11124",
-    "name": "abstract",
-    "shortName": "abstract",
+    "name": "Abstract Sepolia Testnet",
+    "shortName": "Abstract Sepolia",
     "nativeCoinId": "eth",
     "variants": ["background", "branded", "mono"]
   },
