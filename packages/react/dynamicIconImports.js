@@ -35,6 +35,8 @@ const dynamicIconImports = {
   ExchangeUniswap: () => import('./dist/icons/exchanges/ExchangeUniswap.js'),
   ExchangeUpbit: () => import('./dist/icons/exchanges/ExchangeUpbit.js'),
   NetworkAbstract: () => import('./dist/icons/networks/NetworkAbstract.js'),
+  NetworkAbstractSepolia: () =>
+    import('./dist/icons/networks/NetworkAbstractSepolia.js'),
   NetworkAcala: () => import('./dist/icons/networks/NetworkAcala.js'),
   NetworkAlgorand: () => import('./dist/icons/networks/NetworkAlgorand.js'),
   NetworkAmeChain: () => import('./dist/icons/networks/NetworkAmeChain.js'),
