@@ -1,0 +1,21 @@
+{
+  "name": "@web3icons/chrome-extension",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browse and copy 2,500+ crypto icons from any tab. Tokens, networks, wallets, and exchanges in branded, mono, and background variants.",
+  "author": "AK <hey@akml.io>",
+  "scripts": {
+    "dev": "bun run build:css --watch & bun run build:js --watch",
+    "build": "bun run build:css && bun run build:js",
+    "build:css": "npx @tailwindcss/cli --input ./src/css/input.css --output ./dist/popup.css --minify",
+    "build:js": "bun run scripts/build.ts"
+  },
+  "dependencies": {
+    "@web3icons/core": "4.0.50",
+    "@web3icons/common": "0.11.45"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.11",
+    "typescript": ">=5"
+  }
+}

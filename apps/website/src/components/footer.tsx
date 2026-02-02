@@ -46,6 +46,15 @@ export const Footer = () => {
               )}
             </div>
           ))}
+          <span className="text-white/20">/</span>
+          <Link
+            href="https://akml.io"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2 px-3 py-2 font-mono text-sm text-white/40 transition-colors hover:text-white"
+          >
+            by ak
+          </Link>
         </nav>
       </div>
     </footer>

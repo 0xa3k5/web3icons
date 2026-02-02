@@ -138,7 +138,14 @@ export default async function BlogPost({
               {formatDate(frontmatter.date)}
             </time>
             <span>·</span>
-            <span>{frontmatter.author}</span>
+            <a
+              href="https://akml.io"
+              target="_blank"
+              rel="noreferrer"
+              className="transition-colors hover:text-white/60"
+            >
+              {frontmatter.author}
+            </a>
           </div>
           <div className="flex gap-2">
             {frontmatter.tags?.map((tag: string) => (

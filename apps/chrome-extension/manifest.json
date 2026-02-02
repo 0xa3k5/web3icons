@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Web3 Icons",
+  "version": "1.0.0",
+  "description": "Browse and copy 2,500+ crypto icons. Tokens, networks, wallets, and exchanges in branded, mono, and background variants.",
+  "permissions": ["clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}
