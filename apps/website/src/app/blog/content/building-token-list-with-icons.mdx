@@ -1,0 +1,418 @@
+---
+title: 'Building a Token List Component with Icons'
+description: 'Tutorial on building a searchable token selector component with icons. The essential pattern for DEXs, portfolio apps, and DeFi dashboards. Includes code for search, filtering, and virtualized lists.'
+date: '2025-07-03'
+author: 'AK'
+tags: ['react', 'defi', 'tutorial', 'tokens']
+---
+
+Every DeFi app has a token selector. The modal that pops up when you click "Select Token" on Uniswap, the dropdown in your portfolio tracker, the search field in a bridge interface. It's one of the most common UI patterns in crypto, and building a good one involves more than you'd think.
+
+This tutorial walks through building a complete token list component with icons, search, and filtering. We'll use [@web3icons/react](https://web3icons.io) for the icons and `@web3icons/common` for token metadata.
+
+## The basic structure
+
+A token list component has three parts:
+
+1. A trigger (button showing the currently selected token)
+2. A dropdown/modal with a search field
+3. A scrollable list of tokens with icons
+
+Let's build each piece.
+
+### Token data
+
+First, let's define our token data. In a real app, this comes from a token list standard (like Uniswap's token lists) or your own API. For this tutorial, we'll use `@web3icons/common` which provides metadata for 2,500+ tokens:
+
+```tsx
+import { tokens } from '@web3icons/common'
+
+// tokens is an array of { id, name, symbol, variants, ... }
+// We can use this directly, or merge with our own data (prices, balances, etc.)
+
+interface TokenData {
+  symbol: string
+  name: string
+  balance?: number
+  price?: number
+}
+```
+
+### The token row
+
+Each row in the list needs an icon, the token name, symbol, and optionally a balance:
+
+```tsx
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+function TokenRow({
+  token,
+  onSelect,
+}: {
+  token: TokenData
+  onSelect: (token: TokenData) => void
+}) {
+  return (
+    <button
+      onClick={() => onSelect(token)}
+      className="flex w-full items-center gap-3 px-4 py-3 transition-colors hover:bg-white/5"
+    >
+      <TokenIcon symbol={token.symbol} size={32} variant="branded" />
+      <div className="flex flex-col items-start">
+        <span className="font-medium text-white">{token.symbol}</span>
+        <span className="text-sm text-white/40">{token.name}</span>
+      </div>
+      {token.balance !== undefined && (
+        <span className="ml-auto font-mono text-sm text-white/60">
+          {token.balance.toLocaleString()}
+        </span>
+      )}
+    </button>
+  )
+}
+```
+
+We're using `TokenIcon` from `@web3icons/react/dynamic` because the token list is data-driven. We don't know which tokens will appear at build time.
+
+### Search and filtering
+
+Token lists can be long. Users need to search by name or symbol:
+
+```tsx
+import { useState, useMemo } from 'react'
+
+function useTokenSearch(tokenList: TokenData[], searchTerm: string) {
+  return useMemo(() => {
+    if (!searchTerm.trim()) return tokenList
+
+    const term = searchTerm.toLowerCase()
+    return tokenList.filter(
+      (token) =>
+        token.symbol.toLowerCase().includes(term) ||
+        token.name.toLowerCase().includes(term),
+    )
+  }, [tokenList, searchTerm])
+}
+```
+
+### Putting it together: The token selector
+
+Here's the complete component:
+
+```tsx
+'use client'
+import { useState, useMemo } from 'react'
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+interface TokenData {
+  symbol: string
+  name: string
+  balance?: number
+}
+
+function TokenSelector({
+  tokens,
+  selectedToken,
+  onSelect,
+}: {
+  tokens: TokenData[]
+  selectedToken: TokenData | null
+  onSelect: (token: TokenData) => void
+}) {
+  const [isOpen, setIsOpen] = useState(false)
+  const [search, setSearch] = useState('')
+
+  const filteredTokens = useMemo(() => {
+    if (!search.trim()) return tokens
+    const term = search.toLowerCase()
+    return tokens.filter(
+      (t) =>
+        t.symbol.toLowerCase().includes(term) ||
+        t.name.toLowerCase().includes(term),
+    )
+  }, [tokens, search])
+
+  return (
+    <div className="relative">
+      {/* Trigger button */}
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex items-center gap-2 rounded-lg border border-white/10 px-3 py-2 transition-colors hover:border-white/20"
+      >
+        {selectedToken ? (
+          <>
+            <TokenIcon
+              symbol={selectedToken.symbol}
+              size={20}
+              variant="branded"
+            />
+            <span>{selectedToken.symbol}</span>
+          </>
+        ) : (
+          <span className="text-white/40">Select token</span>
+        )}
+        <svg
+          className="ml-1 size-4 text-white/40"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+      </button>
+
+      {/* Dropdown */}
+      {isOpen && (
+        <div className="absolute left-0 top-full z-50 mt-2 w-80 rounded-lg border border-white/10 bg-[#111] shadow-xl">
+          {/* Search */}
+          <div className="border-b border-white/10 p-3">
+            <input
+              type="text"
+              placeholder="Search by name or symbol..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="w-full rounded bg-white/5 px-3 py-2 text-sm text-white placeholder-white/30 outline-none focus:ring-1 focus:ring-white/20"
+              autoFocus
+            />
+          </div>
+
+          {/* Token list */}
+          <div className="max-h-80 overflow-y-auto">
+            {filteredTokens.length === 0 ? (
+              <div className="px-4 py-8 text-center text-sm text-white/30">
+                No tokens found
+              </div>
+            ) : (
+              filteredTokens.map((token) => (
+                <button
+                  key={token.symbol}
+                  onClick={() => {
+                    onSelect(token)
+                    setIsOpen(false)
+                    setSearch('')
+                  }}
+                  className="flex w-full items-center gap-3 px-4 py-3 transition-colors hover:bg-white/5"
+                >
+                  <TokenIcon
+                    symbol={token.symbol}
+                    size={32}
+                    variant="branded"
+                  />
+                  <div className="flex flex-col items-start">
+                    <span className="text-sm font-medium text-white">
+                      {token.symbol}
+                    </span>
+                    <span className="text-xs text-white/40">{token.name}</span>
+                  </div>
+                  {token.balance !== undefined && (
+                    <span className="ml-auto font-mono text-sm text-white/40">
+                      {token.balance.toLocaleString()}
+                    </span>
+                  )}
+                </button>
+              ))
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
+```
+
+## Sorting: Popular tokens first
+
+Users don't want to scroll through 2,000 tokens to find ETH. Most token selectors show popular tokens at the top, followed by the rest sorted by balance or market cap:
+
+```tsx
+const POPULAR_SYMBOLS = [
+  'ETH',
+  'BTC',
+  'USDC',
+  'USDT',
+  'DAI',
+  'WETH',
+  'SOL',
+  'ARB',
+]
+
+function sortTokens(tokens: TokenData[]): TokenData[] {
+  return [...tokens].sort((a, b) => {
+    const aPopular = POPULAR_SYMBOLS.indexOf(a.symbol)
+    const bPopular = POPULAR_SYMBOLS.indexOf(b.symbol)
+
+    // Both popular: sort by popularity rank
+    if (aPopular !== -1 && bPopular !== -1) return aPopular - bPopular
+    // Only a is popular
+    if (aPopular !== -1) return -1
+    // Only b is popular
+    if (bPopular !== -1) return 1
+    // Neither popular: sort by balance (if available) then alphabetically
+    if (a.balance !== undefined && b.balance !== undefined) {
+      return b.balance - a.balance
+    }
+    return a.symbol.localeCompare(b.symbol)
+  })
+}
+```
+
+You can also display the popular tokens as a quick-select row above the full list:
+
+```tsx
+function PopularTokens({
+  tokens,
+  onSelect,
+}: {
+  tokens: TokenData[]
+  onSelect: (token: TokenData) => void
+}) {
+  const popular = tokens.filter((t) => POPULAR_SYMBOLS.includes(t.symbol))
+
+  return (
+    <div className="flex flex-wrap gap-2 border-b border-white/10 p-3">
+      {popular.map((token) => (
+        <button
+          key={token.symbol}
+          onClick={() => onSelect(token)}
+          className="flex items-center gap-1.5 rounded-full border border-white/10 px-3 py-1.5 text-sm transition-colors hover:bg-white/5"
+        >
+          <TokenIcon symbol={token.symbol} size={16} variant="branded" />
+          {token.symbol}
+        </button>
+      ))}
+    </div>
+  )
+}
+```
+
+## Handling network icons alongside tokens
+
+Many DeFi apps deal with multi-chain tokens. A token like USDC exists on Ethereum, Polygon, Arbitrum, Optimism, and more. Showing the network alongside the token helps users understand which version they're dealing with:
+
+```tsx
+import { TokenIcon, NetworkIcon } from '@web3icons/react/dynamic'
+
+function MultiChainTokenRow({
+  symbol,
+  name,
+  network,
+}: {
+  symbol: string
+  name: string
+  network: string
+}) {
+  return (
+    <div className="flex items-center gap-3">
+      <div className="relative">
+        <TokenIcon symbol={symbol} size={32} variant="branded" />
+        <div className="absolute -bottom-1 -right-1 rounded-full border-2 border-[#111]">
+          <NetworkIcon network={network} size={14} variant="branded" />
+        </div>
+      </div>
+      <div>
+        <span className="text-white">{symbol}</span>
+        <span className="ml-2 text-xs text-white/30">{name}</span>
+      </div>
+    </div>
+  )
+}
+```
+
+The small network icon overlapping the token icon corner is a common pattern you see in apps like Zerion, Zapper, and Rainbow.
+
+## Virtualized lists for performance
+
+If you're rendering 2,000+ tokens, you should virtualize the list so only visible rows are in the DOM. Here's a minimal example using `react-window`:
+
+```tsx
+import { FixedSizeList as List } from 'react-window'
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+function VirtualizedTokenList({
+  tokens,
+  onSelect,
+}: {
+  tokens: TokenData[]
+  onSelect: (token: TokenData) => void
+}) {
+  const Row = ({
+    index,
+    style,
+  }: {
+    index: number
+    style: React.CSSProperties
+  }) => {
+    const token = tokens[index]!
+    return (
+      <button
+        style={style}
+        onClick={() => onSelect(token)}
+        className="flex w-full items-center gap-3 px-4 transition-colors hover:bg-white/5"
+      >
+        <TokenIcon symbol={token.symbol} size={32} variant="branded" />
+        <div className="flex flex-col items-start">
+          <span className="text-sm font-medium">{token.symbol}</span>
+          <span className="text-xs text-white/40">{token.name}</span>
+        </div>
+      </button>
+    )
+  }
+
+  return (
+    <List height={400} itemCount={tokens.length} itemSize={56} width="100%">
+      {Row}
+    </List>
+  )
+}
+```
+
+Virtualization makes a huge difference when combined with search. Even with 2,000 tokens, the list stays smooth because only ~10 rows are rendered at any time.
+
+## Accessibility considerations
+
+A token selector is fundamentally a combo box pattern. Here are the accessibility basics to get right:
+
+- Use `role="listbox"` on the token list container
+- Use `role="option"` on each token row
+- Support keyboard navigation with arrow keys
+- Support selection with Enter
+- Support dismissal with Escape
+- Use `aria-selected` to indicate the current selection
+- Associate the search input with the list using `aria-controls`
+- Add `aria-label` attributes to icon-only buttons
+
+```tsx
+<button
+  role="option"
+  aria-selected={isSelected}
+  onClick={() => onSelect(token)}
+>
+  <TokenIcon
+    symbol={token.symbol}
+    size={32}
+    variant="branded"
+    aria-hidden="true"
+  />
+  <span>{token.symbol}</span>
+</button>
+```
+
+Mark icons as `aria-hidden` since they're decorative. The text label provides the accessible name.
+
+## Summary
+
+Building a token list component is a rite of passage for web3 frontend developers. The key pieces:
+
+1. **Dynamic icons** with `@web3icons/react/dynamic` for data-driven rendering
+2. **Search** by symbol and name with memoized filtering
+3. **Smart sorting** with popular tokens first, then by balance or alphabetically
+4. **Network badges** for multi-chain context
+5. **Virtualization** for lists over ~100 items
+6. **Accessibility** with keyboard navigation and ARIA attributes
+
+The icons are the easy part when you have a library that covers everything. Browse the full set at [web3icons.io](https://web3icons.io) or get started with the [React quick start guide](/docs/react/quick-start).

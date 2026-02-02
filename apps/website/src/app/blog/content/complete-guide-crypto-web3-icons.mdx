@@ -1,0 +1,227 @@
+---
+title: 'The Complete Guide to Crypto & Web3 Icons in 2025'
+description: 'A comprehensive guide to finding and using cryptocurrency icons, token logos, and web3 icons in your projects. Compare options, understand formats, and get started with code examples.'
+date: '2025-07-14'
+author: 'AK'
+tags: ['web3', 'icons', 'crypto', 'design']
+---
+
+If you're building anything in the crypto or web3 space, you've probably run into the icon problem. You need to display logos for tokens, networks, wallets, and exchanges, and there's no single standard source for them.
+
+Some teams download PNGs from CoinMarketCap. Others pull assets from CoinGecko's API. Many resort to random GitHub repositories with inconsistent quality. The result is usually a mess of different sizes, formats, and styles that looks unprofessional and hurts performance.
+
+This guide walks you through the landscape of cryptocurrency icons, compares your options, and shows you a better approach with [web3icons](https://web3icons.io), an open-source library with over 2,500 optimized SVG icons for tokens, networks, wallets, and exchanges.
+
+## Why cryptocurrency icons are harder than they look
+
+Regular icon libraries like Heroicons or Lucide are simple. They're designed as a cohesive set with consistent stroke widths, sizing, and style. Cryptocurrency icons are fundamentally different:
+
+- **Every token has its own brand identity.** Bitcoin's orange, Ethereum's purple diamond, Solana's gradient. These are unique brand marks, not generic shapes you can standardize.
+- **New tokens launch constantly.** Your icon library needs to keep up with an ever-growing ecosystem.
+- **Multiple contexts need different styles.** A branded full-color icon works on a white background but breaks on dark themes. You need variants.
+- **Quality varies wildly.** Some tokens provide clean SVGs. Others only offer a low-res PNG on their website.
+
+## Your options for crypto icons
+
+### CoinMarketCap / CoinGecko images
+
+Both platforms serve token logos via their APIs. It seems convenient: just use the image URL they provide.
+
+The problems:
+
+- **Format**: These are almost always PNGs or JPEGs, not SVGs. They don't scale cleanly and add unnecessary file weight.
+- **Reliability**: You're depending on a third-party CDN. Rate limits, downtime, or API changes can break your app.
+- **Consistency**: Images come in different sizes, some with transparent backgrounds and some without. Some are blurry, some are crisp.
+- **Coverage**: They cover tokens but often lack network icons, wallet logos, or exchange icons.
+
+### Random GitHub repositories
+
+There are dozens of community-maintained repos with crypto icon collections. They get the job done in a pinch, but:
+
+- **Maintenance**: Most go stale. Tokens that launched six months ago might not be included.
+- **No package manager support**: You're copying files into your project manually.
+- **Inconsistent quality**: No unified style, sizing, or optimization standard.
+- **No variant support**: You get one version of each icon, take it or leave it.
+
+### Building your own collection
+
+Some teams maintain their own icon sets. This gives you full control but costs a huge amount of time: sourcing, optimizing, converting, and maintaining hundreds of icons. For most teams, this is a poor use of resources.
+
+### Web3 Icons
+
+[Web3 Icons](https://web3icons.io) is purpose-built to solve all of these problems:
+
+- **2,500+ icons** covering tokens, networks, wallets, and exchanges
+- **SVG-first**: every icon is an optimized SVG that scales perfectly at any size
+- **Three variants**: `branded` (full color), `mono` (single color, perfect for dark mode), and `background` (icon with a circular background)
+- **Multiple packages**: use `@web3icons/react` for React components, `@web3icons/core` for raw SVGs, or `@web3icons/common` for metadata
+- **Regularly updated**: new icons are added continuously as the ecosystem grows
+- **Tree-shakeable**: only the icons you import end up in your bundle
+
+## Getting started with @web3icons/react
+
+Install the package:
+
+```bash
+npm install @web3icons/react
+```
+
+### Individual icon imports
+
+If you know exactly which icons you need, import them directly. This is the most performant approach since unused icons are tree-shaken from your bundle:
+
+```tsx
+import { TokenBTC, TokenETH, NetworkEthereum } from '@web3icons/react'
+
+function Portfolio() {
+  return (
+    <div className="flex items-center gap-4">
+      <TokenBTC size={32} variant="branded" />
+      <TokenETH size={32} variant="branded" />
+      <NetworkEthereum size={32} variant="mono" />
+    </div>
+  )
+}
+```
+
+Every icon component accepts:
+
+- `size`: icon dimensions in pixels
+- `variant`: `"branded"`, `"mono"`, or `"background"`
+- Standard SVG and HTML attributes like `className`, `style`, etc.
+
+### Dynamic icon loading
+
+When you're working with token data from an API and don't know which icons you'll need at build time, use the dynamic components:
+
+```tsx
+import { TokenIcon, NetworkIcon } from '@web3icons/react/dynamic'
+
+function TokenRow({ symbol, network }: { symbol: string; network: string }) {
+  return (
+    <div className="flex items-center gap-3">
+      <TokenIcon symbol={symbol} size={24} variant="branded" />
+      <NetworkIcon network={network} size={16} variant="mono" />
+      <span>{symbol}</span>
+    </div>
+  )
+}
+```
+
+Dynamic icons look up the correct icon by symbol or ID at runtime. They're slightly less performant than direct imports (the full icon set is included in the bundle), but they're essential for data-driven UIs.
+
+## SVG vs. PNG: Why format matters
+
+If you're still using PNG icons for crypto assets, you're making your users' experience worse in several ways:
+
+**File size**: A typical branded token SVG from web3icons is 1-4 KB. The equivalent PNG at a reasonable resolution (128x128) is often 5-20 KB. At 2x retina resolution, it doubles. SVGs look sharp on any screen at any size, regardless of resolution.
+
+**Scalability**: SVGs render perfectly whether they're 16px or 160px. PNGs get blurry when scaled up and waste bandwidth when scaled down.
+
+**Dark mode**: An SVG can be styled with CSS. A `mono` SVG icon can change color based on your theme. A PNG is a static raster image with no runtime flexibility.
+
+**Performance**: Fewer bytes transferred, no need for multiple resolution variants, and SVGs can be inlined to eliminate HTTP requests entirely.
+
+## Handling variants for different contexts
+
+One of the most practical features of web3icons is the variant system. Here's when to use each:
+
+### Branded variant
+
+Full-color icons that match each token's official branding. Use these in:
+
+- Token detail pages
+- Marketing materials
+- Light-background contexts where colors pop
+
+### Mono variant
+
+Single-color icons that respect your app's color scheme. Use these in:
+
+- Dark mode UIs
+- Navigation bars and sidebars
+- Anywhere you want visual consistency over brand recognition
+- Data-dense tables and lists where color is distracting
+
+### Background variant
+
+Icons with a circular colored background. Use these in:
+
+- Token lists and portfolio views
+- Notification badges
+- Anywhere icons need to stand on their own without additional framing
+
+<LiveExample
+  tabs={[
+    {
+      label: 'mono',
+      preview: <TokenBTC variant="mono" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'\n\n<TokenBTC variant="mono" size={48} />`
+    },
+    {
+      label: 'branded',
+      preview: <TokenBTC variant="branded" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'\n\n<TokenBTC variant="branded" size={48} />`
+    },
+    {
+      label: 'background',
+      preview: <TokenBTC variant="background" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'\n\n<TokenBTC variant="background" size={48} />`
+    },
+  ]}
+/>
+
+```tsx
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+function AdaptiveIcon({
+  symbol,
+  isDarkMode,
+}: {
+  symbol: string
+  isDarkMode: boolean
+}) {
+  return (
+    <TokenIcon
+      symbol={symbol}
+      size={32}
+      variant={isDarkMode ? 'mono' : 'branded'}
+    />
+  )
+}
+```
+
+## Beyond React: Other ways to use web3icons
+
+### Core package (raw SVGs)
+
+If you're building with Vue, Svelte, or vanilla HTML, use `@web3icons/core`:
+
+```bash
+npm install @web3icons/core
+```
+
+This gives you access to optimized SVG strings that you can insert into any framework or template system.
+
+### Common package (metadata only)
+
+Need the list of supported tokens, networks, and wallets without the icons themselves? The `@web3icons/common` package exports metadata arrays:
+
+```tsx
+import { tokens, networks, wallets } from '@web3icons/common'
+
+// tokens is an array of { id, name, symbol, variants, ... }
+console.log(tokens.length) // 2,500+
+```
+
+### Figma plugin
+
+For designers, web3icons has a [Figma plugin](https://www.figma.com/community/plugin/1170720285035693761/web3-icons) that lets you search and insert any icon directly into your designs.
+
+## Wrapping up
+
+Cryptocurrency icons shouldn't be a recurring headache. Whether you're building a portfolio tracker, a DEX interface, a wallet app, or a blockchain explorer, having reliable, well-optimized, consistently styled icons makes your product look more professional and perform better.
+
+[Web3 Icons](https://web3icons.io) gives you 2,500+ icons in three variants, available as React components, raw SVGs, or metadata. All open source, all regularly updated.
+
+Browse the full collection at [web3icons.io](https://web3icons.io) or check the [documentation](/docs) to get started in minutes.

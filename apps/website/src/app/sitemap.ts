@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import { tokens, networks, wallets, exchanges } from '@web3icons/common'
+import { getAllPosts } from './blog/lib/blog'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://web3icons.io'
@@ -44,6 +45,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     routes.push({
       url: `${baseUrl}/exchanges/${exchange.id}`,
       lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    })
+  })
+
+  // Blog pages
+  routes.push({
+    url: `${baseUrl}/blog`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  })
+
+  const blogPosts = getAllPosts()
+  blogPosts.forEach((post) => {
+    routes.push({
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: new Date(post.frontmatter.date),
       changeFrequency: 'monthly',
       priority: 0.7,
     })

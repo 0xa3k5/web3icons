@@ -1,0 +1,334 @@
+---
+title: 'How to Add Crypto Icons to Your React App'
+description: 'Step-by-step tutorial on adding cryptocurrency token icons to a React application using @web3icons/react. Covers installation, individual imports, dynamic icons, and variant handling.'
+date: '2025-07-10'
+author: 'AK'
+tags: ['react', 'icons', 'tutorial', 'crypto']
+---
+
+You're building a React app that deals with cryptocurrency. A portfolio tracker, a DEX interface, a wallet, maybe a DeFi dashboard. At some point, you need to display icons for tokens like ETH, BTC, USDC, and dozens more. You need them to look consistent, load fast, and work in both light and dark themes.
+
+This tutorial walks through adding crypto icons to a React app using [@web3icons/react](https://web3icons.io), from installation to advanced patterns. By the end, you'll have a clean, performant icon system that handles any token you throw at it.
+
+## Installation
+
+Start by installing the React package:
+
+```bash
+npm install @web3icons/react
+```
+
+Or with your preferred package manager:
+
+```bash
+yarn add @web3icons/react
+# or
+pnpm add @web3icons/react
+# or
+bun add @web3icons/react
+```
+
+No additional configuration, no peer dependencies, no CSS files to import. The package works with any React setup: Next.js, Vite, Remix, Create React App, or anything else.
+
+## Method 1: Individual icon imports
+
+The most straightforward and performant way to use web3icons is importing specific icon components by name:
+
+```tsx
+import { TokenBTC, TokenETH, TokenUSDC, TokenSOL } from '@web3icons/react'
+
+function TopTokens() {
+  return (
+    <div className="flex items-center gap-6">
+      <div className="flex items-center gap-2">
+        <TokenBTC size={24} variant="branded" />
+        <span>Bitcoin</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <TokenETH size={24} variant="branded" />
+        <span>Ethereum</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <TokenUSDC size={24} variant="branded" />
+        <span>USDC</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <TokenSOL size={24} variant="branded" />
+        <span>Solana</span>
+      </div>
+    </div>
+  )
+}
+```
+
+<LiveExample
+  tabs={[
+    {
+      label: 'branded',
+      preview: <TokenBTC variant="branded" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'\n\n<TokenBTC variant="branded" size={48} />`
+    },
+    {
+      label: 'mono',
+      preview: <TokenBTC variant="mono" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'\n\n<TokenBTC variant="mono" size={48} />`
+    },
+  ]}
+/>
+
+### Why individual imports matter
+
+When you import `TokenBTC` directly, your bundler (webpack, Vite, esbuild) only includes that specific icon in your final bundle. The other 2,500+ icons are tree-shaken away. This keeps your bundle small.
+
+The naming convention is predictable:
+
+- **Tokens**: `Token` + symbol: `TokenBTC`, `TokenETH`, `TokenUSDC`
+- **Networks**: `Network` + name: `NetworkEthereum`, `NetworkPolygon`, `NetworkArbitrum`
+- **Wallets**: `Wallet` + name: `WalletMetamask`, `WalletRabby`, `WalletPhantom`
+- **Exchanges**: `Exchange` + name: `ExchangeBinance`, `ExchangeCoinbase`
+
+### Props every icon accepts
+
+All web3icons components share the same prop interface:
+
+```tsx
+<TokenETH
+  size={32} // Width and height in pixels
+  variant="branded" // "branded" | "mono" | "background"
+  className="my-icon" // Standard className
+  style={{ opacity: 0.8 }} // Standard inline styles
+/>
+```
+
+You can also spread any valid SVG attribute: `aria-label`, `role`, `onClick`, etc.
+
+## Method 2: Dynamic icons
+
+Individual imports work great when you know exactly which tokens to display. But what if you're rendering a list of tokens from an API response? You can't write import statements for data you don't have at build time.
+
+Dynamic icons solve this:
+
+```tsx
+import { TokenIcon, NetworkIcon, WalletIcon } from '@web3icons/react/dynamic'
+
+interface Token {
+  symbol: string
+  name: string
+  balance: number
+}
+
+function TokenList({ tokens }: { tokens: Token[] }) {
+  return (
+    <ul className="space-y-2">
+      {tokens.map((token) => (
+        <li key={token.symbol} className="flex items-center gap-3">
+          <TokenIcon symbol={token.symbol} size={24} variant="branded" />
+          <span className="flex-1">{token.name}</span>
+          <span className="font-mono">{token.balance}</span>
+        </li>
+      ))}
+    </ul>
+  )
+}
+```
+
+Dynamic icons accept a `symbol` (for tokens) or an identifier prop instead of being hardcoded to a specific icon. They look up the correct SVG at runtime.
+
+<LiveExample
+  tabs={[
+    {
+      label: 'by symbol',
+      preview: <TokenETH variant="branded" size={48} />,
+      content: `import { TokenIcon } from '@web3icons/react/dynamic'\n\n<TokenIcon symbol="ETH" size={48} variant="branded" />`
+    },
+    {
+      label: 'by network',
+      preview: <NetworkEthereum variant="branded" size={48} />,
+      content: `import { NetworkIcon } from '@web3icons/react/dynamic'\n\n<NetworkIcon network="ethereum" size={48} variant="branded" />`
+    },
+  ]}
+/>
+
+### Dynamic component reference
+
+```tsx
+// Token: look up by symbol
+<TokenIcon symbol="ETH" size={24} variant="branded" />
+
+// Network: look up by network ID
+<NetworkIcon network="ethereum" size={24} variant="branded" />
+
+// Wallet: look up by wallet ID
+<WalletIcon wallet="metamask" size={24} variant="branded" />
+
+// Exchange: look up by exchange ID
+<ExchangeIcon exchange="binance" size={24} variant="branded" />
+```
+
+### The trade-off
+
+Dynamic icons are more flexible, but they include the entire icon set in your bundle since the component can't know at build time which icons will be requested. The SVGs are optimized and compress well, so for most apps this is fine. If your app only ever shows 5 specific tokens, individual imports will produce a smaller bundle.
+
+## Understanding variants
+
+Every icon in web3icons comes in up to three variants. Choosing the right one for each context makes your UI look polished:
+
+### Branded
+
+The full-color, official logo. Bitcoin in orange, Ethereum in its purple/blue gradient, USDC in its blue circle. This is what users expect to see when they're browsing tokens.
+
+```tsx
+<TokenETH size={32} variant="branded" />
+```
+
+Best for: token detail pages, marketing, light backgrounds, any context where brand recognition matters.
+
+### Mono
+
+A single-color version of the icon that inherits the current text color or can be set with CSS. Critical for dark mode and for UIs where visual consistency matters more than brand colors.
+
+```tsx
+<TokenETH size={32} variant="mono" color="#ffffff" />
+```
+
+Best for: dark mode, sidebars, data tables, navigation, monochrome designs.
+
+### Background
+
+The icon placed inside a circular colored background. This gives each icon a consistent shape and visual weight, useful when icons appear in lists or grids.
+
+```tsx
+<TokenETH size={32} variant="background" />
+```
+
+Best for: token lists, portfolio rows, notification badges, avatar-style displays.
+
+## Real-world example: Portfolio card
+
+Here's a more complete example showing how you'd build a portfolio card component:
+
+```tsx
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+interface Holding {
+  symbol: string
+  name: string
+  balance: number
+  value: number
+  change24h: number
+}
+
+function PortfolioCard({ holding }: { holding: Holding }) {
+  const isPositive = holding.change24h >= 0
+
+  return (
+    <div className="flex items-center gap-4 rounded-lg border border-gray-800 p-4">
+      <TokenIcon symbol={holding.symbol} size={40} variant="background" />
+
+      <div className="flex-1">
+        <div className="flex items-center gap-2">
+          <span className="font-medium">{holding.name}</span>
+          <span className="text-sm text-gray-500">{holding.symbol}</span>
+        </div>
+        <span className="text-sm text-gray-400">
+          {holding.balance} {holding.symbol}
+        </span>
+      </div>
+
+      <div className="text-right">
+        <div className="font-mono">${holding.value.toLocaleString()}</div>
+        <div
+          className={`font-mono text-sm ${isPositive ? 'text-green-400' : 'text-red-400'}`}
+        >
+          {isPositive ? '+' : ''}
+          {holding.change24h.toFixed(2)}%
+        </div>
+      </div>
+    </div>
+  )
+}
+```
+
+## Dark mode handling
+
+One of the biggest advantages of web3icons is seamless dark mode support through the variant system. Here's a pattern that automatically switches between branded and mono icons based on your theme:
+
+```tsx
+import { TokenIcon } from '@web3icons/react/dynamic'
+import { useTheme } from 'your-theme-provider'
+
+function ThemeAwareTokenIcon({
+  symbol,
+  size = 24,
+}: {
+  symbol: string
+  size?: number
+}) {
+  const { theme } = useTheme()
+
+  return (
+    <TokenIcon
+      symbol={symbol}
+      size={size}
+      variant={theme === 'dark' ? 'mono' : 'branded'}
+    />
+  )
+}
+```
+
+For a deeper dive on this topic, read [Dark Mode and Crypto Icons: A Practical Guide](/blog/dark-mode-crypto-icons).
+
+## Handling missing icons
+
+What happens when you request an icon for a token that doesn't exist in the library? The dynamic components handle this gracefully by rendering nothing (or a fallback if you provide one). You can wrap the icon in a fallback pattern:
+
+```tsx
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+function SafeTokenIcon({
+  symbol,
+  size = 24,
+}: {
+  symbol: string
+  size?: number
+}) {
+  return (
+    <div
+      className="flex items-center justify-center rounded-full bg-gray-800"
+      style={{ width: size, height: size }}
+    >
+      <TokenIcon symbol={symbol} size={size} variant="branded" />
+    </div>
+  )
+}
+```
+
+The background `div` acts as a visual fallback. If the icon doesn't exist, you still get a consistent circle placeholder.
+
+## Framework-specific notes
+
+### Next.js
+
+Web3icons works out of the box with Next.js (both App Router and Pages Router). No special configuration needed. The individual imports are automatically tree-shaken by Next.js's webpack or turbopack bundler.
+
+For Next.js-specific setup details, check the [Next.js guide](/docs/guides/nextjs) in our docs.
+
+### Vite
+
+Install and import. Vite's Rollup-based bundler handles tree-shaking correctly. See the [Vite guide](/docs/guides/vite).
+
+### Remix
+
+Works with Remix's esbuild bundler. See the [Remix guide](/docs/guides/remix).
+
+## Summary
+
+Here's the quick reference:
+
+1. **Install**: `npm install @web3icons/react`
+2. **Known icons**: Import individually with `import { TokenBTC } from '@web3icons/react'`
+3. **Data-driven**: Use dynamic with `import { TokenIcon } from '@web3icons/react/dynamic'`
+4. **Variants**: `branded` for color, `mono` for dark mode / consistency, `background` for lists
+5. **Props**: `size`, `variant`, plus any SVG/HTML attribute
+
+Browse all 2,500+ icons at [web3icons.io](https://web3icons.io) or read the full [API documentation](/docs/react/api).

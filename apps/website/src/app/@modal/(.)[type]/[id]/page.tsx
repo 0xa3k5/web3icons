@@ -17,6 +17,8 @@ const metadataMap: Record<TType, TMetadata[]> = {
   exchange: exchanges,
 }
 
+const VALID_TYPES = new Set(['tokens', 'networks', 'wallets', 'exchanges'])
+
 export default function Modal({
   params,
 }: {
@@ -25,7 +27,7 @@ export default function Modal({
   const router = useRouter()
   const { type, id } = params
 
-  if (!type) {
+  if (!type || !VALID_TYPES.has(type)) {
     return null
   }
 

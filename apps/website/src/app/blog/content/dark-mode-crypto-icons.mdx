@@ -1,0 +1,280 @@
+---
+title: 'Dark Mode and Crypto Icons: A Practical Guide'
+description: "Learn why branded cryptocurrency icons break in dark mode, how mono icon variants solve the problem, and patterns for automatically switching icon styles based on your app's theme."
+date: '2025-07-07'
+author: 'AK'
+tags: ['dark-mode', 'design', 'icons', 'react']
+---
+
+Dark mode isn't optional anymore. Most users expect it, many prefer it, and if you're building a crypto application, your users probably spend hours staring at your UI watching charts and managing positions. A properly implemented dark mode reduces eye strain and looks more professional.
+
+But there's a problem that every crypto app developer hits: **branded token icons look terrible on dark backgrounds.**
+
+This guide explains why, shows the standard solutions, and walks through implementation patterns for switching icon variants based on your theme.
+
+## The problem with branded icons on dark backgrounds
+
+Open any crypto app and look at the token icons. On a white background, they look great. Bitcoin's orange circle pops, USDC's blue stands out, Chainlink's blue hexagon is crisp and readable.
+
+Now put those same icons on a `#0a0a0a` background. Several problems appear immediately:
+
+**Black outlines disappear.** Many token logos use black outlines or elements. On a dark background, these vanish. The icon loses its shape and becomes unrecognizable.
+
+**Low-contrast colors become muddy.** Dark blues, purples, and greens that looked vibrant on white now blend into the dark background. Tokens like Polygon and Fantom become hard to distinguish.
+
+**White elements create harsh spots.** Some tokens use white fills (Solana, for example). On a dark background, these white areas create jarring bright spots that draw the eye for the wrong reasons.
+
+**Transparent backgrounds expose the problem.** Most SVG icons have transparent backgrounds. This is fine on white, but on dark backgrounds every contrast issue is amplified.
+
+The result is an icon set that looks inconsistent, unprofessional, and sometimes literally unreadable.
+
+## The wrong solutions
+
+### Adding a white circle behind every icon
+
+The most common quick fix: wrap each icon in a white circle background.
+
+```tsx
+// ❌ Don't do this
+function TokenWithBackground({ children }: { children: React.ReactNode }) {
+  return <div className="rounded-full bg-white p-1">{children}</div>
+}
+```
+
+This "works" but looks terrible. You've broken your dark mode aesthetic by introducing bright white circles everywhere. The icons look like they're stuck on stickers. It's a band-aid.
+
+### Adjusting brightness/contrast with CSS filters
+
+Some developers try CSS filters to make icons "work" in dark mode:
+
+```css
+/* ❌ Don't do this either */
+.dark .token-icon {
+  filter: brightness(1.2) contrast(1.1);
+}
+```
+
+This creates inconsistent results. Some icons look okay, others look washed out, and you're fighting a losing battle with each new token you add. Filters can't add contrast where the original design doesn't have it.
+
+### Maintaining two PNG sets
+
+The enterprise approach: create separate light and dark versions of every icon manually.
+
+This technically works, but the maintenance cost is brutal. Every time a token rebrands or a new one is added, you need to update two sets. With 100+ tokens in a typical app, this becomes a full-time job nobody wants.
+
+## The right solution: Mono icon variants
+
+Use **mono** (single-color) icon variants in dark mode. A mono icon strips away brand colors and renders the token's distinctive shape in a single color that you control.
+
+This solves every problem:
+
+- **Consistent contrast**: Every icon has the same visual weight regardless of the original brand colors.
+- **Adapts to any background**: Set the icon color to match your text color and it works on any theme.
+- **Preserves recognition**: Users recognize tokens by their shape (Bitcoin's B, Ethereum's diamond, Solana's gradient angle). Mono icons keep these shapes intact.
+- **Zero maintenance**: The same icon works for any color scheme.
+
+Here's what it looks like with web3icons:
+
+<LiveExample
+  tabs={[
+    {
+      label: 'branded',
+      preview: <TokenBTC variant="branded" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'\n\n// Full brand colors for light mode\n<TokenBTC size={48} variant="branded" />`
+    },
+    {
+      label: 'mono',
+      preview: <TokenBTC variant="mono" size={48} />,
+      content: `import { TokenBTC } from '@web3icons/react'\n\n// Clean, consistent mono for dark mode\n<TokenBTC size={48} variant="mono" />`
+    },
+  ]}
+/>
+
+```tsx
+import { TokenBTC, TokenETH, TokenSOL } from '@web3icons/react'
+
+// In light mode: full brand colors
+<TokenBTC size={24} variant="branded" />
+<TokenETH size={24} variant="branded" />
+<TokenSOL size={24} variant="branded" />
+
+// In dark mode: clean, consistent mono icons
+<TokenBTC size={24} variant="mono" />
+<TokenETH size={24} variant="mono" />
+<TokenSOL size={24} variant="mono" />
+```
+
+## Implementation patterns
+
+### Pattern 1: Theme-aware icon component
+
+Create a wrapper component that automatically selects the right variant based on your theme:
+
+```tsx
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+// Works with any theme system: next-themes, CSS classes, context, etc.
+function useIsDarkMode(): boolean {
+  // Replace with your actual theme detection
+  const [isDark, setIsDark] = useState(false)
+
+  useEffect(() => {
+    const match = window.matchMedia('(prefers-color-scheme: dark)')
+    setIsDark(match.matches)
+    const handler = (e: MediaQueryListEvent) => setIsDark(e.matches)
+    match.addEventListener('change', handler)
+    return () => match.removeEventListener('change', handler)
+  }, [])
+
+  return isDark
+}
+
+function AdaptiveTokenIcon({
+  symbol,
+  size = 24,
+}: {
+  symbol: string
+  size?: number
+}) {
+  const isDark = useIsDarkMode()
+
+  return (
+    <TokenIcon
+      symbol={symbol}
+      size={size}
+      variant={isDark ? 'mono' : 'branded'}
+    />
+  )
+}
+```
+
+### Pattern 2: Using next-themes
+
+If you're using Next.js with `next-themes`, the integration is straightforward:
+
+```tsx
+'use client'
+import { useTheme } from 'next-themes'
+import { TokenIcon } from '@web3icons/react/dynamic'
+import { TVariant } from '@web3icons/common'
+
+function ThemeTokenIcon({
+  symbol,
+  size = 24,
+  forcedVariant,
+}: {
+  symbol: string
+  size?: number
+  forcedVariant?: TVariant
+}) {
+  const { resolvedTheme } = useTheme()
+
+  const variant: TVariant =
+    forcedVariant ?? (resolvedTheme === 'dark' ? 'mono' : 'branded')
+
+  return <TokenIcon symbol={symbol} size={size} variant={variant} />
+}
+```
+
+The `forcedVariant` prop lets you override the automatic behavior when you specifically want a branded icon in dark mode (for a token detail page hero section, for example).
+
+### Pattern 3: CSS-class-based theme detection
+
+If your app uses CSS classes for theming (like Tailwind's `dark:` variant), you can handle this at the component level:
+
+```tsx
+import { TokenIcon } from '@web3icons/react/dynamic'
+
+function DualTokenIcon({
+  symbol,
+  size = 24,
+}: {
+  symbol: string
+  size?: number
+}) {
+  return (
+    <>
+      <span className="dark:hidden">
+        <TokenIcon symbol={symbol} size={size} variant="branded" />
+      </span>
+      <span className="hidden dark:inline">
+        <TokenIcon symbol={symbol} size={size} variant="mono" />
+      </span>
+    </>
+  )
+}
+```
+
+This renders both variants and uses CSS to show/hide them. It means two SVGs in the DOM, but SVGs are lightweight and this avoids hydration mismatches in server-rendered apps.
+
+### Pattern 4: Mono with custom color
+
+Mono icons inherit the current color by default, but you can set a specific color that complements your dark mode palette:
+
+```tsx
+// Subtle, muted icons that don't compete with your content
+<TokenIcon symbol="ETH" size={24} variant="mono" color="#6b7280" />
+
+// Slightly brighter for important elements
+<TokenIcon symbol="ETH" size={24} variant="mono" color="#d1d5db" />
+
+// Accent-colored icons for active states
+<TokenIcon symbol="ETH" size={24} variant="mono" color="#3b82f6" />
+```
+
+This level of control is impossible with branded PNGs.
+
+## When to use branded icons in dark mode
+
+Mono icons aren't always the right choice. There are situations where brand colors add genuine value, even on dark backgrounds:
+
+**Token detail pages**: When the user has navigated specifically to a token's page, they want to see the real brand icon. Use it as a hero element with appropriate spacing and contrast.
+
+**Marketing and landing pages**: Brand colors create visual interest and help users quickly identify tokens they recognize.
+
+**Comparison views**: When users are choosing between tokens, brand colors help differentiate at a glance. Consider the `background` variant here. The circular background provides consistent framing:
+
+```tsx
+<TokenIcon symbol="ETH" size={48} variant="background" />
+```
+
+The `background` variant places the icon inside a circular shape with the token's brand color as the background, which creates reliable contrast on any surface.
+
+## Designing a consistent system
+
+Here's a practical framework for when to use each variant in your app:
+
+| Context                | Light mode | Dark mode              |
+| ---------------------- | ---------- | ---------------------- |
+| Navigation / sidebar   | mono       | mono                   |
+| Token list rows        | branded    | mono or background     |
+| Token detail hero      | branded    | branded (with spacing) |
+| Data tables            | mono       | mono                   |
+| Search results         | background | background             |
+| Transaction history    | mono       | mono                   |
+| Portfolio chart legend | branded    | mono                   |
+| Notifications          | background | background             |
+
+The general rule: **use mono anywhere information density is high and branded anywhere the icon is a focal point.**
+
+## Testing your dark mode icons
+
+A few things to verify:
+
+- Check icons at all sizes you use (16px, 24px, 32px, 48px). Mono icons at small sizes should still be recognizable.
+- Test with both system dark mode and your app's theme toggle.
+- Verify that server-rendered HTML matches client-rendered state (no flash of wrong variant).
+- Check the icons against your actual background colors, not just "dark" in the abstract.
+
+## Wrapping up
+
+Dark mode crypto icons don't have to be a pain. The pattern is simple:
+
+1. Use `branded` icons for light mode and featured placements
+2. Use `mono` icons for dark mode and information-dense contexts
+3. Use `background` icons when icons need to stand alone on any surface
+4. Build a wrapper component that selects the variant based on your theme
+
+With [web3icons](https://web3icons.io), all three variants are available for every icon in the library. Install `@web3icons/react`, pick the pattern that fits your stack, and dark mode icons become a solved problem.
+
+Check the full [docs](/docs) or browse all icons with variant previews at [web3icons.io](https://web3icons.io).
