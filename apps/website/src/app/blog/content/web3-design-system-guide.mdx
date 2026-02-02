@@ -1,0 +1,285 @@
+---
+title: 'Building a Design System for Web3 Apps'
+description: 'A practical guide to building consistent, professional UIs for DeFi, wallet, and crypto applications. Covers color systems, typography, component patterns, icon systems, and the design decisions that make web3 apps trustworthy.'
+date: '2025-06-21'
+author: 'AK'
+tags: ['design-system', 'web3', 'defi', 'ux']
+---
+
+Web3 apps have a reputation for bad UI. Clunky interfaces, inconsistent styling, confusing flows. The bar is low, which means there's a real opportunity to stand out by simply building something that looks and feels professional.
+
+A design system creates a shared language of components, patterns, and rules that make your product consistent, maintainable, and trustworthy. Trust is everything in crypto. Users are connecting their wallets and moving real money through your interface. If the UI feels janky, they won't trust the underlying code either.
+
+This guide covers the practical building blocks of a web3 design system: color, typography, icons, components, and the patterns that tie them together.
+
+## Start with color
+
+Color is where most web3 design systems go wrong. The common mistakes:
+
+**Too much brand color.** If everything is your brand's neon green, nothing stands out. Your brand color should be an accent, 5-10% of pixels max. The rest should be neutral.
+
+**Ignoring dark mode from the start.** Most crypto apps run in dark mode. If you're designing for light mode first and "adding dark mode later," you're doing it backwards. Design for dark mode first, then adapt to light.
+
+**No semantic color system.** You need colors that mean things: success (green), error (red), warning (yellow), info (blue). These need to work on both dark and light backgrounds with sufficient contrast.
+
+### A practical dark-mode-first color scale
+
+Here's a starting point for a dark-mode-first neutral scale:
+
+```css
+:root {
+  --gray-1: #080808; /* Deepest background */
+  --gray-2: #0b0b0b; /* Card backgrounds */
+  --gray-3: #111111; /* Elevated surfaces */
+  --gray-4: #1a1a1a; /* Borders, dividers */
+  --gray-5: #222222; /* Subtle borders */
+  --gray-6: #333333; /* Muted text bg */
+  --gray-7: #555555; /* Disabled state */
+  --gray-8: #888888; /* Placeholder text */
+  --gray-9: #a0a0a0; /* Secondary text */
+  --gray-10: #cccccc; /* Primary text */
+  --gray-11: #eeeeee; /* High-emphasis text */
+  --gray-12: #ffffff; /* Maximum emphasis */
+}
+```
+
+Your accent/brand color sits outside this scale. Use it for primary buttons, active states, and links. Everything else should be neutral.
+
+### Status colors that work on dark
+
+These need to be visible but not aggressive on dark backgrounds:
+
+```css
+:root {
+  --success: #22c55e; /* Green: positive changes, confirmations */
+  --error: #ef4444; /* Red: errors, negative changes */
+  --warning: #f59e0b; /* Amber: warnings, pending states */
+  --info: #3b82f6; /* Blue: informational, links */
+}
+```
+
+Test these against your background colors for WCAG AA contrast (4.5:1 minimum). Many "green" and "red" values that look fine on white fail on dark backgrounds.
+
+## Typography
+
+Web3 apps display a lot of numbers, codes, and addresses. Your typography system needs to handle this.
+
+### Two-font strategy
+
+Most successful crypto apps use two fonts:
+
+1. **A clean sans-serif** for UI text: labels, descriptions, paragraphs. Inter, Geist, or similar.
+2. **A monospace font** for data: prices, balances, addresses, hashes, code snippets. JetBrains Mono, Geist Mono, or similar.
+
+```css
+:root {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+}
+```
+
+The monospace font isn't just aesthetic. Tabular (fixed-width) numbers align in columns, making price lists and portfolio tables scannable. If you've ever seen a token list where the decimal points don't line up, it's because they used a proportional font for numbers.
+
+### Type scale
+
+Keep it tight. Web3 apps are information-dense, and you need many sizes:
+
+```css
+--text-xs: 0.75rem; /* 12px: labels, captions, tags */
+--text-sm: 0.875rem; /* 14px: secondary text, descriptions */
+--text-base: 1rem; /* 16px: body text */
+--text-lg: 1.125rem; /* 18px: subheadings */
+--text-xl: 1.25rem; /* 20px: section titles */
+--text-2xl: 1.5rem; /* 24px: page titles */
+--text-3xl: 2rem; /* 32px: hero text */
+```
+
+Most content in a DeFi app lives at `text-sm` and `text-xs`. Reserve larger sizes for page titles and hero sections.
+
+### Number formatting
+
+This is a web3-specific concern. You need consistent formatting for:
+
+- **Prices**: `$1,234.56` or `$0.0001234`
+- **Token amounts**: `1.234567 ETH` or `1,234,567 USDC`
+- **Percentages**: `+12.34%` or `-5.67%`
+- **Addresses**: `0x1234...abcd` (truncated with ellipsis)
+
+Build utility functions for these early. Inconsistent number formatting is one of the quickest ways to erode trust.
+
+## Icons as a system
+
+Icons in a web3 app serve critical functions:
+
+1. **Token identification**: Users identify tokens by their icons before reading the symbol.
+2. **Network indication**: Which chain is this transaction on? The network icon tells you instantly.
+3. **Action communication**: Swap, send, receive, bridge. These actions need clear, consistent iconography.
+
+### Token and network icons
+
+For crypto-specific icons (tokens, networks, wallets, exchanges), use a purpose-built library like [web3icons](https://web3icons.io). It provides 2,500+ icons with consistent sizing, three variants, and both static and dynamic imports:
+
+```tsx
+import { TokenIcon, NetworkIcon } from '@web3icons/react/dynamic'
+
+// Token icon: looks up by symbol
+<TokenIcon symbol="ETH" size={24} variant="branded" />
+
+// Network icon: looks up by network ID
+<NetworkIcon network="ethereum" size={16} variant="mono" />
+```
+
+The three variants (branded, mono, background) map to different design contexts:
+
+- **Branded** for feature areas where brand recognition matters
+- **Mono** for information-dense areas and dark mode
+- **Background** for standalone icon displays (avatars, badges)
+
+### UI icons
+
+For generic UI icons (arrows, chevrons, settings, close buttons), use a separate system icon library like Lucide or Heroicons. Keep token icons and UI icons visually distinct.
+
+### Icon sizing standards
+
+Define a set of icon sizes and use them consistently:
+
+```tsx
+const ICON_SIZES = {
+  xs: 12, // Inline with small text
+  sm: 16, // Inline with body text, compact lists
+  md: 24, // Default, most common
+  lg: 32, // Cards, list items
+  xl: 48, // Detail pages, hero sections
+} as const
+```
+
+When a token icon appears at 24px in a table, it should be 24px everywhere in tables. Inconsistent sizing breaks visual rhythm.
+
+## Component patterns for web3
+
+### Wallet connection button
+
+This is the most visible web3-specific component. It needs to handle multiple states:
+
+- **Disconnected**: "Connect Wallet" button
+- **Connecting**: Loading spinner
+- **Connected**: Truncated address with wallet icon and balance
+- **Wrong network**: Warning state with network switch prompt
+
+The connected state is the one most people get wrong. Show the wallet icon, the truncated address, and optionally the balance. Make the whole thing clickable to open wallet details.
+
+```tsx
+import { WalletIcon } from '@web3icons/react/dynamic'
+
+function ConnectedWallet({
+  address,
+  wallet,
+  balance,
+}: {
+  address: string
+  wallet: string
+  balance: string
+}) {
+  return (
+    <button className="flex items-center gap-2 rounded-lg border border-white/10 px-3 py-2">
+      <WalletIcon wallet={wallet} size={20} variant="branded" />
+      <span className="font-mono text-sm">
+        {address.slice(0, 6)}...{address.slice(-4)}
+      </span>
+      <span className="text-sm text-white/40">{balance} ETH</span>
+    </button>
+  )
+}
+```
+
+### Token amount input
+
+The input where users type a token amount (for swaps, transfers, etc.) needs:
+
+- A token selector with icon
+- The input field (numbers only, proper decimal handling)
+- Balance display with "Max" button
+- USD value estimation
+
+### Transaction status
+
+Show transaction states clearly:
+
+- **Pending**: Spinner + "Confirming..." text
+- **Confirmed**: Success icon + block explorer link
+- **Failed**: Error icon + reason + retry option
+
+Use your semantic colors here. Don't make users guess whether their transaction worked.
+
+### Network selector
+
+Multi-chain is the norm. Your network selector should show:
+
+- Network icon + name for each option
+- Current network highlighted
+- Gas estimate or speed indicator if relevant
+
+```tsx
+import { NetworkIcon } from '@web3icons/react/dynamic'
+
+const networks = [
+  { id: 'ethereum', name: 'Ethereum' },
+  { id: 'polygon', name: 'Polygon' },
+  { id: 'arbitrum', name: 'Arbitrum' },
+  { id: 'optimism', name: 'Optimism' },
+  { id: 'base', name: 'Base' },
+]
+
+function NetworkSelector({
+  current,
+  onSelect,
+}: {
+  current: string
+  onSelect: (id: string) => void
+}) {
+  return (
+    <div className="flex flex-col gap-1">
+      {networks.map((net) => (
+        <button
+          key={net.id}
+          onClick={() => onSelect(net.id)}
+          className={`flex items-center gap-3 rounded-lg px-3 py-2 transition-colors ${
+            current === net.id ? 'bg-white/10' : 'hover:bg-white/5'
+          }`}
+        >
+          <NetworkIcon network={net.id} size={20} variant="branded" />
+          <span>{net.name}</span>
+        </button>
+      ))}
+    </div>
+  )
+}
+```
+
+## Trust through design
+
+In web3, design is a trust signal. Users are making financial decisions in your UI. Specific patterns that build trust:
+
+**Show the math.** When a user is about to swap tokens, show every detail: exchange rate, price impact, minimum received, fee breakdown. Don't hide information to make the UI look "cleaner."
+
+**Confirm destructive actions.** Any action that moves money should have a clear confirmation step with a summary of what's about to happen.
+
+**Use familiar patterns.** Users coming from TradFi apps (bank apps, trading platforms) expect certain conventions. Don't reinvent basic patterns like form validation or error messages.
+
+**Be honest about loading states.** Blockchain operations are slow. Show progress, show which step you're on, show estimated time. Don't hide behind a vague spinner.
+
+**Make addresses verifiable.** Always show enough of an address for users to verify it against their wallet. Never truncate to fewer than 6+4 characters.
+
+## Putting it together
+
+A design system grows with your product. Start with:
+
+1. **Color tokens**: neutrals, brand accent, semantic colors
+2. **Typography**: sans + mono, size scale, number formatting utilities
+3. **Icon system**: [web3icons](https://web3icons.io) for crypto assets, a UI icon library for generic actions
+4. **Core components**: buttons, inputs, cards, modals
+5. **Web3 components**: wallet button, token selector, network selector, transaction status
+
+Document everything. When your team grows, the design system is what keeps the product consistent. A component library without documentation is just a folder of files.
+
+If you're building in the web3 space and want a solid icon foundation, [web3icons](https://web3icons.io) provides 2,500+ icons covering tokens, networks, wallets, and exchanges. Designed to work as a cohesive system across all the contexts covered in this guide. Check the [docs](/docs) to get started.

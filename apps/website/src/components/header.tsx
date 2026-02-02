@@ -147,6 +147,12 @@ export const Header = ({ className }: Props) => {
 
         <div className="flex items-center justify-end gap-4 sm:flex-1">
           <Link
+            href="/blog"
+            className="flex items-center gap-2 font-mono text-sm text-white/60 transition-colors hover:text-white"
+          >
+            Blog
+          </Link>
+          <Link
             href="/docs"
             className="flex items-center gap-2 font-mono text-sm text-white/60 transition-colors hover:text-white"
           >
