@@ -1,0 +1,87 @@
+name: Chrome Extension
+
+on:
+  # Build on PRs that touch extension code
+  pull_request:
+    paths:
+      - "apps/chrome-extension/**"
+      - "packages/core/**"
+      - "packages/common/**"
+
+  # Publish when a GitHub release is created (after changeset release)
+  release:
+    types: [published]
+
+  # Manual trigger for testing
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Publish to Chrome Web Store"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+concurrency:
+  group: chrome-extension-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Extension
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Install Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version-file: package.json
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Build packages (core + common)
+        run: bun run build:packages
+
+      - name: Build Chrome extension
+        working-directory: apps/chrome-extension
+        run: bun run build
+
+      - name: Package extension
+        working-directory: apps/chrome-extension
+        run: cd dist && zip -r ../web3icons-chrome.zip .
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chrome-extension
+          path: apps/chrome-extension/web3icons-chrome.zip
+          retention-days: 30
+
+  publish:
+    name: Publish to Chrome Web Store
+    needs: build
+    runs-on: ubuntu-latest
+    # Only publish on release events or manual trigger with publish=true
+    if: >
+      github.event_name == 'release' ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.publish == 'true')
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: chrome-extension
+
+      - name: Upload to Chrome Web Store
+        uses: mnao305/chrome-extension-upload@v5.0.0
+        with:
+          file-path: web3icons-chrome.zip
+          extension-id: ${{ secrets.CHROME_EXTENSION_ID }}
+          client-id: ${{ secrets.CHROME_CLIENT_ID }}
+          client-secret: ${{ secrets.CHROME_CLIENT_SECRET }}
+          refresh-token: ${{ secrets.CHROME_REFRESH_TOKEN }}
+          publish: true
