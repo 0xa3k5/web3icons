@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gray-lightest: #222222;
+  --color-gray-light: #131313;
+  --color-gray: #111111;
+  --color-gray-dark: #0F0F0F;
+  --color-gray-darker: #0B0B0B;
+  --color-gray-darkest: #080808;
+  --color-primary: #FF3D00;
+}
+
+body {
+  background-color: var(--color-gray-darkest);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.75rem;
+}
+
+/* Icon grid scrollbar */
+#icon-grid::-webkit-scrollbar {
+  width: 4px;
+}
+#icon-grid::-webkit-scrollbar-track {
+  background: transparent;
+}
+#icon-grid::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 2px;
+}
+
+/* SVG sizing inside icon cards */
+.icon-card svg {
+  width: 32px;
+  height: 32px;
+}

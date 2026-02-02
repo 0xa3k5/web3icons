@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body class="bg-gray-darkest font-mono text-xs">
+  <main id="app" class="flex w-[360px] flex-col gap-3 p-4" style="min-height: 500px; max-height: 580px;">
+    <!-- Tabs -->
+    <div id="tabs" class="relative flex w-full border-b border-gray-lightest pb-2">
+      <div id="tab-indicator" class="absolute bottom-0 left-0 h-[1px] bg-white transition-all duration-150"></div>
+    </div>
+
+    <!-- Search -->
+    <div class="relative flex w-full items-center gap-2 rounded-full border border-gray-lightest bg-gray-light px-4 focus-within:border-primary">
+      <input
+        id="search"
+        type="text"
+        placeholder="Search icons..."
+        class="h-8 w-full bg-transparent text-white placeholder:text-white/40 focus:outline-none"
+      />
+    </div>
+
+    <!-- Variant Toggle -->
+    <div id="variants" class="relative inline-flex w-full rounded-full border border-gray-lightest bg-gray-light p-1 text-white"></div>
+
+    <!-- Icon Grid -->
+    <div id="icon-grid" class="flex-1 overflow-y-auto -mx-4" style="max-height: 360px;">
+      <div id="icons" class="grid grid-cols-4 gap-0"></div>
+    </div>
+
+    <!-- Toast -->
+    <div id="toast" class="fixed bottom-16 left-1/2 -translate-x-1/2 rounded-full bg-primary px-4 py-2 text-xs text-white opacity-0 transition-opacity duration-200 pointer-events-none">
+      Copied!
+    </div>
+
+    <!-- Footer -->
+    <div class="flex items-center justify-between border-t border-gray-lightest pt-3 -mx-4 px-4">
+      <a href="https://web3icons.io" target="_blank" rel="noopener" class="text-white/30 hover:text-white/60 transition-colors">web3icons.io</a>
+      <a href="https://akml.io" target="_blank" rel="noopener" class="text-white/30 hover:text-white/60 transition-colors">by AK</a>
+    </div>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
