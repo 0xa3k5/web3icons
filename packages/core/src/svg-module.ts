@@ -4168,7 +4168,9 @@ import * as TBackgroundSTEEM from './svgs/tokens/background/STEEM.svg'
 import * as TBrandedSBD from './svgs/tokens/branded/SBD.svg'
 import * as TMonoSBD from './svgs/tokens/mono/SBD.svg'
 import * as TBackgroundSBD from './svgs/tokens/background/SBD.svg'
+import * as TBrandedXLM from './svgs/tokens/branded/XLM.svg'
 import * as TMonoXLM from './svgs/tokens/mono/XLM.svg'
+import * as TBackgroundXLM from './svgs/tokens/background/XLM.svg'
 import * as TBrandedSTELLA from './svgs/tokens/branded/STELLA.svg'
 import * as TBackgroundSTELLA from './svgs/tokens/background/STELLA.svg'
 import * as TBrandedFITFI from './svgs/tokens/branded/FITFI.svg'
@@ -7563,6 +7565,7 @@ export const svgs = {
       snt: TBrandedSNT,
       steem: TBrandedSTEEM,
       sbd: TBrandedSBD,
+      xlm: TBrandedXLM,
       stella: TBrandedSTELLA,
       fitfi: TBrandedFITFI,
       step: TBrandedSTEP,
@@ -10914,6 +10917,7 @@ export const svgs = {
       snt: TBackgroundSNT,
       steem: TBackgroundSTEEM,
       sbd: TBackgroundSBD,
+      xlm: TBackgroundXLM,
       stella: TBackgroundSTELLA,
       fitfi: TBackgroundFITFI,
       step: TBackgroundSTEP,

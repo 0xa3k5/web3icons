@@ -2,7 +2,8 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Web3 Icons',
-  description: 'Privacy policy for Web3 Icons and the Web3 Icons Chrome extension.',
+  description:
+    'Privacy policy for Web3 Icons and the Web3 Icons Chrome extension.',
 }
 
 export default function PrivacyPage() {
@@ -59,8 +60,7 @@ export default function PrivacyPage() {
 
       <h2>Contact</h2>
       <p>
-        Questions? Reach out at{' '}
-        <a href="mailto:hey@akml.io">hey@akml.io</a>.
+        Questions? Reach out at <a href="mailto:hey@akml.io">hey@akml.io</a>.
       </p>
     </div>
   )
