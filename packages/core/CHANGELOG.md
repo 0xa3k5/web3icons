@@ -1,5 +1,14 @@
 # @web3icons/core
 
+## 4.0.51
+
+### Patch Changes
+
+- 98733c9: token: replace current `POL` icon in favor of Polyon's rebranded `MATIC` icon.
+  token: add `branded`, `background` variants for `XLM`
+- Updated dependencies [98733c9]
+  - @web3icons/common@0.11.46
+
 ## 4.0.50
 
 ### Patch Changes
