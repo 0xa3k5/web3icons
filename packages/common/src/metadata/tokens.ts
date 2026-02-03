@@ -21431,22 +21431,22 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'CBTC',
-    name: 'cBTC',
-    variants: ['background', 'branded', 'mono'],
     filePath: 'token:CBTC',
     symbol: 'CBTC',
+    name: 'cBTC',
     marketCapRank: 0,
     addresses: {},
+    variants: ['background', 'branded', 'mono'],
   },
   {
     id: 'USDE',
-    name: 'USDe',
-    variants: ['background', 'branded', 'mono'],
     filePath: 'token:USDE',
     symbol: 'USDE',
+    name: 'USDe',
     marketCapRank: 0,
     addresses: {
       ethereum: '0x4c9EDD5852cd905f086C759E8383e09bff1E68B3',
     },
+    variants: ['background', 'branded', 'mono'],
   },
 ]
