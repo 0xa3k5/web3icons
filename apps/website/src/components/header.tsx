@@ -163,6 +163,17 @@ export const Header = ({ className }: Props) => {
             <GitHubStars />
           </div>
           <a
+            href="https://chromewebstore.google.com/detail/web3-icons/aobmkdlldfagcnlpkciicjaoopfpdgnn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/60 transition-colors hover:text-white"
+            aria-label="Chrome Extension"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" className="size-5">
+              <path d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5a2.5 2.5 0 0 0-5 0V5H4c-1.1 0-2 .9-2 2v3.8h1.5c1.5 0 2.7 1.2 2.7 2.7s-1.2 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-1.5c0-1.5 1.2-2.7 2.7-2.7s2.7 1.2 2.7 2.7V22H17c1.1 0 2-.9 2-2v-4h1.5a2.5 2.5 0 0 0 0-5z" />
+            </svg>
+          </a>
+          <a
             href="https://www.figma.com/community/plugin/1170720285035693761/web3-icons"
             target="_blank"
             rel="noopener noreferrer"
