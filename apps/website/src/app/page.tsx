@@ -89,6 +89,31 @@ export default function Home() {
           classNames="max-h-32"
         />
       </div>
+      <a
+        href="https://chromewebstore.google.com/detail/web3-icons/aobmkdlldfagcnlpkciicjaoopfpdgnn"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="border-gray-lightest group flex w-full items-center justify-between gap-4 rounded-lg border px-6 py-4 transition-colors hover:border-white/30"
+      >
+        <div className="flex items-center gap-4">
+          <div className="bg-primary/10 flex size-10 shrink-0 items-center justify-center rounded-lg">
+            <svg viewBox="0 0 24 24" fill="currentColor" className="text-primary size-5">
+              <path d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5a2.5 2.5 0 0 0-5 0V5H4c-1.1 0-2 .9-2 2v3.8h1.5c1.5 0 2.7 1.2 2.7 2.7s-1.2 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-1.5c0-1.5 1.2-2.7 2.7-2.7s2.7 1.2 2.7 2.7V22H17c1.1 0 2-.9 2-2v-4h1.5a2.5 2.5 0 0 0 0-5z" />
+            </svg>
+          </div>
+          <div className="flex flex-col">
+            <span className="text-sm font-medium text-white">
+              Chrome Extension is live!
+            </span>
+            <span className="text-sm text-white/40">
+              Quickly look up any crypto icon right from your browser.
+            </span>
+          </div>
+        </div>
+        <span className="text-primary text-sm opacity-0 transition-opacity group-hover:opacity-100">
+          Install &rarr;
+        </span>
+      </a>
       <UsedBy />
       <Tabs
         tabs={[
