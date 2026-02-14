@@ -802,6 +802,7 @@ const dynamicIconImports = {
   TokenEUL: () => import('./dist/icons/tokens/TokenEUL.js'),
   TokenEUNO: () => import('./dist/icons/tokens/TokenEUNO.js'),
   TokenEURC: () => import('./dist/icons/tokens/TokenEURC.js'),
+  TokenEURE: () => import('./dist/icons/tokens/TokenEURE.js'),
   TokenEUROE: () => import('./dist/icons/tokens/TokenEUROE.js'),
   TokenEURS: () => import('./dist/icons/tokens/TokenEURS.js'),
   TokenEURT: () => import('./dist/icons/tokens/TokenEURT.js'),

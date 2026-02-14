@@ -3,7 +3,7 @@ jump to section:
 - [wallets (51)](#wallets)
 - [networks (242)](#networks)
 - [exchanges (28)](#exchanges)
-- [tokens (1843)](#tokens)
+- [tokens (1844)](#tokens)
 
 ### Wallets
 
@@ -2188,3 +2188,4 @@ jump to section:
 | cBTC                                   | CBTC        | ✅      | ✅   | ✅         |
 | USDe                                   | USDE        | ✅      | ✅   | ✅         |
 | USDT0                                  | USDT0       | ✅      | ✅   | ✅         |
+| Monerium EUR e-money                   | EURE        | ✅      | ✅   | ✅         |
