@@ -5144,6 +5144,9 @@ import * as TBackgroundCBTC from './svgs/tokens/background/CBTC.svg'
 import * as TBrandedUSDE from './svgs/tokens/branded/USDE.svg'
 import * as TMonoUSDE from './svgs/tokens/mono/USDE.svg'
 import * as TBackgroundUSDE from './svgs/tokens/background/USDE.svg'
+import * as TBrandedUSDT0 from './svgs/tokens/branded/USDT0.svg'
+import * as TMonoUSDT0 from './svgs/tokens/mono/USDT0.svg'
+import * as TBackgroundUSDT0 from './svgs/tokens/background/USDT0.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
 import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
@@ -7898,6 +7901,7 @@ export const svgs = {
       pls: TBrandedPLS,
       cbtc: TBrandedCBTC,
       usde: TBrandedUSDE,
+      usdt0: TBrandedUSDT0,
     },
     mono: {
       '0x0': TMono0X0,
@@ -9451,6 +9455,7 @@ export const svgs = {
       pls: TMonoPLS,
       cbtc: TMonoCBTC,
       usde: TMonoUSDE,
+      usdt0: TMonoUSDT0,
     },
     background: {
       '0x0': TBackground0X0,
@@ -11250,6 +11255,7 @@ export const svgs = {
       pls: TBackgroundPLS,
       cbtc: TBackgroundCBTC,
       usde: TBackgroundUSDE,
+      usdt0: TBackgroundUSDT0,
     },
   },
   networks: {

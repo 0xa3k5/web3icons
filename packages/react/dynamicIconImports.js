@@ -1970,6 +1970,7 @@ const dynamicIconImports = {
   TokenUSDD: () => import('./dist/icons/tokens/TokenUSDD.js'),
   TokenUSDE: () => import('./dist/icons/tokens/TokenUSDE.js'),
   TokenUSDT: () => import('./dist/icons/tokens/TokenUSDT.js'),
+  TokenUSDT0: () => import('./dist/icons/tokens/TokenUSDT0.js'),
   TokenUSDV: () => import('./dist/icons/tokens/TokenUSDV.js'),
   TokenUSDX: () => import('./dist/icons/tokens/TokenUSDX.js'),
   TokenUSH: () => import('./dist/icons/tokens/TokenUSH.js'),
