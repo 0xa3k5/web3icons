@@ -3,7 +3,7 @@ jump to section:
 - [wallets (51)](#wallets)
 - [networks (242)](#networks)
 - [exchanges (28)](#exchanges)
-- [tokens (1842)](#tokens)
+- [tokens (1844)](#tokens)
 
 ### Wallets
 
@@ -2187,3 +2187,5 @@ jump to section:
 | Pulsechain                             | PLS         | ✅      | ✅   | ✅         |
 | cBTC                                   | CBTC        | ✅      | ✅   | ✅         |
 | USDe                                   | USDE        | ✅      | ✅   | ✅         |
+| USDT0                                  | USDT0       | ✅      | ✅   | ✅         |
+| Monerium EUR e-money                   | EURE        | ✅      | ✅   | ✅         |
