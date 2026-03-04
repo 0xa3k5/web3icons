@@ -495,6 +495,47 @@ interface INetworkMetadata {
 3. Run `bun build:core` to re-optimize
 4. Incremental cache detects change and re-processes only that file
 
+### AI-Assisted Icon Addition (Claude Code Skill)
+
+A Claude Code slash command is available at `.claude/commands/add-icon.md` for AI-assisted icon addition:
+
+```bash
+/add-icon manta
+```
+
+This instructs the AI agent to:
+1. Identify the project (token, network, wallet, or exchange)
+2. Check if the icon already exists in metadata
+3. Search the web for the official logo (prioritizing SVG over PNG)
+4. Download and reformat to 24x24 web3icons SVG format
+5. Place files in the correct `raw-svgs/` directories
+6. Add metadata to the appropriate JSON file
+7. Validate the result
+
+#### PNG-to-SVG Tracing
+
+When only raster images (PNG/JPEG/WebP) are available, use the tracing utility:
+
+```bash
+# Trace to mono variant (white fill)
+bun trace-to-svg logo.png raw-svgs/tokens/mono/SYMBOL.svg --mono
+
+# Trace to branded variant with specific color
+bun trace-to-svg logo.png raw-svgs/tokens/branded/SYMBOL.svg --color "#FF6B00"
+
+# With custom threshold for better tracing quality
+bun trace-to-svg logo.png output.svg --mono --threshold 100 --turdsize 4
+```
+
+Options:
+- `--mono`: Generate monochrome SVG with `fill="white"`
+- `--threshold N`: Black/white cutoff (0-255, default: 128)
+- `--color HEX`: Fill color for paths (default: white for mono, black otherwise)
+- `--turnpolicy P`: Potrace turn policy (default: minority)
+- `--turdsize N`: Speckle suppression size (default: 2)
+
+Requires `potrace` (auto-installed via Homebrew if missing) and `sharp` (auto-installed via bun if missing).
+
 ### Troubleshooting
 
 **Icons not showing up after adding**:
