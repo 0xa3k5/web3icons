@@ -196,7 +196,18 @@ bun post-build
 
 This generates `docs/icons.md` and runs Prettier formatting on all files.
 
-## Step 10: Generate Visual Test
+## Step 10: Clean Up SVG Path Data
+
+Before committing, clean up the raw SVG path coordinates for consistency with the repo style:
+
+1. **Remove trailing zeros** after the decimal point: `14.4490` → `14.449`, `13.2840` → `13.284`
+2. **Simplify round numbers**: `20.0000` → `20`, `4.0000` → `4`
+3. **Round near-integers** that are artifacts of floating-point math: `19.9999` → `20`, `4.0001` → `4`
+4. **Keep meaningful precision**: 4 decimal places max is typical in the repo. Don't strip precision that distinguishes coordinates (e.g., `5.0517` and `5.0518` are different and should stay as-is).
+
+Apply these cleanups to all newly created SVG files in `raw-svgs/`. Do NOT modify existing icons.
+
+## Step 11: Generate Visual Test
 
 Create a `test-preview.html` file in the repo root that shows:
 1. The new icon in both mono and branded variants at multiple sizes (24px, 48px, 96px)
@@ -207,7 +218,7 @@ Create a `test-preview.html` file in the repo root that shows:
 
 Use dark backgrounds for mono variants and light backgrounds for branded. The grid overlay must correctly position the 24x24 icon zone within the 44x44 grid frame (icon zone starts at 22.727% from each edge, spanning 54.545% of the frame).
 
-## Step 11: Commit, Push, and Create PR
+## Step 12: Commit, Push, and Create PR
 
 1. Create a new git branch: `feat/add-{id}-icon`
 2. Stage all changed files:
@@ -227,7 +238,7 @@ Use dark backgrounds for mono variants and light backgrounds for branded. The gr
      - The metadata JSON entry in a code block
      - Checklist: dimensions validated, naming conventions followed, build passes
 
-## Step 12: Summary
+## Step 13: Summary
 
 Report to the user:
 - PR URL
