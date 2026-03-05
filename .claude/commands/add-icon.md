@@ -230,13 +230,45 @@ Use dark backgrounds for mono variants and light backgrounds for branded. The gr
 4. Push the branch to origin
 5. Create a pull request to the `main` branch with:
    - Title: `feat: add {Name} {type} icon`
-   - Body that includes:
-     - What project was added and its type
-     - Which logo source was used
-     - Whether SVG was native or traced from PNG
-     - A link to the `test-preview.html` file in the branch (for visual review)
-     - The metadata JSON entry in a code block
-     - Checklist: dimensions validated, naming conventions followed, build passes
+   - Body that includes inline icon previews and all details (see template below)
+
+### PR Body Template
+
+Use this template for the PR body. Replace placeholders with actual values. The `<img>` tags render the icons inline so reviewers can see them without clicking through.
+
+```markdown
+## {Name} ({type})
+
+**Source**: {logo source URL}
+**Format**: {Native SVG | Traced from PNG}
+
+### Preview
+
+| Variant | 24px | 96px |
+|---------|------|------|
+| Mono | <img src="https://raw.githubusercontent.com/{owner}/{repo}/{branch}/raw-svgs/{type}s/{variant_folder}/mono/{filename}.svg" width="24" height="24" style="background:#1a1a1a;border-radius:4px;padding:4px"> | <img src="https://raw.githubusercontent.com/{owner}/{repo}/{branch}/raw-svgs/{type}s/{variant_folder}/mono/{filename}.svg" width="96" height="96" style="background:#1a1a1a;border-radius:4px;padding:4px"> |
+| Branded | <img src="https://raw.githubusercontent.com/{owner}/{repo}/{branch}/raw-svgs/{type}s/{variant_folder}/branded/{filename}.svg" width="24" height="24" style="background:#f5f5f5;border-radius:4px;padding:4px"> | <img src="https://raw.githubusercontent.com/{owner}/{repo}/{branch}/raw-svgs/{type}s/{variant_folder}/branded/{filename}.svg" width="96" height="96" style="background:#f5f5f5;border-radius:4px;padding:4px"> |
+
+> For detailed sizing verification with grid overlay, see [`test-preview.html`](https://github.com/{owner}/{repo}/blob/{branch}/test-preview.html) (open raw file in browser).
+
+### Metadata
+
+\```json
+{metadata JSON entry}
+\```
+
+### Checklist
+
+- [x] SVG dimensions: 24x24 frame, icon max 16px largest side, centered
+- [x] Naming conventions followed
+- [x] Mono variant uses `fill="white"`
+- [x] Branded variant preserves brand colors
+- [x] Metadata inserted alphabetically
+- [x] Path data cleaned
+- [x] Build passes
+```
+
+**Important**: The `{owner}/{repo}` is the fork (e.g., `nomativ/web3icons`) and `{branch}` is the PR branch. GitHub renders `<img>` tags in PR markdown, so the icons will display inline for reviewers.
 
 ## Step 13: Summary
 
