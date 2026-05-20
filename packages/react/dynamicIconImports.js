@@ -631,6 +631,7 @@ const dynamicIconImports = {
   TokenCTK: () => import('./dist/icons/tokens/TokenCTK.js'),
   TokenCTR: () => import('./dist/icons/tokens/TokenCTR.js'),
   TokenCTSI: () => import('./dist/icons/tokens/TokenCTSI.js'),
+  TokenCTUSD: () => import('./dist/icons/tokens/TokenCTUSD.js'),
   TokenCTX: () => import('./dist/icons/tokens/TokenCTX.js'),
   TokenCTXC: () => import('./dist/icons/tokens/TokenCTXC.js'),
   TokenCUBE: () => import('./dist/icons/tokens/TokenCUBE.js'),

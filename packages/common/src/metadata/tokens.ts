@@ -21449,4 +21449,15 @@ export const tokens: ITokenMetadata[] = [
     },
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'CTUSD',
+    name: 'Citrea USD',
+    variants: ['branded', 'mono'],
+    filePath: 'token:CTUSD',
+    symbol: 'CTUSD',
+    marketCapRank: 0,
+    addresses: {
+      citrea: '0x8D82c4E3c936C7B5724A382a9c5a4E6Eb7aB6d5D',
+    },
+  },
 ]
