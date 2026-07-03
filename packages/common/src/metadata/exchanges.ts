@@ -65,6 +65,13 @@ export const exchanges: IExchangeMetadata[] = [
     variants: ['branded', 'mono', 'background'],
   },
   {
+    id: 'coinex',
+    filePath: 'exchange:coinex',
+    name: 'CoinEx',
+    type: 'cex',
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
     id: 'cowswap',
     filePath: 'exchange:cowswap',
     name: 'Cow Swap',

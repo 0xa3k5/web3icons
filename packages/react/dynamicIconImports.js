@@ -12,6 +12,7 @@ const dynamicIconImports = {
   ExchangeBtcturk: () => import('./dist/icons/exchanges/ExchangeBtcturk.js'),
   ExchangeBybit: () => import('./dist/icons/exchanges/ExchangeBybit.js'),
   ExchangeCoinbase: () => import('./dist/icons/exchanges/ExchangeCoinbase.js'),
+  ExchangeCoinex: () => import('./dist/icons/exchanges/ExchangeCoinex.js'),
   ExchangeCowswap: () => import('./dist/icons/exchanges/ExchangeCowswap.js'),
   ExchangeCryptoCom: () =>
     import('./dist/icons/exchanges/ExchangeCryptoCom.js'),
