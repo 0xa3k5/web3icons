@@ -1,5 +1,17 @@
 # @web3icons/core
 
+## 4.0.52
+
+### Patch Changes
+
+- 8bf0347: network: add `Robinhood` (background, branded, mono)
+  network: add `Fluent` (background, branded, mono)
+  exchange: add `CoinEx` (background, branded, mono)
+  exchange: add `Robinhood` (background, branded, mono)
+  token: add `GRAM` (background, branded, mono)
+- Updated dependencies [8bf0347]
+  - @web3icons/common@0.11.47
+
 ## 4.0.51
 
 ### Patch Changes
