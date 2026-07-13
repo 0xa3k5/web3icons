@@ -938,6 +938,7 @@ const dynamicIconImports = {
   TokenGRAI: () => import('./dist/icons/tokens/TokenGRAI.js'),
   TokenGRAIL: () => import('./dist/icons/tokens/TokenGRAIL.js'),
   TokenGRAIN: () => import('./dist/icons/tokens/TokenGRAIN.js'),
+  TokenGRAM: () => import('./dist/icons/tokens/TokenGRAM.js'),
   TokenGRAV: () => import('./dist/icons/tokens/TokenGRAV.js'),
   TokenGRC: () => import('./dist/icons/tokens/TokenGRC.js'),
   TokenGRG: () => import('./dist/icons/tokens/TokenGRG.js'),

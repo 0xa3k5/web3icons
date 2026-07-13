@@ -1777,6 +1777,9 @@ import * as TBackgroundGOZ from './svgs/tokens/background/GOZ.svg'
 import * as TBrandedGRAI from './svgs/tokens/branded/GRAI.svg'
 import * as TMonoGRAI from './svgs/tokens/mono/GRAI.svg'
 import * as TBackgroundGRAI from './svgs/tokens/background/GRAI.svg'
+import * as TBrandedGRAM from './svgs/tokens/branded/GRAM.svg'
+import * as TMonoGRAM from './svgs/tokens/mono/GRAM.svg'
+import * as TBackgroundGRAM from './svgs/tokens/background/GRAM.svg'
 import * as TBrandedGRAIN from './svgs/tokens/branded/GRAIN.svg'
 import * as TMonoGRAIN from './svgs/tokens/mono/GRAIN.svg'
 import * as TBackgroundGRAIN from './svgs/tokens/background/GRAIN.svg'
@@ -6730,6 +6733,7 @@ export const svgs = {
       govi: TBrandedGOVI,
       goz: TBrandedGOZ,
       grai: TBrandedGRAI,
+      gram: TBrandedGRAM,
       grain: TBrandedGRAIN,
       glq: TBrandedGLQ,
       grav: TBrandedGRAV,
@@ -8420,6 +8424,7 @@ export const svgs = {
       gzil: TMonoGZIL,
       govi: TMonoGOVI,
       grai: TMonoGRAI,
+      gram: TMonoGRAM,
       grain: TMonoGRAIN,
       glq: TMonoGLQ,
       grav: TMonoGRAV,
@@ -10082,6 +10087,7 @@ export const svgs = {
       govi: TBackgroundGOVI,
       goz: TBackgroundGOZ,
       grai: TBackgroundGRAI,
+      gram: TBackgroundGRAM,
       grain: TBackgroundGRAIN,
       glq: TBackgroundGLQ,
       grav: TBackgroundGRAV,
