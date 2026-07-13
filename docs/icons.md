@@ -2,7 +2,7 @@ jump to section:
 
 - [wallets (51)](#wallets)
 - [networks (242)](#networks)
-- [exchanges (28)](#exchanges)
+- [exchanges (29)](#exchanges)
 - [tokens (1843)](#tokens)
 
 ### Wallets
@@ -321,6 +321,7 @@ jump to section:
 | btcturk      | BTC Turk     | cex  | ✅      | ✅   | ✅         |
 | bybit        | Bybit        | cex  | ✅      | ✅   | ✅         |
 | coinbase     | Coinbase     | dex  | ✅      | ✅   | ✅         |
+| coinex       | CoinEx       | cex  | ✅      | ✅   | ✅         |
 | cowswap      | Cow Swap     | dex  | ✅      | ✅   | ✅         |
 | crypto-com   | Crypto.com   | cex  | ✅      | ✅   | ✅         |
 | gate-io      | Gate Io      | cex  | ✅      | ✅   | ✅         |

@@ -6043,6 +6043,9 @@ import * as EBackgroundBybit from './svgs/exchanges/background/bybit.svg'
 import * as EBrandedCoinbase from './svgs/exchanges/branded/coinbase.svg'
 import * as EMonoCoinbase from './svgs/exchanges/mono/coinbase.svg'
 import * as EBackgroundCoinbase from './svgs/exchanges/background/coinbase.svg'
+import * as EBrandedCoinex from './svgs/exchanges/branded/coinex.svg'
+import * as EMonoCoinex from './svgs/exchanges/mono/coinex.svg'
+import * as EBackgroundCoinex from './svgs/exchanges/background/coinex.svg'
 import * as EBrandedCowswap from './svgs/exchanges/branded/cowswap.svg'
 import * as EMonoCowswap from './svgs/exchanges/mono/cowswap.svg'
 import * as EBackgroundCowswap from './svgs/exchanges/background/cowswap.svg'
@@ -12154,6 +12157,7 @@ export const svgs = {
       btcturk: EBrandedBtcturk,
       bybit: EBrandedBybit,
       coinbase: EBrandedCoinbase,
+      coinex: EBrandedCoinex,
       cowswap: EBrandedCowswap,
       'crypto-com': EBrandedCryptoCom,
       'gate-io': EBrandedGateIo,
@@ -12184,6 +12188,7 @@ export const svgs = {
       btcturk: EMonoBtcturk,
       bybit: EMonoBybit,
       coinbase: EMonoCoinbase,
+      coinex: EMonoCoinex,
       cowswap: EMonoCowswap,
       'crypto-com': EMonoCryptoCom,
       'gate-io': EMonoGateIo,
@@ -12214,6 +12219,7 @@ export const svgs = {
       btcturk: EBackgroundBtcturk,
       bybit: EBackgroundBybit,
       coinbase: EBackgroundCoinbase,
+      coinex: EBackgroundCoinex,
       cowswap: EBackgroundCowswap,
       'crypto-com': EBackgroundCryptoCom,
       'gate-io': EBackgroundGateIo,
