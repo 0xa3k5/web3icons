@@ -7416,6 +7416,17 @@ export const tokens: ITokenMetadata[] = [
     variants: ['branded', 'mono', 'background'],
   },
   {
+    id: 'gram',
+    filePath: 'token:GRAM',
+    symbol: 'gram',
+    name: 'Gram',
+    marketCapRank: 12,
+    addresses: {
+      ton: 'EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c',
+    },
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
     id: 'granary',
     filePath: 'token:GRAIN',
     symbol: 'grain',

@@ -2,8 +2,8 @@ jump to section:
 
 - [wallets (51)](#wallets)
 - [networks (244)](#networks)
-- [exchanges (29)](#exchanges)
-- [tokens (1842)](#tokens)
+- [exchanges (30)](#exchanges)
+- [tokens (1843)](#tokens)
 
 ### Wallets
 
@@ -323,6 +323,7 @@ jump to section:
 | btcturk      | BTC Turk     | cex  | ✅      | ✅   | ✅         |
 | bybit        | Bybit        | cex  | ✅      | ✅   | ✅         |
 | coinbase     | Coinbase     | dex  | ✅      | ✅   | ✅         |
+| coinex       | CoinEx       | cex  | ✅      | ✅   | ✅         |
 | cowswap      | Cow Swap     | dex  | ✅      | ✅   | ✅         |
 | crypto-com   | Crypto.com   | cex  | ✅      | ✅   | ✅         |
 | gate-io      | Gate Io      | cex  | ✅      | ✅   | ✅         |
@@ -986,6 +987,7 @@ jump to section:
 | CVI                                    | govi        | ✅      | ✅   | ✅         |
 | Göztepe S.K. Fan Token                 | goz         | ✅      | ❌   | ✅         |
 | Grai                                   | grai        | ✅      | ✅   | ✅         |
+| Gram                                   | gram        | ✅      | ✅   | ✅         |
 | Granary                                | grain       | ✅      | ✅   | ✅         |
 | GraphLinq Protocol                     | glq         | ✅      | ✅   | ✅         |
 | Graviton                               | grav        | ✅      | ✅   | ✅         |

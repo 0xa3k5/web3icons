@@ -12,6 +12,7 @@ const dynamicIconImports = {
   ExchangeBtcturk: () => import('./dist/icons/exchanges/ExchangeBtcturk.js'),
   ExchangeBybit: () => import('./dist/icons/exchanges/ExchangeBybit.js'),
   ExchangeCoinbase: () => import('./dist/icons/exchanges/ExchangeCoinbase.js'),
+  ExchangeCoinex: () => import('./dist/icons/exchanges/ExchangeCoinex.js'),
   ExchangeCowswap: () => import('./dist/icons/exchanges/ExchangeCowswap.js'),
   ExchangeCryptoCom: () =>
     import('./dist/icons/exchanges/ExchangeCryptoCom.js'),
@@ -942,6 +943,7 @@ const dynamicIconImports = {
   TokenGRAI: () => import('./dist/icons/tokens/TokenGRAI.js'),
   TokenGRAIL: () => import('./dist/icons/tokens/TokenGRAIL.js'),
   TokenGRAIN: () => import('./dist/icons/tokens/TokenGRAIN.js'),
+  TokenGRAM: () => import('./dist/icons/tokens/TokenGRAM.js'),
   TokenGRAV: () => import('./dist/icons/tokens/TokenGRAV.js'),
   TokenGRC: () => import('./dist/icons/tokens/TokenGRC.js'),
   TokenGRG: () => import('./dist/icons/tokens/TokenGRG.js'),

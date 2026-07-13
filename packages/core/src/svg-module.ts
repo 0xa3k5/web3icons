@@ -1777,6 +1777,9 @@ import * as TBackgroundGOZ from './svgs/tokens/background/GOZ.svg'
 import * as TBrandedGRAI from './svgs/tokens/branded/GRAI.svg'
 import * as TMonoGRAI from './svgs/tokens/mono/GRAI.svg'
 import * as TBackgroundGRAI from './svgs/tokens/background/GRAI.svg'
+import * as TBrandedGRAM from './svgs/tokens/branded/GRAM.svg'
+import * as TMonoGRAM from './svgs/tokens/mono/GRAM.svg'
+import * as TBackgroundGRAM from './svgs/tokens/background/GRAM.svg'
 import * as TBrandedGRAIN from './svgs/tokens/branded/GRAIN.svg'
 import * as TMonoGRAIN from './svgs/tokens/mono/GRAIN.svg'
 import * as TBackgroundGRAIN from './svgs/tokens/background/GRAIN.svg'
@@ -6046,6 +6049,9 @@ import * as EBackgroundBybit from './svgs/exchanges/background/bybit.svg'
 import * as EBrandedCoinbase from './svgs/exchanges/branded/coinbase.svg'
 import * as EMonoCoinbase from './svgs/exchanges/mono/coinbase.svg'
 import * as EBackgroundCoinbase from './svgs/exchanges/background/coinbase.svg'
+import * as EBrandedCoinex from './svgs/exchanges/branded/coinex.svg'
+import * as EMonoCoinex from './svgs/exchanges/mono/coinex.svg'
+import * as EBackgroundCoinex from './svgs/exchanges/background/coinex.svg'
 import * as EBrandedCowswap from './svgs/exchanges/branded/cowswap.svg'
 import * as EMonoCowswap from './svgs/exchanges/mono/cowswap.svg'
 import * as EBackgroundCowswap from './svgs/exchanges/background/cowswap.svg'
@@ -6739,6 +6745,7 @@ export const svgs = {
       govi: TBrandedGOVI,
       goz: TBrandedGOZ,
       grai: TBrandedGRAI,
+      gram: TBrandedGRAM,
       grain: TBrandedGRAIN,
       glq: TBrandedGLQ,
       grav: TBrandedGRAV,
@@ -8429,6 +8436,7 @@ export const svgs = {
       gzil: TMonoGZIL,
       govi: TMonoGOVI,
       grai: TMonoGRAI,
+      gram: TMonoGRAM,
       grain: TMonoGRAIN,
       glq: TMonoGLQ,
       grav: TMonoGRAV,
@@ -10091,6 +10099,7 @@ export const svgs = {
       govi: TBackgroundGOVI,
       goz: TBackgroundGOZ,
       grai: TBackgroundGRAI,
+      gram: TBackgroundGRAM,
       grain: TBackgroundGRAIN,
       glq: TBackgroundGLQ,
       grav: TBackgroundGRAV,
@@ -12163,6 +12172,7 @@ export const svgs = {
       btcturk: EBrandedBtcturk,
       bybit: EBrandedBybit,
       coinbase: EBrandedCoinbase,
+      coinex: EBrandedCoinex,
       cowswap: EBrandedCowswap,
       'crypto-com': EBrandedCryptoCom,
       'gate-io': EBrandedGateIo,
@@ -12194,6 +12204,7 @@ export const svgs = {
       btcturk: EMonoBtcturk,
       bybit: EMonoBybit,
       coinbase: EMonoCoinbase,
+      coinex: EMonoCoinex,
       cowswap: EMonoCowswap,
       'crypto-com': EMonoCryptoCom,
       'gate-io': EMonoGateIo,
@@ -12225,6 +12236,7 @@ export const svgs = {
       btcturk: EBackgroundBtcturk,
       bybit: EBackgroundBybit,
       coinbase: EBackgroundCoinbase,
+      coinex: EBackgroundCoinex,
       cowswap: EBackgroundCowswap,
       'crypto-com': EBackgroundCryptoCom,
       'gate-io': EBackgroundGateIo,
