@@ -1,5 +1,14 @@
 # @web3icons/core
 
+## 4.0.53
+
+### Patch Changes
+
+- 431ce03: remove `typescript` from peerDependencies — it blocked installs for TypeScript 6 users and force-installed TypeScript for JS-only consumers (fixes #195)
+- 431ce03: emit `.d.ts` declarations for deep SVG imports (e.g. `@web3icons/core/svgs/tokens/branded/BTC.svg.js`), add missing `./svgs/exchanges/*` to package exports, and point the `types` field at the actual `dist/index.d.ts` (fixes #194)
+- Updated dependencies [431ce03]
+  - @web3icons/common@0.11.48
+
 ## 4.0.52
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # @web3icons/react
 
+## 4.1.19
+
+### Patch Changes
+
+- Updated dependencies [431ce03]
+  - @web3icons/common@0.11.48
+
 ## 4.1.18
 
 ### Patch Changes

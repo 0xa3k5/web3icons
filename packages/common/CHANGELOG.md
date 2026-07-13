@@ -1,5 +1,11 @@
 # @web3icons/common
 
+## 0.11.48
+
+### Patch Changes
+
+- 431ce03: remove `typescript` from peerDependencies — it blocked installs for TypeScript 6 users and force-installed TypeScript for JS-only consumers (fixes #195)
+
 ## 0.11.47
 
 ### Patch Changes
