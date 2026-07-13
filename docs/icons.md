@@ -3,7 +3,7 @@ jump to section:
 - [wallets (51)](#wallets)
 - [networks (242)](#networks)
 - [exchanges (29)](#exchanges)
-- [tokens (1842)](#tokens)
+- [tokens (1843)](#tokens)
 
 ### Wallets
 
@@ -984,6 +984,7 @@ jump to section:
 | CVI                                    | govi        | ✅      | ✅   | ✅         |
 | Göztepe S.K. Fan Token                 | goz         | ✅      | ❌   | ✅         |
 | Grai                                   | grai        | ✅      | ✅   | ✅         |
+| Gram                                   | gram        | ✅      | ✅   | ✅         |
 | Granary                                | grain       | ✅      | ✅   | ✅         |
 | GraphLinq Protocol                     | glq         | ✅      | ✅   | ✅         |
 | Graviton                               | grav        | ✅      | ✅   | ✅         |
