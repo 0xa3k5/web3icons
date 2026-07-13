@@ -1,8 +1,8 @@
 jump to section:
 
 - [wallets (51)](#wallets)
-- [networks (242)](#networks)
-- [exchanges (28)](#exchanges)
+- [networks (244)](#networks)
+- [exchanges (29)](#exchanges)
 - [tokens (1842)](#tokens)
 
 ### Wallets
@@ -307,6 +307,8 @@ jump to section:
 | pulsechain                  | Pulsechain                      | ✅      | ✅   | ✅         |
 | monad-testnet               | Monad Testnet                   | ✅      | ✅   | ✅         |
 | citrea                      | Citrea                          | ✅      | ✅   | ✅         |
+| fluent                      | Fluent                          | ✅      | ✅   | ✅         |
+| robinhood                   | Robinhood                       | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -340,6 +342,7 @@ jump to section:
 | paradex      | Paradex      | dex  | ✅      | ✅   | ✅         |
 | bitget       | Bitget       | cex  | ✅      | ✅   | ✅         |
 | hyperliquid  | Hyperliquid  | dex  | ✅      | ✅   | ✅         |
+| robinhood    | Robinhood    | cex  | ✅      | ✅   | ✅         |
 
 ### Tokens
 

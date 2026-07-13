@@ -5865,6 +5865,12 @@ import * as NBackgroundMonadTestnet from './svgs/networks/background/monad.svg'
 import * as NBrandedCitrea from './svgs/networks/branded/citrea.svg'
 import * as NMonoCitrea from './svgs/networks/mono/citrea.svg'
 import * as NBackgroundCitrea from './svgs/networks/background/citrea.svg'
+import * as NBrandedFluent from './svgs/networks/branded/fluent.svg'
+import * as NMonoFluent from './svgs/networks/mono/fluent.svg'
+import * as NBackgroundFluent from './svgs/networks/background/fluent.svg'
+import * as NBrandedRobinhood from './svgs/networks/branded/robinhood.svg'
+import * as NMonoRobinhood from './svgs/networks/mono/robinhood.svg'
+import * as NBackgroundRobinhood from './svgs/networks/background/robinhood.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -6097,6 +6103,9 @@ import * as EBackgroundBitget from './svgs/exchanges/background/bitget.svg'
 import * as EBrandedHyperliquid from './svgs/networks/branded/hyper-evm.svg'
 import * as EMonoHyperliquid from './svgs/networks/mono/hyper-evm.svg'
 import * as EBackgroundHyperliquid from './svgs/networks/background/hyper-evm.svg'
+import * as EBrandedRobinhood from './svgs/networks/branded/robinhood.svg'
+import * as EMonoRobinhood from './svgs/networks/mono/robinhood.svg'
+import * as EBackgroundRobinhood from './svgs/networks/background/robinhood.svg'
 
 export const svgs = {
   tokens: {
@@ -11496,6 +11505,8 @@ export const svgs = {
       pulsechain: NBrandedPulsechain,
       'monad-testnet': NBrandedMonadTestnet,
       citrea: NBrandedCitrea,
+      fluent: NBrandedFluent,
+      robinhood: NBrandedRobinhood,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11735,6 +11746,8 @@ export const svgs = {
       pulsechain: NMonoPulsechain,
       'monad-testnet': NMonoMonadTestnet,
       citrea: NMonoCitrea,
+      fluent: NMonoFluent,
+      robinhood: NMonoRobinhood,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -11979,6 +11992,8 @@ export const svgs = {
       pulsechain: NBackgroundPulsechain,
       'monad-testnet': NBackgroundMonadTestnet,
       citrea: NBackgroundCitrea,
+      fluent: NBackgroundFluent,
+      robinhood: NBackgroundRobinhood,
     },
   },
   wallets: {
@@ -12167,6 +12182,7 @@ export const svgs = {
       paradex: EBrandedParadex,
       bitget: EBrandedBitget,
       hyperliquid: EBrandedHyperliquid,
+      robinhood: EBrandedRobinhood,
     },
     mono: {
       '1inch': EMono1inch,
@@ -12197,6 +12213,7 @@ export const svgs = {
       paradex: EMonoParadex,
       bitget: EMonoBitget,
       hyperliquid: EMonoHyperliquid,
+      robinhood: EMonoRobinhood,
     },
     background: {
       '1inch': EBackground1inch,
@@ -12227,6 +12244,7 @@ export const svgs = {
       paradex: EBackgroundParadex,
       bitget: EBackgroundBitget,
       hyperliquid: EBackgroundHyperliquid,
+      robinhood: EBackgroundRobinhood,
     },
   },
 }

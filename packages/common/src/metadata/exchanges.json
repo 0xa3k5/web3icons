@@ -194,5 +194,12 @@
     "name": "Hyperliquid",
     "type": "dex",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "robinhood",
+    "filePath": "network:robinhood",
+    "name": "Robinhood",
+    "type": "cex",
+    "variants": ["background", "branded", "mono"]
   }
 ]

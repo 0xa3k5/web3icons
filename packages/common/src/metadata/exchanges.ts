@@ -197,4 +197,11 @@ export const exchanges: IExchangeMetadata[] = [
     type: 'dex',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'robinhood',
+    name: 'Robinhood',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'network:robinhood',
+    type: 'cex',
+  },
 ]

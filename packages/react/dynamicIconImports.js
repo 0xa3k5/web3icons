@@ -28,6 +28,8 @@ const dynamicIconImports = {
   ExchangeParadex: () => import('./dist/icons/exchanges/ExchangeParadex.js'),
   ExchangeParaSwap: () => import('./dist/icons/exchanges/ExchangeParaSwap.js'),
   ExchangeParibu: () => import('./dist/icons/exchanges/ExchangeParibu.js'),
+  ExchangeRobinhood: () =>
+    import('./dist/icons/exchanges/ExchangeRobinhood.js'),
   ExchangeSushiswap: () =>
     import('./dist/icons/exchanges/ExchangeSushiswap.js'),
   ExchangeSwissborg: () =>
@@ -126,6 +128,7 @@ const dynamicIconImports = {
   NetworkFlowTestnet: () =>
     import('./dist/icons/networks/NetworkFlowTestnet.js'),
   NetworkFluence: () => import('./dist/icons/networks/NetworkFluence.js'),
+  NetworkFluent: () => import('./dist/icons/networks/NetworkFluent.js'),
   NetworkFraxtal: () => import('./dist/icons/networks/NetworkFraxtal.js'),
   NetworkFuel: () => import('./dist/icons/networks/NetworkFuel.js'),
   NetworkFuse: () => import('./dist/icons/networks/NetworkFuse.js'),
@@ -248,6 +251,7 @@ const dynamicIconImports = {
   NetworkRari: () => import('./dist/icons/networks/NetworkRari.js'),
   NetworkRei: () => import('./dist/icons/networks/NetworkRei.js'),
   NetworkReya: () => import('./dist/icons/networks/NetworkReya.js'),
+  NetworkRobinhood: () => import('./dist/icons/networks/NetworkRobinhood.js'),
   NetworkRollux: () => import('./dist/icons/networks/NetworkRollux.js'),
   NetworkRonin: () => import('./dist/icons/networks/NetworkRonin.js'),
   NetworkRootstock: () => import('./dist/icons/networks/NetworkRootstock.js'),

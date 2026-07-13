@@ -2334,5 +2334,25 @@
     "shortName": "Citrea",
     "nativeCoinId": "CBTC",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "fluent",
+    "filePath": "network:fluent",
+    "chainId": 25363,
+    "caip2id": "eip155:25363",
+    "name": "Fluent",
+    "shortName": "Fluent",
+    "nativeCoinId": "ETH",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "robinhood",
+    "filePath": "network:robinhood",
+    "chainId": 46630,
+    "caip2id": "eip155:46630",
+    "name": "Robinhood",
+    "shortName": "Robinhood",
+    "nativeCoinId": "ETH",
+    "variants": ["background", "branded", "mono"]
   }
 ]
