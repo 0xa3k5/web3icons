@@ -18,7 +18,7 @@
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "types": "dist/types/index.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/**/*"
   ],
@@ -29,7 +29,8 @@
     },
     "./svgs/tokens/*": "./dist/svgs/tokens/*",
     "./svgs/networks/*": "./dist/svgs/networks/*",
-    "./svgs/wallets/*": "./dist/svgs/wallets/*"
+    "./svgs/wallets/*": "./dist/svgs/wallets/*",
+    "./svgs/exchanges/*": "./dist/svgs/exchanges/*"
   },
   "sideEffects": false,
   "repository": {
@@ -41,10 +42,11 @@
     "access": "public"
   },
   "scripts": {
-    "build": "bun run pre-build && rollup -c && bun format",
+    "build": "bun run clean && bun run pre-build && rollup -c && bun format",
     "pre-build": "cd ../../scripts/build-scripts/core && bun core.pre-build.ts",
     "lint": "eslint ./src --ext .ts",
-    "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error"
+    "format": "prettier --write \"**/*.{ts,js,md,json}\" --log-level error",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@web3icons/common": "0.11.47"
@@ -54,8 +56,5 @@
     "cheerio": "^1.0.0-rc.12",
     "svgo": "^3.2.0",
     "rollup-plugin-string": "^3.0.0"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
   }
 }
