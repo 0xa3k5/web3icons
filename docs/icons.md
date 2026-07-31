@@ -3,7 +3,7 @@ jump to section:
 - [wallets (51)](#wallets)
 - [networks (244)](#networks)
 - [exchanges (30)](#exchanges)
-- [tokens (1843)](#tokens)
+- [tokens (1844)](#tokens)
 
 ### Wallets
 
@@ -2018,6 +2018,7 @@ jump to section:
 | USDX                                   | usdx        | ✅      | ✅   | ✅         |
 | Utility Web3Shot                       | uw3s        | ✅      | ✅   | ✅         |
 | xMoney                                 | utk         | ✅      | ✅   | ✅         |
+| Utya                                   | utya        | ✅      | ✅   | ✅         |
 | UwU Lend                               | uwu         | ✅      | ❌   | ✅         |
 | V.SYSTEMS                              | vsys        | ✅      | ✅   | ✅         |
 | Vabble                                 | vab         | ✅      | ✅   | ✅         |

@@ -4652,6 +4652,9 @@ import * as TBackgroundUW3S from './svgs/tokens/background/UW3S.svg'
 import * as TBrandedUTK from './svgs/tokens/branded/UTK.svg'
 import * as TMonoUTK from './svgs/tokens/mono/UTK.svg'
 import * as TBackgroundUTK from './svgs/tokens/background/UTK.svg'
+import * as TBrandedUTYA from './svgs/tokens/branded/UTYA.svg'
+import * as TMonoUTYA from './svgs/tokens/mono/UTYA.svg'
+import * as TBackgroundUTYA from './svgs/tokens/background/UTYA.svg'
 import * as TBrandedUWU from './svgs/tokens/branded/UWU.svg'
 import * as TBackgroundUWU from './svgs/tokens/background/UWU.svg'
 import * as TBrandedVSYS from './svgs/tokens/branded/VSYS.svg'
@@ -7745,6 +7748,7 @@ export const svgs = {
       usdx: TBrandedUSDX,
       uw3s: TBrandedUW3S,
       utk: TBrandedUTK,
+      utya: TBrandedUTYA,
       uwu: TBrandedUWU,
       vsys: TBrandedVSYS,
       vab: TBrandedVAB,
@@ -9311,6 +9315,7 @@ export const svgs = {
       usdx: TMonoUSDX,
       uw3s: TMonoUW3S,
       utk: TMonoUTK,
+      utya: TMonoUTYA,
       vsys: TMonoVSYS,
       vab: TMonoVAB,
       vai: TMonoVAI,
@@ -11099,6 +11104,7 @@ export const svgs = {
       usdx: TBackgroundUSDX,
       uw3s: TBackgroundUW3S,
       utk: TBackgroundUTK,
+      utya: TBackgroundUTYA,
       uwu: TBackgroundUWU,
       vsys: TBackgroundVSYS,
       vab: TBackgroundVAB,

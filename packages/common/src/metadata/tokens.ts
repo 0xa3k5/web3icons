@@ -19426,6 +19426,17 @@ export const tokens: ITokenMetadata[] = [
     variants: ['branded', 'mono', 'background'],
   },
   {
+    id: 'utya',
+    filePath: 'token:UTYA',
+    symbol: 'utya',
+    name: 'Utya',
+    marketCapRank: 488,
+    addresses: {
+      ton: 'EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA',
+    },
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
     id: 'uwu-lend',
     filePath: 'token:UWU',
     symbol: 'uwu',
