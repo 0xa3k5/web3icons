@@ -1924,7 +1924,7 @@ jump to section:
 | TerraClassicUSD                        | ustc        | ✅      | ❌   | ✅         |
 | Tether                                 | usdt        | ✅      | ✅   | ✅         |
 | Euro Tether                            | eurt        | ✅      | ✅   | ✅         |
-| Tether Gold                            | xaut        | ✅      | ❌   | ✅         |
+| Tether Gold                            | xaut        | ✅      | ✅   | ✅         |
 | TETU                                   | tetu        | ✅      | ✅   | ✅         |
 | Tezos                                  | xtz         | ✅      | ✅   | ✅         |
 | tGOLD                                  | txau        | ✅      | ✅   | ✅         |

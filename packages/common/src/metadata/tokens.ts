@@ -18302,7 +18302,7 @@ export const tokens: ITokenMetadata[] = [
     addresses: {
       ethereum: '0x68749665ff8d2d112fa859aa293f07a622782f38',
     },
-    variants: ['branded', 'background'],
+    variants: ['branded', 'mono', 'background'],
   },
   {
     id: 'tetu',

@@ -4378,6 +4378,7 @@ import * as TBrandedEURT from './svgs/tokens/branded/EURT.svg'
 import * as TMonoEURT from './svgs/tokens/mono/EURT.svg'
 import * as TBackgroundEURT from './svgs/tokens/background/EURT.svg'
 import * as TBrandedXAUT from './svgs/tokens/branded/XAUT.svg'
+import * as TMonoXAUT from './svgs/tokens/mono/XAUT.svg'
 import * as TBackgroundXAUT from './svgs/tokens/background/XAUT.svg'
 import * as TBrandedTETU from './svgs/tokens/branded/TETU.svg'
 import * as TMonoTETU from './svgs/tokens/mono/TETU.svg'
@@ -9228,6 +9229,7 @@ export const svgs = {
       trc: TMonoTRC,
       usdt: TMonoUSDT,
       eurt: TMonoEURT,
+      xaut: TMonoXAUT,
       tetu: TMonoTETU,
       xtz: TMonoXTZ,
       txau: TMonoTXAU,
