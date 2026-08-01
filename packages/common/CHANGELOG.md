@@ -1,5 +1,12 @@
 # @web3icons/common
 
+## 0.11.49
+
+### Patch Changes
+
+- 72f3d92: token: Utya (`mono`, `branded`, `background`)
+- 72f3d92: token: Tether Gold (`mono`)
+
 ## 0.11.48
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @web3icons/react
 
+## 4.1.20
+
+### Patch Changes
+
+- 72f3d92: token: Utya (`mono`, `branded`, `background`)
+- 72f3d92: token: Tether Gold (`mono`)
+- Updated dependencies [72f3d92]
+- Updated dependencies [72f3d92]
+  - @web3icons/common@0.11.49
+
 ## 4.1.19
 
 ### Patch Changes
