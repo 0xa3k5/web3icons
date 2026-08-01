@@ -18302,7 +18302,7 @@ export const tokens: ITokenMetadata[] = [
     addresses: {
       ethereum: '0x68749665ff8d2d112fa859aa293f07a622782f38',
     },
-    variants: ['branded', 'background'],
+    variants: ['branded', 'mono', 'background'],
   },
   {
     id: 'tetu',
@@ -19422,6 +19422,17 @@ export const tokens: ITokenMetadata[] = [
     addresses: {
       ethereum: '0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c',
       elrond: 'UTK-2f80e9',
+    },
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
+    id: 'utya',
+    filePath: 'token:UTYA',
+    symbol: 'utya',
+    name: 'Utya',
+    marketCapRank: 488,
+    addresses: {
+      ton: 'EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA',
     },
     variants: ['branded', 'mono', 'background'],
   },

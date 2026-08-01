@@ -1982,6 +1982,7 @@ const dynamicIconImports = {
   TokenUSN: () => import('./dist/icons/tokens/TokenUSN.js'),
   TokenUSTC: () => import('./dist/icons/tokens/TokenUSTC.js'),
   TokenUTK: () => import('./dist/icons/tokens/TokenUTK.js'),
+  TokenUTYA: () => import('./dist/icons/tokens/TokenUTYA.js'),
   TokenUW3S: () => import('./dist/icons/tokens/TokenUW3S.js'),
   TokenUWU: () => import('./dist/icons/tokens/TokenUWU.js'),
   TokenVAB: () => import('./dist/icons/tokens/TokenVAB.js'),
