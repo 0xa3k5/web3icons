@@ -2354,5 +2354,31 @@
     "shortName": "Robinhood",
     "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "adi-chain",
+    "filePath": "token:ADI",
+    "chainId": 36900,
+    "caip2id": "eip155:36900",
+    "name": "ADI Chain",
+    "shortName": "adi",
+    "nativeCoinId": "adi-token",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "aleo",
+    "filePath": "token:ALEO",
+    "name": "Aleo",
+    "shortName": "aleo",
+    "nativeCoinId": "aleo",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "fogo",
+    "filePath": "token:FOGO",
+    "name": "Fogo",
+    "shortName": "fogo",
+    "nativeCoinId": "fogo",
+    "variants": ["branded", "mono", "background"]
   }
 ]
