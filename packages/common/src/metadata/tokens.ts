@@ -11664,10 +11664,10 @@ export const tokens: ITokenMetadata[] = [
     variants: ['branded', 'mono', 'background'],
   },
   {
-    id: 'monerium-eur-money-2',
+    id: 'monerium-eur',
     filePath: 'token:EURE',
     symbol: 'eure',
-    name: 'Monerium EUR emoney',
+    name: 'Monerium EUR',
     marketCapRank: 588,
     addresses: {
       ethereum: '0x39b8b6385416f4ca36a20319f70d28621895279d',

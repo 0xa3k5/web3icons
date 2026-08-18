@@ -1356,7 +1356,7 @@ jump to section:
 | MOE                                    | moe         | ✅      | ❌   | ✅         |
 | Mog Coin                               | mog         | ✅      | ❌   | ✅         |
 | Monavale                               | mona        | ✅      | ✅   | ✅         |
-| Monerium EUR emoney                    | eure        | ✅      | ✅   | ✅         |
+| Monerium EUR                           | eure        | ✅      | ✅   | ✅         |
 | Monero                                 | xmr         | ✅      | ✅   | ✅         |
 | Monetha                                | mth         | ✅      | ✅   | ✅         |
 | r/CryptoCurrency Moons                 | moon        | ✅      | ❌   | ✅         |

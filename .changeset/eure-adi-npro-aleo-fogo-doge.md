@@ -4,7 +4,7 @@
 '@web3icons/core': patch
 ---
 
-token: Monerium EUR emoney (`mono`, `branded`, `background`)
+token: Monerium EUR (`mono`, `branded`, `background`)
 token: ADI (`mono`, `branded`, `background`)
 token: ALEO (`mono`, `branded`, `background`)
 token: Fogo (`mono`, `branded`, `background`)
