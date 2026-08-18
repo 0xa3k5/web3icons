@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
+    <g clip-path="url(#ALEO__a)">
+        <path fill="#111" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M13.977 4h-3.685l-3.198 9.354H9.04l2.591-7.631h.938l2.59 7.631H9.042l-.602 1.723h7.303L17.416 20h2.01zM4.821 20h1.943l1.675-4.923H6.504zm.342-6.646-.59 1.723h1.931l.59-1.723z"/>
+    </g>
+    <defs>
+        <clipPath id="ALEO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

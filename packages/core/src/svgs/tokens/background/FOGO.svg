@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
+    <g clip-path="url(#FOGO__a)">
+        <path fill="#FF3D00" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16m2.653-12.733h-3.298l-.473 1.895H9.459l-.598 2.403a.507.507 0 0 0 .488.628h1.205l-1.13 4.54 3.843-4.066a.506.506 0 0 0-.365-.853h-1.838l.566-2.274h3.102l.41-1.645a.51.51 0 0 0-.092-.433.51.51 0 0 0-.396-.195" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="FOGO__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (51)](#wallets)
-- [networks (244)](#networks)
+- [networks (247)](#networks)
 - [exchanges (30)](#exchanges)
-- [tokens (1844)](#tokens)
+- [tokens (1849)](#tokens)
 
 ### Wallets
 
@@ -309,6 +309,9 @@ jump to section:
 | citrea                      | Citrea                          | ✅      | ✅   | ✅         |
 | fluent                      | Fluent                          | ✅      | ✅   | ✅         |
 | robinhood                   | Robinhood                       | ✅      | ✅   | ✅         |
+| adi-chain                   | ADI Chain                       | ✅      | ✅   | ✅         |
+| aleo                        | Aleo                            | ✅      | ✅   | ✅         |
+| fogo                        | Fogo                            | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -364,6 +367,7 @@ jump to section:
 | Acria.AI                               | acria       | ✅      | ✅   | ✅         |
 | Across Protocol                        | acx         | ✅      | ✅   | ✅         |
 | ADAPad                                 | adapad      | ✅      | ✅   | ✅         |
+| ADI                                    | adi         | ✅      | ✅   | ✅         |
 | aelf                                   | elf         | ✅      | ✅   | ✅         |
 | Affyn                                  | fyn         | ✅      | ✅   | ✅         |
 | Agoras: Currency of Tau                | agrs        | ✅      | ✅   | ✅         |
@@ -384,6 +388,7 @@ jump to section:
 | Alchemix                               | alcx        | ✅      | ✅   | ✅         |
 | Alchemy Pay                            | ach         | ✅      | ✅   | ✅         |
 | Aldrin                                 | rin         | ✅      | ✅   | ✅         |
+| ALEO                                   | aleo        | ✅      | ✅   | ✅         |
 | Aleph.im                               | aleph       | ✅      | ✅   | ✅         |
 | Aleph Zero                             | azero       | ✅      | ✅   | ✅         |
 | Alephium                               | alph        | ✅      | ✅   | ✅         |
@@ -774,7 +779,7 @@ jump to section:
 | Doge Eat Doge                          | omnom       | ✅      | ❌   | ✅         |
 | DogeBonk                               | dobo        | ✅      | ❌   | ✅         |
 | Dogechain                              | dc          | ✅      | ✅   | ✅         |
-| Dogecoin                               | doge        | ✅      | ❌   | ✅         |
+| Dogecoin                               | doge        | ✅      | ✅   | ✅         |
 | DogeGF                                 | dogegf      | ✅      | ❌   | ✅         |
 | Dogelon Mars                           | elon        | ✅      | ❌   | ✅         |
 | DOLA Borrowing Right                   | dbr         | ✅      | ✅   | ✅         |
@@ -904,6 +909,7 @@ jump to section:
 | Fluid                                  | fluid       | ✅      | ✅   | ✅         |
 | SEDA Protocol                          | flx         | ✅      | ✅   | ✅         |
 | FOAM                                   | foam        | ✅      | ❌   | ✅         |
+| Fogo                                   | fogo        | ✅      | ✅   | ✅         |
 | Foom                                   | foom        | ✅      | ❌   | ✅         |
 | ForTube                                | for         | ✅      | ✅   | ✅         |
 | FORE Protocol                          | fore        | ✅      | ✅   | ✅         |
@@ -1350,6 +1356,7 @@ jump to section:
 | MOE                                    | moe         | ✅      | ❌   | ✅         |
 | Mog Coin                               | mog         | ✅      | ❌   | ✅         |
 | Monavale                               | mona        | ✅      | ✅   | ✅         |
+| Monerium EUR                           | eure        | ✅      | ✅   | ✅         |
 | Monero                                 | xmr         | ✅      | ✅   | ✅         |
 | Monetha                                | mth         | ✅      | ✅   | ✅         |
 | r/CryptoCurrency Moons                 | moon        | ✅      | ❌   | ✅         |
@@ -1422,6 +1429,7 @@ jump to section:
 | Nord Finance                           | nord        | ✅      | ✅   | ✅         |
 | Nosana                                 | nos         | ✅      | ✅   | ✅         |
 | Not Financial Advice                   | nfai        | ✅      | ✅   | ✅         |
+| NPRO                                   | npro        | ✅      | ✅   | ✅         |
 | Nucleon xCFX                           | xcfx        | ✅      | ✅   | ✅         |
 | nuco.cloud                             | ncdt        | ✅      | ✅   | ✅         |
 | NULS                                   | nuls        | ✅      | ✅   | ✅         |

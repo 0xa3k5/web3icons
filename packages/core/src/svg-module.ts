@@ -40,6 +40,9 @@ import * as TBackgroundACX from './svgs/tokens/background/ACX.svg'
 import * as TBrandedADAPAD from './svgs/tokens/branded/ADAPAD.svg'
 import * as TMonoADAPAD from './svgs/tokens/mono/ADAPAD.svg'
 import * as TBackgroundADAPAD from './svgs/tokens/background/ADAPAD.svg'
+import * as TBrandedADI from './svgs/tokens/branded/ADI.svg'
+import * as TMonoADI from './svgs/tokens/mono/ADI.svg'
+import * as TBackgroundADI from './svgs/tokens/background/ADI.svg'
 import * as TBrandedELF from './svgs/tokens/branded/ELF.svg'
 import * as TMonoELF from './svgs/tokens/mono/ELF.svg'
 import * as TBackgroundELF from './svgs/tokens/background/ELF.svg'
@@ -99,6 +102,9 @@ import * as TBackgroundACH from './svgs/tokens/background/ACH.svg'
 import * as TBrandedRIN from './svgs/tokens/branded/RIN.svg'
 import * as TMonoRIN from './svgs/tokens/mono/RIN.svg'
 import * as TBackgroundRIN from './svgs/tokens/background/RIN.svg'
+import * as TBrandedALEO from './svgs/tokens/branded/ALEO.svg'
+import * as TMonoALEO from './svgs/tokens/mono/ALEO.svg'
+import * as TBackgroundALEO from './svgs/tokens/background/ALEO.svg'
 import * as TBrandedALEPH from './svgs/tokens/branded/ALEPH.svg'
 import * as TMonoALEPH from './svgs/tokens/mono/ALEPH.svg'
 import * as TBackgroundALEPH from './svgs/tokens/background/ALEPH.svg'
@@ -1190,6 +1196,7 @@ import * as TBrandedDC from './svgs/tokens/branded/DC.svg'
 import * as TMonoDC from './svgs/tokens/mono/DC.svg'
 import * as TBackgroundDC from './svgs/tokens/background/DC.svg'
 import * as TBrandedDOGE from './svgs/tokens/branded/DOGE.svg'
+import * as TMonoDOGE from './svgs/tokens/mono/DOGE.svg'
 import * as TBackgroundDOGE from './svgs/tokens/background/DOGE.svg'
 import * as TBrandedDOGEGF from './svgs/tokens/branded/DOGEGF.svg'
 import * as TBackgroundDOGEGF from './svgs/tokens/background/DOGEGF.svg'
@@ -1552,6 +1559,9 @@ import * as TMonoFLX from './svgs/tokens/mono/FLX.svg'
 import * as TBackgroundFLX from './svgs/tokens/background/FLX.svg'
 import * as TBrandedFOAM from './svgs/tokens/branded/FOAM.svg'
 import * as TBackgroundFOAM from './svgs/tokens/background/FOAM.svg'
+import * as TBrandedFOGO from './svgs/tokens/branded/FOGO.svg'
+import * as TMonoFOGO from './svgs/tokens/mono/FOGO.svg'
+import * as TBackgroundFOGO from './svgs/tokens/background/FOGO.svg'
 import * as TBrandedFOOM from './svgs/tokens/branded/FOOM.svg'
 import * as TBackgroundFOOM from './svgs/tokens/background/FOOM.svg'
 import * as TBrandedFOR from './svgs/tokens/branded/FOR.svg'
@@ -2780,6 +2790,9 @@ import * as TBackgroundMOG from './svgs/tokens/background/MOG.svg'
 import * as TBrandedMONA from './svgs/tokens/branded/MONA.svg'
 import * as TMonoMONA from './svgs/tokens/mono/MONA.svg'
 import * as TBackgroundMONA from './svgs/tokens/background/MONA.svg'
+import * as TBrandedEURE from './svgs/tokens/branded/EURE.svg'
+import * as TMonoEURE from './svgs/tokens/mono/EURE.svg'
+import * as TBackgroundEURE from './svgs/tokens/background/EURE.svg'
 import * as TBrandedXMR from './svgs/tokens/branded/XMR.svg'
 import * as TMonoXMR from './svgs/tokens/mono/XMR.svg'
 import * as TBackgroundXMR from './svgs/tokens/background/XMR.svg'
@@ -2983,6 +2996,9 @@ import * as TBackgroundNOS from './svgs/tokens/background/NOS.svg'
 import * as TBrandedNFAI from './svgs/tokens/branded/NFAI.svg'
 import * as TMonoNFAI from './svgs/tokens/mono/NFAI.svg'
 import * as TBackgroundNFAI from './svgs/tokens/background/NFAI.svg'
+import * as TBrandedNPRO from './svgs/tokens/branded/NPRO.svg'
+import * as TMonoNPRO from './svgs/tokens/mono/NPRO.svg'
+import * as TBackgroundNPRO from './svgs/tokens/background/NPRO.svg'
 import * as TBrandedXCFX from './svgs/tokens/branded/XCFX.svg'
 import * as TMonoXCFX from './svgs/tokens/mono/XCFX.svg'
 import * as TBackgroundXCFX from './svgs/tokens/background/XCFX.svg'
@@ -5878,6 +5894,15 @@ import * as NBackgroundFluent from './svgs/networks/background/fluent.svg'
 import * as NBrandedRobinhood from './svgs/networks/branded/robinhood.svg'
 import * as NMonoRobinhood from './svgs/networks/mono/robinhood.svg'
 import * as NBackgroundRobinhood from './svgs/networks/background/robinhood.svg'
+import * as NBrandedAdiChain from './svgs/tokens/branded/ADI.svg'
+import * as NMonoAdiChain from './svgs/tokens/mono/ADI.svg'
+import * as NBackgroundAdiChain from './svgs/tokens/background/ADI.svg'
+import * as NBrandedAleo from './svgs/tokens/branded/ALEO.svg'
+import * as NMonoAleo from './svgs/tokens/mono/ALEO.svg'
+import * as NBackgroundAleo from './svgs/tokens/background/ALEO.svg'
+import * as NBrandedFogo from './svgs/tokens/branded/FOGO.svg'
+import * as NMonoFogo from './svgs/tokens/mono/FOGO.svg'
+import * as NBackgroundFogo from './svgs/tokens/background/FOGO.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -6135,6 +6160,7 @@ export const svgs = {
       acria: TBrandedACRIA,
       acx: TBrandedACX,
       adapad: TBrandedADAPAD,
+      adi: TBrandedADI,
       elf: TBrandedELF,
       fyn: TBrandedFYN,
       agrs: TBrandedAGRS,
@@ -6155,6 +6181,7 @@ export const svgs = {
       alcx: TBrandedALCX,
       ach: TBrandedACH,
       rin: TBrandedRIN,
+      aleo: TBrandedALEO,
       aleph: TBrandedALEPH,
       azero: TBrandedAZERO,
       alph: TBrandedALPH,
@@ -6670,6 +6697,7 @@ export const svgs = {
       fluid: TBrandedFLUID,
       flx: TBrandedFLX,
       foam: TBrandedFOAM,
+      fogo: TBrandedFOGO,
       foom: TBrandedFOOM,
       for: TBrandedFOR,
       fore: TBrandedFORE,
@@ -7096,6 +7124,7 @@ export const svgs = {
       moe: TBrandedMOE,
       mog: TBrandedMOG,
       mona: TBrandedMONA,
+      eure: TBrandedEURE,
       xmr: TBrandedXMR,
       mth: TBrandedMTH,
       moon: TBrandedMOON,
@@ -7168,6 +7197,7 @@ export const svgs = {
       nord: TBrandedNORD,
       nos: TBrandedNOS,
       nfai: TBrandedNFAI,
+      npro: TBrandedNPRO,
       xcfx: TBrandedXCFX,
       ncdt: TBrandedNCDT,
       nuls: TBrandedNULS,
@@ -7932,6 +7962,7 @@ export const svgs = {
       acria: TMonoACRIA,
       acx: TMonoACX,
       adapad: TMonoADAPAD,
+      adi: TMonoADI,
       elf: TMonoELF,
       fyn: TMonoFYN,
       agrs: TMonoAGRS,
@@ -7951,6 +7982,7 @@ export const svgs = {
       alcx: TMonoALCX,
       ach: TMonoACH,
       rin: TMonoRIN,
+      aleo: TMonoALEO,
       aleph: TMonoALEPH,
       azero: TMonoAZERO,
       alph: TMonoALPH,
@@ -8269,6 +8301,7 @@ export const svgs = {
       dodo: TMonoDODO,
       doga: TMonoDOGA,
       dc: TMonoDC,
+      doge: TMonoDOGE,
       dbr: TMonoDBR,
       dola: TMonoDOLA,
       domi: TMonoDOMI,
@@ -8374,6 +8407,7 @@ export const svgs = {
       flow: TMonoFLOW,
       fluid: TMonoFLUID,
       flx: TMonoFLX,
+      fogo: TMonoFOGO,
       for: TMonoFOR,
       fore: TMonoFORE,
       fort: TMonoFORT,
@@ -8750,6 +8784,7 @@ export const svgs = {
       moby: TMonoMOBY,
       mod: TMonoMOD,
       mona: TMonoMONA,
+      eure: TMonoEURE,
       xmr: TMonoXMR,
       mth: TMonoMTH,
       cah: TMonoCAH,
@@ -8809,6 +8844,7 @@ export const svgs = {
       nord: TMonoNORD,
       nos: TMonoNOS,
       nfai: TMonoNFAI,
+      npro: TMonoNPRO,
       xcfx: TMonoXCFX,
       ncdt: TMonoNCDT,
       nuls: TMonoNULS,
@@ -9492,6 +9528,7 @@ export const svgs = {
       acria: TBackgroundACRIA,
       acx: TBackgroundACX,
       adapad: TBackgroundADAPAD,
+      adi: TBackgroundADI,
       elf: TBackgroundELF,
       fyn: TBackgroundFYN,
       agrs: TBackgroundAGRS,
@@ -9512,6 +9549,7 @@ export const svgs = {
       alcx: TBackgroundALCX,
       ach: TBackgroundACH,
       rin: TBackgroundRIN,
+      aleo: TBackgroundALEO,
       aleph: TBackgroundALEPH,
       azero: TBackgroundAZERO,
       alph: TBackgroundALPH,
@@ -10027,6 +10065,7 @@ export const svgs = {
       fluid: TBackgroundFLUID,
       flx: TBackgroundFLX,
       foam: TBackgroundFOAM,
+      fogo: TBackgroundFOGO,
       foom: TBackgroundFOOM,
       for: TBackgroundFOR,
       fore: TBackgroundFORE,
@@ -10453,6 +10492,7 @@ export const svgs = {
       moe: TBackgroundMOE,
       mog: TBackgroundMOG,
       mona: TBackgroundMONA,
+      eure: TBackgroundEURE,
       xmr: TBackgroundXMR,
       mth: TBackgroundMTH,
       moon: TBackgroundMOON,
@@ -10525,6 +10565,7 @@ export const svgs = {
       nord: TBackgroundNORD,
       nos: TBackgroundNOS,
       nfai: TBackgroundNFAI,
+      npro: TBackgroundNPRO,
       xcfx: TBackgroundXCFX,
       ncdt: TBackgroundNCDT,
       nuls: TBackgroundNULS,
@@ -11524,6 +11565,9 @@ export const svgs = {
       citrea: NBrandedCitrea,
       fluent: NBrandedFluent,
       robinhood: NBrandedRobinhood,
+      'adi-chain': NBrandedAdiChain,
+      aleo: NBrandedAleo,
+      fogo: NBrandedFogo,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11765,6 +11809,9 @@ export const svgs = {
       citrea: NMonoCitrea,
       fluent: NMonoFluent,
       robinhood: NMonoRobinhood,
+      'adi-chain': NMonoAdiChain,
+      aleo: NMonoAleo,
+      fogo: NMonoFogo,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -12011,6 +12058,9 @@ export const svgs = {
       citrea: NBackgroundCitrea,
       fluent: NBackgroundFluent,
       robinhood: NBackgroundRobinhood,
+      'adi-chain': NBackgroundAdiChain,
+      aleo: NBackgroundAleo,
+      fogo: NBackgroundFogo,
     },
   },
   wallets: {
