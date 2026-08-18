@@ -1,5 +1,21 @@
 # @web3icons/react
 
+## 4.1.21
+
+### Patch Changes
+
+- 5f56071: token: Monerium EUR (`mono`, `branded`, `background`)
+  token: ADI (`mono`, `branded`, `background`)
+  token: ALEO (`mono`, `branded`, `background`)
+  token: Fogo (`mono`, `branded`, `background`)
+  token: NPRO (`mono`, `branded`, `background`)
+  token: Dogecoin (`mono`)
+  network: ADI Chain (`mono`, `branded`, `background`)
+  network: Aleo (`mono`, `branded`, `background`)
+  network: Fogo (`mono`, `branded`, `background`)
+- Updated dependencies [5f56071]
+  - @web3icons/common@0.11.50
+
 ## 4.1.20
 
 ### Patch Changes

@@ -1,5 +1,19 @@
 # @web3icons/common
 
+## 0.11.50
+
+### Patch Changes
+
+- 5f56071: token: Monerium EUR (`mono`, `branded`, `background`)
+  token: ADI (`mono`, `branded`, `background`)
+  token: ALEO (`mono`, `branded`, `background`)
+  token: Fogo (`mono`, `branded`, `background`)
+  token: NPRO (`mono`, `branded`, `background`)
+  token: Dogecoin (`mono`)
+  network: ADI Chain (`mono`, `branded`, `background`)
+  network: Aleo (`mono`, `branded`, `background`)
+  network: Fogo (`mono`, `branded`, `background`)
+
 ## 0.11.49
 
 ### Patch Changes
