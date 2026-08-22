@@ -23,6 +23,7 @@
     "cdn:sync": "bun ./scripts/sync-to-r2.ts",
     "validate-svgs": "bun ./scripts/maintenance/validate-svgs.ts",
     "validate-filenames": "bun ./scripts/cli/validate-filenames.ts",
+    "trace-to-svg": "bun ./scripts/cli/trace-png-to-svg.ts",
     "changeset": "changeset",
     "version": "changeset version && bun install --frozen-lockfile",
     "release": "bun build:packages && changeset publish"
