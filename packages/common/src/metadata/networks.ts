@@ -2383,4 +2383,13 @@ export const networks: INetworkMetadata[] = [
     nativeCoinId: 'fogo',
     variants: ['branded', 'mono', 'background'],
   },
+  {
+    id: 'animica',
+    name: 'Animica',
+    variants: ['background', 'branded', 'mono'],
+    filePath: 'token:ANM',
+    shortName: 'animica',
+    caip2id: 'animica:1',
+    nativeCoinId: 'animica',
+  },
 ]

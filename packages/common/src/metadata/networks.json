@@ -2380,5 +2380,14 @@
     "shortName": "fogo",
     "nativeCoinId": "fogo",
     "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "animica",
+    "filePath": "token:ANM",
+    "caip2id": "animica:1",
+    "name": "Animica",
+    "shortName": "animica",
+    "nativeCoinId": "animica",
+    "variants": ["background", "branded", "mono"]
   }
 ]

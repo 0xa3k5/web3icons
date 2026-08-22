@@ -5167,6 +5167,9 @@ import * as TBackgroundCBTC from './svgs/tokens/background/CBTC.svg'
 import * as TBrandedUSDE from './svgs/tokens/branded/USDE.svg'
 import * as TMonoUSDE from './svgs/tokens/mono/USDE.svg'
 import * as TBackgroundUSDE from './svgs/tokens/background/USDE.svg'
+import * as TBrandedANM from './svgs/tokens/branded/ANM.svg'
+import * as TMonoANM from './svgs/tokens/mono/ANM.svg'
+import * as TBackgroundANM from './svgs/tokens/background/ANM.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
 import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
@@ -5903,6 +5906,9 @@ import * as NBackgroundAleo from './svgs/tokens/background/ALEO.svg'
 import * as NBrandedFogo from './svgs/tokens/branded/FOGO.svg'
 import * as NMonoFogo from './svgs/tokens/mono/FOGO.svg'
 import * as NBackgroundFogo from './svgs/tokens/background/FOGO.svg'
+import * as NBrandedAnimica from './svgs/tokens/branded/ANM.svg'
+import * as NMonoAnimica from './svgs/tokens/mono/ANM.svg'
+import * as NBackgroundAnimica from './svgs/tokens/background/ANM.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -7949,6 +7955,7 @@ export const svgs = {
       pls: TBrandedPLS,
       cbtc: TBrandedCBTC,
       usde: TBrandedUSDE,
+      anm: TBrandedANM,
     },
     mono: {
       '0x0': TMono0X0,
@@ -9511,6 +9518,7 @@ export const svgs = {
       pls: TMonoPLS,
       cbtc: TMonoCBTC,
       usde: TMonoUSDE,
+      anm: TMonoANM,
     },
     background: {
       '0x0': TBackground0X0,
@@ -11317,6 +11325,7 @@ export const svgs = {
       pls: TBackgroundPLS,
       cbtc: TBackgroundCBTC,
       usde: TBackgroundUSDE,
+      anm: TBackgroundANM,
     },
   },
   networks: {
@@ -11568,6 +11577,7 @@ export const svgs = {
       'adi-chain': NBrandedAdiChain,
       aleo: NBrandedAleo,
       fogo: NBrandedFogo,
+      animica: NBrandedAnimica,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11812,6 +11822,7 @@ export const svgs = {
       'adi-chain': NMonoAdiChain,
       aleo: NMonoAleo,
       fogo: NMonoFogo,
+      animica: NMonoAnimica,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -12061,6 +12072,7 @@ export const svgs = {
       'adi-chain': NBackgroundAdiChain,
       aleo: NBackgroundAleo,
       fogo: NBackgroundFogo,
+      animica: NBackgroundAnimica,
     },
   },
   wallets: {
