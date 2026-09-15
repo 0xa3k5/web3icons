@@ -35,7 +35,7 @@
     },
     "apps/chrome-extension": {
       "name": "@web3icons/chrome-extension",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "dependencies": {
         "@web3icons/common": "0.11.45",
         "@web3icons/core": "4.0.50",
@@ -79,9 +79,9 @@
         "@types/react-dom": "^18.2.22",
         "@vercel/analytics": "^1.2.2",
         "@vercel/og": "^0.8.5",
-        "@web3icons/common": "0.11.49",
-        "@web3icons/core": "4.0.54",
-        "@web3icons/react": "^4.1.20",
+        "@web3icons/common": "0.11.50",
+        "@web3icons/core": "4.0.55",
+        "@web3icons/react": "^4.1.21",
         "autoprefixer": "10.4.18",
         "eslint": "8.57.0",
         "eslint-config-next": "14.1.3",
@@ -107,16 +107,16 @@
     },
     "packages/common": {
       "name": "@web3icons/common",
-      "version": "0.11.49",
+      "version": "0.11.50",
       "devDependencies": {
         "bun-types": "latest",
       },
     },
     "packages/core": {
       "name": "@web3icons/core",
-      "version": "4.0.54",
+      "version": "4.0.55",
       "dependencies": {
-        "@web3icons/common": "0.11.49",
+        "@web3icons/common": "0.11.50",
       },
       "devDependencies": {
         "bun-types": "latest",
@@ -143,9 +143,9 @@
     },
     "packages/react": {
       "name": "@web3icons/react",
-      "version": "4.1.20",
+      "version": "4.1.21",
       "dependencies": {
-        "@web3icons/common": "0.11.49",
+        "@web3icons/common": "0.11.50",
       },
       "devDependencies": {
         "@svgr/core": "^8.1.0",
@@ -1002,7 +1002,7 @@
 
     "builtin-modules": ["builtin-modules@3.3.0", "", {}, "sha512-zhaCDicdLuWN5UbN5IMnFqNMhNfo919sH85y2/ea+5Yg9TsTkeZxpL+JLbp6cgYFS4sRLp3YV4S6yDuqVWHYOw=="],
 
-    "bun-types": ["bun-types@1.3.14", "", { "dependencies": { "@types/node": "*" } }, "sha512-4N0ig0fEomHt5R0KCFWjovxow98rIoRwKolrYdCcknNwMekCXRnWEUvgu5soYV8QXtVsrUD8B95MBOZGPvr6KQ=="],
+    "bun-types": ["bun-types@1.4.2", "", { "dependencies": { "@types/node": "*" } }, "sha512-bxV1FgK7yBIzjRe5zBozIM4Bem11ZJcCXSrjWRG3YWLt8yFDePu4cLjpebO8OvPeIE9trbyPF4fuj3Cia4Fj3w=="],
 
     "call-bind": ["call-bind@1.0.8", "", { "dependencies": { "call-bind-apply-helpers": "^1.0.0", "es-define-property": "^1.0.0", "get-intrinsic": "^1.2.4", "set-function-length": "^1.2.2" } }, "sha512-oKlSFMcMwpUg2ednkhQ454wfWiU/ul3CkJe/PEHcTKuiX6RpbehUiFMXu13HalGZxfUwCQzZG747YXBn1im9ww=="],
 

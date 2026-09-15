@@ -2383,7 +2383,7 @@
   },
   {
     "id": "animica",
-    "filePath": "token:ANM",
+    "filePath": "network:animica",
     "caip2id": "animica:1",
     "name": "Animica",
     "shortName": "animica",

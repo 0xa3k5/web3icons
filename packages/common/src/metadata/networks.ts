@@ -2385,11 +2385,11 @@ export const networks: INetworkMetadata[] = [
   },
   {
     id: 'animica',
-    name: 'Animica',
-    variants: ['background', 'branded', 'mono'],
-    filePath: 'token:ANM',
-    shortName: 'animica',
+    filePath: 'network:animica',
     caip2id: 'animica:1',
+    name: 'Animica',
+    shortName: 'animica',
     nativeCoinId: 'animica',
+    variants: ['background', 'branded', 'mono'],
   },
 ]

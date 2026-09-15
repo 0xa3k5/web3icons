@@ -21535,11 +21535,11 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'animica',
+    filePath: 'network:animica',
+    symbol: 'ANM',
     name: 'Animica',
-    variants: ['background', 'branded', 'mono'],
-    filePath: 'token:ANM',
-    symbol: 'anm',
     marketCapRank: 0,
     addresses: {},
+    variants: ['background', 'branded', 'mono'],
   },
 ]

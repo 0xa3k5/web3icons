@@ -2202,4 +2202,4 @@ jump to section:
 | Pulsechain                             | PLS         | ✅      | ✅   | ✅         |
 | cBTC                                   | CBTC        | ✅      | ✅   | ✅         |
 | USDe                                   | USDE        | ✅      | ✅   | ✅         |
-| Animica                                | anm         | ✅      | ✅   | ✅         |
+| Animica                                | ANM         | ✅      | ✅   | ✅         |
