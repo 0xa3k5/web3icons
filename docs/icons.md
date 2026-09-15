@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (51)](#wallets)
-- [networks (248)](#networks)
+- [networks (250)](#networks)
 - [exchanges (30)](#exchanges)
 - [tokens (1850)](#tokens)
 
@@ -313,6 +313,8 @@ jump to section:
 | aleo                        | Aleo                            | ✅      | ✅   | ✅         |
 | fogo                        | Fogo                            | ✅      | ✅   | ✅         |
 | animica                     | Animica                         | ✅      | ✅   | ✅         |
+| anubis                      | Anubis                          | ✅      | ✅   | ✅         |
+| anubis-testnet              | Anubis Testnet                  | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
