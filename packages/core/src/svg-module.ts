@@ -5909,6 +5909,12 @@ import * as NBackgroundFogo from './svgs/tokens/background/FOGO.svg'
 import * as NBrandedAnimica from './svgs/networks/branded/animica.svg'
 import * as NMonoAnimica from './svgs/networks/mono/animica.svg'
 import * as NBackgroundAnimica from './svgs/networks/background/animica.svg'
+import * as NBrandedAnubis from './svgs/networks/branded/anubis.svg'
+import * as NMonoAnubis from './svgs/networks/mono/anubis.svg'
+import * as NBackgroundAnubis from './svgs/networks/background/anubis.svg'
+import * as NBrandedAnubisTestnet from './svgs/networks/branded/anubis.svg'
+import * as NMonoAnubisTestnet from './svgs/networks/mono/anubis.svg'
+import * as NBackgroundAnubisTestnet from './svgs/networks/background/anubis.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -11578,6 +11584,8 @@ export const svgs = {
       aleo: NBrandedAleo,
       fogo: NBrandedFogo,
       animica: NBrandedAnimica,
+      anubis: NBrandedAnubis,
+      'anubis-testnet': NBrandedAnubisTestnet,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11823,6 +11831,8 @@ export const svgs = {
       aleo: NMonoAleo,
       fogo: NMonoFogo,
       animica: NMonoAnimica,
+      anubis: NMonoAnubis,
+      'anubis-testnet': NMonoAnubisTestnet,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -12073,6 +12083,8 @@ export const svgs = {
       aleo: NBackgroundAleo,
       fogo: NBackgroundFogo,
       animica: NBackgroundAnimica,
+      anubis: NBackgroundAnubis,
+      'anubis-testnet': NBackgroundAnubisTestnet,
     },
   },
   wallets: {

@@ -46,6 +46,9 @@ const dynamicIconImports = {
   NetworkAlgorand: () => import('./dist/icons/networks/NetworkAlgorand.js'),
   NetworkAmeChain: () => import('./dist/icons/networks/NetworkAmeChain.js'),
   NetworkAnimica: () => import('./dist/icons/networks/NetworkAnimica.js'),
+  NetworkAnubis: () => import('./dist/icons/networks/NetworkAnubis.js'),
+  NetworkAnubisTestnet: () =>
+    import('./dist/icons/networks/NetworkAnubisTestnet.js'),
   NetworkApechain: () => import('./dist/icons/networks/NetworkApechain.js'),
   NetworkApexLayer: () => import('./dist/icons/networks/NetworkApexLayer.js'),
   NetworkAptos: () => import('./dist/icons/networks/NetworkAptos.js'),

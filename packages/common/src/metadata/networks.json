@@ -2389,5 +2389,25 @@
     "shortName": "animica",
     "nativeCoinId": "animica",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "anubis",
+    "filePath": "network:anubis",
+    "chainId": 6714,
+    "caip2id": "eip155:6714",
+    "name": "Anubis",
+    "shortName": "Anubis",
+    "nativeCoinId": "gasDAI",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "anubis-testnet",
+    "filePath": "network:anubis",
+    "chainId": 2526,
+    "caip2id": "eip155:2526",
+    "name": "Anubis Testnet",
+    "shortName": "Anubis",
+    "nativeCoinId": "ANUBI",
+    "variants": ["background", "branded", "mono"]
   }
 ]
