@@ -21533,4 +21533,13 @@ export const tokens: ITokenMetadata[] = [
     },
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'animica',
+    filePath: 'network:animica',
+    symbol: 'ANM',
+    name: 'Animica',
+    marketCapRank: 0,
+    addresses: {},
+    variants: ['background', 'branded', 'mono'],
+  },
 ]

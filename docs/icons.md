@@ -1,9 +1,9 @@
 jump to section:
 
 - [wallets (51)](#wallets)
-- [networks (247)](#networks)
+- [networks (248)](#networks)
 - [exchanges (30)](#exchanges)
-- [tokens (1849)](#tokens)
+- [tokens (1850)](#tokens)
 
 ### Wallets
 
@@ -312,6 +312,7 @@ jump to section:
 | adi-chain                   | ADI Chain                       | ✅      | ✅   | ✅         |
 | aleo                        | Aleo                            | ✅      | ✅   | ✅         |
 | fogo                        | Fogo                            | ✅      | ✅   | ✅         |
+| animica                     | Animica                         | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2201,3 +2202,4 @@ jump to section:
 | Pulsechain                             | PLS         | ✅      | ✅   | ✅         |
 | cBTC                                   | CBTC        | ✅      | ✅   | ✅         |
 | USDe                                   | USDE        | ✅      | ✅   | ✅         |
+| Animica                                | ANM         | ✅      | ✅   | ✅         |
