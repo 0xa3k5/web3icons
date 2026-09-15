@@ -1,5 +1,14 @@
 # @web3icons/chrome-extension
 
+## 1.0.6
+
+### Patch Changes
+
+- Updated dependencies [eca65e9]
+- Updated dependencies [d578df4]
+  - @web3icons/common@0.11.51
+  - @web3icons/core@4.0.56
+
 ## 1.0.5
 
 ### Patch Changes

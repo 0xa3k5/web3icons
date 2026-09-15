@@ -1,5 +1,13 @@
 # @web3icons/common
 
+## 0.11.51
+
+### Patch Changes
+
+- eca65e9: token: Animica (`mono`, `branded`, `background`)
+  network: Animica (`mono`, `branded`, `background`)
+- d578df4: network: Anubis (`mono`, `branded`, `background`)
+
 ## 0.11.50
 
 ### Patch Changes
