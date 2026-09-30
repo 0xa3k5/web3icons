@@ -1,5 +1,16 @@
 # @web3icons/react
 
+## 4.1.23
+
+### Patch Changes
+
+- d2919ea: network: Canton (`mono`, `branded`, `background`)
+  network: Rabbit (`mono`, `branded`, `background`)
+  token: CC (Canton Coin) (`mono`, `branded`, `background`)
+  wallet: Rabbit Wallet (`mono`, `branded`, `background`)
+- Updated dependencies [d2919ea]
+  - @web3icons/common@0.11.52
+
 ## 4.1.22
 
 ### Patch Changes
