@@ -1,9 +1,9 @@
 jump to section:
 
-- [wallets (51)](#wallets)
-- [networks (250)](#networks)
+- [wallets (52)](#wallets)
+- [networks (252)](#networks)
 - [exchanges (30)](#exchanges)
-- [tokens (1850)](#tokens)
+- [tokens (1851)](#tokens)
 
 ### Wallets
 
@@ -60,6 +60,7 @@ jump to section:
 | ambire          | Ambire          | ✅      | ✅   | ✅         |
 | cypherock       | Cypherock       | ✅      | ✅   | ✅         |
 | daimo           | Daimo Pay       | ✅      | ✅   | ✅         |
+| rabbit          | Rabbit Wallet   | ✅      | ✅   | ✅         |
 
 ### Networks
 
@@ -315,6 +316,8 @@ jump to section:
 | animica                     | Animica                         | ✅      | ✅   | ✅         |
 | anubis                      | Anubis                          | ✅      | ✅   | ✅         |
 | anubis-testnet              | Anubis Testnet                  | ✅      | ✅   | ✅         |
+| canton                      | Canton Network                  | ✅      | ✅   | ✅         |
+| rabbit                      | Rabbit Chain                    | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -2205,3 +2208,4 @@ jump to section:
 | cBTC                                   | CBTC        | ✅      | ✅   | ✅         |
 | USDe                                   | USDE        | ✅      | ✅   | ✅         |
 | Animica                                | ANM         | ✅      | ✅   | ✅         |
+| Canton Network                         | CC          | ✅      | ✅   | ✅         |

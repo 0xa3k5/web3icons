@@ -2409,5 +2409,22 @@
     "shortName": "Anubis",
     "nativeCoinId": "ANUBI",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "canton",
+    "filePath": "network:canton",
+    "name": "Canton Network",
+    "shortName": "Canton",
+    "nativeCoinId": "CC",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "rabbit",
+    "filePath": "network:rabbit",
+    "chainId": 9280,
+    "caip2id": "eip155:9280",
+    "name": "Rabbit Chain",
+    "shortName": "Rabbit",
+    "variants": ["background", "branded", "mono"]
   }
 ]
