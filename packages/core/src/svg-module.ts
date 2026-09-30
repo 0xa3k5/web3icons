@@ -5170,6 +5170,9 @@ import * as TBackgroundUSDE from './svgs/tokens/background/USDE.svg'
 import * as TBrandedANM from './svgs/networks/branded/animica.svg'
 import * as TMonoANM from './svgs/networks/mono/animica.svg'
 import * as TBackgroundANM from './svgs/networks/background/animica.svg'
+import * as TBrandedCC from './svgs/networks/branded/canton.svg'
+import * as TMonoCC from './svgs/networks/mono/canton.svg'
+import * as TBackgroundCC from './svgs/networks/background/canton.svg'
 import * as NBrandedZksync from './svgs/networks/branded/zksync.svg'
 import * as NMonoZksync from './svgs/networks/mono/zksync.svg'
 import * as NBackgroundZksync from './svgs/networks/background/zksync.svg'
@@ -5915,6 +5918,12 @@ import * as NBackgroundAnubis from './svgs/networks/background/anubis.svg'
 import * as NBrandedAnubisTestnet from './svgs/networks/branded/anubis.svg'
 import * as NMonoAnubisTestnet from './svgs/networks/mono/anubis.svg'
 import * as NBackgroundAnubisTestnet from './svgs/networks/background/anubis.svg'
+import * as NBrandedCanton from './svgs/networks/branded/canton.svg'
+import * as NMonoCanton from './svgs/networks/mono/canton.svg'
+import * as NBackgroundCanton from './svgs/networks/background/canton.svg'
+import * as NBrandedRabbit from './svgs/networks/branded/rabbit.svg'
+import * as NMonoRabbit from './svgs/networks/mono/rabbit.svg'
+import * as NBackgroundRabbit from './svgs/networks/background/rabbit.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -6063,6 +6072,9 @@ import * as WBackgroundCypherock from './svgs/wallets/background/cypherock.svg'
 import * as WBrandedDaimo from './svgs/wallets/branded/daimo.svg'
 import * as WMonoDaimo from './svgs/wallets/mono/daimo.svg'
 import * as WBackgroundDaimo from './svgs/wallets/background/daimo.svg'
+import * as WBrandedRabbit from './svgs/networks/branded/rabbit.svg'
+import * as WMonoRabbit from './svgs/networks/mono/rabbit.svg'
+import * as WBackgroundRabbit from './svgs/networks/background/rabbit.svg'
 import * as EBranded1inch from './svgs/exchanges/branded/1inch.svg'
 import * as EMono1inch from './svgs/exchanges/mono/1inch.svg'
 import * as EBackground1inch from './svgs/exchanges/background/1inch.svg'
@@ -7962,6 +7974,7 @@ export const svgs = {
       cbtc: TBrandedCBTC,
       usde: TBrandedUSDE,
       anm: TBrandedANM,
+      cc: TBrandedCC,
     },
     mono: {
       '0x0': TMono0X0,
@@ -9525,6 +9538,7 @@ export const svgs = {
       cbtc: TMonoCBTC,
       usde: TMonoUSDE,
       anm: TMonoANM,
+      cc: TMonoCC,
     },
     background: {
       '0x0': TBackground0X0,
@@ -11332,6 +11346,7 @@ export const svgs = {
       cbtc: TBackgroundCBTC,
       usde: TBackgroundUSDE,
       anm: TBackgroundANM,
+      cc: TBackgroundCC,
     },
   },
   networks: {
@@ -11586,6 +11601,8 @@ export const svgs = {
       animica: NBrandedAnimica,
       anubis: NBrandedAnubis,
       'anubis-testnet': NBrandedAnubisTestnet,
+      canton: NBrandedCanton,
+      rabbit: NBrandedRabbit,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11833,6 +11850,8 @@ export const svgs = {
       animica: NMonoAnimica,
       anubis: NMonoAnubis,
       'anubis-testnet': NMonoAnubisTestnet,
+      canton: NMonoCanton,
+      rabbit: NMonoRabbit,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -12085,6 +12104,8 @@ export const svgs = {
       animica: NBackgroundAnimica,
       anubis: NBackgroundAnubis,
       'anubis-testnet': NBackgroundAnubisTestnet,
+      canton: NBackgroundCanton,
+      rabbit: NBackgroundRabbit,
     },
   },
   wallets: {
@@ -12139,6 +12160,7 @@ export const svgs = {
       ambire: WBrandedAmbire,
       cypherock: WBrandedCypherock,
       daimo: WBrandedDaimo,
+      rabbit: WBrandedRabbit,
     },
     mono: {
       alfa1: WMonoAlfa1,
@@ -12188,6 +12210,7 @@ export const svgs = {
       ambire: WMonoAmbire,
       cypherock: WMonoCypherock,
       daimo: WMonoDaimo,
+      rabbit: WMonoRabbit,
     },
     background: {
       alfa1: WBackgroundAlfa1,
@@ -12241,6 +12264,7 @@ export const svgs = {
       ambire: WBackgroundAmbire,
       cypherock: WBackgroundCypherock,
       daimo: WBackgroundDaimo,
+      rabbit: WBackgroundRabbit,
     },
   },
   exchanges: {
