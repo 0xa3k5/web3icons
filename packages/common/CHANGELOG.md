@@ -1,5 +1,14 @@
 # @web3icons/common
 
+## 0.11.52
+
+### Patch Changes
+
+- d2919ea: network: Canton (`mono`, `branded`, `background`)
+  network: Rabbit (`mono`, `branded`, `background`)
+  token: CC (Canton Coin) (`mono`, `branded`, `background`)
+  wallet: Rabbit Wallet (`mono`, `branded`, `background`)
+
 ## 0.11.51
 
 ### Patch Changes
