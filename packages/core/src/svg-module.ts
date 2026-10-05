@@ -5870,6 +5870,9 @@ import * as NBackgroundGenesisL1 from './svgs/networks/background/genesis-l1.svg
 import * as NBrandedTempo from './svgs/networks/branded/tempo.svg'
 import * as NMonoTempo from './svgs/networks/mono/tempo.svg'
 import * as NBackgroundTempo from './svgs/networks/background/tempo.svg'
+import * as NBrandedTempoTestnet from './svgs/networks/branded/tempo.svg'
+import * as NMonoTempoTestnet from './svgs/networks/mono/tempo.svg'
+import * as NBackgroundTempoTestnet from './svgs/networks/background/tempo.svg'
 import * as NBrandedUptick from './svgs/networks/branded/uptick.svg'
 import * as NMonoUptick from './svgs/networks/mono/uptick.svg'
 import * as NBackgroundUptick from './svgs/networks/background/uptick.svg'
@@ -5924,6 +5927,111 @@ import * as NBackgroundCanton from './svgs/networks/background/canton.svg'
 import * as NBrandedRabbit from './svgs/networks/branded/rabbit.svg'
 import * as NMonoRabbit from './svgs/networks/mono/rabbit.svg'
 import * as NBackgroundRabbit from './svgs/networks/background/rabbit.svg'
+import * as NBrandedBittensor from './svgs/tokens/branded/TAO.svg'
+import * as NMonoBittensor from './svgs/tokens/mono/TAO.svg'
+import * as NBackgroundBittensor from './svgs/tokens/background/TAO.svg'
+import * as NBrandedDydx from './svgs/tokens/branded/DYDX.svg'
+import * as NMonoDydx from './svgs/tokens/mono/DYDX.svg'
+import * as NBackgroundDydx from './svgs/tokens/background/DYDX.svg'
+import * as NBrandedHydration from './svgs/tokens/branded/HDX.svg'
+import * as NMonoHydration from './svgs/tokens/mono/HDX.svg'
+import * as NBackgroundHydration from './svgs/tokens/background/HDX.svg'
+import * as NBrandedXprNetwork from './svgs/tokens/branded/XPR.svg'
+import * as NMonoXprNetwork from './svgs/tokens/mono/XPR.svg'
+import * as NBackgroundXprNetwork from './svgs/tokens/background/XPR.svg'
+import * as NBrandedThorchain from './svgs/tokens/branded/RUNE.svg'
+import * as NMonoThorchain from './svgs/tokens/mono/RUNE.svg'
+import * as NBackgroundThorchain from './svgs/tokens/background/RUNE.svg'
+import * as NBrandedTezos from './svgs/tokens/branded/XTZ.svg'
+import * as NMonoTezos from './svgs/tokens/mono/XTZ.svg'
+import * as NBackgroundTezos from './svgs/tokens/background/XTZ.svg'
+import * as NBrandedInternetComputer from './svgs/tokens/branded/ICP.svg'
+import * as NMonoInternetComputer from './svgs/tokens/mono/ICP.svg'
+import * as NBackgroundInternetComputer from './svgs/tokens/background/ICP.svg'
+import * as NBrandedWaves from './svgs/tokens/branded/WAVES.svg'
+import * as NMonoWaves from './svgs/tokens/mono/WAVES.svg'
+import * as NBackgroundWaves from './svgs/tokens/background/WAVES.svg'
+import * as NBrandedBitcoinCash from './svgs/tokens/branded/BCH.svg'
+import * as NMonoBitcoinCash from './svgs/tokens/mono/BCH.svg'
+import * as NBackgroundBitcoinCash from './svgs/tokens/background/BCH.svg'
+import * as NBrandedCore from './svgs/tokens/branded/CORE.svg'
+import * as NBackgroundCore from './svgs/tokens/background/CORE.svg'
+import * as NBrandedDogecoin from './svgs/tokens/branded/DOGE.svg'
+import * as NMonoDogecoin from './svgs/tokens/mono/DOGE.svg'
+import * as NBackgroundDogecoin from './svgs/tokens/background/DOGE.svg'
+import * as NBrandedZcash from './svgs/tokens/branded/ZEC.svg'
+import * as NMonoZcash from './svgs/tokens/mono/ZEC.svg'
+import * as NBackgroundZcash from './svgs/tokens/background/ZEC.svg'
+import * as NBrandedVechain from './svgs/tokens/branded/VET.svg'
+import * as NMonoVechain from './svgs/tokens/mono/VET.svg'
+import * as NBackgroundVechain from './svgs/tokens/background/VET.svg'
+import * as NBrandedNeo from './svgs/tokens/branded/NEO.svg'
+import * as NMonoNeo from './svgs/tokens/mono/NEO.svg'
+import * as NBackgroundNeo from './svgs/tokens/background/NEO.svg'
+import * as NBrandedOpbnb from './svgs/tokens/branded/BNB.svg'
+import * as NMonoOpbnb from './svgs/tokens/mono/BNB.svg'
+import * as NBackgroundOpbnb from './svgs/tokens/background/BNB.svg'
+import * as NBrandedTerra from './svgs/tokens/branded/LUNA.svg'
+import * as NBackgroundTerra from './svgs/tokens/background/LUNA.svg'
+import * as NBrandedGalachain from './svgs/tokens/branded/GALA.svg'
+import * as NMonoGalachain from './svgs/tokens/mono/GALA.svg'
+import * as NBackgroundGalachain from './svgs/tokens/background/GALA.svg'
+import * as NBrandedVite from './svgs/tokens/branded/VITE.svg'
+import * as NMonoVite from './svgs/tokens/mono/VITE.svg'
+import * as NBackgroundVite from './svgs/tokens/background/VITE.svg'
+import * as NBrandedWanchain from './svgs/tokens/branded/WAN.svg'
+import * as NMonoWanchain from './svgs/tokens/mono/WAN.svg'
+import * as NBackgroundWanchain from './svgs/tokens/background/WAN.svg'
+import * as NBrandedZigchain from './svgs/tokens/branded/ZIG.svg'
+import * as NMonoZigchain from './svgs/tokens/mono/ZIG.svg'
+import * as NBackgroundZigchain from './svgs/tokens/background/ZIG.svg'
+import * as NBrandedDexalot from './svgs/tokens/branded/ALOT.svg'
+import * as NMonoDexalot from './svgs/tokens/mono/ALOT.svg'
+import * as NBackgroundDexalot from './svgs/tokens/background/ALOT.svg'
+import * as NBrandedGateLayer from './svgs/tokens/branded/GT.svg'
+import * as NMonoGateLayer from './svgs/tokens/mono/GT.svg'
+import * as NBackgroundGateLayer from './svgs/tokens/background/GT.svg'
+import * as NBrandedOasisEmerald from './svgs/tokens/branded/ROSE.svg'
+import * as NMonoOasisEmerald from './svgs/tokens/mono/ROSE.svg'
+import * as NBackgroundOasisEmerald from './svgs/tokens/background/ROSE.svg'
+import * as NBrandedOasisSapphire from './svgs/tokens/branded/ROSE.svg'
+import * as NMonoOasisSapphire from './svgs/tokens/mono/ROSE.svg'
+import * as NBackgroundOasisSapphire from './svgs/tokens/background/ROSE.svg'
+import * as NBrandedElectroneum from './svgs/tokens/branded/ETN.svg'
+import * as NMonoElectroneum from './svgs/tokens/mono/ETN.svg'
+import * as NBackgroundElectroneum from './svgs/tokens/background/ETN.svg'
+import * as NBrandedSecret from './svgs/tokens/branded/SCRT.svg'
+import * as NMonoSecret from './svgs/tokens/mono/SCRT.svg'
+import * as NBackgroundSecret from './svgs/tokens/background/SCRT.svg'
+import * as NBrandedEthereumPow from './svgs/tokens/branded/ETHW.svg'
+import * as NBackgroundEthereumPow from './svgs/tokens/background/ETHW.svg'
+import * as NBrandedErgo from './svgs/tokens/branded/ERG.svg'
+import * as NMonoErgo from './svgs/tokens/mono/ERG.svg'
+import * as NBackgroundErgo from './svgs/tokens/background/ERG.svg'
+import * as NBrandedAlephium from './svgs/tokens/branded/ALPH.svg'
+import * as NMonoAlephium from './svgs/tokens/mono/ALPH.svg'
+import * as NBackgroundAlephium from './svgs/tokens/background/ALPH.svg'
+import * as NBrandedIcon from './svgs/tokens/branded/ICX.svg'
+import * as NMonoIcon from './svgs/tokens/mono/ICX.svg'
+import * as NBackgroundIcon from './svgs/tokens/background/ICX.svg'
+import * as NBrandedCelestia from './svgs/tokens/branded/TIA.svg'
+import * as NMonoCelestia from './svgs/tokens/mono/TIA.svg'
+import * as NBackgroundCelestia from './svgs/tokens/background/TIA.svg'
+import * as NBrandedKaspa from './svgs/tokens/branded/KAS.svg'
+import * as NMonoKaspa from './svgs/tokens/mono/KAS.svg'
+import * as NBackgroundKaspa from './svgs/tokens/background/KAS.svg'
+import * as NBrandedCanto from './svgs/tokens/branded/CANTO.svg'
+import * as NMonoCanto from './svgs/tokens/mono/CANTO.svg'
+import * as NBackgroundCanto from './svgs/tokens/background/CANTO.svg'
+import * as NBrandedEduChain from './svgs/tokens/branded/EDU.svg'
+import * as NMonoEduChain from './svgs/tokens/mono/EDU.svg'
+import * as NBackgroundEduChain from './svgs/tokens/background/EDU.svg'
+import * as NBrandedEvmos from './svgs/tokens/branded/EVMOS.svg'
+import * as NMonoEvmos from './svgs/tokens/mono/EVMOS.svg'
+import * as NBackgroundEvmos from './svgs/tokens/background/EVMOS.svg'
+import * as NBrandedNumbers from './svgs/tokens/branded/NUM.svg'
+import * as NMonoNumbers from './svgs/tokens/mono/NUM.svg'
+import * as NBackgroundNumbers from './svgs/tokens/background/NUM.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -11585,6 +11693,7 @@ export const svgs = {
       darwinia: NBrandedDarwinia,
       'genesis-l1': NBrandedGenesisL1,
       tempo: NBrandedTempo,
+      'tempo-testnet': NBrandedTempoTestnet,
       uptick: NBrandedUptick,
       plasma: NBrandedPlasma,
       ton: NBrandedTon,
@@ -11603,6 +11712,42 @@ export const svgs = {
       'anubis-testnet': NBrandedAnubisTestnet,
       canton: NBrandedCanton,
       rabbit: NBrandedRabbit,
+      bittensor: NBrandedBittensor,
+      dydx: NBrandedDydx,
+      hydration: NBrandedHydration,
+      'xpr-network': NBrandedXprNetwork,
+      thorchain: NBrandedThorchain,
+      tezos: NBrandedTezos,
+      'internet-computer': NBrandedInternetComputer,
+      waves: NBrandedWaves,
+      'bitcoin-cash': NBrandedBitcoinCash,
+      core: NBrandedCore,
+      dogecoin: NBrandedDogecoin,
+      zcash: NBrandedZcash,
+      vechain: NBrandedVechain,
+      neo: NBrandedNeo,
+      opbnb: NBrandedOpbnb,
+      terra: NBrandedTerra,
+      galachain: NBrandedGalachain,
+      vite: NBrandedVite,
+      wanchain: NBrandedWanchain,
+      zigchain: NBrandedZigchain,
+      dexalot: NBrandedDexalot,
+      'gate-layer': NBrandedGateLayer,
+      'oasis-emerald': NBrandedOasisEmerald,
+      'oasis-sapphire': NBrandedOasisSapphire,
+      electroneum: NBrandedElectroneum,
+      secret: NBrandedSecret,
+      'ethereum-pow': NBrandedEthereumPow,
+      ergo: NBrandedErgo,
+      alephium: NBrandedAlephium,
+      icon: NBrandedIcon,
+      celestia: NBrandedCelestia,
+      kaspa: NBrandedKaspa,
+      canto: NBrandedCanto,
+      'edu-chain': NBrandedEduChain,
+      evmos: NBrandedEvmos,
+      numbers: NBrandedNumbers,
     },
     mono: {
       zksync: NMonoZksync,
@@ -11834,6 +11979,7 @@ export const svgs = {
       darwinia: NMonoDarwinia,
       'genesis-l1': NMonoGenesisL1,
       tempo: NMonoTempo,
+      'tempo-testnet': NMonoTempoTestnet,
       uptick: NMonoUptick,
       plasma: NMonoPlasma,
       ton: NMonoTon,
@@ -11852,6 +11998,39 @@ export const svgs = {
       'anubis-testnet': NMonoAnubisTestnet,
       canton: NMonoCanton,
       rabbit: NMonoRabbit,
+      bittensor: NMonoBittensor,
+      dydx: NMonoDydx,
+      hydration: NMonoHydration,
+      'xpr-network': NMonoXprNetwork,
+      thorchain: NMonoThorchain,
+      tezos: NMonoTezos,
+      'internet-computer': NMonoInternetComputer,
+      waves: NMonoWaves,
+      'bitcoin-cash': NMonoBitcoinCash,
+      dogecoin: NMonoDogecoin,
+      zcash: NMonoZcash,
+      vechain: NMonoVechain,
+      neo: NMonoNeo,
+      opbnb: NMonoOpbnb,
+      galachain: NMonoGalachain,
+      vite: NMonoVite,
+      wanchain: NMonoWanchain,
+      zigchain: NMonoZigchain,
+      dexalot: NMonoDexalot,
+      'gate-layer': NMonoGateLayer,
+      'oasis-emerald': NMonoOasisEmerald,
+      'oasis-sapphire': NMonoOasisSapphire,
+      electroneum: NMonoElectroneum,
+      secret: NMonoSecret,
+      ergo: NMonoErgo,
+      alephium: NMonoAlephium,
+      icon: NMonoIcon,
+      celestia: NMonoCelestia,
+      kaspa: NMonoKaspa,
+      canto: NMonoCanto,
+      'edu-chain': NMonoEduChain,
+      evmos: NMonoEvmos,
+      numbers: NMonoNumbers,
     },
     background: {
       zksync: NBackgroundZksync,
@@ -12088,6 +12267,7 @@ export const svgs = {
       darwinia: NBackgroundDarwinia,
       'genesis-l1': NBackgroundGenesisL1,
       tempo: NBackgroundTempo,
+      'tempo-testnet': NBackgroundTempoTestnet,
       uptick: NBackgroundUptick,
       plasma: NBackgroundPlasma,
       ton: NBackgroundTon,
@@ -12106,6 +12286,42 @@ export const svgs = {
       'anubis-testnet': NBackgroundAnubisTestnet,
       canton: NBackgroundCanton,
       rabbit: NBackgroundRabbit,
+      bittensor: NBackgroundBittensor,
+      dydx: NBackgroundDydx,
+      hydration: NBackgroundHydration,
+      'xpr-network': NBackgroundXprNetwork,
+      thorchain: NBackgroundThorchain,
+      tezos: NBackgroundTezos,
+      'internet-computer': NBackgroundInternetComputer,
+      waves: NBackgroundWaves,
+      'bitcoin-cash': NBackgroundBitcoinCash,
+      core: NBackgroundCore,
+      dogecoin: NBackgroundDogecoin,
+      zcash: NBackgroundZcash,
+      vechain: NBackgroundVechain,
+      neo: NBackgroundNeo,
+      opbnb: NBackgroundOpbnb,
+      terra: NBackgroundTerra,
+      galachain: NBackgroundGalachain,
+      vite: NBackgroundVite,
+      wanchain: NBackgroundWanchain,
+      zigchain: NBackgroundZigchain,
+      dexalot: NBackgroundDexalot,
+      'gate-layer': NBackgroundGateLayer,
+      'oasis-emerald': NBackgroundOasisEmerald,
+      'oasis-sapphire': NBackgroundOasisSapphire,
+      electroneum: NBackgroundElectroneum,
+      secret: NBackgroundSecret,
+      'ethereum-pow': NBackgroundEthereumPow,
+      ergo: NBackgroundErgo,
+      alephium: NBackgroundAlephium,
+      icon: NBackgroundIcon,
+      celestia: NBackgroundCelestia,
+      kaspa: NBackgroundKaspa,
+      canto: NBackgroundCanto,
+      'edu-chain': NBackgroundEduChain,
+      evmos: NBackgroundEvmos,
+      numbers: NBackgroundNumbers,
     },
   },
   wallets: {
