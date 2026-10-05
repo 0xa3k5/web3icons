@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (52)](#wallets)
-- [networks (252)](#networks)
+- [networks (253)](#networks)
 - [exchanges (30)](#exchanges)
 - [tokens (1851)](#tokens)
 
@@ -295,11 +295,12 @@ jump to section:
 | stable                      | Stablechain                     | ✅      | ✅   | ✅         |
 | juris                       | Juris Protocol                  | ✅      | ✅   | ✅         |
 | terra-classic               | Terra Classic                   | ✅      | ✅   | ✅         |
-| xdc-network                 | XDC Network                     | ✅      | ✅   | ✅         |
+| xdc-network                 | XDC Apothem Testnet             | ✅      | ✅   | ✅         |
 | crab                        | Crab                            | ✅      | ✅   | ✅         |
 | darwinia                    | Darwinia                        | ✅      | ✅   | ✅         |
 | genesis-l1                  | Genesis L1                      | ✅      | ✅   | ✅         |
 | tempo                       | Tempo                           | ✅      | ✅   | ✅         |
+| tempo-testnet               | Tempo Moderato Testnet          | ✅      | ✅   | ✅         |
 | uptick                      | Uptick                          | ✅      | ✅   | ✅         |
 | plasma                      | Plasma                          | ✅      | ✅   | ✅         |
 | ton                         | The Open Network                | ✅      | ✅   | ✅         |
