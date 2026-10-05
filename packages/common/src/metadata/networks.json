@@ -52,7 +52,6 @@
   {
     "id": "near-protocol",
     "filePath": "network:near-protocol",
-    "chainId": 39,
     "caip2id": "near:mainnet",
     "name": "Near Protocol",
     "shortName": "near-protocol",
@@ -715,7 +714,7 @@
   {
     "id": "wemix",
     "filePath": "network:wemix",
-    "chainId": 111,
+    "chainId": 1111,
     "caip2id": "eip155:1111",
     "name": "Wemix",
     "shortName": "wemix",
@@ -1351,6 +1350,7 @@
     "id": "manta-pacific",
     "filePath": "network:manta-pacific",
     "chainId": 169,
+    "caip2id": "eip155:169",
     "name": "Manta Pacific",
     "shortName": "manta",
     "nativeCoinId": "weth",
@@ -1690,8 +1690,8 @@
   {
     "id": "autonomys",
     "filePath": "network:autonomys",
-    "chainId": 490000,
-    "caip2id": "eip155:490000",
+    "chainId": 870,
+    "caip2id": "eip155:870",
     "name": "Autonomys EVM",
     "shortName": "Auto EVM",
     "variants": ["background", "branded", "mono"]
@@ -1729,8 +1729,8 @@
   {
     "id": "mega-eth",
     "filePath": "network:mega-eth",
-    "chainId": 6342,
-    "caip2id": "eip155:6342",
+    "chainId": 4326,
+    "caip2id": "eip155:4326",
     "name": "Mega ETH",
     "shortName": "Mega",
     "nativeCoinId": "eth",
@@ -1748,8 +1748,8 @@
   {
     "id": "katana",
     "filePath": "network:katana",
-    "chainId": 129399,
-    "caip2id": "eip155:129399",
+    "chainId": 747474,
+    "caip2id": "eip155:747474",
     "name": "Katana",
     "shortName": "katana",
     "nativeCoinId": "eth",
@@ -1809,8 +1809,6 @@
   {
     "id": "fuel",
     "filePath": "network:fuel",
-    "chainId": 9889,
-    "caip2id": "eip155:9889",
     "name": "Fuel",
     "shortName": "fuel",
     "variants": ["background", "branded", "mono"]
@@ -2213,7 +2211,7 @@
     "filePath": "token:XDC",
     "chainId": 51,
     "caip2id": "eip155:51",
-    "name": "XDC Network",
+    "name": "XDC Apothem Testnet",
     "shortName": "XDC",
     "nativeCoinId": "XDC",
     "variants": ["branded", "mono", "background"]
@@ -2251,8 +2249,20 @@
   {
     "id": "tempo",
     "filePath": "network:tempo",
+    "chainId": 4217,
+    "caip2id": "eip155:4217",
     "name": "Tempo",
     "shortName": "Tempo",
+    "nativeCoinId": "USD",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "tempo-testnet",
+    "filePath": "network:tempo",
+    "chainId": 42431,
+    "caip2id": "eip155:42431",
+    "name": "Tempo Moderato Testnet",
+    "shortName": "Tempo Testnet",
     "nativeCoinId": "USD",
     "variants": ["background", "branded", "mono"]
   },
@@ -2426,5 +2436,328 @@
     "name": "Rabbit Chain",
     "shortName": "Rabbit",
     "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "bittensor",
+    "filePath": "token:TAO",
+    "name": "Bittensor",
+    "shortName": "TAO",
+    "nativeCoinId": "bittensor",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "dydx",
+    "filePath": "token:DYDX",
+    "caip2id": "cosmos:dydx-mainnet-1",
+    "name": "dYdX Chain",
+    "shortName": "dYdX",
+    "nativeCoinId": "dydx-chain",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "hydration",
+    "filePath": "token:HDX",
+    "name": "Hydration",
+    "shortName": "HDX",
+    "nativeCoinId": "hydradx",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "xpr-network",
+    "filePath": "token:XPR",
+    "name": "XPR Network",
+    "shortName": "XPR",
+    "nativeCoinId": "proton",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "thorchain",
+    "filePath": "token:RUNE",
+    "caip2id": "cosmos:thorchain-1",
+    "name": "THORChain",
+    "shortName": "THOR",
+    "nativeCoinId": "thorchain",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "tezos",
+    "filePath": "token:XTZ",
+    "caip2id": "tezos:NetXdQprcVkpaWU",
+    "name": "Tezos",
+    "shortName": "XTZ",
+    "nativeCoinId": "tezos",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "internet-computer",
+    "filePath": "token:ICP",
+    "name": "Internet Computer",
+    "shortName": "ICP",
+    "nativeCoinId": "internet-computer",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "waves",
+    "filePath": "token:WAVES",
+    "name": "Waves",
+    "shortName": "WAVES",
+    "nativeCoinId": "waves",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "bitcoin-cash",
+    "filePath": "token:BCH",
+    "caip2id": "bip122:000000000000000000651ef99cb9fcbe",
+    "name": "Bitcoin Cash",
+    "shortName": "BCH",
+    "nativeCoinId": "bitcoin-cash",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "core",
+    "filePath": "token:CORE",
+    "chainId": 1116,
+    "caip2id": "eip155:1116",
+    "name": "Core",
+    "shortName": "core",
+    "nativeCoinId": "coredaoorg",
+    "variants": ["branded", "background"]
+  },
+  {
+    "id": "dogecoin",
+    "filePath": "token:DOGE",
+    "caip2id": "bip122:1a91e3dace36e2be3bf030a65679fe82",
+    "name": "Dogecoin",
+    "shortName": "DOGE",
+    "nativeCoinId": "dogecoin",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "zcash",
+    "filePath": "token:ZEC",
+    "name": "Zcash",
+    "shortName": "ZEC",
+    "nativeCoinId": "zcash",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "vechain",
+    "filePath": "token:VET",
+    "name": "VeChain",
+    "shortName": "VET",
+    "nativeCoinId": "vechain",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "neo",
+    "filePath": "token:NEO",
+    "name": "NEO N3",
+    "shortName": "NEO",
+    "nativeCoinId": "neo",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "opbnb",
+    "filePath": "token:BNB",
+    "chainId": 204,
+    "caip2id": "eip155:204",
+    "name": "opBNB",
+    "shortName": "opBNB",
+    "nativeCoinId": "binancecoin",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "terra",
+    "filePath": "token:LUNA",
+    "caip2id": "cosmos:phoenix-1",
+    "name": "Terra",
+    "shortName": "LUNA",
+    "nativeCoinId": "terra-luna-2",
+    "variants": ["branded", "background"]
+  },
+  {
+    "id": "galachain",
+    "filePath": "token:GALA",
+    "name": "GalaChain",
+    "shortName": "GALA",
+    "nativeCoinId": "gala",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "vite",
+    "filePath": "token:VITE",
+    "name": "Vite",
+    "shortName": "VITE",
+    "nativeCoinId": "vite",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "wanchain",
+    "filePath": "token:WAN",
+    "chainId": 888,
+    "caip2id": "eip155:888",
+    "name": "Wanchain",
+    "shortName": "WAN",
+    "nativeCoinId": "wanchain",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "zigchain",
+    "filePath": "token:ZIG",
+    "caip2id": "cosmos:zigchain-1",
+    "name": "ZIGChain",
+    "shortName": "ZIG",
+    "nativeCoinId": "zignaly",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "dexalot",
+    "filePath": "token:ALOT",
+    "chainId": 432204,
+    "caip2id": "eip155:432204",
+    "name": "Dexalot Subnet",
+    "shortName": "dexalot",
+    "nativeCoinId": "dexalot",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "gate-layer",
+    "filePath": "token:GT",
+    "chainId": 10088,
+    "caip2id": "eip155:10088",
+    "name": "Gate Layer",
+    "shortName": "GateLayer",
+    "nativeCoinId": "gatechain-token",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "oasis-emerald",
+    "filePath": "token:ROSE",
+    "chainId": 42262,
+    "caip2id": "eip155:42262",
+    "name": "Oasis Emerald",
+    "shortName": "emerald",
+    "nativeCoinId": "oasis-network",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "oasis-sapphire",
+    "filePath": "token:ROSE",
+    "chainId": 23294,
+    "caip2id": "eip155:23294",
+    "name": "Oasis Sapphire",
+    "shortName": "sapphire",
+    "nativeCoinId": "oasis-network",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "electroneum",
+    "filePath": "token:ETN",
+    "chainId": 52014,
+    "caip2id": "eip155:52014",
+    "name": "Electroneum",
+    "shortName": "ETN",
+    "nativeCoinId": "electroneum",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "secret",
+    "filePath": "token:SCRT",
+    "caip2id": "cosmos:secret-4",
+    "name": "Secret Network",
+    "shortName": "SCRT",
+    "nativeCoinId": "secret",
+    "variants": ["mono", "branded", "background"]
+  },
+  {
+    "id": "ethereum-pow",
+    "filePath": "token:ETHW",
+    "chainId": 10001,
+    "caip2id": "eip155:10001",
+    "name": "EthereumPoW",
+    "shortName": "ETHW",
+    "nativeCoinId": "ethereum-pow-iou",
+    "variants": ["branded", "background"]
+  },
+  {
+    "id": "ergo",
+    "filePath": "token:ERG",
+    "name": "Ergo",
+    "shortName": "ERG",
+    "nativeCoinId": "ergo",
+    "variants": ["mono", "branded", "background"]
+  },
+  {
+    "id": "alephium",
+    "filePath": "token:ALPH",
+    "name": "Alephium",
+    "shortName": "ALPH",
+    "nativeCoinId": "alephium",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "icon",
+    "filePath": "token:ICX",
+    "name": "ICON",
+    "shortName": "ICX",
+    "nativeCoinId": "icon",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "celestia",
+    "filePath": "token:TIA",
+    "caip2id": "cosmos:celestia",
+    "name": "Celestia",
+    "shortName": "TIA",
+    "nativeCoinId": "celestia",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "kaspa",
+    "filePath": "token:KAS",
+    "name": "Kaspa",
+    "shortName": "KAS",
+    "nativeCoinId": "kaspa",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "canto",
+    "filePath": "token:CANTO",
+    "chainId": 7700,
+    "caip2id": "eip155:7700",
+    "name": "Canto",
+    "shortName": "canto",
+    "nativeCoinId": "canto",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "edu-chain",
+    "filePath": "token:EDU",
+    "chainId": 41923,
+    "caip2id": "eip155:41923",
+    "name": "EDU Chain",
+    "shortName": "EDU",
+    "nativeCoinId": "edu-coin",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "evmos",
+    "filePath": "token:EVMOS",
+    "chainId": 9001,
+    "caip2id": "eip155:9001",
+    "name": "Evmos",
+    "shortName": "evmos",
+    "nativeCoinId": "evmos",
+    "variants": ["branded", "mono", "background"]
+  },
+  {
+    "id": "numbers",
+    "filePath": "token:NUM",
+    "chainId": 10507,
+    "caip2id": "eip155:10507",
+    "name": "Numbers Mainnet",
+    "shortName": "Jade",
+    "nativeCoinId": "numbers-protocol",
+    "variants": ["branded", "mono", "background"]
   }
 ]

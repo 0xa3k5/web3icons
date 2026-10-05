@@ -21544,11 +21544,11 @@ export const tokens: ITokenMetadata[] = [
   },
   {
     id: 'cc',
-    name: 'Canton Network',
-    variants: ['background', 'branded', 'mono'],
     filePath: 'network:canton',
     symbol: 'CC',
+    name: 'Canton Network',
     marketCapRank: 0,
     addresses: {},
+    variants: ['background', 'branded', 'mono'],
   },
 ]

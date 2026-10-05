@@ -309,8 +309,8 @@ export const wallets: IWalletMetadata[] = [
   },
   {
     id: 'rabbit',
+    filePath: 'network:rabbit',
     name: 'Rabbit Wallet',
     variants: ['background', 'branded', 'mono'],
-    filePath: 'network:rabbit',
   },
 ]

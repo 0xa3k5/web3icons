@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (52)](#wallets)
-- [networks (252)](#networks)
+- [networks (289)](#networks)
 - [exchanges (30)](#exchanges)
 - [tokens (1851)](#tokens)
 
@@ -295,11 +295,12 @@ jump to section:
 | stable                      | Stablechain                     | ✅      | ✅   | ✅         |
 | juris                       | Juris Protocol                  | ✅      | ✅   | ✅         |
 | terra-classic               | Terra Classic                   | ✅      | ✅   | ✅         |
-| xdc-network                 | XDC Network                     | ✅      | ✅   | ✅         |
+| xdc-network                 | XDC Apothem Testnet             | ✅      | ✅   | ✅         |
 | crab                        | Crab                            | ✅      | ✅   | ✅         |
 | darwinia                    | Darwinia                        | ✅      | ✅   | ✅         |
 | genesis-l1                  | Genesis L1                      | ✅      | ✅   | ✅         |
 | tempo                       | Tempo                           | ✅      | ✅   | ✅         |
+| tempo-testnet               | Tempo Moderato Testnet          | ✅      | ✅   | ✅         |
 | uptick                      | Uptick                          | ✅      | ✅   | ✅         |
 | plasma                      | Plasma                          | ✅      | ✅   | ✅         |
 | ton                         | The Open Network                | ✅      | ✅   | ✅         |
@@ -318,6 +319,42 @@ jump to section:
 | anubis-testnet              | Anubis Testnet                  | ✅      | ✅   | ✅         |
 | canton                      | Canton Network                  | ✅      | ✅   | ✅         |
 | rabbit                      | Rabbit Chain                    | ✅      | ✅   | ✅         |
+| bittensor                   | Bittensor                       | ✅      | ✅   | ✅         |
+| dydx                        | dYdX Chain                      | ✅      | ✅   | ✅         |
+| hydration                   | Hydration                       | ✅      | ✅   | ✅         |
+| xpr-network                 | XPR Network                     | ✅      | ✅   | ✅         |
+| thorchain                   | THORChain                       | ✅      | ✅   | ✅         |
+| tezos                       | Tezos                           | ✅      | ✅   | ✅         |
+| internet-computer           | Internet Computer               | ✅      | ✅   | ✅         |
+| waves                       | Waves                           | ✅      | ✅   | ✅         |
+| bitcoin-cash                | Bitcoin Cash                    | ✅      | ✅   | ✅         |
+| core                        | Core                            | ✅      | ❌   | ✅         |
+| dogecoin                    | Dogecoin                        | ✅      | ✅   | ✅         |
+| zcash                       | Zcash                           | ✅      | ✅   | ✅         |
+| vechain                     | VeChain                         | ✅      | ✅   | ✅         |
+| neo                         | NEO N3                          | ✅      | ✅   | ✅         |
+| opbnb                       | opBNB                           | ✅      | ✅   | ✅         |
+| terra                       | Terra                           | ✅      | ❌   | ✅         |
+| galachain                   | GalaChain                       | ✅      | ✅   | ✅         |
+| vite                        | Vite                            | ✅      | ✅   | ✅         |
+| wanchain                    | Wanchain                        | ✅      | ✅   | ✅         |
+| zigchain                    | ZIGChain                        | ✅      | ✅   | ✅         |
+| dexalot                     | Dexalot Subnet                  | ✅      | ✅   | ✅         |
+| gate-layer                  | Gate Layer                      | ✅      | ✅   | ✅         |
+| oasis-emerald               | Oasis Emerald                   | ✅      | ✅   | ✅         |
+| oasis-sapphire              | Oasis Sapphire                  | ✅      | ✅   | ✅         |
+| electroneum                 | Electroneum                     | ✅      | ✅   | ✅         |
+| secret                      | Secret Network                  | ✅      | ✅   | ✅         |
+| ethereum-pow                | EthereumPoW                     | ✅      | ❌   | ✅         |
+| ergo                        | Ergo                            | ✅      | ✅   | ✅         |
+| alephium                    | Alephium                        | ✅      | ✅   | ✅         |
+| icon                        | ICON                            | ✅      | ✅   | ✅         |
+| celestia                    | Celestia                        | ✅      | ✅   | ✅         |
+| kaspa                       | Kaspa                           | ✅      | ✅   | ✅         |
+| canto                       | Canto                           | ✅      | ✅   | ✅         |
+| edu-chain                   | EDU Chain                       | ✅      | ✅   | ✅         |
+| evmos                       | Evmos                           | ✅      | ✅   | ✅         |
+| numbers                     | Numbers Mainnet                 | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
