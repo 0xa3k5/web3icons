@@ -1,5 +1,25 @@
 # @web3icons/common
 
+## 0.11.53
+
+### Patch Changes
+
+- aebfc6a: add 36 network entries that reuse existing token icons:
+
+  network: Bittensor, dYdX Chain, Hydration, XPR Network, THORChain, Tezos, Internet Computer, Waves, Bitcoin Cash, Core, Dogecoin, Zcash, VeChain, NEO N3, opBNB, Terra, GalaChain, Vite, Wanchain, ZIGChain, Dexalot Subnet, Gate Layer, Oasis Emerald, Oasis Sapphire, Electroneum, Secret Network, EthereumPoW, Ergo, Alephium, ICON, Celestia, Kaspa, Canto, EDU Chain, Evmos, Numbers Mainnet
+
+- aebfc6a: fix network metadata:
+  - wemix: chainId `111` → `1111` (matches caip2id)
+  - mega-eth: deprecated testnet `6342` → mainnet `4326`
+  - katana: Tatara testnet `129399` → mainnet `747474`
+  - autonomys: deprecated Taurus testnet `490000` → Auto EVM mainnet `870`
+  - near-protocol: remove incorrect EVM chainId `39`
+  - fuel: remove incorrect EVM chainId `9889` / caip2id
+  - manta-pacific: add caip2id `eip155:169`
+  - xdc-network (chain 51): rename to "XDC Apothem Testnet"
+  - tempo: add caip2id `eip155:4217`
+  - tempo-testnet: add caip2id `eip155:42431`
+
 ## 0.11.52
 
 ### Patch Changes
