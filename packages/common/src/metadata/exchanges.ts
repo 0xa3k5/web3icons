@@ -65,6 +65,13 @@ export const exchanges: IExchangeMetadata[] = [
     variants: ['branded', 'mono', 'background'],
   },
   {
+    id: 'coinex',
+    filePath: 'exchange:coinex',
+    name: 'CoinEx',
+    type: 'cex',
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
     id: 'cowswap',
     filePath: 'exchange:cowswap',
     name: 'Cow Swap',
@@ -195,6 +202,13 @@ export const exchanges: IExchangeMetadata[] = [
     filePath: 'network:hyper-evm',
     name: 'Hyperliquid',
     type: 'dex',
+    variants: ['background', 'branded', 'mono'],
+  },
+  {
+    id: 'robinhood',
+    filePath: 'network:robinhood',
+    name: 'Robinhood',
+    type: 'cex',
     variants: ['background', 'branded', 'mono'],
   },
 ]

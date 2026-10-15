@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
+    <g clip-path="url(#fluent__a)">
+        <path fill="#000" d="M24 0H0v24h24z"/>
+        <path fill="#fff" d="M19.998 6.713V4.5H4v2.213h7.12A15 15 0 0 0 7.56 9.79H4v2.213h2.005A14.96 14.96 0 0 0 4 19.5h2.198c0-2.801.901-5.393 2.424-7.5h4.156a9.73 9.73 0 0 0-3.525 7.5h2.198c0-4.137 3.343-7.5 7.45-7.5H20V9.787h-9.346A12.6 12.6 0 0 1 18.9 6.71H20z"/>
+    </g>
+    <defs>
+        <clipPath id="fluent__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

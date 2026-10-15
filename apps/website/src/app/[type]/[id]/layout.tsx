@@ -54,9 +54,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { type: string; id: string }
+  params: Promise<{ type: string; id: string }>
 }) {
-  const { type, id } = params
+  const { type, id } = await params
   const web3Type = type.slice(0, -1) as TType
   const metadata = findMetadata(web3Type, id)
 

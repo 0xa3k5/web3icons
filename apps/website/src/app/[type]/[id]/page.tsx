@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState } from 'react'
+import { use, useEffect, useState } from 'react'
 import { notFound } from 'next/navigation'
 import {
   tokens,
@@ -26,10 +26,10 @@ import {
 import Link from 'next/link'
 
 interface PageProps {
-  params: {
+  params: Promise<{
     type: `${TType}s`
     id: string
-  }
+  }>
 }
 
 const metadataMap: Record<TType, TMetadata[]> = {
@@ -40,7 +40,7 @@ const metadataMap: Record<TType, TMetadata[]> = {
 }
 
 export default function IconPage({ params }: PageProps) {
-  const { type, id } = params
+  const { type, id } = use(params)
   const web3Type = type.slice(0, -1) as TType
   const allItems = metadataMap[web3Type]
   const MORE_LIMIT = 20

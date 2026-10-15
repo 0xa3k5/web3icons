@@ -1,5 +1,86 @@
 # @web3icons/core
 
+## 4.0.58
+
+### Patch Changes
+
+- aebfc6a: add 36 network entries that reuse existing token icons:
+
+  network: Bittensor, dYdX Chain, Hydration, XPR Network, THORChain, Tezos, Internet Computer, Waves, Bitcoin Cash, Core, Dogecoin, Zcash, VeChain, NEO N3, opBNB, Terra, GalaChain, Vite, Wanchain, ZIGChain, Dexalot Subnet, Gate Layer, Oasis Emerald, Oasis Sapphire, Electroneum, Secret Network, EthereumPoW, Ergo, Alephium, ICON, Celestia, Kaspa, Canto, EDU Chain, Evmos, Numbers Mainnet
+
+- Updated dependencies [aebfc6a]
+- Updated dependencies [aebfc6a]
+  - @web3icons/common@0.11.53
+
+## 4.0.57
+
+### Patch Changes
+
+- d2919ea: network: Canton (`mono`, `branded`, `background`)
+  network: Rabbit (`mono`, `branded`, `background`)
+  token: CC (Canton Coin) (`mono`, `branded`, `background`)
+  wallet: Rabbit Wallet (`mono`, `branded`, `background`)
+- Updated dependencies [d2919ea]
+  - @web3icons/common@0.11.52
+
+## 4.0.56
+
+### Patch Changes
+
+- eca65e9: token: Animica (`mono`, `branded`, `background`)
+  network: Animica (`mono`, `branded`, `background`)
+- d578df4: network: Anubis (`mono`, `branded`, `background`)
+- Updated dependencies [eca65e9]
+- Updated dependencies [d578df4]
+  - @web3icons/common@0.11.51
+
+## 4.0.55
+
+### Patch Changes
+
+- 5f56071: token: Monerium EUR (`mono`, `branded`, `background`)
+  token: ADI (`mono`, `branded`, `background`)
+  token: ALEO (`mono`, `branded`, `background`)
+  token: Fogo (`mono`, `branded`, `background`)
+  token: NPRO (`mono`, `branded`, `background`)
+  token: Dogecoin (`mono`)
+  network: ADI Chain (`mono`, `branded`, `background`)
+  network: Aleo (`mono`, `branded`, `background`)
+  network: Fogo (`mono`, `branded`, `background`)
+- Updated dependencies [5f56071]
+  - @web3icons/common@0.11.50
+
+## 4.0.54
+
+### Patch Changes
+
+- 72f3d92: token: Utya (`mono`, `branded`, `background`)
+- 72f3d92: token: Tether Gold (`mono`)
+- Updated dependencies [72f3d92]
+- Updated dependencies [72f3d92]
+  - @web3icons/common@0.11.49
+
+## 4.0.53
+
+### Patch Changes
+
+- 431ce03: remove `typescript` from peerDependencies — it blocked installs for TypeScript 6 users and force-installed TypeScript for JS-only consumers (fixes #195)
+- 431ce03: emit `.d.ts` declarations for deep SVG imports (e.g. `@web3icons/core/svgs/tokens/branded/BTC.svg.js`), add missing `./svgs/exchanges/*` to package exports, and point the `types` field at the actual `dist/index.d.ts` (fixes #194)
+- Updated dependencies [431ce03]
+  - @web3icons/common@0.11.48
+
+## 4.0.52
+
+### Patch Changes
+
+- 8bf0347: network: add `Robinhood` (background, branded, mono)
+  network: add `Fluent` (background, branded, mono)
+  exchange: add `CoinEx` (background, branded, mono)
+  exchange: add `Robinhood` (background, branded, mono)
+  token: add `GRAM` (background, branded, mono)
+- Updated dependencies [8bf0347]
+  - @web3icons/common@0.11.47
+
 ## 4.0.51
 
 ### Patch Changes

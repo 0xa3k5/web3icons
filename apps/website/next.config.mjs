@@ -13,6 +13,14 @@ const withMDX = createMDX({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
+  // Force next-mdx-remote into the server bundle. When Next externalizes it,
+  // its jsx-runtime.cjs shim require()s react/jsx-runtime from node_modules
+  // (React 18) at runtime, while the App Router renders with Next's vendored
+  // React 19 — the resulting element-symbol mismatch breaks prerendering of
+  // MDX pages with "A React Element from an older version of React was
+  // rendered." Bundling it lets webpack alias the shim's require to the
+  // vendored React runtime.
+  transpilePackages: ['next-mdx-remote'],
   experimental: {
     mdxRs: false,
   },

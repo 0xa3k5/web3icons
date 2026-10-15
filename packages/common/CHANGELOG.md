@@ -1,5 +1,79 @@
 # @web3icons/common
 
+## 0.11.53
+
+### Patch Changes
+
+- aebfc6a: add 36 network entries that reuse existing token icons:
+
+  network: Bittensor, dYdX Chain, Hydration, XPR Network, THORChain, Tezos, Internet Computer, Waves, Bitcoin Cash, Core, Dogecoin, Zcash, VeChain, NEO N3, opBNB, Terra, GalaChain, Vite, Wanchain, ZIGChain, Dexalot Subnet, Gate Layer, Oasis Emerald, Oasis Sapphire, Electroneum, Secret Network, EthereumPoW, Ergo, Alephium, ICON, Celestia, Kaspa, Canto, EDU Chain, Evmos, Numbers Mainnet
+
+- aebfc6a: fix network metadata:
+  - wemix: chainId `111` → `1111` (matches caip2id)
+  - mega-eth: deprecated testnet `6342` → mainnet `4326`
+  - katana: Tatara testnet `129399` → mainnet `747474`
+  - autonomys: deprecated Taurus testnet `490000` → Auto EVM mainnet `870`
+  - near-protocol: remove incorrect EVM chainId `39`
+  - fuel: remove incorrect EVM chainId `9889` / caip2id
+  - manta-pacific: add caip2id `eip155:169`
+  - xdc-network (chain 51): rename to "XDC Apothem Testnet"
+  - tempo: add caip2id `eip155:4217`
+  - tempo-testnet: add caip2id `eip155:42431`
+
+## 0.11.52
+
+### Patch Changes
+
+- d2919ea: network: Canton (`mono`, `branded`, `background`)
+  network: Rabbit (`mono`, `branded`, `background`)
+  token: CC (Canton Coin) (`mono`, `branded`, `background`)
+  wallet: Rabbit Wallet (`mono`, `branded`, `background`)
+
+## 0.11.51
+
+### Patch Changes
+
+- eca65e9: token: Animica (`mono`, `branded`, `background`)
+  network: Animica (`mono`, `branded`, `background`)
+- d578df4: network: Anubis (`mono`, `branded`, `background`)
+
+## 0.11.50
+
+### Patch Changes
+
+- 5f56071: token: Monerium EUR (`mono`, `branded`, `background`)
+  token: ADI (`mono`, `branded`, `background`)
+  token: ALEO (`mono`, `branded`, `background`)
+  token: Fogo (`mono`, `branded`, `background`)
+  token: NPRO (`mono`, `branded`, `background`)
+  token: Dogecoin (`mono`)
+  network: ADI Chain (`mono`, `branded`, `background`)
+  network: Aleo (`mono`, `branded`, `background`)
+  network: Fogo (`mono`, `branded`, `background`)
+
+## 0.11.49
+
+### Patch Changes
+
+- 72f3d92: token: Utya (`mono`, `branded`, `background`)
+- 72f3d92: token: Tether Gold (`mono`)
+
+## 0.11.48
+
+### Patch Changes
+
+- 431ce03: remove `typescript` from peerDependencies — it blocked installs for TypeScript 6 users and force-installed TypeScript for JS-only consumers (fixes #195)
+
+## 0.11.47
+
+### Patch Changes
+
+- 8bf0347: network: add `Robinhood` (background, branded, mono)
+  network: add `Fluent` (background, branded, mono)
+  exchange: add `CoinEx` (background, branded, mono)
+  exchange: add `Robinhood` (background, branded, mono)
+  token: add `GRAM` (background, branded, mono)
+
 ## 0.11.46
 
 ### Patch Changes

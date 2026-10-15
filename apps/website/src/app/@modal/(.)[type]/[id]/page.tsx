@@ -1,4 +1,5 @@
 'use client'
+import { use } from 'react'
 import { useRouter } from 'next/navigation'
 import {
   tokens,
@@ -22,10 +23,10 @@ const VALID_TYPES = new Set(['tokens', 'networks', 'wallets', 'exchanges'])
 export default function Modal({
   params,
 }: {
-  params: { type: `${TType}s`; id: string }
+  params: Promise<{ type: `${TType}s`; id: string }>
 }) {
   const router = useRouter()
-  const { type, id } = params
+  const { type, id } = use(params)
 
   if (!type || !VALID_TYPES.has(type)) {
     return null

@@ -12,6 +12,7 @@ const dynamicIconImports = {
   ExchangeBtcturk: () => import('./dist/icons/exchanges/ExchangeBtcturk.js'),
   ExchangeBybit: () => import('./dist/icons/exchanges/ExchangeBybit.js'),
   ExchangeCoinbase: () => import('./dist/icons/exchanges/ExchangeCoinbase.js'),
+  ExchangeCoinex: () => import('./dist/icons/exchanges/ExchangeCoinex.js'),
   ExchangeCowswap: () => import('./dist/icons/exchanges/ExchangeCowswap.js'),
   ExchangeCryptoCom: () =>
     import('./dist/icons/exchanges/ExchangeCryptoCom.js'),
@@ -28,6 +29,8 @@ const dynamicIconImports = {
   ExchangeParadex: () => import('./dist/icons/exchanges/ExchangeParadex.js'),
   ExchangeParaSwap: () => import('./dist/icons/exchanges/ExchangeParaSwap.js'),
   ExchangeParibu: () => import('./dist/icons/exchanges/ExchangeParibu.js'),
+  ExchangeRobinhood: () =>
+    import('./dist/icons/exchanges/ExchangeRobinhood.js'),
   ExchangeSushiswap: () =>
     import('./dist/icons/exchanges/ExchangeSushiswap.js'),
   ExchangeSwissborg: () =>
@@ -38,8 +41,15 @@ const dynamicIconImports = {
   NetworkAbstractSepolia: () =>
     import('./dist/icons/networks/NetworkAbstractSepolia.js'),
   NetworkAcala: () => import('./dist/icons/networks/NetworkAcala.js'),
+  NetworkAdiChain: () => import('./dist/icons/networks/NetworkAdiChain.js'),
+  NetworkAleo: () => import('./dist/icons/networks/NetworkAleo.js'),
+  NetworkAlephium: () => import('./dist/icons/networks/NetworkAlephium.js'),
   NetworkAlgorand: () => import('./dist/icons/networks/NetworkAlgorand.js'),
   NetworkAmeChain: () => import('./dist/icons/networks/NetworkAmeChain.js'),
+  NetworkAnimica: () => import('./dist/icons/networks/NetworkAnimica.js'),
+  NetworkAnubis: () => import('./dist/icons/networks/NetworkAnubis.js'),
+  NetworkAnubisTestnet: () =>
+    import('./dist/icons/networks/NetworkAnubisTestnet.js'),
   NetworkApechain: () => import('./dist/icons/networks/NetworkApechain.js'),
   NetworkApexLayer: () => import('./dist/icons/networks/NetworkApexLayer.js'),
   NetworkAptos: () => import('./dist/icons/networks/NetworkAptos.js'),
@@ -68,8 +78,11 @@ const dynamicIconImports = {
   NetworkBinanceSmartChainTestnet: () =>
     import('./dist/icons/networks/NetworkBinanceSmartChainTestnet.js'),
   NetworkBitcoin: () => import('./dist/icons/networks/NetworkBitcoin.js'),
+  NetworkBitcoinCash: () =>
+    import('./dist/icons/networks/NetworkBitcoinCash.js'),
   NetworkBitkubChain: () =>
     import('./dist/icons/networks/NetworkBitkubChain.js'),
+  NetworkBittensor: () => import('./dist/icons/networks/NetworkBittensor.js'),
   NetworkBlast: () => import('./dist/icons/networks/NetworkBlast.js'),
   NetworkBlastSepolia: () =>
     import('./dist/icons/networks/NetworkBlastSepolia.js'),
@@ -79,7 +92,10 @@ const dynamicIconImports = {
     import('./dist/icons/networks/NetworkBobaSepolia.js'),
   NetworkBotanix: () => import('./dist/icons/networks/NetworkBotanix.js'),
   NetworkBouncebit: () => import('./dist/icons/networks/NetworkBouncebit.js'),
+  NetworkCanto: () => import('./dist/icons/networks/NetworkCanto.js'),
+  NetworkCanton: () => import('./dist/icons/networks/NetworkCanton.js'),
   NetworkCardano: () => import('./dist/icons/networks/NetworkCardano.js'),
+  NetworkCelestia: () => import('./dist/icons/networks/NetworkCelestia.js'),
   NetworkCelo: () => import('./dist/icons/networks/NetworkCelo.js'),
   NetworkCeloAlfajores: () =>
     import('./dist/icons/networks/NetworkCeloAlfajores.js'),
@@ -90,6 +106,7 @@ const dynamicIconImports = {
   NetworkCoinexSmartChain: () =>
     import('./dist/icons/networks/NetworkCoinexSmartChain.js'),
   NetworkConflux: () => import('./dist/icons/networks/NetworkConflux.js'),
+  NetworkCore: () => import('./dist/icons/networks/NetworkCore.js'),
   NetworkCorn: () => import('./dist/icons/networks/NetworkCorn.js'),
   NetworkCosmos: () => import('./dist/icons/networks/NetworkCosmos.js'),
   NetworkCosmosHub: () => import('./dist/icons/networks/NetworkCosmosHub.js'),
@@ -100,19 +117,29 @@ const dynamicIconImports = {
   NetworkCronosZkevm: () =>
     import('./dist/icons/networks/NetworkCronosZkevm.js'),
   NetworkDarwinia: () => import('./dist/icons/networks/NetworkDarwinia.js'),
+  NetworkDexalot: () => import('./dist/icons/networks/NetworkDexalot.js'),
   NetworkDiode: () => import('./dist/icons/networks/NetworkDiode.js'),
   NetworkDogechain: () => import('./dist/icons/networks/NetworkDogechain.js'),
+  NetworkDogecoin: () => import('./dist/icons/networks/NetworkDogecoin.js'),
+  NetworkDydx: () => import('./dist/icons/networks/NetworkDydx.js'),
   NetworkEdgeless: () => import('./dist/icons/networks/NetworkEdgeless.js'),
+  NetworkEduChain: () => import('./dist/icons/networks/NetworkEduChain.js'),
   NetworkElastos: () => import('./dist/icons/networks/NetworkElastos.js'),
+  NetworkElectroneum: () =>
+    import('./dist/icons/networks/NetworkElectroneum.js'),
   NetworkEnergyWeb: () => import('./dist/icons/networks/NetworkEnergyWeb.js'),
   NetworkEnuls: () => import('./dist/icons/networks/NetworkEnuls.js'),
   NetworkEos: () => import('./dist/icons/networks/NetworkEos.js'),
+  NetworkErgo: () => import('./dist/icons/networks/NetworkErgo.js'),
   NetworkEthereum: () => import('./dist/icons/networks/NetworkEthereum.js'),
   NetworkEthereumClassic: () =>
     import('./dist/icons/networks/NetworkEthereumClassic.js'),
   NetworkEthereumClassicMordor: () =>
     import('./dist/icons/networks/NetworkEthereumClassicMordor.js'),
+  NetworkEthereumPow: () =>
+    import('./dist/icons/networks/NetworkEthereumPow.js'),
   NetworkEtherlink: () => import('./dist/icons/networks/NetworkEtherlink.js'),
+  NetworkEvmos: () => import('./dist/icons/networks/NetworkEvmos.js'),
   NetworkExpchain: () => import('./dist/icons/networks/NetworkExpchain.js'),
   NetworkFantom: () => import('./dist/icons/networks/NetworkFantom.js'),
   NetworkFantomTestnet: () =>
@@ -126,9 +153,13 @@ const dynamicIconImports = {
   NetworkFlowTestnet: () =>
     import('./dist/icons/networks/NetworkFlowTestnet.js'),
   NetworkFluence: () => import('./dist/icons/networks/NetworkFluence.js'),
+  NetworkFluent: () => import('./dist/icons/networks/NetworkFluent.js'),
+  NetworkFogo: () => import('./dist/icons/networks/NetworkFogo.js'),
   NetworkFraxtal: () => import('./dist/icons/networks/NetworkFraxtal.js'),
   NetworkFuel: () => import('./dist/icons/networks/NetworkFuel.js'),
   NetworkFuse: () => import('./dist/icons/networks/NetworkFuse.js'),
+  NetworkGalachain: () => import('./dist/icons/networks/NetworkGalachain.js'),
+  NetworkGateLayer: () => import('./dist/icons/networks/NetworkGateLayer.js'),
   NetworkGenesisL1: () => import('./dist/icons/networks/NetworkGenesisL1.js'),
   NetworkGnosis: () => import('./dist/icons/networks/NetworkGnosis.js'),
   NetworkGoerli: () => import('./dist/icons/networks/NetworkGoerli.js'),
@@ -142,10 +173,14 @@ const dynamicIconImports = {
   NetworkHolesky: () => import('./dist/icons/networks/NetworkHolesky.js'),
   NetworkHubbleExchange: () =>
     import('./dist/icons/networks/NetworkHubbleExchange.js'),
+  NetworkHydration: () => import('./dist/icons/networks/NetworkHydration.js'),
   NetworkHyperEvm: () => import('./dist/icons/networks/NetworkHyperEvm.js'),
+  NetworkIcon: () => import('./dist/icons/networks/NetworkIcon.js'),
   NetworkImmutable: () => import('./dist/icons/networks/NetworkImmutable.js'),
   NetworkInjective: () => import('./dist/icons/networks/NetworkInjective.js'),
   NetworkInk: () => import('./dist/icons/networks/NetworkInk.js'),
+  NetworkInternetComputer: () =>
+    import('./dist/icons/networks/NetworkInternetComputer.js'),
   NetworkIotaEvm: () => import('./dist/icons/networks/NetworkIotaEvm.js'),
   NetworkIotex: () => import('./dist/icons/networks/NetworkIotex.js'),
   NetworkJapanOpenChain: () =>
@@ -157,6 +192,7 @@ const dynamicIconImports = {
   NetworkKakarot: () => import('./dist/icons/networks/NetworkKakarot.js'),
   NetworkKardia: () => import('./dist/icons/networks/NetworkKardia.js'),
   NetworkKarura: () => import('./dist/icons/networks/NetworkKarura.js'),
+  NetworkKaspa: () => import('./dist/icons/networks/NetworkKaspa.js'),
   NetworkKatana: () => import('./dist/icons/networks/NetworkKatana.js'),
   NetworkKava: () => import('./dist/icons/networks/NetworkKava.js'),
   NetworkKavaTestnet: () =>
@@ -216,13 +252,20 @@ const dynamicIconImports = {
   NetworkNahmii: () => import('./dist/icons/networks/NetworkNahmii.js'),
   NetworkNearProtocol: () =>
     import('./dist/icons/networks/NetworkNearProtocol.js'),
+  NetworkNeo: () => import('./dist/icons/networks/NetworkNeo.js'),
   NetworkNeonEvm: () => import('./dist/icons/networks/NetworkNeonEvm.js'),
   NetworkNeoX: () => import('./dist/icons/networks/NetworkNeoX.js'),
   NetworkNexis: () => import('./dist/icons/networks/NetworkNexis.js'),
   NetworkNibiru: () => import('./dist/icons/networks/NetworkNibiru.js'),
+  NetworkNumbers: () => import('./dist/icons/networks/NetworkNumbers.js'),
+  NetworkOasisEmerald: () =>
+    import('./dist/icons/networks/NetworkOasisEmerald.js'),
+  NetworkOasisSapphire: () =>
+    import('./dist/icons/networks/NetworkOasisSapphire.js'),
   NetworkOasys: () => import('./dist/icons/networks/NetworkOasys.js'),
   NetworkOkex: () => import('./dist/icons/networks/NetworkOkex.js'),
   NetworkOntology: () => import('./dist/icons/networks/NetworkOntology.js'),
+  NetworkOpbnb: () => import('./dist/icons/networks/NetworkOpbnb.js'),
   NetworkOptimism: () => import('./dist/icons/networks/NetworkOptimism.js'),
   NetworkOptimismSepolia: () =>
     import('./dist/icons/networks/NetworkOptimismSepolia.js'),
@@ -245,15 +288,18 @@ const dynamicIconImports = {
   NetworkProm: () => import('./dist/icons/networks/NetworkProm.js'),
   NetworkPulsechain: () => import('./dist/icons/networks/NetworkPulsechain.js'),
   NetworkPush: () => import('./dist/icons/networks/NetworkPush.js'),
+  NetworkRabbit: () => import('./dist/icons/networks/NetworkRabbit.js'),
   NetworkRari: () => import('./dist/icons/networks/NetworkRari.js'),
   NetworkRei: () => import('./dist/icons/networks/NetworkRei.js'),
   NetworkReya: () => import('./dist/icons/networks/NetworkReya.js'),
+  NetworkRobinhood: () => import('./dist/icons/networks/NetworkRobinhood.js'),
   NetworkRollux: () => import('./dist/icons/networks/NetworkRollux.js'),
   NetworkRonin: () => import('./dist/icons/networks/NetworkRonin.js'),
   NetworkRootstock: () => import('./dist/icons/networks/NetworkRootstock.js'),
   NetworkScroll: () => import('./dist/icons/networks/NetworkScroll.js'),
   NetworkScrollSepolia: () =>
     import('./dist/icons/networks/NetworkScrollSepolia.js'),
+  NetworkSecret: () => import('./dist/icons/networks/NetworkSecret.js'),
   NetworkSeiNetwork: () => import('./dist/icons/networks/NetworkSeiNetwork.js'),
   NetworkSepolia: () => import('./dist/icons/networks/NetworkSepolia.js'),
   NetworkShibarium: () => import('./dist/icons/networks/NetworkShibarium.js'),
@@ -284,10 +330,15 @@ const dynamicIconImports = {
   NetworkTelosTestnet: () =>
     import('./dist/icons/networks/NetworkTelosTestnet.js'),
   NetworkTempo: () => import('./dist/icons/networks/NetworkTempo.js'),
+  NetworkTempoTestnet: () =>
+    import('./dist/icons/networks/NetworkTempoTestnet.js'),
   NetworkTenet: () => import('./dist/icons/networks/NetworkTenet.js'),
+  NetworkTerra: () => import('./dist/icons/networks/NetworkTerra.js'),
   NetworkTerraClassic: () =>
     import('./dist/icons/networks/NetworkTerraClassic.js'),
+  NetworkTezos: () => import('./dist/icons/networks/NetworkTezos.js'),
   NetworkTheta: () => import('./dist/icons/networks/NetworkTheta.js'),
+  NetworkThorchain: () => import('./dist/icons/networks/NetworkThorchain.js'),
   NetworkThundercore: () =>
     import('./dist/icons/networks/NetworkThundercore.js'),
   NetworkTombchain: () => import('./dist/icons/networks/NetworkTombchain.js'),
@@ -303,8 +354,12 @@ const dynamicIconImports = {
   NetworkVanar: () => import('./dist/icons/networks/NetworkVanar.js'),
   NetworkVara: () => import('./dist/icons/networks/NetworkVara.js'),
   NetworkVaulta: () => import('./dist/icons/networks/NetworkVaulta.js'),
+  NetworkVechain: () => import('./dist/icons/networks/NetworkVechain.js'),
   NetworkVelas: () => import('./dist/icons/networks/NetworkVelas.js'),
   NetworkViction: () => import('./dist/icons/networks/NetworkViction.js'),
+  NetworkVite: () => import('./dist/icons/networks/NetworkVite.js'),
+  NetworkWanchain: () => import('./dist/icons/networks/NetworkWanchain.js'),
+  NetworkWaves: () => import('./dist/icons/networks/NetworkWaves.js'),
   NetworkWax: () => import('./dist/icons/networks/NetworkWax.js'),
   NetworkWemix: () => import('./dist/icons/networks/NetworkWemix.js'),
   NetworkWorld: () => import('./dist/icons/networks/NetworkWorld.js'),
@@ -312,12 +367,15 @@ const dynamicIconImports = {
   NetworkXdc: () => import('./dist/icons/networks/NetworkXdc.js'),
   NetworkXdcNetwork: () => import('./dist/icons/networks/NetworkXdcNetwork.js'),
   NetworkXLayer: () => import('./dist/icons/networks/NetworkXLayer.js'),
+  NetworkXprNetwork: () => import('./dist/icons/networks/NetworkXprNetwork.js'),
   NetworkXrp: () => import('./dist/icons/networks/NetworkXrp.js'),
+  NetworkZcash: () => import('./dist/icons/networks/NetworkZcash.js'),
   NetworkZeroNetwork: () =>
     import('./dist/icons/networks/NetworkZeroNetwork.js'),
   NetworkZetaChain: () => import('./dist/icons/networks/NetworkZetaChain.js'),
   NetworkZetachainTestnet: () =>
     import('./dist/icons/networks/NetworkZetachainTestnet.js'),
+  NetworkZigchain: () => import('./dist/icons/networks/NetworkZigchain.js'),
   NetworkZilliqa: () => import('./dist/icons/networks/NetworkZilliqa.js'),
   NetworkZircuit: () => import('./dist/icons/networks/NetworkZircuit.js'),
   NetworkZksync: () => import('./dist/icons/networks/NetworkZksync.js'),
@@ -349,6 +407,7 @@ const dynamicIconImports = {
   TokenACX: () => import('./dist/icons/tokens/TokenACX.js'),
   TokenADA: () => import('./dist/icons/tokens/TokenADA.js'),
   TokenADAPAD: () => import('./dist/icons/tokens/TokenADAPAD.js'),
+  TokenADI: () => import('./dist/icons/tokens/TokenADI.js'),
   TokenAGIX: () => import('./dist/icons/tokens/TokenAGIX.js'),
   TokenAGLA: () => import('./dist/icons/tokens/TokenAGLA.js'),
   TokenAGRS: () => import('./dist/icons/tokens/TokenAGRS.js'),
@@ -366,6 +425,7 @@ const dynamicIconImports = {
   TokenAITECH: () => import('./dist/icons/tokens/TokenAITECH.js'),
   TokenAKT: () => import('./dist/icons/tokens/TokenAKT.js'),
   TokenALCX: () => import('./dist/icons/tokens/TokenALCX.js'),
+  TokenALEO: () => import('./dist/icons/tokens/TokenALEO.js'),
   TokenALEPH: () => import('./dist/icons/tokens/TokenALEPH.js'),
   TokenALEX: () => import('./dist/icons/tokens/TokenALEX.js'),
   TokenALGB: () => import('./dist/icons/tokens/TokenALGB.js'),
@@ -377,6 +437,7 @@ const dynamicIconImports = {
   TokenALPACA: () => import('./dist/icons/tokens/TokenALPACA.js'),
   TokenALPH: () => import('./dist/icons/tokens/TokenALPH.js'),
   TokenAME: () => import('./dist/icons/tokens/TokenAME.js'),
+  TokenANM: () => import('./dist/icons/tokens/TokenANM.js'),
   TokenANT: () => import('./dist/icons/tokens/TokenANT.js'),
   TokenAPE: () => import('./dist/icons/tokens/TokenAPE.js'),
   TokenAPEFI: () => import('./dist/icons/tokens/TokenAPEFI.js'),
@@ -543,6 +604,7 @@ const dynamicIconImports = {
   TokenCBTC: () => import('./dist/icons/tokens/TokenCBTC.js'),
   TokenCBX: () => import('./dist/icons/tokens/TokenCBX.js'),
   TokenCBY: () => import('./dist/icons/tokens/TokenCBY.js'),
+  TokenCC: () => import('./dist/icons/tokens/TokenCC.js'),
   TokenCCD: () => import('./dist/icons/tokens/TokenCCD.js'),
   TokenCCT: () => import('./dist/icons/tokens/TokenCCT.js'),
   TokenCCV2: () => import('./dist/icons/tokens/TokenCCV2.js'),
@@ -802,6 +864,7 @@ const dynamicIconImports = {
   TokenEUL: () => import('./dist/icons/tokens/TokenEUL.js'),
   TokenEUNO: () => import('./dist/icons/tokens/TokenEUNO.js'),
   TokenEURC: () => import('./dist/icons/tokens/TokenEURC.js'),
+  TokenEURE: () => import('./dist/icons/tokens/TokenEURE.js'),
   TokenEUROE: () => import('./dist/icons/tokens/TokenEUROE.js'),
   TokenEURS: () => import('./dist/icons/tokens/TokenEURS.js'),
   TokenEURT: () => import('./dist/icons/tokens/TokenEURT.js'),
@@ -845,6 +908,7 @@ const dynamicIconImports = {
   TokenFLX: () => import('./dist/icons/tokens/TokenFLX.js'),
   TokenFNSA: () => import('./dist/icons/tokens/TokenFNSA.js'),
   TokenFOAM: () => import('./dist/icons/tokens/TokenFOAM.js'),
+  TokenFOGO: () => import('./dist/icons/tokens/TokenFOGO.js'),
   TokenFOLD: () => import('./dist/icons/tokens/TokenFOLD.js'),
   TokenFOOM: () => import('./dist/icons/tokens/TokenFOOM.js'),
   TokenFOR: () => import('./dist/icons/tokens/TokenFOR.js'),
@@ -938,6 +1002,7 @@ const dynamicIconImports = {
   TokenGRAI: () => import('./dist/icons/tokens/TokenGRAI.js'),
   TokenGRAIL: () => import('./dist/icons/tokens/TokenGRAIL.js'),
   TokenGRAIN: () => import('./dist/icons/tokens/TokenGRAIN.js'),
+  TokenGRAM: () => import('./dist/icons/tokens/TokenGRAM.js'),
   TokenGRAV: () => import('./dist/icons/tokens/TokenGRAV.js'),
   TokenGRC: () => import('./dist/icons/tokens/TokenGRC.js'),
   TokenGRG: () => import('./dist/icons/tokens/TokenGRG.js'),
@@ -1395,6 +1460,7 @@ const dynamicIconImports = {
   TokenNOS: () => import('./dist/icons/tokens/TokenNOS.js'),
   TokenNPC: () => import('./dist/icons/tokens/TokenNPC.js'),
   TokenNPM: () => import('./dist/icons/tokens/TokenNPM.js'),
+  TokenNPRO: () => import('./dist/icons/tokens/TokenNPRO.js'),
   TokenNPXS: () => import('./dist/icons/tokens/TokenNPXS.js'),
   TokenNRCH: () => import('./dist/icons/tokens/TokenNRCH.js'),
   TokenNRG: () => import('./dist/icons/tokens/TokenNRG.js'),
@@ -1976,6 +2042,7 @@ const dynamicIconImports = {
   TokenUSN: () => import('./dist/icons/tokens/TokenUSN.js'),
   TokenUSTC: () => import('./dist/icons/tokens/TokenUSTC.js'),
   TokenUTK: () => import('./dist/icons/tokens/TokenUTK.js'),
+  TokenUTYA: () => import('./dist/icons/tokens/TokenUTYA.js'),
   TokenUW3S: () => import('./dist/icons/tokens/TokenUW3S.js'),
   TokenUWU: () => import('./dist/icons/tokens/TokenUWU.js'),
   TokenVAB: () => import('./dist/icons/tokens/TokenVAB.js'),
@@ -2200,6 +2267,7 @@ const dynamicIconImports = {
   WalletPhantom: () => import('./dist/icons/wallets/WalletPhantom.js'),
   WalletPillar: () => import('./dist/icons/wallets/WalletPillar.js'),
   WalletPortal: () => import('./dist/icons/wallets/WalletPortal.js'),
+  WalletRabbit: () => import('./dist/icons/wallets/WalletRabbit.js'),
   WalletRabby: () => import('./dist/icons/wallets/WalletRabby.js'),
   WalletRainbow: () => import('./dist/icons/wallets/WalletRainbow.js'),
   WalletRonin: () => import('./dist/icons/wallets/WalletRonin.js'),

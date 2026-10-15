@@ -1,9 +1,9 @@
 jump to section:
 
-- [wallets (51)](#wallets)
-- [networks (242)](#networks)
-- [exchanges (28)](#exchanges)
-- [tokens (1842)](#tokens)
+- [wallets (52)](#wallets)
+- [networks (289)](#networks)
+- [exchanges (30)](#exchanges)
+- [tokens (1851)](#tokens)
 
 ### Wallets
 
@@ -60,6 +60,7 @@ jump to section:
 | ambire          | Ambire          | ✅      | ✅   | ✅         |
 | cypherock       | Cypherock       | ✅      | ✅   | ✅         |
 | daimo           | Daimo Pay       | ✅      | ✅   | ✅         |
+| rabbit          | Rabbit Wallet   | ✅      | ✅   | ✅         |
 
 ### Networks
 
@@ -294,11 +295,12 @@ jump to section:
 | stable                      | Stablechain                     | ✅      | ✅   | ✅         |
 | juris                       | Juris Protocol                  | ✅      | ✅   | ✅         |
 | terra-classic               | Terra Classic                   | ✅      | ✅   | ✅         |
-| xdc-network                 | XDC Network                     | ✅      | ✅   | ✅         |
+| xdc-network                 | XDC Apothem Testnet             | ✅      | ✅   | ✅         |
 | crab                        | Crab                            | ✅      | ✅   | ✅         |
 | darwinia                    | Darwinia                        | ✅      | ✅   | ✅         |
 | genesis-l1                  | Genesis L1                      | ✅      | ✅   | ✅         |
 | tempo                       | Tempo                           | ✅      | ✅   | ✅         |
+| tempo-testnet               | Tempo Moderato Testnet          | ✅      | ✅   | ✅         |
 | uptick                      | Uptick                          | ✅      | ✅   | ✅         |
 | plasma                      | Plasma                          | ✅      | ✅   | ✅         |
 | ton                         | The Open Network                | ✅      | ✅   | ✅         |
@@ -307,6 +309,52 @@ jump to section:
 | pulsechain                  | Pulsechain                      | ✅      | ✅   | ✅         |
 | monad-testnet               | Monad Testnet                   | ✅      | ✅   | ✅         |
 | citrea                      | Citrea                          | ✅      | ✅   | ✅         |
+| fluent                      | Fluent                          | ✅      | ✅   | ✅         |
+| robinhood                   | Robinhood                       | ✅      | ✅   | ✅         |
+| adi-chain                   | ADI Chain                       | ✅      | ✅   | ✅         |
+| aleo                        | Aleo                            | ✅      | ✅   | ✅         |
+| fogo                        | Fogo                            | ✅      | ✅   | ✅         |
+| animica                     | Animica                         | ✅      | ✅   | ✅         |
+| anubis                      | Anubis                          | ✅      | ✅   | ✅         |
+| anubis-testnet              | Anubis Testnet                  | ✅      | ✅   | ✅         |
+| canton                      | Canton Network                  | ✅      | ✅   | ✅         |
+| rabbit                      | Rabbit Chain                    | ✅      | ✅   | ✅         |
+| bittensor                   | Bittensor                       | ✅      | ✅   | ✅         |
+| dydx                        | dYdX Chain                      | ✅      | ✅   | ✅         |
+| hydration                   | Hydration                       | ✅      | ✅   | ✅         |
+| xpr-network                 | XPR Network                     | ✅      | ✅   | ✅         |
+| thorchain                   | THORChain                       | ✅      | ✅   | ✅         |
+| tezos                       | Tezos                           | ✅      | ✅   | ✅         |
+| internet-computer           | Internet Computer               | ✅      | ✅   | ✅         |
+| waves                       | Waves                           | ✅      | ✅   | ✅         |
+| bitcoin-cash                | Bitcoin Cash                    | ✅      | ✅   | ✅         |
+| core                        | Core                            | ✅      | ❌   | ✅         |
+| dogecoin                    | Dogecoin                        | ✅      | ✅   | ✅         |
+| zcash                       | Zcash                           | ✅      | ✅   | ✅         |
+| vechain                     | VeChain                         | ✅      | ✅   | ✅         |
+| neo                         | NEO N3                          | ✅      | ✅   | ✅         |
+| opbnb                       | opBNB                           | ✅      | ✅   | ✅         |
+| terra                       | Terra                           | ✅      | ❌   | ✅         |
+| galachain                   | GalaChain                       | ✅      | ✅   | ✅         |
+| vite                        | Vite                            | ✅      | ✅   | ✅         |
+| wanchain                    | Wanchain                        | ✅      | ✅   | ✅         |
+| zigchain                    | ZIGChain                        | ✅      | ✅   | ✅         |
+| dexalot                     | Dexalot Subnet                  | ✅      | ✅   | ✅         |
+| gate-layer                  | Gate Layer                      | ✅      | ✅   | ✅         |
+| oasis-emerald               | Oasis Emerald                   | ✅      | ✅   | ✅         |
+| oasis-sapphire              | Oasis Sapphire                  | ✅      | ✅   | ✅         |
+| electroneum                 | Electroneum                     | ✅      | ✅   | ✅         |
+| secret                      | Secret Network                  | ✅      | ✅   | ✅         |
+| ethereum-pow                | EthereumPoW                     | ✅      | ❌   | ✅         |
+| ergo                        | Ergo                            | ✅      | ✅   | ✅         |
+| alephium                    | Alephium                        | ✅      | ✅   | ✅         |
+| icon                        | ICON                            | ✅      | ✅   | ✅         |
+| celestia                    | Celestia                        | ✅      | ✅   | ✅         |
+| kaspa                       | Kaspa                           | ✅      | ✅   | ✅         |
+| canto                       | Canto                           | ✅      | ✅   | ✅         |
+| edu-chain                   | EDU Chain                       | ✅      | ✅   | ✅         |
+| evmos                       | Evmos                           | ✅      | ✅   | ✅         |
+| numbers                     | Numbers Mainnet                 | ✅      | ✅   | ✅         |
 
 ### Exchanges
 
@@ -321,6 +369,7 @@ jump to section:
 | btcturk      | BTC Turk     | cex  | ✅      | ✅   | ✅         |
 | bybit        | Bybit        | cex  | ✅      | ✅   | ✅         |
 | coinbase     | Coinbase     | dex  | ✅      | ✅   | ✅         |
+| coinex       | CoinEx       | cex  | ✅      | ✅   | ✅         |
 | cowswap      | Cow Swap     | dex  | ✅      | ✅   | ✅         |
 | crypto-com   | Crypto.com   | cex  | ✅      | ✅   | ✅         |
 | gate-io      | Gate Io      | cex  | ✅      | ✅   | ✅         |
@@ -340,6 +389,7 @@ jump to section:
 | paradex      | Paradex      | dex  | ✅      | ✅   | ✅         |
 | bitget       | Bitget       | cex  | ✅      | ✅   | ✅         |
 | hyperliquid  | Hyperliquid  | dex  | ✅      | ✅   | ✅         |
+| robinhood    | Robinhood    | cex  | ✅      | ✅   | ✅         |
 
 ### Tokens
 
@@ -360,6 +410,7 @@ jump to section:
 | Acria.AI                               | acria       | ✅      | ✅   | ✅         |
 | Across Protocol                        | acx         | ✅      | ✅   | ✅         |
 | ADAPad                                 | adapad      | ✅      | ✅   | ✅         |
+| ADI                                    | adi         | ✅      | ✅   | ✅         |
 | aelf                                   | elf         | ✅      | ✅   | ✅         |
 | Affyn                                  | fyn         | ✅      | ✅   | ✅         |
 | Agoras: Currency of Tau                | agrs        | ✅      | ✅   | ✅         |
@@ -380,6 +431,7 @@ jump to section:
 | Alchemix                               | alcx        | ✅      | ✅   | ✅         |
 | Alchemy Pay                            | ach         | ✅      | ✅   | ✅         |
 | Aldrin                                 | rin         | ✅      | ✅   | ✅         |
+| ALEO                                   | aleo        | ✅      | ✅   | ✅         |
 | Aleph.im                               | aleph       | ✅      | ✅   | ✅         |
 | Aleph Zero                             | azero       | ✅      | ✅   | ✅         |
 | Alephium                               | alph        | ✅      | ✅   | ✅         |
@@ -770,7 +822,7 @@ jump to section:
 | Doge Eat Doge                          | omnom       | ✅      | ❌   | ✅         |
 | DogeBonk                               | dobo        | ✅      | ❌   | ✅         |
 | Dogechain                              | dc          | ✅      | ✅   | ✅         |
-| Dogecoin                               | doge        | ✅      | ❌   | ✅         |
+| Dogecoin                               | doge        | ✅      | ✅   | ✅         |
 | DogeGF                                 | dogegf      | ✅      | ❌   | ✅         |
 | Dogelon Mars                           | elon        | ✅      | ❌   | ✅         |
 | DOLA Borrowing Right                   | dbr         | ✅      | ✅   | ✅         |
@@ -900,6 +952,7 @@ jump to section:
 | Fluid                                  | fluid       | ✅      | ✅   | ✅         |
 | SEDA Protocol                          | flx         | ✅      | ✅   | ✅         |
 | FOAM                                   | foam        | ✅      | ❌   | ✅         |
+| Fogo                                   | fogo        | ✅      | ✅   | ✅         |
 | Foom                                   | foom        | ✅      | ❌   | ✅         |
 | ForTube                                | for         | ✅      | ✅   | ✅         |
 | FORE Protocol                          | fore        | ✅      | ✅   | ✅         |
@@ -983,6 +1036,7 @@ jump to section:
 | CVI                                    | govi        | ✅      | ✅   | ✅         |
 | Göztepe S.K. Fan Token                 | goz         | ✅      | ❌   | ✅         |
 | Grai                                   | grai        | ✅      | ✅   | ✅         |
+| Gram                                   | gram        | ✅      | ✅   | ✅         |
 | Granary                                | grain       | ✅      | ✅   | ✅         |
 | GraphLinq Protocol                     | glq         | ✅      | ✅   | ✅         |
 | Graviton                               | grav        | ✅      | ✅   | ✅         |
@@ -1345,6 +1399,7 @@ jump to section:
 | MOE                                    | moe         | ✅      | ❌   | ✅         |
 | Mog Coin                               | mog         | ✅      | ❌   | ✅         |
 | Monavale                               | mona        | ✅      | ✅   | ✅         |
+| Monerium EUR                           | eure        | ✅      | ✅   | ✅         |
 | Monero                                 | xmr         | ✅      | ✅   | ✅         |
 | Monetha                                | mth         | ✅      | ✅   | ✅         |
 | r/CryptoCurrency Moons                 | moon        | ✅      | ❌   | ✅         |
@@ -1417,6 +1472,7 @@ jump to section:
 | Nord Finance                           | nord        | ✅      | ✅   | ✅         |
 | Nosana                                 | nos         | ✅      | ✅   | ✅         |
 | Not Financial Advice                   | nfai        | ✅      | ✅   | ✅         |
+| NPRO                                   | npro        | ✅      | ✅   | ✅         |
 | Nucleon xCFX                           | xcfx        | ✅      | ✅   | ✅         |
 | nuco.cloud                             | ncdt        | ✅      | ✅   | ✅         |
 | NULS                                   | nuls        | ✅      | ✅   | ✅         |
@@ -1919,7 +1975,7 @@ jump to section:
 | TerraClassicUSD                        | ustc        | ✅      | ❌   | ✅         |
 | Tether                                 | usdt        | ✅      | ✅   | ✅         |
 | Euro Tether                            | eurt        | ✅      | ✅   | ✅         |
-| Tether Gold                            | xaut        | ✅      | ❌   | ✅         |
+| Tether Gold                            | xaut        | ✅      | ✅   | ✅         |
 | TETU                                   | tetu        | ✅      | ✅   | ✅         |
 | Tezos                                  | xtz         | ✅      | ✅   | ✅         |
 | tGOLD                                  | txau        | ✅      | ✅   | ✅         |
@@ -2013,6 +2069,7 @@ jump to section:
 | USDX                                   | usdx        | ✅      | ✅   | ✅         |
 | Utility Web3Shot                       | uw3s        | ✅      | ✅   | ✅         |
 | xMoney                                 | utk         | ✅      | ✅   | ✅         |
+| Utya                                   | utya        | ✅      | ✅   | ✅         |
 | UwU Lend                               | uwu         | ✅      | ❌   | ✅         |
 | V.SYSTEMS                              | vsys        | ✅      | ✅   | ✅         |
 | Vabble                                 | vab         | ✅      | ✅   | ✅         |
@@ -2187,3 +2244,5 @@ jump to section:
 | Pulsechain                             | PLS         | ✅      | ✅   | ✅         |
 | cBTC                                   | CBTC        | ✅      | ✅   | ✅         |
 | USDe                                   | USDE        | ✅      | ✅   | ✅         |
+| Animica                                | ANM         | ✅      | ✅   | ✅         |
+| Canton Network                         | CC          | ✅      | ✅   | ✅         |

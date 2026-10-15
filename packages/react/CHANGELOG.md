@@ -1,5 +1,84 @@
 # @web3icons/react
 
+## 4.1.24
+
+### Patch Changes
+
+- aebfc6a: add 36 network entries that reuse existing token icons:
+
+  network: Bittensor, dYdX Chain, Hydration, XPR Network, THORChain, Tezos, Internet Computer, Waves, Bitcoin Cash, Core, Dogecoin, Zcash, VeChain, NEO N3, opBNB, Terra, GalaChain, Vite, Wanchain, ZIGChain, Dexalot Subnet, Gate Layer, Oasis Emerald, Oasis Sapphire, Electroneum, Secret Network, EthereumPoW, Ergo, Alephium, ICON, Celestia, Kaspa, Canto, EDU Chain, Evmos, Numbers Mainnet
+
+- Updated dependencies [aebfc6a]
+- Updated dependencies [aebfc6a]
+  - @web3icons/common@0.11.53
+
+## 4.1.23
+
+### Patch Changes
+
+- d2919ea: network: Canton (`mono`, `branded`, `background`)
+  network: Rabbit (`mono`, `branded`, `background`)
+  token: CC (Canton Coin) (`mono`, `branded`, `background`)
+  wallet: Rabbit Wallet (`mono`, `branded`, `background`)
+- Updated dependencies [d2919ea]
+  - @web3icons/common@0.11.52
+
+## 4.1.22
+
+### Patch Changes
+
+- eca65e9: token: Animica (`mono`, `branded`, `background`)
+  network: Animica (`mono`, `branded`, `background`)
+- d578df4: network: Anubis (`mono`, `branded`, `background`)
+- Updated dependencies [eca65e9]
+- Updated dependencies [d578df4]
+  - @web3icons/common@0.11.51
+
+## 4.1.21
+
+### Patch Changes
+
+- 5f56071: token: Monerium EUR (`mono`, `branded`, `background`)
+  token: ADI (`mono`, `branded`, `background`)
+  token: ALEO (`mono`, `branded`, `background`)
+  token: Fogo (`mono`, `branded`, `background`)
+  token: NPRO (`mono`, `branded`, `background`)
+  token: Dogecoin (`mono`)
+  network: ADI Chain (`mono`, `branded`, `background`)
+  network: Aleo (`mono`, `branded`, `background`)
+  network: Fogo (`mono`, `branded`, `background`)
+- Updated dependencies [5f56071]
+  - @web3icons/common@0.11.50
+
+## 4.1.20
+
+### Patch Changes
+
+- 72f3d92: token: Utya (`mono`, `branded`, `background`)
+- 72f3d92: token: Tether Gold (`mono`)
+- Updated dependencies [72f3d92]
+- Updated dependencies [72f3d92]
+  - @web3icons/common@0.11.49
+
+## 4.1.19
+
+### Patch Changes
+
+- Updated dependencies [431ce03]
+  - @web3icons/common@0.11.48
+
+## 4.1.18
+
+### Patch Changes
+
+- 8bf0347: network: add `Robinhood` (background, branded, mono)
+  network: add `Fluent` (background, branded, mono)
+  exchange: add `CoinEx` (background, branded, mono)
+  exchange: add `Robinhood` (background, branded, mono)
+  token: add `GRAM` (background, branded, mono)
+- Updated dependencies [8bf0347]
+  - @web3icons/common@0.11.47
+
 ## 4.1.17
 
 ### Patch Changes

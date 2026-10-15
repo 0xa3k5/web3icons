@@ -307,4 +307,10 @@ export const wallets: IWalletMetadata[] = [
     name: 'Daimo Pay',
     variants: ['background', 'branded', 'mono'],
   },
+  {
+    id: 'rabbit',
+    filePath: 'network:rabbit',
+    name: 'Rabbit Wallet',
+    variants: ['background', 'branded', 'mono'],
+  },
 ]

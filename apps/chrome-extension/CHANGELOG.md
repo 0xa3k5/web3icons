@@ -1,5 +1,65 @@
 # @web3icons/chrome-extension
 
+## 1.0.8
+
+### Patch Changes
+
+- Updated dependencies [aebfc6a]
+- Updated dependencies [aebfc6a]
+  - @web3icons/common@0.11.53
+  - @web3icons/core@4.0.58
+
+## 1.0.7
+
+### Patch Changes
+
+- Updated dependencies [d2919ea]
+  - @web3icons/common@0.11.52
+  - @web3icons/core@4.0.57
+
+## 1.0.6
+
+### Patch Changes
+
+- Updated dependencies [eca65e9]
+- Updated dependencies [d578df4]
+  - @web3icons/common@0.11.51
+  - @web3icons/core@4.0.56
+
+## 1.0.5
+
+### Patch Changes
+
+- Updated dependencies [5f56071]
+  - @web3icons/common@0.11.50
+  - @web3icons/core@4.0.55
+
+## 1.0.4
+
+### Patch Changes
+
+- Updated dependencies [72f3d92]
+- Updated dependencies [72f3d92]
+  - @web3icons/common@0.11.49
+  - @web3icons/core@4.0.54
+
+## 1.0.3
+
+### Patch Changes
+
+- Updated dependencies [431ce03]
+- Updated dependencies [431ce03]
+  - @web3icons/common@0.11.48
+  - @web3icons/core@4.0.53
+
+## 1.0.2
+
+### Patch Changes
+
+- Updated dependencies [8bf0347]
+  - @web3icons/common@0.11.47
+  - @web3icons/core@4.0.52
+
 ## 1.0.1
 
 ### Patch Changes
