@@ -16,6 +16,7 @@ import {
   SearchInput,
   Tag,
   UsedBy,
+  ProductHuntBadge,
 } from '../components'
 import { Button } from '../components/button'
 import { useAppContext } from '../hooks'
@@ -55,39 +56,42 @@ export default function Home() {
 
   return (
     <div className="flex min-h-full w-full flex-col gap-4 py-8 font-mono max-sm:px-4 sm:py-16 md:gap-16">
-      <div className="flex max-w-2xl flex-col gap-4">
-        <h1 className="max-w-40 text-4xl tracking-widest">web3 icons</h1>
-        <span className="text-white/40">
-          Web3 Icons is the most comprehensive and up-to-date source for tokens,
-          coins, networks and wallet logos as icon format. More than 2,500 icons
-          are ready as optimized SVGs as well as React components.
-        </span>
-        <CodeBlock
-          lineNumbers={false}
-          tabs={[
-            {
-              label: 'npm',
-              content: 'npm i @web3icons/react',
-              language: 'bash',
-            },
-            {
-              label: 'yarn',
-              content: 'yarn add @web3icons/react',
-              language: 'bash',
-            },
-            {
-              label: 'bun',
-              content: 'bun add @web3icons/react',
-              language: 'bash',
-            },
-            {
-              label: 'pnpm',
-              content: 'pnpm add @web3icons/react',
-              language: 'bash',
-            },
-          ]}
-          classNames="max-h-32"
-        />
+      <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
+        <div className="flex max-w-2xl flex-col gap-4">
+          <h1 className="max-w-40 text-4xl tracking-widest">web3 icons</h1>
+          <span className="text-white/40">
+            Web3 Icons is the most comprehensive and up-to-date source for
+            tokens, coins, networks and wallet logos as icon format. More than
+            2,500 icons are ready as optimized SVGs as well as React components.
+          </span>
+          <CodeBlock
+            lineNumbers={false}
+            tabs={[
+              {
+                label: 'npm',
+                content: 'npm i @web3icons/react',
+                language: 'bash',
+              },
+              {
+                label: 'yarn',
+                content: 'yarn add @web3icons/react',
+                language: 'bash',
+              },
+              {
+                label: 'bun',
+                content: 'bun add @web3icons/react',
+                language: 'bash',
+              },
+              {
+                label: 'pnpm',
+                content: 'pnpm add @web3icons/react',
+                language: 'bash',
+              },
+            ]}
+            classNames="max-h-32"
+          />
+        </div>
+        <ProductHuntBadge className="shrink-0" />
       </div>
       <UsedBy />
       <Tabs

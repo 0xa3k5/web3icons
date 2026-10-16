@@ -12,6 +12,7 @@
         "package.json"
       ],
       "outputs": [".next/**", "!.next/cache/**", "dist/**"],
+      "env": ["NEXT_PUBLIC_SHOW_PRODUCT_HUNT_BADGE"],
       "cache": true
     },
     "@web3icons/react#build": {
