@@ -308,7 +308,7 @@ For projects that don't use React, icons are available as optimized `*.svg` file
 
 ## License
 
-[MIT](https://github.com/0xa3k5/web3icons/blob/main/LICENSE)
+[MIT](https://github.com/0xa3k5/web3icons/blob/main/LICENCE)
 
 ## Give a Star ⭐️
 
