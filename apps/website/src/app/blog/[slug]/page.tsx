@@ -111,6 +111,7 @@ export default async function BlogPost({
     source,
     options: {
       parseFrontmatter: true,
+      blockJS: false,
       mdxOptions: {
         remarkPlugins: [remarkGfm],
         rehypePlugins: [rehypeSlug],
