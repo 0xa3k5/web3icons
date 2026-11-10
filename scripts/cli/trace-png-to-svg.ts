@@ -46,13 +46,25 @@ function parseArgs(): TraceOptions {
   const args = process.argv.slice(2)
 
   if (args.length < 2) {
-    console.error(chalk.red('Usage: bun trace-png-to-svg <input> <output.svg> [options]'))
-    console.error(chalk.dim('  --mono            Mono variant (fill="white", max 16px)'))
-    console.error(chalk.dim('  --background      Background variant (max 14px)'))
-    console.error(chalk.dim('  --threshold N     Black/white cutoff (0-255, default: 128)'))
+    console.error(
+      chalk.red('Usage: bun trace-png-to-svg <input> <output.svg> [options]'),
+    )
+    console.error(
+      chalk.dim('  --mono            Mono variant (fill="white", max 16px)'),
+    )
+    console.error(
+      chalk.dim('  --background      Background variant (max 14px)'),
+    )
+    console.error(
+      chalk.dim('  --threshold N     Black/white cutoff (0-255, default: 128)'),
+    )
     console.error(chalk.dim('  --color HEX       Fill color (e.g., "#1E90FF")'))
-    console.error(chalk.dim('  --turnpolicy P    black|white|left|right|minority|majority'))
-    console.error(chalk.dim('  --turdsize N      Speckle suppression size (default: 2)'))
+    console.error(
+      chalk.dim('  --turnpolicy P    black|white|left|right|minority|majority'),
+    )
+    console.error(
+      chalk.dim('  --turdsize N      Speckle suppression size (default: 2)'),
+    )
     process.exit(1)
   }
 
@@ -88,7 +100,16 @@ function parseArgs(): TraceOptions {
     }
   }
 
-  return { inputPath, outputPath, mono, background, threshold, color, turnPolicy, turdSize }
+  return {
+    inputPath,
+    outputPath,
+    mono,
+    background,
+    threshold,
+    color,
+    turnPolicy,
+    turdSize,
+  }
 }
 
 function ensurePotraceInstalled(): void {
@@ -116,7 +137,10 @@ function ensureSharpAvailable(): void {
     require.resolve('sharp')
   } catch {
     console.log(chalk.yellow('sharp not found. Installing...'))
-    execSync('bun add -d sharp', { stdio: 'inherit', cwd: path.resolve(__dirname, '../..') })
+    execSync('bun add -d sharp', {
+      stdio: 'inherit',
+      cwd: path.resolve(__dirname, '../..'),
+    })
   }
 }
 
@@ -126,13 +150,21 @@ async function preprocessImage(
 ): Promise<string> {
   const sharp = (await import('sharp')).default
 
-  const tmpDir = path.join(path.resolve(__dirname, '../..'), 'node_modules', '.cache', 'web3icons')
+  const tmpDir = path.join(
+    path.resolve(__dirname, '../..'),
+    'node_modules',
+    '.cache',
+    'web3icons',
+  )
   fs.mkdirSync(tmpDir, { recursive: true })
   const bmpPath = path.join(tmpDir, `trace-${Date.now()}.bmp`)
 
   // Read image, resize to a reasonable working size, convert to grayscale BMP
   await sharp(inputPath)
-    .resize(256, 256, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
+    .resize(256, 256, {
+      fit: 'contain',
+      background: { r: 0, g: 0, b: 0, alpha: 0 },
+    })
     .flatten({ background: { r: 0, g: 0, b: 0 } })
     .greyscale()
     .threshold(threshold)
@@ -196,13 +228,18 @@ function reformatSvg(
   isBackground: boolean,
 ): string {
   // Extract paths from the traced SVG
-  const pathMatches = rawSvg.match(/<path[^>]*\/>/g) || rawSvg.match(/<path[^>]*>[\s\S]*?<\/path>/g) || []
+  const pathMatches =
+    rawSvg.match(/<path[^>]*\/>/g) ||
+    rawSvg.match(/<path[^>]*>[\s\S]*?<\/path>/g) ||
+    []
 
   // Extract just the 'd' attributes
-  const paths = pathMatches.map((p) => {
-    const dMatch = p.match(/d="([^"]*)"/)
-    return dMatch ? dMatch[1] : ''
-  }).filter(Boolean)
+  const paths = pathMatches
+    .map((p) => {
+      const dMatch = p.match(/d="([^"]*)"/)
+      return dMatch ? dMatch[1] : ''
+    })
+    .filter(Boolean)
 
   if (paths.length === 0) {
     console.error(chalk.red('No paths found in traced SVG'))

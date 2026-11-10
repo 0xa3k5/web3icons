@@ -504,6 +504,7 @@ A Claude Code slash command is available at `.claude/commands/add-icon.md` for A
 ```
 
 This instructs the AI agent to:
+
 1. Identify the project (token, network, wallet, or exchange)
 2. Check if the icon already exists in metadata
 3. Search the web for the official logo (prioritizing SVG over PNG)
@@ -528,6 +529,7 @@ bun trace-to-svg logo.png output.svg --mono --threshold 100 --turdsize 4
 ```
 
 Options:
+
 - `--mono`: Generate monochrome SVG with `fill="white"`
 - `--threshold N`: Black/white cutoff (0-255, default: 128)
 - `--color HEX`: Fill color for paths (default: white for mono, black otherwise)
