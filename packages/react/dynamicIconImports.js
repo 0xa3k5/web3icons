@@ -602,6 +602,7 @@ const dynamicIconImports = {
   TokenCATGIRL: () => import('./dist/icons/tokens/TokenCATGIRL.js'),
   TokenCATHEON: () => import('./dist/icons/tokens/TokenCATHEON.js'),
   TokenCAW: () => import('./dist/icons/tokens/TokenCAW.js'),
+  TokenCBBTC: () => import('./dist/icons/tokens/TokenCBBTC.js'),
   TokenCBETH: () => import('./dist/icons/tokens/TokenCBETH.js'),
   TokenCBTC: () => import('./dist/icons/tokens/TokenCBTC.js'),
   TokenCBX: () => import('./dist/icons/tokens/TokenCBX.js'),

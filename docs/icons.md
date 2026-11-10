@@ -37,7 +37,7 @@ jump to section:
 | sequence        | sequence        | ✅      | ✅   | ✅         |
 | soul            | soul            | ✅      | ✅   | ✅         |
 | squads          | squads          | ✅      | ✅   | ✅         |
-| stella          | Stella          | ✅      | ✅   | ❌         |
+| stella          | Stella          | ✅      | ✅   | ✅         |
 | token-pocket    | token pocket    | ✅      | ✅   | ✅         |
 | trezor          | trezor          | ✅      | ✅   | ✅         |
 | trust           | trust wallet    | ✅      | ✅   | ✅         |

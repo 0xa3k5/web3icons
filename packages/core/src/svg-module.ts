@@ -6118,6 +6118,7 @@ import * as WMonoSquads from './svgs/wallets/mono/squads.svg'
 import * as WBackgroundSquads from './svgs/wallets/background/squads.svg'
 import * as WBrandedStella from './svgs/wallets/branded/stella.svg'
 import * as WMonoStella from './svgs/wallets/mono/stella.svg'
+import * as WBackgroundStella from './svgs/wallets/background/stella.svg'
 import * as WBrandedTokenPocket from './svgs/wallets/branded/token-pocket.svg'
 import * as WMonoTokenPocket from './svgs/wallets/mono/token-pocket.svg'
 import * as WBackgroundTokenPocket from './svgs/wallets/background/token-pocket.svg'
@@ -12467,6 +12468,7 @@ export const svgs = {
       sequence: WBackgroundSequence,
       soul: WBackgroundSoul,
       squads: WBackgroundSquads,
+      stella: WBackgroundStella,
       'token-pocket': WBackgroundTokenPocket,
       trezor: WBackgroundTrezor,
       trust: WBackgroundTrust,
