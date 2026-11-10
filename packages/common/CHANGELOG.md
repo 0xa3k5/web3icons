@@ -1,5 +1,15 @@
 # @web3icons/common
 
+## 0.11.54
+
+### Patch Changes
+
+- 3d7aacc: wallet: Stella (`mono`, `branded`, `background`)
+- 1094931: token: Coinbase Wrapped BTC (`mono`, `branded`, `background`)
+- 3d7aacc: fix network metadata:
+  - robinhood: testnet `46630` → mainnet `4663` (caip2id `eip155:4663`)
+  - robinhood-testnet: add for chain `46630`, reusing the robinhood icon
+
 ## 0.11.53
 
 ### Patch Changes
