@@ -3226,6 +3226,22 @@ export const tokens: ITokenMetadata[] = [
     variants: ['branded', 'mono', 'background'],
   },
   {
+    id: 'coinbase-wrapped-btc',
+    filePath: 'token:CBBTC',
+    symbol: 'cbbtc',
+    name: 'Coinbase Wrapped BTC',
+    marketCapRank: 23,
+    addresses: {
+      ethereum: '0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf',
+      base: '0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf',
+      monad: '0xd18b7ec58cdf4876f6afebd3ed1730e4ce10414b',
+      solana: 'cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij',
+      'arbitrum-one': '0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf',
+      robinhood: '0xcec185eb182c47d1ba1efc84e6959e18cd620be4',
+    },
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
     id: 'coinbase-wrapped-staked-eth',
     filePath: 'token:CBETH',
     symbol: 'cbeth',

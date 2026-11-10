@@ -3,7 +3,7 @@ jump to section:
 - [wallets (52)](#wallets)
 - [networks (289)](#networks)
 - [exchanges (30)](#exchanges)
-- [tokens (1851)](#tokens)
+- [tokens (1852)](#tokens)
 
 ### Wallets
 
@@ -674,6 +674,7 @@ jump to section:
 | COMBO                                  | combo       | ✅      | ✅   | ✅         |
 | Ternoa                                 | caps        | ✅      | ✅   | ✅         |
 | Coin98                                 | c98         | ✅      | ✅   | ✅         |
+| Coinbase Wrapped BTC                   | cbbtc       | ✅      | ✅   | ✅         |
 | Coinbase Wrapped Staked ETH            | cbeth       | ✅      | ✅   | ✅         |
 | CoinMerge OS                           | cmos        | ✅      | ✅   | ✅         |
 | Coinmetro                              | xcm         | ✅      | ✅   | ✅         |
