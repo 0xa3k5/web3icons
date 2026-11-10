@@ -785,6 +785,9 @@ import * as TBackgroundCAPS from './svgs/tokens/background/CAPS.svg'
 import * as TBrandedC98 from './svgs/tokens/branded/C98.svg'
 import * as TMonoC98 from './svgs/tokens/mono/C98.svg'
 import * as TBackgroundC98 from './svgs/tokens/background/C98.svg'
+import * as TBrandedCBBTC from './svgs/tokens/branded/CBBTC.svg'
+import * as TMonoCBBTC from './svgs/tokens/mono/CBBTC.svg'
+import * as TBackgroundCBBTC from './svgs/tokens/background/CBBTC.svg'
 import * as TBrandedCBETH from './svgs/tokens/branded/CBETH.svg'
 import * as TMonoCBETH from './svgs/tokens/mono/CBETH.svg'
 import * as TBackgroundCBETH from './svgs/tokens/background/CBETH.svg'
@@ -6560,6 +6563,7 @@ export const svgs = {
       combo: TBrandedCOMBO,
       caps: TBrandedCAPS,
       c98: TBrandedC98,
+      cbbtc: TBrandedCBBTC,
       cbeth: TBrandedCBETH,
       cmos: TBrandedCMOS,
       xcm: TBrandedXCM,
@@ -8323,6 +8327,7 @@ export const svgs = {
       combo: TMonoCOMBO,
       caps: TMonoCAPS,
       c98: TMonoC98,
+      cbbtc: TMonoCBBTC,
       cbeth: TMonoCBETH,
       cmos: TMonoCMOS,
       xcm: TMonoXCM,
@@ -9932,6 +9937,7 @@ export const svgs = {
       combo: TBackgroundCOMBO,
       caps: TBackgroundCAPS,
       c98: TBackgroundC98,
+      cbbtc: TBackgroundCBBTC,
       cbeth: TBackgroundCBETH,
       cmos: TBackgroundCMOS,
       xcm: TBackgroundXCM,

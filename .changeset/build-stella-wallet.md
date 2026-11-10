@@ -4,4 +4,4 @@
 '@web3icons/core': patch
 ---
 
-wallet: Stella (`mono`, `branded`)
+wallet: Stella (`mono`, `branded`, `background`)
