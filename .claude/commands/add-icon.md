@@ -9,12 +9,14 @@ The user provides a project name as the argument: `$ARGUMENTS`
 ## Step 1: Identify the Project
 
 Determine what kind of web3 entity this is:
+
 - **token** — A cryptocurrency token (e.g., ETH, MANTA, USDC)
 - **network** — A blockchain network (e.g., Ethereum, Manta Pacific, Polygon)
 - **wallet** — A wallet application (e.g., MetaMask, Rainbow)
 - **exchange** — A centralized or decentralized exchange (e.g., Uniswap, Binance)
 
 Search the web to confirm:
+
 - The official name of the project
 - What type it is (token, network, wallet, exchange)
 - Its official website
@@ -25,6 +27,7 @@ Search the web to confirm:
 ## Step 2: Check if it Already Exists
 
 Before proceeding, check the metadata files to see if this icon already exists:
+
 - `packages/common/src/metadata/tokens.json`
 - `packages/common/src/metadata/networks.json`
 - `packages/common/src/metadata/wallets.json`
@@ -50,15 +53,16 @@ Prioritize SVG format over PNG. If only PNG/JPEG is available, note that we'll n
 
 All icons use a **24x24px frame** with these constraints:
 
-| Variant | Max icon size | Notes |
-|---------|--------------|-------|
-| `mono` | **16px** (largest side) | Centered in 24x24 frame |
-| `branded` | **16px** (largest side) | Centered in 24x24 frame |
+| Variant      | Max icon size           | Notes                   |
+| ------------ | ----------------------- | ----------------------- |
+| `mono`       | **16px** (largest side) | Centered in 24x24 frame |
+| `branded`    | **16px** (largest side) | Centered in 24x24 frame |
 | `background` | **14px** (largest side) | Centered in 24x24 frame |
 
 The icon must be **centered** — equal padding on all sides. For a 16px-wide icon in a 24px frame, that means 4px padding left and right.
 
 ### If the logo is an SVG:
+
 1. Download it
 2. Inspect the SVG content — it must be reformatted to web3icons standards:
    - `width="24"` and `height="24"`
@@ -70,6 +74,7 @@ The icon must be **centered** — equal padding on all sides. For a 16px-wide ic
 5. **Scale the paths so the largest side is exactly 16px** (or 14px for background variant), **centered** in the 24x24 frame
 
 To scale the icon correctly:
+
 1. Determine the bounding box of the original SVG paths (min/max x and y coordinates)
 2. Calculate `scale = target_size / max(original_width, original_height)` where target_size is 16 (or 14 for background)
 3. Calculate offsets to center: `offset_x = (24 - original_width * scale) / 2 - min_x * scale` and same for y
@@ -79,8 +84,10 @@ To scale the icon correctly:
 Use Python or a script to recalculate the path coordinates precisely — do not eyeball this.
 
 ### If the logo is a PNG/JPEG/WebP:
+
 1. Download the image to a temporary location
 2. Run the tracing utility:
+
    ```bash
    # For mono variant
    bun trace-to-svg <input-image> raw-svgs/{type}/mono/{filename}.svg --mono
@@ -88,6 +95,7 @@ Use Python or a script to recalculate the path coordinates precisely — do not 
    # For branded variant (you'll need to manually adjust colors after)
    bun trace-to-svg <input-image> raw-svgs/{type}/branded/{filename}.svg --color "#BRANDCOLOR"
    ```
+
 3. Review the traced SVG output and adjust if needed
 
 ## Step 5: Place the SVG Files
@@ -106,6 +114,7 @@ Create at minimum the **mono** and **branded** variants. The mono variant uses `
 Edit the appropriate metadata JSON file in `packages/common/src/metadata/`:
 
 ### For tokens (`tokens.json`):
+
 ```json
 {
   "id": "{coingecko-id}",
@@ -121,6 +130,7 @@ Edit the appropriate metadata JSON file in `packages/common/src/metadata/`:
 ```
 
 ### For networks (`networks.json`):
+
 ```json
 {
   "id": "{kebab-case-id}",
@@ -135,6 +145,7 @@ Edit the appropriate metadata JSON file in `packages/common/src/metadata/`:
 ```
 
 ### For wallets (`wallets.json`):
+
 ```json
 {
   "id": "{kebab-case-id}",
@@ -145,6 +156,7 @@ Edit the appropriate metadata JSON file in `packages/common/src/metadata/`:
 ```
 
 ### For exchanges (`exchanges.json`):
+
 ```json
 {
   "id": "{kebab-case-id}",
@@ -160,6 +172,7 @@ Insert the new entry in alphabetical order by `id`.
 ## Step 7: Validate
 
 Run these validation checks:
+
 ```bash
 bun validate-filenames
 bun validate-svgs
@@ -176,11 +189,13 @@ bun build:packages
 ```
 
 This will:
+
 1. **Common package**: Regenerate TypeScript metadata from JSON (`packages/common/src/metadata/*.ts`)
 2. **Core package**: Optimize the raw SVGs via SVGO and output to `packages/core/src/svgs/{type}/{variant}/`
 3. **React package**: Generate React components in `packages/react/src/icons/{type}/`
 
 After the build completes, verify the generated files exist:
+
 - `packages/core/src/svgs/{type}/{variant}/{filename}.svg` — optimized SVG
 - `packages/react/src/icons/{type}/` — should contain the new React component
 
@@ -210,6 +225,7 @@ Apply these cleanups to all newly created SVG files in `raw-svgs/`. Do NOT modif
 ## Step 11: Generate Visual Test
 
 Create a `test-preview.html` file in the repo root that shows:
+
 1. The new icon in both mono and branded variants at multiple sizes (24px, 48px, 96px)
 2. The repo's icon grid overlay (`docs/icon-grid.svg`) on top of each icon to verify sizing
 3. Side-by-side comparison with 2-3 existing icons from the same type
@@ -236,7 +252,7 @@ Use dark backgrounds for mono variants and light backgrounds for branded. The gr
 
 Use this template for the PR body. Replace placeholders with actual values. The `<img>` tags render the icons inline so reviewers can see them without clicking through.
 
-```markdown
+````markdown
 ## {Name} ({type})
 
 **Source**: {logo source URL}
@@ -244,9 +260,9 @@ Use this template for the PR body. Replace placeholders with actual values. The 
 
 ### Preview
 
-| Variant | 24px | 96px |
-|---------|------|------|
-| Mono | <img src="https://raw.githubusercontent.com/{owner}/{repo}/{branch}/raw-svgs/{type}s/{variant_folder}/mono/{filename}.svg" width="24" height="24" style="background:#1a1a1a;border-radius:4px;padding:4px"> | <img src="https://raw.githubusercontent.com/{owner}/{repo}/{branch}/raw-svgs/{type}s/{variant_folder}/mono/{filename}.svg" width="96" height="96" style="background:#1a1a1a;border-radius:4px;padding:4px"> |
+| Variant | 24px                                                                                                                                                                                                           | 96px                                                                                                                                                                                                           |
+| ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mono    | <img src="https://raw.githubusercontent.com/{owner}/{repo}/{branch}/raw-svgs/{type}s/{variant_folder}/mono/{filename}.svg" width="24" height="24" style="background:#1a1a1a;border-radius:4px;padding:4px">    | <img src="https://raw.githubusercontent.com/{owner}/{repo}/{branch}/raw-svgs/{type}s/{variant_folder}/mono/{filename}.svg" width="96" height="96" style="background:#1a1a1a;border-radius:4px;padding:4px">    |
 | Branded | <img src="https://raw.githubusercontent.com/{owner}/{repo}/{branch}/raw-svgs/{type}s/{variant_folder}/branded/{filename}.svg" width="24" height="24" style="background:#f5f5f5;border-radius:4px;padding:4px"> | <img src="https://raw.githubusercontent.com/{owner}/{repo}/{branch}/raw-svgs/{type}s/{variant_folder}/branded/{filename}.svg" width="96" height="96" style="background:#f5f5f5;border-radius:4px;padding:4px"> |
 
 > For detailed sizing verification with grid overlay, see [`test-preview.html`](https://github.com/{owner}/{repo}/blob/{branch}/test-preview.html) (open raw file in browser).
@@ -266,13 +282,14 @@ Use this template for the PR body. Replace placeholders with actual values. The 
 - [x] Metadata inserted alphabetically
 - [x] Path data cleaned
 - [x] Build passes
-```
+````
 
 **Important**: The `{owner}/{repo}` is the fork (e.g., `nomativ/web3icons`) and `{branch}` is the PR branch. GitHub renders `<img>` tags in PR markdown, so the icons will display inline for reviewers.
 
 ## Step 13: Summary
 
 Report to the user:
+
 - PR URL
 - What project was identified and its type
 - Which logo source was used

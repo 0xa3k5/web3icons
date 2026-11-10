@@ -785,6 +785,9 @@ import * as TBackgroundCAPS from './svgs/tokens/background/CAPS.svg'
 import * as TBrandedC98 from './svgs/tokens/branded/C98.svg'
 import * as TMonoC98 from './svgs/tokens/mono/C98.svg'
 import * as TBackgroundC98 from './svgs/tokens/background/C98.svg'
+import * as TBrandedCBBTC from './svgs/tokens/branded/CBBTC.svg'
+import * as TMonoCBBTC from './svgs/tokens/mono/CBBTC.svg'
+import * as TBackgroundCBBTC from './svgs/tokens/background/CBBTC.svg'
 import * as TBrandedCBETH from './svgs/tokens/branded/CBETH.svg'
 import * as TMonoCBETH from './svgs/tokens/mono/CBETH.svg'
 import * as TBackgroundCBETH from './svgs/tokens/background/CBETH.svg'
@@ -6113,6 +6116,8 @@ import * as WBackgroundSoul from './svgs/wallets/background/soul.svg'
 import * as WBrandedSquads from './svgs/wallets/branded/squads.svg'
 import * as WMonoSquads from './svgs/wallets/mono/squads.svg'
 import * as WBackgroundSquads from './svgs/wallets/background/squads.svg'
+import * as WBrandedStella from './svgs/wallets/branded/stella.svg'
+import * as WMonoStella from './svgs/wallets/mono/stella.svg'
 import * as WBrandedTokenPocket from './svgs/wallets/branded/token-pocket.svg'
 import * as WMonoTokenPocket from './svgs/wallets/mono/token-pocket.svg'
 import * as WBackgroundTokenPocket from './svgs/wallets/background/token-pocket.svg'
@@ -6554,6 +6559,7 @@ export const svgs = {
       combo: TBrandedCOMBO,
       caps: TBrandedCAPS,
       c98: TBrandedC98,
+      cbbtc: TBrandedCBBTC,
       cbeth: TBrandedCBETH,
       cmos: TBrandedCMOS,
       xcm: TBrandedXCM,
@@ -8317,6 +8323,7 @@ export const svgs = {
       combo: TMonoCOMBO,
       caps: TMonoCAPS,
       c98: TMonoC98,
+      cbbtc: TMonoCBBTC,
       cbeth: TMonoCBETH,
       cmos: TMonoCMOS,
       xcm: TMonoXCM,
@@ -9926,6 +9933,7 @@ export const svgs = {
       combo: TBackgroundCOMBO,
       caps: TBackgroundCAPS,
       c98: TBackgroundC98,
+      cbbtc: TBackgroundCBBTC,
       cbeth: TBackgroundCBETH,
       cmos: TBackgroundCMOS,
       xcm: TBackgroundXCM,
@@ -12353,6 +12361,7 @@ export const svgs = {
       sequence: WBrandedSequence,
       soul: WBrandedSoul,
       squads: WBrandedSquads,
+      stella: WBrandedStella,
       'token-pocket': WBrandedTokenPocket,
       trezor: WBrandedTrezor,
       trust: WBrandedTrust,
@@ -12405,6 +12414,7 @@ export const svgs = {
       sequence: WMonoSequence,
       soul: WMonoSoul,
       squads: WMonoSquads,
+      stella: WMonoStella,
       'token-pocket': WMonoTokenPocket,
       trezor: WMonoTrezor,
       trust: WMonoTrust,
