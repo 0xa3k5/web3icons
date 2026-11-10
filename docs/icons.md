@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (53)](#wallets)
-- [networks (289)](#networks)
+- [networks (290)](#networks)
 - [exchanges (30)](#exchanges)
 - [tokens (1852)](#tokens)
 
@@ -37,7 +37,7 @@ jump to section:
 | sequence        | sequence        | ✅      | ✅   | ✅         |
 | soul            | soul            | ✅      | ✅   | ✅         |
 | squads          | squads          | ✅      | ✅   | ✅         |
-| stella          | Stella          | ✅      | ✅   | ❌         |
+| stella          | Stella          | ✅      | ✅   | ✅         |
 | token-pocket    | token pocket    | ✅      | ✅   | ✅         |
 | trezor          | trezor          | ✅      | ✅   | ✅         |
 | trust           | trust wallet    | ✅      | ✅   | ✅         |
@@ -312,6 +312,7 @@ jump to section:
 | citrea                      | Citrea                          | ✅      | ✅   | ✅         |
 | fluent                      | Fluent                          | ✅      | ✅   | ✅         |
 | robinhood                   | Robinhood                       | ✅      | ✅   | ✅         |
+| robinhood-testnet           | Robinhood Testnet               | ✅      | ✅   | ✅         |
 | adi-chain                   | ADI Chain                       | ✅      | ✅   | ✅         |
 | aleo                        | Aleo                            | ✅      | ✅   | ✅         |
 | fogo                        | Fogo                            | ✅      | ✅   | ✅         |

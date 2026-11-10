@@ -173,7 +173,7 @@ export const wallets: IWalletMetadata[] = [
     id: 'stella',
     filePath: 'wallet:stella',
     name: 'Stella',
-    variants: ['branded', 'mono'],
+    variants: ['branded', 'mono', 'background'],
   },
   {
     id: 'token-pocket',

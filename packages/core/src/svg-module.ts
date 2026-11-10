@@ -5906,6 +5906,9 @@ import * as NBackgroundFluent from './svgs/networks/background/fluent.svg'
 import * as NBrandedRobinhood from './svgs/networks/branded/robinhood.svg'
 import * as NMonoRobinhood from './svgs/networks/mono/robinhood.svg'
 import * as NBackgroundRobinhood from './svgs/networks/background/robinhood.svg'
+import * as NBrandedRobinhoodTestnet from './svgs/networks/branded/robinhood.svg'
+import * as NMonoRobinhoodTestnet from './svgs/networks/mono/robinhood.svg'
+import * as NBackgroundRobinhoodTestnet from './svgs/networks/background/robinhood.svg'
 import * as NBrandedAdiChain from './svgs/tokens/branded/ADI.svg'
 import * as NMonoAdiChain from './svgs/tokens/mono/ADI.svg'
 import * as NBackgroundAdiChain from './svgs/tokens/background/ADI.svg'
@@ -6118,6 +6121,7 @@ import * as WMonoSquads from './svgs/wallets/mono/squads.svg'
 import * as WBackgroundSquads from './svgs/wallets/background/squads.svg'
 import * as WBrandedStella from './svgs/wallets/branded/stella.svg'
 import * as WMonoStella from './svgs/wallets/mono/stella.svg'
+import * as WBackgroundStella from './svgs/wallets/background/stella.svg'
 import * as WBrandedTokenPocket from './svgs/wallets/branded/token-pocket.svg'
 import * as WMonoTokenPocket from './svgs/wallets/mono/token-pocket.svg'
 import * as WBackgroundTokenPocket from './svgs/wallets/background/token-pocket.svg'
@@ -11712,6 +11716,7 @@ export const svgs = {
       citrea: NBrandedCitrea,
       fluent: NBrandedFluent,
       robinhood: NBrandedRobinhood,
+      'robinhood-testnet': NBrandedRobinhoodTestnet,
       'adi-chain': NBrandedAdiChain,
       aleo: NBrandedAleo,
       fogo: NBrandedFogo,
@@ -11998,6 +12003,7 @@ export const svgs = {
       citrea: NMonoCitrea,
       fluent: NMonoFluent,
       robinhood: NMonoRobinhood,
+      'robinhood-testnet': NMonoRobinhoodTestnet,
       'adi-chain': NMonoAdiChain,
       aleo: NMonoAleo,
       fogo: NMonoFogo,
@@ -12286,6 +12292,7 @@ export const svgs = {
       citrea: NBackgroundCitrea,
       fluent: NBackgroundFluent,
       robinhood: NBackgroundRobinhood,
+      'robinhood-testnet': NBackgroundRobinhoodTestnet,
       'adi-chain': NBackgroundAdiChain,
       aleo: NBackgroundAleo,
       fogo: NBackgroundFogo,
@@ -12467,6 +12474,7 @@ export const svgs = {
       sequence: WBackgroundSequence,
       soul: WBackgroundSoul,
       squads: WBackgroundSquads,
+      stella: WBackgroundStella,
       'token-pocket': WBackgroundTokenPocket,
       trezor: WBackgroundTrezor,
       trust: WBackgroundTrust,

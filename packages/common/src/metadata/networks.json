@@ -2358,10 +2358,20 @@
   {
     "id": "robinhood",
     "filePath": "network:robinhood",
-    "chainId": 46630,
-    "caip2id": "eip155:46630",
+    "chainId": 4663,
+    "caip2id": "eip155:4663",
     "name": "Robinhood",
     "shortName": "Robinhood",
+    "nativeCoinId": "ETH",
+    "variants": ["background", "branded", "mono"]
+  },
+  {
+    "id": "robinhood-testnet",
+    "filePath": "network:robinhood",
+    "chainId": 46630,
+    "caip2id": "eip155:46630",
+    "name": "Robinhood Testnet",
+    "shortName": "Robinhood Testnet",
     "nativeCoinId": "ETH",
     "variants": ["background", "branded", "mono"]
   },

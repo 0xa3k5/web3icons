@@ -53,13 +53,13 @@ Prioritize SVG format over PNG. If only PNG/JPEG is available, note that we'll n
 
 All icons use a **24x24px frame** with these constraints:
 
-| Variant      | Max icon size           | Notes                   |
-| ------------ | ----------------------- | ----------------------- |
-| `mono`       | **16px** (largest side) | Centered in 24x24 frame |
-| `branded`    | **16px** (largest side) | Centered in 24x24 frame |
-| `background` | **14px** (largest side) | Centered in 24x24 frame |
+| Variant      | Max icon size           | Notes                                                                          |
+| ------------ | ----------------------- | ------------------------------------------------------------------------------ |
+| `mono`       | **18px** (largest side) | Centered in 24x24 frame                                                        |
+| `branded`    | **18px** (largest side) | Centered in 24x24 frame                                                        |
+| `background` | **16px** (largest side) | Mark only, backdrop excluded; the branded mark scaled by 8/9 around the center |
 
-The icon must be **centered** — equal padding on all sides. For a 16px-wide icon in a 24px frame, that means 4px padding left and right.
+The icon must be **centered** — equal padding on all sides. For an 18px-wide icon in a 24px frame, that means 3px padding left and right. A circular coin spans exactly 3..21 (4..20 in the background variant).
 
 ### If the logo is an SVG:
 
@@ -71,12 +71,12 @@ The icon must be **centered** — equal padding on all sides. For a 16px-wide ic
    - `xmlns="http://www.w3.org/2000/svg"`
 3. For the **mono** variant: all fill colors must be replaced with `fill="white"` (except `fill="none"`)
 4. For the **branded** variant: preserve original brand colors
-5. **Scale the paths so the largest side is exactly 16px** (or 14px for background variant), **centered** in the 24x24 frame
+5. **Scale the paths so the largest side is exactly 18px** (or 16px for background variant), **centered** in the 24x24 frame
 
 To scale the icon correctly:
 
 1. Determine the bounding box of the original SVG paths (min/max x and y coordinates)
-2. Calculate `scale = target_size / max(original_width, original_height)` where target_size is 16 (or 14 for background)
+2. Calculate `scale = target_size / max(original_width, original_height)` where target_size is 18 (or 16 for background)
 3. Calculate offsets to center: `offset_x = (24 - original_width * scale) / 2 - min_x * scale` and same for y
 4. Multiply all path coordinates by `scale` and add the respective offsets
 5. Verify the result: the icon's bounding box should span exactly `target_size` on its largest axis, centered at (12, 12)
@@ -275,7 +275,7 @@ Use this template for the PR body. Replace placeholders with actual values. The 
 
 ### Checklist
 
-- [x] SVG dimensions: 24x24 frame, icon max 16px largest side, centered
+- [x] SVG dimensions: 24x24 frame, icon 18px largest side (16px background), centered
 - [x] Naming conventions followed
 - [x] Mono variant uses `fill="white"`
 - [x] Branded variant preserves brand colors
@@ -302,7 +302,7 @@ Report to the user:
 ## Important Notes
 
 - SVGs MUST be 24x24px frame — this is validated by the build system
-- **Icon sizing**: largest side max **16px** for mono/branded, max **14px** for background, **centered** in frame
+- **Icon sizing**: largest side **18px** for mono/branded, **16px** for background, **centered** in frame
 - Mono variants use `fill="white"` for all visible elements (not `fill="none"` elements)
 - Branded variants preserve original brand colors
 - Token filenames are UPPERCASE (e.g., `MANTA.svg`), everything else is kebab-case
