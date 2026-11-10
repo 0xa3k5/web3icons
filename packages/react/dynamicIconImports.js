@@ -293,6 +293,8 @@ const dynamicIconImports = {
   NetworkRei: () => import('./dist/icons/networks/NetworkRei.js'),
   NetworkReya: () => import('./dist/icons/networks/NetworkReya.js'),
   NetworkRobinhood: () => import('./dist/icons/networks/NetworkRobinhood.js'),
+  NetworkRobinhoodTestnet: () =>
+    import('./dist/icons/networks/NetworkRobinhoodTestnet.js'),
   NetworkRollux: () => import('./dist/icons/networks/NetworkRollux.js'),
   NetworkRonin: () => import('./dist/icons/networks/NetworkRonin.js'),
   NetworkRootstock: () => import('./dist/icons/networks/NetworkRootstock.js'),

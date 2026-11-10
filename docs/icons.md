@@ -1,7 +1,7 @@
 jump to section:
 
 - [wallets (52)](#wallets)
-- [networks (289)](#networks)
+- [networks (290)](#networks)
 - [exchanges (30)](#exchanges)
 - [tokens (1851)](#tokens)
 
@@ -311,6 +311,7 @@ jump to section:
 | citrea                      | Citrea                          | ✅      | ✅   | ✅         |
 | fluent                      | Fluent                          | ✅      | ✅   | ✅         |
 | robinhood                   | Robinhood                       | ✅      | ✅   | ✅         |
+| robinhood-testnet           | Robinhood Testnet               | ✅      | ✅   | ✅         |
 | adi-chain                   | ADI Chain                       | ✅      | ✅   | ✅         |
 | aleo                        | Aleo                            | ✅      | ✅   | ✅         |
 | fogo                        | Fogo                            | ✅      | ✅   | ✅         |
