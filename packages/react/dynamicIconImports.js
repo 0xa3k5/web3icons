@@ -2279,6 +2279,7 @@ const dynamicIconImports = {
   WalletSolflare: () => import('./dist/icons/wallets/WalletSolflare.js'),
   WalletSoul: () => import('./dist/icons/wallets/WalletSoul.js'),
   WalletSquads: () => import('./dist/icons/wallets/WalletSquads.js'),
+  WalletStella: () => import('./dist/icons/wallets/WalletStella.js'),
   WalletTemple: () => import('./dist/icons/wallets/WalletTemple.js'),
   WalletTokenPocket: () => import('./dist/icons/wallets/WalletTokenPocket.js'),
   WalletTrezor: () => import('./dist/icons/wallets/WalletTrezor.js'),

@@ -1,6 +1,6 @@
 jump to section:
 
-- [wallets (52)](#wallets)
+- [wallets (53)](#wallets)
 - [networks (290)](#networks)
 - [exchanges (30)](#exchanges)
 - [tokens (1851)](#tokens)
@@ -37,6 +37,7 @@ jump to section:
 | sequence        | sequence        | ✅      | ✅   | ✅         |
 | soul            | soul            | ✅      | ✅   | ✅         |
 | squads          | squads          | ✅      | ✅   | ✅         |
+| stella          | Stella          | ✅      | ✅   | ❌         |
 | token-pocket    | token pocket    | ✅      | ✅   | ✅         |
 | trezor          | trezor          | ✅      | ✅   | ✅         |
 | trust           | trust wallet    | ✅      | ✅   | ✅         |
