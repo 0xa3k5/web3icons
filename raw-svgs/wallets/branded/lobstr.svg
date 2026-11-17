@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 21C7.473 21 4.3125 18.2227 4.3125 14.2477 4.3125 10.4848 8.6098 4.2949 13.4625 3 12.3621 4.098 10.8504 5.7527 10.0078 7.5586 8.8125 10.1203 8.6988 14.0297 8.8031 14.4891L8.9719 15.2309 9.6891 14.9531C10.4893 14.6393 11.2379 14.2072 11.9098 13.6711 12.357 13.3167 12.7733 12.9251 13.1543 12.5004 14.693 10.793 15.6785 8.5828 15.8379 6.5941 18.0293 8.0566 19.6875 11.2488 19.6875 14.2465 19.6875 18.2238 16.5258 21 12 21Z" fill="url(#paint0_linear_lobstr_branded)"/>
+<defs>
+<linearGradient id="paint0_linear_lobstr_branded" x1="12" y1="3" x2="12" y2="21" gradientUnits="userSpaceOnUse">
+<stop stop-color="#35B5CE"/>
+<stop offset="1" stop-color="#1A96B2"/>
+</linearGradient>
+</defs>
+</svg>

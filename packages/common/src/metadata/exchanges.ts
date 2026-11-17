@@ -9,6 +9,13 @@ export const exchanges: IExchangeMetadata[] = [
     variants: ['branded', 'mono', 'background'],
   },
   {
+    id: 'aquarius',
+    filePath: 'exchange:aquarius',
+    name: 'Aquarius',
+    type: 'dex',
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
     id: 'balancer',
     filePath: 'exchange:balancer',
     name: 'Balancer',
@@ -146,6 +153,13 @@ export const exchanges: IExchangeMetadata[] = [
     filePath: 'exchange:paribu',
     name: 'Paribu',
     type: 'cex',
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
+    id: 'soroswap',
+    filePath: 'exchange:soroswap',
+    name: 'Soroswap',
+    type: 'dex',
     variants: ['branded', 'mono', 'background'],
   },
   {

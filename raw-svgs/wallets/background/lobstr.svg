@@ -1,0 +1,15 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_lobstr_background)">
+<path d="M24 0H0V24H24V0Z" fill="url(#paint0_linear_lobstr_background)"/>
+<path d="M12 20C7.976 20 5.1667 17.5312 5.1667 13.9979 5.1667 10.6531 8.9865 5.151 13.3 4 12.3219 4.976 10.9781 6.4469 10.2292 8.0521 9.1667 10.3292 9.0656 13.8042 9.1583 14.2125L9.3083 14.8719 9.9458 14.625C10.6572 14.3461 11.3226 13.9619 11.9198 13.4854 12.3173 13.1704 12.6874 12.8223 13.026 12.4448 14.3938 10.9271 15.2698 8.9625 15.4115 7.1948 17.3594 8.4948 18.8333 11.3323 18.8333 13.9969 18.8333 17.5323 16.0229 20 12 20Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_lobstr_background" x1="12" y1="0" x2="12" y2="24" gradientUnits="userSpaceOnUse">
+<stop stop-color="#35B5CE"/>
+<stop offset="1" stop-color="#1A96B2"/>
+</linearGradient>
+<clipPath id="clip0_lobstr_background">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
