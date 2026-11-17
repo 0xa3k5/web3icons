@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
+    <g clip-path="url(#aquarius__a)">
+        <path fill="#872AB0" d="M24 0H0v24h24z"/>
+        <path fill="#fff" fill-rule="evenodd" d="m13.832 10.828 2.54 2.53 2.521-2.514L20 11.94l-3.628 3.616-2.54-2.53-4.004 3.99-2.15-2.14-2.572 2.562L4 16.34l3.679-3.665 2.149 2.14Z" clip-rule="evenodd"/>
+        <path fill="#fff" fill-rule="evenodd" d="m13.832 6.562 2.54 2.53 2.521-2.514L20 7.676l-3.628 3.616-2.54-2.53-4.004 3.99-2.15-2.141-2.572 2.563L4 12.076 7.679 8.41l2.149 2.14Z" clip-rule="evenodd"/>
+    </g>
+    <defs>
+        <clipPath id="aquarius__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

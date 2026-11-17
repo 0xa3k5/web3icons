@@ -353,6 +353,15 @@ export const networks: INetworkMetadata[] = [
     variants: ['background', 'branded', 'mono'],
   },
   {
+    id: 'stellar-testnet',
+    filePath: 'network:stellar',
+    caip2id: 'stellar:testnet',
+    name: 'Stellar Testnet',
+    shortName: 'stellar-testnet',
+    nativeCoinId: 'stellar',
+    variants: ['background', 'branded', 'mono'],
+  },
+  {
     id: 'zora',
     filePath: 'network:zora',
     chainId: 7777777,
