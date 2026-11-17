@@ -357,7 +357,7 @@ export const networks: INetworkMetadata[] = [
     filePath: 'network:stellar',
     caip2id: 'stellar:testnet',
     name: 'Stellar Testnet',
-    shortName: 'stellar-testnet',
+    shortName: 'Stellar Testnet',
     nativeCoinId: 'stellar',
     variants: ['background', 'branded', 'mono'],
   },
