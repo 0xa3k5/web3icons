@@ -2,6 +2,12 @@ import type { IWalletMetadata } from '../types.js'
 
 export const wallets: IWalletMetadata[] = [
   {
+    id: 'albedo',
+    filePath: 'wallet:albedo',
+    name: 'Albedo',
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
     id: 'alfa1',
     filePath: 'wallet:alfa1',
     name: 'alfa1',
@@ -50,6 +56,12 @@ export const wallets: IWalletMetadata[] = [
     variants: ['branded', 'mono', 'background'],
   },
   {
+    id: 'freighter',
+    filePath: 'wallet:varial',
+    name: 'Freighter',
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
     id: 'imtoken',
     filePath: 'wallet:imtoken',
     name: 'imToken',
@@ -71,6 +83,12 @@ export const wallets: IWalletMetadata[] = [
     id: 'lit',
     filePath: 'wallet:lit',
     name: 'lit protocol',
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
+    id: 'lobstr',
+    filePath: 'wallet:lobstr',
+    name: 'LOBSTR',
     variants: ['branded', 'mono', 'background'],
   },
   {
@@ -125,6 +143,12 @@ export const wallets: IWalletMetadata[] = [
     id: 'rabby',
     filePath: 'wallet:rabby',
     name: 'rabby',
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
+    id: 'rabet',
+    filePath: 'wallet:rabet',
+    name: 'Rabet',
     variants: ['branded', 'mono', 'background'],
   },
   {
@@ -200,6 +224,12 @@ export const wallets: IWalletMetadata[] = [
     variants: ['branded', 'mono', 'background'],
   },
   {
+    id: 'varial',
+    filePath: 'wallet:varial',
+    name: 'Varial',
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
     id: 'venly',
     filePath: 'wallet:venly',
     name: 'venly',
@@ -215,6 +245,12 @@ export const wallets: IWalletMetadata[] = [
     id: 'wallet-connect',
     filePath: 'wallet:wallet-connect',
     name: 'wallet connect',
+    variants: ['branded', 'mono', 'background'],
+  },
+  {
+    id: 'xbull',
+    filePath: 'wallet:xbull',
+    name: 'xBull',
     variants: ['branded', 'mono', 'background'],
   },
   {

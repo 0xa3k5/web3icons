@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
+    <g clip-path="url(#albedo__a)">
+        <path fill="#fff" d="M24 0H0v24h24z"/>
+        <path fill="#0691B7" d="M12.334 4h-.668L4.9 19.991l.02.009h1.806l1.354-3.2a13.36 13.36 0 0 0 8.666-.045L18.119 20h.96l.02-.009Zm.014 12.895c-1.37 0-2.732-.221-4.031-.655l4.105-9.704 4.088 9.661a12.8 12.8 0 0 1-4.162.698"/>
+    </g>
+    <defs>
+        <clipPath id="albedo__a">
+            <path fill="#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="web3icons">
+    <path fill="url(#lobstr__a)" d="M12 21c-4.527 0-7.687-2.777-7.687-6.752 0-3.763 4.297-9.953 9.15-11.248-1.1 1.098-2.613 2.753-3.455 4.559-1.195 2.561-1.31 6.47-1.205 6.93l.169.742.717-.278a8.6 8.6 0 0 0 2.22-1.282q.673-.532 1.245-1.17c1.539-1.708 2.524-3.918 2.684-5.907 2.191 1.463 3.85 4.655 3.85 7.652C19.688 18.225 16.526 21 12 21"/>
+    <defs>
+        <linearGradient id="lobstr__a" x1="12" x2="12" y1="3" y2="21" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#35B5CE"/>
+            <stop offset="1" stop-color="#1A96B2"/>
+        </linearGradient>
+    </defs>
+</svg>

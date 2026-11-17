@@ -1,14 +1,15 @@
 jump to section:
 
-- [wallets (53)](#wallets)
-- [networks (290)](#networks)
-- [exchanges (30)](#exchanges)
-- [tokens (1852)](#tokens)
+- [wallets (59)](#wallets)
+- [networks (291)](#networks)
+- [exchanges (32)](#exchanges)
+- [tokens (1853)](#tokens)
 
 ### Wallets
 
 | id              | name            | branded | mono | background |
 | --------------- | --------------- | ------- | ---- | ---------- |
+| albedo          | Albedo          | ✅      | ✅   | ✅         |
 | alfa1           | alfa1           | ✅      | ✅   | ✅         |
 | alpha-wallet    | alpha wallet    | ✅      | ✅   | ✅         |
 | argent          | argent x        | ✅      | ✅   | ✅         |
@@ -17,10 +18,12 @@ jump to section:
 | coin98          | coin98          | ✅      | ✅   | ✅         |
 | coinbase        | coinbase wallet | ✅      | ❌   | ✅         |
 | enkrypt         | enkrypt         | ✅      | ✅   | ✅         |
+| freighter       | Freighter       | ✅      | ✅   | ✅         |
 | imtoken         | imToken         | ✅      | ✅   | ✅         |
 | kraken          | kraken wallet   | ✅      | ✅   | ✅         |
 | ledger          | ledger          | ✅      | ✅   | ✅         |
 | lit             | lit protocol    | ✅      | ✅   | ✅         |
+| lobstr          | LOBSTR          | ✅      | ✅   | ✅         |
 | metamask        | MetaMask        | ✅      | ❌   | ✅         |
 | multis          | multis          | ❌      | ✅   | ✅         |
 | my-ether-wallet | MyEtherWallet   | ✅      | ✅   | ✅         |
@@ -30,6 +33,7 @@ jump to section:
 | pillar          | Pillar          | ✅      | ✅   | ✅         |
 | portal          | portal          | ✅      | ✅   | ✅         |
 | rabby           | rabby           | ✅      | ✅   | ✅         |
+| rabet           | Rabet           | ✅      | ✅   | ✅         |
 | rainbow         | rainbow         | ✅      | ✅   | ✅         |
 | ronin           | ronin           | ✅      | ✅   | ✅         |
 | safe            | safe wallet     | ✅      | ✅   | ✅         |
@@ -42,9 +46,11 @@ jump to section:
 | trezor          | trezor          | ✅      | ✅   | ✅         |
 | trust           | trust wallet    | ✅      | ✅   | ✅         |
 | unipass         | unipass         | ✅      | ✅   | ✅         |
+| varial          | Varial          | ✅      | ✅   | ✅         |
 | venly           | venly           | ✅      | ✅   | ✅         |
 | wallet-3        | wallet3         | ✅      | ✅   | ✅         |
 | wallet-connect  | wallet connect  | ✅      | ✅   | ✅         |
+| xbull           | xBull           | ✅      | ✅   | ✅         |
 | xdefi           | xdefi           | ✅      | ✅   | ✅         |
 | zengo           | zengo           | ✅      | ✅   | ✅         |
 | zerion          | zerion          | ✅      | ✅   | ✅         |
@@ -104,6 +110,7 @@ jump to section:
 | eos                         | EOS evm                         | ✅      | ✅   | ✅         |
 | arweave                     | Arweave                         | ✅      | ✅   | ✅         |
 | stellar                     | Stellar                         | ✅      | ✅   | ✅         |
+| stellar-testnet             | Stellar Testnet                 | ✅      | ✅   | ✅         |
 | zora                        | zora                            | ✅      | ❌   | ✅         |
 | cronos                      | Cronos                          | ✅      | ✅   | ✅         |
 | binance-smart-chain         | BNB Smart Chain                 | ✅      | ✅   | ✅         |
@@ -363,6 +370,7 @@ jump to section:
 | id           | name         | type | branded | mono | background |
 | ------------ | ------------ | ---- | ------- | ---- | ---------- |
 | 1inch        | 1inch        | dex  | ✅      | ✅   | ✅         |
+| aquarius     | Aquarius     | dex  | ✅      | ✅   | ✅         |
 | balancer     | Balancer     | dex  | ✅      | ✅   | ✅         |
 | bancor       | Bancor       | dex  | ✅      | ✅   | ✅         |
 | binance      | Binance      | cex  | ✅      | ✅   | ✅         |
@@ -383,6 +391,7 @@ jump to section:
 | pancake-swap | Pancake Swap | dex  | ✅      | ✅   | ✅         |
 | para-swap    | ParaSwap     | dex  | ✅      | ✅   | ✅         |
 | paribu       | Paribu       | cex  | ✅      | ✅   | ✅         |
+| soroswap     | Soroswap     | dex  | ✅      | ✅   | ✅         |
 | sushiswap    | Sushi Swap   | dex  | ✅      | ✅   | ✅         |
 | swissborg    | SwissBorg    | cex  | ✅      | ✅   | ✅         |
 | uniswap      | Uniswap      | dex  | ✅      | ✅   | ✅         |
@@ -561,6 +570,7 @@ jump to section:
 | Blacksmith Token                       | bs          | ✅      | ✅   | ✅         |
 | BlockWallet                            | blank       | ✅      | ❌   | ✅         |
 | Blastar                                | blast       | ✅      | ❌   | ✅         |
+| Blend                                  | blnd        | ✅      | ✅   | ✅         |
 | Blockasset                             | block       | ✅      | ✅   | ✅         |
 | blockbank                              | bbank       | ✅      | ✅   | ✅         |
 | Blockchain Bets                        | bcb         | ✅      | ✅   | ✅         |
@@ -1905,7 +1915,7 @@ jump to section:
 | Status                                 | snt         | ✅      | ✅   | ✅         |
 | Steem                                  | steem       | ✅      | ✅   | ✅         |
 | Steem Dollars                          | sbd         | ✅      | ✅   | ✅         |
-| Stellar                                | xlm         | ❌      | ✅   | ❌         |
+| Stellar                                | xlm         | ✅      | ✅   | ✅         |
 | StellaSwap                             | stella      | ✅      | ❌   | ✅         |
 | Step App                               | fitfi       | ✅      | ✅   | ✅         |
 | Step Finance                           | step        | ✅      | ✅   | ✅         |

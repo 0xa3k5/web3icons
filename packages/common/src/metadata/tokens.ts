@@ -805,7 +805,7 @@ export const tokens: ITokenMetadata[] = [
     name: 'Aquarius',
     marketCapRank: 1124,
     addresses: {
-      stellar: 'GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA',
+      stellar: 'AQUA-GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA',
     },
     variants: ['branded', 'background'],
   },
@@ -1884,6 +1884,17 @@ export const tokens: ITokenMetadata[] = [
       pulsechain: '0x6a44be19d96f087494bafa66ee5df1bf7aaf220f',
     },
     variants: ['branded', 'background'],
+  },
+  {
+    id: 'blend',
+    filePath: 'token:BLND',
+    symbol: 'blnd',
+    name: 'Blend',
+    marketCapRank: 0,
+    addresses: {
+      stellar: 'BLND-GDJEHTBE6ZHUXSWFI642DCGLUOECLHPF3KSXHPXTSTJ7E3JF6MQ5EZYY',
+    },
+    variants: ['branded', 'mono', 'background'],
   },
   {
     id: 'blockasset',
@@ -13596,6 +13607,7 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 361,
     addresses: {
       ethereum: '0x6c3ea9036406852006290770bedfcaba0e23a0e8',
+      stellar: 'PYUSD-GDQE7IXJ4HUHV6RQHIUPRJSEZE4DRS5WY577O2FY6YQ5LVWZ7JZTU2V5',
     },
     variants: ['branded', 'mono', 'background'],
   },
@@ -17517,7 +17529,7 @@ export const tokens: ITokenMetadata[] = [
     name: 'Stellar',
     marketCapRank: 37,
     addresses: {},
-    variants: ['mono'],
+    variants: ['branded', 'mono', 'background'],
   },
   {
     id: 'stellaswap',

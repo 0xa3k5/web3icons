@@ -466,6 +466,9 @@ import * as TBrandedBLANK from './svgs/tokens/branded/BLANK.svg'
 import * as TBackgroundBLANK from './svgs/tokens/background/BLANK.svg'
 import * as TBrandedBLAST from './svgs/tokens/branded/BLAST.svg'
 import * as TBackgroundBLAST from './svgs/tokens/background/BLAST.svg'
+import * as TBrandedBLND from './svgs/tokens/branded/BLND.svg'
+import * as TMonoBLND from './svgs/tokens/mono/BLND.svg'
+import * as TBackgroundBLND from './svgs/tokens/background/BLND.svg'
 import * as TBrandedBLOCK from './svgs/tokens/branded/BLOCK.svg'
 import * as TMonoBLOCK from './svgs/tokens/mono/BLOCK.svg'
 import * as TBackgroundBLOCK from './svgs/tokens/background/BLOCK.svg'
@@ -5286,6 +5289,9 @@ import * as NBackgroundArweave from './svgs/networks/background/arweave.svg'
 import * as NBrandedStellar from './svgs/networks/branded/stellar.svg'
 import * as NMonoStellar from './svgs/networks/mono/stellar.svg'
 import * as NBackgroundStellar from './svgs/networks/background/stellar.svg'
+import * as NBrandedStellarTestnet from './svgs/networks/branded/stellar.svg'
+import * as NMonoStellarTestnet from './svgs/networks/mono/stellar.svg'
+import * as NBackgroundStellarTestnet from './svgs/networks/background/stellar.svg'
 import * as NBrandedZora from './svgs/networks/branded/zora.svg'
 import * as NBackgroundZora from './svgs/networks/background/zora.svg'
 import * as NBrandedCronos from './svgs/networks/branded/cronos.svg'
@@ -6038,6 +6044,9 @@ import * as NBackgroundEvmos from './svgs/tokens/background/EVMOS.svg'
 import * as NBrandedNumbers from './svgs/tokens/branded/NUM.svg'
 import * as NMonoNumbers from './svgs/tokens/mono/NUM.svg'
 import * as NBackgroundNumbers from './svgs/tokens/background/NUM.svg'
+import * as WBrandedAlbedo from './svgs/wallets/branded/albedo.svg'
+import * as WMonoAlbedo from './svgs/wallets/mono/albedo.svg'
+import * as WBackgroundAlbedo from './svgs/wallets/background/albedo.svg'
 import * as WBrandedAlfa1 from './svgs/wallets/branded/alfa1.svg'
 import * as WMonoAlfa1 from './svgs/wallets/mono/alfa1.svg'
 import * as WBackgroundAlfa1 from './svgs/wallets/background/alfa1.svg'
@@ -6061,6 +6070,9 @@ import * as WBackgroundCoinbase from './svgs/wallets/background/coinbase.svg'
 import * as WBrandedEnkrypt from './svgs/wallets/branded/enkrypt.svg'
 import * as WMonoEnkrypt from './svgs/wallets/mono/enkrypt.svg'
 import * as WBackgroundEnkrypt from './svgs/wallets/background/enkrypt.svg'
+import * as WBrandedFreighter from './svgs/wallets/branded/varial.svg'
+import * as WMonoFreighter from './svgs/wallets/mono/varial.svg'
+import * as WBackgroundFreighter from './svgs/wallets/background/varial.svg'
 import * as WBrandedImtoken from './svgs/wallets/branded/imtoken.svg'
 import * as WMonoImtoken from './svgs/wallets/mono/imtoken.svg'
 import * as WBackgroundImtoken from './svgs/wallets/background/imtoken.svg'
@@ -6073,6 +6085,9 @@ import * as WBackgroundLedger from './svgs/wallets/background/ledger.svg'
 import * as WBrandedLit from './svgs/wallets/branded/lit.svg'
 import * as WMonoLit from './svgs/wallets/mono/lit.svg'
 import * as WBackgroundLit from './svgs/wallets/background/lit.svg'
+import * as WBrandedLobstr from './svgs/wallets/branded/lobstr.svg'
+import * as WMonoLobstr from './svgs/wallets/mono/lobstr.svg'
+import * as WBackgroundLobstr from './svgs/wallets/background/lobstr.svg'
 import * as WBrandedMetamask from './svgs/wallets/branded/metamask.svg'
 import * as WBackgroundMetamask from './svgs/wallets/background/metamask.svg'
 import * as WMonoMultis from './svgs/wallets/mono/multis.svg'
@@ -6098,6 +6113,9 @@ import * as WBackgroundPortal from './svgs/wallets/background/portal.svg'
 import * as WBrandedRabby from './svgs/wallets/branded/rabby.svg'
 import * as WMonoRabby from './svgs/wallets/mono/rabby.svg'
 import * as WBackgroundRabby from './svgs/wallets/background/rabby.svg'
+import * as WBrandedRabet from './svgs/wallets/branded/rabet.svg'
+import * as WMonoRabet from './svgs/wallets/mono/rabet.svg'
+import * as WBackgroundRabet from './svgs/wallets/background/rabet.svg'
 import * as WBrandedRainbow from './svgs/wallets/branded/rainbow.svg'
 import * as WMonoRainbow from './svgs/wallets/mono/rainbow.svg'
 import * as WBackgroundRainbow from './svgs/wallets/background/rainbow.svg'
@@ -6134,6 +6152,9 @@ import * as WBackgroundTrust from './svgs/wallets/background/trust.svg'
 import * as WBrandedUnipass from './svgs/wallets/branded/unipass.svg'
 import * as WMonoUnipass from './svgs/wallets/mono/unipass.svg'
 import * as WBackgroundUnipass from './svgs/wallets/background/unipass.svg'
+import * as WBrandedVarial from './svgs/wallets/branded/varial.svg'
+import * as WMonoVarial from './svgs/wallets/mono/varial.svg'
+import * as WBackgroundVarial from './svgs/wallets/background/varial.svg'
 import * as WBrandedVenly from './svgs/wallets/branded/venly.svg'
 import * as WMonoVenly from './svgs/wallets/mono/venly.svg'
 import * as WBackgroundVenly from './svgs/wallets/background/venly.svg'
@@ -6143,6 +6164,9 @@ import * as WBackgroundWallet3 from './svgs/wallets/background/wallet-3.svg'
 import * as WBrandedWalletConnect from './svgs/wallets/branded/wallet-connect.svg'
 import * as WMonoWalletConnect from './svgs/wallets/mono/wallet-connect.svg'
 import * as WBackgroundWalletConnect from './svgs/wallets/background/wallet-connect.svg'
+import * as WBrandedXbull from './svgs/wallets/branded/xbull.svg'
+import * as WMonoXbull from './svgs/wallets/mono/xbull.svg'
+import * as WBackgroundXbull from './svgs/wallets/background/xbull.svg'
 import * as WBrandedXdefi from './svgs/wallets/branded/xdefi.svg'
 import * as WMonoXdefi from './svgs/wallets/mono/xdefi.svg'
 import * as WBackgroundXdefi from './svgs/wallets/background/xdefi.svg'
@@ -6195,6 +6219,9 @@ import * as WBackgroundRabbit from './svgs/networks/background/rabbit.svg'
 import * as EBranded1inch from './svgs/exchanges/branded/1inch.svg'
 import * as EMono1inch from './svgs/exchanges/mono/1inch.svg'
 import * as EBackground1inch from './svgs/exchanges/background/1inch.svg'
+import * as EBrandedAquarius from './svgs/exchanges/branded/aquarius.svg'
+import * as EMonoAquarius from './svgs/exchanges/mono/aquarius.svg'
+import * as EBackgroundAquarius from './svgs/exchanges/background/aquarius.svg'
 import * as EBrandedBalancer from './svgs/exchanges/branded/balancer.svg'
 import * as EMonoBalancer from './svgs/exchanges/mono/balancer.svg'
 import * as EBackgroundBalancer from './svgs/exchanges/background/balancer.svg'
@@ -6255,6 +6282,9 @@ import * as EBackgroundParaSwap from './svgs/exchanges/background/para-swap.svg'
 import * as EBrandedParibu from './svgs/exchanges/branded/paribu.svg'
 import * as EMonoParibu from './svgs/exchanges/mono/paribu.svg'
 import * as EBackgroundParibu from './svgs/exchanges/background/paribu.svg'
+import * as EBrandedSoroswap from './svgs/exchanges/branded/soroswap.svg'
+import * as EMonoSoroswap from './svgs/exchanges/mono/soroswap.svg'
+import * as EBackgroundSoroswap from './svgs/exchanges/background/soroswap.svg'
 import * as EBrandedSushiswap from './svgs/exchanges/branded/sushiswap.svg'
 import * as EMonoSushiswap from './svgs/exchanges/mono/sushiswap.svg'
 import * as EBackgroundSushiswap from './svgs/exchanges/background/sushiswap.svg'
@@ -6449,6 +6479,7 @@ export const svgs = {
       bs: TBrandedBS,
       blank: TBrandedBLANK,
       blast: TBrandedBLAST,
+      blnd: TBrandedBLND,
       block: TBrandedBLOCK,
       bbank: TBrandedBBANK,
       bcb: TBrandedBCB,
@@ -8236,6 +8267,7 @@ export const svgs = {
       tao: TMonoTAO,
       bdt: TMonoBDT,
       bs: TMonoBS,
+      blnd: TMonoBLND,
       block: TMonoBLOCK,
       bbank: TMonoBBANK,
       bcb: TMonoBCB,
@@ -9823,6 +9855,7 @@ export const svgs = {
       bs: TBackgroundBS,
       blank: TBackgroundBLANK,
       blast: TBackgroundBLAST,
+      blnd: TBackgroundBLND,
       block: TBackgroundBLOCK,
       bbank: TBackgroundBBANK,
       bcb: TBackgroundBCB,
@@ -11508,6 +11541,7 @@ export const svgs = {
       eos: NBrandedEos,
       arweave: NBrandedArweave,
       stellar: NBrandedStellar,
+      'stellar-testnet': NBrandedStellarTestnet,
       zora: NBrandedZora,
       cronos: NBrandedCronos,
       'binance-smart-chain': NBrandedBinanceSmartChain,
@@ -11799,6 +11833,7 @@ export const svgs = {
       eos: NMonoEos,
       arweave: NMonoArweave,
       stellar: NMonoStellar,
+      'stellar-testnet': NMonoStellarTestnet,
       cronos: NMonoCronos,
       'binance-smart-chain': NMonoBinanceSmartChain,
       elastos: NMonoElastos,
@@ -12084,6 +12119,7 @@ export const svgs = {
       eos: NBackgroundEos,
       arweave: NBackgroundArweave,
       stellar: NBackgroundStellar,
+      'stellar-testnet': NBackgroundStellarTestnet,
       zora: NBackgroundZora,
       cronos: NBackgroundCronos,
       'binance-smart-chain': NBackgroundBinanceSmartChain,
@@ -12341,6 +12377,7 @@ export const svgs = {
   },
   wallets: {
     branded: {
+      albedo: WBrandedAlbedo,
       alfa1: WBrandedAlfa1,
       'alpha-wallet': WBrandedAlphaWallet,
       argent: WBrandedArgent,
@@ -12349,10 +12386,12 @@ export const svgs = {
       coin98: WBrandedCoin98,
       coinbase: WBrandedCoinbase,
       enkrypt: WBrandedEnkrypt,
+      freighter: WBrandedFreighter,
       imtoken: WBrandedImtoken,
       kraken: WBrandedKraken,
       ledger: WBrandedLedger,
       lit: WBrandedLit,
+      lobstr: WBrandedLobstr,
       metamask: WBrandedMetamask,
       'my-ether-wallet': WBrandedMyEtherWallet,
       obvious: WBrandedObvious,
@@ -12361,6 +12400,7 @@ export const svgs = {
       pillar: WBrandedPillar,
       portal: WBrandedPortal,
       rabby: WBrandedRabby,
+      rabet: WBrandedRabet,
       rainbow: WBrandedRainbow,
       ronin: WBrandedRonin,
       safe: WBrandedSafe,
@@ -12373,9 +12413,11 @@ export const svgs = {
       trezor: WBrandedTrezor,
       trust: WBrandedTrust,
       unipass: WBrandedUnipass,
+      varial: WBrandedVarial,
       venly: WBrandedVenly,
       'wallet-3': WBrandedWallet3,
       'wallet-connect': WBrandedWalletConnect,
+      xbull: WBrandedXbull,
       xdefi: WBrandedXdefi,
       zengo: WBrandedZengo,
       zerion: WBrandedZerion,
@@ -12395,6 +12437,7 @@ export const svgs = {
       rabbit: WBrandedRabbit,
     },
     mono: {
+      albedo: WMonoAlbedo,
       alfa1: WMonoAlfa1,
       'alpha-wallet': WMonoAlphaWallet,
       argent: WMonoArgent,
@@ -12402,10 +12445,12 @@ export const svgs = {
       clave: WMonoClave,
       coin98: WMonoCoin98,
       enkrypt: WMonoEnkrypt,
+      freighter: WMonoFreighter,
       imtoken: WMonoImtoken,
       kraken: WMonoKraken,
       ledger: WMonoLedger,
       lit: WMonoLit,
+      lobstr: WMonoLobstr,
       multis: WMonoMultis,
       'my-ether-wallet': WMonoMyEtherWallet,
       obvious: WMonoObvious,
@@ -12414,6 +12459,7 @@ export const svgs = {
       pillar: WMonoPillar,
       portal: WMonoPortal,
       rabby: WMonoRabby,
+      rabet: WMonoRabet,
       rainbow: WMonoRainbow,
       ronin: WMonoRonin,
       safe: WMonoSafe,
@@ -12426,9 +12472,11 @@ export const svgs = {
       trezor: WMonoTrezor,
       trust: WMonoTrust,
       unipass: WMonoUnipass,
+      varial: WMonoVarial,
       venly: WMonoVenly,
       'wallet-3': WMonoWallet3,
       'wallet-connect': WMonoWalletConnect,
+      xbull: WMonoXbull,
       xdefi: WMonoXdefi,
       zengo: WMonoZengo,
       zerion: WMonoZerion,
@@ -12446,6 +12494,7 @@ export const svgs = {
       rabbit: WMonoRabbit,
     },
     background: {
+      albedo: WBackgroundAlbedo,
       alfa1: WBackgroundAlfa1,
       'alpha-wallet': WBackgroundAlphaWallet,
       argent: WBackgroundArgent,
@@ -12454,10 +12503,12 @@ export const svgs = {
       coin98: WBackgroundCoin98,
       coinbase: WBackgroundCoinbase,
       enkrypt: WBackgroundEnkrypt,
+      freighter: WBackgroundFreighter,
       imtoken: WBackgroundImtoken,
       kraken: WBackgroundKraken,
       ledger: WBackgroundLedger,
       lit: WBackgroundLit,
+      lobstr: WBackgroundLobstr,
       metamask: WBackgroundMetamask,
       multis: WBackgroundMultis,
       'my-ether-wallet': WBackgroundMyEtherWallet,
@@ -12467,6 +12518,7 @@ export const svgs = {
       pillar: WBackgroundPillar,
       portal: WBackgroundPortal,
       rabby: WBackgroundRabby,
+      rabet: WBackgroundRabet,
       rainbow: WBackgroundRainbow,
       ronin: WBackgroundRonin,
       safe: WBackgroundSafe,
@@ -12479,9 +12531,11 @@ export const svgs = {
       trezor: WBackgroundTrezor,
       trust: WBackgroundTrust,
       unipass: WBackgroundUnipass,
+      varial: WBackgroundVarial,
       venly: WBackgroundVenly,
       'wallet-3': WBackgroundWallet3,
       'wallet-connect': WBackgroundWalletConnect,
+      xbull: WBackgroundXbull,
       xdefi: WBackgroundXdefi,
       zengo: WBackgroundZengo,
       zerion: WBackgroundZerion,
@@ -12504,6 +12558,7 @@ export const svgs = {
   exchanges: {
     branded: {
       '1inch': EBranded1inch,
+      aquarius: EBrandedAquarius,
       balancer: EBrandedBalancer,
       bancor: EBrandedBancor,
       binance: EBrandedBinance,
@@ -12524,6 +12579,7 @@ export const svgs = {
       'pancake-swap': EBrandedPancakeSwap,
       'para-swap': EBrandedParaSwap,
       paribu: EBrandedParibu,
+      soroswap: EBrandedSoroswap,
       sushiswap: EBrandedSushiswap,
       swissborg: EBrandedSwissborg,
       uniswap: EBrandedUniswap,
@@ -12536,6 +12592,7 @@ export const svgs = {
     },
     mono: {
       '1inch': EMono1inch,
+      aquarius: EMonoAquarius,
       balancer: EMonoBalancer,
       bancor: EMonoBancor,
       binance: EMonoBinance,
@@ -12556,6 +12613,7 @@ export const svgs = {
       'pancake-swap': EMonoPancakeSwap,
       'para-swap': EMonoParaSwap,
       paribu: EMonoParibu,
+      soroswap: EMonoSoroswap,
       sushiswap: EMonoSushiswap,
       swissborg: EMonoSwissborg,
       uniswap: EMonoUniswap,
@@ -12568,6 +12626,7 @@ export const svgs = {
     },
     background: {
       '1inch': EBackground1inch,
+      aquarius: EBackgroundAquarius,
       balancer: EBackgroundBalancer,
       bancor: EBackgroundBancor,
       binance: EBackgroundBinance,
@@ -12588,6 +12647,7 @@ export const svgs = {
       'pancake-swap': EBackgroundPancakeSwap,
       'para-swap': EBackgroundParaSwap,
       paribu: EBackgroundParibu,
+      soroswap: EBackgroundSoroswap,
       sushiswap: EBackgroundSushiswap,
       swissborg: EBackgroundSwissborg,
       uniswap: EBackgroundUniswap,

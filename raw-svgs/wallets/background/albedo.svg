@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_albedo_background)">
+<path d="M24 0H0V24H24V0Z" fill="white"/>
+<path d="M12.3341 4H11.6658L4.9003 19.9914 4.9205 20H6.7259L8.0798 16.7999C10.8933 17.7482 13.9425 17.7324 16.746 16.7548L18.119 20H19.0795L19.0997 19.9914ZM12.3477 16.8953C10.9775 16.8951 9.6163 16.6738 8.3166 16.2401L12.4224 6.5356 16.51 16.1972C15.171 16.6595 13.7643 16.8954 12.3477 16.8953Z" fill="#0691B7"/>
+</g>
+<defs>
+<clipPath id="clip0_albedo_background">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
