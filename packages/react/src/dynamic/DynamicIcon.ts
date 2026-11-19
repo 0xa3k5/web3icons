@@ -62,17 +62,22 @@ const DynamicIcon = forwardRef<SVGSVGElement, IDynamicIcon>(
     const [Icon, setIcon] = useState<IconComponent | null>(null)
 
     useEffect(() => {
-      if (!metadata) {
-        return
+      let active = true
+      setIcon(null)
+
+      if (metadata) {
+        loadIcon(type, metadata)
+          .then((loadedIcon) => {
+            if (active) setIcon(loadedIcon)
+          })
+          .catch(() => {
+            if (active) setIcon(null)
+          })
       }
 
-      loadIcon(type, metadata)
-        .then((loadedIcon) => {
-          setIcon(loadedIcon)
-        })
-        .catch(() => {
-          setIcon(null)
-        })
+      return () => {
+        active = false
+      }
     }, [type, metadata])
 
     // Show fallback for errors or missing icons
