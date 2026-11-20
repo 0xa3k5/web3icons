@@ -1,5 +1,13 @@
 # @web3icons/common
 
+## 0.11.56
+
+### Patch Changes
+
+- 5806f54: fix: GYEN and MOBI Stellar addresses now use the `CODE-ISSUER` format, like the other Stellar tokens. GYEN used a colon, and MOBI had a truncated `OBI-` code. Lookups by the old strings no longer match.
+  fix: Stellar Testnet `shortName` is now `Stellar Testnet` instead of its id
+  fix: BLND `marketCapRank` is `null` instead of `0`, so it no longer sorts ahead of ranked tokens
+
 ## 0.11.55
 
 ### Patch Changes
