@@ -1890,7 +1890,7 @@ export const tokens: ITokenMetadata[] = [
     filePath: 'token:BLND',
     symbol: 'blnd',
     name: 'Blend',
-    marketCapRank: 0,
+    marketCapRank: null,
     addresses: {
       stellar: 'BLND-GDJEHTBE6ZHUXSWFI642DCGLUOECLHPF3KSXHPXTSTJ7E3JF6MQ5EZYY',
     },
@@ -7642,7 +7642,7 @@ export const tokens: ITokenMetadata[] = [
     marketCapRank: 1312,
     addresses: {
       ethereum: '0xc08512927d12348f6620a698105e1baac6ecd911',
-      stellar: 'GYEN:GDF6VOEGRWLOZ64PQQGKD2IYWA22RLT37GJKS2EJXZHT2VLAGWLC5TOB',
+      stellar: 'GYEN-GDF6VOEGRWLOZ64PQQGKD2IYWA22RLT37GJKS2EJXZHT2VLAGWLC5TOB',
       solana: 'Crn4x1Y2HUKko7ox2EZMT6N2t2ZyH7eKtwkBGVnhEq1g',
       'arbitrum-one': '0x589d35656641d6ab57a545f08cf473ecd9b6d5f7',
     },
@@ -11605,7 +11605,7 @@ export const tokens: ITokenMetadata[] = [
     name: 'Mobius',
     marketCapRank: 1774,
     addresses: {
-      stellar: 'OBI-GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJPIH',
+      stellar: 'MOBI-GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJPIH',
     },
     variants: ['branded', 'mono', 'background'],
   },
